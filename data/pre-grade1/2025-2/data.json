@@ -1,0 +1,2296 @@
+{
+    "grade": "準1級",
+    "year": "2025",
+    "session": "2",
+    "title": "2025年度 第2回 英検準1級 リーディング",
+    "vocabulary": [
+        {
+            "word": "remote",
+            "meaning": "遠隔の、へんぴな",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The village is so remote that it has no internet access.",
+            "distractors": [
+                "近くの",
+                "便利な",
+                "混雑した"
+            ]
+        },
+        {
+            "word": "audible",
+            "meaning": "聞こえる",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Her voice was barely audible above the noise of the crowd.",
+            "distractors": [
+                "見える",
+                "触れられる",
+                "嗅げる"
+            ]
+        },
+        {
+            "word": "commuter",
+            "meaning": "通勤者",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "The train was packed with commuters heading to the city center.",
+            "distractors": [
+                "旅行者",
+                "運転手",
+                "乗客"
+            ]
+        },
+        {
+            "word": "commission",
+            "meaning": "手数料、歩合",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The real estate agent earned a generous commission on the sale.",
+            "distractors": [
+                "給料",
+                "ボーナス",
+                "罰金"
+            ]
+        },
+        {
+            "word": "fatigue",
+            "meaning": "疲労",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Chronic fatigue can be a sign of a more serious health condition.",
+            "distractors": [
+                "食欲",
+                "不眠",
+                "発熱"
+            ]
+        },
+        {
+            "word": "abruptly",
+            "meaning": "突然に",
+            "pos": "副詞",
+            "level": "準1級",
+            "example": "The meeting ended abruptly when the fire alarm went off.",
+            "distractors": [
+                "徐々に",
+                "穏やかに",
+                "計画通りに"
+            ]
+        },
+        {
+            "word": "tolerate",
+            "meaning": "容認する、我慢する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "I cannot tolerate such rude behavior in the workplace.",
+            "distractors": [
+                "禁止する",
+                "称賛する",
+                "無視する"
+            ]
+        },
+        {
+            "word": "massive",
+            "meaning": "巨大な、大規模な",
+            "pos": "形容詞",
+            "level": "2級上位",
+            "example": "The company suffered massive losses due to the economic downturn.",
+            "distractors": [
+                "わずかな",
+                "中程度の",
+                "一時的な"
+            ]
+        },
+        {
+            "word": "accommodate",
+            "meaning": "収容する、適応する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The hotel can accommodate up to 300 guests at a time.",
+            "distractors": [
+                "拒否する",
+                "制限する",
+                "削減する"
+            ]
+        },
+        {
+            "word": "forthcoming",
+            "meaning": "率直な、来たるべき",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The manager was not forthcoming about the company's financial problems.",
+            "distractors": [
+                "無関心な",
+                "楽観的な",
+                "秘密主義の"
+            ]
+        },
+        {
+            "word": "indebted",
+            "meaning": "恩義がある",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "I am deeply indebted to my parents for their unwavering support.",
+            "distractors": [
+                "怒っている",
+                "無関係な",
+                "無感動な"
+            ]
+        },
+        {
+            "word": "escort",
+            "meaning": "付き添う、護衛する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Security guards escorted the celebrity through the crowd of fans.",
+            "distractors": [
+                "追い払う",
+                "招待する",
+                "紹介する"
+            ]
+        },
+        {
+            "word": "batch",
+            "meaning": "一回分の生産量、一群",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "She baked a fresh batch of bread every morning for the bakery.",
+            "distractors": [
+                "全体",
+                "残り",
+                "選別品"
+            ]
+        },
+        {
+            "word": "evoke",
+            "meaning": "呼び起こす",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The old photograph evoked fond memories of her childhood.",
+            "distractors": [
+                "消し去る",
+                "記録する",
+                "忘れさせる"
+            ]
+        },
+        {
+            "word": "figure on",
+            "meaning": "当てにする、見込む",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "Don't figure on getting a raise this year; the budget is tight.",
+            "distractors": [
+                "諦める",
+                "計算する",
+                "心配する"
+            ]
+        },
+        {
+            "word": "shoot down",
+            "meaning": "撃墜する、却下する",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "My proposal was immediately shot down by the board of directors.",
+            "distractors": [
+                "承認する",
+                "延期する",
+                "修正する"
+            ]
+        },
+        {
+            "word": "tear down",
+            "meaning": "取り壊す",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "They plan to tear down the old building and construct a new park.",
+            "distractors": [
+                "修理する",
+                "装飾する",
+                "拡張する"
+            ]
+        },
+        {
+            "word": "get down",
+            "meaning": "降りる、取りかかる",
+            "pos": "句動詞",
+            "level": "2級上位",
+            "example": "Let's get down to business and discuss the project timeline.",
+            "distractors": [
+                "諦める",
+                "立ち上がる",
+                "逃げる"
+            ]
+        },
+        {
+            "word": "stocky",
+            "meaning": "ずんぐりした",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The stocky wrestler easily overpowered his taller opponent.",
+            "distractors": [
+                "痩せた",
+                "背の高い",
+                "美しい"
+            ]
+        },
+        {
+            "word": "impressionable",
+            "meaning": "影響されやすい",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Young children are highly impressionable and learn from everything around them.",
+            "distractors": [
+                "無関心な",
+                "頑固な",
+                "独立心の強い"
+            ]
+        },
+        {
+            "word": "eligible",
+            "meaning": "資格のある",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Anyone over eighteen is eligible to vote in the national election.",
+            "distractors": [
+                "免除された",
+                "禁止された",
+                "義務付けられた"
+            ]
+        },
+        {
+            "word": "plead",
+            "meaning": "嘆願する、弁明する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The lawyer pleaded for a lighter sentence for his client.",
+            "distractors": [
+                "要求する",
+                "拒否する",
+                "非難する"
+            ]
+        },
+        {
+            "word": "alleged",
+            "meaning": "申し立てられた",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The alleged criminal was released due to insufficient evidence.",
+            "distractors": [
+                "有罪の",
+                "釈放された",
+                "無関係の"
+            ]
+        },
+        {
+            "word": "dehydrate",
+            "meaning": "脱水する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Athletes can become dehydrated quickly if they don't drink enough water.",
+            "distractors": [
+                "飽和する",
+                "凍結する",
+                "蒸発する"
+            ]
+        },
+        {
+            "word": "aggression",
+            "meaning": "攻撃性",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The dog showed signs of aggression whenever strangers approached.",
+            "distractors": [
+                "服従",
+                "無関心",
+                "友好"
+            ]
+        },
+        {
+            "word": "relegation",
+            "meaning": "格下げ",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The team faced relegation after a disastrous season.",
+            "distractors": [
+                "昇格",
+                "優勝",
+                "引退"
+            ]
+        },
+        {
+            "word": "humiliate",
+            "meaning": "屈辱を与える",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The bully tried to humiliate the new student in front of the class.",
+            "distractors": [
+                "励ます",
+                "無視する",
+                "称賛する"
+            ]
+        },
+        {
+            "word": "snap up",
+            "meaning": "素早く手に入れる",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "Shoppers snapped up the discounted electronics within minutes.",
+            "distractors": [
+                "返品する",
+                "見過ごす",
+                "比較する"
+            ]
+        },
+        {
+            "word": "even out",
+            "meaning": "均等になる",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "The workload should even out once the new staff members are trained.",
+            "distractors": [
+                "増加する",
+                "消滅する",
+                "悪化する"
+            ]
+        },
+        {
+            "word": "take in",
+            "meaning": "理解する、だまされる",
+            "pos": "句動詞",
+            "level": "2級上位",
+            "example": "There was so much information that it was hard to take it all in.",
+            "distractors": [
+                "拒否する",
+                "忘れる",
+                "発信する"
+            ]
+        },
+        {
+            "word": "strike",
+            "meaning": "ストライキ、打撃",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "Workers went on strike to demand higher wages and better conditions.",
+            "distractors": [
+                "会議",
+                "休暇",
+                "解雇"
+            ]
+        },
+        {
+            "word": "protest",
+            "meaning": "抗議",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "Thousands of people gathered in the square to join the peaceful protest.",
+            "distractors": [
+                "祝賀",
+                "演説",
+                "投票"
+            ]
+        },
+        {
+            "word": "unrest",
+            "meaning": "社会不安",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Political unrest in the region led to widespread violence and displacement.",
+            "distractors": [
+                "安定",
+                "繁栄",
+                "平和"
+            ]
+        },
+        {
+            "word": "welfare",
+            "meaning": "福祉",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The government introduced new policies to improve child welfare.",
+            "distractors": [
+                "利益",
+                "教育",
+                "犯罪"
+            ]
+        },
+        {
+            "word": "play down",
+            "meaning": "軽視する",
+            "pos": "句動詞",
+            "level": "準1級",
+            "example": "The CEO tried to play down the severity of the company's losses.",
+            "distractors": [
+                "誇張する",
+                "認める",
+                "公表する"
+            ]
+        },
+        {
+            "word": "empowered",
+            "meaning": "力を与えられた",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The new training program made employees feel more empowered and confident.",
+            "distractors": [
+                "制限された",
+                "落胆した",
+                "無視された"
+            ]
+        },
+        {
+            "word": "stimulus",
+            "meaning": "刺激、きっかけ",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The tax reduction served as a stimulus for economic growth.",
+            "distractors": [
+                "障害",
+                "制約",
+                "負担"
+            ]
+        },
+        {
+            "word": "novelty",
+            "meaning": "新奇さ",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The novelty of the gadget wore off after a few weeks.",
+            "distractors": [
+                "価値",
+                "複雑さ",
+                "安全性"
+            ]
+        },
+        {
+            "word": "longevity",
+            "meaning": "長寿、長期間",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Regular exercise is one of the keys to career longevity in professional sports.",
+            "distractors": [
+                "短命",
+                "不安定",
+                "衰退"
+            ]
+        },
+        {
+            "word": "diversity",
+            "meaning": "多様性",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "The university prides itself on the diversity of its student body.",
+            "distractors": [
+                "均一性",
+                "不足",
+                "偏り"
+            ]
+        },
+        {
+            "word": "prioritize",
+            "meaning": "優先する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "You need to prioritize your health over your career ambitions.",
+            "distractors": [
+                "犠牲にする",
+                "無視する",
+                "延期する"
+            ]
+        },
+        {
+            "word": "innovation",
+            "meaning": "革新",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "Technological innovation has transformed the way we communicate.",
+            "distractors": [
+                "伝統",
+                "衰退",
+                "模倣"
+            ]
+        },
+        {
+            "word": "unsung",
+            "meaning": "称賛されていない",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "She was one of the unsung heroes who helped build the organization.",
+            "distractors": [
+                "有名な",
+                "批判された",
+                "無能な"
+            ]
+        },
+        {
+            "word": "aerodynamics",
+            "meaning": "空力学",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The car's sleek design was optimized for aerodynamics and speed.",
+            "distractors": [
+                "電子工学",
+                "天文学",
+                "化学"
+            ]
+        },
+        {
+            "word": "computation",
+            "meaning": "計算",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The computation of the satellite's orbit required extremely precise data.",
+            "distractors": [
+                "推測",
+                "観察",
+                "実験"
+            ]
+        },
+        {
+            "word": "discriminatory",
+            "meaning": "差別的な",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The company was sued for its discriminatory hiring practices.",
+            "distractors": [
+                "公正な",
+                "効率的な",
+                "伝統的な"
+            ]
+        },
+        {
+            "word": "segregated",
+            "meaning": "人種隔離された",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Schools in the area were segregated by race until the 1960s.",
+            "distractors": [
+                "統合された",
+                "私立の",
+                "近代的な"
+            ]
+        },
+        {
+            "word": "negate",
+            "meaning": "否定する、無効にする",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The new evidence negated the scientist's original hypothesis.",
+            "distractors": [
+                "証明する",
+                "強化する",
+                "確認する"
+            ]
+        },
+        {
+            "word": "remedy",
+            "meaning": "治療法、救済策",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Herbal remedies have been used for centuries to treat common ailments.",
+            "distractors": [
+                "原因",
+                "症状",
+                "診断"
+            ]
+        },
+        {
+            "word": "self-medicate",
+            "meaning": "自己投薬する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Some people self-medicate with over-the-counter drugs instead of seeing a doctor.",
+            "distractors": [
+                "処方する",
+                "手術する",
+                "予防接種する"
+            ]
+        },
+        {
+            "word": "parasite",
+            "meaning": "寄生虫",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The tropical disease is caused by a parasite transmitted through mosquito bites.",
+            "distractors": [
+                "ウイルス",
+                "細菌",
+                "毒素"
+            ]
+        },
+        {
+            "word": "innate",
+            "meaning": "生得的な、先天的な",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Humans seem to have an innate ability to acquire language from birth.",
+            "distractors": [
+                "後天的な",
+                "人工的な",
+                "一時的な"
+            ]
+        },
+        {
+            "word": "larvae",
+            "meaning": "幼虫",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Butterfly larvae feed on specific plants before they enter the cocoon stage.",
+            "distractors": [
+                "成虫",
+                "卵",
+                "さなぎ"
+            ]
+        },
+        {
+            "word": "resin",
+            "meaning": "樹脂",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The amber jewelry is made from fossilized tree resin millions of years old.",
+            "distractors": [
+                "花粉",
+                "樹液",
+                "根"
+            ]
+        },
+        {
+            "word": "antibacterial",
+            "meaning": "抗菌の",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Using antibacterial soap can help prevent the spread of infections.",
+            "distractors": [
+                "有害な",
+                "無効な",
+                "感染性の"
+            ]
+        },
+        {
+            "word": "antifungal",
+            "meaning": "抗真菌の",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The doctor prescribed an antifungal cream for the skin infection.",
+            "distractors": [
+                "抗ウイルスの",
+                "鎮痛の",
+                "栄養の"
+            ]
+        },
+        {
+            "word": "instinct",
+            "meaning": "本能",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "Birds seem to migrate south for the winter by instinct rather than learning.",
+            "distractors": [
+                "経験",
+                "訓練",
+                "模倣"
+            ]
+        },
+        {
+            "word": "colony",
+            "meaning": "コロニー、植民地",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "An ant colony can contain millions of individuals working together.",
+            "distractors": [
+                "群れ",
+                "巣",
+                "領土"
+            ]
+        },
+        {
+            "word": "hypothesis",
+            "meaning": "仮説",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The scientist's hypothesis was supported by the experimental data.",
+            "distractors": [
+                "結論",
+                "事実",
+                "定理"
+            ]
+        },
+        {
+            "word": "skyrocket",
+            "meaning": "急騰する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Housing prices have skyrocketed in major cities over the past decade.",
+            "distractors": [
+                "安定する",
+                "下落する",
+                "停滞する"
+            ]
+        },
+        {
+            "word": "commendable",
+            "meaning": "称賛に値する",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Her dedication to the project was truly commendable.",
+            "distractors": [
+                "批判すべき",
+                "疑わしい",
+                "普通の"
+            ]
+        },
+        {
+            "word": "sinister",
+            "meaning": "不吉な、邪悪な",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "There was something sinister about the abandoned house at the end of the road.",
+            "distractors": [
+                "明るい",
+                "平和な",
+                "安全な"
+            ]
+        },
+        {
+            "word": "perilous",
+            "meaning": "危険な",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The mountaineers faced perilous conditions during their climb to the summit.",
+            "distractors": [
+                "安全な",
+                "穏やかな",
+                "容易な"
+            ]
+        },
+        {
+            "word": "vague",
+            "meaning": "曖昧な",
+            "pos": "形容詞",
+            "level": "2級上位",
+            "example": "His instructions were so vague that nobody knew what to do.",
+            "distractors": [
+                "明確な",
+                "詳細な",
+                "具体的な"
+            ]
+        },
+        {
+            "word": "doomed",
+            "meaning": "運命づけられた",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The expedition was doomed from the start due to poor planning.",
+            "distractors": [
+                "成功した",
+                "祝福された",
+                "保護された"
+            ]
+        },
+        {
+            "word": "substitute",
+            "meaning": "代わり、代用品",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "There is no substitute for hard work when it comes to success.",
+            "distractors": [
+                "原本",
+                "追加",
+                "改善"
+            ]
+        },
+        {
+            "word": "household name",
+            "meaning": "誰もが知る名前",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The brand has become a household name thanks to its innovative products.",
+            "distractors": [
+                "秘密の組織",
+                "無名の人物",
+                "地方の習慣"
+            ]
+        },
+        {
+            "word": "orbital",
+            "meaning": "軌道の",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The satellite completed its first orbital rotation around the Earth.",
+            "distractors": [
+                "海底の",
+                "地下の",
+                "大気中の"
+            ]
+        },
+        {
+            "word": "predecessor",
+            "meaning": "前任者、前身",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "The new CEO promised to fix the mistakes made by her predecessor.",
+            "distractors": [
+                "後任者",
+                "競争相手",
+                "同僚"
+            ]
+        },
+        {
+            "word": "escalate",
+            "meaning": "激化する、拡大する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Tensions between the two countries escalated after the border incident.",
+            "distractors": [
+                "解消する",
+                "安定する",
+                "縮小する"
+            ]
+        },
+        {
+            "word": "abolish",
+            "meaning": "廃止する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The government abolished the outdated law after years of public pressure.",
+            "distractors": [
+                "強化する",
+                "維持する",
+                "制定する"
+            ]
+        },
+        {
+            "word": "verify",
+            "meaning": "検証する",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "Please verify your email address by clicking the link in the message.",
+            "distractors": [
+                "削除する",
+                "無視する",
+                "変更する"
+            ]
+        },
+        {
+            "word": "medicinal",
+            "meaning": "薬効のある",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "Many plants in the rainforest have medicinal properties yet to be discovered.",
+            "distractors": [
+                "有毒な",
+                "装飾的な",
+                "食用の"
+            ]
+        },
+        {
+            "word": "zoopharmacognosy",
+            "meaning": "動物薬理学",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Zoopharmacognosy is the study of how animals use natural substances to treat diseases.",
+            "distractors": [
+                "動物行動学",
+                "生態学",
+                "獣医学"
+            ]
+        },
+        {
+            "word": "chimpanzee",
+            "meaning": "チンパンジー",
+            "pos": "名詞",
+            "level": "2級上位",
+            "example": "Chimpanzees are known for their ability to use tools and solve problems.",
+            "distractors": [
+                "ゴリラ",
+                "オランウータン",
+                "ヒヒ"
+            ]
+        },
+        {
+            "word": "deliberately",
+            "meaning": "意図的に",
+            "pos": "副詞",
+            "level": "準1級",
+            "example": "She deliberately ignored the warning signs and continued driving.",
+            "distractors": [
+                "偶然に",
+                "無意識に",
+                "慌てて"
+            ]
+        },
+        {
+            "word": "trigger",
+            "meaning": "引き金となる",
+            "pos": "動詞",
+            "level": "準1級",
+            "example": "The loud noise triggered a panic response in the crowd.",
+            "distractors": [
+                "防ぐ",
+                "緩和する",
+                "遅らせる"
+            ]
+        },
+        {
+            "word": "progressive",
+            "meaning": "進歩的な",
+            "pos": "形容詞",
+            "level": "準1級",
+            "example": "The school adopted a progressive approach to education, focusing on student-led learning.",
+            "distractors": [
+                "保守的な",
+                "伝統的な",
+                "時代遅れの"
+            ]
+        },
+        {
+            "word": "rote",
+            "meaning": "機械的な暗記",
+            "pos": "名詞",
+            "level": "準1級",
+            "example": "Students were expected to learn the material by rote rather than understanding it.",
+            "distractors": [
+                "創造性",
+                "応用力",
+                "分析力"
+            ]
+        },
+        {
+            "word": "sufficiently",
+            "meaning": "十分に",
+            "pos": "副詞",
+            "level": "準1級",
+            "example": "The evidence was not sufficiently strong to support the theory.",
+            "distractors": [
+                "不十分に",
+                "過度に",
+                "わずかに"
+            ]
+        }
+    ],
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(18)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "The couple decided not to buy the house in the countryside because it was so ( 1 ). The nearest town was over two hours away by car.",
+                    "translation": "その夫婦は田舎の家を買わないことにした。それがあまりにも( 1 )だったからだ。最寄りの町は車で2時間以上離れていた。",
+                    "choices": [
+                        "stocky",
+                        "cheery",
+                        "ambitious",
+                        "remote"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ stocky＝ずんぐりした。人の体型に使う形容詞で不適切",
+                        "❌ cheery＝陽気な。場所の遠さとは無関係",
+                        "❌ ambitious＝野心的な。家の特徴として不自然",
+                        "✅ remote＝遠隔の、へんぴな。最寄りの町が2時間離れている文脈に合致"
+                    ],
+                    "grammar": "💡 remoteは「距離的に遠い」だけでなく「可能性が低い」(a remote chance)の意味もある準1頻出語。"
+                },
+                {
+                    "number": 2,
+                    "text": "Dogs have excellent hearing compared with humans. There are many sounds that cannot be heard by people but are ( 2 ) to dogs.",
+                    "translation": "犬は人間と比べて優れた聴覚を持っている。人間には聞こえないが犬には( 2 )な音が多くある。",
+                    "choices": [
+                        "commendable",
+                        "impressionable",
+                        "audible",
+                        "eligible"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ commendable＝称賛に値する。音の聞こえやすさとは無関係",
+                        "❌ impressionable＝影響されやすい。人の性格に使う",
+                        "✅ audible＝聞こえる。「犬には聞こえる音」という文脈に合致",
+                        "❌ eligible＝資格のある。音に対して不適切"
+                    ],
+                    "grammar": "💡 audibleの反意語はinaudible。-ibleは「～できる」を表す接尾辞（visible, flexible等）。"
+                },
+                {
+                    "number": 3,
+                    "text": "The new highway should be good for ( 3 ) who drive to work from the suburbs. The amount of time needed to drive into the city is expected to drop by 10 percent.",
+                    "translation": "新しい高速道路は郊外から車で通勤する( 3 )にとって良いだろう。市内への運転時間は10%短縮される見込みだ。",
+                    "choices": [
+                        "invaders",
+                        "commuters",
+                        "composers",
+                        "installers"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ invaders＝侵略者。通勤の文脈に不適切",
+                        "✅ commuters＝通勤者。郊外から市内へ車で通う人の文脈に合致",
+                        "❌ composers＝作曲家。文脈に無関係",
+                        "❌ installers＝設置者。通勤と無関係"
+                    ],
+                    "grammar": "💡 commuterはcommute（通勤する）の派生語。commute + -er = 通勤する人。"
+                },
+                {
+                    "number": 4,
+                    "text": "Roger was eager to sell as many cars as possible because he earned a 20 percent ( 4 ) on every sale. He planned to use the extra money to travel around the world.",
+                    "translation": "ロジャーはできるだけ多くの車を売りたがっていた。販売ごとに20%の( 4 )を得ていたからだ。そのお金で世界中を旅行する計画だった。",
+                    "choices": [
+                        "commission",
+                        "script",
+                        "fragment",
+                        "molecule"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ commission＝手数料、歩合。販売ごとに20%もらえるという文脈に合致",
+                        "❌ script＝台本、脚本。販売報酬とは無関係",
+                        "❌ fragment＝断片。金銭的報酬の文脈に不適切",
+                        "❌ molecule＝分子。科学用語で文脈に不適切"
+                    ],
+                    "grammar": "💡 commissionは「委任」「委員会」の意味もある多義語。earn a commission on～で「～の手数料を得る」。"
+                },
+                {
+                    "number": 5,
+                    "text": "The doctor told Emma she was suffering from ( 5 ) due to overwork. He said that with a break and plenty of rest, however, she would recover quickly.",
+                    "translation": "医師はエマに、過労による( 5 )に苦しんでいると伝えた。しかし休憩と十分な休息があればすぐに回復すると言った。",
+                    "choices": [
+                        "virtue",
+                        "fatigue",
+                        "oversight",
+                        "perception"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ virtue＝美徳。病状の文脈に不適切",
+                        "✅ fatigue＝疲労。過労による症状として文脈に合致",
+                        "❌ oversight＝見落とし。医療の文脈に不適切",
+                        "❌ perception＝認識、知覚。症状としては不自然"
+                    ],
+                    "grammar": "💡 fatigueはフランス語由来。mental fatigue（精神的疲労）、combat fatigue（戦闘疲労）などの複合語も重要。"
+                },
+                {
+                    "number": 6,
+                    "text": "Kevin nearly drove into the truck in front of him when it stopped ( 6 ). He stepped hard on the brakes and just managed to avoid crashing into it.",
+                    "translation": "前方のトラックが( 6 )停車したとき、ケビンは危うくぶつかるところだった。急ブレーキを踏んでかろうじて衝突を回避した。",
+                    "choices": [
+                        "indifferently",
+                        "appealingly",
+                        "abruptly",
+                        "timidly"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ indifferently＝無関心に。停車の仕方としては不自然",
+                        "❌ appealingly＝魅力的に。車の停車には不適切",
+                        "✅ abruptly＝突然に。急ブレーキが必要だった文脈に合致",
+                        "❌ timidly＝おずおずと。急停車の文脈に合わない"
+                    ],
+                    "grammar": "💡 abruptlyは「予告なく突然」の意味。abrupt change（急変）、abrupt ending（突然の終了）も頻出。"
+                },
+                {
+                    "number": 7,
+                    "text": "The professor told the class that she would not ( 7 ) lateness. She said that any papers not turned in on time would receive a failing grade.",
+                    "translation": "教授はクラスに遅刻を( 7 )しないと言った。期限内に提出されなかったレポートは不合格の成績になると述べた。",
+                    "choices": [
+                        "clarify",
+                        "implement",
+                        "tolerate",
+                        "humiliate"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ clarify＝明確にする。遅刻に対する態度としては不自然",
+                        "❌ implement＝実施する。目的語に「遅刻」は不適切",
+                        "✅ tolerate＝容認する。遅刻を許さないという文脈に合致",
+                        "❌ humiliate＝屈辱を与える。目的語にlatenessは不自然"
+                    ],
+                    "grammar": "💡 tolerateは「我慢して受け入れる」。tolerance（寛容）、tolerant（寛容な）も派生語として重要。"
+                },
+                {
+                    "number": 8,
+                    "text": "While the sun may look small from Earth, it is ( 8 ). In fact, it is many times bigger than any planet in the solar system.",
+                    "translation": "太陽は地球からは小さく見えるかもしれないが、( 8 )である。実際、太陽系のどの惑星よりも何倍も大きい。",
+                    "choices": [
+                        "massive",
+                        "amusing",
+                        "graceful",
+                        "hesitant"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ massive＝巨大な。太陽系で最も大きいという文脈に合致",
+                        "❌ amusing＝面白い。太陽の大きさの文脈に不適切",
+                        "❌ graceful＝優雅な。サイズの対比の文脈に合わない",
+                        "❌ hesitant＝ためらいがちな。天体には不適切"
+                    ],
+                    "grammar": "💡 massiveは「質量が大きい」が原義（mass + -ive）。a massive earthquake, massive damageなど。"
+                },
+                {
+                    "number": 9,
+                    "text": "A: Majid, remind me how many people we can ( 9 ) in Conference Room B.\nB: Fifteen, so it should be fine for today's meeting.",
+                    "translation": "A: マジッド、会議室Bに何人( 9 )できるか教えて。\nB: 15人だから、今日の会議には十分だろう。",
+                    "choices": [
+                        "outlaw",
+                        "elevate",
+                        "plead",
+                        "accommodate"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ outlaw＝非合法にする。人数収容の文脈に不適切",
+                        "❌ elevate＝持ち上げる、高める。収容の文脈に合わない",
+                        "❌ plead＝嘆願する。会議室の人数に無関係",
+                        "✅ accommodate＝収容する。会議室に15人入れるという文脈に合致"
+                    ],
+                    "grammar": "💡 accommodateは「宿泊させる」「適応する」の意味もある。accommodation（宿泊施設）は名詞形。"
+                },
+                {
+                    "number": 10,
+                    "text": "The company president was not ( 10 ) about the reasons for the layoffs. When asked, he gave only vague answers and avoided any direct comments.",
+                    "translation": "社長は解雇の理由について( 10 )ではなかった。聞かれても曖昧な回答しかせず、直接的なコメントを避けた。",
+                    "choices": [
+                        "alleged",
+                        "forthcoming",
+                        "blissful",
+                        "fainthearted"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ alleged＝申し立てられた。人の態度には不自然",
+                        "✅ forthcoming＝率直な、進んで情報を出す。曖昧な回答をした文脈の逆として合致",
+                        "❌ blissful＝至福の。情報開示の文脈に不適切",
+                        "❌ fainthearted＝臆病な。情報を隠す理由としては不正確"
+                    ],
+                    "grammar": "💡 forthcomingは「来たるべき」（the forthcoming election）と「率直な」の2つの意味がある。"
+                },
+                {
+                    "number": 11,
+                    "text": "The politician claimed he was ( 11 ) to no one, but everyone knew he had received donations from many companies to help his campaign.",
+                    "translation": "その政治家は誰にも( 11 )していないと主張したが、選挙活動のために多くの企業から献金を受けていたことは誰もが知っていた。",
+                    "choices": [
+                        "sinister",
+                        "indebted",
+                        "perilous",
+                        "doomed"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ sinister＝不吉な。「誰にもsinisterでない」は意味不明",
+                        "✅ indebted＝恩義がある、借りがある。企業から献金を受けた文脈と合致",
+                        "❌ perilous＝危険な。「誰にも危険でない」は文脈に不適切",
+                        "❌ doomed＝運命づけられた。「誰にもdoomedでない」は不自然"
+                    ],
+                    "grammar": "💡 indebtedはin- + debt + -ed。be indebted to ～ で「～に恩義がある」。金銭的にも精神的にも使える。"
+                },
+                {
+                    "number": 12,
+                    "text": "Parents were asked to ( 12 ) their children to and from the school dance. Since the event would be held in the evening, school officials did not want children going on their own.",
+                    "translation": "保護者はスクールダンスへ子どもを( 12 )するよう求められた。イベントが夜に行われるため、学校側は子どもだけで行かせたくなかった。",
+                    "choices": [
+                        "appoint",
+                        "import",
+                        "acquaint",
+                        "escort"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ appoint＝任命する。子どもの送迎の文脈に不適切",
+                        "❌ import＝輸入する。人の移動の文脈に不適切",
+                        "❌ acquaint＝親しくさせる。送迎の意味にはならない",
+                        "✅ escort＝付き添う、護衛する。子どもの送り迎えの文脈に合致"
+                    ],
+                    "grammar": "💡 escortは名詞でも使える（police escort = 警察の護衛）。to and fromで「行き帰り」を表す。"
+                },
+                {
+                    "number": 13,
+                    "text": "The cookie factory made one ( 13 ) of cookies with salt instead of sugar. They had to throw the entire lot away.",
+                    "translation": "クッキー工場が砂糖の代わりに塩で1( 13 )のクッキーを作ってしまった。そのロット全体を廃棄しなければならなかった。",
+                    "choices": [
+                        "aggression",
+                        "substitute",
+                        "relegation",
+                        "batch"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ aggression＝攻撃性。クッキー生産の文脈に不適切",
+                        "❌ substitute＝代わり。「one substitute of cookies」は不自然",
+                        "❌ relegation＝格下げ。製造の文脈に不適切",
+                        "✅ batch＝一回分の生産量。「one batch of cookies」で1回分のクッキーの意味"
+                    ],
+                    "grammar": "💡 batchは「一回に作る量」。a batch of emails（一連のメール）のように非物質にも使える。"
+                },
+                {
+                    "number": 14,
+                    "text": "The documentary on the war was so powerful that it ( 14 ) strong feelings of sadness and anger in the viewers.",
+                    "translation": "そのドキュメンタリーは非常に力強く、視聴者に悲しみと怒りの強い感情を( 14 )した。",
+                    "choices": [
+                        "dehydrated",
+                        "evoked",
+                        "acquired",
+                        "posed"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ dehydrated＝脱水した。感情を引き起こす文脈に不適切",
+                        "✅ evoked＝呼び起こした。感情を引き出すという文脈に合致",
+                        "❌ acquired＝獲得した。「感情を獲得した」は不自然",
+                        "❌ posed＝提起した。「感情をposed」は不適切な組み合わせ"
+                    ],
+                    "grammar": "💡 evokeは「感情・記憶を呼び起こす」。evoke memories/emotions/images が典型的なコロケーション。"
+                },
+                {
+                    "number": 15,
+                    "text": "The travel agent warned the couple not to ( 15 ) the discount airline's flights being on time. They were often delayed or canceled.",
+                    "translation": "旅行代理店は格安航空会社のフライトが時間通りであることを( 15 )しないよう夫婦に警告した。遅延やキャンセルが多かった。",
+                    "choices": [
+                        "take in",
+                        "even out",
+                        "figure on",
+                        "make do"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ take in＝理解する、だまされる。「フライトが時間通りであることをtake inしない」は不自然",
+                        "❌ even out＝均等になる。フライトの定時性に対して不適切",
+                        "✅ figure on＝当てにする、見込む。格安航空が時間通りかを当てにするなという文脈に合致",
+                        "❌ make do＝間に合わせる。フライトの定時性に対して不適切"
+                    ],
+                    "grammar": "💡 figure onは「～を当てにする、予期する」の句動詞。Don't figure on it.（それを当てにするな）は日常会話でも使える。"
+                },
+                {
+                    "number": 16,
+                    "text": "The country's military was able to ( 16 ) the enemy's spy drone before it could gather any information about the country's defenses.",
+                    "translation": "その国の軍隊は、敵のスパイドローンが防衛情報を収集する前に( 16 )することができた。",
+                    "choices": [
+                        "hold out",
+                        "shoot down",
+                        "get over",
+                        "snap up"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ hold out＝持ちこたえる。ドローンの撃墜の文脈に不適切",
+                        "✅ shoot down＝撃墜する。スパイドローンを撃ち落とすという文脈に合致",
+                        "❌ get over＝乗り越える。軍事的撃墜の意味にはならない",
+                        "❌ snap up＝素早く手に入れる。ドローンの破壊の文脈に不適切"
+                    ],
+                    "grammar": "💡 shoot downは物理的に「撃ち落とす」以外に、比喩的に「(提案を)却下する」の意味もある。"
+                },
+                {
+                    "number": 17,
+                    "text": "The city plans to ( 17 ) the old theater and build a new one in the same place, but many residents are unhappy about the plan.",
+                    "translation": "市は古い劇場を( 17 )して同じ場所に新しいものを建てる計画だが、多くの住民はその計画に不満だ。",
+                    "choices": [
+                        "tune up",
+                        "touch on",
+                        "tear down",
+                        "free up"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ tune up＝調整する。建物の解体の文脈に不適切",
+                        "❌ touch on＝触れる、言及する。建物に対して不適切",
+                        "✅ tear down＝取り壊す。古い劇場を壊して新しいものを建てるという文脈に合致",
+                        "❌ free up＝解放する。建物の解体の直接的な表現ではない"
+                    ],
+                    "grammar": "💡 tear downは「取り壊す」。反意はbuild up。tear apart（引き裂く）も関連句動詞。"
+                },
+                {
+                    "number": 18,
+                    "text": "A: How long will it take to ( 18 ) from the mountaintop, Jane?\nB: About three hours, but it will take longer if we walk at a slow pace.",
+                    "translation": "A: 山頂から( 18 )するのにどれくらいかかる、ジェーン？\nB: 約3時間だけど、ゆっくり歩けばもっとかかるよ。",
+                    "choices": [
+                        "get down",
+                        "round out",
+                        "die away",
+                        "lay out"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ get down＝降りる。山頂から下山するという文脈に合致",
+                        "❌ round out＝完成させる、仕上げる。山の文脈に不適切",
+                        "❌ die away＝次第に消える。人の移動としては不自然",
+                        "❌ lay out＝配置する、計画する。下山の意味にはならない"
+                    ],
+                    "grammar": "💡 get downは多義句動詞。get down to business（仕事に取りかかる）、get me down（がっかりさせる）も重要。"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "passage-fill",
+            "instruction": "次の英文A，Bを読み，その文意にそって(19)から(24)までの(　)に入れるのに最も適切なものを選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Striking Schoolchildren",
+                    "paragraphs": [
+                        "In 1911, a group of schoolchildren in Wales walked out of their school in protest. They then proceeded to march through the streets of their town, encouraging students from other schools to join them along the way. The strike ended peacefully on the same day, but news of the incident spread to other towns and cities across the country. ( 19 ), a series of school strikes occurred across the United Kingdom. In the end, schoolchildren from around sixty schools are thought to have participated in similar protests.",
+                        "Reports of the initial strike state that it began because of the unfair punishment of a student at the school. However, some historians suggest the reason ( 20 ). The strike followed many months of public unrest in the United Kingdom, during which workers called for improved labor conditions and many industrial strikes occurred. The schoolchildren would have seen members of their families participate in these protests, which historians believe inspired them to stand up for their own rights as well.",
+                        "School authorities attempted to play down the importance of the school strikes by pointing out that only a small percentage of the national school population participated. While this was true, it ( 21 ) the protests. For one thing, they represented one of the first times that schoolchildren in the United Kingdom had felt sufficiently empowered to stand up for their rights. The strikes also provided the stimulus for societal reforms that would end up improving child welfare in the United Kingdom."
+                    ],
+                    "translations": [
+                        "1911年、ウェールズの児童グループが抗議のために学校を飛び出した。そして町の通りを行進し、途中で他の学校の生徒にも参加を呼びかけた。ストライキは同日中に平和的に終わったが、事件のニュースは国中の他の町や都市に広まった。( 19 )、イギリス全土で一連の学校ストライキが発生した。最終的に、約60校の児童が同様の抗議活動に参加したと考えられている。",
+                        "最初のストライキに関する報告によると、学校での生徒への不当な罰がきっかけだった。しかし、一部の歴史家は理由が( 20 )と示唆している。ストライキの前には何か月も英国で社会不安が続き、労働者が労働条件の改善を求め、多くの産業ストライキが起きていた。児童は家族がこれらの抗議に参加するのを見ていたはずで、それが自分たちの権利のためにも立ち上がるきっかけになったと歴史家は考えている。",
+                        "学校当局は、全国の学校人口のごく一部しか参加していないと指摘して、学校ストライキの重要性を軽視しようとした。それは事実だったが、抗議活動の( 21 )。一つには、英国の児童が自分の権利を守るために立ち上がるのに十分な力を感じた最初の機会の一つだった。ストライキはまた、英国の児童福祉の改善につながる社会改革の刺激にもなった。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "In 1911, a group of schoolchildren in Wales walked out of their school in protest.",
+                            "1911年、ウェールズの児童グループが抗議のために学校を飛び出した。"
+                        ],
+                        [
+                            "They then proceeded to march through the streets of their town, encouraging students from other schools to join them along the way.",
+                            "そして町の通りを行進し、途中で他の学校の生徒にも参加を呼びかけた。"
+                        ],
+                        [
+                            "The strike ended peacefully on the same day, but news of the incident spread to other towns and cities across the country.",
+                            "ストライキは同日中に平和的に終わったが、事件のニュースは国中の他の町や都市に広まった。"
+                        ],
+                        [
+                            "( 19 ), a series of school strikes occurred across the United Kingdom.",
+                            "( 19 )、イギリス全土で一連の学校ストライキが発生した。"
+                        ],
+                        [
+                            "In the end, schoolchildren from around sixty schools are thought to have participated in similar protests.",
+                            "最終的に、約60校の児童が同様の抗議活動に参加したと考えられている。"
+                        ],
+                        [
+                            "Reports of the initial strike state that it began because of the unfair punishment of a student at the school.",
+                            "最初のストライキに関する報告によると、学校での生徒への不当な罰がきっかけだった。"
+                        ],
+                        [
+                            "However, some historians suggest the reason ( 20 ).",
+                            "しかし、一部の歴史家は理由が( 20 )と示唆している。"
+                        ],
+                        [
+                            "The strike followed many months of public unrest in the United Kingdom, during which workers called for improved labor conditions and many industrial strikes occurred.",
+                            "ストライキの前には何か月も英国で社会不安が続き、労働者が労働条件の改善を求め、多くの産業ストライキが起きていた。"
+                        ],
+                        [
+                            "The schoolchildren would have seen members of their families participate in these protests, which historians believe inspired them to stand up for their own rights as well.",
+                            "児童は家族がこれらの抗議に参加するのを見ていたはずで、それが自分たちの権利のためにも立ち上がるきっかけになったと歴史家は考えている。"
+                        ],
+                        [
+                            "School authorities attempted to play down the importance of the school strikes by pointing out that only a small percentage of the national school population participated.",
+                            "学校当局は、全国の学校人口のごく一部しか参加していないと指摘して、学校ストライキの重要性を軽視しようとした。"
+                        ],
+                        [
+                            "While this was true, it ( 21 ) the protests.",
+                            "それは事実だったが、抗議活動の( 21 )。"
+                        ],
+                        [
+                            "For one thing, they represented one of the first times that schoolchildren in the United Kingdom had felt sufficiently empowered to stand up for their rights.",
+                            "一つには、英国の児童が自分の権利を守るために立ち上がるのに十分な力を感じた最初の機会の一つだった。"
+                        ],
+                        [
+                            "The strikes also provided the stimulus for societal reforms that would end up improving child welfare in the United Kingdom.",
+                            "ストライキはまた、英国の児童福祉の改善につながる社会改革の刺激にもなった。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 19,
+                            "choices": [
+                                "In contrast",
+                                "As a result",
+                                "Despite this",
+                                "For instance"
+                            ],
+                            "answer": 2,
+                            "choiceTranslations": [
+                                "対照的に",
+                                "その結果",
+                                "それにもかかわらず",
+                                "例えば"
+                            ],
+                            "choiceAnalysis": [
+                                "In contrast＝対照的に。前文の内容と逆接ではないため不適切",
+                                "As a result＝その結果。ニュースが広まった結果、各地でストが起きたという因果関係に合致→正解。💡 因果関係(therefore/as a result/consequently)は原因→結果の流れ",
+                                "Despite this＝それにもかかわらず。因果関係であり逆接ではない",
+                                "For instance＝例えば。具体例ではなく結果を示している"
+                            ],
+                            "sourceEvidence": [
+                                "news of the incident spread to other towns and cities across the country"
+                            ]
+                        },
+                        {
+                            "number": 20,
+                            "choices": [
+                                "made little sense",
+                                "remains a mystery",
+                                "differed between schools",
+                                "was more complex"
+                            ],
+                            "answer": 4,
+                            "choiceTranslations": [
+                                "意味がなかった",
+                                "謎のままである",
+                                "学校によって異なっていた",
+                                "より複雑だった"
+                            ],
+                            "choiceAnalysis": [
+                                "made little sense＝意味がなかった。歴史家の分析としては不適切",
+                                "remains a mystery＝謎のままだ。歴史家は別の理由を示唆しており謎ではない",
+                                "differed between schools＝学校によって異なった。各校の違いではなく社会的背景を述べている",
+                                "was more complex＝より複雑だった。不当な罰だけでなく社会不安も背景にあったという文脈に合致→正解。💡 因果関係の問いでは、原因→結果の論理チェーンを正確に追跡する"
+                            ],
+                            "sourceEvidence": [
+                                "The strike followed many months of public unrest in the United Kingdom"
+                            ]
+                        },
+                        {
+                            "number": 21,
+                            "choices": [
+                                "did not lessen the significance of",
+                                "was not a good reason to support",
+                                "made people suspicious of",
+                                "discouraged schoolchildren from joining"
+                            ],
+                            "answer": 1,
+                            "choiceTranslations": [
+                                "の重要性を減じなかった",
+                                "を支持する正当な理由ではなかった",
+                                "に人々を疑わせた",
+                                "への児童の参加を思いとどまらせた"
+                            ],
+                            "choiceAnalysis": [
+                                "did not lessen the significance of＝重要性を減じなかった。参加が少なくても歴史的に重要だったという後続の文脈に合致→正解。💡 因果関係の問いでは、原因→結果の論理チェーンを正確に追跡する",
+                                "was not a good reason to support＝支持する理由にならなかった。文の流れに合わない",
+                                "made people suspicious of＝疑わせた。後続の肯定的な評価と矛盾",
+                                "discouraged schoolchildren from joining＝参加を思いとどまらせた。ストライキの重要性を述べる文脈と矛盾"
+                            ],
+                            "sourceEvidence": [
+                                "they represented one of the first times that schoolchildren in the United Kingdom had felt sufficiently empowered to stand up for their rights"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "One-Hit Wonders",
+                    "paragraphs": [
+                        "It is said that nearly half of musicians with songs in America's top one hundred pop song rankings become what are known as \"one-hit wonders,\" or artists who never achieve a second musical success. When researcher Justin Berg looked into which bands ( 22 ), he discovered two key factors. The first was novelty, or how different songs are from other current music. The second key factor for career longevity was diversity, or the degree of variety among an artist's own songs. Berg found that artists whose songs had both these qualities early in their careers were far less likely to be one-hit wonders.",
+                        "This seems logical since novelty and diversity should allow artists to produce work that is entertaining to fans over the long term. ( 23 ), too much of these things is not always ideal. According to Berg, songs that are too different from what is currently fashionable have a lower probability of climbing the music rankings in the first place.",
+                        "Berg also claims that \"once artists reach that first hit, then the ( 24 ).\" Of course, artists who prioritize innovation over fame and fortune can continue producing work that is new and unique. However, artists who desire multiple hits benefit from producing work that is similar to their first success, with only small changes to adapt to new trends. Berg believes that the balance between producing work that reminds listeners of the artist's initial hits while still sounding up-to-date is the true recipe for continued success."
+                    ],
+                    "translations": [
+                        "アメリカのポップソングランキングトップ100に入った曲を持つミュージシャンのほぼ半数が、いわゆる「一発屋」、つまり2度目の音楽的成功を達成できないアーティストになると言われている。研究者ジャスティン・バーグがどのバンドが( 22 )を調査したところ、2つの重要な要因を発見した。1つ目は新奇性、つまり楽曲が他の現行の音楽とどれだけ異なるかだ。キャリアの長寿の2つ目の重要な要因は多様性、つまりアーティスト自身の楽曲間の多様性の程度だった。バーグは、キャリアの初期にこの両方の資質を持つ楽曲を持つアーティストは一発屋になる可能性がはるかに低いことを発見した。",
+                        "新奇性と多様性によってアーティストは長期的にファンを楽しませる作品を制作できるため、これは論理的に思える。( 23 )、これらの要素が多すぎることは必ずしも理想的ではない。バーグによると、現在流行しているものと異なりすぎる曲は、そもそも音楽ランキングを上がる確率が低い。",
+                        "バーグはまた、「アーティストが最初のヒットに到達すると、( 24 )」と主張している。もちろん、名声や富よりも革新を優先するアーティストは、新しくユニークな作品を作り続けることができる。しかし、複数のヒットを望むアーティストは、最初の成功に似た作品を制作し、新しいトレンドに適応するための小さな変更のみを加えることが有利だ。バーグは、リスナーにアーティストの最初のヒットを思い出させつつも最新のサウンドに聞こえる作品を制作するバランスが、継続的な成功の真のレシピだと考えている。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "It is said that nearly half of musicians with songs in America's top one hundred pop song rankings become what are known as \"one-hit wonders,\" or artists who never achieve a second musical success.",
+                            "アメリカのポップソングランキングトップ100に入った曲を持つミュージシャンのほぼ半数が、いわゆる「一発屋」、つまり2度目の音楽的成功を達成できないアーティストになると言われている。"
+                        ],
+                        [
+                            "When researcher Justin Berg looked into which bands ( 22 ), he discovered two key factors.",
+                            "研究者ジャスティン・バーグがどのバンドが( 22 )を調査したところ、2つの重要な要因を発見した。"
+                        ],
+                        [
+                            "The first was novelty, or how different songs are from other current music.",
+                            "1つ目は新奇性、つまり楽曲が他の現行の音楽とどれだけ異なるかだ。"
+                        ],
+                        [
+                            "The second key factor for career longevity was diversity, or the degree of variety among an artist's own songs.",
+                            "キャリアの長寿の2つ目の重要な要因は多様性、つまりアーティスト自身の楽曲間の多様性の程度だった。"
+                        ],
+                        [
+                            "Berg found that artists whose songs had both these qualities early in their careers were far less likely to be one-hit wonders.",
+                            "バーグは、キャリアの初期にこの両方の資質を持つ楽曲を持つアーティストは一発屋になる可能性がはるかに低いことを発見した。"
+                        ],
+                        [
+                            "This seems logical since novelty and diversity should allow artists to produce work that is entertaining to fans over the long term.",
+                            "新奇性と多様性によってアーティストは長期的にファンを楽しませる作品を制作できるため、これは論理的に思える。"
+                        ],
+                        [
+                            "( 23 ), too much of these things is not always ideal.",
+                            "( 23 )、これらの要素が多すぎることは必ずしも理想的ではない。"
+                        ],
+                        [
+                            "According to Berg, songs that are too different from what is currently fashionable have a lower probability of climbing the music rankings in the first place.",
+                            "バーグによると、現在流行しているものと異なりすぎる曲は、そもそも音楽ランキングを上がる確率が低い。"
+                        ],
+                        [
+                            "Berg also claims that \"once artists reach that first hit, then the ( 24 ).\"",
+                            "バーグはまた、「アーティストが最初のヒットに到達すると、( 24 )」と主張している。"
+                        ],
+                        [
+                            "Of course, artists who prioritize innovation over fame and fortune can continue producing work that is new and unique.",
+                            "もちろん、名声や富よりも革新を優先するアーティストは、新しくユニークな作品を作り続けることができる。"
+                        ],
+                        [
+                            "However, artists who desire multiple hits benefit from producing work that is similar to their first success, with only small changes to adapt to new trends.",
+                            "しかし、複数のヒットを望むアーティストは、最初の成功に似た作品を制作し、新しいトレンドに適応するための小さな変更のみを加えることが有利だ。"
+                        ],
+                        [
+                            "Berg believes that the balance between producing work that reminds listeners of the artist's initial hits while still sounding up-to-date is the true recipe for continued success.",
+                            "バーグは、リスナーにアーティストの最初のヒットを思い出させつつも最新のサウンドに聞こえる作品を制作するバランスが、継続的な成功の真のレシピだと考えている。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 22,
+                            "choices": [
+                                "were the most imitated",
+                                "had the biggest hits",
+                                "proved this was true",
+                                "were able to avoid this"
+                            ],
+                            "answer": 4,
+                            "choiceTranslations": [
+                                "最も模倣された",
+                                "最大のヒットを出した",
+                                "これが正しいと証明した",
+                                "これを回避できた"
+                            ],
+                            "choiceAnalysis": [
+                                "were the most imitated＝最も模倣された。一発屋回避の調査とは方向性が違う",
+                                "had the biggest hits＝最大のヒットを出した。調査は一発屋にならないバンドについて",
+                                "proved this was true＝これが正しいと証明した。前文のthisの指示対象が不明確",
+                                "were able to avoid this＝これ（一発屋）を回避できた。一発屋にならないバンドの要因を調べたという文脈に合致→正解。💡 因果関係の問いでは、原因→結果の論理チェーンを正確に追跡する"
+                            ],
+                            "sourceEvidence": [
+                                "artists who never achieve a second musical success"
+                            ]
+                        },
+                        {
+                            "number": 23,
+                            "choices": [
+                                "Therefore",
+                                "In other words",
+                                "On the other hand",
+                                "In return"
+                            ],
+                            "answer": 3,
+                            "choiceTranslations": [
+                                "したがって",
+                                "言い換えれば",
+                                "一方で",
+                                "お返しに"
+                            ],
+                            "choiceAnalysis": [
+                                "Therefore＝したがって。前文の「論理的」に対して「理想的でない」は順接ではない",
+                                "In other words＝言い換えれば。同内容の言い換えではなく逆の視点を示している",
+                                "On the other hand＝一方で。新奇性と多様性の利点に対して、過剰な場合の問題点を述べる逆接に合致→正解。💡 逆接の接続詞(however/nevertheless/yet)は前後の対立関係を示す",
+                                "In return＝お返しに。交換の文脈ではない"
+                            ],
+                            "sourceEvidence": [
+                                "too much of these things is not always ideal"
+                            ]
+                        },
+                        {
+                            "number": 24,
+                            "choices": [
+                                "time for creativity is over",
+                                "situation gets even worse",
+                                "profits increase greatly",
+                                "audiences tend to reject them"
+                            ],
+                            "answer": 1,
+                            "choiceTranslations": [
+                                "創造性の時間は終わりだ",
+                                "状況はさらに悪化する",
+                                "利益が大幅に増加する",
+                                "聴衆は彼らを拒否する傾向がある"
+                            ],
+                            "choiceAnalysis": [
+                                "time for creativity is over＝創造性の時間は終わりだ。最初のヒットの後は似た作品を作るべきという後続の論に合致→正解。💡 因果関係の問いでは、原因→結果の論理チェーンを正確に追跡する",
+                                "situation gets even worse＝状況はさらに悪化する。後続でヒットを重ねる方法を述べており矛盾",
+                                "profits increase greatly＝利益が大幅に増加する。利益の話ではなく創作の方向性の話",
+                                "audiences tend to reject them＝聴衆が拒否する。後続の「似た作品を作ることが有利」と矛盾"
+                            ],
+                            "sourceEvidence": [
+                                "artists who desire multiple hits benefit from producing work that is similar to their first success"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "reading-comprehension",
+            "instruction": "次の英文A，Bの内容に関して，質問に対して最も適切なものを選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Rocket Science",
+                    "paragraphs": [
+                        "Some US astronauts became household names in the 1950s and '60s, partly due to the media coverage of their achievements. Behind the scenes, however, others played a crucial role in making US space missions, including the moon landing, successful. Unlike the astronauts, many of these unsung heroes were female. These women, who came to be called human computers, conducted complex calculations in areas such as spacecraft navigation, rocket aerodynamics, and orbital physics. The human computers' calculations—mostly done by hand—were mentally and physically demanding, sometimes each taking a week to complete. Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
+                        "The women were standing on the shoulders of others who had gone before them. As fields such as astronomy, navigation, and surveying expanded in the nineteenth century, so did the need for mathematical computation. This need only skyrocketed in World War I and World War II. Early computation work had been mainly undertaken by men. However, partly due to the discriminatory nature of contemporary societal norms, employing women meant that salaries—and therefore overall costs—could be dramatically reduced. Gradually, these jobs came to be seen by some as \"women's work.\" Historian Mar Hicks believes that one reason these \"pre-electronic computation jobs were feminized is they were seen as rote and de-skilled.\" Although human-computer work was sometimes repetitive, Hicks points out that it often required advanced math skills.",
+                        "Around the mid-twentieth century, when Cold War tensions with the Soviet Union escalated, the United States turned more of its attention to space. NASA's predecessor, NACA, employed many women to conduct calculations. The agency was seen as progressive in a few respects—women's pay was relatively high, some women were supervisors, and married women with children were employed. Nevertheless, women were not treated as equals. African American women faced an additional layer of discrimination as they were forced to conduct much of their work in segregated facilities. When NASA was established in 1958, it abolished that policy and also improved other conditions for women.",
+                        "Time, however, was not on the human computers' side. Space missions became more complex, and the transition to electronic computation negated the need for most human computers. Nonetheless, it was a while before electronic data would be wholly trusted: In the early 1960s, for example, astronaut John Glenn asked Katherine Johnson, an African American human computer, to personally verify computer-calculated orbital equations before he would fly."
+                    ],
+                    "translations": [
+                        "1950年代から60年代にかけて、アメリカの宇宙飛行士の一部は、その功績のメディア報道のおかげもあって誰もが知る名前になった。しかし舞台裏では、月面着陸を含むアメリカの宇宙ミッションの成功に重大な役割を果たした人々がいた。宇宙飛行士とは異なり、これらの縁の下の力持ちの多くは女性だった。「ヒューマン・コンピュータ」と呼ばれるようになったこれらの女性たちは、宇宙船の航行、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。ヒューマン・コンピュータの計算は—主に手作業で行われ—精神的にも肉体的にも厳しく、1つの計算に1週間かかることもあった。彼女たちなしには宇宙船の打ち上げは不可能であり、いかなる不正確さも宇宙飛行士にとって生命を脅かす結果を招きかねなかった。",
+                        "女性たちは先人の肩の上に立っていた。19世紀に天文学、航法、測量などの分野が拡大するにつれ、数学的計算の必要性も高まった。この必要性は第一次・第二次世界大戦で急増した。初期の計算作業は主に男性が担っていた。しかし、当時の社会規範の差別的な性質もあり、女性を雇うことで給与—ひいては全体のコスト—を大幅に削減できた。次第に、これらの仕事は「女性の仕事」と見なされるようになった。歴史家マー・ヒックスは「これらの電子計算以前の計算の仕事が女性化された理由の一つは、それらが定型的で技能を必要としないと見なされたからだ」と考えている。ヒューマン・コンピュータの仕事は時に反復的だったが、ヒックスは高度な数学スキルを必要とすることが多かったと指摘している。",
+                        "20世紀半ば頃、ソ連との冷戦の緊張が高まると、アメリカは宇宙により多くの関心を向けた。NASAの前身であるNACAは、計算を行うために多くの女性を雇用した。その機関はいくつかの点で進歩的と見なされていた—女性の給与は比較的高く、女性の管理職もおり、子どものいる既婚女性も雇用されていた。それにもかかわらず、女性は対等に扱われなかった。アフリカ系アメリカ人女性は、隔離された施設で多くの仕事を行うことを強いられるという追加の差別に直面した。1958年にNASAが設立されると、その方針を廃止し、女性のための他の条件も改善した。",
+                        "しかし時代はヒューマン・コンピュータの味方ではなかった。宇宙ミッションはより複雑になり、電子計算への移行がほとんどのヒューマン・コンピュータの必要性を否定した。それでも、電子データが完全に信頼されるまでにはしばらくかかった。例えば1960年代初頭、宇宙飛行士ジョン・グレンは、アフリカ系アメリカ人のヒューマン・コンピュータであるキャサリン・ジョンソンに、飛行前にコンピュータで計算された軌道方程式を個人的に検証するよう頼んだ。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Some US astronauts became household names in the 1950s and '60s, partly due to the media coverage of their achievements.",
+                            "1950年代から60年代にかけて、アメリカの宇宙飛行士の一部は、その功績のメディア報道のおかげもあって誰もが知る名前になった。"
+                        ],
+                        [
+                            "Behind the scenes, however, others played a crucial role in making US space missions, including the moon landing, successful.",
+                            "しかし舞台裏では、月面着陸を含むアメリカの宇宙ミッションの成功に重大な役割を果たした人々がいた。"
+                        ],
+                        [
+                            "Unlike the astronauts, many of these unsung heroes were female.",
+                            "宇宙飛行士とは異なり、これらの縁の下の力持ちの多くは女性だった。"
+                        ],
+                        [
+                            "These women, who came to be called human computers, conducted complex calculations in areas such as spacecraft navigation, rocket aerodynamics, and orbital physics.",
+                            "「ヒューマン・コンピュータ」と呼ばれるようになったこれらの女性たちは、宇宙船の航行、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。"
+                        ],
+                        [
+                            "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
+                            "彼女たちなしには宇宙船の打ち上げは不可能であり、いかなる不正確さも宇宙飛行士にとって生命を脅かす結果を招きかねなかった。"
+                        ],
+                        [
+                            "As fields such as astronomy, navigation, and surveying expanded in the nineteenth century, so did the need for mathematical computation.",
+                            "19世紀に天文学、航法、測量などの分野が拡大するにつれ、数学的計算の必要性も高まった。"
+                        ],
+                        [
+                            "Early computation work had been mainly undertaken by men.",
+                            "初期の計算作業は主に男性が担っていた。"
+                        ],
+                        [
+                            "However, partly due to the discriminatory nature of contemporary societal norms, employing women meant that salaries—and therefore overall costs—could be dramatically reduced.",
+                            "しかし、当時の社会規範の差別的な性質もあり、女性を雇うことで給与—ひいては全体のコスト—を大幅に削減できた。"
+                        ],
+                        [
+                            "Historian Mar Hicks believes that one reason these \"pre-electronic computation jobs were feminized is they were seen as rote and de-skilled.\"",
+                            "歴史家マー・ヒックスは「これらの電子計算以前の計算の仕事が女性化された理由の一つは、それらが定型的で技能を必要としないと見なされたからだ」と考えている。"
+                        ],
+                        [
+                            "Although human-computer work was sometimes repetitive, Hicks points out that it often required advanced math skills.",
+                            "ヒューマン・コンピュータの仕事は時に反復的だったが、ヒックスは高度な数学スキルを必要とすることが多かったと指摘している。"
+                        ],
+                        [
+                            "NASA's predecessor, NACA, employed many women to conduct calculations.",
+                            "NASAの前身であるNACAは、計算を行うために多くの女性を雇用した。"
+                        ],
+                        [
+                            "Nevertheless, women were not treated as equals.",
+                            "それにもかかわらず、女性は対等に扱われなかった。"
+                        ],
+                        [
+                            "African American women faced an additional layer of discrimination as they were forced to conduct much of their work in segregated facilities.",
+                            "アフリカ系アメリカ人女性は、隔離された施設で多くの仕事を行うことを強いられるという追加の差別に直面した。"
+                        ],
+                        [
+                            "When NASA was established in 1958, it abolished that policy and also improved other conditions for women.",
+                            "1958年にNASAが設立されると、その方針を廃止し、女性のための他の条件も改善した。"
+                        ],
+                        [
+                            "Space missions became more complex, and the transition to electronic computation negated the need for most human computers.",
+                            "宇宙ミッションはより複雑になり、電子計算への移行がほとんどのヒューマン・コンピュータの必要性を否定した。"
+                        ],
+                        [
+                            "In the early 1960s, for example, astronaut John Glenn asked Katherine Johnson, an African American human computer, to personally verify computer-calculated orbital equations before he would fly.",
+                            "例えば1960年代初頭、宇宙飛行士ジョン・グレンは、アフリカ系アメリカ人のヒューマン・コンピュータであるキャサリン・ジョンソンに、飛行前にコンピュータで計算された軌道方程式を個人的に検証するよう頼んだ。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 25,
+                            "question": "What does the author of the passage say about US space missions in the 1950s and '60s?",
+                            "questionTranslation": "筆者は1950年代と60年代のアメリカの宇宙ミッションについて何と述べているか？",
+                            "choices": [
+                                "Given the physical demands of space travel, it was understandable that men rather than women were being sent into space.",
+                                "The missions were considered too important to rely on the calculations of human computers.",
+                                "The astronauts at the time felt the media should have given women working on the missions more credit.",
+                                "The missions could only be effectively completed thanks to the precision of the calculations made by human computers."
+                            ],
+                            "choiceTranslations": [
+                                "宇宙旅行の身体的要求を考えると、女性ではなく男性が宇宙に送られたのは理解できた。",
+                                "ミッションはヒューマン・コンピュータの計算に頼るには重要すぎると考えられていた。",
+                                "当時の宇宙飛行士は、ミッションに携わる女性にメディアがもっと評価を与えるべきだと感じていた。",
+                                "ミッションはヒューマン・コンピュータによる計算の精度のおかげでのみ効果的に完了できた。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "身体的要求で男性が選ばれたとは本文に述べられていない",
+                                "計算に頼るには重要すぎたとは逆—計算なしには不可能だった",
+                                "宇宙飛行士がメディアに不満を述べたという記述はない",
+                                "彼女たちなしには打ち上げは不可能で、不正確さは生命を脅かすと述べている→正解。💡 本文中に明記された事実と選択肢の対応を確認。言い換え表現に注意"
+                            ],
+                            "sourceEvidence": [
+                                "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts"
+                            ]
+                        },
+                        {
+                            "number": 26,
+                            "question": "Which of the following statements would Mar Hicks most likely agree with?",
+                            "questionTranslation": "マー・ヒックスが最も同意しそうな記述はどれか？",
+                            "choices": [
+                                "The view that computation work was for women stemmed partly from a misunderstanding of the nature of the work.",
+                                "Male mathematicians still played a vital role in the interwar period as the women employed sometimes lacked the necessary math skills.",
+                                "Reducing costs by paying low wages to women ultimately had a negative effect on overall data reliability.",
+                                "The two world wars brought about significant societal changes that benefited women much more than men."
+                            ],
+                            "choiceTranslations": [
+                                "計算の仕事は女性向けだという見解は、仕事の性質の誤解に部分的に由来していた。",
+                                "雇用された女性は時に必要な数学スキルを欠いていたため、男性数学者は戦間期にも重要な役割を果たした。",
+                                "女性に低賃金を支払うことでコストを削減したことは、最終的にデータ信頼性全体に悪影響を与えた。",
+                                "二度の世界大戦は、男性よりも女性にはるかに多くの利益をもたらす重要な社会変化をもたらした。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "ヒックスは仕事が「定型的で技能不要」と見なされたと述べるが、実際は高度な数学スキルが必要だったと指摘—つまり誤解があった→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く",
+                                "ヒックスは女性のスキル不足には言及していない",
+                                "低賃金とデータ信頼性の関連はヒックスの主張にない",
+                                "戦争が女性に特に有利だったとはヒックスは述べていない"
+                            ],
+                            "sourceEvidence": [
+                                "pre-electronic computation jobs were feminized is they were seen as rote and de-skilled",
+                                "it often required advanced math skills"
+                            ]
+                        },
+                        {
+                            "number": 27,
+                            "question": "The author of the passage points out that after NASA was established,",
+                            "questionTranslation": "筆者は、NASA設立後について何を指摘しているか？",
+                            "choices": [
+                                "the focus of the Cold War began to turn away from conducting space-related missions.",
+                                "it made efforts to address some of the inequities that certain human computers had experienced.",
+                                "female supervisors were awarded additional compensation to make up for their historically low wages.",
+                                "it realized that winning the space race would only be possible if it recruited some of the Soviet Union's human computers."
+                            ],
+                            "choiceTranslations": [
+                                "冷戦の焦点は宇宙関連ミッションの実施から離れ始めた。",
+                                "特定のヒューマン・コンピュータが経験した不平等に対処する努力をした。",
+                                "女性管理職は歴史的に低い賃金を補うために追加の報酬を与えられた。",
+                                "宇宙開発競争に勝つにはソ連のヒューマン・コンピュータの一部を採用する必要があると認識した。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "NASA設立後も宇宙ミッションは継続しており、焦点が離れたとは述べていない",
+                                "NASAは隔離政策を廃止し、女性のための条件を改善したと明記されている→正解。💡 本文中に明記された事実と選択肢の対応を確認。言い換え表現に注意",
+                                "女性管理職への追加報酬については言及なし",
+                                "ソ連のヒューマン・コンピュータの採用については記述なし"
+                            ],
+                            "sourceEvidence": [
+                                "When NASA was established in 1958, it abolished that policy and also improved other conditions for women"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "Relying on Nature",
+                    "paragraphs": [
+                        "It was once thought that the use of medicine was a uniquely human trait, but over the past fifty years or so, scientists have reported many cases of animals using natural remedies to self-medicate. Plants produce many chemical substances to protect themselves against disease or prevent themselves from being eaten by animals and insects, and some of these chemicals have medicinal properties. A growing body of research shows that animals have learned to recognize and consume these substances to treat and prevent illnesses.",
+                        "Self-medication by animals was first recorded in the 1970s by researchers studying a group of chimpanzees in Tanzania. They observed some chimpanzees in the group swallowing the leaves of plants that were not a part of their regular diet. Since the chimpanzees were swallowing the leaves whole without chewing them, they were obviously not consuming them for nutritional purposes, and further observations revealed that the behavior occurred more frequently when stomach parasites were common among the group. The researchers hypothesized that the leaves were being used to remove the parasites, and they used the term \"zoopharmacognosy\" to refer to this self-medicating behavior.",
+                        "For many years, it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability. This belief originated mainly from the initial observations of chimpanzees, which suggested that the behavior had to be learned and passed on from generation to generation. However, a recent review of research has shown that self-medication is much more common than was previously thought and is even demonstrated by some insects. This suggests that self-medication must also occur by instinct, and many scientists now believe that it can be both innate and learned, even in more intelligent animals.",
+                        "One of the best-studied examples of self-medication in insects is that of fruit flies. These tiny flies are often targeted by a type of parasitic wasp that lays its eggs inside the flies' bodies. Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol, such as rotting fruit. The alcohol prevents the development of the wasp larvae and protects the flies. Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy. This implies that something triggers them to seek out such food only when they have wasp larvae inside them, and scientists seem to have determined the chemical compound that causes it. In other studies, it has also been found that the use of natural medication by some social insects goes beyond self-medication. When bacterial and fungal infections occur within an ant colony, for example, the insects collect resin from nearby trees and take it back to the colony. The resin has antibacterial and antifungal properties, so by doing this, the ants are performing a form of \"social medication.\"",
+                        "Many scientists believe it is likely that our human ancestors gained knowledge of medicinal plants by observing the behavior of animals. They also hope that further research into zoopharmacognosy will help to improve human health care by providing clues to new sources of medicines."
+                    ],
+                    "translations": [
+                        "かつて薬の使用は人間固有の特性と考えられていたが、過去50年ほどの間に、科学者たちは動物が自然療法を使って自己治療する多くの事例を報告してきた。植物は病気から身を守ったり、動物や昆虫に食べられるのを防ぐために多くの化学物質を生産し、これらの化学物質の一部には薬効がある。動物がこれらの物質を認識し、病気の治療や予防のために摂取することを学んだことを示す研究が増えている。",
+                        "動物の自己投薬は、タンザニアでチンパンジーの群れを研究していた研究者によって1970年代に初めて記録された。彼らは群れの一部のチンパンジーが通常の食事に含まれない植物の葉を飲み込んでいるのを観察した。チンパンジーは葉を噛まずに丸ごと飲み込んでいたため、栄養目的で摂取しているのではないことは明らかで、さらなる観察により、この行動は群れの中で胃の寄生虫が多いときにより頻繁に起こることが明らかになった。研究者たちは葉が寄生虫を除去するために使われていると仮説を立て、この自己投薬行動を「動物薬理学」という用語で呼んだ。",
+                        "何年もの間、ほとんどの科学者はこの行動が高度な知的能力を持つ動物に限られると考えていた。この信念は主にチンパンジーの最初の観察に由来し、その行動は学習され世代から世代へ受け継がれなければならないことを示唆していた。しかし、最近の研究レビューにより、自己投薬は以前考えられていたよりもはるかに一般的であり、一部の昆虫でさえ示されることが明らかになった。これは自己投薬が本能によっても起こるはずであることを示唆しており、多くの科学者は今やそれがより知的な動物でさえも生得的でも学習されたものでもありうると考えている。",
+                        "昆虫の自己投薬の最もよく研究された例の一つはミバエである。これらの小さなハエは、ハエの体内に卵を産む寄生バチの一種にしばしば標的にされる。研究により、寄生バチに感染したミバエは、腐った果物などアルコールを含む食物を意図的に摂取することが示された。アルコールはバチの幼虫の発達を阻害し、ハエを保護する。高アルコール含有量の食物を摂取することは通常ハエにとって有害であるため、健康なときはそうすることを避ける。これは、体内にバチの幼虫がいるときにのみそのような食物を求めるよう何かが引き金となることを意味し、科学者たちはそれを引き起こす化学化合物を特定したようだ。他の研究では、一部の社会性昆虫による天然薬の使用は自己投薬を超えていることも発見された。例えば、アリのコロニー内で細菌や真菌感染が発生すると、昆虫は近くの木から樹脂を集めてコロニーに持ち帰る。樹脂には抗菌・抗真菌作用があるため、これにより、アリは一種の「社会的投薬」を行っている。",
+                        "多くの科学者は、人類の祖先が動物の行動を観察することで薬用植物の知識を得た可能性が高いと考えている。彼らはまた、動物薬理学のさらなる研究が新しい薬の源泉の手がかりを提供することで、人間の医療の改善に役立つことを期待している。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "It was once thought that the use of medicine was a uniquely human trait, but over the past fifty years or so, scientists have reported many cases of animals using natural remedies to self-medicate.",
+                            "かつて薬の使用は人間固有の特性と考えられていたが、過去50年ほどの間に、科学者たちは動物が自然療法を使って自己治療する多くの事例を報告してきた。"
+                        ],
+                        [
+                            "Plants produce many chemical substances to protect themselves against disease or prevent themselves from being eaten by animals and insects, and some of these chemicals have medicinal properties.",
+                            "植物は病気から身を守ったり、動物や昆虫に食べられるのを防ぐために多くの化学物質を生産し、これらの化学物質の一部には薬効がある。"
+                        ],
+                        [
+                            "A growing body of research shows that animals have learned to recognize and consume these substances to treat and prevent illnesses.",
+                            "動物がこれらの物質を認識し、病気の治療や予防のために摂取することを学んだことを示す研究が増えている。"
+                        ],
+                        [
+                            "Self-medication by animals was first recorded in the 1970s by researchers studying a group of chimpanzees in Tanzania.",
+                            "動物の自己投薬は、タンザニアでチンパンジーの群れを研究していた研究者によって1970年代に初めて記録された。"
+                        ],
+                        [
+                            "They observed some chimpanzees in the group swallowing the leaves of plants that were not a part of their regular diet.",
+                            "彼らは群れの一部のチンパンジーが通常の食事に含まれない植物の葉を飲み込んでいるのを観察した。"
+                        ],
+                        [
+                            "The researchers hypothesized that the leaves were being used to remove the parasites, and they used the term \"zoopharmacognosy\" to refer to this self-medicating behavior.",
+                            "研究者たちは葉が寄生虫を除去するために使われていると仮説を立て、この自己投薬行動を「動物薬理学」という用語で呼んだ。"
+                        ],
+                        [
+                            "For many years, it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability.",
+                            "何年もの間、ほとんどの科学者はこの行動が高度な知的能力を持つ動物に限られると考えていた。"
+                        ],
+                        [
+                            "However, a recent review of research has shown that self-medication is much more common than was previously thought and is even demonstrated by some insects.",
+                            "しかし、最近の研究レビューにより、自己投薬は以前考えられていたよりもはるかに一般的であり、一部の昆虫でさえ示されることが明らかになった。"
+                        ],
+                        [
+                            "Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol, such as rotting fruit.",
+                            "研究により、寄生バチに感染したミバエは、腐った果物などアルコールを含む食物を意図的に摂取することが示された。"
+                        ],
+                        [
+                            "The alcohol prevents the development of the wasp larvae and protects the flies.",
+                            "アルコールはバチの幼虫の発達を阻害し、ハエを保護する。"
+                        ],
+                        [
+                            "Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy.",
+                            "高アルコール含有量の食物を摂取することは通常ハエにとって有害であるため、健康なときはそうすることを避ける。"
+                        ],
+                        [
+                            "When bacterial and fungal infections occur within an ant colony, for example, the insects collect resin from nearby trees and take it back to the colony.",
+                            "例えば、アリのコロニー内で細菌や真菌感染が発生すると、昆虫は近くの木から樹脂を集めてコロニーに持ち帰る。"
+                        ],
+                        [
+                            "The resin has antibacterial and antifungal properties, so by doing this, the ants are performing a form of \"social medication.\"",
+                            "樹脂には抗菌・抗真菌作用があるため、これにより、アリは一種の「社会的投薬」を行っている。"
+                        ],
+                        [
+                            "Many scientists believe it is likely that our human ancestors gained knowledge of medicinal plants by observing the behavior of animals.",
+                            "多くの科学者は、人類の祖先が動物の行動を観察することで薬用植物の知識を得た可能性が高いと考えている。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 28,
+                            "question": "What did a group of researchers in the 1970s conclude?",
+                            "questionTranslation": "1970年代の研究グループは何を結論づけたか？",
+                            "choices": [
+                                "Most of the reported cases of animals using natural substances for medicinal purposes were false.",
+                                "Most chemical substances produced by plants were harmful to animals even when only consumed in small amounts.",
+                                "Chimpanzees supplemented their diets with leaves when they could not get adequate nutrition from their usual food sources.",
+                                "Chimpanzees deliberately ate the leaves of certain plants when they were suffering from parasitic infections."
+                            ],
+                            "choiceTranslations": [
+                                "動物が天然物質を薬用目的で使用した報告例のほとんどは偽りだった。",
+                                "植物が生産する化学物質のほとんどは、少量しか摂取しなくても動物に有害だった。",
+                                "チンパンジーは通常の食物源から十分な栄養を得られないとき、葉で食事を補った。",
+                                "チンパンジーは寄生虫感染に苦しんでいるとき、特定の植物の葉を意図的に食べた。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "報告例が偽りとは述べていない—1970年代は初めて記録された",
+                                "植物の化学物質が有害とは述べていない—薬効があると述べている",
+                                "栄養補給のためではない—葉を噛まずに丸飲みしており栄養目的を否定している",
+                                "寄生虫が多いときに特定の葉を飲み込む行動が観察され、寄生虫除去のためと結論づけた→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く"
+                            ],
+                            "sourceEvidence": [
+                                "the behavior occurred more frequently when stomach parasites were common among the group",
+                                "The researchers hypothesized that the leaves were being used to remove the parasites"
+                            ]
+                        },
+                        {
+                            "number": 29,
+                            "question": "What did most scientists believe for many years?",
+                            "questionTranslation": "多くの科学者が長年信じていたことは何か？",
+                            "choices": [
+                                "Animals did not self-medicate because consuming unknown substances went against their natural instincts.",
+                                "The kinds of plants that animals used for medicinal purposes changed from one generation to the next.",
+                                "Animals with low intelligence could not self-medicate because they lacked the ability to learn how to do so.",
+                                "All animals were born with the ability to recognize natural substances that have medicinal properties."
+                            ],
+                            "choiceTranslations": [
+                                "未知の物質を摂取することは本能に反するため、動物は自己投薬しなかった。",
+                                "動物が薬用に使う植物の種類は世代ごとに変化した。",
+                                "知能の低い動物は自己投薬の方法を学ぶ能力がないため自己投薬できなかった。",
+                                "すべての動物は薬効のある天然物質を認識する能力を持って生まれた。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "本能に反するとは述べていない—学習された行動と考えていた",
+                                "植物の種類が世代ごとに変化するとは述べていない",
+                                "高度な知的能力を持つ動物に限られると信じていた＝知能が低い動物はできないと考えていた→正解。💡 因果関係の問いでは、原因→結果の論理チェーンを正確に追跡する",
+                                "すべての動物が生まれつきの能力を持つとは逆—学習が必要と考えていた"
+                            ],
+                            "sourceEvidence": [
+                                "it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability"
+                            ]
+                        },
+                        {
+                            "number": 30,
+                            "question": "What is one thing the author of the passage says about fruit flies?",
+                            "questionTranslation": "筆者がミバエについて述べていることの一つは何か？",
+                            "choices": [
+                                "Consuming alcohol is damaging to their health but overall beneficial when they are infected by parasitic wasps.",
+                                "The consumption of food containing alcohol weakens them and makes them more vulnerable to parasitic wasps.",
+                                "They intentionally become infected by parasitic wasps in order to reduce the harmful effects of alcohol.",
+                                "They have developed a strategy to prevent parasitic wasps from being able to lay eggs inside them."
+                            ],
+                            "choiceTranslations": [
+                                "アルコールの摂取は健康に有害だが、寄生バチに感染している場合は全体的に有益である。",
+                                "アルコールを含む食物の摂取はハエを弱らせ、寄生バチに対してより脆弱にする。",
+                                "アルコールの有害な影響を軽減するために意図的に寄生バチに感染する。",
+                                "寄生バチが体内に卵を産めないようにする戦略を開発した。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "アルコールは通常有害だが、感染時にはバチの幼虫の発達を阻害し保護するので有益→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く",
+                                "アルコールで弱くなるとは述べていない—逆にバチから保護する",
+                                "意図的に感染するとは述べていない—感染後にアルコールを求める",
+                                "卵を産めないようにする戦略ではない—産まれた後の幼虫の発達を阻害する"
+                            ],
+                            "sourceEvidence": [
+                                "Consuming food with high alcohol content is normally harmful to the flies",
+                                "The alcohol prevents the development of the wasp larvae and protects the flies"
+                            ]
+                        },
+                        {
+                            "number": 31,
+                            "question": "Research has shown that some social insects",
+                            "questionTranslation": "研究により、一部の社会性昆虫が何をすることが示されたか？",
+                            "choices": [
+                                "produce a substance that can protect themselves and their colony from bacterial and fungal infections.",
+                                "leave their colony when they are suffering from infectious diseases to prevent the disease from spreading.",
+                                "use natural medication in a way that benefits their whole colony rather than just themselves.",
+                                "have the ability to teach other members of their colony how to deal with bacterial and fungal infections."
+                            ],
+                            "choiceTranslations": [
+                                "自分たちとコロニーを細菌・真菌感染から保護できる物質を生産する。",
+                                "感染症にかかっているときは病気の拡散を防ぐためにコロニーを離れる。",
+                                "自分自身だけでなくコロニー全体に利益をもたらす方法で天然の薬を使う。",
+                                "コロニーの他のメンバーに細菌・真菌感染への対処法を教える能力がある。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "物質を「生産する」のではなく、木から「樹脂を集める」のである",
+                                "コロニーを離れるとは述べていない—樹脂を持ち帰る",
+                                "アリが樹脂を集めてコロニーに持ち帰り「社会的投薬」を行うことで全体に利益をもたらす→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く",
+                                "他のメンバーに教えるとは述べていない"
+                            ],
+                            "sourceEvidence": [
+                                "the insects collect resin from nearby trees and take it back to the colony",
+                                "the ants are performing a form of \"social medication.\""
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "仮定法と仮想表現",
+                "subtitle": "Subjunctive & Hypothetical Expressions",
+                "explanation": "仮定法は「事実と異なる状況」を表す文法形式です。仮定法過去（If + 過去形, would + 原形）は現在の事実に反する仮定を、仮定法過去完了（If + had + 過去分詞, would have + 過去分詞）は過去の事実に反する仮定を表します。本文では 'Without them, it would have been impossible' という仮定法過去完了の表現が使われ、ヒューマン・コンピュータなしでは宇宙船の打ち上げが不可能だったことを強調しています。",
+                "sourceQuote": "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
+                "sourceLocation": "Part 3A 第1段落",
+                "examples": [
+                    {
+                        "en": "Without the scholarship, she would not have been able to attend university.",
+                        "ja": "奨学金がなければ、彼女は大学に通えなかっただろう。",
+                        "note": "Without + 名詞 が if節の代用。仮定法過去完了の典型パターン。"
+                    },
+                    {
+                        "en": "If the medication had been available sooner, many lives could have been saved.",
+                        "ja": "薬がもっと早く利用可能だったら、多くの命が救えたかもしれない。",
+                        "note": "could have + 過去分詞で「～できたかもしれない」という可能性を示す。"
+                    },
+                    {
+                        "en": "Had it not been for the human computers, the moon landing might never have happened.",
+                        "ja": "ヒューマン・コンピュータがいなければ、月面着陸は起こらなかったかもしれない。",
+                        "note": "Had it not been for = If it had not been for の倒置形。フォーマルな表現。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "The development of modern antibiotics is often attributed to Alexander Fleming's accidental discovery of penicillin in 1928. Without this chance observation, it is possible that bacterial infections would have continued to claim millions of lives. Had Fleming not left his laboratory window open, the mold that produced penicillin might never have landed on his bacterial cultures.",
+                    "ja": "現代の抗生物質の開発は、1928年のアレクサンダー・フレミングによるペニシリンの偶然の発見に帰せられることが多い。この偶然の観察がなければ、細菌感染症は何百万もの命を奪い続けていた可能性がある。フレミングが実験室の窓を開けたままにしていなければ、ペニシリンを生産するカビは彼の細菌培養に付着しなかったかもしれない。"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'Without this chance observation' は何を意味していますか？",
+                        "a": "フレミングの偶然の発見がなければ、という仮定法の意味です。Without + 名詞で if節を代用しています。"
+                    },
+                    {
+                        "q": "'would have continued' はどのような文法形式ですか？",
+                        "a": "仮定法過去完了（would have + 過去分詞）で、過去の事実に反する仮定の結果を示しています。"
+                    },
+                    {
+                        "q": "'Had Fleming not left' の語順の特徴は？",
+                        "a": "If Fleming had not left の倒置形です。Ifを省略して主語と助動詞を入れ替えるフォーマルな表現です。"
+                    },
+                    {
+                        "q": "'might never have landed' と 'would never have landed' の違いは？",
+                        "a": "mightはwouldより確信度が低く、「～しなかったかもしれない」という控えめな推量を表します。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Without them, it would have been impossible to launch spacecraft",
+                    "any inaccuracies could have had life-threatening consequences",
+                    "The schoolchildren would have seen members of their families participate",
+                    "which historians believe inspired them to stand up for their own rights",
+                    "it would have been impossible",
+                    "could have had life-threatening consequences for the astronauts",
+                    "would have seen members of their families participate in these protests",
+                    "it was a while before electronic data would be wholly trusted",
+                    "asked Katherine Johnson, an African American human computer, to personally verify",
+                    "employing women meant that salaries",
+                    "could be dramatically reduced",
+                    "The human computers' calculations"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "仮定法"
+            },
+            {
+                "id": "fp2",
+                "title": "無生物主語と因果関係の構文",
+                "subtitle": "Inanimate Subject Constructions",
+                "explanation": "英語では人間以外の名詞（抽象概念・出来事・制度など）が主語になり、人に「～させる」「～を可能にする」等の意味を表す構文が頻出します。日本語では「～のおかげで」「～のために」と訳すのが自然です。本文では 'This need only skyrocketed'（この必要性は急増するばかりだった）のように無生物が主語の文が多用されています。",
+                "sourceQuote": "This need only skyrocketed in World War I and World War II.",
+                "sourceLocation": "Part 3A 第2段落",
+                "examples": [
+                    {
+                        "en": "The discovery of self-medication in chimpanzees led researchers to coin a new term.",
+                        "ja": "チンパンジーの自己投薬の発見により、研究者たちは新しい用語を作り出した。",
+                        "note": "無生物主語 + led ~ to do: 「～がきっかけで…した」"
+                    },
+                    {
+                        "en": "The transition to electronic computation negated the need for most human computers.",
+                        "ja": "電子計算への移行がヒューマン・コンピュータの必要性を否定した。",
+                        "note": "transitionという抽象名詞が主語で、明確な行為主体を示さない。"
+                    },
+                    {
+                        "en": "Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol.",
+                        "ja": "研究により、寄生バチに感染したミバエはアルコールを含む食物を意図的に摂取することが示された。",
+                        "note": "Research（研究）が主語のshow構文。日本語では「研究により～が示された」。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "The introduction of renewable energy sources has enabled many countries to reduce their dependence on fossil fuels. Solar and wind power have made it possible for remote communities to access electricity for the first time. However, the high initial costs of installation have prevented some developing nations from adopting these technologies at a large scale.",
+                    "ja": "再生可能エネルギー源の導入により、多くの国が化石燃料への依存を減らすことが可能になった。太陽光発電と風力発電のおかげで、遠隔地のコミュニティが初めて電力にアクセスできるようになった。しかし、設置の初期費用が高いため、一部の発展途上国ではこれらの技術を大規模に導入することができていない。"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'The introduction has enabled' を日本語的に訳すとどうなりますか？",
+                        "a": "「導入のおかげで～が可能になった」。無生物主語を原因・手段として訳すのが自然です。"
+                    },
+                    {
+                        "q": "'have made it possible for ~ to do' の構造を説明してください。",
+                        "a": "make it possible for A to do B = AがBすることを可能にする。itは形式目的語。"
+                    },
+                    {
+                        "q": "'have prevented ~ from doing' はどういう意味ですか？",
+                        "a": "prevent A from doing B = AがBすることを妨げる。コストが導入を妨げている意味。"
+                    },
+                    {
+                        "q": "日本語と英語で主語の選び方がどう違いますか？",
+                        "a": "英語は無生物（制度・状況・費用等）を主語にして因果関係を一文で表現しますが、日本語は「～のために」「～のおかげで」と副詞節で表すのが自然です。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "This need only skyrocketed in World War I and World War II",
+                    "employing women meant that salaries",
+                    "could be dramatically reduced",
+                    "the transition to electronic computation negated the need",
+                    "news of the incident spread to other towns and cities",
+                    "The strikes also provided the stimulus for societal reforms",
+                    "A growing body of research shows that animals have learned",
+                    "The alcohol prevents the development of the wasp larvae",
+                    "This implies that something triggers them",
+                    "the media coverage of their achievements",
+                    "novelty and diversity should allow artists to produce work",
+                    "The resin has antibacterial and antifungal properties"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "無生物主語"
+            },
+            {
+                "id": "fp3",
+                "title": "関係代名詞の非制限用法と補足説明",
+                "subtitle": "Non-Restrictive Relative Clauses",
+                "explanation": "関係代名詞の非制限用法（カンマ + which/who）は、前の名詞や節全体に補足情報を加えます。制限用法（カンマなし）は対象を特定しますが、非制限用法は追加情報を提供します。本文では 'which historians believe inspired them' のように、前文全体を受けるwhichが多用されています。",
+                "sourceQuote": "which historians believe inspired them to stand up for their own rights as well",
+                "sourceLocation": "Part 2A 第2段落",
+                "examples": [
+                    {
+                        "en": "These women, who came to be called human computers, conducted complex calculations.",
+                        "ja": "これらの女性たちは、ヒューマン・コンピュータと呼ばれるようになったのだが、複雑な計算を行った。",
+                        "note": "who以下はwomenの補足説明。なくても文は成立する。"
+                    },
+                    {
+                        "en": "The chimpanzees were swallowing the leaves whole without chewing them, which showed they were not eating them for nutrition.",
+                        "ja": "チンパンジーは葉を噛まずに丸飲みしていたが、これは栄養のために食べていたのではないことを示していた。",
+                        "note": "whichが前の節全体を受けている。"
+                    },
+                    {
+                        "en": "NACA employed many women, some of whom later became supervisors.",
+                        "ja": "NACAは多くの女性を雇用し、そのうちの何人かは後に管理職になった。",
+                        "note": "some of whom: 先行詞の一部について述べる非制限用法。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "Marie Curie, who was born in Poland in 1867, became the first woman to win a Nobel Prize. Her groundbreaking research on radioactivity, which earned her a second Nobel Prize, laid the foundation for modern nuclear physics. The element polonium, which she named after her home country, remains one of the rarest elements on Earth.",
+                    "ja": "1867年にポーランドで生まれたマリー・キュリーは、ノーベル賞を受賞した最初の女性となった。彼女の放射能に関する画期的な研究は、2度目のノーベル賞をもたらし、現代の原子物理学の基礎を築いた。彼女が祖国にちなんで名付けたポロニウムという元素は、地球上で最も希少な元素の一つである。"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'who was born in Poland' は制限用法と非制限用法のどちらですか？",
+                        "a": "非制限用法です。カンマが付いており、Marie Curieという固有名詞の補足情報です。"
+                    },
+                    {
+                        "q": "'which earned her a second Nobel Prize' のwhichは何を指していますか？",
+                        "a": "前の名詞句 'Her groundbreaking research on radioactivity' を指しています。"
+                    },
+                    {
+                        "q": "'which she named after her home country' を制限用法に書き換えるとどうなりますか？",
+                        "a": "The element that she named after her home country... のようにカンマを外しthatに変えますが、固有の元素名の後なので非制限が自然です。"
+                    },
+                    {
+                        "q": "非制限用法のwhichがthatに置き換えられない理由は？",
+                        "a": "英語の文法規則上、非制限用法（カンマ付き）ではthatは使えず、which/whoのみが使えます。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "who came to be called human computers",
+                    "which historians believe inspired them to stand up",
+                    "which suggested that the behavior had to be learned",
+                    "or artists who never achieve a second musical success",
+                    "or how different songs are from other current music",
+                    "or the degree of variety among an artist's own songs",
+                    "who came to be called human computers, conducted complex calculations",
+                    "an African American human computer, to personally verify",
+                    "which workers called for improved labor conditions",
+                    "These women, who came to be called human computers",
+                    "partly due to the media coverage of their achievements",
+                    "Katherine Johnson, an African American human computer"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "非制限用法"
+            },
+            {
+                "id": "fp4",
+                "title": "ダッシュ記号による情報挿入と補足",
+                "subtitle": "Em Dashes for Parenthetical Information",
+                "explanation": "英語ではemダッシュ（—）を使って、文中に補足説明・言い換え・対比を挿入します。カンマやカッコの代わりにより強調的に使われ、準1級の長文では特に頻出します。本文では 'calculations—mostly done by hand—were mentally and physically demanding' のように、計算方法の補足情報がダッシュで挿入されています。",
+                "sourceQuote": "The human computers' calculations—mostly done by hand—were mentally and physically demanding",
+                "sourceLocation": "Part 3A 第1段落",
+                "examples": [
+                    {
+                        "en": "The agency was seen as progressive in a few respects—women's pay was relatively high, some women were supervisors, and married women with children were employed.",
+                        "ja": "その機関はいくつかの点で進歩的と見なされていた—女性の給与は比較的高く、管理職の女性もおり、子どものいる既婚女性も雇用されていた。",
+                        "note": "ダッシュ後に具体例を列挙。「いくつかの点」の内容を説明。"
+                    },
+                    {
+                        "en": "Salaries—and therefore overall costs—could be dramatically reduced.",
+                        "ja": "給与—ひいては全体のコスト—は大幅に削減できた。",
+                        "note": "ダッシュの間に追加情報を挿入。因果関係を補足。"
+                    },
+                    {
+                        "en": "The behavior—first observed in the 1970s—has since been documented in many species.",
+                        "ja": "その行動は—1970年代に初めて観察され—以来、多くの種で記録されている。",
+                        "note": "過去分詞のダッシュ挿入。時間的背景の補足。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "The Great Barrier Reef—the world's largest coral reef system—faces numerous threats from climate change. Rising ocean temperatures—even increases of just one or two degrees—can cause widespread coral bleaching. Scientists warn that without immediate action—including significant reductions in carbon emissions—the reef may be damaged beyond repair by the end of the century.",
+                    "ja": "グレートバリアリーフ—世界最大のサンゴ礁システム—は、気候変動による多くの脅威に直面している。海水温の上昇—わずか1〜2度の上昇でも—広範囲のサンゴの白化を引き起こす可能性がある。科学者は、即座の行動—炭素排出量の大幅な削減を含む—がなければ、今世紀末までにサンゴ礁は修復不能なほど損傷する可能性があると警告している。"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "ダッシュとカンマの使い分けはどう異なりますか？",
+                        "a": "ダッシュはカンマより強調的で、補足情報への注意を強く引きます。フォーマルな文で重要な補足に使われます。"
+                    },
+                    {
+                        "q": "'salaries—and therefore overall costs—' のダッシュを取り除くとどうなりますか？",
+                        "a": "'salaries, and therefore overall costs,' のようにカンマで置き換え可能ですが、因果関係の強調が弱まります。"
+                    },
+                    {
+                        "q": "ダッシュで挟まれた部分を読む際のコツは？",
+                        "a": "まず外側の主文を読んで主旨を理解し、次にダッシュ内を補足情報として読むと理解しやすくなります。"
+                    },
+                    {
+                        "q": "ダッシュは1つの場合と2つの場合がありますが、違いは？",
+                        "a": "2つのダッシュ（—X—）は文中の挿入、1つのダッシュ（—X）は文末の補足説明に使われます。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "calculations—mostly done by hand—were mentally and physically demanding",
+                    "salaries—and therefore overall costs—could be dramatically reduced",
+                    "progressive in a few respects—women’s pay was relatively high",
+                    "faced an additional layer of discrimination",
+                    "sometimes each taking a week to complete",
+                    "mostly done by hand",
+                    "and therefore overall costs",
+                    "women’s pay was relatively high, some women were supervisors",
+                    "married women with children were employed",
+                    "These tiny flies are often targeted by a type of parasitic wasp",
+                    "such as rotting fruit",
+                    "such as spacecraft navigation, rocket aerodynamics, and orbital physics"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "ダッシュ挿入"
+            },
+            {
+                "id": "fp5",
+                "title": "今回の重要なパラフレーズ",
+                "subtitle": "Key Paraphrases in This Exam",
+                "explanation": "英検準1級では、選択肢が本文の内容を言い換え（パラフレーズ）て表現されることが多いです。正解を見つけるには、同じ意味を異なる表現で述べていることを見抜く力が必要です。",
+                "sourceQuote": "①unsung heroes = 称えられていない重要な貢献者 → crucial role behind the scenes\n②skyrocketed = 急増した → increased dramatically\n③play down = 軽視する → attempt to reduce the importance of\n④one-hit wonders = 一発屋 → artists who never achieve a second musical success\n⑤self-medicate = 自己投薬する → use natural remedies to treat illnesses\n⑥zoopharmacognosy = 動物薬理学 → self-medicating behavior in animals",
+                "sourceLocation": "Part 2-3 全体",
+                "examples": [
+                    {
+                        "en": "The report was not forthcoming. → He gave only vague answers.",
+                        "ja": "報告は率直ではなかった → 曖昧な回答しかしなかった",
+                        "note": "not forthcoming = vague answers のパラフレーズ関係"
+                    },
+                    {
+                        "en": "The strikes provided the stimulus. → The protests led to reforms.",
+                        "ja": "ストライキが刺激を与えた → 抗議が改革につながった",
+                        "note": "provided the stimulus = led to のパラフレーズ"
+                    },
+                    {
+                        "en": "Felt sufficiently empowered → Had the confidence to act.",
+                        "ja": "十分な力を感じた → 行動する自信を持った",
+                        "note": "empowered = had confidence のパラフレーズ"
+                    }
+                ],
+                "practiceQuestions": [
+                    {
+                        "q": "'introduced a comprehensive plan' を言い換えると？",
+                        "a": "launched an all-encompassing strategy / rolled out a thorough set of measures"
+                    },
+                    {
+                        "q": "'imposing stricter emissions standards' を言い換えると？",
+                        "a": "enforcing tougher pollution limits / setting more rigorous exhaust regulations"
+                    },
+                    {
+                        "q": "'yielded measurable results' を言い換えると？",
+                        "a": "produced quantifiable outcomes / delivered tangible improvements"
+                    },
+                    {
+                        "q": "'remain committed to achieving' を言い換えると？",
+                        "a": "continue to be dedicated to reaching / are still determined to accomplish"
+                    }
+                ],
+                "highlightPatterns": [
+                    "unsung heroes were female",
+                    "one-hit wonders",
+                    "artists who never achieve a second musical success",
+                    "self-medicate",
+                    "zoopharmacognosy",
+                    "play down the importance",
+                    "only a small percentage of the national school population",
+                    "sufficiently empowered to stand up for their rights",
+                    "societal reforms that would end up improving child welfare",
+                    "novelty, or how different songs are from other current music",
+                    "diversity, or the degree of variety",
+                    "social medication"
+                ],
+                "highlightColor": "#f59e0b",
+                "highlightLabel": "パラフレーズ",
+                "practicePassage": {
+                    "en": "The city government introduced a comprehensive plan to combat air pollution in the metropolitan area. Key measures include expanding public transit networks, imposing stricter emissions standards on vehicles, and increasing the number of green spaces. The initiative has already yielded measurable results, with air quality improving by fifteen percent in the first year. Residents have reported fewer respiratory problems since the plan was implemented. Officials remain committed to achieving a fifty percent reduction in pollution levels within the next five years.",
+                    "ja": "市政府は大都市圏の大気汚染と戦うための包括的な計画を導入した。主な対策には公共交通網の拡大、車両へのより厳しい排出基準の課題、緑地の増加が含まれる。このイニシアチブはすでに測定可能な結果を生んでおり、初年度に大気の質が15パーセント改善した。住民は計画実施後に呼吸器の問題が減少したと報告している。当局は今後5年以内に汚染レベルの50パーセント削減を達成することに引き続き取り組んでいる。"
+                }
+            }
+        ]
+    }
+}

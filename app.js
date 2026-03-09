@@ -25,6 +25,8 @@
   // ===== INIT =====
   async function init() {
     const params = new URLSearchParams(window.location.search);
+    // パラメータなしでアクセスされた場合はトップページへリダイレクト
+    if (!params.get('grade') && !params.get('data')) { window.location.href = 'top.html'; return; }
     const gradeId = params.get('grade') || 'grade2';
     const examId = params.get('exam') || '2025-3';
     const grade = GRADE_MAP[gradeId];
