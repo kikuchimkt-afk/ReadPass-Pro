@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadPass Pro</title>
+    <meta name="description" content="ReadPass Pro — 英検リーディング指導者向け練習・分析ツール">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-inner">
+                <h1 class="app-title">
+                    <a href="top.html" class="home-link" title="トップに戻る">
+                        <span class="material-symbols-rounded">home</span>
+                    </a>
+                    ReadPass Pro
+                </h1>
+                <div class="exam-selector">
+                    <span id="examLabel" class="exam-label-badge">2級 · 2025年度 第3回</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sticky Panel (toolbar + legend + tabs) -->
+        <div class="sticky-panel">
+            <!-- Instructor Toolbar -->
+            <div class="instructor-toolbar">
+                <button class="tool-btn" id="btnProjector" onclick="window.APP.toggleProjector()">
+                    <span class="material-symbols-rounded">smart_screen</span>
+                    <span>画面拡大</span>
+                </button>
+                <button class="tool-btn" id="btnAnswers" onclick="window.APP.toggleAnswers()">
+                    <span class="material-symbols-rounded">visibility_off</span>
+                    <span>正解非表示</span>
+                </button>
+                <button class="tool-btn" id="btnTranslation" onclick="window.APP.toggleTranslation()">
+                    <span class="material-symbols-rounded">translate</span>
+                    <span>和訳OFF</span>
+                </button>
+                <button class="tool-btn" id="btnTimer" onclick="window.APP.toggleTimer()">
+                    <span class="material-symbols-rounded">timer</span>
+                    <span>タイマー</span>
+                </button>
+                <button class="tool-btn" id="btnVocabCards" onclick="window.APP.openVocabCards()">
+                    <span class="material-symbols-rounded">style</span>
+                    <span>単語カード</span>
+                </button>
+                <button class="tool-btn" id="btnHighlight" onclick="window.APP.toggleHighlight()">
+                    <span class="material-symbols-rounded">ink_highlighter</span>
+                    <span>文法マーカー</span>
+                </button>
+                <button class="tool-btn" id="btnTheme" onclick="window.APP.toggleTheme()">
+                    <span class="material-symbols-rounded">light_mode</span>
+                    <span>ライト</span>
+                </button>
+                <button class="tool-btn" id="btnPrint" onclick="window.APP.showPrintMenu()">
+                    <span class="material-symbols-rounded">print</span>
+                    <span>印刷</span>
+                </button>
+            </div>
+
+            <!-- Timer Display -->
+            <div class="timer-bar" id="timerBar" style="display:none">
+                <div class="timer-display">
+                    <span class="material-symbols-rounded">timer</span>
+                    <span id="timerValue">05:00</span>
+                </div>
+                <div class="timer-controls">
+                    <button class="timer-ctrl" onclick="window.APP.setTimer(60)">1分</button>
+                    <button class="timer-ctrl" onclick="window.APP.setTimer(180)">3分</button>
+                    <button class="timer-ctrl" onclick="window.APP.setTimer(300)">5分</button>
+                    <button class="timer-ctrl" onclick="window.APP.setTimer(600)">10分</button>
+                    <button class="timer-ctrl primary" id="timerStartBtn" onclick="window.APP.startStopTimer()">▶
+                        開始</button>
+                    <button class="timer-ctrl" onclick="window.APP.resetTimer()">リセット</button>
+                </div>
+                <div class="timer-progress">
+                    <div class="timer-progress-fill" id="timerProgressFill"></div>
+                </div>
+            </div>
+
+            <!-- Highlight Legend -->
+            <div class="highlight-legend" id="highlightLegend"></div>
+        </div><!-- /sticky-panel -->
+
+        <!-- Print Menu Modal -->
+        <div class="modal-overlay" id="printModal" style="display:none" onclick="window.APP.closePrintMenu()">
+            <div class="modal-content" onclick="event.stopPropagation()">
+                <h3>印刷メニュー</h3>
+                <div class="print-options">
+                    <button class="print-opt" onclick="window.APP.printVocabList()">
+                        <span class="material-symbols-rounded">list</span>
+                        単語リスト（意味付き）
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printVocabTest()">
+                        <span class="material-symbols-rounded">quiz</span>
+                        単語テスト（意味なし）
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printPart1()">
+                        <span class="material-symbols-rounded">edit_note</span>
+                        大問1 ワークシート
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printPart2()">
+                        <span class="material-symbols-rounded">article</span>
+                        大問2 ワークシート
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printPart3()">
+                        <span class="material-symbols-rounded">library_books</span>
+                        大問3 ワークシート
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printAnswerKey()">
+                        <span class="material-symbols-rounded">key</span>
+                        解答一覧
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printLessonPlan()">
+                        <span class="material-symbols-rounded">menu_book</span>
+                        文法ワークシート（問題＋解答別）
+                    </button>
+                    <button class="print-opt" onclick="window.APP.printLessonRef()">
+                        <span class="material-symbols-rounded">auto_stories</span>
+                        文法解説プリント（講師用）
+                    </button>
+                </div>
+                <button class="btn btn-secondary" onclick="window.APP.closePrintMenu()"
+                    style="margin-top:16px">閉じる</button>
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <nav class="tab-nav" id="tabNav">
+            <button class="tab-btn active" data-tab="vocab">
+                <span class="material-symbols-rounded">abc</span>
+                <span class="tab-label">単語</span>
+            </button>
+            <!-- Dynamic section tabs inserted here by app.js -->
+            <button class="tab-btn" data-tab="lesson">
+                <span class="material-symbols-rounded">menu_book</span>
+                <span class="tab-label">文法</span>
+            </button>
+        </nav>
+
+        <!-- Tab Content -->
+        <main class="tab-content">
+            <!-- Vocab Tab -->
+            <section id="tab-vocab" class="tab-pane active">
+                <div class="section-header">
+                    <h2>予習：単語クイズ</h2>
+                    <p class="section-desc">今回の演習で登場する重要単語を4択で練習</p>
+                </div>
+                <div class="quiz-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="vocabProgress"></div>
+                    </div>
+                    <span class="progress-text" id="vocabProgressText">0 / 0</span>
+                </div>
+                <div class="quiz-score" id="vocabScore"></div>
+                <div id="vocabQuizArea" class="quiz-area"></div>
+                <div class="quiz-controls">
+                    <button id="vocabNext" class="btn btn-primary" style="display:none">次の問題 <span
+                            class="material-symbols-rounded">arrow_forward</span></button>
+                    <button id="vocabRestart" class="btn btn-secondary" style="display:none"><span
+                            class="material-symbols-rounded">refresh</span> もう一度</button>
+                </div>
+            </section>
+
+            <!-- Dynamic section panes inserted here by app.js -->
+            <div id="dynamicSections"></div>
+
+            <!-- Lesson Plan -->
+            <section id="tab-lesson" class="tab-pane">
+                <div class="section-header">
+                    <h2>📚 文法・構文フォーカス</h2>
+                    <p class="section-desc">大問2・3の読解に必要な重要文法を例文・例パッセージで学習します</p>
+                </div>
+                <div id="lessonPlanArea"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Print Modal -->
+    <div id="printModal" class="print-modal-overlay"
+        style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center">
+        <div
+            style="background:var(--surface,#1a1a2e);border-radius:16px;padding:28px 24px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.08)">
+            <h3 style="margin:0 0 18px;font-size:1.1rem;color:var(--text,#e8e8f0)">🖨️ 印刷メニュー</h3>
+            <div style="display:flex;flex-direction:column;gap:8px">
+                <button class="print-menu-btn" onclick="window.APP.printVocabList()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📋
+                    単語リスト</button>
+                <button class="print-menu-btn" onclick="window.APP.printVocabTest()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✏️
+                    単語テスト</button>
+                <button class="print-menu-btn" onclick="window.APP.printPart1()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    大問1　短文空所補充</button>
+                <button class="print-menu-btn" onclick="window.APP.printPart2()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    大問2　長文空所補充</button>
+                <button class="print-menu-btn" onclick="window.APP.printPart3()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    大問3　長文読解</button>
+                <button class="print-menu-btn" onclick="window.APP.printAnswerKey()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✅
+                    解答一覧</button>
+                <button class="print-menu-btn" onclick="window.APP.printLessonPlan()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📚
+                    文法ワークシート</button>
+                <button class="print-menu-btn" onclick="window.APP.printLessonRef()"
+                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📖
+                    文法解説プリント（講師用）</button>
+            </div>
+            <button onclick="window.APP.closePrintMenu()"
+                style="margin-top:16px;width:100%;padding:10px;border:none;border-radius:10px;background:rgba(255,255,255,0.08);color:var(--text2,#9898b0);font-family:inherit;font-size:0.85rem;cursor:pointer">✕
+                閉じる</button>
+        </div>
+    </div>
+
+    <!-- Print Frame -->
+    <div id="printFrame" class="print-frame"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

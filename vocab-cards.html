@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>単語カード</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f0f1a;
+            --bg2: #1a1a2e;
+            --card: #222240;
+            --text: #e8e8f0;
+            --text2: #9898b0;
+            --accent: #6c63ff;
+            --accent2: #a78bfa;
+            --grad: linear-gradient(135deg, #6c63ff, #a78bfa);
+            --success: #34d399;
+            --error: #f87171;
+            --warn: #fbbf24;
+            --radius: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+            padding: 20px 16px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .app-header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        .app-header h1 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            background: var(--grad);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 4px;
+        }
+
+        .app-header .sub {
+            font-size: 0.82rem;
+            color: var(--text2);
+        }
+
+        /* Start Screen */
+        #startScreen {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .stat-cards {
+            display: flex;
+            gap: 12px;
+            width: 100%;
+        }
+
+        .stat-card {
+            flex: 1;
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 16px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .stat-num {
+            font-size: 2rem;
+            font-weight: 800;
+            background: var(--grad);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .stat-label {
+            font-size: 0.72rem;
+            color: var(--text2);
+            margin-top: 2px;
+        }
+
+        .order-toggle {
+            display: flex;
+            gap: 8px;
+            background: var(--card);
+            border-radius: 30px;
+            padding: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        .order-btn {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 26px;
+            font-family: inherit;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: transparent;
+            color: var(--text2);
+            transition: 0.2s;
+        }
+
+        .order-btn.active {
+            background: var(--grad);
+            color: #fff;
+        }
+
+        .btn-start {
+            width: 100%;
+            max-width: 280px;
+            padding: 16px;
+            font-size: 1.1rem;
+            font-weight: 800;
+            font-family: inherit;
+            border: none;
+            border-radius: 30px;
+            background: var(--grad);
+            color: #fff;
+            cursor: pointer;
+            box-shadow: 0 6px 24px rgba(108, 99, 255, 0.4);
+            transition: 0.2s;
+            letter-spacing: 2px;
+        }
+
+        .btn-start:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(108, 99, 255, 0.5);
+        }
+
+        .btn-reset {
+            background: none;
+            border: none;
+            color: var(--text2);
+            font-size: 0.75rem;
+            font-family: inherit;
+            cursor: pointer;
+            padding: 6px 12px;
+        }
+
+        .btn-reset:hover {
+            color: var(--error);
+        }
+
+        /* Card Screen */
+        #cardScreen {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+        }
+
+        .card-progress {
+            font-size: 0.82rem;
+            color: var(--text2);
+            font-weight: 600;
+        }
+
+        .btn-end {
+            padding: 6px 16px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            background: none;
+            color: var(--text2);
+            font-family: inherit;
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .btn-end:hover {
+            border-color: var(--error);
+            color: var(--error);
+        }
+
+        .progress-bar {
+            height: 4px;
+            background: var(--card);
+            border-radius: 2px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: var(--grad);
+            border-radius: 2px;
+            transition: width 0.4s ease;
+        }
+
+        /* Flip Card */
+        .card-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+            min-height: 280px;
+        }
+
+        .flip-card {
+            width: 100%;
+            max-width: 400px;
+            height: 280px;
+            cursor: pointer;
+            position: relative;
+            transform-style: preserve-3d;
+            transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .flip-card.flipped {
+            transform: rotateY(180deg);
+        }
+
+        .flip-front,
+        .flip-back {
+            position: absolute;
+            inset: 0;
+            border-radius: var(--radius);
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .flip-front {
+            background: var(--card);
+        }
+
+        .flip-back {
+            background: linear-gradient(135deg, #1e1b4b, #312e81);
+            transform: rotateY(180deg);
+            border-color: var(--accent);
+        }
+
+        .card-number {
+            position: absolute;
+            top: 14px;
+            left: 18px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--text2);
+        }
+
+        .card-source {
+            position: absolute;
+            top: 14px;
+            right: 18px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 10px;
+            background: rgba(108, 99, 255, 0.2);
+            color: var(--accent2);
+        }
+
+        .card-word {
+            font-size: 2rem;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .card-pos {
+            font-size: 0.82rem;
+            color: var(--text2);
+            margin-bottom: 12px;
+        }
+
+        .card-hint {
+            font-size: 0.75rem;
+            color: var(--text2);
+            opacity: 0.6;
+        }
+
+        .card-meaning {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: var(--accent2);
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .card-word-back {
+            font-size: 0.9rem;
+            color: var(--text2);
+        }
+
+        .card-example {
+            font-size: 0.78rem;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Action Buttons */
+        .card-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+            justify-content: center;
+        }
+
+        .btn-reveal {
+            width: 100%;
+            max-width: 300px;
+            padding: 14px;
+            font-size: 0.95rem;
+            font-weight: 700;
+            font-family: inherit;
+            border: 2px solid var(--accent);
+            border-radius: 14px;
+            background: rgba(108, 99, 255, 0.1);
+            color: var(--accent2);
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-reveal:hover {
+            background: rgba(108, 99, 255, 0.2);
+        }
+
+        .btn-judge {
+            flex: 1;
+            padding: 14px;
+            font-size: 0.92rem;
+            font-weight: 700;
+            font-family: inherit;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .btn-judge:hover {
+            transform: translateY(-1px);
+        }
+
+        .btn-again {
+            background: rgba(248, 113, 113, 0.15);
+            color: var(--error);
+            border: 1px solid rgba(248, 113, 113, 0.3);
+        }
+
+        .btn-known {
+            background: rgba(52, 211, 153, 0.15);
+            color: var(--success);
+            border: 1px solid rgba(52, 211, 153, 0.3);
+        }
+
+        /* Result Screen */
+        #resultScreen {
+            display: none;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            text-align: center;
+        }
+
+        .result-emoji {
+            font-size: 4rem;
+        }
+
+        .result-title {
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+
+        .result-stats {
+            display: flex;
+            gap: 16px;
+        }
+
+        .result-stat {
+            text-align: center;
+        }
+
+        .result-stat .num {
+            font-size: 1.8rem;
+            font-weight: 800;
+        }
+
+        .result-stat .label {
+            font-size: 0.75rem;
+            color: var(--text2);
+        }
+
+        .result-stat.good .num {
+            color: var(--success);
+        }
+
+        .result-stat.bad .num {
+            color: var(--error);
+        }
+
+        .btn-retry {
+            padding: 12px 32px;
+            font-size: 0.92rem;
+            font-weight: 700;
+            font-family: inherit;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn-retry.primary {
+            background: var(--grad);
+            color: #fff;
+            box-shadow: 0 4px 16px rgba(108, 99, 255, 0.3);
+        }
+
+        .btn-retry.secondary {
+            background: var(--card);
+            color: var(--text);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="app-header">
+            <h1 id="appTitle">📚 単語カード</h1>
+            <div class="sub" id="appSub"></div>
+        </div>
+
+        <!-- Start Screen -->
+        <div id="startScreen">
+            <div class="stat-cards">
+                <div class="stat-card">
+                    <div class="stat-num" id="statTotal">0</div>
+                    <div class="stat-label">全単語</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" id="statRemain" style="-webkit-text-fill-color:var(--warn)">0</div>
+                    <div class="stat-label">残り</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-num" id="statDone" style="-webkit-text-fill-color:var(--success)">0</div>
+                    <div class="stat-label">覚えた</div>
+                </div>
+            </div>
+            <div class="order-toggle">
+                <button class="order-btn active" data-order="seq">出現順</button>
+                <button class="order-btn" data-order="rand">ランダム</button>
+            </div>
+            <button class="btn-start" onclick="startCards()">START</button>
+            <button class="btn-reset" onclick="resetProgress()">🔄 学習記録をリセット</button>
+        </div>
+
+        <!-- Card Screen -->
+        <div id="cardScreen">
+            <div class="card-header">
+                <span class="card-progress" id="cardProgress">1 / 50</span>
+                <button class="btn-end" onclick="endSession()">終了</button>
+            </div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="cardProgressBar"></div>
+            </div>
+            <div class="card-wrapper" onclick="flipCard()">
+                <div class="flip-card" id="flipCard">
+                    <div class="flip-front">
+                        <div class="card-number" id="cardNum">No.1</div>
+                        <div class="card-source" id="cardSource"></div>
+                        <div class="card-word" id="cardWord"></div>
+                        <div class="card-pos" id="cardPos"></div>
+                        <div class="card-hint">タップで和訳を表示</div>
+                    </div>
+                    <div class="flip-back">
+                        <div class="card-number" id="cardNumBack">No.1</div>
+                        <div class="card-meaning" id="cardMeaning"></div>
+                        <div class="card-word-back" id="cardWordBack"></div>
+                        <div class="card-example" id="cardExample"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-actions" id="cardActions">
+                <button class="btn-reveal" id="btnReveal" onclick="flipCard()">答えを見る</button>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div id="resultScreen">
+            <div class="result-emoji" id="resultEmoji">🎉</div>
+            <div class="result-title" id="resultTitle">お疲れ様でした！</div>
+            <div class="result-stats">
+                <div class="result-stat good">
+                    <div class="num" id="resKnown">0</div>
+                    <div class="label">覚えた</div>
+                </div>
+                <div class="result-stat bad">
+                    <div class="num" id="resAgain">0</div>
+                    <div class="label">もう一度</div>
+                </div>
+            </div>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+                <button class="btn-retry secondary" onclick="retryMissed()">まだの単語をやり直す</button>
+                <button class="btn-retry primary" onclick="retryAll()">最初からやり直す</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let VOCAB = [];
+        let deck = [];
+        let currentIdx = 0;
+        let known = new Set();
+        let again = new Set();
+        let isFlipped = false;
+        let order = 'seq';
+        let storageKey = '';
+
+        function init() {
+            const params = new URLSearchParams(window.location.search);
+            const dataUrl = params.get('data');
+            if (!dataUrl) { document.getElementById('appSub').textContent = 'データが指定されていません'; return; }
+            storageKey = 'vocabCards_' + dataUrl;
+            fetch(dataUrl).then(r => r.json()).then(data => {
+                VOCAB = data.vocabulary || [];
+                document.getElementById('appSub').textContent = data.title || '';
+                document.title = '単語カード — ' + (data.title || '');
+                loadProgress();
+                updateStartScreen();
+            }).catch(e => { document.getElementById('appSub').textContent = 'データ読み込みエラー'; });
+
+            document.querySelectorAll('.order-btn').forEach(btn => {
+                btn.onclick = () => {
+                    document.querySelectorAll('.order-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    order = btn.dataset.order;
+                };
+            });
+        }
+
+        function loadProgress() {
+            try {
+                const saved = JSON.parse(localStorage.getItem(storageKey));
+                if (saved && saved.known) known = new Set(saved.known);
+            } catch (e) { }
+        }
+        function saveProgress() {
+            localStorage.setItem(storageKey, JSON.stringify({ known: [...known] }));
+        }
+
+        function updateStartScreen() {
+            const total = VOCAB.length;
+            const done = known.size;
+            document.getElementById('statTotal').textContent = total;
+            document.getElementById('statDone').textContent = done;
+            document.getElementById('statRemain').textContent = total - done;
+        }
+
+        function shuffle(arr) {
+            const a = [...arr];
+            for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; }
+            return a;
+        }
+
+        function startCards() {
+            deck = VOCAB.filter((_, i) => !known.has(i));
+            if (deck.length === 0) { deck = [...VOCAB]; known.clear(); saveProgress(); updateStartScreen(); }
+            // Store original indices
+            deck = deck.map((v, i) => ({ ...v, origIdx: VOCAB.indexOf(v) }));
+            if (order === 'rand') deck = shuffle(deck);
+            currentIdx = 0;
+            again = new Set();
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('resultScreen').style.display = 'none';
+            document.getElementById('cardScreen').style.display = 'flex';
+            showCard();
+        }
+
+        function showCard() {
+            const item = deck[currentIdx];
+            isFlipped = false;
+            document.getElementById('flipCard').classList.remove('flipped');
+            document.getElementById('cardNum').textContent = `No.${currentIdx + 1}`;
+            document.getElementById('cardNumBack').textContent = `No.${currentIdx + 1}`;
+            document.getElementById('cardWord').textContent = item.word;
+            document.getElementById('cardPos').textContent = item.pos || '';
+            document.getElementById('cardSource').textContent = item.source || '';
+            document.getElementById('cardMeaning').textContent = item.meaning;
+            document.getElementById('cardWordBack').textContent = item.word;
+            document.getElementById('cardExample').textContent = item.example ? `例: ${item.example}` : '';
+            document.getElementById('cardProgress').textContent = `${currentIdx + 1} / ${deck.length}`;
+            document.getElementById('cardProgressBar').style.width = `${((currentIdx) / deck.length) * 100}%`;
+            // Show reveal button
+            document.getElementById('cardActions').innerHTML = '<button class="btn-reveal" onclick="flipCard()">答えを見る</button>';
+        }
+
+        function flipCard() {
+            if (isFlipped) return;
+            isFlipped = true;
+            document.getElementById('flipCard').classList.add('flipped');
+            document.getElementById('cardActions').innerHTML = `
+    <button class="btn-judge btn-again" onclick="judgeCard(false)"><span class="material-symbols-rounded" style="font-size:20px">close</span> まだ</button>
+    <button class="btn-judge btn-known" onclick="judgeCard(true)"><span class="material-symbols-rounded" style="font-size:20px">check</span> 覚えた</button>
+  `;
+        }
+
+        function judgeCard(isKnown) {
+            const item = deck[currentIdx];
+            if (isKnown) {
+                known.add(item.origIdx);
+            } else {
+                again.add(currentIdx);
+                known.delete(item.origIdx);
+            }
+            saveProgress();
+            currentIdx++;
+            if (currentIdx >= deck.length) {
+                showResult();
+            } else {
+                showCard();
+            }
+        }
+
+        function showResult() {
+            document.getElementById('cardScreen').style.display = 'none';
+            document.getElementById('resultScreen').style.display = 'flex';
+            const knownCount = deck.length - again.size;
+            const againCount = again.size;
+            document.getElementById('resKnown').textContent = knownCount;
+            document.getElementById('resAgain').textContent = againCount;
+            if (againCount === 0) {
+                document.getElementById('resultEmoji').textContent = '🎉';
+                document.getElementById('resultTitle').textContent = 'パーフェクト！すべて覚えました！';
+            } else {
+                document.getElementById('resultEmoji').textContent = '💪';
+                document.getElementById('resultTitle').textContent = 'お疲れ様でした！';
+            }
+            updateStartScreen();
+        }
+
+        function retryMissed() {
+            const missed = [...again].map(i => deck[i]);
+            deck = missed.map(v => ({ ...v }));
+            if (order === 'rand') deck = shuffle(deck);
+            currentIdx = 0;
+            again = new Set();
+            document.getElementById('resultScreen').style.display = 'none';
+            document.getElementById('cardScreen').style.display = 'flex';
+            showCard();
+        }
+
+        function retryAll() {
+            document.getElementById('resultScreen').style.display = 'none';
+            document.getElementById('startScreen').style.display = 'flex';
+            updateStartScreen();
+        }
+
+        function endSession() {
+            document.getElementById('cardScreen').style.display = 'none';
+            document.getElementById('startScreen').style.display = 'flex';
+            updateStartScreen();
+        }
+
+        function resetProgress() {
+            if (!confirm('学習記録をリセットしますか？')) return;
+            known.clear();
+            saveProgress();
+            updateStartScreen();
+        }
+
+        init();
+    </script>
+</body>
+
+</html>
