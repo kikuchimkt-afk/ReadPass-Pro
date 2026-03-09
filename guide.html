@@ -295,6 +295,81 @@
             color: #fff
         }
 
+        /* Grammar Tabs */
+        .grammar-tabs {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 20px;
+            flex-wrap: wrap
+        }
+
+        .grammar-tab {
+            padding: 8px 18px;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--card);
+            color: var(--text-dim);
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all .2s
+        }
+
+        .grammar-tab:hover {
+            border-color: var(--accent2);
+            color: var(--text)
+        }
+
+        .grammar-tab.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: #fff
+        }
+
+        .grammar-panel {
+            display: none
+        }
+
+        .grammar-panel.active {
+            display: block
+        }
+
+        .exam-fp {
+            margin-bottom: 20px;
+            padding: 16px 20px;
+            border-radius: 12px;
+            background: var(--card);
+            border: 1px solid var(--border)
+        }
+
+        .exam-fp-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 8px
+        }
+
+        .exam-fp-list {
+            list-style: none;
+            padding: 0;
+            margin: 0
+        }
+
+        .exam-fp-list li {
+            font-size: 13px;
+            color: var(--text-dim);
+            padding: 4px 0 4px 16px;
+            position: relative;
+            line-height: 1.6
+        }
+
+        .exam-fp-list li::before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: var(--accent2)
+        }
+
         /* Footer */
         .manual-footer {
             text-align: center;
@@ -365,48 +440,414 @@
             </div>
         </section>
 
-        <!-- ===== 対応級 ===== -->
+        <!-- ===== 文法構文一覧 ===== -->
         <section class="section">
-            <h2><span class="section-number">1</span>対応する級と試験</h2>
-            <p>ReadPass Pro は以下の級に対応しています。トップページから級を選択してください。</p>
+            <h2><span class="section-number">1</span>文法・構文フォーカス一覧</h2>
+            <p>各回の試験で取り上げた文法・構文事項です。級ごとにタブを切り替えてご確認ください。授業の事前準備や指導計画にお役立てください。</p>
 
-            <table class="level-table">
-                <thead>
-                    <tr>
-                        <th>級</th>
-                        <th>CEFR</th>
-                        <th>試験データ数</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><span class="level-badge" style="background:#f59e0b">B2</span> 準1級</td>
-                        <td>B2</td>
-                        <td>15回分</td>
-                    </tr>
-                    <tr>
-                        <td><span class="level-badge" style="background:#4f8cff">B1</span> 2級</td>
-                        <td>B1</td>
-                        <td>15回分</td>
-                    </tr>
-                    <tr>
-                        <td><span class="level-badge" style="background:#8b5cf6">A2+</span> 準2級プラス</td>
-                        <td>A2-B1</td>
-                        <td>6回分</td>
-                    </tr>
-                    <tr>
-                        <td><span class="level-badge" style="background:#10b981">A2</span> 準2級</td>
-                        <td>A2</td>
-                        <td>3回分</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="grammar-tabs">
+                <button class="grammar-tab active" onclick="showGrammarPanel('p1')">準1級</button>
+                <button class="grammar-tab" onclick="showGrammarPanel('g2')">2級</button>
+                <button class="grammar-tab" onclick="showGrammarPanel('p2plus')">準2級プラス</button>
+                <button class="grammar-tab" onclick="showGrammarPanel('p2')">準2級</button>
+            </div>
 
-            <div class="screenshot">
-                <img src="manual/top.png" alt="トップページ">
-                <div class="screenshot-caption">トップページ — 級を選択して試験を選びます</div>
+            <!-- 準1級 -->
+            <div class="grammar-panel active" id="panel-p1">
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2021年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>譲歩の逆接構文</li>
+                        <li>結果・因果の接続表現</li>
+                        <li>受動態の応用パターン</li>
+                        <li>目的・理由を表す不定詞と前置詞句</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2021年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>仮定法過去完了と推量表現</li>
+                        <li>同類・対照の接続表現</li>
+                        <li>関係代名詞と関係副詞の複雑な用法</li>
+                        <li>無生物主語と使役構文</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2021年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>分詞構文の多様な用法</li>
+                        <li>逆接・譲歩の接続表現</li>
+                        <li>仮定法と推量表現</li>
+                        <li>無生物主語と因果関係の表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2022年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>受動態の多様な時制パターン</li>
+                        <li>対比の接続表現と論理構造</li>
+                        <li>仮定法と推量の助動詞</li>
+                        <li>名詞句の後置修飾と複合構造</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2022年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>分詞構文と付帯状況のwith</li>
+                        <li>接続副詞と論理展開パターン</li>
+                        <li>関係代名詞と関係副詞の使い分け</li>
+                        <li>so/such...that構文と程度・結果表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2022年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>比較構文と最上級の多様な表現</li>
+                        <li>因果関係の接続表現</li>
+                        <li>助動詞の推量・可能性表現</li>
+                        <li>動名詞・不定詞の選択パターン</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>仮定法と条件表現</li>
+                        <li>対比・逆接のディスコースマーカー</li>
+                        <li>受動態の多様なパターン</li>
+                        <li>同格表現とダッシュによる補足</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>分詞構文と分詞の後置修飾</li>
+                        <li>関係代名詞の非制限用法</li>
+                        <li>目的・結果を表す不定詞と接続表現</li>
+                        <li>無生物主語構文と因果関係の表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>仮定法過去完了と条件分岐</li>
+                        <li>接続詞・ディスコースマーカーの識別</li>
+                        <li>受動態の多様なパターン</li>
+                        <li>動名詞と不定詞の使い分け</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>同格のダッシュと挿入構造</li>
+                        <li>比較対照の論理構造</li>
+                        <li>関係代名詞の制限用法と後置修飾</li>
+                        <li>仮定法・条件分岐パターン</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>譲歩・逆接の論理展開</li>
+                        <li>受身の動名詞・不定詞構文</li>
+                        <li>ダッシュ（—）による補足・言い換え</li>
+                        <li>無生物主語構文</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>so/such…that構文と程度表現</li>
+                        <li>受動態の多様なパターン</li>
+                        <li>関係詞の非制限用法と挿入構造</li>
+                        <li>名詞句の後置修飾パターン</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>比較構文と程度の表現</li>
+                        <li>分詞構文の多様な用法</li>
+                        <li>接続副詞と論理展開パターン</li>
+                        <li>仮定法過去完了と推量表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>仮定法と仮想表現</li>
+                        <li>無生物主語と因果関係の構文</li>
+                        <li>関係代名詞の非制限用法と補足説明</li>
+                        <li>ダッシュ記号による情報挿入と補足</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>譲歩・逆接の論理展開</li>
+                        <li>受動態の多様な形式</li>
+                        <li>分詞構文と分詞の後置修飾</li>
+                        <li>因果関係の接続表現</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 2級 -->
+            <div class="grammar-panel" id="panel-g2">
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>provided (that) / as long as 条件の接続詞</li>
+                        <li>倍数表現 X times the size of Y</li>
+                        <li>as good as any / 比較のany</li>
+                        <li>前置詞+名詞のイディオム</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>Not only A but also B 倒置</li>
+                        <li>be sure to / ought to の助動詞表現</li>
+                        <li>句動詞のマスター</li>
+                        <li>used to / historians used to believe</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2023年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>間接疑問文</li>
+                        <li>仮定法・倒置構文</li>
+                        <li>結果のso that / 目的のso that</li>
+                        <li>used to / be used to の使い分け</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>so that / so...that 構文</li>
+                        <li>時制の一致と仮定法過去</li>
+                        <li>受動態のバリエーション</li>
+                        <li>目的を表すto不定詞</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第1回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>比較・類似の表現</li>
+                        <li>提案のthat節と仮定法現在</li>
+                        <li>非人称受動態 It is believed / hoped that</li>
+                        <li>ディスコースマーカーと文章展開</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>分詞構文（現在分詞・過去分詞の副詞的用法）</li>
+                        <li>関係詞の制限用法と非制限用法</li>
+                        <li>形式主語 it と強調構文</li>
+                        <li>対比・逆接の論理構造（however / while / though）</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第2回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>使役動詞と知覚動詞の構文</li>
+                        <li>同格表現と名詞の言い換え</li>
+                        <li>目的・結果を表す構文</li>
+                        <li>時制の使い分けと歴史叙述</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>同格表現（名詞を説明する構造）</li>
+                        <li>仮定法・仮想表現</li>
+                        <li>使役・知覚構文（make / let / keep）</li>
+                        <li>動名詞・to不定詞の使い分け</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第3回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>Nevertheless / That is to say 談話標識</li>
+                        <li>受身形 be believed to / be considered / be expected to</li>
+                        <li>句動詞 fill out / give rise to / reading between the lines</li>
+                        <li>比較構文 more...than any / fewer...but more</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>関係詞の多様な用法</li>
+                        <li>倒置構文（Not only do they...）</li>
+                        <li>接続詞と論理展開（Although / Since / While）</li>
+                        <li>比較表現（比較級・as...as・最上級）</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>Once / Unless 時・条件の接続詞</li>
+                        <li>not only A but also B / not just A but B</li>
+                        <li>句動詞 struggle with / go over / mind one's own business</li>
+                        <li>受身の使役 make+O+V / make it+adj+to V</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>無生物主語構文</li>
+                        <li>ディスコースマーカー（論理展開の接続表現）</li>
+                        <li>不定詞の副詞的用法（目的・結果）</li>
+                        <li>受動態（be + 過去分詞）の多様な用法</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>as a consequence / as a result 結果の表現</li>
+                        <li>仮定法過去 If there were more air</li>
+                        <li>句動詞 make off / cut down / take one's place</li>
+                        <li>not just A but (also) B / not only A but B</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>not only A but also B（AだけでなくBも）</li>
+                        <li>the + 比較級, the + 比較級（〜すればするほど…）</li>
+                        <li>ディスコースマーカー（論理接続語）</li>
+                        <li>受動態の多層構造と分詞表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>as if + 仮定法過去</li>
+                        <li>insist that S (should) V 仮定法現在</li>
+                        <li>dying to / intent on 強い意志の表現</li>
+                        <li>approve of / distinguish from 動詞+前置詞</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 準2級プラス -->
+            <div class="grammar-panel" id="panel-p2plus">
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>因果関係の接続表現</li>
+                        <li>否定・譲歩の表現</li>
+                        <li>比較・程度を表す表現</li>
+                        <li>条件文と仮定表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>逆接・対比の接続表現</li>
+                        <li>因果関係の連鎖表現</li>
+                        <li>追加・補足の接続表現</li>
+                        <li>受動態の多様な用法</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>比較表現（比較級・最上級・同等比較）</li>
+                        <li>原因・結果を表す接続表現</li>
+                        <li>provide/supply型の動詞構文</li>
+                        <li>仮定・条件を表す表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>目的・理由を表す表現</li>
+                        <li>接続詞による論理展開</li>
+                        <li>依頼・提案の丁寧表現</li>
+                        <li>関係代名詞と修飾構造</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>受動態と受動表現</li>
+                        <li>目的・理由を表す不定詞と接続詞</li>
+                        <li>対比・逆接の接続表現</li>
+                        <li>時間・順序を表す表現</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回（準会場）</div>
+                    <ul class="exam-fp-list">
+                        <li>譲歩と対比の構文</li>
+                        <li>受動態と 'be considered / be expected' の用法</li>
+                        <li>メール文の定型表現と依頼パターン</li>
+                        <li>論理展開の接続表現</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 準2級 -->
+            <div class="grammar-panel" id="panel-p2">
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>関係代名詞（who / which / that）</li>
+                        <li>助動詞の使い分け（can / should / have to / must）</li>
+                        <li>過去完了形（had + 過去分詞）</li>
+                        <li>be動詞 + 過去分詞（受動態のバリエーション）</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2024年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>比較表現（比較級・最上級・同等比較）</li>
+                        <li>used to の用法（過去の習慣・状態）</li>
+                        <li>現在完了形（経験・完了・継続）</li>
+                        <li>句動詞（動詞＋副詞/前置詞）の使い分け</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第1回</div>
+                    <ul class="exam-fp-list">
+                        <li>動詞の語彙力：日常動作を表す動詞</li>
+                        <li>熟語：動詞＋前置詞/副詞のフレーズ動詞</li>
+                        <li>会話文：状況推理と応答の一致</li>
+                        <li>長文：メールの目的と要求を正確に読む</li>
+                        <li>長文：環境と地域の特性を読み取る</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第2回</div>
+                    <ul class="exam-fp-list">
+                        <li>語彙：感情・性格を表す形容詞</li>
+                        <li>熟語：前置詞句と副詞句</li>
+                        <li>会話文：文脈から適切な応答を選ぶ</li>
+                        <li>長文読解：パラフレーズを見抜く</li>
+                        <li>長文読解：現代と過去の対比</li>
+                    </ul>
+                </div>
+                <div class="exam-fp">
+                    <div class="exam-fp-title">2025年度 第3回</div>
+                    <ul class="exam-fp-list">
+                        <li>接続詞 as long as / because / so の使い分け</li>
+                        <li>that節を使った「感じた・思った」の表現</li>
+                        <li>不定詞の用法（名詞用法・副詞用法）</li>
+                        <li>受動態（be + 過去分詞）の基本パターン</li>
+                    </ul>
+                </div>
             </div>
         </section>
+
+        <script>
+            function showGrammarPanel(id) {
+                document.querySelectorAll('.grammar-panel').forEach(p => p.classList.remove('active'));
+                document.querySelectorAll('.grammar-tab').forEach(t => t.classList.remove('active'));
+                document.getElementById('panel-' + id).classList.add('active');
+                event.target.classList.add('active');
+            }
+        </script>
 
         <!-- ===== 単語クイズ ===== -->
         <section class="section">
