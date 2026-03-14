@@ -1,0 +1,19 @@
+# Development tools
+.agent/
+.agents/
+tools/
+manual/
+
+# Local files
+start.bat
+修正.txt
+RESUME_*.md
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Temp
+*.tmp
+*.bak
