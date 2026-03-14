@@ -1843,31 +1843,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Having completed' は何を表す分詞構文か？",
-                        "a": "完了の分詞構文。主文の動作より前に完了した動作を示す。= After they had completed..."
+                        "q": "'Given the lack of reliable evidence' の 'Given' はどのような分詞構文ですか？",
+                        "a": "「〜を考えると」。条件・前提を示す分詞構文。given = considering。信頼できる証拠が不足していることを前提として述べる。"
                     },
                     {
-                        "q": "'Not knowing' はなぜNotが前に？",
-                        "a": "分詞構文の否定形。Not/Never + Ving。= Because the traveler did not know..."
+                        "q": "'leaving historians unsure of the truth' の 'leaving' はどのような分詞構文ですか？",
+                        "a": "結果を示す分詞構文。「その結果、歴史家は真実がわからないままだ」。前述の状況の結果を表す。"
                     },
                     {
-                        "q": "'Judging from' はどんな用法？",
-                        "a": "慣用的・独立的な分詞構文。主語に関係なく使われる。= If we judge from..."
+                        "q": "'would have needed a powerful figure' の仮定法過去完了は何を示しますか？",
+                        "a": "「強力な人物が必要だったであろう」。過去の推測。実際にそうだったかは不確かだが、論理的にそうであっただろうという推量。"
+                    },
+                    {
+                        "q": "カリグラの馬の話はこの段落でどのように再解釈されていますか？",
+                        "a": "文字通りの狂気ではなく、政治的な風刺や元老院への侮辱として意図された可能性。歴史的記録の信頼性に疑問を投げかける。"
                     }
                 ],
                 "highlightPatterns": [
                     "Given",
                     "leaving",
-                    "made",
-                    "Having",
-                    "being",
-                    "concerned"
+                    "would have"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "分詞構文",
                 "practicePassage": {
-                    "en": "Having completed the initial research phase, the team moved on to the experimental stage. The river, flowing through the center of the city, provides drinking water for millions of residents. Not knowing the local language, the traveler relied on hand gestures to communicate. The factory, established in 1920, has been producing textiles for over a century. Judging from the evidence, the authorities concluded that the fire had been caused by an electrical fault.",
-                    "ja": "初期の研究段階を完了した後、チームは実験段階に進んだ。市の中心部を流れる川は何百万人もの住民に飲料水を提供している。現地の言語を知らなかったため、旅行者はコミュニケーションのために手振りに頼った。1920年に設立されたその工場は1世紀以上にわたって繊維を生産してきた。証拠から判断して、当局は火災が電気系統の故障によって引き起こされたと結論付けた。"
+                    "en": "[出典: Caligula]\nThe story of how Caligula supposedly tried to appoint his horse Incitatus to a powerful government position is also sometimes given as evidence of his mental illness. However, Caligula is said to have frequently humiliated members of the Roman Senate, making them do things such as wearing uncomfortable clothing and running in front of his chariot. Elevating his horse to a position higher than theirs would have been another way to make the Senate members feel worthless. Eventually, though, Caligula's behavior went too far, and he was murdered. Efforts were made to erase him from history, leaving few reliable sources for modern historians to study. As a result, it may never be known whether he truly was the mad emperor.",
+                    "ja": "カリグラが馬のインキタトゥスを有力な政府の地位に任命しようとしたという話もまた、彼が精神を病んでいた証拠として挙げられることがある。しかし、カリグラが頻繁に元老院議員を辱めていたことを考えると、これは馬が議員よりも高い地位に値するという彼の示唆だったのかもしれない。彼は不快な服を着させたり、戦車の前を走らせたりして議員を辱めた。信頼できる証拠が不足していることを考えると、カリグラが本当に精神的に病んでいたのか、それとも巧みな政治的策略家だったのかを判断するのは不可能であり、歴史家に真実がわからないままにしている。ある歴史家が指摘するように、彼のようにローマ社会に権力を持っていた人物は、馬を議員に任命するには強力な人物が必要だっただろうし、それが真実であれば、彼は政治的手腕を持っていたことを示唆している。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1896,32 +1898,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Nonetheless' と 'Notwithstanding' の違いは？",
-                        "a": "Nonetheless = 副詞（文頭）。Notwithstanding = 前置詞（+ 名詞）。どちらも「にもかかわらず」。"
+                        "q": "'Although Higgins's first novel was an immediate hit' の 'Although' はどのような譲歩ですか？",
+                        "a": "「ヒギンズの最初の小説は大ヒットだったが」→ 全ての読者が好んだわけではない。成功の中の例外を示す譲歩。"
                     },
                     {
-                        "q": "'Granted that' はどういう意味か？",
-                        "a": "「～だと認めたとしても」。譲歩を表す接続表現。= Even if we accept that..."
+                        "q": "'Despite this' はどのような逆接を示しますか？",
+                        "a": "「これにもかかわらず」。前述の批判にもかかわらず、それでも影響力があったことを示す逆接。"
                     },
                     {
-                        "q": "'Much as' はどんな構文か？",
-                        "a": "Much as + SV = 「～ではあるが」「いくら～しても」。譲歩の倒置表現。= Although they admired..."
+                        "q": "'Nevertheless' はこの段落でどのような論理的役割を果たしますか？",
+                        "a": "「にもかかわらず」。批判的意見の後に、それでも作品の価値を認める立場を示す対比の接続副詞。"
+                    },
+                    {
+                        "q": "この段落でヒギンズの作品に対する賛否両論はどのように構成されていますか？",
+                        "a": "賛: 大ヒット → 否: 文体への批判 → 逆接: それでも影響力は大きい。譲歩と逆接で議論をバランスよく展開。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Despite",
-                    "Nevertheless",
-                    "However",
-                    "Yet",
                     "Although",
-                    "In spite of",
-                    "Even though"
+                    "Nevertheless",
+                    "Yet"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "逆接・譲歩",
                 "practicePassage": {
-                    "en": "The experiment yielded promising initial results. Nonetheless, the researchers remained cautious about drawing definitive conclusions. Granted that the sample size was relatively small, the findings still offered valuable insights. Be that as it may, further studies will be needed to confirm the hypothesis. Notwithstanding the limitations of the study, it has been widely cited in academic literature. Much as other researchers admired the methodology, they pointed out several areas for improvement.",
-                    "ja": "実験は有望な初期結果をもたらした。それにもかかわらず、研究者は確定的な結論を出すことに慎重であった。サンプルサイズが比較的小さかったとはいえ、発見は依然として貴重な洞察を提供した。たとえそうであっても、仮説を確認するためにさらなる研究が必要だろう。研究の限界にもかかわらず、学術文献で広く引用されている。他の研究者が方法論を称賛したものの、いくつかの改善点を指摘した。"
+                    "en": "[出典: The Friends of Eddie Coyle]\nAlthough Higgins's first novel was an immediate hit, not all readers liked the author's writing style, which he also used in his following books. Many complained that his later novels lacked clear plots and contained too little action. Yet Higgins remained committed to his belief that the most engaging way to tell a story is through the conversations of its characters, as this compels the reader to pay close attention to what is being said. Despite writing many novels, Higgins was never able to replicate the success of his debut work. Toward the end of his life, he became disappointed and frustrated by the lack of attention and appreciation his books received. Nevertheless, The Friends of Eddie Coyle is now considered by many to be one of the greatest crime novels ever written.",
+                    "ja": "ヒギンズの最初の小説は即座にヒットしたが、すべての読者が彼の文体を好んだわけではなかった。彼は後の作品でもこの文体を使用した。多くの読者は彼の後の小説には明確なプロットがなく、アクションが少なすぎると不満を述べた。しかしヒギンズは、物語を伝える最も魅力的な方法は登場人物の会話を通じてであるという信念を貫いた。これにより読者は語られていることに細心の注意を払わざるを得なくなるからだ。多くの小説を書いたにもかかわらず、ヒギンズはデビュー作の成功を再現することができなかった。晩年には、自分の作品が受ける注目と評価の少なさに失望し、フラストレーションを感じるようになった。それにもかかわらず、『エディ・コイルの友人たち』は現在、多くの人に史上最高の犯罪小説の一つと見なされている。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1950,31 +1953,31 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'might not have risen' と 'would have saved' と 'could have spiraled' の違いは？",
-                        "a": "would have = 確実にそうなった。might not have = そうならなかった可能性。could have = そうなり得た。確信度の違い。"
+                        "q": "'designed to protect those inside vehicles' はどのような受動態＋不定詞の構造ですか？",
+                        "a": "「車内の人を守るように設計された」。designed to = 〜するよう設計された。安全装置の目的を示す。"
                     },
                     {
-                        "q": "'Were the ice caps to melt' は何の変形？",
-                        "a": "If the ice caps were to melt → Were the ice caps to melt。仮定法未来の倒置。起こりそうにないことを仮定。"
+                        "q": "'Despite this' の 'this' は何を指しますか？",
+                        "a": "前述の安全対策（カメラによる違反検出など）の存在。対策があるにもかかわらず、まだ問題があることを示す。"
                     },
                     {
-                        "q": "'It is as if governments had ignored' の時制は？",
-                        "a": "as if + 仮定法過去完了。現在の状況が過去の行動の結果に見えることを表す。"
+                        "q": "'can easily be fixed' はどのような楽観的な見方を示しますか？",
+                        "a": "「簡単に修正できる」。問題は解決可能であるという前向きな評価。技術的な解決策の容易さを強調。"
+                    },
+                    {
+                        "q": "この段落で述べられている交通安全の改善策は何ですか？",
+                        "a": "交差点のカメラによる信号無視の検出。車内の安全装置の改善。技術的に修正可能な問題への対処。"
                     }
                 ],
                 "highlightPatterns": [
-                    "may have",
-                    "could have",
-                    "might have",
-                    "would have",
-                    "if",
-                    "were"
+                    "Despite this"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "仮定・推量",
                 "practicePassage": {
-                    "en": "If renewable energy had been adopted earlier, global carbon levels might not have risen so dramatically. Without international cooperation, the climate crisis could have spiraled out of control. The new policy, had it been implemented sooner, would have saved thousands of endangered species. It is as if governments had ignored the warnings of scientists for decades. Were the ice caps to melt completely, sea levels would rise by several meters.",
-                    "ja": "再生可能エネルギーがもっと早く採用されていたら、世界の炭素レベルはこれほど劇的に上昇しなかったかもしれない。国際協力がなければ、気候危機は制御不能に陥っていた可能性がある。新しい政策がもっと早く実施されていたら、何千もの絶滅危惧種を救っていただろう。まるで政府が何十年もの間科学者の警告を無視してきたかのようだ。氷冠が完全に溶けたら、海面は数メートル上昇するだろう。"
+                    "en": "[出典: Government Policy and Road Safety]\nOne measure for improving road safety is the use of cameras at traffic signals to detect drivers who fail to stop for red lights. Many such cameras were installed in the 1990s and have been shown to save lives. Despite this, the number of such cameras has declined in recent years. One reason for this is that there is often public opposition to them due to privacy concerns.",
+                    "ja": "道路安全を向上させるための一つの対策は、赤信号で停止しないドライバーを検出するために信号にカメラを設置することである。1990年代に多くのカメラが設置され、命を救うことが示されてきた。にもかかわらず、そのようなカメラの数は近年減少している。この理由の一つは、プライバシーへの懸念からカメラに対する市民の反対がしばしばあることだ。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2003,32 +2006,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'made it impossible for trucks to reach' を人間主語で書き換えると？",
-                        "a": "Because of the harsh winter, supply trucks could not reach remote villages."
+                        "q": "'resulted in a thriving trade in mummies' の 'resulted in' はどのような因果関係ですか？",
+                        "a": "「ミイラの活発な取引をもたらした」。原因（ミイラの需要）→ 結果（ミイラ取引の繁栄）。無生物主語の因果表現。"
                     },
                     {
-                        "q": "'has resulted in' と 'has given rise to' の違いは？",
-                        "a": "has resulted in = ～という結果になった（一般的）。has given rise to = ～を生み出した（新しい現象の出現）。"
+                        "q": "'which led to a huge demand' の 'which' は何を先行詞としますか？",
+                        "a": "前述の事象全体を先行詞とする関係代名詞の非制限用法。その結果として巨大な需要が生まれたという因果連鎖。"
                     },
                     {
-                        "q": "'owed much to' を言い換えると？",
-                        "a": "was largely thanks to / was greatly indebted to / depended heavily on"
+                        "q": "'became so popular' の 'so...that' 構文は何を強調していますか？",
+                        "a": "ミイラの人気が非常に高くなり、特定の結果（大規模な取引の発生）をもたらしたことを強調。"
+                    },
+                    {
+                        "q": "古代エジプトのミイラがヨーロッパでどのように利用されたか要約してください。",
+                        "a": "薬として摂取・使用。ミイラには治癒力があると信じられ、ヨーロッパで大きな需要と取引が生まれた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "led to",
                     "resulted in",
-                    "caused",
-                    "prevented",
-                    "made",
-                    "enabled",
-                    "allowed"
+                    "ancient Egyptians"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "無生物主語",
                 "practicePassage": {
-                    "en": "The harsh winter conditions made it impossible for supply trucks to reach remote villages. Rapid urbanization has resulted in the destruction of many historical neighborhoods. The success of the project owed much to the dedication of the volunteer team. A sudden drop in oil prices sent shockwaves through the global economy. The widespread use of smartphones has given rise to a new generation of mobile entrepreneurs.",
-                    "ja": "厳しい冬の条件により補給トラックが辺鄙な村に到達することが不可能になった。急速な都市化は多くの歴史的な地区の破壊をもたらした。プロジェクトの成功はボランティアチームの献身に多くを負っていた。原油価格の急落が世界経済に衝撃波を送った。スマートフォンの普及がモバイル起業家の新世代を生み出した。"
+                    "en": "[出典: Mummy Brown]\nThousands of years ago, ancient Egyptians began practicing mummification — the process of drying out the bodies of the dead, treating them with various substances, and wrapping them to preserve them. It was believed this helped the dead person's spirit enter the afterlife. Beginning in the twelfth century, however, many ancient mummies met a strange fate, as a market arose in Europe for medicines made using parts of mummies. People assumed the mummies' black color was because they had been treated with bitumen — a black, petroleum-based substance that occurs naturally in the Middle East and was used by ancient societies to treat illnesses. However, while ancient Egyptians did sometimes preserve mummies by coating them with bitumen, this method had not been used on many of the mummies that were taken to Europe. Furthermore, an incorrect translation of Arabic texts resulted in the mistaken belief that the bitumen used to treat mummies actually entered their bodies.",
+                    "ja": "数千年前、古代エジプト人はミイラ化を始めた。これは死者の遺体を乾燥させ、さまざまな物質で処理し、保存するために包む過程である。これにより死者の魂が来世に入ることができると信じられていた。しかし12世紀以降、ミイラの部品を使った薬の市場がヨーロッパで生まれ、多くの古代のミイラは奇妙な運命をたどった。ミイラの黒い色はビチューメン（中東で天然に産出する黒い石油系物質で、古代社会で病気の治療に使われていた）で処理されたためだと人々は思い込んでいた。しかし古代エジプト人がビチューメンでミイラを保存することもあったものの、ヨーロッパに持ち込まれた多くのミイラにはこの方法は使われていなかった。さらに、アラビア語の文献の誤訳により、ミイラの処理に使われたビチューメンが実際にミイラの体内に入り込んだという誤った信念が生まれた。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2057,37 +2060,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'exploring innovative approaches' を言い換えると？",
-                        "a": "looking into new and creative methods / investigating novel strategies"
+                        "q": "'One particularly unusual use of mummies' を言い換えてください。",
+                        "a": "'An especially uncommon application of mummies' や 'A remarkably strange way mummies were used'。unusual = uncommon / strange。"
                     },
                     {
-                        "q": "'converting unused commercial buildings into residential units' を言い換えると？",
-                        "a": "transforming vacant business properties into homes / repurposing empty office space for housing"
+                        "q": "'Made using ground-up mummy remains' を別の表現で言い換えると？",
+                        "a": "'Produced from crushed mummy parts' や 'Created with powdered mummy material'。ground-up = crushed / powdered。"
                     },
                     {
-                        "q": "'a fundamental shift in housing policy' を言い換えると？",
-                        "a": "a major overhaul of how housing is managed / a complete rethinking of residential regulations"
+                        "q": "'remained popular for centuries' を言い換えてください。",
+                        "a": "'continued to be widely used for hundreds of years'。remained popular = continued to be widely used。"
                     },
                     {
-                        "q": "'incremental progress is better than none' を言い換えると？",
-                        "a": "small steps forward are preferable to standing still / gradual improvement outweighs total inaction"
+                        "q": "ミイラブラウンとは何か、この段落で述べられている内容を要約してください。",
+                        "a": "砕いたミイラの遺骸から作られた茶色の絵の具。何世紀にもわたって画家に人気があった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "patriot",
-                    "resume",
-                    "sluggish",
-                    "endure",
-                    "fragile",
-                    "eccentric",
-                    "contemplate",
-                    "unanimously"
+                    "particularly unusual",
+                    "Made using ground"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Urban planners are exploring innovative approaches to address the growing housing shortage in major cities. They are considering converting unused commercial buildings into residential units. In addition, several municipalities have begun offering incentives to developers who include affordable housing in their projects. Critics argue that these measures alone are insufficient and that a fundamental shift in housing policy is required. Nevertheless, supporters maintain that even incremental progress is better than none.",
-                    "ja": "都市計画者は主要都市で増加する住宅不足に対処するための革新的なアプローチを模索している。使用されていない商業ビルを住居ユニットに転用することを検討している。さらに、いくつかの自治体はプロジェクトに手頃な住宅を含める開発者にインセンティブの提供を始めている。批判者はこれらの措置だけでは不十分であり、住宅政策の根本的な転換が必要だと主張する。それにもかかわらず、支持者は段階的な進歩でさえ何もないよりましだと主張している。"
+                    "en": "[出典: Mummy Brown]\nOne particularly unusual use of mummies was as a pigment for creating brown paint. Made using ground-up mummies, the pigment, which came to be known as mummy brown, was used as early as the sixteenth century, though demand for it grew around the time of Napoleon's Egyptian campaign. Its color was praised by some European artists, who used it in artworks that can be seen in museums today. Still, the pigment had more critics than fans. Many artists complained about its poor drying ability and other negative qualities. Moreover, painting with a pigment made from deceased people increasingly came to be thought of as disrespectful — one well-known British painter who used mummy brown immediately buried his tube of the paint in the ground when he learned that real mummies had been used to produce it.",
+                    "ja": "ミイラの特に珍しい使用法の一つは、茶色の絵の具を作るための顔料としてだった。砕いたミイラから作られたこの顔料は「マミーブラウン」として知られるようになり、16世紀から使用されていたが、ナポレオンのエジプト遠征の頃に需要が高まった。その色は一部のヨーロッパの芸術家に称賛され、今日美術館で見ることができる作品に使用された。それでも、この顔料はファンよりも批判者の方が多かった。多くの芸術家は乾燥の悪さやその他の欠点について不満を述べた。さらに、故人から作られた顔料で絵を描くことは次第に不敬だと考えられるようになった。マミーブラウンを使用していたある有名なイギリスの画家は、本物のミイラが使われていたことを知ると、すぐに絵の具のチューブを地面に埋めた。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

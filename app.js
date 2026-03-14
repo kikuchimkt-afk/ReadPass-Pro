@@ -1034,11 +1034,67 @@
       const sourceQuoteHtml = (fp.sourceQuote || '').replace(/\n/g, '<br>');
       const pp = fp.practicePassage;
       const pqs = fp.practiceQuestions || (pp && pp.questions) || [];
+      const fpUid = `pp-${fp.id || idx}`;
+      const audioBtn = pp && pp.audioFile ? `
+          <button class="fp-audio-btn" onclick="window.APP.playPracticeAudio(this, '${pp.audioFile}')" title="音声を再生">
+            <span class="material-symbols-rounded" style="font-size:18px">play_circle</span>
+            <span class="fp-audio-label">🔊 音読用音声を再生</span>
+          </button>` : '';
+      const highlightBtn = pp ? `
+          <button class="fp-pron-hl-btn" onclick="window.APP.togglePronHL('${fpUid}')" title="発音ポイントをハイライト">
+            <span class="material-symbols-rounded" style="font-size:18px">highlight</span>
+            <span>発音ポイントを表示</span>
+          </button>` : '';
+      const fpHlBtn = (pp && fp.highlightPatterns && fp.highlightPatterns.length) ? `
+          <button class="fp-pattern-hl-btn" onclick="window.APP.toggleFPHL('${fpUid}', ${esc(JSON.stringify(fp.highlightPatterns))})" title="重点構文（FP）をハイライト表示">
+            <span class="material-symbols-rounded" style="font-size:18px">format_ink_highlighter</span>
+            <span>FPをハイライト</span>
+          </button>` : '';
+      const transBtn = pp && pp.ja ? `
+          <button class="fp-trans-btn" onclick="window.APP.togglePassageTrans('${fpUid}-ja')" title="日本語訳を表示">
+            <span class="material-symbols-rounded" style="font-size:18px">translate</span>
+            <span>日本語訳を表示</span>
+          </button>` : '';
       const passageHtml = pp ? `
         <div class="fp-section-label"><span class="material-symbols-rounded">description</span>練習パッセージ</div>
         <div class="fp-passage">
-          <div class="fp-passage-en">${(pp.en || '').replace(/\n/g, '<br>')}</div>
-          <div class="fp-passage-ja translation-block${settings.showTranslation ? '' : ' hidden'}">${(pp.ja || '').replace(/\n/g, '<br>')}</div>
+          <div class="fp-passage-en" id="${fpUid}" data-original="${(pp.en || '').replace(/"/g, '&quot;')}">${(pp.en || '').replace(/\n/g, '<br>')}</div>
+          <div class="fp-passage-btns">
+            ${audioBtn}
+            ${highlightBtn}
+            ${fpHlBtn}
+            ${transBtn}
+          </div>
+          <div class="fp-passage-ja" id="${fpUid}-ja" style="display:none">${(pp.ja || '').replace(/\n/g, '<br>')}</div>
+        </div>
+        <div class="fp-pronunciation-tips">
+          <div class="fp-section-label"><span class="material-symbols-rounded">record_voice_over</span>音読のポイント</div>
+          <div class="fp-pron-grid">
+            <div class="fp-pron-card">
+              <div class="fp-pron-title">🔗 リエゾン（Linking）</div>
+              <div class="fp-pron-desc">単語の末尾の子音と次の単語の先頭の母音がつながって発音されます。</div>
+              <div class="fp-pron-examples">
+                <div class="fp-pron-ex"><span class="fp-pron-orig">pick<u>ed</u> <u>u</u>p →</span> <span class="fp-pron-sound">/pɪk<b>tʌ</b>p/（ピクタップ）</span></div>
+                <div class="fp-pron-ex"><span class="fp-pron-orig">look<u>ed</u> <u>a</u>t →</span> <span class="fp-pron-sound">/lʊk<b>tæ</b>t/（ルクタット）</span></div>
+                <div class="fp-pron-ex"><span class="fp-pron-orig">a<u>n</u> <u>i</u>mportant →</span> <span class="fp-pron-sound">/ə<b>nɪ</b>mpɔːrtənt/（アニンポータント）</span></div>
+              </div>
+            </div>
+            <div class="fp-pron-card">
+              <div class="fp-pron-title">🔇 リダクション（Reduction）</div>
+              <div class="fp-pron-desc">機能語（冠詞・前置詞・代名詞など）が弱く短く発音されます。母音が曖昧な「ə（シュワ）」に変わります。</div>
+              <div class="fp-pron-examples">
+                <div class="fp-pron-ex"><span class="fp-pron-orig">to →</span> <span class="fp-pron-sound">/tə/（トゥ→タ）</span></div>
+                <div class="fp-pron-ex"><span class="fp-pron-orig">the →</span> <span class="fp-pron-sound">/ðə/（ザ→ダ）</span></div>
+                <div class="fp-pron-ex"><span class="fp-pron-orig">of →</span> <span class="fp-pron-sound">/əv/（オブ→アヴ）</span></div>
+                <div class="fp-pron-ex"><span class="fp-pron-orig">can →</span> <span class="fp-pron-sound">/kən/（キャン→カン）</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="fp-hl-legend" id="${fpUid}-legend" style="display:none">
+            <span class="fp-hl-legend-item"><span class="fp-hl-swatch liaison"></span>リエゾン（子音→母音）</span>
+            <span class="fp-hl-legend-item"><span class="fp-hl-swatch reduction"></span>リダクション（弱化）</span>
+          </div>
+          <div class="fp-pron-tip">💡 音声を聞いて、リエゾンとリダクションが起きている箇所を意識しながら音読しましょう。</div>
         </div>
         ${pqs.length ? `<div class="fp-section-label"><span class="material-symbols-rounded">help</span>確認問題</div>
         ${pqs.map((q, qi) => `
@@ -1073,6 +1129,242 @@
       `;
     }).join('');
   }
+  // ===== PRONUNCIATION HIGHLIGHT =====
+  const _VOWELS = new Set('aeiouAEIOU'.split(''));
+  const _CONSONANTS = new Set('bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ'.split(''));
+  // Only the most commonly reduced function words (keep list short to avoid clutter)
+  const _REDUCTION_WORDS = new Set([
+    'a', 'an', 'the',
+    'to', 'of', 'for', 'at', 'in', 'on', 'from',
+    'and', 'or', 'but',
+    'is', 'are', 'was', 'were',
+    'has', 'have', 'had',
+    'can', 'could', 'would', 'should',
+    'not',
+    'him', 'her', 'them', 'us',
+    'his', 'your', 'our', 'their'
+  ]);
+
+  const _pronHLState = {};
+
+  APP.togglePronHL = function (uid) {
+    const el = document.getElementById(uid);
+    if (!el) return;
+    const legend = document.getElementById(uid + '-legend');
+    const btn = el.closest('.fp-passage')?.querySelector('.fp-pron-hl-btn');
+
+    if (_pronHLState[uid]) {
+      el.innerHTML = el.dataset.original.replace(/\n/g, '<br>');
+      _pronHLState[uid] = false;
+      if (legend) legend.style.display = 'none';
+      if (btn) {
+        btn.querySelector('span:last-child').textContent = '発音ポイントを表示';
+        btn.classList.remove('active');
+      }
+      return;
+    }
+
+    const text = el.dataset.original;
+    el.innerHTML = highlightPronunciation(text);
+    _pronHLState[uid] = true;
+    if (legend) legend.style.display = 'flex';
+    if (btn) {
+      btn.querySelector('span:last-child').textContent = 'ハイライトOFF';
+      btn.classList.add('active');
+    }
+  };
+
+  function highlightPronunciation(text) {
+    // Split text into sentences (by period, then process each)
+    // Tokenize: words + non-words
+    const tokens = text.match(/[a-zA-Z'']+|[^a-zA-Z'']+/g) || [];
+
+    // First pass: identify which word tokens exist
+    const wordIndices = [];
+    tokens.forEach((t, i) => {
+      if (/^[a-zA-Z'']+$/.test(t)) wordIndices.push(i);
+    });
+
+    // Detect liaison pairs (consecutive word tokens where word1 ends consonant + word2 starts vowel)
+    const liaisonPairs = new Set(); // stores index of first word in pair
+    for (let wi = 0; wi < wordIndices.length - 1; wi++) {
+      const idx1 = wordIndices[wi];
+      const idx2 = wordIndices[wi + 1];
+      const w1 = tokens[idx1];
+      const w2 = tokens[idx2];
+      // Check only if separated by single space (not across sentences)
+      const between = tokens.slice(idx1 + 1, idx2).join('');
+      if (between.trim() !== '' || !between.includes(' ')) continue;
+      if (between !== ' ') continue;
+
+      const lastChar = w1[w1.length - 1];
+      const firstChar = w2[0];
+      if (_CONSONANTS.has(lastChar) && _VOWELS.has(firstChar)) {
+        liaisonPairs.add(idx1);
+      }
+    }
+
+    // Build output
+    let result = '';
+    let i = 0;
+    while (i < tokens.length) {
+      const token = tokens[i];
+      const isWord = /^[a-zA-Z'']+$/.test(token);
+
+      if (!isWord) {
+        result += token;
+        i++;
+        continue;
+      }
+
+      // Check if this word starts a liaison pair
+      if (liaisonPairs.has(i) && i + 2 < tokens.length) {
+        const w1 = tokens[i];
+        const space = tokens[i + 1];
+        const w2 = tokens[i + 2];
+        // Render as linked pair with arc connector
+        result += `<span class="pron-link-pair"><span class="pron-link-w1">${w1}</span><span class="pron-link-arc">⌢</span><span class="pron-link-w2">${w2}</span></span>`;
+        i += 3;
+        continue;
+      }
+
+      // Check if this word is a reduction target
+      const wordLower = token.toLowerCase().replace(/'/g, '');
+      if (_REDUCTION_WORDS.has(wordLower)) {
+        result += `<span class="pron-weak">${token}</span>`;
+      } else {
+        result += token;
+      }
+      i++;
+    }
+
+    return result;
+  }
+
+  // ===== PASSAGE TRANSLATION TOGGLE =====
+  APP.togglePassageTrans = function (jaId) {
+    const el = document.getElementById(jaId);
+    if (!el) return;
+    const btn = el.closest('.fp-passage')?.querySelector('.fp-trans-btn');
+    if (el.style.display === 'none') {
+      el.style.display = 'block';
+      if (btn) {
+        btn.querySelector('span:last-child').textContent = '日本語訳を隠す';
+        btn.classList.add('active');
+      }
+    } else {
+      el.style.display = 'none';
+      if (btn) {
+        btn.querySelector('span:last-child').textContent = '日本語訳を表示';
+        btn.classList.remove('active');
+      }
+    }
+  };
+
+  // ===== FP HIGHLIGHT TOGGLE =====
+  const _fpHLState = {};
+  APP.toggleFPHL = function (uid, patterns) {
+    const el = document.getElementById(uid);
+    if (!el) return;
+    const btn = el.closest('.fp-passage')?.querySelector('.fp-pattern-hl-btn');
+
+    if (_fpHLState[uid]) {
+      // Turn off
+      el.innerHTML = el.dataset.original.replace(/\n/g, '<br>');
+      _fpHLState[uid] = false;
+      if (btn) {
+        btn.querySelector('span:last-child').textContent = 'FPをハイライト';
+        btn.classList.remove('active');
+      }
+      return;
+    }
+
+    // Turn on
+    let text = el.dataset.original;
+    if (patterns && Array.isArray(patterns)) {
+      // Sort patterns by length descending to match longer phrases first
+      const sorted = [...patterns].sort((a, b) => b.length - a.length);
+      sorted.forEach((pat, i) => {
+        try {
+          // Escape regex characters cleanly
+          const safePat = pat.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          // Use word boundaries \b to avoid partial word highlighting, 
+          // but only if the pattern starts/ends with a word character
+          let regexPrefix = /^\w/.test(pat) ? '\\b' : '';
+          let regexSuffix = /\w$/.test(pat) ? '\\b' : '';
+          
+          const regex = new RegExp(`(${regexPrefix}${safePat}${regexSuffix})`, 'gi');
+          text = text.replace(regex, `\x00MRK${i}\x00$1\x01MRK${i}\x01`);
+        } catch (e) {}
+      });
+      text = text.replace(/\n/g, '<br>');
+      sorted.forEach((_, i) => {
+        text = text.replace(new RegExp(`\x00MRK${i}\x00`, 'g'), '<mark class="fp-hl-mark">');
+        text = text.replace(new RegExp(`\x01MRK${i}\x01`, 'g'), '</mark>');
+      });
+    } else {
+      text = text.replace(/\n/g, '<br>');
+    }
+    el.innerHTML = text;
+    _fpHLState[uid] = true;
+    if (btn) {
+      btn.querySelector('span:last-child').textContent = 'ハイライトOFF';
+      btn.classList.add('active');
+    }
+  };
+
+  // ===== PRACTICE AUDIO =====
+  let _practiceAudio = null;
+  let _practiceAudioBtn = null;
+
+  APP.playPracticeAudio = function (btn, audioFile) {
+    const grade = GRADE_MAP[currentGradeId];
+    const fullPath = `data/${grade.path}/${currentExamId}/${audioFile}`;
+
+    // If same button clicked and already playing, pause
+    if (_practiceAudio && _practiceAudioBtn === btn && !_practiceAudio.paused) {
+      _practiceAudio.pause();
+      btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
+      btn.querySelector('.fp-audio-label').textContent = '🔊 再開';
+      return;
+    }
+
+    // If same button, resume
+    if (_practiceAudio && _practiceAudioBtn === btn && _practiceAudio.paused && _practiceAudio.currentTime > 0) {
+      _practiceAudio.play();
+      btn.querySelector('.material-symbols-rounded').textContent = 'pause_circle';
+      btn.querySelector('.fp-audio-label').textContent = '⏸ 一時停止';
+      return;
+    }
+
+    // Stop any existing audio
+    if (_practiceAudio) {
+      _practiceAudio.pause();
+      _practiceAudio.currentTime = 0;
+      if (_practiceAudioBtn) {
+        _practiceAudioBtn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
+        _practiceAudioBtn.querySelector('.fp-audio-label').textContent = '🔊 音読用音声を再生';
+      }
+    }
+
+    // Play new
+    _practiceAudio = new Audio(fullPath);
+    _practiceAudioBtn = btn;
+    btn.querySelector('.material-symbols-rounded').textContent = 'pause_circle';
+    btn.querySelector('.fp-audio-label').textContent = '⏸ 一時停止';
+
+    _practiceAudio.addEventListener('ended', () => {
+      btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
+      btn.querySelector('.fp-audio-label').textContent = '🔊 もう一度再生';
+      _practiceAudio = null;
+      _practiceAudioBtn = null;
+    });
+
+    _practiceAudio.play().catch(() => {
+      btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
+      btn.querySelector('.fp-audio-label').textContent = '❌ 音声なし';
+    });
+  };
 
   // ===== HELPERS =====
   function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }

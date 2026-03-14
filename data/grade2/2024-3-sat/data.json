@@ -1390,39 +1390,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Nevertheless' と 'However' の使い分けは？",
-                        "a": "ほぼ同義だが、Neverthelessは前の内容を認めつつ反論する時に使い、より強い逆接。"
+                        "q": "'However' はこの段落でどのような論理転換を示しますか？",
+                        "a": "「しかし」。前文の「選択肢が多い＝良い」→研究結果は逆。通説を否定する転換のマーカー。"
                     },
                     {
-                        "q": "'That is to say' と 'In other words' の違いは？",
-                        "a": "どちらも言い換え。That is to say = つまり（やや固い）。In other words = 言い換えれば（より一般的）。"
+                        "q": "'Surprisingly' はどのような効果を持つ談話標識ですか？",
+                        "a": "「驚くべきことに」。読者の予想に反する結果を導入。6種類の方が売れたという意外な結果を強調。"
                     },
                     {
-                        "q": "'All in all' はどんな場面で使うか？",
-                        "a": "結論・まとめの場面。全体的に考えて、総合すると、の意。To sum up / Overall と同義。"
+                        "q": "'having more choices is a good thing' の動名詞主語を説明してください。",
+                        "a": "「選択肢が多いことは良いことだ」。having（動名詞）が主語。一般的な信念を述べる構文。"
+                    },
+                    {
+                        "q": "ジャムの実験結果を要約してください。",
+                        "a": "24種類より6種類の方が売れた。選択肢が多すぎると決断が困難に。少ない方が購入率が高い。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Nevertheless",
-                    "That is to say",
                     "However",
-                    "On the other hand",
-                    "As a result",
-                    "Therefore",
-                    "In addition",
-                    "For example",
-                    "Especially",
-                    "Finally",
                     "Surprisingly",
-                    "Otherwise",
-                    "According to experts",
-                    "Because of this"
+                    "having more choices"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "談話標識",
                 "practicePassage": {
-                    "en": "Many people believe that homework is essential for learning. Nevertheless, some educators argue that too much homework can be harmful. That is to say, excessive assignments may cause stress and reduce the time children have for play. In other words, a balance between study and rest is needed. All in all, the quality of homework matters more than the quantity.",
-                    "ja": "多くの人が宿題は学習に不可欠だと信じている。それにもかかわらず、宿題が多すぎると有害になりうると主張する教育者もいる。つまり、過度な課題はストレスを引き起こし、子どもたちの遊ぶ時間を減らす可能性がある。言い換えれば、勉強と休息のバランスが必要だ。全体的に見て、宿題は量よりも質が重要だ。"
+                    "en": "[出典: Making Choices]\nPeople often think that having more choices is a good thing. However, some researchers disagree, and they conducted a study. In their experiment, they set up a table in a local supermarket in California. First, they created a display that let customers sample six different types of jam for one hour. Then, they made a different display, this time with twenty-four types of jam. Surprisingly, although fewer customers stopped to try the jam at the six-jam display, more customers actually purchased the products from this display than at the display with twenty-four types of jam.",
+                    "ja": "人々はしばしば選択肢が多いほど良いと考える。しかし、ある研究者たちの調査結果は異なっていた。あるスーパーマーケットでの実験では、24種類のジャムを並べた場合と6種類だけを並べた場合を比較した。驚くべきことに、選択肢が少ない方が多くの客がジャムを購入した。選択肢が多すぎると、人々は決断を先延ばしにしたり、全く購入しなくなったりすることがわかった。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1451,39 +1445,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'is believed to have originated' を It is... で書き換えると？",
-                        "a": "It is believed that coffee originated in Ethiopia over a thousand years ago."
+                        "q": "'are believed to have become extinct' の受身形を説明してください。",
+                        "a": "「絶滅したと信じられている」。be believed to = 〜と信じられている。to have become = 完了不定詞で過去の出来事。"
                     },
                     {
-                        "q": "'is known to cause' はどんな構造か？",
-                        "a": "S + is known to + V = 「Sは～することが知られている」。非人称受動態の一種。"
+                        "q": "'the largest species of cat' の最上級を説明してください。",
+                        "a": "「最大のネコ科動物」。the largest = 最上級。北米・南米という範囲内での比較。"
                     },
                     {
-                        "q": "このパッセージの受動態表現を全て挙げると？",
-                        "a": "is believed to, is considered to be, is said to contain, is known to cause, are expected to be developed"
+                        "q": "'Especially in the Iberá wetlands' の 'Especially' はどのような強調ですか？",
+                        "a": "「特に」。一般論から具体的な例へ。ジャガー減少の中でもイベラ湿地が特に深刻であることを強調。"
+                    },
+                    {
+                        "q": "アルゼンチンのジャガーの現状を要約してください。",
+                        "a": "70年以上前に一部地域で絶滅。現在は数百頭のみ。生息地喪失と密猟が主な原因。"
                     }
                 ],
                 "highlightPatterns": [
                     "are believed to have become",
-                    "can be considered proof",
-                    "is expected to give rise",
-                    "are not supposed to eat",
-                    "were released",
-                    "were brought",
-                    "were put",
-                    "was adapted",
-                    "was made",
-                    "were developed",
-                    "has been closed",
-                    "has been chosen",
-                    "will be printed",
-                    "will be sent"
+                    "largest species",
+                    "Especially"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "受身構文",
                 "practicePassage": {
-                    "en": "Coffee is believed to have originated in Ethiopia over a thousand years ago. The drink is considered to be one of the most widely consumed beverages in the world. Green tea is said to contain powerful antioxidants that benefit health. Excessive caffeine intake is known to cause sleep problems. New varieties of coffee beans are expected to be developed to withstand climate change.",
-                    "ja": "コーヒーは1000年以上前にエチオピアで生まれたと考えられている。この飲み物は世界で最も広く消費される飲料の一つと見なされている。緑茶には健康に有益な強力な抗酸化物質が含まれていると言われている。過度なカフェイン摂取は睡眠の問題を引き起こすことが知られている。気候変動に耐えられる新品種のコーヒー豆が開発されることが期待されている。"
+                    "en": "[出典: Jaguars in Argentina]\nJaguars are the largest species of cat in North and South America. In some areas, jaguars have disappeared because of hunting by humans or the loss of natural food. Especially in Argentina, where most jaguars lost their places to live, it is said that there are only a few hundred jaguars across the country. To improve the situation, some organizations have been working to bring jaguars back to the wild in the Iberá Wetlands in Argentina. They are believed to have become extinct in this region more than seventy years ago.",
+                    "ja": "ジャガーは北米と南米で最大のネコ科動物である。一部の地域では、ジャガーは70年以上前に絶滅したと考えられている。特にアルゼンチンのイベラ湿地では、かつては多くのジャガーが生息していたが、現在では数百頭しか残っていないとされている。生息地の喪失と密猟がジャガーの個体数減少の主な原因である。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1512,47 +1500,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'could tell from her expression' は何を推論しているか？",
-                        "a": "表情から（直接言われていないが）何かが間違っていると推測している。非言語的な手がかりからの推論。"
+                        "q": "'began to decline' はどのような変化を示しますか？",
+                        "a": "「衰退し始めた」。begin to = 〜し始める。20世紀の近代化による口笛言語の使用減少の開始。"
                     },
                     {
-                        "q": "'implied that' と 'directly state' の違いは？",
-                        "a": "imply = 暗示する（間接的に示す）。directly state = 直接述べる。行間を読む力が必要なのはimplyの方。"
+                        "q": "'However' と 'Therefore' の談話標識の関係を説明してください。",
+                        "a": "However=逆接（衰退→しかし保存の重要性）。Therefore=結果（重要性の認識→そのため教育に組込み）。論理の連鎖。"
                     },
                     {
-                        "q": "'Reading between the lines' とはどういう読み方？",
-                        "a": "直接書かれていない意味を推測する読み方。文脈、行動描写、言い回しから筆者の真意を理解すること。"
+                        "q": "'was made part of the school curriculum' の受動態を説明してください。",
+                        "a": "「学校のカリキュラムに組み込まれた」。制度的な決定を受動態で表現。誰が決定したかより結果に焦点。"
+                    },
+                    {
+                        "q": "シルボ・ゴメロ語の保存の取り組みを要約してください。",
+                        "a": "20世紀に近代化で衰退→保存の重要性を認識→学校教育に導入→若い世代が学習中。"
                     }
                 ],
                 "highlightPatterns": [
-                    "fill out",
-                    "on end",
-                    "reading between the lines",
-                    "free of",
-                    "behind schedule",
-                    "give rise to",
-                    "all ears",
-                    "pass by",
-                    "let down",
-                    "roll over",
-                    "in order",
-                    "in return",
-                    "on air",
-                    "holding the line",
-                    "getting into difficulties",
-                    "getting into shape",
-                    "make fun of",
-                    "take part in",
-                    "look forward to",
-                    "at risk",
-                    "on average",
-                    "of late"
+                    "began to decline",
+                    "However",
+                    "Therefore"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "句動詞・イディオム",
                 "practicePassage": {
-                    "en": "When Sarah said she was 'fine,' her friends could tell from her expression that something was wrong. The author does not directly state the character's feelings but instead describes his clenched fists and tight jaw. The politician carefully avoided answering the question, which implied that she did not agree with the policy. Reading between the lines, we can understand that the narrator feels lonely despite claiming to enjoy solitude.",
-                    "ja": "サラが「大丈夫」と言った時、友人たちは表情から何かがおかしいとわかった。作者はキャラクターの感情を直接述べず、握りしめた拳ときつく食いしばった顎を描写している。政治家は慎重に質問への回答を避けたが、それは彼女がその政策に同意していないことを暗示していた。行間を読むと、語り手は孤独を楽しんでいると主張しながらも寂しさを感じていることがわかる。"
+                    "en": "[出典: Silbo Gomero]\nThe use of the Silbo Gomero language began to decline in the twentieth century due to a decrease in population and the appearance of mobile phones. However, in the 1990s, efforts began to save the language. If a language is used by the next generation, its survival is more likely. Therefore, as part of the effort, a law was made to teach the language in schools. Now, some people are trying to use Silbo Gomero in their daily lives and at cultural events.",
+                    "ja": "シルボ・ゴメロ語の使用は20世紀に入って衰退し始めた。島の近代化により、電話やラジオなどの通信手段が普及したためだ。しかし、この独自の口笛言語を保存する重要性が認識され、そのため、シルボ・ゴメロ語は学校のカリキュラムに組み込まれることになった。この取り組みにより、若い世代もこの伝統的なコミュニケーション方法を学んでいる。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1581,40 +1555,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'more ... than any other' は何と同義か？",
-                        "a": "最上級と同義。This university has the most international students in the country."
+                        "q": "'makes people less happy' の比較級を説明してください。",
+                        "a": "「人々の幸福度を下げる」。less happy = 比較級。選択肢が多い→満足度が低下するという逆説的結果。"
                     },
                     {
-                        "q": "'fewer professors' vs 'more books' の fewer/more の使い分けは？",
-                        "a": "fewer = 可算名詞（少ない）。more = 可算・不可算両方（多い）。less は不可算名詞用。"
+                        "q": "'According to experts' はどのような情報源の提示ですか？",
+                        "a": "「専門家によると」。権威ある情報源を引用。主張の信頼性を高める談話標識。"
                     },
                     {
-                        "q": "'No other school offers as many as' をmore ... thanに書き換えると？",
-                        "a": "This school offers more scholarship programs than any other school in the area."
+                        "q": "'Otherwise, they might regret' の 'Otherwise' はどのような意味ですか？",
+                        "a": "「そうでなければ」。最善でなかった場合→後悔する。条件の裏返しを示す接続副詞。"
+                    },
+                    {
+                        "q": "選択肢の多さが満足度に与える影響を要約してください。",
+                        "a": "選択肢が多い→常に「もっと良い選択」を疑う→後悔→満足度低下。絞り込みや時間制限が解決策。"
                     }
                 ],
                 "highlightPatterns": [
-                    "more participants than in any",
-                    "fewer customers stopped",
-                    "more customers actually purchased",
-                    "more than 200 copies",
-                    "nearly 10,000 entries",
-                    "more than seventy years",
-                    "a few hundred jaguars",
-                    "more frequent",
-                    "too many choices",
-                    "more options",
                     "less happy",
-                    "harder to choose",
-                    "the largest species",
-                    "the greatest achievement",
-                    "most jaguars"
+                    "too many choices",
+                    "According to experts"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "比較構文",
                 "practicePassage": {
-                    "en": "This university has more international students than any other institution in the country. Although it has fewer professors than larger universities, the quality of education is considered higher. The library contains more books per student than most colleges in the region. The campus is smaller than average, but students report greater satisfaction with their experience. No other school in the area offers as many scholarship programs as this one.",
-                    "ja": "この大学は国内のどの教育機関よりも多くの留学生がいる。大規模な大学よりも教授の数は少ないが、教育の質はより高いと考えられている。図書館は地域のほとんどの大学よりも生徒一人当たりの蔵書数が多い。キャンパスは平均より小さいが、学生は体験への満足度がより高いと報告している。この地域の他のどの学校もこの大学ほど多くの奨学金プログラムを提供していない。"
+                    "en": "[出典: Making Choices]\nAnother negative impact of having too many choices is that it makes people less happy. Having many choices means there are also many things that they are not able to choose. Because of this, they end up feeling regret. According to experts, to avoid this, it is important to set a time limit on making choices and to try one's best not to think about it once decisions are made. Otherwise, the things that people did not choose could make them feel unhappy.",
+                    "ja": "選択肢が多すぎることのもう一つの悪影響は、人々の満足度を下げることだ。専門家によると、多くの選択肢があると、人々は自分の選択が最善だったか常に疑問に思う。そうでなければ、彼らはより良い選択をしたかもしれないと後悔する。このため、選択肢を絞り込むか、決断に時間制限を設けることが推奨されている。少ない選択肢から選んだ方が、結果的に満足度が高くなることが多い。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1643,44 +1610,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'endangered wildlife' を言い換えると？",
-                        "a": "animals at risk of extinction / species that face the threat of dying out"
+                        "q": "'what to eat' と 'where to park' を言い換えてください。",
+                        "a": "'which food to have' と 'the location for leaving their car'。疑問詞+to不定詞の言い換え。"
                     },
                     {
-                        "q": "'at risk of disappearing forever' を言い換えると？",
-                        "a": "in danger of becoming extinct / threatened with permanent loss"
+                        "q": "'bigger life decisions' を言い換えてください。",
+                        "a": "'more significant choices in life' や 'major life-changing decisions'。bigger = more significant / major。"
                     },
                     {
-                        "q": "'on the verge of extinction' を言い換えると？",
-                        "a": "about to die out / nearly extinct / close to disappearing completely"
+                        "q": "'which school to go to' と 'what career to follow' を言い換えると？",
+                        "a": "'selecting an educational institution' と 'choosing a profession'。疑問詞+to不定詞→名詞句に。"
                     },
                     {
-                        "q": "'have begun to recover' を言い換えると？",
-                        "a": "are starting to increase in number / are gradually bouncing back"
+                        "q": "人々が日常的に直面する選択の種類を要約してください。",
+                        "a": "日常的な小さな決定（食事、駐車）から人生の大きな決断（学校、職業）まで。成長に伴い複雑化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "more participants than in any",
-                    "entries",
-                    "creativity and talent",
-                    "stand out",
-                    "your rights",
-                    "receive through the sales",
-                    "business offers",
                     "what to eat",
                     "where to park",
-                    "bigger life decisions",
-                    "which school to go to",
-                    "what career to follow",
-                    "do not always lead to great results",
-                    "feel regret",
-                    "set a time limit"
+                    "bigger life decisions"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The organization launched a campaign to protect endangered wildlife. They focused on animals that are at risk of disappearing forever. Donations from the public helped fund research and conservation projects. Volunteers traveled to remote areas to monitor animal populations. Thanks to these efforts, several species that were on the verge of extinction have begun to recover.",
-                    "ja": "その組織は絶滅危惧野生動物を守るキャンペーンを開始した。永遠に消える危険がある動物に焦点を当てた。一般からの寄付が研究と保全プロジェクトの資金を助けた。ボランティアが動物の個体数を監視するために辺境の地域に旅をした。これらの努力のおかげで、絶滅寸前だったいくつかの種が回復し始めている。"
+                    "en": "[出典: Making Choices]\nPeople must make all kinds of choices every day. This starts when they are children and continues throughout their adult lives. However, this does not mean that people need to give all choices the same level of consideration and time. For example, people can easily make choices like what to eat, where to park, or when to wake up. On the other hand, they often spend a lot of time thinking about bigger life decisions, such as which school to go to, when to get married, and what career to follow.",
+                    "ja": "人々は毎日あらゆる種類の選択をしなければならない。何を食べるか、どこに車を停めるかといった日常的な決定から始まる。しかし、どの学校に通うか、どの職業に就くかといったより大きな人生の決断もある。子供の頃は選択は比較的単純だが、大人になるにつれて決断はより複雑になり、結果もより重大なものになる。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

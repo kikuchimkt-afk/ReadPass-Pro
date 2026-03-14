@@ -2035,9 +2035,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "統合は述べていない",
-                                "競争ではなく協力",
-                                "LRDGの輸送とナビゲーションがSASの成功と損害減少に貢献→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く"
+                                "❌ 2つの部隊が統合された→統合は述べていない。LRDGとSASは別々の部隊として協力した",
+                                "❌ 作戦の類似性が競争を招いた→競争ではなく協力関係。LRDGがSASの輸送を支援",
+                                "✅ LRDGの砂漠知識がSASの有効性と安全性を向上→正解。💡 LRDGの輸送とナビゲーションがSASの作戦成功と損害減少に貢献",
+                                "❌ SASの関与がLRDGの長期滞在を困難にした→むしろ協力により両部隊の能力が強化された"
                             ],
                             "sourceEvidence": [
                                 "This almost certainly helped the SAS accomplish its raids with greater success and fewer casualties"
@@ -2103,32 +2104,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'With the deadline approaching' は何構文？",
-                        "a": "付帯状況のwith。with + 名詞 + 分詞/形容詞/前置詞句。「～が～している状態で」。"
+                        "q": "'given the harsh desert environment' の 'given' はどのような分詞構文ですか？",
+                        "a": "「砂漠の過酷な環境を考えると」。given = considering。条件・前提を示す分詞構文で、タスクの困難さの理由を述べる。"
                     },
                     {
-                        "q": "'having reviewed' と 'knowing' の違いは？",
-                        "a": "having reviewed = 完了分詞構文（主文より前の動作）。knowing = 同時進行の分詞構文（主文と同時）。"
+                        "q": "'traveling deep behind enemy lines' の分詞構文はどのような状況を表しますか？",
+                        "a": "「敵陣深くに移動しながら」。付帯状況を示す分詞構文。主な活動と同時に行われる行動を描写する。"
                     },
                     {
-                        "q": "'With all the data compiled' の compiled は？",
-                        "a": "過去分詞。with + 名詞 + 過去分詞 = 「～が～された状態で」。受動の付帯状況。"
+                        "q": "'providing vital intelligence' の 'providing' はどのような分詞構文ですか？",
+                        "a": "結果を示す分詞構文。「重要な情報を提供した」。観察・報告の結果として連合軍に情報が届いたことを表す。"
+                    },
+                    {
+                        "q": "LRDGの主な任務とその価値を要約してください。",
+                        "a": "敵陣深くでの偵察と情報収集が主任務。直接攻撃も行ったが、最大の価値は戦略的情報の提供にあった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "having",
-                    "with",
-                    "based on",
                     "given",
-                    "known",
-                    "concerned",
-                    "encouraged"
+                    "traveling deep behind",
+                    "involved"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "分詞構文",
                 "practicePassage": {
-                    "en": "With the deadline approaching, the team worked overtime to finish the report. The manager, having reviewed the draft, requested several revisions. The employees completed their tasks, knowing that the client expected the report by Friday. With all the data compiled, the final version was submitted ahead of schedule. Standing at the podium, the CEO presented the findings with confidence, impressing the board of directors.",
-                    "ja": "締め切りが近づく中、チームは報告書を仕上げるために残業した。草稿を確認した後、マネージャーはいくつかの修正を要求した。クライアントが金曜日までに報告書を期待していることを知りながら、従業員はタスクを完了した。全データがまとめられた状態で、最終版は予定より早く提出された。壇上に立ち、CEOは自信を持って調査結果を発表し、取締役会を感銘させた。"
+                    "en": "[出典: The Long Range Desert Group]\nThe LRDG's work mainly involved traveling deep behind enemy lines to observe their movements. The unit had access to a range of weaponry, and while the men were primarily trained to gather intelligence, they also planted mines and launched attacks against enemy airfields and fuel depots. When the Special Air Service (SAS) — a British army unit formed in 1941 to conduct raids behind enemy lines — suffered heavy casualties after parachuting into enemy territory on its first mission, the LRDG was tasked with bringing back the survivors. The rescue mission was a success, and because of its men's extensive knowledge of the desert, the LRDG was given the responsibility of bringing the SAS to and from all future targets by land, providing both transportation and navigation. This almost certainly helped the SAS accomplish its raids with greater success and fewer casualties.",
+                    "ja": "LRDGの仕事は主に敵陣深くに潜入し、敵の動きを観察して本部に報告することだった。彼らが収集した情報は同盟軍に重要な情報を提供し、多くの作戦の成功に貢献した。LRDGは時に敵の施設への直接攻撃も行ったが、その主な価値は情報収集能力にあった。砂漠の過酷な環境を考えると、これらの任務には並外れた忍耐力とナビゲーション技術が必要だった。メンバーは何週間も砂漠で過ごし、極度の暑さと限られた水の供給に耐えた。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -2157,32 +2159,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Accordingly' と 'Subsequently' の違いは？",
-                        "a": "Accordingly = それに応じて（論理的帰結）。Subsequently = その後（時間的順序）。"
+                        "q": "'Durian trees are not easy to grow, however' の 'however' はどのような論理展開ですか？",
+                        "a": "「しかし」。前段落のドリアンの人気・需要に対して、栽培の困難さを対比する逆接の接続副詞。"
                     },
                     {
-                        "q": "'Admittedly' はどんな役割？",
-                        "a": "譲歩の接続副詞。「確かに」と相手の主張を認めてから反論する。= It is true that..."
+                        "q": "'Furthermore' はどのような情報の追加を示しますか？",
+                        "a": "「さらに」。栽培の困難に加えて、病害虫への脆弱性という別の問題を追加する接続副詞。"
                     },
                     {
-                        "q": "'Meanwhile' はどんな場面で使う？",
-                        "a": "同時に起きている別の出来事を紹介する。「一方、その間」。"
+                        "q": "'particularly vulnerable' はどの程度の脆弱性を示していますか？",
+                        "a": "「特に脆弱な」。particularly = especially。他の植物と比べてドリアンが病害虫に対して特に弱いことを強調。"
+                    },
+                    {
+                        "q": "この段落で述べられているドリアン栽培の課題を列挙してください。",
+                        "a": "定期的な水やりと肥料が必要、実がなるまで長期間かかる、病気や害虫に弱い、自然の受粉者からの距離。"
                     }
                 ],
                 "highlightPatterns": [
-                    "In fact",
-                    "In particular",
-                    "However",
-                    "Gradually",
-                    "Moreover",
                     "Furthermore",
-                    "On the other hand"
+                    "however",
+                    "require"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "接続副詞",
                 "practicePassage": {
-                    "en": "The company had been struggling financially for several quarters. Accordingly, the board decided to implement a series of cost-cutting measures. Furthermore, they hired a new management team with expertise in corporate restructuring. Meanwhile, employees were asked to accept temporary salary reductions. Admittedly, the decisions were unpopular, but they proved to be effective. Subsequently, the company returned to profitability within two years.",
-                    "ja": "会社は数四半期にわたり財政的に苦戦していた。それに応じて、取締役会は一連のコスト削減措置を実施することを決定した。さらに、企業再編の専門知識を持つ新しい経営陣を雇った。一方、従業員は一時的な給与削減を受け入れるよう求められた。確かに決定は不人気だったが、効果的であることが証明された。その後、会社は2年以内に黒字に戻った。"
+                    "en": "[出典: Durians and Giant Fruit Bats]\nDurian trees are not easy to grow, however. They require regular watering and feeding with fertilizer, and they are highly sensitive to temperature. Furthermore, they do not naturally grow in groves, but rather thrive when grown among other trees and shrubs, so growing them in an orchard as a single crop presents a challenge. Ensuring sufficient pollination of the flowers for the trees to produce a good harvest of fruit is a further difficulty for farmers. One characteristic of durian trees is that their flowers only release pollen at night, so insects such as honeybees that feed during the day do not pollinate them. Animals that are active at night take over the role of pollination, but only about 25 percent of a durian tree's flowers ever get pollinated naturally. Because of this, many farmers resort to the labor-intensive practice of pollinating by hand.",
+                    "ja": "しかし、ドリアンの木は育てるのが容易ではない。定期的な水やりと肥料が必要であり、実をつけるまでに何年もかかる。さらに、ドリアンの木は特定の病気や害虫に特に脆弱である。最近のドリアン農園の拡大により、木は自然の受粉者から離れた地域で栽培されることが増えており、生産上の課題を生み出している。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -2211,32 +2214,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'where' と 'in which' の関係は？",
-                        "a": "where = in which。場所を表す関係副詞。the village where = the village in which。"
+                        "q": "'based on the researchers' predictions' の 'based on' は何を導いていますか？",
+                        "a": "「研究者の予測に基づいて」。実験の結果が予測と一致したことを示す。前置詞句による論拠の提示。"
                     },
                     {
-                        "q": "'for which he became famous' の前置詞は何に連動？",
-                        "a": "become famous for ～。前置詞+関係代名詞では、元の動詞句の前置詞が前に出る。"
+                        "q": "'participants were shown images' の受動態はなぜ使われていますか？",
+                        "a": "「参加者に画像が見せられた」。実験の手順を客観的に記述。実験者より参加者の経験に焦点を当てる。"
                     },
                     {
-                        "q": "'the meaning of which' はどんな用法？",
-                        "a": "前置詞+関係代名詞の非制限用法。= and its meaning / whose meaning。"
+                        "q": "'suggests that' はどのような論証の強さを示しますか？",
+                        "a": "「〜を示唆している」。断定を避けた学術的表現。実験結果から導かれる推論だが確定ではないことを示す。"
+                    },
+                    {
+                        "q": "この研究で明らかになった顔認識の特性は何ですか？",
+                        "a": "脳の顔認識システムは正立の顔に最適化されており、逆さの顔では認識能力が大幅に低下する。"
                     }
                 ],
                 "highlightPatterns": [
-                    "which",
-                    "who",
-                    "where",
-                    "when",
-                    "whose",
-                    "that",
-                    "whom"
+                    "based on",
+                    "recently performed"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "関係詞",
                 "practicePassage": {
-                    "en": "The village where the artist spent his childhood has become a popular tourist destination. The paintings for which he became famous depict scenes from his early life. The period in which he was most productive coincided with a time of great personal loss. His most celebrated work, the meaning of which has been debated for decades, hangs in a London gallery. Few people are aware of the circumstances under which his final masterpiece was created.",
-                    "ja": "その芸術家が幼少期を過ごした村は人気の観光地になった。彼が有名になった絵画は幼少期の風景を描いている。彼が最も生産的だった時期は大きな個人的喪失の時期と一致した。彼の最も有名な作品はその意味が何十年も議論されており、ロンドンのギャラリーに飾られている。彼の最後の傑作が作られた状況を知っている人はほとんどいない。"
+                    "en": "[出典: Recognizing Faces]\nResearchers in Australia recently performed a study to learn more about how the brain processes false faces. Previous studies have revealed that for real faces, people's judgment of what emotion a face is expressing is affected by the faces they have just seen. Seeing a series of happy faces, for example, tends to make people assess the face they next see as expressing happiness. In the Australian study, the researchers showed participants a series of false faces that expressed a particular emotion. They found that, as with real faces, the participants' judgments of the emotions expressed by the false faces were affected by the ones they had just been shown. Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones.",
+                    "ja": "オーストラリアの研究者たちは最近、脳がどのように逆さの顔を処理するかについてさらに学ぶための研究を行った。参加者には正常な向きと逆さの両方で顔の画像が見せられた。研究者の予測に基づき、参加者は正常な向きの顔を認識する際に特にうまく識別でき、逆さの顔ではその能力が大幅に低下することが示された。これは、脳が顔を認識する特殊なシステムが、顔が通常見られる向き（正立）に最適化されていることを示唆している。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2265,30 +2268,31 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'so powerful that' と 'such magnitude that' の違いは？",
-                        "a": "so + 形容詞 + that。such + 名詞 + that。so = 形容詞/副詞を修飾。such = 名詞（句）を修飾。"
+                        "q": "'The desert was so vast that conventional military strategies were impractical' の 'so...that' 構文を説明してください。",
+                        "a": "「砂漠は非常に広大だったので従来の軍事戦略は実用的ではなかった」。so + 形容詞 + that = 「〜すぎて…だった」。程度と結果を示す。"
                     },
                     {
-                        "q": "'Such was the force' と 'So extensive was the destruction' は何？",
-                        "a": "倒置のso/such...that構文。強調のために主語と動詞が入れ替わる文語的表現。"
+                        "q": "'Despite these difficulties' はどのような譲歩を示しますか？",
+                        "a": "「これらの困難にもかかわらず」。砂漠の困難さにもかかわらず、バグノルドが可能性を見出したことを示す譲歩。"
                     },
                     {
-                        "q": "'of such magnitude' を so に書き換えると？",
-                        "a": "The damage was so great/severe that it took several years to rebuild."
+                        "q": "'established' はどのような文脈で使われていますか？",
+                        "a": "「設立した」。バグノルドが1940年にLRDGを設立したこと。過去の歴史的事実を述べる。"
+                    },
+                    {
+                        "q": "バグノルドがLRDGを設立できた背景は何ですか？",
+                        "a": "探検家として砂漠を広範に旅した経験があり、小規模部隊で砂漠を横断して敵の背後で活動できると確信していた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so",
-                    "such",
-                    "enough",
-                    "too",
-                    "that"
+                    "such a"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "程度・結果",
                 "practicePassage": {
-                    "en": "The earthquake was so powerful that buildings across the city collapsed within seconds. Such was the force of the tremor that rescue teams from neighboring countries were immediately dispatched. The damage was of such magnitude that it took several years to rebuild the affected areas. So extensive was the destruction that the government declared a national emergency. The loss of life was such that international mourning was observed for a week.",
-                    "ja": "地震は非常に強力で市全体の建物が数秒で崩壊した。揺れの力はあまりにも大きく、近隣国からの救助隊がただちに派遣された。被害はあまりにも大規模だったため、被災地の再建には数年かかった。破壊があまりにも広範だったため、政府は国家非常事態を宣言した。人命の損失はあまりにも大きく、1週間の国際的な追悼が行われた。"
+                    "en": "[出典: The Long Range Desert Group]\nDuring World War II, the British fought against Germany and Italy in the deserts of North Africa. Desert warfare was characterized by small battles between troops that were widely spread out, and there was a need to move quickly and at night to avoid both detection and the dangerous daytime heat. The area's vast size and sandy terrain made transporting supplies difficult, and the lack of water severely limited operations. However, for one British army officer, Major Ralph Bagnold, these harsh conditions presented a strategic opportunity. Having spent years exploring the North African desert before the war, Bagnold knew the terrain well, and he was convinced that a small, highly mobile motorized unit that could observe and track enemy forces would be invaluable. At first, British commanders rejected his proposal to form such a unit, believing airplanes were better suited for such long-range intelligence gathering. Bagnold insisted, however, that gathering information on the ground would be advantageous, and his persistence led to the formation of the Long Range Desert Group (LRDG), with Bagnold as commander, in June 1940.",
+                    "ja": "第二次世界大戦中、イギリスは北アフリカの砂漠でドイツとイタリアと戦った。砂漠は非常に広大で、従来の軍事戦略は実用的ではなかった。こうした困難にもかかわらず、ラルフ・バグノルド少佐はこの環境のユニークな可能性を認識していた。バグノルドは探検家として砂漠を広範に旅しており、小規模な部隊が砂漠を横断して敵の背後で活動できると確信した。1940年、彼はLRDG（長距離砂漠グループ）を設立した。これは型破りな部隊で、自発的なボランティアで構成されていた。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2317,38 +2321,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'undergoing a fundamental transformation' を言い換えると？",
-                        "a": "experiencing a major overhaul / going through a radical change / being fundamentally reshaped"
+                        "q": "'greatest achievement' を言い換えてください。",
+                        "a": "'most significant accomplishment' や 'most notable success'。greatest = most significant / most notable。"
                     },
                     {
-                        "q": "'compelled to adapt their production methods' を言い換えると？",
-                        "a": "forced to change how they manufacture / obligated to modify their manufacturing processes"
+                        "q": "'enabled British forces to bypass German defenses' を言い換えてください。",
+                        "a": "'allowed British troops to go around German fortifications'。enabled = allowed / made it possible for。bypass = go around。"
                     },
                     {
-                        "q": "'attracted substantial investment' を言い換えると？",
-                        "a": "secured significant funding / drawn considerable financial backing / received large amounts of capital"
+                        "q": "'contributed to the Allied victory' を別の表現で言い換えると？",
+                        "a": "'played a key role in the Allies' success' や 'helped bring about the Allied win'。contributed to = played a role in。"
                     },
                     {
-                        "q": "'gaining popularity' を言い換えると？",
-                        "a": "becoming increasingly popular / growing in appeal / rising in demand"
+                        "q": "LRDGの最大の功績とその影響を要約してください。",
+                        "a": "1943年にドイツの防衛線を迂回するルートを発見し、連合軍の側面攻撃を可能にし、北アフリカでの勝利に貢献した。"
                     }
                 ],
                 "highlightPatterns": [
-                    "thaw",
-                    "instill",
-                    "ridiculed",
-                    "bashful",
-                    "relic",
-                    "notorious",
-                    "edible",
-                    "uphold",
-                    "compulsory"
+                    "greatest achievement",
+                    "enabled",
+                    "found a route"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The automotive industry is undergoing a fundamental transformation driven by advances in electric and autonomous vehicle technology. Traditional manufacturers are being compelled to adapt their production methods to remain competitive. Startups specializing in electric vehicles have attracted substantial investment from venture capitalists. Consumer attitudes toward car ownership are also shifting, with ride-sharing services gaining popularity in urban areas. Analysts predict that within the next decade, the majority of new cars sold will be electric.",
-                    "ja": "自動車産業は電気自動車と自律走行車技術の進歩によって根本的な変革を遂げている。従来のメーカーは競争力を維持するために生産方法を適応させることを余儀なくされている。電気自動車を専門とするスタートアップはベンチャーキャピタリストから多額の投資を集めている。自動車所有に対する消費者の態度も変化しており、都市部ではライドシェアサービスの人気が高まっている。アナリストは今後10年以内に販売される新車の大半が電気自動車になると予測している。"
+                    "en": "[出典: The Long Range Desert Group]\nThe LRDG's greatest achievement came in 1943, when the unit found a route that enabled British forces to get around heavily defended enemy lines without being detected, allowing them to attack at weaker points in the defenses. This was a crucial turning point in the campaign in North Africa and contributed greatly to the British victory there. The LRDG went on to make significant contributions to the war effort in Europe until 1945.",
+                    "ja": "LRDGの最大の功績は1943年に訪れた。部隊はイギリス軍がドイツの防衛線を迂回できるルートを発見した。この発見により連合軍は敵の側面を攻撃することが可能になり、北アフリカにおける連合軍の勝利に大きく貢献した。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

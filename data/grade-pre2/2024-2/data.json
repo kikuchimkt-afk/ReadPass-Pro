@@ -1480,30 +1480,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "I have a friend who lives in Australia. She works at a company that makes educational apps. The app which she designed last year became very popular. The students who use the app say it helps them learn English faster. She is looking for people that can help her create new content.",
-                    "ja": "オーストラリアに住んでいる友人がいます。彼女は教育アプリを作る会社で働いています。彼女が去年デザインしたアプリはとても人気になりました。そのアプリを使う生徒たちは、英語をもっと早く学ぶのに役立つと言っています。新しいコンテンツ作成を手伝ってくれる人を探しています。"
+                    "en": "[出典: Circles in the Sand]\nThe puffer fish is not the only animal that creates beautiful art. A bird called the bowerbird is another example. They gather colorful objects to build a structure called a \"bower.\" This structure looks like a nest. Other animals perform \"art\" that looks like songs or dances. These animals do not make art for pleasure. The purpose is to attract a partner. There is a risk for animals doing this because it can attract attention from dangerous animals.",
+                    "ja": "フグだけが美しいアートを作る動物ではありません。ニワシドリという鳥も別の例です。カラフルな物を集めて「バウアー」と呼ばれる構造物を作ります。この構造物は巣のように見えます。他の動物は歌やダンスのように見える「アート」を行います。これらの動物は楽しみのためにアートを作るのではありません。目的はパートナーを引きつけることです。危険な動物の注意も引く可能性があるため、リスクもあります。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "筆者の友人はどこに住んでいますか？",
-                        "a": "オーストラリアに住んでいます。（a friend who lives in Australia）"
+                        "q": "'the only animal that creates beautiful art' の 'that' はどのような関係代名詞ですか？",
+                        "a": "主格の関係代名詞。先行詞 'animal' を修飾し、「美しいアートを作る動物」を限定する。the only がつくと that が好まれる。"
                     },
                     {
-                        "q": "友人が作ったアプリはどうなりましたか？",
-                        "a": "とても人気になりました。（The app which she designed became very popular）"
+                        "q": "'A bird called the bowerbird' の 'called' はどのような構造ですか？",
+                        "a": "過去分詞による後置修飾。'A bird (which is) called the bowerbird' の省略形。「ニワシドリと呼ばれる鳥」。"
                     },
                     {
-                        "q": "アプリを使う生徒たちは何と言っていますか？",
-                        "a": "英語をもっと早く学ぶのに役立つと言っています。"
+                        "q": "'They build small houses that they decorate' の 'that' の役割は？",
+                        "a": "目的格の関係代名詞。先行詞 'houses' を修飾し、「彼らが飾る小さな家」を説明する。省略も可能。"
+                    },
+                    {
+                        "q": "この段落で動物のアート行動の目的は何だと述べていますか？",
+                        "a": "パートナーを引き付けること（attract a partner）。フグもニワシドリも異性へのアピールのためにアートを作る。"
                     }
                 ],
                 "highlightPatterns": [
-                    "scientists who saw the circles",
-                    "a male fish called a puffer fish",
                     "the only animal that creates beautiful art",
                     "A bird called the bowerbird",
-                    "people who live there",
-                    "the food the penguins eat"
+                    "attract a partner"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "関係代名詞"
@@ -1533,31 +1535,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "If you want to study abroad, you have to prepare many things. First, you should choose a country and a school. You must submit your application before the deadline. You can ask your teacher for help with the application. You should also prepare for the interview. If you study hard, you can pass the entrance exam.",
-                    "ja": "留学したいなら、多くのことを準備しなければなりません。まず、国と学校を選ぶべきです。締め切りまでに申請書を提出しなければなりません。申請について先生に助けを求めることができます。面接の準備もすべきです。一生懸命勉強すれば、入学試験に合格できます。"
+                    "en": "[出典: Science project]\nWe started writing in class. I finished writing about where penguins live. I have also started to prepare pictures for our presentation. We have to have at least ten pictures for the presentation. I will prepare the first five, and you can do the rest. Can you research the food the penguins eat? You need to write around 150 words in addition to preparing pictures for the presentation.",
+                    "ja": "授業中に書き始めたよ。ペンギンがどこに住んでいるかについては書き終わったよ。発表用の写真の準備も始めた。発表には少なくとも10枚の写真が必要なんだ。最初の5枚は僕が準備するから、残りを君がやってくれる？ペンギンの食べ物についても調べてくれる？写真の準備に加えて150語くらい書く必要があるよ。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "留学するために最初にすべきことは何ですか？",
-                        "a": "国と学校を選ぶことです。（you should choose a country and a school）"
+                        "q": "'You need to write about what penguins eat' の 'need to' はどのような必要性を表しますか？",
+                        "a": "義務・必要性。「〜する必要がある」。have to と似た意味だが、need to はやや柔らかい表現。"
                     },
                     {
-                        "q": "申請書はいつまでに提出しなければなりませんか？",
-                        "a": "締め切りまでに提出しなければなりません。（must submit before the deadline）"
+                        "q": "'Can you research about baby penguins?' の 'Can you' はどのような機能ですか？",
+                        "a": "依頼の疑問文。「〜してくれますか？」。能力ではなく丁寧な依頼を表す can の用法。"
                     },
                     {
-                        "q": "先生に何を頼めますか？",
-                        "a": "申請書の手助けを頼めます。（can ask your teacher for help）"
+                        "q": "'I have also started to prepare pictures' の 'have started' はなぜ現在完了形ですか？",
+                        "a": "過去に始めた行為が現在も進行中・関連していることを示す。「すでに準備を始めている（まだ途中）」。"
+                    },
+                    {
+                        "q": "この段落で友達に依頼している内容は何ですか？",
+                        "a": "ペンギンが何を食べるかについて書くこと、赤ちゃんペンギンについて調べること。"
                     }
                 ],
                 "highlightPatterns": [
-                    "We have to make a group presentation",
-                    "Can you meet me",
-                    "you should start to feel better",
-                    "it can use its hands",
                     "You need to write",
-                    "We need to show",
-                    "Can you research"
+                    "Can you research",
+                    "I have also started to prepare"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "助動詞"
@@ -1587,32 +1590,34 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Last Saturday, I went to the movie theater to see a new film. When I arrived, I realized that I had forgotten my wallet at home. I had left it on the kitchen table. Luckily, my friend had already bought two tickets. She had planned to surprise me. I was so grateful because I had been looking forward to seeing the movie for weeks.",
-                    "ja": "先週の土曜日、新しい映画を見に映画館に行きました。着いた時、財布を家に忘れたことに気づきました。キッチンのテーブルの上に置き忘れていたのです。幸い、友達がすでにチケットを2枚買っていました。彼女は私を驚かせるつもりだったのです。何週間もその映画を楽しみにしていたのでとても感謝しました。"
+                    "en": "[出典: Robbie's Package]\nRobbie was waiting for a package to arrive by mail. His grandmother had sent him a present for his birthday last week. However, Robbie was worried because it had still not arrived. He thought that it had gotten lost, so his mother offered to call the post office. When she had finished speaking on the telephone, she told Robbie to check the mailbox again. The post office staff said the package had already been delivered.",
+                    "ja": "ロビーは郵便で届く荷物を待っていました。先週、おばあちゃんが誕生日プレゼントを送ってくれたのです。しかし、まだ届いていなかったので心配していました。なくなったのではないかと思い、お母さんが（21）。電話を終えると、お母さんはロビーにもう一度郵便受けを確認するように言いました。郵便局のスタッフは荷物はすでに配達済みだと言いました。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "映画館に着いた時、何に気づきましたか？",
-                        "a": "財布を家に忘れたことです。（I had forgotten my wallet）"
+                        "q": "'His grandmother had sent him a present for his birthday last week' の過去完了形はなぜ使われていますか？",
+                        "a": "「先週の誕生日にプレゼントを送った」が、話の時点（待っている現在）より前の出来事であることを示す大過去。"
                     },
                     {
-                        "q": "友達はなぜチケットを2枚買っていたのですか？",
-                        "a": "筆者を驚かせるつもりだったからです。（She had planned to surprise me）"
+                        "q": "'it had still not arrived' の 'had not arrived' はどのような状況を表していますか？",
+                        "a": "過去のある時点までに「まだ届いていなかった」という未完了の状態を表す。still が「まだ」を強調。"
                     },
                     {
-                        "q": "筆者はどのくらいの間その映画を楽しみにしていましたか？",
-                        "a": "何週間もです。（had been looking forward to seeing the movie for weeks）"
+                        "q": "'After she had finished speaking' の 'had finished' はなぜ過去完了ですか？",
+                        "a": "「電話を終えた後」＝ 電話が先に終わり、その後に別の行動が起きた。時間の前後関係を明確にするため。"
+                    },
+                    {
+                        "q": "この段落の出来事を時系列順に並べてください。",
+                        "a": "①祖母がプレゼントを送った → ②まだ届かない → ③母に相談 → ④母が郵便局に電話 → ⑤すでに配達済みと判明。"
                     }
                 ],
                 "highlightPatterns": [
                     "had sent him a present",
                     "had still not arrived",
-                    "it had gotten lost",
+                    "had gotten lost",
                     "she had finished speaking",
-                    "had already been delivered",
-                    "had been delivered to Mrs. Williams",
-                    "had caused these circles",
-                    "The divers did not know what had caused"
+                    "had already been delivered"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "過去完了形"
@@ -1642,30 +1647,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Our school library was built in 2010. It was designed by a famous architect. The building is used by hundreds of students every day. New books are added to the collection every month. The library can be accessed online, too. Recently, a new reading room has been opened on the third floor. The project was supported by donations from local businesses.",
-                    "ja": "私たちの学校の図書館は2010年に建てられました。有名な建築家によって設計されました。その建物は毎日何百人もの生徒に使われています。毎月新しい本がコレクションに追加されます。図書館はオンラインでもアクセスできます。最近、3階に新しい読書室が開設されました。このプロジェクトは地元企業からの寄付によって支援されました。"
+                    "en": "[出典: Circles in the Sand]\nIn 1995, divers swimming in the ocean near southern Japan discovered something unusual. They saw large circles drawn in the sand at the bottom of the sea. The divers did not know what had caused these circles. However, the mystery was eventually solved by some scientists who saw the circles being drawn. The artist was a male fish called a puffer fish. He was using different parts of his body to create the circles. When his work was complete, a female came and laid her eggs in the center.",
+                    "ja": "1995年、日本の南部近くの海で泳いでいたダイバーたちが珍しいものを発見しました。海底の砂の上に大きな円が描かれているのを見たのです。ダイバーたちはこれらの円の原因がわかりませんでした。しかし、この謎はやがて、円が描かれているところを見た科学者たちによって解明されました。その芸術家はフグという雄の魚でした。フグは体のさまざまな部分を使って円を作っていました。作品が完成すると、雌がやってきて中心に卵を産みました。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "図書館はいつ建てられましたか？",
-                        "a": "2010年に建てられました。（was built in 2010）"
+                        "q": "'circles drawn in the sand at the bottom of the ocean' の 'drawn' はどのような受動態ですか？",
+                        "a": "過去分詞の後置修飾。'circles (which were) drawn' の省略形。「砂に描かれた円」。"
                     },
                     {
-                        "q": "毎日どのくらいの生徒が利用していますか？",
-                        "a": "何百人もの生徒が利用しています。（is used by hundreds of students）"
+                        "q": "'the mystery was eventually solved' の受動態はなぜ使われていますか？",
+                        "a": "「謎が解かれた」— 解いた人より「謎が解決された」という事実に焦点を当てるため。"
                     },
                     {
-                        "q": "最近どんな変化がありましたか？",
-                        "a": "3階に新しい読書室が開設されました。（a new reading room has been opened）"
+                        "q": "'scientists who saw the circles being drawn' の 'being drawn' はどのような構造ですか？",
+                        "a": "知覚動詞 saw + O + being done の構造。「円が描かれているのを見た」。目の前で進行中の受動的行為を示す。"
+                    },
+                    {
+                        "q": "この段落で述べられている「謎」とは何で、どのように解かれましたか？",
+                        "a": "海底の円の正体が謎だったが、2011年に水中カメラで撮影中にフグが作っている場面が捉えられ、解決した。"
                     }
                 ],
                 "highlightPatterns": [
-                    "the circles being drawn",
+                    "circles drawn in the sand",
                     "the mystery was eventually solved",
-                    "had already been delivered",
-                    "had been delivered to Mrs. Williams",
-                    "is designed for small children",
-                    "was not seriously interested"
+                    "the circles being drawn"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "受動態"
@@ -1695,38 +1702,33 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Tom wanted to purchase a new laptop, so he visited several stores. The prices varied a lot, so he decided to compare them carefully. He found one that was designed for students and was not too expensive. The shop assistant recommended it, saying it was ideal for schoolwork. Tom was satisfied with his choice and bought it immediately.",
-                    "ja": "トムは新しいノートパソコンを購入したかったので、いくつかのお店を訪れました。価格がかなり違ったので、慎重に比較することにしました。学生向けに設計されたもので高すぎないものを見つけました。店員がそれを勧めて、学校の課題に理想的だと言いました。トムは自分の選択に満足して、すぐに購入しました。"
+                    "en": "[出典: Science project]\nLet's meet on Monday so we can work together. I am free after school because there is no soccer practice that day. Can you meet me in the library? Don't forget your computer. We need to show our work to Mrs. Jones before Wednesday's presentation.",
+                    "ja": "月曜日に会って一緒にやろう。その日はサッカーの練習がないから放課後暇なんだ。図書館で会える？パソコンを忘れないでね。水曜日の発表の前にジョーンズ先生に成果を見せなきゃいけないんだ。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "「purchase」の言い換えは何ですか？",
-                        "a": "「buy」です。purchaseはbuyのフォーマルな表現です。"
+                        "q": "'Don't forget your computer' を丁寧に言い換えるとどうなりますか？",
+                        "a": "'Please remember to bring your computer' や 'Make sure you bring your laptop'。Don't forget = Remember to。"
                     },
                     {
-                        "q": "「designed for students」を別の言い方にすると？",
-                        "a": "「made for students」や「suitable for students」（学生に適した）"
+                        "q": "'We need to show our presentation to Ms. Carter' の 'need to show' を言い換えてください。",
+                        "a": "'have to present to' や 'must demonstrate to'。need to show = have to present / must display。"
                     },
                     {
-                        "q": "「was satisfied with his choice」のパラフレーズは？",
-                        "a": "「was happy about what he chose」（選んだものに満足していた）"
+                        "q": "'Let's meet on Monday so we can work together' の 'so we can' を言い換えると？",
+                        "a": "'in order to work together' や 'so that we can collaborate'。so we can = in order to / so that we can。"
                     },
                     {
-                        "q": "「immediately」の言い換えは？",
-                        "a": "「right away」や「at once」（すぐに）"
+                        "q": "この段落で述べられている予定を要約してください。",
+                        "a": "月曜の放課後に会ってプレゼンを一緒に仕上げる。コンピュータを持ってくること。カーター先生に見せる必要がある。"
                     }
                 ],
                 "highlightPatterns": [
-                    "I chose penguins",
-                    "He has chosen the topic",
-                    "I finished writing",
-                    "He has written his part",
                     "Don't forget your computer",
-                    "bring her computer",
-                    "circles drawn in the sand at the bottom",
-                    "strange circle patterns at the bottom",
-                    "attract a partner",
-                    "make other animals interested"
+                    "We need to show",
+                    "meet on Monday",
+                    "work together"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ"

@@ -832,32 +832,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Even though' と 'Although' の違いは？",
-                        "a": "ほぼ同義。Even thoughの方がやや強調的。どちらも「～だけれども」。"
+                        "q": "'despite' はどのような譲歩を示していますか？",
+                        "a": "「〜にもかかわらず」。予想される結果に反する事実を述べる前置詞的な譲歩表現。"
                     },
                     {
-                        "q": "'While' はここで何を表しているか？",
-                        "a": "対比・譲歩。「～する一方で」。時間の「間」の意味ではない。"
+                        "q": "この段落の 'However' は前後のどのような内容をつないでいますか？",
+                        "a": "カモメの行動の説明（前）に対して、その原因や背景（後）を逆接的に提示している。"
                     },
                     {
-                        "q": "'In contrast' と 'Despite' の文法的な違いは？",
-                        "a": "In contrast = 副詞句（文頭で使う）。Despite = 前置詞（+ 名詞/動名詞が続く）。"
+                        "q": "'despite' と 'although' の文法的な違いは何ですか？",
+                        "a": "despite + 名詞句（前置詞）、although + 節（接続詞）。意味は同じだが構文が異なる。"
                     },
                     {
-                        "q": "'Despite being time-consuming' を Although に書き換えると？",
-                        "a": "Although it is time-consuming"
+                        "q": "この段落でカモメの問題行動の原因は何だと述べられていますか？",
+                        "a": "人間の活動が主な原因。人間が残した食べ物やゴミがカモメの行動パターンを変えている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although",
                     "despite",
                     "However,"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "譲歩・対比",
                 "practicePassage": {
-                    "en": "Even though fast food is convenient, it is not always the healthiest option. While some restaurants now offer salads and fruit, most fast-food meals contain high levels of fat and sugar. Although prices are low, the long-term health costs can be significant. In contrast, home-cooked meals allow people to control the ingredients. Despite being time-consuming, cooking at home is generally a better choice for health.",
-                    "ja": "ファストフードは便利だが、必ずしも最も健康的な選択肢ではない。サラダやフルーツを提供するレストランもあるが、ほとんどのファストフードは高い脂肪と糖分を含む。価格は安いが、長期的な健康コストは大きい可能性がある。対照的に、自炊すれば食材をコントロールできる。時間がかかるにもかかわらず、自炊は健康のためには一般的により良い選択だ。"
+                    "en": "[出典: Problems with Gulls in Towns]\nThere are several reasons why gulls have developed these behaviors. One of them is human activity. Humans are destroying the natural environment where these birds normally live. Also, it is becoming harder for them to find food. In fact, the number of gulls is decreasing despite their familiarity in town. This may explain their difficulty finding food. Because of less food and space to live, they have come to areas where humans live. Then, they search for food in garbage or build nests near humans.",
+                    "ja": "カモメがこうした行動を発達させた理由はいくつかある。その一つは人間の活動だ。人間はこれらの鳥が通常住む自然環境を破壊している。また、食べ物を見つけることが難しくなっている。実際、町では馴染み深い存在であるにもかかわらず、（19カモメの数は減少している）。これが食べ物を見つけることの困難さを説明しているかもしれない。食べ物と住む場所が少なくなったため、人間が住む地域にやってきた。そして、ゴミの中で食べ物を探したり、人間の近くに巣を作ったりしている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -886,30 +886,34 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'is considered' は能動態ではどうなるか？",
-                        "a": "People consider the Great Wall one of the greatest engineering achievements."
+                        "q": "'is considered a sacred place' の受動態はなぜ使われていますか？",
+                        "a": "先住民にとって神聖な場所「とみなされている」という一般的認識を客観的に表現するため。"
                     },
                     {
-                        "q": "'is estimated to stretch' はどういう構文か？",
-                        "a": "It is estimated that S V = S is estimated to V。「～と推定されている」。"
+                        "q": "'was closed for climbing' はどのような出来事を表しますか？",
+                        "a": "登山のために閉鎖された（＝登山が禁止された）。受動態で公的な決定を示す。"
                     },
                     {
-                        "q": "'It is expected that' を主語を変えて書き換えると？",
-                        "a": "Tourism at the wall is expected to continue to grow."
+                        "q": "'were warned about the dangers' の受動態の意味を説明してください。",
+                        "a": "「危険について警告された」。警告する側（当局）より、警告を受けた側に焦点を当てている。"
+                    },
+                    {
+                        "q": "'was expected to decrease' はどのような予測を表していますか？",
+                        "a": "「減少すると予想されていた」。be expected to = 〜すると期待/予想される。客観的な予測。"
                     }
                 ],
                 "highlightPatterns": [
                     "is considered",
-                    "was expected to",
-                    "are encouraged to",
                     "was closed for",
-                    "were warned"
+                    "were warned",
+                    "was expected to"
                 ],
                 "highlightColor": "#8b5cf6",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The Great Wall of China is considered one of the greatest engineering achievements in history. It was originally built to protect the country from invasions. The wall is estimated to stretch over 20,000 kilometers. Although parts of the wall have been damaged over time, major sections have been restored and are now open to visitors. It is expected that tourism at the wall will continue to grow in the coming years.",
-                    "ja": "万里の長城は歴史上最も偉大な技術的成果の一つとされている。元々は侵略から国を守るために建設された。壁は2万キロ以上にわたると推定されている。時代とともに損傷した部分もあるが、主要な区間は修復され現在は観光客に開放されている。長城の観光は今後も成長し続けると予想されている。"
+                    "en": "[出典: Solutions to Protect Environment and Culture]\nSome people worry about the environment around Uluru because it has become worse due to the impact of tourists. For example, some visitors leave garbage or camp near the rock. Tourists were warned not to climb Uluru because it is considered an important place in the culture of the native people in the area. Although they asked tourists not to climb it, many people lined up to hike on the rock. After that, the rock was closed for climbing.",
+                    "ja": "観光客の影響で環境が悪化したため、ウルル周辺の環境を心配する人もいる。例えば、ゴミを残したり岩の近くでキャンプしたりする訪問者がいる。ウルルはこの地域の先住民の文化において重要な場所とされているため、登らないよう警告されていた。登らないよう頼んだにもかかわらず、多くの人が岩にハイキングするために列を作った。その後、登山のため岩は閉鎖された。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -938,29 +942,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'I hope this email finds you well' はどんな場面で使うか？",
-                        "a": "メールの冒頭の定型挨拶。フォーマルなメールで広く使われる。"
+                        "q": "'We would like you to send us...' はどのような丁寧な依頼表現ですか？",
+                        "a": "「〜していただきたい」。would like + 人 + to do の丁寧な依頼構文。直接的な 'Please send' よりフォーマル。"
                     },
                     {
-                        "q": "'I was wondering if' は何のための表現か？",
-                        "a": "丁寧な質問・依頼の導入。直接的なCan you...?よりも柔らかい表現。"
+                        "q": "'it would be nice if you could...' はどの程度の強さの依頼ですか？",
+                        "a": "非常に丁寧で控えめな依頼。仮定法（would/could）を使って柔らかいニュアンスを出している。"
                     },
                     {
-                        "q": "'at your convenience' を別の表現で？",
-                        "a": "whenever it suits you / when you have time / at a time that works for you"
+                        "q": "'We would like to discuss' と 'We would like you to send' の構文の違いは？",
+                        "a": "前者は「私たちが〜したい」（主語の意志）、後者は「あなたに〜してほしい」（相手への依頼）。"
+                    },
+                    {
+                        "q": "これらの表現をよりカジュアルにするとどうなりますか？",
+                        "a": "We would like to → We want to, would like you to → want you to, it would be nice if → can you。"
                     }
                 ],
                 "highlightPatterns": [
-                    "We are happy to",
                     "would like you to",
                     "it would be nice if",
-                    "Please read it"
+                    "We would like to"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "依頼表現",
                 "practicePassage": {
-                    "en": "Dear Mr. Wilson,\nI hope this email finds you well. I am reaching out to inquire about the volunteer opportunities at the community center. I was wondering if there are any positions available for high school students during the summer break. It would be helpful if you could provide details about the schedule and requirements. I am available to start from July 1st. I would be happy to discuss this further at your convenience.\nKind regards,\nAiko Suzuki",
-                    "ja": "ウィルソン様\nお元気でお過ごしのことと存じます。コミュニティセンターでのボランティアの機会についてお尋ねするためにご連絡しています。夏休み中に高校生向けのポジションがあるかどうか知りたいです。スケジュールと要件の詳細を教えていただけると助かります。7月1日から開始可能です。ご都合のよい時にさらにお話しできればと思います。\n敬具\n鈴木 愛子"
+                    "en": "[出典: Article about Your Baseball Game]\nWe would like to write an introduction about your team. So, any special information about your team would be great. For example, we would like you to share your team's past results against the other team and introduce any players that you think people should watch. Also, it would be nice if you could take a photo of your whole team and send it to us along with a short message from your coach.",
+                    "ja": "チームの紹介記事を書きたいと思います。チームに関する特別な情報があればぜひお願いします。例えば、相手チームとのこれまでの戦績や、注目すべき選手の紹介をお願いします。また、チーム全体の写真を撮って、コーチからの短いメッセージとともにお送りいただけると助かります。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -984,28 +992,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'For example' と 'Additionally' はそれぞれ何のための接続表現か？",
-                        "a": "For example = 具体例の提示。Additionally = 追加情報の導入。"
+                        "q": "'In this way' はどのような論理的機能を持ちますか？",
+                        "a": "「こうすることで」。前述の方法や手段が実際にどのような効果を生むかを示すまとめの接続表現。"
                     },
                     {
-                        "q": "'On the other hand' と 'Nonetheless' の関係は？",
-                        "a": "On the other hand = 対比（反対の見方）。Nonetheless = 逆接（それにもかかわらず）。反論→再反論の構造。"
+                        "q": "'In fact' はこの文脈でどのような役割を果たしていますか？",
+                        "a": "「実際に」。前述の主張を具体的な事実や証拠で裏付ける補足表現。"
                     },
                     {
-                        "q": "このパッセージの論理展開を図式化すると？",
-                        "a": "メリット（例×2）→ デメリット (On the other hand) → 再反論 (Nonetheless)：帰結バランス型"
+                        "q": "この段落で述べられているイベントの目的と効果を要約してください。",
+                        "a": "先住民の文化を観光客に紹介するイベントで、文化的保護と経済的利益の両方を実現している。"
+                    },
+                    {
+                        "q": "'In this way' と 'In fact' の使い分けを説明してください。",
+                        "a": "'In this way' は方法と結果を結ぶ、'In fact' は一般的な主張を具体的な事実で支える。"
                     }
                 ],
                 "highlightPatterns": [
                     "In this way",
-                    "As a result",
                     "In fact"
                 ],
                 "highlightColor": "#10b981",
                 "highlightLabel": "論理展開",
                 "practicePassage": {
-                    "en": "Space exploration has led to many discoveries that benefit life on Earth. For example, satellite technology is used for weather forecasting and GPS navigation. Additionally, medical research conducted in space has led to new treatments for diseases. On the other hand, space programs require enormous amounts of money. Critics argue that these funds should be spent on solving problems on Earth instead. Nonetheless, supporters believe that the knowledge gained from space research is invaluable.",
-                    "ja": "宇宙探査は地球上の生活に役立つ多くの発見をもたらしている。例えば、衛星技術は天気予報やGPSナビゲーションに使われている。さらに、宇宙で行われた医学研究は新しい治療法につながっている。一方で、宇宙プログラムには莫大な資金が必要だ。批判者はその資金を地球の問題解決に使うべきだと主張する。それにもかかわらず、支持者は宇宙研究から得られる知識は非常に貴重だと信じている。"
+                    "en": "[出典: Solutions to Protect Environment and Culture]\nThere is a cultural event that can solve this challenge. Developed by local organizations and the native people, the event uses drones, which are small flying machines. More than 1,000 drones with lights fly over Uluru at night. The drones perform light shows by creating artwork that tells an important story of the native people in the night sky. Today, many tourists come to watch the show. In this way, the event may become known worldwide in the future as a way to balance cultural respect and tourism.",
+                    "ja": "この課題を解決できる文化イベントがある。地元の組織と先住民が開発したこのイベントは、小型の飛行機械であるドローンを使用する。1,000台以上のライト付きドローンが夜にウルルの上空を飛ぶ。ドローンは夜空に先住民の重要な物語を伝えるアートワークを作成してライトショーを行う。今日、多くの観光客がショーを見に来ている。このように、このイベントは将来、文化的尊重と観光のバランスを取る方法として世界的に知られるようになるかもしれない。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1034,24 +1046,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'essential for overall well-being' を言い換えると？",
-                        "a": "crucial for general health / necessary for total wellness / vital for good health"
+                        "q": "'the advantages for elderly people' を言い換えてください。",
+                        "a": "'benefits for senior citizens' や 'positive effects for older adults'。advantages = benefits, elderly people = senior citizens。"
                     },
                     {
-                        "q": "'provides the body with necessary nutrients' を言い換えると？",
-                        "a": "gives your body the nutrition it needs / supplies essential vitamins and minerals"
+                        "q": "'the problem of elderly people living alone' を別の表現で言い換えると？",
+                        "a": "'the issue of seniors being isolated' や 'the challenge of older adults in solitude'。living alone = being isolated。"
                     },
                     {
-                        "q": "'prevent various health problems' を言い換えると？",
-                        "a": "avoid different medical issues / reduce the risk of illness / keep diseases at bay"
+                        "q": "'Nowadays' を同じ意味の別の表現で言い換えてください。",
+                        "a": "'These days', 'In recent times', 'Currently'。いずれも現代の状況を導入する表現。"
+                    },
+                    {
+                        "q": "この段落で述べられている高齢者の共同生活の利点を自分の言葉で説明してください。",
+                        "a": "孤独の問題を解消し、社交的な活動を通じて生活の質が向上する。互いに助け合うコミュニティが形成される。"
                     }
                 ],
-                "highlightPatterns": [],
+                "highlightPatterns": [
+                    "the advantages for elderly people",
+                    "the problem of elderly people",
+                    "living alone"
+                ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Maintaining a healthy diet is essential for overall well-being. Eating a balanced mix of vegetables, proteins, and grains provides the body with necessary nutrients. Avoiding excessive sugar and processed foods helps prevent various health problems. Moreover, drinking enough water throughout the day keeps the body functioning properly. Small changes in daily eating habits can make a big difference in long-term health.",
-                    "ja": "健康的な食事を維持することは全体的な幸福に不可欠だ。野菜、タンパク質、穀物のバランスの取れた組み合わせを食べることで体に必要な栄養素を提供する。過度な糖分や加工食品を避けることでさまざまな健康問題を予防できる。さらに、1日を通じて十分な水を飲むことで体が正常に機能し続ける。日々の食習慣の小さな変化が長期的な健康に大きな違いをもたらす。"
+                    "en": "[出典: A New Way of Living]\nAnother important thing is the advantages for elderly people. Nowadays, the problem of elderly people feeling lonely is attracting more attention. It is serious because they may suffer from mental and physical health issues. So, living with students may help to solve such a problem. It also allows elderly people to learn new skills. For example, in a shared living project in the Netherlands, students teach elderly people how to use e-mail and social media. In this way, the new way of living has advantages for both groups of people.",
+                    "ja": "もう一つ重要なことは、高齢者にとっての利点だ。今日、高齢者の孤独感の問題がより注目を集めている。精神的・身体的な健康問題に苦しむ可能性があるため、深刻な問題だ。そのため、学生と一緒に暮らすことがそうした問題の解決に役立つかもしれない。また、高齢者が（23新しいスキルを学ぶ）こともできるようになる。例えば、オランダのシェアリビングプロジェクトでは、学生が高齢者にメールやソーシャルメディアの使い方を教えている。このように、新しい暮らし方は両方のグループの人々にとって利点がある。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

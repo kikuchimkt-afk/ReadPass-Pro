@@ -1382,30 +1382,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'made the students rewrite' の構造は？",
-                        "a": "make + O + 動詞原形 = 「Oに～させる」（強制）。"
+                        "q": "'strict rules that limited the way people expressed their feelings' の使役的意味を説明してください。",
+                        "a": "「感情表現の方法を制限する厳しい規則」。rules が主語で人々の行動を制約。社会規範が感情表現を制約した。"
                     },
                     {
-                        "q": "'had them practice' と 'let them choose' の違いは？",
-                        "a": "had = 指示して～させる。let = 許可して～させる。"
+                        "q": "'in order to express their feelings' の目的表現を説明してください。",
+                        "a": "「感情を表現するために」。in order to = 〜するために。目的を明確に示す副詞的用法のto不定詞。"
                     },
                     {
-                        "q": "'saw their classmates improve' と 'heard the teacher praise' の共通点は？",
-                        "a": "知覚動詞 + O + 動詞原形。see/hear + O + V = 「OがVするのを見る/聞く」。"
+                        "q": "'too personal to say openly' の too...to 構文を説明してください。",
+                        "a": "「あまりに個人的で公に言えない」。too + 形容詞 + to不定詞 = 〜すぎて…できない。"
+                    },
+                    {
+                        "q": "19世紀イギリスの感情表現の制約を要約してください。",
+                        "a": "社会の厳格な規則が感情の直接表現を制限。特に恋愛感情は公に語れず、間接的手段が必要だった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "made people feel",
-                    "let their feelings",
-                    "made it possible",
-                    "allows people to",
-                    "enables"
+                    "strict rules",
+                    "to express",
+                    "in order to"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "使役・知覚",
                 "practicePassage": {
-                    "en": "The teacher made the students rewrite their essays after finding many errors. She had them practice typing for twenty minutes every morning. During art class, she let them choose their own topics. The students saw their classmates improve quickly and felt motivated. They heard the teacher praise their efforts, which encouraged them to work even harder.",
-                    "ja": "教師は多くの誤りを見つけた後、生徒にエッセイを書き直させた。毎朝20分間タイピングの練習をさせた。美術の授業では、自分でテーマを選ばせた。生徒たちはクラスメートが急速に上達するのを見てやる気が出た。教師が努力を褒めるのを聞いて、さらに頑張ろうと思った。"
+                    "en": "[出典: The Secret Language of Flowers]\nIn the nineteenth century in the United Kingdom, society had strict rules that told people how they should behave. These included rules about how to dress, how to eat, and how to speak properly. One of the most important rules was about not showing emotions openly. People thought it was not right to express feelings too much, especially in public. Because of this, people had to find other ways to share how they felt in order to respect society's rules.",
+                    "ja": "19世紀のイギリスでは、社会には人々が自分の感情を表現する方法を制限する厳しい規則があった。個人的な気持ちを直接言葉にすることは、特に公の場では適切でないとされていた。そのため、人々は感情を伝えるために間接的な方法を見つける必要があった。特に恋愛感情を表現することは難しく、社会的な体面を保ちながら気持ちを伝える創造的な手段が求められていた。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1434,31 +1437,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'The announcement that' の that は何用法？",
-                        "a": "同格のthat。announcement と that節が同じ内容を指す。"
+                        "q": "'floriography, or the language of flowers' の同格表現を説明してください。",
+                        "a": "「フロリオグラフィー、つまり花言葉」。or で専門用語とその説明を並べる同格。読者の理解を助ける。"
                     },
                     {
-                        "q": "'The fact that exercise improves' を関係代名詞に書き換えられるか？",
-                        "a": "いいえ。同格のthat は関係代名詞ではない。fact = exercise improves... という等式関係。"
+                        "q": "'a special method of sharing feelings was used' の受動態はどのような時代背景ですか？",
+                        "a": "「感情を共有する特別な方法が使われた」。19世紀イギリスの文化的慣習を客観的に叙述する受動態。"
                     },
                     {
-                        "q": "このパッセージの同格表現を全て挙げると？",
-                        "a": "The announcement that, The idea that, The fact that, evidence that, The belief that"
+                        "q": "'became very popular during the Victorian era' の 'became' はどのような変化ですか？",
+                        "a": "「ビクトリア朝時代に非常に人気になった」。状態の変化を示す。流行の始まりと広がり。"
+                    },
+                    {
+                        "q": "フロリオグラフィーの仕組みを要約してください。",
+                        "a": "花に特定の意味を持たせるシステム。花束で感情を表現。赤いバラ=愛、白いユリ=純潔。解説本も出版。"
                     }
                 ],
                 "highlightPatterns": [
                     "floriography",
                     "the language of flowers",
-                    "the Delta",
-                    "an area",
-                    "the Green Revolution",
-                    "a period"
+                    "became"
                 ],
                 "highlightColor": "#a78bfa",
                 "highlightLabel": "同格表現",
                 "practicePassage": {
-                    "en": "The announcement that the school would close for renovation surprised everyone. The idea that students should study for at least two hours daily is widely accepted. The fact that exercise improves mental health has been proven by numerous studies. There is growing evidence that spending time in nature reduces stress levels. The belief that education is the key to success motivates many families.",
-                    "ja": "学校が改修のため閉鎖されるという発表は全員を驚かせた。生徒は毎日少なくとも2時間勉強すべきだという考えは広く受け入れられている。運動が精神的な健康を改善するという事実は多くの研究で証明されている。自然の中で過ごすことがストレスレベルを下げるという証拠が増えている。教育が成功の鍵であるという信念が多くの家庭を動機づけている。"
+                    "en": "[出典: The Secret Language of Flowers]\nDuring this time, a special method of sharing feelings was used. This method was called \"floriography,\" which means the language of flowers. Each flower had its own meaning, which let people send secret messages that could share love, friendship, or even a hidden dislike without saying anything. For example, giving someone red flowers could mean deep love, while giving yellow flowers might show disappointment or not being happy with someone. This became a useful way for British people at that time to share their feelings without going against social rules.",
+                    "ja": "この時期、感情を共有するための特別な方法が使われていた。この方法は「花言葉」、つまりフロリオグラフィーと呼ばれるものだった。花言葉は花に特定の意味を持たせるシステムで、花束を贈ることで言葉では伝えにくい感情を表現することができた。例えば、赤いバラは情熱的な愛を意味し、白いユリは純潔を象徴した。花言葉はビクトリア朝時代に非常に人気を博し、花の意味を解説する本も多数出版された。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1487,34 +1492,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'so that children would have' は何を表すか？",
-                        "a": "目的。so that S + would/could + V = 「SがVできるように」。"
+                        "q": "'to feed the growing population' の目的のto不定詞を説明してください。",
+                        "a": "「増加する人口を養うために」。新しい作物開発の目的。to + 動詞の原形で目的を明示。"
                     },
                     {
-                        "q": "'In order to' と 'so as not to' の違いは？",
-                        "a": "In order to = ～するために（肯定の目的）。so as not to = ～しないように（否定の目的）。"
+                        "q": "'it became more difficult to feed' の形式主語を説明してください。",
+                        "a": "It（形式主語）= to feed...（真主語）。「養うことがより困難になった」。difficult の後にto不定詞。"
                     },
                     {
-                        "q": "'so successful that other cities began' はどんな構文？",
-                        "a": "so + 形容詞 + that = 「とても～なので…」。結果を表すthat節。"
+                        "q": "'After World War II' はどのような時間的文脈を示しますか？",
+                        "a": "「第二次世界大戦後」。戦後の人口爆発という歴史的背景を設定。緑の革命の原因となった時代。"
+                    },
+                    {
+                        "q": "緑の革命が必要になった背景を要約してください。",
+                        "a": "戦後の人口急増→食料不足→科学者が高収量品種を開発→世界の食料生産が劇的に変化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that",
-                    "in order to",
-                    "enough to",
-                    "too",
                     "to feed",
-                    "to express",
-                    "to communicate",
-                    "to increase",
-                    "to improve"
+                    "population grew",
+                    "more difficult"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "目的・結果",
                 "practicePassage": {
-                    "en": "The city built a new park so that children would have a safe place to play. In order to attract more visitors, the park included a modern playground. The entrance fee was kept low so as not to discourage families from coming. As a result, the park became the most popular recreational spot in the area. The project was so successful that other cities began planning similar facilities.",
-                    "ja": "市は子どもたちが安全に遊べる場所を持てるように新しい公園を建設した。より多くの訪問者を引き付けるために、公園には近代的な遊具が設置された。家族が来ることを妨げないよう入場料は低く抑えられた。その結果、公園はその地域で最も人気のあるレクリエーションスポットとなった。このプロジェクトは大成功で、他の都市も同様の施設を計画し始めた。"
+                    "en": "[出典: Green Revolution]\nAfter World War II, the world's population grew quickly. As more people needed food, it became more and more difficult to feed everyone with traditional farming. In countries like India and the Philippines, where population growth was a big challenge, they looked for better ways to produce food. This effort is known as the Green Revolution. During this revolution, scientists developed seeds that produced more crops, chemicals that helped plants grow, and chemicals that got rid of insects. These quickly began to be used all over the world.",
+                    "ja": "第二次世界大戦後、世界の人口は急速に増加した。その結果、増加する人口を養うことがより困難になった。科学者たちは収穫量を増やすために新しい種類の作物を開発し始めた。この取り組みは「緑の革命」と呼ばれるようになり、世界の食料生産を劇的に変えることになった。新しい品種の作物は従来のものよりもはるかに多くの収穫をもたらした。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1543,37 +1547,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'built' 'were used' 'had collapsed' 'remained' の時制を分析すると？",
-                        "a": "built = 過去形（歴史的事実）。were used = 過去受動態。had collapsed = 過去完了（5世紀までに完了）。remained = 過去形。"
+                        "q": "'moved to northern cities' の過去形はどのような歴史的出来事ですか？",
+                        "a": "「北部の都市に移住した」。20世紀の大移動（Great Migration）。過去の完了した出来事を示す過去形。"
                     },
                     {
-                        "q": "'By the 5th century' + 過去完了はなぜ？",
-                        "a": "by + 時点 + 過去完了 = 「～までに（すでに）…していた」。完了の基準時点を示す。"
+                        "q": "'so that the music could reach audiences' の目的のso thatを説明してください。",
+                        "a": "「音楽が聴衆に届くように」。電気楽器を使う目的。so that + could = 可能にするため。"
                     },
                     {
-                        "q": "現在形 'follow' が最後に使われている理由は？",
-                        "a": "現在の一般的事実を述べているため。歴史叙述から現在の状況への切り替え。"
+                        "q": "'created a new style using electric instruments' の時制を説明してください。",
+                        "a": "過去形。北部移住後に新スタイルが「生まれた」。歴史的事実としての過去の出来事。"
+                    },
+                    {
+                        "q": "ブルースが北部で変化した過程を要約してください。",
+                        "a": "南部から北部都市に移住→大会場で演奏→電気楽器を導入→シカゴブルースという新スタイルが誕生。"
                     }
                 ],
                 "highlightPatterns": [
-                    "originated",
-                    "had spread",
-                    "has influenced",
-                    "had become",
-                    "was born",
-                    "were brought",
-                    "have been",
-                    "became",
-                    "was",
-                    "were",
-                    "had been",
-                    "has been"
+                    "moved to",
+                    "northern cities",
+                    "so that"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "時制・歴史叙述",
                 "practicePassage": {
-                    "en": "The ancient Romans built an extensive network of roads across Europe. These roads were used for military purposes and trade. By the 5th century, the Roman Empire had collapsed, but the roads remained in use for centuries. In the Middle Ages, merchants traveled along these routes to sell goods. Today, many modern highways follow the same paths that the Romans created over two thousand years ago.",
-                    "ja": "古代ローマ人はヨーロッパ全域に広大な道路網を建設した。これらの道路は軍事目的と貿易に使われた。5世紀までにローマ帝国は崩壊していたが、道路は何世紀も使われ続けた。中世には商人たちがこれらのルートに沿って旅をして商品を売った。今日、多くの近代的な高速道路は2000年以上前にローマ人が作ったのと同じ道筋をたどっている。"
+                    "en": "[出典: Blues]\nIn the twentieth century, many African Americans on southern farms moved to northern cities, including Chicago, in search of job opportunities and a better life. They brought blues music with them but hoped to create something new. Instead of singing about the difficulties of life on farms, they began to sing about everyday city life. They started to use electric guitars so that more people in crowded, noisy indoor environments could hear them. The use of electric guitars became a symbol of Chicago blues.",
+                    "ja": "20世紀に入り、南部の農場にいた多くのアフリカ系アメリカ人が北部の都市に移住した。彼らは新しい環境でもブルースを演奏し続けたが、大きなクラブや会場でも聴衆に音楽が届くように、電気楽器を使い始めた。ギターやハーモニカが電気的に増幅され、より力強いサウンドが生まれた。この新しいスタイルはシカゴブルースとして知られるようになり、都市の音楽文化の中心となった。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1602,37 +1602,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'invested heavily in improving' を言い換えると？",
-                        "a": "spent a large amount of money to make better / allocated significant funds to enhance"
+                        "q": "'has not only developed into ... but also influenced' を言い換えてください。",
+                        "a": "'has both evolved into ... and impacted'。developed = evolved, influenced = impacted。not only...but also構文。"
                     },
                     {
-                        "q": "'encourage more residents to use' を言い換えると？",
-                        "a": "motivate more people to take advantage of / promote the use of public transit among citizens"
+                        "q": "'different types of blues' を言い換えてください。",
+                        "a": "'various styles of blues music' や 'multiple forms of blues'。different types = various styles / multiple forms。"
                     },
                     {
-                        "q": "'decreased noticeably' を言い換えると？",
-                        "a": "went down significantly / dropped considerably / fell to a visible extent"
+                        "q": "'rock and roll, jazz, and soul music' はブルースとどのような関係ですか？",
+                        "a": "ブルースから影響を受けて生まれたジャンル。ブルースのリズム、コード進行、感情表現が基盤。"
                     },
                     {
-                        "q": "'lead to cleaner air' を言い換えると？",
-                        "a": "result in improved air quality / bring about better environmental conditions"
+                        "q": "ブルースが音楽史に与えた影響を要約してください。",
+                        "a": "複数のブルース形態に発展。ロックンロール、ジャズ、ソウルなど多くの現代音楽の基盤。世界的に認められた遺産。"
                     }
                 ],
                 "highlightPatterns": [
-                    "communicate",
-                    "express",
-                    "develop",
-                    "create",
-                    "lend",
-                    "borrow",
-                    "hardship",
-                    "difficulty"
+                    "has not only",
+                    "but also influenced",
+                    "developed into"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The local government invested heavily in improving public transportation. New bus routes were introduced to connect remote areas with the city center. Ticket prices were reduced to encourage more residents to use public transit. As a result, the number of private cars on the road decreased noticeably. Environmental groups praised the initiative, saying it would lead to cleaner air in the city.",
-                    "ja": "地方自治体は公共交通機関の改善に多額の投資をした。地方と都市中心部を結ぶ新しいバス路線が導入された。より多くの住民に公共交通機関を利用してもらうために運賃が引き下げられた。その結果、道路上の自家用車の数が目に見えて減少した。環境団体はこのイニシアチブを称賛し、市内のより清潔な空気につながるだろうと述べた。"
+                    "en": "[出典: Blues]\nBlues has not only developed into different types of blues itself but also influenced different types of music. Delta and Chicago blues both focus on guitar music, and this influence can be seen in modern rock music. Also, the strong expression of feelings has been passed down to rock music. Expressing emotions is a big part of rap music, too. Just like in blues, rap artists openly talk about their experiences and feelings, often sharing social messages, which was a big part of the original Delta blues.",
+                    "ja": "ブルースはブルース自体のさまざまな形態に発展しただけでなく、他のジャンルにも影響を与えた。ロックンロール、ジャズ、ソウルミュージックなど、多くの現代音楽はブルースに根ざしている。ブルースのリズム、コード進行、感情表現は、これらの新しいジャンルの基盤となった。今日でもブルースは世界中で演奏され、アメリカの音楽遺産の最も重要な部分の一つとして認められている。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

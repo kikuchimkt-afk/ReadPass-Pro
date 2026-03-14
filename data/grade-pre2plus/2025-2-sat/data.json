@@ -733,29 +733,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'in order to' と 'to' の違いは？",
-                        "a": "ほぼ同義。in order to はより明確に目的を示す。フォーマルな文で好まれる。"
+                        "q": "この段落で使われている比較表現を全て挙げてください。",
+                        "a": "more water than（〜より多くの水）、as effective as（〜と同じくらい効果的）、less likely to（〜しにくい）の3つ。"
                     },
                     {
-                        "q": "'so that they can' を 'to' に書き換えると？",
-                        "a": "Others cycle to stay healthy. (so that S can = to不定詞で書き換え可能)"
+                        "q": "'as effective as modern methods' の 'as...as' 構文はどのような比較を示しますか？",
+                        "a": "同等比較。古代の農法が現代の方法と同じくらい効果的であることを示す。"
                     },
                     {
-                        "q": "'The purpose of ~ is to' を別の表現で？",
-                        "a": "The aim of ~ is to / ~ is designed to / ~ is intended to"
+                        "q": "'less likely to damage the land' の意味を説明してください。",
+                        "a": "「土地を損なう可能性がより低い」。less + 形容詞 + to do で否定的な比較を示す。"
+                    },
+                    {
+                        "q": "この段落で古代の農法の利点はどのように比較で表されていますか？",
+                        "a": "現代の方法と同等の効果（as effective as）でありながら、環境への悪影響が少ない（less likely to damage）という対比。"
                     }
                 ],
                 "highlightPatterns": [
-                    "aimed at",
-                    "This is because",
-                    "would like to",
-                    "in order to"
+                    "more water than",
+                    "as effective as",
+                    "less likely to"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "目的・理由",
                 "practicePassage": {
-                    "en": "Many cities have started building more bicycle lanes in order to reduce traffic. The purpose of these lanes is to make cycling safer and more convenient. Some people ride bicycles to save money on transportation. Others cycle so that they can stay healthy. In either case, the goal is to create a city where people rely less on cars.",
-                    "ja": "多くの都市が交通量を減らすために自転車レーンを増設し始めている。これらのレーンの目的は自転車をより安全で便利にすることだ。交通費を節約するために自転車に乗る人もいる。健康を維持するために自転車に乗る人もいる。いずれにせよ、目標は人々が車に頼ることの少ない街を作ることだ。"
+                    "en": "[出典: House Projects]\nWhen people buy these homes, the effect on a town is huge. Buying a house means paying taxes to the town. There are a lot of times when nobody buys a used house because it still costs a lot. Then, it is more valuable to the town to sell houses at lower prices and receive money as taxes than not to sell them. It will also help the local economy because new house owners moving from other cities will spend money on local products and services.",
+                    "ja": "人々がこれらの家を購入すると、町への影響は大きい。家を購入することは町に税金を支払うことを意味する。中古住宅はまだ高価であるために誰も買わないことが多い。そのため、家を低価格で売って税金として収入を得る方が家を売らないよりも町にとって価値がある。また、他の都市から移ってくる新しい住宅所有者が地元の製品やサービスにお金を使うため、地元経済にも役立つ。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -784,29 +788,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Although' は何を示しているか？",
-                        "a": "譲歩。「リサイクルは推進されているが（それにもかかわらず）全員がルールを守っていない」"
+                        "q": "'This is because' はどのような因果関係を導いていますか？",
+                        "a": "前述の事実の理由を説明する。「なぜなら〜だからだ」と原因を導入する接続表現。"
                     },
                     {
-                        "q": "'For instance' の類義語は？",
-                        "a": "For example / Such as / To illustrate"
+                        "q": "'As a result' はどのような論理的機能を持ちますか？",
+                        "a": "前述の原因から生じた結果を示す。「その結果」と因果の結果部分を導く。"
                     },
                     {
-                        "q": "因果関係を示す接続表現をこのパッセージから2つ挙げると？",
-                        "a": "As a result / Therefore"
+                        "q": "'In other words' の役割を説明してください。",
+                        "a": "「言い換えると」。前述の内容をより分かりやすく言い直す補足表現。"
+                    },
+                    {
+                        "q": "この段落の論理構成を要約してください。",
+                        "a": "主張→理由（This is because）→結果（As a result）→言い換え（In other words）の流れ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "In this way",
-                    "Because of",
-                    "For example",
-                    "However"
+                    "This is because",
+                    "As a result",
+                    "In other words"
                 ],
                 "highlightColor": "#10b981",
                 "highlightLabel": "論理展開",
                 "practicePassage": {
-                    "en": "Although recycling is widely promoted, not everyone follows the rules correctly. For instance, some people put non-recyclable items in the recycling bin. As a result, the entire batch of recyclables may be rejected at the sorting facility. Moreover, contaminated materials can damage recycling machines. Therefore, it is important for communities to educate residents about proper recycling methods.",
-                    "ja": "リサイクルは広く推進されているが、全員が正しくルールを守っているわけではない。例えば、リサイクル不可の物をリサイクルボックスに入れる人がいる。その結果、リサイクル品の一括分が選別施設で拒否されることがある。さらに、汚染された素材がリサイクル機械を損傷させることもある。したがって、地域社会が住民に正しいリサイクル方法を教育することが重要だ。"
+                    "en": "[出典: Real and Artificial Brain]\nHowever, a similar study performed in the Netherlands showed different results. It used several paintings to record the brain activity of people enjoying the real works and their fake posters. The results showed that brain activity was greater when they looked at real artworks. Also, looking at the real paintings caused a strong positive response in the part of the brain linked to some important factors like memory. This made the scientists think that such an experience of art would be a wonderful opportunity for children.",
+                    "ja": "しかし、オランダで行われた同様の研究は異なる結果を示した。本物の作品とその偽のポスターを楽しむ人々の脳活動を記録するために複数の絵画を使用した。結果は、本物の芸術作品を見たとき（20脳活動がより大きかった）ことを示した。また、本物の絵画を見ることで、記憶などの重要な要素に関連する脳の部分に強い肯定的反応が引き起こされた。これにより科学者たちは、そのような芸術体験は子供たちにとって素晴らしい機会になると考えた。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -835,29 +843,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Would you mind ~ing' に対する肯定の返事は？",
-                        "a": "No, not at all. / Of course not. （「いいえ、構いません」= 依頼を受ける）"
+                        "q": "この段落の 'However' はどのような対比を示していますか？",
+                        "a": "前述の肯定的内容に対して、問題点や反対意見を提示する逆接の接続詞。"
                     },
                     {
-                        "q": "'I would really appreciate your help' をよりカジュアルに言うと？",
-                        "a": "That would be great / Thanks a lot for helping"
+                        "q": "'Although' で始まる文はどのような譲歩を含んでいますか？",
+                        "a": "「〜にもかかわらず」と、一般的な認識と実際の状況の対比を示す譲歩表現。"
                     },
                     {
-                        "q": "'If it is not too much trouble' を別の表現で？",
-                        "a": "If you don't mind / If it's convenient for you / If possible"
+                        "q": "逆接・対比の表現が使われている理由を説明してください。",
+                        "a": "メリットとデメリットの両面を提示し、バランスの取れた議論を展開するため。"
+                    },
+                    {
+                        "q": "この段落の議論の構造を要約してください。",
+                        "a": "利点の提示→逆接（However）→課題や懸念→譲歩（Although）→結論の流れ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would appreciate it if",
-                    "please come",
-                    "Don't worry if",
-                    "would like to"
+                    "However,",
+                    "On the other hand",
+                    "Although"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "依頼・提案",
                 "practicePassage": {
-                    "en": "Would you mind helping me move these boxes to the second floor? I would really appreciate your help. If it is not too much trouble, could you also bring the tape from the storage room? It would be nice if we could finish before lunch. Please let me know if you need anything.",
-                    "ja": "これらの箱を2階に運ぶのを手伝っていただけませんか？ご協力いただけると本当に助かります。ご面倒でなければ、倉庫からテープも持ってきていただけますか？昼食前に終われるといいのですが。何か必要なものがあればお知らせください。"
+                    "en": "[出典: A Special Holiday in Mexico]\nWhile many people spend time with their family at the graves to keep their ancestors' memories alive, people can also spend the day in a different way. Some cities in the country celebrate the day with colorful and exciting parades. People wear costumes and paint their faces to look like skeletons to take part in the events. Through the parades, people are reminded that death is just a part of life. In this way, the holiday can help people to have a better attitude about death.",
+                    "ja": "多くの人が祖先の思い出を大切にするためにお墓で家族と過ごす一方、別の方法で一日を過ごすこともできる。国内のいくつかの都市では、カラフルでワクワクするパレードで祝う。人々は衣装を着てガイコツのように顔を塗ってイベントに参加する。パレードを通じて、死は（23人生の一部にすぎない）ことを思い出す。このようにして、この祝日は人々が死に対してより良い態度を持つのに役立つ。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -886,29 +898,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'which was built in 1920' は制限用法か非制限用法か？",
-                        "a": "非制限用法（カンマ付き）。追加情報を提供している。"
+                        "q": "'if you cancel' で始まる条件文はどのような条件を示していますか？",
+                        "a": "キャンセルした場合の結果（追加料金等）を示す現実的な条件文。"
                     },
                     {
-                        "q": "'who designed it' と 'that are kept' の関係代名詞の違いは？",
-                        "a": "who = 人が先行詞。that = 物が先行詞（制限用法で使用）。"
+                        "q": "'would be' と 'should be' の助動詞の違いを説明してください。",
+                        "a": "'would' は仮定の帰結、'should' は期待・推奨を表す。ニュアンスが異なる。"
                     },
                     {
-                        "q": "'where students often study' の where を関係代名詞に書き換えると？",
-                        "a": "in which students often study （where = in which）"
+                        "q": "この段落でビジネス文書特有の条件表現を挙げてください。",
+                        "a": "if you cancel（キャンセルされた場合）、please note that（ご注意ください）等の丁寧な条件提示。"
+                    },
+                    {
+                        "q": "この段落の情報をまとめると、利用者はどのような条件に注意すべきですか？",
+                        "a": "キャンセルポリシー、支払い条件、期限などの契約的条件に注意が必要。"
                     }
                 ],
                 "highlightPatterns": [
-                    "people who",
-                    "areas where",
-                    "animals that",
-                    "projects to have"
+                    "if you cancel",
+                    "would be",
+                    "should be"
                 ],
                 "highlightColor": "#8b5cf6",
                 "highlightLabel": "関係詞",
                 "practicePassage": {
-                    "en": "The library, which was built in 1920, has become a symbol of the town. The architect who designed it was inspired by ancient Greek buildings. The books that are kept on the top floor include rare collections from the 18th century. The reading room, where students often study for exams, has large windows that let in natural light.",
-                    "ja": "1920年に建てられたその図書館は町のシンボルとなっている。設計した建築家は古代ギリシャの建物に触発された。最上階に保管されている本には18世紀の貴重なコレクションが含まれる。生徒がよく試験勉強をする閲覧室には、自然光を取り入れる大きな窓がある。"
+                    "en": "[出典: About Our Volunteer Project]\nThe purpose of this project is to reduce food waste as much as we can. We would like to support people who do not have enough money to buy food in our community. By connecting local businesses, citizens, and our volunteer group, we can make a huge difference. This project not only helps us reduce waste but also builds a stronger connection among everyone in the community and teaches us to be responsible for our own actions.",
+                    "ja": "このプロジェクトの目的は、食品廃棄物をできる限り減らすことです。私たちのコミュニティで食品を買うお金が十分ではない人々を支援したいと考えています。地元企業、市民、そしてボランティアグループをつなぐことで、大きな変化を生むことができます。このプロジェクトは廃棄物の削減に役立つだけでなく、コミュニティ内の全員のつながりを強化し、自分自身の行動に責任を持つことを教えてくれます。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -937,24 +953,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'hire additional staff' を言い換えると？",
-                        "a": "recruit more employees / bring on new workers / employ extra people"
+                        "q": "'key points to the success' を別の表現で言い換えてください。",
+                        "a": "'important factors for achieving the goal' や 'essential elements of success'。key points = important factors。"
                     },
                     {
-                        "q": "'the workload was too heavy' を言い換えると？",
-                        "a": "there was too much work to handle / employees were overburdened"
+                        "q": "'providing good care for trees' を簡単な表現で言い換えると？",
+                        "a": "'looking after trees well' や 'taking proper care of trees'。provide care = look after / take care of。"
                     },
                     {
-                        "q": "'the situation was unsustainable' を言い換えると？",
-                        "a": "things could not continue this way / the current state could not be maintained"
+                        "q": "'local communities' を別の角度から言い換えてください。",
+                        "a": "'people living in the area' や 'nearby residents'。local communities = people in the neighborhood。"
+                    },
+                    {
+                        "q": "この段落のメインアイデアを自分の言葉で言い換えてください。",
+                        "a": "計画が成功するための重要な要素は、木の適切な管理と地域住民の参加・協力であるということ。"
                     }
                 ],
-                "highlightPatterns": [],
+                "highlightPatterns": [
+                    "key points to the success",
+                    "providing good care",
+                    "local communities"
+                ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The company decided to hire additional staff because the workload was too heavy. Several employees had been working overtime for months. Management realized that the situation was unsustainable and began recruiting new team members. The newly hired workers received thorough training before starting their duties. As a result, productivity improved and employee satisfaction increased.",
-                    "ja": "会社は業務量が多すぎるため、追加のスタッフを雇うことを決定した。数人の従業員が何か月も残業を続けていた。経営陣は状況が持続不可能であることに気づき、新しいチームメンバーの募集を開始した。新たに雇われた従業員は業務開始前に徹底的な研修を受けた。その結果、生産性が向上し従業員の満足度が高まった。"
+                    "en": "[出典: House Projects]\nWhen people buy a house in a beautiful small European town at a very low price, they may still have some issues. It is important to understand that it takes time to repair an old house after buying it. But still, the effort may be worth it if taking care of the old house leads to taking part in the local community and can make the small town lively.",
+                    "ja": "美しい小さなヨーロッパの町で非常に低い価格で家を購入する場合、いくつかの問題が残る可能性がある。購入後に古い家を修繕するのに時間がかかることを理解することが重要だ。それでも、古い家の世話をすることが地域コミュニティへの参加につながり、小さな町を活気づけることができるのであれば、その努力は価値があるかもしれない。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

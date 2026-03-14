@@ -1166,12 +1166,12 @@
                                 "history lovers can write books",
                                 "famous people come"
                             ],
-                            "answer": 1,
+                            "answer": 2,
                             "choiceAnalysis": [
-                                "新しい仕事を見つける→博物館の目的ではない",
-                                "来訪者が関わることができる→正解。💡 more engaged + feel connected + look closely + share thoughts=visitors can get involved",
-                                "歴史愛好家が本を書ける→本文にない",
-                                "有名人が来る→本文にない"
+                                "❌ people find a new job＝新しい仕事を見つける。博物館の目的ではない",
+                                "✅ visitors can get involved＝来訪者が関わりを持てる。💡 more engaged + feel connected + look closely + share thoughts → visitors can get involved",
+                                "❌ history lovers can write books＝歴史愛好家が本を書ける。本文にない",
+                                "❌ famous people come＝有名人が来る。本文にない"
                             ]
                         }
                     ]
@@ -1604,7 +1604,8 @@
                 "highlightLabel": "仮定法",
                 "practicePassage": {
                     "en": "The old house looked as if it had been abandoned for decades. Dust covered every surface as though no one had entered the building in years. The wind howled through the broken windows as if the house were crying out for help. A neighbor treated the property as if it were his own, occasionally cutting the grass. To visitors, it felt as if time had stopped completely inside those walls.",
-                    "ja": "古い家はまるで何十年も放棄されていたかのように見えた。まるで何年も誰も建物に入っていなかったかのようにほこりがすべての表面を覆っていた。風が壊れた窓から吹き抜け、まるで家が助けを求めて叫んでいるかのようだった。隣人はまるで自分の所有物であるかのようにその物件を扱い、時々芝生を刈っていた。訪問者にとって、まるでその壁の中で時間が完全に止まったかのように感じた。"
+                    "ja": "古い家はまるで何十年も放棄されていたかのように見えた。まるで何年も誰も建物に入っていなかったかのようにほこりがすべての表面を覆っていた。風が壊れた窓から吹き抜け、まるで家が助けを求めて叫んでいるかのようだった。隣人はまるで自分の所有物であるかのようにその物件を扱い、時々芝生を刈っていた。訪問者にとって、まるでその壁の中で時間が完全に止まったかのように感じた。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1661,7 +1662,8 @@
                 "highlightLabel": "仮定法現在",
                 "practicePassage": {
                     "en": "The doctor insisted that the patient take the medicine every six hours. The parents demanded that the school improve its safety measures immediately. The committee recommended that a new playground be built in the park. It was proposed that the meeting be moved to a larger room. The rules require that every employee attend the safety training session.",
-                    "ja": "医者は患者に6時間ごとに薬を飲むよう強く求めた。保護者は学校が安全対策を直ちに改善するよう要求した。委員会は公園に新しい遊具を建設するよう勧めた。会議をより大きな部屋に移すことが提案された。規則はすべての従業員が安全研修に出席することを要求している。"
+                    "ja": "医者は患者に6時間ごとに薬を飲むよう強く求めた。保護者は学校が安全対策を直ちに改善するよう要求した。委員会は公園に新しい遊具を建設するよう勧めた。会議をより大きな部屋に移すことが提案された。規則はすべての従業員が安全研修に出席することを要求している。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1721,7 +1723,8 @@
                 "highlightLabel": "強い意志表現",
                 "practicePassage": {
                     "en": "She was dying to see the new movie that everyone was talking about. The young entrepreneur was intent on building a successful business before turning thirty. The students were eager to learn about the culture of the country they would visit. The team was determined to win the championship this year. He was desperate to find a solution to the problem before the deadline.",
-                    "ja": "彼女はみんなが話題にしている新しい映画を見たくてたまらなかった。若い起業家は30歳になる前に成功したビジネスを構築することに熱心だった。学生たちは訪問する国の文化について学ぶことに熱心だった。チームは今年チャンピオンシップを勝つことに決意していた。彼は締め切り前に問題の解決策を見つけることに必死だった。"
+                    "ja": "彼女はみんなが話題にしている新しい映画を見たくてたまらなかった。若い起業家は30歳になる前に成功したビジネスを構築することに熱心だった。学生たちは訪問する国の文化について学ぶことに熱心だった。チームは今年チャンピオンシップを勝つことに決意していた。彼は締め切り前に問題の解決策を見つけることに必死だった。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1780,7 +1783,8 @@
                 "highlightLabel": "動詞+前置詞",
                 "practicePassage": {
                     "en": "The manager approved of the employee's proposal to restructure the department. Scientists must distinguish real facts from false information when conducting research. Many teenagers rely on social media for news instead of traditional sources. The company has invested in new technology to compete with its rivals. Parents should not deprive their children of the chance to make their own decisions.",
-                    "ja": "マネージャーは部門を再編するという従業員の提案を承認した。科学者は研究を行う際に真の事実を虚偽の情報から区別しなければならない。多くのティーンエイジャーは従来の情報源の代わりにソーシャルメディアからのニュースに頼っている。会社はライバルと競争するために新技術に投資した。親は子どもから自分で決定を下す機会を奪うべきではない。"
+                    "ja": "マネージャーは部門を再編するという従業員の提案を承認した。科学者は研究を行う際に真の事実を虚偽の情報から区別しなければならない。多くのティーンエイジャーは従来の情報源の代わりにソーシャルメディアからのニュースに頼っている。会社はライバルと競争するために新技術に投資した。親は子どもから自分で決定を下す機会を奪うべきではない。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1843,7 +1847,8 @@
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
                     "en": "The restaurant owner decided to hire a professional chef to improve the quality of the food. The menu was completely redesigned to include healthier options. Customers noticed the change immediately and began visiting more frequently. Online reviews praised the restaurant for its transformation. Within six months, the business had doubled its revenue compared to the previous year.",
-                    "ja": "レストランオーナーは料理の質を向上させるためにプロのシェフを雇うことに決めた。メニューはより健康的な選択肢を含むように完全にリニューアルされた。客はすぐに変化に気づき、より頻繁に来店するようになった。オンラインレビューはレストランの変貌を称賛した。半年以内に、ビジネスは前年と比べて収益を2倍にした。"
+                    "ja": "レストランオーナーは料理の質を向上させるためにプロのシェフを雇うことに決めた。メニューはより健康的な選択肢を含むように完全にリニューアルされた。客はすぐに変化に気づき、より頻繁に来店するようになった。オンラインレビューはレストランの変貌を称賛した。半年以内に、ビジネスは前年と比べて収益を2倍にした。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

@@ -1600,34 +1600,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "Thereforeは何の論理関係を示しているか？",
-                        "a": "因果関係。「木がCO2を吸収する」→「したがって大気汚染削減に貢献」"
+                        "q": "'This is because' はどのような論理関係を導いていますか？",
+                        "a": "理由を導入している。スペインの減産が世界全体の減産を意味するという因果関係の「原因」部分を示す。"
                     },
                     {
-                        "q": "'This is because' を 'The reason is that' に書き換えられるか？",
-                        "a": "はい。This is because they act as natural air filters. = The reason is that they act as natural air filters."
+                        "q": "'a decrease in production in Spain would mean less production in the world' の因果の流れを説明してください。",
+                        "a": "スペインでの減産（原因）→ 世界全体の減産（結果）。would mean が仮定的な因果を示す。"
                     },
                     {
-                        "q": "'As a result' と 'In turn' の違いは？",
-                        "a": "As a result = その結果（直接的な因果）。In turn = それが今度は（連鎖的な因果）。"
+                        "q": "'the price will naturally go up' は何の結果ですか？",
+                        "a": "供給が減っても需要が変わらない場合の結果。If people still want to buy → price goes up という条件＋因果。"
                     },
                     {
-                        "q": "このパッセージの因果の連鎖を日本語で要約すると？",
-                        "a": "木がCO2を吸収 → 空気がきれいに → 住民の健康が改善。"
+                        "q": "この段落全体の因果の連鎖を日本語で要約してください。",
+                        "a": "スペインの減産 → 世界の減産 → 需要が供給を上回る → 価格上昇。実際に2022年に価格が急騰した。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Therefore, the original purpose",
-                    "Because of that, the price",
                     "This is because",
-                    "in turn, suggests",
-                    "This has had a huge impact"
+                    "would mean less production",
+                    "the price will naturally go up"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "因果関係",
                 "practicePassage": {
-                    "en": "In recent years, cities around the world have been planting more trees. Trees take in carbon dioxide and release oxygen. Therefore, they play an important role in reducing air pollution. This is because they act as natural air filters. As a result, areas with more trees tend to have cleaner air. In turn, this leads to better health for the people living there.",
-                    "ja": "近年、世界中の都市がより多くの木を植えている。木は二酸化炭素を吸収し酸素を放出する。したがって、大気汚染の削減に重要な役割を果たしている。木が天然の空気フィルターとして機能するからだ。その結果、木が多い地域はより清潔な空気を持つ傾向がある。それが今度は、そこに住む人々の健康改善につながる。"
+                    "en": "[出典: Olive Oil]\nThe problem with olive oil production in Spain may cause trouble for this country and the world. This is because a decrease in production in Spain would mean less production in the world. If people still want to buy the oil in this situation, the price will naturally go up. In fact, one of the world's largest olive oil factories in Spain recently reported worrying levels of olive production. Because of that, the price of olive oil in the country rose rapidly in 2022.",
+                    "ja": "スペインでのオリーブオイル生産の問題は、この国と世界に問題を引き起こす可能性がある。スペインでの減産は世界での減産を意味するからだ。この状況でも人々がオイルを買いたければ、価格は自然に上がる。実際、スペインの世界最大級のオリーブオイル工場の一つが心配なレベルの生産量を報告した。Because of that、同国のオリーブオイル価格は2022年に急騰した。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1656,35 +1655,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'No matter how busy students are' を 'However busy ~' に書き換えると？",
-                        "a": "However busy students are, reading for at least twenty minutes a day can improve their vocabulary."
+                        "q": "'However, when there is less ice due to global warming' の 'However' は前のどの事実に対する逆接ですか？",
+                        "a": "「氷の上で生活し、氷上で食料を得る」という通常の生態に対して、温暖化で氷が減るという逆の状況を導いている。"
                     },
                     {
-                        "q": "'refuse to make time' の refuseを別の表現にすると？",
-                        "a": "decline to make time / won't make time"
+                        "q": "'Since they cannot catch their food in the water' の 'Since' はどのような意味で使われていますか？",
+                        "a": "「〜なので」という理由を表す。水中では食料を得られないため、代わりにベリー類を食べるという因果関係。"
                     },
                     {
-                        "q": "'Although' と 'However' の文法的な違いは？",
-                        "a": "Although は接続詞で節をつなぐ。However は副詞で、文頭や文中にカンマを伴って使う。"
+                        "q": "この段落で述べられているホッキョクグマの問題を要約してください。",
+                        "a": "温暖化→氷の減少→陸上生活の増加→食料源の変化→急速な体重減少→命の危険、という連鎖的な問題。"
                     },
                     {
-                        "q": "'Regardless of the subject' を 'No matter what ~' に書き換えると？",
-                        "a": "No matter what subject it is"
+                        "q": "'which puts their lives in danger later' の 'which' は何を指していますか？",
+                        "a": "急速な体重減少（lose weight rapidly）を指す。体重が減ることが後に命の危機につながるという因果を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "No matter how hard",
-                    "refused to wash",
-                    "denied that he had done",
-                    "However, its production",
                     "However, when there is less ice",
-                    "However, experts are concerned"
+                    "cannot catch their food"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "否定・譲歩",
                 "practicePassage": {
-                    "en": "No matter how busy students are, reading for at least twenty minutes a day can improve their vocabulary. However, many students refuse to make time for it, saying they have too much homework. Although some teachers deny that reading alone can raise test scores, studies show otherwise. Regardless of the subject, students who read regularly tend to perform better in exams.",
-                    "ja": "どんなに忙しくても、1日最低20分の読書で語彙力が向上する。しかし、多くの生徒は宿題が多すぎると言って時間を作ることを拒否する。読書だけでテストの点が上がることを否定する教師もいるが、研究は逆の結果を示している。科目に関係なく、定期的に読書する生徒は試験で良い成績を収める傾向がある。"
+                    "en": "[出典: Polar Bears]\nGlobal warming has been having an effect on polar bears' shelter and food supply. They usually live on the ice, and their food source is often other animals they catch on the ice. Ice is important for them. However, when there is less ice due to global warming, many polar bears spend more time on land. Since they cannot catch their food in the water, they find other sources like berries. This causes them to lose weight rapidly, which puts their lives in danger later.",
+                    "ja": "地球温暖化はホッキョクグマの住処と食料供給に影響を与えている。通常氷の上で生活し、氷上で他の動物を捕まえて食べる。しかし温暖化で氷が減ると陸で過ごす時間が増える。水中では食料を得られないため、ベリー類などを食べるが、急速に体重が減り命の危険に晒される。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1713,35 +1709,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'nearly three times as high as' は何倍を意味するか？",
-                        "a": "ほぼ3倍。nearly = ほぼ。"
+                        "q": "'the straw can remove nearly 100 percent of them' の 'nearly 100 percent' はどの程度を表していますか？",
+                        "a": "「ほぼ100%」。nearly は「ほとんど」を意味し、100%に極めて近い高い除去率を示す。"
                     },
                     {
-                        "q": "'equally popular in cities and rural areas' はどういう意味か？",
-                        "a": "都市部と地方で同じくらい人気がある。equallyは「等しく」の意。"
+                        "q": "'clean enough for people to drink' の 'enough for ... to ~' の構造を説明してください。",
+                        "a": "「〜が…するのに十分な」という程度表現。形容詞 + enough + for + 人 + to + 動詞 の構文。"
                     },
                     {
-                        "q": "'far greater than' の 'far' はどんな役割？",
-                        "a": "比較級を強調する副詞。much / a lot と同じ強調語。far greater = はるかに大きい。"
+                        "q": "'several kinds of bacteria' の 'several' はどのような量・程度を表しますか？",
+                        "a": "「いくつかの・複数の」を表す。some より多く many より少ない中間的な量を示す。"
                     },
                     {
-                        "q": "'higher and higher' はどういうパターン？",
-                        "a": "比較級 + and + 比較級 = 「ますます～」。変化の継続を示す。"
+                        "q": "この段落でストローの浄水の仕組みを日本語で簡潔に説明してください。",
+                        "a": "水をストローで吸うと、内部の素材が有害な細菌を捕らえ、ほぼ100%除去されたきれいな水が出てくる仕組み。"
                     }
                 ],
                 "highlightPatterns": [
-                    "more than twice as high as",
-                    "equally important",
-                    "higher and higher",
                     "nearly 100 percent",
-                    "the biggest purchase",
-                    "an average of one kilogram"
+                    "clean enough for people to drink",
+                    "several kinds of"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "比較・程度",
                 "practicePassage": {
-                    "en": "Japan has the most vending machines per person in the world. The number is nearly three times as high as that of the United States. Vending machines in Japan are equally popular in cities and rural areas. The variety of products is far greater than in other countries. Prices are becoming higher and higher due to rising costs, but the convenience makes them an important part of daily life.",
-                    "ja": "日本は一人当たりの自動販売機数が世界最多だ。その数はアメリカのほぼ3倍だ。日本の自販機は都市部でも地方でも同じくらい人気がある。製品の種類は他の国よりはるかに多い。コスト上昇で価格はますます高くなっているが、便利さから日常生活の重要な一部となっている。"
+                    "en": "[出典: A Straw for Clean Water]\nTo drink clean water, one side of the straw is put into the water, and people simply drink the water from the other side. The water goes through a special fiber in a plastic tube. The fiber blocks even very small materials to prevent them from entering the mouth. In this way, the water that comes out is clean enough for people to drink. The materials contain several kinds of bacteria, and the straw can remove nearly 100 percent of them.",
+                    "ja": "清潔な水を飲むには、ストローの一端を水に入れ、もう一端から飲むだけだ。水はプラスチック管の中の特殊な繊維を通過する。繊維はとても小さな物質も塞ぎ、口に入るのを防ぐ。こうして出てくる水は人が飲めるほどきれいになる。細菌のほぼ100%を除去できる。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1770,36 +1764,34 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'could decrease' と 'may become' の違いは？",
-                        "a": "couldは可能性・能力。mayは許可・推量。ここではどちらも「～かもしれない」でほぼ同義。"
+                        "q": "'if greenhouse gases are not reduced' はどのタイプの条件文ですか？",
+                        "a": "第一条件文（現実的条件）。温室効果ガスが削減されなければ→ほとんどのホッキョクグマが生存困難、という現実的な予測。"
                     },
                     {
-                        "q": "'if charging stations are not built' は何条件文か？",
-                        "a": "第一条件文（if + 現在形, would + 動詞原形）。現実的な未来の条件。"
+                        "q": "'may not survive until 2030' と 'could survive longer' の助動詞の違いを説明してください。",
+                        "a": "'may not' は否定的推量（2030年まで持たないかもしれない）、'could' は条件付き可能性（ガスを減らせば長く生きられる可能性がある）。"
                     },
                     {
-                        "q": "'depends on whether' の whether の役割は？",
-                        "a": "「～かどうか」を表す名詞節を作る接続詞。depend on の目的語になっている。"
+                        "q": "'This, in turn, suggests that...' の 'in turn' はどのような論理展開を示しますか？",
+                        "a": "連鎖的因果。「2040年に氷がなくなる」→「それが今度は」→「ガス削減で延命可能と示唆」という段階的推論。"
                     },
                     {
-                        "q": "このパッセージの条件文を3つ挙げると？",
-                        "a": "①If more people switch... ②If governments offer... ③if charging stations are not built..."
+                        "q": "この段落の最後の文 'This means the lives of these animals depend on human behavior' は何を結論づけていますか？",
+                        "a": "全ての条件文の結論として、ホッキョクグマの命は人間の行動次第であるという最終メッセージ。"
                     }
                 ],
                 "highlightPatterns": [
                     "if greenhouse gases are not reduced",
-                    "If people still want to buy",
-                    "if he isn't careful",
-                    "may allow more people",
-                    "could survive longer",
                     "may not survive until 2030",
-                    "would mean less production"
+                    "could survive longer",
+                    "if people succeed"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "条件・仮定",
                 "practicePassage": {
-                    "en": "If more people switch to electric cars, air pollution in cities could decrease significantly. If governments offer financial support, the price of electric cars may become more affordable. However, if charging stations are not built in enough places, people would find it difficult to use them daily. The future of clean transportation depends on whether countries invest in the right technology.",
-                    "ja": "もしもっと多くの人が電気自動車に切り替えたら、都市の大気汚染は大幅に減少するかもしれない。政府が財政支援を提供すれば、電気自動車の価格はより手頃になるかもしれない。しかし、十分な場所に充電ステーションが設置されなければ、毎日使うのは難しいだろう。クリーンな交通の未来は、各国が適切な技術に投資するかどうかにかかっている。"
+                    "en": "[出典: Polar Bears]\nSadly, studies have shown that it will be tough for most polar bears to exist until 2100 if greenhouse gases are not reduced. In some areas, there is concern that they may not survive until 2030. Other studies also show that there will be no ice in the Arctic in summer by 2040. This, in turn, suggests that polar bears could survive longer if people succeed in reducing the amount of gases produced. This means the lives of these animals depend on human behavior.",
+                    "ja": "温室効果ガスが削減されなければ、2100年までにほとんどのホッキョクグマが生存できないだろう。一部の地域では2030年まで持たない可能性もある。2040年までに北極の夏の氷は消滅するという研究もある。人間の行動にこれらの動物の命がかかっている。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1828,46 +1820,35 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'get enough nutrition' を言い換えると？",
-                        "a": "eat well / have a balanced diet / receive proper nourishment"
+                        "q": "'caught our attention' を別の表現で言い換えるとどうなりますか？",
+                        "a": "'impressed us' や 'drew our interest' と言い換えられる。catch one's attention = attract one's interest。"
                     },
                     {
-                        "q": "'cannot afford to buy' を言い換えると？",
-                        "a": "do not have enough money to purchase / lack the financial means to buy"
+                        "q": "'have a positive impact on' を 'impact' を使わずに言い換えてください。",
+                        "a": "'positively influence' や 'be a good influence on' と言い換え可能。impact = influence / effect。"
                     },
                     {
-                        "q": "'low-income households' を言い換えると？",
-                        "a": "families with limited financial resources / economically disadvantaged families"
+                        "q": "'not only students but also adults' を別の表現で書き換えてください。",
+                        "a": "'both students and adults' や 'students as well as adults' と言い換え可能。not only A but also B = A as well as B。"
                     },
                     {
-                        "q": "'academic performance improves' を言い換えると？",
-                        "a": "students do better in their studies / school results get better / grades go up"
+                        "q": "'The way the story was told' の 'the way' はどのような意味で使われていますか？",
+                        "a": "「〜の方法・やり方」を表す。the way + S + V で「SがVする方法」。ここでは「物語の語り方」。"
                     }
                 ],
                 "highlightPatterns": [
-                    "refused",
-                    "continued",
-                    "medicine",
-                    "denied",
-                    "include",
-                    "tiny",
-                    "equally",
-                    "victim",
-                    "profit",
-                    "purchase",
-                    "as usual",
-                    "give away",
-                    "in my opinion",
-                    "shook hands",
-                    "putting on",
-                    "in any case",
-                    "no matter"
+                    "caught our attention",
+                    "have a positive impact",
+                    "learn something from it",
+                    "The way the story was told",
+                    "the choice of words"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Many schools have started offering free lunch programs. The aim is to make sure that all students get enough nutrition. Some families cannot afford to buy healthy food. These programs help children who come from low-income households. As a result, students can focus better in class and their academic performance improves.",
-                    "ja": "多くの学校が無料の昼食プログラムを始めている。目的は全ての生徒が十分な栄養を摂れるようにすることだ。健康的な食品を買う余裕がない家庭もある。これらのプログラムは低所得世帯の子どもたちを支援する。その結果、生徒は授業により集中でき、学業成績が向上する。"
+                    "en": "[出典: Writing Contest]\nOne reason your essay was chosen is your writing skills. The way the story was told and the choice of words were both excellent. The way you expressed your feelings was also great. We could tell how serious you were thinking about your future through your writing. We thought that your view of life would have a positive impact on other high school students. We believe that not only students but also adults can learn something from it.",
+                    "ja": "あなたのエッセイが選ばれた理由の一つは文章力です。物語の語り方と言葉の選び方が素晴らしかった。感情の表現も見事でした。あなたの人生観は他の高校生にポジティブな影響を与えるでしょう。学生だけでなく大人も学べるものがあると信じています。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

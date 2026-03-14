@@ -1587,6 +1587,319 @@ body.projector-mode .exam-question.proj-hidden {
     white-space: pre-wrap;
 }
 
+/* Practice audio button */
+.fp-audio-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, rgba(52, 211, 153, 0.15), rgba(79, 140, 255, 0.15));
+    border: 1px solid rgba(52, 211, 153, 0.3);
+    border-radius: 24px;
+    color: var(--success);
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fp-audio-btn:hover {
+    background: linear-gradient(135deg, rgba(52, 211, 153, 0.25), rgba(79, 140, 255, 0.25));
+    border-color: var(--success);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(52, 211, 153, 0.2);
+}
+
+.fp-audio-btn .material-symbols-rounded {
+    color: var(--success);
+}
+
+.fp-audio-label {
+    font-size: 0.8rem;
+}
+
+/* Pronunciation tips */
+.fp-pronunciation-tips {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.fp-pron-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .fp-pron-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.fp-pron-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 12px 14px;
+}
+
+.fp-pron-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-secondary);
+    margin-bottom: 4px;
+}
+
+.fp-pron-desc {
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+.fp-pron-examples {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fp-pron-ex {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    padding: 3px 8px;
+    border-radius: var(--radius-sm);
+    background: rgba(108, 99, 255, 0.06);
+}
+
+.fp-pron-orig {
+    color: var(--text-secondary);
+}
+
+.fp-pron-sound {
+    color: var(--accent-secondary);
+    font-family: 'Noto Sans', monospace;
+}
+
+.fp-pron-sound b {
+    color: var(--success);
+    font-weight: 700;
+}
+
+.fp-pron-tip {
+    font-size: 0.78rem;
+    color: var(--warning);
+    padding: 8px 12px;
+    background: rgba(251, 191, 36, 0.08);
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--warning);
+    line-height: 1.5;
+}
+
+/* Passage button row */
+.fp-passage-btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+/* Pronunciation highlight toggle button */
+/* Passage translation toggle button */
+.fp-trans-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, rgba(79, 140, 255, 0.15), rgba(167, 139, 250, 0.15));
+    border: 1px solid rgba(79, 140, 255, 0.3);
+    border-radius: 24px;
+    color: #4f8cff;
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fp-trans-btn:hover {
+    background: linear-gradient(135deg, rgba(79, 140, 255, 0.25), rgba(167, 139, 250, 0.25));
+    border-color: #4f8cff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(79, 140, 255, 0.2);
+}
+
+.fp-trans-btn.active {
+    background: linear-gradient(135deg, rgba(79, 140, 255, 0.25), rgba(167, 139, 250, 0.25));
+    border-color: #4f8cff;
+    box-shadow: 0 0 12px rgba(79, 140, 255, 0.3);
+}
+
+.fp-trans-btn .material-symbols-rounded {
+    color: #4f8cff;
+}
+
+.fp-pattern-hl-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.12), rgba(244, 63, 94, 0.12));
+    border: 1px solid rgba(236, 72, 153, 0.3);
+    border-radius: 24px;
+    color: #f43f5e;
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fp-pattern-hl-btn:hover {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(244, 63, 94, 0.2));
+    border-color: #f43f5e;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(236, 72, 153, 0.2);
+}
+
+.fp-pattern-hl-btn.active {
+    background: linear-gradient(135deg, rgba(236, 72, 153, 0.25), rgba(244, 63, 94, 0.25));
+    border-color: #f43f5e;
+    box-shadow: 0 0 12px rgba(236, 72, 153, 0.3);
+}
+
+.fp-pattern-hl-btn .material-symbols-rounded {
+    color: #f43f5e;
+}
+
+.fp-hl-mark {
+    background-color: rgba(236, 72, 153, 0.25);
+    color: inherit;
+    border-bottom: 2px solid #f43f5e;
+    padding: 0 2px;
+    margin: 0 1px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.fp-pron-hl-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    margin: 10px 0;
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.12), rgba(251, 191, 36, 0.12));
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    border-radius: 24px;
+    color: var(--accent-secondary);
+    font-size: 0.82rem;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.fp-pron-hl-btn:hover {
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.2), rgba(251, 191, 36, 0.2));
+    border-color: var(--accent-secondary);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(167, 139, 250, 0.2);
+}
+
+.fp-pron-hl-btn.active {
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.25), rgba(251, 191, 36, 0.25));
+    border-color: var(--accent-secondary);
+    box-shadow: 0 0 12px rgba(167, 139, 250, 0.3);
+}
+
+/* Liaison highlight — arc connector between word pair */
+.pron-link-pair {
+    display: inline;
+    position: relative;
+}
+
+.pron-link-w1,
+.pron-link-w2 {
+    border-bottom: 2px solid rgba(251, 191, 36, 0.6);
+    padding-bottom: 2px;
+}
+
+.pron-link-arc {
+    display: inline-block;
+    font-size: 0.6em;
+    color: #fbbf24;
+    vertical-align: sub;
+    margin: 0 -1px;
+    line-height: 1;
+    transform: translateY(2px);
+}
+
+/* Reduction highlight — subtle opacity + tiny dot */
+.pron-weak {
+    position: relative;
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.pron-weak::before {
+    content: '·';
+    position: absolute;
+    top: -0.6em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.9em;
+    color: rgba(167, 139, 250, 0.7);
+    font-style: normal;
+    line-height: 1;
+}
+
+/* Highlight legend */
+.fp-hl-legend {
+    display: flex;
+    gap: 16px;
+    padding: 8px 12px;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    margin-bottom: 8px;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    align-items: center;
+}
+
+.fp-hl-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.fp-hl-swatch {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.fp-hl-swatch.liaison {
+    background: transparent;
+    border-bottom: 3px solid #fbbf24;
+}
+
+.fp-hl-swatch.reduction {
+    background: transparent;
+    opacity: 0.5;
+    font-style: italic;
+    border: 1px dashed rgba(167, 139, 250, 0.6);
+}
+
 .fp-qa {
     margin-bottom: 8px;
 }

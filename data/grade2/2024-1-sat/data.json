@@ -814,13 +814,14 @@
                         "by",
                         "of"
                     ],
-                    "answer": 1,
+                    "answer": 4,
                     "choiceAnalysis": [
-                        "onto=～の上に→不適切",
-                        "as=～として→不適切",
-                        "by=～によって→不適切",
-                        "of=～の→正解。💡 a story of hope=希望の物語"
-                    ]
+                        "❌ onto＝～の上に。a story onto hopeは文法的に不適切",
+                        "❌ as＝～として。a story as hopeは意味が通らない",
+                        "❌ by＝～によって。a story by hopeは不適切",
+                        "✅ of＝～の。💡 a story of hope＝希望の物語。「of＋名詞」で内容や性質を表す"
+                    ],
+                    "grammar": "💡 a story of hope＝希望の物語。前置詞ofは「～について」「～の」の意味で内容を表す。"
                 },
                 {
                     "number": 12,
@@ -1382,30 +1383,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'is similar to' を別の比較表現で言い換えると？",
-                        "a": "is like / resembles / is comparable to / has something in common with"
+                        "q": "'similar to kangaroos but smaller' の比較表現を説明してください。",
+                        "a": "「カンガルーに似ているが小さい」。similar to で類似を示し、but で相違点を対比。"
                     },
                     {
-                        "q": "'just as challenging as' はどういう構造か？",
-                        "a": "as + 形容詞 + as = 同等比較。just は強調（「まさに同じくらい」）。"
+                        "q": "'just like dogs and cats' の類似表現はどのような比較ですか？",
+                        "a": "「犬や猫と同じように」。just like = exactly the same as。身近な動物との比較で理解しやすくする。"
                     },
                     {
-                        "q": "'The more frequently ... the more progress' はどんな構文？",
-                        "a": "the + 比較級, the + 比較級 = 「～すればするほど…」。"
+                        "q": "'Another unusual pet' の 'Another' はどのような文章展開ですか？",
+                        "a": "「もう一つの珍しいペット」。前段落の別の珍しいペットに続く追加例。列挙の接続表現。"
+                    },
+                    {
+                        "q": "ワラビーをペットとして飼う際の注意点は何ですか？",
+                        "a": "広い庭とフェンス付きの安全な場所が必要。多くの地域で特別許可が必要。"
                     }
                 ],
                 "highlightPatterns": [
                     "similar to",
-                    "just like",
-                    "look similar to",
                     "but smaller",
-                    "but also"
+                    "just like"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "比較・類似",
                 "practicePassage": {
-                    "en": "Learning a musical instrument is similar to learning a new language. Both activities require constant practice and patience. Playing the piano is just as challenging as playing the violin, though in different ways. The more frequently you practice, the more progress you will make. Interestingly, people who play music tend to perform better academically than those who do not.",
-                    "ja": "楽器を学ぶことは新しい言語を学ぶのに似ている。どちらの活動も絶え間ない練習と忍耐を必要とする。ピアノを弾くことはバイオリンを弾くのと同じくらい難しいが、異なる方法で。練習の頻度が高いほど、より多くの進歩をする。興味深いことに、音楽を演奏する人はそうでない人よりも学業成績が良い傾向がある。"
+                    "en": "[出典: Unusual Pets]\nAnother unusual pet is a wallaby. Wallabies come from Australia. They are similar to kangaroos but smaller. Just like kangaroos, wallabies stand on their back legs and use their front legs to fight like a boxer. While they are young, they do this for fun, and this behavior can seem cute. However, if pet wallabies are not trained to stop doing this at an early age, they can end up hurting their owners.",
+                    "ja": "もう一つの珍しいペットはワラビーである。ワラビーはオーストラリア出身で、カンガルーに似ているが体がより小さい。犬や猫と同様に、ワラビーも飼い主に懐くことがあり、家の中で自由に歩き回ることもできる。しかし、ワラビーは広い庭が必要で、フェンスで囲まれた安全な場所がなければならない。ワラビーを飼うには特別な許可が必要な地域も多い。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1434,29 +1438,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'suggested that all students wear' のwearはなぜ原形？",
-                        "a": "提案・要求のthat節では仮定法現在（動詞の原形）を使う。suggest/recommend/request that S (should) V。"
+                        "q": "'I suggest that you divide your students' の提案表現を説明してください。",
+                        "a": "suggest that + 主語 + 動詞の原形。仮定法現在。「学生を分けることを提案する」。丁寧な提案。"
                     },
                     {
-                        "q": "'It is essential that every member be given' のbe はなぜ？",
-                        "a": "It is essential/important/necessary that S + 動詞原形。形式主語構文でも仮定法現在を使う。"
+                        "q": "'Before your students can give tours' の時間関係を説明してください。",
+                        "a": "「学生がツアーを行う前に」。Before + can = 先行条件。研修が前提条件であることを示す。"
                     },
                     {
-                        "q": "recommend that S (should) V を使って文を作ると？",
-                        "a": "The doctor recommended that she take the medicine three times a day."
+                        "q": "'trained by our tour guides' の受動態はどのような関係を示しますか？",
+                        "a": "「ツアーガイドによって研修を受ける」。学生が指導を受ける側。by で指導者を明示。"
+                    },
+                    {
+                        "q": "博物館でのボランティア研修の流れを要約してください。",
+                        "a": "まず博物館のガイドから研修→歴史と展示品を学ぶ→小グループに分けて担当→2-3週間で準備完了。"
                     }
                 ],
                 "highlightPatterns": [
                     "suggest that",
                     "divide your students",
-                    "I would like to have a meeting",
-                    "in order to set up"
+                    "trained by"
                 ],
                 "highlightColor": "#a78bfa",
                 "highlightLabel": "提案・仮定法現在",
                 "practicePassage": {
-                    "en": "The school committee suggested that all students wear uniforms starting next semester. Parents recommended that the school provide financial support for families who cannot afford the new uniforms. The principal requested that each teacher submit their opinion on the proposal by Friday. It is essential that every member of the school community be given a chance to voice their concerns.",
-                    "ja": "学校委員会は来学期から全生徒が制服を着用するよう提案した。保護者は、新しい制服を買う余裕がない家庭に学校が財政支援を提供するよう勧めた。校長は各教師に金曜日までに提案についての意見を提出するよう求めた。学校コミュニティの全員が懸念を表明する機会を与えられることが不可欠だ。"
+                    "en": "[出典: Museum Tours]\nBefore your students can give tours, they will need to be trained by our tour guides. The museum has five rooms, and each room covers a different period of history and contains about fifty items. It might be difficult for your students to learn about all the items in all the rooms, so I suggest that you divide your students into five groups, and the members of each group can learn about the items in one of the rooms.",
+                    "ja": "学生がツアーガイドを務める前に、博物館のツアーガイドの指導を受ける必要がある。研修では博物館の歴史や展示品について学ぶことができる。学生を小グループに分けることを提案する。そうすれば各グループが異なる展示セクションを担当でき、より効率的に学ぶことができる。研修期間は通常2〜3週間で、学生は実際のツアーを観察する機会もある。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1485,36 +1493,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'It is believed that' を主語を変えて書き換えると？",
-                        "a": "Ancient Egyptians are believed to have been the first to build pyramids."
+                        "q": "'It is believed that the temple was designed...' の非人称受動態を説明してください。",
+                        "a": "「神殿は〜に基づいて設計されたと信じられている」。It is believed = 一般的にそう考えられている。主語を特定しない。"
                     },
                     {
-                        "q": "'is thought to have been constructed' はどんな構造？",
-                        "a": "S + is thought to + have + 過去分詞。主文の時制より前の出来事を示す完了不定詞。"
+                        "q": "'had observed the movements of the stars' の大過去はなぜ使われていますか？",
+                        "a": "「星の動きを観察していた」。神殿を設計した時点よりもさらに前からの継続的観察。大過去で時系列を明確に。"
                     },
                     {
-                        "q": "このパッセージの非人称受動態を全て挙げると？",
-                        "a": "It is believed, is thought to, It is estimated, are considered to, It is hoped"
+                        "q": "'was made so that shadows would create a serpent-like shape' を説明してください。",
+                        "a": "「影が蛇のような形を作るように設計された」。目的のso that。意図的な天文学的設計。"
+                    },
+                    {
+                        "q": "マヤの天文学的知識について要約してください。",
+                        "a": "長年の星の観察に基づいた神殿設計。春分・秋分に蛇の影が出現。高度な科学的知識の証拠。"
                     }
                 ],
                 "highlightPatterns": [
                     "It is believed that",
-                    "It is hoped that",
-                    "Nobody is sure",
-                    "was made so that",
-                    "was carried out",
-                    "has been",
-                    "have been",
-                    "was probably",
-                    "had become",
                     "had observed",
-                    "were made"
+                    "was made so that"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "非人称受動態",
                 "practicePassage": {
-                    "en": "It is believed that ancient Egyptians were the first to build pyramids. The Great Pyramid of Giza is thought to have been constructed around 2560 BC. It is estimated that over two million stone blocks were used in its construction. The pyramids are considered to be among the greatest achievements of human engineering. It is hoped that modern technology will help researchers uncover more secrets about how they were built.",
-                    "ja": "古代エジプト人が最初にピラミッドを建設したと信じられている。ギザの大ピラミッドは紀元前2560年頃に建設されたと考えられている。200万個以上の石のブロックが建設に使用されたと推定されている。ピラミッドは人類工学の最大の成果の一つと見なされている。現代の技術が、建設方法についてより多くの秘密を明らかにするのに役立つことが期待されている。"
+                    "en": "[出典: Chichén Itzá]\nAmong the people of the Maya civilization, there were great architects, artists, and scientists. They had observed that one year lasted 365 days, and they designed a building called the Temple of Kukulcán in Chichén Itzá to work as a calendar. It is believed that this temple was made so that a shadow on the temple in the shape of a snake's body joined up with statues of a snake's head on certain special days. Knowing such dates would help local farmers to know when to plant their crops.",
+                    "ja": "マヤ文明の人々の中には、優れた建築家、芸術家、そして天文学者がいた。彼らは星の動きを長年にわたって観察しており、クククルカンの神殿は天文学的な知識に基づいて設計されたと信じられている。春分と秋分の日に、影が蛇のような形を作り出すように神殿が配置されていた。この精巧な設計は、マヤの人々の高度な科学的知識を示している。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1543,39 +1548,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "このパッセージの論理構造を図式化すると？",
-                        "a": "主張 → 根拠①(First of all) → 根拠②(Moreover) → 反論(However) → 具体例(For instance) → 再反論(Nevertheless) → 結論(In conclusion)"
+                        "q": "'Nowadays' はどのようなディスコースマーカーですか？",
+                        "a": "「現在では」。過去との対比を示す時間表現。以前はプロ用→現在は一般向けという変化を導入。"
                     },
                     {
-                        "q": "'far outweigh' はどういう意味？",
-                        "a": "はるかに上回る。far は比較を強調する副詞。outweigh = ～より重い/重要である。"
+                        "q": "'has been available for over fifty years' の現在完了はどのような期間を示しますか？",
+                        "a": "「50年以上前から販売されている」。過去から現在まで継続している状態。for + 期間で長さを強調。"
                     },
                     {
-                        "q": "'However' と 'Nevertheless' の違いは？",
-                        "a": "However = 一般的な逆接。Nevertheless = より強い逆接（前述の内容を認めた上で）。"
+                        "q": "'At that time' と 'Nowadays' の対比は何を示しますか？",
+                        "a": "時間の対比。過去（プロ用途のみ）→現在（一般家庭にも普及）。製品の用途拡大を示す。"
+                    },
+                    {
+                        "q": "芝生用ペイントの歴史と現在の使われ方を要約してください。",
+                        "a": "50年以上前からプロ用途で存在。現在は品質向上・環境配慮型が普及し一般家庭でも使用。"
                     }
                 ],
                 "highlightPatterns": [
-                    "However",
-                    "Furthermore",
-                    "Still",
-                    "Instead of",
-                    "Lately",
                     "Nowadays",
-                    "In the past",
-                    "For these reasons",
-                    "These days",
-                    "In the wild",
-                    "Inside a house",
-                    "Another",
-                    "While",
-                    "Sometime before"
+                    "available for over",
+                    "fifty years"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "ディスコースマーカー",
                 "practicePassage": {
-                    "en": "Renewable energy is becoming increasingly important worldwide. First of all, solar and wind power produce no harmful emissions. Moreover, the cost of installing solar panels has dropped significantly in recent years. However, renewable energy is not without its challenges. For instance, solar panels cannot generate electricity at night. Nevertheless, experts agree that the benefits of clean energy far outweigh the drawbacks. In conclusion, investing in renewable energy is essential for a sustainable future.",
-                    "ja": "再生可能エネルギーは世界中でますます重要になっている。まず第一に、太陽光と風力は有害な排出物を出さない。さらに、ソーラーパネルの設置コストは近年大幅に下がっている。しかし、再生可能エネルギーには課題もある。例えば、ソーラーパネルは夜間に電気を生成できない。それにもかかわらず、クリーンエネルギーの利点は欠点をはるかに上回ると専門家は同意している。結論として、再生可能エネルギーへの投資は持続可能な未来に不可欠だ。"
+                    "en": "[出典: Greener Grass?]\nGrass paint has actually been available for over fifty years. At that time, it was mostly used to maintain sports fields and golf courses. Nowadays, more buying options and environmental concerns about using chemicals have made it a popular choice for people. This is especially true in areas where the climate is becoming drier. In these areas, cities sometimes limit water usage when water supplies are low. This lack of water can turn yards brown, but grass paint can help hide this.",
+                    "ja": "芝生用ペイントは実は50年以上前から販売されていた。当時はゴルフコースやスポーツ場で主に使用されていた。しかし最近では、一般の住宅所有者にも人気が出てきている。現在のペイントは以前のものよりはるかに品質が向上しており、環境にやさしい成分で作られているものも多い。乾燥した季節でも美しい緑の芝生を維持したい人々にとって、手軽な解決策となっている。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1604,40 +1603,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'shut down' を言い換えると？",
-                        "a": "close / cease operations / discontinue / stop running"
+                        "q": "'messengers of the gods' を言い換えてください。",
+                        "a": "'divine representatives' や 'supernatural agents sent by deities'。messengers = representatives / agents。"
                     },
                     {
-                        "q": "'financial compensation' を言い換えると？",
-                        "a": "monetary payment / economic support / severance pay"
+                        "q": "'stands in front of the temple and claps their hands' を言い換えてください。",
+                        "a": "'positions themselves before the structure and strikes their palms together'。stands in front of = positions before。"
                     },
                     {
-                        "q": "'affected employees' を言い換えると？",
-                        "a": "workers who were impacted / staff members who lost their jobs"
+                        "q": "'special for another reason' を別の表現で言い換えると？",
+                        "a": "'remarkable in an additional way' や 'notable for a further aspect'。special = remarkable / notable。"
                     },
                     {
-                        "q": "'negative impact on the community's economy' を言い換えると？",
-                        "a": "harmful effect on the local financial situation / damaging consequences for the area's businesses"
+                        "q": "クククルカンの神殿の音響効果を説明してください。",
+                        "a": "手を叩くと階段に反射して鳥の鳴き声のようなエコーが生じる。マヤの人々は神の使者と解釈した可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "take care of",
-                    "look after",
-                    "divide",
-                    "separate",
-                    "growing crops",
-                    "farming",
                     "messengers",
-                    "deliver messages",
-                    "believed",
-                    "thought",
-                    "resources"
+                    "stands in front",
+                    "special for another"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The company decided to shut down its oldest factory. The facility had been operating for over fifty years. Workers were told that they would receive financial compensation. The company also promised to help affected employees find new positions. Local residents expressed concern that the closure would have a negative impact on the community's economy.",
-                    "ja": "会社は最も古い工場を閉鎖する決定を下した。その施設は50年以上稼働していた。労働者には金銭的な補償が与えられると伝えられた。会社はまた、影響を受けた従業員が新しいポジションを見つけるのを支援すると約束した。地元住民は閉鎖が地域経済に悪影響を及ぼすことへの懸念を表明した。"
+                    "en": "[出典: Chichén Itzá]\nThe Temple of Kukulcán is also special for another reason. If a person stands in front of one of the temple's stairs and claps their hands, the echo sounds like the call of a bird called a quetzal. Quetzals are beautiful birds with bright green, red, and white feathers. The Maya people believed that these birds were the messengers of the gods. Clapping in front of the Temple of Kukulcán sounds as if the gods were talking to the Maya people through their messengers.",
+                    "ja": "クククルカンの神殿には別の特別な理由もある。神殿の前に立って手を叩くと、その音は階段に反射して鳥の鳴き声のようなエコーを作り出す。研究者たちは、この音響効果は意図的に設計されたものだと考えている。マヤの人々はこの音を神の使者からのメッセージと解釈していた可能性がある。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

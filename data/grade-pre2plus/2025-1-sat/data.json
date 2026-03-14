@@ -840,33 +840,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'However' と 'Nevertheless' の違いは？",
-                        "a": "ほぼ同義だが、Neverthelessはより強い逆接。「それにもかかわらず」のニュアンス。"
+                        "q": "'Although forest schools have become popular in other countries, the first one was started in Denmark' の 'Although' はどのような論理関係を示していますか？",
+                        "a": "譲歩を表す。「他の国で人気になっているが」→「最初はデンマークで始まった」という意外性を示す。"
                     },
                     {
-                        "q": "'Although' と 'On the other hand' の違いは？",
-                        "a": "Althoughは譲歩（～だけれども）。On the other handは対比（一方で）。"
+                        "q": "この段落で 'What if students could have classes in a forest or at a beach instead?' はどのような修辞的役割を果たしていますか？",
+                        "a": "仮定の疑問文で読者の興味を引く修辞疑問。森の学校のコンセプトを導入するための効果的な問いかけ。"
                     },
                     {
-                        "q": "このパッセージの結論は何？",
-                        "a": "逆接の表現が多いが、最終文で「オンラインショッパーは増え続けている」と結論づけている。"
+                        "q": "'friluftsliv' とはどのような概念ですか？",
+                        "a": "デンマーク語で「自由な空気の生活」を意味し、自然の中で多くの時間を過ごそうとする生き方。森の学校の思想的基盤。"
                     },
                     {
-                        "q": "'On the other hand' を使って自分の文を作ると？",
-                        "a": "（例）Studying abroad is expensive. On the other hand, it gives you valuable experiences."
+                        "q": "この段落の論理構成を説明してください。",
+                        "a": "問題提起（学校で自然に触れる時間がない）→ 解決策の提案（森の学校）→ 起源（デンマーク）→ 背景思想（friluftsliv）の流れ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "However,",
-                    "On the other hand,",
-                    "Although",
-                    "Though"
+                    "Although forest schools have become popular",
+                    "Although forest schools look different"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "逆接・対比",
                 "practicePassage": {
-                    "en": "Online shopping is convenient and saves time. However, many people still prefer going to physical stores. Although prices may be lower online, customers cannot try products before buying them. On the other hand, some shoppers enjoy the experience of walking around a mall. Nevertheless, the number of online shoppers continues to grow every year.",
-                    "ja": "ネットショッピングは便利で時間を節約できる。しかし、多くの人はまだ実店舗に行くことを好む。オンラインの方が価格が安いかもしれないが、購入前に商品を試すことができない。一方で、モールを歩き回る体験を楽しむ買い物客もいる。それにもかかわらず、オンラインショッピングの利用者は毎年増え続けている。"
+                    "en": "[出典: Forest Schools]\nIn today's schools, students are not given much time to spend in nature and often feel separate from it. What if students could have classes in a forest or at a beach instead? This is the idea behind forest schools. Although forest schools have become popular in other countries, the first one was started in Denmark. People there believe in friluftsliv, which means \"free air life.\" This is a way of life to try to spend a lot of time outside in nature. Forest schools use this idea to help children learn.",
+                    "ja": "今日の学校では、生徒たちは（21自然の中で過ごす）時間をあまり与えられず、自然から切り離されていると感じることが多い。もし生徒たちが森やビーチで授業を受けることができたらどうだろう？これが森の学校の背景にある考えだ。森の学校は他の国々で人気になっているが、最初のものはデンマークで始まった。デンマークの人々はフリルフスリフ、つまり「自由な空気の生活」を信じている。これは自然の中で多くの時間を過ごそうとする生き方だ。森の学校はこの考えを使って子どもたちの学びを助けている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -895,30 +894,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Since' を 'Because' に置き換えられるか？",
-                        "a": "はい。どちらも理由を示す接続詞。Since forests absorb... = Because forests absorb..."
+                        "q": "'the decrease in the number of these birds has caused serious damage to human health' はどのような因果関係を示していますか？",
+                        "a": "ハゲワシの減少（原因）→ 人間の健康への深刻な被害（結果）。鳥の個体数変化が人間社会に連鎖的な影響を及ぼす因果。"
                     },
                     {
-                        "q": "'Consequently' と 'For this reason' はどちらも因果を示すが違いは？",
-                        "a": "Consequences = 結果として（結果に焦点）。For this reason = この理由で（理由に焦点）。"
+                        "q": "'means an increase in the number of dead animals in the environment' の 'means' はどのような論理的機能を持ちますか？",
+                        "a": "「〜を意味する」＝ 因果的帰結を導く。ハゲワシの減少 → 死んだ動物の増加、という必然的な結果を示す。"
                     },
                     {
-                        "q": "因果の連鎖を順番に並べると？",
-                        "a": "森林伐採 → CO2増加 → 気温上昇 → 極端な気象 → 植林プログラムへの投資"
+                        "q": "'This eventually leads to the spreading of diseases' の 'eventually' と 'leads to' が示す因果の特徴は？",
+                        "a": "'eventually' は「最終的に」、'leads to' は「〜につながる」。直接的ではなく段階的・連鎖的な因果関係を示す。"
+                    },
+                    {
+                        "q": "この段落全体の因果の連鎖を日本語で要約してください。",
+                        "a": "ハゲワシ減少 → 死んだ動物の増加 → 病気の蔓延 → 人間の健康被害（報告された有害な結果）。"
                     }
                 ],
                 "highlightPatterns": [
-                    "This is because",
-                    "because they ate",
-                    "In other words",
                     "means an increase",
-                    "leads to the spreading"
+                    "leads to the spreading",
+                    "has caused serious damage"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "因果関係",
                 "practicePassage": {
-                    "en": "Deforestation is causing serious environmental problems. Since forests absorb large amounts of carbon dioxide, cutting them down leads to higher levels of greenhouse gases. Consequently, global temperatures continue to rise. This, in turn, causes more extreme weather events. For this reason, many countries are now investing in reforestation programs to reverse the damage.",
-                    "ja": "森林伐採は深刻な環境問題を引き起こしている。森林は大量の二酸化炭素を吸収するため、伐採すると温室効果ガスが増加する。結果として、地球の気温は上昇し続けている。これが今度は、より極端な気象現象を引き起こす。このため、多くの国が被害を逆転させるために植林プログラムに投資している。"
+                    "en": "[出典: An Important Indian Bird]\nThe decrease in the number of these birds has caused serious damage to human health. Vultures usually help remove dead animals from the environment, such as wild dogs, that contain bacteria and diseases. So, a decrease in the number of Indian vultures means an increase in the number of dead animals in the environment. This finally leads to the spreading of diseases. In fact, studies have shown that in areas where many vultures once lived, the level of danger to human health increased after the decrease in vulture populations.",
+                    "ja": "これらの鳥の数の減少は人間の健康に深刻な被害を引き起こした。ハゲワシは通常、細菌や病気を含む野良犬などの死んだ動物を環境から取り除くのを助ける。そのため、インドハゲワシの数の減少は、環境中の死んだ動物の増加を意味する。これは最終的に病気の蔓延につながる。実際、かつて多くのハゲワシが住んでいた地域では、ハゲワシの個体数の減少後に人間の健康への危険レベルが上昇したことが研究で示されている。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -947,29 +949,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'For example' は何のために使われているか？",
-                        "a": "具体例を挙げるため。「筋肉の強化」と「心臓の改善」が具体例。"
+                        "q": "'There is even research that shows...' の 'even' はどのような補足的ニュアンスを加えていますか？",
+                        "a": "「〜という研究さえある」。前の肯定的情報に加えて、さらに追加の証拠があることを強調する。"
                     },
                     {
-                        "q": "'In addition' 'Furthermore' 'also' の強さの順は？",
-                        "a": "Furthermore > In addition > also の順でフォーマル。全て「さらに」の意。"
+                        "q": "'harmful results have also been reported' の 'also' はどのような役割を果たしていますか？",
+                        "a": "前述のポジティブな効果に加えて、ネガティブな面「も」報告されていることを追加的に示す。"
                     },
                     {
-                        "q": "このパッセージで追加情報を示すマーカーを全て挙げると？",
-                        "a": "For example, In addition, Furthermore, It is also worth noting that"
+                        "q": "この段落はカフェインのポジティブな面とネガティブな面をどのように構成していますか？",
+                        "a": "前半でポジティブ（覚醒効果、パフォーマンス向上）を述べ、後半で 'harmful results have also been reported' と対比的にネガティブな面を追加。"
+                    },
+                    {
+                        "q": "'In fact' はこの文脈でどのような機能を果たしていますか？",
+                        "a": "「実際に」。前述の一般的な内容を、具体的な例や証拠で裏付ける補足的な接続表現。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Furthermore,",
-                    "In fact,",
                     "There is even research",
-                    "harmful results have also been reported"
+                    "harmful results have also been reported",
+                    "In fact"
                 ],
                 "highlightColor": "#10b981",
                 "highlightLabel": "追加・補足",
                 "practicePassage": {
-                    "en": "Regular exercise has many benefits for both the body and mind. For example, it strengthens muscles and improves heart health. In addition, exercise releases chemicals in the brain that reduce stress. Furthermore, people who exercise regularly tend to sleep better at night. It is also worth noting that physical activity can boost concentration, making it easier to study or work effectively.",
-                    "ja": "定期的な運動は体と心の両方に多くの利点がある。例えば、筋肉を強化し心臓の健康を改善する。さらに、運動はストレスを軽減する脳内化学物質を放出する。その上、定期的に運動する人は夜よく眠れる傾向がある。また、身体活動は集中力を高め、効果的に勉強や仕事をしやすくすることも注目に値する。"
+                    "en": "[出典: Caffeine and the Body]\nMany studies have proven the positive sides of caffeine. It can help people feel more awake and have more energy. An experiment with athletes has shown that caffeine improves their physical performance. There is even research suggesting that the chances of developing certain illnesses may decrease. On the other hand, harmful results have also been reported. This comes from having a lot of caffeine. For example, people may get headaches and have trouble relaxing or even sleeping.",
+                    "ja": "多くの研究がカフェインの良い面を証明している。覚醒感を高め、エネルギーを増やすのに役立つ。アスリートを使った実験では、カフェインが身体的パフォーマンスを向上させることが示された。特定の病気にかかる可能性が減少するという研究さえある。（19一方で）、有害な結果も報告されている。これは大量のカフェイン摂取によるものだ。例えば、頭痛が起きたり、リラックスや睡眠に問題が出たりする。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -998,30 +1004,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'was invented by' の受動態を能動態に変換すると？",
-                        "a": "Johannes Gutenberg invented the printing press."
+                        "q": "'the damage was not caused by you but happened during the manufacturing process' の受動態はなぜ使われていますか？",
+                        "a": "行為者（製造工程）より、損傷が「あなたのせいではない」ことを強調するため。受動態で動作主を後ろに回している。"
                     },
                     {
-                        "q": "'is considered' はどんな種類の受動態か？",
-                        "a": "SVOCの受動態。consider A B（AをBと見なす）→ A is considered B。"
+                        "q": "'Once this has been done' の現在完了受動態はどのような意味を持ちますか？",
+                        "a": "「これが完了した後」。受動態+完了で「写真送付という行為が完了した時点」を表す。手順の前後関係を明確にする。"
                     },
                     {
-                        "q": "このパッセージに含まれる受動態表現を全て挙げると？",
-                        "a": "was invented, were written, was developed, could be produced, was spread, were given, is considered"
+                        "q": "この段落で使われている手順を示す表現を挙げてください。",
+                        "a": "'the next thing you need to do is'（次にすべきこと）、'Once this has been done'（これが完了したら）。手順の順序を明確にする表現。"
+                    },
+                    {
+                        "q": "'to make sure the damage was not caused by you' の 'to make sure' はどのような役割ですか？",
+                        "a": "「〜を確認するために」。写真を送る目的を述べる不定詞の副詞的用法。受動態と組み合わせて客観的な確認プロセスを示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "have been reported",
                     "was not caused by",
-                    "had been treated",
-                    "were released",
-                    "has been done"
+                    "has been done",
+                    "you need to do"
                 ],
                 "highlightColor": "#8b5cf6",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The printing press was invented by Johannes Gutenberg in the 15th century. Before that, books were written by hand, which meant they were very expensive. Once the press was developed, books could be produced much more quickly. Knowledge was spread across Europe as more people were given access to written materials. Today, Gutenberg is considered one of the most important inventors in history.",
-                    "ja": "印刷機は15世紀にヨハネス・グーテンベルクによって発明された。それ以前、書籍は手書きで書かれていたため非常に高価だった。印刷機が開発されると、本はより速く生産できるようになった。より多くの人が書物にアクセスできるようになり、知識はヨーロッパ中に広まった。今日、グーテンベルクは歴史上最も重要な発明者の一人と見なされている。"
+                    "en": "[出典: About the Request to Return Your Item]\nThere are several steps to follow to return an item after use. You have already sent us the form online for your return. So, the next thing you need to do is take pictures of the bag and send them to us by e-mail. This is to make sure that the damage was not caused by you and that it occurred during the production process. Once this has been done, please return the bag to us.",
+                    "ja": "使用後に商品を返品するにはいくつかの手順があります。返品のオンラインフォームはすでにお送りいただいています。次にしていただくことは、バッグの写真を撮って私たちにメールで送ることです。これは、損傷があなたによって引き起こされたものではなく、製造過程で発生したものであることを確認するためです。これが完了したら、バッグを私たちに返送してください。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1050,28 +1059,35 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'provides many advantages' を言い換えると？",
-                        "a": "offers numerous benefits / gives a lot of positive outcomes"
+                        "q": "'it is necessary to understand how ... can damage the lives of animals' を 'people need to learn about the harmful effects on wildlife' と言い換えられますか？",
+                        "a": "はい。it is necessary to understand = people need to learn about, damage the lives of animals = harmful effects on wildlife。"
                     },
                     {
-                        "q": "'develop social skills' を言い換えると？",
-                        "a": "improve their ability to interact with others / build interpersonal abilities"
+                        "q": "'various actions are being taken to improve the situation' を別の表現で言い換えてください。",
+                        "a": "'different steps are being made to make things better' や 'multiple measures are being implemented' と言い換え可能。"
                     },
                     {
-                        "q": "'gain practical experience' を言い換えると？",
-                        "a": "acquire hands-on knowledge / get real-world skills"
+                        "q": "'twenty protected Indian vultures were released' の 'released' を別の表現で言い換えるとどうなりますか？",
+                        "a": "'set free' や 'let go into the wild' と言い換え可能。release = set free / return to nature。"
                     },
                     {
-                        "q": "'lasting friendships' を言い換えると？",
-                        "a": "long-term relationships / enduring bonds"
+                        "q": "'the number had risen' は本文のどのような変化を表していますか？言い換え表現も答えてください。",
+                        "a": "ハゲワシの数が増加したこと。'had increased' や 'had grown' と言い換え可能。risen = increased / grown。"
                     }
                 ],
-                "highlightPatterns": [],
+                "highlightPatterns": [
+                    "it is necessary to understand",
+                    "can damage the lives of",
+                    "various actions are being taken",
+                    "were released",
+                    "the number had risen"
+                ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Volunteer work provides many advantages for young people. Helping others allows students to develop social skills. Through community service, they gain practical experience that cannot be learned in a classroom. Moreover, volunteering creates opportunities to meet people from different backgrounds. These connections often lead to lasting friendships and professional networks.",
-                    "ja": "ボランティア活動は若者に多くのメリットを提供する。他人を助けることで、生徒はソーシャルスキルを発達させることができる。地域奉仕活動を通じて、教室では学べない実践的な経験を得る。さらに、ボランティアは異なる背景を持つ人々と出会う機会を作る。これらのつながりは長続きする友情や職業的なネットワークにつながることが多い。"
+                    "en": "[出典: An Important Indian Bird]\nProfessionals agree that it is necessary to understand how using chemicals, climate change, and other human activities can damage the lives of animals, especially species like the Indian vulture. So, various actions are being taken to improve the situation. For example, twenty protected Indian vultures were released in one area recently, and the research that followed showed that their numbers were increasing. The researchers hope that such efforts will be successful in increasing the number of vultures in the future.",
+                    "ja": "専門家は、化学物質の使用、気候変動、その他の人間の活動が、特にインドハゲワシのような種の動物の生活をどのように損なうかを理解する必要があると同意している。そのため、状況を改善するためにさまざまな行動が取られている。例えば、最近ある地域で20羽の保護されたインドハゲワシが放たれ、その後の調査で数が増加していることが示された。研究者たちは、こうした取り組みが将来のハゲワシの数の増加に成功することを期待している。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

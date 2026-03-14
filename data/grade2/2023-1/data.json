@@ -1876,33 +1876,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'provided that' を 'as long as' に置き換えられるか？",
-                        "a": "はい。You can borrow books as long as you have a valid membership card. どちらも「～する限り」。"
+                        "q": "'provided that they have a smartphone' のような条件表現を見つけてください。",
+                        "a": "この文で暗示的に条件が示される。「すべての支払いが電子的に行われる」=スマートフォンや口座が前提条件。"
                     },
                     {
-                        "q": "'On condition that' は 'provided that' と同義か？",
-                        "a": "はい。どちらも条件を表す。On condition that = provided that = as long as。"
+                        "q": "'argue that cash causes crime' の 'argue that' はどのような主張ですか？",
+                        "a": "「現金が犯罪を引き起こすと主張する」。支持者側の意見を導入する動詞。that節で主張内容を説明。"
                     },
                     {
-                        "q": "このパッセージの条件表現を全て挙げると？",
-                        "a": "provided that, As long as, if, On condition that の4つ。"
+                        "q": "'however' はこの段落でどのような論理展開を示しますか？",
+                        "a": "「しかし」。支持者の利点の主張→批判者の問題点の指摘。両論併記の逆接。"
+                    },
+                    {
+                        "q": "キャッシュレス社会の長所と短所を要約してください。",
+                        "a": "長所: 犯罪減少、利便性。短所: デジタル弱者の排除、システム障害リスク。"
                     }
                 ],
                 "highlightPatterns": [
-                    "provided you finish your homework",
-                    "as long as",
-                    "on condition that",
-                    "whether you want to learn",
-                    "once you have decided",
-                    "in order to",
-                    "because they often could not produce",
-                    "as quickly as possible"
+                    "cashless",
+                    "electronically",
+                    "Supporters"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "条件の接続詞",
                 "practicePassage": {
-                    "en": "You can borrow books from the library provided that you have a valid membership card. As long as you return them within two weeks, there will be no late fees. However, if your card has expired, you must renew it before borrowing again. On condition that you follow these rules, you can borrow up to five books at a time.",
-                    "ja": "有効な会員カードを持っていれば図書館から本を借りることができる。2週間以内に返却すれば延滞料はかからない。ただし、カードが切れている場合は、再び借りる前に更新しなければならない。これらの規則に従うことを条件に、一度に5冊まで借りられる。"
+                    "en": "[出典: Any Change?]\nSupporters of a \"cashless\" society in which all payments are made electronically argue that it would have several benefits. For example, people would not have to worry about keeping their wallets safe. However, some people are concerned that they might be unable to pay for the things they need because of a software error or a broken smartphone. Moreover, some people do not have bank accounts or credit cards, so their only option is to use coins and bills. For now, it seems as though societies will continue to use cash.",
+                    "ja": "すべての支払いが電子的に行われる「キャッシュレス」社会の支持者たちは、現金がなくなれば犯罪が減少すると主張している。しかし、批判者たちはすべての人がスマートフォンや銀行口座を持っているわけではないと指摘し、キャッシュレス社会は一部の人々を排除する可能性があると警告している。また、電子決済システムに障害が発生した場合、人々は買い物ができなくなるリスクもある。それでも、世界の多くの国々ではキャッシュレス化が急速に進んでおり、この傾向は今後も続くと予想されている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1931,39 +1931,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'twice the size of' を 'twice as large as' に書き換えると？",
-                        "a": "Russia is approximately twice as large as Canada."
+                        "q": "'over half the dreams' の数量表現を説明してください。",
+                        "a": "「夢の半数以上」。over half = more than 50%。研究結果の定量的表現。"
                     },
                     {
-                        "q": "'four times as many people as' はどういう構造？",
-                        "a": "倍数 + as + 形容詞/副詞 + as ～。「～の4倍の人数」。many は people（可算名詞）に対応。"
+                        "q": "'For a recent study' はどのような導入ですか？",
+                        "a": "「最近の研究で」。研究の時期と新規性を示す。学術的な事実の提示に使われる前置詞句。"
                     },
                     {
-                        "q": "'half the area of' は何倍を意味するか？",
-                        "a": "0.5倍（半分）。half = 1/2。"
+                        "q": "'connected to specific events' の 'connected to' はどのような関係を示しますか？",
+                        "a": "「特定の出来事と結びついている」。夢の内容と日常の出来事の因果関係を示す。"
                     },
                     {
-                        "q": "倍数表現の基本パターンを2つ挙げると？",
-                        "a": "① X times as ... as Y ② X times the + 名詞 + of Y"
+                        "q": "ウォムズリーの研究から何がわかりましたか？",
+                        "a": "夢の半数以上が最近の日常体験と関連。夢は記憶の整理・定着に役割を果たしている可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "four times the size of",
-                    "twice as large as",
-                    "three times",
-                    "the size of other people's",
-                    "compared with that of washing machines",
-                    "more time and energy",
-                    "no more than eight people",
                     "over half the dreams",
-                    "about 25 percent",
-                    "about one-third of their lives"
+                    "invited",
+                    "participants"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "倍数・比較",
                 "practicePassage": {
-                    "en": "Russia is approximately twice the size of Canada, making it the largest country in the world. Tokyo's population is about three times as large as that of Berlin. The new stadium can hold four times as many people as the old one. Despite being only half the area of Texas, the United Kingdom has a population nearly twice as large.",
-                    "ja": "ロシアはカナダの約2倍の大きさで、世界最大の国だ。東京の人口はベルリンの約3倍だ。新しいスタジアムは旧スタジアムの4倍の人を収容できる。テキサスの半分の面積しかないにもかかわらず、イギリスの人口はほぼ2倍だ。"
+                    "en": "[出典: Living the Dream]\nFor a recent study, Erin Wamsley of Furman University in the United States invited 48 participants to spend the night at a special laboratory at the university. The participants were woken up several times during the night and asked to report what they had been dreaming about. The following morning, the participants tried to connect the content of their dreams with events in their lives. Wamsley found that over half the dreams could be connected to memories of experiences. This supports the idea that dreams play a role in learning.",
+                    "ja": "最近の研究で、アメリカのフォーマン大学のエリン・ウォムズリーは参加者を募り、彼らの夢の内容を記録した。研究の結果、夢の半数以上が参加者の最近の日常の出来事と結びついていることがわかった。例えば、日中に友人と話した人は、夜にその友人の夢を見る可能性が高かった。これは、夢が記憶の整理と定着に重要な役割を果たしていることを示唆している。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1992,35 +1986,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'as good as any' は何を意味するか？",
-                        "a": "「どれにも劣らないほど良い」。最上級に近い意味を持つ比較表現。"
+                        "q": "'than any other invention including the Internet' の比較表現を説明してください。",
+                        "a": "「インターネットを含む他のどの発明よりも」。比較級 + than any other = 最上級の意味。最も影響が大きい。"
                     },
                     {
-                        "q": "'more skilled than any other cook' はなぜ other が必要？",
-                        "a": "自分自身との比較を避けるため。比較級 + than any other + 単数名詞 = 最上級と同義。"
+                        "q": "'more time and energy for other activities' はどのような変化を示しますか？",
+                        "a": "「他の活動のためのより多くの時間とエネルギー」。洗濯の自動化→家事負担の減少→他の活動に使える時間が増加。"
                     },
                     {
-                        "q": "'the finest cuisine of any restaurant' のany はどんな意味？",
-                        "a": "「どのレストランの中でも」。最上級 + of any = 全体の中で最高。"
+                        "q": "'Automatic washing machines gave people...' の無生物主語を説明してください。",
+                        "a": "「自動洗濯機が人々に〜を与えた」。機械（無生物）が主語で、人々の生活への影響を表す。"
+                    },
+                    {
+                        "q": "洗濯機が社会に与えた影響を要約してください。",
+                        "a": "家事時間を劇的に削減。特に女性の教育・就業の機会を拡大。インターネット以上の社会的影響と評価。"
                     }
                 ],
                 "highlightPatterns": [
-                    "as good as any that are served",
-                    "as good as any",
                     "than any other",
-                    "as quickly as possible",
-                    "more than ever",
-                    "more widely available",
-                    "easier to buy for ordinary people",
-                    "more popular",
-                    "more common later in the night",
-                    "a greater effect on society"
+                    "more time and energy",
+                    "Automatic"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "比較のany",
                 "practicePassage": {
-                    "en": "This restaurant serves food as good as any in the city. The chef is more skilled than any other cook in the region. No dish on the menu is better than the grilled salmon. The desserts are as delicious as any I have ever tasted. In fact, many food critics say this place has the finest cuisine of any restaurant they have reviewed.",
-                    "ja": "このレストランは市内のどの店にも劣らない料理を提供する。シェフはこの地域の他のどの料理人よりも腕が良い。メニューのどの料理もグリルサーモンにはかなわない。デザートはこれまで食べたどのものにも劣らないほどおいしい。実際、多くの食評家はここがこれまで評価したどのレストランよりも最高の料理だと言う。"
+                    "en": "[出典: An Extraordinary Machine]\nAutomatic washing machines gave people more time and energy for other activities than any other new technology did. They used some of this extra time and energy to study and teach their children. This, in turn, led to improvements in the quality of everyone's lives in the places where washing machines became common. Even today, many people in the world still wash their clothes by hand. This means that, over the next few decades, washing machines will probably continue to make a big difference to the lives of billions of humans.",
+                    "ja": "自動洗濯機は人々に他の活動のためのより多くの時間とエネルギーを与えた。一部の歴史家は、洗濯機がインターネットを含む他のどの発明よりも社会に大きな影響を与えたと主張している。洗濯機は特に女性の生活を変革し、家事に費やす時間を劇的に減少させた。これにより、多くの女性が教育を受けたり、仕事に就いたりする機会を得ることができた。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2049,45 +2041,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'on schedule' と 'in time' の違いは？",
-                        "a": "on schedule = 予定通りに（計画に沿って）。in time = 間に合って（締め切り前に）。"
+                        "q": "'On average' はどのような統計表現ですか？",
+                        "a": "「平均して」。一般化された統計的事実を述べる前置詞句。個人差があるが全体的な傾向を示す。"
                     },
                     {
-                        "q": "'at a loss' はどういう意味か？",
-                        "a": "途方に暮れて、困って。be at a loss = 何をすべきかわからない。"
+                        "q": "'on top of this' はどのような接続表現ですか？",
+                        "a": "「これに加えて」。前述の情報にさらに追加の事実を重ねる表現。= in addition to this / furthermore。"
                     },
                     {
-                        "q": "'beyond expectation' を別の表現で？",
-                        "a": "better than expected / exceeded expectations / surpassed what was anticipated"
+                        "q": "'about one-third of their lives' と 'about 25 percent' の数量表現の違いは？",
+                        "a": "one-third = 分数表現（約33%）、25 percent = パーセント表現。両方とも概数。aboutで概算を示す。"
                     },
                     {
-                        "q": "このパッセージの前置詞+名詞イディオムを全て挙げると？",
-                        "a": "on schedule, At first, at a loss, in harmony, beyond expectation, In the end"
+                        "q": "人間の睡眠と夢の基本的な統計を要約してください。",
+                        "a": "人生の約1/3を睡眠に費やし、そのうち約25%の時間に夢を見る。夢の意味は古くからの研究テーマ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "apply in person",
-                    "in charge of checking",
-                    "at ease",
-                    "at length",
-                    "in detail",
-                    "by way",
-                    "on behalf",
-                    "for fear",
-                    "in order to",
                     "on top of this",
-                    "in turn",
-                    "for a long time",
-                    "at first",
-                    "over time",
-                    "for now",
-                    "by contrast"
+                    "one-third of their lives",
+                    "On average"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "前置詞イディオム",
                 "practicePassage": {
-                    "en": "The project was completed on schedule despite several unexpected problems. At first, the team was at a loss about how to solve the technical issues. However, they worked together in harmony and found creative solutions. The final product was beyond expectation, and the client was completely satisfied. In the end, the team members felt a great sense of accomplishment.",
-                    "ja": "いくつかの予想外の問題にもかかわらず、プロジェクトは予定通りに完了した。最初、チームは技術的な問題の解決方法について途方に暮れていた。しかし、調和して協力し、創造的な解決策を見つけた。最終製品は期待を超えるもので、クライアントは完全に満足した。最終的に、チームメンバーは大きな達成感を感じた。"
+                    "en": "[出典: Living the Dream]\nOn average, people spend about one-third of their lives sleeping, and for about one-quarter of the time that they are asleep, they dream. Although scientists have learned a lot about the parts of people's brains that are involved in dreaming, they are still uncertain about the purpose of dreams. One reason for this is the variety of dreams that people have — they can be pleasant, scary, unusual, or very ordinary. On top of this, they often do not make sense and are mostly forgotten soon after waking up.",
+                    "ja": "平均して、人々は人生の約3分の1を睡眠に費やしており、その約25パーセントの時間に夢を見ている。これに加えて、夢は長い間人々を魅了してきた。なぜ夢を見るのか、夢にはどんな意味があるのかは、古くから議論されてきたテーマである。科学者たちはこの謎を解明するために様々な研究を行ってきた。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2116,43 +2096,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'support small businesses' を言い換えると？",
-                        "a": "assist local enterprises / help smaller companies / aid independent businesses"
+                        "q": "'very dangerous' を言い換えてください。",
+                        "a": "'extremely hazardous' や 'highly unsafe'。very dangerous = extremely hazardous / highly unsafe。"
                     },
                     {
-                        "q": "'struggling' を言い換えると？",
-                        "a": "having difficulty / facing challenges / in financial trouble"
+                        "q": "'operated by hand' を言い換えてください。",
+                        "a": "'manually controlled' や 'worked by human effort'。operated by hand = manually controlled。"
                     },
                     {
-                        "q": "'economic downturn' を言い換えると？",
-                        "a": "recession / financial decline / period of economic difficulty"
+                        "q": "'required a lot of effort' を別の表現で言い換えると？",
+                        "a": "'demanded considerable labor' や 'needed significant physical work'。required = demanded / needed。"
                     },
                     {
-                        "q": "'create more employment opportunities' を言い換えると？",
-                        "a": "generate more jobs / provide more work for people / increase job openings"
+                        "q": "初期の洗濯機の問題点は何でしたか？",
+                        "a": "手動操作で依然として労力が必要。電動型は回転部分が露出し非常に危険。事故が頻発。"
                     }
                 ],
                 "highlightPatterns": [
-                    "various types of courses",
-                    "business situations, to chat with friends, to pass exams",
-                    "not sure which lesson",
-                    "did not know which class",
-                    "every weekday evening",
-                    "Monday through Friday",
-                    "several different stages",
-                    "carrying the laundry to a river",
-                    "greater effect on society",
-                    "impact has been small compared with",
                     "very dangerous",
-                    "very unsafe",
-                    "do not make sense",
-                    "do not usually appear to have a clear meaning"
+                    "operated by hand",
+                    "required a lot"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The government announced a new policy to support small businesses. The plan aims to provide financial assistance to companies that are struggling. Many shop owners welcomed the decision, saying it would help them survive the economic downturn. Critics, however, argued that the funds should be directed toward larger industries that create more employment opportunities.",
-                    "ja": "政府は中小企業を支援する新しい政策を発表した。この計画は苦戦している企業に財政支援を提供することを目的としている。多くの店主はこの決定を歓迎し、経済の低迷を乗り越えるのに役立つと述べた。しかし批判者は、より多くの雇用機会を生み出す大規模な産業に資金を向けるべきだと主張した。"
+                    "en": "[出典: An Extraordinary Machine]\nThe first washing machines were operated by hand, and they still required a lot of hard work. Discovering how to use electricity to power these machines was a challenge because the combination of water and electricity is very dangerous. However, during the first half of the 20th century, inventors created electric machines that were able to automatically do most of the steps involved in washing. Before long, these machines became common in homes in wealthier parts of the world.",
+                    "ja": "最初の洗濯機は手動で操作され、依然として多くの労力を必要とした。また、初期の電動洗濯機は非常に危険であった。機械の回転部分が露出しており、手や衣服が巻き込まれる事故が頻繁に起きた。それでも、手洗いに比べれば大幅な改善であり、人々はこの新しい機械を歓迎した。安全性の向上は徐々に進み、後の設計改良によって事故のリスクは大きく減少した。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

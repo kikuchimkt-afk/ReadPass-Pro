@@ -2041,37 +2041,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Notwithstanding' と 'Be that as it may' の違いは？",
-                        "a": "Notwithstanding = 前置詞（+ 名詞）/副詞。「～にもかかわらず」。Be that as it may = 慣用句「たとえそうであっても」。"
+                        "q": "'but researchers caution that many challenges remain' の 'but' はどのような譲歩・逆接ですか？",
+                        "a": "「しかし研究者は多くの課題が残っていると警告」。有望だが問題も多いという両面提示。逆接による論証の深化。"
                     },
                     {
-                        "q": "'Admittedly' はどんな論理的役割？",
-                        "a": "譲歩。相手の主張を一旦認めてから反論を展開する。= It is true that..."
+                        "q": "'is considered to be very promising' の受動態はなぜ使われていますか？",
+                        "a": "「非常に有望であると考えられている」。考える主体（科学者全般）を特定せず、一般的評価を客観的に提示。"
                     },
                     {
-                        "q": "'Even so' を別の表現で？",
-                        "a": "Despite that / In spite of this / All the same / Nevertheless"
+                        "q": "'lead to reduced growth' はどのような因果ですか？",
+                        "a": "「成長の減少につながる」。防御にエネルギーを費やす→成長に使えるエネルギーが減る→収量低下。トレードオフ。"
+                    },
+                    {
+                        "q": "誘導抵抗性の有望さと課題を要約してください。",
+                        "a": "有望: 植物の自然防御を活用。課題: タイミング重要、収量減少のリスク、防御と成長のバランス調整が必要。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although the bedrooms",
-                    "Although the actual battle",
-                    "Although pesticides",
-                    "Although smuggling was not",
-                    "Despite the widespread",
-                    "Despite the positive role",
-                    "Despite government efforts",
-                    "However, it was discovered",
-                    "However, as the event",
-                    "however, this method",
-                    "Even though there were concerns",
-                    "but researchers caution"
+                    "but researchers caution",
+                    "is considered to be",
+                    "very promising"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "譲歩・逆接",
                 "practicePassage": {
-                    "en": "Organic food has become increasingly popular among health-conscious consumers. Notwithstanding the higher prices, demand continues to grow year after year. Admittedly, conventional farming methods produce greater yields. Be that as it may, proponents argue that the environmental benefits of organic agriculture far outweigh the cost difference. Even so, critics maintain that organic labeling standards are inconsistent and sometimes misleading.",
-                    "ja": "オーガニック食品は健康志向の消費者の間でますます人気が高まっている。高い価格にもかかわらず、需要は年々増加し続けている。確かに、従来の農法はより多くの収穫量を生み出す。たとえそうであっても、支持者はオーガニック農業の環境上の利点がコスト差をはるかに上回ると主張する。それでも、批判者はオーガニック表示基準が一貫性がなく時に誤解を招くと主張する。"
+                    "en": "[出典: Protecting Plants]\nInduced resistance is considered to be very promising, but researchers caution that it has limitations. One is that diverting plants' resources toward defense can lead to reduced growth, which affects crop yields. Also, while induced resistance provides broader protection than most human vaccines, it cannot totally protect the plants. According to one biologist, “Induced resistance is the result of a complex network of developmental and environmental pathways in the plant.” She pointed out that using induced resistance effectively was not as simple as introducing a gene for a specific characteristic or using a pesticide with a particular action. She added that many aspects needed to be just right for this method to work, including the growing conditions and agricultural methods used. However, there is hope that when combined with other forms of natural crop protection, induced resistance can help minimize the need for pesticides and make agriculture more sustainable.",
+                    "ja": "誘導抵抗性は非常に有望であると考えられているが、研究者たちはまだ多くの課題が残っていると警告している。この方法が効果を発揮するためには、多くの要素が適切でなければならない。例えば、処理のタイミングが重要であり、病原体が到来する前に植物の防御機構を活性化する必要がある。また、誘導抵抗性は作物の収量に影響を及ぼす可能性がある。植物が防御にエネルギーを費やすと、成長が減少する可能性があるためだ。したがって、防御の利点と成長への潜在的な悪影響のバランスを慎重に取る必要がある。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -2100,38 +2096,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'It is estimated that' を主語を変えて？",
-                        "a": "Over four billion doses are estimated to have been administered worldwide."
+                        "q": "'were charged with murder' の受動態はどのような状況を示しますか？",
+                        "a": "「殺人罪で起訴された」。被告人側の視点。受動態で法的手続きの対象であることを強調。"
                     },
                     {
-                        "q": "'are recommended to be given' はどんな構造？",
-                        "a": "受動態 + 不定詞の受動態。suggest/recommend/advise の非人称受動態パターン。"
+                        "q": "'were given the death penalty' の受動態はなぜ使われていますか？",
+                        "a": "「死刑判決を受けた」。判決を下した主体（裁判所）より、判決を受けた被告に焦点を当てる。"
                     },
                     {
-                        "q": "'is seen as having set' の having set は？",
-                        "a": "完了動名詞。as の後は動名詞。主文の時制と異なる（それ以前に起きた）ことを示す。"
+                        "q": "'Even though there were concerns' はどのような譲歩ですか？",
+                        "a": "「懸念があったにもかかわらず」。裁判の公正さへの懸念があったが、それでも厳しい判決が下されたことを示す。"
+                    },
+                    {
+                        "q": "ヘイマーケット事件の裁判の問題点は何でしたか？",
+                        "a": "爆弾投下者の確たる証拠なし。8人起訴、7人に死刑。不公正だと広く非難。労働運動の殉教者の象徴に。"
                     }
                 ],
                 "highlightPatterns": [
-                    "is considered to be",
-                    "are produced annually",
-                    "has only been achieved",
-                    "is often said",
-                    "was started in",
-                    "was discovered that",
-                    "were killed",
                     "were charged",
                     "were given the death penalty",
-                    "were hanged",
-                    "were pardoned and released",
-                    "were distributed",
-                    "is known for"
+                    "Even though"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The vaccine was developed in record time using a technology that had never been applied to human medicine before. It is estimated that over four billion doses have been administered worldwide. The shots are recommended to be given in two doses, with a booster shot to follow several months later. Side effects are reported to be generally mild and temporary. The development process is seen as having set a new benchmark for pharmaceutical research.",
-                    "ja": "ワクチンはこれまで人間の医療に適用されたことのない技術を使って記録的な短期間で開発された。全世界で40億回以上が投与されたと推定されている。ショットは2回投与が推奨され、数ヶ月後にブースター接種が続く。副作用は一般的に軽度で一時的であると報告されている。開発プロセスは製薬研究の新しいベンチマークを設定したと見なされている。"
+                    "en": "[出典: The Haymarket Affair]\nThe May 4 incident provoked a strong response from some newspapers, which whipped up public anger and claimed further bombings were planned. The authorities, who felt compelled to act, detained well-known radicals. Eight men were charged in connection with the bombing, and in August, the jury returned with its verdict: guilty. Even though there were concerns about jury bias, a lack of evidence, and the fact that some of the defendants had not even attended the Haymarket gathering, most of the men were given the death penalty. Four of them were hanged the following year. According to Adelman, the trial ranked as “one of the most notorious in American history.”",
+                    "ja": "5月4日の事件は一部の新聞から強い反応を引き起こし、恐怖と反労働運動の感情を煽り立てた。爆弾投下の事実にもかかわらず、誰が実際に爆弾を投げたかの確たる証拠はなかったにもかかわらず、8人の男性が殺人罪で起訴された。懸念の声もあったが、そのうち7人には死刑判決が下された。最終的に4人が絞首刑に処され、1人は獄中で自殺した。この裁判は多くの人々から不公正だと非難され、労働運動の殉教者の象徴となった。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -2160,35 +2151,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Founded in 1636' と 'Located in Cambridge' はどちらも何？",
-                        "a": "過去分詞の分詞構文。= Being founded... / Being located...のBeingが省略された形。"
+                        "q": "'Angered by the deaths of fellow workers' の分詞構文を説明してください。",
+                        "a": "「仲間の死に激怒して」。感情の原因を示す分詞構文。Because they were angered の圧縮形。"
                     },
                     {
-                        "q": "'Researchers working at' の working は？",
-                        "a": "現在分詞の後置修飾（能動）。= Researchers who work at..."
+                        "q": "'Convinced that all was in order' の分詞構文はどのような判断を示しますか？",
+                        "a": "「すべてが秩序正しいと確信して」。市長が帰宅した理由。Because he was convinced の圧縮形。過去分詞の分詞構文。"
                     },
                     {
-                        "q": "'Having produced numerous Nobel laureates' は？",
-                        "a": "完了分詞構文。= Because it has produced...。主文より前の出来事が理由を示す。"
+                        "q": "'printed not only in English but also in German' はどのような後置修飾ですか？",
+                        "a": "「英語だけでなくドイツ語でも印刷された」。leafletsを後置修飾する過去分詞句。not only...but also構文。"
+                    },
+                    {
+                        "q": "ヘイマーケット事件の経緯を要約してください。",
+                        "a": "5/3に労働者射殺→5/4に抗議集会→市長帰宅→警察が解散命令→爆弾投下→銃撃戦発生。"
                     }
                 ],
                 "highlightPatterns": [
                     "Angered by the deaths",
-                    "Convinced that all was in order",
-                    "printed not only in English but also in German",
-                    "intent on exploiting workers",
-                    "concerned about workers' rights",
-                    "striking workers",
-                    "growing evidence",
-                    "increasing reliance",
-                    "pathogen-infected cells",
-                    "a decision that was condemned"
+                    "Convinced that",
+                    "were killed"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "分詞構文",
                 "practicePassage": {
-                    "en": "Founded in 1636, Harvard University is the oldest institution of higher education in the United States. Located in Cambridge, Massachusetts, the campus spans over 200 acres. Renowned for its rigorous academic programs, the university attracts students from around the world. Researchers working at its laboratories have made contributions spanning multiple fields. Having produced numerous Nobel laureates, Harvard is widely regarded as one of the world's premier universities.",
-                    "ja": "1636年に設立されたハーバード大学は米国最古の高等教育機関だ。マサチューセッツ州ケンブリッジに位置し、キャンパスは200エーカー以上に広がる。厳格な学術プログラムで知られ、世界中から学生を引き付けている。研究室で働く研究者は複数の分野にまたがる貢献をしてきた。多くのノーベル賞受賞者を輩出し、ハーバードは世界有数の大学の一つと広く見なされている。"
+                    "en": "[出典: The Haymarket Affair]\nOn May 3, 1886, at least two striking workers were killed by the police at a demonstration in Chicago. Angered by the deaths, labor rights activists organized a gathering for the next day at Haymarket Square. Many thousands of flyers—printed not only in English but also in German for German-speaking immigrant workers—were distributed. On May 4, a few thousand people attended, one of them being the Chicago mayor—there to ensure the protest passed peacefully. For the most part, it did just that. Convinced that all was in order, he left early. However, as the event came to a close with passionate speeches, violence erupted when the police tried to break it up. Someone threw a homemade dynamite bomb, and in the following chaos, guns were fired. A number of police officers and attendees were killed.",
+                    "ja": "1886年5月3日、シカゴの工場でのデモで少なくとも2人のストライキ中の労働者が警察に殺された。死者に激怒した労働運動の指導者たちは、翌日ヘイマーケット広場で抗議集会を開催した。英語だけでなくドイツ語でも印刷されたチラシが配布され、多くの労働者が集まった。すべてが秩序正しいと確信して、集会を監視していた市長は帰宅した。しかし、イベントが進むにつれ、残っていた警察が群衆を解散させようとしたとき、何者かが警察に向けて爆弾を投げ、銃撃戦が発生した。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2217,38 +2206,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'has resulted in' と 'has contributed to' の違いは？",
-                        "a": "resulted in = 直接的な結果（AがBをもたらした）。contributed to = 間接的な寄与（AがBの一因）。"
+                        "q": "'This works by activating a plant's natural defense mechanisms' の 'This works by' はどのような因果表現ですか？",
+                        "a": "「これは〜することで機能する」。方法・手段を示す因果表現。by + 動名詞で機序を説明。"
                     },
                     {
-                        "q": "'Owing to' と 'Hence' の文法的違いは？",
-                        "a": "Owing to + 名詞 = 理由の前置詞句。Hence = 結論の副詞。「したがって」。"
+                        "q": "'This prepares the plants for future attacks' の 'This' は何を指しますか？",
+                        "a": "前文の活性化プロセス全体を指す。「これが植物を将来の攻撃に備えさせる」。指示代名詞による因果連鎖。"
                     },
                     {
-                        "q": "'leading to prolonged droughts' は何の用法？",
-                        "a": "結果を表す分詞構文。= which led to / and this led to。"
+                        "q": "'induced resistance' の概念を説明してください。",
+                        "a": "「誘導抵抗性」。外部刺激で植物の防御機構を起動させる。農薬と違い植物の免疫系を強化するアプローチ。"
+                    },
+                    {
+                        "q": "誘導抵抗性と従来の農薬の違いは何ですか？",
+                        "a": "農薬: 病原体を直接殺す。誘導抵抗性: 植物自身の免疫系を強化。完全ではなく他の手法との組み合わせが必要。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Consequently",
-                    "As a result",
-                    "This level of production",
                     "This works by",
-                    "This prepares the plants",
-                    "This included patrols",
-                    "This gave employers room",
-                    "which affects crop yields",
-                    "which helped them avoid",
-                    "so researchers are constantly",
-                    "and so they became willing",
-                    "lead to significantly reduced",
-                    "lead to reduced growth"
+                    "This prepares",
+                    "induced resistance"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "因果関係",
                 "practicePassage": {
-                    "en": "Deforestation in the Amazon has accelerated dramatically over the past decade. This has resulted in the loss of biodiversity on an unprecedented scale. Owing to reduced tree cover, rainfall patterns in the region have shifted, leading to prolonged droughts. The destruction of the rainforest has also contributed to rising global temperatures. Hence, international organizations have called for immediate action to halt further deforestation and restore damaged ecosystems.",
-                    "ja": "アマゾンの森林破壊は過去10年間で劇的に加速した。これにより前例のない規模での生物多様性の喪失が生じた。樹木の被覆が減少したため、地域の降雨パターンが変化し、長引く干ばつを引き起こしている。熱帯雨林の破壊は世界的な気温上昇にも寄与している。したがって、国際機関はさらなる森林破壊を止め、損傷した生態系を回復するための即時行動を求めている。"
+                    "en": "[出典: Protecting Plants]\nA promising new approach to crop protection is the concept of induced resistance. This works by activating plants' natural defenses, which range from destroying pathogen-infected cells to releasing toxins to kill insects. Induced resistance can be achieved through a process known as defense priming, which involves applying stress to plants to stimulate a weak defense response. This prepares the plants to recognize and react strongly to threats in the future. Essentially, this “vaccinates” plants against pests in much the same way as human vaccines protect people against diseases such as influenza. Unlike most human vaccines, however, this method can protect plants against several pests at the same time. Furthermore, researchers have found that the protection can even be carried into the next generation, although the genetic mechanism by which this occurs has yet to be determined.",
+                    "ja": "作物保護への有望な新しいアプローチは、誘導抵抗性の概念である。これは、化学物質や特定の微生物を使って植物の自然な防御機構を活性化させることで機能する。処理された植物は、病原体に感染した細胞を封じ込めることで将来の攻撃に備える。従来の農薬が病原体を直接殺すのとは異なり、誘導抵抗性は植物自身の免疫系を強化する。しかし、この方法は完全な保護を提供するわけではなく、他の作物保護方法と組み合わせて使用する必要がある場合が多い。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2277,37 +2261,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'formerly neglected neighborhood' を言い換えると？",
-                        "a": "previously overlooked area / once-rundown district / historically underserved community"
+                        "q": "'alternative crop-protection methods' を言い換えてください。",
+                        "a": "'different ways to safeguard harvests' や 'other approaches to defending agriculture'。alternative = different / other。"
                     },
                     {
-                        "q": "'property values soared' を言い換えると？",
-                        "a": "real estate prices skyrocketed / housing costs rose sharply / land values increased dramatically"
+                        "q": "'looking for' を言い換えてください。",
+                        "a": "'searching for' や 'seeking out' や 'attempting to find'。looking for = searching for / seeking。"
                     },
                     {
-                        "q": "'voiced frustration over rising rents' を言い換えると？",
-                        "a": "expressed displeasure about increasing housing costs / complained about the escalating price of rent"
+                        "q": "'lead to significantly reduced crop yields' を別の表現で言い換えると？",
+                        "a": "'result in substantially lower harvests' や 'cause a major decline in agricultural output'。significantly = substantially。"
                     },
                     {
-                        "q": "'threatened to push them out' を言い換えると？",
-                        "a": "risked displacing them / had the potential to force them to leave / could result in their eviction"
+                        "q": "現代農業が直面している農薬に関する問題を要約してください。",
+                        "a": "農薬依存→環境・健康被害。害虫の耐性発達→収量減少。持続可能な代替手法の探索が不可欠。"
                     }
                 ],
                 "highlightPatterns": [
-                    "alternative crop-protection methods",
-                    "different ways to protect crops",
-                    "many aspects needed to be just right",
-                    "many factors have to be carefully balanced",
-                    "Convinced that all was in order",
-                    "had generally passed without incident",
+                    "alternative crop-protection",
                     "looking for",
-                    "attempting to find"
+                    "lead to significantly"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The city launched an ambitious urban renewal initiative in a formerly neglected neighborhood. Abandoned warehouses were converted into trendy co-working spaces and art galleries. Property values in the area soared as young professionals moved in. Local business owners saw a surge in customers, boosting revenue significantly. However, longtime residents voiced frustration over rising rents that threatened to push them out of their community.",
-                    "ja": "市は以前放置されていた地区で野心的な都市再生イニシアチブを開始した。放棄された倉庫はトレンディなコワーキングスペースやアートギャラリーに改装された。若いプロフェッショナルが移り住むにつれ、地域の不動産価値が急騰した。地元の事業主は顧客の急増を見て、収益を大幅に伸ばした。しかし、長年の住民はコミュニティから追い出される恐れのある家賃の上昇に不満を表明した。"
+                    "en": "[出典: Protecting Plants]\nIn order to satisfy global food demand, hundreds of millions of tons of wheat, corn, and other crops are produced annually worldwide. This level of production has only been achieved through modern agriculture's increasing reliance on chemical pesticides to protect crops from insects that feed on plants and microbial pathogens such as bacteria and fungi. These pests can impair plant growth and lead to significantly reduced crop yields. Pesticides have made large-scale crop production possible, but some are also known to harm the environment or pose risks to human health. Pests also develop resistance to pesticides, especially when the pesticides are used in large amounts, so researchers are constantly looking for alternative crop-protection methods.",
+                    "ja": "世界の食料需要を満たすために、毎年何億トンもの小麦、トウモロコシ、米が生産されている。このレベルの生産は農薬への依存度が増大することによってのみ達成されてきたが、農薬は環境や人間の健康に深刻な影響を及ぼす可能性がある。害虫が農薬に対する耐性を発達させることで、収量が著しく減少する事態を引き起こしている。そのため、研究者たちは常に代替的な作物保護方法を探している。持続可能な農業を実現するためには、農薬に頼らない新しいアプローチが不可欠である。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

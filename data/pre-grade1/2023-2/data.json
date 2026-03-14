@@ -2127,32 +2127,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Walking through' と 'Having spent years' の違いは？",
-                        "a": "Walking = 同時の動作（歩きながら）。Having spent = 先行する動作（費やした後で）。"
+                        "q": "'which is known as anthropomorphism' の関係代名詞はどのような用法ですか？",
+                        "a": "非制限用法。前の内容全体を先行詞として受け、「それは擬人化として知られている」と補足説明を加える。"
                     },
                     {
-                        "q": "'surrounded by mountains' と 'participating in' の違いは？",
-                        "a": "surrounded = 過去分詞の後置修飾（受動）。participating = 現在分詞の後置修飾（能動）。"
+                        "q": "'assigning human traits to nonhuman things' の分詞構文を説明してください。",
+                        "a": "「人間でないものに人間特性を付与する行為」。動名詞句として主語や同格の説明に使われている。"
                     },
                     {
-                        "q": "'written entirely in code' を関係代名詞節に書き換えると？",
-                        "a": "The manuscript, which was written entirely in code, baffled historians."
+                        "q": "'living creatures' とロボットの関係はどのように述べられていますか？",
+                        "a": "人間は物体の動きを生き物の行動と関連付ける傾向があり、ロボットにも人間的な特性を感じ取ってしまう。"
+                    },
+                    {
+                        "q": "擬人化が起こる理由をこの段落から説明してください。",
+                        "a": "人間は動きや行動パターンを観察すると、生きている存在の行動に関連付けようとする本能的な傾向がある。"
                     }
                 ],
                 "highlightPatterns": [
-                    "concerned",
-                    "living",
-                    "having",
-                    "encouraged",
-                    "based",
-                    "given",
-                    "known"
+                    "known as anthropomorphism",
+                    "which is known as"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "分詞構文",
                 "practicePassage": {
-                    "en": "Walking through the ancient forest, the hikers noticed unusual markings on the trees. The village, surrounded by mountains on three sides, remained isolated for centuries. Having spent years studying the behavior of wolves, the researcher published a landmark paper. Students participating in the exchange program gain valuable cross-cultural experience. The manuscript, written entirely in code, baffled historians for decades before being deciphered.",
-                    "ja": "古代の森を歩きながら、ハイカーたちは木に珍しい印があることに気づいた。三方を山に囲まれた村は何世紀にもわたって孤立していた。オオカミの行動の研究に何年も費やした後、研究者は画期的な論文を発表した。交換プログラムに参加する学生は貴重な異文化体験を得る。完全にコードで書かれた原稿は、解読されるまで何十年もの間歴史家を困惑させた。"
+                    "en": "[出典: Machine or Human?]\nThe act of giving human traits to nonhuman things, which is known as anthropomorphism, is something humans do naturally, even at a young age. It is not unusual, for example, for people of all ages to form emotional attachments to objects such as toys, cars, and homes. Even the engineers, who frequently referred to Oppy as \"she\" or thought of it as a child, were not immune to this tendency. One effect of projecting human qualities onto a nonliving object seems to be that this makes people feel protective of it and brings out concern for its well-being. NASA appears to have utilized this phenomenon to its advantage by deliberately making Oppy seem more human, designing it with eyelike camera lenses in a headlike structure that extended from its body. Prior to the Opportunity mission, well-publicized failures had weakened public confidence in NASA, and the agency's funding had been reduced. It has been suggested that giving Oppy human characteristics was an effective strategy to win over the public and perhaps even attract additional funding for NASA's mission.",
+                    "ja": "人間でないものに人間の特性を付与する行為は、擬人化として知られている。これは人間に広く見られる傾向であり、ロボットや機械だけでなく、動物、自然現象、さらには抽象的な概念にまで適用される。科学者たちは、人間が生き物ではない物体の動きや行動パターンを観察するとき、それを生きている存在の行動と関連付けようとする傾向があると説明している。NASAのエンジニアたちも例外ではなく、ローバーのオポチュニティに愛着を持ち、まるで同僚のように接するようになった。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -2181,29 +2181,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "非制限用法のwhichが使われている箇所を全て挙げると？",
-                        "a": "who has devoted, which was made, which lives, on which the team, some of which challenge の5箇所。"
+                        "q": "'While the Marian reforms greatly improved the Roman army' の 'While' はどのような譲歩ですか？",
+                        "a": "「改革が軍を大幅に改善した一方で」。肯定的な面を認めつつ、否定的な結果も述べる譲歩・対比。"
                     },
                     {
-                        "q": "'on which the team had been working' を制限用法に？",
-                        "a": "不可。非制限用法は先行詞が固有名詞や特定のもので補足情報を追加する。カンマなしにはできない。"
+                        "q": "'resulted in an unexpected consequence' はどのような因果関係ですか？",
+                        "a": "「予期せぬ結果をもたらした」。改革の意図しない副作用。resulted in = led to / brought about。"
                     },
                     {
-                        "q": "'some of which' は何を指すか？",
-                        "a": "The findings の一部。= and some of them. 非制限用法 + of which。"
+                        "q": "'rather than to the state' はどのような対比を示しますか？",
+                        "a": "「国家にではなく（指揮官に）」。忠誠の対象が国家→個人の将軍へ移った対比を強調する。"
+                    },
+                    {
+                        "q": "マリウス改革の皮肉な結果は何でしたか？",
+                        "a": "軍を強化するための改革が、将軍への個人的忠誠を生み、内戦と共和国の衰退をもたらした。"
                     }
                 ],
                 "highlightPatterns": [
-                    ", which",
-                    ", who",
-                    ", where",
-                    ", whose"
+                    "resulted in",
+                    "While the Marian reforms",
+                    "loyalty"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "非制限用法",
                 "practicePassage": {
-                    "en": "Dr. Yamamoto, who has devoted over thirty years to marine biology, recently discovered a new species of deep-sea fish. The discovery, which was made during a routine expedition, has generated considerable excitement in the scientific community. The fish, which lives at depths exceeding 3,000 meters, has unique bioluminescent properties. The research vessel, on which the team had been working for six months, was specially equipped for deep-sea exploration. The findings, some of which challenge existing theories about deep-sea ecosystems, will be published next month.",
-                    "ja": "海洋生物学に30年以上を捧げた山本博士は最近、深海魚の新種を発見した。定期的な遠征中に行われたこの発見は、科学界で大きな興奮を引き起こした。3000メートルを超える深さに生息するこの魚は独特の生物発光特性を持つ。チームが6ヶ月間作業していた調査船は深海探査用に特別に装備されていた。深海生態系に関する既存の理論に異議を唱えるものもある調査結果は来月発表される。"
+                    "en": "[出典: The Marian Reforms]\nWhile the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic. When the army was composed mostly of wealthy citizens enlisted on an as-needed basis, it had little influence on Roman politics. Following the Marian reforms, however, legionaries in the army became highly disciplined and developed an intense loyalty to their generals. In consequence, generals found it difficult to resist the temptation to use the forces under their command to gain political influence for themselves rather than to ensure the protection and expansion of the Roman Republic. This resulted in civil wars, and eventually, Julius Caesar successfully used the army to overthrow the elected government and declare himself the Roman leader. This marked the end of the relatively democratic Roman Republic and paved the way for the creation of a dictatorship ruled by all-powerful emperors.",
+                    "ja": "マリウス改革はローマ軍を大幅に改善した一方で、予期せぬ結果ももたらした。新しい制度の下で兵士たちは国家よりも自分たちの指揮官に忠誠を誓うようになった。これは、退役後の土地や報酬が将軍の影響力に依存していたためである。この個人的な忠誠心は、野心的な将軍たちが私的な軍隊を持つことを可能にし、最終的にはローマ共和国の政治的安定を脅かし、内戦の原因となった。皮肉なことに、軍を強化するために設計された改革が、共和国の衰退に寄与する結果となった。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -2232,31 +2236,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'to provide' と 'so that they could distribute' の違いは？",
-                        "a": "to provide = 不定詞の目的（簡潔）。so that + could = 可能性を含む目的（より詳細）。"
+                        "q": "'With the exception of a few older, elite institutions' はどのような表現ですか？",
+                        "a": "「少数の古い名門校を除いて」。例外を明示する前置詞句。with the exception of = except for。"
                     },
                     {
-                        "q": "'so well-equipped that' はどんな構文？",
-                        "a": "so + 形容詞 + that = 結果構文。「あまりに～なので…」。"
+                        "q": "'were expected to teach a wide range' の受動態はなぜ使われていますか？",
+                        "a": "「幅広い科目を教えることが期待されていた」。期待する主体（大学側）より、教授の状況に焦点を当てる。"
                     },
                     {
-                        "q": "'As a result of these efforts' は目的？結果？",
-                        "a": "結果。「これらの努力の結果として」。前の行動が原因、死亡率の低下が結果。"
+                        "q": "'In addition' はどのような情報の追加を示しますか？",
+                        "a": "「加えて」。教授への要求に加え、学生への要求という別の制約を追加する接続表現。"
+                    },
+                    {
+                        "q": "初期のアメリカの大学の特徴を要約してください。",
+                        "a": "学生数が少ない、教授は多科目担当、厳格な規律と宗教活動が義務、古典語中心のカリキュラム。"
                     }
                 ],
                 "highlightPatterns": [
-                    "in order to",
-                    "so that",
-                    "thereby",
-                    "thus",
-                    "so as to",
-                    "for the purpose of"
+                    "With the exception of",
+                    "only had"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "目的・結果",
                 "practicePassage": {
-                    "en": "The charity was established to provide medical care for children in developing countries. Volunteers traveled to remote regions so that they could distribute essential supplies. The organization raised enough funds to build three hospitals. The facilities were so well-equipped that patients no longer needed to travel long distances for treatment. As a result of these efforts, the infant mortality rate in the region dropped by forty percent.",
-                    "ja": "その慈善団体は発展途上国の子どもたちに医療を提供するために設立された。ボランティアは必要な物資を配布できるように辺境の地域に旅した。組織は3つの病院を建設するのに十分な資金を集めた。施設は非常に充実していたため、患者はもはや治療のために長距離を移動する必要がなくなった。これらの努力の結果、その地域の乳児死亡率は40パーセント減少した。"
+                    "en": "[出典: The Development of Colleges in the United States]\nWith the exception of a few older, elite institutions, most US colleges only had a small number of students and instructors. Rather than being scholars, the faculty members were often religious men representing the different branches of Christianity that existed in the United States at the time. Administrators knew this would help to attract students from those religious organizations. Gaining admission to colleges was generally not difficult as long as students could pay the tuition, which, as a result of fierce competition to recruit students, was kept low. Unfortunately, low student numbers meant that many colleges were forced to close down, and those that survived could only continue operating through constant fundraising.",
+                    "ja": "少数の古い名門校を除き、アメリカのほとんどの大学には限られた数の学生しかいなかった。教授は幅広い科目を教えることが期待されており、専門化はほとんどなかった。さらに、学生は厳格な規律に従うことが求められ、宗教的な活動への参加も義務づけられていた。カリキュラムは主に古典語と道徳哲学に焦点を当てており、実用的な科目はほとんど提供されていなかった。こうした制限は、大学教育を少数のエリート層のためのものに限定する結果となっていた。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2285,32 +2290,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'has enabled companies to recruit' を人間主語で？",
-                        "a": "Because remote work has become widespread, companies can recruit talent from a larger pool."
+                        "q": "'better-trained and more highly motivated soldiers' の比較構文を説明してください。",
+                        "a": "「より訓練され、より高い動機づけの兵士」。better-trained = より訓練された、more highly motivated = より動機づけの高い。"
                     },
                     {
-                        "q": "'has led to a dramatic reduction' と 'has allowed parents to balance' の違いは？",
-                        "a": "led to + 名詞（結果）。allowed + O + to V（許容・可能）。"
+                        "q": "'led to it achieving several impressive victories' の 'led to' はどのような因果ですか？",
+                        "a": "「いくつかの素晴らしい勝利の達成につながった」。改革→兵士の質の向上→勝利という因果連鎖。"
                     },
                     {
-                        "q": "'has deprived some employees of' の構文は？",
-                        "a": "deprive + O + of + 名詞 = 「Oから～を奪う」。無生物主語構文。"
+                        "q": "'made it possible for soldiers to execute complex tactics' を説明してください。",
+                        "a": "「兵士が複雑な戦術を実行することを可能にした」。made it possible for = enabled / allowed。無生物主語構文。"
+                    },
+                    {
+                        "q": "マリウス改革が軍事的にもたらした具体的成果は何ですか？",
+                        "a": "標準化された装備と訓練により統一行動が可能に。複雑な戦術の実行。領土拡大と地中海の覇権確立。"
                     }
                 ],
                 "highlightPatterns": [
-                    "led to",
-                    "caused",
-                    "enabled",
-                    "prevented",
-                    "allowed",
                     "made it",
-                    "resulted in"
+                    "led to",
+                    "achieving"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "無生物主語",
                 "practicePassage": {
-                    "en": "The widespread adoption of remote work has enabled companies to recruit talent from a much larger geographic pool. This shift has led to a dramatic reduction in demand for traditional office space. The flexibility of working from home has allowed parents to better balance their professional and family responsibilities. At the same time, the lack of face-to-face interaction has deprived some employees of the social connections that sustain workplace morale. The long-term effects of this transformation remain to be seen.",
-                    "ja": "リモートワークの広範な普及により、企業はより広い地域から人材を採用できるようになった。この変化は従来のオフィススペースの需要の劇的な減少をもたらした。在宅勤務の柔軟性により、親は仕事と家族の責任をより良くバランスさせることができるようになった。同時に、対面でのやり取りの欠如が一部の従業員から職場の士気を支える社会的つながりを奪っている。この変革の長期的な影響はまだわかっていない。"
+                    "en": "[出典: The Marian Reforms]\nThe Roman army's better-trained and more highly motivated soldiers led to it achieving significant military triumphs that contributed to Rome's expansion. The land that former legionaries received was generally in newly conquered provinces, so these veterans were instrumental in spreading Roman culture. Their presence also made it easier to overcome local resistance to Roman rule and facilitated the process of integration into the Roman Republic. The mere presence of the veterans brought greater security to new territories, since they could assist in preventing rebellions and resisting invasions.",
+                    "ja": "ローマ軍のより訓練され、より高い動機づけを持つ兵士たちは、戦場でいくつかの素晴らしい勝利を達成した。改革により、軍は以前よりもはるかに組織的で効果的な戦闘力を持つようになった。標準化された装備と訓練により、兵士たちはより統一的に行動でき、複雑な戦術を実行することが可能になった。これはローマの領土拡大を加速させ、地中海世界におけるローマの覇権を確立することにつながった。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2339,38 +2345,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'construct a massive data center' を言い換えると？",
-                        "a": "build a very large computing facility / erect an enormous server complex"
+                        "q": "'faced the threat of several enemy nations' を言い換えてください。",
+                        "a": "'confronted dangers from multiple hostile states'。faced = confronted, threat = danger, enemy nations = hostile states。"
                     },
                     {
-                        "q": "'well-paying jobs' を言い換えると？",
-                        "a": "high-salary positions / lucrative employment / generously compensated roles"
+                        "q": "'poorly trained soldiers' を言い換えてください。",
+                        "a": "'inadequately prepared troops' や 'insufficiently skilled warriors'。poorly trained = inadequately prepared。"
                     },
                     {
-                        "q": "'raised concerns about' を言い換えると？",
-                        "a": "expressed worries over / voiced objections regarding / highlighted issues with"
+                        "q": "'struggled to maintain sufficient numbers' を別の表現で言い換えると？",
+                        "a": "'had difficulty keeping adequate troop levels' や 'found it challenging to sustain enough personnel'。"
                     },
                     {
-                        "q": "'short-term economic gains justify the possible long-term environmental consequences' を言い換えると？",
-                        "a": "immediate financial benefits outweigh the potential lasting ecological damage"
+                        "q": "マリウス改革以前のローマ軍の問題点を要約してください。",
+                        "a": "土地所有の市民のみで構成、自費装備、訓練不足、兵力不足。経済力のある市民しか兵士になれない制約。"
                     }
                 ],
                 "highlightPatterns": [
-                    "strenuous",
-                    "compile",
-                    "condense",
-                    "dwindling",
-                    "compulsion",
-                    "frown upon",
-                    "sit in on",
-                    "wipe out",
-                    "go about"
+                    "faced the threat",
+                    "Around the end of"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "A leading tech company recently announced plans to construct a massive data center in a rural community. The project is expected to bring hundreds of well-paying jobs to the area. Local officials expressed enthusiasm about the potential economic benefits. However, environmental groups raised concerns about the facility's enormous energy consumption. Residents are divided over whether the short-term economic gains justify the possible long-term environmental consequences.",
-                    "ja": "大手テクノロジー企業は最近、農村コミュニティに大規模なデータセンターを建設する計画を発表した。このプロジェクトはその地域に何百もの高給の仕事をもたらすことが期待されている。地元当局は潜在的な経済的利益について熱意を表明した。しかし、環境団体は施設の莫大なエネルギー消費への懸念を提起した。住民は短期的な経済的利益が長期的な環境への影響を正当化するかどうかで意見が分かれている。"
+                    "en": "[出典: The Marian Reforms]\nAround the end of the second century BC, the Roman Republic faced the threat of an invasion by tribal peoples from Western Europe and experienced a series of humiliating defeats in Africa. Realizing that the Roman army was no longer able to meet the needs of the rapidly expanding republic, the Roman leader Gaius Marius set about implementing sweeping reforms. These became known as the Marian reforms, and they transformed the Roman army into a nearly unstoppable military machine that was arguably the most effective fighting force in ancient times. Traditionally, enlistment of soldiers into the Roman army had been on a temporary basis, which necessitated constant recruitment and inevitably led to new recruits often having no previous fighting experience. Furthermore, property ownership was required for entry into the army, and increasing poverty within the Roman Republic severely reduced the pool of potential recruits who could meet this requirement.",
+                    "ja": "紀元前2世紀末頃、ローマ共和国はいくつかの敵国からの脅威に直面していた。当時のローマ軍は主に土地を所有する市民で構成されており、兵士は自費で装備を調達しなければならなかった。この制度は訓練不足の兵士を生み、ローマ軍は十分な兵力を維持するのに苦労していた。将軍ガイウス・マリウスはこれらの問題を認識し、軍の根本的な改革を提案した。彼の改革は市民権や土地所有に関係なくすべてのローマ人に軍への入隊を認め、国家が装備と訓練を提供する制度を確立した。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

@@ -1836,30 +1836,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'If they had brought' の構文名は？",
-                        "a": "仮定法過去完了。If + S + had + p.p., S + would/could/might + have + p.p.。過去の事実に反する仮定。"
+                        "q": "この段落で Dalley の研究はどのような新しい説を提示していますか？",
+                        "a": "バビロンの空中庭園の場所が従来考えられていたバビロンではなく、別の場所（ニネベ）にあった可能性。"
                     },
                     {
-                        "q": "'Had the weather been' は何の変形？",
-                        "a": "仮定法の倒置。If the weather had been... → Had the weather been...。Ifを省略して倒置する文語的表現。"
+                        "q": "'suggests that' はどのような論証の強さを示しますか？",
+                        "a": "断定ではなく推測・示唆。学術的な慎重さを示す表現。確定的な証拠はないが根拠ある推論であることを暗示。"
                     },
                     {
-                        "q": "'Without the quick thinking' を If 節に書き換えると？",
-                        "a": "If it had not been for the quick thinking of the pilot, ..."
+                        "q": "'could have been built' の仮定法過去完了はなぜ使われていますか？",
+                        "a": "過去の可能性・推量を表す。「建設された可能性がある」。実際の事実は不確かだが、ありえた状況を述べる。"
+                    },
+                    {
+                        "q": "従来の説と Dalley の説の違いは何ですか？",
+                        "a": "従来: ネブカドネザル2世がバビロンに建設。Dalley: 別の王が別の都市に建設した可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would have",
                     "could have",
-                    "may have",
-                    "might have",
-                    "may well"
+                    "may be focusing on the wrong location",
+                    "suggests that"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "仮定・推量",
                 "practicePassage": {
-                    "en": "If the explorers had brought enough supplies, they would not have been forced to turn back. Had the weather been more favorable, the expedition might have reached the summit. The rescue team could have arrived sooner, but the roads were blocked by fallen trees. She would have accepted the scholarship if she had known about it earlier. Without the quick thinking of the pilot, the passengers might not have survived the emergency landing.",
-                    "ja": "探検家たちが十分な物資を持っていたら、引き返すことを余儀なくされなかっただろう。天候がもっと好都合だったら、遠征隊は頂上に到達していたかもしれない。救助チームはもっと早く到着できたはずだが、倒木で道路がふさがれていた。彼女がもっと早くそのことを知っていたら、奨学金を受け入れていただろう。パイロットの素早い判断がなければ、乗客は緊急着陸を生き延びられなかったかもしれない。"
+                    "en": "[出典: The Hanging Gardens of Babylon]\nResearch by scholar Stephanie Dalley suggests that efforts to find the gardens may be focusing on the wrong location. Dalley translated texts written by a king named Sennacherib, who lived a century before Nebuchadnezzar. The texts describe impressive raised gardens at Sennacherib's palace. Sennacherib, however, ruled in the city of Nineveh, 300 miles from Babylon. Dalley notes that Sennacherib also constructed complex systems for transporting water into Nineveh, and she believes these could have been used to maintain the gardens there. If Dalley is correct, ancient descriptions of the Hanging Gardens of Babylon may actually refer to the gardens at Sennacherib's palace.",
+                    "ja": "学者ステファニー・ダリーの研究は、庭園を見つける努力が間違った場所に焦点を当てている可能性を示唆している。ダリーはネブカドネザルの1世紀前に生きたセンナケリブという王が書いた文献を翻訳した。その文献にはセンナケリブの宮殿にある見事な高架式庭園が描かれている。しかしセンナケリブはバビロンから300マイル離れたニネベの都市を統治していた。ダリーは、センナケリブがニネベに水を運ぶための複雑なシステムも建設しており、それが庭園の維持に使われた可能性があると指摘している。もしダリーが正しければ、バビロンの空中庭園に関する古代の記述は実際にはセンナケリブの宮殿の庭園を指しているのかもしれない。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1888,32 +1891,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Likewise' と 'Similarly' の違いは？",
-                        "a": "ほぼ同義。Likewise = 同様に（やや堅い）。Similarly = 同じように（一般的）。"
+                        "q": "'Fortunately, the situation was not permanent' の 'Fortunately' はどのような評価を加えていますか？",
+                        "a": "「幸いにも」。前段の厳しい状況に対して、好転したことへの肯定的評価。読者の期待を切り替える接続副詞。"
                     },
                     {
-                        "q": "'In contrast' と 'Whereas' の文法的違いは？",
-                        "a": "In contrast = 副詞句（文頭で独立）。Whereas = 接続詞（+ SV が続く）。"
+                        "q": "'started focusing on promoting single malt whiskey as a premium product' の戦略転換は何ですか？",
+                        "a": "大量生産・低価格路線から、シングルモルトを高級品としてブランド化する戦略への転換。"
                     },
                     {
-                        "q": "'By the same token' はどういう意味？",
-                        "a": "「同様の理由で」「それと同じように」。前述の論理を別の例に適用する時に使う。"
+                        "q": "スコッチウイスキー産業の復活の要因は何ですか？",
+                        "a": "シングルモルトの高級ブランド化と、品質重視のマーケティング戦略への転換。"
+                    },
+                    {
+                        "q": "'not permanent' はどのような逆転を示唆していますか？",
+                        "a": "1980年代の不況は一時的なもので、永続的ではなかったこと。悪い状況が好転する可能性を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Nonetheless",
-                    "Similarly",
-                    "In contrast",
-                    "Nevertheless",
-                    "Likewise",
-                    "However",
-                    "Yet"
+                    "Fortunately",
+                    "not permanent",
+                    "started focusing on"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "接続表現",
                 "practicePassage": {
-                    "en": "Japan and South Korea share many cultural similarities. Likewise, both countries place a high value on education and family bonds. Similarly, they have experienced rapid economic growth in the post-war era. In contrast, their approaches to immigration policy differ significantly. Whereas Japan has traditionally maintained strict immigration controls, South Korea has recently adopted a more open approach. By the same token, their foreign policy strategies reflect different historical experiences.",
-                    "ja": "日本と韓国は多くの文化的類似点を共有している。同様に、両国とも教育と家族の絆に高い価値を置いている。同じく、戦後に急速な経済成長を経験した。対照的に、移民政策へのアプローチは大きく異なる。日本が伝統的に厳しい移民管理を維持してきた一方で、韓国は最近より開放的なアプローチを採用している。同様の理由で、外交政策の戦略も異なる歴史的経験を反映している。"
+                    "en": "[出典: The Rebirth of the Scottish Whiskey Industry]\nFortunately, the situation was not permanent. Scottish whiskey producers started focusing on promoting high-quality products known as single-malt whiskeys. Also important were their efforts to inform consumers about the merits of these whiskeys, why they commanded a higher price, and how they could be paired with food or cigars. This strategy was highly successful and encouraged consumers abroad to open their wallets for premium Scottish whiskeys. This, in turn, led to whiskey makers in other nations imitating the strategy and creating their own luxury brands. Today, interest in and demand for whiskey has never been stronger.",
+                    "ja": "幸いなことに、その状況は永続的なものではなかった。スコッチウイスキーの生産者は、シングルモルトウイスキーとして知られる高品質製品の宣伝に注力し始めた。同様に重要だったのは、これらのウイスキーの長所、なぜ高い価格がつくのか、料理や葉巻とどう組み合わせられるかを消費者に知らせる努力だった。この戦略は大成功を収め、海外の消費者にプレミアムスコッチウイスキーに財布の紐を緩めるよう促した。これにより、他国のウイスキーメーカーもこの戦略を模倣し、独自の高級ブランドを生み出すことにつながった。現在、ウイスキーへの関心と需要はかつてないほど高まっている。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1942,31 +1946,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'whose research' の whose は何を指すか？",
-                        "a": "The professor の所有格。whose = of whom。非制限用法（カンマ付き）で補足情報を追加。"
+                        "q": "'Debate continues, however, about how Richard became king' の 'however' は何を示しますか？",
+                        "a": "「しかしながら」。前段（リチャード擁護の議論）に対して、議論がまだ続いていること・反論の存在を示す逆接。"
                     },
                     {
-                        "q": "'in which' と 'where' の関係は？",
-                        "a": "in which = where。前置詞+関係代名詞はフォーマル。The laboratory where the discovery was made. と同義。"
+                        "q": "'in which' は何を先行詞としていますか？",
+                        "a": "前置詞 + 関係代名詞。'his two years in power' などの名詞句を先行詞とし、その期間内の出来事を説明する。"
                     },
                     {
-                        "q": "'What surprised researchers most' の What は何？",
-                        "a": "先行詞を含む関係代名詞。What = The thing that。名詞節を作る。"
+                        "q": "リチャード3世についての議論が続いている理由は何ですか？",
+                        "a": "王位取得の経緯と在位中の行為について、擁護派と批判派の見解が分かれているため。"
+                    },
+                    {
+                        "q": "'suggests that' はこの段落でどのような証拠の扱いですか？",
+                        "a": "断定を避けた表現。歴史的証拠が完全ではないため、推測・示唆にとどめている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "which",
-                    "who",
-                    "whose",
-                    "whom",
-                    "where",
-                    "in which"
+                    "in which",
+                    "however",
+                    "Debate continues"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "関係詞",
                 "practicePassage": {
-                    "en": "The professor, whose research on climate change has won international awards, will deliver the keynote speech. The laboratory in which the breakthrough discovery was made is now a museum. The period during which the ancient civilization flourished is still debated by historians. What surprised researchers most was the speed at which the ice was melting. The reason why many species are declining is closely linked to habitat destruction.",
-                    "ja": "気候変動に関する研究で国際的な賞を受賞した教授が基調講演を行う。画期的な発見がなされた研究室は現在博物館になっている。古代文明が栄えた時期は歴史家の間でまだ議論されている。研究者を最も驚かせたのは氷が溶ける速度だった。多くの種が減少している理由は生息地の破壊と密接に関連している。"
+                    "en": "[出典: Richard III]\nDebate continues, however, about how Richard became king and the things he did during his two years in power. The Richard III Society points to his notable social and political reforms and claims that he is innocent of the murders that were the source of his unfortunate reputation. However, while acknowledging that some of Richard's policies were beneficial, many historians believe he was far from a generous or caring king and may very well have committed cruel acts. In the end, it is probably wisest to see Richard as a ruler who operated in a manner typical of the time in which he lived, and to realize that exactly how he came to power may not really matter that much.",
+                    "ja": "しかし、リチャードがどのように王になったか、また在位2年間に行ったことについての議論は続いている。リチャード3世協会は彼の注目すべき社会的・政治的改革を指摘し、不幸な評判の原因となった殺人については無実だと主張している。しかし、リチャードの政策の一部が有益だったことを認めながらも、多くの歴史家は彼が寛大で思いやりのある王からは程遠く、残酷な行為を行った可能性が十分あると考えている。結局のところ、リチャードをその生きた時代に典型的なやり方で統治した支配者と見なし、彼がどのように権力を得たかは実際にはそれほど重要ではないかもしれないと認識するのがおそらく最も賢明だろう。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1995,32 +2001,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'enabled doctors to treat' を人間主語で書き換えると？",
-                        "a": "Because antibiotics were discovered, doctors were able to treat infections..."
+                        "q": "'The idea... seems logical' の無生物主語構文を説明してください。",
+                        "a": "「その考えは論理的に思える」。The idea（無生物）が主語。人ではなく概念を主語にして議論を客観的に述べる。"
                     },
                     {
-                        "q": "'forced airlines to reduce' と 'allowed consumers to compare' の違いは？",
-                        "a": "force = 強制（やむを得ず～させる）。allow = 許容（～することを可能にする）。"
+                        "q": "'it has not had the effect that was intended' はどのような結果を示しますか？",
+                        "a": "「意図された効果を生んでいない」。養殖が天然魚の保護に役立つという期待が裏切られたこと。"
                     },
                     {
-                        "q": "'prevented workers from completing' の構造は？",
-                        "a": "prevent + O + from + Ving = 「Oが～するのを妨げる」。"
+                        "q": "'encouraged' はどのような因果関係で使われていますか？",
+                        "a": "「促進した・助長した」。養殖の成長が別の問題を促進したという意図せぬ因果関係。"
+                    },
+                    {
+                        "q": "この段落で養殖の期待と現実のギャップは何ですか？",
+                        "a": "期待: 養殖で天然魚の乱獲を減らせる。現実: 養殖は乱獲問題を解決していない。"
                     }
                 ],
                 "highlightPatterns": [
                     "led to",
-                    "caused",
-                    "made",
                     "encouraged",
-                    "prevented",
-                    "enabled",
-                    "forced"
+                    "seems logical"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "無生物主語",
                 "practicePassage": {
-                    "en": "The discovery of antibiotics enabled doctors to treat infections that had previously been fatal. Rising fuel prices have forced many airlines to reduce the number of flights. The introduction of online shopping has allowed consumers to compare prices easily. Heavy rainfall prevented the construction workers from completing the project on time. Advances in artificial intelligence are likely to make many traditional jobs obsolete.",
-                    "ja": "抗生物質の発見により医師はそれまで致命的だった感染症を治療できるようになった。燃料価格の上昇は多くの航空会社にフライト数の削減を余儀なくさせた。オンラインショッピングの導入により消費者は簡単に価格を比較できるようになった。大雨のため建設作業員はプロジェクトを予定通りに完成させることができなかった。人工知能の進歩は多くの伝統的な仕事を時代遅れにする可能性が高い。"
+                    "en": "[出典: Aquaculture and Wild Fish Stocks]\nThe idea that a resource can be conserved by using another, more easily replaceable one seems logical. However, cases in various industries suggest that the opposite is true. For example, it was once assumed that replacing traditional energy sources with renewable ones would lower demand for fossil fuels, but the increased supply has actually led to greater overall energy consumption. Similarly, it is now believed that the availability of farmed fish has merely encouraged people to consume fish in greater quantities.",
+                    "ja": "ある資源をより容易に置き換え可能な別の資源で保全できるという考えは論理的に思える。しかし、さまざまな産業の事例は、その逆が真実であることを示唆している。例えば、従来のエネルギー源を再生可能エネルギーに置き換えれば化石燃料の需要が下がると考えられていたが、供給の増加は実際にはエネルギー消費全体の増大につながった。同様に、養殖魚の入手可能性は単に人々がより大量の魚を消費することを促しただけだと現在考えられている。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2049,37 +2056,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'invested billions of dollars in developing' を言い換えると？",
-                        "a": "spent enormous sums of money on creating / allocated vast resources toward the creation of"
+                        "q": "'considered by many to be the Khmer empire's golden age' を言い換えてください。",
+                        "a": "'widely regarded as the peak period of the Khmer civilization'。golden age = peak period / zenith。"
                     },
                     {
-                        "q": "'highly effective against the disease' を言い換えると？",
-                        "a": "very successful in combating the illness / extremely potent at fighting the condition"
+                        "q": "'may also have contributed to its decline' を言い換えてください。",
+                        "a": "'might have played a role in the empire's fall'。contributed to = played a role in。decline = fall / collapse。"
                     },
                     {
-                        "q": "'an unprecedented timeframe' を言い換えると？",
-                        "a": "a period shorter than ever before / a historically fast schedule / record-breaking speed"
+                        "q": "'economic burden' を別の表現で言い換えると？",
+                        "a": "'financial strain' や 'fiscal pressure'。economic burden = financial strain / heavy economic cost。"
                     },
                     {
-                        "q": "'prompted some individuals to hesitate' を言い換えると？",
-                        "a": "caused certain people to have second thoughts / led some to be reluctant / made a number of people cautious"
+                        "q": "ジャヤーヴァルマン7世の統治の功罪を要約してください。",
+                        "a": "功: 平和と繁栄をもたらした黄金期。罪: 大規模建設事業が経済的負担となり帝国の衰退に寄与した可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "outweigh",
-                    "spacious",
-                    "nurture",
-                    "weary",
-                    "sustain",
-                    "fanatical",
-                    "remote",
-                    "habitual"
+                    "considered by many",
+                    "golden age",
+                    "may also have"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The pharmaceutical company invested billions of dollars in developing a new vaccine. Clinical trials demonstrated that the vaccine was highly effective against the disease. Regulatory authorities granted emergency approval within an unprecedented timeframe. The mass vaccination campaign significantly reduced the number of hospitalizations. However, concerns about potential side effects prompted some individuals to hesitate before getting vaccinated.",
-                    "ja": "製薬会社は新しいワクチンの開発に数十億ドルを投資した。臨床試験はワクチンがその疾患に対して非常に効果的であることを示した。規制当局は前例のない期間内に緊急承認を与えた。大規模なワクチン接種キャンペーンは入院数を大幅に減少させた。しかし、潜在的な副作用への懸念が一部の人々をワクチン接種前にためらわせた。"
+                    "en": "[出典: The Temples of Jayavarman VII]\nWhile Jayavarman's time as king is considered by many to be the Khmer empire's golden age, it may also have paved the way for the empire's downfall. According to some researchers, Jayavarman's temple construction was evidence of his policy of centralizing power. As the king himself took ownership of the temples' lands, a unified, government-controlled system emerged, depriving local landowners of power. Meanwhile, construction of the temples required that tens of thousands of people relocate to cities, which meant there were far fewer people in rural areas to farm the land and produce food for the empire. Furthermore, the building projects used up a significant amount of the empire's wealth. These factors combined became a huge problem for later Khmer kings when the empire suffered because of droughts and monsoons.",
+                    "ja": "ジャヤーヴァルマンの王としての時代はクメール帝国の黄金時代と多くの人に考えられている一方で、帝国の衰退への道を切り開いた可能性もある。一部の研究者によると、ジャヤーヴァルマンの寺院建設は権力を中央集権化する政策の証拠だった。王自身が寺院の土地の所有権を取得するにつれ、統一された政府管理のシステムが出現し、地方の地主から権力を奪った。一方、寺院建設のために数万人が都市に移住する必要があり、農地を耕し帝国のための食料を生産する農村部の人々がはるかに少なくなることを意味した。さらに、建設プロジェクトは帝国の富のかなりの量を消費した。これらの要因が重なり合い、帝国が干ばつやモンスーンの被害を受けた際に、後のクメール王にとって大きな問題となった。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

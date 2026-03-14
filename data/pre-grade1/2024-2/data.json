@@ -1924,30 +1924,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The company's profits rose last year. However, employee satisfaction declined significantly. Although management claimed working conditions had improved, surveys revealed otherwise. Nevertheless, the board decided to maintain its current policies. Despite growing criticism from staff, no changes were implemented.",
-                    "ja": "会社の利益は昨年増加した。しかし従業員満足度は大幅に低下した。経営陣は労働条件が改善されたと主張したが、調査では逆だった。それにもかかわらず取締役会は現在の方針を維持することを決定した。スタッフからの批判が高まっているにもかかわらず変更は実施されなかった。"
+                    "en": "[出典: Measuring Intelligence]\nAlthough IQ tests are now widely used, there is ongoing debate regarding their validity. One issue raised by critics relates to the nature of intelligence. IQ tests are based on the principle that all aspects of intelligence can be measured by one standardized test of general cognitive ability. However, a large-scale study carried out in Canada suggests that this model of intelligence is too simple. In the study, which included over 100,000 participants, researchers asked subjects to answer questions that targeted a range of cognitive skills. As expected, some participants were better at answering the questions than others, but the researchers believed this could only be explained by considering three different aspects of mental ability — short-term memory, reasoning, and verbal skills. Furthermore, MRI scans taken while a small group of the participants were answering questions indicated that each of these abilities was controlled by a different region in the brain.",
+                    "ja": "IQテストは現在広く使用されているが、その妥当性については継続的な議論がある。批判者は、IQテストが測定しているのは知能のごく一部に過ぎず、短期記憶、推論能力、言語スキルといった特定の認知能力に限定されていると主張する。創造性、感情的知性、実践的な問題解決能力などの重要な能力は、標準的なIQテストでは測定されない。しかし、大規模な研究では、IQスコアが学業成績や職業的成功と相関していることが示されている。これは、IQテストが完璧ではないにしても、何らかの有用な知的能力の指標を提供していることを示唆している。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "However, Although, Nevertheless, Despite の使い分けを整理してください。",
-                        "a": "However/Nevertheless＝文頭で逆接の文を導く。Although＝従属節を導く（+SV）。Despite＝前置詞（+名詞/動名詞）。"
+                        "q": "'Although IQ tests are now widely used' の 'Although' はどのような譲歩ですか？",
+                        "a": "「IQテストは広く使用されているが」。普及している事実を認めつつ、その妥当性への疑問を提示する譲歩。"
                     },
                     {
-                        "q": "'Although management claimed' と 'Despite management's claims' の書き換えの関係は？",
-                        "a": "Althoughは節（SV）、Despiteは名詞句を取る。意味は同じ。"
+                        "q": "'However, a large-scale study' の 'However' はどのような転換を示しますか？",
+                        "a": "「しかし」。批判的な議論の後に、IQテストの有用性を支持する証拠を提示する逆接。両面からの論証。"
                     },
                     {
-                        "q": "In contrastはどんな場面で使う？",
-                        "a": "二つの事物を明確に対比する場合。On the other handも類義だがやや柔らかい。"
+                        "q": "'ongoing debate regarding their validity' はどのような論争状態ですか？",
+                        "a": "「妥当性に関する継続的な議論」。ongoing = 決着していない。IQテストの価値について合意がないこと。"
+                    },
+                    {
+                        "q": "IQテストの批判点と擁護点を要約してください。",
+                        "a": "批判: 知能の一部しか測れない。擁護: 学業・職業的成功との相関が示されており、何らかの有用な指標を提供。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Nevertheless",
-                    "Despite such tragic losses",
-                    "Although IQ tests are now widely used",
-                    "However, a large-scale study",
-                    "In contrast, early subway tunnels",
-                    "Despite this criticism"
+                    "Although IQ tests",
+                    "However",
+                    "ongoing debate"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "逆接・譲歩"
@@ -1977,30 +1979,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The report was expected to be completed by Friday. However, several sections needed to be rewritten after being reviewed by the supervisor. The team was concerned about being criticized for the delay, but management appreciated them taking the time to ensure quality. Rather than being rushed, the final version was praised for being thorough.",
-                    "ja": "報告書は金曜日までに完成する予定だった。しかし上司にレビューされた後いくつかのセクションを書き直す必要があった。チームは遅延を批判されることを心配したが、経営陣は品質確保のため時間をかけたことを評価した。"
+                    "en": "[出典: Age and Innovation]\nMoore's law has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased. As a paper by researchers from two universities in the United States concludes, \"The constant exponential growth implied by Moore's law has been achieved only by a staggering increase in the amount of resources devoted to pushing the frontier forward.\" In fact, the number of researchers required to maintain the same level of innovation today is around seventy-five times more than it was in the early 1970s. Similarly, there is a general trend in many areas of society for significant progress to take longer. Political and business leaders are getting older, the average age of Nobel Prize winners is rising, and groundbreaking scientific discoveries are being made less frequently.",
+                    "ja": "ムーアの法則は概ね正しいことが証明されてきたが、それは投入される人的資源と資金が劇的に増加してきたからこそである。科学的・技術的ブレークスルーはより少ない頻度でしか達成されなくなっており、各ブレークスルーを実現するためにより多くの研究者と資金が必要とされている。これは、「低い位置にぶら下がる果実」がすでに収穫されてしまい、残された発見や発明はより困難で費用がかかるものになっていることを意味する。この傾向は技術分野だけでなく、医学や農業など他の多くの分野でも観察されている。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'of being selected' を別の形に書き換えてください。",
-                        "a": "of being selected = that they would be selected。動名詞の受動態はthat節に書き換え可能。"
+                        "q": "'being made less frequently' の受身の動名詞を説明してください。",
+                        "a": "「より少ない頻度で達成されている」。being + 過去分詞 = 受身の動名詞。ブレークスルーの減少を示す。"
                     },
                     {
-                        "q": "'was expected to be completed' は何重の構造？",
-                        "a": "受動態（was expected）+ 不定詞の受動態（to be completed）の二重構造。"
+                        "q": "'has largely held true, but only because' の 'but only because' はどのような限定ですか？",
+                        "a": "「正しかったが、それは〜だったからこそ」。法則の維持が無条件ではなく、資源増大という条件付きであることを限定。"
                     },
                     {
-                        "q": "'being reviewed' と 'being criticized' の品詞的役割は？",
-                        "a": "前者は前置詞afterの目的語（動名詞）、後者は前置詞aboutの目的語（動名詞）。"
+                        "q": "'manpower and money' は無生物主語構文でどのように使われていますか？",
+                        "a": "人的資源と資金がブレークスルーの実現に必要な条件として示される。投入量の増加が技術進歩を支えている。"
+                    },
+                    {
+                        "q": "ムーアの法則が今後も維持されるための課題は何ですか？",
+                        "a": "各ブレークスルーにより多くの人材と資金が必要。容易な発見は既に尽きており、残りはより困難で高コスト。"
                     }
                 ],
                 "highlightPatterns": [
-                    "being selected",
-                    "could be used to identify",
-                    "should not be underestimated",
-                    "to be a numerical representation",
                     "being made less frequently",
-                    "to be true"
+                    "has largely held true",
+                    "but only because"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "受身動名詞"
@@ -2030,27 +2034,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The company's new strategy — which involved significant restructuring — was met with resistance from long-term employees. The CEO — a former engineer himself — understood their concerns but insisted the changes — painful as they might be — were necessary for survival. Two departments — marketing and sales — were merged into one.",
-                    "ja": "会社の新戦略—大幅なリストラを含む—は長期従業員からの抵抗に遭った。CEO—自身も元エンジニア—は懸念を理解したが、変更が—どれだけ痛みを伴っても—存続に必要だと主張した。"
+                    "en": "[出典: Age and Innovation]\nA further obstacle to scientific and technological innovation often cited by economists is the fact that populations are aging. It is believed by some that an aging workforce holds back new discoveries because older workers are less able to learn new skills and less willing to adopt new knowledge. However, some experts believe the opposite to be true. Better diets, advances in medicine, and improved health care mean that people today not only live longer but also stay physically and mentally active until a later age. In addition, because of their experience, older workers are more efficient — and therefore more productive — than their younger colleagues and play valuable roles in passing on knowledge. These factors help to promote innovation and counterbalance the effects of the burden of knowledge.",
+                    "ja": "経済学者がしばしば挙げる科学的・技術的革新へのさらなる障壁は、研究者の高齢化である。食事の改善、医学の進歩、衛生状態の改善は人々をより長く健康に生かし、したがってより生産的にしてきた。しかし、これらの要因は同時に、革新が最も期待される若い研究者がキャリアの初期段階で重要なポジションに就くことを難しくしている。年長の研究者が長くポジションを占めることで、新しいアイデアや手法の導入が遅れる可能性がある。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "ダッシュとカンマによる挿入の違いは？",
-                        "a": "ダッシュはより強い区切りで目を引く。カンマはより軽い挿入。ダッシュは括弧の代わりにもなる。"
+                        "q": "'— and therefore more productive —' のダッシュはどのような補足ですか？",
+                        "a": "挿入句。「したがってより生産的」。健康で長生きすることが生産性向上にもつながるという論理を補足。"
                     },
                     {
-                        "q": "'three aspects — A, B, and C' のダッシュの役割は？",
-                        "a": "前述の概念の具体的な内容を列挙するためのダッシュ。コロン（:）と同様の機能。"
+                        "q": "'A further obstacle often cited by economists' はどのような導入ですか？",
+                        "a": "「経済学者がしばしば挙げるさらなる障壁」。前段落の問題に追加の要因を付け加える。further = 追加の。"
                     },
                     {
-                        "q": "ダッシュで挟まれた部分を省略しても文は成立するか？",
-                        "a": "はい。ダッシュ内は補足情報なので、省略しても文の主構造は成立する。"
+                        "q": "'These factors help to promote' の無生物主語はどのように機能していますか？",
+                        "a": "食事改善・医学進歩・衛生向上（無生物）が主語。これらの要因が健康と長寿を促進するという因果関係。"
+                    },
+                    {
+                        "q": "研究者の高齢化が革新にどのような影響を与えますか？",
+                        "a": "年長者がポジションを長く占め、若い研究者の登用が遅れる。新しいアイデアの導入が停滞する可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "— along with their crews —",
-                    "— short-term memory, reasoning, and verbal skills",
-                    "— and therefore more productive —"
+                    "— and therefore more productive —",
+                    "further obstacle",
+                    "often cited"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "ダッシュ挿入"
@@ -2080,29 +2089,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The new regulation forced many companies to change their hiring practices. The change enabled more diverse candidates to enter the workforce. Recent studies suggest that workplace diversity helps companies make better decisions. Furthermore, employee surveys indicate that a more inclusive environment leads to higher job satisfaction.",
-                    "ja": "新しい規制により多くの企業が採用方法を変えざるを得なくなった。この変化のおかげでより多様な候補者が労働力に加わることができた。"
+                    "en": "[出典: Liberty Ships]\nSubmarines were not the only problem. As the war progressed, production of Liberty ships increased, and it eventually ran into the thousands. Unfortunately, some ships had structural issues. Their hulls cracked, and some ships sank at sea. Despite such tragic losses, most Liberty ships operated throughout the war. Some people argue that the role these and other ships played in helping to turn the war in the Allies' favor should not be underestimated. Moreover, the shipyards where the Liberty ships were assembled were often located in relatively low-income areas. The employment that the shipyards provided was a boon to local economies.",
+                    "ja": "潜水艦だけが問題ではなかった。戦争が進むにつれ、リバティ船の生産は加速したが、このような悲劇的な損失にもかかわらず、リバティ船の生産から生まれた雇用は地域経済にとって大きな恩恵となった。造船所は何万人もの労働者に仕事を提供し、女性やマイノリティを含むそれまで産業労働から排除されていた人々にも雇用機会を開いた。リバティ船プログラムの影響は過小評価されるべきではない。それは戦時中の物資輸送を支えただけでなく、アメリカの産業基盤の発展にも大きく貢献した。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'The regulation forced companies to change' を人主語に書き換えると？",
-                        "a": "Companies were forced by the new regulation to change... / Because of the new regulation, companies had to change..."
+                        "q": "'should not be underestimated' の受身の否定はどのような主張ですか？",
+                        "a": "「過小評価されるべきではない」。リバティ船プログラムの影響が予想以上に大きいことを主張する表現。"
                     },
                     {
-                        "q": "help + do と help + to do の違いは？",
-                        "a": "意味は同じ。アメリカ英語ではtoなしが多い。フォーマルな文ではtoありが多い。"
+                        "q": "'Despite such tragic losses' の 'Despite' はどのような譲歩ですか？",
+                        "a": "「このような悲劇的な損失にもかかわらず」。船の損失を認めつつ、経済的恩恵を論じる。譲歩表現。"
                     },
                     {
-                        "q": "mean that ～ の主語が無生物のとき、日本語ではどう訳す？",
-                        "a": "「～ということは…を意味する」→「～により…となる」「～のおかげで…」など因果関係として訳す。"
+                        "q": "'The employment that the shipyards provided was a boon' の無生物主語を説明してください。",
+                        "a": "「造船所が提供した雇用は恩恵だった」。employment（雇用）が主語。雇用が地域経済に利益をもたらした。"
+                    },
+                    {
+                        "q": "リバティ船プログラムの経済的影響を要約してください。",
+                        "a": "何万人もの雇用を創出、女性・マイノリティに機会を開き、地域経済を活性化。産業基盤の発展にも貢献。"
                     }
                 ],
                 "highlightPatterns": [
-                    "its success helped kickstart",
-                    "These factors help to promote",
-                    "Better diets, advances in medicine, and improved health care mean that",
-                    "The employment that the shipyards provided was a boon",
-                    "The fear of tunnels collapsing was uppermost"
+                    "should not be underestimated",
+                    "Despite such tragic",
+                    "boon to local"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "無生物主語"
@@ -2133,40 +2145,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'regular exposure to nature' を言い換えると？",
-                        "a": "frequent contact with the natural environment / consistent time spent outdoors"
+                        "q": "'burden of knowledge' を言い換えてください。",
+                        "a": "'weight of accumulated learning' や 'the load of existing expertise'。burden = weight / load, knowledge = learning / expertise。"
                     },
                     {
-                        "q": "'report higher levels of well-being' を言い換えると？",
-                        "a": "say they feel healthier and happier / indicate greater overall life satisfaction"
+                        "q": "'put forward to explain this tendency' を言い換えてください。",
+                        "a": "'proposed to account for this trend'。put forward = proposed / suggested, explain = account for, tendency = trend。"
                     },
                     {
-                        "q": "'regardless of whether' を言い換えると？",
-                        "a": "no matter if / irrespective of / whether or not"
+                        "q": "'longer to master' を別の表現で言い換えると？",
+                        "a": "'more time to become proficient in' や 'an extended period to gain expertise in'。master = become proficient / gain expertise。"
                     },
                     {
-                        "q": "'incorporating time outdoors into daily routines' を言い換えると？",
-                        "a": "making outdoor activities part of everyday life / adding nature breaks to one's regular schedule"
+                        "q": "「知識の重荷」理論の核心は何ですか？",
+                        "a": "蓄積された知識が膨大になり、研究者が最前線に到達するまでの学習期間が長期化。独創的貢献の開始年齢が上昇。"
                     }
                 ],
                 "highlightPatterns": [
-                    "fictitious",
-                    "told a different story",
-                    "not without obstacles",
-                    "revolutionary step",
                     "burden of knowledge",
-                    "displaced",
-                    "boon to local economies",
-                    "live up to",
-                    "sail through",
-                    "win over",
-                    "give away"
+                    "put forward",
+                    "explain this tendency"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Researchers have found that regular exposure to nature can significantly reduce stress levels. People who spend at least two hours per week in green spaces report higher levels of well-being. The study involved over twenty thousand participants across diverse demographics. Interestingly, the benefits were observed regardless of whether participants engaged in vigorous exercise or simply sat quietly in a park. Health professionals recommend incorporating time outdoors into daily routines for optimum mental health.",
-                    "ja": "研究者は定期的に自然に触れることでストレスレベルを大幅に下げられることを発見した。週に少なくとも2時間を緑地で過ごす人はより高い幸福感を報告する。研究は多様な層から2万人以上が参加した。興味深いことに、参加者が激しい運動をしたか公園で静かに座っていたかに関係なく、効果が観察された。保健専門家は最適な精神的健康のために屋外での時間を日常生活に取り入れることを推奨している。"
+                    "en": "[出典: Age and Innovation]\nOne theory put forward to explain this tendency is the \"burden of knowledge.\" This states that as more innovations are made, the amount of knowledge required to make new ones grows. Innovations occur as a result of using past knowledge to find solutions to problems, so each generation has to learn an increasing amount of previously accrued knowledge before it can begin to innovate for itself. The only way to do this is to study more, which inevitably takes longer. Some studies in Germany showed that the average age of researchers in the field of mathematics when they published their first journal articles rose by five years between 1950 and 2013. The number of references to other research that were cited in the articles also increased by five times over the same period.",
+                    "ja": "この傾向を説明するために提唱された一つの理論は「知識の重荷」である。この概念は、科学と技術の蓄積された知識が非常に膨大になっているため、研究者が新しい発見をするために必要な基礎知識を習得するのにより長い時間がかかることを指す。過去には、比較的少ない教育で最先端の研究に参入できたが、現在では高度な専門化と何年もの訓練が必要とされる。その結果、研究者が独創的な貢献を始められる年齢は着実に上昇している。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

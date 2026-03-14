@@ -1555,29 +1555,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "She studied hard so that she could pass the exam. The test was so difficult that many students failed. The teacher gave extra lessons so that everyone would have a fair chance.",
-                    "ja": "彼女は試験に合格できるように一生懸命勉強した。テストは非常に難しかったので多くの生徒が落ちた。全員に公平なチャンスを与えるために、先生は補習を行った。"
+                    "en": "[出典: The Arts and Crafts Movement]\nIn the United Kingdom during the nineteenth century, new technology greatly changed how people lived. Until this time, many people lived on small farms. They worked with their family members and neighbors to make by hand what they needed to live. When new machines were invented and factories were built so that items could be produced more quickly and easily, people moved into cities to take jobs in the factories. They used the money they earned to buy the things they needed, many of which were made by machines instead of by hand.",
+                    "ja": "19世紀のイギリスでは、新しい技術が人々の生活と働き方を大きく変えた。製品をより迅速かつ容易に生産できるように工場が建設された。多くの人々が農村から都市に移り、工場で働くようになった。必要なものを買うために使えるお金は増えたが、売られている製品の多くは手作りではなく機械で作られたものだった。こうした大量生産品は安価だったが、品質や美しさに欠けることが多かった。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "「so that they can travel very fast」は目的と結果のどちら？",
-                        "a": "目的。「速く走れるように」エンジンが大きい"
+                        "q": "'so that items could be produced more quickly' の 'so that' はどのような目的ですか？",
+                        "a": "「製品をより迅速に生産できるように」。工場建設の目的を示す。so that + could = 可能にするため。"
                     },
                     {
-                        "q": "so that と so...that の違いは？",
-                        "a": "so that = 目的「～するために」、so...that = 結果「非常に～なので…だ」"
+                        "q": "'factories were built' の受動態はなぜ使われていますか？",
+                        "a": "「工場が建設された」。誰が建てたかより、建設されたという事実と結果に焦点。歴史的変化の記述。"
                     },
                     {
-                        "q": "so that節内の助動詞にはどのようなパターンがありますか？",
-                        "a": "can/could（能力）、will/would（意志・予測）が多い"
+                        "q": "'greatly changed the way people lived and worked' の無生物主語を説明してください。",
+                        "a": "「新しい技術が生活と働き方を大きく変えた」。technology（無生物）が主語で人々への影響を表現。"
+                    },
+                    {
+                        "q": "産業革命がイギリスの生活に与えた影響を要約してください。",
+                        "a": "工場建設→都市への人口移動→大量生産品の普及→安価だが品質低下。生活と働き方が根本的に変化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that they can travel very fast",
-                    "put them back together so that they will be even more powerful",
-                    "factories were built so that items could be produced more quickly and easily",
-                    "This added moisture makes the air more humid, which makes the temperature feel warmer",
-                    "any plans to increase production will only make uncomfortable weather conditions even worse"
+                    "so that items could be produced",
+                    "factories were built",
+                    "more quickly"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "so that構文"
@@ -1607,29 +1610,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "She believed that he would come if she invited him. He thought he could finish the project if he had more time. She told me it was the most beautiful place she had ever visited.",
-                    "ja": "彼女は招待すれば彼が来るだろうと信じていた。もっと時間があればプロジェクトを終えられると思った。今まで訪れた中で最も美しい場所だったと彼女は言った。"
+                    "en": "[出典: The Arts and Crafts Movement]\nSome people disliked these changes. In particular, one group of artists and designers believed that society would be better if people went back to the old ways of making things. They formed a group that became known as the Arts and Crafts movement to share their ideas and sell their products. Although some members produced paintings and sculptures, most made objects that could be used, such as books and fabrics that had been printed by hand, furniture, and dishes. They wanted to design beautiful, high-quality items that were useful in everyday life.",
+                    "ja": "こうした変化を嫌う人々がいた。特に、芸術家やデザイナーの一団は、手作りの伝統に戻ることが社会をより良くすると信じていた。彼らは美しく高品質な製品をデザインすることを目指し、「アーツ・アンド・クラフツ運動」と呼ばれるグループを結成した。手作りの書籍や布など、機械ではなく人の手で作られた製品を重視した。彼らはアイデアを共有し製品を販売するために展示会やワークショップを開催した。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "「believed that society would be better」のwouldはなぜ使われている？",
-                        "a": "時制の一致。believe → believed に合わせて will → would"
+                        "q": "'believed that society would be better if people went back to' の時制の一致を説明してください。",
+                        "a": "主節 believed（過去）→that節 would be（過去未来）+ if節 went back（仮定法過去）。過去時点での信念と仮定。"
                     },
                     {
-                        "q": "「if people went back」のgoではなくwentが使われている理由は？",
-                        "a": "仮定法過去。「もし戻れば」という非現実・仮定の意味"
+                        "q": "'disliked these changes' の 'these changes' は何を指しますか？",
+                        "a": "前段落で述べた産業革命による変化。機械による大量生産、品質低下、手作りの消失など。"
                     },
                     {
-                        "q": "「he said it was the best burger he had ever tasted」の時制構造は？",
-                        "a": "said(過去) → was(時制一致) → had tasted(大過去/過去完了で「それまでに食べた中で」)"
+                        "q": "'designed beautiful, high-quality items' の目的は何でしたか？",
+                        "a": "機械生産品への反発。手作りで美しく質の高い製品を作り、伝統的な職人技を復活させること。"
+                    },
+                    {
+                        "q": "アーツ・アンド・クラフツ運動の理念を要約してください。",
+                        "a": "手作りの伝統に回帰。美しく高品質な製品。機械生産への反対。職人の技術と芸術性を重視。"
                     }
                 ],
                 "highlightPatterns": [
-                    "believed that society would be better if people went back to the old ways of making things",
-                    "Morris thought workers would be happier and healthier if they were involved in the whole production process",
-                    "he said it was probably the best burger he had ever tasted",
-                    "it was cooked exactly as I had asked",
-                    "the popularity of such products declined because they took too long to make and cost too much to buy"
+                    "believed that society would be",
+                    "went back to",
+                    "disliked these changes"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "時制・仮定法"
@@ -1659,32 +1665,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The building was designed by a famous architect. It is being renovated right now. By next month, the project will have been completed. The new design can be seen from across the river.",
-                    "ja": "その建物は有名な建築家によって設計された。今改修中だ。来月までにプロジェクトは完了しているだろう。新しいデザインは川の向こう側から見ることができる。"
+                    "en": "[出典: Growing Corn]\nInterestingly, the crops do not actually change the temperature. When corn plants release water into the air — a process called corn sweat — the air becomes wetter. This added moisture makes the air more humid, which makes the temperature feel warmer. With so many corn crops in one area, thousands of liters of water are released from the plants every day. For this reason, local residents are feeling increasingly uncomfortable due to the higher humidity levels. In some cases, corn sweat can even make it dangerous for farmers to work outside for too long.",
+                    "ja": "興味深いことに、作物自体が実際に気温を変えるわけではない。トウモロコシの植物が成長すると、何千リットルもの水が葉から空気中に放出される。この放出された水分が空気をより湿気の多いものにし、不快指数を上昇させる原因となっている。特に夏の暑い日には、湿度の上昇が体感温度を実際の気温よりもはるかに高く感じさせる。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "「are still being made」はどのような受動態？",
-                        "a": "進行形受動態(be + being + pp)。「現在もなお製造され続けている」"
+                        "q": "'thousands of liters of water are released from the leaves' の受動態を説明してください。",
+                        "a": "「何千リットルもの水が葉から放出される」。are released = 現在形受動態。自然現象の一般的記述。"
                     },
                     {
-                        "q": "「were made over fifty years ago」との違いは？",
-                        "a": "were made = 過去の完了した事実、are being made = 現在進行中の動作"
+                        "q": "'This added moisture makes the air more humid' の因果関係を説明してください。",
+                        "a": "水分放出（原因）→空気がより湿気を帯びる（結果）。makes = 〜にする。無生物主語+因果構文。"
                     },
                     {
-                        "q": "本文中の受動態を3つ挙げてください",
-                        "a": "are being made(進行形), are released(現在形), were held(過去形)"
+                        "q": "'the crops do not actually change the temperature' の 'actually' はなぜ重要ですか？",
+                        "a": "「実際には気温を変えない」。誤解（気温変化）を訂正する。実際には湿度が変わるのだという事実を強調。"
+                    },
+                    {
+                        "q": "トウモロコシが気候に与える影響を要約してください。",
+                        "a": "気温自体は変えないが、葉からの水分蒸発で湿度が上昇。体感温度が実際より高く感じられる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "muscle cars are still being made today",
-                    "the most popular ones were made over fifty years ago",
-                    "thousands of liters of water are released from the plants every day",
-                    "Public exhibitions were held to display and sell the products",
-                    "people in the United Kingdom and abroad were inspired to form similar organizations",
-                    "items could be produced more quickly and easily",
-                    "many of which were made by machines instead of by hand",
-                    "books and fabrics that had been printed by hand"
+                    "are released from",
+                    "thousands of liters",
+                    "added moisture"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "受動態"
@@ -1714,32 +1720,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "She went to the library to study for the exam. She borrowed several books to prepare for her presentation. In order to get a good grade, she stayed up late reading.",
-                    "ja": "彼女は試験勉強のために図書館に行った。プレゼンの準備のために本を数冊借りた。良い成績を取るために遅くまで読書した。"
+                    "en": "[出典: The Arts and Crafts Movement]\nFor a while, the Arts and Crafts movement was a success. Public exhibitions were held to display and sell the products made by the members of the movement, and people in the United Kingdom and abroad were inspired to form similar organizations. During the twentieth century, however, the popularity of such products declined because they took too long to make and cost too much to buy. However, the ideas of the Arts and Crafts movement continue to influence the way that artists and designers think about their work.",
+                    "ja": "しばらくの間、アーツ・アンド・クラフツ運動は成功を収めた。運動のメンバーが作った製品を展示・販売するために公開展示会が開かれた。イギリス国内だけでなく海外の人々もこの運動に感銘を受けた。しかし、手作り製品は作るのに時間がかかり、価格も高かったため、次第に人気が低下していった。大量生産品の方がはるかに安価で入手しやすかったのだ。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "本文の「to share their ideas and sell their products」は何を表す？",
-                        "a": "目的のto不定詞。「アイデアを共有し製品を販売するために」グループを結成した"
+                        "q": "'to display and sell the products' の to不定詞はどのような目的ですか？",
+                        "a": "「製品を展示・販売するために」。展示会開催の目的。to不定詞の副詞的用法（目的）。"
                     },
                     {
-                        "q": "「to visit special shops to get the parts」はなぜtoが2回？",
-                        "a": "1つ目のtoは「店を訪れるために」旅する目的、2つ目は「部品を手に入れるために」訪れる目的"
+                        "q": "'Public exhibitions were held' の受動態と目的の関係を説明してください。",
+                        "a": "「公開展示会が開かれた」。受動態で行事の開催を述べ、to不定詞で目的を付加。"
                     },
                     {
-                        "q": "in order to と to の違いは？",
-                        "a": "意味は同じ。in order to はより明確に目的を強調する表現"
+                        "q": "'were inspired by this movement' はどのような影響を示しますか？",
+                        "a": "「この運動に感銘を受けた」。受動態で、運動が海外にまで影響を与えたことを表現。"
+                    },
+                    {
+                        "q": "アーツ・アンド・クラフツ運動が衰退した理由は何ですか？",
+                        "a": "手作り品は時間がかかり高価。大量生産品の方が安価で入手しやすい。コスト面で競争力なし。"
                     }
                 ],
                 "highlightPatterns": [
-                    "to share their ideas and sell their products",
-                    "to visit special shops to get the parts that they need",
-                    "to display and sell the products made by the members of the movement",
-                    "to take jobs in the factories",
-                    "to buy the things they needed",
-                    "to design beautiful, high-quality items that were useful in everyday life",
-                    "to convert the measurements to miles per hour in order to understand",
-                    "in order to understand how fast they can drive"
+                    "to display and sell",
+                    "Public exhibitions",
+                    "were held"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "目的のto不定詞"
@@ -1769,39 +1775,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The passage says workers were 'only working on one stage' of production. The correct answer paraphrases this as workers 'did not have enough involvement in the production process.' Also, 'rare and very valuable' is rephrased as 'an expensive hobby.'",
-                    "ja": "本文は作業者が生産の「一つの段階だけを担当」と述べ、正解は「生産工程への十分な関与がなかった」と言い換えている。また「珍しく非常に高価」は「費用のかかる趣味」と言い換えられている。"
+                    "en": "[出典: Muscle Cars]\nMany muscle cars were built during the 1960s and the early 1970s, and a lot of collectors regard this period as the golden age of muscle cars. Although muscle cars are still being made today, the most popular ones were made over fifty years ago. People who collect such cars feel that they are keeping the past alive by owning them. When older people see such cars, they remember the fashions, the movies, the music, and the mood of the period in which these cars were made. Moreover, younger people can get a taste of it.",
+                    "ja": "マッスルカーの多くは1960年代から1970年代初頭に製造され、多くのコレクターが今でもそれらを大切にしている。マッスルカーは今でも製造されているが、最も人気のあるものは50年以上前に作られたものだ。コレクターたちはこれらの車を通じてファッション、映画、音楽などの過去の文化を思い出す。マッスルカーはアメリカの自動車文化の象徴であり、当時の大胆なデザインと力強いエンジンが今日でも多くの愛好家を魅了している。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "Q18の「can be an expensive hobby」は本文のどの表現を言い換えていますか？",
-                        "a": "「rare and very valuable」→ 珍しく高価 = 費用のかかる趣味"
+                        "q": "'remember the fashions, the movies, the music' を言い換えてください。",
+                        "a": "'recall the style, cinema, and songs of that era'。remember = recall, fashions = style, of that era を補足。"
                     },
                     {
-                        "q": "Q19の「keeping the past alive」の根拠は？",
-                        "a": "「remember the fashions, movies, music, and mood of the period」→ 過去の時代を生き生きと保つ"
+                        "q": "'the most popular ones were made over fifty years ago' を言い換えてください。",
+                        "a": "'the most sought-after models were manufactured more than half a century ago'。popular = sought-after。"
                     },
                     {
-                        "q": "Q29の「did not have enough involvement」は本文のどの表現？",
-                        "a": "「each worker only working on one stage」→ 一つの段階だけ = 十分な関与がない"
+                        "q": "'still being made today' を別の表現で言い換えると？",
+                        "a": "'continue to be produced in the present day'。still being made = continue to be produced。"
                     },
                     {
-                        "q": "Q30の正解の根拠は？",
-                        "a": "「took too long to make and cost too much to buy」→ expensive + not easily available のパラフレーズ"
+                        "q": "マッスルカーが今でも人気がある理由は何ですか？",
+                        "a": "60-70年代の文化の象徴。大胆なデザインと力強いエンジン。過去のファッションや音楽を思い出させる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "rare and very valuable",
-                    "can be an expensive hobby",
-                    "remember the fashions, the movies, the music, and the mood of the period",
-                    "keeping the past alive",
-                    "gave us some suggestions about what to order",
-                    "made some recommendations",
-                    "beautifully presented",
-                    "looking for staff",
-                    "went back to the old ways of making things",
-                    "each worker only working on one stage",
-                    "took too long to make and cost too much to buy"
+                    "remember the fashions",
+                    "most popular",
+                    "were made over"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ"

@@ -1835,10 +1835,10 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "不可能性ではなく実際のユーザーの具体的ニーズへの焦点",
-                                "❌ 知識不足については言及なし—むしろ参加を奨励→正解。💡 本文の該当箇所と選択肢の表現を照合し、パラフレーズを見抜く",
-                                "混乱については言及なし—参加は肯定的に描写",
-                                "✅ 平均的な人に焦点を当てると実際のユーザーのニーズを見落とすと主張"
+                                "❌ 多様なユーザーに対応するのは不可能→不可能性の議論ではなく、具体的なユーザーへの焦点が論点",
+                                "✅ 「平均的な人」に焦点を当てると実際のユーザーのニーズを見落とす→正解。💡 Matrixは「平均」に基づく設計を批判し、実際の使用者のニーズを重視することを主張",
+                                "❌ 大多数の人に知識が不足→知識不足は論点ではなく、参加を奨励する立場",
+                                "❌ 多くの人を巻き込むと混乱する→参加は肯定的に描写されている"
                             ],
                             "sourceEvidence": [
                                 "architects could produce their greatest work by trying to understand the specific needs of a building's actual users"
@@ -1903,24 +1903,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The CEO — a well-known philanthropist — announced a new initiative. The plan — which had been in development for two years — aimed to provide scholarships for underprivileged students. Critics — including some board members — expressed concerns about the cost. Nevertheless, the initiative — despite initial resistance — proved to be a great success.",
-                    "ja": "CEO—著名な慈善家—が新しいイニシアチブを発表した。計画は—2年間開発中だった—恵まれない学生への奨学金提供を目指した。"
+                    "en": "[出典: Wolf Packs]\nThere is a widespread idea that wild packs of wolves are led by an aggressive leader — an alpha male — that dominates the group, and that this results in violent power struggles when other members of the group challenge the alpha male. It turns out, however, that this idea may largely be a myth. It appears to have arisen from research on captured wolves, which often demonstrated such behavior. Captive packs are usually made up of adult wolves being forced to live together even though they did not grow up with each other and are not related, which is why it is common for power struggles in such packs to result in violence. Research has now found, though, that captive and wild wolves are too dissimilar to assume that the behaviors of one resemble those of the other.",
+                    "ja": "野生のオオカミの群れは「アルファオス」と呼ばれる攻撃的なリーダーに率いられているという広く流布した考えがある。この考えは、群れを支配する一頭のオスがいて、他のメンバーに対して攻撃的に振る舞うことで地位を維持するというものだ。この誤解は主に、飼育下のオオカミを対象とした初期の研究に由来している。飼育下のオオカミは、血縁関係のない個体同士が人工的に集められたもので、そのような行動を頻繁に示していた。しかし、野生のオオカミの群れは実際には家族単位で構成されており、その構造は大きく異なっている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "ダッシュの同格と関係代名詞の非制限用法の違いは？",
-                        "a": "同格は名詞の言い換え（= つまり）。非制限用法は追加情報（, who/which...）。ダッシュはどちらにも使える。"
+                        "q": "'— an alpha male —' のダッシュはどのような挿入構造ですか？",
+                        "a": "同格のダッシュ。「アルファオス」という用語を挿入して「aggressive leader」を言い換え・補足説明する。"
                     },
                     {
-                        "q": "ダッシュで挟まれた部分を省略して文は成立するか？",
-                        "a": "はい。挿入部分は補足なので省略しても文の主構造は成立する。"
+                        "q": "'a widespread idea that...' の 'that' はどのような用法ですか？",
+                        "a": "同格のthat節。idea（考え）の具体的内容を説明する名詞節。「〜という考え」。"
+                    },
+                    {
+                        "q": "'that dominates the group' の関係代名詞は何を修飾していますか？",
+                        "a": "先行する名詞（one male / alpha male）を修飾。「群れを支配する（オス）」。制限用法。"
+                    },
+                    {
+                        "q": "アルファオスの誤解はどこから生まれましたか？",
+                        "a": "飼育下のオオカミの研究から。血縁関係のない個体が人工的に集められた環境での観察が、野生の実態と異なっていた。"
                     }
                 ],
                 "highlightPatterns": [
                     "— an alpha male —",
-                    "— who were slightly more than one and a half meters tall",
-                    "— for example,",
-                    "— and therefore more productive —"
+                    "widespread idea",
+                    "that dominates"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "ダッシュ同格"
@@ -1950,24 +1958,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Traditional teaching focuses on memorization, while modern approaches emphasize critical thinking. Instead of passively absorbing information, students are encouraged to question and analyze. On the other hand, some educators argue that basic knowledge must be acquired before higher-order thinking is possible. Rather than choosing one method exclusively, many schools now combine both approaches.",
-                    "ja": "伝統的な教育は暗記に焦点を当てるが、現代のアプローチは批判的思考を重視する。"
+                    "en": "[出典: Wolf Packs]\nBiologists studying wild wolves in the 1980s and 1990s made some interesting observations. They found that a pair of wolves consisting of an older adult male and a female wolf generally acted as the leaders of a pack composed of their offspring and other adult wolves without partners. All wolves in the pack follow the lead male's decisions, and all but the lead male also submit to the lead female. This system appears to be fully accepted by most wild wolves and is usually enforced by communication rather than violence. The social structure is also flexible — for example, when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first. Such behavior demonstrates how these leaders act similarly to the human parents of a large family.",
+                    "ja": "1980年代と1990年代に野生のオオカミを研究した生物学者たちは、いくつかの興味深い観察をした。例えば、野生の群れでは、リーダーは暴力ではなく経験と判断力によって導くことが多い。親オオカミは子どもたちに食料の分け方や狩りの技術を教え、協力と家族の絆が群れの結束を維持する。紛争が発生した場合、リーダーは攻撃ではなく、体の姿勢やうなり声など穏やかな方法で秩序を維持する傾向がある。この発見は、飼育下の研究から導かれた「アルファ」理論を大きく覆すものだった。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "while, instead of, on the other hand の違いは？",
-                        "a": "while＝同時進行する対比。instead of＝代替。on the other hand＝別の視点。"
+                        "q": "'rather than violence' はどのような対比を示しますか？",
+                        "a": "「暴力ではなく」。リーダーシップが攻撃性ではなく経験・判断力に基づくことを対比。rather than = instead of。"
                     },
                     {
-                        "q": "rather than と instead of の書き換えは？",
-                        "a": "ほぼ同義。rather than＝動詞の原形。instead of＝動名詞(-ing)。"
+                        "q": "'— for example,' のダッシュはどのような機能を持ちますか？",
+                        "a": "例示の挿入。前述の一般論を具体的に説明する例を導入するダッシュ。"
+                    },
+                    {
+                        "q": "'cooperation' は 'violence' とどのように対比されていますか？",
+                        "a": "アルファ理論（暴力で支配）vs 実際の野生（協力と家族の絆で結束）。対照的な群れの運営方法。"
+                    },
+                    {
+                        "q": "野生のオオカミの群れの実態はアルファ理論とどう違いますか？",
+                        "a": "暴力ではなく協力。攻撃的支配ではなく家族の絆。アルファという概念自体が飼育下の産物。"
                     }
                 ],
                 "highlightPatterns": [
-                    "instead of eating",
-                    "while a captive pack has more",
-                    "On the other hand",
-                    "rather than violence"
+                    "rather than violence",
+                    "interesting observations",
+                    "for example"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "比較対照"
@@ -1997,29 +2013,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The company hired engineers who had experience with renewable energy. The project that they worked on, which was funded by the government, aimed to develop a new type of solar panel. The materials they used came from suppliers that specialized in sustainable products. The results, which exceeded all expectations, were published in a journal that is widely read by industry professionals.",
-                    "ja": "会社は再生可能エネルギーの経験を持つエンジニアを雇った。"
+                    "en": "[出典: Feminist Architecture]\nOne example of Matrix putting these values into practice when helping design public spaces in Britain is the Jagonari Women's Educational Resource Centre, which provides social services for women. Matrix worked closely with the organization's administrators to fulfill their needs and address their concerns, including installing narrow, tall windows protected by bars to help visitors feel safer. In other cases, Matrix employed methods like miniature models of proposed designs that allowed even people with little knowledge of architecture to rearrange the model rooms freely and feel included in the design process. Matrix was dedicated to helping other women enter the architecture and design industry, many of whom carried forward Matrix's principles in their own work. Although the group initially fought to address women's discontent with the biases in architecture, it came to symbolize much more. Matrix's members worked with traditionally overlooked minority groups, empowering them to have their voices reflected in the public spaces they inhabited. Even after they stopped working together, many of the women of Matrix continued to do commendable work in academic and activist spaces, where they have carried on pushing for change in how architecture is practiced, ensuring that the influence of Matrix persists to this day.",
+                    "ja": "マトリックスがこれらの価値観を実践に移した一例として、公共住宅の設計への参加がある。彼女たちは、居住者、特に女性と子どもの日常的なニーズを考慮したデザインを提案した。例えば、子どもを見守りながら家事ができるような見通しの良いキッチンの配置や、車椅子利用者も含めた障害者がアクセスしやすい通路の設計を含んでいた。プロの建築家だけでなく、実際の住民が設計プロセスに参加できるワークショップを開催し、利用者の声を直接反映させるアプローチを採用した。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "制限用法と非制限用法の見分け方は？",
-                        "a": "カンマあり＝非制限（追加情報）。カンマなし＝制限（先行詞を特定）。"
+                        "q": "'that allowed even people with disabilities to access' の 'that' は何を修飾していますか？",
+                        "a": "先行する名詞（design / pathway）を修飾する関係代名詞。「障害者もアクセスできるような（設計）」。"
                     },
                     {
-                        "q": "関係代名詞の省略が可能な条件は？",
-                        "a": "目的格のthat/which/whoは省略可能。主格は省略不可。"
+                        "q": "'One example of Matrix putting these values into practice' はどのような構文ですか？",
+                        "a": "前置詞 of + 動名詞構文。「マトリックスがこれらの価値観を実践に移した一例」。具体例を導入する。"
                     },
                     {
-                        "q": "長い後置修飾を読む際のコツは？",
-                        "a": "先行詞を確定→修飾節の範囲を特定→先行詞に戻って全体の意味を把握。"
+                        "q": "'helping design public housing' の 'helping' はどのような分詞ですか？",
+                        "a": "分詞構文。「公共住宅の設計を手助けする際に」。when helping の when が省略された形。"
+                    },
+                    {
+                        "q": "マトリックスの公共住宅設計へのアプローチの特徴は何ですか？",
+                        "a": "住民参加型ワークショップ、女性・子どもの日常ニーズを考慮、障害者アクセス、利用者の声を直接反映。"
                     }
                 ],
                 "highlightPatterns": [
-                    "which often demonstrated such behavior",
-                    "that dominates the group",
-                    "which meant involving such people",
-                    "that allowed even people",
-                    "the foods they gathered"
+                    "that allowed",
+                    "One example",
+                    "putting these values"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "関係代名詞"
@@ -2049,23 +2068,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "In the old days, villagers would gather at the town square every Sunday. If someone needed help, the community would come together to assist them. Life was simple, but people would often say that they would not trade it for anything. Had they known how much the town would change, they might have preserved more of their traditions.",
-                    "ja": "昔、村人は毎週日曜日に町の広場に集まったものだ。"
+                    "en": "[出典: Feminist Architecture]\nWhen Matrix was formed in the 1980s, it did not attempt to redesign the world according to the needs of the average woman. In fact, one of Matrix's key arguments denounced architects' focus on the \"average\" person. The members of Matrix reasoned that architects could produce their greatest work by trying to understand the specific needs of a building's actual users, which meant involving such people in the design process to identify necessary features and integrate them into the final design. They also argued that simply training more women architects would not remedy the situation. Instead, they proposed changing the methods and design principles by which architecture was being taught.",
+                    "ja": "マトリックスが1980年代に結成されたとき、独自のフェミニスト的ビジョンに従って世界全体を再設計しようとはしなかった。むしろ、彼女たちは建築がすべての人のために機能するよう、包括的なアプローチを採用した。これは、利用者であるすべての人々、特に通常は設計プロセスから排除される人々を巻き込むことを意味した。単に女性建築家を増やすだけでは状況は改善されないと彼女たちは考えた。根本的な設計哲学そのものを変える必要があると主張した。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "would（過去の習慣）とused toの違いは？",
-                        "a": "ほぼ同義だがused toは「今はしない」の含意が強い。wouldは状態動詞に使えない。"
+                        "q": "'would not remedy the situation' の 'would' はどのような推量ですか？",
+                        "a": "「状況を改善しないだろう」。仮定法的用法。単に女性を増やすだけでは不十分だという判断を示す推量。"
                     },
                     {
-                        "q": "'would not remedy' のwouldは何を表す？",
-                        "a": "仮定的な推量。「～しても改善しないだろう」という予測的な用法。"
+                        "q": "'which meant involving such people' の 'which' は何を指しますか？",
+                        "a": "前の文全体を先行詞とする関係代名詞。包括的アプローチを採用したこと→設計プロセスから排除される人々を巻き込むこと。"
+                    },
+                    {
+                        "q": "'did not attempt to redesign the world' の否定はなぜ重要ですか？",
+                        "a": "マトリックスは急進的ではなく実実用的だったことを示す。全面的な変革ではなく漸進的な改善を目指した。"
+                    },
+                    {
+                        "q": "マトリックスの設計哲学の核心は何でしたか？",
+                        "a": "女性建築家を増やすだけでなく、設計哲学そのものを変え、すべての利用者を巻き込む包括的アプローチ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would, for example, fish in the summer",
-                    "would not remedy the situation",
-                    "would consist of different foods"
+                    "would not remedy",
+                    "which meant",
+                    "did not attempt"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "仮定法"
@@ -2096,41 +2124,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'on the outskirts of the city' を言い換えると？",
-                        "a": "at the edge of the urban area / on the city's periphery / in the surrounding suburbs"
+                        "q": "'most common architectural design philosophy' を言い換えてください。",
+                        "a": "'predominant approach to building design' や 'the prevailing method in architecture'。most common = predominant / prevailing。"
                     },
                     {
-                        "q": "'engage in physical activity' を言い換えると？",
-                        "a": "participate in exercise / take part in sports / become more physically active"
+                        "q": "'sought to change' を言い換えてください。",
+                        "a": "'aimed to transform' や 'endeavored to alter'。sought to = aimed to / endeavored to。change = transform / alter。"
                     },
                     {
-                        "q": "'heated debate' を言い換えると？",
-                        "a": "intense discussion / passionate argument / fierce deliberation"
+                        "q": "'were slightly more than one and a half meters' を別の表現で言い換えると？",
+                        "a": "'were just over 150 centimeters tall' や 'stood a little above 1.5 meters'。slightly more than = just over / a little above。"
                     },
                     {
-                        "q": "'with modifications to the original design' を言い換えると？",
-                        "a": "after making changes to the initial plan / with adjustments to the first proposal"
+                        "q": "従来の建築デザインの問題点は何でしたか？",
+                        "a": "標準的体格の男性を基準に設計。女性、車椅子利用者、子連れの親、高齢者のニーズが無視されていた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "innovative",
-                    "coincidence",
-                    "bearable",
-                    "disposable",
-                    "aptitude",
-                    "paraphrase",
-                    "deflect",
-                    "feel for",
-                    "get down to",
-                    "stick up for",
-                    "put forth",
-                    "sail through"
+                    "most common",
+                    "sought to change",
+                    "design philosophy"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The local council proposed building a new sports complex on the outskirts of the city. The facility would include a swimming pool, tennis courts, and an indoor running track. Supporters argued that the complex would encourage more residents to engage in physical activity. Opponents expressed concern about the estimated cost of the project and the impact on nearby farmland. After months of heated debate, the council voted to approve the construction with modifications to the original design.",
-                    "ja": "地方議会は市の郊外に新しいスポーツ施設の建設を提案した。施設にはプール、テニスコート、室内ランニングトラックが含まれる予定だった。支持者はこの施設がより多くの住民に身体活動に参加するよう促すと主張した。反対者はプロジェクトの推定コストと近隣の農地への影響について懸念を表明した。数ヶ月の激しい議論の後、議会は元のデザインに修正を加えた上で建設を承認する投票を行った。"
+                    "en": "[出典: Feminist Architecture]\nThe most common architectural design philosophy that Matrix sought to change was concerned with men's comfort. Postwar construction in Britain was dominated by an architectural system called Le Modulor, first created in 1940s France. Following this system's principles, architectural design elements were arranged based on the default height of the so-called ideal man: just under two meters. While many of these elements, like tall doorways, did not negatively impact average British women — who were slightly more than one and a half meters tall on average in the 1940s — other elements, such as the tall height of stair steps, made buildings harder for them to navigate.",
+                    "ja": "マトリックスが変えようとした最も一般的な建築デザイン哲学は、建物の利用者を標準的な体格の男性として想定するものだった。このアプローチでは、身長がわずか1.5メートルを超える程度の女性や、車椅子利用者、子どもを連れた親、高齢者など、多様な利用者のニーズが無視されていた。建築の世界は長い間男性中心であり、女性建築家は少数派だった。マトリックスは、このジェンダーの不均衡が建物の設計に直接影響を与えていると主張した。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

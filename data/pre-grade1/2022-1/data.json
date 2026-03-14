@@ -2092,33 +2092,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "このパッセージに含まれる受動態の時制を全て挙げると？",
-                        "a": "was designed（過去）, has been maintained（現在完了）, is being renovated（現在進行形）, will have been standing（未来完了）, has been admired（現在完了）, is considered（現在）"
+                        "q": "'Full removal of the honey fungus has been considered' の受動態はなぜ使われていますか？",
+                        "a": "「除去が検討されてきた」。検討する主体より、検討されている行為（除去）に焦点。現在完了受動態で今も継続。"
                     },
                     {
-                        "q": "'is being renovated' と 'has been maintained' の違いは？",
-                        "a": "is being = 現在進行中の受動態。has been = 過去から現在まで続いている受動態。"
+                        "q": "'it would prove to be too expensive' の 'would prove' はどのような推量ですか？",
+                        "a": "「費用がかかりすぎることが判明するだろう」。would = 推量・予測。仮に実施すれば高コストになるという見込み。"
                     },
                     {
-                        "q": "'will have been standing' はどんな構造？",
-                        "a": "未来完了進行形。By the time... + 未来完了 = 「～する頃には…していることになる」。"
+                        "q": "ハニーファンガスの完全除去が考えられたが実現しない理由は何ですか？",
+                        "a": "コストが高すぎること。森林全体に広がっている菌糸を完全に除去するのは経済的に不可能。"
+                    },
+                    {
+                        "q": "この段落で述べられている対策の限界は何ですか？",
+                        "a": "技術的に可能でも、経済的に実行不可能。大規模な自然現象に対する人間の介入の限界を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "was",
-                    "were",
-                    "been",
-                    "being",
-                    "brought",
-                    "considered",
-                    "known",
-                    "established"
+                    "has been considered",
+                    "would prove",
+                    "removal of"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The bridge was designed by a renowned Italian architect in the late 19th century. It has been maintained by the city government ever since. The structure is being renovated to meet modern safety standards. By the time the work is completed, the bridge will have been standing for over 130 years. Over the decades, it has been admired by millions of visitors and is considered one of the finest examples of Victorian engineering.",
-                    "ja": "その橋は19世紀後半に著名なイタリア人建築家によって設計された。それ以来、市政府によって維持されてきた。構造物は現代の安全基準を満たすために改修されている。工事が完了する頃には、橋は130年以上立っていることになる。何十年にもわたり、何百万人もの訪問者に称賛され、ヴィクトリア朝建築の最も優れた例の一つとされている。"
+                    "en": "[出典: Honey Fungus]\nFull removal of the honey fungus in Oregon has been considered, but it would prove to be too costly and time-consuming. Another solution currently being researched is the planting of tree species that can resist the fungus. Some experts have suggested, however, that a change of perspective may be necessary. Rather than viewing the effects of the honey fungus in a negative light, people should consider it an example of nature taking its course. Dead trees will ultimately be recycled back into the soil, benefiting the area's ecosystem.",
+                    "ja": "オレゴンのナラタケの完全除去は検討されてきたが、費用と時間がかかりすぎることが判明するだろう。現在研究されているもう一つの解決策は、菌に耐性のある樹種を植えることである。しかし一部の専門家は、視点の転換が必要かもしれないと提案している。ナラタケの影響を否定的に見るのではなく、自然がその道を辿っている一例と考えるべきだと。枯れた木は最終的に土壌に還元され、その地域の生態系に利益をもたらす。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -2147,32 +2147,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Conversely' と 'By contrast' の違いは？",
-                        "a": "Conversely = 逆に（反対方向の主張）。By contrast = 対照的に（2つの違いを強調）。"
+                        "q": "'Not all intentional communities are destined to fall apart, however' の 'however' はどのような逆接ですか？",
+                        "a": "「しかし」。前段落の失敗例に対して、成功例も存在することを示す逆接。全てが失敗するわけではない。"
                     },
                     {
-                        "q": "'On the one hand ... On the other hand' の使い方は？",
-                        "a": "賛否両論を提示する時に使用。最初に一方の見方、次にもう一方の見方を述べる。"
+                        "q": "'In contrast' はどのような対比を示しますか？",
+                        "a": "「対照的に」。失敗したコミュニティと成功したコミュニティを明確に対比する接続表現。"
                     },
                     {
-                        "q": "'Whereas' と 'By contrast' の文法的違いは？",
-                        "a": "Whereas = 接続詞（+ SV が続く）。By contrast = 副詞句（文頭で独立）。"
+                        "q": "'ongoing success' はどのような時間的意味を含みますか？",
+                        "a": "「継続中の成功」。ongoing = 現在も続いている。一時的ではなく持続的な成功を強調。"
+                    },
+                    {
+                        "q": "この段落で成功するコミュニティの特徴は何ですか？",
+                        "a": "変化に適応する能力。理想だけでなく実用的な運営方法を持ち、メンバー間の信頼関係が築けていること。"
                     }
                 ],
                 "highlightPatterns": [
-                    "However",
-                    "Instead",
-                    "On the other hand",
                     "In contrast",
-                    "Despite",
-                    "Although",
-                    "Nevertheless"
+                    "however",
+                    "Not all"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "対比接続",
                 "practicePassage": {
-                    "en": "Proponents of nuclear energy argue that it produces far less carbon dioxide than fossil fuels. Conversely, opponents point out the risks of radioactive waste disposal. On the one hand, nuclear power provides a reliable source of electricity. On the other hand, the consequences of a nuclear accident can be catastrophic. Whereas wind and solar energy are variable, nuclear plants can generate power continuously. By contrast, renewable sources require large areas of land for installation.",
-                    "ja": "原子力エネルギーの支持者は化石燃料よりはるかに少ない二酸化炭素を排出すると主張する。反対に、反対者は放射性廃棄物の処理のリスクを指摘する。一方では、原子力は信頼性の高い電力源を提供する。他方では、原子力事故の結果は壊滅的になりうる。風力と太陽エネルギーが変動する一方で、原子力発電所は継続的に電力を生成できる。対照的に、再生可能エネルギー源は設置に広大な土地を必要とする。"
+                    "en": "[出典: Intentional Communities]\nNot all intentional communities are destined to fall apart, however. The ongoing success of Damanhur, a spiritual and artistic collective near Turin, Italy, is attributed to open communication and a practical approach. Damanhur organizes its members into family-like groups of 15 to 20 people. The community has found that creating intimacy becomes difficult if a \"family\" has more than 25 people. In contrast, when there are too few people in the \"family,\" there is not enough collective knowledge to allow for effective decision-making. Damanhur's ideals, which are outlined in its constitution, are upheld by elected leaders, and tensions in the community are handled by holding playful mock battles where people fight with paint-filled toy guns.",
+                    "ja": "しかし、すべてのインテンショナル・コミュニティが崩壊する運命にあるわけではない。イタリアのトリノ近郊にある精神的・芸術的共同体であるダマンフールの継続的な成功は、オープンなコミュニケーションと実用的なアプローチに起因している。ダマンフールはメンバーを15〜20人の家族のようなグループに組織している。コミュニティは、「家族」が25人以上になると親密さの構築が困難になることを発見した。対照的に、「家族」の人数が少なすぎると、効果的な意思決定に十分な集合的知識がない。ダマンフールの理念は憲法に記され、選出されたリーダーによって支持されており、コミュニティ内の緊張は、ペンキ入りのおもちゃの銃で戦う遊び心のある模擬戦闘で処理される。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -2201,32 +2202,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'could have served' と 'might have been used' の違いは？",
-                        "a": "could have = 可能性があった（能力・可能性）。might have = ～だったかもしれない（推量）。どちらも過去の推量だが微妙にニュアンスが異なる。"
+                        "q": "'if it could be weighed' の仮定法はなぜ使われていますか？",
+                        "a": "「もし計量できたとすれば」。巨大すぎて実際には計量不可能だが、仮定することで規模を伝える反実仮想。"
                     },
                     {
-                        "q": "'should provide' の should はどんな用法？",
-                        "a": "推量の should。「～するはずだ」「おそらく～だろう」。義務ではなく期待・予測を表す。"
+                        "q": "'would take' はどのような推量を示しますか？",
+                        "a": "「〜かかるだろう」。仮定法の帰結。if節の条件が成立した場合に予測される結果を述べる。"
                     },
                     {
-                        "q": "'Had the site not been discovered' を If に書き換えると？",
-                        "a": "If the site had not been discovered by accident, ..."
+                        "q": "'the largest living organism on Earth' はどのような事実を提示していますか？",
+                        "a": "地球上最大の生物がクジラなどの動物ではなく、菌類であるという意外な事実。読者の予想を裏切る導入。"
+                    },
+                    {
+                        "q": "この段落でハニーファンガスの規模はどのように説明されていますか？",
+                        "a": "地球上最大の生物。仮定法を使って「計量できたら」と表現するほどの巨大さ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would",
-                    "could",
-                    "might",
-                    "if",
-                    "were",
-                    "had",
-                    "should"
+                    "largest living organism",
+                    "belongs to"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "仮定・推量",
                 "practicePassage": {
-                    "en": "The ancient structure could have served as a temple, according to some archaeologists. Others suggest it might have been used for astronomical observations. Had the site not been discovered by accident, its secrets may never have come to light. If more funding were available, researchers would be able to conduct a thorough excavation. The artifacts found there should provide valuable clues about the civilization that once thrived in the region.",
-                    "ja": "一部の考古学者によると、古代の構造物は神殿として使われていた可能性がある。他の者はそれが天文観測に使われていたかもしれないと示唆する。遺跡が偶然発見されなければ、その秘密は明るみに出なかったかもしれない。もっと資金があれば、研究者は徹底的な発掘調査を行うことができるだろう。そこで見つかった遺物は、かつてその地域で栄えた文明について貴重な手がかりを提供するはずだ。"
+                    "en": "[出典: Honey Fungus]\nThe largest living organism on Earth is not a whale or other large animal. Rather, it belongs to the group of organisms which includes mushrooms and toadstools. It is a type of fungus commonly known as honey fungus, and its rootlike filaments spread underground throughout a huge area of forest in the US state of Oregon. DNA testing has confirmed that all the honey fungus in the area is from the same organism, and, based on its annual rate of growth, scientists estimate it could be over 8,000 years old. They also calculate that it would weigh around 35,000 tons if it were all gathered together.",
+                    "ja": "地球上最大の生物はクジラやその他の大型動物ではない。それはキノコやベニテングタケを含む生物群に属する。ナラタケとして一般的に知られる菌類の一種で、その根のような菌糸はアメリカのオレゴン州の広大な森林の地下に広がっている。DNA検査により、その地域のすべてのナラタケが同一の生物であることが確認されており、年間の成長率に基づき、科学者は8,000年以上の樹齢である可能性があると推定している。また、すべてを集めた場合、約35,000トンの重さになるだろうと計算している。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2255,32 +2256,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'The decision to relocate' の to不定詞は何用法？",
-                        "a": "名詞を修飾する形容詞用法（同格的）。the decision = to relocate。"
+                        "q": "'Established in 1600' の過去分詞はどのような後置修飾ですか？",
+                        "a": "「1600年に設立された」。過去分詞の分詞構文で、主語（East India Company）の補足情報を冒頭に置く。"
                     },
                     {
-                        "q": "'Communities affected by the closure' の affected は？",
-                        "a": "過去分詞の後置修飾。= Communities which were affected by the closure."
+                        "q": "'one of the world's largest corporations' の名詞句構造を説明してください。",
+                        "a": "one of + 最上級 + 複数名詞 = 「世界最大の企業の一つ」。最上級を使った名詞句の後置修飾。"
                     },
                     {
-                        "q": "'A report commissioned by the government' の構造は？",
-                        "a": "名詞 + 過去分詞句の後置修飾。A report (that was) commissioned by the government。"
+                        "q": "'which eventually gained control' の 'which' は何を指しますか？",
+                        "a": "先行する名詞（East India Company）を指す関係代名詞の非制限用法。追加情報として会社の歴史を述べる。"
+                    },
+                    {
+                        "q": "東インド会社の発展過程をこの段落から要約してください。",
+                        "a": "1600年設立→世界最大級の企業に成長→インドの支配権を獲得→最終的に英国のインド統治へ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "who",
-                    "which",
-                    "that",
-                    "known as",
-                    "referred to",
-                    "based on",
-                    "called"
+                    "Established in",
+                    "one of the world"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "後置修飾",
                 "practicePassage": {
-                    "en": "The decision to relocate the factory to a rural area was controversial. Communities affected by the closure of the original plant protested vigorously. The proposal submitted by the company to build a new facility met with strong opposition. Scientists studying the effects of industrial pollution on local water sources raised concerns. A report commissioned by the government recommended stricter regulations on the disposal of chemical waste.",
-                    "ja": "工場を地方に移転するという決定は物議を醸した。元の工場の閉鎖の影響を受けた地域社会は激しく抗議した。新施設の建設のために会社が提出した提案は強い反対に遭った。工業汚染が地元の水源に及ぼす影響を研究している科学者たちは懸念を表明した。政府の委託を受けた報告書は化学廃棄物の処理に関するより厳しい規制を勧告した。"
+                    "en": "[出典: The British in India]\nEstablished in 1600, the British-owned East India Company was one of the world's largest corporations for more than two centuries. By trading overseas with various countries, such as India and China, it was able to import luxury items from these countries into Britain. The British government received a portion of the company's vast profits, so it was more than willing to provide political support. Due to its size, power, and resources, which included a private army of hundreds of thousands of Indian soldiers, the company pressured India into accepting trade contracts that, in general, were only of benefit to the company. After winning a battle against a local ruler in the 1750s, the company seized control of one of the wealthiest provinces in India. As a result, the East India Company was no longer solely acting as a business but also as a political institution, and it began forcing Indian citizens to pay it taxes.",
+                    "ja": "1600年に設立されたイギリスの東インド会社は、2世紀以上にわたり世界最大の企業の一つだった。インドや中国などさまざまな国との海外貿易により、これらの国から贅沢品をイギリスに輸入することができた。イギリス政府は会社の莫大な利益の一部を受け取っていたため、政治的支援を喜んで提供した。その規模、権力、そして数十万のインド兵を含む資源により、会社はインドに対して一般的に会社だけに利益のある貿易契約を受け入れるよう圧力をかけた。1750年代に現地の支配者との戦闘に勝利した後、会社はインドで最も裕福な州の一つの支配権を掌握した。その結果、東インド会社はもはや単なる企業としてだけでなく政治機関としても行動するようになり、インド国民に税金の支払いを強制し始めた。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2309,38 +2310,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'a major restructuring' を言い換えると？",
-                        "a": "a significant reorganization / a large-scale overhaul / a comprehensive reform"
+                        "q": "'While some claim that India benefited from British rule' を言い換えてください。",
+                        "a": "'Although certain people assert that India gained advantages under British governance'。claim = assert, benefited = gained advantages。"
                     },
                     {
-                        "q": "'improve efficiency and reduce costs' を言い換えると？",
-                        "a": "make operations more effective while cutting expenses / streamline processes and save money"
+                        "q": "'typically using the construction of railways as evidence' を言い換えてください。",
+                        "a": "'often citing the building of rail networks as proof'。typically = often, construction = building, evidence = proof。"
                     },
                     {
-                        "q": "'demanding greater transparency' を言い換えると？",
-                        "a": "calling for more openness / insisting on clearer communication / requesting that decisions be made publicly"
+                        "q": "'argue that' を別の表現で言い換えると？",
+                        "a": "'contend that' や 'maintain that'。argue = contend / maintain。学術的議論における主張の表現。"
                     },
                     {
-                        "q": "'long-term financial stability' を言い換えると？",
-                        "a": "sustained economic health / enduring fiscal security / ongoing monetary soundness"
+                        "q": "この段落で英国統治に関する対立する見方はどのように構成されていますか？",
+                        "a": "賛成派: インフラ(鉄道)建設の恩恵を主張。反対派: 搾取と抑圧を指摘。While...で二つの立場を対比。"
                     }
                 ],
                 "highlightPatterns": [
-                    "mercy",
-                    "temperament",
-                    "interrogate",
-                    "affluent",
-                    "trivial",
-                    "pretext",
-                    "assert",
-                    "eliminate",
-                    "prestigious"
+                    "While some claim",
+                    "benefited from",
+                    "typically using"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The university announced a major restructuring of its academic departments. Several programs will be merged to improve efficiency and reduce costs. Faculty members whose positions are at risk have expressed frustration with the decision. Student organizations have launched petitions demanding greater transparency in the process. The administration insists that the changes are necessary to ensure the institution's long-term financial stability.",
-                    "ja": "大学は学部の大規模な再編を発表した。効率を改善しコストを削減するために複数のプログラムが統合される。ポジションが危うい教員たちは決定に対する不満を表明した。学生団体はプロセスの透明性向上を求める請願書を提出した。大学側はこれらの変更が大学の長期的な財政安定を確保するために必要だと主張している。"
+                    "en": "[出典: The British in India]\nWhile some claim that India benefited from British rule, typically using the construction of railways as an example, many historians argue that the country was negatively affected. In an effort to reinforce notions that British culture was superior, Indians were educated to have the same opinions, morals, and social preferences as the British. The British also implemented a policy known as \"divide and rule,\" which turned Indians from different religious backgrounds against each other. The British government used this strategy to maintain its control over India, as members of these religions had joined forces during the earlier rebellion. However, nationalist feelings among Indians increased from the early 1900s, and India eventually gained its independence in the late 1940s.",
+                    "ja": "一部の人々はインドがイギリス統治から恩恵を受けたと主張し、鉄道建設をその例として典型的に挙げるが、多くの歴史家はインドが悪影響を受けたと論じている。イギリス文化の優越性という概念を強化するため、インド人はイギリス人と同じ意見、道徳観、社会的嗜好を持つよう教育された。イギリスはまた「分割統治」として知られる政策を実施し、異なる宗教的背景を持つインド人同士を対立させた。イギリス政府は、以前の反乱でこれらの宗教のメンバーが団結していたため、インドに対する支配を維持するためにこの戦略を使用した。しかし、1900年代初頭からインド人のナショナリズム感情が高まり、インドは1940年代後半にようやく独立を勝ち取った。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

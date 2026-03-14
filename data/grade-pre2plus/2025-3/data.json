@@ -1085,15 +1085,16 @@
                                 "一方で"
                             ],
                             "choiceAnalysis": [
-                                "高い建設費→費用の話は本文に直接ない",
-                                "深すぎて橋脚を建てられない→正解。💡 too deep=深すぎる。空所前後の川の特徴（深い・流れが速い）から、橋を架けられない物理的理由を読み取る",
-                                "川幅が狭すぎる→本文は広い川の話",
-                                "環境保護規制→環境規制は述べていない"
+                                "❌ In addition＝さらに。逆の内容が続くので追加の接続詞は不適切",
+                                "❌ First＝まず。列挙の開始を示すが、前後関係に合わない",
+                                "❌ As a result＝その結果。因果関係を示すが、ここは対比の文脈",
+                                "✅ On the other hand＝一方で。💡 多くの川には橋があるが、アマゾン川にはない、という対比を表す接続詞として最適"
                             ],
                             "sourceEvidence": [
                                 "Many large rivers around the world have bridges built over them",
                                 "there are no bridges on the Amazon River"
-                            ]
+                            ],
+                            "grammar": "💡 On the other hand＝一方で。前文と対照的な内容を述べるときに使う接続表現。"
                         },
                         {
                             "number": 19,
@@ -1111,15 +1112,16 @@
                                 "美しい景色が～で壊される"
                             ],
                             "choiceAnalysis": [
-                                "対岸の友人を訪ねる→正解。💡 visit people on the other side=対岸の人を訪ねる。住民の日常的移動の目的として最も自然",
-                                "釣りをする→釣りは述べていない",
-                                "川の深さを測る→測定は述べていない",
-                                "ボート競争をする→競争は述べていない"
+                                "❌ many local people are not interested in＝地元の人は興味がない。住民の関心の問題ではなく物理的条件の話",
+                                "❌ many animals will lose their homes by＝多くの動物が家を失う。動物への影響は述べていない",
+                                "✅ the conditions are not suitable for＝条件が〜に適していない。💡 直後に「土が柔らかすぎる」「水の流れが速すぎる」と具体例が続き、橋を建設する条件が適さないことを示す",
+                                "❌ the beautiful scenery will be destroyed by＝美しい景色が壊される。景観破壊は述べていない"
                             ],
                             "sourceEvidence": [
                                 "the soil along the river is too soft to build bridges",
                                 "the water level and width of the Amazon River change a lot"
-                            ]
+                            ],
+                            "grammar": "💡 suitable for＝〜に適した。be not suitable for ＋ 動名詞 で「〜するのに適さない」。"
                         },
                         {
                             "number": 20,
@@ -1137,14 +1139,15 @@
                                 "訪問者数を増やす"
                             ],
                             "choiceAnalysis": [
-                                "橋を架ける計画→橋は架けられないと述べている",
-                                "新しい船の導入→船の導入は述べていない",
-                                "フェリーサービスの開始→正解。💡 ferry service=フェリー運行。今後の交通手段改善の具体策として本文の結論部分と一致",
-                                "川の流れを変える→流れを変えることは述べていない"
+                                "✅ needs a lot of money＝多額の費用がかかる。💡 橋の建設には莫大な費用が必要で、効果が少なければ問題になるという文脈に合致",
+                                "❌ helps to clean the river＝川をきれいにする。川の浄化は述べていない",
+                                "❌ reduces the crime rate＝犯罪率を下げる。犯罪との関連は述べていない",
+                                "❌ increases the number of visitors＝訪問者数を増やす。観光客の増加は述べていない"
                             ],
                             "sourceEvidence": [
                                 "the countries will end up losing a lot financially"
-                            ]
+                            ],
+                            "grammar": "💡 need＝必要とする。主語が物の場合「〜が必要である」の意味。a lot of money＝多額のお金。"
                         }
                     ]
                 },
@@ -1200,14 +1203,15 @@
                                 "機械が海中にある時"
                             ],
                             "choiceAnalysis": [
-                                "天候を変化させる→気球は天候を変えない",
-                                "天気予報のデータを収集する→正解。💡 collect weather data=気象データ収集。空所直後の「temperature, humidity, wind」等の列挙がデータ収集を示す",
-                                "雨雲を追跡する→雨雲のみではない",
-                                "宇宙への物資輸送→宇宙輸送は述べていない"
+                                "❌ the balloon is prepared＝気球が準備される。準備段階ではデータ収集・送信はまだ行われない",
+                                "✅ the balloon is in the air＝気球が空中にある。💡 直後に「collected data is immediately sent back」とあり、気球が上空にいる間にデータを送信する流れに合致",
+                                "❌ the machine is repaired＝機械が修理される。修理中のデータ送信は文脈に合わない",
+                                "❌ the machine is in the sea＝機械が海中にある。海中での気象データ収集は述べていない"
                             ],
                             "sourceEvidence": [
                                 "the collected data is immediately sent back to the ground"
-                            ]
+                            ],
+                            "grammar": "💡 in the air＝空中に。気球が上空にある状態を示す表現。"
                         },
                         {
                             "number": 22,
@@ -1225,15 +1229,16 @@
                                 "最終的に"
                             ],
                             "choiceAnalysis": [
-                                "パラシュートで降下する→正解。💡 parachute=パラシュート。気球の構造と回収方法に関する問い。pop=破裂→パラシュートで降下という流れ",
-                                "海に落ちる→海に限定していない",
-                                "燃え尽きる→燃焼は述べていない",
-                                "別の気球に回収される→別の気球は述べていない"
+                                "❌ On the other hand＝一方で。対比ではなく時間的順序の流れ",
+                                "❌ In particular＝特に。具体例を示す場面ではない",
+                                "❌ If not＝そうでなければ。条件分岐の文脈ではない",
+                                "✅ Eventually＝最終的に。💡 気球が上昇→気圧低下→破裂、という一連の流れの結末として「最終的に」パラシュートで降下する文脈に最適"
                             ],
                             "sourceEvidence": [
                                 "it expands little by little",
                                 "it grows big enough to be broken"
-                            ]
+                            ],
+                            "grammar": "💡 Eventually＝最終的に、やがて。一連の出来事の結末を示す副詞。"
                         },
                         {
                             "number": 23,
@@ -1251,15 +1256,16 @@
                                 "多くの国を訪問するのに役立った"
                             ],
                             "choiceAnalysis": [
-                                "気球の数を減らす→数の削減は述べていない",
-                                "より安価な素材を使う→素材のコストは述べていない",
-                                "気球を回収して再利用する→正解。💡 reuse=再利用。環境への配慮から回収・再利用の流れを読み取る。近年のSDGs的視点",
-                                "人工衛星で代替する→衛星代替は述べていない"
+                                "✅ proved to be a great success＝大成功であることが証明された。💡 直後に「大気について多くを学んだ」とあり、実験が成功だったことを示す",
+                                "❌ led people to stop using them＝人々に使用をやめさせた。その後も世界中で使われ続けている",
+                                "❌ failed to understand the planet＝地球を理解できなかった。「多くを学んだ」と矛盾する",
+                                "❌ helped him visit many countries＝多くの国を訪問するのに役立った。国の訪問は述べていない"
                             ],
                             "sourceEvidence": [
                                 "He learned a lot about the atmosphere",
                                 "weather balloons have been used around the world"
-                            ]
+                            ],
+                            "grammar": "💡 prove to be＝〜であることが分かる、証明される。prove（動詞）+ to be + 名詞/形容詞。"
                         }
                     ]
                 }
@@ -1332,10 +1338,10 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "スピーチコンテストへの参加招待→正解。💡 invite to participate=参加招待。メールの目的を問う設問は冒頭と結びの部分に着目",
-                                "スピーチの採点結果通知→採点結果ではなく招待",
-                                "スピーチ練習の日程変更→日程変更は述べていない",
-                                "コンテストの中止通知→中止は述べていない"
+                                "❌ She quit playing tennis＝テニスを辞めた。プロとして活動中で辞めたとは述べていない",
+                                "❌ She was invited to a university＝大学に招待された。高校のフェスティバルへの招待",
+                                "❌ She will have a tennis tournament on October 19＝10月19日にテニス大会。学校祭でスピーチ",
+                                "✅ She went to the same high school as Harvey Rogers＝ハーヴィーと同じ高校出身。💡 メールの内容や「our school's tennis team」への言及から、スピーカーがこの高校の卒業生であることが分かる"
                             ],
                             "sourceEvidence": [
                                 "a professional tennis player who graduated from our high school"
@@ -1457,10 +1463,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "アフリカの教育問題→正解。💡 education問題。第1段落のトピックセンテンスから主題を把握する。テーマ問題は第1段落冒頭に注目",
-                                "アフリカの医療問題→医療は主題ではない",
-                                "アフリカの食料問題→食料は主題ではない",
-                                "アフリカの環境問題→環境は主題ではない"
+                                "❌ It is a project that will build a wall＝壁を建設するプロジェクト。「It is not about building an actual wall」と明記",
+                                "❌ It is a project that has a negative impact on the environment＝環境に悪影響。環境問題の解決が目的",
+                                "✅ It is a project that can change the condition of the soil＝土壌の状態を変えるプロジェクト。💡 「help improve the condition of the soil」と本文に明記。植樹による土壌改善が主な目的",
+                                "❌ It is a project that brings all African countries together＝全アフリカの国が参加。「several African countries」であり全ての国ではない"
                             ],
                             "sourceEvidence": [
                                 "This will help make the soil better"
@@ -1512,10 +1518,10 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "海外から教師を招く→海外教師は述べていない",
-                                "オンライン授業を導入する→正解。💡 online classes=オンライン授業。解決策を問う設問は、問題提起→解決策の論理構造に注目",
-                                "学校の統合→統合は述べていない",
-                                "政府の教育予算増額→予算は述べていない"
+                                "✅ people have planted trees whose fruits can improve their physical condition＝果実が健康を改善する木を植えた。💡 「fruits...good for improving people's health」と本文に明記。セネガルでの植樹の具体的効果",
+                                "❌ positive effects have been shown only for a short period＝短期間のみ効果。期間の限定は述べていない",
+                                "❌ the planted trees have helped the other crops grow well＝他の作物の成長を助けた。作物への直接的効果は述べていない",
+                                "❌ soil quality has become worse despite efforts＝努力にもかかわらず土壌悪化。むしろ改善している"
                             ],
                             "sourceEvidence": [
                                 "the fruits that the trees will produce in the future are good for improving people's health"
@@ -1539,10 +1545,10 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "全ての生徒がタブレットを持てた→全員ではない",
-                                "インターネット接続の問題→正解。💡 internet connection problems=接続問題。プロジェクトの課題を問う設問は、however/but等の逆接表現の後に着目",
-                                "教師の反対があった→教師の反対は述べていない",
-                                "資金不足→資金は述べていない"
+                                "❌ Hiring only experts to take care of the trees＝専門家のみを雇用。地元住民が木を世話すると述べている",
+                                "❌ Getting support for money from non-African countries＝アフリカ外からの資金援助。外部資金は述べていない",
+                                "❌ Bringing resources from outside the African continent＝外部からの資源。外部資源は述べていない",
+                                "✅ Increasing the number of jobs for the local people＝地元住民の雇用を増やす。💡 「creating jobs during the process」「people will continue to live in the area」と明記。雇用創出がプロジェクト成功の鍵"
                             ],
                             "sourceEvidence": [
                                 "Another point is creating jobs during the process"
@@ -1609,41 +1615,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'was designed by' を能動態に書き換えると？",
-                        "a": "A Danish architect named Jørn Utzon designed the Sydney Opera House."
+                        "q": "'The Amazon River is known to be...' の受動態はなぜ使われていますか？",
+                        "a": "一般的な知識を客観的に述べるため。be known to be = 〜であると知られている。行為者が不特定。"
                     },
                     {
-                        "q": "'is visited by millions' はどの受動態パターンか？",
-                        "a": "現在形の受動態（is + 過去分詞）。習慣的な事実を表す。"
+                        "q": "'are believed to live' はどのような意味の受動態ですか？",
+                        "a": "「〜に生息すると信じられている」。be believed to do = 〜すると考えられている。客観的事実の提示。"
                     },
                     {
-                        "q": "'was declared' と 'is regarded as' の違いは？",
-                        "a": "was declared = 過去の一回限りの出来事。is regarded as = 現在の一般的な認識。"
+                        "q": "'is known to be' と 'are believed to live' の共通点は何ですか？",
+                        "a": "どちらも「人々が一般的にそう考えている」という客観的認識を受動態で表現。主語を省略して客観性を高める。"
                     },
                     {
-                        "q": "このパッセージに含まれる受動態を全て挙げると？",
-                        "a": "was designed, was completed, is visited, are held, was declared, is regarded"
+                        "q": "この段落で述べられているアマゾン川の特徴を要約してください。",
+                        "a": "世界で2番目に長い川で、多くの生物が生息すると信じられている。しかし橋が一つもないという特徴がある。"
                     }
                 ],
                 "highlightPatterns": [
                     "is known to be",
-                    "are believed to live",
-                    "is often used to",
-                    "have been planted",
-                    "is released into",
-                    "is immediately sent back",
-                    "was invented by",
-                    "has been used",
-                    "have already been recovered",
-                    "was damaged by",
-                    "it is released into the sky",
-                    "were released"
+                    "are believed to live"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The Sydney Opera House was designed by a Danish architect named Jørn Utzon. It was completed in 1973 after many years of construction. The building is visited by millions of tourists every year. Over 1,500 performances are held there annually. The Opera House was declared a UNESCO World Heritage Site in 2007, and it is now regarded as one of the most iconic structures in the world.",
-                    "ja": "シドニー・オペラハウスはヨーン・ウツソンというデンマークの建築家によって設計された。何年もの工事の後、1973年に完成した。毎年何百万人もの観光客が訪れる。年間1,500以上の公演が行われている。2007年にユネスコ世界遺産に宣言され、今や世界で最も象徴的な建造物の一つと見なされている。"
+                    "en": "[出典: A Long River with No Bridges]\nThe Amazon River is known to be the second-longest river in the world, stretching for more than 6,000 kilometers. It runs through at least three countries in South America, and over thirty million people are believed to live along the river. Many large rivers around the world have bridges built over them. On the other hand, there are no bridges on the Amazon River. Therefore, people have to find other ways than using a bridge to travel to the other side. This feature makes the Amazon River unique.",
+                    "ja": "アマゾン川は世界で2番目に長い川として知られ、6,000キロ以上にわたる。南米の少なくとも3カ国を流れ、3,000万人以上が川沿いに住んでいる。世界中の大きな川には橋が架けられている。On the other hand、アマゾン川には橋がない。そのため対岸へ行くのに橋以外の方法を見つけなければならない。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -1672,41 +1669,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'in order to' と 'to' の違いは？",
-                        "a": "ほぼ同義。in order to は目的をより明確に示す。フォーマルな文章で好まれる。"
+                        "q": "'to help solve environmental problems' の不定詞はどのような目的を示しますか？",
+                        "a": "森林を増やす目的＝「環境問題の解決を助けるため」。to help + 原形動詞 で目的を表す。"
                     },
                     {
-                        "q": "'because they want to' と 'to improve' は両方とも理由・目的を表しているか？",
-                        "a": "はい。because = 理由（接続詞）。to improve = 目的（不定詞の副詞的用法）。"
+                        "q": "'to improve the economies' はどのような目的表現ですか？",
+                        "a": "「経済を改善するため」。プロジェクトの経済的目的を示す副詞的用法の不定詞。"
                     },
                     {
-                        "q": "'Since these activities teach' の Since は何を示すか？",
-                        "a": "理由（～なので）。Because と同義。文頭で使われることが多い。"
+                        "q": "この段落で述べられているGreat Green Wallプロジェクトの目的は何ですか？",
+                        "a": "環境問題の解決（to help solve）と経済の改善（to improve the economies）の二つの目的がある。"
                     },
                     {
-                        "q": "'so that every student can' を 'for every student to' に書き換えると？",
-                        "a": "Schools provide options for every student to find something they enjoy."
+                        "q": "'to' を使った目的表現と 'in order to' の違いは何ですか？",
+                        "a": "意味は同じだが 'in order to' はより明確で正式な表現。to do = in order to do = 〜するために。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that she would not",
-                    "used to send",
-                    "in order to do so",
-                    "to build bridges",
-                    "to move products",
-                    "to travel to the other side",
-                    "to indicate that",
-                    "to send a small machine",
-                    "to improve the economies",
-                    "to help solve",
-                    "to prevent more damage",
-                    "to help them grow"
+                    "to help solve environmental problems",
+                    "to improve the economies"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "目的・理由",
                 "practicePassage": {
-                    "en": "Many students join clubs in order to develop new skills outside the classroom. Some choose sports clubs to improve their physical fitness, while others join cultural clubs because they want to explore their interests. Since these activities teach teamwork and responsibility, teachers encourage students to participate actively. Schools provide a variety of club options so that every student can find something they enjoy.",
-                    "ja": "多くの生徒が教室の外で新しいスキルを身につけるために部活動に参加する。体力を改善するためにスポーツ部を選ぶ生徒もいれば、興味を探求したいから文化部に入る生徒もいる。これらの活動はチームワークと責任感を教えるため、教師は生徒に積極的に参加するよう勧めている。全ての生徒が楽しめるものを見つけられるよう、学校はさまざまな部活の選択肢を提供している。"
+                    "en": "[出典: A Big Project in Africa]\nToday, many countries are trying to grow more forests to help solve environmental problems. The Great Green Wall project is a great example. It is not about building an actual wall. In this project, several African countries are working to plant trees and other plants across a wide area. This will help make the soil better, so farmers can grow more crops to sell. And it will eventually help to improve the economies of the countries and the quality of life for the local people.",
+                    "ja": "今日多くの国が環境問題解決のためにより多くの森林を育てようとしている。グレートグリーンウォールプロジェクトは好例だ。実際の壁を建てるのではない。このプロジェクトでは複数のアフリカの国々が広い地域に木や植物を植えている。これにより土壌が改善され農家はより多くの作物を栽培・販売できる。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -1735,36 +1723,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'I am writing to confirm' は何のための表現か？",
-                        "a": "メールの目的を述べる定型表現。「～を確認するためにメールをしています」。"
+                        "q": "'But now, it is badly damaged' の 'But' はどのような対比を示していますか？",
+                        "a": "過去は自然に恵まれていた（used to be full of nature）のに対し、現在はひどく損傷しているという時間的対比。"
                     },
                     {
-                        "q": "'I would be grateful if you could' を別の表現で？",
-                        "a": "I would appreciate it if you could / Could you kindly / Would you be so kind as to"
+                        "q": "'to prevent more damage' は何を目的としていますか？",
+                        "a": "さらなる被害を防ぐため。prevent = 防ぐ、to 不定詞で目的を表す。"
                     },
                     {
-                        "q": "'Please do not hesitate to contact me' を日常的な表現に言い換えると？",
-                        "a": "Feel free to reach out / Just let me know / Don't worry about contacting me anytime"
+                        "q": "この段落で過去と現在はどのように対比されていますか？",
+                        "a": "過去：自然が豊か → 現在：ひどく損傷。But を使って劇的な変化を強調している。"
                     },
                     {
-                        "q": "'I look forward to hearing from you' の文法ポイントは？",
-                        "a": "look forward to + 動名詞（-ing）。toは前置詞なので後ろは名詞/動名詞。"
+                        "q": "'was damaged by' の受動態は誰/何が損傷を引き起こしたことを示していますか？",
+                        "a": "気候変動や人間活動による損傷。受動態で被害の状態に焦点を当てている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "On the other hand",
-                    "Although the origins",
-                    "However, a number of problems",
                     "But now, it is badly damaged",
-                    "instead of studying",
-                    "but his classes were so difficult",
-                    "but it's a bit"
+                    "to prevent more damage"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "逆接・対比",
                 "practicePassage": {
-                    "en": "Dear Ms. Taylor,\nThank you for your email regarding the school trip. I am writing to confirm our reservation for 30 students on March 15. I would be grateful if you could let us know what items students should bring. Please also advise us on the dress code for the day. If there are any changes to the schedule, please do not hesitate to contact me. I look forward to hearing from you soon.\nBest regards,\nKen Yamada",
-                    "ja": "テイラー様\n学校遠足に関するメールをありがとうございます。3月15日の30名分の予約を確認するためにご連絡しています。生徒が持参すべきものを教えていただければ幸いです。当日の服装規定についてもご助言ください。スケジュールに変更がございましたら、遠慮なくご連絡ください。お返事をお待ちしております。\n敬具\n山田 健"
+                    "en": "[出典: A Big Project in Africa]\nThe area around the Sahara Desert, where the project is happening, used to be full of nature. But now, it is badly damaged. This has happened because of climate change and terrible weather events. Human activities also harmed the area. For example, it was damaged by using the land for farming over and over. Today, hundreds of millions of people live in desert areas. For the local people, scientists are working to prevent more damage and bring back the plants that once grew there.",
+                    "ja": "プロジェクトが行われているサハラ砂漠周辺は以前自然に満ちていたが今はひどく損傷している。気候変動やひどい気象現象のせいだ。人間の活動も地域を害した。例えば繰り返し農業に土地を使うことで損傷した。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -1793,33 +1777,34 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "このパッセージの論理展開パターンは？",
-                        "a": "主張 → 理由① (To begin with) → 理由② (Moreover) → 反論 (However) → 結論 (In conclusion)"
+                        "q": "'During that time' はどの期間を指していますか？",
+                        "a": "気象バルーンが空に浮かんでいる約2時間の期間。During = 〜の間。"
                     },
                     {
-                        "q": "'To begin with' と 'Moreover' の関係は？",
-                        "a": "To begin with = 最初の論点を導入。Moreover = 追加の論点を加える。列挙の構造。"
+                        "q": "'from the moment it is released' はどのような時間表現ですか？",
+                        "a": "「放たれた瞬間から」。from the moment = 〜した瞬間から、起点を示す時間表現。"
                     },
                     {
-                        "q": "'In conclusion, despite the challenges' はどんな論理？",
-                        "a": "結論 + 譲歩。「困難にもかかわらず」と認めつつ最終的な主張を述べる。"
+                        "q": "'When the balloon rises higher' はどのような時間的条件を示しますか？",
+                        "a": "「バルーンがより高く上がると」。When は時間的条件を示す接続詞。上昇に伴う変化を説明。"
+                    },
+                    {
+                        "q": "'little by little' はどのような変化の過程を表しますか？",
+                        "a": "「少しずつ」。graduallyと同義。バルーンの段階的な膨張・変化を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Eventually, it grows big enough",
-                    "Since then, weather balloons have been used",
-                    "from the moment it is released",
-                    "After the talk",
                     "During that time",
-                    "at the end of the nineteenth century",
+                    "from the moment it is released",
                     "When the balloon rises higher",
                     "little by little"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "時間・順序",
                 "practicePassage": {
-                    "en": "Learning a second language has many cognitive benefits. To begin with, bilingual people tend to have better memory and concentration. Moreover, studies suggest that speaking two languages can delay the onset of dementia. However, learning a new language is not always easy. It requires consistent practice and dedication over a long period. In conclusion, despite the challenges, the long-term benefits of bilingualism make the effort worthwhile.",
-                    "ja": "第二言語の学習には多くの認知的な利点がある。まず、バイリンガルの人はより良い記憶力と集中力を持つ傾向がある。さらに、2か国語を話すことは認知症の発症を遅らせる可能性があるという研究もある。しかし、新しい言語の学習は必ずしも簡単ではない。長期間にわたる継続的な練習と献身が必要だ。結論として、困難にもかかわらず、バイリンガリズムの長期的な利点は努力に値するものだ。"
+                    "en": "[出典: Weather Balloons]\nA weather balloon often stays in the sky for about two hours. During that time, it can reach an altitude of around thirty thousand meters. The machine carried by the balloon starts collecting data from the moment it is released into the sky from the ground. When the balloon rises higher and higher, it expands little by little. Eventually, it grows big enough to be broken. Then, the machine falls slowly to the ground with a parachute.",
+                    "ja": "気象バルーンは約2時間空に留まり、約3万メートルの高度に達する。バルーンが運ぶ機械は地上から空に放たれた瞬間からデータ収集を始める。バルーンが高く上がるにつれて少しずつ膨張する。Eventually割れるほど大きくなる。その後機械はパラシュートでゆっくり地上に落ちる。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -1848,40 +1833,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'plays a vital role' を言い換えると？",
-                        "a": "is essential for / is important in / serves a crucial function in"
+                        "q": "'a short time for students to ask you some questions' を言い換えてください。",
+                        "a": "'a brief Q&A session' や 'a chance for students to interact with you'。short time for ... to ask = brief opportunity for questions。"
                     },
                     {
-                        "q": "'carry a large number of passengers' を言い換えると？",
-                        "a": "transport many people / move millions of commuters"
+                        "q": "'If possible, we would also like to...' の丁寧な依頼表現を別の言い方にしてください。",
+                        "a": "'We were hoping you could...' や 'It would be great if you could...'。would like to = hope to / want to (polite)。"
                     },
                     {
-                        "q": "'reduce the number of private vehicles' を言い換えると？",
-                        "a": "decrease car traffic / lower the amount of personal cars / cut down on automobile use"
+                        "q": "'provide us with the details' を簡単に言い換えると？",
+                        "a": "'give us the information' や 'share the details with us'。provide A with B = give A B。"
                     },
                     {
-                        "q": "'more affordable than' を言い換えると？",
-                        "a": "cheaper than / less expensive compared to / costs less than"
+                        "q": "この段落でのイベント主催者の依頼を自分の言葉でまとめてください。",
+                        "a": "学生からの質疑応答の時間を設けたい。可能であれば追加の情報も提供してほしい、という2つの依頼。"
                     }
                 ],
                 "highlightPatterns": [
-                    "behavior",
-                    "origins",
-                    "emerged",
-                    "indicate",
-                    "carry out",
-                    "for the benefit of",
-                    "come to an end",
-                    "look after",
-                    "in shape",
-                    "go ahead",
-                    "anxious about"
+                    "a short time for students to ask",
+                    "If possible",
+                    "would also like to"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "Public transportation plays a vital role in modern cities. Buses and trains carry a large number of passengers every day. They help reduce the number of private vehicles on the roads. This leads to less air pollution and smaller carbon footprints. Furthermore, public transit is more affordable than owning a personal car, making it accessible to people with different income levels.",
-                    "ja": "公共交通機関は現代の都市で重要な役割を果たしている。バスや電車は毎日多くの乗客を運ぶ。道路上の自家用車の数を減らすのに役立つ。これにより大気汚染が減り、カーボンフットプリントが小さくなる。さらに、公共交通機関は自家用車を所有するよりも手頃で、異なる収入レベルの人々にとって利用しやすい。"
+                    "en": "[出典: Speech at School Festival]\nWe will have a short time for students to ask you some questions. If possible, we would also like to take pictures of you with students. After the talk, we will offer you a tour of the school. You are more than welcome to visit our school's tennis team and meet the players. Just for your information, the school newspaper team is interested in writing a short article about the event.",
+                    "ja": "生徒が質問する時間を設けます。可能であれば生徒と一緒に写真撮影もしたいです。トーク後には学校案内をします。テニス部を訪問して選手と会うことも大歓迎です。ちなみに学校新聞チームがイベントについて記事を書くことに興味を持っています。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]

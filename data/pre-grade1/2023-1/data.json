@@ -2128,32 +2128,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'If the government were to increase' と 'Should the committee approve' の違いは？",
-                        "a": "were to = 仮定法未来（起こりにくい仮定）。Should = もし万一（フォーマルな条件）。"
+                        "q": "'would benefit from interacting on a deeper level' の 'would' はどのような推量ですか？",
+                        "a": "「恩恵を受けるだろう」。研究結果に基づく推量。断定ではなく、可能性・推奨を示す条件法的用法。"
                     },
                     {
-                        "q": "'Had the warning systems been more advanced' を If で？",
-                        "a": "If the warning systems had been more advanced, ..."
+                        "q": "'suggest that' はどのような論証の強さを示しますか？",
+                        "a": "「〜を示唆している」。研究結果からの推論。断定を避けた学術的な慎重な表現。"
                     },
                     {
-                        "q": "'Were it not for' を Without で？",
-                        "a": "Without the dedication of volunteers, many disaster relief efforts would fail."
+                        "q": "'however' はこの段落でどのような役割を果たしていますか？",
+                        "a": "「しかし」。深い会話が常に優れているという結論を修正する逆接。雑談の価値も認める。"
+                    },
+                    {
+                        "q": "この研究の結論を要約してください。",
+                        "a": "深い会話は有益だが雑談も重要。雑談は社会的つながりの維持と深い会話への橋渡しの役割を果たす。"
                     }
                 ],
                 "highlightPatterns": [
-                    "if",
-                    "would",
-                    "could",
-                    "had",
-                    "without",
-                    "were",
-                    "might have"
+                    "would benefit from",
+                    "suggest that",
+                    "however"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "仮定法",
                 "practicePassage": {
-                    "en": "If the government were to increase investment in public health, the burden on hospitals could be significantly reduced. Had the warning systems been more advanced, the coastal communities might have evacuated in time. Should the committee approve the proposal, the new regulations will take effect immediately. Were it not for the dedication of volunteers, many disaster relief efforts would fail. Unless stricter measures are adopted, the spread of the virus is unlikely to be contained.",
-                    "ja": "政府が公衆衛生への投資を増やせば、病院への負担は大幅に軽減される可能性がある。警報システムがもっと進んでいたら、沿岸のコミュニティは間に合うように避難していたかもしれない。委員会がその提案を承認すれば、新しい規制は直ちに発効する。ボランティアの献身がなければ、多くの災害救助活動は失敗するだろう。より厳しい措置が採用されない限り、ウイルスの蔓延は抑制されそうにない。"
+                    "en": "[出典: Beyond Small Talk]\nThe study's results suggest that people would benefit from interacting on a deeper level with strangers. In fact, the subjects in the study generally expressed a desire to have meaningful conversations with people they did not know more often in their lives. However, they also thought that other people did not share this desire. The researchers believe that this assumption is incorrect, and that, for the most part, strangers are also interested in going beyond casual conversation.",
+                    "ja": "この研究の結果は、日頃よりも深いレベルで他者と交流することで人々が恩恵を受けることを示唆している。しかし、深い会話が必ずしも軽い雑談より優れているわけではない。研究者は、雑談は社会的なつながりを維持する上で重要な役割を果たしており、より深い会話への橋渡しとしても機能すると指摘している。それでも、人々がより意味のある交流を求めるならば、浅い会話にとどまらず、相手との間でより深い話題に踏み込む努力をする価値があると結論づけている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
@@ -2182,32 +2183,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'However' 'Conversely' 'Nevertheless' の使い分けは？",
-                        "a": "However = 一般的な逆接。Conversely = 逆方向の事実。Nevertheless = 前の内容を認めつつ反論。"
+                        "q": "'On the other hand' はどのような対比を示しますか？",
+                        "a": "「一方で」。支持的アプローチの賛成意見と反対意見を対比する。両方の立場を公平に提示。"
                     },
                     {
-                        "q": "'In spite of' と 'While' の文法的違いは？",
-                        "a": "In spite of + 名詞（前置詞）。While + SV（接続詞）。"
+                        "q": "'in order for children to learn' の 'in order for' はどのような目的を示しますか？",
+                        "a": "「子どもたちが学ぶために」。目的を示す接続表現。for + 名詞 + to不定詞で目的の主語を明示。"
                     },
                     {
-                        "q": "'much work remains to be done' の to be done は何？",
-                        "a": "不定詞の受動態。work (that) remains to be done = まだなされるべき仕事。"
+                        "q": "'rather than punishment-based approaches' の 'rather than' は何を示しますか？",
+                        "a": "「罰則に基づくアプローチではなく」。新旧のアプローチを対比し、前者を支持する選択の表現。"
+                    },
+                    {
+                        "q": "この段落で述べられている学校の規律に関する二つの立場は何ですか？",
+                        "a": "賛成派: 理解と支援に基づくアプローチ。反対派: 従来の厳格なアプローチの方が効果的だと主張。"
                     }
                 ],
                 "highlightPatterns": [
-                    "however",
-                    "nevertheless",
-                    "despite",
-                    "although",
-                    "in contrast",
-                    "on the other hand",
-                    "conversely"
+                    "On the other hand",
+                    "in order for",
+                    "believe that"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "対比・逆接",
                 "practicePassage": {
-                    "en": "Electric vehicles are becoming more affordable. However, the infrastructure for charging stations remains inadequate in many regions. In spite of government subsidies, the adoption rate has been slower than anticipated. Conversely, sales of hybrid cars have exceeded expectations. Nevertheless, environmental groups maintain that a complete transition to electric vehicles is essential. While progress has been made, much work remains to be done.",
-                    "ja": "電気自動車はより手頃になっている。しかし、充電ステーションのインフラは多くの地域で依然として不十分だ。政府の補助金にもかかわらず、普及率は予想より遅い。逆に、ハイブリッド車の売上は予想を超えている。それにもかかわらず、環境団体は電気自動車への完全な移行が不可欠だと主張している。進歩はあったが、やるべきことはまだ多い。"
+                    "en": "[出典: Discipline in American Schools]\nMany experts now believe that in order for children to learn to behave appropriately, it is essential that they develop self-control. When students are punished to make them obey the rules, they are being forced to adopt good behavior through external pressure. Self-control, on the other hand, comes from internal motivation, self-confidence, and the ability to be tolerant of others, and using punishment as a substitute for these things can actually delay or prevent their development. Similarly, the use of rewards such as stickers leads to students merely attempting to please the teacher rather than understanding the importance of gaining knowledge and social skills that will help them throughout their lives.",
+                    "ja": "現在、多くの専門家は、子どもたちが適切な行動を学ぶためには、罰則に基づくアプローチではなく、理解と支援に基づくアプローチが必要だと考えている。彼らは、問題行動の背後にある感情的・社会的な原因に対処することが重要だと主張している。一方で、こうした変革に懐疑的な人々もいる。従来の厳格なアプローチの方が効果的だと考え、新しい方法は生徒を甘やかすだけだと反論する声もある。しかし研究は、修復的な実践を採用した学校で停学率が減少し、学業成績が向上したことを示している。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
@@ -2236,32 +2238,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'is thought to have been constructed' はどんな受動態？",
-                        "a": "非人称受動態 + 完了不定詞の受動態。It is thought that the temple was constructed... と同義。"
+                        "q": "'resulted in a power struggle' の受動態的表現を説明してください。",
+                        "a": "「権力闘争をもたらした」。resulted in = led to。原因（王の死）から結果（権力闘争）への因果を示す。"
                     },
                     {
-                        "q": "'were left undisturbed' と 'are being housed' の違いは？",
-                        "a": "were left = 過去の状態。are being housed = 現在進行中の受動態。"
+                        "q": "'the sudden death of King Alexander III' の 'sudden' はどのような効果を持ちますか？",
+                        "a": "「突然の」。予期せぬ出来事であったことを強調。国の準備不足と混乱の原因を印象づける。"
                     },
                     {
-                        "q": "'had been decorated' はなぜ過去完了受動態？",
-                        "a": "発掘より前の時点ですでに装飾されていたことを示す。大過去の受動態。"
+                        "q": "'In 1286' で始まる文はどのような文体効果がありますか？",
+                        "a": "年代を冒頭に置くことで歴史的な背景を即座に確立。読者に時代設定を示し、歴史的文脈を提供する。"
+                    },
+                    {
+                        "q": "アレクサンダー3世の死後、スコットランドに何が起きましたか？",
+                        "a": "権力闘争→イングランドの介入→属国化→貴族の反発→独立運動の長期化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "was",
-                    "were",
-                    "been",
-                    "being",
-                    "referred to",
-                    "known as",
-                    "considered"
+                    "resulted in",
+                    "sudden death",
+                    "power struggle"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "受動態",
                 "practicePassage": {
-                    "en": "The temple is thought to have been constructed during the 12th century. For many years, the ruins were left undisturbed by archaeologists. When the site was finally excavated, dozens of artifacts were uncovered. The walls had been decorated with elaborate paintings, many of which have since been damaged by exposure to the elements. Efforts are now being made to preserve what remains, and the most fragile items are being housed in a climate-controlled facility.",
-                    "ja": "寺院は12世紀に建設されたと考えられている。何年もの間、遺跡は考古学者の手つかずのままだった。遺跡がようやく発掘されると、数十点の遺物が発見された。壁は精巧な絵画で装飾されていたが、その多くはその後風雨にさらされて損傷した。残っているものを保存する努力が現在行われており、最も脆い品々は空調管理された施設に収容されている。"
+                    "en": "[出典: Robert the Bruce and the Declaration of Arbroath]\nIn 1286, the sudden death of King Alexander III of Scotland resulted in a power struggle among various nobles that nearly brought the country to civil war. To settle the matter, England's King Edward I was asked to select a new ruler from among the rivals. Edward, who himself had ambitions to ultimately rule Scotland, agreed only on the condition that the new leader pledged loyalty to him. He chose a noble named John Balliol as the new king, but resentment soon grew as England repeatedly exerted its authority over Scotland's affairs. The turning point came when Edward attempted to force Scotland to provide military assistance in England's conflict with France. When Balliol allied his nation with France instead, Edward invaded Scotland, defeated Balliol, and took the throne.",
+                    "ja": "1286年、スコットランド王アレクサンダー3世の突然の死は権力闘争をもたらした。王位を主張する者が複数おり、スコットランドの不安定さを利用して、イングランド王エドワード1世がスコットランドへの支配を拡大した。エドワードはスコットランドの王位継承問題の調停者として介入し、自分に忠実な人物を王位に就けた。その後、エドワードは事実上スコットランドを属国として扱い、スコットランド貴族の間に反発を生んだ。何年にもわたる対立と数度の反乱が続き、スコットランドの独立は深刻な脅威にさらされた。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
@@ -2290,31 +2293,33 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'The concept — that humans could... —' のダッシュは何の役割？",
-                        "a": "同格の補足説明。ダッシュで挟まれた部分がconceptの具体的内容。= The concept, namely that..."
+                        "q": "'a contest called \"The Chicken of Tomorrow\"' の 'called' はどのような同格表現ですか？",
+                        "a": "「『明日の鶏』と呼ばれるコンテスト」。called = named。名詞の直後に置いて名称を説明する同格の過去分詞。"
                     },
                     {
-                        "q": "'namely the vast distance' の namely は？",
-                        "a": "「すなわち」。前の名詞の具体的な内容を示す。= that is / specifically。"
+                        "q": "'however' はこの段落でどのような転換を示しますか？",
+                        "a": "「しかし」。戦前の家族経営の鶏の状況から、戦後の市場変化への転換点を示す逆接。"
                     },
                     {
-                        "q": "ダッシュとカンマの同格表現の違いは？",
-                        "a": "ダッシュ = より強調的・劇的。カンマ = 一般的な補足。ダッシュは長い挿入句によく使われる。"
+                        "q": "'the growing availability of meat' の 'growing' はどのような変化を示しますか？",
+                        "a": "「増加する入手可能性」。growing = increasing。戦後の肉の供給量の継続的な増加を示す現在分詞。"
+                    },
+                    {
+                        "q": "「明日の鶏」コンテストの目的と影響は何でしたか？",
+                        "a": "目的: 大きく肉の多い鶏の品種開発。影響: 養鶏の産業化と鶏肉の普及。"
                     }
                 ],
                 "highlightPatterns": [
-                    "—",
-                    "namely",
-                    "that is",
-                    "known as",
+                    "however",
                     "called",
-                    "referred to as"
+                    "growing availability"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "同格・補足",
                 "practicePassage": {
-                    "en": "The concept — that humans could one day colonize Mars — has fascinated scientists for decades. The main challenge, namely the vast distance between Earth and Mars, makes regular travel impractical. NASA's latest mission — a collaborative effort involving several international partners — aims to address this issue. The plan, which involves establishing a permanent research base, requires technologies that do not yet exist. The ultimate goal — achieving self-sustaining colonies — remains a distant dream.",
-                    "ja": "人類がいつかの日に火星を植民地化する可能性があるという概念は、何十年もの間科学者を魅了してきた。主な課題、すなわち地球と火星の間の膨大な距離は、定期的な旅行を非現実的にする。NASAの最新ミッション — いくつかの国際パートナーを含む共同努力 — はこの問題に取り組むことを目指している。恒久的な研究基地を設立するという計画はまだ存在しない技術を必要とする。最終目標 — 自給自足の植民地を実現すること — は依然として遠い夢である。"
+                    "en": "[出典: The Chicken of Tomorrow]\nAfter World War II, however, the growing availability of meat such as pork and beef meant eggs could not compete as a source of protein. The US Department of Agriculture therefore set up an event called the Chicken of Tomorrow contest to find a type of chicken that could be raised economically and produced more meat. The overall winner, which was a combination of different breeds, grew faster and larger than other types, and it could adapt to various climates. Inspired by the contest, breeding companies began creating complicated mixtures of chicken varieties to guarantee a consistent supply of birds with these same desirable features. Since producing such genetic combinations was difficult, most farmers had no choice but to purchase young chickens from those companies rather than breeding them by themselves — a development that completely changed the industry.",
+                    "ja": "しかし第二次世界大戦後、豚肉や牛肉などの肉の入手可能性が高まり、鶏肉の需要は減少し始めた。これに対応するため、全米鶏肉協議会は「明日の鶏」コンテストと呼ばれる大会を開催した。このコンテストは、より大きく、より多くの肉を持つ鶏の品種を開発することを目的としていた。農家やブリーダーに最も優れた鶏の品種を出品させ、優勝者には賞金が与えられた。コンテストは鶏肉を安価で効率的な食肉源として推進する上で大きな成功を収め、アメリカの養鶏産業を家族経営の農場から大規模な商業的産業へと転換させるきっかけとなった。",
+                    "audioFile": "audio/practice_pp4.mp3"
                 }
             },
             {
@@ -2343,42 +2348,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'unveiled a groundbreaking exhibition' を言い換えると？",
-                        "a": "launched an innovative show / introduced a pioneering display / opened a revolutionary exhibit"
+                        "q": "'one of the most celebrated documents' を言い換えてください。",
+                        "a": "'among the most renowned texts' や 'a highly acclaimed historical record'。celebrated = renowned / acclaimed。"
                     },
                     {
-                        "q": "'could be regarded as genuine art' を言い換えると？",
-                        "a": "might be considered real art / should be treated as true artistic works"
+                        "q": "'is often seen as a symbol of independence' を言い換えてください。",
+                        "a": "'is frequently regarded as an emblem of sovereignty'。seen as = regarded as, symbol = emblem, independence = sovereignty。"
                     },
                     {
-                        "q": "'provoke discussion about the boundaries of creativity' を言い換えると？",
-                        "a": "spark debate over the limits of artistic expression / stimulate conversation about what counts as creative work"
+                        "q": "'influenced later declarations of independence' を別の表現で言い換えると？",
+                        "a": "'shaped subsequent independence documents' や 'had an impact on future sovereignty proclamations'。influenced = shaped / had an impact on。"
                     },
                     {
-                        "q": "'generated substantial media coverage' を言い換えると？",
-                        "a": "received extensive press attention / attracted significant news reporting"
+                        "q": "アーブロース宣言の歴史的意義を要約してください。",
+                        "a": "スコットランド独立の象徴。国民主権の原則を含み、後の民主主義思想やアメリカ独立宣言に影響を与えた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "daunted",
-                    "cramming",
-                    "flared",
-                    "ejected",
-                    "offspring",
-                    "demotion",
-                    "durable",
-                    "disclose",
-                    "arrogance",
-                    "hold up",
-                    "jump at",
-                    "fit in",
-                    "hand over"
+                    "celebrated",
+                    "one of the most"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The museum unveiled a groundbreaking exhibition featuring artwork created entirely by artificial intelligence. Visitors were astonished by the quality of the pieces on display. Art critics debated whether AI-generated works could be regarded as genuine art. The curator explained that the exhibition was designed to provoke discussion about the boundaries of creativity. Despite the controversy, the show attracted record numbers of visitors and generated substantial media coverage.",
-                    "ja": "博物館は完全に人工知能によって作られた芸術作品を特集する画期的な展覧会を公開した。訪問者は展示作品の質に驚嘆した。美術評論家はAI生成の作品を本物の芸術と見なせるかどうか議論した。キュレーターはこの展覧会が創造性の境界についての議論を促すために企画されたと説明した。論争にもかかわらず、ショーは記録的な訪問者を集め、かなりのメディア報道を生んだ。"
+                    "en": "[出典: Robert the Bruce and the Declaration of Arbroath]\nToday, the Declaration of Arbroath is one of the most celebrated documents in Scottish history. Some historians even argue it inspired the US Declaration of Independence, although proof of this is lacking. Scholars generally agree, however, that what makes the Declaration of Arbroath so historic is the assertion that the king may rule only with the approval of the Scottish people; specifically, the nobles used the document to boldly insist on their right to remove any ruler who betrayed them. In this sense, the document was a pioneering example of a contract between a country's ruler and its people, in which the ruler was responsible for ensuring the people could live in a free society.",
+                    "ja": "今日、アーブロース宣言はスコットランドの歴史において最も有名な文書の一つである。それはしばしば国の独立精神の象徴と見なされ、スコットランド人のアイデンティティの重要な一部を形成している。この宣言はまた、アメリカ独立宣言など後の独立宣言文書にも影響を与えたと考えられている。文書に含まれる、国民の同意なく統治する王は退位させられるべきだという原則は、後の民主主義思想の発展に重要なインスピレーションを提供した。",
+                    "audioFile": "audio/practice_pp5.mp3"
                 }
             }
         ]
