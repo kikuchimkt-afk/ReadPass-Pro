@@ -1422,37 +1422,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'As a consequence' と 'As a result' の違いは？",
-                        "a": "ほぼ同義。As a consequence はやや堅い文章で好まれる。どちらも「その結果」。"
+                        "q": "'At first' はどのような時間表現ですか？",
+                        "a": "「初めは」。最初の段階を示す。残り物を使う→やがて本格的な料理に。変化の始点を示す。"
                     },
                     {
-                        "q": "'Consequently' と 'Due to' の文法的な違いは？",
-                        "a": "Consequently = 副詞（文頭で文をつなぐ）。Due to = 前置詞（+ 名詞句が続く）。"
+                        "q": "'From then on' はどのような時間の転換ですか？",
+                        "a": "「それ以降」。転換点以降の継続的変化を示す。スモーブローが本格料理として定着。"
                     },
                     {
-                        "q": "このパッセージの因果連鎖を整理すると？",
-                        "a": "化学物質放出 → 魚死亡・水質悪化 → 海岸閉鎖 → 観光業衰退 → 会社が浄化費用支払い"
+                        "q": "'not just a plate but part of the food' の構文を説明してください。",
+                        "a": "not just A but B。「単なる皿ではなく料理の一部」。パンの役割の再定義。"
+                    },
+                    {
+                        "q": "スモーブローの発展を要約してください。",
+                        "a": "産業革命→工場労働者が残り物をパンに→習慣が普及→パンが料理の一部に→デンマークの代表料理。"
                     }
                 ],
                 "highlightPatterns": [
-                    "as a consequence",
-                    "as a result",
-                    "In short",
-                    "Interestingly",
                     "At first",
-                    "In the meantime",
-                    "At the same time",
-                    "Thus",
-                    "At least",
-                    "To put it simply",
-                    "Otherwise",
-                    "From then on"
+                    "From then on",
+                    "Industrial Revolution"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "結果の接続表現",
                 "practicePassage": {
-                    "en": "The factory released large amounts of chemicals into the river. As a consequence, many fish died and the water became unsafe for drinking. The local government was forced to close several beaches as a result of the contamination. Consequently, tourism in the area declined sharply. Due to the economic losses, the company eventually agreed to pay for the cleanup.",
-                    "ja": "工場は大量の化学物質を川に放出した。その結果、多くの魚が死に、水は飲用に適さなくなった。地方自治体は汚染の結果、いくつかの海岸を閉鎖せざるを得なかった。それにより、その地域の観光業は急激に衰退した。経済的損失のため、会社は最終的に浄化費用を支払うことに同意した。",
+                    "en": "[出典: Smørrebrød]\nThe Industrial Revolution helped Smørrebrød spread all over Denmark. Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient. At first, people gave the bread to animals. Later, they found it delicious, soaked with juice from the toppings. This led to the spread of the idea that the bread was not just a plate but part of the food itself. From then on, Smørrebrød was recognized as an open sandwich.",
+                    "ja": "産業革命はスモーブローをデンマーク全土に広めるのに役立った。工場で働く人々は昼食に家に帰ることができなかったため、初めは前夜の残り物をパンの上にのせて職場に持っていった。この習慣が広まり、それ以降スモーブローは単なるパンの上の食べ物ではなく、パン自体が料理の一部として扱われるようになった。現在ではデンマークの食文化を代表する料理の一つとなっている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
@@ -1482,35 +1477,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'If I had more free time' は何仮定法？",
-                        "a": "仮定法過去。If + 主語 + 過去形, 主語 + would + 動詞原形。現在の事実に反する仮定。"
+                        "q": "'If there were more air, it would perform as a cushion' の仮定法過去を説明してください。",
+                        "a": "If + 過去形 + would + 原形。現実と反する仮定。実際は空気が少ない→パラシュートが使えない。"
                     },
                     {
-                        "q": "'as if she were' のwere はなぜ？",
-                        "a": "仮定法過去のbe動詞は主語に関係なくwereを使う。as if = まるで～のように。"
+                        "q": "'it is said that there is only about 1 percent' の非人称表現を説明してください。",
+                        "a": "「〜と言われている」。科学的事実を伝えるが、直接的断言を避ける表現。情報源を特定しない。"
                     },
                     {
-                        "q": "'I wish I could' を日本語の文法用語で説明すると？",
-                        "a": "I wish + 仮定法過去 = 「～できたらいいのに」。現在実現していない願望を表す。"
+                        "q": "'Instead, they needed to land spacecraft on the surface' の 'Instead' は何の代わりですか？",
+                        "a": "画像だけでは不十分→代わりに着陸が必要。Instead = その代わりに。方法の転換。"
+                    },
+                    {
+                        "q": "火星着陸の困難さを要約してください。",
+                        "a": "大気が地球の1%→パラシュートが不十分→特別な着陸方法が必要。仮定法で理想と現実の差を説明。"
                     }
                 ],
                 "highlightPatterns": [
                     "If there were more air",
-                    "it would perform as a cushion",
-                    "If I were you",
-                    "would slow down",
-                    "could not go home",
-                    "could move and live",
-                    "might one day be",
-                    "it became clear that",
-                    "it is said that",
-                    "it is possible for us to know"
+                    "it would perform",
+                    "it is said that"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "仮定法",
                 "practicePassage": {
-                    "en": "If I had more free time, I would travel around the world. If there were no pollution, the sky would always be clear and blue. She speaks French as if she were a native speaker, even though she learned it in school. I wish I could play the piano as well as my sister. If people drove less, air quality in cities would improve significantly.",
-                    "ja": "もっと自由な時間があれば世界中を旅するのに。汚染がなければ空はいつも澄んだ青色だろう。彼女は学校で習ったのにまるでネイティブスピーカーのようにフランス語を話す。姉のようにピアノが弾けたらいいのに。人々があまり車を運転しなければ都市の空気の質は大幅に改善するだろう。",
+                    "en": "[出典: Mars Exploration]\nThese images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+                    "ja": "これらの画像だけでは、火星に存在した生命の証拠を得るには十分ではなかった。代わりに、宇宙船を火星の表面に着陸させる必要があった。しかし、火星の大気は地球の約1パーセントしかないと言われている。もしもっと多くの空気があれば、パラシュートが宇宙船を減速させるクッションの役割を果たすだろう。しかし実際には空気が少なすぎるため、別の着陸方法を考案しなければならなかった。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
@@ -1540,41 +1532,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'make off with' はどういう意味か？",
-                        "a": "～を持ち逃げする。= run away with stolen goods。"
+                        "q": "'like a mirror that reflects cultures' の比喩を説明してください。",
+                        "a": "「文化を映し出す鏡のようなもの」。食べ物=鏡。食べ物を通じて文化が見える。simile(直喩)。"
                     },
                     {
-                        "q": "'cut down on' と 'take one's place' の違いは？",
-                        "a": "cut down on = ～を減らす、控える。take one's place = ～の後任を務める、代わりになる。"
+                        "q": "'miss out on' はどのような句動詞ですか？",
+                        "a": "「見逃す、経験し損なう」。miss out on = fail to experience。旅行者への推奨。"
                     },
                     {
-                        "q": "'track down' と 'put off' の意味は？",
-                        "a": "track down = 追跡して見つける。put off = 延期する（= postpone）。"
+                        "q": "'end up with' はどのような結果を示しますか？",
+                        "a": "「最終的に〜になる」。end up with = eventually have/get。予期せぬまたは最終的な結果。"
+                    },
+                    {
+                        "q": "食べ物と文化の関係を要約してください。",
+                        "a": "食べ物は文化を映す鏡。伝統料理で歴史や価値観を理解。旅行者は地元料理で文化的理解を深められる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "make off with",
-                    "cut down on",
-                    "took her place",
-                    "make time for",
-                    "pay well",
-                    "go by",
-                    "disagreeing on",
-                    "fade away",
-                    "set up",
-                    "put aside",
-                    "find out",
-                    "go through",
-                    "get together",
-                    "come off",
-                    "take off",
-                    "come across"
+                    "like a mirror",
+                    "reflects cultures",
+                    "miss out on"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "句動詞",
                 "practicePassage": {
-                    "en": "The thief made off with several valuable paintings from the museum. The police asked residents to cut down on unnecessary trips to help reduce traffic. When the manager retired, a younger employee took his place. The detective tried to track down the suspect using security camera footage. The team had to put off the outdoor event because of the heavy rain.",
-                    "ja": "泥棒は美術館からいくつかの貴重な絵画を持ち逃げした。警察は交通量を減らすため不必要な外出を控えるよう住民に求めた。マネージャーが退職した時、若い従業員が彼の後任を務めた。刑事は防犯カメラの映像を使って容疑者を追跡しようとした。チームは大雨のため野外イベントを延期しなければならなかった。",
+                    "en": "[出典: Smørrebrød]\nFood is like a mirror that reflects cultures. If people look at the food of a country or a region, they are more likely to understand the community, what people like, and how people live. The ingredients and how they are cooked and eaten show the lifestyles of the people. This is probably why many people like to enjoy local food when they travel. In short, when travelers skip local food, they often miss out on a deeper cultural experience and end up with only a limited understanding of the culture.",
+                    "ja": "食べ物はその国の文化を映し出す鏡のようなものだ。ある国の食べ物を見れば、その国の歴史や価値観について多くのことがわかる。旅行者はその土地の伝統料理を見逃すべきではない。なぜなら、地元の料理を試すことで、ガイドブックでは得られない文化的理解が深まるからだ。伝統料理を体験することは、その国の人々の生活様式や考え方に触れる最良の方法の一つである。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
@@ -1604,37 +1587,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'not just A but also B' と 'not merely A but rather B' の違いは？",
-                        "a": "not just = カジュアルな「AだけでなくB」。not merely ... but rather = 「単にAではなくむしろB」（より強調）。"
+                        "q": "'not limited to hobbies and lifestyle habits' の 'not limited to' を説明してください。",
+                        "a": "「趣味や生活習慣に限定されない」。not limited to = 〜に限らない。マッチング基準の幅広さ。"
                     },
                     {
-                        "q": "'as well' と 'too' の位置の違いは？",
-                        "a": "as well = 文末。too = 文末（カンマの後で使うことも）。意味はどちらも「～もまた」。"
+                        "q": "'take into consideration what you like' の意味を説明してください。",
+                        "a": "「あなたの好みを考慮する」。take into consideration = consider。間接疑問what you like。"
                     },
                     {
-                        "q": "'Not just adults but children too' を倒置で書くと？",
-                        "a": "Not just do adults enjoy... but children too can enjoy..."
+                        "q": "'If you decide to have a roommate' の条件節を説明してください。",
+                        "a": "「ルームメイトを持つことに決めた場合」。If + 現在形 = 現実的な条件。選択肢の提示。"
+                    },
+                    {
+                        "q": "住居マッチングの仕組みを要約してください。",
+                        "a": "好み・趣味・生活習慣+学習スタイルを考慮。詳細アンケートで相性判断。途中変更も可能。"
                     }
                 ],
                 "highlightPatterns": [
-                    "not just a plate but part of the food",
-                    "not only",
-                    "not enough to",
                     "not limited to",
-                    "miss out on",
-                    "end up with",
-                    "similar to Earth",
-                    "like a mirror",
-                    "is like a mirror that reflects",
-                    "is critical for",
-                    "is probably why",
-                    "are more likely to"
+                    "take into consideration",
+                    "what you like"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "not just...but構文",
                 "practicePassage": {
-                    "en": "Learning to cook is not just a useful skill but also a form of creative expression. A well-prepared meal brings together not only family members but friends and neighbors as well. Good food is not merely about nutrition but rather about sharing experiences at the table. Cooking at home is not only healthier but also more affordable than eating out. Not just adults but children too can enjoy the process of making food.",
-                    "ja": "料理を学ぶことは有用なスキルだけでなく、創造的な表現の一形態でもある。よく作られた食事は家族だけでなく友人や隣人も一つに集める。良い食事は単に栄養についてだけでなく、食卓での経験の共有でもある。自炊は外食よりも健康的であるだけでなく、より手頃でもある。大人だけでなく子どもも食べ物を作る過程を楽しむことができる。",
+                    "en": "[出典: Housing Options]\nIf you decide to have a roommate, we will take into consideration what you like. We do this so that we can make sure all of our students can live comfortably. Things we consider include whether you are a morning person, what your hobbies are, and what language you would like to speak, but are not limited to these. Also, please note that different housing units have different amenities. Some units have a kitchen, others have a shared one on each floor, and there are also buildings without a kitchen.",
+                    "ja": "ルームメイトを持つことに決めた場合、あなたの好みを考慮する。マッチングは趣味や生活習慣に限定されず、学習スタイルや静かさの好みなども考慮される。できるだけ快適な生活環境を提供するために、詳細なアンケートへの回答をお願いしている。ルームメイトとの相性が良くない場合は、学期の途中でも変更を申請することができる。私たちの目標は、すべての学生が安心して勉強に集中できる住環境を整えることだ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
@@ -1664,43 +1642,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'offers a wide range of programs' を言い換えると？",
-                        "a": "provides many different activities / has a variety of options available"
+                        "q": "'flew near Mars and took twenty-two images' を言い換えてください。",
+                        "a": "'passed close to Mars and captured twenty-two photographs'。flew near = passed close to, took = captured。"
                     },
                     {
-                        "q": "'affordable recreational opportunities' を言い換えると？",
-                        "a": "low-cost leisure activities / inexpensive things to do for fun"
+                        "q": "'interested in exploring Mars' を言い換えてください。",
+                        "a": "'eager to investigate the Red Planet' や 'keen on studying Mars'。interested = eager/keen, exploring = investigating。"
                     },
                     {
-                        "q": "'attendance has exceeded expectations' を言い換えると？",
-                        "a": "more people came than anticipated / the turnout was higher than predicted"
+                        "q": "'similar to Earth' を別の表現で言い換えると？",
+                        "a": "'resembling our planet' や 'comparable to Earth'。similar to = resembling / comparable to。"
                     },
                     {
-                        "q": "'signing up' を言い換えると？",
-                        "a": "registering / enrolling / putting their names down"
+                        "q": "火星探査の初期の成果を要約してください。",
+                        "a": "1965年に初の接近飛行で22枚撮影。クレーターや山の荒涼とした風景を確認。生命の直接証拠はなし。"
                     }
                 ],
                 "highlightPatterns": [
-                    "what you like",
-                    "personal tastes",
                     "flew near Mars",
-                    "went near Mars",
                     "took twenty-two images",
-                    "took some pictures",
-                    "1 percent of the amount of air",
-                    "little air to slow down",
-                    "not suitable for bigger",
-                    "not the best way for every",
-                    "must live on campus",
-                    "live on campus but can choose",
-                    "applying by the first week of August",
-                    "make their payment by early August"
+                    "interested in exploring"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "A new community center was opened in the downtown area last month. The facility offers a wide range of programs for people of all ages. Classes include yoga, painting, and computer skills. The center was established to provide affordable recreational opportunities for local residents. Since its opening, attendance has exceeded expectations, with over 500 people signing up in the first week alone.",
-                    "ja": "先月、中心部に新しいコミュニティセンターがオープンした。施設はあらゆる年齢の人向けの幅広いプログラムを提供している。クラスにはヨガ、絵画、コンピュータースキルが含まれる。センターは地元住民に手頃な価格のレクリエーション機会を提供するために設立された。開業以来、参加者は予想を超え、最初の週だけで500人以上が登録した。",
+                    "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+                    "ja": "私たちが火星探査に興味を持つ理由の一つは、惑星がどのように形成されるかを理解したいからだ。火星は地球と類似しているため、地球の歴史を知る手がかりにもなる。1965年に宇宙船が初めて火星の近くを飛行し、22枚の画像を撮影した。これらの画像は、火星の表面にクレーターや山がある荒涼とした風景を示していた。",
                     "audioFile": "audio/practice_pp5.mp3"
                 }
             }

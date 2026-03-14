@@ -1561,32 +1561,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The new design of the car engine enables it to use less fuel. This reduction in fuel consumption allows drivers to save money. Moreover, the lighter weight of the vehicle makes it easier to handle on narrow roads.",
-                    "ja": "新しい車のエンジン設計により、燃料消費量を抑えることができる。この燃料消費の削減により、ドライバーはお金を節約できる。さらに、車両の軽量化により、狭い道でも運転しやすくなる。",
+                    "en": "[出典: Learning from Owls]\nOwls are active at night because darkness works to their advantage. They have large eyes to gather as much light as possible. This helps them spot animals in the dark. What helps them find animals in the dark is not only their eyes but also their ears. Their ears are located at different heights on the left and right sides of their heads. This makes the time at which sound arrives at each ear different. They analyze this difference instantly and determine the accurate position of the animals.",
+                    "ja": "フクロウは暗闇が有利に働くため、夜に活動する。フクロウには大きな目があり、できるだけ多くの光を集められるようになっている。これにより、暗闇の中で動物を見つけることができる。さらに、フクロウの耳は左右で異なる高さに位置している。この非対称な配置により、音源の正確な位置を特定することが可能になっている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "What does the new engine design enable?",
-                        "a": "It enables the car to use less fuel."
+                        "q": "'darkness works to their advantage' の無生物主語を説明してください。",
+                        "a": "「暗闇が彼らに有利に働く」。darkness（無生物）が主語。暗闘がフクロウに利点をもたらす。"
                     },
                     {
-                        "q": "What does the lighter weight make easier?",
-                        "a": "It makes the vehicle easier to handle on narrow roads."
+                        "q": "'This helps them spot animals in the dark' の 'This' は何を指しますか？",
+                        "a": "大きな目で光を集められること。This（無生物主語）= 前文の事実。spot = 見つける。"
+                    },
+                    {
+                        "q": "'to gather as much light as possible' の目的表現を説明してください。",
+                        "a": "「できるだけ多くの光を集めるために」。as much...as possible = できるだけ多く。目的のto不定詞。"
+                    },
+                    {
+                        "q": "フクロウが夜間に狩りが得意な理由を要約してください。",
+                        "a": "大きな目で光を集め暗闇で視認。左右非対称の耳で音源を正確に特定。暗闇が有利に働く。"
                     }
                 ],
                 "highlightPatterns": [
-                    "This makes the time at which sound arrives at each ear different",
-                    "This allows them to fly quietly and long distances without being noticed",
-                    "This helps them spot animals in the dark",
                     "darkness works to their advantage",
-                    "The special design helps create",
-                    "The research could help reduce noise from airplanes",
-                    "This is very important for people in areas near airports",
-                    "more flights have caused higher noise levels",
-                    "What makes it unique is that ordinary people can repair it easily",
-                    "makes it possible for users to change the color or design",
-                    "What helps them find animals in the dark is not only their eyes but also their ears"
+                    "This helps them",
+                    "large eyes"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "無生物主語構文",
@@ -1616,33 +1616,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Electric cars produce no exhaust fumes, making them environmentally friendly. However, their batteries take a long time to charge. On the other hand, hybrid cars offer a balance between fuel efficiency and convenience. Therefore, many drivers choose hybrids for everyday use.",
-                    "ja": "電気自動車は排気ガスを出さず、環境にやさしい。しかし、バッテリーの充電に時間がかかる。一方で、ハイブリッド車は燃費と利便性のバランスを提供する。そのため、多くのドライバーが日常使いにハイブリッドを選んでいる。",
+                    "en": "[出典: The Mirror Test]\nThe mirror test has led to much discussion and debate. First, animals that have not seen a mirror before might not understand that what is in the mirror is themselves. It does not suggest that they do not recognize themselves. Instead, it shows that they have no idea how a mirror works. Moreover, vision is not the main sense for all animals. Some animals rely more on smell than vision, so failing the mirror test does not always mean they cannot recognize themselves.",
+                    "ja": "ミラーテストは多くの議論と討論を引き起こしてきた。まず、テストに合格した動物が必ずしも自己認識を持っているとは限らない。さらに、視覚はすべての動物にとっての主要な感覚ではない。嗅覚や聴覚に主に頼る動物にとって、鏡のテストは適切ではないかもしれない。むしろ、テストに合格しないことは自己認識がないことを示すのではなく、鏡の仕組みを理解していないことを示している可能性がある。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "What disadvantage of electric cars is mentioned?",
-                        "a": "Their batteries take a long time to charge."
+                        "q": "'Moreover, vision is not the main sense for all animals' の 'Moreover' は何を追加していますか？",
+                        "a": "「さらに」。ミラーテストの問題点を追加。合格≠自己認識→さらに視覚以外の感覚がある。"
                     },
                     {
-                        "q": "Why do many drivers choose hybrid cars?",
-                        "a": "Because hybrids offer a balance between fuel efficiency and convenience."
+                        "q": "'Instead, it shows that they have no idea how a mirror works' の 'Instead' は何の代わりですか？",
+                        "a": "「むしろ」。不合格=自己認識なし→むしろ鏡の仕組みを理解していない。解釈の転換。"
+                    },
+                    {
+                        "q": "'has led to much discussion and debate' はどのような結果ですか？",
+                        "a": "「多くの議論と討論を引き起こした」。lead to = 〜につながる。テストの妥当性への疑問。"
+                    },
+                    {
+                        "q": "ミラーテストに対する批判を要約してください。",
+                        "a": "合格≠自己認識とは限らない。視覚以外の感覚に頼る動物には不適切。不合格=鏡が分からないだけ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "On the other hand",
-                    "However, when he arrived, many shoppers were there to buy the toy",
-                    "However, there will be a slight change in the schedule",
-                    "However, we allow you to take this offer only twice",
-                    "However, the edges of owl feathers are unique",
-                    "However, they did not act the same way",
-                    "Therefore, many people hope for progress in this technology",
-                    "Due to this change, the course will end on June 6",
-                    "Moreover, vision is not the main sense for all animals",
-                    "Instead, it shows that they have no idea how a mirror works",
-                    "This suggests that they recognize differences between themselves and other fish",
-                    "Ever since then, the Slinky has been enjoyed by many children around the world"
+                    "Moreover",
+                    "Instead",
+                    "much discussion"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "ディスコースマーカー",
@@ -1672,35 +1671,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "Many animals have developed unique features to survive in harsh environments. Polar bears have thick fur to keep warm in freezing temperatures. Camels store fat in their humps to provide energy during long journeys across the desert.",
-                    "ja": "多くの動物は過酷な環境で生き残るために独自の特徴を発達させてきた。ホッキョクグマは厳しい寒さの中で暖かさを保つために厚い毛皮を持つ。ラクダは砂漠を長距離移動する間のエネルギーを供給するため、こぶに脂肪を蓄える。",
+                    "en": "[出典: A Toy Made from a Spring]\nRichard James was an engineer working for the United States Navy. He was given the task of coming up with an idea to protect expensive instruments on the ship during the rough ocean travel. One day, while he was dealing with a spring, he accidentally dropped it from a shelf. Instead of falling where he thought it would, it moved along the shelf. It looked as if it was walking down the stairs. He let the spring fall to the floor again and again to check that it moved like a living thing each time.",
+                    "ja": "リチャード・ジェームズはアメリカ海軍で働くエンジニアだった。彼は航海中に船上の精密機器を保護するためのアイデアを考案する任務を与えられた。彼がバネを扱っていたとき、バネが手から落ちて床の上で面白い動きをした。彼はそのバネが生き物のように動くかどうかを確認し、毎回同じ動きをすることに驚いた。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "Why do polar bears have thick fur?",
-                        "a": "To keep warm in freezing temperatures."
+                        "q": "'to protect expensive instruments on the ship' の目的のto不定詞を説明してください。",
+                        "a": "「船上の精密機器を保護するために」。任務の目的を示す副詞的用法のto不定詞。"
                     },
                     {
-                        "q": "What purpose does the fat in camels' humps serve?",
-                        "a": "To provide energy during long journeys across the desert."
+                        "q": "'to check that it moved like a living thing' の目的を説明してください。",
+                        "a": "「生き物のように動くかを確認するために」。check that = 〜であることを確認する。目的のto不定詞。"
+                    },
+                    {
+                        "q": "'was given the task of coming up with an idea' の受動態を説明してください。",
+                        "a": "「アイデアを考案する任務を与えられた」。be given = 与えられる。coming up with = 考え出す。"
+                    },
+                    {
+                        "q": "スリンキーの発明の経緯を要約してください。",
+                        "a": "海軍エンジニアが機器保護のため研究→バネが偶然面白い動き→毎回同じ動きを確認→おもちゃの着想。"
                     }
                 ],
                 "highlightPatterns": [
-                    "to gather as much light as possible",
-                    "to protect expensive instruments on the ship during the rough ocean travel",
-                    "to check that it moved like a living thing each time",
-                    "to demonstrate and sell it at a department store",
-                    "to develop it into a toy",
-                    "to help you understand",
-                    "to test your understanding",
-                    "to attend an international conference",
-                    "to judge this",
-                    "to remove the mark on its body",
-                    "to take the mark off their body",
-                    "tried to remove the mark from their body",
-                    "to buy the toy",
-                    "to come to buy one"
+                    "to protect",
+                    "to check",
+                    "was given the task"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "不定詞（目的）",
@@ -1730,36 +1726,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The ancient city was discovered by archaeologists in 1923. The ruins were found buried under layers of sand. The site was examined carefully, and many valuable artifacts were recovered. The discovery was considered one of the most important of the century.",
-                    "ja": "その古代都市は1923年に考古学者によって発見された。遺跡は砂の層の下に埋もれた状態で見つかった。現場は慎重に調査され、多くの貴重な遺物が回収された。この発見は今世紀最も重要なものの一つと考えられた。",
+                    "en": "[出典: The Mirror Test]\nHumans and animals are different in many ways. Some say only humans can have a language and a culture. Among these discussions, one idea that is often discussed is whether only humans can recognize or tell the difference between themselves and others. The mirror test is used to judge this. It is done by putting a mark on an animal's body. The mark is put in a place where the animal cannot see without the help of a mirror. If the animal tries to remove the mark on its body, it shows that the animal recognizes itself.",
+                    "ja": "人間と動物は多くの点で異なる。自意識を持てるのは人間だけだと言う人もいる。これを判断するためにミラーテストが使われる。テストは動物の体にマークをつけることで行われる。マークは動物が直接見えない場所に付けられる。動物が鏡でマークに気づいて取り除こうとすれば、自己認識があると判断される。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "When was the ancient city discovered?",
-                        "a": "It was discovered in 1923."
+                        "q": "'The mirror test is used to judge this' の受動態を説明してください。",
+                        "a": "「ミラーテストはこれを判断するために使われる」。is used to = 〜するために使われる。目的の受動態。"
                     },
                     {
-                        "q": "What was found buried under the sand?",
-                        "a": "The ruins were found buried under layers of sand."
+                        "q": "'It is done by putting a mark on an animal's body' の受動態を説明してください。",
+                        "a": "「動物の体にマークを付けることによって行われる」。is done by + 動名詞 = 手段・方法を示す受動態。"
+                    },
+                    {
+                        "q": "'The mark is put in a place where the animal cannot see it directly' を説明してください。",
+                        "a": "「動物が直接見えない場所に付けられる」。受動態 + where関係副詞。テストの公正性を保証する設計。"
+                    },
+                    {
+                        "q": "ミラーテストの手順を要約してください。",
+                        "a": "体の見えない場所にマーク→鏡を見せる→マーク除去の試み→取り除こうとすれば自己認識ありと判断。"
                     }
                 ],
                 "highlightPatterns": [
-                    "He was given the task of coming up with an idea",
-                    "was dealing with a spring",
-                    "The mirror test is used to judge this",
-                    "It is done by putting a mark on an animal's body",
-                    "The mark is put in a place where the animal cannot see without the help of a mirror",
-                    "The same test was done on fish called cleaner wrasses",
-                    "they were put to sleep, and a mark was put on them",
-                    "When they were shown a picture of themselves with a mark",
-                    "when pictures of other fish with a mark were shown",
-                    "he was worried",
-                    "were created by chance",
-                    "has been enjoyed by many children around the world",
-                    "was introduced by a program",
-                    "Their ears are located at different heights",
-                    "are considering using the owl's feather structure"
+                    "is used to judge",
+                    "is done by putting",
+                    "mark is put"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "受動態",
@@ -1789,34 +1781,32 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "The researchers found that the new medicine could reduce symptoms by 40 percent. In other words, patients who took the medicine experienced significantly fewer problems. The results suggest that the treatment is highly effective.",
-                    "ja": "研究者たちは、新薬が症状を40%軽減できることを発見した。言い換えれば、薬を服用した患者は問題が大幅に少なかった。結果は、その治療法が非常に効果的であることを示唆している。",
+                    "en": "[出典: The Mirror Test]\nThe same test was done on fish called cleaner wrasses in a tank with a mirror. At first, they attacked their reflection. This could be because they thought the reflection was another fish. Later, they changed how they swam and checked if the fish in the mirror also changed how they swam. After they got used to the mirror, they were put to sleep, and a mark was put on them. When they woke up and looked in the mirror, many of them tried to take the mark off their body. They did so by brushing their body against the tank or the sand on the bottom.",
+                    "ja": "同じテストがホンソメワケベラという魚に対しても水槽と鏡を使って行われた。魚たちは眠らされ、体にマークを付けられた。目覚めた後、魚たちは泳ぎ方を変え、鏡に映った自分にマークがあるか確認した。そして体を水槽の壁や砂にこすりつけて、マークを取り除こうとした。この結果は、魚にも自己認識の可能性があることを示唆している。",
                     "audioFile": "audio/practice_pp5.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "How is 'reduce symptoms by 40 percent' paraphrased?",
-                        "a": "'Patients experienced significantly fewer problems.'"
+                        "q": "'tried to take the mark off their body' を言い換えてください。",
+                        "a": "'attempted to remove the marking from themselves'。tried = attempted, take off = remove。"
                     },
                     {
-                        "q": "What does 'highly effective' correspond to in the passage?",
-                        "a": "It corresponds to the 40 percent reduction in symptoms."
+                        "q": "'brushing their body against the tank or the sand' を言い換えてください。",
+                        "a": "'rubbing themselves on the walls of the container or the substrate'。brushing = rubbing, tank = container。"
+                    },
+                    {
+                        "q": "'changed how they swam and checked if the fish in the mirror had the mark' を言い換えると？",
+                        "a": "'altered their swimming behavior and examined whether their reflection showed the marking'。実験行動の言い換え。"
+                    },
+                    {
+                        "q": "ホンソメワケベラの実験結果を要約してください。",
+                        "a": "眠らせてマーク付け→泳ぎ方変更→鏡で確認→体をこすって除去試み→魚にも自己認識の可能性。"
                     }
                 ],
                 "highlightPatterns": [
-                    "created by chance",
-                    "accidentally dropped it",
-                    "people might not come to buy one",
-                    "determine the accurate position",
-                    "the instructor of this course will be away for one week to attend an international conference",
-                    "we allow you to take this offer only twice during the course period",
-                    "they changed how they swam and checked if the fish in the mirror also changed how they swam",
-                    "a smooth and silent air movement",
-                    "reducing noise from airplanes",
-                    "sound arrives at each ear",
-                    "recognize or tell the difference between themselves and others",
-                    "tried to take the mark off their body",
-                    "brushing their body against the tank or the sand on the bottom"
+                    "tried to take the mark off",
+                    "brushing their body",
+                    "were put to sleep"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",

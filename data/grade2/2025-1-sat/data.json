@@ -1414,42 +1414,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Once' と 'As soon as' の違いは？",
-                        "a": "Once = 一度～すれば（完了の意味合い）。As soon as = ～するとすぐに（即時性）。"
+                        "q": "'In addition' はどのような談話標識ですか？",
+                        "a": "「さらに」。前の情報に追加の事実を加える。バス専用車線→さらに均一運賃制度の導入。"
                     },
                     {
-                        "q": "'Unless' を 'If ... not' に書き換えると？",
-                        "a": "If you do not study hard, you will not pass the exam."
+                        "q": "'As a result' はどのような因果関係を示しますか？",
+                        "a": "「その結果」。専用車線＋低運賃→バス利用者の大幅増加。原因→結果の論理展開。"
                     },
                     {
-                        "q": "'Until' と 'Whenever' の違いは？",
-                        "a": "Until = ～するまで（一回の出来事の終点）。Whenever = ～するたびに（繰り返し）。"
+                        "q": "'regardless of the number of passengers' はどのような意味ですか？",
+                        "a": "「乗客の数に関係なく」。距離や人数によらず一律運賃＝公平性の確保。"
+                    },
+                    {
+                        "q": "クリチバのバスシステムの特徴を要約してください。",
+                        "a": "バス専用車線で定時運行。均一低運賃で低所得者も利用可能。利用者大幅増加。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Once insects fall",
-                    "Unless",
-                    "Even though",
-                    "However",
-                    "By all means",
-                    "On the contrary",
-                    "By the way",
-                    "For one thing",
-                    "Of course",
-                    "on behalf of",
-                    "in a row",
-                    "by far",
                     "In addition",
                     "As a result",
-                    "Therefore",
-                    "Because of this",
-                    "Moreover"
+                    "regardless of"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "接続詞・接続表現",
                 "practicePassage": {
-                    "en": "Once you finish your homework, you can go outside and play. Unless you study hard, you will not pass the exam. You should not cross the street until the light turns green. As soon as the bell rings, the students leave the classroom. Whenever it rains heavily, the river near the school tends to flood.",
-                    "ja": "宿題が終わったら外に遊びに行ってよい。一生懸命勉強しなければ試験に受からない。信号が青になるまで道路を横断してはいけない。ベルが鳴るとすぐに生徒は教室を出る。大雨が降るたびに学校の近くの川は氾濫しがちだ。",
+                    "en": "[出典: A Bus System in Curitiba]\nFirst, the mayor decided to turn the inner lanes of the road into bus-only lanes. By building bus stops between the inner lanes, buses traveling in both directions could share the same stops. In addition, passengers pay the same fare to go in the same direction regardless of the number of changes or distance. These ways were introduced to make boarding easy and smooth. As a result, most of the residents of the city came to live within 400 meters of a bus stop, and the city buses make more than 20,000 trips a day.",
+                    "ja": "まず、市長は道路の内側の車線をバス専用車線にすることを決めた。さらに、乗客の数に関係なくバス運賃を同一にする制度も導入された。その結果、バスの利用者数は大幅に増加した。この低運賃システムにより、所得の低い住民も公共交通機関を利用しやすくなった。バス専用車線は渋滞を解消し、バスの定時運行を可能にした。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
@@ -1479,33 +1469,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'not only A but also B' の語順ルールは？",
-                        "a": "not only が文頭に来ると倒置が起こる：Not only does studying abroad improve... but it also broadens..."
+                        "q": "'not only solves environmental problems but also helps people earn' の構文を説明してください。",
+                        "a": "not only A but also B。「環境問題を解決するだけでなく、収入向上にも役立つ」。2つの利点を並列。"
                     },
                     {
-                        "q": "'not just A but B' と 'not only A but also B' は同義か？",
-                        "a": "はい。not just は not only のカジュアルな形。also の省略も多い。"
+                        "q": "'privately owned cars' はどのような所有形態ですか？",
+                        "a": "「個人所有の車」。privately = 個人的に、owned = 所有された。公共交通との対比。"
                     },
                     {
-                        "q": "'as well' の位置はどこ？",
-                        "a": "文末に来る。= too / also。families as well = families too。"
+                        "q": "'increased rapidly' はどのような変化ですか？",
+                        "a": "「急増した」。rapidly = 急速に。車の増加にもかかわらずバスシステムが機能していることを示す。"
+                    },
+                    {
+                        "q": "クリチバのバスシステムの二重の利点を要約してください。",
+                        "a": "環境問題の解決（排出削減）＋経済的利点（仕事・教育へのアクセス向上）。世界の手本。"
                     }
                 ],
                 "highlightPatterns": [
-                    "not only solves environmental problems but also helps",
-                    "not the only ones",
-                    "cannot be opened without breaking",
-                    "not just",
-                    "not want others to read",
-                    "not enough nitrogen",
-                    "regardless of the number",
-                    "regardless of where they live"
+                    "not only solves",
+                    "but also helps",
+                    "increased rapidly"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "not only/限定否定",
                 "practicePassage": {
-                    "en": "Studying abroad not only improves language skills but also broadens cultural understanding. The experience is not just about learning in a classroom but about living in a new environment. Students not only gain academic knowledge but also develop independence. The program benefits not only participants but their families as well. Not just the students themselves but also the host communities learn from the cultural exchange.",
-                    "ja": "留学は語学力を向上させるだけでなく、文化的理解も広げる。その経験は教室で学ぶだけでなく、新しい環境で生活するということだ。学生は学問的知識を得るだけでなく、自立心も育てる。このプログラムは参加者だけでなく、その家族にも恩恵をもたらす。学生自身だけでなく受け入れ地域も文化交流から学ぶ。",
+                    "en": "[出典: A Bus System in Curitiba]\nThe number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to take buses to work in the city. This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+                    "ja": "この都市で個人所有の車の数は過去数十年で急増してきた。しかし、クリチバのバスシステムは環境問題を解決するだけでなく、人々の収入向上にも役立っている。効率的な公共交通があることで、車を持たない人々も仕事や教育の機会に容易にアクセスできる。このシステムは世界中の都市計画の手本とされている。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
@@ -1535,42 +1524,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'struggle with' はどういう意味か？",
-                        "a": "～に苦労する、～に取り組んで困っている。"
+                        "q": "'cannot be opened without breaking' はどのような構文ですか？",
+                        "a": "「破らなければ開けられない」。cannot + 受動態 + without + 動名詞。二重否定で「必ず破損する」を意味。"
                     },
                     {
-                        "q": "'go over' はどういう意味か？",
-                        "a": "復習する、見直す、繰り返し説明する。"
+                        "q": "'Because of this' は何を指しますか？",
+                        "a": "手紙を折りたたむ技法のこと。この技法のおかげで→開ければ痕跡が残る。"
                     },
                     {
-                        "q": "'figure out' と 'keep up with' の違いは？",
-                        "a": "figure out = 解明する、理解する。keep up with = ～についていく、遅れないようにする。"
+                        "q": "'fold a letter into a specific shape' の動詞パターンを説明してください。",
+                        "a": "fold A into B = AをBの形に折りたたむ。手紙を特定の形にする具体的手順。"
+                    },
+                    {
+                        "q": "レターロッキングの基本的な仕組みを要約してください。",
+                        "a": "手紙を折りたたみ特定の形に。開けるには破るしかない。痕跡で盗み読みを検知可能。"
                     }
                 ],
                 "highlightPatterns": [
-                    "struggle with",
-                    "go over",
-                    "mind their own business",
-                    "by all means",
-                    "in a row",
-                    "on behalf of",
-                    "by far",
-                    "make time",
-                    "cut down on",
-                    "step into",
-                    "shut up",
-                    "sleep over",
-                    "hand in",
-                    "carry on",
-                    "hurry up",
-                    "in case",
-                    "at most"
+                    "cannot be opened without",
+                    "Because of this",
+                    "fold"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "句動詞・イディオム",
                 "practicePassage": {
-                    "en": "Many students struggle with mathematics in high school. Teachers often go over difficult problems multiple times in class. It is important to mind your own business and focus on your studies rather than comparing yourself to others. Some students try to figure out the answers on their own before asking for help. Those who keep up with the workload usually get better grades at the end of the year.",
-                    "ja": "多くの高校生は数学で苦労する。教師はよく授業で難問を何度も説明する。自分のことに集中し、他人と比較するよりも自分の勉強に注力することが大切だ。助けを求める前に自分で答えを導こうとする生徒もいる。課題についていく生徒は通常、年度末により良い成績を取る。",
+                    "en": "[出典: Letter-Locking]\nThere are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+                    "ja": "レターロッキングには多くの技法がある。簡単な方法の一つは、手紙を折りたたんで特定の形にする方法だ。このため、手紙を破らなければ開けることができない仕組みになっている。もし誰かが手紙を開けようとすれば、その痕跡が必ず残る。これにより、受取人は手紙が途中で読まれたかどうかを知ることができた。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
@@ -1600,35 +1579,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'not merely A but rather B' はどんな構文か？",
-                        "a": "「単にAではなくむしろB」。not only ... but also の変型。merely = only の強調形。"
+                        "q": "'make it difficult for experts to open' の使役構文を説明してください。",
+                        "a": "make + it（形式目的語）+ difficult + for experts + to open。「専門家でさえ開けることを困難にする」。"
                     },
                     {
-                        "q": "'While' は何を表しているか？",
-                        "a": "対比・譲歩。「～する一方で」。デジタルメディアと本の比較。"
+                        "q": "'Moreover' はどのような論理展開ですか？",
+                        "a": "「さらに」。安全性の説明に追加情報を加える。前文の事実をさらに強化する接続副詞。"
                     },
                     {
-                        "q": "'In short' はどのような場面で使うか？",
-                        "a": "結論・まとめの場面。「要するに」。In brief / To put it simply と同義。"
+                        "q": "'helped people who wanted to send letters safely' の関係代名詞を説明してください。",
+                        "a": "who = people を修飾。「手紙を安全に送りたかった人々を助けた」。制限用法。"
+                    },
+                    {
+                        "q": "レターロッキングの安全性を要約してください。",
+                        "a": "複雑な技法で専門家でも開封困難。安全に手紙を送る手段。現代の技術で解読が進む。"
                     }
                 ],
                 "highlightPatterns": [
-                    "make them feel comfortable",
-                    "make it difficult for experts",
-                    "makes it harder for experts",
-                    "made you wait",
-                    "keeping you waiting",
-                    "helped people",
-                    "helps people earn",
-                    "would cost the city too much",
-                    "will likely improve",
-                    "succeeded in opening"
+                    "make it difficult",
+                    "makes it harder",
+                    "helped people"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "使役構文",
                 "practicePassage": {
-                    "en": "Reading books has numerous benefits for the mind. It is not merely a way to pass the time but rather a powerful tool for personal growth. Through reading, people not only gain knowledge but also develop empathy by understanding different perspectives. While digital media provides quick access to information, books offer a deeper and more reflective experience. In short, the habit of reading enriches our lives in ways that other activities simply cannot.",
-                    "ja": "読書は心に多くの利点がある。単に時間を潰す方法ではなく、個人の成長のための強力なツールだ。読書を通じて、知識を得るだけでなく、異なる視点を理解することで共感力も発達させる。デジタルメディアが素早い情報アクセスを提供する一方で、本はより深く内省的な体験を提供する。要するに、読書の習慣は他の活動では到底できない方法で私たちの生活を豊かにする。",
+                    "en": "[出典: Letter-Locking]\nLetter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
+                    "ja": "レターロッキングの技法は、手紙を安全に送りたい人々を助けたかもしれない。さらに、より複雑な技法は専門家でさえ手紙を開くことを困難にした。一部の技法は非常に精巧で、現代の研究者でも解読が難しいほどだ。しかし、X線スキャンなどの最新技術により、手紙を実際に開くことなく中身を読むことが可能になりつつある。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
@@ -1658,45 +1634,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'approved a plan to construct' を言い換えると？",
-                        "a": "gave the go-ahead for building / agreed to the proposal for creating"
+                        "q": "'not the only ones who did not want others to read their letters' を言い換えてください。",
+                        "a": "'other people also desired privacy for their correspondence'。not the only ones = others too。"
                     },
                     {
-                        "q": "'promote cultural activities' を言い換えると？",
-                        "a": "encourage artistic events / support cultural programs / boost the arts scene"
+                        "q": "'became common in the nineteenth century' を言い換えてください。",
+                        "a": "'gained widespread use during the 1800s'。became common = gained widespread use。"
                     },
                     {
-                        "q": "'attract tourists and create jobs' を言い換えると？",
-                        "a": "draw visitors and generate employment / bring in travelers and provide work opportunities"
+                        "q": "'did not want others to read their letters' を別の表現で言い換えると？",
+                        "a": "'wished to keep their correspondence private'。did not want others to read = wished to keep private。"
                     },
                     {
-                        "q": "'bear a heavy financial burden' を言い換えると？",
-                        "a": "face significant costs / shoulder a large expense / pay a high price"
+                        "q": "封筒以前の手紙の保護方法を要約してください。",
+                        "a": "手紙自体を折りたたんで封をするレターロッキング。何世紀もヨーロッパ・アジア・中東で使用。"
                     }
                 ],
                 "highlightPatterns": [
-                    "appearance in the media",
-                    "increase in followers",
-                    "media reports",
-                    "interested in this position",
-                    "feel comfortable",
-                    "feel at ease",
-                    "demonstrating the language ability",
-                    "showing the staff's language skills",
-                    "handle different events",
-                    "handling daily tasks",
                     "not the only ones",
-                    "common practice",
-                    "cannot be opened without breaking",
-                    "show evidence",
-                    "had to pay to get their letters",
-                    "money required to receive them was not paid"
+                    "not want others",
+                    "envelopes"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The city council approved a plan to construct a new art museum. The project is designed to promote cultural activities in the area. Residents are hopeful that the museum will attract tourists and create jobs. However, some locals are worried about the cost of the project. They fear that taxpayers will bear a heavy financial burden if the museum does not generate enough revenue.",
-                    "ja": "市議会は新しい美術館の建設計画を承認した。このプロジェクトは地域の文化活動を促進するために設計されている。住民は美術館が観光客を引き付け、雇用を創出することを期待している。しかし、地元の一部の人はプロジェクトのコストを心配している。美術館が十分な収入を生み出せなければ、納税者が重い財政的負担を負うことを恐れている。",
+                    "en": "[出典: Letter-Locking]\nIn Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that. If letters were sent as they were, just like a postcard today, anybody could read the content. Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique. Many regular letter writers also knew how to do it.",
+                    "ja": "ヨーロッパでは、手紙を入れるために封筒を使うことが19世紀に一般的になった。しかし、封筒が普及する以前から、人々は手紙を他人に読まれたくないと考えていた。封筒が一般的になる前は、手紙自体を折りたたんで封をする方法が使われていた。この技法はレターロッキングと呼ばれ、何世紀にもわたって世界中で使われていた。ヨーロッパだけでなく、アジアや中東でも同様の技法が見られた。",
                     "audioFile": "audio/practice_pp5.mp3"
                 }
             }

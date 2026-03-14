@@ -1578,33 +1578,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'as if it had been abandoned' のhad been はなぜ？",
-                        "a": "as if + 過去完了 = 主文の時制より前の仮定。「実際には放棄されていたかどうかわからないが、そう見えた。」"
+                        "q": "'Norway's oldest piece of clothing' の最上級を説明してください。",
+                        "a": "「ノルウェー最古の衣服」。the oldest = 最も古い。発見された遺物の歴史的価値を強調。"
                     },
                     {
-                        "q": "'as if the house were crying' の were はなぜ？",
-                        "a": "as if + 仮定法過去。現在の事実に反する仮定。be動詞は主語に関係なく were を使う。"
+                        "q": "'the Lendbreen pass was discovered as the ice melted' の受動態と接続詞を説明してください。",
+                        "a": "「氷が溶けるにつれて峠が発見された」。was discovered = 受動態。as = 〜につれて。気候変動と発見の因果。"
                     },
                     {
-                        "q": "'as if' と 'as though' の違いは？",
-                        "a": "ほぼ同義。as though の方がやや文語的。どちらも仮定法を伴う。"
+                        "q": "'ancient objects' はどのような歴史的価値がありますか？",
+                        "a": "約1,700年前の遺物。衣服、道具など。当時の生活様式や交易ルートの証拠を提供。"
+                    },
+                    {
+                        "q": "レンドブリーン峠の発見を要約してください。",
+                        "a": "氷の融解で峠が出現→最古の衣服含む多数の遺物発見→約1,700年前の交易ルートの証拠。"
                     }
                 ],
                 "highlightPatterns": [
-                    "as if he were crazy",
-                    "as though",
-                    "as if she knew",
-                    "looked at him",
-                    "did not think he could do it",
-                    "it was almost impossible to distinguish",
-                    "it was believed the shelter was used",
-                    "it is now Norway's oldest piece of clothing"
+                    "oldest piece of clothing",
+                    "Lendbreen pass",
+                    "was discovered"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "仮定法",
                 "practicePassage": {
-                    "en": "The old house looked as if it had been abandoned for decades. Dust covered every surface as though no one had entered the building in years. The wind howled through the broken windows as if the house were crying out for help. A neighbor treated the property as if it were his own, occasionally cutting the grass. To visitors, it felt as if time had stopped completely inside those walls.",
-                    "ja": "古い家はまるで何十年も放棄されていたかのように見えた。まるで何年も誰も建物に入っていなかったかのようにほこりがすべての表面を覆っていた。風が壊れた窓から吹き抜け、まるで家が助けを求めて叫んでいるかのようだった。隣人はまるで自分の所有物であるかのようにその物件を扱い、時々芝生を刈っていた。訪問者にとって、まるでその壁の中で時間が完全に止まったかのように感じた。",
+                    "en": "[出典: Ancient Travel Routes in Medieval Norway]\nIn another part of Norway, the Lendbreen pass was discovered as the ice melted away. This pass was used over 1,000 years ago for about 500 years. The pass was often used in the winter when the land was covered with snow. Shoes, wooden skis, arrows, and horse bones were discovered there. One surprising find was an old tunic, which survived the ages. It is now Norway's oldest piece of clothing. In fact, the ice kept these things in good condition for many years.",
+                    "ja": "ノルウェーの別の地域では、氷が溶けるにつれてレンドブリーン峠が発見された。そこからは多くの古代の遺物が見つかった。その中には現在ノルウェー最古の衣服とされるものも含まれていた。これらの遺物は約1,700年前のものと推定されており、当時の人々の生活様式や交易ルートについて貴重な情報を提供している。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
@@ -1634,35 +1633,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'insisted that the patient take' のtakeはなぜ原形？",
-                        "a": "insist that S (should) V の仮定法現在。insist/demand/recommend/propose/require + that + S + 動詞原形。"
+                        "q": "'the best course of action is for you to return' の表現を説明してください。",
+                        "a": "「最善の対応策は返送していただくこと」。course of action = 行動方針。for you to = あなたが〜すること。"
                     },
                     {
-                        "q": "'It was proposed that the meeting be moved' のbe はなぜ？",
-                        "a": "受動態の仮定法現在。that節内では be + 過去分詞の形で動詞が原形のbe を使う。"
+                        "q": "'find the cause of the problem' の目的表現を説明してください。",
+                        "a": "「問題の原因を特定するために」。検査の目的を示す。cause = 原因。"
                     },
                     {
-                        "q": "仮定法現在を使う動詞を5つ挙げると？",
-                        "a": "insist, demand, recommend, propose, require / suggest, request, urge"
+                        "q": "'send you a new rice cooker' の提案はどのような対応ですか？",
+                        "a": "交換品の送付。修理ではなく新品交換。同じ問題の再発防止が理由。顧客サービスの標準対応。"
+                    },
+                    {
+                        "q": "カスタマーサービスの対応を要約してください。",
+                        "a": "返送依頼→技術チームが原因調査→新品交換品を送付→修理ではなく交換で再発防止。"
                     }
                 ],
                 "highlightPatterns": [
-                    "insisted that they complete",
-                    "suggested that",
-                    "is important that",
-                    "demanded that",
-                    "insisted that",
-                    "did not hesitate",
-                    "raised an objection",
-                    "did not approve of",
-                    "the teacher insisted",
-                    "the best course of action"
+                    "best course of action",
+                    "return the rice cooker",
+                    "find the cause"
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "仮定法現在",
                 "practicePassage": {
-                    "en": "The doctor insisted that the patient take the medicine every six hours. The parents demanded that the school improve its safety measures immediately. The committee recommended that a new playground be built in the park. It was proposed that the meeting be moved to a larger room. The rules require that every employee attend the safety training session.",
-                    "ja": "医者は患者に6時間ごとに薬を飲むよう強く求めた。保護者は学校が安全対策を直ちに改善するよう要求した。委員会は公園に新しい遊具を建設するよう勧めた。会議をより大きな部屋に移すことが提案された。規則はすべての従業員が安全研修に出席することを要求している。",
+                    "en": "[出典: Your Rice Cooker]\nWe believe the best course of action is for you to return the rice cooker to us. Once we get the cooker, we will carefully check it to find the cause of the problem. We understand that this will probably be inconvenient for you. But we want to make sure you get a rice cooker that works perfectly. Our main aim is to provide you with a good, reliable kitchen device that meets your needs and to learn from the issue to prevent future problems.",
+                    "ja": "最善の対応策は、炊飯器を当社に返送していただくことだと考えている。問題の原因を特定するために、技術チームが検査を行う。検査が完了次第、新しい炊飯器をお送りする。修理ではなく交換品をお送りするのは、同じ問題が再発しないようにするためだ。お客様にご不便をおかけしていることをお詫び申し上げる。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
@@ -1692,38 +1688,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'dying to' はどういう意味か？",
-                        "a": "～したくてたまらない。非常に強い願望を表す口語表現。= very eager to / really wanting to。"
+                        "q": "'developed a program at Tuskegee' はどのような教育活動ですか？",
+                        "a": "タスキーギ大学で農業教育プログラムを開発。農家に直接的・実践的な教育を提供する取り組み。"
                     },
                     {
-                        "q": "'intent on' と 'determined to' の違いは？",
-                        "a": "intent on + 動名詞 = ～することに集中している。determined to + 動詞原形 = ～する決意がある。どちらも強い意志。"
+                        "q": "'traveled around teaching farmers' の分詞構文を説明してください。",
+                        "a": "「各地を回って農家に教えた」。teaching = 付帯状況の分詞構文。旅行しながら教育した。"
                     },
                     {
-                        "q": "'eager to' 'desperate to' 'dying to' を意志の強さ順に並べると？",
-                        "a": "eager to（熱心）< dying to（とても強い希望）< desperate to（必死の切迫感）。"
+                        "q": "'farming education' はなぜ重要だったのですか？",
+                        "a": "南部の貧しい農家は効率的な農法を知らなかった。直接教育で生活改善に貢献。"
+                    },
+                    {
+                        "q": "カーバーの教育活動を要約してください。",
+                        "a": "タスキーギ大学でプログラム開発→各地を巡回→農家に効率的農法を教育→南部の農家の生活改善。"
                     }
                 ],
                 "highlightPatterns": [
-                    "dying to drink something",
-                    "intent on getting good grades",
-                    "got sick of",
-                    "breaks in when people are talking",
-                    "did not hesitate",
-                    "In terms of sales",
-                    "at present",
-                    "got away with",
-                    "got ahead of",
-                    "got carried away",
-                    "comes down",
-                    "drifts away",
-                    "gets around"
+                    "developed a program",
+                    "Tuskegee",
+                    "farming education"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "強い意志表現",
                 "practicePassage": {
-                    "en": "She was dying to see the new movie that everyone was talking about. The young entrepreneur was intent on building a successful business before turning thirty. The students were eager to learn about the culture of the country they would visit. The team was determined to win the championship this year. He was desperate to find a solution to the problem before the deadline.",
-                    "ja": "彼女はみんなが話題にしている新しい映画を見たくてたまらなかった。若い起業家は30歳になる前に成功したビジネスを構築することに熱心だった。学生たちは訪問する国の文化について学ぶことに熱心だった。チームは今年チャンピオンシップを勝つことに決意していた。彼は締め切り前に問題の解決策を見つけることに必死だった。",
+                    "en": "[出典: George Washington Carver]\nCarver's work also helped improve farming education. He developed a program at Tuskegee University to educate students. It focused on growing new types of crops and growing different crops in turn. Carver's teaching efforts went beyond the classroom. He was one of the first people to use a mobile classroom known as the Jesup Wagon to visit farmers and provide farming education directly to them. He published many reports with practical advice that helped both farmers and teachers. His popular articles were given out for free. They helped improve the productivity of farmers and their way of life.",
+                    "ja": "カーバーの業績は農業教育の向上にも貢献した。彼はタスキーギ大学でプログラムを開発し、農家に直接教育を提供した。彼は各地を回り、農家に効率的な農法を教えた。肥料の使い方や輪作の重要性など、実践的な知識を広めた。この活動は特に南部の貧しい農家の生活改善に大きく貢献した。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
@@ -1753,37 +1743,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'approve of' はなぜ of が必要か？",
-                        "a": "approve of = ～を承認する（自動詞+前置詞）。approve（他動詞）= 正式に承認する。ofの有無で微妙にニュアンスが異なる。"
+                        "q": "'freed from slavery' の過去分詞を説明してください。",
+                        "a": "「奴隷制度から解放された」。freed from = 〜から解放された。受動の過去分詞。歴史的背景。"
                     },
                     {
-                        "q": "'distinguish A from B' の構造は？",
-                        "a": "distinguish A from B = AをBと区別する。tell A from B / tell A and B apart と同義。"
+                        "q": "'improved farming' の過去形はどのような業績ですか？",
+                        "a": "「農業を改善した」。カーバーの生涯の業績を簡潔に示す。improved = 具体的に向上させた。"
                     },
                     {
-                        "q": "'rely on' 'invest in' 'deprive A of B' の前置詞を確認すると？",
-                        "a": "rely on = ～に頼る。invest in = ～に投資する。deprive A of B = AからBを奪う。"
+                        "q": "'take away important elements from the land' の句動詞を説明してください。",
+                        "a": "「土地から重要な要素を奪い取る」。take away from = 〜から取り去る。綿花栽培の害を示す。"
+                    },
+                    {
+                        "q": "カーバーの研究の動機を要約してください。",
+                        "a": "奴隷制から解放→教育を受ける→綿花が土壌を疲弊させることを発見→土壌改善が生涯の使命に。"
                     }
                 ],
                 "highlightPatterns": [
-                    "approve of",
-                    "distinguish it from the original",
-                    "raised an objection",
-                    "insist on",
-                    "in terms of",
-                    "intent on",
-                    "sick of",
                     "freed from slavery",
-                    "take away important elements from the land",
-                    "improve the land by adding nitrogen",
-                    "named after him",
-                    "known for his amazing skill"
+                    "improved farming",
+                    "take away"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "動詞+前置詞",
                 "practicePassage": {
-                    "en": "The manager approved of the employee's proposal to restructure the department. Scientists must distinguish real facts from false information when conducting research. Many teenagers rely on social media for news instead of traditional sources. The company has invested in new technology to compete with its rivals. Parents should not deprive their children of the chance to make their own decisions.",
-                    "ja": "マネージャーは部門を再編するという従業員の提案を承認した。科学者は研究を行う際に真の事実を虚偽の情報から区別しなければならない。多くのティーンエイジャーは従来の情報源の代わりにソーシャルメディアからのニュースに頼っている。会社はライバルと競争するために新技術に投資した。親は子どもから自分で決定を下す機会を奪うべきではない。",
+                    "en": "[出典: George Washington Carver]\nGeorge Washington Carver was an African American scientist who improved farming. His strong love for plants started in childhood. After being freed from slavery, which was a system of forced labor, he was raised by a kind couple. They encouraged him to study plants and gardening. He knew that repeatedly growing the same crop could take away important elements from the land and make it harder to keep growing crops in the future. To improve this situation, he focused on methods to grow different crops one after another, which would maintain the land's health.",
+                    "ja": "ジョージ・ワシントン・カーバーはアフリカ系アメリカ人の科学者で、農業を改善した。彼は奴隷制度から解放された後、教育を受ける機会を得た。カーバーは、綿花のような作物が土地から重要な要素を奪い取ることを発見した。同じ作物を繰り返し栽培すると土壌が疲弊し、収穫量が減少する。この問題を解決するための研究が、彼の生涯を通じた使命となった。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
@@ -1813,41 +1798,32 @@
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'improve the quality of the food' を言い換えると？",
-                        "a": "make the meals better / enhance the standard of cooking / upgrade the dishes served"
+                        "q": "'peanuts could help improve the land' を言い換えてください。",
+                        "a": "'peanuts had the potential to restore soil quality'。help improve = had the potential to restore。"
                     },
                     {
-                        "q": "'visiting more frequently' を言い換えると？",
-                        "a": "coming more often / making repeated trips / returning on a regular basis"
+                        "q": "'by adding nitrogen to the soil' を言い換えてください。",
+                        "a": "'by enriching the earth with nitrogen nutrients'。adding = enriching, soil = earth。"
                     },
                     {
-                        "q": "'praised the restaurant for its transformation' を言い換えると？",
-                        "a": "spoke highly of the changes at the restaurant / commended the establishment for its makeover"
+                        "q": "'the crop Carver grew to improve the land' を別の表現で言い換えると？",
+                        "a": "'the plant Carver cultivated for soil restoration'。grew = cultivated, improve = restoration。"
                     },
                     {
-                        "q": "'doubled its revenue' を言い換えると？",
-                        "a": "earned twice as much money / increased its income twofold / made two times the profit"
+                        "q": "カーバーのピーナッツ研究を要約してください。",
+                        "a": "ピーナッツが窒素を土壌に加えて改善→大量栽培で販売先不足→300以上の用途を開発。"
                     }
                 ],
                 "highlightPatterns": [
-                    "shared with the technical team",
-                    "reviewed by the company's team",
-                    "find the cause of the problem",
-                    "find out what caused",
-                    "allow about five days",
-                    "wait until the new rice cooker comes",
-                    "peanuts could help improve the land",
-                    "change damaged land into better land",
-                    "provide farming education directly",
-                    "learn farming methods locally",
-                    "schools that were named after him",
-                    "remembered through places named after him"
+                    "peanuts could help",
+                    "improve the land",
+                    "adding nitrogen"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "The restaurant owner decided to hire a professional chef to improve the quality of the food. The menu was completely redesigned to include healthier options. Customers noticed the change immediately and began visiting more frequently. Online reviews praised the restaurant for its transformation. Within six months, the business had doubled its revenue compared to the previous year.",
-                    "ja": "レストランオーナーは料理の質を向上させるためにプロのシェフを雇うことに決めた。メニューはより健康的な選択肢を含むように完全にリニューアルされた。客はすぐに変化に気づき、より頻繁に来店するようになった。オンラインレビューはレストランの変貌を称賛した。半年以内に、ビジネスは前年と比べて収益を2倍にした。",
+                    "en": "[出典: George Washington Carver]\nThe crop Carver grew to improve the land in the southern United States was peanuts. Cotton farming was damaging the quality of land in the southern region. Carver's research showed that peanuts could help improve the land by adding nitrogen, a key element for plants to grow. This provided a solution to this issue. Thanks to his efforts, peanut production increased in the southern United States, and by the 1940s, it had grown to become one of the major crops in the country.",
+                    "ja": "カーバーが南部アメリカの土地を改善するために栽培した作物はピーナッツだった。ピーナッツは土壌に窒素を加えることで土地の改善に役立つことがわかった。しかし、農家がピーナッツを大量に栽培すると、今度は販売先が不足する問題が生じた。そこでカーバーはピーナッツの新しい用途を研究し、食品だけでなく石鹸や染料など300以上の製品を開発した。",
                     "audioFile": "audio/practice_pp5.mp3"
                 }
             }
