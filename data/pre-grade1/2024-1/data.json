@@ -1880,223 +1880,217 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "同格のダッシュと挿入構造",
-                "subtitle": "Appositive Dashes & Parenthetical Insertions",
-                "explanation": "本試験ではダッシュ（—）を使った同格表現や括弧的挿入が多用されています。主語や目的語の直後にダッシュで補足説明を挿入する構造を正確に把握する力が必要です。",
-                "sourceQuote": "an aggressive leader — an alpha male — that dominates the group",
-                "sourceLocation": "Part 3A 第1段落",
+                "title": "It turns out that...may largely be a myth（通説の覆し）",
+                "subtitle": "Debunking Myths with It Turns Out",
+                "explanation": "It turns out that は「〜ということが判明した」と発見・判明を示す。may largely be a myth は「ほぼ神話かもしれない」と通説の覆しを控えめに述べる。appears to have arisen from は「〜から生じたようだ」と誤解の起源を示す。",
+                "sourceQuote": "It turns out, however, that this idea may largely be a myth.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "an aggressive leader — an alpha male — that dominates the group",
-                        "ja": "攻撃的なリーダー—アルファオス—がグループを支配する",
-                        "note": "—an alpha male—はleaderの同格（言い換え）。"
+                        "en": "It turns out, however, that this idea may largely be a myth. It appears to have arisen from research on captured wolves.",
+                        "ja": "しかしこの考えはほぼ神話かもしれないことが判明した。それは捕獲されたオオカミに関する研究から生じたようだ。",
+                        "note": "It turns out(判明) + may largely be a myth(控えめな否定) + appears to have arisen(起源の推定)"
                     },
                     {
-                        "en": "average British women — who were slightly more than one and a half meters tall — other elements made buildings harder",
-                        "ja": "平均的なイギリス女性—約1.5メートルの身長—にとって他の要素が建物を困難にした",
-                        "note": "—who were...—は関係代名詞の非制限用法をダッシュで挿入。"
+                        "en": "Research has now found that captive and wild wolves are too dissimilar to assume that the behaviors of one resemble those of the other.",
+                        "ja": "研究は現在、捕獲されたオオカミと野生のオオカミは一方の行動が他方に似ていると仮定するには異なりすぎることを発見した。",
+                        "note": "too dissimilar to assume(too...to構文=異なりすぎて仮定できない) + those of the other(代名詞those)"
                     },
                     {
-                        "en": "The social structure is also flexible — for example, when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first.",
-                        "ja": "社会構造は柔軟だ—例えば食物が見つかりにくい時、最も幼い者が最初に食べられる。",
-                        "note": "—for example以下がflexibleの具体例を挿入。"
+                        "en": "It turns out that the common belief about this was incorrect.",
+                        "ja": "これについての一般的な考えは間違っていたことが判明した。",
+                        "note": "It turns out that: 通説覆しの基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Wolf Packs]\nThere is a widespread idea that wild packs of wolves are led by an aggressive leader — an alpha male — that dominates the group, and that this results in violent power struggles when other members of the group challenge the alpha male. It turns out, however, that this idea may largely be a myth. It appears to have arisen from research on captured wolves, which often demonstrated such behavior. Captive packs are usually made up of adult wolves being forced to live together even though they did not grow up with each other and are not related, which is why it is common for power struggles in such packs to result in violence. Research has now found, though, that captive and wild wolves are too dissimilar to assume that the behaviors of one resemble those of the other.",
-                    "ja": "野生のオオカミの群れは「アルファオス」と呼ばれる攻撃的なリーダーに率いられているという広く流布した考えがある。この考えは、群れを支配する一頭のオスがいて、他のメンバーに対して攻撃的に振る舞うことで地位を維持するというものだ。この誤解は主に、飼育下のオオカミを対象とした初期の研究に由来している。飼育下のオオカミは、血縁関係のない個体同士が人工的に集められたもので、そのような行動を頻繁に示していた。しかし、野生のオオカミの群れは実際には家族単位で構成されており、その構造は大きく異なっている。",
+                    "ja": "野生のオオカミの群れは、グループを支配する攻撃的なリーダー——アルファオス——に率いられており、グループの他のメンバーがアルファオスに挑戦すると暴力的な権力闘争が生じるという広く知られた考えがある。しかしこの考えはほぼ神話かもしれないことが判明した。それは捕獲されたオオカミに関する研究から生じたようで、そのようなオオカミはしばしばそのような行動を示した。捕獲された群れは通常、一緒に育ったわけでも血縁でもない成体のオオカミが一緒に生活することを強制されて構成されるため、そのような群れで権力闘争が暴力に至ることが一般的である。しかし研究は現在、捕獲されたオオカミと野生のオオカミは一方の行動が他方に似ていると仮定するには異なりすぎることを発見した。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'— an alpha male —' のダッシュはどのような挿入構造ですか？",
-                        "a": "同格のダッシュ。「アルファオス」という用語を挿入して「aggressive leader」を言い換え・補足説明する。"
+                        "q": "'It turns out that this idea may largely be a myth' の構文と論理を説明してください。",
+                        "a": "It turns out(判明=新しい知見) + however(逆接=通説に反して) + may largely be(控えめな否定=断定回避) + a myth(神話=事実ではない)。科学的に通説を覆す慎重な表現。"
                     },
                     {
-                        "q": "'a widespread idea that...' の 'that' はどのような用法ですか？",
-                        "a": "同格のthat節。idea（考え）の具体的内容を説明する名詞節。「〜という考え」。"
+                        "q": "'too dissimilar to assume that the behaviors of one resemble those of the other' を分析してください。",
+                        "a": "too dissimilar(異なりすぎて) + to assume(仮定できない): too...to構文。those of the other: those = behaviors の代用。「一方の行動が他方のそれに似ている」。"
                     },
                     {
-                        "q": "'that dominates the group' の関係代名詞は何を修飾していますか？",
-                        "a": "先行する名詞（one male / alpha male）を修飾。「群れを支配する（オス）」。制限用法。"
+                        "q": "アルファオスの概念が「神話」とされる理由は何ですか?",
+                        "a": "捕獲されたオオカミの研究に基づいていた。捕獲群は血縁関係のない成体が強制的に一緒にされるため暴力的行動が生じるが、野生では異なる社会構造を持つ。"
                     },
                     {
-                        "q": "アルファオスの誤解はどこから生まれましたか？",
-                        "a": "飼育下のオオカミの研究から。血縁関係のない個体が人工的に集められた環境での観察が、野生の実態と異なっていた。"
+                        "q": "'appears to have arisen from' の時制を説明してください。",
+                        "a": "appears to(現在の推測) + have arisen(完了不定詞=過去の出来事)。「〜から生じたようだ」。現在の推量で過去の起源を述べる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "— an alpha male —",
-                    "widespread idea",
-                    "that dominates"
+                    "It turns out, however, that this idea may largely be a myth",
+                    "too dissimilar to assume that the behaviors of one resemble those of the other"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "ダッシュ同格"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "It turns out / myth / too...to assume"
             },
             {
                 "id": "fp2",
-                "title": "比較対照の論理構造",
-                "subtitle": "Comparison & Contrast Structures",
-                "explanation": "本試験では2つのものを比較・対比するパターンが頻出します。while, instead of, rather than, on the other hand などの接続表現に注意が必要です。",
-                "sourceQuote": "Europeans farmed the land to grow food instead of eating what was growing naturally in the wild.",
-                "sourceLocation": "Part 2A 第2段落",
+                "title": "would not remedy...Instead, they proposed（安易な解決策の否定と代替）",
+                "subtitle": "Rejecting Simple Solutions and Proposing Alternatives",
+                "explanation": "simply + would not remedy は「単に〜しても状況は改善しない」と安易な解決策を否定。Instead, they proposed は代替案を提示。which meant + -ing は「それは〜を意味した」と帰結を述べる。",
+                "sourceQuote": "Simply training more women architects would not remedy the situation. Instead, they proposed changing the methods.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "instead of eating what was growing naturally in the wild",
-                        "ja": "野生で自然に育つものを食べる代わりに",
-                        "note": "instead of＝～の代わりに。対比構造。"
+                        "en": "They also argued that simply training more women architects would not remedy the situation. Instead, they proposed changing the methods and design principles by which architecture was being taught.",
+                        "ja": "彼女たちはまた、単により多くの女性建築家を養成するだけでは状況は改善しないと主張した。代わりに、建築が教えられている方法と設計原則を変えることを提案した。",
+                        "note": "simply(安易な) + would not remedy(否定) + Instead(代替) + proposed changing(提案): 段階的議論"
                     },
                     {
-                        "en": "a captive pack has more in common behaviorally with humans in prisons",
-                        "ja": "飼育下の群れは行動面で刑務所の人間とより共通点がある",
-                        "note": "while構文の後半。野生の群れ（家族）と飼育下（刑務所）の対比。"
+                        "en": "The members of Matrix reasoned that architects could produce their greatest work by trying to understand the specific needs of a building's actual users, which meant involving such people in the design process.",
+                        "ja": "マトリックスのメンバーは、建築家が建物の実際の利用者の具体的なニーズを理解しようとすることで最高の作品を生み出せると論じ、それは設計プロセスにそのような人々を参加させることを意味した。",
+                        "note": "reasoned that(論理的主張) + which meant involving(関係代名詞+帰結の動名詞)"
                     },
                     {
-                        "en": "( 24 ), such investigations may reveal that there are actually fewer differences than previously thought.",
-                        "ja": "一方で、調査は以前考えられていたより違いが少ないことを明らかにする可能性がある。",
-                        "note": "On the other hand＝逆の視点を提示。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Wolf Packs]\nBiologists studying wild wolves in the 1980s and 1990s made some interesting observations. They found that a pair of wolves consisting of an older adult male and a female wolf generally acted as the leaders of a pack composed of their offspring and other adult wolves without partners. All wolves in the pack follow the lead male's decisions, and all but the lead male also submit to the lead female. This system appears to be fully accepted by most wild wolves and is usually enforced by communication rather than violence. The social structure is also flexible — for example, when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first. Such behavior demonstrates how these leaders act similarly to the human parents of a large family.",
-                    "ja": "1980年代と1990年代に野生のオオカミを研究した生物学者たちは、いくつかの興味深い観察をした。例えば、野生の群れでは、リーダーは暴力ではなく経験と判断力によって導くことが多い。親オオカミは子どもたちに食料の分け方や狩りの技術を教え、協力と家族の絆が群れの結束を維持する。紛争が発生した場合、リーダーは攻撃ではなく、体の姿勢やうなり声など穏やかな方法で秩序を維持する傾向がある。この発見は、飼育下の研究から導かれた「アルファ」理論を大きく覆すものだった。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'rather than violence' はどのような対比を示しますか？",
-                        "a": "「暴力ではなく」。リーダーシップが攻撃性ではなく経験・判断力に基づくことを対比。rather than = instead of。"
-                    },
-                    {
-                        "q": "'— for example,' のダッシュはどのような機能を持ちますか？",
-                        "a": "例示の挿入。前述の一般論を具体的に説明する例を導入するダッシュ。"
-                    },
-                    {
-                        "q": "'cooperation' は 'violence' とどのように対比されていますか？",
-                        "a": "アルファ理論（暴力で支配）vs 実際の野生（協力と家族の絆で結束）。対照的な群れの運営方法。"
-                    },
-                    {
-                        "q": "野生のオオカミの群れの実態はアルファ理論とどう違いますか？",
-                        "a": "暴力ではなく協力。攻撃的支配ではなく家族の絆。アルファという概念自体が飼育下の産物。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "rather than violence",
-                    "interesting observations",
-                    "for example"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "比較対照"
-            },
-            {
-                "id": "fp3",
-                "title": "関係代名詞の制限用法と後置修飾",
-                "subtitle": "Restrictive Relatives & Post-Modification",
-                "explanation": "長文では名詞の後にthat/which/who節が続く後置修飾が頻繁に使われます。先行詞の特定と修飾範囲の把握が読解の鍵です。",
-                "sourceQuote": "a building's actual users, which meant involving such people in the design process",
-                "sourceLocation": "Part 3B 第3段落",
-                "examples": [
-                    {
-                        "en": "research on captured wolves, which often demonstrated such behavior",
-                        "ja": "捕獲されたオオカミの研究、それはしばしばそのような行動を示した",
-                        "note": "非制限用法のwhich。先行詞はresearch全体。"
-                    },
-                    {
-                        "en": "methods like miniature models of proposed designs that allowed even people with little knowledge of architecture to rearrange",
-                        "ja": "建築の知識がほとんどない人でも再配置できるミニチュアモデルなどの手法",
-                        "note": "thatの先行詞はmodels。長い後置修飾。"
-                    },
-                    {
-                        "en": "the foods they gathered from the variety of native wildlife and plants",
-                        "ja": "多様な在来の野生動物や植物から集めた食物",
-                        "note": "関係代名詞の省略（they gathered）。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Feminist Architecture]\nOne example of Matrix putting these values into practice when helping design public spaces in Britain is the Jagonari Women's Educational Resource Centre, which provides social services for women. Matrix worked closely with the organization's administrators to fulfill their needs and address their concerns, including installing narrow, tall windows protected by bars to help visitors feel safer. In other cases, Matrix employed methods like miniature models of proposed designs that allowed even people with little knowledge of architecture to rearrange the model rooms freely and feel included in the design process. Matrix was dedicated to helping other women enter the architecture and design industry, many of whom carried forward Matrix's principles in their own work. Although the group initially fought to address women's discontent with the biases in architecture, it came to symbolize much more. Matrix's members worked with traditionally overlooked minority groups, empowering them to have their voices reflected in the public spaces they inhabited. Even after they stopped working together, many of the women of Matrix continued to do commendable work in academic and activist spaces, where they have carried on pushing for change in how architecture is practiced, ensuring that the influence of Matrix persists to this day.",
-                    "ja": "マトリックスがこれらの価値観を実践に移した一例として、公共住宅の設計への参加がある。彼女たちは、居住者、特に女性と子どもの日常的なニーズを考慮したデザインを提案した。例えば、子どもを見守りながら家事ができるような見通しの良いキッチンの配置や、車椅子利用者も含めた障害者がアクセスしやすい通路の設計を含んでいた。プロの建築家だけでなく、実際の住民が設計プロセスに参加できるワークショップを開催し、利用者の声を直接反映させるアプローチを採用した。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'that allowed even people with disabilities to access' の 'that' は何を修飾していますか？",
-                        "a": "先行する名詞（design / pathway）を修飾する関係代名詞。「障害者もアクセスできるような（設計）」。"
-                    },
-                    {
-                        "q": "'One example of Matrix putting these values into practice' はどのような構文ですか？",
-                        "a": "前置詞 of + 動名詞構文。「マトリックスがこれらの価値観を実践に移した一例」。具体例を導入する。"
-                    },
-                    {
-                        "q": "'helping design public housing' の 'helping' はどのような分詞ですか？",
-                        "a": "分詞構文。「公共住宅の設計を手助けする際に」。when helping の when が省略された形。"
-                    },
-                    {
-                        "q": "マトリックスの公共住宅設計へのアプローチの特徴は何ですか？",
-                        "a": "住民参加型ワークショップ、女性・子どもの日常ニーズを考慮、障害者アクセス、利用者の声を直接反映。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "that allowed",
-                    "One example",
-                    "putting these values"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "関係代名詞"
-            },
-            {
-                "id": "fp4",
-                "title": "仮定法・条件分岐パターン",
-                "subtitle": "Conditional & Hypothetical Patterns",
-                "explanation": "本試験ではwouldの仮定法的用法や条件分岐が登場します。過去の習慣を表すwouldや、if節なしの仮定法を正確に読み取る力が必要です。",
-                "sourceQuote": "They would, for example, fish in the summer, harvest wild rice in the fall.",
-                "sourceLocation": "Part 2A 第1段落",
-                "examples": [
-                    {
-                        "en": "They would, for example, fish in the summer, harvest wild rice in the fall.",
-                        "ja": "例えば夏に魚を採り、秋にワイルドライスを収穫したものだ。",
-                        "note": "would＝過去の習慣（used to と同義）。"
-                    },
-                    {
-                        "en": "if he wanted to get a good grade in his history class",
-                        "ja": "歴史のクラスでよい成績を取りたければ",
-                        "note": "if + 過去形のwanted＝仮定法ではなく直接法の条件節。"
-                    },
-                    {
-                        "en": "simply training more women architects would not remedy the situation",
-                        "ja": "単に女性建築家を増やすだけでは状況を改善しないだろう",
-                        "note": "wouldが仮定的な話を表す。暗黙のif条件。"
+                        "en": "Simply increasing the budget would not solve the problem. Instead, we need to rethink our approach.",
+                        "ja": "単に予算を増やすだけでは問題は解決しない。代わりに、アプローチを再考する必要がある。",
+                        "note": "simply + would not + Instead: 安易→代替の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Feminist Architecture]\nWhen Matrix was formed in the 1980s, it did not attempt to redesign the world according to the needs of the average woman. In fact, one of Matrix's key arguments denounced architects' focus on the \"average\" person. The members of Matrix reasoned that architects could produce their greatest work by trying to understand the specific needs of a building's actual users, which meant involving such people in the design process to identify necessary features and integrate them into the final design. They also argued that simply training more women architects would not remedy the situation. Instead, they proposed changing the methods and design principles by which architecture was being taught.",
-                    "ja": "マトリックスが1980年代に結成されたとき、独自のフェミニスト的ビジョンに従って世界全体を再設計しようとはしなかった。むしろ、彼女たちは建築がすべての人のために機能するよう、包括的なアプローチを採用した。これは、利用者であるすべての人々、特に通常は設計プロセスから排除される人々を巻き込むことを意味した。単に女性建築家を増やすだけでは状況は改善されないと彼女たちは考えた。根本的な設計哲学そのものを変える必要があると主張した。",
+                    "ja": "1980年代にマトリックスが結成された時、彼女たちは平均的な女性のニーズに合わせて世界を再設計しようとはしなかった。実際、マトリックスの重要な主張の一つは建築家の「平均的な」人への注目を非難した。マトリックスのメンバーは、建築家が建物の実際の利用者の具体的なニーズを理解しようとすることで最高の作品を生み出せると論じた。それは設計プロセスにそのような人々を参加させ必要な特徴を特定し最終設計に統合することを意味した。彼女たちはまた、単により多くの女性建築家を養成するだけでは状況は改善しないと主張した。代わりに、建築が教えられている方法と設計原則を変えることを提案した。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'simply training more women architects would not remedy' の 'simply' と 'would not' の役割を説明してください。",
+                        "a": "simply: 「単に〜だけでは」安易な解決策を示す副詞。would not: 仮定法的用法で「〜しても改善しないだろう」。安易な解決策が不十分であるという判断。"
+                    },
+                    {
+                        "q": "マトリックスが「平均的な人」への注目を非難した理由は何ですか?",
+                        "a": "平均に基づく設計は多くの人のニーズを無視する。実際の利用者の具体的ニーズを理解し、設計プロセスに参加させることが最善だと考えた。"
+                    },
+                    {
+                        "q": "'which meant involving such people in the design process' の構文を分析してください。",
+                        "a": "which(関係代名詞=前文全体を指す) + meant(意味した) + involving(動名詞=参加させること)。前述の主張の実質的な帰結を説明する。"
+                    },
+                    {
+                        "q": "マトリックスが提案した具体的な代替案は何ですか?",
+                        "a": "建築が教えられている方法と設計原則を変えること(changing the methods and design principles by which architecture was being taught)。教育システムの根本的改革。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "simply training more women architects would not remedy the situation. Instead, they proposed changing"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "would not remedy / Instead proposed"
+            },
+            {
+                "id": "fp3",
+                "title": "Although initially fought to...came to symbolize much more（発展的拡張）",
+                "subtitle": "Evolution Beyond Original Purpose",
+                "explanation": "Although + initially + fought to は当初の目的を述べ、came to symbolize much more は「はるかに大きなものの象徴になった」と発展的拡張を示す。運動・組織の歴史的評価に使われる高度な構文。",
+                "sourceQuote": "Although the group initially fought to address women's discontent, it came to symbolize much more.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Although the group initially fought to address women's discontent with the biases in architecture, it came to symbolize much more.",
+                        "ja": "グループは当初、建築における偏見への女性の不満に対処するために戦ったが、はるかに大きなものの象徴になった。",
+                        "note": "Although initially(当初は) + came to symbolize much more(発展): 当初の目的を超えた成長"
+                    },
+                    {
+                        "en": "Matrix's members worked with traditionally overlooked minority groups, empowering them to have their voices reflected in the public spaces they inhabited.",
+                        "ja": "マトリックスのメンバーは伝統的に見過ごされてきたマイノリティグループと協力し、彼らの声が居住する公共空間に反映されるよう力を与えた。",
+                        "note": "empowering(分詞構文=力を与えて) + to have reflected(使役的不定詞): 具体的な拡張行動"
+                    },
+                    {
+                        "en": "Although the project started as a small experiment, it came to represent a new standard.",
+                        "ja": "プロジェクトは小さな実験として始まったが、新しい基準を象徴するようになった。",
+                        "note": "Although started as + came to represent: 発展的拡張の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Feminist Architecture]\nOne example of Matrix putting these values into practice when helping design public spaces in Britain is the Jagonari Women's Educational Resource Centre, which provides social services for women. Matrix worked closely with the organization's administrators to fulfill their needs and address their concerns, including installing narrow, tall windows protected by bars to help visitors feel safer. In other cases, Matrix employed methods like miniature models of proposed designs that allowed even people with little knowledge of architecture to rearrange the model rooms freely and feel included in the design process. Matrix was dedicated to helping other women enter the architecture and design industry, many of whom carried forward Matrix's principles in their own work. Although the group initially fought to address women's discontent with the biases in architecture, it came to symbolize much more. Matrix's members worked with traditionally overlooked minority groups, empowering them to have their voices reflected in the public spaces they inhabited. Even after they stopped working together, many of the women of Matrix continued to do commendable work in academic and activist spaces, where they have carried on pushing for change in how architecture is practiced, ensuring that the influence of Matrix persists to this day.",
+                    "ja": "マトリックスがイギリスの公共空間の設計を支援する際にこれらの価値観を実践した例の一つが、ジャゴナリ女性教育リソースセンターで、女性に社会サービスを提供している。マトリックスは組織の管理者と緊密に協力し、バーで保護された細い縦長の窓を設置して訪問者がより安全に感じられるようにするなど、ニーズに応え懸念に対処した。他のケースでは、マトリックスは建築知識がほとんどない人でも模型の部屋を自由に配置替えし設計プロセスに参加できるような、提案設計のミニチュアモデルなどの方法を採用した。マトリックスは他の女性が建築・設計業界に入ることを支援することに献身し、彼女たちの多くがマトリックスの原則を自身の仕事に引き継いだ。グループは当初、建築における偏見への女性の不満に対処するために戦ったが、はるかに大きなものの象徴になった。マトリックスのメンバーは伝統的に見過ごされてきたマイノリティグループと協力し、彼らの声が居住する公共空間に反映されるよう力を与えた。活動を止めた後も、マトリックスの女性たちの多くは学術・活動家の場で称賛に値する仕事を続け、建築のあり方の変革を推し進め続けている。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'came to symbolize much more' の 'came to' と 'much more' をそれぞれ説明してください。",
+                        "a": "came to: 「〜するようになった」変化の過程。much more: 「はるかに多くのもの」比較級の強調。当初の目的(女性の不満)を超えた広範な社会的意義。"
+                    },
+                    {
+                        "q": "マトリックスが「はるかに大きなもの」の象徴になった具体例を答えてください。",
+                        "a": "伝統的に見過ごされてきたマイノリティグループと協力し、公共空間に彼らの声を反映させた。女性だけでなく社会的弱者全般のエンパワーメント。"
+                    },
+                    {
+                        "q": "ジャゴナリセンターでの設計上の工夫を1つ答えてください。",
+                        "a": "バーで保護された細い縦長の窓(narrow, tall windows protected by bars)。訪問者がより安全に感じられるようにするセキュリティ配慮。"
+                    },
+                    {
+                        "q": "'ensuring that the influence of Matrix persists to this day' の意義を説明してください。",
+                        "a": "グループ解散後も、建築の教育・実践における変革の推進が継続している。一時的な運動ではなく永続的な影響力を持つ遺産(legacy)としての評価。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Although the group initially fought to address women's discontent with the biases in architecture, it came to symbolize much more"
+                ],
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "Although initially / came to symbolize"
+            },
+            {
+                "id": "fp4",
+                "title": "rather than violence + act similarly to（比較による社会構造の解明）",
+                "subtitle": "Contrasting Methods and Drawing Parallels",
+                "explanation": "rather than は「〜ではなく」と対比を示す。act similarly to は「〜と同様に振る舞う」と比較を示す。動物の社会構造を人間社会と比較して説明する議論パターン。",
+                "sourceQuote": "This system is usually enforced by communication rather than violence.",
+                "sourceLocation": "Part 3A",
+                "examples": [
+                    {
+                        "en": "This system appears to be fully accepted by most wild wolves and is usually enforced by communication rather than violence.",
+                        "ja": "このシステムはほとんどの野生のオオカミに完全に受け入れられており、通常は暴力ではなくコミュニケーションによって維持される。",
+                        "note": "enforced by(手段) + rather than(対比=暴力ではなく): 通説(暴力)との対比"
+                    },
+                    {
+                        "en": "Such behavior demonstrates how these leaders act similarly to the human parents of a large family.",
+                        "ja": "このような行動は、これらのリーダーが大家族の人間の親と同様にふるまうことを示している。",
+                        "note": "demonstrates how(間接疑問) + act similarly to(比較): 動物と人間の類似点を導く"
+                    },
+                    {
+                        "en": "The decision was made through discussion rather than a vote.",
+                        "ja": "決定は投票ではなく議論を通じて行われた。",
+                        "note": "through A rather than B: 手段の対比の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Wolf Packs]\nBiologists studying wild wolves in the 1980s and 1990s made some interesting observations. They found that a pair of wolves consisting of an older adult male and a female wolf generally acted as the leaders of a pack composed of their offspring and other adult wolves without partners. All wolves in the pack follow the lead male's decisions, and all but the lead male also submit to the lead female. This system appears to be fully accepted by most wild wolves and is usually enforced by communication rather than violence. The social structure is also flexible — for example, when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first. Such behavior demonstrates how these leaders act similarly to the human parents of a large family.",
+                    "ja": "1980年代と1990年代に野生のオオカミを研究した生物学者は興味深い観察をした。年長の成体オスと1頭のメスオオカミのペアが一般的に、彼らの子孫とパートナーのいない他の成体で構成される群れのリーダーとして行動していることを発見した。群れの全オオカミがリードオスの決定に従い、リードオスを除く全員がリードメスにも従う。このシステムはほとんどの野生オオカミに完全に受け入れられており、通常は暴力ではなくコミュニケーションによって維持される。社会構造はまた柔軟で——例えば食料が見つけにくい時、オオカミのリーダーはしばしば群れの最年少メンバーが最初に食べられるようにする。このような行動は、これらのリーダーが大家族の人間の親と同様にふるまうことを示している。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'would not remedy the situation' の 'would' はどのような推量ですか？",
-                        "a": "「状況を改善しないだろう」。仮定法的用法。単に女性を増やすだけでは不十分だという判断を示す推量。"
+                        "q": "'enforced by communication rather than violence' の通説との対比を説明してください。",
+                        "a": "通説: アルファオスが暴力で群れを支配。実態: コミュニケーション(communication)で秩序が維持される。rather than で通説と実態の対比を明示。"
                     },
                     {
-                        "q": "'which meant involving such people' の 'which' は何を指しますか？",
-                        "a": "前の文全体を先行詞とする関係代名詞。包括的アプローチを採用したこと→設計プロセスから排除される人々を巻き込むこと。"
+                        "q": "'act similarly to the human parents of a large family' はなぜこの比較が使われていますか?",
+                        "a": "野生オオカミの群れ構造が攻撃的な支配ではなく、大家族の親のような養育的リーダーシップであることを読者に理解させるため。人間との類似で親近感を喚起。"
                     },
                     {
-                        "q": "'did not attempt to redesign the world' の否定はなぜ重要ですか？",
-                        "a": "マトリックスは急進的ではなく実実用的だったことを示す。全面的な変革ではなく漸進的な改善を目指した。"
+                        "q": "野生オオカミの群れのリーダーシップ構造を説明してください。",
+                        "a": "年長の成体オスとメスのペアがリーダー。群れは彼らの子孫+パートナーなしの成体で構成。全員がオスに従い、オス以外はメスにも従う。"
                     },
                     {
-                        "q": "マトリックスの設計哲学の核心は何でしたか？",
-                        "a": "女性建築家を増やすだけでなく、設計哲学そのものを変え、すべての利用者を巻き込む包括的アプローチ。"
+                        "q": "リーダーの「柔軟性」(flexible)の具体例は何ですか?",
+                        "a": "食料不足時に最年少メンバーを最初に食べさせる。リーダーが自分より若いメンバーを優先する養育的行動。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would not remedy",
-                    "which meant",
-                    "did not attempt"
+                    "enforced by communication rather than violence",
+                    "act similarly to the human parents of a large family"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "仮定法"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "rather than / act similarly to"
             },
             {
                 "id": "fp5",

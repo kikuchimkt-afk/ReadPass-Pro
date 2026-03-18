@@ -2104,221 +2104,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "仮定法と条件表現",
-                "subtitle": "Subjunctive & Conditional Expressions",
-                "explanation": "本試験では仮定法過去・仮定法過去完了に加え、if節を使わない暗示的仮定法も出現します。仮定法の見分け方と訳し方を理解しましょう。",
-                "sourceQuote": "If the government had not intervened... / without this...",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "as + 形容詞 + as S may be（譲歩）+ 逆説的結果",
+                "subtitle": "Concessive As-Clause with Paradoxical Result",
+                "explanation": "as + 形容詞 + as S may be は「Sがいかに〜であろうとも」と譲歩を示す高度な構文。一見効果的に見える行為が実は逆効果をもたらすという逆説的な議論展開に使われる。",
+                "sourceQuote": "As effective as punishment may be in bringing peace to the classroom temporarily, it can intensify the very behavior it is intended to correct.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "If the technique had been discovered earlier, many lives could have been saved.",
-                        "ja": "もしその技術がもっと早く発見されていたら、多くの命が救えたかもしれない。",
-                        "note": "仮定法過去完了 = 過去の事実に反する仮定。"
+                        "en": "As effective as punishment may be in bringing peace to the classroom temporarily, it can intensify the very behavior it is intended to correct when used continually over an extended period of time.",
+                        "ja": "罰が一時的に教室に平和をもたらすのにいかに効果的であろうとも、長期間にわたって継続的に使用されると、まさに矯正しようとしている行動そのものを悪化させる可能性がある。",
+                        "note": "as effective as...may be(譲歩) + can intensify(逆説的結果) + the very behavior it is intended to correct(矯正対象)"
                     },
                     {
-                        "en": "Without government funding, the project would have failed.",
-                        "ja": "政府の資金なしでは、プロジェクトは失敗していただろう。",
-                        "note": "without = if it had not been for（仮定法の代用）。"
+                        "en": "These are designed to teach the students to follow teachers' instructions and respect classmates.",
+                        "ja": "これらは生徒に教師の指示に従い級友を尊重することを教えるよう設計されている。",
+                        "note": "are designed to: 「〜するよう設計されている」受動態+不定詞。意図された目的。"
                     },
                     {
-                        "en": "Had the researchers known about the danger, they would have stopped.",
-                        "ja": "研究者が危険を知っていたら、やめていただろう。",
-                        "note": "倒置仮定法 = If had が省略され倒置。"
+                        "en": "As talented as he may be, he still needs to practice daily.",
+                        "ja": "彼がいかに才能があろうとも、毎日練習する必要がある。",
+                        "note": "as + 形容詞 + as S may be: 譲歩の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'would benefit from interacting on a deeper level' の 'would' はどのような推量ですか？",
-                        "a": "「恩恵を受けるだろう」。研究結果に基づく推量。断定ではなく、可能性・推奨を示す条件法的用法。"
+                        "q": "'as effective as punishment may be' の構文を分析してください。",
+                        "a": "as + effective(形容詞) + as + S(punishment) + may be: 譲歩。「罰がいかに効果的であろうとも」。may は推量で不確実性を添える。"
                     },
                     {
-                        "q": "'suggest that' はどのような論証の強さを示しますか？",
-                        "a": "「〜を示唆している」。研究結果からの推論。断定を避けた学術的な慎重な表現。"
+                        "q": "'the very behavior it is intended to correct' の 'very' と 'it is intended to' をそれぞれ説明してください。",
+                        "a": "very: 強調の形容詞「まさにその」。it is intended to correct: 受動態「矯正することを意図された」。つまり「矯正しようとしているまさにその行動を悪化させる」という逆説。"
                     },
                     {
-                        "q": "'however' はこの段落でどのような役割を果たしていますか？",
-                        "a": "「しかし」。深い会話が常に優れているという結論を修正する逆接。雑談の価値も認める。"
+                        "q": "スキナーの理論に基づく規律方法の具体例を2つ答えてください。",
+                        "a": "①1日以上の授業出席禁止(being prohibited from attending classes) ②放課後の居残り(being made to stay in class after school)。"
                     },
                     {
-                        "q": "この研究の結論を要約してください。",
-                        "a": "深い会話は有益だが雑談も重要。雑談は社会的つながりの維持と深い会話への橋渡しの役割を果たす。"
+                        "q": "最近の研究が明らかにした罰の長期的問題は何ですか？",
+                        "a": "罰は短期的には教室の平和を保てるが、長期間継続使用すると矯正対象の行動そのものを悪化(intensify)させる。逆効果になる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would benefit from",
-                    "suggest that",
-                    "however"
+                    "as effective as punishment may be in bringing peace to the classroom temporarily, it can intensify the very behavior it is intended to correct"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "仮定法",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "as...as may be / intensify",
                 "practicePassage": {
-                    "en": "[出典: Beyond Small Talk]\nThe study's results suggest that people would benefit from interacting on a deeper level with strangers. In fact, the subjects in the study generally expressed a desire to have meaningful conversations with people they did not know more often in their lives. However, they also thought that other people did not share this desire. The researchers believe that this assumption is incorrect, and that, for the most part, strangers are also interested in going beyond casual conversation.",
-                    "ja": "この研究の結果は、日頃よりも深いレベルで他者と交流することで人々が恩恵を受けることを示唆している。しかし、深い会話が必ずしも軽い雑談より優れているわけではない。研究者は、雑談は社会的なつながりを維持する上で重要な役割を果たしており、より深い会話への橋渡しとしても機能すると指摘している。それでも、人々がより意味のある交流を求めるならば、浅い会話にとどまらず、相手との間でより深い話題に踏み込む努力をする価値があると結論づけている。",
+                    "en": "[出典: Discipline in American Schools]\nFor decades, methods of discipline used in American schools have been based on the theories of psychologist B. F. Skinner, who believed that systems of reward and punishment were the most effective methods of improving people's behavior. Commonly, students who break rules are given punishments, such as being prohibited from attending classes for a day or more or being made to stay in class after the school day ends. These are designed to teach the students to follow teachers' instructions and respect classmates. Recent psychological studies, however, have determined that as effective as punishment may be in bringing peace to the classroom temporarily, it can intensify the very behavior it is intended to correct when used continually over an extended period of time.",
+                    "ja": "何十年もの間、アメリカの学校で使用されてきた規律の方法は、報酬と罰のシステムが人々の行動を改善する最も効果的な方法であると信じた心理学者B.F.スキナーの理論に基づいてきた。一般的に、規則を破る生徒には、1日以上の授業への出席禁止や放課後の居残りなどの罰が与えられる。これらは生徒に教師の指示に従い級友を尊重することを教えるよう設計されている。しかし最近の心理学的研究は、罰が一時的に教室に平和をもたらすのにいかに効果的であろうとも、長期間にわたって継続的に使用されると、まさに矯正しようとしている行動そのものを悪化させる可能性があると判定した。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "対比・逆接のディスコースマーカー",
-                "subtitle": "Contrast & Concession Markers",
-                "explanation": "Part 2の空所補充で頻出する接続表現です。however, nevertheless, on the other hand, despite, in contrast などの使い分けが重要です。",
-                "sourceQuote": "However / Nevertheless / Despite this",
-                "sourceLocation": "Part 2 全体",
+                "title": "Not only did this force...but it also（倒置+二重の悪影響）",
+                "subtitle": "Inverted Not Only with Double Negative Impact",
+                "explanation": "Not only did + S + V, but S also V は文頭にNot onlyを置く倒置で二重の問題点を強調する。While + 主文 + some questioned whether は譲歩+間接疑問で議論のバランスを取る。",
+                "sourceQuote": "Not only did this force numerous small farms out of business, but it also created conditions that caused the chickens stress.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "The treatment was expensive. Nevertheless, many patients chose it.",
-                        "ja": "治療は高額だった。それにもかかわらず多くの患者が選んだ。",
-                        "note": "nevertheless = しかしながら（however より強い逆接）。"
+                        "en": "Not only did this force numerous small farms out of business, but it also created conditions for the birds that, according to animal rights activists, caused the chickens stress and led to higher levels of sickness.",
+                        "ja": "これは多数の小規模農場を廃業に追い込んだだけでなく、動物愛護活動家によるとニワトリにストレスを与え病気の増加につながる状況も生み出した。",
+                        "note": "Not only did(倒置) + force out of business(悪影響1) + but also created(悪影響2): 二重の否定的結果"
                     },
                     {
-                        "en": "Despite the warnings, people continued to visit the area.",
-                        "ja": "警告にもかかわらず人々はその地域を訪れ続けた。",
-                        "note": "despite + 名詞 = ～にもかかわらず。"
+                        "en": "While the contest made chicken a regular food item, some people questioned whether it was worth it.",
+                        "ja": "コンテストはチキンを日常的な食品にしたが、それだけの価値があったかどうかを疑問視する人もいた。",
+                        "note": "While(譲歩=プラス面) + questioned whether(疑問=価値の再評価): バランスの取れた結論"
                     },
                     {
-                        "en": "Critics praised the book; conversely, readers found it boring.",
-                        "ja": "批評家は称賛したが、逆に読者は退屈だと感じた。",
-                        "note": "conversely = 逆に（対照的な事実の導入）。"
+                        "en": "Not only did the policy fail, but it also caused widespread damage.",
+                        "ja": "その政策は失敗しただけでなく、広範な被害も引き起こした。",
+                        "note": "Not only did + S + V + but also: 倒置の二重否定パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'On the other hand' はどのような対比を示しますか？",
-                        "a": "「一方で」。支持的アプローチの賛成意見と反対意見を対比する。両方の立場を公平に提示。"
+                        "q": "'Not only did this force...but it also created' の倒置構造を説明してください。",
+                        "a": "Not only + did(助動詞) + this(S) + force(V): 文頭のNot onlyにより倒置。2つの悪影響(農場廃業+動物虐待)を並列で強調。"
                     },
                     {
-                        "q": "'in order for children to learn' の 'in order for' はどのような目的を示しますか？",
-                        "a": "「子どもたちが学ぶために」。目的を示す接続表現。for + 名詞 + to不定詞で目的の主語を明示。"
+                        "q": "'questioned whether it was worth it' の 'whether' は何ですか？",
+                        "a": "間接疑問の接続詞。「〜かどうか」。it = 大量生産化。was worth it = それだけの価値があったか。コストとベネフィットの評価。"
                     },
                     {
-                        "q": "'rather than punishment-based approaches' の 'rather than' は何を示しますか？",
-                        "a": "「罰則に基づくアプローチではなく」。新旧のアプローチを対比し、前者を支持する選択の表現。"
+                        "q": "チキン肉大量生産の「暗い面」(dark side)とは何ですか？",
+                        "a": "①小規模農場の廃業(force out of business) ②ニワトリの小ケージ飼育によるストレスと病気増加。経済効率と倫理の対立。"
                     },
                     {
-                        "q": "この段落で述べられている学校の規律に関する二つの立場は何ですか？",
-                        "a": "賛成派: 理解と支援に基づくアプローチ。反対派: 従来の厳格なアプローチの方が効果的だと主張。"
+                        "q": "'While the contest made...some questioned' は著者の結論としてどのようなバランスですか？",
+                        "a": "While(プラス面=チキンの普及) + questioned whether(マイナス面=価値への疑問)。功罪両面を提示し、読者に判断を委ねるバランスの取れた結論。"
                     }
                 ],
                 "highlightPatterns": [
-                    "On the other hand",
-                    "in order for",
-                    "believe that"
+                    "Not only did this force numerous small farms out of business, but it also created conditions",
+                    "While the contest made chicken a regular food item, some people questioned whether it was worth it"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "対比・逆接",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Not only did...but also / While...whether",
                 "practicePassage": {
-                    "en": "[出典: Discipline in American Schools]\nMany experts now believe that in order for children to learn to behave appropriately, it is essential that they develop self-control. When students are punished to make them obey the rules, they are being forced to adopt good behavior through external pressure. Self-control, on the other hand, comes from internal motivation, self-confidence, and the ability to be tolerant of others, and using punishment as a substitute for these things can actually delay or prevent their development. Similarly, the use of rewards such as stickers leads to students merely attempting to please the teacher rather than understanding the importance of gaining knowledge and social skills that will help them throughout their lives.",
-                    "ja": "現在、多くの専門家は、子どもたちが適切な行動を学ぶためには、罰則に基づくアプローチではなく、理解と支援に基づくアプローチが必要だと考えている。彼らは、問題行動の背後にある感情的・社会的な原因に対処することが重要だと主張している。一方で、こうした変革に懐疑的な人々もいる。従来の厳格なアプローチの方が効果的だと考え、新しい方法は生徒を甘やかすだけだと反論する声もある。しかし研究は、修復的な実践を採用した学校で停学率が減少し、学業成績が向上したことを示している。",
+                    "en": "[出典: The Chicken of Tomorrow]\nThe contest helped popularize the consumption of chicken meat, but this trend also had a dark side. It became more economical to raise massive numbers of chickens in large facilities where they were confined in small cages. Not only did this force numerous small farms out of business, but it also created conditions for the birds that, according to animal rights activists, caused the chickens stress and led to higher levels of sickness. While the contest made chicken a regular food item, some people questioned whether it was worth it.",
+                    "ja": "コンテストはチキン肉の消費を普及させたが、この傾向には暗い面もあった。大型施設で大量のニワトリを小さなケージに閉じ込めて飼育する方が経済的になった。これは多数の小規模農場を廃業に追い込んだだけでなく、動物愛護活動家によるとニワトリにストレスを与え病気の増加につながる状況も生み出した。コンテストはチキンを日常的な食品にしたが、それだけの価値があったかどうかを疑問視する人もいた。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "受動態の多様なパターン",
-                "subtitle": "Diverse Passive Voice Patterns",
-                "explanation": "準1級では単純な受動態だけでなく、完了形・進行形の受動態、群動詞の受動態など多様なパターンが出題されます。",
-                "sourceQuote": "has been considered / was being treated / is referred to as",
-                "sourceLocation": "Part 1-3 全体",
+                "title": "what makes A so B is the assertion that（what節主語+同格）",
+                "subtitle": "What-Clause Subject with Appositional That",
+                "explanation": "what makes A so B is C は「AをそれほどBにしているのはCだ」という強調構文。the assertion that は同格のthat節で主張の内容を説明。歴史的文書の意義を論じる際に使われる。",
+                "sourceQuote": "What makes the Declaration of Arbroath so historic is the assertion that the king may rule only with the approval of the Scottish people.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "The issue has been discussed extensively in recent years.",
-                        "ja": "この問題は近年広く議論されてきた。",
-                        "note": "現在完了の受動態 = have/has been + p.p."
+                        "en": "What makes the Declaration of Arbroath so historic is the assertion that the king may rule only with the approval of the Scottish people.",
+                        "ja": "アーブロース宣言をそれほど歴史的にしているのは、王がスコットランド国民の承認なしには統治できないという主張である。",
+                        "note": "what makes(what節主語) + so historic(強調) + is the assertion(述語) + that...(同格=主張の内容)"
                     },
                     {
-                        "en": "New regulations are being implemented across the country.",
-                        "ja": "新しい規制が全国で実施されている。",
-                        "note": "現在進行形の受動態 = is/are being + p.p."
+                        "en": "The nobles used the document to boldly insist on their right to remove any ruler who betrayed them.",
+                        "ja": "貴族たちはこの文書を使って、自分たちを裏切った支配者を排除する権利を大胆に主張した。",
+                        "note": "insist on their right to: 権利の主張。who betrayed: 関係代名詞で条件を限定"
                     },
                     {
-                        "en": "The phenomenon is commonly referred to as 'the butterfly effect.'",
-                        "ja": "この現象は一般に「バタフライ効果」と呼ばれている。",
-                        "note": "群動詞の受動態（refer to → be referred to as）。"
+                        "en": "What makes this study significant is the finding that learning styles vary across cultures.",
+                        "ja": "この研究を重要にしているのは、学習スタイルが文化によって異なるという発見である。",
+                        "note": "What makes + 名詞 + 形容詞 + is: what節主語の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'resulted in a power struggle' の受動態的表現を説明してください。",
-                        "a": "「権力闘争をもたらした」。resulted in = led to。原因（王の死）から結果（権力闘争）への因果を示す。"
+                        "q": "'what makes the Declaration so historic is the assertion that' の構文を分析してください。",
+                        "a": "what makes(関係代名詞what=主語) + the Declaration so historic(OC) + is(V) + the assertion(C) + that...(同格節=主張の内容)。擬似分裂文で「歴史的にしているのは〜だ」。"
                     },
                     {
-                        "q": "'the sudden death of King Alexander III' の 'sudden' はどのような効果を持ちますか？",
-                        "a": "「突然の」。予期せぬ出来事であったことを強調。国の準備不足と混乱の原因を印象づける。"
+                        "q": "アーブロース宣言の「先駆的な」(pioneering)側面は何ですか？",
+                        "a": "統治者と国民の間の契約(contract between ruler and people)。統治者は国民の自由を保障する責任があり、裏切れば排除される。現代の社会契約論の先駆け。"
                     },
                     {
-                        "q": "'In 1286' で始まる文はどのような文体効果がありますか？",
-                        "a": "年代を冒頭に置くことで歴史的な背景を即座に確立。読者に時代設定を示し、歴史的文脈を提供する。"
+                        "q": "'although proof of this is lacking' はどのような役割ですか？",
+                        "a": "譲歩的挿入句。アメリカ独立宣言への影響説を認めつつ、証拠不足を指摘。主張の信頼性を客観的に評価する学術的態度。"
                     },
                     {
-                        "q": "アレクサンダー3世の死後、スコットランドに何が起きましたか？",
-                        "a": "権力闘争→イングランドの介入→属国化→貴族の反発→独立運動の長期化。"
+                        "q": "貴族たちが主張した具体的権利は何ですか？",
+                        "a": "自分たちを裏切った支配者を排除する権利(right to remove any ruler who betrayed them)。国民主権的な思想の萌芽。"
                     }
                 ],
                 "highlightPatterns": [
-                    "resulted in",
-                    "sudden death",
-                    "power struggle"
+                    "what makes the Declaration of Arbroath so historic is the assertion that the king may rule only with the approval of the Scottish people"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "受動態",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "what makes / assertion that",
                 "practicePassage": {
-                    "en": "[出典: Robert the Bruce and the Declaration of Arbroath]\nIn 1286, the sudden death of King Alexander III of Scotland resulted in a power struggle among various nobles that nearly brought the country to civil war. To settle the matter, England's King Edward I was asked to select a new ruler from among the rivals. Edward, who himself had ambitions to ultimately rule Scotland, agreed only on the condition that the new leader pledged loyalty to him. He chose a noble named John Balliol as the new king, but resentment soon grew as England repeatedly exerted its authority over Scotland's affairs. The turning point came when Edward attempted to force Scotland to provide military assistance in England's conflict with France. When Balliol allied his nation with France instead, Edward invaded Scotland, defeated Balliol, and took the throne.",
-                    "ja": "1286年、スコットランド王アレクサンダー3世の突然の死は権力闘争をもたらした。王位を主張する者が複数おり、スコットランドの不安定さを利用して、イングランド王エドワード1世がスコットランドへの支配を拡大した。エドワードはスコットランドの王位継承問題の調停者として介入し、自分に忠実な人物を王位に就けた。その後、エドワードは事実上スコットランドを属国として扱い、スコットランド貴族の間に反発を生んだ。何年にもわたる対立と数度の反乱が続き、スコットランドの独立は深刻な脅威にさらされた。",
+                    "en": "[出典: Robert the Bruce and the Declaration of Arbroath]\nToday, the Declaration of Arbroath is one of the most celebrated documents in Scottish history. Some historians even argue it inspired the US Declaration of Independence, although proof of this is lacking. Scholars generally agree, however, that what makes the Declaration of Arbroath so historic is the assertion that the king may rule only with the approval of the Scottish people; specifically, the nobles used the document to boldly insist on their right to remove any ruler who betrayed them. In this sense, the document was a pioneering example of a contract between a country's ruler and its people, in which the ruler was responsible for ensuring the people could live in a free society.",
+                    "ja": "今日、アーブロース宣言はスコットランド史上最も称えられる文書の一つである。一部の歴史家はそれがアメリカ独立宣言に影響を与えたとさえ主張するが、その証拠は欠けている。しかし学者たちは一般的に、アーブロース宣言をそれほど歴史的にしているのは、王がスコットランド国民の承認がなければ統治できないという主張であることに同意している。具体的には、貴族たちはこの文書を使って、自分たちを裏切った支配者を排除する権利を大胆に主張した。この意味で、この文書は国の統治者とその国民との間の契約の先駆的な例であり、統治者は国民が自由な社会で生きられることを保障する責任があった。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "同格表現とダッシュによる補足",
-                "subtitle": "Appositives & Dash Insertions",
-                "explanation": "英文読解で情報の追加・補足に使われる同格表現（名詞の直後に説明を置くパターン）とダッシュ（—）の役割を理解しましょう。",
-                "sourceQuote": "— a technique known as... / the concept, a form of...",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "had no choice but to V + rather than -ing（選択の制限）",
+                "subtitle": "Forced Choice with No Alternative",
+                "explanation": "had no choice but to V は「Vするしか選択肢がなかった」と選択の制限を示す。rather than -ing は「〜するよりもむしろ」と排除された代替案を示す。産業構造の変化による必然性を述べる。",
+                "sourceQuote": "Most farmers had no choice but to purchase young chickens from those companies rather than breeding them by themselves.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "The CEO, a former engineer, transformed the company.",
-                        "ja": "元エンジニアであるCEOが会社を変革した。",
-                        "note": "カンマによる同格 = ～である（人物の説明）。"
+                        "en": "Most farmers had no choice but to purchase young chickens from those companies rather than breeding them by themselves — a development that completely changed the industry.",
+                        "ja": "ほとんどの農家は自分で繁殖するのではなく、それらの企業から若いニワトリを購入するしか選択肢がなかった——業界を完全に変えた展開だ。",
+                        "note": "had no choice but to(強制) + rather than -ing(排除された選択肢) + ダッシュ(結果の補足)"
                     },
                     {
-                        "en": "The treatment — known as immunotherapy — showed promising results.",
-                        "ja": "免疫療法として知られるその治療は有望な結果を示した。",
-                        "note": "ダッシュによる同格 = 補足情報を挿入。"
+                        "en": "Since producing such genetic combinations was difficult, most farmers had no choice but to purchase from companies.",
+                        "ja": "そのような遺伝的組み合わせを生産することは難しかったため、ほとんどの農家は企業から購入するしかなかった。",
+                        "note": "Since(理由) + was difficult → had no choice(結果): 因果関係が選択の制限を生む"
                     },
                     {
-                        "en": "One approach, namely gene therapy, has attracted attention.",
-                        "ja": "一つのアプローチ、すなわち遺伝子治療が注目されている。",
-                        "note": "namely = すなわち（同格の導入語）。"
+                        "en": "We had no choice but to cancel the event due to the storm.",
+                        "ja": "嵐のため、イベントを中止するしか選択肢がなかった。",
+                        "note": "had no choice but to: 強制された選択の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'a contest called \"The Chicken of Tomorrow\"' の 'called' はどのような同格表現ですか？",
-                        "a": "「『明日の鶏』と呼ばれるコンテスト」。called = named。名詞の直後に置いて名称を説明する同格の過去分詞。"
+                        "q": "'had no choice but to purchase...rather than breeding' の構文を分析してください。",
+                        "a": "had no choice but to(強制=購入するしかない) + rather than breeding(排除された代替=自家繁殖)。Since以下の理由により選択肢が限定された。"
                     },
                     {
-                        "q": "'however' はこの段落でどのような転換を示しますか？",
-                        "a": "「しかし」。戦前の家族経営の鶏の状況から、戦後の市場変化への転換点を示す逆接。"
+                        "q": "農家が自家繁殖できなくなった理由は何ですか？",
+                        "a": "育種企業が作る遺伝的組み合わせが複雑すぎて(producing such genetic combinations was difficult)、農家単独では再現不可能だった。技術的障壁。"
                     },
                     {
-                        "q": "'the growing availability of meat' の 'growing' はどのような変化を示しますか？",
-                        "a": "「増加する入手可能性」。growing = increasing。戦後の肉の供給量の継続的な増加を示す現在分詞。"
+                        "q": "'a development that completely changed the industry' のダッシュはどのような役割ですか？",
+                        "a": "前文全体の帰結を補足説明。「〜という展開」= 企業からの購入への依存。農家→企業主導へと業界構造が完全に変化した。"
                     },
                     {
-                        "q": "「明日の鶏」コンテストの目的と影響は何でしたか？",
-                        "a": "目的: 大きく肉の多い鶏の品種開発。影響: 養鶏の産業化と鶏肉の普及。"
+                        "q": "コンテストの総合優勝者が持っていた3つの特徴を答えてください。",
+                        "a": "①他の種類より速く成長(grew faster) ②より大きく成長(grew larger) ③様々な気候に適応できた(could adapt to various climates)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "however",
-                    "called",
-                    "growing availability"
+                    "had no choice but to purchase young chickens from those companies rather than breeding them by themselves"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "同格・補足",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "had no choice but to / rather than",
                 "practicePassage": {
                     "en": "[出典: The Chicken of Tomorrow]\nAfter World War II, however, the growing availability of meat such as pork and beef meant eggs could not compete as a source of protein. The US Department of Agriculture therefore set up an event called the Chicken of Tomorrow contest to find a type of chicken that could be raised economically and produced more meat. The overall winner, which was a combination of different breeds, grew faster and larger than other types, and it could adapt to various climates. Inspired by the contest, breeding companies began creating complicated mixtures of chicken varieties to guarantee a consistent supply of birds with these same desirable features. Since producing such genetic combinations was difficult, most farmers had no choice but to purchase young chickens from those companies rather than breeding them by themselves — a development that completely changed the industry.",
-                    "ja": "しかし第二次世界大戦後、豚肉や牛肉などの肉の入手可能性が高まり、鶏肉の需要は減少し始めた。これに対応するため、全米鶏肉協議会は「明日の鶏」コンテストと呼ばれる大会を開催した。このコンテストは、より大きく、より多くの肉を持つ鶏の品種を開発することを目的としていた。農家やブリーダーに最も優れた鶏の品種を出品させ、優勝者には賞金が与えられた。コンテストは鶏肉を安価で効率的な食肉源として推進する上で大きな成功を収め、アメリカの養鶏産業を家族経営の農場から大規模な商業的産業へと転換させるきっかけとなった。",
+                    "ja": "しかし第二次世界大戦後、豚肉や牛肉などの肉の入手可能性が高まり、卵はタンパク質源として競争できなくなった。そこで米国農務省は、経済的に飼育でき、より多くの肉を生産するニワトリの種類を見つけるために「明日のニワトリ」コンテストというイベントを設立した。総合優勝者は異なる品種の組み合わせで、他の種類より速く大きく成長し、様々な気候に適応できた。コンテストに触発され、育種企業は同じ望ましい特徴を持つニワトリの安定供給を保証するために、品種の複雑な組み合わせを作り始めた。そのような遺伝的組み合わせを生産することは難しかったため、ほとんどの農家は自分で繁殖するのではなく、それらの企業から若いニワトリを購入するしか選択肢がなかった——業界を完全に変えた展開だ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

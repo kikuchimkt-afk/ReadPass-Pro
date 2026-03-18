@@ -1819,218 +1819,217 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "分詞構文の多様な用法",
-                "subtitle": "Varied Uses of Participial Constructions",
-                "explanation": "本試験のパッセージでは時間・理由・付帯状況を表す分詞構文が多用されています。分詞句の主語が主節と一致することを確認する力が求められます。",
-                "sourceQuote": "Given the crime genre's reliance on... / leaving few reliable sources",
-                "sourceLocation": "Part 3 全体",
+                "title": "Given + 名詞（〜を考えると）+ 分詞構文",
+                "subtitle": "Given as Preposition and Participial Clauses",
+                "explanation": "Given + 名詞 は「〜を考えると/〜を踏まえると」と前提条件を示す準接続詞的用法。instead being introduced は「代わりに〜を通じて紹介される」と方法の対比を示す分詞構文。",
+                "sourceQuote": "Given the crime genre's reliance on carefully plotted stories that build suspense, this was a highly original approach.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Given the crime genre's reliance on carefully plotted stories, this was a highly original approach.",
-                        "ja": "犯罪ジャンルの緻密なプロットへの依存を考えると、これは非常に独創的なアプローチだった。",
-                        "note": "Given = ～を考慮すると（分詞構文による条件・前提）。"
+                        "en": "Given the crime genre's reliance on carefully plotted stories that build suspense, this was a highly original approach.",
+                        "ja": "犯罪小説ジャンルが緊張感を高める緻密なプロットに依存していることを考えると、これは非常に独創的なアプローチだった。",
+                        "note": "Given + 名詞句: 「〜を考えると」前提条件を提示し、主文の意外性を際立たせる"
                     },
                     {
-                        "en": "Efforts were made to erase him from history, leaving few reliable sources.",
-                        "ja": "歴史から抹消する努力がなされ、信頼できる資料がほとんど残らなかった。",
-                        "note": "leaving = その結果～（結果を表す分詞構文）。"
+                        "en": "Important events are not described directly, instead being introduced through conversations between characters.",
+                        "ja": "重要な出来事は直接描写されず、代わりに登場人物の会話を通じて紹介される。",
+                        "note": "instead being introduced: 分詞構文。直接描写ではなく会話という対照的手法"
                     },
                     {
-                        "en": "Made using ground-up mummies, the pigment was known as mummy brown.",
-                        "ja": "砕いたミイラから作られた顔料はマミーブラウンとして知られた。",
-                        "note": "Made = 受動の分詞構文（Being madeのBeing省略）。"
+                        "en": "Given the limited budget, the team achieved impressive results.",
+                        "ja": "限られた予算を考えると、チームは印象的な成果を達成した。",
+                        "note": "Given + 名詞: 前提・条件を示す基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Given the lack of reliable evidence' の 'Given' はどのような分詞構文ですか？",
-                        "a": "「〜を考えると」。条件・前提を示す分詞構文。given = considering。信頼できる証拠が不足していることを前提として述べる。"
+                        "q": "'Given the crime genre's reliance on carefully plotted stories' の 'Given' はどのような意味ですか?",
+                        "a": "「〜を考えると/踏まえると」。前提条件を示す準接続詞。犯罪小説が緻密なプロットに依存しているという前提を述べ、対話主体のアプローチの独創性を強調。"
                     },
                     {
-                        "q": "'leaving historians unsure of the truth' の 'leaving' はどのような分詞構文ですか？",
-                        "a": "結果を示す分詞構文。「その結果、歴史家は真実がわからないままだ」。前述の状況の結果を表す。"
+                        "q": "'instead being introduced through conversations' はどのような構文ですか?",
+                        "a": "分詞構文。前文の'not described directly'と対照的に「代わりに会話を通じて紹介される」。instead + being + pp(受動態の分詞)。"
                     },
                     {
-                        "q": "'would have needed a powerful figure' の仮定法過去完了は何を示しますか？",
-                        "a": "「強力な人物が必要だったであろう」。過去の推測。実際にそうだったかは不確かだが、論理的にそうであっただろうという推量。"
+                        "q": "この小説の最も独創的な点は何ですか?",
+                        "a": "ほぼ全てが対話で書かれていること(written almost entirely in dialogue)。通常の犯罪小説の緻密なプロット構成とは対照的。"
                     },
                     {
-                        "q": "カリグラの馬の話はこの段落でどのように再解釈されていますか？",
-                        "a": "文字通りの狂気ではなく、政治的な風刺や元老院への侮辱として意図された可能性。歴史的記録の信頼性に疑問を投げかける。"
+                        "q": "'Higgins writes sparingly' の 'sparingly' はどのような意味ですか?",
+                        "a": "「控えめに/節約して」。必要最小限の情報だけを提供するヒギンズの文体を表す副詞。過剰なナレーションを避ける姿勢。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Given",
-                    "leaving",
-                    "would have"
+                    "Given the crime genre's reliance on carefully plotted stories that build suspense",
+                    "instead being introduced through conversations"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "分詞構文",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Given / instead being",
                 "practicePassage": {
-                    "en": "[出典: Caligula]\nThe story of how Caligula supposedly tried to appoint his horse Incitatus to a powerful government position is also sometimes given as evidence of his mental illness. However, Caligula is said to have frequently humiliated members of the Roman Senate, making them do things such as wearing uncomfortable clothing and running in front of his chariot. Elevating his horse to a position higher than theirs would have been another way to make the Senate members feel worthless. Eventually, though, Caligula's behavior went too far, and he was murdered. Efforts were made to erase him from history, leaving few reliable sources for modern historians to study. As a result, it may never be known whether he truly was the mad emperor.",
-                    "ja": "カリグラが馬のインキタトゥスを有力な政府の地位に任命しようとしたという話もまた、彼が精神を病んでいた証拠として挙げられることがある。しかし、カリグラが頻繁に元老院議員を辱めていたことを考えると、これは馬が議員よりも高い地位に値するという彼の示唆だったのかもしれない。彼は不快な服を着させたり、戦車の前を走らせたりして議員を辱めた。信頼できる証拠が不足していることを考えると、カリグラが本当に精神的に病んでいたのか、それとも巧みな政治的策略家だったのかを判断するのは不可能であり、歴史家に真実がわからないままにしている。ある歴史家が指摘するように、彼のようにローマ社会に権力を持っていた人物は、馬を議員に任命するには強力な人物が必要だっただろうし、それが真実であれば、彼は政治的手腕を持っていたことを示唆している。",
+                    "en": "[出典: The Friends of Eddie Coyle]\nOne aspect that distinguishes The Friends of Eddie Coyle from other crime novels is that it is written almost entirely in dialogue. Given the crime genre's reliance on carefully plotted stories that build suspense, this was a highly original approach. Important events are not described directly, instead being introduced through conversations between characters in the novel. Thus, readers are given the sense that they are secretly listening in on Eddie Coyle and his criminal associates. Even action scenes are depicted in dialogue, and where narration is necessary, Higgins writes sparingly, providing only as much information as is required for readers to follow the plot. The focus is primarily on the characters, the world they inhabit, and the codes of conduct they follow.",
+                    "ja": "エディ・コイルの友人たちを他の犯罪小説と区別する一つの側面は、ほぼ全てが対話で書かれていることである。犯罪小説ジャンルが緊張感を高める緻密なプロットに依存していることを考えると、これは非常に独創的なアプローチだった。重要な出来事は直接描写されず、代わりに小説の登場人物間の会話を通じて紹介される。したがって、読者はエディ・コイルとその犯罪仲間の会話を密かに盗み聞きしている感覚を与えられる。アクションシーンでさえ対話で描かれ、ナレーションが必要な場合もヒギンズは控えめに書き、読者がプロットを追うのに必要な最小限の情報だけを提供する。焦点は主に登場人物、彼らが住む世界、そして彼らが従う行動規範にある。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "逆接・譲歩の接続表現",
-                "subtitle": "Concessive & Contrastive Connectors",
-                "explanation": "Part 2の空所補充や長文読解で逆接・譲歩表現が重要です。Despite this, Nevertheless, However, Yet が頻出します。",
-                "sourceQuote": "Despite this / Nevertheless / However / Yet",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "be said to have pp（伝聞の完了不定詞）",
+                "subtitle": "Reported Speech with Perfect Infinitive",
+                "explanation": "S + is/was said to have + pp は「〜したと言われている」と伝聞や歴史的評価を表す。完了不定詞(to have pp)は主節の時制より前の行為を示す。歴史的テーマに頻出。",
+                "sourceQuote": "Caligula is said to have frequently humiliated members of the Roman Senate.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Despite this, the number of cameras has declined in recent years.",
-                        "ja": "これにもかかわらずカメラの数は近年減少している。",
-                        "note": "despite this = これにもかかわらず（逆接）。"
+                        "en": "Caligula is said to have frequently humiliated members of the Roman Senate, making them do things such as wearing uncomfortable clothing and running in front of his chariot.",
+                        "ja": "カリギュラはローマ元老院議員をしばしば辱めたと言われており、不快な服を着せたり自分の戦車の前を走らせたりしたとされる。",
+                        "note": "is said to have humiliated: 伝聞+完了不定詞。making them do: 結果の分詞構文+使役"
                     },
                     {
-                        "en": "Nevertheless, The Friends of Eddie Coyle is now considered one of the greatest.",
-                        "ja": "それにもかかわらずこの小説は最高の一つと考えられている。",
-                        "note": "nevertheless = それにもかかわらず（強い逆接）。"
+                        "en": "Efforts were made to erase him from history, leaving few reliable sources for modern historians to study.",
+                        "ja": "彼を歴史から抹消する努力がなされ、現代の歴史家が研究するための信頼できる資料がほとんど残らなかった。",
+                        "note": "leaving: 結果の分詞構文。「その結果〜が残らなかった」"
                     },
                     {
-                        "en": "Yet Higgins remained committed to his belief.",
-                        "ja": "しかしヒギンズは信念を貫いた。",
-                        "note": "yet = しかし（文頭で逆接。butより形式的）。"
+                        "en": "Shakespeare is said to have written 37 plays during his career.",
+                        "ja": "シェイクスピアはキャリアの中で37の戯曲を書いたと言われている。",
+                        "note": "is said to have written: 伝聞+完了不定詞の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Although Higgins's first novel was an immediate hit' の 'Although' はどのような譲歩ですか？",
-                        "a": "「ヒギンズの最初の小説は大ヒットだったが」→ 全ての読者が好んだわけではない。成功の中の例外を示す譲歩。"
+                        "q": "'is said to have frequently humiliated' の構文を分析してください。",
+                        "a": "is said(伝聞の受動態) + to have humiliated(完了不定詞)。「辱めたと言われている」。完了不定詞はis saidの時点より前の行為。"
                     },
                     {
-                        "q": "'Despite this' はどのような逆接を示しますか？",
-                        "a": "「これにもかかわらず」。前述の批判にもかかわらず、それでも影響力があったことを示す逆接。"
+                        "q": "'leaving few reliable sources' の 'leaving' はどのような分詞構文ですか?",
+                        "a": "結果の分詞構文。「歴史から抹消する努力がなされた→その結果、信頼できる資料がほとんど残らなかった」。前文の結果を示す。"
                     },
                     {
-                        "q": "'Nevertheless' はこの段落でどのような論理的役割を果たしますか？",
-                        "a": "「にもかかわらず」。批判的意見の後に、それでも作品の価値を認める立場を示す対比の接続副詞。"
+                        "q": "'would have been another way to make the Senate members feel worthless' の 'would have been' はどのような意味ですか?",
+                        "a": "仮定法過去完了の帰結。「〜だったであろう」。馬を昇格させることが元老院議員を辱める手段だったという推測・解釈。"
                     },
                     {
-                        "q": "この段落でヒギンズの作品に対する賛否両論はどのように構成されていますか？",
-                        "a": "賛: 大ヒット → 否: 文体への批判 → 逆接: それでも影響力は大きい。譲歩と逆接で議論をバランスよく展開。"
+                        "q": "カリギュラの真の姿が永遠にわからない理由は何ですか?",
+                        "a": "彼を歴史から抹消する努力がなされ、信頼できる資料がほとんど残らなかった(few reliable sources)。歴史的検証が困難。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although",
-                    "Nevertheless",
-                    "Yet"
+                    "is said to have frequently humiliated members of the Roman Senate",
+                    "leaving few reliable sources for modern historians to study"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "逆接・譲歩",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "is said to have pp",
                 "practicePassage": {
-                    "en": "[出典: The Friends of Eddie Coyle]\nAlthough Higgins's first novel was an immediate hit, not all readers liked the author's writing style, which he also used in his following books. Many complained that his later novels lacked clear plots and contained too little action. Yet Higgins remained committed to his belief that the most engaging way to tell a story is through the conversations of its characters, as this compels the reader to pay close attention to what is being said. Despite writing many novels, Higgins was never able to replicate the success of his debut work. Toward the end of his life, he became disappointed and frustrated by the lack of attention and appreciation his books received. Nevertheless, The Friends of Eddie Coyle is now considered by many to be one of the greatest crime novels ever written.",
-                    "ja": "ヒギンズの最初の小説は即座にヒットしたが、すべての読者が彼の文体を好んだわけではなかった。彼は後の作品でもこの文体を使用した。多くの読者は彼の後の小説には明確なプロットがなく、アクションが少なすぎると不満を述べた。しかしヒギンズは、物語を伝える最も魅力的な方法は登場人物の会話を通じてであるという信念を貫いた。これにより読者は語られていることに細心の注意を払わざるを得なくなるからだ。多くの小説を書いたにもかかわらず、ヒギンズはデビュー作の成功を再現することができなかった。晩年には、自分の作品が受ける注目と評価の少なさに失望し、フラストレーションを感じるようになった。それにもかかわらず、『エディ・コイルの友人たち』は現在、多くの人に史上最高の犯罪小説の一つと見なされている。",
+                    "en": "[出典: Caligula]\nThe story of how Caligula supposedly tried to appoint his horse Incitatus to a powerful government position is also sometimes given as evidence of his mental illness. However, Caligula is said to have frequently humiliated members of the Roman Senate, making them do things such as wearing uncomfortable clothing and running in front of his chariot. Elevating his horse to a position higher than theirs would have been another way to make the Senate members feel worthless. Eventually, though, Caligula's behavior went too far, and he was murdered. Efforts were made to erase him from history, leaving few reliable sources for modern historians to study. As a result, it may never be known whether he truly was the mad emperor.",
+                    "ja": "カリギュラが自分の馬インキタトゥスを権力ある政府の地位に任命しようとしたとされる話も、彼の精神疾患の証拠として時に挙げられる。しかし、カリギュラはローマ元老院議員をしばしば辱めたと言われており、不快な服を着せたり自分の戦車の前を走らせたりしたとされる。自分の馬を彼らより高い地位に昇格させることは、元老院議員に無価値さを感じさせるもう一つの方法だったであろう。しかし最終的にカリギュラの行動は度を越し、彼は殺害された。彼を歴史から抹消する努力がなされ、現代の歴史家が研究するための信頼できる資料がほとんど残らなかった。その結果、彼が本当に狂気の皇帝だったかどうかは永遠にわからないかもしれない。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "仮定法と推量表現",
-                "subtitle": "Subjunctive & Speculative Expressions",
-                "explanation": "本試験では仮定法過去と推量のmay/might/could が多用されています。カリグラの行動の真の意図を推測する文脈で特に重要です。",
-                "sourceQuote": "his actions may have been / Caligula may have made the claim / it may never be known",
-                "sourceLocation": "Part 3A 全体",
+                "title": "Despite + -ing / Despite this（譲歩の逆接）",
+                "subtitle": "Concession with Despite",
+                "explanation": "Despite + -ing は「〜にもかかわらず」。Despite this は前文の内容全体を受けて「それにもかかわらず」と逆接を示す。Nevertheless も同様の逆接DM。議論の反転に使われる。",
+                "sourceQuote": "Despite writing many novels, Higgins was never able to replicate the success of his debut work.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "His actions may have been a deliberate part of a political strategy.",
-                        "ja": "彼の行動は政治戦略の意図的な一部だった可能性がある。",
-                        "note": "may have been = ～だった可能性がある（過去の推量）。"
+                        "en": "Despite writing many novels, Higgins was never able to replicate the success of his debut work.",
+                        "ja": "多くの小説を書いたにもかかわらず、ヒギンズはデビュー作の成功を再現することはできなかった。",
+                        "note": "Despite + -ing: 「書いたにもかかわらず」譲歩。never able to: 完全な不可能"
                     },
                     {
-                        "en": "He promised he would improve it if he were elected.",
-                        "ja": "選挙されれば改善すると約束した。",
-                        "note": "if he were elected = 仮定法過去（現実に反する仮定）。"
+                        "en": "Nevertheless, The Friends of Eddie Coyle is now considered by many to be one of the greatest crime novels ever written.",
+                        "ja": "それにもかかわらず、エディ・コイルの友人たちは今や多くの人に史上最も偉大な犯罪小説の一つと見なされている。",
+                        "note": "Nevertheless: 逆接DM。is considered to be: 受動態+不定詞=「〜と見なされている」"
                     },
                     {
-                        "en": "It may never be known whether he truly was the mad emperor.",
-                        "ja": "彼が本当に狂った皇帝だったかは永遠に分からないかもしれない。",
-                        "note": "may never be known = 永遠に分からないかもしれない（否定の推量）。"
+                        "en": "Despite the difficulties, they managed to complete the project.",
+                        "ja": "困難にもかかわらず、彼らはプロジェクトを完了させた。",
+                        "note": "Despite + 名詞: 譲歩の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'designed to protect those inside vehicles' はどのような受動態＋不定詞の構造ですか？",
-                        "a": "「車内の人を守るように設計された」。designed to = 〜するよう設計された。安全装置の目的を示す。"
+                        "q": "'Despite writing many novels' と 'Nevertheless' の使い分けを説明してください。",
+                        "a": "Despite + -ing: 動名詞を伴い具体的行為(多くの小説を書いた)への譲歩。Nevertheless: 前文全体(晩年の失望)の内容を受けて逆接。前者は句、後者は文全体を受ける。"
                     },
                     {
-                        "q": "'Despite this' の 'this' は何を指しますか？",
-                        "a": "前述の安全対策（カメラによる違反検出など）の存在。対策があるにもかかわらず、まだ問題があることを示す。"
+                        "q": "'Although Higgins's first novel was an immediate hit, not all readers liked' の 'not all' はどのような否定ですか?",
+                        "a": "部分否定。「全ての読者が好んだわけではない」。全否定(no readers liked)ではなく、一部の読者は好まなかったという意味。"
                     },
                     {
-                        "q": "'can easily be fixed' はどのような楽観的な見方を示しますか？",
-                        "a": "「簡単に修正できる」。問題は解決可能であるという前向きな評価。技術的な解決策の容易さを強調。"
+                        "q": "ヒギンズが対話スタイルにこだわった理由は何ですか?",
+                        "a": "登場人物の会話を通じて物語を語ることが最も魅力的で、読者に語られている内容に細心の注意を払うことを強いる(compels the reader to pay close attention)と信じていたから。"
                     },
                     {
-                        "q": "この段落で述べられている交通安全の改善策は何ですか？",
-                        "a": "交差点のカメラによる信号無視の検出。車内の安全装置の改善。技術的に修正可能な問題への対処。"
+                        "q": "'is now considered by many to be one of the greatest' の構文を分析してください。",
+                        "a": "is considered(受動態) + by many(動作主) + to be(不定詞) + one of the greatest(補語)。「多くの人に〜と見なされている」。consider+O+to be Cの受動形。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Despite this"
+                    "Despite writing many novels, Higgins was never able to replicate the success",
+                    "Nevertheless, The Friends of Eddie Coyle is now considered"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "仮定・推量",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "Despite / Nevertheless",
                 "practicePassage": {
-                    "en": "[出典: Government Policy and Road Safety]\nOne measure for improving road safety is the use of cameras at traffic signals to detect drivers who fail to stop for red lights. Many such cameras were installed in the 1990s and have been shown to save lives. Despite this, the number of such cameras has declined in recent years. One reason for this is that there is often public opposition to them due to privacy concerns.",
-                    "ja": "道路安全を向上させるための一つの対策は、赤信号で停止しないドライバーを検出するために信号にカメラを設置することである。1990年代に多くのカメラが設置され、命を救うことが示されてきた。にもかかわらず、そのようなカメラの数は近年減少している。この理由の一つは、プライバシーへの懸念からカメラに対する市民の反対がしばしばあることだ。",
+                    "en": "[出典: The Friends of Eddie Coyle]\nAlthough Higgins's first novel was an immediate hit, not all readers liked the author's writing style, which he also used in his following books. Many complained that his later novels lacked clear plots and contained too little action. Yet Higgins remained committed to his belief that the most engaging way to tell a story is through the conversations of its characters, as this compels the reader to pay close attention to what is being said. Despite writing many novels, Higgins was never able to replicate the success of his debut work. Toward the end of his life, he became disappointed and frustrated by the lack of attention and appreciation his books received. Nevertheless, The Friends of Eddie Coyle is now considered by many to be one of the greatest crime novels ever written.",
+                    "ja": "ヒギンズのデビュー作はすぐにヒットしたが、著者の文体を全ての読者が好んだわけではなかった。その後の著作にも同じスタイルを使用した。多くの読者は彼の後期小説には明確なプロットが欠け、アクションが少なすぎると不満を述べた。しかしヒギンズは、物語を語る最も魅力的な方法は登場人物の会話を通じてであるという信念に忠実であり続けた。これは読者に語られていることに細心の注意を払うことを強いるからである。多くの小説を書いたにもかかわらず、ヒギンズはデビュー作の成功を再現することはできなかった。晩年、彼は自分の著作が受ける注目と評価の少なさに失望し不満を感じるようになった。それにもかかわらず、エディ・コイルの友人たちは今や多くの人に史上最も偉大な犯罪小説の一つと見なされている。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "無生物主語と因果関係の表現",
-                "subtitle": "Inanimate Subjects & Causative Patterns",
-                "explanation": "英語では物事・状況・出来事を主語にして因果関係を表す構文が多用されます。lead to, result in, cause, prevent 等のパターンを理解しましょう。",
-                "sourceQuote": "advances in medical knowledge had led Europeans to stop / an incorrect translation resulted in the mistaken belief",
-                "sourceLocation": "Part 3C 全体",
+                "title": "result in + 同格 that（結果+誤解の内容）",
+                "subtitle": "Result In with Appositional That-Clause",
+                "explanation": "result in + 名詞 は「〜という結果をもたらす」。名詞の後に同格のthat節が続き、結果の具体的内容を説明する。歴史的誤解や通説の形成過程を述べる際に使われる。",
+                "sourceQuote": "An incorrect translation of Arabic texts resulted in the mistaken belief that the bitumen used to treat mummies actually entered their bodies.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "Advances in medical knowledge had led Europeans to stop using mummy-based medicines.",
-                        "ja": "医学知識の進歩がミイラ系の薬の使用をやめさせた。",
-                        "note": "lead A to do = Aに～させる（無生物主語）。"
+                        "en": "An incorrect translation of Arabic texts resulted in the mistaken belief that the bitumen used to treat mummies actually entered their bodies.",
+                        "ja": "アラビア語テキストの誤訳が、ミイラの処理に使われたビチューメンが実際に体内に入ったという誤った信念をもたらした。",
+                        "note": "resulted in(結果) + the mistaken belief(名詞) + that...(同格節=信念の内容)"
                     },
                     {
-                        "en": "An incorrect translation resulted in the mistaken belief.",
-                        "ja": "誤訳が誤った信念をもたらした。",
-                        "note": "result in = ～という結果になる。"
+                        "en": "While ancient Egyptians did sometimes preserve mummies by coating them with bitumen, this method had not been used on many of the mummies that were taken to Europe.",
+                        "ja": "古代エジプト人はビチューメンでコーティングしてミイラを保存することも確かにあったが、この方法はヨーロッパに持ち込まれた多くのミイラには使われていなかった。",
+                        "note": "While...did sometimes: 譲歩のwhile+強調のdid。事実を認めつつ反論。"
                     },
                     {
-                        "en": "This illness caused him to go insane.",
-                        "ja": "この病気が彼を狂わせた。",
-                        "note": "cause A to do = Aに～させる（使役）。"
+                        "en": "The error resulted in a significant delay to the project.",
+                        "ja": "その誤りはプロジェクトの大幅な遅延をもたらした。",
+                        "note": "resulted in + 名詞: 結果を表す基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'resulted in a thriving trade in mummies' の 'resulted in' はどのような因果関係ですか？",
-                        "a": "「ミイラの活発な取引をもたらした」。原因（ミイラの需要）→ 結果（ミイラ取引の繁栄）。無生物主語の因果表現。"
+                        "q": "'resulted in the mistaken belief that...' の構文を分析してください。",
+                        "a": "resulted in(句動詞=もたらした) + the mistaken belief(名詞=結果) + that...(同格のthat節=信念の内容)。「〜という誤った信念をもたらした」。"
                     },
                     {
-                        "q": "'which led to a huge demand' の 'which' は何を先行詞としますか？",
-                        "a": "前述の事象全体を先行詞とする関係代名詞の非制限用法。その結果として巨大な需要が生まれたという因果連鎖。"
+                        "q": "'While ancient Egyptians did sometimes preserve' の 'did' はなぜ使われていますか?",
+                        "a": "強調のdid。「確かに〜することもあった」。While(譲歩)と組み合わせ、事実を認めた上で反論する。did + 原形動詞(preserve)で動詞を強調。"
                     },
                     {
-                        "q": "'became so popular' の 'so...that' 構文は何を強調していますか？",
-                        "a": "ミイラの人気が非常に高くなり、特定の結果（大規模な取引の発生）をもたらしたことを強調。"
+                        "q": "ミイラが薬として使われた理由は何ですか?",
+                        "a": "人々がミイラの黒い色をビチューメン(病気治療に使われた物質)で処理されたためだと思い込んだから。実際は多くのミイラはビチューメンで処理されていなかった。"
                     },
                     {
-                        "q": "古代エジプトのミイラがヨーロッパでどのように利用されたか要約してください。",
-                        "a": "薬として摂取・使用。ミイラには治癒力があると信じられ、ヨーロッパで大きな需要と取引が生まれた。"
+                        "q": "この段落で述べられている2つの誤解を答えてください。",
+                        "a": "①ミイラの黒色がビチューメン処理のためだという誤解 ②アラビア語テキストの誤訳による、ビチューメンがミイラの体内に入ったという信念。"
                     }
                 ],
                 "highlightPatterns": [
-                    "resulted in",
-                    "ancient Egyptians"
+                    "resulted in the mistaken belief that the bitumen",
+                    "while ancient Egyptians did sometimes preserve mummies by coating them with bitumen"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "無生物主語",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "resulted in / while...did",
                 "practicePassage": {
                     "en": "[出典: Mummy Brown]\nThousands of years ago, ancient Egyptians began practicing mummification — the process of drying out the bodies of the dead, treating them with various substances, and wrapping them to preserve them. It was believed this helped the dead person's spirit enter the afterlife. Beginning in the twelfth century, however, many ancient mummies met a strange fate, as a market arose in Europe for medicines made using parts of mummies. People assumed the mummies' black color was because they had been treated with bitumen — a black, petroleum-based substance that occurs naturally in the Middle East and was used by ancient societies to treat illnesses. However, while ancient Egyptians did sometimes preserve mummies by coating them with bitumen, this method had not been used on many of the mummies that were taken to Europe. Furthermore, an incorrect translation of Arabic texts resulted in the mistaken belief that the bitumen used to treat mummies actually entered their bodies.",
-                    "ja": "数千年前、古代エジプト人はミイラ化を始めた。これは死者の遺体を乾燥させ、さまざまな物質で処理し、保存するために包む過程である。これにより死者の魂が来世に入ることができると信じられていた。しかし12世紀以降、ミイラの部品を使った薬の市場がヨーロッパで生まれ、多くの古代のミイラは奇妙な運命をたどった。ミイラの黒い色はビチューメン（中東で天然に産出する黒い石油系物質で、古代社会で病気の治療に使われていた）で処理されたためだと人々は思い込んでいた。しかし古代エジプト人がビチューメンでミイラを保存することもあったものの、ヨーロッパに持ち込まれた多くのミイラにはこの方法は使われていなかった。さらに、アラビア語の文献の誤訳により、ミイラの処理に使われたビチューメンが実際にミイラの体内に入り込んだという誤った信念が生まれた。",
+                    "ja": "何千年も前、古代エジプト人はミイラ化の実践を始めた。これは死者の遺体を乾燥させ、様々な物質で処理し、包んで保存するプロセスである。これにより死者の魂が来世に入ることができると信じられていた。しかし12世紀以降、多くの古代ミイラは奇妙な運命をたどった。ミイラの部位を使った薬のヨーロッパでの市場が生まれたのだ。人々はミイラの黒い色がビチューメン（中東で自然に産出する黒い石油系物質で、古代社会が病気の治療に使用した）で処理されたためだと思い込んでいた。しかし、古代エジプト人はビチューメンでコーティングしてミイラを保存することも確かにあったが、この方法はヨーロッパに持ち込まれた多くのミイラには使われていなかった。さらに、アラビア語テキストの誤訳が、ミイラの処理に使われたビチューメンが実際に体内に入ったという誤った信念をもたらした。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

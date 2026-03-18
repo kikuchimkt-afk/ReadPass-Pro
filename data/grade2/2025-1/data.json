@@ -1880,223 +1880,216 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "関係詞の多様な用法",
-                "subtitle": "Relative Clauses: which, that, where, who",
-                "explanation": "関係詞は先行詞を修飾する節を導きます。whichは物事、whoは人、whereは場所を先行詞とします。特に非制限用法（, which）は補足情報を加える働きがあり、英検長文で頻出です。",
-                "sourceQuote": "Part 2A: \"...animals also communicate in different ways\"\nPart 2B: \"The name Ifugao comes from ipugo, which means 'from the hill'\"\nPart 3A: \"the lunchtime event where students introduced books to each other\"\nPart 3B: \"tea bags, which are usually thrown away after one use\"",
-                "sourceLocation": "Part 2A/2B, Part 3A/3B",
-                "examples": [
-                    {
-                        "en": "The name Ifugao comes from ipugo, which means 'from the hill' in the local language.",
-                        "ja": "「イフガオ」という名前は、現地の言語で「丘から」を意味するイプゴに由来する。",
-                        "note": "非制限用法: , which は先行詞 ipugo に補足説明を加えている"
-                    },
-                    {
-                        "en": "I especially liked the lunchtime event where students introduced books to each other.",
-                        "ja": "特に、生徒同士が本を紹介し合うランチタイムのイベントが気に入りました。",
-                        "note": "where は場所を表す先行詞 event を修飾"
-                    },
-                    {
-                        "en": "These efforts aim to make tea bags, which are usually thrown away after one use, more environmentally friendly.",
-                        "ja": "これらの努力は、通常1回使用で捨てられるティーバッグをより環境に優しいものにすることを目指している。",
-                        "note": "非制限用法: , which are... は挿入的に補足情報を追加"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Ifugao Rice Fields]\nIfugao people live on Luzon Island in the Philippines. The name Ifugao comes from ipugo, which means \"from the hill\" in the local language. As its name suggests, they live on a steep mountain slope. This means that it is difficult for them to use large areas of land for growing rice and other crops. Due to poor farming conditions, they have practiced creative ways. Ifugao people made rice fields on the slopes of the mountain, which looked like stairs.",
-                    "ja": "イフガオの人々はフィリピンのルソン島に住んでいる。「イフガオ」という名前は「丘から」を意味する「イプーゴ」に由来する。その名前が示すように、彼らは険しい山の斜面に住んでおり、このことは言語を使ってコミュニケーションを取ることが難しいことを意味している。そのため、彼らは独自の農業方法と社会システムを発展させてきた。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'which means \"from the hill\"' の関係代名詞を説明してください。",
-                        "a": "非制限用法。先行詞 ipugo を補足説明。「それは『丘から』を意味する」。追加情報を提供。"
-                    },
-                    {
-                        "q": "'This means that it is difficult for them' の 'This' は何を指しますか？",
-                        "a": "険しい山の斜面に住んでいるという前文の事実。This = 前文全体を受ける指示代名詞。"
-                    },
-                    {
-                        "q": "'As its name suggests' はどのような導入ですか？",
-                        "a": "「その名前が示すように」。名前の意味（丘から）→実際に山の斜面に住む。名前と現実の一致を示す。"
-                    },
-                    {
-                        "q": "イフガオの人々の生活環境を要約してください。",
-                        "a": "フィリピン・ルソン島の険しい山の斜面に居住。名前は「丘から」に由来。地形が言語コミュニケーションを困難に。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "which means",
-                    "Ifugao comes from",
-                    "This means that"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "関係詞"
-            },
-            {
-                "id": "fp2",
-                "title": "倒置構文（Not only do they...）",
-                "subtitle": "Inversion for Emphasis",
-                "explanation": "否定語や特定の副詞を文頭に置くと、主語と動詞が倒置されます。Not only do/does/did... は「～するだけでなく」という意味で、強調の効果があります。英検では長文の中で論理的な展開を示す際に使われます。",
-                "sourceQuote": "Part 2A: \"Not only do they express their own emotions, but they also feel the emotions of others.\"\nPart 3B: \"His invention had the advantage of making it easier to make a cup of tea, as well as making the process of cleaning the pot easier.\"",
-                "sourceLocation": "Part 2A 第2段落, Part 3B 第1段落",
+                "title": "倒置の Not only do they...but they also",
+                "subtitle": "Inversion with Not Only...But Also",
+                "explanation": "Not only + 助動詞 + S + V, but S also V は「〜するだけでなく…もする」。文頭にNot onlyを置くと語順が倒置され、強調と文体の格調が加わる。",
+                "sourceQuote": "Not only do they express their own emotions, but they also feel the emotions of others.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
                         "en": "Not only do they express their own emotions, but they also feel the emotions of others.",
-                        "ja": "自分の感情を表現するだけでなく、他のゾウの感情も感じ取る。",
-                        "note": "Not only + 倒置(do they) + but also の構文。否定語句が文頭→助動詞+主語の倒置"
+                        "ja": "彼ら（ゾウ）は自分の感情を表現するだけでなく、他者の感情も感じ取る。",
+                        "note": "Not only + do(助動詞) + they + express: 倒置構文。but also で追加情報。"
                     },
                     {
-                        "en": "Never has the world seen such rapid technological change.",
-                        "ja": "世界はこれほど急速な技術変化を見たことがない。",
-                        "note": "Never + has + 主語 の倒置。否定の副詞が文頭に来ると倒置が起こる"
+                        "en": "By contrast, when they show that they accept the others' authority, they pull their ears back and put their heads down.",
+                        "ja": "対照的に、他者の権威を受け入れることを示す時は、耳を後ろに引き、頭を下げる。",
+                        "note": "By contrast: 前述の行動との対比。耳を広げる↔耳を後ろに引く。"
                     },
                     {
-                        "en": "Only when we work together can we solve this problem.",
-                        "ja": "一緒に取り組んで初めてこの問題を解決できる。",
-                        "note": "Only when 節が文頭 → 主節で can + 主語 の倒置"
+                        "en": "Not only did she win the prize, but she also broke the record.",
+                        "ja": "彼女は賞を取っただけでなく、記録も破った。",
+                        "note": "Not only + did + S + V: 過去形の倒置パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Communication of Elephants]\nElephants are big animals, but they try to make themselves look even bigger when they face a threat. They do so by spreading their ears and raising their heads. By contrast, when they show that they accept the others' authority, they pull their ears back and put their heads down. Not only do they express their own emotions, but they also feel the emotions of others. For instance, if another elephant is upset, they will gently touch its nose to calm it down.",
-                    "ja": "ゾウは大きな動物だが、脅かされたときにはさらに大きく見せようとする。彼らは自分自身の感情を表現するだけでなく、他のゾウの感情も理解する。例えば、仲間のゾウが苦しんでいるとき、近づいて鼻で触れて慰めることがある。このような行動は、ゾウが高度な感情知性を持っていることを示している。ゾウのコミュニケーション能力は、人間が考える以上に複雑で洗練されている。",
+                    "ja": "ゾウは大きな動物だが、脅威に直面するとさらに大きく見せようとする。耳を広げ、頭を上げることでそうする。対照的に、他者の権威を受け入れることを示す時は、耳を後ろに引き、頭を下げる。彼らは自分の感情を表現するだけでなく、他者の感情も感じ取る。例えば、別のゾウが動揺していれば、落ち着かせるために優しく鼻に触れる。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'Not only do they express ... but they also feel' はなぜ倒置していますか？",
+                        "a": "Not onlyが文頭に来ると語順が倒置される（助動詞do + 主語they + 動詞express）。強調と文体の格調を高める効果がある。"
+                    },
+                    {
+                        "q": "ゾウが脅威に直面した時と権威を受け入れる時の行動の違いを説明してください。",
+                        "a": "脅威時: 耳を広げ頭を上げる(spreading ears, raising heads)→大きく見せる。権威受入時: 耳を後ろに引き頭を下げる(pull ears back, put heads down)→小さく見せる。"
+                    },
+                    {
+                        "q": "'if another elephant is upset, they will gently touch its nose to calm it down' から分かるゾウの能力は何ですか？",
+                        "a": "共感能力。他のゾウの感情を感じ取り(feel the emotions of others)、優しい身体接触で落ち着かせる。高度な社会的知性。"
+                    },
+                    {
+                        "q": "'By contrast' の役割を説明してください。",
+                        "a": "対比のディスコースマーカー。前文の「脅威時に大きく見せる」と後文の「権威を受け入れる時に小さく見せる」の対照的な行動を明示。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Not only do they express their own emotions, but they also feel the emotions of others"
+                ],
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Not only倒置"
+            },
+            {
+                "id": "fp2",
+                "title": "形式主語 it is difficult/means for A to V",
+                "subtitle": "Introductory It with Evaluation",
+                "explanation": "it is difficult/important for A to V は「AがVするのは困難/重要だ」。This means that は「これは〜を意味する」。長文で状況を客観的に評価する重要構文。",
+                "sourceQuote": "This means that it is difficult for them to use large areas of land for growing rice.",
+                "sourceLocation": "Part 2B",
+                "examples": [
+                    {
+                        "en": "This means that it is difficult for them to use large areas of land for growing rice and other crops.",
+                        "ja": "これは彼らが稲作や他の作物のために広い土地を利用するのが困難であることを意味する。",
+                        "note": "This means that + it is difficult + for them + to use: 形式主語構文が入れ子"
+                    },
+                    {
+                        "en": "The name Ifugao comes from ipugo, which means \"from the hill\" in the local language.",
+                        "ja": "イフガオという名前は、現地語で「丘から」を意味するipugoに由来する。",
+                        "note": "which means: 非制限用法の関係代名詞。語源の説明。"
+                    },
+                    {
+                        "en": "It is important for students to read widely.",
+                        "ja": "学生が幅広く読書することは重要だ。",
+                        "note": "It is + 形容詞 + for A + to V: 基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Ifugao Rice Fields]\nIfugao people live on Luzon Island in the Philippines. The name Ifugao comes from ipugo, which means \"from the hill\" in the local language. As its name suggests, they live on a steep mountain slope. This means that it is difficult for them to use large areas of land for growing rice and other crops. Due to poor farming conditions, they have practiced creative ways. Ifugao people made rice fields on the slopes of the mountain, which looked like stairs.",
+                    "ja": "イフガオの人々はフィリピンのルソン島に住んでいる。イフガオという名前は、現地語で「丘から」を意味するipugoに由来する。その名が示すように、彼らは急な山の斜面に住んでいる。これは彼らが稲作や他の作物のために広い土地を利用するのが困難であることを意味する。農業条件が悪いため、彼らは創造的な方法を実践してきた。イフガオの人々は山の斜面に階段のように見える田を作った。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Not only do they express their own emotions, but they also...' の倒置構文を説明してください。",
-                        "a": "Not only + 倒置（do they）+ but (they) also。否定語が文頭→助動詞+主語の倒置。「表現するだけでなく〜も」。"
+                        "q": "'This means that it is difficult for them to use large areas of land' の 'This' は何を指しますか？",
+                        "a": "急な山の斜面に住んでいること(they live on a steep mountain slope)。急斜面であるため広い土地が使えないという因果関係。"
                     },
                     {
-                        "q": "'make themselves look even bigger' の使役動詞を説明してください。",
-                        "a": "make + 目的語 + 動詞原形。「自分をさらに大きく見せる」。even = 比較級の強調（さらに）。"
+                        "q": "'which means \"from the hill\"' の 'which' は何を指しますか？",
+                        "a": "ipugo(先行詞)。非制限用法の関係代名詞で、ipugoの意味を補足説明している。"
                     },
                     {
-                        "q": "'when they feel threatened' の受身の感情表現を説明してください。",
-                        "a": "「脅かされていると感じるとき」。feel + 過去分詞。感情を受動的に感じる表現。"
+                        "q": "イフガオの人々が創造的な方法を実践した理由は何ですか？",
+                        "a": "農業条件が悪いため(Due to poor farming conditions)。急斜面で広い土地が使えないので、斜面に階段状の田を作った。"
                     },
                     {
-                        "q": "ゾウのコミュニケーション能力を要約してください。",
-                        "a": "自分の感情表現+他のゾウの感情理解。体を大きく見せる威嚇。仲間を鼻で慰める。高度な感情知性。"
+                        "q": "'As its name suggests' はどのような意味ですか？",
+                        "a": "「その名前が示すように」。イフガオ(=丘から)という名前が、彼らが山に住んでいることを示唆している。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Not only do they",
-                    "but they also",
-                    "look even bigger"
+                    "it is difficult for them to use large areas of land for growing rice"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "倒置・強調"
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "it is difficult for...to V"
             },
             {
                 "id": "fp3",
-                "title": "接続詞と論理展開（Although / Since / While）",
-                "subtitle": "Conjunctions for Logical Flow",
-                "explanation": "従属接続詞は文と文の論理関係を示します。although（～にもかかわらず）、since（～なので）、while（～する一方で）など、英検長文では段落の展開を理解する鍵となります。",
-                "sourceQuote": "Part 2A: \"Although it may seem that humans are the best...\"\nPart 2B: \"Since machines cannot be used in the stair-like rice fields...\"\nPart 3B: \"...while they were still in the bag\" / \"...while keeping tea leaves inside\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
+                "title": "動名詞主語（Using... was considered）",
+                "subtitle": "Gerund as Subject with Passive",
+                "explanation": "動名詞(-ing)が文の主語になり「〜することは…である」を表す。was considered rude は「失礼と考えられた」で受動態。文化的評価や態度の変化を述べる際に使われる。",
+                "sourceQuote": "Using tea bags was considered rude in their culture among some people.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Although it may seem that humans are the best at communication since they use languages, animals also communicate in different ways.",
-                        "ja": "人間は言語を使うため、コミュニケーションが最も得意であるように見えるかもしれないが、動物もさまざまな方法でコミュニケーションをとる。",
-                        "note": "although（逆接）と since（理由）が1文に同居。複雑な論理構造"
+                        "en": "Using tea bags was considered rude in their culture among some people.",
+                        "ja": "ティーバッグを使うことは一部の人々の間では彼らの文化において失礼だと考えられていた。",
+                        "note": "Using tea bags(動名詞主語) + was considered(受動態) + rude(C): 文化的評価"
                     },
                     {
-                        "en": "Since machines cannot be used in the stair-like rice fields, planting and harvesting are annual events.",
-                        "ja": "階段状の田んぼでは機械が使えないため、田植えと収穫は年中行事となっている。",
-                        "note": "since は because と同様に理由を表す従属接続詞"
+                        "en": "This attitude began to change after World War II when people's lives became busier.",
+                        "ja": "この態度は第二次世界大戦後、人々の生活が忙しくなると変わり始めた。",
+                        "note": "began to change: 態度の変化の開始。when: 時の関係副詞。"
                     },
                     {
-                        "en": "It was cheap and allowed water to pass through while keeping tea leaves inside.",
-                        "ja": "安価で、茶葉を中に保持しながら水を通すことができた。",
-                        "note": "while + 現在分詞: 「～しながら」同時進行を表す"
+                        "en": "Reading books before bed is considered a good habit.",
+                        "ja": "寝る前に本を読むことは良い習慣だと考えられている。",
+                        "note": "Reading books(動名詞主語) + is considered: 一般的評価"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: History of Tea Bags]\nTea bag materials have changed over time. Sullivan's first silk bags were replaced with cotton after his customers complained that silk bags were not the best for making tea. As the popularity of tea bags grew, it became impossible for tea bags made by hand to meet the demand. That was why filter paper was introduced. It was cheap and allowed water to pass through while keeping tea leaves inside. It was ideal for large-volume production. Today, in addition to filter paper, nylon tea bags are also common in the market.",
-                    "ja": "ティーバッグの素材は時代とともに変化してきた。サリバンの最初の絹の袋は、お茶を淹れるには最適ではなかった。ティーバッグの人気が高まるにつれ、手作りでは生産が追いつかなくなった。そのため、流し込みやすく茶葉を中に保ちながらも味を十分に引き出せるフィルターペーパーが導入された。この改良により、ティーバッグはより実用的で大量生産可能な製品となった。",
+                    "en": "[出典: History of Tea Bags]\nThe spread of tea bags was first observed in the United States and Canada. It took a while, however, for them to gain popularity in Britain. Using tea bags was considered rude in their culture among some people. This attitude began to change after World War II when people's lives became busier. In busy lifestyles, their traditional method of using tea leaves that were not in bags became difficult. Tea bags were suitable for the modern, fast-paced life.",
+                    "ja": "ティーバッグの普及はアメリカとカナダで最初に観察された。しかし、イギリスで人気を得るにはしばらく時間がかかった。ティーバッグを使うことは一部の人々の間では彼らの文化において失礼だと考えられていた。この態度は第二次世界大戦後、人々の生活が忙しくなると変わり始めた。忙しい生活様式の中で、袋に入っていない茶葉を使う伝統的な方法は困難になった。ティーバッグは現代の忙しい生活に最適だった。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'As the popularity of tea bags grew' の 'As' はどのような接続詞ですか？",
-                        "a": "「〜につれて」。時間の経過と変化の同時進行。人気上昇→手作り生産の限界という因果を示す。"
+                        "q": "'Using tea bags was considered rude' の構文を分析してください。",
+                        "a": "Using tea bags(動名詞句=主語) + was considered(受動態=V) + rude(補語=C)。「ティーバッグを使うことは失礼と見なされた」。"
                     },
                     {
-                        "q": "'silk bags were not the best for making tea' はなぜですか？",
-                        "a": "絹は目が細かすぎて茶葉の味が十分に出なかった。素材の問題が改良の動機になった。"
+                        "q": "ティーバッグがイギリスで普及するのに時間がかかった主な理由は何ですか？",
+                        "a": "文化的に失礼だと考えられていたから(was considered rude in their culture)。伝統的な茶葉の入れ方を重んじる文化的態度。"
                     },
                     {
-                        "q": "'while keeping tea leaves inside' の 'while' はどのような意味ですか？",
-                        "a": "「茶葉を中に保ちながら」。同時動作。フィルターペーパーの機能=茶葉を保持＋味を抽出。"
+                        "q": "この態度が変化したきっかけは何ですか？",
+                        "a": "第二次世界大戦後(after World War II)に人々の生活が忙しくなったこと。忙しい生活の中で伝統的方法が困難になり、便利なティーバッグが受け入れられた。"
                     },
                     {
-                        "q": "ティーバッグ素材の進化を要約してください。",
-                        "a": "絹（味が出にくい）→フィルターペーパー（味が出やすく大量生産可能）。人気上昇に対応した改良。"
+                        "q": "'their traditional method of using tea leaves that were not in bags became difficult' の 'that were not in bags' は何を修飾していますか？",
+                        "a": "tea leaves を修飾する関係代名詞。「袋に入っていない茶葉」。ティーバッグではなく茶葉をそのまま使う方法を指す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "As the popularity",
-                    "filter paper",
-                    "silk bags were not"
+                    "Using tea bags was considered rude in their culture"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "接続詞・論理展開"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "動名詞主語+受動態"
             },
             {
                 "id": "fp4",
-                "title": "比較表現（比較級・as...as・最上級）",
-                "subtitle": "Comparative and Superlative Structures",
-                "explanation": "比較表現は2つ以上のものを比べるときに使います。比較級(more/~er + than)、同等比較(as ~ as)、最上級(the most/~est)に加え、no better、even bigger などの強調表現も英検で頻出です。",
-                "sourceQuote": "Part 1(11): \"it's no better than the first version\"\nPart 2A: \"they try to make themselves look even bigger\"\nPart 2A: \"lower sounds can reach farther than higher sounds\"\nPart 3B: \"more space for tea leaves to move freely compared to square tea bags\"",
-                "sourceLocation": "Part 1, Part 2A, Part 3B",
+                "title": "Instead of -ing + 理由の Since",
+                "subtitle": "Alternative and Causal Conjunction",
+                "explanation": "Instead of + -ing は「〜する代わりに」と代替手段を表す。Since + S + V は「〜なので」と既知の理由を述べる。長文で方法や理由を説明する際の重要表現。",
+                "sourceQuote": "Instead of bringing water for farming from the foot of the mountain, they use water that flows naturally from the top.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "They try to make themselves look even bigger when they face a threat.",
-                        "ja": "脅威に直面するとさらに大きく見せようとする。",
-                        "note": "even + 比較級 で「さらに～」と強調。even bigger = もっと大きく"
+                        "en": "Instead of bringing water for farming from the foot of the mountain, they use water that flows naturally from the top of the mountain.",
+                        "ja": "山の麓から農業用水を持ってくる代わりに、山の頂上から自然に流れる水を利用する。",
+                        "note": "Instead of bringing(代替) + they use(実際の方法): 対比。that flows は関係代名詞。"
                     },
                     {
-                        "en": "Lower sounds can reach farther than higher sounds.",
-                        "ja": "低い音は高い音よりも遠くまで届くことができる。",
-                        "note": "比較級 + than の基本構文。farther = より遠くに"
+                        "en": "Since machines cannot be used in the stair-like rice fields, planting and harvesting are annual events in which the community helps each other.",
+                        "ja": "階段状の田では機械が使えないため、植え付けと収穫はコミュニティが互いに助け合う年中行事である。",
+                        "note": "Since(理由) + 受動態(cannot be used) → 結果(community helps each other)"
                     },
                     {
-                        "en": "The shape offers more space for tea leaves to move freely compared to square tea bags.",
-                        "ja": "その形は、四角いティーバッグに比べて茶葉が自由に動くためのより多くの空間を提供する。",
-                        "note": "more + 名詞 + compared to ～: 「～と比較してより多くの」"
+                        "en": "Instead of driving, she chose to walk to work.",
+                        "ja": "車を運転する代わりに、彼女は歩いて通勤することを選んだ。",
+                        "note": "Instead of + -ing: 代替手段の基本形"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: History of Tea Bags]\nTea bags continue to improve. In the late 1990s, pyramid-shaped tea bags appeared on the market. The shape offers more space for tea leaves to move freely compared to square tea bags. At the same time, there is a movement to go back to using paper, cloth, or silk instead of nylons or materials that include some plastic. This goes with the global trend toward reducing plastic use. These efforts aim to make tea bags, which are usually thrown away after one use, more environmentally friendly.",
-                    "ja": "ティーバッグは今も進化し続けている。1990年代後半にはピラミッド形のティーバッグが登場した。この形状は従来の平らな袋と比較して、茶葉がより自由に動けるスペースを提供する。これにより、茶葉の風味がより十分に抽出されるようになった。通常一度使ったら捨てられるティーバッグだが、環境への配慮から再利用可能な製品も開発されている。",
+                    "en": "[出典: Ifugao Rice Fields]\nThe idea of making use of the given environment is at the center of the Ifugao people's traditions. Following this idea, the rice fields are created along the shapes of the mountains. Instead of bringing water for farming from the foot of the mountain, they use water that flows naturally from the top of the mountain. Since machines cannot be used in the stair-like rice fields, planting and harvesting are annual events in which the community helps each other. Through these events, the younger generation learns about the farming traditions in the community.",
+                    "ja": "与えられた環境を活用するという考えがイフガオの人々の伝統の中心にある。この考えに従い、田は山の形に沿って作られる。山の麓から農業用水を持ってくる代わりに、山の頂上から自然に流れる水を利用する。階段状の田では機械が使えないため、植え付けと収穫はコミュニティが互いに助け合う年中行事である。これらの行事を通じて、若い世代がコミュニティの農業伝統について学ぶ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'more space for tea leaves to move freely compared with' の比較表現を説明してください。",
-                        "a": "「従来の袋と比較して茶葉がより自由に動けるスペース」。more + 名詞 + compared with = 比較級の構文。"
+                        "q": "'Instead of bringing water from the foot' で示されている代替手段は何ですか？",
+                        "a": "麓から水を運ぶ代わりに、山頂から自然に流れる水を利用する(use water that flows naturally from the top)。地形を活かした効率的な水の利用。"
                     },
                     {
-                        "q": "'pyramid-shaped tea bags' はなぜ登場しましたか？",
-                        "a": "従来の平らな袋より茶葉の動きが良く、風味がより引き出される。形状改良による品質向上。"
+                        "q": "'Since machines cannot be used' の 'Since' はなぜ使われていますか？",
+                        "a": "既知の理由「〜なので」。階段状の田では機械が使えないことは明白な事実であり、それが共同作業の必要性につながる因果関係を示す。"
                     },
                     {
-                        "q": "'continue to improve' はどのような時制表現ですか？",
-                        "a": "「進化し続けている」。continue to + 動詞原形。過去から現在まで続く改良のプロセス。"
+                        "q": "イフガオ文化における「環境の活用」の具体例を2つ答えてください。",
+                        "a": "①山の形に沿って田を作る(rice fields are created along the shapes of the mountains) ②山頂から自然に流れる水を利用する(use water that flows naturally from the top)"
                     },
                     {
-                        "q": "ティーバッグの最新の進化を要約してください。",
-                        "a": "ピラミッド形で茶葉の動きを改善。風味の向上。環境配慮から再利用可能な製品も開発。"
+                        "q": "コミュニティの共同作業が若い世代にとって重要な理由は何ですか？",
+                        "a": "農業伝統について学ぶ機会(the younger generation learns about the farming traditions)。単なる労働ではなく、文化の継承の場。"
                     }
                 ],
                 "highlightPatterns": [
-                    "more space for tea leaves",
-                    "pyramid-shaped",
-                    "continue to improve"
+                    "Instead of bringing water for farming from the foot of the mountain",
+                    "Since machines cannot be used in the stair-like rice fields"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "比較表現"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Instead of / Since"
             },
             {
                 "id": "fp5",

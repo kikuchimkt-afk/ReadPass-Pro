@@ -2103,219 +2103,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "分詞構文と分詞の後置修飾",
-                "subtitle": "Participial Constructions & Postmodification",
-                "explanation": "本試験のパッセージでは分詞構文（現在分詞・過去分詞）が多用されています。分詞構文は付帯状況・理由・条件などを表し、英文の情報密度を高める重要な構文です。",
-                "sourceQuote": "Concerned about the effects, researchers began studying...",
-                "sourceLocation": "Part 3 全体",
+                "title": "While + used to be...are becoming（時代的変遷の対比）",
+                "subtitle": "Temporal Contrast with Used To and Present Progressive",
+                "explanation": "While + used to be considered は「以前は〜と見なされていたが」と過去の状態を提示。are becoming は「〜になりつつある」と現在の変化を対比する。時代の変遷を論じる議論文の基本構造。",
+                "sourceQuote": "While documentaries used to be considered a form of investigative journalism, there has been a noticeable shift in their subject matter.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "Concerned about declining populations, conservationists took action.",
-                        "ja": "個体数減少を懸念して保護活動家は行動を起こした。",
-                        "note": "過去分詞の分詞構文 = Because they were concerned..."
+                        "en": "While documentaries used to be considered a form of investigative journalism, there has been a noticeable shift in their subject matter.",
+                        "ja": "ドキュメンタリーは以前、調査報道の一形態と見なされていたが、その題材には顕著な変化があった。",
+                        "note": "While(対比) + used to be considered(過去の状態) + has been a shift(現在完了の変化): 時代の変遷"
                     },
                     {
-                        "en": "Animals living in urban environments face unique challenges.",
-                        "ja": "都市環境に住む動物は独自の課題に直面する。",
-                        "note": "現在分詞の後置修飾 = Animals that live in..."
+                        "en": "Documentaries, which were once devoted to informing viewers, are too frequently becoming sensationalist entertainment designed primarily to shock or excite viewers.",
+                        "ja": "かつて視聴者に情報を伝えることに専念していたドキュメンタリーは、主に視聴者を衝撃したり興奮させるためのセンセーショナルな娯楽に頻繁になりすぎている。",
+                        "note": "which were once devoted to(過去) + are becoming(現在進行形): 変質の過程を描写"
                     },
                     {
-                        "en": "Having observed the phenomenon, the scientist published her findings.",
-                        "ja": "その現象を観察した後、科学者は研究結果を発表した。",
-                        "note": "完了形の分詞構文 = After she had observed..."
+                        "en": "While the company used to focus on quality, it is now prioritizing profits.",
+                        "ja": "その会社は以前は品質に注力していたが、今は利益を優先している。",
+                        "note": "While + used to + is now: 時代的対比の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'which is known as anthropomorphism' の関係代名詞はどのような用法ですか？",
-                        "a": "非制限用法。前の内容全体を先行詞として受け、「それは擬人化として知られている」と補足説明を加える。"
+                        "q": "'used to be considered' と 'are becoming' の時制の対比を説明してください。",
+                        "a": "used to be considered: 過去の習慣的状態(以前は〜と見なされていた)。are becoming: 現在進行中の変化(〜になりつつある)。過去→現在の変質を対比。"
                     },
                     {
-                        "q": "'assigning human traits to nonhuman things' の分詞構文を説明してください。",
-                        "a": "「人間でないものに人間特性を付与する行為」。動名詞句として主語や同格の説明に使われている。"
+                        "q": "'the line between factual information and entertainment has become blurred' はどのような変化を述べていますか?",
+                        "a": "事実と娯楽の境界線が曖昧になった(blurred)。ドキュメンタリーが調査報道からセンセーショナルな娯楽に変質した本質的問題。"
                     },
                     {
-                        "q": "'living creatures' とロボットの関係はどのように述べられていますか？",
-                        "a": "人間は物体の動きを生き物の行動と関連付ける傾向があり、ロボットにも人間的な特性を感じ取ってしまう。"
+                        "q": "'which were once devoted to informing viewers' の 'once' と 'devoted to' をそれぞれ説明してください。",
+                        "a": "once: 「かつて」過去の状態を示す副詞。devoted to + -ing: 「〜に専念している」。かつては情報提供に専念していたが今は違うという変化。"
                     },
                     {
-                        "q": "擬人化が起こる理由をこの段落から説明してください。",
-                        "a": "人間は動きや行動パターンを観察すると、生きている存在の行動に関連付けようとする本能的な傾向がある。"
+                        "q": "ドキュメンタリーの社会的価値が低下した原因を2つ答えてください。",
+                        "a": "①実録犯罪など娯楽ジャンルの人気(popularity of true crime) ②事実と娯楽の境界の曖昧化(line between factual and entertainment blurred)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "known as anthropomorphism",
-                    "which is known as"
+                    "While documentaries used to be considered a form of investigative journalism",
+                    "are too frequently becoming sensationalist entertainment"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "分詞構文",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "used to be / are becoming",
                 "practicePassage": {
-                    "en": "[出典: Machine or Human?]\nThe act of giving human traits to nonhuman things, which is known as anthropomorphism, is something humans do naturally, even at a young age. It is not unusual, for example, for people of all ages to form emotional attachments to objects such as toys, cars, and homes. Even the engineers, who frequently referred to Oppy as \"she\" or thought of it as a child, were not immune to this tendency. One effect of projecting human qualities onto a nonliving object seems to be that this makes people feel protective of it and brings out concern for its well-being. NASA appears to have utilized this phenomenon to its advantage by deliberately making Oppy seem more human, designing it with eyelike camera lenses in a headlike structure that extended from its body. Prior to the Opportunity mission, well-publicized failures had weakened public confidence in NASA, and the agency's funding had been reduced. It has been suggested that giving Oppy human characteristics was an effective strategy to win over the public and perhaps even attract additional funding for NASA's mission.",
-                    "ja": "人間でないものに人間の特性を付与する行為は、擬人化として知られている。これは人間に広く見られる傾向であり、ロボットや機械だけでなく、動物、自然現象、さらには抽象的な概念にまで適用される。科学者たちは、人間が生き物ではない物体の動きや行動パターンを観察するとき、それを生きている存在の行動と関連付けようとする傾向があると説明している。NASAのエンジニアたちも例外ではなく、ローバーのオポチュニティに愛着を持ち、まるで同僚のように接するようになった。",
+                    "en": "[出典: The Documentary Boom]\nThis has led to concerns regarding the decreasing social value of documentaries. While documentaries used to be considered a form of investigative journalism, there has been a noticeable shift in their subject matter. As the popularity of genres such as true crime has increased, the line between factual information and entertainment has become blurred. Documentaries, which were once devoted to informing viewers and raising awareness of problems in society, are too frequently becoming sensationalist entertainment designed primarily to shock or excite viewers.",
+                    "ja": "これはドキュメンタリーの社会的価値の低下に対する懸念につながった。ドキュメンタリーは以前、調査報道の一形態と見なされていたが、その題材には顕著な変化があった。実録犯罪などのジャンルの人気が高まるにつれ、事実情報と娯楽の境界線が曖昧になってきた。かつて視聴者に情報を伝え社会の問題への意識を高めることに専念していたドキュメンタリーは、主に視聴者を衝撃したり興奮させるためのセンセーショナルな娯楽に頻繁になりすぎている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "関係代名詞の非制限用法",
-                "subtitle": "Non-restrictive Relative Clauses",
-                "explanation": "whichやwhoの非制限用法（カンマ付き）は追加情報を挿入する重要な文法事項です。制限用法と異なり先行詞を限定せず補足説明を加えます。",
-                "sourceQuote": "..., which suggests that ...",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "Despite + 名詞 + remain unsure why（未解明の謎）",
+                "subtitle": "Unresolved Mystery Despite Evidence",
+                "explanation": "Despite + extensive/thorough + 名詞 は「広範な〜にもかかわらず」と譲歩を示す。remain unsure why は「なぜ〜かわからないままである」。科学的な未解明の問題を提示する学術的表現。",
+                "sourceQuote": "Despite extensive observation, ethologists remain unsure why birds engage in this behavior.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "The study, which was published in 2020, revealed surprising results.",
-                        "ja": "2020年に発表されたその研究は驚くべき結果を明らかにした。",
-                        "note": "カンマ+which = 追加情報。"
+                        "en": "Despite extensive observation, ethologists remain unsure why birds engage in this behavior.",
+                        "ja": "広範な観察にもかかわらず、動物行動学者はなぜ鳥がこの行動を行うのかわからないままである。",
+                        "note": "Despite(譲歩) + extensive observation(努力) + remain unsure why(未解明): 科学的謎の提示"
                     },
                     {
-                        "en": "Dr. Smith, who led the research team, presented the findings.",
-                        "ja": "研究チームを率いたスミス博士が結果を発表した。",
-                        "note": "カンマ+who = 人物の補足説明。"
+                        "en": "Drawing conclusions about the reasons behind what animals do, however, is not always easy.",
+                        "ja": "しかし、動物の行動の背後にある理由について結論を導くことは必ずしも容易ではない。",
+                        "note": "Drawing conclusions(動名詞主語) + about the reasons behind what(間接疑問): 科学的困難さ"
                     },
                     {
-                        "en": "The policy was abandoned, which angered many citizens.",
-                        "ja": "その政策は放棄され、それが多くの市民を怒らせた。",
-                        "note": "前文全体を先行詞とするwhich。"
+                        "en": "Despite years of research, scientists remain unsure how the disease spreads.",
+                        "ja": "何年もの研究にもかかわらず、科学者はその病気がどのように広がるかわからないままである。",
+                        "note": "Despite + remain unsure + 間接疑問: 未解明パターンの基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'While the Marian reforms greatly improved the Roman army' の 'While' はどのような譲歩ですか？",
-                        "a": "「改革が軍を大幅に改善した一方で」。肯定的な面を認めつつ、否定的な結果も述べる譲歩・対比。"
+                        "q": "'Despite extensive observation...remain unsure why' の構文と論理を説明してください。",
+                        "a": "Despite(譲歩=多くの観察をしたが) + remain unsure(未解明=まだわからない) + why(間接疑問=理由)。努力にもかかわらず謎が残ることを強調。"
                     },
                     {
-                        "q": "'resulted in an unexpected consequence' はどのような因果関係ですか？",
-                        "a": "「予期せぬ結果をもたらした」。改革の意図しない副作用。resulted in = led to / brought about。"
+                        "q": "'Drawing conclusions about the reasons behind what animals do' の構文を分析してください。",
+                        "a": "Drawing conclusions(動名詞主語) + about the reasons(目的語) + behind what animals do(what間接疑問=動物が行うこと)。「動物の行動の理由について結論を導くこと」。"
                     },
                     {
-                        "q": "'rather than to the state' はどのような対比を示しますか？",
-                        "a": "「国家にではなく（指揮官に）」。忠誠の対象が国家→個人の将軍へ移った対比を強調する。"
+                        "q": "「アンティング」の2つの形態を説明してください。",
+                        "a": "①能動型: くちばしでアリを拾い羽に擦りつける ②受動型: アリの巣の上に翼を広げて座り全身をアリに這わせる。"
                     },
                     {
-                        "q": "マリウス改革の皮肉な結果は何でしたか？",
-                        "a": "軍を強化するための改革が、将軍への個人的忠誠を生み、内戦と共和国の衰退をもたらした。"
+                        "q": "'ethologists' とは何ですか?",
+                        "a": "動物行動学者。動物を自然の生息地で観察し行動パターンを研究する科学者。ethology(動物行動学)の専門家。"
                     }
                 ],
                 "highlightPatterns": [
-                    "resulted in",
-                    "While the Marian reforms",
-                    "loyalty"
+                    "Despite extensive observation, ethologists remain unsure why birds engage in this behavior"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "非制限用法",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Despite / remain unsure why",
                 "practicePassage": {
-                    "en": "[出典: The Marian Reforms]\nWhile the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic. When the army was composed mostly of wealthy citizens enlisted on an as-needed basis, it had little influence on Roman politics. Following the Marian reforms, however, legionaries in the army became highly disciplined and developed an intense loyalty to their generals. In consequence, generals found it difficult to resist the temptation to use the forces under their command to gain political influence for themselves rather than to ensure the protection and expansion of the Roman Republic. This resulted in civil wars, and eventually, Julius Caesar successfully used the army to overthrow the elected government and declare himself the Roman leader. This marked the end of the relatively democratic Roman Republic and paved the way for the creation of a dictatorship ruled by all-powerful emperors.",
-                    "ja": "マリウス改革はローマ軍を大幅に改善した一方で、予期せぬ結果ももたらした。新しい制度の下で兵士たちは国家よりも自分たちの指揮官に忠誠を誓うようになった。これは、退役後の土地や報酬が将軍の影響力に依存していたためである。この個人的な忠誠心は、野心的な将軍たちが私的な軍隊を持つことを可能にし、最終的にはローマ共和国の政治的安定を脅かし、内戦の原因となった。皮肉なことに、軍を強化するために設計された改革が、共和国の衰退に寄与する結果となった。",
+                    "en": "[出典: Anting]\nThe field of ethology involves studying animals in their natural habitats to understand their behavior. Drawing conclusions about the reasons behind what animals do, however, is not always easy. Certain birds, for example, display a behavior called \"anting.\" This usually involves a bird picking up some ants with its beak and rubbing them on its feathers. Similarly, birds have even been observed sitting on anthills with their wings spread out and allowing ants to crawl all over their bodies. Despite extensive observation, ethologists remain unsure why birds engage in this behavior.",
+                    "ja": "動物行動学という分野は、動物をその自然の生息地で研究し行動を理解することを含む。しかし、動物の行動の背後にある理由について結論を導くことは必ずしも容易ではない。例えば特定の鳥は「アンティング」と呼ばれる行動を示す。これは通常、鳥がくちばしでアリを拾い羽に擦りつけることを含む。同様に、鳥がアリの巣の上に翼を広げて座り、全身をアリに這わせているのが観察されたこともある。広範な観察にもかかわらず、動物行動学者はなぜ鳥がこの行動を行うのかわからないままである。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "目的・結果を表す不定詞と接続表現",
-                "subtitle": "Purpose & Result Expressions",
-                "explanation": "to不定詞による目的表現、so that構文、結果を表すthereby/thus等の表現が頻出します。これらは文の論理的つながりを理解する上で重要です。",
-                "sourceQuote": "in order to / so that / thereby",
-                "sourceLocation": "Part 1-3 全体",
+                "title": "allow O to V + led to（改革の連鎖的効果）",
+                "subtitle": "Reform Outcomes with Allow and Lead To",
+                "explanation": "allow + O + to V は「OがVすることを可能にする」。led to は「〜につながった」。改革や政策変更の連鎖的効果を述べる。Perhaps most importantly は最重要点を導入するDM。",
+                "sourceQuote": "This allowed even the poorest citizens to enlist and led to better-equipped soldiers.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "The company invested heavily in order to expand overseas.",
-                        "ja": "海外展開のため会社は大きく投資した。",
-                        "note": "in order to = 目的（so as toと同義）。"
+                        "en": "This allowed even the poorest citizens to enlist and led to better-equipped soldiers because the army could standardize and improve the weapons and armor used.",
+                        "ja": "これにより最も貧しい市民でさえ入隊することが可能になり、軍が使用する武器と鎧を標準化・改善できたため、より装備の良い兵士につながった。",
+                        "note": "allowed(可能にした) + led to(結果): 改革の二重効果。even the poorest: 強調の副詞"
                     },
                     {
-                        "en": "They changed the design so that it would be more durable.",
-                        "ja": "より耐久性が出るようデザインを変更した。",
-                        "note": "so that + would/could = 目的。"
+                        "en": "Perhaps most importantly, the reforms provided a crucial incentive for enlistment — any soldier who served for 16 years was compensated with a plot of farmland and full Roman citizenship.",
+                        "ja": "おそらく最も重要なことに、改革は入隊への重要なインセンティブを提供した——16年間従軍した兵士には農地と完全なローマ市民権が与えられた。",
+                        "note": "Perhaps most importantly: 最重要点導入DM。ダッシュで具体的内容を補足"
                     },
                     {
-                        "en": "The costs were reduced, thereby increasing profits.",
-                        "ja": "コストが削減され、それによって利益が増加した。",
-                        "note": "thereby + -ing = 結果。"
+                        "en": "The new policy allowed employees to work remotely, which led to higher productivity.",
+                        "ja": "新しい方針は従業員がリモートで働くことを可能にし、生産性の向上につながった。",
+                        "note": "allowed O to V + led to: 改革→効果の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'With the exception of a few older, elite institutions' はどのような表現ですか？",
-                        "a": "「少数の古い名門校を除いて」。例外を明示する前置詞句。with the exception of = except for。"
+                        "q": "'allowed even the poorest citizens to enlist and led to better-equipped soldiers' で述べられている改革の2つの効果は何ですか?",
+                        "a": "①貧しい市民の入隊が可能になった(allowed to enlist) ②装備の標準化・改善により兵士の装備が向上した(led to better-equipped)。財産要件撤廃の二重効果。"
                     },
                     {
-                        "q": "'were expected to teach a wide range' の受動態はなぜ使われていますか？",
-                        "a": "「幅広い科目を教えることが期待されていた」。期待する主体（大学側）より、教授の状況に焦点を当てる。"
+                        "q": "'Perhaps most importantly' はなぜこの位置に置かれていますか?",
+                        "a": "複数の改革効果を列挙した後、最も重要な点(16年従軍で農地+市民権のインセンティブ)を最後に強調するため。情報の重要度順の構成。"
                     },
                     {
-                        "q": "'In addition' はどのような情報の追加を示しますか？",
-                        "a": "「加えて」。教授への要求に加え、学生への要求という別の制約を追加する接続表現。"
+                        "q": "入隊のインセンティブが「非常に魅力的」だった理由を説明してください。",
+                        "a": "ローマ共和国の拡大で多くの非市民が貧困の中にいた。16年従軍すれば農地と市民権を得られるため、貧困から脱出する手段として非常に魅力的だった。"
                     },
                     {
-                        "q": "初期のアメリカの大学の特徴を要約してください。",
-                        "a": "学生数が少ない、教授は多科目担当、厳格な規律と宗教活動が義務、古典語中心のカリキュラム。"
+                        "q": "'the removal of both property requirements and the need for recruits to prepare their own weapons' の 'both...and' は何を並列していますか?",
+                        "a": "①財産要件(property requirements) ②新兵が自分で武器・鎧を準備する必要性(need for recruits to prepare)。2つの参入障壁の同時撤廃。"
                     }
                 ],
                 "highlightPatterns": [
-                    "With the exception of",
-                    "only had"
+                    "This allowed even the poorest citizens to enlist and led to better-equipped soldiers"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "目的・結果",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "allowed O to V / led to",
                 "practicePassage": {
-                    "en": "[出典: The Development of Colleges in the United States]\nWith the exception of a few older, elite institutions, most US colleges only had a small number of students and instructors. Rather than being scholars, the faculty members were often religious men representing the different branches of Christianity that existed in the United States at the time. Administrators knew this would help to attract students from those religious organizations. Gaining admission to colleges was generally not difficult as long as students could pay the tuition, which, as a result of fierce competition to recruit students, was kept low. Unfortunately, low student numbers meant that many colleges were forced to close down, and those that survived could only continue operating through constant fundraising.",
-                    "ja": "少数の古い名門校を除き、アメリカのほとんどの大学には限られた数の学生しかいなかった。教授は幅広い科目を教えることが期待されており、専門化はほとんどなかった。さらに、学生は厳格な規律に従うことが求められ、宗教的な活動への参加も義務づけられていた。カリキュラムは主に古典語と道徳哲学に焦点を当てており、実用的な科目はほとんど提供されていなかった。こうした制限は、大学教育を少数のエリート層のためのものに限定する結果となっていた。",
+                    "en": "[出典: The Marian Reforms]\nThe Marian reforms consisted of several measures, including the removal of both property requirements and the need for recruits to prepare their own weapons and armor. This allowed even the poorest citizens to enlist and led to better-equipped soldiers because the army could standardize and improve the weapons and armor used. Soldiers in the army became known as \"legionaries,\" and they were trained in military strategy. Perhaps most importantly, the reforms provided a crucial incentive for enlistment — any soldier who served for 16 years was compensated with a plot of farmland and full Roman citizenship. The rapid expansion of the Roman Republic meant there were many noncitizen inhabitants who lived in poverty and for whom an opportunity to escape their situation was hugely appealing.",
+                    "ja": "マリウスの改革はいくつかの措置から成り、財産要件と新兵が自分で武器と鎧を準備する必要性の両方の撤廃を含んでいた。これにより最も貧しい市民でさえ入隊することが可能になり、軍が使用する武器と鎧を標準化・改善できたため、より装備の良い兵士につながった。軍の兵士は「レジオナリウス」として知られるようになり、軍事戦略の訓練を受けた。おそらく最も重要なことに、改革は入隊への重要なインセンティブを提供した——16年間従軍した兵士には農地と完全なローマ市民権が与えられた。ローマ共和国の急速な拡大は、貧困の中で暮らし、状況から脱出する機会が非常に魅力的な多くの非市民住民がいたことを意味した。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "無生物主語構文と因果関係の表現",
-                "subtitle": "Inanimate Subject Constructions",
-                "explanation": "英語では無生物（物事・状況）を主語にして因果関係を表す構文が多用されます。日本語に訳す際は「～のおかげで／～のせいで」と訳すのがポイントです。",
-                "sourceQuote": "This discovery led researchers to conclude...",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "While greatly improved...unexpected impact（予想外の影響）",
+                "subtitle": "Concession with Unintended Consequences",
+                "explanation": "While + V(改善) + also had an unexpected impact は「改善した一方で予想外の影響もあった」。改革の意図せぬ結果を議論する逆説構造。resulted in + eventually は連鎖的帰結を示す。",
+                "sourceQuote": "While the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "The heavy rain prevented us from going outside.",
-                        "ja": "大雨のせいで外出できなかった。",
-                        "note": "無生物主語 + prevent A from B。"
+                        "en": "While the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic.",
+                        "ja": "マリウスの改革はローマ軍を大幅に改善した一方で、最終的に共和制の崩壊につながるローマ社会への予想外の影響もあった。",
+                        "note": "While(譲歩=改善) + unexpected impact(意図せぬ結果) + eventually led to(最終的帰結): 改革の逆説"
                     },
                     {
-                        "en": "His experience enabled him to solve the problem quickly.",
-                        "ja": "経験のおかげで素早く問題を解決できた。",
-                        "note": "無生物主語 + enable A to B。"
+                        "en": "This resulted in civil wars, and eventually, Julius Caesar successfully used the army to overthrow the elected government and declare himself the Roman leader.",
+                        "ja": "これは内戦をもたらし、最終的にユリウス・カエサルは軍を成功裏に使い、選挙で選ばれた政府を転覆し自らをローマの指導者と宣言した。",
+                        "note": "resulted in(結果) + eventually(最終帰結): 連鎖的な歴史的因果"
                     },
                     {
-                        "en": "The new policy caused a significant decrease in pollution.",
-                        "ja": "新しい政策が汚染の大幅な減少を引き起こした。",
-                        "note": "無生物主語 + cause。"
+                        "en": "While the new technology improved efficiency, it had an unexpected impact on employment.",
+                        "ja": "新技術は効率を改善したが、雇用に予想外の影響があった。",
+                        "note": "While improved + unexpected impact: 意図せぬ結果の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'better-trained and more highly motivated soldiers' の比較構文を説明してください。",
-                        "a": "「より訓練され、より高い動機づけの兵士」。better-trained = より訓練された、more highly motivated = より動機づけの高い。"
+                        "q": "'While greatly improved...they also had an unexpected impact' の逆説構造を説明してください。",
+                        "a": "While(譲歩=軍の改善という意図通りの結果) + unexpected impact(予想外=社会への悪影響) + eventually led to downfall(最終的帰結=共和制崩壊)。改革の意図せぬ結果の連鎖。"
                     },
                     {
-                        "q": "'led to it achieving several impressive victories' の 'led to' はどのような因果ですか？",
-                        "a": "「いくつかの素晴らしい勝利の達成につながった」。改革→兵士の質の向上→勝利という因果連鎖。"
+                        "q": "マリウスの改革がローマ共和制の崩壊につながった因果関係を3段階で説明してください。",
+                        "a": "①レジオナリウスが将軍への強い忠誠心を育む ②将軍が軍を政治的影響力のために利用 ③カエサルが軍で政府転覆→共和制終焉・独裁政権誕生。"
                     },
                     {
-                        "q": "'made it possible for soldiers to execute complex tactics' を説明してください。",
-                        "a": "「兵士が複雑な戦術を実行することを可能にした」。made it possible for = enabled / allowed。無生物主語構文。"
+                        "q": "'found it difficult to resist the temptation to use' の構文を分析してください。",
+                        "a": "found it difficult(形式目的語it=不定詞) + to resist(真目的語) + the temptation to use(同格の不定詞=使うという誘惑)。「使うという誘惑に抗えなくなった」。"
                     },
                     {
-                        "q": "マリウス改革が軍事的にもたらした具体的成果は何ですか？",
-                        "a": "標準化された装備と訓練により統一行動が可能に。複雑な戦術の実行。領土拡大と地中海の覇権確立。"
+                        "q": "改革前と改革後の軍の政治的役割の違いは何ですか?",
+                        "a": "改革前: 裕福な市民の一時的徴兵で政治的影響力なし。改革後: 職業軍人化により将軍への忠誠→将軍の政治的野心の道具に変化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "made it",
-                    "led to",
-                    "achieving"
+                    "While the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "無生物主語",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "While improved / unexpected impact",
                 "practicePassage": {
-                    "en": "[出典: The Marian Reforms]\nThe Roman army's better-trained and more highly motivated soldiers led to it achieving significant military triumphs that contributed to Rome's expansion. The land that former legionaries received was generally in newly conquered provinces, so these veterans were instrumental in spreading Roman culture. Their presence also made it easier to overcome local resistance to Roman rule and facilitated the process of integration into the Roman Republic. The mere presence of the veterans brought greater security to new territories, since they could assist in preventing rebellions and resisting invasions.",
-                    "ja": "ローマ軍のより訓練され、より高い動機づけを持つ兵士たちは、戦場でいくつかの素晴らしい勝利を達成した。改革により、軍は以前よりもはるかに組織的で効果的な戦闘力を持つようになった。標準化された装備と訓練により、兵士たちはより統一的に行動でき、複雑な戦術を実行することが可能になった。これはローマの領土拡大を加速させ、地中海世界におけるローマの覇権を確立することにつながった。",
+                    "en": "[出典: The Marian Reforms]\nWhile the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic. When the army was composed mostly of wealthy citizens enlisted on an as-needed basis, it had little influence on Roman politics. Following the Marian reforms, however, legionaries in the army became highly disciplined and developed an intense loyalty to their generals. In consequence, generals found it difficult to resist the temptation to use the forces under their command to gain political influence for themselves rather than to ensure the protection and expansion of the Roman Republic. This resulted in civil wars, and eventually, Julius Caesar successfully used the army to overthrow the elected government and declare himself the Roman leader. This marked the end of the relatively democratic Roman Republic and paved the way for the creation of a dictatorship ruled by all-powerful emperors.",
+                    "ja": "マリウスの改革はローマ軍を大幅に改善した一方で、最終的に共和制の崩壊につながるローマ社会への予想外の影響もあった。軍がほとんど裕福な市民で構成され必要に応じて徴兵されていた時代、軍はローマ政治にほとんど影響力を持たなかった。しかしマリウスの改革後、軍のレジオナリウスは高度に統制され将軍への強い忠誠心を育んだ。結果として、将軍たちはローマ共和国の保護と拡大のためではなく、自らの政治的影響力を得るために配下の軍を使う誘惑に抗えなくなった。これは内戦をもたらし、最終的にユリウス・カエサルは軍を使って選挙で選ばれた政府を転覆し自らをローマの指導者と宣言した。これは比較的民主的なローマ共和制の終焉を告げ、全能の皇帝による独裁政権の創設への道を開いた。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

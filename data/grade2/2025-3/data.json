@@ -1676,11 +1676,11 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "not only A but also B（AだけでなくBも）",
-                "subtitle": "対比・追加の構文を瞬時に把握する",
+                "title": "the + 比較級, the + 比較級（〜すればするほど…）",
+                "subtitle": "The More...The More Construction",
                 "why": "大問2Aに「not only allows for the replacement of broken parts but also makes it possible for users to change the color」、大問3Bに「not only encouraged people to buy goods ... but also caused problems」が登場。長文で頻出の追加・対比構文で、速読時に主語・動詞の対応を見失いやすい。",
-                "sourceQuote": "This structure not only allows for the replacement of broken parts but also makes it possible for users to change the color or design of specific parts.",
-                "sourceLocation": "大問2A 第1段落",
+                "sourceQuote": "The more often students saw a picture, the more they liked it.",
+                "sourceLocation": "Part 2B",
                 "exampleSentences": [
                     {
                         "en": "The new library not only provides free Wi-Fi but also offers workshops for students every weekend.",
@@ -1699,57 +1699,59 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Stopping Advertisements]\nIt is said that the earliest advertisement appeared in ancient Egypt. Later, after newspapers were invented, advertising spread as a way for businesses to share information about their products. This tool not only encouraged people to buy goods and helped businesses make money but also caused problems with negative effects on everyday life. The increase in advertisements has led to more advertisements with wrong information and has changed the look of cities by covering streets with many signs and billboards.",
-                    "ja": "最古の広告は古代エジプトに登場したと言われている。その後、印刷技術の発明により広告はさらに広まった。広告は人々に商品の購入を促すだけでなく、企業の成長にも貢献した。広告は消費者に新しい製品やサービスについて情報を提供する重要な手段となった。しかし、広告の増加に伴い、その影響力について懸念も生まれるようになった。",
-                    "questions": [
-                        {
-                            "q": "この文章でnot only A but also Bが何回使われていますか？",
-                            "a": "3回"
-                        },
-                        {
-                            "q": "1つ目のnot only ~ but also ~ のAとBを日本語で答えなさい。",
-                            "a": "A: 環境について教える、B: 教室の外で一緒に活動する機会を与える"
-                        },
-                        {
-                            "q": "3つ目では何と何が対比されていますか？",
-                            "a": "地域社会への貢献 と 生徒の科学への興味の向上"
-                        }
-                    ],
+                    "en": "[出典: The Power of Familiarity]\nRobert Zajonc first observed this effect in an experiment. In the experiment, he showed college students pictures of people's faces from a graduation album. The pictures were picked without any special order or reason. Some pictures were shown more times than others. The more often students saw a picture, the more they liked it. Zajonc also did the same experiment using letters instead of pictures to avoid the possible influence of people's expressions. The results were the same. The students liked things more when they were shown more often.",
+                    "ja": "ロバート・ザイアンスはある実験でこの効果を初めて観察した。実験では、大学生に卒業アルバムの人物写真を見せた。写真は特別な順序や理由なく選ばれた。一部の写真は他より多く見せられた。学生が写真を見る回数が多いほど、それをより好むようになった。ザイアンスは人の表情の影響を避けるため、写真の代わりに文字を使って同じ実験も行った。結果は同じだった。より多く見せられたものほど、学生はそれをより好んだ。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "highlightPatterns": [
-                    "not only encouraged",
-                    "earliest advertisement",
-                    "ancient Egypt"
+                    "The more often students saw a picture, the more they liked it"
                 ],
-                "highlightColor": "#ff6b6b",
-                "highlightLabel": "not only A but also B",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "the比較級, the比較級",
                 "practiceQuestions": [
                     {
-                        "q": "'not only encouraged people to buy goods but also helped businesses grow' の構文を説明してください。",
-                        "a": "not only A but also B。「商品購入を促すだけでなく企業の成長にも貢献した」。2つの効果を並列。"
+                        "q": "'The more often students saw a picture, the more they liked it' の構文を分析してください。",
+                        "a": "The more often(副詞の比較級) + S + V, the more(副詞の比較級) + S + V。「見る回数が多いほど、より好んだ」。2つの変化量が比例。"
                     },
                     {
-                        "q": "'It is said that the earliest advertisement appeared in ancient Egypt' を説明してください。",
-                        "a": "「最古の広告は古代エジプトに登場したと言われている」。It is said that = 一般的通説の紹介。"
+                        "q": "ザイアンスが文字を使った実験も行った理由は何ですか？",
+                        "a": "人の表情の影響(the possible influence of people's expressions)を排除するため。写真は表情で好感度が変わる可能性があるが、文字にはそれがない。"
                     },
                     {
-                        "q": "'the earliest advertisement' の最上級を説明してください。",
-                        "a": "「最古の広告」。the earliest = 最も早い。歴史的な始まりを示す最上級。"
+                        "q": "この実験で証明された効果を一言で説明してください。",
+                        "a": "親近性効果（単純接触効果）。見る回数が多いほど好感度が上がる。内容に関係なく、接触頻度だけで好みが変化する。"
                     },
                     {
-                        "q": "広告の歴史的発展を要約してください。",
-                        "a": "古代エジプトで始まり→印刷技術で拡大→商品購入促進＋企業成長に貢献→影響力への懸念も。"
+                        "q": "'The pictures were picked without any special order or reason' はなぜ重要ですか？",
+                        "a": "実験の公正性を示す。写真の選び方に偏りがないことで、好感度の変化が接触回数のみに起因すると証明できる。"
+                    }
+                ],
+                "explanation": "The + 比較級 + S + V, the + 比較級 + S + V は「〜すればするほど…する」と2つの変化の比例関係を表す。実験結果や法則の記述に頻出。",
+                "examples": [
+                    {
+                        "en": "The more often students saw a picture, the more they liked it.",
+                        "ja": "学生が写真を見る回数が多いほど、それをより好むようになった。",
+                        "note": "The more often(頻度) + the more(程度): 見る回数↑ → 好き度↑ の比例関係"
+                    },
+                    {
+                        "en": "Zajonc also did the same experiment using letters instead of pictures to avoid the possible influence of people's expressions.",
+                        "ja": "ザイアンスは人の表情の影響を避けるため、写真の代わりに文字を使って同じ実験も行った。",
+                        "note": "to avoid: 目的の不定詞。instead of: 「〜の代わりに」"
+                    },
+                    {
+                        "en": "The harder you work, the more you will achieve.",
+                        "ja": "一生懸命働けば働くほど、より多くのことを達成できる。",
+                        "note": "The harder + the more: 努力↑ → 成果↑ の比例関係"
                     }
                 ]
             },
             {
                 "id": "fp2",
-                "title": "the + 比較級, the + 比較級（〜すればするほど…）",
-                "subtitle": "比較級の相関構文で因果関係を読み取る",
+                "title": "not only A but also B + make it possible",
+                "subtitle": "Correlative Conjunction with Enablement",
                 "why": "大問2Bに「The more often students saw a picture, the more they liked it.」が登場。英検2級ではこの構文が論点の核心部分に使われることが多く、意味を正確に捉えることが設問の正答に直結する。",
-                "sourceQuote": "The more often students saw a picture, the more they liked it.",
-                "sourceLocation": "大問2B 第2段落",
+                "sourceQuote": "This structure not only allows for the replacement of broken parts but also makes it possible for users to change the color or design.",
+                "sourceLocation": "Part 2A",
                 "exampleSentences": [
                     {
                         "en": "The more you practice speaking English, the more confident you will become.",
@@ -1768,57 +1770,59 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: The Power of Familiarity]\nRobert Zajonc first observed this effect in an experiment. In the experiment, he showed college students pictures of people's faces from a graduation album. The pictures were picked without any special order or reason. Some pictures were shown more times than others. The more often students saw a picture, the more they liked it. Zajonc also did the same experiment using letters instead of pictures to avoid the possible influence of people's expressions. The results were the same. The students liked things more when they were shown more often.",
-                    "ja": "ロバート・ザイエンスはこの効果を実験で初めて観察した。実験では、学生にさまざまな写真を異なる回数見せた。学生が写真を見る回数が多ければ多いほど、その写真をより好むようになった。この現象は「単純接触効果」として知られるようになった。繰り返し触れるだけで、人は対象に対してより肯定的な感情を持つようになるのだ。",
-                    "questions": [
-                        {
-                            "q": "この文章に含まれる「the + 比較級, the + 比較級」の構文をすべて探しなさい。",
-                            "a": "4つ：(1) the more books ~ the larger, (2) the more different kinds ~ the better, (3) the earlier ~ the more likely, (4) the less time ~ the more time"
-                        },
-                        {
-                            "q": "2つ目の構文で「因果関係」を日本語で説明しなさい。",
-                            "a": "多様なジャンルの本を読むことが原因で、読解テストの成績向上が結果"
-                        },
-                        {
-                            "q": "not only ~ but also と組み合わせて、この研究結果を1文にまとめなさい。",
-                            "a": "例: Reading more books not only increases vocabulary but also improves comprehension."
-                        }
-                    ],
+                    "en": "[出典: A New Approach to Design]\nBritish university graduate Gabriel Kay has designed a new type of kettle, a kitchen tool to boil water, and named it Osiris. What makes it unique is that ordinary people can repair it easily. It is difficult to take apart most electric kettles at home. Unlike these kettles, Osiris can be separated simply by removing two screws at the bottom. This structure not only allows for the replacement of broken parts but also makes it possible for users to change the color or design of specific parts if they desire a different look.",
+                    "ja": "イギリスの大学卒業生ガブリエル・ケイは、水を沸かすためのキッチン用品である新しいタイプのケトルをデザインし、オシリスと名付けた。それをユニークにしているのは、普通の人が簡単に修理できることである。ほとんどの電気ケトルは家庭で分解するのが難しい。これらのケトルとは異なり、オシリスは底の2つのネジを外すだけで分離できる。この構造は壊れた部品の交換を可能にするだけでなく、異なる見た目を望む場合にユーザーが特定部品の色やデザインを変えることも可能にする。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "highlightPatterns": [
-                    "The more often",
-                    "the more they liked",
-                    "first observed"
+                    "not only allows for the replacement of broken parts but also makes it possible for users to change the color or design"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "the 比較級, the 比較級",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "not only...but also",
                 "practiceQuestions": [
                     {
-                        "q": "'The more often students saw a picture, the more they liked it' の構文を説明してください。",
-                        "a": "the + 比較級, the + 比較級。「見れば見るほど好きになった」。2つの変化が連動する構文。"
+                        "q": "'not only allows for the replacement ... but also makes it possible for users to change' で述べられている2つの利点は何ですか？",
+                        "a": "①壊れた部品の交換が可能(allows for the replacement of broken parts) ②ユーザーが色やデザインを変更可能(makes it possible to change the color or design)"
                     },
                     {
-                        "q": "'Robert Zajonc first observed this effect' の 'first' はどのような意味ですか？",
-                        "a": "「初めて観察した」。初めてこの効果を科学的に記録・報告したことを示す。"
+                        "q": "'What makes it unique is that ordinary people can repair it easily' の構文を分析してください。",
+                        "a": "What makes it unique(What節=主語) + is(V) + that...can repair(that節=補語)。「ユニークにしているのは〜ということだ」。"
                     },
                     {
-                        "q": "'In the experiment, he showed students various pictures' はどのような実験設計ですか？",
-                        "a": "写真を異なる回数見せて好みの変化を測定。接触回数と好感度の関係を調べる比較実験。"
+                        "q": "'Unlike these kettles, Osiris can be separated simply by removing two screws' の 'Unlike' と 'simply' の役割を説明してください。",
+                        "a": "Unlike: 「〜とは異なり」対比の前置詞。simply: 「ただ〜するだけで」簡便さを強調。一般的なケトルとの違いを明確化。"
                     },
                     {
-                        "q": "単純接触効果を要約してください。",
-                        "a": "繰り返し見るほど好感が増す。ザイエンスが実験で発見。写真を多く見た学生ほど好みが増加。"
+                        "q": "オシリスの設計思想で最も革新的な点は何ですか？",
+                        "a": "普通の人が簡単に修理できること。ほとんどの電気製品は分解しにくいが、ネジ2本で分離でき、部品交換やカスタマイズも可能。"
+                    }
+                ],
+                "explanation": "not only A but also B は「AだけでなくBも」。make it possible for A to V は「AがVすることを可能にする」。製品や仕組みの複数の利点を述べる際に頻出。",
+                "examples": [
+                    {
+                        "en": "This structure not only allows for the replacement of broken parts but also makes it possible for users to change the color or design of specific parts if they desire a different look.",
+                        "ja": "この構造は壊れた部品の交換を可能にするだけでなく、異なる見た目を望む場合にユーザーが特定部品の色やデザインを変えることも可能にする。",
+                        "note": "not only allows + but also makes it possible: 2つの利点を並列"
+                    },
+                    {
+                        "en": "What makes it unique is that ordinary people can repair it easily.",
+                        "ja": "それをユニークにしているのは、普通の人が簡単に修理できることである。",
+                        "note": "What makes it unique is that: What節(主語) + is that(補語)。特徴を強調"
+                    },
+                    {
+                        "en": "The new policy not only saves money but also reduces waste.",
+                        "ja": "新しい方針はお金を節約するだけでなく、無駄も減らす。",
+                        "note": "not only + V + but also + V: 動詞の並列パターン"
                     }
                 ]
             },
             {
                 "id": "fp3",
-                "title": "ディスコースマーカー（論理接続語）",
-                "subtitle": "文脈の流れを読むための道標",
+                "title": "形式主語 it became possible for A to V",
+                "subtitle": "Introductory It with Possibility",
                 "why": "大問2の空所問題で In this way / Moreover / Even so / Otherwise などの接続語が直接出題されている（問20, 問23）。速読ではこれらの接続語を手がかりに段落の論理構造を即座に判断することが重要。大問3Bでも However / Also / In this way / Moreover が多用されている。",
-                "sourceQuote": "While this effect is not always negative, if they ignore it, they will not be able to make a correct decision. ( 23 ), when people just choose the familiar options...",
-                "sourceLocation": "大問2B 第3段落 / 大問3B 全体",
+                "sourceQuote": "Many advertisements were removed, and it became possible for citizens to enjoy the beauty of buildings.",
+                "sourceLocation": "Part 3B",
                 "categories": [
                     {
                         "type": "追加",
@@ -1876,56 +1880,58 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: Stopping Advertisements]\nIn the early 2000s, São Paulo, Brazil, passed the Clean City Law. This law prohibited advertisements on taxis and buses, and outside store entrances. Many advertisements were removed, and it became possible for citizens to enjoy the beauty of buildings. However, electronic signs, which had started to gain popularity, could be used even under the law. Later, in Grenoble, France, the decision was made to ban certain advertisements, including electronic signs. Some companies tried to introduce new electronic signs before the decision, but they could not. In Grenoble, after advertisements were removed, the spaces for the signs were planted with trees and plants.",
-                    "ja": "2000年代初頭、ブラジルのサンパウロは「クリーンシティ法」を制定した。この法律は屋外広告を禁止した。しかし、建物の壁に描かれた芸術作品など、法律の下で利用可能な表現手段もあった。広告が撤去された後、その場所には木が植えられるなど、街の景観が改善された。この決定により、サンパウロの街並みは劇的に変化し、住民の多くが肯定的に評価した。",
-                    "questions": [
-                        {
-                            "q": "空所(A)~(F)に最も適切なディスコースマーカーを入れなさい。",
-                            "a": "A: As a result（結果）, B: However（逆接）, C: In this way（まとめ）, D: Nevertheless / However（逆接）, E: for example（例示）, F: Nevertheless / However（逆接）"
-                        },
-                        {
-                            "q": "第1段落では在宅勤務のメリットとデメリットが述べられている。どのマーカーがメリットからデメリットへの転換点か？",
-                            "a": "B（However）"
-                        },
-                        {
-                            "q": "もしCの位置に Otherwise が入ったら、意味はどう変わるか？",
-                            "a": "「さもないと（ハイブリッドにしなければ）両者とも恩恵を受けられない」という条件の意味に変わる"
-                        }
-                    ],
+                    "ja": "2000年代初頭、ブラジルのサンパウロはクリーンシティ法を可決した。この法律はタクシーやバス、店舗入口外の広告を禁止した。多くの広告が撤去され、市民が建物の美しさを楽しむことが可能になった。しかし、人気を得始めていた電子看板は、その法律の下でさえ使用可能だった。その後、フランスのグルノーブルでは、電子看板を含む特定の広告を禁止する決定が下された。一部の企業はその決定前に新しい電子看板を導入しようとしたが、できなかった。グルノーブルでは広告が撤去された後、看板のスペースに木や植物が植えられた。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "highlightPatterns": [
-                    "However",
-                    "Clean City Law",
-                    "prohibited"
+                    "it became possible for citizens to enjoy the beauty of buildings"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "ディスコースマーカー",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "it became possible",
                 "practiceQuestions": [
                     {
-                        "q": "'However' はこの段落でどのような逆接を示しますか？",
-                        "a": "全面禁止→しかし一部の表現手段は許可。完全な禁止ではなく例外があることを示す逆接。"
+                        "q": "'it became possible for citizens to enjoy the beauty of buildings' の構文を分析してください。",
+                        "a": "it(形式主語) + became possible(V+C) + for citizens(意味上の主語) + to enjoy(真の主語)。「市民が美しさを楽しむことが可能になった」。"
                     },
                     {
-                        "q": "'This law prohibited outdoor advertisements' の受動的意味を説明してください。",
-                        "a": "「この法律は屋外広告を禁止した」。prohibited = 法的に禁止した。法律が主語の無生物主語構文。"
+                        "q": "サンパウロのクリーンシティ法とグルノーブルの決定の違いは何ですか？",
+                        "a": "サンパウロ: 電子看板は法律の下でも使用可能だった。グルノーブル: 電子看板を含む広告も禁止した。グルノーブルの方がより包括的。"
                     },
                     {
-                        "q": "'advertisements were removed' と 'were planted with trees' の受動態の対比は？",
-                        "a": "広告撤去→木の植樹。破壊→再生の対比。受動態で街の変化を客観的に叙述。"
+                        "q": "'which had started to gain popularity' の 'had started' はなぜ過去完了ですか？",
+                        "a": "法律が制定された時点(過去)よりさらに前から人気を得始めていたことを示す。過去のある時点より前の出来事=過去完了。"
                     },
                     {
-                        "q": "サンパウロのクリーンシティ法の影響を要約してください。",
-                        "a": "屋外広告を禁止→広告撤去→跡地に植樹→街の景観改善→住民の多くが肯定的評価。"
+                        "q": "グルノーブルで広告撤去後の跡地はどうなりましたか？",
+                        "a": "看板のスペースに木や植物が植えられた(were planted with trees and plants)。広告スペースが緑地に転換された。"
+                    }
+                ],
+                "explanation": "it became/is possible for A to V は「AがVすることが可能になった/可能である」。形式主語itを使い、法律や変化の結果として何が可能になったかを述べる構文。",
+                "examples": [
+                    {
+                        "en": "Many advertisements were removed, and it became possible for citizens to enjoy the beauty of buildings.",
+                        "ja": "多くの広告が撤去され、市民が建物の美しさを楽しむことが可能になった。",
+                        "note": "it became possible + for citizens + to enjoy: 形式主語+結果の変化"
+                    },
+                    {
+                        "en": "Electronic signs, which had started to gain popularity, could be used even under the law.",
+                        "ja": "人気を得始めていた電子看板は、その法律の下でさえ使用可能だった。",
+                        "note": "which had started(過去完了の関係詞節): 法律制定より前から人気があったこと"
+                    },
+                    {
+                        "en": "It became clear that a new approach was needed.",
+                        "ja": "新しいアプローチが必要であることが明らかになった。",
+                        "note": "It became + clear + that: 形式主語+that節バリエーション"
                     }
                 ]
             },
             {
                 "id": "fp4",
-                "title": "受動態の多層構造と分詞表現",
-                "subtitle": "「誰が・何を・どうした」を受動態の中から正確に読み取る",
+                "title": "cause + O + to V + 部分否定 not always",
+                "subtitle": "Causative 'Cause' and Partial Negation",
                 "why": "大問3Bでは受動態が極めて多用されている: 'advertisements were removed'、'the decision was made to ban'、'freedom of speech is emphasized'、'the right to advertise is seen as'。受動態が連続すると「誰が」が省略され、速読では主語・動作者の関係を見失いやすい。また分詞構文(By doing so, ...)も大問2Aに出現。",
-                "sourceQuote": "This law prohibited advertisements on taxis and buses ... Many advertisements were removed, and it became possible for citizens to enjoy the beauty of buildings.",
-                "sourceLocation": "大問3B 第3段落",
+                "sourceQuote": "This repeated pattern will cause them to miss out on options for growth and better experiences.",
+                "sourceLocation": "Part 2B",
                 "exampleSentences": [
                     {
                         "en": "The building was designed by a famous architect and is considered one of the best in the city.",
@@ -1944,47 +1950,50 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Stopping Advertisements]\nAdvertisement bans are not welcomed everywhere. The local government of Vernier, Switzerland, has tried to ban outdoor advertisements. The government argued that the city's view was spoiled by too many advertisements and that it was necessary to remove them to bring back its beauty and improve the overall environment. However, freedom of speech is emphasized in the country, and the right to advertise is seen as an important part of that freedom. Some believe that banning advertisements would go against this right. Moreover, some businesses worry that they might lose customers if advertisements are banned.",
-                    "ja": "広告禁止はどこでも歓迎されているわけではない。スイスのヴェルニエの地方政府は広告看板を禁止しようとしたが、住民投票で否決された。さらに、表現の自由が重視される社会では、広告する権利は基本的権利の一部と見なされている。広告が街の景観を損なうと考える人々がいる一方で、広告は経済活動の活性化に不可欠だと主張する人々もいる。",
-                    "questions": [
-                        {
-                            "q": "この文章で受動態が使われている文を全て見つけ、「動作者（by ~）」が明示されているものと省略されているものに分けなさい。",
-                            "a": "明示: was criticized by many shop owners / 省略: was introduced, were banned, was made, was increased, were enjoyed, was transformed, were said"
-                        },
-                        {
-                            "q": "\"studies conducted after the change\"のconductedは何の働きをしているか？",
-                            "a": "過去分詞の後置修飾。「変更後に実施された調査」"
-                        },
-                        {
-                            "q": "能動態に書き換えなさい：\"The streets were now enjoyed by families and tourists.\"",
-                            "a": "Families and tourists now enjoyed the streets."
-                        }
-                    ],
+                    "en": "[出典: The Power of Familiarity]\nWhen people make a decision, they should keep in mind that this effect is working. They should carefully consider different choices when making a decision. While this effect is not always negative, if they ignore it, they will not be able to make a correct decision. Moreover, when people just choose the familiar options again and again, they will narrow their views. This repeated pattern will cause them to miss out on options for growth and better experiences.",
+                    "ja": "決断を下す際、人々はこの効果が働いていることを心に留めておくべきである。決断する際にはさまざまな選択肢を慎重に検討すべきである。この効果は常に悪いわけではないが、無視すれば正しい判断ができなくなる。さらに、人々が馴染みのある選択肢を繰り返し選ぶだけだと、視野が狭くなる。この繰り返しのパターンは、成長やより良い経験の選択肢を見逃す原因となるだろう。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "highlightPatterns": [
-                    "freedom of speech",
-                    "is emphasized",
-                    "right to advertise"
+                    "will cause them to miss out on options for growth and better experiences",
+                    "is not always negative"
                 ],
-                "highlightColor": "#a78bfa",
-                "highlightLabel": "受動態・分詞",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "cause to V / not always",
                 "practiceQuestions": [
                     {
-                        "q": "'freedom of speech is emphasized' の受動態はどのような社会的文脈ですか？",
-                        "a": "「表現の自由が重視されている」。is emphasized = 社会全体で重要視。広告禁止への反対論の根拠。"
+                        "q": "'will cause them to miss out on options' の 'cause + O + to V' はどのような構文ですか？",
+                        "a": "使役動詞cause。「彼らが選択肢を見逃す原因となる」。causeはmakeより間接的で、原因→結果の因果関係を表す。"
                     },
                     {
-                        "q": "'the right to advertise is seen as a basic right' の受動態を説明してください。",
-                        "a": "「広告する権利は基本的権利と見なされている」。is seen as = 〜と見なされる。社会的認識を示す。"
+                        "q": "'is not always negative' の 'not always' はどのような否定ですか？",
+                        "a": "部分否定。「常に否定的であるとは限らない」=「良い場合もある」。完全否定(never negative)との違いに注意。"
                     },
                     {
-                        "q": "'Moreover' はどのような追加情報を導入しますか？",
-                        "a": "広告禁止の問題点に追加の論点。住民投票で否決→さらに表現の自由の問題も。反対論の強化。"
+                        "q": "親近性効果を無視した場合の2つの悪影響を答えてください。",
+                        "a": "①正しい判断ができなくなる(will not be able to make a correct decision) ②成長やより良い経験の選択肢を見逃す(miss out on options for growth)"
                     },
                     {
-                        "q": "広告禁止に対する反対意見を要約してください。",
-                        "a": "住民投票で否決の例。表現の自由の侵害。広告する権利は基本的権利。経済活性化に不可欠との主張。"
+                        "q": "'they will narrow their views' はどのような意味ですか？",
+                        "a": "「視野が狭くなる」。馴染みのある選択肢ばかり選ぶと新しい視点が得られず、考え方が限定的になること。narrowは動詞で「狭める」。"
+                    }
+                ],
+                "explanation": "cause + O + to V は「OにVさせる/Oが〜する原因となる」と因果関係を表す使役構文。not always は「常に〜とは限らない」部分否定で、議論のバランスを示す。",
+                "examples": [
+                    {
+                        "en": "This repeated pattern will cause them to miss out on options for growth and better experiences.",
+                        "ja": "この繰り返しのパターンは、成長やより良い経験の選択肢を見逃す原因となるだろう。",
+                        "note": "cause + them + to miss out on: 「彼らが見逃す原因となる」因果の使役"
+                    },
+                    {
+                        "en": "While this effect is not always negative, if they ignore it, they will not be able to make a correct decision.",
+                        "ja": "この効果は常に悪いわけではないが、無視すれば正しい判断ができなくなる。",
+                        "note": "not always negative: 部分否定。While: 譲歩の接続詞。"
+                    },
+                    {
+                        "en": "The bad weather caused the event to be canceled.",
+                        "ja": "悪天候がイベントの中止を引き起こした。",
+                        "note": "caused + the event + to be canceled: cause+O+to V受動態"
                     }
                 ]
             },

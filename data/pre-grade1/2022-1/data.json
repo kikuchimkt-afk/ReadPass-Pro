@@ -2068,219 +2068,215 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "受動態の多様な時制パターン",
-                "subtitle": "Passive Voice in Various Tenses",
-                "explanation": "本試験のパッセージでは現在完了受動態、過去完了受動態、助動詞付き受動態など多様な受動態パターンが使われています。",
-                "sourceQuote": "has been considered / was eventually brought under control / were educated to have",
-                "sourceLocation": "Part 3 全体",
+                "title": "倒置の Not only do S V + but S also V",
+                "subtitle": "Inversion with Not Only...But Also",
+                "explanation": "Not only + 助動詞 + S + V, but S also V は文頭にNot onlyを置くことで語順が倒置され、二重の不利益・利点を強調する。準1級の議論文で頻出する高度な強調構文。",
+                "sourceQuote": "Not only do companies end up with poor managers but they also lose their best workers in lower-level positions.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "Full removal has been considered, but it would prove too costly.",
-                        "ja": "完全除去は検討されたが費用がかかりすぎると判明する。",
-                        "note": "現在完了受動態 = has been + p.p."
+                        "en": "Not only do companies end up with poor managers but they also lose their best workers in lower-level positions.",
+                        "ja": "企業は無能な管理者を抱えることになるだけでなく、下位の職位における最良の労働者も失ってしまう。",
+                        "note": "Not only + do(助動詞) + companies(S) + end up(V): 倒置。二重の不利益を強調"
                     },
                     {
-                        "en": "The rebellion was eventually brought under control after two years.",
-                        "ja": "反乱は約2年後にようやく鎮圧された。",
-                        "note": "群動詞の受動態（bring under control → was brought under control）。"
+                        "en": "The study showed that promoting employees based solely on current performance has two disadvantages.",
+                        "ja": "その研究は、現在の業績のみに基づいて従業員を昇進させることに2つの不利点があることを示した。",
+                        "note": "based solely on: 「〜のみに基づいて」。solely が限定を強調する副詞"
                     },
                     {
-                        "en": "Indians were educated to have the same opinions as the British.",
-                        "ja": "インド人はイギリス人と同じ意見を持つよう教育された。",
-                        "note": "be educated to do = ～するよう教育される。"
+                        "en": "Not only did the experiment fail, but it also wasted valuable resources.",
+                        "ja": "実験は失敗しただけでなく、貴重な資源も無駄にした。",
+                        "note": "Not only + did + S + V: 過去形の倒置パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Full removal of the honey fungus has been considered' の受動態はなぜ使われていますか？",
-                        "a": "「除去が検討されてきた」。検討する主体より、検討されている行為（除去）に焦点。現在完了受動態で今も継続。"
+                        "q": "'Not only do companies end up with poor managers but they also lose' の倒置構造を説明してください。",
+                        "a": "Not only が文頭に来ることで do + companies + end up と倒置。but also で2つ目の不利益を追加。「〜だけでなく…も」という二重否定的強調。"
                     },
                     {
-                        "q": "'it would prove to be too expensive' の 'would prove' はどのような推量ですか？",
-                        "a": "「費用がかかりすぎることが判明するだろう」。would = 推量・予測。仮に実施すれば高コストになるという見込み。"
+                        "q": "ピーター原理が示す2つの不利点は何ですか？",
+                        "a": "①企業が無能な管理者を抱える(end up with poor managers) ②下位の職位で最良の労働者を失う(lose their best workers)。人材の二重損失。"
                     },
                     {
-                        "q": "ハニーファンガスの完全除去が考えられたが実現しない理由は何ですか？",
-                        "a": "コストが高すぎること。森林全体に広がっている菌糸を完全に除去するのは経済的に不可能。"
+                        "q": "'based solely on current performance' の 'solely' はなぜ重要ですか？",
+                        "a": "「のみに」。昇進基準が現在の業績だけに限定されている問題点を強調。潜在能力や管理適性を考慮しない欠陥を指摘。"
                     },
                     {
-                        "q": "この段落で述べられている対策の限界は何ですか？",
-                        "a": "技術的に可能でも、経済的に実行不可能。大規模な自然現象に対する人間の介入の限界を示す。"
+                        "q": "最優秀の営業担当者が管理職で最悪の業績を上げる理由は何ですか？",
+                        "a": "営業スキルと管理スキルは異なるため。営業が得意でも管理に必要な能力(リーダーシップ等)が不足している場合がある。"
                     }
                 ],
                 "highlightPatterns": [
-                    "has been considered",
-                    "would prove",
-                    "removal of"
+                    "Not only do companies end up with poor managers but they also lose their best workers"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "受動態",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Not only do...but also",
                 "practicePassage": {
-                    "en": "[出典: Honey Fungus]\nFull removal of the honey fungus in Oregon has been considered, but it would prove to be too costly and time-consuming. Another solution currently being researched is the planting of tree species that can resist the fungus. Some experts have suggested, however, that a change of perspective may be necessary. Rather than viewing the effects of the honey fungus in a negative light, people should consider it an example of nature taking its course. Dead trees will ultimately be recycled back into the soil, benefiting the area's ecosystem.",
-                    "ja": "オレゴンのナラタケの完全除去は検討されてきたが、費用と時間がかかりすぎることが判明するだろう。現在研究されているもう一つの解決策は、菌に耐性のある樹種を植えることである。しかし一部の専門家は、視点の転換が必要かもしれないと提案している。ナラタケの影響を否定的に見るのではなく、自然がその道を辿っている一例と考えるべきだと。枯れた木は最終的に土壌に還元され、その地域の生態系に利益をもたらす。",
+                    "en": "[出典: The Peter Principle]\nOne study examined the careers of salespeople who were promoted to managerial positions. As expected, the study found that the best salespeople were the most likely to receive promotions, but it also found that they performed the worst in managerial roles. The study showed that promoting employees based solely on current performance has two disadvantages. Not only do companies end up with poor managers but they also lose their best workers in lower-level positions.",
+                    "ja": "ある研究が、管理職に昇進した営業担当者のキャリアを調査した。予想通り、最優秀の営業担当者が昇進を受ける可能性が最も高いことが判明したが、彼らが管理職では最悪の業績を上げることも判明した。この研究は、現在の業績のみに基づいて従業員を昇進させることに2つの不利点があることを示した。企業は無能な管理者を抱えることになるだけでなく、下位の職位における最良の労働者も失ってしまう。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "対比の接続表現と論理構造",
-                "subtitle": "Contrast Connectors & Logical Structure",
-                "explanation": "本試験ではon the other hand, instead, in contrast 等の対比接続表現が出題されています。前後の文脈から適切な接続詞を選ぶ力が問われます。",
-                "sourceQuote": "On the other hand / Instead / However",
-                "sourceLocation": "Part 2 全体",
+                "title": "Rather than -ing + should consider（視点の転換）",
+                "subtitle": "Perspective Shift with Rather Than",
+                "explanation": "Rather than + -ing は「〜するよりもむしろ」と比較対照を示し、should + V で代替的視点を提案する。議論文で視点の転換を促す重要構文。",
+                "sourceQuote": "Rather than viewing the effects of the honey fungus in a negative light, people should consider it an example of nature taking its course.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "New employees receive specialized training. On the other hand, new managers are given little training.",
-                        "ja": "新入社員は専門的訓練を受ける。一方で新管理者にはほとんど訓練がない。",
-                        "note": "on the other hand = 一方で（2つの異なる事実の対比）。"
+                        "en": "Rather than viewing the effects of the honey fungus in a negative light, people should consider it an example of nature taking its course.",
+                        "ja": "ハニー菌の影響を否定的に見るよりもむしろ、自然が本来の経過をたどっている例と考えるべきだ。",
+                        "note": "Rather than viewing(否定的視点) + should consider(肯定的代替): 視点の転換"
                     },
                     {
-                        "en": "Going outdoors is impossible. Instead, changing lighting may be practical.",
-                        "ja": "外出は不可能だ。代わりに照明を変える方が実用的。",
-                        "note": "instead = 代わりに（代替案の導入）。"
+                        "en": "Dead trees will ultimately be recycled back into the soil, benefiting the area's ecosystem.",
+                        "ja": "枯れた木は最終的に土壌に還元され、地域の生態系に恩恵をもたらす。",
+                        "note": "benefiting: 結果の分詞構文。「その結果〜に恩恵をもたらす」"
                     },
                     {
-                        "en": "The theory seems logical; however, it has significant drawbacks.",
-                        "ja": "その理論は論理的に見えるが、大きな欠点がある。",
-                        "note": "however = しかしながら（逆接）。"
+                        "en": "Rather than focusing on the problem, we should look for opportunities.",
+                        "ja": "問題に焦点を当てるのではなく、機会を探すべきだ。",
+                        "note": "Rather than + -ing + should: 視点転換の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Not all intentional communities are destined to fall apart, however' の 'however' はどのような逆接ですか？",
-                        "a": "「しかし」。前段落の失敗例に対して、成功例も存在することを示す逆接。全てが失敗するわけではない。"
+                        "q": "'Rather than viewing...should consider' の論理構造を説明してください。",
+                        "a": "Rather than(否定的視点の排除) + viewing in a negative light + should consider(肯定的代替の提案) + nature taking its course。「否定的に見るのではなく、自然の摂理と捉えるべき」。"
                     },
                     {
-                        "q": "'In contrast' はどのような対比を示しますか？",
-                        "a": "「対照的に」。失敗したコミュニティと成功したコミュニティを明確に対比する接続表現。"
+                        "q": "'has been considered, but it would prove to be too costly' の 'would prove' はなぜ would が使われていますか？",
+                        "a": "仮定法的ニュアンス。もし除去を試みたら(実際にはまだ)、費用がかかりすぎることが判明するだろう。未確定の将来の帰結を示す。"
                     },
                     {
-                        "q": "'ongoing success' はどのような時間的意味を含みますか？",
-                        "a": "「継続中の成功」。ongoing = 現在も続いている。一時的ではなく持続的な成功を強調。"
+                        "q": "'nature taking its course' はどのような意味ですか？",
+                        "a": "「自然が本来の経過をたどること」。人間が介入せず自然の摂理に任せるという意味。菌が木を枯らし土壌に還すのは自然のサイクル。"
                     },
                     {
-                        "q": "この段落で成功するコミュニティの特徴は何ですか？",
-                        "a": "変化に適応する能力。理想だけでなく実用的な運営方法を持ち、メンバー間の信頼関係が築けていること。"
+                        "q": "この段落で提示される3つの対策案を答えてください。",
+                        "a": "①完全除去(too costly) ②菌に抵抗できる樹種の植樹(being researched) ③視点転換して自然のサイクルとして受容(should consider)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "In contrast",
-                    "however",
-                    "Not all"
+                    "Rather than viewing the effects of the honey fungus in a negative light, people should consider"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "対比接続",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Rather than / should consider",
                 "practicePassage": {
-                    "en": "[出典: Intentional Communities]\nNot all intentional communities are destined to fall apart, however. The ongoing success of Damanhur, a spiritual and artistic collective near Turin, Italy, is attributed to open communication and a practical approach. Damanhur organizes its members into family-like groups of 15 to 20 people. The community has found that creating intimacy becomes difficult if a \"family\" has more than 25 people. In contrast, when there are too few people in the \"family,\" there is not enough collective knowledge to allow for effective decision-making. Damanhur's ideals, which are outlined in its constitution, are upheld by elected leaders, and tensions in the community are handled by holding playful mock battles where people fight with paint-filled toy guns.",
-                    "ja": "しかし、すべてのインテンショナル・コミュニティが崩壊する運命にあるわけではない。イタリアのトリノ近郊にある精神的・芸術的共同体であるダマンフールの継続的な成功は、オープンなコミュニケーションと実用的なアプローチに起因している。ダマンフールはメンバーを15〜20人の家族のようなグループに組織している。コミュニティは、「家族」が25人以上になると親密さの構築が困難になることを発見した。対照的に、「家族」の人数が少なすぎると、効果的な意思決定に十分な集合的知識がない。ダマンフールの理念は憲法に記され、選出されたリーダーによって支持されており、コミュニティ内の緊張は、ペンキ入りのおもちゃの銃で戦う遊び心のある模擬戦闘で処理される。",
+                    "en": "[出典: Honey Fungus]\nFull removal of the honey fungus in Oregon has been considered, but it would prove to be too costly and time-consuming. Another solution currently being researched is the planting of tree species that can resist the fungus. Some experts have suggested, however, that a change of perspective may be necessary. Rather than viewing the effects of the honey fungus in a negative light, people should consider it an example of nature taking its course. Dead trees will ultimately be recycled back into the soil, benefiting the area's ecosystem.",
+                    "ja": "オレゴン州のハニー菌の完全除去は検討されてきたが、費用と時間がかかりすぎることが判明するだろう。現在研究されているもう一つの解決策は、菌に抵抗できる樹種の植樹である。しかし一部の専門家は、視点の転換が必要かもしれないと提案している。ハニー菌の影響を否定的に見るよりもむしろ、自然が本来の経過をたどっている例と考えるべきだ。枯れた木は最終的に土壌に還元され、地域の生態系に恩恵をもたらす。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "仮定法と推量の助動詞",
-                "subtitle": "Subjunctive & Speculative Modals",
-                "explanation": "本試験では would, could, might を使った推量・仮定表現が多用されています。仮定法過去・過去完了、推量用法の区別が重要です。",
-                "sourceQuote": "it would prove to be / would weigh around 35,000 tons / could be over 8,000 years old",
-                "sourceLocation": "Part 3A 全体",
+                "title": "While some claim...many argue（議論の対立構造）",
+                "subtitle": "Contrasting Claims in Argumentative Writing",
+                "explanation": "While some + claim/say that は一方の主張を提示し、many + argue/believe that で対立意見を述べる。学術的議論で両論を提示する際の基本的な対立構造。",
+                "sourceQuote": "While some claim that India benefited from British rule, many historians argue that the country was negatively affected.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "It would weigh around 35,000 tons if it were all gathered together.",
-                        "ja": "全部集めれば約35,000トンになるだろう。",
-                        "note": "仮定法過去（仮の状況を想定）。"
+                        "en": "While some claim that India benefited from British rule, typically using the construction of railways as an example, many historians argue that the country was negatively affected.",
+                        "ja": "インドがイギリス統治の恩恵を受けたと主張する人もいるが（典型的に鉄道建設を例に挙げて）、多くの歴史家はその国が悪影響を受けたと主張している。",
+                        "note": "While some claim(一方の主張) + many argue(対立主張): 両論併記の議論構造"
                     },
                     {
-                        "en": "The fungus could be over 8,000 years old.",
-                        "ja": "その菌類は8,000年以上古い可能性がある。",
-                        "note": "could = 可能性の推量（mayより低い確信）。"
+                        "en": "The British also implemented a policy known as 'divide and rule,' which turned Indians from different religious backgrounds against each other.",
+                        "ja": "イギリスはまた「分割統治」として知られる政策を実施し、異なる宗教的背景を持つインド人たちを互いに対立させた。",
+                        "note": "known as: 「〜として知られる」。which turned A against B: 関係代名詞+使役「AをBに敵対させる」"
                     },
                     {
-                        "en": "This strategy would certainly help the SAS accomplish its raids.",
-                        "ja": "この戦略はSASの作戦遂行に確実に役立つだろう。",
-                        "note": "would = ～だろう（推量、確信がやや高い）。"
+                        "en": "While some experts support this theory, others remain skeptical.",
+                        "ja": "この理論を支持する専門家もいるが、懐疑的な者もいる。",
+                        "note": "While some...others: 対立意見の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'if it could be weighed' の仮定法はなぜ使われていますか？",
-                        "a": "「もし計量できたとすれば」。巨大すぎて実際には計量不可能だが、仮定することで規模を伝える反実仮想。"
+                        "q": "'While some claim...many historians argue' の議論構造を説明してください。",
+                        "a": "While(譲歩) + some claim(少数派の主張: 恩恵あり) + many argue(多数派の主張: 悪影響)。筆者は many historians 側に重みを置き、悪影響の証拠を詳述。"
                     },
                     {
-                        "q": "'would take' はどのような推量を示しますか？",
-                        "a": "「〜かかるだろう」。仮定法の帰結。if節の条件が成立した場合に予測される結果を述べる。"
+                        "q": "'divide and rule' 政策の目的と方法を説明してください。",
+                        "a": "目的: インドへの支配を維持する。方法: 異なる宗教的背景のインド人を互いに対立させる(turned against each other)。団結による反乱を防止。"
                     },
                     {
-                        "q": "'the largest living organism on Earth' はどのような事実を提示していますか？",
-                        "a": "地球上最大の生物がクジラなどの動物ではなく、菌類であるという意外な事実。読者の予想を裏切る導入。"
+                        "q": "'typically using the construction of railways as an example' はなぜ挿入されていますか？",
+                        "a": "恩恵主張者の典型的な根拠を示す挿入句。鉄道建設はインフラ整備の例。しかし筆者はこれを反論の前置きとして提示している。"
                     },
                     {
-                        "q": "この段落でハニーファンガスの規模はどのように説明されていますか？",
-                        "a": "地球上最大の生物。仮定法を使って「計量できたら」と表現するほどの巨大さ。"
+                        "q": "イギリスが行った文化的支配の具体的手段は何ですか？",
+                        "a": "インド人にイギリス人と同じ意見・道徳観・社会的嗜好を持つよう教育した(educated to have the same opinions, morals, and social preferences)。文化的同化政策。"
                     }
                 ],
                 "highlightPatterns": [
-                    "largest living organism",
-                    "belongs to"
+                    "While some claim that India benefited from British rule",
+                    "many historians argue that the country was negatively affected"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "仮定・推量",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "While some...many argue",
                 "practicePassage": {
-                    "en": "[出典: Honey Fungus]\nThe largest living organism on Earth is not a whale or other large animal. Rather, it belongs to the group of organisms which includes mushrooms and toadstools. It is a type of fungus commonly known as honey fungus, and its rootlike filaments spread underground throughout a huge area of forest in the US state of Oregon. DNA testing has confirmed that all the honey fungus in the area is from the same organism, and, based on its annual rate of growth, scientists estimate it could be over 8,000 years old. They also calculate that it would weigh around 35,000 tons if it were all gathered together.",
-                    "ja": "地球上最大の生物はクジラやその他の大型動物ではない。それはキノコやベニテングタケを含む生物群に属する。ナラタケとして一般的に知られる菌類の一種で、その根のような菌糸はアメリカのオレゴン州の広大な森林の地下に広がっている。DNA検査により、その地域のすべてのナラタケが同一の生物であることが確認されており、年間の成長率に基づき、科学者は8,000年以上の樹齢である可能性があると推定している。また、すべてを集めた場合、約35,000トンの重さになるだろうと計算している。",
+                    "en": "[出典: The British in India]\nWhile some claim that India benefited from British rule, typically using the construction of railways as an example, many historians argue that the country was negatively affected. In an effort to reinforce notions that British culture was superior, Indians were educated to have the same opinions, morals, and social preferences as the British. The British also implemented a policy known as \"divide and rule,\" which turned Indians from different religious backgrounds against each other. The British government used this strategy to maintain its control over India, as members of these religions had joined forces during the earlier rebellion. However, nationalist feelings among Indians increased from the early 1900s, and India eventually gained its independence in the late 1940s.",
+                    "ja": "インドがイギリス統治の恩恵を受けたと主張する人もいるが、典型的に鉄道建設を例に挙げて、多くの歴史家はその国が悪影響を受けたと主張している。英国文化が優れているという考えを強化する努力の中で、インド人はイギリス人と同じ意見、道徳観、社会的嗜好を持つように教育された。イギリスはまた「分割統治」として知られる政策を実施し、異なる宗教的背景を持つインド人たちを互いに対立させた。イギリス政府はインドに対する支配を維持するためにこの戦略を使用した。これらの宗教のメンバーが以前の反乱で団結していたからである。しかし1900年代初頭からインド人の間でナショナリストの感情が高まり、インドは最終的に1940年代後半に独立を達成した。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "名詞句の後置修飾と複合構造",
-                "subtitle": "Postmodification & Complex Noun Phrases",
-                "explanation": "準1級では名詞を後ろから修飾する構造（関係節、分詞句、前置詞句）が重層的に使われ、主語と動詞の距離が離れる長文が多いです。",
-                "sourceQuote": "employees who perform well in lower-level positions will eventually rise to positions they are not prepared for",
-                "sourceLocation": "Part 2A 全体",
+                "title": "Not all...are destined to（部分否定+運命の受動態）",
+                "subtitle": "Partial Negation with Passive Voice",
+                "explanation": "Not all + S + V は「全てのSが〜するわけではない」と部分否定を表す。are destined to + V は「〜する運命にある」。In contrast は対比のDM。議論文で例外を示す重要構文。",
+                "sourceQuote": "Not all intentional communities are destined to fall apart, however.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "employees who perform well in lower-level positions",
-                        "ja": "下位の職位で良い成績を上げた従業員",
-                        "note": "関係代名詞whoによる後置修飾。"
+                        "en": "Not all intentional communities are destined to fall apart, however.",
+                        "ja": "しかし、全ての意図的コミュニティが崩壊する運命にあるわけではない。",
+                        "note": "Not all(部分否定) + are destined to(運命の受動態): 例外の存在を示す"
                     },
                     {
-                        "en": "trade contracts that were only of benefit to the company",
-                        "ja": "会社にしか利益のない貿易契約",
-                        "note": "関係代名詞thatによる後置修飾（長い修飾）。"
+                        "en": "In contrast, when there are too few people in the 'family,' there is not enough collective knowledge to allow for effective decision-making.",
+                        "ja": "対照的に、「家族」内の人が少なすぎると、効果的な意思決定を可能にする十分な集合知がない。",
+                        "note": "In contrast: 対比DM。too few...not enough: 少なすぎる→不十分という因果"
                     },
                     {
-                        "en": "a type of fungus commonly known as honey fungus",
-                        "ja": "一般にナラタケとして知られる菌類の一種",
-                        "note": "過去分詞による後置修飾（known as...）。"
+                        "en": "Not all students who apply are accepted into the program.",
+                        "ja": "応募した学生全員がプログラムに受け入れられるわけではない。",
+                        "note": "Not all + S + V: 部分否定の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Established in 1600' の過去分詞はどのような後置修飾ですか？",
-                        "a": "「1600年に設立された」。過去分詞の分詞構文で、主語（East India Company）の補足情報を冒頭に置く。"
+                        "q": "'Not all intentional communities are destined to fall apart' の構文を分析してください。",
+                        "a": "Not all(部分否定) + are destined to(受動態+不定詞=運命づけられている) + fall apart(崩壊する)。「全てが崩壊する運命にあるわけではない」。前段落の失敗例との対比。"
                     },
                     {
-                        "q": "'one of the world's largest corporations' の名詞句構造を説明してください。",
-                        "a": "one of + 最上級 + 複数名詞 = 「世界最大の企業の一つ」。最上級を使った名詞句の後置修飾。"
+                        "q": "ダマヌールが成功している要因を2つ答えてください。",
+                        "a": "①オープンなコミュニケーション(open communication) ②実践的なアプローチ(practical approach)。理想主義だけでなく現実的な運営が鍵。"
                     },
                     {
-                        "q": "'which eventually gained control' の 'which' は何を指しますか？",
-                        "a": "先行する名詞（East India Company）を指す関係代名詞の非制限用法。追加情報として会社の歴史を述べる。"
+                        "q": "'In contrast' で対比されている2つの状況は何ですか？",
+                        "a": "多すぎる場合(25人超): 親密さの構築が困難。少なすぎる場合: 集合知が不十分で効果的な意思決定ができない。適正規模(15-20人)が重要。"
                     },
                     {
-                        "q": "東インド会社の発展過程をこの段落から要約してください。",
-                        "a": "1600年設立→世界最大級の企業に成長→インドの支配権を獲得→最終的に英国のインド統治へ。"
+                        "q": "コミュニティ内の緊張をどのように解消していますか？",
+                        "a": "ペンキ入りのおもちゃの銃で戦う遊び半分の模擬戦(playful mock battles)。深刻な対立を遊び化して解消する独自の方法。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Established in",
-                    "one of the world"
+                    "Not all intentional communities are destined to fall apart",
+                    "In contrast, when there are too few people"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "後置修飾",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Not all / In contrast",
                 "practicePassage": {
-                    "en": "[出典: The British in India]\nEstablished in 1600, the British-owned East India Company was one of the world's largest corporations for more than two centuries. By trading overseas with various countries, such as India and China, it was able to import luxury items from these countries into Britain. The British government received a portion of the company's vast profits, so it was more than willing to provide political support. Due to its size, power, and resources, which included a private army of hundreds of thousands of Indian soldiers, the company pressured India into accepting trade contracts that, in general, were only of benefit to the company. After winning a battle against a local ruler in the 1750s, the company seized control of one of the wealthiest provinces in India. As a result, the East India Company was no longer solely acting as a business but also as a political institution, and it began forcing Indian citizens to pay it taxes.",
-                    "ja": "1600年に設立されたイギリスの東インド会社は、2世紀以上にわたり世界最大の企業の一つだった。インドや中国などさまざまな国との海外貿易により、これらの国から贅沢品をイギリスに輸入することができた。イギリス政府は会社の莫大な利益の一部を受け取っていたため、政治的支援を喜んで提供した。その規模、権力、そして数十万のインド兵を含む資源により、会社はインドに対して一般的に会社だけに利益のある貿易契約を受け入れるよう圧力をかけた。1750年代に現地の支配者との戦闘に勝利した後、会社はインドで最も裕福な州の一つの支配権を掌握した。その結果、東インド会社はもはや単なる企業としてだけでなく政治機関としても行動するようになり、インド国民に税金の支払いを強制し始めた。",
+                    "en": "[出典: Intentional Communities]\nNot all intentional communities are destined to fall apart, however. The ongoing success of Damanhur, a spiritual and artistic collective near Turin, Italy, is attributed to open communication and a practical approach. Damanhur organizes its members into family-like groups of 15 to 20 people. The community has found that creating intimacy becomes difficult if a \"family\" has more than 25 people. In contrast, when there are too few people in the \"family,\" there is not enough collective knowledge to allow for effective decision-making. Damanhur's ideals, which are outlined in its constitution, are upheld by elected leaders, and tensions in the community are handled by holding playful mock battles where people fight with paint-filled toy guns.",
+                    "ja": "しかし、全ての意図的コミュニティが崩壊する運命にあるわけではない。イタリア・トリノ近郊の精神的・芸術的共同体であるダマヌールの継続的な成功は、オープンなコミュニケーションと実践的なアプローチに帰される。ダマヌールはメンバーを15〜20人の家族のようなグループに組織する。コミュニティは「家族」が25人を超えると親密さの構築が困難になることを発見した。対照的に、「家族」内の人が少なすぎると、効果的な意思決定を可能にする十分な集合知がない。ダマヌールの理想は憲法に概説され、選出されたリーダーによって維持されており、コミュニティ内の緊張はペンキ入りのおもちゃの銃で戦う遊び半分の模擬戦を行うことで処理される。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

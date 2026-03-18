@@ -1812,221 +1812,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "仮定法過去完了と推量表現",
-                "subtitle": "Past Subjunctive & Speculative Expressions",
-                "explanation": "本試験では仮定法過去完了（would have + p.p.）や推量表現（may have been, could have been）が頻出します。",
-                "sourceQuote": "A sturdily built shelf would have supported / may actually refer to",
-                "sourceLocation": "Part 1-3 全体",
+                "title": "仮定法過去完了 could have pp + 推量 may be -ing",
+                "subtitle": "Past Modal Perfect and Present Speculation",
+                "explanation": "could have + pp は「〜した可能性がある/〜できたかもしれない」と過去の可能性や推量を表す。may be + -ing は「〜しているかもしれない」と現在の推量を表す。歴史的考察に頻出。",
+                "sourceQuote": "She believes these could have been used to maintain the gardens there.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "A sturdily built shelf would have supported Salma's heavy books.",
-                        "ja": "頑丈に作られた棚ならサルマの重い本を支えられただろう。",
-                        "note": "would have supported = ～だったら支えられただろう（仮定法過去完了）。"
+                        "en": "She believes these could have been used to maintain the gardens there.",
+                        "ja": "彼女はこれらがそこの庭園を維持するために使われた可能性があると信じている。",
+                        "note": "could have been used: 過去の可能性の推量。「使われたかもしれない」"
                     },
                     {
-                        "en": "Ancient descriptions may actually refer to the gardens at Sennacherib's palace.",
-                        "ja": "古代の記述は実際にはセンナケリブの宮殿の庭園を指している可能性がある。",
-                        "note": "may actually refer = 実際には～を指している可能性がある（推量）。"
+                        "en": "Research by scholar Stephanie Dalley suggests that efforts to find the gardens may be focusing on the wrong location.",
+                        "ja": "学者ステファニー・ダリーの研究は、庭園を見つける努力が間違った場所に焦点を当てているかもしれないと示唆している。",
+                        "note": "suggests that + may be focusing: 研究に基づく推量。may be + -ing で現在進行形の推量"
                     },
                     {
-                        "en": "Richard may very well have committed cruel acts.",
-                        "ja": "リチャードは残酷な行為をした可能性が十分にある。",
-                        "note": "may very well have = ～した可能性が十分にある。"
+                        "en": "The ancient builders could have used advanced techniques unknown to us today.",
+                        "ja": "古代の建設者たちは、今日私たちには知られていない高度な技術を使った可能性がある。",
+                        "note": "could have used: 過去の可能性・推量の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "この段落で Dalley の研究はどのような新しい説を提示していますか？",
-                        "a": "バビロンの空中庭園の場所が従来考えられていたバビロンではなく、別の場所（ニネベ）にあった可能性。"
+                        "q": "'could have been used' はどのような意味ですか？",
+                        "a": "「使われた可能性がある」。could have + pp は過去の可能性の推量。水輸送システムが庭園維持に使われた\"かもしれない\"。確実ではないが可能性を示す。"
                     },
                     {
-                        "q": "'suggests that' はどのような論証の強さを示しますか？",
-                        "a": "断定ではなく推測・示唆。学術的な慎重さを示す表現。確定的な証拠はないが根拠ある推論であることを暗示。"
+                        "q": "'may be focusing on the wrong location' の時制は何ですか？",
+                        "a": "may be + -ing で現在進行形の推量。「（現在）間違った場所に焦点を当てているかもしれない」。研究者たちの現在の行動に対する推量。"
                     },
                     {
-                        "q": "'could have been built' の仮定法過去完了はなぜ使われていますか？",
-                        "a": "過去の可能性・推量を表す。「建設された可能性がある」。実際の事実は不確かだが、ありえた状況を述べる。"
+                        "q": "'If Dalley is correct, ancient descriptions...may actually refer to' の構文は何ですか？",
+                        "a": "If + 現在形(条件) + may + V(推量的帰結)。仮定法ではなく直説法。ダリーの説が正しい場合の可能性を述べている。"
                     },
                     {
-                        "q": "従来の説と Dalley の説の違いは何ですか？",
-                        "a": "従来: ネブカドネザル2世がバビロンに建設。Dalley: 別の王が別の都市に建設した可能性。"
+                        "q": "ダリーの主張の根拠を2つ答えてください。",
+                        "a": "①センナケリブのテキストに見事な高架庭園の記述がある ②センナケリブがニネヴェに水輸送の複雑なシステムを建設した。庭園維持に使われた可能性がある。"
                     }
                 ],
                 "highlightPatterns": [
-                    "could have",
                     "may be focusing on the wrong location",
-                    "suggests that"
+                    "could have been used to maintain the gardens"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "仮定・推量",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "could have pp / may be -ing",
                 "practicePassage": {
                     "en": "[出典: The Hanging Gardens of Babylon]\nResearch by scholar Stephanie Dalley suggests that efforts to find the gardens may be focusing on the wrong location. Dalley translated texts written by a king named Sennacherib, who lived a century before Nebuchadnezzar. The texts describe impressive raised gardens at Sennacherib's palace. Sennacherib, however, ruled in the city of Nineveh, 300 miles from Babylon. Dalley notes that Sennacherib also constructed complex systems for transporting water into Nineveh, and she believes these could have been used to maintain the gardens there. If Dalley is correct, ancient descriptions of the Hanging Gardens of Babylon may actually refer to the gardens at Sennacherib's palace.",
-                    "ja": "学者ステファニー・ダリーの研究は、庭園を見つける努力が間違った場所に焦点を当てている可能性を示唆している。ダリーはネブカドネザルの1世紀前に生きたセンナケリブという王が書いた文献を翻訳した。その文献にはセンナケリブの宮殿にある見事な高架式庭園が描かれている。しかしセンナケリブはバビロンから300マイル離れたニネベの都市を統治していた。ダリーは、センナケリブがニネベに水を運ぶための複雑なシステムも建設しており、それが庭園の維持に使われた可能性があると指摘している。もしダリーが正しければ、バビロンの空中庭園に関する古代の記述は実際にはセンナケリブの宮殿の庭園を指しているのかもしれない。",
+                    "ja": "学者ステファニー・ダリーの研究は、庭園を見つける努力が間違った場所に焦点を当てているかもしれないと示唆している。ダリーはネブカドネザルの1世紀前に生きていたセンナケリブという王が書いたテキストを翻訳した。そのテキストにはセンナケリブの宮殿にある見事な高架庭園が記述されている。しかしセンナケリブはバビロンから300マイル離れたニネヴェの都市を統治していた。ダリーはセンナケリブがニネヴェに水を輸送する複雑なシステムも建設したことに注目し、これらがそこの庭園を維持するために使われた可能性があると信じている。ダリーが正しければ、バビロンの空中庭園に関する古代の記述は実際にはセンナケリブの宮殿の庭園を指しているかもしれない。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "同類・対照の接続表現",
-                "subtitle": "Similarity & Contrast Connectors",
-                "explanation": "Part 2の空所補充問題では同類（Similarly）・対照（In contrast）・逆接（Nonetheless）の接続表現の区別が重要です。",
-                "sourceQuote": "Nonetheless / Similarly / In contrast",
-                "sourceLocation": "Part 2 全体",
+                "title": "despite + 完了動名詞（譲歩の逆説）",
+                "subtitle": "Despite + Perfect Gerund for Concession",
+                "explanation": "despite + having + pp は「〜したにもかかわらず」と完了した事実に反する結果を述べる譲歩表現。期待に反する結果を強調する高度な構文。",
+                "sourceQuote": "Aquaculture did nothing to relieve the pressure on wild fish populations, despite having greatly increased the production of farmed fish.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "Nonetheless, historians have discovered sufficient evidence.",
-                        "ja": "それにもかかわらず、歴史家は十分な証拠を発見した。",
-                        "note": "nonetheless = それにもかかわらず（逆接）。"
+                        "en": "In eight out of nine cases, aquaculture did nothing to relieve the pressure on wild fish populations, despite having greatly increased the production of farmed fish.",
+                        "ja": "9件中8件で、養殖魚の生産を大幅に増加させたにもかかわらず、養殖は天然魚の資源への圧力を軽減するのに何の役にも立たなかった。",
+                        "note": "despite having greatly increased: 完了動名詞の譲歩。「大幅に増加させたにもかかわらず」"
                     },
                     {
-                        "en": "Similarly, it is now believed that farmed fish has encouraged greater consumption.",
-                        "ja": "同様に、養殖魚がより多くの消費を促したと考えられている。",
-                        "note": "similarly = 同様に（類似性）。"
+                        "en": "It has often been suggested that aquaculture should be promoted as an alternative to commercial fishing.",
+                        "ja": "養殖は商業漁業の代替として推進されるべきだとしばしば提案されてきた。",
+                        "note": "It has been suggested that + should: 非人称受動態+提案。have been + pp で経験・継続。"
                     },
                     {
-                        "en": "In contrast, some researchers take a different view.",
-                        "ja": "対照的に、一部の研究者は異なる見解を持つ。",
-                        "note": "in contrast = 対照的に（対比）。"
+                        "en": "Despite having studied all night, she failed the exam.",
+                        "ja": "一晩中勉強したにもかかわらず、試験に落ちた。",
+                        "note": "despite + having pp: 完了動名詞の譲歩の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Fortunately, the situation was not permanent' の 'Fortunately' はどのような評価を加えていますか？",
-                        "a": "「幸いにも」。前段の厳しい状況に対して、好転したことへの肯定的評価。読者の期待を切り替える接続副詞。"
+                        "q": "'despite having greatly increased' の 'having increased' はなぜ完了動名詞ですか？",
+                        "a": "主文の動詞(did nothing)より前に完了した行為を示す。「(すでに)大幅に増加させた」という完了した事実にもかかわらず。despite + -ing ではただの同時性になる。"
                     },
                     {
-                        "q": "'started focusing on promoting single malt whiskey as a premium product' の戦略転換は何ですか？",
-                        "a": "大量生産・低価格路線から、シングルモルトを高級品としてブランド化する戦略への転換。"
+                        "q": "'it has often been suggested that aquaculture should be promoted' の構文を分析してください。",
+                        "a": "It(形式主語) + has been suggested(現在完了受動態) + that + should be promoted(提案のshould)。「〜すべきとしばしば提案されてきた」。"
                     },
                     {
-                        "q": "スコッチウイスキー産業の復活の要因は何ですか？",
-                        "a": "シングルモルトの高級ブランド化と、品質重視のマーケティング戦略への転換。"
+                        "q": "養殖が天然魚保護に役立たなかった理由を研究結果から説明してください。",
+                        "a": "9件中8件で養殖魚の生産増加が天然魚への圧力を軽減しなかった。養殖は代替ではなく、総消費量の増加をもたらした（次段落で詳述）。"
                     },
                     {
-                        "q": "'not permanent' はどのような逆転を示唆していますか？",
-                        "a": "1980年代の不況は一時的なもので、永続的ではなかったこと。悪い状況が好転する可能性を示す。"
+                        "q": "'the aquaculture industry has not had the effect that was intended' の 'that was intended' は何を修飾していますか？",
+                        "a": "the effect(効果)を修飾する関係代名詞。「意図された効果」=天然魚保護。実際には期待通りの効果がなかった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Fortunately",
-                    "not permanent",
-                    "started focusing on"
+                    "despite having greatly increased the production of farmed fish"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "接続表現",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "despite having pp",
                 "practicePassage": {
-                    "en": "[出典: The Rebirth of the Scottish Whiskey Industry]\nFortunately, the situation was not permanent. Scottish whiskey producers started focusing on promoting high-quality products known as single-malt whiskeys. Also important were their efforts to inform consumers about the merits of these whiskeys, why they commanded a higher price, and how they could be paired with food or cigars. This strategy was highly successful and encouraged consumers abroad to open their wallets for premium Scottish whiskeys. This, in turn, led to whiskey makers in other nations imitating the strategy and creating their own luxury brands. Today, interest in and demand for whiskey has never been stronger.",
-                    "ja": "幸いなことに、その状況は永続的なものではなかった。スコッチウイスキーの生産者は、シングルモルトウイスキーとして知られる高品質製品の宣伝に注力し始めた。同様に重要だったのは、これらのウイスキーの長所、なぜ高い価格がつくのか、料理や葉巻とどう組み合わせられるかを消費者に知らせる努力だった。この戦略は大成功を収め、海外の消費者にプレミアムスコッチウイスキーに財布の紐を緩めるよう促した。これにより、他国のウイスキーメーカーもこの戦略を模倣し、独自の高級ブランドを生み出すことにつながった。現在、ウイスキーへの関心と需要はかつてないほど高まっている。",
+                    "en": "[出典: Aquaculture and Wild Fish Stocks]\nFor decades, the world's wild fish populations have been declining, mainly due to overfishing. As the situation has become increasingly serious, it has often been suggested that aquaculture, also known as fish farming, should be promoted as an alternative to commercial fishing. It appears, however, that the aquaculture industry has not had the effect that was intended. In a recent study, researchers analyzed historical data on both aquaculture and traditional fishing over a 44-year period. In eight out of nine cases, aquaculture did nothing to relieve the pressure on wild fish populations, despite having greatly increased the production of farmed fish.",
+                    "ja": "数十年にわたり、世界の天然魚の個体数は主に乱獲のために減少してきた。状況がますます深刻になるにつれ、養殖（魚の養殖）を商業漁業の代替として推進すべきだとしばしば提案されてきた。しかし、養殖産業は意図された効果をもたらしていないようだ。最近の研究で、研究者たちは44年間にわたる養殖と伝統的な漁業の両方の歴史的データを分析した。9件中8件で、養殖魚の生産を大幅に増加させたにもかかわらず、養殖は天然魚の資源への圧力を軽減するのに何の役にも立たなかった。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "関係代名詞と関係副詞の複雑な用法",
-                "subtitle": "Complex Relative Clauses",
-                "explanation": "長文では関係代名詞・関係副詞が多層的に使われ、先行詞の特定が重要です。which は前文全体を指すことがあります。",
-                "sourceQuote": "which was made worse by an economic downturn / which unfortunately have to be fed smaller fish",
-                "sourceLocation": "Part 2B, Part 3A",
+                "title": "譲歩の while + -ing + 主張の believe/may",
+                "subtitle": "Concessive While-Clause with Hedged Claims",
+                "explanation": "while + -ing は「〜を認めつつも」と部分的に認めた上で反論する譲歩表現。believe + may は「〜かもしれない」と慎重な主張を示す。議論文のバランスを取る高度な構文。",
+                "sourceQuote": "While acknowledging that some of Richard's policies were beneficial, many historians believe he was far from a generous or caring king.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The falling demand for whiskey, which was made worse by an economic downturn, had created a massive surplus.",
-                        "ja": "ウイスキー需要の減少は不景気によってさらに悪化し大量の余剰を生んだ。",
-                        "note": "which = the falling demand を先行詞とする非制限用法。"
+                        "en": "While acknowledging that some of Richard's policies were beneficial, many historians believe he was far from a generous or caring king and may very well have committed cruel acts.",
+                        "ja": "リチャードの政策のいくつかが有益であったことを認めつつも、多くの歴史家は彼が寛大で思いやりのある王からは程遠く、残酷な行為を犯した可能性が十分にあると信じている。",
+                        "note": "while acknowledging(譲歩) + believe(主張) + may have committed(推量): 3段階の議論構造"
                     },
                     {
-                        "en": "Species such as salmon and tuna, which unfortunately have to be fed smaller fish.",
-                        "ja": "サーモンやマグロなどの魚種は残念ながら小さな魚を餌にする必要がある。",
-                        "note": "which = species を先行詞とする非制限用法。"
+                        "en": "In the end, it is probably wisest to see Richard as a ruler who operated in a manner typical of the time in which he lived.",
+                        "ja": "結局、リチャードを彼が生きた時代に典型的な方法で統治した支配者と見なすのがおそらく最も賢明である。",
+                        "note": "it is wisest to V: 形式主語+最上級。in which he lived: 関係代名詞+前置詞"
                     },
                     {
-                        "en": "The time in which he lived.",
-                        "ja": "彼が生きた時代。",
-                        "note": "in which = when の形式的表現。"
+                        "en": "While admitting the plan has merits, the committee decided against it.",
+                        "ja": "その計画に利点があることを認めつつも、委員会はそれに反対する決定をした。",
+                        "note": "While admitting: 譲歩+分詞。「認めつつも」"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Debate continues, however, about how Richard became king' の 'however' は何を示しますか？",
-                        "a": "「しかしながら」。前段（リチャード擁護の議論）に対して、議論がまだ続いていること・反論の存在を示す逆接。"
+                        "q": "'While acknowledging that...many historians believe' の論理構造を説明してください。",
+                        "a": "while(譲歩) + acknowledging(部分的承認) + believe(主張)。「有益な政策もあったことは認めるが、それでも寛大な王ではなかった」。部分承認→反論のパターン。"
                     },
                     {
-                        "q": "'in which' は何を先行詞としていますか？",
-                        "a": "前置詞 + 関係代名詞。'his two years in power' などの名詞句を先行詞とし、その期間内の出来事を説明する。"
+                        "q": "'may very well have committed cruel acts' の 'very well' はどのような役割ですか？",
+                        "a": "mayの可能性を強調する副詞句。「十分に〜した可能性がある」。単なるmay(かもしれない)より可能性が高いことを示す。"
                     },
                     {
-                        "q": "リチャード3世についての議論が続いている理由は何ですか？",
-                        "a": "王位取得の経緯と在位中の行為について、擁護派と批判派の見解が分かれているため。"
+                        "q": "'far from a generous or caring king' の 'far from' はどのような意味ですか？",
+                        "a": "「〜からは程遠い」。寛大で思いやりのある王とは全く違ったという強い否定。far from + 形容詞/名詞: 強い否定表現。"
                     },
                     {
-                        "q": "'suggests that' はこの段落でどのような証拠の扱いですか？",
-                        "a": "断定を避けた表現。歴史的証拠が完全ではないため、推測・示唆にとどめている。"
+                        "q": "筆者の最終的な結論は何ですか？",
+                        "a": "リチャードを時代に典型的な統治者として見るのが最も賢明(probably wisest)。善悪の極端な評価ではなく、時代的文脈で理解すべき。"
                     }
                 ],
                 "highlightPatterns": [
-                    "in which",
-                    "however",
-                    "Debate continues"
+                    "while acknowledging that some of Richard's policies were beneficial, many historians believe he was far from"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "関係詞",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "while -ing + believe/may",
                 "practicePassage": {
                     "en": "[出典: Richard III]\nDebate continues, however, about how Richard became king and the things he did during his two years in power. The Richard III Society points to his notable social and political reforms and claims that he is innocent of the murders that were the source of his unfortunate reputation. However, while acknowledging that some of Richard's policies were beneficial, many historians believe he was far from a generous or caring king and may very well have committed cruel acts. In the end, it is probably wisest to see Richard as a ruler who operated in a manner typical of the time in which he lived, and to realize that exactly how he came to power may not really matter that much.",
-                    "ja": "しかし、リチャードがどのように王になったか、また在位2年間に行ったことについての議論は続いている。リチャード3世協会は彼の注目すべき社会的・政治的改革を指摘し、不幸な評判の原因となった殺人については無実だと主張している。しかし、リチャードの政策の一部が有益だったことを認めながらも、多くの歴史家は彼が寛大で思いやりのある王からは程遠く、残酷な行為を行った可能性が十分あると考えている。結局のところ、リチャードをその生きた時代に典型的なやり方で統治した支配者と見なし、彼がどのように権力を得たかは実際にはそれほど重要ではないかもしれないと認識するのがおそらく最も賢明だろう。",
+                    "ja": "しかし、リチャードがどのようにして王になったか、そして在位2年間に何をしたかについての議論は続いている。リチャード3世協会は彼の注目すべき社会的・政治的改革を指摘し、不幸な評判の原因となった殺人について彼は無実だと主張する。しかし、リチャードの政策のいくつかが有益であったことを認めつつも、多くの歴史家は彼が寛大で思いやりのある王からは程遠く、残酷な行為を犯した可能性が十分にあると信じている。結局、リチャードを彼が生きた時代に典型的な方法で統治した支配者と見なすのがおそらく最も賢明であり、彼がどのようにして権力を握ったかは実際にはそれほど重要ではないかもしれないと認識すべきだ。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "無生物主語と使役構文",
-                "subtitle": "Inanimate Subjects & Causative Patterns",
-                "explanation": "英語では無生物を主語にして結果・影響を表す構文が多用されます。lead to, cause, make, encourage, prevent 等が頻出です。",
-                "sourceQuote": "Falling sales led to the closure / This had led the whiskey industry to assume",
-                "sourceLocation": "Part 3A 全体",
+                "title": "believe + O + to be C（SVOC推量構文）",
+                "subtitle": "SVOC Pattern with Infinitive",
+                "explanation": "believe/consider/assume + O + to be + C は「OがCであると信じる/考える」。S + believed + O + to be + C の受動態は O + was believed + to be + C。推量や判断を述べる高度な構文。",
+                "sourceQuote": "Many experts believed the decline to be irreversible.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Falling sales led to the closure of a number of long-established whiskey makers.",
-                        "ja": "売上減少が老舗ウイスキーメーカーの閉鎖をもたらした。",
-                        "note": "lead to + 名詞 = ～をもたらす（無生物主語）。"
+                        "en": "Many experts believed the decline to be irreversible.",
+                        "ja": "多くの専門家はその衰退が不可逆的であると信じていた。",
+                        "note": "believed(V) + the decline(O) + to be irreversible(C): SVOC構文"
                     },
                     {
                         "en": "This had led the whiskey industry to assume its consumer base was guaranteed.",
-                        "ja": "これがウイスキー業界に消費者基盤が保証されていると想定させた。",
-                        "note": "lead A to do = Aに～させる（使役）。"
+                        "ja": "これにより、ウイスキー業界は消費者基盤が保証されていると思い込んでいた。",
+                        "note": "had led(V) + the industry(O) + to assume(C): lead+O+to V使役。assume以下も入れ子のSVOC。"
                     },
                     {
-                        "en": "The strategy encouraged consumers abroad to open their wallets.",
-                        "ja": "この戦略が海外の消費者に財布を開かせた。",
-                        "note": "encourage A to do = Aに～するよう促す。"
+                        "en": "Scientists consider the evidence to be inconclusive.",
+                        "ja": "科学者たちはその証拠は決定的でないと考えている。",
+                        "note": "consider + O + to be + C: SVOC推量の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'The idea... seems logical' の無生物主語構文を説明してください。",
-                        "a": "「その考えは論理的に思える」。The idea（無生物）が主語。人ではなく概念を主語にして議論を客観的に述べる。"
+                        "q": "'believed the decline to be irreversible' の構文を分析してください。",
+                        "a": "believed(V) + the decline(O) + to be irreversible(C)。SVOC構文。「衰退が不可逆的であると信じた」。= believed that the decline was irreversible のthat節を圧縮した形。"
                     },
                     {
-                        "q": "'it has not had the effect that was intended' はどのような結果を示しますか？",
-                        "a": "「意図された効果を生んでいない」。養殖が天然魚の保護に役立つという期待が裏切られたこと。"
+                        "q": "'This had led the whiskey industry to assume' の 'had led' はなぜ過去完了ですか？",
+                        "a": "1980年代以前(より前の時点)から業界が思い込んでいた→1980年代の衰退という時系列。過去のある時点より前の継続的影響を示す。"
                     },
                     {
-                        "q": "'encouraged' はどのような因果関係で使われていますか？",
-                        "a": "「促進した・助長した」。養殖の成長が別の問題を促進したという意図せぬ因果関係。"
+                        "q": "ウイスキー産業が衰退した主な原因を2つ答えてください。",
+                        "a": "①ライバル飲料(ウォッカ、ラム)の積極的マーケティングにより若者の嗜好が変化 ②若い世代が家族の伝統(ウイスキーを飲む習慣)に従わなくなった。"
                     },
                     {
-                        "q": "この段落で養殖の期待と現実のギャップは何ですか？",
-                        "a": "期待: 養殖で天然魚の乱獲を減らせる。現実: 養殖は乱獲問題を解決していない。"
+                        "q": "'paid a heavy price in the form of falling sales' はどのような比喩表現ですか？",
+                        "a": "「大きな代償を払った」。pay a heavy price: 重大な結果を被る。in the form of: 「〜という形で」代償の具体的内容(売上減少)を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "led to",
-                    "encouraged",
-                    "seems logical"
+                    "believed the decline to be irreversible"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "無生物主語",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "believed O to be C",
                 "practicePassage": {
-                    "en": "[出典: Aquaculture and Wild Fish Stocks]\nThe idea that a resource can be conserved by using another, more easily replaceable one seems logical. However, cases in various industries suggest that the opposite is true. For example, it was once assumed that replacing traditional energy sources with renewable ones would lower demand for fossil fuels, but the increased supply has actually led to greater overall energy consumption. Similarly, it is now believed that the availability of farmed fish has merely encouraged people to consume fish in greater quantities.",
-                    "ja": "ある資源をより容易に置き換え可能な別の資源で保全できるという考えは論理的に思える。しかし、さまざまな産業の事例は、その逆が真実であることを示唆している。例えば、従来のエネルギー源を再生可能エネルギーに置き換えれば化石燃料の需要が下がると考えられていたが、供給の増加は実際にはエネルギー消費全体の増大につながった。同様に、養殖魚の入手可能性は単に人々がより大量の魚を消費することを促しただけだと現在考えられている。",
+                    "en": "[出典: The Rebirth of the Scottish Whiskey Industry]\nDuring the 1980s, the Scottish whiskey industry was in a slump. Falling sales led to the closure of a number of long-established whiskey makers, and many experts believed the decline to be irreversible. At that time, rival beverages, such as vodka and rum, were aggressively marketed, so they became fashionable among younger people. Prior to the 1980s, the custom of consuming whiskey had been passed down from generation to generation. This had led the whiskey industry to assume its consumer base was guaranteed, but the younger generation became less likely to follow family traditions, and the industry paid a heavy price in the form of falling sales.",
+                    "ja": "1980年代、スコットランドのウイスキー産業は不振だった。売上減少により老舗ウイスキーメーカーが多数閉鎖され、多くの専門家はその衰退が不可逆的であると信じていた。当時、ウォッカやラムなどのライバル飲料が積極的に宣伝され、若者の間で流行した。1980年代以前は、ウイスキーを飲む習慣は世代から世代へ受け継がれていた。これにより、ウイスキー業界は消費者基盤が保証されていると思い込んでいたが、若い世代は家族の伝統に従う可能性が低くなり、業界は売上減少という形で大きな代償を払った。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

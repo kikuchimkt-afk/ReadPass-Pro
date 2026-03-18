@@ -2125,223 +2125,217 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "仮定法過去完了と条件分岐",
-                "subtitle": "Past Perfect Subjunctive & Conditional Branching",
-                "explanation": "本試験の長文読解では仮定法過去完了（had + pp）が頻出し、実際には起こらなかった状況を仮定する構文が読解の鍵となります。",
+                "title": "If + had been pp, would have been（仮定法過去完了の反事実）",
+                "subtitle": "Third Conditional for Counterfactual Analysis",
+                "explanation": "If + had + pp, there would have been は「もし〜だったら、〜だったであろう」と過去の事実に反する仮定を述べる。歴史的・科学的分析で使われ、実際には起こらなかった結果を考察する。",
                 "sourceQuote": "If different materials or starting times had been chosen, there would have been numerous scenarios where Simon ended up paying Ehrlich.",
-                "sourceLocation": "Part 3B 第2段落",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
                         "en": "If different materials or starting times had been chosen, there would have been numerous scenarios where Simon ended up paying Ehrlich.",
-                        "ja": "異なる材料や開始時期が選ばれていたら、サイモンがエーリッヒに支払う多くのシナリオがあっただろう。",
-                        "note": "仮定法過去完了。If + had + pp → would have + pp。"
+                        "ja": "もし異なる材料や開始時期が選ばれていたら、サイモンがエーリッヒに支払うことになるシナリオが多数あっただろう。",
+                        "note": "If + had been chosen(仮定法過去完了) + would have been(帰結): 反事実的条件。実際は選ばれなかった"
                     },
                     {
-                        "en": "there would have been a large increase in prices if the bet had been delayed",
-                        "ja": "賭けが遅れていたら価格の大幅な上昇があっただろう",
-                        "note": "条件節の倒置パターン。"
+                        "en": "There would have been a large increase in prices over ten years if the bet had been delayed.",
+                        "ja": "もし賭けが遅らされていたら、10年間で価格の大幅な上昇があっただろう。",
+                        "note": "倒置型: 帰結節(would have been) + if節(had been delayed)。条件と帰結の位置が逆"
                     },
                     {
-                        "en": "He was unable to raise enough money to buy his family's freedom, so escape became the only option.",
-                        "ja": "十分な金を集められなかったので逃亡が唯一の選択肢となった。",
-                        "note": "直説法（事実）との対比。実際に起こった出来事。"
+                        "en": "If the experiment had been conducted differently, the results would have changed.",
+                        "ja": "もし実験が異なる方法で行われていたら、結果は変わっていただろう。",
+                        "note": "仮定法過去完了の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Bet]\nTen years later, Simon won — prices of the metals fell by around 50 percent overall when adjusted for inflation. However, economists say that, to some extent, Simon got lucky. If different materials or starting times had been chosen, there would have been numerous scenarios where Simon ended up paying Ehrlich. In the 1990s, for example, factors like the collapse of Communist governments in Eastern Europe led to substantial declines in raw material prices, and in the years following, they tended to rise due to the recovery of the formerly Communist economies and reductions in supply. Therefore, there would have been a large increase in prices over ten years if the bet had been delayed. It is now generally agreed that Simon was correct overall, however, and would inevitably win on a longer timescale.",
-                    "ja": "10年後、サイモンが勝った。金属の価格は全体で約50パーセント下落した。しかし、エーリッヒが勝利に近かった可能性はある。もし異なる素材が選ばれていたら、結果は異なっていただろう。例えば、もしリンが選ばれていたら、エーリッヒが賭けに勝っていたはずだ。また、もし賭けがあと数年遅れていたら、金属の価格が上昇し始めたため、エーリッヒが勝者だったかもしれない。それにもかかわらず、サイモンの勝利は当時の経済学者に大きな影響を与え、資源の枯渇に関する楽観的な見方を強化した。",
+                    "ja": "10年後、サイモンが勝った——金属の価格はインフレ調整後で全体として約50%下落した。しかし経済学者によると、サイモンはある程度幸運だった。もし異なる材料や開始時期が選ばれていたら、サイモンがエーリッヒに支払うことになるシナリオが多数あっただろう。例えば1990年代には、東ヨーロッパの共産主義政府の崩壊などの要因が原材料価格の大幅な下落をもたらし、その後の数年間は旧共産主義経済の回復と供給の減少により価格は上昇する傾向にあった。したがって、もし賭けが遅らされていたら、10年間で価格の大幅な上昇があっただろう。しかし現在、サイモンが全体として正しく、より長い時間軸では必ず勝っていただろうということが一般的に同意されている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'If different materials had been chosen' の仮定法過去完了はなぜ使われていますか？",
-                        "a": "過去の反実仮想。「もし異なる素材が選ばれていたならば」。実際には選ばれなかったが、選ばれていれば結果が違ったことを示す。"
+                        "q": "'If different materials had been chosen, there would have been' の仮定法を分析してください。",
+                        "a": "If + had been chosen(過去完了受動態=仮定) + would have been(助動詞+完了=帰結)。「選ばれていたなら〜あっただろう」。実際は選ばれなかった反事実。"
                     },
                     {
-                        "q": "'would have been different' の帰結節は何を意味しますか？",
-                        "a": "「結果は異なっていただろう」。仮定法過去完了の帰結。if節の条件が真であった場合の推定結果。"
+                        "q": "サイモンが「幸運だった」と言われる理由は何ですか?",
+                        "a": "選んだ材料と時期が有利だった。異なる条件なら負けるシナリオも多数あった。1990年代の共産主義崩壊による価格下落も有利に働いた。"
                     },
                     {
-                        "q": "'had been delayed' はどのような仮定法ですか？",
-                        "a": "「もし遅れていたなら」。過去完了形の仮定。実際には遅れなかったが、遅れていれば別の結果になったことを示す。"
+                        "q": "'would inevitably win on a longer timescale' の 'inevitably' はなぜ使われていますか?",
+                        "a": "「必然的に」。短期的には運の要素があるが、長期的にはサイモンの理論(人間の創造性が資源問題を解決する)が正しいことが一般的に認められている。"
                     },
                     {
-                        "q": "この段落でサイモンの勝利がいかに僅差だったかを説明してください。",
-                        "a": "素材や時期が異なればエーリッヒが勝っていた。リンなら勝利、数年遅ければ金属価格上昇でエーリッヒの勝ち。"
+                        "q": "'when adjusted for inflation' はどういう意味ですか?",
+                        "a": "「インフレ調整後で」。物価上昇分を差し引いた実質価格で比較。名目価格ではなく実質価格が真の比較基準。"
                     }
                 ],
                 "highlightPatterns": [
-                    "had been chosen",
-                    "would have been",
-                    "had been delayed"
+                    "If different materials or starting times had been chosen, there would have been numerous scenarios",
+                    "if the bet had been delayed"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "仮定法過去完了"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "If had been / would have been"
             },
             {
                 "id": "fp2",
-                "title": "接続詞・ディスコースマーカーの識別",
-                "subtitle": "Connectors & Discourse Markers",
-                "explanation": "本試験では文と文の論理関係を示す接続詞の空所補充が出題されます。因果・逆接・追加・具体例などのパターンを正確に識別する力が必要です。",
-                "sourceQuote": "( 27 ), the body can no longer adjust sugar levels.\n( 31 ), this gives argonauts a considerable advantage",
-                "sourceLocation": "Part 2A & 2B",
+                "title": "Although...may create the illusion of（表面的公平の幻想）",
+                "subtitle": "Concession Exposing False Appearance",
+                "explanation": "Although + S + may create the illusion of は「〜が公平の幻想を生み出すかもしれないが」と表面的な反論を認めつつ、実態は異なると暴露する。社会制度批判の高度な議論構造。",
+                "sourceQuote": "Although things like college scholarships for minorities may create the illusion of fairness, meritocracy can often be manipulated.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "As a result, the body can no longer adjust sugar levels.",
-                        "ja": "その結果、体はもはや血糖値を調節できなくなる。",
-                        "note": "As a result＝因果関係の結果を示す。"
+                        "en": "Although things like college scholarships for minorities may create the illusion of fairness, meritocracy can often be manipulated.",
+                        "ja": "マイノリティ向けの大学奨学金のようなものが公平の幻想を生み出すかもしれないが、能力主義はしばしば操作されうる。",
+                        "note": "Although(譲歩) + illusion of fairness(幻想) + can be manipulated(実態): 見かけと実態の乖離"
                     },
                     {
-                        "en": "In fact, this gives argonauts a considerable advantage.",
-                        "ja": "実際、これはアルゴノートに大きな優位性を与える。",
-                        "note": "In fact＝前文の主張を強化・補足する。"
+                        "en": "While these attempts initially led to improved admission and hiring rates for disadvantaged people, there are indications that people with higher incomes have come up with ways to gain an unfair share.",
+                        "ja": "これらの試みは当初、不利な立場の人々の入学率と採用率の改善につながったが、高所得者が不公平な分け前を得る方法を考え出したという兆候がある。",
+                        "note": "While initially(当初は改善) + there are indications that(しかし兆候がある): 当初の成功→後の悪化"
                     },
                     {
-                        "en": "However, Naef was only partially correct.",
-                        "ja": "しかしネーフは部分的にしか正しくなかった。",
-                        "note": "However＝対比・逆接を示す。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Meritocracy]\nFurthermore, it appears that attempts to implement meritocracy can be problematic. In one disturbing psychological experiment, managers were shown statements about a company's values and then instructed to decide on bonus payments for employees. In cases where the statements emphasized that the company was a meritocracy, subjects awarded larger amounts to males than they did to females with identical performance evaluations. When shown statements that did not mention meritocracy, however, this phenomenon did not appear. It has been suggested that this reflects the belief that operating in an organization that emphasizes it is a meritocracy makes people neglect to examine their own behavior, and without this self-assessment, they are more likely to show bias.",
-                    "ja": "さらに、メリトクラシーを実施しようとする試みは問題をはらむ可能性がある。研究によると、組織がメリトクラシーに基づく方針を公式に採用すると、管理者はかえってバイアスのある判断をしやすくなることが示されている。これは「メリトクラシーのパラドックス」と呼ばれ、公正な制度であると信じることで、自分の判断が公平であると過信し、無意識の偏見に対する警戒心が薄れるためだと考えられている。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'Furthermore' はどのような論理展開を示しますか？",
-                        "a": "「さらに」。前段落のメリトクラシーの問題点に加えて、実施上の問題という新たな論点を追加する接続副詞。"
-                    },
-                    {
-                        "q": "'it appears that attempts to implement meritocracy can be problematic' の 'it appears that' はどのような表現ですか？",
-                        "a": "「〜であるように見える」。断定を避けた慎重な学術的表現。研究結果に基づく推論であることを示す。"
-                    },
-                    {
-                        "q": "'can be problematic' の 'can' はどのような可能性を示しますか？",
-                        "a": "「問題をはらむ可能性がある」。常にそうではないが、そうなり得るという潜在的可能性。"
-                    },
-                    {
-                        "q": "メリトクラシーのパラドックスとは何ですか？",
-                        "a": "公正な制度を採用していると信じることで、管理者がバイアスに対する警戒心を失い、かえって偏った判断をしやすくなること。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "Furthermore",
-                    "it appears that",
-                    "problematic"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "接続詞"
-            },
-            {
-                "id": "fp3",
-                "title": "受動態の多様なパターン",
-                "subtitle": "Diverse Passive Voice Patterns",
-                "explanation": "本試験では受動態が多様な形で使われています。be + pp の基本形だけでなく、get受動態、使役受動態、完了受動態など複数のパターンを正確に読み取る力が必要です。",
-                "sourceQuote": "Smalls was taken to work on a Confederate ship",
-                "sourceLocation": "Part 3A 第2段落",
-                "examples": [
-                    {
-                        "en": "Smalls was taken to work on a Confederate ship.",
-                        "ja": "スモールズは南軍の船で働かされた。",
-                        "note": "was taken＝受動態。強制的に連れて行かれた。"
-                    },
-                    {
-                        "en": "Meritocracy is widely regarded as an ideal basis for a fair society.",
-                        "ja": "能力主義は公正な社会の理想的な基盤として広く認められている。",
-                        "note": "is regarded as＝～とみなされている。"
-                    },
-                    {
-                        "en": "if their performance slips, they face the threat of demotion or firing",
-                        "ja": "パフォーマンスが低下すると、降格や解雇の脅威に直面する",
-                        "note": "受動態の名詞化。firing = being fired。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: A Daring Escape]\nRobert Smalls was born in South Carolina in the United States in 1839, a time when slavery was common. He was the son of an enslaved woman, and when he was still only a boy, his mother persuaded her owner to send Smalls to work on the docks in Charleston City, believing her son would be safer there. Smalls later married an enslaved woman and had two children, but he constantly feared they would be sold to a different owner and he would never see them again. He was unable to raise enough money to buy his family's freedom, so escape became the only option.",
-                    "ja": "ロバート・スモールズは1839年にアメリカのサウスカロライナ州で生まれた。当時、奴隷制度はアメリカ南部で一般的であった。スモールズ自身も奴隷として生まれ、幼い頃に母親とともに売られた。彼の母親は、スモールズが奴隷制度の厳しさを直接目にするよう意図的に仕向け、彼が自由を求める意志を持つことを願った。彼女はまた、所有者を説得してスモールズをチャールストンの港で働かせ、そこで彼は船の操縦技術を習得した。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'was born in South Carolina in 1839, a time when slavery was common' の同格表現を説明してください。",
-                        "a": "「1839年、奴隷制度が一般的だった時代に」。a time when... が1839年を補足説明する同格の名詞句。"
-                    },
-                    {
-                        "q": "'was common in the American South' の受動態はなぜ使われていますか？",
-                        "a": "「アメリカ南部で一般的だった」。奴隷制度の状態を客観的に述べる描写。歴史的事実の提示。"
-                    },
-                    {
-                        "q": "'persuaded her owner to send Smalls' の不定詞はどのような用法ですか？",
-                        "a": "persuade + 人 + to不定詞 = 「〜するよう説得する」。所有者にスモールズを港で働かせるよう説得した。"
-                    },
-                    {
-                        "q": "スモールズの母親の戦略は何でしたか？",
-                        "a": "奴隷制の厳しさを直接見せて自由への意志を育て、港で働かせて船の操縦技術を習得させた。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "was born",
-                    "was common",
-                    "feared they would"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "受動態"
-            },
-            {
-                "id": "fp4",
-                "title": "動名詞と不定詞の使い分け",
-                "subtitle": "Gerund vs. Infinitive Patterns",
-                "explanation": "本試験では動名詞（-ing）と不定詞（to do）が目的語として使い分けられる場面が多数あります。動詞ごとの文法パターンを正確に把握する力が必要です。",
-                "sourceQuote": "his mother persuaded her owner to send Smalls to work on the docks",
-                "sourceLocation": "Part 3A 第1段落",
-                "examples": [
-                    {
-                        "en": "his mother persuaded her owner to send Smalls to work",
-                        "ja": "母親は所有者を説得してスモールズを働きに送った",
-                        "note": "persuade + O + to do＝～するよう説得する。不定詞を取る。"
-                    },
-                    {
-                        "en": "he constantly feared they would be sold",
-                        "ja": "彼は彼らが売られることを常に恐れた",
-                        "note": "fear + that節。fear + -ingも可能。"
-                    },
-                    {
-                        "en": "institutions sought to make themselves more accessible",
-                        "ja": "機関はよりアクセスしやすくしようとした",
-                        "note": "seek + to do＝～しようとする。不定詞を取る。"
+                        "en": "Although the policy appears fair, it often benefits the wealthy disproportionately.",
+                        "ja": "その政策は公平に見えるが、しばしば裕福な人に不均衡な恩恵をもたらす。",
+                        "note": "Although appears(見かけ) + benefits disproportionately(実態): 幻想の暴露の基本形"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Meritocracy]\nMeritocracy, a system in which people are rewarded based on talent and effort rather than class or wealth, is widely regarded as an ideal basis for a fair society. Efforts to implement this system in the United States began with noble intentions as institutions, such as elite universities and large corporations, realized that wealthy white males enjoyed an unreasonable degree of privilege. The institutions sought to make themselves more accessible to females, minorities, and people from working-class backgrounds. While these attempts initially led to improved admission and hiring rates for disadvantaged people, there are indications that people with higher incomes have come up with ways to gain an unfair share of educational opportunities. Access to superior schools and private tutoring, after all, greatly increases the odds that their children will be admitted to an elite university, which in turn enhances their earning potential. Although things like college scholarships for minorities may create the illusion of fairness, meritocracy can often be manipulated.",
-                    "ja": "メリトクラシーとは、社会的地位や家柄よりも才能と努力に基づいて人々が報われるシステムである。この概念は今日広く肯定的に捉えられており、多くの社会がメリトクラシーの実現を目指してきた。しかし、学者たちはメリトクラシーの理想と現実の間にはかなりのギャップがあると指摘している。研究によると、「才能」や「努力」の定義自体が社会的・文化的バイアスに影響されており、恵まれた環境で育った人々が有利になる傾向がある。教育、ネットワーク、経済的資源へのアクセスの不平等が、真のメリトクラシーの実現を妨げている。",
+                    "ja": "能力主義、すなわち階級や富ではなく才能と努力に基づいて報酬が与えられるシステムは、公平な社会の理想的な基盤として広く見なされている。アメリカでこのシステムを実施する努力は、エリート大学や大企業などの機関が裕福な白人男性が不当な程度の特権を享受していることに気づいた時、高潔な意図から始まった。機関は女性、マイノリティ、労働者階級出身者により開かれたものにしようとした。これらの試みは当初、不利な立場の人々の入学率と採用率の改善につながったが、高所得者が教育機会の不公平な分け前を得る方法を考え出したという兆候がある。結局のところ、優れた学校や個人指導へのアクセスは、彼らの子供がエリート大学に入学する確率を大幅に高め、それが収入の可能性を高める。マイノリティ向けの大学奨学金のようなものが公平の幻想を生み出すかもしれないが、能力主義はしばしば操作されうる。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'create the illusion of fairness' の 'illusion' はなぜ使われていますか?",
+                        "a": "表面的には公平に見えるが実態は違うことを示す。奨学金=見かけの公平。しかし高所得者は別の手段(優れた学校・塾)で有利な立場を維持。幻想=実態との乖離。"
+                    },
+                    {
+                        "q": "高所得者が教育機会を独占する具体的方法を2つ答えてください。",
+                        "a": "①優れた学校へのアクセス(access to superior schools) ②個人指導(private tutoring)。これらがエリート大学入学の確率を大幅に高める。"
+                    },
+                    {
+                        "q": "'While these attempts initially led to improved...there are indications that' の論理構造を説明してください。",
+                        "a": "While(当初は成功=入学率改善) + initially(時間限定) + there are indications that(しかし兆候=高所得者の操作)。当初の成功が長続きしなかった因果。"
+                    },
+                    {
+                        "q": "'is widely regarded as an ideal basis' と最後の文の主張の対比は何ですか?",
+                        "a": "冒頭: 能力主義=理想的な公平社会の基盤(widely regarded)。結末: 実際は操作されうる(can be manipulated)。理想と現実のギャップを段落全体で論証。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Although things like college scholarships for minorities may create the illusion of fairness, meritocracy can often be manipulated"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Although illusion / While initially"
+            },
+            {
+                "id": "fp3",
+                "title": "It has been suggested that + 入れ子のthat節（多層的主張）",
+                "subtitle": "Impersonal Passive with Nested That-Clauses",
+                "explanation": "It has been suggested that は「〜と示唆されてきた」非人称受動態。that節が入れ子構造になり、the belief that + makes + neglect to という複雑な因果関係を述べる。学術的議論の高度な構文。",
+                "sourceQuote": "It has been suggested that this reflects the belief that operating in an organization that emphasizes it is a meritocracy makes people neglect to examine their own behavior.",
+                "sourceLocation": "Part 3C",
+                "examples": [
+                    {
+                        "en": "It has been suggested that this reflects the belief that operating in an organization that emphasizes it is a meritocracy makes people neglect to examine their own behavior.",
+                        "ja": "これは、自組織が能力主義であることを強調する組織で働くことが人々に自身の行動を検証することを怠らせるという信念を反映していると示唆されている。",
+                        "note": "It has been suggested(非人称受動態) + the belief that(同格1) + that emphasizes(関係代名詞) + makes(入れ子の主動詞): 多層構造"
+                    },
+                    {
+                        "en": "Without this self-assessment, they are more likely to show bias.",
+                        "ja": "この自己評価がなければ、偏見を示す可能性がより高くなる。",
+                        "note": "Without(否定的条件) + more likely to(蓋然性): 自己検証の欠如→偏見の因果"
+                    },
+                    {
+                        "en": "It has been suggested that regular exercise improves mental health.",
+                        "ja": "定期的な運動が精神的健康を改善すると示唆されてきた。",
+                        "note": "It has been suggested that: 非人称受動態の基本形"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Meritocracy]\nFurthermore, it appears that attempts to implement meritocracy can be problematic. In one disturbing psychological experiment, managers were shown statements about a company's values and then instructed to decide on bonus payments for employees. In cases where the statements emphasized that the company was a meritocracy, subjects awarded larger amounts to males than they did to females with identical performance evaluations. When shown statements that did not mention meritocracy, however, this phenomenon did not appear. It has been suggested that this reflects the belief that operating in an organization that emphasizes it is a meritocracy makes people neglect to examine their own behavior, and without this self-assessment, they are more likely to show bias.",
+                    "ja": "さらに、能力主義を実施する試みは問題を含みうるようだ。ある不穏な心理実験で、マネジャーたちに企業の価値観についての声明を見せた後、従業員へのボーナス支払いを決定するよう指示した。声明が企業は能力主義であることを強調していたケースでは、被験者はまったく同じ業績評価の女性よりも男性により多くの額を支給した。能力主義に言及しない声明を見せた場合、この現象は現れなかった。これは、自組織が能力主義であることを強調する組織で働くことが人々に自身の行動を検証することを怠らせるという信念を反映していると示唆されている。そしてこの自己評価がなければ、偏見を示す可能性がより高くなる。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'It has been suggested that this reflects the belief that...' の多層的that節を分解してください。",
+                        "a": "①It has been suggested that(最外層=非人称受動態) ②the belief that(同格=信念の内容) ③that emphasizes(関係代名詞=修飾) ④makes people neglect(入れ子の主動詞=効果)。4層構造。"
+                    },
+                    {
+                        "q": "実験でマネジャーが男性に多くのボーナスを支給した理由は何だと示唆されていますか?",
+                        "a": "能力主義を強調する環境が自己の行動検証を怠らせる(neglect to examine own behavior)。公平であるという前提が自己点検を免除→無意識の偏見が出る。"
+                    },
+                    {
+                        "q": "'without this self-assessment' の 'this' は何を指しますか?",
+                        "a": "自身の行動を検証すること(examine their own behavior)。能力主義の強調が自己評価を不要にし、偏見に無自覚になるメカニズム。"
+                    },
+                    {
+                        "q": "この実験が能力主義の問題点として示していることは何ですか?",
+                        "a": "能力主義を自称する組織では、公平であるという前提が人々の批判的自己認識を鈍らせ、逆に性別による偏見が強まるという逆説的効果。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "It has been suggested that this reflects the belief that operating in an organization that emphasizes it is a meritocracy makes people neglect"
+                ],
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "It has been suggested / belief that"
+            },
+            {
+                "id": "fp4",
+                "title": "While this seems positive...there are worries（楽観への警告）",
+                "subtitle": "Cautioning Against Optimism",
+                "explanation": "While this seems like positive news は楽観的な見方を一旦認め、there are worries/concerns で懸念を提示する。Furthermore は追加の懸念を導入するDM。議論文で楽観に水を差す高度な構造。",
+                "sourceQuote": "While this seems like positive news, there are worries about the impact of debates like Ehrlich and Simon's.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "While this seems like positive news, there are worries about the impact of debates like Ehrlich and Simon's.",
+                        "ja": "これは前向きなニュースのように思えるが、エーリッヒとサイモンのような議論の影響について懸念がある。",
+                        "note": "While(譲歩=良いニュース) + there are worries(懸念提示): 楽観に対する警告"
+                    },
+                    {
+                        "en": "Furthermore, the fact that environmental debates are set out in the same way tends to make constructive dialogue impossible and divide people into two opposing camps.",
+                        "ja": "さらに、環境問題の議論が同じ方式で展開されるという事実は、建設的な対話を不可能にし人々を2つの対立陣営に分断する傾向がある。",
+                        "note": "Furthermore(追加懸念) + the fact that(同格) + tends to make(傾向) + divide(分断): 議論の弊害"
+                    },
+                    {
+                        "en": "While the results appear promising, there are concerns about long-term effects.",
+                        "ja": "結果は有望に見えるが、長期的影響についての懸念がある。",
+                        "note": "While positive + concerns: 楽観への警告の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Bet]\nToday, Ehrlich's prediction has failed to become reality. Thanks to technology, when population growth increases demand for materials, improvements in production methods tend to counter its effects, or substitutes are found. While this seems like positive news, there are worries about the impact of debates like Ehrlich and Simon's. The fact that technology appears to have lessened the effects of population growth is often taken as evidence that humans will also be able to overcome environmental problems in the same way. This is not necessarily the case, however, as the climate crisis shows. Furthermore, the fact that environmental debates are set out in the same way, with extreme warnings of catastrophe being countered by incredibly optimistic predictions, tends to make constructive dialogue impossible and divide people into two opposing camps.",
+                    "ja": "今日、エーリッヒの予測は現実になっていない。技術のおかげで、人口増加が材料への需要を高めても、生産方法の改善がその影響を相殺するか、代替品が見つかる傾向がある。これは前向きなニュースのように思えるが、エーリッヒとサイモンのような議論の影響について懸念がある。技術が人口増加の影響を軽減したように見えるという事実は、人間が同じ方法で環境問題も克服できるという証拠としてしばしば受け取られる。しかし気候危機が示すように、これは必ずしもそうではない。さらに、環境問題の議論が同じ方式で展開される——壊滅的警告に対して非常に楽観的な予測が対抗する——という事実は、建設的な対話を不可能にし人々を2つの対立陣営に分断する傾向がある。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'a system in which people are rewarded based on talent and effort' の関係副詞を説明してください。",
-                        "a": "in which = where。「才能と努力に基づいて報われるシステム」。a systemをin whichで修飾する後置修飾。"
+                        "q": "'While this seems like positive news, there are worries' の議論構造を説明してください。",
+                        "a": "While(譲歩=技術の成功は良いニュース) + there are worries(転換=しかし懸念あり)。楽観に水を差し、読者に批判的思考を促す。"
                     },
                     {
-                        "q": "'sought to make society fairer' の 'sought to' はどのような不定詞用法ですか？",
-                        "a": "seek + to不定詞 = 「〜しようと努める」。社会をより公正にしようとした。seekの過去形。"
+                        "q": "技術の成功が環境問題にとって危険である理由は何ですか?",
+                        "a": "技術が資源問題を解決したことが、環境問題も同様に解決できるという誤った楽観主義の根拠にされる。しかし気候危機は技術だけでは解決困難。"
                     },
                     {
-                        "q": "'rather than social standing' の 'rather than' は何を対比していますか？",
-                        "a": "「社会的地位よりも」。才能・努力と家柄・社会的地位の対比。メリトクラシーの核心的原則。"
+                        "q": "'divide people into two opposing camps' の「2つの陣営」とは何ですか?",
+                        "a": "①壊滅的警告を出す悲観派(エーリッヒ型) ②技術で解決できるという楽観派(サイモン型)。極端な対立が建設的対話を妨げる。"
                     },
                     {
-                        "q": "メリトクラシーの理想と現実のギャップは何ですか？",
-                        "a": "理想: 才能と努力で報われる。現実: 環境・教育・資源のアクセスの不平等が真の公正を妨げている。"
+                        "q": "'This is not necessarily the case, however, as the climate crisis shows' の論理を説明してください。",
+                        "a": "前文の楽観(技術で環境問題も解決)を否定。however(逆接) + as...shows(具体例=気候危機)。「必ずしもそうではない」と部分否定で反論。"
                     }
                 ],
                 "highlightPatterns": [
-                    "sought to make",
-                    "is widely regarded",
-                    "a system in which"
+                    "While this seems like positive news, there are worries",
+                    "Furthermore, the fact that environmental debates are set out in the same way"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "動名詞・不定詞"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "While positive / worries / Furthermore"
             },
             {
                 "id": "fp5",

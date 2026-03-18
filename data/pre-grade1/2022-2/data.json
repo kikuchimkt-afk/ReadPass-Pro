@@ -2080,218 +2080,213 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "分詞構文と付帯状況のwith",
-                "subtitle": "Participial Clauses & With-Constructions",
-                "explanation": "分詞構文に加え、with + O + 分詞/形容詞の独立分詞構文も頻出します。付帯状況（～しながら、～した状態で）を表す重要なパターンです。",
-                "sourceQuote": "Having spent years exploring... / with Bagnold as commander",
-                "sourceLocation": "Part 3C 全体",
+                "title": "完了分詞構文 Having pp（経験・完了の理由）",
+                "subtitle": "Perfect Participle Clause for Prior Experience",
+                "explanation": "Having + pp は「〜した経験があるので/〜し終えていたので」と主文より前の行為・経験を示す分詞構文。人物の背景知識や資格が主文の行動を可能にする因果関係を述べる。",
+                "sourceQuote": "Having spent years exploring the North African desert before the war, Bagnold knew the terrain well.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "Having spent years exploring the desert, Bagnold knew the terrain well.",
-                        "ja": "何年も砂漠を探検していたのでバグノルドは地形を熟知していた。",
-                        "note": "完了形分詞構文 = 主節より前の動作。"
+                        "en": "Having spent years exploring the North African desert before the war, Bagnold knew the terrain well, and he was convinced that a small, highly mobile motorized unit would be invaluable.",
+                        "ja": "戦前に北アフリカの砂漠を何年も探検していたため、バグノルドは地形をよく知っており、小型で高機動の自動車部隊が非常に価値があると確信していた。",
+                        "note": "Having spent(完了分詞構文=経験) → knew(結果): 過去の経験が現在の知識の根拠"
                     },
                     {
-                        "en": "With supplies running low, the team decided to return.",
-                        "ja": "補給品が少なくなってきたので、チームは帰還を決めた。",
-                        "note": "with + O + -ing = 独立分詞構文。"
+                        "en": "British commanders rejected his proposal, believing airplanes were better suited for such long-range intelligence gathering.",
+                        "ja": "イギリスの司令官たちは、飛行機の方がそのような長距離の情報収集に適していると考え、彼の提案を却下した。",
+                        "note": "believing: 理由の分詞構文。却下の理由を示す = because they believed"
                     },
                     {
-                        "en": "Based on its annual rate of growth, scientists estimate...",
-                        "ja": "年間成長率に基づき科学者は推定する。",
-                        "note": "過去分詞の分詞構文（受動・完了の意味）。"
+                        "en": "Having completed the training, the soldiers were ready for deployment.",
+                        "ja": "訓練を完了していたため、兵士たちは配備の準備ができていた。",
+                        "note": "Having completed: 完了分詞構文の基本形。完了した行為→準備完了の因果"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'given the harsh desert environment' の 'given' はどのような分詞構文ですか？",
-                        "a": "「砂漠の過酷な環境を考えると」。given = considering。条件・前提を示す分詞構文で、タスクの困難さの理由を述べる。"
+                        "q": "'Having spent years exploring' はなぜ完了分詞構文が使われていますか？",
+                        "a": "主文の'knew'より前に完了した行為(何年もの探検経験)を示す。完了分詞構文は時間の前後関係を明確にし、経験→知識の因果を表す。"
                     },
                     {
-                        "q": "'traveling deep behind enemy lines' の分詞構文はどのような状況を表しますか？",
-                        "a": "「敵陣深くに移動しながら」。付帯状況を示す分詞構文。主な活動と同時に行われる行動を描写する。"
+                        "q": "'believing airplanes were better suited' の 'believing' はどのような分詞構文ですか？",
+                        "a": "理由の分詞構文。= because they believed。却下の理由を示す。believing + that節(that が省略)。"
                     },
                     {
-                        "q": "'providing vital intelligence' の 'providing' はどのような分詞構文ですか？",
-                        "a": "結果を示す分詞構文。「重要な情報を提供した」。観察・報告の結果として連合軍に情報が届いたことを表す。"
+                        "q": "バグノルドの提案が最初に却下された理由と最終的に受け入れられた理由を説明してください。",
+                        "a": "却下理由: 飛行機が長距離情報収集に適していると考えられた。受入理由: バグノルドが地上情報収集の有利さを主張し粘り強く訴えた(persistence)。"
                     },
                     {
-                        "q": "LRDGの主な任務とその価値を要約してください。",
-                        "a": "敵陣深くでの偵察と情報収集が主任務。直接攻撃も行ったが、最大の価値は戦略的情報の提供にあった。"
+                        "q": "砂漠戦における3つの主な困難は何ですか？",
+                        "a": "①広大さと砂地で物資輸送が困難 ②水不足が作戦を制限 ③日中の暑さで夜間移動が必要。これらをバグノルドは逆に戦略的機会と捉えた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "given",
-                    "traveling deep behind",
-                    "involved"
+                    "Having spent years exploring the North African desert before the war, Bagnold knew the terrain well"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "分詞構文",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Having pp / believing",
                 "practicePassage": {
-                    "en": "[出典: The Long Range Desert Group]\nThe LRDG's work mainly involved traveling deep behind enemy lines to observe their movements. The unit had access to a range of weaponry, and while the men were primarily trained to gather intelligence, they also planted mines and launched attacks against enemy airfields and fuel depots. When the Special Air Service (SAS) — a British army unit formed in 1941 to conduct raids behind enemy lines — suffered heavy casualties after parachuting into enemy territory on its first mission, the LRDG was tasked with bringing back the survivors. The rescue mission was a success, and because of its men's extensive knowledge of the desert, the LRDG was given the responsibility of bringing the SAS to and from all future targets by land, providing both transportation and navigation. This almost certainly helped the SAS accomplish its raids with greater success and fewer casualties.",
-                    "ja": "LRDGの仕事は主に敵陣深くに潜入し、敵の動きを観察して本部に報告することだった。彼らが収集した情報は同盟軍に重要な情報を提供し、多くの作戦の成功に貢献した。LRDGは時に敵の施設への直接攻撃も行ったが、その主な価値は情報収集能力にあった。砂漠の過酷な環境を考えると、これらの任務には並外れた忍耐力とナビゲーション技術が必要だった。メンバーは何週間も砂漠で過ごし、極度の暑さと限られた水の供給に耐えた。",
+                    "en": "[出典: The Long Range Desert Group]\nDuring World War II, the British fought against Germany and Italy in the deserts of North Africa. Desert warfare was characterized by small battles between troops that were widely spread out, and there was a need to move quickly and at night to avoid both detection and the dangerous daytime heat. The area's vast size and sandy terrain made transporting supplies difficult, and the lack of water severely limited operations. However, for one British army officer, Major Ralph Bagnold, these harsh conditions presented a strategic opportunity. Having spent years exploring the North African desert before the war, Bagnold knew the terrain well, and he was convinced that a small, highly mobile motorized unit that could observe and track enemy forces would be invaluable. At first, British commanders rejected his proposal to form such a unit, believing airplanes were better suited for such long-range intelligence gathering. Bagnold insisted, however, that gathering information on the ground would be advantageous, and his persistence led to the formation of the Long Range Desert Group (LRDG), with Bagnold as commander, in June 1940.",
+                    "ja": "第二次世界大戦中、イギリスは北アフリカの砂漠でドイツとイタリアに対して戦った。砂漠戦は広く分散した部隊間の小さな戦闘が特徴で、探知と危険な日中の暑さの両方を避けるために素早く夜間に移動する必要があった。その地域の広大さと砂地の地形は物資輸送を困難にし、水不足が作戦を著しく制限した。しかしイギリス陸軍の一将校、ラルフ・バグノルド少佐にとって、これらの過酷な条件は戦略的機会を提示した。戦前に北アフリカの砂漠を何年も探検していたため、バグノルドは地形をよく知っており、敵軍を観察・追跡できる小型で高機動の自動車部隊が非常に価値があると確信していた。当初イギリスの司令官たちは、飛行機の方がそのような長距離の情報収集に適していると考え、彼の提案を却下した。しかしバグノルドは地上での情報収集が有利になると主張し、彼の粘り強さにより1940年6月にバグノルドが司令官として長距離砂漠グループ（LRDG）が結成された。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "接続副詞と論理展開パターン",
-                "subtitle": "Discourse Markers & Logical Development",
-                "explanation": "Part 2の空所補充では文脈の論理的関係（補足、対比、具体例、因果）を示す接続表現の選択が求められます。",
-                "sourceQuote": "In fact / In particular / However / Gradually",
-                "sourceLocation": "Part 2 全体",
+                "title": "Without + -ing（仮定法的条件と警告）",
+                "subtitle": "Without-Gerund as Conditional Warning",
+                "explanation": "Without + -ing は「〜しなければ/〜がなければ」と否定的条件を示す。結果節で may/could を伴い、望ましくない結果を警告する。環境・保全の議論に頻出。",
+                "sourceQuote": "Without educating people about the benefits of giant fruit bats, the bats' numbers may decline further.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "In fact, heavy seasonal rainfall led to the formation of temporary lakes.",
-                        "ja": "実は、大量の季節的降雨が一時的な湖を形成した。",
-                        "note": "in fact = 実は（前文の補足・強調）。"
+                        "en": "Without educating people about the benefits of giant fruit bats, the bats' numbers may decline further, which could have serious consequences for durian farming.",
+                        "ja": "大型フルーツコウモリの利益について人々を教育しなければ、コウモリの数はさらに減少する可能性があり、ドリアン農業に深刻な影響を及ぼし得る。",
+                        "note": "Without + -ing(条件) + may decline(推量結果) + which could(関係代名詞+さらなる結果): 連鎖的警告"
                     },
                     {
-                        "en": "In particular, the invention of the Ford Model T led to many new drivers.",
-                        "ja": "特に、フォード・モデルTの発明が多くの新しいドライバーを生んだ。",
-                        "note": "in particular = 特に（具体例の導入）。"
+                        "en": "The bats are also threatened as a result of being hunted and sold as food, since there is a belief in some Southeast Asian cultures that eating the bats' meat helps to cure breathing problems.",
+                        "ja": "コウモリはまた、一部の東南アジア文化でコウモリの肉を食べることが呼吸器の問題の治療に役立つという信念があるため、狩猟されて食料として売られることの結果として脅威にさらされている。",
+                        "note": "as a result of being hunted: 受動態の動名詞。since + there is a belief that: 理由+同格that"
                     },
                     {
-                        "en": "Gradually, however, farmers began to change their minds.",
-                        "ja": "しかし次第に農民は意見を変え始めた。",
-                        "note": "however + gradually = 逆接＋段階的変化。"
+                        "en": "Without proper maintenance, the building will eventually collapse.",
+                        "ja": "適切なメンテナンスがなければ、ビルは最終的に崩壊するだろう。",
+                        "note": "Without + 名詞: 否定的条件の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Durian trees are not easy to grow, however' の 'however' はどのような論理展開ですか？",
-                        "a": "「しかし」。前段落のドリアンの人気・需要に対して、栽培の困難さを対比する逆接の接続副詞。"
+                        "q": "'Without educating people...the bats' numbers may decline' の論理構造を説明してください。",
+                        "a": "Without + -ing(否定的条件=教育しなければ) → may decline(推量的結果=減少する可能性) → which could have(連鎖的帰結=深刻な影響)。条件→結果→さらなる結果の三段論法。"
                     },
                     {
-                        "q": "'Furthermore' はどのような情報の追加を示しますか？",
-                        "a": "「さらに」。栽培の困難に加えて、病害虫への脆弱性という別の問題を追加する接続副詞。"
+                        "q": "大型フルーツコウモリが脅かされている2つの理由を答えてください。",
+                        "a": "①農家が害獣と見て追い払う/殺す(chased away or killed) ②呼吸器治療に効くという信念で狩猟・食料として販売(hunted and sold as food)。"
                     },
                     {
-                        "q": "'particularly vulnerable' はどの程度の脆弱性を示していますか？",
-                        "a": "「特に脆弱な」。particularly = especially。他の植物と比べてドリアンが病害虫に対して特に弱いことを強調。"
+                        "q": "'since there is a belief...that eating the bats' meat helps to cure' の 'that' は何ですか？",
+                        "a": "同格のthat節。belief(信念)の具体的内容を説明。「コウモリの肉を食べることが治療に役立つという信念」。"
                     },
                     {
-                        "q": "この段落で述べられているドリアン栽培の課題を列挙してください。",
-                        "a": "定期的な水やりと肥料が必要、実がなるまで長期間かかる、病気や害虫に弱い、自然の受粉者からの距離。"
+                        "q": "コウモリとドリアン農業の関係を説明してください。",
+                        "a": "大型フルーツコウモリはドリアンの主要な花粉媒介者。コウモリ減少→花粉媒介不足→ドリアン収穫減少。農家がコウモリを駆除することは自分の利益に反する逆説的状況。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Furthermore",
-                    "however",
-                    "require"
+                    "Without educating people about the benefits of giant fruit bats, the bats' numbers may decline further"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "接続副詞",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Without -ing / may decline",
                 "practicePassage": {
-                    "en": "[出典: Durians and Giant Fruit Bats]\nDurian trees are not easy to grow, however. They require regular watering and feeding with fertilizer, and they are highly sensitive to temperature. Furthermore, they do not naturally grow in groves, but rather thrive when grown among other trees and shrubs, so growing them in an orchard as a single crop presents a challenge. Ensuring sufficient pollination of the flowers for the trees to produce a good harvest of fruit is a further difficulty for farmers. One characteristic of durian trees is that their flowers only release pollen at night, so insects such as honeybees that feed during the day do not pollinate them. Animals that are active at night take over the role of pollination, but only about 25 percent of a durian tree's flowers ever get pollinated naturally. Because of this, many farmers resort to the labor-intensive practice of pollinating by hand.",
-                    "ja": "しかし、ドリアンの木は育てるのが容易ではない。定期的な水やりと肥料が必要であり、実をつけるまでに何年もかかる。さらに、ドリアンの木は特定の病気や害虫に特に脆弱である。最近のドリアン農園の拡大により、木は自然の受粉者から離れた地域で栽培されることが増えており、生産上の課題を生み出している。",
+                    "en": "[出典: Durians and Giant Fruit Bats]\nStudies have shown that giant fruit bats are the main natural pollinators of durian flowers. However, these bats are chased away or killed by many farmers, who simply see them as pests because they cause damage and reduce profits by feeding on the fruit. The bats are also threatened as a result of being hunted and sold as food, since there is a belief in some Southeast Asian cultures that eating the bats' meat helps to cure breathing problems. Without educating people about the benefits of giant fruit bats, the bats' numbers may decline further, which could have serious consequences for durian farming.",
+                    "ja": "研究によると、大型フルーツコウモリはドリアンの花の主要な自然花粉媒介者である。しかしこれらのコウモリは多くの農家に追い払われたり殺されたりしている。農家は単にコウモリを果実を食べて被害を与え利益を減らす害獣と見ているからだ。コウモリはまた、一部の東南アジア文化でコウモリの肉を食べることが呼吸器の問題の治療に役立つという信念があるため、狩猟されて食料として売られることの結果として脅威にさらされている。大型フルーツコウモリの利益について人々を教育しなければ、コウモリの数はさらに減少する可能性があり、ドリアン農業に深刻な影響を及ぼし得る。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "関係代名詞と関係副詞の使い分け",
-                "subtitle": "Relative Pronouns vs Relative Adverbs",
-                "explanation": "who/which/that（関係代名詞）とwhere/when/why（関係副詞）の使い分け、および省略パターンを正確に理解しましょう。",
-                "sourceQuote": "objects on which people imagine they can see faces / areas where...",
-                "sourceLocation": "Part 3 全体",
+                "title": "While most assume...this is a myth（通説の覆し）",
+                "subtitle": "Debunking Common Assumptions",
+                "explanation": "While most people + assume/believe that...this is a myth/not true は一般的な思い込みを提示し、それを否定する構文。Actually で真実を提示する。通説を覆す議論展開の定型パターン。",
+                "sourceQuote": "While most people today assume that the road system was first developed in response to the needs of automobile drivers, this is a myth.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "The area in which the fungus was found covers several acres.",
-                        "ja": "菌が発見された地域は数エーカーに及ぶ。",
-                        "note": "前置詞 + which = where の書き換え。"
+                        "en": "While most people today assume that the road system was first developed in response to the needs of automobile drivers, this is a myth.",
+                        "ja": "今日ほとんどの人は道路体系が自動車運転者のニーズに応えるために最初に開発されたと思い込んでいるが、これは誤解である。",
+                        "note": "While(譲歩) + most people assume(通説) + this is a myth(否定): 通説覆しのパターン"
                     },
                     {
-                        "en": "The era when British rule began lasted almost a century.",
-                        "ja": "イギリスの直接統治が始まった時代は約1世紀続いた。",
-                        "note": "when = in which の書き換え。"
+                        "en": "Actually, the demand started mainly with cyclists.",
+                        "ja": "実際、その需要は主に自転車乗りから始まった。",
+                        "note": "Actually: 通説を覆した後に真実を提示するDM。「実際は」"
                     },
                     {
-                        "en": "That is the reason why many species are declining.",
-                        "ja": "それが多くの種が減少している理由だ。",
-                        "note": "why = for which の書き換え。"
+                        "en": "While many believe the earth is the only planet with water, recent discoveries suggest otherwise.",
+                        "ja": "多くの人が地球だけに水があると信じているが、最近の発見はそうではないことを示唆している。",
+                        "note": "While + believe + suggest otherwise: 通説覆しの基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'based on the researchers' predictions' の 'based on' は何を導いていますか？",
-                        "a": "「研究者の予測に基づいて」。実験の結果が予測と一致したことを示す。前置詞句による論拠の提示。"
+                        "q": "'While most people today assume...this is a myth' の議論展開を説明してください。",
+                        "a": "While(譲歩) + assume(一般的思い込み=車のため) → this is a myth(否定) → Actually(真実=自転車のため)。通説を提示→否定→真実を提示の3段階。"
                     },
                     {
-                        "q": "'participants were shown images' の受動態はなぜ使われていますか？",
-                        "a": "「参加者に画像が見せられた」。実験の手順を客観的に記述。実験者より参加者の経験に焦点を当てる。"
+                        "q": "'This movement had a surprising origin' の 'surprising' は何が驚きですか？",
+                        "a": "道路運動の起源が自動車ではなく自転車だったこと。読者の予想に反する事実を予告する伏線。"
                     },
                     {
-                        "q": "'suggests that' はどのような論証の強さを示しますか？",
-                        "a": "「〜を示唆している」。断定を避けた学術的表現。実験結果から導かれる推論だが確定ではないことを示す。"
+                        "q": "良い道路運動が始まった直接的なきっかけは何ですか？",
+                        "a": "1890年代の近代的自転車の発明による自転車ブーム(cycling craze)。何百万人もの自転車乗りがより良い道路を望んだ。"
                     },
                     {
-                        "q": "この研究で明らかになった顔認識の特性は何ですか？",
-                        "a": "脳の顔認識システムは正立の顔に最適化されており、逆さの顔では認識能力が大幅に低下する。"
+                        "q": "'transformed America's landscape' の 'transformed' はどのような意味ですか？",
+                        "a": "「変容させた」。単なる変化ではなく、大規模な根本的変革。道路・高速道路システムの創設というアメリカの景観の劇的な変化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "based on",
-                    "recently performed"
+                    "While most people today assume that the road system was first developed in response to the needs of automobile drivers, this is a myth"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "関係詞",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "While most assume...myth",
                 "practicePassage": {
-                    "en": "[出典: Recognizing Faces]\nResearchers in Australia recently performed a study to learn more about how the brain processes false faces. Previous studies have revealed that for real faces, people's judgment of what emotion a face is expressing is affected by the faces they have just seen. Seeing a series of happy faces, for example, tends to make people assess the face they next see as expressing happiness. In the Australian study, the researchers showed participants a series of false faces that expressed a particular emotion. They found that, as with real faces, the participants' judgments of the emotions expressed by the false faces were affected by the ones they had just been shown. Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones.",
-                    "ja": "オーストラリアの研究者たちは最近、脳がどのように逆さの顔を処理するかについてさらに学ぶための研究を行った。参加者には正常な向きと逆さの両方で顔の画像が見せられた。研究者の予測に基づき、参加者は正常な向きの顔を認識する際に特にうまく識別でき、逆さの顔ではその能力が大幅に低下することが示された。これは、脳が顔を認識する特殊なシステムが、顔が通常見られる向き（正立）に最適化されていることを示唆している。",
+                    "en": "[出典: The Good Roads Movement]\nBeginning in the late nineteenth century, the Good Roads Movement transformed America's landscape, helping to create the nation's system of roads and highways. This movement had a surprising origin. While most people today assume that the road system was first developed in response to the needs of automobile drivers, this is a myth. Actually, the demand started mainly with cyclists. The invention of the modern bicycle led to a cycling craze in the 1890s, and millions of Americans wanted better, safer roads to cycle on.",
+                    "ja": "19世紀後半に始まり、良い道路運動はアメリカの景観を変容させ、国の道路と高速道路のシステムの創設に貢献した。この運動には驚くべき起源がある。今日ほとんどの人は道路体系が自動車運転者のニーズに応えるために最初に開発されたと思い込んでいるが、これは誤解である。実際、その需要は主に自転車乗りから始まった。1890年代に近代的な自転車の発明が自転車ブームを引き起こし、何百万人ものアメリカ人がより良く安全な道路でサイクリングしたいと望んだ。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "so/such...that構文と程度・結果表現",
-                "subtitle": "So/Such...That & Degree-Result Patterns",
-                "explanation": "so＋形容詞/副詞＋that、such＋名詞＋that は程度と結果を表す重要構文です。too...to と enough to の使い分けも含みます。",
-                "sourceQuote": "so quickly / such a challenge that...",
-                "sourceLocation": "Part 1-3 全体",
+                "title": "Based on this finding + concluded that（研究結論）",
+                "subtitle": "Drawing Conclusions from Research Findings",
+                "explanation": "Based on + 名詞 は「〜に基づいて」と根拠を示す。concluded that は「〜と結論づけた」。研究結果から結論を導く学術的文体の定型表現。",
+                "sourceQuote": "Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "The problem was so complex that no one could solve it alone.",
-                        "ja": "問題があまりにも複雑で誰も一人では解決できなかった。",
-                        "note": "so + 形容詞 + that = あまりに～なので。"
+                        "en": "Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones.",
+                        "ja": "この発見に基づき、研究者たちは脳が偽の顔を実際の顔と同様の方法で処理すると結論づけた。",
+                        "note": "Based on(根拠) + concluded that(結論): 研究論文の定型。in a way similar to how: 「〜と同様の方法で」"
                     },
                     {
-                        "en": "It was such a nuisance that they left it covered.",
-                        "ja": "あまりにも厄介だったのでカバーしたままにした。",
-                        "note": "such + 名詞 + that = あまりに～な（名詞）なので。"
+                        "en": "Previous studies have revealed that for real faces, people's judgment of what emotion a face is expressing is affected by the faces they have just seen.",
+                        "ja": "先行研究は、実際の顔について、顔がどのような感情を表現しているかについての人々の判断が、直前に見た顔に影響されることを明らかにした。",
+                        "note": "have revealed that: 研究結果の提示。what emotion: 間接疑問文。"
                     },
                     {
-                        "en": "The hotel is not tall enough to obstruct the view.",
-                        "ja": "ホテルは景色を遮るほど高くない。",
-                        "note": "enough to = ～するのに十分な。"
+                        "en": "Based on the survey results, we can conclude that customer satisfaction has improved.",
+                        "ja": "調査結果に基づき、顧客満足度が向上したと結論づけることができる。",
+                        "note": "Based on + 根拠 + conclude that: 結論導出の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'The desert was so vast that conventional military strategies were impractical' の 'so...that' 構文を説明してください。",
-                        "a": "「砂漠は非常に広大だったので従来の軍事戦略は実用的ではなかった」。so + 形容詞 + that = 「〜すぎて…だった」。程度と結果を示す。"
+                        "q": "'Based on this finding, the researchers concluded that' の構文を分析してください。",
+                        "a": "Based on(前置詞句=根拠) + this finding(名詞=この発見) + concluded that(動詞+接続詞=結論)。「この発見に基づき〜と結論づけた」。研究論文の典型表現。"
                     },
                     {
-                        "q": "'Despite these difficulties' はどのような譲歩を示しますか？",
-                        "a": "「これらの困難にもかかわらず」。砂漠の困難さにもかかわらず、バグノルドが可能性を見出したことを示す譲歩。"
+                        "q": "'in a way similar to how it processes real ones' の 'how' は何ですか？",
+                        "a": "関係副詞/間接疑問文。「実際の顔を処理する方法と同様の方法で」。in a way(方法) + similar to(〜と同様) + how it processes(どのように処理するか)。"
                     },
                     {
-                        "q": "'established' はどのような文脈で使われていますか？",
-                        "a": "「設立した」。バグノルドが1940年にLRDGを設立したこと。過去の歴史的事実を述べる。"
+                        "q": "この研究で発見された偽の顔と実際の顔の共通点は何ですか？",
+                        "a": "どちらも直前に見た顔に判断が影響される(affected by the faces they have just seen)。感情表現の評価が先行刺激に左右される。"
                     },
                     {
-                        "q": "バグノルドがLRDGを設立できた背景は何ですか？",
-                        "a": "探検家として砂漠を広範に旅した経験があり、小規模部隊で砂漠を横断して敵の背後で活動できると確信していた。"
+                        "q": "'Previous studies have revealed that' の 'have revealed' はなぜ現在完了形ですか？",
+                        "a": "先行研究が蓄積してきた知見を示す。過去の発見が現在まで有効であること(現在完了の継続的影響)を強調。学術文体で先行研究を引用する定型表現。"
                     }
                 ],
                 "highlightPatterns": [
-                    "such a"
+                    "Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "程度・結果",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Based on / concluded that",
                 "practicePassage": {
-                    "en": "[出典: The Long Range Desert Group]\nDuring World War II, the British fought against Germany and Italy in the deserts of North Africa. Desert warfare was characterized by small battles between troops that were widely spread out, and there was a need to move quickly and at night to avoid both detection and the dangerous daytime heat. The area's vast size and sandy terrain made transporting supplies difficult, and the lack of water severely limited operations. However, for one British army officer, Major Ralph Bagnold, these harsh conditions presented a strategic opportunity. Having spent years exploring the North African desert before the war, Bagnold knew the terrain well, and he was convinced that a small, highly mobile motorized unit that could observe and track enemy forces would be invaluable. At first, British commanders rejected his proposal to form such a unit, believing airplanes were better suited for such long-range intelligence gathering. Bagnold insisted, however, that gathering information on the ground would be advantageous, and his persistence led to the formation of the Long Range Desert Group (LRDG), with Bagnold as commander, in June 1940.",
-                    "ja": "第二次世界大戦中、イギリスは北アフリカの砂漠でドイツとイタリアと戦った。砂漠は非常に広大で、従来の軍事戦略は実用的ではなかった。こうした困難にもかかわらず、ラルフ・バグノルド少佐はこの環境のユニークな可能性を認識していた。バグノルドは探検家として砂漠を広範に旅しており、小規模な部隊が砂漠を横断して敵の背後で活動できると確信した。1940年、彼はLRDG（長距離砂漠グループ）を設立した。これは型破りな部隊で、自発的なボランティアで構成されていた。",
+                    "en": "[出典: Recognizing Faces]\nResearchers in Australia recently performed a study to learn more about how the brain processes false faces. Previous studies have revealed that for real faces, people's judgment of what emotion a face is expressing is affected by the faces they have just seen. Seeing a series of happy faces, for example, tends to make people assess the face they next see as expressing happiness. In the Australian study, the researchers showed participants a series of false faces that expressed a particular emotion. They found that, as with real faces, the participants' judgments of the emotions expressed by the false faces were affected by the ones they had just been shown. Based on this finding, the researchers concluded that the brain processes false faces in a way similar to how it processes real ones.",
+                    "ja": "オーストラリアの研究者たちは最近、脳が偽の顔をどのように処理するかについてさらに学ぶための研究を行った。先行研究は、実際の顔について、顔がどのような感情を表現しているかについての人々の判断が直前に見た顔に影響されることを明らかにした。例えば、一連の幸せな顔を見ると、次に見る顔を幸福を表していると評価する傾向がある。オーストラリアの研究では、研究者たちは参加者に特定の感情を表す一連の偽の顔を見せた。実際の顔と同様に、偽の顔が表す感情についての参加者の判断が直前に見せられたものに影響されることが判明した。この発見に基づき、研究者たちは脳が偽の顔を実際の顔の処理と同様の方法で処理すると結論づけた。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

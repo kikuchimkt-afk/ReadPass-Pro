@@ -1820,220 +1820,215 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "譲歩の逆接構文",
-                "subtitle": "Concession & Contrast Patterns",
-                "explanation": "no matter how / even though / although + 逆接 は譲歩を表し、主節に主張が来ます。本試験ではこの構文を正確に読む力が問われます。",
-                "sourceQuote": "no matter how capable / even though she thought / Although a smile generally",
-                "sourceLocation": "Part 1 & Part 3A",
+                "title": "譲歩の no matter how + 対比の rather than",
+                "subtitle": "Concession and Contrast Expressions",
+                "explanation": "no matter how + 形容詞 + S + V は「どんなに〜であっても」と最大限の譲歩を表す。rather than は「〜よりもむしろ/〜ではなく」と対比を示す。人の心理や逆説的状況を述べる際に頻出。",
+                "sourceQuote": "Those who are affected by this condition have trouble accepting or believing in their own success, no matter how capable or experienced they may be.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Those who are affected have trouble believing in their own success, no matter how capable or experienced they may be.",
-                        "ja": "影響を受けた人は、どれほど有能でも自分の成功を信じられない。",
-                        "note": "no matter how＝どんなに～でも（譲歩）。however + 形容詞と同意。"
+                        "en": "Those who are affected by this condition have trouble accepting or believing in their own success, no matter how capable or experienced they may be.",
+                        "ja": "この状態に影響される人々は、どんなに有能で経験豊富であっても、自分の成功を受け入れたり信じたりすることが困難である。",
+                        "note": "no matter how + capable or experienced: 「どんなに有能でも」最大限の譲歩"
                     },
                     {
-                        "en": "Lisa went to the interview even though she thought there was a low probability of getting the job.",
-                        "ja": "リサは仕事を得る可能性が低いと思いながらも面接に行った。",
-                        "note": "even though＝～であるにもかかわらず。despite the fact thatと同意。"
+                        "en": "Often, they think their achievements are due to good fortune or outside circumstances rather than their actual ability.",
+                        "ja": "しばしば、自分の業績は実際の能力ではなく、幸運や外部の状況のおかげだと考える。",
+                        "note": "rather than: 「〜ではなく」。A rather than B = BではなくA"
                     },
                     {
-                        "en": "Although a smile generally signifies happiness, some people also smile to cover up negative emotions.",
-                        "ja": "笑顔は一般的に幸福を意味するが、否定的感情を隠すために笑う人もいる。",
-                        "note": "Although A, B＝AだがBだ。主張はBに来る。"
+                        "en": "No matter how hard she tried, she could not solve the problem.",
+                        "ja": "どんなに頑張っても、その問題を解決できなかった。",
+                        "note": "No matter how + 副詞: 「どんなに〜しても」"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'no matter how capable or experienced they may be' の 'no matter how' はどのような譲歩を示しますか？",
-                        "a": "「どれほど有能で経験があっても」。no matter how + 形容詞 = たとえどんなに〜でも。能力に関わらず症候群が起こることを強調。"
+                        "q": "'no matter how capable or experienced they may be' の構文を分析してください。",
+                        "a": "no matter how(譲歩) + capable or experienced(形容詞) + they may be(S+V)。「どんなに有能で経験豊富であっても」。mayは可能性を示す助動詞。"
                     },
                     {
-                        "q": "'their achievements are due to good fortune rather than their actual ability' の 'rather than' はどのような対比ですか？",
-                        "a": "「実際の能力ではなく幸運のおかげだ」。rather than = 〜ではなく。自分の成功を能力ではなく外的要因に帰属する思考パターン。"
+                        "q": "'rather than their actual ability' は何と何を対比していますか？",
+                        "a": "good fortune or outside circumstances(幸運や外部状況) と their actual ability(実際の能力)。インポスター症候群の人は成功を能力ではなく運のおかげだと考える。"
                     },
                     {
-                        "q": "'they distance themselves from colleagues' の 'distance oneself from' はどのような意味ですか？",
-                        "a": "「同僚から距離を置く」。distance oneself from = 〜から自分を遠ざける。能力不足がバレることを恐れて回避行動を取る。"
+                        "q": "インポスター症候群が引き起こす2つの異なる行動パターンを説明してください。",
+                        "a": "①必要以上に懸命に働く(working far harder than they need to) ②同僚と距離を置く(distance themselves from colleagues)。どちらもスキル不足の発覚を恐れた行動。"
                     },
                     {
-                        "q": "インポスター症候群とは何か、この段落で説明されていることを要約してください。",
-                        "a": "成功しているにもかかわらず自分は詐欺師だと感じる心理現象。能力の証拠があっても自信が持てず、バレることを恐れる。"
+                        "q": "'have trouble accepting or believing in their own success' の 'have trouble -ing' はどのような意味ですか？",
+                        "a": "「〜するのに困難を感じる」。have trouble/difficulty + -ing は困難さを表す重要表現。受け入れること(accepting)と信じること(believing)の2つが並列。"
                     }
                 ],
                 "highlightPatterns": [
-                    "no matter how capable or experienced",
-                    "rather than their actual ability",
-                    "they distance themselves from colleagues"
+                    "no matter how capable or experienced they may be",
+                    "rather than their actual ability"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "譲歩・逆接",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "no matter how / rather than",
                 "practicePassage": {
                     "en": "[出典: Impostor Syndrome]\nMany people will experience \"impostor syndrome\" at some point in their lives. Those who are affected by this condition have trouble accepting or believing in their own success, no matter how capable or experienced they may be. Often, they think their achievements are due to good fortune or outside circumstances rather than their actual ability. Impostor syndrome affects people of various backgrounds working in many fields, and it can have different consequences for each person. Some feel they must prove their worth by working far harder than they need to. Others fear they will lose their job when their supposed lack of skill is discovered, so they distance themselves from colleagues as much as possible.",
-                    "ja": "多くの人が人生のある時点で「インポスター症候群」を経験する。この状態に影響された人は、どれほど有能で経験があっても、自分の成功を受け入れたり信じたりすることが難しい。彼らはしばしば、自分の功績は実力ではなく幸運や外的状況のおかげだと考える。インポスター症候群はさまざまな経歴を持つ多くの分野で働く人々に影響を与え、その結果は人によって異なる。必要以上に懸命に働くことで自分の価値を証明しなければならないと感じる人もいる。自分の想定されるスキル不足が発覚した際に職を失うことを恐れ、できる限り同僚から距離を置く人もいる。",
+                    "ja": "多くの人が人生のある時点で「インポスター症候群」を経験する。この状態に影響される人々は、どんなに有能で経験豊富であっても、自分の成功を受け入れたり信じたりすることが困難である。しばしば、自分の業績は実際の能力ではなく、幸運や外部の状況のおかげだと考える。インポスター症候群は様々な背景を持つ多くの分野の人々に影響を与え、それぞれの人に異なる結果をもたらす。自分の価値を証明するために必要以上に懸命に働かなければならないと感じる人もいる。自分のスキル不足が発覚した時に職を失うことを恐れ、できるだけ同僚と距離を置く人もいる。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "結果・因果の接続表現",
-                "subtitle": "Result & Cause-Effect Connectors",
-                "explanation": "本試験では因果関係を表す表現の正確な理解が求められます。As a result / Therefore / Due to this などの使い分けが重要です。",
-                "sourceQuote": "As a result / Therefore / Due to this / This leads patients to",
-                "sourceLocation": "Part 2 全体",
+                "title": "結果の分詞構文（leading to / causing）",
+                "subtitle": "Result Participle Clauses",
+                "explanation": "leading to / causing + 名詞 は「その結果〜をもたらす」と前文の出来事が引き起こした結果を示す分詞構文。複雑な因果関係の連鎖を簡潔に表現する。",
+                "sourceQuote": "It was discovered that lemon juice prevented a deadly disease called scurvy, leading to greatly increased demand for lemons, which caused revenues from the fruit to skyrocket.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "As a result, the students were likely less motivated to give accurate answers.",
-                        "ja": "その結果、学生は正確な回答をする動機が弱かった。",
-                        "note": "As a result＝その結果。結果を導く接続表現。"
+                        "en": "It was discovered that lemon juice prevented a deadly disease called scurvy, leading to greatly increased demand for lemons, which caused revenues from the fruit to skyrocket.",
+                        "ja": "レモン汁が壊血病という致死的な病気を予防することが発見され、その結果レモンの需要が大幅に増加し、果実からの収益が急騰した。",
+                        "note": "It was discovered(非人称受動態) → leading to(結果の分詞構文) → which caused(関係代名詞+使役)"
                     },
                     {
-                        "en": "Many Western doctors therefore discourage their use.",
-                        "ja": "そのため多くの西洋医師は使用を控えるよう勧める。",
-                        "note": "therefore＝そのため。文中に置ける。"
+                        "en": "The shift to large-scale lemon growing required huge financial investments to build facilities and develop irrigation systems.",
+                        "ja": "大規模なレモン栽培への転換には、施設の建設や灌漑システムの開発に巨額の投資が必要だった。",
+                        "note": "required + to build/develop: 不定詞の目的表現。大規模化の課題。"
                     },
                     {
-                        "en": "Due to this, reindeer herds are losing more animals to starvation.",
-                        "ja": "このため、トナカイの群れはより多くの動物を餓死で失っている。",
-                        "note": "Due to this＝このため。原因→結果で使用。"
+                        "en": "The heavy rain flooded the streets, leading to widespread traffic delays.",
+                        "ja": "大雨が通りを浸水させ、その結果広範囲の交通遅延を招いた。",
+                        "note": "leading to: 結果の分詞構文の典型パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Therefore, they tend to believe the medicines are safe' の 'Therefore' はどのような論理的接続を示しますか？",
-                        "a": "「したがって」。前述の理由（長い歴史があること）から導かれる結論を示す因果の接続副詞。"
+                        "q": "'leading to greatly increased demand' の 'leading to' はどのような役割ですか？",
+                        "a": "結果の分詞構文。前文の「壊血病予防の発見」が原因で、「需要の大幅増加」という結果をもたらした。= and this led to。"
                     },
                     {
-                        "q": "'For thousands of years, people have taken plants...' の現在完了形はなぜ使われていますか？",
-                        "a": "「何千年も前から人々は〜してきた」。過去から現在まで続く長い歴史を示す継続用法の現在完了形。"
+                        "q": "'which caused revenues from the fruit to skyrocket' の構文を分析してください。",
+                        "a": "which(関係代名詞=需要増加) + caused(使役V) + revenues(O) + to skyrocket(C)。「これにより収益が急騰した」。cause+O+to V。"
                     },
                     {
-                        "q": "'Many Western doctors therefore discourage their use' の 'therefore' はどのような接続ですか？",
-                        "a": "「したがって」。科学的根拠がないという前述の理由から、医師が使用を勧めないという結論を導く因果関係。"
+                        "q": "シチリアのレモン栽培が特定の場所に限られていた理由は何ですか？",
+                        "a": "果実の霜に対する感受性(the fruit's sensitivity to frost)。霜に弱いため、霜のない場所でしか栽培できなかった。"
                     },
                     {
-                        "q": "'clinical studies' と 'traditional use' の対比はどのようなものですか？",
-                        "a": "伝統的使用（長年の経験）vs 臨床研究（科学的検証）。前者だけでは安全性の根拠として不十分だという議論。"
+                        "q": "'without such safeguards, an entire year's harvest could go missing overnight' はどのような状況を示していますか？",
+                        "a": "仮定法的含意。防護策(高い壁)がなければ盗難のリスクが極めて高く、一年分の収穫が一晩で失われうるため、壁の建設が不可欠だった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Nevertheless",
-                    "For thousands of years",
-                    "therefore discourage their use"
+                    "leading to greatly increased demand for lemons, which caused revenues from the fruit to skyrocket"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "因果・結果",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "leading to / causing",
                 "practicePassage": {
-                    "en": "[出典: Herbal Medicine]\nFor thousands of years, people have taken plants and plant-based substances as medicines. Such cures are still used more commonly than modern drugs in many regions, with some 80 percent of the population in certain developing countries relying on herbal medicines. Nevertheless, their effectiveness is largely unsupported by science-based evidence. Many Western doctors therefore discourage their use, especially for seriously ill people. For such patients, using scientifically proven drugs can mean the difference between life and death.",
-                    "ja": "何千年もの間、人々は植物や植物由来の物質を薬として服用してきた。そのような治療法は多くの地域で現代の薬よりも一般的に使用されており、一部の発展途上国では人口の約80パーセントがハーブ薬に頼っている。それにもかかわらず、その効果は科学的根拠にほとんど裏付けられていない。そのため、多くの西洋の医師はハーブ薬の使用を勧めず、特に重症患者に対してはそうである。そのような患者にとって、科学的に証明された薬を使うことは生死を分ける問題になり得る。",
+                    "en": "[出典: Lemons and the Mafia]\nIn the 1700s, it was discovered that lemon juice prevented a deadly disease called scurvy, leading to greatly increased demand for lemons, which caused revenues from the fruit to skyrocket. Sicily was one of the few places where lemons could grow, but lemon farming was limited to certain locations on the island due to the fruit's sensitivity to frost. In addition, the shift to large-scale lemon growing required huge financial investments to build facilities and develop irrigation systems. High walls were also constructed to protect lemon trees from thieves, as without such safeguards, an entire year's harvest could go missing overnight.",
+                    "ja": "1700年代、レモン汁が壊血病という致死的な病気を予防することが発見され、その結果レモンの需要が大幅に増加し、果実からの収益が急騰した。シチリアはレモンが育つ数少ない場所の一つだったが、果実の霜に対する感受性のため、レモン栽培は島の特定の場所に限られていた。さらに、大規模なレモン栽培への転換には、施設の建設や灌漑システムの開発に巨額の投資が必要だった。盗人からレモンの木を保護するために高い壁も建設された。そのような防護策がなければ、一年分の収穫が一晩で消える可能性があったからだ。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "受動態の応用パターン",
-                "subtitle": "Advanced Passive Voice Patterns",
-                "explanation": "本試験では受動態の応用（be affected by, be regarded as, be said to be, be introduced to）が頻出します。主語と動作主の関係に注意。",
-                "sourceQuote": "were regarded as outsiders / are being introduced / is often said to be based on",
-                "sourceLocation": "Part 3B, Part 3C",
+                "title": "付帯状況の With + O + 分詞（独立分詞構文）",
+                "subtitle": "With-Participle Absolute Construction",
+                "explanation": "With + O + 過去分詞/-ing は「Oが〜された/している状態で」と背景状況を表す独立分詞構文。主文の状況の原因や背景を同時に示す高度な表現。",
+                "sourceQuote": "With their lives uprooted and their cultural traditions being lost without access to vibrant Sámi social groups, many suffer from significant mental health problems.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The rulers were regarded as outsiders.",
-                        "ja": "統治者は外部者と見なされた。",
-                        "note": "be regarded as＝～と見なされる。byの省略が多い。"
+                        "en": "With their lives uprooted and their cultural traditions being lost without access to vibrant Sámi social groups, many suffer from significant mental health problems.",
+                        "ja": "生活が根こそぎにされ、活気あるサーミ社会のグループへのアクセスなしに文化的伝統が失われつつある中で、多くの人が深刻な精神的健康問題に苦しんでいる。",
+                        "note": "With + their lives uprooted(過去分詞) + and traditions being lost(現在分詞): 2つの付帯状況"
                     },
                     {
-                        "en": "Social programs are being introduced to offer emotional support.",
-                        "ja": "感情的支援を提供するための社会プログラムが導入されている。",
-                        "note": "are being introduced＝導入されつつある（受動態進行形）。"
+                        "en": "Some teenagers and young adults have fled to cities for work, and these urban Sámi have found themselves alienated and the target of discrimination due to their heritage.",
+                        "ja": "一部の若者は仕事のために都市に逃れたが、都市のサーミ族は疎外され、出自のために差別の対象になっていることに気づいた。",
+                        "note": "found themselves alienated: find + O + C「Oが〜であることに気づく」"
                     },
                     {
-                        "en": "Mental health issues are often said to be based on economic uncertainty.",
-                        "ja": "精神的健康問題はしばしば経済的不確実性に基づくと言われている。",
-                        "note": "be said to be＝～と言われている。It is said that...と同意。"
+                        "en": "With the deadline approaching, the team worked overtime.",
+                        "ja": "締め切りが迫る中、チームは残業した。",
+                        "note": "With + O + -ing: 「Oが〜している状態で」付帯状況の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'it was discovered that lemon juice prevented a deadly disease' の受動態はなぜ使われていますか？",
-                        "a": "「発見された」。発見者より発見の内容（レモン汁の効能）に焦点を当てる。科学的発見を客観的に述べる表現。"
+                        "q": "'With their lives uprooted and their cultural traditions being lost' の構文を分析してください。",
+                        "a": "With + their lives(O) + uprooted(過去分詞=され状態) + and + their traditions(O) + being lost(現在分詞=されつつある)。2つの付帯状況が並列。"
                     },
                     {
-                        "q": "'leading to a greatly increased demand' の 'leading to' はどのような構造ですか？",
-                        "a": "分詞構文。「〜につながった」。前述の事実（病気予防の発見）が原因で需要が増大したという因果関係を示す。"
+                        "q": "都市に移住したサーミ族が直面する問題を2つ答えてください。",
+                        "a": "①疎外感(alienated) ②出自による差別(the target of discrimination due to their heritage)。文化的コミュニティから切り離されることも問題。"
                     },
                     {
-                        "q": "'High walls were also constructed to protect lemon trees from thieves' の不定詞は何を表しますか？",
-                        "a": "目的を表す副詞的用法。「レモンの木を泥棒から守るために」高い壁が建設された。"
+                        "q": "'Although exact numbers are unknown, surveys suggest that' の 'Although' と 'suggest' の役割を説明してください。",
+                        "a": "Although: 正確な数字は不明という制約の譲歩。suggest: 調査に基づく推論。断定を避けた慎重な表現で信頼性を示す。"
                     },
                     {
-                        "q": "この段落で述べられているレモン需要の増加の経緯は？",
-                        "a": "レモン汁が壊血病を予防する発見→需要急増→利益増大→泥棒から守る必要性→保護サービスの需要。"
+                        "q": "精神的健康問題の助けを求める人が少ない理由は何ですか？",
+                        "a": "精神的健康がサーミ族にとってタブーな話題だから(mental health is a taboo topic for the Sámi)。文化的なスティグマが障壁。"
                     }
                 ],
                 "highlightPatterns": [
-                    "it was discovered that",
-                    "leading to",
-                    "to protect lemon trees from thieves"
+                    "With their lives uprooted and their cultural traditions being lost"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "受動態",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "With + O + 分詞",
                 "practicePassage": {
-                    "en": "[出典: Lemons and the Mafia]\nIn the 1700s, it was discovered that lemon juice prevented a deadly disease called scurvy, leading to greatly increased demand for lemons, which caused revenues from the fruit to skyrocket. Sicily was one of the few places where lemons could grow, but lemon farming was limited to certain locations on the island due to the fruit's sensitivity to frost. In addition, the shift to large-scale lemon growing required huge financial investments to build facilities and develop irrigation systems. High walls were also constructed to protect lemon trees from thieves, as without such safeguards, an entire year's harvest could go missing overnight.",
-                    "ja": "1700年代に、レモン果汁が壊血病という致命的な病気を予防することが発見され、レモンの需要が大幅に増加し、果実からの収入が急増した。シチリア島はレモンが育つことができる数少ない場所の一つだったが、果実が霜に弱いため、レモン栽培は島内の特定の場所に限られていた。さらに、大規模なレモン栽培への転換には、施設の建設や灌漑システムの開発のために巨額の資金投資が必要だった。レモンの木を泥棒から守るために高い壁も建設された。そのような防護策がなければ、一年分の収穫が一晩で消えてしまう可能性があったからだ。",
+                    "en": "[出典: Climate Change and the Sámi]\nThe decline of reindeer herds has caused many Sámi to experience financial and emotional difficulties. Some teenagers and young adults have fled to cities for work, and these urban Sámi have found themselves alienated and the target of discrimination due to their heritage. With their lives uprooted and their cultural traditions being lost without access to vibrant Sámi social groups, many suffer from significant mental health problems. The problem extends to traditional Sámi communities, with higher-than-average suicide rates reported, especially among young males. Few seek help, though, as mental health is a taboo topic for the Sámi. Although exact numbers are unknown, surveys suggest that most Sámi have a relative or friend who has committed suicide.",
+                    "ja": "トナカイの群れの減少により、多くのサーミ族は経済的・感情的な困難を経験するようになった。一部の若者は仕事のために都市に逃れたが、都市のサーミ族は疎外され、出自のために差別の対象になっていることに気づいた。生活が根こそぎにされ、活気あるサーミ社会のグループへのアクセスなしに文化的伝統が失われつつある中で、多くの人が深刻な精神的健康問題に苦しんでいる。伝統的なサーミのコミュニティにも問題は及び、特に若い男性の間で平均より高い自殺率が報告されている。しかし助けを求める人は少ない。精神的健康はサーミ族にとってタブーな話題だからだ。正確な数字は不明だが、調査ではほとんどのサーミ族に自殺した親戚や友人がいることが示唆されている。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "目的・理由を表す不定詞と前置詞句",
-                "subtitle": "Purpose & Reason Expressions",
-                "explanation": "to不定詞（目的）、in order to、so that、due to（理由）の使い分けが長文読解の鍵です。",
-                "sourceQuote": "in order to achieve / to protect their orchards / due to climate change",
-                "sourceLocation": "Part 3 全体",
+                "title": "Instead of -ing + 代替提案 should instead",
+                "subtitle": "Alternative Proposal with Instead Of",
+                "explanation": "Instead of + -ing は「〜する代わりに」と否定的な方法を指摘し、should instead + V で代替案を提示する。議論文で筆者の主張を展開する際に使われる重要構文。",
+                "sourceQuote": "Instead of viewing herbal medicines as an alternative to standard drugs, people should instead use them to maintain overall health and wellness.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "They began employing local strongmen to protect their orchards.",
-                        "ja": "果樹園を守るために地元の力者を雇い始めた。",
-                        "note": "to protect＝守るために（目的の不定詞）。"
+                        "en": "Instead of viewing herbal medicines as an alternative to standard drugs, which are often necessary in emergencies or to fight serious infections, people should instead use them to maintain overall health and wellness.",
+                        "ja": "漢方薬を、緊急時や深刻な感染症と戦うのにしばしば必要な標準的な薬の代替として見なす代わりに、全体的な健康と幸福を維持するために使うべきだ。",
+                        "note": "Instead of viewing(否定行動) + should instead use(代替提案): 行動の転換を促す"
                     },
                     {
-                        "en": "Some feel they must prove their worth by working far harder than they need to.",
-                        "ja": "必要以上に働いて自分の価値を証明しなければと感じる。",
-                        "note": "by -ing＝～することで（手段）。in order to（目的）と区別。"
+                        "en": "If taken properly, supporters say, both traditional and modern medicines can be safely used in combination with each other.",
+                        "ja": "適切に服用されれば、伝統的な薬と現代の薬の両方を安全に併用できると支持者は言う。",
+                        "note": "If taken properly: 分詞構文の省略形=If they are taken。in combination with: 併用"
                     },
                     {
-                        "en": "The reindeer herds are under severe pressure due to climate change.",
-                        "ja": "トナカイの群れは気候変動のため深刻な圧力を受けている。",
-                        "note": "due to＝～のため（原因）。前置詞句。"
+                        "en": "Instead of complaining about the problem, we should focus on finding a solution.",
+                        "ja": "問題について不満を言う代わりに、解決策を見つけることに集中すべきだ。",
+                        "note": "Instead of -ing + should: 否定的行動→建設的代替案の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Although exact numbers are unknown' の 'Although' はどのような譲歩を示しますか？",
-                        "a": "「正確な数字は不明だが」→ それでも調査は自殺が多いことを示唆。データの不完全さを認めつつ問題を指摘する譲歩。"
+                        "q": "'Instead of viewing...should instead use' の議論の論理を説明してください。",
+                        "a": "否定: 漢方薬を標準薬の代替と見なすこと(viewing as an alternative)。提案: 全体的な健康維持のために使うこと(use to maintain health)。役割分担を主張。"
                     },
                     {
-                        "q": "'The decline of reindeer herds has caused many Sámi to experience financial and emotional difficulties' の因果構造を説明してください。",
-                        "a": "原因: トナカイの群れの減少 → 結果: 経済的・精神的困難。has caused A to do = Aに〜させた。"
+                        "q": "'which are often necessary in emergencies' の 'which' は何を修飾していますか？",
+                        "a": "standard drugs(標準的な薬)。非制限用法の関係代名詞で、「緊急時にしばしば必要な」と標準薬の重要性を補足説明。"
                     },
                     {
-                        "q": "この段落で述べられているサーミ人の困難の種類を挙げてください。",
-                        "a": "経済的困難（financial difficulties）と精神的困難（emotional difficulties）の2種類。"
+                        "q": "'If taken properly' を省略前の完全な形に直してください。",
+                        "a": "If they are taken properly。主節の主語(both traditional and modern medicines)と同じなのでthey areが省略された分詞構文。"
                     },
                     {
-                        "q": "'adapted' と 'experienced difficulties' の対比はどのような議論を構築していますか？",
-                        "a": "一部は適応できた（ポジティブ面）が、多くは困難を経験している（ネガティブ面）。問題の深刻さを強調する対比。"
+                        "q": "漢方薬支持者が主張する漢方薬と現代薬の理想的な関係は何ですか？",
+                        "a": "代替関係(alternative)ではなく補完関係(combination)。現代薬は緊急・感染症用、漢方薬は全体的な健康維持用と役割を分けて併用。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although exact numbers are unknown",
-                    "has caused many Sámi to experience"
+                    "Instead of viewing herbal medicines as an alternative to standard drugs",
+                    "should instead use them to maintain overall health and wellness"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "目的・理由",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Instead of / should instead",
                 "practicePassage": {
-                    "en": "[出典: Climate Change and the Sámi]\nThe decline of reindeer herds has caused many Sámi to experience financial and emotional difficulties. Some teenagers and young adults have fled to cities for work, and these urban Sámi have found themselves alienated and the target of discrimination due to their heritage. With their lives uprooted and their cultural traditions being lost without access to vibrant Sámi social groups, many suffer from significant mental health problems. The problem extends to traditional Sámi communities, with higher-than-average suicide rates reported, especially among young males. Few seek help, though, as mental health is a taboo topic for the Sámi. Although exact numbers are unknown, surveys suggest that most Sámi have a relative or friend who has committed suicide.",
-                    "ja": "トナカイの群れの減少により、多くのサーミ人が経済的・精神的な困難を経験している。一部の十代の若者や若い大人は仕事を求めて都市に逃れたが、こうした都市部のサーミ人は自らの遺産ゆえに疎外され、差別の対象となっている。生活が根こそぎにされ、活気あるサーミ人の社会集団へのアクセスなしに文化的伝統が失われていく中、多くの人が深刻な精神的健康問題に苦しんでいる。この問題は伝統的なサーミ人コミュニティにも及び、特に若い男性の間で平均を上回る自殺率が報告されている。しかし、精神的健康はサーミ人にとってタブーな話題であるため、助けを求める人はほとんどいない。正確な数字は不明だが、調査によるとほとんどのサーミ人には自殺した親族や友人がいるという。",
+                    "en": "[出典: Herbal Medicine]\nSupporters of herbal medicines say the amount of data from clinical studies is increasing, and this can help people understand which medicines are safe. They also feel that herbal medicines and modern, doctor-prescribed drugs should have different roles. Instead of viewing herbal medicines as an alternative to standard drugs, which are often necessary in emergencies or to fight serious infections, people should instead use them to maintain overall health and wellness. If taken properly, supporters say, both traditional and modern medicines can be safely used in combination with each other.",
+                    "ja": "漢方薬の支持者は、臨床研究からのデータ量が増加しており、これによりどの薬が安全かを理解するのに役立つと述べている。また、漢方薬と現代の処方薬は異なる役割を持つべきだと考えている。漢方薬を、緊急時や深刻な感染症と戦うのにしばしば必要な標準的な薬の代替として見なす代わりに、全体的な健康と幸福を維持するために使うべきだ。適切に服用されれば、伝統的な薬と現代の薬の両方を安全に併用できると支持者は言う。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

@@ -1554,221 +1554,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "as if + 仮定法過去",
-                "subtitle": "As If + Subjunctive Past",
-                "explanation": "as if / as thoughの後は仮定法過去(were)を使い「まるで～のように」を表す。現実と異なる比喩表現に使う。",
-                "sourceQuote": "They looked at him as if he were crazy.",
-                "sourceLocation": "Part 1 Q13",
+                "title": "非人称受動態 It is believed + suggest that",
+                "subtitle": "Impersonal Passive and Suggestion",
+                "explanation": "It is believed (that) は「〜と信じられている」と客観的事実を述べる非人称受動態。suggest that は「〜を示唆する」と証拠に基づく推論を表す。学術的な文章に頻出。",
+                "sourceQuote": "It is believed the shelter was used about 1,000 years ago.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "They looked at him as if he were crazy.",
-                        "ja": "彼らはまるで彼が頭がおかしいかのように見た。",
-                        "note": "as if + were(仮定法過去)"
+                        "en": "It is believed the shelter was used about 1,000 years ago.",
+                        "ja": "その避難所は約1,000年前に使われたと信じられている。",
+                        "note": "It is believed + S + V: 非人称受動態。客観的な歴史的見解を述べる。"
                     },
                     {
-                        "en": "She talks as if she knew everything.",
-                        "ja": "彼女はまるで全てを知っているかのように話す。",
-                        "note": "as if + 過去形=現在の事実と異なる"
+                        "en": "This discovery suggests that the route was used earlier than they thought.",
+                        "ja": "この発見は、そのルートが彼らが考えていたよりも早くから使用されていたことを示唆している。",
+                        "note": "suggests that: 証拠→推論。比較級 earlier than を含む。"
                     },
                     {
-                        "en": "He looked as though he had seen a ghost.",
-                        "ja": "まるで幽霊を見たかのような表情だった。",
-                        "note": "as though + 過去完了=過去の事実と異なる"
+                        "en": "It is widely believed that regular exercise improves mental health.",
+                        "ja": "定期的な運動が精神的健康を改善すると広く信じられている。",
+                        "note": "It is widely believed that: 広く受け入れられている見解"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Norway's oldest piece of clothing' の最上級を説明してください。",
-                        "a": "「ノルウェー最古の衣服」。the oldest = 最も古い。発見された遺物の歴史的価値を強調。"
+                        "q": "'It is believed the shelter was used about 1,000 years ago' の構文を分析してください。",
+                        "a": "It(形式主語) + is believed(受動態) + the shelter was used(S+V節)。thatが省略されている。「〜と信じられている」客観的見解。"
                     },
                     {
-                        "q": "'the Lendbreen pass was discovered as the ice melted' の受動態と接続詞を説明してください。",
-                        "a": "「氷が溶けるにつれて峠が発見された」。was discovered = 受動態。as = 〜につれて。気候変動と発見の因果。"
+                        "q": "'This discovery suggests that the route was used earlier than they thought' の 'suggests' はどのような意味ですか？",
+                        "a": "「示唆する/〜を暗示する」。発見という証拠に基づく推論。断定(proves)ではなく、可能性を示す慎重な表現。"
                     },
                     {
-                        "q": "'ancient objects' はどのような歴史的価値がありますか？",
-                        "a": "約1,700年前の遺物。衣服、道具など。当時の生活様式や交易ルートの証拠を提供。"
+                        "q": "'Although one scientist discovered one ... the roof had already broken down' の時制に注目してください。",
+                        "a": "discovered(過去形): 発見した時点。had already broken down(過去完了): 発見時にはすでに崩れていた。過去より前の完了。"
                     },
                     {
-                        "q": "レンドブリーン峠の発見を要約してください。",
-                        "a": "氷の融解で峠が出現→最古の衣服含む多数の遺物発見→約1,700年前の交易ルートの証拠。"
+                        "q": "最近の発見が重要な理由は何ですか？",
+                        "a": "さらに古い避難所が発見されたことで、ルートが以前考えられていたよりも早い時期から使用されていたことが示唆されたから。歴史認識の修正。"
                     }
                 ],
                 "highlightPatterns": [
-                    "oldest piece of clothing",
-                    "Lendbreen pass",
-                    "was discovered"
+                    "It is believed the shelter was used about 1,000 years ago",
+                    "This discovery suggests that the route was used earlier than they thought"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "仮定法",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "It is believed / suggests that",
                 "practicePassage": {
-                    "en": "[出典: Ancient Travel Routes in Medieval Norway]\nIn another part of Norway, the Lendbreen pass was discovered as the ice melted away. This pass was used over 1,000 years ago for about 500 years. The pass was often used in the winter when the land was covered with snow. Shoes, wooden skis, arrows, and horse bones were discovered there. One surprising find was an old tunic, which survived the ages. It is now Norway's oldest piece of clothing. In fact, the ice kept these things in good condition for many years.",
-                    "ja": "ノルウェーの別の地域では、氷が溶けるにつれてレンドブリーン峠が発見された。そこからは多くの古代の遺物が見つかった。その中には現在ノルウェー最古の衣服とされるものも含まれていた。これらの遺物は約1,700年前のものと推定されており、当時の人々の生活様式や交易ルートについて貴重な情報を提供している。",
+                    "en": "[出典: Ancient Travel Routes in Medieval Norway]\nIn Norway, researchers have found an old shelter made of stones in a mountain. It is believed the shelter was used about 1,000 years ago. It was on the part of a long travel route across the Hardanger Plateau. Ancient stone shelters were built by travelers for rest. Although one scientist discovered one of the ancient shelters in the 1800s, the roof had already broken down. It was not the only discovery, however. Recently, scientists went to the same place and found an even older shelter. This discovery suggests that the route was used earlier than they thought.",
+                    "ja": "ノルウェーでは、研究者が山の中に石で作られた古い避難所を発見した。その避難所は約1,000年前に使われたと信じられている。それはハルダンゲル高原を横断する長い旅のルートの一部にあった。古代の石の避難所は旅人が休息のために建てたものである。ある科学者が1800年代に古代の避難所の一つを発見したが、屋根はすでに崩れていた。しかし、それが唯一の発見ではなかった。最近、科学者たちが同じ場所に行き、さらに古い避難所を発見した。この発見は、そのルートが彼らが考えていたよりも早くから使用されていたことを示唆している。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "insist that S (should) V 仮定法現在",
-                "subtitle": "Subjunctive Present with Insist",
-                "explanation": "insist/suggest/demand/requestなどの動詞の後のthat節で、動詞は原形(should+原形)を使う。これを「仮定法現在」と呼ぶ。",
-                "sourceQuote": "The teacher insisted that they complete it by Monday.",
-                "sourceLocation": "Part 1 Q7",
+                "title": "What節主語 + not only A but also B",
+                "subtitle": "What-Clause Subject with Correlative",
+                "explanation": "What + S + V は「〜したこと/もの」を表す名詞節で文の主語になる。not only A but also B と組み合わさり「〜したことはAだけでなくBも」と多面的な評価を述べる。",
+                "sourceQuote": "What this museum visitor accomplished was not only solving a mystery, but it has also been said that visitors became more engaged.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "The teacher insisted that they complete it by Monday.",
-                        "ja": "先生は月曜日までに完成させるよう主張した。",
-                        "note": "insisted that + 原形(complete)"
+                        "en": "What this museum visitor accomplished was not only solving a mystery, but it has also been said that visitors to the museum became more engaged with the displayed items.",
+                        "ja": "この博物館の訪問者が成し遂げたことは謎を解いただけでなく、博物館の訪問者が展示品により関心を持つようになったとも言われている。",
+                        "note": "What + S + accomplished(What節=主語) + was not only A but also B"
                     },
                     {
-                        "en": "She suggested that he take a day off.",
-                        "ja": "彼女は彼に1日休むよう提案した。",
-                        "note": "suggested that + 原形(take)"
+                        "en": "A museum is not simply a place to display things but also a place where visitors can get involved.",
+                        "ja": "博物館は単に物を展示する場所ではなく、訪問者が関わることができる場所でもある。",
+                        "note": "not simply A but also B: not onlyの変形。simply=only"
                     },
                     {
-                        "en": "It is important that each student be prepared.",
-                        "ja": "各生徒が準備しておくことが重要だ。",
-                        "note": "It is important that + 原形(be)"
+                        "en": "What surprised me most was his kindness.",
+                        "ja": "最も驚いたのは彼の優しさだった。",
+                        "note": "What + V + O: What節が主語。「〜したこと」"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'the best course of action is for you to return' の表現を説明してください。",
-                        "a": "「最善の対応策は返送していただくこと」。course of action = 行動方針。for you to = あなたが〜すること。"
+                        "q": "'What this museum visitor accomplished' の 'What' はどのような役割ですか？",
+                        "a": "関係代名詞what。名詞節を作り文全体の主語になる。「この博物館の訪問者が成し遂げたこと」= the thing that this museum visitor accomplished。"
                     },
                     {
-                        "q": "'find the cause of the problem' の目的表現を説明してください。",
-                        "a": "「問題の原因を特定するために」。検査の目的を示す。cause = 原因。"
+                        "q": "この訪問者の成果の2つの側面は何ですか？",
+                        "a": "①謎を解いたこと(solving a mystery) ②博物館の訪問者が展示品により関心を持つようになったこと(visitors became more engaged)。"
                     },
                     {
-                        "q": "'send you a new rice cooker' の提案はどのような対応ですか？",
-                        "a": "交換品の送付。修理ではなく新品交換。同じ問題の再発防止が理由。顧客サービスの標準対応。"
+                        "q": "'not simply a place to display things but also a place where visitors can get involved' で博物館の役割をどう定義していますか？",
+                        "a": "単なる展示場所(to display)ではなく訪問者が参加できる場所(can get involved)。受動的鑑賞から能動的参加への転換。"
                     },
                     {
-                        "q": "カスタマーサービスの対応を要約してください。",
-                        "a": "返送依頼→技術チームが原因調査→新品交換品を送付→修理ではなく交換で再発防止。"
+                        "q": "'It can also be said that every displayed item has its story' の 'It can be said' はどのような表現ですか？",
+                        "a": "非人称受動態。「〜と言うこともできる」。can be said で可能性・妥当性を示す慎重な主張。"
                     }
                 ],
                 "highlightPatterns": [
-                    "best course of action",
-                    "return the rice cooker",
-                    "find the cause"
+                    "What this museum visitor accomplished was not only solving a mystery"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "仮定法現在",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "What節 + not only but also",
                 "practicePassage": {
-                    "en": "[出典: Your Rice Cooker]\nWe believe the best course of action is for you to return the rice cooker to us. Once we get the cooker, we will carefully check it to find the cause of the problem. We understand that this will probably be inconvenient for you. But we want to make sure you get a rice cooker that works perfectly. Our main aim is to provide you with a good, reliable kitchen device that meets your needs and to learn from the issue to prevent future problems.",
-                    "ja": "最善の対応策は、炊飯器を当社に返送していただくことだと考えている。問題の原因を特定するために、技術チームが検査を行う。検査が完了次第、新しい炊飯器をお送りする。修理ではなく交換品をお送りするのは、同じ問題が再発しないようにするためだ。お客様にご不便をおかけしていることをお詫び申し上げる。",
+                    "en": "[出典: The Fabergé Picture Frames]\nWhat this museum visitor accomplished was not only solving a mystery, but it has also been said that visitors to the museum became more engaged with the displayed items. They can now feel more connected to history. This means that a museum is not simply a place to display things but also a place where visitors can get involved. They can look closely at the items and share their own thoughts. It can also be said that every displayed item has its story and that each item is special.",
+                    "ja": "この博物館の訪問者が成し遂げたことは謎を解いただけでなく、博物館の訪問者が展示品により関心を持つようになったとも言われている。彼らは今、歴史とのつながりをより感じることができる。つまり、博物館は単に物を展示する場所ではなく、訪問者が関わることができる場所でもある。展示品を細かく観察し、自分の考えを共有できる。展示品にはそれぞれ物語があり、それぞれが特別であるとも言える。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "dying to / intent on 強い意志の表現",
-                "subtitle": "Strong Desire Expressions",
-                "explanation": "dying to do=～したくてたまらない、intent on doing=～に専念して。どちらも非常に強い意志・欲求を表す口語的表現。",
-                "sourceQuote": "He was dying to drink something. / I'm intent on getting good grades.",
-                "sourceLocation": "Part 1 Q11, Q14",
+                "title": "could + make it harder to V（可能性+形式目的語）",
+                "subtitle": "Modal with Make + Formal Object",
+                "explanation": "could + V は「〜しうる/〜する可能性がある」と可能性を表す。make it harder to V は「〜することをより困難にする」で形式目的語構文。因果関係の説明に重要。",
+                "sourceQuote": "Repeatedly growing the same crop could take away important elements from the land and make it harder to keep growing crops.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "He was dying to drink something.",
-                        "ja": "何か飲みたくてたまらなかった。",
-                        "note": "dying to do=非常に～したい"
+                        "en": "He knew that repeatedly growing the same crop could take away important elements from the land and make it harder to keep growing crops in the future.",
+                        "ja": "彼は同じ作物を繰り返し栽培すると土地から重要な要素を奪い、将来作物を栽培し続けることをより困難にしうることを知っていた。",
+                        "note": "could take away + (could) make it harder: couldが2つの動詞に係る。形式目的語it"
                     },
                     {
-                        "en": "I'm intent on getting good grades.",
-                        "ja": "良い成績を取ることに全力だ。",
-                        "note": "intent on doing=～に決意して・専念して"
+                        "en": "After being freed from slavery, he was raised by a kind couple.",
+                        "ja": "奴隷制から解放された後、彼は親切な夫婦に育てられた。",
+                        "note": "After being freed: 前置詞+受動動名詞。「解放された後」"
                     },
                     {
-                        "en": "She is dying to see the new movie.",
-                        "ja": "新しい映画を見たくてたまらない。",
-                        "note": "dyingは比喩的な「死ぬほど」"
+                        "en": "Bad weather could make it impossible to continue the game.",
+                        "ja": "悪天候は試合を続けることを不可能にしうる。",
+                        "note": "could + make it impossible to V: 可能性+形式目的語の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'developed a program at Tuskegee' はどのような教育活動ですか？",
-                        "a": "タスキーギ大学で農業教育プログラムを開発。農家に直接的・実践的な教育を提供する取り組み。"
+                        "q": "'could take away ... and make it harder to keep growing crops' の構文を分析してください。",
+                        "a": "could(可能性の助動詞) + take away(句動詞) + and + make(V) + it(形式O) + harder(C) + to keep growing(真のO)。couldが2つの動詞句に係る。"
                     },
                     {
-                        "q": "'traveled around teaching farmers' の分詞構文を説明してください。",
-                        "a": "「各地を回って農家に教えた」。teaching = 付帯状況の分詞構文。旅行しながら教育した。"
+                        "q": "'After being freed from slavery' の 'being freed' はどのような構文ですか？",
+                        "a": "前置詞After + being freed(受動態の動名詞)。「奴隷制から解放された後」。主語と同一人物の受動的経験を表す。"
                     },
                     {
-                        "q": "'farming education' はなぜ重要だったのですか？",
-                        "a": "南部の貧しい農家は効率的な農法を知らなかった。直接教育で生活改善に貢献。"
+                        "q": "カーヴァーが注目した問題とその解決策は何ですか？",
+                        "a": "問題: 同じ作物の繰り返し栽培が土地の重要な要素を奪う。解決策: 異なる作物を交互に栽培する方法(輪作)で土地の健康を維持。"
                     },
                     {
-                        "q": "カーバーの教育活動を要約してください。",
-                        "a": "タスキーギ大学でプログラム開発→各地を巡回→農家に効率的農法を教育→南部の農家の生活改善。"
+                        "q": "'which would maintain the land's health' の 'would' はどのような意味ですか？",
+                        "a": "推量・予測。「土地の健康を維持するであろう」。異なる作物を交互に栽培する方法が土地の健康維持に繋がるという期待・予測を表す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "developed a program",
-                    "Tuskegee",
-                    "farming education"
+                    "could take away important elements from the land and make it harder to keep growing crops"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "強い意志表現",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "could + make it harder",
                 "practicePassage": {
-                    "en": "[出典: George Washington Carver]\nCarver's work also helped improve farming education. He developed a program at Tuskegee University to educate students. It focused on growing new types of crops and growing different crops in turn. Carver's teaching efforts went beyond the classroom. He was one of the first people to use a mobile classroom known as the Jesup Wagon to visit farmers and provide farming education directly to them. He published many reports with practical advice that helped both farmers and teachers. His popular articles were given out for free. They helped improve the productivity of farmers and their way of life.",
-                    "ja": "カーバーの業績は農業教育の向上にも貢献した。彼はタスキーギ大学でプログラムを開発し、農家に直接教育を提供した。彼は各地を回り、農家に効率的な農法を教えた。肥料の使い方や輪作の重要性など、実践的な知識を広めた。この活動は特に南部の貧しい農家の生活改善に大きく貢献した。",
+                    "en": "[出典: George Washington Carver]\nGeorge Washington Carver was an African American scientist who improved farming. His strong love for plants started in childhood. After being freed from slavery, which was a system of forced labor, he was raised by a kind couple. They encouraged him to study plants and gardening. He knew that repeatedly growing the same crop could take away important elements from the land and make it harder to keep growing crops in the future. To improve this situation, he focused on methods to grow different crops one after another, which would maintain the land's health.",
+                    "ja": "ジョージ・ワシントン・カーヴァーは農業を改善したアフリカ系アメリカ人の科学者である。植物への強い愛情は幼少期に始まった。強制労働の制度である奴隷制から解放された後、親切な夫婦に育てられた。彼らは彼に植物と園芸の研究を奨励した。彼は同じ作物を繰り返し栽培すると土地から重要な要素を奪い、将来作物を栽培し続けることをより困難にしうることを知っていた。この状況を改善するために、彼は異なる作物を次々と育てる方法に焦点を当て、それが土地の健康を維持するのに役立った。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "approve of / distinguish from 動詞+前置詞",
-                "subtitle": "Verb + Preposition Patterns",
-                "explanation": "approve of=～を認める、distinguish A from B=AとBを区別する。動詞と前置詞の組み合わせで意味が決まる。前置詞の選択ミスで不正解になりやすい。",
-                "sourceQuote": "did not approve of his methods / impossible to distinguish it from the original",
-                "sourceLocation": "Part 1 Q3, Q8",
+                "title": "過去完了 had been kept + 現在完了 have started",
+                "subtitle": "Perfect Tense Contrast",
+                "explanation": "had been + pp（過去完了受動態）は「〜されていた」と過去のある時点までの状態を表す。have started（現在完了）は「〜し始めている」と過去から現在に至る変化を表す。時制の対比が因果関係を明示。",
+                "sourceQuote": "Items that had been kept hidden have started to appear, and scientists are discovering more about the past.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "They did not approve of his methods.",
-                        "ja": "彼らは彼の方法を認めなかった。",
-                        "note": "approve of=～を認める・賛成する"
+                        "en": "Items that had been kept hidden have started to appear, and scientists are discovering more about the past.",
+                        "ja": "隠されていた品物が姿を現し始め、科学者たちは過去についてさらに多くのことを発見している。",
+                        "note": "had been kept(過去完了受動態=それまで隠されていた) → have started(現在完了=今、現れ始めている)"
                     },
                     {
-                        "en": "It was impossible to distinguish it from the original.",
-                        "ja": "オリジナルと区別することは不可能だった。",
-                        "note": "distinguish A from B=AとBを区別する"
+                        "en": "Because of rising temperatures, items that had been kept hidden have started to appear.",
+                        "ja": "気温上昇のため、隠されていた品物が姿を現し始めている。",
+                        "note": "Because of: 原因。rising temperatures → items appear: 因果関係"
                     },
                     {
-                        "en": "He raised an objection at the meeting.",
-                        "ja": "彼は会議で異議を唱えた。",
-                        "note": "raise an objection=異議を唱える"
+                        "en": "The book that had been lost for years was finally found.",
+                        "ja": "何年も失われていた本がついに見つかった。",
+                        "note": "had been lost(過去完了受動態) → was found(過去形): 長期間の状態→発見"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'freed from slavery' の過去分詞を説明してください。",
-                        "a": "「奴隷制度から解放された」。freed from = 〜から解放された。受動の過去分詞。歴史的背景。"
+                        "q": "'had been kept hidden' と 'have started to appear' の時制の違いを説明してください。",
+                        "a": "had been kept hidden(過去完了受動態): 長い間ずっと隠された状態だった。have started(現在完了): 今まさに現れ始めている。過去の状態→現在の変化という時間の流れ。"
                     },
                     {
-                        "q": "'improved farming' の過去形はどのような業績ですか？",
-                        "a": "「農業を改善した」。カーバーの生涯の業績を簡潔に示す。improved = 具体的に向上させた。"
+                        "q": "レンドブリーン峠の利用が減少した原因を2つ答えてください。",
+                        "a": "①より寒い気候(colder weather) ②病気の蔓延(widespread disease)。これらにより交通量が減り、最終的に峠は忘れ去られた。"
                     },
                     {
-                        "q": "'take away important elements from the land' の句動詞を説明してください。",
-                        "a": "「土地から重要な要素を奪い取る」。take away from = 〜から取り去る。綿花栽培の害を示す。"
+                        "q": "品物が現れ始めた原因は何ですか？",
+                        "a": "気温上昇(rising temperatures)。氷が溶けたことで、氷の中に保存されていた品物が姿を現し始めた。"
                     },
                     {
-                        "q": "カーバーの研究の動機を要約してください。",
-                        "a": "奴隷制から解放→教育を受ける→綿花が土壌を疲弊させることを発見→土壌改善が生涯の使命に。"
+                        "q": "'After people stopped using the pass, it was forgotten' の因果関係を説明してください。",
+                        "a": "使用停止(stopped using)→忘却(was forgotten)。使わなくなったため記録も残らず、人々の記憶からも消えた。受動態で「忘れられた」と客観的に述べる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "freed from slavery",
-                    "improved farming",
-                    "take away"
+                    "items that had been kept hidden have started to appear"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "動詞+前置詞",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "had been kept / have started",
                 "practicePassage": {
-                    "en": "[出典: George Washington Carver]\nGeorge Washington Carver was an African American scientist who improved farming. His strong love for plants started in childhood. After being freed from slavery, which was a system of forced labor, he was raised by a kind couple. They encouraged him to study plants and gardening. He knew that repeatedly growing the same crop could take away important elements from the land and make it harder to keep growing crops in the future. To improve this situation, he focused on methods to grow different crops one after another, which would maintain the land's health.",
-                    "ja": "ジョージ・ワシントン・カーバーはアフリカ系アメリカ人の科学者で、農業を改善した。彼は奴隷制度から解放された後、教育を受ける機会を得た。カーバーは、綿花のような作物が土地から重要な要素を奪い取ることを発見した。同じ作物を繰り返し栽培すると土壌が疲弊し、収穫量が減少する。この問題を解決するための研究が、彼の生涯を通じた使命となった。",
+                    "en": "[出典: Ancient Travel Routes in Medieval Norway]\nThese discoveries give useful information about how people lived in the past. The Lendbreen pass was an important road for trade. Farmers, hunters, and travelers carried goods such as dairy products and things like animal leather through the pass. Over the years, because of colder weather and widespread disease, the pass came to be used less. After people stopped using the pass, it was forgotten. However, because of rising temperatures, items that had been kept hidden have started to appear, and scientists are discovering more about the past.",
+                    "ja": "これらの発見は、過去に人々がどのように生活していたかについて有用な情報を提供している。レンドブリーン峠は交易のための重要な道路だった。農民、猟師、旅人が乳製品や動物の革などの商品を峠を通って運んだ。年月を経て、より寒い気候と病気の蔓延のために、峠の利用は減少した。人々が峠の使用をやめた後、それは忘れ去られた。しかし、気温上昇のため、隠されていた品物が姿を現し始め、科学者たちは過去についてさらに多くのことを発見している。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

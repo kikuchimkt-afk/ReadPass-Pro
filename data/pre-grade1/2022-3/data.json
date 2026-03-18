@@ -2086,221 +2086,215 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "比較構文と最上級の多様な表現",
-                "subtitle": "Comparative & Superlative Patterns",
-                "explanation": "英文では比較級・最上級に加え、as...as、no more...than、倍数表現など多様な比較パターンが使われます。正確な読み取りが必要です。",
-                "sourceQuote": "more...than / as...as / the most...",
-                "sourceLocation": "Part 1-3 全体",
+                "title": "not only...but also + 比較級（複合的利点の比較）",
+                "subtitle": "Complex Comparison with Not Only...But Also",
+                "explanation": "not only + 比較級 + but also + 比較級 は2つの利点を同時に比較する高度な構文。despite + 名詞 は「〜にもかかわらず」譲歩を示す。議論文で優劣を論じる際に使われる。",
+                "sourceQuote": "A system using dots was not only easier for most blind people to read but also more practical.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "The new method proved far more effective than the previous one.",
-                        "ja": "新しい方法は以前のものよりはるかに効果的だと判明した。",
-                        "note": "far + 比較級で強調。"
+                        "en": "It gradually became clear that a system using dots was not only easier for most blind people to read but also more practical, as the dots made writing relatively simple.",
+                        "ja": "点を使うシステムはほとんどの視覚障害者にとって読みやすいだけでなく、点が書くことを比較的簡単にしたため、より実用的でもあることが次第に明らかになった。",
+                        "note": "not only easier(比較級1) + but also more practical(比較級2): 2つの優位性を並列"
                     },
                     {
-                        "en": "No other discovery was as significant as this one.",
-                        "ja": "これほど重要な発見は他になかった。",
-                        "note": "no other + as...as = 最上級の言い換え。"
+                        "en": "Still, despite students' overwhelming preference for Braille, Boston Line Type remained in official use in schools.",
+                        "ja": "それでも、生徒たちの圧倒的な点字への支持にもかかわらず、ボストン・ライン・タイプは学校で公式に使用され続けた。",
+                        "note": "despite + 名詞(overwhelming preference): 強い譲歩。公式使用が続いた理由は教師側の都合。"
                     },
                     {
-                        "en": "The population grew three times as fast as expected.",
-                        "ja": "人口は予想の3倍の速さで増加した。",
-                        "note": "倍数 + as...as = 倍数表現。"
+                        "en": "The new method is not only faster but also more accurate.",
+                        "ja": "新しい方法はより速いだけでなく、より正確でもある。",
+                        "note": "not only + 比較級 + but also + 比較級: 基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'less harmful materials' の比較級はどのような対比を示しますか？",
-                        "a": "「より害の少ない素材」。有刺鉄線と比べて動物への被害が少ない代替素材。less + 形容詞 = より〜でない。"
+                        "q": "'not only easier...but also more practical' で述べられている点字の2つの優位性は何ですか？",
+                        "a": "①読みやすさ(easier to read) ②実用性(more practical=書くのが簡単)。not only + but also で二重の優位性を強調。"
                     },
                     {
-                        "q": "'therefore' はこの段落でどのような論理的接続をしていますか？",
-                        "a": "「それゆえ」。フェンスの改善が可能だという前提から、それを採用すべきだという結論を導く因果関係。"
+                        "q": "'despite students' overwhelming preference' にもかかわらずボストン・ライン・タイプが存続した理由は何ですか？",
+                        "a": "視覚のある教師が新しい記号を学ばずに教えることができたため(allowed sighted instructors to teach without having to learn new sets of symbols)。教師側の利便性。"
                     },
                     {
-                        "q": "'more effective' と 'less harmful' の対比は何を示していますか？",
-                        "a": "フェンスの機能を維持しつつ（more effective）、環境への悪影響を減らす（less harmful）という両立の可能性。"
+                        "q": "'leading to what became known as the War of the Dots' の構文を分析してください。",
+                        "a": "leading to(結果の分詞構文) + what became known as(関係代名詞what=〜として知られるようになったもの)。新システムの連続導入が「点の戦争」を引き起こした。"
                     },
                     {
-                        "q": "この段落で提案されているフェンスの改善策を挙げてください。",
-                        "a": "下部に隙間を設ける、高さを低くする、有刺鉄線の代替素材を使用する、不要なフェンスの撤去を検討する。"
+                        "q": "点字とボストン・ライン・タイプの書記方法の違いを説明してください。",
+                        "a": "点字: 簡単な持ち運び可能な道具+タイプライター。ボストン: 専用印刷機が必要。この実用性の差が点字の優位性の一因。"
                     }
                 ],
                 "highlightPatterns": [
-                    "therefore",
-                    "should be",
-                    "negative ecological"
+                    "not only easier for most blind people to read but also more practical",
+                    "despite students' overwhelming preference for Braille"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "比較表現",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "not only...but also / despite",
                 "practicePassage": {
-                    "en": "[出典: Fences and Ecosystems]\nThe negative ecological effects of fences can be limited by making changes to them to allow certain animals through. Nevertheless, the study's authors believe a more fundamental change is necessary. Eliminating all fences, they say, is not a realistic option; instead, fence planning should be carried out with an eye on the big picture. For example, fences are often constructed to obtain short-term results and then removed, but researchers have found that months — or even years — later, some animals continue to behave as if the fences are still there. Consideration should therefore be given to all aspects of fence design and location to ensure a minimal impact on ecosystems.",
-                    "ja": "フェンスの悪影響は、その設計を変更することで軽減できる。例えば、動物がくぐり抜けたり飛び越えたりできるように下部に隙間を設けたり、高さを低くしたりすることが可能である。有刺鉄線の代わりに無害な素材を使用すれば、動物への被害を少なくできるため、環境保全の専門家はそのようなフェンスの使用を推奨している。それゆえ、フェンスの生態系への影響を考慮し、より環境に配慮した設計を採用することが重要とされている。一部の専門家は、フェンスの必要性そのものを再検討し、可能な場合は撤去することも検討すべきだと提案している。",
+                    "en": "[出典: Competing against Braille]\nIt gradually became clear that a system using dots was not only easier for most blind people to read but also more practical, as the dots made writing relatively simple. Writing with Boston Line Type required a special printing press, but Braille required only simple, portable tools, and it could also be typed on a typewriter. Still, despite students' overwhelming preference for Braille, Boston Line Type remained in official use in schools for the blind because it allowed sighted instructors to teach without having to learn new sets of symbols. Even when Boston Line Type lost popularity, other systems continued to be introduced, leading to what became known as the \"War of the Dots,\" a situation in which various writing systems competed to become the standard.",
+                    "ja": "点を使うシステムはほとんどの視覚障害者にとって読みやすいだけでなく、点が書くことを比較的簡単にしたため、より実用的でもあることが次第に明らかになった。ボストン・ライン・タイプで書くには専用の印刷機が必要だったが、点字は簡単で持ち運び可能な道具だけで済み、タイプライターでも打てた。それでも、生徒たちの圧倒的な点字への支持にもかかわらず、ボストン・ライン・タイプは視覚のある教師が新しい記号を学ばずに教えることができるため、盲学校で公式に使用され続けた。ボストン・ライン・タイプが人気を失った後も、他のシステムが次々と導入され、「点の戦争」として知られる、さまざまな書記体系が標準になることを競う状況へとつながった。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "因果関係の接続表現",
-                "subtitle": "Cause-Effect Connectors",
-                "explanation": "Part 2の空所補充で頻出する因果関係の表現です。therefore, consequently, as a result, hence, thus の使い分けが重要です。",
-                "sourceQuote": "as a result / consequently / therefore",
-                "sourceLocation": "Part 2 全体",
+                "title": "動名詞主語 + is not realistic; instead（排除と代替提案）",
+                "subtitle": "Gerund Subject with Rejection and Alternative",
+                "explanation": "Eliminating/Removing + is not a realistic option は動名詞主語で極端な案を否定し、instead で現実的な代替案を提示する。should therefore be given は受動態+therefore で結論を導く。",
+                "sourceQuote": "Eliminating all fences is not a realistic option; instead, fence planning should be carried out with an eye on the big picture.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "The project ran over budget. Consequently, the company had to seek additional funding.",
-                        "ja": "プロジェクトが予算超過した。その結果、追加資金を求めなければならなかった。",
-                        "note": "consequently = その結果（結果の導入）。"
+                        "en": "Eliminating all fences, they say, is not a realistic option; instead, fence planning should be carried out with an eye on the big picture.",
+                        "ja": "全てのフェンスを撤去することは現実的な選択肢ではないと彼らは言う。代わりに、フェンス計画は全体像を見据えて行われるべきだ。",
+                        "note": "Eliminating(動名詞主語) + is not realistic(否定) + instead(代替) + should be(提案): 段階的議論"
                     },
                     {
-                        "en": "Due to increased demand, production was ramped up.",
-                        "ja": "需要の増加により生産が増強された。",
-                        "note": "due to = ～のために（原因の導入）。"
+                        "en": "Consideration should therefore be given to all aspects of fence design and location to ensure a minimal impact on ecosystems.",
+                        "ja": "したがって、生態系への影響を最小限にするため、フェンスの設計と配置のあらゆる側面に配慮が払われるべきである。",
+                        "note": "should be given(受動態の提案) + therefore(結論のDM) + to ensure(目的の不定詞)"
                     },
                     {
-                        "en": "The policy was ineffective; hence, it was revised.",
-                        "ja": "その政策は効果がなかった。したがって改訂された。",
-                        "note": "hence = したがって（henceはやや形式的）。"
+                        "en": "Simply banning all cars is not realistic; instead, we should invest in public transportation.",
+                        "ja": "全ての車を禁止することは現実的ではない。代わりに、公共交通に投資すべきだ。",
+                        "note": "動名詞主語 + not realistic + instead + should: 排除→代替の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'much larger than El Salvador but far less densely populated' の比較構文を説明してください。",
-                        "a": "much larger = はるかに広い、far less densely = はるかに人口密度が低い。強調の副詞 much/far + 比較級。"
+                        "q": "'Eliminating all fences is not a realistic option; instead' の議論の論理を説明してください。",
+                        "a": "極端な案(全撤去)を否定(not realistic) → セミコロンで接続 → instead で現実的代替案(計画的設置)を提示。段階的に議論を建設的方向に導く。"
                     },
                     {
-                        "q": "'Since the 1960s' はどのような時間的文脈を提供していますか？",
-                        "a": "「1960年代以降」。移民の歴史的背景を示す。この時期から問題が始まったという起点を明示。"
+                        "q": "'should therefore be given' の 'therefore' はどのような論理的役割ですか？",
+                        "a": "前述の議論(フェンスの長期的影響)から導かれる結論を示す。「したがって」。前提→結論の因果関係を明示するDM。"
                     },
                     {
-                        "q": "'led to growing tensions' の因果関係を説明してください。",
-                        "a": "「緊張の高まりにつながった」。政府の土地没収→両国間の対立激化。led to = resulted in / caused。"
+                        "q": "フェンス撤去後も動物が影響を受け続ける例は何ですか？",
+                        "a": "数ヶ月〜数年後でもフェンスがまだあるかのように行動し続ける(continue to behave as if the fences are still there)。動物の行動パターンへの長期的影響。"
                     },
                     {
-                        "q": "ホンジュラスとエルサルバドルの紛争の背景を要約してください。",
-                        "a": "土地不足のエルサルバドル人がホンジュラスに移住→ホンジュラス農民の不満→政府が移民の土地没収→両国緊張。"
+                        "q": "'with an eye on the big picture' はどのような意味ですか？",
+                        "a": "「全体像を見据えて」。短期的な目的だけでなく、生態系全体への長期的影響を考慮してフェンス計画を行うべきという意味。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Since",
-                    "much larger than",
-                    "far less densely"
+                    "Eliminating all fences, they say, is not a realistic option; instead",
+                    "Consideration should therefore be given to all aspects"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "因果関係",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Eliminating...is not / instead",
                 "practicePassage": {
-                    "en": "[出典: The Soccer War]\nHonduras is much larger than El Salvador but is far less densely populated. Since the late 1800s, land in El Salvador had been controlled primarily by elite families, which meant there was little space for ordinary farmers. By the 1960s, around 300,000 Salvadorans had entered Honduras illegally to obtain cheap land or jobs. The Honduran government blamed the immigrants for its economic stresses and removed them from their lands, forcing them out of the country. Wealthy Salvadorans feared the negative economic effects of so many immigrants returning home and threatened to overthrow the Salvadoran president if military action was not taken against Honduras. This, combined with border disputes that had existed for many years, brought relations between the countries to a low point.",
-                    "ja": "ホンジュラスはエルサルバドルよりもはるかに広大だが、人口密度ははるかに低い。1960年代以降、土地と仕事を求めて多くのエルサルバドル人がホンジュラスに移住してきた。ホンジュラス政府は当初これを許容していたが、自国の農民が土地の不足に不満を持ち始めると状況が変わった。政府はエルサルバドル人移民から土地を没収し始め、両国間の緊張が高まった。多くのエルサルバドル人が財産を失い帰国を余儀なくされたことで、エルサルバドル国内でも不満が増大した。",
+                    "en": "[出典: Fences and Ecosystems]\nThe negative ecological effects of fences can be limited by making changes to them to allow certain animals through. Nevertheless, the study's authors believe a more fundamental change is necessary. Eliminating all fences, they say, is not a realistic option; instead, fence planning should be carried out with an eye on the big picture. For example, fences are often constructed to obtain short-term results and then removed, but researchers have found that months — or even years — later, some animals continue to behave as if the fences are still there. Consideration should therefore be given to all aspects of fence design and location to ensure a minimal impact on ecosystems.",
+                    "ja": "フェンスの負の生態学的影響は、特定の動物が通れるようにフェンスに変更を加えることで制限できる。それにもかかわらず、研究の著者たちはより根本的な変化が必要だと考えている。全てのフェンスを撤去することは現実的な選択肢ではないと彼らは言う。代わりに、フェンス計画は全体像を見据えて行われるべきだ。例えば、フェンスはしばしば短期的な結果を得るために設置された後に撤去されるが、研究者たちは数ヶ月、あるいは数年後でも、一部の動物がフェンスがまだそこにあるかのように行動し続けることを発見した。したがって、生態系への影響を最小限にするため、フェンスの設計と配置のあらゆる側面に配慮が払われるべきである。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "助動詞の推量・可能性表現",
-                "subtitle": "Modal Verbs for Speculation & Possibility",
-                "explanation": "may, might, could, must, should など助動詞の推量用法は読解の正確さに直結します。確信度の違いを理解しましょう。",
-                "sourceQuote": "could have / may / might / must have",
-                "sourceLocation": "Part 2-3 全体",
+                "title": "同格 the belief that + led O to V（誤解→結果の因果）",
+                "subtitle": "Appositive That-Clause with Causal Lead",
+                "explanation": "the belief/idea that は「〜という信念/考え」と同格節で内容を説明。led O to V は「OにVさせた」と因果を示す使役的表現。誤解が政策判断を誤らせた因果関係に使われる。",
+                "sourceQuote": "The inaccurate belief that a sporting event was behind the conflict led the US government to overlook its seriousness.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The artifact could be over 2,000 years old.",
-                        "ja": "その遺物は2,000年以上前のものかもしれない。",
-                        "note": "could = 可能性（mayより低い確率）。"
+                        "en": "The inaccurate belief that a sporting event was behind the conflict led the US government to overlook its seriousness.",
+                        "ja": "スポーツイベントが紛争の背後にあるという不正確な信念が、米国政府にその深刻さを見過ごさせた。",
+                        "note": "the inaccurate belief(名詞) + that...(同格=信念の内容) + led O to V(因果=結果として見過ごした)"
                     },
                     {
-                        "en": "The disease must have spread through contaminated water.",
-                        "ja": "その病気は汚染水を通じて広がったに違いない。",
-                        "note": "must have + p.p. = ～だったに違いない（高い確信）。"
+                        "en": "Issues such as land ownership, which were the true origin of the conflict, remained unresolved. This led to continued political and social instability.",
+                        "ja": "紛争の真の原因であった土地所有権などの問題は未解決のままだった。これは継続的な政治的・社会的不安定につながった。",
+                        "note": "which were the true origin: 非制限用法。led to: 「〜につながった」因果関係"
                     },
                     {
-                        "en": "Further studies may reveal additional benefits.",
-                        "ja": "さらなる研究で追加の利点が明らかになるかもしれない。",
-                        "note": "may = ～かもしれない（50%程度の可能性）。"
+                        "en": "The mistaken belief that vaccines cause autism led many parents to refuse vaccination.",
+                        "ja": "ワクチンが自閉症を引き起こすという誤った信念が、多くの親にワクチン接種を拒否させた。",
+                        "note": "the mistaken belief that + led O to V: 誤解→行動の因果パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Although Braille is the standard writing system for blind people today' の 'Although' はどのような譲歩ですか？",
-                        "a": "「点字は今日標準だが」→ かつてはそうではなかった。現在の当たり前が歴史的には当たり前でなかったことを示す。"
+                        "q": "'the inaccurate belief that...led the US government to overlook' の構文を分析してください。",
+                        "a": "the inaccurate belief(主語) + that a sporting event was behind(同格that節=信念の内容) + led(V) + the US government(O) + to overlook(C=不定詞)。「誤った信念がOにVさせた」。"
                     },
                     {
-                        "q": "'could be read' と 'would not be easy' の助動詞の違いは？",
-                        "a": "could = 可能性（読むことができた）、would not = 推量・予測（容易ではなかっただろう）。能力と推量の対比。"
+                        "q": "紛争の「真の原因」は何ですか？",
+                        "a": "土地所有権問題(land ownership)。エルサルバドルではエリート家族が土地を支配し、一般農民の土地がなかった。サッカーではなく構造的な経済・社会問題。"
                     },
                     {
-                        "q": "'was not always the only system' の 'not always' はどのような意味ですか？",
-                        "a": "「常に〜だったわけではない」。部分否定。点字が唯一のシステムだった時代もあれば、競合があった時代もあった。"
+                        "q": "'Soccer War' という名称が誤解を招く理由を説明してください。",
+                        "a": "紛争の原因がサッカーではなく、土地所有権、不法移民、国境紛争、メディアの扇動などの複合的要因だったため。名称が本質的問題を覆い隠した。"
                     },
                     {
-                        "q": "点字の初期の競合システムにはどのような長所と短所がありましたか？",
-                        "a": "長所: 視力のある教師が読める。短所: 指での区別が難しい、習得に時間がかかる、書くことが困難。"
+                        "q": "この紛争の長期的な結果は何ですか？",
+                        "a": "土地所有権などの問題が未解決→継続的な政治的・社会的不安定→最終的にエルサルバドルの内戦(civil war in the following decades)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although",
-                    "could be",
-                    "was not always"
+                    "the inaccurate belief that a sporting event was behind the conflict led the US government to overlook its seriousness"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "助動詞",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "the belief that / led to",
                 "practicePassage": {
-                    "en": "[出典: Competing against Braille]\nAlthough Braille is the standard writing system for blind people today, this alphabet of raised dots representing letters was not always the only system. Another system, Boston Line Type, was created in the 1830s by Samuel Gridley Howe, a sighted instructor at a US school for blind people. Howe's system utilized the letters in the standard English alphabet used by sighted people, but they were raised so they could be felt by the fingers. Blind students, however, found it more challenging to distinguish one letter from another than they did with Braille. Nevertheless, Howe believed that the fact that reading materials could be shared by both blind and sighted readers outweighed this disadvantage. His system, he argued, would allow blind people to better integrate into society; he thought Braille encouraged isolation because it was unfamiliar to most sighted people.",
-                    "ja": "点字は今日、視覚障害者のための標準的な書記システムだが、このアルファベットは必ずしも視覚障害者コミュニティで唯一のシステムではなかった。実際、点字が広く受け入れられるまでに何十年もかかり、いくつかの競合する触覚システムと対抗しなければならなかった。初期のシステムの中には、浮き出した文字を使うものもあり、視力を持つ教師が読み書きできるという利点があった。しかし、浮き出した文字は指で区別するのが難しく、習得に時間がかかり、書くことがほぼ不可能であった。",
+                    "en": "[出典: The Soccer War]\nThe World Cup qualifying matches were happening at the same time as the migrant situation was intensifying. On the day of the last match, El Salvador accused Honduras of violence against Salvadorans and cut off relations, and within weeks, El Salvador's military attacked Honduras, beginning the war. Historians note that the term Soccer War was misleading. At the time, the United States was part of an alliance with Central American nations, but it chose to stay out of the war. In fact, according to an American diplomat, the inaccurate belief that a sporting event was behind the conflict led the US government to overlook its seriousness. Issues such as land ownership, which were the true origin of the conflict, remained unresolved. This led to continued political and social instability and, ultimately, a civil war in El Salvador in the following decades.",
+                    "ja": "ワールドカップ予選の試合は移民問題が激化するのと同時に行われていた。最後の試合の日、エルサルバドルはホンジュラスがサルバドル人に対する暴力を行ったと非難し関係を断絶、数週間以内にエルサルバドル軍がホンジュラスを攻撃し戦争が始まった。歴史家は「サッカー戦争」という名称が誤解を招くものだったと指摘する。当時アメリカは中米諸国との同盟の一部だったが、戦争に関与しないことを選んだ。実際、あるアメリカの外交官によると、スポーツイベントが紛争の背後にあるという不正確な信念が、米国政府にその深刻さを見過ごさせた。紛争の真の原因であった土地所有権などの問題は未解決のままだった。これはその後数十年にわたる継続的な政治的・社会的不安定、そして最終的にはエルサルバドルの内戦につながった。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "動名詞・不定詞の選択パターン",
-                "subtitle": "Gerund vs Infinitive Selection",
-                "explanation": "動詞によって目的語にto不定詞を取るか動名詞を取るかが異なります。意味が変わる動詞（stop, remember 等）にも注意が必要です。",
-                "sourceQuote": "stop doing / try to do / avoid doing",
-                "sourceLocation": "Part 1 全体",
+                "title": "Although + had a silver lining（逆説的プラス面の発見）",
+                "subtitle": "Concession with Unexpected Positive Outcome",
+                "explanation": "Although + 否定的事実 + it had a silver lining は「〜にもかかわらず良い面もあった」と逆説的なプラス面を示す。結論部で議論のバランスを取る高度な表現。silver lining = 不幸中の幸い。",
+                "sourceQuote": "Although the War of the Dots interfered with blind people's education for a time, it had a silver lining.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "The company stopped using harmful chemicals.",
-                        "ja": "会社は有害な化学物質の使用をやめた。",
-                        "note": "stop + -ing = ～をやめる。stop + to do = ～するために立ち止まる。"
+                        "en": "Although the War of the Dots interfered with blind people's education for a time, it had a silver lining: the intense battle stimulated the development of various technologies that greatly enhanced blind people's literacy rates.",
+                        "ja": "点の戦争は一時的に視覚障害者の教育を妨げたが、不幸中の幸いがあった。激しい競争がさまざまな技術の発展を刺激し、視覚障害者の識字率を大幅に向上させた。",
+                        "note": "Although(譲歩=マイナス) + had a silver lining(予想外のプラス) + コロン(具体的説明)"
                     },
                     {
-                        "en": "Scientists attempted to replicate the experiment.",
-                        "ja": "科学者は実験の再現を試みた。",
-                        "note": "attempt + to do（不定詞のみ取る動詞）。"
+                        "en": "She stated that New York Point's weaknesses in regard to capitalization and punctuation were extremely serious.",
+                        "ja": "彼女はニューヨーク・ポイントの大文字化と句読点に関する弱点が極めて深刻であると述べた。",
+                        "note": "in regard to: 「〜に関して」。weaknesses + were serious: 評価の構文"
                     },
                     {
-                        "en": "The organization considered implementing new policies.",
-                        "ja": "組織は新しい方針の実施を検討した。",
-                        "note": "consider + -ing（動名詞のみ取る動詞）。"
+                        "en": "Although the project failed, it had a silver lining: we learned valuable lessons.",
+                        "ja": "プロジェクトは失敗したが、不幸中の幸いがあった。貴重な教訓を得た。",
+                        "note": "Although + silver lining: 逆説的プラス面の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'While the discovery offers insight' の 'While' はどのような譲歩/対比ですか？",
-                        "a": "「発見が洞察を提供する一方で」。一つの成果を認めつつ、さらなる研究の必要性を示す対比。"
+                        "q": "'it had a silver lining' の 'silver lining' はどのような比喩表現ですか？",
+                        "a": "「不幸中の幸い/暗雲の中の銀の裏地」。Every cloud has a silver lining(どんな暗雲にも銀の裏地がある)から。否定的状況の中の予想外の恩恵。"
                     },
                     {
-                        "q": "'try to shed light on' の不定詞はどのような用法ですか？",
-                        "a": "try + to不定詞 = 〜しようとする。不定詞の名詞用法。shed light on = 〜を解明する/明らかにする。"
+                        "q": "「点の戦争」がもたらした予想外のプラス面は何ですか？",
+                        "a": "激しい競争がタイプライターなどの技術発展を刺激し、視覚障害者の識字率と現代社会への参加能力が向上した(enhanced literacy rates and ability to participate)。"
                     },
                     {
-                        "q": "'suggests that' はどのような論証を示しますか？",
-                        "a": "「〜を示唆している」。考古学的証拠から導かれる推論。断定ではなく控えめな学術的表現。"
+                        "q": "ヘレン・ケラーが点字の勝利に貢献した方法を説明してください。",
+                        "a": "ニューヨーク・ポイントの弱点(大文字化・句読点)が極めて深刻で指に負担と指摘。視覚障害者の著名な活動家としての影響力で議論を終結させた。"
                     },
                     {
-                        "q": "この発見で明らかになった中国人コミュニティの特徴は？",
-                        "a": "従来想定されていたよりもはるかに多様で洗練された社会を持っていた。交易ネットワークの複雑さも判明。"
+                        "q": "'Although...interfered...it had a silver lining' の議論構造を説明してください。",
+                        "a": "Although(マイナス面=教育への妨げ) → had a silver lining(プラス面への転換) → コロン(具体的説明)。結論部でバランスの取れた評価を提示。"
                     }
                 ],
                 "highlightPatterns": [
-                    "suggests",
-                    "While the discovery",
-                    "insight into"
+                    "Although the War of the Dots interfered with blind people's education for a time, it had a silver lining"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "動名詞・不定詞",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Although / silver lining",
                 "practicePassage": {
-                    "en": "[出典: California Chinatown]\nWhile the discovery offers insight into the complexity of the trade networks that supplied San Jose's Chinatown, other discoveries at the site have revealed information about the lifestyles of the neighborhood's immigrant residents. For example, it seems residents maintained some of their food traditions. While the presence of cow remains suggests residents had adopted the Western habit of eating beef, pig bones were the most common type of animal remains archaeologists discovered. As pork was a staple of the diets in their home country, the bones indicate the custom of raising and consuming pigs continued among the immigrants.",
-                    "ja": "この発見は中国人コミュニティを支えた交易ネットワークの複雑さについての洞察を提供する一方で、他の疑問にも光を当てようとしている。例えば、研究者たちは出土品から当時の中国系移民の食生活や生活様式について、従来の記録では明らかにされていなかった側面を解明しようとしている。考古学的証拠はまた、中国人コミュニティが想定されていたよりもはるかに多様で洗練された社会を持っていたことを示唆している。",
+                    "en": "[出典: Competing against Braille]\nThe War of the Dots continued into the 1900s, with various groups battling for funding and recognition. In the end, the blind activist Helen Keller was extremely influential in ending the debate. She stated that New York Point's weaknesses in regard to capitalization and punctuation were extremely serious and that reading it was hard on her fingers. Braille won out, and other systems gradually disappeared. Although the War of the Dots interfered with blind people's education for a time, it had a silver lining: the intense battle stimulated the development of various technologies, such as new typewriters, that greatly enhanced blind people's literacy rates and ability to participate in modern society.",
+                    "ja": "点の戦争は1900年代に入っても続き、さまざまな団体が資金と認知を求めて争った。最終的に、視覚障害者の活動家ヘレン・ケラーが議論を終わらせることに非常に大きな影響力を持った。彼女はニューヨーク・ポイントの大文字化と句読点に関する弱点が極めて深刻であり、読むのが指に負担がかかると述べた。点字が勝利し、他のシステムは次第に消えていった。点の戦争は一時的に視覚障害者の教育を妨げたが、不幸中の幸いがあった。激しい競争がさまざまな技術（新しいタイプライターなど）の発展を刺激し、視覚障害者の識字率と現代社会への参加能力を大幅に向上させた。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
