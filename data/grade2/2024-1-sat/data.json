@@ -1359,221 +1359,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "比較・類似の表現",
-                "subtitle": "Comparison & Similarity Patterns",
-                "explanation": "P2Aでは動物の特徴を比較する表現が多用されている。similar to, just like, look similar toなど、類似性を表す構文を整理する。2級では比較構文の正確な理解が読解の鍵となる。",
-                "sourceQuote": "Tortoises look similar to turtles.\nThey are similar to kangaroos but smaller.\nJust like kangaroos, wallabies stand on their back legs.",
-                "sourceLocation": "Part 2A 全体",
+                "title": "非人称受動態 It is believed that",
+                "subtitle": "Impersonal Passive Construction",
+                "explanation": "It is believed/hoped/said that... は「〜と信じられている/期待されている」と一般的な見解や通説を客観的に述べる構文。学術的な文章や長文で頻出。",
+                "sourceQuote": "It is believed that this temple was made so that a shadow on the temple in the shape of a snake's body joined up with statues of a snake's head on certain special days.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Tortoises look similar to turtles. However, tortoises live on land.",
-                        "ja": "リクガメはカメに似ているが、陸上で生活する。",
-                        "note": "look similar to = ～に似て見える（外見の類似）"
+                        "en": "It is believed that this temple was made so that a shadow joined up with statues of a snake's head on certain special days.",
+                        "ja": "この神殿は、特定の日に蛇の体の形をした影が蛇の頭の像とつながるように作られたと信じられている。",
+                        "note": "It is believed that + S + V: 「〜と信じられている」非人称受動態"
                     },
                     {
-                        "en": "Just like kangaroos, wallabies stand on their back legs.",
-                        "ja": "カンガルーと同様に、ワラビーは後ろ足で立つ。",
-                        "note": "Just like X, Y... = Xと同様にYは…（完全な類似）"
+                        "en": "It is hoped that doing this will protect these wonderful structures for many years to come.",
+                        "ja": "こうすることで、この素晴らしい建造物が今後何年にもわたって保護されることが期待されている。",
+                        "note": "It is hoped that: 「〜と期待されている」同じ構文パターン"
                     },
                     {
-                        "en": "They are similar to kangaroos but smaller.",
-                        "ja": "カンガルーに似ているが小さい。",
-                        "note": "similar to A but B = Aに似ているがBという点で異なる（部分的類似）"
+                        "en": "It is said that he was the greatest scientist of his time.",
+                        "ja": "彼はその時代最大の科学者だったと言われている。",
+                        "note": "It is said that: 「〜と言われている」伝聞の非人称受動態"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'similar to kangaroos but smaller' の比較表現を説明してください。",
-                        "a": "「カンガルーに似ているが小さい」。similar to で類似を示し、but で相違点を対比。"
+                        "q": "'It is believed that this temple was made so that...' の構文を分析してください。",
+                        "a": "It is believed that(非人称受動態: 〜と信じられている) + this temple was made(受動態: 作られた) + so that(目的: 〜するように)。3つの構文が組み合わさっている。"
                     },
                     {
-                        "q": "'just like dogs and cats' の類似表現はどのような比較ですか？",
-                        "a": "「犬や猫と同じように」。just like = exactly the same as。身近な動物との比較で理解しやすくする。"
+                        "q": "'They had observed that one year lasted 365 days' の 'had observed' はどのような時制ですか？",
+                        "a": "過去完了形。神殿を設計した（過去）よりもさらに前に観測していた（大過去）ことを示す。時間の前後関係を明確にする。"
                     },
                     {
-                        "q": "'Another unusual pet' の 'Another' はどのような文章展開ですか？",
-                        "a": "「もう一つの珍しいペット」。前段落の別の珍しいペットに続く追加例。列挙の接続表現。"
+                        "q": "クククルカンの神殿はどのような目的で設計されましたか？",
+                        "a": "カレンダーとして機能するため。特定の日に蛇の形の影が像とつながり、農民が作物の植え時を知る手掛かりにした。"
                     },
                     {
-                        "q": "ワラビーをペットとして飼う際の注意点は何ですか？",
-                        "a": "広い庭とフェンス付きの安全な場所が必要。多くの地域で特別許可が必要。"
+                        "q": "'Knowing such dates would help local farmers to know when to plant their crops.' の 'would' はなぜ使われていますか？",
+                        "a": "推量・仮定のwould。「そのような日付を知ることは役立つだろう」と一般的な推测を述べている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "similar to",
-                    "but smaller",
-                    "just like"
+                    "It is believed that this temple was made so that"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "比較・類似",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "非人称受動態",
                 "practicePassage": {
-                    "en": "[出典: Unusual Pets]\nAnother unusual pet is a wallaby. Wallabies come from Australia. They are similar to kangaroos but smaller. Just like kangaroos, wallabies stand on their back legs and use their front legs to fight like a boxer. While they are young, they do this for fun, and this behavior can seem cute. However, if pet wallabies are not trained to stop doing this at an early age, they can end up hurting their owners.",
-                    "ja": "もう一つの珍しいペットはワラビーである。ワラビーはオーストラリア出身で、カンガルーに似ているが体がより小さい。犬や猫と同様に、ワラビーも飼い主に懐くことがあり、家の中で自由に歩き回ることもできる。しかし、ワラビーは広い庭が必要で、フェンスで囲まれた安全な場所がなければならない。ワラビーを飼うには特別な許可が必要な地域も多い。",
+                    "en": "[出典: Chichén Itzá]\nAmong the people of the Maya civilization, there were great architects, artists, and scientists. They had observed that one year lasted 365 days, and they designed a building called the Temple of Kukulcán in Chichén Itzá to work as a calendar. It is believed that this temple was made so that a shadow on the temple in the shape of a snake's body joined up with statues of a snake's head on certain special days. Knowing such dates would help local farmers to know when to plant their crops.",
+                    "ja": "マヤ文明の人々の中には、偉大な建築家、芸術家、科学者がいた。彼らは1年が365日であることを観測しており、チチェン・イッツァにククルカンの神殿と呼ばれる建物をカレンダーとして機能するように設計した。この神殿は、特定の日に蛇の体の形をした影が蛇の頭の像とつながるように作られたと信じられている。そのような日付を知ることは、地元の農民がいつ作物を植えるべきかを知るのに役立つだろう。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "提案のthat節と仮定法現在",
-                "subtitle": "Suggest + Subjunctive Present",
-                "explanation": "P3Aのメールで使われている 'I suggest that you divide...' は仮定法現在の重要構文。suggest/recommend/insist/propose などの後のthat節では動詞が原形になる（仮定法現在）。",
-                "sourceQuote": "I suggest that you divide your students into five groups, and the members of each group can learn about the items in one of the rooms.",
-                "sourceLocation": "Part 3A 第2段落",
+                "title": "as if + 仮定法（まるで〜のように）",
+                "subtitle": "As If with Subjunctive Mood",
+                "explanation": "as if + S + 過去形/were は「まるで〜であるかのように」と事実とは異なる比喩や仮定を表す。描写や印象を伝える場面で使われる。",
+                "sourceQuote": "Clapping in front of the Temple of Kukulcán sounds as if the gods were talking to the Maya people through their messengers.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "I suggest that you divide your students into five groups.",
-                        "ja": "学生を5つのグループに分けることを提案します。",
-                        "note": "suggest that S + 原形V（仮定法現在）: dividesではなくdivide"
+                        "en": "Clapping in front of the Temple of Kukulcán sounds as if the gods were talking to the Maya people through their messengers.",
+                        "ja": "ククルカンの神殿の前で手を叩くと、まるで神々が使いを通じてマヤの人々に語りかけているかのような音がする。",
+                        "note": "sounds as if + S + were -ing: 「まるで〜しているかのように聞こえる」仮定法過去"
                     },
                     {
-                        "en": "The doctor recommended that she take the medicine twice a day.",
-                        "ja": "医師は彼女が1日2回薬を飲むよう勧めた。",
-                        "note": "recommend that S + 原形V: takesではなくtake"
+                        "en": "She spoke as if she knew everything about the subject.",
+                        "ja": "彼女はまるでその問題について全てを知っているかのように話した。",
+                        "note": "spoke as if + S + 過去形: 事実に反する仮定を表す"
                     },
                     {
-                        "en": "It is important that every student be on time.",
-                        "ja": "すべての生徒が時間通りであることが重要だ。",
-                        "note": "It is important that S + 原形V: isではなくbe"
+                        "en": "He looked as if he had seen a ghost.",
+                        "ja": "彼はまるで幽霊を見たかのような顔をしていた。",
+                        "note": "as if + 過去完了: 過去の事実に反する仮定"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'I suggest that you divide your students' の提案表現を説明してください。",
-                        "a": "suggest that + 主語 + 動詞の原形。仮定法現在。「学生を分けることを提案する」。丁寧な提案。"
+                        "q": "'sounds as if the gods were talking' の 'were talking' はなぜ過去形ですか？",
+                        "a": "仮定法過去。実際には神が話しているわけではないが、「まるで〜であるかのように」と事実に反する比喩を表す。as ifの後は仮定法を使う。"
                     },
                     {
-                        "q": "'Before your students can give tours' の時間関係を説明してください。",
-                        "a": "「学生がツアーを行う前に」。Before + can = 先行条件。研修が前提条件であることを示す。"
+                        "q": "'the echo sounds like the call of a bird called a quetzal' の 'called' はどのような用法ですか？",
+                        "a": "過去分詞の後置修飾。「ケツァールと呼ばれる鳥」。a bird + called(= which is called) a quetzal。"
                     },
                     {
-                        "q": "'trained by our tour guides' の受動態はどのような関係を示しますか？",
-                        "a": "「ツアーガイドによって研修を受ける」。学生が指導を受ける側。by で指導者を明示。"
+                        "q": "マヤの人々はケツァールをどのように考えていましたか？",
+                        "a": "神々の使い（the messengers of the gods）だと信じていた。そのため、手拍子の反響がケツァールの鳴き声に似ていることには宗教的な意味があった。"
                     },
                     {
-                        "q": "博物館でのボランティア研修の流れを要約してください。",
-                        "a": "まず博物館のガイドから研修→歴史と展示品を学ぶ→小グループに分けて担当→2-3週間で準備完了。"
+                        "q": "'is also special for another reason' の 'another reason' では何が説明されていますか？",
+                        "a": "前段落ではカレンダーとしての機能が説明された。この段落では、手拍子の反響がケツァールの鳴き声に似るという音響的特徴が説明されている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "suggest that",
-                    "divide your students",
-                    "trained by"
+                    "sounds as if the gods were talking to the Maya people through their messengers"
                 ],
-                "highlightColor": "#a78bfa",
-                "highlightLabel": "提案・仮定法現在",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "as if + 仮定法",
                 "practicePassage": {
-                    "en": "[出典: Museum Tours]\nBefore your students can give tours, they will need to be trained by our tour guides. The museum has five rooms, and each room covers a different period of history and contains about fifty items. It might be difficult for your students to learn about all the items in all the rooms, so I suggest that you divide your students into five groups, and the members of each group can learn about the items in one of the rooms.",
-                    "ja": "学生がツアーガイドを務める前に、博物館のツアーガイドの指導を受ける必要がある。研修では博物館の歴史や展示品について学ぶことができる。学生を小グループに分けることを提案する。そうすれば各グループが異なる展示セクションを担当でき、より効率的に学ぶことができる。研修期間は通常2〜3週間で、学生は実際のツアーを観察する機会もある。",
+                    "en": "[出典: Chichén Itzá]\nThe Temple of Kukulcán is also special for another reason. If a person stands in front of one of the temple's stairs and claps their hands, the echo sounds like the call of a bird called a quetzal. Quetzals are beautiful birds with bright green, red, and white feathers. The Maya people believed that these birds were the messengers of the gods. Clapping in front of the Temple of Kukulcán sounds as if the gods were talking to the Maya people through their messengers.",
+                    "ja": "ククルカンの神殿はもう一つの理由でも特別である。神殿の階段の一つの前に立って手を叩くと、その反響がケツァールという鳥の鳴き声のように聞こえる。ケツァールは鮮やかな緑、赤、白の羽を持つ美しい鳥である。マヤの人々はこれらの鳥が神々の使いだと信じていた。ククルカンの神殿の前で手を叩くと、まるで神々が使いを通じてマヤの人々に語りかけているかのような音がする。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "非人称受動態 It is believed / hoped that",
-                "subtitle": "Impersonal Passive Construction",
-                "explanation": "P3Bのチチェン・イッツァの文章で多用される 'It is believed that...' や 'It is hoped that...' は、主語を特定しない非人称受動態。学術的文章や報道英語でも頻出する重要構文。",
-                "sourceQuote": "It is believed that this temple was made so that a shadow on the temple in the shape of a snake's body joined up with statues...\nIt is hoped that doing this will protect these wonderful structures for many years to come.",
-                "sourceLocation": "Part 3B 第2・4段落",
+                "title": "目的の so that / Instead of",
+                "subtitle": "Purpose and Alternative Expressions",
+                "explanation": "so that + S + can/could は「〜できるように」と目的を表す。Instead of + -ing は「〜する代わりに」と代替手段を表す。長文の論理展開の把握に重要。",
+                "sourceQuote": "Chemicals are often added to keep the soil healthy so that the grass can survive cold winters and hot summers.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "It is believed that this temple was made so that a shadow appears on special days.",
-                        "ja": "特別な日に影が現れるようにこの神殿が作られたと信じられている。",
-                        "note": "It is believed that... = ...と信じられている（主語を明示しない）"
+                        "en": "Chemicals are often added to keep the soil healthy so that the grass can survive cold winters and hot summers.",
+                        "ja": "芝生が寒い冬や暑い夏を乗り越えられるように、土壌を健康に保つために化学物質がしばしば加えられる。",
+                        "note": "so that + S + can: 「〜できるように」目的の副詞節"
                     },
                     {
-                        "en": "It is hoped that doing this will protect these wonderful structures.",
-                        "ja": "これにより素晴らしい建造物が保護されることが期待されている。",
-                        "note": "It is hoped that... = ...と期待されている（希望の非人称表現）"
+                        "en": "Instead of trying to help the grass grow, they use a special paint to color it green.",
+                        "ja": "芝生を育てる手助けをする代わりに、彼らは特別な塗料を使って緑色に塗る。",
+                        "note": "Instead of + -ing: 「〜する代わりに」代替手段を表す"
                     },
                     {
-                        "en": "Nobody is sure of the reason for this, but researchers are continuing to look for answers.",
-                        "ja": "理由は誰にもわからないが、研究者は答えを探し続けている。",
-                        "note": "Nobody is sure = 誰も確信していない（否定の非人称表現）"
+                        "en": "She took the bus instead of walking to save time.",
+                        "ja": "時間を節約するために歩く代わりにバスに乗った。",
+                        "note": "instead of + -ing + to不定詞: 代替手段と目的の組み合わせ"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'It is believed that the temple was designed...' の非人称受動態を説明してください。",
-                        "a": "「神殿は〜に基づいて設計されたと信じられている」。It is believed = 一般的にそう考えられている。主語を特定しない。"
+                        "q": "'so that the grass can survive cold winters and hot summers' の 'so that' は何を表していますか？",
+                        "a": "目的。「芝生が寒い冬や暑い夏を乗り越えられるように」化学物質を加えるという目的を示す。so that + can で能力の目的。"
                     },
                     {
-                        "q": "'had observed the movements of the stars' の大過去はなぜ使われていますか？",
-                        "a": "「星の動きを観察していた」。神殿を設計した時点よりもさらに前からの継続的観察。大過去で時系列を明確に。"
+                        "q": "'Instead of trying to help the grass grow' の構文を説明してください。",
+                        "a": "Instead of + -ing: 「〜する代わりに」。trying to help(手助け)の代わりに、特別な塗料を使う(use a special paint)という代替手段。"
                     },
                     {
-                        "q": "'was made so that shadows would create a serpent-like shape' を説明してください。",
-                        "a": "「影が蛇のような形を作るように設計された」。目的のso that。意図的な天文学的設計。"
+                        "q": "住宅所有者が芝生塗料を使い始めた背景は何ですか？",
+                        "a": "美しい庭を維持するのにお金と時間がかかること、化学物質の環境への懸念があること。従来のアプローチの代替としてペイントが注目された。"
                     },
                     {
-                        "q": "マヤの天文学的知識について要約してください。",
-                        "a": "長年の星の観察に基づいた神殿設計。春分・秋分に蛇の影が出現。高度な科学的知識の証拠。"
+                        "q": "'This creates the look of a healthy yard.' の 'This' は何を指しますか？",
+                        "a": "前文の「特別な塗料を使って芝生を緑色に塗ること」。その行為の結果として、健康な庭の見た目が作り出される。"
                     }
                 ],
                 "highlightPatterns": [
-                    "It is believed that",
-                    "had observed",
-                    "was made so that"
+                    "so that the grass can survive cold winters and hot summers",
+                    "Instead of trying to help the grass grow"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "非人称受動態",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "so that / Instead of",
                 "practicePassage": {
-                    "en": "[出典: Chichén Itzá]\nAmong the people of the Maya civilization, there were great architects, artists, and scientists. They had observed that one year lasted 365 days, and they designed a building called the Temple of Kukulcán in Chichén Itzá to work as a calendar. It is believed that this temple was made so that a shadow on the temple in the shape of a snake's body joined up with statues of a snake's head on certain special days. Knowing such dates would help local farmers to know when to plant their crops.",
-                    "ja": "マヤ文明の人々の中には、優れた建築家、芸術家、そして天文学者がいた。彼らは星の動きを長年にわたって観察しており、クククルカンの神殿は天文学的な知識に基づいて設計されたと信じられている。春分と秋分の日に、影が蛇のような形を作り出すように神殿が配置されていた。この精巧な設計は、マヤの人々の高度な科学的知識を示している。",
+                    "en": "[出典: Greener Grass?]\nMany US homeowners love having a beautiful yard, but having a yard covered in thick, green grass takes money and time. Chemicals are often added to keep the soil healthy so that the grass can survive cold winters and hot summers. Lately, however, more homeowners have been trying a different approach. Instead of trying to help the grass grow, they use a special paint to color it green. This creates the look of a healthy yard.",
+                    "ja": "多くのアメリカの住宅所有者は美しい庭を持つことを愛しているが、厚く緑の芝生で覆われた庭を持つにはお金と時間がかかる。芝生が寒い冬や暑い夏を乗り越えられるように、土壌を健康に保つために化学物質がしばしば加えられる。しかし最近では、より多くの住宅所有者が異なるアプローチを試みている。芝生を育てる手助けをする代わりに、彼らは特別な塗料を使って緑色に塗る。これにより、健康な庭の見た目が作り出される。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "ディスコースマーカーと文章展開",
-                "subtitle": "Discourse Markers & Text Organization",
-                "explanation": "P2Bの芝ペンキの文章では、文章展開を示すディスコースマーカ（However, Still, Instead of, Furthermore, In the past, Nowadays）が効果的に使われている。文脈をつかむ鍵となる。",
-                "sourceQuote": "Lately, however, more homeowners have been trying a different approach.\nStill, things have come a long way.\nFurthermore, they spend the winter months sleeping.",
-                "sourceLocation": "Part 2A・2B",
+                "title": "be to 不定詞（予定・義務・可能）",
+                "subtitle": "Be-to Infinitive Construction",
+                "explanation": "be to + V は「〜する予定/〜すべき/〜されるべき」と予定・義務・可能を表すフォーマルな表現。条件節で「もし〜するなら」の意味でも使われる。",
+                "sourceQuote": "If a skunk is to be kept as a pet, the part of its body that makes this liquid is removed by an animal doctor.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "Lately, however, more homeowners have been trying a different approach.",
-                        "ja": "しかし最近、多くの住宅所有者は違うアプローチを試している。",
-                        "note": "however（逆接）: 前文との対比。文中に挿入される場合はカンマで囲む"
+                        "en": "If a skunk is to be kept as a pet, the part of its body that makes this liquid is removed by an animal doctor.",
+                        "ja": "スカンクをペットとして飼う場合は、この液体を作る体の部分が動物の医者によって除去される。",
+                        "note": "if + S + is to be kept: 「もし飼うのであれば」条件+be to不定詞"
                     },
                     {
-                        "en": "Still, things have come a long way.",
-                        "ja": "それでも、状況は大きく改善した。",
-                        "note": "Still（譲歩後の主張）: 前文の否定的内容にもかかわらず、と示す"
+                        "en": "The meeting is to be held next Friday.",
+                        "ja": "会議は来週の金曜日に開催される予定だ。",
+                        "note": "is to be held: 予定・計画を表すbe to不定詞"
                     },
                     {
-                        "en": "Furthermore, they spend the winter months sleeping.",
-                        "ja": "さらに、冬の間は冬眠する。",
-                        "note": "Furthermore（追加）: 前文に情報を追加する。Moreover / In additionと同義"
+                        "en": "If we are to succeed, we must work harder.",
+                        "ja": "成功するためには、もっと努力しなければならない。",
+                        "note": "if + S + be to V: 「〜するつもりなら」目的・条件"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Nowadays' はどのようなディスコースマーカーですか？",
-                        "a": "「現在では」。過去との対比を示す時間表現。以前はプロ用→現在は一般向けという変化を導入。"
+                        "q": "'If a skunk is to be kept as a pet' の 'is to be kept' はどのような意味ですか？",
+                        "a": "「もし飼うのであれば」。be to + be + 過去分詞(受動態)で、「〜されるべきなら/〜するつもりなら」という条件と義務を表す。"
                     },
                     {
-                        "q": "'has been available for over fifty years' の現在完了はどのような期間を示しますか？",
-                        "a": "「50年以上前から販売されている」。過去から現在まで継続している状態。for + 期間で長さを強調。"
+                        "q": "スカンクをペットにする際に必要な処置は何ですか？",
+                        "a": "悪臭のする液体を作る体の部分を動物の医者（an animal doctor）によって除去すること。"
                     },
                     {
-                        "q": "'At that time' と 'Nowadays' の対比は何を示しますか？",
-                        "a": "時間の対比。過去（プロ用途のみ）→現在（一般家庭にも普及）。製品の用途拡大を示す。"
+                        "q": "'they can use them to open doors and refrigerators' の 'them' は何を指しますか？",
+                        "a": "前文の'long nails'（長い爪）。スカンクが家の中で爪を使ってドアや冷蔵庫を開けるという文脈。"
                     },
                     {
-                        "q": "芝生用ペイントの歴史と現在の使われ方を要約してください。",
-                        "a": "50年以上前からプロ用途で存在。現在は品質向上・環境配慮型が普及し一般家庭でも使用。"
+                        "q": "スカンクがペットとして楽しい理由と問題点をそれぞれ答えてください。",
+                        "a": "楽しい理由: 賢くて遊ぶのが好き(clever and enjoy playing)。問題点: 長い爪でドアや冷蔵庫を開けて迷惑をかける(cause trouble)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Nowadays",
-                    "available for over",
-                    "fifty years"
+                    "If a skunk is to be kept as a pet"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "ディスコースマーカー",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "be to 不定詞",
                 "practicePassage": {
-                    "en": "[出典: Greener Grass?]\nGrass paint has actually been available for over fifty years. At that time, it was mostly used to maintain sports fields and golf courses. Nowadays, more buying options and environmental concerns about using chemicals have made it a popular choice for people. This is especially true in areas where the climate is becoming drier. In these areas, cities sometimes limit water usage when water supplies are low. This lack of water can turn yards brown, but grass paint can help hide this.",
-                    "ja": "芝生用ペイントは実は50年以上前から販売されていた。当時はゴルフコースやスポーツ場で主に使用されていた。しかし最近では、一般の住宅所有者にも人気が出てきている。現在のペイントは以前のものよりはるかに品質が向上しており、環境にやさしい成分で作られているものも多い。乾燥した季節でも美しい緑の芝生を維持したい人々にとって、手軽な解決策となっている。",
+                    "en": "[出典: Unusual Pets]\nSkunks are small animals with black and white fur that are sometimes kept as pets. Wild skunks are famous for producing a liquid with a bad smell to protect themselves from attackers. If a skunk is to be kept as a pet, the part of its body that makes this liquid is removed by an animal doctor. Skunks can be fun pets because they are clever and they enjoy playing. However, they also have long nails. In the wild, skunks use these to dig holes in the ground. Inside a house, they can use them to open doors and refrigerators and cause trouble for their owners.",
+                    "ja": "スカンクは、時にペットとして飼われる黒と白の毛を持つ小さな動物である。野生のスカンクは攻撃者から身を守るために悪臭のする液体を出すことで有名である。スカンクをペットとして飼う場合は、この液体を作る体の部分が動物の医者によって除去される。スカンクは賢くて遊ぶのが好きなので、楽しいペットになり得る。しかし、長い爪も持っている。野生では、スカンクはこれを使って地面に穴を掘る。家の中では、ドアや冷蔵庫を開けて飼い主に迷惑をかけることがある。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

@@ -1724,223 +1724,217 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "同格表現（名詞を説明する構造）",
-                "subtitle": "Appositive Phrases and Clauses",
-                "explanation": "同格とは、名詞の直後に別の名詞句やthat節を置いて、その名詞を詳しく説明する構造です。英検長文では人物や場所の説明に頻繁に使われます。カンマで区切られる挿入句型と、that節で説明する型があります。",
-                "sourceQuote": "Part 2A: \"Sark, a small island near southern England\"\nPart 3B: \"Morris Villarroel, a Spanish scientist and professor\"\nPart 2B: \"digital devices, such as smartphones and tablet computers\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
+                "title": "関係代名詞 what（〜すること/もの）",
+                "subtitle": "Relative Pronoun 'What' as Noun Clause",
+                "explanation": "what = the thing(s) which/that で「〜すること/もの」を表す名詞節を作る。主語・目的語・補語のいずれにもなれる。what is called〜で「いわゆる〜」。",
+                "sourceQuote": "Nowadays, such problems are caused by what is called 'light pollution,' and it poses a challenge for almost every city in the world.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "The people living in Sark, a small island near southern England, have done a lot to deal with this problem.",
-                        "ja": "イングランド南部に近い小さな島サークに住む人々は、この問題に対処するために多くのことを行ってきた。",
-                        "note": "Sark = a small island... と同格で島の説明を追加"
+                        "en": "Nowadays, such problems are caused by what is called 'light pollution.'",
+                        "ja": "現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされている。",
+                        "note": "what is called: 「いわゆる〜」= so-called。whatが名詞節を作る。"
                     },
                     {
-                        "en": "Morris Villarroel, a Spanish scientist and professor, started trying to organize his memories.",
-                        "ja": "スペインの科学者で教授のモリス・ビジャロエルは記憶を整理しようと試み始めた。",
-                        "note": "Morris Villarroel = a Spanish scientist... と同格で人物紹介"
+                        "en": "Others find it difficult to relax.",
+                        "ja": "一方で、リラックスすることが難しいと感じる人もいる。",
+                        "note": "find + it(形式目的語) + difficult + to relax(真の目的語)"
                     },
                     {
-                        "en": "Tokyo, the capital of Japan, is one of the largest cities in the world.",
-                        "ja": "日本の首都である東京は世界最大の都市の一つだ。",
-                        "note": "Tokyo = the capital of Japan と同格"
+                        "en": "What surprised me most was his kindness.",
+                        "ja": "私が最も驚いたのは彼の優しさだった。",
+                        "note": "What + V: 「〜したこと」主語としてのwhat節"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Diaries]\nMorris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
-                    "ja": "スペインの科学者で教授のモリス・ビジャローエルは、自分の記憶を整理しようと試み始めた。彼は毎日自分がしていることやどう感じているかを書き留め始めた。将来振り返ったときに何を成し遂げたかがわかるようにするためだった。彼はこの日記を何年にもわたって続け、日々の活動、感情、考えを詳細に記録した。この習慣が後に彼の研究にも影響を与えることになった。",
+                    "en": "[出典: The Darkest Island]\nIn a city, there are lights from cars and lamps all around. Many houses have lights on, and some businesses keep their lights on all night for safety reasons. By keeping lights on, people can see the roads well and feel relieved at night. However, others find it difficult to relax. When the night is too bright, the light can disturb people's sleep. Additionally, the lives of animals are often in danger. Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
+                    "ja": "都市では、車や街灯の明かりが至る所にある。多くの家は明かりを灯し、安全上の理由から一晩中明かりをつけている企業もある。明かりをつけておくことで、人々は夜も道路をよく見ることができ、安心できる。しかし一方で、リラックスすることが難しいと感じる人もいる。夜が明るすぎると、光が人々の睡眠を妨げることがある。さらに、動物の生命がしばしば危険にさらされる。現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされており、世界のほぼ全ての都市にとって課題となっている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Morris Villarroel, a Spanish scientist and professor' の同格表現を説明してください。",
-                        "a": "「スペインの科学者で教授のモリス・ビジャローエル」。固有名詞の後にコンマで同格の説明を追加。人物の紹介。"
+                        "q": "'what is called light pollution' の 'what' はどのような用法ですか？",
+                        "a": "関係代名詞what。what is called = いわゆる（= so-called）。what = the thing which。名詞節として前置詞byの目的語になっている。"
                     },
                     {
-                        "q": "'started trying to organize his memories' の動詞パターンを説明してください。",
-                        "a": "start + trying（動名詞）。「記憶を整理しようと試み始めた」。startは動名詞・to不定詞の両方を取れる。"
+                        "q": "'find it difficult to relax' の構文を分析してください。",
+                        "a": "find + it(形式目的語) + difficult(C) + to relax(真の目的語)。「リラックスすることを難しいと感じる」。itはto relaxを指す。"
                     },
                     {
-                        "q": "'started to write down what he was doing' の間接疑問について説明してください。",
-                        "a": "「自分がしていることを書き留め始めた」。what = the things that。間接疑問文で記録内容を示す。"
+                        "q": "光害が引き起こす問題を3つ答えてください。",
+                        "a": "①リラックスが難しくなる ②光が人々の睡眠を妨げる(disturb people's sleep) ③動物の生命が危険にさらされる(lives of animals are in danger)"
                     },
                     {
-                        "q": "ビジャローエルが日記を始めた動機を要約してください。",
-                        "a": "記憶の整理。日々の活動と感情の記録。将来振り返ったときに成し遂げたことを確認するため。"
+                        "q": "'it poses a challenge for almost every city' の 'it' は何を指しますか？",
+                        "a": "光害(light pollution)。前文で述べられた問題の原因である光害が、世界のほぼ全ての都市にとって課題となっている。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Morris Villarroel, a Spanish",
-                    "started trying to organize",
-                    "started to write down"
+                    "what is called"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "同格・補足"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "関係代名詞 what"
             },
             {
                 "id": "fp2",
-                "title": "仮定法・仮想表現",
-                "subtitle": "Subjunctive and Hypothetical Expressions",
-                "explanation": "仮定法は「現実とは異なる状況」や「後悔」を表現するときに使います。could have + 過去分詞（～できたかもしれない）、should not have + 過去分詞（～すべきでなかった）など、英検の文脈では過去の行動への振り返りとして頻出します。",
-                "sourceQuote": "Part 1(2): \"I shouldn't have said that.\"\nPart 3B: \"These things were so minor that he could have forgotten without the diary.\"\nPart 1(13): \"they could be at the mercy of nature\"",
-                "sourceLocation": "Part 1, Part 3B",
-                "examples": [
-                    {
-                        "en": "I shouldn't have said that.",
-                        "ja": "あんなことを言うべきではなかった。",
-                        "note": "should not have + 過去分詞: 過去の行動への後悔を表す"
-                    },
-                    {
-                        "en": "These things were so minor that he could have forgotten without the diary.",
-                        "ja": "これらのことは日記がなければ忘れてしまったほど些細なことだった。",
-                        "note": "could have + 過去分詞: 仮定的な過去の可能性「～だったかもしれない」"
-                    },
-                    {
-                        "en": "Without a safe shelter to go to, they could be at the mercy of nature.",
-                        "ja": "安全な避難所がなければ、自然のなすがままになりかねない。",
-                        "note": "Without + 名詞 = If節の代わり。仮定を表す"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Diaries]\nHowever, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
-                    "ja": "しかし、彼はこの経験からいくつかのことを学んだ。書いたものを振り返ることで、彼は自分の行動にいくつかのパターンがあることに気づいた。これらのことはあまりに些細なもので、日記に書かなければ忘れてしまっていただろう。過去10年間が、それ以前の年月よりもずっと長く感じられたという。それは、より多くの記憶が記録されていたからだと彼は考えている。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'could have forgotten' の仮定法過去完了を説明してください。",
-                        "a": "「忘れてしまっていただろう」。日記に書かなかったら→忘れていた。反事実の仮定。実際は書いたから覚えている。"
-                    },
-                    {
-                        "q": "'By checking what he had written' の 'By + 動名詞' はどのような手段ですか？",
-                        "a": "「書いたものを振り返ることで」。手段・方法を示す前置詞句。行動の結果としてパターンに気づいた。"
-                    },
-                    {
-                        "q": "'he found some patterns in his behavior' はどのような発見ですか？",
-                        "a": "「行動にいくつかのパターンを発見した」。日記を振り返って初めて自覚できた自分の行動傾向。"
-                    },
-                    {
-                        "q": "日記をつけることで得られた教訓を要約してください。",
-                        "a": "行動パターンの発見。些細なことでも記録の価値がある。記憶が多いほど時間が長く感じられる。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "could have forgotten",
-                    "By checking",
-                    "he found some patterns"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "仮定法"
-            },
-            {
-                "id": "fp3",
-                "title": "使役・知覚構文（make / let / keep）",
-                "subtitle": "Causative and Perception Verbs",
-                "explanation": "使役動詞make/let/haveや知覚動詞は「～させる」「～を…の状態にする」という意味の重要構文です。make + O + C（OをCにする）、keep + O + C（OをCの状態に保つ）などが英検長文で頻出します。",
-                "sourceQuote": "Part 2B: \"A warm temperature makes it difficult for the human body to cool down.\"\nPart 2B: \"they can make their body functions slow down\"\nPart 2A: \"They wanted to prevent their community from being bright\"",
-                "sourceLocation": "Part 2A/2B",
+                "title": "使役 make + it + C + to V（形式目的語構文）",
+                "subtitle": "Make with Formal Object 'It'",
+                "explanation": "make + it + 形容詞 + (for A) + to V は「(Aが)Vすることを〜にする」。itは形式目的語でto以下が真の目的語。因果関係を述べる重要構文。",
+                "sourceQuote": "A warm temperature makes it difficult for the human body to cool down.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
                         "en": "A warm temperature makes it difficult for the human body to cool down.",
-                        "ja": "暖かい気温は体を冷やすことを困難にする。",
-                        "note": "make + it + 形容詞 + for ~ to...: 形式目的語itを使った使役構文"
+                        "ja": "暖かい気温が、人体が冷えることを困難にする。",
+                        "note": "makes + it(形式目的語) + difficult(C) + for...to V(真の目的語)"
                     },
                     {
-                        "en": "They can make their body functions slow down to the lowest level.",
-                        "ja": "体の機能を最も低いレベルにまで減速させることができる。",
-                        "note": "make + O + 動詞原形: OにVさせる"
+                        "en": "It becomes difficult for people to sleep when the temperature is too warm.",
+                        "ja": "気温が暖かすぎると、人々が眠ることが困難になる。",
+                        "note": "It becomes + difficult + for people to sleep: 形式主語itの構文"
                     },
                     {
-                        "en": "They wanted to prevent their community from being bright with lights.",
-                        "ja": "コミュニティが光で明るくなることを防ぎたかった。",
-                        "note": "prevent + O + from + doing: Oが～するのを防ぐ"
+                        "en": "Technology has made it possible for us to communicate instantly.",
+                        "ja": "テクノロジーのおかげで、私たちは即座にコミュニケーションを取ることが可能になった。",
+                        "note": "has made + it(形式目的語) + possible + for us to communicate"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Temperature and Sleep]\nThis means the opposite is also true. It becomes difficult for people to sleep when the temperature is too warm. A warm temperature makes it difficult for the human body to cool down. In many cases, people roll over in bed on a hot summer night to try to feel more comfortable. This is their reaction to try to escape from the heat. One solution is for people to take a warm shower before going to bed. The human body's internal body temperature starts to drop after a shower.",
-                    "ja": "これは逆もまた真であることを意味する。暖かい気温は、人の体内温度が睡眠に適したレベルまで下がることを難しくする。そのため、暑い夜には人々は寝つきにくくなる。室温を涼しく保つことが良質な睡眠のために推奨されている。エアコンや扇風機を使って寝室の温度を適切に管理することが一つの解決策である。",
+                    "ja": "これはその逆もまた真であることを意味する。気温が暖かすぎると、人々が眠ることが困難になる。暖かい気温が、人体が冷えることを困難にする。多くの場合、暑い夏の夜に人々はより快適に感じようとしてベッドの上で寝返りを打つ。これは暑さから逃れようとする反応である。一つの解決策は、就寝前に温かいシャワーを浴びることである。シャワーの後、人体の内部温度は下がり始める。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'makes it difficult for the human body to cool down' の構文を分析してください。",
+                        "a": "makes(V) + it(形式目的語) + difficult(C) + for the human body(意味上の主語) + to cool down(真の目的語)。「人体が冷えることを困難にする」。"
+                    },
+                    {
+                        "q": "就寝前に温かいシャワーを浴びることがなぜ解決策になるのですか？",
+                        "a": "シャワーの後、人体の内部温度が下がり始めるため。体温が下がることで眠りに入りやすくなる。"
+                    },
+                    {
+                        "q": "'This means the opposite is also true' の 'the opposite' は何を指しますか？",
+                        "a": "前段落で述べた「気温が下がると眠りやすくなる」の逆、つまり「気温が高すぎると眠りにくくなる」こと。"
+                    },
+                    {
+                        "q": "'roll over in bed' はどのような行動ですか？なぜそうするのですか？",
+                        "a": "ベッドの上で寝返りを打つこと。暑さから逃れてより快適に感じようとする体の反応(reaction to try to escape from the heat)。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "makes it difficult for the human body to cool down",
+                    "It becomes difficult for people to sleep"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "make it C to V"
+            },
+            {
+                "id": "fp3",
+                "title": "仮定法過去完了 could have + 過去分詞",
+                "subtitle": "Past Conditional with Could Have",
+                "explanation": "could have + 過去分詞は「〜できたかもしれない/〜していたかもしれない」と過去の可能性や反事実を表す。実際にはそうならなかったことを暗示する重要表現。",
+                "sourceQuote": "These things were so minor that he could have forgotten without the diary.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "These things were so minor that he could have forgotten without the diary.",
+                        "ja": "これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。",
+                        "note": "so...that + could have forgotten: 結果のso thatと仮定法の組み合わせ"
+                    },
+                    {
+                        "en": "By checking what he had written, he found some patterns.",
+                        "ja": "書いたものを確認することで、いくつかのパターンを発見した。",
+                        "note": "By + -ing: 手段。what he had written: 過去完了のwhat節。"
+                    },
+                    {
+                        "en": "She could have passed the exam if she had studied harder.",
+                        "ja": "もっと一生懸命勉強していたら、試験に受かっていたかもしれない。",
+                        "note": "could have + pp + if + had + pp: 仮定法過去完了の典型パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Diaries]\nHowever, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
+                    "ja": "しかし、この経験からいくつかのことを学んだ。書いたものを確認することで、いくつかのパターンを発見した。これにより、通勤中の運転でよくストレスを感じていることに気づいた。そのため、電車に乗って歩くことにした。また、いくつかのことにも気づき、講義を改善した。これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。人生の詳細な記録があることで、今では人生を鮮明に思い出すことができ、過去10年間は以前の年月よりもずっと長く感じると言っている。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'A warm temperature makes it difficult for the human body' の使役構文を説明してください。",
-                        "a": "make + it（形式目的語）+ difficult + for〜 + to不定詞。「暖かさが体を〜しにくくさせる」。"
+                        "q": "'could have forgotten' はどのような意味ですか？",
+                        "a": "「忘れてしまっていたかもしれない」。仮定法過去完了。日記がなければ（if条件の省略=without the diary）忘れていたであろうという反事実の可能性。"
                     },
                     {
-                        "q": "'the opposite is also true' はどのような論理展開ですか？",
-                        "a": "「逆もまた真」。前段落の涼しい→眠りやすいの逆＝暖かい→眠りにくい。対称的論理展開。"
+                        "q": "'so minor that he could have forgotten' の 'so...that' は何を表していますか？",
+                        "a": "結果のso...that。「とても些細だったので〜してしまっていたかもしれない」。程度→結果の因果関係。"
                     },
                     {
-                        "q": "'becomes difficult for people to sleep' の形式主語を説明してください。",
-                        "a": "It becomes difficult for people to sleep。It=形式主語、to sleep=真主語。暑さと睡眠の因果を表す。"
+                        "q": "ビジャローエルが日記から学んだ具体的なことを2つ挙げてください。",
+                        "a": "①通勤中の運転でよくストレスを感じていたこと→電車に切り替えた ②講義の改善点に気づいた→講義を改善した"
                     },
                     {
-                        "q": "気温と睡眠の関係を要約してください。",
-                        "a": "涼しいと体温が下がり眠りやすい。暖かいと体温が下がりにくく寝つけない。室温管理が重要。"
+                        "q": "'the last ten years felt much longer than the ones before' はどのような意味ですか？",
+                        "a": "詳細な日記の記録があるおかげで過去10年間の記憶が鮮明で、記録のない以前の年月より長く感じたということ。記憶の密度が変わった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "makes it difficult",
-                    "becomes difficult",
-                    "warm temperature"
+                    "so minor that he could have forgotten without the diary"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "使役・知覚"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "could have + pp"
             },
             {
                 "id": "fp4",
-                "title": "動名詞・to不定詞の使い分け",
-                "subtitle": "Gerunds vs. Infinitives",
-                "explanation": "動名詞（-ing形）とto不定詞はどちらも動詞を名詞化しますが、使い方が異なります。動名詞は「すでに行っていること・一般的な活動」、to不定詞は「これからの目的・意図」を表す傾向があります。前置詞の後には動名詞のみ使えます。",
-                "sourceQuote": "Part 2A: \"By keeping lights on\"\nPart 2B: \"have had trouble falling asleep\"\nPart 3B: \"started to write down\" / \"By writing down ideas and thoughts\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
+                "title": "譲歩の Even though + 目的の To V",
+                "subtitle": "Concession and Purpose in Complex Sentences",
+                "explanation": "Even though + S + V は「〜にもかかわらず」。To + V は文頭で「〜するために」と目的を表す。長文で論理的な逆接と目的の関係を把握するのに重要。",
+                "sourceQuote": "Even though he had some photos and journals, they were not enough to explain his forty years.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "By keeping lights on, people can see the roads well.",
-                        "ja": "明かりをつけておくことで、人々は道路をよく見ることができる。",
-                        "note": "By + 動名詞: 手段「～することで」前置詞の後は動名詞"
+                        "en": "Even though he had some photos and journals, they were not enough to explain his forty years.",
+                        "ja": "写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。",
+                        "note": "Even though + had(過去形): 「持っていたにもかかわらず」逆接を強調"
                     },
                     {
-                        "en": "Other people may have had trouble falling asleep.",
-                        "ja": "他の人々は寝付けなかった経験があるかもしれない。",
-                        "note": "have trouble + 動名詞: 「～するのに苦労する」"
+                        "en": "To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary.",
+                        "ja": "80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。",
+                        "note": "To make sure: 「確実に〜するために」目的の不定詞が文頭に"
                     },
                     {
-                        "en": "He started to write down what he was doing.",
-                        "ja": "自分が何をしているかを書き留め始めた。",
-                        "note": "start + to不定詞/動名詞: どちらも可能だが、to不定詞は新しい行為の開始を強調"
+                        "en": "Even though they tried hard, they could not finish on time.",
+                        "ja": "一生懸命やったにもかかわらず、時間内に終えることができなかった。",
+                        "note": "Even though: although より強い譲歩"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Diaries]\nAlthough different people write diaries for different reasons, most people have probably tried writing one at least once in their lives. One of the common reasons why people keep a diary is to reduce stress. By writing down ideas and thoughts that they do not want others to hear or know, they can calm down some emotions. Writing down what they have done, especially during important events such as vacations, is also a common means to organize their memories.",
-                    "ja": "人によって日記をつける理由は異なるが、ほとんどの人には共通点がある。日記をつける一般的な理由の一つは、休暇などの重要な出来事を記録することだ。他にしたくないと思う考えやアイデアを書き留めることで、気持ちを落ち着かせることもできる。特にストレスの多い時期には、書くことが感情を整理するのに役立つ。日記は自己表現の手段であると同時に、自己理解を深めるツールでもある。",
+                    "en": "[出典: Diaries]\nMorris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
+                    "ja": "スペイン人の科学者で教授のモリス・ビジャローエルは、自分の記憶を整理しようとし始めた。ビジャローエルが40歳になった時、それまでに何をしてきたのかよく分からなかった。写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。しかし、彼の日記のつけ方はユニークだった。15分から30分おきに、自分が何をしていて、どう感じているかを書き留め始めたのである。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'By writing down ideas and thoughts' の 'By + 動名詞' はどのような効果ですか？",
-                        "a": "「アイデアや考えを書き留めることで」。書くことが感情を落ち着かせる手段になる。By + 動名詞 = 〜することで。"
+                        "q": "'Even though he had some photos and journals, they were not enough' の 'Even though' はなぜ使われていますか？",
+                        "a": "譲歩。写真や日誌があった（一定の記録はあった）にもかかわらず、40年間を説明するには不十分だったという逆接関係を示す。"
                     },
                     {
-                        "q": "'Writing down what they have done' の動名詞主語を説明してください。",
-                        "a": "「行ったことを書き留めること」。動名詞（Writing down）が文の主語。日記の行為自体がテーマ。"
+                        "q": "'To make sure he knows what he has accomplished' の構文を分析してください。",
+                        "a": "To make sure(目的の不定詞) + he knows(V) + what he has accomplished(what節=目的語)。「成し遂げたことを確実に知るために」。"
                     },
                     {
-                        "q": "'different people write diaries for different reasons' はどのような一般論ですか？",
-                        "a": "「人によって日記をつける理由は異なる」。個人差を認めつつ、共通点を論じるための導入。"
+                        "q": "ビジャローエルの日記のつけ方が「ユニーク」だった点は何ですか？",
+                        "a": "15分から30分おきに自分が何をしていてどう感じているかを書き留めた点。通常の日記よりもはるかに高い頻度で記録。"
                     },
                     {
-                        "q": "日記の一般的な目的を要約してください。",
-                        "a": "重要な出来事の記録、感情を落ち着かせること、自己表現。ストレス時に書くことが感情整理に役立つ。"
+                        "q": "ビジャローエルが日記をつけ始めた動機は何ですか？",
+                        "a": "40歳の時にそれまでの人生を振り返って何をしてきたかよく分からなかったこと。80歳になった時には成し遂げたことを確実に知りたかった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "By writing down",
-                    "Writing down",
-                    "different reasons"
+                    "Even though he had some photos and journals",
+                    "To make sure he knows what he has accomplished"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "動名詞・不定詞"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Even though / To V"
             },
             {
                 "id": "fp5",

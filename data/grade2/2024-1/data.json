@@ -1532,223 +1532,218 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "so that / so...that 構文",
-                "subtitle": "Purpose and Result Clauses",
-                "explanation": "so that は「～するために」（目的）、so...that は「非常に～なので…」（結果）を表します。英検長文では目的や結果を読み解く重要な構文です。",
-                "sourceQuote": "Part 2A: \"so that they can travel very fast\"\nPart 2A: \"put them back together so that they will be even more powerful\"\nPart 3B: \"factories were built so that items could be produced more quickly\"",
-                "sourceLocation": "Part 2A, Part 3B",
+                "title": "仮定法過去（would + V / if + 過去形）",
+                "subtitle": "Subjunctive Mood and Conditional",
+                "explanation": "仮定法過去は「もし〜なら…だろう」と現実と異なる仮定や、過去の人物の信念・意見を表す。believed that S would は過去の人物の考えを伝える間接話法としても重要。",
+                "sourceQuote": "Morris thought workers would be happier and healthier if they were involved in the whole production process.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Muscle cars have large, powerful engines so that they can travel very fast.",
-                        "ja": "マッスルカーは非常に速く走れるように大きくて強力なエンジンを持っている。",
-                        "note": "so that + can: 「～できるように」目的を表す"
+                        "en": "Morris thought workers would be happier and healthier if they were involved in the whole production process.",
+                        "ja": "モリスは、労働者が生産工程全体に関わればもっと幸せで健康だろうと考えた。",
+                        "note": "would be + if + were involved: 仮定法過去。モリスが理想とした状態を仮定。"
                     },
                     {
-                        "en": "They put them back together so that they will be even more powerful.",
-                        "ja": "さらに強力になるように組み立て直す。",
-                        "note": "so that + will: 未来の目的を表す"
+                        "en": "They believed that society would be better if people went back to the old ways.",
+                        "ja": "彼らは、人々が古いやり方に戻れば社会はより良くなると信じていた。",
+                        "note": "believed that + would + if + 過去形: 過去の信念の中の仮定法"
                     },
                     {
-                        "en": "Factories were built so that items could be produced more quickly and easily.",
-                        "ja": "品物をより速く簡単に生産できるように工場が建設された。",
-                        "note": "so that + could: 過去の目的を表す"
+                        "en": "If I had more time, I would read more books.",
+                        "ja": "もっと時間があれば、もっと本を読むのだが。",
+                        "note": "If + S + 過去形, S + would + V: 現在の事実に反する仮定"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: The Arts and Crafts Movement]\nIn the United Kingdom during the nineteenth century, new technology greatly changed how people lived. Until this time, many people lived on small farms. They worked with their family members and neighbors to make by hand what they needed to live. When new machines were invented and factories were built so that items could be produced more quickly and easily, people moved into cities to take jobs in the factories. They used the money they earned to buy the things they needed, many of which were made by machines instead of by hand.",
-                    "ja": "19世紀のイギリスでは、新しい技術が人々の生活と働き方を大きく変えた。製品をより迅速かつ容易に生産できるように工場が建設された。多くの人々が農村から都市に移り、工場で働くようになった。必要なものを買うために使えるお金は増えたが、売られている製品の多くは手作りではなく機械で作られたものだった。こうした大量生産品は安価だったが、品質や美しさに欠けることが多かった。",
+                    "en": "[出典: The Arts and Crafts Movement]\nWilliam Morris, a famous designer, was one of the most important members of the Arts and Crafts movement. He was not against the use of machines. However, he disagreed with the way that the managers of large factories produced items. These managers divided the process into small stages, with each worker only working on one stage. Morris thought workers would be happier and healthier if they were involved in the whole production process, worked in small shops, and met the people who bought and used their products.",
+                    "ja": "有名なデザイナーであるウィリアム・モリスは、アーツ・アンド・クラフツ運動の最も重要なメンバーの一人であった。彼は機械の使用に反対していたわけではなかった。しかし、大工場の経営者が製品を生産する方法には反対していた。これらの経営者は工程を小さな段階に分け、各労働者は一つの段階だけを担当していた。モリスは、労働者が生産工程全体に関わり、小さな工房で働き、製品を購入し使用する人々と会えば、もっと幸せで健康になるだろうと考えた。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'so that items could be produced more quickly' の 'so that' はどのような目的ですか？",
-                        "a": "「製品をより迅速に生産できるように」。工場建設の目的を示す。so that + could = 可能にするため。"
+                        "q": "'workers would be happier ... if they were involved' の 'would' と 'were' はそれぞれどのような用法ですか？",
+                        "a": "仮定法過去。would be は「〜だろう」（帰結節）、were involved は「関わったら」（条件節）。現実には大工場の分業体制だが、理想の状態を仮定。"
                     },
                     {
-                        "q": "'factories were built' の受動態はなぜ使われていますか？",
-                        "a": "「工場が建設された」。誰が建てたかより、建設されたという事実と結果に焦点。歴史的変化の記述。"
+                        "q": "モリスが反対していたのは何ですか？",
+                        "a": "機械そのものではなく（He was not against the use of machines）、大工場の経営者が工程を分業化して各労働者に一段階だけ担当させる方法に反対していた。"
                     },
                     {
-                        "q": "'greatly changed the way people lived and worked' の無生物主語を説明してください。",
-                        "a": "「新しい技術が生活と働き方を大きく変えた」。technology（無生物）が主語で人々への影響を表現。"
+                        "q": "'divided the process into small stages, with each worker only working on one stage' の 'with' はどのような構文ですか？",
+                        "a": "付帯状況のwith。with + O + -ing で「Oが〜している状態で」。「各労働者が一段階だけに取り組む状態で」工程を分けた。"
                     },
                     {
-                        "q": "産業革命がイギリスの生活に与えた影響を要約してください。",
-                        "a": "工場建設→都市への人口移動→大量生産品の普及→安価だが品質低下。生活と働き方が根本的に変化。"
+                        "q": "モリスが考えた理想の労働環境を3つ挙げてください。",
+                        "a": "①生産工程全体に関わること(involved in the whole process) ②小さな工房で働くこと(worked in small shops) ③製品を買い使う人々と会うこと(met the people who bought and used their products)"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that items could be produced",
-                    "factories were built",
-                    "more quickly"
+                    "would be happier and healthier if they were involved in the whole production process"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "so that構文"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "仮定法過去"
             },
             {
                 "id": "fp2",
-                "title": "時制の一致と仮定法過去",
-                "subtitle": "Sequence of Tenses and Subjunctive Past",
-                "explanation": "主節が過去形のとき、従属節も過去形に合わせる「時制の一致」と、「もし～なら」と現実と異なる仮定を表す「仮定法過去」を区別することが読解の鍵です。",
-                "sourceQuote": "Part 3B: \"believed that society would be better if people went back to the old ways\"\nPart 3B: \"Morris thought workers would be happier and healthier if they were involved\"\nPart 3A: \"he said it was probably the best burger he had ever tasted\"",
-                "sourceLocation": "Part 3A/3B",
+                "title": "使役構文 make + O + C / V",
+                "subtitle": "Causative Make Construction",
+                "explanation": "make + O + 形容詞/動詞原形は「OをCにする / OにVさせる」。因果関係を表す最重要構文で、2級の長文で原因と結果の関係を述べる際に頻出。",
+                "sourceQuote": "This added moisture makes the air more humid, which makes the temperature feel warmer.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "One group believed that society would be better if people went back to the old ways of making things.",
-                        "ja": "人々が古い方法でものづくりに戻れば社会はより良くなると信じていた。",
-                        "note": "believed + would + if + 過去形: 時制の一致 + 仮定法過去"
+                        "en": "This added moisture makes the air more humid, which makes the temperature feel warmer.",
+                        "ja": "この追加された水分が空気をより湿気のあるものにし、それが気温をより暖かく感じさせる。",
+                        "note": "makes + O + 形容詞 / makes + O + V原形: 2つのmake構文が連鎖"
                     },
                     {
-                        "en": "Morris thought workers would be happier and healthier if they were involved in the whole production process.",
-                        "ja": "全体の生産工程に関われば作業者はより幸せで健康になると考えた。",
-                        "note": "thought + would + if + were/過去形: 仮定法過去"
+                        "en": "The large number of corn plants make the region hotter.",
+                        "ja": "大量のトウモロコシの植物がその地域をより暑くしている。",
+                        "note": "make + O(the region) + C(hotter): 「地域をより暑くする」"
                     },
                     {
-                        "en": "He said it was probably the best burger he had ever tasted.",
-                        "ja": "今まで食べた中で一番おいしいバーガーだったと言った。",
-                        "note": "said + was + had ever tasted: 時制の一致（直接話法→間接話法）"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Arts and Crafts Movement]\nSome people disliked these changes. In particular, one group of artists and designers believed that society would be better if people went back to the old ways of making things. They formed a group that became known as the Arts and Crafts movement to share their ideas and sell their products. Although some members produced paintings and sculptures, most made objects that could be used, such as books and fabrics that had been printed by hand, furniture, and dishes. They wanted to design beautiful, high-quality items that were useful in everyday life.",
-                    "ja": "こうした変化を嫌う人々がいた。特に、芸術家やデザイナーの一団は、手作りの伝統に戻ることが社会をより良くすると信じていた。彼らは美しく高品質な製品をデザインすることを目指し、「アーツ・アンド・クラフツ運動」と呼ばれるグループを結成した。手作りの書籍や布など、機械ではなく人の手で作られた製品を重視した。彼らはアイデアを共有し製品を販売するために展示会やワークショップを開催した。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'believed that society would be better if people went back to' の時制の一致を説明してください。",
-                        "a": "主節 believed（過去）→that節 would be（過去未来）+ if節 went back（仮定法過去）。過去時点での信念と仮定。"
-                    },
-                    {
-                        "q": "'disliked these changes' の 'these changes' は何を指しますか？",
-                        "a": "前段落で述べた産業革命による変化。機械による大量生産、品質低下、手作りの消失など。"
-                    },
-                    {
-                        "q": "'designed beautiful, high-quality items' の目的は何でしたか？",
-                        "a": "機械生産品への反発。手作りで美しく質の高い製品を作り、伝統的な職人技を復活させること。"
-                    },
-                    {
-                        "q": "アーツ・アンド・クラフツ運動の理念を要約してください。",
-                        "a": "手作りの伝統に回帰。美しく高品質な製品。機械生産への反対。職人の技術と芸術性を重視。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "believed that society would be",
-                    "went back to",
-                    "disliked these changes"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "時制・仮定法"
-            },
-            {
-                "id": "fp3",
-                "title": "受動態のバリエーション",
-                "subtitle": "Passive Voice Variations",
-                "explanation": "受動態は基本形「be + 過去分詞」に加え、進行形受動態(be being + pp)、完了形受動態(have been + pp)、助動詞付き受動態(can be + pp)など多様な形があります。英検長文ではどれも頻出です。",
-                "sourceQuote": "Part 2A: \"muscle cars are still being made today\"\nPart 2B: \"thousands of liters of water are released from the plants\"\nPart 3B: \"Public exhibitions were held to display and sell the products\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
-                "examples": [
-                    {
-                        "en": "Although muscle cars are still being made today, the most popular ones were made over fifty years ago.",
-                        "ja": "マッスルカーは今日でも製造されているが、最も人気のあるものは50年以上前に作られた。",
-                        "note": "are being made: 進行形受動態「現在も製造されている」"
-                    },
-                    {
-                        "en": "Thousands of liters of water are released from the plants every day.",
-                        "ja": "植物から毎日何千リットルもの水が放出される。",
-                        "note": "are released: 現在形受動態（習慣的な動作）"
-                    },
-                    {
-                        "en": "Public exhibitions were held to display and sell the products.",
-                        "ja": "製品を展示・販売するための公開展覧会が開催された。",
-                        "note": "were held: 過去形受動態"
+                        "en": "The news made everyone happy.",
+                        "ja": "そのニュースはみんなを幸せにした。",
+                        "note": "make + O + 形容詞: 最も基本的なmake+O+C構文"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Growing Corn]\nInterestingly, the crops do not actually change the temperature. When corn plants release water into the air — a process called corn sweat — the air becomes wetter. This added moisture makes the air more humid, which makes the temperature feel warmer. With so many corn crops in one area, thousands of liters of water are released from the plants every day. For this reason, local residents are feeling increasingly uncomfortable due to the higher humidity levels. In some cases, corn sweat can even make it dangerous for farmers to work outside for too long.",
-                    "ja": "興味深いことに、作物自体が実際に気温を変えるわけではない。トウモロコシの植物が成長すると、何千リットルもの水が葉から空気中に放出される。この放出された水分が空気をより湿気の多いものにし、不快指数を上昇させる原因となっている。特に夏の暑い日には、湿度の上昇が体感温度を実際の気温よりもはるかに高く感じさせる。",
+                    "ja": "興味深いことに、作物は実際には気温を変えてはいない。トウモロコシの植物が空気中に水分を放出する過程 — コーンスウェットと呼ばれる — により、空気はより湿った状態になる。この追加された水分が空気をより湿気のあるものにし、それが気温をより暖かく感じさせる。一つの地域にこれほど多くのトウモロコシ畑があるため、毎日植物から何千リットルもの水が放出されている。この理由から、地元住民はより高い湿度のせいでますます不快に感じている。場合によっては、コーンスウェットにより、農家の人が長時間屋外で作業するのが危険になることさえある。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'makes the air more humid, which makes the temperature feel warmer' に含まれる2つの make 構文を説明してください。",
+                        "a": "①makes the air more humid: make+O(air)+C(humid) 「空気を湿った状態にする」②makes the temperature feel warmer: make+O(temperature)+V(feel) 「気温を暖かく感じさせる」"
+                    },
+                    {
+                        "q": "'which makes the temperature feel warmer' の 'which' は何を指していますか？",
+                        "a": "前文全体（空気がより湿った状態になること）。関係代名詞の非制限用法で、前述の内容全体を先行詞とする。"
+                    },
+                    {
+                        "q": "コーンスウェットとは何ですか？",
+                        "a": "トウモロコシの植物が空気中に水分を放出する過程のこと。この過程が原因で空気中の湿度が上がり、体感温度が高くなる。"
+                    },
+                    {
+                        "q": "'can even make it dangerous for farmers to work outside' の構文を分析してください。",
+                        "a": "make + it(形式目的語) + dangerous(C) + for farmers to work(真の目的語)。「農家が屋外で働くことを危険にする」。itは形式目的語でfor以下が真の目的語。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "makes the air more humid",
+                    "makes the temperature feel warmer",
+                    "make the region hotter"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "使役 make+O+C"
+            },
+            {
+                "id": "fp3",
+                "title": "目的の so that（〜するために）",
+                "subtitle": "Purpose Clause with so that",
+                "explanation": "so that + S + can/will は「〜するために」と目的を表す。結果の「so...that（非常に〜なので）」と区別が重要。2級の長文で動機・目的の把握に不可欠。",
+                "sourceQuote": "Their owners can take apart the engines ... and then put them back together so that they will be even more powerful.",
+                "sourceLocation": "Part 2A",
+                "examples": [
+                    {
+                        "en": "Their owners can put them back together so that they will be even more powerful.",
+                        "ja": "オーナーはエンジンをさらに強力にするために組み立て直すことができる。",
+                        "note": "so that + S + will: 未来の目的を表す"
+                    },
+                    {
+                        "en": "Factories were built so that items could be produced more quickly and easily.",
+                        "ja": "製品をより速く簡単に生産できるように工場が建てられた。",
+                        "note": "so that + S + could: 過去の目的を表す"
+                    },
+                    {
+                        "en": "She saved money so that she could travel abroad.",
+                        "ja": "彼女は海外旅行できるようにお金を貯めた。",
+                        "note": "so that + S + could = in order to: 目的の副詞節"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Muscle Cars]\nAnother reason that people like owning muscle cars is that they like to play with the cars' engines. Unlike many modern cars, muscle cars have simple engine designs. Their owners can take apart the engines, repair and clean them, and then put them back together so that they will be even more powerful. Many collectors buy old, damaged muscle cars and spend their free time fixing them. Often, they must travel long distances to visit special shops to get the parts that they need. However, by doing so, they meet new people with similar interests in different parts of the country and learn more about their favorite kinds of cars.",
+                    "ja": "マッスルカーを所有することが好きなもう一つの理由は、車のエンジンをいじるのが好きだということである。多くの現代の車とは異なり、マッスルカーはシンプルなエンジン設計になっている。オーナーはエンジンを分解し、修理して清掃し、さらに強力になるように組み立て直すことができる。多くのコレクターは古くて損傷したマッスルカーを購入し、自由時間を使ってそれらを修理する。必要な部品を手に入れるために、専門店を訪れるのに長距離を移動しなければならないことも多い。しかし、そうすることで、国内の様々な場所で同じ興味を持つ新しい人々と出会い、お気に入りの車についてさらに学ぶことができる。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'thousands of liters of water are released from the leaves' の受動態を説明してください。",
-                        "a": "「何千リットルもの水が葉から放出される」。are released = 現在形受動態。自然現象の一般的記述。"
+                        "q": "'so that they will be even more powerful' の 'so that' は何を表していますか？",
+                        "a": "目的。「さらに強力になるように」エンジンを組み立て直す。so that + will は未来の目的を表現。"
                     },
                     {
-                        "q": "'This added moisture makes the air more humid' の因果関係を説明してください。",
-                        "a": "水分放出（原因）→空気がより湿気を帯びる（結果）。makes = 〜にする。無生物主語+因果構文。"
+                        "q": "'Unlike many modern cars, muscle cars have simple engine designs' の 'Unlike' はどのような意味ですか？",
+                        "a": "「～とは異なり」。前置詞で対比を導入。現代の車（複雑）とマッスルカー（シンプル）のエンジン設計の違いを際立たせている。"
                     },
                     {
-                        "q": "'the crops do not actually change the temperature' の 'actually' はなぜ重要ですか？",
-                        "a": "「実際には気温を変えない」。誤解（気温変化）を訂正する。実際には湿度が変わるのだという事実を強調。"
+                        "q": "'by doing so' の 'doing so' は何を指していますか？",
+                        "a": "前文の「必要な部品を手に入れるために専門店を訪れるのに長距離を移動すること」。byは手段を表す。"
                     },
                     {
-                        "q": "トウモロコシが気候に与える影響を要約してください。",
-                        "a": "気温自体は変えないが、葉からの水分蒸発で湿度が上昇。体感温度が実際より高く感じられる。"
+                        "q": "マッスルカーのオーナーがエンジンをいじることのメリットを2つ挙げてください。",
+                        "a": "①同じ興味を持つ新しい人々と出会える(meet new people with similar interests) ②お気に入りの車についてさらに学べる(learn more about their favorite kinds of cars)"
                     }
                 ],
                 "highlightPatterns": [
-                    "are released from",
-                    "thousands of liters",
-                    "added moisture"
+                    "so that they will be even more powerful"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "受動態"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "目的の so that"
             },
             {
                 "id": "fp4",
-                "title": "目的を表すto不定詞",
-                "subtitle": "To-Infinitive for Purpose",
-                "explanation": "to不定詞は「～するために」と目的を表す副詞的用法として非常に多く使われます。in order to / so as to も同じ意味です。英検長文では行動の理由や目的を読み取る手がかりとなります。",
-                "sourceQuote": "Part 3B: \"to share their ideas and sell their products\"\nPart 2A: \"to visit special shops to get the parts\"\nPart 3B: \"to display and sell the products\"",
-                "sourceLocation": "Part 2A, Part 3B",
+                "title": "受動態 + 目的の to 不定詞",
+                "subtitle": "Passive Voice with Purpose Infinitive",
+                "explanation": "受動態(was/were + 過去分詞) + to不定詞で「〜するために…された」と目的を伴う受動態を表す。何がなぜ行われたかを簡潔に表現する構文。",
+                "sourceQuote": "Public exhibitions were held to display and sell the products made by the members of the movement.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "They formed a group to share their ideas and sell their products.",
-                        "ja": "アイデアを共有し製品を販売するためにグループを結成した。",
-                        "note": "to + 動詞原形: 目的「～するために」"
+                        "en": "Public exhibitions were held to display and sell the products made by the members of the movement.",
+                        "ja": "運動のメンバーが作った製品を展示し販売するために公開展示会が開催された。",
+                        "note": "were held(受動態) + to display and sell(目的): 「展示・販売するために開催された」"
                     },
                     {
-                        "en": "They must travel long distances to visit special shops to get the parts that they need.",
-                        "ja": "必要な部品を手に入れるために特別な店を訪れるために長い距離を旅する。",
-                        "note": "to visit と to get: 二重の目的を表すto不定詞"
+                        "en": "People in the United Kingdom and abroad were inspired to form similar organizations.",
+                        "ja": "イギリスや海外の人々は同様の組織を結成するよう触発された。",
+                        "note": "were inspired(受動態) + to form(目的/結果): 受動態+to不定詞"
                     },
                     {
-                        "en": "Americans often need to convert the measurements to miles per hour in order to understand how fast they can drive.",
-                        "ja": "どのくらい速く運転できるかを理解するために単位を変換する必要がある。",
-                        "note": "in order to: 「～するために」(toの強調形)"
+                        "en": "The building was designed to save energy.",
+                        "ja": "その建物はエネルギーを節約するために設計された。",
+                        "note": "was designed(受動態) + to save(目的): 「節約するために設計された」"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Arts and Crafts Movement]\nFor a while, the Arts and Crafts movement was a success. Public exhibitions were held to display and sell the products made by the members of the movement, and people in the United Kingdom and abroad were inspired to form similar organizations. During the twentieth century, however, the popularity of such products declined because they took too long to make and cost too much to buy. However, the ideas of the Arts and Crafts movement continue to influence the way that artists and designers think about their work.",
-                    "ja": "しばらくの間、アーツ・アンド・クラフツ運動は成功を収めた。運動のメンバーが作った製品を展示・販売するために公開展示会が開かれた。イギリス国内だけでなく海外の人々もこの運動に感銘を受けた。しかし、手作り製品は作るのに時間がかかり、価格も高かったため、次第に人気が低下していった。大量生産品の方がはるかに安価で入手しやすかったのだ。",
+                    "ja": "しばらくの間、アーツ・アンド・クラフツ運動は成功を収めた。運動のメンバーが作った製品を展示し販売するために公開展示会が開催され、イギリスや海外の人々は同様の組織を結成するよう触発された。しかし、20世紀の間に、そうした製品は作るのに時間がかかりすぎ、買うのに費用がかかりすぎたため、人気が低下した。しかし、アーツ・アンド・クラフツ運動の理念は、芸術家やデザイナーが自分の仕事について考える方法に影響を与え続けている。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'to display and sell the products' の to不定詞はどのような目的ですか？",
-                        "a": "「製品を展示・販売するために」。展示会開催の目的。to不定詞の副詞的用法（目的）。"
+                        "q": "'were held to display and sell' の構文を説明してください。",
+                        "a": "受動態(were held) + 目的のto不定詞(to display and sell)。「展示し販売するために開催された」。主語はPublic exhibitions。"
                     },
                     {
-                        "q": "'Public exhibitions were held' の受動態と目的の関係を説明してください。",
-                        "a": "「公開展示会が開かれた」。受動態で行事の開催を述べ、to不定詞で目的を付加。"
+                        "q": "アーツ・アンド・クラフツ運動の人気が低下した理由を2つ答えてください。",
+                        "a": "①作るのに時間がかかりすぎた(they took too long to make) ②買うのに費用がかかりすぎた(cost too much to buy)"
                     },
                     {
-                        "q": "'were inspired by this movement' はどのような影響を示しますか？",
-                        "a": "「この運動に感銘を受けた」。受動態で、運動が海外にまで影響を与えたことを表現。"
+                        "q": "'were inspired to form similar organizations' の 'inspired' はどのような意味ですか？",
+                        "a": "「触発された、刺激を受けた」。受動態で「人々が〜するよう触発された」。= were motivated to。"
                     },
                     {
-                        "q": "アーツ・アンド・クラフツ運動が衰退した理由は何ですか？",
-                        "a": "手作り品は時間がかかり高価。大量生産品の方が安価で入手しやすい。コスト面で競争力なし。"
+                        "q": "アーツ・アンド・クラフツ運動は現在どのような影響を残していますか？",
+                        "a": "芸術家やデザイナーが自分の仕事について考える方法に影響を与え続けている(continue to influence the way that artists and designers think about their work)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "to display and sell",
-                    "Public exhibitions",
-                    "were held"
+                    "were held to display and sell",
+                    "were inspired to form similar organizations"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "目的のto不定詞"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "受動態+目的のto"
             },
             {
                 "id": "fp5",

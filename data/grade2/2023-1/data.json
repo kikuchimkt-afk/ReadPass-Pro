@@ -1852,222 +1852,240 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "provided (that) / as long as 条件の接続詞",
-                "subtitle": "Conditional Conjunctions",
-                "explanation": "provided (that)は「～という条件で」の意味でif/as long asと同義。動詞のprovideとは異なる接続詞用法。2級文法で頻出。",
-                "sourceQuote": "Yes, provided you finish your homework first.",
-                "sourceLocation": "Part 1 Q19",
+                "title": "not only A but also B（情報の追加・強調）",
+                "subtitle": "Correlative Conjunctions",
+                "explanation": "not only A but also B は「AだけでなくBも」と情報を追加・強調する相関接続詞。2級の長文で頻出し、筆者の主張を強調する場面でよく使われる。",
+                "sourceQuote": "Part 3C: must not only find new ideas and skills but also regularly recall them",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "You can go, provided you finish your homework first.",
-                        "ja": "宿題を終わらせれば行ってもいいよ。",
-                        "note": "provided=if/as long as"
+                        "en": "We must not only find new ideas and skills but also regularly recall them.",
+                        "ja": "新しいアイデアやスキルを見つけるだけでなく、定期的にそれらを思い出さなければならない。",
+                        "note": "not only A but also B: AだけでなくBも（mustが両方にかかる）"
                     },
                     {
-                        "en": "I'll help you, as long as you ask politely.",
-                        "ja": "丁寧に頼めば助けてあげるよ。",
-                        "note": "as long as=provided that"
+                        "en": "Not only did he pass the exam, but he also got the highest score.",
+                        "ja": "彼は試験に受かっただけでなく、最高得点も取った。",
+                        "note": "Not only + 倒置(did+S+V): 文頭のNot onlyで主語と動詞が倒置する"
                     },
                     {
-                        "en": "The event will take place, provided that the weather is good.",
-                        "ja": "天気が良ければイベントは開催される。",
-                        "note": "provided that=～という条件で"
+                        "en": "The hotel was not only clean but also very affordable.",
+                        "ja": "そのホテルは清潔なだけでなく、とても手頃な価格だった。",
+                        "note": "not only + 形容詞 but also + 形容詞: 文中では倒置なし"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'provided that they have a smartphone' のような条件表現を見つけてください。",
-                        "a": "この文で暗示的に条件が示される。「すべての支払いが電子的に行われる」=スマートフォンや口座が前提条件。"
+                        "q": "'must not only find ... but also regularly recall them' の構文を説明してください。",
+                        "a": "not only A but also B「AだけでなくBも」。ここではmustが全体にかかり、「見つけるだけでなく思い出すことも必要だ」という意味。"
                     },
                     {
-                        "q": "'argue that cash causes crime' の 'argue that' はどのような主張ですか？",
-                        "a": "「現金が犯罪を引き起こすと主張する」。支持者側の意見を導入する動詞。that節で主張内容を説明。"
+                        "q": "この段落によると、夢を見ることの主要な機能は何ですか？",
+                        "a": "記憶を振り返り、強化すること（to review memories and strengthen them）。学習には新しいことを見つけるだけでなく定期的に思い出すことが必要。"
                     },
                     {
-                        "q": "'however' はこの段落でどのような論理展開を示しますか？",
-                        "a": "「しかし」。支持者の利点の主張→批判者の問題点の指摘。両論併記の逆接。"
+                        "q": "'it was suggested that dreams could tell us about hidden parts of our personalities' の主語は何ですか？",
+                        "a": "形式主語の it。真の主語は that以下の節全体。「夢は性格の隠れた部分を教えてくれるのではないかと提唱された」という受動態の形式主語構文。"
                     },
                     {
-                        "q": "キャッシュレス社会の長所と短所を要約してください。",
-                        "a": "長所: 犯罪減少、利便性。短所: デジタル弱者の排除、システム障害リスク。"
+                        "q": "'principal' はここでどのような意味ですか？",
+                        "a": "「主要な、主な」（= main, primary）。名詞の「校長」とは異なる形容詞用法。"
                     }
                 ],
                 "highlightPatterns": [
-                    "cashless",
-                    "electronically",
-                    "Supporters"
+                    "not only find new ideas and skills but also regularly recall them"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "条件の接続詞",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "not only...but also",
                 "practicePassage": {
-                    "en": "[出典: Any Change?]\nSupporters of a \"cashless\" society in which all payments are made electronically argue that it would have several benefits. For example, people would not have to worry about keeping their wallets safe. However, some people are concerned that they might be unable to pay for the things they need because of a software error or a broken smartphone. Moreover, some people do not have bank accounts or credit cards, so their only option is to use coins and bills. For now, it seems as though societies will continue to use cash.",
-                    "ja": "すべての支払いが電子的に行われる「キャッシュレス」社会の支持者たちは、現金がなくなれば犯罪が減少すると主張している。しかし、批判者たちはすべての人がスマートフォンや銀行口座を持っているわけではないと指摘し、キャッシュレス社会は一部の人々を排除する可能性があると警告している。また、電子決済システムに障害が発生した場合、人々は買い物ができなくなるリスクもある。それでも、世界の多くの国々ではキャッシュレス化が急速に進んでおり、この傾向は今後も続くと予想されている。",
+                    "en": "[出典: Dreams]\nPeople have been trying to explain why we dream for thousands of years. Ancient people believed that dreams were messages from gods. More recently, it was suggested that dreams could tell us about hidden parts of our personalities. These days, most psychologists believe that one of the principal functions of dreaming is to review memories and strengthen them. This is important because to learn well, we must not only find new ideas and skills but also regularly recall them.",
+                    "ja": "人々は何千年もの間、なぜ夢を見るのかを説明しようとしてきた。古代の人々は、夢は神からのメッセージだと信じていた。もっと最近では、夢は私たちの性格の隠れた部分について教えてくれるのではないかと提唱された。現在、ほとんどの心理学者は、夢を見ることの主要な機能の一つは、記憶を振り返り、それを強化することだと考えている。これが重要なのは、うまく学ぶためには、新しいアイデアやスキルを見つけるだけでなく、定期的にそれらを思い出すことも必要だからである。",
                     "audioFile": "audio/practice_pp1.mp3"
+                },
+                "importance": "not only A but also B は「AだけでなくBも」と情報を追加・強調する相関接続詞。2級の長文で頻出し、筆者の主張を強調する場面でよく使われる。倒置形（Not only do they... but also...）も重要。",
+                "keyExample": {
+                    "en": "We must not only find new ideas and skills but also regularly recall them.",
+                    "ja": "私たちは新しいアイデアやスキルを見つけるだけでなく、定期的にそれらを思い出すことも必要だ。",
+                    "source": "Part 3C"
                 }
             },
             {
                 "id": "fp2",
-                "title": "倍数表現 X times the size of Y",
-                "subtitle": "Multiplier Expressions",
-                "explanation": "「XのY倍」を表す構文。X times the size/length/weight of Y の形。as...asを使う形も：X times as large as Y。",
-                "sourceQuote": "Her kitchen is four times the size of other people's kitchens.",
-                "sourceLocation": "Part 1 Q20",
+                "title": "比較構文（than any other / compared with）",
+                "subtitle": "Comparative Structures",
+                "explanation": "「比較級 + than any other + 単数名詞」は最上級と同等の意味を持つ比較構文。compared with（～と比べて）も長文で重要。",
+                "sourceQuote": "Part 3B: more time and energy for other activities than any other new technology did",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Her kitchen is four times the size of other people's kitchens.",
-                        "ja": "彼女のキッチンは他の人のキッチンの4倍の大きさだ。",
-                        "note": "X times the size of Y"
+                        "en": "Automatic washing machines gave people more time and energy for other activities than any other new technology did.",
+                        "ja": "自動洗濯機は、他のどの新技術よりも多くの時間とエネルギーを人々に与えた。",
+                        "note": "more...than any other + 単数名詞: 最上級相当「他のどの～よりも」"
                     },
                     {
-                        "en": "This room is twice as large as mine.",
-                        "ja": "この部屋は私の部屋の2倍の広さだ。",
-                        "note": "X times as...as パターン"
+                        "en": "The impact of these inventions has been small compared with that of washing machines.",
+                        "ja": "これらの発明の影響は、洗濯機の影響と比べると小さいものだった。",
+                        "note": "compared with: 「～と比較して」。that = the impact（代名詞の指示）"
                     },
                     {
-                        "en": "The population is three times what it was 50 years ago.",
-                        "ja": "人口は50年前の3倍だ。",
-                        "note": "X times what S V パターン"
+                        "en": "She studies harder than any other student in her class.",
+                        "ja": "彼女はクラスの他のどの生徒よりも熱心に勉強する。",
+                        "note": "比較級 + than any other + 単数名詞 = 最上級の言い換え"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'over half the dreams' の数量表現を説明してください。",
-                        "a": "「夢の半数以上」。over half = more than 50%。研究結果の定量的表現。"
+                        "q": "'than any other new technology did' はどのような意味ですか？",
+                        "a": "「他のどの新技術よりも」。比較級 + than any other + 単数名詞 は最上級と同等の意味。洗濯機が最も大きな影響を与えたことを強調。"
                     },
                     {
-                        "q": "'For a recent study' はどのような導入ですか？",
-                        "a": "「最近の研究で」。研究の時期と新規性を示す。学術的な事実の提示に使われる前置詞句。"
+                        "q": "'This, in turn, led to improvements' の 'in turn' はどのような意味ですか？",
+                        "a": "「次第に、その結果として」。前の行動が連鎖的に次の結果をもたらしたことを示す。時間と精力→勉強→生活の質向上という因果関係。"
                     },
                     {
-                        "q": "'connected to specific events' の 'connected to' はどのような関係を示しますか？",
-                        "a": "「特定の出来事と結びついている」。夢の内容と日常の出来事の因果関係を示す。"
+                        "q": "この段落によると、洗濯機はどのように社会を変えましたか？",
+                        "a": "人々に余分な時間とエネルギーを与え、それを学習や子供の教育に使い、結果として全員の生活の質が向上した。"
                     },
                     {
-                        "q": "ウォムズリーの研究から何がわかりましたか？",
-                        "a": "夢の半数以上が最近の日常体験と関連。夢は記憶の整理・定着に役割を果たしている可能性。"
+                        "q": "'This means that' は何を導いていますか？",
+                        "a": "未来の予測を導いている。「これはつまり～であることを意味する」。洗濯機が今後も何十億もの人々の生活を変え続けるだろうという結論。"
                     }
                 ],
                 "highlightPatterns": [
-                    "over half the dreams",
-                    "invited",
-                    "participants"
+                    "more time and energy for other activities than any other new technology did"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "倍数・比較",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "比較構文",
                 "practicePassage": {
-                    "en": "[出典: Living the Dream]\nFor a recent study, Erin Wamsley of Furman University in the United States invited 48 participants to spend the night at a special laboratory at the university. The participants were woken up several times during the night and asked to report what they had been dreaming about. The following morning, the participants tried to connect the content of their dreams with events in their lives. Wamsley found that over half the dreams could be connected to memories of experiences. This supports the idea that dreams play a role in learning.",
-                    "ja": "最近の研究で、アメリカのフォーマン大学のエリン・ウォムズリーは参加者を募り、彼らの夢の内容を記録した。研究の結果、夢の半数以上が参加者の最近の日常の出来事と結びついていることがわかった。例えば、日中に友人と話した人は、夜にその友人の夢を見る可能性が高かった。これは、夢が記憶の整理と定着に重要な役割を果たしていることを示唆している。",
+                    "en": "[出典: An Extraordinary Machine]\nAutomatic washing machines gave people more time and energy for other activities than any other new technology did. They used some of this extra time and energy to study and teach their children. This, in turn, led to improvements in the quality of everyone's lives in the places where washing machines became common. Even today, many people in the world still wash their clothes by hand. This means that, over the next few decades, washing machines will probably continue to make a big difference to the lives of billions of humans.",
+                    "ja": "自動洗濯機は、他のどの新技術よりも多くの時間とエネルギーを人々に与えた。人々はこの余分な時間とエネルギーの一部を、学び、子供たちに教えることに使った。これが次第に、洗濯機が普及した地域のすべての人々の生活の質の向上につながった。現在でも、世界の多くの人々がまだ手で衣類を洗っている。これは、今後数十年間で、洗濯機がおそらく何十億もの人々の生活に大きな変化をもたらし続けるであろうことを意味している。",
                     "audioFile": "audio/practice_pp2.mp3"
+                },
+                "importance": "「than any other + 単数名詞」は最上級と同等の意味を持つ比較構文。2級の長文で筆者の主張の根拠として頻出。compared with（～と比べて）も重要な比較表現。",
+                "keyExample": {
+                    "en": "Automatic washing machines gave people more time and energy for other activities than any other new technology did.",
+                    "ja": "自動洗濯機は、他のどの新技術よりも多くの時間とエネルギーを人々に与えた。",
+                    "source": "Part 3B"
                 }
             },
             {
                 "id": "fp3",
-                "title": "as good as any / 比較のany",
-                "subtitle": "Comparative Any",
-                "explanation": "as good as any は「どんなものにも劣らない」=最上級に匹敵。any は比較の文脈で「どの～でも」の強い意味になる。",
-                "sourceQuote": "Her soups and stews are as good as any that are served in a restaurant.",
-                "sourceLocation": "Part 1 Q18",
+                "title": "目的の in order to / 結果の As a result",
+                "subtitle": "Purpose and Result Expressions",
+                "explanation": "in order to（～するために）は目的、As a result（その結果）は因果関係を示す論理展開の接続表現。長文の論理構造把握に不可欠。",
+                "sourceQuote": "Part 2B: In order to do so\nPart 2B: As a result",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "Her soups are as good as any that are served in a restaurant.",
-                        "ja": "彼女のスープはレストランで出されるどれにも劣らない。",
-                        "note": "as good as any=最上級に匹敵"
+                        "en": "In order to do so, they need to report big news stories as quickly as possible.",
+                        "ja": "そうするためには、大きなニュースをできるだけ早く報道する必要がある。",
+                        "note": "in order to + 動詞原形: 「～するために」（to不定詞より明確な目的表現）"
                     },
                     {
-                        "en": "He is as talented as any student in this school.",
-                        "ja": "彼はこの学校のどの生徒にも劣らないほど才能がある。",
-                        "note": "as+形容詞+as any"
+                        "en": "As a result, they are constantly watching each other to make sure they have the latest stories.",
+                        "ja": "その結果、彼らはお互いに最新のニュースを持っているか常に監視し合っている。",
+                        "note": "As a result: 「その結果」。前文の原因に対する結果を導く"
                     },
                     {
-                        "en": "This is as important as any issue we have discussed.",
-                        "ja": "これは私たちが議論したどの問題にも劣らず重要だ。",
-                        "note": "anyが「どの～でも」の意味"
+                        "en": "People also use fake news to spread their political or religious beliefs.",
+                        "ja": "人々はまた、自分の政治的・宗教的な信念を広めるためにフェイクニュースを使う。",
+                        "note": "to + 動詞原形: 目的の不定詞（in order toの省略形）"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'than any other invention including the Internet' の比較表現を説明してください。",
-                        "a": "「インターネットを含む他のどの発明よりも」。比較級 + than any other = 最上級の意味。最も影響が大きい。"
+                        "q": "'In order to do so' の 'do so' は何を指していますか？",
+                        "a": "前文の「より多くの読者、視聴者、訪問者を獲得する」こと。do so = get more readers, viewers, and visitors を受けている。"
                     },
                     {
-                        "q": "'more time and energy for other activities' はどのような変化を示しますか？",
-                        "a": "「他の活動のためのより多くの時間とエネルギー」。洗濯の自動化→家事負担の減少→他の活動に使える時間が増加。"
+                        "q": "'As a result' は何の結果を示していますか？",
+                        "a": "「大きなニュースをできるだけ早く報道する必要がある」という前文の内容の結果。急いで報道する→互いを監視し合うという因果関係。"
                     },
                     {
-                        "q": "'Automatic washing machines gave people...' の無生物主語を説明してください。",
-                        "a": "「自動洗濯機が人々に〜を与えた」。機械（無生物）が主語で、人々の生活への影響を表す。"
+                        "q": "'more pressure than ever' はどのような表現ですか？",
+                        "a": "「かつてないほどのプレッシャー」。比較級 + than ever = これまでで最も～（最上級的意味）。"
                     },
                     {
-                        "q": "洗濯機が社会に与えた影響を要約してください。",
-                        "a": "家事時間を劇的に削減。特に女性の教育・就業の機会を拡大。インターネット以上の社会的影響と評価。"
+                        "q": "最後の文で筆者は何を警告していますか？",
+                        "a": "他社のニュースをそのまま盗用しないよう注意すべきという警告。前段落のクラークスバーグ紙の盗用事件と同じ過ちを繰り返すなということ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "than any other",
-                    "more time and energy",
-                    "Automatic"
+                    "In order to do so",
+                    "As a result"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "比較のany",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "目的と結果の表現",
                 "practicePassage": {
-                    "en": "[出典: An Extraordinary Machine]\nAutomatic washing machines gave people more time and energy for other activities than any other new technology did. They used some of this extra time and energy to study and teach their children. This, in turn, led to improvements in the quality of everyone's lives in the places where washing machines became common. Even today, many people in the world still wash their clothes by hand. This means that, over the next few decades, washing machines will probably continue to make a big difference to the lives of billions of humans.",
-                    "ja": "自動洗濯機は人々に他の活動のためのより多くの時間とエネルギーを与えた。一部の歴史家は、洗濯機がインターネットを含む他のどの発明よりも社会に大きな影響を与えたと主張している。洗濯機は特に女性の生活を変革し、家事に費やす時間を劇的に減少させた。これにより、多くの女性が教育を受けたり、仕事に就いたりする機会を得ることができた。",
+                    "en": "[出典: Fake News]\nThese days, there is more pressure than ever on newspapers, news programs, and news websites to get more readers, viewers, and visitors. In order to do so, they need to report big news stories as quickly as possible. As a result, they are constantly watching each other to make sure they have the latest stories. However, they need to be careful not to do the same thing that the Clarksburg Daily News did.",
+                    "ja": "最近では、より多くの読者、視聴者、訪問者を獲得するために、新聞、ニュース番組、ニュースサイトへのプレッシャーがかつてないほど高まっている。そうするためには、大きなニュースをできるだけ早く報道する必要がある。その結果、彼らはお互いに最新のニュースを持っているか常に監視し合っている。しかし、クラークスバーグ・デイリー・ニュースがやったのと同じことをしないよう注意する必要がある。",
                     "audioFile": "audio/practice_pp3.mp3"
+                },
+                "importance": "in order to（～するために）は目的、As a result（その結果）は因果関係を示す論理展開の表現。長文の論理構造を理解するうえで不可欠。",
+                "keyExample": {
+                    "en": "In order to do so, they need to report big news stories as quickly as possible.",
+                    "ja": "そうするためには、大きなニュースをできるだけ早く報道する必要がある。",
+                    "source": "Part 2B"
                 }
             },
             {
                 "id": "fp4",
-                "title": "前置詞+名詞のイディオム",
-                "subtitle": "Preposition Idioms",
-                "explanation": "in person(直接)、in charge of(担当して)、at ease(気楽に)など、前置詞+名詞の形で副詞・形容詞として機能するイディオム群。2級では毎回出題される頻出パターン。",
-                "sourceQuote": "Applicants must apply in person. / Jason is in charge of checking.",
-                "sourceLocation": "Part 1 Q16, Q17",
+                "title": "使役構文 make + O + C（OをCにする）",
+                "subtitle": "Causative Construction",
+                "explanation": "make + 目的語 + 補語（形容詞/動詞原形）は「OをCにする/OにCさせる」の使役構文。因果関係の理解に不可欠な構文。",
+                "sourceQuote": "Part 3B: to make drying easier\nPart 3B: to make it clean",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Applicants must apply in person.",
-                        "ja": "応募者は直接申し込まなければならない。",
-                        "note": "in person=直接（郵送やオンラインではなく）"
+                        "en": "The extra water was usually removed to make drying easier.",
+                        "ja": "乾燥をより楽にするために、余分な水は通常取り除かれた。",
+                        "note": "make + O(drying) + C(easier): 「乾燥をより容易にする」"
                     },
                     {
-                        "en": "He is in charge of the project.",
-                        "ja": "彼がプロジェクトの担当だ。",
-                        "note": "in charge of=～を担当して"
+                        "en": "The laundry would have to be hit with pieces of wood to make it clean.",
+                        "ja": "洗濯物をきれいにするために、木の棒で叩かなければならなかった。",
+                        "note": "make + it(O) + clean(C): 「それをきれいにする」"
                     },
                     {
-                        "en": "The students felt at ease during the lesson.",
-                        "ja": "生徒たちはレッスン中リラックスしていた。",
-                        "note": "at ease=気楽に・くつろいで"
+                        "en": "Discovering how to use electricity to power these machines was a challenge.",
+                        "ja": "これらの機械を動かすために電気を使う方法を発見することは、大きな課題であった。",
+                        "note": "how to + 動詞原形: 「～する方法」。discovering が文全体の主語"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'On average' はどのような統計表現ですか？",
-                        "a": "「平均して」。一般化された統計的事実を述べる前置詞句。個人差があるが全体的な傾向を示す。"
+                        "q": "'to make drying easier' の構文を説明してください。",
+                        "a": "to不定詞（目的）+ make(使役) + O(drying) + C(easier)。「乾燥をより容易にするために」。make + O + 形容詞 で「OをCにする」。"
                     },
                     {
-                        "q": "'on top of this' はどのような接続表現ですか？",
-                        "a": "「これに加えて」。前述の情報にさらに追加の事実を重ねる表現。= in addition to this / furthermore。"
+                        "q": "'to make it clean' の 'it' は何を指しますか？",
+                        "a": "洗濯物（the laundry）を指す。「それ（洗濯物）をきれいにするために」。make + it + 形容詞。"
                     },
                     {
-                        "q": "'about one-third of their lives' と 'about 25 percent' の数量表現の違いは？",
-                        "a": "one-third = 分数表現（約33%）、25 percent = パーセント表現。両方とも概数。aboutで概算を示す。"
+                        "q": "洗濯機以前の洗濯の工程を順番に述べてください。",
+                        "a": "①洗濯物を川/湖に運ぶ→②濡らす→③石/砂/せっけんでこすって汚れを落とす→④再び水に入れる→⑤余分な水を取り除く→⑥乾かす。"
                     },
                     {
-                        "q": "人間の睡眠と夢の基本的な統計を要約してください。",
-                        "a": "人生の約1/3を睡眠に費やし、そのうち約25%の時間に夢を見る。夢の意味は古くからの研究テーマ。"
+                        "q": "'Even if people had water in their homes' の 'Even if' はどのような意味ですか？",
+                        "a": "「たとえ～だとしても」。逆接の仮定を表す。家に水があっても結局手洗いの重労働は変わらなかったことを強調。"
                     }
                 ],
                 "highlightPatterns": [
-                    "on top of this",
-                    "one-third of their lives",
-                    "On average"
+                    "to make drying easier",
+                    "to make it clean"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "前置詞イディオム",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "使役構文 make+O+C",
                 "practicePassage": {
-                    "en": "[出典: Living the Dream]\nOn average, people spend about one-third of their lives sleeping, and for about one-quarter of the time that they are asleep, they dream. Although scientists have learned a lot about the parts of people's brains that are involved in dreaming, they are still uncertain about the purpose of dreams. One reason for this is the variety of dreams that people have — they can be pleasant, scary, unusual, or very ordinary. On top of this, they often do not make sense and are mostly forgotten soon after waking up.",
-                    "ja": "平均して、人々は人生の約3分の1を睡眠に費やしており、その約25パーセントの時間に夢を見ている。これに加えて、夢は長い間人々を魅了してきた。なぜ夢を見るのか、夢にはどんな意味があるのかは、古くから議論されてきたテーマである。科学者たちはこの謎を解明するために様々な研究を行ってきた。",
+                    "en": "[出典: An Extraordinary Machine]\nBefore washing machines, clothes and sheets were washed by hand. For most of history, this has involved carrying the laundry to a river or a lake, wetting it, and rubbing it with rocks, sand, or soap to remove the dirt. Then, the laundry had to be put in water again, and the extra water was usually removed to make drying easier. Even if people had water in their homes, the laundry would have to be rubbed against a special board or hit with pieces of wood to make it clean. It was hard work that took a long time.",
+                    "ja": "洗濯機が登場する前は、衣類やシーツは手で洗われていた。歴史のほとんどの期間、これには洗濯物を川や湖に運び、濡らし、石や砂やせっけんでこすって汚れを落とす作業が伴っていた。その後、洗濯物を再び水に入れなければならず、乾燥をより楽にするために余分な水は通常取り除かれた。たとえ家に水があったとしても、洗濯物をきれいにするために専用の板にこすりつけたり、木の棒で叩いたりしなければならなかった。それは長い時間を要する重労働だった。",
                     "audioFile": "audio/practice_pp4.mp3"
+                },
+                "importance": "make + 目的語 + 補語（形容詞/動詞原形）は「OをCにする/OにCさせる」の使役構文。2級の読解で因果関係の理解に不可欠。",
+                "keyExample": {
+                    "en": "The extra water was usually removed to make drying easier.",
+                    "ja": "乾燥をより楽にするために、余分な水は通常取り除かれた。",
+                    "source": "Part 3B"
                 }
             },
             {

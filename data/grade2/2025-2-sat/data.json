@@ -1398,221 +1398,215 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "as a consequence / as a result 結果の表現",
-                "subtitle": "Consequence Expressions",
-                "explanation": "as a consequence / as a result は「その結果として」の意味。前文の原因に対する結果を導く。前置詞asの重要用法の一つ。",
-                "sourceQuote": "As a consequence, there are long waiting times at many hospitals.",
-                "sourceLocation": "Part 1 Q1",
+                "title": "仮定法過去（If + 過去形, S + would V）",
+                "subtitle": "Second Conditional (Unreal Present)",
+                "explanation": "If + S + 過去形, S + would + V原形 は「もし〜なら、…するだろう」と現在の事実に反する仮定を表す。科学的考察で「もし条件が異なれば」と仮想的状況を述べる際に使われる。",
+                "sourceQuote": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "As a consequence, there are long waiting times.",
-                        "ja": "その結果、長い待ち時間が生じている。",
-                        "note": "as a consequence=as a result"
+                        "en": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+                        "ja": "もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
+                        "note": "If there were(仮定法過去) + would perform: 現実にはありえない仮定"
                     },
                     {
-                        "en": "As a result of the storm, flights were cancelled.",
-                        "ja": "嵐の結果、フライトがキャンセルされた。",
-                        "note": "as a result of+名詞"
+                        "en": "It is said that the great distance from Earth and the fuel problems make landing on Mars difficult.",
+                        "ja": "地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われている。",
+                        "note": "It is said that: 非人称受動態。make + O + C: 「〜を困難にする」"
                     },
                     {
-                        "en": "Consequently, the project was delayed.",
-                        "ja": "その結果、プロジェクトが遅れた。",
-                        "note": "consequently=副詞形"
+                        "en": "If I had more time, I would study astronomy.",
+                        "ja": "もっと時間があれば、天文学を勉強するのだが。",
+                        "note": "If + had(過去形) + would study: 現在の事実に反する仮定の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'At first' はどのような時間表現ですか？",
-                        "a": "「初めは」。最初の段階を示す。残り物を使う→やがて本格的な料理に。変化の始点を示す。"
+                        "q": "'If there were more air, it would perform as a cushion' はなぜ仮定法過去ですか？",
+                        "a": "火星には地球の約1%の空気しかないという現実に反する仮定。「もしもっと空気があれば（実際はない）」= 仮定法過去。wereはbe動詞の仮定法形。"
                     },
                     {
-                        "q": "'From then on' はどのような時間の転換ですか？",
-                        "a": "「それ以降」。転換点以降の継続的変化を示す。スモーブローが本格料理として定着。"
+                        "q": "火星への着陸を困難にしている要因を3つ答えてください。",
+                        "a": "①地球からの大きな距離(the great distance from Earth) ②燃料の問題(the fuel problems) ③空気が地球の約1%しかない(only about 1 percent of the amount of air)"
                     },
                     {
-                        "q": "'not just a plate but part of the food' の構文を説明してください。",
-                        "a": "not just A but B。「単なる皿ではなく料理の一部」。パンの役割の再定義。"
+                        "q": "'in order to gather samples' の 'in order to' はどのような意味ですか？",
+                        "a": "「〜するために」目的の不定詞の強調形。= to gather。岩石や土壌からサンプルを集める目的を明示。"
                     },
                     {
-                        "q": "スモーブローの発展を要約してください。",
-                        "a": "産業革命→工場労働者が残り物をパンに→習慣が普及→パンが料理の一部に→デンマークの代表料理。"
+                        "q": "'only about half of all the attempts' は火星探査について何を示していますか？",
+                        "a": "着陸の試みの約半分しか成功しておらず、火星着陸がいかに困難であるかを具体的な数字で示している。"
                     }
                 ],
                 "highlightPatterns": [
-                    "At first",
-                    "From then on",
-                    "Industrial Revolution"
+                    "If there were more air, it would perform as a cushion and slow down the speed"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "結果の接続表現",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "仮定法過去 If...would",
                 "practicePassage": {
-                    "en": "[出典: Smørrebrød]\nThe Industrial Revolution helped Smørrebrød spread all over Denmark. Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient. At first, people gave the bread to animals. Later, they found it delicious, soaked with juice from the toppings. This led to the spread of the idea that the bread was not just a plate but part of the food itself. From then on, Smørrebrød was recognized as an open sandwich.",
-                    "ja": "産業革命はスモーブローをデンマーク全土に広めるのに役立った。工場で働く人々は昼食に家に帰ることができなかったため、初めは前夜の残り物をパンの上にのせて職場に持っていった。この習慣が広まり、それ以降スモーブローは単なるパンの上の食べ物ではなく、パン自体が料理の一部として扱われるようになった。現在ではデンマークの食文化を代表する料理の一つとなっている。",
+                    "en": "[出典: Mars Exploration]\nThese images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+                    "ja": "これらの画像は火星に存在した生命の証拠を得るのに十分ではなかった。代わりに、科学者たちは岩石や土壌からサンプルを集めるために無人宇宙船を火星に送ってきた。しかし、火星への着陸の試みは、これまでのところ約半分しか成功していない。地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われているが、もう一つの問題がある。火星の空気量は地球の約1パーセントしかない。もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "仮定法過去 If there were more air",
-                "subtitle": "Subjunctive Past",
-                "explanation": "If+主語+動詞の過去形, 主語+would/could+原形。現在の事実と異なることを仮定する。wereはbe動詞の仮定法で人称に関係なく使用。",
-                "sourceQuote": "If there were more air, it would perform as a cushion and slow down the speed.",
-                "sourceLocation": "Part 3B paragraph 2",
+                "title": "so...that 結果構文 + Otherwise 仮定法",
+                "subtitle": "Result Clause and Implied Conditional",
+                "explanation": "so + 形容詞/副詞 + that は「あまりに〜なので…」と程度→結果を表す。Otherwise は「さもなければ」と前文の仮定を受けて反事実を述べる暗黙の仮定法。",
+                "sourceQuote": "Their head is so big that it sometimes covers one-third of their body.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "If there were more air, it would perform as a cushion.",
-                        "ja": "もっと空気があれば、クッションとして機能するだろう。",
-                        "note": "仮定法過去: If+were, would+原形"
+                        "en": "Their head is so big that it sometimes covers one-third of their body.",
+                        "ja": "彼らの頭はあまりに大きいので、体の3分の1を占めることもある。",
+                        "note": "so big that: 程度→結果。「あまりに大きいので〜」"
                     },
                     {
-                        "en": "If I were you, I would apply early.",
-                        "ja": "もし私があなたなら、早めに申し込むだろう。",
-                        "note": "If I were you=定型表現"
+                        "en": "Otherwise, they could not push their heads out of the water.",
+                        "ja": "さもなければ、水から頭を突き出すことができないだろう。",
+                        "note": "Otherwise + could not: 暗黙の仮定法。「大きな頭がなければ」という前文を受ける"
                     },
                     {
-                        "en": "If Mars had more air, landing would be easier.",
-                        "ja": "火星にもっと空気があれば、着陸がもっと簡単だろう。",
-                        "note": "事実と逆の仮定"
+                        "en": "The room was so dark that I could barely see anything.",
+                        "ja": "部屋はあまりに暗かったので、ほとんど何も見えなかった。",
+                        "note": "so dark that: so + 形容詞 + that 結果構文の典型"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'If there were more air, it would perform as a cushion' の仮定法過去を説明してください。",
-                        "a": "If + 過去形 + would + 原形。現実と反する仮定。実際は空気が少ない→パラシュートが使えない。"
+                        "q": "'so big that it sometimes covers one-third of their body' の構文を分析してください。",
+                        "a": "so(副詞) + big(形容詞) + that(結果の接続詞) + it covers...。「あまりに大きいので体の1/3を占める」。程度→結果。"
                     },
                     {
-                        "q": "'it is said that there is only about 1 percent' の非人称表現を説明してください。",
-                        "a": "「〜と言われている」。科学的事実を伝えるが、直接的断言を避ける表現。情報源を特定しない。"
+                        "q": "'Otherwise, they could not push their heads out of the water' の 'Otherwise' は何を暗示していますか？",
+                        "a": "「もし大きな頭で氷を突き破れなければ」。前文の「頭で氷を割って呼吸する」の反対の状況を仮定。could not は仮定法のcouldで反事実の不可能を示す。"
                     },
                     {
-                        "q": "'Instead, they needed to land spacecraft on the surface' の 'Instead' は何の代わりですか？",
-                        "a": "画像だけでは不十分→代わりに着陸が必要。Instead = その代わりに。方法の転換。"
+                        "q": "ホッキョククジラが冷たい水の中で暖かく過ごす方法を説明してください。",
+                        "a": "厚い皮膚(thick skin)とその下の脂肪(fat under it)を持っている。これが断熱材の役割を果たす。"
                     },
                     {
-                        "q": "火星着陸の困難さを要約してください。",
-                        "a": "大気が地球の1%→パラシュートが不十分→特別な着陸方法が必要。仮定法で理想と現実の差を説明。"
+                        "q": "ホッキョククジラの大きな頭の重要な役割は何ですか？",
+                        "a": "厚い氷を突き破って呼吸するため(to break through thick ice to breathe)。冷たい海で空気を取り入れるのに不可欠(critical)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "If there were more air",
-                    "it would perform",
-                    "it is said that"
+                    "so big that it sometimes covers one-third of their body",
+                    "Otherwise, they could not push their heads out of the water"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "仮定法",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "so...that / Otherwise",
                 "practicePassage": {
-                    "en": "[出典: Mars Exploration]\nThese images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
-                    "ja": "これらの画像だけでは、火星に存在した生命の証拠を得るには十分ではなかった。代わりに、宇宙船を火星の表面に着陸させる必要があった。しかし、火星の大気は地球の約1パーセントしかないと言われている。もしもっと多くの空気があれば、パラシュートが宇宙船を減速させるクッションの役割を果たすだろう。しかし実際には空気が少なすぎるため、別の着陸方法を考案しなければならなかった。",
+                    "en": "[出典: Animals in the Cold Sea]\nBowhead whales live in the Arctic Ocean. Its water is very cold. To stay warm in the cold water, they have thick skin and fat under it. Their head is so big that it sometimes covers one-third of their body. This large head is critical for taking in air while they swim in the cold sea. They use their head to break through thick ice to breathe. Otherwise, they could not push their heads out of the water.",
+                    "ja": "ホッキョククジラは北極海に生息している。水は非常に冷たい。冷たい水の中で暖かく過ごすために、彼らは厚い皮膚とその下に脂肪を持っている。頭はあまりに大きいので、体の3分の1を占めることもある。この大きな頭は冷たい海で泳ぎながら空気を取り入れるのに不可欠である。彼らは厚い氷を頭で突き破って呼吸する。さもなければ、水から頭を突き出すことができないだろう。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "句動詞 make off / cut down / take one's place",
-                "subtitle": "Phrasal Verbs",
-                "explanation": "動詞+副詞/前置詞の組み合わせで特別な意味になる句動詞。元の動詞の意味とは大きく異なることが多い。2級では毎回複数出題される。",
-                "sourceQuote": "tried to make off with a bag of money / decided to cut down on smoking / took her place",
-                "sourceLocation": "Part 1 Q11-17",
+                "title": "目的の to avoid -ing + 手段の By doing so",
+                "subtitle": "Purpose with Avoidance and Means",
+                "explanation": "to avoid + -ing は「〜されるのを避けるために」と回避目的を表す。By doing so は「そうすることで」と前文の行動を受けて手段・結果を示す。",
+                "sourceQuote": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "The thieves tried to make off with the money.",
-                        "ja": "泥棒たちはお金を持ち逃げしようとした。",
-                        "note": "make off with=持ち逃げする"
+                        "en": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food.",
+                        "ja": "食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。",
+                        "note": "to avoid + being caught(受動動名詞): 「捕まるのを避けるために」"
                     },
                     {
-                        "en": "He decided to cut down on smoking.",
-                        "ja": "彼は喫煙を減らすことにした。",
-                        "note": "cut down on=～を減らす"
+                        "en": "By doing so, they can find their food source easily while avoiding being eaten by fish.",
+                        "ja": "そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。",
+                        "note": "By doing so: 「そうすることで」前文の行動(夜に表面付近に移動)を受ける"
                     },
                     {
-                        "en": "Mr. Smith took her place as department head.",
-                        "ja": "スミス氏が部長の後任になった。",
-                        "note": "take one's place=後任になる"
+                        "en": "She moved to a quieter area to avoid the noise from construction.",
+                        "ja": "工事の騒音を避けるために、より静かな場所に引っ越した。",
+                        "note": "to avoid + 名詞: 回避目的の基本形"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'like a mirror that reflects cultures' の比喩を説明してください。",
-                        "a": "「文化を映し出す鏡のようなもの」。食べ物=鏡。食べ物を通じて文化が見える。simile(直喩)。"
+                        "q": "'to avoid being caught by fish' の構文を分析してください。",
+                        "a": "to avoid(目的の不定詞) + being caught(受動態の動名詞) + by fish(動作主)。「魚に捕まるのを避けるために」。avoidは動名詞を目的語にとる。"
                     },
                     {
-                        "q": "'miss out on' はどのような句動詞ですか？",
-                        "a": "「見逃す、経験し損なう」。miss out on = fail to experience。旅行者への推奨。"
+                        "q": "'By doing so' の 'so' は何を指していますか？",
+                        "a": "前文で述べた行動全体。日中は深い所にとどまり、午後に上昇し、夜は表面付近にとどまるという移動パターン。"
                     },
                     {
-                        "q": "'end up with' はどのような結果を示しますか？",
-                        "a": "「最終的に〜になる」。end up with = eventually have/get。予期せぬまたは最終的な結果。"
+                        "q": "プランクトンが日中に海の深い部分にとどまる理由は何ですか？",
+                        "a": "視覚に頼って食料を見つける魚に捕まるのを避けるため。深い部分は暗いので視覚に頼る魚から逃れやすい。"
                     },
                     {
-                        "q": "食べ物と文化の関係を要約してください。",
-                        "a": "食べ物は文化を映す鏡。伝統料理で歴史や価値観を理解。旅行者は地元料理で文化的理解を深められる。"
+                        "q": "'while avoiding being eaten by fish' の 'while' はどのような意味ですか？",
+                        "a": "「〜しながら」同時進行。食料源を見つける(目的)とfish に食べられるのを避ける(回避)を同時に達成。"
                     }
                 ],
                 "highlightPatterns": [
-                    "like a mirror",
-                    "reflects cultures",
-                    "miss out on"
+                    "to avoid being caught by fish",
+                    "By doing so, they can find their food source easily while avoiding being eaten by fish"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "句動詞",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "to avoid / By doing so",
                 "practicePassage": {
-                    "en": "[出典: Smørrebrød]\nFood is like a mirror that reflects cultures. If people look at the food of a country or a region, they are more likely to understand the community, what people like, and how people live. The ingredients and how they are cooked and eaten show the lifestyles of the people. This is probably why many people like to enjoy local food when they travel. In short, when travelers skip local food, they often miss out on a deeper cultural experience and end up with only a limited understanding of the culture.",
-                    "ja": "食べ物はその国の文化を映し出す鏡のようなものだ。ある国の食べ物を見れば、その国の歴史や価値観について多くのことがわかる。旅行者はその土地の伝統料理を見逃すべきではない。なぜなら、地元の料理を試すことで、ガイドブックでは得られない文化的理解が深まるからだ。伝統料理を体験することは、その国の人々の生活様式や考え方に触れる最良の方法の一つである。",
+                    "en": "[出典: Animals in the Cold Sea]\nPlankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea. They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food. Plankton start to move up in the afternoon. They stay near the surface of the ocean at night. By doing so, they can find their food source easily while avoiding being eaten by fish. They eat other even smaller creatures that float around there.",
+                    "ja": "プランクトンは海に住む小さな生物で、ホッキョククジラの餌である。海の中で上下に移動する。食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。プランクトンは午後に上昇し始める。夜は海の表面付近にとどまる。そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。彼らはその辺りに漂うさらに小さな生物を食べる。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "not just A but (also) B / not only A but B",
-                "subtitle": "Not Just...But Also Pattern",
-                "explanation": "「AだけでなくBも」を表す重要構文。この構文が正解の根拠になることが多い。文全体の論理構造を把握するのに必須。",
-                "sourceQuote": "the bread was not just a plate but part of the food itself",
-                "sourceLocation": "Part 2B paragraph 3",
+                "title": "間接疑問文（how / why / whether）",
+                "subtitle": "Indirect Questions as Noun Clauses",
+                "explanation": "how + S + V / why + S + V / whether + S + V はそれぞれ「どのように〜か/なぜ〜か/〜かどうか」を表す名詞節。動詞の目的語として使われ、長文の論点や研究目的を示す。",
+                "sourceQuote": "We can study how it differed from life on Earth and why it disappeared.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The bread was not just a plate but part of the food itself.",
-                        "ja": "パンは単なる皿ではなく料理の一部だった。",
-                        "note": "not just A but B=AだけでなくBも"
+                        "en": "We can study how it differed from life on Earth and why it disappeared.",
+                        "ja": "それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。",
+                        "note": "how + S + V と why + S + V: 2つの間接疑問が並列で studyの目的語"
                     },
                     {
-                        "en": "The ingredients and how they are cooked show the lifestyles.",
-                        "ja": "材料と調理法がライフスタイルを示す。",
-                        "note": "A and B パターンでの並列"
+                        "en": "If we discover evidence of past life on Mars, we can study how it differed from life on Earth.",
+                        "ja": "もし火星で過去の生命の証拠を発見すれば、地球の生命との違いを研究できる。",
+                        "note": "If + 現在形 + can: 条件節。将来実現可能な仮定。"
                     },
                     {
-                        "en": "Mars is not only similar to Earth but may support life.",
-                        "ja": "火星は地球に似ているだけでなく、生命を支える可能性がある。",
-                        "note": "not only...but also"
+                        "en": "Scientists want to know whether life ever existed on Mars.",
+                        "ja": "科学者たちは火星に生命が存在したかどうかを知りたがっている。",
+                        "note": "whether + S + V: 「〜かどうか」間接疑問文"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'not limited to hobbies and lifestyle habits' の 'not limited to' を説明してください。",
-                        "a": "「趣味や生活習慣に限定されない」。not limited to = 〜に限らない。マッチング基準の幅広さ。"
+                        "q": "'how it differed from life on Earth and why it disappeared' の構文を分析してください。",
+                        "a": "how + it differed(間接疑問1) + and + why + it disappeared(間接疑問2)。studyの目的語として2つの間接疑問文が並列。「どのように異なった か」と「なぜ消滅したか」。"
                     },
                     {
-                        "q": "'take into consideration what you like' の意味を説明してください。",
-                        "a": "「あなたの好みを考慮する」。take into consideration = consider。間接疑問what you like。"
+                        "q": "火星探査に興味を持つ主な理由は何ですか？",
+                        "a": "生命がどのように始まったかを理解するため(we hope to understand how life began)。火星で生命の痕跡を調べることで地球の生命への理解が深まる。"
                     },
                     {
-                        "q": "'If you decide to have a roommate' の条件節を説明してください。",
-                        "a": "「ルームメイトを持つことに決めた場合」。If + 現在形 = 現実的な条件。選択肢の提示。"
+                        "q": "'Our interest in Mars did not start just recently' はどのような情報を導入していますか？",
+                        "a": "火星への関心の歴史的背景。17世紀のガリレオから1965年のマリナー4号まで、長い歴史があることを示し、最近の取り組みではないことを強調。"
                     },
                     {
-                        "q": "住居マッチングの仕組みを要約してください。",
-                        "a": "好み・趣味・生活習慣+学習スタイルを考慮。詳細アンケートで相性判断。途中変更も可能。"
+                        "q": "'successfully took twenty-two images' で使われる 'successfully' はどのような役割ですか？",
+                        "a": "副詞。画像を撮影できたことが大きな成果であったことを強調。当時の技術では火星の画像撮影自体が困難な偉業だった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "not limited to",
-                    "take into consideration",
-                    "what you like"
+                    "how it differed from life on Earth and why it disappeared"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "not just...but構文",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "間接疑問文",
                 "practicePassage": {
-                    "en": "[出典: Housing Options]\nIf you decide to have a roommate, we will take into consideration what you like. We do this so that we can make sure all of our students can live comfortably. Things we consider include whether you are a morning person, what your hobbies are, and what language you would like to speak, but are not limited to these. Also, please note that different housing units have different amenities. Some units have a kitchen, others have a shared one on each floor, and there are also buildings without a kitchen.",
-                    "ja": "ルームメイトを持つことに決めた場合、あなたの好みを考慮する。マッチングは趣味や生活習慣に限定されず、学習スタイルや静かさの好みなども考慮される。できるだけ快適な生活環境を提供するために、詳細なアンケートへの回答をお願いしている。ルームメイトとの相性が良くない場合は、学期の途中でも変更を申請することができる。私たちの目標は、すべての学生が安心して勉強に集中できる住環境を整えることだ。",
+                    "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+                    "ja": "火星探査に興味を持つ理由の一つは、生命がどのように始まったかを理解したいということである。火星は地球に似た惑星である。もし火星で過去の生命の証拠を発見すれば、それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。火星への関心は最近始まったものではない。17世紀にガリレオ・ガリレイが手製の望遠鏡で火星を観察した。約350年後の1965年、NASAの宇宙船マリナー4号が火星の近くを飛行し、22枚の火星の画像を撮影することに成功した。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

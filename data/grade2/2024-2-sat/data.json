@@ -1358,221 +1358,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "使役動詞と知覚動詞の構文",
-                "subtitle": "Causative & Perception Verb Patterns",
-                "explanation": "P3Bのブルース音楽の発展を描く文章で使用される make+O+V/have+O+V構文や、let+O+Vの構文を整理する。感情を「人にAさせる」表現は2級頻出。",
-                "sourceQuote": "the music made people feel strong emotions\nBlues musicians let their feelings come through in their songs",
-                "sourceLocation": "Part 3B 全体",
+                "title": "形式主語 It + be + C + to V",
+                "subtitle": "Introductory It with Infinitive",
+                "explanation": "It is/was/became + 形容詞 + to V は「Vすることは〜だ」。真の主語はto以下で、形式主語itが文頭に置かれる。長文で状況の評価・判断を述べる際に頻出。",
+                "sourceQuote": "As more people needed food, it became more and more difficult to feed everyone with traditional farming.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "The sad melody made the audience feel emotional.",
-                        "ja": "悲しいメロディが観客を感動させた。",
-                        "note": "make + O + V原形 = OにVさせる（強制・自然とそうなる）"
+                        "en": "As more people needed food, it became more and more difficult to feed everyone with traditional farming.",
+                        "ja": "より多くの人が食料を必要としたため、従来の農業では全員を養うことがますます困難になった。",
+                        "note": "it became + more and more difficult + to feed: 形式主語+比較級の反復で困難さの増大を表現"
                     },
                     {
-                        "en": "The café lets customers borrow books for free.",
-                        "ja": "カフェは客に無料で本を借りさせてくれる。",
-                        "note": "let + O + V原形 = OにVすることを許す"
+                        "en": "It is likely that the new interest in floriography shows people are looking for more personal ways to express feelings.",
+                        "ja": "花言葉への新しい関心は、人々がより個人的な感情表現の方法を求めていることを示している可能性が高い。",
+                        "note": "It is likely that: 形式主語+that節。「〜する可能性が高い」"
                     },
                     {
-                        "en": "She had her assistant prepare the report.",
-                        "ja": "彼女はアシスタントに報告書を準備させた。",
-                        "note": "have + O + V原形 = OにVしてもらう（依頼）"
+                        "en": "It is important to understand both sides of the argument.",
+                        "ja": "議論の両面を理解することが重要だ。",
+                        "note": "It is + 形容詞 + to V: 最も基本的な形式主語構文"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'strict rules that limited the way people expressed their feelings' の使役的意味を説明してください。",
-                        "a": "「感情表現の方法を制限する厳しい規則」。rules が主語で人々の行動を制約。社会規範が感情表現を制約した。"
+                        "q": "'it became more and more difficult to feed everyone' の構文を分析してください。",
+                        "a": "it(形式主語) + became(V) + more and more difficult(C: 比較級反復) + to feed everyone(真の主語)。「全員を養うことがますます困難になった」。"
                     },
                     {
-                        "q": "'in order to express their feelings' の目的表現を説明してください。",
-                        "a": "「感情を表現するために」。in order to = 〜するために。目的を明確に示す副詞的用法のto不定詞。"
+                        "q": "'more and more difficult' はどのような表現ですか？",
+                        "a": "比較級の反復。「ますます〜」と程度が徐々に増すことを表す。= increasingly difficult。"
                     },
                     {
-                        "q": "'too personal to say openly' の too...to 構文を説明してください。",
-                        "a": "「あまりに個人的で公に言えない」。too + 形容詞 + to不定詞 = 〜すぎて…できない。"
+                        "q": "緑の革命で科学者が開発したものを3つ答えてください。",
+                        "a": "①より多くの作物を生産する種子(seeds that produced more crops) ②植物の成長を助ける化学物質 ③害虫を駆除する化学物質(chemicals that got rid of insects)"
                     },
                     {
-                        "q": "19世紀イギリスの感情表現の制約を要約してください。",
-                        "a": "社会の厳格な規則が感情の直接表現を制限。特に恋愛感情は公に語れず、間接的手段が必要だった。"
+                        "q": "'This effort is known as the Green Revolution' の 'is known as' はどのような表現ですか？",
+                        "a": "「〜として知られている」。受動態+as。This effort（この取り組み）が「緑の革命」と呼ばれていることを示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "strict rules",
-                    "to express",
-                    "in order to"
+                    "it became more and more difficult to feed everyone with traditional farming"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "使役・知覚",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "形式主語 It...to V",
                 "practicePassage": {
-                    "en": "[出典: The Secret Language of Flowers]\nIn the nineteenth century in the United Kingdom, society had strict rules that told people how they should behave. These included rules about how to dress, how to eat, and how to speak properly. One of the most important rules was about not showing emotions openly. People thought it was not right to express feelings too much, especially in public. Because of this, people had to find other ways to share how they felt in order to respect society's rules.",
-                    "ja": "19世紀のイギリスでは、社会には人々が自分の感情を表現する方法を制限する厳しい規則があった。個人的な気持ちを直接言葉にすることは、特に公の場では適切でないとされていた。そのため、人々は感情を伝えるために間接的な方法を見つける必要があった。特に恋愛感情を表現することは難しく、社会的な体面を保ちながら気持ちを伝える創造的な手段が求められていた。",
+                    "en": "[出典: Green Revolution]\nAfter World War II, the world's population grew quickly. As more people needed food, it became more and more difficult to feed everyone with traditional farming. In countries like India and the Philippines, where population growth was a big challenge, they looked for better ways to produce food. This effort is known as the Green Revolution. During this revolution, scientists developed seeds that produced more crops, chemicals that helped plants grow, and chemicals that got rid of insects. These quickly began to be used all over the world.",
+                    "ja": "第二次世界大戦後、世界の人口は急速に増加した。より多くの人が食料を必要としたため、従来の農業では全員を養うことがますます困難になった。インドやフィリピンなど人口増加が大きな課題であった国々では、食料をより効率的に生産する方法を模索した。この取り組みは緑の革命として知られている。この革命の間に、科学者たちはより多くの作物を生産する種子、植物の成長を助ける化学物質、害虫を駆除する化学物質を開発した。これらはすぐに世界中で使われ始めた。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "同格表現と名詞の言い換え",
-                "subtitle": "Appositives & Noun Phrase Restatement",
-                "explanation": "P2Aの花言葉の文章やP3Bのブルース音楽の文章で、名詞の直後にカンマで追加情報を付ける同格表現が多用される。これは長文読解の理解に直結する重要構文。",
-                "sourceQuote": "floriography, the language of flowers, was a popular way to communicate\nthe Delta region, an area in the southern United States",
-                "sourceLocation": "Part 2A, Part 3B",
+                "title": "結果の分詞構文（resulting in / -ing）",
+                "subtitle": "Participial Clause of Result",
+                "explanation": "resulting in / 文末の -ing は「その結果〜になる」と前文の帰結を述べる分詞構文。長文の因果関係の把握に重要。not only A but also B との組み合わせも頻出。",
+                "sourceQuote": "Over time, the music has spread to different parts of the country, resulting in various types of blues music.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Floriography, the language of flowers, was popular in the Victorian era.",
-                        "ja": "花言葉、すなわち花の言葉は、ビクトリア朝時代に人気だった。",
-                        "note": "名詞, 同格の名詞句, = カンマで囲んで説明を追加"
+                        "en": "Over time, the music has spread to different parts of the country, resulting in various types of blues music.",
+                        "ja": "時が経つにつれ、この音楽は国の様々な地域に広がり、その結果、多様な種類のブルース音楽が生まれた。",
+                        "note": "resulting in: 「その結果〜になった」結果の分詞構文"
                     },
                     {
-                        "en": "The Delta, an area in the southern United States, gave birth to the blues.",
-                        "ja": "アメリカ南部の地域であるデルタからブルースが生まれた。",
-                        "note": "固有名詞の後に同格で地理的説明を追加"
+                        "en": "Blues is not only about unhappy feelings. Instead, it is also about not giving up in difficult times.",
+                        "ja": "ブルースは不幸な感情だけのものではない。むしろ、困難な時でも諦めないことでもある。",
+                        "note": "not only A. Instead, it is also B: AだけでなくBでもある。Insteadで追加情報"
                     },
                     {
-                        "en": "Barbara, the library director, announced the new service.",
-                        "ja": "図書館長のバーバラが新しいサービスを発表した。",
-                        "note": "人名+同格で肩書を追加"
+                        "en": "The heavy rain flooded the streets, causing major traffic delays.",
+                        "ja": "大雨が通りを浸水させ、その結果、大規模な交通渋滞が発生した。",
+                        "note": "causing: 結果の分詞構文。= and it caused"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'floriography, or the language of flowers' の同格表現を説明してください。",
-                        "a": "「フロリオグラフィー、つまり花言葉」。or で専門用語とその説明を並べる同格。読者の理解を助ける。"
+                        "q": "'resulting in various types of blues music' の 'resulting in' はどのような用法ですか？",
+                        "a": "結果の分詞構文。= and this resulted in。前文（音楽が広がった）の結果として「多様なブルースが生まれた」。"
                     },
                     {
-                        "q": "'a special method of sharing feelings was used' の受動態はどのような時代背景ですか？",
-                        "a": "「感情を共有する特別な方法が使われた」。19世紀イギリスの文化的慣習を客観的に叙述する受動態。"
+                        "q": "ブルースは「不幸な感情だけのもの」ではないと筆者は述べています。他に何を表していますか？",
+                        "a": "困難な時でも諦めないこと（not giving up in difficult times）。ブルースには希望や粘り強さのメッセージもある。"
                     },
                     {
-                        "q": "'became very popular during the Victorian era' の 'became' はどのような変化ですか？",
-                        "a": "「ビクトリア朝時代に非常に人気になった」。状態の変化を示す。流行の始まりと広がり。"
+                        "q": "'They sang to share their sad feelings and express the difficulties' の 'to share' と 'express' はどのような用法ですか？",
+                        "a": "目的の不定詞。「悲しい気持ちを分かち合い、困難を表現するために」歌った。to share と(to) express が並列。"
                     },
                     {
-                        "q": "フロリオグラフィーの仕組みを要約してください。",
-                        "a": "花に特定の意味を持たせるシステム。花束で感情を表現。赤いバラ=愛、白いユリ=純潔。解説本も出版。"
+                        "q": "'who were going through tough times' の 'go through' はどのような意味ですか？",
+                        "a": "「〜を経験する、乗り越える」。句動詞。困難な時期を体験していたアフリカ系アメリカ人を修飾する関係詞節。"
                     }
                 ],
                 "highlightPatterns": [
-                    "floriography",
-                    "the language of flowers",
-                    "became"
+                    "resulting in various types of blues music"
                 ],
-                "highlightColor": "#a78bfa",
-                "highlightLabel": "同格表現",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "結果の分詞構文",
                 "practicePassage": {
-                    "en": "[出典: The Secret Language of Flowers]\nDuring this time, a special method of sharing feelings was used. This method was called \"floriography,\" which means the language of flowers. Each flower had its own meaning, which let people send secret messages that could share love, friendship, or even a hidden dislike without saying anything. For example, giving someone red flowers could mean deep love, while giving yellow flowers might show disappointment or not being happy with someone. This became a useful way for British people at that time to share their feelings without going against social rules.",
-                    "ja": "この時期、感情を共有するための特別な方法が使われていた。この方法は「花言葉」、つまりフロリオグラフィーと呼ばれるものだった。花言葉は花に特定の意味を持たせるシステムで、花束を贈ることで言葉では伝えにくい感情を表現することができた。例えば、赤いバラは情熱的な愛を意味し、白いユリは純潔を象徴した。花言葉はビクトリア朝時代に非常に人気を博し、花の意味を解説する本も多数出版された。",
+                    "en": "[出典: Blues]\nBlues is a type of music that started in the southern part of the United States over one hundred years ago. It was made by African Americans who were going through tough times. They sang to share their sad feelings and express the difficulties they were having. However, blues is not only about unhappy feelings. Instead, it is also about not giving up in difficult times. Over time, the music has spread to different parts of the country, resulting in various types of blues music.",
+                    "ja": "ブルースは100年以上前にアメリカ南部で生まれた音楽の一種である。困難な時期を乗り越えようとしていたアフリカ系アメリカ人によって作られた。彼らは悲しい気持ちを分かち合い、経験している困難を表現するために歌った。しかし、ブルースは不幸な感情だけのものではない。むしろ、困難な時でも諦めないことでもある。時が経つにつれ、この音楽は国の様々な地域に広がり、その結果、多様な種類のブルース音楽が生まれた。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "目的・結果を表す構文",
-                "subtitle": "Purpose & Result Clauses",
-                "explanation": "P2A/2Bの文章で頻出する so that / in order to / enough to / too...to などの目的・結果構文を整理する。読解で因果関係を把握するために不可欠。",
-                "sourceQuote": "People used flowers so that they could express feelings\nThe revolution produced enough food to feed millions\nFarmers were too poor to buy modern seeds",
-                "sourceLocation": "Part 2A・2B",
+                "title": "目的の so that + 手段の by -ing",
+                "subtitle": "Purpose and Means Expressions",
+                "explanation": "so that + S + could は「〜できるように」と目的を表す。by -ing は「〜することによって」と手段を表す。Instead of + -ing は「〜する代わりに」。行動の理由と方法を理解するのに重要。",
+                "sourceQuote": "They started to use electric guitars so that more people in crowded, noisy indoor environments could hear them.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "People used flowers so that they could express forbidden feelings.",
-                        "ja": "人々は禁じられた感情を表現するために花を使った。",
-                        "note": "so that S can/could V = SがVできるように（目的）"
+                        "en": "They started to use electric guitars so that more people in crowded, noisy indoor environments could hear them.",
+                        "ja": "混雑した騒がしい室内環境でより多くの人が聞こえるように、彼らはエレキギターを使い始めた。",
+                        "note": "so that + S + could: 「〜できるように」目的の副詞節"
                     },
                     {
-                        "en": "The new methods produced enough food to feed millions.",
-                        "ja": "新しい方法は何百万人もの人を養えるだけの食料を生産した。",
-                        "note": "enough + 名詞 + to V = Vするのに十分な～"
+                        "en": "Instead of singing about the difficulties of life on farms, they began to sing about everyday city life.",
+                        "ja": "農場生活の困難について歌う代わりに、日常の都市生活について歌い始めた。",
+                        "note": "Instead of + -ing: 「〜する代わりに」代替・対比"
                     },
                     {
-                        "en": "In order to increase crop yields, scientists developed new varieties.",
-                        "ja": "収穫量を増やすために、科学者は新品種を開発した。",
-                        "note": "in order to V = Vするために（to不定詞より明確な目的表現）"
+                        "en": "By sliding it along the guitar strings, they make special sounds.",
+                        "ja": "それをギターの弦に沿って滑らせることで、特別な音を出す。",
+                        "note": "By + -ing: 「〜することによって」手段の表現"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'to feed the growing population' の目的のto不定詞を説明してください。",
-                        "a": "「増加する人口を養うために」。新しい作物開発の目的。to + 動詞の原形で目的を明示。"
+                        "q": "'so that more people ... could hear them' の 'so that' は何を表していますか？",
+                        "a": "目的。「より多くの人が聞こえるように」エレキギターを使い始めた。so that + could で過去の目的を表す。"
                     },
                     {
-                        "q": "'it became more difficult to feed' の形式主語を説明してください。",
-                        "a": "It（形式主語）= to feed...（真主語）。「養うことがより困難になった」。difficult の後にto不定詞。"
+                        "q": "'Instead of singing about the difficulties of life on farms' と対比されている内容は何ですか？",
+                        "a": "日常の都市生活について歌うこと（began to sing about everyday city life）。農場 → 都市という歌のテーマの変化。"
                     },
                     {
-                        "q": "'After World War II' はどのような時間的文脈を示しますか？",
-                        "a": "「第二次世界大戦後」。戦後の人口爆発という歴史的背景を設定。緑の革命の原因となった時代。"
+                        "q": "アフリカ系アメリカ人が北部の都市に移住した理由を2つ答えてください。",
+                        "a": "①仕事の機会を求めて(in search of job opportunities) ②より良い生活を求めて(a better life)。"
                     },
                     {
-                        "q": "緑の革命が必要になった背景を要約してください。",
-                        "a": "戦後の人口急増→食料不足→科学者が高収量品種を開発→世界の食料生産が劇的に変化。"
+                        "q": "エレキギターの使用がシカゴブルースにとって重要な理由は何ですか？",
+                        "a": "混雑した騒がしい室内環境で音が届くようにするため。エレキギターの使用はシカゴブルースの象徴(symbol)となった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "to feed",
-                    "population grew",
-                    "more difficult"
+                    "so that more people in crowded, noisy indoor environments could hear them",
+                    "Instead of singing about the difficulties of life on farms"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "目的・結果",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "so that / by -ing",
                 "practicePassage": {
-                    "en": "[出典: Green Revolution]\nAfter World War II, the world's population grew quickly. As more people needed food, it became more and more difficult to feed everyone with traditional farming. In countries like India and the Philippines, where population growth was a big challenge, they looked for better ways to produce food. This effort is known as the Green Revolution. During this revolution, scientists developed seeds that produced more crops, chemicals that helped plants grow, and chemicals that got rid of insects. These quickly began to be used all over the world.",
-                    "ja": "第二次世界大戦後、世界の人口は急速に増加した。その結果、増加する人口を養うことがより困難になった。科学者たちは収穫量を増やすために新しい種類の作物を開発し始めた。この取り組みは「緑の革命」と呼ばれるようになり、世界の食料生産を劇的に変えることになった。新しい品種の作物は従来のものよりもはるかに多くの収穫をもたらした。",
+                    "en": "[出典: Blues]\nIn the twentieth century, many African Americans on southern farms moved to northern cities, including Chicago, in search of job opportunities and a better life. They brought blues music with them but hoped to create something new. Instead of singing about the difficulties of life on farms, they began to sing about everyday city life. They started to use electric guitars so that more people in crowded, noisy indoor environments could hear them. The use of electric guitars became a symbol of Chicago blues.",
+                    "ja": "20世紀に、南部の農場にいた多くのアフリカ系アメリカ人が、仕事の機会とより良い生活を求めてシカゴを含む北部の都市に移り住んだ。彼らはブルース音楽を持ち込んだが、何か新しいものを作りたいと望んでいた。農場生活の困難について歌う代わりに、日常の都市生活について歌い始めた。混雑した騒がしい室内環境でより多くの人が聞こえるように、エレキギターを使い始めた。エレキギターの使用はシカゴブルースの象徴となった。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "時制の使い分けと歴史叙述",
-                "subtitle": "Tense Usage in Historical Narrative",
-                "explanation": "P3Bのブルース音楽の歴史では、過去形・過去完了形・現在完了形が織り交ぜて使われる。歴史的事実の叙述における時制の使い分けを理解する。",
-                "sourceQuote": "Blues music originated in the Delta region.\nBy the 1940s, the style had spread to cities.\nToday, blues has influenced many genres of modern music.",
-                "sourceLocation": "Part 3B 全体",
+                "title": "提案の that 節（recommend/suggest + that S + V原形）",
+                "subtitle": "Subjunctive in Suggestion Clauses",
+                "explanation": "recommend/suggest/propose + that + S + V原形は、提案・要求・推薦を表す仮定法現在。shouldが省略された形でフォーマルな文章に多い。",
+                "sourceQuote": "Some people promote a movement that recommends that people follow four 'rights.'",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "Blues music originated in the Mississippi Delta in the late 1800s.",
-                        "ja": "ブルース音楽は1800年代後半にミシシッピデルタで生まれた。",
-                        "note": "過去形 = 過去の具体的時点の出来事（歴史的事実）"
+                        "en": "Some people promote a movement that recommends that people follow four 'rights.'",
+                        "ja": "一部の人はは4つの「正しいこと」に従うことを推奨する運動を推進している。",
+                        "note": "recommends that people follow: 提案のthat節。followは原形（shouldの省略）"
                     },
                     {
-                        "en": "By the 1940s, blues had spread to major cities like Chicago.",
-                        "ja": "1940年代までに、ブルースはシカゴなどの大都市に広まっていた。",
-                        "note": "過去完了 had + p.p. = ある過去の時点までに完了していた出来事"
+                        "en": "This helps prevent farmers from adding more nitrogen where there is already enough.",
+                        "ja": "これにより、すでに十分な窒素がある場所に農家がさらに窒素を加えるのを防ぐのに役立つ。",
+                        "note": "prevent + O + from + -ing: 「Oが〜するのを防ぐ」"
                     },
                     {
-                        "en": "Today, blues has influenced many genres of modern music.",
-                        "ja": "今日、ブルースは多くの現代音楽のジャンルに影響を与えている。",
-                        "note": "現在完了 has + p.p. = 過去から現在まで続く影響"
+                        "en": "The doctor suggested that she take a week off work.",
+                        "ja": "医師は彼女に1週間仕事を休むよう提案した。",
+                        "note": "suggested that she take(原形): 仮定法現在。takesではなくtake。"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'moved to northern cities' の過去形はどのような歴史的出来事ですか？",
-                        "a": "「北部の都市に移住した」。20世紀の大移動（Great Migration）。過去の完了した出来事を示す過去形。"
+                        "q": "'recommends that people follow four rights' の 'follow' はなぜ原形ですか？",
+                        "a": "提案のthat節（仮定法現在）。recommend/suggest/propose + that + S + V原形。followsではなくfollow。should followのshouldが省略された形。"
                     },
                     {
-                        "q": "'so that the music could reach audiences' の目的のso thatを説明してください。",
-                        "a": "「音楽が聴衆に届くように」。電気楽器を使う目的。so that + could = 可能にするため。"
+                        "q": "4つの「正しいこと」(rights)を全て答えてください。",
+                        "a": "①正しい化学物質(the right chemicals) ②正しい量(the right amount) ③正しい時期(the right time) ④正しい場所(the right place)"
                     },
                     {
-                        "q": "'created a new style using electric instruments' の時制を説明してください。",
-                        "a": "過去形。北部移住後に新スタイルが「生まれた」。歴史的事実としての過去の出来事。"
+                        "q": "AIは農業でどのように役立っていますか？",
+                        "a": "土地全体に均等に窒素を撒く代わりに、各植物が必要な窒素量を検出し、過剰な窒素の散布を防いでいる。"
                     },
                     {
-                        "q": "ブルースが北部で変化した過程を要約してください。",
-                        "a": "南部から北部都市に移住→大会場で演奏→電気楽器を導入→シカゴブルースという新スタイルが誕生。"
+                        "q": "'Instead of spreading equal amounts of nitrogen across the land' の 'Instead of' は何と対比していますか？",
+                        "a": "AI導入後の方法（各植物の窒素必要量を個別に検出すること）と対比。従来の均一散布→AIによる個別最適化。"
                     }
                 ],
                 "highlightPatterns": [
-                    "moved to",
-                    "northern cities",
-                    "so that"
+                    "recommends that people follow four"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "時制・歴史叙述",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "提案のthat節",
                 "practicePassage": {
-                    "en": "[出典: Blues]\nIn the twentieth century, many African Americans on southern farms moved to northern cities, including Chicago, in search of job opportunities and a better life. They brought blues music with them but hoped to create something new. Instead of singing about the difficulties of life on farms, they began to sing about everyday city life. They started to use electric guitars so that more people in crowded, noisy indoor environments could hear them. The use of electric guitars became a symbol of Chicago blues.",
-                    "ja": "20世紀に入り、南部の農場にいた多くのアフリカ系アメリカ人が北部の都市に移住した。彼らは新しい環境でもブルースを演奏し続けたが、大きなクラブや会場でも聴衆に音楽が届くように、電気楽器を使い始めた。ギターやハーモニカが電気的に増幅され、より力強いサウンドが生まれた。この新しいスタイルはシカゴブルースとして知られるようになり、都市の音楽文化の中心となった。",
+                    "en": "[出典: Green Revolution]\nNowadays, to reduce the impact on the environment, some people promote a movement that recommends that people follow four \"rights.\" It encourages people to use the right chemicals in the right amount, at the right time, and in the right place. In some areas, AI has been introduced to help people do this. Instead of spreading equal amounts of nitrogen across the land where crops are grown, AI detects how much nitrogen each plant needs at all times. This helps prevent farmers from adding more nitrogen where there is already enough.",
+                    "ja": "現在、環境への影響を減らすため、4つの「正しいこと」に従うことを推奨する運動を推進している人々がいる。正しい化学物質を、正しい量で、正しい時期に、正しい場所で使うことを奨励している。一部の地域では、これを実現するためにAIが導入されている。作物が育つ土地全体に均等な量の窒素を散布する代わりに、AIが各植物が常にどれだけの窒素を必要としているかを検出する。これにより、すでに十分な窒素がある場所に農家がさらに窒素を加えるのを防ぐのに役立つ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },

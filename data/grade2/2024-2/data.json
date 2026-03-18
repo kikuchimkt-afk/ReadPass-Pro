@@ -1724,223 +1724,218 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "分詞構文（現在分詞・過去分詞の副詞的用法）",
-                "subtitle": "Participial Phrases",
-                "explanation": "分詞構文は、現在分詞(-ing)や過去分詞(-ed)を使って副詞的に情報を追加する表現です。主節の前後に置かれ、時・理由・付帯状況を表します。文が簡潔になり、英検長文で頻出します。",
-                "sourceQuote": "Part 2A: \"showing how these spaces have changed\"\nPart 2B: \"Having too many satellites\"\nPart 3B: \"the act of opening their mouths when they were sleepy\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
+                "title": "強調構文 It is/was ... that",
+                "subtitle": "Cleft Sentence for Emphasis",
+                "explanation": "It is/was + 強調部分 + that... は「〜なのは…だ」と特定の要素を強調する構文。情報の焦点を明確にし、論理展開を理解する際に重要。It is said that（非人称受動態）との区別も必要。",
+                "sourceQuote": "At first, it was only countries that developed and used satellites.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "Nowadays, they offer a quiet place for work or a casual place to meet, showing how these spaces have changed but still bring people together.",
-                        "ja": "現在では、仕事のための静かな場所やカジュアルな待ち合わせの場所を提供しており、これらの空間がいかに変化しつつも人々を結びつけ続けているかを示している。",
-                        "note": "showing = 分詞構文で「結果・付帯状況」を表す"
+                        "en": "At first, it was only countries that developed and used satellites.",
+                        "ja": "最初に衛星を開発し使用したのは国家だけだった。",
+                        "note": "It was + only countries + that: 「国家だけだった」と限定を強調"
                     },
                     {
-                        "en": "Having too many satellites not only makes them more likely to accidentally run into each other but also causes problems.",
-                        "ja": "衛星が多すぎると、互いに衝突する可能性が高くなるだけでなく問題も生じる。",
-                        "note": "Having = 動名詞が主語の位置（分詞構文的な用法）"
+                        "en": "However, it is said that there are too many satellites going around the earth these days.",
+                        "ja": "しかし、最近は地球を周回する衛星が多すぎると言われている。",
+                        "note": "It is said that: 非人称受動態。強調構文ではなく「〜と言われている」"
                     },
                     {
-                        "en": "Walking through the park, she noticed the cherry blossoms.",
-                        "ja": "公園を歩いていると、桜に気づいた。",
-                        "note": "Walking = 分詞構文で「～しながら」（同時進行）"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Coffee Culture]\nEach coffee house had its own character. This attracted different people depending on the house's location and the topics that customers were interested in discussing. People with a variety of backgrounds could find a place to talk and be listened to. This created a new style of communication in which the speakers were equal. However, though these gatherings sometimes included women, the people who usually came were men.",
-                    "ja": "各コーヒーハウスには独自の特徴があった。これにより、店の場所や客が関心を持って議論するトピックに応じて、異なる人々が集まった。しかし、こうした集まりには時に女性も参加したが、通常来店するのは男性であった。コーヒーハウスでは新しいスタイルのコミュニケーションが発達し、話し手が聴衆に向かって情報や意見を共有する形式が生まれた。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'depending on the house's location' の分詞構文を説明してください。",
-                        "a": "「店の場所に応じて」。depending on = 〜に応じて。条件・状況による違いを示す分詞構文。"
-                    },
-                    {
-                        "q": "'its own character' の 'its own' はどのような特徴を強調していますか？",
-                        "a": "「独自の特徴」。each + own で、それぞれのコーヒーハウスが固有の個性を持っていたことを強調。"
-                    },
-                    {
-                        "q": "'the topics that customers were interested in discussing' の関係代名詞を説明してください。",
-                        "a": "制限用法。topics を修飾。「客が議論に関心を持っていたトピック」。be interested in + 動名詞。"
-                    },
-                    {
-                        "q": "17-18世紀のコーヒーハウスの特徴を要約してください。",
-                        "a": "各店固有の特徴。場所やトピックで客層が異なる。主に男性が来店。新しいコミュニケーション形式が発達。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "depending on",
-                    "its own character",
-                    "attracted different"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "分詞構文"
-            },
-            {
-                "id": "fp2",
-                "title": "関係詞の制限用法と非制限用法",
-                "subtitle": "Restrictive vs. Non-restrictive Relative Clauses",
-                "explanation": "関係代名詞には「制限用法」（カンマなし：対象を限定）と「非制限用法」（カンマあり：補足説明）があります。which/whereの非制限用法は英検長文で、前の内容全体を補足説明する使い方が重要です。",
-                "sourceQuote": "Part 2A: \"a new style of communication in which the speakers were equal\"\nPart 2B: \"which has led to new and better types of satellites being created\"\nPart 3B: \"in large groups where there is no clear leadership\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
-                "examples": [
-                    {
-                        "en": "This created a new style of communication in which the speakers were equal.",
-                        "ja": "これにより話し手が平等であるという新しいコミュニケーションスタイルが生まれた。",
-                        "note": "in which = where の書き言葉的表現。制限用法"
-                    },
-                    {
-                        "en": "Since then, more development in technology occurred, which has led to new and better types of satellites being created.",
-                        "ja": "それ以来技術がさらに発展し、それが新しくてより優れた種類の衛星の開発につながった。",
-                        "note": "which = 前文全体を受ける非制限用法（カンマ+which）"
-                    },
-                    {
-                        "en": "Bonobos live in large groups where there is no clear leadership.",
-                        "ja": "ボノボは明確なリーダーシップのない大きな集団で生活している。",
-                        "note": "where = in which。場所ではなく集団という抽象概念にwhereを使用"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Bonobos]\nBonobos' ability to care about others is probably due to the group structure that they live in. This becomes clear when we look at chimpanzees. Bonobos live in large groups where there is no clear leadership. However, there is a distinct power structure within a chimpanzee group, and a large, strong male takes on a leadership role. Because of this, they have less reason to be friendly. Bonobos, however, live in peace and work together more because of how their groups are set up, while chimpanzees are more unfriendly.",
-                    "ja": "ボノボが他者を思いやる能力は、彼らが住む集団構造に起因していると考えられている。ボノボは明確な支配的リーダーがいない大きな集団で生活しており、平和的に暮らし、協力し合っている。しかし、集団内には明確な権力構造が存在し、通常は最年長のメスがリーダー的役割を果たす。この協力的な社会構造が共感能力の発達に貢献していると研究者たちは考えている。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'where there is no clear dominant leader' の関係副詞を説明してください。",
-                        "a": "「明確な支配的リーダーがいない」。where = in which。groupsを修飾する関係副詞。集団の特徴を補足説明。"
-                    },
-                    {
-                        "q": "'work together' と 'live in peace' はどのような社会を示しますか？",
-                        "a": "「協力し合い平和に暮らす」。ボノボの協調的社会構造。チンパンジーとの対比で平和的な特徴を強調。"
-                    },
-                    {
-                        "q": "'However, there is a distinct power structure' の逆接は何を示しますか？",
-                        "a": "リーダーがいない→しかし権力構造は存在。完全な平等ではなく、最年長メスがリーダー的役割を果たす。"
-                    },
-                    {
-                        "q": "ボノボの社会構造と共感能力の関係を要約してください。",
-                        "a": "明確なリーダーなしで協力的に生活。最年長メスがリーダー的役割。この社会構造が共感力の発達に寄与。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "where there is no clear",
-                    "live in large groups",
-                    "work together"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "関係詞"
-            },
-            {
-                "id": "fp3",
-                "title": "形式主語 it と強調構文",
-                "subtitle": "It as Formal Subject / Cleft Sentences",
-                "explanation": "itを形式的な主語（= 仮主語）として使い、真の主語（to不定詞やthat節）を後ろに置く構文です。「it is said that...」「it makes O C to...」「it was only X that...」など、英検長文で情報整理に多用されます。",
-                "sourceQuote": "Part 2B: \"it was only countries that developed and used satellites\"\nPart 2B: \"it is said that there are too many satellites\"\nPart 3A: \"it makes me very happy to say congratulations\"",
-                "sourceLocation": "Part 2B, Part 3A",
-                "examples": [
-                    {
-                        "en": "It was only countries that developed and used satellites.",
-                        "ja": "衛星を開発し使用するのは国だけだった。",
-                        "note": "強調構文 It was X that...：Xを強調する。ここでは only countries を強調"
-                    },
-                    {
-                        "en": "It is said that there are too many satellites going around the earth these days.",
-                        "ja": "最近は地球の周りを回る衛星が多すぎると言われている。",
-                        "note": "It is said that... = 「～と言われている」伝聞表現"
-                    },
-                    {
-                        "en": "It makes me very happy to say congratulations.",
-                        "ja": "お祝いを言えることがとても嬉しい。",
-                        "note": "It makes O C to... = 形式主語it、真の主語はto say..."
+                        "en": "It was his hard work that made him successful.",
+                        "ja": "彼を成功させたのは、彼の努力だった。",
+                        "note": "It was + 名詞 + that + V: 原因・理由を強調する典型パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Satellites]\nAt first, it was only countries that developed and used satellites. However, as the demand for more accurate data and technology for communications and broadcasting increased, private companies also began to use satellites. Since then, more development in technology occurred, which has led to new and better types of satellites being created. However, it is said that there are too many satellites going around the earth these days.",
-                    "ja": "以前は、衛星を開発し使用していたのは国家だけだった。しかし、より正確なデータや通信への需要が高まるにつれ、民間企業も衛星事業に参入するようになった。これが新しいタイプの衛星の開発につながった。しかし、地球を周回する衛星が多すぎるとも言われている。衛星の数が増加し続けることで、宇宙ゴミの問題が深刻化している。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "最初に衛星を開発し使用したのは国家だけだった。しかし、通信や放送のためのより正確なデータと技術への需要が高まるにつれ、民間企業も衛星を使い始めた。それ以来、技術のさらなる発展が起こり、新しくより良い種類の衛星が作られた。しかし、最近は地球を周回する衛星が多すぎると言われている。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'it was only countries that developed and used satellites' の強調構文を説明してください。",
-                        "a": "It is/was ... that 強調構文。「衛星を開発・使用していたのは国家だけだった」。only countries を強調。"
+                        "q": "'it was only countries that developed and used satellites' と 'it is said that there are too many satellites' の構文の違いを説明してください。",
+                        "a": "前者は強調構文（It was X that Y: Xを強調）。後者は非人称受動態（It is said that: 〜と言われている）。形は似ているが意味が異なる。"
                     },
                     {
-                        "q": "'it is said that there are too many satellites' の非人称表現を説明してください。",
-                        "a": "「衛星が多すぎると言われている」。It is said that = 一般的にそう言われている。主語を特定しない表現。"
+                        "q": "'which has led to new and better types of satellites being created' の構文を分析してください。",
+                        "a": "which(関係代名詞非制限用法) + has led to(現在完了) + O + being created(動名詞受動態)。「それが新しい衛星の作成につながった」。lead to + -ing。"
                     },
                     {
-                        "q": "'However, as the demand for more accurate data grew' の逆接と因果を説明してください。",
-                        "a": "以前は国だけ→しかし需要増→民間も参入。However で転換、as で理由を示す。"
+                        "q": "民間企業が衛星を使い始めた理由は何ですか？",
+                        "a": "通信や放送のためのより正確なデータと技術への需要が高まったため（as the demand for more accurate data and technology increased）。"
                     },
                     {
-                        "q": "衛星産業の変遷を要約してください。",
-                        "a": "初期は国家のみ→需要増で民間参入→新型衛星開発→しかし衛星過多で宇宙ゴミ問題が深刻化。"
+                        "q": "'Since then' は具体的に何を指していますか？",
+                        "a": "民間企業が衛星を使い始めた時点以降。At first（最初は国家だけ）→However（民間も参入）→Since then（それ以降の技術発展）。"
                     }
                 ],
                 "highlightPatterns": [
-                    "it was only countries that",
-                    "it is said that",
-                    "However"
+                    "it was only countries that developed and used satellites",
+                    "it is said that there are too many satellites"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "形式主語・強調"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "強調構文 It is...that"
             },
             {
-                "id": "fp4",
-                "title": "対比・逆接の論理構造（however / while / though）",
-                "subtitle": "Contrast and Concession in Discourse",
-                "explanation": "however, while, thoughなどの逆接表現は、前の内容と対照的な情報を提示するために使われます。英検では段落間の論理展開を理解するのに不可欠です。while は「一方で」、though は「～だけれど」の意味で頻出します。",
-                "sourceQuote": "Part 2A: \"However, though these gatherings sometimes included women, the people who usually came were men.\"\nPart 3B: \"Bonobos... live in peace and work together more... while chimpanzees are more unfriendly.\"\nPart 2B: \"However, as the demand... increased, private companies also began to use satellites.\"",
-                "sourceLocation": "Part 2A/2B, Part 3B",
+                "id": "fp2",
+                "title": "分詞構文（-ing / 過去分詞の副詞的用法）",
+                "subtitle": "Participial Constructions",
+                "explanation": "現在分詞(-ing)や過去分詞で始まる副詞的な表現。「〜しながら/〜に応じて/〜の結果」と付帯状況・条件・結果を表す。",
+                "sourceQuote": "This attracted different people depending on the house's location and the topics that customers were interested in discussing.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "However, though these gatherings sometimes included women, the people who usually came were men.",
-                        "ja": "しかし、集まりには女性も含まれたが、通常来るのは男性だった。",
-                        "note": "However + though: 二重の逆接で対比を強調"
+                        "en": "This attracted different people depending on the house's location and the topics that customers were interested in discussing.",
+                        "ja": "これにより、コーヒーハウスの場所や客が議論に興味を持つ話題に応じて、様々な人々が引きつけられた。",
+                        "note": "depending on: 「〜に応じて/〜次第で」条件の分詞構文"
                     },
                     {
-                        "en": "Bonobos live in peace and work together more because of how their groups are set up, while chimpanzees are more unfriendly.",
-                        "ja": "ボノボは集団の仕組みのおかげでより平和に暮らし、一方チンパンジーはより非友好的だ。",
-                        "note": "while = 対比「一方で」"
+                        "en": "This created a new style of communication in which the speakers were equal.",
+                        "ja": "これにより、話し手が対等な新しいコミュニケーションの形が生まれた。",
+                        "note": "in which: 前置詞+関係代名詞。「その中で話し手が対等な」"
                     },
                     {
-                        "en": "However, coffee houses were not just places to enjoy a hot drink or a light meal.",
-                        "ja": "しかし、コーヒーハウスは温かい飲み物や軽食を楽しむだけの場所ではなかった。",
-                        "note": "However: 前段落の一般的印象と対比して本題への転換"
+                        "en": "Walking along the street, I met an old friend.",
+                        "ja": "通りを歩いていると、旧友に出会った。",
+                        "note": "Walking: 時を表す分詞構文 = While I was walking"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Coffee Culture]\nEach coffee house had its own character. This attracted different people depending on the house's location and the topics that customers were interested in discussing. People with a variety of backgrounds could find a place to talk and be listened to. This created a new style of communication in which the speakers were equal. However, though these gatherings sometimes included women, the people who usually came were men.",
+                    "ja": "各コーヒーハウスには独自の雰囲気があった。これにより、コーヒーハウスの場所や客が議論に興味を持つ話題に応じて、様々な人々が引きつけられた。さまざまな背景を持つ人々が話を聞いてもらえる場所を見つけることができた。これにより、話し手が対等な新しいコミュニケーションの形が生まれた。しかし、これらの集まりには時々女性も含まれていたが、通常来ていたのは男性であった。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'depending on the house's location and the topics' の 'depending on' はどのような意味ですか？",
+                        "a": "「〜に応じて、〜次第で」。分詞構文で条件を表す。場所と話題という2つの要因によって集まる客層が異なったという意味。"
+                    },
+                    {
+                        "q": "'in which the speakers were equal' の 'in which' を書き換えてください。",
+                        "a": "= where the speakers were equal。前置詞+関係代名詞 in which = 関係副詞 where。「その中で話し手が対等な」コミュニケーションスタイル。"
+                    },
+                    {
+                        "q": "'though these gatherings sometimes included women, the people who usually came were men' の 'though' は何を表していますか？",
+                        "a": "譲歩。「女性が含まれることもあったが（譲歩）、通常来ていたのは男性だった（主節）」。逆接の接続詞。"
+                    },
+                    {
+                        "q": "各コーヒーハウスが異なる客を引きつけた要因を2つ答えてください。",
+                        "a": "①コーヒーハウスの場所(the house's location) ②客が議論に興味を持つ話題(the topics that customers were interested in discussing)"
+                    }
+                ],
+                "highlightPatterns": [
+                    "depending on the house's location and the topics"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "分詞構文"
+            },
+            {
+                "id": "fp3",
+                "title": "Even though / Although（譲歩の接続詞）",
+                "subtitle": "Concessive Conjunctions",
+                "explanation": "Even though / Although + S + V は「〜にもかかわらず」と逆説を導く。長文で筆者の主張と例外・対比を示す場面に頻出。",
+                "sourceQuote": "Even though they did not get any apples or reward themselves for helping others, the bonobos often dropped the apple.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Even though they did not get any apples or reward themselves for helping others, the bonobos often dropped the apple when there was another bonobo in the other room.",
+                        "ja": "他者を助けても自分にリンゴや報酬がもらえないにもかかわらず、ボノボは隣の部屋に別のボノボがいると、しばしばリンゴを落としてあげた。",
+                        "note": "Even though + S + V(否定): 「〜しないにもかかわらず」強い譲歩"
+                    },
+                    {
+                        "en": "Surprisingly, these bonobos were strangers to each other.",
+                        "ja": "驚くべきことに、これらのボノボは互いに見知らぬ者同士だった。",
+                        "note": "Surprisingly: 文頭の副詞で読者の意外性を強調"
+                    },
+                    {
+                        "en": "Although it was raining heavily, they decided to go hiking.",
+                        "ja": "大雨が降っていたにもかかわらず、彼らはハイキングに行くことにした。",
+                        "note": "Although + S + V: Even thoughと同義。書き言葉で多用。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Bonobos]\nMany people probably believe that humans are the only animal that is capable of caring about others. However, this is not the case. In one study, two bonobos were placed in rooms separated by a fence. An apple was hung from the top of one room, and only the bonobo in the other room could reach and release the apple by climbing the fence. Even though they did not get any apples or reward themselves for helping others, the bonobos often dropped the apple when there was another bonobo in the other room. Surprisingly, these bonobos were strangers to each other.",
-                    "ja": "多くの人は、他者を思いやることができるのは人間だけだと信じているかもしれない。しかし、それは正しくない。ボノボはフェンスで隔てられた別のボノボに対しても共感を示すことが実験で証明されている。見知らぬボノボに対しても食べ物を分け与える行動が観察されており、これは純粋な思いやりに基づく行動だと研究者たちは結論づけている。",
+                    "ja": "多くの人は、他者を思いやることができるのは人間だけだと信じているだろう。しかし、それは事実ではない。ある実験で、2頭のボノボがフェンスで仕切られた部屋にそれぞれ置かれた。一方の部屋の上からリンゴがつるされ、もう一方の部屋のボノボだけがフェンスを登ってリンゴを落とすことができた。他者を助けても自分にリンゴや報酬がもらえないにもかかわらず、ボノボは隣の部屋に別のボノボがいると、しばしばリンゴを落としてあげた。驚くべきことに、これらのボノボは互いに見知らぬ者同士だった。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'Even though they did not get any apples or reward themselves' の 'Even though' はなぜ重要ですか？",
+                        "a": "報酬がない（逆境）にもかかわらず助けた（行動）という対比を示す。ボノボの利他行動が自発的であることを強調。"
+                    },
+                    {
+                        "q": "この実験でボノボの何が証明されましたか？",
+                        "a": "ボノボは報酬がなくても、見知らぬ個体であっても他者を助ける利他行動ができること。人間だけが思いやりを持つわけではない。"
+                    },
+                    {
+                        "q": "'capable of caring about others' の 'capable of + -ing' はどのような意味ですか？",
+                        "a": "「〜することができる」。= able to。be capable of + 動名詞で能力を表す。caring about others = 他者を思いやること。"
+                    },
+                    {
+                        "q": "'Surprisingly, these bonobos were strangers to each other.' がこの段落でなぜ重要ですか？",
+                        "a": "知り合いではなく見知らぬ者同士でも助け合ったことを示し、ボノボの利他行動が身内に限らないことを強調している。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Even though they did not get any apples or reward themselves for helping others"
+                ],
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "譲歩 Even though"
+            },
+            {
+                "id": "fp4",
+                "title": "比較構文（as...as / more...than）",
+                "subtitle": "Comparative and Equal Structures",
+                "explanation": "as...as は「〜と同じくらい」同等比較、more...than は「〜よりも〜」優劣比較。実験結果の解釈や論旨の把握に不可欠。",
+                "sourceQuote": "The bonobos who watched this video yawned as much as when they watched their families yawn.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "The bonobos who watched this video yawned as much as when they watched their families yawn.",
+                        "ja": "このビデオを見たボノボは、家族のあくびを見た時と同じくらいあくびをした。",
+                        "note": "as much as: 「〜と同じくらい」同等比較。頻度が同じであることを示す。"
+                    },
+                    {
+                        "en": "Humans were more likely to yawn after seeing their friends or family members yawn than after seeing strangers yawn.",
+                        "ja": "人間は見知らぬ人のあくびを見た後よりも、友人や家族のあくびを見た後の方があくびをしやすかった。",
+                        "note": "more likely to V...than: 「〜よりも…する可能性が高い」比較級"
+                    },
+                    {
+                        "en": "This suggests that bonobos' ability to feel one another's feelings is more widespread than that of humans.",
+                        "ja": "これは、ボノボの共感能力が人間のそれよりも広範であることを示唆している。",
+                        "note": "more widespread than that of: 「〜のそれよりも広範」thatは前出名詞の代用"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Bonobos]\nIn a different test, bonobos watched two videos. In one video, their family members were yawning, the act of opening their mouths when they were sleepy. When bonobos watched their family members yawn, they were also likely to yawn themselves. Another video showed strangers yawning. The bonobos who watched this video yawned as much as when they watched their families yawn. In a similar setting, humans were more likely to yawn after seeing their friends or family members yawn than after seeing strangers yawn. This suggests that bonobos' ability to feel one another's feelings is more widespread than that of humans.",
+                    "ja": "別のテストでは、ボノボは2つのビデオを見た。1つのビデオでは、家族があくびをしていた — 眠い時に口を大きく開ける行為。ボノボが家族のあくびを見ると、自分もあくびをしやすかった。もう1つのビデオでは見知らぬボノボがあくびをしていた。このビデオを見たボノボは、家族のあくびを見た時と同じくらいあくびをした。同様の実験では、人間は見知らぬ人のあくびを見た後よりも、友人や家族のあくびを見た後の方があくびをしやすかった。これは、ボノボの共感能力が人間のそれよりも広範であることを示唆している。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'However, this is not the case' の 'this' は何を指しますか？",
-                        "a": "「人間だけが思いやりを持つ」という前文の信念。this is not the case = それは事実ではない。通説の否定。"
+                        "q": "ボノボと人間のあくびの伝染の違いを比較構文を使って説明してください。",
+                        "a": "ボノボ: 家族でも他人でもas much as（同じくらい）あくびした。人間: 家族のあくびの後の方がmore likely...than（〜よりも可能性が高い）。ボノボの方が共感が広範。"
                     },
                     {
-                        "q": "'capable of caring about others' の 'be capable of' はどのような能力ですか？",
-                        "a": "「他者を思いやることができる」。be capable of + 動名詞。人間だけの能力と思われていたことを示す。"
+                        "q": "'This suggests that' の 'This' は何を指しますか？",
+                        "a": "直前の実験結果全体。ボノボが家族でも他人でも同じくらいあくびが伝染したのに対し、人間は家族の方が伝染しやすかったこと。"
                     },
                     {
-                        "q": "'separated by a fence' の過去分詞はどのような状況を示しますか？",
-                        "a": "「フェンスで隔てられた」。実験条件の説明。受動の意味を持つ過去分詞の後置修飾。"
+                        "q": "'more widespread than that of humans' の 'that' は何を指しますか？",
+                        "a": "ability（能力）。that = the ability（前出名詞の代用）。「人間の能力よりもボノボの能力の方が広範」。"
                     },
                     {
-                        "q": "ボノボの共感能力を証明した実験を要約してください。",
-                        "a": "フェンスで隔てられた見知らぬボノボに食べ物を分け与える行動を観察。純粋な思いやりに基づく行動。"
+                        "q": "'In a similar setting' はどのような意味ですか？",
+                        "a": "「同様の実験環境で」。ボノボの実験と同じような設定（ビデオであくびを見せる）で人間についても調べたことを示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "However, this is not the case",
-                    "capable of caring",
-                    "separated by a fence"
+                    "yawned as much as when they watched their families yawn",
+                    "more likely to yawn after seeing their friends or family members yawn than after seeing strangers yawn",
+                    "more widespread than that of humans"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "逆接・対比"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "比較構文"
             },
             {
                 "id": "fp5",

@@ -1538,223 +1538,216 @@
     "lessonPlan": {
         "focusPoints": [
             {
-                "title": "無生物主語構文",
+                "title": "無生物主語構文（This makes/helps/allows）",
                 "subtitle": "Inanimate Subject Constructions",
-                "explanation": "英語では「物・事」が主語になり、人に影響を与える構文がよく使われます。日本語では「～のおかげで」「～によって」と訳すのがポイントです。2級の長文では、科学的説明や因果関係の記述で頻出します。",
-                "sourceQuote": "This makes the time at which sound arrives at each ear different.\nThis allows them to fly quietly and long distances without being noticed.",
-                "sourceLocation": "Part 2B 第1・第2段落",
+                "explanation": "英語では人以外の事物を主語にして「〜が…を可能にする/助ける/〜にする」と表現する。make+O+C, help+O+V, allow+O+to Vが代表的。因果関係の理解に不可欠。",
+                "sourceQuote": "This makes the time at which sound arrives at each ear different.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "This discovery led to the development of new medicines.",
-                        "ja": "この発見が新しい薬の開発につながった。",
-                        "note": "lead to ～ で「～をもたらす」。無生物主語で因果関係を示す。"
+                        "en": "This makes the time at which sound arrives at each ear different.",
+                        "ja": "これにより、音が各耳に届く時間が異なるようになる。",
+                        "note": "This(無生物主語) + makes + O(the time) + C(different): 主語が原因、Cが結果"
                     },
                     {
-                        "en": "The heavy rain prevented us from going outside.",
-                        "ja": "大雨のせいで外出できなかった。",
-                        "note": "prevent A from ～ing で「Aが～するのを妨げる」。"
+                        "en": "This helps them spot animals in the dark.",
+                        "ja": "これにより、暗闇の中で動物を見つけるのに役立つ。",
+                        "note": "This(無生物主語) + helps + them + spot(原形): help+O+V構文"
                     },
                     {
-                        "en": "Her smile made everyone feel welcome.",
-                        "ja": "彼女の笑顔がみんなを歓迎された気分にさせた。",
-                        "note": "make + O + C の無生物主語構文。"
+                        "en": "Darkness works to their advantage.",
+                        "ja": "暗闇は彼ら（フクロウ）にとって有利に働く。",
+                        "note": "Darkness(無生物主語): 抽象概念が主語。「暗闘が有利に作用する」"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Learning from Owls]\nOwls are active at night because darkness works to their advantage. They have large eyes to gather as much light as possible. This helps them spot animals in the dark. What helps them find animals in the dark is not only their eyes but also their ears. Their ears are located at different heights on the left and right sides of their heads. This makes the time at which sound arrives at each ear different. They analyze this difference instantly and determine the accurate position of the animals.",
-                    "ja": "フクロウは暗闇が有利に働くため、夜に活動する。フクロウには大きな目があり、できるだけ多くの光を集められるようになっている。これにより、暗闇の中で動物を見つけることができる。さらに、フクロウの耳は左右で異なる高さに位置している。この非対称な配置により、音源の正確な位置を特定することが可能になっている。",
+                    "ja": "フクロウは暗闇が有利に働くため、夜に活動する。できるだけ多くの光を集めるために大きな目を持っている。これにより暗闇の中で動物を見つけるのに役立つ。暗闇で動物を見つけるのに役立つのは目だけではなく、耳もある。耳は頭の左右で異なる高さに位置している。これにより、音が各耳に届く時間が異なるようになる。フクロウはこの差を瞬時に分析し、動物の正確な位置を特定する。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'darkness works to their advantage' の無生物主語を説明してください。",
-                        "a": "「暗闇が彼らに有利に働く」。darkness（無生物）が主語。暗闘がフクロウに利点をもたらす。"
+                        "q": "'This makes the time ... different' の 'This' は何を指していますか？",
+                        "a": "耳が頭の左右で異なる高さに位置していること(Their ears are located at different heights)。耳の位置の違いが音の到達時間の差を生む。"
                     },
                     {
-                        "q": "'This helps them spot animals in the dark' の 'This' は何を指しますか？",
-                        "a": "大きな目で光を集められること。This（無生物主語）= 前文の事実。spot = 見つける。"
+                        "q": "'What helps them find animals in the dark is not only their eyes but also their ears' の構文を分析してください。",
+                        "a": "What + V(helps)...is not only A but also B。What節が主語。「暗闇で動物を見つけるのに役立つのはAだけでなくBも」。"
                     },
                     {
-                        "q": "'to gather as much light as possible' の目的表現を説明してください。",
-                        "a": "「できるだけ多くの光を集めるために」。as much...as possible = できるだけ多く。目的のto不定詞。"
+                        "q": "フクロウが暗闇で動物の正確な位置を特定できる仕組みを説明してください。",
+                        "a": "左右の耳の高さが異なるため音の到達時間に差が生じる。フクロウはこの時間差を瞬時に分析して位置を特定する。"
                     },
                     {
-                        "q": "フクロウが夜間に狩りが得意な理由を要約してください。",
-                        "a": "大きな目で光を集め暗闇で視認。左右非対称の耳で音源を正確に特定。暗闇が有利に働く。"
+                        "q": "'darkness works to their advantage' を日本語の自然な表現に直してください。",
+                        "a": "「暗闇はフクロウにとって有利に働く」。無生物主語を使い、暗闇がフクロウに利点をもたらすという因果関係を簡潔に表現。"
                     }
                 ],
                 "highlightPatterns": [
-                    "darkness works to their advantage",
-                    "This helps them",
-                    "large eyes"
+                    "This makes the time at which sound arrives at each ear different",
+                    "This helps them spot animals in the dark"
                 ],
-                "highlightColor": "#4f8cff",
+                "highlightColor": "#FF6B6B",
                 "highlightLabel": "無生物主語構文",
                 "id": "fp1"
             },
             {
-                "title": "ディスコースマーカー（論理展開の接続表現）",
-                "subtitle": "Discourse Markers for Logical Flow",
-                "explanation": "長文読解では、文と文の論理関係を示す接続表現が重要です。「対比」「因果」「追加」「例示」などのマーカーを正しく読み取ることが、大問2の空所補充問題を解くカギになります。",
-                "sourceQuote": "On the other hand, there are other types of inventions that were created by chance.\nTherefore, many people hope for progress in this technology.\nHowever, when he arrived, many shoppers were there to buy the toy.",
-                "sourceLocation": "Part 2A 第1段落 / Part 2B 第3段落",
+                "title": "as if + 仮定法（まるで〜のように）",
+                "subtitle": "As If with Subjunctive Mood",
+                "explanation": "as if + S + 過去形 は「まるで〜のように」と現実とは異なる比喩的描写を表す。物語や説明文で生き生きとした描写に使われる。",
+                "sourceQuote": "It looked as if it was walking down the stairs.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "The experiment was expensive. However, the results were worth it.",
-                        "ja": "実験は費用がかかった。しかし、結果はそれだけの価値があった。",
-                        "note": "However = 逆接。前の内容と対比する情報を導入する。"
+                        "en": "It looked as if it was walking down the stairs.",
+                        "ja": "まるで階段を歩いているかのように見えた。",
+                        "note": "looked as if + 過去進行形: 「〜しているかのように見えた」比喩的描写"
                     },
                     {
-                        "en": "The soil was rich in nutrients. As a result, the crops grew quickly.",
-                        "ja": "土壌は栄養豊富だった。その結果、作物はすぐに育った。",
-                        "note": "As a result = 因果。原因→結果の流れを示す。"
+                        "en": "He let the spring fall to the floor again and again to check that it moved like a living thing each time.",
+                        "ja": "彼は毎回生き物のように動くことを確認するために、何度もバネを床に落とした。",
+                        "note": "let + O + V(原形): 使役動詞let。to check: 目的の不定詞。"
                     },
                     {
-                        "en": "Some birds migrate south. On the other hand, others stay in cold areas.",
-                        "ja": "南に渡る鳥もいる。一方で、寒冷地にとどまる鳥もいる。",
-                        "note": "On the other hand = 対比。2つの異なる事実の対照。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Mirror Test]\nThe mirror test has led to much discussion and debate. First, animals that have not seen a mirror before might not understand that what is in the mirror is themselves. It does not suggest that they do not recognize themselves. Instead, it shows that they have no idea how a mirror works. Moreover, vision is not the main sense for all animals. Some animals rely more on smell than vision, so failing the mirror test does not always mean they cannot recognize themselves.",
-                    "ja": "ミラーテストは多くの議論と討論を引き起こしてきた。まず、テストに合格した動物が必ずしも自己認識を持っているとは限らない。さらに、視覚はすべての動物にとっての主要な感覚ではない。嗅覚や聴覚に主に頼る動物にとって、鏡のテストは適切ではないかもしれない。むしろ、テストに合格しないことは自己認識がないことを示すのではなく、鏡の仕組みを理解していないことを示している可能性がある。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'Moreover, vision is not the main sense for all animals' の 'Moreover' は何を追加していますか？",
-                        "a": "「さらに」。ミラーテストの問題点を追加。合格≠自己認識→さらに視覚以外の感覚がある。"
-                    },
-                    {
-                        "q": "'Instead, it shows that they have no idea how a mirror works' の 'Instead' は何の代わりですか？",
-                        "a": "「むしろ」。不合格=自己認識なし→むしろ鏡の仕組みを理解していない。解釈の転換。"
-                    },
-                    {
-                        "q": "'has led to much discussion and debate' はどのような結果ですか？",
-                        "a": "「多くの議論と討論を引き起こした」。lead to = 〜につながる。テストの妥当性への疑問。"
-                    },
-                    {
-                        "q": "ミラーテストに対する批判を要約してください。",
-                        "a": "合格≠自己認識とは限らない。視覚以外の感覚に頼る動物には不適切。不合格=鏡が分からないだけ。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "Moreover",
-                    "Instead",
-                    "much discussion"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "ディスコースマーカー",
-                "id": "fp2"
-            },
-            {
-                "title": "不定詞の副詞的用法（目的・結果）",
-                "subtitle": "Adverbial Use of Infinitives (Purpose & Result)",
-                "explanation": "to不定詞が「～するために（目的）」や「～した結果（結果）」の意味で使われるパターンです。英検2級の長文では、行動の理由や科学的プロセスの記述で頻出します。",
-                "sourceQuote": "They have large eyes to gather as much light as possible.\nHe was given the task of coming up with an idea to protect expensive instruments.\nShe looked up some words in the dictionary and chose the word slinky.",
-                "sourceLocation": "Part 2A 第1段落 / Part 2B 第1段落",
-                "examples": [
-                    {
-                        "en": "She studied hard to pass the exam.",
-                        "ja": "彼女は試験に合格するために一生懸命勉強した。",
-                        "note": "to pass = 目的を表す副詞的用法。「～するために」"
-                    },
-                    {
-                        "en": "He grew up to become a famous scientist.",
-                        "ja": "彼は成長して有名な科学者になった。",
-                        "note": "to become = 結果を表す副詞的用法。「結果～になった」"
-                    },
-                    {
-                        "en": "We need more data to understand this phenomenon.",
-                        "ja": "この現象を理解するには、もっとデータが必要だ。",
-                        "note": "to understand = 目的。何のための行動かを補足する。"
+                        "en": "She spoke as if she knew everything about the topic.",
+                        "ja": "彼女はまるでその話題について全て知っているかのように話した。",
+                        "note": "as if + 過去形(knew): 仮定法過去。実際には知らない可能性を示唆。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: A Toy Made from a Spring]\nRichard James was an engineer working for the United States Navy. He was given the task of coming up with an idea to protect expensive instruments on the ship during the rough ocean travel. One day, while he was dealing with a spring, he accidentally dropped it from a shelf. Instead of falling where he thought it would, it moved along the shelf. It looked as if it was walking down the stairs. He let the spring fall to the floor again and again to check that it moved like a living thing each time.",
-                    "ja": "リチャード・ジェームズはアメリカ海軍で働くエンジニアだった。彼は航海中に船上の精密機器を保護するためのアイデアを考案する任務を与えられた。彼がバネを扱っていたとき、バネが手から落ちて床の上で面白い動きをした。彼はそのバネが生き物のように動くかどうかを確認し、毎回同じ動きをすることに驚いた。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "リチャード・ジェームズはアメリカ海軍で働くエンジニアだった。荒れた海の航海中に船上の高価な機器を保護するアイデアを考え出す任務を与えられた。ある日、バネを扱っていた時、誤って棚から落としてしまった。落ちると思った場所に落ちる代わりに、棚に沿って動いた。まるで階段を歩いているかのように見えた。彼は毎回生き物のように動くことを確認するために、何度もバネを床に落とした。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'to protect expensive instruments on the ship' の目的のto不定詞を説明してください。",
-                        "a": "「船上の精密機器を保護するために」。任務の目的を示す副詞的用法のto不定詞。"
+                        "q": "'It looked as if it was walking down the stairs' の 'as if' はどのような意味ですか？",
+                        "a": "「まるで〜のように」。バネが実際に歩くことはないが、その動きが階段を下りるように見えたという比喩。仮定法で非現実の比較。"
                     },
                     {
-                        "q": "'to check that it moved like a living thing' の目的を説明してください。",
-                        "a": "「生き物のように動くかを確認するために」。check that = 〜であることを確認する。目的のto不定詞。"
+                        "q": "'was given the task of coming up with an idea' の構文を分析してください。",
+                        "a": "was given(受動態) + the task of(〜する任務) + coming up with(句動詞の動名詞: 考え出す) + an idea。「アイデアを考え出す任務を与えられた」。"
                     },
                     {
-                        "q": "'was given the task of coming up with an idea' の受動態を説明してください。",
-                        "a": "「アイデアを考案する任務を与えられた」。be given = 与えられる。coming up with = 考え出す。"
+                        "q": "'Instead of falling where he thought it would' の 'Instead of' は何と何を対比していますか？",
+                        "a": "予想した落下場所（where he thought it would fall）と実際の動き（棚に沿って動いた）。予想に反する動きを対比。"
                     },
                     {
-                        "q": "スリンキーの発明の経緯を要約してください。",
-                        "a": "海軍エンジニアが機器保護のため研究→バネが偶然面白い動き→毎回同じ動きを確認→おもちゃの着想。"
+                        "q": "ジェームズがバネを何度も落とした理由は何ですか？",
+                        "a": "毎回生き物のように動くことを確認するため(to check that it moved like a living thing each time)。偶然ではなく再現性を確かめた。"
                     }
                 ],
                 "highlightPatterns": [
-                    "to protect",
-                    "to check",
-                    "was given the task"
+                    "as if it was walking down the stairs"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "不定詞（目的）",
-                "id": "fp3"
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "as if 仮定法",
+                "id": "fp2"
             },
             {
-                "title": "受動態（be + 過去分詞）の多様な用法",
-                "subtitle": "Passive Voice in Various Contexts",
-                "explanation": "受動態は英検2級の長文で頻出します。特に「動作主が不明・不要な場合」や「客観的な説明」で使われることが多いです。科学記事やビジネス文では、フォーマルさを出すために受動態が好まれます。",
-                "sourceQuote": "He was given the task of coming up with an idea.\nThe mark is put in a place where the animal cannot see.\nthey were put to sleep, and a mark was put on them.",
-                "sourceLocation": "Part 2A 第1段落 / Part 3B 第1・第2段落",
+                "title": "whether 名詞節（〜かどうか）",
+                "subtitle": "Whether as Noun Clause",
+                "explanation": "whether + S + V は「〜かどうか」を表す名詞節。主語・目的語・補語・前置詞の目的語として使われる。長文の論点提示・検証に頻出。",
+                "sourceQuote": "One idea that is often discussed is whether only humans can recognize or tell the difference between themselves and others.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The new policy was introduced last month.",
-                        "ja": "新しい方針は先月導入された。",
-                        "note": "動作主が不要な場合の受動態。誰が導入したかは重要でない。"
+                        "en": "One idea that is often discussed is whether only humans can recognize or tell the difference between themselves and others.",
+                        "ja": "よく議論されるアイデアの一つは、自分と他者を認識したり区別したりできるのは人間だけかどうかである。",
+                        "note": "is + whether: 補語としてのwhether節。論点を提示する。"
                     },
                     {
-                        "en": "Participants are required to attend all sessions.",
-                        "ja": "参加者は全てのセッションに出席することが求められる。",
-                        "note": "be required to ～ で「～することが求められる」。規則・義務を表す。"
+                        "en": "The mirror test is used to judge this.",
+                        "ja": "ミラーテストはこれを判断するために使われる。",
+                        "note": "is used + to judge: 受動態+目的の不定詞。「判断するために使われる」"
                     },
                     {
-                        "en": "The bridge was designed by a famous architect.",
-                        "ja": "その橋は有名な建築家によって設計された。",
-                        "note": "by + 動作主で「～によって」。動作主を明示するパターン。"
+                        "en": "We need to discuss whether the plan is feasible.",
+                        "ja": "その計画が実現可能かどうかを議論する必要がある。",
+                        "note": "whether: 目的語としてのwhether節。「〜かどうかを」"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Mirror Test]\nHumans and animals are different in many ways. Some say only humans can have a language and a culture. Among these discussions, one idea that is often discussed is whether only humans can recognize or tell the difference between themselves and others. The mirror test is used to judge this. It is done by putting a mark on an animal's body. The mark is put in a place where the animal cannot see without the help of a mirror. If the animal tries to remove the mark on its body, it shows that the animal recognizes itself.",
-                    "ja": "人間と動物は多くの点で異なる。自意識を持てるのは人間だけだと言う人もいる。これを判断するためにミラーテストが使われる。テストは動物の体にマークをつけることで行われる。マークは動物が直接見えない場所に付けられる。動物が鏡でマークに気づいて取り除こうとすれば、自己認識があると判断される。",
+                    "ja": "人間と動物は多くの点で異なる。言語や文化を持てるのは人間だけだと言う人もいる。これらの議論の中で、よく討論されるアイデアの一つは、自分と他者を認識したり区別したりできるのは人間だけかどうかである。ミラーテストはこれを判断するために使われる。動物の体に印をつけて行われる。印は鏡の助けなしには見えない場所につけられる。もし動物が体の印を取り除こうとすれば、その動物は自分自身を認識していることを示す。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'whether only humans can recognize or tell the difference' の 'whether' はどのような役割ですか？",
+                        "a": "名詞節を導く接続詞。「〜かどうか」。ここではis(be動詞)の補語として「論点は〜かどうかである」という文の中心テーマを示す。"
+                    },
+                    {
+                        "q": "ミラーテストの手順を順番に説明してください。",
+                        "a": "①動物の体に印をつける(putting a mark) ②鏡なしでは見えない場所に印を置く ③動物が印を取り除こうとするかどうかを観察する → 取り除こうとすれば自己認識あり。"
+                    },
+                    {
+                        "q": "'is used to judge this' の 'this' は何を指しますか？",
+                        "a": "自分と他者を認識・区別できるのは人間だけかどうか(whether only humans can recognize or tell the difference)。前文の論点全体。"
+                    },
+                    {
+                        "q": "'The mark is put in a place where the animal cannot see without the help of a mirror' の 'where' は何ですか？",
+                        "a": "関係副詞。a place(場所)を先行詞として「鏡の助けなしには見えない場所」を修飾。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "whether only humans can recognize or tell the difference between themselves and others"
+                ],
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "whether 名詞節",
+                "id": "fp3"
+            },
+            {
+                "title": "部分否定（not always / does not mean）",
+                "subtitle": "Partial Negation in Argumentation",
+                "explanation": "not always / not necessarily は「常に〜とは限らない」と全否定を避けた表現。does not mean/suggest は「〜を意味するわけではない」。議論の反論・限界を示す際に重要。",
+                "sourceQuote": "Failing the mirror test does not always mean they cannot recognize themselves.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Failing the mirror test does not always mean they cannot recognize themselves.",
+                        "ja": "ミラーテストに失敗することは、自分自身を認識できないことを常に意味するわけではない。",
+                        "note": "does not always mean: 部分否定。always + notで「常に〜とは限らない」"
+                    },
+                    {
+                        "en": "It does not suggest that they do not recognize themselves. Instead, it shows that they have no idea how a mirror works.",
+                        "ja": "それは自分自身を認識できないことを示すのではない。むしろ、鏡の仕組みを知らないことを示している。",
+                        "note": "does not suggest...Instead: 全否定+代替。「〜ではなく、むしろ〜」"
+                    },
+                    {
+                        "en": "Being rich does not always guarantee happiness.",
+                        "ja": "裕福であることが常に幸福を保証するとは限らない。",
+                        "note": "does not always: 部分否定の典型。一部のケースでは当てはまらない。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Mirror Test]\nThe mirror test has led to much discussion and debate. First, animals that have not seen a mirror before might not understand that what is in the mirror is themselves. It does not suggest that they do not recognize themselves. Instead, it shows that they have no idea how a mirror works. Moreover, vision is not the main sense for all animals. Some animals rely more on smell than vision, so failing the mirror test does not always mean they cannot recognize themselves.",
+                    "ja": "ミラーテストは多くの議論と討論を引き起こしてきた。まず、鏡を見たことがない動物は、鏡に映っているのが自分だと理解できないかもしれない。それは自分自身を認識できないことを示すのではない。むしろ、鏡の仕組みを知らないことを示している。さらに、視覚が全ての動物の主要な感覚であるとは限らない。嗅覚に頼る動物もいるため、ミラーテストに失敗することは、自分自身を認識できないことを常に意味するわけではない。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'The mirror test is used to judge this' の受動態を説明してください。",
-                        "a": "「ミラーテストはこれを判断するために使われる」。is used to = 〜するために使われる。目的の受動態。"
+                        "q": "'does not always mean' と完全否定 'never means' の違いは何ですか？",
+                        "a": "部分否定 does not always = 「常に〜とは限らない」（一部のケースでは当てはまる）。全否定 never = 「決して〜しない」（全てのケースで否定）。"
                     },
                     {
-                        "q": "'It is done by putting a mark on an animal's body' の受動態を説明してください。",
-                        "a": "「動物の体にマークを付けることによって行われる」。is done by + 動名詞 = 手段・方法を示す受動態。"
+                        "q": "ミラーテストの問題点が2つ挙げられています。それぞれ説明してください。",
+                        "a": "①鏡を見たことがない動物は鏡の仕組みを理解できない（テスト自体の前提問題） ②視覚が主要感覚でない動物もいる（嗅覚に頼る動物にはテストが適さない）"
                     },
                     {
-                        "q": "'The mark is put in a place where the animal cannot see it directly' を説明してください。",
-                        "a": "「動物が直接見えない場所に付けられる」。受動態 + where関係副詞。テストの公正性を保証する設計。"
+                        "q": "'It does not suggest that...Instead, it shows that...' の論理展開を説明してください。",
+                        "a": "否定+代替。「テスト失敗は自己認識不足を示すのではない（否定）→むしろ鏡の仕組みを知らないだけ（代替説明）」。Instead で反論の方向を転換。"
                     },
                     {
-                        "q": "ミラーテストの手順を要約してください。",
-                        "a": "体の見えない場所にマーク→鏡を見せる→マーク除去の試み→取り除こうとすれば自己認識ありと判断。"
+                        "q": "'vision is not the main sense for all animals' の 'not...all' はどのような否定ですか？",
+                        "a": "部分否定。「全ての動物にとって視覚が主要な感覚であるわけではない」。not + all = 「全部が〜というわけではない」。"
                     }
                 ],
                 "highlightPatterns": [
-                    "is used to judge",
-                    "is done by putting",
-                    "mark is put"
+                    "does not always mean they cannot recognize themselves"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "受動態",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "部分否定 not always",
                 "id": "fp4"
             },
             {

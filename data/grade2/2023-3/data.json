@@ -2000,223 +2000,218 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "間接疑問文",
-                "subtitle": "Indirect Questions",
-                "explanation": "間接疑問文は文中に疑問文を組み込む構文。語順がS+Vになる点がポイント。asked him if he was hungryのようにif/whetherを使う形が2級頻出。",
-                "sourceQuote": "Isaac's mother asked him if he was hungry.",
-                "sourceLocation": "Part 1 Q18",
+                "title": "目的の so that（〜するために）",
+                "subtitle": "Purpose Clause with so that",
+                "explanation": "so that + S + can/could/will/would は「〜するために」と目的を表す副詞節。2級の長文で登場人物の動機や行動の背景を説明する際に頻出。",
+                "sourceQuote": "Marie Curie agreed to give some of the money she earned so that her sister could study medicine.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "I wonder if she will come to the party.",
-                        "ja": "彼女がパーティーに来るかどうか気になる。",
-                        "note": "if=～かどうか。Yes/Noの間接疑問"
+                        "en": "Marie Curie agreed to give some of the money she earned so that her sister could study medicine.",
+                        "ja": "マリー・キュリーは、姉が医学を学べるように、自分が稼いだお金の一部を渡すことに同意した。",
+                        "note": "so that + S + could: 「〜できるように」過去の目的を表す"
                     },
                     {
-                        "en": "Can you tell me where the station is?",
-                        "ja": "駅がどこか教えてくれますか？",
-                        "note": "where+S+V の語順に注意"
+                        "en": "Her sister promised that she would support Marie Curie's studies.",
+                        "ja": "姉は、卒業後にマリー・キュリーの学業を支援すると約束した。",
+                        "note": "promise that + S + would: 過去における未来の約束"
                     },
                     {
-                        "en": "Nobody knew what was making the sounds.",
-                        "ja": "何がその音を出しているか誰も知らなかった。",
-                        "note": "what=主語の場合、語順はwhat+V"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Keeping Up-to-Date]\nEnglish is used by people in many parts of the world. Like other languages, new words are often added to English. These come from technological, social, or other developments. At the same time, other words stop being used because they no longer help people express their ideas. The people who create dictionaries need to constantly check which words are being used and how they are being used to make dictionaries that reflect the current state of the English language.",
-                    "ja": "英語は世界の多くの地域で使われている。他の言語と同様に、新しい単語が常に作られ、古い単語の意味も変化している。辞書の編集者はどの単語が使われているか、そしてどのように使われているかを常にチェックしなければならない。テクノロジーやソーシャルメディアの発達により、新しい単語が広まるスピードは以前よりもはるかに速くなっている。編集者はこの急速な変化に対応するため、コンピュータやデータベースを活用している。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'check which words are being used' の間接疑問文を説明してください。",
-                        "a": "「どの単語が使われているかチェックする」。which + 名詞 + are being used（受動進行形）。疑問詞が目的語節を導く。"
-                    },
-                    {
-                        "q": "'how they are being used' の間接疑問文の語順に注目してください。",
-                        "a": "「どのように使われているか」。間接疑問文は平叙文の語順（they are）。直接疑問文なら How are they being used?"
-                    },
-                    {
-                        "q": "'constantly' はどのような頻度を示しますか？",
-                        "a": "「常に」。辞書編集者が言語の変化を継続的に監視していることを示す。= always / continuously。"
-                    },
-                    {
-                        "q": "辞書編集者の仕事を要約してください。",
-                        "a": "新しい単語の使用状況と使い方を常にチェック。テクノロジーを活用して言語の急速な変化に対応。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "check which words",
-                    "how they are being used",
-                    "constantly"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "間接疑問文"
-            },
-            {
-                "id": "fp2",
-                "title": "仮定法・倒置構文",
-                "subtitle": "Subjunctive & Inversion",
-                "explanation": "Should S V～は「万が一SがVしたら」の意味で、If S should V～の省略倒置形。丁寧かつフォーマルな条件表現として、ビジネス英語でも頻出。",
-                "sourceQuote": "Should Mr. Anderson stop by the office while I'm away, please tell him that I'll be back by 1 p.m.",
-                "sourceLocation": "Part 1 Q20",
-                "examples": [
-                    {
-                        "en": "Should you need any help, please contact us.",
-                        "ja": "万が一ご支援が必要でしたら、ご連絡ください。",
-                        "note": "Should+S+V = If S should V の倒置"
-                    },
-                    {
-                        "en": "Had I known earlier, I would have helped.",
-                        "ja": "もっと早く知っていたら、助けていただろう。",
-                        "note": "Had+S+過去分詞 = If S had+過去分詞"
-                    },
-                    {
-                        "en": "Were it not for your support, we could not succeed.",
-                        "ja": "あなたの支援がなければ、成功できないだろう。",
-                        "note": "Were it not for = If it were not for"
+                        "en": "He studied hard so that he could pass the exam.",
+                        "ja": "彼は試験に受かるために一生懸命勉強した。",
+                        "note": "so that + S + could = in order to: 目的の副詞節"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Marie Curie]\nMarie Curie and her sister worked together so that they could both get university degrees. Marie Curie agreed to give some of the money she earned so that her sister could study medicine. Her sister promised that, after she graduated, she would support Marie Curie's studies. After five years of working for a rich family, Marie Curie was finally able to start studying at a university in Paris, France. Life was hard for her because she had little money, and she suffered health problems because she could not afford good-quality food. However, she was an excellent student, and she got a degree in physics in 1893 and another in math the following year.",
-                    "ja": "マリー・キュリーと姉は互いに助け合い、二人とも大学の学位を取れるよう協力した。マリーはまず働いて姉がパリで医学を学べるようにお金を稼いだ。家庭教師として働きながら独学も続けたが、十分に質の良い食事を買う余裕がないこともあった。その後、姉が卒業すると今度は姉がマリーの学費を支援し、マリーはついにパリのソルボンヌ大学で物理学と数学の研究を始めることができた。",
+                    "ja": "マリー・キュリーと姉は、二人とも大学の学位を取れるように協力した。マリー・キュリーは、姉が医学を学べるように、自分が稼いだお金の一部を渡すことに同意した。姉は、卒業後にマリー・キュリーの学業を支援すると約束した。裕福な家庭で5年間働いた後、マリー・キュリーはようやくフランスのパリの大学で学び始めることができた。お金がほとんどなく、質の良い食事ができないために健康上の問題を抱えたため、生活は厳しかった。しかし、彼女は優秀な学生で、1893年に物理学の学位を、翌年には数学の学位を取得した。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'so that they could both get university degrees' と 'so that her sister could study medicine' の 'so that' はそれぞれ何を表していますか？",
+                        "a": "どちらも目的を表す。「二人とも大学の学位を取れるように」「姉が医学を学べるように」。so that + S + could で過去の目的を示す。"
+                    },
+                    {
+                        "q": "マリー・キュリーと姉はどのように協力しましたか？",
+                        "a": "まずマリーが働いてお金を渡し姉の医学留学を支援→その後姉が卒業後にマリーの学業を支援するという交代制の協力。"
+                    },
+                    {
+                        "q": "'she was finally able to start studying' の 'was able to' はどのような意味ですか？",
+                        "a": "「ようやく〜することができた」。過去の一回きりの達成を表す。couldではなくwas able toを使うのは、実際に成し遂げたことを強調するため。"
+                    },
+                    {
+                        "q": "'she suffered health problems because she could not afford good-quality food' の因果関係を説明してください。",
+                        "a": "原因: 質の良い食事を買う余裕がなかった(could not afford)→結果: 健康上の問題を抱えた(suffered health problems)。becauseが因果関係を示す。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "so that they could both get university degrees",
+                    "so that her sister could study medicine"
+                ],
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "目的の so that"
+            },
+            {
+                "id": "fp2",
+                "title": "used to + V（過去の習慣・状態）",
+                "subtitle": "Past Habitual Actions",
+                "explanation": "used to + 動詞原形は「かつて〜していた（が今はしていない）」と過去の習慣や状態を表す。現在との対比を示し、長文で変化を説明する際に重要。",
+                "sourceQuote": "The word 'cookie' used to have a single meaning: a kind of baked snack.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "The word 'cookie' used to have a single meaning: a kind of baked snack.",
+                        "ja": "「cookie」という語はかつて一つの意味しかなかった：焼き菓子の一種。",
+                        "note": "used to + have: 「かつて〜を持っていた（が今は異なる）」過去の状態"
+                    },
+                    {
+                        "en": "The use of this meaning had become so widespread that dictionary editors decided to add it.",
+                        "ja": "この意味の使用が非常に広まったため、辞書編集者はそれを追加することを決めた。",
+                        "note": "so...that: 「非常に〜なので…」結果を表す構文"
+                    },
+                    {
+                        "en": "People used to think the earth was flat.",
+                        "ja": "人々はかつて地球が平らだと考えていた。",
+                        "note": "used to + think: 過去の信念（今は異なる）を表す"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Keeping Up-to-Date]\nIn some cases, completely new words are added to the dictionary, but in other cases, new meanings are added to existing words. For example, the word \"cookie\" used to have a single meaning: a kind of baked snack. In the late 20th century, the same word started to be used to refer to special computer files that store information about how people use websites on the Internet. Within a few years, the use of this meaning of the word had become so widespread that dictionary editors decided to add the meaning to their dictionaries.",
+                    "ja": "完全に新しい語が辞書に追加される場合もあるが、既存の語に新しい意味が追加される場合もある。例えば、「cookie」という語はかつて一つの意味しかなかった：焼き菓子の一種である。20世紀後半に、同じ語がインターネット上でウェブサイトの使用方法に関する情報を保存する特別なコンピュータファイルを指すようにもなった。数年以内に、この意味での使用が非常に広まったため、辞書編集者はその意味を辞書に追加することを決定した。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'so that they could both get university degrees' の 'so that' はどのような目的ですか？",
-                        "a": "「二人とも学位を取れるように」。目的を示す接続詞。could = 〜できるように。協力の理由を説明。"
+                        "q": "'used to have a single meaning' の 'used to' はどのような意味ですか？",
+                        "a": "「かつて〜だった（が今は違う）」。cookieは昔は「焼き菓子」の意味だけだったが、今はコンピュータ用語の意味も持つ。過去と現在の対比。"
                     },
                     {
-                        "q": "'so that her sister could study medicine' の目的と手段を説明してください。",
-                        "a": "手段: マリーが働いてお金を稼ぐ。目的: 姉がパリで医学を学ぶ。so that + could で実現させたい目的。"
+                        "q": "'had become so widespread that dictionary editors decided to add the meaning' の構文を説明してください。",
+                        "a": "so + 形容詞 + that + S + V: 「非常に〜なので…」。使用が「非常に広まった」ので「辞書に追加することを決めた」という因果関係。"
                     },
                     {
-                        "q": "'worked together' はどのような協力関係ですか？",
-                        "a": "互いに交代で働いて学ぶ関係。まずマリーが働き姉を支援→姉が卒業後マリーを支援。相互扶助。"
+                        "q": "「cookie」の新しい意味はいつ頃生まれましたか？",
+                        "a": "20世紀後半（In the late 20th century）。インターネットの普及に伴い、ウェブサイトの利用情報を保存するファイルの名称として使われ始めた。"
                     },
                     {
-                        "q": "マリーと姉の協力関係を要約してください。",
-                        "a": "マリーが先に働いて姉の学費を支援。姉が卒業後はマリーの学費を支援。交代で大学教育を実現。"
+                        "q": "'Within a few years' はどのような意味ですか？",
+                        "a": "「数年以内に」。新しい意味が急速に広まったことを示す時間表現。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that they could both",
-                    "worked together",
-                    "so that her sister"
+                    "used to have a single meaning"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "仮定法・倒置"
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "used to（過去の習慣）"
             },
             {
                 "id": "fp3",
-                "title": "結果のso that / 目的のso that",
-                "subtitle": "So That Clauses",
-                "explanation": "so that S can/could/will～は「Sが～できるように（目的）」、so ～ that S V は「とても～なのでSがVする（結果）」。文脈で使い分けを判断する。",
-                "sourceQuote": "Marie Curie and her sister worked together so that they could both get university degrees.",
-                "sourceLocation": "Part 3C 第3段落",
+                "title": "間接疑問文（疑問詞 + S + V）",
+                "subtitle": "Indirect Questions",
+                "explanation": "間接疑問文は疑問詞(what/which/how/where等) + S + V の語順で、文中に埋め込まれた疑問文。「何が〜か」「どのように〜か」を表す。長文の情報整理に不可欠。",
+                "sourceQuote": "Dictionary editors need to constantly check which words are being used and how they are being used.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "He studied hard so that he could pass the exam.",
-                        "ja": "試験に受かるよう、彼は一生懸命勉強した。",
-                        "note": "so that+could=目的「～できるように」"
+                        "en": "Dictionary editors need to constantly check which words are being used and how they are being used.",
+                        "ja": "辞書編集者は、どの語が使われているか、そしてそれらがどのように使われているかを常にチェックする必要がある。",
+                        "note": "which words + are being used / how they + are being used: 間接疑問文（疑問詞+S+V）"
                     },
                     {
-                        "en": "The use had become so widespread that editors decided to add it.",
-                        "ja": "使用があまりにも広がったので、編集者は追加を決めた。",
-                        "note": "so～that=結果「とても～なので」"
+                        "en": "Nobody knew what was making them.",
+                        "ja": "何がそれらの音を出しているのか誰も知らなかった。",
+                        "note": "what + was making: whatが主語の間接疑問文"
                     },
                     {
-                        "en": "She saved money so that her sister could study.",
-                        "ja": "姉が勉強できるように、彼女はお金を貯めた。",
-                        "note": "目的のso that。couldが目的の目印"
+                        "en": "Scientists wanted to learn how the owls communicate.",
+                        "ja": "科学者たちはフクロウがどのようにコミュニケーションするか知りたかった。",
+                        "note": "how + S + V: 方法を尋ねる間接疑問文"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Keeping Up-to-Date]\nDictionary editors consider changes to dictionaries very carefully before making them. Each suggestion to add a new word or meaning or remove an old word or meaning is looked at by many editors. If enough of them agree that a change should be made, they will ask their dictionary's senior editors for their approval. Sometimes, the senior editors will decide that there is not enough evidence to support the suggested change. In this case, the information collected by editors and their assistants will be stored in a database so that it can be reviewed later.",
-                    "ja": "辞書の編集者は辞書の変更を非常に慎重に検討してから決定を下す。新しい単語を追加したり既存の定義を変更したりする際には、その変更が言語の実際の使用を正確に反映しているかどうかを確認する。変更の記録は後で見直せるように保存される。辞書は言語の宝庫であり、編集者にはその正確さと信頼性を守る責任がある。",
+                    "en": "[出典: Keeping Up-to-Date]\nEnglish is used by people in many parts of the world. Like other languages, new words are often added to English. These come from technological, social, or other developments. At the same time, other words stop being used because they no longer help people express their ideas. The people who create dictionaries need to constantly check which words are being used and how they are being used to make dictionaries that reflect the current state of the English language.",
+                    "ja": "英語は世界の多くの地域で使われている。他の言語と同様に、新しい語がしばしば英語に追加される。これらは技術的、社会的、またはその他の発展から生まれる。同時に、人々の考えを表現するのに役立たなくなった語は使われなくなる。辞書を作る人々は、英語の現状を反映した辞書を作るために、どの語が使われているか、そしてそれらがどのように使われているかを常にチェックする必要がある。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'so that it can be reviewed later' の 'so that' はどのような目的ですか？",
-                        "a": "「後で見直せるように」。目的のso that。記録を保存する理由（=将来の参照のため）を説明する。"
+                        "q": "'check which words are being used and how they are being used' の構文を説明してください。",
+                        "a": "2つの間接疑問文がandで並列。which words are being used（どの語が使われているか）+ how they are being used（どのように使われているか）。疑問詞+S+V の語順。"
                     },
                     {
-                        "q": "'consider changes very carefully before making them' はどのような慎重さを示しますか？",
-                        "a": "「変更を行う前に非常に慎重に検討する」。before + 動名詞で、慎重な手順を強調。辞書の信頼性を守る姿勢。"
+                        "q": "新しい語はどこから生まれますか？",
+                        "a": "技術的（technological）、社会的（social）、またはその他の発展（other developments）から。社会の変化が言語に反映される。"
                     },
                     {
-                        "q": "'evidence that the word is widely used' はどのような基準ですか？",
-                        "a": "「その単語が広く使われている証拠」。辞書に追加するための客観的基準。十分な使用実績が必要。"
+                        "q": "'to make dictionaries that reflect the current state of the English language' の 'that' は何ですか？",
+                        "a": "関係代名詞。先行詞はdictionaries。「英語の現状を反映した辞書」。to make は目的の不定詞。"
                     },
                     {
-                        "q": "辞書の変更プロセスを要約してください。",
-                        "a": "慎重な検討→実際の使用を反映しているか確認→記録を保存→正確さと信頼性を維持。"
+                        "q": "語が辞書から除かれる理由は何ですか？",
+                        "a": "人々の考えを表現するのに役立たなくなったため（they no longer help people express their ideas）。言語は常に変化している。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so that it can be reviewed",
-                    "consider changes",
-                    "very carefully"
+                    "which words are being used and how they are being used"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "so that構文"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "間接疑問文"
             },
             {
                 "id": "fp4",
-                "title": "used to / be used to の使い分け",
-                "subtitle": "Used To vs Be Used To",
-                "explanation": "used to+動詞原形は「以前は～した（過去の習慣）」、be used to+名詞/-ingは「～に慣れている」。また be used to+動詞原形は「～するために使われる」の受動態。",
-                "sourceQuote": "Bikegila used to climb trees in the island's forests and take baby parrots to sell as pets.",
-                "sourceLocation": "Part 2B 第2段落",
+                "title": "help / prevent + O + to V / from -ing",
+                "subtitle": "Help and Prevention Constructions",
+                "explanation": "help + O + (to) V は「Oが〜するのを助ける」、prevent + O + from -ing は「Oが〜するのを防ぐ」。動作の促進と阻止の両方を表し、長文の因果関係の把握に重要。",
+                "sourceQuote": "The ropes help to prevent climbers from being seriously injured if they fall.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "He used to play soccer every weekend.",
-                        "ja": "彼は毎週末サッカーをしていた。",
-                        "note": "used to+原形=過去の習慣（今はしない）"
+                        "en": "The ropes help to prevent climbers from being seriously injured if they fall.",
+                        "ja": "ロープは、登山者が落下した場合に重傷を負うのを防ぐのに役立つ。",
+                        "note": "help + to prevent + O + from + being + 過去分詞: help と prevent の組み合わせ"
                     },
                     {
-                        "en": "She is used to working late.",
-                        "ja": "彼女は遅くまで働くことに慣れている。",
-                        "note": "be used to ～ing=～に慣れている"
+                        "en": "The special shoes help prevent climbers' feet from slipping on the rocks.",
+                        "ja": "特殊な靴は、登山者の足が岩の上で滑るのを防ぐのに役立つ。",
+                        "note": "help + prevent + O + from + -ing: helpの後のtoは省略可能"
                     },
                     {
-                        "en": "Computers are used to check sources quickly.",
-                        "ja": "コンピューターは情報源を迅速にチェックするために使われる。",
-                        "note": "be used to+原形=～するために使われる（受動態）"
+                        "en": "The chalk helps to keep climbers' hands dry.",
+                        "ja": "チョークは登山者の手を乾いた状態に保つのに役立つ。",
+                        "note": "help + to keep + O + C(形容詞): 「OをCに保つのを助ける」"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: In the Dark]\nScientists had guessed that there must be owls on the island, but they needed the help of a local expert to find them. A man known as Bikegila used to climb trees in the island's forests and take baby parrots to sell as pets. However, some years ago, the forests and the wildlife living in them started to be protected by law, so Bikegila had to find a new way to make a living. He used his knowledge of the area to work as a guide, showing tourists around the forests. Bikegila helped the scientists find the owls, and to thank him, the scientists gave the new species the name Otus bikegila.",
-                    "ja": "科学者たちは島にフクロウがいるはずだと推測していたが、証拠が必要だった。地元の案内人ビケギラは、かつて島の森で木に登っていたフクロウを目撃していた。しかし、森林とそこに生息する野生動物は減少し始めていた。ビケギラは地域に関する知識を活かしてガイドとして働き、科学者たちがフクロウの生息地を見つける手助けをした。",
+                    "en": "[出典: Rock Climbing]\nRock climbing requires equipment such as ropes and special shoes. Climbers use ropes to attach themselves to the rocks. The ropes help to prevent climbers from being seriously injured if they fall. The special shoes help prevent climbers' feet from slipping on the rocks. Climbers also often carry a small bag containing chalk. The chalk helps to keep climbers' hands dry. Climbers sweat as they climb, and sometimes, the rocks can be wet. If climbers feel that their hands are slipping, they put them in their bag of chalk to remove moisture.",
+                    "ja": "ロッククライミングにはロープや特殊な靴などの装備が必要である。登山者はロープを使って岩に自分を固定する。ロープは、登山者が落下した場合に重傷を負うのを防ぐのに役立つ。特殊な靴は、登山者の足が岩の上で滑るのを防ぐのに役立つ。登山者はまた、チョークの入った小さな袋を持ち歩くことが多い。チョークは登山者の手を乾いた状態に保つのに役立つ。登山者は登るにつれて汗をかき、岩が濡れていることもある。手が滑ると感じたら、水分を取り除くためにチョークの袋に手を入れる。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'used to climb trees' の 'used to' はどのような過去を示しますか？",
-                        "a": "「かつて木に登っていた」。以前は定期的に行っていたが今はしていない行為。フクロウの過去の習性。"
+                        "q": "'help to prevent climbers from being seriously injured' の構文を分解してください。",
+                        "a": "help + to prevent(防ぐのを助ける) + climbers(O) + from being seriously injured(重傷を負うことから)。help→prevent→from -ingの3層構造。"
                     },
                     {
-                        "q": "'the forests and the wildlife living in them started to decline' の変化を説明してください。",
-                        "a": "「森林とそこに生息する野生動物が減少し始めた」。started to = began to。環境の悪化が始まったことを示す。"
+                        "q": "'help prevent' と 'help to prevent' に違いはありますか？",
+                        "a": "意味は同じ。helpの後のtoは省略可能。パッセージ内では両方の形が使われている（help to prevent / help prevent）。"
                     },
                     {
-                        "q": "'knowledge of the area' はどのように役立ちましたか？",
-                        "a": "ビケギラの地域知識がガイドとしての能力に。科学者がフクロウの生息地を特定する手助け。"
+                        "q": "チョークはなぜ必要ですか？",
+                        "a": "登山者は登るにつれて汗をかき（Climbers sweat as they climb）、岩が濡れていることもあるため、手を乾いた状態に保つため。"
                     },
                     {
-                        "q": "フクロウの発見における地元知識の重要性を説明してください。",
-                        "a": "科学者は推測していたが証拠がなかった。地元案内人の過去の目撃情報と地域知識が発見の鍵となった。"
+                        "q": "'If climbers feel that their hands are slipping' の 'feel that' は何を表していますか？",
+                        "a": "「〜と感じる」。知覚を表すthat節。feel that + S + V で認識・感覚の内容を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "used to climb trees",
-                    "the forests",
-                    "wildlife"
+                    "help to prevent climbers from being seriously injured",
+                    "help prevent climbers' feet from slipping",
+                    "helps to keep climbers' hands dry"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "used to構文"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "help/prevent構文"
             },
             {
                 "id": "fp5",

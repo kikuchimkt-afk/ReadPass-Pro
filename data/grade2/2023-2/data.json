@@ -1884,223 +1884,216 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "Not only A but also B 倒置",
-                "subtitle": "Not Only...But Also Inversion",
-                "explanation": "Not only ～ but also ～ は「～だけでなく～も」。文頭のNot onlyの後は疑問文語順(倒置)になる。2級長文で頻出の構文。",
+                "title": "Not only A but also B（倒置構文）",
+                "subtitle": "Inverted Correlative Conjunctions",
+                "explanation": "Not only が文頭に来ると主語と動詞が倒置する。「AだけでなくBも」と情報を追加・強調する重要構文。2級の長文で頻出。",
                 "sourceQuote": "Not only was the city's location important, but also there were fewer laws controlling people's behavior than in other parts of Europe.",
-                "sourceLocation": "Part 3C 第1段落",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "Not only did he pass the exam, but he also got the highest score.",
-                        "ja": "彼は試験に合格しただけでなく、最高点も取った。",
-                        "note": "Not only+did+S+V の倒置形"
+                        "en": "Not only was the city's location important, but also there were fewer laws controlling people's behavior.",
+                        "ja": "その都市の立地が重要であっただけでなく、他のヨーロッパの地域よりも人々の行動を規制する法律が少なかった。",
+                        "note": "Not only + was(V) + S（倒置）: 文頭のNot onlyで主語と動詞が倒置する"
                     },
                     {
-                        "en": "Not only is she talented, but she is also hardworking.",
-                        "ja": "彼女は才能があるだけでなく、勤勉でもある。",
-                        "note": "Not only+is+S の倒置形"
+                        "en": "Not only did he pass the exam, but he also got the highest score.",
+                        "ja": "彼は試験に受かっただけでなく、最高得点も取った。",
+                        "note": "Not only + did(助動詞) + S + V: 一般動詞の場合はdidで倒置"
                     },
                     {
                         "en": "The hotel was not only clean but also very affordable.",
-                        "ja": "そのホテルは清潔なだけでなく、非常に手頃だった。",
-                        "note": "文中のnot only: 倒置なし"
+                        "ja": "そのホテルは清潔なだけでなく、とても手頃な価格だった。",
+                        "note": "文中のnot only...but also: 文頭でない場合は倒置不要"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Venice's Books]\nDuring the Middle Ages, the Italian city of Venice was famous for international trade. Not only was the city's location important, but also there were fewer laws controlling people's behavior than in other parts of Europe. This freedom attracted writers, artists, and craftspeople to the city. Following the invention of printing machines in the 15th century, these people combined their abilities to make Venice the center of the printing and bookmaking industry in Europe. This tradition of making high-quality books by hand survives in the city to this day.",
-                    "ja": "中世、イタリアの都市ヴェネツィアは国際貿易で有名だった。しかし、15世紀には印刷産業の中心地としても知られるようになった。この都市の立地が重要だっただけでなく、人々の行動を規制する法律も少なかった。この自由が作家、芸術家、職人を引きつけ、彼らは能力を組み合わせて美しい本を作り出した。ヴェネツィアで印刷された本はヨーロッパ全土で人気を博し、この都市は知識と文化の発信地としての地位を確立した。",
+                    "ja": "中世、イタリアの都市ヴェネツィアは国際貿易で有名であった。その都市の立地が重要であっただけでなく、ヨーロッパの他の地域よりも人々の行動を規制する法律が少なかった。この自由が作家、芸術家、職人たちをこの都市に引きつけた。15世紀の印刷機の発明に続いて、これらの人々は自分たちの能力を組み合わせ、ヴェネツィアをヨーロッパの印刷・製本業の中心地にした。手作業で高品質な本を作るこの伝統は、今日までこの都市に残っている。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Not only was the city's location important, but also...' の倒置構文を説明してください。",
-                        "a": "Not only + 倒置（was the city's）+ but also の相関構文。否定語が文頭→主語と動詞が倒置。「立地だけでなく〜も」。"
+                        "q": "'Not only was the city's location important, but also there were fewer laws...' の構文を説明してください。",
+                        "a": "Not only が文頭に来たため、was(V) + the city's location(S) と倒置が起きている。「立地が重要だっただけでなく、法律も少なかった」と2つの利点を並列。"
                     },
                     {
-                        "q": "'fewer laws controlling people's behavior' はどのような社会背景を示しますか？",
-                        "a": "「人々の行動を規制する法律が少なかった」。ヴェネツィアの自由な環境が芸術家を引きつけた要因。"
+                        "q": "'Following the invention of printing machines' の 'Following' はどのような用法ですか？",
+                        "a": "前置詞用法で「～に続いて、～の後に」の意味。= After the invention of printing machines。分詞構文的に時間関係を示す。"
                     },
                     {
-                        "q": "'This freedom attracted writers, artists, and craftsmen' の因果を説明してください。",
-                        "a": "法律が少ない自由→作家・芸術家・職人を引きつけた。自由な環境が人材を集め、出版文化を発展させた。"
+                        "q": "なぜヴェネツィアが印刷業の中心地になったのですか？",
+                        "a": "①国際貿易で栄えた立地、②他の地域より自由な法規制（fewer laws）、③それに惹かれた作家・芸術家・職人が集まり、能力を結集したため。"
                     },
                     {
-                        "q": "ヴェネツィアが印刷の中心地になった理由を要約してください。",
-                        "a": "貿易拠点としての好立地、自由な法律環境が人材を引きつけ、協力して美しい本を生産した。"
+                        "q": "'This tradition of making high-quality books by hand survives in the city to this day.' の 'to this day' はどのような意味ですか？",
+                        "a": "「今日まで」。= until now / even today。長い歴史を経て現在も続いていることを強調する表現。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Not only was",
-                    "but also",
-                    "fewer laws"
+                    "Not only was the city's location important, but also there were fewer laws"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "Not only倒置"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Not only...but also（倒置）"
             },
             {
                 "id": "fp2",
-                "title": "be sure to / ought to の助動詞表現",
-                "subtitle": "Modal Expressions",
-                "explanation": "be sure to doは「必ず～する」、ought to doは「～すべきだ」。否定はought not to。the moment S Vは「SがVした瞬間に」で接続詞的に使える。",
-                "sourceQuote": "He is sure to win the 100-meter race. / You ought not to put so much salt.",
-                "sourceLocation": "Part 1 Q18, Q19",
+                "title": "must have + 過去分詞（過去の推量）",
+                "subtitle": "Modal Perfect for Past Deduction",
+                "explanation": "must have + 過去分詞は「～したに違いない」と過去の出来事についての確信度の高い推量を表す。2級の長文で因果関係の推論に頻出。",
+                "sourceQuote": "They say that such an athlete must have been guessing when the shot would be fired rather than waiting to hear it.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "She is sure to succeed in her new job.",
-                        "ja": "彼女は新しい仕事で必ず成功するだろう。",
-                        "note": "be sure to ～=必ず～する(確信)"
+                        "en": "They say that such an athlete must have been guessing when the shot would be fired rather than waiting to hear it.",
+                        "ja": "彼らは、そのような選手は発砲の音を聞くのを待つのではなく、いつ発砲されるかを推測していたに違いないと言う。",
+                        "note": "must have been -ing: 「～していたに違いない」過去進行の推量"
                     },
                     {
-                        "en": "You ought not to stay up so late.",
-                        "ja": "そんなに遅くまで起きているべきではない。",
-                        "note": "ought not to=should notと同義"
+                        "en": "She must have forgotten about the meeting.",
+                        "ja": "彼女は会議のことを忘れていたに違いない。",
+                        "note": "must have + 過去分詞: 「～したに違いない」確信度の高い過去の推量"
                     },
                     {
-                        "en": "The moment I saw him, I knew something was wrong.",
-                        "ja": "彼を見た瞬間、何かおかしいと分かった。",
-                        "note": "the moment ≒ as soon as"
+                        "en": "The roads are wet. It must have rained last night.",
+                        "ja": "道路が濡れている。昨晩雨が降ったに違いない。",
+                        "note": "現在の証拠から過去を推量するパターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Science of False Starts]\nA shot is fired at the beginning of a running race to tell athletes to start moving. If one of the athletes moves before the shot is fired, it is known as a \"false start,\" and the athlete is removed from the race. Interestingly, if an athlete moves before 0.1 seconds have passed after the shot is fired, this is also a false start. Athletics organizations argue that no human can react so quickly. They say that such an athlete must have been guessing when the shot would be fired rather than waiting to hear it.",
-                    "ja": "陸上競技のレースでは、スタートの合図としてピストルが撃たれる。選手がピストルの音の前に動き出すと、それは「フライング」と呼ばれ、選手は失格となる。現在のルールでは、ピストルの音から0.1秒以内に反応した選手はフライングとみなされる。これは、人間がそれほど速く反応することは不可能であり、そのような選手はピストルが撃たれるタイミングを推測していたに違いないと考えられているからだ。",
+                    "ja": "ランニング競技の開始時にスタート合図として銃声が鳴らされる。選手の一人が銃声が鳴る前に動いた場合、「フライング」と呼ばれ、その選手はレースから除外される。興味深いことに、銃声が鳴ってから0.1秒以内に選手が動いた場合も、これはフライングとなる。陸上競技の団体は、人間がそれほど速く反応することは不可能だと主張している。そのような選手は銃声を聞くのを待つのではなく、いつ発砲されるかを推測していたに違いないと彼らは言う。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'must have been guessing' の 'must have been' はどのような推量ですか？",
-                        "a": "「推測していたに違いない」。過去の行為に対する強い推量。0.1秒以内の反応は意図的推測だったはずという確信。"
+                        "q": "'must have been guessing' はどのような意味ですか？",
+                        "a": "「推測していたに違いない」。must have + been -ing で過去進行形の推量。0.1秒以内の反応は速すぎるため、音を聞いてからではなく予測していたはずだという確信。"
                     },
                     {
-                        "q": "'A shot is fired' の受動態はなぜ使われていますか？",
-                        "a": "「ピストルが撃たれる」。誰が撃つかよりも、撃たれるという行為自体が重要。ルールの説明に適した受動態。"
+                        "q": "'rather than waiting to hear it' の 'rather than' はどのような意味ですか？",
+                        "a": "「～するのではなく、～よりも」。対比を表す表現。guessing（推測していた）と waiting（待っていた）を対比している。"
                     },
                     {
-                        "q": "'false start' とはどのような意味ですか？",
-                        "a": "「フライング」。スタート合図の前、または合図後0.1秒以内に動き出すこと。失格の原因となる違反。"
+                        "q": "0.1秒ルールが設けられている理由は何ですか？",
+                        "a": "人間が0.1秒以内に音に反応することは不可能とされるため。そのような速さで動いた選手は音を聞いてから反応したのではなく、タイミングを推測していたと判断される。"
                     },
                     {
-                        "q": "フライングのルールが0.1秒に設定されている理由は何ですか？",
-                        "a": "人間の反応時間は物理的に0.1秒以内は不可能。それ以内の反応=合図を推測していた証拠とされる。"
+                        "q": "'it is known as a false start' の構文を説明してください。",
+                        "a": "受動態 + as: 「～として知られている」。it = 銃声前に動くこと。be known as は「～と呼ばれる」の定型表現。"
                     }
                 ],
                 "highlightPatterns": [
                     "must have been guessing",
-                    "false start",
-                    "A shot is fired"
+                    "rather than waiting to hear it"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "助動詞表現"
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "過去の推量 must have"
             },
             {
                 "id": "fp3",
-                "title": "句動詞のマスター",
-                "subtitle": "Phrasal Verbs Mastery",
-                "explanation": "今回は句動詞が多数出題。take over(引き継ぐ)、come to(至る)、turn in(提出する)、do without(なしで済ます)、go out of use(使われなくなる)など。前置詞・副詞との組み合わせで意味が変わる点に注意。",
-                "sourceQuote": "took over his business / comes to an end / turned in their work / do without electricity",
-                "sourceLocation": "Part 1 Q11-16",
+                "title": "関係代名詞 what の主語用法",
+                "subtitle": "What-clause as Subject",
+                "explanation": "What + S + V（～すること/もの）が文の主語になる構文。筆者が重要なポイントを強調する際に使われ、長文の論旨把握に不可欠。",
+                "sourceQuote": "What made purple straw wheat particularly important was its ability to survive winter weather.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "She took over the company from her father.",
-                        "ja": "彼女は父から会社を引き継いだ。",
-                        "note": "take over=引き継ぐ・乗っ取る"
+                        "en": "What made purple straw wheat particularly important was its ability to survive winter weather.",
+                        "ja": "パープルストロー小麦を特に重要にしたのは、冬の天候を乗り越える能力であった。",
+                        "note": "What made X + 形容詞 + was Y: 「XをCにしたのはYだった」強調構文"
                     },
                     {
-                        "en": "The meeting came to an end at 5 p.m.",
-                        "ja": "会議は午後5時に終了した。",
-                        "note": "come to an end=終わる"
+                        "en": "What surprised me most was how quickly she learned.",
+                        "ja": "私が最も驚いたのは、彼女がいかに早く学んだかということだった。",
+                        "note": "What + V + O + was + how節: 感嘆の内容を強調"
                     },
                     {
-                        "en": "Purple straw wheat went out of use in the 20th century.",
-                        "ja": "パープルストロー小麦は20世紀に使われなくなった。",
-                        "note": "go out of use=使われなくなる"
+                        "en": "What we need is more time to prepare.",
+                        "ja": "私たちに必要なのは、準備するためのもっと多くの時間だ。",
+                        "note": "What + S + V + is + 名詞: whatが主語の節が文全体の主語"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Purple Straw Wheat]\nSome researchers wanted to bring back purple straw wheat. However, its seeds were not easy to obtain because there were only a few sources. The researchers finally managed to get a few grams of purple straw wheat seeds and planted them at Clemson University in South Carolina. They have been gradually increasing the amount of wheat that they can produce, although it is still not enough to make and sell flour. Many chefs, bakers, and whiskey makers are looking forward to being able to use purple straw wheat in their products.",
-                    "ja": "一部の研究者たちはパープルストロー小麦を復活させたいと考えた。しかし、その種子は非常に希少で、わずか数グラムしか手に入らなかった。研究者たちは少量の種子から慎重に栽培を始め、何年もかけて収穫量を増やしていった。彼らの努力のおかげで、現在ではパープルストロー小麦は再び商業的に栽培されるようになり、農家や消費者の間で関心が高まっている。",
+                    "en": "[出典: Purple Straw Wheat]\nPurple straw wheat seeds can be used to make whiskey or produce soft and delicious flour that is good for making cakes and bread. It has been grown since the 18th century, especially in the southern United States. What made purple straw wheat particularly important was its ability to survive winter weather. Unlike other types, purple straw wheat could be planted in late autumn and harvested in early spring. This meant that it avoided summer diseases and insects. As a result, purple straw wheat continued to be widely grown until the mid-20th century.",
+                    "ja": "パープルストロー小麦の種はウイスキーの製造に使え、またケーキやパンを作るのに適した柔らかくおいしい小麦粉を生産できる。18世紀以来、特にアメリカ南部で栽培されてきた。パープルストロー小麦を特に重要にしたのは、冬の天候を乗り越える能力であった。他の品種とは異なり、パープルストロー小麦は晩秋に植えて早春に収穫することができた。これは、夏の病気や害虫を回避できることを意味していた。その結果、パープルストロー小麦は20世紀半ばまで広く栽培され続けた。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'bring back purple straw wheat' の句動詞 'bring back' はどのような意味ですか？",
-                        "a": "「復活させる」。bring back = restore / revive。失われたものを再び存在させること。"
+                        "q": "'What made purple straw wheat particularly important was its ability to survive winter weather.' の構文を説明してください。",
+                        "a": "What made X important（Xを重要にしたこと）が主語、was が動詞、its ability... が補語。「パープルストロー小麦を特に重要にしたのは冬を乗り越える能力だった」。"
                     },
                     {
-                        "q": "'However, its seeds were very rare' の 'However' はどのような転換ですか？",
-                        "a": "「しかし種子は非常に希少だった」。復活させたいという意図→しかし困難があるという対比。"
+                        "q": "'Unlike other types' の 'Unlike' はどのような意味ですか？",
+                        "a": "「～とは異なり」。前置詞で対比を表す。パープルストロー小麦と他の品種の違いを際立たせている。"
                     },
                     {
-                        "q": "'only a few grams' はどのような少量を示しますか？",
-                        "a": "「わずか数グラム」。種子の極端な希少性を強調。復活計画の困難さを数量で具体的に表現。"
+                        "q": "'As a result' は何の結果を示していますか？",
+                        "a": "夏の病気や害虫を回避できたこと（前文の内容）の結果として、パープルストロー小麦が20世紀半ばまで広く栽培され続けた。"
                     },
                     {
-                        "q": "パープルストロー小麦の復活の経緯を要約してください。",
-                        "a": "種子が非常に希少→わずか数グラムから慎重に栽培→何年もかけて増産→現在は商業栽培が復活。"
+                        "q": "'This meant that it avoided summer diseases and insects.' の 'This' は何を指しますか？",
+                        "a": "前文の「晩秋に植えて早春に収穫できること」。夏を避けて栽培するサイクルが、夏の病害虫回避につながった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "bring back",
-                    "However",
-                    "seeds were"
+                    "What made purple straw wheat particularly important was"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "句動詞"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "関係代名詞 what"
             },
             {
                 "id": "fp4",
-                "title": "used to / historians used to believe",
-                "subtitle": "Past Habits with Used To",
-                "explanation": "used to+動詞原形は「以前は～した（今はしていない）」。今回はHistorians used to believe（歴史家はかつて信じていた）の形で、過去の通説が覆されたことを表現。",
-                "sourceQuote": "Historians used to believe this area was underwater at that time, like it is now.",
-                "sourceLocation": "Part 2A 第1段落",
+                "title": "prevent / keep / stop ... from -ing",
+                "subtitle": "Prevention Constructions",
+                "explanation": "prevent/keep/stop + O + from + -ing は「Oが～するのを防ぐ/止める」の構文。長文で因果関係や目的を表す場面で頻出。",
+                "sourceQuote": "By doing so, he hopes to prevent the tradition of bookmaking in Venice from being lost.",
+                "sourceLocation": "Part 3C",
                 "examples": [
                     {
-                        "en": "Historians used to believe this area was underwater.",
-                        "ja": "歴史家たちはかつてこの地域は水没していたと信じていた。",
-                        "note": "used to believe=以前は信じていた(今は違う)"
+                        "en": "He hopes to prevent the tradition of bookmaking in Venice from being lost.",
+                        "ja": "彼はヴェネツィアの製本の伝統が失われるのを防ぎたいと願っている。",
+                        "note": "prevent + O + from + being + 過去分詞: 受動態の動名詞"
                     },
                     {
-                        "en": "People used to think the earth was flat.",
-                        "ja": "かつて人々は地球は平らだと考えていた。",
-                        "note": "過去の通説→今は覆された"
+                        "en": "The security features prevented the cards from being used by anyone except their owners.",
+                        "ja": "セキュリティ機能により、カードは所有者以外の人に使われることが防がれた。",
+                        "note": "prevent + O + from + being + 過去分詞: 「Oが～されるのを防ぐ」"
                     },
                     {
-                        "en": "It has been grown since the 18th century.",
-                        "ja": "18世紀から栽培されてきた。",
-                        "note": "現在完了=今も続く vs used to=今はしない"
+                        "en": "Nothing can stop him from achieving his dream.",
+                        "ja": "何も彼が夢を達成するのを止めることはできない。",
+                        "note": "stop + O + from + -ing: preventと同義の構文"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Doggerland]\nSince the 1930s, fishermen have occasionally found ancient objects made from stone or bone in their nets when fishing in the sea between Britain and northern Europe. Many of these objects were made around 9,000 years ago. Historians used to believe this area was underwater at that time, like it is now. There was also little evidence that ancient Europeans regularly traveled on the sea. Therefore, experts had difficulty explaining how these man-made objects had ended up at the bottom of the ocean.",
-                    "ja": "1930年代以降、漁師たちは北海で石や骨から作られた古代の道具を時々発見してきた。歴史家たちは以前、この地域は何百万年もの間水面下にあったと信じていた。しかし、新たな証拠は、かつてイギリスとヨーロッパ大陸の間に陸地が存在していたことを示唆している。この失われた土地は「ドッガーランド」と呼ばれ、古代の人々が住んでいた形跡がある。古代のヨーロッパ人が定期的に大陸間を行き来していた直接的な証拠はまだほとんどないが、発見された遺物はこの地域の豊かな歴史を物語っている。",
+                    "en": "[出典: Venice's Books]\nOlbi has a picture of Manutius on the wall of his store. Like Manutius, he loves books and believes they should be beautiful. Over the years, Olbi has taught his skills to many people. In 2018, a former student invited Olbi to display his books at an exhibition of handmade objects. This gave Olbi a chance to get more people interested in traditional bookmaking. Olbi wants to expand his store into a cultural center where tourists can see how he makes books and young people can learn his techniques. By doing so, he hopes to prevent the tradition of bookmaking in Venice from being lost.",
+                    "ja": "オルビは店の壁にマヌティウスの写真を飾っている。マヌティウスと同様に、彼は本を愛し、本は美しくあるべきだと信じている。長年にわたり、オルビは多くの人に自分の技術を教えてきた。2018年、かつての教え子がオルビに手作りの物品の展示会に本を展示するよう招待した。これにより、オルビはより多くの人々に伝統的な製本に興味を持ってもらう機会を得た。オルビは店を文化センターに拡大し、観光客が本の作り方を見学でき、若者が技術を学べる場所にしたいと考えている。そうすることで、ヴェネツィアの製本の伝統が失われるのを防ぎたいと願っている。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Historians used to believe' の 'used to' はどのような過去の状態を示しますか？",
-                        "a": "「以前は〜と信じていた」。今はもう信じていない。used to = 過去の習慣・状態で現在は変わっている。"
+                        "q": "'prevent the tradition ... from being lost' の構文を説明してください。",
+                        "a": "prevent + O(the tradition) + from + being lost(受動態の動名詞)。「伝統が失われるのを防ぐ」。from以下が動名詞の受動態。"
                     },
                     {
-                        "q": "'Since the 1930s' はどのような時間表現ですか？",
-                        "a": "「1930年代以降」。現在完了との組み合わせで、過去から現在まで続く行為・発見を示す。"
+                        "q": "'By doing so' の 'doing so' は何を指していますか？",
+                        "a": "前文の「店を文化センターに拡大し、観光客が見学でき若者が学べる場所にすること」全体を指す。"
                     },
                     {
-                        "q": "'occasionally found ancient objects' の 'occasionally' はどのような頻度ですか？",
-                        "a": "「時々」。頻繁ではないが定期的に発見されていること。偶然の発見が繰り返されてきたことを示す。"
+                        "q": "オルビが2018年の展示会に参加した意義は何ですか？",
+                        "a": "より多くの人々に伝統的な製本に興味を持ってもらう機会を得たこと（get more people interested in traditional bookmaking）。"
                     },
                     {
-                        "q": "ドッガーランドについて分かっていることを要約してください。",
-                        "a": "かつてイギリスと大陸の間に陸地が存在。古代の道具が海底から発見。かつては人が住んでいた形跡がある。"
+                        "q": "'a former student invited Olbi to display his books' の 'former' はどのような意味ですか？",
+                        "a": "「かつての、元の」。former student = 元教え子。オルビが長年技術を教えてきた成果を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "used to believe",
-                    "ancient objects",
-                    "fishermen"
+                    "prevent the tradition of bookmaking in Venice from being lost"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "used to構文"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "prevent...from -ing"
             },
             {
                 "id": "fp5",

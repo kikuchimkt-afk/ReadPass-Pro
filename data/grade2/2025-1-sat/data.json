@@ -1390,221 +1390,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "Once / Unless 時・条件の接続詞",
-                "subtitle": "Time & Condition Conjunctions",
-                "explanation": "Once=一度～すると(永続的結果)、Unless=～でない限り。接続詞の選択で文意が大きく変わる。空所補充の定番。",
-                "sourceQuote": "Once insects fall into the leaves, they can never get out.",
-                "sourceLocation": "Part 2A paragraph 2",
+                "title": "not only A but also B（相関接続詞）",
+                "subtitle": "Correlative Conjunction: Not Only...But Also",
+                "explanation": "not only A but also B は「AだけでなくBも」と2つの要素を並列して追加情報を強調する。長文で筆者が複数の利点・効果を述べる際に頻出。",
+                "sourceQuote": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "Once insects fall into the leaves, they can never get out.",
-                        "ja": "一度昆虫が葉に落ちると、二度と出られない。",
-                        "note": "Once=一度～すると(永続的結果)"
+                        "en": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+                        "ja": "この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
+                        "note": "not only solves + but also helps: 動詞を並列。2つの効果を強調。"
                     },
                     {
-                        "en": "Unless you study hard, you won't pass the exam.",
-                        "ja": "一生懸命勉強しない限り、試験に受からない。",
-                        "note": "Unless=if...not"
+                        "en": "Keeping bus fares low also allows more people to take buses to work in the city.",
+                        "ja": "バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようにもなる。",
+                        "note": "allow + O + to V: 「Oが〜するのを可能にする」"
                     },
                     {
-                        "en": "Even though he was tired, he kept working.",
-                        "ja": "疲れていたにもかかわらず、彼は働き続けた。",
-                        "note": "Even though=逆接"
+                        "en": "She not only speaks English but also writes it fluently.",
+                        "ja": "彼女は英語を話すだけでなく、流暢に書くこともできる。",
+                        "note": "not only + V + but also + V: 動詞の並列パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'In addition' はどのような談話標識ですか？",
-                        "a": "「さらに」。前の情報に追加の事実を加える。バス専用車線→さらに均一運賃制度の導入。"
+                        "q": "'not only solves environmental problems but also helps people earn more money' で述べられている2つの効果は何ですか？",
+                        "a": "①環境問題を解決する(solves environmental problems) ②人々がより多くのお金を稼いで生活の質を向上させる(helps people earn more money to improve their quality of life)"
                     },
                     {
-                        "q": "'As a result' はどのような因果関係を示しますか？",
-                        "a": "「その結果」。専用車線＋低運賃→バス利用者の大幅増加。原因→結果の論理展開。"
+                        "q": "'one-third of that of other cities' の 'that' は何を指しますか？",
+                        "a": "ガソリン使用量(the gasoline used per person)。that = the gasoline used per person。繰り返しを避けるための代用表現。"
                     },
                     {
-                        "q": "'regardless of the number of passengers' はどのような意味ですか？",
-                        "a": "「乗客の数に関係なく」。距離や人数によらず一律運賃＝公平性の確保。"
+                        "q": "車が増えたにもかかわらずガソリン使用量が少ない理由は何ですか？",
+                        "a": "多くの人が運転する代わりに効率的で信頼性の高いバスシステムを利用しているから(many people choose to use the city's efficient and reliable bus system instead of driving)。"
                     },
                     {
-                        "q": "クリチバのバスシステムの特徴を要約してください。",
-                        "a": "バス専用車線で定時運行。均一低運賃で低所得者も利用可能。利用者大幅増加。"
+                        "q": "バス運賃を低く抑えることの効果を説明してください。",
+                        "a": "より多くの人がバスで通勤できるようになり(allows more people to take buses to work)、結果として交通費が減ることで稼いだお金を生活改善に使える。"
                     }
                 ],
                 "highlightPatterns": [
-                    "In addition",
-                    "As a result",
-                    "regardless of"
+                    "not only solves environmental problems but also helps people earn more money"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "接続詞・接続表現",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "not only...but also",
                 "practicePassage": {
-                    "en": "[出典: A Bus System in Curitiba]\nFirst, the mayor decided to turn the inner lanes of the road into bus-only lanes. By building bus stops between the inner lanes, buses traveling in both directions could share the same stops. In addition, passengers pay the same fare to go in the same direction regardless of the number of changes or distance. These ways were introduced to make boarding easy and smooth. As a result, most of the residents of the city came to live within 400 meters of a bus stop, and the city buses make more than 20,000 trips a day.",
-                    "ja": "まず、市長は道路の内側の車線をバス専用車線にすることを決めた。さらに、乗客の数に関係なくバス運賃を同一にする制度も導入された。その結果、バスの利用者数は大幅に増加した。この低運賃システムにより、所得の低い住民も公共交通機関を利用しやすくなった。バス専用車線は渋滞を解消し、バスの定時運行を可能にした。",
+                    "en": "[出典: A Bus System in Curitiba]\nThe number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to take buses to work in the city. This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+                    "ja": "市内で個人所有の車の数は過去50年間で急速に増加した。しかし、一人当たりのガソリン使用量はブラジルの他の都市の約3分の1にとどまっている。これは、多くの人が運転する代わりに、市の効率的で信頼性の高いバスシステムを利用することを選んでいるからである。バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようになる。この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "not only A but also B / not just A but B",
-                "subtitle": "Not Only...But Also Pattern",
-                "explanation": "「AだけでなくBも」を表す重要構文。文全体の論点を把握する鍵になる。倒置形(Not only did...)も出題される。",
-                "sourceQuote": "This method not only solves environmental problems but also helps people earn more money.",
-                "sourceLocation": "Part 2B paragraph 3",
+                "title": "条件の Once（一度〜すると）",
+                "subtitle": "Conditional Conjunction 'Once'",
+                "explanation": "Once + S + V は「一度〜すると/〜したら」と、ある条件が満たされた後の不可逆な結果を述べる。if より強い確定性を持つ。",
+                "sourceQuote": "Once insects fall into the leaves, they can never get out.",
+                "sourceLocation": "Part 2A",
                 "examples": [
                     {
-                        "en": "This method not only solves environmental problems but also helps people earn more money.",
-                        "ja": "この方法は環境問題を解決するだけでなく、人々の収入増にも役立つ。",
-                        "note": "not only A but also B=二つの効果"
+                        "en": "Once insects fall into the leaves, they can never get out.",
+                        "ja": "一度昆虫が葉に落ちると、二度と出られない。",
+                        "note": "Once + S + V(現在形): 「一度〜すると」不可逆の条件。can never: 強い否定。"
                     },
                     {
-                        "en": "Spies were not the only ones who used this technique.",
-                        "ja": "この技法を使ったのはスパイだけではなかった。",
-                        "note": "not the only ones=限定否定"
+                        "en": "The leaves are closed and filled with a substance that breaks down their bodies.",
+                        "ja": "葉は閉じられ、昆虫の体を分解する物質で満たされる。",
+                        "note": "that breaks down: 関係代名詞。a substance(先行詞) + that(主格) + breaks down(V)"
                     },
                     {
-                        "en": "The letters cannot be opened without breaking the lock part.",
-                        "ja": "ロック部分を壊さずに開けられない。",
-                        "note": "cannot...without=～なしにはできない"
+                        "en": "Once you understand the basics, everything else becomes easier.",
+                        "ja": "基本を理解すれば、あとは全て簡単になる。",
+                        "note": "Once + 現在形: 一度〜すれば、の後は自動的にそうなる"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'not only solves environmental problems but also helps people earn' の構文を説明してください。",
-                        "a": "not only A but also B。「環境問題を解決するだけでなく、収入向上にも役立つ」。2つの利点を並列。"
+                        "q": "'Once insects fall into the leaves, they can never get out' の 'Once' はどのような意味ですか？",
+                        "a": "「一度〜すると」。条件の接続詞。昆虫が落ちたら後戻りできないという不可逆性を強調。can never で「決して〜できない」。"
                     },
                     {
-                        "q": "'privately owned cars' はどのような所有形態ですか？",
-                        "a": "「個人所有の車」。privately = 個人的に、owned = 所有された。公共交通との対比。"
+                        "q": "この段落で述べられている2つの昆虫の捕まえ方を説明してください。",
+                        "a": "①甘い匂いの袋型の葉に誘い込み閉じ込める方法 ②粘着性のある滴がついた葉で呼吸を封じる方法"
                     },
                     {
-                        "q": "'increased rapidly' はどのような変化ですか？",
-                        "a": "「急増した」。rapidly = 急速に。車の増加にもかかわらずバスシステムが機能していることを示す。"
+                        "q": "'a substance that breaks down their bodies' の 'that' は何ですか？",
+                        "a": "関係代名詞（主格）。先行詞はa substance。「昆虫の体を分解する物質」。breaks downは「分解する」という句動詞。"
                     },
                     {
-                        "q": "クリチバのバスシステムの二重の利点を要約してください。",
-                        "a": "環境問題の解決（排出削減）＋経済的利点（仕事・教育へのアクセス向上）。世界の手本。"
+                        "q": "'Therefore, they die.' の 'Therefore' は何に対する結果ですか？",
+                        "a": "粘着性の滴が昆虫の体を覆い呼吸ができなくなること。呼吸不能→死という因果関係を示す。"
                     }
                 ],
                 "highlightPatterns": [
-                    "not only solves",
-                    "but also helps",
-                    "increased rapidly"
+                    "Once insects fall into the leaves, they can never get out"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "not only/限定否定",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "条件の Once",
                 "practicePassage": {
-                    "en": "[出典: A Bus System in Curitiba]\nThe number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to take buses to work in the city. This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
-                    "ja": "この都市で個人所有の車の数は過去数十年で急増してきた。しかし、クリチバのバスシステムは環境問題を解決するだけでなく、人々の収入向上にも役立っている。効率的な公共交通があることで、車を持たない人々も仕事や教育の機会に容易にアクセスできる。このシステムは世界中の都市計画の手本とされている。",
+                    "en": "[出典: Plants That Eat Insects]\nThere are several ways in which those plants catch insects. One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags. When an insect enters one of the bags, the plant then closes the bag around it. Once insects fall into the leaves, they can never get out. The leaves are closed and filled with a substance that breaks down their bodies. Another way is to use leaves with sticky drops. When insects stop on the leaves, the drops cover their bodies, and they cannot breathe. Therefore, they die.",
+                    "ja": "これらの植物が昆虫を捕まえる方法はいくつかある。一つの方法は、甘い匂いがして小さな袋のような形をした葉に昆虫を引き寄せることである。昆虫が袋の一つに入ると、植物はその周りの袋を閉じる。一度昆虫が葉に落ちると、二度と出られない。葉は閉じられ、昆虫の体を分解する物質で満たされる。もう一つの方法は、粘着性のある滴がついた葉を使うことである。昆虫が葉に止まると、滴が体を覆い、呼吸ができなくなる。そのため、死んでしまう。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "句動詞 struggle with / go over / mind one's own business",
-                "subtitle": "Phrasal Verbs & Idioms",
-                "explanation": "動詞+前置詞/副詞で特別な意味。2級では毎回7問程度が句動詞・イディオム問題。暗記が必要だが文脈推測も可能。",
-                "sourceQuote": "struggle with grammar / go over slides / mind their own business / by all means / in a row / on behalf of / by far",
-                "sourceLocation": "Part 1 Q11-17",
+                "title": "make it + C + for A + to V（形式目的語）",
+                "subtitle": "Make with Formal Object for Evaluation",
+                "explanation": "make + it + 形容詞 + for A + to V は「Aが〜することを…にする」。因果関係の中で障害や困難の原因を述べる際に使われる重要構文。",
+                "sourceQuote": "Letter-locking techniques make it difficult for experts to get such information.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "I really struggle with Spanish grammar.",
-                        "ja": "スペイン語の文法に本当に苦労する。",
-                        "note": "struggle with=～に苦労する"
+                        "en": "Letter-locking techniques make it difficult for experts to get such information.",
+                        "ja": "手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。",
+                        "note": "make + it(形式O) + difficult(C) + for experts(意味上の主語) + to get(真のO)"
                     },
                     {
-                        "en": "He asks a colleague to go over his slides.",
-                        "ja": "同僚にスライドを見直してもらう。",
-                        "note": "go over=見直す・チェックする"
+                        "en": "The delicate paper makes it harder for experts to open letters without damaging them.",
+                        "ja": "繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。",
+                        "note": "makes it harder: 比較級を使ったmake+it+C構文"
                     },
                     {
-                        "en": "He told them to mind their own business.",
-                        "ja": "自分のことに集中しろと言った。",
-                        "note": "余計なお世話=don't interfere"
+                        "en": "The internet has made it easier for people to access information.",
+                        "ja": "インターネットにより、人々が情報にアクセスすることが容易になった。",
+                        "note": "has made + it + easier + for people + to access: 肯定的な変化"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'cannot be opened without breaking' はどのような構文ですか？",
-                        "a": "「破らなければ開けられない」。cannot + 受動態 + without + 動名詞。二重否定で「必ず破損する」を意味。"
+                        "q": "'make it difficult for experts to get such information' の構文を分析してください。",
+                        "a": "make(V) + it(形式目的語) + difficult(C) + for experts(意味上の主語) + to get such information(真の目的語)。「専門家が情報を得ることを困難にする」。"
                     },
                     {
-                        "q": "'Because of this' は何を指しますか？",
-                        "a": "手紙を折りたたむ技法のこと。この技法のおかげで→開ければ痕跡が残る。"
+                        "q": "歴史学者にとって手紙の封緘技術が困難な理由を2つ答えてください。",
+                        "a": "①繊細な紙のため傷つけずに開けるのが難しい(delicate paper makes it harder to open without damaging) ②封緘技術自体に価値があり開けると失われる(its value will be lost once opened)"
                     },
                     {
-                        "q": "'fold a letter into a specific shape' の動詞パターンを説明してください。",
-                        "a": "fold A into B = AをBの形に折りたたむ。手紙を特定の形にする具体的手順。"
+                        "q": "'its value will be lost once opened' の 'once opened' はどのような表現ですか？",
+                        "a": "分詞構文の省略形。once (it is) opened = 「一度開けたら」。once + 過去分詞で条件を簡潔に表す。"
                     },
                     {
-                        "q": "レターロッキングの基本的な仕組みを要約してください。",
-                        "a": "手紙を折りたたみ特定の形に。開けるには破るしかない。痕跡で盗み読みを検知可能。"
+                        "q": "手紙の封緘技術は歴史研究にとってなぜ重要ですか？",
+                        "a": "当時書かれた手紙を読むことが文化や社会の情報を得る手段(one way through which people get information about cultures and society)だから。"
                     }
                 ],
                 "highlightPatterns": [
-                    "cannot be opened without",
-                    "Because of this",
-                    "fold"
+                    "make it difficult for experts to get such information",
+                    "makes it harder for experts to open letters without damaging them"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "句動詞・イディオム",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "make it C for A to V",
                 "practicePassage": {
-                    "en": "[出典: Letter-Locking]\nThere are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
-                    "ja": "レターロッキングには多くの技法がある。簡単な方法の一つは、手紙を折りたたんで特定の形にする方法だ。このため、手紙を破らなければ開けることができない仕組みになっている。もし誰かが手紙を開けようとすれば、その痕跡が必ず残る。これにより、受取人は手紙が途中で読まれたかどうかを知ることができた。",
+                    "en": "[出典: Letter-Locking]\nLetter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
+                    "ja": "手紙の封緘技術は、手紙を安全に送りたい人々を助けたかもしれない。しかし、歴史を研究する専門家にとっては問題となっている。歴史を研究する人々が文化や社会についての情報を得るための一つの方法は、当時書かれた手紙を読むことである。手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。さらに、封緘技術そのものに価値があり、一度開けたらその価値は失われてしまう。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "受身の使役 make+O+V / make it+adj+to V",
-                "subtitle": "Causative & Make It Patterns",
-                "explanation": "make+目的語+動詞原形で「～させる」。make it+形容詞+to不定詞で「～することを…にする」。両パターンとも長文読解のキーになる。",
-                "sourceQuote": "we can make them feel comfortable / make it difficult for experts to get such information",
-                "sourceLocation": "Part 3A paragraph 2, Part 3B paragraph 3",
+                "title": "cannot ... without -ing（〜せずには…できない）",
+                "subtitle": "Double Negative with Without",
+                "explanation": "cannot + V + without + -ing は「〜せずには…できない」と二重否定で「必ず〜する」を意味する。手紙を開けるには壊す必要がある、など不可避な関係を表す。",
+                "sourceQuote": "The letters cannot be opened without breaking the lock part.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "We can make them feel comfortable.",
-                        "ja": "彼らを安心させることができる。",
-                        "note": "make+O+V原形=～させる"
+                        "en": "The letters cannot be opened without breaking the lock part.",
+                        "ja": "手紙はロック部分を壊さなければ開けることができない。",
+                        "note": "cannot be opened + without breaking: 「壊さずには開けられない」=「開けるには壊す必要がある」"
                     },
                     {
-                        "en": "Letter-locking makes it difficult for experts to get information.",
-                        "ja": "レター・ロッキングは専門家が情報を得ることを困難にする。",
-                        "note": "make it+adj+to V"
+                        "en": "Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+                        "ja": "このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
+                        "note": "can know if: 「〜かどうかを知ることができる」。ifは「〜かどうか」の間接疑問。"
                     },
                     {
-                        "en": "The delicate paper makes it harder to open letters.",
-                        "ja": "繊細な紙は開封をより困難にする。",
-                        "note": "make it+比較級+to V"
+                        "en": "You cannot learn a language without practicing it every day.",
+                        "ja": "毎日練習しなければ言語を学ぶことはできない。",
+                        "note": "cannot + V + without + -ing: 二重否定 = 「練習すれば必ず学べる」"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'make it difficult for experts to open' の使役構文を説明してください。",
-                        "a": "make + it（形式目的語）+ difficult + for experts + to open。「専門家でさえ開けることを困難にする」。"
+                        "q": "'cannot be opened without breaking the lock part' はどのような意味ですか？",
+                        "a": "「ロック部分を壊さずには開けられない」=「開けるには必ずロックを壊す必要がある」。cannot + without の二重否定で不可避の関係を表す。"
                     },
                     {
-                        "q": "'Moreover' はどのような論理展開ですか？",
-                        "a": "「さらに」。安全性の説明に追加情報を加える。前文の事実をさらに強化する接続副詞。"
+                        "q": "手紙の封緘の最も難しい方法は何工程ありますか？",
+                        "a": "30以上の工程(over thirty steps)。何度も折り、小さな部分を切り取り、小さな穴に通す。"
                     },
                     {
-                        "q": "'helped people who wanted to send letters safely' の関係代名詞を説明してください。",
-                        "a": "who = people を修飾。「手紙を安全に送りたかった人々を助けた」。制限用法。"
+                        "q": "'the intended receiver can know if somebody else has tried to read the letter' の仕組みを説明してください。",
+                        "a": "ロック部分を壊さないと開けられないので、もし壊されていれば第三者が読もうとした証拠になる。封緘の完全性がセキュリティの役割を果たす。"
                     },
                     {
-                        "q": "レターロッキングの安全性を要約してください。",
-                        "a": "複雑な技法で専門家でも開封困難。安全に手紙を送る手段。現代の技術で解読が進む。"
+                        "q": "'the letters hold themselves closed tightly' の 'hold themselves closed' はどのような構文ですか？",
+                        "a": "hold + O(themselves) + C(closed): 「自らを閉じた状態に保つ」。再帰代名詞themselvesが目的語で、接着剤なしに紙自体が閉じた状態を維持する。"
                     }
                 ],
                 "highlightPatterns": [
-                    "make it difficult",
-                    "makes it harder",
-                    "helped people"
+                    "cannot be opened without breaking the lock part"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "使役構文",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "cannot without",
                 "practicePassage": {
-                    "en": "[出典: Letter-Locking]\nLetter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
-                    "ja": "レターロッキングの技法は、手紙を安全に送りたい人々を助けたかもしれない。さらに、より複雑な技法は専門家でさえ手紙を開くことを困難にした。一部の技法は非常に精巧で、現代の研究者でも解読が難しいほどだ。しかし、X線スキャンなどの最新技術により、手紙を実際に開くことなく中身を読むことが可能になりつつある。",
+                    "en": "[出典: Letter-Locking]\nThere are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+                    "ja": "手紙の封緘技術には多くの異なる方法がある。一つの単純な方法は、手紙を何度も折り、最後の部分を折り目によってできたポケットに入れることである。折ることで手紙を安全にする最も難しい方法は30以上の工程がある。手紙を何度も折り、小さな部分を切り取り、それらの部分を小さな穴に通す必要がある。これらの工程が正しく行われると、手紙はしっかりと閉じた状態を保つ。手紙はロック部分を壊さなければ開けることができない。このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
