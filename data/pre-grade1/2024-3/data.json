@@ -1897,223 +1897,218 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "so/such…that構文と程度表現",
-                "subtitle": "So/Such...That & Degree Constructions",
-                "explanation": "準1級では so…that / such…that による程度・結果構文が頻出します。本試験でも 'drove so carelessly that' や 'so good that' など多用されています。",
-                "sourceQuote": "Brad drove so carelessly that it was inevitable he would have an accident.",
-                "sourceLocation": "Part 1 Q12",
+                "title": "so + 形容詞 + that S V（程度・結果構文）",
+                "subtitle": "Degree-Result Construction with So...That",
+                "explanation": "so + 形容詞 + that は「非常に〜なので…する」と程度が結果を引き起こす構文。turned out to be は「〜であることが判明した」。質の高さ→招待→新しいキャリアという因果連鎖を示す。",
+                "sourceQuote": "These illustrations turned out to be so good that Trouvelot was invited to work at a well-known US observatory.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Brad drove so carelessly that it was inevitable he would have an accident.",
-                        "ja": "ブラッドはとても不注意に運転したので事故は避けられなかった。",
-                        "note": "so + 副詞 + that ～＝～するほど…に。"
-                    },
-                    {
                         "en": "These illustrations turned out to be so good that Trouvelot was invited to work at a well-known US observatory.",
-                        "ja": "イラストは非常に優れていたため有名な天文台で働く招待を受けた。",
-                        "note": "so + 形容詞 + that ～＝結果を導く程度表現。"
+                        "ja": "これらのイラストは非常に優れていることが判明し、トルヴェロは有名なアメリカの天文台で働くよう招待された。",
+                        "note": "turned out to be(判明) + so good(程度) + that...was invited(結果): 質の高さ→招待の因果"
                     },
                     {
-                        "en": "Europe's requirements are so much greater than her present ability to pay that she must have substantial additional help.",
-                        "ja": "ヨーロッパの需要は支払い能力をはるかに超えており相当な追加援助が必要だ。",
-                        "note": "so much + 比較級 + that ～＝比較級の強調。"
+                        "en": "There, he began making detailed and beautiful astronomical drawings by painstakingly recording the images he saw through telescopes.",
+                        "ja": "そこで彼は望遠鏡で見た画像を丹念に記録して、詳細で美しい天文画を作り始めた。",
+                        "note": "by painstakingly recording(手段の前置詞句) + he saw through(関係代名詞省略): 働き方の描写"
+                    },
+                    {
+                        "en": "The storm was so severe that all flights were cancelled.",
+                        "ja": "嵐は非常に激しかったため、全便が欠航になった。",
+                        "note": "so + 形容詞 + that: 程度→結果の基本パターン"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Bretton Woods]\nInitially, the dollar's stability brought some success. However, cracks began to appear. The leading European powers, for example, whose productive capabilities had been severely damaged in the war, were heavily dependent on US imports. These had to be paid for in US dollars, but some countries had insufficient dollar funds to do this. As George C. Marshall, the US secretary of state, said at the time, Europe's requirements for food imports and essential products \"are so much greater than her present ability to pay that she must have substantial additional help or face economic, social, and political deterioration of a very grave character.\" Concerns were raised that Europe might return to protectionist trade policies, which might negatively affect the free-trade-supporting United States. To address these and other concerns, the Marshall Plan was approved to provide billions of dollars in aid.",
-                    "ja": "当初、ドルの安定はある程度の成功をもたらした。しかし、制度に亀裂が入り始めた。ヨーロッパの国々は戦争で生産能力が深刻な被害を受けており、経済回復のために大量のアメリカ製品を輸入する必要があった。その結果、ドイツの戦後の債務は現在の支払い能力をはるかに超えるほど膨大であり、アメリカのマーシャルプランが経済援助を提供するために承認された。しかし、これがドルの国外への大量流出を引き起こし、通貨の価値に悪影響を及ぼす可能性が懸念された。",
+                    "en": "[出典: From Spongy Moths to Astronomy]\nThe spongy moth incident marked the end of Trouvelot's hopes of becoming a respected entomologist, but a rare natural phenomenon led him to a different field of study. Not long after his moths escaped, a solar storm caused an aurora to be visible in Massachusetts, and Trouvelot was inspired to make illustrations of the lights that appeared in the night sky. These illustrations turned out to be so good that Trouvelot was invited to work at a well-known US observatory. There, he began making detailed and beautiful astronomical drawings by painstakingly recording the images he saw through telescopes.",
+                    "ja": "スポンジーモスの事件はトルヴェロが尊敬される昆虫学者になる希望の終わりを示したが、珍しい自然現象が彼を別の研究分野へ導いた。蛾が逃げた後まもなく、太陽嵐によりマサチューセッツでオーロラが見えるようになり、トルヴェロは夜空に現れた光のイラストを描くことに鼓舞された。これらのイラストは非常に優れていることが判明し、トルヴェロは有名なアメリカの天文台で働くよう招待された。そこで彼は望遠鏡で見た画像を丹念に記録して、詳細で美しい天文画を作り始めた。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'so much greater than her present ability to pay that...' の so...that構文を説明してください。",
-                        "a": "「支払い能力をはるかに超えるほど膨大だったので〜」。so + 形容詞/副詞 + that = 程度と結果を表す構文。"
+                        "q": "'turned out to be so good that' の構文を分析してください。",
+                        "a": "turned out to be(判明した=予想外の結果) + so good(程度=非常に優れている) + that...was invited(結果=招待)。質の高さが新しいキャリアにつながった因果連鎖。"
                     },
                     {
-                        "q": "'Initially, the dollar's stability brought some success' の 'Initially' はどのような時間関係を示しますか？",
-                        "a": "「当初は」。後に続く 'However' との対比。最初は成功→後に問題が発生という時間的推移を示す。"
+                        "q": "トルヴェロが天文学に転向したきっかけは何ですか?",
+                        "a": "太陽嵐によるオーロラがマサチューセッツで見え、夜空の光のイラストを描くことに鼓舞された。昆虫学の挫折から自然現象が新しい分野への道を開いた。"
                     },
                     {
-                        "q": "'However, cracks began to appear' の比喩表現を説明してください。",
-                        "a": "「しかし亀裂が入り始めた」。cracks = 比喩的表現。制度の欠陥や問題が表面化し始めたこと。"
+                        "q": "'by painstakingly recording the images' の 'painstakingly' はどのような意味ですか?",
+                        "a": "「丹念に/骨を折って」。望遠鏡で見た画像を一つ一つ細かく正確に記録する、トルヴェロの几帳面な作業姿勢を描写。"
                     },
                     {
-                        "q": "ブレトンウッズ体制の初期の問題点は何でしたか？",
-                        "a": "欧州の戦後債務がドル流出を引き起こし、通貨価値に悪影響。マーシャルプランが必要だった。"
+                        "q": "この段落で述べられているトルヴェロの人生の転換点を2つ答えてください。",
+                        "a": "①スポンジーモス事件=昆虫学者の夢の終わり(marked the end) ②オーロラ観測=天文学への転向のきっかけ(led him to a different field)。"
                     }
                 ],
                 "highlightPatterns": [
-                    "so much greater than",
-                    "However",
-                    "Initially"
+                    "turned out to be so good that Trouvelot was invited to work at a well-known US observatory"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "程度構文"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "so good that / turned out to be"
             },
             {
                 "id": "fp2",
-                "title": "受動態の多様なパターン",
-                "subtitle": "Advanced Passive Voice Patterns",
-                "explanation": "準1級では単純な受動態だけでなく、be attributed to, be backed by, be exposed to など多様な受動態パターンが使われます。",
-                "sourceQuote": "The structures' durability has generally been attributed to the unique mix of volcanic ash.",
-                "sourceLocation": "Part 2B 第1段落",
+                "title": "Ironically, it was...that（強調構文+皮肉な逆説）",
+                "subtitle": "Cleft Sentence with Ironic Twist",
+                "explanation": "it was...that は強調構文で特定の要素を際立たせる。Ironically は「皮肉なことに」と逆説を示す。despite the fact that は「〜という事実にもかかわらず」。成功と陳腐化が同じ分野から来る皮肉を述べる。",
+                "sourceQuote": "Ironically, it was the same astrophotography that made his drawings unnecessary.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "The structures' durability has generally been attributed to the unique mix of volcanic ash and lime.",
-                        "ja": "構造物の耐久性は一般的に火山灰と石灰のユニークな配合に起因するとされてきた。",
-                        "note": "be attributed to＝～に帰せられる。現在完了受動態。"
+                        "en": "Ironically, it was the same astrophotography that made his drawings unnecessary.",
+                        "ja": "皮肉なことに、彼の画を不要にしたのはまさに同じ天体写真術だった。",
+                        "note": "Ironically(皮肉) + it was...that(強調構文=天体写真術を強調): 成功を認めた技術が画を陳腐化させた皮肉"
                     },
                     {
-                        "en": "The US dollar was backed by gold.",
-                        "ja": "米ドルは金で裏付けられていた。",
-                        "note": "be backed by＝～に裏付けられている。"
+                        "en": "His illustrations closely match recent photographs despite the fact that they were created using regular art materials.",
+                        "ja": "彼のイラストは通常の画材を使って作られたにもかかわらず、最近の写真と密接に一致する。",
+                        "note": "despite the fact that(〜という事実にもかかわらず) + regular art materials(通常の画材): 精度の驚異"
                     },
                     {
-                        "en": "Roman structures have remained intact despite being exposed to water.",
-                        "ja": "水にさらされているにもかかわらずローマの構造物は無傷で残っている。",
-                        "note": "despite being exposed to＝受動の動名詞。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Roman Concrete]\nThe ancient Romans were known as talented architects and builders who built amphitheaters, temples, bridges, and reservoirs. Many survive to this day, and the reason why has fascinated researchers. The structures' durability has generally been attributed to the unique mix of volcanic ash and another material called lime in the concrete used to help build them. However, analysis of the concrete revealed it contained chunks of lime, which indicated the concrete may not have been mixed as well as it should have been. This was puzzling as the Romans had a reputation for high-quality work and craftsmanship.",
-                    "ja": "古代ローマ人は、円形闘技場、水道橋、港を建設した才能ある建築家・建設者として知られていた。これらの構造物の多くは2,000年以上経った今でも残っている。その耐久性は一般的に、火山灰と別の材料のユニークな混合物であるローマのコンクリートに帰されてきた。しかし、ローマのコンクリートのサンプルには石灰の塊が含まれており、これはコンクリートが適切に混合されていなかった可能性を示していた。長い間、これらの塊は品質管理の不備によるものと見なされていた。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'has generally been attributed to' の受動態はどのような論証を示しますか？",
-                        "a": "「一般的に〜に帰されてきた」。現在完了受動態。長期間にわたる通説を示す。行為者は不特定多数の専門家。"
-                    },
-                    {
-                        "q": "'were known as talented architects' の受動態はなぜ使われていますか？",
-                        "a": "「才能ある建築家として知られていた」。歴史的評価を客観的に述べる。一般的認識を表す受動態。"
-                    },
-                    {
-                        "q": "'which indicated the concrete may not have been mixed properly' の関係代名詞と推量を説明してください。",
-                        "a": "whichは直前の内容を受ける非制限用法。may not have been = 「適切に混合されていなかった可能性」（過去の推量）。"
-                    },
-                    {
-                        "q": "ローマのコンクリートの耐久性の通説と新たな疑問は何ですか？",
-                        "a": "通説: 火山灰の混合が原因。疑問: 石灰の塊は品質不良ではなく、意図的なものだった可能性。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "has generally been attributed",
-                    "known as talented",
-                    "which indicated"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "受動態"
-            },
-            {
-                "id": "fp3",
-                "title": "関係詞の非制限用法と挿入構造",
-                "subtitle": "Non-Restrictive Clauses & Parentheticals",
-                "explanation": "準1級長文では関係詞の非制限用法（, which / , who）による補足情報の挿入が頻繁に使われます。主節の情報と補足情報を正確に区別する力が求められます。",
-                "sourceQuote": "Modern astrophotography technology, which allows astronomers to take high-quality photographs with telescopes, has also revealed the astounding accuracy of Trouvelot's drawings.",
-                "sourceLocation": "Part 3A 第3段落",
-                "examples": [
-                    {
-                        "en": "Modern astrophotography technology, which allows astronomers to take high-quality photographs with telescopes, has also revealed the astounding accuracy of Trouvelot's drawings.",
-                        "ja": "天文学者が望遠鏡で高品質写真を撮れる現代の天体写真技術は、トゥルーヴェロの絵の驚くべき正確さも明らかにした。",
-                        "note": ", which ～ は非制限用法。主語と動詞の間に補足情報を挿入。"
-                    },
-                    {
-                        "en": "The leading European powers, for example, whose productive capabilities had been severely damaged in the war, were heavily dependent on US imports.",
-                        "ja": "例えば戦争で生産能力が深刻に損なわれたヨーロッパ列強は、アメリカからの輸入に大きく依存していた。",
-                        "note": ", whose ～ は非制限的所有格関係詞。, for example, は挿入句。"
-                    },
-                    {
-                        "en": "John Maynard Keynes, a well-known British economist",
-                        "ja": "著名なイギリスの経済学者ジョン・メイナード・ケインズ",
-                        "note": "同格の挿入句。関係詞ではないが同様の補足構造。"
+                        "en": "Ironically, it was the low price that attracted too many buyers and caused the shortage.",
+                        "ja": "皮肉なことに、あまりに多くの買い手を引きつけ品不足を引き起こしたのは低価格だった。",
+                        "note": "Ironically + it was...that: 強調構文+皮肉の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: From Spongy Moths to Astronomy]\nTrouvelot's drawings allowed people to visualize planets and moons in a way that had not been possible before. Today, Trouvelot's work is widely recognized as being responsible for increasing public interest in astronomy, a field that had previously been out of reach to most people. Modern astrophotography technology, which allows astronomers to take high-quality photographs with telescopes, has also revealed the astounding accuracy of Trouvelot's drawings. His illustrations closely match recent photographs despite the fact that they were created using regular art materials. Ironically, it was the same astrophotography that made his drawings unnecessary. This did not prevent them from being appreciated, however — they are now exhibited in museums for people to enjoy.",
-                    "ja": "トルーヴロの描画により、人々はそれまで不可能だった方法で惑星や月を視覚化することができた。彼の作品は科学雑誌や教科書に広く掲載され、天文学への一般の関心を高めることに貢献した。しかし、天体写真の発展により、彼の描画は最終的に不要となった。現代の望遠鏡には天文学者が高品質の写真を撮影できるカメラが搭載されており、手描きのイラストよりもはるかに正確な画像を提供している。それでも、トルーヴロの芸術的遺産は今日でも称賛されており、彼の作品は天文学の歴史における重要な一章を成している。",
+                    "ja": "トルヴェロの画は人々が以前は不可能だった方法で惑星や月を視覧することを可能にした。今日、トルヴェロの作品は、以前はほとんどの人には手の届かない分野だった天文学への一般の関心を高めた功績として広く認められている。天文学者が望遠鏡で高品質な写真を撮影できる現代の天体写真術は、トルヴェロの画の驚くべき正確さも明らかにした。彼のイラストは通常の画材を使って作られたにもかかわらず、最近の写真と密接に一致する。皮肉なことに、彼の画を不要にしたのはまさに同じ天体写真術だった。しかしこれは画が評価されることを妨げなかった——今では人々が楽しむために美術館に展示されている。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'it was the same astrophotography that made his drawings unnecessary' の強調構文を分析してください。",
+                        "a": "it was(強調構文の導入) + the same astrophotography(強調対象) + that made(関係詞=〜したのは)。「画を不要にしたのはまさに同じ天体写真術だった」。"
+                    },
+                    {
+                        "q": "なぜ 'Ironically'（皮肉なことに）と述べられていますか?",
+                        "a": "天体写真術がトルヴェロの画の正確さを証明した(肯定)一方で、その同じ技術が画を不要にした(否定)。評価と陳腐化が同一の技術から来る皮肉。"
+                    },
+                    {
+                        "q": "'despite the fact that they were created using regular art materials' の驚きは何ですか?",
+                        "a": "通常の画材(普通の絵の具・筆)で描かれた手書きイラストが、最先端の望遠鏡写真と密接に一致する。技術的ハンデにもかかわらず驚異的な精度。"
+                    },
+                    {
+                        "q": "トルヴェロの天文画の現在の役割は何ですか?",
+                        "a": "科学的用途は天体写真に取って代わられたが、芸術作品として美術館に展示されている。科学→芸術への価値の変遷。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Ironically, it was the same astrophotography that made his drawings unnecessary",
+                    "despite the fact that they were created using regular art materials"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Ironically / it was...that / despite the fact"
+            },
+            {
+                "id": "fp3",
+                "title": "Despite such efforts...Nevertheless, its legacy lives on（逆境を超えた遺産）",
+                "subtitle": "Legacy Persisting Despite System Failure",
+                "explanation": "Despite + such efforts は「そのような努力にもかかわらず」と失敗を認める。Nevertheless は「それにもかかわらず」と逆接を重ね、legacy lives on は「遺産は生き続ける」と永続的価値を示す。制度の崩壊後も残る影響を論じる構文。",
+                "sourceQuote": "Nevertheless, its legacy lives on in the shape of the International Monetary Fund and the World Bank.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Despite such efforts, further economic challenges occurred. Germany and France effectively left the Bretton Woods system.",
+                        "ja": "そのような努力にもかかわらず、さらなる経済的課題が生じた。ドイツとフランスは事実上ブレトンウッズ体制から離脱した。",
+                        "note": "Despite such efforts(努力にもかかわらず) + further challenges(さらなる問題): 努力が不十分だった"
+                    },
+                    {
+                        "en": "Nevertheless, its legacy lives on in the shape of the International Monetary Fund and the World Bank, which emerged out of the system.",
+                        "ja": "それにもかかわらず、その遺産はシステムから生まれた国際通貨基金と世界銀行の形で生き続けている。",
+                        "note": "Nevertheless(逆接=体制崩壊にもかかわらず) + legacy lives on(遺産の永続) + in the shape of(具体的形態)"
+                    },
+                    {
+                        "en": "Despite its closure, the company's legacy lives on through its innovations.",
+                        "ja": "閉鎖にもかかわらず、会社の遺産はその革新を通じて生き続けている。",
+                        "note": "Despite closure + legacy lives on: 失敗後の永続的影響の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Bretton Woods]\nDespite such efforts, further economic challenges occurred. Germany and France effectively left the Bretton Woods system, inflation increased in many countries, and the United States saw increased domestic and military spending. Such factors affected the valuation of, and confidence in, the dollar. In 1971, the United States suspended the dollar's convertibility to gold, effectively ending the Bretton Woods system. Nevertheless, its legacy lives on in the shape of the International Monetary Fund (IMF) and the World Bank, which emerged out of the system. The IMF's role as an organization that monitors and supports global monetary cooperation and the World Bank's loans and grants to governments in need form a core element of the modern financial order.",
+                    "ja": "そのような努力にもかかわらず、さらなる経済的課題が生じた。ドイツとフランスは事実上ブレトンウッズ体制から離脱し、多くの国でインフレが增大し、アメリカは国内および軍事支出の増加を見た。このような要因がドルの評価と信頼に影響を与えた。1971年、アメリカはドルの金への兌換を停止し、事実上ブレトンウッズ体制を終了させた。それにもかかわらず、その遺産はシステムから生まれたIMFと世界銀行の形で生き続けている。IMFの世界通貨協力を監視・支援する組織としての役割と、世界銀行の政府への融資と助成金は現代の金融秩序の中核要素を形成している。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'which allows astronomers to take high-quality photographs' の関係代名詞はどのような補足ですか？",
-                        "a": "非制限用法。現代の望遠鏡にカメラが搭載されているという追加情報を提供。which = and they。"
+                        "q": "'Despite such efforts' と 'Nevertheless' が同じ段落で使われている効果を説明してください。",
+                        "a": "Despite(努力→失敗): マーシャルプランなどの努力にもかかわらず課題が生じた。Nevertheless(失敗→遺産): 体制崩壊にもかかわらず遺産は存続。二重の逆接で「努力→失敗→しかし遺産」の三段階構成。"
                     },
                     {
-                        "q": "'made his drawings unnecessary' の無生物主語構文を説明してください。",
-                        "a": "「（天体写真の発展が）彼の描画を不要にした」。主語は技術の発展。技術進歩が人の仕事に及ぼす影響を表す。"
+                        "q": "ブレトンウッズ体制が崩壊した具体的な原因を3つ答えてください。",
+                        "a": "①ドイツとフランスの離脱 ②多くの国でのインフレ増大 ③アメリカの国内・軍事支出増加。ドルの価値と信頼が低下。"
                     },
                     {
-                        "q": "'legacy lives on' はどのような表現ですか？",
-                        "a": "「遺産は生き続けている」。lives on = 今も存続している。彼の功績が現代でも評価され続けていること。"
+                        "q": "'legacy lives on in the shape of' の 'in the shape of' は何を示していますか?",
+                        "a": "「〜の形で」。抽象的な遺産(legacy)の具体的な形態を示す。IMFと世界銀行という現存する組織が遺産の具体的な姿。"
                     },
                     {
-                        "q": "トルーヴロの描画が不要になった理由と、彼の遺産が残っている理由を説明してください。",
-                        "a": "天体写真が手描きより正確。しかし芸術的価値と天文学普及への貢献が歴史的に重要と評価されている。"
+                        "q": "1971年にアメリカが行った決定的な行動は何ですか?",
+                        "a": "ドルの金への兌換停止(suspended convertibility to gold)。これがブレトンウッズ体制を事実上終了させた。ニクソン・ショックとして知られる。"
                     }
                 ],
                 "highlightPatterns": [
-                    "which allows astronomers",
-                    "made his drawings",
-                    "unnecessary"
+                    "Despite such efforts, further economic challenges occurred",
+                    "Nevertheless, its legacy lives on in the shape of"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "非制限用法"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "Despite / Nevertheless / legacy lives on"
             },
             {
                 "id": "fp4",
-                "title": "名詞句の後置修飾パターン",
-                "subtitle": "Post-Modification of Noun Phrases",
-                "explanation": "準1級長文では名詞の後ろに分詞句・前置詞句・関係詞節が続く複雑な名詞句が多用されます。主語・目的語の範囲を正確に見抜く力が重要です。",
-                "sourceQuote": "the unique mix of volcanic ash and another material called lime in the concrete used to help build them",
-                "sourceLocation": "Part 2B 第1段落",
+                "title": "has been attributed to...which indicated may not have been（通説への新たな疑問）",
+                "subtitle": "Challenging Conventional Attribution with New Evidence",
+                "explanation": "has generally been attributed to は「一般的に〜に帰されてきた」と通説を提示。which indicated + may not have been は「〜でなかったかもしれないことを示した」と新たな証拠による疑問を提起する。科学的発見の経緯を述べる構文。",
+                "sourceQuote": "The structures' durability has generally been attributed to the unique mix of volcanic ash and lime.",
+                "sourceLocation": "Part 2B",
                 "examples": [
                     {
-                        "en": "the unique mix of volcanic ash and another material called lime in the concrete used to help build them",
-                        "ja": "それらを建設するのに使われたコンクリート中の火山灰と石灰と呼ばれる別の素材のユニークな配合",
-                        "note": "mix ← of ～ ← called ～ ← in ～ ← used to ～ と後置修飾が連鎖。"
+                        "en": "The structures' durability has generally been attributed to the unique mix of volcanic ash and another material called lime in the concrete.",
+                        "ja": "構造物の耐久性は一般的にコンクリートの火山灰と石灰と呼ばれる別の材料の独特な混合に帰されてきた。",
+                        "note": "has been attributed to(受動態=通説) + unique mix(帰属先): 従来の説明を提示"
                     },
                     {
-                        "en": "spirit doubles can be found in old traditional stories from countries across Europe and parts of Africa",
-                        "ja": "ヨーロッパ各国やアフリカの一部の古い伝統的な物語に似た精霊が見つかる",
-                        "note": "stories ← from ～ ← across ～ and ～ の前置詞句による後置修飾。"
+                        "en": "Analysis of the concrete revealed it contained chunks of lime, which indicated the concrete may not have been mixed as well as it should have been.",
+                        "ja": "コンクリートの分析により石灰の塊が含まれていることが判明し、コンクリートが本来あるべきほど十分に混合されていなかった可能性を示した。",
+                        "note": "which indicated(新証拠) + may not have been(過去の推量否定) + as well as it should have been(仮定法=あるべき基準)"
                     },
                     {
-                        "en": "math problems of some complexity",
-                        "ja": "ある程度の複雑さの数学問題",
-                        "note": "of + 抽象名詞で形容詞的修飾。= somewhat complex math problems。"
+                        "en": "The phenomenon has been attributed to climate change, but new evidence suggests otherwise.",
+                        "ja": "この現象は気候変動に帰されてきたが、新しい証拠は別のことを示唆している。",
+                        "note": "has been attributed to + suggests otherwise: 通説への疑問の基本パターン"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Bretton Woods]\nThe conference delegates included Harry Dexter White of the US Treasury and John Maynard Keynes, a well-known British economist. The United States had become the world's most powerful economy, overtaking the colonial European powers, and the agreement that emerged reinforced its dominant position. The Bretton Woods system hinged on an arrangement that directly linked the value of the US dollar to gold. At the time, the US Federal Reserve possessed the world's largest reserves of gold, so as White pointed out, it seemed unlikely the United States would run out. The knowledge that the US dollar was backed by gold helped establish it as the world's primary reserve currency, and the other signees agreed to tie the value of their currencies to the US dollar.",
-                    "ja": "会議の代表者には、アメリカ財務省のハリー・デクスター・ホワイトと、著名なイギリスの経済学者ジョン・メイナード・ケインズが含まれていた。両者は異なるビジョンを持っていたが、最終的にアメリカのドルを世界の基軸通貨とすることで合意した。これは通貨を金に直接結びつける取り決めであり、アメリカのドルが金に裏付けられているという認識が、他の国々の通貨に対する信頼を支えた。各国の通貨はドルに対して固定レートで設定され、国際貿易に安定をもたらすことが期待された。",
+                    "en": "[出典: Roman Concrete]\nThe ancient Romans were known as talented architects and builders who built amphitheaters, temples, bridges, and reservoirs. Many survive to this day, and the reason why has fascinated researchers. The structures' durability has generally been attributed to the unique mix of volcanic ash and another material called lime in the concrete used to help build them. However, analysis of the concrete revealed it contained chunks of lime, which indicated the concrete may not have been mixed as well as it should have been. This was puzzling as the Romans had a reputation for high-quality work and craftsmanship.",
+                    "ja": "古代ローマ人は円形劇場、神殿、橋、貯水池を建設した才能ある建築家として知られている。多くが今日まで残っており、その理由は研究者を魅了してきた。構造物の耐久性は一般的に、建設に使用されたコンクリートの火山灰と石灰と呼ばれる別の材料の独特な混合に帰されてきた。しかしコンクリートの分析により石灰の塊が含まれていることが判明し、コンクリートが本来あるべきほど十分に混合されていなかった可能性を示した。ローマ人は高品質な仕事と職人技で評判があったため、これは不可解だった。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'an arrangement that directly linked currencies to gold' はどのような後置修飾ですか？",
-                        "a": "「通貨を金に直接結びつける取り決め」。that節がarrangementを後置修飾。ブレトンウッズ体制の核心を説明。"
+                        "q": "'has generally been attributed to' の受動態はなぜ使われていますか?",
+                        "a": "「一般的に〜に帰されてきた」。通説・定説を主語なしで客観的に提示する学術的表現。誰が主張したかではなく、広く受け入れられてきた見解であることを示す。"
                     },
                     {
-                        "q": "'was backed by gold' の受動態はどのような安定性を示しますか？",
-                        "a": "「金に裏付けられていた」。ドルの価値が金という実物資産に保証されていたこと。金本位制の基盤。"
+                        "q": "'may not have been mixed as well as it should have been' を分析してください。",
+                        "a": "may not have been(推量否定=〜でなかったかもしれない) + as well as(比較=同程度に) + it should have been(仮定法=あるべき基準)。「あるべきほど十分に混合されていなかった可能性」。"
                     },
                     {
-                        "q": "'the knowledge that the US dollar was backed by gold' の 'that' はどのような同格ですか？",
-                        "a": "knowledge の具体的内容を説明する同格のthat節。「ドルが金に裏付けられているという認識」。"
+                        "q": "石灰の塊の発見がなぜ「不可解」(puzzling)だったのですか?",
+                        "a": "ローマ人は高品質な仕事と職人技で評判があった(reputation for high-quality work)。塊は混合不良を示唆し、その評判と矛盾したため不可解だった。"
                     },
                     {
-                        "q": "ブレトンウッズ体制の基本的仕組みを要約してください。",
-                        "a": "ドルを基軸通貨とし金に固定。各国通貨はドルに対し固定レート。国際貿易の安定を目的とした。"
+                        "q": "この段落は科学的発見のどのような段階を描いていますか?",
+                        "a": "①通説の提示(attributed to) ②新証拠の発見(analysis revealed) ③通説への疑問(may not have been) ④謎の提起(puzzling)。次の段落で解決が示される構成。"
                     }
                 ],
                 "highlightPatterns": [
-                    "an arrangement that directly",
-                    "was backed by gold",
-                    "knowledge that"
+                    "has generally been attributed to the unique mix",
+                    "which indicated the concrete may not have been mixed as well as it should have been"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "後置修飾"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "attributed to / which indicated / may not have been"
             },
             {
                 "id": "fp5",

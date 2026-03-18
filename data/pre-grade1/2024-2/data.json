@@ -1901,223 +1901,216 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "譲歩・逆接の論理展開",
-                "subtitle": "Concessive & Adversative Transitions",
-                "explanation": "本試験では nevertheless, despite, although, however, in contrast など譲歩・逆接の接続表現が多用されています。予想に反する展開を正確に読み取る力が必要です。",
-                "sourceQuote": "it was officially neutral in the conflict. Nevertheless, its actions told a different story.",
-                "sourceLocation": "Part 2A 第1段落",
+                "title": "Although widely used...ongoing debate regarding validity（有効性への疑問）",
+                "subtitle": "Questioning Validity Despite Widespread Use",
+                "explanation": "Although + widely used は「広く使われているにもかかわらず」と普及度を認めつつ、ongoing debate regarding は「〜に関する継続的議論」と疑問を提起する。Furthermore + MRI scans indicated は追加の科学的根拠を示す。",
+                "sourceQuote": "Although IQ tests are now widely used, there is ongoing debate regarding their validity.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "it was officially neutral in the conflict. Nevertheless, its actions told a different story.",
-                        "ja": "公式には中立だった。しかし行動は違う話を語っていた。",
-                        "note": "Nevertheless＝にもかかわらず。公式見解と実際の行動の対比。"
+                        "en": "Although IQ tests are now widely used, there is ongoing debate regarding their validity.",
+                        "ja": "IQテストは現在広く使われているが、その有効性に関する継続的な議論がある。",
+                        "note": "Although(譲歩=広く使用) + ongoing debate(継続的議論) + regarding(〜に関して): 有効性への疑問提起"
                     },
                     {
-                        "en": "Despite this criticism, proponents of IQ tests believe they can be beneficial.",
-                        "ja": "この批判にもかかわらず、IQテストの支持者は有益だと考えている。",
-                        "note": "Despite + 名詞＝～にもかかわらず。"
+                        "en": "Furthermore, MRI scans taken while a small group of the participants were answering questions indicated that each of these abilities was controlled by a different region in the brain.",
+                        "ja": "さらに、参加者の小グループが質問に答えている間に撮影されたMRIスキャンは、これらの能力のそれぞれが脳の異なる領域によって制御されていることを示した。",
+                        "note": "Furthermore(追加根拠) + MRI scans taken while(時間の分詞構文) + indicated that(科学的発見)"
                     },
                     {
-                        "en": "In contrast, early subway tunnels were created in a less sophisticated way.",
-                        "ja": "対照的に初期のトンネルはより洗練されていない方法で作られた。",
-                        "note": "In contrast＝対照的に。現代と過去の比較。"
+                        "en": "Although the method is commonly accepted, there is growing debate about its accuracy.",
+                        "ja": "その方法は一般的に受け入れられているが、その正確性についての議論が高まっている。",
+                        "note": "Although accepted + debate about: 有効性疑問の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Measuring Intelligence]\nAlthough IQ tests are now widely used, there is ongoing debate regarding their validity. One issue raised by critics relates to the nature of intelligence. IQ tests are based on the principle that all aspects of intelligence can be measured by one standardized test of general cognitive ability. However, a large-scale study carried out in Canada suggests that this model of intelligence is too simple. In the study, which included over 100,000 participants, researchers asked subjects to answer questions that targeted a range of cognitive skills. As expected, some participants were better at answering the questions than others, but the researchers believed this could only be explained by considering three different aspects of mental ability — short-term memory, reasoning, and verbal skills. Furthermore, MRI scans taken while a small group of the participants were answering questions indicated that each of these abilities was controlled by a different region in the brain.",
-                    "ja": "IQテストは現在広く使用されているが、その妥当性については継続的な議論がある。批判者は、IQテストが測定しているのは知能のごく一部に過ぎず、短期記憶、推論能力、言語スキルといった特定の認知能力に限定されていると主張する。創造性、感情的知性、実践的な問題解決能力などの重要な能力は、標準的なIQテストでは測定されない。しかし、大規模な研究では、IQスコアが学業成績や職業的成功と相関していることが示されている。これは、IQテストが完璧ではないにしても、何らかの有用な知的能力の指標を提供していることを示唆している。",
+                    "ja": "IQテストは現在広く使われているが、その有効性に関する継続的な議論がある。批判者が提起する一つの問題は知能の本質に関するものだ。IQテストは知能の全側面が一般的な認知能力の一つの標準テストで測定できるという原則に基づいている。しかしカナダで行われた大規模な研究は、この知能モデルが単純すぎることを示唆している。10万人以上の参加者を含むこの研究で、研究者は被験者にさまざまな認知スキルを対象とした質問に答えるよう求めた。予想通り、一部の参加者は他の参加者より質問に答えるのが得意だったが、研究者はこれは精神能力の3つの異なる側面——短期記憶、推論、言語スキル——を考慮することでのみ説明できると考えた。さらに、参加者の小グループが質問に答えている間に撮影されたMRIスキャンは、これらの能力のそれぞれが脳の異なる領域によって制御されていることを示した。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Although IQ tests are now widely used' の 'Although' はどのような譲歩ですか？",
-                        "a": "「IQテストは広く使用されているが」。普及している事実を認めつつ、その妥当性への疑問を提示する譲歩。"
+                        "q": "'Although IQ tests are now widely used, there is ongoing debate regarding their validity' の構文を分析してください。",
+                        "a": "Although(譲歩=広く使用されている事実を認める) + ongoing debate(名詞=継続的議論) + regarding(前置詞=〜に関して) + validity(有効性)。普及と疑問の対比。"
                     },
                     {
-                        "q": "'However, a large-scale study' の 'However' はどのような転換を示しますか？",
-                        "a": "「しかし」。批判的な議論の後に、IQテストの有用性を支持する証拠を提示する逆接。両面からの論証。"
+                        "q": "カナダの研究が示唆した知能モデルの問題点は何ですか?",
+                        "a": "IQテストの前提(知能=単一の一般的認知能力)が単純すぎる。知能は短期記憶・推論・言語スキルの3つの異なる側面で構成される。"
                     },
                     {
-                        "q": "'ongoing debate regarding their validity' はどのような論争状態ですか？",
-                        "a": "「妥当性に関する継続的な議論」。ongoing = 決着していない。IQテストの価値について合意がないこと。"
+                        "q": "MRIスキャンが提供した追加的根拠は何ですか?",
+                        "a": "3つの精神能力(短期記憶・推論・言語)がそれぞれ脳の異なる領域で制御されていた。知能が単一ではないという主張の神経科学的裏付け。"
                     },
                     {
-                        "q": "IQテストの批判点と擁護点を要約してください。",
-                        "a": "批判: 知能の一部しか測れない。擁護: 学業・職業的成功との相関が示されており、何らかの有用な指標を提供。"
+                        "q": "'this could only be explained by considering three different aspects' の 'only' はなぜ重要ですか?",
+                        "a": "「〜を考慮することでのみ説明できる」。単一のIQでは説明不十分で、3側面での分析が唯一の説明方法であると排他的に主張。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Although IQ tests",
-                    "However",
-                    "ongoing debate"
+                    "Although IQ tests are now widely used, there is ongoing debate regarding their validity"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "逆接・譲歩"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Although widely used / ongoing debate"
             },
             {
                 "id": "fp2",
-                "title": "受身の動名詞・不定詞構文",
-                "subtitle": "Passive Gerunds & Infinitives",
-                "explanation": "本試験では受動態と動名詞・不定詞の組み合わせが多く登場します。being + 過去分詞や to be + 過去分詞の構造を正確に把握する力が求められます。",
-                "sourceQuote": "students from ethnic minorities tend to have less chance of being selected for such programs.",
-                "sourceLocation": "Part 3A 第3段落",
+                "title": "has largely held true, but only because（条件付きの真実）",
+                "subtitle": "Conditional Truth with Hidden Cost",
+                "explanation": "has largely held true は「概ね正しいままである」と法則の有効性を認める。but only because は「しかし〜だからこそ」と隠れたコスト・条件を暴露する。表面的な成功の裏にある犠牲を示す構文。",
+                "sourceQuote": "Moore's law has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "students from ethnic minorities tend to have less chance of being selected for such programs.",
-                        "ja": "少数派の生徒はプログラムに選ばれる機会が少ない傾向がある。",
-                        "note": "of being selected＝選ばれることの。受動の動名詞。"
+                        "en": "Moore's law has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased.",
+                        "ja": "ムーアの法則は概ね正しいままだが、それを可能にするために使われる人力と時間の量も大幅に増加したからこそである。",
+                        "note": "largely held true(概ね維持) + but only because(条件付き=隠れたコスト): 表面と実態のギャップ"
                     },
                     {
-                        "en": "a test that could be used to identify children who needed educational support",
-                        "ja": "教育支援が必要な子供を特定するために使えるテスト",
-                        "note": "could be used to＝～するために使える。受動の不定詞。"
+                        "en": "The number of researchers required to maintain the same level of innovation today is around seventy-five times more than it was in the early 1970s.",
+                        "ja": "今日同じレベルの革新を維持するのに必要な研究者の数は、1970年代初期の約75倍である。",
+                        "note": "seventy-five times more than: 倍数比較。維持コストの劇的増大を数値で示す"
                     },
                     {
-                        "en": "the role these ships played in helping to turn the war in the Allies' favor should not be underestimated.",
-                        "ja": "戦局を連合国有利に変えた役割は過小評価されるべきではない。",
-                        "note": "should not be underestimated＝過小評価されるべきではない。"
+                        "en": "The company has maintained growth, but only because it has doubled its marketing budget.",
+                        "ja": "会社は成長を維持したが、マーケティング予算を倍にしたからこそである。",
+                        "note": "maintained + but only because: 条件付き真実の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Age and Innovation]\nMoore's law has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased. As a paper by researchers from two universities in the United States concludes, \"The constant exponential growth implied by Moore's law has been achieved only by a staggering increase in the amount of resources devoted to pushing the frontier forward.\" In fact, the number of researchers required to maintain the same level of innovation today is around seventy-five times more than it was in the early 1970s. Similarly, there is a general trend in many areas of society for significant progress to take longer. Political and business leaders are getting older, the average age of Nobel Prize winners is rising, and groundbreaking scientific discoveries are being made less frequently.",
-                    "ja": "ムーアの法則は概ね正しいことが証明されてきたが、それは投入される人的資源と資金が劇的に増加してきたからこそである。科学的・技術的ブレークスルーはより少ない頻度でしか達成されなくなっており、各ブレークスルーを実現するためにより多くの研究者と資金が必要とされている。これは、「低い位置にぶら下がる果実」がすでに収穫されてしまい、残された発見や発明はより困難で費用がかかるものになっていることを意味する。この傾向は技術分野だけでなく、医学や農業など他の多くの分野でも観察されている。",
+                    "ja": "ムーアの法則は概ね正しいままだが、それを可能にするために使われる人力と時間の量も大幅に増加したからこそである。アメリカの2大学の研究者による論文が結論づけるように、「ムーアの法則が示唆する一定の指数関数的成長は、最前線を押し進めるために投じられる資源の驚異的な増加によってのみ達成されてきた。」実際、今日同じレベルの革新を維持するのに必要な研究者の数は1970年代初期の約75倍である。同様に、社会の多くの分野で重要な進歩に時間がかかるという一般的傾向がある。政治・ビジネスのリーダーは高齢化し、ノーベル賞受賞者の平均年齢は上昇し、画期的な科学的発見はより少なくなっている。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'being made less frequently' の受身の動名詞を説明してください。",
-                        "a": "「より少ない頻度で達成されている」。being + 過去分詞 = 受身の動名詞。ブレークスルーの減少を示す。"
+                        "q": "'has largely held true, but only because' が示す論理構造は何ですか?",
+                        "a": "表面: ムーアの法則は維持(held true)。裏面: 莫大な資源増加が必要条件(only because=隠れたコスト)。成功の裏にある犠牲を暴露する構造。"
                     },
                     {
-                        "q": "'has largely held true, but only because' の 'but only because' はどのような限定ですか？",
-                        "a": "「正しかったが、それは〜だったからこそ」。法則の維持が無条件ではなく、資源増大という条件付きであることを限定。"
+                        "q": "'seventy-five times more than it was in the early 1970s' は何を示していますか?",
+                        "a": "同レベルの革新維持に必要な研究者が75倍に増加。つまりイノベーションの効率が劇的に低下している証拠。1人あたりの革新貢献度が激減。"
                     },
                     {
-                        "q": "'manpower and money' は無生物主語構文でどのように使われていますか？",
-                        "a": "人的資源と資金がブレークスルーの実現に必要な条件として示される。投入量の増加が技術進歩を支えている。"
+                        "q": "イノベーションの鈍化を示す3つの社会的指標を答えてください。",
+                        "a": "①政治・ビジネスリーダーの高齢化 ②ノーベル賞受賞者の平均年齢上昇 ③画期的科学的発見の頻度低下。"
                     },
                     {
-                        "q": "ムーアの法則が今後も維持されるための課題は何ですか？",
-                        "a": "各ブレークスルーにより多くの人材と資金が必要。容易な発見は既に尽きており、残りはより困難で高コスト。"
+                        "q": "論文からの引用はなぜ使われていますか?",
+                        "a": "「驚異的な資源増加によってのみ達成」という主張を学術的権威で裏付け。直接引用は客観性と説得力を強化する学術文体。"
                     }
                 ],
                 "highlightPatterns": [
-                    "being made less frequently",
-                    "has largely held true",
-                    "but only because"
+                    "has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "受身動名詞"
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "largely held true / but only because"
             },
             {
                 "id": "fp3",
-                "title": "ダッシュ（—）による補足・言い換え",
-                "subtitle": "Em Dashes for Clarification",
-                "explanation": "本試験ではダッシュ（—）が補足情報や言い換えを挿入するために多用されています。文の主構造とダッシュ内の補足を正確に区別する力が必要です。",
-                "sourceQuote": "some ships — along with their crews — were lost.",
-                "sourceLocation": "Part 2A 第2段落",
+                "title": "Despite criticism...can be beneficial if used appropriately（条件付き有用性）",
+                "subtitle": "Conditional Usefulness Despite Criticism",
+                "explanation": "Despite + criticism は「批判にもかかわらず」と反対意見を認めたうえで、can be beneficial if は「〜ならば有益となりうる」と条件付きの肯定を述べる。議論のバランスを取る高度な構文。",
+                "sourceQuote": "Despite this criticism, proponents of IQ tests believe they can be beneficial if used appropriately.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "some ships — along with their crews — were lost.",
-                        "ja": "乗組員ごと失われた船もあった。",
-                        "note": "— along with their crews — はダッシュによる挿入で、shipsの補足情報。"
+                        "en": "Despite this criticism, proponents of IQ tests believe they can be beneficial if used appropriately.",
+                        "ja": "この批判にもかかわらず、IQテストの支持者はそれが適切に使用されれば有益となりうると考えている。",
+                        "note": "Despite(譲歩=批判を認める) + can be beneficial(有益の可能性) + if used(条件=適切な使用): 条件付き肯定"
                     },
                     {
-                        "en": "three different aspects of mental ability — short-term memory, reasoning, and verbal skills.",
-                        "ja": "精神能力の3つの異なる側面—短期記憶、推論、言語スキル。",
-                        "note": "ダッシュの後に具体例を列挙。"
+                        "en": "Since the majority of teachers in US schools are White, students from ethnic minorities tend to have less chance of being selected for such programs.",
+                        "ja": "アメリカの学校の教師の大多数が白人であるため、民族的マイノリティの生徒はそのようなプログラムに選ばれる機会が少なくなる傾向がある。",
+                        "note": "Since(理由) + majority are White → tend to have less chance(結果): 構造的偏見の因果関係"
                     },
                     {
-                        "en": "older workers are more efficient — and therefore more productive — than their younger colleagues",
-                        "ja": "高齢労働者はより効率的で—したがってより生産的で—若い同僚よりも優れている",
-                        "note": "—and therefore more productive—は括弧的に追加情報を挿入。"
+                        "en": "Despite the risks, the treatment can be effective if administered correctly.",
+                        "ja": "リスクにもかかわらず、正しく投与されれば治療は効果的でありうる。",
+                        "note": "Despite + can be effective if: 条件付き肯定の基本パターン"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Age and Innovation]\nA further obstacle to scientific and technological innovation often cited by economists is the fact that populations are aging. It is believed by some that an aging workforce holds back new discoveries because older workers are less able to learn new skills and less willing to adopt new knowledge. However, some experts believe the opposite to be true. Better diets, advances in medicine, and improved health care mean that people today not only live longer but also stay physically and mentally active until a later age. In addition, because of their experience, older workers are more efficient — and therefore more productive — than their younger colleagues and play valuable roles in passing on knowledge. These factors help to promote innovation and counterbalance the effects of the burden of knowledge.",
-                    "ja": "経済学者がしばしば挙げる科学的・技術的革新へのさらなる障壁は、研究者の高齢化である。食事の改善、医学の進歩、衛生状態の改善は人々をより長く健康に生かし、したがってより生産的にしてきた。しかし、これらの要因は同時に、革新が最も期待される若い研究者がキャリアの初期段階で重要なポジションに就くことを難しくしている。年長の研究者が長くポジションを占めることで、新しいアイデアや手法の導入が遅れる可能性がある。",
+                    "en": "[出典: Measuring Intelligence]\nDespite this criticism, proponents of IQ tests believe they can be beneficial if used appropriately. In US schools, for example, children from ethnic minorities tend to be overlooked for gifted education programs. One reason for this is that, historically, candidates for such programs have been selected based on referrals from teachers. Studies have shown that the academic performance and behavior of students are influenced by their teachers' attitudes toward them, which may, in turn, be affected by the teachers' subconscious racial biases. Since the majority of teachers in US schools are White, students from ethnic minorities tend to have less chance of being selected for such programs. However, in US school districts where IQ tests have been used in the selection process, more students from ethnic minorities have been able to enter the programs. Supporters of the tests say they are a fairer selection method because they provide an objective measure of ability.",
+                    "ja": "この批判にもかかわらず、IQテストの支持者はそれが適切に使用されれば有益となりうると考えている。例えばアメリカの学校では、民族的マイノリティの児童は英才教育プログラムで見過ごされる傾向がある。その理由の一つは、歴史的にそのようなプログラムの候補者が教師からの推薦に基づいて選ばれてきたことだ。研究は生徒の学業成績と行動が教師の態度に影響され、それが教師の無意識の人種的偏見に影響されうることを示している。アメリカの学校の教師の大多数が白人であるため、民族的マイノリティの生徒はそのようなプログラムに選ばれる機会が少なくなる傾向がある。しかしIQテストが選考プロセスで使用されたアメリカの学区では、より多くの民族的マイノリティの生徒がプログラムに入ることができた。テストの支持者はそれが能力の客観的な尺度を提供するため、より公平な選考方法であると述べている。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'— and therefore more productive —' のダッシュはどのような補足ですか？",
-                        "a": "挿入句。「したがってより生産的」。健康で長生きすることが生産性向上にもつながるという論理を補足。"
+                        "q": "'Despite this criticism...can be beneficial if used appropriately' の議論のバランスを説明してください。",
+                        "a": "Para1の批判(有効性への疑問)を認めつつ(Despite)、条件付き(if appropriately)で有用性を主張。批判と擁護の両面を提示するバランスの取れた議論。"
                     },
                     {
-                        "q": "'A further obstacle often cited by economists' はどのような導入ですか？",
-                        "a": "「経済学者がしばしば挙げるさらなる障壁」。前段落の問題に追加の要因を付け加える。further = 追加の。"
+                        "q": "教師の推薦制度がマイノリティの生徒に不利な理由の因果連鎖を説明してください。",
+                        "a": "教師の大多数が白人→無意識の人種的偏見→マイノリティ生徒への態度に影響→学業成績・行動の評価に影響→推薦されにくい→プログラム参加が少ない。構造的偏見の連鎖。"
                     },
                     {
-                        "q": "'These factors help to promote' の無生物主語はどのように機能していますか？",
-                        "a": "食事改善・医学進歩・衛生向上（無生物）が主語。これらの要因が健康と長寿を促進するという因果関係。"
+                        "q": "IQテストが「より公平な選考方法」とされる理由は何ですか?",
+                        "a": "能力の客観的尺度(objective measure of ability)を提供するため。教師の主観的判断・無意識の偏見の影響を排除できる。"
                     },
                     {
-                        "q": "研究者の高齢化が革新にどのような影響を与えますか？",
-                        "a": "年長者がポジションを長く占め、若い研究者の登用が遅れる。新しいアイデアの導入が停滞する可能性。"
+                        "q": "'subconscious racial biases' はどのように英才教育の選考に影響しますか?",
+                        "a": "無意識の人種的偏見が教師のマイノリティ生徒への態度に影響→生徒の学業成績と行動に影響→推薦率の低下。意図的差別ではなく構造的・無意識的な偏見。"
                     }
                 ],
                 "highlightPatterns": [
-                    "— and therefore more productive —",
-                    "further obstacle",
-                    "often cited"
+                    "Despite this criticism, proponents of IQ tests believe they can be beneficial if used appropriately"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "ダッシュ挿入"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "Despite criticism / beneficial if"
             },
             {
                 "id": "fp4",
-                "title": "無生物主語構文",
-                "subtitle": "Inanimate Subject Constructions",
-                "explanation": "準1級長文では「モノ・コト」が主語になりhelpやenableなどの使役動詞を取る無生物主語構文が頻出します。日本語訳では主語を変換して「～のおかげで」などとする必要があります。",
-                "sourceQuote": "The knowledge that the US dollar was backed by gold helped establish it as the world's primary reserve currency.",
-                "sourceLocation": "Part 3B (2024-3) / Similar pattern in 2024-2",
+                "title": "not only...but also + ダッシュ挿入の therefore（複合的反論）",
+                "subtitle": "Multi-Layered Counter-Argument with Dash Insertion",
+                "explanation": "not only...but also は「〜だけでなく〜も」で複数の利点を列挙。ダッシュ(—)による挿入で — and therefore more productive — と因果的補足を追加する。反対意見への多層的反論を構築する高度な構文。",
+                "sourceQuote": "People today not only live longer but also stay physically and mentally active until a later age.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "its success helped kickstart the London Underground subway system.",
-                        "ja": "その成功がロンドン地下鉄システムの開始につながった。",
-                        "note": "success（成功）が主語でhelped kickstart（始動させるのに役立った）。"
+                        "en": "People today not only live longer but also stay physically and mentally active until a later age.",
+                        "ja": "今日の人々はより長く生きるだけでなく、より遅い年齢まで身体的・精神的に活動的であり続ける。",
+                        "note": "not only(長寿) + but also(活動的): 高齢化のプラス面を二重に主張"
                     },
                     {
-                        "en": "These factors help to promote innovation and counterbalance the effects.",
-                        "ja": "これらの要因がイノベーションを促進し影響を相殺するのに役立つ。",
-                        "note": "factors（要因）が主語でhelp to promote（促進するのに役立つ）。"
+                        "en": "Older workers are more efficient — and therefore more productive — than their younger colleagues and play valuable roles in passing on knowledge.",
+                        "ja": "年配の労働者はより効率的で——したがってより生産的で——若い同僚より価値ある知識伝達の役割を果たす。",
+                        "note": "more efficient(比較級) + — therefore more productive —(ダッシュ挿入=因果的補足) + passing on(知識伝達)"
                     },
                     {
-                        "en": "Better diets, advances in medicine, and improved health care mean that people today not only live longer but also stay active.",
-                        "ja": "より良い食事、医学の進歩、医療改善により現代人はより長生きし活動的でいられる。",
-                        "note": "無生物主語3つ（diets, advances, health care）がmean that～を取る。"
+                        "en": "The system not only reduces costs but also improves quality.",
+                        "ja": "そのシステムはコストを削減するだけでなく、品質も改善する。",
+                        "note": "not only + but also: 複数利点の基本パターン"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Liberty Ships]\nSubmarines were not the only problem. As the war progressed, production of Liberty ships increased, and it eventually ran into the thousands. Unfortunately, some ships had structural issues. Their hulls cracked, and some ships sank at sea. Despite such tragic losses, most Liberty ships operated throughout the war. Some people argue that the role these and other ships played in helping to turn the war in the Allies' favor should not be underestimated. Moreover, the shipyards where the Liberty ships were assembled were often located in relatively low-income areas. The employment that the shipyards provided was a boon to local economies.",
-                    "ja": "潜水艦だけが問題ではなかった。戦争が進むにつれ、リバティ船の生産は加速したが、このような悲劇的な損失にもかかわらず、リバティ船の生産から生まれた雇用は地域経済にとって大きな恩恵となった。造船所は何万人もの労働者に仕事を提供し、女性やマイノリティを含むそれまで産業労働から排除されていた人々にも雇用機会を開いた。リバティ船プログラムの影響は過小評価されるべきではない。それは戦時中の物資輸送を支えただけでなく、アメリカの産業基盤の発展にも大きく貢献した。",
+                    "en": "[出典: Age and Innovation]\nA further obstacle to scientific and technological innovation often cited by economists is the fact that populations are aging. It is believed by some that an aging workforce holds back new discoveries because older workers are less able to learn new skills and less willing to adopt new knowledge. However, some experts believe the opposite to be true. Better diets, advances in medicine, and improved health care mean that people today not only live longer but also stay physically and mentally active until a later age. In addition, because of their experience, older workers are more efficient — and therefore more productive — than their younger colleagues and play valuable roles in passing on knowledge. These factors help to promote innovation and counterbalance the effects of the burden of knowledge.",
+                    "ja": "科学・技術革新に対するさらなる障害として経済学者がしばしば引用するのは、人口が高齢化しているという事実である。高齢化する労働力は、年配の労働者が新しいスキルを学ぶ能力が低く新しい知識を採用する意欲が低いため、新発見を妨げると一部の人は信じている。しかし一部の専門家はその正反対が真実だと考えている。より良い食事、医学の進歩、改善された医療は人々が今日より長く生きるだけでなく、より遅い年齢まで身体的・精神的に活動的であり続けることを意味する。さらに経験があるため、年配の労働者はより効率的で——したがってより生産的で——若い同僚より価値ある知識伝達の役割を果たす。これらの要因は革新を促進し、知識の重荷の影響を相殺するのに役立つ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'should not be underestimated' の受身の否定はどのような主張ですか？",
-                        "a": "「過小評価されるべきではない」。リバティ船プログラムの影響が予想以上に大きいことを主張する表現。"
+                        "q": "'— and therefore more productive —' のダッシュ挿入の役割を説明してください。",
+                        "a": "more efficientの因果的帰結(therefore = したがって)を補足的に挿入。効率性→生産性の論理的つながりを追加。ダッシュで本文の流れを中断せず情報を付加。"
                     },
                     {
-                        "q": "'Despite such tragic losses' の 'Despite' はどのような譲歩ですか？",
-                        "a": "「このような悲劇的な損失にもかかわらず」。船の損失を認めつつ、経済的恩恵を論じる。譲歩表現。"
+                        "q": "'some experts believe the opposite to be true' の 'opposite' は何の反対ですか?",
+                        "a": "「高齢化が革新を妨げる」の反対。つまり「高齢化は革新にプラスに働きうる」。believe O to be C構文で反対意見を提示。"
                     },
                     {
-                        "q": "'The employment that the shipyards provided was a boon' の無生物主語を説明してください。",
-                        "a": "「造船所が提供した雇用は恩恵だった」。employment（雇用）が主語。雇用が地域経済に利益をもたらした。"
+                        "q": "年配の労働者が革新に貢献できる3つの理由を答えてください。",
+                        "a": "①健康改善で心身ともに活動的(physically and mentally active) ②経験により効率的で生産的(more efficient/productive) ③知識伝達の役割(passing on knowledge)。"
                     },
                     {
-                        "q": "リバティ船プログラムの経済的影響を要約してください。",
-                        "a": "何万人もの雇用を創出、女性・マイノリティに機会を開き、地域経済を活性化。産業基盤の発展にも貢献。"
+                        "q": "'counterbalance the effects of the burden of knowledge' はどのような主張ですか?",
+                        "a": "知識の蓄積による革新の鈍化(burden of knowledge)の影響を、年配労働者の優位性が相殺(counterbalance)する。マイナス要因とプラス要因のバランス。"
                     }
                 ],
                 "highlightPatterns": [
-                    "should not be underestimated",
-                    "Despite such tragic",
-                    "boon to local"
+                    "not only live longer but also stay physically and mentally active",
+                    "more efficient — and therefore more productive — than their younger colleagues"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "無生物主語"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "not only but also / therefore / counterbalance"
             },
             {
                 "id": "fp5",

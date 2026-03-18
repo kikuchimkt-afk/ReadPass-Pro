@@ -1927,223 +1927,219 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "比較構文と程度の表現",
-                "subtitle": "Comparative Constructions & Degree Expressions",
-                "explanation": "準1級では比較級・最上級だけでなく、倍数表現（twice as ～ as）や比較級の強調（far more, significantly greater）が頻出します。本文では 'twice as strong' や 'increased levels of anger compared with' 等の多様な比較表現が使われています。",
-                "sourceQuote": "The pills are now twice as strong.",
-                "sourceLocation": "Part 1 Q4",
+                "title": "This was rejected, since...Furthermore...Another theory（仮説の検証と棄却）",
+                "subtitle": "Hypothesis Testing and Rejection Pattern",
+                "explanation": "This was rejected は「これは棄却された」と仮説の否定を示す。since は棄却理由を述べる。Furthermore は追加根拠を補強。Another theory was that は次の仮説を導入する。科学的・歴史的謎の検証プロセスの構文。",
+                "sourceQuote": "This was rejected, however, since pirates generally stayed away from the area.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Males, particularly those with greater upper-body strength, have a greater tendency toward revenge.",
-                        "ja": "男性、特に上半身の力が強い男性は復讐への傾向が高い。",
-                        "note": "greater + 名詞 の比較級。those with ～ で限定。"
+                        "en": "This was rejected, however, since pirates generally stayed away from the area because British naval ships often patrolled there.",
+                        "ja": "しかしこれは棄却された。イギリス海軍の船がしばしばそこを巡回していたため、海賊は一般的にこの海域に近づかなかったからだ。",
+                        "note": "was rejected(棄却) + since(理由=海賊が来ない) + because(さらなる理由=海軍の巡回): 二重の理由で否定"
                     },
                     {
-                        "en": "Aggressive acts can actually leave people with increased levels of anger compared with those who do not attempt to get even.",
-                        "ja": "攻撃的行為は復讐しない人と比べて怒りのレベルを高めうる。",
-                        "note": "compared with ～ は than の代替的比較表現。"
+                        "en": "Furthermore, the ship's cargo had not been stolen. Another theory was that vapors from the alcohol caused an explosion.",
+                        "ja": "さらに船の貨物は盗まれていなかった。別の理論はアルコールからの蒸気が爆発を引き起こしたというものだった。",
+                        "note": "Furthermore(追加根拠) + Another theory was that(次の仮説導入): 仮説検証の連鎖パターン"
                     },
                     {
-                        "en": "Tribal peoples are more likely to retaliate than people in urban settings.",
-                        "ja": "部族の人々は都市部の人々よりも報復する可能性が高い。",
-                        "note": "be more likely to do ～ than ～＝～よりも～しがち。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Science of Revenge]\nHowever, human society may also have shaped revenge. Researchers have found that revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed. Tribal peoples with no formal justice system, for example, are more likely to retaliate than people in urban settings with sophisticated law enforcement systems. Similarly, low-income neighborhoods in the United States often suffer from a lack of law enforcement, and there is a greater tendency for their residents to retaliate when they are victims of crime. While not proven, this cultural view of revenge appears useful for understanding the great degree of variation that exists in societies around the world.",
-                    "ja": "しかし、人間社会もまた復讐心を形作った可能性がある。研究者たちは、法制度が十分に発達していない社会では復讐がより頻繁に起こることを発見した。法的な正義が得られない場合、人々は自ら報復する傾向が強くなる。同様に、低所得地域では住民の報復傾向がより強い。これは、そのような地域では人々がより脆弱であり、自分の評判と安全を守るために攻撃的な対応が必要だと感じるためだと考えられている。この視点は、復讐が文化的・社会的文脈によって形成されることを理解するのに有用であると思われる。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'more likely to retaliate than' の比較構文はどのような対比を示しますか？",
-                        "a": "「報復する可能性がより高い」。法制度が整備されている社会との対比。more likely = より〜しやすい。"
-                    },
-                    {
-                        "q": "'less developed legal systems' の 'less' はどのような程度を示しますか？",
-                        "a": "「あまり発達していない法制度」。less + 過去分詞。法整備が不十分な社会ほど復讐が多いことを示す。"
-                    },
-                    {
-                        "q": "'Similarly' はどのような論理展開を示しますか？",
-                        "a": "「同様に」。法制度が未発達な社会→低所得地域。同じ傾向が別の文脈でも見られることを示す類似の接続副詞。"
-                    },
-                    {
-                        "q": "法制度と復讐の関係を要約してください。",
-                        "a": "法制度が不十分→法的正義を得られない→自力報復が増加。低所得地域でも同様に報復傾向が強い。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "more likely to retaliate",
-                    "less developed",
-                    "more frequently"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "比較構文"
-            },
-            {
-                "id": "fp2",
-                "title": "分詞構文の多様な用法",
-                "subtitle": "Participial Constructions",
-                "explanation": "分詞構文は、主節に対して理由・時・付帯状況・結果などの意味を追加する準1級必須文法です。本文では 'Hoping to gain a financial reward' や 'making it extremely difficult' などが使われています。",
-                "sourceQuote": "Hoping to gain a financial reward for salvaging the deserted ship, the Dei Gratia's crew sailed the Mary Celeste to Gibraltar.",
-                "sourceLocation": "Part 3A 第1段落",
-                "examples": [
-                    {
-                        "en": "Hoping to gain a financial reward for salvaging the deserted ship, the Dei Gratia's crew sailed the Mary Celeste to Gibraltar.",
-                        "ja": "無人の船を引き揚げて報酬を得ることを期待して、デイ・グラティア号の乗組員はジブラルタルまで航行した。",
-                        "note": "Hoping ～ は理由を表す分詞構文。"
-                    },
-                    {
-                        "en": "As soon as they became aware of potential danger, the emus broke into small groups and ran in different directions, making it extremely difficult for the soldiers to use their weapons effectively.",
-                        "ja": "潜在的な危険に気づくとすぐに、エミューは小グループに分かれて走り、兵士の武器使用を極めて困難にした。",
-                        "note": "making ～ は結果を表す分詞構文。"
-                    },
-                    {
-                        "en": "Having a gladiator killed resulted in paying a large fee to their owner.",
-                        "ja": "グラディエーターを殺すとオーナーに高額の料金を支払うことになった。",
-                        "note": "Having ～ は動名詞の主語。分詞構文と区別が必要。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Mary Celeste]\nIn December 1872, the crew of the Dei Gratia, a British merchant ship that had set sail from New York, spotted another ship drifting in the Atlantic Ocean. The Dei Gratia's captain was surprised to see that the ship was the Mary Celeste, which had left New York weeks earlier and should have already arrived at its intended destination in Italy. He sent some of his men to investigate, but they found nobody aboard the Mary Celeste. However, the crew's belongings remained, the ship's cargo of industrial alcohol was still present, and there were plentiful supplies of food and water. The ship was undamaged, although there was some seawater in its cargo hold. Hoping to gain a financial reward for salvaging the deserted ship, the Dei Gratia's crew sailed the Mary Celeste to Gibraltar and handed it over to British authorities there.",
-                    "ja": "1872年12月、大西洋を航行していたイギリスの商船デイ・グラティア号の乗組員は、異常な状態で漂流している船を発見した。その船はメアリー・セレスト号で、ニューヨークからイタリアのジェノバに向かう途中だったが、すでに到着しているはずだった。金銭的報酬を得ることを期待して、デイ・グラティア号の乗組員はメアリー・セレスト号に乗り込んだ。彼らは船が無人であることを発見した。乗組員の私物はそのまま残されていたが、人々の姿はどこにもなかった。救命ボートは1隻なくなっており、コンパスなどの航海機器の一部も失われていた。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'Hoping to gain a financial reward' の分詞構文はどのような意味ですか？",
-                        "a": "「金銭的報酬を得ることを期待して」。目的・動機を示す分詞構文。乗組員が船に乗り込んだ動機を説明。"
-                    },
-                    {
-                        "q": "'should have already arrived' の 'should have' はどのような推量ですか？",
-                        "a": "「すでに到着しているはずだった」。過去の当然の推量。到着予定だったのに到着していないという異常さを強調。"
-                    },
-                    {
-                        "q": "'a British merchant ship that had sailed from New York' の関係代名詞を説明してください。",
-                        "a": "制限用法。shipを修飾。「ニューヨークから出航していた（商船）」。大過去でshipの背景を説明。"
-                    },
-                    {
-                        "q": "メアリー・セレスト号発見時の状況を要約してください。",
-                        "a": "無人で漂流。私物は残存。救命ボート1隻と航海機器が不足。船体に損傷なし。乗組員の行方不明。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "Hoping to gain",
-                    "should have already arrived",
-                    "merchant ship"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "分詞構文"
-            },
-            {
-                "id": "fp3",
-                "title": "接続副詞と論理展開パターン",
-                "subtitle": "Conjunctive Adverbs & Logical Flow",
-                "explanation": "本試験のPart 2空所補充では接続副詞（Consequently, In fact, Nevertheless等）が頻出です。文の論理的関係（因果・逆接・例示・追加・対比）を正確に把握する力が求められます。",
-                "sourceQuote": "Consequently, the farmers' options were severely limited.",
-                "sourceLocation": "Part 2A Q20",
-                "examples": [
-                    {
-                        "en": "Consequently, the farmers' options were severely limited.",
-                        "ja": "その結果、農家の選択肢は大幅に制限されていた。",
-                        "note": "Consequently＝因果（前文の原因 → 結果）"
-                    },
-                    {
-                        "en": "In fact, losers could give up and admit defeat.",
-                        "ja": "実際には、負けた者は降参できた。",
-                        "note": "In fact＝前文の補足・強調。映画とは異なるという文脈を具体化。"
-                    },
-                    {
-                        "en": "Similarly, low-income neighborhoods often suffer from a lack of law enforcement.",
-                        "ja": "同様に、低所得地域は法執行の不足に悩むことが多い。",
-                        "note": "Similarly＝類比。部族社会の例と同じパターン。"
+                        "en": "This theory was rejected because the evidence did not support it.",
+                        "ja": "この理論は証拠がそれを支持しなかったため棄却された。",
+                        "note": "was rejected because: 仮説棄却の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Mary Celeste]\nNo trace of the Mary Celeste's crew has ever been found, and there has been much speculation about what happened. One popular theory was that the ship was attacked by pirates, who murdered the crew and threw them overboard. This was rejected, however, since pirates generally stayed away from the area because British naval ships often patrolled there. Furthermore, the ship's cargo had not been stolen. Another theory was that vapors from the alcohol the Mary Celeste was carrying caused an explosion that forced the crew to leave the ship. However, the Dei Gratia's crew found no damage on the Mary Celeste that supported this idea.",
-                    "ja": "メアリー・セレスト号の乗組員の痕跡はこれまで一切発見されておらず、彼らの失踪については多くの憶測がなされてきた。しかし、デイ・グラティア号の乗組員は船体に損傷がないことを確認しており、嵐で沈没したとは考えにくい。さらに、船の積み荷は盗まれておらず、海賊の攻撃という説も否定的に見られている。一部の人々は乗組員が反乱を起こしたと提唱したが、この説も却下された。船長は経験豊富で信頼されており、乗組員との関係も良好であったことが知られていたからだ。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "メアリー・セレスト号の乗組員の痕跡は一切発見されておらず、何が起こったかについて多くの推測がなされてきた。一つの有力な理論は、船が海賊に襲撃され乗組員が殺されて海に投げ込まれたというものだった。しかしこれは棄却された。イギリス海軍の船がしばしばこの海域を巡回していたため、海賊は一般的にこの海域に近づかなかったからだ。さらに船の貨物は盗まれていなかった。別の理論はメアリー・セレスト号が運んでいたアルコールからの蒸気が爆発を引き起こし、乗組員が船を離れることを余儀なくされたというものだった。しかしデイ・グラティア号の乗組員はメアリー・セレスト号にこの考えを裏付ける損傷を発見しなかった。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Furthermore, the ship's cargo had not been stolen' の 'Furthermore' はどのような論理展開ですか？",
-                        "a": "「さらに」。航海の問題を排除した後、追加の証拠（積み荷が無事）を示し海賊説も排除する。"
+                        "q": "'This was rejected, since...Furthermore...' の論理構造を説明してください。",
+                        "a": "①仮説提示(海賊説) ②棄却(rejected) + 理由1(since=海軍巡回で海賊不在) ③追加根拠(Furthermore=貨物未盗難)。二重の証拠で否定する科学的論証パターン。"
                     },
                     {
-                        "q": "'However, the Dei Gratia's crew found no damage' の 'However' はどのような反論を示しますか？",
-                        "a": "「しかし」。乗組員が嵐で失われたという仮説に対して、船体の無傷という反証を提示する。"
+                        "q": "海賊説が棄却された理由を2つ答えてください。",
+                        "a": "①イギリス海軍が海域を巡回していたため海賊は近づかなかった ②船の貨物が盗まれていなかった。動機と機会の両方で否定。"
                     },
                     {
-                        "q": "'No trace has ever been found' の現在完了はどのような時間幅を示しますか？",
-                        "a": "「痕跡は一切発見されていない」。1872年の事件から現在まで、一度も発見されていないことを135年以上の期間で強調。"
+                        "q": "爆発説が棄却された理由は何ですか?",
+                        "a": "デイ・グラティア号の乗組員がメアリー・セレスト号にこの考えを裏付ける損傷を発見しなかった。物的証拠の欠如により否定。"
                     },
                     {
-                        "q": "メアリー・セレスト号の乗組員失踪について排除された仮説を挙げてください。",
-                        "a": "嵐（船体無傷）、海賊（積み荷無事）、反乱（船長と乗組員の関係良好）。すべて証拠で否定。"
+                        "q": "'Another theory was that' はなぜこの位置に置かれていますか?",
+                        "a": "最初の仮説(海賊説)が棄却された直後に次の仮説(爆発説)を導入。仮説→検証→棄却→次の仮説という科学的推論の連鎖構成。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Furthermore",
-                    "However",
-                    "No trace"
+                    "This was rejected, however, since pirates generally stayed away",
+                    "Furthermore, the ship's cargo had not been stolen. Another theory was that"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "接続副詞"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "rejected since / Furthermore / Another theory"
             },
             {
-                "id": "fp4",
-                "title": "仮定法過去完了と推量表現",
-                "subtitle": "Past Subjunctive & Speculative Modals",
-                "explanation": "準1級長文では would have done, could have done, may have done 等の推量・仮定表現が多用されます。本文では 'would have been unsure' や 'would have proved beneficial' 等、過去の推測を述べる表現が頻出しています。",
-                "sourceQuote": "the Mary Celeste's captain would have been unsure of the ship's position and unable to remove seawater from the cargo hold.",
-                "sourceLocation": "Part 3A 第3段落",
+                "id": "fp2",
+                "title": "would have been unsure / would have been enough（推量の過去完了による推理）",
+                "subtitle": "Modal Perfect for Historical Reasoning",
+                "explanation": "would have been は「〜だっただろう」と過去の状況を推量する。shed some light on は「〜に光を当てる」定型表現。As a result と combined with the fact that は複合的原因を示す。歴史的事件の推理に使われる高度な構文。",
+                "sourceQuote": "The Mary Celeste's captain would have been unsure of the ship's position.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "An instinct for getting even would have proved beneficial in discouraging others from harming them.",
-                        "ja": "報復の本能は他者が害を加えることを思いとどまらせるのに有益だったはずだ。",
-                        "note": "would have proved＝過去についての推量。「～だったはずだ」。"
+                        "en": "The Mary Celeste's captain would have been unsure of the ship's position and unable to remove seawater from the cargo hold.",
+                        "ja": "メアリー・セレスト号の船長は船の位置がわからず、貨物室から海水を除去することもできなかっただろう。",
+                        "note": "would have been(過去推量=〜だっただろう) + unsure(位置不明) + unable(海水除去不可): 複合的困難"
                     },
                     {
-                        "en": "MacGregor thinks that these issues would have been enough to make the captain resort to sacrificing the ship.",
-                        "ja": "マクレガーはこれらの問題が船長に船を犠牲にさせるのに十分だったと考えている。",
-                        "note": "would have been enough＝仮定法過去完了。状況の推測。"
+                        "en": "These issues, combined with the fact that the Mary Celeste had experienced rough seas, would have been enough to make the captain resort to sacrificing the ship.",
+                        "ja": "これらの問題は、メアリー・セレスト号が荒れた海を経験したという事実と相まって、船長に船を犠牲にすることに頼らせるのに十分だっただろう。",
+                        "note": "combined with the fact that(複合原因) + would have been enough to make(十分な理由の推量) + resort to(最後の手段)"
                     },
                     {
-                        "en": "Those who were more capable of enacting revenge had a better chance of survival.",
-                        "ja": "復讐をより実行できた者はより良い生存の機会を持った。",
-                        "note": "had a better chance＝直説法過去ですが、事実の推量的記述。"
+                        "en": "The evidence would have been enough to convince the jury.",
+                        "ja": "その証拠は陪審員を納得させるのに十分だっただろう。",
+                        "note": "would have been enough to: 十分な根拠の推量パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: The Mary Celeste]\nTo try and shed some light on the Mary Celeste mystery, documentary maker Anne MacGregor analyzed transcripts of the ship's log and official reports written in Gibraltar at the time. MacGregor now believes the ship was abandoned a few miles from the Azores Island of Santa Maria ten days before it was discovered by the Dei Gratia. She also found evidence that the ship's water pump had become blocked and its chronometer, which was a vital piece of navigational equipment, had been faulty. As a result, the Mary Celeste's captain would have been unsure of the ship's position and unable to remove seawater from the cargo hold. MacGregor thinks that these issues, combined with the fact that the Mary Celeste had experienced rough seas the day before, would have been enough to make the captain resort to sacrificing the ship in order to ensure his crew's safety. The question of why the crew never made it to Santa Maria remains unanswered, however.",
-                    "ja": "メアリー・セレスト号の謎に光を当てるため、ドキュメンタリー制作者のアン・マクレガーは専門家チームを集めた。彼らは船の積み荷が産業用アルコールであったことに注目した。もし樽の一部からアルコール蒸気が漏れていたなら、船長は爆発の危険性について確信が持てなかっただろう。蒸気の漏出だけでは船長が船を放棄するという手段に訴えるには十分ではなかっただろうが、嵐の後に船倉を開けた際に蒸気が充満していることに気づいた可能性がある。この発見が、乗組員全員を一時的に救命ボートに避難させるという判断につながった可能性が示唆されている。",
+                    "ja": "メアリー・セレスト号の謎に光を当てようと、ドキュメンタリー制作者のアン・マクレガーは船の航海日誌と当時ジブラルタルで書かれた公式報告書の写しを分析した。マクレガーは現在、船がデイ・グラティア号に発見される10日前にアゾレス諸島サンタマリア島から数マイルの地点で放棄されたと考えている。彼女はまた、船の排水ポンプが詰まり、重要な航法機器であるクロノメーターが故障していた証拠を発見した。その結果、メアリー・セレスト号の船長は船の位置がわからず、貨物室から海水を除去することもできなかっただろう。マクレガーは、これらの問題がメアリー・セレスト号が前日に荒れた海を経験したという事実と相まって、乗組員の安全を確保するために船を犠牲にすることに頼らせるのに十分だっただろうと考えている。しかし乗組員がなぜサンタマリア島に到達できなかったかという疑問は未回答のままである。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'would have been unsure' と 'would have been enough' の推量の違いを説明してください。",
+                        "a": "would have been unsure: 船長の心理状態の推量(位置がわからなかっただろう)。would have been enough: 行動の十分条件の推量(船を放棄するのに十分だっただろう)。両方とも証拠に基づく過去の推理。"
+                    },
+                    {
+                        "q": "'shed some light on' の意味と役割を説明してください。",
+                        "a": "「〜に光を当てる/解明する」定型表現。謎(mystery)に対する調査の目的を述べる。完全な解決ではなく部分的な解明を示唆する控えめな表現。"
+                    },
+                    {
+                        "q": "マクレガーが発見した船の2つの技術的問題は何ですか?",
+                        "a": "①排水ポンプの詰まり(water pump had become blocked) ②クロノメーター(航法機器)の故障(chronometer had been faulty)。位置把握と海水除去の両方が不可能に。"
+                    },
+                    {
+                        "q": "'resort to sacrificing the ship' の 'resort to' はなぜ使われていますか?",
+                        "a": "「〜に頼る/最後の手段として〜する」。船の放棄は最終手段であり、他に選択肢がなかったことを示す。船長の苦渋の決断を表現。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "would have been unsure of the ship's position",
+                    "would have been enough to make the captain resort to sacrificing"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "would have been / shed some light / combined with"
+            },
+            {
+                "id": "fp3",
+                "title": "tends to occur more frequently in societies where...are less developed（社会条件と頻度）",
+                "subtitle": "Frequency Correlation with Social Conditions",
+                "explanation": "tends to occur more frequently は「より頻繁に起こる傾向がある」と頻度の傾向を述べる。in societies where は「〜のような社会で」と条件を限定。are less developed は「未発達である」と社会制度の発達度を示す。社会科学的分析の基本構文。",
+                "sourceQuote": "Revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed.",
+                        "ja": "復讐は法律を施行する制度が未発達な社会でより頻繁に起こる傾向がある。",
+                        "note": "tends to(傾向) + more frequently(比較級=頻度) + where(関係副詞=社会の条件) + less developed(比較級=未発達)"
+                    },
+                    {
+                        "en": "Similarly, low-income neighborhoods in the United States often suffer from a lack of law enforcement, and there is a greater tendency for their residents to retaliate.",
+                        "ja": "同様に、アメリカの低所得地域はしばしば法執行の欠如に苦しんでおり、住民が報復する傾向がより大きい。",
+                        "note": "Similarly(類似例) + lack of(欠如) + greater tendency(より大きな傾向): 部族社会→都市の低所得地域への類推"
+                    },
+                    {
+                        "en": "Crime tends to occur more frequently in areas where poverty levels are higher.",
+                        "ja": "犯罪は貧困レベルが高い地域でより頻繁に起こる傾向がある。",
+                        "note": "tends to + more frequently + where: 頻度と条件の相関パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Science of Revenge]\nHowever, human society may also have shaped revenge. Researchers have found that revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed. Tribal peoples with no formal justice system, for example, are more likely to retaliate than people in urban settings with sophisticated law enforcement systems. Similarly, low-income neighborhoods in the United States often suffer from a lack of law enforcement, and there is a greater tendency for their residents to retaliate when they are victims of crime. While not proven, this cultural view of revenge appears useful for understanding the great degree of variation that exists in societies around the world.",
+                    "ja": "しかし人間社会も復讐を形作ってきたかもしれない。研究者は、復讐は法律を施行する制度が未発達な社会でより頻繁に起こる傾向があることを発見した。例えば正式な司法制度を持たない部族の人々は、洗練された法執行システムを持つ都市環境の人々よりも報復する可能性が高い。同様に、アメリカの低所得地域はしばしば法執行の欠如に苦しんでおり、犯罪の被害者になった時に住民が報復する傾向がより大きい。証明されてはいないが、この復讐の文化的見方は世界中の社会に存在する大きな変異の程度を理解するのに有用と思われる。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'tends to occur more frequently in societies where' の構文を分析してください。",
+                        "a": "tends to(傾向=断定回避) + more frequently(比較級=頻度が高い) + in societies where(関係副詞=条件の限定)。法制度の未発達と復讐頻度の相関関係を述べる。"
+                    },
+                    {
+                        "q": "部族社会と都市の低所得地域の共通点は何ですか?",
+                        "a": "法執行制度の欠如/未発達。正式な司法制度のない部族社会と法執行が不足する低所得地域は、同じ条件(制度の欠如)→同じ結果(報復増加)。"
+                    },
+                    {
+                        "q": "'While not proven, this cultural view appears useful' はどのような主張の控えめさを示していますか?",
+                        "a": "While not proven(未証明を認める) + appears useful(有用と思われる)。断定を避け可能性として述べる学術的慎重さ。完全な証明ではなく有用な枠組みとして提示。"
+                    },
+                    {
+                        "q": "'Similarly' はなぜこの文脈で効果的ですか?",
+                        "a": "部族社会(学術的遠い例)→アメリカの低所得地域(身近な例)への類推。同じ原理(法執行の欠如→報復増加)が異なる文脈で成り立つことを示す。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed",
+                    "Similarly, low-income neighborhoods"
+                ],
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "more frequently / where less developed / Similarly"
+            },
+            {
+                "id": "fp4",
+                "title": "can come at great personal cost...However, may also（個人コスト対社会的効果）",
+                "subtitle": "Personal Cost versus Societal Benefit",
+                "explanation": "can come at great personal cost は「大きな個人的犠牲を伴いうる」とマイナス面を認める。However, may also は「しかし〜もありうる」とプラス面を提示する。including は具体例の列挙。議論のバランスを取る構文。",
+                "sourceQuote": "Taking revenge can come at great personal cost. However, revenge may also send a message.",
+                "sourceLocation": "Part 3B",
+                "examples": [
+                    {
+                        "en": "Taking revenge can come at great personal cost, including damage to human relationships, imprisonment, or even loss of life, as well as leading to a cycle of revenge.",
+                        "ja": "復讐をとることは、人間関係の損傷、投獄、さらには命の喪失を含む大きな個人的犠牲を伴いうるし、復讐の連鎖にもつながりうる。",
+                        "note": "can come at(コスト) + including(具体例列挙) + as well as leading to(追加の悪影響): マイナス面の徹底的列挙"
+                    },
+                    {
+                        "en": "However, revenge may also send a message that affects the behavior of everyone in the society by making it clear that certain types of actions will not be tolerated.",
+                        "ja": "しかし復讐はまた、特定の種類の行動は容認されないことを明確にすることで、社会の全員の行動に影響するメッセージを送るかもしれない。",
+                        "note": "However(転換) + may also(対照的効果) + send a message(社会的機能): プラス面の提示"
+                    },
+                    {
+                        "en": "Innovation can come at significant cost, but it may also create lasting benefits.",
+                        "ja": "革新は大きなコストを伴いうるが、永続的な恩恵も生み出すかもしれない。",
+                        "note": "can come at cost + may also: コスト対効果の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Science of Revenge]\nA cultural approach to understanding the possible origins of revenge can also help explain its effects not just on individuals but on society as a whole. Taking revenge can come at great personal cost, including damage to human relationships, imprisonment, or even loss of life, as well as leading to a cycle of revenge. However, revenge may also send a message that affects the behavior of everyone in the society by making it clear that certain types of actions will not be tolerated. As well as making people aware of what not to do, it can indirectly lead to beneficial actions. For example, on a soccer team, if players put in little effort during practice, other players may resent them and avoid passing them the ball during the game. The potential for such retaliation can contribute to a team's overall motivation in practices. It is, therefore, possible that revenge developed because it can have a positive impact on the members of a group or society, reinforcing behaviors that contribute positively to its overall success.",
+                    "ja": "復讐の起源を理解する文化的アプローチは、個人だけでなく社会全体への影響も説明するのに役立つ。復讐をとることは、人間関係の損傷、投獄、さらには命の喪失を含む大きな個人的犠牲を伴いうるし、復讐の連鎖にもつながりうる。しかし復讐はまた、特定の種類の行動は容認されないことを明確にすることで、社会の全員の行動に影響するメッセージを送るかもしれない。何をすべきでないかを人々に認識させるだけでなく、間接的に有益な行動につながることもある。例えばサッカーチームで、選手が練習で努力を怠れば、他の選手は彼らに不満を持ち試合中にパスを回さないかもしれない。このような報復の可能性は、チーム全体の練習でのモチベーションに貢献しうる。したがって、復讐はグループや社会のメンバーに良い影響を与え、全体的な成功に積極的に貢献する行動を強化できるため、発達した可能性がある。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'would have been unsure about the danger' の仮定法過去完了を説明してください。",
-                        "a": "「危険性について確信が持てなかっただろう」。過去の推量。船長がアルコール蒸気を知った場合の不安を推測。"
+                        "q": "'can come at great personal cost...However, may also send a message' の議論構造を説明してください。",
+                        "a": "前半: 復讐の個人的犠牲(cost=関係損傷・投獄・命の喪失)。However: 転換。後半: 社会全体への肯定的効果(message=行動の抑制)。コスト対効果のバランスある議論。"
                     },
                     {
-                        "q": "'would have been enough to make the captain resort to' を説明してください。",
-                        "a": "「船長に〜という手段に訴えさせるには十分だっただろう」。resort to = やむを得ず〜する。危険が深刻だった推測。"
+                        "q": "サッカーチームの例は何を説明していますか?",
+                        "a": "報復の社会的に有益な機能。練習を怠る選手→パスを回さない報復→チーム全体のモチベーション向上。復讐の「脅威」が集団行動を改善する具体例。"
                     },
                     {
-                        "q": "'shed some light on' はどのような意味ですか？",
-                        "a": "「〜に光を当てる/〜を解明する」。慣用表現。謎や不明な点を少しでも明らかにすること。"
+                        "q": "'It is, therefore, possible that revenge developed because...' の結論を説明してください。",
+                        "a": "復讐は集団やし社会のメンバーに良い影響→成功に貢献する行動を強化。復讐が進化した理由=個人のコスト以上にグループの利益をもたらすから。進化的な説明。"
                     },
                     {
-                        "q": "専門家チームが提唱したメアリー・セレスト号の仮説は何ですか？",
-                        "a": "積み荷のアルコール蒸気が漏出→爆発の恐れ→乗組員が一時避難のため救命ボートに移動→その後戻れなくなった。"
+                        "q": "'including' で列挙されている復讐の個人的コストを3つ答えてください。",
+                        "a": "①人間関係の損傷(damage to human relationships) ②投獄(imprisonment) ③命の喪失(loss of life)。加えて復讐の連鎖(cycle of revenge)も。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would have been unsure",
-                    "would have been enough",
-                    "shed some light"
+                    "can come at great personal cost",
+                    "However, revenge may also send a message that affects the behavior of everyone"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "推量表現"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "great personal cost / However may also / therefore possible"
             },
             {
                 "id": "fp5",

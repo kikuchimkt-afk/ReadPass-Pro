@@ -1978,223 +1978,216 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "仮定法と仮想表現",
-                "subtitle": "Subjunctive & Hypothetical Expressions",
-                "explanation": "仮定法は「事実と異なる状況」を表す文法形式です。仮定法過去（If + 過去形, would + 原形）は現在の事実に反する仮定を、仮定法過去完了（If + had + 過去分詞, would have + 過去分詞）は過去の事実に反する仮定を表します。本文では 'Without them, it would have been impossible' という仮定法過去完了の表現が使われ、ヒューマン・コンピュータなしでは宇宙船の打ち上げが不可能だったことを強調しています。",
-                "sourceQuote": "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
-                "sourceLocation": "Part 3A 第1段落",
+                "title": "Without them, it would have been impossible（仮定法の反事実的貢献）",
+                "subtitle": "Counterfactual Contribution with Without",
+                "explanation": "Without + 名詞, it would have been impossible は「〜なしでは不可能だっただろう」と反事実的仮定で不可欠な貢献を強調する。could have had は「〜をもたらし得た」と潜在的結果を示す。歴史的功績の評価に使う高度な構文。",
+                "sourceQuote": "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Without the scholarship, she would not have been able to attend university.",
-                        "ja": "奨学金がなければ、彼女は大学に通えなかっただろう。",
-                        "note": "Without + 名詞 が if節の代用。仮定法過去完了の典型パターン。"
+                        "en": "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
+                        "ja": "彼女たちなしでは宇宙船を打ち上げることは不可能だっただろうし、いかなる不正確さも宇宙飛行士にとって命に関わる結果をもたらし得た。",
+                        "note": "Without(仮定法=なしでは) + would have been impossible(不可能の反事実) + could have had(可能性の過去推量): 貢献の不可欠さ"
                     },
                     {
-                        "en": "If the medication had been available sooner, many lives could have been saved.",
-                        "ja": "薬がもっと早く利用可能だったら、多くの命が救えたかもしれない。",
-                        "note": "could have + 過去分詞で「～できたかもしれない」という可能性を示す。"
+                        "en": "These women, who came to be called human computers, conducted complex calculations in areas such as spacecraft navigation, rocket aerodynamics, and orbital physics.",
+                        "ja": "ヒューマン・コンピューターと呼ばれるようになったこれらの女性は、宇宙船の航法、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。",
+                        "note": "who came to be called(非制限用法=呼ばれるようになった) + such as(具体例): 専門分野の列挙"
                     },
                     {
-                        "en": "Had it not been for the human computers, the moon landing might never have happened.",
-                        "ja": "ヒューマン・コンピュータがいなければ、月面着陸は起こらなかったかもしれない。",
-                        "note": "Had it not been for = If it had not been for の倒置形。フォーマルな表現。"
+                        "en": "Without their support, the project would have been impossible to complete.",
+                        "ja": "彼らの支援なしでは、プロジェクトを完了することは不可能だっただろう。",
+                        "note": "Without + would have been impossible: 反事実的貢献の基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Rocket Science]\nSome US astronauts became household names in the 1950s and '60s, partly due to the media coverage of their achievements. Behind the scenes, however, others played a crucial role in making US space missions, including the moon landing, successful. Unlike the astronauts, many of these unsung heroes were female. These women, who came to be called human computers, conducted complex calculations in areas such as spacecraft navigation, rocket aerodynamics, and orbital physics. The human computers' calculations—mostly done by hand—were mentally and physically demanding, sometimes each taking a week to complete. Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
-                    "ja": "1950年代から60年代にかけて、アメリカの宇宙飛行士の中には、メディア報道もあって有名になった者もいた。しかし、彼らの業績の背後には、知られざるヒーローたちがいた。それは女性たちだった。「ヒューマンコンピュータ」と呼ばれるようになったこれらの女性たちは、宇宙船のナビゲーション、ロケットの空気力学などの分野で重要な計算を行った。計算のほとんどは手作業で行われ、精神的にも肉体的にも消耗するもので、完了に1週間かかることもあった。彼女たちなしには、宇宙飛行を実現することは不可能だっただろう。不正確さがあれば、宇宙飛行士にとって生命を脅かす結果をもたらした可能性があった。",
+                    "ja": "一部の米国宇宙飛行士は1950年代と60年代に、その業績のメディア報道もあって有名になった。しかし舞台裏では、月面着陸を含む米国の宇宙ミッションを成功させるのに重要な役割を果たした人々がいた。宇宙飛行士とは異なり、これらの知られざる英雄の多くは女性だった。ヒューマン・コンピューターと呼ばれるようになったこれらの女性は、宇宙船の航法、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。ヒューマン・コンピューターの計算——ほとんどが手作業——は精神的にも肉体的にも厳しく、一つの計算に1週間かかることもあった。彼女たちなしでは宇宙船を打ち上げることは不可能だっただろうし、いかなる不正確さも宇宙飛行士にとって命に関わる結果をもたらし得た。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'Without them, it would have been impossible to launch' の仮定法を説明してください。",
-                        "a": "「彼女たちなしには打ち上げは不可能だっただろう」。Without = If it had not been for。仮定法過去完了の帰結。"
+                        "q": "'Without them, it would have been impossible' の仮定法を分析してください。",
+                        "a": "Without(=If it had not been for) + would have been impossible(帰結=不可能だっただろう)。反事実的仮定: 実際は彼女たちがいたから可能だった→なしでは不可能だったという貢献の不可欠さ。"
                     },
                     {
-                        "q": "'could have had life-threatening consequences' はどのような推量ですか？",
-                        "a": "「生命を脅かす結果をもたらした可能性があった」。could have + 過去分詞 = 過去の可能性。不正確さの潜在的危険。"
+                        "q": "'could have had life-threatening consequences' の助動詞の意味を説明してください。",
+                        "a": "could have had: 過去の可能性の推量。「命に関わる結果をもたらし得た」。実際には正確な計算で防がれたが、ミスがあれば致命的だった可能性を示唆。"
                     },
                     {
-                        "q": "'who came to be called human computers' の関係代名詞を説明してください。",
-                        "a": "非制限用法。women を補足説明。「ヒューマンコンピュータと呼ばれるようになった」。came to be = なった。"
+                        "q": "ヒューマン・コンピューターが「知られざる英雄」(unsung heroes)と呼ばれる理由は何ですか?",
+                        "a": "宇宙飛行士はメディア報道で有名になったが、裏で貢献した女性計算士は知られていなかった。宇宙ミッション成功に不可欠だが公に認知されなかった。"
                     },
                     {
-                        "q": "ヒューマンコンピュータの女性たちの役割を要約してください。",
-                        "a": "宇宙船のナビや空力の計算を手作業で実行。宇宙飛行を支えた不可欠な存在。不正確さは致命的だった。"
+                        "q": "'mostly done by hand' と 'each taking a week to complete' は何を強調していますか?",
+                        "a": "計算の困難さ。電子コンピューターなしで手作業で複雑な計算を行い、1件に1週間かかる精神的・肉体的負担。彼女たちの貢献の大きさを強調。"
                     }
                 ],
                 "highlightPatterns": [
-                    "would have been impossible",
-                    "could have had",
-                    "Without them"
+                    "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "仮定法"
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "Without / would have been impossible / could have had"
             },
             {
                 "id": "fp2",
-                "title": "無生物主語と因果関係の構文",
-                "subtitle": "Inanimate Subject Constructions",
-                "explanation": "英語では人間以外の名詞（抽象概念・出来事・制度など）が主語になり、人に「～させる」「～を可能にする」等の意味を表す構文が頻出します。日本語では「～のおかげで」「～のために」と訳すのが自然です。本文では 'This need only skyrocketed'（この必要性は急増するばかりだった）のように無生物が主語の文が多用されています。",
-                "sourceQuote": "This need only skyrocketed in World War I and World War II.",
-                "sourceLocation": "Part 3A 第2段落",
+                "title": "it was believed...limited to...However, has shown more common（通説の覆し）",
+                "subtitle": "Overturning Established Beliefs with New Evidence",
+                "explanation": "it was believed は「〜と信じられていた」と通説を提示。limited to は「〜に限られる」と範囲を設定。However + has shown は「しかし〜を示した」と新証拠で覆す。more common than was previously thought は「以前考えられていたより一般的」定型表現。",
+                "sourceQuote": "It was believed that this behavior was limited to animals with advanced intellectual ability. However, a recent review has shown that self-medication is much more common.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The discovery of self-medication in chimpanzees led researchers to coin a new term.",
-                        "ja": "チンパンジーの自己投薬の発見により、研究者たちは新しい用語を作り出した。",
-                        "note": "無生物主語 + led ~ to do: 「～がきっかけで…した」"
+                        "en": "For many years, it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability.",
+                        "ja": "長年、大多数の科学者はこの行動が高度な知的能力を持つ動物に限られると信じていた。",
+                        "note": "it was believed(非人称受動態=通説) + limited to(範囲制限) + advanced intellectual ability(条件): 従来の定説"
                     },
                     {
-                        "en": "The transition to electronic computation negated the need for most human computers.",
-                        "ja": "電子計算への移行がヒューマン・コンピュータの必要性を否定した。",
-                        "note": "transitionという抽象名詞が主語で、明確な行為主体を示さない。"
+                        "en": "However, a recent review of research has shown that self-medication is much more common than was previously thought and is even demonstrated by some insects.",
+                        "ja": "しかし最近の研究レビューは、自己投薬が以前考えられていたよりはるかに一般的で、一部の昆虫にさえ見られることを示した。",
+                        "note": "However(転換) + has shown(新証拠) + more common than was thought(比較=通説との差) + even insects(驚きの範囲拡大)"
                     },
                     {
-                        "en": "Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol.",
-                        "ja": "研究により、寄生バチに感染したミバエはアルコールを含む食物を意図的に摂取することが示された。",
-                        "note": "Research（研究）が主語のshow構文。日本語では「研究により～が示された」。"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Relying on Nature]\nOne of the best-studied examples of self-medication in insects is that of fruit flies. These tiny flies are often targeted by a type of parasitic wasp that lays its eggs inside the flies' bodies. Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol, such as rotting fruit. The alcohol prevents the development of the wasp larvae and protects the flies. Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy. This implies that something triggers them to seek out such food only when they have wasp larvae inside them, and scientists seem to have determined the chemical compound that causes it. In other studies, it has also been found that the use of natural medication by some social insects goes beyond self-medication. When bacterial and fungal infections occur within an ant colony, for example, the insects collect resin from nearby trees and take it back to the colony. The resin has antibacterial and antifungal properties, so by doing this, the ants are performing a form of \"social medication.\"",
-                    "ja": "昆虫の自己治療の最もよく研究された例の一つは、ショウジョウバエのものである。これらの小さなハエは、体内に卵を産む寄生バチに狙われることが多い。幼虫が感染していることに気づくと、ショウジョウバエは腐った果物などアルコールを含む食物を求める。そのアルコールがハエの体内でのバチの幼虫の発育を阻止する。興味深いことに、感染していないハエはアルコール入りの食物を避ける傾向がある。これは何かが彼らにアルコールを求めるきっかけを与えていることを示唆している。また、樹脂には抗菌・抗真菌特性があり、ミツバチが巣を保護するために使用する「社会的薬物療法」の例も報告されている。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'The alcohol prevents the development of the wasp larvae' の無生物主語を説明してください。",
-                        "a": "「アルコールがバチの幼虫の発育を阻止する」。The alcohol（無生物）が主語。物質が生物学的効果を及ぼすことを表す。"
-                    },
-                    {
-                        "q": "'The resin has antibacterial and antifungal properties' の無生物主語はどのように機能していますか？",
-                        "a": "「樹脂は抗菌・抗真菌特性を持つ」。The resin（物質）が主語。自然素材の特性を客観的に述べる。"
-                    },
-                    {
-                        "q": "'social medication' はどのような概念ですか？",
-                        "a": "「社会的薬物療法」。個体ではなく集団のために薬用物質を使う行動。ミツバチが巣全体を保護する例。"
-                    },
-                    {
-                        "q": "ショウジョウバエの自己治療行動を説明してください。",
-                        "a": "寄生バチに感染→アルコール含有食物を求める→アルコールが寄生虫の発育を阻止。感染していないハエは避ける。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "The alcohol prevents",
-                    "The resin has",
-                    "social medication"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "無生物主語"
-            },
-            {
-                "id": "fp3",
-                "title": "関係代名詞の非制限用法と補足説明",
-                "subtitle": "Non-Restrictive Relative Clauses",
-                "explanation": "関係代名詞の非制限用法（カンマ + which/who）は、前の名詞や節全体に補足情報を加えます。制限用法（カンマなし）は対象を特定しますが、非制限用法は追加情報を提供します。本文では 'which historians believe inspired them' のように、前文全体を受けるwhichが多用されています。",
-                "sourceQuote": "which historians believe inspired them to stand up for their own rights as well",
-                "sourceLocation": "Part 2A 第2段落",
-                "examples": [
-                    {
-                        "en": "These women, who came to be called human computers, conducted complex calculations.",
-                        "ja": "これらの女性たちは、ヒューマン・コンピュータと呼ばれるようになったのだが、複雑な計算を行った。",
-                        "note": "who以下はwomenの補足説明。なくても文は成立する。"
-                    },
-                    {
-                        "en": "The chimpanzees were swallowing the leaves whole without chewing them, which showed they were not eating them for nutrition.",
-                        "ja": "チンパンジーは葉を噛まずに丸飲みしていたが、これは栄養のために食べていたのではないことを示していた。",
-                        "note": "whichが前の節全体を受けている。"
-                    },
-                    {
-                        "en": "NACA employed many women, some of whom later became supervisors.",
-                        "ja": "NACAは多くの女性を雇用し、そのうちの何人かは後に管理職になった。",
-                        "note": "some of whom: 先行詞の一部について述べる非制限用法。"
+                        "en": "It was believed that the disease was limited to tropical regions. However, recent studies have shown it is more widespread.",
+                        "ja": "その病気は熱帯地域に限られると信じられていた。しかし最近の研究はより広範であることを示した。",
+                        "note": "was believed + limited to + However shown: 通説覆しの基本パターン"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Relying on Nature]\nFor many years, it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability. This belief originated mainly from the initial observations of chimpanzees, which suggested that the behavior had to be learned and passed on from generation to generation. However, a recent review of research has shown that self-medication is much more common than was previously thought and is even demonstrated by some insects. This suggests that self-medication must also occur by instinct, and many scientists now believe that it can be both innate and learned, even in more intelligent animals.",
-                    "ja": "長年、ほとんどの科学者はこの行動が霊長類に限られていると考えていた。しかし、研究が進むにつれ、より広範な動物、さらには昆虫までもが自己治療行動を示すことが明らかになった。以前は、幼い個体は薬用植物を使わないことが観察されており、この行動は学習される必要があることを示唆していた。しかし最近の研究では、一部の動物が本能的に薬用植物を選択する能力を持っている可能性が示されている。",
+                    "ja": "長年、大多数の科学者はこの行動が高度な知的能力を持つ動物に限られると信じていた。この信念は主にチンパンジーの最初の観察に由来し、その行動は学習され世代から世代へ伝えられなければならないことを示唆した。しかし最近の研究レビューは、自己投薬が以前考えられていたよりはるかに一般的で、一部の昆虫にさえ見られることを示した。これは自己投薬が本能によっても起こるに違いないことを示唆し、多くの科学者は今、より知的な動物でさえ生得的かつ学習的の両方でありうると考えている。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "'was believed...limited to' と 'However, has shown...more common than' の対比を説明してください。",
+                        "a": "通説: 高度な知能の動物に限定(believed+limited to)。新発見: 昆虫にも見られ以前よりはるかに一般的(However+shown+more common)。科学的知見の更新パターン。"
+                    },
+                    {
+                        "q": "通説が形成された原因は何ですか?",
+                        "a": "チンパンジーの最初の観察(initial observations)に由来。チンパンジーは知的動物→行動は学習・伝承が必要と推測→知能の高い動物に限定と結論。初期データの偏り。"
+                    },
+                    {
+                        "q": "'more common than was previously thought' はなぜよく使われる表現ですか?",
+                        "a": "「以前考えられていたより一般的」。was previously thought = 過去の通説を主語なしで客観的に言及。科学論文で新発見が従来の予想を超えたことを示す定型的表現。"
+                    },
+                    {
+                        "q": "新発見が示唆する自己投薬の2つの起源は何ですか?",
+                        "a": "①本能的(innate/instinct): 昆虫にも見られるため学習不要 ②学習的(learned): 世代間伝承。より知的な動物では両方が存在しうる。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability",
+                    "However, a recent review of research has shown that self-medication is much more common than was previously thought"
+                ],
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "was believed / limited to / However shown / more common than"
+            },
+            {
+                "id": "fp3",
+                "title": "While this was true, it did not lessen the significance（事実を認めつつ重要性を主張）",
+                "subtitle": "Acknowledging Facts While Defending Significance",
+                "explanation": "While this was true は相手の主張を事実として認める。it did not lessen the significance は「重要性を減じなかった」と反論。For one thing は「一つには」と理由を列挙。相手の批判を認めた上で反論する高度な議論術。",
+                "sourceQuote": "While this was true, it did not lessen the significance of the protests.",
+                "sourceLocation": "Part 2A",
+                "examples": [
+                    {
+                        "en": "While this was true, it did not lessen the significance of the protests.",
+                        "ja": "これは事実だったが、抗議の重要性を減じなかった。",
+                        "note": "While true(相手の事実を認容) + did not lessen(否定=しかし重要性は不変): 議論の反論技法"
+                    },
+                    {
+                        "en": "For one thing, they represented one of the first times that schoolchildren had felt sufficiently empowered to stand up for their rights.",
+                        "ja": "一つには、学童が自分の権利のために立ち上がるのに十分な力を感じた最初の機会の一つを代表していた。",
+                        "note": "For one thing(理由の列挙) + sufficiently empowered(十分に力を得た) + stand up for(権利のために立ち上がる)"
+                    },
+                    {
+                        "en": "While the numbers were small, it did not diminish the impact of the movement.",
+                        "ja": "数は少なかったが、運動の影響を減じなかった。",
+                        "note": "While small + did not diminish: 認容+反論の基本パターン"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Striking Schoolchildren]\nSchool authorities attempted to play down the importance of the school strikes by pointing out that only a small percentage of the national school population participated. While this was true, it did not lessen the significance of the protests. For one thing, they represented one of the first times that schoolchildren in the United Kingdom had felt sufficiently empowered to stand up for their rights. The strikes also provided the stimulus for societal reforms that would end up improving child welfare in the United Kingdom.",
+                    "ja": "学校当局は、全国の学童人口のごくわずかな割合しか参加しなかったことを指摘して、学校ストライキの重要性を軽視しようとした。これは事実だったが、抗議の重要性を減じなかった。一つには、イギリスの学童が自分の権利のために立ち上がるのに十分な力を感じた最初の機会の一つを代表していた。ストライキはまた、イギリスの児童福祉を最終的に改善することになる社会改革の刺激を提供した。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'which suggested that the behavior had to be learned' の関係代名詞を説明してください。",
-                        "a": "非制限用法。前の観察事実全体を受ける。「この行動は学習される必要があることを示唆していた」。"
+                        "q": "'While this was true, it did not lessen the significance' の議論技法を説明してください。",
+                        "a": "①相手の主張を認容(While true=参加率が低いのは事実) ②しかし反論(did not lessen=重要性は不変)。相手のポイントを認めた上で反論する高度な議論術。全面否定より説得力がある。"
                     },
                     {
-                        "q": "'For many years, it was believed' はどのような通説の提示ですか？",
-                        "a": "「長年〜と信じられていた」。過去の通説を提示し、後続の however で新しい発見との対比を示す。"
+                        "q": "学校当局はどのように抗議を軽視しようとしましたか?",
+                        "a": "全国学童人口のごくわずかな割合しか参加しなかった(only a small percentage)と指摘。数の少なさを根拠にストライキの意義を否定しようとした。"
                     },
                     {
-                        "q": "'was limited to primates' の受動態はどのような限定を示しますか？",
-                        "a": "「霊長類に限られていた」。自己治療行動が特定の動物群にのみ見られると考えられていた限定。"
+                        "q": "'For one thing' の後に述べられている重要性は何ですか?",
+                        "a": "イギリスの学童が自分の権利のために立ち上がるのに十分な力を感じた最初の機会の一つ。歴史的先例としての意義。"
                     },
                     {
-                        "q": "動物の自己治療に関する認識はどのように変化しましたか？",
-                        "a": "通説: 霊長類に限定。新発見: 昆虫を含む広範な動物に見られる。学習だけでなく本能的選択の可能性も。"
+                        "q": "ストライキの長期的影響は何でしたか?",
+                        "a": "イギリスの児童福祉を改善する社会改革の刺激(stimulus for societal reforms)を提供した。単なる一時的な抗議ではなく制度的変革の契機となった。"
                     }
                 ],
                 "highlightPatterns": [
-                    "which suggested that",
-                    "was believed",
-                    "limited to"
+                    "While this was true, it did not lessen the significance of the protests"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "非制限用法"
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "While true / did not lessen / For one thing"
             },
             {
                 "id": "fp4",
-                "title": "ダッシュ記号による情報挿入と補足",
-                "subtitle": "Em Dashes for Parenthetical Information",
-                "explanation": "英語ではemダッシュ（—）を使って、文中に補足説明・言い換え・対比を挿入します。カンマやカッコの代わりにより強調的に使われ、準1級の長文では特に頻出します。本文では 'calculations—mostly done by hand—were mentally and physically demanding' のように、計算方法の補足情報がダッシュで挿入されています。",
-                "sourceQuote": "The human computers' calculations—mostly done by hand—were mentally and physically demanding",
-                "sourceLocation": "Part 3A 第1段落",
+                "title": "This implies that something triggers...only when（科学的含意と条件限定）",
+                "subtitle": "Scientific Implication with Conditional Trigger",
+                "explanation": "This implies that は「これは〜を意味する」と観察から結論を導く。something triggers + to V は「何かが〜を引き起こす」メカニズムを示す。only when は「〜の時にだけ」と条件を限定。科学的推論の構文パターン。",
+                "sourceQuote": "This implies that something triggers them to seek out such food only when they have wasp larvae inside them.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "The agency was seen as progressive in a few respects—women's pay was relatively high, some women were supervisors, and married women with children were employed.",
-                        "ja": "その機関はいくつかの点で進歩的と見なされていた—女性の給与は比較的高く、管理職の女性もおり、子どものいる既婚女性も雇用されていた。",
-                        "note": "ダッシュ後に具体例を列挙。「いくつかの点」の内容を説明。"
+                        "en": "This implies that something triggers them to seek out such food only when they have wasp larvae inside them, and scientists seem to have determined the chemical compound that causes it.",
+                        "ja": "これは寄生蜂の幼虫が体内にある時にだけ、何かがそのような食物を探すよう引き起こすことを意味し、科学者はそれを引き起こす化合物を特定したようだ。",
+                        "note": "implies(含意) + triggers(引き金) + only when(条件限定) + seem to have determined(推量の完了): 科学的推論の連鎖"
                     },
                     {
-                        "en": "Salaries—and therefore overall costs—could be dramatically reduced.",
-                        "ja": "給与—ひいては全体のコスト—は大幅に削減できた。",
-                        "note": "ダッシュの間に追加情報を挿入。因果関係を補足。"
+                        "en": "Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy.",
+                        "ja": "高アルコール含有量の食物を消費することは通常ハエに有害なため、健康な時はそうすることを避ける。",
+                        "note": "normally harmful(通常は有害) + avoid doing so(回避) + when healthy(条件): 正常時との対比で異常行動を際立たせる"
                     },
                     {
-                        "en": "The behavior—first observed in the 1970s—has since been documented in many species.",
-                        "ja": "その行動は—1970年代に初めて観察され—以来、多くの種で記録されている。",
-                        "note": "過去分詞のダッシュ挿入。時間的背景の補足。"
+                        "en": "This implies that the reaction only occurs when certain conditions are met.",
+                        "ja": "これは特定の条件が満たされた時にだけ反応が起こることを意味する。",
+                        "note": "implies + only when: 条件付き反応の基本パターン"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Rocket Science]\nThe women were standing on the shoulders of others who had gone before them. As fields such as astronomy, navigation, and surveying expanded in the nineteenth century, so did the need for mathematical computation. This need only skyrocketed in World War I and World War II. Early computation work had been mainly undertaken by men. However, partly due to the discriminatory nature of contemporary societal norms, employing women meant that salaries—and therefore overall costs—could be dramatically reduced. Gradually, these jobs came to be seen by some as \"women's work.\" Historian Mar Hicks believes that one reason these \"pre-electronic computation jobs were feminized is they were seen as rote and de-skilled.\" Although human-computer work was sometimes repetitive, Hicks points out that it often required advanced math skills.",
-                    "ja": "女性たちは先人の肩の上に立っていた。19世紀後半には、天文学の分野で女性が複雑な計算を行うために採用され始めていた。この傾向が必要になったのは、第一次・第二次世界大戦中にその需要が急増したからである。女性を雇用することは給与、したがって全体的なコストを大幅に削減できることを意味していた。これは実用的な理由から女性の雇用が促進された一因であり、多くの女性がNASAやその前身組織で重要な役割を果たすことにつながった。",
+                    "en": "[出典: Relying on Nature]\nOne of the best-studied examples of self-medication in insects is that of fruit flies. These tiny flies are often targeted by a type of parasitic wasp that lays its eggs inside the flies' bodies. Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol, such as rotting fruit. The alcohol prevents the development of the wasp larvae and protects the flies. Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy. This implies that something triggers them to seek out such food only when they have wasp larvae inside them, and scientists seem to have determined the chemical compound that causes it. In other studies, it has also been found that the use of natural medication by some social insects goes beyond self-medication. When bacterial and fungal infections occur within an ant colony, for example, the insects collect resin from nearby trees and take it back to the colony. The resin has antibacterial and antifungal properties, so by doing this, the ants are performing a form of \"social medication.\"",
+                    "ja": "昆虫の自己投薬で最もよく研究された例の一つがショウジョウバエである。これらの小さなハエは、ハエの体内に卵を産む寄生蜂の一種にしばしば狙われる。研究は寄生蜂に感染したショウジョウバエが意図的に腐った果物などのアルコールを含む食物を消費することを示した。アルコールは寄生蜂の幼虫の発達を防ぎ、ハエを守る。高アルコール含有量の食物を消費することは通常ハエに有害なため、健康な時はそうすることを避ける。これは寄生蜂の幼虫が体内にある時にだけ何かがそのような食物を探すよう引き起こすことを意味し、科学者はそれを引き起こす化合物を特定したようだ。他の研究では、一部の社会性昆虫による天然薬の使用が自己投薬を超えることも発見されている。例えばアリの巣で細菌・真菌感染が発生すると、昆虫は近くの木から樹脂を集めて巣に持ち帰る。樹脂には抗菌・抗真菌特性があるため、こうすることでアリは一種の「社会的投薬」を行っている。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
-                        "q": "'salaries—and therefore overall costs—could be dramatically reduced' のダッシュ挿入を説明してください。",
-                        "a": "「給与、したがって全体的なコスト」。ダッシュで挿入された補足。給与削減→コスト削減という因果を追加説明。"
+                        "q": "'This implies that something triggers them to seek out such food only when' の科学的推論を説明してください。",
+                        "a": "観察: 感染時のみアルコール食物を消費→含意(implies): 何らかのトリガーが存在→only when: 寄生蜂幼虫存在時のみ。行動の観察→メカニズムの推論→条件の限定という科学的推論の3段階。"
                     },
                     {
-                        "q": "'employing women meant that salaries could be reduced' の無生物主語+因果を説明してください。",
-                        "a": "「女性を雇用することは給与削減を意味した」。employing（動名詞主語）→meant（結果を意味した）。因果構文。"
+                        "q": "ショウジョウバエがアルコール食物を消費する条件と理由を説明してください。",
+                        "a": "条件: 寄生蜂の幼虫が体内にある時のみ(only when)。理由: アルコールが幼虫の発達を防ぐ(prevents development)。通常は有害なため健康時は避ける。"
                     },
                     {
-                        "q": "'This need only skyrocketed' の 'skyrocketed' はどのような変化を示しますか？",
-                        "a": "「この需要は急増した」。skyrocketed = 急激に増大した。戦時中のコンピュータ需要の爆発的増加。"
+                        "q": "「社会的投薬」(social medication)とは何ですか?",
+                        "a": "個体の自己投薬を超えた集団レベルの治療行動。アリが巣の感染症に対し樹脂(抗菌・抗真菌特性)を集めてコロニー全体を守る。自己→集団への拡張。"
                     },
                     {
-                        "q": "女性がコンピュータとして採用された理由を要約してください。",
-                        "a": "19世紀後半から天文学で女性が計算に従事。戦時中に需要急増。女性雇用でコスト削減の実用的利点。"
+                        "q": "'seem to have determined' の助動詞+完了不定詞はなぜ使われていますか?",
+                        "a": "seem to(現在の推量=〜のようだ) + have determined(完了=すでに特定した)。断定を避けつつ科学的進歩を控えめに述べる学術的慎重さ。"
                     }
                 ],
                 "highlightPatterns": [
-                    "and therefore overall costs",
-                    "employing women meant",
-                    "could be dramatically"
+                    "This implies that something triggers them to seek out such food only when they have wasp larvae inside them"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "ダッシュ挿入"
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "implies / triggers / only when"
             },
             {
                 "id": "fp5",

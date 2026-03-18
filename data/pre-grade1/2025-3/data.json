@@ -2017,221 +2017,214 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "譲歩・逆接の論理展開",
-                "subtitle": "Concessive & Contrastive Logic",
-                "explanation": "P2A/P3A/P3Bで頻出する although/despite/however/even though の使い分けを整理する。準1級では複雑な論理展開の理解が必須。",
-                "sourceQuote": "Although the bedrooms were quite spacious, the kitchen was small\nDespite government efforts to prevent them, smuggling operations had existed\nEven though there were concerns about jury bias, most were given the death penalty",
-                "sourceLocation": "Part 1 Q3, Part 2B, Part 3B",
+                "title": "is considered promising, but researchers caution that（期待と限界のバランス）",
+                "subtitle": "Balancing Promise with Caution",
+                "explanation": "is considered to be promising は「有望と考えられている」と評価を示す。but researchers caution that は「しかし研究者は〜と警告する」と限界を提示。期待と限界のバランスを取る科学的議論構文。",
+                "sourceQuote": "Induced resistance is considered to be very promising, but researchers caution that it has limitations.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Although pesticides have made large-scale production possible, they pose risks to human health.",
-                        "ja": "農薬は大規模生産を可能にしたが、人間の健康にリスクをもたらす。",
-                        "note": "Although S+V, S+V: 節＋節（最も一般的）"
+                        "en": "Induced resistance is considered to be very promising, but researchers caution that it has limitations.",
+                        "ja": "誘導抵抗性は非常に有望と考えられているが、研究者はそれに限界があると警告する。",
+                        "note": "is considered(評価) + promising(期待) + but caution(転換+警告) + limitations(限界): 期待と現実のバランス"
                     },
                     {
-                        "en": "Despite government efforts, smuggling continued along the coast.",
-                        "ja": "政府の努力にもかかわらず、密輸は沿岸部で続いた。",
-                        "note": "Despite + 名詞句（節は不可。節にはalthoughを使う）"
+                        "en": "She pointed out that using induced resistance effectively was not as simple as introducing a gene for a specific characteristic or using a pesticide with a particular action.",
+                        "ja": "彼女は誘導抵抗性を効果的に使用することは、特定の特性のための遺伝子を導入したり特定の作用を持つ農薬を使用するほど単純ではないと指摘した。",
+                        "note": "pointed out that(指摘) + not as simple as(比較否定=〜ほど単純ではない): 複雑性の強調"
                     },
                     {
-                        "en": "Even though some defendants had not attended the gathering, they were found guilty.",
-                        "ja": "被告の一部は集会に出席すらしていなかったにもかかわらず、有罪とされた。",
-                        "note": "Even though = althoughの強調形（より驚きを含む）"
+                        "en": "The technology is considered promising, but experts caution that further testing is needed.",
+                        "ja": "その技術は有望と考えられているが、専門家はさらなる検証が必要だと警告する。",
+                        "note": "considered promising + caution: 期待と慎重さの基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'but researchers caution that many challenges remain' の 'but' はどのような譲歩・逆接ですか？",
-                        "a": "「しかし研究者は多くの課題が残っていると警告」。有望だが問題も多いという両面提示。逆接による論証の深化。"
+                        "q": "'is considered to be very promising, but researchers caution that' の議論構造を説明してください。",
+                        "a": "前半: 肯定的評価(considered promising=有望)。but: 転換。後半: 専門家の警告(caution+limitations=限界)。バランスの取れた科学的評価。楽観に慎重さを加える。"
                     },
                     {
-                        "q": "'is considered to be very promising' の受動態はなぜ使われていますか？",
-                        "a": "「非常に有望であると考えられている」。考える主体（科学者全般）を特定せず、一般的評価を客観的に提示。"
+                        "q": "誘導抵抗性の2つの限界は何ですか?",
+                        "a": "①防御に資源を振り向けることによる成長低下→収穫量減少 ②植物を完全には保護できない(broader but not total protection)。"
                     },
                     {
-                        "q": "'lead to reduced growth' はどのような因果ですか？",
-                        "a": "「成長の減少につながる」。防御にエネルギーを費やす→成長に使えるエネルギーが減る→収量低下。トレードオフ。"
+                        "q": "'not as simple as introducing a gene or using a pesticide' は何と比較していますか?",
+                        "a": "遺伝子導入(genetic engineering)や特定の農薬使用（単純で直接的な手法）と比較。誘導抵抗性は複雑なネットワークに依存するためより困難。"
                     },
                     {
-                        "q": "誘導抵抗性の有望さと課題を要約してください。",
-                        "a": "有望: 植物の自然防御を活用。課題: タイミング重要、収量減少のリスク、防御と成長のバランス調整が必要。"
+                        "q": "最後の文で述べられている「希望」は何ですか?",
+                        "a": "他の自然な作物保護と組み合わせれば、農薬の必要性を最小限にし農業を持続可能にできる。単独では不十分だが補完的手段として有用。"
                     }
                 ],
                 "highlightPatterns": [
-                    "but researchers caution",
-                    "is considered to be",
-                    "very promising"
+                    "Induced resistance is considered to be very promising, but researchers caution that it has limitations"
                 ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "譲歩・逆接",
+                "highlightColor": "#FF6B6B",
+                "highlightLabel": "considered promising / caution / limitations",
                 "practicePassage": {
                     "en": "[出典: Protecting Plants]\nInduced resistance is considered to be very promising, but researchers caution that it has limitations. One is that diverting plants' resources toward defense can lead to reduced growth, which affects crop yields. Also, while induced resistance provides broader protection than most human vaccines, it cannot totally protect the plants. According to one biologist, “Induced resistance is the result of a complex network of developmental and environmental pathways in the plant.” She pointed out that using induced resistance effectively was not as simple as introducing a gene for a specific characteristic or using a pesticide with a particular action. She added that many aspects needed to be just right for this method to work, including the growing conditions and agricultural methods used. However, there is hope that when combined with other forms of natural crop protection, induced resistance can help minimize the need for pesticides and make agriculture more sustainable.",
-                    "ja": "誘導抵抗性は非常に有望であると考えられているが、研究者たちはまだ多くの課題が残っていると警告している。この方法が効果を発揮するためには、多くの要素が適切でなければならない。例えば、処理のタイミングが重要であり、病原体が到来する前に植物の防御機構を活性化する必要がある。また、誘導抵抗性は作物の収量に影響を及ぼす可能性がある。植物が防御にエネルギーを費やすと、成長が減少する可能性があるためだ。したがって、防御の利点と成長への潜在的な悪影響のバランスを慎重に取る必要がある。",
+                    "ja": "誘導抵抗性は非常に有望と考えられているが、研究者はそれに限界があると警告する。一つは植物の資源を防御に振り向けることが成長の低下につながり、収穫量に影響するということだ。また誘導抵抗性はほとんどのヒトワクチンより広範な保護を提供するものの、植物を完全に保護することはできない。ある生物学者によると、「誘導抵抗性は植物における発達的・環境的経路の複雑なネットワークの結果である。」彼女は誘導抵抗性を効果的に使用することは、特定の特性のための遺伝子を導入したり特定の作用を持つ農薬を使用するほど単純ではないと指摘した。彼女はこの方法が機能するには、栽培条件や農業方法を含む多くの側面が適切でなければならないと付け加えた。しかし他の自然な作物保護の形態と組み合わせることで、誘導抵抗性が農薬の必要性を最小限にし農業をより持続可能にできるという希望がある。",
                     "audioFile": "audio/practice_pp1.mp3"
                 }
             },
             {
                 "id": "fp2",
-                "title": "受動態の多様な形式",
-                "subtitle": "Advanced Passive Constructions",
-                "explanation": "P3A/P3Bの学術文・歴史文で頻出する it is considered/known/said that, be charged with, be given等の高度な受動態表現。",
-                "sourceQuote": "Induced resistance is considered to be very promising\nEight men were charged in connection with the bombing\nmost of the men were given the death penalty",
-                "sourceLocation": "Part 3A・3B",
+                "title": "Even though there were concerns about...were given the death penalty（懸念無視の判決）",
+                "subtitle": "Harsh Verdict Despite Legitimate Concerns",
+                "explanation": "Even though は「〜にもかかわらず」で譲歩。there were concerns about は正当な懸念の存在を示す。were given the death penalty は「死刑を言い渡された」と厳しい結果を対比する。正義の不在を暗示する構文。",
+                "sourceQuote": "Even though there were concerns about jury bias, a lack of evidence, and the fact that some defendants had not even attended, most were given the death penalty.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Induced resistance is considered to be very promising.",
-                        "ja": "誘導抵抗性は非常に有望だと考えられている。",
-                        "note": "S is considered to be X = Sは Xだと考えられている"
+                        "en": "Even though there were concerns about jury bias, a lack of evidence, and the fact that some of the defendants had not even attended the Haymarket gathering, most of the men were given the death penalty.",
+                        "ja": "陪審の偏見、証拠の欠如、そして被告の一部がヘイマーケットの集会に出席さえしていなかったという事実についての懸念があったにもかかわらず、男性の大半に死刑が言い渡された。",
+                        "note": "Even though(譲歩=3つの懸念) + were given the death penalty(過酷な判決): 正義の不在を暗示"
                     },
                     {
-                        "en": "The men were charged in connection with the bombing.",
-                        "ja": "男たちは爆破事件に関連して起訴された。",
-                        "note": "be charged with/in connection with = ～で起訴される"
+                        "en": "According to Adelman, the trial ranked as \"one of the most notorious in American history.\"",
+                        "ja": "アデルマンによると、この裁判は「アメリカ史上最も悪名高い裁判の一つ」に位置づけられる。",
+                        "note": "ranked as(位置づけ) + one of the most notorious(最上級+notorious=悪名高い): 歴史的評価の引用"
                     },
                     {
-                        "en": "Hundreds of millions of tons of crops are produced annually worldwide.",
-                        "ja": "何億トンもの作物が毎年世界中で生産されている。",
-                        "note": "受動態＋副詞句の多重修飾"
+                        "en": "Even though the evidence was insufficient, the court proceeded with the ruling.",
+                        "ja": "証拠が不十分だったにもかかわらず、裁判所は判決を進めた。",
+                        "note": "Even though insufficient + proceeded: 懸念無視の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'were charged with murder' の受動態はどのような状況を示しますか？",
-                        "a": "「殺人罪で起訴された」。被告人側の視点。受動態で法的手続きの対象であることを強調。"
+                        "q": "'Even though there were concerns about' の後に列挙された3つの懸念は何ですか?",
+                        "a": "①陪審の偏見(jury bias) ②証拠の欠如(lack of evidence) ③被告の一部が集会に出席さえしていなかった(had not even attended)。すべて裁判の公正性に関わる重大な問題。"
                     },
                     {
-                        "q": "'were given the death penalty' の受動態はなぜ使われていますか？",
-                        "a": "「死刑判決を受けた」。判決を下した主体（裁判所）より、判決を受けた被告に焦点を当てる。"
+                        "q": "'Even though' の位置と効果を説明してください。",
+                        "a": "主節(death penalty)の前に置かれ、3つの深刻な懸念を認めた上で過酷な判決を対比。懸念の列挙→にもかかわらず死刑という構造が不公正さを際立たせる。"
                     },
                     {
-                        "q": "'Even though there were concerns' はどのような譲歩ですか？",
-                        "a": "「懸念があったにもかかわらず」。裁判の公正さへの懸念があったが、それでも厳しい判決が下されたことを示す。"
+                        "q": "'whipped up public anger' の意味と役割は何ですか?",
+                        "a": "「世論の怒りを煽った」。新聞がヒステリー的報道で人々の恐怖と怒りを意図的に増幅し、当局に行動(急進派拘留)を強いた。メディアの影響力を示す。"
                     },
                     {
-                        "q": "ヘイマーケット事件の裁判の問題点は何でしたか？",
-                        "a": "爆弾投下者の確たる証拠なし。8人起訴、7人に死刑。不公正だと広く非難。労働運動の殉教者の象徴に。"
+                        "q": "アデルマンがこの裁判を「最も悪名高い」と評した理由は何ですか?",
+                        "a": "正当な証拠なく、偏見のある陪審で死刑判決。出席さえしなかった被告も含む。司法の公正性が著しく欠如した歴史的事例。"
                     }
                 ],
                 "highlightPatterns": [
-                    "were charged",
-                    "were given the death penalty",
-                    "Even though"
+                    "Even though there were concerns about jury bias, a lack of evidence, and the fact that some of the defendants had not even attended the Haymarket gathering, most of the men were given the death penalty"
                 ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "受動態",
+                "highlightColor": "#4ECDC4",
+                "highlightLabel": "Even though concerns / death penalty / notorious",
                 "practicePassage": {
                     "en": "[出典: The Haymarket Affair]\nThe May 4 incident provoked a strong response from some newspapers, which whipped up public anger and claimed further bombings were planned. The authorities, who felt compelled to act, detained well-known radicals. Eight men were charged in connection with the bombing, and in August, the jury returned with its verdict: guilty. Even though there were concerns about jury bias, a lack of evidence, and the fact that some of the defendants had not even attended the Haymarket gathering, most of the men were given the death penalty. Four of them were hanged the following year. According to Adelman, the trial ranked as “one of the most notorious in American history.”",
-                    "ja": "5月4日の事件は一部の新聞から強い反応を引き起こし、恐怖と反労働運動の感情を煽り立てた。爆弾投下の事実にもかかわらず、誰が実際に爆弾を投げたかの確たる証拠はなかったにもかかわらず、8人の男性が殺人罪で起訴された。懸念の声もあったが、そのうち7人には死刑判決が下された。最終的に4人が絞首刑に処され、1人は獄中で自殺した。この裁判は多くの人々から不公正だと非難され、労働運動の殉教者の象徴となった。",
+                    "ja": "5月4日の事件は一部の新聞から強い反応を引き起こし、世論の怒りを煽りさらなる爆破が計画されていると主張した。行動を余儀なくされたと感じた当局は、著名な急進派を拘留した。8人の男性が爆破との関連で起訴され、8月に陪審は評決を返した：有罪。陪審の偏見、証拠の欠如、そして被告の一部がヘイマーケットの集会に出席さえしていなかったという事実についての懸念があったにもかかわらず、男性の大半に死刑が言い渡された。うち4人が翌年絞首刑に処された。アデルマンによると、この裁判は「アメリカ史上最も悪名高い裁判の一つ」に位置づけられる。",
                     "audioFile": "audio/practice_pp2.mp3"
                 }
             },
             {
                 "id": "fp3",
-                "title": "分詞構文と分詞の後置修飾",
-                "subtitle": "Participle Clauses & Post-modification",
-                "explanation": "P3Bの歴史叙述で多用される分詞構文（Angered by..., Convinced that...）と、名詞を後ろから修飾する分詞表現の理解が鍵。",
-                "sourceQuote": "Angered by the deaths, labor rights activists organized a gathering\nConvinced that all was in order, he left early\nflyers—printed not only in English but also in German—were distributed",
-                "sourceLocation": "Part 3B 全体",
+                "title": "Although came too late...exposed and became a symbol（遅すぎた正義と象徴化）",
+                "subtitle": "Belated Justice and Symbolic Legacy",
+                "explanation": "Although + came too late は「〜には遅すぎたが」と限界を認める。exposed + became a symbol は「明らかにし象徴となった」と歴史的意義を示す。Change did not come quickly, but は「変化はすぐには来なかったが」と長期的影響を述べる。",
+                "sourceQuote": "Although the governor's ruling came too late for those men who had lost their lives, the Haymarket Affair became a symbol.",
+                "sourceLocation": "Part 3B",
                 "examples": [
                     {
-                        "en": "Angered by the deaths, labor rights activists organized a gathering.",
-                        "ja": "死に怒った労働権活動家たちは集会を組織した。",
-                        "note": "過去分詞構文（感情の原因）= Because they were angered by..."
+                        "en": "Although the governor's ruling came too late for those men who had lost their lives, the Haymarket Affair exposed the social and economic divisions and became a symbol for many modern-day labor leaders and activists.",
+                        "ja": "知事の裁定は命を失った人々には遅すぎたが、ヘイマーケット事件は社会的・経済的分断を明らかにし、多くの現代の労働指導者や活動家の象徴となった。",
+                        "note": "Although too late(限界=遅すぎた) + exposed(明らかにした) + became a symbol(象徴化): 悲劇→遺産への転換"
                     },
                     {
-                        "en": "Convinced that all was in order, he left early.",
-                        "ja": "すべてが問題ないと確信し、彼は早めに退席した。",
-                        "note": "過去分詞構文（理由）= Because he was convinced that..."
+                        "en": "Change did not come quickly, but the incident and its aftermath contributed to important labor reforms and greater recognition of workers' rights.",
+                        "ja": "変化はすぐには来なかったが、事件とその余波は重要な労働改革と労働者の権利のより大きな承認に貢献した。",
+                        "note": "did not come quickly(即座ではない) + but contributed to(しかし貢献): 長期的影響の評価"
                     },
                     {
-                        "en": "Flyers—printed not only in English but also in German—were distributed.",
-                        "ja": "英語だけでなくドイツ語でも印刷されたビラが配布された。",
-                        "note": "過去分詞の後置修飾（ダッシュで挿入）"
+                        "en": "Although the decision came too late, it became a landmark case for the movement.",
+                        "ja": "決定は遅すぎたが、運動の画期的な事例となった。",
+                        "note": "Although too late + became landmark: 遅すぎた正義の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'Angered by the deaths of fellow workers' の分詞構文を説明してください。",
-                        "a": "「仲間の死に激怒して」。感情の原因を示す分詞構文。Because they were angered の圧縮形。"
+                        "q": "'Although came too late...exposed and became a symbol' の二面性を説明してください。",
+                        "a": "限界面: 死刑執行された人々は救えなかった(too late)。意義面: 社会的分断を暴露し(exposed)労働運動の象徴になった(became a symbol)。悲劇が長期的な社会変革の契機になった。"
                     },
                     {
-                        "q": "'Convinced that all was in order' の分詞構文はどのような判断を示しますか？",
-                        "a": "「すべてが秩序正しいと確信して」。市長が帰宅した理由。Because he was convinced の圧縮形。過去分詞の分詞構文。"
+                        "q": "知事の恩赦が「非難された」(condemned)のはなぜですか?",
+                        "a": "一部の実業家やメディアは急進派の釈放に反対。労働運動を抑制したい勢力にとって、恩赦は秩序への脅威と見なされた。当時の社会対立の深さを示す。"
                     },
                     {
-                        "q": "'printed not only in English but also in German' はどのような後置修飾ですか？",
-                        "a": "「英語だけでなくドイツ語でも印刷された」。leafletsを後置修飾する過去分詞句。not only...but also構文。"
+                        "q": "'Change did not come quickly, but contributed to' はどのような時間的視点を示していますか?",
+                        "a": "短期的: 即座の変化はなかった(did not come quickly)。長期的: 労働改革と権利承認に貢献(contributed to)。歴史的影響は即座ではなく漸進的であることを示す。"
                     },
                     {
-                        "q": "ヘイマーケット事件の経緯を要約してください。",
-                        "a": "5/3に労働者射殺→5/4に抗議集会→市長帰宅→警察が解散命令→爆弾投下→銃撃戦発生。"
+                        "q": "ヘイマーケット事件が「象徴」となった具体的な対象は何ですか?",
+                        "a": "現代の労働指導者と活動家(modern-day labor leaders and activists)。労働者の権利のための闘いの歴史的先例として参照される象徴的事件。"
                     }
                 ],
                 "highlightPatterns": [
-                    "Angered by the deaths",
-                    "Convinced that",
-                    "were killed"
+                    "Although the governor's ruling came too late for those men who had lost their lives, the Haymarket Affair exposed the social and economic divisions"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "分詞構文",
+                "highlightColor": "#45B7D1",
+                "highlightLabel": "Although too late / exposed / became a symbol",
                 "practicePassage": {
-                    "en": "[出典: The Haymarket Affair]\nOn May 3, 1886, at least two striking workers were killed by the police at a demonstration in Chicago. Angered by the deaths, labor rights activists organized a gathering for the next day at Haymarket Square. Many thousands of flyers—printed not only in English but also in German for German-speaking immigrant workers—were distributed. On May 4, a few thousand people attended, one of them being the Chicago mayor—there to ensure the protest passed peacefully. For the most part, it did just that. Convinced that all was in order, he left early. However, as the event came to a close with passionate speeches, violence erupted when the police tried to break it up. Someone threw a homemade dynamite bomb, and in the following chaos, guns were fired. A number of police officers and attendees were killed.",
-                    "ja": "1886年5月3日、シカゴの工場でのデモで少なくとも2人のストライキ中の労働者が警察に殺された。死者に激怒した労働運動の指導者たちは、翌日ヘイマーケット広場で抗議集会を開催した。英語だけでなくドイツ語でも印刷されたチラシが配布され、多くの労働者が集まった。すべてが秩序正しいと確信して、集会を監視していた市長は帰宅した。しかし、イベントが進むにつれ、残っていた警察が群衆を解散させようとしたとき、何者かが警察に向けて爆弾を投げ、銃撃戦が発生した。",
+                    "en": "[出典: The Haymarket Affair]\nIn the early 1890s, the governor of Illinois reviewed the court proceedings and documents, and he concluded that the trial had been unfair. The surviving men were pardoned and released from prison, a decision that was condemned by some industrialists and sections of the media. Although the governor's ruling came too late for those men who had lost their lives, the Haymarket Affair exposed the social and economic divisions that were commonplace at the time and became a symbol for many modern-day labor leaders and activists. Change did not come quickly, but the incident and its aftermath contributed to important labor reforms and greater recognition of workers' rights.",
+                    "ja": "1890年代初頭、イリノイ州知事は裁判記録と文書を検討し、裁判が不公正だったと結論づけた。生存していた男性は恩赦を受け刑務所から釈放されたが、この決定は一部の実業家やメディアから非難された。知事の裁定は命を失った人々には遅すぎたが、ヘイマーケット事件は当時一般的だった社会的・経済的分断を明らかにし、多くの現代の労働指導者や活動家の象徴となった。変化はすぐには来なかったが、事件とその余波は重要な労働改革と労働者の権利のより大きな承認に貢献した。",
                     "audioFile": "audio/practice_pp3.mp3"
                 }
             },
             {
                 "id": "fp4",
-                "title": "因果関係の接続表現",
-                "subtitle": "Cause-Effect Connectors",
-                "explanation": "P2Aの教育問題、P2Bの密輸問題で、Consequently/As a result/This gave...room to 等の因果関係を示す多様な表現が使われている。",
-                "sourceQuote": "Consequently, many US states have implemented preschool programs\nAs a result, some turned to smuggling\nThis gave employers room to force employees to sign contracts",
-                "sourceLocation": "Part 2A・2B",
+                "title": "Unlike...Furthermore...although has yet to be determined（比較・追加・未解明の三段構成）",
+                "subtitle": "Comparison, Addition, and Unresolved Questions",
+                "explanation": "Unlike は「〜とは異なり」と対比。Furthermore は追加の特性を導入。although + has yet to be determined は「〜がまだ解明されていないが」と未解決の課題を認める。科学的発見の多層的記述のDMパターン。",
+                "sourceQuote": "Unlike most human vaccines, this method can protect plants against several pests at the same time. Furthermore...although the genetic mechanism has yet to be determined.",
+                "sourceLocation": "Part 3A",
                 "examples": [
                     {
-                        "en": "Consequently, many US states have implemented preschool programs.",
-                        "ja": "その結果、多くの米国の州がプリスクールプログラムを導入した。",
-                        "note": "Consequently = フォーマルな「その結果」。文頭で使用。"
+                        "en": "Unlike most human vaccines, however, this method can protect plants against several pests at the same time.",
+                        "ja": "しかしほとんどのヒトワクチンとは異なり、この方法は同時に複数の害虫から植物を保護できる。",
+                        "note": "Unlike(対比=ヒトワクチンとの違い) + several pests at the same time(優位性): 人間との比較で利点を強調"
                     },
                     {
-                        "en": "As a result, some turned to smuggling.",
-                        "ja": "その結果、密輸に手を染める者もいた。",
-                        "note": "As a result = 前文の結果を導く。Consequentlyよりやや口語的。"
+                        "en": "Furthermore, researchers have found that the protection can even be carried into the next generation, although the genetic mechanism by which this occurs has yet to be determined.",
+                        "ja": "さらに研究者は、これが起こる遺伝的メカニズムはまだ解明されていないものの、保護が次世代にも引き継がれうることを発見した。",
+                        "note": "Furthermore(追加の発見) + although(未解明の認容) + has yet to be determined(未解決): 発見と限界の同時提示"
                     },
                     {
-                        "en": "This gave employers room to force employees to sign contracts.",
-                        "ja": "これにより雇用主は従業員に契約に署名させる余地を得た。",
-                        "note": "give A room to V = AにVする余地を与える（やや慣用的な因果表現）"
+                        "en": "Unlike previous methods, this approach is more efficient. Furthermore, it is safer, although long-term effects have yet to be studied.",
+                        "ja": "以前の方法とは異なり、このアプローチはより効率的だ。さらにより安全だが、長期的影響はまだ研究されていない。",
+                        "note": "Unlike + Furthermore + although yet: 三段構成の基本パターン"
                     }
                 ],
                 "practiceQuestions": [
                     {
-                        "q": "'This works by activating a plant's natural defense mechanisms' の 'This works by' はどのような因果表現ですか？",
-                        "a": "「これは〜することで機能する」。方法・手段を示す因果表現。by + 動名詞で機序を説明。"
+                        "q": "'Unlike most human vaccines' はなぜこの比較が効果的ですか?",
+                        "a": "読者が知っているヒトワクチン(1種類の病気に対応)との比較で、誘導抵抗性の優位性(複数の害虫に同時対応)を直感的に理解させる。既知→未知の説明技法。"
                     },
                     {
-                        "q": "'This prepares the plants for future attacks' の 'This' は何を指しますか？",
-                        "a": "前文の活性化プロセス全体を指す。「これが植物を将来の攻撃に備えさせる」。指示代名詞による因果連鎖。"
+                        "q": "'has yet to be determined' は何を示していますか?",
+                        "a": "「まだ解明されていない」。遺伝的メカニズムが未解明であることを認める。科学的誠実さ: 発見を報告しつつ限界(未解明の部分)も正直に述べる姿勢。"
                     },
                     {
-                        "q": "'induced resistance' の概念を説明してください。",
-                        "a": "「誘導抵抗性」。外部刺激で植物の防御機構を起動させる。農薬と違い植物の免疫系を強化するアプローチ。"
+                        "q": "「ディフェンスプライミング」のプロセスを段階順に説明してください。",
+                        "a": "①植物にストレスを加える ②弱い防御反応を刺激 ③将来の脅威に対する認識・強い反応の準備。ヒトワクチンの「弱毒化ウイルス→免疫獲得」と同様の原理。"
                     },
                     {
-                        "q": "誘導抵抗性と従来の農薬の違いは何ですか？",
-                        "a": "農薬: 病原体を直接殺す。誘導抵抗性: 植物自身の免疫系を強化。完全ではなく他の手法との組み合わせが必要。"
+                        "q": "'Furthermore' の後に述べられた追加の発見とは何ですか?",
+                        "a": "保護効果が次世代にも引き継がれうること(carried into the next generation)。親の防御プライミングが子孫にも遺伝的に伝わる可能性。ただしメカニズムは未解明。"
                     }
                 ],
                 "highlightPatterns": [
-                    "This works by",
-                    "This prepares",
-                    "induced resistance"
+                    "Unlike most human vaccines, however, this method can protect plants against several pests at the same time",
+                    "although the genetic mechanism by which this occurs has yet to be determined"
                 ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "因果関係",
+                "highlightColor": "#96CEB4",
+                "highlightLabel": "Unlike / Furthermore / has yet to be",
                 "practicePassage": {
                     "en": "[出典: Protecting Plants]\nA promising new approach to crop protection is the concept of induced resistance. This works by activating plants' natural defenses, which range from destroying pathogen-infected cells to releasing toxins to kill insects. Induced resistance can be achieved through a process known as defense priming, which involves applying stress to plants to stimulate a weak defense response. This prepares the plants to recognize and react strongly to threats in the future. Essentially, this “vaccinates” plants against pests in much the same way as human vaccines protect people against diseases such as influenza. Unlike most human vaccines, however, this method can protect plants against several pests at the same time. Furthermore, researchers have found that the protection can even be carried into the next generation, although the genetic mechanism by which this occurs has yet to be determined.",
-                    "ja": "作物保護への有望な新しいアプローチは、誘導抵抗性の概念である。これは、化学物質や特定の微生物を使って植物の自然な防御機構を活性化させることで機能する。処理された植物は、病原体に感染した細胞を封じ込めることで将来の攻撃に備える。従来の農薬が病原体を直接殺すのとは異なり、誘導抵抗性は植物自身の免疫系を強化する。しかし、この方法は完全な保護を提供するわけではなく、他の作物保護方法と組み合わせて使用する必要がある場合が多い。",
+                    "ja": "作物保護への有望な新しいアプローチは誘導抵抗性の概念である。これは植物の自然な防御——病原体に感染した細胞の破壊から昆虫を殺す毒素の放出まで——を活性化することで機能する。誘導抵抗性はディフェンスプライミングと呼ばれるプロセスを通じて達成でき、植物にストレスを加えて弱い防御反応を刺激することを含む。これは将来の脅威を認識し強く反応するよう植物を準備する。本質的にこれはインフルエンザなどの病気から人を守るヒトワクチンと同じ方法で害虫に対して植物を「ワクチン接種」する。しかしほとんどのヒトワクチンとは異なり、この方法は同時に複数の害虫から植物を保護できる。さらに研究者は、これが起こる遺伝的メカニズムはまだ解明されていないものの、保護が次世代にも引き継がれうることを発見した。",
                     "audioFile": "audio/practice_pp4.mp3"
                 }
             },
