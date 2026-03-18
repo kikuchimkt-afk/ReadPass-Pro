@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級プラス",
     "year": "2025",
     "session": "2",
@@ -1578,225 +1578,231 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "比較表現（比較級・最上級・同等比較）",
-                "subtitle": "Comparison Patterns",
-                "explanation": "inferior to / than / as ～ as 等の比較表現は、準2級プラスの読解で頻出。特にinferior to, superior to等のラテン語系比較表現に注意。",
-                "sourceQuote": "inferior to / much stronger / bigger and bigger / a lower price than",
-                "sourceLocation": "Part 1, Part 2, Part 3B",
+                "title": "譲歩と因果の複合構文",
+                "subtitle": "Concessive & Cause-Effect Compound Structures",
+                "explanation": "Although（譲歩）で事実を認めつつ逆の結果を述べ、In other words（言い換え）で要約し、lead to（因果）で連鎖を示す。これらが1段落内で組み合わされると、複雑な論理展開になります。",
+                "sourceQuote": "Although water is necessary for frogs to survive, this change in weather makes it harder for them to find it. In other words, one problem can lead to more problems and make the situation even worse.",
+                "sourceLocation": "大問2A 第2段落",
                 "examples": [
                     {
-                        "en": "His new cell phone is inferior to his old one.",
-                        "ja": "新しい携帯は古いものより劣っている。",
-                        "note": "inferior to＝～より劣る。than不要。"
+                        "en": "Although water is necessary for frogs to survive, this change in weather makes it harder for them to find it.",
+                        "ja": "水はカエルの生存に不可欠であるが、この天候の変化によりカエルが水を見つけることはより困難になっている。",
+                        "note": "Although＝「～であるが」。事実を認めた上で、逆の厳しい現実を主節で述べる譲歩構文。"
                     },
                     {
-                        "en": "The beanless coffee industry is getting bigger and bigger.",
-                        "ja": "ビーンレスコーヒー産業はどんどん大きくなっている。",
-                        "note": "比較級 + and + 比較級＝ますます～。"
+                        "en": "In other words, one problem can lead to more problems and make the situation even worse for the animal.",
+                        "ja": "言い換えれば、一つの問題がさらに多くの問題を引き起こし、その動物にとって状況をさらに悪化させうる。",
+                        "note": "In other words＝「言い換えれば」。前述の複数の問題をひとまとめにする。lead to＝「～につながる」。"
                     },
                     {
-                        "en": "Beanless coffee is likely to be available at a lower price than traditional coffee.",
-                        "ja": "ビーンレスコーヒーは従来より安い価格で入手可能になる。",
-                        "note": "a lower price than＝～より安い価格で。"
+                        "en": "In addition, climate change can create new diseases that can be very dangerous for frogs.",
+                        "ja": "さらに、気候変動はカエルにとって非常に危険な新しい病気を生み出しうる。",
+                        "note": "In addition＝「さらに」。前文の問題に追加情報を重ねる接続表現。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'a lower price than traditional coffee beans' はどのような比較を表していますか？",
-                        "a": "ビーンレスコーヒーの材料が従来のコーヒー豆より安いという価格比較。lower + than の比較級構文。"
-                    },
-                    {
-                        "q": "'is likely to' はどのような可能性の程度を表しますか？",
-                        "a": "「〜する可能性が高い」。probable に近い高い可能性を示す表現。be likely to do の形で使う。"
-                    },
-                    {
-                        "q": "'less damage to the environment' の 'less' はどのような比較を示していますか？",
-                        "a": "従来のコーヒー生産と比べて、環境へのダメージが「より少ない」という比較。less + 不可算名詞 + than の構造。"
-                    },
-                    {
-                        "q": "この段落でビーンレスコーヒーの利点はどのように比較を使って説明されていますか？",
-                        "a": "従来のコーヒーと比較して、価格が安い(lower)、環境被害が少ない(less damage)、木を切る必要がない等の優位性を示す。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: The Decreasing Number of Frogs]\nToday, climate change is the biggest challenge for frogs. Temperatures are rising year after year, and periods without rain are becoming longer. Although water is necessary for frogs to survive, this change in weather makes it harder for them to find it. In addition, climate change can create new diseases that can be very dangerous for frogs. In other words, one problem can lead to more problems and make the situation even worse for the animal.",
+                    "ja": "今日、気候変動はカエルにとって最大の課題である。気温は年々上昇しており、雨の降らない期間も長くなっている。水はカエルの生存に不可欠であるが、この天候の変化によりカエルが水を見つけることはより困難になっている。さらに、気候変動はカエルにとって非常に危険な新しい病気を生み出しうる。言い換えれば、一つの問題がさらに多くの問題を引き起こし、その動物にとって状況をさらに悪化させうるのである。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
                 "highlightPatterns": [
-                    "a lower price than",
-                    "is likely to",
-                    "less damage to the environment"
+                    "Although water is necessary",
+                    "makes it harder for them",
+                    "In addition",
+                    "In other words",
+                    "can lead to more problems"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "比較表現",
-                "practicePassage": {
-                    "en": "[出典: A New Type of Coffee]\nThese methods of making beanless coffee have some positive benefits. According to one organization, nowadays, many trees are cut down for traditional coffee production. In fact, the industry is a big reason for this problem. On the other hand, less water is used, and fewer forests are cut down for beanless coffee production. In addition, while the price of traditional coffee is going up today, beanless coffee is likely to be available at a lower price than traditional coffee as beanless coffee expands.",
-                    "ja": "これらの方法にはいくつかの利点がある。従来のコーヒー生産では多くの木が伐採されている。一方、ビーンレスコーヒーの生産では水の使用量が少なく、森林の伐採も少ない。さらに従来のコーヒーの価格が上昇する中、ビーンレスコーヒーはより安い価格で提供される可能性がある。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
+                "highlightLabel": "譲歩・因果",
+                "practiceQuestions": [
+                    {
+                        "q": "'Although' で始まる文の譲歩節と主節の関係を説明してください。",
+                        "a": "譲歩節（水が生存に不可欠）で事実を認め、主節（水を見つけることが困難）で逆の厳しい現実を述べる。"
+                    },
+                    {
+                        "q": "'In other words' はこの段落でどのような役割を果たしていますか？",
+                        "a": "前述の2つの問題（水不足と新しい病気）を「一つの問題が次の問題を生む」とひとまとめに言い換えている。"
+                    },
+                    {
+                        "q": "'lead to more problems' と 'make the situation even worse' の関係は？",
+                        "a": "lead to＝因果の連鎖。make...worse＝その結果としての悪化。因果の結果を2つ重ねて深刻さを強調。"
+                    },
+                    {
+                        "q": "この段落の論理構成を整理してください。",
+                        "a": "主題提示（気候変動が最大の課題）→ 具体例1（水不足、Although）→ 追加(In addition、病気）→ 要約(In other words、因果連鎖）"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "原因・結果を表す接続表現",
-                "subtitle": "Cause & Effect Connectors",
-                "explanation": "Therefore / As a result / In other words / This is why 等は長文で因果関係を示す重要な接続表現です。",
-                "sourceQuote": "This is why / In other words / As a result / Therefore",
-                "sourceLocation": "Part 2A, Part 2B",
+                "title": "目的・理由・結果の接続表現",
+                "subtitle": "Purpose, Reason & Result Connectors",
+                "explanation": "In order to（目的）、It was because（理由）、As a result（結果）は、行動の動機とその成果を述べる接続表現です。問題→対策→結果の流れを正確に読み取る力が必要です。",
+                "sourceQuote": "In order to handle the situation, organizations spent many years building new ponds. As a result, the species' population increased greatly.",
+                "sourceLocation": "大問2A 第3段落",
                 "examples": [
                     {
-                        "en": "This is why scientists are worried about people's impact on frogs.",
-                        "ja": "だから科学者は人々のカエルへの影響を心配している。",
-                        "note": "This is why＝これが～の理由だ。前文の説明を受けて結論を導く。"
-                    },
-                    {
-                        "en": "In other words, one problem can lead to more problems.",
-                        "ja": "つまり、一つの問題がさらなる問題を引き起こす。",
-                        "note": "In other words＝つまり。前文の言い換え・要約。"
+                        "en": "In order to handle the situation, organizations spent many years building new ponds in the area.",
+                        "ja": "その状況に対処するために、組織は何年もかけてその地域に新しい池を作った。",
+                        "note": "In order to＝「～するために」。目的を明示する不定詞表現。to handleだけでも可だが、In order toでより明確。"
                     },
                     {
                         "en": "As a result, the species' population increased greatly.",
-                        "ja": "その結果、その種の個体数は大幅に増えた。",
-                        "note": "As a result＝その結果。前文の行動による結果を示す。"
+                        "ja": "その結果、その種の個体数は大幅に増加した。",
+                        "note": "As a result＝「その結果」。前文の行動（池を作る）の結果を示す。"
+                    },
+                    {
+                        "en": "It was because they were losing their homes for several reasons.",
+                        "ja": "それは彼らがいくつかの理由で棲息地を失っていたためである。",
+                        "note": "It was because＝「それは～だったからである」。前文の事実の理由を説明する。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: The Decreasing Number of Frogs]\nIn response, some people are trying to increase the number of frogs. In an area in Switzerland, the population of a certain species of frog was decreasing quickly. It was because they were losing their homes for several reasons. In order to handle the situation, organizations spent many years building new ponds in the area. As a result, the species' population increased greatly. For this success, scientists believe that such simple actions could make a difference in saving animals.",
+                    "ja": "これに対して、一部の人々がカエルの数を増やそうとしている。スイスのある地域では、ある種のカエルの個体数が急速に減少していた。それはいくつかの理由で棲息地を失っていたためである。その状況に対処するために、組織は何年もかけてその地域に新しい池を作った。その結果、その種の個体数は大幅に増加した。この成功を踏まえ、科学者たちはこのような単純な行動が動物の救出に変化をもたらしうると考えている。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "In response",
+                    "It was because",
+                    "In order to handle the situation",
+                    "As a result",
+                    "could make a difference"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "目的・理由・結果",
                 "practiceQuestions": [
                     {
-                        "q": "'one problem can lead to more problems' はどのような因果関係を示していますか？",
-                        "a": "一つの問題が連鎖的にさらなる問題を引き起こすことを示す。lead to = 〜につながる・〜を引き起こす。"
+                        "q": "'In order to handle the situation' の 'the situation' は具体的に何を指しますか？",
+                        "a": "前文で述べた「いくつかの理由で棲息地を失い、個体数が急速に減少している」という状況を指す。"
                     },
                     {
-                        "q": "'Although people have been trying to help frogs, it has become harder for them' の因果構造は？",
-                        "a": "譲歩＋困難の因果。人々が助けようとしている（譲歩）にもかかわらず、気候変動でカエルの生存が困難に（結果）。"
+                        "q": "この段落の「問題→原因→対策→結果→教訓」の流れを整理してください。",
+                        "a": "問題（個体数減少）→ 原因(It was because、棲息地喪失) → 対策(In order to、池の建設) → 結果(As a result、個体数増加) → 教訓(could make a difference)"
                     },
                     {
-                        "q": "'Even worse' はどのような論理的機能を持ちますか？",
-                        "a": "前述の悪い状況に加えて「さらに悪いことに」と状況の悪化を追加する表現。段階的な因果の連鎖を示す。"
+                        "q": "'could make a difference' の 'could' はどのようなニュアンスですか？",
+                        "a": "可能性・推測を表す。「変化をもたらしうる」。実際の成功例から推測される、慎重な楽観を表す。"
                     },
                     {
-                        "q": "この段落の因果の連鎖を要約してください。",
-                        "a": "気候変動 → 気温上昇・乾燥 → カエルの生息が困難 → さらに悪化する問題 → 一つの問題がさらなる問題へ。"
+                        "q": "'In response' はどのような文脈で使われていますか？",
+                        "a": "前段落の問題（カエルの数の減少）に対する反応・対応を導入する接続表現。「これに対して」。"
                     }
-                ],
-                "highlightPatterns": [
-                    "one problem can lead to more problems",
-                    "harder for them",
-                    "even worse",
-                    "Although"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "原因・結果",
-                "practicePassage": {
-                    "en": "[出典: The Decreasing Number of Frogs]\nToday, climate change is the biggest challenge for frogs. Temperatures are rising year after year, and periods without rain are becoming longer. Although water is necessary for frogs to survive, this change in weather makes it harder for them to find it. In addition, climate change can create new diseases that can be very dangerous for frogs. In other words, one problem can lead to more problems and make the situation even worse for the animal.",
-                    "ja": "今日、気候変動はカエルにとって最大の課題だ。気温は年々上昇し、雨のない期間は長くなっている。水はカエルの生存に必要だが、この天候の変化で水を見つけるのが難しくなっている。さらに気候変動は新たな病気を生む可能性がある。In other words、一つの問題がさらなる問題を引き起こすのだ。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "provide/supply型の動詞構文",
-                "subtitle": "Verb + Object + Preposition Patterns",
-                "explanation": "provide A with B, supply A with B, make fun of, draw attention to 等、動詞+目的語+前置詞の構文パターンを整理します。",
-                "sourceQuote": "provide students with / make fun of / draw attention to / inferior to",
-                "sourceLocation": "Part 1 全体",
+                "title": "条件・仮定と推量の表現",
+                "subtitle": "Conditional, Hypothetical & Speculative Expressions",
+                "explanation": "whether（～かどうか）、if（もし）、would not（～しないだろう）、might（～かもしれない）は、不確実な未来や仮定の状況を述べる際に使います。筆者の主張の確実性の度合いを正確に読み取ることが重要です。",
+                "sourceQuote": "whether people will recognize / would not drink / if beanless coffee replaces / might receive less money",
+                "sourceLocation": "大問3B 第4段落",
                 "examples": [
                     {
-                        "en": "Some universities provide all of their students with laptop computers.",
-                        "ja": "一部の大学は全学生にノートパソコンを提供する。",
-                        "note": "provide A with B＝AにBを提供する。supply A with Bも同様。"
+                        "en": "One of them is whether people will recognize and accept this type of drink as coffee.",
+                        "ja": "その一つは、人々がこの種の飲み物をコーヒーとして認識し受け入れるかどうかである。",
+                        "note": "whether＝「～かどうか」。名詞節を導き、不確実な結果を示す。"
                     },
                     {
-                        "en": "Peter often makes fun of his younger brother.",
-                        "ja": "ピーターは弟をよくからかう。",
-                        "note": "make fun of＝～をからかう。tease（類義語）。"
-                    },
-                    {
-                        "en": "Scientists are trying to draw people's attention to frogs.",
-                        "ja": "科学者はカエルに人々の注目を集めようとしている。",
-                        "note": "draw attention to＝～に注目を集める。attract attention（類義語）。"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'The nickname influenced the city's economy' の 'influence' はどのような意味で使われていますか？",
-                        "a": "「〜に影響を与える」。ニックネームがニューヨーク市の経済に良い影響を与えたことを示す。"
-                    },
-                    {
-                        "q": "'In order to draw people's attention' の構文を説明してください。",
-                        "a": "'In order to' = 「〜するために」（目的の不定詞の強調形）。draw attention = 注意を引く。"
-                    },
-                    {
-                        "q": "この段落でニューヨークのニックネームはどのように経済に影響を与えましたか？",
-                        "a": "暗く危険なイメージだった都市を、ニックネームを使ったキャンペーンで再ブランディングし、観光客や投資を呼び込んだ。"
-                    },
-                    {
-                        "q": "'developed an image of being a dark and dangerous place' を言い換えると？",
-                        "a": "'gained a reputation as an unsafe city' や 'became known as a dangerous area' と言い換え可能。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "influenced the city's economy",
-                    "draw people's attention",
-                    "In order to"
-                ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "動詞構文",
-                "practicePassage": {
-                    "en": "[出典: A Special Name for New York City]\nThe nickname is not just a phrase. It also influenced the city's economy. In the late 1900s, New York City developed an image of being a dark and dangerous place with a lot of crime. Therefore, a campaign was started to improve the image and to encourage tourists to visit the city. It used a drawing of a large apple along with the nickname to create a positive image. In this way, the name helped bring back the city's good image.",
-                    "ja": "このニックネームは単なるフレーズではなく、市の経済にも影響した。1900年代後半、NYCは犯罪が多い暗く危険な場所というイメージになった。Therefore、イメージ改善と観光客誘致のキャンペーンが始まった。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
-            },
-            {
-                "id": "fp4",
-                "title": "仮定・条件を表す表現",
-                "subtitle": "Conditional & Hypothetical Expressions",
-                "explanation": "if節、in that case、might等の仮定・条件表現は、長文での将来の可能性や問題提起に頻出します。",
-                "sourceQuote": "if beanless coffee replaces / In that case / might receive / is likely to",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "If beanless coffee replaces traditional coffee, traditional coffee production will be reduced.",
-                        "ja": "ビーンレスがコーヒーに取って代わると、従来の生産は減少する。",
-                        "note": "if + 現在形, will + 動詞原形＝条件節の第一条件文。"
+                        "en": "Moreover, if beanless coffee replaces traditional coffee, traditional coffee production will be reduced in the future.",
+                        "ja": "さらに、もし代替コーヒーが従来のコーヒーに取って代わるならば、将来、従来のコーヒーの生産は減少するだろう。",
+                        "note": "if＋現在形, will＋動詞原形＝第1条件文。現実に起こりうる仮定とその結果。"
                     },
                     {
                         "en": "In that case, coffee farmers might receive less money.",
-                        "ja": "その場合、コーヒー農家の収入が減る可能性がある。",
-                        "note": "In that case＝その場合。might＝可能性を示す助動詞。"
-                    },
-                    {
-                        "en": "Beanless coffee is likely to be available at a lower price.",
-                        "ja": "ビーンレスコーヒーはより安い価格で入手可能になりそうだ。",
-                        "note": "be likely to＝～する可能性が高い。probably（類義語）。"
+                        "ja": "その場合、コーヒー農家の収入が減るかもしれない。",
+                        "note": "In that case＝「その場合」。前の条件を受ける。might＝「～かもしれない」。弱い推量。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'if beanless coffee replaces traditional coffee' はどのタイプの条件文ですか？",
-                        "a": "第一条件文（現実的な仮定）。ビーンレスコーヒーが従来品を置き換えたら→農家の収入が減る、という現実的なシナリオ。"
-                    },
-                    {
-                        "q": "'In that case' はどのような論理的役割を果たしていますか？",
-                        "a": "前述の条件（ビーンレスコーヒーが普及した場合）を受けて、「その場合は」と結果を導入する表現。"
-                    },
-                    {
-                        "q": "'might receive less money' と 'would not drink' の助動詞の違いを説明してください。",
-                        "a": "'might' は弱い可能性（収入が減るかもしれない）、'would not' はより確定的な仮定の帰結（飲まないだろう）。"
-                    },
-                    {
-                        "q": "この段落で述べられているビーンレスコーヒーの課題を要約してください。",
-                        "a": "①人々がコーヒーとして認めるか ②農家の収入減少の可能性 ③消費者の受容（本物のコーヒーでないと飲まない人がいる）。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "if beanless coffee replaces",
-                    "In that case",
-                    "might receive less money",
-                    "would not drink"
-                ],
-                "highlightColor": "#fbbf24",
-                "highlightLabel": "仮定・条件",
                 "practicePassage": {
                     "en": "[出典: A New Type of Coffee]\nHowever, there are challenges to the coffee industry. One of them is whether people will recognize and accept this type of drink as coffee. A study showed that about 70 percent of Canadians would not drink beanless coffee. Moreover, if beanless coffee replaces traditional coffee, traditional coffee production will be reduced in the future. In that case, coffee farmers might receive less money. In these ways, as the coffee industry faces several challenges, it is entering an important period of change today.",
-                    "ja": "しかし課題もある。人々がこの飲み物をコーヒーとして認めるかどうかだ。カナダ人の約70%がビーンレスコーヒーを飲まないという調査結果もある。さらにビーンレスコーヒーが従来のコーヒーに取って代わると、コーヒー農家の収入が減る可能性がある。",
+                    "ja": "しかし、コーヒー産業には課題がある。その一つは、人々がこの種の飲み物をコーヒーとして認識し受け入れるかどうかである。ある調査では、カナダ人の約70%が代替コーヒーを飲まないだろうと示された。さらに、もし代替コーヒーが従来のコーヒーに取って代わるならば、将来、従来のコーヒーの生産は減少するだろう。その場合、コーヒー農家の収入が減るかもしれない。このように、コーヒー産業はいくつかの課題に直面しながら、今日、重要な変革期を迎えている。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "whether people will recognize",
+                    "would not drink",
+                    "if beanless coffee replaces",
+                    "In that case",
+                    "might receive less money"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "条件・仮定",
+                "practiceQuestions": [
+                    {
+                        "q": "'whether' と 'if' の違いは何ですか？",
+                        "a": "whetherは「～かどうか」（名詞節）で結果が不明な疑問を表す。ifは「もし～ならば」（条件節）で仮定の条件を示す。"
+                    },
+                    {
+                        "q": "'would not drink' と 'might receive' の確実性の違いを説明してください。",
+                        "a": "would not＝比較的強い否定的推測（飲まないであろう）。might＝より弱い可能性（減るかもしれない）。"
+                    },
+                    {
+                        "q": "'In that case' の 'that case' は何を指していますか？",
+                        "a": "前文の条件「代替コーヒーが従来のコーヒーに取って代わり、生産が減少する」という場合を指す。"
+                    },
+                    {
+                        "q": "この段落で挙げられている2つの課題を整理してください。",
+                        "a": "①消費者の受容問題（70%が飲まない）。②従来のコーヒー農家への経済的影響（収入減の可能性）。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "比較級と対比の表現",
+                "subtitle": "Comparatives & Contrast Expressions",
+                "explanation": "less（不可算用）/ fewer（可算用）の使い分け、lower than（比較級+than）、On the other hand（対比）、while（一方で）は、2つの対象を比較して議論する際に不可欠な表現です。",
+                "sourceQuote": "less water is used, and fewer forests are cut down / at a lower price than traditional coffee / On the other hand / while the price is going up",
+                "sourceLocation": "大問3B 第3段落",
+                "examples": [
+                    {
+                        "en": "On the other hand, less water is used, and fewer forests are cut down for beanless coffee production.",
+                        "ja": "一方で、代替コーヒーの生産では使われる水がより少なく、伐採される森林もより少ない。",
+                        "note": "less＋不可算名詞(water) / fewer＋可算名詞(forests)。比較級の使い分けが重要。On the other hand＝対比。"
+                    },
+                    {
+                        "en": "In addition, while the price of traditional coffee is going up today, beanless coffee is likely to be available at a lower price than traditional coffee as beanless coffee expands.",
+                        "ja": "さらに、従来のコーヒーの価格が今日上昇している一方で、代替コーヒーが広まるにつれ、従来のコーヒーよりも安い価格で入手できる可能性が高い。",
+                        "note": "while＝「一方で」。対比の接続詞。lower...than＝比較級+than。is likely to＝「～する可能性が高い」。"
+                    },
+                    {
+                        "en": "In fact, the industry is a big reason for this problem.",
+                        "ja": "実際、この産業はこの問題の大きな原因である。",
+                        "note": "In fact＝「実際」。前文の主張を裏付ける強調表現。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: A New Type of Coffee]\nThese methods of making beanless coffee have some positive benefits. According to one organization, nowadays, many trees are cut down for traditional coffee production. In fact, the industry is a big reason for this problem. On the other hand, less water is used, and fewer forests are cut down for beanless coffee production. In addition, while the price of traditional coffee is going up today, beanless coffee is likely to be available at a lower price than traditional coffee as beanless coffee expands.",
+                    "ja": "代替コーヒーのこれらの製造方法にはいくつかの利点がある。ある組織によると、今日では従来のコーヒー生産のために多くの木が伐採されている。実際、この産業はこの問題の大きな原因である。一方で、代替コーヒーの生産では使われる水がより少なく、伐採される森林もより少ない。さらに、従来のコーヒーの価格が今日上昇している一方で、代替コーヒーが広まるにつれ、従来のコーヒーよりも安い価格で入手できる可能性が高い。",
                     "audioFile": "audio/practice_pp4.mp3"
-                }
+                },
+                "highlightPatterns": [
+                    "On the other hand",
+                    "less water is used",
+                    "fewer forests are cut down",
+                    "while the price",
+                    "at a lower price than"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "比較・対比",
+                "practiceQuestions": [
+                    {
+                        "q": "'less water' と 'fewer forests' で使い分けている理由を説明してください。",
+                        "a": "waterは不可算名詞なのでless、forestsは可算名詞なのでfewerを使う。比較級の基本ルール。"
+                    },
+                    {
+                        "q": "'On the other hand' と 'while' はそれぞれどのような対比を示していますか？",
+                        "a": "On the other hand：従来コーヒー（環境に悪い）vs. 代替コーヒー（環境に良い）。while：従来コーヒーの価格（上昇中）vs. 代替コーヒーの価格（安くなる可能性）。"
+                    },
+                    {
+                        "q": "'is likely to be available at a lower price than' の構造を説明してください。",
+                        "a": "is likely to＝「～する可能性が高い」。at a lower price than＝比較級＋than。「従来のコーヒーよりも安い価格で入手できそうだ」。"
+                    },
+                    {
+                        "q": "この段落で従来コーヒーと代替コーヒーはどの点で比較されていますか？",
+                        "a": "①環境への影響（水の使用量、森林伐採）と②価格の2点で比較されている。いずれも代替コーヒーが優位。"
+                    }
+                ]
             },
             {
                 "id": "fp5",
@@ -1843,13 +1849,13 @@
                 "highlightPatterns": [
                     "Payment was not required",
                     "if you cancel your reservation",
-                    "additional costs may apply"
+                    "the full amount must be paid"
                 ],
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
                     "en": "[出典: About Your Stay at Our Hotel]\nPayment was not required when you booked our hotel. So, you will need to pay when you arrive at the hotel. Also, if you cancel your reservation on the day of your stay, the full amount must be paid. Please remember that it is not possible to cancel through the website, and it is only accepted by phone or e-mail.",
-                    "ja": "予約時にお支払いは不要です。ホテル到着時にお支払いください。当日キャンセルの場合は全額お支払いが必要です。ウェブサイトでのキャンセルはできず、電話またはメールのみ受け付けます。",
+                    "ja": "当ホテルの予約時にはお支払いは不要でした。そのため、ホテル到着時にお支払いが必要となります。また、宿泊当日にキャンセルされた場合は、全額のお支払いが必要です。ウェブサイトでのキャンセルはできず、電話またはメールでのみ受け付けていますのでご注意ください。",
                     "audioFile": "audio/practice_pp5.mp3"
                 }
             }

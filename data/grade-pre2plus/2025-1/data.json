@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級プラス",
     "year": "2025",
     "session": "1",
@@ -1577,222 +1577,228 @@
             {
                 "id": "fp1",
                 "title": "因果関係の接続表現",
-                "subtitle": "Cause & Effect Connectors",
-                "explanation": "Therefore / Because of that / This is because 等は長文で因果関係を示す重要な接続詞です。準2級プラスでは空所補充問題で頻出。",
-                "sourceQuote": "Therefore / Because of that / This is because / in turn",
-                "sourceLocation": "Part 2A, Part 2B, Part 3B",
+                "subtitle": "Cause & Effect Connector Chain",
+                "explanation": "This is because（理由提示）、would mean（仮定的結果）、If...will（条件と結果）、Because of that（原因の帰結）が1段落内で連鎖し、原因→結果→さらなる結果という因果の流れを作ります。",
+                "sourceQuote": "This is because a decrease in production would mean less production in the world. If people still want to buy the oil, the price will go up. Because of that, the price rose rapidly.",
+                "sourceLocation": "大問2B 第2段落",
                 "examples": [
                     {
-                        "en": "A terrible disease was causing problems. Therefore, the original purpose was to improve people's lives.",
-                        "ja": "恐ろしい病気が問題を引き起こしていた。したがって、本来の目的は人々の生活を改善することだった。",
-                        "note": "Therefore＝したがって。前文の問題→後文の目的。"
+                        "en": "This is because a decrease in production in Spain would mean less production in the world.",
+                        "ja": "これはスペインの生産量の減少が世界全体の生産量の減少を意味するからである。",
+                        "note": "This is because＝「これは～だからである」。前文の主張の理由を説明する典型構文。"
                     },
                     {
-                        "en": "The factory reported worrying levels of production. Because of that, the price rose rapidly.",
-                        "ja": "工場が心配なレベルの生産量を報告した。そのため価格が急騰した。",
-                        "note": "Because of that＝そのため。前文の原因→後文の結果。"
+                        "en": "If people still want to buy the oil in this situation, the price will naturally go up.",
+                        "ja": "この状況でも人々がそのオイルをまだ買いたいと思うなら、価格は自然に上がるだろう。",
+                        "note": "If＋現在形, will＋動詞原形＝第1条件文。ありうる仮定とその結果。"
                     },
                     {
-                        "en": "This, in turn, suggests that polar bears could survive longer.",
-                        "ja": "これは、ひいてはホッキョクグマがより長く生存できることを示唆する。",
-                        "note": "in turn＝ひいては。連鎖的な因果関係。"
+                        "en": "Because of that, the price of olive oil in the country rose rapidly in 2022.",
+                        "ja": "そのため、同国のオリーブオイルの価格は2022年に急速に上昇した。",
+                        "note": "Because of that＝「そのため」。前文の事象を原因として結果を述べる接続表現。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'This is because' はどのような論理関係を導いていますか？",
-                        "a": "理由を導入している。スペインの減産が世界全体の減産を意味するという因果関係の「原因」部分を示す。"
-                    },
-                    {
-                        "q": "'a decrease in production in Spain would mean less production in the world' の因果の流れを説明してください。",
-                        "a": "スペインでの減産（原因）→ 世界全体の減産（結果）。would mean が仮定的な因果を示す。"
-                    },
-                    {
-                        "q": "'the price will naturally go up' は何の結果ですか？",
-                        "a": "供給が減っても需要が変わらない場合の結果。If people still want to buy → price goes up という条件＋因果。"
-                    },
-                    {
-                        "q": "この段落全体の因果の連鎖を日本語で要約してください。",
-                        "a": "スペインの減産 → 世界の減産 → 需要が供給を上回る → 価格上昇。実際に2022年に価格が急騰した。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Olive Oil]\nThe problem with olive oil production in Spain may cause trouble for this country and the world. This is because a decrease in production in Spain would mean less production in the world. If people still want to buy the oil in this situation, the price will naturally go up. In fact, one of the world's largest olive oil factories in Spain recently reported worrying levels of olive production. Because of that, the price of olive oil in the country rose rapidly in 2022.",
+                    "ja": "スペインのオリーブオイル生産の問題は、この国と世界に困難を引き起こすかもしれない。これはスペインの生産量の減少が世界全体の生産量の減少を意味するからである。この状況でも人々がそのオイルをまだ買いたいと思うなら、価格は自然に上がるだろう。実際、スペインにある世界最大級のオリーブオイル工場の一つが、最近、心配なレベルのオリーブ生産量を報告した。そのため、同国のオリーブオイルの価格は2022年に急速に上昇した。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
                 "highlightPatterns": [
                     "This is because",
                     "would mean less production",
-                    "the price will naturally go up"
+                    "If people still want to buy",
+                    "the price will naturally go up",
+                    "Because of that"
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "因果関係",
-                "practicePassage": {
-                    "en": "[出典: Olive Oil]\nThe problem with olive oil production in Spain may cause trouble for this country and the world. This is because a decrease in production in Spain would mean less production in the world. If people still want to buy the oil in this situation, the price will naturally go up. In fact, one of the world's largest olive oil factories in Spain recently reported worrying levels of olive production. Because of that, the price of olive oil in the country rose rapidly in 2022.",
-                    "ja": "スペインでのオリーブオイル生産の問題は、この国と世界に問題を引き起こす可能性がある。スペインでの減産は世界での減産を意味するからだ。この状況でも人々がオイルを買いたければ、価格は自然に上がる。実際、スペインの世界最大級のオリーブオイル工場の一つが心配なレベルの生産量を報告した。Because of that、同国のオリーブオイル価格は2022年に急騰した。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
+                "practiceQuestions": [
+                    {
+                        "q": "'This is because' の 'This' は何を指していますか？",
+                        "a": "前文の「スペインのオリーブオイル生産の問題がこの国と世界に困難を引き起こすかもしれない」という内容を指す。"
+                    },
+                    {
+                        "q": "'would mean' はなぜ 'will mean' ではなく 'would' が使われていますか？",
+                        "a": "仮定的なニュアンス。「実際にそうなったら～を意味するだろう」という、断定を避けた控えめな推測。"
+                    },
+                    {
+                        "q": "'Because of that' の 'that' は具体的にどの事実を指しますか？",
+                        "a": "直前の文「世界最大級の工場が心配なレベルの生産量を報告した」という事実を指す。"
+                    },
+                    {
+                        "q": "この段落の因果連鎖を整理してください。",
+                        "a": "スペインの生産減(原因)→世界供給減(This is because)→価格上昇(If条件)→工場の低生産報告(In fact)→2022年の急騰(Because of that)"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "否定・譲歩の表現",
-                "subtitle": "Negation & Concession Patterns",
-                "explanation": "no matter how / refuse to / deny that 等の否定・譲歩表現は、文の論理を正確に読み取るために重要です。",
-                "sourceQuote": "No matter how hard he tried / refused to wash / denied that he had done it / However, its production",
-                "sourceLocation": "Part 1, Part 2B",
+                "title": "程度・結果を表す構文",
+                "subtitle": "Degree & Result Constructions",
+                "explanation": "enough for A to do（Aが～するのに十分な）、even（～さえ）、prevent A from -ing（Aが～するのを防ぐ）は、性能や効果の程度を具体的に示す構文です。科学的な説明文で頻出します。",
+                "sourceQuote": "The fiber blocks even very small materials to prevent them from entering the mouth. The water that comes out is clean enough for people to drink.",
+                "sourceLocation": "大問2A 第2段落",
                 "examples": [
                     {
-                        "en": "No matter how hard he tried, William wasn't able to find the courage.",
-                        "ja": "どんなに頑張っても勇気が見つからなかった。",
-                        "note": "No matter how＝どんなに～でも。however（同義）。"
+                        "en": "The water that comes out is clean enough for people to drink.",
+                        "ja": "出てくる水は人が飲めるほどきれいである。",
+                        "note": "形容詞＋enough for＋人＋to do＝「人が～するのに十分な程度に…」。結果・程度を表す重要構文。"
                     },
                     {
-                        "en": "He refused to wash the dishes after dinner.",
-                        "ja": "夕食後の皿洗いを拒否した。",
-                        "note": "refuse to do＝～を拒否する。decline to do（類義語）。"
+                        "en": "The fiber blocks even very small materials to prevent them from entering the mouth.",
+                        "ja": "その繊維は非常に小さな物質さえも遮断し、口に入るのを防ぐ。",
+                        "note": "even＝「～さえ」で能力の高さを強調。prevent A from -ing＝「Aが～するのを防ぐ」。"
                     },
                     {
-                        "en": "He denied that he had done it.",
-                        "ja": "やったことを否定した。",
-                        "note": "deny that / deny -ing＝～を否定する。"
+                        "en": "The straw can remove nearly 100 percent of them.",
+                        "ja": "そのストローはそれらのほぼ100%を除去できる。",
+                        "note": "nearly 100 percent＝「ほぼ100%」。高い効果を数値で表す程度表現。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'However, when there is less ice due to global warming' の 'However' は前のどの事実に対する逆接ですか？",
-                        "a": "「氷の上で生活し、氷上で食料を得る」という通常の生態に対して、温暖化で氷が減るという逆の状況を導いている。"
-                    },
-                    {
-                        "q": "'Since they cannot catch their food in the water' の 'Since' はどのような意味で使われていますか？",
-                        "a": "「〜なので」という理由を表す。水中では食料を得られないため、代わりにベリー類を食べるという因果関係。"
-                    },
-                    {
-                        "q": "この段落で述べられているホッキョクグマの問題を要約してください。",
-                        "a": "温暖化→氷の減少→陸上生活の増加→食料源の変化→急速な体重減少→命の危険、という連鎖的な問題。"
-                    },
-                    {
-                        "q": "'which puts their lives in danger later' の 'which' は何を指していますか？",
-                        "a": "急速な体重減少（lose weight rapidly）を指す。体重が減ることが後に命の危機につながるという因果を示す。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: A Straw for Clean Water]\nTo drink clean water, one side of the straw is put into the water, and people simply drink the water from the other side. The water goes through a special fiber in a plastic tube. The fiber blocks even very small materials to prevent them from entering the mouth. In this way, the water that comes out is clean enough for people to drink. The materials contain several kinds of bacteria, and the straw can remove nearly 100 percent of them.",
+                    "ja": "きれいな水を飲むには、ストローの片側を水に入れ、もう片方の側から水を飲むだけでよい。水はプラスチック管の中の特殊な繊維を通る。その繊維は非常に小さな物質さえも遮断し、口に入るのを防ぐ。このようにして、出てくる水は人が飲めるほどきれいになる。これらの物質には数種類の細菌が含まれており、そのストローはそれらのほぼ100%を除去できる。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
                 "highlightPatterns": [
-                    "However, when there is less ice",
-                    "cannot catch their food"
+                    "even very small materials",
+                    "to prevent them from entering",
+                    "clean enough for people to drink",
+                    "nearly 100 percent"
                 ],
                 "highlightColor": "#f472b6",
-                "highlightLabel": "否定・譲歩",
-                "practicePassage": {
-                    "en": "[出典: Polar Bears]\nGlobal warming has been having an effect on polar bears' shelter and food supply. They usually live on the ice, and their food source is often other animals they catch on the ice. Ice is important for them. However, when there is less ice due to global warming, many polar bears spend more time on land. Since they cannot catch their food in the water, they find other sources like berries. This causes them to lose weight rapidly, which puts their lives in danger later.",
-                    "ja": "地球温暖化はホッキョクグマの住処と食料供給に影響を与えている。通常氷の上で生活し、氷上で他の動物を捕まえて食べる。しかし温暖化で氷が減ると陸で過ごす時間が増える。水中では食料を得られないため、ベリー類などを食べるが、急速に体重が減り命の危険に晒される。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
+                "highlightLabel": "程度・結果",
+                "practiceQuestions": [
+                    {
+                        "q": "'clean enough for people to drink' の構文を分解してください。",
+                        "a": "clean(形容詞) + enough(十分に) + for people(人にとって) + to drink(飲むために)。「人が飲むのに十分きれいな」。"
+                    },
+                    {
+                        "q": "'even very small materials' の 'even' はなぜ使われていますか？",
+                        "a": "「非常に小さな物質さえも」遮断できるという、繊維の高い能力を強調するために使われている。"
+                    },
+                    {
+                        "q": "'prevent them from entering the mouth' の構文を説明してください。",
+                        "a": "prevent A from -ing＝「Aが～するのを防ぐ」。them＝materials、entering＝口に入ること。"
+                    },
+                    {
+                        "q": "'In this way' はこの段落でどのような役割ですか？",
+                        "a": "前2文で説明した仕組み（繊維で遮断→口への侵入を防止）の結果として「きれいな水になる」ことをまとめる。"
+                    }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "比較・程度を表す表現",
-                "subtitle": "Comparison & Degree Expressions",
-                "explanation": "more than twice as / equally / higher and higher 等の比較・程度表現は読解の鍵です。",
-                "sourceQuote": "more than twice as high as / equally important / higher and higher / nearly 100 percent",
-                "sourceLocation": "Part 1, Part 2, Part 3B",
+                "title": "条件・推量と論理的帰結",
+                "subtitle": "Conditionals, Speculation & Logical Conclusions",
+                "explanation": "if（条件）、may not / could（推量）、in turn（ひいては）、This means（結論）は、科学的な予測や論理的な議論を展開する際の重要構文です。確実性の度合いを正確に読み取る力が問われます。",
+                "sourceQuote": "if greenhouse gases are not reduced / may not survive / could survive longer if people succeed / This means the lives depend on human behavior",
+                "sourceLocation": "大問3B 第4段落",
                 "examples": [
                     {
-                        "en": "The level of warming in the Arctic has been more than twice as high as the world average.",
-                        "ja": "北極の温暖化は世界平均の2倍以上だ。",
-                        "note": "more than twice as ... as＝～の2倍以上。倍数表現。"
+                        "en": "Sadly, studies have shown that it will be tough for most polar bears to exist until 2100 if greenhouse gases are not reduced.",
+                        "ja": "悲しいことに、温室効果ガスが削減されなければ、ほとんどのホッキョクグマが2100年まで生存するのは困難だと研究が示している。",
+                        "note": "if＋受動態の否定＝「もし～されなければ」。結果(will be tough)が先、条件(if)が後の語順。"
                     },
                     {
-                        "en": "They are equally important.",
-                        "ja": "同じくらい重要だ。",
-                        "note": "equally＝等しく。同等の重要度。"
+                        "en": "This, in turn, suggests that polar bears could survive longer if people succeed in reducing the amount of gases produced.",
+                        "ja": "このことは、ひいては、人間がガスの排出量削減に成功すれば、ホッキョクグマがより長く生きられる可能性を示唆している。",
+                        "note": "in turn＝「ひいては」。前文から次の結論への論理的つながり。could＝「～できるかもしれない」。"
                     },
                     {
-                        "en": "The straw can remove nearly 100 percent of bacteria.",
-                        "ja": "ストローは細菌のほぼ100%を除去できる。",
-                        "note": "nearly 100 percent＝ほぼ100%。almost（同義語）。"
+                        "en": "This means the lives of these animals depend on human behavior.",
+                        "ja": "つまり、これらの動物の命は人間の行動にかかっている。",
+                        "note": "This means＝「つまり」。段落全体の議論の最終結論を導く。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'the straw can remove nearly 100 percent of them' の 'nearly 100 percent' はどの程度を表していますか？",
-                        "a": "「ほぼ100%」。nearly は「ほとんど」を意味し、100%に極めて近い高い除去率を示す。"
-                    },
-                    {
-                        "q": "'clean enough for people to drink' の 'enough for ... to ~' の構造を説明してください。",
-                        "a": "「〜が…するのに十分な」という程度表現。形容詞 + enough + for + 人 + to + 動詞 の構文。"
-                    },
-                    {
-                        "q": "'several kinds of bacteria' の 'several' はどのような量・程度を表しますか？",
-                        "a": "「いくつかの・複数の」を表す。some より多く many より少ない中間的な量を示す。"
-                    },
-                    {
-                        "q": "この段落でストローの浄水の仕組みを日本語で簡潔に説明してください。",
-                        "a": "水をストローで吸うと、内部の素材が有害な細菌を捕らえ、ほぼ100%除去されたきれいな水が出てくる仕組み。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Polar Bears]\nSadly, studies have shown that it will be tough for most polar bears to exist until 2100 if greenhouse gases are not reduced. In some areas, there is concern that they may not survive until 2030. Other studies also show that there will be no ice in the Arctic in summer by 2040. This, in turn, suggests that polar bears could survive longer if people succeed in reducing the amount of gases produced. This means the lives of these animals depend on human behavior.",
+                    "ja": "悲しいことに、温室効果ガスが削減されなければ、ほとんどのホッキョクグマが2100年まで生存するのは困難だと研究が示している。一部の地域では、2030年まで生存できないかもしれないという懸念がある。別の研究では、2040年までに北極の夏に氷がなくなることも示されている。このことは、ひいては、人間がガスの排出量削減に成功すれば、ホッキョクグマがより長く生きられる可能性を示唆している。つまり、これらの動物の命は人間の行動にかかっている。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
                 "highlightPatterns": [
-                    "nearly 100 percent",
-                    "clean enough for people to drink",
-                    "several kinds of"
+                    "if greenhouse gases are not reduced",
+                    "may not survive",
+                    "in turn, suggests that",
+                    "could survive longer if people succeed",
+                    "This means"
                 ],
                 "highlightColor": "#34d399",
-                "highlightLabel": "比較・程度",
-                "practicePassage": {
-                    "en": "[出典: A Straw for Clean Water]\nTo drink clean water, one side of the straw is put into the water, and people simply drink the water from the other side. The water goes through a special fiber in a plastic tube. The fiber blocks even very small materials to prevent them from entering the mouth. In this way, the water that comes out is clean enough for people to drink. The materials contain several kinds of bacteria, and the straw can remove nearly 100 percent of them.",
-                    "ja": "清潔な水を飲むには、ストローの一端を水に入れ、もう一端から飲むだけだ。水はプラスチック管の中の特殊な繊維を通過する。繊維はとても小さな物質も塞ぎ、口に入るのを防ぐ。こうして出てくる水は人が飲めるほどきれいになる。細菌のほぼ100%を除去できる。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
+                "highlightLabel": "条件・推量",
+                "practiceQuestions": [
+                    {
+                        "q": "'may not survive' と 'could survive longer' の確実性の違いを説明してください。",
+                        "a": "may not＝「生存できないかもしれない」（否定的な不確実性）。could＝「生き延びられるかもしれない」（肯定的な可能性）。両方とも不確実だが方向性が逆。"
+                    },
+                    {
+                        "q": "'in turn' はどのような論理関係を示していますか？",
+                        "a": "前文（2040年に氷が消える）が、次の論点（ガス削減が成功すればクマが生き延びる）への橋渡しとなることを示す。「ひいては」。"
+                    },
+                    {
+                        "q": "'This means' の 'This' は何を指していますか？",
+                        "a": "前文までの議論全体（条件次第でホッキョクグマの生存が変わる）を指し、段落全体の最終結論を導く。"
+                    },
+                    {
+                        "q": "この段落で示されている予測の時系列を整理してください。",
+                        "a": "2030年（一部地域で絶滅の恐れ）→ 2040年（北極の夏に氷消失）→ 2100年（ガス削減なしではほとんど生存困難）"
+                    }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "条件文と仮定表現",
-                "subtitle": "Conditionals & Hypothetical Expressions",
-                "explanation": "if + 現在形, will / could / may 等の条件文は長文での予測・提案の読み取りに不可欠です。",
-                "sourceQuote": "if greenhouse gases are not reduced / If people still want to / if he isn't careful / may allow / could survive longer",
-                "sourceLocation": "Part 1, Part 2B, Part 3B",
+                "title": "逆接・仮定的結果と結論の表現",
+                "subtitle": "Contrast, Hypothetical Results & Conclusions",
+                "explanation": "However（逆接）で視点を転換し、could mean（仮定的結果）で深刻さを示し、Therefore（結論）で対策を述べるパターンは、議論型の長文で頻出します。",
+                "sourceQuote": "However, experts are concerned / could mean Spanish people lose / Therefore, some places have introduced solutions",
+                "sourceLocation": "大問2B 第3段落",
                 "examples": [
                     {
-                        "en": "If greenhouse gases are not reduced, most polar bears could be gone by 2100.",
-                        "ja": "温室効果ガスが削減されなければ2100年までにほとんどのホッキョクグマがいなくなる。",
-                        "note": "if + 現在形（受動態）, could + 動詞原形＝条件節。"
+                        "en": "However, experts are concerned about this change because olive oil is important for the country's food culture.",
+                        "ja": "しかし、オリーブオイルはその国の食文化にとって重要であるため、専門家はこの変化を懸念している。",
+                        "note": "However＝「しかし」。前文の傾向（安い製品を選ぶ人が増加）に対して、専門家の懸念を対比させる。"
                     },
                     {
-                        "en": "If people still want to buy the oil, the price will naturally go up.",
-                        "ja": "人々がまだオイルを買いたければ価格は自然に上がる。",
-                        "note": "if + 現在形, will + 動詞原形＝第一条件文。"
+                        "en": "Losing olive oil could mean Spanish people lose a big part of their daily eating habits.",
+                        "ja": "オリーブオイルを失うことは、スペイン人が日常の食習慣の大部分を失うことを意味しうる。",
+                        "note": "動名詞(Losing)＝主語。could mean＝「～を意味しうる」で仮定的な深刻な結果を示す。"
                     },
                     {
-                        "en": "These products may allow more people to drink safe, clean water.",
-                        "ja": "これらの製品はより多くの人が安全な水を飲めるようにするかもしれない。",
-                        "note": "may allow＝可能性を示す。"
+                        "en": "Therefore, to handle the problem of the lack of rain, some places in the country have introduced solutions to reduce water use.",
+                        "ja": "そのため、雨不足の問題に対処するために、国内の一部の地域では水の使用量を削減する解決策を導入している。",
+                        "note": "Therefore＝「そのため」。前述の懸念を受け、結論として対策を提示する接続詞。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'if greenhouse gases are not reduced' はどのタイプの条件文ですか？",
-                        "a": "第一条件文（現実的条件）。温室効果ガスが削減されなければ→ほとんどのホッキョクグマが生存困難、という現実的な予測。"
-                    },
-                    {
-                        "q": "'may not survive until 2030' と 'could survive longer' の助動詞の違いを説明してください。",
-                        "a": "'may not' は否定的推量（2030年まで持たないかもしれない）、'could' は条件付き可能性（ガスを減らせば長く生きられる可能性がある）。"
-                    },
-                    {
-                        "q": "'This, in turn, suggests that...' の 'in turn' はどのような論理展開を示しますか？",
-                        "a": "連鎖的因果。「2040年に氷がなくなる」→「それが今度は」→「ガス削減で延命可能と示唆」という段階的推論。"
-                    },
-                    {
-                        "q": "この段落の最後の文 'This means the lives of these animals depend on human behavior' は何を結論づけていますか？",
-                        "a": "全ての条件文の結論として、ホッキョクグマの命は人間の行動次第であるという最終メッセージ。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Olive Oil]\nThe impact has caused a decrease in the number of sales in Spain. According to the government, more people are choosing cheaper products than olive oil. However, experts are concerned about this change because olive oil is important for the country's food culture. Losing olive oil could mean Spanish people lose a big part of their daily eating habits. Therefore, to handle the problem of the lack of rain, some places in the country have introduced solutions to reduce water use.",
+                    "ja": "その影響はスペインでの売上の減少を引き起こした。政府によると、オリーブオイルよりも安い製品を選ぶ人が増えている。しかし、オリーブオイルはその国の食文化にとって重要であるため、専門家はこの変化を懸念している。オリーブオイルを失うことは、スペイン人が日常の食習慣の大部分を失うことを意味しうる。そのため、雨不足の問題に対処するために、国内の一部の地域では水の使用量を削減する解決策を導入している。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
-                    "if greenhouse gases are not reduced",
-                    "may not survive until 2030",
-                    "could survive longer",
-                    "if people succeed"
+                    "However, experts are concerned",
+                    "could mean Spanish people lose",
+                    "Therefore, to handle the problem",
+                    "cheaper products than olive oil"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "条件・仮定",
-                "practicePassage": {
-                    "en": "[出典: Polar Bears]\nSadly, studies have shown that it will be tough for most polar bears to exist until 2100 if greenhouse gases are not reduced. In some areas, there is concern that they may not survive until 2030. Other studies also show that there will be no ice in the Arctic in summer by 2040. This, in turn, suggests that polar bears could survive longer if people succeed in reducing the amount of gases produced. This means the lives of these animals depend on human behavior.",
-                    "ja": "温室効果ガスが削減されなければ、2100年までにほとんどのホッキョクグマが生存できないだろう。一部の地域では2030年まで持たない可能性もある。2040年までに北極の夏の氷は消滅するという研究もある。人間の行動にこれらの動物の命がかかっている。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
+                "highlightLabel": "逆接・結論",
+                "practiceQuestions": [
+                    {
+                        "q": "'However' はどのような論理の転換を示していますか？",
+                        "a": "前文の「安い製品を選ぶ人が増えている」という事実に対して、「専門家は懸念している」という逆方向の反応を示す。"
+                    },
+                    {
+                        "q": "'Losing olive oil could mean...' の文構造を説明してください。",
+                        "a": "動名詞(Losing olive oil)＝主語。could mean＋(that)節＝仮定的結果。「失うことは～を意味しうる」。"
+                    },
+                    {
+                        "q": "'Therefore' はこの段落でどのような結論を導いていますか？",
+                        "a": "食文化の危機（懸念）に対する具体的な対策（水使用量削減の解決策の導入）という結論。"
+                    },
+                    {
+                        "q": "'cheaper products than olive oil' はどのような比較ですか？",
+                        "a": "比較級(cheaper)＋than＝「オリーブオイルよりも安い製品」。消費者の行動変化を示す比較表現。"
+                    }
+                ]
             },
             {
                 "id": "fp5",
@@ -1846,8 +1852,8 @@
                 "highlightColor": "#f59e0b",
                 "highlightLabel": "パラフレーズ",
                 "practicePassage": {
-                    "en": "[出典: Writing Contest]\nOne reason your essay was chosen is your writing skills. The way the story was told and the choice of words were both excellent. The way you expressed your feelings was also great. We could tell how serious you were thinking about your future through your writing. We thought that your view of life would have a positive impact on other high school students. We believe that not only students but also adults can learn something from it.",
-                    "ja": "あなたのエッセイが選ばれた理由の一つは文章力です。物語の語り方と言葉の選び方が素晴らしかった。感情の表現も見事でした。あなたの人生観は他の高校生にポジティブな影響を与えるでしょう。学生だけでなく大人も学べるものがあると信じています。",
+                    "en": "[出典: Writing Contest]\nMy name is Jacob Francis. I am responsible for a writing contest organized by the city. First of all, thank you for sending us your essay. We are very excited to tell you that the essay you wrote about your life goals has been chosen for the first prize in the high school category. Among many essays we received, your work caught our attention for several reasons.\nOne reason your essay was chosen is your writing skills. The way the story was told and the choice of words were both excellent. The way you expressed your feelings was also great. We could tell how serious you were thinking about your future through your writing. We thought that your view of life would have a positive impact on other high school students. We believe that not only students but also adults can learn something from it.",
+                    "ja": "私の名前はジェイコブ・フランシスです。私は市が主催する作文コンテストの担当者です。まず、エッセイを送ってくださりありがとうございます。あなたが人生の目標について書いたエッセイが高校生部門の最優秀賞に選ばれたことを、大変嬉しくお伝えします。私たちが受け取った多くのエッセイの中で、あなたの作品はいくつかの理由で私たちの注目を集めました。\nあなたのエッセイが選ばれた理由の一つは文章力です。物語の語り方と言葉の選び方がどちらも素晴らしかった。感情の表現の仕方も見事でした。あなたの文章を通して、あなたがいかに真剣に将来のことを考えているかが伝わりました。あなたの人生観は他の高校生にポジティブな影響を与えるだろうと思いました。学生だけでなく大人もそこから何かを学べると信じています。",
                     "audioFile": "audio/practice_pp5.mp3"
                 }
             }

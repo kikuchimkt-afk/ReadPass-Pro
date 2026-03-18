@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "grade-pre2plus",
     "year": 2025,
     "session": "2025-2-sat",
@@ -709,223 +709,229 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "目的・理由を表す表現",
-                "subtitle": "Purpose & Reason: in order to / aimed at / This is because",
-                "explanation": "「～のために」という目的や「～だからだ」という理由を示す表現は、読解問題で「なぜ？」「何のために？」という設問の答えを探す鍵になります。",
-                "sourceQuote": "aimed at reducing / This is because / in order to",
-                "sourceLocation": "大問2B 第2段落, 大問3A 第2・3段落",
+                "title": "逆接と追加情報の論理展開",
+                "subtitle": "Contrast & Additional Evidence Patterns",
+                "explanation": "However（しかし）で前の研究結果に反する新たな結果を示し、Also（また）で追加の発見を重ね、This made＋人＋think（これにより～と考えた）で結論を導くパターンです。",
+                "sourceQuote": "However, a similar study showed different results / Also, looking at the real paintings caused a strong positive response / This made the scientists think",
+                "sourceLocation": "大問2A 第3段落",
                 "examples": [
                     {
-                        "en": "I want to invite you to our next event aimed at reducing food loss.",
-                        "ja": "食品ロスを減らすことを目的とした次のイベントにあなたを招待したい。",
-                        "note": "aimed at ～ing＝「～を目指した」。イベントの目的を直接述べる表現。"
+                        "en": "However, a similar study performed in the Netherlands showed different results.",
+                        "ja": "しかし、オランダで行われた同様の研究は異なる結果を示した。",
+                        "note": "However＝「しかし」。前段落のアメリカの研究結果に対して、異なる結果を対比的に導入する。"
                     },
                     {
-                        "en": "This is because they can have their own rooms and receive meals for free.",
-                        "ja": "自分の部屋を持ち、無料で食事を受けられるからだ。",
-                        "note": "This is because＝「それは～だからだ」。直前の文の理由を述べる定型表現。"
+                        "en": "Also, looking at the real paintings caused a strong positive response in the part of the brain linked to some important factors like memory.",
+                        "ja": "また、本物の絵画を見ることで、記憶などの重要な要素に関連する脳の部分に強いポジティブな反応が引き起こされた。",
+                        "note": "Also＝「また」。前文の結果に加えて別の発見を追加する。caused＝「引き起こした」。"
                     },
                     {
-                        "en": "We would like to support people who do not have enough money to buy food in our community.",
-                        "ja": "地域で食料を買うお金が十分にない人々を支援したい。",
-                        "note": "would like to＝「～したい」（丁寧な希望）。支援の目的を述べる。"
+                        "en": "This made the scientists think that such an experience of art would be a wonderful opportunity for children.",
+                        "ja": "このことは、そのような芸術体験が子どもたちにとって素晴らしい機会になるだろうと科学者たちに考えさせた。",
+                        "note": "make＋人＋動詞原形＝使役構文。「～に…させる」。研究結果が科学者たちの考えを変えた。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "この段落で使われている比較表現を全て挙げてください。",
-                        "a": "more water than（〜より多くの水）、as effective as（〜と同じくらい効果的）、less likely to（〜しにくい）の3つ。"
-                    },
-                    {
-                        "q": "'as effective as modern methods' の 'as...as' 構文はどのような比較を示しますか？",
-                        "a": "同等比較。古代の農法が現代の方法と同じくらい効果的であることを示す。"
-                    },
-                    {
-                        "q": "'less likely to damage the land' の意味を説明してください。",
-                        "a": "「土地を損なう可能性がより低い」。less + 形容詞 + to do で否定的な比較を示す。"
-                    },
-                    {
-                        "q": "この段落で古代の農法の利点はどのように比較で表されていますか？",
-                        "a": "現代の方法と同等の効果（as effective as）でありながら、環境への悪影響が少ない（less likely to damage）という対比。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Real and Artificial Brain]\nHowever, a similar study performed in the Netherlands showed different results. It used several paintings to record the brain activity of people enjoying the real works and their fake posters. The results showed that brain activity was greater when they looked at real artworks. Also, looking at the real paintings caused a strong positive response in the part of the brain linked to some important factors like memory. This made the scientists think that such an experience of art would be a wonderful opportunity for children.",
+                    "ja": "しかし、オランダで行われた同様の研究は異なる結果を示した。その研究は、本物の作品とその偽物のポスターを鑑賞する人々の脳の活動を記録するために複数の絵画を使った。結果は、本物の芸術作品を見たときの方が脳の活動が大きかったことを示した。また、本物の絵画を見ることで、記憶などの重要な要素に関連する脳の部分に強いポジティブな反応が引き起こされた。このことは、そのような芸術体験が子どもたちにとって素晴らしい機会になるだろうと科学者たちに考えさせた。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
                 "highlightPatterns": [
-                    "more water than",
-                    "as effective as",
-                    "less likely to"
+                    "However, a similar study",
+                    "showed different results",
+                    "Also, looking at the real paintings",
+                    "This made the scientists think"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "目的・理由",
-                "practicePassage": {
-                    "en": "[出典: House Projects]\nWhen people buy these homes, the effect on a town is huge. Buying a house means paying taxes to the town. There are a lot of times when nobody buys a used house because it still costs a lot. Then, it is more valuable to the town to sell houses at lower prices and receive money as taxes than not to sell them. It will also help the local economy because new house owners moving from other cities will spend money on local products and services.",
-                    "ja": "人々がこれらの家を購入すると、町への影響は大きい。家を購入することは町に税金を支払うことを意味する。中古住宅はまだ高価であるために誰も買わないことが多い。そのため、家を低価格で売って税金として収入を得る方が家を売らないよりも町にとって価値がある。また、他の都市から移ってくる新しい住宅所有者が地元の製品やサービスにお金を使うため、地元経済にも役立つ。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
+                "highlightLabel": "逆接・追加",
+                "practiceQuestions": [
+                    {
+                        "q": "'However' は前段落のどのような主張に反する結果を示していますか？",
+                        "a": "前段落の「人間の脳は本物とデジタルの違いを区別できないかもしれない」という主張に対して、「本物の方が脳の反応が大きい」という反対の結果を示す。"
+                    },
+                    {
+                        "q": "'Also' はどのような追加情報を提供していますか？",
+                        "a": "「本物の方が脳活動が大きい」に加えて、「記憶に関連する脳の部分にもポジティブな反応がある」という別の発見を追加。"
+                    },
+                    {
+                        "q": "'This made the scientists think that...' の構文を説明してください。",
+                        "a": "make＋人(the scientists)＋動詞原形(think)＝使役構文。「このことが科学者たちに～と考えさせた」。"
+                    },
+                    {
+                        "q": "この段落の論理構成を整理してください。",
+                        "a": "逆接(However、異なる結果)→ 実験方法 → 結果1(脳活動が大きい) → 追加(Also、記憶への反応) → 結論(This made...think)"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "接続詞による論理展開",
-                "subtitle": "Logical Connectors: In this way / However / For example",
-                "explanation": "大問2の空所補充では接続詞の選択が鍵です。前後の論理関係（順接・逆接・例示・結論）を正確に捉えることが求められます。",
-                "sourceQuote": "In this way / For example / However / Because of",
-                "sourceLocation": "大問2A 第2・3段落, 大問2B 第1・3段落",
+                "title": "理由・因果の連鎖と手段の表現",
+                "subtitle": "Reason-Cause Chains & Means Expressions",
+                "explanation": "because（～なので）、Because of this（このため）、So（だから）、by -ing（～することで）が連鎖し、社会問題の原因→影響→対応という論理の流れを作ります。",
+                "sourceQuote": "because young people are leaving / Because of this, many elderly citizens have no younger family / So, they rely on / by selling these houses",
+                "sourceLocation": "大問3B 第1段落",
                 "examples": [
                     {
-                        "en": "In this way, people are trying to protect their quality of life.",
-                        "ja": "このようにして、人々は生活の質を守ろうとしている。",
-                        "note": "In this way＝「このようにして」。前の具体例をまとめる結論表現。"
+                        "en": "Italy, like other countries, has many small towns in the countryside that are losing population because young people are leaving.",
+                        "ja": "イタリアは他の国々と同様に、若者が離れているために人口が減少している地方の小さな町を多く抱えている。",
+                        "note": "because＝「～なので」。人口減少の直接的な理由を示す。that＝関係代名詞でtownsを修飾。"
                     },
                     {
-                        "en": "Because of less food and space to live, they have come to areas where humans live.",
-                        "ja": "食べ物と住む場所が少なくなったため、人間が住む地域にやってきた。",
-                        "note": "Because of＝「～のため」（名詞句が続く）。Because（節が続く）との違いに注意。"
+                        "en": "Because of this, many elderly citizens in these towns have no younger family to take care of their houses.",
+                        "ja": "このため、これらの町の多くの高齢者には家の面倒を見てくれる若い家族がいない。",
+                        "note": "Because of this＝「このため」。前文の事実を原因として結果を述べる。to take care of＝形容詞的用法。"
                     },
                     {
-                        "en": "For example, not leaving food outside and reducing food waste as much as possible are simple actions.",
-                        "ja": "例えば、外に食べ物を放置しないことや食品廃棄物を減らすことは簡単な行動だ。",
-                        "note": "For example＝「例えば」。具体例を挙げるときに使う。"
+                        "en": "Eventually, local governments take advantage of the situation by selling these houses at low prices.",
+                        "ja": "最終的に、地方自治体はこれらの家を安い価格で売ることでこの状況を活用する。",
+                        "note": "Eventually＝「最終的に」。因果連鎖の最終段階。by -ing＝「～することで」手段を表す。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: House Projects]\nIn recent years, certain European towns have attracted attention for their projects to sell empty houses at extremely low prices. For example, Italy, like other countries, has many small towns in the countryside that are losing population because young people are leaving. Because of this, many elderly citizens in these towns have no younger family to take care of their houses. So, they rely on their local governments. Eventually, local governments take advantage of the situation by selling these houses at low prices.",
+                    "ja": "近年、特定のヨーロッパの町が、空き家を非常に安い価格で売るプロジェクトで注目を集めている。例えば、イタリアは他の国々と同様に、若者が離れているために人口が減少している地方の小さな町を多く抱えている。このため、これらの町の多くの高齢者には家の面倒を見てくれる若い家族がいない。そこで、彼らは地方自治体に頼っている。最終的に、地方自治体はこれらの家を安い価格で売ることでこの状況を活用する。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "because young people are leaving",
+                    "Because of this",
+                    "So, they rely on",
+                    "Eventually",
+                    "by selling these houses"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "理由・因果",
                 "practiceQuestions": [
                     {
-                        "q": "'This is because' はどのような因果関係を導いていますか？",
-                        "a": "前述の事実の理由を説明する。「なぜなら〜だからだ」と原因を導入する接続表現。"
+                        "q": "この段落の因果連鎖を整理してください。",
+                        "a": "若者の流出(because) → 高齢者に若い家族がいない(Because of this) → 自治体に頼る(So) → 安値で家を売る(Eventually, by -ing)"
                     },
                     {
-                        "q": "'As a result' はどのような論理的機能を持ちますか？",
-                        "a": "前述の原因から生じた結果を示す。「その結果」と因果の結果部分を導く。"
+                        "q": "'Because of this' と 'because' の違いは何ですか？",
+                        "a": "because＝接続詞で節を導く（S+V）。Because of＝前置詞句で名詞を取る（this＝前文の内容）。"
                     },
                     {
-                        "q": "'In other words' の役割を説明してください。",
-                        "a": "「言い換えると」。前述の内容をより分かりやすく言い直す補足表現。"
+                        "q": "'by selling these houses at low prices' の 'by -ing' はどのような表現ですか？",
+                        "a": "手段を表す。「安い価格で家を売ることによって」状況を活用するという方法を示す。"
                     },
                     {
-                        "q": "この段落の論理構成を要約してください。",
-                        "a": "主張→理由（This is because）→結果（As a result）→言い換え（In other words）の流れ。"
+                        "q": "'to take care of their houses' の不定詞はどのような用法ですか？",
+                        "a": "形容詞的用法。younger familyを後ろから修飾し「家の面倒を見てくれる若い家族」を意味する。"
                     }
-                ],
-                "highlightPatterns": [
-                    "This is because",
-                    "As a result",
-                    "In other words"
-                ],
-                "highlightColor": "#10b981",
-                "highlightLabel": "論理展開",
-                "practicePassage": {
-                    "en": "[出典: Real and Artificial Brain]\nHowever, a similar study performed in the Netherlands showed different results. It used several paintings to record the brain activity of people enjoying the real works and their fake posters. The results showed that brain activity was greater when they looked at real artworks. Also, looking at the real paintings caused a strong positive response in the part of the brain linked to some important factors like memory. This made the scientists think that such an experience of art would be a wonderful opportunity for children.",
-                    "ja": "しかし、オランダで行われた同様の研究は異なる結果を示した。本物の作品とその偽のポスターを楽しむ人々の脳活動を記録するために複数の絵画を使用した。結果は、本物の芸術作品を見たとき（20脳活動がより大きかった）ことを示した。また、本物の絵画を見ることで、記憶などの重要な要素に関連する脳の部分に強い肯定的反応が引き起こされた。これにより科学者たちは、そのような芸術体験は子供たちにとって素晴らしい機会になると考えた。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "依頼・提案の丁寧表現",
-                "subtitle": "Polite Requests: would appreciate / would like you to / please",
-                "explanation": "大問3Aのメール文では、丁寧に依頼するビジネスライクな表現が頻出します。設問で「何を頼んでいるか」を問われるため、依頼表現を正確に理解する必要があります。",
-                "sourceQuote": "we would appreciate it if / please come visit us / Don't worry if you cannot",
-                "sourceLocation": "大問3A 第3・4段落",
+                "title": "目的・対比と結論の表現",
+                "subtitle": "Purpose, Contrast & Conclusion Expressions",
+                "explanation": "to lead（導くために）の目的表現、who（関係代名詞）、while（一方で）の対比、Therefore（そのため）の結論は、文化的な習慣を説明する段落で論理的な展開を示します。",
+                "sourceQuote": "to lead the spirits back home / who have passed away / Some people play music, while others pray / Therefore, the scene often seems",
+                "sourceLocation": "大問2B 第2段落",
                 "examples": [
                     {
-                        "en": "we would appreciate it if you could offer your food as a supporter citizen",
-                        "ja": "サポーター市民として食べ物を提供いただけると幸いです",
-                        "note": "would appreciate it if＝「～していただけると感謝します」。非常に丁寧な依頼表現。"
+                        "en": "Generally, for this holiday, people set up a special space in their homes with many candles to lead the spirits of their ancestors back home.",
+                        "ja": "一般的に、この祝日のために、人々は祖先の霊を家に導くために多くのろうそくを使った特別な空間を家に設ける。",
+                        "note": "to lead＝「導くために」。目的を表す副詞的用法の不定詞。spirits（霊）を家に迎える行為の目的。"
                     },
                     {
-                        "en": "please come visit us between 9 a.m. and 12 p.m. on that day",
-                        "ja": "その日の午前9時から午後12時の間にお越しください",
-                        "note": "please＝直接的だが丁寧な依頼。"
+                        "en": "Some people play music, while others pray.",
+                        "ja": "音楽を演奏する人もいれば、祈る人もいる。",
+                        "note": "Some...while others＝「～する人もいれば、…する人もいる」。異なる行動の対比。"
                     },
                     {
-                        "en": "Don't worry if you cannot join us as a volunteer this time.",
-                        "ja": "今回ボランティアとして参加できなくてもご心配なく。",
-                        "note": "Don't worry if＝気遣いの表現。代替手段がこの後に続く。"
+                        "en": "Therefore, the scene often seems more like a picnic or party.",
+                        "ja": "そのため、その光景はピクニックやパーティーのように見えることが多い。",
+                        "note": "Therefore＝「そのため」。前述の明るい雰囲気から結論として「パーティーのよう」と述べる。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: A Special Holiday in Mexico]\nGenerally, for this holiday, people set up a special space in their homes with many candles to lead the spirits of their ancestors back home. Items, like their favorite foods and books, are arranged in the space. Many people also visit and clean the graves where their ancestors were laid after death. They do not necessarily feel sad for people who have passed away. Rather, they often decorate these places with bright orange and yellow flowers. Some people play music, while others pray. Therefore, the scene often seems more like a picnic or party.",
+                    "ja": "一般的に、この祝日のために、人々は祖先の霊を家に導くために多くのろうそくを使った特別な空間を家に設ける。好きだった食べ物や本などの品々がその空間に配置される。多くの人々はまた、祖先が亡くなった後に埋葬された墓を訪れて掃除をする。彼らは亡くなった人々のことを必ずしも悲しく感じるわけではない。むしろ、鮮やかなオレンジと黄色の花でこれらの場所を飾ることが多い。音楽を演奏する人もいれば、祈る人もいる。そのため、その光景はピクニックやパーティーのように見えることが多い。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "to lead the spirits",
+                    "who have passed away",
+                    "not necessarily feel sad",
+                    "while others pray",
+                    "Therefore, the scene"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "目的・対比・結論",
                 "practiceQuestions": [
                     {
-                        "q": "この段落の 'However' はどのような対比を示していますか？",
-                        "a": "前述の肯定的内容に対して、問題点や反対意見を提示する逆接の接続詞。"
+                        "q": "'to lead the spirits of their ancestors back home' の不定詞はどのような用法ですか？",
+                        "a": "副詞的用法（目的）。ろうそくを灯した空間を設ける目的が「祖先の霊を家に導くこと」。"
                     },
                     {
-                        "q": "'Although' で始まる文はどのような譲歩を含んでいますか？",
-                        "a": "「〜にもかかわらず」と、一般的な認識と実際の状況の対比を示す譲歩表現。"
+                        "q": "'not necessarily feel sad' はどのようなニュアンスですか？",
+                        "a": "「必ずしも悲しく感じるわけではない」。部分否定。完全に否定するのではなく、一概には言えないことを示す。"
                     },
                     {
-                        "q": "逆接・対比の表現が使われている理由を説明してください。",
-                        "a": "メリットとデメリットの両面を提示し、バランスの取れた議論を展開するため。"
+                        "q": "'Some people play music, while others pray' の 'while' はどのような対比ですか？",
+                        "a": "同じ祝日に異なる行動を取る人々を対比。音楽を演奏する人と祈る人という、祝い方の多様性を示す。"
                     },
                     {
-                        "q": "この段落の議論の構造を要約してください。",
-                        "a": "利点の提示→逆接（However）→課題や懸念→譲歩（Although）→結論の流れ。"
+                        "q": "'Therefore' はどのような根拠から結論を導いていますか？",
+                        "a": "悲しまない(not necessarily sad) + 花で飾る + 音楽を演奏する、という明るい雰囲気から「パーティーのよう」と結論。"
                     }
-                ],
-                "highlightPatterns": [
-                    "However,",
-                    "On the other hand",
-                    "Although"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "依頼・提案",
-                "practicePassage": {
-                    "en": "[出典: A Special Holiday in Mexico]\nWhile many people spend time with their family at the graves to keep their ancestors' memories alive, people can also spend the day in a different way. Some cities in the country celebrate the day with colorful and exciting parades. People wear costumes and paint their faces to look like skeletons to take part in the events. Through the parades, people are reminded that death is just a part of life. In this way, the holiday can help people to have a better attitude about death.",
-                    "ja": "多くの人が祖先の思い出を大切にするためにお墓で家族と過ごす一方、別の方法で一日を過ごすこともできる。国内のいくつかの都市では、カラフルでワクワクするパレードで祝う。人々は衣装を着てガイコツのように顔を塗ってイベントに参加する。パレードを通じて、死は（23人生の一部にすぎない）ことを思い出す。このようにして、この祝日は人々が死に対してより良い態度を持つのに役立つ。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "関係代名詞と修飾構造",
-                "subtitle": "Relative Clauses: who / that / where",
-                "explanation": "関係代名詞は長文で名詞を後ろから修飾する重要な構文です。who（人）、that/which（物）、where（場所）の使い分けと、先行詞を正確に見つけることが読解の鍵です。",
-                "sourceQuote": "people who do not have / areas where humans live / projects that have students and elderly people",
-                "sourceLocation": "大問2A 第2段落, 大問2B 第1段落, 大問3A 第3段落",
+                "title": "条件文と丁寧な依頼表現",
+                "subtitle": "Conditional Sentences & Polite Request Patterns",
+                "explanation": "If you would like to（もし～したければ）、we would appreciate it if（～していただけるとありがたい）、Don't worry if（～でも心配しないで）は、ビジネスメールやイベント案内で使われる丁寧な条件表現です。",
+                "sourceQuote": "If you would like to be part of / we would appreciate it if you could / Don't worry if you cannot join / If so, please come visit",
+                "sourceLocation": "大問3A 第3段落",
                 "examples": [
                     {
-                        "en": "We would like to support people who do not have enough money to buy food.",
-                        "ja": "食料を買うお金が十分にない人々を支援したい。",
-                        "note": "who＝people（人）を修飾。「食料を買えない人々」という限定。"
+                        "en": "If you would like to be part of this project as a group member, you will be collecting food from supporters who bring their food to the community center.",
+                        "ja": "もしグループメンバーとしてこのプロジェクトに参加したければ、コミュニティセンターに食料を持ってくる支援者から食料を集める活動をすることになります。",
+                        "note": "If you would like to＝「もし～したければ」。丁寧な条件提示。will be -ing＝予定を表す未来進行形。"
                     },
                     {
-                        "en": "they have come to areas where humans live",
-                        "ja": "人間が住む地域にやってきた",
-                        "note": "where＝areas（場所）を修飾。「人間が住んでいる地域」。"
+                        "en": "However, we would appreciate it if you could offer your food as a supporter citizen.",
+                        "ja": "しかし、支援者市民として食料を提供していただけるとありがたいです。",
+                        "note": "would appreciate it if you could＝「～していただけるとありがたい」。最も丁寧な依頼表現の1つ。"
                     },
                     {
-                        "en": "projects to have students and elderly people live together have appeared",
-                        "ja": "学生と高齢者が一緒に暮らすプロジェクトが登場した",
-                        "note": "to have＝目的を示す不定詞が projects を修飾。"
+                        "en": "Don't worry if you cannot join us as a volunteer this time.",
+                        "ja": "今回ボランティアとして参加できなくても心配しないでください。",
+                        "note": "Don't worry if＝「もし～でも心配しないで」。相手への配慮を示す条件表現。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: About Our Volunteer Project]\nIf you would like to be part of this project as a group member, you will be collecting food from supporters who bring their food to the community center. Don't worry if you cannot join us as a volunteer this time. However, we would appreciate it if you could offer your food as a supporter citizen. If so, please come visit us between 9 a.m. and 12 p.m. on that day.",
+                    "ja": "もしグループメンバーとしてこのプロジェクトに参加したければ、コミュニティセンターに食料を持ってくる支援者から食料を集める活動をすることになります。今回ボランティアとして参加できなくても心配しないでください。しかし、支援者市民として食料を提供していただけるとありがたいです。もしそうであれば、その日の午前9時から12時の間にお越しください。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "If you would like to be part of",
+                    "Don't worry if you cannot",
+                    "we would appreciate it if you could",
+                    "If so, please come visit"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "条件・丁寧表現",
                 "practiceQuestions": [
                     {
-                        "q": "'if you cancel' で始まる条件文はどのような条件を示していますか？",
-                        "a": "キャンセルした場合の結果（追加料金等）を示す現実的な条件文。"
+                        "q": "'would appreciate it if you could' はなぜ丁寧な表現なのですか？",
+                        "a": "would(仮定法)＋appreciate(感謝する)＋if you could(可能性)の3重の丁寧さ。直接「してください」ではなく、相手の意思を尊重。"
                     },
                     {
-                        "q": "'would be' と 'should be' の助動詞の違いを説明してください。",
-                        "a": "'would' は仮定の帰結、'should' は期待・推奨を表す。ニュアンスが異なる。"
+                        "q": "'If so' の 'so' は何を指していますか？",
+                        "a": "前文の「支援者市民として食料を提供する」ことを指す。「もしそうするなら」。"
                     },
                     {
-                        "q": "この段落でビジネス文書特有の条件表現を挙げてください。",
-                        "a": "if you cancel（キャンセルされた場合）、please note that（ご注意ください）等の丁寧な条件提示。"
+                        "q": "この段落で示されている参加の2つの方法を説明してください。",
+                        "a": "①グループメンバーとして食料を集める(ボランティア)。②支援者市民として食料を提供する。"
                     },
                     {
-                        "q": "この段落の情報をまとめると、利用者はどのような条件に注意すべきですか？",
-                        "a": "キャンセルポリシー、支払い条件、期限などの契約的条件に注意が必要。"
+                        "q": "'Don't worry if' と 'If you would like to' の丁寧さの違いは？",
+                        "a": "Don't worry if＝相手を安心させる配慮。If you would like to＝相手の希望を丁寧に確認。両方とも相手を尊重する表現だが方向性が異なる。"
                     }
-                ],
-                "highlightPatterns": [
-                    "if you cancel",
-                    "would be",
-                    "should be"
-                ],
-                "highlightColor": "#8b5cf6",
-                "highlightLabel": "関係詞",
-                "practicePassage": {
-                    "en": "[出典: About Our Volunteer Project]\nThe purpose of this project is to reduce food waste as much as we can. We would like to support people who do not have enough money to buy food in our community. By connecting local businesses, citizens, and our volunteer group, we can make a huge difference. This project not only helps us reduce waste but also builds a stronger connection among everyone in the community and teaches us to be responsible for our own actions.",
-                    "ja": "このプロジェクトの目的は、食品廃棄物をできる限り減らすことです。私たちのコミュニティで食品を買うお金が十分ではない人々を支援したいと考えています。地元企業、市民、そしてボランティアグループをつなぐことで、大きな変化を生むことができます。このプロジェクトは廃棄物の削減に役立つだけでなく、コミュニティ内の全員のつながりを強化し、自分自身の行動に責任を持つことを教えてくれます。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
+                ]
             },
             {
                 "id": "fp5",

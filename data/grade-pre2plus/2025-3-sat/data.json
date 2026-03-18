@@ -808,217 +808,228 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "譲歩と対比の構文",
-                "subtitle": "Concession & Contrast: Although / despite / However",
-                "explanation": "「～にもかかわらず」「しかし」という譲歩・逆接の表現。大問2・3では、一般的な認識と実際の問題、要望と現実の対比に使われます。",
-                "sourceQuote": "Although they asked / However, when they were not allowed / despite their familiarity",
-                "sourceLocation": "大問2A 第1・2段落, 大問3B 第2・3段落",
+                "title": "理由・因果と譲歩の表現",
+                "subtitle": "Reason, Cause-Effect & Concession Patterns",
+                "explanation": "why（なぜ）で理由を問い、In fact（実は）で意外な事実を提示し、despite（～にもかかわらず）で譲歩を示し、Because of（～のために）で因果を繋ぐ。問題の原因を多角的に述べるパターンです。",
+                "sourceQuote": "why gulls have developed these behaviors / In fact, the number of gulls is decreasing despite their familiarity / Because of less food and space",
+                "sourceLocation": "大問2A 第2段落",
                 "examples": [
                     {
-                        "en": "Although they asked tourists not to climb it, many people lined up to hike on the rock.",
-                        "ja": "登らないよう頼んだにもかかわらず、多くの人が岩にハイキングするために列を作った。",
-                        "note": "Although＝譲歩。先住民の要望 vs 観光客の行動。"
+                        "en": "There are several reasons why gulls have developed these behaviors.",
+                        "ja": "カモメがこれらの行動を発達させた理由はいくつかある。",
+                        "note": "reasons why＝「～の理由」。whyは関係副詞でreasonsを修飾。"
                     },
                     {
-                        "en": "However, when they were not allowed to do so anymore, the number of tourists was expected to decrease.",
-                        "ja": "しかし、もう許可されなくなると、観光客の数は減少すると予想された。",
-                        "note": "However＝前の状況からの転換。許可の取り消しが新しい状況を生む。"
+                        "en": "In fact, the number of gulls is decreasing despite their familiarity in town.",
+                        "ja": "実は、町で馴染みがあるにもかかわらず、カモメの数は減少している。",
+                        "note": "In fact＝「実は」。意外な事実を提示。despite＝「～にもかかわらず」の譲歩。"
                     },
                     {
-                        "en": "despite their familiarity in town, gulls can cause various problems",
-                        "ja": "町では馴染み深い存在であるにもかかわらず、カモメはさまざまな問題を引き起こす",
-                        "note": "despite + 名詞＝「～にもかかわらず」。Although + 節との使い分けに注意。"
+                        "en": "Because of less food and space to live, they have come to areas where humans live.",
+                        "ja": "食料と生活空間が減少したため、彼らは人間が住む地域にやってきた。",
+                        "note": "Because of＋名詞＝「～のために」因果。where＝関係副詞でareasを修飾。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'despite' はどのような譲歩を示していますか？",
-                        "a": "「〜にもかかわらず」。予想される結果に反する事実を述べる前置詞的な譲歩表現。"
-                    },
-                    {
-                        "q": "この段落の 'However' は前後のどのような内容をつないでいますか？",
-                        "a": "カモメの行動の説明（前）に対して、その原因や背景（後）を逆接的に提示している。"
-                    },
-                    {
-                        "q": "'despite' と 'although' の文法的な違いは何ですか？",
-                        "a": "despite + 名詞句（前置詞）、although + 節（接続詞）。意味は同じだが構文が異なる。"
-                    },
-                    {
-                        "q": "この段落でカモメの問題行動の原因は何だと述べられていますか？",
-                        "a": "人間の活動が主な原因。人間が残した食べ物やゴミがカモメの行動パターンを変えている。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "despite",
-                    "However,"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "譲歩・対比",
                 "practicePassage": {
                     "en": "[出典: Problems with Gulls in Towns]\nThere are several reasons why gulls have developed these behaviors. One of them is human activity. Humans are destroying the natural environment where these birds normally live. Also, it is becoming harder for them to find food. In fact, the number of gulls is decreasing despite their familiarity in town. This may explain their difficulty finding food. Because of less food and space to live, they have come to areas where humans live. Then, they search for food in garbage or build nests near humans.",
-                    "ja": "カモメがこうした行動を発達させた理由はいくつかある。その一つは人間の活動だ。人間はこれらの鳥が通常住む自然環境を破壊している。また、食べ物を見つけることが難しくなっている。実際、町では馴染み深い存在であるにもかかわらず、（19カモメの数は減少している）。これが食べ物を見つけることの困難さを説明しているかもしれない。食べ物と住む場所が少なくなったため、人間が住む地域にやってきた。そして、ゴミの中で食べ物を探したり、人間の近くに巣を作ったりしている。",
+                    "ja": "カモメがこれらの行動を発達させた理由はいくつかある。その一つは人間の活動である。人間はこれらの鳥が通常住む自然環境を破壊している。また、鳥たちにとっても食料を見つけることが難しくなっている。実は、町で馴染みがあるにもかかわらず、カモメの数は減少している。このことが食料を見つける困難を説明するかもしれない。食料と生活空間が減少したため、彼らは人間が住む地域にやってきた。そして、ゴミの中から食べ物を探したり、人間の近くに巣を作ったりする。",
                     "audioFile": "audio/practice_pp1.mp3"
-                }
+                },
+                "highlightPatterns": [
+                    "reasons why gulls have developed",
+                    "In fact, the number of gulls is decreasing",
+                    "despite their familiarity",
+                    "Because of less food and space"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "理由・因果・譲歩",
+                "practiceQuestions": [
+                    {
+                        "q": "'despite their familiarity in town' はどのような譲歩を示していますか？",
+                        "a": "「町で馴染みがある（よく見かける）にもかかわらず」実際には数が減少している、という一見矛盾する事実を示す。"
+                    },
+                    {
+                        "q": "'In fact' はこの段落でどのような役割ですか？",
+                        "a": "前文までの「食料が見つけにくくなっている」を裏付ける意外な事実（数の減少）を提示する。「実は」。"
+                    },
+                    {
+                        "q": "この段落の論理構成を整理してください。",
+                        "a": "原因提示(reasons why) → 原因1(人間の活動) → 追加(Also, 食料難) → 裏付け(In fact, 数の減少) → 因果(Because of) → 結果(Then)"
+                    },
+                    {
+                        "q": "'This may explain their difficulty finding food' の構文を説明してください。",
+                        "a": "may＝推量「～かもしれない」。difficulty -ing＝「～する困難」。数の減少が食料難の説明になりうる。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "受動態と 'be considered / be expected' の用法",
-                "subtitle": "Passive Voice with Verbs of Perception: be considered / be expected",
-                "explanation": "「～と考えられている」「～と予想される」など、know/think/consider/expect 型の受動態は、客観的な情報伝達に使われます。大問3Bのウルルの文章で多用されています。",
-                "sourceQuote": "is considered an important place / was expected to decrease / was closed for climbing",
-                "sourceLocation": "大問3B 第2・3段落",
+                "title": "理由・手段と追加情報の表現",
+                "subtitle": "Reason, Means & Additional Information Patterns",
+                "explanation": "This is because（これは～だからである）で理由を提示し、by -ing（～することで）で手段を示し、Also（また）とcould even（さえ可能）で利点を積み重ねるパターンです。",
+                "sourceQuote": "This is because they can have their own rooms and receive meals for free / by talking with elderly people / They could even reduce stress",
+                "sourceLocation": "大問2B 第2段落",
                 "examples": [
                     {
-                        "en": "it is considered an important place in the culture of the native people",
-                        "ja": "先住民の文化において重要な場所と考えられている",
-                        "note": "is considered＝「～と考えられている」。be considered + 名詞/形容詞。"
+                        "en": "This is because they can have their own rooms and receive meals for free.",
+                        "ja": "これは自分の部屋を持ち、食事を無料でもらえるからである。",
+                        "note": "This is because＝「これは～だからである」。前文の事実（生活費削減）の理由を説明する。"
                     },
                     {
-                        "en": "the number of tourists was expected to decrease",
-                        "ja": "観光客の数は減少すると予想された",
-                        "note": "was expected to＝「～すると予想された」。be expected to do の形。"
+                        "en": "Also, by talking with elderly people, the students can build connections they may not find among their friends.",
+                        "ja": "また、高齢者と話すことで、友人の中では見つけられないかもしれないつながりを築くことができる。",
+                        "note": "by -ing＝「～することで」手段。Also＝追加の利点を示す。may not＝否定的推量。"
                     },
                     {
-                        "en": "people are encouraged to create an environment where gulls do not build nests",
-                        "ja": "カモメが巣を作らない環境を作ることが奨励されている",
-                        "note": "are encouraged to＝「～することが奨励されている」。be encouraged to do。"
+                        "en": "They could even reduce stress in an environment away from school.",
+                        "ja": "学校から離れた環境でストレスを軽減することさえできるかもしれない。",
+                        "note": "could even＝「～さえできるかもしれない」。could＝可能性の推量。even＝意外性の強調。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: A New Way of Living]\nThere is an apartment building in America where hundreds of elderly people live together. Some music students also live there with them. These students play music for the elderly people and take care of them. In return, they can reduce their living costs. This is because they can have their own rooms and receive meals for free. Also, by talking with elderly people, the students can build connections they may not find among their friends. They could even reduce stress in an environment away from school.",
+                    "ja": "アメリカには何百人もの高齢者が一緒に暮らすアパートがある。何人かの音楽学生もそこで一緒に暮らしている。これらの学生は高齢者のために音楽を演奏し、世話をしている。その見返りとして、生活費を抑えることができる。これは自分の部屋を持ち、食事を無料でもらえるからである。また、高齢者と話すことで、友人の中では見つけられないかもしれないつながりを築くことができる。学校から離れた環境でストレスを軽減することさえできるかもしれない。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "In return, they can reduce",
+                    "This is because",
+                    "Also, by talking with elderly people",
+                    "could even reduce stress"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "理由・手段・追加",
                 "practiceQuestions": [
                     {
-                        "q": "'is considered a sacred place' の受動態はなぜ使われていますか？",
-                        "a": "先住民にとって神聖な場所「とみなされている」という一般的認識を客観的に表現するため。"
+                        "q": "'This is because' の 'This' は何を指していますか？",
+                        "a": "前文の「生活費を抑えることができる」という事実を指す。その理由を説明する。"
                     },
                     {
-                        "q": "'was closed for climbing' はどのような出来事を表しますか？",
-                        "a": "登山のために閉鎖された（＝登山が禁止された）。受動態で公的な決定を示す。"
+                        "q": "'by talking with elderly people' はどのような手段を示していますか？",
+                        "a": "「高齢者と話すことで」つながりを築くという手段。by -ing＝行動の方法・手段を表す前置詞句。"
                     },
                     {
-                        "q": "'were warned about the dangers' の受動態の意味を説明してください。",
-                        "a": "「危険について警告された」。警告する側（当局）より、警告を受けた側に焦点を当てている。"
+                        "q": "この段落で述べられている学生の利点を3つ挙げてください。",
+                        "a": "①生活費の削減（部屋と食事が無料）。②友人とは異なるつながり。③ストレスの軽減。"
                     },
                     {
-                        "q": "'was expected to decrease' はどのような予測を表していますか？",
-                        "a": "「減少すると予想されていた」。be expected to = 〜すると期待/予想される。客観的な予測。"
+                        "q": "'could even' はなぜ 'can' ではなく 'could' が使われていますか？",
+                        "a": "could＝可能性の推量（～できるかもしれない）。canより控えめで、確実ではないが可能性がある利点を示す。even＝さらに意外な利点を追加。"
                     }
-                ],
-                "highlightPatterns": [
-                    "is considered",
-                    "was closed for",
-                    "were warned",
-                    "was expected to"
-                ],
-                "highlightColor": "#8b5cf6",
-                "highlightLabel": "受動態",
-                "practicePassage": {
-                    "en": "[出典: Solutions to Protect Environment and Culture]\nSome people worry about the environment around Uluru because it has become worse due to the impact of tourists. For example, some visitors leave garbage or camp near the rock. Tourists were warned not to climb Uluru because it is considered an important place in the culture of the native people in the area. Although they asked tourists not to climb it, many people lined up to hike on the rock. After that, the rock was closed for climbing.",
-                    "ja": "観光客の影響で環境が悪化したため、ウルル周辺の環境を心配する人もいる。例えば、ゴミを残したり岩の近くでキャンプしたりする訪問者がいる。ウルルはこの地域の先住民の文化において重要な場所とされているため、登らないよう警告されていた。登らないよう頼んだにもかかわらず、多くの人が岩にハイキングするために列を作った。その後、登山のため岩は閉鎖された。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "メール文の定型表現と依頼パターン",
-                "subtitle": "Email Conventions: We are happy to / would like you to / it would be nice if",
-                "explanation": "大問3Aのメール文で使われるビジネスライクな依頼表現。何を依頼しているかを正確に読み取ることが問われます。",
-                "sourceQuote": "We are happy to write / we would like you to share / it would be nice if you could",
-                "sourceLocation": "大問3A 第1・2・3段落",
+                "title": "逆接と対策の論理展開",
+                "subtitle": "Contrast & Problem-Solution Patterns",
+                "explanation": "When（～したとき）で状況を設定し、However（しかし）で逆接を示し、So（だから）で対策の必要性を述べ、while（～しつつ）で両立させるべき2つの条件を示すパターンです。",
+                "sourceQuote": "When the rock was closed / However, when they were not allowed to / So, the native people needed to find / while reminding them to respect",
+                "sourceLocation": "大問3B 第3段落",
                 "examples": [
                     {
-                        "en": "We are happy to write an article about your baseball game in our city newspaper.",
-                        "ja": "市の新聞にあなたの野球の試合について記事を書けることを嬉しく思います。",
-                        "note": "We are happy to＝「喜んで～します」。メールの冒頭で目的を伝える表現。"
+                        "en": "However, when they were not allowed to do so anymore, the number of tourists was expected to decrease.",
+                        "ja": "しかし、もうそうすることが許されなくなったとき、観光客の数は減少すると予想された。",
+                        "note": "However＝逆接。were not allowed to＝受動態の否定「～することが許されなくなった」。was expected to＝「～と予想された」。"
                     },
                     {
-                        "en": "we would like you to share your team's past results against the other team",
-                        "ja": "相手チームとのこれまでの戦績を共有していただきたい",
-                        "note": "would like you to＝「あなたに～してほしい」。丁寧な依頼。"
+                        "en": "So, the native people needed to find a new way to attract people and keep the number of tourists in the area while reminding them to respect the local culture.",
+                        "ja": "そこで、先住民は地元の文化を尊重するよう促しつつ、人々を引きつけてその地域の観光客数を維持する新しい方法を見つける必要があった。",
+                        "note": "So＝「そこで」結論。while -ing＝「～しつつ」同時条件。to attract＋and keep＝目的の並列。"
                     },
                     {
-                        "en": "it would be nice if you could take a photo of your whole team and send it to us",
-                        "ja": "チーム全体の写真を撮って送っていただけると助かります",
-                        "note": "it would be nice if you could＝仮定法を使ったとても丁寧な依頼。"
+                        "en": "Uluru was an important part of the community's economy because many tourists used to visit the area to climb the rock.",
+                        "ja": "多くの観光客がかつて岩に登るためにその地域を訪れていたので、ウルルはコミュニティの経済の重要な部分だった。",
+                        "note": "because＝理由。used to visit＝「かつて訪れていた」過去の習慣。to climb＝目的の不定詞。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Solutions to Protect Environment and Culture]\nWhen the rock was closed for climbing, the native people faced a new challenge. Uluru was an important part of the community's economy because many tourists used to visit the area to climb the rock. However, when they were not allowed to do so anymore, the number of tourists was expected to decrease. So, the native people needed to find a new way to attract people and keep the number of tourists in the area while reminding them to respect the local culture.",
+                    "ja": "岩が登山禁止になったとき、先住民は新たな課題に直面した。多くの観光客がかつて岩に登るためにその地域を訪れていたので、ウルルはコミュニティの経済の重要な部分だった。しかし、もうそうすることが許されなくなったとき、観光客の数は減少すると予想された。そこで、先住民は地元の文化を尊重するよう促しつつ、人々を引きつけてその地域の観光客数を維持する新しい方法を見つける必要があった。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "When the rock was closed",
+                    "However, when they were not allowed",
+                    "was expected to decrease",
+                    "So, the native people needed to find",
+                    "while reminding them to respect"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "逆接・対策",
                 "practiceQuestions": [
                     {
-                        "q": "'We would like you to send us...' はどのような丁寧な依頼表現ですか？",
-                        "a": "「〜していただきたい」。would like + 人 + to do の丁寧な依頼構文。直接的な 'Please send' よりフォーマル。"
+                        "q": "'were not allowed to do so' の 'do so' は何を指していますか？",
+                        "a": "前文の「岩に登ること(climb the rock)」を指す。do soは前述の行為を代用する表現。"
                     },
                     {
-                        "q": "'it would be nice if you could...' はどの程度の強さの依頼ですか？",
-                        "a": "非常に丁寧で控えめな依頼。仮定法（would/could）を使って柔らかいニュアンスを出している。"
+                        "q": "'However' はどのような転換を示していますか？",
+                        "a": "「ウルルが経済に重要だった」→「しかし登山禁止で観光客が減ると予想された」。経済的影響への転換。"
                     },
                     {
-                        "q": "'We would like to discuss' と 'We would like you to send' の構文の違いは？",
-                        "a": "前者は「私たちが〜したい」（主語の意志）、後者は「あなたに〜してほしい」（相手への依頼）。"
+                        "q": "'while reminding them to respect' の 'while' はどのような条件ですか？",
+                        "a": "「～しつつ」。観光客を引きつけることと文化への敬意を両立させる、2つの同時条件を示す。"
                     },
                     {
-                        "q": "これらの表現をよりカジュアルにするとどうなりますか？",
-                        "a": "We would like to → We want to, would like you to → want you to, it would be nice if → can you。"
+                        "q": "この段落の問題→対策の流れを整理してください。",
+                        "a": "状況(登山禁止) → 問題(経済への影響、観光客減少) → 逆接(However) → 対策の必要性(So, while)"
                     }
-                ],
-                "highlightPatterns": [
-                    "would like you to",
-                    "it would be nice if",
-                    "We would like to"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "依頼表現",
-                "practicePassage": {
-                    "en": "[出典: Article about Your Baseball Game]\nWe would like to write an introduction about your team. So, any special information about your team would be great. For example, we would like you to share your team's past results against the other team and introduce any players that you think people should watch. Also, it would be nice if you could take a photo of your whole team and send it to us along with a short message from your coach.",
-                    "ja": "チームの紹介記事を書きたいと思います。チームに関する特別な情報があればぜひお願いします。例えば、相手チームとのこれまでの戦績や、注目すべき選手の紹介をお願いします。また、チーム全体の写真を撮って、コーチからの短いメッセージとともにお送りいただけると助かります。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "論理展開の接続表現",
-                "subtitle": "Logical Flow: In this way / As a result / For instance",
-                "explanation": "大問2の空所補充では文の流れをつなぐ接続表現の理解が不可欠です。結論（In this way）、結果（As a result）、具体例（For instance）の使い分けが鍵です。",
-                "sourceQuote": "In this way / As a result / For instance / In fact",
-                "sourceLocation": "大問2A 第3段落, 大問2B 第3段落, 大問3B 第4段落",
+                "title": "丁寧な依頼と情報要求の表現",
+                "subtitle": "Polite Requests & Information-Seeking Patterns",
+                "explanation": "would like to（～したい）、it would be nice if you could（～していただけるとありがたい）、Also（また）は、ビジネスメールで複数の依頼を丁寧に重ねる際の定型パターンです。",
+                "sourceQuote": "We would like to write / we would like you to share / it would be nice if you could / send it to us along with",
+                "sourceLocation": "大問3A 第2段落",
                 "examples": [
                     {
-                        "en": "In this way, the event may become known worldwide as a way to balance cultural respect and tourism.",
-                        "ja": "このように、このイベントは文化的尊重と観光のバランスを取る方法として世界的に知られるようになるかもしれない。",
-                        "note": "In this way＝前の具体例をまとめ、結論を述べる。"
+                        "en": "We would like to write an introduction about your team.",
+                        "ja": "私たちはあなたのチームの紹介文を書きたいと考えています。",
+                        "note": "would like to＝「～したい」。want toの丁寧版。ビジネスメールでの定型表現。"
                     },
                     {
-                        "en": "As a result, people have started to use drones to create art in the sky.",
-                        "ja": "その結果、人々は空にアートを作るためにドローンを使い始めた。",
-                        "note": "As a result＝前の原因（登山禁止）→結果（新しい観光方法）。"
+                        "en": "For example, we would like you to share your team's past results against the other team and introduce any players that you think people should watch.",
+                        "ja": "例えば、あなたのチームの相手チームとの過去の成績を共有し、注目すべき選手を紹介していただきたいです。",
+                        "note": "would like you to＝「あなたに～していただきたい」。丁寧な依頼。that you think＝挿入節。"
+                    },
+                    {
+                        "en": "Also, it would be nice if you could take a photo of your whole team and send it to us along with a short message from your coach.",
+                        "ja": "また、チーム全体の写真を撮り、コーチからの短いメッセージと一緒に送っていただけるとありがたいです。",
+                        "note": "it would be nice if you could＝「～していただけるとありがたい」。仮定法を使った最も丁寧な依頼の一つ。along with＝「～と一緒に」。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Article about Your Baseball Game]\nWe would like to write an introduction about your team. So, any special information about your team would be great. For example, we would like you to share your team's past results against the other team and introduce any players that you think people should watch. Also, it would be nice if you could take a photo of your whole team and send it to us along with a short message from your coach.",
+                    "ja": "私たちはあなたのチームの紹介文を書きたいと考えています。ですので、あなたのチームに関する特別な情報があればありがたいです。例えば、相手チームとの過去の成績を共有し、注目すべきと思われる選手を紹介していただきたいです。また、チーム全体の写真を撮り、コーチからの短いメッセージと一緒に送っていただけるとありがたいです。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "We would like to write",
+                    "we would like you to share",
+                    "it would be nice if you could",
+                    "along with a short message"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "丁寧な依頼",
                 "practiceQuestions": [
                     {
-                        "q": "'In this way' はどのような論理的機能を持ちますか？",
-                        "a": "「こうすることで」。前述の方法や手段が実際にどのような効果を生むかを示すまとめの接続表現。"
+                        "q": "'would like to' と 'would like you to' の違いは何ですか？",
+                        "a": "would like to＝「私たちが～したい」（自分の希望）。would like you to＝「あなたに～していただきたい」（相手への依頼）。"
                     },
                     {
-                        "q": "'In fact' はこの文脈でどのような役割を果たしていますか？",
-                        "a": "「実際に」。前述の主張を具体的な事実や証拠で裏付ける補足表現。"
+                        "q": "'it would be nice if you could' はなぜ丁寧な表現なのですか？",
+                        "a": "仮定法(would/could)を使って「もし可能であれば」というニュアンスを出し、命令ではなく相手の意思を尊重している。"
                     },
                     {
-                        "q": "この段落で述べられているイベントの目的と効果を要約してください。",
-                        "a": "先住民の文化を観光客に紹介するイベントで、文化的保護と経済的利益の両方を実現している。"
+                        "q": "'along with' はどのような役割ですか？",
+                        "a": "「～と一緒に」。写真に加えてコーチのメッセージも送ってほしいという追加の依頼を示す。"
                     },
                     {
-                        "q": "'In this way' と 'In fact' の使い分けを説明してください。",
-                        "a": "'In this way' は方法と結果を結ぶ、'In fact' は一般的な主張を具体的な事実で支える。"
+                        "q": "この段落で依頼されている内容を整理してください。",
+                        "a": "①チームの特別な情報。②相手チームとの過去の成績。③注目選手の紹介。④チーム写真＋コーチのメッセージ。"
                     }
-                ],
-                "highlightPatterns": [
-                    "In this way",
-                    "In fact"
-                ],
-                "highlightColor": "#10b981",
-                "highlightLabel": "論理展開",
-                "practicePassage": {
-                    "en": "[出典: Solutions to Protect Environment and Culture]\nThere is a cultural event that can solve this challenge. Developed by local organizations and the native people, the event uses drones, which are small flying machines. More than 1,000 drones with lights fly over Uluru at night. The drones perform light shows by creating artwork that tells an important story of the native people in the night sky. Today, many tourists come to watch the show. In this way, the event may become known worldwide in the future as a way to balance cultural respect and tourism.",
-                    "ja": "この課題を解決できる文化イベントがある。地元の組織と先住民が開発したこのイベントは、小型の飛行機械であるドローンを使用する。1,000台以上のライト付きドローンが夜にウルルの上空を飛ぶ。ドローンは夜空に先住民の重要な物語を伝えるアートワークを作成してライトショーを行う。今日、多くの観光客がショーを見に来ている。このように、このイベントは将来、文化的尊重と観光のバランスを取る方法として世界的に知られるようになるかもしれない。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
+                ]
             },
             {
                 "id": "fp5",

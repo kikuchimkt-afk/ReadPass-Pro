@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "grade-pre2plus",
     "year": 2025,
     "session": "2025-1-sat",
@@ -811,227 +811,227 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "逆接・対比の接続表現",
-                "subtitle": "Contrast Connectors: However / On the other hand / Although",
-                "explanation": "長文では「良い面→しかし悪い面もある」「一般的な考え→しかし実際は違う」のように論点を切り替える場面が頻出します。逆接の接続詞を見つけたら、前後の主張が反対になるサインです。",
-                "sourceQuote": "However / On the other hand / Although / Though",
-                "sourceLocation": "大問2A 第1・2段落, 大問2B 第2・3段落",
+                "title": "譲歩と同時進行の接続表現",
+                "subtitle": "Concessive & Simultaneous Connectors",
+                "explanation": "Although（～だけれども）は違いを認めた上で共通点を述べる譲歩構文。while（～しながら）は2つの同時進行を対比的に示し、with＋名詞＋副詞句は付帯状況を表します。",
+                "sourceQuote": "Although forest schools look different from country to country / students can take risks while their teachers make sure / with their teachers always close by",
+                "sourceLocation": "大問2B 第2段落",
                 "examples": [
                     {
-                        "en": "However, some experts also share their negative opinions about what could happen when someone takes too much caffeine.",
-                        "ja": "しかし、一部の専門家は、カフェインを過剰に摂取した場合の悪影響についても否定的な意見を述べている。",
-                        "note": "However＝「しかし」。前文の positive effects から negative opinions へ論点が変わるサイン。"
-                    },
-                    {
-                        "en": "On the other hand, harmful results have also been reported.",
-                        "ja": "一方で、有害な結果も報告されている。",
-                        "note": "On the other hand＝「一方で」。良い面（positive sides）と悪い面（harmful results）の対比。"
-                    },
-                    {
                         "en": "Although forest schools look different from country to country, they all have things in common.",
-                        "ja": "森の学校は国によって異なるが、共通点がある。",
-                        "note": "Although＝「～だが」。違い（different）を認めつつ共通点（in common）に焦点を当てる。"
+                        "ja": "森の学校は国によって異なるように見えるが、全てに共通点がある。",
+                        "note": "Although＝「～だけれども」。違い（異なる外見）を認めつつ、共通点に焦点を当てる譲歩構文。"
                     },
                     {
-                        "en": "Though the education style of forest schools is different from that of regular schools, it has many advantages for children.",
-                        "ja": "森の学校の教育スタイルは普通の学校とは異なるが、子どもたちにとって多くの利点がある。",
-                        "note": "Though＝Althoughと同じ逆接。違いを述べたあと利点を強調する構造。"
+                        "en": "In this way, students can take risks while their teachers make sure they are not seriously injured.",
+                        "ja": "このようにして、先生が重傷を負わないよう確認しながら、生徒たちはリスクに挑戦できる。",
+                        "note": "while＝「～しながら」。生徒のリスク挑戦と先生の安全管理が同時進行していることを示す。"
+                    },
+                    {
+                        "en": "They also learn how to manage dangers, with their teachers always close by.",
+                        "ja": "先生がいつもそばにいる状態で、危険の対処法も学ぶ。",
+                        "note": "with＋名詞＋副詞句＝付帯状況。「先生がそばにいる状態で」という条件を添える。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'Although forest schools have become popular in other countries, the first one was started in Denmark' の 'Although' はどのような論理関係を示していますか？",
-                        "a": "譲歩を表す。「他の国で人気になっているが」→「最初はデンマークで始まった」という意外性を示す。"
-                    },
-                    {
-                        "q": "この段落で 'What if students could have classes in a forest or at a beach instead?' はどのような修辞的役割を果たしていますか？",
-                        "a": "仮定の疑問文で読者の興味を引く修辞疑問。森の学校のコンセプトを導入するための効果的な問いかけ。"
-                    },
-                    {
-                        "q": "'friluftsliv' とはどのような概念ですか？",
-                        "a": "デンマーク語で「自由な空気の生活」を意味し、自然の中で多くの時間を過ごそうとする生き方。森の学校の思想的基盤。"
-                    },
-                    {
-                        "q": "この段落の論理構成を説明してください。",
-                        "a": "問題提起（学校で自然に触れる時間がない）→ 解決策の提案（森の学校）→ 起源（デンマーク）→ 背景思想（friluftsliv）の流れ。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Forest Schools]\nAlthough forest schools look different from country to country, they all have things in common. All children are given opportunities to explore and move around freely. They can learn by getting their hands dirty, which allows them to develop many valuable life skills. They also learn how to manage dangers, with their teachers always close by. For example, they learn to make fires. In this way, students can take risks while their teachers make sure they are not seriously injured.",
+                    "ja": "森の学校は国によって異なるように見えるが、全てに共通点がある。全ての子どもたちには自由に探索し動き回る機会が与えられる。手を汚しながら学ぶことで、多くの貴重な生活スキルを身につけることができる。先生がいつもそばにいる状態で、危険の対処法も学ぶ。例えば、火を起こすことを学ぶ。このようにして、先生が重傷を負わないよう確認しながら、生徒たちはリスクに挑戦できる。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
                 "highlightPatterns": [
-                    "Although forest schools have become popular",
-                    "Although forest schools look different"
+                    "Although forest schools look different",
+                    "they all have things in common",
+                    "with their teachers always close by",
+                    "while their teachers make sure"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "逆接・対比",
-                "practicePassage": {
-                    "en": "[出典: Forest Schools]\nIn today's schools, students are not given much time to spend in nature and often feel separate from it. What if students could have classes in a forest or at a beach instead? This is the idea behind forest schools. Although forest schools have become popular in other countries, the first one was started in Denmark. People there believe in friluftsliv, which means \"free air life.\" This is a way of life to try to spend a lot of time outside in nature. Forest schools use this idea to help children learn.",
-                    "ja": "今日の学校では、生徒たちは（21自然の中で過ごす）時間をあまり与えられず、自然から切り離されていると感じることが多い。もし生徒たちが森やビーチで授業を受けることができたらどうだろう？これが森の学校の背景にある考えだ。森の学校は他の国々で人気になっているが、最初のものはデンマークで始まった。デンマークの人々はフリルフスリフ、つまり「自由な空気の生活」を信じている。これは自然の中で多くの時間を過ごそうとする生き方だ。森の学校はこの考えを使って子どもたちの学びを助けている。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
+                "highlightLabel": "譲歩・同時進行",
+                "practiceQuestions": [
+                    {
+                        "q": "'Although' の譲歩節と主節の関係を説明してください。",
+                        "a": "譲歩節（国によって異なる外見）を認めた上で、主節（全てに共通点がある）が本当に言いたいことを述べる。"
+                    },
+                    {
+                        "q": "'while' はこの文でどのような関係を示していますか？",
+                        "a": "「～しながら」。生徒がリスクに挑戦すること（主節）と先生が安全を確認すること（while節）の同時進行。"
+                    },
+                    {
+                        "q": "'with their teachers always close by' はどのような構文ですか？",
+                        "a": "with＋名詞＋副詞句＝付帯状況。「先生がそばにいるという条件のもとで」という状況説明を添える。"
+                    },
+                    {
+                        "q": "この段落で述べられている森の学校の共通点は何ですか？",
+                        "a": "①自由な探索の機会、②生活スキルの習得、③先生の見守りのもとでのリスク体験。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "因果関係の連鎖表現",
-                "subtitle": "Cause-Effect Chains: because / leads to / means",
-                "explanation": "大問3Bの Indian Vulture では「薬→牛の死→ハゲワシの死→死骸の増加→病気の蔓延」という連鎖的な因果関係が描かれています。この構文パターンは読解の論理構造を把握するのに不可欠です。",
-                "sourceQuote": "This is because / In other words / leads to / means",
-                "sourceLocation": "大問2A 第1段落, 大問3B 第2・3段落",
+                "title": "因果連鎖の表現",
+                "subtitle": "Cause-Effect Chain Expressions",
+                "explanation": "has caused（引き起こした）、means an increase（増加を意味する）、leads to（～につながる）が連鎖し、一つの原因が次の結果を生み、それがさらに別の結果を引き起こすパターンを示します。",
+                "sourceQuote": "has caused serious damage / means an increase / leads to the spreading / In fact, studies have shown",
+                "sourceLocation": "大問3B 第3段落",
                 "examples": [
                     {
-                        "en": "This is because even though it has positive effects, it does not mean that people should take a lot of it.",
-                        "ja": "たとえ良い効果があっても、大量に摂取すべきだということにはならないからだ。",
-                        "note": "This is because＝直前の文の理由。even though＝譲歩付きの因果。"
+                        "en": "The decrease in the number of these birds has caused serious damage to human health.",
+                        "ja": "これらの鳥の数の減少は、人間の健康に深刻な被害を引き起こした。",
+                        "note": "has caused＝「引き起こした」。現在完了形で過去から現在まで続く影響を示す因果表現。"
                     },
                     {
-                        "en": "In other words, they died because they ate the dead cows that had been treated with the drug.",
-                        "ja": "つまり、その薬で治療された死んだ牛を食べたために死んだのだ。",
-                        "note": "In other words＝言い換え。because＝原因の直接提示。"
+                        "en": "So, a decrease in the number of Indian vultures means an increase in the number of dead animals in the environment.",
+                        "ja": "そのため、インドハゲワシの数の減少は、環境中の死んだ動物の数の増加を意味する。",
+                        "note": "means＝「～を意味する」。因果の連鎖をつなぐ動詞。So＝「そのため」。"
                     },
                     {
-                        "en": "a decrease in the number of Indian vultures means an increase in the number of dead animals ... This finally leads to the spreading of diseases.",
-                        "ja": "ハゲワシの減少は死んだ動物の増加を意味する。これは最終的に病気の蔓延につながる。",
-                        "note": "A means B＝AはBを意味する。leads to＝～につながる。因果の連鎖。"
+                        "en": "This finally leads to the spreading of diseases.",
+                        "ja": "これは最終的に病気の蔓延につながる。",
+                        "note": "leads to＝「～につながる」。因果連鎖の最終結果を示す重要表現。finally＝「最終的に」。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'the decrease in the number of these birds has caused serious damage to human health' はどのような因果関係を示していますか？",
-                        "a": "ハゲワシの減少（原因）→ 人間の健康への深刻な被害（結果）。鳥の個体数変化が人間社会に連鎖的な影響を及ぼす因果。"
-                    },
-                    {
-                        "q": "'means an increase in the number of dead animals in the environment' の 'means' はどのような論理的機能を持ちますか？",
-                        "a": "「〜を意味する」＝ 因果的帰結を導く。ハゲワシの減少 → 死んだ動物の増加、という必然的な結果を示す。"
-                    },
-                    {
-                        "q": "'This eventually leads to the spreading of diseases' の 'eventually' と 'leads to' が示す因果の特徴は？",
-                        "a": "'eventually' は「最終的に」、'leads to' は「〜につながる」。直接的ではなく段階的・連鎖的な因果関係を示す。"
-                    },
-                    {
-                        "q": "この段落全体の因果の連鎖を日本語で要約してください。",
-                        "a": "ハゲワシ減少 → 死んだ動物の増加 → 病気の蔓延 → 人間の健康被害（報告された有害な結果）。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "means an increase",
-                    "leads to the spreading",
-                    "has caused serious damage"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "因果関係",
                 "practicePassage": {
                     "en": "[出典: An Important Indian Bird]\nThe decrease in the number of these birds has caused serious damage to human health. Vultures usually help remove dead animals from the environment, such as wild dogs, that contain bacteria and diseases. So, a decrease in the number of Indian vultures means an increase in the number of dead animals in the environment. This finally leads to the spreading of diseases. In fact, studies have shown that in areas where many vultures once lived, the level of danger to human health increased after the decrease in vulture populations.",
-                    "ja": "これらの鳥の数の減少は人間の健康に深刻な被害を引き起こした。ハゲワシは通常、細菌や病気を含む野良犬などの死んだ動物を環境から取り除くのを助ける。そのため、インドハゲワシの数の減少は、環境中の死んだ動物の増加を意味する。これは最終的に病気の蔓延につながる。実際、かつて多くのハゲワシが住んでいた地域では、ハゲワシの個体数の減少後に人間の健康への危険レベルが上昇したことが研究で示されている。",
+                    "ja": "これらの鳥の数の減少は、人間の健康に深刻な被害を引き起こした。ハゲワシは通常、細菌や病気を含む野犬などの死んだ動物を環境から除去する手助けをしている。そのため、インドハゲワシの数の減少は、環境中の死んだ動物の数の増加を意味する。これは最終的に病気の蔓延につながる。実際、かつて多くのハゲワシが生息していた地域では、ハゲワシの個体数の減少後に人間の健康への危険度が上昇したことを研究が示している。",
                     "audioFile": "audio/practice_pp2.mp3"
-                }
+                },
+                "highlightPatterns": [
+                    "has caused serious damage",
+                    "means an increase",
+                    "leads to the spreading",
+                    "In fact, studies have shown"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "因果連鎖",
+                "practiceQuestions": [
+                    {
+                        "q": "この段落の因果連鎖を整理してください。",
+                        "a": "ハゲワシ減少 → 死んだ動物が環境に残る(means) → 病気の蔓延(leads to) → 人間の健康被害(has caused)"
+                    },
+                    {
+                        "q": "'In fact' はこの段落でどのような役割ですか？",
+                        "a": "前文の因果連鎖（ハゲワシ減少→病気蔓延）を、実際の研究データで裏付ける。「実際に」。"
+                    },
+                    {
+                        "q": "'means an increase' と 'leads to the spreading' の違いは何ですか？",
+                        "a": "means＝直接的な等価関係（A＝B）。leads to＝因果の帰結（AがBを引き起こす）。因果の段階が異なる。"
+                    },
+                    {
+                        "q": "'such as wild dogs, that contain bacteria' の 'that' は何を修飾していますか？",
+                        "a": "dead animals（死んだ動物）を修飾する関係代名詞。wild dogsは具体例（such as）であり、thatの先行詞ではない。"
+                    }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "追加・補足の接続表現",
-                "subtitle": "Addition Connectors: Furthermore / In fact / also",
-                "explanation": "同じ方向の論点を積み重ねる接続詞です。Furthermore は追加の利点、In fact は前述の内容をさらに強調・具体化するときに使います。空所補充問題で頻出するパターンです。",
-                "sourceQuote": "Furthermore / In fact / also / even",
-                "sourceLocation": "大問2A 第2・3段落, 大問2B 第3段落, 大問3B 第3段落",
+                "title": "受動態と目的を表す表現",
+                "subtitle": "Passive Voice & Purpose Expressions",
+                "explanation": "was not caused by（受動態の否定）、has been done（完了の受動態）、to make sure（確認するために）は、ビジネスメールや手続き説明で頻出するフォーマルな構文です。",
+                "sourceQuote": "the damage was not caused by you / Once this has been done / to make sure that",
+                "sourceLocation": "大問3A 第2段落",
                 "examples": [
                     {
-                        "en": "Furthermore, children learn to solve problems on their own, as teachers only help them when they need it.",
-                        "ja": "さらに、先生は必要な時だけ助けるので、子どもたちは自分の力で問題を解決することを学ぶ。",
-                        "note": "Furthermore＝「さらに」。前文の利点（自信がつく）に追加の利点を述べる。"
+                        "en": "This is to make sure that the damage was not caused by you and that it occurred during the production process.",
+                        "ja": "これは、その損傷があなたによって引き起こされたものではなく、製造過程で発生したものであることを確認するためです。",
+                        "note": "to make sure that＝「～であることを確認するために」。目的の不定詞。was not caused by＝受動態の否定。"
                     },
                     {
-                        "en": "In fact, experts think that it is easier to get too much caffeine than people think.",
-                        "ja": "実際、専門家は人々が思っているよりもカフェインを過剰に摂取しやすいと考えている。",
-                        "note": "In fact＝「実際」。前の一般論を具体的な事実で強調する。"
+                        "en": "Once this has been done, please return the bag to us.",
+                        "ja": "これが完了しましたら、バッグを返送してください。",
+                        "note": "Once＝「～したら」。has been done＝現在完了の受動態で「完了した状態」を示す。"
                     },
                     {
-                        "en": "In fact, studies have shown that in areas where many vultures once lived, the level of danger to human health increased.",
-                        "ja": "実際、かつて多くのハゲワシが住んでいた地域では、人間の健康への危険レベルが上昇した。",
-                        "note": "In fact＝具体的な研究結果で論点を裏付ける。"
+                        "en": "There are several steps to follow to return an item after use.",
+                        "ja": "使用後の商品を返品するには、いくつかの手順があります。",
+                        "note": "to follow＝形容詞的用法（従うべき手順）。to return＝副詞的用法（返品するために）。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: About the Request to Return Your Item]\nThere are several steps to follow to return an item after use. You have already sent us the form online for your return. So, the next thing you need to do is take pictures of the bag and send them to us by e-mail. This is to make sure that the damage was not caused by you and that it occurred during the production process. Once this has been done, please return the bag to us.",
+                    "ja": "使用後の商品を返品するには、いくつかの手順があります。あなたは返品のためのオンラインフォームを既に送信済みです。次にすべきことは、バッグの写真を撮ってメールで送ることです。これは、その損傷があなたによって引き起こされたものではなく、製造過程で発生したものであることを確認するためです。これが完了しましたら、バッグを返送してください。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "to make sure that",
+                    "was not caused by you",
+                    "it occurred during the production process",
+                    "Once this has been done"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "受動態・目的",
                 "practiceQuestions": [
                     {
-                        "q": "'There is even research that shows...' の 'even' はどのような補足的ニュアンスを加えていますか？",
-                        "a": "「〜という研究さえある」。前の肯定的情報に加えて、さらに追加の証拠があることを強調する。"
+                        "q": "'was not caused by you' はなぜ受動態が使われていますか？",
+                        "a": "重要なのは「損傷の原因」であり、行為者（あなた）よりも損傷の事実に焦点を当てるため。ビジネス文書では客観性を出すために受動態が好まれる。"
                     },
                     {
-                        "q": "'harmful results have also been reported' の 'also' はどのような役割を果たしていますか？",
-                        "a": "前述のポジティブな効果に加えて、ネガティブな面「も」報告されていることを追加的に示す。"
+                        "q": "'Once this has been done' の 'Once' はどのような条件を示しますか？",
+                        "a": "「～が完了したら」。写真を撮って送るという前のステップが完了した後の次の行動を指示する時間的条件。"
                     },
                     {
-                        "q": "この段落はカフェインのポジティブな面とネガティブな面をどのように構成していますか？",
-                        "a": "前半でポジティブ（覚醒効果、パフォーマンス向上）を述べ、後半で 'harmful results have also been reported' と対比的にネガティブな面を追加。"
+                        "q": "'This is to make sure that...' の構文を説明してください。",
+                        "a": "This is to＝「これは～するためです」。to make sure that以下が目的。写真を送る理由を説明する。"
                     },
                     {
-                        "q": "'In fact' はこの文脈でどのような機能を果たしていますか？",
-                        "a": "「実際に」。前述の一般的な内容を、具体的な例や証拠で裏付ける補足的な接続表現。"
+                        "q": "この段落で示されている返品手順を整理してください。",
+                        "a": "①オンラインフォーム送信（完了済）→ ②バッグの写真を撮りメール送信 → ③写真確認後、バッグを返送"
                     }
-                ],
-                "highlightPatterns": [
-                    "There is even research",
-                    "harmful results have also been reported",
-                    "In fact"
-                ],
-                "highlightColor": "#10b981",
-                "highlightLabel": "追加・補足",
-                "practicePassage": {
-                    "en": "[出典: Caffeine and the Body]\nMany studies have proven the positive sides of caffeine. It can help people feel more awake and have more energy. An experiment with athletes has shown that caffeine improves their physical performance. There is even research suggesting that the chances of developing certain illnesses may decrease. On the other hand, harmful results have also been reported. This comes from having a lot of caffeine. For example, people may get headaches and have trouble relaxing or even sleeping.",
-                    "ja": "多くの研究がカフェインの良い面を証明している。覚醒感を高め、エネルギーを増やすのに役立つ。アスリートを使った実験では、カフェインが身体的パフォーマンスを向上させることが示された。特定の病気にかかる可能性が減少するという研究さえある。（19一方で）、有害な結果も報告されている。これは大量のカフェイン摂取によるものだ。例えば、頭痛が起きたり、リラックスや睡眠に問題が出たりする。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "受動態の多様な用法",
-                "subtitle": "Passive Voice: have been done / was caused by / were released",
-                "explanation": "受動態は主語にフォーカスする文型です。大問2・3では「研究結果が報告されている」「薬が使えなくなった」「ハゲワシが放たれた」など、客観的な説明に多く使われています。",
-                "sourceQuote": "have been reported / was not caused by / had been treated / were released",
-                "sourceLocation": "大問2A 第2段落, 大問3A 第2段落, 大問3B 第2・4段落",
+                "title": "譲歩・原因・追加の論理展開",
+                "subtitle": "Concession, Cause & Addition in Argumentation",
+                "explanation": "Though（～だけれども）で前提を認め、Because（～なので）で原因を示し、Furthermore（さらに）で追加情報を重ねるパターンは、論理的な議論を展開する長文で頻出します。",
+                "sourceQuote": "Though the education style is different / Because they can start activities by themselves / Furthermore, children learn to solve problems",
+                "sourceLocation": "大問2B 第3段落",
                 "examples": [
                     {
-                        "en": "harmful results have also been reported",
-                        "ja": "有害な結果も報告されている",
-                        "note": "現在完了＋受動態。「これまでに報告されている」という結果を示す。"
+                        "en": "Though the education style of forest schools is different from that of regular schools, it has many advantages for children.",
+                        "ja": "森の学校の教育スタイルは通常の学校とは異なるけれども、子どもたちにとって多くの利点がある。",
+                        "note": "Though＝Althoughと同義の譲歩。that＝代名詞でthe education styleの繰り返しを避ける。"
                     },
                     {
-                        "en": "make sure that the damage was not caused by you and that it occurred during the production process",
-                        "ja": "損傷があなたによって引き起こされたものではなく、製造過程で発生したものであることを確認する",
-                        "note": "was (not) caused by＝「～によって引き起こされた（のではない）」"
+                        "en": "Because they can start activities by themselves, children become more confident even when alone.",
+                        "ja": "子どもたちは自分で活動を始められるので、一人でいるときでもより自信を持つようになる。",
+                        "note": "Because＝「～なので」。原因（自分で始められる）→ 結果（自信がつく）の因果構文。"
                     },
                     {
-                        "en": "twenty protected Indian vultures were released in one area recently",
-                        "ja": "最近、ある地域で20羽の保護されたインドハゲワシが放たれた",
-                        "note": "were released＝「放たれた」。受動態で行為者を省略し、ハゲワシに焦点を当てている。"
+                        "en": "Furthermore, children learn to solve problems on their own, as teachers only help them when they need it.",
+                        "ja": "さらに、先生は必要なときだけ助けるので、子どもたちは自分で問題を解決することを学ぶ。",
+                        "note": "Furthermore＝「さらに」。前の利点に加えて別の利点を追加。as＝「～なので」理由を補足。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Forest Schools]\nThough the education style of forest schools is different from that of regular schools, it has many advantages for children. Because they can start activities by themselves, children become more confident even when alone. Furthermore, children learn to solve problems on their own, as teachers only help them when they need it. And because they are learning in nature, children can understand their connection to the larger world and where they belong in it.",
+                    "ja": "森の学校の教育スタイルは通常の学校とは異なるけれども、子どもたちにとって多くの利点がある。子どもたちは自分で活動を始められるので、一人でいるときでもより自信を持つようになる。さらに、先生は必要なときだけ助けるので、子どもたちは自分で問題を解決することを学ぶ。そして自然の中で学んでいるので、子どもたちは自分がより大きな世界とどうつながっているか、そしてその中での自分の居場所を理解できるようになる。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "Though the education style",
+                    "Because they can start activities",
+                    "Furthermore, children learn",
+                    "because they are learning in nature"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "譲歩・原因・追加",
                 "practiceQuestions": [
                     {
-                        "q": "'the damage was not caused by you but happened during the manufacturing process' の受動態はなぜ使われていますか？",
-                        "a": "行為者（製造工程）より、損傷が「あなたのせいではない」ことを強調するため。受動態で動作主を後ろに回している。"
+                        "q": "'Though' と前段落で使われた 'Although' の違いはありますか？",
+                        "a": "意味は同じ「～だけれども」。ThoughはAlthoughよりもやや口語的だが、書き言葉でも使われる。"
                     },
                     {
-                        "q": "'Once this has been done' の現在完了受動態はどのような意味を持ちますか？",
-                        "a": "「これが完了した後」。受動態+完了で「写真送付という行為が完了した時点」を表す。手順の前後関係を明確にする。"
+                        "q": "この段落で述べられている森の学校の利点を3つ挙げてください。",
+                        "a": "①自信がつく(Because)。②問題解決能力(Furthermore)。③世界とのつながりの理解(And because)。"
                     },
                     {
-                        "q": "この段落で使われている手順を示す表現を挙げてください。",
-                        "a": "'the next thing you need to do is'（次にすべきこと）、'Once this has been done'（これが完了したら）。手順の順序を明確にする表現。"
+                        "q": "'as teachers only help them when they need it' の 'as' はどのような意味ですか？",
+                        "a": "「～なので」。理由を示す接続詞。先生が必要時のみ手助けする → 自分で解決する力がつく、という因果。"
                     },
                     {
-                        "q": "'to make sure the damage was not caused by you' の 'to make sure' はどのような役割ですか？",
-                        "a": "「〜を確認するために」。写真を送る目的を述べる不定詞の副詞的用法。受動態と組み合わせて客観的な確認プロセスを示す。"
+                        "q": "'that of regular schools' の 'that' は何を指していますか？",
+                        "a": "the education style を指す代名詞。the education style of regular schools の繰り返しを避けている。"
                     }
-                ],
-                "highlightPatterns": [
-                    "was not caused by",
-                    "has been done",
-                    "you need to do"
-                ],
-                "highlightColor": "#8b5cf6",
-                "highlightLabel": "受動態",
-                "practicePassage": {
-                    "en": "[出典: About the Request to Return Your Item]\nThere are several steps to follow to return an item after use. You have already sent us the form online for your return. So, the next thing you need to do is take pictures of the bag and send them to us by e-mail. This is to make sure that the damage was not caused by you and that it occurred during the production process. Once this has been done, please return the bag to us.",
-                    "ja": "使用後に商品を返品するにはいくつかの手順があります。返品のオンラインフォームはすでにお送りいただいています。次にしていただくことは、バッグの写真を撮って私たちにメールで送ることです。これは、損傷があなたによって引き起こされたものではなく、製造過程で発生したものであることを確認するためです。これが完了したら、バッグを私たちに返送してください。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
+                ]
             },
             {
                 "id": "fp5",
@@ -1080,7 +1080,7 @@
                     "can damage the lives of",
                     "various actions are being taken",
                     "were released",
-                    "the number had risen"
+                    "their numbers were increasing"
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "パラフレーズ",

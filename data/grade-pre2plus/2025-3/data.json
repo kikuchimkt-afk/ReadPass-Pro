@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級プラス",
     "year": "2025",
     "session": "3",
@@ -1591,221 +1591,230 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "受動態と受動表現",
-                "subtitle": "Passive Voice Patterns",
-                "explanation": "英語資格検定準2級プラスでは受動態が頻出します。be + 過去分詞の基本形に加え、be believed to / be known to / be used to do 等の応用表現も重要です。",
-                "sourceQuote": "is known to be / are believed to live / is often used to / have been planted",
-                "sourceLocation": "Part 2A, Part 2B, Part 3B",
+                "title": "対比・結論と受動態の表現",
+                "subtitle": "Contrast, Conclusion & Passive Constructions",
+                "explanation": "is known to be（～として知られている）やare believed to（～と考えられている）の受動態で客観的事実を述べ、On the other hand（一方で）で対比し、Therefore（そのため）で結論を導くパターンです。",
+                "sourceQuote": "is known to be the second-longest / are believed to live / On the other hand, there are no bridges / Therefore, people have to find other ways",
+                "sourceLocation": "大問2A 第1段落",
                 "examples": [
                     {
-                        "en": "The Amazon River is known to be the second-longest river in the world.",
-                        "ja": "アマゾン川は世界で2番目に長い川として知られている。",
-                        "note": "be known to be＝～として知られている。"
+                        "en": "The Amazon River is known to be the second-longest river in the world, stretching for more than 6,000 kilometers.",
+                        "ja": "アマゾン川は6,000キロメートル以上にわたり、世界で2番目に長い川として知られている。",
+                        "note": "is known to be＝「～として知られている」。受動態＋不定詞で一般的認識を客観的に示す。"
                     },
                     {
-                        "en": "Over thirty million people are believed to live along the river.",
-                        "ja": "3,000万人以上が川沿いに住んでいると信じられている。",
-                        "note": "be believed to＝～と信じられている。It is believed that...と書き換え可能。"
+                        "en": "On the other hand, there are no bridges on the Amazon River.",
+                        "ja": "一方で、アマゾン川には橋がない。",
+                        "note": "On the other hand＝「一方で」。前文（世界の多くの川には橋がある）との対比。"
                     },
                     {
-                        "en": "The thumbs-up sign is often used to indicate that something is OK.",
-                        "ja": "サムズアップは何かが大丈夫だと示すのによく使われる。",
-                        "note": "be used to do＝～するのに使われる（受動態）。be used to -ing（～に慣れている）と区別。"
+                        "en": "This feature makes the Amazon River unique.",
+                        "ja": "この特徴がアマゾン川をユニークなものにしている。",
+                        "note": "make＋目的語＋形容詞＝「～を…にする」。使役構文で結論をまとめる。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'The Amazon River is known to be...' の受動態はなぜ使われていますか？",
-                        "a": "一般的な知識を客観的に述べるため。be known to be = 〜であると知られている。行為者が不特定。"
-                    },
-                    {
-                        "q": "'are believed to live' はどのような意味の受動態ですか？",
-                        "a": "「〜に生息すると信じられている」。be believed to do = 〜すると考えられている。客観的事実の提示。"
-                    },
-                    {
-                        "q": "'is known to be' と 'are believed to live' の共通点は何ですか？",
-                        "a": "どちらも「人々が一般的にそう考えている」という客観的認識を受動態で表現。主語を省略して客観性を高める。"
-                    },
-                    {
-                        "q": "この段落で述べられているアマゾン川の特徴を要約してください。",
-                        "a": "世界で2番目に長い川で、多くの生物が生息すると信じられている。しかし橋が一つもないという特徴がある。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "is known to be",
-                    "are believed to live"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "受動態",
                 "practicePassage": {
                     "en": "[出典: A Long River with No Bridges]\nThe Amazon River is known to be the second-longest river in the world, stretching for more than 6,000 kilometers. It runs through at least three countries in South America, and over thirty million people are believed to live along the river. Many large rivers around the world have bridges built over them. On the other hand, there are no bridges on the Amazon River. Therefore, people have to find other ways than using a bridge to travel to the other side. This feature makes the Amazon River unique.",
-                    "ja": "アマゾン川は世界で2番目に長い川として知られ、6,000キロ以上にわたる。南米の少なくとも3カ国を流れ、3,000万人以上が川沿いに住んでいる。世界中の大きな川には橋が架けられている。On the other hand、アマゾン川には橋がない。そのため対岸へ行くのに橋以外の方法を見つけなければならない。",
+                    "ja": "アマゾン川は6,000キロメートル以上にわたり、世界で2番目に長い川として知られている。南米の少なくとも3か国を流れ、3,000万人以上の人々がその川沿いに住んでいると考えられている。世界中の多くの大きな川には橋が架けられている。一方で、アマゾン川には橋がない。そのため、人々は反対側に渡るために橋を使う以外の方法を見つけなければならない。この特徴がアマゾン川をユニークなものにしている。",
                     "audioFile": "audio/practice_pp1.mp3"
-                }
+                },
+                "highlightPatterns": [
+                    "is known to be",
+                    "are believed to live",
+                    "On the other hand",
+                    "Therefore, people have to find",
+                    "makes the Amazon River unique"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "対比・結論",
+                "practiceQuestions": [
+                    {
+                        "q": "'is known to be' と 'are believed to live' の違いは何ですか？",
+                        "a": "is known to＝確立された事実（世界で2番目に長い川として知られている）。are believed to＝推定（住んでいると考えられている）。確実性の度合いが異なる。"
+                    },
+                    {
+                        "q": "'On the other hand' はどのような対比を示していますか？",
+                        "a": "「世界の多くの大きな川には橋がある」vs.「アマゾン川には橋がない」。一般と特殊の対比。"
+                    },
+                    {
+                        "q": "'Therefore' はどの事実からどのような結論を導いていますか？",
+                        "a": "「橋がない」という事実から「別の方法で反対側に渡る必要がある」という結論を導いている。"
+                    },
+                    {
+                        "q": "'This feature makes the Amazon River unique' はどのような役割ですか？",
+                        "a": "段落全体のまとめ。「橋がない」という事実がアマゾン川の独自性であると、使役構文(make+O+C)で結論付ける。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "目的・理由を表す不定詞と接続詞",
-                "subtitle": "Purpose & Reason Expressions",
-                "explanation": "to不定詞（目的）、so that（～するように）、because（理由）の使い分けは読解の鍵です。",
-                "sourceQuote": "to send a small machine / so that she would not / because it can collect / in order to do so",
-                "sourceLocation": "Part 1, Part 2B",
+                "title": "理由・程度・追加の論理構成",
+                "subtitle": "Reason, Degree & Addition Patterns",
+                "explanation": "because（理由）、too...to（～すぎて…できない）、Moreover（さらに）、This makes it（これにより～になる）を組み合わせ、問題の理由を層状に積み重ねる構成です。",
+                "sourceQuote": "because boats and ferries are used / too soft to build bridges / Moreover, the water level changes a lot / This makes it even more difficult",
+                "sourceLocation": "大問2A 第2段落",
                 "examples": [
                     {
-                        "en": "She read the instructions carefully so that she would not make any mistakes.",
-                        "ja": "間違えないよう説明書を注意深く読んだ。",
-                        "note": "so that + would not＝～しないように（目的）。"
+                        "en": "There is little need to build bridges because boats and ferries are used to move products and people.",
+                        "ja": "製品や人を運ぶためにボートやフェリーが使われているので、橋を建設する必要はほとんどない。",
+                        "note": "because＝「～なので」。橋が不要な理由を示す。little need＝「ほとんど必要がない」。"
                     },
                     {
-                        "en": "A weather balloon is a tool used to send a small machine up high into the sky.",
-                        "ja": "気象バルーンは小さな機械を空高く送るための道具だ。",
-                        "note": "used to send＝送るために使われる（目的の不定詞）。"
+                        "en": "The soil along the river is too soft to build bridges.",
+                        "ja": "川沿いの土壌は柔らかすぎて橋を建設できない。",
+                        "note": "too＋形容詞＋to do＝「～すぎて…できない」。程度が限度を超えていることを示す重要構文。"
                     },
                     {
-                        "en": "A number of problems have to be handled in order to do so.",
-                        "ja": "そうするためには多くの問題を解決しなければならない。",
-                        "note": "in order to＝～するために。to doの意味をより明確にする。"
+                        "en": "This makes it even more difficult to build bridges.",
+                        "ja": "このことが橋の建設をさらに困難にしている。",
+                        "note": "make＋it＋形容詞＋to do＝形式目的語構文。even more＝比較級の強調。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: A Long River with No Bridges]\nThere are several reasons for this fact. According to one expert, there is little need to build bridges because boats and ferries are used to move products and people. Another reason is that the conditions are not suitable for building bridges. For example, the soil along the river is too soft to build bridges. Moreover, the water level and width of the Amazon River change a lot throughout the year. This makes it even more difficult to build bridges.",
+                    "ja": "この事実にはいくつかの理由がある。ある専門家によると、製品や人を運ぶためにボートやフェリーが使われているので、橋を建設する必要はほとんどない。もう一つの理由は、橋の建設に条件が適していないことである。例えば、川沿いの土壌は柔らかすぎて橋を建設できない。さらに、アマゾン川の水位と幅は年間を通して大きく変化する。このことが橋の建設をさらに困難にしている。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "because boats and ferries are used",
+                    "too soft to build bridges",
+                    "Moreover, the water level",
+                    "This makes it even more difficult"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "理由・程度・追加",
                 "practiceQuestions": [
                     {
-                        "q": "'to help solve environmental problems' の不定詞はどのような目的を示しますか？",
-                        "a": "森林を増やす目的＝「環境問題の解決を助けるため」。to help + 原形動詞 で目的を表す。"
+                        "q": "'too soft to build bridges' の構文を説明してください。",
+                        "a": "too＋形容詞(soft)＋to＋動詞(build)＝「柔らかすぎて建設できない」。程度が限度を超え、結果として不可能であることを示す。"
                     },
                     {
-                        "q": "'to improve the economies' はどのような目的表現ですか？",
-                        "a": "「経済を改善するため」。プロジェクトの経済的目的を示す副詞的用法の不定詞。"
+                        "q": "この段落で挙げられている橋がない理由を整理してください。",
+                        "a": "①ボートやフェリーで足りる(because)。②土壌が柔らかすぎる(too...to)。③水位・幅が変化する(Moreover)。"
                     },
                     {
-                        "q": "この段落で述べられているGreat Green Wallプロジェクトの目的は何ですか？",
-                        "a": "環境問題の解決（to help solve）と経済の改善（to improve the economies）の二つの目的がある。"
+                        "q": "'Moreover' はどのような情報を追加していますか？",
+                        "a": "土壌の問題に加えて、水位と幅の変動という別の理由をさらに追加する。「さらに」。"
                     },
                     {
-                        "q": "'to' を使った目的表現と 'in order to' の違いは何ですか？",
-                        "a": "意味は同じだが 'in order to' はより明確で正式な表現。to do = in order to do = 〜するために。"
+                        "q": "'This makes it even more difficult' の 'even' はなぜ使われていますか？",
+                        "a": "already difficult（既に困難）な状況がさらに困難になることを強調。even＝比較級を強める副詞。"
                     }
-                ],
-                "highlightPatterns": [
-                    "to help solve environmental problems",
-                    "to improve the economies"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "目的・理由",
-                "practicePassage": {
-                    "en": "[出典: A Big Project in Africa]\nToday, many countries are trying to grow more forests to help solve environmental problems. The Great Green Wall project is a great example. It is not about building an actual wall. In this project, several African countries are working to plant trees and other plants across a wide area. This will help make the soil better, so farmers can grow more crops to sell. And it will eventually help to improve the economies of the countries and the quality of life for the local people.",
-                    "ja": "今日多くの国が環境問題解決のためにより多くの森林を育てようとしている。グレートグリーンウォールプロジェクトは好例だ。実際の壁を建てるのではない。このプロジェクトでは複数のアフリカの国々が広い地域に木や植物を植えている。これにより土壌が改善され農家はより多くの作物を栽培・販売できる。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
+                ]
             },
             {
                 "id": "fp3",
-                "title": "対比・逆接の接続表現",
-                "subtitle": "Contrast & Concession Connectors",
-                "explanation": "On the other hand / However / Although / But 等の逆接表現は、長文での主張の転換点を示す重要な目印です。",
-                "sourceQuote": "On the other hand / Although / However / But now",
-                "sourceLocation": "Part 1, Part 2A, Part 3B",
+                "title": "過去と現在の対比と原因の表現",
+                "subtitle": "Past-Present Contrast & Cause Expressions",
+                "explanation": "used to be（かつては～だった）で過去の状態を示し、But now（しかし今では）で現在との対比を強調し、because of（～のために）で原因を示し、For example（例えば）で具体化するパターンです。",
+                "sourceQuote": "used to be full of nature / But now, it is badly damaged / because of climate change / For example, it was damaged by using the land",
+                "sourceLocation": "大問3B 第2段落",
                 "examples": [
                     {
-                        "en": "Many rivers have bridges. On the other hand, there are no bridges on the Amazon River.",
-                        "ja": "多くの川には橋があるが、一方でアマゾン川には橋がない。",
-                        "note": "On the other hand＝一方で。2つの対照的な事実を結ぶ。"
+                        "en": "The area around the Sahara Desert, where the project is happening, used to be full of nature.",
+                        "ja": "プロジェクトが行われているサハラ砂漠周辺の地域は、かつては自然に満ちていた。",
+                        "note": "used to be＝「かつては～だった」。過去の状態を示し、現在との違いを暗示する。where＝関係副詞。"
                     },
                     {
-                        "en": "Although the origins of tennis are not clear, some people believe the game was invented in 1873.",
-                        "ja": "テニスの起源は明確でないが、1873年に発明されたと信じる人もいる。",
-                        "note": "Although A, B＝AだがBだ。譲歩の接続詞。"
+                        "en": "But now, it is badly damaged.",
+                        "ja": "しかし今では、ひどく損傷している。",
+                        "note": "But now＝「しかし今では」。used to beとの対比で、現在の深刻な状況を際立たせる。"
                     },
                     {
-                        "en": "The area used to be full of nature. But now, it is badly damaged.",
-                        "ja": "その地域は以前自然に満ちていたが、今はひどく損傷している。",
-                        "note": "used to＋But now＝以前は～だったが今は…。時間の対比。"
+                        "en": "For example, it was damaged by using the land for farming over and over.",
+                        "ja": "例えば、土地を繰り返し農業に使用することで損傷を受けた。",
+                        "note": "For example＝具体例の導入。by -ing＝手段・原因。over and over＝「繰り返し」。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'But now, it is badly damaged' の 'But' はどのような対比を示していますか？",
-                        "a": "過去は自然に恵まれていた（used to be full of nature）のに対し、現在はひどく損傷しているという時間的対比。"
-                    },
-                    {
-                        "q": "'to prevent more damage' は何を目的としていますか？",
-                        "a": "さらなる被害を防ぐため。prevent = 防ぐ、to 不定詞で目的を表す。"
-                    },
-                    {
-                        "q": "この段落で過去と現在はどのように対比されていますか？",
-                        "a": "過去：自然が豊か → 現在：ひどく損傷。But を使って劇的な変化を強調している。"
-                    },
-                    {
-                        "q": "'was damaged by' の受動態は誰/何が損傷を引き起こしたことを示していますか？",
-                        "a": "気候変動や人間活動による損傷。受動態で被害の状態に焦点を当てている。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "But now, it is badly damaged",
-                    "to prevent more damage"
-                ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "逆接・対比",
                 "practicePassage": {
                     "en": "[出典: A Big Project in Africa]\nThe area around the Sahara Desert, where the project is happening, used to be full of nature. But now, it is badly damaged. This has happened because of climate change and terrible weather events. Human activities also harmed the area. For example, it was damaged by using the land for farming over and over. Today, hundreds of millions of people live in desert areas. For the local people, scientists are working to prevent more damage and bring back the plants that once grew there.",
-                    "ja": "プロジェクトが行われているサハラ砂漠周辺は以前自然に満ちていたが今はひどく損傷している。気候変動やひどい気象現象のせいだ。人間の活動も地域を害した。例えば繰り返し農業に土地を使うことで損傷した。",
+                    "ja": "プロジェクトが行われているサハラ砂漠周辺の地域は、かつては自然に満ちていた。しかし今では、ひどく損傷している。これは気候変動やひどい気象現象のために起こった。人間の活動もその地域に害を与えた。例えば、土地を繰り返し農業に使用することで損傷を受けた。今日、何億人もの人々が砂漠地域に住んでいる。地元の人々のために、科学者たちはさらなる被害を防ぎ、かつてそこに育っていた植物を取り戻すために取り組んでいる。",
                     "audioFile": "audio/practice_pp3.mp3"
-                }
+                },
+                "highlightPatterns": [
+                    "used to be full of nature",
+                    "But now, it is badly damaged",
+                    "because of climate change",
+                    "For example, it was damaged",
+                    "to prevent more damage"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "過去現在対比",
+                "practiceQuestions": [
+                    {
+                        "q": "'used to be' と 'But now' はどのような対比を示していますか？",
+                        "a": "過去（自然に満ちていた）vs. 現在（ひどく損傷）。時間的な対比で、変化の深刻さを強調。"
+                    },
+                    {
+                        "q": "'because of' と 'by -ing' の違いは何ですか？",
+                        "a": "because of＋名詞＝「～のために」（原因）。by -ing＝「～することで」（手段・方法、ここでは原因）。"
+                    },
+                    {
+                        "q": "'that once grew there' の 'that' は何を修飾していますか？",
+                        "a": "the plants を修飾する関係代名詞。「かつてそこに育っていた植物」。once＝「かつて」。"
+                    },
+                    {
+                        "q": "この段落の構成を整理してください。",
+                        "a": "過去の状態(used to) → 現在の問題(But now) → 原因(because of) → 具体例(For example) → 現状(Today) → 対策(to prevent)"
+                    }
+                ]
             },
             {
                 "id": "fp4",
                 "title": "時間・順序を表す表現",
                 "subtitle": "Time & Sequence Expressions",
-                "explanation": "Eventually / Since then / from the moment / After / During 等の時間表現は、長文の出来事の流れを把握するのに不可欠です。",
-                "sourceQuote": "Eventually / Since then / from the moment / After the talk / During that time",
-                "sourceLocation": "Part 2B, Part 3",
+                "explanation": "During that time（その間に）、from the moment（～した瞬間から）、When（～するとき）、Eventually（最終的に）、Then（その後）は、プロセスの時間的な流れを示す表現です。",
+                "sourceQuote": "During that time / from the moment it is released / When the balloon rises / Eventually, it grows big enough / Then, the machine falls",
+                "sourceLocation": "大問2B 第2段落",
                 "examples": [
                     {
-                        "en": "When the balloon rises higher, it expands little by little. Eventually, it grows big enough to be broken.",
-                        "ja": "バルーンが高く上がるにつれ少しずつ膨張する。最終的に割れるほど大きくなる。",
-                        "note": "Eventually＝最終的に。段階的な変化の後の結果を示す。"
+                        "en": "During that time, it can reach an altitude of around thirty thousand meters.",
+                        "ja": "その間に、約3万メートルの高度に達することができる。",
+                        "note": "During that time＝「その間に」。前文の「約2時間」を受けた時間範囲を示す。"
                     },
                     {
-                        "en": "Since then, weather balloons have been used around the world.",
-                        "ja": "以来、世界中で気象バルーンが使われている。",
-                        "note": "Since then＝それ以来。過去の出来事から現在まで続く状態。現在完了形と共起。"
+                        "en": "The machine carried by the balloon starts collecting data from the moment it is released into the sky from the ground.",
+                        "ja": "気球に運ばれる機器は、地上から空に放たれた瞬間からデータの収集を開始する。",
+                        "note": "from the moment＝「～した瞬間から」。開始時点を明確に示す。carried by＝過去分詞の後置修飾。"
                     },
                     {
-                        "en": "The machine starts collecting data from the moment it is released.",
-                        "ja": "放たれた瞬間からデータ収集を始める。",
-                        "note": "from the moment＝～した瞬間から。時間の起点を示す。"
+                        "en": "Eventually, it grows big enough to be broken.",
+                        "ja": "最終的には、割れるほど大きくなる。",
+                        "note": "Eventually＝「最終的に」。プロセスの最終段階を示す。big enough to＝「～するのに十分な大きさ」。"
                     }
                 ],
-                "practiceQuestions": [
-                    {
-                        "q": "'During that time' はどの期間を指していますか？",
-                        "a": "気象バルーンが空に浮かんでいる約2時間の期間。During = 〜の間。"
-                    },
-                    {
-                        "q": "'from the moment it is released' はどのような時間表現ですか？",
-                        "a": "「放たれた瞬間から」。from the moment = 〜した瞬間から、起点を示す時間表現。"
-                    },
-                    {
-                        "q": "'When the balloon rises higher' はどのような時間的条件を示しますか？",
-                        "a": "「バルーンがより高く上がると」。When は時間的条件を示す接続詞。上昇に伴う変化を説明。"
-                    },
-                    {
-                        "q": "'little by little' はどのような変化の過程を表しますか？",
-                        "a": "「少しずつ」。graduallyと同義。バルーンの段階的な膨張・変化を示す。"
-                    }
-                ],
+                "practicePassage": {
+                    "en": "[出典: Weather Balloons]\nA weather balloon often stays in the sky for about two hours. During that time, it can reach an altitude of around thirty thousand meters. The machine carried by the balloon starts collecting data from the moment it is released into the sky from the ground. When the balloon rises higher and higher, it expands little by little. Eventually, it grows big enough to be broken. Then, the machine falls slowly to the ground with a parachute.",
+                    "ja": "気象バルーンはしばしば約2時間空に留まる。その間に、約3万メートルの高度に達することができる。気球に運ばれる機器は、地上から空に放たれた瞬間からデータの収集を開始する。気球がどんどん高く上がると、少しずつ膨張する。最終的には、割れるほど大きくなる。その後、機器はパラシュートとともにゆっくり地面に落下する。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
                     "During that time",
                     "from the moment it is released",
-                    "When the balloon rises higher",
-                    "little by little"
+                    "When the balloon rises",
+                    "Eventually, it grows big enough",
+                    "Then, the machine falls"
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "時間・順序",
-                "practicePassage": {
-                    "en": "[出典: Weather Balloons]\nA weather balloon often stays in the sky for about two hours. During that time, it can reach an altitude of around thirty thousand meters. The machine carried by the balloon starts collecting data from the moment it is released into the sky from the ground. When the balloon rises higher and higher, it expands little by little. Eventually, it grows big enough to be broken. Then, the machine falls slowly to the ground with a parachute.",
-                    "ja": "気象バルーンは約2時間空に留まり、約3万メートルの高度に達する。バルーンが運ぶ機械は地上から空に放たれた瞬間からデータ収集を始める。バルーンが高く上がるにつれて少しずつ膨張する。Eventually割れるほど大きくなる。その後機械はパラシュートでゆっくり地上に落ちる。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
+                "practiceQuestions": [
+                    {
+                        "q": "'During that time' の 'that time' は具体的にどの期間ですか？",
+                        "a": "前文の「約2時間」。バルーンが空に留まっている期間。"
+                    },
+                    {
+                        "q": "'from the moment it is released' はどのような時間表現ですか？",
+                        "a": "開始時点を正確に示す表現。「放たれた瞬間から」データ収集が始まるという即時性を強調。"
+                    },
+                    {
+                        "q": "この段落の時系列を整理してください。",
+                        "a": "放出(released) → 上昇中にデータ収集(When) → 少しずつ膨張(little by little) → 割れる(Eventually) → パラシュートで落下(Then)"
+                    },
+                    {
+                        "q": "'big enough to be broken' の構文を説明してください。",
+                        "a": "形容詞(big) ＋ enough ＋ to不定詞(to be broken) ＝「割れるのに十分な大きさ」。受動態の不定詞で「割れるほど大きい」。"
+                    }
+                ]
             },
             {
                 "id": "fp5",
