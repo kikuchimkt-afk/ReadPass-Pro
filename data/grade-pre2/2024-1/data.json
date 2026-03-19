@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2024",
     "session": "1",
@@ -1438,222 +1438,223 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "知覚動詞・感情動詞の使い方",
-                "subtitle": "Verbs of Perception & Emotion",
-                "explanation": "look, sound, seem, feelなどの知覚・感情動詞は「主語＋動詞＋形容詞」の形で使います。be動詞のように形容詞を直接つなぐのが特徴です。準2級の長文では人物の状態や感情を読み取る際に頻出します。",
-                "sourceQuote": "Fluffy started to look sick / you seem very happy / It was a wonderful experience",
-                "sourceLocation": "Part 3・Part 2",
+                "title": "助言と因果の表現",
+                "subtitle": "Advice & Cause-Effect",
+                "explanation": "so（だから）で因果、if条件＋would仮定法で助言、how important it was to（～することがいかに大切か）で教訓を示す物語パターン。",
+                "sourceQuote": "she got a rabbit / if they got the right food, Fluffy would feel better / how important it was to take care of animals",
+                "sourceLocation": "大問3 第2段落",
                 "examples": [
                     {
-                        "en": "The soup smells delicious.",
-                        "ja": "そのスープはおいしそうな匂いがする。",
-                        "note": "smell + 形容詞＝～な匂いがする"
+                        "en": "Her brother said if they got the right food, Fluffy would feel better again.",
+                        "ja": "兄は正しい食べ物を手に入れれば、フラッフィーはまた元気になるだろうと言った。",
+                        "note": "if＋過去形, would＝仮定法「もし～すれば…だろう」。助言。"
                     },
                     {
-                        "en": "She looked tired after the long trip.",
-                        "ja": "長旅の後、彼女は疲れて見えた。",
-                        "note": "look + 形容詞＝～に見える"
+                        "en": "She understood how important it was to take care of animals properly.",
+                        "ja": "彼女は動物を適切に世話することがどれほど大切か理解した。",
+                        "note": "how important it was＝間接疑問文＋形式主語構文。教訓。"
                     },
                     {
-                        "en": "This idea sounds interesting.",
-                        "ja": "このアイデアは面白そうだ。",
-                        "note": "sound + 形容詞＝～に聞こえる"
+                        "en": "Emily was worried, so she asked her brother for help.",
+                        "ja": "エミリーは心配になり、兄に助けを求めた。",
+                        "note": "so＝因果。心配→助けを求める。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Emily and Fluffy]\nEmily was worried, so she asked her brother for help. They found out that Emily had been giving Fluffy the wrong kind of food. Her brother said if they got the right food, Fluffy would feel better again. He was right. Fluffy soon began to eat well and be active. Emily was happy. She understood how important it was to take care of animals properly.",
-                    "ja": "心配になったエミリーはお兄さんに助けを求めた。エミリーが間違った種類の餌をフラッフィーに与えていたことがわかった。お兄さんは正しい餌を手に入れればまた元気になると言った。その通りだった。フラッフィーはすぐによく食べ、活発になった。エミリーは嬉しかった。動物をきちんと（22）することがどれほど大切か理解した。",
+                    "ja": "エミリーは心配になり、兄に助けを求めた。エミリーがフラッフィーに間違った種類の食べ物を与えていたことがわかった。兄は正しい食べ物を手に入れれば、フラッフィーはまた元気になるだろうと言った。彼の言う通りだった。フラッフィーはすぐによく食べるようになり活動的になった。エミリーは嬉しかった。動物を適切に世話することがどれほど大切か理解した。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'Emily was worried' の 'worried' はどのような感情を表していますか？",
-                        "a": "ペットの体調に対する不安・心配。be worried = 心配している、感情の状態を表す形容詞。"
-                    },
-                    {
-                        "q": "'Emily was happy to see Fluffy getting better' の文構造を説明してください。",
-                        "a": "be happy to do = 〜して嬉しい。to see 以下が感情の原因を示す不定詞の副詞的用法。"
-                    },
-                    {
-                        "q": "'began to eat well' の 'began' のあとに to不定詞が使われている理由は？",
-                        "a": "begin は to不定詞と動名詞の両方を取れるが、ここでは「食べ始めた」という動作の開始を to不定詞で表現。"
-                    },
-                    {
-                        "q": "この段落でエミリーの感情はどのように変化しましたか？",
-                        "a": "心配（worried）→ 正しい食事を見つけた → ペットが回復 → 嬉しい（happy）という変化。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "Emily was worried",
-                    "Emily was happy",
-                    "began to eat well",
-                    "would feel better"
+                    "so she asked her brother",
+                    "if they got the right food, Fluffy would feel better",
+                    "how important it was to take care"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "知覚・感情動詞"
+                "highlightLabel": "助言・因果",
+                "practiceQuestions": [
+                    {
+                        "q": "'if they got...would feel better'はどのような構文？",
+                        "a": "仮定法過去。現実的な条件と推測される結果。if＋過去形, would＋動詞原形。"
+                    },
+                    {
+                        "q": "'how important it was to'の構文は？",
+                        "a": "間接疑問文。how＋形容詞で「どれほど～か」。it＝形式主語、to以下＝真主語。"
+                    },
+                    {
+                        "q": "フラッフィーが病気になった原因は？",
+                        "a": "エミリーが間違った種類の食べ物を与えていた。"
+                    },
+                    {
+                        "q": "エミリーの教訓は？",
+                        "a": "動物を適切に世話することの大切さ。正しい知識の重要性。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "either A or B / whether A or B の構文",
-                "subtitle": "Either...Or & Whether...Or Structures",
-                "explanation": "either A or B＝「AかBかどちらか」、whether A or B＝「AかBかどうか」を表します。選択肢を示す場面で頻出し、正確に理解することで文脈の把握が容易になります。",
-                "sourceQuote": "either hang it on the back of a chair or lay it / could not decide whether to get a kitten or a rabbit",
-                "sourceLocation": "Part 1 Q5・Part 3",
+                "title": "目的と提案の表現",
+                "subtitle": "Purpose & Suggestion",
+                "explanation": "to＋動詞（目的）で行動の理由を示し、Would you like to（～しませんか）で提案、could（～できるかも）で可能性を述べるメール文パターン。",
+                "sourceQuote": "I thought this could be fun for us / Would you like to go / we could go for dinner",
+                "sourceLocation": "大問4A 第2・3段落",
                 "examples": [
                     {
-                        "en": "You can either walk or take a bus.",
-                        "ja": "歩くかバスに乗るかどちらかできます。",
-                        "note": "either A or B＝AかBかどちらか"
+                        "en": "You said that you wanted to try doing something creative, so I thought this could be fun for us.",
+                        "ja": "あなたは何か創造的なことをやってみたいと言っていたので、これは私たちにとって楽しいかもしれないと思った。",
+                        "note": "so＝因果。could be＝可能性「～かもしれない」。"
                     },
                     {
-                        "en": "I don't know whether to go or stay.",
-                        "ja": "行くべきか残るべきかわからない。",
-                        "note": "whether to A or B＝AすべきかBすべきか"
+                        "en": "Would you like to go?",
+                        "ja": "行きませんか？",
+                        "note": "Would you like to＝「～しませんか」丁寧な提案。"
                     },
                     {
-                        "en": "Either you or I have to go.",
-                        "ja": "あなたか私のどちらかが行かなければならない。",
-                        "note": "either A or B が主語の場合"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Emily and Fluffy]\nEmily wanted a pet, but she could not decide whether to get a kitten or a rabbit. Her older brother knew a lot about animals. He told Emily that a rabbit would be easier to take care of than a cat. Emily thought that was good advice, so she got a rabbit. She was so happy and named it Fluffy. She started feeding it and cleaning its cage every day. After a few days, Fluffy started to look sick. Fluffy was not eating much and sleeping most of the time.",
-                    "ja": "エミリーはペットが欲しかったが、子猫かウサギかどちらにするか決められなかった。お兄さんは動物に詳しかった。ウサギの方が猫より世話がしやすいとエミリーに教えてくれた。それは良いアドバイスだと思い、ウサギを飼うことにした。とても嬉しくてフラッフィーと名付けた。毎日餌やりとケージの掃除を始めた。数日後、フラッフィーは（21）。あまり食べず、ほとんどの時間を寝て過ごしていた。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'could not decide whether to get a kitten or a rabbit' の 'whether A or B' 構文を説明してください。",
-                        "a": "「AかBか」を表す選択の構文。whether to get A or B = AとBのどちらを手に入れるか。decide の目的語として使用。"
-                    },
-                    {
-                        "q": "'whether to get' の to不定詞は何を表していますか？",
-                        "a": "「手に入れるかどうか」。whether + to不定詞 = 〜すべきかどうか、という選択・判断を表す。"
-                    },
-                    {
-                        "q": "この文を 'either A or B' を使って書き換えるとどうなりますか？",
-                        "a": "'Emily could not decide on either a kitten or a rabbit.' either A or B = AかBのどちらか。"
-                    },
-                    {
-                        "q": "エミリーは最終的にどちらのペットを選びましたか？",
-                        "a": "兄のアドバイスでウサギ（rabbit）を選び、Fluffyと名付けた。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "could not decide whether to get a kitten or a rabbit",
-                    "started feeding it",
-                    "cleaning its cage"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "either/whether構文"
-            },
-            {
-                "id": "fp3",
-                "title": "動名詞（-ing）とto不定詞の使い分け",
-                "subtitle": "Gerunds vs. Infinitives",
-                "explanation": "動詞の後にto不定詞が来るもの（want to, decide to, promise to）と動名詞が来るもの（enjoy -ing, stop -ing, start -ing）があります。この使い分けは準2級の穴埋め・読解で重要です。",
-                "sourceQuote": "decided to read / started feeding / enjoy it / wanted to try doing",
-                "sourceLocation": "Part 1・3・4A",
-                "examples": [
-                    {
-                        "en": "She decided to study abroad.",
-                        "ja": "彼女は留学することに決めた。",
-                        "note": "decide + to不定詞＝～することを決める"
-                    },
-                    {
-                        "en": "He enjoys playing tennis.",
-                        "ja": "彼はテニスをするのを楽しんでいる。",
-                        "note": "enjoy + 動名詞＝～することを楽しむ"
-                    },
-                    {
-                        "en": "It started raining suddenly.",
-                        "ja": "突然雨が降り始めた。",
-                        "note": "start + 動名詞 or to不定詞（両方OK）"
+                        "en": "Also, if you're free after the workshop finishes on Saturday, we could go for dinner at my favorite place to eat.",
+                        "ja": "また、土曜日のワークショップが終わった後に時間があれば、お気に入りのレストランに夕食に行けるかもしれない。",
+                        "note": "if＝条件。could＝控えめな提案。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Amazing experience]\nAs I was leaving, I saw a poster about an event next weekend at the community center. There will be a weekend art workshop from 10:00 a.m. to 5:00 p.m. on Saturday and Sunday. We can learn about painting and making sculptures with clay. You said that you wanted to try doing something creative, so I thought this could be fun for us. Would you like to go?",
-                    "ja": "帰る時に、来週末のコミュニティセンターのイベントのポスターを見たんだ。土曜日と日曜日の午前10時から午後5時まで週末アートワークショップがあるんだ。絵画や粘土で彫刻を作ることを学べるよ。君が何か創造的なことをやってみたいと言ってたから、一緒に行ったら楽しいかなと思って。行かない？",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "帰る途中、コミュニティセンターで来週末に行われるイベントのポスターを見た。土日に午前10時から午後5時までのアートワークショップがある。絵を描いたり粘土で彫刻を作ったりすることを学べる。あなたは何か創造的なことをやってみたいと言っていたので、これは私たちにとって楽しいかもしれないと思った。行きませんか？",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'wanted to try doing something creative' で 'try doing' が使われている理由は？",
-                        "a": "try doing = （試しに）〜してみる。実際にやってみることを表す。try to do（努力して〜しようとする）とは意味が異なる。"
-                    },
-                    {
-                        "q": "'learn about painting and making sculptures' で動名詞が使われている理由は？",
-                        "a": "about は前置詞なので後ろに名詞/動名詞が来る。painting と making は前置詞の目的語として並列。"
-                    },
-                    {
-                        "q": "'try doing' と 'try to do' の違いを例文で説明してください。",
-                        "a": "try doing = 試しにやってみる（I tried eating sushi. 寿司を食べてみた）。try to do = 努力してやろうとする（I tried to open the door. ドアを開けようとした）。"
-                    },
-                    {
-                        "q": "この段落で述べられているイベントの内容を要約してください。",
-                        "a": "コミュニティセンターで週末アートワークショップが開催され、絵画と彫刻について学べる。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "wanted to try doing something creative",
-                    "learn about painting and making sculptures"
+                    "so I thought this could be fun",
+                    "Would you like to go",
+                    "You said that you wanted to try"
                 ],
                 "highlightColor": "#f472b6",
-                "highlightLabel": "動名詞/to不定詞"
+                "highlightLabel": "目的・提案",
+                "practiceQuestions": [
+                    {
+                        "q": "'Would you like to go?'はどのような表現？",
+                        "a": "丁寧な提案・誘い。want toの丁寧版。"
+                    },
+                    {
+                        "q": "'could be fun'はなぜcouldを使う？",
+                        "a": "控えめな推測。断定せず「楽しいかもしれない」と提案。"
+                    },
+                    {
+                        "q": "友人を誘う根拠は何？",
+                        "a": "友人が「創造的なことをやりたい」と言っていたこと。相手の希望に合った提案。"
+                    },
+                    {
+                        "q": "ワークショップの内容は？",
+                        "a": "絵画と粘土の彫刻。土日の午前10時〜午後5時。"
+                    }
+                ]
             },
             {
-                "id": "fp4",
-                "title": "時制の一致と仮定法もどき（if節）",
-                "subtitle": "Tense Agreement & Conditional Clauses",
-                "explanation": "「もし～なら」を表すif節では、未来のことでも現在形を使います（If it rains, we will stay home）。また、間接話法では時制を一つ過去にずらします。準2級の会話文・長文で頻出します。",
-                "sourceQuote": "if they got the right food, Fluffy would feel better / If it's raining, we'll watch a movie / if you're free after the workshop",
-                "sourceLocation": "Part 3・Part 1 Q15（2024-2相当）・Part 4A",
+                "id": "fp3",
+                "title": "理由と結果の接続表現",
+                "subtitle": "Reason & Result Connectors",
+                "explanation": "because（理由）、However（逆接）、As a result（結果として）で情報の変化と影響を論じるパターン。",
+                "sourceQuote": "because news websites are more convenient / However, the most popular ones focus on national news / As a result, an increasing number of people",
+                "sourceLocation": "大問4B 第2段落",
                 "examples": [
                     {
-                        "en": "If it rains tomorrow, we will stay home.",
-                        "ja": "明日雨が降ったら、家にいます。",
-                        "note": "if + 現在形, will + 原形（条件節）"
+                        "en": "They do this because news websites are more convenient than newspapers.",
+                        "ja": "ニュースサイトの方が新聞より便利なため、人々はこうしている。",
+                        "note": "because＝理由。more convenient than＝比較級。"
                     },
                     {
-                        "en": "He said if she came, he would help her.",
-                        "ja": "彼は彼女が来れば手伝うと言った。",
-                        "note": "時制の一致：said→came, would help"
+                        "en": "However, the most popular ones focus on national and international news.",
+                        "ja": "しかし、最も人気のあるサイトは国内外のニュースに焦点を当てている。",
+                        "note": "However＝逆接。便利だが問題もある、と転換。"
                     },
                     {
-                        "en": "I don't know if he will come.",
-                        "ja": "彼が来るかどうかわからない。",
-                        "note": "if＝～かどうか（名詞節）"
+                        "en": "As a result, an increasing number of people do not know much about what is happening in the areas where they live.",
+                        "ja": "その結果、自分の住んでいる地域で何が起きているかあまり知らない人が増えている。",
+                        "note": "As a result＝「その結果」。an increasing number of＝「増加する数の」。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Amazing experience]\nAlso, if you're free after the workshop finishes on Saturday, we could go for dinner at my favorite place to eat. It's called Charlie's Diner, and it's not far from the community center. Have you ever been there? The chef, Charlie, is great, and he makes the best steaks in the city. I'm sure we'll both be hungry after making art all day. If you want to join me, let me know, and I'll reserve a table.",
-                    "ja": "あと、土曜日のワークショップが終わった後暇なら、僕のお気に入りの店でディナーに行けるよ。チャーリーズ・ダイナーっていうお店で、コミュニティセンターからそう遠くないんだ。行ったことある？シェフのチャーリーは最高で、街一番のステーキを作るんだ。一日中アートを作った後はきっとお腹が空くよ。一緒に行きたかったら教えて、テーブルを予約するから。",
-                    "audioFile": "audio/practice_pp4.mp3"
+                    "en": "[出典: Local Newspapers]\nSince around the mid-2000s, more and more people have stopped buying local newspapers and started reading the news online. They do this because news websites are more convenient than newspapers. Also, many news websites are free. However, the most popular ones focus on national and international news. They have few local news stories or none at all. As a result, an increasing number of people do not know much about what is happening in the areas where they live.",
+                    "ja": "2000年代半ば頃から、ますます多くの人が地元新聞を買うのをやめ、オンラインでニュースを読むようになった。ニュースサイトの方が新聞より便利なため、人々はこうしている。また、多くのニュースサイトは無料である。しかし、最も人気のあるサイトは国内外のニュースに焦点を当てている。地元のニュースはほとんどないか、全くない。その結果、自分の住んでいる地域で何が起きているかあまり知らない人が増えている。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
+                "highlightPatterns": [
+                    "because news websites are more convenient",
+                    "However, the most popular ones",
+                    "As a result, an increasing number"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "理由・結果",
                 "practiceQuestions": [
                     {
-                        "q": "'if you're free after the workshop finishes' はどのタイプの条件文ですか？",
-                        "a": "第一条件文（現実的な条件）。「ワークショップが終わった後に時間があれば」という現実に起こりうる未来の条件。"
+                        "q": "オンラインニュースに切り替えた理由は？",
+                        "a": "便利(convenient)で無料(free)だから。becauseとAlsoで2つの理由。"
                     },
                     {
-                        "q": "'If you want to join me, just send me a message' の if節と主節の関係を説明してください。",
-                        "a": "if節（条件）= 参加したいなら、主節（結果）= メッセージを送って。現在形で未来の条件を表す。"
+                        "q": "'However'はどのような問題を指摘？",
+                        "a": "人気サイトは全国・国際ニュースが中心で、地元ニュースが不足している問題。"
                     },
                     {
-                        "q": "この段落で述べられている2つの提案は何ですか？",
-                        "a": "①ワークショップ後に一緒にディナーに行く提案、②アートワークショップに一緒に参加する提案。"
+                        "q": "'As a result'はどのような結果？",
+                        "a": "地元ニュース不足→住民が地域の出来事を知らなくなっている。"
                     },
                     {
-                        "q": "'if you're free' と 'if you want to' の条件の種類の違いは？",
-                        "a": "前者は「時間的余裕」の条件、後者は「意志・希望」の条件。どちらも第一条件文だが条件の性質が異なる。"
+                        "q": "'an increasing number of'はどういう意味？",
+                        "a": "「増加する数の」＝ますます多くの。問題が拡大していることを示す。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "困難と広告の重要性",
+                "subtitle": "Difficulties & Importance of Advertising",
+                "explanation": "Without（～がなければ）で仮定を示し、By doing so（そうすることで）で手段と結果、It costs（費用がかかる）で困難さを述べるパターン。",
+                "sourceQuote": "By doing so, the business can get new customers / It costs a lot of money / Without local newspapers, it is hard for",
+                "sourceLocation": "大問4B 第4段落",
+                "examples": [
+                    {
+                        "en": "By doing so, the business can get new customers.",
+                        "ja": "そうすることで、その企業は新しい顧客を得ることができる。",
+                        "note": "By doing so＝「そうすることで」手段→結果。"
+                    },
+                    {
+                        "en": "It costs a lot of money to put an advertisement in a national newspaper or on a popular news website.",
+                        "ja": "全国紙や人気のニュースサイトに広告を出すには多くの費用がかかる。",
+                        "note": "It costs＋金額＋to do＝「～するのに…かかる」形式主語構文。"
+                    },
+                    {
+                        "en": "Without local newspapers, it is hard for small, local businesses to advertise.",
+                        "ja": "地元新聞がなければ、小さな地元企業が広告を出すのは難しい。",
+                        "note": "Without＝「～がなければ」仮定。It is hard for A to do＝「Aが～するのは難しい」。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Local Newspapers]\nLocal newspapers are also very important to local businesses. A small, local business can advertise its products or services in a local newspaper at a low price. By doing so, the business can get new customers. It costs a lot of money to put an advertisement in a national newspaper or on a popular news website. Without local newspapers, it is hard for small, local businesses to advertise. Just like local newspaper companies, many of these businesses have been facing difficult times.",
+                    "ja": "地元新聞は地元企業にとっても非常に重要である。小さな地元企業は安い価格で地元新聞に製品やサービスの広告を出すことができる。そうすることで、新しい顧客を得ることができる。全国紙や人気のニュースサイトに広告を出すには多くの費用がかかる。地元新聞がなければ、小さな地元企業が広告を出すのは難しい。地元新聞会社と同様に、これらの企業の多くが厳しい時期に直面している。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
-                    "if you're free after the workshop finishes",
-                    "If you want to join me"
+                    "By doing so",
+                    "It costs a lot of money to",
+                    "Without local newspapers, it is hard"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "if節・条件文"
+                "highlightLabel": "困難・重要性",
+                "practiceQuestions": [
+                    {
+                        "q": "地元新聞が企業に重要な理由は？",
+                        "a": "安い価格で広告を出せる。全国紙は高い。新しい顧客を得る手段。"
+                    },
+                    {
+                        "q": "'Without'はどのような仮定？",
+                        "a": "「地元新聞がなければ」＝ifの代わりの仮定。広告手段がなくなる可能性。"
+                    },
+                    {
+                        "q": "'By doing so'の'so'は何を指す？",
+                        "a": "前文の「地元新聞に広告を出すこと」。その結果として顧客を得る。"
+                    },
+                    {
+                        "q": "地元企業が直面している問題は？",
+                        "a": "地元新聞の衰退により、安い広告手段が失われつつある。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

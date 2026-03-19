@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2025",
     "session": "3",
@@ -1481,223 +1481,227 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "前置詞句・副詞句を使った表現",
-                "subtitle": "Prepositional and Adverbial Phrases",
-                "explanation": "英語では前置詞句（in the shade of, on the side of）や副詞句（little by little, after dark）が頻出します。これらの固定表現を覚えることで、文の意味を正確に理解できるようになります。",
-                "sourceQuote": "sit in the shade of a large tree / little by little / after dark / on the side of the street",
-                "sourceLocation": "Part 1, Part 3",
+                "title": "逆接と判断の表現",
+                "subtitle": "Contrast & Judgment",
+                "explanation": "However（しかし）で対立する意見を示し、should（すべき）で判断、believed that（～と信じた）で信念を述べる物語文パターン。",
+                "sourceQuote": "She thought they should leave it / However, Eddie believed that he should do something",
+                "sourceLocation": "大問3 第1段落",
                 "examples": [
                     {
-                        "en": "The cat was sleeping in the shade of the tree.",
-                        "ja": "猫は木の日陰で寝ていた。",
-                        "note": "in the shade of ～＝～の日陰で"
+                        "en": "Tina told Eddie to stay away from the dog. She thought they should leave it because it might be dangerous.",
+                        "ja": "ティナはエディにその犬に近づかないよう言った。危険かもしれないので放っておくべきだと思った。",
+                        "note": "should leave＝助言。might be＝可能性。because＝理由。"
                     },
                     {
-                        "en": "She improved her skills little by little.",
-                        "ja": "彼女は少しずつスキルを向上させた。",
-                        "note": "little by little＝少しずつ、段階的に"
+                        "en": "However, Eddie believed that he should do something to help the little animal.",
+                        "ja": "しかし、エディはその小さな動物を助けるために何かすべきだと信じた。",
+                        "note": "However＝逆接。2人の意見の対立。to help＝目的。"
                     },
                     {
-                        "en": "Don't go outside after dark.",
-                        "ja": "暗くなってから外出しないで。",
-                        "note": "after dark＝日暮れ後に"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: How Babies Learn to Talk]\nBabies begin to learn to speak at about six months old. The first thing they learn is to recognize individual words. This means they learn where individual words start and end. Then, they learn what the word means. For example, when they hear the word \"apple,\" they try to understand what it is. Soon, they will recognize a round, red item as an apple. This may sound easy for adults. However, it is considered difficult for babies.",
-                    "ja": "赤ちゃんは生後約6ヶ月で話すことを学び始めます。最初に学ぶのは個々の単語を認識することです。つまり、個々の単語がどこで始まりどこで終わるかを学びます。次に、その単語が何を意味するかを学びます。例えば「リンゴ」という言葉を聞くと、それが何かを理解しようとします。やがて、丸くて赤いものをリンゴだと認識します。大人には簡単に聞こえるかもしれませんが、赤ちゃんには難しいと考えられています。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'Babies begin to learn to speak at about six months old' の 'at about six months old' はどのような前置詞句ですか？",
-                        "a": "「生後約6ヶ月で」。at + 年齢/時期 = 〜の時に。about は「約」を示す副詞。"
-                    },
-                    {
-                        "q": "'the first thing they learn is to recognize individual words' の構造を説明してください。",
-                        "a": "The first thing (主語) + they learn (関係代名詞節) + is (動詞) + to recognize (不定詞=補語)。「最初に学ぶことは個々の単語を認識すること」。"
-                    },
-                    {
-                        "q": "'individual words' はどのような意味ですか？",
-                        "a": "「個々の単語」。individual = それぞれの・個別の。文全体ではなく一つ一つの単語を認識することを指す。"
-                    },
-                    {
-                        "q": "この段落で赤ちゃんの言語習得の最初のステップは何だと述べられていますか？",
-                        "a": "生後約6ヶ月で個々の単語を認識することから始まる。連続した音声の中から単語の区切りを見分ける。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "at about six months old",
-                    "the first thing they learn",
-                    "individual words"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "前置詞句・副詞句"
-            },
-            {
-                "id": "fp2",
-                "title": "依頼・提案の表現パターン",
-                "subtitle": "Requests, Suggestions, and Offers",
-                "explanation": "日常会話では、依頼（Can you ～?）、提案（I wonder if ～）、申し出（I'll ～）などの表現が頻出します。場面に応じた丁寧さのレベルを理解することが大切です。",
-                "sourceQuote": "Can you tell me where...? / I wonder if he could... / I'll set up a date / don't forget to...",
-                "sourceLocation": "Part 1, Part 2, Part 4A",
-                "examples": [
-                    {
-                        "en": "Can you tell me where the station is?",
-                        "ja": "駅はどこか教えてもらえますか？",
-                        "note": "Can you ～?＝～してもらえますか？（丁寧な依頼）"
-                    },
-                    {
-                        "en": "I wonder if you could help me.",
-                        "ja": "手伝っていただけないでしょうか。",
-                        "note": "I wonder if ～＝～かしら（控えめな依頼・疑問）"
-                    },
-                    {
-                        "en": "Don't forget to bring your notebook.",
-                        "ja": "ノートを持ってくるのを忘れないで。",
-                        "note": "Don't forget to ～＝～するのを忘れないで"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: My Apartment]\nI want to share what will happen next. If your friend is interested, I want to meet with him. So, I will set up a date for him to tour the apartment first. It takes about ten minutes to get to the apartment from the university by bus. Then, if he likes it, he will need to pay the first month's rent right before he moves in. Thank you, Thomas Robbins",
-                    "ja": "今後の流れをお伝えします。もし友人が興味があれば、会いたいと思います。まず、アパートを見学する日を設定します。大学からバスで約10分です。気に入れば、入居直前に最初の月の家賃を支払う必要があります。よろしく、トーマス・ロビンズ",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'If your friend is interested, I want to meet with him' はどのような依頼・提案ですか？",
-                        "a": "条件付きの提案。「もし興味があれば会いたい」。if節で相手の意思を確認してから提案する丁寧な表現。"
-                    },
-                    {
-                        "q": "'I will set up a date for a meeting' の 'set up' はどのような意味ですか？",
-                        "a": "「（日程を）設定する」。set up = arrange / organize。ミーティングの日取りを決めるという提案。"
-                    },
-                    {
-                        "q": "'Please give him the information' はどのような依頼表現ですか？",
-                        "a": "Please + 命令文 = 丁寧な依頼。「彼にこの情報を伝えてください」。間接的に友人に依頼を伝える方法。"
-                    },
-                    {
-                        "q": "この段落で述べられている次のステップは何ですか？",
-                        "a": "友人が興味あれば面会を設定し、アパートを見てもらう。情報を友人に伝えてほしいという依頼。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "If your friend is interested",
-                    "I want to meet with him",
-                    "I will set up a date"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "依頼・提案"
-            },
-            {
-                "id": "fp3",
-                "title": "代名詞の指示対象を読み取る",
-                "subtitle": "Identifying Pronoun References",
-                "explanation": "長文読解では、it, they, this, thatなどの代名詞が何を指しているかを正確に読み取ることが重要です。前の文や段落を参照して指示対象を特定する練習をしましょう。",
-                "sourceQuote": "it might be dangerous (= the dog) / it could save the dog (= animal hospital) / it goes back a long way (= tradition)",
-                "sourceLocation": "Part 3, Part 4B",
-                "examples": [
-                    {
-                        "en": "The dog looked dirty. It also seemed to be injured.",
-                        "ja": "その犬は汚れていた。ケガもしているようだった。",
-                        "note": "It = the dog（前文の主語を受ける）"
-                    },
-                    {
-                        "en": "Baby talk is important. This way of speaking helps babies.",
-                        "ja": "赤ちゃん言葉は重要だ。この話し方は赤ちゃんを助ける。",
-                        "note": "This way of speaking = baby talk（前文の概念を受ける）"
-                    },
-                    {
-                        "en": "The tradition goes back a long way. It did not begin in modern times.",
-                        "ja": "その伝統ははるか昔に遡る。それは現代に始まったものではない。",
-                        "note": "It = the tradition（前文の主語を受ける）"
+                        "en": "It also seemed to be injured because it couldn't walk well.",
+                        "ja": "うまく歩けなかったので、怪我をしているようにも見えた。",
+                        "note": "seemed to be＝「～のように見えた」推測。because＝理由。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: A Stray Dog]\nEddie is a junior high school student in America. One day, he was walking home from school with a friend, Tina. Then, they found a dog on the side of the street. The dog looked a little dirty. It also seemed to be injured because it couldn't walk well. Tina told Eddie to stay away from the dog. She thought they should leave it because it might be dangerous. However, Eddie believed that he should do something to help the little animal.",
-                    "ja": "エディはアメリカの中学生です。ある日、友達のティナと一緒に学校から歩いて帰っていました。すると、道端に犬がいるのを見つけました。その犬は少し汚れていました。うまく歩けなかったので、ケガをしているようでした。ティナはエディにstay away from the dogと言いました。危険かもしれないから離れるべきだと思ったのです。しかし、エディはその小さな動物を助けるために何かすべきだと信じていました。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "エディはアメリカの中学生である。ある日、友達のティナと一緒に学校から歩いて帰っていた。すると、道端で犬を見つけた。犬は少し汚れて見えた。うまく歩けなかったので、怪我をしているようにも見えた。ティナはエディにその犬に近づかないよう言った。危険かもしれないので放っておくべきだと思った。しかし、エディはその小さな動物を助けるために何かすべきだと信じた。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
+                "highlightPatterns": [
+                    "seemed to be injured",
+                    "because it couldn't walk well",
+                    "She thought they should leave",
+                    "However, Eddie believed"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "逆接・判断",
                 "practiceQuestions": [
                     {
-                        "q": "'Tina said it might be dangerous' の 'it' は何を指しますか？",
-                        "a": "野良犬に近づくこと全般。犬が攻撃的かもしれないので、近づく行為自体が危険という意味。"
+                        "q": "ティナとエディの意見の違いは？",
+                        "a": "ティナ：危険だから離れるべき。エディ：助けるべき。Howeverで対立。"
                     },
                     {
-                        "q": "'stay away from the dog' の 'stay away from' はどのような意味ですか？",
-                        "a": "「〜から離れていろ」。stay away from = 〜に近づかない。危険を避けるための忠告の表現。"
+                        "q": "'seemed to be injured'はどのような表現？",
+                        "a": "seem to be＝「～のように見える」外見からの推測。"
                     },
                     {
-                        "q": "'on the side of the street' はどのような場所を示す前置詞句ですか？",
-                        "a": "「道路の脇に」。on the side of = 〜の横に。犬がいた場所を具体的に示す。"
+                        "q": "'might be dangerous'のmightは？",
+                        "a": "may/mightの可能性「～かもしれない」。危険性は不確実。"
                     },
                     {
-                        "q": "この段落でティナとエディの意見の違いは何ですか？",
-                        "a": "ティナ: 危険だから犬から離れるべき。エディ: 犬を助けたい。動物への思いやりの対立。"
+                        "q": "'should'は2回どう使われている？",
+                        "a": "ティナ：should leave（放置すべき）。エディ：should do something（行動すべき）。対立する判断。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "時間的展開と感情の表現",
+                "subtitle": "Time Sequence & Emotions",
+                "explanation": "When（～したとき）で時間を示し、was glad to hear（聞いて嬉しかった）で感情、was proud that（～を誇りに思った）で評価を表す物語の展開パターン。",
+                "sourceQuote": "When his mother heard / He was glad to hear that / She was proud that he cared",
+                "sourceLocation": "大問3 第2段落",
+                "examples": [
+                    {
+                        "en": "When his mother heard Eddie's wish, she called an animal hospital near their house.",
+                        "ja": "エディの願いを聞いたとき、母親は近くの動物病院に電話した。",
+                        "note": "When＝時間。wish＝「願い」。"
+                    },
+                    {
+                        "en": "He was glad to hear that the dog had arrived at the animal hospital safely.",
+                        "ja": "犬が無事に動物病院に到着したと聞いて嬉しかった。",
+                        "note": "was glad to hear＝「聞いて嬉しかった」。had arrived＝過去完了。"
+                    },
+                    {
+                        "en": "She was proud that he cared about animals.",
+                        "ja": "彼女は彼が動物を気にかけていることを誇りに思った。",
+                        "note": "was proud that＝「～を誇りに思った」。cared about＝「気にかける」。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: A Stray Dog]\nHe hurried back home and told his mother about it. When his mother heard Eddie's wish, she called an animal hospital near their house. She asked if it could save the dog. A few hours later, Eddie received a phone call. He was glad to hear that the dog had arrived at the animal hospital safely. Eddie's mother felt very happy for her son. She was proud that he cared about animals. And Eddie learned that one small action could save a life.",
+                    "ja": "彼は急いで家に帰り、母親にそのことを話した。エディの願いを聞いたとき、母親は近くの動物病院に電話した。犬を救えるか尋ねた。数時間後、エディは電話を受けた。犬が無事に動物病院に到着したと聞いて嬉しかった。エディの母親は息子をとても誇りに思った。彼が動物を気にかけていることを誇りに思った。そしてエディは、一つの小さな行動が命を救えることを学んだ。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
                 "highlightPatterns": [
-                    "it might be dangerous",
-                    "stay away from the dog",
-                    "on the side of the street"
+                    "When his mother heard",
+                    "was glad to hear",
+                    "was proud that he cared",
+                    "one small action could save a life"
                 ],
                 "highlightColor": "#f472b6",
-                "highlightLabel": "代名詞の指示"
+                "highlightLabel": "時間・感情",
+                "practiceQuestions": [
+                    {
+                        "q": "物語の時間的順序を整理してください。",
+                        "a": "帰宅→母に話す→病院に電話→数時間後→犬到着の知らせ→喜び。"
+                    },
+                    {
+                        "q": "'one small action could save a life'の教訓は？",
+                        "a": "小さな行動でも命を救える。エディの経験からの学び。"
+                    },
+                    {
+                        "q": "'had arrived'はなぜ過去完了？",
+                        "a": "「聞いた時点」より前に犬が「到着していた」。時間の前後関係を示す。"
+                    },
+                    {
+                        "q": "母親の2つの感情は？",
+                        "a": "①happy for her son（息子のために嬉しい）。②proud that he cared（動物を気にかける息子を誇りに思う）。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "条件と手順の表現",
+                "subtitle": "Conditions & Procedures",
+                "explanation": "If（もし）で条件を示し、So（だから）で結論、Then（その後）で手順を示すメール文での段取り説明パターン。",
+                "sourceQuote": "If your friend is interested / So, I will set up a date / Then, if he likes it",
+                "sourceLocation": "大問4A 第3段落",
+                "examples": [
+                    {
+                        "en": "If your friend is interested, I want to meet with him.",
+                        "ja": "もしあなたの友人が興味があるなら、彼に会いたい。",
+                        "note": "If＝条件。「興味があれば」という前提条件。"
+                    },
+                    {
+                        "en": "So, I will set up a date for him to tour the apartment first.",
+                        "ja": "だから、まず彼がアパートを見学する日程を設定する。",
+                        "note": "So＝因果。for him to tour＝「彼が見学するための」不定詞。"
+                    },
+                    {
+                        "en": "Then, if he likes it, he will need to pay the first month's rent right before he moves in.",
+                        "ja": "その後、もし気に入れば、入居直前に最初の月の家賃を払う必要がある。",
+                        "note": "Then＝順序。if＝2段階目の条件。right before＝「直前に」。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: My Apartment]\nI want to share what will happen next. If your friend is interested, I want to meet with him. So, I will set up a date for him to tour the apartment first. It takes about ten minutes to get to the apartment from the university by bus. Then, if he likes it, he will need to pay the first month's rent right before he moves in.",
+                    "ja": "次に何が起こるかお伝えしたい。もしあなたの友人が興味があるなら、彼に会いたい。だから、まず彼がアパートを見学する日程を設定する。大学からアパートまでバスで約10分かかる。その後、もし気に入れば、入居直前に最初の月の家賃を払う必要がある。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "If your friend is interested",
+                    "So, I will set up a date",
+                    "Then, if he likes it",
+                    "right before he moves in"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "条件・手順",
+                "practiceQuestions": [
+                    {
+                        "q": "入居までの手順を整理してください。",
+                        "a": "①友人が興味を持つ→②面会→③見学→④気に入れば家賃支払い→⑤入居。"
+                    },
+                    {
+                        "q": "'right before'はどういう意味？",
+                        "a": "「直前に」。入居する直前に家賃を払うタイミング。"
+                    },
+                    {
+                        "q": "2つの'if'の違いは？",
+                        "a": "1つ目：興味があるか（大前提）。2つ目：気に入るか（見学後の判断）。段階的な条件。"
+                    },
+                    {
+                        "q": "'It takes about ten minutes'の構文は？",
+                        "a": "It takes＋時間＋to do＝「～するのに…かかる」。所要時間の定型表現。"
+                    }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "時を表す表現と文の時制",
-                "subtitle": "Time Expressions and Tenses",
-                "explanation": "英語の文章では、時を表す表現（over the years, from the time, in the future）と時制が密接に関連しています。時を表す副詞句をヒントに、適切な時制を理解しましょう。",
-                "sourceQuote": "Over the years... has grown / He used to be... when he was younger / From the time babies are born / In the future, more research may be performed",
-                "sourceLocation": "Part 1, Part 2, Part 4B",
+                "title": "対比と科学的説明の表現",
+                "subtitle": "Contrast & Scientific Explanation",
+                "explanation": "This is different from（～とは異なる）で対比し、because（理由）で説明、But（しかし）で転換する科学的な説明文パターン。",
+                "sourceQuote": "This is different from the way adults talk / because they do not always speak / But such baby songs usually have",
+                "sourceLocation": "大問4B 第3段落",
                 "examples": [
                     {
-                        "en": "Over the years, the city has changed a lot.",
-                        "ja": "長年にわたり、街は大きく変わった。",
-                        "note": "over the years + 現在完了形＝長期間の変化"
+                        "en": "This is different from the way adults talk to each other because they do not always speak in a regular rhythm.",
+                        "ja": "大人同士の話し方とは異なる。なぜなら大人は常に一定のリズムで話すわけではないからだ。",
+                        "note": "is different from＝「～とは異なる」対比。because＝理由の補足。"
                     },
                     {
-                        "en": "He used to play soccer when he was in high school.",
-                        "ja": "彼は高校生の頃サッカーをしていた。",
-                        "note": "used to + when節＝過去の習慣"
+                        "en": "But such baby songs usually have a very simple, regular rhythm that helps babies recognize the words.",
+                        "ja": "しかし、赤ちゃん向けの歌は通常、赤ちゃんが言葉を認識するのに役立つ非常にシンプルで規則的なリズムを持っている。",
+                        "note": "But＝転換。that＝関係代名詞。helps＋O＋動詞原形。"
                     },
                     {
-                        "en": "In the future, we may find new ways to learn.",
-                        "ja": "将来、新しい学習法が見つかるかもしれない。",
-                        "note": "in the future + may＝将来の可能性"
+                        "en": "From the time babies are born, their parents often sing songs to them.",
+                        "ja": "赤ちゃんが生まれた時から、親はよく歌を歌い聞かせる。",
+                        "note": "From the time＝「～した時から」開始点。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: How Babies Learn to Talk]\nThere is another thing that can be helpful for babies. From the time babies are born, their parents often sing songs to them, especially songs made for babies. In general, when people sing these songs, they say the words to a regular rhythm. This is different from the way adults talk to each other because they do not always speak in a regular rhythm. But such baby songs usually have a very simple, regular rhythm that helps babies recognize the words.",
-                    "ja": "赤ちゃんに役立つ別のものもあります。赤ちゃんが生まれた時から、親はよく歌を歌ってあげます。特に赤ちゃん向けの歌です。一般的に、こうした歌を歌うとき、規則的なリズムで歌詞を言います。これは大人同士の話し方とは異なります。大人は常に規則的なリズムで話すわけではないからです。しかし、赤ちゃんの歌は通常、非常に単純で規則的なリズムを持ち、赤ちゃんが言葉を認識するのを助けます。",
+                    "ja": "赤ちゃんに役立つもう一つのものがある。赤ちゃんが生まれた時から、親はよく歌を歌い聞かせる、特に赤ちゃん向けに作られた歌を。一般的に、人々がこれらの歌を歌うとき、一定のリズムで言葉を発する。これは大人同士の話し方とは異なる。なぜなら大人は常に一定のリズムで話すわけではないからだ。しかし、赤ちゃん向けの歌は通常、赤ちゃんが言葉を認識するのに役立つ非常にシンプルで規則的なリズムを持っている。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'From the time babies are born' はどのような時の表現ですか？",
-                        "a": "「赤ちゃんが生まれた時から」。from the time = 〜の時から。起点を示す時間表現。"
-                    },
-                    {
-                        "q": "'their parents often sing songs to them' の時制はなぜ現在形ですか？",
-                        "a": "一般的な事実・習慣を述べる現在形。「親は赤ちゃんによく歌を歌う」という普遍的な行動。"
-                    },
-                    {
-                        "q": "'There is another thing that can be helpful for babies' の 'can be helpful' はどのような表現ですか？",
-                        "a": "「赤ちゃんにとって役立つ可能性がある」。can be + 形容詞 = 〜になりうる。helpful for = 〜に役立つ。"
-                    },
-                    {
-                        "q": "この段落で歌が赤ちゃんにとって有益な理由は何ですか？",
-                        "a": "歌を聴くことで音のパターンやリズムを学び、言語の音を理解する能力が発達するため。"
-                    }
-                ],
                 "highlightPatterns": [
                     "From the time babies are born",
-                    "their parents often sing songs",
-                    "can be helpful for babies"
+                    "This is different from",
+                    "because they do not always speak",
+                    "But such baby songs usually have"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "時の表現"
+                "highlightLabel": "対比・科学的説明",
+                "practiceQuestions": [
+                    {
+                        "q": "赤ちゃんの歌と大人の会話の違いは？",
+                        "a": "歌：一定のリズム。大人の会話：一定でないリズム。"
+                    },
+                    {
+                        "q": "'is different from'は何と何を対比？",
+                        "a": "赤ちゃん向けの歌い方と大人同士の話し方のリズムの違い。"
+                    },
+                    {
+                        "q": "赤ちゃんの歌がなぜ役立つ？",
+                        "a": "シンプルで規則的なリズムが言葉の認識を助ける。"
+                    },
+                    {
+                        "q": "'that helps babies recognize'のthatは？",
+                        "a": "関係代名詞。rhythmを修飾し「赤ちゃんが言葉を認識するのに役立つリズム」。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

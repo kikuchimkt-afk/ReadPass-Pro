@@ -1665,223 +1665,225 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "語彙：感情・性格を表す形容詞",
-                "subtitle": "Adjectives for emotions and personality",
-                "explanation": "準2級では場面に合った形容詞を選ぶ問題が頻出。serious（深刻な）、brave（勇敢な）、uncomfortable（気まずい）など、文脈から適切な形容詞を判断する力が問われる。",
-                "sourceQuote": "Judy has a serious problem. She is getting married next week, but her dog tried to eat her wedding dress and destroyed it.\nThe ship's captain bravely dived into the sea and swam to the little girl.",
-                "sourceLocation": "Part 1 (4), (6)",
+                "title": "因果と気づきの表現",
+                "subtitle": "Cause-Effect & Realization",
+                "explanation": "so（だから）で因果を示し、make＋O＋realize（～に気づかせる）の使役構文、should（～すべき）で教訓を述べるパターンは、物語文の結末で主人公の気づきや成長を表す際に使われます。",
+                "sourceQuote": "Ruby felt bad about it, so she decided to contact him / This experience made her realize / she should care more",
+                "sourceLocation": "大問3 第2段落",
                 "examples": [
                     {
-                        "en": "The situation was so serious that everyone stopped talking.",
-                        "ja": "状況がとても深刻で、みんな話すのをやめた。",
-                        "note": "serious = 深刻な・重大な"
+                        "en": "Ruby felt bad about it, so she decided to contact him to meet.",
+                        "ja": "ルビーはそのことを申し訳なく思い、彼に会うために連絡を取ることにした。",
+                        "note": "so＝「だから」因果。felt bad＝感情。to meet＝目的の不定詞。"
                     },
                     {
-                        "en": "She felt uncomfortable when she first met his parents.",
-                        "ja": "彼の両親に初めて会ったとき、彼女は気まずく感じた。",
-                        "note": "uncomfortable = 気まずい・不快な"
+                        "en": "This experience made her realize that her childhood friends were a big part of her life.",
+                        "ja": "この経験が、幼なじみは自分の人生の大きな部分であると気づかせた。",
+                        "note": "make＋O＋realize＝使役構文「～に気づかせる」。物語のクライマックス。"
                     },
                     {
-                        "en": "The firefighter bravely entered the burning building.",
-                        "ja": "消防士は勇敢に燃えている建物に入った。",
-                        "note": "bravely = 勇敢に（braveの副詞形）"
+                        "en": "She also learned that she should care more about her old friends.",
+                        "ja": "彼女はまた、昔の友人をもっと大切にすべきだと学んだ。",
+                        "note": "should＝「～すべき」助言・教訓。物語から得た学び。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Old Friends]\nRuby and Alfred were childhood friends but had little contact with each other. Ruby felt bad about it, so she decided to contact him to meet. When they met, they had a great time together. They had not seen each other for a long time but did not feel uncomfortable at all. This experience made her realize that her childhood friends were a big part of her life. She also learned that she should care more about her old friends.",
-                    "ja": "ルビーとアルフレッドは幼なじみだったが、ほとんど連絡を取っていなかった。ルビーはそのことを申し訳なく思い、彼に連絡して会うことにした。会ったとき、二人はhad a great time together。長い間会っていなかったが、全く気まずさを感じなかった。この経験から、幼なじみは自分の人生の大切な一部であると気づいた。また、昔の友人をもっと大切にすべきだと学んだ。",
+                    "ja": "ルビーとアルフレッドは幼なじみだったが、ほとんど連絡を取っていなかった。ルビーはそのことを申し訳なく思い、彼に会うために連絡を取ることにした。会ったとき、二人は素晴らしい時間を過ごした。長い間会っていなかったが、全く違和感を感じなかった。この経験が、幼なじみは自分の人生の大きな部分であると気づかせた。彼女はまた、昔の友人をもっと大切にすべきだと学んだ。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'it was uncomfortable to drive through the town' の 'uncomfortable' はどのような感情を表していますか？",
-                        "a": "「居心地が悪い・不快な」。物理的な不快さと心理的な気まずさの両方を含む形容詞。"
-                    },
-                    {
-                        "q": "'Ruby felt bad about it' の 'felt bad' はどのような感情ですか？",
-                        "a": "「〜について申し訳なく感じた・心苦しかった」。feel bad about = 〜について罪悪感や後悔を感じる。"
-                    },
-                    {
-                        "q": "'they had a great time together' の 'had a great time' はどのような表現ですか？",
-                        "a": "「楽しい時間を過ごした」。have a great time = enjoy oneself。ポジティブな感情を表す定型表現。"
-                    },
-                    {
-                        "q": "この段落でルビーの感情はどのように変化しましたか？",
-                        "a": "疎遠を申し訳なく思う（felt bad）→ 連絡を取り直す → 再会して楽しい時間を過ごす（had a great time）。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "uncomfortable",
-                    "felt bad about it",
-                    "had a great time together"
+                    "so she decided to contact",
+                    "made her realize",
+                    "should care more about"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "形容詞・副詞"
+                "highlightLabel": "因果・気づき",
+                "practiceQuestions": [
+                    {
+                        "q": "'made her realize' はどのような使役構文ですか？",
+                        "a": "make＋目的語(her)＋動詞原形(realize)＝「彼女に気づかせた」。経験が気づきを強制的にもたらした。"
+                    },
+                    {
+                        "q": "'should care more' は誰への教訓ですか？",
+                        "a": "ルビー自身への教訓。「もっと大切にすべき」と自分に言い聞かせる。物語の結論。"
+                    },
+                    {
+                        "q": "ルビーの心境変化を整理してください。",
+                        "a": "連絡を取っていなかった(後悔)→連絡して会う(行動)→楽しい時間(発見)→幼なじみの大切さに気づく(成長)"
+                    },
+                    {
+                        "q": "'had not seen each other' はどのような時制ですか？",
+                        "a": "過去完了形。「会った時点」より前の「長い間会っていなかった」を示す。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "熟語：前置詞句と副詞句",
-                "subtitle": "Phrasal expressions with prepositions",
-                "explanation": "in addition to, on my own, in good shape, and so onなど、前置詞を含む熟語・副詞句は準2級の定番。意味だけでなく文中での位置（文頭・文末）にも注目。",
-                "sourceQuote": "In addition to her full-time job, Sheila teaches guitar lessons on the weekends.\nNo one helped me. I made it on my own.\nIt's a good way to keep in good shape.",
-                "sourceLocation": "Part 1 (11), (14), (15)",
+                "title": "逆接・譲歩と理由の表現",
+                "subtitle": "Contrast, Concession & Reason",
+                "explanation": "However（しかし）で逆接を示し、although（～にもかかわらず）で譲歩し、Because（理由）で結果を説明するパターンは、メール文で悪い知らせを丁寧に伝える際に使われます。",
+                "sourceQuote": "However, you cannot play / although we only have ten spots / Because you applied a little late",
+                "sourceLocation": "大問4A 第2段落",
                 "examples": [
                     {
-                        "en": "In addition to English, she speaks three other languages.",
-                        "ja": "英語に加えて、彼女は他に3言語を話す。",
-                        "note": "in addition to = ～に加えて"
+                        "en": "However, you cannot play in the B-level group.",
+                        "ja": "しかし、Bレベルグループではプレーできません。",
+                        "note": "However＝逆接。前文の褒め言葉（スキルはBレベルに最適）に対する悪い知らせ。"
                     },
                     {
-                        "en": "I completed the project on my own.",
-                        "ja": "私は一人でプロジェクトを完成させた。",
-                        "note": "on my own = 自分一人で（= by myself）"
+                        "en": "Many teams have asked to play in this group, although we only have ten spots.",
+                        "ja": "枠は10チームしかないにもかかわらず、多くのチームがこのグループでの参加を希望している。",
+                        "note": "although＝「～にもかかわらず」譲歩。定員オーバーの状況説明。"
                     },
                     {
-                        "en": "He exercises daily to stay in good shape.",
-                        "ja": "彼は健康を維持するために毎日運動する。",
-                        "note": "in good shape = 健康な状態で（= fit）"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Salt]\nIn the past, people all over the world wanted salt for a variety of reasons. For example, people used salt when there were no refrigerators. This was because it could help food last longer. Salt was also useful in the field of medicine. Past records show that it was used to treat both humans and animals. People relied on salt as a medicine to improve their health conditions and to treat animals' injuries.",
-                    "ja": "過去、世界中の人々は様々な理由で塩を求めた。例えば、冷蔵庫がなかった時代、人々は塩を使った。食べ物を長持ちさせることができたからだ。塩は医学の分野でも役立った。過去の記録によると、人間と動物の両方の治療に使われた。人々は健康状態を改善し、動物の怪我を治療する薬として塩に頼った。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'people all over the world wanted salt for a variety of reasons' の 'for a variety of reasons' はどのような意味ですか？",
-                        "a": "「さまざまな理由で」。for a variety of = for many different。理由が複数あることを示す。"
-                    },
-                    {
-                        "q": "'For example' はこの段落でどのような役割を果たしていますか？",
-                        "a": "前述の「さまざまな理由」を具体例で説明する接続表現。「例えば」と具体化する。"
-                    },
-                    {
-                        "q": "'it could help food last longer' の 'could' はどのような意味ですか？",
-                        "a": "「〜できた」。過去の能力・可能性を表す。塩に食料を長持ちさせる力があったことを示す。"
-                    },
-                    {
-                        "q": "この段落で述べられている塩の過去の用途を挙げてください。",
-                        "a": "①冷蔵庫のない時代に食料保存のため ②人間と動物の治療のため（薬として）。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "for a variety of reasons",
-                    "For example",
-                    "it could help food last longer"
-                ],
-                "highlightColor": "#10b981",
-                "highlightLabel": "熟語"
-            },
-            {
-                "id": "fp3",
-                "title": "会話文：文脈から適切な応答を選ぶ",
-                "subtitle": "Choosing the right response in conversation",
-                "explanation": "大問2では会話の流れを正確に読み取り、空所に最適な発言を選ぶ。前後の発言のキーワード（heavy bags→bus、don't want too hot→creamy）を手がかりにする。",
-                "sourceQuote": "A: We've got heavy bags, so I'd prefer not to walk too much.\nB: In that case, we should take the bus. It drops us off right in front of the hotel.\n\nA: I don't want my salad to be too hot, so I'll have the creamy one, please.",
-                "sourceLocation": "Part 2 (17), (18)",
-                "examples": [
-                    {
-                        "en": "A: Which do you prefer, coffee or tea?\nB: I can't have caffeine, so I'll have herbal tea.",
-                        "ja": "A：コーヒーと紅茶どちらがいい？\nB：カフェインが飲めないので、ハーブティーにします。",
-                        "note": "制約条件→選択の理由をつなげる"
-                    },
-                    {
-                        "en": "A: How should we get there?\nB: Let's take the train. It's the fastest way.",
-                        "ja": "A：どうやって行こうか？\nB：電車にしよう。一番速いから。",
-                        "note": "移動手段を選ぶ会話パターン"
-                    },
-                    {
-                        "en": "A: Can you come to the party?\nB: I'd love to, but I have to work late.",
-                        "ja": "A：パーティーに来られる？\nB：行きたいけど、遅くまで仕事があるんだ。",
-                        "note": "I'd love to, but... = 断りの丁寧表現"
+                        "en": "Because you applied a little late, there are no more spots left.",
+                        "ja": "あなたの申し込みが少し遅かったため、もう空きがない。",
+                        "note": "Because＝「～のため」理由。断りの具体的な理由を丁寧に説明。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Important information about the tennis tournament]\nThere is one thing we are sorry to tell you. We see that you want to play in the B-level group. We believe your skills are perfect for that level, too. However, you cannot play in the B-level group. Many teams have asked to play in this group, although we only have ten spots. Because you applied a little late, there are no more spots left.",
-                    "ja": "一つ残念なお知らせがあります。B-レベルグループでのプレーをご希望とのことですが、あなたのスキルはそのレベルにぴったりだと思います。しかし、B-レベルグループではプレーできません。多くのチームがこのグループへの参加を希望しましたが、枠は10しかありません。申し込みが少し遅かったため、もう空きがございません。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "一つ残念なお知らせがあります。Bレベルグループでプレーしたいとのことですね。あなたのスキルはそのレベルにぴったりだと私たちも思います。しかし、Bレベルグループではプレーできません。枠は10チームしかないにもかかわらず、多くのチームがこのグループでの参加を希望しています。あなたの申し込みが少し遅かったため、もう空きがありません。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
+                "highlightPatterns": [
+                    "However, you cannot play",
+                    "although we only have ten spots",
+                    "Because you applied a little late"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "逆接・譲歩・理由",
                 "practiceQuestions": [
                     {
-                        "q": "'We are sorry to tell you' はどのような前置き表現ですか？",
-                        "a": "悪い知らせを伝える前の丁寧な前置き。「お伝えするのは残念ですが」。相手への配慮を示す。"
+                        "q": "'However' の前後でどのような転換がありますか？",
+                        "a": "前：スキルは最適（褒め言葉）→ 後：プレーできない（悪い知らせ）。丁寧に断るための構成。"
                     },
                     {
-                        "q": "'We believe your skills are above B-level' はどのような表現ですか？",
-                        "a": "「あなたのスキルはBレベル以上だと思います」。we believe = 丁寧な意見の表明。直接的な断言を避ける。"
+                        "q": "'although' はなぜ使われていますか？",
+                        "a": "「枠が10しかない」のに多くのチームが希望している、という状況の厳しさを説明。"
                     },
                     {
-                        "q": "'there are no more spots left' の 'no more ... left' はどのような意味ですか？",
-                        "a": "「もう空きがない」。no more = これ以上ない、left = 残っている。完全に埋まった状態。"
+                        "q": "このメールで悪い知らせを伝える順序はどうなっていますか？",
+                        "a": "①お詫び(sorry to tell) → ②褒め言葉(perfect) → ③断り(However) → ④理由(although, Because)。"
                     },
                     {
-                        "q": "この段落で伝えられている悪い知らせは何ですか？",
-                        "a": "Bレベルで参加したいが、スキルが高すぎるため、かつBレベルに空きがないため参加できないこと。"
+                        "q": "'a little late' はどのようなニュアンスですか？",
+                        "a": "a little＝「少し」。相手を傷つけないよう「少し遅かった」と婉曲的に表現。"
                     }
-                ],
-                "highlightPatterns": [
-                    "We are sorry to tell you",
-                    "We believe your skills are",
-                    "no more spots left"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "会話表現"
+                ]
             },
             {
-                "id": "fp4",
-                "title": "長文読解：パラフレーズを見抜く",
-                "subtitle": "Recognizing paraphrases in reading passages",
-                "explanation": "大問4では選択肢が本文の表現を言い換えている。never had so many→more than ever before、no more spots left→filled、treat injuries→medicineなど。同じ内容を別の言葉で表すパラフレーズを見抜く力が重要。",
-                "sourceQuote": "We have never had so many teams in a tournament before.\n→ More teams are attending than ever before.\n\nThere are no more spots left.\n→ The spots have been filled.",
-                "sourceLocation": "Part 4A (23), (24)",
+                "id": "fp3",
+                "title": "理由と例示の論理展開",
+                "subtitle": "Reason & Exemplification Patterns",
+                "explanation": "This was because（これは～だったからである）で過去の理由を述べ、For example（例えば）で具体例を示し、to＋動詞（目的）で行動の意図を明示するパターンは、歴史的な背景を説明する文章で頻出します。",
+                "sourceQuote": "This was because it could help food last longer / For example, people used salt / to treat both humans and animals",
+                "sourceLocation": "大問4B 第2段落",
                 "examples": [
                     {
-                        "en": "Original: We have never had so many teams before.\nParaphrase: More teams are attending than ever before.",
-                        "ja": "原文：今までにこれほど多くのチームはいなかった。\n言い換え：これまでで最も多くのチームが参加する。",
-                        "note": "never...before → more than ever before"
+                        "en": "This was because it could help food last longer.",
+                        "ja": "これは食べ物をより長く保存できるからであった。",
+                        "note": "This was because＝「これは～だったからである」。過去の理由。help＋O＋動詞原形＝「Oが～するのを助ける」。"
                     },
                     {
-                        "en": "Original: There are no more spots left.\nParaphrase: All spots have been filled.",
-                        "ja": "原文：空き枠はもうない。\n言い換え：全ての枠が埋まった。",
-                        "note": "no more left → filled"
+                        "en": "For example, people used salt when there were no refrigerators.",
+                        "ja": "例えば、冷蔵庫がない時代に人々は塩を使った。",
+                        "note": "For example＝具体例の導入。when＝時間。"
                     },
                     {
-                        "en": "Original: Salt was used to treat animals' injuries.\nParaphrase: Salt served as a medicine for injured animals.",
-                        "ja": "原文：塩は動物の怪我の治療に使われた。\n言い換え：塩は怪我をした動物の薬として機能した。",
-                        "note": "treat → medicine, injuries → injured"
+                        "en": "People relied on salt as a medicine to improve their health conditions and to treat animals' injuries.",
+                        "ja": "人々は健康状態を改善し動物の怪我を治療するための薬として塩に頼った。",
+                        "note": "relied on＝「～に頼った」。to improve / to treat＝目的の不定詞が並列。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Important information about the tennis tournament]\nTherefore, we want to suggest that you play at a higher level, the A-level group. We understand it will be tough, but we believe you can try. Also, you have a choice to move to the C-level group or wait for a team in the B-level group to cancel. However, we encourage you to take part in the A-level group. Otherwise, we will pay you back your tournament fee right away.\n\nThank you,\nVictoria Hill",
-                    "ja": "そこで、より高いレベルのA-レベルグループでプレーすることをお勧めします。厳しいとは思いますが、挑戦できると信じています。また、C-レベルグループに移るか、B-レベルグループのチームがキャンセルするのを待つこともできます。しかし、A-レベルグループへの参加をお勧めします。そうでなければ、トーナメント費用をすぐに返金いたします。\n\nよろしくお願いします。\nビクトリア・ヒル",
-                    "audioFile": "audio/practice_pp4.mp3"
+                    "en": "[出典: Salt]\nIn the past, people all over the world wanted salt for a variety of reasons. For example, people used salt when there were no refrigerators. This was because it could help food last longer. Salt was also useful in the field of medicine. Past records show that it was used to treat both humans and animals. People relied on salt as a medicine to improve their health conditions and to treat animals' injuries.",
+                    "ja": "昔、世界中の人々がさまざまな理由で塩を求めた。例えば、冷蔵庫がない時代に人々は塩を使った。これは食べ物をより長く保存できるからであった。塩は医療の分野でも役立った。過去の記録は、塩が人間と動物の両方の治療に使われていたことを示している。人々は健康状態を改善し動物の怪我を治療するための薬として塩に頼った。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
+                "highlightPatterns": [
+                    "For example",
+                    "This was because",
+                    "relied on salt as a medicine",
+                    "to treat both humans and animals"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "理由・例示",
                 "practiceQuestions": [
                     {
-                        "q": "'we want to suggest that you play at a higher level' の 'suggest that' はどのような提案表現ですか？",
-                        "a": "「〜することを提案したい」。suggest that + S + 動詞原形。丁寧な提案・助言の表現。"
+                        "q": "'This was because' の 'This' は何を指していますか？",
+                        "a": "前文の「冷蔵庫がない時代に塩を使った」という事実を指す。その理由が「保存に役立った」。"
                     },
                     {
-                        "q": "'We understand it will be tough' はどのような配慮の表現ですか？",
-                        "a": "「大変なことは理解しています」。相手の立場を認める共感的な表現。提案を受け入れやすくする配慮。"
+                        "q": "この段落で述べられている塩の2つの用途は？",
+                        "a": "①食品保存（冷蔵庫の代わり）。②医療（人間と動物の治療）。"
                     },
                     {
-                        "q": "'we believe you can try' はどのような励ましの表現ですか？",
-                        "a": "「あなたなら挑戦できると信じています」。we believe = 確信している。能力への信頼と励ましを示す。"
+                        "q": "'help food last longer' の構文を説明してください。",
+                        "a": "help＋O(food)＋動詞原形(last)＝「食べ物が長持ちするのを助ける」。last＝「持続する」。"
                     },
                     {
-                        "q": "この段落の論理構成を説明してください。",
-                        "a": "提案（Aレベルへ）→ 共感（大変なのは理解）→ 励まし（素晴らしい経験になる）→ 結論。"
+                        "q": "'relied on' はどのようなニュアンスですか？",
+                        "a": "「頼った、依存した」。塩が生活に不可欠だったことを示す。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "追加情報と結論の表現",
+                "subtitle": "Additional Info & Conclusion Patterns",
+                "explanation": "In addition（さらに）で追加情報を重ね、For these reasons（これらの理由から）で段落全体の結論を導き、probably（おそらく）で控えめな予測を述べるパターンです。",
+                "sourceQuote": "In addition, salt is found in other situations / For these reasons, salt will probably continue to influence",
+                "sourceLocation": "大問4B 第4段落",
+                "examples": [
+                    {
+                        "en": "In addition, salt is found in other situations.",
+                        "ja": "さらに、塩は他の場面でも見られる。",
+                        "note": "In addition＝「さらに」。料理・医療に加えて他の用途を追加。"
+                    },
+                    {
+                        "en": "It is also helpful to melt snow on the road on snowy days and to prevent the roads from freezing.",
+                        "ja": "雪の日に道路の雪を溶かしたり、道路の凍結を防いだりするのにも役立つ。",
+                        "note": "to melt / to prevent＝目的の不定詞が並列。prevent from -ing＝「～するのを防ぐ」。"
+                    },
+                    {
+                        "en": "For these reasons, salt will probably continue to influence people's lives in the future.",
+                        "ja": "これらの理由から、塩はおそらく将来も人々の生活に影響を与え続けるだろう。",
+                        "note": "For these reasons＝「これらの理由から」結論。probably＝控えめな予測。will continue to＝継続。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Salt]\nIt is clear that salt has had a huge impact on people. Nowadays, salt is still used in cooking and medicine. In addition, salt is found in other situations. It is a great cleaner for polishing metal items. It is also helpful to melt snow on the road on snowy days and to prevent the roads from freezing. For these reasons, salt will probably continue to influence people's lives in the future.",
+                    "ja": "塩が人々に大きな影響を与えてきたことは明らかである。現在でも塩は料理や医療に使われている。さらに、塩は他の場面でも見られる。金属製品を磨くのに優れた洗浄剤である。雪の日に道路の雪を溶かしたり、道路の凍結を防いだりするのにも役立つ。これらの理由から、塩はおそらく将来も人々の生活に影響を与え続けるだろう。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
-                    "we want to suggest that",
-                    "We understand it will be tough",
-                    "we believe you can try"
+                    "In addition",
+                    "to melt snow",
+                    "to prevent the roads from freezing",
+                    "For these reasons"
                 ],
-                "highlightColor": "#ef4444",
-                "highlightLabel": "パラフレーズ"
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "追加・結論",
+                "practiceQuestions": [
+                    {
+                        "q": "'In addition' は何に対して追加していますか？",
+                        "a": "前文の「料理や医療」に加えて「他の場面」での用途を追加。"
+                    },
+                    {
+                        "q": "'For these reasons' の 'these reasons' は何を指していますか？",
+                        "a": "段落全体で述べた塩の多様な用途（料理、医療、金属磨き、除雪、凍結防止）全てを指す。"
+                    },
+                    {
+                        "q": "'prevent the roads from freezing' の構文は？",
+                        "a": "prevent A from -ing＝「Aが～するのを防ぐ」。道路が凍結するのを防ぐ。"
+                    },
+                    {
+                        "q": "'probably' はなぜ使われていますか？",
+                        "a": "断定を避けた控えめな予測。「おそらく」将来も影響を与え続けるだろう、と慎重に結論。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

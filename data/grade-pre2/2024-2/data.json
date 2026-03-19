@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2024",
     "session": "2",
@@ -1457,225 +1457,227 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "関係代名詞（who / which / that）",
-                "subtitle": "Relative Pronouns",
-                "explanation": "関係代名詞は2つの文をつないで名詞を修飾する役割を持ちます。人にはwho、物・動物にはwhich、両方にthatが使えます。準2級の長文では関係代名詞で情報を付け加える構造が頻出し、正確な読解に不可欠です。",
-                "sourceQuote": "a male fish called a puffer fish / scientists who saw the circles / animals that creates beautiful art",
-                "sourceLocation": "Part 4B 第1〜2段落",
+                "title": "逆接と過去完了の表現",
+                "subtitle": "Contrast & Past Perfect",
+                "explanation": "However（逆接）で予想外の展開を示し、had＋過去分詞（過去完了）で時間の前後関係を表す物語パターン。",
+                "sourceQuote": "However, Robbie was worried because it had still not arrived / He thought that it had gotten lost",
+                "sourceLocation": "大問3 第1段落",
                 "examples": [
                     {
-                        "en": "The woman who lives next door is very kind.",
-                        "ja": "隣に住んでいる女性はとても親切だ。",
-                        "note": "who＝人を先行詞とする関係代名詞"
+                        "en": "However, Robbie was worried because it had still not arrived.",
+                        "ja": "しかし、荷物がまだ届いていなかったので、ロビーは心配していた。",
+                        "note": "However＝逆接。had not arrived＝過去完了（過去のある時点まで届いていなかった）。"
                     },
                     {
-                        "en": "I bought a book which was recommended by my teacher.",
-                        "ja": "先生に勧められた本を買った。",
-                        "note": "which＝物を先行詞とする関係代名詞"
+                        "en": "He thought that it had gotten lost, so his mother offered to call the post office.",
+                        "ja": "荷物が紛失したのだと思い、母親が郵便局に電話すると申し出た。",
+                        "note": "had gotten lost＝過去完了。so＝因果。offered to＝「～すると申し出た」。"
                     },
                     {
-                        "en": "This is the best movie that I have ever seen.",
-                        "ja": "これは今まで見た中で最高の映画だ。",
-                        "note": "that＝人・物どちらにも使える関係代名詞"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Circles in the Sand]\nThe puffer fish is not the only animal that creates beautiful art. A bird called the bowerbird is another example. They gather colorful objects to build a structure called a \"bower.\" This structure looks like a nest. Other animals perform \"art\" that looks like songs or dances. These animals do not make art for pleasure. The purpose is to attract a partner. There is a risk for animals doing this because it can attract attention from dangerous animals.",
-                    "ja": "フグだけが美しいアートを作る動物ではありません。ニワシドリという鳥も別の例です。カラフルな物を集めて「バウアー」と呼ばれる構造物を作ります。この構造物は巣のように見えます。他の動物は歌やダンスのように見える「アート」を行います。これらの動物は楽しみのためにアートを作るのではありません。目的はパートナーを引きつけることです。危険な動物の注意も引く可能性があるため、リスクもあります。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'the only animal that creates beautiful art' の 'that' はどのような関係代名詞ですか？",
-                        "a": "主格の関係代名詞。先行詞 'animal' を修飾し、「美しいアートを作る動物」を限定する。the only がつくと that が好まれる。"
-                    },
-                    {
-                        "q": "'A bird called the bowerbird' の 'called' はどのような構造ですか？",
-                        "a": "過去分詞による後置修飾。'A bird (which is) called the bowerbird' の省略形。「ニワシドリと呼ばれる鳥」。"
-                    },
-                    {
-                        "q": "'They build small houses that they decorate' の 'that' の役割は？",
-                        "a": "目的格の関係代名詞。先行詞 'houses' を修飾し、「彼らが飾る小さな家」を説明する。省略も可能。"
-                    },
-                    {
-                        "q": "この段落で動物のアート行動の目的は何だと述べていますか？",
-                        "a": "パートナーを引き付けること（attract a partner）。フグもニワシドリも異性へのアピールのためにアートを作る。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "the only animal that creates beautiful art",
-                    "A bird called the bowerbird",
-                    "attract a partner"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "関係代名詞"
-            },
-            {
-                "id": "fp2",
-                "title": "助動詞の使い分け（can / should / have to / must）",
-                "subtitle": "Modal Verbs",
-                "explanation": "助動詞は動詞の前に置いて「可能・義務・推量・提案」などの意味を加えます。can（できる）、should（すべき）、have to（しなければならない）、must（に違いない）の使い分けが準2級では頻出です。",
-                "sourceQuote": "We have to make a group presentation / Can you meet me / you should start to feel better",
-                "sourceLocation": "Part 4A・Part 1",
-                "examples": [
-                    {
-                        "en": "You should take an umbrella today.",
-                        "ja": "今日は傘を持っていくべきだよ。",
-                        "note": "should＝提案・助言「～すべきだ」"
-                    },
-                    {
-                        "en": "We have to finish this project by Friday.",
-                        "ja": "金曜日までにこのプロジェクトを終えなければならない。",
-                        "note": "have to＝義務「～しなければならない」"
-                    },
-                    {
-                        "en": "She can speak three languages fluently.",
-                        "ja": "彼女は3か国語を流暢に話せる。",
-                        "note": "can＝能力「～できる」"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Science project]\nWe started writing in class. I finished writing about where penguins live. I have also started to prepare pictures for our presentation. We have to have at least ten pictures for the presentation. I will prepare the first five, and you can do the rest. Can you research the food the penguins eat? You need to write around 150 words in addition to preparing pictures for the presentation.",
-                    "ja": "授業中に書き始めたよ。ペンギンがどこに住んでいるかについては書き終わったよ。発表用の写真の準備も始めた。発表には少なくとも10枚の写真が必要なんだ。最初の5枚は僕が準備するから、残りを君がやってくれる？ペンギンの食べ物についても調べてくれる？写真の準備に加えて150語くらい書く必要があるよ。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'You need to write about what penguins eat' の 'need to' はどのような必要性を表しますか？",
-                        "a": "義務・必要性。「〜する必要がある」。have to と似た意味だが、need to はやや柔らかい表現。"
-                    },
-                    {
-                        "q": "'Can you research about baby penguins?' の 'Can you' はどのような機能ですか？",
-                        "a": "依頼の疑問文。「〜してくれますか？」。能力ではなく丁寧な依頼を表す can の用法。"
-                    },
-                    {
-                        "q": "'I have also started to prepare pictures' の 'have started' はなぜ現在完了形ですか？",
-                        "a": "過去に始めた行為が現在も進行中・関連していることを示す。「すでに準備を始めている（まだ途中）」。"
-                    },
-                    {
-                        "q": "この段落で友達に依頼している内容は何ですか？",
-                        "a": "ペンギンが何を食べるかについて書くこと、赤ちゃんペンギンについて調べること。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "You need to write",
-                    "Can you research",
-                    "I have also started to prepare"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "助動詞"
-            },
-            {
-                "id": "fp3",
-                "title": "過去完了形（had + 過去分詞）",
-                "subtitle": "Past Perfect Tense",
-                "explanation": "過去完了形（had + 過去分詞）は「過去のある時点よりもさらに前の出来事」を表します。物語文で時間の前後関係を明確にするために使われ、準2級の大問3・4で頻出する重要時制です。",
-                "sourceQuote": "His grandmother had sent him a present / it had still not arrived / the package had already been delivered",
-                "sourceLocation": "Part 3 第1〜2段落",
-                "examples": [
-                    {
-                        "en": "When I arrived, the train had already left.",
-                        "ja": "私が着いた時、電車はすでに出発していた。",
-                        "note": "had already + 過去分詞＝すでに～していた"
-                    },
-                    {
-                        "en": "She had never been to Japan before last year.",
-                        "ja": "彼女は去年まで日本に行ったことがなかった。",
-                        "note": "had never + 過去分詞＝それまで一度も～したことがなかった"
-                    },
-                    {
-                        "en": "He was tired because he had worked all day.",
-                        "ja": "一日中働いていたので疲れていた。",
-                        "note": "had + 過去分詞（原因が過去のさらに前）"
+                        "en": "The post office staff said the package had already been delivered.",
+                        "ja": "郵便局のスタッフは荷物はすでに配達されたと言った。",
+                        "note": "had already been delivered＝過去完了受動態「すでに配達されていた」。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Robbie's Package]\nRobbie was waiting for a package to arrive by mail. His grandmother had sent him a present for his birthday last week. However, Robbie was worried because it had still not arrived. He thought that it had gotten lost, so his mother offered to call the post office. When she had finished speaking on the telephone, she told Robbie to check the mailbox again. The post office staff said the package had already been delivered.",
-                    "ja": "ロビーは郵便で届く荷物を待っていました。先週、おばあちゃんが誕生日プレゼントを送ってくれたのです。しかし、まだ届いていなかったので心配していました。なくなったのではないかと思い、お母さんが（21）。電話を終えると、お母さんはロビーにもう一度郵便受けを確認するように言いました。郵便局のスタッフは荷物はすでに配達済みだと言いました。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "ロビーは郵便で届く荷物を待っていた。祖母が先週誕生日のプレゼントを送ってくれていた。しかし、まだ届いていなかったのでロビーは心配していた。荷物が紛失したのだと思い、母親が郵便局に電話すると申し出た。母親が電話を終えた時、ロビーに郵便受けをもう一度確認するよう言った。郵便局のスタッフは荷物はすでに配達されたと言った。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'His grandmother had sent him a present for his birthday last week' の過去完了形はなぜ使われていますか？",
-                        "a": "「先週の誕生日にプレゼントを送った」が、話の時点（待っている現在）より前の出来事であることを示す大過去。"
-                    },
-                    {
-                        "q": "'it had still not arrived' の 'had not arrived' はどのような状況を表していますか？",
-                        "a": "過去のある時点までに「まだ届いていなかった」という未完了の状態を表す。still が「まだ」を強調。"
-                    },
-                    {
-                        "q": "'After she had finished speaking' の 'had finished' はなぜ過去完了ですか？",
-                        "a": "「電話を終えた後」＝ 電話が先に終わり、その後に別の行動が起きた。時間の前後関係を明確にするため。"
-                    },
-                    {
-                        "q": "この段落の出来事を時系列順に並べてください。",
-                        "a": "①祖母がプレゼントを送った → ②まだ届かない → ③母に相談 → ④母が郵便局に電話 → ⑤すでに配達済みと判明。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "had sent him a present",
+                    "However, Robbie was worried",
                     "had still not arrived",
                     "had gotten lost",
-                    "she had finished speaking",
                     "had already been delivered"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "過去完了形"
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "逆接・過去完了",
+                "practiceQuestions": [
+                    {
+                        "q": "過去完了形が3回使われている理由は？",
+                        "a": "全て「心配していた時点」より前の出来事。送った/届いていない/紛失した、の時間関係を示す。"
+                    },
+                    {
+                        "q": "'However'はどのような転換？",
+                        "a": "祖母がプレゼントを送った（良い話）→ まだ届かない（問題）。"
+                    },
+                    {
+                        "q": "'offered to call'はどういう意味？",
+                        "a": "「電話すると申し出た」。母親の自発的な行動。"
+                    },
+                    {
+                        "q": "実際に荷物はどうなっていた？",
+                        "a": "すでに配達されていた（had already been delivered）が、間違った場所に届いた。"
+                    }
+                ]
             },
             {
-                "id": "fp4",
-                "title": "be動詞 + 過去分詞（受動態のバリエーション）",
-                "subtitle": "Passive Voice Patterns",
-                "explanation": "受動態（be + 過去分詞）は「～される・～されている」の意味です。準2級では助動詞付き受動態（can be used）、完了形受動態（has been delivered）、進行形受動態（is being drawn）など、様々なパターンが登場します。",
-                "sourceQuote": "the circles being drawn / the mystery was eventually solved / had been delivered",
-                "sourceLocation": "Part 3・4B",
+                "id": "fp2",
+                "title": "理由と依頼の表現",
+                "subtitle": "Reason & Request",
+                "explanation": "because（理由）用いた説明、Can you（依頼）、Don't forget（注意喚起）のメール文パターン。",
+                "sourceQuote": "because I'm really interested in them / Can you research the food / Don't forget your computer",
+                "sourceLocation": "大問4A 第1・2・3段落",
                 "examples": [
                     {
-                        "en": "English is spoken in many countries.",
-                        "ja": "英語は多くの国で話されている。",
-                        "note": "基本の受動態：be + 過去分詞"
+                        "en": "I chose penguins because I'm really interested in them.",
+                        "ja": "ペンギンに本当に興味があるので選んだ。",
+                        "note": "because＝理由。「選んだ」根拠を説明。"
                     },
                     {
-                        "en": "The bridge was built 100 years ago.",
-                        "ja": "その橋は100年前に建てられた。",
-                        "note": "過去の受動態：was/were + 過去分詞"
+                        "en": "Can you research the food the penguins eat?",
+                        "ja": "ペンギンが食べる食べ物を調べてもらえますか？",
+                        "note": "Can you＝依頼。the food (that) penguins eat＝関係代名詞省略。"
                     },
                     {
-                        "en": "The letter has already been sent.",
-                        "ja": "手紙はすでに送られた。",
-                        "note": "現在完了の受動態：has been + 過去分詞"
+                        "en": "Don't forget your computer.",
+                        "ja": "コンピューターを忘れないで。",
+                        "note": "Don't forget＝注意喚起の命令文。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Science project]\nWe started writing in class. I finished writing about where penguins live. I have also started to prepare pictures for our presentation. We have to have at least ten pictures for the presentation. I will prepare the first five, and you can do the rest. Can you research the food the penguins eat? You need to write around 150 words in addition to preparing pictures for the presentation.",
+                    "ja": "授業中に書き始めた。ペンギンがどこに住んでいるかについて書き終えた。プレゼン用の写真も準備し始めた。プレゼンには少なくとも10枚の写真が必要だ。最初の5枚は私が準備するので、残りはお願いできる。ペンギンが食べる食べ物を調べてもらえる？写真を準備するのに加えて、約150語を書く必要がある。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "I will prepare the first five, and you can do the rest",
+                    "Can you research",
+                    "You need to write",
+                    "in addition to preparing"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "依頼・分担",
+                "practiceQuestions": [
+                    {
+                        "q": "2人の役割分担は？",
+                        "a": "自分：ペンギンの住む場所＋写真5枚。相手：食べ物の調査＋150語＋写真。"
+                    },
+                    {
+                        "q": "'in addition to'はどういう意味？",
+                        "a": "「～に加えて」。写真準備に加えて文章も書く必要がある。"
+                    },
+                    {
+                        "q": "'the rest'は何を指す？",
+                        "a": "10枚のうち残りの5枚の写真。"
+                    },
+                    {
+                        "q": "プレゼンの要件は？",
+                        "a": "写真10枚以上、ペンギンの住む場所と食べ物の情報。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "発見と説明の表現",
+                "subtitle": "Discovery & Explanation",
+                "explanation": "However（逆接）で謎の解決を示し、He was using（過去進行形）で行動を描写、The purpose is to（目的は～である）で説明する科学・自然の文章パターン。",
+                "sourceQuote": "However, the mystery was eventually solved / He was using different parts of his body / The purpose is to attract a partner",
+                "sourceLocation": "大問4B 第1・2段落",
+                "examples": [
+                    {
+                        "en": "However, the mystery was eventually solved by some scientists who saw the circles being drawn.",
+                        "ja": "しかし、その謎は円が描かれるのを見た科学者たちによってついに解明された。",
+                        "note": "However＝逆接。eventually＝「ついに」。受動態＋by。"
+                    },
+                    {
+                        "en": "He was using different parts of his body to create the circles.",
+                        "ja": "彼は体のさまざまな部分を使って円を作っていた。",
+                        "note": "was using＝過去進行形。to create＝目的の不定詞。"
+                    },
+                    {
+                        "en": "These animals do not make art for pleasure. The purpose is to attract a partner.",
+                        "ja": "これらの動物は楽しみのために芸術を作るのではない。目的はパートナーを引きつけることである。",
+                        "note": "for pleasure＝「楽しみのために」。The purpose is to＝「目的は～することである」。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Circles in the Sand]\nIn 1995, divers swimming in the ocean near southern Japan discovered something unusual. They saw large circles drawn in the sand at the bottom of the sea. The divers did not know what had caused these circles. However, the mystery was eventually solved by some scientists who saw the circles being drawn. The artist was a male fish called a puffer fish. He was using different parts of his body to create the circles. When his work was complete, a female came and laid her eggs in the center.",
-                    "ja": "1995年、日本の南部近くの海で泳いでいたダイバーたちが珍しいものを発見しました。海底の砂の上に大きな円が描かれているのを見たのです。ダイバーたちはこれらの円の原因がわかりませんでした。しかし、この謎はやがて、円が描かれているところを見た科学者たちによって解明されました。その芸術家はフグという雄の魚でした。フグは体のさまざまな部分を使って円を作っていました。作品が完成すると、雌がやってきて中心に卵を産みました。",
-                    "audioFile": "audio/practice_pp4.mp3"
+                    "ja": "1995年、南日本の海を泳いでいたダイバーが異常なものを発見した。海底の砂に描かれた大きな円を見た。ダイバーたちはこれらの円の原因がわからなかった。しかし、その謎は円が描かれるのを見た科学者たちによってついに解明された。その芸術家はフグと呼ばれるオスの魚だった。彼は体のさまざまな部分を使って円を作っていた。作品が完成すると、メスがやってきて中心に卵を産んだ。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
+                "highlightPatterns": [
+                    "However, the mystery was eventually solved",
+                    "He was using different parts",
+                    "to create the circles",
+                    "When his work was complete"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "発見・説明",
                 "practiceQuestions": [
                     {
-                        "q": "'circles drawn in the sand at the bottom of the ocean' の 'drawn' はどのような受動態ですか？",
-                        "a": "過去分詞の後置修飾。'circles (which were) drawn' の省略形。「砂に描かれた円」。"
+                        "q": "'eventually'はどのようなニュアンス？",
+                        "a": "「ついに、最終的に」。長い間分からなかった謎がようやく解けた。"
                     },
                     {
-                        "q": "'the mystery was eventually solved' の受動態はなぜ使われていますか？",
-                        "a": "「謎が解かれた」— 解いた人より「謎が解決された」という事実に焦点を当てるため。"
+                        "q": "フグがサークルを作る目的は？",
+                        "a": "メスを引きつけるため。メスがサークルの中心に卵を産む。"
                     },
                     {
-                        "q": "'scientists who saw the circles being drawn' の 'being drawn' はどのような構造ですか？",
-                        "a": "知覚動詞 saw + O + being done の構造。「円が描かれているのを見た」。目の前で進行中の受動的行為を示す。"
+                        "q": "'who saw the circles being drawn'の構文は？",
+                        "a": "who＝関係代名詞。being drawn＝知覚動詞＋受動の進行形「描かれているのを見た」。"
                     },
                     {
-                        "q": "この段落で述べられている「謎」とは何で、どのように解かれましたか？",
-                        "a": "海底の円の正体が謎だったが、2011年に水中カメラで撮影中にフグが作っている場面が捉えられ、解決した。"
+                        "q": "この段落の構成は？",
+                        "a": "発見(1995年)→疑問(what caused)→解明(However)→犯人(puffer fish)→行動→目的。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "科学的説明と選択の表現",
+                "subtitle": "Scientific Explanation & Selection",
+                "explanation": "That is because（それは～だからだ）で理由を述べ、Instead（代わりに）で対比し、Perhaps（おそらく）で推測する科学的考察のパターン。",
+                "sourceQuote": "That is because scientists believe / Instead, the female watches / Perhaps they choose the most beautiful circle",
+                "sourceLocation": "大問4B 第3・4段落",
+                "examples": [
+                    {
+                        "en": "That is because scientists believe that the quality of a male animal's art or performance is often a good way for the female to select the healthiest male.",
+                        "ja": "それは科学者たちがオスの芸術やパフォーマンスの質がメスにとって最も健康なオスを選ぶ良い方法だと考えているからである。",
+                        "note": "That is because＝理由。for the female to select＝「メスが選ぶための」不定詞。"
+                    },
+                    {
+                        "en": "Instead, the female watches the male perform and decides whether to choose him as a partner.",
+                        "ja": "代わりに、メスはオスのパフォーマンスを見て、パートナーとして選ぶかどうか決める。",
+                        "note": "Instead＝「代わりに」対比。whether to＝「～するかどうか」。"
+                    },
+                    {
+                        "en": "Perhaps they choose the most beautiful circle or the circle on the softest sand.",
+                        "ja": "おそらく最も美しい円か、最も柔らかい砂の上の円を選ぶのだろう。",
+                        "note": "Perhaps＝「おそらく」推測。最上級が2つ並列。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Circles in the Sand]\nIt is almost always males that perform these behaviors rather than females. Instead, the female watches the male perform and decides whether to choose him as a partner. That is because scientists believe that the quality of a male animal's art or performance is often a good way for the female to select the healthiest male. Females want to choose healthy males because their babies will be stronger and healthier, too.",
+                    "ja": "これらの行動を行うのはほぼ常にメスではなくオスである。代わりに、メスはオスのパフォーマンスを見て、パートナーとして選ぶかどうか決める。それは科学者たちがオスの芸術やパフォーマンスの質がメスにとって最も健康なオスを選ぶ良い方法だと考えているからである。メスは健康なオスを選びたがる。なぜなら赤ちゃんもより強く健康になるからだ。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
-                    "circles drawn in the sand",
-                    "the mystery was eventually solved",
-                    "the circles being drawn"
+                    "Instead, the female watches",
+                    "whether to choose him",
+                    "That is because",
+                    "because their babies will be"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "受動態"
+                "highlightLabel": "科学的説明",
+                "practiceQuestions": [
+                    {
+                        "q": "'That is because'は何の理由を説明？",
+                        "a": "メスがオスを選ぶこと。パフォーマンスの質が健康の指標になるから。"
+                    },
+                    {
+                        "q": "'whether to choose'はどのような表現？",
+                        "a": "「選ぶかどうか」。whether to＝不定詞の間接疑問。"
+                    },
+                    {
+                        "q": "メスが健康なオスを選ぶ理由は？",
+                        "a": "赤ちゃんもより強く健康になるから。子孫の質の向上。"
+                    },
+                    {
+                        "q": "'Instead'は何と何の対比？",
+                        "a": "オス（パフォーマンスをする）vs. メス（見て判断する）。役割の対比。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

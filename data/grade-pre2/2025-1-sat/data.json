@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2025",
     "session": "1",
@@ -1417,223 +1417,228 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "keep を使ったイディオム表現",
-                "subtitle": "Idiomatic Expressions with 'keep'",
-                "explanation": "keepを使った句動詞・イディオムは英語資格検定頻出です。keep on（続ける）、keep an eye on（見張る）、keep one's promise（約束を守る）など、意味が大きく変わるので注意が必要です。",
-                "sourceQuote": "keep an eye on it / Keep on practicing / keep her promise",
-                "sourceLocation": "Part 1",
+                "title": "理由と感情の因果関係",
+                "subtitle": "Reason & Emotional Cause-Effect",
+                "explanation": "so（だから）で感情から行動への因果を示し、Because（～なので）で理由を述べ、to＋動詞（目的）で行動の動機を明示するパターンは、物語文で登場人物の行動原理を読み取る際に重要です。",
+                "sourceQuote": "so he asked her what was wrong / Because he thought it must be really hard / to cheer her up",
+                "sourceLocation": "大問3 第1段落",
                 "examples": [
                     {
-                        "en": "Keep on studying and you'll pass the exam.",
-                        "ja": "勉強を続ければ試験に受かるよ。",
-                        "note": "keep on ～ing＝～し続ける"
+                        "en": "One day, Nathan found his neighbor Diane looking sad, so he asked her what was wrong.",
+                        "ja": "ある日、ネイサンは隣人のダイアンが悲しそうにしているのを見つけたので、何があったのか尋ねた。",
+                        "note": "so＝「だから」。悲しそう→質問する、という感情→行動の因果。what was wrong＝間接疑問文。"
                     },
                     {
-                        "en": "Can you keep an eye on my bag?",
-                        "ja": "カバンを見張っていてくれる？",
-                        "note": "keep an eye on＝見張る"
+                        "en": "Because he thought it must be really hard for her, he decided to cheer her up.",
+                        "ja": "彼女にとって本当につらいに違いないと思ったので、彼は彼女を元気づけることにした。",
+                        "note": "Because＝理由。must be＝「～に違いない」強い推量。to cheer up＝目的。"
                     },
                     {
-                        "en": "She always keeps her promises.",
-                        "ja": "彼女はいつも約束を守る。",
-                        "note": "keep one's promise＝約束を守る"
+                        "en": "When he finally gave it to her, she was very glad.",
+                        "ja": "彼がようやくそれを渡したとき、彼女はとても喜んだ。",
+                        "note": "When＝時間。finally＝「ようやく」。感情の変化を示す物語の転換点。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Helping a Neighbor]\nNathan was a university student studying art in America. One day, Nathan found his neighbor Diane looking sad, so he asked her what was wrong. She told him that her little dog had become ill. Because he thought it must be really hard for her, he decided to cheer her up. He drew a picture of her dog to give her as a gift. When he finally gave it to her, she was very glad.",
-                    "ja": "ネイサンはアメリカで美術を学ぶ大学生でした。ある日、隣人のダイアンが悲しそうにしているのを見つけ、どうしたのか聞きました。彼女の小さな犬が病気になったと言いました。彼女にとって本当に辛いことだと思い、彼はdecided to cheer her up。彼は彼女の犬の絵を描いてプレゼントしました。渡すと、彼女はとても喜びました。",
+                    "ja": "ネイサンはアメリカで芸術を学んでいる大学生だった。ある日、ネイサンは隣人のダイアンが悲しそうにしているのを見つけたので、何があったのか尋ねた。彼女は小さな犬が病気になったと話した。彼女にとって本当につらいに違いないと思ったので、彼は彼女を元気づけることにした。彼はプレゼントとして犬の絵を描いた。彼がようやくそれを渡したとき、彼女はとても喜んだ。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'Nathan found his neighbor Diane looking sad' の 'looking sad' はどのような構造ですか？",
-                        "a": "知覚動詞 find + O + doing の構造。「ダイアンが悲しそうにしているのを見つけた」。現在分詞で状態を表す。"
-                    },
-                    {
-                        "q": "'he asked her what was wrong' の 'what was wrong' はどのような表現ですか？",
-                        "a": "間接疑問文。「何が問題なのか」を尋ねる表現。What's wrong? = どうしたの？のフォーマル版。"
-                    },
-                    {
-                        "q": "'decided to cheer her up' の 'cheer up' はどのような句動詞ですか？",
-                        "a": "「元気づける」。cheer up = make someone feel happier。代名詞は cheer her up の語順。"
-                    },
-                    {
-                        "q": "ネイサンはダイアンを元気づけるために何をしましたか？",
-                        "a": "アートを学んでいる学生として、彼女のために何かを描いたり作ったりして元気づけた。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "decided to cheer her up",
-                    "asked her what was wrong",
-                    "looking sad"
+                    "so he asked her",
+                    "Because he thought",
+                    "to cheer her up",
+                    "When he finally gave"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "keepイディオム"
+                "highlightLabel": "理由・感情の因果",
+                "practiceQuestions": [
+                    {
+                        "q": "'so' はどのような因果関係を示していますか？",
+                        "a": "「悲しそうにしている」のを見た→「何があったのか尋ねた」。観察→行動の因果。"
+                    },
+                    {
+                        "q": "'must be really hard' はどのようなニュアンスですか？",
+                        "a": "must＝「～に違いない」。犬が病気と聞いて、彼女の辛さを強く推量している。"
+                    },
+                    {
+                        "q": "'to cheer her up' の不定詞はどのような用法ですか？",
+                        "a": "副詞的用法（目的）。「彼女を元気づけるために」絵を描くことを決めた。"
+                    },
+                    {
+                        "q": "ネイサンの行動の動機を整理してください。",
+                        "a": "ダイアンが悲しそう(観察) → 犬が病気と知る(情報) → つらいだろうと推量(共感) → 絵を描く(行動)。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "Although / Even if の譲歩と対比",
-                "subtitle": "Concession with Although and Even if",
-                "explanation": "although（～だけれども）やeven if（たとえ～でも）は譲歩を表し、続く文で逆の情報が来ます。一方、while（～する一方で）は対比を表します。長文で論理構造を把握する鍵となります。",
-                "sourceQuote": "Although bamboo is very light, it is said to be much stronger / Some people thought they were too strict, while others thought they were not strict enough",
-                "sourceLocation": "Part 1, Part 4B",
+                "title": "譲歩と逆接の複合構文",
+                "subtitle": "Concession & Contrast Compound Structures",
+                "explanation": "Although（～だけれども）で譲歩し、is said to be（～と言われている）で一般的見解を示し、However（しかし）で逆転、even if（たとえ～でも）で極端な条件を提示するパターンは、対象の特徴を多角的に述べる際に使います。",
+                "sourceQuote": "Although bamboo is very light, it is said to be much stronger / However, bamboo grows back again even if it is cut down",
+                "sourceLocation": "大問4B 第2段落",
                 "examples": [
                     {
-                        "en": "Although he was tired, he kept working.",
-                        "ja": "疲れていたが、働き続けた。",
-                        "note": "although＝～だけれども（事実の譲歩）"
+                        "en": "Although bamboo is very light, it is said to be much stronger than the wood that is generally used for buildings.",
+                        "ja": "竹はとても軽いけれども、一般的に建物に使われる木材よりもはるかに強いと言われている。",
+                        "note": "Although＝譲歩。is said to be＝「～と言われている」受動態。much stronger than＝比較級の強調。"
                     },
                     {
-                        "en": "Even if it rains, we will go hiking.",
-                        "ja": "たとえ雨が降っても、ハイキングに行く。",
-                        "note": "even if＝たとえ～でも（仮定の譲歩）"
+                        "en": "However, bamboo grows back again even if it is cut down.",
+                        "ja": "しかし、竹は切られたとしても再び生えてくる。",
+                        "note": "However＝逆接。even if＝「たとえ～でも」。再生力の強さを強調。"
                     },
                     {
-                        "en": "Some liked it, while others didn't.",
-                        "ja": "好きな人もいたが、そうでない人もいた。",
-                        "note": "while＝一方で（対比）"
+                        "en": "These unique features make it a popular choice to build houses with.",
+                        "ja": "これらのユニークな特徴が、家の建材として人気のある選択肢にしている。",
+                        "note": "make＋O＋C＝「～を…にする」使役構文。段落のまとめ。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Houses Made of Bamboo]\nAnother important feature of bamboo is that it is very strong, which makes it perfect for building houses. Although bamboo is very light, it is said to be much stronger than the wood that is generally used for buildings. Also, trees usually die when they are cut down. However, bamboo grows back again even if it is cut down. These unique features make it a popular choice to build houses with.",
-                    "ja": "竹のもう一つの重要な特徴は非常に強いことで、家を建てるのに最適です。竹は非常に軽いですが、一般的に建物に使われる木材よりもずっと強いと言われています。また、木は切り倒されると通常枯れてしまいます。しかし、竹は切り倒されても再び成長します。これらのユニークな特徴が、竹を家を建てる材料として人気のある選択肢にしています。",
+                    "ja": "竹のもう一つの重要な特徴は非常に強いことであり、それが家の建設に最適にしている。竹はとても軽いけれども、一般的に建物に使われる木材よりもはるかに強いと言われている。また、木は切り倒されると通常枯れてしまう。しかし、竹は切られたとしても再び生えてくる。これらのユニークな特徴が、家の建材として人気のある選択肢にしている。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
+                "highlightPatterns": [
+                    "Although bamboo is very light",
+                    "is said to be much stronger",
+                    "However, bamboo grows back",
+                    "even if it is cut down",
+                    "make it a popular choice"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "譲歩・逆接",
                 "practiceQuestions": [
                     {
-                        "q": "'Although bamboo is lighter than other building materials' の 'Although' はどのような譲歩を示しますか？",
-                        "a": "「竹は他の建材より軽いにもかかわらず」→「とても強い」。軽さと強さの意外な共存を示す譲歩。"
+                        "q": "'Although' の譲歩節と主節の関係は？",
+                        "a": "譲歩（軽い）を認めた上で、主節（はるかに強い）が本当に伝えたいこと。"
                     },
                     {
-                        "q": "'which makes it perfect for building houses' の 'which' は何を指しますか？",
-                        "a": "竹がとても強いという事実を指す関係代名詞の非制限用法。「そしてそのことが家を建てるのに最適にする」。"
+                        "q": "'even if' はなぜ使われていますか？",
+                        "a": "「切られたとしても」という極端な条件を示し、竹の再生力の強さを強調。"
                     },
                     {
-                        "q": "'Although A, B' の構文で表される対比を説明してください。",
-                        "a": "A（予想される否定的要素＝軽い）にもかかわらず、B（予想に反する肯定的要素＝強い）という対比。"
+                        "q": "この段落で竹が木材より優れている点は何ですか？",
+                        "a": "①軽いのに強い。②切られても再生する。木は枯れてしまうとの対比。"
                     },
                     {
-                        "q": "この段落で述べられている竹の建材としての利点は何ですか？",
-                        "a": "軽いが非常に強く、家を建てるのに最適。木材など他の建材より軽いのに強度が高い。"
+                        "q": "'make it a popular choice' の構文を説明してください。",
+                        "a": "make＋it(竹)＋a popular choice(補語)＝「竹を人気のある選択肢にする」。"
                     }
-                ],
-                "highlightPatterns": [
-                    "Although bamboo",
-                    "which makes it perfect",
-                    "very strong"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "譲歩・対比"
+                ]
             },
             {
                 "id": "fp3",
-                "title": "It is said that ～ / be said to ～ の間接表現",
-                "subtitle": "Reported Speech and Impersonal Expressions",
-                "explanation": "It is said that ～（～と言われている）やIt is believed that ～（～と信じられている）は、一般的な意見を客観的に述べる表現です。長文では情報の出典を示すマーカーとして機能します。",
-                "sourceQuote": "it is said to be much stronger / According to some experts, it has been an important resource",
-                "sourceLocation": "Part 4B",
+                "title": "理由と結論の接続表現",
+                "subtitle": "Reason & Conclusion Connectors",
+                "explanation": "because of（～のため）で原因を示し、Also（また）で追加情報を重ね、This is why（これが～の理由である）で段落全体の結論を導くパターンです。",
+                "sourceQuote": "because of its low cost / Also, the warm climate helps bamboo to grow well / This is why a lot of bamboo is used",
+                "sourceLocation": "大問4B 第3段落",
                 "examples": [
                     {
-                        "en": "It is said that this temple is 500 years old.",
-                        "ja": "このお寺は建立500年と言われている。",
-                        "note": "It is said that ～＝～と言われている"
+                        "en": "According to some experts, it has been an important resource for some Asian countries because of its low cost.",
+                        "ja": "専門家によると、コストが低いため、アジアの一部の国にとって重要な資源となっている。",
+                        "note": "because of＋名詞＝「～のため」原因。its low cost＝名詞句。"
                     },
                     {
-                        "en": "Green tea is believed to be good for health.",
-                        "ja": "緑茶は健康に良いと信じられている。",
-                        "note": "be believed to ～＝～と信じられている"
+                        "en": "Also, the warm climate in those countries helps bamboo to grow well.",
+                        "ja": "また、それらの国の温暖な気候が竹の成長を助けている。",
+                        "note": "Also＝追加情報。help＋O＋to do＝「Oが～するのを助ける」。"
                     },
                     {
-                        "en": "According to the report, sales increased by 20%.",
-                        "ja": "報告によると、売上は20%増加した。",
-                        "note": "according to ～＝～によると"
+                        "en": "This is why a lot of bamboo is used in Asian countries.",
+                        "ja": "これがアジアの国々で多くの竹が使われている理由である。",
+                        "note": "This is why＝「これが～の理由である」。段落の結論を導く定型表現。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Houses Made of Bamboo]\nFor these reasons, bamboo has been used for thousands of years for home building in Asia. According to some experts, it has been an important resource for some Asian countries because of its low cost. Also, the warm climate in those countries helps bamboo to grow well. Indeed, it can grow very fast and live for over twenty years. This is why a lot of bamboo is used in Asian countries.",
-                    "ja": "これらの理由から、竹はアジアで何千年もの間、家の建築に使われてきました。一部の専門家によると、低コストのため、いくつかのアジア諸国で重要な資源となっています。また、それらの国の温暖な気候が竹の成長を助けています。実際、竹は非常に速く成長し、20年以上生きることができます。これがアジア諸国で竹が多く使われる理由です。",
+                    "ja": "これらの理由から、竹はアジアで何千年もの間、家の建設に使われてきた。専門家によると、コストが低いため、一部のアジアの国にとって重要な資源となっている。また、それらの国の温暖な気候が竹の成長を助けている。実際、竹は非常に速く成長し、20年以上も生きることができる。これがアジアの国々で多くの竹が使われている理由である。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'According to some experts' はどのような間接表現ですか？",
-                        "a": "「一部の専門家によると」。情報の出所を示す表現。自分の意見ではなく専門家の見解として述べる間接的な表現。"
-                    },
-                    {
-                        "q": "'bamboo has been used for thousands of years' の現在完了受動態はどのような事実を示しますか？",
-                        "a": "「何千年もの間使われてきた」。過去から現在まで続く長い歴史を示す。継続用法の受動態。"
-                    },
-                    {
-                        "q": "'This is why a lot of bamboo is used in Asian countries' の 'This is why' はどのような論理的機能を持ちますか？",
-                        "a": "「これが〜の理由だ」。前述の理由（低コスト、温暖な気候での成長の良さ）をまとめて結論を導く表現。"
-                    },
-                    {
-                        "q": "この段落で竹の建材としての歴史はどのように述べられていますか？",
-                        "a": "アジアで何千年も使われてきた長い歴史があり、専門家によると今後さらに使用が増える可能性がある。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "According to some experts",
-                    "has been used for thousands of years",
+                    "For these reasons",
+                    "because of its low cost",
+                    "Also, the warm climate",
                     "This is why"
                 ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "間接表現"
+                "highlightColor": "#34d399",
+                "highlightLabel": "理由・結論",
+                "practiceQuestions": [
+                    {
+                        "q": "'This is why' の 'This' は何を指していますか？",
+                        "a": "前述の理由全体（低コスト＋温暖な気候＋成長が速い）を指し、結論を導く。"
+                    },
+                    {
+                        "q": "'because of' と 'because' の違いは？",
+                        "a": "because of＋名詞（its low cost）。because＋節（S+V）。ここでは名詞句が続くので前置詞句。"
+                    },
+                    {
+                        "q": "'For these reasons' はどのような役割ですか？",
+                        "a": "前段落の竹の特徴（強い、再生する）を受けて、「これらの理由から」と本段落を導入する。"
+                    },
+                    {
+                        "q": "アジアで竹が多く使われる理由を整理してください。",
+                        "a": "①低コスト(because of)。②温暖な気候で育つ(Also)。③成長が速い(Indeed)。"
+                    }
+                ]
             },
             {
                 "id": "fp4",
-                "title": "目的を表す in order to / so that",
-                "subtitle": "Expressing Purpose",
-                "explanation": "in order to ～（～するために）やso that ～ can ...（～が…できるように）は目的を表す重要な表現です。長文では行動の理由を理解する鍵となります。",
-                "sourceQuote": "In order to obtain a license / He drew a picture of her dog to give her as a gift / you can visit our website for more information",
-                "sourceLocation": "Part 1, Part 3, Part 4A",
+                "title": "対比と結論の論理展開",
+                "subtitle": "Contrast & Logical Conclusion Patterns",
+                "explanation": "On the other hand（一方で）で別の視点を導入し、However（しかし）で逆転の動きを示し、Therefore（そのため）で将来の見通しを述べるパターンは、議論型の文章の最終段落で頻出します。",
+                "sourceQuote": "On the other hand, bamboo is not popular / However, some companies are trying / Therefore, perhaps bamboo will be used more",
+                "sourceLocation": "大問4B 第4段落",
                 "examples": [
                     {
-                        "en": "She studied hard in order to pass the exam.",
-                        "ja": "試験に受かるために一生懸命勉強した。",
-                        "note": "in order to ～＝～するために"
+                        "en": "On the other hand, bamboo is not popular for buildings in places like Europe and the United States.",
+                        "ja": "一方で、竹はヨーロッパやアメリカのような場所では建物用として人気がない。",
+                        "note": "On the other hand＝「一方で」。アジアとの対比。"
                     },
                     {
-                        "en": "He woke up early so that he could catch the train.",
-                        "ja": "電車に乗れるように早く起きた。",
-                        "note": "so that ～ can ～＝～が～できるように"
+                        "en": "However, some companies are trying to take advantage of bamboo's useful features for home building outside of Asia.",
+                        "ja": "しかし、一部の企業がアジア以外での家の建設に竹の有用な特徴を活用しようとしている。",
+                        "note": "However＝逆接。「人気がない」を受けて「しかし努力している」と展開。take advantage of＝「活用する」。"
                     },
                     {
-                        "en": "I came here to learn English.",
-                        "ja": "英語を学ぶためにここに来た。",
-                        "note": "to不定詞の副詞的用法（目的）"
+                        "en": "Therefore, perhaps bamboo will be used more for buildings around the world in the future.",
+                        "ja": "そのため、おそらく将来、竹は世界中でより多くの建物に使われるだろう。",
+                        "note": "Therefore＝「そのため」結論。perhaps＝「おそらく」控えめな予測。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: About the Concert]\nThe concert starts at 7 p.m. The items will be on sale from 5:30 p.m. until 10 p.m. However, the sales will stop during the concert. We believe the sales area will be the busiest right after the sales restart. So, we recommend you check it out before the show begins. You can visit our website for more information about the sales. Thank you, Oliver Wells",
-                    "ja": "コンサートは午後7時開始です。グッズは午後5時30分から午後10時まで販売します。ただし、コンサート中は販売を停止します。販売再開直後が最も混雑すると思われます。ショー開始前にチェックすることをお勧めします。詳細は当ウェブサイトをご覧ください。",
+                    "en": "[出典: Houses Made of Bamboo]\nOn the other hand, bamboo is not popular for buildings in places like Europe and the United States. One reason is that people there are not very familiar with bamboo for building houses. Bamboo is also difficult to grow in colder places in those areas. However, some companies are trying to take advantage of bamboo's useful features for home building outside of Asia. Therefore, perhaps bamboo will be used more for buildings around the world in the future.",
+                    "ja": "一方で、竹はヨーロッパやアメリカのような場所では建物用として人気がない。理由の一つは、そこの人々が家の建設に竹を使うことに馴染みがないことである。また、竹はそれらの地域の寒い場所では育ちにくい。しかし、一部の企業がアジア以外での家の建設に竹の有用な特徴を活用しようとしている。そのため、おそらく将来、竹は世界中でより多くの建物に使われるだろう。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'The items will be on sale from 5:30 p.m. until 10 p.m.' はどのような時間表現ですか？",
-                        "a": "from A until B = AからBまで。販売時間の開始と終了を明確に示す時間範囲の表現。"
-                    },
-                    {
-                        "q": "'So, we recommend you check it out before the show begins' はどのような提案ですか？",
-                        "a": "recommend = 勧める・推奨する。コンサート後は混雑するので、開始前に売り場を確認することを勧めている。"
-                    },
-                    {
-                        "q": "この段落の時間に関する情報を整理してください。",
-                        "a": "コンサート: 7 p.m.開始、商品販売: 5:30 p.m.〜10 p.m.（ただしコンサート中は中断）。"
-                    },
-                    {
-                        "q": "'in order to' はこの文脈でどのような目的を示していますか？",
-                        "a": "「〜するために」。目的を明確に示す表現。ここではコンサートに集中するために販売を止めるという目的。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "However, the sales will stop",
-                    "we recommend you check it out",
-                    "from 5:30 p.m. until 10 p.m."
+                    "On the other hand",
+                    "However, some companies are trying",
+                    "take advantage of",
+                    "Therefore, perhaps"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "目的表現"
+                "highlightLabel": "対比・結論",
+                "practiceQuestions": [
+                    {
+                        "q": "'On the other hand' は何と何を対比していますか？",
+                        "a": "前段落の「アジアでは竹が人気」と、本段落の「欧米では人気がない」の対比。"
+                    },
+                    {
+                        "q": "'However' はどのような展開を示していますか？",
+                        "a": "「人気がない」→「しかし企業が活用しようとしている」。ネガティブからポジティブへの転換。"
+                    },
+                    {
+                        "q": "'Therefore' はどのような根拠から結論を導いていますか？",
+                        "a": "企業がアジア以外でも活用を試みている → 将来世界中で使われるだろう、という予測。"
+                    },
+                    {
+                        "q": "竹が欧米で人気がない理由を2つ挙げてください。",
+                        "a": "①馴染みがない。②寒い地域では育ちにくい。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

@@ -1625,224 +1625,227 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "動詞の語彙力：日常動作を表す動詞",
-                "subtitle": "Everyday action verbs",
-                "explanation": "準2級では日常の具体的な動作を表す動詞が頻出。fry（炒める）、pull（引く）、bury（埋める）など、文脈から正しい動作を選ぶ力が問われる。",
-                "sourceQuote": "I fried it with some butter, lemon juice, and garlic in a pan.\nJust pull the door. It's a little heavy.\nThey had fun burying their brother in the sand.",
-                "sourceLocation": "Part 1 (5), (6), (7)",
+                "title": "逆接と因果の接続表現",
+                "subtitle": "Contrast & Cause-Effect Connectors",
+                "explanation": "However（しかし）で予想外の展開を示し、had to（～しなければならなかった）で必要性を述べ、So（だから）で結果を導く。物語文での出来事の因果関係を読み取る力が問われます。",
+                "sourceQuote": "However, last month, Mrs. Philip had to leave home / So, she started exchanging e-mails",
+                "sourceLocation": "大問3 第2段落",
                 "examples": [
                     {
-                        "en": "She fried the eggs in olive oil.",
-                        "ja": "彼女はオリーブオイルで卵を炒めた。",
-                        "note": "fry = 炒める・揚げる"
+                        "en": "However, last month, Mrs. Philip had to leave home for a month to take care of her sick brother, who lived far away.",
+                        "ja": "しかし先月、フィリップ夫人は遠くに住んでいる病気の兄弟の世話をするために1ヶ月間家を離れなければならなかった。",
+                        "note": "However＝「しかし」。楽しい日常からの急な転換。had to＝「～しなければならなかった」義務。who＝関係代名詞。"
                     },
                     {
-                        "en": "Pull the rope to ring the bell.",
-                        "ja": "ロープを引いて鈴を鳴らしなさい。",
-                        "note": "pull = 引く（pushの反対）"
+                        "en": "Ellie felt very sad and missed her every day. So, she started exchanging e-mails with Mrs. Philip.",
+                        "ja": "エリーはとても悲しく感じ、毎日フィリップ夫人を恋しく思った。そこで、フィリップ夫人とメールのやり取りを始めた。",
+                        "note": "So＝「そこで」。感情（悲しい）→ 行動（メール開始）の因果関係。"
                     },
                     {
-                        "en": "The dog buried the bone in the garden.",
-                        "ja": "犬は骨を庭に埋めた。",
-                        "note": "bury = 埋める（発音: /ˈberi/）"
+                        "en": "When Mrs. Philip finally came back, Ellie brought her a cherry pie to welcome her back.",
+                        "ja": "フィリップ夫人がようやく戻ってきたとき、エリーは彼女を歓迎するためにチェリーパイを持っていった。",
+                        "note": "When＝時間。finally＝「ようやく」待ち望んだ再会。to welcome＝目的の不定詞。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Friendship with Mrs. Philip]\nEllie often visited Mrs. Philip's house and did her homework after school on weekdays. Mrs. Philip sometimes helped Ellie with it. However, last month, Mrs. Philip had to leave home for a month to take care of her sick brother, who lived far away. Ellie felt very sad and missed her every day. So, she started exchanging e-mails with Mrs. Philip. When Mrs. Philip finally came back, Ellie brought her a cherry pie to welcome her back.",
-                    "ja": "エリーは平日の放課後にフィリップ夫人の家をよく訪ね、宿題をした。フィリップ夫人は時々エリーの宿題を手伝った。しかし先月、フィリップ夫人は遠くに住む病気の兄弟の世話をするために1ヶ月間家を離れなければならなかった。エリーは毎日felt very sad and missed her。そこで、フィリップ夫人とメールのやり取りを始めた。フィリップ夫人がようやく戻ってきたとき、エリーは彼女を歓迎するためにチェリーパイを持って行った。",
+                    "ja": "エリーは平日の放課後にフィリップ夫人の家をよく訪れ、宿題をした。フィリップ夫人は時々エリーの宿題を手伝った。しかし先月、フィリップ夫人は遠くに住んでいる病気の兄弟の世話をするために1ヶ月間家を離れなければならなかった。エリーはとても悲しく感じ、毎日フィリップ夫人を恋しく思った。そこで、フィリップ夫人とメールのやり取りを始めた。フィリップ夫人がようやく戻ってきたとき、エリーは彼女を歓迎するためにチェリーパイを持っていった。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'Ellie often visited Mrs. Philip's house' の 'visited' はどのような日常動作を表しますか？",
-                        "a": "「訪問した」。visit = 人の家を訪ねる。often と組み合わせて習慣的な訪問を示す。"
-                    },
-                    {
-                        "q": "'Mrs. Philip sometimes helped Ellie with her homework' の 'helped A with B' の構造を説明してください。",
-                        "a": "「AのBを手伝った」。help + 人 + with + 事 = 〜の…を手伝う。日常的な援助を表す。"
-                    },
-                    {
-                        "q": "'she brought her a cherry pie to welcome her back' の 'brought' はどのような日常動作ですか？",
-                        "a": "「持っていった」。bring = 持って行く・持って来る。brought は過去形。思いやりの行動を示す。"
-                    },
-                    {
-                        "q": "この段落でエミリーとフィリップ夫人の関係はどのように描かれていますか？",
-                        "a": "祖母のような存在。放課後に訪問し、宿題を手伝ってもらい、料理を作ってもらう温かい関係。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "visited",
-                    "helped Ellie with",
-                    "felt very sad and missed her",
-                    "brought her a cherry pie"
+                    "However, last month",
+                    "had to leave home",
+                    "So, she started exchanging",
+                    "When Mrs. Philip finally came back"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "動詞"
+                "highlightLabel": "逆接・因果",
+                "practiceQuestions": [
+                    {
+                        "q": "'However' はどのような転換を示していますか？",
+                        "a": "楽しい日常（宿題を手伝ってもらう生活）から、突然の別れ（1ヶ月間離れる）への転換。"
+                    },
+                    {
+                        "q": "'had to' は何を表していますか？",
+                        "a": "「～しなければならなかった」という過去の義務・必要性。have toの過去形。"
+                    },
+                    {
+                        "q": "エリーがチェリーパイを持っていった理由は？",
+                        "a": "冒頭でフィリップ夫人がエリーの家にチェリーパイを持ってきて歓迎したことへの恩返し。物語の対称構造。"
+                    },
+                    {
+                        "q": "'So' はどのような因果関係を示していますか？",
+                        "a": "悲しくて恋しい（原因）→ メールを始めた（結果）。感情から行動への因果。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "熟語：動詞＋前置詞/副詞のフレーズ動詞",
-                "subtitle": "Phrasal verbs with take/turn/catch",
-                "explanation": "take action, turn into, catch up withなど、動詞＋前置詞・副詞の組み合わせで新しい意味になるフレーズ動詞は準2級の重要項目。同じ動詞でも組み合わせで意味が変わる点に注意。",
-                "sourceQuote": "She took action immediately.\nThe storm would turn into a typhoon.\nWe can catch up with the others.",
-                "sourceLocation": "Part 1 (11), (14), (15)",
+                "title": "理由と代替案の表現",
+                "subtitle": "Reason & Alternative Expressions",
+                "explanation": "However（逆接）で前提を覆し、Instead of（～の代わりに）で代替案を示し、This is because（これは～だからである）で理由を説明するパターンは、論理的な文章で意見や選択肢を述べる際に頻出します。",
+                "sourceQuote": "However, this did not mean / Instead of building roads for cars / This is because they thought cable cars were...",
+                "sourceLocation": "大問4B 第3段落",
                 "examples": [
                     {
-                        "en": "The government took action against pollution.",
-                        "ja": "政府は公害に対して行動を起こした。",
-                        "note": "take action = 行動を起こす"
+                        "en": "However, this did not mean people wanted to completely stay away from the other cities.",
+                        "ja": "しかし、これは人々が他の都市と完全に離れたかったという意味ではなかった。",
+                        "note": "However＝逆接。did not mean＝「～を意味しなかった」。前段落の「道路反対」を誤解されないよう補足。"
                     },
                     {
-                        "en": "The caterpillar turned into a butterfly.",
-                        "ja": "毛虫が蝶になった。",
-                        "note": "turn into = ～に変わる"
+                        "en": "Instead of building roads for cars, they wanted to have cable cars that would travel through the air.",
+                        "ja": "車用の道路を建設する代わりに、彼らは空を移動するケーブルカーを持ちたかった。",
+                        "note": "Instead of -ing＝「～する代わりに」。拒否した案（道路）に対する代替案（ケーブルカー）。"
                     },
                     {
-                        "en": "Run faster to catch up with the group!",
-                        "ja": "グループに追いつくためにもっと速く走って！",
-                        "note": "catch up with = 追いつく"
+                        "en": "This is because they thought cable cars were a fast and useful way of transport and could avoid damaging the nature of the area.",
+                        "ja": "これはケーブルカーが速くて便利な交通手段であり、地域の自然を傷つけることを避けられると考えたからである。",
+                        "note": "This is because＝「これは～だからである」。代替案を選んだ理由を説明。could avoid -ing＝「～を避けられる」。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: A Unique Italian Village]\nThe ways to get to the village have been limited for a long time. As Italy's economy improved in the early 1960s, the country's road system also got better. At that time, Chamois was connected with other areas by roads that people went through only by bicycle or on foot. With the better road system in the country, the village people were asked if they wanted to build new roads for cars. Yet, roads were never built because most of the local people were against the idea.",
-                    "ja": "村への行き方は長い間限られていた。1960年代初頭にイタリア経済が改善すると、国の道路整備も進んだ。当時、シャモワは自転車か徒歩でしか通れない道で他の地域とつながっていた。国の道路整備の進展に伴い、村人は車用の新しい道路を建設したいか尋ねられた。しかし、地元の人の大半が反対したため、道路は建設されなかった。",
+                    "en": "[出典: A Unique Italian Village]\nHowever, this did not mean people wanted to completely stay away from the other cities. Instead of building roads for cars, they wanted to have cable cars that would travel through the air. This is because they thought cable cars were a fast and useful way of transport and could avoid damaging the nature of the area. They thought they could reach the nearest village by cable car and go to other areas from there.",
+                    "ja": "しかし、これは人々が他の都市と完全に離れたかったという意味ではなかった。車用の道路を建設する代わりに、彼らは空を移動するケーブルカーを持ちたかった。これはケーブルカーが速くて便利な交通手段であり、地域の自然を傷つけることを避けられると考えたからである。彼らはケーブルカーで最寄りの村に着き、そこから他の地域に行けると考えた。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
+                "highlightPatterns": [
+                    "However, this did not mean",
+                    "Instead of building roads",
+                    "This is because",
+                    "could avoid damaging the nature"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "理由・代替案",
                 "practiceQuestions": [
                     {
-                        "q": "'the villagers voted against the idea' の 'against the idea' はどのような意味ですか？",
-                        "a": "「その考えに反対して」。vote against = 〜に反対票を投じる。against = 〜に反対して。"
+                        "q": "'Instead of building roads for cars' は何と何を対比していますか？",
+                        "a": "拒否した案（車用道路の建設）と選んだ案（ケーブルカー）の対比。"
                     },
                     {
-                        "q": "'The ways to get to the village have been limited' の 'get to' はどのような意味ですか？",
-                        "a": "「〜に到達する・たどり着く」。get to = arrive at / reach。場所に行くことを表す句動詞。"
+                        "q": "'This is because' の 'This' は何を指していますか？",
+                        "a": "前文の「ケーブルカーを持ちたかった」という選択を指す。その理由を説明する。"
                     },
                     {
-                        "q": "'As Italy's economy improved' の 'improved' はどのような変化を表しますか？",
-                        "a": "「改善した・良くなった」。improve = 良くなる。経済状況が好転したことを示す。"
+                        "q": "'could avoid damaging the nature' はなぜ重要ですか？",
+                        "a": "車の道路は自然を傷つける可能性があるが、ケーブルカーならそれを避けられる。環境保全が選択理由の核心。"
                     },
                     {
-                        "q": "村人たちが道路建設に反対した理由は何ですか？",
-                        "a": "村の自然環境や静かな暮らしを守るため。車が入れないことが村の特徴であり、それを維持したかった。"
+                        "q": "この段落の論理構成を整理してください。",
+                        "a": "誤解の修正(However) → 代替案(Instead of) → 理由(This is because) → 具体計画(by cable car)"
                     }
-                ],
-                "highlightPatterns": [
-                    "against the idea",
-                    "get to the village",
-                    "improved in the early 1960s"
-                ],
-                "highlightColor": "#10b981",
-                "highlightLabel": "フレーズ動詞"
+                ]
             },
             {
                 "id": "fp3",
-                "title": "会話文：状況推理と応答の一致",
-                "subtitle": "Situational reasoning in conversations",
-                "explanation": "大問2では会話の状況を正確に推理して適切な応答を選ぶ。「暑い＋動かない→エアコン故障」「フライト良い＋but＋車で休む→疲れた」のように前後の手がかりから状況を推理する。",
-                "sourceQuote": "It's so hot in this room. I wish I could, but it's not been working since this morning.\nThe flight was great, but... Hopefully, you can get some rest in the car.",
-                "sourceLocation": "Part 2 (16), (17)",
+                "title": "丁寧な依頼と許可の表現",
+                "subtitle": "Polite Requests & Permission Patterns",
+                "explanation": "If you don't mind（もしよろしければ）、would you let me（～させていただけますか）、may I（～してもいいですか）は、メールや手紙で丁寧に依頼・許可を求める定型表現です。",
+                "sourceQuote": "If you don't mind, would you let me / may I take some photos / I hope you will continue to allow me",
+                "sourceLocation": "大問4A 第3段落",
                 "examples": [
                     {
-                        "en": "A: It's so cold! B: The heater has been broken since yesterday.",
-                        "ja": "A：すごく寒い！B：ヒーターが昨日から壊れているの。",
-                        "note": "状況：寒い＋壊れている＝ヒーター故障"
+                        "en": "If you don't mind, would you let me have an interview with you and your staff on a day that is convenient for you?",
+                        "ja": "もしよろしければ、ご都合の良い日にあなたとスタッフにインタビューさせていただけますか？",
+                        "note": "If you don't mind＝「もしよろしければ」。would you let me＝「～させていただけますか」。二重の丁寧表現。"
                     },
                     {
-                        "en": "A: The flight was great, but I couldn't sleep. B: Get some rest at the hotel.",
-                        "ja": "A：フライトは良かったが眠れなかった。B：ホテルで休んで。",
-                        "note": "but以降の否定的内容→アドバイスの一致"
+                        "en": "Also, may I take some photos of the museum, as I would like to make slides to show in the presentation?",
+                        "ja": "また、プレゼンテーションで見せるスライドを作りたいので、博物館の写真を撮ってもいいですか？",
+                        "note": "may I＝「～してもいいですか」許可を求める丁寧表現。as＝「～なので」理由の接続詞。"
                     },
                     {
-                        "en": "A: My stomach hurts. B: You should skip dinner.",
-                        "ja": "A：お腹が痛い。B：夕食は抜いた方がいい。",
-                        "note": "症状→アドバイスの因果関係"
+                        "en": "If an interview is not possible, I hope you will continue to allow me to ask questions by e-mail.",
+                        "ja": "インタビューが無理なら、引き続きメールで質問させていただければ幸いです。",
+                        "note": "If＝条件。I hope you will＝「～していただければ幸いです」。代替案を丁寧に提示。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: An interview request about the museum]\nDear Ms. Parker,\nI'm Todd Hamilton. I am a student at Peterson High School. My social studies teacher, Mr. Garcia, gave me your e-mail address. As you probably have heard from Mr. Garcia, I will give a presentation about a tourist spot in this town. I would like to speak about your history museum because it is visited by a large number of tourists from both inside and outside the country.",
-                    "ja": "パーカーさんへ\nトッド・ハミルトンと申します。ピーターソン高校の生徒です。社会科の先生のガルシア先生から、あなたのメールアドレスを教えていただきました。ガルシア先生からお聞きになったと思いますが、この町の観光スポットについてプレゼンテーションをします。国内外から多くの観光客が訪れるので、貴歴史博物館について話したいと思います。",
+                    "en": "[出典: An interview request about the museum]\nIf you don't mind, would you let me have an interview with you and your staff on a day that is convenient for you? Also, may I take some photos of the museum, as I would like to make slides to show in the presentation? If an interview is not possible, I hope you will continue to allow me to ask questions by e-mail.",
+                    "ja": "もしよろしければ、ご都合の良い日にあなたとスタッフにインタビューさせていただけますか？また、プレゼンテーションで見せるスライドを作りたいので、博物館の写真を撮ってもいいですか？インタビューが無理なら、引き続きメールで質問させていただければ幸いです。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
+                "highlightPatterns": [
+                    "If you don't mind",
+                    "would you let me have an interview",
+                    "may I take some photos",
+                    "I hope you will continue to allow me"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "依頼・許可",
                 "practiceQuestions": [
                     {
-                        "q": "'Mr. Garcia gave me your e-mail address' はこのメールの背景としてどのような情報を提供していますか？",
-                        "a": "先生を通じてメールアドレスを入手した経緯を説明。メールを送る正当な理由を示す状況説明。"
+                        "q": "'would you let me' と 'may I' の違いは何ですか？",
+                        "a": "would you let me＝相手の許可を求めつつ行動を依頼（させていただけますか）。may I＝自分の行動に対する許可を求める（～してもいいですか）。"
                     },
                     {
-                        "q": "'I would like to speak about your history museum' はどのような表現ですか？",
-                        "a": "丁寧な希望表現。would like to = want to の丁寧形。「〜についてお話ししたい」。"
+                        "q": "'If you don't mind' はなぜ使われていますか？",
+                        "a": "相手に負担をかけることへの配慮。「もしご迷惑でなければ」という前置きで丁寧さを増す。"
                     },
                     {
-                        "q": "'it is visited by a large number of tourists' の受動態はどのような事実を伝えていますか？",
-                        "a": "博物館が多くの観光客に訪問されているという客観的事実。博物館を選んだ理由として説得力を持たせている。"
+                        "q": "このメールで依頼されている3つのことを整理してください。",
+                        "a": "①インタビュー(would you let me)。②写真撮影(may I)。③メールでの質問継続(I hope, 代替案)。"
                     },
                     {
-                        "q": "この段落から、メールの差出人はどのような人物だとわかりますか？",
-                        "a": "高校生（Peterson High School）。社会科の課題で博物館についてレポートを書くためにインタビューを依頼している。"
+                        "q": "'If an interview is not possible' はどのような役割ですか？",
+                        "a": "相手が断れるよう代替案を用意する配慮。「インタビューが無理なら」→「メールで質問」とハードルを下げる。"
                     }
-                ],
-                "highlightPatterns": [
-                    "gave me your e-mail address",
-                    "I would like to speak about",
-                    "visited by a large number of tourists"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "状況推理"
+                ]
             },
             {
                 "id": "fp4",
-                "title": "長文：メールの目的と要求を正確に読む",
-                "subtitle": "Understanding purpose and requests in emails",
-                "explanation": "大問4Aのメール形式では、差出人の目的・質問内容・依頼事項を正確に把握する。Toddのメールでは「情報源」「聞きたいこと」「依頼（インタビュー・写真撮影）」の3層を区別することが重要。",
-                "sourceQuote": "My social studies teacher, Mr. Garcia, gave me your e-mail address.\nThose include what your museum staff does to attract visitors.\nMay I take some photos of the museum?",
-                "sourceLocation": "Part 4A (23)-(25)",
+                "title": "因果関係と特徴を述べる表現",
+                "subtitle": "Cause-Effect & Characteristic Expressions",
+                "explanation": "make＋O＋C（～を…にする）で結果を述べ、Because of（～のために）で原因を示し、such as（～のような）で具体例を挙げるパターンは、説明文で対象の特徴を述べる際に頻出します。",
+                "sourceQuote": "makes this village environmentally friendly / Because of the small size / such as road systems with climate-friendly options",
+                "sourceLocation": "大問4B 第4段落",
                 "examples": [
                     {
-                        "en": "My teacher gave me your contact information.",
-                        "ja": "先生があなたの連絡先を教えてくれました。",
-                        "note": "情報源を明示する表現"
+                        "en": "The fact that the village cannot be reached by car makes this village environmentally friendly.",
+                        "ja": "車で到達できないという事実が、この村を環境に優しいものにしている。",
+                        "note": "make＋O(village)＋C(environmentally friendly)＝使役構文「～を…にする」。The fact that＝同格のthat。"
                     },
                     {
-                        "en": "I would like to ask about your efforts to attract visitors.",
-                        "ja": "来館者を引きつける取り組みについて聞きたいです。",
-                        "note": "質問内容を丁寧に伝える表現"
+                        "en": "Because of the small size of the village and its rich nature, it is a good place to perform eco-friendly projects.",
+                        "ja": "村の小さな規模と豊かな自然のため、エコフレンドリーなプロジェクトを行うのに良い場所である。",
+                        "note": "Because of＋名詞＝「～のため」。原因からvillageの適性を述べる。"
                     },
                     {
-                        "en": "May I take some photos for my presentation?",
-                        "ja": "プレゼン用の写真を撮ってもいいですか？",
-                        "note": "May I ～? = 丁寧な許可の依頼"
+                        "en": "It is a group of places that are working on projects that protect the beauty of nature, such as road systems with climate-friendly options.",
+                        "ja": "それは自然の美しさを守るプロジェクトに取り組んでいる場所の集まりで、例えば気候に優しい選択肢を持つ道路システムなどがある。",
+                        "note": "such as＝「～のような」具体例。that＝関係代名詞（2回使用）でplacesとprojectsをそれぞれ修飾。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: An interview request about the museum]\nIf you don't mind, would you let me have an interview with you and your staff on a day that is convenient for you? Also, may I take some photos of the museum, as I would like to make slides to show in the presentation? If an interview is not possible, I hope you will continue to allow me to ask questions by e-mail.\n\nSincerely,\nTodd Hamilton",
-                    "ja": "もしよろしければ、ご都合の良い日にあなたとスタッフにインタビューさせていただけますか？また、プレゼンテーションで見せるスライドを作りたいので、博物館の写真を撮ってもよいでしょうか？インタビューが無理なら、引き続きメールで質問させていただければ幸いです。\n\n敬具\nトッド・ハミルトン",
+                    "en": "[出典: A Unique Italian Village]\nThe fact that the village cannot be reached by car makes this village environmentally friendly. Because of the small size of the village and its rich nature, it is a good place to perform eco-friendly projects. Chamois is one of the nineteen places that make up the \"Alpine Pearls.\" It is a group of places that are working on projects that protect the beauty of nature, such as road systems with climate-friendly options.",
+                    "ja": "車で到達できないという事実が、この村を環境に優しいものにしている。村の小さな規模と豊かな自然のため、エコフレンドリーなプロジェクトを行うのに良い場所である。シャモワは「アルパインパールズ」を構成する19の場所の一つである。それは自然の美しさを守るプロジェクトに取り組んでいる場所の集まりで、例えば気候に優しい選択肢を持つ道路システムなどがある。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
+                "highlightPatterns": [
+                    "makes this village environmentally friendly",
+                    "Because of the small size",
+                    "that make up",
+                    "such as road systems"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "因果・特徴",
                 "practiceQuestions": [
                     {
-                        "q": "'would you let me have an interview with you' はどのような依頼表現ですか？",
-                        "a": "「インタビューさせていただけますか」。would you let me = 〜してよいですか。let + 人 + 動詞原形の許可の表現。"
+                        "q": "'The fact that...makes this village...' の構文を説明してください。",
+                        "a": "The fact that＝同格のthat節で「～という事実」。主語全体がmakeの主語で、village＝目的語、environmentally friendly＝補語。"
                     },
                     {
-                        "q": "'may I take some photos' の 'may I' はどのような丁寧さのレベルですか？",
-                        "a": "フォーマルな許可の依頼。Can I よりも丁寧。「写真を撮ってもよろしいでしょうか」。"
+                        "q": "'Because of' はどのような因果を示していますか？",
+                        "a": "村の小ささと自然の豊かさ（原因）→ エコプロジェクトに適した場所（結果）。"
                     },
                     {
-                        "q": "'If you don't mind' はどのような前置き表現ですか？",
-                        "a": "「もしよろしければ」。依頼の前に置くことで、相手への配慮を示す丁寧な前置き表現。"
+                        "q": "'such as' はどのような具体例を挙げていますか？",
+                        "a": "「自然の美しさを守るプロジェクト」の具体例として「気候に優しい選択肢を持つ道路システム」を挙げている。"
                     },
                     {
-                        "q": "この段落で差出人が依頼している内容を全て挙げてください。",
-                        "a": "①インタビューの機会 ②都合の良い日の提案 ③館内での写真撮影の許可。"
+                        "q": "この段落で述べられているシャモワ村の特徴を整理してください。",
+                        "a": "①車で行けない→環境に優しい。②小さくて自然が豊か→エコプロジェクトに最適。③アルパインパールズの一員。"
                     }
-                ],
-                "highlightPatterns": [
-                    "would you let me have an interview",
-                    "may I take some photos",
-                    "If you don't mind"
-                ],
-                "highlightColor": "#ef4444",
-                "highlightLabel": "メール読解"
+                ]
             },
             {
                 "id": "fp5",

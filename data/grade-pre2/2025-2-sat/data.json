@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2025",
     "session": "2",
@@ -1413,221 +1413,226 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "blame/praise/thank + A + for B の構文",
-                "subtitle": "Verb + Person + for Reason Pattern",
-                "explanation": "blame A for B（BについてAを責める）のように、「動詞＋人＋for＋理由」の構文は英語資格検定で頻出します。thank/praise/punishなども同じ構文を取ります。",
-                "sourceQuote": "his mother blamed him for breaking the plate / Thank you for introducing your friend",
-                "sourceLocation": "Part 1, Part 4A",
+                "title": "理由と逆接の表現",
+                "subtitle": "Reason & Contrast Expressions",
+                "explanation": "This is because（これは～だからである）で理由を説明し、However（しかし）で予想に反する事実を示すパターンは、物語文で登場人物の状況を描写する際に使います。",
+                "sourceQuote": "This is because he normally lives in an area where everything can be bought / However, many things were not easily found",
+                "sourceLocation": "大問3 第1段落",
                 "examples": [
                     {
-                        "en": "The teacher blamed the students for being late.",
-                        "ja": "先生は生徒たちが遅刻したことを責めた。",
-                        "note": "blame A for B＝BについてAを責める"
+                        "en": "This is because he normally lives in an area where everything can be bought around him.",
+                        "ja": "これは彼が普段、身の回りのものが何でも買える地域に住んでいるからである。",
+                        "note": "This is because＝理由の説明。where＝関係副詞でareaを修飾。"
                     },
                     {
-                        "en": "She thanked him for helping her.",
-                        "ja": "彼女は助けてくれたことに感謝した。",
-                        "note": "thank A for B＝BについてAに感謝する"
+                        "en": "However, many things were not easily found in the mountains, and even cooking dinner while camping was a challenge.",
+                        "ja": "しかし、山では多くのものが簡単に見つからず、キャンプ中に夕食を作ることさえ難しかった。",
+                        "note": "However＝逆接。even＝「～さえ」強調。while -ing＝「～している間に」。"
                     },
                     {
-                        "en": "He was praised for his hard work.",
-                        "ja": "彼は頑張りを褒められた。",
-                        "note": "praise A for B＝BについてAを褒める"
+                        "en": "Derek often felt that life in the countryside would not be convenient in many ways.",
+                        "ja": "デレクは田舎での生活は多くの点で便利ではないだろうとしばしば感じた。",
+                        "note": "would not be＝推量。in many ways＝「多くの点で」。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Camping in the Mountains]\nAt the camp, Derek met an elderly woman who worked there. He spent a lot of time talking with her, and the conversation was surprising to him. She told him that she could get everything needed in life, such as food and contact with people, in the mountains. It was a new discovery for him. It helped him learn how much he depended on the things someone prepared for him in his daily life.",
-                    "ja": "キャンプ場で、デレクはそこで働く年配の女性に出会いました。彼女と長い時間話し、その会話はwas surprising to him。彼女は山で食べ物や人との交流など、生活に必要なすべてを手に入れられると話してくれました。それは彼にとって新しい発見でした。日常生活で誰かが用意してくれたものにどれだけ頼っていたかを学ぶ助けになりました。",
+                    "en": "[出典: Camping in the Mountains]\nDerek, a junior high school student in America, lives in a big city. One day, his family went camping in the mountains. At the camp, Derek often felt that life in the countryside would not be convenient in many ways. This is because he normally lives in an area where everything can be bought around him. However, many things were not easily found in the mountains, and even cooking dinner while camping was a challenge.",
+                    "ja": "アメリカの中学生デレクは大都市に住んでいる。ある日、彼の家族は山にキャンプに行った。キャンプ場で、デレクは田舎での生活は多くの点で便利ではないだろうとしばしば感じた。これは彼が普段、身の回りのものが何でも買える地域に住んでいるからである。しかし、山では多くのものが簡単に見つからず、キャンプ中に夕食を作ることさえ難しかった。",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'the conversation was surprising to him' の 'surprising' はどのような感情を表していますか？",
-                        "a": "「驚くべき・意外な」。surprising = 予想外の。conversation が主語で、会話の内容がデレクにとって驚きだったこと。"
-                    },
-                    {
-                        "q": "'He spent a lot of time talking with her' の 'spend time doing' はどのような構文ですか？",
-                        "a": "spend + 時間 + doing = 〜して時間を過ごす。talking は動名詞。「彼女と話して多くの時間を過ごした」。"
-                    },
-                    {
-                        "q": "'was surprising to him' の 'surprising' と 'surprised' の違いは？",
-                        "a": "surprising = 驚かせる（物事の性質）、surprised = 驚いた（人の感情）。It was surprising to him = それは彼にとって驚きだった。"
-                    },
-                    {
-                        "q": "この段落でデレクが得た経験は何でしたか？",
-                        "a": "キャンプ場で出会った年配の女性との会話から、都会では得られない新しい視点や考え方を学んだ。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "was surprising to him",
-                    "spent a lot of time talking",
-                    "a new discovery for him"
+                    "This is because",
+                    "where everything can be bought",
+                    "However, many things were not easily found",
+                    "even cooking dinner"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "V + A + for B"
+                "highlightLabel": "理由・逆接",
+                "practiceQuestions": [
+                    {
+                        "q": "'This is because' の 'This' は何を指していますか？",
+                        "a": "前文の「田舎は便利ではない」と感じたこと。その理由を説明。"
+                    },
+                    {
+                        "q": "'even' はどのような強調ですか？",
+                        "a": "「夕食を作ることさえ」。簡単なことさえ困難だった、という度合いの強調。"
+                    },
+                    {
+                        "q": "都市と山での生活の違いは？",
+                        "a": "都市：何でも買える。山：多くのものが見つからず、料理さえ難しい。"
+                    },
+                    {
+                        "q": "'while camping' はどのような表現ですか？",
+                        "a": "接続詞while＋-ing＝「キャンプしている間に」。主語が同じなので省略。"
+                    }
+                ]
             },
             {
                 "id": "fp2",
-                "title": "result in / due to で因果関係を表す",
-                "subtitle": "Cause and Effect Expressions",
-                "explanation": "result in ～は「結果として～になる」、due to ～は「～のため（原因）」を表します。英語資格検定の長文では因果関係の表現が正答の根拠になることが多いです。",
-                "sourceQuote": "driving through the heavy snow would result in many accidents / delayed due to a storm / too much light makes it difficult",
-                "sourceLocation": "Part 1, Part 4B",
+                "title": "譲歩と推薦の表現",
+                "subtitle": "Concession & Recommendation",
+                "explanation": "Even though（～にもかかわらず）で譲歩しつつ最善を示し、would be（～だろう）で推薦し、We especially recommend（特にお勧めする）で強調するパターンは、案内文で季節や時間帯のお勧めを述べる際に使います。",
+                "sourceQuote": "Even though the mountain offers great views all year round, spring would be the best / We especially recommend",
+                "sourceLocation": "大問4A 第2段落",
                 "examples": [
                     {
-                        "en": "The accident resulted in three injuries.",
-                        "ja": "その事故で3人が負傷した。",
-                        "note": "result in ～＝結果として～になる"
+                        "en": "Even though the mountain offers great views all year round, spring would be the best time for hiking.",
+                        "ja": "山は一年中素晴らしい景色を提供するが、春がハイキングに最適な時期だろう。",
+                        "note": "Even though＝「～にもかかわらず」譲歩。would be＝控えめな推薦。"
                     },
                     {
-                        "en": "The event was canceled due to bad weather.",
-                        "ja": "悪天候のためイベントは中止された。",
-                        "note": "due to ～＝～のため（原因）"
+                        "en": "We especially recommend hiking for a few hours in the afternoon.",
+                        "ja": "特に午後に数時間のハイキングをお勧めします。",
+                        "note": "especially＝「特に」強調。recommend -ing＝「～することを勧める」。"
                     },
                     {
-                        "en": "Lack of sleep can lead to health problems.",
-                        "ja": "睡眠不足は健康問題につながりうる。",
-                        "note": "lead to ～＝～につながる（result inの同義）"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Night Sky]\nThe reason for these effects may be linked to the relaxing feeling people get when they look at the night sky. Experts say that experiencing this feeling is good for our mental health because it allows people to feel calm. Also, it is said that the experience of looking up at the sky with others can help people make stronger connections.",
-                    "ja": "これらの効果の理由は、夜空を見るときに人々が得るリラックスした気持ちに関連しているかもしれません。専門家によると、この気持ちを経験することは、人々を穏やかにさせるため、精神的健康に良いとのことです。また、他の人と一緒に空を見上げる経験は、人々のつながりを強くする助けになると言われています。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'The reason for these effects may be linked to the relaxing feeling' はどのような因果関係を示していますか？",
-                        "a": "「これらの効果の理由はリラックスした感覚に結びついている可能性がある」。reason + may be linked to で間接的な因果関係を示す。"
-                    },
-                    {
-                        "q": "'may be linked to' の 'may' はなぜ使われていますか？",
-                        "a": "推測・可能性を示す助動詞。断定を避け、「〜に結びついている可能性がある」と科学的に慎重な表現。"
-                    },
-                    {
-                        "q": "'Experts say that' はどのような情報の提示方法ですか？",
-                        "a": "専門家の意見を引用する間接的表現。情報の信頼性を示しつつ、自分の意見ではないことを明確にする。"
-                    },
-                    {
-                        "q": "この段落で述べられている夜空を見ることの効果の原因は何ですか？",
-                        "a": "夜空を見たときに感じるリラックス感が、精神的健康への良い効果の原因だと考えられている。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "The reason for these effects may be linked to",
-                    "Experts say that"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "因果関係"
-            },
-            {
-                "id": "fp3",
-                "title": "even though / even if の譲歩表現",
-                "subtitle": "Concessive Clauses",
-                "explanation": "even though ～は「～にもかかわらず（事実）」、even if ～は「たとえ～でも（仮定）」を表します。長文読解では逆接・譲歩の表現を見抜くことが重要です。",
-                "sourceQuote": "Even though the mountain offers great views all year round, spring would be the best / You won't get to the airport in time even if you take the first train",
-                "sourceLocation": "Part 2, Part 4A",
-                "examples": [
-                    {
-                        "en": "Even though it was raining, we went for a walk.",
-                        "ja": "雨が降っていたにもかかわらず、散歩に出かけた。",
-                        "note": "even though＝～にもかかわらず（事実）"
-                    },
-                    {
-                        "en": "Even if it rains tomorrow, the event will be held.",
-                        "ja": "たとえ明日雨が降っても、イベントは開催される。",
-                        "note": "even if＝たとえ～でも（仮定）"
-                    },
-                    {
-                        "en": "Although she studied hard, she didn't pass the test.",
-                        "ja": "一生懸命勉強したが、テストに受からなかった。",
-                        "note": "although＝～だけれども（even thoughの同義）"
+                        "en": "In early April, you may see some of the mountain's famous flowers as they are seen around that time.",
+                        "ja": "4月初旬には、その時期に見られる山の有名な花を見ることができるかもしれません。",
+                        "note": "may＝可能性「～かもしれない」。as＝「～なので」理由。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Hiking Purple Ridge Mountain]\nEven though the mountain offers great views all year round, spring would be the best time for hiking. Snow will start to melt by then, and the weather will be amazing. In late March, the temperatures are perfect for hiking. We especially recommend hiking for a few hours in the afternoon. In early April, you may see some of the mountain's famous flowers as they are seen around that time.",
-                    "ja": "山は一年中素晴らしい景色を提供しますが、春がハイキングに最適な時期でしょう。雪はその頃には溶け始め、天気は素晴らしくなります。3月下旬は気温がハイキングに最適です。特に午後の数時間のハイキングをお勧めします。4月上旬には、その時期に見られる山の有名な花を見ることができるかもしれません。",
-                    "audioFile": "audio/practice_pp3.mp3"
+                    "ja": "山は一年中素晴らしい景色を提供するが、春がハイキングに最適な時期だろう。その頃には雪が溶け始め、天気も素晴らしくなる。3月下旬には気温がハイキングにぴったりである。特に午後に数時間のハイキングをお勧めする。4月初旬には、その時期に見られる山の有名な花を見ることができるかもしれない。",
+                    "audioFile": "audio/practice_pp2.mp3"
                 },
-                "practiceQuestions": [
-                    {
-                        "q": "'Even though the mountain offers great views all year round' の 'Even though' はどのような譲歩を示しますか？",
-                        "a": "「年間を通じて素晴らしい景色を楽しめるが」→ それでも春が最適。全シーズン良いが、最も良い季節を限定する譲歩。"
-                    },
-                    {
-                        "q": "'Even though' と 'Although' の違いはありますか？",
-                        "a": "意味はほぼ同じだが、Even though の方がより強い対比を示す。「〜であるにもかかわらず」の強調版。"
-                    },
-                    {
-                        "q": "'spring would be the best time for hiking' の 'would be' はなぜ仮定法的ですか？",
-                        "a": "控えめな推奨表現。「春が最適でしょう」。would = 断定を避けた丁寧な提案のニュアンス。"
-                    },
-                    {
-                        "q": "この段落で春が推奨される理由は何ですか？",
-                        "a": "年中景色は良いが、春は雪が溶け始めて歩きやすく、花も咲く最適な季節だから。"
-                    }
-                ],
                 "highlightPatterns": [
-                    "Even though the mountain offers great views all year round",
-                    "spring would be the best time"
+                    "Even though the mountain offers",
+                    "would be the best time",
+                    "We especially recommend",
+                    "you may see"
                 ],
                 "highlightColor": "#f472b6",
-                "highlightLabel": "譲歩表現"
+                "highlightLabel": "譲歩・推薦",
+                "practiceQuestions": [
+                    {
+                        "q": "'Even though' はなぜ使われていますか？",
+                        "a": "「一年中良い」を認めた上で「春が最適」と特定し、推薦に説得力を持たせる。"
+                    },
+                    {
+                        "q": "'would be' はなぜ 'is' ではないのですか？",
+                        "a": "would＝控えめな推薦。断定ではなく「～だろう」と丁寧に提案。"
+                    },
+                    {
+                        "q": "推薦されている時期と時間帯を整理してください。",
+                        "a": "時期：春（3月下旬〜4月初旬）。時間帯：午後。花の見頃は4月初旬。"
+                    },
+                    {
+                        "q": "'as they are seen around that time' の 'as' はどのような意味ですか？",
+                        "a": "理由を示す接続詞。「その時期に見られるので」花を見ることができる。"
+                    }
+                ]
             },
             {
-                "id": "fp4",
-                "title": "形容詞 + to不定詞 の構文",
-                "subtitle": "Adjective + to-Infinitive Pattern",
-                "explanation": "It is difficult to ～（～するのは難しい）、be allowed to ～（～することが許可されている）など、形容詞＋to不定詞の構文は英語資格検定で頻出します。",
-                "sourceQuote": "it is helpful to look at the sky / too much light makes it difficult for people to take advantage of / You are allowed to take pictures",
-                "sourceLocation": "Part 4A, Part 4B",
+                "id": "fp3",
+                "title": "条件と注意事項の表現",
+                "subtitle": "Conditions & Caution Expressions",
+                "explanation": "If（もし）で条件を示し、But（しかし）で制約を加え、should not（すべきでない）で注意を促すパターンは、案内やルール説明で使われます。",
+                "sourceQuote": "If you are lucky / But there are a couple of rules / you should not get too close",
+                "sourceLocation": "大問4A 第3段落",
                 "examples": [
                     {
-                        "en": "It is important to eat breakfast every morning.",
-                        "ja": "毎朝朝食を食べることは重要だ。",
-                        "note": "It is important to ～＝～することは重要だ"
+                        "en": "If you are lucky, you can see some animals on the mountain.",
+                        "ja": "運が良ければ、山で動物を見ることができます。",
+                        "note": "If＝条件。「運が良ければ」という可能性を示す。"
                     },
                     {
-                        "en": "She is happy to help you.",
-                        "ja": "彼女はあなたを喜んで助ける。",
-                        "note": "be happy to ～＝喜んで～する"
+                        "en": "But there are a couple of rules we would like you to follow.",
+                        "ja": "しかし、守っていただきたいルールがいくつかあります。",
+                        "note": "But＝逆接。楽しい話題からルールへの切り替え。would like you to＝丁寧な依頼。"
                     },
                     {
-                        "en": "This book is easy to read.",
-                        "ja": "この本は読みやすい。",
-                        "note": "be easy to ～＝～しやすい"
+                        "en": "You should not get too close to them when you do so.",
+                        "ja": "写真を撮る際は近づきすぎないようにしてください。",
+                        "note": "should not＝「～すべきではない」注意。too close to＝「近すぎる」程度。"
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: The Night Sky]\nIt seems clear that looking at the night sky is likely to make people feel happier. However, too much light in city areas at night makes it difficult for people to take advantage of the effects today. Another study showed that many people in areas with high levels of light at night felt less connected to the night sky. This means that solving the problem of too much light could help more people get the positive effects of the night sky.",
-                    "ja": "夜空を見ることは人々を幸せにする可能性が高いことは明らかです。しかし、夜の都市部の光が多すぎると、今日ではこの効果を活用することが難しくなります。別の研究では、夜間の光のレベルが高い地域の多くの人が夜空とのつながりをあまり感じていないことがわかりました。つまり、光が多すぎる問題を解決すれば、より多くの人が夜空のポジティブな効果を得られるかもしれません。",
-                    "audioFile": "audio/practice_pp4.mp3"
+                    "en": "[出典: Hiking Purple Ridge Mountain]\nIf you are lucky, you can see some animals on the mountain. But there are a couple of rules we would like you to follow. If you see them, please do not feed them. You are allowed to take pictures of them, but you should not get too close to them when you do so. Please enjoy seeing them in nature.",
+                    "ja": "運が良ければ、山で動物を見ることができます。しかし、守っていただきたいルールがいくつかあります。もし動物を見かけたら、餌を与えないでください。写真を撮ることは許可されていますが、撮影の際は近づきすぎないようにしてください。自然の中で動物を見ることを楽しんでください。",
+                    "audioFile": "audio/practice_pp3.mp3"
                 },
+                "highlightPatterns": [
+                    "If you are lucky",
+                    "we would like you to follow",
+                    "please do not feed them",
+                    "should not get too close"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "条件・注意",
                 "practiceQuestions": [
                     {
-                        "q": "'looking at the night sky is likely to make people feel happier' の 'likely to' はどのような構文ですか？",
-                        "a": "be likely to do = 〜する可能性が高い。形容詞 + to不定詞。「人々をより幸せにする可能性が高い」。"
+                        "q": "この段落で述べられているルールを2つ挙げてください。",
+                        "a": "①動物に餌を与えない。②写真撮影時に近づきすぎない。"
                     },
                     {
-                        "q": "'It seems clear that' はどのような表現ですか？",
-                        "a": "「〜であることは明らかのようだ」。It seems + 形容詞 + that で断定を少し控えめにする学術的表現。"
+                        "q": "'are allowed to' と 'should not' の対比は？",
+                        "a": "許可(写真OK) vs. 禁止(近づきすぎNG)。できることとできないことを明確に区別。"
                     },
                     {
-                        "q": "'However, too much light in city areas...' の逆接はどのような対比を示しますか？",
-                        "a": "夜空を見ることの利点（前）に対して、都市部の光害という問題（後）を対比。理想と現実のギャップ。"
+                        "q": "'we would like you to follow' はなぜ丁寧ですか？",
+                        "a": "would like you to＝「～していただきたい」。命令ではなく依頼として表現。"
                     },
                     {
-                        "q": "この段落の論理展開を要約してください。",
-                        "a": "結論（夜空は心に良い）→ 逆接（しかし都市の光害が妨げる）→ 課題提起。利点と課題の対比構造。"
+                        "q": "'do so' は何を指していますか？",
+                        "a": "前文の「写真を撮る(take pictures)」を指す。繰り返しを避ける代用表現。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "一般的見解と理由の表現",
+                "subtitle": "General Views & Reason Patterns",
+                "explanation": "it is said that（～と言われている）で一般的見解を示し、because（理由）で根拠を述べ、Also（また）で追加の効果を説明するパターンは、研究や専門家の意見を紹介する文章で頻出します。",
+                "sourceQuote": "it is said that the experience / because it allows people to feel calm / Also, it is said that looking up at the sky with others",
+                "sourceLocation": "大問4B 第2段落",
+                "examples": [
+                    {
+                        "en": "Experts say that experiencing this feeling is good for our mental health because it allows people to feel calm.",
+                        "ja": "専門家は、この感覚を経験することは心の健康に良いと言う。なぜなら人々が穏やかに感じられるからである。",
+                        "note": "because＝理由。allows people to＝「人々が～できるようにする」。"
+                    },
+                    {
+                        "en": "Also, it is said that the experience of looking up at the sky with others can help people make stronger connections.",
+                        "ja": "また、他の人と一緒に空を見上げる経験は、より強いつながりを作るのに役立つと言われている。",
+                        "note": "Also＝追加。it is said that＝「～と言われている」受動態。"
+                    },
+                    {
+                        "en": "The reason for these effects may be linked to the relaxing feeling people get when they look at the night sky.",
+                        "ja": "これらの効果の理由は、人々が夜空を見るときに得るリラックスした感覚に関連しているかもしれない。",
+                        "note": "may be linked to＝「～に関連しているかもしれない」。控えめな推測。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: The Night Sky]\nThe reason for these effects may be linked to the relaxing feeling people get when they look at the night sky. Experts say that experiencing this feeling is good for our mental health because it allows people to feel calm. Also, it is said that the experience of looking up at the sky with others can help people make stronger connections.",
+                    "ja": "これらの効果の理由は、人々が夜空を見るときに得るリラックスした感覚に関連しているかもしれない。専門家は、この感覚を経験することは心の健康に良いと言う。なぜなら人々が穏やかに感じられるからである。また、他の人と一緒に空を見上げる経験は、より強いつながりを作るのに役立つと言われている。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
                 "highlightPatterns": [
-                    "likely to make people feel happier",
-                    "However, too much light",
-                    "It seems clear that"
+                    "may be linked to",
+                    "because it allows people to feel calm",
+                    "Also, it is said that"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "形容詞+to不定詞"
+                "highlightLabel": "見解・理由",
+                "practiceQuestions": [
+                    {
+                        "q": "'it is said that' はどのような表現ですか？",
+                        "a": "受動態で「～と言われている」。主語を特定せず、一般的な見解として述べる。"
+                    },
+                    {
+                        "q": "'because it allows people to feel calm' の 'it' は何を指していますか？",
+                        "a": "前述の「リラックスした感覚を経験すること」。経験が人を穏やかにする。"
+                    },
+                    {
+                        "q": "夜空を見ることの2つの効果は？",
+                        "a": "①穏やかな気持ちになる（個人の効果）。②他者とのつながりが強まる（社会的効果）。"
+                    },
+                    {
+                        "q": "'may be linked to' はなぜ 'is linked to' ではないのですか？",
+                        "a": "may＝推量。科学的な控えめの表現。断定ではなく可能性として述べる。"
+                    }
+                ]
             },
             {
                 "id": "fp5",

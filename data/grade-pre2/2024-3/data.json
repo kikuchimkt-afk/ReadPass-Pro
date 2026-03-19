@@ -1,4 +1,4 @@
-﻿{
+{
     "grade": "準2級",
     "year": "2024",
     "session": "3",
@@ -1449,222 +1449,227 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "比較表現（比較級・最上級・同等比較）",
-                "subtitle": "Comparative and Superlative Forms",
-                "explanation": "英語では2つのものを比べるときに比較級（-er / more）、3つ以上の中で一番を表すときに最上級（-est / most）を使います。同等比較（as ... as）で「同じくらい」と表現することもできます。準2級では比較表現が会話文・長文で頻出します。",
-                "sourceQuote": "French food is much better than Italian. / I think Italian food is the best in the world.",
-                "sourceLocation": "Part 1 第1問",
+                "title": "驚きと感情の表現",
+                "subtitle": "Surprise & Emotion",
+                "explanation": "So（結果）、could not believe（信じられなかった）、could not stop -ing（～するのを止められなかった）で感情を表す物語パターン。",
+                "sourceQuote": "So, she picked it up / she could not believe / She could not stop smiling",
+                "sourceLocation": "大問3 第2段落",
                 "examples": [
                     {
-                        "en": "This bag is cheaper than that one.",
-                        "ja": "このバッグはあのバッグより安い。",
-                        "note": "比較級 -er + than で2つを比較"
+                        "en": "So, she picked it up, and soon, she was very surprised because she found her name on it.",
+                        "ja": "そこで彼女はそれを拾い上げ、すぐにとても驚いた。自分の名前が書いてあったからだ。",
+                        "note": "So＝結果。was surprised because＝驚きの理由。"
                     },
                     {
-                        "en": "She is the tallest student in our class.",
-                        "ja": "彼女はクラスで一番背が高い生徒だ。",
-                        "note": "最上級 the -est in ～で最も～"
+                        "en": "She could not believe she had found her old toy by chance after so many years.",
+                        "ja": "何年もの後に偶然自分の古いおもちゃを見つけたなんて信じられなかった。",
+                        "note": "could not believe＝「信じられなかった」。had found＝過去完了。by chance＝「偶然に」。"
                     },
                     {
-                        "en": "This movie is as interesting as that one.",
-                        "ja": "この映画はあの映画と同じくらい面白い。",
-                        "note": "同等比較 as ... as で「同じくらい」"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Abilities of Trees]\nLike humans, trees have several abilities that are necessary to survive. This includes the ability to have memories. Humans have brains for memories, but trees do not. However, they can remember some events related to surviving. For example, some research shows that trees can remember long and hard times with little rain or situations caused by insects harmful to the trees. Then, they can use these memories to survive the next time something similar happens.",
-                    "ja": "人間と同じように、木には生き残るために必要ないくつかの能力があります。これには記憶を持つ能力が含まれます。人間には記憶のための脳がありますが、木にはありません。しかし、生存に関連するいくつかの出来事を覚えることができます。例えば、雨が少ない長く厳しい時期や、木に害を及ぼす虫による状況を覚えることができるという研究があります。そして、次に同じようなことが起きたときに、これらの記憶を使って生き残ることができるのです。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'abilities that are necessary to survive' の 'necessary to' はどのような意味ですか？",
-                        "a": "「生き残るために必要な」。be necessary to do = 〜するために必要である。to survive は目的を表す。"
-                    },
-                    {
-                        "q": "'harmful to the trees' の 'harmful to' はどのような関係を示しますか？",
-                        "a": "「木にとって有害な」。harmful to A = Aに害を与える。形容詞 + to で影響の対象を示す。"
-                    },
-                    {
-                        "q": "'something similar happens with trees' の 'similar' は何と何の類似を示しますか？",
-                        "a": "人間の記記能力と木の記憶能力の類似。人間と同じような現象が木でも起こることを示す。"
-                    },
-                    {
-                        "q": "この段落で述べられている木の「記憶」能力とは何ですか？",
-                        "a": "木は過去の害虫攻撃を記憶し、次に同じ害虫が来た時により効果的に防御できるようになるという能力。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "necessary to survive",
-                    "harmful to the trees",
-                    "something similar happens"
-                ],
-                "highlightColor": "#4f8cff",
-                "highlightLabel": "比較表現"
-            },
-            {
-                "id": "fp2",
-                "title": "used to の用法（過去の習慣・状態）",
-                "subtitle": "Used to + Verb (Past Habits)",
-                "explanation": "used to + 動詞の原形は「昔は～していた（今はしていない）」という過去の習慣や状態を表します。be used to -ing（～に慣れている）との混同に注意。準2級では物語文や回想場面で頻出する重要表現です。",
-                "sourceQuote": "the old toy she used to play with when she was little",
-                "sourceLocation": "Part 3 第1段落",
-                "examples": [
-                    {
-                        "en": "I used to walk to school when I was young.",
-                        "ja": "若い頃は学校まで歩いて行っていた。",
-                        "note": "used to + 動詞原形＝昔は～していた"
-                    },
-                    {
-                        "en": "There used to be a park here.",
-                        "ja": "昔はここに公園があった。",
-                        "note": "used to be＝昔は～があった（状態）"
-                    },
-                    {
-                        "en": "She is used to living alone.",
-                        "ja": "彼女は一人暮らしに慣れている。",
-                        "note": "be used to -ing＝～に慣れている（別の表現）"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Emma's Old Toy]\nEmma is a high school student. One day, she went to a flea market with her friends. The market was very big, and so many items were being sold. While they were walking around, Emma found something familiar at one of the shops. It looked very similar to the old toy she used to play with when she was little. So, she picked it up, and soon, she was very surprised because she found her name on it.",
-                    "ja": "エマは高校生です。ある日、友達とフリーマーケットに行きました。市場はとても大きく、たくさんのものが売られていました。歩いて回っている間に、エマはお店の一つで（21）を見つけました。それは小さい頃に遊んでいた古いおもちゃにとてもよく似ていました。そこで手に取ると、すぐにとても驚きました。なぜなら自分の名前が書いてあったからです。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'a toy she used to play with when she was little' の 'used to' はどのような意味ですか？",
-                        "a": "「以前は〜したものだ」。過去の習慣・状態を表す。今はもう遊んでいないことが暗示される。"
-                    },
-                    {
-                        "q": "'used to play' と 'played' の違いは何ですか？",
-                        "a": "'used to play' は「以前は日常的に遊んでいた」（習慣性を強調）、'played' は単に「遊んだ」（単発の過去の行為）。"
-                    },
-                    {
-                        "q": "'picked it up' の句動詞の意味は？",
-                        "a": "「（手に取って）拾い上げた」。pick up = 持ち上げる・拾う。目的語が代名詞の場合は pick it up の語順。"
-                    },
-                    {
-                        "q": "エミリーがフリーマーケットで見つけたものは何でしたか？",
-                        "a": "子供の頃に遊んでいたおもちゃに似たもの（something familiar）を見つけ、手に取った。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "she used to play with when she was little",
-                    "picked it up",
-                    "something familiar"
-                ],
-                "highlightColor": "#34d399",
-                "highlightLabel": "used to・過去の習慣"
-            },
-            {
-                "id": "fp3",
-                "title": "現在完了形（経験・完了・継続）",
-                "subtitle": "Present Perfect Tense",
-                "explanation": "現在完了形（have/has + 過去分詞）は「経験」「完了」「継続」の3つの用法があります。過去から現在までのつながりを表す時制です。準2級では長文中で過去形との使い分けがポイントになります。",
-                "sourceQuote": "have been found out / has been a small change",
-                "sourceLocation": "Part 4B 第4段落・Part 4A 第3段落",
-                "examples": [
-                    {
-                        "en": "I have never been to France.",
-                        "ja": "私はフランスに行ったことがない。",
-                        "note": "経験：have never + 過去分詞"
-                    },
-                    {
-                        "en": "She has already finished her homework.",
-                        "ja": "彼女はもう宿題を終えた。",
-                        "note": "完了：have already + 過去分詞"
-                    },
-                    {
-                        "en": "We have lived here for ten years.",
-                        "ja": "私たちは10年間ここに住んでいる。",
-                        "note": "継続：have + 過去分詞 + for ～"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Travel Together membership]\nAlso, there is one more thing that I would like to remind you of. There has been a small change in the hotels you can use your points for. Before the change, you could use them for any hotels you could find on our website. However, you can no longer use them to book some hotels. So, please check the website carefully when you book a hotel.",
-                    "ja": "また、もう一点お知らせしたいことがあります。ポイントを使えるホテルに小さな変更がありました。変更前は、ウェブサイトで見つけられるすべてのホテルに使えました。しかし、現在は一部のホテルの予約にはご利用いただけなくなりました。ホテルを予約する際は、ウェブサイトをよくご確認ください。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'There has been a small change' の現在完了形はなぜ使われていますか？",
-                        "a": "最近の変更が現在に影響していることを示す。have/has been = 〜があった（過去に起きたが現在も関連する）。"
-                    },
-                    {
-                        "q": "'you can no longer use them' の 'no longer' はどのような意味ですか？",
-                        "a": "「もはや〜できない」。以前はできたが今はできないという変化を示す。no longer = not ... anymore。"
-                    },
-                    {
-                        "q": "この段落で述べられている変更点は何ですか？",
-                        "a": "ポイントが使えるホテルに変更があり、以前使えたホテルの一部でポイントが使えなくなったこと。"
-                    },
-                    {
-                        "q": "'I would like to remind you of' はどのような丁寧表現ですか？",
-                        "a": "「〜をお知らせしたい」。would like to = want to の丁寧形。ビジネスメールでよく使う表現。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "There has been a small change",
-                    "you can no longer use them"
-                ],
-                "highlightColor": "#f472b6",
-                "highlightLabel": "現在完了形"
-            },
-            {
-                "id": "fp4",
-                "title": "句動詞（動詞＋副詞/前置詞）の使い分け",
-                "subtitle": "Phrasal Verbs",
-                "explanation": "句動詞は動詞に副詞や前置詞が付くことで新しい意味を持つ表現です。run across（偶然出会う）、go wrong（うまくいかなくなる）、deal with（対処する）など、準2級では句動詞の知識が大問1と大問2で直接問われます。",
-                "sourceQuote": "ran across / went wrong / after a while / come true / deal with",
-                "sourceLocation": "Part 1 第11〜15問",
-                "examples": [
-                    {
-                        "en": "I ran across my old friend at the supermarket.",
-                        "ja": "スーパーで昔の友達に偶然会った。",
-                        "note": "run across＝偶然出会う（= come across）"
-                    },
-                    {
-                        "en": "Something went wrong with my computer.",
-                        "ja": "パソコンが故障した。",
-                        "note": "go wrong＝うまくいかなくなる・故障する"
-                    },
-                    {
-                        "en": "It's hard to deal with difficult customers.",
-                        "ja": "難しいお客に対応するのは大変だ。",
-                        "note": "deal with＝対処する・扱う"
+                        "en": "She could not stop smiling for a while because it reminded her of so many old memories.",
+                        "ja": "たくさんの昔の思い出を思い出させたので、しばらく微笑みが止まらなかった。",
+                        "note": "could not stop -ing＝「～するのを止められなかった」。reminded her of＝「思い出させた」。"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: Emma's Old Toy]\nThen, a little boy came up to Emma. She immediately knew from his face that he wanted her old toy. So, she passed it to him and told him to take good care of it. She could not believe she had found her old toy by chance after so many years. She could not stop smiling for a while because it reminded her of so many old memories that she had.",
-                    "ja": "すると、小さな男の子がエマのところにやってきました。エマは男の子の顔を見てすぐに彼が（22）ことがわかりました。そこでおもちゃを男の子に渡し、大切にするようにと言いました。何年も経ってから偶然に自分の古いおもちゃを見つけたなんて信じられませんでした。たくさんの古い思い出が蘇ったので、しばらく笑顔が止まりませんでした。",
-                    "audioFile": "audio/practice_pp4.mp3"
+                    "ja": "すると、小さな男の子がエマに近づいてきた。彼の顔を見てすぐに、彼がその古いおもちゃを欲しがっていることがわかった。そこで、彼女はそれを彼に渡し、大切にするよう言った。何年もの後に偶然自分の古いおもちゃを見つけたなんて信じられなかった。たくさんの昔の思い出を思い出させたので、しばらく微笑みが止まらなかった。",
+                    "audioFile": "audio/practice_pp1.mp3"
                 },
+                "highlightPatterns": [
+                    "So, she passed it to him",
+                    "could not believe she had found",
+                    "by chance after so many years",
+                    "could not stop smiling"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "驚き・感情",
                 "practiceQuestions": [
                     {
-                        "q": "'a little boy came up to Emma' の 'came up to' はどのような意味ですか？",
-                        "a": "「エミリーのところに近づいてきた」。come up to = 〜に歩み寄る・近づく。句動詞。"
+                        "q": "'could not stop smiling'はどのような感情？",
+                        "a": "嬉しさが止められない。強い感動を表す慣用表現。"
                     },
                     {
-                        "q": "'she passed it to him' の 'pass A to B' はどのような意味ですか？",
-                        "a": "「AをBに渡す」。pass = 手渡す。ここでは男の子におもちゃを渡したこと。"
+                        "q": "'had found'はなぜ過去完了？",
+                        "a": "「信じられなかった」時点より前に「見つけた」。時間の前後関係。"
                     },
                     {
-                        "q": "エミリーが男の子におもちゃを渡した理由は何ですか？",
-                        "a": "男の子の顔を見て、彼がそのおもちゃを欲しがっていることがすぐにわかったから。"
+                        "q": "エマがおもちゃを男の子に渡した理由は？",
+                        "a": "男の子の顔を見て欲しがっていたとわかったから。"
                     },
                     {
-                        "q": "この段落のエミリーの行動から、どのような性格が読み取れますか？",
-                        "a": "思いやりのある性格。男の子の気持ちを察して自分のおもちゃを譲る優しさを持っている。"
+                        "q": "'reminded her of'はどういう意味？",
+                        "a": "「彼女に～を思い出させた」。remind A of B＝「AにBを思い出させる」。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "変更と注意喚起の表現",
+                "subtitle": "Changes & Reminders",
+                "explanation": "Also（追加）で新しい情報を導入し、However（逆接）で変更点を示し、So（結論）で注意を促すメール文パターン。",
+                "sourceQuote": "Also, there is one more thing / However, you can no longer use them / So, please check the website carefully",
+                "sourceLocation": "大問4A 第3段落",
+                "examples": [
+                    {
+                        "en": "Also, there is one more thing that I would like to remind you of.",
+                        "ja": "また、もう一つお伝えしたいことがあります。",
+                        "note": "Also＝追加。would like to remind you of＝「お知らせしたい」丁寧表現。"
+                    },
+                    {
+                        "en": "However, you can no longer use them to book some hotels.",
+                        "ja": "しかし、一部のホテルの予約にはもうポイントを使えなくなりました。",
+                        "note": "However＝逆接。can no longer＝「もう～できない」変更。"
+                    },
+                    {
+                        "en": "So, please check the website carefully when you book a hotel.",
+                        "ja": "ですので、ホテルを予約する際はウェブサイトを注意深く確認してください。",
+                        "note": "So＝結論から来る注意喚起。carefully＝「注意深く」。"
                     }
                 ],
+                "practicePassage": {
+                    "en": "[出典: Travel Together membership]\nAlso, there is one more thing that I would like to remind you of. There has been a small change in the hotels you can use your points for. Before the change, you could use them for any hotels you could find on our website. However, you can no longer use them to book some hotels. So, please check the website carefully when you book a hotel.",
+                    "ja": "また、もう一つお伝えしたいことがあります。ポイントが使えるホテルに小さな変更がありました。変更前は、ウェブサイトで見つけられるどのホテルにもポイントを使えました。しかし、一部のホテルの予約にはもうポイントを使えなくなりました。ですので、ホテルを予約する際はウェブサイトを注意深く確認してください。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
                 "highlightPatterns": [
-                    "came up to Emma",
-                    "passed it to him",
-                    "wanted her old toy"
+                    "Also, there is one more thing",
+                    "Before the change",
+                    "However, you can no longer",
+                    "So, please check"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "変更・注意",
+                "practiceQuestions": [
+                    {
+                        "q": "変更前と変更後の違いは？",
+                        "a": "変更前：全ホテルにポイント使用可。変更後：一部ホテルは使用不可。"
+                    },
+                    {
+                        "q": "'can no longer'はどういう意味？",
+                        "a": "「もう～できない」。以前はできたが今はできないという変更。"
+                    },
+                    {
+                        "q": "'So'はどのような注意喚起？",
+                        "a": "変更があるため→確認してください、という因果に基づく注意喚起。"
+                    },
+                    {
+                        "q": "'would like to remind you of'はなぜ丁寧？",
+                        "a": "would like to＝want toの丁寧版。悪い知らせを柔らかく伝える。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "能力と例示の表現",
+                "subtitle": "Abilities & Examples",
+                "explanation": "However（逆接）で意外な能力を示し、For example（例えば）で具体例、In addition（さらに）で追加能力を述べる科学的説明パターン。",
+                "sourceQuote": "However, they can remember / For example, some research shows / In addition, some studies point out",
+                "sourceLocation": "大問4B 第1・2段落",
+                "examples": [
+                    {
+                        "en": "However, they can remember some events related to surviving.",
+                        "ja": "しかし、生存に関するいくつかの出来事を記憶することができる。",
+                        "note": "However＝逆接。「脳がないが記憶できる」という意外性。"
+                    },
+                    {
+                        "en": "For example, some research shows that trees can remember long and hard times with little rain.",
+                        "ja": "例えば、木は雨がほとんどない長く厳しい時期を記憶できると研究が示している。",
+                        "note": "For example＝具体例。that＝名詞節。"
+                    },
+                    {
+                        "en": "In addition, some studies point out that trees react to sound, too.",
+                        "ja": "さらに、木は音にも反応すると一部の研究が指摘している。",
+                        "note": "In addition＝「さらに」追加。point out that＝「～を指摘する」。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Abilities of Trees]\nLike humans, trees have several abilities that are necessary to survive. This includes the ability to have memories. Humans have brains for memories, but trees do not. However, they can remember some events related to surviving. For example, some research shows that trees can remember long and hard times with little rain or situations caused by insects harmful to the trees. Then, they can use these memories to survive the next time something similar happens.",
+                    "ja": "人間と同様に、木には生存に必要ないくつかの能力がある。これには記憶を持つ能力が含まれる。人間には記憶のための脳があるが、木にはない。しかし、生存に関するいくつかの出来事を記憶することができる。例えば、木は雨がほとんどない長く厳しい時期や、木に害を与える虫による状況を記憶できると研究が示している。そして、次に似たようなことが起きた時に生き残るためにこれらの記憶を使うことができる。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "However, they can remember",
+                    "For example, some research shows",
+                    "related to surviving",
+                    "to survive the next time"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "能力・例示",
+                "practiceQuestions": [
+                    {
+                        "q": "'However'はどのような意外性を示す？",
+                        "a": "「脳がない」にもかかわらず「記憶できる」という意外な事実。"
+                    },
+                    {
+                        "q": "木が記憶していることの例は？",
+                        "a": "①雨がほとんどない厳しい時期。②害虫による被害。"
+                    },
+                    {
+                        "q": "記憶の目的は何？",
+                        "a": "次に似たような状況が起きた時に生き残るため。"
+                    },
+                    {
+                        "q": "'related to surviving'はどのような修飾？",
+                        "a": "過去分詞の後置修飾。events(出来事)を「生存に関する」と修飾。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "一般認識と発見の表現",
+                "subtitle": "Common Beliefs & Discoveries",
+                "explanation": "Generally（一般的に）で通念を示し、However（逆接）で新発見を対比、In fact（実は）で驚くべき事実を示すパターン。",
+                "sourceQuote": "Generally, we tend to think / However, now surprising abilities have been found / In fact, it goes back a long way",
+                "sourceLocation": "大問4B 第4段落",
+                "examples": [
+                    {
+                        "en": "Generally, we tend to think that plants do not have these abilities.",
+                        "ja": "一般的に、植物にはこれらの能力がないと考えがちである。",
+                        "note": "Generally＝「一般的に」。tend to＝「～しがちである」。通説。"
+                    },
+                    {
+                        "en": "However, now surprising abilities of trees have been found out.",
+                        "ja": "しかし、今では木の驚くべき能力が発見されている。",
+                        "note": "However＝逆接。通説への反論。have been found out＝現在完了受動態。"
+                    },
+                    {
+                        "en": "In fact, it goes back a long way.",
+                        "ja": "実は、それはずっと昔にさかのぼる。",
+                        "note": "In fact＝「実は」意外な事実。goes back＝「さかのぼる」。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: The Abilities of Trees]\nGenerally, we tend to think that plants do not have these abilities. However, now surprising abilities of trees have been found out. More research will be done in the future to examine how intelligent trees are, what kinds of parts are related to each ability, and so on. For a long time, trees have learned various abilities to adapt to their growing environment. Like trees, humans may have to change the way they live to adapt to the changing global environment.",
+                    "ja": "一般的に、植物にはこれらの能力がないと考えがちである。しかし、今では木の驚くべき能力が発見されている。将来、木がどれほど知的か、どの部分が各能力に関連しているかなどを調べるためにさらなる研究が行われるだろう。長い間、木は生育環境に適応するためにさまざまな能力を学んできた。木と同様に、人間も変化する地球環境に適応するために生き方を変えなければならないかもしれない。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "Generally, we tend to think",
+                    "However, now surprising abilities",
+                    "to adapt to their growing environment",
+                    "humans may have to change"
                 ],
                 "highlightColor": "#fbbf24",
-                "highlightLabel": "句動詞"
+                "highlightLabel": "通念・発見",
+                "practiceQuestions": [
+                    {
+                        "q": "'tend to think'はどのようなニュアンス？",
+                        "a": "「～と考えがちである」。一般的だが正しくない思い込み。"
+                    },
+                    {
+                        "q": "'However'はどのような転換？",
+                        "a": "「能力がないと思いがち」→「実は驚くべき能力が発見された」。通説の覆し。"
+                    },
+                    {
+                        "q": "最後の文で人間について何を述べている？",
+                        "a": "木のように環境に適応するために生き方を変える必要があるかもしれない。教訓。"
+                    },
+                    {
+                        "q": "'may have to change'はどのような表現？",
+                        "a": "may＝推量＋have to＝義務「変えなければならないかもしれない」。控えめな提言。"
+                    }
+                ]
             },
             {
                 "id": "fp5",
