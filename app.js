@@ -14,7 +14,7 @@
   let DATA = null;
   let vocabState = { idx: 0, score: 0, answered: false, items: [] };
   let examAnswers = {};
-  let settings = { projector: false, showAnswers: false, showTranslation: false };
+  let settings = { projector: false, showAnswers: false, showTranslation: false, simpleMode: false };
   let timerState = { seconds: 300, remaining: 300, running: false, interval: null };
   let projState = { part1: 0 };
   let hlState = { active: false, focusActive: {} };
@@ -54,6 +54,10 @@
     const grade = GRADE_MAP[gradeId];
     try { const r = await fetch(`data/${grade.path}/${examId}/data.json`); DATA = await r.json(); } catch (e) { return; }
     resetAll(); buildDynamicSections(); renderVocab(); renderLessonPlan();
+    // Show simple mode button if data has grammarSimple
+    const hasSimple = DATA.sections.some(s => (s.questions || []).some(q => q.grammarSimple) || (s.passages || []).some(p => p.questions.some(q => q.grammarSimple)));
+    const btnSM = document.getElementById('btnSimpleMode');
+    if (btnSM) btnSM.style.display = hasSimple ? '' : 'none';
   }
 
   // ===== DYNAMIC SECTIONS (supports any number of sections) =====
@@ -92,8 +96,13 @@
       else if (sec.type === 'passage-fill') renderPassageSection(sec, partId);
       else if (sec.type === 'reading-comprehension') renderReadingSection(sec, partId);
     });
+    // Re-apply simple mode if active
+    if (settings.simpleMode) applySimpleMode();
     setupTabs();
   }
+
+  function getGrammar(q) { return settings.simpleMode && q.grammarSimple ? q.grammarSimple : (q.grammar || ''); }
+  function getAnalysis(q) { return settings.simpleMode && q.choiceAnalysisSimple ? q.choiceAnalysisSimple : (q.choiceAnalysis || []); }
 
   function renderVocabSection(sec, partId) {
     document.getElementById(partId + 'Instruction').textContent = sec.instruction;
@@ -101,8 +110,8 @@
     area.innerHTML = sec.questions.map(q => {
       const txt = q.text.replace(/\(　\)/g, '<span class="blank">(　)</span>');
       const transHtml = q.translation ? `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${q.translation}</div>` : '';
-      const gramHtml = q.grammar ? `<div class="grammar-note${settings.showAnswers ? '' : ' hidden'}">📝 ${q.grammar}</div>` : '';
-      const analysisHtml = q.choiceAnalysis ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${q.choiceAnalysis.map((a, i) => `<div class="choice-analysis-item ${i + 1 === q.answer ? 'correct-item' : 'wrong-item'}">${i + 1}. ${a}</div>`).join('')}</div>` : '';
+      const gramHtml = q.grammar ? `<div class="grammar-note${settings.showAnswers ? '' : ' hidden'}">📝 ${getGrammar(q)}</div>` : '';
+      const analysisHtml = q.choiceAnalysis ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${getAnalysis(q).map((a, i) => `<div class="choice-analysis-item ${i + 1 === q.answer ? 'correct-item' : 'wrong-item'}">${i + 1}. ${a}</div>`).join('')}</div>` : '';
       return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">問題 (${q.number}) <span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">正解: ${q.answer}</span></div><div class="exam-q-text">${txt}</div>${transHtml}${gramHtml}<div class="exam-choices">${q.choices.map((c, i) => { const ct = (q.choiceTranslations || [])[i]; return `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}${ct ? `<span class="choice-translation${settings.showTranslation ? '' : ' hidden'}">${ct}</span>` : ''}</span></button>`; }).join('')}</div>${analysisHtml}</div>`;
     }).join('');
     // Progress
@@ -152,24 +161,69 @@
     document.getElementById(partId + 'Instruction').textContent = sec.instruction;
     const area = document.getElementById(partId + 'Area');
     area.innerHTML = sec.passages.map(p => {
-      let metaHtml = '';
-      if (p.format === 'email' && p.meta) {
-        metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${p.meta.from}</div><div><strong>To:</strong> ${p.meta.to}</div><div><strong>Date:</strong> ${p.meta.date}</div><div><strong>Subject:</strong> ${p.meta.subject}</div></div>`;
+      let html = `<div class="passage-block">`;
+      html += `<span class="passage-label">${p.label}</span>`;
+      html += `<div class="passage-title">${p.title}</div>`;
+
+      // --- Notice format (3A: 掲示物) ---
+      if (p.format === 'notice') {
+        html += `<div class="notice-frame">`;
+        p.paragraphs.forEach((para, pi) => {
+          if (pi === 0) {
+            // Title line - centered and bold
+            html += `<div class="notice-heading">${para}</div>`;
+          } else if (para.includes('When:') || para.includes('Where:') || para.includes('Date:')) {
+            // Info lines with bold labels
+            html += `<div class="notice-info">${para.replace(/\n/g, '<br>').replace(/(When:|Where:|Date:|Time:|Place:)/g, '<strong>$1</strong>')}</div>`;
+          } else {
+            const pHtml = wrapSentences(para, p);
+            html += `<p class="passage-text">${pHtml}</p>`;
+          }
+          if (p.translations && p.translations[pi]) html += `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${p.translations[pi].replace(/\n/g, '<br>')}</div>`;
+        });
+        html += `</div>`;
+
+      // --- Multi-email format (3B: メール) ---
+      } else if (p.format === 'multi-email' && p.emails) {
+        p.emails.forEach((email, ei) => {
+          html += `<div class="email-block">`;
+          html += `<div class="email-meta">`;
+          html += `<div><strong>From:</strong> ${email.meta.from}</div>`;
+          html += `<div><strong>To:</strong> ${email.meta.to}</div>`;
+          html += `<div><strong>Date:</strong> ${email.meta.date}</div>`;
+          html += `<div><strong>Subject:</strong> ${email.meta.subject}</div>`;
+          html += `</div>`;
+          const bodyHtml = wrapSentences(email.body, p);
+          html += `<div class="email-body">${bodyHtml.replace(/\n/g, '<br>')}</div>`;
+          if (email.translation) html += `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${email.translation.replace(/\n/g, '<br>')}</div>`;
+          html += `</div>`;
+        });
+
+      // --- Standard format (single email, long passage) ---
+      } else {
+        let metaHtml = '';
+        if (p.format === 'email' && p.meta) {
+          metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${p.meta.from}</div><div><strong>To:</strong> ${p.meta.to}</div><div><strong>Date:</strong> ${p.meta.date}</div><div><strong>Subject:</strong> ${p.meta.subject}</div></div>`;
+        }
+        html += metaHtml;
+        p.paragraphs.forEach((para, pi) => {
+          const pHtml = wrapSentences(para, p);
+          html += `<p class="passage-text">${pHtml}</p>`;
+          if (p.translations && p.translations[pi]) html += `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${p.translations[pi]}</div>`;
+        });
       }
-      let html = `<div class="passage-block"><span class="passage-label">${p.label}</span><div class="passage-title">${p.title}</div>${metaHtml}`;
-      p.paragraphs.forEach((para, pi) => {
-        const pHtml = wrapSentences(para, p);
-        html += `<p class="passage-text">${pHtml}</p>`;
-        if (p.translations && p.translations[pi]) html += `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${p.translations[pi]}</div>`;
-      });
+
       html += '</div>';
+      // Questions
       html += p.questions.map(q => {
         if (q.sourceEvidence) _evidenceMap[q.number] = q.sourceEvidence;
         const hasEv = !!q.sourceEvidence;
-        const analysisHtml = q.choiceAnalysis ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${q.choiceAnalysis.map((a, i) => { const isCor = i + 1 === q.answer; return `<div class="choice-analysis-item ${isCor ? 'correct-item' : 'wrong-item'}"${isCor && hasEv ? ` data-evq="${q.number}" style="cursor:pointer"` : ''}>${i + 1}. ${a}</div>`; }).join('')}</div>` : '';
+        const analysis = getAnalysis(q);
+        const gramHtml = q.grammar ? `<div class="grammar-note${settings.showAnswers ? '' : ' hidden'}">\ud83d\udcdd ${getGrammar(q)}</div>` : '';
+        const analysisHtml = (q.choiceAnalysis || q.choiceAnalysisSimple) ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${analysis.map((a, i) => { const isCor = i + 1 === q.answer; return `<div class="choice-analysis-item ${isCor ? 'correct-item' : 'wrong-item'}"${isCor && hasEv ? ` data-evq="${q.number}" style="cursor:pointer"` : ''}>${i + 1}. ${a}</div>`; }).join('')}</div>` : '';
         const qTrans = q.questionTranslation ? `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${q.questionTranslation}</div>` : '';
         const ct3 = q.choiceTranslations || [];
-        return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">問題 (${q.number}) <span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">正解: ${q.answer}</span></div><div class="exam-q-text">${q.question}</div>${qTrans}<div class="exam-choices">${q.choices.map((c, i) => `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}${ct3[i] ? `<span class="choice-translation${settings.showTranslation ? '' : ' hidden'}">${ct3[i]}</span>` : ''}</span></button>`).join('')}</div>${analysisHtml}</div>`;
+        return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">\u554f\u984c (${q.number}) <span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">\u6b63\u89e3: ${q.answer}</span></div><div class="exam-q-text">${q.question}</div>${qTrans}${gramHtml}<div class="exam-choices">${q.choices.map((c, i) => `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}${ct3[i] ? `<span class="choice-translation${settings.showTranslation ? '' : ' hidden'}">${ct3[i]}</span>` : ''}</span></button>`).join('')}</div>${analysisHtml}</div>`;
       }).join('');
       return html;
     }).join('');
@@ -243,6 +297,60 @@
       el.classList.toggle('hidden', !settings.showAnswers);
     });
   };
+
+  // ===== SIMPLE MODE (dual explanation toggle) =====
+  APP.toggleSimpleMode = function () {
+    settings.simpleMode = !settings.simpleMode;
+    const btn = document.getElementById('btnSimpleMode');
+    btn.classList.toggle('active', settings.simpleMode);
+    const icon = btn.querySelector('.material-symbols-rounded');
+    icon.textContent = settings.simpleMode ? 'child_care' : 'child_care';
+    btn.querySelector('span:last-child').textContent = settings.simpleMode ? 'やさしいON' : 'やさしい説明';
+    applySimpleMode();
+  };
+
+  function applySimpleMode() {
+    // Re-render grammar notes and choice analysis with current mode
+    document.querySelectorAll('.grammar-note').forEach(el => {
+      const qEl = el.closest('.exam-question');
+      if (!qEl) return;
+      const qNum = parseInt((qEl.id || '').replace('q', ''));
+      const q = findQuestion(qNum);
+      if (q) el.innerHTML = '📝 ' + getGrammar(q);
+    });
+    document.querySelectorAll('.choice-analysis').forEach(el => {
+      const qEl = el.closest('.exam-question');
+      if (!qEl) return;
+      const qNum = parseInt((qEl.id || '').replace('q', ''));
+      const q = findQuestion(qNum);
+      if (q) {
+        const analysis = getAnalysis(q);
+        el.innerHTML = analysis.map((a, i) => {
+          const isCor = i + 1 === q.answer;
+          return `<div class="choice-analysis-item ${isCor ? 'correct-item' : 'wrong-item'}">${i + 1}. ${a}</div>`;
+        }).join('');
+      }
+    });
+    // Re-render lesson plan with current mode
+    renderLessonPlan();
+  }
+
+  function findQuestion(qNum) {
+    if (!DATA || !DATA.sections) return null;
+    for (const sec of DATA.sections) {
+      if (sec.questions) {
+        const found = sec.questions.find(q => q.number === qNum);
+        if (found) return found;
+      }
+      if (sec.passages) {
+        for (const p of sec.passages) {
+          const found = (p.questions || []).find(q => q.number === qNum);
+          if (found) return found;
+        }
+      }
+    }
+    return null;
+  }
 
   APP.toggleTranslation = function () {
     settings.showTranslation = !settings.showTranslation;
@@ -1029,11 +1137,14 @@
         categoriesHtml = `<div class="fp-section-label"><span class="material-symbols-rounded">category</span>カテゴリ一覧</div><div class="fp-categories">${fp.categories.map(c => `<div class="fp-cat"><div class="fp-cat-type">${c.type}</div><div class="fp-cat-markers">${c.markers.join(' / ')}</div><div class="fp-cat-ja">${c.ja}</div></div>`).join('')}</div>`;
       }
       const examples = fp.examples || fp.exampleSentences || [];
-      const examplesHtml = examples.map(ex => `<div class="fp-example"><div class="fp-example-en">${ex.en}</div><div class="fp-example-ja">${ex.ja}</div>${ex.note ? `<div class="fp-example-note">💡 ${ex.note}</div>` : ''}</div>`).join('');
-      const whyText = fp.explanation || fp.why || '';
+      const examplesHtml = examples.map(ex => {
+        const note = settings.simpleMode && ex.noteSimple ? ex.noteSimple : (ex.note || '');
+        return `<div class="fp-example"><div class="fp-example-en">${ex.en}</div><div class="fp-example-ja">${ex.ja}</div>${note ? `<div class="fp-example-note">💡 ${note}</div>` : ''}</div>`;
+      }).join('');
+      const whyText = settings.simpleMode && fp.explanationSimple ? fp.explanationSimple : (fp.explanation || fp.why || '');
       const sourceQuoteHtml = (fp.sourceQuote || '').replace(/\n/g, '<br>');
       const pp = fp.practicePassage;
-      const pqs = fp.practiceQuestions || (pp && pp.questions) || [];
+      const pqs = settings.simpleMode && fp.practiceQuestionsSimple ? fp.practiceQuestionsSimple : (fp.practiceQuestions || (pp && pp.questions) || []);
       const fpUid = `pp-${fp.id || idx}`;
       const audioBtn = pp && pp.audioFile ? `
           <button class="fp-audio-btn" onclick="window.APP.playPracticeAudio(this, '${pp.audioFile}')" title="音声を再生">
@@ -1066,8 +1177,9 @@
             ${transBtn}
           </div>
           <div class="fp-passage-ja" id="${fpUid}-ja" style="display:none">${(pp.ja || '').replace(/\n/g, '<br>')}</div>
+          ${pp.source ? `<div class="fp-passage-source">📌 出典: ${pp.source}</div>` : ''}
         </div>
-        <div class="fp-pronunciation-tips">
+        ${currentGradeId !== 'grade3' ? `<div class="fp-pronunciation-tips">
           <div class="fp-section-label"><span class="material-symbols-rounded">record_voice_over</span>音読のポイント</div>
           <div class="fp-pron-grid">
             <div class="fp-pron-card">
@@ -1095,7 +1207,7 @@
             <span class="fp-hl-legend-item"><span class="fp-hl-swatch reduction"></span>リダクション（弱化）</span>
           </div>
           <div class="fp-pron-tip">💡 音声を聞いて、リエゾンとリダクションが起きている箇所を意識しながら音読しましょう。</div>
-        </div>
+        </div>` : ''}
         ${pqs.length ? `<div class="fp-section-label"><span class="material-symbols-rounded">help</span>確認問題</div>
         ${pqs.map((q, qi) => `
           <div class="fp-qa">
