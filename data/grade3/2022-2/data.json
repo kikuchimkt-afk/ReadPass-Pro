@@ -382,10 +382,12 @@
                         "which は「どっち」。ここには合わないよ。"
                     ]
                 }
-            ]
+            ],
+            "name": "大問1",
+            "nameEn": "Part 1"
         },
         {
-            "type": "conversation",
+            "type": "vocabulary",
             "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
             "questions": [
                 {
@@ -513,7 +515,9 @@
                         "○「もっといい考えがある！」。買うんじゃなくて作ろうって提案しているね。"
                     ]
                 }
-            ]
+            ],
+            "name": "大問2",
+            "nameEn": "Part 2"
         },
         {
             "type": "reading-comprehension",
@@ -848,7 +852,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "大問3",
+            "nameEn": "Part 3"
         }
     ],
     "vocabulary": [

@@ -382,10 +382,12 @@
                         "○ when は「いつ」。「15分後」と答えているからぴったり！"
                     ]
                 }
-            ]
+            ],
+            "name": "大問1",
+            "nameEn": "Part 1"
         },
         {
-            "type": "conversation",
+            "type": "vocabulary",
             "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
             "questions": [
                 {
@@ -513,7 +515,9 @@
                         "「見に来る？」は帽子がソファにある理由じゃないよ。"
                     ]
                 }
-            ]
+            ],
+            "name": "大問2",
+            "nameEn": "Part 2"
         },
         {
             "type": "reading-comprehension",
@@ -869,7 +873,9 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "name": "大問3",
+            "nameEn": "Part 3"
         }
     ],
     "vocabulary": [
