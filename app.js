@@ -7,7 +7,8 @@
     grade2: { name: 'CEFR B1（2級相当）', path: 'grade2' },
     'grade-pre2plus': { name: 'CEFR A2（準2級プラス相当）', path: 'grade-pre2plus' },
     'grade-pre2': { name: 'CEFR A2（準2級相当）', path: 'grade-pre2' },
-    grade3: { name: 'CEFR A1（3級相当）', path: 'grade3' }
+    grade3: { name: 'CEFR A1（3級相当）', path: 'grade3' },
+    grade4: { name: 'CEFR A1（4級相当）', path: 'grade4' }
   };
   let currentGradeId = null;
   let currentExamId = null;
@@ -60,8 +61,40 @@
     if (btnSM) btnSM.style.display = hasSimple ? '' : 'none';
   }
 
+  // ===== QUESTION AUDIO PLAYBACK =====
+  let _qAudioEl = null;
+  let _qAudioBtn = null;
+  APP.playQuestionAudio = function(btn, audioPath) {
+    const grade = GRADE_MAP[currentGradeId];
+    if (!grade) return;
+    const src = `data/${grade.path}/${currentExamId}/${audioPath}`;
+    // If same button is playing, stop it
+    if (_qAudioEl && _qAudioBtn === btn && !_qAudioEl.paused) {
+      _qAudioEl.pause();
+      _qAudioEl.currentTime = 0;
+      btn.classList.remove('playing');
+      _qAudioEl = null;
+      _qAudioBtn = null;
+      return;
+    }
+    // Stop any previous
+    if (_qAudioEl) {
+      _qAudioEl.pause();
+      if (_qAudioBtn) _qAudioBtn.classList.remove('playing');
+    }
+    _qAudioEl = new Audio(src);
+    _qAudioBtn = btn;
+    btn.classList.add('playing');
+    _qAudioEl.play();
+    _qAudioEl.onended = () => {
+      btn.classList.remove('playing');
+      _qAudioEl = null;
+      _qAudioBtn = null;
+    };
+  };
+
   // ===== DYNAMIC SECTIONS (supports any number of sections) =====
-  const _SECTION_ICONS = { vocabulary: 'edit_note', 'passage-fill': 'article', 'reading-comprehension': 'library_books' };
+  const _SECTION_ICONS = { vocabulary: 'edit_note', 'passage-fill': 'article', 'reading-comprehension': 'library_books', 'sentence-order': 'reorder' };
 
   function buildDynamicSections() {
     const tabNav = document.getElementById('tabNav');
@@ -84,7 +117,7 @@
       pane.id = 'tab-' + partId;
       pane.className = 'tab-pane';
       let progressHtml = '';
-      if (sec.type === 'vocabulary') {
+      if (sec.type === 'vocabulary' || sec.type === 'sentence-order') {
         const qc = (sec.questions || []).length;
         progressHtml = `<div class="exam-progress"><div class="progress-bar"><div class="progress-fill" id="${partId}Progress"></div></div><span class="progress-text" id="${partId}ProgressText">0 / ${qc}</span></div>`;
         progressHtml += `<div class="projector-nav" id="${partId}ProjNav" style="display:none"><button class="btn btn-secondary" onclick="window.APP.projPrev('${partId}')"><span class="material-symbols-rounded">arrow_back</span> 前</button><span class="proj-counter" id="${partId}ProjCounter">1 / ${qc}</span><button class="btn btn-primary" onclick="window.APP.projNext('${partId}')">次 <span class="material-symbols-rounded">arrow_forward</span></button></div>`;
@@ -93,6 +126,7 @@
       dynContainer.appendChild(pane);
 
       if (sec.type === 'vocabulary') renderVocabSection(sec, partId);
+      else if (sec.type === 'sentence-order') renderSentenceOrderSection(sec, partId);
       else if (sec.type === 'passage-fill') renderPassageSection(sec, partId);
       else if (sec.type === 'reading-comprehension') renderReadingSection(sec, partId);
     });
@@ -112,8 +146,78 @@
       const transHtml = q.translation ? `<div class="translation-block${settings.showTranslation ? '' : ' hidden'}">${q.translation}</div>` : '';
       const gramHtml = q.grammar ? `<div class="grammar-note${settings.showAnswers ? '' : ' hidden'}">📝 ${getGrammar(q)}</div>` : '';
       const analysisHtml = q.choiceAnalysis ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${getAnalysis(q).map((a, i) => `<div class="choice-analysis-item ${i + 1 === q.answer ? 'correct-item' : 'wrong-item'}">${i + 1}. ${a}</div>`).join('')}</div>` : '';
-      return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">問題 (${q.number}) <span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">正解: ${q.answer}</span></div><div class="exam-q-text">${txt}</div>${transHtml}${gramHtml}<div class="exam-choices">${q.choices.map((c, i) => { const ct = (q.choiceTranslations || [])[i]; return `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}${ct ? `<span class="choice-translation${settings.showTranslation ? '' : ' hidden'}">${ct}</span>` : ''}</span></button>`; }).join('')}</div>${analysisHtml}</div>`;
+      const audioBtn = q.questionAudio ? `<button class="q-audio-btn" onclick="window.APP.playQuestionAudio(this, '${q.questionAudio}')" title="問題を聞く"><span class="material-symbols-rounded" style="font-size:18px">volume_up</span><span>聞いてみよう</span></button>` : '';
+      return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">問題 (${q.number}) ${audioBtn}<span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">正解: ${q.answer}</span></div><div class="exam-q-text">${txt}</div>${transHtml}${gramHtml}<div class="exam-choices">${q.choices.map((c, i) => { const ct = (q.choiceTranslations || [])[i]; return `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}${ct ? `<span class="choice-translation${settings.showTranslation ? '' : ' hidden'}">${ct}</span>` : ''}</span></button>`; }).join('')}</div>${analysisHtml}</div>`;
     }).join('');
+    // Progress
+    const updateProg = () => {
+      const ans = area.querySelectorAll('.exam-choice-btn.selected').length;
+      const tot = sec.questions.length;
+      const pe = document.getElementById(partId + 'Progress');
+      const pt = document.getElementById(partId + 'ProgressText');
+      if (pe) pe.style.width = (ans / tot * 100) + '%';
+      if (pt) pt.textContent = `${ans} / ${tot}`;
+    };
+    updateProg();
+    document.getElementById(partId + 'Submit').onclick = () => gradePart(partId, sec.questions);
+    document.getElementById(partId + 'Submit').style.display = '';
+    document.getElementById(partId + 'Results').style.display = 'none';
+  }
+
+  // ===== SENTENCE ORDER (語順整序) =====
+  function renderSentenceOrderSection(sec, partId) {
+    document.getElementById(partId + 'Instruction').textContent = sec.instruction;
+    const area = document.getElementById(partId + 'Area');
+    area.innerHTML = sec.questions.map(q => {
+      const words = q.words || [];
+      const slots = q.correctOrder ? q.correctOrder.length : 5;
+      const ansSlots = q.answerSlots || [2, 4];
+      const prefix = q.framePrefix || '';
+      const suffix = q.frameSuffix || '';
+      const gramHtml = q.grammar ? `<div class="grammar-note${settings.showAnswers ? '' : ' hidden'}">📝 ${getGrammar(q)}</div>` : '';
+      const analysisHtml = q.choiceAnalysis ? `<div class="choice-analysis${settings.showAnswers ? '' : ' hidden'}">${getAnalysis(q).map((a, i) => `<div class="choice-analysis-item ${i + 1 === q.answer ? 'correct-item' : 'wrong-item'}">${i + 1}. ${a}</div>`).join('')}</div>` : '';
+      // Scratch pad: word buttons + slots
+      let slotsHtml = '';
+      for (let s = 0; s < slots; s++) {
+        const isAns = ansSlots.includes(s + 1);
+        slotsHtml += `<span class="so-slot${isAns ? ' so-slot-answer' : ''}" data-qso="${q.number}" data-slot="${s}">${isAns ? (s + 1) + '番目' : ''}</span>`;
+      }
+      const wordBtnsHtml = words.map((w, i) => `<button class="so-word-btn" data-qso="${q.number}" data-widx="${i}" onclick="window._soClickWord(${q.number},${i})">${String.fromCharCode(0x2460 + i)}${w}</button>`).join('');
+      const soAudioBtn = q.questionAudio ? `<button class="q-audio-btn" onclick="window.APP.playQuestionAudio(this, '${q.questionAudio}')" title="問題を聞く"><span class="material-symbols-rounded" style="font-size:18px">volume_up</span><span>聞いてみよう</span></button>` : '';
+      return `<div class="exam-question" id="q${q.number}"><div class="exam-q-number">問題 (${q.number}) ${soAudioBtn}<span class="answer-indicator${settings.showAnswers ? '' : ' hidden'}" style="background:var(--success);color:#000;padding:1px 8px;border-radius:10px;font-size:0.7rem;margin-left:8px">正解: ${q.answer}</span></div><div class="exam-q-text so-japanese">${q.text}</div><div class="so-wordlist">（${words.map((w,i) => String.fromCharCode(0x2460+i) + ' ' + w).join('　')}）</div><div class="so-frame"><span class="so-prefix">${prefix}</span>${slotsHtml}<span class="so-suffix">${suffix}</span></div><div class="so-scratch"><div class="so-scratch-label">▼ 単語をタップして並べよう <button class="so-reset-btn" onclick="window._soReset(${q.number})">リセット</button></div><div class="so-word-btns" data-qso="${q.number}">${wordBtnsHtml}</div></div>${gramHtml}<div class="exam-choices">${q.choices.map((c, i) => `<button class="exam-choice-btn" data-q="${q.number}" data-val="${i + 1}" onclick="window._selExam(${q.number},${i + 1})"><span class="choice-num">${i + 1}</span><span>${c}</span></button>`).join('')}</div>${analysisHtml}</div>`;
+    }).join('');
+    // Scratch pad logic
+    const soState = {};
+    window._soClickWord = function(qn, widx) {
+      if (!soState[qn]) soState[qn] = { placed: [], wordUsed: [] };
+      const st = soState[qn];
+      const q = sec.questions.find(x => x.number === qn);
+      if (!q) return;
+      if (st.wordUsed[widx]) return;
+      const slots = q.correctOrder ? q.correctOrder.length : 5;
+      if (st.placed.length >= slots) return;
+      st.wordUsed[widx] = true;
+      st.placed.push(widx);
+      // Update slot display
+      const slotEls = area.querySelectorAll(`.so-slot[data-qso="${qn}"]`);
+      slotEls[st.placed.length - 1].textContent = q.words[widx];
+      slotEls[st.placed.length - 1].classList.add('so-slot-filled');
+      // Dim word button
+      const btn = area.querySelector(`.so-word-btn[data-qso="${qn}"][data-widx="${widx}"]`);
+      if (btn) btn.classList.add('so-word-used');
+    };
+    window._soReset = function(qn) {
+      soState[qn] = { placed: [], wordUsed: [] };
+      const q = sec.questions.find(x => x.number === qn);
+      if (!q) return;
+      const ansSlots = q.answerSlots || [2, 4];
+      area.querySelectorAll(`.so-slot[data-qso="${qn}"]`).forEach((el, i) => {
+        const isAns = ansSlots.includes(i + 1);
+        el.textContent = isAns ? (i + 1) + '番目' : '';
+        el.classList.remove('so-slot-filled');
+      });
+      area.querySelectorAll(`.so-word-btn[data-qso="${qn}"]`).forEach(b => b.classList.remove('so-word-used'));
+    };
     // Progress
     const updateProg = () => {
       const ans = area.querySelectorAll('.exam-choice-btn.selected').length;
@@ -567,9 +671,11 @@
     const levelClass = item.level === '2級' ? 'g2' : 'gp2';
     const sourceTag = item.source ? `<span class="vocab-level" style="background:rgba(251,191,36,0.2);color:#fbbf24;margin-left:4px">${item.source}</span>` : '';
 
+    const wordAudioBtn = item.wordAudio ? `<button class="q-audio-btn vocab-audio-btn" onclick="window.APP.playQuestionAudio(this, '${item.wordAudio}')" title="発音を聞く"><span class="material-symbols-rounded" style="font-size:20px">volume_up</span></button>` : '';
+
     area.innerHTML = `
       <div class="vocab-card">
-        <div class="vocab-word">${item.word}</div>
+        <div class="vocab-word">${item.word} ${wordAudioBtn}</div>
         <div class="vocab-meta">
           <span class="vocab-pos">${item.pos}</span>
           <span class="vocab-level ${levelClass}">${item.level}</span>${sourceTag}
@@ -900,6 +1006,20 @@
       if (parseInt(b.dataset.val) === val) b.classList.add('selected');
     });
     updatePart1Progress();
+    // Update all dynamic section progress bars
+    if (DATA && DATA.sections) {
+      DATA.sections.forEach((sec, idx) => {
+        if (sec.type === 'sentence-order' || sec.type === 'vocabulary') {
+          const partId = 'part' + (idx + 1);
+          const qs = sec.questions || [];
+          const ans = qs.filter(q => examAnswers[q.number]).length;
+          const pe = document.getElementById(partId + 'Progress');
+          const pt = document.getElementById(partId + 'ProgressText');
+          if (pe) pe.style.width = (ans / qs.length * 100) + '%';
+          if (pt) pt.textContent = `${ans} / ${qs.length}`;
+        }
+      });
+    }
   };
 
   // ===== GRADING =====
@@ -1129,6 +1249,17 @@
   function renderLessonPlan() {
     const area = document.getElementById('lessonPlanArea');
     if (!area) return;
+    // Dynamically update lesson tab header/text for Grade 4
+    const isG4Header = currentGradeId === 'grade4';
+    const lessonTab = document.querySelector('[data-tab="lesson"]');
+    if (lessonTab) {
+      const tabLabel = lessonTab.querySelector('.tab-label');
+      if (tabLabel) tabLabel.textContent = isG4Header ? 'レッスン' : '文法';
+    }
+    const lessonH2 = area.closest('#tab-lesson')?.querySelector('.section-header h2');
+    if (lessonH2) lessonH2.textContent = isG4Header ? '🌟 英語の表現を学ぼう' : '📚 文法・構文フォーカス';
+    const lessonDesc = area.closest('#tab-lesson')?.querySelector('.section-header .section-desc');
+    if (lessonDesc) lessonDesc.textContent = isG4Header ? 'この試験に出てくる英語の表現を楽しく学ぼう！' : '大問2・3の読解に必要な重要文法を例文・例パッセージで学習します';
     const lp = DATA.lessonPlan;
     if (!lp) { area.innerHTML = '<p style="color:var(--text-secondary)">この試験回のデータはまだありません。</p>'; return; }
     area.innerHTML = lp.focusPoints.map((fp, idx) => {
@@ -1139,27 +1270,33 @@
       const examples = fp.examples || fp.exampleSentences || [];
       const examplesHtml = examples.map(ex => {
         const note = settings.simpleMode && ex.noteSimple ? ex.noteSimple : (ex.note || '');
-        return `<div class="fp-example"><div class="fp-example-en">${ex.en}</div><div class="fp-example-ja">${ex.ja}</div>${note ? `<div class="fp-example-note">💡 ${note}</div>` : ''}</div>`;
+        const audioBtn = ex.audio ? `<button class="q-audio-btn vocab-audio-btn" onclick="window.APP.playQuestionAudio(this, '${ex.audio}')" title="聞いてみよう">🔊</button>` : '';
+        return `<div class="fp-example"><div class="fp-example-en">${ex.en} ${audioBtn}</div><div class="fp-example-ja">${ex.ja}</div>${note ? `<div class="fp-example-note">💡 ${note}</div>` : ''}</div>`;
       }).join('');
       const whyText = settings.simpleMode && fp.explanationSimple ? fp.explanationSimple : (fp.explanation || fp.why || '');
-      const sourceQuoteHtml = (fp.sourceQuote || '').replace(/\n/g, '<br>');
+      const sourceQuoteText = (fp.sourceQuote || '').replace(/\n/g, '<br>');
+      const sqAudioBtn = fp.sourceQuoteAudio ? `<button class="q-audio-btn vocab-audio-btn" onclick="window.APP.playQuestionAudio(this, '${fp.sourceQuoteAudio}')" title="聞いてみよう" style="margin-left:8px">🔊</button>` : '';
+      const sourceQuoteHtml = sourceQuoteText + sqAudioBtn;
       const pp = fp.practicePassage;
       const pqs = settings.simpleMode && fp.practiceQuestionsSimple ? fp.practiceQuestionsSimple : (fp.practiceQuestions || (pp && pp.questions) || []);
       const fpUid = `pp-${fp.id || idx}`;
+      const isG4 = currentGradeId === 'grade4';
+      const audioLabel = isG4 ? '🔊 聞いてみよう！' : '🔊 音読用音声を再生';
       const audioBtn = pp && pp.audioFile ? `
           <button class="fp-audio-btn" onclick="window.APP.playPracticeAudio(this, '${pp.audioFile}')" title="音声を再生">
             <span class="material-symbols-rounded" style="font-size:18px">play_circle</span>
-            <span class="fp-audio-label">🔊 音読用音声を再生</span>
+            <span class="fp-audio-label">${audioLabel}</span>
           </button>` : '';
-      const highlightBtn = pp ? `
+      const highlightBtn = (pp && !isG4) ? `
           <button class="fp-pron-hl-btn" onclick="window.APP.togglePronHL('${fpUid}')" title="発音ポイントをハイライト">
             <span class="material-symbols-rounded" style="font-size:18px">highlight</span>
             <span>発音ポイントを表示</span>
           </button>` : '';
+      const fpHlLabel = isG4 ? 'キーワードをハイライト' : 'FPをハイライト';
       const fpHlBtn = (pp && fp.highlightPatterns && fp.highlightPatterns.length) ? `
-          <button class="fp-pattern-hl-btn" onclick="window.APP.toggleFPHL('${fpUid}', ${esc(JSON.stringify(fp.highlightPatterns))})" title="重点構文（FP）をハイライト表示">
+          <button class="fp-pattern-hl-btn" onclick="window.APP.toggleFPHL('${fpUid}', ${esc(JSON.stringify(fp.highlightPatterns))})" title="重点表現をハイライト表示">
             <span class="material-symbols-rounded" style="font-size:18px">format_ink_highlighter</span>
-            <span>FPをハイライト</span>
+            <span>${fpHlLabel}</span>
           </button>` : '';
       const transBtn = pp && pp.ja ? `
           <button class="fp-trans-btn" onclick="window.APP.togglePassageTrans('${fpUid}-ja')" title="日本語訳を表示">
@@ -1167,7 +1304,7 @@
             <span>日本語訳を表示</span>
           </button>` : '';
       const passageHtml = pp ? `
-        <div class="fp-section-label"><span class="material-symbols-rounded">description</span>練習パッセージ</div>
+        <div class="fp-section-label"><span class="material-symbols-rounded">description</span>${isG4 ? '読んでみよう！' : '練習パッセージ'}</div>
         <div class="fp-passage">
           <div class="fp-passage-en" id="${fpUid}" data-original="${(pp.en || '').replace(/"/g, '&quot;')}">${(pp.en || '').replace(/\n/g, '<br>')}</div>
           <div class="fp-passage-btns">
@@ -1179,7 +1316,7 @@
           <div class="fp-passage-ja" id="${fpUid}-ja" style="display:none">${(pp.ja || '').replace(/\n/g, '<br>')}</div>
           ${pp.source ? `<div class="fp-passage-source">📌 出典: ${pp.source}</div>` : ''}
         </div>
-        ${currentGradeId !== 'grade3' ? `<div class="fp-pronunciation-tips">
+        ${(currentGradeId !== 'grade3' && currentGradeId !== 'grade4') ? `<div class="fp-pronunciation-tips">
           <div class="fp-section-label"><span class="material-symbols-rounded">record_voice_over</span>音読のポイント</div>
           <div class="fp-pron-grid">
             <div class="fp-pron-card">
@@ -1208,7 +1345,7 @@
           </div>
           <div class="fp-pron-tip">💡 音声を聞いて、リエゾンとリダクションが起きている箇所を意識しながら音読しましょう。</div>
         </div>` : ''}
-        ${pqs.length ? `<div class="fp-section-label"><span class="material-symbols-rounded">help</span>確認問題</div>
+        ${pqs.length ? `<div class="fp-section-label"><span class="material-symbols-rounded">help</span>${isG4 ? 'チャレンジ！' : '確認問題'}</div>
         ${pqs.map((q, qi) => `
           <div class="fp-qa">
             <div class="fp-q">Q${qi + 1}. ${q.q}</div>
@@ -1228,12 +1365,12 @@
             <span class="material-symbols-rounded fp-toggle">expand_more</span>
           </div>
           <div class="fp-body"><div class="fp-inner">
-            <div class="fp-section-label"><span class="material-symbols-rounded">info</span>なぜこの構文が重要か</div>
+            <div class="fp-section-label"><span class="material-symbols-rounded">info</span>${isG4 ? 'どんなときに使うの？' : 'なぜこの構文が重要か'}</div>
             <div class="fp-why">${whyText}</div>
             <div class="fp-source-quote">${sourceQuoteHtml}</div>
             <div class="fp-source-loc">— ${fp.sourceLocation}</div>
             ${categoriesHtml}
-            <div class="fp-section-label"><span class="material-symbols-rounded">edit_note</span>例文</div>
+            <div class="fp-section-label"><span class="material-symbols-rounded">edit_note</span>${isG4 ? 'こんなふうに使うよ' : '例文'}</div>
             ${examplesHtml}
             ${passageHtml}
           </div></div>

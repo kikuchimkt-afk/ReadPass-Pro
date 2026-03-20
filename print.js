@@ -75,10 +75,43 @@
                 { id: '2025-3', label: '2025年度 第3回' },
                 { id: '2025-3-sat', label: '2025年度 第3回（準会場）' }
             ]
+        },
+        {
+            id: 'grade3', name: 'CEFR A1（3級相当）', nameEn: 'CSE 1456', icon: 'A1',
+            color: '#f472b6', colorRgb: '244, 114, 182', dataPath: 'grade3',
+            exams: [
+                { id: '2022-1', label: '2022年度 第1回' },
+                { id: '2022-2', label: '2022年度 第2回' },
+                { id: '2022-3', label: '2022年度 第3回' },
+                { id: '2023-1', label: '2023年度 第1回' },
+                { id: '2023-2', label: '2023年度 第2回' },
+                { id: '2023-3', label: '2023年度 第3回' },
+                { id: '2024-1', label: '2024年度 第1回' },
+                { id: '2024-2', label: '2024年度 第2回' },
+                { id: '2024-3', label: '2024年度 第3回' },
+                { id: '2025-1', label: '2025年度 第1回' },
+                { id: '2025-2', label: '2025年度 第2回' },
+                { id: '2025-3', label: '2025年度 第3回' },
+                { id: '2024-1-sat', label: '2024年度 第1回（準会場）' },
+                { id: '2024-2-sat', label: '2024年度 第2回（準会場）' },
+                { id: '2024-3-sat', label: '2024年度 第3回（準会場）' },
+                { id: '2025-1-sat', label: '2025年度 第1回（準会場）' },
+                { id: '2025-2-sat', label: '2025年度 第2回（準会場）' },
+                { id: '2025-3-sat', label: '2025年度 第3回（準会場）' }
+            ]
+        },
+        {
+            id: 'grade4', name: 'CEFR A1（4級相当）', nameEn: 'CSE 1180', icon: 'A1',
+            color: '#a78bfa', colorRgb: '167, 139, 250', dataPath: 'grade4',
+            exams: [
+                { id: '2022-1', label: '2022年度 第1回' },
+                { id: '2022-2', label: '2022年度 第2回' },
+                { id: '2022-3', label: '2022年度 第3回' }
+            ]
         }
     ];
 
-    const BASE_URL = 'https://e-readpass.vercel.app/';
+    const BASE_URL = 'https://read-pass-pro.vercel.app/';
 
     // DOM
     const gradeChips = document.getElementById('gradeChips');
@@ -279,6 +312,10 @@
             else if (section.type === 'reading-comprehension') {
                 renderReadingSection(sectionEl, section, showChoices, showPassage, allQuestions);
             }
+            // Type: sentence-order
+            else if (section.type === 'sentence-order') {
+                renderSentenceOrderSection(sectionEl, section, showChoices, allQuestions);
+            }
 
             sheet.appendChild(sectionEl);
         });
@@ -431,6 +468,38 @@
             }
 
             container.appendChild(passageEl);
+        });
+    }
+
+    // ===== Render Sentence Order Section =====
+    function renderSentenceOrderSection(container, section, showChoices, allQuestions) {
+        section.questions.forEach(q => {
+            allQuestions.push({ number: q.number, numChoices: q.choices ? q.choices.length : 4 });
+            const block = document.createElement('div');
+            block.className = 'q-block';
+
+            let html = `<div class="q-number">(${q.number})</div>`;
+            html += `<div class="q-text">${esc(q.text)}</div>`;
+
+            // Show the word fragments
+            if (q.words) {
+                html += `<div class="q-text" style="margin-top:4px">( ${q.words.map((w, i) => `① ${w}`.replace('①', `\u2460\u2461\u2462\u2463\u2464`[i])).join('\u3000')} )</div>`;
+            }
+
+            // Frame
+            if (q.framePrefix || q.frameSuffix) {
+                html += `<div class="q-text" style="margin-top:2px">${esc(q.framePrefix || '')} (\u3000\u3000)(\u3000\u3000)(\u3000\u3000)(\u3000\u3000)(\u3000\u3000) ${esc(q.frameSuffix || '')}</div>`;
+            }
+
+            if (showChoices && q.choices) {
+                const isShort = q.choices.every(c => c.length < 20);
+                html += `<div class="q-choices${isShort ? ' inline' : ''}">
+                    ${q.choices.map((c, i) => `<div class="q-choice">${i + 1}. ${esc(c)}</div>`).join('')}
+                </div>`;
+            }
+
+            block.innerHTML = html;
+            container.appendChild(block);
         });
     }
 
