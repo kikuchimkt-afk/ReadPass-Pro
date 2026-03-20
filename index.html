@@ -99,49 +99,6 @@
             <div class="highlight-legend" id="highlightLegend"></div>
         </div><!-- /sticky-panel -->
 
-        <!-- Print Menu Modal -->
-        <div class="modal-overlay" id="printModal" style="display:none" onclick="window.APP.closePrintMenu()">
-            <div class="modal-content" onclick="event.stopPropagation()">
-                <h3>印刷メニュー</h3>
-                <div class="print-options">
-                    <button class="print-opt" onclick="window.APP.printVocabList()">
-                        <span class="material-symbols-rounded">list</span>
-                        単語リスト（意味付き）
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printVocabTest()">
-                        <span class="material-symbols-rounded">quiz</span>
-                        単語テスト（意味なし）
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printPart1()">
-                        <span class="material-symbols-rounded">edit_note</span>
-                        大問1 ワークシート
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printPart2()">
-                        <span class="material-symbols-rounded">article</span>
-                        大問2 ワークシート
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printPart3()">
-                        <span class="material-symbols-rounded">library_books</span>
-                        大問3 ワークシート
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printAnswerKey()">
-                        <span class="material-symbols-rounded">key</span>
-                        解答一覧
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printLessonPlan()">
-                        <span class="material-symbols-rounded">menu_book</span>
-                        文法ワークシート（問題＋解答別）
-                    </button>
-                    <button class="print-opt" onclick="window.APP.printLessonRef()">
-                        <span class="material-symbols-rounded">auto_stories</span>
-                        文法解説プリント（講師用）
-                    </button>
-                </div>
-                <button class="btn btn-secondary" onclick="window.APP.closePrintMenu()"
-                    style="margin-top:16px">閉じる</button>
-            </div>
-        </div>
-
         <!-- Tab Navigation -->
         <nav class="tab-nav" id="tabNav">
             <button class="tab-btn active" data-tab="vocab">
@@ -195,38 +152,38 @@
 
     <!-- Print Modal -->
     <div id="printModal" class="print-modal-overlay"
-        style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center">
+        style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.4);align-items:center;justify-content:center">
         <div
-            style="background:var(--surface,#1a1a2e);border-radius:16px;padding:28px 24px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.08)">
-            <h3 style="margin:0 0 18px;font-size:1.1rem;color:var(--text,#e8e8f0)">🖨️ 印刷メニュー</h3>
+            style="background:var(--surface);border-radius:16px;padding:28px 24px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.3);border:1px solid var(--border)">
+            <h3 style="margin:0 0 18px;font-size:1.1rem;color:var(--text)">🖨️ 印刷メニュー</h3>
             <div style="display:flex;flex-direction:column;gap:8px">
                 <button class="print-menu-btn" onclick="window.APP.printVocabList()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📋
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📋
                     単語リスト</button>
                 <button class="print-menu-btn" onclick="window.APP.printVocabTest()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✏️
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✏️
                     単語テスト</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart1()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問1　短文空所補充</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart2()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問2　長文空所補充</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart3()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問3　長文読解</button>
                 <button class="print-menu-btn" onclick="window.APP.printAnswerKey()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✅
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✅
                     解答一覧</button>
                 <button class="print-menu-btn" onclick="window.APP.printLessonPlan()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📚
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📚
                     文法ワークシート</button>
                 <button class="print-menu-btn" onclick="window.APP.printLessonRef()"
-                    style="padding:12px 16px;border:1px solid rgba(255,255,255,0.1);border-radius:10px;background:rgba(255,255,255,0.04);color:var(--text,#e8e8f0);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📖
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📖
                     文法解説プリント（講師用）</button>
             </div>
             <button onclick="window.APP.closePrintMenu()"
-                style="margin-top:16px;width:100%;padding:10px;border:none;border-radius:10px;background:rgba(255,255,255,0.08);color:var(--text2,#9898b0);font-family:inherit;font-size:0.85rem;cursor:pointer">✕
+                style="margin-top:16px;width:100%;padding:10px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text2);font-family:inherit;font-size:0.85rem;cursor:pointer">✕
                 閉じる</button>
         </div>
     </div>

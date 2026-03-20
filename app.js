@@ -8,7 +8,8 @@
     'grade-pre2plus': { name: 'CEFR A2（準2級プラス相当）', path: 'grade-pre2plus' },
     'grade-pre2': { name: 'CEFR A2（準2級相当）', path: 'grade-pre2' },
     grade3: { name: 'CEFR A1（3級相当）', path: 'grade3' },
-    grade4: { name: 'CEFR A1（4級相当）', path: 'grade4' }
+    grade4: { name: 'CEFR A1（4級相当）', path: 'grade4' },
+    grade5: { name: 'CEFR Pre-A1（5級相当）', path: 'grade5' }
   };
   let currentGradeId = null;
   let currentExamId = null;
@@ -1047,7 +1048,46 @@
   }
 
   // ===== PRINT =====
-  APP.showPrintMenu = function () { document.getElementById('printModal').style.display = 'flex'; };
+  APP.showPrintMenu = function () {
+    // Dynamically update section buttons based on DATA.sections
+    const modal = document.getElementById('printModal');
+    const btns = modal.querySelectorAll('.print-menu-btn');
+    // Section button indices: btn[2]=Part1, btn[3]=Part2, btn[4]=Part3, +Part4 if exists
+    const sectionBtnStart = 2; // 0=vocabList, 1=vocabTest, 2=Part1, 3=Part2, 4=Part3
+    const sections = DATA.sections || [];
+    // Remove any previously added Part4 button
+    const existingP4 = modal.querySelector('[data-part4-btn]');
+    if (existingP4) existingP4.remove();
+    // Update Part 1-3 buttons
+    const sectionLabels = { 'vocabulary': '語彙・文法', 'sentence-order': '並べ替え', 'passage-fill': '長文空所補充', 'reading-comprehension': '長文読解' };
+    for (let i = 0; i < 3; i++) {
+      const btn = btns[sectionBtnStart + i];
+      if (!btn) continue;
+      if (i < sections.length) {
+        const sec = sections[i];
+        btn.style.display = '';
+        btn.textContent = `📝 ${sec.name}　${sectionLabels[sec.type] || sec.nameEn || ''}`;
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+    // Add Part4 button if sections[3] exists
+    if (sections.length >= 4) {
+      const sec = sections[3];
+      const p4Btn = document.createElement('button');
+      p4Btn.className = 'print-menu-btn';
+      p4Btn.setAttribute('data-part4-btn', 'true');
+      p4Btn.style.cssText = btns[sectionBtnStart].style.cssText;
+      p4Btn.textContent = `📝 ${sec.name}　${sectionLabels[sec.type] || sec.nameEn || ''}`;
+      p4Btn.onclick = function() { window.APP.printPart4(); };
+      // Insert after Part3 button
+      const afterBtn = btns[sectionBtnStart + 2];
+      if (afterBtn && afterBtn.nextSibling) {
+        afterBtn.parentNode.insertBefore(p4Btn, afterBtn.nextSibling);
+      }
+    }
+    modal.style.display = 'flex';
+  };
   APP.closePrintMenu = function () { document.getElementById('printModal').style.display = 'none'; };
 
   function doPrint(html) {
@@ -1067,40 +1107,76 @@
     doPrint(`<h2>${DATA.title} — 単語テスト</h2><p>次の英単語の意味を日本語で書きなさい。</p><table><tr><th>#</th><th>単語</th><th>品詞</th><th>出典</th><th>意味</th></tr>${rows}</table>`);
   };
 
-  APP.printPart1 = function () {
-    const sec = DATA.sections.find(s => s.type === 'vocabulary');
-    const html = sec.questions.map(q => `<div class="print-q"><div class="print-q-num">(${q.number})</div><div class="print-q-text">${q.text.replace(/\(　\)/g, '(          )')}</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`).join('');
-    doPrint(`<h2>${DATA.title} — 大問1</h2><p>${sec.instruction}</p>${html}`);
-  };
+  APP.printPart1 = function () { printSectionByIndex(0); };
+  APP.printPart2 = function () { printSectionByIndex(1); };
+  APP.printPart3 = function () { printSectionByIndex(2); };
+  APP.printPart4 = function () { printSectionByIndex(3); };
 
-  APP.printPart2 = function () {
-    const sec = DATA.sections.find(s => s.type === 'passage-fill');
-    let html = '';
-    sec.passages.forEach(p => {
-      html += `<h3>${p.label}　${p.title}</h3>`;
-      p.paragraphs.forEach(para => { html += `<div class="print-passage">${para}</div>`; });
-      p.questions.forEach(q => {
-        html += `<div class="print-q"><div class="print-q-num">(${q.number})</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`;
-      });
-    });
-    doPrint(`<h2>${DATA.title} — 大問2</h2><p>${sec.instruction}</p>${html}`);
-  };
+  function printSectionByIndex(idx) {
+    const sec = DATA.sections[idx];
+    if (!sec) { alert(`大問${idx + 1} のデータがありません`); return; }
 
-  APP.printPart3 = function () {
-    const sec = DATA.sections.find(s => s.type === 'reading-comprehension');
-    let html = '';
-    sec.passages.forEach(p => {
-      html += `<h3>${p.label}　${p.title}</h3>`;
-      if (p.format === 'email' && p.meta) {
-        html += `<div style="border:1px solid #999;padding:8px;margin-bottom:8px;font-size:10pt"><div>From: ${p.meta.from}</div><div>To: ${p.meta.to}</div><div>Date: ${p.meta.date}</div><div>Subject: ${p.meta.subject}</div></div>`;
-      }
-      p.paragraphs.forEach(para => { html += `<div class="print-passage">${para}</div>`; });
-      p.questions.forEach(q => {
-        html += `<div class="print-q"><div class="print-q-num">(${q.number}) ${q.question}</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`;
+    if (sec.type === 'vocabulary') {
+      // Vocabulary / conversation fill-in-the-blank
+      const html = sec.questions.map(q => `<div class="print-q"><div class="print-q-num">(${q.number})</div><div class="print-q-text">${q.text.replace(/\(　\)/g, '(\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000)').replace(/\n/g, '<br>')}</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`).join('');
+      doPrint(`<h2>${DATA.title} — ${sec.name}</h2><p>${sec.instruction}</p>${html}`);
+    }
+    else if (sec.type === 'sentence-order') {
+      // Sentence ordering - compact test-style layout
+      const circled = ['①','②','③','④','⑤'];
+      const html = sec.questions.map(q => {
+        const slots = q.answerSlots || [2, 4];
+        const numWords = q.words.length;
+        const wordsLine = '（ ' + q.words.map((w, i) => circled[i] + ' ' + w).join('　') + ' ）';
+        const slotLabelsRow = Array.from({length: numWords}, (_, i) =>
+          `<td style="text-align:center;font-size:7pt;color:#888;padding:0 2px;border:none">${slots.includes(i+1) ? (i+1)+'番目' : ''}</td>`
+        ).join('');
+        const boxesRow = Array.from({length: numWords}, () =>
+          `<td style="padding:0 1px;border:none"><div style="border:1px solid #333;height:18px;min-width:50px"></div></td>`
+        ).join('');
+        const choicesLine = q.choices.map((c, i) =>
+          `<span style="margin-right:24px">${i + 1}　${c}</span>`
+        ).join('');
+        return `<div style="margin-bottom:14px;padding-bottom:6px">
+<div style="margin-bottom:3px"><b>(${q.number})</b>　${q.text}</div>
+<div style="font-size:10pt;margin:2px 0">${wordsLine}</div>
+<table style="margin:2px 0 4px 10px;border-collapse:collapse;border:none"><tr>${slotLabelsRow}</tr><tr>${boxesRow}${q.frameSuffix ? `<td style="padding-left:4px;font-size:10pt;border:none">${q.frameSuffix}</td>` : ''}</tr></table>
+<div style="font-size:10pt;margin-top:2px">${choicesLine}</div>
+</div>`;
+      }).join('');
+      doPrint(`<h2>${DATA.title} — ${sec.name}</h2><p style="font-size:9pt">${sec.instruction}</p>${html}`);
+    }
+    else if (sec.type === 'passage-fill') {
+      // Passage fill (準2級以上)
+      let html = '';
+      sec.passages.forEach(p => {
+        html += `<h3>${p.label}　${p.title}</h3>`;
+        p.paragraphs.forEach(para => { html += `<div class="print-passage">${para}</div>`; });
+        p.questions.forEach(q => {
+          html += `<div class="print-q"><div class="print-q-num">(${q.number})</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`;
+        });
       });
-    });
-    doPrint(`<h2>${DATA.title} — 大問3</h2><p>${sec.instruction}</p>${html}`);
-  };
+      doPrint(`<h2>${DATA.title} — ${sec.name}</h2><p>${sec.instruction}</p>${html}`);
+    }
+    else if (sec.type === 'reading-comprehension') {
+      // Reading comprehension
+      let html = '';
+      sec.passages.forEach(p => {
+        html += `<h3>${p.label}　${p.title}</h3>`;
+        if (p.format === 'email' && p.meta) {
+          html += `<div style="border:1px solid #999;padding:8px;margin-bottom:8px;font-size:10pt"><div>From: ${p.meta.from}</div><div>To: ${p.meta.to}</div><div>Date: ${p.meta.date}</div><div>Subject: ${p.meta.subject}</div></div>`;
+        }
+        p.paragraphs.forEach(para => { html += `<div class="print-passage">${para}</div>`; });
+        p.questions.forEach(q => {
+          html += `<div class="print-q"><div class="print-q-num">(${q.number}) ${q.question}</div><ul class="print-choices">${q.choices.map((c, i) => `<li>${i + 1}　${c}</li>`).join('')}</ul></div>`;
+        });
+      });
+      doPrint(`<h2>${DATA.title} — ${sec.name}</h2><p>${sec.instruction}</p>${html}`);
+    }
+    else {
+      alert(`未対応のセクションタイプ: ${sec.type}`);
+    }
+  }
 
   APP.printAnswerKey = function () {
     const allQs = DATA.sections.flatMap(sec => {
@@ -1250,7 +1326,7 @@
     const area = document.getElementById('lessonPlanArea');
     if (!area) return;
     // Dynamically update lesson tab header/text for Grade 4
-    const isG4Header = currentGradeId === 'grade4';
+    const isG4Header = currentGradeId === 'grade4' || currentGradeId === 'grade5';
     const lessonTab = document.querySelector('[data-tab="lesson"]');
     if (lessonTab) {
       const tabLabel = lessonTab.querySelector('.tab-label');
@@ -1280,7 +1356,7 @@
       const pp = fp.practicePassage;
       const pqs = settings.simpleMode && fp.practiceQuestionsSimple ? fp.practiceQuestionsSimple : (fp.practiceQuestions || (pp && pp.questions) || []);
       const fpUid = `pp-${fp.id || idx}`;
-      const isG4 = currentGradeId === 'grade4';
+      const isG4 = currentGradeId === 'grade4' || currentGradeId === 'grade5';
       const audioLabel = isG4 ? '🔊 聞いてみよう！' : '🔊 音読用音声を再生';
       const audioBtn = pp && pp.audioFile ? `
           <button class="fp-audio-btn" onclick="window.APP.playPracticeAudio(this, '${pp.audioFile}')" title="音声を再生">
@@ -1316,7 +1392,7 @@
           <div class="fp-passage-ja" id="${fpUid}-ja" style="display:none">${(pp.ja || '').replace(/\n/g, '<br>')}</div>
           ${pp.source ? `<div class="fp-passage-source">📌 出典: ${pp.source}</div>` : ''}
         </div>
-        ${(currentGradeId !== 'grade3' && currentGradeId !== 'grade4') ? `<div class="fp-pronunciation-tips">
+        ${(currentGradeId !== 'grade3' && currentGradeId !== 'grade4' && currentGradeId !== 'grade5') ? `<div class="fp-pronunciation-tips">
           <div class="fp-section-label"><span class="material-symbols-rounded">record_voice_over</span>音読のポイント</div>
           <div class="fp-pron-grid">
             <div class="fp-pron-card">

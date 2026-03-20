@@ -109,7 +109,18 @@
                 { id: '2022-3', label: '2022年度 第3回' },
                 { id: '2023-1', label: '2023年度 第1回' },
                 { id: '2023-2', label: '2023年度 第2回' },
-                { id: '2023-3', label: '2023年度 第3回' }
+                { id: '2023-3', label: '2023年度 第3回' },
+                { id: '2024-1', label: '2024年度 第1回' },
+                { id: '2024-2', label: '2024年度 第2回' },
+                { id: '2024-3', label: '2024年度 第3回' },
+                { id: '2025-1', label: '2025年度 第1回' }
+            ]
+        },
+        {
+            id: 'grade5', name: '英検5級',
+            color: '#f472b6', colorRgb: '244, 114, 182', dataPath: 'grade5',
+            exams: [
+                { id: '2021-1', label: '2021年度 第1回' }
             ]
         }
     ];
@@ -146,7 +157,46 @@
         document.querySelectorAll('.grade-chip').forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
         renderExamCheckboxes(grade);
+        renderSectionCheckboxes(grade);
         updateGenerateBtn();
+    }
+
+    // ===== Render Section Checkboxes (dynamic per grade) =====
+    function renderSectionCheckboxes(grade) {
+        const gid = grade.id;
+        sectionCheckboxes.innerHTML = '';
+        let items;
+        if (gid === 'grade5') {
+            // 5級: 大問1(vocabulary) + 大問2(会話vocabulary) + 大問3(語順整序)
+            items = [
+                { value: 'sec-0', label: '大問1（たん語・ぶんぽう）' },
+                { value: 'sec-1', label: '大問2（会話）' },
+                { value: 'sec-2', label: '大問3（ならべかえ）' }
+            ];
+        } else if (gid === 'grade4') {
+            // 4級: 大問1(vocabulary) + 大問2(会話vocabulary) + 大問3(語順整序) + 大問4(読解)
+            items = [
+                { value: 'sec-0', label: '大問1（語彙・文法）' },
+                { value: 'sec-1', label: '大問2（会話）' },
+                { value: 'sec-2', label: '大問3（並べ替え）' },
+                { value: 'sec-3', label: '大問4（長文読解）' }
+            ];
+        } else {
+            // 3級以上: type-based (従来通り)
+            items = [
+                { value: 'vocabulary', label: '大問1（語彙・文法）' },
+                { value: 'passage-fill', label: '大問2（空所補充）' },
+                { value: 'sentence-order', label: '大問3（並べ替え）' },
+                { value: 'reading-comprehension', label: '大問3/4（長文読解）' }
+            ];
+        }
+        items.forEach(item => {
+            const label = document.createElement('label');
+            label.className = 'checkbox-label';
+            label.innerHTML = `<input type="checkbox" value="${item.value}" checked> ${item.label}`;
+            label.querySelector('input').addEventListener('change', updateGenerateBtn);
+            sectionCheckboxes.appendChild(label);
+        });
     }
 
     // ===== Render Exam Checkboxes =====
@@ -283,8 +333,12 @@
 
         if (!data.sections) { sheet.innerHTML += '<p>データにセクション情報がありません</p>'; return sheet; }
 
-        data.sections.forEach(section => {
-            if (!sectionTypes.includes(section.type)) return;
+        data.sections.forEach((section, secIdx) => {
+            // Filter: support both index-based (sec-0, sec-1...) and type-based filters
+            const indexKey = `sec-${secIdx}`;
+            const matchesIndex = sectionTypes.includes(indexKey);
+            const matchesType = sectionTypes.includes(section.type);
+            if (!matchesIndex && !matchesType) return;
 
             const sectionEl = document.createElement('div');
             sectionEl.className = 'section-block';
@@ -364,7 +418,7 @@
             block.className = 'q-block';
 
             let html = `<div class="q-number">(${q.number})</div>`;
-            html += `<div class="q-text">${esc(q.text)}</div>`;
+            html += `<div class="q-text">${esc(q.text).replace(/\(\u3000\)/g, '(\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000\u3000)').replace(/\n/g, '<br>')}</div>`;
 
             if (showChoices && q.choices) {
                 const isShort = q.choices.every(c => c.length < 20);
@@ -476,22 +530,27 @@
 
     // ===== Render Sentence Order Section =====
     function renderSentenceOrderSection(container, section, showChoices, allQuestions) {
+        const circled = ['\u2460','\u2461','\u2462','\u2463','\u2464'];
         section.questions.forEach(q => {
             allQuestions.push({ number: q.number, numChoices: q.choices ? q.choices.length : 4 });
             const block = document.createElement('div');
             block.className = 'q-block';
 
+            const slots = q.answerSlots || [2, 4];
+            const numWords = q.words ? q.words.length : 0;
+            const wordsLine = q.words ? '\uff08 ' + q.words.map((w, i) => circled[i] + ' ' + w).join('\u3000') + ' \uff09' : '';
+            const slotLabelsRow = Array.from({length: numWords}, (_, i) =>
+              `<td style="text-align:center;font-size:7pt;color:#888;padding:0 2px">${slots.includes(i+1) ? (i+1)+'\u756a\u76ee' : ''}</td>`
+            ).join('');
+            const boxesRow = Array.from({length: numWords}, () =>
+              `<td style="padding:0 1px"><div style="border:1px solid #666;height:18px;min-width:50px"></div></td>`
+            ).join('');
+
             let html = `<div class="q-number">(${q.number})</div>`;
             html += `<div class="q-text">${esc(q.text)}</div>`;
-
-            // Show the word fragments
             if (q.words) {
-                html += `<div class="q-text" style="margin-top:4px">( ${q.words.map((w, i) => `① ${w}`.replace('①', `\u2460\u2461\u2462\u2463\u2464`[i])).join('\u3000')} )</div>`;
-            }
-
-            // Frame
-            if (q.framePrefix || q.frameSuffix) {
-                html += `<div class="q-text" style="margin-top:2px">${esc(q.framePrefix || '')} (\u3000\u3000)(\u3000\u3000)(\u3000\u3000)(\u3000\u3000)(\u3000\u3000) ${esc(q.frameSuffix || '')}</div>`;
+                html += `<div style="font-size:9pt;margin:2px 0">${wordsLine}${q.frameSuffix ? '\u3000' + esc(q.frameSuffix) : ''}</div>`;
+                html += `<table style="margin:2px 0 4px 0;border-collapse:collapse"><tr>${slotLabelsRow}</tr><tr>${boxesRow}${q.frameSuffix ? `<td style="padding-left:4px;font-size:9pt">${esc(q.frameSuffix)}</td>` : ''}</tr></table>`;
             }
 
             if (showChoices && q.choices) {
