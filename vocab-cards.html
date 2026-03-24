@@ -679,8 +679,14 @@
 
         function showCard() {
             const item = deck[currentIdx];
+            const flipEl = document.getElementById('flipCard');
             isFlipped = false;
-            document.getElementById('flipCard').classList.remove('flipped');
+            // Disable transition to prevent the back face (with new answer) from being visible during flip animation
+            flipEl.style.transition = 'none';
+            flipEl.classList.remove('flipped');
+            // Force reflow so the card is instantly face-up before we update content
+            flipEl.offsetHeight;
+            // Now safely update card content (back face is hidden)
             document.getElementById('cardNum').textContent = `No.${currentIdx + 1}`;
             document.getElementById('cardNumBack').textContent = `No.${currentIdx + 1}`;
             document.getElementById('cardWord').textContent = item.word;
@@ -699,6 +705,8 @@
             document.getElementById('cardProgressBar').style.width = `${((currentIdx) / deck.length) * 100}%`;
             // Show reveal button
             document.getElementById('cardActions').innerHTML = '<button class="btn-reveal" onclick="flipCard()">答えを見る</button>';
+            // Re-enable transition for the next flip
+            requestAnimationFrame(() => { flipEl.style.transition = ''; });
         }
 
         function flipCard() {
