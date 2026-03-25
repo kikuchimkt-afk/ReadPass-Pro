@@ -1359,10 +1359,20 @@
       const isG4 = currentGradeId === 'grade4' || currentGradeId === 'grade5';
       const audioLabel = isG4 ? '🔊 聞いてみよう！' : '🔊 音読用音声を再生';
       const audioBtn = pp && pp.audioFile ? `
+        <div class="fp-audio-player">
           <button class="fp-audio-btn" onclick="window.APP.playPracticeAudio(this, '${pp.audioFile}')" title="音声を再生">
             <span class="material-symbols-rounded" style="font-size:18px">play_circle</span>
             <span class="fp-audio-label">${audioLabel}</span>
-          </button>` : '';
+          </button>
+          <div class="fp-audio-controls">
+            <span class="fp-audio-time fp-audio-current">0:00</span>
+            <input type="range" class="fp-audio-seek" value="0" step="0.1" min="0" max="100" 
+              oninput="window.APP.seekPracticeAudio(this)" 
+              onchange="window.APP.seekPracticeAudioEnd(this)" 
+              disabled>
+            <span class="fp-audio-time fp-audio-duration">0:00</span>
+          </div>
+        </div>` : '';
       const highlightBtn = (pp && !isG4) ? `
           <button class="fp-pron-hl-btn" onclick="window.APP.togglePronHL('${fpUid}')" title="発音ポイントをハイライト">
             <span class="material-symbols-rounded" style="font-size:18px">highlight</span>
@@ -1641,10 +1651,22 @@
   // ===== PRACTICE AUDIO =====
   let _practiceAudio = null;
   let _practiceAudioBtn = null;
+  let _isSeeking = false;
+
+  function formatAudioTime(seconds) {
+    if (isNaN(seconds) || !isFinite(seconds)) return "0:00";
+    const m = Math.floor(seconds / 60);
+    const s = Math.floor(seconds % 60);
+    return `${m}:${s < 10 ? '0' : ''}${s}`;
+  }
 
   APP.playPracticeAudio = function (btn, audioFile) {
     const grade = GRADE_MAP[currentGradeId];
     const fullPath = `data/${grade.path}/${currentExamId}/${audioFile}`;
+    const playerContainer = btn.closest('.fp-audio-player');
+    const seekSlider = playerContainer ? playerContainer.querySelector('.fp-audio-seek') : null;
+    const currentTimeEl = playerContainer ? playerContainer.querySelector('.fp-audio-current') : null;
+    const durationEl = playerContainer ? playerContainer.querySelector('.fp-audio-duration') : null;
 
     // If same button clicked and already playing, pause
     if (_practiceAudio && _practiceAudioBtn === btn && !_practiceAudio.paused) {
@@ -1669,6 +1691,11 @@
       if (_practiceAudioBtn) {
         _practiceAudioBtn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
         _practiceAudioBtn.querySelector('.fp-audio-label').textContent = '🔊 音読用音声を再生';
+        const oldPlayer = _practiceAudioBtn.closest('.fp-audio-player');
+        if (oldPlayer) {
+          const oldSeek = oldPlayer.querySelector('.fp-audio-seek');
+          if (oldSeek) { oldSeek.value = 0; oldSeek.disabled = true; }
+        }
       }
     }
 
@@ -1677,10 +1704,28 @@
     _practiceAudioBtn = btn;
     btn.querySelector('.material-symbols-rounded').textContent = 'pause_circle';
     btn.querySelector('.fp-audio-label').textContent = '⏸ 一時停止';
+    
+    // Setup seek bar updates
+    if (seekSlider && currentTimeEl && durationEl) {
+      seekSlider.disabled = false;
+      
+      _practiceAudio.addEventListener('loadedmetadata', () => {
+        seekSlider.max = _practiceAudio.duration;
+        durationEl.textContent = formatAudioTime(_practiceAudio.duration);
+      });
+      
+      _practiceAudio.addEventListener('timeupdate', () => {
+        if (!_isSeeking) {
+          seekSlider.value = _practiceAudio.currentTime;
+          currentTimeEl.textContent = formatAudioTime(_practiceAudio.currentTime);
+        }
+      });
+    }
 
     _practiceAudio.addEventListener('ended', () => {
       btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
       btn.querySelector('.fp-audio-label').textContent = '🔊 もう一度再生';
+      if (seekSlider) seekSlider.value = 0;
       _practiceAudio = null;
       _practiceAudioBtn = null;
     });
@@ -1689,6 +1734,22 @@
       btn.querySelector('.material-symbols-rounded').textContent = 'play_circle';
       btn.querySelector('.fp-audio-label').textContent = '❌ 音声なし';
     });
+  };
+
+  APP.seekPracticeAudio = function(slider) {
+    _isSeeking = true;
+    const playerContainer = slider.closest('.fp-audio-player');
+    if (playerContainer) {
+      const currentTimeEl = playerContainer.querySelector('.fp-audio-current');
+      if (currentTimeEl) currentTimeEl.textContent = formatAudioTime(parseFloat(slider.value));
+    }
+  };
+
+  APP.seekPracticeAudioEnd = function(slider) {
+    if (_practiceAudio && _practiceAudioBtn === slider.closest('.fp-audio-player').querySelector('.fp-audio-btn')) {
+      _practiceAudio.currentTime = parseFloat(slider.value);
+    }
+    _isSeeking = false;
   };
 
   // ===== HELPERS =====
