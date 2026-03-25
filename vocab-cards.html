@@ -530,6 +530,12 @@
                 <button class="order-btn active" data-order="seq">出現順</button>
                 <button class="order-btn" data-order="rand">ランダム</button>
             </div>
+            <div class="autoplay-toggle" style="margin-top: 4px;">
+                <label style="font-size: 0.85rem; color: var(--text2); display: flex; align-items: center; gap: 8px; cursor: pointer;">
+                    <input type="checkbox" id="autoplayCheck" checked onchange="toggleAutoplay()" style="width: 16px; height: 16px; accent-color: var(--accent);">
+                    <span>🔊 自動音声再生</span>
+                </label>
+            </div>
             <button class="btn-start" onclick="startCards()">START</button>
             <button class="btn-reset" onclick="resetProgress()">🔄 学習記録をリセット</button>
         </div>
@@ -595,12 +601,22 @@
         let isFlipped = false;
         let order = 'seq';
         let storageKey = '';
+        let autoplayEnabled = true;
 
         function init() {
             const params = new URLSearchParams(window.location.search);
             const dataUrl = params.get('data');
             if (!dataUrl) { document.getElementById('appSub').textContent = 'データが指定されていません'; return; }
             storageKey = 'vocabCards_' + dataUrl;
+            
+            // Load global autoplay setting
+            const savedAutoplay = localStorage.getItem('vocabCardsGlobalAutoplay');
+            if (savedAutoplay !== null) {
+                autoplayEnabled = savedAutoplay === 'true';
+                const apCheck = document.getElementById('autoplayCheck');
+                if(apCheck) apCheck.checked = autoplayEnabled;
+            }
+
             fetch(dataUrl).then(r => r.json()).then(data => {
                 VOCAB = data.vocabulary || [];
                 document.getElementById('appSub').textContent = data.title || '';
@@ -626,6 +642,14 @@
         }
         function saveProgress() {
             localStorage.setItem(storageKey, JSON.stringify({ known: [...known] }));
+        }
+
+        function toggleAutoplay() {
+            const apCheck = document.getElementById('autoplayCheck');
+            if (apCheck) {
+                autoplayEnabled = apCheck.checked;
+                localStorage.setItem('vocabCardsGlobalAutoplay', autoplayEnabled);
+            }
         }
 
         function updateStartScreen() {
@@ -706,7 +730,16 @@
             // Show reveal button
             document.getElementById('cardActions').innerHTML = '<button class="btn-reveal" onclick="flipCard()">答えを見る</button>';
             // Re-enable transition for the next flip
-            requestAnimationFrame(() => { flipEl.style.transition = ''; });
+            requestAnimationFrame(() => { 
+                flipEl.style.transition = ''; 
+                // Autoplay if enabled
+                if (autoplayEnabled && item.wordAudio) {
+                    const btn = srcEl.querySelector('.card-audio-btn');
+                    if (btn) {
+                        playWord(btn, item.wordAudio);
+                    }
+                }
+            });
         }
 
         function flipCard() {
