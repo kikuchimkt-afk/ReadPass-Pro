@@ -1257,7 +1257,9 @@
   APP.printLessonRef = function () {
     const lp = DATA.lessonPlan;
     if (!lp) return;
-    let html = `<h2>${DATA.title} — 文法解説プリント</h2><p style="font-size:9pt;color:#888">講師用参考資料｜大問2・3の読解に必要な重要文法・構文</p>`;
+    const qrUrl = `https://read-pass-pro.vercel.app/index.html?grade=${currentGradeId}&exam=${currentExamId}`;
+    const qrImg = `https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=${encodeURIComponent(qrUrl)}`;
+    let html = `<div style="float:right;text-align:center;margin:0 0 8px 12px"><img src="${qrImg}" style="width:80px;height:80px" alt="QR"><div style="font-size:7pt;color:#888;margin-top:2px">ReadPass Pro</div></div><h2>${DATA.title} — 文法解説プリント</h2><p style="font-size:9pt;color:#888">講師用参考資料｜大問2・3の読解に必要な重要文法・構文</p>`;
 
     lp.focusPoints.forEach((fp, idx) => {
       const n = idx + 1;

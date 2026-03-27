@@ -152,38 +152,38 @@
 
     <!-- Print Modal -->
     <div id="printModal" class="print-modal-overlay"
-        style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.4);align-items:center;justify-content:center">
+        style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.6);align-items:center;justify-content:center">
         <div
-            style="background:var(--surface);border-radius:16px;padding:28px 24px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.3);border:1px solid var(--border)">
-            <h3 style="margin:0 0 18px;font-size:1.1rem;color:var(--text)">🖨️ 印刷メニュー</h3>
+            style="background:var(--bg-secondary);border-radius:16px;padding:28px 24px;max-width:400px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,0.5);border:1px solid var(--border)">
+            <h3 style="margin:0 0 18px;font-size:1.1rem;color:var(--text-primary)">🖨️ 印刷メニュー</h3>
             <div style="display:flex;flex-direction:column;gap:8px">
                 <button class="print-menu-btn" onclick="window.APP.printVocabList()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📋
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📋
                     単語リスト</button>
                 <button class="print-menu-btn" onclick="window.APP.printVocabTest()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✏️
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✏️
                     単語テスト</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart1()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問1　短文空所補充</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart2()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問2　長文空所補充</button>
                 <button class="print-menu-btn" onclick="window.APP.printPart3()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📝
                     大問3　長文読解</button>
                 <button class="print-menu-btn" onclick="window.APP.printAnswerKey()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✅
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">✅
                     解答一覧</button>
                 <button class="print-menu-btn" onclick="window.APP.printLessonPlan()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📚
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📚
                     文法ワークシート</button>
                 <button class="print-menu-btn" onclick="window.APP.printLessonRef()"
-                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📖
+                    style="padding:12px 16px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-primary);font-family:inherit;font-size:0.88rem;cursor:pointer;text-align:left">📖
                     文法解説プリント（講師用）</button>
             </div>
             <button onclick="window.APP.closePrintMenu()"
-                style="margin-top:16px;width:100%;padding:10px;border:1px solid var(--border);border-radius:10px;background:var(--card-bg,var(--surface));color:var(--text2);font-family:inherit;font-size:0.85rem;cursor:pointer">✕
+                style="margin-top:16px;width:100%;padding:10px;border:1px solid var(--border);border-radius:10px;background:var(--bg-card);color:var(--text-secondary);font-family:inherit;font-size:0.85rem;cursor:pointer">✕
                 閉じる</button>
         </div>
     </div>
