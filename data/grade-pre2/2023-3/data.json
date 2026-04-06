@@ -1,0 +1,1960 @@
+{
+    "grade": "準2級",
+    "year": "2023",
+    "session": "3",
+    "title": "2023年度 第3回 英検準2級 リーディング",
+    "vocabulary": [
+        {
+            "word": "access",
+            "meaning": "アクセスする",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "You need a password to access the system.",
+            "distractors": [
+                "配達する",
+                "増加させる",
+                "恥ずかしくさせる"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_001_access.mp3"
+        },
+        {
+            "word": "neighborhood",
+            "meaning": "近所・地域",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "This is a quiet and safe neighborhood.",
+            "distractors": [
+                "気候",
+                "入口",
+                "記念碑"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_002_neighborhood.mp3"
+        },
+        {
+            "word": "transfer",
+            "meaning": "乗り換える",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Please transfer to line 3 at the next station.",
+            "distractors": [
+                "沸騰させる",
+                "引き起こす",
+                "達成する"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_003_transfer.mp3"
+        },
+        {
+            "word": "ceiling",
+            "meaning": "天井",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The ceiling of the room was painted white.",
+            "distractors": [
+                "交差点",
+                "中間",
+                "スタジアム"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_004_ceiling.mp3"
+        },
+        {
+            "word": "steadily",
+            "meaning": "着実に",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "The economy has been growing steadily.",
+            "distractors": [
+                "進んで",
+                "偽って",
+                "怒って"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_005_steadily.mp3"
+        },
+        {
+            "word": "affected",
+            "meaning": "影響を受けた",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Many areas were affected by the storm.",
+            "distractors": [
+                "望んだ",
+                "想定した",
+                "警告した"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_006_affected.mp3"
+        },
+        {
+            "word": "relationship",
+            "meaning": "関係",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "They have a good relationship with their neighbors.",
+            "distractors": [
+                "人口",
+                "素材",
+                "章"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_007_relationship.mp3"
+        },
+        {
+            "word": "made up of",
+            "meaning": "～で構成されている",
+            "pos": "熟語",
+            "level": "準2級",
+            "example": "The team is made up of five members.",
+            "distractors": [
+                "習慣がある",
+                "屈した",
+                "関して"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_008_made_up_of.mp3"
+        },
+        {
+            "word": "all of a sudden",
+            "meaning": "突然",
+            "pos": "熟語",
+            "level": "準2級",
+            "example": "All of a sudden, it started raining.",
+            "distractors": [
+                "最新の",
+                "昔は",
+                "当分の間"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_009_all_of_a_sudden.mp3"
+        },
+        {
+            "word": "on the point of",
+            "meaning": "まさに～しようとして",
+            "pos": "熟語",
+            "level": "準2級",
+            "example": "I was on the point of leaving when she called.",
+            "distractors": [
+                "～を見て",
+                "邪魔で",
+                "～の終わりに"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_010_on_the_point_of.mp3"
+        },
+        {
+            "word": "out of the question",
+            "meaning": "問題外・不可能",
+            "pos": "熟語",
+            "level": "準2級",
+            "example": "Going on vacation right now is out of the question.",
+            "distractors": [
+                "もしかして",
+                "何としても",
+                "大部分は"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_011_out_of_the_question.mp3"
+        },
+        {
+            "word": "do him good",
+            "meaning": "彼のためになる",
+            "pos": "熟語",
+            "level": "準2級",
+            "example": "A walk in the park will do you good.",
+            "distractors": [
+                "真剣に受け止める",
+                "見送る",
+                "電話する"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_012_do_him_good.mp3"
+        },
+        {
+            "word": "figure out",
+            "meaning": "解明する",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "I can't figure out how to solve this problem.",
+            "distractors": [
+                "申し込む",
+                "ひっくり返す",
+                "待機する"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_013_figure_out.mp3"
+        },
+        {
+            "word": "put off",
+            "meaning": "延期する",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "We had to put off the meeting until next week.",
+            "distractors": [
+                "続ける",
+                "与える",
+                "起き上がる"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_014_put_off.mp3"
+        },
+        {
+            "word": "needn't",
+            "meaning": "～する必要はない",
+            "pos": "助動詞",
+            "level": "準2級",
+            "example": "You needn't worry about the test.",
+            "distractors": [
+                "しない",
+                "できなかった",
+                "しなかった"
+            ],
+            "source": "大問1",
+            "wordAudio": "audio/vocab/w_015_needn_t.mp3"
+        },
+        {
+            "word": "textbook",
+            "meaning": "教科書",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Please open your textbook to page 50.",
+            "distractors": [
+                "時計",
+                "財布",
+                "鉛筆"
+            ],
+            "source": "大問2",
+            "wordAudio": "audio/vocab/w_016_textbook.mp3"
+        },
+        {
+            "word": "repair",
+            "meaning": "修理する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "It costs a lot to repair an old car.",
+            "distractors": [
+                "予約する",
+                "包む",
+                "借りる"
+            ],
+            "source": "大問2",
+            "wordAudio": "audio/vocab/w_017_repair.mp3"
+        },
+        {
+            "word": "packing",
+            "meaning": "荷造り",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Have you started packing for the trip?",
+            "distractors": [
+                "予約",
+                "購入",
+                "引越し"
+            ],
+            "source": "大問2",
+            "wordAudio": "audio/vocab/w_018_packing.mp3"
+        },
+        {
+            "word": "officer",
+            "meaning": "警察官",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The officer helped us find the right direction.",
+            "distractors": [
+                "医者",
+                "教師",
+                "店員"
+            ],
+            "source": "大問2",
+            "wordAudio": "audio/vocab/w_019_officer.mp3"
+        },
+        {
+            "word": "outdoor",
+            "meaning": "屋外の",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "We enjoyed the outdoor concert in the park.",
+            "distractors": [
+                "室内の",
+                "半額の",
+                "重い"
+            ],
+            "source": "大問2",
+            "wordAudio": "audio/vocab/w_020_outdoor.mp3"
+        },
+        {
+            "word": "shy",
+            "meaning": "内気な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Tommy is too shy to talk to strangers.",
+            "distractors": [
+                "活発な",
+                "勇敢な",
+                "怠惰な"
+            ],
+            "source": "大問3A",
+            "wordAudio": "audio/vocab/w_021_shy.mp3"
+        },
+        {
+            "word": "offer",
+            "meaning": "申し出る",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "She offered to help me carry the bags.",
+            "distractors": [
+                "拒否する",
+                "要求する",
+                "無視する"
+            ],
+            "source": "大問3A",
+            "wordAudio": "audio/vocab/w_022_offer.mp3"
+        },
+        {
+            "word": "dinosaur",
+            "meaning": "恐竜",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Children love learning about dinosaurs.",
+            "distractors": [
+                "昆虫",
+                "哺乳類",
+                "魚"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_023_dinosaur.mp3"
+        },
+        {
+            "word": "discover",
+            "meaning": "発見する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Scientists discovered a new species of bird.",
+            "distractors": [
+                "隠す",
+                "忘れる",
+                "壊す"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_024_discover.mp3"
+        },
+        {
+            "word": "support",
+            "meaning": "支える",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "These pillars support the weight of the building.",
+            "distractors": [
+                "壊す",
+                "運ぶ",
+                "回転する"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_025_support.mp3"
+        },
+        {
+            "word": "reptile",
+            "meaning": "爬虫類",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Crocodiles and lizards are reptiles.",
+            "distractors": [
+                "哺乳類",
+                "両生類",
+                "昆虫"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_026_reptile.mp3"
+        },
+        {
+            "word": "bone",
+            "meaning": "骨",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The doctor examined the broken bone.",
+            "distractors": [
+                "筋肉",
+                "皮膚",
+                "血液"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_027_bone.mp3"
+        },
+        {
+            "word": "similar",
+            "meaning": "似ている",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Dogs and wolves are very similar.",
+            "distractors": [
+                "異なる",
+                "巨大な",
+                "珍しい"
+            ],
+            "source": "大問3B",
+            "wordAudio": "audio/vocab/w_028_similar.mp3"
+        },
+        {
+            "word": "apply",
+            "meaning": "応募する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "He applied for a job at the new company.",
+            "distractors": [
+                "辞退する",
+                "紹介する",
+                "雇う"
+            ],
+            "source": "大問4A",
+            "wordAudio": "audio/vocab/w_029_apply.mp3"
+        },
+        {
+            "word": "interview",
+            "meaning": "面接",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "She has a job interview next Monday.",
+            "distractors": [
+                "試験",
+                "研修",
+                "会議"
+            ],
+            "source": "大問4A",
+            "wordAudio": "audio/vocab/w_030_interview.mp3"
+        },
+        {
+            "word": "convenient",
+            "meaning": "便利な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The hotel is convenient for the station.",
+            "distractors": [
+                "不便な",
+                "高価な",
+                "危険な"
+            ],
+            "source": "大問4A",
+            "wordAudio": "audio/vocab/w_031_convenient.mp3"
+        },
+        {
+            "word": "spicy",
+            "meaning": "辛い",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "This curry is too spicy for me.",
+            "distractors": [
+                "甘い",
+                "酸っぱい",
+                "苦い"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_032_spicy.mp3"
+        },
+        {
+            "word": "chemical",
+            "meaning": "化学物質",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Capsaicin is a chemical found in chili peppers.",
+            "distractors": [
+                "植物",
+                "金属",
+                "液体"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_033_chemical.mp3"
+        },
+        {
+            "word": "contain",
+            "meaning": "含む",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "This drink contains a lot of sugar.",
+            "distractors": [
+                "除く",
+                "避ける",
+                "失う"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_034_contain.mp3"
+        },
+        {
+            "word": "protect",
+            "meaning": "守る",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Parents always try to protect their children.",
+            "distractors": [
+                "攻撃する",
+                "無視する",
+                "放棄する"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_035_protect.mp3"
+        },
+        {
+            "word": "damage",
+            "meaning": "損傷する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "The storm damaged many buildings.",
+            "distractors": [
+                "修理する",
+                "建てる",
+                "飾る"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_036_damage.mp3"
+        },
+        {
+            "word": "flavor",
+            "meaning": "風味",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Adding herbs improves the flavor of the soup.",
+            "distractors": [
+                "色",
+                "温度",
+                "量"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_037_flavor.mp3"
+        },
+        {
+            "word": "explorer",
+            "meaning": "探検家",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "European explorers traveled to new lands.",
+            "distractors": [
+                "科学者",
+                "芸術家",
+                "教師"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_038_explorer.mp3"
+        },
+        {
+            "word": "popular",
+            "meaning": "人気のある",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Sushi is popular all over the world.",
+            "distractors": [
+                "不人気の",
+                "珍しい",
+                "古い"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_039_popular.mp3"
+        },
+        {
+            "word": "trade",
+            "meaning": "取引する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Countries trade goods with each other.",
+            "distractors": [
+                "隠す",
+                "壊す",
+                "盗む"
+            ],
+            "source": "大問4B",
+            "wordAudio": "audio/vocab/w_040_trade.mp3"
+        }
+    ],
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(20)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "Silvia tried to buy some concert tickets online. However, she could not ( ) the website because many other people were trying to use it at the same time.",
+                    "translation": "シルビアはコンサートのチケットをオンラインで買おうとした。しかし同時に多くの人がサイトを使おうとしていたため( )できなかった。",
+                    "choices": [
+                        "deliver",
+                        "access",
+                        "increase",
+                        "embarrass"
+                    ],
+                    "choiceTranslations": [
+                        "配達する",
+                        "アクセスする",
+                        "増加させる",
+                        "恥ずかしくさせる"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ deliver＝配達する。サイトに不適",
+                        "✅ access＝アクセスする→正解",
+                        "❌ increase＝増加させる。不適",
+                        "❌ embarrass＝恥ずかしくさせる。無関係"
+                    ],
+                    "grammar": "💡 access＝～にアクセスする（他動詞）。"
+                },
+                {
+                    "number": 2,
+                    "text": "A : Oh no! A page of my math textbook has fallen out!\nB : Don't worry. We can fix it with some of this ( ).",
+                    "translation": "A：大変！教科書のページが外れた！\nB：心配しないで。この( )で直せるよ。",
+                    "choices": [
+                        "bacon",
+                        "tape",
+                        "soil",
+                        "mass"
+                    ],
+                    "choiceTranslations": [
+                        "ベーコン",
+                        "テープ",
+                        "土",
+                        "かたまり"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ bacon。無関係",
+                        "✅ tape→正解",
+                        "❌ soil。不適",
+                        "❌ mass。不適"
+                    ],
+                    "grammar": "💡 fall out＝外れる。fix＝修理する。"
+                },
+                {
+                    "number": 3,
+                    "text": "A : Are you happy that you moved to a different part of the city?\nB : Yes, I am. I like my new ( ). It's quiet, the people who live there are friendly, and it's convenient for shopping, too.",
+                    "translation": "A：引っ越して嬉しい？\nB：うん。新しい( )が気に入ってる。静かで人もフレンドリーで買い物にも便利。",
+                    "choices": [
+                        "climate",
+                        "entrance",
+                        "neighborhood",
+                        "monument"
+                    ],
+                    "choiceTranslations": [
+                        "気候",
+                        "入口",
+                        "近所・地域",
+                        "記念碑"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ climate。不適",
+                        "❌ entrance。不適",
+                        "✅ neighborhood→正解",
+                        "❌ monument。無関係"
+                    ],
+                    "grammar": "💡 neighborhood＝近所。convenient for ～＝～に便利。"
+                },
+                {
+                    "number": 4,
+                    "text": "A : Excuse me. How do I get to Parkville Station?\nB : First, take this train to Anderson Station. Then, you need to ( ) to one of the trains that go to Colby Station.",
+                    "translation": "A：パークビル駅にはどう行けば？\nB：まずアンダーソン駅まで行き、コルビー駅行きの電車に( )してください。",
+                    "choices": [
+                        "boil",
+                        "transfer",
+                        "cause",
+                        "achieve"
+                    ],
+                    "choiceTranslations": [
+                        "沸騰させる",
+                        "乗り換える",
+                        "引き起こす",
+                        "達成する"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ boil。無関係",
+                        "✅ transfer→正解",
+                        "❌ cause。不適",
+                        "❌ achieve。不適"
+                    ],
+                    "grammar": "💡 transfer to ～＝～に乗り換える。"
+                },
+                {
+                    "number": 5,
+                    "text": "Harvey is so tall that he can touch the ( ) of his bedroom even when he is standing on the floor.",
+                    "translation": "ハーヴィーはとても背が高く、床に立っているだけでも寝室の( )に手が届く。",
+                    "choices": [
+                        "ceiling",
+                        "crossing",
+                        "medium",
+                        "stadium"
+                    ],
+                    "choiceTranslations": [
+                        "天井",
+                        "交差点",
+                        "中間",
+                        "スタジアム"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ ceiling＝天井→正解",
+                        "❌ crossing。不適",
+                        "❌ medium。不適",
+                        "❌ stadium。無関係"
+                    ],
+                    "grammar": "💡 so...that～構文。ceiling＝天井。"
+                },
+                {
+                    "number": 6,
+                    "text": "The company's profits have grown ( ) because sales of its products have gone up by about 5 percent each year for the last 10 years.",
+                    "translation": "その会社の利益は( )成長してきた。過去10年間毎年約5%ずつ売上が伸びている。",
+                    "choices": [
+                        "steadily",
+                        "willingly",
+                        "falsely",
+                        "angrily"
+                    ],
+                    "choiceTranslations": [
+                        "着実に",
+                        "進んで",
+                        "偽って",
+                        "怒って"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ steadily＝着実に→正解",
+                        "❌ willingly。不適",
+                        "❌ falsely。不適",
+                        "❌ angrily。不適"
+                    ],
+                    "grammar": "💡 steadily＝着実に。go up by ～＝～だけ上がる。"
+                },
+                {
+                    "number": 7,
+                    "text": "A : Was your soccer game ( ) by the heavy rain?\nB : No. Luckily, the game had already finished by the time it started raining.",
+                    "translation": "A：試合は大雨の影響を受けた？\nB：幸い、雨が降り始めた頃にはもう終わっていた。",
+                    "choices": [
+                        "hoped",
+                        "supposed",
+                        "affected",
+                        "warned"
+                    ],
+                    "choiceTranslations": [
+                        "望んだ",
+                        "想定した",
+                        "影響を受けた",
+                        "警告した"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ hoped。不適",
+                        "❌ supposed。不適",
+                        "✅ affected→正解",
+                        "❌ warned。不適"
+                    ],
+                    "grammar": "💡 be affected by ～＝～に影響を受ける。"
+                },
+                {
+                    "number": 8,
+                    "text": "Brenda loves fantasy stories about witches. Yesterday, she read a story about a girl who had ( ) powers and used them to help her friends.",
+                    "translation": "ブレンダは魔女のファンタジー物語が好きだ。昨日、( )な力を持ち友達を助ける少女の物語を読んだ。",
+                    "choices": [
+                        "magic",
+                        "general",
+                        "wealthy",
+                        "bitter"
+                    ],
+                    "choiceTranslations": [
+                        "魔法の",
+                        "一般的な",
+                        "裕福な",
+                        "苦い"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ magic→正解",
+                        "❌ general。不適",
+                        "❌ wealthy。不適",
+                        "❌ bitter。不適"
+                    ],
+                    "grammar": "💡 magic powers＝魔法の力。"
+                },
+                {
+                    "number": 9,
+                    "text": "Although Mike and his older brother often fought when they were young, their ( ) has gotten better since they grew up. These days, they get along very well.",
+                    "translation": "マイクと兄は幼い頃よくケンカしたが、大人になり( )は良くなった。最近はとても仲良くしている。",
+                    "choices": [
+                        "population",
+                        "material",
+                        "relationship",
+                        "chapter"
+                    ],
+                    "choiceTranslations": [
+                        "人口",
+                        "素材",
+                        "関係",
+                        "章"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ population。無関係",
+                        "❌ material。不適",
+                        "✅ relationship→正解",
+                        "❌ chapter。不適"
+                    ],
+                    "grammar": "💡 get along well＝仲良くやる。"
+                },
+                {
+                    "number": 10,
+                    "text": "A : Honey, what do you think of this blue dress?\nB : It's perfect for you! It ( ) the color of your eyes.",
+                    "translation": "A：この青いドレスどう思う？\nB：ぴったり！目の色に( )しているわ。",
+                    "choices": [
+                        "matches",
+                        "joins",
+                        "lifts",
+                        "serves"
+                    ],
+                    "choiceTranslations": [
+                        "合う",
+                        "参加する",
+                        "持ち上げる",
+                        "提供する"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ matches→正解",
+                        "❌ joins。不適",
+                        "❌ lifts。不適",
+                        "❌ serves。不適"
+                    ],
+                    "grammar": "💡 match＝～に合う、調和する。"
+                },
+                {
+                    "number": 11,
+                    "text": "Paul's family is ( ) five people. They are Paul, his mother, his father, and his two sisters.",
+                    "translation": "ポールの家族は5人( )。ポール、母、父、そして2人の姉妹だ。",
+                    "choices": [
+                        "in the habit of",
+                        "given in to",
+                        "made up of",
+                        "with regard to"
+                    ],
+                    "choiceTranslations": [
+                        "習慣",
+                        "屈した",
+                        "構成",
+                        "関して"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ in the habit of＝～する習慣がある。家族構成の説明に不適",
+                        "❌ given in to＝～に屈した。文脈に合わない",
+                        "✅ made up of＝～で構成されている→正解",
+                        "❌ with regard to＝～に関して。文脈に合わない"
+                    ],
+                    "grammar": "💡 be made up of ～＝～で構成されている（= consist of）。受動態の形だが状態を表す。"
+                },
+                {
+                    "number": 12,
+                    "text": "Frank was walking happily home after school. ( ), he remembered that he had left his smartphone in his desk, so he ran back to get it.",
+                    "translation": "フランクは放課後楽しく歩いて帰っていた。( )、机にスマートフォンを忘れたことを思い出し、取りに走って戻った。",
+                    "choices": [
+                        "Up to date",
+                        "In the old days",
+                        "All of a sudden",
+                        "For the moment"
+                    ],
+                    "choiceTranslations": [
+                        "最新",
+                        "昔",
+                        "突然",
+                        "当分"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ Up to date＝最新の。文脈に合わない",
+                        "❌ In the old days＝昔は。過去の習慣ではない",
+                        "✅ All of a sudden＝突然→正解",
+                        "❌ For the moment＝当分の間。文脈に合わない"
+                    ],
+                    "grammar": "💡 All of a sudden＝突然（= suddenly）。had left＝過去完了で「置き忘れていた」。"
+                },
+                {
+                    "number": 13,
+                    "text": "Grant was ( ) of going to the airport to meet Alice when he got a phone call from her. She told him that her flight had been canceled.",
+                    "translation": "グラントはアリスを迎えに空港に行こう( )ときに彼女から電話があった。フライトがキャンセルされたと言われた。",
+                    "choices": [
+                        "at the sight",
+                        "in the way",
+                        "by the end",
+                        "on the point"
+                    ],
+                    "choiceTranslations": [
+                        "見て",
+                        "邪魔",
+                        "終わり",
+                        "まさに"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ at the sight＝～を見て。文脈に合わない",
+                        "❌ in the way＝邪魔で。文脈に合わない",
+                        "❌ by the end＝～の終わりに。文脈に合わない",
+                        "✅ on the point＝まさに～しようとして→正解"
+                    ],
+                    "grammar": "💡 be on the point of doing＝まさに～しようとしている（= be about to do）。"
+                },
+                {
+                    "number": 14,
+                    "text": "Heather wanted to go camping with her friends last weekend. However, it was ( ) because she had an important test on Monday, and she needed to study.",
+                    "translation": "ヘザーは先週末友達とキャンプに行きたかった。しかし月曜に大事なテストがあり勉強が必要だったため( )だった。",
+                    "choices": [
+                        "by any chance",
+                        "out of the question",
+                        "at any cost",
+                        "for the most part"
+                    ],
+                    "choiceTranslations": [
+                        "もしかして",
+                        "問題外",
+                        "何としても",
+                        "大部分"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ by any chance＝もしかして。文脈に合わない",
+                        "✅ out of the question＝問題外・不可能→正解",
+                        "❌ at any cost＝何としても。文脈に合わない",
+                        "❌ for the most part＝大部分は。文脈に合わない"
+                    ],
+                    "grammar": "💡 out of the question＝問題外、不可能（= impossible）。"
+                },
+                {
+                    "number": 15,
+                    "text": "Barry's mother told Barry that it was not healthy to spend so long indoors. She said that it would ( ) to go outside and get some fresh air.",
+                    "translation": "バリーの母はバリーに長時間室内にいるのは健康に良くないと言った。外に出て新鮮な空気を吸うと( )と言った。",
+                    "choices": [
+                        "take him seriously",
+                        "do him good",
+                        "see him off",
+                        "call him up"
+                    ],
+                    "choiceTranslations": [
+                        "真剣に",
+                        "ためになる",
+                        "見送る",
+                        "電話"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ take him seriously＝彼を真剣に受け止める。文脈に合わない",
+                        "✅ do him good＝彼のためになる→正解",
+                        "❌ see him off＝彼を見送る。文脈に合わない",
+                        "❌ call him up＝彼に電話する。文脈に合わない"
+                    ],
+                    "grammar": "💡 do someone good＝～のためになる。fresh air＝新鮮な空気。"
+                },
+                {
+                    "number": 16,
+                    "text": "Sally enjoys doing math problems in her free time. She has fun trying to ( ) what the answers are.",
+                    "translation": "サリーは暇な時に数学の問題を解くのを楽しんでいる。答えが何かを( )しようとするのが楽しい。",
+                    "choices": [
+                        "apply for",
+                        "turn over",
+                        "figure out",
+                        "stand by"
+                    ],
+                    "choiceTranslations": [
+                        "申し込む",
+                        "ひっくり返す",
+                        "解明する",
+                        "待機する"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ apply for＝申し込む。答えに申し込むは不自然",
+                        "❌ turn over＝ひっくり返す。文脈に合わない",
+                        "✅ figure out＝解明する・理解する→正解",
+                        "❌ stand by＝待機する。文脈に合わない"
+                    ],
+                    "grammar": "💡 figure out＝理解する、解明する。have fun doing＝～するのを楽しむ。"
+                },
+                {
+                    "number": 17,
+                    "text": "Jane and Tim were planning to go on a date last Friday, but Jane was not feeling well. They decided to ( ) their date until next week.",
+                    "translation": "ジェーンとティムは先週金曜にデートする予定だったがジェーンの体調が悪く、来週までデートを( )ことにした。",
+                    "choices": [
+                        "carry on",
+                        "give away",
+                        "sit up",
+                        "put off"
+                    ],
+                    "choiceTranslations": [
+                        "続ける",
+                        "与える",
+                        "起き上がる",
+                        "延期する"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ carry on＝続ける。延期の文脈に合わない",
+                        "❌ give away＝ただで与える。デートに使えない",
+                        "❌ sit up＝起き上がる。文脈に合わない",
+                        "✅ put off＝延期する→正解"
+                    ],
+                    "grammar": "💡 put off＝延期する（= postpone）。put off A until B＝AをBまで延期する。"
+                },
+                {
+                    "number": 18,
+                    "text": "A : Do you want me to finish all this work today?\nB : No, you ( ) rush. There are still a few days before it has to be ready.",
+                    "translation": "A：この仕事を全部今日終わらせましょうか？\nB：いいえ、( )急がなくていいよ。準備が必要になるまであと数日あるから。",
+                    "choices": [
+                        "won't",
+                        "couldn't",
+                        "needn't",
+                        "didn't"
+                    ],
+                    "choiceTranslations": [
+                        "しない",
+                        "できなかった",
+                        "必要ない",
+                        "しなかった"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ won't＝～しないだろう。意志・未来の否定で不適",
+                        "❌ couldn't＝～できなかった。過去の能力否定で不適",
+                        "✅ needn't＝～する必要はない→正解",
+                        "❌ didn't＝～しなかった。過去形で不適"
+                    ],
+                    "grammar": "💡 needn't＝～する必要はない（= don't need to）。助動詞needの否定形。"
+                },
+                {
+                    "number": 19,
+                    "text": "Some people hold a small umbrella in summer so as ( ) getting sunburn.",
+                    "translation": "日焼けを( )ために、夏に小さな傘を持つ人もいる。",
+                    "choices": [
+                        "avoid",
+                        "avoiding",
+                        "to avoid",
+                        "be avoiding"
+                    ],
+                    "choiceTranslations": [
+                        "避ける",
+                        "避けること",
+                        "避けるために",
+                        "避けている"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ avoid＝原形。so asの後にはto不定詞が必要",
+                        "❌ avoiding＝動名詞。so asの後には不適",
+                        "✅ to avoid＝to不定詞→正解",
+                        "❌ be avoiding＝進行形。文法的に不正"
+                    ],
+                    "grammar": "💡 so as to do＝～するために（= in order to do）。目的を表す表現。"
+                },
+                {
+                    "number": 20,
+                    "text": "Only a few of Sarah's friends were going to come to her party, so Sarah did not think it was worth ( ) a very big cake.",
+                    "translation": "サラのパーティーに来る友達は数人だけだったので、サラはとても大きなケーキを( )価値はないと思った。",
+                    "choices": [
+                        "made",
+                        "making",
+                        "make",
+                        "makes"
+                    ],
+                    "choiceTranslations": [
+                        "作った",
+                        "作ること",
+                        "作る",
+                        "作る"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ made＝過去形。worthの後には動名詞が必要",
+                        "✅ making＝動名詞→正解",
+                        "❌ make＝原形。文法的に不正",
+                        "❌ makes＝三単現。文法的に不正"
+                    ],
+                    "grammar": "💡 be worth doing＝～する価値がある。worthの後は動名詞（-ing形）。"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の四つの会話文を完成させるために，(21)から(25)に入るものとして最も適切なものを選びなさい。",
+            "questions": [
+                {
+                    "number": 21,
+                    "text": "A : My biology classes are very interesting.\nB : Really? Can I ( 21 )?\nA : Here you are. What do you think?\nB : It looks great!",
+                    "translation": "A：生物の授業がとても面白い\nB：本当？( )できる？\nA：はいどうぞ\nB：すごい！",
+                    "choices": [
+                        "see your textbook",
+                        "speak to your teacher",
+                        "come to your next class",
+                        "borrow your pencil"
+                    ],
+                    "choiceTranslations": [
+                        "教科書を見る",
+                        "先生に話す",
+                        "次の授業に来る",
+                        "鉛筆を借りる"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "o see your textbook",
+                        "x",
+                        "x",
+                        "x"
+                    ],
+                    "grammar": "Can I see~?=見せてもらえる？"
+                },
+                {
+                    "number": 22,
+                    "text": "A : Can you do anything about this broken watch?\nB : It might ( 22 ).\nA : I don't care if it's expensive. It was a present from my mother.",
+                    "translation": "A：この壊れた時計直せる？\nB：( )かも\nA：高くても構わない。母からの贈り物",
+                    "choices": [
+                        "take several weeks until it arrives",
+                        "be impossible to fix it",
+                        "have been sent to the wrong address",
+                        "cost a lot to repair it"
+                    ],
+                    "choiceTranslations": [
+                        "届くまで数週間",
+                        "修理不可能",
+                        "間違った住所に送られた",
+                        "修理に高額"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "x",
+                        "x",
+                        "x",
+                        "o cost a lot to repair"
+                    ],
+                    "grammar": "cost a lot to do=～するのに高額"
+                },
+                {
+                    "number": 23,
+                    "text": "A : Have you ( 23 ) yet?\nB : No, not yet. I thought I'd do it this weekend.\nA : But we're leaving on our trip on Monday.",
+                    "translation": "A：もう( )した？\nB：まだ。週末にやろうと思ってた\nA：でも月曜に旅行に出発するよ",
+                    "choices": [
+                        "made the hotel reservations",
+                        "bought our plane tickets",
+                        "started packing your bags",
+                        "rented a truck to move"
+                    ],
+                    "choiceTranslations": [
+                        "ホテル予約",
+                        "航空券購入",
+                        "荷造り開始",
+                        "引越しトラック"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "x",
+                        "x",
+                        "o started packing",
+                        "x"
+                    ],
+                    "grammar": "start packing=荷造りを始める"
+                },
+                {
+                    "number": 24,
+                    "text": "B : Hello, Officer. I ( 24 ).\nA : Drive back to the first stop sign and turn left.",
+                    "translation": "B：こんにちは警官。( )\nA：最初の一時停止まで戻って左折して",
+                    "choices": [
+                        "found this wallet on a bench",
+                        "think someone took my bag",
+                        "have a problem with my car",
+                        "am looking for the city park"
+                    ],
+                    "choiceTranslations": [
+                        "ベンチで財布を見つけた",
+                        "誰かにバッグを取られた",
+                        "車に問題がある",
+                        "市立公園を探している"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "x",
+                        "x",
+                        "x",
+                        "o am looking for the park"
+                    ],
+                    "grammar": "look for=探す"
+                },
+                {
+                    "number": 25,
+                    "text": "A : Is anything special happening there today?\nB : Yes. I believe there will be ( 25 ).\nA : Great! I love live music.",
+                    "translation": "A：今日何かある？\nB：はい、( )がある\nA：いいね！ライブ音楽大好き",
+                    "choices": [
+                        "an outdoor concert",
+                        "a half-price sale on clothes",
+                        "some heavy rain later",
+                        "people having picnics"
+                    ],
+                    "choiceTranslations": [
+                        "野外コンサート",
+                        "半額セール",
+                        "大雨",
+                        "ピクニック"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "o outdoor concert→live music",
+                        "x",
+                        "x",
+                        "x"
+                    ],
+                    "grammar": "outdoor concert=野外コンサート"
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "passage-fill",
+            "instruction": "次の英文A，Bを読み，その文意にそって(26)から(30)までの(　)に入れるのに最も適切なものを選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Going to a New School",
+                    "paragraphs": [
+                        "Tommy and his family moved into a new house in a different town last week. It was the third time that he and his family had moved this year. Each time Tommy moves, he needs to ( 26 ). However, he is very shy, and he finds it difficult to make new friends. He was worried that he would be lonely.",
+                        "One day when Tommy was walking to school, he saw a girl having trouble with her bicycle by the side of the road. Tommy knew a lot about bicycles, so he walked up to the girl and offered to help her. The girl thanked Tommy. Together, they ( 27 ). The girl said that her name was Amy and that she went to the same school as Tommy. Before Amy got back on her bicycle, she asked Tommy to have lunch with her that day. Tommy was very happy because he had made a friend."
+                    ],
+                    "translations": [
+                        "トミーと家族は先週違う町の新しい家に引っ越した。今年3回目の引っ越しだった。引っ越すたびに( 26 )する必要がある。しかし彼はとても内気で友達を作るのが難しい。寂しくなるのではと心配していた。",
+                        "ある日トミーが学校に歩いていると道端で自転車に困っている女の子を見た。トミーは自転車に詳しかったので彼女に声をかけ手伝いを申し出た。女の子はトミーに感謝した。一緒に( 27 )。女の子はエイミーと言い同じ学校だった。エイミーは自転車に乗る前にトミーに一緒にランチを食べようと誘った。トミーは友達ができてとても嬉しかった。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Tommy and his family moved into a new house in a different town last week.",
+                            "トミーと家族は先週違う町の新しい家に引っ越した。"
+                        ],
+                        [
+                            "It was the third time that he and his family had moved this year.",
+                            "今年3回目の引っ越しだった。"
+                        ],
+                        [
+                            "However, he is very shy, and he finds it difficult to make new friends.",
+                            "しかし彼はとても内気で友達を作るのが難しい。"
+                        ],
+                        [
+                            "One day when Tommy was walking to school, he saw a girl having trouble with her bicycle by the side of the road.",
+                            "ある日学校に歩いていると道端で自転車に困っている女の子を見た。"
+                        ],
+                        [
+                            "Tommy knew a lot about bicycles, so he walked up to the girl and offered to help her.",
+                            "トミーは自転車に詳しかったので声をかけ手伝いを申し出た。"
+                        ],
+                        [
+                            "Tommy was very happy because he had made a friend.",
+                            "トミーは友達ができてとても嬉しかった。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 26,
+                            "choices": [
+                                "learn the way to school",
+                                "put his things in boxes",
+                                "get to know new people",
+                                "remember his new address"
+                            ],
+                            "choiceTranslations": [
+                                "通学路を覚える",
+                                "物を箱に入れる",
+                                "新しい人と知り合う",
+                                "新しい住所を覚える"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "o get to know new people",
+                                "x"
+                            ],
+                            "grammar": "get to know=知り合いになる"
+                        },
+                        {
+                            "number": 27,
+                            "choices": [
+                                "picked up all her books",
+                                "went to look for a new bicycle",
+                                "soon fixed the problem",
+                                "quickly finished their homework"
+                            ],
+                            "choiceTranslations": [
+                                "本を拾った",
+                                "新しい自転車を探しに行った",
+                                "すぐに問題を直した",
+                                "すぐに宿題を終えた"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "o soon fixed the problem",
+                                "x"
+                            ],
+                            "grammar": "fix the problem=問題を解決する"
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "What Did Dinosaurs Look Like?",
+                    "paragraphs": [
+                        "No one has ever seen a real dinosaur, but we can see pictures and models of dinosaurs in museums. Scientists who study dinosaurs have a few different ways to guess what these animals looked like. If the bones of a dinosaur are found, they can be put together to discover the shape and size of the dinosaur. Scientists can often guess which ( 28 ) a bone came from by looking at the bone's shape. For example, a long, thick bone could come from one of a dinosaur's legs because these bones had to support the dinosaur's weight. Smaller, thinner bones might have come from the fingers or toes of the dinosaur.",
+                        "Scientists have discovered that dinosaurs are similar to animals that are alive today. These animals include birds and reptiles, such as crocodiles and lizards. Scientists can look at how the bones of these animals fit together, and this helps the scientists to put together dinosaurs' bones. In addition, birds and reptiles ( 29 ). Dinosaurs' skin and eyes were probably similar to the skin and eyes of birds and reptiles. Special artists can use photos of these animals when they create pictures of dinosaurs.",
+                        "The bones of different dinosaurs are often mixed together. If this happens, scientists must be careful when they decide which bone belongs to which dinosaur. However, they sometimes ( 30 ). In such cases, the wrong bones are put together. This creates problems when scientists try to discover what the dinosaurs looked like."
+                    ],
+                    "translations": [
+                        "恐竜を実際に見た人はいないが、博物館で絵や模型を見ることはできる。恐竜を研究する科学者は外見を推測するいくつかの方法を持っている。骨が見つかれば組み立てて形と大きさを発見できる。科学者は骨の形を見て体のどの( 28 )かを推測できることが多い。例えば長くて太い骨は脚の骨だろう。体重を支える必要があったからだ。小さくて細い骨は指やつま先だったかもしれない。",
+                        "科学者は恐竜が現在生きている動物に似ていることを発見した。鳥やワニ・トカゲなどの爬虫類がそれに含まれる。これらの動物の骨がどう組み合わさるかを見ることで恐竜の骨を組み立てる助けになる。さらに鳥や爬虫類は( 29 )。恐竜の皮膚や目はおそらく鳥や爬虫類のそれに似ていた。専門のアーティストがこれらの動物の写真を使って恐竜の絵を描く。",
+                        "異なる恐竜の骨がしばしば混ざっている。その場合どの骨がどの恐竜のものか慎重に判断しなければならない。しかし時に( 30 )。その場合間違った骨が組み合わされ、恐竜の外見を発見しようとする時に問題が生じる。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "No one has ever seen a real dinosaur, but we can see pictures and models of dinosaurs in museums.",
+                            "恐竜を実際に見た人はいないが博物館で絵や模型を見られる。"
+                        ],
+                        [
+                            "Scientists who study dinosaurs have a few different ways to guess what these animals looked like.",
+                            "恐竜を研究する科学者は外見を推測する方法を持っている。"
+                        ],
+                        [
+                            "Scientists have discovered that dinosaurs are similar to animals that are alive today.",
+                            "恐竜は現在生きている動物に似ていると発見した。"
+                        ],
+                        [
+                            "The bones of different dinosaurs are often mixed together.",
+                            "異なる恐竜の骨はしばしば混ざっている。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 28,
+                            "choices": [
+                                "part of the body",
+                                "area of the world",
+                                "period of history",
+                                "kind of animal"
+                            ],
+                            "choiceTranslations": [
+                                "体の部位",
+                                "世界の地域",
+                                "歴史の時代",
+                                "動物の種類"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "o part of the body",
+                                "x",
+                                "x",
+                                "x"
+                            ],
+                            "grammar": "part of the body=体の部位"
+                        },
+                        {
+                            "number": 29,
+                            "choices": [
+                                "give other useful information",
+                                "produce eggs like dinosaurs",
+                                "often eat the same food",
+                                "usually sleep at night"
+                            ],
+                            "choiceTranslations": [
+                                "他の有用な情報を与える",
+                                "恐竜のように卵を産む",
+                                "同じ食べ物を食べる",
+                                "夜に眠る"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "o give other useful information",
+                                "x",
+                                "x",
+                                "x"
+                            ],
+                            "grammar": "in addition=さらに"
+                        },
+                        {
+                            "number": 30,
+                            "choices": [
+                                "give bones to museums",
+                                "make mistakes",
+                                "take a long time",
+                                "get volunteers to help"
+                            ],
+                            "choiceTranslations": [
+                                "博物館に骨を寄贈する",
+                                "間違いを犯す",
+                                "長い時間がかかる",
+                                "ボランティアを得る"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "x",
+                                "o make mistakes",
+                                "x",
+                                "x"
+                            ],
+                            "grammar": "make mistakes=間違いを犯す"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "大問4",
+            "nameEn": "Part 4",
+            "type": "reading-comprehension",
+            "instruction": "次の英文A，Bの内容に関して，(31)から(37)までの質問に対して最も適切なものを選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Job Interview",
+                    "format": "email",
+                    "meta": {
+                        "from": "Brian Davis <b-davis88@akuniversity.edu>",
+                        "to": "Julie Davis <julie.davis@housemail.com>",
+                        "date": "January 21",
+                        "subject": "Job interview"
+                    },
+                    "paragraphs": [
+                        "Thanks for coming to my birthday party last month. It was nice to see you! Thanks as well for telling me about the new company in your town. I applied to the company for a job as an engineer, and they're going to give me an interview.",
+                        "It will take me six hours to drive to your town, so I think it would be a good idea to arrive the day before the interview and return home the day after. I was going to stay in a cheap hotel. However, Mom said I should send you an e-mail because she thinks that you might let me stay at your place. Would that be OK? My interview is on February 7, at 10 a.m., so I would like to go to your house on February 6.",
+                        "After the interview, I want to see your town a little. If you're free in the afternoon of February 7, could you show me some interesting places? I'd also like to know where the good shops and parks are. I'll meet you at your favorite restaurant and buy you lunch. Also, Mom made strawberry jam, so I'll bring some to you."
+                    ],
+                    "translations": [
+                        "先月の誕生日パーティーに来てくれてありがとう。会えて嬉しかった！あなたの町の新しい会社のことを教えてくれたことにも感謝します。エンジニアの職に応募したら面接をしてくれることになりました。",
+                        "あなたの町まで車で6時間かかるので、面接前日に到着して翌日帰るのがいいと思います。安いホテルに泊まるつもりでしたが、ママがあなたの家に泊めてもらえるかもしれないからメールしなさいと言いました。大丈夫ですか？面接は2月7日午前10時なので、2月6日にお宅に伺いたいです。",
+                        "面接後、あなたの町を少し見てみたいです。2月7日の午後空いていたら、面白い場所を案内してもらえませんか？良いお店や公園も知りたいです。あなたのお気に入りのレストランで会ってランチをご馳走します。ママがいちごジャムを作ったので持って行きます。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Thanks for coming to my birthday party last month.",
+                            "先月の誕生日パーティーに来てくれてありがとう。"
+                        ],
+                        [
+                            "I applied to the company for a job as an engineer, and they're going to give me an interview.",
+                            "エンジニアの職に応募したら面接をしてくれることになった。"
+                        ],
+                        [
+                            "It will take me six hours to drive to your town.",
+                            "あなたの町まで車で6時間かかる。"
+                        ],
+                        [
+                            "My interview is on February 7, at 10 a.m., so I would like to go to your house on February 6.",
+                            "面接は2月7日午前10時なので2月6日にお宅に伺いたい。"
+                        ],
+                        [
+                            "I'll meet you at your favorite restaurant and buy you lunch.",
+                            "お気に入りのレストランで会ってランチをご馳走します。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 31,
+                            "question": "What did Aunt Julie do for Brian?",
+                            "questionTranslation": "ジュリーおばさんはブライアンのために何をした？",
+                            "choices": [
+                                "She held a birthday party for him.",
+                                "She introduced him to an engineer.",
+                                "She asked her boss to give him a job.",
+                                "She told him about a new company."
+                            ],
+                            "choiceTranslations": [
+                                "誕生日パーティーを開いた",
+                                "エンジニアを紹介した",
+                                "上司に仕事をくれるよう頼んだ",
+                                "新しい会社のことを教えた"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "x",
+                                "o told him about a new company"
+                            ],
+                            "grammar": "tell someone about=～について教える"
+                        },
+                        {
+                            "number": 32,
+                            "question": "What does Brian say he will do on February 6?",
+                            "questionTranslation": "ブライアンは2月6日に何をすると言っている？",
+                            "choices": [
+                                "Spend the night at a cheap hotel.",
+                                "Send another e-mail to his aunt.",
+                                "Have an interview in another town.",
+                                "Travel to his aunt's town by car."
+                            ],
+                            "choiceTranslations": [
+                                "安いホテルに泊まる",
+                                "おばさんにもう一通メールを送る",
+                                "別の町で面接を受ける",
+                                "車でおばさんの町に行く"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "x",
+                                "o travel by car on Feb 6"
+                            ],
+                            "grammar": "It takes+時間+to do=～するのに時間がかかる"
+                        },
+                        {
+                            "number": 33,
+                            "question": "In the afternoon on February 7, Brian wants to",
+                            "questionTranslation": "2月7日の午後ブライアンは何をしたい？",
+                            "choices": [
+                                "show his aunt an interesting place he found.",
+                                "make some strawberry jam with his mother.",
+                                "meet his aunt at her favorite restaurant.",
+                                "buy lunch at a shop and eat it in a nice park."
+                            ],
+                            "choiceTranslations": [
+                                "見つけた面白い場所をおばさんに見せる",
+                                "母とジャムを作る",
+                                "おばさんのお気に入りレストランで会う",
+                                "店で昼食を買い公園で食べる"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "o meet at favorite restaurant",
+                                "x"
+                            ],
+                            "grammar": "I'll meet you at=～で会う"
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "Feel the Heat",
+                    "paragraphs": [
+                        "Although people usually avoid pain, there are some situations where people seem to enjoy it. For example, some people really like eating spicy foods with chili peppers. Eating chili peppers can make people's mouths feel like they are burning. Chili peppers can also make people sweat and cry. However, they are very popular, and they have become an important part of the food culture in places such as Mexico, India, and Korea.",
+                        "There are a variety of shapes, colors, and sizes of chili peppers. Some kinds of chili peppers, such as poblano peppers, are not very spicy at all. Other kinds of chili peppers, such as habanero peppers, are really spicy. Even a small amount of such peppers can be too much for most people. Chili peppers are spicy because they contain a chemical called capsaicin. Most of the capsaicin is in the white parts inside a chili pepper that hold the pepper's seeds.",
+                        "Scientists guess that chili peppers produce capsaicin to protect their seeds. Animals like mice damage the seeds when they eat chili peppers, but capsaicin is too spicy for such animals. However, birds do not damage the seeds when they eat chili peppers, and capsaicin has no effect on birds. Humans can eat chili peppers because they mix the peppers with other foods so that they are not too spicy. They also discovered that adding small amounts of chili pepper improved the flavor of their food and kept it fresh for longer.",
+                        "People have been growing and eating chili peppers in South America for thousands of years. European explorers first took chili peppers from South America to Europe over 400 years ago. They soon became popular there. As chili peppers were traded for goods around the world, their popularity spread to Asia and Africa, too."
+                    ],
+                    "translations": [
+                        "人は通常痛みを避けるが、楽しんでいるように見える状況もある。例えば唐辛子を使った辛い食べ物が好きな人もいる。唐辛子を食べると口が燃えるように感じ、汗をかいたり泣いたりすることもある。しかし非常に人気があり、メキシコ・インド・韓国などで食文化の重要な一部となっている。",
+                        "唐辛子には様々な形・色・大きさがある。ポブラノペッパーのようにあまり辛くないものもある。ハバネロペッパーのように非常に辛いものもある。唐辛子が辛いのはカプサイシンという化学物質を含んでいるからだ。カプサイシンの大部分は種を保持する白い部分にある。",
+                        "科学者は唐辛子が種を守るためにカプサイシンを生成すると推測する。ネズミのような動物は種を傷つけるがカプサイシンは辛すぎる。しかし鳥は種を傷つけずカプサイシンは鳥に影響しない。人間は他の食品と混ぜて辛さを抑えて食べる。少量加えると風味が改善され長持ちすることも発見した。",
+                        "南米では何千年も前から唐辛子を栽培し食べてきた。ヨーロッパの探検家が400年以上前に南米からヨーロッパに持ち込み、すぐに人気になった。世界中で取引されアジアやアフリカにも広がった。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Although people usually avoid pain, there are some situations where people seem to enjoy it.",
+                            "人は通常痛みを避けるが楽しむ場合もある。"
+                        ],
+                        [
+                            "Chili peppers are spicy because they contain a chemical called capsaicin.",
+                            "唐辛子が辛いのはカプサイシンを含むから。"
+                        ],
+                        [
+                            "Scientists guess that chili peppers produce capsaicin to protect their seeds.",
+                            "種を守るためにカプサイシンを生成すると推測する。"
+                        ],
+                        [
+                            "European explorers first took chili peppers from South America to Europe over 400 years ago.",
+                            "400年以上前に南米からヨーロッパに持ち込まれた。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 34,
+                            "question": "Eating spicy foods with chili peppers",
+                            "questionTranslation": "唐辛子を使った辛い食べ物を食べることは",
+                            "choices": [
+                                "is recommended by doctors in some situations.",
+                                "has become very popular in some parts of the world.",
+                                "usually helps people to avoid feeling pain.",
+                                "makes people sweat less when the weather is hot."
+                            ],
+                            "choiceTranslations": [
+                                "医師に推奨されることがある",
+                                "世界の一部の地域で非常に人気になった",
+                                "通常痛みを避けるのに役立つ",
+                                "暑い時に汗を減らす"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "x",
+                                "o popular in Mexico, India, Korea",
+                                "x",
+                                "x"
+                            ],
+                            "grammar": "become popular=人気になる"
+                        },
+                        {
+                            "number": 35,
+                            "question": "What is one difference between poblano peppers and habanero peppers?",
+                            "questionTranslation": "ポブラノとハバネロの違いは？",
+                            "choices": [
+                                "Habanero peppers are much larger than poblano peppers.",
+                                "Habanero peppers contain a smaller number of seeds.",
+                                "Poblano peppers are available in a wider variety of colors.",
+                                "Poblano peppers have less capsaicin than habanero peppers."
+                            ],
+                            "choiceTranslations": [
+                                "ハバネロの方がずっと大きい",
+                                "ハバネロの方が種が少ない",
+                                "ポブラノの方が色の種類が多い",
+                                "ポブラノの方がカプサイシンが少ない"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "x",
+                                "o poblano not spicy, habanero really spicy"
+                            ],
+                            "grammar": "less...than=～より少ない"
+                        },
+                        {
+                            "number": 36,
+                            "question": "Why do chili peppers probably make capsaicin?",
+                            "questionTranslation": "なぜ唐辛子はカプサイシンを作るのか？",
+                            "choices": [
+                                "Because humans grow chili peppers with other foods.",
+                                "Because their original flavor did not attract many birds.",
+                                "So that the peppers stay fresh for a longer period of time.",
+                                "So that their seeds will not be damaged by animals."
+                            ],
+                            "choiceTranslations": [
+                                "人間が他の食品と育てるから",
+                                "元の風味が鳥を引きつけなかったから",
+                                "長期間新鮮さを保つため",
+                                "動物に種を傷つけられないようにするため"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "x",
+                                "o to protect seeds from animals"
+                            ],
+                            "grammar": "so that=～するために"
+                        },
+                        {
+                            "number": 37,
+                            "question": "When did chili peppers become popular in Europe?",
+                            "questionTranslation": "唐辛子はいつヨーロッパで人気になった？",
+                            "choices": [
+                                "After it became possible to trade them for goods around the world.",
+                                "Since they were first grown and eaten there thousands of years ago.",
+                                "Over 400 years after they were first taken to Asia and Africa.",
+                                "Soon after explorers brought them back from South America."
+                            ],
+                            "choiceTranslations": [
+                                "世界中で取引できるようになった後",
+                                "何千年前に初めて栽培された時から",
+                                "アジアアフリカに持ち込まれてから400年以上後",
+                                "探検家が南米から持ち帰った後すぐ"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "x",
+                                "x",
+                                "x",
+                                "o soon after explorers brought them"
+                            ],
+                            "grammar": "soon after=～の後すぐに"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "過去完了で「すでに～していた」を表す",
+                "subtitle": "Past Perfect: Sequence of Past Events",
+                "explanation": "had＋過去分詞で「過去のある時点ですでに～していた」を表す。2つの過去の出来事の前後関係を明確にする英検頻出構文。",
+                "sourceQuote": "It was the third time that he and his family had moved this year. / Tommy was very happy because he had made a friend.",
+                "sourceLocation": "大問3A 第1・2段落",
+                "examples": [
+                    {
+                        "en": "It was the third time that he and his family had moved this year.",
+                        "ja": "今年で彼と家族が引っ越すのは3回目だった。",
+                        "note": "It was the+序数+time+that+had過去分詞。経験の回数を過去完了で表す。"
+                    },
+                    {
+                        "en": "Tommy was very happy because he had made a friend.",
+                        "ja": "トミーは友達ができたのでとても嬉しかった。",
+                        "note": "was happy（過去）の理由がhad made（過去完了）。時間順序を明示。"
+                    },
+                    {
+                        "en": "She told him that her flight had been canceled.",
+                        "ja": "フライトがキャンセルされたと伝えた。",
+                        "note": "had been canceled＝過去完了の受動態。電話時点より前にキャンセルされていた。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Going to a New School]\nTommy and his family moved into a new house in a different town last week. It was the third time that he and his family had moved this year. Each time Tommy moves, he needs to get to know new people. However, he is very shy, and he finds it difficult to make new friends. He was worried that he would be lonely.\nOne day when Tommy was walking to school, he saw a girl having trouble with her bicycle by the side of the road. Tommy knew a lot about bicycles, so he walked up to the girl and offered to help her. The girl thanked Tommy. Together, they soon fixed the problem. The girl said that her name was Amy and that she went to the same school as Tommy. Before Amy got back on her bicycle, she asked Tommy to have lunch with her that day. Tommy was very happy because he had made a friend.",
+                    "ja": "トミーと家族は先週違う町の新しい家に引っ越した。今年で引っ越すのは3回目だった。引っ越すたびに新しい人と知り合う必要がある。しかし彼はとても内気で友達を作るのが難しい。寂しくなるのではと心配していた。\nある日学校に歩いていると道端で自転車に困っている女の子を見た。トミーは自転車に詳しかったので声をかけ手伝いを申し出た。一緒にすぐ問題を直した。エイミーという名で同じ学校だった。トミーは友達ができてとても嬉しかった。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "had moved this year",
+                    "had made a friend",
+                    "was worried that he would",
+                    "he finds it difficult to make"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "過去完了",
+                "practiceQuestions": [
+                    {
+                        "q": "'It was the third time that he had moved'の構文を説明してください。",
+                        "a": "It was the+序数+time+that+過去完了。経験の累計を表す。"
+                    },
+                    {
+                        "q": "'was very happy because he had made a friend'の時制関係は？",
+                        "a": "had made（過去完了）→was happy（過去）。友達ができた→嬉しかった。"
+                    },
+                    {
+                        "q": "'He was worried that he would be lonely'のwouldは何を表す？",
+                        "a": "過去からみた未来の推量。時制の一致でwillがwouldに。"
+                    },
+                    {
+                        "q": "トミーの気持ちの変化を整理してください。",
+                        "a": "worried→saw chance to help→offered help→made friend→very happy。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "受動態の多様な形",
+                "subtitle": "Various Forms of Passive Voice",
+                "explanation": "受動態be＋過去分詞は「される・された」を表す。助動詞＋be＋過去分詞、現在形・過去形の受動態など多様な形を使い分ける。",
+                "sourceQuote": "the bones of a dinosaur are found / they can be put together / The bones are often mixed together",
+                "sourceLocation": "大問3B 第1・3段落",
+                "examples": [
+                    {
+                        "en": "If the bones of a dinosaur are found, they can be put together.",
+                        "ja": "恐竜の骨が見つかれば組み立てることができる。",
+                        "note": "are found＝現在形受動態。can be put together＝助動詞＋受動態。"
+                    },
+                    {
+                        "en": "The bones of different dinosaurs are often mixed together.",
+                        "ja": "異なる恐竜の骨はしばしば混ざり合っている。",
+                        "note": "are mixed＝受動態。oftenで習慣的な状態を示す。"
+                    },
+                    {
+                        "en": "As chili peppers were traded for goods around the world, their popularity spread.",
+                        "ja": "唐辛子が世界中で取引されるにつれ人気が広がった。",
+                        "note": "were traded＝過去形受動態。as＝「～するにつれて」。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: What Did Dinosaurs Look Like? 第1・3段落]\nNo one has ever seen a real dinosaur, but we can see pictures and models of dinosaurs in museums. Scientists who study dinosaurs have a few different ways to guess what these animals looked like. If the bones of a dinosaur are found, they can be put together to discover the shape and size of the dinosaur. Scientists can often guess which part of the body a bone came from by looking at the bone's shape.\nThe bones of different dinosaurs are often mixed together. If this happens, scientists must be careful when they decide which bone belongs to which dinosaur. However, they sometimes make mistakes. In such cases, the wrong bones are put together. This creates problems when scientists try to discover what the dinosaurs looked like.",
+                    "ja": "恐竜を実際に見た人はいないが博物館で絵や模型を見られる。科学者は外見を推測する方法を持っている。骨が見つかれば組み立てて形と大きさを発見できる。骨の形を見て体のどの部位かを推測できる。\n異なる恐竜の骨はしばしば混ざり合っている。どの骨がどの恐竜のものか慎重に判断する必要がある。しかし時々間違いを犯す。間違った骨が組み合わされ、恐竜の外見を発見しようとする時に問題が生じる。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "bones of a dinosaur are found",
+                    "can be put together",
+                    "are often mixed together",
+                    "the wrong bones are put together",
+                    "were traded for goods"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "受動態",
+                "practiceQuestions": [
+                    {
+                        "q": "'can be put together'の構文を分析してください。",
+                        "a": "助動詞can＋be＋過去分詞put＝助動詞付き受動態。「組み立てることができる」。"
+                    },
+                    {
+                        "q": "'are found'と'were traded'の時制の違いは？",
+                        "a": "are found＝現在形（一般的条件）。were traded＝過去形（歴史的事実）。"
+                    },
+                    {
+                        "q": "恐竜の骨が「混ざる」ことでどんな問題が起きますか？",
+                        "a": "間違った骨が組み合わされ、外見の復元が誤ったものになる。"
+                    },
+                    {
+                        "q": "この文章で受動態が多用される理由は？",
+                        "a": "科学的文章では行為者より対象が重要。骨を主語にすることで客観的に説明できる。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "使役構文 make＋O＋V/C",
+                "subtitle": "Causative: make + Object + Verb/Complement",
+                "explanation": "make＋O＋動詞原形で「Oに～させる」、make＋O＋形容詞で「Oを～にする」を表す。原因→結果を簡潔に表現する構文。",
+                "sourceQuote": "Eating chili peppers can make people's mouths feel like they are burning. / Chili peppers can also make people sweat and cry.",
+                "sourceLocation": "大問4B 第1段落",
+                "examples": [
+                    {
+                        "en": "Eating chili peppers can make people's mouths feel like they are burning.",
+                        "ja": "唐辛子を食べると口が燃えるように感じさせる。",
+                        "note": "make＋O＋V。like節で比喩を表す。"
+                    },
+                    {
+                        "en": "Chili peppers can also make people sweat and cry.",
+                        "ja": "人に汗をかかせたり泣かせたりもする。",
+                        "note": "make＋O＋V。2つの動詞原形をandでつなぐ。"
+                    },
+                    {
+                        "en": "Adding small amounts of chili pepper improved the flavor and kept it fresh for longer.",
+                        "ja": "少量の唐辛子を加えると風味が改善され長持ちした。",
+                        "note": "動名詞主語＋動詞。原因→結果の因果関係。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Feel the Heat 第1-2段落]\nAlthough people usually avoid pain, there are some situations where people seem to enjoy it. For example, some people really like eating spicy foods with chili peppers. Eating chili peppers can make people's mouths feel like they are burning. Chili peppers can also make people sweat and cry. However, they are very popular, and they have become an important part of the food culture in places such as Mexico, India, and Korea.\nThere are a variety of shapes, colors, and sizes of chili peppers. Some kinds of chili peppers, such as poblano peppers, are not very spicy at all. Other kinds of chili peppers, such as habanero peppers, are really spicy. Even a small amount of such peppers can be too much for most people. Chili peppers are spicy because they contain a chemical called capsaicin.",
+                    "ja": "人は通常痛みを避けるが楽しむ場合もある。唐辛子を食べると口が燃えるように感じさせる。汗をかかせたり泣かせたりもする。しかし非常に人気がありメキシコ・インド・韓国などの食文化の一部に。\n唐辛子には様々な形・色・大きさがある。あまり辛くないものも非常に辛いものもある。少量でもほとんどの人には辛すぎることがある。辛いのはカプサイシンという化学物質を含むから。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "make people's mouths feel like they are burning",
+                    "make people sweat and cry",
+                    "too much for most people",
+                    "have become an important part"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "使役構文",
+                "practiceQuestions": [
+                    {
+                        "q": "'make people's mouths feel'の構文を分析してください。",
+                        "a": "make＋O＋V＝使役。like節で「燃えているかのように」感じさせる。"
+                    },
+                    {
+                        "q": "'too much for most people'はどのような意味？",
+                        "a": "「ほとんどの人にとって辛すぎる」。too＋形容詞＋for＋人で限界超過を表す。"
+                    },
+                    {
+                        "q": "唐辛子が辛い理由を英語で説明してください。",
+                        "a": "They contain a chemical called capsaicin."
+                    },
+                    {
+                        "q": "'have become'の時制は何を表す？",
+                        "a": "現在完了。過去に人気になり、今も続いている状態を表す。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "目的・理由の接続表現",
+                "subtitle": "Purpose and Reason Connectors",
+                "explanation": "to doで目的、becauseで理由、so thatで目的や結果を表す。科学的説明文で論理関係を明示する重要な構文。",
+                "sourceQuote": "produce capsaicin to protect their seeds / because they mix the peppers / so that they are not too spicy",
+                "sourceLocation": "大問4B 第3段落",
+                "examples": [
+                    {
+                        "en": "Scientists guess that chili peppers produce capsaicin to protect their seeds.",
+                        "ja": "種を守るためにカプサイシンを生成すると推測する。",
+                        "note": "to protect＝目的の不定詞。「守るために」。"
+                    },
+                    {
+                        "en": "Humans can eat chili peppers because they mix the peppers with other foods so that they are not too spicy.",
+                        "ja": "他の食品と混ぜて辛すぎないようにして食べる。",
+                        "note": "because＝理由。so that＝目的。二重の論理関係。"
+                    },
+                    {
+                        "en": "These bones had to support the dinosaur's weight.",
+                        "ja": "これらの骨は恐竜の体重を支えなければならなかった。",
+                        "note": "had to＝過去の義務。because節の理由として使われる。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Feel the Heat 第3-4段落]\nScientists guess that chili peppers produce capsaicin to protect their seeds. Animals like mice damage the seeds when they eat chili peppers, but capsaicin is too spicy for such animals. However, birds do not damage the seeds when they eat chili peppers, and capsaicin has no effect on birds. Humans can eat chili peppers because they mix the peppers with other foods so that they are not too spicy. They also discovered that adding small amounts of chili pepper improved the flavor of their food and kept it fresh for longer.\nPeople have been growing and eating chili peppers in South America for thousands of years. European explorers first took chili peppers from South America to Europe over 400 years ago. They soon became popular there. As chili peppers were traded for goods around the world, their popularity spread to Asia and Africa, too.",
+                    "ja": "種を守るためにカプサイシンを生成すると推測。ネズミは種を傷つけるがカプサイシンは辛すぎる。鳥は種を傷つけず影響なし。人間は他の食品と混ぜて食べる。少量加えると風味改善し長持ち。\n南米では何千年も前から栽培。400年以上前にヨーロッパヘ持ち込まれすぐ人気に。世界中に拡大。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "produce capsaicin to protect their seeds",
+                    "because they mix the peppers with other foods",
+                    "so that they are not too spicy",
+                    "because they contain a chemical called capsaicin",
+                    "because these bones had to support"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "目的・理由",
+                "practiceQuestions": [
+                    {
+                        "q": "'to protect their seeds'のtoの用法は？",
+                        "a": "目的を表す副詞的用法の不定詞。= in order to protect。"
+                    },
+                    {
+                        "q": "'because...so that'の論理構造は？",
+                        "a": "because＝理由（混ぜるから食べられる）、so that＝目的（辛すぎないように）。"
+                    },
+                    {
+                        "q": "カプサイシンに対する動物・鳥・人間の反応の違いは？",
+                        "a": "動物→辛すぎて避ける。鳥→影響なし。人間→混ぜて食べる。"
+                    },
+                    {
+                        "q": "唐辛子が世界に広まった経緯を時系列で説明してください。",
+                        "a": "数千年前南米→400年前ヨーロッパへ→すぐ人気に→アジア・アフリカへ。"
+                    }
+                ]
+            },
+            {
+                "id": "fp5",
+                "title": "パラフレーズの読解力",
+                "subtitle": "Paraphrase Reading Comprehension",
+                "explanation": "読解問題の選択肢は本文の表現を別の言葉で言い換えたもの。同義語の置き換え、視点の変更、肯定と否定の転換の3パターンを意識して読む。",
+                "sourceQuote": "telling me about the new company = told him about a new company / drive to your town = Travel by car / produce capsaicin to protect = seeds will not be damaged",
+                "sourceLocation": "大問4A・4B 選択肢",
+                "examples": [
+                    {
+                        "en": "telling me about the new company = told him about a new company",
+                        "ja": "新しい会社のことを教えてくれた＝彼に教えた",
+                        "note": "視点の変更：me→him。時制も変化：telling→told。"
+                    },
+                    {
+                        "en": "It will take me six hours to drive = Travel to his aunt's town by car",
+                        "ja": "車で6時間かかる＝おばさんの町に車で行く",
+                        "note": "同義語の置き換え：drive＝travel by car、your town＝his aunt's town。"
+                    },
+                    {
+                        "en": "produce capsaicin to protect = seeds will not be damaged by animals",
+                        "ja": "種を守るために生成＝動物に種を傷つけられないように",
+                        "note": "肯定と否定の転換：protect→not be damaged。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Brian's Email]\nThanks for coming to my birthday party last month. It was nice to see you! Thanks as well for telling me about the new company in your town. I applied to the company for a job as an engineer, and they're going to give me an interview.\nIt will take me six hours to drive to your town, so I think it would be a good idea to arrive the day before the interview and return home the day after. I was going to stay in a cheap hotel. However, Mom said I should send you an e-mail because she thinks that you might let me stay at your place. Would that be OK? My interview is on February 7, at 10 a.m., so I would like to go to your house on February 6.\nAfter the interview, I want to see your town a little. If you're free in the afternoon of February 7, could you show me some interesting places? I'll meet you at your favorite restaurant and buy you lunch. Also, Mom made strawberry jam, so I'll bring some to you.",
+                    "ja": "先月の誕生日パーティーに来てくれてありがとう。新しい会社のことを教えてくれたことにも感謝。エンジニアの職に応募して面接をしてくれることに。\n車で6時間かかるので面接前日に到着して翌日帰るのがいい。安いホテルに泊まるつもりだったがあなたの家に泊めてもらえるかも。面接は2月7日午前10時なので2月6日に伺いたい。\n面接後町を見たい。2月7日午後空いていたら案内して。お気に入りレストランでランチをご馳走します。",
+                    "audioFile": "audio/practice_pp5.mp3"
+                },
+                "highlightPatterns": [
+                    "telling me about the new company",
+                    "told him about a new company",
+                    "drive to your town",
+                    "Travel to his aunt's town by car",
+                    "meet you at your favorite restaurant",
+                    "produce capsaicin to protect their seeds"
+                ],
+                "highlightColor": "#f59e0b",
+                "highlightLabel": "パラフレーズ",
+                "practiceQuestions": [
+                    {
+                        "q": "Q31の正答は本文のどの表現のパラフレーズですか",
+                        "a": "本文：telling me about the new company→選択肢：told him about a new company。me→him、telling→told。"
+                    },
+                    {
+                        "q": "Q32の根拠を本文から示してください。",
+                        "a": "本文：It will take me six hours to drive to your town＋February 6。drive＝travel by car。"
+                    },
+                    {
+                        "q": "パラフレーズの3つの主要パターンは何ですか",
+                        "a": "1.同義語の置き換え 2.視点の変更 3.肯定と否定の転換。"
+                    },
+                    {
+                        "q": "Q33の答えの根拠となる本文の表現を引用してください。",
+                        "a": "I'll meet you at your favorite restaurant and buy you lunch。your→her。"
+                    }
+                ]
+            }
+        ]
+    }
+}

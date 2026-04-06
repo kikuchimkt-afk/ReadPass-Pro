@@ -91,7 +91,7 @@ for i in range(len(doc)):
 doc.close()
 ```
 
-**ページ構成（準2級 2024年度改訂後）:**
+**ページ構成（準2級 2024年度改訂後・新形式 29問）:**
 | ページ | 内容 |
 |--------|------|
 | 3-4 | 大問1（語彙・文法 15問） |
@@ -100,6 +100,18 @@ doc.close()
 | 7-9 | 大問4（長文読解 2パッセージ 7問） |
 | 10-11 | ライティング（参考用） |
 | 12+ | リスニング（参考用） |
+
+**ページ構成（準2級 2023年度以前・旧形式 37問）:**
+| ページ | 内容 |
+|--------|------|
+| 3-5 | 大問1（語彙・文法 20問） |
+| 5-6 | 大問2（会話文空所補充 5問） |
+| 6-7 | 大問3（長文穴埋め 2パッセージ A:3問 B:2問） |
+| 7-9 | 大問4（長文読解 2パッセージ A:3問 B:4問） |
+| 10-11 | ライティング（参考用） |
+| 12+ | リスニング（参考用） |
+
+> **⚠ 旧形式と新形式の違い:** 旧形式(2023-3以前)は大問1が20問、大問3が2パッセージ（5問）、合計37問。新形式(2024-1以降)は大問1が15問、大問3が1パッセージ（2問）、合計29問。検証スクリプトの問題数チェックを適宜調整すること。
 
 ---
 
@@ -429,8 +441,9 @@ print(f"Saved to {output_path}")
         }
     ],
     "practicePassage": {       // ★★★ 全FPに必須（欠落厳禁）★★★
-        "en": "Practice paragraph (5-7 sentences, original topic)...",
-        "ja": "練習パッセージ和訳..."
+        "en": "[出典: パッセージタイトル 第N段落]\n本試験の大問3・4のパッセージから抜粋した実際のテキスト",
+        "ja": "和訳テキスト",
+        "audioFile": "audio/practice_ppN.mp3"
     },
     "practiceQuestions": [       // ★focusPointの直下（practicePassage内ではない）
         {"q": "質問", "a": "回答"},
@@ -452,41 +465,51 @@ print(f"Saved to {output_path}")
 | fp1-fp4 | **文法・構文トピック** | 同じ級の他試験と重複しないトピックを選ぶ |
 | fp5 | **パラフレーズ（必須）** | タイトル固定「今回の重要なパラフレーズ」 |
 
-#### ★★★ FP品質ルール（最重要）★★★
+#### ★★★ FPトピック選定ルール（最重要・2023-3セッションで確立）★★★
+
+> **⚠ FP1〜5のトピック・examples・practicePassageは、すべて大問2・3・4のパッセージから選定すること。大問1（語彙・文法の穴埋め）からは選定しない。**
+
+**理由:**
+- FPのハイライトは大問3・4のパッセージ本文に表示される
+- 大問1は個別の短文で、パッセージとして意味をなさない
+- 練習パッセージは本試験のパッセージを引用するため、大問3-4が素材
 
 > **⚠ FP1〜4は必ず文法・構文トピックにすること。内容テーマ（語彙・トピック）ベースのFPは不可。**
 
 **✅ 準2級向けFPタイトル例（文法・構文）：**
-- 接続詞 because / when / if の基本用法
+- 過去完了で「すでに～していた」を表す
+- 受動態の多様な形
+- 使役構文 make＋O＋V/C
+- 目的・理由の接続表現
 - 比較級・最上級の表現
 - 不定詞の名詞用法・形容詞用法
-- 動名詞と不定詞の使い分け
-- 受動態の基本パターン
 - 関係代名詞 who / which / that
-- 時制の一致と過去形・現在完了形
-- there is/are 構文と存在表現
-- 助動詞の基本用法 can / should / have to
+- 現在完了形の基本用法
 
-**❌ 不可なFPタイトルの例（内容・語彙ベース）：**
-- ~~ビーバーの生態と環境への影響~~
-- ~~メール返信の書き方~~
-- ~~スペインの文化と友情~~
+**❌ 不可なFPタイトルの例：**
+- ~~熟語・慣用表現の体系的理解~~（大問1ベースのため不可）
+- ~~so...that構文と程度表現~~（大問1 Q5だけが出典なら不可）
+- ~~ビーバーの生態と環境への影響~~（内容ベースで不可）
 
-#### ★★★ practicePassage 必須ルール（最重要）★★★
+#### ★★★ practicePassage 必須ルール（2023-3セッションで確立）★★★
 
-> **⚠ 全5つのFPに必ず `practicePassage`（en/ja）と `practiceQuestions`（3〜4問）を含めること。欠落は検証で不合格になる。**
+> **⚠ practicePassageは本試験のパッセージ（大問3・4）から実際のテキストを引用すること。AI生成のオリジナルパッセージは不可。**
 
-- 各パッセージは **5〜7文** の短いパラグラフ（本文とは異なるオリジナルトピック）
-- 当該FPの文法・構文が **自然に複数回使われている** こと
+- **`[出典: パッセージタイトル 第N段落]`** で始める
+- 大問3A/3B/4A/4Bのパッセージから、当該FPの構文が含まれる1-2段落を抜粋
+- 空所番号 `( 26 )` は、正答を埋めた完全な文に置き換える
 - 英語＋日本語訳のペア
+- `"audioFile": "audio/practice_ppN.mp3"` を必ず追加
 - 3〜4個の `practiceQuestions` と対にする
-- **準2級レベルの語彙・文法で書くこと**（準1級レベルの高度な表現は避ける）
 
 ### 3c. highlightPatterns の品質基準
 
+> **⚠ highlightPatternsは必ず大問2-4の実際のテキストに含まれる文字列と完全一致すること。Step 5aの検証で不一致は不合格。**
+
 - **フレーズレベル**のハイライト（単語1つだけではなく、文脈のある長いフレーズ）
-- 各FPにつき **8〜12パターン** を目標（準2級は大問3が1パッセージのため少なめ）
+- 各FPにつき **4〜6パターン** を目標
 - 大問3と大問4の両方のパッセージからパターンを抽出
+- **問題文の空所 `( N )` を含むパターンも有効**
 
 ### 3d. highlightColor の標準色
 
@@ -500,10 +523,11 @@ print(f"Saved to {output_path}")
 
 ### 3e. FP5（パラフレーズ）の固定ルール
 
-- `title`: `"今回の重要なパラフレーズ"`
-- `sourceQuote`: 番号付き（①②③…）で各パラフレーズペアを `\n` 区切り
-- `examples`: 一般的なパラフレーズ例文を3つ
-- `practiceQuestions`: 4問
+- `title`: `"パラフレーズの読解力"`
+- `subtitle`: `"Paraphrase Reading Comprehension"`
+- `examples`: 本文と選択肢のパラフレーズ対を3つ
+- `practicePassage`: 大問4Aまたは4Bのパッセージを引用（`[出典:]`タグ付き）
+- `practiceQuestions`: 4問。パラフレーズの見破り方を問う
 - `highlightColor`: `"#f59e0b"`
 - `highlightLabel`: `"パラフレーズ"`
 
@@ -528,6 +552,54 @@ print(f"Saved to {output_path}")
         { id: '2025-3', label: '2025年度 第3回', sub: '一次試験リーディング' }
     ]
 }
+```
+
+---
+
+## Step 4b: 音声ファイル生成
+
+### 練習パッセージTTS（全FP）
+
+```bash
+python -u "g:\マイドライブ\ReadPass Pro\tools\generate_tts.py" grade-pre2 YYYY-S
+```
+
+これにより `audio/practice_pp1.mp3` 〜 `practice_pp5.mp3` が自動生成され、`data.json` の各FPの `practicePassage.audioFile` が自動更新される。
+
+### 単語カード音声（wordAudio）
+
+> **⚠ 単語カードの自動音声再生には各語のMP3ファイルが必要。`wordAudio`フィールドがないと音声ボタンが表示されない。**
+
+```python
+import json, os, asyncio, re
+import edge_tts
+
+VOICE = "en-US-JennyNeural"
+RATE = "-15%"
+
+async def gen(word, out):
+    c = edge_tts.Communicate(word, VOICE, rate=RATE)
+    await c.save(out)
+
+path = r"g:\マイドライブ\ReadPass Pro\data\grade-pre2\YYYY-S\data.json"
+d = json.load(open(path, encoding="utf-8"))
+vocab = d.get("vocabulary", [])
+audio_dir = os.path.join(os.path.dirname(path), "audio", "vocab")
+os.makedirs(audio_dir, exist_ok=True)
+
+for i, v in enumerate(vocab):
+    word = v["word"]
+    safe = re.sub(r"[^a-zA-Z0-9_]", "_", word.lower()).strip("_")
+    fname = f"w_{i+1:03d}_{safe}.mp3"
+    out = os.path.join(audio_dir, fname)
+    if not os.path.exists(out) or os.path.getsize(out) < 500:
+        asyncio.run(gen(word, out))
+        print(f"  {fname}", flush=True)
+    v["wordAudio"] = f"audio/vocab/{fname}"
+
+with open(path, "w", encoding="utf-8") as f:
+    json.dump(d, f, ensure_ascii=False, indent=4)
+print(f"Done: {len(vocab)} words")
 ```
 
 ---
@@ -560,21 +632,21 @@ def verify(path):
         if i < len(expected_types) and s.get("type") != expected_types[i]:
             errors.append(f"Section {i}: type='{s.get('type')}', expected '{expected_types[i]}'")
 
-    # 3. 問題数チェック（29問）
+    # 3. 問題数チェック（新形式29問 or 旧形式37問）
     total_q = 0
     for s in sections:
         total_q += len(s.get("questions", []))
         for p in s.get("passages", []):
             total_q += len(p.get("questions", []))
-    if total_q != 29:
-        errors.append(f"Total questions = {total_q}, expected 29")
+    if total_q not in (29, 37):
+        errors.append(f"Total questions = {total_q}, expected 29 (new) or 37 (old)")
 
-    # 4. 大問1: 15問, 大問2: 5問
+    # 4. 大問1・大問2チェック
     if len(sections) >= 2:
         q1 = len(sections[0].get("questions", []))
         q2 = len(sections[1].get("questions", []))
-        if q1 != 15:
-            errors.append(f"大問1: {q1} questions, expected 15")
+        if q1 not in (15, 20):
+            errors.append(f"大問1: {q1} questions, expected 15 (new) or 20 (old)")
         if q2 != 5:
             errors.append(f"大問2: {q2} questions, expected 5")
 
@@ -592,14 +664,39 @@ def verify(path):
             pp = fp["practicePassage"]
             if not pp.get("en") or not pp.get("ja"):
                 errors.append(f"FP{i+1}: practicePassage missing 'en' or 'ja'")
+            if not pp.get("audioFile"):
+                errors.append(f"FP{i+1}: practicePassage missing 'audioFile'")
+            en = pp.get("en", "")
+            if not en.startswith("[出典:"):
+                errors.append(f"FP{i+1}: practicePassage.en must start with '[出典: ...]'")
         pq = fp.get("practiceQuestions", [])
         if len(pq) < 3:
             errors.append(f"FP{i+1}: only {len(pq)} practiceQuestions (need 3-4)")
         hp = fp.get("highlightPatterns", [])
         if len(hp) < 3:
-            errors.append(f"FP{i+1}: only {len(hp)} highlight patterns (recommend 8-12)")
+            errors.append(f"FP{i+1}: only {len(hp)} highlight patterns (need 4+)")
 
-    # 6. sentencePairs チェック
+    # 6. ★★★ highlightPatterns 整合性チェック（最重要）★★★
+    all_text = []
+    for s in sections:
+        for q in s.get("questions", []):
+            all_text.append(q.get("text", ""))
+            for c in q.get("choices", []):
+                all_text.append(c)
+        for p in s.get("passages", []):
+            for para in p.get("paragraphs", []):
+                all_text.append(para)
+            for q in p.get("questions", []):
+                all_text.append(q.get("question", ""))
+                for c in q.get("choices", []):
+                    all_text.append(c)
+    full_text = "\n".join(all_text)
+    for fp in fps:
+        for pat in fp.get("highlightPatterns", []):
+            if pat not in full_text:
+                errors.append(f"HL MISMATCH {fp['id']}: '{pat}' NOT FOUND in exam text")
+
+    # 7. sentencePairs チェック
     for s in sections:
         if s["type"] in ["passage-fill", "reading-comprehension"]:
             for p in s.get("passages", []):
@@ -676,6 +773,12 @@ verify(r"g:\マイドライブ\ReadPass Pro\data\grade-pre2\YYYY-S\data.json")
 | 文分割の誤り | `Mr.` 等の略語でピリオド分割 | `sentencePairs` で英文を明示指定、`indexOf()` でマッチ |
 | **解説が表示されない** | `choiceAnalysis`/`grammar` が欠落 | **全29問に必ず `choiceAnalysis`（✅/❌配列）と `grammar`（💡文）を追加** |
 | **大問4のタブがない** | app.jsが3タブ固定だった | **動的タブ生成に改修済み（2025-3以降対応済）** |
+| **★ FPが大問1ベース** | 大問1の語彙問題からFPトピックを選んだ | **FPは大問2-4のパッセージからのみ選定** |
+| **★ FPハイライト不一致** | highlightPatternsが実際テキストに存在しない | **検証スクリプトでテキスト照合を必須化（Step 5a）** |
+| **★ 練習パッセージがAI生成** | オリジナルの短いパッセージを作った | **本試験のパッセージを引用。`[出典:]`タグで明示** |
+| **★ 単語カード音声なし** | vocabularyにwordAudioフィールドがない | **全語にedge-ttsでMP3生成しwordAudioを追加（Step 4b）** |
+| **★ Google Driveでハング** | 大きなJSONをGoogle Driveに直接書き込み | **D:\tmp_rp\で作業→完成後にCopy-Itemでコピー** |
+| **★ PS here-stringパースエラー** | PowerShellの@"..."@内に丸括弧や特殊文字 | **Pythonスクリプトをファイルに書き出してからpythonで実行** |
 
 ---
 
@@ -691,5 +794,42 @@ g:\マイドライブ\ReadPass Pro\
 └── data/
     └── grade-pre2/
         └── {exam_id}/
-            └── data.json   ← Step 2-3 で生成
+            ├── data.json              ← Step 2-3 で生成
+            └── audio/
+                ├── practice_pp1.mp3   ← FP練習パッセージ音声（Step 4b）
+                ├── practice_pp2.mp3
+                ├── ...
+                ├── practice_pp5.mp3
+                └── vocab/
+                    ├── w_001_xxxx.mp3 ← 単語カード音声（Step 4b）
+                    └── ...
 ```
+
+---
+
+## 運用上の注意事項
+
+### Google Drive書き込みのハング回避
+
+> **⚠ Google Drive上のファイルに大きなJSONを直接書き込むとプロセスがハングする場合がある。**
+
+**推奨手順:**
+1. `D:\tmp_rp\` などローカルディレクトリで作業
+2. JSONの生成・検証をすべてローカルで完了
+3. 最後に `Copy-Item` でGoogle Driveにコピー
+
+```powershell
+Copy-Item "D:\tmp_rp\data.json" "g:\マイドライブ\ReadPass Pro\data\grade-pre2\YYYY-S\data.json" -Force
+```
+
+### PowerShellのhere-stringの注意
+
+> **⚠ `@"..."@` 内に丸括弧や特殊文字があるとパースエラーになる。**
+
+**回避策:** Pythonスクリプトを `Set-Content` でファイルに書き出してから `python -u ファイル名` で実行。
+
+### FP更新の分割実行
+
+> **⚠ 全5FPを1つのスクリプトで一度に書くとハングのリスクあり。**
+
+**推奨:** FP1〜FP5を個別スクリプト（fp1.py, fp2.py...）で順次更新する。

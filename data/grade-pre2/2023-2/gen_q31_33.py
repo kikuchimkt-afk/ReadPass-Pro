@@ -1,0 +1,20 @@
+"""Generate Q31-33 for Pre-2 2023-2 (page 7 - Part 4A: Grandpa's email)"""
+import json, os, sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+passage_4a = {
+    "title": "My visit",
+    "emailHeader": "From: Henry Robbins <h-g-robbins@oldmail.com>\nTo: Peter Robbins <peter1512@whichmail.com>\nDate: October 8\nSubject: My visit",
+    "passage": "Dear Peter,\nI'm really excited to see you again next week. I had such a great week the last time that I visited. I can't believe it's been 12 months already. I'm glad I can stay for a whole month this time. I'm planning lots of fun things for us to do together. Please tell your little sister that I'm looking forward to playing with her again, too.\nI thought we could go camping by Mirror Lake. We could try fishing in the lake, too. Have you ever been fishing before? I took your dad fishing many times when he was a boy. It's very relaxing, but you have to be ready and move quickly if you want to catch anything! I can teach you lots of tricks to help you become a good fisher.\nI also thought that we could go to watch a baseball game together. I haven't been to any big baseball games for a long time because there aren't any professional teams near my house. Your dad told me that you joined a baseball team in your town a few months ago. How is that going? If you want to, we can go to a park to practice throwing, catching, and hitting.\nAnyway, I'll see you very soon.\nLove,\nGrandpa",
+    "passageTranslation": "ピーターへ、\n来週また会えるのをとても楽しみにしています。前回訪ねた時はとても楽しい1週間でした。もう12ヶ月も経ったとは信じられません。今回は丸1ヶ月滞在できるのが嬉しいです。一緒にする楽しいことをたくさん計画しています。妹にも、また一緒に遊ぶのを楽しみにしていると伝えてね。\nミラーレイクでキャンプに行けたらと思っています。湖で釣りもできるね。釣りをしたことはある？お父さんが子供の頃、何度も釣りに連れて行ったよ。とてもリラックスできるけど、何か釣りたいなら準備万端で素早く動かないとね！上手な釣り人になるためのコツをたくさん教えてあげるよ。\n一緒に野球の試合を見に行くのもいいなと思っています。家の近くにプロチームがないので、長い間大きな試合に行っていません。お父さんから数ヶ月前に町の野球チームに入ったと聞いたよ。調子はどう？もしよければ公園で投球、捕球、バッティングの練習ができるよ。\nともかく、すぐに会えるね。\n愛を込めて、\nおじいちゃん",
+    "questions": [
+        {"number":31,"text":"What is one thing that Grandpa says to Peter?","translation":"おじいちゃんがピーターに言っていることの一つは何か？","choices":["It is not possible for him to stay for longer than a week.","It has been a year since he last visited Peter.","He cannot wait to meet Peter's sister for the first time.","He will visit Peter's house in about one month."],"choiceTranslations":["1週間以上滞在できない。","ピーターを最後に訪ねてから1年経った。","ピーターの妹に初めて会うのが待ちきれない。","約1ヶ月後にピーターの家を訪ねる。"],"answer":2,"choiceAnalysis":["❌ 1。丸1ヶ月滞在できると言っている","✅ 2＝1年経った→正解。12 months already","❌ 3。again＝以前も会っている","❌ 4。来週会うと言っている"],"grammar":"💡 It has been 12 months＝12ヶ月が経った（現在完了）。"},
+        {"number":32,"text":"Grandpa asks Peter","translation":"おじいちゃんがピーターに尋ねていること","choices":["whether he can run quickly.","whether he has ever gone fishing.","if he knows how to do any magic tricks.","if he has gone camping before."],"choiceTranslations":["速く走れるか。","釣りをしたことがあるか。","手品ができるか。","キャンプに行ったことがあるか。"],"answer":2,"choiceAnalysis":["❌ 1。走る話ではない","✅ 2＝釣りの経験→正解。Have you ever been fishing before?","❌ 3。tricksは釣りのコツ","❌ 4。キャンプは提案"],"grammar":"💡 Have you ever been fishing?＝釣りをしたことがありますか？（現在完了の経験用法）。"},
+        {"number":33,"text":"What did Peter start doing recently?","translation":"ピーターが最近始めたことは何か？","choices":["Playing for a local sports team.","Going to professional baseball games.","Taking his sister to play in the park.","Learning about history at school."],"choiceTranslations":["地元のスポーツチームでプレーする。","プロ野球の試合に行く。","妹を公園に連れて行く。","学校で歴史を学ぶ。"],"answer":1,"choiceAnalysis":["✅ 1＝地元のスポーツチーム→正解。町の野球チームに入った","❌ 2。おじいちゃんの話","❌ 3。文中にない","❌ 4。文中にない"],"grammar":"💡 join a team＝チームに入る。a few months ago＝数ヶ月前。"}
+    ]
+}
+
+out = r"c:\Users\makoto\Documents\アプリ開発\ReadPass-Pro_Local\data\grade-pre2\2023-2"
+with open(os.path.join(out, "_q31_33.json"), "w", encoding="utf-8") as f:
+    json.dump(passage_4a, f, ensure_ascii=False, indent=2)
+print(f"Saved Q31-33 (4A): {len(passage_4a['questions'])} questions")
