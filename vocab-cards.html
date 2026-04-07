@@ -605,7 +605,20 @@
 
         function init() {
             const params = new URLSearchParams(window.location.search);
-            const dataUrl = params.get('data');
+            let dataUrl = params.get('data');
+            // Fallback: accept ?grade=X&exam=Y format
+            if (!dataUrl) {
+                const grade = params.get('grade');
+                const exam = params.get('exam');
+                if (grade && exam) {
+                    const GRADE_PATHS = {
+                        'pre-grade1': 'pre-grade1', grade2: 'grade2', 'grade-pre2plus': 'grade-pre2plus',
+                        'grade-pre2': 'grade-pre2', grade3: 'grade3', grade4: 'grade4', grade5: 'grade5'
+                    };
+                    const path = GRADE_PATHS[grade] || grade;
+                    dataUrl = `data/${path}/${exam}/data.json`;
+                }
+            }
             if (!dataUrl) { document.getElementById('appSub').textContent = 'データが指定されていません'; return; }
             storageKey = 'vocabCards_' + dataUrl;
             
