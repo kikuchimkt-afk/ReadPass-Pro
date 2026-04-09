@@ -1208,7 +1208,8 @@
                 "practiceQuestions": [
                     {
                         "q": "「泳げる」は英語で？",
-                        "a": "can swim"
+                        "a": "can swim",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "canの後の動詞はどんな形？",
@@ -1216,29 +1217,35 @@
                     },
                     {
                         "q": "「ピアノがひける」は？",
-                        "a": "can play the piano"
+                        "a": "can play the piano",
+                        "audio": "audio/challenge_fp1_q3.mp3"
                     },
                     {
                         "q": "「泳げない」は？",
-                        "a": "can't swim"
+                        "a": "can't swim",
+                        "audio": "audio/challenge_fp1_q4.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「できる」って英語で？",
-                        "a": "can!"
+                        "a": "can!",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "can swimってどういういみ？",
-                        "a": "およげる！"
+                        "a": "およげる！",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     },
                     {
                         "q": "「できない」は？",
-                        "a": "can't!"
+                        "a": "can't!",
+                        "audio": "audio/challenge_fp1_q3.mp3"
                     },
                     {
                         "q": "can playsっていう？",
-                        "a": "いわないよ！canのあとはplay！"
+                        "a": "いわないよ！canのあとはplay！",
+                        "audio": "audio/challenge_fp1_q4.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1289,15 +1296,18 @@
                 "practiceQuestions": [
                     {
                         "q": "「好きじゃない（he）」は？",
-                        "a": "He doesn't like"
+                        "a": "He doesn't like",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "don'tとdoesn'tの違いは？",
-                        "a": "I/you→don't、he/she/it→doesn't"
+                        "a": "I/you→don't、he/she/it→doesn't",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     },
                     {
                         "q": "「テニスをしない（she）」は？",
-                        "a": "She doesn't play tennis"
+                        "a": "She doesn't play tennis",
+                        "audio": "audio/challenge_fp2_q3.mp3"
                     },
                     {
                         "q": "doesn't likeのlikeは何形？",
@@ -1307,19 +1317,23 @@
                 "practiceQuestionsSimple": [
                     {
                         "q": "he/sheの「しない」は？",
-                        "a": "doesn't!"
+                        "a": "doesn't!",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "I/youの「しない」は？",
-                        "a": "don't!"
+                        "a": "don't!",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     },
                     {
                         "q": "doesn't playsっていう？",
-                        "a": "いわない！doesn't playだよ！"
+                        "a": "いわない！doesn't playだよ！",
+                        "audio": "audio/challenge_fp2_q3.mp3"
                     },
                     {
                         "q": "doesn'tのあとはなぜsがない？",
-                        "a": "原形だから！"
+                        "a": "原形だから！",
+                        "audio": "audio/challenge_fp2_q4.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1371,37 +1385,45 @@
                 "practiceQuestions": [
                     {
                         "q": "「どのくらい？」は？",
-                        "a": "How long?"
+                        "a": "How long?",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "「いくつ？」は？",
-                        "a": "How many?"
+                        "a": "How many?",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     },
                     {
                         "q": "「何歳？」は？",
-                        "a": "How old?"
+                        "a": "How old?",
+                        "audio": "audio/challenge_fp3_q3.mp3"
                     },
                     {
                         "q": "How longの答え方は？",
-                        "a": "It's one hour. など"
+                        "a": "It's one hour. など",
+                        "audio": "audio/challenge_fp3_q4.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「どのくらい？」って英語で？",
-                        "a": "How long!"
+                        "a": "How long!",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "「いくつ？」は？",
-                        "a": "How many!"
+                        "a": "How many!",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     },
                     {
                         "q": "「なんさい？」は？",
-                        "a": "How old!"
+                        "a": "How old!",
+                        "audio": "audio/challenge_fp3_q3.mp3"
                     },
                     {
                         "q": "How long?って聞かれたら？",
-                        "a": "時間のながさ！"
+                        "a": "時間のながさ！",
+                        "audio": "audio/challenge_fp3_q4.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1452,37 +1474,45 @@
                 "practiceQuestions": [
                     {
                         "q": "「彼らを」は？",
-                        "a": "them"
+                        "a": "them",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "「わたしを」は？",
-                        "a": "me"
+                        "a": "me",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     },
                     {
                         "q": "「彼女を」は？",
-                        "a": "her"
+                        "a": "her",
+                        "audio": "audio/challenge_fp4_q3.mp3"
                     },
                     {
                         "q": "「彼を」は？",
-                        "a": "him"
+                        "a": "him",
+                        "audio": "audio/challenge_fp4_q4.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "I→「わたしを」は？",
-                        "a": "me!"
+                        "a": "me!",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "he→「かれを」は？",
-                        "a": "him!"
+                        "a": "him!",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     },
                     {
                         "q": "she→「かのじょを」は？",
-                        "a": "her!"
+                        "a": "her!",
+                        "audio": "audio/challenge_fp4_q3.mp3"
                     },
                     {
                         "q": "they→「かれらを」は？",
-                        "a": "them!"
+                        "a": "them!",
+                        "audio": "audio/challenge_fp4_q4.mp3"
                     }
                 ],
                 "highlightPatterns": [
