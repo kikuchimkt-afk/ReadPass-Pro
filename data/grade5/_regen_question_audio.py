@@ -126,7 +126,7 @@ async def generate_segment_audio(text, output_path, tmp_dir, seg_id):
         if ok1 and ok2:
             dur_with = get_mp3_duration(with_path)
             dur_dummy = get_mp3_duration(dummy_path)
-            trim_to = max(0.5, dur_with - dur_dummy + 0.05)  # small buffer
+            trim_to = max(0.5, dur_with - dur_dummy * 0.4)  # standalone includes ~60% padding
             trim_mp3(with_path, output_path, trim_to)
             os.remove(with_path)
             os.remove(dummy_path)
