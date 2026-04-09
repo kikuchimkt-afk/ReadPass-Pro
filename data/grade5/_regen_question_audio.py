@@ -93,47 +93,34 @@ def clean_text_for_tts(text):
         return ""
     return text
 
-# Words that get mispronounced when isolated at the end of a TTS segment
-_TRAILING_WORDS = {
-    'a', 'an', 'the', 'to', 'or', 'of', 'in', 'on', 'at', 'by',
-    'is', 'am', 'are', 'do', 'my', 'no', 'so', 'for', 'his', 'her',
-    'its', 'our', 'your', 'be', 'me', 'us', 'we', 'it'
+# Map of trailing words to their phonetic replacements for TTS
+_PHONETIC_MAP = {
+    'a': 'uh',      # article 'a' → schwa
 }
 
-def needs_dummy_word(text):
-    """Check if cleaned text ends with a word that needs a dummy word appended."""
+def fix_trailing_pronunciation(text):
+    """Replace trailing words that TTS mispronounces with phonetic equivalents.
+    Only replaces words that have known phonetic issues (currently just 'a').
+    """
     words = text.split()
     if not words:
-        return False
+        return text
     last = words[-1].rstrip('.,!?;:')
-    return last.lower() in _TRAILING_WORDS
+    if last.lower() in _PHONETIC_MAP:
+        # Replace the last word with its phonetic equivalent
+        punct = words[-1][len(last):]  # preserve trailing punctuation
+        words[-1] = _PHONETIC_MAP[last.lower()] + punct
+    return ' '.join(words)
 
 async def generate_segment_audio(text, output_path, tmp_dir, seg_id):
-    """Generate TTS for a segment, handling trailing articles with dummy word trick."""
+    """Generate TTS for a segment, fixing trailing article pronunciation."""
     cleaned = clean_text_for_tts(text)
     if not cleaned or len(cleaned) <= 1:
         return False
 
-    if needs_dummy_word(cleaned):
-        # Generate with dummy word to force correct pronunciation
-        text_with_dummy = f"{cleaned} {DUMMY_WORD}"
-        with_path = os.path.join(tmp_dir, f"{seg_id}_with.mp3")
-        dummy_path = os.path.join(tmp_dir, f"{seg_id}_dummy.mp3")
-
-        ok1 = await tts_to_file(text_with_dummy, with_path)
-        ok2 = await tts_to_file(DUMMY_WORD, dummy_path)
-
-        if ok1 and ok2:
-            dur_with = get_mp3_duration(with_path)
-            dur_dummy = get_mp3_duration(dummy_path)
-            trim_to = max(0.5, dur_with - dur_dummy * 0.4)  # standalone includes ~60% padding
-            trim_mp3(with_path, output_path, trim_to)
-            os.remove(with_path)
-            os.remove(dummy_path)
-            return True
-        return False
-    else:
-        return await tts_to_file(cleaned, output_path)
+    # Fix trailing 'a' → 'uh' for correct pronunciation
+    cleaned = fix_trailing_pronunciation(cleaned)
+    return await tts_to_file(cleaned, output_path)
 
 
 async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
