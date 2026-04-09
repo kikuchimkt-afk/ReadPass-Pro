@@ -85,9 +85,10 @@ _TRAILING_WORDS = {
 }
 
 def fix_segment_boundaries(parts):
-    """Move trailing articles/prepositions from end of one segment to start of next.
-    e.g. ['She goes to a', 'with her mom'] -> ['She goes to', 'a ... with her mom']
-    The moved word gets '...' appended to create a natural lead-in before the pause.
+    """Fix segments ending with short articles/prepositions that TTS mispronounces.
+    Instead of moving words, append '...' so TTS reads them as mid-sentence
+    (e.g. 'a' reads as article 'ア' not letter 'エイ').
+    e.g. ['She goes to a', 'with her mom'] -> ['She goes to a...', 'with her mom']
     """
     fixed = list(parts)
     for i in range(len(fixed) - 1):
@@ -99,12 +100,8 @@ def fix_segment_boundaries(parts):
             continue
         last = words[-1].rstrip('.,!?;:')
         if last.lower() in _TRAILING_WORDS:
-            # Move the trailing word to the beginning of the next segment
-            moved_word = words[-1]
-            fixed[i] = ' '.join(words[:-1])
-            next_seg = fixed[i + 1].strip()
-            # Prepend moved word to next segment with natural connector
-            fixed[i + 1] = f"{moved_word} {next_seg}" if next_seg else moved_word
+            # Append ellipsis so TTS treats this as mid-sentence trailing off
+            fixed[i] = seg + '...'
     return fixed
 
 async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
