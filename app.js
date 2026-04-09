@@ -1446,7 +1446,7 @@
           <div class="fp-qa">
             <div class="fp-q">Q${qi + 1}. ${q.q}</div>
             <button class="fp-a-toggle" onclick="this.nextElementSibling.classList.toggle('show')"><span class="material-symbols-rounded" style="font-size:14px">visibility</span> 解答を見る</button>
-            <div class="fp-a">${q.a}</div>
+            <div class="fp-a">${q.a}${q.audio ? ` <button class="q-audio-btn vocab-audio-btn" onclick="window.APP.playQuestionAudio(this, '${q.audio}')" title="聞いてみよう">🔊</button>` : ''}</div>
           </div>
         `).join('')}` : ''}
       ` : '';
