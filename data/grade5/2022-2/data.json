@@ -33,7 +33,14 @@
                         "○「じゅぎょう」がぴったり！",
                         "「オレンジ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q1.mp3"
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "わたしたちは今日の午後、2つの（　）、英語と数学があります。",
+                    "choiceTranslations": [
+                        "机",
+                        "友だち",
+                        "じゅぎょう",
+                        "オレンジ"
+                    ]
                 },
                 {
                     "number": 2,
@@ -59,7 +66,14 @@
                         "「しめる」はちがうよ。",
                         "○「かう」がぴったり！"
                     ],
-                    "questionAudio": "audio/q2.mp3"
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "わたしのお母さんは花屋でよくチューリップを（　）。",
+                    "choiceTranslations": [
+                        "する",
+                        "教える",
+                        "閉める",
+                        "買う"
+                    ]
                 },
                 {
                     "number": 3,
@@ -85,7 +99,14 @@
                         "○「それとも」がぴったり！",
                         "「～も」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q3.mp3"
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "A: カール、あなたはバス（　）電車で学校に行きますか。\nB: バスです、アンダーソン先生。",
+                    "choiceTranslations": [
+                        "しかし",
+                        "だから",
+                        "または",
+                        "～もまた"
+                    ]
                 },
                 {
                     "number": 4,
@@ -111,7 +132,14 @@
                         "「えいが」はちがうよ。",
                         "「のみもの」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q4.mp3"
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "A: スーザン、あなたはどんな（　）が好きですか。\nB: わたしは猫と犬が好きです。",
+                    "choiceTranslations": [
+                        "スポーツ",
+                        "動物",
+                        "映画",
+                        "飲み物"
+                    ]
                 },
                 {
                     "number": 5,
@@ -137,7 +165,14 @@
                         "「きく」はちがうよ。",
                         "「うたう」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q5.mp3"
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "ヒロシはたいていテレビでバスケットボールの試合を（　）。",
+                    "choiceTranslations": [
+                        "見る",
+                        "話す",
+                        "聞く",
+                        "歌う"
+                    ]
                 },
                 {
                     "number": 6,
@@ -163,7 +198,14 @@
                         "「あし」はちがうよ。",
                         "○「おうち」がぴったり！"
                     ],
-                    "questionAudio": "audio/q6.mp3"
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "A: トム、今日は私の（　）で勉強しよう。\nB: わかった、またあとで。",
+                    "choiceTranslations": [
+                        "冬",
+                        "時間",
+                        "足",
+                        "家"
+                    ]
                 },
                 {
                     "number": 7,
@@ -189,7 +231,14 @@
                         "「たくさん」はちがうよ。",
                         "「はれ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q7.mp3"
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "A: あなたの好きな野球選手はだれですか。\nB: 鈴木健です。彼は（　）だよ！",
+                    "choiceTranslations": [
+                        "すばらしい",
+                        "たしかに",
+                        "多くの",
+                        "晴れた"
+                    ]
                 },
                 {
                     "number": 8,
@@ -215,7 +264,14 @@
                         "「ほしい」はちがうよ。",
                         "○「みる」がぴったり！"
                     ],
-                    "questionAudio": "audio/q8.mp3"
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "A: ケント、わたしの新しいカメラを（　）。\nB: わあ、かわいいね。",
+                    "choiceTranslations": [
+                        "食べて",
+                        "料理して",
+                        "ほしい",
+                        "見て"
+                    ]
                 },
                 {
                     "number": 9,
@@ -241,7 +297,14 @@
                         "「いう」はちがうよ。",
                         "「しっている」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q9.mp3"
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: ケリー、あなたは毎朝何時に（　）ますか。\nB: 6時です。",
+                    "choiceTranslations": [
+                        "起き",
+                        "話し",
+                        "言い",
+                        "知り"
+                    ]
                 },
                 {
                     "number": 10,
@@ -267,7 +330,14 @@
                         "「down」はちがうよ。",
                         "「after」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q10.mp3"
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "わたしはたくさんのハガキを持っています。それらはわたしのおじいちゃんからのものです。",
+                    "choiceTranslations": [
+                        "～の",
+                        "～によって",
+                        "下に",
+                        "～のあとに"
+                    ]
                 },
                 {
                     "number": 11,
@@ -293,7 +363,14 @@
                         "「したに」はちがうよ。",
                         "「off」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q11.mp3"
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "A: マイク、わたしたちのサッカークラブ（　）ようこそ！\nB: ありがとう。",
+                    "choiceTranslations": [
+                        "前に",
+                        "～へ",
+                        "～の下に",
+                        "離れて"
+                    ]
                 },
                 {
                     "number": 12,
@@ -319,7 +396,14 @@
                         "「たつ」はちがうよ。",
                         "「つくる」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q12.mp3"
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: お父さん、ぼくはねむいよ。\nB: 寝る時間だよ、クリス。ぐっすり（　）。",
+                    "choiceTranslations": [
+                        "行きなさい",
+                        "休みなさい",
+                        "立ちなさい",
+                        "作りなさい"
+                    ]
                 },
                 {
                     "number": 13,
@@ -345,7 +429,14 @@
                         "「だれ」はちがうよ。",
                         "○「どこ」がぴったり！リビングにいるよ！"
                     ],
-                    "questionAudio": "audio/q13.mp3"
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: お父さん、カレンは（　）にいますか。\nB: かの女は今、居間にいるよ。",
+                    "choiceTranslations": [
+                        "何",
+                        "いつ",
+                        "だれ",
+                        "どこ"
+                    ]
                 },
                 {
                     "number": 14,
@@ -371,7 +462,14 @@
                         "「わたしたち」はちがうよ。",
                         "「かのじょの」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q14.mp3"
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "スミス先生はわたしの美術の先生です。（　）のじゅぎょうはとても楽しいです。",
+                    "choiceTranslations": [
+                        "彼の",
+                        "あなたの",
+                        "わたしたちは",
+                        "かの女の"
+                    ]
                 },
                 {
                     "number": 15,
@@ -397,7 +495,14 @@
                         "「are」はちがうよ。",
                         "「is」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q15.mp3"
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "A: ヒロコ、あなたは毎日テニスをしますか。\nB: はい、（　）。",
+                    "choiceTranslations": [
+                        "しません",
+                        "します",
+                        "です",
+                        "です"
+                    ]
                 }
             ]
         },
@@ -431,7 +536,14 @@
                         "「としょかんにいる」はちがうよ。",
                         "「すごいね」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q16.mp3"
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "Girl: これはあなたの新しいコンピューターですか。すてきですね。\nBoy: はい、（　）。",
+                    "choiceTranslations": [
+                        "わたしはおなかがすいています。",
+                        "ぼくはよくそれを使います。",
+                        "あなたは図書館にいます。",
+                        "あなたは上手です。"
+                    ]
                 },
                 {
                     "number": 17,
@@ -457,7 +569,14 @@
                         "「ここにない」はちがうよ。",
                         "「テニスする」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q17.mp3"
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "Girl: こんにちは、わたしはジェーンです。あなたは新しい生徒ですか。\nBoy: （　）。",
+                    "choiceTranslations": [
+                        "さようなら。",
+                        "はい、そうです。",
+                        "いいえ、ここにはありません。",
+                        "ぼくはテニスをします。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -483,7 +602,14 @@
                         "○「ベッドの上だよ」がぴったり！",
                         "「はやい」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q18.mp3"
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "Boy: 英語の教科書が見つからないよ、お母さん。\nMother: ポール、（　）よ。",
+                    "choiceTranslations": [
+                        "5歳です",
+                        "朝食の前です",
+                        "あなたのベッドの上です",
+                        "とても速い"
+                    ]
                 },
                 {
                     "number": 19,
@@ -509,7 +635,14 @@
                         "「うれしい」はちがうよ。",
                         "○「おちゃをのむ」がぴったり！"
                     ],
-                    "questionAudio": "audio/q19.mp3"
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "Man: あなたは昼食のあと、何をしますか。\nWoman: （　）。",
+                    "choiceTranslations": [
+                        "わたしはそれが好きです。",
+                        "わたしもです。",
+                        "わたしは幸せです。",
+                        "わたしはお茶を飲みます。"
+                    ]
                 },
                 {
                     "number": 20,
@@ -535,7 +668,14 @@
                         "「たすけて」はちがうよ。",
                         "「またね」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q20.mp3"
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "Boy: これらの花は美しいね。\nGirl: （　）。",
+                    "choiceTranslations": [
+                        "はじめまして。",
+                        "わたしもそう思います。",
+                        "手伝ってください。",
+                        "またあとで。"
+                    ]
                 }
             ]
         },
