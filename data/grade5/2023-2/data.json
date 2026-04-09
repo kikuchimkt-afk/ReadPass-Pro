@@ -509,7 +509,7 @@
         {
             "name": "大問2",
             "nameEn": "Part 2",
-            "type": "conversation",
+            "type": "vocabulary",
             "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
             "questions": [
                 {
@@ -1188,22 +1188,38 @@
                 "examples": [
                     {
                         "en": "What color do you like?",
-                        "ja": "何色が好きですか？"
+                        "ja": "何色が好きですか？",
+                        "audio": "audio/ex_fp1_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Open your textbook to page 35.",
-                        "ja": "教科書を35ページに開いてください。"
+                        "ja": "教科書を35ページに開いてください。",
+                        "audio": "audio/ex_fp1_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Which season do you like?",
-                        "ja": "どの季節が好きですか？"
+                        "ja": "どの季節が好きですか？",
+                        "audio": "audio/ex_fp1_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp1.mp3",
                 "practicePassage": {
                     "en": "Alice has three pets. She has two dogs and one cat. Her cat is very small and cute. Alice likes spring. She can meet new friends in April. Her favorite color is green.",
-                    "ja": "アリスは3匹のペットを飼っています。犬が2匹と猫が1匹です。猫はとても小さくてかわいいです。アリスは春が好きです。4月に新しい友達に会えるからです。好きな色は緑です。"
-                }
+                    "ja": "アリスは3匹のペットを飼っています。犬が2匹と猫が1匹です。猫はとても小さくてかわいいです。アリスは春が好きです。4月に新しい友達に会えるからです。好きな色は緑です。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightLabel": "名詞と場面の対応",
+                "subtitle": "ことばのいみをおぼえよう",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp2",
@@ -1216,22 +1232,38 @@
                 "examples": [
                     {
                         "en": "My father eats eggs in the morning.",
-                        "ja": "父は朝に卵を食べます。"
+                        "ja": "父は朝に卵を食べます。",
+                        "audio": "audio/ex_fp2_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Do you know the boy over there?",
-                        "ja": "あそこの男の子を知っていますか？"
+                        "ja": "あそこの男の子を知っていますか？",
+                        "audio": "audio/ex_fp2_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "It's in the kitchen.",
-                        "ja": "台所にあります。"
+                        "ja": "台所にあります。",
+                        "audio": "audio/ex_fp2_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp2.mp3",
                 "practicePassage": {
                     "en": "I study in the library from 9:30 a.m. to 11:30 a.m. every Sunday. My father always eats eggs for breakfast in the morning. My mother is at the store now. She's buying fruit for dinner.",
-                    "ja": "毎週日曜日、午前9時半から11時半まで図書館で勉強します。父はいつも朝に朝食で卵を食べます。母は今お店にいます。夕飯の果物を買っています。"
-                }
+                    "ja": "毎週日曜日、午前9時半から11時半まで図書館で勉強します。父はいつも朝に朝食で卵を食べます。母は今お店にいます。夕飯の果物を買っています。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightLabel": "前置詞の使い方",
+                "subtitle": "ばしょやじかんのことば",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp3",
@@ -1244,22 +1276,38 @@
                 "examples": [
                     {
                         "en": "They are my sisters.",
-                        "ja": "彼女たちは私の姉妹です。"
+                        "ja": "彼女たちは私の姉妹です。",
+                        "audio": "audio/ex_fp3_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Can I use yours?",
-                        "ja": "あなたのものを使ってもいい？"
+                        "ja": "あなたのものを使ってもいい？",
+                        "audio": "audio/ex_fp3_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Kenji can speak English very well.",
-                        "ja": "けんじは英語をとても上手に話せます。"
+                        "ja": "けんじは英語をとても上手に話せます。",
+                        "audio": "audio/ex_fp3_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp3.mp3",
                 "practicePassage": {
                     "en": "My name is Kanako. I am a baseball fan. My brother is a soccer fan. My sisters love tennis. They are very good at it. I can't find my pen. Can I use yours, Julia?",
-                    "ja": "私の名前はかなこです。野球ファンです。兄はサッカーファンです。姉たちはテニスが大好きです。とても上手です。ペンが見つかりません。ジュリア、あなたのものを使ってもいい？"
-                }
+                    "ja": "私の名前はかなこです。野球ファンです。兄はサッカーファンです。姉たちはテニスが大好きです。とても上手です。ペンが見つかりません。ジュリア、あなたのものを使ってもいい？",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightLabel": "be動詞と代名詞",
+                "subtitle": "I am, You are, They are のつかいわけ",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp4",
@@ -1272,22 +1320,38 @@
                 "examples": [
                     {
                         "en": "Whose umbrella is it?",
-                        "ja": "それは誰の傘ですか？"
+                        "ja": "それは誰の傘ですか？",
+                        "audio": "audio/ex_fp4_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "When does your father read the newspaper?",
-                        "ja": "あなたのお父さんはいつ新聞を読みますか？"
+                        "ja": "あなたのお父さんはいつ新聞を読みますか？",
+                        "audio": "audio/ex_fp4_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Where's Mom?",
-                        "ja": "お母さんはどこ？"
+                        "ja": "お母さんはどこ？",
+                        "audio": "audio/ex_fp4_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp4.mp3",
                 "practicePassage": {
                     "en": "I want this notebook. How much is it? It's 100 yen. This umbrella is nice. Whose is it? It's my father's. James, when does your father read the newspaper? He reads it in the morning.",
-                    "ja": "このノートが欲しいです。いくらですか？100円です。この傘いいね。誰のもの？父のだよ。ジェームズ、お父さんはいつ新聞を読みますか？朝に読みます。"
-                }
+                    "ja": "このノートが欲しいです。いくらですか？100円です。この傘いいね。誰のもの？父のだよ。ジェームズ、お父さんはいつ新聞を読みますか？朝に読みます。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightLabel": "疑問文のパターン",
+                "subtitle": "しつもんのしかた",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             }
         ]
     }

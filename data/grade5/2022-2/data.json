@@ -1184,17 +1184,20 @@
                     {
                         "en": "What sports do you like?",
                         "ja": "どんなスポーツがすき？",
-                        "audio": "audio/fp1_ex1.mp3"
+                        "audio": "audio/fp1_ex1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "What food do you like?",
                         "ja": "どんなたべものがすき？",
-                        "audio": "audio/fp1_ex2.mp3"
+                        "audio": "audio/fp1_ex2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I like soccer and baseball.",
                         "ja": "サッカーとやきゅうがすき。",
-                        "audio": "audio/fp1_ex3.mp3"
+                        "audio": "audio/fp1_ex3.mp3",
+                        "note": ""
                     }
                 ],
                 "practicePassage": {
@@ -1265,7 +1268,11 @@
                     "My favorite"
                 ],
                 "highlightColor": "#4f8cff",
-                "highlightLabel": "すきなもの"
+                "highlightLabel": "すきなもの",
+                "source": "",
+                "challenge": [],
+                "sourceQuoteTranslation": "",
+                "sourceQuoteAudio": ""
             },
             {
                 "id": "fp2",
@@ -1279,17 +1286,20 @@
                     {
                         "en": "I wake up at seven.",
                         "ja": "7じにおきるよ。",
-                        "audio": "audio/fp2_ex1.mp3"
+                        "audio": "audio/fp2_ex1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I watch TV after dinner.",
                         "ja": "ばんごはんのあとテレビをみるよ。",
-                        "audio": "audio/fp2_ex2.mp3"
+                        "audio": "audio/fp2_ex2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I drink tea after lunch.",
                         "ja": "おひるのあとおちゃをのむよ。",
-                        "audio": "audio/fp2_ex3.mp3"
+                        "audio": "audio/fp2_ex3.mp3",
+                        "note": ""
                     }
                 ],
                 "practicePassage": {
@@ -1361,7 +1371,11 @@
                     "every"
                 ],
                 "highlightColor": "#10b981",
-                "highlightLabel": "まいにちのこと"
+                "highlightLabel": "まいにちのこと",
+                "source": "",
+                "challenge": [],
+                "sourceQuoteTranslation": "",
+                "sourceQuoteAudio": ""
             },
             {
                 "id": "fp3",
@@ -1375,17 +1389,20 @@
                     {
                         "en": "Where is my bag?",
                         "ja": "わたしのかばんはどこ？",
-                        "audio": "audio/fp3_ex1.mp3"
+                        "audio": "audio/fp3_ex1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "It's on your desk.",
                         "ja": "つくえのうえだよ。",
-                        "audio": "audio/fp3_ex2.mp3"
+                        "audio": "audio/fp3_ex2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "My dictionary is in the desk.",
                         "ja": "じしょはつくえのなかだよ。",
-                        "audio": "audio/fp3_ex3.mp3"
+                        "audio": "audio/fp3_ex3.mp3",
+                        "note": ""
                     }
                 ],
                 "practicePassage": {
@@ -1457,7 +1474,11 @@
                     "in the"
                 ],
                 "highlightColor": "#f59e0b",
-                "highlightLabel": "ばしょ"
+                "highlightLabel": "ばしょ",
+                "source": "",
+                "challenge": [],
+                "sourceQuoteTranslation": "",
+                "sourceQuoteAudio": ""
             },
             {
                 "id": "fp4",
@@ -1471,17 +1492,20 @@
                     {
                         "en": "Welcome to our school!",
                         "ja": "わたしたちのがっこうへようこそ！",
-                        "audio": "audio/fp4_ex1.mp3"
+                        "audio": "audio/fp4_ex1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I'm sleepy.",
                         "ja": "ねむいよ。",
-                        "audio": "audio/fp4_ex2.mp3"
+                        "audio": "audio/fp4_ex2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I think so, too.",
                         "ja": "わたしもそうおもう。",
-                        "audio": "audio/fp4_ex3.mp3"
+                        "audio": "audio/fp4_ex3.mp3",
+                        "note": ""
                     }
                 ],
                 "practicePassage": {
@@ -1553,7 +1577,11 @@
                     "I think so"
                 ],
                 "highlightColor": "#f472b6",
-                "highlightLabel": "あいさつ"
+                "highlightLabel": "あいさつ",
+                "source": "",
+                "challenge": [],
+                "sourceQuoteTranslation": "",
+                "sourceQuoteAudio": ""
             }
         ]
     }

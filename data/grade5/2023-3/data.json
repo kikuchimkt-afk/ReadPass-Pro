@@ -509,7 +509,7 @@
         {
             "name": "大問2",
             "nameEn": "Part 2",
-            "type": "conversation",
+            "type": "vocabulary",
             "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
             "questions": [
                 {
@@ -1188,22 +1188,38 @@
                 "examples": [
                     {
                         "en": "Julie likes art. She goes to a museum.",
-                        "ja": "ジュリーは美術が好き。美術館に行きます。"
+                        "ja": "ジュリーは美術が好き。美術館に行きます。",
+                        "audio": "audio/ex_fp1_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Tom likes animals and goes to the zoo.",
-                        "ja": "トムは動物が好きで動物園に行きます。"
+                        "ja": "トムは動物が好きで動物園に行きます。",
+                        "audio": "audio/ex_fp1_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I have two dogs and a rabbit.",
-                        "ja": "犬を2匹とウサギを1匹飼っています。"
+                        "ja": "犬を2匹とウサギを1匹飼っています。",
+                        "audio": "audio/ex_fp1_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp1.mp3",
                 "practicePassage": {
                     "en": "Stan is a tennis player. He wants a new racket for his birthday. Julie likes art. She often goes to a museum with her mother. Tom likes animals. He goes to the zoo every Sunday. Kelly has two dogs and a rabbit.",
-                    "ja": "スタンはテニス選手です。誕生日に新しいラケットが欲しいです。ジュリーは美術が好きです。よくお母さんと美術館に行きます。トムは動物が好きです。毎週日曜日に動物園に行きます。ケリーは犬を2匹とウサギを1匹飼っています。"
-                }
+                    "ja": "スタンはテニス選手です。誕生日に新しいラケットが欲しいです。ジュリーは美術が好きです。よくお母さんと美術館に行きます。トムは動物が好きです。毎週日曜日に動物園に行きます。ケリーは犬を2匹とウサギを1匹飼っています。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightLabel": "名詞と場面の対応",
+                "subtitle": "ことばのいみをおぼえよう",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp2",
@@ -1216,22 +1232,38 @@
                 "examples": [
                     {
                         "en": "Let's go to the pool after school.",
-                        "ja": "放課後にプールに行こうよ。"
+                        "ja": "放課後にプールに行こうよ。",
+                        "audio": "audio/ex_fp2_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "She drinks a cup of coffee.",
-                        "ja": "コーヒーを一杯飲みます。"
+                        "ja": "コーヒーを一杯飲みます。",
+                        "audio": "audio/ex_fp2_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "How long is your practice?",
-                        "ja": "練習はどのくらいの長さですか？"
+                        "ja": "練習はどのくらいの長さですか？",
+                        "audio": "audio/ex_fp2_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp2.mp3",
                 "practicePassage": {
                     "en": "I usually read magazines at home. My sister goes to the pool after school. Samantha always drinks a cup of coffee with breakfast. My brother washes his hair every morning.",
-                    "ja": "私はふだん家で雑誌を読みます。姉は放課後にプールに行きます。サマンサはいつも朝食にコーヒーを一杯飲みます。兄は毎朝髪を洗います。"
-                }
+                    "ja": "私はふだん家で雑誌を読みます。姉は放課後にプールに行きます。サマンサはいつも朝食にコーヒーを一杯飲みます。兄は毎朝髪を洗います。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightLabel": "前置詞の使い方",
+                "subtitle": "ばしょやじかんのことば",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp3",
@@ -1244,22 +1276,38 @@
                 "examples": [
                     {
                         "en": "Who is your Spanish teacher?",
-                        "ja": "スペイン語の先生は誰ですか？"
+                        "ja": "スペイン語の先生は誰ですか？",
+                        "audio": "audio/ex_fp3_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Please be quiet.",
-                        "ja": "静かにしてください。"
+                        "ja": "静かにしてください。",
+                        "audio": "audio/ex_fp3_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "These are not my shoes.",
-                        "ja": "これらは私のくつではありません。"
+                        "ja": "これらは私のくつではありません。",
+                        "audio": "audio/ex_fp3_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp3.mp3",
                 "practicePassage": {
                     "en": "I have a big dog. My friend has a small dog. Mine is brown. His is white. Please be quiet, Dan. Your sister is sleeping. These are not my shoes. They are my brother's.",
-                    "ja": "私は大きい犬を飼っています。友達は小さい犬を飼っています。私のは茶色です。彼のは白です。静かにして、ダン。お姉さんが寝ているよ。これらは私のくつではありません。兄のです。"
-                }
+                    "ja": "私は大きい犬を飼っています。友達は小さい犬を飼っています。私のは茶色です。彼のは白です。静かにして、ダン。お姉さんが寝ているよ。これらは私のくつではありません。兄のです。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightLabel": "代名詞と所有代名詞",
+                "subtitle": "mine, yours のつかいわけ",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp4",
@@ -1272,22 +1320,38 @@
                 "examples": [
                     {
                         "en": "Do you study on Saturdays? — Yes, I do.",
-                        "ja": "土曜日に勉強する？ ── うん、するよ。"
+                        "ja": "土曜日に勉強する？ ── うん、するよ。",
+                        "audio": "audio/ex_fp4_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Let's play a game. — I can't.",
-                        "ja": "ゲームしよう。── できないよ。"
+                        "ja": "ゲームしよう。── できないよ。",
+                        "audio": "audio/ex_fp4_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "What is in that box? — I don't know.",
-                        "ja": "箱の中に何がある？── 分からないよ。"
+                        "ja": "箱の中に何がある？── 分からないよ。",
+                        "audio": "audio/ex_fp4_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp4.mp3",
                 "practicePassage": {
                     "en": "Do you want some cookies? No, thanks. Do you study on Saturdays? Yes, I do. I go to the library. Let's play a game, Kenji. I can't. I have homework. What is in that box? I don't know. Let's look.",
-                    "ja": "クッキーはいかが？いいえ、結構です。土曜日に勉強する？うん、するよ。図書館に行くんだ。ゲームしようよ。できないよ。宿題があるんだ。あの箱の中に何がある？分からないよ。見てみよう。"
-                }
+                    "ja": "クッキーはいかが？いいえ、結構です。土曜日に勉強する？うん、するよ。図書館に行くんだ。ゲームしようよ。できないよ。宿題があるんだ。あの箱の中に何がある？分からないよ。見てみよう。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightLabel": "会話の受け答え",
+                "subtitle": "かいわのこたえかた",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             }
         ]
     }

@@ -509,7 +509,7 @@
         {
             "name": "大問2",
             "nameEn": "Part 2",
-            "type": "conversation",
+            "type": "vocabulary",
             "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
             "questions": [
                 {
@@ -1188,22 +1188,38 @@
                 "examples": [
                     {
                         "en": "Which subject do you like at school?",
-                        "ja": "学校でどの教科が好きですか？"
+                        "ja": "学校でどの教科が好きですか？",
+                        "audio": "audio/ex_fp1_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Alice eats toast for breakfast.",
-                        "ja": "アリスは朝食にトーストを食べます。"
+                        "ja": "アリスは朝食にトーストを食べます。",
+                        "audio": "audio/ex_fp1_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Jessica is a big fan of soccer.",
-                        "ja": "ジェシカはサッカーの大ファンです。"
+                        "ja": "ジェシカはサッカーの大ファンです。",
+                        "audio": "audio/ex_fp1_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp1.mp3",
                 "practicePassage": {
                     "en": "My name is Tom. I like many subjects at school. My favorite subject is science. I eat breakfast every morning. I like toast and milk. My sister is a big fan of basketball.",
-                    "ja": "ぼくの名前はトムです。学校のたくさんの教科が好きです。いちばん好きな教科は理科です。毎朝、朝食を食べます。トーストと牛乳が好きです。姉はバスケットボールの大ファンです。"
-                }
+                    "ja": "ぼくの名前はトムです。学校のたくさんの教科が好きです。いちばん好きな教科は理科です。毎朝、朝食を食べます。トーストと牛乳が好きです。姉はバスケットボールの大ファンです。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightLabel": "名詞と意味の対応",
+                "subtitle": "ことばのいみをおぼえよう",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp2",
@@ -1216,22 +1232,38 @@
                 "examples": [
                     {
                         "en": "Yoshiko does her homework at night.",
-                        "ja": "よし子は夜に宿題をします。"
+                        "ja": "よし子は夜に宿題をします。",
+                        "audio": "audio/ex_fp2_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "I play baseball near my house.",
-                        "ja": "家の近くで野球をします。"
+                        "ja": "家の近くで野球をします。",
+                        "audio": "audio/ex_fp2_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "It's on the table.",
-                        "ja": "テーブルの上にあります。"
+                        "ja": "テーブルの上にあります。",
+                        "audio": "audio/ex_fp2_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp2.mp3",
                 "practicePassage": {
                     "en": "I often talk about my future dream with my friends. I want to be a teacher. I do my homework at night. My house is near the school. My books are on my desk.",
-                    "ja": "ぼくはよく将来の夢について友達と話します。先生になりたいです。夜に宿題をします。家は学校の近くです。本は机の上にあります。"
-                }
+                    "ja": "ぼくはよく将来の夢について友達と話します。先生になりたいです。夜に宿題をします。家は学校の近くです。本は机の上にあります。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightLabel": "前置詞の使い方",
+                "subtitle": "ばしょやじかんのことば",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp3",
@@ -1244,22 +1276,38 @@
                 "examples": [
                     {
                         "en": "I cook dinner every Sunday.",
-                        "ja": "私は毎週日曜日に夕食を作ります。"
+                        "ja": "私は毎週日曜日に夕食を作ります。",
+                        "audio": "audio/ex_fp3_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "What are you doing?",
-                        "ja": "あなたは何をしていますか？"
+                        "ja": "あなたは何をしていますか？",
+                        "audio": "audio/ex_fp3_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "How about this afternoon?",
-                        "ja": "午後はどうですか？"
+                        "ja": "午後はどうですか？",
+                        "audio": "audio/ex_fp3_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp3.mp3",
                 "practicePassage": {
                     "en": "I like cooking. My sister and I cook dinner every Sunday. My mother helps me sometimes. She says my food is very good. That makes me happy.",
-                    "ja": "わたしは料理が好きです。姉と毎週日曜日に夕食を作ります。お母さんが時々手伝ってくれます。わたしの料理はとてもおいしいと言ってくれます。うれしくなります。"
-                }
+                    "ja": "わたしは料理が好きです。姉と毎週日曜日に夕食を作ります。お母さんが時々手伝ってくれます。わたしの料理はとてもおいしいと言ってくれます。うれしくなります。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightLabel": "代名詞の格変化",
+                "subtitle": "I, my, me, mine のつかいわけ",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             },
             {
                 "id": "fp4",
@@ -1272,22 +1320,38 @@
                 "examples": [
                     {
                         "en": "What are you doing?",
-                        "ja": "あなたは何をしていますか？"
+                        "ja": "あなたは何をしていますか？",
+                        "audio": "audio/ex_fp4_1.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Who is walking with Mr. Suzuki?",
-                        "ja": "鈴木先生と歩いているのはだれですか？"
+                        "ja": "鈴木先生と歩いているのはだれですか？",
+                        "audio": "audio/ex_fp4_2.mp3",
+                        "note": ""
                     },
                     {
                         "en": "Where do you play baseball?",
-                        "ja": "どこで野球をしますか？"
+                        "ja": "どこで野球をしますか？",
+                        "audio": "audio/ex_fp4_3.mp3",
+                        "note": ""
                     }
                 ],
                 "sourceQuoteAudio": "audio/sq_fp4.mp3",
                 "practicePassage": {
                     "en": "How does your sister study English? She watches English movies. What do you do after school? I play baseball near my house. Who is your best friend? My best friend is Tom.",
-                    "ja": "あなたのお姉さんはどうやって英語を勉強しますか？英語の映画を見ます。放課後は何をしますか？家の近くで野球をします。いちばんの友達はだれですか？いちばんの友達はトムです。"
-                }
+                    "ja": "あなたのお姉さんはどうやって英語を勉強しますか？英語の映画を見ます。放課後は何をしますか？家の近くで野球をします。いちばんの友達はだれですか？いちばんの友達はトムです。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightLabel": "疑問詞を使った文",
+                "subtitle": "しつもんのしかた",
+                "source": "",
+                "challenge": [],
+                "sourceLocation": "",
+                "practiceQuestions": [],
+                "practiceQuestionsSimple": [],
+                "highlightColor": "#FFD700",
+                "highlightPatterns": []
             }
         ]
     }
