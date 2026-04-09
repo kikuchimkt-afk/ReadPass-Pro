@@ -3,8 +3,10 @@ Regenerate ONLY question audio (q1-q25) for ALL grade5 exams,
 inserting a 0.5s silence where (　) blank appears.
 
 Strategy:
-- For questions with (　): split text at (　), generate each segment,
-  then concat with 0.5s silence via ffmpeg.
+- Split text at (　), generate each segment via edge-tts, concat with silence
+- For segments ending with articles/prepositions (a, an, the, to, etc.):
+  Append dummy word "thing" to force correct pronunciation, then trim off
+  the dummy word portion using ffmpeg duration subtraction.
 - For sentence-order questions (大問3): generate full sentence (no blank).
 - For questions without (　) (e.g. 大問2 some): generate normally.
 
@@ -24,9 +26,9 @@ EXAMS = ["2021-1", "2021-2", "2021-3", "2022-1", "2022-2", "2022-3"]
 RATE = "-30%"
 VOICE = "en-US-JennyNeural"
 SILENCE_MS = 500  # 0.5 seconds
+DUMMY_WORD = "thing"  # Appended to articles to fix pronunciation
 
 generated = 0
-skipped = 0
 
 async def tts_to_file(text, path, voice=VOICE, rate=RATE, retries=3):
     """Generate TTS for text and save to path, with retry."""
@@ -43,7 +45,6 @@ async def tts_to_file(text, path, voice=VOICE, rate=RATE, retries=3):
                 return False
 
 def generate_silence(path, duration_ms=500):
-    """Generate a silence mp3 file of given duration using ffmpeg."""
     subprocess.run([
         "ffmpeg", "-y", "-f", "lavfi", "-i",
         f"anullsrc=r=24000:cl=mono",
@@ -53,8 +54,6 @@ def generate_silence(path, duration_ms=500):
     ], capture_output=True)
 
 def concat_mp3_files(parts, output_path):
-    """Concatenate a list of mp3 files using ffmpeg concat demuxer."""
-    # Create a temp file list
     list_path = output_path + ".list.txt"
     with open(list_path, "w", encoding="utf-8") as f:
         for p in parts:
@@ -67,12 +66,29 @@ def concat_mp3_files(parts, output_path):
     ], capture_output=True)
     os.remove(list_path)
 
+def get_mp3_duration(path):
+    """Get duration of mp3 file in seconds using ffprobe."""
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", path],
+        capture_output=True, text=True
+    )
+    try:
+        return float(result.stdout.strip())
+    except:
+        return 0
+
+def trim_mp3(input_path, output_path, duration):
+    """Trim mp3 to specified duration."""
+    subprocess.run([
+        "ffmpeg", "-y", "-i", input_path,
+        "-t", str(duration),
+        "-c:a", "libmp3lame", "-q:a", "2", output_path
+    ], capture_output=True)
+
 def clean_text_for_tts(text):
-    """Clean text for TTS: remove line breaks, normalize."""
     text = text.replace("\\n", "\n").replace("\n", " ... ")
-    # Remove trailing/leading punctuation-only remnants
     text = text.strip()
-    # If only punctuation remains, return empty
     if text and all(c in '.,!?;: ' for c in text):
         return ""
     return text
@@ -84,37 +100,48 @@ _TRAILING_WORDS = {
     'its', 'our', 'your', 'be', 'me', 'us', 'we', 'it'
 }
 
-def fix_segment_boundaries(parts):
-    """Fix segments ending with short articles/prepositions that TTS mispronounces.
-    Instead of moving words, append '...' so TTS reads them as mid-sentence
-    (e.g. 'a' reads as article 'ア' not letter 'エイ').
-    e.g. ['She goes to a', 'with her mom'] -> ['She goes to a...', 'with her mom']
-    """
-    fixed = list(parts)
-    for i in range(len(fixed) - 1):
-        seg = fixed[i].strip()
-        if not seg:
-            continue
-        words = seg.split()
-        if not words:
-            continue
-        last = words[-1].rstrip('.,!?;:')
-        if last.lower() in _TRAILING_WORDS:
-            # Append ellipsis so TTS treats this as mid-sentence trailing off
-            fixed[i] = seg + '...'
-    return fixed
+def needs_dummy_word(text):
+    """Check if cleaned text ends with a word that needs a dummy word appended."""
+    words = text.split()
+    if not words:
+        return False
+    last = words[-1].rstrip('.,!?;:')
+    return last.lower() in _TRAILING_WORDS
+
+async def generate_segment_audio(text, output_path, tmp_dir, seg_id):
+    """Generate TTS for a segment, handling trailing articles with dummy word trick."""
+    cleaned = clean_text_for_tts(text)
+    if not cleaned or len(cleaned) <= 1:
+        return False
+
+    if needs_dummy_word(cleaned):
+        # Generate with dummy word to force correct pronunciation
+        text_with_dummy = f"{cleaned} {DUMMY_WORD}"
+        with_path = os.path.join(tmp_dir, f"{seg_id}_with.mp3")
+        dummy_path = os.path.join(tmp_dir, f"{seg_id}_dummy.mp3")
+
+        ok1 = await tts_to_file(text_with_dummy, with_path)
+        ok2 = await tts_to_file(DUMMY_WORD, dummy_path)
+
+        if ok1 and ok2:
+            dur_with = get_mp3_duration(with_path)
+            dur_dummy = get_mp3_duration(dummy_path)
+            trim_to = max(0.5, dur_with - dur_dummy + 0.05)  # small buffer
+            trim_mp3(with_path, output_path, trim_to)
+            os.remove(with_path)
+            os.remove(dummy_path)
+            return True
+        return False
+    else:
+        return await tts_to_file(cleaned, output_path)
+
 
 async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
-    """Generate audio for a single question.
-    For blanks: replace (　) with SSML <break> tag for a natural 0.5s pause
-    without splitting text, so articles like 'a' stay in natural context.
-    """
     global generated
     num = q["number"]
     output_path = os.path.join(audio_dir, f"q{num}.mp3")
 
     if sec_type == "sentence-order":
-        # Read the completed sentence (no blank)
         words = q.get("words", [])
         order = q.get("correctOrder", [])
         prefix = q.get("framePrefix", "")
@@ -130,26 +157,41 @@ async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
     choices = q.get("choices", [])
     choice_text = " ... ".join([f"{i+1}. {c}" for i, c in enumerate(choices)])
 
-    # Check if question has a blank (　)
     has_blank = "(　)" in raw or "(\u3000)" in raw
 
     if has_blank:
-        # Replace blank with SSML break tag (0.5s pause)
-        text = raw.replace("(\u3000)", "(　)")
-        text = text.replace("(　)", ' <break time="500ms"/> ')
-        text = text.replace("\\n", "\n").replace("\n", " ... ")
-        text = text.strip()
+        raw_norm = raw.replace("(\u3000)", "(　)")
+        parts = raw_norm.split("(　)")
 
-        # Append choices
+        seg_files = []
+        silence_path = os.path.join(tmp_dir, "silence_500ms.mp3")
+        if not os.path.exists(silence_path):
+            generate_silence(silence_path, SILENCE_MS)
+
+        for i, part in enumerate(parts):
+            seg_path = os.path.join(tmp_dir, f"q{num}_seg{i}.mp3")
+            ok = await generate_segment_audio(part, seg_path, tmp_dir, f"q{num}_seg{i}")
+            if ok:
+                seg_files.append(seg_path)
+            if i < len(parts) - 1:
+                seg_files.append(silence_path)
+
         if choices:
-            text = f'{text} <break time="300ms"/> {choice_text}'
+            choice_seg_path = os.path.join(tmp_dir, f"q{num}_choices.mp3")
+            await tts_to_file(choice_text, choice_seg_path)
+            seg_files.append(silence_path)
+            seg_files.append(choice_seg_path)
 
-        await tts_to_file(text, output_path)
+        concat_mp3_files(seg_files, output_path)
+
+        for f in seg_files:
+            if f != silence_path and os.path.exists(f):
+                os.remove(f)
+
         generated += 1
-        print(f"  ✓ q{num}.mp3 (SSML break pause)")
+        print(f"  ✓ q{num}.mp3 (split+trim pause)")
 
     else:
-        # No blank - straightforward generation
         cleaned = clean_text_for_tts(raw)
         full_text = f"{cleaned} ... {choice_text}" if choices else cleaned
         await tts_to_file(full_text, output_path)
@@ -158,7 +200,7 @@ async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
 
 
 async def main():
-    global generated, skipped
+    global generated
 
     for exam in EXAMS:
         exam_dir = os.path.join(ROOT, exam)
@@ -179,14 +221,12 @@ async def main():
 
         for sec in data["sections"]:
             for q in sec.get("questions", []):
-                # Delete existing file to force regeneration
                 existing = os.path.join(audio_dir, f"q{q['number']}.mp3")
                 if os.path.exists(existing):
                     os.remove(existing)
                 await generate_question_audio(q, sec["type"], audio_dir, tmp_dir)
                 exam_gen += 1
 
-        # Clean up tmp dir
         shutil.rmtree(tmp_dir, ignore_errors=True)
         print(f"  Generated {exam_gen} question audio files for {exam}")
 
