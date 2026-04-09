@@ -1523,21 +1523,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「all over the world」はどういう意味？",
-                        "a": "世界中"
+                        "a": "世界中",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "サリーは将来どこに引っ越したい？",
-                        "a": "静かな町"
+                        "a": "静かな町",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「all over the world」はどういういみ？",
-                        "a": "せかいじゅう"
+                        "a": "せかいじゅう",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "サリーはどこに引っ越したい？",
-                        "a": "しずかなまち"
+                        "a": "しずかなまち",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1548,7 +1552,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "場所・方向の言葉",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1590,21 +1596,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ジャムはどこで買った？",
-                        "a": "長野"
+                        "a": "長野",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "ビルは何分待った？",
-                        "a": "5分"
+                        "a": "5分",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "ジャムはどこで買った？",
-                        "a": "長野"
+                        "a": "長野",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "ビルは何分まった？",
-                        "a": "5分"
+                        "a": "5分",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1614,7 +1624,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "会話のヒント",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1656,21 +1668,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ジョニーは何時に行く？",
-                        "a": "午前11時"
+                        "a": "午前11時",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "ジョニーは何が食べたい？",
-                        "a": "トマトソースのヌードル"
+                        "a": "トマトソースのヌードル",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "なんじに行く？",
-                        "a": "ごぜん11時"
+                        "a": "ごぜん11時",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "なにが食べたい？",
-                        "a": "トマトソースのヌードル"
+                        "a": "トマトソースのヌードル",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1682,7 +1698,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "メールのポイント",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1724,21 +1742,25 @@
                 "practiceQuestions": [
                     {
                         "q": "アーニャはどこで生まれた？",
-                        "a": "スペイン"
+                        "a": "スペイン",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "カイルはなぜ嬉しかった？",
-                        "a": "新しい友達ができたから"
+                        "a": "新しい友達ができたから",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "アーニャはどこでうまれた？",
-                        "a": "スペイン"
+                        "a": "スペイン",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "カイルはなぜうれしい？",
-                        "a": "あたらしいともだちができたから"
+                        "a": "あたらしいともだちができたから",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1750,7 +1772,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

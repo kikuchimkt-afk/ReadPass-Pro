@@ -1521,21 +1521,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「glad to hear that」はどういう意味？",
-                        "a": "それを聞いてうれしい"
+                        "a": "それを聞いてうれしい",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "なぜ両親は心配した？",
-                        "a": "歴史のテストの点が低かったから"
+                        "a": "歴史のテストの点が低かったから",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「glad」はどういういみ？",
-                        "a": "うれしい"
+                        "a": "うれしい",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "りょうしんはなぜしんぱいした？",
-                        "a": "れきしのテストのてんがひくかったから"
+                        "a": "れきしのテストのてんがひくかったから",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1546,7 +1550,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "きもち・ようすの言葉",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1588,21 +1594,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「Sounds good」はどんなときに使う？",
-                        "a": "相手の提案に賛成するとき"
+                        "a": "相手の提案に賛成するとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「How about〜?」はどんなときに使う？",
-                        "a": "何かを提案するとき"
+                        "a": "何かを提案するとき",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「Sounds good」はいつ使う？",
-                        "a": "「いいね！」って言うとき"
+                        "a": "「いいね！」って言うとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「How about〜?」はいつ使う？",
-                        "a": "「〜しない？」ってさそうとき"
+                        "a": "「〜しない？」ってさそうとき",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1614,7 +1624,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "さそい・かんそうの表現",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1656,21 +1668,25 @@
                 "practiceQuestions": [
                     {
                         "q": "トラは何歳？",
-                        "a": "約6ヶ月"
+                        "a": "約6ヶ月",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "クマはいつ来る？",
-                        "a": "1月12日"
+                        "a": "1月12日",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "トラはなんさい？",
-                        "a": "6かげつ"
+                        "a": "6かげつ",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "クマはいつくる？",
-                        "a": "1月12日"
+                        "a": "1月12日",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1681,7 +1697,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "おしらせのポイント",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1723,21 +1741,25 @@
                 "practiceQuestions": [
                     {
                         "q": "新しい先生はクラスをどこに連れて行った？",
-                        "a": "お城と歴史博物館"
+                        "a": "お城と歴史博物館",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "アンドリューは毎週土曜日に何をする？",
-                        "a": "図書館に行く"
+                        "a": "図書館に行く",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "先生はどこに連れて行った？",
-                        "a": "おしろとはくぶつかん"
+                        "a": "おしろとはくぶつかん",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "土曜のあさ何をする？",
-                        "a": "としょかんに行く"
+                        "a": "としょかんに行く",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1750,7 +1772,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

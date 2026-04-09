@@ -1566,24 +1566,32 @@
                 "practiceQuestions": [
                     {
                         "q": "「疲れた」は英語でなんて言う？",
-                        "a": "I'm tired. （sleepy は「眠い」、tired は「疲れた」だよ）"
+                        "a": "I'm tired. （sleepy は「眠い」、tired は「疲れた」だよ）",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "友だちに「急いで！」と言いたいときは？",
-                        "a": "Hurry up! （slow down の反対だね）"
+                        "a": "Hurry up! （slow down の反対だね）",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「ねむいよ」って英語で言ってみよう！",
-                        "a": "I'm sleepy! って言うよ。いっしょに言ってみよう！"
+                        "a": "I'm sleepy! って言うよ。いっしょに言ってみよう！",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「いそがしい」って英語で言ってみよう！",
-                        "a": "I'm busy! って言うよ！"
+                        "a": "I'm busy! って言うよ！",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "highlightLabel": "気持ちを伝えてみよう",
+                "highlightColor": "#FFD700",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1630,24 +1638,32 @@
                 "practiceQuestions": [
                     {
                         "q": "友だちに「手伝おうか？」と言いたいときは？",
-                        "a": "Shall I help you? または Can I help you? と言うよ。"
+                        "a": "Shall I help you? または Can I help you? と言うよ。",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「プレゼントを送る」は英語でなんて言う？",
-                        "a": "send a present と言うよ。send は「送る」だね。"
+                        "a": "send a present と言うよ。send は「送る」だね。",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "おばあちゃんに何かおくりたいとき、なんて言う？",
-                        "a": "I send 〜 to my grandmother. って言うよ！"
+                        "a": "I send 〜 to my grandmother. って言うよ！",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「〜しましょうか？」って英語で言ってみよう！",
-                        "a": "Shall I 〜? って言うよ！やさしい聞き方だね。"
+                        "a": "Shall I 〜? って言うよ！やさしい聞き方だね。",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "highlightLabel": "だれかのためにしてあげよう",
+                "highlightColor": "#FF6B6B",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1696,24 +1712,32 @@
                 "practiceQuestions": [
                     {
                         "q": "コンサートのチケットは生徒いくら？",
-                        "a": "$5（5ドル）だよ。お知らせの Tickets: のところを見てみよう。"
+                        "a": "$5（5ドル）だよ。お知らせの Tickets: のところを見てみよう。",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "コンサートの後になにができる？",
-                        "a": "カフェテリアで snacks（おやつ）と drinks（飲み物）がもらえるよ。"
+                        "a": "カフェテリアで snacks（おやつ）と drinks（飲み物）がもらえるよ。",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "このコンサートはいつ？",
-                        "a": "5月3日の土曜日だよ！Date のところを見てね！"
+                        "a": "5月3日の土曜日だよ！Date のところを見てね！",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "コンサートのあとに何かあるかな？",
-                        "a": "おやつとジュースがもらえるよ！やったね！"
+                        "a": "おやつとジュースがもらえるよ！やったね！",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "highlightLabel": "お知らせを読んでわかるようになろう",
+                "highlightColor": "#4ECDC4",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1762,24 +1786,32 @@
                 "practiceQuestions": [
                     {
                         "q": "友だちを遊びにさそいたいとき、なんて言う？",
-                        "a": "Do you want to 〜 with me? と言うよ。「いっしょに〜しない？」という意味だね。"
+                        "a": "Do you want to 〜 with me? と言うよ。「いっしょに〜しない？」という意味だね。",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "サムのおかげでみんなが喜んだのはなぜ？",
-                        "a": "食べ物をたくさん持ってきたからだよ。だれかのためにしたことが喜ばれるとうれしいね！"
+                        "a": "食べ物をたくさん持ってきたからだよ。だれかのためにしたことが喜ばれるとうれしいね！",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "友だちを「いっしょに遊ぼう！」ってさそうとき、英語でなんて言う？",
-                        "a": "Do you want to play with me? って言うよ！さそってみよう！"
+                        "a": "Do you want to play with me? って言うよ！さそってみよう！",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "サムはなんで楽しかったのかな？",
-                        "a": "友だちができて、いっしょにキャンプに行けたからだよ！友だちって最高だね！"
+                        "a": "友だちができて、いっしょにキャンプに行けたからだよ！友だちって最高だね！",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "highlightLabel": "友だちのおかげで世界が広がる物語",
+                "highlightColor": "#A78BFA",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

@@ -1521,21 +1521,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「take a walk」はどういう意味？",
-                        "a": "散歩する"
+                        "a": "散歩する",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "ビルは何時に学校に向かう？",
-                        "a": "毎朝8:20"
+                        "a": "毎朝8:20",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「take a walk」はどういういみ？",
-                        "a": "さんぽする"
+                        "a": "さんぽする",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "ビルはなんじに学校に行く？",
-                        "a": "まいあさ8じ20ぷん"
+                        "a": "まいあさ8じ20ぷん",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1547,7 +1551,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "日常の表現",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1589,21 +1595,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「was listening」はどういう意味？",
-                        "a": "聞いていた"
+                        "a": "聞いていた",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「mine」はどういう意味？",
-                        "a": "私のもの"
+                        "a": "私のもの",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「was listening」はどういういみ？",
-                        "a": "聞いていた"
+                        "a": "聞いていた",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「mine」はどういういみ？",
-                        "a": "わたしのもの"
+                        "a": "わたしのもの",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1613,7 +1623,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "文法ポイント",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1655,21 +1667,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ベンは日曜の朝に何をする？",
-                        "a": "ピアノ教室"
+                        "a": "ピアノ教室",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "ベンは何を持っていくべき？",
-                        "a": "傘"
+                        "a": "傘",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "日曜のあさは何する？",
-                        "a": "ピアノ"
+                        "a": "ピアノ",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "何をもっていく？",
-                        "a": "かさ"
+                        "a": "かさ",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1681,7 +1697,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "スケジュール",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1723,21 +1741,25 @@
                 "practiceQuestions": [
                     {
                         "q": "農場には何匹の羊がいた？",
-                        "a": "600匹"
+                        "a": "600匹",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "毎朝お父さんは何をした？",
-                        "a": "みんなの朝食を作った"
+                        "a": "みんなの朝食を作った",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "何びきの羊がいた？",
-                        "a": "600ぴき"
+                        "a": "600ぴき",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "おとうさんは毎あさ何した？",
-                        "a": "朝ごはんを作った"
+                        "a": "朝ごはんを作った",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1750,7 +1772,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

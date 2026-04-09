@@ -1523,21 +1523,25 @@
                 "practiceQuestions": [
                     {
                         "q": "先生はなぜ angry だった？",
-                        "a": "ジョンが宿題を忘れたから"
+                        "a": "ジョンが宿題を忘れたから",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "ハンナはいつ happy だった？",
-                        "a": "サーフボードの上に立てたとき"
+                        "a": "サーフボードの上に立てたとき",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "先生はなぜおこった？",
-                        "a": "しゅくだいをわすれたから"
+                        "a": "しゅくだいをわすれたから",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "ハンナはいつうれしかった？",
-                        "a": "サーフボードに立てたとき"
+                        "a": "サーフボードに立てたとき",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1549,7 +1553,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "きもち・ようすの言葉",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1591,21 +1597,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「Could you〜?」はどんなときに使う？",
-                        "a": "丁寧にお願いするとき"
+                        "a": "丁寧にお願いするとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "ジェームズはおばあちゃんに何を頼んだ？",
-                        "a": "レシピを送ってほしい"
+                        "a": "レシピを送ってほしい",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「Could you〜?」はどう使う？",
-                        "a": "ていねいにおねがいするときだよ"
+                        "a": "ていねいにおねがいするときだよ",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "ジェームズはなにをたのんだ？",
-                        "a": "レシピを送ってほしいってたのんだよ"
+                        "a": "レシピを送ってほしいってたのんだよ",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1615,7 +1625,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "おねがい・おさそい",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1657,21 +1669,25 @@
                 "practiceQuestions": [
                     {
                         "q": "何時に集合？",
-                        "a": "午前8時"
+                        "a": "午前8時",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "何を持っていく？",
-                        "a": "お弁当と大きなゴミ袋"
+                        "a": "お弁当と大きなゴミ袋",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "なんじに集まるの？",
-                        "a": "あさ8じ"
+                        "a": "あさ8じ",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "なにを持っていくの？",
-                        "a": "おべんとうと大きなゴミぶくろ"
+                        "a": "おべんとうと大きなゴミぶくろ",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1682,7 +1698,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "おしらせのポイント",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1724,21 +1742,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ハンナはどこに旅行した？",
-                        "a": "フィジー"
+                        "a": "フィジー",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "サーフィンの授業の後、何をした？",
-                        "a": "シドニーでサーフィン教室を探して見つけた"
+                        "a": "シドニーでサーフィン教室を探して見つけた",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "ハンナはどこに行った？",
-                        "a": "フィジー"
+                        "a": "フィジー",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "サーフィンのあと何をした？",
-                        "a": "シドニーでサーフィン教室をみつけた"
+                        "a": "シドニーでサーフィン教室をみつけた",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1751,7 +1773,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

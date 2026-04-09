@@ -1521,21 +1521,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「caught a cold」はどういう意味？",
-                        "a": "風邪をひいた"
+                        "a": "風邪をひいた",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「each other」はどういう意味？",
-                        "a": "お互い"
+                        "a": "お互い",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「caught a cold」はどういういみ？",
-                        "a": "風邪をひいた"
+                        "a": "風邪をひいた",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「each other」はどういういみ？",
-                        "a": "おたがい"
+                        "a": "おたがい",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1547,7 +1551,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "日常の表現",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1589,21 +1595,25 @@
                 "practiceQuestions": [
                     {
                         "q": "canの後に来る動詞の形は？",
-                        "a": "原形（動詞のもとの形）"
+                        "a": "原形（動詞のもとの形）",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「must」はどういう意味？",
-                        "a": "〜しなければならない"
+                        "a": "〜しなければならない",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "canの後は何のかたち？",
-                        "a": "げんけい（もとのかたち）"
+                        "a": "げんけい（もとのかたち）",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「must」はどういういみ？",
-                        "a": "〜しなきゃいけない"
+                        "a": "〜しなきゃいけない",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1613,7 +1623,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "文法ポイント",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1655,21 +1667,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ポーリーナは何の科目を手伝ってほしい？",
-                        "a": "日本史"
+                        "a": "日本史",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "美咲はどこで勉強したい？",
-                        "a": "家の近くのコーヒーショップ"
+                        "a": "家の近くのコーヒーショップ",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "ポーリーナは何をてつだってほしい？",
-                        "a": "日本史"
+                        "a": "日本史",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "どこでべんきょうする？",
-                        "a": "コーヒーショップ"
+                        "a": "コーヒーショップ",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1681,7 +1697,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "スケジュール",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1723,21 +1741,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ダニエルは何の絵を描いた？",
-                        "a": "自分の家の絵"
+                        "a": "自分の家の絵",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "コンテスト後何を始めた？",
-                        "a": "週2回のアートレッスン"
+                        "a": "週2回のアートレッスン",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "何の絵をかいた？",
-                        "a": "自分の家の絵"
+                        "a": "自分の家の絵",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "コンテストのあと何を始めた？",
-                        "a": "アートレッスン"
+                        "a": "アートレッスン",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1749,7 +1771,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

@@ -1521,21 +1521,25 @@
                 "practiceQuestions": [
                     {
                         "q": "おばあちゃんはいつ犬を散歩させる？",
-                        "a": "朝食の前"
+                        "a": "朝食の前",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "サリーのお母さんはなぜ怒った？",
-                        "a": "10時までに帰らなかったから"
+                        "a": "10時までに帰らなかったから",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "おばあちゃんはいつさんぽする？",
-                        "a": "あさごはんのまえ"
+                        "a": "あさごはんのまえ",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "お母さんはなぜおこった？",
-                        "a": "10時までに帰らなかったから"
+                        "a": "10時までに帰らなかったから",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1548,7 +1552,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "時間の言葉",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1590,21 +1596,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「Can you〜?」はどんなときに使う？",
-                        "a": "何かをお願いするとき"
+                        "a": "何かをお願いするとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「No, thanks」は何を意味する？",
-                        "a": "丁寧に断っている"
+                        "a": "丁寧に断っている",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「Can you〜?」はどう使う？",
-                        "a": "おねがいするときだよ"
+                        "a": "おねがいするときだよ",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「No, thanks」はどういういみ？",
-                        "a": "ていねいに「いいです」って言ってるよ"
+                        "a": "ていねいに「いいです」って言ってるよ",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1615,7 +1625,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "ていねいな表現",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1657,21 +1669,25 @@
                 "practiceQuestions": [
                     {
                         "q": "テストはいつ？",
-                        "a": "金曜日"
+                        "a": "金曜日",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "サムはなぜ火曜に手伝えない？",
-                        "a": "野球の練習があるから"
+                        "a": "野球の練習があるから",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "テストはいつ？",
-                        "a": "金曜日"
+                        "a": "金曜日",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "サムはなぜ火曜ダメ？",
-                        "a": "やきゅうのれんしゅうがあるから"
+                        "a": "やきゅうのれんしゅうがあるから",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1683,7 +1699,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "ようびのポイント",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1725,21 +1743,25 @@
                 "practiceQuestions": [
                     {
                         "q": "アニーはどこで子猫を見つけた？",
-                        "a": "仕事帰りの道で"
+                        "a": "仕事帰りの道で",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "子猫の名前は？",
-                        "a": "ルナ"
+                        "a": "ルナ",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "子ネコはどこにいた？",
-                        "a": "みちの上"
+                        "a": "みちの上",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "子ネコの名前は？",
-                        "a": "ルナ"
+                        "a": "ルナ",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1751,7 +1773,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

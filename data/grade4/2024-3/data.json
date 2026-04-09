@@ -1521,21 +1521,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「good at」はどういう意味？",
-                        "a": "〜が得意"
+                        "a": "〜が得意",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「thanks for asking」はどういう意味？",
-                        "a": "誘ってくれてありがとう"
+                        "a": "誘ってくれてありがとう",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「good at」はどういういみ？",
-                        "a": "〜がとくい"
+                        "a": "〜がとくい",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「thanks for asking」はどういういみ？",
-                        "a": "さそってくれてありがとう"
+                        "a": "さそってくれてありがとう",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1547,7 +1551,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "日常の表現",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1589,21 +1595,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「There are」はいつ使う？",
-                        "a": "たくさんの物や人がいるとき"
+                        "a": "たくさんの物や人がいるとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "eat の過去形は？",
-                        "a": "ate"
+                        "a": "ate",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「There are」はいつ使う？",
-                        "a": "たくさんの物や人がいるとき"
+                        "a": "たくさんの物や人がいるとき",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "eat のかこけいは？",
-                        "a": "ate"
+                        "a": "ate",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1614,7 +1624,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "文法ポイント",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1656,21 +1668,25 @@
                 "practiceQuestions": [
                     {
                         "q": "コーチはどこで時計を見つけた？",
-                        "a": "体育館のベンチ"
+                        "a": "体育館のベンチ",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "いつ事務室に行くべき？",
-                        "a": "明日の朝"
+                        "a": "明日の朝",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "どこで時計を見つけた？",
-                        "a": "たいいくかんのベンチ"
+                        "a": "たいいくかんのベンチ",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "いつ取りに行く？",
-                        "a": "あしたの朝"
+                        "a": "あしたの朝",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1682,7 +1698,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "じょうほう整理",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1724,21 +1742,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ジルは釣りで何匹釣れた？",
-                        "a": "0匹"
+                        "a": "0匹",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "今年の夏に何をする予定？",
-                        "a": "友達と旅行して海でサーフィン"
+                        "a": "友達と旅行して海でサーフィン",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "つりでなんびきつれた？",
-                        "a": "0ぴき（ぜんぜんつれなかった）"
+                        "a": "0ぴき（ぜんぜんつれなかった）",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "今年のなつ何する？",
-                        "a": "友だちと海でサーフィン"
+                        "a": "友だちと海でサーフィン",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1750,7 +1772,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

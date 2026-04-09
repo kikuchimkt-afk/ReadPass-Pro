@@ -1523,21 +1523,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「for example」はどういう意味？",
-                        "a": "例えば"
+                        "a": "例えば",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「I have no idea」はどういう意味？",
-                        "a": "わからない"
+                        "a": "わからない",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「for example」はどういういみ？",
-                        "a": "たとえば"
+                        "a": "たとえば",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "「I have no idea」はどういういみ？",
-                        "a": "わからない"
+                        "a": "わからない",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1549,7 +1553,9 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "日常の表現",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp2",
@@ -1591,21 +1597,25 @@
                 "practiceQuestions": [
                     {
                         "q": "「more interesting than」はどういう意味？",
-                        "a": "〜より面白い"
+                        "a": "〜より面白い",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「Shall I〜?」はどんなときに使う？",
-                        "a": "〜しましょうかと提案するとき"
+                        "a": "〜しましょうかと提案するとき",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "「more〜than」はどういういみ？",
-                        "a": "「〜より〇〇」"
+                        "a": "「〜より〇〇」",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "「Shall I〜?」はいつ使う？",
-                        "a": "「〜しましょうか？」ってていあんするとき"
+                        "a": "「〜しましょうか？」ってていあんするとき",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1617,7 +1627,9 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "文法ポイント",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp3",
@@ -1659,21 +1671,25 @@
                 "practiceQuestions": [
                     {
                         "q": "土曜の夜は何をする？",
-                        "a": "バーベキュー"
+                        "a": "バーベキュー",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "なぜ帽子が必要？",
-                        "a": "暑くて晴れだから"
+                        "a": "暑くて晴れだから",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "土曜のよるは何する？",
-                        "a": "バーベキュー"
+                        "a": "バーベキュー",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "なぜぼうしがいる？",
-                        "a": "あつくてはれだから"
+                        "a": "あつくてはれだから",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1685,7 +1701,9 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "よていのポイント",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": ""
             },
             {
                 "id": "fp4",
@@ -1727,21 +1745,25 @@
                 "practiceQuestions": [
                     {
                         "q": "ジェラルドは演奏中どう感じた？",
-                        "a": "緊張した"
+                        "a": "緊張した",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "演奏後に何をした？",
-                        "a": "ピザレストランに行ってお祝い"
+                        "a": "ピザレストランに行ってお祝い",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "practiceQuestionsSimple": [
                     {
                         "q": "えんそう中どうだった？",
-                        "a": "きんちょうした"
+                        "a": "きんちょうした",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "えんそうのあと何した？",
-                        "a": "ピザを食べに行った"
+                        "a": "ピザを食べに行った",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1753,7 +1775,9 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "ものがたりのポイント",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": ""
             }
         ]
     }

@@ -1521,15 +1521,18 @@
                 "practiceQuestions": [
                     {
                         "q": "最初の日、主人公はどんな気持ちでしたか？",
-                        "a": "少し緊張していた（nervous）"
+                        "a": "少し緊張していた（nervous）",
+                        "audio": "audio/challenge_fp1_q1.mp3"
                     },
                     {
                         "q": "先生はどんな言葉をかけてくれた？",
-                        "a": "「ようこそ！来てくれてうれしい」"
+                        "a": "「ようこそ！来てくれてうれしい」",
+                        "audio": "audio/challenge_fp1_q2.mp3"
                     },
                     {
                         "q": "最後に主人公の気持ちはどう変わった？",
-                        "a": "明日が楽しみになった（excited）"
+                        "a": "明日が楽しみになった（excited）",
+                        "audio": "audio/challenge_fp1_q3.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1540,7 +1543,26 @@
                 ],
                 "highlightColor": "#4f8cff",
                 "highlightLabel": "きもち表現",
-                "sourceQuoteAudio": "audio/sq_fp1.mp3"
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "challenge": [],
+                "source": "",
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "最初の日、主人公はどんな気持ちでしたか？",
+                        "a": "少し緊張していた（nervous）",
+                        "audio": "audio/challenge_fp1_q1.mp3"
+                    },
+                    {
+                        "q": "先生はどんな言葉をかけてくれた？",
+                        "a": "「ようこそ！来てくれてうれしい」",
+                        "audio": "audio/challenge_fp1_q2.mp3"
+                    },
+                    {
+                        "q": "最後に主人公の気持ちはどう変わった？",
+                        "a": "明日が楽しみになった（excited）",
+                        "audio": "audio/challenge_fp1_q3.mp3"
+                    }
+                ]
             },
             {
                 "id": "fp2",
@@ -1577,15 +1599,18 @@
                 "practiceQuestions": [
                     {
                         "q": "トムは友だちに何をお願いした？",
-                        "a": "算数の宿題を手伝ってほしいとお願いした"
+                        "a": "算数の宿題を手伝ってほしいとお願いした",
+                        "audio": "audio/challenge_fp2_q1.mp3"
                     },
                     {
                         "q": "図書館の人にはどんな言い方をした？",
-                        "a": "May I borrow this book, please? とていねいにお願いした"
+                        "a": "May I borrow this book, please? とていねいにお願いした",
+                        "audio": "audio/challenge_fp2_q2.mp3"
                     },
                     {
                         "q": "Can you と May I のちがいは？",
-                        "a": "Can you は友だちや家族向け、May I はていねいなお願い"
+                        "a": "Can you は友だちや家族向け、May I はていねいなお願い",
+                        "audio": "audio/challenge_fp2_q3.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1596,7 +1621,26 @@
                 ],
                 "highlightColor": "#34d399",
                 "highlightLabel": "おねがい表現",
-                "sourceQuoteAudio": "audio/sq_fp2.mp3"
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "challenge": [],
+                "source": "",
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "トムは友だちに何をお願いした？",
+                        "a": "算数の宿題を手伝ってほしいとお願いした",
+                        "audio": "audio/challenge_fp2_q1.mp3"
+                    },
+                    {
+                        "q": "図書館の人にはどんな言い方をした？",
+                        "a": "May I borrow this book, please? とていねいにお願いした",
+                        "audio": "audio/challenge_fp2_q2.mp3"
+                    },
+                    {
+                        "q": "Can you と May I のちがいは？",
+                        "a": "Can you は友だちや家族向け、May I はていねいなお願い",
+                        "audio": "audio/challenge_fp2_q3.mp3"
+                    }
+                ]
             },
             {
                 "id": "fp3",
@@ -1633,15 +1677,18 @@
                 "practiceQuestions": [
                     {
                         "q": "読書クラブはいつからいつまで？",
-                        "a": "8月1日から8月31日まで"
+                        "a": "8月1日から8月31日まで",
+                        "audio": "audio/challenge_fp3_q1.mp3"
                     },
                     {
                         "q": "費用はいくら？",
-                        "a": "無料（Free）"
+                        "a": "無料（Free）",
+                        "audio": "audio/challenge_fp3_q2.mp3"
                     },
                     {
                         "q": "参加するにはいつまでに何をする？",
-                        "a": "7月25日までに図書館に行く"
+                        "a": "7月25日までに図書館に行く",
+                        "audio": "audio/challenge_fp3_q3.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1653,7 +1700,26 @@
                 ],
                 "highlightColor": "#f472b6",
                 "highlightLabel": "お知らせキーワード",
-                "sourceQuoteAudio": "audio/sq_fp3.mp3"
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "challenge": [],
+                "source": "",
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "読書クラブはいつからいつまで？",
+                        "a": "8月1日から8月31日まで",
+                        "audio": "audio/challenge_fp3_q1.mp3"
+                    },
+                    {
+                        "q": "費用はいくら？",
+                        "a": "無料（Free）",
+                        "audio": "audio/challenge_fp3_q2.mp3"
+                    },
+                    {
+                        "q": "参加するにはいつまでに何をする？",
+                        "a": "7月25日までに図書館に行く",
+                        "audio": "audio/challenge_fp3_q3.mp3"
+                    }
+                ]
             },
             {
                 "id": "fp4",
@@ -1690,15 +1756,18 @@
                 "practiceQuestions": [
                     {
                         "q": "みかはゆきに何をさそっている？",
-                        "a": "夏祭りに一緒に行こうとさそっている"
+                        "a": "夏祭りに一緒に行こうとさそっている",
+                        "audio": "audio/challenge_fp4_q1.mp3"
                     },
                     {
                         "q": "祭りでは何ができる？",
-                        "a": "やきとりを食べたり花火を見たりできる"
+                        "a": "やきとりを食べたり花火を見たりできる",
+                        "audio": "audio/challenge_fp4_q2.mp3"
                     },
                     {
                         "q": "何時にどこで会う？",
-                        "a": "5時に駅で会う"
+                        "a": "5時に駅で会う",
+                        "audio": "audio/challenge_fp4_q3.mp3"
                     }
                 ],
                 "highlightPatterns": [
@@ -1709,7 +1778,26 @@
                 ],
                 "highlightColor": "#fbbf24",
                 "highlightLabel": "メール表現",
-                "sourceQuoteAudio": "audio/sq_fp4.mp3"
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "challenge": [],
+                "source": "",
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "みかはゆきに何をさそっている？",
+                        "a": "夏祭りに一緒に行こうとさそっている",
+                        "audio": "audio/challenge_fp4_q1.mp3"
+                    },
+                    {
+                        "q": "祭りでは何ができる？",
+                        "a": "やきとりを食べたり花火を見たりできる",
+                        "audio": "audio/challenge_fp4_q2.mp3"
+                    },
+                    {
+                        "q": "何時にどこで会う？",
+                        "a": "5時に駅で会う",
+                        "audio": "audio/challenge_fp4_q3.mp3"
+                    }
+                ]
             }
         ]
     }
