@@ -722,7 +722,13 @@
                         "○ Judy, how does your sister practice the piano？"
                     ],
                     "questionAudio": "audio/q21.mp3",
-                    "translation": "ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。"
+                    "translation": "ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。",
+                    "choices": [
+                        "③ ─ ④",
+                        "① ─ ③",
+                        "② ─ ①",
+                        "② ─ ③"
+                    ]
                 },
                 {
                     "number": 22,
@@ -761,7 +767,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q22.mp3",
-                    "translation": "私はいつも朝6時に起きます。"
+                    "translation": "私はいつも朝6時に起きます。",
+                    "choices": [
+                        "③ ─ ②",
+                        "④ ─ ①",
+                        "② ─ ④",
+                        "① ─ ②"
+                    ]
                 },
                 {
                     "number": 23,
@@ -800,7 +812,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q23.mp3",
-                    "translation": "私たちは毎日，教室を掃除します。"
+                    "translation": "私たちは毎日，教室を掃除します。",
+                    "choices": [
+                        "② ─ ①",
+                        "④ ─ ③",
+                        "① ─ ③",
+                        "② ─ ④"
+                    ]
                 },
                 {
                     "number": 24,
@@ -839,7 +857,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q24.mp3",
-                    "translation": "窓を閉めてくれますか。"
+                    "translation": "窓を閉めてくれますか。",
+                    "choices": [
+                        "③ ─ ②",
+                        "③ ─ ①",
+                        "④ ─ ①",
+                        "④ ─ ③"
+                    ]
                 },
                 {
                     "number": 25,
@@ -878,7 +902,13 @@
                         "○ Who is walking with Mr. Suzuki？"
                     ],
                     "questionAudio": "audio/q25.mp3",
-                    "translation": "鈴木先生と歩いているのはだれですか。"
+                    "translation": "鈴木先生と歩いているのはだれですか。",
+                    "choices": [
+                        "③ ─ ②",
+                        "① ─ ③",
+                        "② ─ ③",
+                        "④ ─ ①"
+                    ]
                 }
             ]
         }

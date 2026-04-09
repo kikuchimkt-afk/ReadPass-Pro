@@ -722,7 +722,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q21.mp3",
-                    "translation": "私はシンガポールにたくさんの友だちがいます。"
+                    "translation": "私はシンガポールにたくさんの友だちがいます。",
+                    "choices": [
+                        "③ ─ ②",
+                        "④ ─ ①",
+                        "② ─ ④",
+                        "① ─ ②"
+                    ]
                 },
                 {
                     "number": 22,
@@ -761,7 +767,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q22.mp3",
-                    "translation": "この花はトムへのプレゼントです。"
+                    "translation": "この花はトムへのプレゼントです。",
+                    "choices": [
+                        "② ─ ③",
+                        "③ ─ ①",
+                        "④ ─ ①",
+                        "③ ─ ②"
+                    ]
                 },
                 {
                     "number": 23,
@@ -800,7 +812,13 @@
                         "○ Bill and I go skiing in winter.！"
                     ],
                     "questionAudio": "audio/q23.mp3",
-                    "translation": "ビルと私は冬にスキーに行きます。"
+                    "translation": "ビルと私は冬にスキーに行きます。",
+                    "choices": [
+                        "② ─ ③",
+                        "④ ─ ③",
+                        "① ─ ④",
+                        "③ ─ ②"
+                    ]
                 },
                 {
                     "number": 24,
@@ -839,7 +857,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q24.mp3",
-                    "translation": "ジェームズ，あなたのお父さんはいつ新聞を読みますか。"
+                    "translation": "ジェームズ，あなたのお父さんはいつ新聞を読みますか。",
+                    "choices": [
+                        "② ─ ④",
+                        "③ ─ ②",
+                        "③ ─ ①",
+                        "④ ─ ①"
+                    ]
                 },
                 {
                     "number": 25,
@@ -878,7 +902,13 @@
                         "じゅんばんがちがうよ。"
                     ],
                     "questionAudio": "audio/q25.mp3",
-                    "translation": "マイクは今，音楽を聞いています。"
+                    "translation": "マイクは今，音楽を聞いています。",
+                    "choices": [
+                        "④ ─ ②",
+                        "③ ─ ②",
+                        "④ ─ ①",
+                        "① ─ ③"
+                    ]
                 }
             ]
         }
