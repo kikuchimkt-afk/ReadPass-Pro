@@ -105,7 +105,10 @@ def fix_segment_boundaries(parts):
     return fixed
 
 async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
-    """Generate audio for a single question."""
+    """Generate audio for a single question.
+    For blanks: replace (　) with SSML <break> tag for a natural 0.5s pause
+    without splitting text, so articles like 'a' stay in natural context.
+    """
     global generated
     num = q["number"]
     output_path = os.path.join(audio_dir, f"q{num}.mp3")
@@ -131,49 +134,19 @@ async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
     has_blank = "(　)" in raw or "(\u3000)" in raw
 
     if has_blank:
-        # Split at blank
-        # Normalize blank marker
-        raw_norm = raw.replace("(\u3000)", "(　)")
-        parts = raw_norm.split("(　)")
+        # Replace blank with SSML break tag (0.5s pause)
+        text = raw.replace("(\u3000)", "(　)")
+        text = text.replace("(　)", ' <break time="500ms"/> ')
+        text = text.replace("\\n", "\n").replace("\n", " ... ")
+        text = text.strip()
 
-        # Fix trailing articles/prepositions
-        parts = fix_segment_boundaries(parts)
-
-        # Generate each text segment and silence
-        seg_files = []
-        silence_path = os.path.join(tmp_dir, "silence_500ms.mp3")
-        if not os.path.exists(silence_path):
-            generate_silence(silence_path, SILENCE_MS)
-
-        for i, part in enumerate(parts):
-            cleaned = clean_text_for_tts(part)
-            if cleaned and len(cleaned) > 1:
-                seg_path = os.path.join(tmp_dir, f"q{num}_seg{i}.mp3")
-                ok = await tts_to_file(cleaned, seg_path)
-                if not ok:
-                    continue
-                seg_files.append(seg_path)
-            # Add silence between segments (not after the last part)
-            if i < len(parts) - 1:
-                seg_files.append(silence_path)
-
-        # Add choices after a pause
+        # Append choices
         if choices:
-            choice_seg_path = os.path.join(tmp_dir, f"q{num}_choices.mp3")
-            await tts_to_file(choice_text, choice_seg_path)
-            seg_files.append(silence_path)
-            seg_files.append(choice_seg_path)
+            text = f'{text} <break time="300ms"/> {choice_text}'
 
-        # Concatenate all segments
-        concat_mp3_files(seg_files, output_path)
-
-        # Cleanup temp segments (but keep silence for reuse)
-        for f in seg_files:
-            if f != silence_path and os.path.exists(f):
-                os.remove(f)
-
+        await tts_to_file(text, output_path)
         generated += 1
-        print(f"  ✓ q{num}.mp3 (with 0.5s blank pause)")
+        print(f"  ✓ q{num}.mp3 (SSML break pause)")
 
     else:
         # No blank - straightforward generation
