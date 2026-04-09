@@ -1,0 +1,567 @@
+#!/usr/bin/env python3
+"""Generate data.json for Grade 5 - 2024-1"""
+import json, os, sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+OUT = os.path.join(os.path.dirname(__file__), "data.json")
+
+data = {
+    "title": "英検5級 2024年度 第1回",
+    "grade": "grade5",
+    "exam": "2024-1",
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "Ms. Marley's favorite season is winter. She likes the beautiful Christmas (　) at the station.",
+                    "choices": ["summer", "nose", "tree", "ear"],
+                    "answer": 3,
+                    "grammar": "「クリスマスの○○」→ tree（ツリー）。Christmas tree＝クリスマスツリー。",
+                    "grammarSimple": "「クリスマスツリー」→ Christmas tree！",
+                    "choiceAnalysis": ["summer＝夏。", "nose＝鼻。", "○ tree＝木。Christmas tree＝クリスマスツリー。", "ear＝耳。"],
+                    "choiceAnalysisSimple": ["「なつ」はちがうよ。", "「はな」はちがうよ。", "○「ツリー」がぴったり！", "「みみ」はちがうよ。"],
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "マーリーさんのお気に入りの季節は冬です。彼女は駅の美しいクリスマス（　）が好きです。",
+                    "choiceTranslations": ["夏", "鼻", "木", "耳"]
+                },
+                {
+                    "number": 2,
+                    "text": "A: Are you on the soccer (　)?\nB: No, I play baseball.",
+                    "choices": ["team", "town", "card", "concert"],
+                    "answer": 1,
+                    "grammar": "「サッカーの○○に入っている？」→ team。soccer team＝サッカーチーム。",
+                    "grammarSimple": "「サッカーチーム」→ soccer team！",
+                    "choiceAnalysis": ["○ team＝チーム。soccer team＝サッカーチーム。", "town＝町。", "card＝カード。", "concert＝コンサート。"],
+                    "choiceAnalysisSimple": ["○「チーム」がぴったり！", "「まち」はちがうよ。", "「カード」はちがうよ。", "「コンサート」はちがうよ。"],
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "A: あなたはサッカー（　）に入っていますか。\nB: いいえ、わたしは野球をしています。",
+                    "choiceTranslations": ["チーム", "町", "カード", "コンサート"]
+                },
+                {
+                    "number": 3,
+                    "text": "A: What color is your new car, Olivia?\nB: It's (　) and really nice.",
+                    "choices": ["black", "big", "cute", "tall"],
+                    "answer": 1,
+                    "grammar": "「何色？→○○だよ」→ black（黒）。色を聞かれているので色で答える。",
+                    "grammarSimple": "「なにいろ？→くろ！」→ black！",
+                    "choiceAnalysis": ["○ black＝黒。色の質問に色で答える。", "big＝大きい（色ではない）。", "cute＝かわいい（色ではない）。", "tall＝背が高い（色ではない）。"],
+                    "choiceAnalysisSimple": ["○「くろ」がぴったり！", "「おおきい」は色じゃないよ。", "「かわいい」は色じゃないよ。", "「せがたかい」は色じゃないよ。"],
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "A: オリビア、新しい車は何色ですか。\nB: （　）でとてもすてきよ。",
+                    "choiceTranslations": ["黒い", "大きい", "かわいい", "背が高い"]
+                },
+                {
+                    "number": 4,
+                    "text": "Carol lives in a new (　). It has a garden and big windows.",
+                    "choices": ["wall", "river", "house", "chair"],
+                    "answer": 3,
+                    "grammar": "「庭と大きな窓がある新しい○○に住んでいる」→ house（家）。",
+                    "grammarSimple": "「にわとまどがある→いえ」→ house！",
+                    "choiceAnalysis": ["wall＝壁。", "river＝川。", "○ house＝家。庭や窓があるのは家。", "chair＝いす。"],
+                    "choiceAnalysisSimple": ["「かべ」はちがうよ。", "「かわ」はちがうよ。", "○「いえ」がぴったり！", "「いす」はちがうよ。"],
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "キャロルは新しい（　）に住んでいます。庭と大きな窓があります。",
+                    "choiceTranslations": ["壁", "川", "家", "いす"]
+                },
+                {
+                    "number": 5,
+                    "text": "Beth has a birthday party next week. She (　) a dress for it.",
+                    "choices": ["sings", "needs", "helps", "stops"],
+                    "answer": 2,
+                    "grammar": "「誕生日パーティーがある→ドレスが○○」→ needs（必要とする）。",
+                    "grammarSimple": "「ドレスがいる」→ needs！",
+                    "choiceAnalysis": ["sings＝歌う。", "○ needs＝必要とする。パーティー用のドレスが必要。", "helps＝助ける。", "stops＝止まる。"],
+                    "choiceAnalysisSimple": ["「うたう」はちがうよ。", "○「ひつようとする」がぴったり！", "「たすける」はちがうよ。", "「とまる」はちがうよ。"],
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "ベスは来週誕生日パーティーがあります。彼女はそのためにドレスを（　）。",
+                    "choiceTranslations": ["歌う", "必要とする", "助ける", "止まる"]
+                },
+                {
+                    "number": 6,
+                    "text": "At night, Andy usually looks at the (　) in the sky.",
+                    "choices": ["stars", "carrots", "hours", "seasons"],
+                    "answer": 1,
+                    "grammar": "「夜、空の○○を見る」→ stars（星）。",
+                    "grammarSimple": "「よるにそらの→ほし」→ stars！",
+                    "choiceAnalysis": ["○ stars＝星。夜空に見えるもの。", "carrots＝にんじん。", "hours＝時間。", "seasons＝季節。"],
+                    "choiceAnalysisSimple": ["○「ほし」がぴったり！", "「にんじん」はちがうよ。", "「じかん」はちがうよ。", "「きせつ」はちがうよ。"],
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "夜、アンディはふだん空の（　）を見ます。",
+                    "choiceTranslations": ["星", "にんじん", "時間", "季節"]
+                },
+                {
+                    "number": 7,
+                    "text": "Students play the piano and the guitar in Ms. Suzuki's (　) class.",
+                    "choices": ["gym", "pizza", "train", "music"],
+                    "answer": 4,
+                    "grammar": "「ピアノやギターを弾く→○○の授業」→ music（音楽）。",
+                    "grammarSimple": "「ピアノとギター→おんがく」→ music！",
+                    "choiceAnalysis": ["gym＝体育館。", "pizza＝ピザ。", "train＝電車。", "○ music＝音楽。ピアノやギターは音楽の授業。"],
+                    "choiceAnalysisSimple": ["「たいいくかん」はちがうよ。", "「ピザ」はちがうよ。", "「でんしゃ」はちがうよ。", "○「おんがく」がぴったり！"],
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "生徒たちは鈴木先生の（　）の授業でピアノとギターを弾きます。",
+                    "choiceTranslations": ["体育館", "ピザ", "電車", "音楽"]
+                },
+                {
+                    "number": 8,
+                    "text": "Mr. Smith comes (　) school early in the morning.",
+                    "choices": ["as", "up", "under", "to"],
+                    "answer": 4,
+                    "grammar": "「学校に○○来る」→ to。come to school＝学校に来る。",
+                    "grammarSimple": "「がっこうに来る」→ come to school！",
+                    "choiceAnalysis": ["as＝～として。", "up＝上に。", "under＝～の下に。", "○ to＝～へ。come to school＝学校に来る。"],
+                    "choiceAnalysisSimple": ["「as」はちがうよ。", "「うえに」はちがうよ。", "「したに」はちがうよ。", "○「to」がぴったり！学校へ来る。"],
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "スミス先生は朝早く学校（　）来ます。",
+                    "choiceTranslations": ["～として", "上に", "～の下に", "～へ"]
+                },
+                {
+                    "number": 9,
+                    "text": "A: How (　) is your cat?\nB: She's three.",
+                    "choices": ["old", "many", "fast", "soft"],
+                    "answer": 1,
+                    "grammar": "「○○ですか？→3歳です」→ old。How old～?＝何歳？",
+                    "grammarSimple": "「なんさい？」→ How old！",
+                    "choiceAnalysis": ["○ old＝How oldで「何歳」。", "many＝How manyで「いくつ」。", "fast＝速い。", "soft＝やわらかい。"],
+                    "choiceAnalysisSimple": ["○「なんさい？」がぴったり！", "「いくつ」はちがうよ。", "「はやい」はちがうよ。", "「やわらかい」はちがうよ。"],
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: あなたのねこは何（　）ですか。\nB: 3歳です。",
+                    "choiceTranslations": ["歳の", "たくさんの", "速い", "やわらかい"]
+                },
+                {
+                    "number": 10,
+                    "text": "A: Do you like ice cream, David?\nB: (　) course! It's delicious!",
+                    "choices": ["On", "To", "By", "Of"],
+                    "answer": 4,
+                    "grammar": "「もちろん！」→ Of course!",
+                    "grammarSimple": "「もちろん！」→ Of course！",
+                    "choiceAnalysis": ["On＝～の上に。", "To＝～へ。", "By＝～のそばに。", "○ Of＝Of course＝もちろん。"],
+                    "choiceAnalysisSimple": ["「On」はちがうよ。", "「To」はちがうよ。", "「By」はちがうよ。", "○ Of course＝「もちろん！」。"],
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "A: デイビッド、アイスクリームは好きですか。\nB: （　）もちろん！おいしいよ！",
+                    "choiceTranslations": ["～の上に", "～へ", "～のそばに", "～の"]
+                },
+                {
+                    "number": 11,
+                    "text": "A: Bye, Victor! Have a good day!\nB: (　) you tomorrow, Paula!",
+                    "choices": ["See", "Say", "Sing", "Start"],
+                    "answer": 1,
+                    "grammar": "「さようなら→また明日○○」→ See you tomorrow＝また明日。",
+                    "grammarSimple": "「またあした！」→ See you tomorrow！",
+                    "choiceAnalysis": ["○ See＝See you tomorrow＝また明日。", "Say＝言う。", "Sing＝歌う。", "Start＝始める。"],
+                    "choiceAnalysisSimple": ["○「See you」がぴったり！またね！", "「いう」はちがうよ。", "「うたう」はちがうよ。", "「はじめる」はちがうよ。"],
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "A: さようなら、ビクター！いい一日を！\nB: また明日（　）、ポーラ！",
+                    "choiceTranslations": ["会う", "言う", "歌う", "始める"]
+                },
+                {
+                    "number": 12,
+                    "text": "A: It's time for lunch. How (　) pizza?\nB: Good idea. I want one with cheese.",
+                    "choices": ["about", "for", "with", "from"],
+                    "answer": 1,
+                    "grammar": "「ピザは○○？」→ How about～?＝～はどう？",
+                    "grammarSimple": "「ピザはどう？」→ How about！",
+                    "choiceAnalysis": ["○ about＝How about～?＝～はどう？", "for＝～のために。", "with＝～といっしょに。", "from＝～から。"],
+                    "choiceAnalysisSimple": ["○「How about」＝「どう？」がぴったり！", "「for」はちがうよ。", "「with」はちがうよ。", "「from」はちがうよ。"],
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: お昼の時間です。ピザは（　）ですか。\nB: いいね。チーズの入ったのがいいな。",
+                    "choiceTranslations": ["～はどう", "～のために", "～といっしょに", "～から"]
+                },
+                {
+                    "number": 13,
+                    "text": "A: (　) is your notebook, the red one or the green one?\nB: The green one is.",
+                    "choices": ["Why", "Where", "How", "Which"],
+                    "answer": 4,
+                    "grammar": "「○○があなたのノート？赤い方？緑の方？」→ Which（どちら）。",
+                    "grammarSimple": "「どっち？」→ Which！",
+                    "choiceAnalysis": ["Why＝なぜ。", "Where＝どこ。", "How＝どのように。", "○ Which＝どちら。2つから選ぶ疑問詞。"],
+                    "choiceAnalysisSimple": ["「なぜ」はちがうよ。", "「どこ」はちがうよ。", "「どのように」はちがうよ。", "○「どっち？」がぴったり！"],
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: あなたのノートは（　）ですか、赤い方？緑の方？\nB: 緑の方です。",
+                    "choiceTranslations": ["なぜ", "どこ", "どのように", "どちら"]
+                },
+                {
+                    "number": 14,
+                    "text": "Narumi and I are classmates, and Mr. Iwata is (　) teacher.",
+                    "choices": ["we", "our", "ours", "us"],
+                    "answer": 2,
+                    "grammar": "「岩田先生は私たちの○○先生」→ our（私たちの）。",
+                    "grammarSimple": "「わたしたちの先生」→ our！",
+                    "choiceAnalysis": ["we＝私たちは（主格）。", "○ our＝私たちの（所有格）。teacher の前は所有格。", "ours＝私たちのもの（所有代名詞）。", "us＝私たちを（目的格）。"],
+                    "choiceAnalysisSimple": ["「わたしたちは」はちがうよ。", "○「わたしたちの」がぴったり！", "「わたしたちのもの」はちがうよ。", "「わたしたちを」はちがうよ。"],
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "ナルミと私はクラスメートで、岩田先生は（　）先生です。",
+                    "choiceTranslations": ["私たちは", "私たちの", "私たちのもの", "私たちを"]
+                },
+                {
+                    "number": 15,
+                    "text": "A: Cindy, (　) eat that ice cream! It's mine.\nB: Oh, I'm sorry.",
+                    "choices": ["doesn't", "don't", "isn't", "aren't"],
+                    "answer": 2,
+                    "grammar": "「食べないで！」→ Don't eat。命令文の否定。",
+                    "grammarSimple": "「たべないで！」→ Don't！",
+                    "choiceAnalysis": ["doesn't＝三人称単数の否定。", "○ don't＝命令文の否定「～するな」。", "isn't＝be動詞の否定。", "aren't＝be動詞複数の否定。"],
+                    "choiceAnalysisSimple": ["「doesn't」はちがうよ。", "○「Don't＝しないで」がぴったり！", "「isn't」はちがうよ。", "「aren't」はちがうよ。"],
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "A: シンディ、そのアイスクリームを（　）食べて！わたしのだよ。\nB: ああ、ごめんなさい。",
+                    "choiceTranslations": ["～しない", "～するな", "～ではない", "～ではない"]
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 16,
+                    "text": "Boy: Kate, who is that man?\nGirl: (　) I like his science class.",
+                    "choices": ["It's his textbook.", "You can see him.", "He's my teacher.", "I don't know him."],
+                    "answer": 3,
+                    "grammar": "「あの男の人は誰？→私の先生です」。",
+                    "grammarSimple": "「だれ？→わたしのせんせい！」",
+                    "choiceAnalysis": ["彼の教科書です＝文脈に合わない。", "彼に会えます＝文脈に合わない。", "○ 彼は私の先生です。", "彼を知りません＝理科が好きと矛盾。"],
+                    "choiceAnalysisSimple": ["「きょうかしょ」はちがうよ。", "「あえる」はちがうよ。", "○「せんせいだよ」がぴったり！", "「しらない」はちがうよ。"],
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "Boy: ケイト、あの男の人は誰ですか。\nGirl: （　）。彼の理科の授業が好きです。",
+                    "choiceTranslations": ["彼の教科書です。", "彼に会えますよ。", "彼は私の先生です。", "彼を知りません。"]
+                },
+                {
+                    "number": 17,
+                    "text": "Girl: Dad, where is Mom? (　)\nFather: No, she's in the bedroom.",
+                    "choices": ["Is she a teacher?", "Is she in the living room?", "Is this yours?", "Is this a kitchen?"],
+                    "answer": 2,
+                    "grammar": "「お母さんはどこ？→いいえ、寝室にいます」。場所を尋ねている。",
+                    "grammarSimple": "「どこにいるの？→リビング？→ちがう、寝室」",
+                    "choiceAnalysis": ["先生ですか＝職業の質問で文脈に合わない。", "○ リビングにいますか？＝場所を確認する質問。", "これはあなたの？＝文脈に合わない。", "台所ですか？＝文脈に合わない。"],
+                    "choiceAnalysisSimple": ["「せんせい？」はちがうよ。", "○「リビングにいる？」がぴったり！", "「あなたの？」はちがうよ。", "「だいどころ？」はちがうよ。"],
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "Girl: お父さん、お母さんはどこ？（　）\nFather: いいえ、寝室にいるよ。",
+                    "choiceTranslations": ["彼女は先生ですか。", "彼女はリビングにいますか。", "これはあなたのですか。", "これは台所ですか。"]
+                },
+                {
+                    "number": 18,
+                    "text": "Boy: Do you like comic books?\nGirl: Yes. (　)",
+                    "choices": ["It's a book.", "I often read them.", "It's 500 yen.", "We can do that."],
+                    "answer": 2,
+                    "grammar": "「マンガは好き？→はい、よく読みます」。",
+                    "grammarSimple": "「マンガすき？→よくよむよ！」",
+                    "choiceAnalysis": ["本です＝文脈に合わない。", "○ よく読みます。好きな理由として自然。", "500円です＝文脈に合わない。", "それはできます＝文脈に合わない。"],
+                    "choiceAnalysisSimple": ["「ほんだよ」はちがうよ。", "○「よくよむよ」がぴったり！", "「500えん」はちがうよ。", "「できる」はちがうよ。"],
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "Boy: マンガは好きですか。\nGirl: はい。（　）。",
+                    "choiceTranslations": ["本です。", "よく読みます。", "500円です。", "それはできます。"]
+                },
+                {
+                    "number": 19,
+                    "text": "Mother: What are you doing in the bathroom, Ted?\nBoy: (　)",
+                    "choices": ["This isn't mine.", "I'm washing my shoes.", "I'm not hungry.", "It's raining."],
+                    "answer": 2,
+                    "grammar": "「バスルームで何をしている？→靴を洗っている」。",
+                    "grammarSimple": "「なにしてるの？→くつをあらってるよ！」",
+                    "choiceAnalysis": ["これは私のではない＝文脈に合わない。", "○ 靴を洗っています。バスルームでの活動。", "お腹が空いていない＝文脈に合わない。", "雨が降っている＝文脈に合わない。"],
+                    "choiceAnalysisSimple": ["「わたしのじゃない」はちがうよ。", "○「くつをあらってる」がぴったり！", "「おなかすいてない」はちがうよ。", "「あめがふってる」はちがうよ。"],
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "Mother: テッド、バスルームで何をしているの？\nBoy: （　）。",
+                    "choiceTranslations": ["これは私のではありません。", "靴を洗っています。", "お腹が空いていません。", "雨が降っています。"]
+                },
+                {
+                    "number": 20,
+                    "text": "Teacher: What time do you get up every morning?\nStudent: (　)",
+                    "choices": ["At home.", "In my room.", "At seven o'clock.", "On Sunday."],
+                    "answer": 3,
+                    "grammar": "「毎朝何時に起きる？→7時に」。",
+                    "grammarSimple": "「なんじにおきるの？→7じ！」",
+                    "choiceAnalysis": ["家で＝場所（Where）の答え。", "部屋で＝場所の答え。", "○ 7時に＝時間（What time）の答え。", "日曜日に＝曜日（When）の答え。"],
+                    "choiceAnalysisSimple": ["「おうちで」はちがうよ。", "「へやで」はちがうよ。", "○「7じに」がぴったり！", "「にちようび」はちがうよ。"],
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "Teacher: 毎朝何時に起きますか。\nStudent: （　）。",
+                    "choiceTranslations": ["家で。", "私の部屋で。", "7時に。", "日曜日に。"]
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "sentence-order",
+            "instruction": "次の(21)から(25)までの日本文の意味を表すように①から④までを並べかえて（　）の中に入れなさい。1番目と3番目にくるものの最も適切な組合せを1～4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 21,
+                    "text": "私は朝，コーヒーを一杯飲みます。",
+                    "choices": ["③ ─ ①", "③ ─ ④", "① ─ ②", "② ─ ③"],
+                    "answer": 1,
+                    "words": ["cup", "a", "drink", "of"],
+                    "correctOrder": [3, 2, 1, 4],
+                    "framePrefix": "I",
+                    "frameSuffix": "coffee in the morning.",
+                    "answerSlots": [1, 3],
+                    "grammar": "",
+                    "grammarSimple": "",
+                    "choiceAnalysis": ["", "", "", ""],
+                    "choiceAnalysisSimple": ["", "", "", ""],
+                    "questionAudio": "audio/q21.mp3",
+                    "translation": "私は朝，コーヒーを一杯飲みます。"
+                },
+                {
+                    "number": 22,
+                    "text": "私は毎週日曜日に父と釣りに行きます。",
+                    "choices": ["① ─ ④", "③ ─ ④", "① ─ ③", "③ ─ ②"],
+                    "answer": 3,
+                    "words": ["go", "my father", "with", "fishing"],
+                    "correctOrder": [1, 4, 3, 2],
+                    "framePrefix": "I",
+                    "frameSuffix": "every Sunday.",
+                    "answerSlots": [1, 3],
+                    "grammar": "",
+                    "grammarSimple": "",
+                    "choiceAnalysis": ["", "", "", ""],
+                    "choiceAnalysisSimple": ["", "", "", ""],
+                    "questionAudio": "audio/q22.mp3",
+                    "translation": "私は毎週日曜日に父と釣りに行きます。"
+                },
+                {
+                    "number": 23,
+                    "text": "子供たちは公園にいますか。",
+                    "choices": ["① ─ ④", "② ─ ③", "③ ─ ②", "④ ─ ①"],
+                    "answer": 4,
+                    "words": ["at", "the children", "the park", "are"],
+                    "correctOrder": [4, 2, 1, 3],
+                    "framePrefix": "",
+                    "frameSuffix": "?",
+                    "answerSlots": [1, 3],
+                    "grammar": "",
+                    "grammarSimple": "",
+                    "choiceAnalysis": ["", "", "", ""],
+                    "choiceAnalysisSimple": ["", "", "", ""],
+                    "questionAudio": "audio/q23.mp3",
+                    "translation": "子供たちは公園にいますか。"
+                },
+                {
+                    "number": 24,
+                    "text": "夕食の後でおふろに入りなさい。",
+                    "choices": ["③ ─ ②", "③ ─ ④", "④ ─ ②", "④ ─ ①"],
+                    "answer": 4,
+                    "words": ["bath", "after", "a", "take"],
+                    "correctOrder": [4, 3, 1, 2],
+                    "framePrefix": "",
+                    "frameSuffix": "dinner.",
+                    "answerSlots": [1, 3],
+                    "grammar": "",
+                    "grammarSimple": "",
+                    "choiceAnalysis": ["", "", "", ""],
+                    "choiceAnalysisSimple": ["", "", "", ""],
+                    "questionAudio": "audio/q24.mp3",
+                    "translation": "夕食の後でおふろに入りなさい。"
+                },
+                {
+                    "number": 25,
+                    "text": "ハリスさんは，空港で働いていますか。",
+                    "choices": ["④ ─ ①", "③ ─ ②", "② ─ ③", "② ─ ①"],
+                    "answer": 3,
+                    "words": ["airport", "work", "the", "at"],
+                    "correctOrder": [2, 4, 3, 1],
+                    "framePrefix": "Does Ms. Harris",
+                    "frameSuffix": "?",
+                    "answerSlots": [1, 3],
+                    "grammar": "",
+                    "grammarSimple": "",
+                    "choiceAnalysis": ["", "", "", ""],
+                    "choiceAnalysisSimple": ["", "", "", ""],
+                    "questionAudio": "audio/q25.mp3",
+                    "translation": "ハリスさんは，空港で働いていますか。"
+                }
+            ]
+        }
+    ],
+    "vocabulary": [
+        {"word": "season", "meaning": "季節", "pos": "名詞", "example": "My favorite season is summer.", "level": "5級", "distractors": ["りゆう", "ねだん", "てんき"], "wordAudio": "audio/vocab/w_001_season.mp3"},
+        {"word": "team", "meaning": "チーム", "pos": "名詞", "example": "I play on the soccer team.", "level": "5級", "distractors": ["えき", "にわ", "まち"], "wordAudio": "audio/vocab/w_002_team.mp3"},
+        {"word": "house", "meaning": "家", "pos": "名詞", "example": "She lives in a big house.", "level": "5級", "distractors": ["かわ", "はし", "くも"], "wordAudio": "audio/vocab/w_003_house.mp3"},
+        {"word": "star", "meaning": "星", "pos": "名詞", "example": "I can see many stars tonight.", "level": "5級", "distractors": ["やま", "つき", "はな"], "wordAudio": "audio/vocab/w_004_star.mp3"},
+        {"word": "need", "meaning": "必要とする", "pos": "動詞", "example": "I need a new pen.", "level": "5級", "distractors": ["つくる", "おくる", "かう"], "wordAudio": "audio/vocab/w_005_need.mp3"},
+        {"word": "music", "meaning": "音楽", "pos": "名詞", "example": "I like music class.", "level": "5級", "distractors": ["たいいく", "さんすう", "りか"], "wordAudio": "audio/vocab/w_006_music.mp3"},
+        {"word": "early", "meaning": "早く", "pos": "副詞", "example": "He comes to school early.", "level": "5級", "distractors": ["おそく", "ゆっくり", "ときどき"], "wordAudio": "audio/vocab/w_007_early.mp3"},
+        {"word": "color", "meaning": "色", "pos": "名詞", "example": "What color is your bag?", "level": "5級", "distractors": ["かたち", "おおきさ", "なまえ"], "wordAudio": "audio/vocab/w_008_color.mp3"},
+        {"word": "of course", "meaning": "もちろん", "pos": "句", "example": "Of course! I love pizza.", "level": "5級", "distractors": ["たぶん", "ざんねん", "すこし"], "wordAudio": "audio/vocab/w_009_of_course.mp3"},
+        {"word": "which", "meaning": "どちら", "pos": "疑問詞", "example": "Which is your book?", "level": "5級", "distractors": ["なぜ", "いつ", "どこ"], "wordAudio": "audio/vocab/w_010_which.mp3"},
+        {"word": "see", "meaning": "会う・見る", "pos": "動詞", "example": "See you tomorrow!", "level": "5級", "distractors": ["いう", "うたう", "はじめる"], "wordAudio": "audio/vocab/w_011_see.mp3"},
+        {"word": "delicious", "meaning": "おいしい", "pos": "形容詞", "example": "This cake is delicious.", "level": "5級", "distractors": ["あまい", "つめたい", "あたたかい"], "wordAudio": "audio/vocab/w_012_delicious.mp3"},
+        {"word": "our", "meaning": "私たちの", "pos": "代名詞", "example": "Mr. Tanaka is our teacher.", "level": "5級", "distractors": ["かれの", "かのじょの", "あなたの"], "wordAudio": "audio/vocab/w_013_our.mp3"},
+        {"word": "comic book", "meaning": "マンガ", "pos": "名詞", "example": "I like comic books.", "level": "5級", "distractors": ["しんぶん", "ざっし", "じしょ"], "wordAudio": "audio/vocab/w_014_comic_book.mp3"},
+        {"word": "bathroom", "meaning": "バスルーム", "pos": "名詞", "example": "He is in the bathroom.", "level": "5級", "distractors": ["だいどころ", "げんかん", "おくじょう"], "wordAudio": "audio/vocab/w_015_bathroom.mp3"},
+        {"word": "birthday", "meaning": "誕生日", "pos": "名詞", "example": "Happy birthday!", "level": "5級", "distractors": ["きゅうじつ", "きねんび", "しゅうまつ"], "wordAudio": "audio/vocab/w_016_birthday.mp3"},
+        {"word": "dress", "meaning": "ドレス", "pos": "名詞", "example": "She wears a pretty dress.", "level": "5級", "distractors": ["ぼうし", "くつ", "かばん"], "wordAudio": "audio/vocab/w_017_dress.mp3"},
+        {"word": "bedroom", "meaning": "寝室", "pos": "名詞", "example": "Mom is in the bedroom.", "level": "5級", "distractors": ["リビング", "トイレ", "ろうか"], "wordAudio": "audio/vocab/w_018_bedroom.mp3"},
+        {"word": "fishing", "meaning": "釣り", "pos": "名詞", "example": "I go fishing on Sunday.", "level": "5級", "distractors": ["つり", "キャンプ", "サッカー"], "wordAudio": "audio/vocab/w_019_fishing.mp3"},
+        {"word": "airport", "meaning": "空港", "pos": "名詞", "example": "She works at the airport.", "level": "5級", "distractors": ["びょういん", "としょかん", "がっこう"], "wordAudio": "audio/vocab/w_020_airport.mp3"}
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "疑問詞 How ＋形容詞",
+                "titleSimple": "How old / How about",
+                "subtitle": "How Questions",
+                "highlightLabel": "How ＋形容詞",
+                "explanation": "「How ＋ 形容詞 ～?」で「どのくらい～？」と聞けるよ！ How old＝何歳、How about＝～はどう？",
+                "explanationSimple": "「How old＝なんさい？」「How about＝どう？」だよ！",
+                "sourceQuote": "How old is your cat? — She's three.",
+                "sourceQuoteAudio": "audio/sq_fp1.mp3",
+                "sourceQuoteTranslation": "あなたのねこは何歳ですか。—— 3歳です。",
+                "sourceLocation": "大問1 Q9",
+                "source": "",
+                "highlightColor": "#FFD700",
+                "highlightPatterns": [],
+                "challenge": [],
+                "examples": [
+                    {"en": "How old is your cat?", "ja": "あなたのねこは何歳ですか。", "audio": "audio/ex_fp1_1.mp3", "note": "How old＝何歳"},
+                    {"en": "How about pizza?", "ja": "ピザはどう？", "audio": "audio/ex_fp1_2.mp3", "note": "How about＝～はどう？（提案）"},
+                    {"en": "How many books do you have?", "ja": "本を何冊持っていますか。", "audio": "audio/ex_fp1_3.mp3", "note": "How many＝いくつ"}
+                ],
+                "practicePassage": {
+                    "en": "Lisa has a cat. It's very cute. Her friend asks, \"How old is your cat?\" Lisa says, \"She's three.\" Lisa also has a dog. \"How about your dog?\" her friend asks. \"He's five,\" Lisa says.",
+                    "ja": "リサはねこを飼っています。とてもかわいいです。ともだちが「ねこは何歳？」と聞きます。リサは「3歳だよ」と言います。リサは犬も飼っています。「犬は？」とともだちが聞きます。「5歳だよ」とリサは言います。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "practiceQuestions": [
+                    {"q": "「何歳ですか」を英語で言うと？", "a": "How old are you?", "audio": "audio/challenge_fp1_q1.mp3"},
+                    {"q": "「ピザはどう？」を英語で言うと？", "a": "How about pizza?", "audio": "audio/challenge_fp1_q2.mp3"},
+                    {"q": "How manyは何を聞く疑問詞？", "a": "数（いくつ）を聞く疑問詞", "audio": "audio/challenge_fp1_q3.mp3"}
+                ],
+                "practiceQuestionsSimple": [
+                    {"q": "「なんさい？」をえいごでいうと？", "a": "How old are you?", "audio": "audio/challenge_fp1_q1.mp3"},
+                    {"q": "「ピザはどう？」をえいごでいうと？", "a": "How about pizza?", "audio": "audio/challenge_fp1_q2.mp3"},
+                    {"q": "How manyってなに？", "a": "「いくつ？」ってきくことば", "audio": "audio/challenge_fp1_q3.mp3"}
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "代名詞のかたち",
+                "titleSimple": "we / our / ours / us",
+                "subtitle": "Pronoun Forms",
+                "highlightLabel": "代名詞",
+                "explanation": "代名詞には4つの形があるよ！we（私たちは）、our（私たちの）、ours（私たちのもの）、us（私たちを）。名詞の前には所有格ourを使うよ！",
+                "explanationSimple": "「わたしたちの」は our だよ！our teacher＝わたしたちのせんせい。",
+                "sourceQuote": "Mr. Iwata is our teacher.",
+                "sourceQuoteAudio": "audio/sq_fp2.mp3",
+                "sourceQuoteTranslation": "岩田先生は私たちの先生です。",
+                "sourceLocation": "大問1 Q14",
+                "source": "",
+                "highlightColor": "#FF6B6B",
+                "highlightPatterns": [],
+                "challenge": [],
+                "examples": [
+                    {"en": "Mr. Iwata is our teacher.", "ja": "岩田先生は私たちの先生です。", "audio": "audio/ex_fp2_1.mp3", "note": "our＝私たちの（所有格）"},
+                    {"en": "This book is ours.", "ja": "この本は私たちのものです。", "audio": "audio/ex_fp2_2.mp3", "note": "ours＝私たちのもの（所有代名詞）"},
+                    {"en": "He teaches us math.", "ja": "彼は私たちに数学を教えます。", "audio": "audio/ex_fp2_3.mp3", "note": "us＝私たちを（目的格）"}
+                ],
+                "practicePassage": {
+                    "en": "We are in Ms. Sato's class. She is our English teacher. We like her class very much. She always reads stories to us. The English books are ours. We take them home every day.",
+                    "ja": "わたしたちは佐藤先生のクラスです。先生はわたしたちの英語の先生です。わたしたちは先生の授業がとても好きです。先生はいつもわたしたちにお話を読んでくれます。英語の本はわたしたちのものです。毎日家に持って帰ります。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {"q": "「私たちの先生」を英語で言うと？", "a": "our teacher", "audio": "audio/challenge_fp2_q1.mp3"},
+                    {"q": "「私たちのもの」を英語で言うと？", "a": "ours", "audio": "audio/challenge_fp2_q2.mp3"},
+                    {"q": "「私たちに教える」を英語で言うと？", "a": "teach us", "audio": "audio/challenge_fp2_q3.mp3"}
+                ],
+                "practiceQuestionsSimple": [
+                    {"q": "「わたしたちの先生」をえいごでいうと？", "a": "our teacher", "audio": "audio/challenge_fp2_q1.mp3"},
+                    {"q": "「わたしたちのもの」をえいごでいうと？", "a": "ours", "audio": "audio/challenge_fp2_q2.mp3"},
+                    {"q": "「わたしたちにおしえる」をえいごでいうと？", "a": "teach us", "audio": "audio/challenge_fp2_q3.mp3"}
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "命令文と否定命令文",
+                "titleSimple": "Don't ＋動詞！",
+                "subtitle": "Imperative Sentences",
+                "highlightLabel": "命令文",
+                "explanation": "「～しなさい」は動詞で文を始める命令文。「～するな」は Don't + 動詞の原形。Take a bath!（おふろに入りなさい）、Don't eat!（食べるな）",
+                "explanationSimple": "「～しないで」は Don't ＋動詞だよ！Don't eat＝食べないで。",
+                "sourceQuote": "Don't eat that ice cream!",
+                "sourceQuoteAudio": "audio/sq_fp3.mp3",
+                "sourceQuoteTranslation": "そのアイスクリームを食べないで！",
+                "sourceLocation": "大問1 Q15",
+                "source": "",
+                "highlightColor": "#4ECDC4",
+                "highlightPatterns": [],
+                "challenge": [],
+                "examples": [
+                    {"en": "Don't eat that ice cream!", "ja": "そのアイスクリームを食べないで！", "audio": "audio/ex_fp3_1.mp3", "note": "Don't＋動詞＝～するな"},
+                    {"en": "Take a bath after dinner.", "ja": "夕食の後でおふろに入りなさい。", "audio": "audio/ex_fp3_2.mp3", "note": "動詞で始まる命令文"},
+                    {"en": "Don't run in the classroom!", "ja": "教室で走るな！", "audio": "audio/ex_fp3_3.mp3", "note": "Don't run＝走るな"}
+                ],
+                "practicePassage": {
+                    "en": "Mom says to Tom, \"Take a bath after dinner. Don't forget your homework! Do it before bed.\" Tom says, \"OK, Mom.\" She also says, \"Don't eat too many cookies. They are for tomorrow's party.\"",
+                    "ja": "お母さんがトムに言います。「夕食の後でおふろに入りなさい。宿題を忘れないで！寝る前にやりなさい。」トムは「わかったよ、お母さん」と言います。お母さんはまた言います。「クッキーを食べすぎないで。明日のパーティー用だよ。」",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {"q": "「食べないで」を英語で言うと？", "a": "Don't eat.", "audio": "audio/challenge_fp3_q1.mp3"},
+                    {"q": "「おふろに入りなさい」を英語で言うと？", "a": "Take a bath.", "audio": "audio/challenge_fp3_q2.mp3"},
+                    {"q": "「走るな」を英語で言うと？", "a": "Don't run.", "audio": "audio/challenge_fp3_q3.mp3"}
+                ],
+                "practiceQuestionsSimple": [
+                    {"q": "「たべないで」をえいごでいうと？", "a": "Don't eat.", "audio": "audio/challenge_fp3_q1.mp3"},
+                    {"q": "「おふろに入りなさい」をえいごでいうと？", "a": "Take a bath.", "audio": "audio/challenge_fp3_q2.mp3"},
+                    {"q": "「はしるな」をえいごでいうと？", "a": "Don't run.", "audio": "audio/challenge_fp3_q3.mp3"}
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "疑問詞 Which",
+                "titleSimple": "Which is yours?",
+                "subtitle": "Which Questions",
+                "highlightLabel": "Which",
+                "explanation": "「Which＝どちら・どれ」。2つ以上のものから選ぶときに使うよ！ Which is your notebook?＝どちらがあなたのノート？",
+                "explanationSimple": "「どっち？」は Which だよ！",
+                "sourceQuote": "Which is your notebook, the red one or the green one?",
+                "sourceQuoteAudio": "audio/sq_fp4.mp3",
+                "sourceQuoteTranslation": "あなたのノートはどちらですか、赤い方？緑の方？",
+                "sourceLocation": "大問1 Q13",
+                "source": "",
+                "highlightColor": "#A78BFA",
+                "highlightPatterns": [],
+                "challenge": [],
+                "examples": [
+                    {"en": "Which is your notebook?", "ja": "どちらがあなたのノートですか。", "audio": "audio/ex_fp4_1.mp3", "note": "Which＝どちら"},
+                    {"en": "Which do you like, coffee or tea?", "ja": "コーヒーとお茶、どちらが好きですか。", "audio": "audio/ex_fp4_2.mp3", "note": "Which＋do you like＝どちらが好き"},
+                    {"en": "Which color do you want?", "ja": "どの色がほしいですか。", "audio": "audio/ex_fp4_3.mp3", "note": "Which＋名詞＝どの～"}
+                ],
+                "practicePassage": {
+                    "en": "Amy and Ken are at a store. Amy asks, \"Which bag do you like, the blue one or the red one?\" Ken says, \"I like the blue one.\" Amy says, \"Which is cheaper?\" Ken looks at the price. \"The red one is cheaper,\" he says.",
+                    "ja": "エイミーとケンはお店にいます。エイミーが聞きます。「どっちのかばんが好き？青い方？赤い方？」ケンは「青い方が好き」と言います。エイミーは「どっちが安い？」と聞きます。ケンは値段を見ます。「赤い方が安いよ」と彼は言います。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "practiceQuestions": [
+                    {"q": "「どちらがあなたのノート？」を英語で言うと？", "a": "Which is your notebook?", "audio": "audio/challenge_fp4_q1.mp3"},
+                    {"q": "「コーヒーとお茶、どちらが好き？」を英語で言うと？", "a": "Which do you like, coffee or tea?", "audio": "audio/challenge_fp4_q2.mp3"},
+                    {"q": "「どの色がほしい？」を英語で言うと？", "a": "Which color do you want?", "audio": "audio/challenge_fp4_q3.mp3"}
+                ],
+                "practiceQuestionsSimple": [
+                    {"q": "「どっちがあなたのノート？」をえいごでいうと？", "a": "Which is your notebook?", "audio": "audio/challenge_fp4_q1.mp3"},
+                    {"q": "「コーヒーとおちゃ、どっちがすき？」をえいごでいうと？", "a": "Which do you like, coffee or tea?", "audio": "audio/challenge_fp4_q2.mp3"},
+                    {"q": "「どのいろ？」をえいごでいうと？", "a": "Which color do you want?", "audio": "audio/challenge_fp4_q3.mp3"}
+                ]
+            }
+        ]
+    }
+}
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+
+# Summary
+secs = data['sections']
+total_qs = sum(len(s['questions']) for s in secs)
+print(f"✅ data.json: {os.path.getsize(OUT)} bytes")
+print(f"   Sections: {len(secs)}, Qs: {total_qs}")
+print(f"   Vocab: {len(data['vocabulary'])}, FPs: {len(data['lessonPlan']['focusPoints'])}")
