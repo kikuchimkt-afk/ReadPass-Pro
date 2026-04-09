@@ -77,6 +77,36 @@ def clean_text_for_tts(text):
         return ""
     return text
 
+# Words that get mispronounced when isolated at the end of a TTS segment
+_TRAILING_WORDS = {
+    'a', 'an', 'the', 'to', 'or', 'of', 'in', 'on', 'at', 'by',
+    'is', 'am', 'are', 'do', 'my', 'no', 'so', 'for', 'his', 'her',
+    'its', 'our', 'your', 'be', 'me', 'us', 'we', 'it'
+}
+
+def fix_segment_boundaries(parts):
+    """Move trailing articles/prepositions from end of one segment to start of next.
+    e.g. ['She goes to a', 'with her mom'] -> ['She goes to', 'a ... with her mom']
+    The moved word gets '...' appended to create a natural lead-in before the pause.
+    """
+    fixed = list(parts)
+    for i in range(len(fixed) - 1):
+        seg = fixed[i].strip()
+        if not seg:
+            continue
+        words = seg.split()
+        if not words:
+            continue
+        last = words[-1].rstrip('.,!?;:')
+        if last.lower() in _TRAILING_WORDS:
+            # Move the trailing word to the beginning of the next segment
+            moved_word = words[-1]
+            fixed[i] = ' '.join(words[:-1])
+            next_seg = fixed[i + 1].strip()
+            # Prepend moved word to next segment with natural connector
+            fixed[i + 1] = f"{moved_word} {next_seg}" if next_seg else moved_word
+    return fixed
+
 async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
     """Generate audio for a single question."""
     global generated
@@ -108,6 +138,9 @@ async def generate_question_audio(q, sec_type, audio_dir, tmp_dir):
         # Normalize blank marker
         raw_norm = raw.replace("(\u3000)", "(　)")
         parts = raw_norm.split("(　)")
+
+        # Fix trailing articles/prepositions
+        parts = fix_segment_boundaries(parts)
 
         # Generate each text segment and silence
         seg_files = []
