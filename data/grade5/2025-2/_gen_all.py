@@ -1,0 +1,350 @@
+#!/usr/bin/env python3
+"""Generate data.json AND TTS audio for Grade 5 - 2025-2"""
+import json, os, sys, asyncio, re
+sys.stdout.reconfigure(encoding='utf-8')
+import edge_tts
+
+ROOT = os.path.dirname(__file__)
+RATE = "-30%"
+VOICE = "en-US-JennyNeural"
+
+data = {
+    "title": "英検5級 2025年度 第2回",
+    "grade": "grade5",
+    "exam": "2025-2",
+    "sections": [
+        {
+            "name": "大問1", "nameEn": "Part 1", "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {"number":1,"text":"A: Yuka, let's sit down on the (　) and watch TV.\nB: OK.","choices":["drink","floor","jump","breakfast"],"answer":2,
+                 "grammar":"「○○に座ってテレビを見よう」→ floor（床）。sit down on the floor＝床に座る。","grammarSimple":"「ゆかにすわろう」→ floor！",
+                 "choiceAnalysis":["drink＝飲み物。","○ floor＝床。sit on the floor＝床に座る。","jump＝ジャンプ。","breakfast＝朝食。"],
+                 "choiceAnalysisSimple":["「のみもの」はちがうよ。","○「ゆか」がぴったり！","「ジャンプ」はちがうよ。","「ちょうしょく」はちがうよ。"],
+                 "questionAudio":"audio/q1.mp3","translation":"A: ユカ、（　）に座ってテレビを見よう。\nB: いいよ。","choiceTranslations":["飲み物","床","ジャンプ","朝食"]},
+                {"number":2,"text":"Mr. Hara has a big (　) in his garden. It has many oranges.","choices":["plate","fork","kitchen","tree"],"answer":4,
+                 "grammar":"「庭に大きな○○がある。オレンジがたくさんなっている」→ tree（木）。","grammarSimple":"「おおきなき→オレンジがなる」→ tree！",
+                 "choiceAnalysis":["plate＝皿。","fork＝フォーク。","kitchen＝台所。","○ tree＝木。オレンジが実る。"],
+                 "choiceAnalysisSimple":["「おさら」はちがうよ。","「フォーク」はちがうよ。","「だいどころ」はちがうよ。","○「き」がぴったり！"],
+                 "questionAudio":"audio/q2.mp3","translation":"原さんは庭に大きな（　）があります。オレンジがたくさんなっています。","choiceTranslations":["皿","フォーク","台所","木"]},
+                {"number":3,"text":"A: Mom, I don't know this word. Can you help me?\nB: No, I can't. Use your (　), Tom.","choices":["page","cup","dictionary","story"],"answer":3,
+                 "grammar":"「この単語がわからない→○○を使いなさい」→ dictionary（辞書）。","grammarSimple":"「ことばがわからない→じしょをつかって」→ dictionary！",
+                 "choiceAnalysis":["page＝ページ。","cup＝カップ。","○ dictionary＝辞書。単語を調べる。","story＝物語。"],
+                 "choiceAnalysisSimple":["「ページ」はちがうよ。","「カップ」はちがうよ。","○「じしょ」がぴったり！","「ものがたり」はちがうよ。"],
+                 "questionAudio":"audio/q3.mp3","translation":"A: お母さん、この単語がわからない。助けて。\nB: だめよ。（　）を使いなさい、トム。","choiceTranslations":["ページ","カップ","辞書","物語"]},
+                {"number":4,"text":"Mr. Brown is a music teacher. He plays the (　) very well.","choices":["trumpet","cup","clock","pencil"],"answer":1,
+                 "grammar":"「音楽の先生→○○をとても上手に演奏する」→ trumpet（トランペット）。","grammarSimple":"「おんがくのせんせい→トランペット」→ trumpet！",
+                 "choiceAnalysis":["○ trumpet＝トランペット。楽器。","cup＝カップ。","clock＝時計。","pencil＝鉛筆。"],
+                 "choiceAnalysisSimple":["○「トランペット」がぴったり！","「カップ」はちがうよ。","「とけい」はちがうよ。","「えんぴつ」はちがうよ。"],
+                 "questionAudio":"audio/q4.mp3","translation":"ブラウン先生は音楽の先生です。（　）をとても上手に演奏します。","choiceTranslations":["トランペット","カップ","時計","鉛筆"]},
+                {"number":5,"text":"A: This is my new computer.\nB: It's (　). I want one, too.","choices":["great","cloudy","sure","delicious"],"answer":1,
+                 "grammar":"「新しいパソコンだよ→○○だね！私も欲しい」→ great（すごい）。","grammarSimple":"「すごい！ほしい！」→ great！",
+                 "choiceAnalysis":["○ great＝すごい。感想を述べている。","cloudy＝曇りの。","sure＝もちろん。","delicious＝おいしい。"],
+                 "choiceAnalysisSimple":["○「すごい」がぴったり！","「くもり」はちがうよ。","「もちろん」はちがうよ。","「おいしい」はちがうよ。"],
+                 "questionAudio":"audio/q5.mp3","translation":"A: これは新しいパソコンだよ。\nB: （　）ね。私も欲しいなぁ。","choiceTranslations":["すごい","曇りの","もちろん","おいしい"]},
+                {"number":6,"text":"Sally has a smart dog. He can stand and (　) a ball.","choices":["eat","catch","cook","buy"],"answer":2,
+                 "grammar":"「賢い犬→立ってボールを○○できる」→ catch（キャッチする）。","grammarSimple":"「ボールをキャッチできる」→ catch！",
+                 "choiceAnalysis":["eat＝食べる。","○ catch＝つかまえる。ボールをキャッチ。","cook＝料理する。","buy＝買う。"],
+                 "choiceAnalysisSimple":["「たべる」はちがうよ。","○「キャッチする」がぴったり！","「りょうりする」はちがうよ。","「かう」はちがうよ。"],
+                 "questionAudio":"audio/q6.mp3","translation":"サリーは賢い犬を飼っています。立ってボールを（　）できます。","choiceTranslations":["食べる","キャッチする","料理する","買う"]},
+                {"number":7,"text":"A: Mom, please (　) sandwiches for lunch.\nB: OK, John.","choices":["know","make","sit","study"],"answer":2,
+                 "grammar":"「お昼にサンドイッチを○○して」→ make（作って）。","grammarSimple":"「サンドイッチをつくって」→ make！",
+                 "choiceAnalysis":["know＝知る。","○ make＝作る。サンドイッチを作る。","sit＝座る。","study＝勉強する。"],
+                 "choiceAnalysisSimple":["「しる」はちがうよ。","○「つくって」がぴったり！","「すわる」はちがうよ。","「べんきょうする」はちがうよ。"],
+                 "questionAudio":"audio/q7.mp3","translation":"A: お母さん、お昼にサンドイッチを（　）して。\nB: いいよ、ジョン。","choiceTranslations":["知る","作る","座る","勉強する"]},
+                {"number":8,"text":"A: I have a cold, so I can't play soccer with you today.\nB: I (　). That's OK.","choices":["am","do","see","love"],"answer":3,
+                 "grammar":"「風邪だからサッカーできない→○○。大丈夫」→ see（わかった）。I see＝なるほど。","grammarSimple":"「わかった」→ I see！",
+                 "choiceAnalysis":["am＝I am＝文脈に合わない。","do＝I do＝文脈に合わない。","○ see＝I see＝なるほど、わかった。","love＝I love＝文脈に合わない。"],
+                 "choiceAnalysisSimple":["「I am」はちがうよ。","「I do」はちがうよ。","○ I see＝「わかった」がぴったり！","「I love」はちがうよ。"],
+                 "questionAudio":"audio/q8.mp3","translation":"A: 風邪だから今日はサッカーできないよ。\nB: （　）。大丈夫だよ。","choiceTranslations":["私は","する","わかった","大好き"]},
+                {"number":9,"text":"A: (　) me. Where's the bathroom?\nB: It's over there.","choices":["Begin","Know","Call","Excuse"],"answer":4,
+                 "grammar":"「○○。トイレはどこですか？」→ Excuse（すみません）。Excuse me＝すみません。","grammarSimple":"「すみません」→ Excuse me！",
+                 "choiceAnalysis":["Begin＝始める。","Know＝知る。","Call＝呼ぶ。","○ Excuse＝Excuse me＝すみません。"],
+                 "choiceAnalysisSimple":["「はじめる」はちがうよ。","「しる」はちがうよ。","「よぶ」はちがうよ。","○「すみません」がぴったり！"],
+                 "questionAudio":"audio/q9.mp3","translation":"A: （　）。トイレはどこですか？\nB: あちらです。","choiceTranslations":["始める","知る","呼ぶ","すみません"]},
+                {"number":10,"text":"A: Goodbye, David.\nB: Bye, Sam. (　) a good day.","choices":["Help","Take","Have","Hear"],"answer":3,
+                 "grammar":"「さようなら→よい一日を」→ Have。Have a good day＝よい一日を。","grammarSimple":"「よいいちにちを」→ Have a good day！",
+                 "choiceAnalysis":["Help＝助ける。","Take＝取る。","○ Have＝Have a good day＝よい一日を。","Hear＝聞く。"],
+                 "choiceAnalysisSimple":["「たすける」はちがうよ。","「とる」はちがうよ。","○ Have a good day＝「よいいちにちを」がぴったり！","「きく」はちがうよ。"],
+                 "questionAudio":"audio/q10.mp3","translation":"A: さようなら、デイビッド。\nB: バイバイ、サム。（　）よい一日を。","choiceTranslations":["助ける","取る","過ごす","聞く"]},
+                {"number":11,"text":"A: Welcome (　) our sports club, Paul.\nB: Thank you, Mr. Johnson.","choices":["on","of","for","to"],"answer":4,
+                 "grammar":"「スポーツクラブ○○ようこそ」→ to。Welcome to＝～へようこそ。","grammarSimple":"「ようこそ」→ Welcome to！",
+                 "choiceAnalysis":["on＝～の上に。","of＝～の。","for＝～のために。","○ to＝Welcome to＝～へようこそ。"],
+                 "choiceAnalysisSimple":["「on」はちがうよ。","「of」はちがうよ。","「for」はちがうよ。","○ Welcome to＝「ようこそ」がぴったり！"],
+                 "questionAudio":"audio/q11.mp3","translation":"A: ポール、スポーツクラブ（　）ようこそ。\nB: ありがとうございます、ジョンソン先生。","choiceTranslations":["～の上に","～の","～のために","～へ"]},
+                {"number":12,"text":"I play basketball (　) school. My brother and my friend play, too.","choices":["from","at","of","with"],"answer":2,
+                 "grammar":"「学校○○バスケをする」→ at。at school＝学校で。","grammarSimple":"「がっこうで」→ at school！",
+                 "choiceAnalysis":["from＝～から。","○ at＝at school＝学校で。","of＝～の。","with＝～と一緒に。"],
+                 "choiceAnalysisSimple":["「から」はちがうよ。","○ at school＝「がっこうで」がぴったり！","「の」はちがうよ。","「いっしょに」はちがうよ。"],
+                 "questionAudio":"audio/q12.mp3","translation":"学校（　）バスケをします。兄と友達もします。","choiceTranslations":["～から","～で","～の","～と"]},
+                {"number":13,"text":"Jack (　) a junior high school student. He goes to a high school.","choices":["aren't","doesn't","isn't","don't"],"answer":3,
+                 "grammar":"「ジャックは中学生では○○。高校に通っている」→ isn't（ではない）。","grammarSimple":"「ちゅうがくせいじゃない」→ isn't！",
+                 "choiceAnalysis":["aren't＝複数主語の否定。","doesn't＝一般動詞の否定。","○ isn't＝Jack is not＝ジャックは～ではない。","don't＝一般動詞の否定（複数）。"],
+                 "choiceAnalysisSimple":["「aren't」はちがうよ。","「doesn't」はちがうよ。","○「isn't＝～じゃない」がぴったり！","「don't」はちがうよ。"],
+                 "questionAudio":"audio/q13.mp3","translation":"ジャックは中学生では（　）。高校に通っています。","choiceTranslations":["～ではない（複数）","～しない（三単現）","～ではない","～しない"]},
+                {"number":14,"text":"A: This dress is very nice. (　) is it?\nB: It's my mother's.","choices":["Who","Where","Whose","When"],"answer":3,
+                 "grammar":"「このドレスはすてき。○○のもの？→お母さんの」→ Whose（誰の）。","grammarSimple":"「だれの？→おかあさんの」→ Whose！",
+                 "choiceAnalysis":["Who＝誰。","Where＝どこ。","○ Whose＝誰の。It's my mother's＝お母さんのもの。","When＝いつ。"],
+                 "choiceAnalysisSimple":["「だれ」はちがうよ。","「どこ」はちがうよ。","○「だれの」がぴったり！","「いつ」はちがうよ。"],
+                 "questionAudio":"audio/q14.mp3","translation":"A: このドレスはとてもすてき。（　）のもの？\nB: 母のです。","choiceTranslations":["誰","どこ","誰の","いつ"]},
+                {"number":15,"text":"A: Bill, let's (　) the homework together.\nB: OK, Maria.","choices":["check","checked","checks","checking"],"answer":1,
+                 "grammar":"「一緒に宿題を○○しよう」→ check。let's＋動詞の原形。","grammarSimple":"「いっしょにチェックしよう」→ let's check！",
+                 "choiceAnalysis":["○ check＝原形。let's＋原形。","checked＝過去形。","checks＝三人称単数形。","checking＝現在分詞。"],
+                 "choiceAnalysisSimple":["○「check」がぴったり！let'sのあとは原形！","「checked」はちがうよ。","「checks」はちがうよ。","「checking」はちがうよ。"],
+                 "questionAudio":"audio/q15.mp3","translation":"A: ビル、一緒に宿題を（　）しよう。\nB: いいよ、マリア。","choiceTranslations":["チェックする","チェックした","チェックする（三単現）","チェックしている"]}
+            ]
+        },
+        {
+            "name": "大問2", "nameEn": "Part 2", "type": "vocabulary",
+            "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {"number":16,"text":"Boy: Where are my pajamas, Mom?\nMother: (　)","choices":["It's big.","Five dollars.","On your bed.","After dinner."],"answer":3,
+                 "grammar":"「パジャマはどこ？→ベッドの上だよ」。","grammarSimple":"「どこ？→ベッドのうえ！」",
+                 "choiceAnalysis":["大きい＝文脈に合わない。","5ドル＝値段の答え。","○ ベッドの上。Whereへの場所の答え。","夕食後＝時間の答え。"],
+                 "choiceAnalysisSimple":["「おおきい」はちがうよ。","「5ドル」はちがうよ。","○「ベッドのうえ」がぴったり！","「ゆうしょくご」はちがうよ。"],
+                 "questionAudio":"audio/q16.mp3","translation":"Boy: お母さん、パジャマはどこ？\nMother: （　）","choiceTranslations":["大きいよ。","5ドルよ。","ベッドの上よ。","夕食後よ。"]},
+                {"number":17,"text":"Mother: What drink do you want?\nGirl: (　)","choices":["Two eggs.","Yes, at night.","Orange juice, please.","Every weekend."],"answer":3,
+                 "grammar":"「何の飲み物がほしい？→オレンジジュースをお願い」。","grammarSimple":"「なにのむ？→オレンジジュース！」",
+                 "choiceAnalysis":["卵2つ＝食べ物の答え。","はい、夜に＝文脈に合わない。","○ オレンジジュースをお願い。飲み物の質問に飲み物で答える。","毎週末＝頻度の答え。"],
+                 "choiceAnalysisSimple":["「たまご」はちがうよ。","「よるに」はちがうよ。","○「オレンジジュース」がぴったり！","「まいしゅうまつ」はちがうよ。"],
+                 "questionAudio":"audio/q17.mp3","translation":"Mother: 何の飲み物がほしい？\nGirl: （　）","choiceTranslations":["卵2つ。","はい、夜に。","オレンジジュースをお願い。","毎週末。"]},
+                {"number":18,"text":"Girl: Allan, your pink T-shirt is nice.\nBoy: (　) Brenda.","choices":["Thanks,","Good job,","You're welcome,","They're interesting,"],"answer":1,
+                 "grammar":"「ピンクのTシャツいいね→ありがとう」。","grammarSimple":"「いいね！→ありがとう！」",
+                 "choiceAnalysis":["○ ありがとう。褒められた返答。","よくやった＝文脈に合わない。","どういたしまして＝Thank youの返答。","おもしろい＝文脈に合わない。"],
+                 "choiceAnalysisSimple":["○「ありがとう」がぴったり！","「よくやった」はちがうよ。","「どういたしまして」はちがうよ。","「おもしろい」はちがうよ。"],
+                 "questionAudio":"audio/q18.mp3","translation":"Girl: アラン、ピンクのTシャツいいね。\nBoy: （　）ブレンダ。","choiceTranslations":["ありがとう、","よくやった、","どういたしまして、","おもしろいよ、"]},
+                {"number":19,"text":"Girl: When do you study English, Taro?\nBoy: (　) Then I watch TV.","choices":["I like it.","In my room.","After dinner.","For three hours."],"answer":3,
+                 "grammar":"「いつ英語を勉強する？→夕食後。それからテレビを見る」。","grammarSimple":"「いつ？→ゆうしょくご！」",
+                 "choiceAnalysis":["好きです＝文脈に合わない。","部屋で＝場所の答え。","○ 夕食後。Whenへの時間の答え。","3時間＝How long？の答え。"],
+                 "choiceAnalysisSimple":["「すき」はちがうよ。","「へやで」はちがうよ。","○「ゆうしょくご」がぴったり！","「3じかん」はちがうよ。"],
+                 "questionAudio":"audio/q19.mp3","translation":"Girl: タロウ、いつ英語を勉強するの？\nBoy: （　）それからテレビを見る。","choiceTranslations":["好きだよ。","部屋で。","夕食後。","3時間。"]},
+                {"number":20,"text":"Boy: Can you come to my house today, Lisa?\nGirl: No, I can't. (　)","choices":["That's a good idea.","I have a violin lesson.","Come in, please.","It's not mine."],"answer":2,
+                 "grammar":"「今日うちに来れる？→だめ、バイオリンのレッスンがある」。","grammarSimple":"「これる？→だめ、レッスンがある！」",
+                 "choiceAnalysis":["いいね＝肯定の返答。","○ バイオリンのレッスンがある。断る理由。","入って＝文脈に合わない。","私のじゃない＝文脈に合わない。"],
+                 "choiceAnalysisSimple":["「いいね」はちがうよ。","○「レッスンがある」がぴったり！","「はいって」はちがうよ。","「わたしのじゃない」はちがうよ。"],
+                 "questionAudio":"audio/q20.mp3","translation":"Boy: リサ、今日うちに来れる？\nGirl: だめなの。（　）","choiceTranslations":["いいね。","バイオリンのレッスンがあるの。","入って。","私のじゃないわ。"]}
+            ]
+        },
+        {
+            "name": "大問3", "nameEn": "Part 3", "type": "sentence-order",
+            "instruction": "次の(21)から(25)までの日本文の意味を表すように①から④までを並べかえて（　）の中に入れなさい。1番目と3番目にくるものの最も適切な組合せを1～4の中から一つ選びなさい。",
+            "questions": [
+                {"number":21,"text":"これは私の姉のピアノです。",
+                 "choices":["① ─ ③","③ ─ ②","① ─ ②","② ─ ③"],"answer":1,
+                 "words":["this","sister's","my","is"],"correctOrder":[1,4,3,2],
+                 "framePrefix":"","frameSuffix":"piano.","answerSlots":[1,3],
+                 "grammar":"","grammarSimple":"","choiceAnalysis":["","","",""],"choiceAnalysisSimple":["","","",""],
+                 "questionAudio":"audio/q21.mp3","translation":"これは私の姉のピアノです。"},
+                {"number":22,"text":"私は朝，歩いて学校へ行きます。",
+                 "choices":["① ─ ②","④ ─ ③","② ─ ①","③ ─ ②"],"answer":4,
+                 "words":["to","school","walk","in"],"correctOrder":[3,1,2,4],
+                 "framePrefix":"I","frameSuffix":"the morning.","answerSlots":[1,3],
+                 "grammar":"","grammarSimple":"","choiceAnalysis":["","","",""],"choiceAnalysisSimple":["","","",""],
+                 "questionAudio":"audio/q22.mp3","translation":"私は朝，歩いて学校へ行きます。"},
+                {"number":23,"text":"キムは居間でテレビを見ていますか。",
+                 "choices":["① ─ ④","② ─ ④","③ ─ ②","③ ─ ①"],"answer":2,
+                 "words":["watching","Kim","in","TV"],"correctOrder":[2,1,3,4],
+                 "framePrefix":"Is","frameSuffix":"the living room?","answerSlots":[1,3],
+                 "grammar":"","grammarSimple":"","choiceAnalysis":["","","",""],"choiceAnalysisSimple":["","","",""],
+                 "questionAudio":"audio/q23.mp3","translation":"キムは居間でテレビを見ていますか。"},
+                {"number":24,"text":"ナンシー，あなたのクラスで誰が英語を上手に話せますか。",
+                 "choices":["③ ─ ④","① ─ ③","② ─ ①","② ─ ③"],"answer":4,
+                 "words":["can","who","speak","English"],"correctOrder":[2,1,3,4],
+                 "framePrefix":"Nancy,","frameSuffix":"well in your class?","answerSlots":[1,3],
+                 "grammar":"","grammarSimple":"","choiceAnalysis":["","","",""],"choiceAnalysisSimple":["","","",""],
+                 "questionAudio":"audio/q24.mp3","translation":"ナンシー，あなたのクラスで誰が英語を上手に話せますか。"},
+                {"number":25,"text":"私の父は毎朝3キロ走ります。",
+                 "choices":["① ─ ④","① ─ ③","③ ─ ②","③ ─ ①"],"answer":3,
+                 "words":["every","three kilometers","my father","runs"],"correctOrder":[3,4,2,1],
+                 "framePrefix":"","frameSuffix":"morning.","answerSlots":[1,3],
+                 "grammar":"","grammarSimple":"","choiceAnalysis":["","","",""],"choiceAnalysisSimple":["","","",""],
+                 "questionAudio":"audio/q25.mp3","translation":"私の父は毎朝3キロ走ります。"}
+            ]
+        }
+    ],
+    "vocabulary": [
+        {"word":"floor","meaning":"床","pos":"名詞","example":"Sit on the floor.","level":"5級","distractors":["かべ","てんじょう","いす"],"wordAudio":"audio/vocab/w_001_floor.mp3"},
+        {"word":"tree","meaning":"木","pos":"名詞","example":"A big tree in the garden.","level":"5級","distractors":["はな","くさ","もり"],"wordAudio":"audio/vocab/w_002_tree.mp3"},
+        {"word":"dictionary","meaning":"辞書","pos":"名詞","example":"Use your dictionary.","level":"5級","distractors":["きょうかしょ","ノート","ほん"],"wordAudio":"audio/vocab/w_003_dictionary.mp3"},
+        {"word":"trumpet","meaning":"トランペット","pos":"名詞","example":"He plays the trumpet.","level":"5級","distractors":["ギター","ピアノ","フルート"],"wordAudio":"audio/vocab/w_004_trumpet.mp3"},
+        {"word":"great","meaning":"すごい","pos":"形容詞","example":"It's great!","level":"5級","distractors":["よい","わるい","ふつう"],"wordAudio":"audio/vocab/w_005_great.mp3"},
+        {"word":"catch","meaning":"つかまえる","pos":"動詞","example":"Catch the ball!","level":"5級","distractors":["なげる","ける","うつ"],"wordAudio":"audio/vocab/w_006_catch.mp3"},
+        {"word":"sandwich","meaning":"サンドイッチ","pos":"名詞","example":"Make sandwiches for lunch.","level":"5級","distractors":["ハンバーガー","ピザ","パン"],"wordAudio":"audio/vocab/w_007_sandwich.mp3"},
+        {"word":"excuse me","meaning":"すみません","pos":"句","example":"Excuse me, where is it?","level":"5級","distractors":["ありがとう","ごめんなさい","さようなら"],"wordAudio":"audio/vocab/w_008_excuse_me.mp3"},
+        {"word":"pajamas","meaning":"パジャマ","pos":"名詞","example":"Where are my pajamas?","level":"5級","distractors":["ようふく","くつした","コート"],"wordAudio":"audio/vocab/w_009_pajamas.mp3"},
+        {"word":"violin","meaning":"バイオリン","pos":"名詞","example":"I have a violin lesson.","level":"5級","distractors":["ピアノ","ギター","フルート"],"wordAudio":"audio/vocab/w_010_violin.mp3"},
+        {"word":"bathroom","meaning":"トイレ","pos":"名詞","example":"Where's the bathroom?","level":"5級","distractors":["だいどころ","へや","げんかん"],"wordAudio":"audio/vocab/w_011_bathroom.mp3"},
+        {"word":"whose","meaning":"誰の","pos":"疑問詞","example":"Whose dress is it?","level":"5級","distractors":["だれ","どこ","いつ"],"wordAudio":"audio/vocab/w_012_whose.mp3"},
+        {"word":"together","meaning":"一緒に","pos":"副詞","example":"Let's check together.","level":"5級","distractors":["ひとりで","みんなで","いっしょうけんめい"],"wordAudio":"audio/vocab/w_013_together.mp3"},
+        {"word":"smart","meaning":"賢い","pos":"形容詞","example":"He has a smart dog.","level":"5級","distractors":["おおきい","ちいさい","かわいい"],"wordAudio":"audio/vocab/w_014_smart.mp3"},
+        {"word":"cold","meaning":"風邪","pos":"名詞","example":"I have a cold.","level":"5級","distractors":["ねつ","せき","あたまいた"],"wordAudio":"audio/vocab/w_015_cold.mp3"},
+        {"word":"welcome","meaning":"ようこそ","pos":"間投詞","example":"Welcome to our club.","level":"5級","distractors":["さようなら","ありがとう","こんにちは"],"wordAudio":"audio/vocab/w_016_welcome.mp3"},
+        {"word":"junior high school","meaning":"中学校","pos":"名詞","example":"He's a junior high school student.","level":"5級","distractors":["しょうがっこう","こうこう","だいがく"],"wordAudio":"audio/vocab/w_017_junior_high.mp3"},
+        {"word":"dress","meaning":"ドレス","pos":"名詞","example":"This dress is nice.","level":"5級","distractors":["スカート","シャツ","ズボン"],"wordAudio":"audio/vocab/w_018_dress.mp3"},
+        {"word":"orange juice","meaning":"オレンジジュース","pos":"名詞","example":"Orange juice, please.","level":"5級","distractors":["ミルク","おちゃ","みず"],"wordAudio":"audio/vocab/w_019_orange_juice.mp3"},
+        {"word":"living room","meaning":"居間","pos":"名詞","example":"He's in the living room.","level":"5級","distractors":["だいどころ","しんしつ","げんかん"],"wordAudio":"audio/vocab/w_020_living_room.mp3"}
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {"id":"fp1","title":"前置詞 on / at / to","titleSimple":"on the floor / at school / Welcome to","subtitle":"Prepositions on, at, to",
+             "highlightLabel":"前置詞","highlightColor":"#FFD700","highlightPatterns":[],"challenge":[],"source":"","sourceLocation":"大問1 Q1, Q11, Q12",
+             "explanation":"on＝～の上に（on the floor＝床の上に）、at＝～で（at school＝学校で）、to＝～へ（Welcome to＝～へようこそ）。","explanationSimple":"on＝「うえに」、at＝「で」、to＝「へ」だよ！",
+             "sourceQuote":"Sit down on the floor. / I play basketball at school. / Welcome to our club.","sourceQuoteAudio":"audio/sq_fp1.mp3","sourceQuoteTranslation":"床に座って。/ 学校でバスケをする。/ クラブへようこそ。",
+             "examples":[
+                 {"en":"Sit down on the floor.","ja":"床に座りなさい。","audio":"audio/ex_fp1_1.mp3","note":"on the floor＝床の上に"},
+                 {"en":"I play basketball at school.","ja":"学校でバスケをします。","audio":"audio/ex_fp1_2.mp3","note":"at school＝学校で"},
+                 {"en":"Welcome to our sports club.","ja":"スポーツクラブへようこそ。","audio":"audio/ex_fp1_3.mp3","note":"Welcome to＝～へようこそ"}
+             ],
+             "practicePassage":{"en":"Paul is at school. He plays basketball at the gym. After school, he sits on the floor and reads a book. His teacher says, \"Welcome to our sports club, Paul.\"","ja":"ポールは学校にいます。体育館でバスケをします。放課後、床に座って本を読みます。先生が言います「スポーツクラブへようこそ、ポール」。","audioFile":"audio/practice_pp1.mp3"},
+             "practiceQuestions":[
+                 {"q":"「床の上に」を英語で言うと？","a":"on the floor","audio":"audio/challenge_fp1_q1.mp3"},
+                 {"q":"「学校で」を英語で言うと？","a":"at school","audio":"audio/challenge_fp1_q2.mp3"},
+                 {"q":"「～へようこそ」を英語で言うと？","a":"Welcome to","audio":"audio/challenge_fp1_q3.mp3"}
+             ],
+             "practiceQuestionsSimple":[
+                 {"q":"「ゆかのうえに」をえいごでいうと？","a":"on the floor","audio":"audio/challenge_fp1_q1.mp3"},
+                 {"q":"「がっこうで」をえいごでいうと？","a":"at school","audio":"audio/challenge_fp1_q2.mp3"},
+                 {"q":"「ようこそ」をえいごでいうと？","a":"Welcome to","audio":"audio/challenge_fp1_q3.mp3"}
+             ]},
+            {"id":"fp2","title":"否定文 isn't / I see","titleSimple":"Jack isn't / I see","subtitle":"Negative Sentences & Phrases",
+             "highlightLabel":"isn't / I see","highlightColor":"#FF6B6B","highlightPatterns":[],"challenge":[],"source":"","sourceLocation":"大問1 Q8, Q13",
+             "explanation":"isn't＝be動詞の否定「～ではない」。Jack isn't a junior high school student.＝ジャックは中学生ではない。I see＝なるほど。","explanationSimple":"isn't＝「じゃない」。I see＝「わかった」だよ！",
+             "sourceQuote":"Jack isn't a junior high school student. / I see. That's OK.","sourceQuoteAudio":"audio/sq_fp2.mp3","sourceQuoteTranslation":"ジャックは中学生ではありません。/ わかった。大丈夫だよ。",
+             "examples":[
+                 {"en":"Jack isn't a junior high school student.","ja":"ジャックは中学生ではない。","audio":"audio/ex_fp2_1.mp3","note":"isn't＝～ではない"},
+                 {"en":"I see. That's OK.","ja":"わかった。大丈夫だよ。","audio":"audio/ex_fp2_2.mp3","note":"I see＝なるほど"},
+                 {"en":"She isn't my sister.","ja":"彼女は私の姉ではない。","audio":"audio/ex_fp2_3.mp3","note":"isn't＝～ではない"}
+             ],
+             "practicePassage":{"en":"Jack isn't a junior high school student. He goes to a high school. His friend Sam has a cold. \"I can't play soccer today,\" Sam says. \"I see. That's OK,\" Jack says.","ja":"ジャックは中学生ではありません。高校に通っています。友達のサムは風邪です。「今日はサッカーできない」とサムが言います。「わかった、大丈夫だよ」とジャックが言います。","audioFile":"audio/practice_pp2.mp3"},
+             "practiceQuestions":[
+                 {"q":"「中学生ではない」を英語で言うと？","a":"isn't a junior high school student","audio":"audio/challenge_fp2_q1.mp3"},
+                 {"q":"「わかった」を英語で言うと？","a":"I see.","audio":"audio/challenge_fp2_q2.mp3"},
+                 {"q":"「彼女は姉ではない」を英語で言うと？","a":"She isn't my sister.","audio":"audio/challenge_fp2_q3.mp3"}
+             ],
+             "practiceQuestionsSimple":[
+                 {"q":"「ちゅうがくせいじゃない」をえいごでいうと？","a":"isn't a junior high school student","audio":"audio/challenge_fp2_q1.mp3"},
+                 {"q":"「わかった」をえいごでいうと？","a":"I see.","audio":"audio/challenge_fp2_q2.mp3"},
+                 {"q":"「あねじゃない」をえいごでいうと？","a":"She isn't my sister.","audio":"audio/challenge_fp2_q3.mp3"}
+             ]},
+            {"id":"fp3","title":"疑問詞 Whose / let's＋原形","titleSimple":"Whose is it? / Let's check","subtitle":"Whose & Let's",
+             "highlightLabel":"Whose / let's","highlightColor":"#4ECDC4","highlightPatterns":[],"challenge":[],"source":"","sourceLocation":"大問1 Q14, Q15",
+             "explanation":"Whose＝「誰の」。Whose is it?＝誰のもの？ let's＋原形で「～しよう」。Let's check＝チェックしよう。","explanationSimple":"Whose＝「だれの」。let's＝「～しよう」だよ！",
+             "sourceQuote":"Whose is it? It's my mother's. / Let's check the homework together.","sourceQuoteAudio":"audio/sq_fp3.mp3","sourceQuoteTranslation":"誰のもの？母のです。/ 一緒に宿題をチェックしよう。",
+             "examples":[
+                 {"en":"Whose dress is this?","ja":"これは誰のドレス？","audio":"audio/ex_fp3_1.mp3","note":"Whose＝誰の"},
+                 {"en":"Let's check the homework together.","ja":"一緒に宿題をチェックしよう。","audio":"audio/ex_fp3_2.mp3","note":"Let's＋原形＝～しよう"},
+                 {"en":"Whose bag is that?","ja":"あのかばんは誰の？","audio":"audio/ex_fp3_3.mp3","note":"Whose bag＝誰のかばん"}
+             ],
+             "practicePassage":{"en":"\"Whose dress is this?\" asks Maria. \"It's my mother's,\" says Bill. \"Let's check the homework together,\" Maria says. \"OK!\" says Bill.","ja":"「これは誰のドレス？」とマリアが聞きます。「母のだよ」とビルが言います。「一緒に宿題をチェックしよう」とマリアが言います。「いいよ！」とビルが言います。","audioFile":"audio/practice_pp3.mp3"},
+             "practiceQuestions":[
+                 {"q":"「誰のドレス？」を英語で言うと？","a":"Whose dress is this?","audio":"audio/challenge_fp3_q1.mp3"},
+                 {"q":"「一緒にチェックしよう」を英語で言うと？","a":"Let's check together.","audio":"audio/challenge_fp3_q2.mp3"},
+                 {"q":"let'sの後の動詞はどんな形？","a":"原形（そのままの形）","audio":"audio/challenge_fp3_q3.mp3"}
+             ],
+             "practiceQuestionsSimple":[
+                 {"q":"「だれのドレス？」をえいごでいうと？","a":"Whose dress is this?","audio":"audio/challenge_fp3_q1.mp3"},
+                 {"q":"「いっしょにチェックしよう」をえいごでいうと？","a":"Let's check together.","audio":"audio/challenge_fp3_q2.mp3"},
+                 {"q":"let'sのあとの動詞は？","a":"げんけい（そのままのかたち）","audio":"audio/challenge_fp3_q3.mp3"}
+             ]},
+            {"id":"fp4","title":"日常表現 Have a good day / Excuse me","titleSimple":"Have a good day / Excuse me","subtitle":"Daily Expressions",
+             "highlightLabel":"日常表現","highlightColor":"#A78BFA","highlightPatterns":[],"challenge":[],"source":"","sourceLocation":"大問1 Q9, Q10",
+             "explanation":"Excuse me＝すみません（声をかけるとき）。Have a good day＝よい一日を（別れるとき）。","explanationSimple":"Excuse me＝「すみません」。Have a good day＝「よいいちにちを」だよ！",
+             "sourceQuote":"Excuse me. Where's the bathroom? / Have a good day.","sourceQuoteAudio":"audio/sq_fp4.mp3","sourceQuoteTranslation":"すみません。トイレはどこですか？/ よい一日を。",
+             "examples":[
+                 {"en":"Excuse me. Where's the bathroom?","ja":"すみません。トイレはどこですか？","audio":"audio/ex_fp4_1.mp3","note":"Excuse me＝すみません"},
+                 {"en":"Have a good day!","ja":"よい一日を！","audio":"audio/ex_fp4_2.mp3","note":"別れの挨拶"},
+                 {"en":"Excuse me. Is this your pen?","ja":"すみません。これはあなたのペン？","audio":"audio/ex_fp4_3.mp3","note":"Excuse me＝声をかける"}
+             ],
+             "practicePassage":{"en":"\"Excuse me. Where's the bathroom?\" a boy asks. \"It's over there,\" a girl says. Later, the boy says, \"Goodbye! Have a good day!\" The girl smiles and says, \"You too!\"","ja":"「すみません。トイレはどこですか？」と男の子が聞きます。「あちらですよ」と女の子が言います。その後、男の子が「さようなら！よい一日を！」と言います。女の子は笑って「あなたもね！」と言います。","audioFile":"audio/practice_pp4.mp3"},
+             "practiceQuestions":[
+                 {"q":"「すみません」を英語で言うと？","a":"Excuse me.","audio":"audio/challenge_fp4_q1.mp3"},
+                 {"q":"「よい一日を」を英語で言うと？","a":"Have a good day.","audio":"audio/challenge_fp4_q2.mp3"},
+                 {"q":"「トイレはどこですか？」を英語で言うと？","a":"Where's the bathroom?","audio":"audio/challenge_fp4_q3.mp3"}
+             ],
+             "practiceQuestionsSimple":[
+                 {"q":"「すみません」をえいごでいうと？","a":"Excuse me.","audio":"audio/challenge_fp4_q1.mp3"},
+                 {"q":"「よいいちにちを」をえいごでいうと？","a":"Have a good day.","audio":"audio/challenge_fp4_q2.mp3"},
+                 {"q":"「トイレはどこ？」をえいごでいうと？","a":"Where's the bathroom?","audio":"audio/challenge_fp4_q3.mp3"}
+             ]}
+        ]
+    }
+}
+
+# Save data.json
+OUT = os.path.join(ROOT, "data.json")
+with open(OUT, 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
+secs = data['sections']
+total_qs = sum(len(s['questions']) for s in secs)
+print(f"data.json: {total_qs} qs, {len(data['vocabulary'])} vocab, {len(data['lessonPlan']['focusPoints'])} FPs")
+
+# Generate TTS
+def clean_text(text):
+    text = re.sub(r'[\u3000-\u9fff\uff00-\uffef]+', '', text)
+    text = re.sub(r'\\n', ' ', text)
+    text = re.sub(r'\s+', ' ', text).strip()
+    text = re.sub(r'\ba\b(?=\s+[bcdfghjklmnpqrstvwxyz])', 'uh', text)
+    return text
+
+async def gen(text, path):
+    if os.path.exists(path) and os.path.getsize(path) > 0:
+        return False
+    if os.path.exists(path):
+        os.remove(path)
+    cleaned = clean_text(text)
+    if not cleaned or len(cleaned) < 2:
+        return False
+    try:
+        comm = edge_tts.Communicate(cleaned, VOICE, rate=RATE)
+        await comm.save(path)
+        return True
+    except:
+        return False
+
+async def main():
+    count = 0
+    for sec in data['sections']:
+        for q in sec['questions']:
+            audio = q.get('questionAudio','')
+            if audio:
+                path = os.path.join(ROOT, audio)
+                text = q['text']
+                if sec['type'] == 'sentence-order':
+                    words = q.get('words',[])
+                    order = q.get('correctOrder',[])
+                    prefix = q.get('framePrefix','')
+                    suffix = q.get('frameSuffix','')
+                    ordered = [words[i-1] for i in order]
+                    text = f"{prefix} {' '.join(ordered)} {suffix}".strip()
+                if await gen(text, path):
+                    count += 1
+                    print(f"  q{q['number']}")
+    for v in data['vocabulary']:
+        audio = v.get('wordAudio','')
+        if audio:
+            path = os.path.join(ROOT, audio)
+            if await gen(v['word'], path):
+                count += 1
+    print(f"  vocab: done")
+    for fp in data['lessonPlan']['focusPoints']:
+        sq = fp.get('sourceQuoteAudio','')
+        if sq:
+            path = os.path.join(ROOT, sq)
+            if await gen(fp.get('sourceQuote',''), path): count += 1
+        for ex in fp.get('examples',[]):
+            audio = ex.get('audio','')
+            if audio:
+                path = os.path.join(ROOT, audio)
+                if await gen(ex['en'], path): count += 1
+        pp = fp.get('practicePassage')
+        if pp and pp.get('audioFile'):
+            path = os.path.join(ROOT, pp['audioFile'])
+            if await gen(pp['en'], path): count += 1
+        for q in fp.get('practiceQuestions',[]):
+            audio = q.get('audio','')
+            if audio:
+                path = os.path.join(ROOT, audio)
+                if await gen(q.get('a',''), path): count += 1
+    print(f"\n=== Generated {count} audio files ===")
+
+asyncio.run(main())
