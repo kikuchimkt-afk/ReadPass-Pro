@@ -52,7 +52,7 @@
     await loadExam(gradeId, examId);
 
     // QRロックモード: ?nav=1 がない場合（QRコードからの直接アクセス）
-    // ホームリンクと講師用ツールバーを非表示にする
+    // ホームリンクのみ非表示にする
     if (!params.get('nav')) {
       applyLockedMode();
     }
