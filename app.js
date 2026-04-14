@@ -62,9 +62,6 @@
     // ホームリンク（🏠アイコン）を非表示
     const homeLink = document.querySelector('.home-link');
     if (homeLink) homeLink.style.display = 'none';
-    // 講師用ツールバーを非表示（印刷、正解表示、プロジェクター等）
-    const toolbar = document.querySelector('.instructor-toolbar');
-    if (toolbar) toolbar.style.display = 'none';
   }
 
   async function loadExam(gradeId, examId) {
