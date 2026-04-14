@@ -244,6 +244,9 @@
             const card = document.createElement('a');
             card.className = 'exam-card';
             card.href = `index.html?grade=${grade.id}&exam=${exam.id}`;
+            card.addEventListener('click', () => {
+                sessionStorage.setItem('readpass-nav', '1');
+            });
 
             card.innerHTML = `
         <div class="exam-info">
