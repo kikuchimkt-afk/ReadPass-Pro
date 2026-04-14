@@ -51,9 +51,9 @@
     setupTabs();
     await loadExam(gradeId, examId);
 
-    // QRロックモード: トップページ経由でない場合（QRコードから直接アクセス）
+    // QRロックモード: ?nav=1 がない場合（QRコードからの直接アクセス）
     // ホームリンクと講師用ツールバーを非表示にする
-    if (!sessionStorage.getItem('readpass-nav')) {
+    if (!params.get('nav')) {
       applyLockedMode();
     }
   }
