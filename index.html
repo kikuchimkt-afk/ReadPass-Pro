@@ -31,6 +31,14 @@
                 <div class="exam-selector">
                     <span id="examLabel" class="exam-label-badge">2級 · 2025年度 第3回</span>
                 </div>
+                <div class="mode-toggle" id="modeToggleWrap">
+                    <span class="mode-label active" id="modeLabelTest">🧪 テスト</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="modeToggle" onchange="window.APP.toggleMode()">
+                        <span class="toggle-slider"></span>
+                    </label>
+                    <span class="mode-label" id="modeLabelPractice">📝 演習</span>
+                </div>
             </div>
         </header>
 

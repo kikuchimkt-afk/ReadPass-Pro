@@ -16,7 +16,7 @@
   let DATA = null;
   let vocabState = { idx: 0, score: 0, answered: false, items: [] };
   let examAnswers = {};
-  let settings = { projector: false, showAnswers: false, showTranslation: false, simpleMode: false };
+  let settings = { projector: false, showAnswers: false, showTranslation: false, simpleMode: false, practiceMode: false };
   let timerState = { seconds: 300, remaining: 300, running: false, interval: null };
   let projState = { part1: 0 };
   let hlState = { active: false, focusActive: {} };
@@ -146,6 +146,12 @@
     // Re-apply simple mode if active
     if (settings.simpleMode) applySimpleMode();
     setupTabs();
+    // Re-apply practice mode: hide submit buttons if active
+    if (settings.practiceMode) {
+      document.querySelectorAll('.exam-controls .btn-primary').forEach(btn => {
+        btn.style.display = 'none';
+      });
+    }
   }
 
   function getGrammar(q) { return settings.simpleMode && q.grammarSimple ? q.grammarSimple : (q.grammar || ''); }
@@ -479,6 +485,29 @@
     });
     document.querySelectorAll('.choice-translation').forEach(el => {
       el.classList.toggle('hidden', !settings.showTranslation);
+    });
+  };
+
+  // ===== MODE TOGGLE (演習 / テスト) =====
+  APP.toggleMode = function () {
+    const toggle = document.getElementById('modeToggle');
+    settings.practiceMode = toggle.checked;
+    const labelTest = document.getElementById('modeLabelTest');
+    const labelPractice = document.getElementById('modeLabelPractice');
+    if (settings.practiceMode) {
+      labelTest.classList.remove('active');
+      labelPractice.classList.add('active');
+    } else {
+      labelTest.classList.add('active');
+      labelPractice.classList.remove('active');
+    }
+    // Toggle submit buttons visibility
+    document.querySelectorAll('.exam-controls .btn-primary').forEach(btn => {
+      // Only hide submit buttons for sections that haven't been graded yet
+      const partId = btn.id.replace('Submit', '');
+      const resultsEl = document.getElementById(partId + 'Results');
+      if (resultsEl && resultsEl.style.display !== 'none' && resultsEl.style.display !== '') return;
+      btn.style.display = settings.practiceMode ? 'none' : '';
     });
   };
 
@@ -1013,6 +1042,11 @@
 
   // ===== EXAM SELECT =====
   window._selExam = function (qn, val) {
+    // 演習モードで既に回答済みの問題はスキップ
+    if (settings.practiceMode && examAnswers[qn] !== undefined) {
+      const qEl = document.getElementById('q' + qn);
+      if (qEl && qEl.querySelector('.exam-choice-btn.disabled')) return;
+    }
     examAnswers[qn] = val;
     document.querySelectorAll(`[data-q="${qn}"]`).forEach(b => {
       b.classList.remove('selected');
@@ -1033,7 +1067,86 @@
         }
       });
     }
+    // ===== 演習モード: 即時フィードバック =====
+    if (settings.practiceMode) {
+      practiceGradeQuestion(qn, val);
+    }
   };
+
+  function practiceGradeQuestion(qn, userAnswer) {
+    const q = findQuestion(qn);
+    if (!q) return;
+    const ok = userAnswer === q.answer;
+    const qEl = document.getElementById('q' + qn);
+    if (!qEl) return;
+
+    // 1) 選択肢に正誤スタイルを適用 & disabled化
+    qEl.querySelectorAll('.exam-choice-btn').forEach(b => {
+      b.classList.add('disabled');
+      const v = parseInt(b.dataset.val);
+      if (v === q.answer) b.classList.add('correct');
+      else if (v === userAnswer && !ok) b.classList.add('wrong');
+      else b.classList.add('faded');
+    });
+
+    // 2) 問題カードにボーダーアクセント
+    qEl.classList.add(ok ? 'practice-correct' : 'practice-wrong');
+
+    // 3) 正解インジケーター表示
+    qEl.querySelectorAll('.answer-indicator').forEach(el => el.classList.remove('hidden'));
+
+    // 4) 解説(grammar-note)を表示
+    qEl.querySelectorAll('.grammar-note').forEach(el => {
+      el.classList.remove('hidden');
+      el.classList.add('practice-feedback');
+    });
+
+    // 5) 選択肢分析(choice-analysis)を表示
+    qEl.querySelectorAll('.choice-analysis').forEach(el => {
+      el.classList.remove('hidden');
+      el.classList.add('practice-feedback');
+    });
+
+    // 6) 和訳(translation-block)をこの問題内だけ表示
+    qEl.querySelectorAll('.translation-block').forEach(el => {
+      el.classList.remove('hidden');
+      el.classList.add('practice-feedback');
+    });
+    // 選択肢の翻訳も表示
+    qEl.querySelectorAll('.choice-translation').forEach(el => {
+      el.classList.remove('hidden');
+      el.classList.add('practice-feedback');
+    });
+
+    // 7) passage-fill / reading-comprehension: 直前のpassage-blockの和訳も表示
+    const passageBlock = findPrecedingPassageBlock(qEl);
+    if (passageBlock) {
+      // Check if ALL questions for this passage have been answered
+      const passageQuestions = [];
+      let sibling = passageBlock.nextElementSibling;
+      while (sibling && sibling.classList.contains('exam-question')) {
+        const qNum = parseInt((sibling.id || '').replace('q', ''));
+        if (qNum) passageQuestions.push(qNum);
+        sibling = sibling.nextElementSibling;
+      }
+      const allAnswered = passageQuestions.every(num => examAnswers[num] !== undefined);
+      if (allAnswered) {
+        passageBlock.querySelectorAll('.translation-block').forEach(el => {
+          el.classList.remove('hidden');
+          el.classList.add('practice-feedback');
+        });
+      }
+    }
+  }
+
+  function findPrecedingPassageBlock(qEl) {
+    let el = qEl.previousElementSibling;
+    while (el) {
+      if (el.classList.contains('passage-block')) return el;
+      el = el.previousElementSibling;
+    }
+    return null;
+  }
 
   // ===== GRADING =====
   function gradePart(partId, questions) {

@@ -327,6 +327,140 @@ body {
     -webkit-text-fill-color: #ffffff;
 }
 
+/* ===== MODE TOGGLE (演習 / テスト) ===== */
+.mode-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.mode-label {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    opacity: 0.55;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.mode-label.active {
+    opacity: 1;
+    color: #fff;
+}
+
+[data-theme="light"] .mode-label.active {
+    color: #fff;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.toggle-slider::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 2px;
+    bottom: 2px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-switch input:checked + .toggle-slider {
+    background: var(--accent-primary);
+    border-color: var(--accent-primary);
+}
+
+.toggle-switch input:checked + .toggle-slider::before {
+    transform: translateX(20px);
+}
+
+[data-theme="light"] .toggle-slider {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+[data-theme="light"] .toggle-switch input:checked + .toggle-slider {
+    background: rgba(255, 255, 255, 0.45);
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* 演習モード即時フィードバック用アニメーション */
+.practice-feedback {
+    animation: practiceReveal 0.35s ease-out;
+}
+
+@keyframes practiceReveal {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 演習モード時の正誤ボーダーアクセント */
+.exam-question.practice-correct {
+    border-color: var(--success);
+    box-shadow: 0 0 0 1px var(--success), 0 4px 16px rgba(52, 211, 153, 0.1);
+}
+
+.exam-question.practice-wrong {
+    border-color: var(--error);
+    box-shadow: 0 0 0 1px var(--error), 0 4px 16px rgba(248, 113, 113, 0.1);
+}
+
+/* モバイル対応 */
+@media (max-width: 600px) {
+    .mode-toggle {
+        gap: 5px;
+    }
+    .mode-label {
+        font-size: 0.62rem;
+    }
+    .toggle-switch {
+        width: 38px;
+        height: 22px;
+    }
+    .toggle-slider::before {
+        width: 16px;
+        height: 16px;
+    }
+    .toggle-switch input:checked + .toggle-slider::before {
+        transform: translateX(16px);
+    }
+}
+
 /* ===== INSTRUCTOR TOOLBAR ===== */
 .instructor-toolbar {
     display: flex;
