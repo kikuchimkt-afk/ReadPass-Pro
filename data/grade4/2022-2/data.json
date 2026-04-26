@@ -33,7 +33,14 @@
                         "○ ask がぴったり！お母さんにきいた！",
                         "get は合わないよ。"
                     ],
-                    "questionAudio": "audio/q1.mp3"
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "A: 映画に行っていいか、お母さんに（　）した？\nB: うん。一緒に行ってもいいよ。",
+                    "choiceTranslations": [
+                        "見る",
+                        "作る",
+                        "尋ねる；聞く",
+                        "手に入れる"
+                    ]
                 },
                 {
                     "number": 2,
@@ -59,7 +66,14 @@
                         "rooms は合わないよ。",
                         "○ presents がぴったり！クリスマスプレゼント！"
                     ],
-                    "questionAudio": "audio/q2.mp3"
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "多くの国でクリスマスは人気の祝日で、その日多くの子どもは（　）をもらう。",
+                    "choiceTranslations": [
+                        "科目",
+                        "音",
+                        "部屋",
+                        "贈り物；プレゼント"
+                    ]
                 },
                 {
                     "number": 3,
@@ -85,7 +99,14 @@
                         "race は合わないよ。",
                         "painting は合わないよ。"
                     ],
-                    "questionAudio": "audio/q3.mp3"
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "A: 今週末は何をするの？\nB: 新しい（　）に引っ越すの。もっと広いから、うれしい。",
+                    "choiceTranslations": [
+                        "アパート；マンション",
+                        "バンド",
+                        "レース",
+                        "絵"
+                    ]
                 },
                 {
                     "number": 4,
@@ -111,7 +132,14 @@
                         "sits は合わないよ。",
                         "falls は合わないよ。"
                     ],
-                    "questionAudio": "audio/q4.mp3"
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "ウェンディはよく、昼食のあとに食べるフルーツを少し（　）来る。",
+                    "choiceTranslations": [
+                        "会う",
+                        "持ってくる",
+                        "座る",
+                        "落ちる"
+                    ]
                 },
                 {
                     "number": 5,
@@ -137,7 +165,14 @@
                         "○ stars がぴったり！ほしがたくさん！",
                         "teams は合わないよ。"
                     ],
-                    "questionAudio": "audio/q5.mp3"
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "A: 今週末、キャンプに行かない？天気がすごく良いから、夜（　）がたくさん見えるよ。\nB: いいね。",
+                    "choiceTranslations": [
+                        "ペン",
+                        "料理；皿",
+                        "星",
+                        "チーム"
+                    ]
                 },
                 {
                     "number": 6,
@@ -163,7 +198,14 @@
                         "easy は合わないよ。",
                         "necessary は合わないよ。"
                     ],
-                    "questionAudio": "audio/q6.mp3"
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "カナダには大きな（　）公園と湖がたくさんある。多くの人が夏に訪れる。",
+                    "choiceTranslations": [
+                        "美しい",
+                        "疲れた；つかれた",
+                        "簡単な",
+                        "必要な"
+                    ]
                 },
                 {
                     "number": 7,
@@ -189,7 +231,14 @@
                         "rest は合わないよ。",
                         "○ knife がぴったり！ナイフでパンを切る！"
                     ],
-                    "questionAudio": "audio/q7.mp3"
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "A: このパンをこの（　）で切ってくれる？\nB: もちろん。",
+                    "choiceTranslations": [
+                        "橋",
+                        "ピクニック",
+                        "休み",
+                        "ナイフ"
+                    ]
                 },
                 {
                     "number": 8,
@@ -215,7 +264,14 @@
                         "want は合わないよ。",
                         "say は合わないよ。"
                     ],
-                    "questionAudio": "audio/q8.mp3"
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "野球部の部員は、毎回の練習の間に15分（　）キャッチボールをする。",
+                    "choiceTranslations": [
+                        "持つ",
+                        "（play＝遊ぶ）",
+                        "欲しい；〜したい",
+                        "言う"
+                    ]
                 },
                 {
                     "number": 9,
@@ -241,7 +297,14 @@
                         "○ to がぴったり！kind to で「やさしい」！",
                         "as は合わないよ。"
                     ],
-                    "questionAudio": "audio/q9.mp3"
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "オーストラリア出身の新しい英語の先生は、教室のみんな（　）やさしかった。",
+                    "choiceTranslations": [
+                        "の（kind of の意味では不自然）",
+                        "（場所の）で",
+                        "（kind to 〜）に；へ",
+                        "として"
+                    ]
                 },
                 {
                     "number": 10,
@@ -267,7 +330,14 @@
                         "by は合わないよ。",
                         "after は合わないよ。"
                     ],
-                    "questionAudio": "audio/q10.mp3"
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "A: 今晩、テレビ（　）いい映画ある？\nB: うん。若いダンサーについての映画。",
+                    "choiceTranslations": [
+                        "（on TV テレビで）",
+                        "〜のために",
+                        "〜のそば；によって",
+                        "〜のあと"
+                    ]
                 },
                 {
                     "number": 11,
@@ -293,7 +363,14 @@
                         "shows は合わないよ。",
                         "○ takes がぴったり！takes a walk でさんぽ！"
                     ],
-                    "questionAudio": "audio/q11.mp3"
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "リックは、朝早くいつも犬を連れて（　）行く。",
+                    "choiceTranslations": [
+                        "電話する",
+                        "聞く",
+                        "見せる",
+                        "（take a walk 散歩）する"
+                    ]
                 },
                 {
                     "number": 12,
@@ -319,7 +396,14 @@
                         "open は合わないよ。",
                         "come は合わないよ。"
                     ],
-                    "questionAudio": "audio/q12.mp3"
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: 私のチョコチップクッキーについてどう（　）？\nB: とってもおいしい。",
+                    "choiceTranslations": [
+                        "考える（think of）",
+                        "歌う",
+                        "開ける",
+                        "来る"
+                    ]
                 },
                 {
                     "number": 13,
@@ -345,7 +429,14 @@
                         "hasn't は合わないよ。",
                         "don't は合わないよ。"
                     ],
-                    "questionAudio": "audio/q13.mp3"
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "ジェームズは足をけがしたので、今日の野球の試合には（　）行かない。",
+                    "choiceTranslations": [
+                        "〜ない（未来の否定）",
+                        "〜ではない",
+                        "〜したことがない",
+                        "〜ない（主語注意）"
+                    ]
                 },
                 {
                     "number": 14,
@@ -371,7 +462,14 @@
                         "○ us がぴったり！わたしたちに！",
                         "their は合わないよ。"
                     ],
-                    "questionAudio": "audio/q14.mp3"
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "妹と私は真昼に学校から帰宅した。お母さんが（　）のためにお昼を作ってくれた。",
+                    "choiceTranslations": [
+                        "私たちの（所有格）",
+                        "私たちは",
+                        "私たちに（for us）",
+                        "彼らの"
+                    ]
                 },
                 {
                     "number": 15,
@@ -397,7 +495,14 @@
                         "slept は合わないよ。",
                         "sleep は合わないよ。"
                     ],
-                    "questionAudio": "audio/q15.mp3"
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "A: おばあちゃんはまだ（　）から、テレビは見ないでね。\nB: わかった、ママ。",
+                    "choiceTranslations": [
+                        "眠る（三人称）",
+                        "眠っている",
+                        "眠った",
+                        "眠る"
+                    ]
                 }
             ]
         },
@@ -431,7 +536,14 @@
                         "「あなたのじゃない」はへんだよ。",
                         "○「ごはんできたよ！」がぴったり！"
                     ],
-                    "questionAudio": "audio/q16.mp3"
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "父: ダイニングに来て、ティム。（　）\n息子: わかった、パパ。今行く。",
+                    "choiceTranslations": [
+                        "新しい家なんだ。",
+                        "君の部屋、好きだよ。",
+                        "君のためじゃない。",
+                        "ランチの用意ができたよ。"
+                    ]
                 },
                 {
                     "number": 17,
@@ -457,7 +569,14 @@
                         "「プールで」は合わないよ。",
                         "○「がんばって！」がぴったり！"
                     ],
-                    "questionAudio": "audio/q17.mp3"
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "女の子1: 水泳のレース、もうすぐ始まる？\n女の子2: うん、あと5分。（　）\n女の子1: ありがとう。あなたもね。",
+                    "choiceTranslations": [
+                        "速いわね。",
+                        "今回は違う。",
+                        "プールの中。",
+                        "がんばって。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -483,7 +602,14 @@
                         "「春に」はきかれてないよ。",
                         "「5日間」はきかれてないよ。"
                     ],
-                    "questionAudio": "audio/q18.mp3"
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "生徒: 夏休みはどこに行ったんですか、リチャーズ先生？\n教師: （　）毎年夏、そこで釣りに行くの。",
+                    "choiceTranslations": [
+                        "リビングの中。",
+                        "ベルモア湖へ。",
+                        "春に。",
+                        "5日間のために。"
+                    ]
                 },
                 {
                     "number": 19,
@@ -509,7 +635,14 @@
                         "「プレゼントわすれた」は合わないよ。",
                         "「一緒にこれるよ」はもう終わったよ。"
                     ],
-                    "questionAudio": "audio/q19.mp3"
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "女の子1: お姉さんの誕生日パーティーはどうだった？\n女の子2: 楽しかった。（　）\n女の子1: わあ、多いね。",
+                    "choiceTranslations": [
+                        "そこに30人いました。",
+                        "遅く始まった。",
+                        "プレゼントを忘れた。",
+                        "一緒に来ていいよ。"
+                    ]
                 },
                 {
                     "number": 20,
@@ -535,7 +668,14 @@
                         "○「ちょっとまって！」がぴったり！",
                         "「すき」は合わないよ。"
                     ],
-                    "questionAudio": "audio/q20.mp3"
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "母: ジェニー、手伝ってくれる？キッチンに来てくれる？\n娘: （　）ママ。まずこのメールを送らなきゃ。",
+                    "choiceTranslations": [
+                        "君のパソコンだね、",
+                        "夕食、食べた、",
+                        "ちょっと待って、",
+                        "好き、"
+                    ]
                 }
             ]
         },
@@ -555,19 +695,19 @@
                         "③−①"
                     ],
                     "answer": 1,
-                    "grammar": "May I see your passport, please? → 2番目I、4番目your → ④−③",
-                    "grammarSimple": "May I see your passport, please? 「パスポートを見せてくれますか？」",
+                    "grammar": "並べかえると「may I see your passport, please?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「may I see your passport, please?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "○ ④−③（May I see your passport）",
-                        "②−③",
-                        "⑤−①",
-                        "③−①"
+                        "○「④−③」で文が正しくなります。",
+                        "「②−③」だと語順が合いません。",
+                        "「⑤−①」だと語順が合いません。",
+                        "「③−①」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ ④−③ がぴったり！",
-                        "②−③は合わないよ。",
-                        "⑤−①は合わないよ。",
-                        "③−①は合わないよ。"
+                        "○「④−③」が正解だよ。",
+                        "「②−③」は順番がちがうよ。",
+                        "「⑤−①」は順番がちがうよ。",
+                        "「③−①」は順番がちがうよ。"
                     ],
                     "words": [
                         "passport",
@@ -601,19 +741,19 @@
                         "②−⑤"
                     ],
                     "answer": 4,
-                    "grammar": "I make breakfast when I have time. → 2番目when、4番目have → ②−⑤",
-                    "grammarSimple": "I make breakfast when I have time. 「時間があるとき朝ごはんを作るよ」",
+                    "grammar": "並べかえると「I make breakfast when I have time.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「I make breakfast when I have time.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "④−①",
-                        "①−②",
-                        "④−③",
-                        "○ ②−⑤（when I have time）"
+                        "「④−①」だと語順が合いません。",
+                        "「①−②」だと語順が合いません。",
+                        "「④−③」だと語順が合いません。",
+                        "○「②−⑤」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "④−①は合わないよ。",
-                        "①−②は合わないよ。",
-                        "④−③は合わないよ。",
-                        "○ ②−⑤ がぴったり！"
+                        "「④−①」は順番がちがうよ。",
+                        "「①−②」は順番がちがうよ。",
+                        "「④−③」は順番がちがうよ。",
+                        "○「②−⑤」が正解だよ。"
                     ],
                     "words": [
                         "I",
@@ -647,19 +787,19 @@
                         "④−⑤"
                     ],
                     "answer": 3,
-                    "grammar": "My father can speak both English and French. → 2番目speak、4番目English → ④−①",
-                    "grammarSimple": "My father can speak both English and French. 「お父さんは英語とフランス語の両方を話せるよ」",
+                    "grammar": "並べかえると「My father can speak both English and French.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「My father can speak both English and French.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "②−④",
-                        "②−③",
-                        "○ ④−①（can speak both English and）",
-                        "④−⑤"
+                        "「②−④」だと語順が合いません。",
+                        "「②−③」だと語順が合いません。",
+                        "○「④−①」で文が正しくなります。",
+                        "「④−⑤」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "②−④は合わないよ。",
-                        "②−③は合わないよ。",
-                        "○ ④−① がぴったり！",
-                        "④−⑤は合わないよ。"
+                        "「②−④」は順番がちがうよ。",
+                        "「②−③」は順番がちがうよ。",
+                        "○「④−①」が正解だよ。",
+                        "「④−⑤」は順番がちがうよ。"
                     ],
                     "words": [
                         "English",
@@ -693,19 +833,19 @@
                         "⑤−④"
                     ],
                     "answer": 4,
-                    "grammar": "The comic book was not interesting at all. → 2番目was、4番目interesting → ⑤−④",
-                    "grammarSimple": "The comic book was not interesting at all. 「そのまんがはぜんぜん面白くなかったよ」",
+                    "grammar": "並べかえると「the comic book was not interesting at all.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「the comic book was not interesting at all.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "①−⑤",
-                        "②−①",
-                        "③−④",
-                        "○ ⑤−④（was not interesting at all）"
+                        "「①−⑤」だと語順が合いません。",
+                        "「②−①」だと語順が合いません。",
+                        "「③−④」だと語順が合いません。",
+                        "○「⑤−④」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "①−⑤は合わないよ。",
-                        "②−①は合わないよ。",
-                        "③−④は合わないよ。",
-                        "○ ⑤−④ がぴったり！"
+                        "「①−⑤」は順番がちがうよ。",
+                        "「②−①」は順番がちがうよ。",
+                        "「③−④」は順番がちがうよ。",
+                        "○「⑤−④」が正解だよ。"
                     ],
                     "words": [
                         "at",
@@ -739,19 +879,19 @@
                         "①−③"
                     ],
                     "answer": 2,
-                    "grammar": "Adam's house is next to the bookstore. → 2番目is、4番目to → ②−⑤",
-                    "grammarSimple": "Adam's house is next to the bookstore. 「アダムの家は本屋のとなりだよ」",
+                    "grammar": "並べかえると「Adam's house is next to the bookstore.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Adam's house is next to the bookstore.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "⑤−①",
-                        "○ ②−⑤（house is next to the bookstore）",
-                        "④−①",
-                        "①−③"
+                        "「⑤−①」だと語順が合いません。",
+                        "○「②−⑤」で文が正しくなります。",
+                        "「④−①」だと語順が合いません。",
+                        "「①−③」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "⑤−①は合わないよ。",
-                        "○ ②−⑤ がぴったり！",
-                        "④−①は合わないよ。",
-                        "①−③は合わないよ。"
+                        "「⑤−①」は順番がちがうよ。",
+                        "○「②−⑤」が正解だよ。",
+                        "「④−①」は順番がちがうよ。",
+                        "「①−③」は順番がちがうよ。"
                     ],
                     "words": [
                         "next",
@@ -823,6 +963,13 @@
                                 "June 16 はどこにも書いてないよ。",
                                 "July 12 は最初の日だよ。",
                                 "○ July 16 が最後の日！ぴったり！"
+                            ],
+                            "questionTranslation": "サッカーデイキャンプの最終日はいつですか?",
+                            "choiceTranslations": [
+                                "6月12日。",
+                                "6月16日。",
+                                "7月12日。",
+                                "7月16日。"
                             ]
                         },
                         {
@@ -848,6 +995,13 @@
                                 "「映画を見る」とは書いてないよ。",
                                 "○「有名なサッカー選手に会える」がぴったり！",
                                 "「サッカーボールをもらう」とは書いてないよ。"
+                            ],
+                            "questionTranslation": "キャンプでは生徒たちは、",
+                            "choiceTranslations": [
+                                "シルバートン・ファイターズからの電子メールを受信します。",
+                                "マイク・ウェッブの映画を見る。",
+                                "有名なサッカー選手に会う。",
+                                "無料のサッカーボールを手に入れます。"
                             ]
                         }
                     ]
@@ -894,6 +1048,13 @@
                                 "5日間はちがうよ。",
                                 "○ 6日間がぴったり！six daysって書いてある！",
                                 "7日間はちがうよ。"
+                            ],
+                            "questionTranslation": "雪まつりはいつまで開催されますか？",
+                            "choiceTranslations": [
+                                "2日です。",
+                                "5日です。",
+                                "6日。",
+                                "7日間。"
                             ]
                         },
                         {
@@ -919,6 +1080,13 @@
                                 "「彫刻を作る」とは書いてないよ。",
                                 "「フェスティバルに行く」5日は行かないよ。",
                                 "「ウェブサイトを作る」見ただけだよ。"
+                            ],
+                            "questionTranslation": "デニスは 2 月 5 日に何をしますか?",
+                            "choiceTranslations": [
+                                "スキーに行きましょう。",
+                                "彫刻を作ります。",
+                                "お祭りに行ってみましょう。",
+                                "ウェブサイトを構築します。"
                             ]
                         },
                         {
@@ -944,6 +1112,13 @@
                                 "$10 はキャロルのチケットだよ。",
                                 "○ $100 がぴったり！雪だるまの賞金！",
                                 "$200 は氷の彫刻の賞金だよ。まちがえやすい！"
+                            ],
+                            "questionTranslation": "雪だるまコンテストの優勝者には、",
+                            "choiceTranslations": [
+                                "5ドル。",
+                                "10ドル。",
+                                "100ドル。",
+                                "200ドル。"
                             ]
                         }
                     ]
@@ -985,6 +1160,13 @@
                                 "3日間はちがうよ。",
                                 "○ 1週間がぴったり！one weekって書いてある！",
                                 "1ヶ月はちがうよ。Last monthは「先月」のことだよ。"
+                            ],
+                            "questionTranslation": "キャサリンは祖母の家にどれくらい滞在しましたか。",
+                            "choiceTranslations": [
+                                "一日の間。",
+                                "3日間。",
+                                "一週間。",
+                                "1ヶ月間。"
                             ]
                         },
                         {
@@ -1010,6 +1192,13 @@
                                 "「ワクワク」はおばあちゃんのきもちだよ。",
                                 "「うれしい」とは書いてないよ。",
                                 "○「かなしい（sad）」がぴったり！両親が恋しかったんだね。"
+                            ],
+                            "questionTranslation": "キャサリンは初日どう感じましたか?",
+                            "choiceTranslations": [
+                                "疲れた。",
+                                "興奮した。",
+                                "ハッピー。",
+                                "悲しい。"
                             ]
                         },
                         {
@@ -1035,6 +1224,13 @@
                                 "○「お母さん」がぴったり！your motherって言ってるよ！",
                                 "「おじさん」とは書いてないよ。",
                                 "「友だち」とは書いてないよ。"
+                            ],
+                            "questionTranslation": "何年も前、キャサリンの祖母はピアノを教えました。",
+                            "choiceTranslations": [
+                                "キャサリンの父親。",
+                                "キャサリンの母親。",
+                                "キャサリンの叔父。",
+                                "キャサリンの友達。"
                             ]
                         },
                         {
@@ -1060,6 +1256,13 @@
                                 "「4時間練習」3時間だし金曜日じゃないよ。",
                                 "「結婚式に行った」行ったのは両親だよ。",
                                 "○「両親にピアノを弾いた」がぴったり！2曲弾いたよ！"
+                            ],
+                            "questionTranslation": "キャサリンは金曜日に何をしましたか。",
+                            "choiceTranslations": [
+                                "彼女は新しい歌を習いました。",
+                                "彼女は4時間練習した。",
+                                "彼女は結婚式に行きました。",
+                                "彼女は両親のためにピアノを弾きました。"
                             ]
                         },
                         {
@@ -1085,6 +1288,13 @@
                                 "「両親が旅行」は前の話だよ。",
                                 "○「もっと曲をおぼえたい」がぴったり！ピアノがんばる！",
                                 "「プレゼント」とは書いてないよ。"
+                            ],
+                            "questionTranslation": "キャサリンはなぜ来月祖母を訪ねるのですか?",
+                            "choiceTranslations": [
+                                "彼女の母親は働かなければなりません。",
+                                "彼女の両親は旅行に行きます。",
+                                "彼女はもっと歌を習いたいと思っています。",
+                                "彼女は祖母にプレゼントをあげる予定です。"
                             ]
                         }
                     ]

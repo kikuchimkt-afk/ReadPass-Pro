@@ -33,7 +33,14 @@
                         "「さいふ」はちがうよ。",
                         "「ブラシ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q1.mp3"
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "ジョンは電車（　）を持っていなかったから、切符を買うのに10分早く駅へ行った。",
+                    "choiceTranslations": [
+                        "コート",
+                        "切符",
+                        "財布",
+                        "ブラシ"
+                    ]
                 },
                 {
                     "number": 2,
@@ -59,7 +66,14 @@
                         "「おちる」はちがうよ。",
                         "○「りょこう」がぴったり！"
                     ],
-                    "questionAudio": "audio/q2.mp3"
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "サラは世界中を（　）したい。いろいろな国に行きたい。",
+                    "choiceTranslations": [
+                        "立つ",
+                        "出発する；去る",
+                        "落ちる",
+                        "旅行する"
+                    ]
                 },
                 {
                     "number": 3,
@@ -85,7 +99,14 @@
                         "「ベンチ」はちがうよ。",
                         "「まつり」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q3.mp3"
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "響子はダンスが大好き。学校のダンス部の（　）だ。",
+                    "choiceTranslations": [
+                        "ゲーム",
+                        "部員；メンバー",
+                        "ベンチ",
+                        "お祭り"
+                    ]
                 },
                 {
                     "number": 4,
@@ -111,7 +132,14 @@
                         "「なくす」はちがうよ。",
                         "○「みにつける」がぴったり！"
                     ],
-                    "questionAudio": "audio/q4.mp3"
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "A: 外、寒いよ、ジェイク。帽子と手袋、（　）しなきゃ。\nB: OK、ママ。するよ。",
+                    "choiceTranslations": [
+                        "料理する",
+                        "あげる",
+                        "なくす",
+                        "身につける；着用する"
+                    ]
                 },
                 {
                     "number": 5,
@@ -137,7 +165,14 @@
                         "○「ナイフ」がぴったり！",
                         "「ボウル」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q5.mp3"
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "ジョージは野菜を小さく切るのに（　）を使った。",
+                    "choiceTranslations": [
+                        "皿",
+                        "ラジオ",
+                        "ナイフ",
+                        "ボウル"
+                    ]
                 },
                 {
                     "number": 6,
@@ -163,7 +198,14 @@
                         "○「きがえた」がぴったり！",
                         "「ついた」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q6.mp3"
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "メアリーは雨に濡れて、家に着いたら服を（　）。",
+                    "choiceTranslations": [
+                        "見た",
+                        "練習した",
+                        "着替えた",
+                        "到着した"
+                    ]
                 },
                 {
                     "number": 7,
@@ -189,7 +231,14 @@
                         "「わくわく」はちがうよ。",
                         "「にんき」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q7.mp3"
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "そのクイズはとても（　）。ジェームズは1問の答えしか知らなかった。",
+                    "choiceTranslations": [
+                        "難しい",
+                        "快適",
+                        "わくわくする；おもしろい",
+                        "人気"
+                    ]
                 },
                 {
                     "number": 8,
@@ -215,7 +264,14 @@
                         "○「さんぽ」がぴったり！",
                         "「ペア」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q8.mp3"
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "晴れの日、ミアは犬と川辺を（　）散歩するのが好き。",
+                    "choiceTranslations": [
+                        "メモ；ノート",
+                        "月",
+                        "散歩",
+                        "一組；ペア"
+                    ]
                 },
                 {
                     "number": 9,
@@ -241,7 +297,14 @@
                         "「from」はちがうよ。",
                         "「at」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q9.mp3"
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: こんにちは、ジム。どうぞ（　）。\nB: ありがとう。わあ、家、大きいね！",
+                    "choiceTranslations": [
+                        "へ",
+                        "中へ；入って",
+                        "から",
+                        "で；に"
+                    ]
                 },
                 {
                     "number": 10,
@@ -267,7 +330,14 @@
                         "「よぶ」はちがうよ。",
                         "「すごす」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q10.mp3"
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "A: その映画、どう（　）？\nB: 最高！話がとてもおもしろかった。",
+                    "choiceTranslations": [
+                        "描く",
+                        "考える；思う",
+                        "電話する",
+                        "使う；過ごす"
+                    ]
                 },
                 {
                     "number": 11,
@@ -293,7 +363,14 @@
                         "○「with」がぴったり！talk withで「〜と話す」。",
                         "「against」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q11.mp3"
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "A: こっち、フランク！少し、あなた（　）話したいの。\nB: OK、ママ。",
+                    "choiceTranslations": [
+                        "上で",
+                        "そば；まで",
+                        "（talk with 〜）と一緒に；と",
+                        "反対；に向かって"
+                    ]
                 },
                 {
                     "number": 12,
@@ -319,7 +396,14 @@
                         "○「しゅっぱつ」がぴったり！",
                         "「つたえる」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q12.mp3"
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "ビルは毎朝8時20分に家を（　）出る。家から歩いて10分。",
+                    "choiceTranslations": [
+                        "望む；欲しがる",
+                        "滞在する",
+                        "出発する；家を出る",
+                        "話す；伝える"
+                    ]
                 },
                 {
                     "number": 13,
@@ -345,7 +429,14 @@
                         "「my」はちがうよ。",
                         "○「mine」がぴったり！「わたしのもの」。"
                     ],
-                    "questionAudio": "audio/q13.mp3"
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: ホリー、この帽子、あなたの？\nB: ううん、（　）じゃない。ケリーの。",
+                    "choiceTranslations": [
+                        "私（主格）",
+                        "私（目的格）",
+                        "私の",
+                        "私の（もの＝名詞的）"
+                    ]
                 },
                 {
                     "number": 14,
@@ -371,7 +462,14 @@
                         "○「listening」がぴったり！was listeningで「聞いていた」。",
                         "「listened」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q14.mp3"
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "リアムは部屋で音楽を（　）聴いていたから、母が呼んでも聞こえなかった。",
+                    "choiceTranslations": [
+                        "聴く",
+                        "聴く（三単現）",
+                        "聴いている",
+                        "聴いた"
+                    ]
                 },
                 {
                     "number": 15,
@@ -397,7 +495,14 @@
                         "○「earlier」がぴったり！",
                         "「earliest」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q15.mp3"
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "毎週木曜、ジェニーは、学校前のバレーボール練習のため、父母（　）早く起きる。",
+                    "choiceTranslations": [
+                        "早い",
+                        "同じくらい早い",
+                        "早い方（比較級）",
+                        "最も早い"
+                    ]
                 }
             ]
         },
@@ -431,7 +536,14 @@
                         "「1しゅうかん」はちがうよ。",
                         "○「2時間くらい」がぴったり！"
                     ],
-                    "questionAudio": "audio/q16.mp3"
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "娘: パパ、この映画、見よう！\n父: OK。ケリー、何分くらい？\n娘: （　）",
+                    "choiceTranslations": [
+                        "3000円だよ。",
+                        "8時だよ。",
+                        "1週間。",
+                        "だいたい2時間だよ。"
+                    ]
                 },
                 {
                     "number": 17,
@@ -457,7 +569,14 @@
                         "「バスケ部」はちがうよ。",
                         "「つたえた」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q17.mp3"
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "女1: 息子、今、何歳？\n女2: （　）もう、私と同じくらい背が高い。",
+                    "choiceTranslations": [
+                        "来週10歳。",
+                        "娘もいる。",
+                        "バスケ部。",
+                        "彼に教えた。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -483,7 +602,14 @@
                         "○「電車に本をわすれた」がぴったり！",
                         "「たのしむ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q18.mp3"
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "女: どうしたの、ジェフ？\n男: （　）駅に電話しなきゃ。",
+                    "choiceTranslations": [
+                        "すぐ着く。",
+                        "近くに住んでる。",
+                        "本を電車の中に置き忘れた。",
+                        "電車に乗るの、好き。"
+                    ]
                 },
                 {
                     "number": 19,
@@ -509,7 +635,14 @@
                         "「来しゅうまつ」はちがうよ。",
                         "「またね」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q19.mp3"
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "教師: サッカー、君と弟、どっちがうまい？\n生徒: （　）",
+                    "choiceTranslations": [
+                        "僕、うまい。",
+                        "試合に。",
+                        "来週末。",
+                        "じゃあね。"
+                    ]
                 },
                 {
                     "number": 20,
@@ -535,7 +668,14 @@
                         "「なんじ？」はちがうよ。",
                         "○「どこ？」がぴったり！"
                     ],
-                    "questionAudio": "audio/q20.mp3"
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "男の子: あした、ギターのコンサート、あるよ。行く？\n女の子: 行く！（　）\n男の子: 公園。そこで会おう。",
+                    "choiceTranslations": [
+                        "おもしろい？",
+                        "よく行く？",
+                        "何時？",
+                        "どこ？"
+                    ]
                 }
             ]
         },
@@ -575,19 +715,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「may I play with Anna after school today?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「may I play with Anna after school today?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「③−①」だと語順が合いません。",
+                        "「③−④」だと語順が合いません。",
+                        "「②−④」だと語順が合いません。",
+                        "○「②−①」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「③−①」は順番がちがうよ。",
+                        "「③−④」は順番がちがうよ。",
+                        "「②−④」は順番がちがうよ。",
+                        "○「②−①」が正解だよ。"
                     ],
                     "questionAudio": "audio/q21.mp3"
                 },
@@ -621,19 +761,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「Are you good at speaking English?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Are you good at speaking English?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「④−③」だと語順が合いません。",
+                        "○「①−⑤」で文が正しくなります。",
+                        "「③−④」だと語順が合いません。",
+                        "「①−②」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「④−③」は順番がちがうよ。",
+                        "○「①−⑤」が正解だよ。",
+                        "「③−④」は順番がちがうよ。",
+                        "「①−②」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q22.mp3"
                 },
@@ -667,19 +807,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「I started to make lunch at noon.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「I started to make lunch at noon.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−⑤」だと語順が合いません。",
+                        "○「①−④」で文が正しくなります。",
+                        "「②−③」だと語順が合いません。",
+                        "「①−③」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−⑤」は順番がちがうよ。",
+                        "○「①−④」が正解だよ。",
+                        "「②−③」は順番がちがうよ。",
+                        "「①−③」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q23.mp3"
                 },
@@ -713,19 +853,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「We're going not have a test to tomorrow.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「We're going not have a test to tomorrow.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「④−②」だと語順が合いません。",
+                        "「①−③」だと語順が合いません。",
+                        "○「⑤−②」で文が正しくなります。",
+                        "「③−④」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「④−②」は順番がちがうよ。",
+                        "「①−③」は順番がちがうよ。",
+                        "○「⑤−②」が正解だよ。",
+                        "「③−④」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q24.mp3"
                 },
@@ -759,19 +899,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「This restaurant is famous for its pizza.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「This restaurant is famous for its pizza.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−③」だと語順が合いません。",
+                        "○「①−③」で文が正しくなります。",
+                        "「④−⑤」だと語順が合いません。",
+                        "「③−④」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−③」は順番がちがうよ。",
+                        "○「①−③」が正解だよ。",
+                        "「④−⑤」は順番がちがうよ。",
+                        "「③−④」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q25.mp3"
                 }
@@ -820,6 +960,13 @@
                                 "「11時」はレストランだよ。",
                                 "「1時」はちがうよ。",
                                 "「2時」はおわりだよ。"
+                            ],
+                            "questionTranslation": "生徒はいつ服を見せますか？",
+                            "choiceTranslations": [
+                                "午前10時から。",
+                                "午前11時から。",
+                                "午後1時から。",
+                                "午後2時から。"
                             ]
                         },
                         {
@@ -845,6 +992,13 @@
                                 "○「生徒と話す」がぴったり！",
                                 "「れきし」はちがうよ。",
                                 "「いっしょに料理」はちがうよ。"
+                            ],
+                            "questionTranslation": "午後に、人々は何ができる？",
+                            "choiceTranslations": [
+                                "服を作る。",
+                                "フェアビュー・ファッションスクールの生徒と話す。",
+                                "アーツセンターの歴史を学ぶ。",
+                                "生徒たちと昼食を作る。"
                             ]
                         }
                     ]
@@ -888,6 +1042,13 @@
                                 "○「テレビで見た」がぴったり！",
                                 "「おじいちゃんに会った」はちがうよ。",
                                 "「ごはん」はちがうよ。"
+                            ],
+                            "questionTranslation": "ベンは先週何をしましたか？",
+                            "choiceTranslations": [
+                                "ゴルフをした。",
+                                "テレビでゴルフを見た。",
+                                "おじいさんの家に行った。",
+                                "お母さんと昼ごはんを食べた。"
                             ]
                         },
                         {
@@ -913,6 +1074,13 @@
                                 "○「ピアノ」がぴったり！",
                                 "「しゅくだい」は日曜のよるだよ。",
                                 "「電話」はちがうよ。"
+                            ],
+                            "questionTranslation": "毎週日曜日の朝、ベンは何をする？",
+                            "choiceTranslations": [
+                                "サッカーの練習をする。",
+                                "ピアノのレッスンを受ける。",
+                                "宿題をする。",
+                                "おじいさんに電話する。"
                             ]
                         },
                         {
@@ -938,6 +1106,13 @@
                                 "「のみもの」もおじいちゃんだよ。",
                                 "○「かさ」がぴったり！",
                                 "「レインコート」はちがうよ。"
+                            ],
+                            "questionTranslation": "ベンは来週の日曜日に何を持ってくるべきですか？",
+                            "choiceTranslations": [
+                                "サンドイッチ。",
+                                "飲み物。",
+                                "かさ。",
+                                "レインコート。"
                             ]
                         }
                     ]
@@ -979,6 +1154,13 @@
                                 "○「しゅくだい」がぴったり！",
                                 "「やきゅう」は土曜だよ。",
                                 "「スポーツ見る」はちがうよ。"
+                            ],
+                            "questionTranslation": "ウェンディは毎日何をしていますか？",
+                            "choiceTranslations": [
+                                "ピアノをひく。",
+                                "宿題をする。",
+                                "野球をする。",
+                                "両親といっしょにスポーツを見る。"
                             ]
                         },
                         {
@@ -1004,6 +1186,13 @@
                                 "「おおきなまち」はちがうよ。",
                                 "「おじいちゃんのいえ」はちがうよ。",
                                 "「レストラン」はちがうよ。"
+                            ],
+                            "questionTranslation": "昨年の夏、ウェンディと彼女の両親はどこに行きましたか？",
+                            "choiceTranslations": [
+                                "山へ。",
+                                "大きな街へ。",
+                                "おじいさんの家へ。",
+                                "新しいレストランへ。"
                             ]
                         },
                         {
@@ -1029,6 +1218,13 @@
                                 "「6時」はちがうよ。",
                                 "○「7時」がぴったり！",
                                 "「8時」はちがうよ。"
+                            ],
+                            "questionTranslation": "旅行中、ウェンディと両親は何時に目を覚ましましたか？",
+                            "choiceTranslations": [
+                                "5時。",
+                                "6時。",
+                                "7時。",
+                                "8時。"
                             ]
                         },
                         {
@@ -1054,6 +1250,13 @@
                                 "○「羊にエサをあげた」がぴったり！",
                                 "「朝ごはん」はおとうさんだよ。",
                                 "「のうかの子」はちがうよ。"
+                            ],
+                            "questionTranslation": "旅行中、ウェンディとお母さんは毎朝何をした？",
+                            "choiceTranslations": [
+                                "店まで歩いた。",
+                                "羊にえさをあげた。",
+                                "朝ごはんを作った。",
+                                "農家の子どもたちと話した。"
                             ]
                         },
                         {
@@ -1079,6 +1282,13 @@
                                 "「りょうしんがうつってる」はちがうよ。",
                                 "○「りょこうがたのしかった」がぴったり！",
                                 "「おじいちゃんがとった」はちがうよ。"
+                            ],
+                            "questionTranslation": "ウェンディが写真を見るのが好きなのはなぜですか？",
+                            "choiceTranslations": [
+                                "プレゼントだったから。",
+                                "両親が写真に写っているから。",
+                                "旅行がとても楽しかったから。",
+                                "おじいさんが写真を撮ったから。"
                             ]
                         }
                     ]

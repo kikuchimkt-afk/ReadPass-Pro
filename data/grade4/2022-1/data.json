@@ -33,7 +33,14 @@
                         "○ next がぴったり！つぎの電車！",
                         "heavy は合わないよ。"
                     ],
-                    "questionAudio": "audio/q1.mp3"
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "A: 次の（　）の電車が来るまで、あとどのくらい時間がある？\nB: 5分くらいだよ。",
+                    "choiceTranslations": [
+                        "失くした",
+                        "はれている / 明るい",
+                        "次の",
+                        "重い"
+                    ]
                 },
                 {
                     "number": 2,
@@ -59,7 +66,14 @@
                         "With は合わないよ。",
                         "Through は合わないよ。"
                     ],
-                    "questionAudio": "audio/q2.mp3"
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "A: 今日はテニスをどのくらいしたの？\nB: （　）2時間だよ。",
+                    "choiceTranslations": [
+                        "（期間）〜のあいだ",
+                        "（起点）〜以来",
+                        "〜と一緒に",
+                        "（貫通）〜を通して"
+                    ]
                 },
                 {
                     "number": 3,
@@ -85,7 +99,14 @@
                         "coat は合わないよ。",
                         "map は合わないよ。"
                     ],
-                    "questionAudio": "audio/q3.mp3"
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "A: ああ、日付をまちがえて書いちゃった。あなたの（　）を借りていい？\nB: いいよ。どうぞ。",
+                    "choiceTranslations": [
+                        "ベルト",
+                        "消しゴム",
+                        "コート",
+                        "地図"
+                    ]
                 },
                 {
                     "number": 4,
@@ -111,7 +132,14 @@
                         "problem は合わないよ。",
                         "○ temperature がぴったり！きおん！"
                     ],
-                    "questionAudio": "audio/q4.mp3"
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "冬になると、カナダのいくつかの街では（　）がとても低い。",
+                    "choiceTranslations": [
+                        "ふるさと",
+                        "住所",
+                        "問題",
+                        "気温"
+                    ]
                 },
                 {
                     "number": 5,
@@ -137,7 +165,14 @@
                         "believe は合わないよ。",
                         "forget は合わないよ。"
                     ],
-                    "questionAudio": "audio/q5.mp3"
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "毎年、おばあちゃんの誕生日（クリスマス）には花を（　）送っている。",
+                    "choiceTranslations": [
+                        "送る",
+                        "保つ・キープ",
+                        "信じる",
+                        "忘れる"
+                    ]
                 },
                 {
                     "number": 6,
@@ -163,7 +198,14 @@
                         "boring は合わないよ。",
                         "rich は合わないよ。"
                     ],
-                    "questionAudio": "audio/q6.mp3"
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "A: すごく（　）なんだけど、宿題を終わらせたいの。\nB: 早く寝て、明日は早く起きなよ。",
+                    "choiceTranslations": [
+                        "眠い",
+                        "地元の",
+                        "退屈な",
+                        "金持ちの"
+                    ]
                 },
                 {
                     "number": 7,
@@ -189,7 +231,14 @@
                         "○ busy がぴったり！いそがしい！",
                         "careful は合わないよ。"
                     ],
-                    "questionAudio": "audio/q7.mp3"
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "A: 今週末、一緒に買い物に行かない、ママ？\nB: 日曜日に行こう。土曜日は（　）の。",
+                    "choiceTranslations": [
+                        "速い",
+                        "弱い",
+                        "忙しい",
+                        "注意深い"
+                    ]
                 },
                 {
                     "number": 8,
@@ -215,7 +264,14 @@
                         "long は合わないよ。",
                         "often は合わないよ。"
                     ],
-                    "questionAudio": "audio/q8.mp3"
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "A: 走るの速すぎるよ。ちょっと（　）してくれない？\nB: いいよ。",
+                    "choiceTranslations": [
+                        "（slow down＝減速）下がる",
+                        "について",
+                        "長い",
+                        "よく"
+                    ]
                 },
                 {
                     "number": 9,
@@ -241,7 +297,14 @@
                         "in は合わないよ。",
                         "of は合わないよ。"
                     ],
-                    "questionAudio": "audio/q9.mp3"
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: テレビを消して。いますぐ（　）来て、手伝って。\nB: はい、ママ。",
+                    "choiceTranslations": [
+                        "（as としての意味では不自然）",
+                        "at（at once＝すぐ）",
+                        "中に",
+                        "の"
+                    ]
                 },
                 {
                     "number": 10,
@@ -267,7 +330,14 @@
                         "○ idea がぴったり！いいアイデア！",
                         "rice は合わないよ。"
                     ],
-                    "questionAudio": "audio/q10.mp3"
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "バートン先生は学校のコンサートの（　）いい考えを持っている。放課後、話をしたいの。",
+                    "choiceTranslations": [
+                        "方法",
+                        "側；横",
+                        "考え；アイデア",
+                        "米"
+                    ]
                 },
                 {
                     "number": 11,
@@ -293,7 +363,14 @@
                         "○ moment がぴったり！ちょっとまって！",
                         "pocket は合わないよ。"
                     ],
-                    "questionAudio": "audio/q11.mp3"
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "A: 一緒にニュースを見よう、おじいちゃん。\nB: ちょっと（　）。メガネを取ってくるよ。",
+                    "choiceTranslations": [
+                        "トラブル",
+                        "授業",
+                        "ちょっとした時間（Just a moment）",
+                        "ポケット"
+                    ]
                 },
                 {
                     "number": 12,
@@ -319,7 +396,14 @@
                         "○ like がぴったり！looks like で「にている」！",
                         "to は合わないよ。"
                     ],
-                    "questionAudio": "audio/q12.mp3"
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: お兄さん、有名な歌手に（　）に見えるよ。\nB: 本当？言ってあげるね。",
+                    "choiceTranslations": [
+                        "〜の上に",
+                        "について",
+                        "のように；に似て（like）",
+                        "〜へ"
+                    ]
                 },
                 {
                     "number": 13,
@@ -345,7 +429,14 @@
                         "playing は合わないよ。",
                         "plays は合わないよ。"
                     ],
-                    "questionAudio": "audio/q13.mp3"
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: どこに行くの？\nB: ジョーの家にビデオゲームを（　）行くよ。",
+                    "choiceTranslations": [
+                        "遊びに行く（to play）",
+                        "遊んだ（過去形）",
+                        "遊んでいる",
+                        "遊ぶ（三人称）"
+                    ]
                 },
                 {
                     "number": 14,
@@ -371,7 +462,14 @@
                         "○ helping がぴったり！たすけるのがすき！",
                         "helped は合わないよ。"
                     ],
-                    "questionAudio": "audio/q14.mp3"
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "私のおじは人を助けるのが好きで、警察官になった。",
+                    "choiceTranslations": [
+                        "助ける（名詞的に不自然）",
+                        "助ける（三人称）",
+                        "助けること（helping）",
+                        "助けた"
+                    ]
                 },
                 {
                     "number": 15,
@@ -397,7 +495,14 @@
                         "Have は合わないよ。",
                         "Be は合わないよ。"
                     ],
-                    "questionAudio": "audio/q15.mp3"
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "A: この帽子を箱に入れましょうか、お客さま？\nB: はい、お願いします。息子へのプレゼントなんです。",
+                    "choiceTranslations": [
+                        "…しましょうか？（Shall I）",
+                        "〜ですか？（Does）",
+                        "〜した？（Have）",
+                        "〜である（be）"
+                    ]
                 }
             ]
         },
@@ -431,7 +536,14 @@
                         "「一緒にいっていい？」はもう行ったよ。",
                         "「晴れてた？」は歩いたと関係ないよ。"
                     ],
-                    "questionAudio": "audio/q16.mp3"
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "娘: 今日、市民プールで泳いできたの。\n父: それは楽しそう。（　）\n娘: ううん、歩いて行ったよ。",
+                    "choiceTranslations": [
+                        "新しいの？",
+                        "バスで行ったの？",
+                        "一緒に行っていい？",
+                        "晴れてた？"
+                    ]
                 },
                 {
                     "number": 17,
@@ -457,7 +569,14 @@
                         "○「むずかしそう」だいじょうぶ！",
                         "「お気に入り」では心配にならないよ。"
                     ],
-                    "questionAudio": "audio/q17.mp3"
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "息子: ママ、一緒にこのコンピュータゲームをしない？\n母: （　）\n息子: 心配しないで。簡単だよ。",
+                    "choiceTranslations": [
+                        "私も一つ買ったよ。",
+                        "職場で使ってる。",
+                        "すごく難しそう。",
+                        "お気に入りのゲームなの。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -483,7 +602,14 @@
                         "「いくらだった？」は関係ないよ。",
                         "「やってくれる？」は関係ないよ。"
                     ],
-                    "questionAudio": "audio/q18.mp3"
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "妻: このカレー、本当においしい。（　）\n夫: 当たり前さ。はい、どうぞ。",
+                    "choiceTranslations": [
+                        "どう作ったの？",
+                        "おかわりしてもいい？",
+                        "いくらだった？",
+                        "代わりにやってくれる？"
+                    ]
                 },
                 {
                     "number": 19,
@@ -509,7 +635,14 @@
                         "「2時45分」は人数じゃないよ。",
                         "○「約30人」多いね！"
                     ],
-                    "questionAudio": "audio/q19.mp3"
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "男の子1: 英語部に部員は何人いる？\n男の子2: （　）\n男の子1: わあ、多いね。",
+                    "choiceTranslations": [
+                        "5ドルだけ。",
+                        "週に2回。",
+                        "2時45分に。",
+                        "だいたい30人。"
+                    ]
                 },
                 {
                     "number": 20,
@@ -535,7 +668,14 @@
                         "「スーパーのそば」は関係ないよ。",
                         "「質問する」は関係ないよ。"
                     ],
-                    "questionAudio": "audio/q20.mp3"
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "母: クリス、何か食べる？\n息子: うん、お願い。（　）",
+                    "choiceTranslations": [
+                        "私のを使っていいよ。",
+                        "ポテトチップスがいい。",
+                        "スーパーのそばだよ。",
+                        "彼女に質問するよ。"
+                    ]
                 }
             ]
         },
@@ -555,19 +695,19 @@
                         "⑤−④"
                     ],
                     "answer": 1,
-                    "grammar": "Please tell me your new address. 2番目me、4番目new → ①−②",
-                    "grammarSimple": "Please tell me your new address. 「あたらしい住所を教えて」",
+                    "grammar": "並べかえると「Please tell me your new address.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Please tell me your new address.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "○ ①−②（tell me your new address）",
-                        "④−②",
-                        "③−①",
-                        "⑤−④"
+                        "○「①−②」で文が正しくなります。",
+                        "「④−②」だと語順が合いません。",
+                        "「③−①」だと語順が合いません。",
+                        "「⑤−④」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ ①−② がぴったり！tell me your new address！",
-                        "④−②は合わないよ。",
-                        "③−①は合わないよ。",
-                        "⑤−④は合わないよ。"
+                        "○「①−②」が正解だよ。",
+                        "「④−②」は順番がちがうよ。",
+                        "「③−①」は順番がちがうよ。",
+                        "「⑤−④」は順番がちがうよ。"
                     ],
                     "words": [
                         "me",
@@ -601,19 +741,19 @@
                         "⑤−④"
                     ],
                     "answer": 1,
-                    "grammar": "do we need a calculator for → 2番目we、4番目a calculator → ②−③",
-                    "grammarSimple": "do we need a calculator for 「電卓が必要ですか？」",
+                    "grammar": "並べかえると「Mr. Smith, do we need a calculator for the math test?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Mr. Smith, do we need a calculator for the math test?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "○ ②−③（do we need a calculator for）",
-                        "③−②",
-                        "④−②",
-                        "⑤−④"
+                        "○「②−③」で文が正しくなります。",
+                        "「③−②」だと語順が合いません。",
+                        "「④−②」だと語順が合いません。",
+                        "「⑤−④」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ ②−③ がぴったり！",
-                        "③−②は合わないよ。",
-                        "④−②は合わないよ。",
-                        "⑤−④は合わないよ。"
+                        "○「②−③」が正解だよ。",
+                        "「③−②」は順番がちがうよ。",
+                        "「④−②」は順番がちがうよ。",
+                        "「⑤−④」は順番がちがうよ。"
                     ],
                     "words": [
                         "for",
@@ -647,19 +787,19 @@
                         "⑤−①"
                     ],
                     "answer": 1,
-                    "grammar": "stop practicing the piano and have → 2番目practicing、4番目and → ①−③",
-                    "grammarSimple": "stop practicing the piano and have 「ピアノの練習をやめてお茶にしよう」",
+                    "grammar": "並べかえると「Let's stop practicing the piano and have some tea.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Let's stop practicing the piano and have some tea.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "○ ①−③（stop practicing the piano and have）",
-                        "①−④",
-                        "⑤−②",
-                        "⑤−①"
+                        "○「①−③」で文が正しくなります。",
+                        "「①−④」だと語順が合いません。",
+                        "「⑤−②」だと語順が合いません。",
+                        "「⑤−①」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ ①−③ がぴったり！",
-                        "①−④は合わないよ。",
-                        "⑤−②は合わないよ。",
-                        "⑤−①は合わないよ。"
+                        "○「①−③」が正解だよ。",
+                        "「①−④」は順番がちがうよ。",
+                        "「⑤−②」は順番がちがうよ。",
+                        "「⑤−①」は順番がちがうよ。"
                     ],
                     "words": [
                         "practicing",
@@ -693,19 +833,19 @@
                         "④−①"
                     ],
                     "answer": 4,
-                    "grammar": "Is Meg a member of the drama club? → 2番目Meg、4番目of → ④−①",
-                    "grammarSimple": "Is Meg a member of the drama club? 「メグは演劇部のメンバー？」",
+                    "grammar": "並べかえると「is Meg a member of the drama club?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「is Meg a member of the drama club?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "①−②",
-                        "②−③",
-                        "③−②",
-                        "○ ④−①（Is Meg a member of the drama club）"
+                        "「①−②」だと語順が合いません。",
+                        "「②−③」だと語順が合いません。",
+                        "「③−②」だと語順が合いません。",
+                        "○「④−①」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "①−②は合わないよ。",
-                        "②−③は合わないよ。",
-                        "③−②は合わないよ。",
-                        "○ ④−① がぴったり！"
+                        "「①−②」は順番がちがうよ。",
+                        "「②−③」は順番がちがうよ。",
+                        "「③−②」は順番がちがうよ。",
+                        "○「④−①」が正解だよ。"
                     ],
                     "words": [
                         "of",
@@ -739,19 +879,19 @@
                         "④−①"
                     ],
                     "answer": 3,
-                    "grammar": "see the baseball game between Japan and → 2番目the baseball game、4番目Japan → ②−③",
-                    "grammarSimple": "see the baseball game between Japan and 「日本対アメリカの試合を見にいった」",
+                    "grammar": "並べかえると「We went to see the baseball game between Japan and the United States.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「We went to see the baseball game between Japan and the United States.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "②−④",
-                        "⑤−①",
-                        "○ ②−③（see the baseball game between Japan and）",
-                        "④−①"
+                        "「②−④」だと語順が合いません。",
+                        "「⑤−①」だと語順が合いません。",
+                        "○「②−③」で文が正しくなります。",
+                        "「④−①」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "②−④は合わないよ。",
-                        "⑤−①は合わないよ。",
-                        "○ ②−③ がぴったり！",
-                        "④−①は合わないよ。"
+                        "「②−④」は順番がちがうよ。",
+                        "「⑤−①」は順番がちがうよ。",
+                        "○「②−③」が正解だよ。",
+                        "「④−①」は順番がちがうよ。"
                     ],
                     "words": [
                         "between",
@@ -824,6 +964,12 @@
                                 "○ $5！生徒は5ドル！",
                                 "$7とは書いていないよ。",
                                 "$10は保護者のねだんだよ。"
+                            ],
+                            "choiceTranslations": [
+                                "2ドル。",
+                                "5ドル。",
+                                "7ドル。",
+                                "10ドル。"
                             ]
                         },
                         {
@@ -850,6 +996,12 @@
                                 "走るとは書いていないよ。",
                                 "CDとは書いていないよ。",
                                 "○ カフェテリアで食べたり飲んだりできる！"
+                            ],
+                            "choiceTranslations": [
+                                "ギターを弾いてください。",
+                                "学校の体育館で走ります。",
+                                "CD を何枚か聞いてください。",
+                                "カフェテリアで飲食してください。"
                             ]
                         }
                     ]
@@ -912,6 +1064,12 @@
                                 "カメラを買うとは言っていないよ。",
                                 "○ 家族の写真をもらう！",
                                 "絵を描くとは言っていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "歴史の本を読む。",
+                                "新しいカメラを買う。",
+                                "家族の写真を撮ります。",
+                                "彼の父親の絵を描きます。"
                             ]
                         },
                         {
@@ -939,6 +1097,12 @@
                                 "ビーチは先週のことだよ。",
                                 "サラダはお母さんが作るよ。",
                                 "デイビッドが来るんだよ。"
+                            ],
+                            "choiceTranslations": [
+                                "買い物に行きましょう。",
+                                "ビーチへ旅行に行ってみましょう。",
+                                "サラダを作ります。",
+                                "デビッドの家を訪ねてください。"
                             ]
                         },
                         {
@@ -966,6 +1130,12 @@
                                 "○ トマトスープを作ってくれる！",
                                 "トマトは育てているから好きだよ。",
                                 "母に話すとは言っていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "彼女は彼のために昼食を買ってあげるつもりです。",
+                                "彼女は彼のためにトマトスープを作ります。",
+                                "彼女はトマトが好きではありません。",
+                                "彼女は彼の母親と話したいと思っています。"
                             ]
                         }
                     ]
@@ -1012,6 +1182,12 @@
                                 "○ 図書館で勉強する！",
                                 "料理するとは書いていないよ。",
                                 "ミンディの家とは書いていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "彼は大学で働いています。",
+                                "彼は図書館で勉強しています。",
+                                "彼は夕食を作ります。",
+                                "彼はミンディの家に滞在します。"
                             ]
                         },
                         {
@@ -1039,6 +1215,12 @@
                                 "ランチを作ったとは書いていないよ。",
                                 "テスト勉強とは書いていないよ。",
                                 "買い物とは書いていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "ミンディからバックパックと寝袋を借りた。",
+                                "ミンディと友達のために昼食を作りました。",
+                                "ミンディと一緒に歴史のテストの勉強をしました。",
+                                "ミンディの友達と買い物に行きました。"
                             ]
                         },
                         {
@@ -1066,6 +1248,12 @@
                                 "テントは友達が持ってるよ。",
                                 "靴とは言っていないよ。",
                                 "地図とは言っていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "彼は暖かい服を持ってくるべきです。",
+                                "彼は新しいテントを買うべきだ。",
+                                "彼は靴を買うべきです。",
+                                "彼は地図を手に入れるべきだ。"
                             ]
                         },
                         {
@@ -1093,6 +1281,12 @@
                                 "食べ物はたくさん入れたよ。",
                                 "○ リュックが重かったから！",
                                 "山が大きいとは書いていないよ。"
+                            ],
+                            "choiceTranslations": [
+                                "彼はあまりよく眠れませんでした。",
+                                "彼は十分な食事を食べませんでした。",
+                                "彼のバックパックは重かった。",
+                                "山はとても大きかったです。"
                             ]
                         },
                         {
@@ -1120,6 +1314,12 @@
                                 "キャンプファイアは友達が作ったよ。",
                                 "パーティーではなくキャンプだよ。",
                                 "○ たくさん食べ物を持ってきたから！"
+                            ],
+                            "choiceTranslations": [
+                                "サムは彼らのために昼食を作りました。",
+                                "サムはキャンプファイヤーを始めました。",
+                                "サムはパーティーの計画を立てました。",
+                                "サムはたくさんの食べ物を持ってきました。"
                             ]
                         }
                     ]

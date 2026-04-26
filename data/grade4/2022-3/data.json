@@ -33,7 +33,14 @@
                         "○「おこった」がぴったり！",
                         "「じゅんびOK」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q1.mp3"
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "ジョンの先生は、ジョンがまた宿題を忘れたので（　）顔をしていた。",
+                    "choiceTranslations": [
+                        "金持ちの",
+                        "簡単な",
+                        "怒った",
+                        "用意ができた"
+                    ]
                 },
                 {
                     "number": 2,
@@ -59,7 +66,14 @@
                         "「タオル」はちがうよ。",
                         "「プール」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q2.mp3"
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "ニューヨークには有名な美術（　）がたくさんある。いつか行ってみたい。",
+                    "choiceTranslations": [
+                        "美術館",
+                        "ドア",
+                        "タオル",
+                        "プール"
+                    ]
                 },
                 {
                     "number": 3,
@@ -85,7 +99,14 @@
                         "「買った」はちがうよ。",
                         "「おいた」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q3.mp3"
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "父と母は高校で初めて（　）。",
+                    "choiceTranslations": [
+                        "見つけた",
+                        "出会った",
+                        "買った",
+                        "置いた"
+                    ]
                 },
                 {
                     "number": 4,
@@ -111,7 +132,14 @@
                         "「にわ」はちがうよ。",
                         "○「としょかん」がぴったり！"
                     ],
-                    "questionAudio": "audio/q4.mp3"
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "その街の（　）は週末とても忙しい。おもしろい本がたくさんある。",
+                    "choiceTranslations": [
+                        "体育館",
+                        "山",
+                        "庭",
+                        "図書館"
+                    ]
                 },
                 {
                     "number": 5,
@@ -137,7 +165,14 @@
                         "「いっぱい」はちがうよ。",
                         "「きれい」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q5.mp3"
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "たけるはよく外国へ旅行するから、言語学習は（　）ことだ。",
+                    "choiceTranslations": [
+                        "役に立つ",
+                        "冷たい",
+                        "いっぱい",
+                        "きれい"
+                    ]
                 },
                 {
                     "number": 6,
@@ -163,7 +198,14 @@
                         "「たずねる」はちがうよ。",
                         "「きく」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q6.mp3"
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "A: 自分のことを（　）します。私はジェフ、オーストラリア出身です。\nB: やあ、ジェフ。私はマーティン。",
+                    "choiceTranslations": [
+                        "走る",
+                        "紹介する",
+                        "尋ねる",
+                        "聴く"
+                    ]
                 },
                 {
                     "number": 7,
@@ -189,7 +231,14 @@
                         "「くに」はちがうよ。",
                         "○「れきし」がぴったり！"
                     ],
-                    "questionAudio": "audio/q7.mp3"
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "日本の多くの寺には、長い（　）がある。",
+                    "choiceTranslations": [
+                        "森",
+                        "時間",
+                        "国",
+                        "歴史"
+                    ]
                 },
                 {
                     "number": 8,
@@ -215,7 +264,14 @@
                         "○「いそいで！」がぴったり！",
                         "「よむ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q8.mp3"
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "A: パパ、（　）！映画、もうすぐ始まるよ。\nB: OK。",
+                    "choiceTranslations": [
+                        "切って",
+                        "見つけて",
+                        "急いで",
+                        "読んで"
+                    ]
                 },
                 {
                     "number": 9,
@@ -241,7 +297,14 @@
                         "「うれしい」はちがうよ。",
                         "「たしか」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q9.mp3"
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: 行こう。バスに（　）なっちゃう。あと5分で出るよ。\nB: OK。",
+                    "choiceTranslations": [
+                        "遅刻する",
+                        "速い",
+                        "うれしい",
+                        "確か；もちろん"
+                    ]
                 },
                 {
                     "number": 10,
@@ -267,7 +330,14 @@
                         "「ねむる」はちがうよ。",
                         "「しめる」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q10.mp3"
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "ダンは車がないから、空港まで電車に（　）。",
+                    "choiceTranslations": [
+                        "到着する",
+                        "乗る",
+                        "眠る",
+                        "閉じる"
+                    ]
                 },
                 {
                     "number": 11,
@@ -293,7 +363,14 @@
                         "○「ともだちになった」がぴったり！",
                         "「わすれた」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q11.mp3"
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "パーティーで、シェリーは新しい友だちを何人か（　）。週末に映画に行く約束をした。",
+                    "choiceTranslations": [
+                        "言った",
+                        "料理した",
+                        "作った；友だちにした",
+                        "忘れた"
+                    ]
                 },
                 {
                     "number": 12,
@@ -319,7 +396,14 @@
                         "「on」はちがうよ。",
                         "○「at」がぴったり！"
                     ],
-                    "questionAudio": "audio/q12.mp3"
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: 週末、バンクーバーにいる？\nB: うん。友だち（　）一緒にいる。台湾出身の人。",
+                    "choiceTranslations": [
+                        "として",
+                        "へ",
+                        "上に",
+                        "（場所の）に；で"
+                    ]
                 },
                 {
                     "number": 13,
@@ -345,7 +429,14 @@
                         "「どこ」はちがうよ。",
                         "「だれ」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q13.mp3"
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: 君の学校では、野球とサッカー、どっちのスポーツのほうが人気？\nB: 野球。",
+                    "choiceTranslations": [
+                        "どっち；どの",
+                        "誰の",
+                        "どこ",
+                        "誰"
+                    ]
                 },
                 {
                     "number": 14,
@@ -371,7 +462,14 @@
                         "○「〜より」がぴったり！",
                         "「なぜなら」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q14.mp3"
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "恵子はクラスメート（　）速く泳げる。",
+                    "choiceTranslations": [
+                        "〜のために",
+                        "そして",
+                        "（than）より",
+                        "なぜなら"
+                    ]
                 },
                 {
                     "number": 15,
@@ -397,7 +495,14 @@
                         "「were」はちがうよ。Benは一人だよ。",
                         "「is」はちがうよ。きのうのことだよ。"
                     ],
-                    "questionAudio": "audio/q15.mp3"
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "昨日、ベンが電車で帰る途中、（　）とき、古い友だちに会った。",
+                    "choiceTranslations": [
+                        "be（原形）",
+                        "was（過去・単数）",
+                        "were（過去・複数）",
+                        "is（現在）"
+                    ]
                 }
             ]
         },
@@ -431,7 +536,14 @@
                         "「せいとは多い？」はちがうよ。",
                         "「先生見つけた？」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q16.mp3"
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "男の子: 今日の理科の宿題、むずかしい。\n女の子: わかる。（　）\n男の子: うん、やろう。",
+                    "choiceTranslations": [
+                        "あなたの？",
+                        "一緒にやる？",
+                        "生徒、多い？",
+                        "先生、見つけた？"
+                    ]
                 },
                 {
                     "number": 17,
@@ -457,7 +569,14 @@
                         "「新しいのもらった」はちがうよ。",
                         "「ここにない」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q17.mp3"
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "男の子: 虹が出た！\n女の子: わあ、（　）しゃしんを撮ろう。",
+                    "choiceTranslations": [
+                        "本当にきれい。",
+                        "見えない。",
+                        "新しいのを手に入れた。",
+                        "ここにないよ。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -483,7 +602,14 @@
                         "○「家にいなかった」がぴったり！",
                         "「バットなくした」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q18.mp3"
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "男の子1: 昨日の夜、電話したんだけど、（　）どこにいた？\n男の子2: 野球の試合を見に行ったよ。",
+                    "choiceTranslations": [
+                        "スポーツが嫌い。",
+                        "僕の電話じゃなかった。",
+                        "家にいなかった。",
+                        "僕のバットをなくした。"
+                    ]
                 },
                 {
                     "number": 19,
@@ -509,7 +635,14 @@
                         "「だいどころにある？」はちがうよ。",
                         "○「おなかすいてる？」がぴったり！"
                     ],
-                    "questionAudio": "audio/q19.mp3"
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "息子: スパゲッティ、おいしかった。ありがとう、ママ。\n母: どういたしまして。（　）\n息子: ううん、もういっぱい。",
+                    "choiceTranslations": [
+                        "食べてみていい？",
+                        "作ったの？",
+                        "台所にある？",
+                        "まだお腹すいてる？"
+                    ]
                 },
                 {
                     "number": 20,
@@ -535,7 +668,14 @@
                         "○「もう行かなきゃ！」がぴったり！",
                         "「ランチした」はちがうよ。"
                     ],
-                    "questionAudio": "audio/q20.mp3"
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "男1: マーク、今、何時？\n男2: 4時30分だよ。\n男1: あ、（　）会議の時間だ。",
+                    "choiceTranslations": [
+                        "僕、そこにいなかった。",
+                        "彼の名前、知らない。",
+                        "今すぐ行かなきゃ。",
+                        "あの店でランチしたよ。"
+                    ]
                 }
             ]
         },
@@ -575,19 +715,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「Akiko had to work on Saturdays last month.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Akiko had to work on Saturdays last month.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「①−③」だと語順が合いません。",
+                        "「①−⑤」だと語順が合いません。",
+                        "「③−②」だと語順が合いません。",
+                        "○「④−③」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「①−③」は順番がちがうよ。",
+                        "「①−⑤」は順番がちがうよ。",
+                        "「③−②」は順番がちがうよ。",
+                        "○「④−③」が正解だよ。"
                     ],
                     "questionAudio": "audio/q21.mp3"
                 },
@@ -621,19 +761,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「Peter practiced kicking the ball before the soccer game.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Peter practiced kicking the ball before the soccer game.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「①−③」だと語順が合いません。",
+                        "○「②−⑤」で文が正しくなります。",
+                        "「③−②」だと語順が合いません。",
+                        "「④−②」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「①−③」は順番がちがうよ。",
+                        "○「②−⑤」が正解だよ。",
+                        "「③−②」は順番がちがうよ。",
+                        "「④−②」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q22.mp3"
                 },
@@ -667,19 +807,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「Thomas saw a famous singer near his office yesterday.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「Thomas saw a famous singer near his office yesterday.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−④」だと語順が合いません。",
+                        "○「②−③」で文が正しくなります。",
+                        "「③−①」だと語順が合いません。",
+                        "「③−⑤」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−④」は順番がちがうよ。",
+                        "○「②−③」が正解だよ。",
+                        "「③−①」は順番がちがうよ。",
+                        "「③−⑤」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q23.mp3"
                 },
@@ -713,19 +853,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「when is Jack going to see the movie?」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「when is Jack going to see the movie?」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−①」だと語順が合いません。",
+                        "「②−③」だと語順が合いません。",
+                        "「④−③」だと語順が合いません。",
+                        "○「④−⑤」で文が正しくなります。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "「②−①」は順番がちがうよ。",
+                        "「②−③」は順番がちがうよ。",
+                        "「④−③」は順番がちがうよ。",
+                        "○「④−⑤」が正解だよ。"
                     ],
                     "questionAudio": "audio/q24.mp3"
                 },
@@ -759,19 +899,19 @@
                         2,
                         4
                     ],
-                    "grammar": "",
-                    "grammarSimple": "",
+                    "grammar": "並べかえると「My dream is to be a pilot.」になります。空所にはこの文の2語目と4語目が入ります。",
+                    "grammarSimple": "正しい文は「My dream is to be a pilot.」。2番目と4番目の語を入れればOK。",
                     "choiceAnalysis": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "○「③−④」で文が正しくなります。",
+                        "「③−②」だと語順が合いません。",
+                        "「①−⑤」だと語順が合いません。",
+                        "「⑤−②」だと語順が合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "",
-                        "",
-                        "",
-                        ""
+                        "○「③−④」が正解だよ。",
+                        "「③−②」は順番がちがうよ。",
+                        "「①−⑤」は順番がちがうよ。",
+                        "「⑤−②」は順番がちがうよ。"
                     ],
                     "questionAudio": "audio/q25.mp3"
                 }
@@ -822,6 +962,13 @@
                                 "「ちかてつ」はちがうよ。",
                                 "○「バス」がぴったり！",
                                 "「じてんしゃ」は借りるだけだよ。"
+                            ],
+                            "questionTranslation": "学生たちはどうやってゴールデンパークに行くのですか？",
+                            "choiceTranslations": [
+                                "車で。",
+                                "地下鉄で。",
+                                "バスで。",
+                                "自転車で。"
                             ]
                         },
                         {
@@ -847,6 +994,13 @@
                                 "「こうえん」は行くところだよ。",
                                 "「スタジアム」は書いてないよ。",
                                 "「先生の家」は書いてないよ。"
+                            ],
+                            "questionTranslation": "学生たちは6月17日の午前8時にどこに集合しますか?",
+                            "choiceTranslations": [
+                                "校門にて。",
+                                "ゴールデンパークにて。",
+                                "サッカースタジアムにて。",
+                                "グラント氏の家にて。"
                             ]
                         }
                     ]
@@ -890,6 +1044,13 @@
                                 "「お父さん」はちがうよ。",
                                 "「おばあちゃん」はレシピをくれる人だよ。",
                                 "○「ともだち」がぴったり！"
+                            ],
+                            "questionTranslation": "ジェームズは誰のためにケーキを作りますか?",
+                            "choiceTranslations": [
+                                "彼の先生。",
+                                "彼の父親。",
+                                "彼の祖母。",
+                                "彼の友人。"
                             ]
                         },
                         {
@@ -915,6 +1076,13 @@
                                 "「水曜日」はたんじょう日だよ。",
                                 "「金曜日」はちがうよ。",
                                 "「日曜日」はちがうよ。"
+                            ],
+                            "questionTranslation": "ジェームズはいつケーキを作りたいのですか?",
+                            "choiceTranslations": [
+                                "次の火曜日。",
+                                "次の水曜日。",
+                                "次の金曜日。",
+                                "次の日曜日。"
                             ]
                         },
                         {
@@ -940,6 +1108,13 @@
                                 "○「れいぞうこに入れて」がぴったり！",
                                 "「チョコを買って」はちがうよ。",
                                 "「レシピを送って」はぎゃくだよ。"
+                            ],
+                            "questionTranslation": "ジェームズの祖母はジェームズに何と言いますか?",
+                            "choiceTranslations": [
+                                "彼は両親に助けを求めるべきです。",
+                                "彼はケーキを冷蔵庫に入れるべきです。",
+                                "彼はチョコレートを買うべきです。",
+                                "彼は彼女にレシピを送るべきだ。"
                             ]
                         }
                     ]
@@ -981,6 +1156,13 @@
                                 "「高校に入った」はちがうよ。",
                                 "「シドニー」は住んでるところだよ。",
                                 "「つりに行った」はちがうよ。見ただけ！"
+                            ],
+                            "questionTranslation": "ハンナは去年の1月に何をしましたか?",
+                            "choiceTranslations": [
+                                "彼女はフィジーに行きました。",
+                                "彼女は高校に通い始めました。",
+                                "彼女はシドニーを訪れました。",
+                                "彼女は釣りに行きました。"
                             ]
                         },
                         {
@@ -1006,6 +1188,13 @@
                                 "「かぞくとあそんだ」はちがうよ。",
                                 "「しゅくだい」はちがうよ。",
                                 "○「おさかなを見た」がぴったり！"
+                            ],
+                            "questionTranslation": "ハンナはビーチで何をして楽しかったですか?",
+                            "choiceTranslations": [
+                                "海で泳ぐ。",
+                                "彼女の家族と遊んでいます。",
+                                "彼女の宿題をやっている。",
+                                "魚を見てみます。"
                             ]
                         },
                         {
@@ -1031,6 +1220,13 @@
                                 "○「先生が教えてくれる」がぴったり！",
                                 "「しんぱい」はちがうよ。",
                                 "「先生がじょうず」はちがうよ。"
+                            ],
+                            "questionTranslation": "ハンナの母親はハンナに何と言ったでしょうか。",
+                            "choiceTranslations": [
+                                "彼女はハンナにサーフボードを買うつもりです。",
+                                "先生はハンナにサーフィンについて教えます。",
+                                "彼女はサーフィンについて心配しています。",
+                                "サーフィンの先生は上手です。"
                             ]
                         },
                         {
@@ -1056,6 +1252,13 @@
                                 "○「サーフボードに立てた！」がぴったり！",
                                 "「先生がやさしい」はちがうよ。",
                                 "「サーフボードもらった」はちがうよ。"
+                            ],
+                            "questionTranslation": "ハンナが幸せだったのはいつですか?",
+                            "choiceTranslations": [
+                                "彼女が水に落ちたとき。",
+                                "彼女がサーフボードの上に立ったとき。",
+                                "先生が彼女に優しくしてくれたとき。",
+                                "彼女がサーフボードを手に入れたときのこと。"
                             ]
                         },
                         {
@@ -1081,6 +1284,13 @@
                                 "「フィジーでならった」はちがうよ。",
                                 "○「シドニーで教室みつけた」がぴったり！",
                                 "「ともだちと話した」はちがうよ。"
+                            ],
+                            "questionTranslation": "ハンナはサーフィンのクラスの後何をしましたか?",
+                            "choiceTranslations": [
+                                "彼女は母親にサーフボードを求めた。",
+                                "彼女はフィジーでサーフィンを学びました。",
+                                "彼女はシドニーでサーフィンスクールを見つけました。",
+                                "彼女はインターネットで友達と話しました。"
                             ]
                         }
                     ]
