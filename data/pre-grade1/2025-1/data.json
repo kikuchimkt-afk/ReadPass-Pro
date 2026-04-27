@@ -1498,11 +1498,15 @@
           "sentencePairs": [
             [
               "When Australian soldiers returned home after fighting abroad in World War I, many had trouble finding employment.",
-              "第一次世界大戦で海外での従軍から帰国したオーストラリアの兵士の多くは、就職に苦労した。"
+              "第一次世界大戦で海外での従軍から帰国したオーストラリアの兵士の多くは、就職に苦労した。",
+              "When Australian soldiers returned home|オーストラリアの兵士が帰国した時||after fighting abroad|海外で戦った後に||in World War I,|第一次世界大戦で、||many had trouble finding employment.|多くの者が就職に苦労した。",
+              "had"
             ],
             [
               "The public pressured the government to support the former soldiers, and they were eventually offered plots of land to become crop farmers.",
-              "国民は政府に元兵士の支援を求め、最終的に農業を営むための土地が提供された。"
+              "国民は政府に元兵士の支援を求め、最終的に農業を営むための土地が提供された。",
+              "The public pressured the government|国民は政府に圧力をかけた||to support the former soldiers,|元兵士を支援するように、||and they were eventually offered|そして最終的に提供された||plots of land|土地の区画を||to become crop farmers.|作物農家になるための。",
+              "pressured"
             ],
             [
               "Thousands of people ( 19 ).",
@@ -1510,15 +1514,21 @@
             ],
             [
               "This is despite the fact that the soil quality was often poor, and some plots were considered too small to bring in enough income.",
-              "土壌の質がしばしば悪く、一部の区画は十分な収入を得るには小さすぎると考えられていたにもかかわらずだ。"
+              "土壌の質がしばしば悪く、一部の区画は十分な収入を得るには小さすぎると考えられていたにもかかわらずだ。",
+              "This is despite the fact|これは〜にもかかわらずだ||that the soil quality was often poor,|土壌の質がしばしば悪く、||and some plots were considered too small|一部の区画は小さすぎると考えられた||to bring in enough income.|十分な収入を得るには。",
+              "is"
             ],
             [
               "Emus are large flightless birds that migrate hundreds of kilometers in search of food and water.",
-              "エミューは食料と水を求めて何百キロも移動する大型の飛べない鳥だ。"
+              "エミューは食料と水を求めて何百キロも移動する大型の飛べない鳥だ。",
+              "Emus are large flightless birds|エミューは大型の飛べない鳥で||that migrate hundreds of kilometers|何百キロも移動する||in search of food and water.|食料と水を求めて。",
+              "are"
             ],
             [
               "At the time, the emus had protected status.",
-              "当時、エミューは保護動物だった。"
+              "当時、エミューは保護動物だった。",
+              "At the time,|当時、||the emus had protected status.|エミューは保護されている状態だった。",
+              "had"
             ],
             [
               "( 20 ), the farmers' options were severely limited.",
@@ -1526,11 +1536,15 @@
             ],
             [
               "They built simple fences, but the emus overcame these barriers and destroyed crops.",
-              "簡単な柵を作ったが、エミューはこれを乗り越えて作物を破壊した。"
+              "簡単な柵を作ったが、エミューはこれを乗り越えて作物を破壊した。",
+              "They built simple fences,|彼らは簡単な柵を作ったが、||but the emus overcame these barriers|しかしエミューはこれらの障壁を乗り越え||and destroyed crops.|作物を破壊した。",
+              "built"
             ],
             [
               "Soldiers armed with machine guns were sent to eliminate thousands of emus.",
-              "機関銃で武装した兵士が何千羽ものエミューを駆除するために派遣された。"
+              "機関銃で武装した兵士が何千羽ものエミューを駆除するために派遣された。",
+              "Soldiers armed with machine guns|機関銃で武装した兵士が||were sent|送られた||to eliminate thousands of emus.|何千羽ものエミューを駆除するために。",
+              "were sent"
             ],
             [
               "Within days, it became clear that the ( 21 ).",
@@ -1538,11 +1552,15 @@
             ],
             [
               "As soon as they became aware of potential danger, the emus broke into small groups and ran in different directions, making it extremely difficult for the soldiers to use their weapons effectively.",
-              "潜在的な危険に気づくとすぐに、エミューは小グループに分かれて異なる方向に走り、兵士が武器を効果的に使用することを極めて困難にした。"
+              "潜在的な危険に気づくとすぐに、エミューは小グループに分かれて異なる方向に走り、兵士が武器を効果的に使用することを極めて困難にした。",
+              "As soon as they became aware|危険の可能性に気づくと||of potential danger,|すぐに、||the emus broke into small groups|エミューは小さな群れに分かれ||and ran in different directions,|異なる方向に走った、||making it extremely difficult for the soldiers|兵士にとって極めて困難にしながら||to use their weapons effectively.|武器を効果的に使うことを。",
+              "broke"
             ],
             [
               "Although later attempts had slightly more success, the whole program was generally deemed ineffective and eventually scrapped.",
-              "その後の試みはやや成功したが、プログラム全体は概ね無効と見なされ、最終的に中止された。"
+              "その後の試みはやや成功したが、プログラム全体は概ね無効と見なされ、最終的に中止された。",
+              "Although later attempts had slightly more success,|後の試みはやや多くの成功を収めたが、||the whole program was generally deemed ineffective|プログラム全体は概して非効果的と見なされ||and eventually scrapped.|最終的に廃止された。",
+              "was deemed"
             ]
           ],
           "questions": [
@@ -1640,15 +1658,21 @@
           "sentencePairs": [
             [
               "Hollywood movies have helped to make scenes of gladiators fighting each other in public arenas an iconic part of ancient Rome's history.",
-              "ハリウッド映画は、公共闘技場でのグラディエーターの戦いのシーンを古代ローマ史の象徴的な部分にした。"
+              "ハリウッド映画は、公共闘技場でのグラディエーターの戦いのシーンを古代ローマ史の象徴的な部分にした。",
+              "Hollywood movies have helped|ハリウッド映画は助けてきた||to make scenes of gladiators fighting each other|剣闘士が互いに戦う場面を||in public arenas|公共のアリーナで||an iconic part|象徴的な部分に||of ancient Rome's history.|古代Romeの歴史の。",
+              "have helped"
             ],
             [
               "Historical records show that gladiatorial games began in pre-Roman communities and that the Romans then adopted them as a form of entertainment around the third century BC.",
-              "歴史的記録は、グラディエーター競技がローマ以前の共同体で始まり、ローマ人が紀元前3世紀頃にそれを娯楽として採用したことを示している。"
+              "歴史的記録は、グラディエーター競技がローマ以前の共同体で始まり、ローマ人が紀元前3世紀頃にそれを娯楽として採用したことを示している。",
+              "Historical records show|歴史的記録は示す||that gladiatorial games began|剣闘士の試合が始まったと||in pre-Roman communities|ローマ以前の共同体で||and that the Romans then adopted them|そしてローマ人がそれを採用したと||as a form of entertainment|娯楽の形態として||around the third century BC.|紀元前3世紀頃に。",
+              "show"
             ],
             [
               "Unlike in the movies, however, it was uncommon for gladiators to die in the arena.",
-              "しかし映画とは異なり、グラディエーターが闘技場で死ぬことは珍しかった。"
+              "しかし映画とは異なり、グラディエーターが闘技場で死ぬことは珍しかった。",
+              "Unlike in the movies, however,|しかし映画とは異なり、||it was uncommon|珍しかった||for gladiators to die in the arena.|剣闘士がアリーナで死ぬことは。",
+              "was"
             ],
             [
               "( 22 ), losers could give up and admit defeat, and whether they lived or died would then be decided by the sponsor of the games.",
@@ -1656,15 +1680,21 @@
             ],
             [
               "Having a gladiator killed resulted in paying a large fee to their owner, so it rarely happened.",
-              "グラディエーターを殺すとオーナーに高額の料金を支払うことになるため、滅多に起こらなかった。"
+              "グラディエーターを殺すとオーナーに高額の料金を支払うことになるため、滅多に起こらなかった。",
+              "Having a gladiator killed|剣闘士を殺させることは||resulted in paying a large fee|多額の料金を払う結果になった||to their owner,|所有者に、||so it rarely happened.|なのでそれは滅多に起こらなかった。",
+              "resulted"
             ],
             [
               "Some historians believe that female gladiators appeared during the first century BC, at a time when Roman society was undergoing many changes.",
-              "一部の歴史家は、ローマ社会が多くの変化を遂げていた紀元前1世紀に女性グラディエーターが登場したと考えている。"
+              "一部の歴史家は、ローマ社会が多くの変化を遂げていた紀元前1世紀に女性グラディエーターが登場したと考えている。",
+              "Some historians believe|一部の歴史家は信じている||that female gladiators appeared|女性の剣闘士が登場したと||during the first century BC,|紀元前1世紀に、||at a time when Roman society|ローマ社会が||was undergoing many changes.|多くの変化を経験していた時に。",
+              "believe"
             ],
             [
               "Rome was transitioning from a republic to an empire, and women were starting to be allowed greater freedom.",
-              "ローマは共和制から帝政へ移行しつつあり、女性はより大きな自由を認められ始めていた。"
+              "ローマは共和制から帝政へ移行しつつあり、女性はより大きな自由を認められ始めていた。",
+              "Rome was transitioning from a republic to an empire,|Romeは共和制から帝政へ移行しつつあり、||and women were starting to be allowed|女性はより大きな自由を||greater freedom.|認められ始めていた。",
+              "was transitioning"
             ],
             [
               "One way to provide that was by ( 23 ).",
@@ -1676,11 +1706,15 @@
             ],
             [
               "Some likely did it as a form of protest against their families or an escape from Rome's male-dominated society.",
-              "家族への抗議や男性支配社会からの逃避としてやった人もいただろう。"
+              "家族への抗議や男性支配社会からの逃避としてやった人もいただろう。",
+              "Some likely did it|一部はおそらくそうした||as a form of protest against their families|家族への抗議の一形態として||or an escape from Rome's male-dominated society.|またはRomeの男性支配社会からの逃避として。",
+              "did"
             ],
             [
               "Others probably did it because it brought them fame and excitement.",
-              "名声と興奮を得られるからやった人もいただろう。"
+              "名声と興奮を得られるからやった人もいただろう。",
+              "Others probably did it|他の者はおそらくそうした||because it brought them fame and excitement.|それが名声と興奮をもたらしたからだ。",
+              "did"
             ]
           ],
           "questions": [
@@ -1787,43 +1821,63 @@
           "sentencePairs": [
             [
               "In December 1872, the crew of the Dei Gratia, a British merchant ship that had set sail from New York, spotted another ship drifting in the Atlantic Ocean.",
-              "1872年12月、ニューヨークから出港したイギリスの商船デイ・グラティア号の乗組員が、大西洋で漂流する別の船を見つけた。"
+              "1872年12月、ニューヨークから出港したイギリスの商船デイ・グラティア号の乗組員が、大西洋で漂流する別の船を見つけた。",
+              "In December 1872,|1872年12月に、||the crew of the Dei Gratia,|Dei Gratiaの乗組員が、||a British merchant ship|英国の商船で||that had set sail from New York,|New Yorkから出航した、||spotted another ship drifting|別の船が漂流しているのを発見した||in the Atlantic Ocean.|大西洋で。",
+              "spotted"
             ],
             [
               "He sent some of his men to investigate, but they found nobody aboard the Mary Celeste.",
-              "船長は部下を調査に送ったが、メアリー・セレスト号には誰もいなかった。"
+              "船長は部下を調査に送ったが、メアリー・セレスト号には誰もいなかった。",
+              "He sent some of his men to investigate,|彼は部下の一部を調査に送ったが、||but they found nobody aboard|しかし誰も見つけなかった||the Mary Celeste.|Mary Celesteに乗っている。",
+              "sent"
             ],
             [
               "However, the crew's belongings remained, the ship's cargo of industrial alcohol was still present, and there were plentiful supplies of food and water.",
-              "しかし乗組員の私物は残されており、工業用アルコールの積荷もそのままで、食料と水の供給も豊富だった。"
+              "しかし乗組員の私物は残されており、工業用アルコールの積荷もそのままで、食料と水の供給も豊富だった。",
+              "However,|しかし、||the crew's belongings remained,|乗組員の持ち物は残っており、||the ship's cargo of industrial alcohol|船の工業用アルコールの積荷は||was still present,|まだ存在し、||and there were plentiful supplies|豊富な供給があった||of food and water.|食料と水の。",
+              "remained"
             ],
             [
               "Hoping to gain a financial reward for salvaging the deserted ship, the Dei Gratia's crew sailed the Mary Celeste to Gibraltar and handed it over to British authorities there.",
-              "無人の船を引き揚げて報酬を得ることを期待して、デイ・グラティア号の乗組員はメアリー・セレスト号をジブラルタルまで航行し、イギリス当局に引き渡した。"
+              "無人の船を引き揚げて報酬を得ることを期待して、デイ・グラティア号の乗組員はメアリー・セレスト号をジブラルタルまで航行し、イギリス当局に引き渡した。",
+              "Hoping to gain a financial reward|経済的報酬を得ることを望み||for salvaging the deserted ship,|放棄された船を引き揚げたことへの、||the Dei Gratia's crew sailed|Dei Gratiaの乗組員はMary Celesteを航行させ||the Mary Celeste to Gibraltar|Gibraltarまで||and handed it over to British authorities there.|そこの英国当局に引き渡した。",
+              "sailed"
             ],
             [
               "One popular theory was that the ship was attacked by pirates, who murdered the crew and threw them overboard.",
-              "一つの有力な説は、船が海賊に襲われ、乗組員が殺されて海に投げ込まれたというものだ。"
+              "一つの有力な説は、船が海賊に襲われ、乗組員が殺されて海に投げ込まれたというものだ。",
+              "One popular theory was|有力な説の一つは||that the ship was attacked by pirates,|船が海賊に襲われたというもので、||who murdered the crew|乗組員を殺し||and threw them overboard.|船外に投げ捨てた。",
+              "was"
             ],
             [
               "This was rejected, however, since pirates generally stayed away from the area because British naval ships often patrolled there.",
-              "しかしイギリス海軍の船がその海域を頻繁に巡回していたため、海賊は一般的にその地域を避けていたことから、この説は否定された。"
+              "しかしイギリス海軍の船がその海域を頻繁に巡回していたため、海賊は一般的にその地域を避けていたことから、この説は否定された。",
+              "This was rejected, however,|しかしこれは否定された、||since pirates generally stayed away from the area|海賊は概してその地域を避けたから||because British naval ships often patrolled there.|英国海軍の船がしばしば巡回していたから。",
+              "was rejected"
             ],
             [
               "Furthermore, the ship's cargo had not been stolen.",
-              "さらに船の積荷は盗まれていなかった。"
+              "さらに船の積荷は盗まれていなかった。",
+              "Furthermore,|さらに、||the ship's cargo had not been stolen.|船の積荷は盗まれていなかった。",
+              "had been stolen"
             ],
             [
               "She also found evidence that the ship's water pump had become blocked and its chronometer, which was a vital piece of navigational equipment, had been faulty.",
-              "彼女はまた、船の水ポンプが詰まり、重要な航海機器であるクロノメーターが故障していた証拠を発見した。"
+              "彼女はまた、船の水ポンプが詰まり、重要な航海機器であるクロノメーターが故障していた証拠を発見した。",
+              "She also found evidence|彼女はまた証拠を見つけた||that the ship's water pump had become blocked|船の水ポンプが詰まっていたことと||and its chronometer,|クロノメーターが、||which was a vital piece of navigational equipment,|重要な航海装備であった、||had been faulty.|故障していたことの。",
+              "found"
             ],
             [
               "MacGregor thinks that these issues, combined with the fact that the Mary Celeste had experienced rough seas the day before, would have been enough to make the captain resort to sacrificing the ship in order to ensure his crew's safety.",
-              "マクレガーは、これらの問題が、前日にメアリー・セレスト号が荒海を経験した事実と合わさり、船長が乗組員の安全を確保するために船を犠牲にする決断をするのに十分だったと考えている。"
+              "マクレガーは、これらの問題が、前日にメアリー・セレスト号が荒海を経験した事実と合わさり、船長が乗組員の安全を確保するために船を犠牲にする決断をするのに十分だったと考えている。",
+              "MacGregor thinks|MacGregorは考える||that these issues,|これらの問題が、||combined with the fact|〜の事実と組み合わさり||that the Mary Celeste had experienced rough seas|Mary Celesteが荒海を経験したという||the day before,|前日に、||would have been enough|十分だっただろうと||to make the captain resort to sacrificing the ship|船長に船を犠牲にすることを余儀なくさせるのに||in order to ensure his crew's safety.|乗組員の安全を確保するために。",
+              "thinks"
             ],
             [
               "The question of why the crew never made it to Santa Maria remains unanswered, however.",
-              "しかし、乗組員がなぜサンタマリア島にたどり着けなかったかという疑問は未解決のままだ。"
+              "しかし、乗組員がなぜサンタマリア島にたどり着けなかったかという疑問は未解決のままだ。",
+              "The question of why the crew|乗組員がなぜ||never made it to Santa Maria|Santa Mariaにたどり着けなかったかという疑問は||remains unanswered, however.|しかし未解決のままだ。",
+              "remains"
             ]
           ],
           "questions": [
@@ -1928,43 +1982,63 @@
           "sentencePairs": [
             [
               "While revenge is a phenomenon found in cultures around the globe, this dark human instinct is still not fully understood.",
-              "復讐は世界中の文化に見られる現象だが、この人間の暗い本能はまだ完全には理解されていない。"
+              "復讐は世界中の文化に見られる現象だが、この人間の暗い本能はまだ完全には理解されていない。",
+              "While revenge is a phenomenon|復讐は現象であるが||found in cultures around the globe,|世界中の文化に見られる、||this dark human instinct|この暗い人間の本能は||is still not fully understood.|まだ完全には理解されていない。",
+              "is understood"
             ],
             [
               "One famous psychological theory of the past viewed it as a way to release the buildup of rage or hatred that occurs in situations where a person feels victimized, just as releasing steam can decrease pressure in a steam engine.",
-              "過去の有名な心理学理論は、蒸気機関で蒸気を放出すると圧力が下がるように、被害を受けたと感じる状況で蓄積する怒りや憎しみを解放する方法として復讐を捉えていた。"
+              "過去の有名な心理学理論は、蒸気機関で蒸気を放出すると圧力が下がるように、被害を受けたと感じる状況で蓄積する怒りや憎しみを解放する方法として復讐を捉えていた。",
+              "One famous psychological theory of the past|過去の有名な心理学理論の一つは||viewed it as a way|それを方法と見なした||to release the buildup of rage or hatred|怒りや憎しみの蓄積を解放する||that occurs in situations|状況で起こる||where a person feels victimized,|人が被害を受けたと感じる、||just as releasing steam can decrease pressure|蒸気を放出すると圧力を下げられるように||in a steam engine.|蒸気機関の。",
+              "viewed"
             ],
             [
               "Psychological studies, however, have revealed that aggressive acts associated with revenge can actually leave people with increased levels of anger compared with those who do not attempt to get even.",
-              "しかし心理学の研究は、復讐に関連する攻撃的な行為が、報復しない人と比べて実際には怒りのレベルを高めうることを明らかにした。"
+              "しかし心理学の研究は、復讐に関連する攻撃的な行為が、報復しない人と比べて実際には怒りのレベルを高めうることを明らかにした。",
+              "Psychological studies, however,|しかし心理学の研究は、||have revealed|明らかにした||that aggressive acts associated with revenge|復讐に関連する攻撃的な行為が||can actually leave people|実際に人々を残す可能性があると||with increased levels of anger|怒りのレベルが増した状態に||compared with those who do not attempt to get even.|仕返しを試みない人々と比較して。",
+              "have revealed"
             ],
             [
               "Revenge seems to be common in various animal species, and our close relatives, chimpanzees, frequently retaliate against aggression.",
-              "復讐はさまざまな動物種に共通しているようで、人間の近縁種であるチンパンジーは攻撃に対して頻繁に報復する。"
+              "復讐はさまざまな動物種に共通しているようで、人間の近縁種であるチンパンジーは攻撃に対して頻繁に報復する。",
+              "Revenge seems to be common|復讐は一般的であるようだ||in various animal species,|様々な動物種で、||and our close relatives, chimpanzees,|そして私たちの近縁種であるチンパンジーは、||frequently retaliate against aggression.|しばしば攻撃に対して報復する。",
+              "seems"
             ],
             [
               "an instinct for getting even would have proved beneficial in discouraging others from harming them.",
-              "報復の本能は他者が自分を傷つけることを思いとどまらせるのに有益だったはずだ。"
+              "報復の本能は他者が自分を傷つけることを思いとどまらせるのに有益だったはずだ。",
+              "an instinct for getting even|仕返しの本能は||would have proved beneficial|有益であると証明されただろう||in discouraging others from harming them.|他者が彼らを傷つけることを思いとどまらせることに。",
+              "would have proved"
             ],
             [
               "Researchers have found that revenge tends to occur more frequently in societies where institutions for enforcing laws are less developed.",
-              "研究者は、法を執行する機関が未発達な社会ほど復讐が頻繁に起こる傾向があることを発見した。"
+              "研究者は、法を執行する機関が未発達な社会ほど復讐が頻繁に起こる傾向があることを発見した。",
+              "Researchers have found|研究者は発見した||that revenge tends to occur more frequently|復讐はより頻繁に起こる傾向があると||in societies where institutions|制度が〜である社会で||for enforcing laws are less developed.|法を執行するための整備が進んでいない。",
+              "have found"
             ],
             [
               "low-income neighborhoods in the United States often suffer from a lack of law enforcement, and there is a greater tendency for their residents to retaliate when they are victims of crime.",
-              "アメリカの低所得地域は法執行の不足に悩まされることが多く、犯罪の被害者になったとき住民が報復する傾向が高い。"
+              "アメリカの低所得地域は法執行の不足に悩まされることが多く、犯罪の被害者になったとき住民が報復する傾向が高い。",
+              "low-income neighborhoods in the United States|アメリカの低所得地域は||often suffer from a lack of law enforcement,|法執行の欠如にしばしば苦しんでおり、||and there is a greater tendency|そしてより大きな傾向がある||for their residents to retaliate|住民が報復する||when they are victims of crime.|犯罪の被害者である時に。",
+              "suffer"
             ],
             [
               "revenge may also send a message that affects the behavior of everyone in the society by making it clear that certain types of actions will not be tolerated.",
-              "復讐はまた、特定の種類の行動は許されないということを明確にすることで、社会の全員の行動に影響を与えるメッセージを送ることもできる。"
+              "復讐はまた、特定の種類の行動は許されないということを明確にすることで、社会の全員の行動に影響を与えるメッセージを送ることもできる。",
+              "revenge may also send a message|復讐はまたメッセージを送るかもしれない||that affects the behavior of everyone|全員の行動に影響する||in the society|社会の中の||by making it clear|明確にすることで||that certain types of actions will not be tolerated.|特定の種類の行為は許容されないと。",
+              "may send"
             ],
             [
               "The potential for such retaliation can contribute to a team's overall motivation in practices.",
-              "そのような報復の可能性は、チーム全体の練習のモチベーションに貢献しうる。"
+              "そのような報復の可能性は、チーム全体の練習のモチベーションに貢献しうる。",
+              "The potential for such retaliation|そのような報復の可能性は||can contribute to a team's overall motivation|チーム全体のモチベーションに貢献できる||in practices.|練習において。",
+              "can contribute"
             ],
             [
               "It is, therefore, possible that revenge developed because it can have a positive impact on the members of a group or society, reinforcing behaviors that contribute positively to its overall success.",
-              "したがって復讐は、グループや社会のメンバーにプラスの影響を与え、全体的な成功に積極的に貢献する行動を強化できるために発達した可能性がある。"
+              "したがって復讐は、グループや社会のメンバーにプラスの影響を与え、全体的な成功に積極的に貢献する行動を強化できるために発達した可能性がある。",
+              "It is, therefore, possible|したがって可能性がある||that revenge developed|復讐が発達したのは||because it can have a positive impact|ポジティブな影響を与え得るからだと||on the members of a group or society,|グループや社会のメンバーに、||reinforcing behaviors|行動を強化しながら||that contribute positively to its overall success.|全体的な成功にポジティブに貢献する。",
+              "is"
             ]
           ],
           "questions": [

@@ -1631,7 +1631,9 @@
           "sentencePairs": [
             [
               "The number of documentaries being made has skyrocketed",
-              "制作されるドキュメンタリーの数は急増した"
+              "制作されるドキュメンタリーの数は急増した",
+              "documentaries were broadcast|ドキュメンタリーは放送された||only on public television|公共テレビでのみ。",
+              "were broadcast"
             ],
             [
               "many filmmakers feel they are ( 26 )",
@@ -1639,7 +1641,9 @@
             ],
             [
               "the line between factual information and entertainment has become blurred",
-              "事実情報と娯楽の境界線が曖昧になった"
+              "事実情報と娯楽の境界線が曖昧になった",
+              "they do not always present information|常に情報を提示するとは限らない||in an unbiased manner|偏りのない方法で。",
+              "do present"
             ],
             [
               "concerns regarding the ( 27 ) documentaries",
@@ -1647,7 +1651,9 @@
             ],
             [
               "noncelebrities are also starting to demand compensation",
-              "一般人も補償を要求し始めている"
+              "一般人も補償を要求し始めている",
+              "these streaming services|これらのストリーミングサービスは||help filmmakers promote their work|映画製作者が作品を宣伝するのを助ける。",
+              "help"
             ],
             [
               "( 28 ), noncelebrities are also starting to demand compensation",
@@ -1748,28 +1754,88 @@
           ],
           "sentencePairs": [
             [
-              "This usually involves a bird picking up some ants with its beak and rubbing them on its feathers",
-              "通常、鳥がくちばしで蟻を拾い上げ羽に擦りつけることを含む"
+              "The field of ethology involves studying animals in their natural habitats to understand their behavior.",
+              "",
+              "The field of ethology involves|動物行動学の分野は含む||studying animals in their natural habitats|動物を自然の生息地で研究することを||to understand their behavior.|彼らの行動を理解するために。",
+              "involves"
             ],
             [
-              "( 29 ), birds have even been observed sitting on anthills",
-              "( 29 )、鳥が蟻塚の上に座るのが観察された"
+              "Drawing conclusions about the reasons behind what animals do, however, is not always easy.",
+              "",
+              "Drawing conclusions about the reasons|理由についての結論を導くことは||behind what animals do, however,|動物が行うことの背後の、しかし、||is not always easy.|常に容易ではない。",
+              "is"
             ],
             [
-              "One popular theory is that ( 30 )",
-              "一つの有力な理論は( 30 )だ"
+              "Certain birds, for example, display a behavior called \"anting.\" This usually involves a bird picking up some ants with its beak and rubbing them on its feathers.",
+              "通常、鳥がくちばしで蟻を拾い上げ羽に擦りつけることを含む",
+              "",
+              ""
             ],
             [
-              "this substance is rubbed onto a bird's feathers, it could help inhibit disease",
-              "この物質を羽に擦りつけると病気を抑制する可能性がある"
+              "( 29 ), birds have even been observed sitting on anthills with their wings spread out and allowing ants to crawl all over their bodies.",
+              "( 29 )、鳥が蟻塚の上に座るのが観察された",
+              "",
+              ""
             ],
             [
-              "rubbing ants on a bird's feathers ( 31 )",
-              "蟻を羽に擦りつけることが( 31 )"
+              "Despite extensive observation, ethologists remain unsure why birds engage in this behavior.",
+              "",
+              "Despite extensive observation,|広範な観察にもかかわらず、||ethologists remain unsure|動物行動学者は確信が持てないまま||why birds engage in this behavior.|鳥がなぜこの行動をするのか。",
+              "remain"
             ],
             [
-              "Anting may cause ants to release their formic acid",
-              "アンティングは蟻にギ酸を放出させる可能性がある"
+              "One popular theory is that ( 30 ).",
+              "一つの有力な理論は( 30 )だ",
+              "",
+              ""
+            ],
+            [
+              "Ants naturally produce a substance called formic acid that protects them against bacteria and fungi, and which is also toxic to other insects.",
+              "",
+              "Ants naturally produce a substance|アリは自然に物質を産生する||called formic acid|蟻酸と呼ばれる||that protects them against bacteria and fungi,|細菌と菌類から身を守る、||and which is also toxic to other insects.|そして他の昆虫にも毒性がある。",
+              "produce"
+            ],
+            [
+              "If this substance is rubbed onto a bird's feathers, it could help inhibit disease and deter harmful pests.",
+              "この物質を羽に擦りつけると病気を抑制する可能性がある",
+              "If this substance is rubbed onto a bird's feathers,|もしこの物質が鳥の羽に擦り付けられたら、||it could help inhibit disease|病気を抑制するのを助け得る||and deter harmful pests.|有害な害虫を防ぎ得る。",
+              "could help"
+            ],
+            [
+              "While birds commonly use ants, some have been seen picking up certain beetles and millipedes instead.",
+              "",
+              "While birds commonly use ants,|鳥は一般的にアリを使うが、||some have been seen picking up|一部は拾い上げるのが見られた||certain beetles and millipedes instead.|代わりに特定の甲虫やヤスデを。",
+              "have been seen"
+            ],
+            [
+              "The fact that these organisms also produce chemicals that keep harmful pests away provides support for this theory.",
+              "",
+              "The fact that these organisms also produce chemicals|これらの生物もまた化学物質を産生するという事実は||that keep harmful pests away|有害な害虫を寄せ付けない||provides support for this theory.|この理論を支持する。",
+              "provides"
+            ],
+            [
+              "Another proposed idea is that rubbing ants on a bird's feathers ( 31 ).",
+              "蟻を羽に擦りつけることが( 31 )",
+              "",
+              ""
+            ],
+            [
+              "In an experiment, scientists discovered that some birds were more likely to consume ants that had their formic acid removed by the scientists than ants that retained the chemical.",
+              "",
+              "In an experiment,|実験で、||scientists discovered|科学者は発見した||that some birds were more likely to consume ants|一部の鳥がアリを食べる可能性が高かったと||that had their formic acid removed by the scientists|科学者に蟻酸を除去された||than ants that retained the chemical.|化学物質を保持したアリより。",
+              "discovered"
+            ],
+            [
+              "The formic acid is stored in a sac located next to an ant's nutrient-rich abdomen.",
+              "",
+              "The formic acid is stored in a sac|蟻酸は嚢に蓄えられている||located next to an ant's nutrient-rich abdomen.|アリの栄養豊富な腹部の隣に位置する。",
+              "is stored"
+            ],
+            [
+              "Anting, some scientists suspect, may cause ants to release their formic acid without birds having to try to remove the sacs with their beaks — a process that could damage the area of ants that makes them such an appealing snack.",
+              "",
+              "Anting, some scientists suspect,|アンティングは、一部の科学者は疑うが、||may cause ants to release their formic acid|アリに蟻酸を放出させるかもしれない||without birds having to try|鳥が試みる必要なく||to remove the sacs with their beaks—|嘴で嚢を除去することを—||a process that could damage|損傷する可能性のある過程||the area of ants that makes them|アリの部分を||such an appealing snack.|魅力的なおやつにする。",
+              "may cause"
             ]
           ],
           "questions": [
@@ -1875,23 +1941,33 @@
           "sentencePairs": [
             [
               "landowners also turned to another strategy: building colleges",
-              "地主は別の戦略にも頼った：大学の建設"
+              "地主は別の戦略にも頼った：大学の建設",
+              "landowners also turned to another strategy:|地主はまた別の戦略に転じた：||building colleges|大学を建設すること。",
+              "turned"
             ],
             [
               "colleges were centers of culture and learning",
-              "大学は文化と学問の中心だった"
+              "大学は文化と学問の中心だった",
+              "colleges were centers|大学は中心地だった||of culture and learning|文化と学問の。",
+              "were"
             ],
             [
               "faculty members were often religious men",
-              "教員は宗教家であることが多かった"
+              "教員は宗教家であることが多かった",
+              "faculty members were often religious men|教員はしばしば宗教的な男性だった。",
+              "were"
             ],
             [
               "they had survived was by being sensitive to students' needs",
-              "学生のニーズに敏感であることで生き残った"
+              "学生のニーズに敏感であることで生き残った",
+              "they had survived was|生き残ったのは||by being sensitive to students' needs|学生のニーズに敏感であることによって。",
+              "had survived"
             ],
             [
               "maintaining close ties with their graduates",
-              "卒業生との密接な関係を維持する"
+              "卒業生との密接な関係を維持する",
+              "maintaining close ties with their graduates|卒業生と密接な関係を維持すること。",
+              "maintaining"
             ]
           ],
           "questions": [
@@ -1993,28 +2069,112 @@
           ],
           "sentencePairs": [
             [
-              "Oppy's mission was supposed to last 90 days, but continued for 15 years",
-              "ミッションは90日の予定だったが15年続いた"
+              "In 2004, NASA's exploration rover Opportunity landed on Mars.",
+              "",
+              "In 2004,|2004年に、||NASA's exploration rover Opportunity|NASAの探査ローバーOpportunityが||landed on Mars.|Marsに着陸した。",
+              "landed"
             ],
             [
-              "people became so attached to Oppy",
-              "人々はオッピーに深く愛着を持った"
+              "The golf-cart-sized rover, which was nicknamed \"Oppy,\" was sent to survey the planet and capture images of its surface.",
+              "",
+              "The golf-cart-sized rover,|ゴルフカートサイズのローバーは、||which was nicknamed \"Oppy,\"|「Oppy」と呼ばれた、||was sent to survey the planet|惑星を調査するために送られ||and capture images of its surface.|その表面の画像を捉えるために。",
+              "was sent"
             ],
             [
-              "anthropomorphism is something humans do naturally",
-              "擬人化は人間が自然に行うもの"
+              "Oppy's mission was supposed to last 90 days, but the rover continued to beam pictures and data back to Earth for the next 15 years.",
+              "",
+              "Oppy's mission was supposed to last 90 days,|Oppyのミッションは90日間の予定だったが、||but the rover continued to beam pictures and data|ローバーは写真とデータを送り続けた||back to Earth for the next 15 years.|次の15年間地球に。",
+              "continued"
             ],
             [
-              "NASA appears to have utilized this phenomenon to its advantage",
-              "NASAはこの現象を利用したようだ"
+              "During that time, it captured the public's imagination.",
+              "",
+              "During that time,|その間に、||it captured the public's imagination.|大衆の想像力を捉えた。",
+              "captured"
             ],
             [
-              "giving Oppy human characteristics was an effective strategy",
-              "オッピーに人間的特性を与えることは効果的な戦略だった"
+              "In fact, people became so attached to Oppy that when it ceased to function, they sent messages of condolence over social media similar to those intended for a deceased person.",
+              "人々はオッピーに深く愛着を持った",
+              "In fact,|実際、||people became so attached to Oppy|人々はOppyに非常に愛着を持ち||that when it ceased to function,|機能を停止した時、||they sent messages of condolence over social media|ソーシャルメディアでお悔やみのメッセージを送った||similar to those intended for a deceased person.|亡くなった人へ向けたものと同様の。",
+              "became"
             ],
             [
-              "Assuming AI works in the same way as the human brain may lead to unrealistic expectations",
-              "AIが人脳と同様に機能すると仮定すると非現実的な期待につながる"
+              "The act of giving human traits to nonhuman things, which is known as anthropomorphism, is something humans do naturally, even at a young age.",
+              "",
+              "The act of giving human traits to nonhuman things,|人間以外のものに人間の特性を付与する行為は、||which is known as anthropomorphism,|擬人化として知られる、||is something humans do naturally,|人間が自然に行うことで、||even at a young age.|幼い年齢でさえ。",
+              "is"
+            ],
+            [
+              "It is not unusual, for example, for people of all ages to form emotional attachments to objects such as toys, cars, and homes.",
+              "",
+              "It is not unusual, for example,|例えば珍しくない、||for people of all ages|あらゆる年齢の人々が||to form emotional attachments to objects|物への感情的な愛着を形成することは||such as toys, cars, and homes.|おもちゃ、車、家のような。",
+              "is"
+            ],
+            [
+              "Even the engineers, who frequently referred to Oppy as \"she\" or thought of it as a child, were not immune to this tendency.",
+              "",
+              "Even the engineers,|技術者でさえも、||who frequently referred to Oppy as \"she\"|Oppyを「彼女」と呼んだ||or thought of it as a child,|子どもだと考えた、||were not immune to this tendency.|この傾向に免疫がなかった。",
+              "were"
+            ],
+            [
+              "One effect of projecting human qualities onto a nonliving object seems to be that this makes people feel protective of it and brings out concern for its well-being.",
+              "",
+              "One effect of projecting human qualities|人間の性質を投影する一つの効果は||onto a nonliving object|生命のない物体に||seems to be|〜のようだ||that this makes people feel protective of it|人々がそれを守りたくさせ||and brings out concern for its well-being.|幸福への関心を引き出すことだ。",
+              "seems"
+            ],
+            [
+              "NASA appears to have utilized this phenomenon to its advantage by deliberately making Oppy seem more human, designing it with eyelike camera lenses in a headlike structure that extended from its body.",
+              "NASAはこの現象を利用したようだ",
+              "",
+              ""
+            ],
+            [
+              "Prior to the Opportunity mission, well-publicized failures had weakened public confidence in NASA, and the agency's funding had been reduced.",
+              "",
+              "Prior to the Opportunity mission,|Opportunityミッション以前に、||well-publicized failures had weakened|よく報道された失敗がNASAへの||public confidence in NASA,|国民の信頼を弱めていた、||and the agency's funding had been reduced.|そして機関の資金は削減されていた。",
+              "had weakened"
+            ],
+            [
+              "It has been suggested that giving Oppy human characteristics was an effective strategy to win over the public and perhaps even attract additional funding for NASA's mission.",
+              "オッピーに人間的特性を与えることは効果的な戦略だった",
+              "It has been suggested|示唆されている||that giving Oppy human characteristics|Oppyに人間の特徴を与えることは||was an effective strategy to win over the public|国民を味方にする効果的な戦略だったと||and perhaps even attract additional funding|そしておそらく追加の資金も集めると||for NASA's mission.|NASAのミッションのための。",
+              "has been suggested"
+            ],
+            [
+              "While thinking of Oppy as a human may seem harmless, there can be unfortunate consequences to anthropomorphizing objects.",
+              "",
+              "While thinking of Oppy as a human may seem harmless,|Oppyを人間として考えることは無害に思えるが、||there can be unfortunate consequences|残念な結果がある可能性がある||to anthropomorphizing objects.|物を擬人化することには。",
+              "can be"
+            ],
+            [
+              "Assuming AI works in the same way as the human brain, for example, may lead to unrealistic expectations of its capabilities, causing it to be used in situations where it is unable to provide significant benefits.",
+              "",
+              "Assuming AI works in the same way|AIが同じ方法で機能すると仮定することは||as the human brain, for example,|例えば人間の脳と、||may lead to unrealistic expectations|非現実的な期待につながるかもしれない||of its capabilities,|その能力への、||causing it to be used in situations|それが使われる原因となる状況で||where it is unable to provide significant benefits.|大きな利益を提供できない。",
+              "may lead"
+            ],
+            [
+              "Anthropomorphism can also make people apprehensive of nightmare scenarios, such as AI and machines rising up in rebellion against humans.",
+              "",
+              "Anthropomorphism can also make people apprehensive|擬人化はまた人々を不安にさせ得る||of nightmare scenarios,|悪夢のシナリオへの、||such as AI and machines rising up|AIや機械が立ち上がるような||in rebellion against humans.|人間に対する反乱で。",
+              "can make"
+            ],
+            [
+              "This idea of machines as a threat arises from the misunderstanding that they reason in the same way as humans do.",
+              "",
+              "This idea of machines as a threat|機械を脅威とするこの考えは||arises from the misunderstanding|誤解から生じる||that they reason in the same way as humans do.|機械が人間と同じ方法で推論するという。",
+              "arises"
+            ],
+            [
+              "It appears, however, that people cannot help themselves from anthropomorphizing.",
+              "",
+              "It appears, however,|しかし〜のようだ、||that people cannot help themselves|人々は自分を止められないと||from anthropomorphizing.|擬人化することから。",
+              "appears"
+            ],
+            [
+              "As journalist Scott Simon writes, \"if you spend a lot of time with a mechanism — talk to it, wait to hear from it and worry about it — even scientists begin to see personality in machinery.\"",
+              "",
+              "As journalist Scott Simon writes,|ジャーナリストScott Simonが書くように、||\"if you spend a lot of time with a mechanism—|「もし機構と多くの時間を過ごせば—||talk to it, wait to hear from it|それに話しかけ、返事を待ち||and worry about it—|心配すれば—||even scientists begin to see personality in machinery.\"|科学者でさえ機械に人格を見始める。」",
+              "writes"
             ]
           ],
           "questions": [
@@ -2119,28 +2279,124 @@
           ],
           "sentencePairs": [
             [
-              "the Roman army was no longer able to meet the needs of the rapidly expanding republic",
-              "ローマ軍は急速に拡大する共和国のニーズに対応できなくなった"
+              "Around the end of the second century BC, the Roman Republic faced the threat of an invasion by tribal peoples from Western Europe and experienced a series of humiliating defeats in Africa.",
+              "",
+              "Around the end of the second century BC,|紀元前2世紀末頃、||the Roman Republic faced the threat|ローマ共和国は脅威に直面した||of an invasion by tribal peoples from Western Europe|西ヨーロッパの部族民の侵略の||and experienced a series of humiliating defeats|そして屈辱的な敗北を経験した||in Africa.|アフリカで。",
+              "faced"
             ],
             [
-              "property ownership was required for entry into the army",
-              "入隊には財産所有が求められた"
+              "Realizing that the Roman army was no longer able to meet the needs of the rapidly expanding republic, the Roman leader Gaius Marius set about implementing sweeping reforms.",
+              "ローマ軍は急速に拡大する共和国のニーズに対応できなくなった",
+              "Realizing that the Roman army|ローマ軍が||was no longer able to meet the needs|もはやニーズを満たせないと気づき||of the rapidly expanding republic,|急速に拡大する共和国の、||the Roman leader Gaius Marius|ローマの指導者Gaius Mariusは||set about implementing sweeping reforms.|大規模な改革を実施し始めた。",
+              "set"
             ],
             [
-              "any soldier who served for 16 years was compensated with a plot of farmland and full Roman citizenship",
-              "16年服務した兵士には農地と市民権が補償された"
+              "These became known as the Marian reforms, and they transformed the Roman army into a nearly unstoppable military machine that was arguably the most effective fighting force in ancient times.",
+              "",
+              "These became known as the Marian reforms,|これらはMarian改革として知られるようになり、||and they transformed the Roman army|ローマ軍を変えた||into a nearly unstoppable military machine|ほぼ止められない軍事機械に||that was arguably the most effective fighting force|おそらく最も効果的な戦闘力であった||in ancient times.|古代において。",
+              "became"
             ],
             [
-              "veterans were instrumental in spreading Roman culture",
-              "退役兵はローマ文化の普及に重要な役割を果たした"
+              "Traditionally, enlistment of soldiers into the Roman army had been on a temporary basis, which necessitated constant recruitment and inevitably led to new recruits often having no previous fighting experience.",
+              "",
+              "Traditionally,|伝統的に、||enlistment of soldiers into the Roman army|ローマ軍への兵士の入隊は||had been on a temporary basis,|一時的な基盤であり、||which necessitated constant recruitment|常に新兵募集を必要とし||and inevitably led to new recruits|必然的に新兵を||often having no previous fighting experience.|戦闘経験のないことにつながった。",
+              "had been"
             ],
             [
-              "legionaries developed an intense loyalty to their generals",
-              "軍団兵は将軍への強い忠誠心を育んだ"
+              "Furthermore, property ownership was required for entry into the army, and increasing poverty within the Roman Republic severely reduced the pool of potential recruits who could meet this requirement.",
+              "入隊には財産所有が求められた",
+              "Furthermore,|さらに、||property ownership was required for entry into the army,|軍への入隊には財産所有が必要で、||and increasing poverty within the Roman Republic|ローマ共和国内の増大する貧困が||severely reduced the pool of potential recruits|潜在的な新兵のプールを大幅に減少させた||who could meet this requirement.|この要件を満たせる。",
+              "was required"
             ],
             [
-              "Julius Caesar successfully used the army to overthrow the elected government",
-              "カエサルは軍を使って選挙政府を転覆した"
+              "The Marian reforms consisted of several measures, including the removal of both property requirements and the need for recruits to prepare their own weapons and armor.",
+              "",
+              "The Marian reforms consisted of several measures,|Marian改革はいくつかの措置で構成され、||including the removal of both property requirements|財産要件の撤廃と||and the need for recruits|新兵が||to prepare their own weapons and armor.|自分の武器と鎧を準備する必要性の両方の。",
+              "consisted"
+            ],
+            [
+              "This allowed even the poorest citizens to enlist and led to better-equipped soldiers because the army could standardize and improve the weapons and armor used.",
+              "",
+              "This allowed even the poorest citizens to enlist|これは最も貧しい市民でも入隊することを可能にし||and led to better-equipped soldiers|より良く装備された兵士につながった||because the army could standardize and improve|軍が標準化し改善できたから||the weapons and armor used.|使用される武器と鎧を。",
+              "allowed"
+            ],
+            [
+              "Soldiers in the army became known as \"legionaries,\" and they were trained in military strategy.",
+              "",
+              "Soldiers in the army became known as \"legionaries,\"|軍の兵士は「軍団兵」として知られるようになり、||and they were trained in military strategy.|軍事戦略を訓練された。",
+              "became"
+            ],
+            [
+              "Perhaps most importantly, the reforms provided a crucial incentive for enlistment — any soldier who served for 16 years was compensated with a plot of farmland and full Roman citizenship.",
+              "16年服務した兵士には農地と市民権が補償された",
+              "Perhaps most importantly,|おそらく最も重要なことに、||the reforms provided a crucial incentive for enlistment—|改革は入隊への重要な動機を提供した—||any soldier who served for 16 years|16年間勤務した兵士は||was compensated with a plot of farmland|農地の区画で報われ||and full Roman citizenship.|完全なローマ市民権を得た。",
+              "provided"
+            ],
+            [
+              "The rapid expansion of the Roman Republic meant there were many noncitizen inhabitants who lived in poverty and for whom an opportunity to escape their situation was hugely appealing.",
+              "",
+              "The rapid expansion of the Roman Republic|ローマ共和国の急速な拡大は||meant there were many noncitizen inhabitants|多くの非市民の住民がいたことを意味し||who lived in poverty|貧困の中で暮らしていた||and for whom an opportunity to escape their situation|自分の状況から逃れる機会が||was hugely appealing.|非常に魅力的だった。",
+              "meant"
+            ],
+            [
+              "The Roman army's better-trained and more highly motivated soldiers led to it achieving significant military triumphs that contributed to Rome's expansion.",
+              "",
+              "The Roman army's better-trained|ローマ軍のより良く訓練され||and more highly motivated soldiers|より高い意欲を持った兵士は||led to it achieving significant military triumphs|重要な軍事的勝利の達成につながり||that contributed to Rome's expansion.|Romeの拡大に貢献した。",
+              "led"
+            ],
+            [
+              "The land that former legionaries received was generally in newly conquered provinces, so these veterans were instrumental in spreading Roman culture.",
+              "退役兵はローマ文化の普及に重要な役割を果たした",
+              "The land that former legionaries received|元軍団兵が受け取った土地は||was generally in newly conquered provinces,|一般的に新たに征服された州にあり、||so these veterans were instrumental|これらの退役軍人は重要な役割を果たした||in spreading Roman culture.|ローマ文化の普及に。",
+              "was"
+            ],
+            [
+              "Their presence also made it easier to overcome local resistance to Roman rule and facilitated the process of integration into the Roman Republic.",
+              "",
+              "Their presence also made it easier|彼らの存在はまた容易にした||to overcome local resistance to Roman rule|ローマの支配への地元の抵抗を克服することを||and facilitated the process of integration|統合の過程を促進した||into the Roman Republic.|ローマ共和国への。",
+              "made"
+            ],
+            [
+              "The mere presence of the veterans brought greater security to new territories, since they could assist in preventing rebellions and resisting invasions.",
+              "",
+              "The mere presence of the veterans|退役軍人の単なる存在が||brought greater security to new territories,|新しい領土により大きな安全をもたらした、||since they could assist in preventing rebellions|反乱の防止と||and resisting invasions.|侵略への抵抗を助けられたため。",
+              "brought"
+            ],
+            [
+              "While the Marian reforms greatly improved the Roman army, they also had an unexpected impact on Roman society that eventually led to the downfall of the republic.",
+              "",
+              "While the Marian reforms greatly improved the Roman army,|Marian改革はローマ軍を大きく改善したが、||they also had an unexpected impact|予期しない影響も与えた||on Roman society|ローマ社会に||that eventually led to the downfall of the republic.|最終的に共和国の崩壊につながった。",
+              "improved"
+            ],
+            [
+              "When the army was composed mostly of wealthy citizens enlisted on an as-needed basis, it had little influence on Roman politics.",
+              "",
+              "When the army was composed mostly of wealthy citizens|軍が主に裕福な市民で構成され||enlisted on an as-needed basis,|必要に応じて入隊した時、||it had little influence on Roman politics.|ローマの政治にほとんど影響がなかった。",
+              "was composed"
+            ],
+            [
+              "Following the Marian reforms, however, legionaries in the army became highly disciplined and developed an intense loyalty to their generals.",
+              "",
+              "Following the Marian reforms, however,|しかしMarian改革後、||legionaries in the army became highly disciplined|軍の軍団兵は非常に規律正しくなり||and developed an intense loyalty to their generals.|将軍への強い忠誠心を発達させた。",
+              "became"
+            ],
+            [
+              "In consequence, generals found it difficult to resist the temptation to use the forces under their command to gain political influence for themselves rather than to ensure the protection and expansion of the Roman Republic.",
+              "",
+              "In consequence,|その結果、||generals found it difficult to resist the temptation|将軍は誘惑に抵抗するのが難しかった||to use the forces under their command|指揮下の軍隊を使って||to gain political influence for themselves|自身の政治的影響力を得る||rather than to ensure the protection and expansion|保護と拡大を確保するのではなく||of the Roman Republic.|ローマ共和国の。",
+              "found"
+            ],
+            [
+              "This resulted in civil wars, and eventually, Julius Caesar successfully used the army to overthrow the elected government and declare himself the Roman leader.",
+              "カエサルは軍を使って選挙政府を転覆した",
+              "This resulted in civil wars,|これは内戦をもたらし、||and eventually,|最終的に、||Julius Caesar successfully used the army|Julius Caesarは軍を使って成功した||to overthrow the elected government|選挙で選ばれた政府を転覆し||and declare himself the Roman leader.|自らをローマの指導者と宣言するために。",
+              "resulted"
+            ],
+            [
+              "This marked the end of the relatively democratic Roman Republic and paved the way for the creation of a dictatorship ruled by all-powerful emperors.",
+              "",
+              "This marked the end|これは終わりを示した||of the relatively democratic Roman Republic|比較的民主的なローマ共和国の||and paved the way|そして道を開いた||for the creation of a dictatorship|独裁制の創設への||ruled by all-powerful emperors.|全能の皇帝によって支配される。",
+              "marked"
             ]
           ],
           "questions": [

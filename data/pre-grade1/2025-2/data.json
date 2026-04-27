@@ -1498,15 +1498,21 @@
           "sentencePairs": [
             [
               "In 1911, a group of schoolchildren in Wales walked out of their school in protest.",
-              "1911年、ウェールズの児童グループが抗議のために学校を飛び出した。"
+              "1911年、ウェールズの児童グループが抗議のために学校を飛び出した。",
+              "In 1911,|1911年に、||a group of schoolchildren in Wales|Walesの児童のグループが||walked out of their school in protest.|抗議で学校から退出した。",
+              "walked"
             ],
             [
               "They then proceeded to march through the streets of their town, encouraging students from other schools to join them along the way.",
-              "そして町の通りを行進し、途中で他の学校の生徒にも参加を呼びかけた。"
+              "そして町の通りを行進し、途中で他の学校の生徒にも参加を呼びかけた。",
+              "They then proceeded|彼らはそれから進んだ||to march through the streets of their town,|町の通りを行進し、||encouraging students from other schools|他の学校の生徒に促した||to join them along the way.|途中で合流するように。",
+              "proceeded"
             ],
             [
               "The strike ended peacefully on the same day, but news of the incident spread to other towns and cities across the country.",
-              "ストライキは同日中に平和的に終わったが、事件のニュースは国中の他の町や都市に広まった。"
+              "ストライキは同日中に平和的に終わったが、事件のニュースは国中の他の町や都市に広まった。",
+              "The strike ended peacefully|ストライキは平和に終わった||on the same day,|同じ日に、||but news of the incident spread|しかし事件のニュースは広がった||to other towns and cities|他の町や都市に||across the country.|国中の。",
+              "ended"
             ],
             [
               "( 19 ), a series of school strikes occurred across the United Kingdom.",
@@ -1514,11 +1520,15 @@
             ],
             [
               "In the end, schoolchildren from around sixty schools are thought to have participated in similar protests.",
-              "最終的に、約60校の児童が同様の抗議活動に参加したと考えられている。"
+              "最終的に、約60校の児童が同様の抗議活動に参加したと考えられている。",
+              "In the end,|最終的に、||schoolchildren from around sixty schools|約60校の児童が||are thought to have participated|参加したと考えられている||in similar protests.|同様の抗議に。",
+              "are thought"
             ],
             [
               "Reports of the initial strike state that it began because of the unfair punishment of a student at the school.",
-              "最初のストライキに関する報告によると、学校での生徒への不当な罰がきっかけだった。"
+              "最初のストライキに関する報告によると、学校での生徒への不当な罰がきっかけだった。",
+              "Reports of the initial strike state|最初のストライキの報告は述べている||that it began|それは始まったと||because of the unfair punishment|不当な罰のために||of a student at the school.|その学校の生徒への。",
+              "state"
             ],
             [
               "However, some historians suggest the reason ( 20 ).",
@@ -1526,15 +1536,21 @@
             ],
             [
               "The strike followed many months of public unrest in the United Kingdom, during which workers called for improved labor conditions and many industrial strikes occurred.",
-              "ストライキの前には何か月も英国で社会不安が続き、労働者が労働条件の改善を求め、多くの産業ストライキが起きていた。"
+              "ストライキの前には何か月も英国で社会不安が続き、労働者が労働条件の改善を求め、多くの産業ストライキが起きていた。",
+              "The strike followed|ストライキは続いた||many months of public unrest|何ヶ月もの市民の不安の後に||in the United Kingdom,|英国での、||during which workers called for|その間に労働者は求めた||improved labor conditions|改善された労働条件を||and many industrial strikes occurred.|そして多くの産業ストライキが起こった。",
+              "followed"
             ],
             [
               "The schoolchildren would have seen members of their families participate in these protests, which historians believe inspired them to stand up for their own rights as well.",
-              "児童は家族がこれらの抗議に参加するのを見ていたはずで、それが自分たちの権利のためにも立ち上がるきっかけになったと歴史家は考えている。"
+              "児童は家族がこれらの抗議に参加するのを見ていたはずで、それが自分たちの権利のためにも立ち上がるきっかけになったと歴史家は考えている。",
+              "The schoolchildren would have seen|児童たちは見たであろう||members of their families|家族のメンバーが||participate in these protests,|これらの抗議に参加するのを、||which historians believe|歴史家が信じるには||inspired them|それが彼らを鼓舞したと||to stand up for their own rights as well.|自分たちの権利のためにも立ち上がるように。",
+              "would have seen"
             ],
             [
               "School authorities attempted to play down the importance of the school strikes by pointing out that only a small percentage of the national school population participated.",
-              "学校当局は、全国の学校人口のごく一部しか参加していないと指摘して、学校ストライキの重要性を軽視しようとした。"
+              "学校当局は、全国の学校人口のごく一部しか参加していないと指摘して、学校ストライキの重要性を軽視しようとした。",
+              "School authorities attempted|学校当局は試みた||to play down the importance|重要性を軽視しようと||of the school strikes|学校ストライキの||by pointing out|指摘することで||that only a small percentage|ほんのわずかな割合のみ||of the national school population participated.|全国の学校の児童のが参加したと。",
+              "attempted"
             ],
             [
               "While this was true, it ( 21 ) the protests.",
@@ -1542,11 +1558,15 @@
             ],
             [
               "For one thing, they represented one of the first times that schoolchildren in the United Kingdom had felt sufficiently empowered to stand up for their rights.",
-              "一つには、英国の児童が自分の権利を守るために立ち上がるのに十分な力を感じた最初の機会の一つだった。"
+              "一つには、英国の児童が自分の権利を守るために立ち上がるのに十分な力を感じた最初の機会の一つだった。",
+              "For one thing,|一つには、||they represented one of the first times|それらは初めての機会の一つを表した||that schoolchildren in the United Kingdom|英国の児童が||had felt sufficiently empowered|十分な力を感じた||to stand up for their rights.|自分たちの権利のために立ち上がる。",
+              "represented"
             ],
             [
               "The strikes also provided the stimulus for societal reforms that would end up improving child welfare in the United Kingdom.",
-              "ストライキはまた、英国の児童福祉の改善につながる社会改革の刺激にもなった。"
+              "ストライキはまた、英国の児童福祉の改善につながる社会改革の刺激にもなった。",
+              "The strikes also provided the stimulus|ストライキはまた刺激を与えた||for societal reforms|社会改革への||that would end up improving|最終的に改善することになる||child welfare in the United Kingdom.|英国の児童福祉を。",
+              "provided"
             ]
           ],
           "questions": [
@@ -1643,7 +1663,9 @@
           "sentencePairs": [
             [
               "It is said that nearly half of musicians with songs in America's top one hundred pop song rankings become what are known as \"one-hit wonders,\" or artists who never achieve a second musical success.",
-              "アメリカのポップソングランキングトップ100に入った曲を持つミュージシャンのほぼ半数が、いわゆる「一発屋」、つまり2度目の音楽的成功を達成できないアーティストになると言われている。"
+              "アメリカのポップソングランキングトップ100に入った曲を持つミュージシャンのほぼ半数が、いわゆる「一発屋」、つまり2度目の音楽的成功を達成できないアーティストになると言われている。",
+              "It is said|〜と言われている||that nearly half of musicians|ミュージシャンのほぼ半数が||with songs in America's top one hundred pop song rankings|アメリカのポップソングトップ100に曲がある||become what are known as \"one-hit wonders,\"|「一発屋」として知られるものになると、||or artists who never achieve|二度目の成功を達成できないアーティスト||a second musical success.|音楽的な。",
+              "is said"
             ],
             [
               "When researcher Justin Berg looked into which bands ( 22 ), he discovered two key factors.",
@@ -1651,19 +1673,27 @@
             ],
             [
               "The first was novelty, or how different songs are from other current music.",
-              "1つ目は新奇性、つまり楽曲が他の現行の音楽とどれだけ異なるかだ。"
+              "1つ目は新奇性、つまり楽曲が他の現行の音楽とどれだけ異なるかだ。",
+              "The first was novelty,|最初のものは新奇さで、||or how different songs are|つまり曲がどれだけ異なるか||from other current music.|他の現在の音楽から。",
+              "was"
             ],
             [
               "The second key factor for career longevity was diversity, or the degree of variety among an artist's own songs.",
-              "キャリアの長寿の2つ目の重要な要因は多様性、つまりアーティスト自身の楽曲間の多様性の程度だった。"
+              "キャリアの長寿の2つ目の重要な要因は多様性、つまりアーティスト自身の楽曲間の多様性の程度だった。",
+              "The second key factor|2番目の重要な要因は||for career longevity|キャリアの長寿のための||was diversity,|多様性で、||or the degree of variety|つまりバラエティの度合い||among an artist's own songs.|アーティスト自身の曲の中の。",
+              "was"
             ],
             [
               "Berg found that artists whose songs had both these qualities early in their careers were far less likely to be one-hit wonders.",
-              "バーグは、キャリアの初期にこの両方の資質を持つ楽曲を持つアーティストは一発屋になる可能性がはるかに低いことを発見した。"
+              "バーグは、キャリアの初期にこの両方の資質を持つ楽曲を持つアーティストは一発屋になる可能性がはるかに低いことを発見した。",
+              "Berg found|Bergは発見した||that artists whose songs|曲が持つアーティストは||had both these qualities|これら両方の特質を||early in their careers|キャリアの初期に||were far less likely|はるかに可能性が低いと||to be one-hit wonders.|一発屋になる。",
+              "found"
             ],
             [
               "This seems logical since novelty and diversity should allow artists to produce work that is entertaining to fans over the long term.",
-              "新奇性と多様性によってアーティストは長期的にファンを楽しませる作品を制作できるため、これは論理的に思える。"
+              "新奇性と多様性によってアーティストは長期的にファンを楽しませる作品を制作できるため、これは論理的に思える。",
+              "This seems logical|これは論理的に思える||since novelty and diversity|新奇さと多様性は||should allow artists to produce work|アーティストが作品を生み出すことを可能にするはずなので||that is entertaining to fans|ファンを楽しませる||over the long term.|長期にわたって。",
+              "seems"
             ],
             [
               "( 23 ), too much of these things is not always ideal.",
@@ -1671,7 +1701,9 @@
             ],
             [
               "According to Berg, songs that are too different from what is currently fashionable have a lower probability of climbing the music rankings in the first place.",
-              "バーグによると、現在流行しているものと異なりすぎる曲は、そもそも音楽ランキングを上がる確率が低い。"
+              "バーグによると、現在流行しているものと異なりすぎる曲は、そもそも音楽ランキングを上がる確率が低い。",
+              "According to Berg,|Bergによると、||songs that are too different|あまりにも異なる曲は||from what is currently fashionable|現在流行しているものから||have a lower probability|より低い確率を持つ||of climbing the music rankings|音楽ランキングを上昇する||in the first place.|そもそも。",
+              "have"
             ],
             [
               "Berg also claims that \"once artists reach that first hit, then the ( 24 ).\"",
@@ -1679,15 +1711,21 @@
             ],
             [
               "Of course, artists who prioritize innovation over fame and fortune can continue producing work that is new and unique.",
-              "もちろん、名声や富よりも革新を優先するアーティストは、新しくユニークな作品を作り続けることができる。"
+              "もちろん、名声や富よりも革新を優先するアーティストは、新しくユニークな作品を作り続けることができる。",
+              "Of course,|もちろん、||artists who prioritize innovation|革新を優先するアーティストは||over fame and fortune|名声と富よりも||can continue producing work|作品を生み出し続けることができる||that is new and unique.|新しくユニークな。",
+              "can continue"
             ],
             [
               "However, artists who desire multiple hits benefit from producing work that is similar to their first success, with only small changes to adapt to new trends.",
-              "しかし、複数のヒットを望むアーティストは、最初の成功に似た作品を制作し、新しいトレンドに適応するための小さな変更のみを加えることが有利だ。"
+              "しかし、複数のヒットを望むアーティストは、最初の成功に似た作品を制作し、新しいトレンドに適応するための小さな変更のみを加えることが有利だ。",
+              "However,|しかし、||artists who desire multiple hits|複数のヒットを望むアーティストは||benefit from producing work|作品を生み出すことから利益を得る||that is similar to their first success,|最初の成功に似た、||with only small changes|わずかな変更だけで||to adapt to new trends.|新しいトレンドに適応するための。",
+              "benefit"
             ],
             [
               "Berg believes that the balance between producing work that reminds listeners of the artist's initial hits while still sounding up-to-date is the true recipe for continued success.",
-              "バーグは、リスナーにアーティストの最初のヒットを思い出させつつも最新のサウンドに聞こえる作品を制作するバランスが、継続的な成功の真のレシピだと考えている。"
+              "バーグは、リスナーにアーティストの最初のヒットを思い出させつつも最新のサウンドに聞こえる作品を制作するバランスが、継続的な成功の真のレシピだと考えている。",
+              "Berg believes|Bergは信じている||that the balance between producing work|作品を生み出す間のバランスが||that reminds listeners of the artist's initial hits|リスナーにアーティストの最初のヒットを思い出させる||while still sounding up-to-date|なお最新の音に聞こえながら||is the true recipe for continued success.|継続的な成功の真のレシピであると。",
+              "believes"
             ]
           ],
           "questions": [
@@ -1794,67 +1832,99 @@
           "sentencePairs": [
             [
               "Some US astronauts became household names in the 1950s and '60s, partly due to the media coverage of their achievements.",
-              "1950年代から60年代にかけて、アメリカの宇宙飛行士の一部は、その功績のメディア報道のおかげもあって誰もが知る名前になった。"
+              "1950年代から60年代にかけて、アメリカの宇宙飛行士の一部は、その功績のメディア報道のおかげもあって誰もが知る名前になった。",
+              "Some US astronauts became household names|一部のアメリカの宇宙飛行士は有名になった||in the 1950s and '60s,|1950年代と60年代に、||partly due to the media coverage|メディア報道のおかげもあって||of their achievements.|彼らの功績の。",
+              "became"
             ],
             [
               "Behind the scenes, however, others played a crucial role in making US space missions, including the moon landing, successful.",
-              "しかし舞台裏では、月面着陸を含むアメリカの宇宙ミッションの成功に重大な役割を果たした人々がいた。"
+              "しかし舞台裏では、月面着陸を含むアメリカの宇宙ミッションの成功に重大な役割を果たした人々がいた。",
+              "Behind the scenes, however,|しかし舞台裏では、||others played a crucial role|他の人々が重要な役割を果たした||in making US space missions,|アメリカの宇宙ミッションを||including the moon landing, successful.|月面着陸を含む、成功させるために。",
+              "played"
             ],
             [
               "Unlike the astronauts, many of these unsung heroes were female.",
-              "宇宙飛行士とは異なり、これらの縁の下の力持ちの多くは女性だった。"
+              "宇宙飛行士とは異なり、これらの縁の下の力持ちの多くは女性だった。",
+              "Unlike the astronauts,|宇宙飛行士とは異なり、||many of these unsung heroes were female.|これらの知られざる英雄の多くは女性だった。",
+              "were"
             ],
             [
               "These women, who came to be called human computers, conducted complex calculations in areas such as spacecraft navigation, rocket aerodynamics, and orbital physics.",
-              "「ヒューマン・コンピュータ」と呼ばれるようになったこれらの女性たちは、宇宙船の航行、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。"
+              "「ヒューマン・コンピュータ」と呼ばれるようになったこれらの女性たちは、宇宙船の航行、ロケット空力学、軌道物理学などの分野で複雑な計算を行った。",
+              "These women,|これらの女性は、||who came to be called human computers,|ヒューマンコンピューターと呼ばれるようになった、||conducted complex calculations|複雑な計算を行った||in areas such as spacecraft navigation,|宇宙船のナビゲーション、||rocket aerodynamics, and orbital physics.|ロケットの空気力学、軌道物理学のような分野で。",
+              "conducted"
             ],
             [
               "Without them, it would have been impossible to launch spacecraft, and any inaccuracies could have had life-threatening consequences for the astronauts.",
-              "彼女たちなしには宇宙船の打ち上げは不可能であり、いかなる不正確さも宇宙飛行士にとって生命を脅かす結果を招きかねなかった。"
+              "彼女たちなしには宇宙船の打ち上げは不可能であり、いかなる不正確さも宇宙飛行士にとって生命を脅かす結果を招きかねなかった。",
+              "Without them,|彼女たちなしでは、||it would have been impossible|不可能だっただろう||to launch spacecraft,|宇宙船を打ち上げることは、||and any inaccuracies could have had|いかなる不正確さも持ち得た||life-threatening consequences for the astronauts.|宇宙飛行士にとって命に関わる結果を。",
+              "would have been"
             ],
             [
               "As fields such as astronomy, navigation, and surveying expanded in the nineteenth century, so did the need for mathematical computation.",
-              "19世紀に天文学、航法、測量などの分野が拡大するにつれ、数学的計算の必要性も高まった。"
+              "19世紀に天文学、航法、測量などの分野が拡大するにつれ、数学的計算の必要性も高まった。",
+              "As fields such as astronomy, navigation,|天文学、航海術のような分野が||and surveying expanded|測量が拡大するにつれて||in the nineteenth century,|19世紀に、||so did the need for mathematical computation.|数学的計算の必要性も拡大した。",
+              "expanded"
             ],
             [
               "Early computation work had been mainly undertaken by men.",
-              "初期の計算作業は主に男性が担っていた。"
+              "初期の計算作業は主に男性が担っていた。",
+              "Early computation work|初期の計算作業は||had been mainly undertaken by men.|主に男性によって行われていた。",
+              "had been undertaken"
             ],
             [
               "However, partly due to the discriminatory nature of contemporary societal norms, employing women meant that salaries—and therefore overall costs—could be dramatically reduced.",
-              "しかし、当時の社会規範の差別的な性質もあり、女性を雇うことで給与—ひいては全体のコスト—を大幅に削減できた。"
+              "しかし、当時の社会規範の差別的な性質もあり、女性を雇うことで給与—ひいては全体のコスト—を大幅に削減できた。",
+              "However,|しかし、||partly due to the discriminatory nature|差別的な性質のためもあり||of contemporary societal norms,|当時の社会規範の、||employing women meant|女性を雇用することは意味した||that salaries—and therefore overall costs—|給与—したがって全体的なコスト—||could be dramatically reduced.|大幅に削減できることを。",
+              "meant"
             ],
             [
               "Historian Mar Hicks believes that one reason these \"pre-electronic computation jobs were feminized is they were seen as rote and de-skilled.\"",
-              "歴史家マー・ヒックスは「これらの電子計算以前の計算の仕事が女性化された理由の一つは、それらが定型的で技能を必要としないと見なされたからだ」と考えている。"
+              "歴史家マー・ヒックスは「これらの電子計算以前の計算の仕事が女性化された理由の一つは、それらが定型的で技能を必要としないと見なされたからだ」と考えている。",
+              "Historian Mar Hicks believes|歴史家Mar Hicksは信じている||that one reason|一つの理由は||these \"pre-electronic computation jobs were feminized|これらの「電子化以前の計算業務が女性化されたのは||is they were seen|それらが見なされたからで||as rote and de-skilled.\"|ルーティンで低スキルと。",
+              "believes"
             ],
             [
               "Although human-computer work was sometimes repetitive, Hicks points out that it often required advanced math skills.",
-              "ヒューマン・コンピュータの仕事は時に反復的だったが、ヒックスは高度な数学スキルを必要とすることが多かったと指摘している。"
+              "ヒューマン・コンピュータの仕事は時に反復的だったが、ヒックスは高度な数学スキルを必要とすることが多かったと指摘している。",
+              "Although human-computer work|ヒューマンコンピューターの仕事は||was sometimes repetitive,|時に反復的だったが、||Hicks points out|Hicksは指摘する||that it often required advanced math skills.|高度な数学スキルをしばしば必要としたと。",
+              "points out"
             ],
             [
               "NASA's predecessor, NACA, employed many women to conduct calculations.",
-              "NASAの前身であるNACAは、計算を行うために多くの女性を雇用した。"
+              "NASAの前身であるNACAは、計算を行うために多くの女性を雇用した。",
+              "NASA's predecessor, NACA,|NASAの前身であるNACAは、||employed many women|多くの女性を雇用した||to conduct calculations.|計算を行うために。",
+              "employed"
             ],
             [
               "Nevertheless, women were not treated as equals.",
-              "それにもかかわらず、女性は対等に扱われなかった。"
+              "それにもかかわらず、女性は対等に扱われなかった。",
+              "Nevertheless,|それにもかかわらず、||women were not treated as equals.|女性は対等に扱われなかった。",
+              "were treated"
             ],
             [
               "African American women faced an additional layer of discrimination as they were forced to conduct much of their work in segregated facilities.",
-              "アフリカ系アメリカ人女性は、隔離された施設で多くの仕事を行うことを強いられるという追加の差別に直面した。"
+              "アフリカ系アメリカ人女性は、隔離された施設で多くの仕事を行うことを強いられるという追加の差別に直面した。",
+              "African American women|アフリカ系アメリカ人の女性は||faced an additional layer of discrimination|追加的な差別に直面した||as they were forced to conduct|仕事の多くを行うことを強いられたため||much of their work|仕事の多くを||in segregated facilities.|隔離された施設で。",
+              "faced"
             ],
             [
               "When NASA was established in 1958, it abolished that policy and also improved other conditions for women.",
-              "1958年にNASAが設立されると、その方針を廃止し、女性のための他の条件も改善した。"
+              "1958年にNASAが設立されると、その方針を廃止し、女性のための他の条件も改善した。",
+              "When NASA was established in 1958,|NASAが1958年に設立された時、||it abolished that policy|その方針を廃止し||and also improved other conditions for women.|女性のための他の条件も改善した。",
+              "abolished"
             ],
             [
               "Space missions became more complex, and the transition to electronic computation negated the need for most human computers.",
-              "宇宙ミッションはより複雑になり、電子計算への移行がほとんどのヒューマン・コンピュータの必要性を否定した。"
+              "宇宙ミッションはより複雑になり、電子計算への移行がほとんどのヒューマン・コンピュータの必要性を否定した。",
+              "Space missions became more complex,|宇宙ミッションはより複雑になり、||and the transition to electronic computation|電子計算への移行が||negated the need for most human computers.|ほとんどのヒューマンコンピューターの必要性をなくした。",
+              "became"
             ],
             [
               "In the early 1960s, for example, astronaut John Glenn asked Katherine Johnson, an African American human computer, to personally verify computer-calculated orbital equations before he would fly.",
-              "例えば1960年代初頭、宇宙飛行士ジョン・グレンは、アフリカ系アメリカ人のヒューマン・コンピュータであるキャサリン・ジョンソンに、飛行前にコンピュータで計算された軌道方程式を個人的に検証するよう頼んだ。"
+              "例えば1960年代初頭、宇宙飛行士ジョン・グレンは、アフリカ系アメリカ人のヒューマン・コンピュータであるキャサリン・ジョンソンに、飛行前にコンピュータで計算された軌道方程式を個人的に検証するよう頼んだ。",
+              "In the early 1960s, for example,|例えば1960年代初頭に、||astronaut John Glenn asked|宇宙飛行士John Glennは頼んだ||Katherine Johnson,|Katherine Johnsonに、||an African American human computer,|アフリカ系アメリカ人のヒューマンコンピューター、||to personally verify|個人的に検証するよう||computer-calculated orbital equations|コンピューターが計算した軌道方程式を||before he would fly.|飛行する前に。",
+              "asked"
             ]
           ],
           "questions": [
@@ -1962,59 +2032,87 @@
           "sentencePairs": [
             [
               "It was once thought that the use of medicine was a uniquely human trait, but over the past fifty years or so, scientists have reported many cases of animals using natural remedies to self-medicate.",
-              "かつて薬の使用は人間固有の特性と考えられていたが、過去50年ほどの間に、科学者たちは動物が自然療法を使って自己治療する多くの事例を報告してきた。"
+              "かつて薬の使用は人間固有の特性と考えられていたが、過去50年ほどの間に、科学者たちは動物が自然療法を使って自己治療する多くの事例を報告してきた。",
+              "It was once thought|かつて考えられていた||that the use of medicine|薬の使用は||was a uniquely human trait,|人間特有の特徴だと、||but over the past fifty years or so,|しかし過去約50年間で、||scientists have reported many cases|科学者は多くの事例を報告してきた||of animals using natural remedies to self-medicate.|動物が天然の治療法で自己治療する。",
+              "was thought"
             ],
             [
               "Plants produce many chemical substances to protect themselves against disease or prevent themselves from being eaten by animals and insects, and some of these chemicals have medicinal properties.",
-              "植物は病気から身を守ったり、動物や昆虫に食べられるのを防ぐために多くの化学物質を生産し、これらの化学物質の一部には薬効がある。"
+              "植物は病気から身を守ったり、動物や昆虫に食べられるのを防ぐために多くの化学物質を生産し、これらの化学物質の一部には薬効がある。",
+              "Plants produce many chemical substances|植物は多くの化学物質を生産する||to protect themselves against disease|病気から身を守るために||or prevent themselves from being eaten|食べられるのを防ぐために||by animals and insects,|動物や昆虫に、||and some of these chemicals|これらの化学物質の一部は||have medicinal properties.|薬効がある。",
+              "produce"
             ],
             [
               "A growing body of research shows that animals have learned to recognize and consume these substances to treat and prevent illnesses.",
-              "動物がこれらの物質を認識し、病気の治療や予防のために摂取することを学んだことを示す研究が増えている。"
+              "動物がこれらの物質を認識し、病気の治療や予防のために摂取することを学んだことを示す研究が増えている。",
+              "A growing body of research shows|増え続ける研究は示している||that animals have learned|動物が学習したことを||to recognize and consume these substances|これらの物質を認識し摂取することを||to treat and prevent illnesses.|病気を治療し予防するために。",
+              "shows"
             ],
             [
               "Self-medication by animals was first recorded in the 1970s by researchers studying a group of chimpanzees in Tanzania.",
-              "動物の自己投薬は、タンザニアでチンパンジーの群れを研究していた研究者によって1970年代に初めて記録された。"
+              "動物の自己投薬は、タンザニアでチンパンジーの群れを研究していた研究者によって1970年代に初めて記録された。",
+              "Self-medication by animals was first recorded|動物による自己治療が初めて記録された||in the 1970s|1970年代に||by researchers studying a group of chimpanzees|チンパンジーのグループを研究していた研究者によって||in Tanzania.|Tanzaniaで。",
+              "was recorded"
             ],
             [
               "They observed some chimpanzees in the group swallowing the leaves of plants that were not a part of their regular diet.",
-              "彼らは群れの一部のチンパンジーが通常の食事に含まれない植物の葉を飲み込んでいるのを観察した。"
+              "彼らは群れの一部のチンパンジーが通常の食事に含まれない植物の葉を飲み込んでいるのを観察した。",
+              "They observed some chimpanzees in the group|彼らはグループの一部のチンパンジーが||swallowing the leaves of plants|植物の葉を飲み込むのを観察した||that were not a part of their regular diet.|通常の食事の一部ではなかった。",
+              "observed"
             ],
             [
               "The researchers hypothesized that the leaves were being used to remove the parasites, and they used the term \"zoopharmacognosy\" to refer to this self-medicating behavior.",
-              "研究者たちは葉が寄生虫を除去するために使われていると仮説を立て、この自己投薬行動を「動物薬理学」という用語で呼んだ。"
+              "研究者たちは葉が寄生虫を除去するために使われていると仮説を立て、この自己投薬行動を「動物薬理学」という用語で呼んだ。",
+              "The researchers hypothesized|研究者は仮説を立てた||that the leaves were being used|葉が使われていると||to remove the parasites,|寄生虫を除去するために、||and they used the term \"zoopharmacognosy\"|そして彼らは「動物薬理学」という用語を使った||to refer to this self-medicating behavior.|この自己治療行動を指すために。",
+              "hypothesized"
             ],
             [
               "For many years, it was believed by most scientists that this behavior was limited to animals with advanced intellectual ability.",
-              "何年もの間、ほとんどの科学者はこの行動が高度な知的能力を持つ動物に限られると考えていた。"
+              "何年もの間、ほとんどの科学者はこの行動が高度な知的能力を持つ動物に限られると考えていた。",
+              "For many years,|長年にわたって、||it was believed by most scientists|ほとんどの科学者に信じられていた||that this behavior was limited|この行動は限られていると||to animals with advanced intellectual ability.|高度な知的能力を持つ動物に。",
+              "was believed"
             ],
             [
               "However, a recent review of research has shown that self-medication is much more common than was previously thought and is even demonstrated by some insects.",
-              "しかし、最近の研究レビューにより、自己投薬は以前考えられていたよりもはるかに一般的であり、一部の昆虫でさえ示されることが明らかになった。"
+              "しかし、最近の研究レビューにより、自己投薬は以前考えられていたよりもはるかに一般的であり、一部の昆虫でさえ示されることが明らかになった。",
+              "However,|しかし、||a recent review of research has shown|最近の研究レビューは示した||that self-medication is much more common|自己治療ははるかに一般的であると||than was previously thought|以前考えられていたよりも||and is even demonstrated by some insects.|そして一部の昆虫にさえ見られる。",
+              "has shown"
             ],
             [
               "Research has shown that fruit flies infected by parasitic wasps deliberately consume food containing alcohol, such as rotting fruit.",
-              "研究により、寄生バチに感染したミバエは、腐った果物などアルコールを含む食物を意図的に摂取することが示された。"
+              "研究により、寄生バチに感染したミバエは、腐った果物などアルコールを含む食物を意図的に摂取することが示された。",
+              "Research has shown|研究は示した||that fruit flies infected by parasitic wasps|寄生バチに感染したショウジョウバエが||deliberately consume food containing alcohol,|意図的にアルコールを含む食べ物を摂取すると、||such as rotting fruit.|腐った果物のような。",
+              "has shown"
             ],
             [
               "The alcohol prevents the development of the wasp larvae and protects the flies.",
-              "アルコールはバチの幼虫の発達を阻害し、ハエを保護する。"
+              "アルコールはバチの幼虫の発達を阻害し、ハエを保護する。",
+              "The alcohol prevents the development|アルコールは発達を防ぎ||of the wasp larvae|バチの幼虫の||and protects the flies.|ハエを守る。",
+              "prevents"
             ],
             [
               "Consuming food with high alcohol content is normally harmful to the flies, so they avoid doing so when they are healthy.",
-              "高アルコール含有量の食物を摂取することは通常ハエにとって有害であるため、健康なときはそうすることを避ける。"
+              "高アルコール含有量の食物を摂取することは通常ハエにとって有害であるため、健康なときはそうすることを避ける。",
+              "Consuming food with high alcohol content|高アルコール含有量の食べ物を摂取することは||is normally harmful to the flies,|通常ハエに有害なので、||so they avoid doing so|彼らはそうすることを避ける||when they are healthy.|健康な時は。",
+              "is"
             ],
             [
               "When bacterial and fungal infections occur within an ant colony, for example, the insects collect resin from nearby trees and take it back to the colony.",
-              "例えば、アリのコロニー内で細菌や真菌感染が発生すると、昆虫は近くの木から樹脂を集めてコロニーに持ち帰る。"
+              "例えば、アリのコロニー内で細菌や真菌感染が発生すると、昆虫は近くの木から樹脂を集めてコロニーに持ち帰る。",
+              "When bacterial and fungal infections occur|細菌や菌類の感染が発生すると||within an ant colony, for example,|例えばアリのコロニー内で、||the insects collect resin from nearby trees|昆虫は近くの木から樹脂を集め||and take it back to the colony.|コロニーに持ち帰る。",
+              "collect"
             ],
             [
               "The resin has antibacterial and antifungal properties, so by doing this, the ants are performing a form of \"social medication.\"",
-              "樹脂には抗菌・抗真菌作用があるため、これにより、アリは一種の「社会的投薬」を行っている。"
+              "樹脂には抗菌・抗真菌作用があるため、これにより、アリは一種の「社会的投薬」を行っている。",
+              "The resin has antibacterial and antifungal properties,|樹脂は抗菌・抗真菌特性を持ち、||so by doing this,|そうすることで、||the ants are performing a form|アリは一種の||of \"social medication.\"|「社会的治療」を行っている。",
+              "has"
             ],
             [
               "Many scientists believe it is likely that our human ancestors gained knowledge of medicinal plants by observing the behavior of animals.",
-              "多くの科学者は、人類の祖先が動物の行動を観察することで薬用植物の知識を得た可能性が高いと考えている。"
+              "多くの科学者は、人類の祖先が動物の行動を観察することで薬用植物の知識を得た可能性が高いと考えている。",
+              "Many scientists believe|多くの科学者は信じている||it is likely|〜のようだと||that our human ancestors gained knowledge|人間の祖先が知識を得たと||of medicinal plants|薬用植物についての||by observing the behavior of animals.|動物の行動を観察することで。",
+              "believe"
             ]
           ],
           "questions": [

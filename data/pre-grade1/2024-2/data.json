@@ -1498,7 +1498,9 @@
           "sentencePairs": [
             [
               "Before the United States entered World War II, it was officially neutral in the conflict.",
-              "アメリカが第二次世界大戦に参戦する前、公式には中立だった。"
+              "アメリカが第二次世界大戦に参戦する前、公式には中立だった。",
+              "Before the United States entered World War II,|アメリカが第二次世界大戦に参戦する前、||it was officially neutral in the conflict.|公式にはその紛争に中立だった。",
+              "was"
             ],
             [
               "Nevertheless, ( 19 ).",
@@ -1506,11 +1508,15 @@
             ],
             [
               "the United States provided a lifeline.",
-              "アメリカは命綱を提供した。"
+              "アメリカは命綱を提供した。",
+              "the United States provided a lifeline.|アメリカは命綱を提供した。",
+              "provided"
             ],
             [
               "Liberty ships provided the backbone of this effort.",
-              "リバティ船がこの努力の中核を担った。"
+              "リバティ船がこの努力の中核を担った。",
+              "Liberty ships provided the backbone|リバティ船はこの取り組みの||of this effort.|中核を提供した。",
+              "provided"
             ],
             [
               "In wartime, however, ( 20 ).",
@@ -1518,11 +1524,15 @@
             ],
             [
               "Attacks were a constant worry, and some ships — along with their crews — were lost.",
-              "攻撃は常に心配の種であり、乗組員ごと失われた船もあった。"
+              "攻撃は常に心配の種であり、乗組員ごと失われた船もあった。",
+              "Attacks were a constant worry,|攻撃は常に心配であり、||and some ships—along with their crews—|一部の船はその乗組員とともに||were lost.|失われた。",
+              "were"
             ],
             [
               "the role these and other ships played in helping to turn the war in the Allies' favor should not be underestimated.",
-              "これらの船が戦局を連合国有利に変えた役割は過小評価されるべきではない。"
+              "これらの船が戦局を連合国有利に変えた役割は過小評価されるべきではない。",
+              "the role these and other ships played|これらや他の船が果たした役割は||in helping to turn the war|戦争を転換するのに||in the Allies' favor|連合国に有利に||should not be underestimated.|過小評価されるべきではない。",
+              "should be underestimated"
             ],
             [
               "( 21 ), the shipyards where the Liberty ships were assembled were often located in relatively low-income areas.",
@@ -1530,7 +1540,9 @@
             ],
             [
               "The employment that the shipyards provided was a boon to local economies.",
-              "造船所が提供した雇用は地域経済にとって恩恵だった。"
+              "造船所が提供した雇用は地域経済にとって恩恵だった。",
+              "The employment that the shipyards provided|造船所が提供した雇用は||was a boon to local economies.|地域経済にとって恩恵だった。",
+              "was"
             ]
           ],
           "questions": [
@@ -1629,40 +1641,110 @@
           ],
           "sentencePairs": [
             [
-              "street congestion in London had, some argued, reached unacceptable levels.",
-              "ロンドンの路上の混雑は受け入れられないレベルに達していた。"
+              "In the mid-nineteenth century, street congestion in London had, some argued, reached unacceptable levels.",
+              "ロンドンの路上の混雑は受け入れられないレベルに達していた。",
+              "In the mid-nineteenth century,|19世紀半ばに、||street congestion in London had,|Londonの道路渋滞は、||some argued,|一部は主張した、||reached unacceptable levels.|許容できない水準に達していたと。",
+              "had reached"
             ],
             [
-              "the Metropolitan Railway, as it was called, is seen as a ( 22 ).",
-              "メトロポリタン鉄道は( 22 )と見なされている。"
+              "Various urban transportation solutions had been proposed and rejected.",
+              "",
+              "Various urban transportation solutions|さまざまな都市交通ソリューションが||had been proposed and rejected.|提案され拒否されてきた。",
+              "had been proposed"
             ],
             [
-              "it became the world's first underground railway line.",
-              "世界初の地下鉄路線となった。"
+              "However, the concept of an underground railway appealed to some political leaders, and despite years of debate, construction was approved.",
+              "",
+              "However,|しかし、||the concept of an underground railway|地下鉄道の構想は||appealed to some political leaders,|一部の政治指導者に訴えかけ、||and despite years of debate,|何年もの議論にもかかわらず、||construction was approved.|建設が承認された。",
+              "appealed"
             ],
             [
-              "the project was ( 23 ).",
-              "プロジェクトは( 23 )だった。"
+              "In historical terms, the Metropolitan Railway, as it was called, is seen as a ( 22 ).",
+              "メトロポリタン鉄道は( 22 )と見なされている。",
+              "",
+              ""
             ],
             [
-              "the engineers lacked the technologically advanced devices that engineering firms possess today.",
-              "エンジニアたちは現在の技術的に高度な装置を持っていなかった。"
+              "Once completed, it became the world's first underground railway line.",
+              "世界初の地下鉄路線となった。",
+              "Once completed,|完成すると、||it became the world's first underground railway line.|世界初の地下鉄路線となった。",
+              "became"
             ],
             [
-              "a boiler exploded, causing fatalities; nearby pipes burst, leading to flooding",
-              "ボイラーが爆発して死者が出、配管が破裂して浸水が生じた。"
+              "After ferrying millions of passengers in the first year alone, its success helped kickstart the London Underground subway system.",
+              "",
+              "After ferrying millions of passengers|何百万もの乗客を運んだ後||in the first year alone,|最初の年だけで、||its success helped kickstart|その成功はLondon Undergroundの||the London Underground subway system.|地下鉄システムの開始を助けた。",
+              "helped"
+            ],
+            [
+              "Nevertheless, the project was ( 23 ).",
+              "プロジェクトは( 23 )だった。",
+              "",
+              ""
+            ],
+            [
+              "Engineers had to ensure the tunnels, branch lines, arches, and maintenance access points were constructed precisely and safely.",
+              "",
+              "Engineers had to ensure|技術者は確保しなければならなかった||the tunnels, branch lines, arches,|トンネル、支線、アーチ、||and maintenance access points|保守用アクセスポイントが||were constructed precisely and safely.|正確かつ安全に建設されることを。",
+              "had"
+            ],
+            [
+              "Though skilled, the engineers lacked the technologically advanced devices that engineering firms possess today.",
+              "エンジニアたちは現在の技術的に高度な装置を持っていなかった。",
+              "Though skilled,|熟練していたが、||the engineers lacked|技術者は欠いていた||the technologically advanced devices|技術的に先進的な機器を||that engineering firms possess today.|現代の工学企業が持つ。",
+              "lacked"
+            ],
+            [
+              "The fear of tunnels collapsing was uppermost in many people's minds.",
+              "",
+              "The fear of tunnels collapsing|トンネル崩壊の恐怖は||was uppermost in many people's minds.|多くの人々の心に最も強くあった。",
+              "was"
+            ],
+            [
+              "In reality, it was just one of many concerns.",
+              "",
+              "In reality,|実際には、||it was just one of many concerns.|多くの懸念の一つに過ぎなかった。",
+              "was"
+            ],
+            [
+              "Records indicate that in one incident, a boiler exploded, causing fatalities; in another, nearby pipes burst, leading to flooding and delays in construction.",
+              "",
+              "Records indicate|記録は示す||that in one incident, a boiler exploded,|ある事故ではボイラーが爆発し、||causing fatalities;|死者を出したと；||in another, nearby pipes burst,|別の事故では近くのパイプが破裂し、||leading to flooding and delays in construction.|浸水と建設の遅延を引き起こした。",
+              "indicate"
+            ],
+            [
+              "Some observers believe little consideration was given to the effect that early subway construction projects would have on some sections of London's population.",
+              "",
+              "Some observers believe|一部の観察者は信じている||little consideration was given|ほとんど配慮がなされなかったと||to the effect|影響に||that early subway construction projects would have|初期の地下鉄建設プロジェクトが持つであろう||on some sections of London's population.|Londonの住民の一部への。",
+              "believe"
+            ],
+            [
+              "Today, subway projects often proceed deep underground with minimal disruption to people's daily lives.",
+              "",
+              "Today,|今日では、||subway projects often proceed deep underground|地下鉄プロジェクトはしばしば深い地下で進む||with minimal disruption|最小限の混乱で||to people's daily lives.|人々の日常生活への。",
+              "proceed"
             ],
             [
               "( 24 ), early subway tunnels were created in a less sophisticated way.",
               "( 24 )、初期のトンネルはより洗練されていない方法で作られた。"
             ],
             [
-              "Parliament granted land, sometimes in slum areas, to the construction companies.",
-              "議会はスラム地域の土地を建設会社に付与した。"
+              "Long holes were dug into the streets; then, tunnels were built and covered with roadways.",
+              "",
+              "Long holes were dug into the streets;|道路に長い穴が掘られ；||then, tunnels were built|次にトンネルが建設され||and covered with roadways.|道路で覆われた。",
+              "were dug"
             ],
             [
-              "thousands of poor people were displaced.",
-              "何千人もの貧しい人々が立ち退かされた。"
+              "To facilitate such work, Parliament granted land, sometimes in slum areas, to the construction companies.",
+              "議会はスラム地域の土地を建設会社に付与した。",
+              "To facilitate such work,|そのような作業を促進するために、||Parliament granted land,|議会は土地を与えた、||sometimes in slum areas,|時にスラム地区の、||to the construction companies.|建設会社に。",
+              "granted"
+            ],
+            [
+              "As a result, thousands of poor people were displaced.",
+              "何千人もの貧しい人々が立ち退かされた。",
+              "As a result,|その結果、||thousands of poor people were displaced.|何千人もの貧しい人々が立ち退かされた。",
+              "were displaced"
             ]
           ],
           "questions": [
@@ -1769,36 +1851,118 @@
           ],
           "sentencePairs": [
             [
+              "Intelligence quotient, commonly known as IQ, claims to be a numerical representation of a person's cognitive ability or intelligence.",
+              "",
+              "Intelligence quotient, commonly known as IQ,|一般にIQとして知られる知能指数は、||claims to be a numerical representation|数値的な表現であると主張する||of a person's cognitive ability or intelligence.|人の認知能力または知能の。",
+              "claims"
+            ],
+            [
               "The first IQ test was developed in the early 1900s by a French psychologist named Alfred Binet.",
-              "最初のIQテストはフランスの心理学者ビネーによって開発された。"
+              "最初のIQテストはフランスの心理学者ビネーによって開発された。",
+              "The first IQ test was developed|最初のIQテストは開発された||in the early 1900s|1900年代初頭に||by a French psychologist|フランスの心理学者によって||named Alfred Binet.|Alfred Binetという名の。",
+              "was developed"
             ],
             [
-              "The Binet-Simon test provided the foundation for all IQ tests that have been produced since.",
-              "ビネー・シモンテストはそれ以降のすべてのIQテストの基礎を提供した。"
+              "Binet was asked by the French government to create a test that could be used to identify children who needed educational support.",
+              "",
+              "Binet was asked by the French government|Binetはフランス政府に依頼された||to create a test|テストを作るように||that could be used to identify children|子どもを特定するために使える||who needed educational support.|教育的支援が必要な。",
+              "was asked"
             ],
             [
-              "IQ tests are based on the principle that all aspects of intelligence can be measured by one standardized test.",
-              "IQテストは知能のすべての側面が一つのテストで測定できるという原理に基づいている。"
+              "The Binet-Simon test that was created as a result provided the foundation for all IQ tests that have been produced since.",
+              "",
+              "The Binet-Simon test|Binet-Simonテストは||that was created as a result|結果として作られた||provided the foundation|基盤を提供した||for all IQ tests|すべてのIQテストの||that have been produced since.|それ以来作られた。",
+              "provided"
             ],
             [
-              "this model of intelligence is too simple.",
-              "この知能モデルは単純すぎる。"
+              "Because they were a quick and easy way to categorize people, IQ tests soon became a popular tool in educational and employment settings to measure student performance and assess potential new recruits.",
+              "",
+              "Because they were a quick and easy way|素早く簡単な方法だったため||to categorize people,|人を分類する、||IQ tests soon became a popular tool|IQテストはすぐに人気のツールになった||in educational and employment settings|教育および雇用の場で||to measure student performance|学生の成績を測定し||and assess potential new recruits.|潜在的な新規採用者を評価するための。",
+              "became"
             ],
             [
-              "each of these abilities was controlled by a different region in the brain.",
-              "これらの能力のそれぞれが脳の異なる領域によって制御されている。"
+              "Although IQ tests are now widely used, there is ongoing debate regarding their validity.",
+              "",
+              "Although IQ tests are now widely used,|IQテストは現在広く使われているが、||there is ongoing debate|継続的な議論がある||regarding their validity.|その妥当性に関して。",
+              "is"
             ],
             [
-              "children from ethnic minorities tend to be overlooked for gifted education programs.",
-              "少数派の子供たちは英才教育プログラムで見過ごされがちだ。"
+              "One issue raised by critics relates to the nature of intelligence.",
+              "",
+              "One issue raised by critics|批評家が提起する一つの問題は||relates to the nature of intelligence.|知能の本質に関係する。",
+              "relates"
             ],
             [
-              "candidates have been selected based on referrals from teachers.",
-              "候補者は教師からの推薦に基づいて選ばれてきた。"
+              "IQ tests are based on the principle that all aspects of intelligence can be measured by one standardized test of general cognitive ability.",
+              "",
+              "IQ tests are based on the principle|IQテストは原則に基づいている||that all aspects of intelligence|知能のすべての側面が||can be measured|測定できるという||by one standardized test|一つの標準化されたテストで||of general cognitive ability.|一般的な認知能力の。",
+              "are based"
             ],
             [
-              "more students from ethnic minorities have been able to enter the programs.",
-              "より多くの少数派の生徒がプログラムに入ることができている。"
+              "However, a large-scale study carried out in Canada suggests that this model of intelligence is too simple.",
+              "この知能モデルは単純すぎる。",
+              "However,|しかし、||a large-scale study carried out in Canada|Canadaで行われた大規模な研究は||suggests|示唆する||that this model of intelligence is too simple.|この知能モデルが単純すぎると。",
+              "suggests"
+            ],
+            [
+              "In the study, which included over 100,000 participants, researchers asked subjects to answer questions that targeted a range of cognitive skills.",
+              "",
+              "In the study,|この研究では、||which included over 100,000 participants,|10万人以上の参加者を含む、||researchers asked subjects|研究者は被験者に求めた||to answer questions|質問に答えるように||that targeted a range of cognitive skills.|さまざまな認知スキルを対象とした。",
+              "asked"
+            ],
+            [
+              "As expected, some participants were better at answering the questions than others, but the researchers believed this could only be explained by considering three different aspects of mental ability — short-term memory, reasoning, and verbal skills.",
+              "",
+              "As expected,|予想通り、||some participants were better at answering the questions|一部の参加者は質問に答えるのが得意だったが||than others,|他の人より、||but the researchers believed|しかし研究者は信じた||this could only be explained|これは説明できるのは||by considering three different aspects of mental ability—|精神能力の3つの異なる側面を考慮することでのみ—||short-term memory, reasoning, and verbal skills.|短期記憶、推理、言語スキル。",
+              "believed"
+            ],
+            [
+              "Furthermore, MRI scans taken while a small group of the participants were answering questions indicated that each of these abilities was controlled by a different region in the brain.",
+              "これらの能力のそれぞれが脳の異なる領域によって制御されている。",
+              "Furthermore,|さらに、||MRI scans taken|撮影されたMRIスキャンは||while a small group of the participants were answering questions|参加者の小グループが質問に答えている間に||indicated|示した||that each of these abilities was controlled|これらの能力のそれぞれが制御されていると||by a different region in the brain.|脳の異なる領域によって。",
+              "indicated"
+            ],
+            [
+              "Despite this criticism, proponents of IQ tests believe they can be beneficial if used appropriately.",
+              "",
+              "Despite this criticism,|この批判にもかかわらず、||proponents of IQ tests believe|IQテストの支持者は信じている||they can be beneficial|有益であり得ると||if used appropriately.|適切に使われれば。",
+              "believe"
+            ],
+            [
+              "In US schools, for example, children from ethnic minorities tend to be overlooked for gifted education programs.",
+              "少数派の子供たちは英才教育プログラムで見過ごされがちだ。",
+              "In US schools, for example,|例えばアメリカの学校では、||children from ethnic minorities|少数民族の子どもたちは||tend to be overlooked|見落とされがちだ||for gifted education programs.|英才教育プログラムから。",
+              "tend"
+            ],
+            [
+              "One reason for this is that, historically, candidates for such programs have been selected based on referrals from teachers.",
+              "",
+              "One reason for this is|この一つの理由は||that, historically,|歴史的に、||candidates for such programs have been selected|そのようなプログラムの候補者が選ばれてきた||based on referrals from teachers.|教師からの推薦に基づいて。",
+              "is"
+            ],
+            [
+              "Studies have shown that the academic performance and behavior of students are influenced by their teachers' attitudes toward them, which may, in turn, be affected by the teachers' subconscious racial biases.",
+              "",
+              "Studies have shown|研究は示した||that the academic performance and behavior of students|学生の学業成績と行動は||are influenced by their teachers' attitudes toward them,|教師の態度に影響されると、||which may, in turn, be affected|それはまた影響を受けるかもしれない||by the teachers' subconscious racial biases.|教師の無意識の人種的偏見によって。",
+              "have shown"
+            ],
+            [
+              "Since the majority of teachers in US schools are White, students from ethnic minorities tend to have less chance of being selected for such programs.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "However, in US school districts where IQ tests have been used in the selection process, more students from ethnic minorities have been able to enter the programs.",
+              "より多くの少数派の生徒がプログラムに入ることができている。",
+              "However,|しかし、||in US school districts|アメリカの学区では||where IQ tests have been used|IQテストが使われた||in the selection process,|選抜過程で、||more students from ethnic minorities|より多くの少数民族の学生が||have been able to enter the programs.|プログラムに入ることができた。",
+              "have been able"
+            ],
+            [
+              "Supporters of the tests say they are a fairer selection method because they provide an objective measure of ability.",
+              "",
+              "Supporters of the tests say|テストの支持者は言う||they are a fairer selection method|より公平な選抜方法であると||because they provide an objective measure of ability.|能力の客観的な指標を提供するから。",
+              "say"
             ]
           ],
           "questions": [
@@ -1903,40 +2067,124 @@
           ],
           "sentencePairs": [
             [
-              "Moore originally intended this as a prediction regarding computer technology, but it became the driving force behind the rapid progress.",
-              "ムーアは当初コンピュータ技術の予測として意図したが、急速な技術進歩の原動力となった。"
+              "One benchmark that is used to measure technological progress is Moore's law.",
+              "",
+              "One benchmark that is used|使われる一つの基準は||to measure technological progress|技術的進歩を測定するための||is Moore's law.|Mooreの法則だ。",
+              "is"
             ],
             [
-              "tech companies started to plan their product development around this principle.",
-              "テック企業はこの原則に基づいて製品開発を計画し始めた。"
+              "This law, which was originally published by US engineer and businessman Gordon Moore in 1965, states that the number of transistors on a microchip will double every two years.",
+              "",
+              "This law,|この法則は、||which was originally published|元々発表された||by US engineer and businessman Gordon Moore|アメリカの技術者で実業家のGordon Mooreによって||in 1965,|1965年に、||states that the number of transistors on a microchip|マイクロチップ上のトランジスタの数が||will double every two years.|2年ごとに倍増すると述べる。",
+              "states"
+            ],
+            [
+              "Moore originally intended this as a prediction regarding computer technology, but it became the driving force behind the rapid progress in computer technology that has occurred since then.",
+              "",
+              "Moore originally intended this|Mooreは元々これを意図していた||as a prediction regarding computer technology,|コンピューター技術に関する予測として、||but it became the driving force|しかしそれは推進力となった||behind the rapid progress in computer technology|コンピューター技術の急速な進歩の背後の||that has occurred since then.|それ以来起こった。",
+              "intended"
+            ],
+            [
+              "The law implied that computers would continue to become smaller and more powerful, and tech companies started to plan their product development around this principle.",
+              "テック企業はこの原則に基づいて製品開発を計画し始めた。",
+              "The law implied|この法則は示唆した||that computers would continue to become|コンピューターは引き続きなると||smaller and more powerful,|より小さく、より強力に、||and tech companies started to plan|テック企業は計画し始めた||their product development around this principle.|この原則を中心とした製品開発を。",
+              "implied"
+            ],
+            [
+              "Most experts now consider that Moore's law was responsible for innovations such as home computers and smartphones that have become essential parts of modern life.",
+              "",
+              "Most experts now consider|ほとんどの専門家は今考える||that Moore's law was responsible|Mooreの法則が原因だったと||for innovations such as home computers and smartphones|家庭用コンピューターやスマートフォンのような革新に||that have become essential parts of modern life.|現代生活の不可欠な部分になった。",
+              "consider"
             ],
             [
               "Moore's law has largely held true, but only because the amount of manpower and time used to make it possible have also greatly increased.",
-              "ムーアの法則は概ね正しかったが、人員と時間も大幅に増加したからだ。"
+              "ムーアの法則は概ね正しかったが、人員と時間も大幅に増加したからだ。",
+              "Moore's law has largely held true,|Mooreの法則はほぼ正しかったが、||but only because|それは〜だったからのみ||the amount of manpower and time used|費やされた人的資源と時間の量も||to make it possible|それを可能にするために||have also greatly increased.|大幅に増加した。",
+              "has held"
             ],
             [
-              "The constant exponential growth has been achieved only by a staggering increase in the amount of resources.",
-              "指数関数的成長はリソースの驚異的な増加によってのみ達成された。"
+              "As a paper by researchers from two universities in the United States concludes, \"The constant exponential growth implied by Moore's law has been achieved only by a staggering increase in the amount of resources devoted to pushing the frontier forward.\" In fact, the number of researchers required to maintain the same level of innovation today is around seventy-five times more than it was in the early 1970s.",
+              "",
+              "",
+              ""
             ],
             [
-              "as more innovations are made, the amount of knowledge required to make new ones grows.",
-              "より多くのイノベーションが行われるにつれ必要な知識量が増える。"
+              "Similarly, there is a general trend in many areas of society for significant progress to take longer.",
+              "",
+              "Similarly,|同様に、||there is a general trend in many areas of society|社会の多くの分野で一般的な傾向がある||for significant progress to take longer.|重要な進歩に時間がかかるという。",
+              "is"
             ],
             [
-              "each generation has to learn an increasing amount of previously accrued knowledge.",
-              "各世代は蓄積された知識を学ばなければならない。"
+              "Political and business leaders are getting older, the average age of Nobel Prize winners is rising, and groundbreaking scientific discoveries are being made less frequently.",
+              "",
+              "Political and business leaders are getting older,|政治・ビジネスリーダーは高齢化しており、||the average age of Nobel Prize winners is rising,|ノーベル賞受賞者の平均年齢は上がっており、||and groundbreaking scientific discoveries|画期的な科学的発見は||are being made less frequently.|より少ない頻度でなされている。",
+              "are getting"
             ],
             [
-              "the average age of researchers when they published their first journal articles rose by five years.",
-              "研究者が最初の論文を発表する平均年齢は5歳上昇した。"
+              "One theory put forward to explain this tendency is the \"burden of knowledge.\" This states that as more innovations are made, the amount of knowledge required to make new ones grows.",
+              "より多くのイノベーションが行われるにつれ必要な知識量が増える。",
+              "",
+              ""
             ],
             [
-              "older workers are more efficient — and therefore more productive — than their younger colleagues.",
-              "高齢労働者はより効率的で生産的である。"
+              "Innovations occur as a result of using past knowledge to find solutions to problems, so each generation has to learn an increasing amount of previously accrued knowledge before it can begin to innovate for itself.",
+              "",
+              "Innovations occur|イノベーションは起こる||as a result of using past knowledge|過去の知識を使った結果として||to find solutions to problems,|問題への解決策を見つけるための、||so each generation has to learn|各世代は学ばなければならない||an increasing amount of previously accrued knowledge|以前に蓄積された増大する量の知識を||before it can begin to innovate for itself.|自らイノベーションを始められるようになる前に。",
+              "occur"
+            ],
+            [
+              "The only way to do this is to study more, which inevitably takes longer.",
+              "",
+              "The only way to do this|これを行う唯一の方法は||is to study more,|より多く勉強することで、||which inevitably takes longer.|それは必然的に時間がかかる。",
+              "is"
+            ],
+            [
+              "Some studies in Germany showed that the average age of researchers in the field of mathematics when they published their first journal articles rose by five years between 1950 and 2013.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "The number of references to other research that were cited in the articles also increased by five times over the same period.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "A further obstacle to scientific and technological innovation often cited by economists is the fact that populations are aging.",
+              "",
+              "A further obstacle|さらなる障害は||to scientific and technological innovation|科学的・技術的イノベーションへの||often cited by economists|経済学者にしばしば引用される||is the fact that populations are aging.|人口が高齢化しているという事実だ。",
+              "is"
+            ],
+            [
+              "It is believed by some that an aging workforce holds back new discoveries because older workers are less able to learn new skills and less willing to adopt new knowledge.",
+              "",
+              "It is believed by some|一部に信じられている||that an aging workforce holds back new discoveries|高齢化する労働力が新しい発見を妨げると||because older workers are less able to learn new skills|年長の労働者は新しいスキルを学ぶ能力が低く||and less willing to adopt new knowledge.|新しい知識を採用する意欲も低いから。",
+              "is believed"
+            ],
+            [
+              "However, some experts believe the opposite to be true.",
+              "",
+              "However,|しかし、||some experts believe the opposite to be true.|一部の専門家はその逆が正しいと信じている。",
+              "believe"
+            ],
+            [
+              "Better diets, advances in medicine, and improved health care mean that people today not only live longer but also stay physically and mentally active until a later age.",
+              "",
+              "Better diets, advances in medicine,|より良い食事、医学の進歩、||and improved health care mean|改善された医療は意味する||that people today not only live longer|現代の人々はより長く生きるだけでなく||but also stay physically and mentally active|肉体的にも精神的にも活動的なままでいると||until a later age.|より遅い年齢まで。",
+              "mean"
+            ],
+            [
+              "In addition, because of their experience, older workers are more efficient — and therefore more productive — than their younger colleagues and play valuable roles in passing on knowledge.",
+              "",
+              "In addition,|さらに、||because of their experience,|経験のおかげで、||older workers are more efficient—|年長の労働者はより効率的で—||and therefore more productive—|したがってより生産的で—||than their younger colleagues|若い同僚よりも||and play valuable roles in passing on knowledge.|知識の伝達に貴重な役割を果たす。",
+              "are"
             ],
             [
               "These factors help to promote innovation and counterbalance the effects of the burden of knowledge.",
-              "これらの要因がイノベーションを促進し知識の負担を相殺する。"
+              "これらの要因がイノベーションを促進し知識の負担を相殺する。",
+              "These factors help to promote innovation|これらの要因はイノベーションの促進を助け||and counterbalance the effects|そして影響を相殺する||of the burden of knowledge.|知識の負担の。",
+              "help"
             ]
           ],
           "questions": [

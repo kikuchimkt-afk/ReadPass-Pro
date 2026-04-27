@@ -1,1768 +1,2064 @@
 {
-    "grade": "2級",
-    "year": "2025",
-    "session": "1-sat",
-    "title": "2025年度 第1回（準会場）英語資格検定2級 リーディング",
-    "vocabulary": [
-        {
-            "word": "wound",
-            "meaning": "傷",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "A nurse cleaned the wound.",
-            "distractors": [
-                "索引",
-                "敵",
-                "過失"
-            ],
-            "wordAudio": "audio/vocab/w_001_wound.mp3"
-        },
-        {
-            "word": "eastern",
-            "meaning": "東の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Tracy's apartment is on the eastern side.",
-            "distractors": [
-                "正確な",
-                "湿気の多い",
-                "成熟した"
-            ],
-            "wordAudio": "audio/vocab/w_002_eastern.mp3"
-        },
-        {
-            "word": "occasionally",
-            "meaning": "たまに",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "I occasionally go skiing with my sister.",
-            "distractors": [
-                "常に",
-                "頻繁に",
-                "毎年"
-            ],
-            "wordAudio": "audio/vocab/w_003_occasionally.mp3"
-        },
-        {
-            "word": "contract",
-            "meaning": "契約",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Tim signed a contract on his first day.",
-            "distractors": [
-                "贅沢",
-                "工場",
-                "評判"
-            ],
-            "wordAudio": "audio/vocab/w_004_contract.mp3"
-        },
-        {
-            "word": "nutrition",
-            "meaning": "栄養",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "He read about the nutrition in energy drinks.",
-            "distractors": [
-                "勝利",
-                "反対",
-                "失敗"
-            ],
-            "wordAudio": "audio/vocab/w_005_nutrition.mp3"
-        },
-        {
-            "word": "monument",
-            "meaning": "記念碑",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "They decided to build a monument in front of town hall.",
-            "distractors": [
-                "予算",
-                "砂漠",
-                "クリケット"
-            ],
-            "wordAudio": "audio/vocab/w_006_monument.mp3"
-        },
-        {
-            "word": "roar",
-            "meaning": "ほえる",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "He heard a lion roar on the first night.",
-            "distractors": [
-                "祈る",
-                "ちらっと見る",
-                "薄れる"
-            ],
-            "wordAudio": "audio/vocab/w_007_roar.mp3"
-        },
-        {
-            "word": "seek",
-            "meaning": "探す",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "She decided to seek some additional information online.",
-            "distractors": [
-                "注ぐ",
-                "変形する",
-                "守る"
-            ],
-            "wordAudio": "audio/vocab/w_008_seek.mp3"
-        },
-        {
-            "word": "evaluate",
-            "meaning": "評価する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Many companies regularly evaluate the performance of employees.",
-            "distractors": [
-                "捧げる",
-                "困らせる",
-                "妥協する"
-            ],
-            "wordAudio": "audio/vocab/w_009_evaluate.mp3"
-        },
-        {
-            "word": "sympathize",
-            "meaning": "同情する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "I totally sympathize with you.",
-            "distractors": [
-                "貢献する",
-                "強化する",
-                "改革する"
-            ],
-            "wordAudio": "audio/vocab/w_010_sympathize.mp3"
-        },
-        {
-            "word": "struggle with",
-            "meaning": "～に苦労する",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "I really struggle with Spanish grammar.",
-            "distractors": [
-                "足を踏み入れる",
-                "黙る",
-                "泊まる"
-            ],
-            "wordAudio": "audio/vocab/w_011_struggle_with.mp3"
-        },
-        {
-            "word": "mind one's own business",
-            "meaning": "自分のことに集中する",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "He told them to mind their own business.",
-            "distractors": [
-                "自業自得",
-                "自分の気持ちを傷つける",
-                "自分で決断する"
-            ],
-            "wordAudio": "audio/vocab/w_012_mind_one_s_own_business.mp3"
-        },
-        {
-            "word": "by all means",
-            "meaning": "ぜひ",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "By all means, go ahead.",
-            "distractors": [
-                "それどころか",
-                "ある程度",
-                "あらゆる面で"
-            ],
-            "wordAudio": "audio/vocab/w_013_by_all_means.mp3"
-        },
-        {
-            "word": "in a row",
-            "meaning": "連続で",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "Gina was late for school two days in a row.",
-            "distractors": [
-                "ダイエット中",
-                "一度に",
-                "しばらく"
-            ],
-            "wordAudio": "audio/vocab/w_014_in_a_row.mp3"
-        },
-        {
-            "word": "on behalf of",
-            "meaning": "～の代わりに",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "The vice president spoke on behalf of the president.",
-            "distractors": [
-                "～にもかかわらず",
-                "～を恐れて",
-                "～に関して"
-            ],
-            "wordAudio": "audio/vocab/w_015_on_behalf_of.mp3"
-        },
-        {
-            "word": "go over",
-            "meaning": "見直す",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "He asks a colleague to go over his slides.",
-            "distractors": [
-                "提出する",
-                "続ける",
-                "急ぐ"
-            ],
-            "wordAudio": "audio/vocab/w_016_go_over.mp3"
-        },
-        {
-            "word": "by far",
-            "meaning": "断然",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "He is by far the fastest runner on the team.",
-            "distractors": [
-                "念のため",
-                "せいぜい",
-                "搭乗して"
-            ],
-            "wordAudio": "audio/vocab/w_017_by_far.mp3"
-        },
-        {
-            "word": "nitrogen",
-            "meaning": "窒素",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Plants take nitrogen from the ground to grow.",
-            "distractors": [
-                "酸素",
-                "炭素",
-                "水素"
-            ],
-            "wordAudio": "audio/vocab/w_018_nitrogen.mp3"
-        },
-        {
-            "word": "substance",
-            "meaning": "物質",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "A substance that breaks down insect bodies.",
-            "distractors": [
-                "材料",
-                "液体",
-                "化合物"
-            ],
-            "wordAudio": "audio/vocab/w_019_substance.mp3"
-        },
-        {
-            "word": "lane",
-            "meaning": "車線",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The mayor turned inner lanes into bus-only lanes.",
-            "distractors": [
-                "道路",
-                "通路",
-                "歩道"
-            ],
-            "wordAudio": "audio/vocab/w_020_lane.mp3"
-        },
-        {
-            "word": "fare",
-            "meaning": "運賃",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Passengers pay the same fare regardless of distance.",
-            "distractors": [
-                "料金",
-                "切符",
-                "手数料"
-            ],
-            "wordAudio": "audio/vocab/w_021_fare.mp3"
-        },
-        {
-            "word": "envelope",
-            "meaning": "封筒",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Using envelopes to hold letters became common.",
-            "distractors": [
-                "手紙",
-                "便箋",
-                "切手"
-            ],
-            "wordAudio": "audio/vocab/w_022_envelope.mp3"
-        },
-        {
-            "word": "delicate",
-            "meaning": "繊細な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The delicate paper makes it harder to open letters.",
-            "distractors": [
-                "丈夫な",
-                "古い",
-                "厚い"
-            ],
-            "wordAudio": "audio/vocab/w_023_delicate.mp3"
-        },
-        {
-            "word": "technique",
-            "meaning": "技術",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "They used a technique called letter-locking.",
-            "distractors": [
-                "方法",
-                "道具",
-                "材料"
-            ],
-            "wordAudio": "audio/vocab/w_024_technique.mp3"
-        },
-        {
-            "word": "carnivorous",
-            "meaning": "肉食の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Some plants are carnivorous and eat insects.",
-            "distractors": [
-                "草食の",
-                "雑食の",
-                "植物性の"
-            ],
-            "wordAudio": "audio/vocab/w_025_carnivorous.mp3"
-        },
-        {
-            "word": "attracted",
-            "meaning": "引きつけられた",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The insects are attracted by the sweet smell.",
-            "distractors": [
-                "追い出された",
-                "無視された",
-                "嫌がった"
-            ],
-            "wordAudio": "audio/vocab/w_026_attracted.mp3"
-        },
-        {
-            "word": "digest",
-            "meaning": "消化する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The plant digests the insect over several days.",
-            "distractors": [
-                "吸収する",
-                "排出する",
-                "分解する"
-            ],
-            "wordAudio": "audio/vocab/w_027_digest.mp3"
-        },
-        {
-            "word": "soil",
-            "meaning": "土壌",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "These plants grow in poor soil with few nutrients.",
-            "distractors": [
-                "砂",
-                "岩",
-                "泥"
-            ],
-            "wordAudio": "audio/vocab/w_028_soil.mp3"
-        },
-        {
-            "word": "nutrient",
-            "meaning": "栄養素",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The plants get nutrients from the insects they catch.",
-            "distractors": [
-                "水分",
-                "酸素",
-                "光"
-            ],
-            "wordAudio": "audio/vocab/w_029_nutrient.mp3"
-        },
-        {
-            "word": "trap",
-            "meaning": "罠にかける",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Venus flytraps use their leaves to trap insects.",
-            "distractors": [
-                "追いかける",
-                "観察する",
-                "飼育する"
-            ],
-            "wordAudio": "audio/vocab/w_030_trap.mp3"
-        },
-        {
-            "word": "prey",
-            "meaning": "獲物",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Insects become prey for these unusual plants.",
-            "distractors": [
-                "仲間",
-                "敵",
-                "観客"
-            ],
-            "wordAudio": "audio/vocab/w_031_prey.mp3"
-        },
-        {
-            "word": "transit",
-            "meaning": "交通機関",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The city developed a new transit system.",
-            "distractors": [
-                "通信",
-                "輸送",
-                "貿易"
-            ],
-            "wordAudio": "audio/vocab/w_032_transit.mp3"
-        },
-        {
-            "word": "efficient",
-            "meaning": "効率的な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The bus system is highly efficient.",
-            "distractors": [
-                "非効率な",
-                "高価な",
-                "複雑な"
-            ],
-            "wordAudio": "audio/vocab/w_033_efficient.mp3"
-        },
-        {
-            "word": "passenger",
-            "meaning": "乗客",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The system carries thousands of passengers daily.",
-            "distractors": [
-                "運転手",
-                "整備士",
-                "管理者"
-            ],
-            "wordAudio": "audio/vocab/w_034_passenger.mp3"
-        },
-        {
-            "word": "dedicated",
-            "meaning": "専用の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Buses run in dedicated lanes to avoid traffic.",
-            "distractors": [
-                "一般的な",
-                "共有の",
-                "臨時の"
-            ],
-            "wordAudio": "audio/vocab/w_035_dedicated.mp3"
-        },
-        {
-            "word": "candidate",
-            "meaning": "候補者",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "She was considered a strong candidate for the position.",
-            "distractors": [
-                "審査員",
-                "面接官",
-                "管理者"
-            ],
-            "wordAudio": "audio/vocab/w_036_candidate.mp3"
-        },
-        {
-            "word": "resume",
-            "meaning": "履歴書",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Please send your resume before the deadline.",
-            "distractors": [
-                "手紙",
-                "報告書",
-                "申請書"
-            ],
-            "wordAudio": "audio/vocab/w_037_resume.mp3"
-        },
-        {
-            "word": "reference",
-            "meaning": "推薦状",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "We need two references from previous employers.",
-            "distractors": [
-                "契約書",
-                "請求書",
-                "領収書"
-            ],
-            "wordAudio": "audio/vocab/w_038_reference.mp3"
-        },
-        {
-            "word": "qualify",
-            "meaning": "資格を得る",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "She qualified for the position with her experience.",
-            "distractors": [
-                "辞退する",
-                "応募する",
-                "拒否する"
-            ],
-            "wordAudio": "audio/vocab/w_039_qualify.mp3"
-        },
-        {
-            "word": "seal",
-            "meaning": "封をする",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Letters were sealed using a special folding technique.",
-            "distractors": [
-                "開ける",
-                "破る",
-                "書く"
-            ],
-            "wordAudio": "audio/vocab/w_040_seal.mp3"
-        },
-        {
-            "word": "fold",
-            "meaning": "折りたたむ",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The paper was folded in a complex pattern.",
-            "distractors": [
-                "切る",
-                "貼る",
-                "破る"
-            ],
-            "wordAudio": "audio/vocab/w_041_fold.mp3"
-        },
-        {
-            "word": "privacy",
-            "meaning": "プライバシー",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Letter-locking was used to protect privacy.",
-            "distractors": [
-                "安全",
-                "秘密",
-                "権利"
-            ],
-            "wordAudio": "audio/vocab/w_042_privacy.mp3"
-        },
-        {
-            "word": "tamper",
-            "meaning": "改ざんする",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "If someone tampered with the letter, it would be obvious.",
-            "distractors": [
-                "読む",
-                "送る",
-                "受け取る"
-            ],
-            "wordAudio": "audio/vocab/w_043_tamper.mp3"
-        },
-        {
-            "word": "reveal",
-            "meaning": "明らかにする",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Opening the letter would reveal if it had been read.",
-            "distractors": [
-                "隠す",
-                "暗号化する",
-                "破壊する"
-            ],
-            "wordAudio": "audio/vocab/w_044_reveal.mp3"
-        },
-        {
-            "word": "intricate",
-            "meaning": "複雑な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The intricate folding patterns were difficult to copy.",
-            "distractors": [
-                "単純な",
-                "平凡な",
-                "普通の"
-            ],
-            "wordAudio": "audio/vocab/w_045_intricate.mp3"
-        },
-        {
-            "word": "correspond",
-            "meaning": "文通する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "People corresponded using handwritten letters.",
-            "distractors": [
-                "会話する",
-                "電話する",
-                "訪問する"
-            ],
-            "wordAudio": "audio/vocab/w_046_correspond.mp3"
-        },
-        {
-            "word": "diplomat",
-            "meaning": "外交官",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Diplomats used letter-locking to protect sensitive information.",
-            "distractors": [
-                "政治家",
-                "軍人",
-                "商人"
-            ],
-            "wordAudio": "audio/vocab/w_047_diplomat.mp3"
-        },
-        {
-            "word": "preserve",
-            "meaning": "保存する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Researchers are working to preserve these historical letters.",
-            "distractors": [
-                "処分する",
-                "複製する",
-                "翻訳する"
-            ],
-            "wordAudio": "audio/vocab/w_048_preserve.mp3"
-        },
-        {
-            "word": "unfold",
-            "meaning": "広げる",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "They carefully unfolded the ancient letters for study.",
-            "distractors": [
-                "折りたたむ",
-                "封をする",
-                "切る"
-            ],
-            "wordAudio": "audio/vocab/w_049_unfold.mp3"
-        },
-        {
-            "word": "authentic",
-            "meaning": "本物の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "They could verify if a letter was authentic.",
-            "distractors": [
-                "偽の",
-                "複製の",
-                "古い"
-            ],
-            "wordAudio": "audio/vocab/w_050_authentic.mp3"
-        },
-        {
-            "word": "insectivorous",
-            "meaning": "食虫の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Insectivorous plants use clever traps to catch insects.",
-            "distractors": [
-                "草食の",
-                "肉食の",
-                "雑食の"
-            ],
-            "wordAudio": "audio/vocab/w_051_insectivorous.mp3"
-        }
-    ],
-    "sections": [
-        {
-            "name": "大問1",
-            "nameEn": "Part 1",
-            "type": "vocabulary",
-            "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "questions": [
-                {
-                    "number": 1,
-                    "text": "Bob went to the hospital because he cut his knee. A nurse cleaned the ( 1 ), then a doctor looked at it. The doctor said that it would heal in a few weeks.",
-                    "translation": "ボブは膝を切ったので病院に行った。看護師が( 1 )を洗浄し、医師が見た。数週間で治ると言われた。",
-                    "choices": [
-                        "wound",
-                        "index",
-                        "enemy",
-                        "fault"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "wound=傷→正解。💡 cut his knee→nurse cleaned the wound。膝の切り傷=wound",
-                        "index=索引→不適切",
-                        "enemy=敵→不適切",
-                        "fault=過失→不適切"
-                    ]
-                },
-                {
-                    "number": 2,
-                    "text": "Tracy's apartment is on the ( 2 ) side of the building, so she can see the sunrise from her window. Unfortunately, she cannot see the sunset.",
-                    "translation": "トレイシーのアパートは建物の( 2 )側にあるので、窓から日の出が見える。残念ながら日の入りは見えない。",
-                    "choices": [
-                        "precise",
-                        "eastern",
-                        "humid",
-                        "mature"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "precise=正確な→方角に不適切",
-                        "eastern=東の→正解。💡 sunrise(日の出)=east(東)。sunset見えない=西ではない→eastern",
-                        "humid=湿気の多い→不適切",
-                        "mature=成熟した→不適切"
-                    ]
-                },
-                {
-                    "number": 3,
-                    "text": "A : Do you do a lot of winter sports?\nB : Not really, but I ( 3 ) go skiing with my sister. Usually once every three years.",
-                    "translation": "A：冬のスポーツをたくさんする？\nB：あまり。でも( 3 )姉とスキーに行くよ。3年に1回くらい。",
-                    "choices": [
-                        "constantly",
-                        "occasionally",
-                        "frequently",
-                        "annually"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "constantly=常に→once every three yearsと矛盾",
-                        "occasionally=たまに→正解。💡 once every three years=3年に1回=occasionally(たまに)",
-                        "frequently=頻繁に→3年に1回では頻繁ではない",
-                        "annually=毎年→3年に1回なので毎年ではない"
-                    ]
-                },
-                {
-                    "number": 4,
-                    "text": "On his first day at his new job, Tim signed a ( 4 ). It said that he would work for the company for at least two years.",
-                    "translation": "新しい仕事の初日に、ティムは( 4 )に署名した。少なくとも2年間会社で働くと書かれていた。",
-                    "choices": [
-                        "luxury",
-                        "factory",
-                        "contract",
-                        "reputation"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "luxury=贅沢→不適切",
-                        "factory=工場→不適切",
-                        "contract=契約→正解。💡 signed+work for at least two years=労働契約に署名",
-                        "reputation=評判→不適切"
-                    ]
-                },
-                {
-                    "number": 5,
-                    "text": "Greg wanted to make sure that the energy drinks at the store were healthy. He checked online and read about the ( 5 ) in them before he bought some.",
-                    "translation": "グレッグは店のエナジードリンクが健康的か確認したかった。買う前にオンラインで( 5 )について調べた。",
-                    "choices": [
-                        "triumph",
-                        "opposition",
-                        "failure",
-                        "nutrition"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "triumph=勝利→不適切",
-                        "opposition=反対→不適切",
-                        "failure=失敗→不適切",
-                        "nutrition=栄養→正解。💡 healthy + energy drinks=栄養(nutrition)を確認"
-                    ]
-                },
-                {
-                    "number": 6,
-                    "text": "To celebrate 250 years since the town of Trentham was established, the current residents decided to build a ( 6 ) in front of the town hall.",
-                    "translation": "トレンサムの町の創設250周年を記念して、現在の住民は市庁舎の前に( 6 )を建てることにした。",
-                    "choices": [
-                        "budget",
-                        "desert",
-                        "cricket",
-                        "monument"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "budget=予算→建てるものではない",
-                        "desert=砂漠→不適切",
-                        "cricket=クリケット→不適切",
-                        "monument=記念碑→正解。💡 celebrate 250 years=記念して→monument(記念碑)"
-                    ]
-                },
-                {
-                    "number": 7,
-                    "text": "Sam went on a camping trip in Africa. On the first night, he heard a lion ( 7 ). The sound scared him, but his guide told him not to worry.",
-                    "translation": "サムはアフリカにキャンプ旅行に行った。初夜にライオンの( 7 )を聞いた。怖かったが、ガイドに心配ないと言われた。",
-                    "choices": [
-                        "fade",
-                        "roar",
-                        "pray",
-                        "glance"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "fade=薄れる→不適切",
-                        "roar=ほえる→正解。💡 lion+sound scared him=ライオンのroar(ほえ声)",
-                        "pray=祈る→不適切",
-                        "glance=ちらっと見る→音の文脈に不適切"
-                    ]
-                },
-                {
-                    "number": 8,
-                    "text": "Misaki could not find all the facts that she needed for her science project in the school library, so she decided to ( 8 ) some additional information online.",
-                    "translation": "ミサキは学校の図書館で科学プロジェクトに必要な事実を全部見つけられなかったので、オンラインで追加情報を( 8 )することにした。",
-                    "choices": [
-                        "seek",
-                        "pour",
-                        "transform",
-                        "defend"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "seek=探す→正解。💡 could not find→seek additional information(追加情報を探す)",
-                        "pour=注ぐ→不適切",
-                        "transform=変形する→不適切",
-                        "defend=守る→不適切"
-                    ]
-                },
-                {
-                    "number": 9,
-                    "text": "These days, many companies regularly ( 9 ) the performance of their employees. Managers check to see if staff members have been able to achieve their goals.",
-                    "translation": "最近では多くの企業が社員のパフォーマンスを定期的に( 9 )する。マネージャーがスタッフが目標を達成できているか確認する。",
-                    "choices": [
-                        "evaluate",
-                        "annoy",
-                        "compromise",
-                        "dedicate"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "evaluate=評価する→正解。💡 check performance+achieve goals=evaluate(評価する)",
-                        "annoy=困らせる→不適切",
-                        "compromise=妥協する→不適切",
-                        "dedicate=捧げる→不適切"
-                    ]
-                },
-                {
-                    "number": 10,
-                    "text": "A : I can't believe it. My favorite band is going to stop playing music.\nB : I know how you feel. I really love that band, too. I totally ( 10 ) with you.",
-                    "translation": "A：信じられない。お気に入りのバンドが音楽を止めるんだ。\nB：気持ちわかるよ。私もあのバンド大好き。完全に( 10 )するよ。",
-                    "choices": [
-                        "sympathize",
-                        "contribute",
-                        "reinforce",
-                        "reform"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "sympathize=同情する→正解。💡 I know how you feel+love that band too=sympathize with(同情する)",
-                        "contribute=貢献する→不適切",
-                        "reinforce=強化する→不適切",
-                        "reform=改革する→不適切"
-                    ]
-                },
-                {
-                    "number": 11,
-                    "text": "A : How are you getting on with your Spanish classes, Sarah?\nB : Well, I find the grammar quite difficult. I really ( 11 ) it.",
-                    "translation": "A：サラ、スペイン語のクラスはどう？\nB：うーん、文法がかなり難しいの。本当に( 11 )。",
-                    "choices": [
-                        "step into",
-                        "shut up",
-                        "struggle with",
-                        "sleep over"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "step into=足を踏み入れる→不適切",
-                        "shut up=黙る→不適切",
-                        "struggle with=～に苦労する→正解。💡 find grammar difficult=文法が難しい→struggle with(苦労する)",
-                        "sleep over=泊まる→不適切"
-                    ]
-                },
-                {
-                    "number": 12,
-                    "text": "When people asked Steven why he had stopped seeing his ex-wife, he told them to ( 12 ). He did not want to talk about it.",
-                    "translation": "スティーブンが元妻に会わなくなった理由を聞かれると、( 12 )ように言った。それについて話したくなかった。",
-                    "choices": [
-                        "take their own medicine",
-                        "hurt their own feelings",
-                        "make their own decisions",
-                        "mind their own business"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "自業自得→文脈に不適切",
-                        "自分の気持ちを傷つけろ→不適切",
-                        "自分で決断しろ→不適切",
-                        "自分のことに集中しろ→正解。💡 did not want to talk=話したくない→mind your own business=余計なお世話・口出しするな"
-                    ]
-                },
-                {
-                    "number": 13,
-                    "text": "A : Hi, Jamie. I was sick yesterday. Do you mind if I borrow your notes from math class?\nB : ( 13 ), go ahead. They're on my desk.",
-                    "translation": "A：ジェイミー、昨日病気だったんだ。数学のノート借りてもいい？\nB：( 13 )、どうぞ。机の上にあるよ。",
-                    "choices": [
-                        "On the contrary",
-                        "To some extent",
-                        "In every aspect",
-                        "By all means"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "On the contrary=それどころか→不適切",
-                        "To some extent=ある程度→不適切",
-                        "In every aspect=あらゆる面で→不適切",
-                        "By all means=ぜひ→正解。💡 go ahead=どうぞ→By all means(ぜひ・もちろん)"
-                    ]
-                },
-                {
-                    "number": 14,
-                    "text": "Gina was late for school two days ( 14 ), so her teacher gave her a warning. If she is late again tomorrow, she will be sent to the principal's office.",
-                    "translation": "ジーナは( 14 )2日間学校に遅刻したので、先生に警告された。明日また遅刻すると校長室に送られる。",
-                    "choices": [
-                        "on a diet",
-                        "in a row",
-                        "at a time",
-                        "for a while"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "on a diet=ダイエット中→不適切",
-                        "in a row=連続で→正解。💡 two days in a row=2日連続で。late again tomorrow=さらに連続の可能性",
-                        "at a time=一度に→不適切",
-                        "for a while=しばらく→不適切"
-                    ]
-                },
-                {
-                    "number": 15,
-                    "text": "When the president could not attend the opening ceremony of the new library, the vice president spoke ( 15 ) the president.",
-                    "translation": "社長が新図書館の開館式に出席できなかったとき、副社長が社長( 15 )スピーチした。",
-                    "choices": [
-                        "on behalf of",
-                        "in spite of",
-                        "for fear of",
-                        "with regard to"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "on behalf of=～の代わりに→正解。💡 president could not attend→vice president spoke on behalf of(代理で)",
-                        "in spite of=～にもかかわらず→不適切",
-                        "for fear of=～を恐れて→不適切",
-                        "with regard to=～に関して→不適切"
-                    ]
-                },
-                {
-                    "number": 16,
-                    "text": "Before the presentation, Mr. Smith always asks one of his colleagues to ( 16 ) his slides to check for mistakes.",
-                    "translation": "プレゼンの前にスミス氏はいつも同僚に間違いがないかスライドを( 16 )してもらう。",
-                    "choices": [
-                        "hand in",
-                        "carry on",
-                        "hurry up",
-                        "go over"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "hand in=提出する→不適切",
-                        "carry on=続ける→不適切",
-                        "hurry up=急ぐ→不適切",
-                        "go over=見直す→正解。💡 check for mistakes=間違いチェック→go over(見直す)"
-                    ]
-                },
-                {
-                    "number": 17,
-                    "text": "A : Who is the fastest runner on the track team?\nB : That would be John. He is ( 17 ) the fastest runner on the team. In fact, he is the fastest runner in the whole school.",
-                    "translation": "A：陸上部で一番速いのは誰？\nB：ジョンだね。チームで( 17 )一番速い。実は学校全体でも一番速い。",
-                    "choices": [
-                        "by far",
-                        "in case",
-                        "at most",
-                        "on board"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "by far=断然→正解。💡 fastest on team + fastest in whole school=by far(断然・圧倒的に)",
-                        "in case=念のため→不適切",
-                        "at most=せいぜい→最上級に不適切",
-                        "on board=搭乗して→不適切"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問2",
-            "nameEn": "Part 2",
-            "type": "passage-fill",
-            "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Plants That Eat Insects",
-                    "paragraphs": [
-                        "There are many unique plants in the world. Plants can be put into groups according to their features. For example, some plants have flowers, and others do not. Leaves of some trees stay green year-round, and those of others turn red or even fall off. There is still another interesting type of group. This grouping is based on ( 18 ). Some people might be surprised to know that some plants eat insects, and to most people's surprise, there are more than six hundred kinds of these plants in the world.",
-                        "There are several ways in which those plants catch insects. One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags. When an insect enters one of the bags, the plant then closes the bag around it. ( 19 ) insects fall into the leaves, they can never get out. The leaves are closed and filled with a substance that breaks down their bodies. Another way is to use leaves with sticky drops. When insects stop on the leaves, the drops cover their bodies, and they cannot breathe. Therefore, they die.",
-                        "Plants that catch insects grow in certain areas. Plants usually take nitrogen, a substance from the ground, to grow. However, when there is not enough nitrogen in the ground, they eat insects instead by using their open leaves to trap insects. This is because bodies of insects contain nitrogen. Some scientists even suggest that the plants can be used when ( 20 ). Their open leaves mean that the ground in those areas has low nitrogen."
-                    ],
-                    "translations": [
-                        "世界には多くのユニークな植物がある。植物は特徴に応じてグループ分けできる。例えば、花を咲かせるものとそうでないもの。一年中緑のままの葉もあれば、赤くなったり落ちたりするものもある。さらに別の興味深いグループがある。このグループ分けは( 18 )に基づいている。植物が昆虫を食べると知って驚く人もいるだろうし、世界に600種以上のそのような植物があることに大部分の人は驚くだろう。",
-                        "これらの植物が昆虫を捕まえる方法はいくつかある。方法の一つは、甘い匂いがして小さな袋のような形をした葉に昆虫を引き寄せることだ。昆虫が袋に入ると、植物は袋を閉じる。( 19 )昆虫が葉の中に落ちると、二度と出られない。葉は閉じられ、昆虫の体を分解する物質で満たされる。もう一つの方法は、粘着性のある滴がついた葉を使うことだ。昆虫が葉に止まると、滴が体を覆い、呼吸できなくなって死ぬ。",
-                        "昆虫を捕まえる植物は特定の地域で育つ。植物は通常、成長のために地面から窒素という物質を取る。しかし地面に十分な窒素がないとき、開いた葉を使って昆虫を捕らえ、代わりに昆虫を食べる。昆虫の体に窒素が含まれるからだ。一部の科学者は、( 20 )ときにこれらの植物を利用できるとさえ提案している。開いた葉はその地域の地面の窒素が少ないことを意味する。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "There are many unique plants in the world.",
-                            "世界には多くのユニークな植物がある。"
-                        ],
-                        [
-                            "Plants can be put into groups according to their features.",
-                            "植物は特徴に応じてグループ分けできる。"
-                        ],
-                        [
-                            "Some plants eat insects, and there are more than six hundred kinds.",
-                            "植物が昆虫を食べるものは600種以上ある。"
-                        ],
-                        [
-                            "One of the ways is to attract insects to leaves that have a sweet smell.",
-                            "方法の一つは甘い匂いの葉に昆虫を引き寄せることだ。"
-                        ],
-                        [
-                            "The leaves are closed and filled with a substance that breaks down their bodies.",
-                            "葉は閉じられ昆虫の体を分解する物質で満たされる。"
-                        ],
-                        [
-                            "Plants usually take nitrogen from the ground to grow.",
-                            "植物は通常、成長のために地面から窒素を取る。"
-                        ],
-                        [
-                            "When there is not enough nitrogen, they eat insects instead.",
-                            "十分な窒素がないとき代わりに昆虫を食べる。"
-                        ],
-                        [
-                            "Their open leaves mean that the ground has low nitrogen.",
-                            "開いた葉はその地域の窒素が少ないことを意味する。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 18,
-                            "choices": [
-                                "how plants grow in different places",
-                                "where plants grow in the natural world",
-                                "what plants use for their food source",
-                                "when plants bloom during the year"
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "異なる場所での成長方法→グループ分けの基準として不適切",
-                                "自然界での植物の生育場所→不適切",
-                                "植物が餌源として何を使うか→正解。💡 based on what they eat=食べるものによるグループ分け。昆虫を食べる植物の話",
-                                "植物が开花する時期→不適切"
-                            ]
-                        },
-                        {
-                            "number": 19,
-                            "choices": [
-                                "Once",
-                                "Even though",
-                                "Before",
-                                "Unless"
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "一度～すると→正解。💡 Once insects fall in, they can never get out=一度落ちたら出られない。永続的結果を示す",
-                                "～にもかかわらず→出られないとの因果が不適切",
-                                "～の前に→時系列が不適切",
-                                "～でない限り→二重否定で不適切"
-                            ]
-                        },
-                        {
-                            "number": 20,
-                            "choices": [
-                                "people find their way in the woods",
-                                "people check the condition of the soil",
-                                "there are too many dangerous insects",
-                                "there is no food or water for animals"
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "人が森で道を見つける→植物の用途に不適切",
-                                "人が土壌の状態を確認する→正解。💡 open leaves=low nitrogen→check soil condition(土壌状態の確認). 植物が土壌の窒素量の指標になる",
-                                "危険な昆虫が多すぎる→植物の用途に不適切",
-                                "動物の食料や水がない→不適切"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "A Bus System in Curitiba",
-                    "paragraphs": [
-                        "Curitiba, a city in Brazil, has experienced rapid population growth since the 1960s. To cope with the issue of the population growing too much, city planners originally thought of building a subway system and making the streets wider to allow more traffic on the roads. ( 21 ), a young mayor believed that this would cost the city too much and thought of another way to use what they already had. In particular, he decided to build a bus system using the roads that already existed.",
-                        "First, the mayor decided to turn the inner lanes of the road into bus-only lanes. By building bus stops between the inner lanes, buses traveling in both directions could share the same stops. In addition, passengers pay the same fare to go in the same direction regardless of the number of changes or distance. These ways were introduced ( 22 ). As a result, most of the residents of the city came to live within 400 meters of a bus stop, and the city buses make more than 20,000 trips a day.",
-                        "The number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to ( 23 ). This method not only solves environmental problems but also helps people earn more money to improve their quality of life."
-                    ],
-                    "translations": [
-                        "ブラジルの都市クリチバは1960年代から急速な人口増加を経験してきた。人口増加への対処として、都市計画者たちは当初、地下鉄の建設と道路の拡張を考えた。( 21 )、若い市長はこれは費用がかかりすぎると考え、既存のものを活用する別の方法を考えた。特に既存の道路を使ったバスシステムの構築を決意した。",
-                        "まず市長は内側車線をバス専用車線にすることにした。内側車線の間にバス停を設置することで、両方向のバスが同じ停留所を共有できた。加えて乗客は乗り換え回数や距離に関係なく同一方向で同じ運賃を払う。これらの方法は( 22 )導入された。その結果、市民の大半がバス停から400メートル以内に住むようになり、市バスは1日2万回以上運行している。",
-                        "過去50年で市内の自家用車は急増した。しかし一人当たりのガソリン使用量はブラジルの他都市の約3分の1のままだ。多くの人が運転の代わりに効率的で信頼性の高いバスシステムを選んでいるからだ。バス運賃を低く抑えることで、より多くの人が( 23 )できる。この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Curitiba has experienced rapid population growth since the 1960s.",
-                            "クリチバは1960年代から急速な人口増加を経験してきた。"
-                        ],
-                        [
-                            "A young mayor believed that this would cost the city too much.",
-                            "若い市長はこれは費用がかかりすぎると考えた。"
-                        ],
-                        [
-                            "He decided to build a bus system using the roads that already existed.",
-                            "既存の道路を使ったバスシステムの構築を決意した。"
-                        ],
-                        [
-                            "Passengers pay the same fare regardless of the number of changes or distance.",
-                            "乗客は乗り換え回数や距離に関係なく同じ運賃を払う。"
-                        ],
-                        [
-                            "The gasoline used per person remains about one-third of that of other cities.",
-                            "一人当たりのガソリン使用量は他都市の約3分の1だ。"
-                        ],
-                        [
-                            "Many people choose to use the city's efficient and reliable bus system instead of driving.",
-                            "多くの人が運転の代わりに効率的で信頼性の高いバスシステムを選んでいる。"
-                        ],
-                        [
-                            "This method not only solves environmental problems but also helps people earn more money.",
-                            "この方法は環境問題を解決するだけでなく、人々の収入増にも役立つ。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 21,
-                            "choices": [
-                                "By the way",
-                                "However",
-                                "For one thing",
-                                "Of course"
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "ところで→話題転換に不適切",
-                                "しかし→正解。💡 planners thought of subway→However→mayor thought another way。計画の対比",
-                                "一つ目に→列挙ではない",
-                                "もちろん→対比の文脈に不適切"
-                            ]
-                        },
-                        {
-                            "number": 22,
-                            "choices": [
-                                "to make boarding easy and smooth",
-                                "to let the elderly take bus seats",
-                                "to decrease the number of passengers",
-                                "to reduce market competition"
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "乗車を簡単でスムーズにする→正解。💡 bus-only lanes+shared stops+same fare=boarding easy and smooth(乗車の簡便化)",
-                                "高齢者に席を譲る→本文にない",
-                                "乗客数を減らす→逆に増やす目的",
-                                "市場競争を減らす→不適切"
-                            ]
-                        },
-                        {
-                            "number": 23,
-                            "choices": [
-                                "drive their cars on weekends",
-                                "avoid spending money on education",
-                                "promote the bus system to other cities",
-                                "take buses to work in the city"
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "週末に車を運転する→低運賃の効果に不適切",
-                                "教育費を避ける→不適切",
-                                "バスシステムを他都市に宣伝→不適切",
-                                "市内でバス通勤する→正解。💡 low fares→more people take buses→earn more money(通勤コスト削減→収入増)"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問3",
-            "nameEn": "Part 3",
-            "type": "reading-comprehension",
-            "instruction": "次の英文A，Bの内容に関して，(24)から(31)までの質問に対して最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Follow-up on the Interview",
-                    "format": "email",
-                    "meta": {
-                        "from": "Emma Passi",
-                        "to": "Takeru Chen",
-                        "date": "February 21",
-                        "subject": "Follow-up on the interview"
-                    },
-                    "paragraphs": [
-                        "Thank you for attending the first interview for the position at the International Student Center. Probably due to our recent appearance in the media and the increase in followers on our social media accounts, we had many more people interested in this position than usual. We sincerely apologize for keeping you waiting before finally inviting you to the interview. Additionally, we made you wait another two weeks after the first interview.",
-                        "I'm writing this e-mail because I'd like to ask you to provide the result of an official language test that proves your language ability. We all know that you speak good English from the interview, but we still need the document as part of our process. Since many of our students speak English, we can make them feel comfortable by demonstrating the language ability of each worker here.",
-                        "I would like to invite you to the next interview. This time, you will be speaking with people working at the center. We have different events happening every day and would like to discuss in the interview how you would handle them. Two people from the center will be joining us on that day. Our school will cover the cost of transportation this time, and I would like you to fill out the form sent with this e-mail to let us know which dates are convenient for you."
-                    ],
-                    "translations": [
-                        "インターナショナル・スチューデント・センターのポジションの第一次面接にご参加いただきありがとうございます。最近のメディアへの露出とSNSフォロワーの増加により、このポジションに通常よりも多くの方が興味を持ちました。面接にお招きするまでお待たせしたことを心よりお詫びいたします。さらに第一次面接後にもう2週間お待たせしました。",
-                        "このメールは、語学力を証明する公式な語学テストの結果をご提出いただきたくお送りしています。面接で英語が上手であることはわかっていますが、手続きの一環として書類が必要です。学生の多くが英語を話すため、各スタッフの語学力を示すことで学生が安心できるようにしています。",
-                        "次の面接にお招きしたいと思います。今回はセンターで働くスタッフとお話しいただきます。毎日さまざまなイベントがあるため、面接ではそれらをどのように対処するかを議論したいと思います。当日はセンターから2名が参加します。今回は学校が交通費を負担します。添付のフォームにご都合の良い日をご記入ください。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "We had many more people interested in this position than usual.",
-                            "このポジションに通常よりも多くの方が興味を持ちました。"
-                        ],
-                        [
-                            "We sincerely apologize for keeping you waiting.",
-                            "お待たせしたことを心よりお詫びいたします。"
-                        ],
-                        [
-                            "I'd like to ask you to provide the result of an official language test.",
-                            "公式な語学テストの結果をご提出いただきたい。"
-                        ],
-                        [
-                            "We can make them feel comfortable by demonstrating the language ability of each worker.",
-                            "各スタッフの語学力を示すことで学生が安心できるようにしています。"
-                        ],
-                        [
-                            "This time, you will be speaking with people working at the center.",
-                            "今回はセンターで働くスタッフとお話しいただきます。"
-                        ],
-                        [
-                            "We would like to discuss how you would handle different events.",
-                            "さまざまなイベントをどのように対処するかを議論したい。"
-                        ],
-                        [
-                            "Our school will cover the cost of transportation this time.",
-                            "今回は学校が交通費を負担します。"
-                        ],
-                        [
-                            "I would like you to fill out the form to let us know which dates are convenient.",
-                            "添付のフォームにご都合の良い日をご記入ください。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 24,
-                            "question": "More people were interested in the position because",
-                            "choices": [
-                                "the hiring process at the International Student Center was simpler this year.",
-                                "media reports about the International Student Center increased interest in the role.",
-                                "the International Student Center offered higher salaries than other positions.",
-                                "the International Student Center opened a social media account recently."
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "採用プロセスが簡単だった→本文にない",
-                                "メディア報道が関心を高めた→正解。💡 recent appearance in the media + increase in followers=メディア露出が関心を高めた",
-                                "高い給料を提示→本文にない",
-                                "最近SNSアカウントを開設→increase in followersであり開設ではない"
-                            ],
-                            "questionTranslation": "より多くの人がそのポジションに興味を持った理由は",
-                            "choiceTranslations": [
-                                "留学生センターの採用プロセスが今年は簡単だった。",
-                                "留学生センターに関するメディア報道が関心を高めた。",
-                                "留学生センターは他のポジションより高い給与を提示した。",
-                                "留学生センターが最近SNSアカウントを開設した。"
-                            ]
-                        },
-                        {
-                            "number": 25,
-                            "question": "Why does the International Student Center need a language test result?",
-                            "choices": [
-                                "To provide language training for new employees.",
-                                "To follow the rules of having employees with international backgrounds.",
-                                "To improve the language skills of the students.",
-                                "To make students feel at ease by showing the staff's language skills."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "新入社員の語学研修のため→本文にない",
-                                "国際的な背景を持つ従業員の規則→本文にない",
-                                "学生の語学力向上→本文にない",
-                                "スタッフの語学力を示して学生を安心させる→正解。💡 make them feel comfortable by demonstrating language ability"
-                            ],
-                            "questionTranslation": "留学生センターが語学テストの結果を必要とする理由は？",
-                            "choiceTranslations": [
-                                "新入社員に語学研修を提供するため。",
-                                "国際的な背景を持つ社員を雇用する規則に従うため。",
-                                "学生の語学力を向上させるため。",
-                                "スタッフの語学力を示して学生を安心させるため。"
-                            ]
-                        },
-                        {
-                            "number": 26,
-                            "question": "What is the purpose of the next interview?",
-                            "choices": [
-                                "To talk about handling daily tasks at the center.",
-                                "To show Takeru around the center and ask him about the place.",
-                                "To decide the details of Takeru's employment conditions.",
-                                "To have a group discussion on recent global issues."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "センターの日常業務の対処を話す→正解。💡 discuss how you would handle different events=日常のイベント対応の議論",
-                                "センターを案内する→本文にない",
-                                "雇用条件の詳細を決める→本文にない",
-                                "国際問題のグループディスカッション→本文にない"
-                            ],
-                            "questionTranslation": "次の面接の目的は何ですか？",
-                            "choiceTranslations": [
-                                "センターでの日常業務の処理について話す。",
-                                "タケルにセンターを案内し感想を聞く。",
-                                "タケルの雇用条件の詳細を決める。",
-                                "最近の国際的な問題についてグループ討論する。"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "Letter-Locking",
-                    "paragraphs": [
-                        "In Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that. If letters were sent as they were, just like a postcard today, anybody could read the content. Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique. Many regular letter writers also knew how to do it.",
-                        "There are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
-                        "Letter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
-                        "Some researchers studied 250,000 historical letters to gather data on letter-locking techniques. They used a collection of a lot of letters that were never delivered. This happened because, in some European countries, people had to pay to get their letters. They then took 3D pictures of a letter sent about 300 years ago. Using the latest technology, they succeeded in opening it on a computer screen and reading the content. This technology will likely improve people's understanding of history."
-                    ],
-                    "translations": [
-                        "ヨーロッパでは産業革命後の19世紀に封筒を使って手紙を入れることが一般的になったが、手紙はそれよりずっと前からコミュニケーションの道具として使われていた。手紙をそのまま送ると、今日のはがきのように誰でも内容を読めた。そのため他人に読まれたくない内容の手紙を送るために「レター・ロッキング」という技法が使われた。この技法を使ったのはスパイだけではなかった。多くの一般の手紙書きもその方法を知っていた。",
-                        "レター・ロッキングの技法は多数ある。簡単な方法の一つは手紙を何度か折り、最後の部分を折り目で作られたポケットに入れること。最も難しい方法は30以上の手順がある。何度も折り、小さな部分を切り取り、その部分を小さな穴に通す必要がある。正しく行うと手紙はしっかり閉じた状態を保つ。ロック部分を壊さずに開けることはできない。このため受取人は他の誰かが手紙を読もうとしたかどうかわかる。",
-                        "レター・ロッキングは安全に手紙を送りたい人には役立ったかもしれない。しかし歴史を研究する専門家にとっては問題だった。歴史研究者が文化や社会の情報を得る方法の一つは当時書かれた手紙を読むことだ。レター・ロッキングにより専門家が情報を得ることが困難になる。繊細な紙は損傷せずに開封することをさらに難しくする。さらにロッキング技法自体に価値があり、一度開封すると価値が失われる。",
-                        "研究者たちは25万通の歴史的手紙を調査してレター・ロッキング技法のデータを収集した。配達されなかった手紙のコレクションを使用した。一部のヨーロッパの国では手紙を受け取るために支払いが必要だったため配達されなかった。研究者たちは約300年前に送られた手紙の3D写真を撮影した。最新技術を使い、コンピュータ画面上で開封して内容を読むことに成功した。この技術は歴史の理解を向上させるだろう。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Using envelopes became common in the nineteenth century after the Industrial Revolution.",
-                            "封筒の使用は産業革命後の19世紀に一般的になった。"
-                        ],
-                        [
-                            "They used a technique called letter-locking.",
-                            "レター・ロッキングという技法が使われた。"
-                        ],
-                        [
-                            "Spies were not the only ones who used this technique.",
-                            "この技法を使ったのはスパイだけではなかった。"
-                        ],
-                        [
-                            "The most difficult method has over thirty steps.",
-                            "最も難しい方法は30以上の手順がある。"
-                        ],
-                        [
-                            "The letters cannot be opened without breaking the lock part.",
-                            "ロック部分を壊さずに開けることはできない。"
-                        ],
-                        [
-                            "The delicate paper makes it harder for experts to open letters without damaging them.",
-                            "繊細な紙は損傷せずに開封することをさらに難しくする。"
-                        ],
-                        [
-                            "People had to pay to get their letters.",
-                            "手紙を受け取るために支払いが必要だった。"
-                        ],
-                        [
-                            "They succeeded in opening it on a computer screen and reading the content.",
-                            "コンピュータ画面上で開封して内容を読むことに成功した。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 27,
-                            "question": "The use of letter-locking techniques was",
-                            "choices": [
-                                "a difficult practice in Europe for security purposes.",
-                                "a common practice among those who sent letters.",
-                                "a limited practice for important documents between officials.",
-                                "an educational practice taught at schools throughout Europe."
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "セキュリティ目的の困難な行為→difficult practiceではない",
-                                "手紙を送る人の間で一般的な行為→正解。💡 Many regular letter writers also knew how to do it=一般の手紙書きも知っていた",
-                                "公文書に限られた行為→本文にない",
-                                "学校で教えられた教育的行為→本文にない"
-                            ],
-                            "questionTranslation": "レター・ロッキング技術の使用は",
-                            "choiceTranslations": [
-                                "セキュリティ目的でヨーロッパで困難な慣行だった。",
-                                "手紙を送る人々の間で一般的な慣行だった。",
-                                "役人間の重要な文書に限られた慣行だった。",
-                                "ヨーロッパ中の学校で教えられた教育的慣行だった。"
-                            ]
-                        },
-                        {
-                            "number": 28,
-                            "question": "One benefit of putting a cut part through a hole is to",
-                            "choices": [
-                                "allow the receiver to open the letter easily without a knife.",
-                                "prevent the letter from sticking to other letters.",
-                                "show evidence that someone tried to open the letter before.",
-                                "make sure that people can easily find the letter later."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "ナイフなしで簡単に開封→ロックなので開けにくくする",
-                                "他の手紙にくっつかない→本文にない",
-                                "誰かが開封しようとした証拠を示す→正解。💡 cannot be opened without breaking→intended receiver can know if somebody else tried=開封の痕跡がわかる",
-                                "後で見つけやすくする→本文にない"
-                            ],
-                            "questionTranslation": "切り込みを穴に通すことの利点の一つは",
-                            "choiceTranslations": [
-                                "受取人がナイフなしで簡単に手紙を開けられる。",
-                                "手紙が他の手紙にくっつくのを防ぐ。",
-                                "誰かが以前に手紙を開けようとした証拠を示す。",
-                                "後で手紙を簡単に見つけられるようにする。"
-                            ]
-                        },
-                        {
-                            "number": 29,
-                            "question": "Why is it hard for experts to open letters that are closed with letter-locking techniques?",
-                            "choices": [
-                                "It reduces the value of letters that use letter-locking techniques.",
-                                "It can make the family of receivers of the letters angry.",
-                                "It causes letters written in ink to disappear in the process.",
-                                "It shows the person who secretly wrote the letter."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "レター・ロッキング技法の価値を下げる→正解。💡 the letter-locking technique itself is valuable, its value will be lost once opened=開封すると技法自体の価値が失われる",
-                                "受取人の家族が怒る→本文にない",
-                                "インクの文字が消える→本文にない",
-                                "密かに書いた人が判明→本文にない"
-                            ],
-                            "questionTranslation": "専門家がレター・ロッキング技術で閉じられた手紙を開けるのが難しい理由は？",
-                            "choiceTranslations": [
-                                "レター・ロッキング技術を使った手紙の価値が下がる。",
-                                "手紙の受取人の家族を怒らせる可能性がある。",
-                                "インクで書かれた手紙が処理中に消えてしまう。",
-                                "秘密裏に手紙を書いた人物が明らかになる。"
-                            ]
-                        },
-                        {
-                            "number": 30,
-                            "question": "Why were the letters in the collection not delivered?",
-                            "choices": [
-                                "There were not enough people who delivered letters.",
-                                "National security information was included in them.",
-                                "They were damaged and difficult to deliver.",
-                                "The money required to receive them was not paid."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "配達する人が足りなかった→本文にない",
-                                "国家安全保障情報が含まれていた→本文にない",
-                                "損傷して配達困難だった→本文にない",
-                                "受け取りに必要な金銭が支払われなかった→正解。💡 people had to pay to get their letters=受け取りに支払いが必要→支払われなかったため未配達"
-                            ],
-                            "questionTranslation": "コレクションの手紙が配達されなかった理由は？",
-                            "choiceTranslations": [
-                                "手紙を配達する人が十分にいなかった。",
-                                "国家安全保障の情報が含まれていた。",
-                                "損傷して配達が困難だった。",
-                                "受け取りに必要な料金が支払われなかった。"
-                            ]
-                        },
-                        {
-                            "number": 31,
-                            "question": "Which of the following statements is true?",
-                            "choices": [
-                                "The use of envelopes in Europe increased after the Industrial Revolution.",
-                                "Most letter-locking techniques needed more than thirty steps to complete.",
-                                "The research team gathered data on different letters without a 3D machine.",
-                                "Letter-locking techniques are no longer meaningful to understand a letter's value."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "産業革命後にヨーロッパで封筒の使用が増えた→正解。💡 using envelopes became common in the 19th century after the Industrial Revolution",
-                                "ほとんどのロッキング技法は30以上の手順→most difficultだけが30以上なので「ほとんど」は不正確",
-                                "3D機器なしでデータ収集→3D pictures of a letterを撮影した",
-                                "ロッキング技法はもはや意味がない→valuable(価値がある)と矛盾"
-                            ],
-                            "questionTranslation": "次のうち正しい記述はどれですか？",
-                            "choiceTranslations": [
-                                "ヨーロッパでの封筒の使用は産業革命後に増加した。",
-                                "ほとんどのレター・ロッキング技術は完了するのに30以上のステップが必要だった。",
-                                "研究チームは3Dマシンなしで異なる手紙のデータを収集した。",
-                                "レター・ロッキング技術は手紙の価値を理解するためにもはや意味がない。"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "lessonPlan": {
-        "focusPoints": [
-            {
-                "id": "fp1",
-                "title": "not only A but also B（相関接続詞）",
-                "subtitle": "Correlative Conjunction: Not Only...But Also",
-                "explanation": "not only A but also B は「AだけでなくBも」と2つの要素を並列して追加情報を強調する。長文で筆者が複数の利点・効果を述べる際に頻出。",
-                "sourceQuote": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
-                "sourceLocation": "Part 2B",
-                "examples": [
-                    {
-                        "en": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
-                        "ja": "この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
-                        "note": "not only solves + but also helps: 動詞を並列。2つの効果を強調。"
-                    },
-                    {
-                        "en": "Keeping bus fares low also allows more people to take buses to work in the city.",
-                        "ja": "バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようにもなる。",
-                        "note": "allow + O + to V: 「Oが〜するのを可能にする」"
-                    },
-                    {
-                        "en": "She not only speaks English but also writes it fluently.",
-                        "ja": "彼女は英語を話すだけでなく、流暢に書くこともできる。",
-                        "note": "not only + V + but also + V: 動詞の並列パターン"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'not only solves environmental problems but also helps people earn more money' で述べられている2つの効果は何ですか？",
-                        "a": "①環境問題を解決する(solves environmental problems) ②人々がより多くのお金を稼いで生活の質を向上させる(helps people earn more money to improve their quality of life)"
-                    },
-                    {
-                        "q": "'one-third of that of other cities' の 'that' は何を指しますか？",
-                        "a": "ガソリン使用量(the gasoline used per person)。that = the gasoline used per person。繰り返しを避けるための代用表現。"
-                    },
-                    {
-                        "q": "車が増えたにもかかわらずガソリン使用量が少ない理由は何ですか？",
-                        "a": "多くの人が運転する代わりに効率的で信頼性の高いバスシステムを利用しているから(many people choose to use the city's efficient and reliable bus system instead of driving)。"
-                    },
-                    {
-                        "q": "バス運賃を低く抑えることの効果を説明してください。",
-                        "a": "より多くの人がバスで通勤できるようになり(allows more people to take buses to work)、結果として交通費が減ることで稼いだお金を生活改善に使える。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "not only solves environmental problems but also helps people earn more money"
-                ],
-                "highlightColor": "#FF6B6B",
-                "highlightLabel": "not only...but also",
-                "practicePassage": {
-                    "en": "[出典: A Bus System in Curitiba]\nThe number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to take buses to work in the city. This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
-                    "ja": "市内で個人所有の車の数は過去50年間で急速に増加した。しかし、一人当たりのガソリン使用量はブラジルの他の都市の約3分の1にとどまっている。これは、多くの人が運転する代わりに、市の効率的で信頼性の高いバスシステムを利用することを選んでいるからである。バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようになる。この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
-            },
-            {
-                "id": "fp2",
-                "title": "条件の Once（一度〜すると）",
-                "subtitle": "Conditional Conjunction 'Once'",
-                "explanation": "Once + S + V は「一度〜すると/〜したら」と、ある条件が満たされた後の不可逆な結果を述べる。if より強い確定性を持つ。",
-                "sourceQuote": "Once insects fall into the leaves, they can never get out.",
-                "sourceLocation": "Part 2A",
-                "examples": [
-                    {
-                        "en": "Once insects fall into the leaves, they can never get out.",
-                        "ja": "一度昆虫が葉に落ちると、二度と出られない。",
-                        "note": "Once + S + V(現在形): 「一度〜すると」不可逆の条件。can never: 強い否定。"
-                    },
-                    {
-                        "en": "The leaves are closed and filled with a substance that breaks down their bodies.",
-                        "ja": "葉は閉じられ、昆虫の体を分解する物質で満たされる。",
-                        "note": "that breaks down: 関係代名詞。a substance(先行詞) + that(主格) + breaks down(V)"
-                    },
-                    {
-                        "en": "Once you understand the basics, everything else becomes easier.",
-                        "ja": "基本を理解すれば、あとは全て簡単になる。",
-                        "note": "Once + 現在形: 一度〜すれば、の後は自動的にそうなる"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'Once insects fall into the leaves, they can never get out' の 'Once' はどのような意味ですか？",
-                        "a": "「一度〜すると」。条件の接続詞。昆虫が落ちたら後戻りできないという不可逆性を強調。can never で「決して〜できない」。"
-                    },
-                    {
-                        "q": "この段落で述べられている2つの昆虫の捕まえ方を説明してください。",
-                        "a": "①甘い匂いの袋型の葉に誘い込み閉じ込める方法 ②粘着性のある滴がついた葉で呼吸を封じる方法"
-                    },
-                    {
-                        "q": "'a substance that breaks down their bodies' の 'that' は何ですか？",
-                        "a": "関係代名詞（主格）。先行詞はa substance。「昆虫の体を分解する物質」。breaks downは「分解する」という句動詞。"
-                    },
-                    {
-                        "q": "'Therefore, they die.' の 'Therefore' は何に対する結果ですか？",
-                        "a": "粘着性の滴が昆虫の体を覆い呼吸ができなくなること。呼吸不能→死という因果関係を示す。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "Once insects fall into the leaves, they can never get out"
-                ],
-                "highlightColor": "#4ECDC4",
-                "highlightLabel": "条件の Once",
-                "practicePassage": {
-                    "en": "[出典: Plants That Eat Insects]\nThere are several ways in which those plants catch insects. One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags. When an insect enters one of the bags, the plant then closes the bag around it. Once insects fall into the leaves, they can never get out. The leaves are closed and filled with a substance that breaks down their bodies. Another way is to use leaves with sticky drops. When insects stop on the leaves, the drops cover their bodies, and they cannot breathe. Therefore, they die.",
-                    "ja": "これらの植物が昆虫を捕まえる方法はいくつかある。一つの方法は、甘い匂いがして小さな袋のような形をした葉に昆虫を引き寄せることである。昆虫が袋の一つに入ると、植物はその周りの袋を閉じる。一度昆虫が葉に落ちると、二度と出られない。葉は閉じられ、昆虫の体を分解する物質で満たされる。もう一つの方法は、粘着性のある滴がついた葉を使うことである。昆虫が葉に止まると、滴が体を覆い、呼吸ができなくなる。そのため、死んでしまう。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
-            },
-            {
-                "id": "fp3",
-                "title": "make it + C + for A + to V（形式目的語）",
-                "subtitle": "Make with Formal Object for Evaluation",
-                "explanation": "make + it + 形容詞 + for A + to V は「Aが〜することを…にする」。因果関係の中で障害や困難の原因を述べる際に使われる重要構文。",
-                "sourceQuote": "Letter-locking techniques make it difficult for experts to get such information.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "Letter-locking techniques make it difficult for experts to get such information.",
-                        "ja": "手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。",
-                        "note": "make + it(形式O) + difficult(C) + for experts(意味上の主語) + to get(真のO)"
-                    },
-                    {
-                        "en": "The delicate paper makes it harder for experts to open letters without damaging them.",
-                        "ja": "繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。",
-                        "note": "makes it harder: 比較級を使ったmake+it+C構文"
-                    },
-                    {
-                        "en": "The internet has made it easier for people to access information.",
-                        "ja": "インターネットにより、人々が情報にアクセスすることが容易になった。",
-                        "note": "has made + it + easier + for people + to access: 肯定的な変化"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'make it difficult for experts to get such information' の構文を分析してください。",
-                        "a": "make(V) + it(形式目的語) + difficult(C) + for experts(意味上の主語) + to get such information(真の目的語)。「専門家が情報を得ることを困難にする」。"
-                    },
-                    {
-                        "q": "歴史学者にとって手紙の封緘技術が困難な理由を2つ答えてください。",
-                        "a": "①繊細な紙のため傷つけずに開けるのが難しい(delicate paper makes it harder to open without damaging) ②封緘技術自体に価値があり開けると失われる(its value will be lost once opened)"
-                    },
-                    {
-                        "q": "'its value will be lost once opened' の 'once opened' はどのような表現ですか？",
-                        "a": "分詞構文の省略形。once (it is) opened = 「一度開けたら」。once + 過去分詞で条件を簡潔に表す。"
-                    },
-                    {
-                        "q": "手紙の封緘技術は歴史研究にとってなぜ重要ですか？",
-                        "a": "当時書かれた手紙を読むことが文化や社会の情報を得る手段(one way through which people get information about cultures and society)だから。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "make it difficult for experts to get such information",
-                    "makes it harder for experts to open letters without damaging them"
-                ],
-                "highlightColor": "#45B7D1",
-                "highlightLabel": "make it C for A to V",
-                "practicePassage": {
-                    "en": "[出典: Letter-Locking]\nLetter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
-                    "ja": "手紙の封緘技術は、手紙を安全に送りたい人々を助けたかもしれない。しかし、歴史を研究する専門家にとっては問題となっている。歴史を研究する人々が文化や社会についての情報を得るための一つの方法は、当時書かれた手紙を読むことである。手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。さらに、封緘技術そのものに価値があり、一度開けたらその価値は失われてしまう。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
-            },
-            {
-                "id": "fp4",
-                "title": "cannot ... without -ing（〜せずには…できない）",
-                "subtitle": "Double Negative with Without",
-                "explanation": "cannot + V + without + -ing は「〜せずには…できない」と二重否定で「必ず〜する」を意味する。手紙を開けるには壊す必要がある、など不可避な関係を表す。",
-                "sourceQuote": "The letters cannot be opened without breaking the lock part.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "The letters cannot be opened without breaking the lock part.",
-                        "ja": "手紙はロック部分を壊さなければ開けることができない。",
-                        "note": "cannot be opened + without breaking: 「壊さずには開けられない」=「開けるには壊す必要がある」"
-                    },
-                    {
-                        "en": "Because of this, the intended receiver can know if somebody else has tried to read the letter.",
-                        "ja": "このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
-                        "note": "can know if: 「〜かどうかを知ることができる」。ifは「〜かどうか」の間接疑問。"
-                    },
-                    {
-                        "en": "You cannot learn a language without practicing it every day.",
-                        "ja": "毎日練習しなければ言語を学ぶことはできない。",
-                        "note": "cannot + V + without + -ing: 二重否定 = 「練習すれば必ず学べる」"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'cannot be opened without breaking the lock part' はどのような意味ですか？",
-                        "a": "「ロック部分を壊さずには開けられない」=「開けるには必ずロックを壊す必要がある」。cannot + without の二重否定で不可避の関係を表す。"
-                    },
-                    {
-                        "q": "手紙の封緘の最も難しい方法は何工程ありますか？",
-                        "a": "30以上の工程(over thirty steps)。何度も折り、小さな部分を切り取り、小さな穴に通す。"
-                    },
-                    {
-                        "q": "'the intended receiver can know if somebody else has tried to read the letter' の仕組みを説明してください。",
-                        "a": "ロック部分を壊さないと開けられないので、もし壊されていれば第三者が読もうとした証拠になる。封緘の完全性がセキュリティの役割を果たす。"
-                    },
-                    {
-                        "q": "'the letters hold themselves closed tightly' の 'hold themselves closed' はどのような構文ですか？",
-                        "a": "hold + O(themselves) + C(closed): 「自らを閉じた状態に保つ」。再帰代名詞themselvesが目的語で、接着剤なしに紙自体が閉じた状態を維持する。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "cannot be opened without breaking the lock part"
-                ],
-                "highlightColor": "#96CEB4",
-                "highlightLabel": "cannot without",
-                "practicePassage": {
-                    "en": "[出典: Letter-Locking]\nThere are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
-                    "ja": "手紙の封緘技術には多くの異なる方法がある。一つの単純な方法は、手紙を何度も折り、最後の部分を折り目によってできたポケットに入れることである。折ることで手紙を安全にする最も難しい方法は30以上の工程がある。手紙を何度も折り、小さな部分を切り取り、それらの部分を小さな穴に通す必要がある。これらの工程が正しく行われると、手紙はしっかりと閉じた状態を保つ。手紙はロック部分を壊さなければ開けることができない。このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
-            },
-            {
-                "id": "fp5",
-                "title": "今回の重要なパラフレーズ",
-                "subtitle": "Key Paraphrases",
-                "explanation": "正解には本文と異なる表現が使われる。特にメール問題では「依頼の意図」を読む力が問われる。",
-                "sourceQuote": "①media reports increased interest ← appearance in the media + increase in followers\n②feel at ease by showing skills ← feel comfortable by demonstrating ability\n③handling daily tasks ← how you would handle different events\n④common practice ← not only spies, regular writers also knew\n⑤evidence someone tried ← cannot be opened without breaking",
-                "sourceLocation": "Part 3 全体",
-                "examples": [
-                    {
-                        "en": "media reports increased interest = appearance in the media + increase in followers",
-                        "ja": "メディア報道が関心を高めた = メディア露出+フォロワー増",
-                        "note": "原因の要約的言い換え"
-                    },
-                    {
-                        "en": "handling daily tasks = how you would handle different events",
-                        "ja": "日常業務の対処 = 異なるイベントへの対応方法",
-                        "note": "daily tasks=events(毎日あるイベント)"
-                    },
-                    {
-                        "en": "common practice = not only spies, regular writers also knew",
-                        "ja": "一般的な行為 = スパイだけでなく一般人も知っていた",
-                        "note": "common=広く知られていた"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'not the only ones who did not want others to read their letters' を言い換えてください。",
-                        "a": "'other people also desired privacy for their correspondence'。not the only ones = others too。"
-                    },
-                    {
-                        "q": "'became common in the nineteenth century' を言い換えてください。",
-                        "a": "'gained widespread use during the 1800s'。became common = gained widespread use。"
-                    },
-                    {
-                        "q": "'did not want others to read their letters' を別の表現で言い換えると？",
-                        "a": "'wished to keep their correspondence private'。did not want others to read = wished to keep private。"
-                    },
-                    {
-                        "q": "封筒以前の手紙の保護方法を要約してください。",
-                        "a": "手紙自体を折りたたんで封をするレターロッキング。何世紀もヨーロッパ・アジア・中東で使用。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "not the only ones",
-                    "not want others",
-                    "envelopes"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "パラフレーズ",
-                "practicePassage": {
-                    "en": "[出典: Letter-Locking]\nIn Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that. If letters were sent as they were, just like a postcard today, anybody could read the content. Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique. Many regular letter writers also knew how to do it.",
-                    "ja": "ヨーロッパでは、手紙を入れるために封筒を使うことが19世紀に一般的になった。しかし、封筒が普及する以前から、人々は手紙を他人に読まれたくないと考えていた。封筒が一般的になる前は、手紙自体を折りたたんで封をする方法が使われていた。この技法はレターロッキングと呼ばれ、何世紀にもわたって世界中で使われていた。ヨーロッパだけでなく、アジアや中東でも同様の技法が見られた。",
-                    "audioFile": "audio/practice_pp5.mp3"
-                }
-            }
-        ]
+  "grade": "2級",
+  "year": "2025",
+  "session": "1-sat",
+  "title": "2025年度 第1回（準会場）英語資格検定2級 リーディング",
+  "vocabulary": [
+    {
+      "word": "wound",
+      "meaning": "傷",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "A nurse cleaned the wound.",
+      "distractors": [
+        "索引",
+        "敵",
+        "過失"
+      ],
+      "wordAudio": "audio/vocab/w_001_wound.mp3"
+    },
+    {
+      "word": "eastern",
+      "meaning": "東の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Tracy's apartment is on the eastern side.",
+      "distractors": [
+        "正確な",
+        "湿気の多い",
+        "成熟した"
+      ],
+      "wordAudio": "audio/vocab/w_002_eastern.mp3"
+    },
+    {
+      "word": "occasionally",
+      "meaning": "たまに",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "I occasionally go skiing with my sister.",
+      "distractors": [
+        "常に",
+        "頻繁に",
+        "毎年"
+      ],
+      "wordAudio": "audio/vocab/w_003_occasionally.mp3"
+    },
+    {
+      "word": "contract",
+      "meaning": "契約",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Tim signed a contract on his first day.",
+      "distractors": [
+        "贅沢",
+        "工場",
+        "評判"
+      ],
+      "wordAudio": "audio/vocab/w_004_contract.mp3"
+    },
+    {
+      "word": "nutrition",
+      "meaning": "栄養",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "He read about the nutrition in energy drinks.",
+      "distractors": [
+        "勝利",
+        "反対",
+        "失敗"
+      ],
+      "wordAudio": "audio/vocab/w_005_nutrition.mp3"
+    },
+    {
+      "word": "monument",
+      "meaning": "記念碑",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "They decided to build a monument in front of town hall.",
+      "distractors": [
+        "予算",
+        "砂漠",
+        "クリケット"
+      ],
+      "wordAudio": "audio/vocab/w_006_monument.mp3"
+    },
+    {
+      "word": "roar",
+      "meaning": "ほえる",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "He heard a lion roar on the first night.",
+      "distractors": [
+        "祈る",
+        "ちらっと見る",
+        "薄れる"
+      ],
+      "wordAudio": "audio/vocab/w_007_roar.mp3"
+    },
+    {
+      "word": "seek",
+      "meaning": "探す",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "She decided to seek some additional information online.",
+      "distractors": [
+        "注ぐ",
+        "変形する",
+        "守る"
+      ],
+      "wordAudio": "audio/vocab/w_008_seek.mp3"
+    },
+    {
+      "word": "evaluate",
+      "meaning": "評価する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Many companies regularly evaluate the performance of employees.",
+      "distractors": [
+        "捧げる",
+        "困らせる",
+        "妥協する"
+      ],
+      "wordAudio": "audio/vocab/w_009_evaluate.mp3"
+    },
+    {
+      "word": "sympathize",
+      "meaning": "同情する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "I totally sympathize with you.",
+      "distractors": [
+        "貢献する",
+        "強化する",
+        "改革する"
+      ],
+      "wordAudio": "audio/vocab/w_010_sympathize.mp3"
+    },
+    {
+      "word": "struggle with",
+      "meaning": "～に苦労する",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "I really struggle with Spanish grammar.",
+      "distractors": [
+        "足を踏み入れる",
+        "黙る",
+        "泊まる"
+      ],
+      "wordAudio": "audio/vocab/w_011_struggle_with.mp3"
+    },
+    {
+      "word": "mind one's own business",
+      "meaning": "自分のことに集中する",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "He told them to mind their own business.",
+      "distractors": [
+        "自業自得",
+        "自分の気持ちを傷つける",
+        "自分で決断する"
+      ],
+      "wordAudio": "audio/vocab/w_012_mind_one_s_own_business.mp3"
+    },
+    {
+      "word": "by all means",
+      "meaning": "ぜひ",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "By all means, go ahead.",
+      "distractors": [
+        "それどころか",
+        "ある程度",
+        "あらゆる面で"
+      ],
+      "wordAudio": "audio/vocab/w_013_by_all_means.mp3"
+    },
+    {
+      "word": "in a row",
+      "meaning": "連続で",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "Gina was late for school two days in a row.",
+      "distractors": [
+        "ダイエット中",
+        "一度に",
+        "しばらく"
+      ],
+      "wordAudio": "audio/vocab/w_014_in_a_row.mp3"
+    },
+    {
+      "word": "on behalf of",
+      "meaning": "～の代わりに",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "The vice president spoke on behalf of the president.",
+      "distractors": [
+        "～にもかかわらず",
+        "～を恐れて",
+        "～に関して"
+      ],
+      "wordAudio": "audio/vocab/w_015_on_behalf_of.mp3"
+    },
+    {
+      "word": "go over",
+      "meaning": "見直す",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "He asks a colleague to go over his slides.",
+      "distractors": [
+        "提出する",
+        "続ける",
+        "急ぐ"
+      ],
+      "wordAudio": "audio/vocab/w_016_go_over.mp3"
+    },
+    {
+      "word": "by far",
+      "meaning": "断然",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "He is by far the fastest runner on the team.",
+      "distractors": [
+        "念のため",
+        "せいぜい",
+        "搭乗して"
+      ],
+      "wordAudio": "audio/vocab/w_017_by_far.mp3"
+    },
+    {
+      "word": "nitrogen",
+      "meaning": "窒素",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Plants take nitrogen from the ground to grow.",
+      "distractors": [
+        "酸素",
+        "炭素",
+        "水素"
+      ],
+      "wordAudio": "audio/vocab/w_018_nitrogen.mp3"
+    },
+    {
+      "word": "substance",
+      "meaning": "物質",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "A substance that breaks down insect bodies.",
+      "distractors": [
+        "材料",
+        "液体",
+        "化合物"
+      ],
+      "wordAudio": "audio/vocab/w_019_substance.mp3"
+    },
+    {
+      "word": "lane",
+      "meaning": "車線",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The mayor turned inner lanes into bus-only lanes.",
+      "distractors": [
+        "道路",
+        "通路",
+        "歩道"
+      ],
+      "wordAudio": "audio/vocab/w_020_lane.mp3"
+    },
+    {
+      "word": "fare",
+      "meaning": "運賃",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Passengers pay the same fare regardless of distance.",
+      "distractors": [
+        "料金",
+        "切符",
+        "手数料"
+      ],
+      "wordAudio": "audio/vocab/w_021_fare.mp3"
+    },
+    {
+      "word": "envelope",
+      "meaning": "封筒",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Using envelopes to hold letters became common.",
+      "distractors": [
+        "手紙",
+        "便箋",
+        "切手"
+      ],
+      "wordAudio": "audio/vocab/w_022_envelope.mp3"
+    },
+    {
+      "word": "delicate",
+      "meaning": "繊細な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The delicate paper makes it harder to open letters.",
+      "distractors": [
+        "丈夫な",
+        "古い",
+        "厚い"
+      ],
+      "wordAudio": "audio/vocab/w_023_delicate.mp3"
+    },
+    {
+      "word": "technique",
+      "meaning": "技術",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "They used a technique called letter-locking.",
+      "distractors": [
+        "方法",
+        "道具",
+        "材料"
+      ],
+      "wordAudio": "audio/vocab/w_024_technique.mp3"
+    },
+    {
+      "word": "carnivorous",
+      "meaning": "肉食の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Some plants are carnivorous and eat insects.",
+      "distractors": [
+        "草食の",
+        "雑食の",
+        "植物性の"
+      ],
+      "wordAudio": "audio/vocab/w_025_carnivorous.mp3"
+    },
+    {
+      "word": "attracted",
+      "meaning": "引きつけられた",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The insects are attracted by the sweet smell.",
+      "distractors": [
+        "追い出された",
+        "無視された",
+        "嫌がった"
+      ],
+      "wordAudio": "audio/vocab/w_026_attracted.mp3"
+    },
+    {
+      "word": "digest",
+      "meaning": "消化する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The plant digests the insect over several days.",
+      "distractors": [
+        "吸収する",
+        "排出する",
+        "分解する"
+      ],
+      "wordAudio": "audio/vocab/w_027_digest.mp3"
+    },
+    {
+      "word": "soil",
+      "meaning": "土壌",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "These plants grow in poor soil with few nutrients.",
+      "distractors": [
+        "砂",
+        "岩",
+        "泥"
+      ],
+      "wordAudio": "audio/vocab/w_028_soil.mp3"
+    },
+    {
+      "word": "nutrient",
+      "meaning": "栄養素",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The plants get nutrients from the insects they catch.",
+      "distractors": [
+        "水分",
+        "酸素",
+        "光"
+      ],
+      "wordAudio": "audio/vocab/w_029_nutrient.mp3"
+    },
+    {
+      "word": "trap",
+      "meaning": "罠にかける",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Venus flytraps use their leaves to trap insects.",
+      "distractors": [
+        "追いかける",
+        "観察する",
+        "飼育する"
+      ],
+      "wordAudio": "audio/vocab/w_030_trap.mp3"
+    },
+    {
+      "word": "prey",
+      "meaning": "獲物",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Insects become prey for these unusual plants.",
+      "distractors": [
+        "仲間",
+        "敵",
+        "観客"
+      ],
+      "wordAudio": "audio/vocab/w_031_prey.mp3"
+    },
+    {
+      "word": "transit",
+      "meaning": "交通機関",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The city developed a new transit system.",
+      "distractors": [
+        "通信",
+        "輸送",
+        "貿易"
+      ],
+      "wordAudio": "audio/vocab/w_032_transit.mp3"
+    },
+    {
+      "word": "efficient",
+      "meaning": "効率的な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The bus system is highly efficient.",
+      "distractors": [
+        "非効率な",
+        "高価な",
+        "複雑な"
+      ],
+      "wordAudio": "audio/vocab/w_033_efficient.mp3"
+    },
+    {
+      "word": "passenger",
+      "meaning": "乗客",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The system carries thousands of passengers daily.",
+      "distractors": [
+        "運転手",
+        "整備士",
+        "管理者"
+      ],
+      "wordAudio": "audio/vocab/w_034_passenger.mp3"
+    },
+    {
+      "word": "dedicated",
+      "meaning": "専用の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Buses run in dedicated lanes to avoid traffic.",
+      "distractors": [
+        "一般的な",
+        "共有の",
+        "臨時の"
+      ],
+      "wordAudio": "audio/vocab/w_035_dedicated.mp3"
+    },
+    {
+      "word": "candidate",
+      "meaning": "候補者",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "She was considered a strong candidate for the position.",
+      "distractors": [
+        "審査員",
+        "面接官",
+        "管理者"
+      ],
+      "wordAudio": "audio/vocab/w_036_candidate.mp3"
+    },
+    {
+      "word": "resume",
+      "meaning": "履歴書",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Please send your resume before the deadline.",
+      "distractors": [
+        "手紙",
+        "報告書",
+        "申請書"
+      ],
+      "wordAudio": "audio/vocab/w_037_resume.mp3"
+    },
+    {
+      "word": "reference",
+      "meaning": "推薦状",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "We need two references from previous employers.",
+      "distractors": [
+        "契約書",
+        "請求書",
+        "領収書"
+      ],
+      "wordAudio": "audio/vocab/w_038_reference.mp3"
+    },
+    {
+      "word": "qualify",
+      "meaning": "資格を得る",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "She qualified for the position with her experience.",
+      "distractors": [
+        "辞退する",
+        "応募する",
+        "拒否する"
+      ],
+      "wordAudio": "audio/vocab/w_039_qualify.mp3"
+    },
+    {
+      "word": "seal",
+      "meaning": "封をする",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Letters were sealed using a special folding technique.",
+      "distractors": [
+        "開ける",
+        "破る",
+        "書く"
+      ],
+      "wordAudio": "audio/vocab/w_040_seal.mp3"
+    },
+    {
+      "word": "fold",
+      "meaning": "折りたたむ",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The paper was folded in a complex pattern.",
+      "distractors": [
+        "切る",
+        "貼る",
+        "破る"
+      ],
+      "wordAudio": "audio/vocab/w_041_fold.mp3"
+    },
+    {
+      "word": "privacy",
+      "meaning": "プライバシー",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Letter-locking was used to protect privacy.",
+      "distractors": [
+        "安全",
+        "秘密",
+        "権利"
+      ],
+      "wordAudio": "audio/vocab/w_042_privacy.mp3"
+    },
+    {
+      "word": "tamper",
+      "meaning": "改ざんする",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "If someone tampered with the letter, it would be obvious.",
+      "distractors": [
+        "読む",
+        "送る",
+        "受け取る"
+      ],
+      "wordAudio": "audio/vocab/w_043_tamper.mp3"
+    },
+    {
+      "word": "reveal",
+      "meaning": "明らかにする",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Opening the letter would reveal if it had been read.",
+      "distractors": [
+        "隠す",
+        "暗号化する",
+        "破壊する"
+      ],
+      "wordAudio": "audio/vocab/w_044_reveal.mp3"
+    },
+    {
+      "word": "intricate",
+      "meaning": "複雑な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The intricate folding patterns were difficult to copy.",
+      "distractors": [
+        "単純な",
+        "平凡な",
+        "普通の"
+      ],
+      "wordAudio": "audio/vocab/w_045_intricate.mp3"
+    },
+    {
+      "word": "correspond",
+      "meaning": "文通する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "People corresponded using handwritten letters.",
+      "distractors": [
+        "会話する",
+        "電話する",
+        "訪問する"
+      ],
+      "wordAudio": "audio/vocab/w_046_correspond.mp3"
+    },
+    {
+      "word": "diplomat",
+      "meaning": "外交官",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Diplomats used letter-locking to protect sensitive information.",
+      "distractors": [
+        "政治家",
+        "軍人",
+        "商人"
+      ],
+      "wordAudio": "audio/vocab/w_047_diplomat.mp3"
+    },
+    {
+      "word": "preserve",
+      "meaning": "保存する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Researchers are working to preserve these historical letters.",
+      "distractors": [
+        "処分する",
+        "複製する",
+        "翻訳する"
+      ],
+      "wordAudio": "audio/vocab/w_048_preserve.mp3"
+    },
+    {
+      "word": "unfold",
+      "meaning": "広げる",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "They carefully unfolded the ancient letters for study.",
+      "distractors": [
+        "折りたたむ",
+        "封をする",
+        "切る"
+      ],
+      "wordAudio": "audio/vocab/w_049_unfold.mp3"
+    },
+    {
+      "word": "authentic",
+      "meaning": "本物の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "They could verify if a letter was authentic.",
+      "distractors": [
+        "偽の",
+        "複製の",
+        "古い"
+      ],
+      "wordAudio": "audio/vocab/w_050_authentic.mp3"
+    },
+    {
+      "word": "insectivorous",
+      "meaning": "食虫の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Insectivorous plants use clever traps to catch insects.",
+      "distractors": [
+        "草食の",
+        "肉食の",
+        "雑食の"
+      ],
+      "wordAudio": "audio/vocab/w_051_insectivorous.mp3"
     }
+  ],
+  "sections": [
+    {
+      "name": "大問1",
+      "nameEn": "Part 1",
+      "type": "vocabulary",
+      "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Bob went to the hospital because he cut his knee. A nurse cleaned the ( 1 ), then a doctor looked at it. The doctor said that it would heal in a few weeks.",
+          "translation": "ボブは膝を切ったので病院に行った。看護師が( 1 )を洗浄し、医師が見た。数週間で治ると言われた。",
+          "choices": [
+            "wound",
+            "index",
+            "enemy",
+            "fault"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "wound=傷→正解。💡 cut his knee→nurse cleaned the wound。膝の切り傷=wound",
+            "index=索引→不適切",
+            "enemy=敵→不適切",
+            "fault=過失→不適切"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Tracy's apartment is on the ( 2 ) side of the building, so she can see the sunrise from her window. Unfortunately, she cannot see the sunset.",
+          "translation": "トレイシーのアパートは建物の( 2 )側にあるので、窓から日の出が見える。残念ながら日の入りは見えない。",
+          "choices": [
+            "precise",
+            "eastern",
+            "humid",
+            "mature"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "precise=正確な→方角に不適切",
+            "eastern=東の→正解。💡 sunrise(日の出)=east(東)。sunset見えない=西ではない→eastern",
+            "humid=湿気の多い→不適切",
+            "mature=成熟した→不適切"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "A : Do you do a lot of winter sports?\nB : Not really, but I ( 3 ) go skiing with my sister. Usually once every three years.",
+          "translation": "A：冬のスポーツをたくさんする？\nB：あまり。でも( 3 )姉とスキーに行くよ。3年に1回くらい。",
+          "choices": [
+            "constantly",
+            "occasionally",
+            "frequently",
+            "annually"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "constantly=常に→once every three yearsと矛盾",
+            "occasionally=たまに→正解。💡 once every three years=3年に1回=occasionally(たまに)",
+            "frequently=頻繁に→3年に1回では頻繁ではない",
+            "annually=毎年→3年に1回なので毎年ではない"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "On his first day at his new job, Tim signed a ( 4 ). It said that he would work for the company for at least two years.",
+          "translation": "新しい仕事の初日に、ティムは( 4 )に署名した。少なくとも2年間会社で働くと書かれていた。",
+          "choices": [
+            "luxury",
+            "factory",
+            "contract",
+            "reputation"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "luxury=贅沢→不適切",
+            "factory=工場→不適切",
+            "contract=契約→正解。💡 signed+work for at least two years=労働契約に署名",
+            "reputation=評判→不適切"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Greg wanted to make sure that the energy drinks at the store were healthy. He checked online and read about the ( 5 ) in them before he bought some.",
+          "translation": "グレッグは店のエナジードリンクが健康的か確認したかった。買う前にオンラインで( 5 )について調べた。",
+          "choices": [
+            "triumph",
+            "opposition",
+            "failure",
+            "nutrition"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "triumph=勝利→不適切",
+            "opposition=反対→不適切",
+            "failure=失敗→不適切",
+            "nutrition=栄養→正解。💡 healthy + energy drinks=栄養(nutrition)を確認"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "To celebrate 250 years since the town of Trentham was established, the current residents decided to build a ( 6 ) in front of the town hall.",
+          "translation": "トレンサムの町の創設250周年を記念して、現在の住民は市庁舎の前に( 6 )を建てることにした。",
+          "choices": [
+            "budget",
+            "desert",
+            "cricket",
+            "monument"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "budget=予算→建てるものではない",
+            "desert=砂漠→不適切",
+            "cricket=クリケット→不適切",
+            "monument=記念碑→正解。💡 celebrate 250 years=記念して→monument(記念碑)"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Sam went on a camping trip in Africa. On the first night, he heard a lion ( 7 ). The sound scared him, but his guide told him not to worry.",
+          "translation": "サムはアフリカにキャンプ旅行に行った。初夜にライオンの( 7 )を聞いた。怖かったが、ガイドに心配ないと言われた。",
+          "choices": [
+            "fade",
+            "roar",
+            "pray",
+            "glance"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "fade=薄れる→不適切",
+            "roar=ほえる→正解。💡 lion+sound scared him=ライオンのroar(ほえ声)",
+            "pray=祈る→不適切",
+            "glance=ちらっと見る→音の文脈に不適切"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Misaki could not find all the facts that she needed for her science project in the school library, so she decided to ( 8 ) some additional information online.",
+          "translation": "ミサキは学校の図書館で科学プロジェクトに必要な事実を全部見つけられなかったので、オンラインで追加情報を( 8 )することにした。",
+          "choices": [
+            "seek",
+            "pour",
+            "transform",
+            "defend"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "seek=探す→正解。💡 could not find→seek additional information(追加情報を探す)",
+            "pour=注ぐ→不適切",
+            "transform=変形する→不適切",
+            "defend=守る→不適切"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "These days, many companies regularly ( 9 ) the performance of their employees. Managers check to see if staff members have been able to achieve their goals.",
+          "translation": "最近では多くの企業が社員のパフォーマンスを定期的に( 9 )する。マネージャーがスタッフが目標を達成できているか確認する。",
+          "choices": [
+            "evaluate",
+            "annoy",
+            "compromise",
+            "dedicate"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "evaluate=評価する→正解。💡 check performance+achieve goals=evaluate(評価する)",
+            "annoy=困らせる→不適切",
+            "compromise=妥協する→不適切",
+            "dedicate=捧げる→不適切"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "A : I can't believe it. My favorite band is going to stop playing music.\nB : I know how you feel. I really love that band, too. I totally ( 10 ) with you.",
+          "translation": "A：信じられない。お気に入りのバンドが音楽を止めるんだ。\nB：気持ちわかるよ。私もあのバンド大好き。完全に( 10 )するよ。",
+          "choices": [
+            "sympathize",
+            "contribute",
+            "reinforce",
+            "reform"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "sympathize=同情する→正解。💡 I know how you feel+love that band too=sympathize with(同情する)",
+            "contribute=貢献する→不適切",
+            "reinforce=強化する→不適切",
+            "reform=改革する→不適切"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "A : How are you getting on with your Spanish classes, Sarah?\nB : Well, I find the grammar quite difficult. I really ( 11 ) it.",
+          "translation": "A：サラ、スペイン語のクラスはどう？\nB：うーん、文法がかなり難しいの。本当に( 11 )。",
+          "choices": [
+            "step into",
+            "shut up",
+            "struggle with",
+            "sleep over"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "step into=足を踏み入れる→不適切",
+            "shut up=黙る→不適切",
+            "struggle with=～に苦労する→正解。💡 find grammar difficult=文法が難しい→struggle with(苦労する)",
+            "sleep over=泊まる→不適切"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "When people asked Steven why he had stopped seeing his ex-wife, he told them to ( 12 ). He did not want to talk about it.",
+          "translation": "スティーブンが元妻に会わなくなった理由を聞かれると、( 12 )ように言った。それについて話したくなかった。",
+          "choices": [
+            "take their own medicine",
+            "hurt their own feelings",
+            "make their own decisions",
+            "mind their own business"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "自業自得→文脈に不適切",
+            "自分の気持ちを傷つけろ→不適切",
+            "自分で決断しろ→不適切",
+            "自分のことに集中しろ→正解。💡 did not want to talk=話したくない→mind your own business=余計なお世話・口出しするな"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "A : Hi, Jamie. I was sick yesterday. Do you mind if I borrow your notes from math class?\nB : ( 13 ), go ahead. They're on my desk.",
+          "translation": "A：ジェイミー、昨日病気だったんだ。数学のノート借りてもいい？\nB：( 13 )、どうぞ。机の上にあるよ。",
+          "choices": [
+            "On the contrary",
+            "To some extent",
+            "In every aspect",
+            "By all means"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "On the contrary=それどころか→不適切",
+            "To some extent=ある程度→不適切",
+            "In every aspect=あらゆる面で→不適切",
+            "By all means=ぜひ→正解。💡 go ahead=どうぞ→By all means(ぜひ・もちろん)"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Gina was late for school two days ( 14 ), so her teacher gave her a warning. If she is late again tomorrow, she will be sent to the principal's office.",
+          "translation": "ジーナは( 14 )2日間学校に遅刻したので、先生に警告された。明日また遅刻すると校長室に送られる。",
+          "choices": [
+            "on a diet",
+            "in a row",
+            "at a time",
+            "for a while"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "on a diet=ダイエット中→不適切",
+            "in a row=連続で→正解。💡 two days in a row=2日連続で。late again tomorrow=さらに連続の可能性",
+            "at a time=一度に→不適切",
+            "for a while=しばらく→不適切"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "When the president could not attend the opening ceremony of the new library, the vice president spoke ( 15 ) the president.",
+          "translation": "社長が新図書館の開館式に出席できなかったとき、副社長が社長( 15 )スピーチした。",
+          "choices": [
+            "on behalf of",
+            "in spite of",
+            "for fear of",
+            "with regard to"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "on behalf of=～の代わりに→正解。💡 president could not attend→vice president spoke on behalf of(代理で)",
+            "in spite of=～にもかかわらず→不適切",
+            "for fear of=～を恐れて→不適切",
+            "with regard to=～に関して→不適切"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "Before the presentation, Mr. Smith always asks one of his colleagues to ( 16 ) his slides to check for mistakes.",
+          "translation": "プレゼンの前にスミス氏はいつも同僚に間違いがないかスライドを( 16 )してもらう。",
+          "choices": [
+            "hand in",
+            "carry on",
+            "hurry up",
+            "go over"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "hand in=提出する→不適切",
+            "carry on=続ける→不適切",
+            "hurry up=急ぐ→不適切",
+            "go over=見直す→正解。💡 check for mistakes=間違いチェック→go over(見直す)"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "A : Who is the fastest runner on the track team?\nB : That would be John. He is ( 17 ) the fastest runner on the team. In fact, he is the fastest runner in the whole school.",
+          "translation": "A：陸上部で一番速いのは誰？\nB：ジョンだね。チームで( 17 )一番速い。実は学校全体でも一番速い。",
+          "choices": [
+            "by far",
+            "in case",
+            "at most",
+            "on board"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "by far=断然→正解。💡 fastest on team + fastest in whole school=by far(断然・圧倒的に)",
+            "in case=念のため→不適切",
+            "at most=せいぜい→最上級に不適切",
+            "on board=搭乗して→不適切"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問2",
+      "nameEn": "Part 2",
+      "type": "passage-fill",
+      "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Plants That Eat Insects",
+          "paragraphs": [
+            "There are many unique plants in the world. Plants can be put into groups according to their features. For example, some plants have flowers, and others do not. Leaves of some trees stay green year-round, and those of others turn red or even fall off. There is still another interesting type of group. This grouping is based on ( 18 ). Some people might be surprised to know that some plants eat insects, and to most people's surprise, there are more than six hundred kinds of these plants in the world.",
+            "There are several ways in which those plants catch insects. One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags. When an insect enters one of the bags, the plant then closes the bag around it. ( 19 ) insects fall into the leaves, they can never get out. The leaves are closed and filled with a substance that breaks down their bodies. Another way is to use leaves with sticky drops. When insects stop on the leaves, the drops cover their bodies, and they cannot breathe. Therefore, they die.",
+            "Plants that catch insects grow in certain areas. Plants usually take nitrogen, a substance from the ground, to grow. However, when there is not enough nitrogen in the ground, they eat insects instead by using their open leaves to trap insects. This is because bodies of insects contain nitrogen. Some scientists even suggest that the plants can be used when ( 20 ). Their open leaves mean that the ground in those areas has low nitrogen."
+          ],
+          "translations": [
+            "世界には多くのユニークな植物がある。植物は特徴に応じてグループ分けできる。例えば、花を咲かせるものとそうでないもの。一年中緑のままの葉もあれば、赤くなったり落ちたりするものもある。さらに別の興味深いグループがある。このグループ分けは( 18 )に基づいている。植物が昆虫を食べると知って驚く人もいるだろうし、世界に600種以上のそのような植物があることに大部分の人は驚くだろう。",
+            "これらの植物が昆虫を捕まえる方法はいくつかある。方法の一つは、甘い匂いがして小さな袋のような形をした葉に昆虫を引き寄せることだ。昆虫が袋に入ると、植物は袋を閉じる。( 19 )昆虫が葉の中に落ちると、二度と出られない。葉は閉じられ、昆虫の体を分解する物質で満たされる。もう一つの方法は、粘着性のある滴がついた葉を使うことだ。昆虫が葉に止まると、滴が体を覆い、呼吸できなくなって死ぬ。",
+            "昆虫を捕まえる植物は特定の地域で育つ。植物は通常、成長のために地面から窒素という物質を取る。しかし地面に十分な窒素がないとき、開いた葉を使って昆虫を捕らえ、代わりに昆虫を食べる。昆虫の体に窒素が含まれるからだ。一部の科学者は、( 20 )ときにこれらの植物を利用できるとさえ提案している。開いた葉はその地域の地面の窒素が少ないことを意味する。"
+          ],
+          "sentencePairs": [
+            [
+              "There are many unique plants in the world.",
+              "世界には多くのユニークな植物がある。",
+              "There are many unique plants|世界にはたくさんの珍しい植物がある||in the world.|世界に。",
+              "are"
+            ],
+            [
+              "Plants can be put into groups according to their features.",
+              "植物は特徴に応じてグループ分けできる。",
+              "Plants can be put into groups|植物はグループに分けられる||according to their features.|特徴に応じて。",
+              "can be put"
+            ],
+            [
+              "For example, some plants have flowers, and others do not.",
+              "",
+              "For example,|例えば、||some plants have flowers,|花がある植物もあれば、||and others do not.|ない植物もある。",
+              "have"
+            ],
+            [
+              "Leaves of some trees stay green year-round, and those of others turn red or even fall off.",
+              "",
+              "Leaves of some trees stay green year-round,|一部の木の葉は一年中緑のままで、||and those of others|他の木の葉は||turn red|赤くなったり||or even fall off.|落ちたりさえする。",
+              "stay"
+            ],
+            [
+              "There is still another interesting type of group.",
+              "",
+              "There is still another interesting type|さらに別の興味深い種類||of group.|のグループがある。",
+              "is"
+            ],
+            [
+              "This grouping is based on ( 18 ).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Some people might be surprised to know that some plants eat insects, and to most people's surprise, there are more than six hundred kinds of these plants in the world.",
+              "",
+              "Some people might be surprised to know|知って驚く人もいるかもしれない||that some plants eat insects,|植物が昆虫を食べることを、||and to most people's surprise,|そしてほとんどの人が驚くことに、||there are more than six hundred kinds|600種類以上ある||of these plants in the world.|これらの植物が世界に。",
+              "might be"
+            ],
+            [
+              "There are several ways in which those plants catch insects.",
+              "",
+              "There are several ways|いくつかの方法がある||in which those plants catch insects.|それらの植物が昆虫を捕まえる。",
+              "are"
+            ],
+            [
+              "One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags.",
+              "",
+              "One of the ways is|方法の一つは||to attract insects to leaves|昆虫を葉に引きつけることだ||that have a sweet smell|甘い匂いがする||and are shaped like small bags.|小さな袋の形をした。",
+              "is"
+            ],
+            [
+              "When an insect enters one of the bags, the plant then closes the bag around it.",
+              "",
+              "When an insect enters one of the bags,|昆虫が袋の一つに入ると、||the plant then closes the bag|植物はその袋を閉じる||around it.|その周りを。",
+              "closes"
+            ],
+            [
+              "( 19 ) insects fall into the leaves, they can never get out.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "The leaves are closed and filled with a substance that breaks down their bodies.",
+              "葉は閉じられ昆虫の体を分解する物質で満たされる。",
+              "The leaves are closed|葉は閉じられ||and filled with a substance|物質で満たされる||that breaks down their bodies.|体を分解する。",
+              "are closed"
+            ],
+            [
+              "Another way is to use leaves with sticky drops.",
+              "",
+              "Another way is|別の方法は||to use leaves with sticky drops.|粘着性のしずくのある葉を使うこと。",
+              "is"
+            ],
+            [
+              "When insects stop on the leaves, the drops cover their bodies, and they cannot breathe.",
+              "",
+              "When insects stop on the leaves,|昆虫が葉に止まると、||the drops cover their bodies,|しずくが体を覆い、||and they cannot breathe.|そして呼吸ができなくなる。",
+              "cover"
+            ],
+            [
+              "Therefore, they die.",
+              "",
+              "Therefore, they die.|そのため、彼らは死ぬ。",
+              "die"
+            ],
+            [
+              "Plants that catch insects grow in certain areas.",
+              "",
+              "Plants that catch insects|昆虫を捕まえる植物は||grow in certain areas.|特定の地域に育つ。",
+              "grow"
+            ],
+            [
+              "Plants usually take nitrogen, a substance from the ground, to grow.",
+              "",
+              "Plants usually take nitrogen,|植物は通常窒素を取り込む、||a substance from the ground,|地面からの物質を、||to grow.|成長するために。",
+              "take"
+            ],
+            [
+              "However, when there is not enough nitrogen in the ground, they eat insects instead by using their open leaves to trap insects.",
+              "",
+              "However,|しかし、||when there is not enough nitrogen|十分な窒素がないと||in the ground,|地面に、||they eat insects instead|代わりに昆虫を食べる||by using their open leaves|開いた葉を使って||to trap insects.|昆虫を捕まえるために。",
+              "eat"
+            ],
+            [
+              "This is because bodies of insects contain nitrogen.",
+              "",
+              "This is because|これは〜だからである||bodies of insects contain nitrogen.|昆虫の体は窒素を含んでいる。",
+              "contain"
+            ],
+            [
+              "Some scientists even suggest that the plants can be used when ( 20 ).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Their open leaves mean that the ground in those areas has low nitrogen.",
+              "",
+              "Their open leaves mean|彼らの開いた葉は意味する||that the ground in those areas|それらの地域の地面には||has low nitrogen.|窒素が少ないことを。",
+              "mean"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "choices": [
+                "how plants grow in different places",
+                "where plants grow in the natural world",
+                "what plants use for their food source",
+                "when plants bloom during the year"
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "異なる場所での成長方法→グループ分けの基準として不適切",
+                "自然界での植物の生育場所→不適切",
+                "植物が餌源として何を使うか→正解。💡 based on what they eat=食べるものによるグループ分け。昆虫を食べる植物の話",
+                "植物が开花する時期→不適切"
+              ]
+            },
+            {
+              "number": 19,
+              "choices": [
+                "Once",
+                "Even though",
+                "Before",
+                "Unless"
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "一度～すると→正解。💡 Once insects fall in, they can never get out=一度落ちたら出られない。永続的結果を示す",
+                "～にもかかわらず→出られないとの因果が不適切",
+                "～の前に→時系列が不適切",
+                "～でない限り→二重否定で不適切"
+              ]
+            },
+            {
+              "number": 20,
+              "choices": [
+                "people find their way in the woods",
+                "people check the condition of the soil",
+                "there are too many dangerous insects",
+                "there is no food or water for animals"
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "人が森で道を見つける→植物の用途に不適切",
+                "人が土壌の状態を確認する→正解。💡 open leaves=low nitrogen→check soil condition(土壌状態の確認). 植物が土壌の窒素量の指標になる",
+                "危険な昆虫が多すぎる→植物の用途に不適切",
+                "動物の食料や水がない→不適切"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "A Bus System in Curitiba",
+          "paragraphs": [
+            "Curitiba, a city in Brazil, has experienced rapid population growth since the 1960s. To cope with the issue of the population growing too much, city planners originally thought of building a subway system and making the streets wider to allow more traffic on the roads. ( 21 ), a young mayor believed that this would cost the city too much and thought of another way to use what they already had. In particular, he decided to build a bus system using the roads that already existed.",
+            "First, the mayor decided to turn the inner lanes of the road into bus-only lanes. By building bus stops between the inner lanes, buses traveling in both directions could share the same stops. In addition, passengers pay the same fare to go in the same direction regardless of the number of changes or distance. These ways were introduced ( 22 ). As a result, most of the residents of the city came to live within 400 meters of a bus stop, and the city buses make more than 20,000 trips a day.",
+            "The number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to ( 23 ). This method not only solves environmental problems but also helps people earn more money to improve their quality of life."
+          ],
+          "translations": [
+            "ブラジルの都市クリチバは1960年代から急速な人口増加を経験してきた。人口増加への対処として、都市計画者たちは当初、地下鉄の建設と道路の拡張を考えた。( 21 )、若い市長はこれは費用がかかりすぎると考え、既存のものを活用する別の方法を考えた。特に既存の道路を使ったバスシステムの構築を決意した。",
+            "まず市長は内側車線をバス専用車線にすることにした。内側車線の間にバス停を設置することで、両方向のバスが同じ停留所を共有できた。加えて乗客は乗り換え回数や距離に関係なく同一方向で同じ運賃を払う。これらの方法は( 22 )導入された。その結果、市民の大半がバス停から400メートル以内に住むようになり、市バスは1日2万回以上運行している。",
+            "過去50年で市内の自家用車は急増した。しかし一人当たりのガソリン使用量はブラジルの他都市の約3分の1のままだ。多くの人が運転の代わりに効率的で信頼性の高いバスシステムを選んでいるからだ。バス運賃を低く抑えることで、より多くの人が( 23 )できる。この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。"
+          ],
+          "sentencePairs": [
+            [
+              "Curitiba, a city in Brazil, has experienced rapid population growth since the 1960s.",
+              "",
+              "Curitiba, a city in Brazil,|Curitiba、Brazilの都市は、||has experienced rapid population growth|急速な人口増加を経験してきた||since the 1960s.|1960年代以来。",
+              "has experienced"
+            ],
+            [
+              "To cope with the issue of the population growing too much, city planners originally thought of building a subway system and making the streets wider to allow more traffic on the roads.",
+              "",
+              "To cope with the issue|問題に対処するために||of the population growing too much,|人口が増えすぎるという、||city planners originally thought|都市計画者は元々考えた||of building a subway system|地下鉄を建設すること||and making the streets wider|そして道路を広げることを||to allow more traffic on the roads.|より多くの交通を道路に通すために。",
+              "thought"
+            ],
+            [
+              "( 21 ), a young mayor believed that this would cost the city too much and thought of another way to use what they already had.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "In particular, he decided to build a bus system using the roads that already existed.",
+              "",
+              "In particular,|特に、||he decided to build a bus system|彼はバスシステムを作ることに決めた||using the roads that already existed.|既に存在する道路を使って。",
+              "decided"
+            ],
+            [
+              "First, the mayor decided to turn the inner lanes of the road into bus-only lanes.",
+              "",
+              "First,|まず、||the mayor decided to turn|市長は変えることに決めた||the inner lanes of the road|道路の内側車線を||into bus-only lanes.|バス専用車線に。",
+              "decided"
+            ],
+            [
+              "By building bus stops between the inner lanes, buses traveling in both directions could share the same stops.",
+              "",
+              "By building bus stops|バス停を建設することで||between the inner lanes,|内側車線の間に、||buses traveling in both directions|両方向に走るバスは||could share the same stops.|同じ停留所を共有できた。",
+              "could share"
+            ],
+            [
+              "In addition, passengers pay the same fare to go in the same direction regardless of the number of changes or distance.",
+              "",
+              "In addition,|加えて、||passengers pay the same fare|乗客は同じ料金を払う||to go in the same direction|同じ方向に行くために||regardless of the number of changes or distance.|乗り換え回数や距離に関係なく。",
+              "pay"
+            ],
+            [
+              "These ways were introduced ( 22 ).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "As a result, most of the residents of the city came to live within 400 meters of a bus stop, and the city buses make more than 20,000 trips a day.",
+              "",
+              "As a result,|その結果、||most of the residents of the city|市の住民のほとんどが||came to live|住むようになった||within 400 meters of a bus stop,|バス停から400メートル以内に、||and the city buses make|そして市バスは行う||more than 20,000 trips a day.|1日2万回以上の運行を。",
+              "came"
+            ],
+            [
+              "The number of privately owned cars in the city has increased rapidly over the past fifty years.",
+              "",
+              "The number of privately owned cars|個人所有の車の数は||in the city|市内の||has increased rapidly|急速に増加してきた||over the past fifty years.|過去50年間で。",
+              "has increased"
+            ],
+            [
+              "However, the gasoline used per person remains about one-third of that of other cities in Brazil.",
+              "",
+              "However,|しかし、||the gasoline used per person|一人当たりの使用ガソリン量は||remains about one-third|約3分の1のままだ||of that of other cities in Brazil.|Brazilの他の都市の。",
+              "remains"
+            ],
+            [
+              "This is because many people choose to use the city's efficient and reliable bus system instead of driving.",
+              "",
+              "This is because|これは〜だからだ||many people choose to use|多くの人が利用を選ぶ||the city's efficient and reliable bus system|市の効率的で信頼性の高いバスシステムを||instead of driving.|運転の代わりに。",
+              "choose"
+            ],
+            [
+              "Keeping bus fares low also allows more people to ( 23 ).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+              "",
+              "This method not only solves|この方法は解決するだけでなく||environmental problems|環境問題を||but also helps people earn more money|人々がより多く稼ぐのも助ける||to improve their quality of life.|生活の質を向上させるために。",
+              "solves"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "choices": [
+                "By the way",
+                "However",
+                "For one thing",
+                "Of course"
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "ところで→話題転換に不適切",
+                "しかし→正解。💡 planners thought of subway→However→mayor thought another way。計画の対比",
+                "一つ目に→列挙ではない",
+                "もちろん→対比の文脈に不適切"
+              ]
+            },
+            {
+              "number": 22,
+              "choices": [
+                "to make boarding easy and smooth",
+                "to let the elderly take bus seats",
+                "to decrease the number of passengers",
+                "to reduce market competition"
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "乗車を簡単でスムーズにする→正解。💡 bus-only lanes+shared stops+same fare=boarding easy and smooth(乗車の簡便化)",
+                "高齢者に席を譲る→本文にない",
+                "乗客数を減らす→逆に増やす目的",
+                "市場競争を減らす→不適切"
+              ]
+            },
+            {
+              "number": 23,
+              "choices": [
+                "drive their cars on weekends",
+                "avoid spending money on education",
+                "promote the bus system to other cities",
+                "take buses to work in the city"
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "週末に車を運転する→低運賃の効果に不適切",
+                "教育費を避ける→不適切",
+                "バスシステムを他都市に宣伝→不適切",
+                "市内でバス通勤する→正解。💡 low fares→more people take buses→earn more money(通勤コスト削減→収入増)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問3",
+      "nameEn": "Part 3",
+      "type": "reading-comprehension",
+      "instruction": "次の英文A，Bの内容に関して，(24)から(31)までの質問に対して最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Follow-up on the Interview",
+          "format": "email",
+          "meta": {
+            "from": "Emma Passi",
+            "to": "Takeru Chen",
+            "date": "February 21",
+            "subject": "Follow-up on the interview"
+          },
+          "paragraphs": [
+            "Thank you for attending the first interview for the position at the International Student Center. Probably due to our recent appearance in the media and the increase in followers on our social media accounts, we had many more people interested in this position than usual. We sincerely apologize for keeping you waiting before finally inviting you to the interview. Additionally, we made you wait another two weeks after the first interview.",
+            "I'm writing this e-mail because I'd like to ask you to provide the result of an official language test that proves your language ability. We all know that you speak good English from the interview, but we still need the document as part of our process. Since many of our students speak English, we can make them feel comfortable by demonstrating the language ability of each worker here.",
+            "I would like to invite you to the next interview. This time, you will be speaking with people working at the center. We have different events happening every day and would like to discuss in the interview how you would handle them. Two people from the center will be joining us on that day. Our school will cover the cost of transportation this time, and I would like you to fill out the form sent with this e-mail to let us know which dates are convenient for you."
+          ],
+          "translations": [
+            "インターナショナル・スチューデント・センターのポジションの第一次面接にご参加いただきありがとうございます。最近のメディアへの露出とSNSフォロワーの増加により、このポジションに通常よりも多くの方が興味を持ちました。面接にお招きするまでお待たせしたことを心よりお詫びいたします。さらに第一次面接後にもう2週間お待たせしました。",
+            "このメールは、語学力を証明する公式な語学テストの結果をご提出いただきたくお送りしています。面接で英語が上手であることはわかっていますが、手続きの一環として書類が必要です。学生の多くが英語を話すため、各スタッフの語学力を示すことで学生が安心できるようにしています。",
+            "次の面接にお招きしたいと思います。今回はセンターで働くスタッフとお話しいただきます。毎日さまざまなイベントがあるため、面接ではそれらをどのように対処するかを議論したいと思います。当日はセンターから2名が参加します。今回は学校が交通費を負担します。添付のフォームにご都合の良い日をご記入ください。"
+          ],
+          "sentencePairs": [
+            [
+              "Thank you for attending the first interview for the position at the International Student Center.",
+              "",
+              "Thank you for attending|ご参加いただきありがとうございます||the first interview|最初の面接に||for the position|ポジションの||at the International Student Center.|International Student Centerでの。",
+              "Thank you"
+            ],
+            [
+              "Probably due to our recent appearance in the media and the increase in followers on our social media accounts, we had many more people interested in this position than usual.",
+              "",
+              "Probably due to|おそらく〜のため||our recent appearance in the media|最近のメディア出演と||and the increase in followers|フォロワーの増加の||on our social media accounts,|SNSアカウントの、||we had many more people interested|はるかに多くの方が興味を持った||in this position than usual.|通常よりもこのポジションに。",
+              "had"
+            ],
+            [
+              "We sincerely apologize for keeping you waiting before finally inviting you to the interview.",
+              "",
+              "We sincerely apologize|心よりお詫びいたします||for keeping you waiting|お待たせしたことを||before finally inviting you to the interview.|面接にお招きするまで。",
+              "apologize"
+            ],
+            [
+              "Additionally, we made you wait another two weeks after the first interview.",
+              "",
+              "Additionally,|さらに、||we made you wait|お待たせしました||another two weeks|さらに2週間||after the first interview.|最初の面接の後に。",
+              "made"
+            ],
+            [
+              "I'm writing this e-mail because I'd like to ask you to provide the result of an official language test that proves your language ability.",
+              "",
+              "I'm writing this e-mail|このメールを書いているのは||because I'd like to ask you|お願いしたいからです||to provide the result|結果を提出していただくことを||of an official language test|公式の語学試験の||that proves your language ability.|語学力を証明する。",
+              "am writing"
+            ],
+            [
+              "We all know that you speak good English from the interview, but we still need the document as part of our process.",
+              "",
+              "We all know|私たちは皆知っています||that you speak good English|あなたが良い英語を話すことを||from the interview,|面接から、||but we still need the document|しかし書類がまだ必要です||as part of our process.|手続きの一部として。",
+              "know"
+            ],
+            [
+              "Since many of our students speak English, we can make them feel comfortable by demonstrating the language ability of each worker here.",
+              "",
+              "Since many of our students speak English,|多くの学生が英語を話すので、||we can make them feel comfortable|快適に感じさせることができる||by demonstrating the language ability|語学力を示すことで||of each worker here.|ここの各スタッフの。",
+              "can make"
+            ],
+            [
+              "I would like to invite you to the next interview.",
+              "",
+              "I would like to invite you|ご招待したいと思います||to the next interview.|次の面接に。",
+              "would like"
+            ],
+            [
+              "This time, you will be speaking with people working at the center.",
+              "今回はセンターで働くスタッフとお話しいただきます。",
+              "This time,|今回は、||you will be speaking|お話しいただきます||with people working at the center.|センターで働いている方々と。",
+              "will be speaking"
+            ],
+            [
+              "We have different events happening every day and would like to discuss in the interview how you would handle them.",
+              "",
+              "We have different events|私たちは異なるイベントがあり||happening every day|毎日行われている||and would like to discuss|そして話し合いたい||in the interview|面接で||how you would handle them.|どう対応するかを。",
+              "have"
+            ],
+            [
+              "Two people from the center will be joining us on that day.",
+              "",
+              "Two people from the center|センターから2名が||will be joining us on that day.|その日参加します。",
+              "will be joining"
+            ],
+            [
+              "Our school will cover the cost of transportation this time, and I would like you to fill out the form sent with this e-mail to let us know which dates are convenient for you.",
+              "",
+              "Our school will cover|学校が負担します||the cost of transportation this time,|今回の交通費を、||and I would like you to fill out|そして記入していただきたい||the form sent with this e-mail|このメールに添付のフォームを||to let us know|お知らせいただくために||which dates are convenient for you.|どの日程がご都合よいかを。",
+              "will cover"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 24,
+              "question": "More people were interested in the position because",
+              "choices": [
+                "the hiring process at the International Student Center was simpler this year.",
+                "media reports about the International Student Center increased interest in the role.",
+                "the International Student Center offered higher salaries than other positions.",
+                "the International Student Center opened a social media account recently."
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "採用プロセスが簡単だった→本文にない",
+                "メディア報道が関心を高めた→正解。💡 recent appearance in the media + increase in followers=メディア露出が関心を高めた",
+                "高い給料を提示→本文にない",
+                "最近SNSアカウントを開設→increase in followersであり開設ではない"
+              ],
+              "questionTranslation": "より多くの人がそのポジションに興味を持った理由は",
+              "choiceTranslations": [
+                "留学生センターの採用プロセスが今年は簡単だった。",
+                "留学生センターに関するメディア報道が関心を高めた。",
+                "留学生センターは他のポジションより高い給与を提示した。",
+                "留学生センターが最近SNSアカウントを開設した。"
+              ]
+            },
+            {
+              "number": 25,
+              "question": "Why does the International Student Center need a language test result?",
+              "choices": [
+                "To provide language training for new employees.",
+                "To follow the rules of having employees with international backgrounds.",
+                "To improve the language skills of the students.",
+                "To make students feel at ease by showing the staff's language skills."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "新入社員の語学研修のため→本文にない",
+                "国際的な背景を持つ従業員の規則→本文にない",
+                "学生の語学力向上→本文にない",
+                "スタッフの語学力を示して学生を安心させる→正解。💡 make them feel comfortable by demonstrating language ability"
+              ],
+              "questionTranslation": "留学生センターが語学テストの結果を必要とする理由は？",
+              "choiceTranslations": [
+                "新入社員に語学研修を提供するため。",
+                "国際的な背景を持つ社員を雇用する規則に従うため。",
+                "学生の語学力を向上させるため。",
+                "スタッフの語学力を示して学生を安心させるため。"
+              ]
+            },
+            {
+              "number": 26,
+              "question": "What is the purpose of the next interview?",
+              "choices": [
+                "To talk about handling daily tasks at the center.",
+                "To show Takeru around the center and ask him about the place.",
+                "To decide the details of Takeru's employment conditions.",
+                "To have a group discussion on recent global issues."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "センターの日常業務の対処を話す→正解。💡 discuss how you would handle different events=日常のイベント対応の議論",
+                "センターを案内する→本文にない",
+                "雇用条件の詳細を決める→本文にない",
+                "国際問題のグループディスカッション→本文にない"
+              ],
+              "questionTranslation": "次の面接の目的は何ですか？",
+              "choiceTranslations": [
+                "センターでの日常業務の処理について話す。",
+                "タケルにセンターを案内し感想を聞く。",
+                "タケルの雇用条件の詳細を決める。",
+                "最近の国際的な問題についてグループ討論する。"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Letter-Locking",
+          "paragraphs": [
+            "In Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that. If letters were sent as they were, just like a postcard today, anybody could read the content. Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique. Many regular letter writers also knew how to do it.",
+            "There are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+            "Letter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
+            "Some researchers studied 250,000 historical letters to gather data on letter-locking techniques. They used a collection of a lot of letters that were never delivered. This happened because, in some European countries, people had to pay to get their letters. They then took 3D pictures of a letter sent about 300 years ago. Using the latest technology, they succeeded in opening it on a computer screen and reading the content. This technology will likely improve people's understanding of history."
+          ],
+          "translations": [
+            "ヨーロッパでは産業革命後の19世紀に封筒を使って手紙を入れることが一般的になったが、手紙はそれよりずっと前からコミュニケーションの道具として使われていた。手紙をそのまま送ると、今日のはがきのように誰でも内容を読めた。そのため他人に読まれたくない内容の手紙を送るために「レター・ロッキング」という技法が使われた。この技法を使ったのはスパイだけではなかった。多くの一般の手紙書きもその方法を知っていた。",
+            "レター・ロッキングの技法は多数ある。簡単な方法の一つは手紙を何度か折り、最後の部分を折り目で作られたポケットに入れること。最も難しい方法は30以上の手順がある。何度も折り、小さな部分を切り取り、その部分を小さな穴に通す必要がある。正しく行うと手紙はしっかり閉じた状態を保つ。ロック部分を壊さずに開けることはできない。このため受取人は他の誰かが手紙を読もうとしたかどうかわかる。",
+            "レター・ロッキングは安全に手紙を送りたい人には役立ったかもしれない。しかし歴史を研究する専門家にとっては問題だった。歴史研究者が文化や社会の情報を得る方法の一つは当時書かれた手紙を読むことだ。レター・ロッキングにより専門家が情報を得ることが困難になる。繊細な紙は損傷せずに開封することをさらに難しくする。さらにロッキング技法自体に価値があり、一度開封すると価値が失われる。",
+            "研究者たちは25万通の歴史的手紙を調査してレター・ロッキング技法のデータを収集した。配達されなかった手紙のコレクションを使用した。一部のヨーロッパの国では手紙を受け取るために支払いが必要だったため配達されなかった。研究者たちは約300年前に送られた手紙の3D写真を撮影した。最新技術を使い、コンピュータ画面上で開封して内容を読むことに成功した。この技術は歴史の理解を向上させるだろう。"
+          ],
+          "sentencePairs": [
+            [
+              "In Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that.",
+              "",
+              "In Europe,|ヨーロッパでは、||using envelopes to hold letters|封筒を使って手紙を入れることは||became common|一般的になった||in the nineteenth century|19世紀に||after the Industrial Revolution,|産業革命の後に、||but letters were used|しかし手紙は使われていた||as a communication tool long before that.|それよりずっと前から通信手段として。",
+              "became"
+            ],
+            [
+              "If letters were sent as they were, just like a postcard today, anybody could read the content.",
+              "",
+              "If letters were sent as they were,|手紙がそのまま送られたら、||just like a postcard today,|今日のハガキのように、||anybody could read the content.|誰でも内容を読むことができた。",
+              "could read"
+            ],
+            [
+              "Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique.",
+              "この技法を使ったのはスパイだけではなかった。",
+              "",
+              ""
+            ],
+            [
+              "Many regular letter writers also knew how to do it.",
+              "",
+              "Many regular letter writers also knew|多くの一般的な手紙の書き手もまた知っていた||how to do it.|やり方を。",
+              "knew"
+            ],
+            [
+              "There are many different letter-locking techniques.",
+              "",
+              "There are many different|多くの異なる||letter-locking techniques.|手紙施錠の技法がある。",
+              "are"
+            ],
+            [
+              "One simple way is to fold a letter several times and put the last part into a pocket created by the folds.",
+              "",
+              "One simple way is|一つの簡単な方法は||to fold a letter several times|手紙を数回折り||and put the last part|最後の部分を入れることだ||into a pocket created by the folds.|折り目でできたポケットに。",
+              "is"
+            ],
+            [
+              "The most difficult method for making letters safe by folding has over thirty steps.",
+              "",
+              "The most difficult method|最も難しい方法は||for making letters safe by folding|折ることで手紙を安全にするための||has over thirty steps.|30以上の手順がある。",
+              "has"
+            ],
+            [
+              "It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes.",
+              "",
+              "It requires folding the letters many times,|何度も手紙を折ることが求められ、||cutting small parts,|小さな部分を切り、||and putting those parts through tiny holes.|その部分を小さな穴に通す。",
+              "requires"
+            ],
+            [
+              "When these steps are done correctly, the letters hold themselves closed tightly.",
+              "",
+              "When these steps are done correctly,|これらの手順が正しく行われると、||the letters hold themselves closed tightly.|手紙はしっかりと閉じた状態を保つ。",
+              "hold"
+            ],
+            [
+              "The letters cannot be opened without breaking the lock part.",
+              "ロック部分を壊さずに開けることはできない。",
+              "The letters cannot be opened|手紙は開けられない||without breaking the lock part.|施錠部分を壊さずには。",
+              "cannot be opened"
+            ],
+            [
+              "Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+              "",
+              "Because of this,|このため、||the intended receiver can know|意図された受取人は知ることができる||if somebody else has tried|他の誰かが試みたかどうか||to read the letter.|手紙を読むことを。",
+              "can know"
+            ],
+            [
+              "Letter-locking techniques may have helped people who wanted to send letters safely.",
+              "",
+              "Letter-locking techniques may have helped|手紙施錠の技法は助けたかもしれない||people who wanted|望んだ人々を||to send letters safely.|手紙を安全に送りたかった。",
+              "may have helped"
+            ],
+            [
+              "However, they have been a problem for experts who study history.",
+              "",
+              "However,|しかし、||they have been a problem|問題であった||for experts who study history.|歴史を研究する専門家にとって。",
+              "have been"
+            ],
+            [
+              "One way through which people who study history get information about cultures and society is by reading letters written at that time.",
+              "",
+              "One way|一つの方法は||through which people who study history|歴史を研究する人々が||get information|情報を得る||about cultures and society|文化と社会についての||is by reading letters|手紙を読むことで||written at that time.|その当時書かれた。",
+              "is"
+            ],
+            [
+              "Letter-locking techniques make it difficult for experts to get such information.",
+              "",
+              "Letter-locking techniques make it difficult|手紙施錠の技法は難しくしている||for experts|専門家が||to get such information.|そのような情報を得ることを。",
+              "make"
+            ],
+            [
+              "The delicate paper makes it harder for experts to open letters without damaging them.",
+              "繊細な紙は損傷せずに開封することをさらに難しくする。",
+              "The delicate paper makes it harder|繊細な紙がより難しくしている||for experts to open letters|専門家が手紙を開けることを||without damaging them.|傷つけずに。",
+              "makes"
+            ],
+            [
+              "Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
+              "",
+              "Moreover,|さらに、||the letter-locking technique itself is valuable,|手紙施錠の技法自体が貴重で、||and its value will be lost|その価値は失われる||once opened.|一度開けると。",
+              "is"
+            ],
+            [
+              "Some researchers studied 250,000 historical letters to gather data on letter-locking techniques.",
+              "",
+              "Some researchers studied|一部の研究者は調査した||250,000 historical letters|250,000通の歴史的な手紙を||to gather data|データを集めるために||on letter-locking techniques.|手紙施錠の技法についての。",
+              "studied"
+            ],
+            [
+              "They used a collection of a lot of letters that were never delivered.",
+              "",
+              "They used a collection|彼らは収集品を使った||of a lot of letters|多くの手紙の||that were never delivered.|決して届けられなかった。",
+              "used"
+            ],
+            [
+              "This happened because, in some European countries, people had to pay to get their letters.",
+              "",
+              "This happened because,|これが起きたのは、||in some European countries,|一部のヨーロッパの国では、||people had to pay|人々は払わなければならなかったから||to get their letters.|手紙を受け取るために。",
+              "happened"
+            ],
+            [
+              "They then took 3D pictures of a letter sent about 300 years ago.",
+              "",
+              "They then took 3D pictures|彼らは3D写真を撮った||of a letter sent about 300 years ago.|約300年前に送られた手紙の。",
+              "took"
+            ],
+            [
+              "Using the latest technology, they succeeded in opening it on a computer screen and reading the content.",
+              "",
+              "Using the latest technology,|最新の技術を使い、||they succeeded in opening it|コンピューター画面上でそれを開くことに成功し||on a computer screen|コンピューター画面上で||and reading the content.|内容を読んだ。",
+              "succeeded"
+            ],
+            [
+              "This technology will likely improve people's understanding of history.",
+              "",
+              "This technology will likely improve|この技術はおそらく向上させるだろう||people's understanding of history.|人々の歴史理解を。",
+              "will improve"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "question": "The use of letter-locking techniques was",
+              "choices": [
+                "a difficult practice in Europe for security purposes.",
+                "a common practice among those who sent letters.",
+                "a limited practice for important documents between officials.",
+                "an educational practice taught at schools throughout Europe."
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "セキュリティ目的の困難な行為→difficult practiceではない",
+                "手紙を送る人の間で一般的な行為→正解。💡 Many regular letter writers also knew how to do it=一般の手紙書きも知っていた",
+                "公文書に限られた行為→本文にない",
+                "学校で教えられた教育的行為→本文にない"
+              ],
+              "questionTranslation": "レター・ロッキング技術の使用は",
+              "choiceTranslations": [
+                "セキュリティ目的でヨーロッパで困難な慣行だった。",
+                "手紙を送る人々の間で一般的な慣行だった。",
+                "役人間の重要な文書に限られた慣行だった。",
+                "ヨーロッパ中の学校で教えられた教育的慣行だった。"
+              ]
+            },
+            {
+              "number": 28,
+              "question": "One benefit of putting a cut part through a hole is to",
+              "choices": [
+                "allow the receiver to open the letter easily without a knife.",
+                "prevent the letter from sticking to other letters.",
+                "show evidence that someone tried to open the letter before.",
+                "make sure that people can easily find the letter later."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "ナイフなしで簡単に開封→ロックなので開けにくくする",
+                "他の手紙にくっつかない→本文にない",
+                "誰かが開封しようとした証拠を示す→正解。💡 cannot be opened without breaking→intended receiver can know if somebody else tried=開封の痕跡がわかる",
+                "後で見つけやすくする→本文にない"
+              ],
+              "questionTranslation": "切り込みを穴に通すことの利点の一つは",
+              "choiceTranslations": [
+                "受取人がナイフなしで簡単に手紙を開けられる。",
+                "手紙が他の手紙にくっつくのを防ぐ。",
+                "誰かが以前に手紙を開けようとした証拠を示す。",
+                "後で手紙を簡単に見つけられるようにする。"
+              ]
+            },
+            {
+              "number": 29,
+              "question": "Why is it hard for experts to open letters that are closed with letter-locking techniques?",
+              "choices": [
+                "It reduces the value of letters that use letter-locking techniques.",
+                "It can make the family of receivers of the letters angry.",
+                "It causes letters written in ink to disappear in the process.",
+                "It shows the person who secretly wrote the letter."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "レター・ロッキング技法の価値を下げる→正解。💡 the letter-locking technique itself is valuable, its value will be lost once opened=開封すると技法自体の価値が失われる",
+                "受取人の家族が怒る→本文にない",
+                "インクの文字が消える→本文にない",
+                "密かに書いた人が判明→本文にない"
+              ],
+              "questionTranslation": "専門家がレター・ロッキング技術で閉じられた手紙を開けるのが難しい理由は？",
+              "choiceTranslations": [
+                "レター・ロッキング技術を使った手紙の価値が下がる。",
+                "手紙の受取人の家族を怒らせる可能性がある。",
+                "インクで書かれた手紙が処理中に消えてしまう。",
+                "秘密裏に手紙を書いた人物が明らかになる。"
+              ]
+            },
+            {
+              "number": 30,
+              "question": "Why were the letters in the collection not delivered?",
+              "choices": [
+                "There were not enough people who delivered letters.",
+                "National security information was included in them.",
+                "They were damaged and difficult to deliver.",
+                "The money required to receive them was not paid."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "配達する人が足りなかった→本文にない",
+                "国家安全保障情報が含まれていた→本文にない",
+                "損傷して配達困難だった→本文にない",
+                "受け取りに必要な金銭が支払われなかった→正解。💡 people had to pay to get their letters=受け取りに支払いが必要→支払われなかったため未配達"
+              ],
+              "questionTranslation": "コレクションの手紙が配達されなかった理由は？",
+              "choiceTranslations": [
+                "手紙を配達する人が十分にいなかった。",
+                "国家安全保障の情報が含まれていた。",
+                "損傷して配達が困難だった。",
+                "受け取りに必要な料金が支払われなかった。"
+              ]
+            },
+            {
+              "number": 31,
+              "question": "Which of the following statements is true?",
+              "choices": [
+                "The use of envelopes in Europe increased after the Industrial Revolution.",
+                "Most letter-locking techniques needed more than thirty steps to complete.",
+                "The research team gathered data on different letters without a 3D machine.",
+                "Letter-locking techniques are no longer meaningful to understand a letter's value."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "産業革命後にヨーロッパで封筒の使用が増えた→正解。💡 using envelopes became common in the 19th century after the Industrial Revolution",
+                "ほとんどのロッキング技法は30以上の手順→most difficultだけが30以上なので「ほとんど」は不正確",
+                "3D機器なしでデータ収集→3D pictures of a letterを撮影した",
+                "ロッキング技法はもはや意味がない→valuable(価値がある)と矛盾"
+              ],
+              "questionTranslation": "次のうち正しい記述はどれですか？",
+              "choiceTranslations": [
+                "ヨーロッパでの封筒の使用は産業革命後に増加した。",
+                "ほとんどのレター・ロッキング技術は完了するのに30以上のステップが必要だった。",
+                "研究チームは3Dマシンなしで異なる手紙のデータを収集した。",
+                "レター・ロッキング技術は手紙の価値を理解するためにもはや意味がない。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessonPlan": {
+    "focusPoints": [
+      {
+        "id": "fp1",
+        "title": "not only A but also B（相関接続詞）",
+        "subtitle": "Correlative Conjunction: Not Only...But Also",
+        "explanation": "not only A but also B は「AだけでなくBも」と2つの要素を並列して追加情報を強調する。長文で筆者が複数の利点・効果を述べる際に頻出。",
+        "sourceQuote": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+        "sourceLocation": "Part 2B",
+        "examples": [
+          {
+            "en": "This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+            "ja": "この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
+            "note": "not only solves + but also helps: 動詞を並列。2つの効果を強調。"
+          },
+          {
+            "en": "Keeping bus fares low also allows more people to take buses to work in the city.",
+            "ja": "バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようにもなる。",
+            "note": "allow + O + to V: 「Oが〜するのを可能にする」"
+          },
+          {
+            "en": "She not only speaks English but also writes it fluently.",
+            "ja": "彼女は英語を話すだけでなく、流暢に書くこともできる。",
+            "note": "not only + V + but also + V: 動詞の並列パターン"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'not only solves environmental problems but also helps people earn more money' で述べられている2つの効果は何ですか？",
+            "a": "①環境問題を解決する(solves environmental problems) ②人々がより多くのお金を稼いで生活の質を向上させる(helps people earn more money to improve their quality of life)"
+          },
+          {
+            "q": "'one-third of that of other cities' の 'that' は何を指しますか？",
+            "a": "ガソリン使用量(the gasoline used per person)。that = the gasoline used per person。繰り返しを避けるための代用表現。"
+          },
+          {
+            "q": "車が増えたにもかかわらずガソリン使用量が少ない理由は何ですか？",
+            "a": "多くの人が運転する代わりに効率的で信頼性の高いバスシステムを利用しているから(many people choose to use the city's efficient and reliable bus system instead of driving)。"
+          },
+          {
+            "q": "バス運賃を低く抑えることの効果を説明してください。",
+            "a": "より多くの人がバスで通勤できるようになり(allows more people to take buses to work)、結果として交通費が減ることで稼いだお金を生活改善に使える。"
+          }
+        ],
+        "highlightPatterns": [
+          "not only solves environmental problems but also helps people earn more money"
+        ],
+        "highlightColor": "#FF6B6B",
+        "highlightLabel": "not only...but also",
+        "practicePassage": {
+          "en": "[出典: A Bus System in Curitiba]\nThe number of privately owned cars in the city has increased rapidly over the past fifty years. However, the gasoline used per person remains about one-third of that of other cities in Brazil. This is because many people choose to use the city's efficient and reliable bus system instead of driving. Keeping bus fares low also allows more people to take buses to work in the city. This method not only solves environmental problems but also helps people earn more money to improve their quality of life.",
+          "ja": "市内で個人所有の車の数は過去50年間で急速に増加した。しかし、一人当たりのガソリン使用量はブラジルの他の都市の約3分の1にとどまっている。これは、多くの人が運転する代わりに、市の効率的で信頼性の高いバスシステムを利用することを選んでいるからである。バス運賃を低く抑えることで、より多くの人が市内の職場にバスで通えるようになる。この方法は環境問題を解決するだけでなく、人々がより多くのお金を稼いで生活の質を向上させるのにも役立つ。",
+          "audioFile": "audio/practice_pp1.mp3"
+        }
+      },
+      {
+        "id": "fp2",
+        "title": "条件の Once（一度〜すると）",
+        "subtitle": "Conditional Conjunction 'Once'",
+        "explanation": "Once + S + V は「一度〜すると/〜したら」と、ある条件が満たされた後の不可逆な結果を述べる。if より強い確定性を持つ。",
+        "sourceQuote": "Once insects fall into the leaves, they can never get out.",
+        "sourceLocation": "Part 2A",
+        "examples": [
+          {
+            "en": "Once insects fall into the leaves, they can never get out.",
+            "ja": "一度昆虫が葉に落ちると、二度と出られない。",
+            "note": "Once + S + V(現在形): 「一度〜すると」不可逆の条件。can never: 強い否定。"
+          },
+          {
+            "en": "The leaves are closed and filled with a substance that breaks down their bodies.",
+            "ja": "葉は閉じられ、昆虫の体を分解する物質で満たされる。",
+            "note": "that breaks down: 関係代名詞。a substance(先行詞) + that(主格) + breaks down(V)"
+          },
+          {
+            "en": "Once you understand the basics, everything else becomes easier.",
+            "ja": "基本を理解すれば、あとは全て簡単になる。",
+            "note": "Once + 現在形: 一度〜すれば、の後は自動的にそうなる"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'Once insects fall into the leaves, they can never get out' の 'Once' はどのような意味ですか？",
+            "a": "「一度〜すると」。条件の接続詞。昆虫が落ちたら後戻りできないという不可逆性を強調。can never で「決して〜できない」。"
+          },
+          {
+            "q": "この段落で述べられている2つの昆虫の捕まえ方を説明してください。",
+            "a": "①甘い匂いの袋型の葉に誘い込み閉じ込める方法 ②粘着性のある滴がついた葉で呼吸を封じる方法"
+          },
+          {
+            "q": "'a substance that breaks down their bodies' の 'that' は何ですか？",
+            "a": "関係代名詞（主格）。先行詞はa substance。「昆虫の体を分解する物質」。breaks downは「分解する」という句動詞。"
+          },
+          {
+            "q": "'Therefore, they die.' の 'Therefore' は何に対する結果ですか？",
+            "a": "粘着性の滴が昆虫の体を覆い呼吸ができなくなること。呼吸不能→死という因果関係を示す。"
+          }
+        ],
+        "highlightPatterns": [
+          "Once insects fall into the leaves, they can never get out"
+        ],
+        "highlightColor": "#4ECDC4",
+        "highlightLabel": "条件の Once",
+        "practicePassage": {
+          "en": "[出典: Plants That Eat Insects]\nThere are several ways in which those plants catch insects. One of the ways is to attract insects to leaves that have a sweet smell and are shaped like small bags. When an insect enters one of the bags, the plant then closes the bag around it. Once insects fall into the leaves, they can never get out. The leaves are closed and filled with a substance that breaks down their bodies. Another way is to use leaves with sticky drops. When insects stop on the leaves, the drops cover their bodies, and they cannot breathe. Therefore, they die.",
+          "ja": "これらの植物が昆虫を捕まえる方法はいくつかある。一つの方法は、甘い匂いがして小さな袋のような形をした葉に昆虫を引き寄せることである。昆虫が袋の一つに入ると、植物はその周りの袋を閉じる。一度昆虫が葉に落ちると、二度と出られない。葉は閉じられ、昆虫の体を分解する物質で満たされる。もう一つの方法は、粘着性のある滴がついた葉を使うことである。昆虫が葉に止まると、滴が体を覆い、呼吸ができなくなる。そのため、死んでしまう。",
+          "audioFile": "audio/practice_pp2.mp3"
+        }
+      },
+      {
+        "id": "fp3",
+        "title": "make it + C + for A + to V（形式目的語）",
+        "subtitle": "Make with Formal Object for Evaluation",
+        "explanation": "make + it + 形容詞 + for A + to V は「Aが〜することを…にする」。因果関係の中で障害や困難の原因を述べる際に使われる重要構文。",
+        "sourceQuote": "Letter-locking techniques make it difficult for experts to get such information.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "Letter-locking techniques make it difficult for experts to get such information.",
+            "ja": "手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。",
+            "note": "make + it(形式O) + difficult(C) + for experts(意味上の主語) + to get(真のO)"
+          },
+          {
+            "en": "The delicate paper makes it harder for experts to open letters without damaging them.",
+            "ja": "繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。",
+            "note": "makes it harder: 比較級を使ったmake+it+C構文"
+          },
+          {
+            "en": "The internet has made it easier for people to access information.",
+            "ja": "インターネットにより、人々が情報にアクセスすることが容易になった。",
+            "note": "has made + it + easier + for people + to access: 肯定的な変化"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'make it difficult for experts to get such information' の構文を分析してください。",
+            "a": "make(V) + it(形式目的語) + difficult(C) + for experts(意味上の主語) + to get such information(真の目的語)。「専門家が情報を得ることを困難にする」。"
+          },
+          {
+            "q": "歴史学者にとって手紙の封緘技術が困難な理由を2つ答えてください。",
+            "a": "①繊細な紙のため傷つけずに開けるのが難しい(delicate paper makes it harder to open without damaging) ②封緘技術自体に価値があり開けると失われる(its value will be lost once opened)"
+          },
+          {
+            "q": "'its value will be lost once opened' の 'once opened' はどのような表現ですか？",
+            "a": "分詞構文の省略形。once (it is) opened = 「一度開けたら」。once + 過去分詞で条件を簡潔に表す。"
+          },
+          {
+            "q": "手紙の封緘技術は歴史研究にとってなぜ重要ですか？",
+            "a": "当時書かれた手紙を読むことが文化や社会の情報を得る手段(one way through which people get information about cultures and society)だから。"
+          }
+        ],
+        "highlightPatterns": [
+          "make it difficult for experts to get such information",
+          "makes it harder for experts to open letters without damaging them"
+        ],
+        "highlightColor": "#45B7D1",
+        "highlightLabel": "make it C for A to V",
+        "practicePassage": {
+          "en": "[出典: Letter-Locking]\nLetter-locking techniques may have helped people who wanted to send letters safely. However, they have been a problem for experts who study history. One way through which people who study history get information about cultures and society is by reading letters written at that time. Letter-locking techniques make it difficult for experts to get such information. The delicate paper makes it harder for experts to open letters without damaging them. Moreover, the letter-locking technique itself is valuable, and its value will be lost once opened.",
+          "ja": "手紙の封緘技術は、手紙を安全に送りたい人々を助けたかもしれない。しかし、歴史を研究する専門家にとっては問題となっている。歴史を研究する人々が文化や社会についての情報を得るための一つの方法は、当時書かれた手紙を読むことである。手紙の封緘技術は、専門家がそのような情報を得ることを困難にしている。繊細な紙が、専門家が手紙を傷つけずに開けることをさらに困難にしている。さらに、封緘技術そのものに価値があり、一度開けたらその価値は失われてしまう。",
+          "audioFile": "audio/practice_pp3.mp3"
+        }
+      },
+      {
+        "id": "fp4",
+        "title": "cannot ... without -ing（〜せずには…できない）",
+        "subtitle": "Double Negative with Without",
+        "explanation": "cannot + V + without + -ing は「〜せずには…できない」と二重否定で「必ず〜する」を意味する。手紙を開けるには壊す必要がある、など不可避な関係を表す。",
+        "sourceQuote": "The letters cannot be opened without breaking the lock part.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "The letters cannot be opened without breaking the lock part.",
+            "ja": "手紙はロック部分を壊さなければ開けることができない。",
+            "note": "cannot be opened + without breaking: 「壊さずには開けられない」=「開けるには壊す必要がある」"
+          },
+          {
+            "en": "Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+            "ja": "このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
+            "note": "can know if: 「〜かどうかを知ることができる」。ifは「〜かどうか」の間接疑問。"
+          },
+          {
+            "en": "You cannot learn a language without practicing it every day.",
+            "ja": "毎日練習しなければ言語を学ぶことはできない。",
+            "note": "cannot + V + without + -ing: 二重否定 = 「練習すれば必ず学べる」"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'cannot be opened without breaking the lock part' はどのような意味ですか？",
+            "a": "「ロック部分を壊さずには開けられない」=「開けるには必ずロックを壊す必要がある」。cannot + without の二重否定で不可避の関係を表す。"
+          },
+          {
+            "q": "手紙の封緘の最も難しい方法は何工程ありますか？",
+            "a": "30以上の工程(over thirty steps)。何度も折り、小さな部分を切り取り、小さな穴に通す。"
+          },
+          {
+            "q": "'the intended receiver can know if somebody else has tried to read the letter' の仕組みを説明してください。",
+            "a": "ロック部分を壊さないと開けられないので、もし壊されていれば第三者が読もうとした証拠になる。封緘の完全性がセキュリティの役割を果たす。"
+          },
+          {
+            "q": "'the letters hold themselves closed tightly' の 'hold themselves closed' はどのような構文ですか？",
+            "a": "hold + O(themselves) + C(closed): 「自らを閉じた状態に保つ」。再帰代名詞themselvesが目的語で、接着剤なしに紙自体が閉じた状態を維持する。"
+          }
+        ],
+        "highlightPatterns": [
+          "cannot be opened without breaking the lock part"
+        ],
+        "highlightColor": "#96CEB4",
+        "highlightLabel": "cannot without",
+        "practicePassage": {
+          "en": "[出典: Letter-Locking]\nThere are many different letter-locking techniques. One simple way is to fold a letter several times and put the last part into a pocket created by the folds. The most difficult method for making letters safe by folding has over thirty steps. It requires folding the letters many times, cutting small parts, and putting those parts through tiny holes. When these steps are done correctly, the letters hold themselves closed tightly. The letters cannot be opened without breaking the lock part. Because of this, the intended receiver can know if somebody else has tried to read the letter.",
+          "ja": "手紙の封緘技術には多くの異なる方法がある。一つの単純な方法は、手紙を何度も折り、最後の部分を折り目によってできたポケットに入れることである。折ることで手紙を安全にする最も難しい方法は30以上の工程がある。手紙を何度も折り、小さな部分を切り取り、それらの部分を小さな穴に通す必要がある。これらの工程が正しく行われると、手紙はしっかりと閉じた状態を保つ。手紙はロック部分を壊さなければ開けることができない。このため、意図された受取人は誰か他の人が手紙を読もうとしたかどうかを知ることができる。",
+          "audioFile": "audio/practice_pp4.mp3"
+        }
+      },
+      {
+        "id": "fp5",
+        "title": "今回の重要なパラフレーズ",
+        "subtitle": "Key Paraphrases",
+        "explanation": "正解には本文と異なる表現が使われる。特にメール問題では「依頼の意図」を読む力が問われる。",
+        "sourceQuote": "①media reports increased interest ← appearance in the media + increase in followers\n②feel at ease by showing skills ← feel comfortable by demonstrating ability\n③handling daily tasks ← how you would handle different events\n④common practice ← not only spies, regular writers also knew\n⑤evidence someone tried ← cannot be opened without breaking",
+        "sourceLocation": "Part 3 全体",
+        "examples": [
+          {
+            "en": "media reports increased interest = appearance in the media + increase in followers",
+            "ja": "メディア報道が関心を高めた = メディア露出+フォロワー増",
+            "note": "原因の要約的言い換え"
+          },
+          {
+            "en": "handling daily tasks = how you would handle different events",
+            "ja": "日常業務の対処 = 異なるイベントへの対応方法",
+            "note": "daily tasks=events(毎日あるイベント)"
+          },
+          {
+            "en": "common practice = not only spies, regular writers also knew",
+            "ja": "一般的な行為 = スパイだけでなく一般人も知っていた",
+            "note": "common=広く知られていた"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'not the only ones who did not want others to read their letters' を言い換えてください。",
+            "a": "'other people also desired privacy for their correspondence'。not the only ones = others too。"
+          },
+          {
+            "q": "'became common in the nineteenth century' を言い換えてください。",
+            "a": "'gained widespread use during the 1800s'。became common = gained widespread use。"
+          },
+          {
+            "q": "'did not want others to read their letters' を別の表現で言い換えると？",
+            "a": "'wished to keep their correspondence private'。did not want others to read = wished to keep private。"
+          },
+          {
+            "q": "封筒以前の手紙の保護方法を要約してください。",
+            "a": "手紙自体を折りたたんで封をするレターロッキング。何世紀もヨーロッパ・アジア・中東で使用。"
+          }
+        ],
+        "highlightPatterns": [
+          "not the only ones",
+          "not want others",
+          "envelopes"
+        ],
+        "highlightColor": "#f59e0b",
+        "highlightLabel": "パラフレーズ",
+        "practicePassage": {
+          "en": "[出典: Letter-Locking]\nIn Europe, using envelopes to hold letters became common in the nineteenth century after the Industrial Revolution, but letters were used as a communication tool long before that. If letters were sent as they were, just like a postcard today, anybody could read the content. Therefore, to send letters with contents that senders did not want others to read, they used a technique called \"letter-locking.\" Spies were not the only ones who used this technique. Many regular letter writers also knew how to do it.",
+          "ja": "ヨーロッパでは、手紙を入れるために封筒を使うことが19世紀に一般的になった。しかし、封筒が普及する以前から、人々は手紙を他人に読まれたくないと考えていた。封筒が一般的になる前は、手紙自体を折りたたんで封をする方法が使われていた。この技法はレターロッキングと呼ばれ、何世紀にもわたって世界中で使われていた。ヨーロッパだけでなく、アジアや中東でも同様の技法が見られた。",
+          "audioFile": "audio/practice_pp5.mp3"
+        }
+      }
+    ]
+  }
 }

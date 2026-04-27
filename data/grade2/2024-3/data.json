@@ -1,2116 +1,2252 @@
 {
-    "grade": "2級",
-    "year": "2024",
-    "session": "3",
-    "title": "2024年度 第3回 英語資格検定2級 リーディング",
-    "vocabulary": [
-        {
-            "word": "subscription",
-            "meaning": "定期購読",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "I renewed my magazine subscription.",
-            "distractors": [
-                "広告",
-                "割引",
-                "雑誌"
-            ],
-            "wordAudio": "audio/vocab/w_001_subscription.mp3"
-        },
-        {
-            "word": "opportunity",
-            "meaning": "機会",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "This is a great opportunity for you.",
-            "distractors": [
-                "結果",
-                "障害",
-                "義務"
-            ],
-            "wordAudio": "audio/vocab/w_002_opportunity.mp3"
-        },
-        {
-            "word": "campaign",
-            "meaning": "キャンペーン",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The company launched a new campaign.",
-            "distractors": [
-                "契約",
-                "定期購読",
-                "代表者"
-            ],
-            "wordAudio": "audio/vocab/w_003_campaign.mp3"
-        },
-        {
-            "word": "representative",
-            "meaning": "代表者",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "She is the representative of our team.",
-            "distractors": [
-                "機会",
-                "購読者",
-                "候補者"
-            ],
-            "wordAudio": "audio/vocab/w_004_representative.mp3"
-        },
-        {
-            "word": "offend",
-            "meaning": "～の感情を害する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "I'm sorry if I offended you.",
-            "distractors": [
-                "～を慰める",
-                "～を置き換える",
-                "～を変形させる"
-            ],
-            "wordAudio": "audio/vocab/w_005_offend.mp3"
-        },
-        {
-            "word": "replace",
-            "meaning": "～を取り替える",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "We need to replace the old batteries.",
-            "distractors": [
-                "～を害する",
-                "～を慰める",
-                "～を変える"
-            ],
-            "wordAudio": "audio/vocab/w_006_replace.mp3"
-        },
-        {
-            "word": "comfort",
-            "meaning": "～を慰める",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "She tried to comfort the crying child.",
-            "distractors": [
-                "～を害する",
-                "～を取り替える",
-                "～を変形させる"
-            ],
-            "wordAudio": "audio/vocab/w_007_comfort.mp3"
-        },
-        {
-            "word": "transform",
-            "meaning": "～を変形させる",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Technology has transformed the way we work.",
-            "distractors": [
-                "～を害する",
-                "～を慰める",
-                "～を取り替える"
-            ],
-            "wordAudio": "audio/vocab/w_008_transform.mp3"
-        },
-        {
-            "word": "storage",
-            "meaning": "保管",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "We need more storage space.",
-            "distractors": [
-                "逆転",
-                "天国",
-                "否定"
-            ],
-            "wordAudio": "audio/vocab/w_009_storage.mp3"
-        },
-        {
-            "word": "consequence",
-            "meaning": "結果",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "He didn't think about the consequences.",
-            "distractors": [
-                "要求",
-                "時刻表",
-                "スーツケース"
-            ],
-            "wordAudio": "audio/vocab/w_010_consequence.mp3"
-        },
-        {
-            "word": "separately",
-            "meaning": "別々に",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "They arrived at the party separately.",
-            "distractors": [
-                "その間に",
-                "最近は",
-                "永久に"
-            ],
-            "wordAudio": "audio/vocab/w_011_separately.mp3"
-        },
-        {
-            "word": "meanwhile",
-            "meaning": "その間に",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "I'll cook dinner. Meanwhile, you set the table.",
-            "distractors": [
-                "別々に",
-                "最近は",
-                "永久に"
-            ],
-            "wordAudio": "audio/vocab/w_012_meanwhile.mp3"
-        },
-        {
-            "word": "permanently",
-            "meaning": "永久に",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "The museum is permanently closed.",
-            "distractors": [
-                "別々に",
-                "その間に",
-                "最近は"
-            ],
-            "wordAudio": "audio/vocab/w_013_permanently.mp3"
-        },
-        {
-            "word": "outcome",
-            "meaning": "結果",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "We are waiting for the outcome of the election.",
-            "distractors": [
-                "食欲",
-                "犠牲者",
-                "紛争"
-            ],
-            "wordAudio": "audio/vocab/w_014_outcome.mp3"
-        },
-        {
-            "word": "appetite",
-            "meaning": "食欲",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "I lost my appetite after the bad news.",
-            "distractors": [
-                "結果",
-                "犠牲者",
-                "紛争"
-            ],
-            "wordAudio": "audio/vocab/w_015_appetite.mp3"
-        },
-        {
-            "word": "accelerate",
-            "meaning": "～を加速させる",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The company wants to accelerate its growth.",
-            "distractors": [
-                "残る",
-                "作曲する",
-                "発射する"
-            ],
-            "wordAudio": "audio/vocab/w_016_accelerate.mp3"
-        },
-        {
-            "word": "educate",
-            "meaning": "～を教育する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Schools educate children in many subjects.",
-            "distractors": [
-                "発明する",
-                "だます",
-                "ふりをする"
-            ],
-            "wordAudio": "audio/vocab/w_017_educate.mp3"
-        },
-        {
-            "word": "deceive",
-            "meaning": "～をだます",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "He tried to deceive the police.",
-            "distractors": [
-                "発明する",
-                "教育する",
-                "ふりをする"
-            ],
-            "wordAudio": "audio/vocab/w_018_deceive.mp3"
-        },
-        {
-            "word": "financial",
-            "meaning": "財政的な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The company is in financial trouble.",
-            "distractors": [
-                "魅力的な",
-                "国家的な",
-                "無知な"
-            ],
-            "wordAudio": "audio/vocab/w_019_financial.mp3"
-        },
-        {
-            "word": "drift",
-            "meaning": "漂う",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The boat drifted away from the shore.",
-            "distractors": [
-                "割る",
-                "解決する",
-                "つかむ"
-            ],
-            "wordAudio": "audio/vocab/w_020_drift.mp3"
-        },
-        {
-            "word": "in honor",
-            "meaning": "～を記念して",
-            "pos": "句",
-            "level": "2級",
-            "example": "A dinner was held in honor of the guest.",
-            "distractors": [
-                "～の不足で",
-                "～の危険にさらして",
-                "～の疑いで"
-            ],
-            "wordAudio": "audio/vocab/w_021_in_honor.mp3"
-        },
-        {
-            "word": "on the go",
-            "meaning": "忙しく動き回って",
-            "pos": "句",
-            "level": "2級",
-            "example": "She is always on the go.",
-            "distractors": [
-                "邪魔になって",
-                "規則通りに",
-                "要点を突いて"
-            ],
-            "wordAudio": "audio/vocab/w_022_on_the_go.mp3"
-        },
-        {
-            "word": "at the mercy",
-            "meaning": "～のなすがままに",
-            "pos": "句",
-            "level": "2級",
-            "example": "They were at the mercy of the storm.",
-            "distractors": [
-                "～のために",
-                "増加中で",
-                "～の過程で"
-            ],
-            "wordAudio": "audio/vocab/w_023_at_the_mercy.mp3"
-        },
-        {
-            "word": "fall back on",
-            "meaning": "～に頼る",
-            "pos": "句動詞",
-            "level": "2級",
-            "example": "She had to fall back on her savings.",
-            "distractors": [
-                "～と別れる",
-                "～の方に来る",
-                "～の悪口を言う"
-            ],
-            "wordAudio": "audio/vocab/w_024_fall_back_on.mp3"
-        },
-        {
-            "word": "in effect",
-            "meaning": "実施されて",
-            "pos": "句",
-            "level": "2級",
-            "example": "The new law is now in effect.",
-            "distractors": [
-                "ストライキ中で",
-                "徒歩で",
-                "並んで"
-            ],
-            "wordAudio": "audio/vocab/w_025_in_effect.mp3"
-        },
-        {
-            "word": "pick out",
-            "meaning": "～を選び出す",
-            "pos": "句動詞",
-            "level": "2級",
-            "example": "She picked out a beautiful dress.",
-            "distractors": [
-                "転ぶ",
-                "裏返す",
-                "切り離す"
-            ],
-            "wordAudio": "audio/vocab/w_026_pick_out.mp3"
-        },
-        {
-            "word": "side by side",
-            "meaning": "並んで",
-            "pos": "句",
-            "level": "2級",
-            "example": "They walked side by side.",
-            "distractors": [
-                "この先の",
-                "行ったり来たり",
-                "途中で"
-            ],
-            "wordAudio": "audio/vocab/w_027_side_by_side.mp3"
-        },
-        {
-            "word": "victim",
-            "meaning": "犠牲者",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The victim was taken to the hospital.",
-            "distractors": [
-                "結果",
-                "食欲",
-                "紛争"
-            ],
-            "wordAudio": "audio/vocab/w_028_victim.mp3"
-        },
-        {
-            "word": "conflict",
-            "meaning": "紛争",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The conflict lasted for many years.",
-            "distractors": [
-                "結果",
-                "食欲",
-                "犠牲者"
-            ],
-            "wordAudio": "audio/vocab/w_029_conflict.mp3"
-        },
-        {
-            "word": "compose",
-            "meaning": "～を構成する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Water is composed of hydrogen and oxygen.",
-            "distractors": [
-                "残る",
-                "加速する",
-                "発射する"
-            ],
-            "wordAudio": "audio/vocab/w_030_compose.mp3"
-        },
-        {
-            "word": "launch",
-            "meaning": "～を開始する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "They launched a new product line.",
-            "distractors": [
-                "残る",
-                "構成する",
-                "加速する"
-            ],
-            "wordAudio": "audio/vocab/w_031_launch.mp3"
-        },
-        {
-            "word": "invent",
-            "meaning": "～を発明する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Edison invented the light bulb.",
-            "distractors": [
-                "教育する",
-                "だます",
-                "ふりをする"
-            ],
-            "wordAudio": "audio/vocab/w_032_invent.mp3"
-        },
-        {
-            "word": "pretend",
-            "meaning": "～のふりをする",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "He pretended to be sick.",
-            "distractors": [
-                "発明する",
-                "教育する",
-                "だます"
-            ],
-            "wordAudio": "audio/vocab/w_033_pretend.mp3"
-        },
-        {
-            "word": "attractive",
-            "meaning": "魅力的な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The offer was very attractive.",
-            "distractors": [
-                "国家的な",
-                "財政的な",
-                "無知な"
-            ],
-            "wordAudio": "audio/vocab/w_034_attractive.mp3"
-        },
-        {
-            "word": "ignorant",
-            "meaning": "無知な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "He was ignorant of the rules.",
-            "distractors": [
-                "魅力的な",
-                "国家的な",
-                "財政的な"
-            ],
-            "wordAudio": "audio/vocab/w_035_ignorant.mp3"
-        },
-        {
-            "word": "split",
-            "meaning": "～を割る",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "He split the wood with an axe.",
-            "distractors": [
-                "漂う",
-                "解決する",
-                "つかむ"
-            ],
-            "wordAudio": "audio/vocab/w_036_split.mp3"
-        },
-        {
-            "word": "resolve",
-            "meaning": "～を解決する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "They resolved the issue quickly.",
-            "distractors": [
-                "割る",
-                "漂う",
-                "つかむ"
-            ],
-            "wordAudio": "audio/vocab/w_037_resolve.mp3"
-        },
-        {
-            "word": "grasp",
-            "meaning": "～をつかむ",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "She grasped the rope tightly.",
-            "distractors": [
-                "割る",
-                "漂う",
-                "解決する"
-            ],
-            "wordAudio": "audio/vocab/w_038_grasp.mp3"
-        },
-        {
-            "word": "reverse",
-            "meaning": "逆",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The result was the reverse of what we expected.",
-            "distractors": [
-                "保管",
-                "天国",
-                "否定"
-            ],
-            "wordAudio": "audio/vocab/w_039_reverse.mp3"
-        },
-        {
-            "word": "denial",
-            "meaning": "否定",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "He is in denial about the problem.",
-            "distractors": [
-                "保管",
-                "逆",
-                "天国"
-            ],
-            "wordAudio": "audio/vocab/w_040_denial.mp3"
-        },
-        {
-            "word": "heaven",
-            "meaning": "天国",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The beach was like heaven on earth.",
-            "distractors": [
-                "保管",
-                "逆",
-                "否定"
-            ],
-            "wordAudio": "audio/vocab/w_041_heaven.mp3"
-        },
-        {
-            "word": "remain",
-            "meaning": "残る",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Only three seats remain available.",
-            "distractors": [
-                "構成する",
-                "加速する",
-                "発射する"
-            ],
-            "wordAudio": "audio/vocab/w_042_remain.mp3"
-        },
-        {
-            "word": "nowadays",
-            "meaning": "最近は",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "Nowadays, most people use smartphones.",
-            "distractors": [
-                "別々に",
-                "その間に",
-                "永久に"
-            ],
-            "wordAudio": "audio/vocab/w_043_nowadays.mp3"
-        },
-        {
-            "word": "for lack",
-            "meaning": "～の不足で",
-            "pos": "句",
-            "level": "2級",
-            "example": "The project failed for lack of funding.",
-            "distractors": [
-                "～を記念して",
-                "危険にさらして",
-                "疑いで"
-            ],
-            "wordAudio": "audio/vocab/w_044_for_lack.mp3"
-        },
-        {
-            "word": "at risk",
-            "meaning": "危険にさらして",
-            "pos": "句",
-            "level": "2級",
-            "example": "The species is at risk of extinction.",
-            "distractors": [
-                "～を記念して",
-                "～の不足で",
-                "疑いで"
-            ],
-            "wordAudio": "audio/vocab/w_045_at_risk.mp3"
-        },
-        {
-            "word": "on suspicion",
-            "meaning": "～の疑いで",
-            "pos": "句",
-            "level": "2級",
-            "example": "He was arrested on suspicion of theft.",
-            "distractors": [
-                "～を記念して",
-                "～の不足で",
-                "危険にさらして"
-            ],
-            "wordAudio": "audio/vocab/w_046_on_suspicion.mp3"
-        },
-        {
-            "word": "shelter",
-            "meaning": "避難所",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "They found shelter from the rain.",
-            "distractors": [
-                "保管",
-                "結果",
-                "紛争"
-            ],
-            "wordAudio": "audio/vocab/w_047_shelter.mp3"
-        },
-        {
-            "word": "disturb",
-            "meaning": "～を妨げる",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Please do not disturb the guests.",
-            "distractors": [
-                "～を害する",
-                "～を慰める",
-                "～を加速する"
-            ],
-            "wordAudio": "audio/vocab/w_048_disturb.mp3"
-        },
-        {
-            "word": "relieved",
-            "meaning": "安心した",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "She felt relieved after the exam.",
-            "distractors": [
-                "魅力的な",
-                "財政的な",
-                "無知な"
-            ],
-            "wordAudio": "audio/vocab/w_049_relieved.mp3"
-        },
-        {
-            "word": "internal",
-            "meaning": "内部の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The company resolved the internal conflict.",
-            "distractors": [
-                "財政的な",
-                "魅力的な",
-                "国家的な"
-            ],
-            "wordAudio": "audio/vocab/w_050_internal.mp3"
-        },
-        {
-            "word": "signal",
-            "meaning": "信号",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The traffic signal turned red.",
-            "distractors": [
-                "結果",
-                "食欲",
-                "避難所"
-            ],
-            "wordAudio": "audio/vocab/w_051_signal.mp3"
-        },
-        {
-            "word": "document",
-            "meaning": "～を記録する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "He documented every step of the process.",
-            "distractors": [
-                "～を発明する",
-                "～を教育する",
-                "～を加速する"
-            ],
-            "wordAudio": "audio/vocab/w_052_document.mp3"
-        },
-        {
-            "word": "volcanic",
-            "meaning": "火山の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The island was formed by volcanic activity.",
-            "distractors": [
-                "氷河の",
-                "砂漠の",
-                "森林の"
-            ],
-            "wordAudio": "audio/vocab/w_053_volcanic.mp3"
-        },
-        {
-            "word": "isolated",
-            "meaning": "孤立した",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The island is one of the most isolated places on Earth.",
-            "distractors": [
-                "混雑した",
-                "発展した",
-                "接続された"
-            ],
-            "wordAudio": "audio/vocab/w_054_isolated.mp3"
-        },
-        {
-            "word": "expedition",
-            "meaning": "探検",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Several expeditions have been sent to explore the island.",
-            "distractors": [
-                "観光",
-                "移住",
-                "貿易"
-            ],
-            "wordAudio": "audio/vocab/w_055_expedition.mp3"
-        },
-        {
-            "word": "rugged",
-            "meaning": "険しい",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The rugged coastline makes landing very difficult.",
-            "distractors": [
-                "平坦な",
-                "穏やかな",
-                "なめらかな"
-            ],
-            "wordAudio": "audio/vocab/w_056_rugged.mp3"
-        },
-        {
-            "word": "circadian",
-            "meaning": "概日の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Our circadian rhythm controls our sleep-wake cycle.",
-            "distractors": [
-                "月間の",
-                "年間の",
-                "週間の"
-            ],
-            "wordAudio": "audio/vocab/w_057_circadian.mp3"
-        },
-        {
-            "word": "melatonin",
-            "meaning": "メラトニン",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The body produces melatonin to promote sleep.",
-            "distractors": [
-                "アドレナリン",
-                "インスリン",
-                "ドーパミン"
-            ],
-            "wordAudio": "audio/vocab/w_058_melatonin.mp3"
-        },
-        {
-            "word": "insomnia",
-            "meaning": "不眠症",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Poor temperature control can lead to insomnia.",
-            "distractors": [
-                "過眠症",
-                "睡眠時無呼吸",
-                "夢遊病"
-            ],
-            "wordAudio": "audio/vocab/w_059_insomnia.mp3"
-        },
-        {
-            "word": "syllabus",
-            "meaning": "シラバス",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The textbook must align with the course syllabus.",
-            "distractors": [
-                "成績",
-                "出席",
-                "時間割"
-            ],
-            "wordAudio": "audio/vocab/w_060_syllabus.mp3"
-        },
-        {
-            "word": "curriculum",
-            "meaning": "カリキュラム",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The curriculum has been updated for the new academic year.",
-            "distractors": [
-                "施設",
-                "予算",
-                "人員"
-            ],
-            "wordAudio": "audio/vocab/w_061_curriculum.mp3"
-        },
-        {
-            "word": "chronicle",
-            "meaning": "年代記に記す",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Diaries chronicle the daily lives of ordinary people.",
-            "distractors": [
-                "忘れる",
-                "隠す",
-                "無視する"
-            ],
-            "wordAudio": "audio/vocab/w_062_chronicle.mp3"
-        },
-        {
-            "word": "intimate",
-            "meaning": "親密な",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Diaries provide an intimate look at historical figures.",
-            "distractors": [
-                "公式の",
-                "表面的な",
-                "客観的な"
-            ],
-            "wordAudio": "audio/vocab/w_063_intimate.mp3"
-        },
-        {
-            "word": "posterity",
-            "meaning": "後世",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "These diaries have been preserved for posterity.",
-            "distractors": [
-                "現在",
-                "過去",
-                "同世代"
-            ],
-            "wordAudio": "audio/vocab/w_064_posterity.mp3"
-        }
-    ],
-    "sections": [
-        {
-            "name": "大問1",
-            "nameEn": "Part 1",
-            "type": "vocabulary",
-            "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "questions": [
-                {
-                    "number": 1,
-                    "text": "Jane used to get her favorite magazine delivered to her home every month. However, she now has an online ( 1 ), so she can read the magazine on her tablet or smartphone.",
-                    "translation": "ジェーンは毎月お気に入りの雑誌を自宅に届けてもらっていた。しかし、今はオンラインの( 1 )を持っているので、タブレットやスマートフォンで雑誌を読むことができる。",
-                    "choices": [
-                        "opportunity",
-                        "campaign",
-                        "representative",
-                        "subscription"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "opportunity=機会→web上で読む「機会」ではない",
-                        "campaign=キャンペーン→文脈に合わない",
-                        "representative=代表者→人の話ではない",
-                        "subscription=定期購読→正解。💡 online subscription=オンライン定期購読。雑誌→ネットで最頻出"
-                    ]
-                },
-                {
-                    "number": 2,
-                    "text": "A : Jeff, I can't believe you said my painting was bad in class today.\nB : I'm sorry, Diana. I didn't mean to ( 2 ) you. I shouldn't have said that.",
-                    "translation": "A：ジェフ、今日の授業であなたが私の絵が下手だと言ったなんて信じられない。\nB：ごめんなさい、ダイアナ。あなたを( 2 )するつもりはなかった。あんなことを言うべきではなかった。",
-                    "choices": [
-                        "replace",
-                        "comfort",
-                        "transform",
-                        "offend"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "replace=取り替える→感情の文脈に不適切",
-                        "comfort=慰める→逆の意味",
-                        "transform=変える→文脈不一致",
-                        "offend=怒らせる→正解。💡 I didn't mean to offend you=怒らせるつもりはなかった。謝罪の定番表現"
-                    ]
-                },
-                {
-                    "number": 3,
-                    "text": "Greg likes his new apartment because it has a lot of room for ( 3 ). His last place did not have enough closet space for all of his things.",
-                    "translation": "グレッグは新しいアパートが気に入っている。( 3 )のための部屋がたくさんあるからだ。前の場所には荷物をすべて収納するのに十分なクローゼットのスペースがなかった。",
-                    "choices": [
-                        "storage",
-                        "reverse",
-                        "heaven",
-                        "denial"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "storage=収納→正解。💡 room for storage=収納スペース。closet space と言い換え関係",
-                        "reverse=逆→文脈不一致",
-                        "heaven=天国→不適切",
-                        "denial=否定→不適切"
-                    ]
-                },
-                {
-                    "number": 4,
-                    "text": "Ms. Walker asks her students to think about the ( 4 ) of their actions. She wants them to understand that their behavior will have effects on themselves and others.",
-                    "translation": "ウォーカー先生は生徒に自分の行動の( 4 )について考えるよう求めている。自分たちの行動が自分自身や他の人に影響を与えることを理解してほしいのだ。",
-                    "choices": [
-                        "requests",
-                        "timetables",
-                        "suitcases",
-                        "consequences"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "requests=要求→行動の結果ではない",
-                        "timetables=時刻表→不適切",
-                        "suitcases=スーツケース→不適切",
-                        "consequences=結果→正解。💡 consequences of actions=行動の結果。consider the consequences=結果を考える"
-                    ]
-                },
-                {
-                    "number": 5,
-                    "text": "Mike's meeting went on longer than expected, so he and his wife went ( 5 ) to their friends' dinner party. Mike took a taxi, while his wife drove their car.",
-                    "translation": "マイクの会議が予想より長引いたので、彼と妻は友人のディナーパーティーに( 5 )行った。マイクはタクシーに乗り、妻は車を運転した。",
-                    "choices": [
-                        "separately",
-                        "meanwhile",
-                        "nowadays",
-                        "permanently"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "separately=別々に→正解。💡 went separately=別々に行った。会議が長引いた→別々に出発する論理",
-                        "meanwhile=その間→副詞として不自然",
-                        "nowadays=最近は→文脈不一致",
-                        "permanently=永久に→不適切"
-                    ]
-                },
-                {
-                    "number": 6,
-                    "text": "Kelly had to leave the arena before the hockey game finished, so Sam told her the ( 6 ) the next day. The Wolves had won 5 to 3.",
-                    "translation": "ケリーはホッケーの試合が終わる前にアリーナを出なければならなかったので、サムは翌日彼女に( 6 )を教えた。ウルブズが5対3で勝っていた。",
-                    "choices": [
-                        "outcome",
-                        "appetite",
-                        "victim",
-                        "conflict"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "outcome=結果→正解。💡 outcome=試合の結果。💡 result/outcome/consequence の使い分けを覚えよう",
-                        "appetite=食欲→スポーツの文脈に不適切",
-                        "victim=犠牲者→不適切",
-                        "conflict=対立→不適切"
-                    ]
-                },
-                {
-                    "number": 7,
-                    "text": "In the meeting, a group of experts discussed the effects of economic activities that ( 7 ) global warming.",
-                    "translation": "会議で、専門家のグループが地球温暖化を( 7 )経済活動の影響について議論した。",
-                    "choices": [
-                        "remain",
-                        "compose",
-                        "launch",
-                        "accelerate"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "remain=残る→温暖化を「残す」は不自然",
-                        "compose=構成する→不適切",
-                        "launch=発射する→不適切",
-                        "accelerate=加速させる→正解。💡 accelerate global warming=温暖化を加速させる。経済活動→温暖化加速"
-                    ]
-                },
-                {
-                    "number": 8,
-                    "text": "The new history teacher at Maple High School is very good at ( 8 ) his students. They are learning a lot about the world from his classes.",
-                    "translation": "メイプル高校の新しい歴史の先生は生徒を( 8 )するのがとても上手だ。彼の授業から生徒たちは世界について多くのことを学んでいる。",
-                    "choices": [
-                        "inventing",
-                        "educating",
-                        "deceiving",
-                        "pretending"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "inventing=発明する→教師の仕事ではない",
-                        "educating=教育する→正解。💡 good at educating=教えるのが上手。teacher→educating は当然の組み合わせ",
-                        "deceiving=欺く→否定的な意味",
-                        "pretending=ふりをする→不適切"
-                    ]
-                },
-                {
-                    "number": 9,
-                    "text": "The company's ( 9 ) situation has been getting worse this year. It is going to have to close some of its stores.",
-                    "translation": "その会社の( 9 )状況は今年悪化している。いくつかの店舗を閉鎖しなければならないだろう。",
-                    "choices": [
-                        "attractive",
-                        "national",
-                        "financial",
-                        "ignorant"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "attractive=魅力的な→会社の状況表現に不自然",
-                        "national=国の→限定的すぎる",
-                        "financial=財政的な→正解。💡 financial situation=財政状況。店舗閉鎖→経済的困難の文脈",
-                        "ignorant=無知な→不適切"
-                    ]
-                },
-                {
-                    "number": 10,
-                    "text": "A : The boat is starting to ( 10 ) away from the shore.\nB : Oh no! We need to catch it before it floats away!",
-                    "translation": "A：ボートが岸から( 10 )始めているよ。\nB：大変だ！流されてしまう前に捕まえなければ！",
-                    "choices": [
-                        "split",
-                        "drift",
-                        "resolve",
-                        "grasp"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "split=分裂する→ボートの動きに不自然",
-                        "drift=漂う→正解。💡 drift away=漂って離れる。💡 ボートが流される典型的な表現",
-                        "resolve=解決する→不適切",
-                        "grasp=つかむ→不適切"
-                    ]
-                },
-                {
-                    "number": 11,
-                    "text": "A statue was put up in front of city hall ( 11 ) of the city's first mayor.",
-                    "translation": "市庁舎の前に市の初代市長を( 11 )して像が建てられた。",
-                    "choices": [
-                        "in honor",
-                        "for lack",
-                        "at risk",
-                        "on suspicion"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "in honor=敬意を表して→正解。💡 in honor of=～を称えて。銅像を立てる→敬意を表す定番表現",
-                        "for lack=不足のため→不適切",
-                        "at risk=危険にさらされて→不適切",
-                        "on suspicion=嫌疑で→不適切"
-                    ]
-                },
-                {
-                    "number": 12,
-                    "text": "A : I don't think I've ever seen Bob take a break.\nB : Yes, he's always ( 12 ). He likes to keep busy.",
-                    "translation": "A：ボブが休憩しているのを見たことがないと思う。\nB：ええ、彼はいつも( 12 )よ。忙しくしているのが好きなんだ。",
-                    "choices": [
-                        "on the go",
-                        "in the way",
-                        "by the book",
-                        "to the point"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "on the go=忙しく動き回って→正解。💡 always on the go=いつも忙しい。keep busy と言い換え",
-                        "in the way=邪魔で→文脈不一致",
-                        "by the book=規則通りに→文脈不一致",
-                        "to the point=要点を押さえて→不適切"
-                    ]
-                },
-                {
-                    "number": 13,
-                    "text": "Hikers and campers need to be prepared for bad weather. Without a safe shelter to go to, they could be ( 13 ) of nature.",
-                    "translation": "ハイカーやキャンパーは悪天候に備える必要がある。安全な避難所がなければ、自然の( 13 )になりかねない。",
-                    "choices": [
-                        "for the good",
-                        "on the rise",
-                        "in the course",
-                        "at the mercy"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "for the good=利益のために→文脈不一致",
-                        "on the rise=増加中→不適切",
-                        "in the course=途中で→不適切",
-                        "at the mercy=なすがまま→正解。💡 at the mercy of nature=自然のなすがまま。避難所がない→自然に対して無力"
-                    ]
-                },
-                {
-                    "number": 14,
-                    "text": "When Julia lost her job, she had to ( 14 ) her savings for a few months until she found a new one.",
-                    "translation": "ジュリアが職を失ったとき、新しい仕事を見つけるまでの数ヶ月間、貯金に( 14 )しなければならなかった。",
-                    "choices": [
-                        "break up with",
-                        "fall back on",
-                        "come over to",
-                        "speak ill of"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "break up with=別れる→人間関係の文脈",
-                        "fall back on=頼る→正解。💡 fall back on savings=貯金に頼る。💡 最後の手段として「頼る」イメージ",
-                        "come over to=訪れる→不適切",
-                        "speak ill of=悪口を言う→不適切"
-                    ]
-                },
-                {
-                    "number": 15,
-                    "text": "A : I thought the new rule was going to start today.\nB : It was, but the manager said that it wouldn't be ( 15 ) until next month.",
-                    "translation": "A：新しい規則は今日から始まると思っていた。\nB：そうだったけど、マネージャーが来月まで( 15 )にならないと言っていた。",
-                    "choices": [
-                        "on strike",
-                        "on foot",
-                        "in line",
-                        "in effect"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "on strike=ストライキ中→不適切",
-                        "on foot=徒歩で→不適切",
-                        "in line=並んで→不適切",
-                        "in effect=有効で→正解。💡 in effect=施行されて。ルールが「有効」になる時期の話"
-                    ]
-                },
-                {
-                    "number": 16,
-                    "text": "When Kyle went to the clothing store, he had to ( 16 ) a new shirt for his brother's wedding. His mother told him to get a white one.",
-                    "translation": "カイルが洋服店に行ったとき、兄の結婚式のために新しいシャツを( 16 )しなければならなかった。母は白いものを買うように言った。",
-                    "choices": [
-                        "fall over",
-                        "turn over",
-                        "cut off",
-                        "pick out"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "fall over=倒れる→不適切",
-                        "turn over=ひっくり返す→不適切",
-                        "cut off=切り離す→不適切",
-                        "pick out=選ぶ→正解。💡 pick out a shirt=シャツを選ぶ。💡 pick out ≒ choose だが「多くの中から選ぶ」ニュアンス"
-                    ]
-                },
-                {
-                    "number": 17,
-                    "text": "The members of the team stood ( 17 ) on the field before the soccer game started. They all looked very serious and determined to win.",
-                    "translation": "サッカーの試合が始まる前、チームのメンバーはフィールドに( 17 )立っていた。全員がとても真剣で勝利への決意を見せていた。",
-                    "choices": [
-                        "down the road",
-                        "back and forth",
-                        "on the way",
-                        "side by side"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "down the road=将来→不適切",
-                        "back and forth=行ったり来たり→不適切",
-                        "on the way=途中で→不適切",
-                        "side by side=並んで→正解。💡 stood side by side=並んで立った。チームメイトが横一列に並ぶ場面"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問2",
-            "nameEn": "Part 2",
-            "type": "passage-fill",
-            "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "The Darkest Island",
-                    "paragraphs": [
-                        "In a city, there are lights from cars and lamps all around. Many houses have lights on, and some businesses keep their lights on all night for safety reasons. By keeping lights on, people can see the roads well and feel relieved at night. However, others find it ( 18 ). When the night is too bright, the light can disturb people's sleep. Additionally, the lives of animals are often in danger. Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
-                        "The people living in Sark, a small island near southern England, have done a lot to deal with this problem. They wanted to prevent their community from being bright with lights. Therefore, people cannot ( 19 ) on the streets of Sark. With no cars, there is no need to place streetlights for safe driving. Walking and riding horses and bicycles are allowed when going somewhere. They buy lights when they really need them. However, they make sure to point lights to the ground.",
-                        "On the island known for its amazingly dark skies, people can see beautiful stars. This has attracted many people from all over the world. The number of people who visit the island is increasing. Surprisingly, as many as 60,000 tourists come to the island every year. ( 20 ), the island's population is getting smaller. The authority began to look for 500 new residents. They will probably face a new problem when new people arrive on this dark sky island."
-                    ],
-                    "translations": [
-                        "都市には車やランプからの光があちこちにある。多くの家では明かりがついており、安全上の理由から一晩中明かりをつけている企業もある。明かりをつけておくことで、人々は夜でも道路をよく見ることができ、安心する。しかし、他の人々は( 18 )と感じている。夜が明るすぎると、光が人々の睡眠を妨げることがある。さらに、動物の命がしばしば危険にさらされる。現在、このような問題は「光害」と呼ばれるものによって引き起こされており、世界中のほぼすべての都市にとって課題となっている。",
-                        "イングランド南部に近い小さな島サークに住む人々は、この問題に対処するために多くのことを行ってきた。彼らはコミュニティが光で明るくなることを防ぎたかった。そのため、サークの通りでは( 19 )ことができない。車がないので、安全な運転のために街灯を設置する必要がない。どこかに行くときは、歩いたり馬や自転車に乗ったりすることが許されている。本当に必要なときに照明を買う。ただし、光を地面に向けるようにしている。",
-                        "驚くほど暗い空で知られるこの島では、美しい星を見ることができる。これが世界中から多くの人々を引きつけている。島を訪れる人の数は増加している。驚いたことに、毎年6万人もの観光客がこの島を訪れる。( 20 )、島の人口は減少している。当局は500人の新しい住民を探し始めた。この暗い空の島に新しい人々が到着すると、おそらく新たな問題に直面するだろう。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "In a city, there are lights from cars and lamps all around.",
-                            "都市には車やランプからの光があちこちにある。"
-                        ],
-                        [
-                            "Many houses have lights on, and some businesses keep their lights on all night for safety reasons.",
-                            "多くの家では明かりがついており、安全上の理由から一晩中明かりをつけている企業もある。"
-                        ],
-                        [
-                            "By keeping lights on, people can see the roads well and feel relieved at night.",
-                            "明かりをつけておくことで、人々は夜でも道路をよく見ることができ、安心する。"
-                        ],
-                        [
-                            "However, others find it ( 18 ).",
-                            "しかし、他の人々は( 18 )と感じている。"
-                        ],
-                        [
-                            "When the night is too bright, the light can disturb people's sleep.",
-                            "夜が明るすぎると、光が人々の睡眠を妨げることがある。"
-                        ],
-                        [
-                            "Additionally, the lives of animals are often in danger.",
-                            "さらに、動物の命がしばしば危険にさらされる。"
-                        ],
-                        [
-                            "Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
-                            "現在、このような問題は「光害」と呼ばれるものによって引き起こされており、世界中のほぼすべての都市にとって課題となっている。"
-                        ],
-                        [
-                            "The people living in Sark, a small island near southern England, have done a lot to deal with this problem.",
-                            "イングランド南部に近い小さな島サークに住む人々は、この問題に対処するために多くのことを行ってきた。"
-                        ],
-                        [
-                            "They wanted to prevent their community from being bright with lights.",
-                            "彼らはコミュニティが光で明るくなることを防ぎたかった。"
-                        ],
-                        [
-                            "Therefore, people cannot ( 19 ) on the streets of Sark.",
-                            "そのため、サークの通りでは( 19 )ことができない。"
-                        ],
-                        [
-                            "With no cars, there is no need to place streetlights for safe driving.",
-                            "車がないので、安全な運転のために街灯を設置する必要がない。"
-                        ],
-                        [
-                            "Walking and riding horses and bicycles are allowed when going somewhere.",
-                            "どこかに行くときは、歩いたり馬や自転車に乗ったりすることが許されている。"
-                        ],
-                        [
-                            "They buy lights when they really need them.",
-                            "本当に必要なときに照明を買う。"
-                        ],
-                        [
-                            "However, they make sure to point lights to the ground.",
-                            "ただし、光を地面に向けるようにしている。"
-                        ],
-                        [
-                            "On the island known for its amazingly dark skies, people can see beautiful stars.",
-                            "驚くほど暗い空で知られるこの島では、美しい星を見ることができる。"
-                        ],
-                        [
-                            "This has attracted many people from all over the world.",
-                            "これが世界中から多くの人々を引きつけている。"
-                        ],
-                        [
-                            "The number of people who visit the island is increasing.",
-                            "島を訪れる人の数は増加している。"
-                        ],
-                        [
-                            "Surprisingly, as many as 60,000 tourists come to the island every year.",
-                            "驚いたことに、毎年6万人もの観光客がこの島を訪れる。"
-                        ],
-                        [
-                            "( 20 ), the island's population is getting smaller.",
-                            "( 20 )、島の人口は減少している。"
-                        ],
-                        [
-                            "The authority began to look for 500 new residents.",
-                            "当局は500人の新しい住民を探し始めた。"
-                        ],
-                        [
-                            "They will probably face a new problem when new people arrive on this dark sky island.",
-                            "この暗い空の島に新しい人々が到着すると、おそらく新たな問題に直面するだろう。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 18,
-                            "choices": [
-                                "difficult to relax",
-                                "fun to see the lights",
-                                "easy to watch the stars",
-                                "hard to open their shops"
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "リラックスが難しい→正解。光害により星が見えず「リラックスしにくい」💡 空欄の前後の文脈を必ず確認",
-                                "楽しく灯りを見る→光害が問題という文脈に矛盾",
-                                "星を見やすい→光害の問題と矛盾",
-                                "店を開けにくい→本文にない"
-                            ]
-                        },
-                        {
-                            "number": 19,
-                            "choices": [
-                                "plant trees",
-                                "go shopping",
-                                "drive cars",
-                                "walk alone"
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "木を植える→交通手段の話ではない",
-                                "買い物をする→不適切",
-                                "車を運転する→正解。島では車はなく歩くか自転車💡 対比構造に注目：本土≠島の生活",
-                                "一人で歩く→不適切"
-                            ]
-                        },
-                        {
-                            "number": 20,
-                            "choices": [
-                                "In other words",
-                                "In the end",
-                                "In a word",
-                                "In contrast"
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "言い換えれば→要約の文脈ではない",
-                                "結局→結論ではない",
-                                "一言で言えば→要約ではない",
-                                "対照的に→正解。💡 In contrast=対比。前文と対照的な内容が続く構造に注目"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "Temperature and Sleep",
-                    "paragraphs": [
-                        "The quality of people's sleep is greatly ( 21 ). For example, some people have had the experience of not being able to sleep because of noise from their neighbors or busy roads. Other people may have had trouble falling asleep because of light coming in from outside and light from the screens of digital devices, such as smartphones and tablet computers. However, many experts are saying that another very important environmental factor is the temperature.",
-                        "In the evening, as the air cools down, so does the human body's internal temperature. This is because the brain sends out a signal to the body that it is time to sleep. Then, the body starts to relax, and people's breathing becomes deeper and slower. This is similar to what bears do in the winter. They keep ( 22 ). By doing so, they can make their body functions slow down to the lowest level.",
-                        "This means the opposite is also true. It becomes difficult for people to sleep when the temperature is too warm. A warm temperature makes it difficult for the human body to cool down. ( 23 ), people roll over in bed on a hot summer night to try to feel more comfortable. This is their reaction to try to escape from the heat. One solution is for people to take a warm shower before going to bed. The human body's internal body temperature starts to drop after a shower."
-                    ],
-                    "translations": [
-                        "人々の睡眠の質は( 21 )大きく影響を受ける。例えば、近隣の騒音や交通量の多い道路の騒音のために眠れなかった経験のある人もいる。外からの光やスマートフォンやタブレットコンピュータなどのデジタル機器の画面の光のために寝付けなかった人もいるだろう。しかし、多くの専門家はもう一つの非常に重要な環境要因は温度であると述べている。",
-                        "夕方、空気が冷えるにつれて、人の体の内部温度も下がる。これは脳が体に寝る時間であるという信号を送るためである。すると体がリラックスし始め、呼吸がより深く遅くなる。これは冬に熊がすることに似ている。彼らは( 22 )。そうすることで、体の機能を最も低いレベルにまで減速させることができる。",
-                        "これは逆も同様であることを意味する。気温が高すぎると寝つきが悪くなる。暖かい気温は体を冷やすことを困難にする。( 23 )、暑い夏の夜に人々はより快適に感じようとしてベッドで寝返りを打つ。これは暑さから逃れようとする反応である。一つの解決策は就寝前に温かいシャワーを浴びることである。シャワーの後、体内温度は下がり始める。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "The quality of people's sleep is greatly ( 21 ).",
-                            "人々の睡眠の質は( 21 )大きく影響を受ける。"
-                        ],
-                        [
-                            "For example, some people have had the experience of not being able to sleep because of noise from their neighbors or busy roads.",
-                            "例えば、近隣の騒音や交通量の多い道路の騒音のために眠れなかった経験のある人もいる。"
-                        ],
-                        [
-                            "Other people may have had trouble falling asleep because of light coming in from outside and light from the screens of digital devices, such as smartphones and tablet computers.",
-                            "外からの光やスマートフォンやタブレットコンピュータなどのデジタル機器の画面の光のために寝付けなかった人もいるだろう。"
-                        ],
-                        [
-                            "However, many experts are saying that another very important environmental factor is the temperature.",
-                            "しかし、多くの専門家はもう一つの非常に重要な環境要因は温度であると述べている。"
-                        ],
-                        [
-                            "In the evening, as the air cools down, so does the human body's internal temperature.",
-                            "夕方、空気が冷えるにつれて、人の体の内部温度も下がる。"
-                        ],
-                        [
-                            "This is because the brain sends out a signal to the body that it is time to sleep.",
-                            "これは脳が体に寝る時間であるという信号を送るためである。"
-                        ],
-                        [
-                            "Then, the body starts to relax, and people's breathing becomes deeper and slower.",
-                            "すると体がリラックスし始め、呼吸がより深く遅くなる。"
-                        ],
-                        [
-                            "This is similar to what bears do in the winter.",
-                            "これは冬に熊がすることに似ている。"
-                        ],
-                        [
-                            "They keep ( 22 ).",
-                            "彼らは( 22 )。"
-                        ],
-                        [
-                            "By doing so, they can make their body functions slow down to the lowest level.",
-                            "そうすることで、体の機能を最も低いレベルにまで減速させることができる。"
-                        ],
-                        [
-                            "This means the opposite is also true.",
-                            "これは逆も同様であることを意味する。"
-                        ],
-                        [
-                            "It becomes difficult for people to sleep when the temperature is too warm.",
-                            "気温が高すぎると寝つきが悪くなる。"
-                        ],
-                        [
-                            "A warm temperature makes it difficult for the human body to cool down.",
-                            "暖かい気温は体を冷やすことを困難にする。"
-                        ],
-                        [
-                            "( 23 ), people roll over in bed on a hot summer night to try to feel more comfortable.",
-                            "( 23 )、暑い夏の夜に人々はより快適に感じようとしてベッドで寝返りを打つ。"
-                        ],
-                        [
-                            "This is their reaction to try to escape from the heat.",
-                            "これは暑さから逃れようとする反応である。"
-                        ],
-                        [
-                            "One solution is for people to take a warm shower before going to bed.",
-                            "一つの解決策は就寝前に温かいシャワーを浴びることである。"
-                        ],
-                        [
-                            "The human body's internal body temperature starts to drop after a shower.",
-                            "シャワーの後、体内温度は下がり始める。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 21,
-                            "choices": [
-                                "concerned by their parents",
-                                "reduced when they are full",
-                                "influenced by the environment",
-                                "important when they have a fever"
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "親に心配される→不適切",
-                                "満腹時に減少する→不適切",
-                                "環境に影響される→正解。体温は環境温度に影響される💡 influenced by=～に影響される。科学系の頻出表現",
-                                "熱がある時に重要→限定的"
-                            ]
-                        },
-                        {
-                            "number": 22,
-                            "choices": [
-                                "running from their enemies",
-                                "their body temperature low",
-                                "the inside of caves warm",
-                                "digging a hole to hide in"
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "敵から逃げる→不適切",
-                                "体温を低く保つ→正解。動物が体温を下げて冬眠💡 keep + O + C の語法：keep their body temperature low",
-                                "洞穴の中を暖かくする→不適切",
-                                "穴を掘って隠れる→不適切"
-                            ]
-                        },
-                        {
-                            "number": 23,
-                            "choices": [
-                                "For the time being",
-                                "On top of that",
-                                "Even then",
-                                "In many cases"
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "当面の間→不適切",
-                                "その上→追加ではなく結果",
-                                "その時でさえ→不適切",
-                                "多くの場合→正解。💡 In many cases=多くの場合。一般的な傾向を述べる表現"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問3",
-            "nameEn": "Part 3",
-            "type": "reading-comprehension",
-            "instruction": "次の英文A，Bの内容に関して，質問に対して最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Textbook selection",
-                    "format": "email",
-                    "meta": {
-                        "from": "Anastasia Jenkins <a.jenkins@riverschool.edu.com>",
-                        "to": "Joshua Kimura <j.kimura@riverschool.edu.com>",
-                        "date": "January 26",
-                        "subject": "Textbook selection"
-                    },
-                    "paragraphs": [
-                        "Dear Joshua,",
-                        "I wanted to update you on the decisions made during last week's teachers' meeting regarding textbook selection for the next semester. Since you were absent, I will give you a summary. In the meeting, we agreed to use two main textbooks, Your Daily English and English First. These books cover important grammar, vocabulary, and reading skills. In addition to these, we also want to use online resources to go along with our teaching materials.",
-                        "Your Daily English focuses on practical communication skills, with dialogues, exercises, and real-life examples. It's for our second-year students. On the other hand, English First is designed for beginners. This book does not just give students grammar and vocabulary, as traditional textbooks often do. Instead, it also teaches these skills in stories that children of our students' age are more likely to enjoy.",
-                        "As you are the expert in this area, I would like you to check both textbooks and see what online resources you recommend. We all agree that your opinions about this matter should be heard before the next meeting. Please share your thoughts by next Friday. Since I want everyone to see your choice and reasons for it, please send us a group e-mail.",
-                        "Best regards,\nAnastasia Jenkins\nEnglish Department"
-                    ],
-                    "translations": [
-                        "ジョシュアへ",
-                        "先週の教師会議で行われた来学期の教科書選定に関する決定事項をお知らせしたいと思います。欠席されていたので、概要をお伝えします。会議では、Your Daily EnglishとEnglish Firstという2つの主要な教科書を使用することに合意しました。これらの本は重要な文法、語彙、読解スキルをカバーしています。これらに加えて、教材に沿ったオンラインリソースも使用したいと考えています。",
-                        "Your Daily Englishは実践的なコミュニケーションスキルに焦点を当てており、対話、演習、実生活の例が含まれています。2年生向けです。一方、English Firstは初心者向けに設計されています。この本は従来の教科書がよくするように文法や語彙を教えるだけではありません。代わりに、生徒の年齢の子どもたちがより楽しめそうな物語の中でこれらのスキルも教えます。",
-                        "この分野の専門家であるあなたに、両方の教科書を確認し、どのオンラインリソースを推薦するか見ていただきたいと思います。この件に関するあなたの意見は次の会議の前に聞くべきだと皆が同意しています。来週の金曜日までにあなたの考えを共有してください。全員にあなたの選択とその理由を見てもらいたいので、グループメールを送ってください。",
-                        "敬具\nアナスタシア・ジェンキンス\n英語科"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "I wanted to update you on the decisions made during last week's teachers' meeting regarding textbook selection for the next semester.",
-                            "先週の教師会議で行われた来学期の教科書選定に関する決定事項をお知らせしたいと思います。"
-                        ],
-                        [
-                            "Since you were absent, I will give you a summary.",
-                            "欠席されていたので、概要をお伝えします。"
-                        ],
-                        [
-                            "In the meeting, we agreed to use two main textbooks, Your Daily English and English First.",
-                            "会議では、Your Daily EnglishとEnglish Firstという2つの主要な教科書を使用することに合意しました。"
-                        ],
-                        [
-                            "These books cover important grammar, vocabulary, and reading skills.",
-                            "これらの本は重要な文法、語彙、読解スキルをカバーしています。"
-                        ],
-                        [
-                            "In addition to these, we also want to use online resources to go along with our teaching materials.",
-                            "これらに加えて、教材に沿ったオンラインリソースも使用したいと考えています。"
-                        ],
-                        [
-                            "Your Daily English focuses on practical communication skills, with dialogues, exercises, and real-life examples.",
-                            "Your Daily Englishは実践的なコミュニケーションスキルに焦点を当てており、対話、演習、実生活の例が含まれています。"
-                        ],
-                        [
-                            "It's for our second-year students.",
-                            "2年生向けです。"
-                        ],
-                        [
-                            "On the other hand, English First is designed for beginners.",
-                            "一方、English Firstは初心者向けに設計されています。"
-                        ],
-                        [
-                            "This book does not just give students grammar and vocabulary, as traditional textbooks often do.",
-                            "この本は従来の教科書がよくするように文法や語彙を教えるだけではありません。"
-                        ],
-                        [
-                            "Instead, it also teaches these skills in stories that children of our students' age are more likely to enjoy.",
-                            "代わりに、生徒の年齢の子どもたちがより楽しめそうな物語の中でこれらのスキルも教えます。"
-                        ],
-                        [
-                            "As you are the expert in this area, I would like you to check both textbooks and see what online resources you recommend.",
-                            "この分野の専門家であるあなたに、両方の教科書を確認し、どのオンラインリソースを推薦するか見ていただきたいと思います。"
-                        ],
-                        [
-                            "We all agree that your opinions about this matter should be heard before the next meeting.",
-                            "この件に関するあなたの意見は次の会議の前に聞くべきだと皆が同意しています。"
-                        ],
-                        [
-                            "Please share your thoughts by next Friday.",
-                            "来週の金曜日までにあなたの考えを共有してください。"
-                        ],
-                        [
-                            "Since I want everyone to see your choice and reasons for it, please send us a group e-mail.",
-                            "全員にあなたの選択とその理由を見てもらいたいので、グループメールを送ってください。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 24,
-                            "question": "What was decided in the teachers' meeting last week?",
-                            "choices": [
-                                "Which teaching materials to use next semester.",
-                                "How many teachers' meetings to have each week.",
-                                "Who to ask for opinions about the new textbooks.",
-                                "When to invite textbook sellers to suggest their books."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "来学期どの教材を使うか→正解。💡 第1段落で教師の会議の議題を読み取る。What was decided=何が決まったか",
-                                "週に何回会議をするか→本文にない",
-                                "誰に意見を聞くか→本文にない",
-                                "いつ教科書の販売者を呼ぶか→本文にない"
-                            ],
-                            "questionTranslation": "先週の教師会議で何が決まりましたか？",
-                            "choiceTranslations": [
-                                "来学期にどの教材を使うか。",
-                                "毎週何回教師会議を行うか。",
-                                "新しい教科書について誰に意見を求めるか。",
-                                "いつ教科書販売業者を招いて本を紹介してもらうか。"
-                            ]
-                        },
-                        {
-                            "number": 25,
-                            "question": "Anastasia Jenkins says that English First",
-                            "choices": [
-                                "asked students to show their opinions in the survey conducted last semester.",
-                                "is useful for students to exchange their ideas in business situations.",
-                                "helps students learn how to write good essays and reports using academic English.",
-                                "presents grammar and vocabulary in a way that is interesting to students."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "学生にアンケートで意見を求めた→本文にない",
-                                "ビジネス場面での意見交換に有用→本文にない",
-                                "学術英語のエッセイの書き方を教える→本文にない",
-                                "文法と語彙を興味深い方法で提示→正解。💡 presents grammar in a way that is interesting=興味を引く方法。教材評価の決め手"
-                            ],
-                            "questionTranslation": "アナスタシア・ジェンキンスがEnglish Firstについて言っていることは",
-                            "choiceTranslations": [
-                                "前学期に実施した調査で生徒に意見を示すよう求めた。",
-                                "ビジネスの場面で生徒が意見を交換するのに役立つ。",
-                                "アカデミック英語を使ってエッセイやレポートの書き方を学ぶのに役立つ。",
-                                "文法や語彙を生徒にとって興味深い方法で提示している。"
-                            ]
-                        },
-                        {
-                            "number": 26,
-                            "question": "Joshua Kimura",
-                            "choices": [
-                                "intends to cancel the next teachers' meeting.",
-                                "knows a lot about educational materials.",
-                                "was hired by the school after he finished an online course.",
-                                "visited the local school to fix teachers' computers."
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "次の会議をキャンセルするつもり→本文にない",
-                                "教育教材に詳しい→正解。💡 knows a lot about=～に詳しい。本文での役割・専門性に注目",
-                                "オンラインコース終了後に採用→本文にない",
-                                "PC修理のために学校を訪問→本文にない"
-                            ],
-                            "questionTranslation": "ジョシュア・キムラは",
-                            "choiceTranslations": [
-                                "次の教師会議をキャンセルするつもりだ。",
-                                "教育教材について詳しい。",
-                                "オンラインコースを終えた後に学校に雇われた。",
-                                "教師のコンピュータを修理するために地元の学校を訪問した。"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "Diaries",
-                    "paragraphs": [
-                        "Although different people write diaries for different reasons, most people have probably tried writing one at least once in their lives. One of the common reasons why people keep a diary is to reduce stress. By writing down ideas and thoughts that they do not want others to hear or know, they can calm down some emotions. Writing down what they have done, especially during important events such as vacations, is also a common means to organize their memories.",
-                        "Morris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
-                        "His effort to record what he had done did not end there. Soon after, he started taking pictures to document his life. He attached a small camera to his shirt and set it to take a photo around him automatically every thirty seconds. The number of photos he took in a day ranged from one thousand to two thousand. Of course, most of the photos were of boring everyday things like his hand, his computer, his food, and just people walking in front of him.",
-                        "However, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before."
-                    ],
-                    "translations": [
-                        "人によって日記を書く理由はさまざまだが、ほとんどの人は人生で少なくとも一度は日記を書こうとしたことがあるだろう。日記をつける一般的な理由の一つはストレスを軽減することだ。他の人に聞かれたくない、知られたくない考えや思いを書き留めることで、感情を落ち着かせることができる。特に休暇などの重要なイベントの間にしたことを書き留めることも、記憶を整理する一般的な手段である。",
-                        "スペインの科学者で教授のモリス・ビジャロエルは記憶を整理しようと試み始めた。ビジャロエルが40歳になったとき、それまでに何をしてきたかはっきりしなかった。いくつかの写真や日誌があったが、40年を説明するには十分ではなかった。80歳になったときに何を成し遂げたかを確実に知るために、日記をつけることにした。しかし、彼の日記をつけるという発想はユニークだった。15分から30分ごとに自分が何をしていて、どう感じているかを書き留め始めた。",
-                        "自分がしたことを記録する努力はそこで終わらなかった。まもなく、彼は生活を記録するために写真を撮り始めた。シャツに小さなカメラを取り付け、30秒ごとに自動的に周囲の写真を撮るように設定した。1日に撮る写真の枚数は1,000枚から2,000枚に及んだ。もちろん、ほとんどの写真は手、コンピュータ、食べ物、目の前を歩く人々のような退屈な日常の写真だった。",
-                        "しかし、この経験からいくつかのことを学んだ。書いたものを確認することで、いくつかのパターンを発見した。これにより、通勤中の運転中にストレスを感じることが多いことに気づいた。そのため、電車と徒歩に切り替えることにした。また、いくつかのことに気づいたので、講義を改善した。これらのことは日記がなければ忘れてしまったほど些細なことだった。詳細な人生の記録により、今は人生を明確に思い出すことができ、過去10年間は以前よりもずっと長く感じたと言っている。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Although different people write diaries for different reasons, most people have probably tried writing one at least once in their lives.",
-                            "人によって日記を書く理由はさまざまだが、ほとんどの人は人生で少なくとも一度は日記を書こうとしたことがあるだろう。"
-                        ],
-                        [
-                            "One of the common reasons why people keep a diary is to reduce stress.",
-                            "日記をつける一般的な理由の一つはストレスを軽減することだ。"
-                        ],
-                        [
-                            "By writing down ideas and thoughts that they do not want others to hear or know, they can calm down some emotions.",
-                            "他の人に聞かれたくない、知られたくない考えや思いを書き留めることで、感情を落ち着かせることができる。"
-                        ],
-                        [
-                            "Writing down what they have done, especially during important events such as vacations, is also a common means to organize their memories.",
-                            "特に休暇などの重要なイベントの間にしたことを書き留めることも、記憶を整理する一般的な手段である。"
-                        ],
-                        [
-                            "Morris Villarroel, a Spanish scientist and professor, started trying to organize his memories.",
-                            "スペインの科学者で教授のモリス・ビジャロエルは記憶を整理しようと試み始めた。"
-                        ],
-                        [
-                            "When Villarroel turned forty, he was not sure what he had done by then.",
-                            "ビジャロエルが40歳になったとき、それまでに何をしてきたかはっきりしなかった。"
-                        ],
-                        [
-                            "Even though he had some photos and journals, they were not enough to explain his forty years.",
-                            "いくつかの写真や日誌があったが、40年を説明するには十分ではなかった。"
-                        ],
-                        [
-                            "To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary.",
-                            "80歳になったときに何を成し遂げたかを確実に知るために、日記をつけることにした。"
-                        ],
-                        [
-                            "However, his idea of keeping a diary was unique.",
-                            "しかし、彼の日記をつけるという発想はユニークだった。"
-                        ],
-                        [
-                            "He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
-                            "15分から30分ごとに自分が何をしていて、どう感じているかを書き留め始めた。"
-                        ],
-                        [
-                            "His effort to record what he had done did not end there.",
-                            "自分がしたことを記録する努力はそこで終わらなかった。"
-                        ],
-                        [
-                            "Soon after, he started taking pictures to document his life.",
-                            "まもなく、彼は生活を記録するために写真を撮り始めた。"
-                        ],
-                        [
-                            "He attached a small camera to his shirt and set it to take a photo around him automatically every thirty seconds.",
-                            "シャツに小さなカメラを取り付け、30秒ごとに自動的に周囲の写真を撮るように設定した。"
-                        ],
-                        [
-                            "The number of photos he took in a day ranged from one thousand to two thousand.",
-                            "1日に撮る写真の枚数は1,000枚から2,000枚に及んだ。"
-                        ],
-                        [
-                            "Of course, most of the photos were of boring everyday things like his hand, his computer, his food, and just people walking in front of him.",
-                            "もちろん、ほとんどの写真は手、コンピュータ、食べ物、目の前を歩く人々のような退屈な日常の写真だった。"
-                        ],
-                        [
-                            "However, he learned several things from this experience.",
-                            "しかし、この経験からいくつかのことを学んだ。"
-                        ],
-                        [
-                            "By checking what he had written, he found some patterns.",
-                            "書いたものを確認することで、いくつかのパターンを発見した。"
-                        ],
-                        [
-                            "This allowed him to realize that he often felt stressed while driving to work.",
-                            "これにより、通勤中の運転中にストレスを感じることが多いことに気づいた。"
-                        ],
-                        [
-                            "Therefore, he has decided to take the train and walk.",
-                            "そのため、電車と徒歩に切り替えることにした。"
-                        ],
-                        [
-                            "He also noticed a few things, so he improved his lectures.",
-                            "また、いくつかのことに気づいたので、講義を改善した。"
-                        ],
-                        [
-                            "These things were so minor that he could have forgotten without the diary.",
-                            "これらのことは日記がなければ忘れてしまったほど些細なことだった。"
-                        ],
-                        [
-                            "With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
-                            "詳細な人生の記録により、今は人生を明確に思い出すことができ、過去10年間は以前よりもずっと長く感じたと言っている。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 27,
-                            "question": "What is one of the common reasons people keep diaries?",
-                            "choices": [
-                                "To keep their thoughts organized.",
-                                "To let others know about some important events.",
-                                "To show them to someone they love.",
-                                "To read them when they feel stressed."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "考えを整理するため→正解。💡 keep their thoughts organized=考えを整理。日記の最も一般的な目的",
-                                "重要な出来事を他人に知らせる→日記は通常私的なもの",
-                                "愛する人に見せるため→不適切",
-                                "ストレスを感じた時に読む→本文にない"
-                            ],
-                            "questionTranslation": "人々が日記をつける一般的な理由の一つは何ですか？",
-                            "choiceTranslations": [
-                                "考えを整理するため。",
-                                "重要な出来事を他の人に知らせるため。",
-                                "愛する人に見せるため。",
-                                "ストレスを感じた時に読むため。"
-                            ]
-                        },
-                        {
-                            "number": 28,
-                            "question": "How did Morris Villarroel feel when he turned forty?",
-                            "choices": [
-                                "His work and pets kept him too busy.",
-                                "His pictures and papers did not show enough of his past.",
-                                "He always failed to keep a diary.",
-                                "He was not ready to keep writing his journals as a scientist."
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "仕事とペットで忙しすぎた→不適切",
-                                "写真や書類が過去を十分に示さなかった→正解。💡 40歳を迎えて過去の記録が不十分だと感じた",
-                                "いつも日記を続けられなかった→不適切",
-                                "科学者としてジャーナルを書く準備ができていない→不適切"
-                            ],
-                            "questionTranslation": "モリス・ビジャロエルは40歳になった時どう感じましたか？",
-                            "choiceTranslations": [
-                                "仕事とペットで忙しすぎた。",
-                                "写真や書類では過去を十分に記録できていなかった。",
-                                "いつも日記をつけることに失敗していた。",
-                                "科学者として日誌を書き続ける準備ができていなかった。"
-                            ]
-                        },
-                        {
-                            "number": 29,
-                            "question": "In his effort to keep a diary, Villarroel",
-                            "choices": [
-                                "realized that his life was full of small things that were not worth remembering.",
-                                "took photos of himself when an important thing was happening.",
-                                "began to record every detail of his life by using a camera.",
-                                "made sure to take pictures of every person he met every day."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "人生が記録に値しない小さなことばかり→本文の趣旨と逆",
-                                "重要なことが起きた時に自撮り→不適切",
-                                "カメラで人生の全てを記録し始めた→正解。💡 began to record every detail=あらゆる詳細を記録。日記の充実化",
-                                "毎日会った全ての人を撮影した→極端すぎる"
-                            ],
-                            "questionTranslation": "日記をつける努力の中で、ビジャロエルは",
-                            "choiceTranslations": [
-                                "自分の人生は覚える価値のない小さなことばかりだと気づいた。",
-                                "重要なことが起きている時に自撮りを撮った。",
-                                "カメラを使って生活のあらゆる詳細を記録し始めた。",
-                                "毎日出会うすべての人の写真を撮るようにした。"
-                            ]
-                        },
-                        {
-                            "number": 30,
-                            "question": "What did Villarroel discover through the experience of keeping a diary?",
-                            "choices": [
-                                "Sometimes, it is necessary to stop keeping a diary and enjoy the moment.",
-                                "He can feel as if time passes more slowly by keeping a detailed record.",
-                                "His memory has gotten much worse compared to before he started a diary.",
-                                "Bigger life events create more emotions and feelings than smaller ones."
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "時々日記をやめてその瞬間を楽しむべき→本文にない",
-                                "詳細な記録で時間がゆっくり過ぎる感覚→正解。💡 time passes more slowly=時間がゆっくり感じる。記録する→体験が豊かに",
-                                "記憶力が以前より悪くなった→不適切",
-                                "大きな出来事ほど多くの感情を生む→不適切"
-                            ],
-                            "questionTranslation": "ビジャロエルが日記をつける経験を通じて発見したことは？",
-                            "choiceTranslations": [
-                                "日記をやめて瞬間を楽しむ必要がある時もある。",
-                                "詳細な記録をつけることで時間がゆっくり過ぎるように感じられる。",
-                                "日記を始める前と比べて記憶力がかなり悪くなった。",
-                                "大きな人生の出来事は小さなものより多くの感情を生み出す。"
-                            ]
-                        },
-                        {
-                            "number": 31,
-                            "question": "Which of the following statements is true?",
-                            "choices": [
-                                "The purpose of keeping a diary for Villarroel was to improve his lectures.",
-                                "It is more important to write down how people are feeling than what they are doing.",
-                                "Villarroel found that his diary increased the quality of his life.",
-                                "Villarroel shows that taking pictures and writing down events have different purposes."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "講義を改善するために日記を書いた→不適切",
-                                "何をしているかより感じていることが重要→本文にない",
-                                "日記が生活の質を向上させた→正解。💡 increased the quality of his life=生活の質向上。本文の結論に一致",
-                                "写真と文章は目的が異なると示した→本文の主旨ではない"
-                            ],
-                            "questionTranslation": "次のうち正しい記述はどれですか？",
-                            "choiceTranslations": [
-                                "ビジャロエルにとって日記をつける目的は講義を改善することだった。",
-                                "何をしているかよりもどう感じているかを書き留めることがより重要だ。",
-                                "ビジャロエルは日記が自分の生活の質を高めたことを発見した。",
-                                "ビジャロエルは写真を撮ることと出来事を書き留めることには異なる目的があることを示している。"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "lessonPlan": {
-        "title": "2024年度 第3回 文法・読解ポイント",
-        "overview": "この回では、同格表現、仮定法・仮定的表現、使役構文(make/let/have)、動名詞と不定詞の使い分け、そしてパラフレーズの技法を学びます。",
-        "focusPoints": [
-            {
-                "id": "fp1",
-                "title": "関係代名詞 what（〜すること/もの）",
-                "subtitle": "Relative Pronoun 'What' as Noun Clause",
-                "explanation": "what = the thing(s) which/that で「〜すること/もの」を表す名詞節を作る。主語・目的語・補語のいずれにもなれる。what is called〜で「いわゆる〜」。",
-                "sourceQuote": "Nowadays, such problems are caused by what is called 'light pollution,' and it poses a challenge for almost every city in the world.",
-                "sourceLocation": "Part 2A",
-                "examples": [
-                    {
-                        "en": "Nowadays, such problems are caused by what is called 'light pollution.'",
-                        "ja": "現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされている。",
-                        "note": "what is called: 「いわゆる〜」= so-called。whatが名詞節を作る。"
-                    },
-                    {
-                        "en": "Others find it difficult to relax.",
-                        "ja": "一方で、リラックスすることが難しいと感じる人もいる。",
-                        "note": "find + it(形式目的語) + difficult + to relax(真の目的語)"
-                    },
-                    {
-                        "en": "What surprised me most was his kindness.",
-                        "ja": "私が最も驚いたのは彼の優しさだった。",
-                        "note": "What + V: 「〜したこと」主語としてのwhat節"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Darkest Island]\nIn a city, there are lights from cars and lamps all around. Many houses have lights on, and some businesses keep their lights on all night for safety reasons. By keeping lights on, people can see the roads well and feel relieved at night. However, others find it difficult to relax. When the night is too bright, the light can disturb people's sleep. Additionally, the lives of animals are often in danger. Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
-                    "ja": "都市では、車や街灯の明かりが至る所にある。多くの家は明かりを灯し、安全上の理由から一晩中明かりをつけている企業もある。明かりをつけておくことで、人々は夜も道路をよく見ることができ、安心できる。しかし一方で、リラックスすることが難しいと感じる人もいる。夜が明るすぎると、光が人々の睡眠を妨げることがある。さらに、動物の生命がしばしば危険にさらされる。現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされており、世界のほぼ全ての都市にとって課題となっている。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'what is called light pollution' の 'what' はどのような用法ですか？",
-                        "a": "関係代名詞what。what is called = いわゆる（= so-called）。what = the thing which。名詞節として前置詞byの目的語になっている。"
-                    },
-                    {
-                        "q": "'find it difficult to relax' の構文を分析してください。",
-                        "a": "find + it(形式目的語) + difficult(C) + to relax(真の目的語)。「リラックスすることを難しいと感じる」。itはto relaxを指す。"
-                    },
-                    {
-                        "q": "光害が引き起こす問題を3つ答えてください。",
-                        "a": "①リラックスが難しくなる ②光が人々の睡眠を妨げる(disturb people's sleep) ③動物の生命が危険にさらされる(lives of animals are in danger)"
-                    },
-                    {
-                        "q": "'it poses a challenge for almost every city' の 'it' は何を指しますか？",
-                        "a": "光害(light pollution)。前文で述べられた問題の原因である光害が、世界のほぼ全ての都市にとって課題となっている。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "what is called"
-                ],
-                "highlightColor": "#FF6B6B",
-                "highlightLabel": "関係代名詞 what"
-            },
-            {
-                "id": "fp2",
-                "title": "使役 make + it + C + to V（形式目的語構文）",
-                "subtitle": "Make with Formal Object 'It'",
-                "explanation": "make + it + 形容詞 + (for A) + to V は「(Aが)Vすることを〜にする」。itは形式目的語でto以下が真の目的語。因果関係を述べる重要構文。",
-                "sourceQuote": "A warm temperature makes it difficult for the human body to cool down.",
-                "sourceLocation": "Part 2B",
-                "examples": [
-                    {
-                        "en": "A warm temperature makes it difficult for the human body to cool down.",
-                        "ja": "暖かい気温が、人体が冷えることを困難にする。",
-                        "note": "makes + it(形式目的語) + difficult(C) + for...to V(真の目的語)"
-                    },
-                    {
-                        "en": "It becomes difficult for people to sleep when the temperature is too warm.",
-                        "ja": "気温が暖かすぎると、人々が眠ることが困難になる。",
-                        "note": "It becomes + difficult + for people to sleep: 形式主語itの構文"
-                    },
-                    {
-                        "en": "Technology has made it possible for us to communicate instantly.",
-                        "ja": "テクノロジーのおかげで、私たちは即座にコミュニケーションを取ることが可能になった。",
-                        "note": "has made + it(形式目的語) + possible + for us to communicate"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Temperature and Sleep]\nThis means the opposite is also true. It becomes difficult for people to sleep when the temperature is too warm. A warm temperature makes it difficult for the human body to cool down. In many cases, people roll over in bed on a hot summer night to try to feel more comfortable. This is their reaction to try to escape from the heat. One solution is for people to take a warm shower before going to bed. The human body's internal body temperature starts to drop after a shower.",
-                    "ja": "これはその逆もまた真であることを意味する。気温が暖かすぎると、人々が眠ることが困難になる。暖かい気温が、人体が冷えることを困難にする。多くの場合、暑い夏の夜に人々はより快適に感じようとしてベッドの上で寝返りを打つ。これは暑さから逃れようとする反応である。一つの解決策は、就寝前に温かいシャワーを浴びることである。シャワーの後、人体の内部温度は下がり始める。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'makes it difficult for the human body to cool down' の構文を分析してください。",
-                        "a": "makes(V) + it(形式目的語) + difficult(C) + for the human body(意味上の主語) + to cool down(真の目的語)。「人体が冷えることを困難にする」。"
-                    },
-                    {
-                        "q": "就寝前に温かいシャワーを浴びることがなぜ解決策になるのですか？",
-                        "a": "シャワーの後、人体の内部温度が下がり始めるため。体温が下がることで眠りに入りやすくなる。"
-                    },
-                    {
-                        "q": "'This means the opposite is also true' の 'the opposite' は何を指しますか？",
-                        "a": "前段落で述べた「気温が下がると眠りやすくなる」の逆、つまり「気温が高すぎると眠りにくくなる」こと。"
-                    },
-                    {
-                        "q": "'roll over in bed' はどのような行動ですか？なぜそうするのですか？",
-                        "a": "ベッドの上で寝返りを打つこと。暑さから逃れてより快適に感じようとする体の反応(reaction to try to escape from the heat)。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "makes it difficult for the human body to cool down",
-                    "It becomes difficult for people to sleep"
-                ],
-                "highlightColor": "#4ECDC4",
-                "highlightLabel": "make it C to V"
-            },
-            {
-                "id": "fp3",
-                "title": "仮定法過去完了 could have + 過去分詞",
-                "subtitle": "Past Conditional with Could Have",
-                "explanation": "could have + 過去分詞は「〜できたかもしれない/〜していたかもしれない」と過去の可能性や反事実を表す。実際にはそうならなかったことを暗示する重要表現。",
-                "sourceQuote": "These things were so minor that he could have forgotten without the diary.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "These things were so minor that he could have forgotten without the diary.",
-                        "ja": "これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。",
-                        "note": "so...that + could have forgotten: 結果のso thatと仮定法の組み合わせ"
-                    },
-                    {
-                        "en": "By checking what he had written, he found some patterns.",
-                        "ja": "書いたものを確認することで、いくつかのパターンを発見した。",
-                        "note": "By + -ing: 手段。what he had written: 過去完了のwhat節。"
-                    },
-                    {
-                        "en": "She could have passed the exam if she had studied harder.",
-                        "ja": "もっと一生懸命勉強していたら、試験に受かっていたかもしれない。",
-                        "note": "could have + pp + if + had + pp: 仮定法過去完了の典型パターン"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Diaries]\nHowever, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
-                    "ja": "しかし、この経験からいくつかのことを学んだ。書いたものを確認することで、いくつかのパターンを発見した。これにより、通勤中の運転でよくストレスを感じていることに気づいた。そのため、電車に乗って歩くことにした。また、いくつかのことにも気づき、講義を改善した。これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。人生の詳細な記録があることで、今では人生を鮮明に思い出すことができ、過去10年間は以前の年月よりもずっと長く感じると言っている。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'could have forgotten' はどのような意味ですか？",
-                        "a": "「忘れてしまっていたかもしれない」。仮定法過去完了。日記がなければ（if条件の省略=without the diary）忘れていたであろうという反事実の可能性。"
-                    },
-                    {
-                        "q": "'so minor that he could have forgotten' の 'so...that' は何を表していますか？",
-                        "a": "結果のso...that。「とても些細だったので〜してしまっていたかもしれない」。程度→結果の因果関係。"
-                    },
-                    {
-                        "q": "ビジャローエルが日記から学んだ具体的なことを2つ挙げてください。",
-                        "a": "①通勤中の運転でよくストレスを感じていたこと→電車に切り替えた ②講義の改善点に気づいた→講義を改善した"
-                    },
-                    {
-                        "q": "'the last ten years felt much longer than the ones before' はどのような意味ですか？",
-                        "a": "詳細な日記の記録があるおかげで過去10年間の記憶が鮮明で、記録のない以前の年月より長く感じたということ。記憶の密度が変わった。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "so minor that he could have forgotten without the diary"
-                ],
-                "highlightColor": "#45B7D1",
-                "highlightLabel": "could have + pp"
-            },
-            {
-                "id": "fp4",
-                "title": "譲歩の Even though + 目的の To V",
-                "subtitle": "Concession and Purpose in Complex Sentences",
-                "explanation": "Even though + S + V は「〜にもかかわらず」。To + V は文頭で「〜するために」と目的を表す。長文で論理的な逆接と目的の関係を把握するのに重要。",
-                "sourceQuote": "Even though he had some photos and journals, they were not enough to explain his forty years.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "Even though he had some photos and journals, they were not enough to explain his forty years.",
-                        "ja": "写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。",
-                        "note": "Even though + had(過去形): 「持っていたにもかかわらず」逆接を強調"
-                    },
-                    {
-                        "en": "To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary.",
-                        "ja": "80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。",
-                        "note": "To make sure: 「確実に〜するために」目的の不定詞が文頭に"
-                    },
-                    {
-                        "en": "Even though they tried hard, they could not finish on time.",
-                        "ja": "一生懸命やったにもかかわらず、時間内に終えることができなかった。",
-                        "note": "Even though: although より強い譲歩"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: Diaries]\nMorris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
-                    "ja": "スペイン人の科学者で教授のモリス・ビジャローエルは、自分の記憶を整理しようとし始めた。ビジャローエルが40歳になった時、それまでに何をしてきたのかよく分からなかった。写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。しかし、彼の日記のつけ方はユニークだった。15分から30分おきに、自分が何をしていて、どう感じているかを書き留め始めたのである。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'Even though he had some photos and journals, they were not enough' の 'Even though' はなぜ使われていますか？",
-                        "a": "譲歩。写真や日誌があった（一定の記録はあった）にもかかわらず、40年間を説明するには不十分だったという逆接関係を示す。"
-                    },
-                    {
-                        "q": "'To make sure he knows what he has accomplished' の構文を分析してください。",
-                        "a": "To make sure(目的の不定詞) + he knows(V) + what he has accomplished(what節=目的語)。「成し遂げたことを確実に知るために」。"
-                    },
-                    {
-                        "q": "ビジャローエルの日記のつけ方が「ユニーク」だった点は何ですか？",
-                        "a": "15分から30分おきに自分が何をしていてどう感じているかを書き留めた点。通常の日記よりもはるかに高い頻度で記録。"
-                    },
-                    {
-                        "q": "ビジャローエルが日記をつけ始めた動機は何ですか？",
-                        "a": "40歳の時にそれまでの人生を振り返って何をしてきたかよく分からなかったこと。80歳になった時には成し遂げたことを確実に知りたかった。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "Even though he had some photos and journals",
-                    "To make sure he knows what he has accomplished"
-                ],
-                "highlightColor": "#96CEB4",
-                "highlightLabel": "Even though / To V"
-            },
-            {
-                "id": "fp5",
-                "title": "今回の重要なパラフレーズ",
-                "subtitle": "Key Paraphrases in This Exam",
-                "explanation": "パラフレーズとは同じ意味を異なる表現で言い換えることです。英語資格検定の読解問題では本文の表現が選択肢で言い換えられるため、パラフレーズを見抜く力が正答率を大きく左右します。",
-                "sourceQuote": "①difficult to relax ← light can disturb people's sleep\n②drive cars ← With no cars / no need for streetlights\n③In contrast ← 60,000 tourists vs population getting smaller\n④influenced by the environment ← noise, light, temperature\n⑤their body temperature low ← similar to what bears do in winter\n⑥In many cases ← people roll over in bed\n⑦Which teaching materials to use ← agreed to use two main textbooks\n⑧presents grammar in a way interesting to students ← teaches skills in stories children enjoy\n⑨knows a lot about educational materials ← you are the expert in this area\n⑩To keep their thoughts organized ← organize their memories / calm down emotions",
-                "sourceLocation": "全パート",
-                "examples": [
-                    {
-                        "en": "Body: \"the light can disturb people's sleep\" → Choice: \"difficult to relax\"",
-                        "ja": "本文: 光が睡眠を妨げる → 選択肢: リラックスが困難",
-                        "note": "disturb sleep ≒ difficult to relax"
-                    },
-                    {
-                        "en": "Body: \"it also teaches these skills in stories that children... are more likely to enjoy\" → Choice: \"presents grammar and vocabulary in a way that is interesting to students\"",
-                        "ja": "本文: 子供が楽しめる物語でスキルを教える → 選択肢: 生徒にとって興味深い方法で文法語彙を提示",
-                        "note": "teaches in stories children enjoy ≒ presents in a way interesting to students"
-                    },
-                    {
-                        "en": "Body: \"you are the expert in this area\" → Choice: \"knows a lot about educational materials\"",
-                        "ja": "本文: この分野の専門家 → 選択肢: 教材について詳しい",
-                        "note": "expert ≒ knows a lot"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "[出典: The Darkest Island]\nThe people living in Sark, a small island near southern England, have done a lot to deal with this problem. They wanted to prevent their community from being bright with lights. Therefore, people cannot drive cars on the streets of Sark. With no cars, there is no need to place streetlights for safe driving. Walking and riding horses and bicycles are allowed when going somewhere. They buy lights when they really need them. However, they make sure to point lights to the ground.",
-                    "ja": "イングランド南部の近くにある小さな島サークに住む人々は、光害を防ぐために多くの努力をしてきた。島では車の使用が禁止されており、歩行や馬・自転車に乗ることだけが許可されている。車がないため、街灯を設置する必要もない。住民たちはこの暗い空を地域の誇りとして守り、島は世界初の「ダークスカイ・アイランド」に認定された。",
-                    "audioFile": "audio/practice_pp5.mp3"
-                },
-                "practiceQuestions": [
-                    {
-                        "q": "'With no cars, there is no need to place streetlights' を言い換えてください。",
-                        "a": "'Since vehicles are banned, installing street lighting is unnecessary'。no cars = vehicles are banned。"
-                    },
-                    {
-                        "q": "'Walking and riding horses and bicycles are allowed' を言い換えてください。",
-                        "a": "'Traveling on foot, on horseback, or by bicycle is permitted'。walking = on foot, allowed = permitted。"
-                    },
-                    {
-                        "q": "'done a lot to prevent light pollution' を別の表現で言い換えると？",
-                        "a": "'made great efforts to reduce artificial light'。done a lot = made great efforts, prevent = reduce。"
-                    },
-                    {
-                        "q": "サーク島が特別な理由を要約してください。",
-                        "a": "車禁止で街灯不要。住民が光害防止に尽力。世界初のダークスカイ・アイランドに認定。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "no cars",
-                    "no need to place",
-                    "Walking and riding"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "パラフレーズ"
-            }
-        ]
+  "grade": "2級",
+  "year": "2024",
+  "session": "3",
+  "title": "2024年度 第3回 英語資格検定2級 リーディング",
+  "vocabulary": [
+    {
+      "word": "subscription",
+      "meaning": "定期購読",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "I renewed my magazine subscription.",
+      "distractors": [
+        "広告",
+        "割引",
+        "雑誌"
+      ],
+      "wordAudio": "audio/vocab/w_001_subscription.mp3"
+    },
+    {
+      "word": "opportunity",
+      "meaning": "機会",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "This is a great opportunity for you.",
+      "distractors": [
+        "結果",
+        "障害",
+        "義務"
+      ],
+      "wordAudio": "audio/vocab/w_002_opportunity.mp3"
+    },
+    {
+      "word": "campaign",
+      "meaning": "キャンペーン",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The company launched a new campaign.",
+      "distractors": [
+        "契約",
+        "定期購読",
+        "代表者"
+      ],
+      "wordAudio": "audio/vocab/w_003_campaign.mp3"
+    },
+    {
+      "word": "representative",
+      "meaning": "代表者",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "She is the representative of our team.",
+      "distractors": [
+        "機会",
+        "購読者",
+        "候補者"
+      ],
+      "wordAudio": "audio/vocab/w_004_representative.mp3"
+    },
+    {
+      "word": "offend",
+      "meaning": "～の感情を害する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "I'm sorry if I offended you.",
+      "distractors": [
+        "～を慰める",
+        "～を置き換える",
+        "～を変形させる"
+      ],
+      "wordAudio": "audio/vocab/w_005_offend.mp3"
+    },
+    {
+      "word": "replace",
+      "meaning": "～を取り替える",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "We need to replace the old batteries.",
+      "distractors": [
+        "～を害する",
+        "～を慰める",
+        "～を変える"
+      ],
+      "wordAudio": "audio/vocab/w_006_replace.mp3"
+    },
+    {
+      "word": "comfort",
+      "meaning": "～を慰める",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "She tried to comfort the crying child.",
+      "distractors": [
+        "～を害する",
+        "～を取り替える",
+        "～を変形させる"
+      ],
+      "wordAudio": "audio/vocab/w_007_comfort.mp3"
+    },
+    {
+      "word": "transform",
+      "meaning": "～を変形させる",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Technology has transformed the way we work.",
+      "distractors": [
+        "～を害する",
+        "～を慰める",
+        "～を取り替える"
+      ],
+      "wordAudio": "audio/vocab/w_008_transform.mp3"
+    },
+    {
+      "word": "storage",
+      "meaning": "保管",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "We need more storage space.",
+      "distractors": [
+        "逆転",
+        "天国",
+        "否定"
+      ],
+      "wordAudio": "audio/vocab/w_009_storage.mp3"
+    },
+    {
+      "word": "consequence",
+      "meaning": "結果",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "He didn't think about the consequences.",
+      "distractors": [
+        "要求",
+        "時刻表",
+        "スーツケース"
+      ],
+      "wordAudio": "audio/vocab/w_010_consequence.mp3"
+    },
+    {
+      "word": "separately",
+      "meaning": "別々に",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "They arrived at the party separately.",
+      "distractors": [
+        "その間に",
+        "最近は",
+        "永久に"
+      ],
+      "wordAudio": "audio/vocab/w_011_separately.mp3"
+    },
+    {
+      "word": "meanwhile",
+      "meaning": "その間に",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "I'll cook dinner. Meanwhile, you set the table.",
+      "distractors": [
+        "別々に",
+        "最近は",
+        "永久に"
+      ],
+      "wordAudio": "audio/vocab/w_012_meanwhile.mp3"
+    },
+    {
+      "word": "permanently",
+      "meaning": "永久に",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "The museum is permanently closed.",
+      "distractors": [
+        "別々に",
+        "その間に",
+        "最近は"
+      ],
+      "wordAudio": "audio/vocab/w_013_permanently.mp3"
+    },
+    {
+      "word": "outcome",
+      "meaning": "結果",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "We are waiting for the outcome of the election.",
+      "distractors": [
+        "食欲",
+        "犠牲者",
+        "紛争"
+      ],
+      "wordAudio": "audio/vocab/w_014_outcome.mp3"
+    },
+    {
+      "word": "appetite",
+      "meaning": "食欲",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "I lost my appetite after the bad news.",
+      "distractors": [
+        "結果",
+        "犠牲者",
+        "紛争"
+      ],
+      "wordAudio": "audio/vocab/w_015_appetite.mp3"
+    },
+    {
+      "word": "accelerate",
+      "meaning": "～を加速させる",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The company wants to accelerate its growth.",
+      "distractors": [
+        "残る",
+        "作曲する",
+        "発射する"
+      ],
+      "wordAudio": "audio/vocab/w_016_accelerate.mp3"
+    },
+    {
+      "word": "educate",
+      "meaning": "～を教育する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Schools educate children in many subjects.",
+      "distractors": [
+        "発明する",
+        "だます",
+        "ふりをする"
+      ],
+      "wordAudio": "audio/vocab/w_017_educate.mp3"
+    },
+    {
+      "word": "deceive",
+      "meaning": "～をだます",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "He tried to deceive the police.",
+      "distractors": [
+        "発明する",
+        "教育する",
+        "ふりをする"
+      ],
+      "wordAudio": "audio/vocab/w_018_deceive.mp3"
+    },
+    {
+      "word": "financial",
+      "meaning": "財政的な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The company is in financial trouble.",
+      "distractors": [
+        "魅力的な",
+        "国家的な",
+        "無知な"
+      ],
+      "wordAudio": "audio/vocab/w_019_financial.mp3"
+    },
+    {
+      "word": "drift",
+      "meaning": "漂う",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The boat drifted away from the shore.",
+      "distractors": [
+        "割る",
+        "解決する",
+        "つかむ"
+      ],
+      "wordAudio": "audio/vocab/w_020_drift.mp3"
+    },
+    {
+      "word": "in honor",
+      "meaning": "～を記念して",
+      "pos": "句",
+      "level": "2級",
+      "example": "A dinner was held in honor of the guest.",
+      "distractors": [
+        "～の不足で",
+        "～の危険にさらして",
+        "～の疑いで"
+      ],
+      "wordAudio": "audio/vocab/w_021_in_honor.mp3"
+    },
+    {
+      "word": "on the go",
+      "meaning": "忙しく動き回って",
+      "pos": "句",
+      "level": "2級",
+      "example": "She is always on the go.",
+      "distractors": [
+        "邪魔になって",
+        "規則通りに",
+        "要点を突いて"
+      ],
+      "wordAudio": "audio/vocab/w_022_on_the_go.mp3"
+    },
+    {
+      "word": "at the mercy",
+      "meaning": "～のなすがままに",
+      "pos": "句",
+      "level": "2級",
+      "example": "They were at the mercy of the storm.",
+      "distractors": [
+        "～のために",
+        "増加中で",
+        "～の過程で"
+      ],
+      "wordAudio": "audio/vocab/w_023_at_the_mercy.mp3"
+    },
+    {
+      "word": "fall back on",
+      "meaning": "～に頼る",
+      "pos": "句動詞",
+      "level": "2級",
+      "example": "She had to fall back on her savings.",
+      "distractors": [
+        "～と別れる",
+        "～の方に来る",
+        "～の悪口を言う"
+      ],
+      "wordAudio": "audio/vocab/w_024_fall_back_on.mp3"
+    },
+    {
+      "word": "in effect",
+      "meaning": "実施されて",
+      "pos": "句",
+      "level": "2級",
+      "example": "The new law is now in effect.",
+      "distractors": [
+        "ストライキ中で",
+        "徒歩で",
+        "並んで"
+      ],
+      "wordAudio": "audio/vocab/w_025_in_effect.mp3"
+    },
+    {
+      "word": "pick out",
+      "meaning": "～を選び出す",
+      "pos": "句動詞",
+      "level": "2級",
+      "example": "She picked out a beautiful dress.",
+      "distractors": [
+        "転ぶ",
+        "裏返す",
+        "切り離す"
+      ],
+      "wordAudio": "audio/vocab/w_026_pick_out.mp3"
+    },
+    {
+      "word": "side by side",
+      "meaning": "並んで",
+      "pos": "句",
+      "level": "2級",
+      "example": "They walked side by side.",
+      "distractors": [
+        "この先の",
+        "行ったり来たり",
+        "途中で"
+      ],
+      "wordAudio": "audio/vocab/w_027_side_by_side.mp3"
+    },
+    {
+      "word": "victim",
+      "meaning": "犠牲者",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The victim was taken to the hospital.",
+      "distractors": [
+        "結果",
+        "食欲",
+        "紛争"
+      ],
+      "wordAudio": "audio/vocab/w_028_victim.mp3"
+    },
+    {
+      "word": "conflict",
+      "meaning": "紛争",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The conflict lasted for many years.",
+      "distractors": [
+        "結果",
+        "食欲",
+        "犠牲者"
+      ],
+      "wordAudio": "audio/vocab/w_029_conflict.mp3"
+    },
+    {
+      "word": "compose",
+      "meaning": "～を構成する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Water is composed of hydrogen and oxygen.",
+      "distractors": [
+        "残る",
+        "加速する",
+        "発射する"
+      ],
+      "wordAudio": "audio/vocab/w_030_compose.mp3"
+    },
+    {
+      "word": "launch",
+      "meaning": "～を開始する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "They launched a new product line.",
+      "distractors": [
+        "残る",
+        "構成する",
+        "加速する"
+      ],
+      "wordAudio": "audio/vocab/w_031_launch.mp3"
+    },
+    {
+      "word": "invent",
+      "meaning": "～を発明する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Edison invented the light bulb.",
+      "distractors": [
+        "教育する",
+        "だます",
+        "ふりをする"
+      ],
+      "wordAudio": "audio/vocab/w_032_invent.mp3"
+    },
+    {
+      "word": "pretend",
+      "meaning": "～のふりをする",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "He pretended to be sick.",
+      "distractors": [
+        "発明する",
+        "教育する",
+        "だます"
+      ],
+      "wordAudio": "audio/vocab/w_033_pretend.mp3"
+    },
+    {
+      "word": "attractive",
+      "meaning": "魅力的な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The offer was very attractive.",
+      "distractors": [
+        "国家的な",
+        "財政的な",
+        "無知な"
+      ],
+      "wordAudio": "audio/vocab/w_034_attractive.mp3"
+    },
+    {
+      "word": "ignorant",
+      "meaning": "無知な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "He was ignorant of the rules.",
+      "distractors": [
+        "魅力的な",
+        "国家的な",
+        "財政的な"
+      ],
+      "wordAudio": "audio/vocab/w_035_ignorant.mp3"
+    },
+    {
+      "word": "split",
+      "meaning": "～を割る",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "He split the wood with an axe.",
+      "distractors": [
+        "漂う",
+        "解決する",
+        "つかむ"
+      ],
+      "wordAudio": "audio/vocab/w_036_split.mp3"
+    },
+    {
+      "word": "resolve",
+      "meaning": "～を解決する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "They resolved the issue quickly.",
+      "distractors": [
+        "割る",
+        "漂う",
+        "つかむ"
+      ],
+      "wordAudio": "audio/vocab/w_037_resolve.mp3"
+    },
+    {
+      "word": "grasp",
+      "meaning": "～をつかむ",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "She grasped the rope tightly.",
+      "distractors": [
+        "割る",
+        "漂う",
+        "解決する"
+      ],
+      "wordAudio": "audio/vocab/w_038_grasp.mp3"
+    },
+    {
+      "word": "reverse",
+      "meaning": "逆",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The result was the reverse of what we expected.",
+      "distractors": [
+        "保管",
+        "天国",
+        "否定"
+      ],
+      "wordAudio": "audio/vocab/w_039_reverse.mp3"
+    },
+    {
+      "word": "denial",
+      "meaning": "否定",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "He is in denial about the problem.",
+      "distractors": [
+        "保管",
+        "逆",
+        "天国"
+      ],
+      "wordAudio": "audio/vocab/w_040_denial.mp3"
+    },
+    {
+      "word": "heaven",
+      "meaning": "天国",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The beach was like heaven on earth.",
+      "distractors": [
+        "保管",
+        "逆",
+        "否定"
+      ],
+      "wordAudio": "audio/vocab/w_041_heaven.mp3"
+    },
+    {
+      "word": "remain",
+      "meaning": "残る",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Only three seats remain available.",
+      "distractors": [
+        "構成する",
+        "加速する",
+        "発射する"
+      ],
+      "wordAudio": "audio/vocab/w_042_remain.mp3"
+    },
+    {
+      "word": "nowadays",
+      "meaning": "最近は",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "Nowadays, most people use smartphones.",
+      "distractors": [
+        "別々に",
+        "その間に",
+        "永久に"
+      ],
+      "wordAudio": "audio/vocab/w_043_nowadays.mp3"
+    },
+    {
+      "word": "for lack",
+      "meaning": "～の不足で",
+      "pos": "句",
+      "level": "2級",
+      "example": "The project failed for lack of funding.",
+      "distractors": [
+        "～を記念して",
+        "危険にさらして",
+        "疑いで"
+      ],
+      "wordAudio": "audio/vocab/w_044_for_lack.mp3"
+    },
+    {
+      "word": "at risk",
+      "meaning": "危険にさらして",
+      "pos": "句",
+      "level": "2級",
+      "example": "The species is at risk of extinction.",
+      "distractors": [
+        "～を記念して",
+        "～の不足で",
+        "疑いで"
+      ],
+      "wordAudio": "audio/vocab/w_045_at_risk.mp3"
+    },
+    {
+      "word": "on suspicion",
+      "meaning": "～の疑いで",
+      "pos": "句",
+      "level": "2級",
+      "example": "He was arrested on suspicion of theft.",
+      "distractors": [
+        "～を記念して",
+        "～の不足で",
+        "危険にさらして"
+      ],
+      "wordAudio": "audio/vocab/w_046_on_suspicion.mp3"
+    },
+    {
+      "word": "shelter",
+      "meaning": "避難所",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "They found shelter from the rain.",
+      "distractors": [
+        "保管",
+        "結果",
+        "紛争"
+      ],
+      "wordAudio": "audio/vocab/w_047_shelter.mp3"
+    },
+    {
+      "word": "disturb",
+      "meaning": "～を妨げる",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Please do not disturb the guests.",
+      "distractors": [
+        "～を害する",
+        "～を慰める",
+        "～を加速する"
+      ],
+      "wordAudio": "audio/vocab/w_048_disturb.mp3"
+    },
+    {
+      "word": "relieved",
+      "meaning": "安心した",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "She felt relieved after the exam.",
+      "distractors": [
+        "魅力的な",
+        "財政的な",
+        "無知な"
+      ],
+      "wordAudio": "audio/vocab/w_049_relieved.mp3"
+    },
+    {
+      "word": "internal",
+      "meaning": "内部の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The company resolved the internal conflict.",
+      "distractors": [
+        "財政的な",
+        "魅力的な",
+        "国家的な"
+      ],
+      "wordAudio": "audio/vocab/w_050_internal.mp3"
+    },
+    {
+      "word": "signal",
+      "meaning": "信号",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The traffic signal turned red.",
+      "distractors": [
+        "結果",
+        "食欲",
+        "避難所"
+      ],
+      "wordAudio": "audio/vocab/w_051_signal.mp3"
+    },
+    {
+      "word": "document",
+      "meaning": "～を記録する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "He documented every step of the process.",
+      "distractors": [
+        "～を発明する",
+        "～を教育する",
+        "～を加速する"
+      ],
+      "wordAudio": "audio/vocab/w_052_document.mp3"
+    },
+    {
+      "word": "volcanic",
+      "meaning": "火山の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The island was formed by volcanic activity.",
+      "distractors": [
+        "氷河の",
+        "砂漠の",
+        "森林の"
+      ],
+      "wordAudio": "audio/vocab/w_053_volcanic.mp3"
+    },
+    {
+      "word": "isolated",
+      "meaning": "孤立した",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The island is one of the most isolated places on Earth.",
+      "distractors": [
+        "混雑した",
+        "発展した",
+        "接続された"
+      ],
+      "wordAudio": "audio/vocab/w_054_isolated.mp3"
+    },
+    {
+      "word": "expedition",
+      "meaning": "探検",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Several expeditions have been sent to explore the island.",
+      "distractors": [
+        "観光",
+        "移住",
+        "貿易"
+      ],
+      "wordAudio": "audio/vocab/w_055_expedition.mp3"
+    },
+    {
+      "word": "rugged",
+      "meaning": "険しい",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The rugged coastline makes landing very difficult.",
+      "distractors": [
+        "平坦な",
+        "穏やかな",
+        "なめらかな"
+      ],
+      "wordAudio": "audio/vocab/w_056_rugged.mp3"
+    },
+    {
+      "word": "circadian",
+      "meaning": "概日の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Our circadian rhythm controls our sleep-wake cycle.",
+      "distractors": [
+        "月間の",
+        "年間の",
+        "週間の"
+      ],
+      "wordAudio": "audio/vocab/w_057_circadian.mp3"
+    },
+    {
+      "word": "melatonin",
+      "meaning": "メラトニン",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The body produces melatonin to promote sleep.",
+      "distractors": [
+        "アドレナリン",
+        "インスリン",
+        "ドーパミン"
+      ],
+      "wordAudio": "audio/vocab/w_058_melatonin.mp3"
+    },
+    {
+      "word": "insomnia",
+      "meaning": "不眠症",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Poor temperature control can lead to insomnia.",
+      "distractors": [
+        "過眠症",
+        "睡眠時無呼吸",
+        "夢遊病"
+      ],
+      "wordAudio": "audio/vocab/w_059_insomnia.mp3"
+    },
+    {
+      "word": "syllabus",
+      "meaning": "シラバス",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The textbook must align with the course syllabus.",
+      "distractors": [
+        "成績",
+        "出席",
+        "時間割"
+      ],
+      "wordAudio": "audio/vocab/w_060_syllabus.mp3"
+    },
+    {
+      "word": "curriculum",
+      "meaning": "カリキュラム",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The curriculum has been updated for the new academic year.",
+      "distractors": [
+        "施設",
+        "予算",
+        "人員"
+      ],
+      "wordAudio": "audio/vocab/w_061_curriculum.mp3"
+    },
+    {
+      "word": "chronicle",
+      "meaning": "年代記に記す",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Diaries chronicle the daily lives of ordinary people.",
+      "distractors": [
+        "忘れる",
+        "隠す",
+        "無視する"
+      ],
+      "wordAudio": "audio/vocab/w_062_chronicle.mp3"
+    },
+    {
+      "word": "intimate",
+      "meaning": "親密な",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Diaries provide an intimate look at historical figures.",
+      "distractors": [
+        "公式の",
+        "表面的な",
+        "客観的な"
+      ],
+      "wordAudio": "audio/vocab/w_063_intimate.mp3"
+    },
+    {
+      "word": "posterity",
+      "meaning": "後世",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "These diaries have been preserved for posterity.",
+      "distractors": [
+        "現在",
+        "過去",
+        "同世代"
+      ],
+      "wordAudio": "audio/vocab/w_064_posterity.mp3"
     }
+  ],
+  "sections": [
+    {
+      "name": "大問1",
+      "nameEn": "Part 1",
+      "type": "vocabulary",
+      "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "questions": [
+        {
+          "number": 1,
+          "text": "Jane used to get her favorite magazine delivered to her home every month. However, she now has an online ( 1 ), so she can read the magazine on her tablet or smartphone.",
+          "translation": "ジェーンは毎月お気に入りの雑誌を自宅に届けてもらっていた。しかし、今はオンラインの( 1 )を持っているので、タブレットやスマートフォンで雑誌を読むことができる。",
+          "choices": [
+            "opportunity",
+            "campaign",
+            "representative",
+            "subscription"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "opportunity=機会→web上で読む「機会」ではない",
+            "campaign=キャンペーン→文脈に合わない",
+            "representative=代表者→人の話ではない",
+            "subscription=定期購読→正解。💡 online subscription=オンライン定期購読。雑誌→ネットで最頻出"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "A : Jeff, I can't believe you said my painting was bad in class today.\nB : I'm sorry, Diana. I didn't mean to ( 2 ) you. I shouldn't have said that.",
+          "translation": "A：ジェフ、今日の授業であなたが私の絵が下手だと言ったなんて信じられない。\nB：ごめんなさい、ダイアナ。あなたを( 2 )するつもりはなかった。あんなことを言うべきではなかった。",
+          "choices": [
+            "replace",
+            "comfort",
+            "transform",
+            "offend"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "replace=取り替える→感情の文脈に不適切",
+            "comfort=慰める→逆の意味",
+            "transform=変える→文脈不一致",
+            "offend=怒らせる→正解。💡 I didn't mean to offend you=怒らせるつもりはなかった。謝罪の定番表現"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Greg likes his new apartment because it has a lot of room for ( 3 ). His last place did not have enough closet space for all of his things.",
+          "translation": "グレッグは新しいアパートが気に入っている。( 3 )のための部屋がたくさんあるからだ。前の場所には荷物をすべて収納するのに十分なクローゼットのスペースがなかった。",
+          "choices": [
+            "storage",
+            "reverse",
+            "heaven",
+            "denial"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "storage=収納→正解。💡 room for storage=収納スペース。closet space と言い換え関係",
+            "reverse=逆→文脈不一致",
+            "heaven=天国→不適切",
+            "denial=否定→不適切"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Ms. Walker asks her students to think about the ( 4 ) of their actions. She wants them to understand that their behavior will have effects on themselves and others.",
+          "translation": "ウォーカー先生は生徒に自分の行動の( 4 )について考えるよう求めている。自分たちの行動が自分自身や他の人に影響を与えることを理解してほしいのだ。",
+          "choices": [
+            "requests",
+            "timetables",
+            "suitcases",
+            "consequences"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "requests=要求→行動の結果ではない",
+            "timetables=時刻表→不適切",
+            "suitcases=スーツケース→不適切",
+            "consequences=結果→正解。💡 consequences of actions=行動の結果。consider the consequences=結果を考える"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Mike's meeting went on longer than expected, so he and his wife went ( 5 ) to their friends' dinner party. Mike took a taxi, while his wife drove their car.",
+          "translation": "マイクの会議が予想より長引いたので、彼と妻は友人のディナーパーティーに( 5 )行った。マイクはタクシーに乗り、妻は車を運転した。",
+          "choices": [
+            "separately",
+            "meanwhile",
+            "nowadays",
+            "permanently"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "separately=別々に→正解。💡 went separately=別々に行った。会議が長引いた→別々に出発する論理",
+            "meanwhile=その間→副詞として不自然",
+            "nowadays=最近は→文脈不一致",
+            "permanently=永久に→不適切"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Kelly had to leave the arena before the hockey game finished, so Sam told her the ( 6 ) the next day. The Wolves had won 5 to 3.",
+          "translation": "ケリーはホッケーの試合が終わる前にアリーナを出なければならなかったので、サムは翌日彼女に( 6 )を教えた。ウルブズが5対3で勝っていた。",
+          "choices": [
+            "outcome",
+            "appetite",
+            "victim",
+            "conflict"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "outcome=結果→正解。💡 outcome=試合の結果。💡 result/outcome/consequence の使い分けを覚えよう",
+            "appetite=食欲→スポーツの文脈に不適切",
+            "victim=犠牲者→不適切",
+            "conflict=対立→不適切"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "In the meeting, a group of experts discussed the effects of economic activities that ( 7 ) global warming.",
+          "translation": "会議で、専門家のグループが地球温暖化を( 7 )経済活動の影響について議論した。",
+          "choices": [
+            "remain",
+            "compose",
+            "launch",
+            "accelerate"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "remain=残る→温暖化を「残す」は不自然",
+            "compose=構成する→不適切",
+            "launch=発射する→不適切",
+            "accelerate=加速させる→正解。💡 accelerate global warming=温暖化を加速させる。経済活動→温暖化加速"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "The new history teacher at Maple High School is very good at ( 8 ) his students. They are learning a lot about the world from his classes.",
+          "translation": "メイプル高校の新しい歴史の先生は生徒を( 8 )するのがとても上手だ。彼の授業から生徒たちは世界について多くのことを学んでいる。",
+          "choices": [
+            "inventing",
+            "educating",
+            "deceiving",
+            "pretending"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "inventing=発明する→教師の仕事ではない",
+            "educating=教育する→正解。💡 good at educating=教えるのが上手。teacher→educating は当然の組み合わせ",
+            "deceiving=欺く→否定的な意味",
+            "pretending=ふりをする→不適切"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "The company's ( 9 ) situation has been getting worse this year. It is going to have to close some of its stores.",
+          "translation": "その会社の( 9 )状況は今年悪化している。いくつかの店舗を閉鎖しなければならないだろう。",
+          "choices": [
+            "attractive",
+            "national",
+            "financial",
+            "ignorant"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "attractive=魅力的な→会社の状況表現に不自然",
+            "national=国の→限定的すぎる",
+            "financial=財政的な→正解。💡 financial situation=財政状況。店舗閉鎖→経済的困難の文脈",
+            "ignorant=無知な→不適切"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "A : The boat is starting to ( 10 ) away from the shore.\nB : Oh no! We need to catch it before it floats away!",
+          "translation": "A：ボートが岸から( 10 )始めているよ。\nB：大変だ！流されてしまう前に捕まえなければ！",
+          "choices": [
+            "split",
+            "drift",
+            "resolve",
+            "grasp"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "split=分裂する→ボートの動きに不自然",
+            "drift=漂う→正解。💡 drift away=漂って離れる。💡 ボートが流される典型的な表現",
+            "resolve=解決する→不適切",
+            "grasp=つかむ→不適切"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "A statue was put up in front of city hall ( 11 ) of the city's first mayor.",
+          "translation": "市庁舎の前に市の初代市長を( 11 )して像が建てられた。",
+          "choices": [
+            "in honor",
+            "for lack",
+            "at risk",
+            "on suspicion"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "in honor=敬意を表して→正解。💡 in honor of=～を称えて。銅像を立てる→敬意を表す定番表現",
+            "for lack=不足のため→不適切",
+            "at risk=危険にさらされて→不適切",
+            "on suspicion=嫌疑で→不適切"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "A : I don't think I've ever seen Bob take a break.\nB : Yes, he's always ( 12 ). He likes to keep busy.",
+          "translation": "A：ボブが休憩しているのを見たことがないと思う。\nB：ええ、彼はいつも( 12 )よ。忙しくしているのが好きなんだ。",
+          "choices": [
+            "on the go",
+            "in the way",
+            "by the book",
+            "to the point"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "on the go=忙しく動き回って→正解。💡 always on the go=いつも忙しい。keep busy と言い換え",
+            "in the way=邪魔で→文脈不一致",
+            "by the book=規則通りに→文脈不一致",
+            "to the point=要点を押さえて→不適切"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Hikers and campers need to be prepared for bad weather. Without a safe shelter to go to, they could be ( 13 ) of nature.",
+          "translation": "ハイカーやキャンパーは悪天候に備える必要がある。安全な避難所がなければ、自然の( 13 )になりかねない。",
+          "choices": [
+            "for the good",
+            "on the rise",
+            "in the course",
+            "at the mercy"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "for the good=利益のために→文脈不一致",
+            "on the rise=増加中→不適切",
+            "in the course=途中で→不適切",
+            "at the mercy=なすがまま→正解。💡 at the mercy of nature=自然のなすがまま。避難所がない→自然に対して無力"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "When Julia lost her job, she had to ( 14 ) her savings for a few months until she found a new one.",
+          "translation": "ジュリアが職を失ったとき、新しい仕事を見つけるまでの数ヶ月間、貯金に( 14 )しなければならなかった。",
+          "choices": [
+            "break up with",
+            "fall back on",
+            "come over to",
+            "speak ill of"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "break up with=別れる→人間関係の文脈",
+            "fall back on=頼る→正解。💡 fall back on savings=貯金に頼る。💡 最後の手段として「頼る」イメージ",
+            "come over to=訪れる→不適切",
+            "speak ill of=悪口を言う→不適切"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "A : I thought the new rule was going to start today.\nB : It was, but the manager said that it wouldn't be ( 15 ) until next month.",
+          "translation": "A：新しい規則は今日から始まると思っていた。\nB：そうだったけど、マネージャーが来月まで( 15 )にならないと言っていた。",
+          "choices": [
+            "on strike",
+            "on foot",
+            "in line",
+            "in effect"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "on strike=ストライキ中→不適切",
+            "on foot=徒歩で→不適切",
+            "in line=並んで→不適切",
+            "in effect=有効で→正解。💡 in effect=施行されて。ルールが「有効」になる時期の話"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "When Kyle went to the clothing store, he had to ( 16 ) a new shirt for his brother's wedding. His mother told him to get a white one.",
+          "translation": "カイルが洋服店に行ったとき、兄の結婚式のために新しいシャツを( 16 )しなければならなかった。母は白いものを買うように言った。",
+          "choices": [
+            "fall over",
+            "turn over",
+            "cut off",
+            "pick out"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "fall over=倒れる→不適切",
+            "turn over=ひっくり返す→不適切",
+            "cut off=切り離す→不適切",
+            "pick out=選ぶ→正解。💡 pick out a shirt=シャツを選ぶ。💡 pick out ≒ choose だが「多くの中から選ぶ」ニュアンス"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "The members of the team stood ( 17 ) on the field before the soccer game started. They all looked very serious and determined to win.",
+          "translation": "サッカーの試合が始まる前、チームのメンバーはフィールドに( 17 )立っていた。全員がとても真剣で勝利への決意を見せていた。",
+          "choices": [
+            "down the road",
+            "back and forth",
+            "on the way",
+            "side by side"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "down the road=将来→不適切",
+            "back and forth=行ったり来たり→不適切",
+            "on the way=途中で→不適切",
+            "side by side=並んで→正解。💡 stood side by side=並んで立った。チームメイトが横一列に並ぶ場面"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問2",
+      "nameEn": "Part 2",
+      "type": "passage-fill",
+      "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "The Darkest Island",
+          "paragraphs": [
+            "In a city, there are lights from cars and lamps all around. Many houses have lights on, and some businesses keep their lights on all night for safety reasons. By keeping lights on, people can see the roads well and feel relieved at night. However, others find it ( 18 ). When the night is too bright, the light can disturb people's sleep. Additionally, the lives of animals are often in danger. Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
+            "The people living in Sark, a small island near southern England, have done a lot to deal with this problem. They wanted to prevent their community from being bright with lights. Therefore, people cannot ( 19 ) on the streets of Sark. With no cars, there is no need to place streetlights for safe driving. Walking and riding horses and bicycles are allowed when going somewhere. They buy lights when they really need them. However, they make sure to point lights to the ground.",
+            "On the island known for its amazingly dark skies, people can see beautiful stars. This has attracted many people from all over the world. The number of people who visit the island is increasing. Surprisingly, as many as 60,000 tourists come to the island every year. ( 20 ), the island's population is getting smaller. The authority began to look for 500 new residents. They will probably face a new problem when new people arrive on this dark sky island."
+          ],
+          "translations": [
+            "都市には車やランプからの光があちこちにある。多くの家では明かりがついており、安全上の理由から一晩中明かりをつけている企業もある。明かりをつけておくことで、人々は夜でも道路をよく見ることができ、安心する。しかし、他の人々は( 18 )と感じている。夜が明るすぎると、光が人々の睡眠を妨げることがある。さらに、動物の命がしばしば危険にさらされる。現在、このような問題は「光害」と呼ばれるものによって引き起こされており、世界中のほぼすべての都市にとって課題となっている。",
+            "イングランド南部に近い小さな島サークに住む人々は、この問題に対処するために多くのことを行ってきた。彼らはコミュニティが光で明るくなることを防ぎたかった。そのため、サークの通りでは( 19 )ことができない。車がないので、安全な運転のために街灯を設置する必要がない。どこかに行くときは、歩いたり馬や自転車に乗ったりすることが許されている。本当に必要なときに照明を買う。ただし、光を地面に向けるようにしている。",
+            "驚くほど暗い空で知られるこの島では、美しい星を見ることができる。これが世界中から多くの人々を引きつけている。島を訪れる人の数は増加している。驚いたことに、毎年6万人もの観光客がこの島を訪れる。( 20 )、島の人口は減少している。当局は500人の新しい住民を探し始めた。この暗い空の島に新しい人々が到着すると、おそらく新たな問題に直面するだろう。"
+          ],
+          "sentencePairs": [
+            [
+              "In a city, there are lights from cars and lamps all around.",
+              "都市には車やランプからの光があちこちにある。",
+              "In a city,|都市では、||there are lights|明かりがある||from cars and lamps|車やランプからの||all around.|至る所に。",
+              "are"
+            ],
+            [
+              "Many houses have lights on, and some businesses keep their lights on all night for safety reasons.",
+              "多くの家では明かりがついており、安全上の理由から一晩中明かりをつけている企業もある。",
+              "Many houses have lights on,|多くの家は明かりを付けている、||and some businesses|そして一部の企業は||keep their lights on|明かりを付けたままにしている||all night|一晩中||for safety reasons.|安全上の理由で。",
+              "have"
+            ],
+            [
+              "By keeping lights on, people can see the roads well and feel relieved at night.",
+              "明かりをつけておくことで、人々は夜でも道路をよく見ることができ、安心する。",
+              "By keeping lights on,|明かりを付けておくことで、||people can see the roads well|人々は道路をよく見え||and feel relieved|そして安心を感じる||at night.|夜に。",
+              "can see"
+            ],
+            [
+              "However, others find it ( 18 ).",
+              "しかし、他の人々は( 18 )と感じている。"
+            ],
+            [
+              "When the night is too bright, the light can disturb people's sleep.",
+              "夜が明るすぎると、光が人々の睡眠を妨げることがある。",
+              "When the night is too bright,|夜が明るすぎると、||the light can disturb|光は妨げることがある||people's sleep.|人々の睡眠を。",
+              "can disturb"
+            ],
+            [
+              "Additionally, the lives of animals are often in danger.",
+              "さらに、動物の命がしばしば危険にさらされる。",
+              "Additionally,|さらに、||the lives of animals|動物の命は||are often in danger.|しばしば危険にさらされている。",
+              "are"
+            ],
+            [
+              "Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
+              "現在、このような問題は「光害」と呼ばれるものによって引き起こされており、世界中のほぼすべての都市にとって課題となっている。",
+              "Nowadays,|今日では、||such problems are caused|このような問題は引き起こされている||by what is called \"light pollution,\"|「光害」と呼ばれるものによって、||and it poses a challenge|そしてそれは課題を突きつけている||for almost every city in the world.|世界のほぼすべての都市に。",
+              "are caused"
+            ],
+            [
+              "The people living in Sark, a small island near southern England, have done a lot to deal with this problem.",
+              "イングランド南部に近い小さな島サークに住む人々は、この問題に対処するために多くのことを行ってきた。",
+              "The people living in Sark,|Sarkに住む人々は、||a small island|小さな島||near southern England,|イングランド南部の近くの、||have done a lot|多くのことをしてきた||to deal with this problem.|この問題に対処するために。",
+              "have done"
+            ],
+            [
+              "They wanted to prevent their community from being bright with lights.",
+              "彼らはコミュニティが光で明るくなることを防ぎたかった。",
+              "They wanted to prevent|彼らは防ぎたかった||their community|自分たちの地域が||from being bright with lights.|明かりで明るくなることを。",
+              "wanted"
+            ],
+            [
+              "Therefore, people cannot ( 19 ) on the streets of Sark.",
+              "そのため、サークの通りでは( 19 )ことができない。"
+            ],
+            [
+              "With no cars, there is no need to place streetlights for safe driving.",
+              "車がないので、安全な運転のために街灯を設置する必要がない。",
+              "With no cars,|車がないので、||there is no need|必要がない||to place streetlights|街灯を設置する||for safe driving.|安全な運転のために。",
+              "is"
+            ],
+            [
+              "Walking and riding horses and bicycles are allowed when going somewhere.",
+              "どこかに行くときは、歩いたり馬や自転車に乗ったりすることが許されている。",
+              "Walking and riding horses and bicycles|歩くことと馬や自転車に乗ることは||are allowed|許可されている||when going somewhere.|どこかへ行く時に。",
+              "are allowed"
+            ],
+            [
+              "They buy lights when they really need them.",
+              "本当に必要なときに照明を買う。",
+              "They buy lights|彼らは明かりを買う||when they really need them.|本当に必要な時に。",
+              "buy"
+            ],
+            [
+              "However, they make sure to point lights to the ground.",
+              "ただし、光を地面に向けるようにしている。",
+              "However,|しかし、||they make sure|彼らは確実にする||to point lights|明かりを向けることを||to the ground.|地面に。",
+              "make"
+            ],
+            [
+              "On the island known for its amazingly dark skies, people can see beautiful stars.",
+              "驚くほど暗い空で知られるこの島では、美しい星を見ることができる。",
+              "On the island|その島で||known for its amazingly dark skies,|驚くほど暗い空で知られる、||people can see beautiful stars.|人々は美しい星を見ることができる。",
+              "can see"
+            ],
+            [
+              "This has attracted many people from all over the world.",
+              "これが世界中から多くの人々を引きつけている。",
+              "This has attracted|これは引きつけてきた||many people|多くの人々を||from all over the world.|世界中から。",
+              "has attracted"
+            ],
+            [
+              "The number of people who visit the island is increasing.",
+              "島を訪れる人の数は増加している。",
+              "The number of people|人々の数は||who visit the island|島を訪れる||is increasing.|増えている。",
+              "is increasing"
+            ],
+            [
+              "Surprisingly, as many as 60,000 tourists come to the island every year.",
+              "驚いたことに、毎年6万人もの観光客がこの島を訪れる。",
+              "Surprisingly,|驚くことに、||as many as 60,000 tourists|6万人もの観光客が||come to the island|島に来る||every year.|毎年。",
+              "come"
+            ],
+            [
+              "( 20 ), the island's population is getting smaller.",
+              "( 20 )、島の人口は減少している。"
+            ],
+            [
+              "The authority began to look for 500 new residents.",
+              "当局は500人の新しい住民を探し始めた。",
+              "The authority began|当局は始めた||to look for|探すことを||500 new residents.|500人の新しい住民を。",
+              "began"
+            ],
+            [
+              "They will probably face a new problem when new people arrive on this dark sky island.",
+              "この暗い空の島に新しい人々が到着すると、おそらく新たな問題に直面するだろう。",
+              "They will probably face|彼らはおそらく直面するだろう||a new problem|新たな問題に||when new people arrive|新しい人々が到着した時||on this dark sky island.|この暗い空の島に。",
+              "will face"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "choices": [
+                "difficult to relax",
+                "fun to see the lights",
+                "easy to watch the stars",
+                "hard to open their shops"
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "リラックスが難しい→正解。光害により星が見えず「リラックスしにくい」💡 空欄の前後の文脈を必ず確認",
+                "楽しく灯りを見る→光害が問題という文脈に矛盾",
+                "星を見やすい→光害の問題と矛盾",
+                "店を開けにくい→本文にない"
+              ]
+            },
+            {
+              "number": 19,
+              "choices": [
+                "plant trees",
+                "go shopping",
+                "drive cars",
+                "walk alone"
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "木を植える→交通手段の話ではない",
+                "買い物をする→不適切",
+                "車を運転する→正解。島では車はなく歩くか自転車💡 対比構造に注目：本土≠島の生活",
+                "一人で歩く→不適切"
+              ]
+            },
+            {
+              "number": 20,
+              "choices": [
+                "In other words",
+                "In the end",
+                "In a word",
+                "In contrast"
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "言い換えれば→要約の文脈ではない",
+                "結局→結論ではない",
+                "一言で言えば→要約ではない",
+                "対照的に→正解。💡 In contrast=対比。前文と対照的な内容が続く構造に注目"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Temperature and Sleep",
+          "paragraphs": [
+            "The quality of people's sleep is greatly ( 21 ). For example, some people have had the experience of not being able to sleep because of noise from their neighbors or busy roads. Other people may have had trouble falling asleep because of light coming in from outside and light from the screens of digital devices, such as smartphones and tablet computers. However, many experts are saying that another very important environmental factor is the temperature.",
+            "In the evening, as the air cools down, so does the human body's internal temperature. This is because the brain sends out a signal to the body that it is time to sleep. Then, the body starts to relax, and people's breathing becomes deeper and slower. This is similar to what bears do in the winter. They keep ( 22 ). By doing so, they can make their body functions slow down to the lowest level.",
+            "This means the opposite is also true. It becomes difficult for people to sleep when the temperature is too warm. A warm temperature makes it difficult for the human body to cool down. ( 23 ), people roll over in bed on a hot summer night to try to feel more comfortable. This is their reaction to try to escape from the heat. One solution is for people to take a warm shower before going to bed. The human body's internal body temperature starts to drop after a shower."
+          ],
+          "translations": [
+            "人々の睡眠の質は( 21 )大きく影響を受ける。例えば、近隣の騒音や交通量の多い道路の騒音のために眠れなかった経験のある人もいる。外からの光やスマートフォンやタブレットコンピュータなどのデジタル機器の画面の光のために寝付けなかった人もいるだろう。しかし、多くの専門家はもう一つの非常に重要な環境要因は温度であると述べている。",
+            "夕方、空気が冷えるにつれて、人の体の内部温度も下がる。これは脳が体に寝る時間であるという信号を送るためである。すると体がリラックスし始め、呼吸がより深く遅くなる。これは冬に熊がすることに似ている。彼らは( 22 )。そうすることで、体の機能を最も低いレベルにまで減速させることができる。",
+            "これは逆も同様であることを意味する。気温が高すぎると寝つきが悪くなる。暖かい気温は体を冷やすことを困難にする。( 23 )、暑い夏の夜に人々はより快適に感じようとしてベッドで寝返りを打つ。これは暑さから逃れようとする反応である。一つの解決策は就寝前に温かいシャワーを浴びることである。シャワーの後、体内温度は下がり始める。"
+          ],
+          "sentencePairs": [
+            [
+              "The quality of people's sleep is greatly ( 21 ).",
+              "人々の睡眠の質は( 21 )大きく影響を受ける。"
+            ],
+            [
+              "For example, some people have had the experience of not being able to sleep because of noise from their neighbors or busy roads.",
+              "例えば、近隣の騒音や交通量の多い道路の騒音のために眠れなかった経験のある人もいる。",
+              "For example,|例えば、||some people have had the experience|一部の人々は経験がある||of not being able to sleep|眠れないという||because of noise|騒音のせいで||from their neighbors or busy roads.|近隣や交通量の多い道路からの。",
+              "have had"
+            ],
+            [
+              "Other people may have had trouble falling asleep because of light coming in from outside and light from the screens of digital devices, such as smartphones and tablet computers.",
+              "外からの光やスマートフォンやタブレットコンピュータなどのデジタル機器の画面の光のために寝付けなかった人もいるだろう。",
+              "Other people may have had trouble|他の人々は困ったかもしれない||falling asleep|寝付くのに||because of light coming in|入ってくる光のせいで||from outside|外からの||and light from the screens|そして画面からの光||of digital devices,|デジタル機器の、||such as smartphones and tablet computers.|スマートフォンやタブレットのような。",
+              "may have had"
+            ],
+            [
+              "However, many experts are saying that another very important environmental factor is the temperature.",
+              "しかし、多くの専門家はもう一つの非常に重要な環境要因は温度であると述べている。",
+              "However,|しかし、||many experts are saying|多くの専門家は言っている||that another very important environmental factor|もう一つの非常に重要な環境要因は||is the temperature.|温度であると。",
+              "are saying"
+            ],
+            [
+              "In the evening, as the air cools down, so does the human body's internal temperature.",
+              "夕方、空気が冷えるにつれて、人の体の内部温度も下がる。",
+              "In the evening,|夕方になると、||as the air cools down,|空気が冷えるにつれて、||so does|同様に||the human body's internal temperature.|人間の体の内部温度も下がる。",
+              "cools"
+            ],
+            [
+              "This is because the brain sends out a signal to the body that it is time to sleep.",
+              "これは脳が体に寝る時間であるという信号を送るためである。",
+              "This is because|これは〜だからである||the brain sends out a signal|脳が信号を送るからだ||to the body|体に||that it is time to sleep.|眠る時間だという。",
+              "sends"
+            ],
+            [
+              "Then, the body starts to relax, and people's breathing becomes deeper and slower.",
+              "すると体がリラックスし始め、呼吸がより深く遅くなる。",
+              "Then,|すると、||the body starts to relax,|体はリラックスし始め、||and people's breathing becomes|そして人々の呼吸は||deeper and slower.|より深くゆっくりになる。",
+              "starts"
+            ],
+            [
+              "This is similar to what bears do in the winter.",
+              "これは冬に熊がすることに似ている。",
+              "This is similar|これは似ている||to what bears do|クマがすることに||in the winter.|冬に。",
+              "is"
+            ],
+            [
+              "They keep ( 22 ).",
+              "彼らは( 22 )。"
+            ],
+            [
+              "By doing so, they can make their body functions slow down to the lowest level.",
+              "そうすることで、体の機能を最も低いレベルにまで減速させることができる。",
+              "By doing so,|そうすることで、||they can make|彼らは〜にすることができる||their body functions|体の機能を||slow down|低下させる||to the lowest level.|最低レベルまで。",
+              "can make"
+            ],
+            [
+              "This means the opposite is also true.",
+              "これは逆も同様であることを意味する。",
+              "This means|これは意味する||the opposite is also true.|反対もまた正しいということを。",
+              "means"
+            ],
+            [
+              "It becomes difficult for people to sleep when the temperature is too warm.",
+              "気温が高すぎると寝つきが悪くなる。",
+              "It becomes difficult|難しくなる||for people to sleep|人々が眠るのが||when the temperature is too warm.|気温が暖かすぎる時に。",
+              "becomes"
+            ],
+            [
+              "A warm temperature makes it difficult for the human body to cool down.",
+              "暖かい気温は体を冷やすことを困難にする。",
+              "A warm temperature|暖かい温度は||makes it difficult|難しくする||for the human body to cool down.|人間の体が冷えるのを。",
+              "makes"
+            ],
+            [
+              "( 23 ), people roll over in bed on a hot summer night to try to feel more comfortable.",
+              "( 23 )、暑い夏の夜に人々はより快適に感じようとしてベッドで寝返りを打つ。"
+            ],
+            [
+              "This is their reaction to try to escape from the heat.",
+              "これは暑さから逃れようとする反応である。",
+              "This is their reaction|これは彼らの反応である||to try to escape|逃れようとする||from the heat.|暑さから。",
+              "is"
+            ],
+            [
+              "One solution is for people to take a warm shower before going to bed.",
+              "一つの解決策は就寝前に温かいシャワーを浴びることである。",
+              "One solution is|一つの解決策は||for people to take a warm shower|人々が温かいシャワーを浴びることだ||before going to bed.|寝る前に。",
+              "is"
+            ],
+            [
+              "The human body's internal body temperature starts to drop after a shower.",
+              "シャワーの後、体内温度は下がり始める。",
+              "The human body's internal body temperature|人間の体の内部温度は||starts to drop|下がり始める||after a shower.|シャワーの後に。",
+              "starts"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "choices": [
+                "concerned by their parents",
+                "reduced when they are full",
+                "influenced by the environment",
+                "important when they have a fever"
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "親に心配される→不適切",
+                "満腹時に減少する→不適切",
+                "環境に影響される→正解。体温は環境温度に影響される💡 influenced by=～に影響される。科学系の頻出表現",
+                "熱がある時に重要→限定的"
+              ]
+            },
+            {
+              "number": 22,
+              "choices": [
+                "running from their enemies",
+                "their body temperature low",
+                "the inside of caves warm",
+                "digging a hole to hide in"
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "敵から逃げる→不適切",
+                "体温を低く保つ→正解。動物が体温を下げて冬眠💡 keep + O + C の語法：keep their body temperature low",
+                "洞穴の中を暖かくする→不適切",
+                "穴を掘って隠れる→不適切"
+              ]
+            },
+            {
+              "number": 23,
+              "choices": [
+                "For the time being",
+                "On top of that",
+                "Even then",
+                "In many cases"
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "当面の間→不適切",
+                "その上→追加ではなく結果",
+                "その時でさえ→不適切",
+                "多くの場合→正解。💡 In many cases=多くの場合。一般的な傾向を述べる表現"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問3",
+      "nameEn": "Part 3",
+      "type": "reading-comprehension",
+      "instruction": "次の英文A，Bの内容に関して，質問に対して最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Textbook selection",
+          "format": "email",
+          "meta": {
+            "from": "Anastasia Jenkins <a.jenkins@riverschool.edu.com>",
+            "to": "Joshua Kimura <j.kimura@riverschool.edu.com>",
+            "date": "January 26",
+            "subject": "Textbook selection"
+          },
+          "paragraphs": [
+            "Dear Joshua,",
+            "I wanted to update you on the decisions made during last week's teachers' meeting regarding textbook selection for the next semester. Since you were absent, I will give you a summary. In the meeting, we agreed to use two main textbooks, Your Daily English and English First. These books cover important grammar, vocabulary, and reading skills. In addition to these, we also want to use online resources to go along with our teaching materials.",
+            "Your Daily English focuses on practical communication skills, with dialogues, exercises, and real-life examples. It's for our second-year students. On the other hand, English First is designed for beginners. This book does not just give students grammar and vocabulary, as traditional textbooks often do. Instead, it also teaches these skills in stories that children of our students' age are more likely to enjoy.",
+            "As you are the expert in this area, I would like you to check both textbooks and see what online resources you recommend. We all agree that your opinions about this matter should be heard before the next meeting. Please share your thoughts by next Friday. Since I want everyone to see your choice and reasons for it, please send us a group e-mail.",
+            "Best regards,\nAnastasia Jenkins\nEnglish Department"
+          ],
+          "translations": [
+            "ジョシュアへ",
+            "先週の教師会議で行われた来学期の教科書選定に関する決定事項をお知らせしたいと思います。欠席されていたので、概要をお伝えします。会議では、Your Daily EnglishとEnglish Firstという2つの主要な教科書を使用することに合意しました。これらの本は重要な文法、語彙、読解スキルをカバーしています。これらに加えて、教材に沿ったオンラインリソースも使用したいと考えています。",
+            "Your Daily Englishは実践的なコミュニケーションスキルに焦点を当てており、対話、演習、実生活の例が含まれています。2年生向けです。一方、English Firstは初心者向けに設計されています。この本は従来の教科書がよくするように文法や語彙を教えるだけではありません。代わりに、生徒の年齢の子どもたちがより楽しめそうな物語の中でこれらのスキルも教えます。",
+            "この分野の専門家であるあなたに、両方の教科書を確認し、どのオンラインリソースを推薦するか見ていただきたいと思います。この件に関するあなたの意見は次の会議の前に聞くべきだと皆が同意しています。来週の金曜日までにあなたの考えを共有してください。全員にあなたの選択とその理由を見てもらいたいので、グループメールを送ってください。",
+            "敬具\nアナスタシア・ジェンキンス\n英語科"
+          ],
+          "sentencePairs": [
+            [
+              "I wanted to update you on the decisions made during last week's teachers' meeting regarding textbook selection for the next semester.",
+              "先週の教師会議で行われた来学期の教科書選定に関する決定事項をお知らせしたいと思います。",
+              "I wanted to update you|最新情報をお伝えしたかった||on the decisions made|決定事項について||during last week's teachers' meeting|先週の教員会議で行われた||regarding textbook selection|教科書選定に関する||for the next semester.|来学期の。",
+              "wanted"
+            ],
+            [
+              "Since you were absent, I will give you a summary.",
+              "欠席されていたので、概要をお伝えします。",
+              "Since you were absent,|あなたが欠席されていたので、||I will give you a summary.|要約をお伝えします。",
+              "will give"
+            ],
+            [
+              "In the meeting, we agreed to use two main textbooks, Your Daily English and English First.",
+              "会議では、Your Daily EnglishとEnglish Firstという2つの主要な教科書を使用することに合意しました。",
+              "In the meeting,|会議では、||we agreed to use|使用することで合意した||two main textbooks,|2つの主な教科書を、||Your Daily English and English First.|Your Daily EnglishとEnglish Firstを。",
+              "agreed"
+            ],
+            [
+              "These books cover important grammar, vocabulary, and reading skills.",
+              "これらの本は重要な文法、語彙、読解スキルをカバーしています。",
+              "These books cover|これらの本は扱っている||important grammar, vocabulary,|重要な文法、語彙、||and reading skills.|そしてリーディングのスキルを。",
+              "cover"
+            ],
+            [
+              "In addition to these, we also want to use online resources to go along with our teaching materials.",
+              "これらに加えて、教材に沿ったオンラインリソースも使用したいと考えています。",
+              "In addition to these,|これらに加えて、||we also want to use|オンラインリソースも使いたい||online resources|オンラインリソースを||to go along with|合わせるために||our teaching materials.|私たちの教材に。",
+              "want"
+            ],
+            [
+              "Your Daily English focuses on practical communication skills, with dialogues, exercises, and real-life examples.",
+              "Your Daily Englishは実践的なコミュニケーションスキルに焦点を当てており、対話、演習、実生活の例が含まれています。",
+              "Your Daily English focuses on|Your Daily Englishは焦点を当てている||practical communication skills,|実践的なコミュニケーションスキルに、||with dialogues, exercises,|対話、練習問題、||and real-life examples.|そして実生活の例とともに。",
+              "focuses"
+            ],
+            [
+              "It's for our second-year students.",
+              "2年生向けです。",
+              "It's for|それは〜向けです||our second-year students.|2年生の生徒。",
+              "is"
+            ],
+            [
+              "On the other hand, English First is designed for beginners.",
+              "一方、English Firstは初心者向けに設計されています。",
+              "On the other hand,|一方で、||English First|English Firstは||is designed for beginners.|初心者向けに設計されている。",
+              "is designed"
+            ],
+            [
+              "This book does not just give students grammar and vocabulary, as traditional textbooks often do.",
+              "この本は従来の教科書がよくするように文法や語彙を教えるだけではありません。",
+              "This book does not just give|この本はただ与えるだけではない||students grammar and vocabulary,|生徒に文法と語彙を、||as traditional textbooks often do.|従来の教科書がよくするように。",
+              "does give"
+            ],
+            [
+              "Instead, it also teaches these skills in stories that children of our students' age are more likely to enjoy.",
+              "代わりに、生徒の年齢の子どもたちがより楽しめそうな物語の中でこれらのスキルも教えます。",
+              "Instead,|そうではなく、||it also teaches these skills|これらのスキルも教えている||in stories|物語の中で||that children of our students' age|私たちの生徒の年齢の子どもたちが||are more likely to enjoy.|より楽しむ可能性が高い。",
+              "teaches"
+            ],
+            [
+              "As you are the expert in this area, I would like you to check both textbooks and see what online resources you recommend.",
+              "この分野の専門家であるあなたに、両方の教科書を確認し、どのオンラインリソースを推薦するか見ていただきたいと思います。",
+              "As you are the expert|あなたはこの分野の専門家なので||in this area,|この分野の、||I would like you to check|両方の教科書を確認して||both textbooks|両方の教科書を||and see what online resources|どのオンラインリソースを||you recommend.|あなたが推薦するか見ていただきたい。",
+              "would like"
+            ],
+            [
+              "We all agree that your opinions about this matter should be heard before the next meeting.",
+              "この件に関するあなたの意見は次の会議の前に聞くべきだと皆が同意しています。",
+              "We all agree|私たち全員が同意している||that your opinions about this matter|この件についてのあなたの意見は||should be heard|聞かれるべきだと||before the next meeting.|次の会議の前に。",
+              "agree"
+            ],
+            [
+              "Please share your thoughts by next Friday.",
+              "来週の金曜日までにあなたの考えを共有してください。",
+              "Please share your thoughts|ご意見を共有してください||by next Friday.|来週の金曜日までに。",
+              "share"
+            ],
+            [
+              "Since I want everyone to see your choice and reasons for it, please send us a group e-mail.",
+              "全員にあなたの選択とその理由を見てもらいたいので、グループメールを送ってください。",
+              "Since I want everyone|全員に見てほしいので||to see your choice|あなたの選択を||and reasons for it,|そしてその理由を、||please send us a group e-mail.|グループメールを送ってください。",
+              "want"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 24,
+              "question": "What was decided in the teachers' meeting last week?",
+              "choices": [
+                "Which teaching materials to use next semester.",
+                "How many teachers' meetings to have each week.",
+                "Who to ask for opinions about the new textbooks.",
+                "When to invite textbook sellers to suggest their books."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "来学期どの教材を使うか→正解。💡 第1段落で教師の会議の議題を読み取る。What was decided=何が決まったか",
+                "週に何回会議をするか→本文にない",
+                "誰に意見を聞くか→本文にない",
+                "いつ教科書の販売者を呼ぶか→本文にない"
+              ],
+              "questionTranslation": "先週の教師会議で何が決まりましたか？",
+              "choiceTranslations": [
+                "来学期にどの教材を使うか。",
+                "毎週何回教師会議を行うか。",
+                "新しい教科書について誰に意見を求めるか。",
+                "いつ教科書販売業者を招いて本を紹介してもらうか。"
+              ]
+            },
+            {
+              "number": 25,
+              "question": "Anastasia Jenkins says that English First",
+              "choices": [
+                "asked students to show their opinions in the survey conducted last semester.",
+                "is useful for students to exchange their ideas in business situations.",
+                "helps students learn how to write good essays and reports using academic English.",
+                "presents grammar and vocabulary in a way that is interesting to students."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "学生にアンケートで意見を求めた→本文にない",
+                "ビジネス場面での意見交換に有用→本文にない",
+                "学術英語のエッセイの書き方を教える→本文にない",
+                "文法と語彙を興味深い方法で提示→正解。💡 presents grammar in a way that is interesting=興味を引く方法。教材評価の決め手"
+              ],
+              "questionTranslation": "アナスタシア・ジェンキンスがEnglish Firstについて言っていることは",
+              "choiceTranslations": [
+                "前学期に実施した調査で生徒に意見を示すよう求めた。",
+                "ビジネスの場面で生徒が意見を交換するのに役立つ。",
+                "アカデミック英語を使ってエッセイやレポートの書き方を学ぶのに役立つ。",
+                "文法や語彙を生徒にとって興味深い方法で提示している。"
+              ]
+            },
+            {
+              "number": 26,
+              "question": "Joshua Kimura",
+              "choices": [
+                "intends to cancel the next teachers' meeting.",
+                "knows a lot about educational materials.",
+                "was hired by the school after he finished an online course.",
+                "visited the local school to fix teachers' computers."
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "次の会議をキャンセルするつもり→本文にない",
+                "教育教材に詳しい→正解。💡 knows a lot about=～に詳しい。本文での役割・専門性に注目",
+                "オンラインコース終了後に採用→本文にない",
+                "PC修理のために学校を訪問→本文にない"
+              ],
+              "questionTranslation": "ジョシュア・キムラは",
+              "choiceTranslations": [
+                "次の教師会議をキャンセルするつもりだ。",
+                "教育教材について詳しい。",
+                "オンラインコースを終えた後に学校に雇われた。",
+                "教師のコンピュータを修理するために地元の学校を訪問した。"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Diaries",
+          "paragraphs": [
+            "Although different people write diaries for different reasons, most people have probably tried writing one at least once in their lives. One of the common reasons why people keep a diary is to reduce stress. By writing down ideas and thoughts that they do not want others to hear or know, they can calm down some emotions. Writing down what they have done, especially during important events such as vacations, is also a common means to organize their memories.",
+            "Morris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
+            "His effort to record what he had done did not end there. Soon after, he started taking pictures to document his life. He attached a small camera to his shirt and set it to take a photo around him automatically every thirty seconds. The number of photos he took in a day ranged from one thousand to two thousand. Of course, most of the photos were of boring everyday things like his hand, his computer, his food, and just people walking in front of him.",
+            "However, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before."
+          ],
+          "translations": [
+            "人によって日記を書く理由はさまざまだが、ほとんどの人は人生で少なくとも一度は日記を書こうとしたことがあるだろう。日記をつける一般的な理由の一つはストレスを軽減することだ。他の人に聞かれたくない、知られたくない考えや思いを書き留めることで、感情を落ち着かせることができる。特に休暇などの重要なイベントの間にしたことを書き留めることも、記憶を整理する一般的な手段である。",
+            "スペインの科学者で教授のモリス・ビジャロエルは記憶を整理しようと試み始めた。ビジャロエルが40歳になったとき、それまでに何をしてきたかはっきりしなかった。いくつかの写真や日誌があったが、40年を説明するには十分ではなかった。80歳になったときに何を成し遂げたかを確実に知るために、日記をつけることにした。しかし、彼の日記をつけるという発想はユニークだった。15分から30分ごとに自分が何をしていて、どう感じているかを書き留め始めた。",
+            "自分がしたことを記録する努力はそこで終わらなかった。まもなく、彼は生活を記録するために写真を撮り始めた。シャツに小さなカメラを取り付け、30秒ごとに自動的に周囲の写真を撮るように設定した。1日に撮る写真の枚数は1,000枚から2,000枚に及んだ。もちろん、ほとんどの写真は手、コンピュータ、食べ物、目の前を歩く人々のような退屈な日常の写真だった。",
+            "しかし、この経験からいくつかのことを学んだ。書いたものを確認することで、いくつかのパターンを発見した。これにより、通勤中の運転中にストレスを感じることが多いことに気づいた。そのため、電車と徒歩に切り替えることにした。また、いくつかのことに気づいたので、講義を改善した。これらのことは日記がなければ忘れてしまったほど些細なことだった。詳細な人生の記録により、今は人生を明確に思い出すことができ、過去10年間は以前よりもずっと長く感じたと言っている。"
+          ],
+          "sentencePairs": [
+            [
+              "Although different people write diaries for different reasons, most people have probably tried writing one at least once in their lives.",
+              "人によって日記を書く理由はさまざまだが、ほとんどの人は人生で少なくとも一度は日記を書こうとしたことがあるだろう。",
+              "Although different people write diaries|様々な人が日記を書くが||for different reasons,|異なる理由で、||most people have probably tried|ほとんどの人はおそらく試したことがある||writing one|日記を書くことを||at least once in their lives.|人生で少なくとも一度は。",
+              "have tried"
+            ],
+            [
+              "One of the common reasons why people keep a diary is to reduce stress.",
+              "日記をつける一般的な理由の一つはストレスを軽減することだ。",
+              "One of the common reasons|一般的な理由の一つは||why people keep a diary|人々が日記を付ける||is to reduce stress.|ストレスを減らすためである。",
+              "is"
+            ],
+            [
+              "By writing down ideas and thoughts that they do not want others to hear or know, they can calm down some emotions.",
+              "他の人に聞かれたくない、知られたくない考えや思いを書き留めることで、感情を落ち着かせることができる。",
+              "By writing down|書き留めることで||ideas and thoughts|考えや思いを||that they do not want others|他の人に〜してほしくない||to hear or know,|聞いたり知ったりして、||they can calm down|落ち着けることができる||some emotions.|一部の感情を。",
+              "can calm"
+            ],
+            [
+              "Writing down what they have done, especially during important events such as vacations, is also a common means to organize their memories.",
+              "特に休暇などの重要なイベントの間にしたことを書き留めることも、記憶を整理する一般的な手段である。",
+              "Writing down what they have done,|自分がしたことを書き留めることは、||especially during important events|特に重要な出来事の間の||such as vacations,|休暇のような、||is also a common means|また一般的な手段である||to organize their memories.|記憶を整理するための。",
+              "is"
+            ],
+            [
+              "Morris Villarroel, a Spanish scientist and professor, started trying to organize his memories.",
+              "スペインの科学者で教授のモリス・ビジャロエルは記憶を整理しようと試み始めた。",
+              "Morris Villarroel,|Morris Villarroelは、||a Spanish scientist and professor,|スペインの科学者で教授で、||started trying|〜しようと始めた||to organize his memories.|記憶を整理しようと。",
+              "started"
+            ],
+            [
+              "When Villarroel turned forty, he was not sure what he had done by then.",
+              "ビジャロエルが40歳になったとき、それまでに何をしてきたかはっきりしなかった。",
+              "When Villarroel turned forty,|Villarroelが40歳になった時、||he was not sure|彼は確信がなかった||what he had done by then.|それまでに何をしてきたのかを。",
+              "was"
+            ],
+            [
+              "Even though he had some photos and journals, they were not enough to explain his forty years.",
+              "いくつかの写真や日誌があったが、40年を説明するには十分ではなかった。",
+              "Even though he had some photos|彼には写真があったにもかかわらず||and journals,|そして日誌が、||they were not enough|それらは十分ではなかった||to explain his forty years.|彼の40年間を説明するのに。",
+              "were"
+            ],
+            [
+              "To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary.",
+              "80歳になったときに何を成し遂げたかを確実に知るために、日記をつけることにした。",
+              "To make sure|確実にするために||he knows what he has accomplished|何を成し遂げたかわかるように||when he turns eighty,|80歳になった時に、||he decided to keep a diary.|彼は日記を付けることに決めた。",
+              "decided"
+            ],
+            [
+              "However, his idea of keeping a diary was unique.",
+              "しかし、彼の日記をつけるという発想はユニークだった。",
+              "However,|しかし、||his idea of keeping a diary|彼の日記を付けるという考えは||was unique.|独特だった。",
+              "was"
+            ],
+            [
+              "He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
+              "15分から30分ごとに自分が何をしていて、どう感じているかを書き留め始めた。",
+              "He started to write down|彼は書き始めた||what he was doing|自分が何をしているか||and how he was feeling|そしてどう感じているかを||every fifteen to thirty minutes.|15分から30分ごとに。",
+              "started"
+            ],
+            [
+              "His effort to record what he had done did not end there.",
+              "自分がしたことを記録する努力はそこで終わらなかった。",
+              "His effort to record|記録するための彼の努力は||what he had done|自分がしたことを||did not end there.|そこで終わらなかった。",
+              "did not end"
+            ],
+            [
+              "Soon after, he started taking pictures to document his life.",
+              "まもなく、彼は生活を記録するために写真を撮り始めた。",
+              "Soon after,|間もなく、||he started taking pictures|彼は写真を撮り始めた||to document his life.|自分の人生を記録するために。",
+              "started"
+            ],
+            [
+              "He attached a small camera to his shirt and set it to take a photo around him automatically every thirty seconds.",
+              "シャツに小さなカメラを取り付け、30秒ごとに自動的に周囲の写真を撮るように設定した。",
+              "He attached a small camera|彼は小さなカメラを取り付けた||to his shirt|シャツに||and set it|そしてそれを設定した||to take a photo around him|周囲の写真を撮るように||automatically every thirty seconds.|自動的に30秒ごとに。",
+              "attached"
+            ],
+            [
+              "The number of photos he took in a day ranged from one thousand to two thousand.",
+              "1日に撮る写真の枚数は1,000枚から2,000枚に及んだ。",
+              "The number of photos|写真の枚数は||he took in a day|彼が1日に撮った||ranged from one thousand|1000枚から||to two thousand.|2000枚の範囲だった。",
+              "ranged"
+            ],
+            [
+              "Of course, most of the photos were of boring everyday things like his hand, his computer, his food, and just people walking in front of him.",
+              "もちろん、ほとんどの写真は手、コンピュータ、食べ物、目の前を歩く人々のような退屈な日常の写真だった。",
+              "Of course,|もちろん、||most of the photos were|写真のほとんどは〜だった||of boring everyday things|退屈な日常の物の||like his hand, his computer,|手やコンピューター、||his food,|食べ物、||and just people walking in front of him.|そしてただ目の前を歩く人々の。",
+              "were"
+            ],
+            [
+              "However, he learned several things from this experience.",
+              "しかし、この経験からいくつかのことを学んだ。",
+              "However,|しかし、||he learned several things|彼はいくつかのことを学んだ||from this experience.|この経験から。",
+              "learned"
+            ],
+            [
+              "By checking what he had written, he found some patterns.",
+              "書いたものを確認することで、いくつかのパターンを発見した。",
+              "By checking|確認することで||what he had written,|自分が書いたことを、||he found some patterns.|彼はいくつかのパターンを見つけた。",
+              "found"
+            ],
+            [
+              "This allowed him to realize that he often felt stressed while driving to work.",
+              "これにより、通勤中の運転中にストレスを感じることが多いことに気づいた。",
+              "This allowed him to realize|これが彼に気づかせた||that he often felt stressed|自分がしばしばストレスを感じていたと||while driving to work.|仕事への運転中に。",
+              "allowed"
+            ],
+            [
+              "Therefore, he has decided to take the train and walk.",
+              "そのため、電車と徒歩に切り替えることにした。",
+              "Therefore,|したがって、||he has decided|彼は決めた||to take the train and walk.|電車に乗って歩くことを。",
+              "has decided"
+            ],
+            [
+              "He also noticed a few things, so he improved his lectures.",
+              "また、いくつかのことに気づいたので、講義を改善した。",
+              "He also noticed a few things,|彼はまたいくつかのことに気づき、||so he improved his lectures.|そして講義を改善した。",
+              "noticed"
+            ],
+            [
+              "These things were so minor that he could have forgotten without the diary.",
+              "これらのことは日記がなければ忘れてしまったほど些細なことだった。",
+              "These things were so minor|これらのことはあまりにも些細で||that he could have forgotten|忘れてしまっていたかもしれない||without the diary.|日記がなければ。",
+              "were"
+            ],
+            [
+              "With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
+              "詳細な人生の記録により、今は人生を明確に思い出すことができ、過去10年間は以前よりもずっと長く感じたと言っている。",
+              "With a detailed record|詳細な記録により||of his life,|自分の人生の、||he can now remember|彼は今思い出すことができる||his life clearly,|人生を鮮明に、||and he says|そして彼は言う||that the last ten years|過去10年間は||felt much longer|ずっと長く感じられたと||than the ones before.|それ以前の年月よりも。",
+              "can remember"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "question": "What is one of the common reasons people keep diaries?",
+              "choices": [
+                "To keep their thoughts organized.",
+                "To let others know about some important events.",
+                "To show them to someone they love.",
+                "To read them when they feel stressed."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "考えを整理するため→正解。💡 keep their thoughts organized=考えを整理。日記の最も一般的な目的",
+                "重要な出来事を他人に知らせる→日記は通常私的なもの",
+                "愛する人に見せるため→不適切",
+                "ストレスを感じた時に読む→本文にない"
+              ],
+              "questionTranslation": "人々が日記をつける一般的な理由の一つは何ですか？",
+              "choiceTranslations": [
+                "考えを整理するため。",
+                "重要な出来事を他の人に知らせるため。",
+                "愛する人に見せるため。",
+                "ストレスを感じた時に読むため。"
+              ]
+            },
+            {
+              "number": 28,
+              "question": "How did Morris Villarroel feel when he turned forty?",
+              "choices": [
+                "His work and pets kept him too busy.",
+                "His pictures and papers did not show enough of his past.",
+                "He always failed to keep a diary.",
+                "He was not ready to keep writing his journals as a scientist."
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "仕事とペットで忙しすぎた→不適切",
+                "写真や書類が過去を十分に示さなかった→正解。💡 40歳を迎えて過去の記録が不十分だと感じた",
+                "いつも日記を続けられなかった→不適切",
+                "科学者としてジャーナルを書く準備ができていない→不適切"
+              ],
+              "questionTranslation": "モリス・ビジャロエルは40歳になった時どう感じましたか？",
+              "choiceTranslations": [
+                "仕事とペットで忙しすぎた。",
+                "写真や書類では過去を十分に記録できていなかった。",
+                "いつも日記をつけることに失敗していた。",
+                "科学者として日誌を書き続ける準備ができていなかった。"
+              ]
+            },
+            {
+              "number": 29,
+              "question": "In his effort to keep a diary, Villarroel",
+              "choices": [
+                "realized that his life was full of small things that were not worth remembering.",
+                "took photos of himself when an important thing was happening.",
+                "began to record every detail of his life by using a camera.",
+                "made sure to take pictures of every person he met every day."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "人生が記録に値しない小さなことばかり→本文の趣旨と逆",
+                "重要なことが起きた時に自撮り→不適切",
+                "カメラで人生の全てを記録し始めた→正解。💡 began to record every detail=あらゆる詳細を記録。日記の充実化",
+                "毎日会った全ての人を撮影した→極端すぎる"
+              ],
+              "questionTranslation": "日記をつける努力の中で、ビジャロエルは",
+              "choiceTranslations": [
+                "自分の人生は覚える価値のない小さなことばかりだと気づいた。",
+                "重要なことが起きている時に自撮りを撮った。",
+                "カメラを使って生活のあらゆる詳細を記録し始めた。",
+                "毎日出会うすべての人の写真を撮るようにした。"
+              ]
+            },
+            {
+              "number": 30,
+              "question": "What did Villarroel discover through the experience of keeping a diary?",
+              "choices": [
+                "Sometimes, it is necessary to stop keeping a diary and enjoy the moment.",
+                "He can feel as if time passes more slowly by keeping a detailed record.",
+                "His memory has gotten much worse compared to before he started a diary.",
+                "Bigger life events create more emotions and feelings than smaller ones."
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "時々日記をやめてその瞬間を楽しむべき→本文にない",
+                "詳細な記録で時間がゆっくり過ぎる感覚→正解。💡 time passes more slowly=時間がゆっくり感じる。記録する→体験が豊かに",
+                "記憶力が以前より悪くなった→不適切",
+                "大きな出来事ほど多くの感情を生む→不適切"
+              ],
+              "questionTranslation": "ビジャロエルが日記をつける経験を通じて発見したことは？",
+              "choiceTranslations": [
+                "日記をやめて瞬間を楽しむ必要がある時もある。",
+                "詳細な記録をつけることで時間がゆっくり過ぎるように感じられる。",
+                "日記を始める前と比べて記憶力がかなり悪くなった。",
+                "大きな人生の出来事は小さなものより多くの感情を生み出す。"
+              ]
+            },
+            {
+              "number": 31,
+              "question": "Which of the following statements is true?",
+              "choices": [
+                "The purpose of keeping a diary for Villarroel was to improve his lectures.",
+                "It is more important to write down how people are feeling than what they are doing.",
+                "Villarroel found that his diary increased the quality of his life.",
+                "Villarroel shows that taking pictures and writing down events have different purposes."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "講義を改善するために日記を書いた→不適切",
+                "何をしているかより感じていることが重要→本文にない",
+                "日記が生活の質を向上させた→正解。💡 increased the quality of his life=生活の質向上。本文の結論に一致",
+                "写真と文章は目的が異なると示した→本文の主旨ではない"
+              ],
+              "questionTranslation": "次のうち正しい記述はどれですか？",
+              "choiceTranslations": [
+                "ビジャロエルにとって日記をつける目的は講義を改善することだった。",
+                "何をしているかよりもどう感じているかを書き留めることがより重要だ。",
+                "ビジャロエルは日記が自分の生活の質を高めたことを発見した。",
+                "ビジャロエルは写真を撮ることと出来事を書き留めることには異なる目的があることを示している。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessonPlan": {
+    "title": "2024年度 第3回 文法・読解ポイント",
+    "overview": "この回では、同格表現、仮定法・仮定的表現、使役構文(make/let/have)、動名詞と不定詞の使い分け、そしてパラフレーズの技法を学びます。",
+    "focusPoints": [
+      {
+        "id": "fp1",
+        "title": "関係代名詞 what（〜すること/もの）",
+        "subtitle": "Relative Pronoun 'What' as Noun Clause",
+        "explanation": "what = the thing(s) which/that で「〜すること/もの」を表す名詞節を作る。主語・目的語・補語のいずれにもなれる。what is called〜で「いわゆる〜」。",
+        "sourceQuote": "Nowadays, such problems are caused by what is called 'light pollution,' and it poses a challenge for almost every city in the world.",
+        "sourceLocation": "Part 2A",
+        "examples": [
+          {
+            "en": "Nowadays, such problems are caused by what is called 'light pollution.'",
+            "ja": "現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされている。",
+            "note": "what is called: 「いわゆる〜」= so-called。whatが名詞節を作る。"
+          },
+          {
+            "en": "Others find it difficult to relax.",
+            "ja": "一方で、リラックスすることが難しいと感じる人もいる。",
+            "note": "find + it(形式目的語) + difficult + to relax(真の目的語)"
+          },
+          {
+            "en": "What surprised me most was his kindness.",
+            "ja": "私が最も驚いたのは彼の優しさだった。",
+            "note": "What + V: 「〜したこと」主語としてのwhat節"
+          }
+        ],
+        "practicePassage": {
+          "en": "[出典: The Darkest Island]\nIn a city, there are lights from cars and lamps all around. Many houses have lights on, and some businesses keep their lights on all night for safety reasons. By keeping lights on, people can see the roads well and feel relieved at night. However, others find it difficult to relax. When the night is too bright, the light can disturb people's sleep. Additionally, the lives of animals are often in danger. Nowadays, such problems are caused by what is called \"light pollution,\" and it poses a challenge for almost every city in the world.",
+          "ja": "都市では、車や街灯の明かりが至る所にある。多くの家は明かりを灯し、安全上の理由から一晩中明かりをつけている企業もある。明かりをつけておくことで、人々は夜も道路をよく見ることができ、安心できる。しかし一方で、リラックスすることが難しいと感じる人もいる。夜が明るすぎると、光が人々の睡眠を妨げることがある。さらに、動物の生命がしばしば危険にさらされる。現在、このような問題はいわゆる「光害」と呼ばれるものによって引き起こされており、世界のほぼ全ての都市にとって課題となっている。",
+          "audioFile": "audio/practice_pp1.mp3"
+        },
+        "practiceQuestions": [
+          {
+            "q": "'what is called light pollution' の 'what' はどのような用法ですか？",
+            "a": "関係代名詞what。what is called = いわゆる（= so-called）。what = the thing which。名詞節として前置詞byの目的語になっている。"
+          },
+          {
+            "q": "'find it difficult to relax' の構文を分析してください。",
+            "a": "find + it(形式目的語) + difficult(C) + to relax(真の目的語)。「リラックスすることを難しいと感じる」。itはto relaxを指す。"
+          },
+          {
+            "q": "光害が引き起こす問題を3つ答えてください。",
+            "a": "①リラックスが難しくなる ②光が人々の睡眠を妨げる(disturb people's sleep) ③動物の生命が危険にさらされる(lives of animals are in danger)"
+          },
+          {
+            "q": "'it poses a challenge for almost every city' の 'it' は何を指しますか？",
+            "a": "光害(light pollution)。前文で述べられた問題の原因である光害が、世界のほぼ全ての都市にとって課題となっている。"
+          }
+        ],
+        "highlightPatterns": [
+          "what is called"
+        ],
+        "highlightColor": "#FF6B6B",
+        "highlightLabel": "関係代名詞 what"
+      },
+      {
+        "id": "fp2",
+        "title": "使役 make + it + C + to V（形式目的語構文）",
+        "subtitle": "Make with Formal Object 'It'",
+        "explanation": "make + it + 形容詞 + (for A) + to V は「(Aが)Vすることを〜にする」。itは形式目的語でto以下が真の目的語。因果関係を述べる重要構文。",
+        "sourceQuote": "A warm temperature makes it difficult for the human body to cool down.",
+        "sourceLocation": "Part 2B",
+        "examples": [
+          {
+            "en": "A warm temperature makes it difficult for the human body to cool down.",
+            "ja": "暖かい気温が、人体が冷えることを困難にする。",
+            "note": "makes + it(形式目的語) + difficult(C) + for...to V(真の目的語)"
+          },
+          {
+            "en": "It becomes difficult for people to sleep when the temperature is too warm.",
+            "ja": "気温が暖かすぎると、人々が眠ることが困難になる。",
+            "note": "It becomes + difficult + for people to sleep: 形式主語itの構文"
+          },
+          {
+            "en": "Technology has made it possible for us to communicate instantly.",
+            "ja": "テクノロジーのおかげで、私たちは即座にコミュニケーションを取ることが可能になった。",
+            "note": "has made + it(形式目的語) + possible + for us to communicate"
+          }
+        ],
+        "practicePassage": {
+          "en": "[出典: Temperature and Sleep]\nThis means the opposite is also true. It becomes difficult for people to sleep when the temperature is too warm. A warm temperature makes it difficult for the human body to cool down. In many cases, people roll over in bed on a hot summer night to try to feel more comfortable. This is their reaction to try to escape from the heat. One solution is for people to take a warm shower before going to bed. The human body's internal body temperature starts to drop after a shower.",
+          "ja": "これはその逆もまた真であることを意味する。気温が暖かすぎると、人々が眠ることが困難になる。暖かい気温が、人体が冷えることを困難にする。多くの場合、暑い夏の夜に人々はより快適に感じようとしてベッドの上で寝返りを打つ。これは暑さから逃れようとする反応である。一つの解決策は、就寝前に温かいシャワーを浴びることである。シャワーの後、人体の内部温度は下がり始める。",
+          "audioFile": "audio/practice_pp2.mp3"
+        },
+        "practiceQuestions": [
+          {
+            "q": "'makes it difficult for the human body to cool down' の構文を分析してください。",
+            "a": "makes(V) + it(形式目的語) + difficult(C) + for the human body(意味上の主語) + to cool down(真の目的語)。「人体が冷えることを困難にする」。"
+          },
+          {
+            "q": "就寝前に温かいシャワーを浴びることがなぜ解決策になるのですか？",
+            "a": "シャワーの後、人体の内部温度が下がり始めるため。体温が下がることで眠りに入りやすくなる。"
+          },
+          {
+            "q": "'This means the opposite is also true' の 'the opposite' は何を指しますか？",
+            "a": "前段落で述べた「気温が下がると眠りやすくなる」の逆、つまり「気温が高すぎると眠りにくくなる」こと。"
+          },
+          {
+            "q": "'roll over in bed' はどのような行動ですか？なぜそうするのですか？",
+            "a": "ベッドの上で寝返りを打つこと。暑さから逃れてより快適に感じようとする体の反応(reaction to try to escape from the heat)。"
+          }
+        ],
+        "highlightPatterns": [
+          "makes it difficult for the human body to cool down",
+          "It becomes difficult for people to sleep"
+        ],
+        "highlightColor": "#4ECDC4",
+        "highlightLabel": "make it C to V"
+      },
+      {
+        "id": "fp3",
+        "title": "仮定法過去完了 could have + 過去分詞",
+        "subtitle": "Past Conditional with Could Have",
+        "explanation": "could have + 過去分詞は「〜できたかもしれない/〜していたかもしれない」と過去の可能性や反事実を表す。実際にはそうならなかったことを暗示する重要表現。",
+        "sourceQuote": "These things were so minor that he could have forgotten without the diary.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "These things were so minor that he could have forgotten without the diary.",
+            "ja": "これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。",
+            "note": "so...that + could have forgotten: 結果のso thatと仮定法の組み合わせ"
+          },
+          {
+            "en": "By checking what he had written, he found some patterns.",
+            "ja": "書いたものを確認することで、いくつかのパターンを発見した。",
+            "note": "By + -ing: 手段。what he had written: 過去完了のwhat節。"
+          },
+          {
+            "en": "She could have passed the exam if she had studied harder.",
+            "ja": "もっと一生懸命勉強していたら、試験に受かっていたかもしれない。",
+            "note": "could have + pp + if + had + pp: 仮定法過去完了の典型パターン"
+          }
+        ],
+        "practicePassage": {
+          "en": "[出典: Diaries]\nHowever, he learned several things from this experience. By checking what he had written, he found some patterns. This allowed him to realize that he often felt stressed while driving to work. Therefore, he has decided to take the train and walk. He also noticed a few things, so he improved his lectures. These things were so minor that he could have forgotten without the diary. With a detailed record of his life, he can now remember his life clearly, and he says that the last ten years felt much longer than the ones before.",
+          "ja": "しかし、この経験からいくつかのことを学んだ。書いたものを確認することで、いくつかのパターンを発見した。これにより、通勤中の運転でよくストレスを感じていることに気づいた。そのため、電車に乗って歩くことにした。また、いくつかのことにも気づき、講義を改善した。これらのことはとても些細で、日記がなければ忘れてしまっていたかもしれない。人生の詳細な記録があることで、今では人生を鮮明に思い出すことができ、過去10年間は以前の年月よりもずっと長く感じると言っている。",
+          "audioFile": "audio/practice_pp3.mp3"
+        },
+        "practiceQuestions": [
+          {
+            "q": "'could have forgotten' はどのような意味ですか？",
+            "a": "「忘れてしまっていたかもしれない」。仮定法過去完了。日記がなければ（if条件の省略=without the diary）忘れていたであろうという反事実の可能性。"
+          },
+          {
+            "q": "'so minor that he could have forgotten' の 'so...that' は何を表していますか？",
+            "a": "結果のso...that。「とても些細だったので〜してしまっていたかもしれない」。程度→結果の因果関係。"
+          },
+          {
+            "q": "ビジャローエルが日記から学んだ具体的なことを2つ挙げてください。",
+            "a": "①通勤中の運転でよくストレスを感じていたこと→電車に切り替えた ②講義の改善点に気づいた→講義を改善した"
+          },
+          {
+            "q": "'the last ten years felt much longer than the ones before' はどのような意味ですか？",
+            "a": "詳細な日記の記録があるおかげで過去10年間の記憶が鮮明で、記録のない以前の年月より長く感じたということ。記憶の密度が変わった。"
+          }
+        ],
+        "highlightPatterns": [
+          "so minor that he could have forgotten without the diary"
+        ],
+        "highlightColor": "#45B7D1",
+        "highlightLabel": "could have + pp"
+      },
+      {
+        "id": "fp4",
+        "title": "譲歩の Even though + 目的の To V",
+        "subtitle": "Concession and Purpose in Complex Sentences",
+        "explanation": "Even though + S + V は「〜にもかかわらず」。To + V は文頭で「〜するために」と目的を表す。長文で論理的な逆接と目的の関係を把握するのに重要。",
+        "sourceQuote": "Even though he had some photos and journals, they were not enough to explain his forty years.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "Even though he had some photos and journals, they were not enough to explain his forty years.",
+            "ja": "写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。",
+            "note": "Even though + had(過去形): 「持っていたにもかかわらず」逆接を強調"
+          },
+          {
+            "en": "To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary.",
+            "ja": "80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。",
+            "note": "To make sure: 「確実に〜するために」目的の不定詞が文頭に"
+          },
+          {
+            "en": "Even though they tried hard, they could not finish on time.",
+            "ja": "一生懸命やったにもかかわらず、時間内に終えることができなかった。",
+            "note": "Even though: although より強い譲歩"
+          }
+        ],
+        "practicePassage": {
+          "en": "[出典: Diaries]\nMorris Villarroel, a Spanish scientist and professor, started trying to organize his memories. When Villarroel turned forty, he was not sure what he had done by then. Even though he had some photos and journals, they were not enough to explain his forty years. To make sure he knows what he has accomplished when he turns eighty, he decided to keep a diary. However, his idea of keeping a diary was unique. He started to write down what he was doing and how he was feeling every fifteen to thirty minutes.",
+          "ja": "スペイン人の科学者で教授のモリス・ビジャローエルは、自分の記憶を整理しようとし始めた。ビジャローエルが40歳になった時、それまでに何をしてきたのかよく分からなかった。写真や日誌はあったものの、それらは彼の40年間を説明するのに十分ではなかった。80歳になった時に自分が何を成し遂げたかを確実に知るために、日記をつけることにした。しかし、彼の日記のつけ方はユニークだった。15分から30分おきに、自分が何をしていて、どう感じているかを書き留め始めたのである。",
+          "audioFile": "audio/practice_pp4.mp3"
+        },
+        "practiceQuestions": [
+          {
+            "q": "'Even though he had some photos and journals, they were not enough' の 'Even though' はなぜ使われていますか？",
+            "a": "譲歩。写真や日誌があった（一定の記録はあった）にもかかわらず、40年間を説明するには不十分だったという逆接関係を示す。"
+          },
+          {
+            "q": "'To make sure he knows what he has accomplished' の構文を分析してください。",
+            "a": "To make sure(目的の不定詞) + he knows(V) + what he has accomplished(what節=目的語)。「成し遂げたことを確実に知るために」。"
+          },
+          {
+            "q": "ビジャローエルの日記のつけ方が「ユニーク」だった点は何ですか？",
+            "a": "15分から30分おきに自分が何をしていてどう感じているかを書き留めた点。通常の日記よりもはるかに高い頻度で記録。"
+          },
+          {
+            "q": "ビジャローエルが日記をつけ始めた動機は何ですか？",
+            "a": "40歳の時にそれまでの人生を振り返って何をしてきたかよく分からなかったこと。80歳になった時には成し遂げたことを確実に知りたかった。"
+          }
+        ],
+        "highlightPatterns": [
+          "Even though he had some photos and journals",
+          "To make sure he knows what he has accomplished"
+        ],
+        "highlightColor": "#96CEB4",
+        "highlightLabel": "Even though / To V"
+      },
+      {
+        "id": "fp5",
+        "title": "今回の重要なパラフレーズ",
+        "subtitle": "Key Paraphrases in This Exam",
+        "explanation": "パラフレーズとは同じ意味を異なる表現で言い換えることです。英語資格検定の読解問題では本文の表現が選択肢で言い換えられるため、パラフレーズを見抜く力が正答率を大きく左右します。",
+        "sourceQuote": "①difficult to relax ← light can disturb people's sleep\n②drive cars ← With no cars / no need for streetlights\n③In contrast ← 60,000 tourists vs population getting smaller\n④influenced by the environment ← noise, light, temperature\n⑤their body temperature low ← similar to what bears do in winter\n⑥In many cases ← people roll over in bed\n⑦Which teaching materials to use ← agreed to use two main textbooks\n⑧presents grammar in a way interesting to students ← teaches skills in stories children enjoy\n⑨knows a lot about educational materials ← you are the expert in this area\n⑩To keep their thoughts organized ← organize their memories / calm down emotions",
+        "sourceLocation": "全パート",
+        "examples": [
+          {
+            "en": "Body: \"the light can disturb people's sleep\" → Choice: \"difficult to relax\"",
+            "ja": "本文: 光が睡眠を妨げる → 選択肢: リラックスが困難",
+            "note": "disturb sleep ≒ difficult to relax"
+          },
+          {
+            "en": "Body: \"it also teaches these skills in stories that children... are more likely to enjoy\" → Choice: \"presents grammar and vocabulary in a way that is interesting to students\"",
+            "ja": "本文: 子供が楽しめる物語でスキルを教える → 選択肢: 生徒にとって興味深い方法で文法語彙を提示",
+            "note": "teaches in stories children enjoy ≒ presents in a way interesting to students"
+          },
+          {
+            "en": "Body: \"you are the expert in this area\" → Choice: \"knows a lot about educational materials\"",
+            "ja": "本文: この分野の専門家 → 選択肢: 教材について詳しい",
+            "note": "expert ≒ knows a lot"
+          }
+        ],
+        "practicePassage": {
+          "en": "[出典: The Darkest Island]\nThe people living in Sark, a small island near southern England, have done a lot to deal with this problem. They wanted to prevent their community from being bright with lights. Therefore, people cannot drive cars on the streets of Sark. With no cars, there is no need to place streetlights for safe driving. Walking and riding horses and bicycles are allowed when going somewhere. They buy lights when they really need them. However, they make sure to point lights to the ground.",
+          "ja": "イングランド南部の近くにある小さな島サークに住む人々は、光害を防ぐために多くの努力をしてきた。島では車の使用が禁止されており、歩行や馬・自転車に乗ることだけが許可されている。車がないため、街灯を設置する必要もない。住民たちはこの暗い空を地域の誇りとして守り、島は世界初の「ダークスカイ・アイランド」に認定された。",
+          "audioFile": "audio/practice_pp5.mp3"
+        },
+        "practiceQuestions": [
+          {
+            "q": "'With no cars, there is no need to place streetlights' を言い換えてください。",
+            "a": "'Since vehicles are banned, installing street lighting is unnecessary'。no cars = vehicles are banned。"
+          },
+          {
+            "q": "'Walking and riding horses and bicycles are allowed' を言い換えてください。",
+            "a": "'Traveling on foot, on horseback, or by bicycle is permitted'。walking = on foot, allowed = permitted。"
+          },
+          {
+            "q": "'done a lot to prevent light pollution' を別の表現で言い換えると？",
+            "a": "'made great efforts to reduce artificial light'。done a lot = made great efforts, prevent = reduce。"
+          },
+          {
+            "q": "サーク島が特別な理由を要約してください。",
+            "a": "車禁止で街灯不要。住民が光害防止に尽力。世界初のダークスカイ・アイランドに認定。"
+          }
+        ],
+        "highlightPatterns": [
+          "no cars",
+          "no need to place",
+          "Walking and riding"
+        ],
+        "highlightColor": "#f59e0b",
+        "highlightLabel": "パラフレーズ"
+      }
+    ]
+  }
 }

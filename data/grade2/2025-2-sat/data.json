@@ -1,1777 +1,2075 @@
 {
-    "grade": "2級",
-    "year": "2025",
-    "session": "2-sat",
-    "title": "2025年度 第2回（準会場）英語資格検定2級 リーディング",
-    "vocabulary": [
-        {
-            "word": "consequence",
-            "meaning": "結果",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "As a consequence, there are long waiting times.",
-            "distractors": [
-                "原因",
-                "理由",
-                "結論"
-            ],
-            "wordAudio": "audio/vocab/w_001_consequence.mp3"
-        },
-        {
-            "word": "frankly",
-            "meaning": "率直に言って",
-            "pos": "副詞",
-            "level": "2級",
-            "example": "Frankly, I'm not surprised.",
-            "distractors": [
-                "二重に",
-                "重く",
-                "主に"
-            ],
-            "wordAudio": "audio/vocab/w_002_frankly.mp3"
-        },
-        {
-            "word": "ripe",
-            "meaning": "熟した",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Fruits change color when they are ripe.",
-            "distractors": [
-                "便利な",
-                "めまいがする",
-                "狭い"
-            ],
-            "wordAudio": "audio/vocab/w_003_ripe.mp3"
-        },
-        {
-            "word": "surround",
-            "meaning": "囲む",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "She wanted to be surrounded by nature.",
-            "distractors": [
-                "追求する",
-                "再開する",
-                "悩ます"
-            ],
-            "wordAudio": "audio/vocab/w_004_surround.mp3"
-        },
-        {
-            "word": "witness",
-            "meaning": "目撃する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The accident was witnessed by many people.",
-            "distractors": [
-                "伝える",
-                "予約する",
-                "扱う"
-            ],
-            "wordAudio": "audio/vocab/w_005_witness.mp3"
-        },
-        {
-            "word": "cough",
-            "meaning": "咳をする",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Tim started coughing during his speech.",
-            "distractors": [
-                "汗をかく",
-                "消える",
-                "声を出す"
-            ],
-            "wordAudio": "audio/vocab/w_006_cough.mp3"
-        },
-        {
-            "word": "tribe",
-            "meaning": "部族",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The Sioux and Cherokee are examples of Native American tribes.",
-            "distractors": [
-                "リゾート",
-                "歯車",
-                "負担"
-            ],
-            "wordAudio": "audio/vocab/w_007_tribe.mp3"
-        },
-        {
-            "word": "negotiate",
-            "meaning": "交渉する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "We need to negotiate better prices.",
-            "distractors": [
-                "崇拝する",
-                "再生する",
-                "散らす"
-            ],
-            "wordAudio": "audio/vocab/w_008_negotiate.mp3"
-        },
-        {
-            "word": "pavement",
-            "meaning": "舗道",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "She hit the pavement pretty hard.",
-            "distractors": [
-                "化石",
-                "毛布",
-                "滑り台"
-            ],
-            "wordAudio": "audio/vocab/w_009_pavement.mp3"
-        },
-        {
-            "word": "promotion",
-            "meaning": "昇進",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "His hard work led to a promotion.",
-            "distractors": [
-                "建設",
-                "反射",
-                "犠牲"
-            ],
-            "wordAudio": "audio/vocab/w_010_promotion.mp3"
-        },
-        {
-            "word": "make time",
-            "meaning": "時間を作る",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "She always tries to make time for her friends.",
-            "distractors": [
-                "薄れる",
-                "設置する",
-                "脇に置く"
-            ],
-            "wordAudio": "audio/vocab/w_011_make_time.mp3"
-        },
-        {
-            "word": "pay well",
-            "meaning": "給料が良い",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "His company does not pay well.",
-            "distractors": [
-                "見つけ出す",
-                "経験する",
-                "集まる"
-            ],
-            "wordAudio": "audio/vocab/w_012_pay_well.mp3"
-        },
-        {
-            "word": "cut down",
-            "meaning": "減らす",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "He decided to cut down on smoking.",
-            "distractors": [
-                "置き去りにする",
-                "声を上げる",
-                "現れる"
-            ],
-            "wordAudio": "audio/vocab/w_013_cut_down.mp3"
-        },
-        {
-            "word": "go by",
-            "meaning": "立ち寄る",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "Do you ever go by our old high school?",
-            "distractors": [
-                "取れる",
-                "離陸する",
-                "偶然出会う"
-            ],
-            "wordAudio": "audio/vocab/w_014_go_by.mp3"
-        },
-        {
-            "word": "disagree on",
-            "meaning": "～について意見が合わない",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "What are you disagreeing on this time?",
-            "distractors": [
-                "従事する",
-                "困惑させる",
-                "こぼす"
-            ],
-            "wordAudio": "audio/vocab/w_015_disagree_on.mp3"
-        },
-        {
-            "word": "take one's place",
-            "meaning": "後任になる",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "Mr. Smith took her place as head of the department.",
-            "distractors": [
-                "注意を払う",
-                "道を作る",
-                "怒る"
-            ],
-            "wordAudio": "audio/vocab/w_016_take_one_s_place.mp3"
-        },
-        {
-            "word": "make off",
-            "meaning": "逃げる",
-            "pos": "イディオム",
-            "level": "2級",
-            "example": "The thieves tried to make off with a bag of money.",
-            "distractors": [
-                "我慢する",
-                "ついていく",
-                "遊ぶ"
-            ],
-            "wordAudio": "audio/vocab/w_017_make_off.mp3"
-        },
-        {
-            "word": "plankton",
-            "meaning": "プランクトン",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Plankton are the food of bowhead whales.",
-            "distractors": [
-                "海藻",
-                "サンゴ",
-                "甲殻類"
-            ],
-            "wordAudio": "audio/vocab/w_018_plankton.mp3"
-        },
-        {
-            "word": "ingredient",
-            "meaning": "材料",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Different ingredients are placed on top of bread.",
-            "distractors": [
-                "器具",
-                "容器",
-                "調味料"
-            ],
-            "wordAudio": "audio/vocab/w_019_ingredient.mp3"
-        },
-        {
-            "word": "amenity",
-            "meaning": "設備",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Different housing units have different amenities.",
-            "distractors": [
-                "家賃",
-                "保証金",
-                "契約"
-            ],
-            "wordAudio": "audio/vocab/w_020_amenity.mp3"
-        },
-        {
-            "word": "spacecraft",
-            "meaning": "宇宙船",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "A NASA spacecraft flew near Mars.",
-            "distractors": [
-                "望遠鏡",
-                "衛星",
-                "ロケット"
-            ],
-            "wordAudio": "audio/vocab/w_021_spacecraft.mp3"
-        },
-        {
-            "word": "parachute",
-            "meaning": "パラシュート",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "They sent the spacecraft with a parachute.",
-            "distractors": [
-                "気球",
-                "グライダー",
-                "翼"
-            ],
-            "wordAudio": "audio/vocab/w_022_parachute.mp3"
-        },
-        {
-            "word": "cushion",
-            "meaning": "クッション",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Air would perform as a cushion to slow down.",
-            "distractors": [
-                "枕",
-                "マット",
-                "バネ"
-            ],
-            "wordAudio": "audio/vocab/w_023_cushion.mp3"
-        },
-        {
-            "word": "telescope",
-            "meaning": "望遠鏡",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Galileo looked at Mars using his handmade telescope.",
-            "distractors": [
-                "顕微鏡",
-                "双眼鏡",
-                "レンズ"
-            ],
-            "wordAudio": "audio/vocab/w_024_telescope.mp3"
-        },
-        {
-            "word": "Arctic",
-            "meaning": "北極の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Bowhead whales live in the Arctic Ocean.",
-            "distractors": [
-                "南極の",
-                "熱帯の",
-                "温帯の"
-            ],
-            "wordAudio": "audio/vocab/w_025_Arctic.mp3"
-        },
-        {
-            "word": "frigid",
-            "meaning": "極寒の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Animals survive in frigid ocean waters.",
-            "distractors": [
-                "温暖な",
-                "乾燥した",
-                "湿った"
-            ],
-            "wordAudio": "audio/vocab/w_026_frigid.mp3"
-        },
-        {
-            "word": "antifreeze",
-            "meaning": "不凍液",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Some fish produce a natural antifreeze protein.",
-            "distractors": [
-                "冷却液",
-                "潤滑油",
-                "溶剤"
-            ],
-            "wordAudio": "audio/vocab/w_027_antifreeze.mp3"
-        },
-        {
-            "word": "blubber",
-            "meaning": "脂肪層",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Whales have a thick layer of blubber to stay warm.",
-            "distractors": [
-                "毛皮",
-                "鱗",
-                "甲羅"
-            ],
-            "wordAudio": "audio/vocab/w_028_blubber.mp3"
-        },
-        {
-            "word": "insulate",
-            "meaning": "断熱する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "The thick fur helps insulate the animal from the cold.",
-            "distractors": [
-                "冷やす",
-                "濡らす",
-                "溶かす"
-            ],
-            "wordAudio": "audio/vocab/w_029_insulate.mp3"
-        },
-        {
-            "word": "adaptation",
-            "meaning": "適応",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "These animals show remarkable adaptations to cold environments.",
-            "distractors": [
-                "進化",
-                "変異",
-                "退化"
-            ],
-            "wordAudio": "audio/vocab/w_030_adaptation.mp3"
-        },
-        {
-            "word": "marine",
-            "meaning": "海洋の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Marine animals face unique challenges in cold waters.",
-            "distractors": [
-                "陸上の",
-                "淡水の",
-                "空中の"
-            ],
-            "wordAudio": "audio/vocab/w_031_marine.mp3"
-        },
-        {
-            "word": "circulation",
-            "meaning": "循環",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Special blood circulation keeps their body temperature stable.",
-            "distractors": [
-                "消化",
-                "呼吸",
-                "排泄"
-            ],
-            "wordAudio": "audio/vocab/w_032_circulation.mp3"
-        },
-        {
-            "word": "cuisine",
-            "meaning": "料理",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Danish cuisine features many open-faced sandwiches.",
-            "distractors": [
-                "文化",
-                "芸術",
-                "音楽"
-            ],
-            "wordAudio": "audio/vocab/w_033_cuisine.mp3"
-        },
-        {
-            "word": "topping",
-            "meaning": "トッピング",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Each sandwich has a different topping.",
-            "distractors": [
-                "底",
-                "側面",
-                "中身"
-            ],
-            "wordAudio": "audio/vocab/w_034_topping.mp3"
-        },
-        {
-            "word": "preserve",
-            "meaning": "保存する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Salt was used to preserve fish for the winter.",
-            "distractors": [
-                "調理する",
-                "味付けする",
-                "包む"
-            ],
-            "wordAudio": "audio/vocab/w_035_preserve.mp3"
-        },
-        {
-            "word": "tradition",
-            "meaning": "伝統",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "This food tradition dates back hundreds of years.",
-            "distractors": [
-                "革新",
-                "実験",
-                "流行"
-            ],
-            "wordAudio": "audio/vocab/w_036_tradition.mp3"
-        },
-        {
-            "word": "portion",
-            "meaning": "一人前",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Each portion is carefully prepared.",
-            "distractors": [
-                "全体",
-                "半分",
-                "残り"
-            ],
-            "wordAudio": "audio/vocab/w_037_portion.mp3"
-        },
-        {
-            "word": "landlord",
-            "meaning": "家主",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The landlord is responsible for maintenance.",
-            "distractors": [
-                "借主",
-                "仲介者",
-                "管理人"
-            ],
-            "wordAudio": "audio/vocab/w_038_landlord.mp3"
-        },
-        {
-            "word": "lease",
-            "meaning": "賃貸契約",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The lease is for a minimum of one year.",
-            "distractors": [
-                "売買",
-                "購入",
-                "所有"
-            ],
-            "wordAudio": "audio/vocab/w_039_lease.mp3"
-        },
-        {
-            "word": "utilities",
-            "meaning": "光熱費",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Utilities such as water and electricity are included.",
-            "distractors": [
-                "家賃",
-                "保証金",
-                "手数料"
-            ],
-            "wordAudio": "audio/vocab/w_040_utilities.mp3"
-        },
-        {
-            "word": "furnished",
-            "meaning": "家具付きの",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "The apartment comes fully furnished.",
-            "distractors": [
-                "空の",
-                "改装された",
-                "新築の"
-            ],
-            "wordAudio": "audio/vocab/w_041_furnished.mp3"
-        },
-        {
-            "word": "rover",
-            "meaning": "探査車",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "NASA sent a rover to explore the surface of Mars.",
-            "distractors": [
-                "衛星",
-                "ロケット",
-                "宇宙船"
-            ],
-            "wordAudio": "audio/vocab/w_042_rover.mp3"
-        },
-        {
-            "word": "atmosphere",
-            "meaning": "大気",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Mars has a very thin atmosphere.",
-            "distractors": [
-                "表面",
-                "核",
-                "磁場"
-            ],
-            "wordAudio": "audio/vocab/w_043_atmosphere.mp3"
-        },
-        {
-            "word": "habitat",
-            "meaning": "居住地",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Scientists are designing habitats for future Mars colonists.",
-            "distractors": [
-                "実験室",
-                "基地",
-                "工場"
-            ],
-            "wordAudio": "audio/vocab/w_044_habitat.mp3"
-        },
-        {
-            "word": "radiation",
-            "meaning": "放射線",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "Astronauts need protection from harmful radiation.",
-            "distractors": [
-                "重力",
-                "気圧",
-                "温度"
-            ],
-            "wordAudio": "audio/vocab/w_045_radiation.mp3"
-        },
-        {
-            "word": "geological",
-            "meaning": "地質学の",
-            "pos": "形容詞",
-            "level": "2級",
-            "example": "Geological surveys revealed ancient river beds on Mars.",
-            "distractors": [
-                "天文学の",
-                "生物学の",
-                "化学の"
-            ],
-            "wordAudio": "audio/vocab/w_046_geological.mp3"
-        },
-        {
-            "word": "colonize",
-            "meaning": "植民地化する",
-            "pos": "動詞",
-            "level": "2級",
-            "example": "Humans may colonize Mars in the future.",
-            "distractors": [
-                "探検する",
-                "破壊する",
-                "離れる"
-            ],
-            "wordAudio": "audio/vocab/w_047_colonize.mp3"
-        },
-        {
-            "word": "orbit",
-            "meaning": "軌道",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The spacecraft entered Mars orbit successfully.",
-            "distractors": [
-                "大気",
-                "表面",
-                "地下"
-            ],
-            "wordAudio": "audio/vocab/w_048_orbit.mp3"
-        },
-        {
-            "word": "sample",
-            "meaning": "サンプル",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The rover collected rock samples from the surface.",
-            "distractors": [
-                "写真",
-                "データ",
-                "信号"
-            ],
-            "wordAudio": "audio/vocab/w_049_sample.mp3"
-        },
-        {
-            "word": "terrain",
-            "meaning": "地形",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The Mars terrain is rocky and dry.",
-            "distractors": [
-                "気候",
-                "天気",
-                "季節"
-            ],
-            "wordAudio": "audio/vocab/w_050_terrain.mp3"
-        },
-        {
-            "word": "expedition",
-            "meaning": "探検",
-            "pos": "名詞",
-            "level": "2級",
-            "example": "The Mars expedition is planned for the near future.",
-            "distractors": [
-                "観光",
-                "移住",
-                "帰還"
-            ],
-            "wordAudio": "audio/vocab/w_051_expedition.mp3"
-        }
-    ],
-    "sections": [
-        {
-            "name": "大問1",
-            "nameEn": "Part 1",
-            "type": "vocabulary",
-            "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "questions": [
-                {
-                    "number": 1,
-                    "text": "There are not enough doctors and nurses in some areas of the country, and ( 1 ) a consequence, there are long waiting times at many hospitals and clinics.",
-                    "translation": "国の一部の地域では医師や看護師が十分ではなく、( 1 )結果、多くの病院やクリニックで長い待ち時間が生じている。",
-                    "choices": [
-                        "with",
-                        "as",
-                        "from",
-                        "to"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "with a consequence→不自然な表現",
-                        "as a consequence=結果として→正解。💡 as a consequence=as a result。頻出のイディオム",
-                        "from a consequence→不自然な表現",
-                        "to a consequence→不自然な表現"
-                    ]
-                },
-                {
-                    "number": 2,
-                    "text": "A : I heard that the boss chose Julie instead of Tim to be the new manager of the sales team.\nB : ( 2 ), I'm not surprised. I don't think Tim has enough experience to be a manager.",
-                    "translation": "A：ボスがティムではなくジュリーを営業チームの新マネージャーに選んだと聞いたよ。\nB：( 2 )、驚かないよ。ティムにはマネージャーになるだけの経験が十分にないと思う。",
-                    "choices": [
-                        "Doubly",
-                        "Heavily",
-                        "Mainly",
-                        "Frankly"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "Doubly=二重に→文脈に不適切",
-                        "Heavily=重く→不適切",
-                        "Mainly=主に→不適切",
-                        "Frankly=率直に言って→正解。💡 Frankly, I'm not surprised=率直に言って驚かない。意見を直接述べる表現"
-                    ]
-                },
-                {
-                    "number": 3,
-                    "text": "Many fruits and vegetables change color when they are ( 3 ). This helps humans and other animals know when they are ready to eat.",
-                    "translation": "多くの果物や野菜は( 3 )と色が変わる。これにより人間や他の動物は食べ頃がわかる。",
-                    "choices": [
-                        "handy",
-                        "dizzy",
-                        "ripe",
-                        "narrow"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "handy=便利な→色の変化に不適切",
-                        "dizzy=めまいがする→不適切",
-                        "ripe=熟した→正解。💡 change color when ripe=熟すと色が変わる。ready to eat=食べ頃がヒント",
-                        "narrow=狭い→不適切"
-                    ]
-                },
-                {
-                    "number": 4,
-                    "text": "Abigail decided to move to the countryside because she wanted to be ( 4 ) by nature. She loves seeing the plants and animals that live around her new home.",
-                    "translation": "アビゲイルは( 4 )たかったので田舎に引っ越すことにした。新居の周りに住む植物や動物を見るのが大好きだ。",
-                    "choices": [
-                        "pursued",
-                        "resumed",
-                        "surrounded",
-                        "bothered"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "pursued=追求された→受身で不自然",
-                        "resumed=再開された→不適切",
-                        "surrounded=囲まれた→正解。💡 be surrounded by nature=自然に囲まれる。countryside+plants and animalsがヒント",
-                        "bothered=悩まされた→自然に悩まされるでは文脈に合わない"
-                    ]
-                },
-                {
-                    "number": 5,
-                    "text": "The accident happened on a busy shopping street in the middle of the day. As a result, it was ( 5 ) by quite a few people.",
-                    "translation": "事故は日中の繁華な商店街で起きた。その結果、かなりの人々に( 5 )された。",
-                    "choices": [
-                        "conveyed",
-                        "reserved",
-                        "handled",
-                        "witnessed"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "conveyed=伝えられた→事故の文脈に不適切",
-                        "reserved=予約された→不適切",
-                        "handled=扱われた→不適切",
-                        "witnessed=目撃された→正解。💡 busy street + middle of the day=多くの人が見ていた→witnessed(目撃された)"
-                    ]
-                },
-                {
-                    "number": 6,
-                    "text": "Tim started ( 6 ) during his speech because his throat was dry. He decided to drink some water before continuing to speak.",
-                    "translation": "ティムはスピーチ中に喉が乾いたので( 6 )し始めた。話し続ける前に水を飲むことにした。",
-                    "choices": [
-                        "sweating",
-                        "coughing",
-                        "vanishing",
-                        "voicing"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "sweating=汗をかく→喉の乾きから直接つながらない",
-                        "coughing=咳をする→正解。💡 throat was dry→coughing(咳)。喉の乾き→咳→水を飲むの流れ",
-                        "vanishing=消える→不適切",
-                        "voicing=声を出す→不適切"
-                    ]
-                },
-                {
-                    "number": 7,
-                    "text": "The Sioux, Cherokee, and Apache are examples of Native American ( 7 ). These large groups each developed their own languages, customs, and cultures.",
-                    "translation": "スー族、チェロキー族、アパッチ族はネイティブアメリカンの( 7 )の例だ。これらの大きな集団はそれぞれ独自の言語、慣習、文化を発達させた。",
-                    "choices": [
-                        "resorts",
-                        "gears",
-                        "tribes",
-                        "burdens"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "resorts=リゾート→民族集団に不適切",
-                        "gears=歯車→不適切",
-                        "tribes=部族→正解。💡 large groups + languages, customs, cultures=tribes(部族)",
-                        "burdens=負担→不適切"
-                    ]
-                },
-                {
-                    "number": 8,
-                    "text": "A : Did you hear about the new contract with the supplier?\nB : Yes, we need to ( 8 ) better prices. They're charging us too much.",
-                    "translation": "A：サプライヤーとの新しい契約について聞いた？\nB：うん、もっと良い価格を( 8 )する必要がある。彼らの請求は高すぎる。",
-                    "choices": [
-                        "worship",
-                        "reproduce",
-                        "negotiate",
-                        "scatter"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "worship=崇拝する→価格の文脈に不適切",
-                        "reproduce=再生する→不適切",
-                        "negotiate=交渉する→正解。💡 negotiate better prices=より良い価格を交渉する。charging too much→negotiate",
-                        "scatter=散らす→不適切"
-                    ]
-                },
-                {
-                    "number": 9,
-                    "text": "A : Patricia, what happened to your elbow? Are you all right?\nB : Oh, I fell off my bike and hit the ( 9 ) pretty hard. But I'll be fine.",
-                    "translation": "A：パトリシア、肘どうしたの？大丈夫？\nB：ああ、自転車から落ちて( 9 )にかなり強くぶつかったの。でも大丈夫よ。",
-                    "choices": [
-                        "fossil",
-                        "pavement",
-                        "blanket",
-                        "slide"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "fossil=化石→転倒の文脈に不適切",
-                        "pavement=舗道→正解。💡 fell off bike + hit the pavement=自転車から落ちて舗道にぶつかった",
-                        "blanket=毛布→不適切",
-                        "slide=滑り台→不適切"
-                    ]
-                },
-                {
-                    "number": 10,
-                    "text": "Richard's hard work at his company led to a ( 10 ). He is now the head of the sales department.",
-                    "translation": "リチャードの会社での努力は( 10 )につながった。彼は現在営業部の部長だ。",
-                    "choices": [
-                        "construction",
-                        "reflection",
-                        "promotion",
-                        "sacrifice"
-                    ],
-                    "answer": 3,
-                    "choiceAnalysis": [
-                        "construction=建設→昇進の文脈に不適切",
-                        "reflection=反射→不適切",
-                        "promotion=昇進→正解。💡 hard work→promotion(昇進)→head of department。努力→昇進の典型パターン",
-                        "sacrifice=犠牲→不適切"
-                    ]
-                },
-                {
-                    "number": 11,
-                    "text": "Rebecca has a very busy schedule, but she always tries to ( 11 ) for her friends and family.",
-                    "translation": "レベッカはとても忙しいスケジュールだが、友人や家族のために( 11 )ようにしている。",
-                    "choices": [
-                        "make time",
-                        "fade away",
-                        "set up",
-                        "put aside"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "make time=時間を作る→正解。💡 busy schedule + but + for friends and family=忙しいけど時間を作る",
-                        "fade away=薄れる→不適切",
-                        "set up=設置する→不適切",
-                        "put aside=脇に置く→不適切"
-                    ]
-                },
-                {
-                    "number": 12,
-                    "text": "Although Richard likes his colleagues so much and enjoys his job as an engineer, his company does not ( 12 ). Now, he is thinking about finding a new company which provides a better salary.",
-                    "translation": "リチャードは同僚がとても好きでエンジニアの仕事も楽しんでいるが、会社は( 12 )。今、より良い給料の新しい会社を探すことを考えている。",
-                    "choices": [
-                        "find out",
-                        "go through",
-                        "get together",
-                        "pay well"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "find out=見つけ出す→不適切",
-                        "go through=経験する→不適切",
-                        "get together=集まる→不適切",
-                        "pay well=給料が良い→正解。💡 better salary=良い給料を求めている→does not pay well(給料が良くない)"
-                    ]
-                },
-                {
-                    "number": 13,
-                    "text": "Many people say that smoking is bad for one's health. Because of this, Greg decided to ( 13 ) on smoking. He is trying to only smoke half a pack a day.",
-                    "translation": "多くの人が喫煙は健康に悪いと言う。このためグレッグは喫煙を( 13 )することにした。1日に半箱だけ吸うようにしている。",
-                    "choices": [
-                        "cut down",
-                        "leave behind",
-                        "speak up",
-                        "show up"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "cut down=減らす→正解。💡 cut down on=～を減らす。half a pack=半箱=完全に止めずに減らす",
-                        "leave behind=置き去りにする→不適切",
-                        "speak up=声を上げる→不適切",
-                        "show up=現れる→不適切"
-                    ]
-                },
-                {
-                    "number": 14,
-                    "text": "A : Do you ever ( 14 ) our old high school?\nB : No, not very often because I moved out of town to attend university.",
-                    "translation": "A：昔の高校に( 14 )ことある？\nB：いや、あまりないよ。大学に行くために町を出たから。",
-                    "choices": [
-                        "come off",
-                        "take off",
-                        "come across",
-                        "go by"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "come off=取れる→不適切",
-                        "take off=離陸する→不適切",
-                        "come across=偶然出会う→場所に使いにくい",
-                        "go by=立ち寄る→正解。💡 go by=立ち寄る・通りかかる。moved out of town→not very often go by"
-                    ]
-                },
-                {
-                    "number": 15,
-                    "text": "A : What are you and your brother ( 15 ) this time?\nB : He wants to go to a rock concert for his birthday, but I want to go to a musical.",
-                    "translation": "A：今回あなたとお兄さんは何について( 15 )の？\nB：彼は誕生日にロックコンサートに行きたいけど、私はミュージカルに行きたいの。",
-                    "choices": [
-                        "engaging in",
-                        "confusing by",
-                        "spilling on",
-                        "disagreeing on"
-                    ],
-                    "answer": 4,
-                    "choiceAnalysis": [
-                        "engaging in=従事する→意見の対立に不適切",
-                        "confusing by→文法的に不自然",
-                        "spilling on=こぼす→不適切",
-                        "disagreeing on=～について意見が合わない→正解。💡 rock concert vs musical=意見の不一致→disagreeing on"
-                    ]
-                },
-                {
-                    "number": 16,
-                    "text": "When Ms. Johnson retired, Mr. Smith ( 16 ) as the head of the sales department. He had been working in that department for ten years.",
-                    "translation": "ジョンソンさんが退職したとき、スミス氏が営業部の部長として( 16 )。彼はその部門で10年間働いていた。",
-                    "choices": [
-                        "took her place",
-                        "gave her attention",
-                        "made her way",
-                        "lost her temper"
-                    ],
-                    "answer": 1,
-                    "choiceAnalysis": [
-                        "took her place=彼女の後任になった→正解。💡 retired→took her place=退職→後任。10年の経験があるので自然",
-                        "gave her attention=注意を払った→不適切",
-                        "made her way=道を切り開いた→不適切",
-                        "lost her temper=怒った→不適切"
-                    ]
-                },
-                {
-                    "number": 17,
-                    "text": "The two thieves tried to ( 17 ) with a bag of money, but a security guard stopped them. They ended up escaping without taking the money.",
-                    "translation": "2人の泥棒は金の入ったバッグを持って( 17 )ようとしたが、警備員に止められた。結局お金を取らずに逃げた。",
-                    "choices": [
-                        "put up",
-                        "make off",
-                        "keep up",
-                        "hang out"
-                    ],
-                    "answer": 2,
-                    "choiceAnalysis": [
-                        "put up=我慢する→不適切",
-                        "make off=逃げる→正解。💡 make off with=～を持ち逃げする。thieves + bag of money=持ち逃げ",
-                        "keep up=ついていく→不適切",
-                        "hang out=遊ぶ→不適切"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問2",
-            "nameEn": "Part 2",
-            "type": "passage-fill",
-            "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Animals in the Cold Sea",
-                    "paragraphs": [
-                        "Bowhead whales live in the Arctic Ocean. Its water is very cold. To stay warm in the cold water, they have thick skin and fat under it. Their head is so big that it sometimes covers one-third of their body. This large head is critical for taking in air while they swim in the cold sea. They use their head to ( 18 ). Otherwise, they could not push their heads out of the water.",
-                        "Plankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea. They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food. Plankton start to move up in the afternoon. They stay near the surface of the ocean at night. By doing so, they can ( 19 ) easily while avoiding being eaten by fish. They eat other even smaller creatures that float around there.",
-                        "The diving patterns of bowhead whales had not been clear. New research showed they followed a special diving cycle. Experts found they dived deeper in the afternoon. This allows them to catch plankton that move up in groups. They can open their big mouth while they dive down and eat many plankton at once. ( 20 ), the researchers discovered two whales diving at the same time, even when they were one hundred kilometers apart. This shows the possibility that they communicate with sound through the water."
-                    ],
-                    "translations": [
-                        "ホッキョククジラは北極海に生息する。水は非常に冷たい。冷たい水で暖かくいるために、厚い皮膚とその下に脂肪を持つ。頭が非常に大きく、体の3分の1を占めることもある。この大きな頭は冷たい海を泳ぎながら空気を取り入れるために重要だ。彼らは頭を使って( 18 )。そうでなければ水面から頭を出すことができない。",
-                        "プランクトンはホッキョククジラの餌となる海中の小さな生物で、海中を上下に移動する。日中は視覚に頼って餌を見つける魚に捕まらないよう、海の深い部分にとどまる。午後になるとプランクトンは上に移動し始め、夜は海面付近にとどまる。こうすることで、魚に食べられるのを避けながら( 19 )できる。そこに浮かぶさらに小さな生物を食べる。",
-                        "ホッキョククジラの潜水パターンは明らかではなかった。新しい研究により特別な潜水サイクルに従っていることがわかった。専門家は午後により深く潜ることを発見した。これにより集団で上昇するプランクトンを捕まえられる。潜水しながら大きな口を開けて多くのプランクトンを一度に食べることができる。( 20 )、研究者たちは100キロメートル離れていても2頭のクジラが同時に潜水していることを発見した。これは水中で音を通じてコミュニケーションしている可能性を示している。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Bowhead whales live in the Arctic Ocean.",
-                            "ホッキョククジラは北極海に生息する。"
-                        ],
-                        [
-                            "Their head is so big that it sometimes covers one-third of their body.",
-                            "頭が非常に大きく、体の3分の1を占めることもある。"
-                        ],
-                        [
-                            "They use their head to ( 18 ).",
-                            "彼らは頭を使って( 18 )。"
-                        ],
-                        [
-                            "Plankton, small creatures living in the ocean, move up and down in the sea.",
-                            "プランクトンは海中を上下に移動する小さな生物だ。"
-                        ],
-                        [
-                            "They stay in the deeper parts of the ocean during the day to avoid being caught by fish.",
-                            "日中は魚に捕まらないよう海の深い部分にとどまる。"
-                        ],
-                        [
-                            "New research showed they followed a special diving cycle.",
-                            "新しい研究により特別な潜水サイクルに従っていることがわかった。"
-                        ],
-                        [
-                            "Experts found they dived deeper in the afternoon.",
-                            "専門家は午後により深く潜ることを発見した。"
-                        ],
-                        [
-                            "The researchers discovered two whales diving at the same time, even when they were one hundred kilometers apart.",
-                            "研究者たちは100キロ離れていても2頭のクジラが同時に潜水していることを発見した。"
-                        ],
-                        [
-                            "This shows the possibility that they communicate with sound through the water.",
-                            "これは水中で音を通じてコミュニケーションしている可能性を示している。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 18,
-                            "choices": [
-                                "look stronger than other whales",
-                                "break through thick ice to breathe",
-                                "eat large animals with fins",
-                                "attack dangerous sharks"
-                            ],
-                            "answer": 2,
-                            "choiceAnalysis": [
-                                "他のクジラより強く見える→頭の機能の説明に不適切",
-                                "厚い氷を割って呼吸する→正解。💡 push heads out of water=水面から頭を出す→北極海では氷を割る必要がある",
-                                "ヒレのある大きな動物を食べる→プランクトンが餌",
-                                "危険なサメを攻撃する→本文にない"
-                            ]
-                        },
-                        {
-                            "number": 19,
-                            "choices": [
-                                "find their food source",
-                                "swim across the ocean",
-                                "dive to the bottom",
-                                "get light from the moon"
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "餌源を見つける→正解。💡 float around there=そこに浮かぶ小さな生物を食べる=food sourceを見つける",
-                                "海を横断する→不適切",
-                                "海底に潜る→上に移動するので矛盾",
-                                "月の光を得る→本文にない"
-                            ]
-                        },
-                        {
-                            "number": 20,
-                            "choices": [
-                                "At least",
-                                "Thus",
-                                "Interestingly",
-                                "To put it simply"
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "少なくとも→驚くべき発見の導入に不適切",
-                                "したがって→因果関係ではなく追加の興味深い発見",
-                                "興味深いことに→正解。💡 2頭が100km離れて同時に潜水=驚くべき追加発見→Interestingly",
-                                "簡単に言えば→要約ではなく新発見"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "Smørrebrød",
-                    "paragraphs": [
-                        "Food is like a mirror that reflects cultures. If people look at the food of a country or a region, they are more likely to understand the community, what people like, and how people live. The ingredients and how they are cooked and eaten show the lifestyles of the people. This is probably why many people like to enjoy local food when they travel. ( 21 ), when travelers skip local food, they often miss out on a deeper cultural experience and end up with only a limited understanding of the culture.",
-                        "One such food that travelers should not miss out on in Denmark is Smørrebrød. This is because this food expresses the culture and lifestyle of Denmark. It is an open sandwich with different ingredients placed on top of a slice of bread. ( 22 ). As most people were involved in farming in the nineteenth century, they put the food from last night's dinner on a slice of bread and brought it to the farm to eat while working.",
-                        "The Industrial Revolution helped Smørrebrød spread all over Denmark. Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient. At first, people gave the bread to animals. Later, they ( 23 ), soaked with juice from the toppings. This led to the spread of the idea that the bread was not just a plate but part of the food itself. From then on, Smørrebrød was recognized as an open sandwich."
-                    ],
-                    "translations": [
-                        "食べ物は文化を映す鏡のようなものだ。ある国や地域の食べ物を見れば、コミュニティ、人々の好み、生活様式をより理解しやすくなる。材料やその調理法・食べ方は人々のライフスタイルを示す。旅行先で地元の料理を楽しむ人が多いのはおそらくこのためだ。( 21 )、旅行者が地元料理を食べないと、より深い文化体験を逃し、文化の限られた理解しか得られないことが多い。",
-                        "デンマークで旅行者が見逃すべきでない料理の一つがスモーブローだ。この料理がデンマークの文化とライフスタイルを表現しているからだ。パンの一切れの上にさまざまな材料を載せたオープンサンドイッチだ。( 22 )。19世紀にはほとんどの人が農業に従事していたため、前夜の夕食の残りをパンの上に載せて農場に持って行き、働きながら食べた。",
-                        "産業革命によりスモーブローはデンマーク全土に広まった。工場で働く人々は昼食のために帰宅できなかったので、皿代わりのパンに料理を載せるのは便利だった。最初は人々はパンを動物に与えていた。後に彼らはトッピングの汁が染み込んだパンが( 23 )。これにより、パンは単なる皿ではなく料理の一部であるという考えが広まった。それ以降、スモーブローはオープンサンドイッチとして認識されるようになった。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Food is like a mirror that reflects cultures.",
-                            "食べ物は文化を映す鏡のようなものだ。"
-                        ],
-                        [
-                            "The ingredients and how they are cooked and eaten show the lifestyles of the people.",
-                            "材料やその調理法・食べ方は人々のライフスタイルを示す。"
-                        ],
-                        [
-                            "One such food that travelers should not miss out on in Denmark is Smørrebrød.",
-                            "デンマークで旅行者が見逃すべきでない料理の一つがスモーブローだ。"
-                        ],
-                        [
-                            "It is an open sandwich with different ingredients placed on top of a slice of bread.",
-                            "パンの一切れの上にさまざまな材料を載せたオープンサンドイッチだ。"
-                        ],
-                        [
-                            "Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient.",
-                            "工場で働く人々は昼食のために帰宅できなかったので、皿代わりのパンに料理を載せるのは便利だった。"
-                        ],
-                        [
-                            "At first, people gave the bread to animals.",
-                            "最初は人々はパンを動物に与えていた。"
-                        ],
-                        [
-                            "The bread was not just a plate but part of the food itself.",
-                            "パンは単なる皿ではなく料理の一部である。"
-                        ],
-                        [
-                            "Smørrebrød was recognized as an open sandwich.",
-                            "スモーブローはオープンサンドイッチとして認識されるようになった。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 21,
-                            "choices": [
-                                "At first",
-                                "At the same time",
-                                "In the meantime",
-                                "In short"
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "最初は→時系列の話ではない",
-                                "同時に→不適切",
-                                "その間に→不適切",
-                                "要するに→正解。💡 前文の理由→In short(要するに)=地元食を食べないと文化体験を逃す。まとめの接続詞"
-                            ]
-                        },
-                        {
-                            "number": 22,
-                            "choices": [
-                                "It was created because of people's lifestyles",
-                                "It became a luxury dining option",
-                                "It began with the king's cooking",
-                                "It was imported from other countries"
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "人々のライフスタイルのために作られた→正解。💡 farming→食べ物をパンに載せて農場へ=ライフスタイルが起源",
-                                "高級料理になった→本文にない",
-                                "王の料理から始まった→本文にない",
-                                "他の国から輸入された→本文にない"
-                            ]
-                        },
-                        {
-                            "number": 23,
-                            "choices": [
-                                "threw it away",
-                                "began to sell it",
-                                "found it delicious",
-                                "thought it was ruined"
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "捨てた→最初は動物に与えていたが後に変わった",
-                                "売り始めた→本文にない",
-                                "おいしいと感じた→正解。💡 soaked with juice=汁が染みたパンがおいしい→食べるようになった→パンも料理の一部に",
-                                "だめになったと思った→おいしい発見の逆"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "大問3",
-            "nameEn": "Part 3",
-            "type": "reading-comprehension",
-            "instruction": "次の英文A，Bの内容に関して，(24)から(31)までの質問に対して最も適切なものを選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Housing Options",
-                    "format": "email",
-                    "meta": {
-                        "from": "Mia Roberts",
-                        "to": "Kyle Webb",
-                        "date": "May 24",
-                        "subject": "Housing options"
-                    },
-                    "paragraphs": [
-                        "Thank you for your earlier e-mail asking about housing options. We are pleased to provide you with the necessary information. Our school policy states that all first-year students must live on campus. You have the option to choose either living by yourself or sharing a room with a roommate. You cannot change your arrangement until the end of the first term. You will have the chance to change your arrangement during the winter break.",
-                        "If you decide to have a roommate, we will take into consideration what you like. We do this so that we can make sure all of our students can live comfortably. Things we consider include whether you are a morning person, what your hobbies are, and what language you would like to speak, but are not limited to these. Also, please note that different housing units have different amenities. Some units have a kitchen, others have a shared one on each floor, and there are also buildings without a kitchen.",
-                        "We will begin the arrangement once your online form is turned in and your money is received. It generally takes about two weeks for the arrangement to be completed. We recommend applying by the first week of August to make it in time for the start of the term in the first week of September. If you have other questions, please do not hesitate to contact us."
-                    ],
-                    "translations": [
-                        "住居オプションについてお問い合わせいただきありがとうございます。必要な情報をお伝えいたします。本校の方針では、1年生全員がキャンパス内に住む必要があります。一人で住むか、ルームメイトと部屋を共有するかを選択できます。最初の学期が終わるまで配置を変更することはできません。冬休み中に変更する機会があります。",
-                        "ルームメイトを希望する場合、お好みを考慮します。すべての学生が快適に暮らせるようにするためです。朝型かどうか、趣味は何か、どの言語を話したいかなどを考慮しますが、これらに限定されません。また、住居ユニットごとに設備が異なることにご注意ください。キッチン付きのユニット、各階に共有キッチンがあるもの、キッチンのない建物もあります。",
-                        "オンラインフォームの提出と入金が確認でき次第、手配を開始します。手配完了まで通常約2週間かかります。9月第1週の学期開始に間に合うよう、8月第1週までの申請をお勧めします。他にご質問があれば、お気軽にお問い合わせください。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Our school policy states that all first-year students must live on campus.",
-                            "本校の方針では、1年生全員がキャンパス内に住む必要があります。"
-                        ],
-                        [
-                            "You have the option to choose either living by yourself or sharing a room with a roommate.",
-                            "一人で住むか、ルームメイトと部屋を共有するかを選択できます。"
-                        ],
-                        [
-                            "You cannot change your arrangement until the end of the first term.",
-                            "最初の学期が終わるまで配置を変更することはできません。"
-                        ],
-                        [
-                            "We will take into consideration what you like.",
-                            "お好みを考慮します。"
-                        ],
-                        [
-                            "Different housing units have different amenities.",
-                            "住居ユニットごとに設備が異なります。"
-                        ],
-                        [
-                            "We will begin the arrangement once your online form is turned in and your money is received.",
-                            "オンラインフォームの提出と入金が確認でき次第、手配を開始します。"
-                        ],
-                        [
-                            "It generally takes about two weeks for the arrangement to be completed.",
-                            "手配完了まで通常約2週間かかります。"
-                        ],
-                        [
-                            "We recommend applying by the first week of August.",
-                            "8月第1週までの申請をお勧めします。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 24,
-                            "question": "According to the school policy, what housing choices do the first-year students have?",
-                            "choices": [
-                                "They can live in apartments both on campus and off campus.",
-                                "They have to share rooms during the first year.",
-                                "They have to live on campus but can choose to live alone or share.",
-                                "The Student Housing Office decides whether students live alone or share."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "キャンパス内外で住める→must live on campusなのでoff campusは不可",
-                                "1年目は部屋を共有しなければならない→live by yourself or sharingで選択制",
-                                "キャンパス内に住むが一人か共有か選べる→正解。💡 must live on campus + choose either living by yourself or sharing",
-                                "住宅課が決める→学生が選択できる"
-                            ],
-                            "questionTranslation": "学校の方針によると、1年生にはどのような住居の選択肢がありますか？",
-                            "choiceTranslations": [
-                                "キャンパス内外のアパートに住める。",
-                                "1年目は部屋を共有しなければならない。",
-                                "キャンパス内に住む必要があるが一人暮らしか共有かを選べる。",
-                                "学生住居課が一人暮らしか共有かを決める。"
-                            ]
-                        },
-                        {
-                            "number": 25,
-                            "question": "How does the Student Housing Office decide on who will be roommates?",
-                            "choices": [
-                                "It separates students by where they are from and then puts them together randomly.",
-                                "It allows students to choose their own roommates.",
-                                "It puts students of similar school performances together.",
-                                "It matches students based on personal tastes."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "出身地で分けてランダムに→本文にない",
-                                "学生が自分でルームメイトを選ぶ→本文にない",
-                                "成績が似た学生を一緒にする→本文にない",
-                                "個人の好みに基づいてマッチング→正解。💡 take into consideration what you like=好みを考慮してマッチング"
-                            ],
-                            "questionTranslation": "学生住居課はどのようにルームメイトを決めますか？",
-                            "choiceTranslations": [
-                                "出身地で分けてからランダムに組み合わせる。",
-                                "学生が自分でルームメイトを選べるようにする。",
-                                "同じような成績の学生を一緒にする。",
-                                "個人の好みに基づいて学生をマッチングする。"
-                            ]
-                        },
-                        {
-                            "number": 26,
-                            "question": "In order for students to have their housing ready before the term starts in September, students should",
-                            "choices": [
-                                "make their payment by early August.",
-                                "send an application form by letter.",
-                                "tell the names of their roommates to a teacher.",
-                                "call the Student Housing Office within two weeks."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "8月初旬までに支払いをする→正解。💡 applying by first week of August + form turned in + money received=8月初旬に支払い完了",
-                                "手紙で申請書を送る→online formなので手紙ではない",
-                                "ルームメイトの名前を先生に言う→本文にない",
-                                "2週間以内に電話する→2週間は手配にかかる時間"
-                            ],
-                            "questionTranslation": "9月の学期開始前に住居を準備するために、学生は何をすべきですか？",
-                            "choiceTranslations": [
-                                "8月初旬までに支払いをする。",
-                                "郵便で申込書を送る。",
-                                "ルームメイトの名前を教師に伝える。",
-                                "2週間以内に学生住居課に電話する。"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "Mars Exploration",
-                    "paragraphs": [
-                        "One reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
-                        "These images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
-                        "Once, scientists covered a spacecraft with many huge airbags and sent it with a parachute, and it landed on Mars successfully. But with this method, the spacecraft bounced like a beach ball up to fifteen meters high many times. It became clear that airbags were not suitable for bigger and heavier spacecraft. Until today, scientists have developed various technologies, such as new types of radar and engines for more smooth landing.",
-                        "Now, NASA is hoping to land the first humans on Mars by the 2030s. Exploring Mars helps us learn about several things. For example, by studying whether life existed on Mars, it is possible for us to know more about Earth's past and future. Scientists also say that Mars might one day be a place where humans could move and live. Exploring Mars can provide humans with useful information for this challenge."
-                    ],
-                    "translations": [
-                        "火星探査に興味がある理由の一つは、生命がどのように始まったかを理解したいからだ。火星は地球に似た惑星である。火星で過去の生命の証拠を発見すれば、地球の生命とどう異なっていたか、なぜ消滅したかを研究できる。火星への興味は最近始まったわけではない。17世紀、ガリレオ・ガリレイは手製の望遠鏡で火星を観察した。約350年後の1965年、NASAのマリナー4号という宇宙船が火星付近を飛行し、22枚の画像撮影に成功した。",
-                        "これらの画像は火星に存在した生命の証拠を得るには不十分だった。代わりに科学者たちは無人宇宙船を火星に送り、岩石や土壌のサンプルを収集しようとしてきた。しかしこれまでの火星着陸の試みのうち約半分しか成功していない。地球からの距離と燃料の問題が着陸を困難にしていると言われるが、別の問題もある。火星の大気は地球の約1%しかない。もっと空気があれば、クッションとして機能し安全な着陸のために宇宙船の速度を落とせるだろう。",
-                        "かつて科学者たちは宇宙船を多くの巨大なエアバッグで覆い、パラシュートで送り、火星への着陸に成功した。しかしこの方法では宇宙船がビーチボールのように15メートルもの高さに何度も跳ね返った。エアバッグはより大きく重い宇宙船には適さないことが明らかになった。現在まで科学者たちは新型レーダーやエンジンなど、よりスムーズな着陸のための様々な技術を開発してきた。",
-                        "現在NASAは2030年代までに初めて人間を火星に着陸させることを目指している。火星探査はいくつかのことを学ぶのに役立つ。例えば火星に生命が存在したかどうかを研究することで、地球の過去と未来についてより多くを知ることができる。科学者たちは火星がいつか人間が移住して暮らせる場所になるかもしれないとも言っている。火星探査はこの挑戦に役立つ情報を人類に提供できる。"
-                    ],
-                    "sentencePairs": [
-                        [
-                            "Mars is a planet that is similar to Earth.",
-                            "火星は地球に似た惑星である。"
-                        ],
-                        [
-                            "In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope.",
-                            "17世紀、ガリレオは手製の望遠鏡で火星を観察した。"
-                        ],
-                        [
-                            "In 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images.",
-                            "1965年、NASAのマリナー4号が火星付近を飛行し22枚の画像撮影に成功した。"
-                        ],
-                        [
-                            "Only about half of all the attempts to land on Mars have been successful so far.",
-                            "これまでの着陸の試みのうち約半分しか成功していない。"
-                        ],
-                        [
-                            "Mars has only about 1 percent of the amount of air that Earth has.",
-                            "火星の大気は地球の約1%しかない。"
-                        ],
-                        [
-                            "It became clear that airbags were not suitable for bigger and heavier spacecraft.",
-                            "エアバッグはより大きく重い宇宙船には適さないことが明らかになった。"
-                        ],
-                        [
-                            "NASA is hoping to land the first humans on Mars by the 2030s.",
-                            "NASAは2030年代までに初めて人間を火星に着陸させることを目指している。"
-                        ],
-                        [
-                            "Mars might one day be a place where humans could move and live.",
-                            "火星がいつか人間が移住して暮らせる場所になるかもしれない。"
-                        ]
-                    ],
-                    "questions": [
-                        {
-                            "number": 27,
-                            "question": "What did Mariner 4 accomplish?",
-                            "choices": [
-                                "It brought humans to Mars for the first time.",
-                                "It measured how close Mars was to Earth.",
-                                "It went near Mars and took some pictures of it.",
-                                "It captured the same image that Galileo Galilei drew."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "初めて人間を火星に運んだ→まだ実現していない",
-                                "火星と地球の距離を測定→本文にない",
-                                "火星付近に行き写真を撮った→正解。💡 flew near Mars and successfully took twenty-two images=火星付近で22枚の写真",
-                                "ガリレオが描いたのと同じ画像→本文にない"
-                            ],
-                            "questionTranslation": "マリナー4号は何を達成しましたか？",
-                            "choiceTranslations": [
-                                "初めて人間を火星に連れて行った。",
-                                "火星が地球からどれくらい近いか測定した。",
-                                "火星に近づいて写真を撮った。",
-                                "ガリレオ・ガリレイが描いたのと同じ画像を撮影した。"
-                            ]
-                        },
-                        {
-                            "number": 28,
-                            "question": "Why is it difficult for a spacecraft to land on Mars?",
-                            "choices": [
-                                "Some countries disagree about developing new technologies.",
-                                "The distance between Mars and Earth is too close.",
-                                "There are few scientists who can operate a spacecraft.",
-                                "There is little air to slow down a spacecraft when landing."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "各国の技術開発の意見の相違→本文にない",
-                                "距離が近すぎる→too far(遠すぎる)が正しい",
-                                "操作できる科学者が少ない→本文にない",
-                                "着陸時に宇宙船を減速させる空気が少ない→正解。💡 only 1% of air→air as a cushion=空気がクッション役を果たせない"
-                            ],
-                            "questionTranslation": "宇宙船が火星に着陸するのが難しい理由は？",
-                            "choiceTranslations": [
-                                "新技術の開発について意見が合わない国がある。",
-                                "火星と地球の距離が近すぎる。",
-                                "宇宙船を操作できる科学者が少ない。",
-                                "着陸時に宇宙船を減速させる空気がほとんどない。"
-                            ]
-                        },
-                        {
-                            "number": 29,
-                            "question": "Covering a spacecraft with many airbags",
-                            "choices": [
-                                "is not the best way for every spacecraft to land smoothly.",
-                                "is one of the most effective ways to find the best landing spot.",
-                                "is the most recent technique that has been developed.",
-                                "is one of the methods that has never been tried."
-                            ],
-                            "answer": 1,
-                            "choiceAnalysis": [
-                                "すべての宇宙船にとって最良の方法ではない→正解。💡 not suitable for bigger and heavier spacecraft=大きく重い宇宙船には不適切",
-                                "最も効果的な着陸地点発見法→本文にない",
-                                "最新の開発技術→onceなので過去の方法",
-                                "試されたことのない方法→successfully landed=実際に使われた"
-                            ],
-                            "questionTranslation": "宇宙船を多数のエアバッグで覆うことは",
-                            "choiceTranslations": [
-                                "すべての宇宙船がスムーズに着陸するための最良の方法ではない。",
-                                "最適な着陸地点を見つける最も効果的な方法の一つ。",
-                                "開発された最も新しい技術。",
-                                "試されたことのない方法の一つ。"
-                            ]
-                        },
-                        {
-                            "number": 30,
-                            "question": "Exploring Mars could help humans",
-                            "choices": [
-                                "reach other planets within a shorter time.",
-                                "learn about how to live more comfortably on Earth.",
-                                "know more about the past and future of Earth.",
-                                "gain useful information about new planets to discover."
-                            ],
-                            "answer": 3,
-                            "choiceAnalysis": [
-                                "より短い時間で他の惑星に到達→本文にない",
-                                "地球でより快適に暮らす方法を学ぶ→本文にない",
-                                "地球の過去と未来についてもっと知る→正解。💡 know more about Earth's past and future",
-                                "発見すべき新しい惑星の情報得る→本文にない"
-                            ],
-                            "questionTranslation": "火星の探査は人間が何をするのに役立つ可能性がありますか",
-                            "choiceTranslations": [
-                                "より短い時間で他の惑星に到達する。",
-                                "地球でより快適に生活する方法を学ぶ。",
-                                "地球の過去と未来についてより多く知る。",
-                                "発見すべき新しい惑星についての有用な情報を得る。"
-                            ]
-                        },
-                        {
-                            "number": 31,
-                            "question": "Which of the following statements is true?",
-                            "choices": [
-                                "Humans started researching Mars in 1965.",
-                                "All the attempts to land on Mars have succeeded.",
-                                "Scientists have tried to send rock samples from Earth to Mars.",
-                                "Technologies to land spacecraft smoothly have been developed."
-                            ],
-                            "answer": 4,
-                            "choiceAnalysis": [
-                                "1965年に研究が始まった→17世紀のガリレオから始まった",
-                                "着陸の試みはすべて成功→about half=約半分のみ",
-                                "地球から火星に岩石サンプルを送ろうとした→逆。火星からサンプルを収集",
-                                "スムーズな着陸技術が開発された→正解。💡 developed various technologies for more smooth landing"
-                            ],
-                            "questionTranslation": "次のうち正しい記述はどれですか？",
-                            "choiceTranslations": [
-                                "人間は1965年に火星の研究を始めた。",
-                                "火星への着陸の試みはすべて成功している。",
-                                "科学者は地球から火星に岩石サンプルを送ろうとしてきた。",
-                                "宇宙船をスムーズに着陸させる技術が開発されてきた。"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    ],
-    "lessonPlan": {
-        "focusPoints": [
-            {
-                "id": "fp1",
-                "title": "仮定法過去（If + 過去形, S + would V）",
-                "subtitle": "Second Conditional (Unreal Present)",
-                "explanation": "If + S + 過去形, S + would + V原形 は「もし〜なら、…するだろう」と現在の事実に反する仮定を表す。科学的考察で「もし条件が異なれば」と仮想的状況を述べる際に使われる。",
-                "sourceQuote": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
-                        "ja": "もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
-                        "note": "If there were(仮定法過去) + would perform: 現実にはありえない仮定"
-                    },
-                    {
-                        "en": "It is said that the great distance from Earth and the fuel problems make landing on Mars difficult.",
-                        "ja": "地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われている。",
-                        "note": "It is said that: 非人称受動態。make + O + C: 「〜を困難にする」"
-                    },
-                    {
-                        "en": "If I had more time, I would study astronomy.",
-                        "ja": "もっと時間があれば、天文学を勉強するのだが。",
-                        "note": "If + had(過去形) + would study: 現在の事実に反する仮定の基本形"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'If there were more air, it would perform as a cushion' はなぜ仮定法過去ですか？",
-                        "a": "火星には地球の約1%の空気しかないという現実に反する仮定。「もしもっと空気があれば（実際はない）」= 仮定法過去。wereはbe動詞の仮定法形。"
-                    },
-                    {
-                        "q": "火星への着陸を困難にしている要因を3つ答えてください。",
-                        "a": "①地球からの大きな距離(the great distance from Earth) ②燃料の問題(the fuel problems) ③空気が地球の約1%しかない(only about 1 percent of the amount of air)"
-                    },
-                    {
-                        "q": "'in order to gather samples' の 'in order to' はどのような意味ですか？",
-                        "a": "「〜するために」目的の不定詞の強調形。= to gather。岩石や土壌からサンプルを集める目的を明示。"
-                    },
-                    {
-                        "q": "'only about half of all the attempts' は火星探査について何を示していますか？",
-                        "a": "着陸の試みの約半分しか成功しておらず、火星着陸がいかに困難であるかを具体的な数字で示している。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "If there were more air, it would perform as a cushion and slow down the speed"
-                ],
-                "highlightColor": "#FF6B6B",
-                "highlightLabel": "仮定法過去 If...would",
-                "practicePassage": {
-                    "en": "[出典: Mars Exploration]\nThese images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
-                    "ja": "これらの画像は火星に存在した生命の証拠を得るのに十分ではなかった。代わりに、科学者たちは岩石や土壌からサンプルを集めるために無人宇宙船を火星に送ってきた。しかし、火星への着陸の試みは、これまでのところ約半分しか成功していない。地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われているが、もう一つの問題がある。火星の空気量は地球の約1パーセントしかない。もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
-                    "audioFile": "audio/practice_pp1.mp3"
-                }
-            },
-            {
-                "id": "fp2",
-                "title": "so...that 結果構文 + Otherwise 仮定法",
-                "subtitle": "Result Clause and Implied Conditional",
-                "explanation": "so + 形容詞/副詞 + that は「あまりに〜なので…」と程度→結果を表す。Otherwise は「さもなければ」と前文の仮定を受けて反事実を述べる暗黙の仮定法。",
-                "sourceQuote": "Their head is so big that it sometimes covers one-third of their body.",
-                "sourceLocation": "Part 2A",
-                "examples": [
-                    {
-                        "en": "Their head is so big that it sometimes covers one-third of their body.",
-                        "ja": "彼らの頭はあまりに大きいので、体の3分の1を占めることもある。",
-                        "note": "so big that: 程度→結果。「あまりに大きいので〜」"
-                    },
-                    {
-                        "en": "Otherwise, they could not push their heads out of the water.",
-                        "ja": "さもなければ、水から頭を突き出すことができないだろう。",
-                        "note": "Otherwise + could not: 暗黙の仮定法。「大きな頭がなければ」という前文を受ける"
-                    },
-                    {
-                        "en": "The room was so dark that I could barely see anything.",
-                        "ja": "部屋はあまりに暗かったので、ほとんど何も見えなかった。",
-                        "note": "so dark that: so + 形容詞 + that 結果構文の典型"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'so big that it sometimes covers one-third of their body' の構文を分析してください。",
-                        "a": "so(副詞) + big(形容詞) + that(結果の接続詞) + it covers...。「あまりに大きいので体の1/3を占める」。程度→結果。"
-                    },
-                    {
-                        "q": "'Otherwise, they could not push their heads out of the water' の 'Otherwise' は何を暗示していますか？",
-                        "a": "「もし大きな頭で氷を突き破れなければ」。前文の「頭で氷を割って呼吸する」の反対の状況を仮定。could not は仮定法のcouldで反事実の不可能を示す。"
-                    },
-                    {
-                        "q": "ホッキョククジラが冷たい水の中で暖かく過ごす方法を説明してください。",
-                        "a": "厚い皮膚(thick skin)とその下の脂肪(fat under it)を持っている。これが断熱材の役割を果たす。"
-                    },
-                    {
-                        "q": "ホッキョククジラの大きな頭の重要な役割は何ですか？",
-                        "a": "厚い氷を突き破って呼吸するため(to break through thick ice to breathe)。冷たい海で空気を取り入れるのに不可欠(critical)。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "so big that it sometimes covers one-third of their body",
-                    "Otherwise, they could not push their heads out of the water"
-                ],
-                "highlightColor": "#4ECDC4",
-                "highlightLabel": "so...that / Otherwise",
-                "practicePassage": {
-                    "en": "[出典: Animals in the Cold Sea]\nBowhead whales live in the Arctic Ocean. Its water is very cold. To stay warm in the cold water, they have thick skin and fat under it. Their head is so big that it sometimes covers one-third of their body. This large head is critical for taking in air while they swim in the cold sea. They use their head to break through thick ice to breathe. Otherwise, they could not push their heads out of the water.",
-                    "ja": "ホッキョククジラは北極海に生息している。水は非常に冷たい。冷たい水の中で暖かく過ごすために、彼らは厚い皮膚とその下に脂肪を持っている。頭はあまりに大きいので、体の3分の1を占めることもある。この大きな頭は冷たい海で泳ぎながら空気を取り入れるのに不可欠である。彼らは厚い氷を頭で突き破って呼吸する。さもなければ、水から頭を突き出すことができないだろう。",
-                    "audioFile": "audio/practice_pp2.mp3"
-                }
-            },
-            {
-                "id": "fp3",
-                "title": "目的の to avoid -ing + 手段の By doing so",
-                "subtitle": "Purpose with Avoidance and Means",
-                "explanation": "to avoid + -ing は「〜されるのを避けるために」と回避目的を表す。By doing so は「そうすることで」と前文の行動を受けて手段・結果を示す。",
-                "sourceQuote": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish.",
-                "sourceLocation": "Part 2A",
-                "examples": [
-                    {
-                        "en": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food.",
-                        "ja": "食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。",
-                        "note": "to avoid + being caught(受動動名詞): 「捕まるのを避けるために」"
-                    },
-                    {
-                        "en": "By doing so, they can find their food source easily while avoiding being eaten by fish.",
-                        "ja": "そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。",
-                        "note": "By doing so: 「そうすることで」前文の行動(夜に表面付近に移動)を受ける"
-                    },
-                    {
-                        "en": "She moved to a quieter area to avoid the noise from construction.",
-                        "ja": "工事の騒音を避けるために、より静かな場所に引っ越した。",
-                        "note": "to avoid + 名詞: 回避目的の基本形"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'to avoid being caught by fish' の構文を分析してください。",
-                        "a": "to avoid(目的の不定詞) + being caught(受動態の動名詞) + by fish(動作主)。「魚に捕まるのを避けるために」。avoidは動名詞を目的語にとる。"
-                    },
-                    {
-                        "q": "'By doing so' の 'so' は何を指していますか？",
-                        "a": "前文で述べた行動全体。日中は深い所にとどまり、午後に上昇し、夜は表面付近にとどまるという移動パターン。"
-                    },
-                    {
-                        "q": "プランクトンが日中に海の深い部分にとどまる理由は何ですか？",
-                        "a": "視覚に頼って食料を見つける魚に捕まるのを避けるため。深い部分は暗いので視覚に頼る魚から逃れやすい。"
-                    },
-                    {
-                        "q": "'while avoiding being eaten by fish' の 'while' はどのような意味ですか？",
-                        "a": "「〜しながら」同時進行。食料源を見つける(目的)とfish に食べられるのを避ける(回避)を同時に達成。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "to avoid being caught by fish",
-                    "By doing so, they can find their food source easily while avoiding being eaten by fish"
-                ],
-                "highlightColor": "#45B7D1",
-                "highlightLabel": "to avoid / By doing so",
-                "practicePassage": {
-                    "en": "[出典: Animals in the Cold Sea]\nPlankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea. They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food. Plankton start to move up in the afternoon. They stay near the surface of the ocean at night. By doing so, they can find their food source easily while avoiding being eaten by fish. They eat other even smaller creatures that float around there.",
-                    "ja": "プランクトンは海に住む小さな生物で、ホッキョククジラの餌である。海の中で上下に移動する。食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。プランクトンは午後に上昇し始める。夜は海の表面付近にとどまる。そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。彼らはその辺りに漂うさらに小さな生物を食べる。",
-                    "audioFile": "audio/practice_pp3.mp3"
-                }
-            },
-            {
-                "id": "fp4",
-                "title": "間接疑問文（how / why / whether）",
-                "subtitle": "Indirect Questions as Noun Clauses",
-                "explanation": "how + S + V / why + S + V / whether + S + V はそれぞれ「どのように〜か/なぜ〜か/〜かどうか」を表す名詞節。動詞の目的語として使われ、長文の論点や研究目的を示す。",
-                "sourceQuote": "We can study how it differed from life on Earth and why it disappeared.",
-                "sourceLocation": "Part 3B",
-                "examples": [
-                    {
-                        "en": "We can study how it differed from life on Earth and why it disappeared.",
-                        "ja": "それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。",
-                        "note": "how + S + V と why + S + V: 2つの間接疑問が並列で studyの目的語"
-                    },
-                    {
-                        "en": "If we discover evidence of past life on Mars, we can study how it differed from life on Earth.",
-                        "ja": "もし火星で過去の生命の証拠を発見すれば、地球の生命との違いを研究できる。",
-                        "note": "If + 現在形 + can: 条件節。将来実現可能な仮定。"
-                    },
-                    {
-                        "en": "Scientists want to know whether life ever existed on Mars.",
-                        "ja": "科学者たちは火星に生命が存在したかどうかを知りたがっている。",
-                        "note": "whether + S + V: 「〜かどうか」間接疑問文"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'how it differed from life on Earth and why it disappeared' の構文を分析してください。",
-                        "a": "how + it differed(間接疑問1) + and + why + it disappeared(間接疑問2)。studyの目的語として2つの間接疑問文が並列。「どのように異なった か」と「なぜ消滅したか」。"
-                    },
-                    {
-                        "q": "火星探査に興味を持つ主な理由は何ですか？",
-                        "a": "生命がどのように始まったかを理解するため(we hope to understand how life began)。火星で生命の痕跡を調べることで地球の生命への理解が深まる。"
-                    },
-                    {
-                        "q": "'Our interest in Mars did not start just recently' はどのような情報を導入していますか？",
-                        "a": "火星への関心の歴史的背景。17世紀のガリレオから1965年のマリナー4号まで、長い歴史があることを示し、最近の取り組みではないことを強調。"
-                    },
-                    {
-                        "q": "'successfully took twenty-two images' で使われる 'successfully' はどのような役割ですか？",
-                        "a": "副詞。画像を撮影できたことが大きな成果であったことを強調。当時の技術では火星の画像撮影自体が困難な偉業だった。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "how it differed from life on Earth and why it disappeared"
-                ],
-                "highlightColor": "#96CEB4",
-                "highlightLabel": "間接疑問文",
-                "practicePassage": {
-                    "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
-                    "ja": "火星探査に興味を持つ理由の一つは、生命がどのように始まったかを理解したいということである。火星は地球に似た惑星である。もし火星で過去の生命の証拠を発見すれば、それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。火星への関心は最近始まったものではない。17世紀にガリレオ・ガリレイが手製の望遠鏡で火星を観察した。約350年後の1965年、NASAの宇宙船マリナー4号が火星の近くを飛行し、22枚の火星の画像を撮影することに成功した。",
-                    "audioFile": "audio/practice_pp4.mp3"
-                }
-            },
-            {
-                "id": "fp5",
-                "title": "今回の重要なパラフレーズ",
-                "subtitle": "Key Paraphrases",
-                "explanation": "正解選択肢と本文表現の対応関係を見抜く力が必要。特にメール問題では依頼・指示の言い換えに注意。",
-                "sourceQuote": "①live on campus + choose alone or share ← must live on campus + by yourself or sharing\n②personal tastes ← what you like\n③make payment by early August ← applying by first week of August + money received\n④went near Mars and took pictures ← flew near Mars and took images\n⑤little air to slow down ← 1 percent of the amount of air",
-                "sourceLocation": "Part 3 全体",
-                "examples": [
-                    {
-                        "en": "personal tastes = what you like",
-                        "ja": "個人の好み = あなたが好きなもの",
-                        "note": "抽象化のパラフレーズ"
-                    },
-                    {
-                        "en": "went near and took pictures = flew near and took images",
-                        "ja": "近くに行って写真を撮った = 近くを飛んで画像を撮影した",
-                        "note": "動詞の言い換え"
-                    },
-                    {
-                        "en": "little air to slow down = only 1 percent of air",
-                        "ja": "減速させる空気が少ない = 空気が1%しかない",
-                        "note": "数値→程度への言い換え"
-                    }
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "'flew near Mars and took twenty-two images' を言い換えてください。",
-                        "a": "'passed close to Mars and captured twenty-two photographs'。flew near = passed close to, took = captured。"
-                    },
-                    {
-                        "q": "'interested in exploring Mars' を言い換えてください。",
-                        "a": "'eager to investigate the Red Planet' や 'keen on studying Mars'。interested = eager/keen, exploring = investigating。"
-                    },
-                    {
-                        "q": "'similar to Earth' を別の表現で言い換えると？",
-                        "a": "'resembling our planet' や 'comparable to Earth'。similar to = resembling / comparable to。"
-                    },
-                    {
-                        "q": "火星探査の初期の成果を要約してください。",
-                        "a": "1965年に初の接近飛行で22枚撮影。クレーターや山の荒涼とした風景を確認。生命の直接証拠はなし。"
-                    }
-                ],
-                "highlightPatterns": [
-                    "flew near Mars",
-                    "took twenty-two images",
-                    "interested in exploring"
-                ],
-                "highlightColor": "#f59e0b",
-                "highlightLabel": "パラフレーズ",
-                "practicePassage": {
-                    "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
-                    "ja": "私たちが火星探査に興味を持つ理由の一つは、惑星がどのように形成されるかを理解したいからだ。火星は地球と類似しているため、地球の歴史を知る手がかりにもなる。1965年に宇宙船が初めて火星の近くを飛行し、22枚の画像を撮影した。これらの画像は、火星の表面にクレーターや山がある荒涼とした風景を示していた。",
-                    "audioFile": "audio/practice_pp5.mp3"
-                }
-            }
-        ]
+  "grade": "2級",
+  "year": "2025",
+  "session": "2-sat",
+  "title": "2025年度 第2回（準会場）英語資格検定2級 リーディング",
+  "vocabulary": [
+    {
+      "word": "consequence",
+      "meaning": "結果",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "As a consequence, there are long waiting times.",
+      "distractors": [
+        "原因",
+        "理由",
+        "結論"
+      ],
+      "wordAudio": "audio/vocab/w_001_consequence.mp3"
+    },
+    {
+      "word": "frankly",
+      "meaning": "率直に言って",
+      "pos": "副詞",
+      "level": "2級",
+      "example": "Frankly, I'm not surprised.",
+      "distractors": [
+        "二重に",
+        "重く",
+        "主に"
+      ],
+      "wordAudio": "audio/vocab/w_002_frankly.mp3"
+    },
+    {
+      "word": "ripe",
+      "meaning": "熟した",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Fruits change color when they are ripe.",
+      "distractors": [
+        "便利な",
+        "めまいがする",
+        "狭い"
+      ],
+      "wordAudio": "audio/vocab/w_003_ripe.mp3"
+    },
+    {
+      "word": "surround",
+      "meaning": "囲む",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "She wanted to be surrounded by nature.",
+      "distractors": [
+        "追求する",
+        "再開する",
+        "悩ます"
+      ],
+      "wordAudio": "audio/vocab/w_004_surround.mp3"
+    },
+    {
+      "word": "witness",
+      "meaning": "目撃する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The accident was witnessed by many people.",
+      "distractors": [
+        "伝える",
+        "予約する",
+        "扱う"
+      ],
+      "wordAudio": "audio/vocab/w_005_witness.mp3"
+    },
+    {
+      "word": "cough",
+      "meaning": "咳をする",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Tim started coughing during his speech.",
+      "distractors": [
+        "汗をかく",
+        "消える",
+        "声を出す"
+      ],
+      "wordAudio": "audio/vocab/w_006_cough.mp3"
+    },
+    {
+      "word": "tribe",
+      "meaning": "部族",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The Sioux and Cherokee are examples of Native American tribes.",
+      "distractors": [
+        "リゾート",
+        "歯車",
+        "負担"
+      ],
+      "wordAudio": "audio/vocab/w_007_tribe.mp3"
+    },
+    {
+      "word": "negotiate",
+      "meaning": "交渉する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "We need to negotiate better prices.",
+      "distractors": [
+        "崇拝する",
+        "再生する",
+        "散らす"
+      ],
+      "wordAudio": "audio/vocab/w_008_negotiate.mp3"
+    },
+    {
+      "word": "pavement",
+      "meaning": "舗道",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "She hit the pavement pretty hard.",
+      "distractors": [
+        "化石",
+        "毛布",
+        "滑り台"
+      ],
+      "wordAudio": "audio/vocab/w_009_pavement.mp3"
+    },
+    {
+      "word": "promotion",
+      "meaning": "昇進",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "His hard work led to a promotion.",
+      "distractors": [
+        "建設",
+        "反射",
+        "犠牲"
+      ],
+      "wordAudio": "audio/vocab/w_010_promotion.mp3"
+    },
+    {
+      "word": "make time",
+      "meaning": "時間を作る",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "She always tries to make time for her friends.",
+      "distractors": [
+        "薄れる",
+        "設置する",
+        "脇に置く"
+      ],
+      "wordAudio": "audio/vocab/w_011_make_time.mp3"
+    },
+    {
+      "word": "pay well",
+      "meaning": "給料が良い",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "His company does not pay well.",
+      "distractors": [
+        "見つけ出す",
+        "経験する",
+        "集まる"
+      ],
+      "wordAudio": "audio/vocab/w_012_pay_well.mp3"
+    },
+    {
+      "word": "cut down",
+      "meaning": "減らす",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "He decided to cut down on smoking.",
+      "distractors": [
+        "置き去りにする",
+        "声を上げる",
+        "現れる"
+      ],
+      "wordAudio": "audio/vocab/w_013_cut_down.mp3"
+    },
+    {
+      "word": "go by",
+      "meaning": "立ち寄る",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "Do you ever go by our old high school?",
+      "distractors": [
+        "取れる",
+        "離陸する",
+        "偶然出会う"
+      ],
+      "wordAudio": "audio/vocab/w_014_go_by.mp3"
+    },
+    {
+      "word": "disagree on",
+      "meaning": "～について意見が合わない",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "What are you disagreeing on this time?",
+      "distractors": [
+        "従事する",
+        "困惑させる",
+        "こぼす"
+      ],
+      "wordAudio": "audio/vocab/w_015_disagree_on.mp3"
+    },
+    {
+      "word": "take one's place",
+      "meaning": "後任になる",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "Mr. Smith took her place as head of the department.",
+      "distractors": [
+        "注意を払う",
+        "道を作る",
+        "怒る"
+      ],
+      "wordAudio": "audio/vocab/w_016_take_one_s_place.mp3"
+    },
+    {
+      "word": "make off",
+      "meaning": "逃げる",
+      "pos": "イディオム",
+      "level": "2級",
+      "example": "The thieves tried to make off with a bag of money.",
+      "distractors": [
+        "我慢する",
+        "ついていく",
+        "遊ぶ"
+      ],
+      "wordAudio": "audio/vocab/w_017_make_off.mp3"
+    },
+    {
+      "word": "plankton",
+      "meaning": "プランクトン",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Plankton are the food of bowhead whales.",
+      "distractors": [
+        "海藻",
+        "サンゴ",
+        "甲殻類"
+      ],
+      "wordAudio": "audio/vocab/w_018_plankton.mp3"
+    },
+    {
+      "word": "ingredient",
+      "meaning": "材料",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Different ingredients are placed on top of bread.",
+      "distractors": [
+        "器具",
+        "容器",
+        "調味料"
+      ],
+      "wordAudio": "audio/vocab/w_019_ingredient.mp3"
+    },
+    {
+      "word": "amenity",
+      "meaning": "設備",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Different housing units have different amenities.",
+      "distractors": [
+        "家賃",
+        "保証金",
+        "契約"
+      ],
+      "wordAudio": "audio/vocab/w_020_amenity.mp3"
+    },
+    {
+      "word": "spacecraft",
+      "meaning": "宇宙船",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "A NASA spacecraft flew near Mars.",
+      "distractors": [
+        "望遠鏡",
+        "衛星",
+        "ロケット"
+      ],
+      "wordAudio": "audio/vocab/w_021_spacecraft.mp3"
+    },
+    {
+      "word": "parachute",
+      "meaning": "パラシュート",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "They sent the spacecraft with a parachute.",
+      "distractors": [
+        "気球",
+        "グライダー",
+        "翼"
+      ],
+      "wordAudio": "audio/vocab/w_022_parachute.mp3"
+    },
+    {
+      "word": "cushion",
+      "meaning": "クッション",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Air would perform as a cushion to slow down.",
+      "distractors": [
+        "枕",
+        "マット",
+        "バネ"
+      ],
+      "wordAudio": "audio/vocab/w_023_cushion.mp3"
+    },
+    {
+      "word": "telescope",
+      "meaning": "望遠鏡",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Galileo looked at Mars using his handmade telescope.",
+      "distractors": [
+        "顕微鏡",
+        "双眼鏡",
+        "レンズ"
+      ],
+      "wordAudio": "audio/vocab/w_024_telescope.mp3"
+    },
+    {
+      "word": "Arctic",
+      "meaning": "北極の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Bowhead whales live in the Arctic Ocean.",
+      "distractors": [
+        "南極の",
+        "熱帯の",
+        "温帯の"
+      ],
+      "wordAudio": "audio/vocab/w_025_Arctic.mp3"
+    },
+    {
+      "word": "frigid",
+      "meaning": "極寒の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Animals survive in frigid ocean waters.",
+      "distractors": [
+        "温暖な",
+        "乾燥した",
+        "湿った"
+      ],
+      "wordAudio": "audio/vocab/w_026_frigid.mp3"
+    },
+    {
+      "word": "antifreeze",
+      "meaning": "不凍液",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Some fish produce a natural antifreeze protein.",
+      "distractors": [
+        "冷却液",
+        "潤滑油",
+        "溶剤"
+      ],
+      "wordAudio": "audio/vocab/w_027_antifreeze.mp3"
+    },
+    {
+      "word": "blubber",
+      "meaning": "脂肪層",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Whales have a thick layer of blubber to stay warm.",
+      "distractors": [
+        "毛皮",
+        "鱗",
+        "甲羅"
+      ],
+      "wordAudio": "audio/vocab/w_028_blubber.mp3"
+    },
+    {
+      "word": "insulate",
+      "meaning": "断熱する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "The thick fur helps insulate the animal from the cold.",
+      "distractors": [
+        "冷やす",
+        "濡らす",
+        "溶かす"
+      ],
+      "wordAudio": "audio/vocab/w_029_insulate.mp3"
+    },
+    {
+      "word": "adaptation",
+      "meaning": "適応",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "These animals show remarkable adaptations to cold environments.",
+      "distractors": [
+        "進化",
+        "変異",
+        "退化"
+      ],
+      "wordAudio": "audio/vocab/w_030_adaptation.mp3"
+    },
+    {
+      "word": "marine",
+      "meaning": "海洋の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Marine animals face unique challenges in cold waters.",
+      "distractors": [
+        "陸上の",
+        "淡水の",
+        "空中の"
+      ],
+      "wordAudio": "audio/vocab/w_031_marine.mp3"
+    },
+    {
+      "word": "circulation",
+      "meaning": "循環",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Special blood circulation keeps their body temperature stable.",
+      "distractors": [
+        "消化",
+        "呼吸",
+        "排泄"
+      ],
+      "wordAudio": "audio/vocab/w_032_circulation.mp3"
+    },
+    {
+      "word": "cuisine",
+      "meaning": "料理",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Danish cuisine features many open-faced sandwiches.",
+      "distractors": [
+        "文化",
+        "芸術",
+        "音楽"
+      ],
+      "wordAudio": "audio/vocab/w_033_cuisine.mp3"
+    },
+    {
+      "word": "topping",
+      "meaning": "トッピング",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Each sandwich has a different topping.",
+      "distractors": [
+        "底",
+        "側面",
+        "中身"
+      ],
+      "wordAudio": "audio/vocab/w_034_topping.mp3"
+    },
+    {
+      "word": "preserve",
+      "meaning": "保存する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Salt was used to preserve fish for the winter.",
+      "distractors": [
+        "調理する",
+        "味付けする",
+        "包む"
+      ],
+      "wordAudio": "audio/vocab/w_035_preserve.mp3"
+    },
+    {
+      "word": "tradition",
+      "meaning": "伝統",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "This food tradition dates back hundreds of years.",
+      "distractors": [
+        "革新",
+        "実験",
+        "流行"
+      ],
+      "wordAudio": "audio/vocab/w_036_tradition.mp3"
+    },
+    {
+      "word": "portion",
+      "meaning": "一人前",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Each portion is carefully prepared.",
+      "distractors": [
+        "全体",
+        "半分",
+        "残り"
+      ],
+      "wordAudio": "audio/vocab/w_037_portion.mp3"
+    },
+    {
+      "word": "landlord",
+      "meaning": "家主",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The landlord is responsible for maintenance.",
+      "distractors": [
+        "借主",
+        "仲介者",
+        "管理人"
+      ],
+      "wordAudio": "audio/vocab/w_038_landlord.mp3"
+    },
+    {
+      "word": "lease",
+      "meaning": "賃貸契約",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The lease is for a minimum of one year.",
+      "distractors": [
+        "売買",
+        "購入",
+        "所有"
+      ],
+      "wordAudio": "audio/vocab/w_039_lease.mp3"
+    },
+    {
+      "word": "utilities",
+      "meaning": "光熱費",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Utilities such as water and electricity are included.",
+      "distractors": [
+        "家賃",
+        "保証金",
+        "手数料"
+      ],
+      "wordAudio": "audio/vocab/w_040_utilities.mp3"
+    },
+    {
+      "word": "furnished",
+      "meaning": "家具付きの",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "The apartment comes fully furnished.",
+      "distractors": [
+        "空の",
+        "改装された",
+        "新築の"
+      ],
+      "wordAudio": "audio/vocab/w_041_furnished.mp3"
+    },
+    {
+      "word": "rover",
+      "meaning": "探査車",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "NASA sent a rover to explore the surface of Mars.",
+      "distractors": [
+        "衛星",
+        "ロケット",
+        "宇宙船"
+      ],
+      "wordAudio": "audio/vocab/w_042_rover.mp3"
+    },
+    {
+      "word": "atmosphere",
+      "meaning": "大気",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Mars has a very thin atmosphere.",
+      "distractors": [
+        "表面",
+        "核",
+        "磁場"
+      ],
+      "wordAudio": "audio/vocab/w_043_atmosphere.mp3"
+    },
+    {
+      "word": "habitat",
+      "meaning": "居住地",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Scientists are designing habitats for future Mars colonists.",
+      "distractors": [
+        "実験室",
+        "基地",
+        "工場"
+      ],
+      "wordAudio": "audio/vocab/w_044_habitat.mp3"
+    },
+    {
+      "word": "radiation",
+      "meaning": "放射線",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "Astronauts need protection from harmful radiation.",
+      "distractors": [
+        "重力",
+        "気圧",
+        "温度"
+      ],
+      "wordAudio": "audio/vocab/w_045_radiation.mp3"
+    },
+    {
+      "word": "geological",
+      "meaning": "地質学の",
+      "pos": "形容詞",
+      "level": "2級",
+      "example": "Geological surveys revealed ancient river beds on Mars.",
+      "distractors": [
+        "天文学の",
+        "生物学の",
+        "化学の"
+      ],
+      "wordAudio": "audio/vocab/w_046_geological.mp3"
+    },
+    {
+      "word": "colonize",
+      "meaning": "植民地化する",
+      "pos": "動詞",
+      "level": "2級",
+      "example": "Humans may colonize Mars in the future.",
+      "distractors": [
+        "探検する",
+        "破壊する",
+        "離れる"
+      ],
+      "wordAudio": "audio/vocab/w_047_colonize.mp3"
+    },
+    {
+      "word": "orbit",
+      "meaning": "軌道",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The spacecraft entered Mars orbit successfully.",
+      "distractors": [
+        "大気",
+        "表面",
+        "地下"
+      ],
+      "wordAudio": "audio/vocab/w_048_orbit.mp3"
+    },
+    {
+      "word": "sample",
+      "meaning": "サンプル",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The rover collected rock samples from the surface.",
+      "distractors": [
+        "写真",
+        "データ",
+        "信号"
+      ],
+      "wordAudio": "audio/vocab/w_049_sample.mp3"
+    },
+    {
+      "word": "terrain",
+      "meaning": "地形",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The Mars terrain is rocky and dry.",
+      "distractors": [
+        "気候",
+        "天気",
+        "季節"
+      ],
+      "wordAudio": "audio/vocab/w_050_terrain.mp3"
+    },
+    {
+      "word": "expedition",
+      "meaning": "探検",
+      "pos": "名詞",
+      "level": "2級",
+      "example": "The Mars expedition is planned for the near future.",
+      "distractors": [
+        "観光",
+        "移住",
+        "帰還"
+      ],
+      "wordAudio": "audio/vocab/w_051_expedition.mp3"
     }
+  ],
+  "sections": [
+    {
+      "name": "大問1",
+      "nameEn": "Part 1",
+      "type": "vocabulary",
+      "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "questions": [
+        {
+          "number": 1,
+          "text": "There are not enough doctors and nurses in some areas of the country, and ( 1 ) a consequence, there are long waiting times at many hospitals and clinics.",
+          "translation": "国の一部の地域では医師や看護師が十分ではなく、( 1 )結果、多くの病院やクリニックで長い待ち時間が生じている。",
+          "choices": [
+            "with",
+            "as",
+            "from",
+            "to"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "with a consequence→不自然な表現",
+            "as a consequence=結果として→正解。💡 as a consequence=as a result。頻出のイディオム",
+            "from a consequence→不自然な表現",
+            "to a consequence→不自然な表現"
+          ]
+        },
+        {
+          "number": 2,
+          "text": "A : I heard that the boss chose Julie instead of Tim to be the new manager of the sales team.\nB : ( 2 ), I'm not surprised. I don't think Tim has enough experience to be a manager.",
+          "translation": "A：ボスがティムではなくジュリーを営業チームの新マネージャーに選んだと聞いたよ。\nB：( 2 )、驚かないよ。ティムにはマネージャーになるだけの経験が十分にないと思う。",
+          "choices": [
+            "Doubly",
+            "Heavily",
+            "Mainly",
+            "Frankly"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "Doubly=二重に→文脈に不適切",
+            "Heavily=重く→不適切",
+            "Mainly=主に→不適切",
+            "Frankly=率直に言って→正解。💡 Frankly, I'm not surprised=率直に言って驚かない。意見を直接述べる表現"
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Many fruits and vegetables change color when they are ( 3 ). This helps humans and other animals know when they are ready to eat.",
+          "translation": "多くの果物や野菜は( 3 )と色が変わる。これにより人間や他の動物は食べ頃がわかる。",
+          "choices": [
+            "handy",
+            "dizzy",
+            "ripe",
+            "narrow"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "handy=便利な→色の変化に不適切",
+            "dizzy=めまいがする→不適切",
+            "ripe=熟した→正解。💡 change color when ripe=熟すと色が変わる。ready to eat=食べ頃がヒント",
+            "narrow=狭い→不適切"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Abigail decided to move to the countryside because she wanted to be ( 4 ) by nature. She loves seeing the plants and animals that live around her new home.",
+          "translation": "アビゲイルは( 4 )たかったので田舎に引っ越すことにした。新居の周りに住む植物や動物を見るのが大好きだ。",
+          "choices": [
+            "pursued",
+            "resumed",
+            "surrounded",
+            "bothered"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "pursued=追求された→受身で不自然",
+            "resumed=再開された→不適切",
+            "surrounded=囲まれた→正解。💡 be surrounded by nature=自然に囲まれる。countryside+plants and animalsがヒント",
+            "bothered=悩まされた→自然に悩まされるでは文脈に合わない"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "The accident happened on a busy shopping street in the middle of the day. As a result, it was ( 5 ) by quite a few people.",
+          "translation": "事故は日中の繁華な商店街で起きた。その結果、かなりの人々に( 5 )された。",
+          "choices": [
+            "conveyed",
+            "reserved",
+            "handled",
+            "witnessed"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "conveyed=伝えられた→事故の文脈に不適切",
+            "reserved=予約された→不適切",
+            "handled=扱われた→不適切",
+            "witnessed=目撃された→正解。💡 busy street + middle of the day=多くの人が見ていた→witnessed(目撃された)"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Tim started ( 6 ) during his speech because his throat was dry. He decided to drink some water before continuing to speak.",
+          "translation": "ティムはスピーチ中に喉が乾いたので( 6 )し始めた。話し続ける前に水を飲むことにした。",
+          "choices": [
+            "sweating",
+            "coughing",
+            "vanishing",
+            "voicing"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "sweating=汗をかく→喉の乾きから直接つながらない",
+            "coughing=咳をする→正解。💡 throat was dry→coughing(咳)。喉の乾き→咳→水を飲むの流れ",
+            "vanishing=消える→不適切",
+            "voicing=声を出す→不適切"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "The Sioux, Cherokee, and Apache are examples of Native American ( 7 ). These large groups each developed their own languages, customs, and cultures.",
+          "translation": "スー族、チェロキー族、アパッチ族はネイティブアメリカンの( 7 )の例だ。これらの大きな集団はそれぞれ独自の言語、慣習、文化を発達させた。",
+          "choices": [
+            "resorts",
+            "gears",
+            "tribes",
+            "burdens"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "resorts=リゾート→民族集団に不適切",
+            "gears=歯車→不適切",
+            "tribes=部族→正解。💡 large groups + languages, customs, cultures=tribes(部族)",
+            "burdens=負担→不適切"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "A : Did you hear about the new contract with the supplier?\nB : Yes, we need to ( 8 ) better prices. They're charging us too much.",
+          "translation": "A：サプライヤーとの新しい契約について聞いた？\nB：うん、もっと良い価格を( 8 )する必要がある。彼らの請求は高すぎる。",
+          "choices": [
+            "worship",
+            "reproduce",
+            "negotiate",
+            "scatter"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "worship=崇拝する→価格の文脈に不適切",
+            "reproduce=再生する→不適切",
+            "negotiate=交渉する→正解。💡 negotiate better prices=より良い価格を交渉する。charging too much→negotiate",
+            "scatter=散らす→不適切"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "A : Patricia, what happened to your elbow? Are you all right?\nB : Oh, I fell off my bike and hit the ( 9 ) pretty hard. But I'll be fine.",
+          "translation": "A：パトリシア、肘どうしたの？大丈夫？\nB：ああ、自転車から落ちて( 9 )にかなり強くぶつかったの。でも大丈夫よ。",
+          "choices": [
+            "fossil",
+            "pavement",
+            "blanket",
+            "slide"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "fossil=化石→転倒の文脈に不適切",
+            "pavement=舗道→正解。💡 fell off bike + hit the pavement=自転車から落ちて舗道にぶつかった",
+            "blanket=毛布→不適切",
+            "slide=滑り台→不適切"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Richard's hard work at his company led to a ( 10 ). He is now the head of the sales department.",
+          "translation": "リチャードの会社での努力は( 10 )につながった。彼は現在営業部の部長だ。",
+          "choices": [
+            "construction",
+            "reflection",
+            "promotion",
+            "sacrifice"
+          ],
+          "answer": 3,
+          "choiceAnalysis": [
+            "construction=建設→昇進の文脈に不適切",
+            "reflection=反射→不適切",
+            "promotion=昇進→正解。💡 hard work→promotion(昇進)→head of department。努力→昇進の典型パターン",
+            "sacrifice=犠牲→不適切"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "Rebecca has a very busy schedule, but she always tries to ( 11 ) for her friends and family.",
+          "translation": "レベッカはとても忙しいスケジュールだが、友人や家族のために( 11 )ようにしている。",
+          "choices": [
+            "make time",
+            "fade away",
+            "set up",
+            "put aside"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "make time=時間を作る→正解。💡 busy schedule + but + for friends and family=忙しいけど時間を作る",
+            "fade away=薄れる→不適切",
+            "set up=設置する→不適切",
+            "put aside=脇に置く→不適切"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Although Richard likes his colleagues so much and enjoys his job as an engineer, his company does not ( 12 ). Now, he is thinking about finding a new company which provides a better salary.",
+          "translation": "リチャードは同僚がとても好きでエンジニアの仕事も楽しんでいるが、会社は( 12 )。今、より良い給料の新しい会社を探すことを考えている。",
+          "choices": [
+            "find out",
+            "go through",
+            "get together",
+            "pay well"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "find out=見つけ出す→不適切",
+            "go through=経験する→不適切",
+            "get together=集まる→不適切",
+            "pay well=給料が良い→正解。💡 better salary=良い給料を求めている→does not pay well(給料が良くない)"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Many people say that smoking is bad for one's health. Because of this, Greg decided to ( 13 ) on smoking. He is trying to only smoke half a pack a day.",
+          "translation": "多くの人が喫煙は健康に悪いと言う。このためグレッグは喫煙を( 13 )することにした。1日に半箱だけ吸うようにしている。",
+          "choices": [
+            "cut down",
+            "leave behind",
+            "speak up",
+            "show up"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "cut down=減らす→正解。💡 cut down on=～を減らす。half a pack=半箱=完全に止めずに減らす",
+            "leave behind=置き去りにする→不適切",
+            "speak up=声を上げる→不適切",
+            "show up=現れる→不適切"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "A : Do you ever ( 14 ) our old high school?\nB : No, not very often because I moved out of town to attend university.",
+          "translation": "A：昔の高校に( 14 )ことある？\nB：いや、あまりないよ。大学に行くために町を出たから。",
+          "choices": [
+            "come off",
+            "take off",
+            "come across",
+            "go by"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "come off=取れる→不適切",
+            "take off=離陸する→不適切",
+            "come across=偶然出会う→場所に使いにくい",
+            "go by=立ち寄る→正解。💡 go by=立ち寄る・通りかかる。moved out of town→not very often go by"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "A : What are you and your brother ( 15 ) this time?\nB : He wants to go to a rock concert for his birthday, but I want to go to a musical.",
+          "translation": "A：今回あなたとお兄さんは何について( 15 )の？\nB：彼は誕生日にロックコンサートに行きたいけど、私はミュージカルに行きたいの。",
+          "choices": [
+            "engaging in",
+            "confusing by",
+            "spilling on",
+            "disagreeing on"
+          ],
+          "answer": 4,
+          "choiceAnalysis": [
+            "engaging in=従事する→意見の対立に不適切",
+            "confusing by→文法的に不自然",
+            "spilling on=こぼす→不適切",
+            "disagreeing on=～について意見が合わない→正解。💡 rock concert vs musical=意見の不一致→disagreeing on"
+          ]
+        },
+        {
+          "number": 16,
+          "text": "When Ms. Johnson retired, Mr. Smith ( 16 ) as the head of the sales department. He had been working in that department for ten years.",
+          "translation": "ジョンソンさんが退職したとき、スミス氏が営業部の部長として( 16 )。彼はその部門で10年間働いていた。",
+          "choices": [
+            "took her place",
+            "gave her attention",
+            "made her way",
+            "lost her temper"
+          ],
+          "answer": 1,
+          "choiceAnalysis": [
+            "took her place=彼女の後任になった→正解。💡 retired→took her place=退職→後任。10年の経験があるので自然",
+            "gave her attention=注意を払った→不適切",
+            "made her way=道を切り開いた→不適切",
+            "lost her temper=怒った→不適切"
+          ]
+        },
+        {
+          "number": 17,
+          "text": "The two thieves tried to ( 17 ) with a bag of money, but a security guard stopped them. They ended up escaping without taking the money.",
+          "translation": "2人の泥棒は金の入ったバッグを持って( 17 )ようとしたが、警備員に止められた。結局お金を取らずに逃げた。",
+          "choices": [
+            "put up",
+            "make off",
+            "keep up",
+            "hang out"
+          ],
+          "answer": 2,
+          "choiceAnalysis": [
+            "put up=我慢する→不適切",
+            "make off=逃げる→正解。💡 make off with=～を持ち逃げする。thieves + bag of money=持ち逃げ",
+            "keep up=ついていく→不適切",
+            "hang out=遊ぶ→不適切"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問2",
+      "nameEn": "Part 2",
+      "type": "passage-fill",
+      "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Animals in the Cold Sea",
+          "paragraphs": [
+            "Bowhead whales live in the Arctic Ocean. Its water is very cold. To stay warm in the cold water, they have thick skin and fat under it. Their head is so big that it sometimes covers one-third of their body. This large head is critical for taking in air while they swim in the cold sea. They use their head to ( 18 ). Otherwise, they could not push their heads out of the water.",
+            "Plankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea. They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food. Plankton start to move up in the afternoon. They stay near the surface of the ocean at night. By doing so, they can ( 19 ) easily while avoiding being eaten by fish. They eat other even smaller creatures that float around there.",
+            "The diving patterns of bowhead whales had not been clear. New research showed they followed a special diving cycle. Experts found they dived deeper in the afternoon. This allows them to catch plankton that move up in groups. They can open their big mouth while they dive down and eat many plankton at once. ( 20 ), the researchers discovered two whales diving at the same time, even when they were one hundred kilometers apart. This shows the possibility that they communicate with sound through the water."
+          ],
+          "translations": [
+            "ホッキョククジラは北極海に生息する。水は非常に冷たい。冷たい水で暖かくいるために、厚い皮膚とその下に脂肪を持つ。頭が非常に大きく、体の3分の1を占めることもある。この大きな頭は冷たい海を泳ぎながら空気を取り入れるために重要だ。彼らは頭を使って( 18 )。そうでなければ水面から頭を出すことができない。",
+            "プランクトンはホッキョククジラの餌となる海中の小さな生物で、海中を上下に移動する。日中は視覚に頼って餌を見つける魚に捕まらないよう、海の深い部分にとどまる。午後になるとプランクトンは上に移動し始め、夜は海面付近にとどまる。こうすることで、魚に食べられるのを避けながら( 19 )できる。そこに浮かぶさらに小さな生物を食べる。",
+            "ホッキョククジラの潜水パターンは明らかではなかった。新しい研究により特別な潜水サイクルに従っていることがわかった。専門家は午後により深く潜ることを発見した。これにより集団で上昇するプランクトンを捕まえられる。潜水しながら大きな口を開けて多くのプランクトンを一度に食べることができる。( 20 )、研究者たちは100キロメートル離れていても2頭のクジラが同時に潜水していることを発見した。これは水中で音を通じてコミュニケーションしている可能性を示している。"
+          ],
+          "sentencePairs": [
+            [
+              "Bowhead whales live in the Arctic Ocean.",
+              "ホッキョククジラは北極海に生息する。",
+              "Bowhead whales live|ホッキョククジラは住んでいる||in the Arctic Ocean.|北極海に。",
+              "live"
+            ],
+            [
+              "Its water is very cold.",
+              "",
+              "Its water is very cold.|その水は非常に冷たい。",
+              "is"
+            ],
+            [
+              "To stay warm in the cold water, they have thick skin and fat under it.",
+              "",
+              "To stay warm in the cold water,|冷たい水の中で温かくいるために、||they have thick skin|彼らは厚い皮膚を持ち||and fat under it.|その下に脂肪がある。",
+              "have"
+            ],
+            [
+              "Their head is so big that it sometimes covers one-third of their body.",
+              "頭が非常に大きく、体の3分の1を占めることもある。",
+              "Their head is so big|彼らの頭はとても大きい||that it sometimes covers|時々覆うほど||one-third of their body.|体の3分の1を。",
+              "is"
+            ],
+            [
+              "This large head is critical for taking in air while they swim in the cold sea.",
+              "",
+              "This large head is critical|この大きな頭は重要だ||for taking in air|空気を取り込むために||while they swim in the cold sea.|冷たい海を泳いでいる間に。",
+              "is"
+            ],
+            [
+              "They use their head to ( 18 ).",
+              "彼らは頭を使って( 18 )。"
+            ],
+            [
+              "Otherwise, they could not push their heads out of the water.",
+              "",
+              "Otherwise,|さもなければ、||they could not push their heads|彼らは頭を突き出せない||out of the water.|水から。",
+              "could push"
+            ],
+            [
+              "Plankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea.",
+              "",
+              "Plankton,|プランクトンは、||small creatures living in the ocean|海に住む小さな生物で||and the food of bowhead whales,|ホッキョククジラの餌であり、||move up and down in the sea.|海の中で上下に移動する。",
+              "move"
+            ],
+            [
+              "They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food.",
+              "",
+              "They stay in the deeper parts|彼らは深い部分にいる||of the ocean during the day|昼間は海の||to avoid being caught|捕まえられるのを避けるために||by fish that depend on their vision|視覚に頼る魚に||to find food.|食べ物を見つけるために。",
+              "stay"
+            ],
+            [
+              "Plankton start to move up in the afternoon.",
+              "",
+              "Plankton start to move up|プランクトンは上に移動し始める||in the afternoon.|午後に。",
+              "start"
+            ],
+            [
+              "They stay near the surface of the ocean at night.",
+              "",
+              "They stay near the surface|彼らは水面近くにいる||of the ocean at night.|夜の海の。",
+              "stay"
+            ],
+            [
+              "By doing so, they can ( 19 ) easily while avoiding being eaten by fish.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "They eat other even smaller creatures that float around there.",
+              "",
+              "They eat|彼らは食べる||other even smaller creatures|他のさらに小さな生物を||that float around there.|そこに浮かんでいる。",
+              "eat"
+            ],
+            [
+              "The diving patterns of bowhead whales had not been clear.",
+              "",
+              "The diving patterns of bowhead whales|ホッキョククジラの潜水パターンは||had not been clear.|明らかではなかった。",
+              "had been"
+            ],
+            [
+              "New research showed they followed a special diving cycle.",
+              "新しい研究により特別な潜水サイクルに従っていることがわかった。",
+              "New research showed|新しい研究は示した||they followed a special diving cycle.|特別な潜水サイクルに従っていると。",
+              "showed"
+            ],
+            [
+              "Experts found they dived deeper in the afternoon.",
+              "専門家は午後により深く潜ることを発見した。",
+              "Experts found|専門家は発見した||they dived deeper|より深く潜ったと||in the afternoon.|午後に。",
+              "found"
+            ],
+            [
+              "This allows them to catch plankton that move up in groups.",
+              "",
+              "This allows them|これが彼らに許す||to catch plankton|プランクトンを捕まえることを||that move up in groups.|群れで上昇する。",
+              "allows"
+            ],
+            [
+              "They can open their big mouth while they dive down and eat many plankton at once.",
+              "",
+              "They can open their big mouth|彼らは大きな口を開けられる||while they dive down|潜る間に||and eat many plankton at once.|一度に多くのプランクトンを食べる。",
+              "can open"
+            ],
+            [
+              "( 20 ), the researchers discovered two whales diving at the same time, even when they were one hundred kilometers apart.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "This shows the possibility that they communicate with sound through the water.",
+              "これは水中で音を通じてコミュニケーションしている可能性を示している。",
+              "This shows the possibility|これは可能性を示す||that they communicate with sound|彼らが音で交信していると||through the water.|水を通じて。",
+              "shows"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 18,
+              "choices": [
+                "look stronger than other whales",
+                "break through thick ice to breathe",
+                "eat large animals with fins",
+                "attack dangerous sharks"
+              ],
+              "answer": 2,
+              "choiceAnalysis": [
+                "他のクジラより強く見える→頭の機能の説明に不適切",
+                "厚い氷を割って呼吸する→正解。💡 push heads out of water=水面から頭を出す→北極海では氷を割る必要がある",
+                "ヒレのある大きな動物を食べる→プランクトンが餌",
+                "危険なサメを攻撃する→本文にない"
+              ]
+            },
+            {
+              "number": 19,
+              "choices": [
+                "find their food source",
+                "swim across the ocean",
+                "dive to the bottom",
+                "get light from the moon"
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "餌源を見つける→正解。💡 float around there=そこに浮かぶ小さな生物を食べる=food sourceを見つける",
+                "海を横断する→不適切",
+                "海底に潜る→上に移動するので矛盾",
+                "月の光を得る→本文にない"
+              ]
+            },
+            {
+              "number": 20,
+              "choices": [
+                "At least",
+                "Thus",
+                "Interestingly",
+                "To put it simply"
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "少なくとも→驚くべき発見の導入に不適切",
+                "したがって→因果関係ではなく追加の興味深い発見",
+                "興味深いことに→正解。💡 2頭が100km離れて同時に潜水=驚くべき追加発見→Interestingly",
+                "簡単に言えば→要約ではなく新発見"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Smørrebrød",
+          "paragraphs": [
+            "Food is like a mirror that reflects cultures. If people look at the food of a country or a region, they are more likely to understand the community, what people like, and how people live. The ingredients and how they are cooked and eaten show the lifestyles of the people. This is probably why many people like to enjoy local food when they travel. ( 21 ), when travelers skip local food, they often miss out on a deeper cultural experience and end up with only a limited understanding of the culture.",
+            "One such food that travelers should not miss out on in Denmark is Smørrebrød. This is because this food expresses the culture and lifestyle of Denmark. It is an open sandwich with different ingredients placed on top of a slice of bread. ( 22 ). As most people were involved in farming in the nineteenth century, they put the food from last night's dinner on a slice of bread and brought it to the farm to eat while working.",
+            "The Industrial Revolution helped Smørrebrød spread all over Denmark. Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient. At first, people gave the bread to animals. Later, they ( 23 ), soaked with juice from the toppings. This led to the spread of the idea that the bread was not just a plate but part of the food itself. From then on, Smørrebrød was recognized as an open sandwich."
+          ],
+          "translations": [
+            "食べ物は文化を映す鏡のようなものだ。ある国や地域の食べ物を見れば、コミュニティ、人々の好み、生活様式をより理解しやすくなる。材料やその調理法・食べ方は人々のライフスタイルを示す。旅行先で地元の料理を楽しむ人が多いのはおそらくこのためだ。( 21 )、旅行者が地元料理を食べないと、より深い文化体験を逃し、文化の限られた理解しか得られないことが多い。",
+            "デンマークで旅行者が見逃すべきでない料理の一つがスモーブローだ。この料理がデンマークの文化とライフスタイルを表現しているからだ。パンの一切れの上にさまざまな材料を載せたオープンサンドイッチだ。( 22 )。19世紀にはほとんどの人が農業に従事していたため、前夜の夕食の残りをパンの上に載せて農場に持って行き、働きながら食べた。",
+            "産業革命によりスモーブローはデンマーク全土に広まった。工場で働く人々は昼食のために帰宅できなかったので、皿代わりのパンに料理を載せるのは便利だった。最初は人々はパンを動物に与えていた。後に彼らはトッピングの汁が染み込んだパンが( 23 )。これにより、パンは単なる皿ではなく料理の一部であるという考えが広まった。それ以降、スモーブローはオープンサンドイッチとして認識されるようになった。"
+          ],
+          "sentencePairs": [
+            [
+              "Food is like a mirror that reflects cultures.",
+              "食べ物は文化を映す鏡のようなものだ。",
+              "Food is like a mirror|食べ物は鏡のようなもので||that reflects cultures.|文化を映し出す。",
+              "is"
+            ],
+            [
+              "If people look at the food of a country or a region, they are more likely to understand the community, what people like, and how people live.",
+              "",
+              "If people look at the food|もし人々が食べ物を見れば||of a country or a region,|国や地域の、||they are more likely to understand|より理解しやすくなる||the community,|そのコミュニティを、||what people like,|人々が好むものを、||and how people live.|そして人々がどう暮らすかを。",
+              "are"
+            ],
+            [
+              "The ingredients and how they are cooked and eaten show the lifestyles of the people.",
+              "材料やその調理法・食べ方は人々のライフスタイルを示す。",
+              "The ingredients|食材は||and how they are cooked and eaten|そしてそれらがどう調理され食べられるかは||show the lifestyles of the people.|人々の生活様式を示す。",
+              "show"
+            ],
+            [
+              "This is probably why many people like to enjoy local food when they travel.",
+              "",
+              "This is probably why|これがおそらく理由だ||many people like to enjoy local food|多くの人が地元の食べ物を楽しむのを好む||when they travel.|旅行する時に。",
+              "is"
+            ],
+            [
+              "( 21 ), when travelers skip local food, they often miss out on a deeper cultural experience and end up with only a limited understanding of the culture.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "One such food that travelers should not miss out on in Denmark is Smørrebrød.",
+              "デンマークで旅行者が見逃すべきでない料理の一つがスモーブローだ。",
+              "One such food|そのような食べ物の一つは||that travelers should not miss out on|旅行者が見逃すべきではない||in Denmark|Denmarkの||is Smørrebrød.|Smørrebrødである。",
+              "is"
+            ],
+            [
+              "This is because this food expresses the culture and lifestyle of Denmark.",
+              "",
+              "This is because|これは〜だからだ||this food expresses|この食べ物が表現する||the culture and lifestyle of Denmark.|Denmarkの文化と生活様式を。",
+              "expresses"
+            ],
+            [
+              "It is an open sandwich with different ingredients placed on top of a slice of bread.",
+              "パンの一切れの上にさまざまな材料を載せたオープンサンドイッチだ。",
+              "It is an open sandwich|それはオープンサンドイッチで||with different ingredients placed|様々な食材が乗せられた||on top of a slice of bread.|一切れのパンの上に。",
+              "is"
+            ],
+            [
+              "( 22 ).",
+              "",
+              "",
+              ""
+            ],
+            [
+              "As most people were involved in farming in the nineteenth century, they put the food from last night's dinner on a slice of bread and brought it to the farm to eat while working.",
+              "",
+              "As most people were involved|ほとんどの人が携わっていたので||in farming in the nineteenth century,|19世紀の農業に、||they put the food from last night's dinner|前夜の夕食の食べ物を置いた||on a slice of bread|一切れのパンの上に||and brought it to the farm|農場に持って行った||to eat while working.|働きながら食べるために。",
+              "put"
+            ],
+            [
+              "The Industrial Revolution helped Smørrebrød spread all over Denmark.",
+              "",
+              "The Industrial Revolution helped|産業革命が助けた||Smørrebrød spread|Smørrebrødが広がるのを||all over Denmark.|Denmark中に。",
+              "helped"
+            ],
+            [
+              "Since people working in factories could not go home for lunch, food placed on bread used as a plate was convenient.",
+              "工場で働く人々は昼食のために帰宅できなかったので、皿代わりのパンに料理を載せるのは便利だった。",
+              "Since people working in factories|工場で働く人々は||could not go home for lunch,|昼食に帰れなかったので、||food placed on bread|パンの上に置かれた食べ物は||used as a plate|皿として使われる||was convenient.|便利だった。",
+              "was"
+            ],
+            [
+              "At first, people gave the bread to animals.",
+              "最初は人々はパンを動物に与えていた。",
+              "At first,|最初は、||people gave the bread to animals.|人々はパンを動物に与えた。",
+              "gave"
+            ],
+            [
+              "Later, they ( 23 ), soaked with juice from the toppings.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "This led to the spread of the idea that the bread was not just a plate but part of the food itself.",
+              "",
+              "This led to the spread|これが広がりにつながった||of the idea|考えの||that the bread was not just a plate|パンはただの皿ではなく||but part of the food itself.|食べ物自体の一部であるという。",
+              "led"
+            ],
+            [
+              "From then on, Smørrebrød was recognized as an open sandwich.",
+              "スモーブローはオープンサンドイッチとして認識されるようになった。",
+              "From then on,|それ以降、||Smørrebrød was recognized|Smørrebrødは認識された||as an open sandwich.|オープンサンドイッチとして。",
+              "was recognized"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 21,
+              "choices": [
+                "At first",
+                "At the same time",
+                "In the meantime",
+                "In short"
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "最初は→時系列の話ではない",
+                "同時に→不適切",
+                "その間に→不適切",
+                "要するに→正解。💡 前文の理由→In short(要するに)=地元食を食べないと文化体験を逃す。まとめの接続詞"
+              ]
+            },
+            {
+              "number": 22,
+              "choices": [
+                "It was created because of people's lifestyles",
+                "It became a luxury dining option",
+                "It began with the king's cooking",
+                "It was imported from other countries"
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "人々のライフスタイルのために作られた→正解。💡 farming→食べ物をパンに載せて農場へ=ライフスタイルが起源",
+                "高級料理になった→本文にない",
+                "王の料理から始まった→本文にない",
+                "他の国から輸入された→本文にない"
+              ]
+            },
+            {
+              "number": 23,
+              "choices": [
+                "threw it away",
+                "began to sell it",
+                "found it delicious",
+                "thought it was ruined"
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "捨てた→最初は動物に与えていたが後に変わった",
+                "売り始めた→本文にない",
+                "おいしいと感じた→正解。💡 soaked with juice=汁が染みたパンがおいしい→食べるようになった→パンも料理の一部に",
+                "だめになったと思った→おいしい発見の逆"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "大問3",
+      "nameEn": "Part 3",
+      "type": "reading-comprehension",
+      "instruction": "次の英文A，Bの内容に関して，(24)から(31)までの質問に対して最も適切なものを選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Housing Options",
+          "format": "email",
+          "meta": {
+            "from": "Mia Roberts",
+            "to": "Kyle Webb",
+            "date": "May 24",
+            "subject": "Housing options"
+          },
+          "paragraphs": [
+            "Thank you for your earlier e-mail asking about housing options. We are pleased to provide you with the necessary information. Our school policy states that all first-year students must live on campus. You have the option to choose either living by yourself or sharing a room with a roommate. You cannot change your arrangement until the end of the first term. You will have the chance to change your arrangement during the winter break.",
+            "If you decide to have a roommate, we will take into consideration what you like. We do this so that we can make sure all of our students can live comfortably. Things we consider include whether you are a morning person, what your hobbies are, and what language you would like to speak, but are not limited to these. Also, please note that different housing units have different amenities. Some units have a kitchen, others have a shared one on each floor, and there are also buildings without a kitchen.",
+            "We will begin the arrangement once your online form is turned in and your money is received. It generally takes about two weeks for the arrangement to be completed. We recommend applying by the first week of August to make it in time for the start of the term in the first week of September. If you have other questions, please do not hesitate to contact us."
+          ],
+          "translations": [
+            "住居オプションについてお問い合わせいただきありがとうございます。必要な情報をお伝えいたします。本校の方針では、1年生全員がキャンパス内に住む必要があります。一人で住むか、ルームメイトと部屋を共有するかを選択できます。最初の学期が終わるまで配置を変更することはできません。冬休み中に変更する機会があります。",
+            "ルームメイトを希望する場合、お好みを考慮します。すべての学生が快適に暮らせるようにするためです。朝型かどうか、趣味は何か、どの言語を話したいかなどを考慮しますが、これらに限定されません。また、住居ユニットごとに設備が異なることにご注意ください。キッチン付きのユニット、各階に共有キッチンがあるもの、キッチンのない建物もあります。",
+            "オンラインフォームの提出と入金が確認でき次第、手配を開始します。手配完了まで通常約2週間かかります。9月第1週の学期開始に間に合うよう、8月第1週までの申請をお勧めします。他にご質問があれば、お気軽にお問い合わせください。"
+          ],
+          "sentencePairs": [
+            [
+              "Thank you for your earlier e-mail asking about housing options.",
+              "",
+              "Thank you for your earlier e-mail|先ほどのメールをありがとうございます||asking about housing options.|住居の選択肢についてお尋ねの。",
+              "Thank you"
+            ],
+            [
+              "We are pleased to provide you with the necessary information.",
+              "",
+              "We are pleased|私たちは喜んでいます||to provide you|お伝えできることを||with the necessary information.|必要な情報を。",
+              "are"
+            ],
+            [
+              "Our school policy states that all first-year students must live on campus.",
+              "本校の方針では、1年生全員がキャンパス内に住む必要があります。",
+              "Our school policy states|学校の方針は述べています||that all first-year students|全ての1年生は||must live on campus.|キャンパス内に住まなければならないと。",
+              "states"
+            ],
+            [
+              "You have the option to choose either living by yourself or sharing a room with a roommate.",
+              "一人で住むか、ルームメイトと部屋を共有するかを選択できます。",
+              "You have the option to choose|選択肢があります||either living by yourself|一人で暮らすか||or sharing a room with a roommate.|ルームメイトと部屋を共有するか。",
+              "have"
+            ],
+            [
+              "You cannot change your arrangement until the end of the first term.",
+              "最初の学期が終わるまで配置を変更することはできません。",
+              "You cannot change your arrangement|配置を変更できません||until the end of the first term.|最初の学期の終わりまで。",
+              "cannot change"
+            ],
+            [
+              "You will have the chance to change your arrangement during the winter break.",
+              "",
+              "You will have the chance|機会があります||to change your arrangement|配置を変更する||during the winter break.|冬休みの間に。",
+              "will have"
+            ],
+            [
+              "If you decide to have a roommate, we will take into consideration what you like.",
+              "",
+              "If you decide to have a roommate,|ルームメイトを持つことに決めたら、||we will take into consideration|考慮します||what you like.|あなたの好みを。",
+              "will take"
+            ],
+            [
+              "We do this so that we can make sure all of our students can live comfortably.",
+              "",
+              "We do this|これをするのは||so that we can make sure|確実にするためです||all of our students can live comfortably.|全ての学生が快適に暮らせるように。",
+              "do"
+            ],
+            [
+              "Things we consider include whether you are a morning person, what your hobbies are, and what language you would like to speak, but are not limited to these.",
+              "",
+              "Things we consider include|考慮する事項には含まれます||whether you are a morning person,|朝型かどうか、||what your hobbies are,|趣味は何か、||and what language you would like to speak,|どの言語を話したいか、||but are not limited to these.|しかしこれらに限りません。",
+              "include"
+            ],
+            [
+              "Also, please note that different housing units have different amenities.",
+              "",
+              "Also, please note|また、ご注意ください||that different housing units|異なる住居ユニットには||have different amenities.|異なる設備があることを。",
+              "note"
+            ],
+            [
+              "Some units have a kitchen, others have a shared one on each floor, and there are also buildings without a kitchen.",
+              "",
+              "Some units have a kitchen,|キッチン付きのユニットもあれば、||others have a shared one|共有のキッチンがある||on each floor,|各階に、||and there are also buildings without a kitchen.|キッチンのない建物もあります。",
+              "have"
+            ],
+            [
+              "We will begin the arrangement once your online form is turned in and your money is received.",
+              "オンラインフォームの提出と入金が確認でき次第、手配を開始します。",
+              "We will begin the arrangement|配置を開始します||once your online form is turned in|オンラインフォームが提出され||and your money is received.|入金が確認され次第。",
+              "will begin"
+            ],
+            [
+              "It generally takes about two weeks for the arrangement to be completed.",
+              "手配完了まで通常約2週間かかります。",
+              "It generally takes about two weeks|通常約2週間かかります||for the arrangement to be completed.|配置が完了するまで。",
+              "takes"
+            ],
+            [
+              "We recommend applying by the first week of August to make it in time for the start of the term in the first week of September.",
+              "",
+              "We recommend applying|申し込みを推奨します||by the first week of August|8月の第1週までに||to make it in time|間に合うように||for the start of the term|学期の開始に||in the first week of September.|9月の第1週の。",
+              "recommend"
+            ],
+            [
+              "If you have other questions, please do not hesitate to contact us.",
+              "",
+              "If you have other questions,|他に質問がありましたら、||please do not hesitate to contact us.|遠慮なくお問い合わせください。",
+              "hesitate"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 24,
+              "question": "According to the school policy, what housing choices do the first-year students have?",
+              "choices": [
+                "They can live in apartments both on campus and off campus.",
+                "They have to share rooms during the first year.",
+                "They have to live on campus but can choose to live alone or share.",
+                "The Student Housing Office decides whether students live alone or share."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "キャンパス内外で住める→must live on campusなのでoff campusは不可",
+                "1年目は部屋を共有しなければならない→live by yourself or sharingで選択制",
+                "キャンパス内に住むが一人か共有か選べる→正解。💡 must live on campus + choose either living by yourself or sharing",
+                "住宅課が決める→学生が選択できる"
+              ],
+              "questionTranslation": "学校の方針によると、1年生にはどのような住居の選択肢がありますか？",
+              "choiceTranslations": [
+                "キャンパス内外のアパートに住める。",
+                "1年目は部屋を共有しなければならない。",
+                "キャンパス内に住む必要があるが一人暮らしか共有かを選べる。",
+                "学生住居課が一人暮らしか共有かを決める。"
+              ]
+            },
+            {
+              "number": 25,
+              "question": "How does the Student Housing Office decide on who will be roommates?",
+              "choices": [
+                "It separates students by where they are from and then puts them together randomly.",
+                "It allows students to choose their own roommates.",
+                "It puts students of similar school performances together.",
+                "It matches students based on personal tastes."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "出身地で分けてランダムに→本文にない",
+                "学生が自分でルームメイトを選ぶ→本文にない",
+                "成績が似た学生を一緒にする→本文にない",
+                "個人の好みに基づいてマッチング→正解。💡 take into consideration what you like=好みを考慮してマッチング"
+              ],
+              "questionTranslation": "学生住居課はどのようにルームメイトを決めますか？",
+              "choiceTranslations": [
+                "出身地で分けてからランダムに組み合わせる。",
+                "学生が自分でルームメイトを選べるようにする。",
+                "同じような成績の学生を一緒にする。",
+                "個人の好みに基づいて学生をマッチングする。"
+              ]
+            },
+            {
+              "number": 26,
+              "question": "In order for students to have their housing ready before the term starts in September, students should",
+              "choices": [
+                "make their payment by early August.",
+                "send an application form by letter.",
+                "tell the names of their roommates to a teacher.",
+                "call the Student Housing Office within two weeks."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "8月初旬までに支払いをする→正解。💡 applying by first week of August + form turned in + money received=8月初旬に支払い完了",
+                "手紙で申請書を送る→online formなので手紙ではない",
+                "ルームメイトの名前を先生に言う→本文にない",
+                "2週間以内に電話する→2週間は手配にかかる時間"
+              ],
+              "questionTranslation": "9月の学期開始前に住居を準備するために、学生は何をすべきですか？",
+              "choiceTranslations": [
+                "8月初旬までに支払いをする。",
+                "郵便で申込書を送る。",
+                "ルームメイトの名前を教師に伝える。",
+                "2週間以内に学生住居課に電話する。"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Mars Exploration",
+          "paragraphs": [
+            "One reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+            "These images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+            "Once, scientists covered a spacecraft with many huge airbags and sent it with a parachute, and it landed on Mars successfully. But with this method, the spacecraft bounced like a beach ball up to fifteen meters high many times. It became clear that airbags were not suitable for bigger and heavier spacecraft. Until today, scientists have developed various technologies, such as new types of radar and engines for more smooth landing.",
+            "Now, NASA is hoping to land the first humans on Mars by the 2030s. Exploring Mars helps us learn about several things. For example, by studying whether life existed on Mars, it is possible for us to know more about Earth's past and future. Scientists also say that Mars might one day be a place where humans could move and live. Exploring Mars can provide humans with useful information for this challenge."
+          ],
+          "translations": [
+            "火星探査に興味がある理由の一つは、生命がどのように始まったかを理解したいからだ。火星は地球に似た惑星である。火星で過去の生命の証拠を発見すれば、地球の生命とどう異なっていたか、なぜ消滅したかを研究できる。火星への興味は最近始まったわけではない。17世紀、ガリレオ・ガリレイは手製の望遠鏡で火星を観察した。約350年後の1965年、NASAのマリナー4号という宇宙船が火星付近を飛行し、22枚の画像撮影に成功した。",
+            "これらの画像は火星に存在した生命の証拠を得るには不十分だった。代わりに科学者たちは無人宇宙船を火星に送り、岩石や土壌のサンプルを収集しようとしてきた。しかしこれまでの火星着陸の試みのうち約半分しか成功していない。地球からの距離と燃料の問題が着陸を困難にしていると言われるが、別の問題もある。火星の大気は地球の約1%しかない。もっと空気があれば、クッションとして機能し安全な着陸のために宇宙船の速度を落とせるだろう。",
+            "かつて科学者たちは宇宙船を多くの巨大なエアバッグで覆い、パラシュートで送り、火星への着陸に成功した。しかしこの方法では宇宙船がビーチボールのように15メートルもの高さに何度も跳ね返った。エアバッグはより大きく重い宇宙船には適さないことが明らかになった。現在まで科学者たちは新型レーダーやエンジンなど、よりスムーズな着陸のための様々な技術を開発してきた。",
+            "現在NASAは2030年代までに初めて人間を火星に着陸させることを目指している。火星探査はいくつかのことを学ぶのに役立つ。例えば火星に生命が存在したかどうかを研究することで、地球の過去と未来についてより多くを知ることができる。科学者たちは火星がいつか人間が移住して暮らせる場所になるかもしれないとも言っている。火星探査はこの挑戦に役立つ情報を人類に提供できる。"
+          ],
+          "sentencePairs": [
+            [
+              "One reason we are interested in exploring Mars is that we hope to understand how life began.",
+              "",
+              "One reason we are interested|私たちが興味を持つ理由の一つは||in exploring Mars is|火星探査に||that we hope to understand|生命がどのように始まったかを理解したいからだ||how life began.|生命がどう始まったかを。",
+              "is"
+            ],
+            [
+              "Mars is a planet that is similar to Earth.",
+              "火星は地球に似た惑星である。",
+              "Mars is a planet|火星は惑星で||that is similar to Earth.|地球に似ている。",
+              "is"
+            ],
+            [
+              "If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared.",
+              "",
+              "If we discover evidence|もし証拠を発見したら||of past life on Mars,|火星の過去の生命の、||we can study|研究できる||how it differed from life on Earth|それが地球の生命とどう異なっていたか||and why it disappeared.|そしてなぜ消えたかを。",
+              "can study"
+            ],
+            [
+              "Our interest in Mars did not start just recently.",
+              "",
+              "Our interest in Mars|火星への関心は||did not start just recently.|最近始まったばかりではない。",
+              "did start"
+            ],
+            [
+              "In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope.",
+              "17世紀、ガリレオは手製の望遠鏡で火星を観察した。",
+              "In the seventeenth century,|17世紀に、||Galileo Galilei looked at Mars|Galileo Galileiは火星を見た||using his handmade telescope.|手製の望遠鏡を使って。",
+              "looked"
+            ],
+            [
+              "About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+              "",
+              "About 350 years later, in 1965,|約350年後の1965年に、||a NASA spacecraft called Mariner 4|NASAのMariner 4という宇宙船が||flew near Mars|火星の近くを飛び||and successfully took|そして成功裏に撮影した||twenty-two images of Mars.|火星の22枚の画像を。",
+              "flew"
+            ],
+            [
+              "These images were not enough to get evidence of life that existed on Mars.",
+              "",
+              "These images were not enough|これらの画像は十分ではなかった||to get evidence of life|生命の証拠を得るには||that existed on Mars.|火星に存在した。",
+              "were"
+            ],
+            [
+              "Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil.",
+              "",
+              "Instead,|その代わりに、||scientists have sent spacecraft|科学者は宇宙船を送った||with no humans to Mars|人間なしで火星に||in order to gather samples|サンプルを集めるために||from the rocks and soil.|岩石と土壌から。",
+              "have sent"
+            ],
+            [
+              "However, only about half of all the attempts to land on Mars have been successful so far.",
+              "",
+              "However,|しかし、||only about half of all the attempts|すべての試みのうち約半分しか||to land on Mars|火星に着陸する||have been successful so far.|今までのところ成功していない。",
+              "have been"
+            ],
+            [
+              "It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem.",
+              "",
+              "It is said|〜と言われている||that the great distance from Earth|地球からの大きな距離と||and the fuel problems|燃料の問題が||make landing on Mars difficult,|火星着陸を困難にしていると、||but there is another problem.|しかし別の問題がある。",
+              "is said"
+            ],
+            [
+              "Mars has only about 1 percent of the amount of air that Earth has.",
+              "火星の大気は地球の約1%しかない。",
+              "Mars has only about 1 percent|火星は約1パーセントしかない||of the amount of air|空気の量の||that Earth has.|地球が持つ。",
+              "has"
+            ],
+            [
+              "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+              "",
+              "If there were more air,|もしより多くの空気があれば、||it would perform as a cushion|クッションの役割を果たし||and slow down the speed|速度を遅くするだろう||of a spacecraft|宇宙船の||for a safe landing.|安全な着陸のために。",
+              "would perform"
+            ],
+            [
+              "Once, scientists covered a spacecraft with many huge airbags and sent it with a parachute, and it landed on Mars successfully.",
+              "",
+              "Once,|かつて、||scientists covered a spacecraft|科学者は宇宙船を覆った||with many huge airbags|多くの巨大なエアバッグで||and sent it with a parachute,|パラシュートで送り、||and it landed on Mars successfully.|火星に成功裏に着陸した。",
+              "covered"
+            ],
+            [
+              "But with this method, the spacecraft bounced like a beach ball up to fifteen meters high many times.",
+              "",
+              "But with this method,|しかしこの方法では、||the spacecraft bounced|宇宙船は跳ね返った||like a beach ball|ビーチボールのように||up to fifteen meters high|最高15メートルの高さまで||many times.|何度も。",
+              "bounced"
+            ],
+            [
+              "It became clear that airbags were not suitable for bigger and heavier spacecraft.",
+              "エアバッグはより大きく重い宇宙船には適さないことが明らかになった。",
+              "It became clear|明らかになった||that airbags were not suitable|エアバッグは適していないと||for bigger and heavier spacecraft.|より大きく重い宇宙船には。",
+              "became"
+            ],
+            [
+              "Until today, scientists have developed various technologies, such as new types of radar and engines for more smooth landing.",
+              "",
+              "Until today,|今日まで、||scientists have developed|科学者は開発してきた||various technologies,|様々な技術を、||such as new types of radar and engines|新しい種類のレーダーやエンジンのような||for more smooth landing.|よりスムーズな着陸のための。",
+              "have developed"
+            ],
+            [
+              "Now, NASA is hoping to land the first humans on Mars by the 2030s.",
+              "NASAは2030年代までに初めて人間を火星に着陸させることを目指している。",
+              "Now,|今や、||NASA is hoping|NASAは期待している||to land the first humans on Mars|最初の人類を火星に着陸させることを||by the 2030s.|2030年代までに。",
+              "is hoping"
+            ],
+            [
+              "Exploring Mars helps us learn about several things.",
+              "",
+              "Exploring Mars helps us learn|火星探査は私たちが学ぶのに役立つ||about several things.|いくつかのことについて。",
+              "helps"
+            ],
+            [
+              "For example, by studying whether life existed on Mars, it is possible for us to know more about Earth's past and future.",
+              "",
+              "For example,|例えば、||by studying whether life existed on Mars,|火星に生命が存在したか研究することで、||it is possible for us to know more|私たちがより多くを知ることが可能だ||about Earth's past and future.|地球の過去と未来について。",
+              "is"
+            ],
+            [
+              "Scientists also say that Mars might one day be a place where humans could move and live.",
+              "火星がいつか人間が移住して暮らせる場所になるかもしれない。",
+              "Scientists also say|科学者はまた言う||that Mars might one day be|火星はいつか〜かもしれないと||a place where humans could move and live.|人間が移住して暮らせる場所に。",
+              "say"
+            ],
+            [
+              "Exploring Mars can provide humans with useful information for this challenge.",
+              "",
+              "Exploring Mars can provide humans|火星探査は人間に提供できる||with useful information|有用な情報を||for this challenge.|この課題のための。",
+              "can provide"
+            ]
+          ],
+          "questions": [
+            {
+              "number": 27,
+              "question": "What did Mariner 4 accomplish?",
+              "choices": [
+                "It brought humans to Mars for the first time.",
+                "It measured how close Mars was to Earth.",
+                "It went near Mars and took some pictures of it.",
+                "It captured the same image that Galileo Galilei drew."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "初めて人間を火星に運んだ→まだ実現していない",
+                "火星と地球の距離を測定→本文にない",
+                "火星付近に行き写真を撮った→正解。💡 flew near Mars and successfully took twenty-two images=火星付近で22枚の写真",
+                "ガリレオが描いたのと同じ画像→本文にない"
+              ],
+              "questionTranslation": "マリナー4号は何を達成しましたか？",
+              "choiceTranslations": [
+                "初めて人間を火星に連れて行った。",
+                "火星が地球からどれくらい近いか測定した。",
+                "火星に近づいて写真を撮った。",
+                "ガリレオ・ガリレイが描いたのと同じ画像を撮影した。"
+              ]
+            },
+            {
+              "number": 28,
+              "question": "Why is it difficult for a spacecraft to land on Mars?",
+              "choices": [
+                "Some countries disagree about developing new technologies.",
+                "The distance between Mars and Earth is too close.",
+                "There are few scientists who can operate a spacecraft.",
+                "There is little air to slow down a spacecraft when landing."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "各国の技術開発の意見の相違→本文にない",
+                "距離が近すぎる→too far(遠すぎる)が正しい",
+                "操作できる科学者が少ない→本文にない",
+                "着陸時に宇宙船を減速させる空気が少ない→正解。💡 only 1% of air→air as a cushion=空気がクッション役を果たせない"
+              ],
+              "questionTranslation": "宇宙船が火星に着陸するのが難しい理由は？",
+              "choiceTranslations": [
+                "新技術の開発について意見が合わない国がある。",
+                "火星と地球の距離が近すぎる。",
+                "宇宙船を操作できる科学者が少ない。",
+                "着陸時に宇宙船を減速させる空気がほとんどない。"
+              ]
+            },
+            {
+              "number": 29,
+              "question": "Covering a spacecraft with many airbags",
+              "choices": [
+                "is not the best way for every spacecraft to land smoothly.",
+                "is one of the most effective ways to find the best landing spot.",
+                "is the most recent technique that has been developed.",
+                "is one of the methods that has never been tried."
+              ],
+              "answer": 1,
+              "choiceAnalysis": [
+                "すべての宇宙船にとって最良の方法ではない→正解。💡 not suitable for bigger and heavier spacecraft=大きく重い宇宙船には不適切",
+                "最も効果的な着陸地点発見法→本文にない",
+                "最新の開発技術→onceなので過去の方法",
+                "試されたことのない方法→successfully landed=実際に使われた"
+              ],
+              "questionTranslation": "宇宙船を多数のエアバッグで覆うことは",
+              "choiceTranslations": [
+                "すべての宇宙船がスムーズに着陸するための最良の方法ではない。",
+                "最適な着陸地点を見つける最も効果的な方法の一つ。",
+                "開発された最も新しい技術。",
+                "試されたことのない方法の一つ。"
+              ]
+            },
+            {
+              "number": 30,
+              "question": "Exploring Mars could help humans",
+              "choices": [
+                "reach other planets within a shorter time.",
+                "learn about how to live more comfortably on Earth.",
+                "know more about the past and future of Earth.",
+                "gain useful information about new planets to discover."
+              ],
+              "answer": 3,
+              "choiceAnalysis": [
+                "より短い時間で他の惑星に到達→本文にない",
+                "地球でより快適に暮らす方法を学ぶ→本文にない",
+                "地球の過去と未来についてもっと知る→正解。💡 know more about Earth's past and future",
+                "発見すべき新しい惑星の情報得る→本文にない"
+              ],
+              "questionTranslation": "火星の探査は人間が何をするのに役立つ可能性がありますか",
+              "choiceTranslations": [
+                "より短い時間で他の惑星に到達する。",
+                "地球でより快適に生活する方法を学ぶ。",
+                "地球の過去と未来についてより多く知る。",
+                "発見すべき新しい惑星についての有用な情報を得る。"
+              ]
+            },
+            {
+              "number": 31,
+              "question": "Which of the following statements is true?",
+              "choices": [
+                "Humans started researching Mars in 1965.",
+                "All the attempts to land on Mars have succeeded.",
+                "Scientists have tried to send rock samples from Earth to Mars.",
+                "Technologies to land spacecraft smoothly have been developed."
+              ],
+              "answer": 4,
+              "choiceAnalysis": [
+                "1965年に研究が始まった→17世紀のガリレオから始まった",
+                "着陸の試みはすべて成功→about half=約半分のみ",
+                "地球から火星に岩石サンプルを送ろうとした→逆。火星からサンプルを収集",
+                "スムーズな着陸技術が開発された→正解。💡 developed various technologies for more smooth landing"
+              ],
+              "questionTranslation": "次のうち正しい記述はどれですか？",
+              "choiceTranslations": [
+                "人間は1965年に火星の研究を始めた。",
+                "火星への着陸の試みはすべて成功している。",
+                "科学者は地球から火星に岩石サンプルを送ろうとしてきた。",
+                "宇宙船をスムーズに着陸させる技術が開発されてきた。"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "lessonPlan": {
+    "focusPoints": [
+      {
+        "id": "fp1",
+        "title": "仮定法過去（If + 過去形, S + would V）",
+        "subtitle": "Second Conditional (Unreal Present)",
+        "explanation": "If + S + 過去形, S + would + V原形 は「もし〜なら、…するだろう」と現在の事実に反する仮定を表す。科学的考察で「もし条件が異なれば」と仮想的状況を述べる際に使われる。",
+        "sourceQuote": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+            "ja": "もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
+            "note": "If there were(仮定法過去) + would perform: 現実にはありえない仮定"
+          },
+          {
+            "en": "It is said that the great distance from Earth and the fuel problems make landing on Mars difficult.",
+            "ja": "地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われている。",
+            "note": "It is said that: 非人称受動態。make + O + C: 「〜を困難にする」"
+          },
+          {
+            "en": "If I had more time, I would study astronomy.",
+            "ja": "もっと時間があれば、天文学を勉強するのだが。",
+            "note": "If + had(過去形) + would study: 現在の事実に反する仮定の基本形"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'If there were more air, it would perform as a cushion' はなぜ仮定法過去ですか？",
+            "a": "火星には地球の約1%の空気しかないという現実に反する仮定。「もしもっと空気があれば（実際はない）」= 仮定法過去。wereはbe動詞の仮定法形。"
+          },
+          {
+            "q": "火星への着陸を困難にしている要因を3つ答えてください。",
+            "a": "①地球からの大きな距離(the great distance from Earth) ②燃料の問題(the fuel problems) ③空気が地球の約1%しかない(only about 1 percent of the amount of air)"
+          },
+          {
+            "q": "'in order to gather samples' の 'in order to' はどのような意味ですか？",
+            "a": "「〜するために」目的の不定詞の強調形。= to gather。岩石や土壌からサンプルを集める目的を明示。"
+          },
+          {
+            "q": "'only about half of all the attempts' は火星探査について何を示していますか？",
+            "a": "着陸の試みの約半分しか成功しておらず、火星着陸がいかに困難であるかを具体的な数字で示している。"
+          }
+        ],
+        "highlightPatterns": [
+          "If there were more air, it would perform as a cushion and slow down the speed"
+        ],
+        "highlightColor": "#FF6B6B",
+        "highlightLabel": "仮定法過去 If...would",
+        "practicePassage": {
+          "en": "[出典: Mars Exploration]\nThese images were not enough to get evidence of life that existed on Mars. Instead, scientists have sent spacecraft with no humans to Mars in order to gather samples from the rocks and soil. However, only about half of all the attempts to land on Mars have been successful so far. It is said that the great distance from Earth and the fuel problems make landing on Mars difficult, but there is another problem. Mars has only about 1 percent of the amount of air that Earth has. If there were more air, it would perform as a cushion and slow down the speed of a spacecraft for a safe landing.",
+          "ja": "これらの画像は火星に存在した生命の証拠を得るのに十分ではなかった。代わりに、科学者たちは岩石や土壌からサンプルを集めるために無人宇宙船を火星に送ってきた。しかし、火星への着陸の試みは、これまでのところ約半分しか成功していない。地球からの大きな距離と燃料の問題が火星への着陸を困難にしていると言われているが、もう一つの問題がある。火星の空気量は地球の約1パーセントしかない。もしもっと空気があれば、クッションの役割を果たし、安全な着陸のために宇宙船の速度を遅くするだろう。",
+          "audioFile": "audio/practice_pp1.mp3"
+        }
+      },
+      {
+        "id": "fp2",
+        "title": "so...that 結果構文 + Otherwise 仮定法",
+        "subtitle": "Result Clause and Implied Conditional",
+        "explanation": "so + 形容詞/副詞 + that は「あまりに〜なので…」と程度→結果を表す。Otherwise は「さもなければ」と前文の仮定を受けて反事実を述べる暗黙の仮定法。",
+        "sourceQuote": "Their head is so big that it sometimes covers one-third of their body.",
+        "sourceLocation": "Part 2A",
+        "examples": [
+          {
+            "en": "Their head is so big that it sometimes covers one-third of their body.",
+            "ja": "彼らの頭はあまりに大きいので、体の3分の1を占めることもある。",
+            "note": "so big that: 程度→結果。「あまりに大きいので〜」"
+          },
+          {
+            "en": "Otherwise, they could not push their heads out of the water.",
+            "ja": "さもなければ、水から頭を突き出すことができないだろう。",
+            "note": "Otherwise + could not: 暗黙の仮定法。「大きな頭がなければ」という前文を受ける"
+          },
+          {
+            "en": "The room was so dark that I could barely see anything.",
+            "ja": "部屋はあまりに暗かったので、ほとんど何も見えなかった。",
+            "note": "so dark that: so + 形容詞 + that 結果構文の典型"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'so big that it sometimes covers one-third of their body' の構文を分析してください。",
+            "a": "so(副詞) + big(形容詞) + that(結果の接続詞) + it covers...。「あまりに大きいので体の1/3を占める」。程度→結果。"
+          },
+          {
+            "q": "'Otherwise, they could not push their heads out of the water' の 'Otherwise' は何を暗示していますか？",
+            "a": "「もし大きな頭で氷を突き破れなければ」。前文の「頭で氷を割って呼吸する」の反対の状況を仮定。could not は仮定法のcouldで反事実の不可能を示す。"
+          },
+          {
+            "q": "ホッキョククジラが冷たい水の中で暖かく過ごす方法を説明してください。",
+            "a": "厚い皮膚(thick skin)とその下の脂肪(fat under it)を持っている。これが断熱材の役割を果たす。"
+          },
+          {
+            "q": "ホッキョククジラの大きな頭の重要な役割は何ですか？",
+            "a": "厚い氷を突き破って呼吸するため(to break through thick ice to breathe)。冷たい海で空気を取り入れるのに不可欠(critical)。"
+          }
+        ],
+        "highlightPatterns": [
+          "so big that it sometimes covers one-third of their body",
+          "Otherwise, they could not push their heads out of the water"
+        ],
+        "highlightColor": "#4ECDC4",
+        "highlightLabel": "so...that / Otherwise",
+        "practicePassage": {
+          "en": "[出典: Animals in the Cold Sea]\nBowhead whales live in the Arctic Ocean. Its water is very cold. To stay warm in the cold water, they have thick skin and fat under it. Their head is so big that it sometimes covers one-third of their body. This large head is critical for taking in air while they swim in the cold sea. They use their head to break through thick ice to breathe. Otherwise, they could not push their heads out of the water.",
+          "ja": "ホッキョククジラは北極海に生息している。水は非常に冷たい。冷たい水の中で暖かく過ごすために、彼らは厚い皮膚とその下に脂肪を持っている。頭はあまりに大きいので、体の3分の1を占めることもある。この大きな頭は冷たい海で泳ぎながら空気を取り入れるのに不可欠である。彼らは厚い氷を頭で突き破って呼吸する。さもなければ、水から頭を突き出すことができないだろう。",
+          "audioFile": "audio/practice_pp2.mp3"
+        }
+      },
+      {
+        "id": "fp3",
+        "title": "目的の to avoid -ing + 手段の By doing so",
+        "subtitle": "Purpose with Avoidance and Means",
+        "explanation": "to avoid + -ing は「〜されるのを避けるために」と回避目的を表す。By doing so は「そうすることで」と前文の行動を受けて手段・結果を示す。",
+        "sourceQuote": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish.",
+        "sourceLocation": "Part 2A",
+        "examples": [
+          {
+            "en": "They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food.",
+            "ja": "食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。",
+            "note": "to avoid + being caught(受動動名詞): 「捕まるのを避けるために」"
+          },
+          {
+            "en": "By doing so, they can find their food source easily while avoiding being eaten by fish.",
+            "ja": "そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。",
+            "note": "By doing so: 「そうすることで」前文の行動(夜に表面付近に移動)を受ける"
+          },
+          {
+            "en": "She moved to a quieter area to avoid the noise from construction.",
+            "ja": "工事の騒音を避けるために、より静かな場所に引っ越した。",
+            "note": "to avoid + 名詞: 回避目的の基本形"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'to avoid being caught by fish' の構文を分析してください。",
+            "a": "to avoid(目的の不定詞) + being caught(受動態の動名詞) + by fish(動作主)。「魚に捕まるのを避けるために」。avoidは動名詞を目的語にとる。"
+          },
+          {
+            "q": "'By doing so' の 'so' は何を指していますか？",
+            "a": "前文で述べた行動全体。日中は深い所にとどまり、午後に上昇し、夜は表面付近にとどまるという移動パターン。"
+          },
+          {
+            "q": "プランクトンが日中に海の深い部分にとどまる理由は何ですか？",
+            "a": "視覚に頼って食料を見つける魚に捕まるのを避けるため。深い部分は暗いので視覚に頼る魚から逃れやすい。"
+          },
+          {
+            "q": "'while avoiding being eaten by fish' の 'while' はどのような意味ですか？",
+            "a": "「〜しながら」同時進行。食料源を見つける(目的)とfish に食べられるのを避ける(回避)を同時に達成。"
+          }
+        ],
+        "highlightPatterns": [
+          "to avoid being caught by fish",
+          "By doing so, they can find their food source easily while avoiding being eaten by fish"
+        ],
+        "highlightColor": "#45B7D1",
+        "highlightLabel": "to avoid / By doing so",
+        "practicePassage": {
+          "en": "[出典: Animals in the Cold Sea]\nPlankton, small creatures living in the ocean and the food of bowhead whales, move up and down in the sea. They stay in the deeper parts of the ocean during the day to avoid being caught by fish that depend on their vision to find food. Plankton start to move up in the afternoon. They stay near the surface of the ocean at night. By doing so, they can find their food source easily while avoiding being eaten by fish. They eat other even smaller creatures that float around there.",
+          "ja": "プランクトンは海に住む小さな生物で、ホッキョククジラの餌である。海の中で上下に移動する。食料を見つけるのに視覚に頼る魚に捕まるのを避けるため、日中は海の深い部分にとどまる。プランクトンは午後に上昇し始める。夜は海の表面付近にとどまる。そうすることで、魚に食べられるのを避けながら、食料源を簡単に見つけることができる。彼らはその辺りに漂うさらに小さな生物を食べる。",
+          "audioFile": "audio/practice_pp3.mp3"
+        }
+      },
+      {
+        "id": "fp4",
+        "title": "間接疑問文（how / why / whether）",
+        "subtitle": "Indirect Questions as Noun Clauses",
+        "explanation": "how + S + V / why + S + V / whether + S + V はそれぞれ「どのように〜か/なぜ〜か/〜かどうか」を表す名詞節。動詞の目的語として使われ、長文の論点や研究目的を示す。",
+        "sourceQuote": "We can study how it differed from life on Earth and why it disappeared.",
+        "sourceLocation": "Part 3B",
+        "examples": [
+          {
+            "en": "We can study how it differed from life on Earth and why it disappeared.",
+            "ja": "それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。",
+            "note": "how + S + V と why + S + V: 2つの間接疑問が並列で studyの目的語"
+          },
+          {
+            "en": "If we discover evidence of past life on Mars, we can study how it differed from life on Earth.",
+            "ja": "もし火星で過去の生命の証拠を発見すれば、地球の生命との違いを研究できる。",
+            "note": "If + 現在形 + can: 条件節。将来実現可能な仮定。"
+          },
+          {
+            "en": "Scientists want to know whether life ever existed on Mars.",
+            "ja": "科学者たちは火星に生命が存在したかどうかを知りたがっている。",
+            "note": "whether + S + V: 「〜かどうか」間接疑問文"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'how it differed from life on Earth and why it disappeared' の構文を分析してください。",
+            "a": "how + it differed(間接疑問1) + and + why + it disappeared(間接疑問2)。studyの目的語として2つの間接疑問文が並列。「どのように異なった か」と「なぜ消滅したか」。"
+          },
+          {
+            "q": "火星探査に興味を持つ主な理由は何ですか？",
+            "a": "生命がどのように始まったかを理解するため(we hope to understand how life began)。火星で生命の痕跡を調べることで地球の生命への理解が深まる。"
+          },
+          {
+            "q": "'Our interest in Mars did not start just recently' はどのような情報を導入していますか？",
+            "a": "火星への関心の歴史的背景。17世紀のガリレオから1965年のマリナー4号まで、長い歴史があることを示し、最近の取り組みではないことを強調。"
+          },
+          {
+            "q": "'successfully took twenty-two images' で使われる 'successfully' はどのような役割ですか？",
+            "a": "副詞。画像を撮影できたことが大きな成果であったことを強調。当時の技術では火星の画像撮影自体が困難な偉業だった。"
+          }
+        ],
+        "highlightPatterns": [
+          "how it differed from life on Earth and why it disappeared"
+        ],
+        "highlightColor": "#96CEB4",
+        "highlightLabel": "間接疑問文",
+        "practicePassage": {
+          "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+          "ja": "火星探査に興味を持つ理由の一つは、生命がどのように始まったかを理解したいということである。火星は地球に似た惑星である。もし火星で過去の生命の証拠を発見すれば、それが地球上の生命とどのように異なっていたか、そしてなぜ消滅したかを研究できる。火星への関心は最近始まったものではない。17世紀にガリレオ・ガリレイが手製の望遠鏡で火星を観察した。約350年後の1965年、NASAの宇宙船マリナー4号が火星の近くを飛行し、22枚の火星の画像を撮影することに成功した。",
+          "audioFile": "audio/practice_pp4.mp3"
+        }
+      },
+      {
+        "id": "fp5",
+        "title": "今回の重要なパラフレーズ",
+        "subtitle": "Key Paraphrases",
+        "explanation": "正解選択肢と本文表現の対応関係を見抜く力が必要。特にメール問題では依頼・指示の言い換えに注意。",
+        "sourceQuote": "①live on campus + choose alone or share ← must live on campus + by yourself or sharing\n②personal tastes ← what you like\n③make payment by early August ← applying by first week of August + money received\n④went near Mars and took pictures ← flew near Mars and took images\n⑤little air to slow down ← 1 percent of the amount of air",
+        "sourceLocation": "Part 3 全体",
+        "examples": [
+          {
+            "en": "personal tastes = what you like",
+            "ja": "個人の好み = あなたが好きなもの",
+            "note": "抽象化のパラフレーズ"
+          },
+          {
+            "en": "went near and took pictures = flew near and took images",
+            "ja": "近くに行って写真を撮った = 近くを飛んで画像を撮影した",
+            "note": "動詞の言い換え"
+          },
+          {
+            "en": "little air to slow down = only 1 percent of air",
+            "ja": "減速させる空気が少ない = 空気が1%しかない",
+            "note": "数値→程度への言い換え"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "q": "'flew near Mars and took twenty-two images' を言い換えてください。",
+            "a": "'passed close to Mars and captured twenty-two photographs'。flew near = passed close to, took = captured。"
+          },
+          {
+            "q": "'interested in exploring Mars' を言い換えてください。",
+            "a": "'eager to investigate the Red Planet' や 'keen on studying Mars'。interested = eager/keen, exploring = investigating。"
+          },
+          {
+            "q": "'similar to Earth' を別の表現で言い換えると？",
+            "a": "'resembling our planet' や 'comparable to Earth'。similar to = resembling / comparable to。"
+          },
+          {
+            "q": "火星探査の初期の成果を要約してください。",
+            "a": "1965年に初の接近飛行で22枚撮影。クレーターや山の荒涼とした風景を確認。生命の直接証拠はなし。"
+          }
+        ],
+        "highlightPatterns": [
+          "flew near Mars",
+          "took twenty-two images",
+          "interested in exploring"
+        ],
+        "highlightColor": "#f59e0b",
+        "highlightLabel": "パラフレーズ",
+        "practicePassage": {
+          "en": "[出典: Mars Exploration]\nOne reason we are interested in exploring Mars is that we hope to understand how life began. Mars is a planet that is similar to Earth. If we discover evidence of past life on Mars, we can study how it differed from life on Earth and why it disappeared. Our interest in Mars did not start just recently. In the seventeenth century, Galileo Galilei looked at Mars using his handmade telescope. About 350 years later, in 1965, a NASA spacecraft called Mariner 4 flew near Mars and successfully took twenty-two images of Mars.",
+          "ja": "私たちが火星探査に興味を持つ理由の一つは、惑星がどのように形成されるかを理解したいからだ。火星は地球と類似しているため、地球の歴史を知る手がかりにもなる。1965年に宇宙船が初めて火星の近くを飛行し、22枚の画像を撮影した。これらの画像は、火星の表面にクレーターや山がある荒涼とした風景を示していた。",
+          "audioFile": "audio/practice_pp5.mp3"
+        }
+      }
+    ]
+  }
 }

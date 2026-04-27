@@ -1497,8 +1497,16 @@
           ],
           "sentencePairs": [
             [
-              "indigenous people had inhabited the region for thousands of years.",
-              "先住民は何千年もその地域に住んでいた。"
+              "Before Europeans settled in North America, indigenous people had inhabited the region for thousands of years.",
+              "先住民は何千年もその地域に住んでいた。",
+              "Before Europeans settled in North America,|ヨーロッパ人がNorth Americaに定住する前、||indigenous people had inhabited the region|先住民はこの地域に住んでいた||for thousands of years.|何千年もの間。",
+              "had inhabited"
+            ],
+            [
+              "They often lived off the land, eating the animals they hunted or the foods they gathered from the variety of native wildlife and plants.",
+              "",
+              "They often lived off the land,|彼らはしばしば土地で暮らし、||eating the animals they hunted|狩った動物を食べたり||or the foods they gathered|集めた食べ物を||from the variety of native wildlife and plants.|さまざまな在来の野生動物や植物から。",
+              "lived"
             ],
             [
               "Many of these groups ( 19 ).",
@@ -1506,23 +1514,85 @@
             ],
             [
               "In each season, their diet would consist of different foods.",
-              "季節ごとに異なる食物が食事を構成した。"
+              "季節ごとに異なる食物が食事を構成した。",
+              "In each season,|各季節に、||their diet would consist of different foods.|彼らの食事は異なる食べ物で構成された。",
+              "would consist"
             ],
             [
-              "Europeans farmed the land to grow food.",
-              "ヨーロッパ人は土地を耕して食物を育てた。"
+              "They would, for example, fish in the summer, harvest wild rice in the fall, hunt wild animals in the winter, and gather plants in the spring.",
+              "",
+              "They would, for example,|例えば彼らは、||fish in the summer,|夏に魚を釣り、||harvest wild rice in the fall,|秋に野生の米を収穫し、||hunt wild animals in the winter,|冬に野生動物を狩り、||and gather plants in the spring.|春に植物を採集した。",
+              "would fish"
             ],
             [
-              "much of Native American food culture was lost.",
-              "ネイティブアメリカンの食文化の多くが失われた。"
+              "This often meant moving their camps to locations where such foods were easy to obtain.",
+              "",
+              "This often meant moving their camps|これはしばしばキャンプを移動させることを意味した||to locations|場所に||where such foods were easy to obtain.|そのような食べ物が手に入りやすい。",
+              "meant"
             ],
             [
-              "there is ( 20 ) Native American cuisine.",
-              "ネイティブアメリカンの料理を( 20 )が存在する。"
+              "This changed once contact was made with European settlers.",
+              "",
+              "This changed|これは変わった||once contact was made|接触がなされると||with European settlers.|ヨーロッパの入植者との。",
+              "changed"
+            ],
+            [
+              "They introduced new foods and established a different way of life.",
+              "",
+              "They introduced new foods|彼らは新しい食べ物を紹介し||and established a different way of life.|異なる生活様式を確立した。",
+              "introduced"
+            ],
+            [
+              "Europeans farmed the land to grow food instead of eating what was growing naturally in the wild.",
+              "",
+              "Europeans farmed the land to grow food|ヨーロッパ人は食べ物を育てるために土地を耕した||instead of eating|食べる代わりに||what was growing naturally in the wild.|野生で自然に育っているものを。",
+              "farmed"
+            ],
+            [
+              "Over time, much of Native American food culture was lost.",
+              "ネイティブアメリカンの食文化の多くが失われた。",
+              "Over time,|時間とともに、||much of Native American food culture was lost.|先住民の食文化の多くが失われた。",
+              "was lost"
+            ],
+            [
+              "Now, there is ( 20 ) Native American cuisine.",
+              "ネイティブアメリカンの料理を( 20 )が存在する。",
+              "",
+              ""
+            ],
+            [
+              "Indigenous groups are eager to pass on the traditions of their ancestors to future generations so that their history will not be lost.",
+              "",
+              "Indigenous groups are eager|先住民グループは熱望している||to pass on the traditions of their ancestors|祖先の伝統を受け継ぐことを||to future generations|将来の世代に||so that their history will not be lost.|彼らの歴史が失われないように。",
+              "are"
+            ],
+            [
+              "Across the United States, several new restaurants have been created that focus on serving foods that are native to the land.",
+              "",
+              "Across the United States,|アメリカ中で、||several new restaurants have been created|いくつかの新しいレストランが作られた||that focus on serving foods|食べ物を提供することに焦点を当てた||that are native to the land.|その土地に固有の。",
+              "have been created"
+            ],
+            [
+              "Podcasts and social media posts regularly feature Native American chefs who are sharing cultural dishes.",
+              "",
+              "Podcasts and social media posts|ポッドキャストやソーシャルメディアの投稿は||regularly feature Native American chefs|先住民のシェフを定期的に取り上げる||who are sharing cultural dishes.|文化的な料理を共有している。",
+              "feature"
+            ],
+            [
+              "Cookbooks featuring recipes using traditional ingredients and offering information on indigenous foods are becoming more popular.",
+              "",
+              "Cookbooks featuring recipes|レシピを掲載した料理本は||using traditional ingredients|伝統的な材料を使った||and offering information on indigenous foods|先住民の食べ物に関する情報を提供する||are becoming more popular.|より人気になっている。",
+              "are becoming"
             ],
             [
               "( 21 ), many Native American individuals and families are choosing to celebrate their heritage.",
               "( 21 )、多くのネイティブアメリカンが自らの遺産を祝っている。"
+            ],
+            [
+              "They are going back to their roots and including more indigenous foods in their diets.",
+              "",
+              "They are going back to their roots|彼らは原点に戻り||and including more indigenous foods in their diets.|より多くの先住民の食べ物を食事に含めている。",
+              "are going"
             ]
           ],
           "questions": [
@@ -1623,36 +1693,86 @@
           ],
           "sentencePairs": [
             [
-              "Savant syndrome is a rare medical condition.",
-              "サヴァン症候群は稀な医学的状態だ。"
+              "Savant syndrome is a rare medical condition in which people have exceptional skills in areas like music, art, or mathematics.",
+              "",
+              "Savant syndrome is a rare medical condition|サヴァン症候群はまれな医学的状態で||in which people have exceptional skills|人々が卓越したスキルを持つ||in areas like music, art, or mathematics.|音楽、芸術、数学のような分野で。",
+              "is"
             ],
             [
-              "scientists thought savant syndrome ( 22 ).",
-              "科学者はサヴァン症候群は( 22 )と考えていた。"
+              "Until recently, scientists thought savant syndrome ( 22 ).",
+              "科学者はサヴァン症候群は( 22 )と考えていた。",
+              "",
+              ""
             ],
             [
               "People either were born with the syndrome, or they developed it after a serious head injury.",
-              "生まれつきか、深刻な頭部外傷の後に発症するかだった。"
+              "生まれつきか、深刻な頭部外傷の後に発症するかだった。",
+              "People either were born with the syndrome,|人々は症候群を持って生まれたか、||or they developed it|またはそれを発症した||after a serious head injury.|深刻な頭部の怪我の後に。",
+              "were born"
             ],
             [
-              "some people suddenly demonstrate amazing skills.",
-              "一部の人々が突然驚くべきスキルを発揮する。"
+              "However, we now know there is another scenario called sudden savant syndrome.",
+              "",
+              "However,|しかし、||we now know|我々は今知っている||there is another scenario|もう一つのシナリオがあると||called sudden savant syndrome.|突発性サヴァン症候群と呼ばれる。",
+              "know"
+            ],
+            [
+              "Without explanation, some people suddenly demonstrate amazing skills in areas in which they had no prior interest or ability.",
+              "",
+              "Without explanation,|説明なしに、||some people suddenly demonstrate amazing skills|一部の人々が突然驚くべきスキルを示す||in areas in which they had|彼らが持っていなかった分野で||no prior interest or ability.|事前の興味や能力を。",
+              "demonstrate"
+            ],
+            [
+              "Take, for example, the case of a woman in her forties who, one day, suddenly felt an urge to create art.",
+              "",
+              "Take, for example,|例として取り上げよう、||the case of a woman in her forties|40代の女性のケースを||who, one day,|ある日、||suddenly felt an urge to create art.|突然芸術を創作する衝動を感じた。",
+              "felt"
+            ],
+            [
+              "Though she had never taken a class or had any previous experience, she found she could draw amazing pictures with realistic details, much like a professional artist.",
+              "",
+              "Though she had never taken a class|クラスを取ったことがなく||or had any previous experience,|以前の経験もなかったが、||she found she could draw amazing pictures|驚くべき絵を描けることが分かった||with realistic details,|リアルな細部を持つ、||much like a professional artist.|プロのアーティストのように。",
+              "found"
             ],
             [
               "Her newly acquired skills ( 23 ).",
               "彼女の新たに獲得したスキルは( 23 )。"
             ],
             [
-              "she felt the need to draw and paint for hours, ignoring other aspects of her life.",
-              "何時間も描き続ける必要を感じ、生活の他の面を無視した。"
+              "Reportedly, the woman felt the need to draw and paint for hours, ignoring other aspects of her life.",
+              "",
+              "Reportedly,|報道によると、||the woman felt the need|その女性は必要性を感じた||to draw and paint for hours,|何時間も絵を描く||ignoring other aspects of her life.|人生の他の側面を無視して。",
+              "felt"
             ],
             [
-              "( 24 ), such investigations may reveal fewer differences than previously thought.",
-              "( 24 )、以前考えられていたより違いが少ないことが判明する可能性がある。"
+              "She had to work hard to find a balance that allowed her to live with her condition.",
+              "",
+              "She had to work hard|彼女は懸命に努力しなければならなかった||to find a balance|バランスを見つけるために||that allowed her to live with her condition.|自分の状態と共に生きることを可能にする。",
+              "had"
             ],
             [
-              "these incredible abilities could be hiding in everyone.",
-              "これらの信じられない能力がすべての人に隠れている可能性がある。"
+              "This overpowering need by people with sudden savant syndrome to act on their extraordinary skills is just one of the many aspects of the syndrome that scientists do not understand, including whether the change is permanent or if it is also found in other family members.",
+              "",
+              "This overpowering need|この圧倒的な必要性は||by people with sudden savant syndrome|突発性サヴァン症候群の人々による||to act on their extraordinary skills|卓越したスキルに基づいて行動する||is just one of the many aspects|多くの側面の一つに過ぎない||of the syndrome that scientists do not understand,|科学者が理解していない症候群の、||including whether the change is permanent|変化が永続的かどうかや||or if it is also found in other family members.|他の家族にも見られるかどうかを含む。",
+              "is"
+            ],
+            [
+              "With further research, scientists hope to discover what makes individuals with the syndrome unique from others.",
+              "",
+              "With further research,|さらなる研究で、||scientists hope to discover|科学者は発見したいと望んでいる||what makes individuals with the syndrome|この症候群を持つ個人を||unique from others.|他の人と異なるものにするものを。",
+              "hope"
+            ],
+            [
+              "( 24 ), such investigations may reveal that there are actually fewer differences than previously thought.",
+              "",
+              "",
+              ""
+            ],
+            [
+              "Some experts have suggested that these incredible abilities could be hiding in everyone.",
+              "これらの信じられない能力がすべての人に隠れている可能性がある。",
+              "Some experts have suggested|一部の専門家は示唆している||that these incredible abilities|これらの信じられない能力が||could be hiding in everyone.|誰の中にも隠れている可能性があると。",
+              "have suggested"
             ]
           ],
           "questions": [
@@ -1758,32 +1878,100 @@
           ],
           "sentencePairs": [
             [
-              "the idea may largely be a myth.",
-              "この考えはほぼ神話である。"
+              "There is a widespread idea that wild packs of wolves are led by an aggressive leader — an alpha male — that dominates the group, and that this results in violent power struggles when other members of the group challenge the alpha male.",
+              "",
+              "There is a widespread idea|広く知られた考えがある||that wild packs of wolves are led|野生の狼の群れが率いられているという||by an aggressive leader—an alpha male—|攻撃的なリーダー—アルファオスによって—||that dominates the group,|グループを支配する、||and that this results in violent power struggles|そしてこれが暴力的な権力闘争を引き起こすと||when other members of the group|グループの他のメンバーが||challenge the alpha male.|アルファオスに挑む時に。",
+              "is"
             ],
             [
-              "It appears to have arisen from research on captured wolves.",
-              "捕獲されたオオカミの研究から生じたようだ。"
+              "It turns out, however, that this idea may largely be a myth.",
+              "",
+              "It turns out, however,|しかし判明したのは、||that this idea may largely be a myth.|この考えは大部分が神話かもしれないということだ。",
+              "turns out"
             ],
             [
-              "captive and wild wolves are too dissimilar to assume that the behaviors of one resemble those of the other.",
-              "飼育下と野生のオオカミはあまりに異なる。"
+              "It appears to have arisen from research on captured wolves, which often demonstrated such behavior.",
+              "",
+              "It appears to have arisen|それは生じたようだ||from research on captured wolves,|捕獲された狼の研究から、||which often demonstrated such behavior.|しばしばそのような行動を示した。",
+              "appears"
             ],
             [
-              "This system is usually enforced by communication rather than violence.",
-              "このシステムは暴力ではなくコミュニケーションによって維持される。"
+              "Captive packs are usually made up of adult wolves being forced to live together even though they did not grow up with each other and are not related, which is why it is common for power struggles in such packs to result in violence.",
+              "",
+              "Captive packs are usually made up|飼育下の群れは通常構成されている||of adult wolves being forced to live together|一緒に住むことを強いられた成体の狼で||even though they did not grow up with each other|互いに育たなかったにもかかわらず||and are not related,|血縁関係がなく、||which is why it is common|そのためよくある||for power struggles in such packs to result in violence.|そのような群れの権力闘争が暴力に至ることが。",
+              "are made up"
             ],
             [
-              "when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first.",
-              "食物が見つかりにくい時、最も幼い者が最初に食べられるようにする。"
+              "Research has now found, though, that captive and wild wolves are too dissimilar to assume that the behaviors of one resemble those of the other.",
+              "飼育下と野生のオオカミはあまりに異なる。",
+              "Research has now found, though,|しかし研究は発見した、||that captive and wild wolves are too dissimilar|飼育下と野生の狼はあまりにも異なり||to assume that the behaviors of one|一方の行動が||resemble those of the other.|他方と似ていると仮定するには。",
+              "has found"
             ],
             [
-              "many of them were carrying a particular parasite called Toxoplasma gondii.",
-              "多くがトキソプラズマ・ゴンディイという寄生虫を保有していた。"
+              "Biologists studying wild wolves in the 1980s and 1990s made some interesting observations.",
+              "",
+              "Biologists studying wild wolves|野生の狼を研究する生物学者は||in the 1980s and 1990s|1980年代と1990年代に||made some interesting observations.|いくつかの興味深い観察をした。",
+              "made"
             ],
             [
-              "This parasite appears to make the wolves more likely to take bolder and riskier actions.",
-              "この寄生虫はオオカミをより大胆でリスクのある行動を取りやすくする。"
+              "They found that a pair of wolves consisting of an older adult male and a female wolf generally acted as the leaders of a pack composed of their offspring and other adult wolves without partners.",
+              "",
+              "They found that a pair of wolves|彼らは発見した、狼のペアが||consisting of an older adult male and a female wolf|年長の成体オスとメスの狼で構成された||generally acted as the leaders of a pack|一般的に群れのリーダーとして行動したと||composed of their offspring|子どもたちと||and other adult wolves without partners.|パートナーのいない他の成体の狼で構成された。",
+              "found"
+            ],
+            [
+              "All wolves in the pack follow the lead male's decisions, and all but the lead male also submit to the lead female.",
+              "",
+              "All wolves in the pack follow|群れのすべての狼は従う||the lead male's decisions,|リーダーオスの決定に、||and all but the lead male also submit|リーダーオス以外はすべて従う||to the lead female.|リーダーメスにも。",
+              "follow"
+            ],
+            [
+              "This system appears to be fully accepted by most wild wolves and is usually enforced by communication rather than violence.",
+              "",
+              "This system appears to be fully accepted|このシステムは完全に受け入れられているようで||by most wild wolves|ほとんどの野生の狼に||and is usually enforced|通常は強制される||by communication rather than violence.|暴力ではなくコミュニケーションによって。",
+              "appears"
+            ],
+            [
+              "The social structure is also flexible — for example, when food is hard to find, the wolf leaders often ensure that the pack's youngest are fed first.",
+              "食物が見つかりにくい時、最も幼い者が最初に食べられるようにする。",
+              "",
+              ""
+            ],
+            [
+              "Such behavior demonstrates how these leaders act similarly to the human parents of a large family.",
+              "",
+              "Such behavior demonstrates|そのような行動は示す||how these leaders act similarly|これらのリーダーがどれほど似たように行動するかを||to the human parents of a large family.|大家族の人間の親と。",
+              "demonstrates"
+            ],
+            [
+              "When a significant conflict does occur among the members, dissatisfied wolves may leave the pack.",
+              "",
+              "When a significant conflict does occur|重大な対立が実際に起こると||among the members,|メンバー間で、||dissatisfied wolves may leave the pack.|不満な狼は群れを離れるかもしれない。",
+              "may leave"
+            ],
+            [
+              "These wolves often seek out protection in a different pack, while some start their own pack after finding a mate.",
+              "",
+              "These wolves often seek out protection|これらの狼はしばしば保護を求める||in a different pack,|異なる群れの中で、||while some start their own pack|一方で自分の群れを始める者もいる||after finding a mate.|つがいを見つけた後に。",
+              "seek"
+            ],
+            [
+              "In 2022, researchers discovered that wild wolves that had started their own pack often had something in common: many of them were carrying a particular parasite called Toxoplasma gondii.",
+              "多くがトキソプラズマ・ゴンディイという寄生虫を保有していた。",
+              "In 2022,|2022年に、||researchers discovered|研究者は発見した||that wild wolves that had started their own pack|自分の群れを始めた野生の狼が||often had something in common:|共通点をしばしば持っていたと：||many of them were carrying|多くがある特定の寄生虫を保有していた||a particular parasite called Toxoplasma gondii.|Toxoplasma gondiiと呼ばれる。",
+              "discovered"
+            ],
+            [
+              "This parasite appears to make the wolves more likely to take bolder and riskier actions, which can aid their survival in some situations.",
+              "",
+              "This parasite appears to make the wolves|この寄生虫は狼を〜にさせるようだ||more likely to take bolder and riskier actions,|より大胆でリスクの高い行動を取りやすく、||which can aid their survival in some situations.|一部の状況で生存を助け得る。",
+              "appears"
+            ],
+            [
+              "Scientists continue to be fascinated by the social relationships of wild wolves and their packs.",
+              "",
+              "Scientists continue to be fascinated|科学者は魅了され続けている||by the social relationships of wild wolves|野生の狼の社会的関係性に||and their packs.|そして彼らの群れに。",
+              "continue"
             ]
           ],
           "questions": [
@@ -1890,35 +2078,51 @@
           "sentencePairs": [
             [
               "the male-dominated architectural field had often failed to take women's needs into account",
-              "男性支配的な建築分野が女性のニーズを考慮しなかった"
+              "男性支配的な建築分野が女性のニーズを考慮しなかった",
+              "the male-dominated architectural field|男性支配の建築分野は||had often failed to take|しばしば考慮に入れることに失敗していた||women's needs into account|女性のニーズを。",
+              "had failed"
             ],
             [
               "it left behind architectural designs and an intellectual legacy",
-              "建築設計と知的遺産を残した"
+              "建築設計と知的遺産を残した",
+              "it left behind|それは残した||architectural designs|建築デザインと||and an intellectual legacy|知的遺産を。",
+              "left"
             ],
             [
               "architectural design elements were arranged based on the default height of the so-called ideal man",
-              "設計要素はいわゆる理想的な男性の身長に基づいて配置された"
+              "設計要素はいわゆる理想的な男性の身長に基づいて配置された",
+              "architectural design elements were arranged|建築デザインの要素は配置された||based on the default height|デフォルトの身長に基づいて||of the so-called ideal man|いわゆる理想的な男性の。",
+              "were arranged"
             ],
             [
               "the tall height of stair steps, made buildings harder for them to navigate",
-              "階段の段の高さが建物をナビゲートすることを難しくした"
+              "階段の段の高さが建物をナビゲートすることを難しくした",
+              "the tall height of stair steps,|階段の段の高さが、||made buildings harder for them to navigate|建物を彼女たちにとってより移動しにくくした。",
+              "made"
             ],
             [
               "architects could produce their greatest work by trying to understand the specific needs of a building's actual users",
-              "実際のユーザーの具体的なニーズを理解することで最高の作品を生み出せる"
+              "実際のユーザーの具体的なニーズを理解することで最高の作品を生み出せる",
+              "architects could produce their greatest work|建築家は最高の作品を生み出せる||by trying to understand|理解しようとすることで||the specific needs of a building's actual users|建物の実際の利用者の具体的なニーズを。",
+              "could produce"
             ],
             [
               "simply training more women architects would not remedy the situation",
-              "単に女性建築家を増やすだけでは状況を改善しない"
+              "単に女性建築家を増やすだけでは状況を改善しない",
+              "simply training more women architects|単にもっと多くの女性建築家を育成しても||would not remedy the situation|状況を改善しないだろう。",
+              "would remedy"
             ],
             [
               "it came to symbolize much more",
-              "それ以上のものを象徴するようになった"
+              "それ以上のものを象徴するようになった",
+              "it came to symbolize much more|それははるかに多くを象徴するようになった。",
+              "came"
             ],
             [
               "empowering them to have their voices reflected in the public spaces",
-              "彼らの声が公共空間に反映されるよう力を与えた"
+              "彼らの声が公共空間に反映されるよう力を与えた",
+              "empowering them|彼女たちに力を与え||to have their voices reflected|声が反映されるようにする||in the public spaces|公共の空間で。",
+              "empowering"
             ]
           ],
           "questions": [
