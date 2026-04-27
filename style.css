@@ -1707,6 +1707,87 @@ body.projector-mode .exam-question.proj-hidden {
     }
 }
 
+/* ===== SLASH READING ===== */
+.sentence-span.slash-active {
+    background: rgba(167, 139, 250, 0.15);
+    border-radius: 4px;
+    display: block;
+    padding: 4px 0;
+}
+
+.main-verb {
+    color: #ef4444 !important;
+    font-weight: 700;
+}
+
+[data-theme="light"] .main-verb {
+    color: #dc2626 !important;
+}
+
+.slash-reading-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px 0;
+    margin-top: 10px;
+    padding: 12px 14px;
+    background: rgba(30, 30, 60, 0.7);
+    border-radius: 10px;
+    border: 1px solid rgba(167, 139, 250, 0.25);
+    animation: slashIn 0.25s ease;
+    line-height: 1;
+}
+
+[data-theme="light"] .slash-reading-display {
+    background: rgba(240, 238, 255, 0.95);
+    border-color: rgba(108, 99, 255, 0.2);
+}
+
+.slash-segment {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 2px;
+    border-right: 1px solid rgba(167, 139, 250, 0.2);
+    margin-right: 2px;
+}
+
+.slash-segment:last-child {
+    border-right: none;
+    margin-right: 0;
+}
+
+.slash-en {
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    font-weight: 500;
+    line-height: 1.4;
+    white-space: nowrap;
+}
+
+.slash-ja {
+    font-size: 0.72rem;
+    color: var(--accent-secondary);
+    line-height: 1.4;
+    margin-top: 2px;
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+[data-theme="light"] .slash-ja {
+    color: #6c63ff;
+}
+
+@keyframes slashIn {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* ===== GRAMMAR HIGHLIGHT ===== */
 .grammar-hl {
     border-radius: 3px;

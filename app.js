@@ -363,6 +363,8 @@
     examAnswers = {};
     projState = { part1: 0 };
     _sentTrans = [];
+    _sentSlash = [];
+    _sentVerb = [];
     settings.showAnswers = false;
     settings.showTranslation = false;
     settings.projector = false;
@@ -983,20 +985,24 @@
 
   // ===== SENTENCE POPUP =====
   let _sentTrans = [];
+  let _sentSlash = [];  // slash reading data
+  let _sentVerb = [];   // main verb data
 
   function wrapSentences(paragraph, passageData) {
     const pairs = passageData?.sentencePairs;
     if (!pairs || !pairs.length) return paragraph;
     let html = paragraph;
     // Process longest sentences first to avoid partial matches
-    const sorted = pairs.map((pair, i) => ({ en: pair[0], ja: pair[1], i }))
+    const sorted = pairs.map((pair, i) => ({ en: pair[0], ja: pair[1], slash: pair[2] || '', verb: pair[3] || '', i }))
       .sort((a, b) => b.en.length - a.en.length);
     const placeholders = {};
-    sorted.forEach(({ en, ja }) => {
+    sorted.forEach(({ en, ja, slash, verb }) => {
       const idx = html.indexOf(en);
       if (idx === -1) return;
       const tidx = _sentTrans.length;
       _sentTrans.push(ja);
+      _sentSlash.push(slash);
+      _sentVerb.push(verb);
       const ph = `\x00SENT${tidx}\x00`;
       placeholders[ph] = `<span class="sentence-span" data-tidx="${tidx}">${en}</span>`;
       html = html.substring(0, idx) + ph + html.substring(idx + en.length);
@@ -1010,14 +1016,86 @@
 
   function setupSentencePopups(container) {
     let tooltip = null;
+    let _activeSlashSpan = null;
+
+    function restoreSlashSpan() {
+      if (_activeSlashSpan) {
+        const orig = _activeSlashSpan.dataset.originalHtml;
+        if (orig) {
+          _activeSlashSpan.innerHTML = orig;
+          delete _activeSlashSpan.dataset.originalHtml;
+        }
+        _activeSlashSpan.classList.remove('slash-active');
+        _activeSlashSpan = null;
+      }
+    }
+
     container.addEventListener('click', function (e) {
       const span = e.target.closest('.sentence-span');
+      // Close existing tooltip
       if (tooltip) { tooltip.remove(); tooltip = null; }
+      // Restore previously slash-expanded span
+      const prevSlash = _activeSlashSpan;
+      restoreSlashSpan();
       document.querySelectorAll('.sentence-span.active').forEach(el => el.classList.remove('active'));
+
       if (!span || span.dataset.tidx === undefined) return;
+      // If clicking the same span again, just close it
+      if (span === prevSlash) return;
       e.stopPropagation();
+
+      const tidx = parseInt(span.dataset.tidx);
+      const slash = _sentSlash[tidx];
+      const verb = _sentVerb[tidx];
+      const trans = _sentTrans[tidx];
+
+      // ===== SLASH READING MODE =====
+      if (slash) {
+        span.classList.add('active', 'slash-active');
+        // Save original HTML
+        if (!span.dataset.originalHtml) span.dataset.originalHtml = span.innerHTML;
+
+        // Build slash reading HTML: highlight main verb in red
+        let enText = span.dataset.originalHtml;
+        // Highlight the main verb in red within the English text
+        if (verb) {
+          // Escape for regex
+          const escaped = verb.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          const re = new RegExp(`(${escaped})`, 'i');
+          enText = enText.replace(re, '<span class="main-verb">$1</span>');
+        }
+
+        // Parse slash reading: segments separated by ||
+        // Each segment: "english | japanese"
+        const segments = slash.split('||').map(seg => {
+          const sepIdx = seg.indexOf('|');
+          if (sepIdx === -1) return { en: seg.trim(), ja: '' };
+          const enPart = seg.substring(0, sepIdx).trim();
+          const jaPart = seg.substring(sepIdx + 1).trim();
+          return { en: enPart, ja: jaPart };
+        });
+
+        // Build the slash display below the sentence
+        let slashHtml = '<div class="slash-reading-display">';
+        segments.forEach(seg => {
+          let enSegHtml = seg.en;
+          // Highlight the main verb within each segment
+          if (verb) {
+            const escaped = verb.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const re = new RegExp(`(${escaped})`, 'i');
+            enSegHtml = enSegHtml.replace(re, '<span class="main-verb">$1</span>');
+          }
+          slashHtml += `<span class="slash-segment"><span class="slash-en">${enSegHtml}</span><span class="slash-ja">${seg.ja}</span></span>`;
+        });
+        slashHtml += '</div>';
+
+        span.innerHTML = enText + slashHtml;
+        _activeSlashSpan = span;
+        return;
+      }
+
+      // ===== FALLBACK: Regular tooltip =====
       span.classList.add('active');
-      const trans = _sentTrans[parseInt(span.dataset.tidx)];
       if (!trans) return;
       tooltip = document.createElement('div');
       tooltip.className = 'sentence-tooltip';
@@ -1033,8 +1111,9 @@
       tooltip.style.left = left + 'px';
     });
     document.addEventListener('click', function (e) {
-      if (tooltip && !e.target.closest('.sentence-span')) {
-        tooltip.remove(); tooltip = null;
+      if (!e.target.closest('.sentence-span')) {
+        if (tooltip) { tooltip.remove(); tooltip = null; }
+        restoreSlashSpan();
         document.querySelectorAll('.sentence-span.active').forEach(el => el.classList.remove('active'));
       }
     });
