@@ -703,9 +703,9 @@
                     ],
                     "correctOrder": [
                         1,
+                        3,
                         4,
-                        2,
-                        3
+                        2
                     ],
                     "framePrefix": "I",
                     "frameSuffix": "every night.",
@@ -713,13 +713,13 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「I sleep eight hours for every night.」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「I sleep eight hours for every night.」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "まず文の形を決めます。完成文は「I sleep for eight hours every night.」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
+                    "grammarSimple": "できあがりの文は「I sleep for eight hours every night.」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
                     "choiceAnalysis": [
-                        "②−①：1番目を「hours」、3番目を「sleep」にすると、完成文「I sleep eight hours for every night.」の語順になりません。",
-                        "①−③：1番目を「sleep」、3番目を「for」にすると、完成文「I sleep eight hours for every night.」の語順になりません。",
-                        "④−③：1番目を「eight」、3番目を「for」にすると、完成文「I sleep eight hours for every night.」の語順になりません。",
-                        "○ ①−④：1番目は「sleep」、3番目は「eight」で、完成文「I sleep eight hours for every night.」の語順と一致します。"
+                        "②−①：1番目を「hours」、3番目を「sleep」にすると、完成文「I sleep for eight hours every night.」の語順になりません。",
+                        "①−③：1番目を「sleep」、3番目を「for」にすると、完成文「I sleep for eight hours every night.」の語順になりません。",
+                        "④−③：1番目を「eight」、3番目を「for」にすると、完成文「I sleep for eight hours every night.」の語順になりません。",
+                        "○ ①−④：1番目は「sleep」、3番目は「eight」で、完成文「I sleep for eight hours every night.」の語順と一致します。"
                     ],
                     "choiceAnalysisSimple": [
                         "②−①：1ばんめ「hours」と3ばんめ「sleep」だと、文のならびがちがうよ。",
@@ -747,8 +747,8 @@
                     ],
                     "correctOrder": [
                         2,
-                        3,
                         1,
+                        3,
                         4
                     ],
                     "framePrefix": "",
@@ -757,13 +757,13 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「where Cathy does play tennis?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「where Cathy does play tennis?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "まず文の形を決めます。完成文は「Where does Cathy play tennis?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
+                    "grammarSimple": "できあがりの文は「Where does Cathy play tennis?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
                     "choiceAnalysis": [
-                        "①−④：1番目を「does」、3番目を「play」にすると、完成文「where Cathy does play tennis?」の語順になりません。",
-                        "④−②：1番目を「play」、3番目を「where」にすると、完成文「where Cathy does play tennis?」の語順になりません。",
-                        "③−①：1番目を「Cathy」、3番目を「does」にすると、完成文「where Cathy does play tennis?」の語順になりません。",
-                        "○ ②−③：1番目は「where」、3番目は「Cathy」で、完成文「where Cathy does play tennis?」の語順と一致します。"
+                        "①−④：1番目を「does」、3番目を「play」にすると、完成文「Where does Cathy play tennis?」の語順になりません。",
+                        "④−②：1番目を「play」、3番目を「where」にすると、完成文「Where does Cathy play tennis?」の語順になりません。",
+                        "③−①：1番目を「Cathy」、3番目を「does」にすると、完成文「Where does Cathy play tennis?」の語順になりません。",
+                        "○ ②−③：1番目は「where」、3番目は「Cathy」で、完成文「Where does Cathy play tennis?」の語順と一致します。"
                     ],
                     "choiceAnalysisSimple": [
                         "①−④：1ばんめ「does」と3ばんめ「play」だと、文のならびがちがうよ。",
@@ -790,10 +790,10 @@
                         "your"
                     ],
                     "correctOrder": [
+                        3,
                         4,
                         2,
-                        1,
-                        3
+                        1
                     ],
                     "framePrefix": "",
                     "frameSuffix": "Hiroko?",
@@ -801,13 +801,13 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「your mother's name is Hiroko?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「your mother's name is Hiroko?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "まず文の形を決めます。完成文は「Is your mother's name Hiroko?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
+                    "grammarSimple": "できあがりの文は「Is your mother's name Hiroko?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
                     "choiceAnalysis": [
-                        "①−③：1番目を「name」、3番目を「is」にすると、完成文「your mother's name is Hiroko?」の語順になりません。",
-                        "①−④：1番目を「name」、3番目を「your」にすると、完成文「your mother's name is Hiroko?」の語順になりません。",
-                        "○ ③−②：1番目は「is」、3番目は「mother's」で、完成文「your mother's name is Hiroko?」の語順と一致します。",
-                        "④−③：1番目を「your」、3番目を「is」にすると、完成文「your mother's name is Hiroko?」の語順になりません。"
+                        "①−③：1番目を「name」、3番目を「is」にすると、完成文「Is your mother's name Hiroko?」の語順になりません。",
+                        "①−④：1番目を「name」、3番目を「your」にすると、完成文「Is your mother's name Hiroko?」の語順になりません。",
+                        "○ ③−②：1番目は「is」、3番目は「mother's」で、完成文「Is your mother's name Hiroko?」の語順と一致します。",
+                        "④−③：1番目を「your」、3番目を「is」にすると、完成文「Is your mother's name Hiroko?」の語順になりません。"
                     ],
                     "choiceAnalysisSimple": [
                         "①−③：1ばんめ「name」と3ばんめ「is」だと、文のならびがちがうよ。",
