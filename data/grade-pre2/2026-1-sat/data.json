@@ -650,7 +650,7 @@
                 {
                     "number": 4,
                     "text": "The movie's ( 4 ) had a meeting with all of the actors. She explained some important things about their characters.",
-                    "translation": "映画の( 4 )が俳優全員と会議をしました。彼女はキャラクターについて重要なことを説明しました。",
+                    "translation": "映画の( 4 )が俳優全員と会議をしました。彼女は彼らの役柄について重要なことを説明しました。",
                     "choices": [
                         "patient",
                         "nephew",
@@ -675,7 +675,7 @@
                 {
                     "number": 5,
                     "text": "Brandon really likes ( 5 ). He even has some beetles in a plastic box in his room. He likes to watch them crawling around and eating the food he gives them.",
-                    "translation": "ブランドンは( 5 )が本当に好きです。部屋のプラスチックの箱にカブトムシを飼っています。這い回って餌を食べるのを見るのが好きです。",
+                    "translation": "ブランドンは( 5 )が本当に好きです。なんと部屋のプラスチックの箱にカブトムシまで飼っています。這い回って自分があげた餌を食べるのを見るのが好きです。",
                     "choices": [
                         "deserts",
                         "planets",
@@ -953,12 +953,12 @@
             "name": "大問2",
             "nameEn": "Part 2",
             "type": "vocabulary",
-            "instruction": "次の(16)から(20)までの会話文の(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "instruction": "次の四つの会話文を完成させるために，(16)から(20)に入るものとして最も適切なものを1，2，3，4の中から一つ選びなさい。",
             "questions": [
                 {
                     "number": 16,
                     "text": "A : Excuse me, does this bus stop at the city museum?\nB : It does, but there's another bus that ( 16 ). It'll arrive here in five minutes.\nA : Oh, nice. I want to get there as soon as possible because the museum will close at 5:00 p.m.\nB : Yeah, and with that one, you won't have to worry about getting off at the wrong stop.",
-                    "translation": "A：すみません。このバスは市立博物館に停まりますか？\nB：停まりますが、( 16 )別のバスがあります。5分でここに来ますよ。\nA：いいですね。博物館は午後5時に閉まるので、できるだけ早く着きたいんです。\nB：そうだね。そのバスなら、降りる駅を間違える心配もないよ。",
+                    "translation": "A：すみません。このバスは市立博物館に停まりますか？\nB：停まりますが、( 16 )別のバスがあります。5分でここに来ますよ。\nA：いいですね。博物館は午後5時に閉まるので、できるだけ早く着きたいんです。\nB：そうだね。そのバスなら、降りるバス停を間違える心配もないよ。",
                     "choices": [
                         "goes straight there",
                         "makes more stops",
@@ -974,11 +974,11 @@
                     "answer": 1,
                     "choiceAnalysis": [
                         "まっすぐそこへ行く→正解。💡 余計な停留がなく乗り違えの心配がない（Bの最後の文）。急いでいるAの希望にも合う",
-                        "もっとたくさん停まる→停留が多いと降りる駅を間違えやすい。Bのyou won't have to worry about getting off at the wrong stopと矛盾",
+                        "もっとたくさん停まる→停留が多いと降りるバス停を間違えやすい。Bのyou won't have to worry about getting off at the wrong stopと矛盾",
                         "より多くの乗客を載せる→乗客数は急ぎや乗り違えの心配とは無関係",
                         "夜遅く運行する→博物館が5時に閉まる文脈では時間帯の問題ではない"
                     ],
-                    "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りる駅を間違える。as soon as possible＝できるだけ早く。"
+                    "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りるバス停を間違える。as soon as possible＝できるだけ早く。"
                 },
                 {
                     "number": 17,
@@ -1008,7 +1008,7 @@
                 {
                     "number": 18,
                     "text": "A : Amanda's birthday is coming up soon. What should we give her this year?\nB : Hmm. We're going camping next weekend, so maybe something for that. How about ( 18 )?\nA : That's a great idea. The one she has is getting too small.\nB : That's right. It'll keep her warm at night.",
-                    "translation": "A：アマンダの誕生日がもうすぐだね。今年は何をあげよう？\nB：うーん。来週末キャンプに行くから、それに使えるものはどう？( 18 )は？\nA：いいアイデアね。今持っているのは小さくなりすぎてきたの。\nB：そうだね。夜暖かくしてくれるわ。",
+                    "translation": "A：アマンダの誕生日がもうすぐだね。今年は何をあげよう？\nB：うーん。来週末キャンプに行くから、それに使えるものがいいかもね。( 18 )はどう？\nA：いいアイデアね。今持っているのは小さくなりすぎてきたの。\nB：そうだね。夜暖かくしてくれるわ。",
                     "choices": [
                         "a new backpack",
                         "a cute swimsuit",

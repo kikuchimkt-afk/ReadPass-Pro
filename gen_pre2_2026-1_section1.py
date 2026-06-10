@@ -68,7 +68,7 @@ section1 = {
         {
             "number": 4,
             "text": "The movie's ( 4 ) had a meeting with all of the actors. She explained some important things about their characters.",
-            "translation": "映画の( 4 )が俳優全員と会議をしました。彼女はキャラクターについて重要なことを説明しました。",
+            "translation": "映画の( 4 )が俳優全員と会議をしました。彼女は彼らの役柄について重要なことを説明しました。",
             "choices": ["patient", "nephew", "firefighter", "director"],
             "choiceTranslations": ["患者", "甥", "消防士", "監督"],
             "answer": 4,
@@ -83,7 +83,7 @@ section1 = {
         {
             "number": 5,
             "text": "Brandon really likes ( 5 ). He even has some beetles in a plastic box in his room. He likes to watch them crawling around and eating the food he gives them.",
-            "translation": "ブランドンは( 5 )が本当に好きです。部屋のプラスチックの箱にカブトムシを飼っています。這い回って餌を食べるのを見るのが好きです。",
+            "translation": "ブランドンは( 5 )が本当に好きです。なんと部屋のプラスチックの箱にカブトムシまで飼っています。這い回って自分があげた餌を食べるのを見るのが好きです。",
             "choices": ["deserts", "planets", "insects", "ghosts"],
             "choiceTranslations": ["砂漠", "惑星", "昆虫", "幽霊"],
             "answer": 3,

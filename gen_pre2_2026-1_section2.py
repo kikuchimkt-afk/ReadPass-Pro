@@ -31,7 +31,7 @@ section2 = {
     "name": "大問2",
     "nameEn": "Part 2",
     "type": "vocabulary",
-    "instruction": "次の(16)から(20)までの会話文の(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+    "instruction": "次の四つの会話文を完成させるために，(16)から(20)に入るものとして最も適切なものを1，2，3，4の中から一つ選びなさい。",
     "questions": [
         {
             "number": 16,
@@ -45,7 +45,7 @@ section2 = {
                 "A：すみません。このバスは市立博物館に停まりますか？\n"
                 "B：停まりますが、( 16 )別のバスがあります。5分でここに来ますよ。\n"
                 "A：いいですね。博物館は午後5時に閉まるので、できるだけ早く着きたいんです。\n"
-                "B：そうだね。そのバスなら、降りる駅を間違える心配もないよ。"
+                "B：そうだね。そのバスなら、降りるバス停を間違える心配もないよ。"
             ),
             "choices": [
                 "goes straight there",
@@ -62,11 +62,11 @@ section2 = {
             "answer": 1,
             "choiceAnalysis": [
                 "まっすぐそこへ行く→正解。💡 余計な停留がなく乗り違えの心配がない（Bの最後の文）。急いでいるAの希望にも合う",
-                "もっとたくさん停まる→停留が多いと降りる駅を間違えやすい。Bのyou won't have to worry about getting off at the wrong stopと矛盾",
+                "もっとたくさん停まる→停留が多いと降りるバス停を間違えやすい。Bのyou won't have to worry about getting off at the wrong stopと矛盾",
                 "より多くの乗客を載せる→乗客数は急ぎや乗り違えの心配とは無関係",
                 "夜遅く運行する→博物館が5時に閉まる文脈では時間帯の問題ではない",
             ],
-            "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りる駅を間違える。as soon as possible＝できるだけ早く。",
+            "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りるバス停を間違える。as soon as possible＝できるだけ早く。",
         },
         {
             "number": 17,
@@ -115,8 +115,8 @@ section2 = {
             ),
             "translation": (
                 "A：アマンダの誕生日がもうすぐだね。今年は何をあげよう？\n"
-                "B：うーん。来週末キャンプに行くから、それに使えるものはどう？"
-                "( 18 )は？\n"
+                "B：うーん。来週末キャンプに行くから、それに使えるものがいいかもね。"
+                "( 18 )はどう？\n"
                 "A：いいアイデアね。今持っているのは小さくなりすぎてきたの。\n"
                 "B：そうだね。夜暖かくしてくれるわ。"
             ),

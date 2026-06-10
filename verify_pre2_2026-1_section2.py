@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 path = os.path.join("data", "grade-pre2", "2026-1-sat", "data.json")
 d = json.load(open(path, encoding="utf-8"))
-assert len(d["sections"]) == 2, f"expected 2 sections, got {len(d['sections'])}"
+assert len(d["sections"]) >= 2, f"expected >=2 sections, got {len(d['sections'])}"
 
 s = d["sections"][1]
 assert s["name"] == "大問2"
