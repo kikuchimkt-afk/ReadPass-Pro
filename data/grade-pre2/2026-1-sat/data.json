@@ -1,0 +1,570 @@
+{
+    "grade": "準2級",
+    "year": "2026",
+    "session": "1",
+    "title": "2026年度 第1回（土曜準会場） 英語資格検定準2級 リーディング",
+    "vocabulary": [
+        {
+            "word": "appealing",
+            "meaning": "魅力的な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The colorful poster looks very appealing to children.",
+            "distractors": [
+                "きつい",
+                "退屈な",
+                "かすかな"
+            ],
+            "wordAudio": "audio/vocab/w_001_appealing.mp3",
+            "exampleAudio": "audio/vocab/ex_001_appealing.mp3"
+        },
+        {
+            "word": "appearance",
+            "meaning": "外見",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "She takes great care of her appearance before meetings.",
+            "distractors": [
+                "入口",
+                "違い",
+                "知性"
+            ],
+            "wordAudio": "audio/vocab/w_002_appearance.mp3",
+            "exampleAudio": "audio/vocab/ex_002_appearance.mp3"
+        },
+        {
+            "word": "conference",
+            "meaning": "会議",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The team held a conference to discuss the new plan.",
+            "distractors": [
+                "苦情",
+                "記録",
+                "治療"
+            ],
+            "wordAudio": "audio/vocab/w_003_conference.mp3",
+            "exampleAudio": "audio/vocab/ex_003_conference.mp3"
+        },
+        {
+            "word": "director",
+            "meaning": "監督",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The director gave instructions to all the actors.",
+            "distractors": [
+                "患者",
+                "甥",
+                "消防士"
+            ],
+            "wordAudio": "audio/vocab/w_004_director.mp3",
+            "exampleAudio": "audio/vocab/ex_004_director.mp3"
+        },
+        {
+            "word": "insects",
+            "meaning": "昆虫",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Many insects live in the garden behind our house.",
+            "distractors": [
+                "砂漠",
+                "惑星",
+                "幽霊"
+            ],
+            "wordAudio": "audio/vocab/w_005_insects.mp3",
+            "exampleAudio": "audio/vocab/ex_005_insects.mp3"
+        },
+        {
+            "word": "promote",
+            "meaning": "促進する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "The school promotes healthy eating habits among students.",
+            "distractors": [
+                "印をつける",
+                "関与させる",
+                "持ち上げる"
+            ],
+            "wordAudio": "audio/vocab/w_006_promote.mp3",
+            "exampleAudio": "audio/vocab/ex_006_promote.mp3"
+        },
+        {
+            "word": "awfully",
+            "meaning": "とても（強調）",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "I am awfully sorry for being late.",
+            "distractors": [
+                "定期的に",
+                "ほとんど～ない",
+                "優しく"
+            ],
+            "wordAudio": "audio/vocab/w_007_awfully.mp3",
+            "exampleAudio": "audio/vocab/ex_007_awfully.mp3"
+        },
+        {
+            "word": "wondered",
+            "meaning": "～かどうか思った",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "I wondered whether the store would still be open.",
+            "distractors": [
+                "思い出した",
+                "返事した",
+                "準備した"
+            ],
+            "wordAudio": "audio/vocab/w_008_wondered.mp3",
+            "exampleAudio": "audio/vocab/ex_008_wondered.mp3"
+        },
+        {
+            "word": "judge",
+            "meaning": "判断する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "You should not judge people only by their clothes.",
+            "distractors": [
+                "発表する",
+                "練習する",
+                "完成させる"
+            ],
+            "wordAudio": "audio/vocab/w_009_judge.mp3",
+            "exampleAudio": "audio/vocab/ex_009_judge.mp3"
+        },
+        {
+            "word": "occupied",
+            "meaning": "使われている・占有された",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "All the seats on the train were occupied.",
+            "distractors": [
+                "広がった",
+                "期待された",
+                "考慮された"
+            ],
+            "wordAudio": "audio/vocab/w_010_occupied.mp3",
+            "exampleAudio": "audio/vocab/ex_010_occupied.mp3"
+        },
+        {
+            "word": "in the near future",
+            "meaning": "近い将来に",
+            "pos": "副詞句",
+            "level": "準2級",
+            "example": "We plan to move to a bigger house in the near future.",
+            "distractors": [
+                "当分の間",
+                "同時に",
+                "昔々"
+            ],
+            "wordAudio": "audio/vocab/w_011_in_the_near_future.mp3",
+            "exampleAudio": "audio/vocab/ex_011_in_the_near_future.mp3"
+        },
+        {
+            "word": "a sort of",
+            "meaning": "一種の",
+            "pos": "句",
+            "level": "準2級",
+            "example": "It was a sort of picnic, but we ate indoors.",
+            "distractors": [
+                "一片の",
+                "たくさんの",
+                "二、三の"
+            ],
+            "wordAudio": "audio/vocab/w_012_a_sort_of.mp3",
+            "exampleAudio": "audio/vocab/ex_012_a_sort_of.mp3"
+        },
+        {
+            "word": "known as",
+            "meaning": "～として知られている",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "Kyoto is known as a city with many temples.",
+            "distractors": [
+                "かつて～だった",
+                "～の代金を払った",
+                "～に分けられた"
+            ],
+            "wordAudio": "audio/vocab/w_013_known_as.mp3",
+            "exampleAudio": "audio/vocab/ex_013_known_as.mp3"
+        },
+        {
+            "word": "find fault with",
+            "meaning": "～の文句を言う",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "My boss always finds fault with my reports.",
+            "distractors": [
+                "～を我慢する",
+                "～を楽しみにする",
+                "～に参加する"
+            ],
+            "wordAudio": "audio/vocab/w_014_find_fault_with.mp3",
+            "exampleAudio": "audio/vocab/ex_014_find_fault_with.mp3"
+        },
+        {
+            "word": "help yourself",
+            "meaning": "ご自由にどうぞ",
+            "pos": "句",
+            "level": "準2級",
+            "example": "There is cake on the table, so please help yourself.",
+            "distractors": [
+                "確かめる",
+                "気をつける",
+                "知り合う"
+            ],
+            "wordAudio": "audio/vocab/w_015_help_yourself.mp3",
+            "exampleAudio": "audio/vocab/ex_015_help_yourself.mp3"
+        },
+        {
+            "word": "boring",
+            "meaning": "退屈な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The lecture was so boring that I almost fell asleep.",
+            "distractors": [
+                "魅力的な",
+                "きつい",
+                "かすかな"
+            ],
+            "wordAudio": "audio/vocab/w_016_boring.mp3",
+            "exampleAudio": "audio/vocab/ex_016_boring.mp3"
+        },
+        {
+            "word": "intelligence",
+            "meaning": "知性",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "She showed great intelligence in solving the puzzle.",
+            "distractors": [
+                "外見",
+                "入口",
+                "違い"
+            ],
+            "wordAudio": "audio/vocab/w_017_intelligence.mp3",
+            "exampleAudio": "audio/vocab/ex_017_intelligence.mp3"
+        },
+        {
+            "word": "go straight there",
+            "meaning": "まっすぐそこへ行く",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "This bus goes straight there without any stops.",
+            "distractors": [
+                "たくさん停まる",
+                "より多くの乗客を載せる",
+                "夜遅く運行する"
+            ],
+            "wordAudio": "audio/vocab/w_018_go_straight_there.mp3",
+            "exampleAudio": "audio/vocab/ex_018_go_straight_there.mp3"
+        },
+        {
+            "word": "sticker",
+            "meaning": "ステッカー",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "She put a name sticker on her swim bag.",
+            "distractors": [
+                "荷物",
+                "店",
+                "名前"
+            ],
+            "wordAudio": "audio/vocab/w_019_sticker.mp3",
+            "exampleAudio": "audio/vocab/ex_019_sticker.mp3"
+        },
+        {
+            "word": "mountain jacket",
+            "meaning": "マウンテンジャケット",
+            "pos": "名詞句",
+            "level": "準2級",
+            "example": "A warm mountain jacket is useful when camping.",
+            "distractors": [
+                "バックパック",
+                "水着",
+                "懐中電灯"
+            ],
+            "wordAudio": "audio/vocab/w_020_mountain_jacket.mp3",
+            "exampleAudio": "audio/vocab/ex_020_mountain_jacket.mp3"
+        },
+        {
+            "word": "arrival area",
+            "meaning": "到着エリア",
+            "pos": "名詞句",
+            "level": "準2級",
+            "example": "Please wait for me in the arrival area at the airport.",
+            "distractors": [
+                "出発ロビー",
+                "駐車場",
+                "待合室"
+            ],
+            "wordAudio": "audio/vocab/w_021_arrival_area.mp3",
+            "exampleAudio": "audio/vocab/ex_021_arrival_area.mp3"
+        },
+        {
+            "word": "pick up",
+            "meaning": "取りに来る・受け取る",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "I will pick up my package at the store tomorrow.",
+            "distractors": [
+                "置き去りにする",
+                "送る",
+                "探す"
+            ],
+            "wordAudio": "audio/vocab/w_022_pick_up.mp3",
+            "exampleAudio": "audio/vocab/ex_022_pick_up.mp3"
+        },
+        {
+            "word": "poster",
+            "meaning": "ポスター",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "He made posters to find his lost cat.",
+            "distractors": [
+                "手紙",
+                "地図",
+                "写真"
+            ],
+            "wordAudio": "audio/vocab/w_023_poster.mp3",
+            "exampleAudio": "audio/vocab/ex_023_poster.mp3"
+        },
+        {
+            "word": "nowhere",
+            "meaning": "どこにも～ない",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "I looked everywhere, but my keys were nowhere to be found.",
+            "distractors": [
+                "どこでも",
+                "いつも",
+                "すぐに"
+            ],
+            "wordAudio": "audio/vocab/w_024_nowhere.mp3",
+            "exampleAudio": "audio/vocab/ex_024_nowhere.mp3"
+        },
+        {
+            "word": "accept",
+            "meaning": "受け入れる",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "She had to accept that she could not change the result.",
+            "distractors": [
+                "拒否する",
+                "忘れる",
+                "探す"
+            ],
+            "wordAudio": "audio/vocab/w_025_accept.mp3",
+            "exampleAudio": "audio/vocab/ex_025_accept.mp3"
+        },
+        {
+            "word": "similar",
+            "meaning": "似ている",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Your bag looks similar to mine.",
+            "distractors": [
+                "異なる",
+                "新しい",
+                "古い"
+            ],
+            "wordAudio": "audio/vocab/w_026_similar.mp3",
+            "exampleAudio": "audio/vocab/ex_026_similar.mp3"
+        },
+        {
+            "word": "hurry",
+            "meaning": "急ぐ",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "We had to hurry to catch the last train.",
+            "distractors": [
+                "待つ",
+                "休む",
+                "歩く"
+            ],
+            "wordAudio": "audio/vocab/w_027_hurry.mp3",
+            "exampleAudio": "audio/vocab/ex_027_hurry.mp3"
+        },
+        {
+            "word": "missing",
+            "meaning": "行方不明の",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The missing dog was found safe two days later.",
+            "distractors": [
+                "安全な",
+                "元気な",
+                "眠っている"
+            ],
+            "wordAudio": "audio/vocab/w_028_missing.mp3",
+            "exampleAudio": "audio/vocab/ex_028_missing.mp3"
+        },
+        {
+            "word": "opportunity",
+            "meaning": "機会",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "This job is a great opportunity to learn new skills.",
+            "distractors": [
+                "問題",
+                "責任",
+                "約束"
+            ],
+            "wordAudio": "audio/vocab/w_029_opportunity.mp3",
+            "exampleAudio": "audio/vocab/ex_029_opportunity.mp3"
+        },
+        {
+            "word": "interview",
+            "meaning": "面接",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "She has an online interview next Monday.",
+            "distractors": [
+                "試験",
+                "会議",
+                "旅行"
+            ],
+            "wordAudio": "audio/vocab/w_030_interview.mp3",
+            "exampleAudio": "audio/vocab/ex_030_interview.mp3"
+        },
+        {
+            "word": "equipment",
+            "meaning": "装備・器材",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "You can rent skiing equipment at the resort.",
+            "distractors": [
+                "食事",
+                "部屋",
+                "地図"
+            ],
+            "wordAudio": "audio/vocab/w_031_equipment.mp3",
+            "exampleAudio": "audio/vocab/ex_031_equipment.mp3"
+        },
+        {
+            "word": "cafeteria",
+            "meaning": "食堂",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Students eat lunch in the school cafeteria.",
+            "distractors": [
+                "図書館",
+                "教室",
+                "事務所"
+            ],
+            "wordAudio": "audio/vocab/w_032_cafeteria.mp3",
+            "exampleAudio": "audio/vocab/ex_032_cafeteria.mp3"
+        },
+        {
+            "word": "freely",
+            "meaning": "自由に",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "On days off, you can use the rest of the week freely.",
+            "distractors": [
+                "速く",
+                "静かに",
+                "慎重に"
+            ],
+            "wordAudio": "audio/vocab/w_033_freely.mp3",
+            "exampleAudio": "audio/vocab/ex_033_freely.mp3"
+        },
+        {
+            "word": "mental health",
+            "meaning": "精神的健康",
+            "pos": "名詞句",
+            "level": "準2級",
+            "example": "Talking with friends is good for your mental health.",
+            "distractors": [
+                "身体的健康",
+                "食生活",
+                "睡眠"
+            ],
+            "wordAudio": "audio/vocab/w_034_mental_health.mp3",
+            "exampleAudio": "audio/vocab/ex_034_mental_health.mp3"
+        },
+        {
+            "word": "social media",
+            "meaning": "ソーシャルメディア",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Many teenagers use social media every day.",
+            "distractors": [
+                "新聞",
+                "テレビ",
+                "ラジオ"
+            ],
+            "wordAudio": "audio/vocab/w_035_social_media.mp3",
+            "exampleAudio": "audio/vocab/ex_035_social_media.mp3"
+        },
+        {
+            "word": "influence",
+            "meaning": "影響を与える",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Good teachers can positively influence their students.",
+            "distractors": [
+                "妨げる",
+                "無視する",
+                "拒否する"
+            ],
+            "wordAudio": "audio/vocab/w_036_influence.mp3",
+            "exampleAudio": "audio/vocab/ex_036_influence.mp3"
+        },
+        {
+            "word": "accepted",
+            "meaning": "受け入れられた",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "She felt accepted by her new classmates.",
+            "distractors": [
+                "拒否された",
+                "忘れられた",
+                "批判された"
+            ],
+            "wordAudio": "audio/vocab/w_037_accepted.mp3",
+            "exampleAudio": "audio/vocab/ex_037_accepted.mp3"
+        },
+        {
+            "word": "connected",
+            "meaning": "つながった",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Online groups help people feel connected to others.",
+            "distractors": [
+                "孤立した",
+                "混乱した",
+                "疲れた"
+            ],
+            "wordAudio": "audio/vocab/w_038_connected.mp3",
+            "exampleAudio": "audio/vocab/ex_038_connected.mp3"
+        },
+        {
+            "word": "expert",
+            "meaning": "専門家",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "You should get advice from an expert in the field.",
+            "distractors": [
+                "学生",
+                "初心者",
+                "観光客"
+            ],
+            "wordAudio": "audio/vocab/w_039_expert.mp3",
+            "exampleAudio": "audio/vocab/ex_039_expert.mp3"
+        },
+        {
+            "word": "professional",
+            "meaning": "専門的な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Only professional advice should be trusted for health issues.",
+            "distractors": [
+                "個人的な",
+                "古い",
+                "無料の"
+            ],
+            "wordAudio": "audio/vocab/w_040_professional.mp3",
+            "exampleAudio": "audio/vocab/ex_040_professional.mp3"
+        }
+    ],
+    "sections": [],
+    "lessonPlan": {}
+}

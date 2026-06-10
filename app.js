@@ -755,7 +755,7 @@
       <div class="vocab-result ${ok ? 'correct' : 'wrong'}">
         <div class="result-icon">${ok ? '✓ 正解！' : '✗ 不正解'}</div>
         <div><strong>${item.word}</strong> = ${item.meaning}</div>
-        <div class="result-example">例: ${item.example}</div>
+        <div class="result-example">例: ${item.example}${item.exampleAudio ? ` <button class="q-audio-btn vocab-audio-btn" onclick="window.APP.playQuestionAudio(this, '${item.exampleAudio}')" title="例文を聞く"><span class="material-symbols-rounded" style="font-size:18px">volume_up</span></button>` : ''}</div>
       </div>
     `;
     updateVocabProgress();
