@@ -231,7 +231,7 @@ section1 = {
         },
         {
             "number": 17,
-            "text": "A : Did going to college have any ( 17 ) your life? B : Definitely. I met a lot of people who helped me develop important skills, and I also gained a lot of confidence in myself.",
+            "text": "A : Did going to college have any ( 17 ) your life? B : Definitely, I met a lot of people who helped me develop important skills, and I also gained a lot of confidence in myself.",
             "translation": "A：大学に行ったことはあなたの人生に何か( 17 )ありましたか？ B：もちろん。重要なスキルを伸ばす手助けをしてくれる多くの人に出会ったし、自分への自信も大きくつきました。",
             "choices": ["effect on", "comparison to", "responsibility for", "reaction to"],
             "answer": 1,
@@ -251,46 +251,48 @@ section1 = {
 
 # --- 2A: Child-Friendly City ---
 p2a_paras = [
-    "The city of Pontevedra, in Spain, has been praised for its efforts to make the city a better place for families. In the 1990s, Pontevedra was like many other mid-size cities in Spain, surrounded by traffic and pollution. Children had to be driven everywhere because it was too dangerous for them to walk. This inspired the city's mayor, Miguel Anxo Fernández Lores, to take a surprising step. ( 18 ) trying to find ways to deal with the traffic, such as building more parking areas, he decided to get rid of the cars and close the city center to traffic.",
-    "At first, some people argued against the changes. Lores, however, wanted people to ( 19 ) for themselves. After a short trial, citizens began to see the positive results. The streets became safer and less polluted, and people started to enjoy walking and cycling in the city. Shops reported more customers because people walking around the city center were more likely to stop and shop.",
-    "Since then, the changes have been made permanent. Observations by researchers indicate that these improvements are not just about traffic. They reflect a broader effort to make urban spaces more friendly to children. Pontevedra has shown other cities what can be achieved when leaders are willing to ban cars from city centers and ( 20 ) to live and play in."
+    "In Bratislava, a central city in Slovakia, efforts have been made to create a child-friendly city through the “City for Children” program. Many schools were surrounded by dangers, and safety measures were taken as a trial. One successful example is Nevädzová Street, which used to be crowded with dozens of cars driven by parents trying to drop off children at school. Now, cars are banned from this street when children go to school. ( 18 ), during the school arrival time from 7:30 to 8:00 a.m., children can walk to school on their own.",
+    "In Bratislava, any idea is tested on a trial basis before being introduced permanently. Residents, parents, and school officials can have the opportunity to ( 19 ). City officials use colorful paint and plastic poles to show new walking areas and indicate changed traffic patterns. Based on all the opinions and observations, designers can develop more permanent solutions using better materials. This careful approach leads to a final design that meets the needs of the community and helps avoid expensive mistakes.",
+    "These urban improvements not only make the streets safe for children but also ( 20 ). Art on the streets makes the space beautiful and clearly shows where people can and should not walk. In some schools, professional artists produced artwork that reflected children's ideas about the community. Some works are playful in that they use flower art to guide children toward places around the neighborhood. These art elements are changing spaces that used to be mainly for cars into community areas where children can actively play together."
 ]
 
 p2a_trans = [
-    "スペインのポンテベドラ市は、市を家族にとってより良い場所にする取り組みで称賛されてきた。1990年代、ポンテベドラはスペインの他の多くの中規模都市と同様、交通と汚染に囲まれていた。子どもたちは歩くには危険すぎたため、どこへ行くにも車で送ってもらわなければならなかった。これがきっかけとなり、市長のミゲル・アンショ・フェルナンデス・ロレスは驚くべき一歩を踏み出した。駐車場を増やすなど交通に対処する方法を探す( 18 )、彼は車をなくし、市の中心部を交通に対して閉鎖することを決めたのだ。",
-    "当初、その変化に反対する人もいた。しかしロレスは、人々に自分自身で( 19 )してほしいと考えていた。短い試行期間の後、市民は良い結果を目にし始めた。通りはより安全で汚染も減り、人々は市内を歩いたり自転車に乗ったりすることを楽しみ始めた。市の中心部を歩き回る人々は立ち止まって買い物をする可能性が高かったため、店は客が増えたと報告した。",
-    "それ以来、その変化は恒久的なものとなった。研究者による観察は、これらの改善が交通だけの問題ではないことを示している。それらは、都市空間を子どもにとってより親しみやすいものにするための、より広範な取り組みを反映している。ポンテベドラは、指導者が市の中心部から車を締め出し、子どもたちが住み遊ぶための( 20 )意志があるときに何が達成できるかを、他の都市に示したのである。"
+    "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。多くの学校が危険に囲まれており、試験的に安全対策が取られた。成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分の足で歩いて学校に行くことができる。",
+    "ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証される。住民、保護者、学校関係者は( 19 )機会を持つことができる。市の職員はカラフルなペンキとプラスチック製のポールを使って、新しい歩行エリアを示したり、変更された交通パターンを示したりする。すべての意見と観察に基づいて、設計者はより良い材料を使った、より恒久的な解決策を開発することができる。この慎重なアプローチは、地域社会のニーズを満たす最終的な設計につながり、費用のかかる失敗を避けるのに役立つ。",
+    "これらの都市の改善は、通りを子どもにとって安全にするだけでなく、( 20 )。通りのアートは空間を美しくし、人々がどこを歩いてよく、どこを歩くべきでないかをはっきりと示す。いくつかの学校では、プロの芸術家が地域社会についての子どもたちの考えを反映した作品を制作した。作品の中には、花のアートを使って子どもたちを近所の場所へ導くという遊び心のあるものもある。これらのアートの要素は、かつて主に車のためのものだった空間を、子どもたちが一緒に活発に遊べる地域の場へと変えつつある。"
 ]
 
 p2a_pairs = [
-    ["The city of Pontevedra, in Spain, has been praised for its efforts to make the city a better place for families.",
-     "スペインのポンテベドラ市は、市を家族にとってより良い場所にする取り組みで称賛されてきた。"],
-    ["In the 1990s, Pontevedra was like many other mid-size cities in Spain, surrounded by traffic and pollution.",
-     "1990年代、ポンテベドラはスペインの他の多くの中規模都市と同様、交通と汚染に囲まれていた。"],
-    ["Children had to be driven everywhere because it was too dangerous for them to walk.",
-     "子どもたちは歩くには危険すぎたため、どこへ行くにも車で送ってもらわなければならなかった。"],
-    ["This inspired the city's mayor, Miguel Anxo Fernández Lores, to take a surprising step.",
-     "これがきっかけとなり、市長のミゲル・アンショ・フェルナンデス・ロレスは驚くべき一歩を踏み出した。"],
-    ["( 18 ) trying to find ways to deal with the traffic, such as building more parking areas, he decided to get rid of the cars and close the city center to traffic.",
-     "駐車場を増やすなど交通に対処する方法を探す( 18 )、彼は車をなくし、市の中心部を交通に対して閉鎖することを決めたのだ。"],
-    ["At first, some people argued against the changes.",
-     "当初、その変化に反対する人もいた。"],
-    ["Lores, however, wanted people to ( 19 ) for themselves.",
-     "しかしロレスは、人々に自分自身で( 19 )してほしいと考えていた。"],
-    ["After a short trial, citizens began to see the positive results.",
-     "短い試行期間の後、市民は良い結果を目にし始めた。"],
-    ["The streets became safer and less polluted, and people started to enjoy walking and cycling in the city.",
-     "通りはより安全で汚染も減り、人々は市内を歩いたり自転車に乗ったりすることを楽しみ始めた。"],
-    ["Shops reported more customers because people walking around the city center were more likely to stop and shop.",
-     "市の中心部を歩き回る人々は立ち止まって買い物をする可能性が高かったため、店は客が増えたと報告した。"],
-    ["Since then, the changes have been made permanent.",
-     "それ以来、その変化は恒久的なものとなった。"],
-    ["Observations by researchers indicate that these improvements are not just about traffic.",
-     "研究者による観察は、これらの改善が交通だけの問題ではないことを示している。"],
-    ["They reflect a broader effort to make urban spaces more friendly to children.",
-     "それらは、都市空間を子どもにとってより親しみやすいものにするための、より広範な取り組みを反映している。"],
-    ["Pontevedra has shown other cities what can be achieved when leaders are willing to ban cars from city centers and ( 20 ) to live and play in.",
-     "ポンテベドラは、指導者が市の中心部から車を締め出し、子どもたちが住み遊ぶための( 20 )意志があるときに何が達成できるかを、他の都市に示したのである。"]
+    ["In Bratislava, a central city in Slovakia, efforts have been made to create a child-friendly city through the “City for Children” program.",
+     "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。"],
+    ["Many schools were surrounded by dangers, and safety measures were taken as a trial.",
+     "多くの学校が危険に囲まれており、試験的に安全対策が取られた。"],
+    ["One successful example is Nevädzová Street, which used to be crowded with dozens of cars driven by parents trying to drop off children at school.",
+     "成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。"],
+    ["Now, cars are banned from this street when children go to school.",
+     "現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。"],
+    ["( 18 ), during the school arrival time from 7:30 to 8:00 a.m., children can walk to school on their own.",
+     "( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分の足で歩いて学校に行くことができる。"],
+    ["In Bratislava, any idea is tested on a trial basis before being introduced permanently.",
+     "ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証される。"],
+    ["Residents, parents, and school officials can have the opportunity to ( 19 ).",
+     "住民、保護者、学校関係者は( 19 )機会を持つことができる。"],
+    ["City officials use colorful paint and plastic poles to show new walking areas and indicate changed traffic patterns.",
+     "市の職員はカラフルなペンキとプラスチック製のポールを使って、新しい歩行エリアを示したり、変更された交通パターンを示したりする。"],
+    ["Based on all the opinions and observations, designers can develop more permanent solutions using better materials.",
+     "すべての意見と観察に基づいて、設計者はより良い材料を使った、より恒久的な解決策を開発することができる。"],
+    ["This careful approach leads to a final design that meets the needs of the community and helps avoid expensive mistakes.",
+     "この慎重なアプローチは、地域社会のニーズを満たす最終的な設計につながり、費用のかかる失敗を避けるのに役立つ。"],
+    ["These urban improvements not only make the streets safe for children but also ( 20 ).",
+     "これらの都市の改善は、通りを子どもにとって安全にするだけでなく、( 20 )。"],
+    ["Art on the streets makes the space beautiful and clearly shows where people can and should not walk.",
+     "通りのアートは空間を美しくし、人々がどこを歩いてよく、どこを歩くべきでないかをはっきりと示す。"],
+    ["In some schools, professional artists produced artwork that reflected children's ideas about the community.",
+     "いくつかの学校では、プロの芸術家が地域社会についての子どもたちの考えを反映した作品を制作した。"],
+    ["Some works are playful in that they use flower art to guide children toward places around the neighborhood.",
+     "作品の中には、花のアートを使って子どもたちを近所の場所へ導くという遊び心のあるものもある。"],
+    ["These art elements are changing spaces that used to be mainly for cars into community areas where children can actively play together.",
+     "これらのアートの要素は、かつて主に車のためのものだった空間を、子どもたちが一緒に活発に遊べる地域の場へと変えつつある。"]
 ]
 
 # --- 2B: Dead Trees ---
@@ -362,45 +364,45 @@ section2 = {
             "questions": [
                 {
                     "number": 18,
-                    "choices": ["Because of", "In addition to", "Regardless of", "Instead of"],
+                    "choices": ["Similarly", "Otherwise", "For instance", "Instead"],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "Because of=～のために→因果関係ではない",
-                        "In addition to=～に加えて→駐車場建設などは実際には行っていないので不適",
-                        "Regardless of=～に関係なく→文脈に合わない",
-                        "Instead of=～の代わりに→正解。💡 交通対策（駐車場建設など）を探す代わりに、車自体をなくすという対比"
+                        "Similarly=同様に→前文との類似関係ではない",
+                        "Otherwise=さもなければ→条件・帰結の関係ではない",
+                        "For instance=例えば→具体例の導入ではない",
+                        "Instead=その代わりに→正解。💡 車が禁止された代わりに、子どもたちが自分の足で歩いて登校するという対比"
                     ]
                 },
                 {
                     "number": 19,
                     "choices": [
-                        "record the changes and write reports",
+                        "get paid for using new walking paths",
                         "experience the changes and give feedback",
-                        "study the changes and publish findings",
-                        "ignore the changes and continue driving"
+                        "walk through the areas without noticing changes",
+                        "talk about the changes before the trials"
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "変化を記録し報告書を書く→市民の行動として本文にない",
-                        "変化を体験し意見を伝える→正解。💡 直後の After a short trial, citizens began to see the positive results（試行後に市民が良さを実感）と一致",
-                        "変化を研究し結果を発表する→研究者の行動であり市民ではない",
-                        "変化を無視して運転を続ける→改革の趣旨と正反対"
+                        "新しい歩道を使うことでお金をもらう→本文にない",
+                        "変化を体験し意見を伝える→正解。💡 直後の Based on all the opinions and observations（意見と観察に基づいて設計者が解決策を開発）につながる",
+                        "変化に気づかずにそのエリアを歩く→意見を出す流れと矛盾",
+                        "試行の前に変化について話し合う→試行（trial）が先で意見が後という順序と逆"
                     ]
                 },
                 {
                     "number": 20,
                     "choices": [
-                        "leave areas that are only for adults to relax in",
-                        "build large parking areas for families to use",
+                        "result in educational problems",
+                        "change the city to be eco-friendly",
                         "create a fun place for them",
-                        "provide more cars for them"
+                        "work for the drivers from other cities"
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "大人だけがくつろぐ場所を残す→「子どもに優しい都市」の趣旨と逆",
-                        "家族向けの大きな駐車場を建設する→車を排除する方針と矛盾",
-                        "彼らのための楽しい場所をつくる→正解。💡 make urban spaces more friendly to children の言い換え。them＝children",
-                        "彼らにもっと車を提供する→方針と正反対"
+                        "教育上の問題を引き起こす→改善の利点を述べる文脈と逆",
+                        "都市を環境に優しいものに変える→アートと遊び場の話で、環境保護の話ではない",
+                        "彼らのための楽しい場所をつくる→正解。💡 直後の「花のアートで子どもを導く」「子どもが活発に遊べる地域の場」と一致。them＝children",
+                        "他の都市から来る運転者のために働く→本文にない"
                     ]
                 }
             ]
@@ -416,43 +418,43 @@ section2 = {
                     "number": 21,
                     "choices": [
                         "go inside the tree and lay eggs",
-                        "fly around the area and build nests",
-                        "leave the tree and search for food",
-                        "climb the tree and eat its leaves"
+                        "stay away from dead trees",
+                        "eat mushrooms and fly far away",
+                        "help the tree begin to grow again"
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
                         "木の中に入り卵を産む→正解。💡 直後の In turn, new insects and other creatures begin to grow（新しい昆虫が育ち始める）につながる",
-                        "周囲を飛び回り巣を作る→巣作りは後述の鳥の行動",
-                        "木を離れて食べ物を探す→枯れ木が住みかになるという流れと逆",
-                        "木に登って葉を食べる→枯れ木に葉はない"
+                        "枯れ木に近づかない→枯れ木が生息地（habitat）になるという流れと逆",
+                        "キノコを食べて遠くへ飛び去る→木の中にとどまって繁殖する流れと矛盾",
+                        "木が再び成長し始めるのを助ける→枯れた木は成長しない"
                     ]
                 },
                 {
                     "number": 22,
-                    "choices": ["On the other hand", "For example", "In contrast", "Additionally"],
+                    "choices": ["Despite this", "In contrast", "On average", "Additionally"],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "On the other hand=他方で→対比ではなく追加の内容",
-                        "For example=例えば→具体例ではない",
-                        "In contrast=対照的に→対比ではない",
+                        "Despite this=これにもかかわらず→逆接ではない",
+                        "In contrast=対照的に→対比ではなく追加の内容",
+                        "On average=平均して→数値の話ではない",
                         "Additionally=さらに→正解。💡 生きている間の働き（CO₂削減）に加えて、死後も炭素貯蔵庫として役立つという追加情報"
                     ]
                 },
                 {
                     "number": 23,
                     "choices": [
-                        "in forests that are near large rivers",
-                        "in areas that have heavy rainfall",
+                        "in large open spaces with soft ground",
+                        "in the thin air near tall mountains",
                         "in dry climates or during dry seasons",
-                        "in places where the soil is very rich"
+                        "in the cool mornings in forest areas"
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "大きな川の近くの森→湿っており火災の危険が低い",
-                        "降水量の多い地域→同じく火災の危険が低い",
-                        "乾燥した気候や乾季→正解。💡 直後の dead trees lack moisture and can catch fire easily（水分を欠き燃えやすい）と一致",
-                        "土壌が非常に豊かな場所→火災の危険とは無関係"
+                        "地面の柔らかい広く開けた場所で→火災の危険とは無関係",
+                        "高い山の近くの薄い空気の中で→本文にない",
+                        "乾燥した気候や乾季に→正解。💡 直後の dead trees lack moisture and can catch fire easily（水分を欠き燃えやすい）と一致",
+                        "森林地帯の涼しい朝に→火災が起きやすい条件ではない"
                     ]
                 }
             ]

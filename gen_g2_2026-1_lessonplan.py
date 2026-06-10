@@ -58,11 +58,10 @@ fp1 = {
         "since the early 2000s",
         "Over the past two thousand years",
         "since ancient times",
-        "After a short trial, citizens began to see the positive results",
-        "In the 1990s",
         "About two thousand years ago",
         "over many centuries",
-        "Since then"
+        "which used to be crowded with dozens of cars",
+        "spaces that used to be mainly for cars"
     ],
     "highlightColor": "#4f8cff",
     "highlightLabel": "not until 強調"
@@ -116,11 +115,11 @@ fp2 = {
     ],
     "highlightPatterns": [
         "a habitat, or a place to live",
-        "such as building more parking areas",
+        "In Bratislava, a central city in Slovakia",
         "such as parks, campgrounds, and roadsides",
         "such as plastic bottles",
         "such as dome-shaped public baths",
-        "the city's mayor, Miguel Anxo Fernández Lores",
+        "One successful example is Nevädzová Street",
         "In the woods, for example",
         "For instance, it might be necessary to remove them",
         "like the Las Vegas of the Roman Empire",
@@ -193,16 +192,16 @@ fp3 = {
 
 fp4 = {
     "id": "fp4",
-    "title": "受動態の応用（be praised for / be known as / be managed as）",
+    "title": "受動態の応用（現在完了受動態 / be known as / be managed as）",
     "subtitle": "Advanced Passives with Prepositions",
-    "explanation": "受動態は「be + 過去分詞」の形だけでなく、後ろに続く前置詞とセットで覚えることが重要。be praised for（〜のことで称賛される）、be known as（〜として知られる）、be managed as（〜として管理される）のように、for / as などの前置詞が意味を決める。また has been praised のような現在完了受動態は「（過去から今まで）ずっと〜されてきた」という継続のニュアンスを表す。",
-    "sourceQuote": "The city of Pontevedra, in Spain, has been praised for its efforts to make the city a better place for families.",
+    "explanation": "受動態は「be + 過去分詞」の形だけでなく、後ろに続く前置詞とセットで覚えることが重要。be known as（〜として知られる）、be managed as（〜として管理される）、be banned from（〜から締め出される）のように、as / from などの前置詞が意味を決める。また efforts have been made のような現在完了受動態は「（過去から今まで）ずっと〜されてきた」という継続のニュアンスを表す。",
+    "sourceQuote": "In Bratislava, a central city in Slovakia, efforts have been made to create a child-friendly city through the “City for Children” program.",
     "sourceLocation": "大問2A 第1段落",
     "examples": [
         {
-            "en": "The scientist has been praised for her research on ocean pollution.",
-            "ja": "その科学者は海洋汚染に関する研究で称賛されてきた。",
-            "note": "be praised for 〜＝〜のことで称賛される（現在完了受動態で継続を表す）"
+            "en": "Great efforts have been made to protect the forest from wildfires.",
+            "ja": "山火事から森林を守るために多大な努力が払われてきた。",
+            "note": "efforts have been made to V＝〜する努力がなされてきた（現在完了受動態で継続を表す）"
         },
         {
             "en": "This area is known as one of the best places to see wild birds.",
@@ -238,11 +237,12 @@ fp4 = {
         }
     ],
     "highlightPatterns": [
-        "has been praised for its efforts",
+        "efforts have been made to create a child-friendly city",
         "has been known as a hot spring resort",
         "has been managed as a protected marine area",
-        "the changes have been made permanent",
-        "Children had to be driven everywhere",
+        "cars are banned from this street",
+        "safety measures were taken as a trial",
+        "any idea is tested on a trial basis",
         "Walls and roads in the water were seen clearly",
         "can be visited on foot"
     ],
@@ -255,7 +255,7 @@ fp5 = {
     "title": "今回の重要なパラフレーズ",
     "subtitle": "Key Paraphrases in This Exam",
     "explanation": "正解の選択肢は本文の表現をそのまま使わず、別の語句で言い換えられる（パラフレーズ）。restore → recharge、gradually → slowly、the glass bottom of boats → special glass on a tour boat のように、動詞・副詞・名詞句レベルの言い換えに気づけるかが正答の鍵。本文を読むときは「この表現は選択肢でどう言い換えられそうか」を意識すると、根拠箇所を素早く特定できる。",
-    "sourceQuote": "①create a fun place for them ← make urban spaces more friendly to children\n②classes finish later on other days ← ends at 2:00 p.m. on Fridays, which is earlier than on other days\n③what to bring ← what he should bring or prepare in advance\n④recharge their energy ← restore their energy\n⑤slowly sink beneath the water ← sink underground gradually\n⑥special glass on a tour boat ← the glass bottom of boats",
+    "sourceQuote": "①create a fun place for them ← community areas where children can actively play together\n②experience the changes and give feedback ← Based on all the opinions and observations\n③classes finish later on other days ← ends at 2:00 p.m. on Fridays, which is earlier than on other days\n④recharge their energy ← restore their energy\n⑤slowly sink beneath the water ← sink underground gradually\n⑥special glass on a tour boat ← the glass bottom of boats",
     "sourceLocation": "大問2A・大問3A・大問3B",
     "examples": [
         {
@@ -297,7 +297,8 @@ fp5 = {
         }
     ],
     "highlightPatterns": [
-        "make urban spaces more friendly to children",
+        "community areas where children can actively play together",
+        "Based on all the opinions and observations",
         "which is earlier than on other days",
         "restore their energy",
         "sink underground gradually",
