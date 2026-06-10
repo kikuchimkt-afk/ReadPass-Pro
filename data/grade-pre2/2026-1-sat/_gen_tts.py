@@ -1,4 +1,4 @@
-"""Generate TTS audio for vocabulary words and example sentences - 2026-1-sat pre2"""
+"""Generate TTS audio for practice passages, vocabulary words and examples - 2026-1-sat pre2"""
 import json
 import os
 import asyncio
@@ -16,8 +16,10 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(BASE, "data.json")
 d = json.load(open(data_path, encoding="utf-8"))
 
-vocab_dir = os.path.join(BASE, "audio", "vocab")
+audio_dir = os.path.join(BASE, "audio")
+vocab_dir = os.path.join(audio_dir, "vocab")
 os.makedirs(vocab_dir, exist_ok=True)
+os.makedirs(audio_dir, exist_ok=True)
 
 
 async def gen_tts(text, outpath):
@@ -28,6 +30,21 @@ async def gen_tts(text, outpath):
 def safe_slug(word):
     return re.sub(r"[^a-zA-Z0-9_]", "_", word.lower()).strip("_")
 
+
+pp_count = 0
+fps = d.get("lessonPlan", {}).get("focusPoints", [])
+for i, fp in enumerate(fps):
+    pp = fp.get("practicePassage", {})
+    en = pp.get("en", "")
+    en_clean = re.sub(r"\[出典:.*?\]\n?", "", en).strip()
+    fname = f"practice_pp{i + 1}.mp3"
+    outpath = os.path.join(audio_dir, fname)
+    if en_clean and (not os.path.exists(outpath) or os.path.getsize(outpath) < 500):
+        asyncio.run(gen_tts(en_clean, outpath))
+        pp_count += 1
+        print(f"  practice: {fname}", flush=True)
+    if en_clean:
+        pp["audioFile"] = f"audio/{fname}"
 
 vocab = d.get("vocabulary", [])
 word_count = 0
@@ -58,4 +75,4 @@ for i, v in enumerate(vocab):
 with open(data_path, "w", encoding="utf-8") as f:
     json.dump(d, f, ensure_ascii=False, indent=4)
 
-print(f"\nDone: {word_count} new word / {ex_count} new example / {len(vocab)} total")
+print(f"\nDone: {pp_count} practice / {word_count} new word / {ex_count} new example")
