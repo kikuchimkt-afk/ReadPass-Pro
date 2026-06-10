@@ -5,11 +5,12 @@ Step A: sections（大問1・大問2・大問3）
 既存の data.json（vocabulary 済み）を読み込み、sections を追加して保存する。
 """
 import json
+import os
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-DATA_PATH = r"G:\マイドライブ\ReadPass Pro\data\grade2\2026-1-sat\data.json"
+DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "grade2", "2026-1-sat", "data.json")
 
 # ============================================================
 # Section 0: 大問1（vocabulary 型）Q1〜Q17

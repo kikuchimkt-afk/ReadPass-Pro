@@ -4,11 +4,12 @@
 Step B: lessonPlan（focusPoints × 5）
 """
 import json
+import os
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-DATA_PATH = r"G:\マイドライブ\ReadPass Pro\data\grade2\2026-1-sat\data.json"
+DATA_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "grade2", "2026-1-sat", "data.json")
 
 fp1 = {
     "id": "fp1",

@@ -100,4 +100,5 @@ def verify(path):
     print(f"  問題数: {counts}")
 
 
-verify(r"G:\マイドライブ\ReadPass Pro\data\grade2\2026-1-sat\data.json")
+import os
+verify(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "grade2", "2026-1-sat", "data.json"))

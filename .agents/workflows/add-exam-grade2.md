@@ -14,11 +14,15 @@ description: 2級のリスニング過去問をAudiPassに追加する
 
 ## 前提条件
 
+> [!IMPORTANT]
+> **データの正本（single source of truth）は Git リポジトリ `c:\Users\user\Documents\GitHub\ReadPass-Pro`。**
+> Google Drive 等の別コピーには出力しないこと。本番（Vercel）はこのリポジトリの main ブランチから自動デプロイされる。
+
 - 過去問PDFが `G:\マイドライブ\text\bookshelf\英検過去問\2級\{exam_folder}\` に配置済み
 - `exam_folder` 名は `2級{year}-{session}` 形式（例: `2級2025-2`）
-- 出力先: `g:\マイドライブ\eiken practice\data\grade2\{exam_id}\data.json`
+- 出力先: `c:\Users\user\Documents\GitHub\ReadPass-Pro\data\grade2\{exam_id}\data.json`
   - `exam_id` は `{year}-{session}` 形式（例: `2025-2`）
-- 開発サーバ: `npx -y http-server "g:\マイドライブ\eiken practice" -p 8085 -c-1`
+- 開発サーバ: `npx -y http-server "c:\Users\user\Documents\GitHub\ReadPass-Pro" -p 8085 -c-1`
 
 ---
 
@@ -30,7 +34,7 @@ description: 2級のリスニング過去問をAudiPassに追加する
 
 ```python
 import json, os
-base = r"g:\マイドライブ\eiken practice\data\grade2"
+base = r"c:\Users\user\Documents\GitHub\ReadPass-Pro\data\grade2"
 for exam in sorted(os.listdir(base)):
     path = os.path.join(base, exam, "data.json")
     if os.path.exists(path):
@@ -226,7 +230,7 @@ data = {
 
 ```python
 import os
-output_dir = r"g:\マイドライブ\eiken practice\data\grade2\YYYY-S"
+output_dir = r"c:\Users\user\Documents\GitHub\ReadPass-Pro\data\grade2\YYYY-S"
 os.makedirs(output_dir, exist_ok=True)
 output_path = os.path.join(output_dir, "data.json")
 
@@ -342,9 +346,10 @@ print(f"Saved to {output_path}")
 
 ---
 
-## Step 4: top.js にエントリ追加
+## Step 4: top.js / print.js にエントリ追加
 
-`g:\マイドライブ\eiken practice\top.js` の `EXAM_CATALOG` に新しい試験を追加。
+`c:\Users\user\Documents\GitHub\ReadPass-Pro\top.js` の `EXAM_CATALOG`（該当級のブロックのみ）に新しい試験を追加。
+**`print.js`（宿題プリント作成）の `EXAM_CATALOG` にも同じエントリを追加すること。**
 
 **並び順ルール: 古い試験が上、新しい試験が下**
 
@@ -434,7 +439,7 @@ def verify(path):
     else:
         print("✅ ALL CHECKS PASSED")
 
-verify(r"g:\マイドライブ\eiken practice\data\grade2\YYYY-S\data.json")
+verify(r"c:\Users\user\Documents\GitHub\ReadPass-Pro\data\grade2\YYYY-S\data.json")
 ```
 
 ### 5b. ブラウザ検証チェックリスト
@@ -477,11 +482,37 @@ verify(r"g:\マイドライブ\eiken practice\data\grade2\YYYY-S\data.json")
 
 ---
 
+## Step 6: 音声生成（EdgeTTS）と本番デプロイ
+
+### 6a. EdgeTTS 音声生成
+
+`data\grade2\{exam_id}\_gen_tts.py` を作成して実行（既存試験のスクリプトを流用可）。
+
+- ボイス: `en-US-JennyNeural`、レート: `-15%`
+- 単語音声: `audio/vocab/w_{NNN}_{slug}.mp3` → 各 vocabulary に `wordAudio` キーを付与
+- 練習パッセージ音声: `audio/practice_pp{1-5}.mp3` → 各 FP の `practicePassage` に `audioFile` キーを付与
+- `practicePassage.en` の先頭には `[出典: <大問パッセージタイトル>]\n` を付ける（読み上げからは除外）
+
+### 6b. 本番デプロイ
+
+データはリポジトリが正本。コミットして main にプッシュすると Vercel が自動デプロイする。
+
+```
+git add data/grade2/{exam_id} top.js print.js
+git commit -m "Add {exam_id} exam data"
+git push
+```
+
+デプロイ後、`https://read-pass-pro.vercel.app/data/grade2/{exam_id}/data.json` が 200 を返すことを確認。
+
+---
+
 ## ファイル構成
 
 ```
-g:\マイドライブ\eiken practice\
+c:\Users\user\Documents\GitHub\ReadPass-Pro\   ← データの正本（Vercel デプロイ元）
 ├── top.js            ← EXAM_CATALOG にエントリ追加
+├── print.js          ← EXAM_CATALOG にエントリ追加（宿題プリント）
 ├── app.js            ← 変更不要（共通ロジック）
 ├── index.html        ← 変更不要
 ├── style.css         ← 変更不要
@@ -489,5 +520,7 @@ g:\マイドライブ\eiken practice\
 └── data/
     └── grade2/
         └── {exam_id}/
-            └── data.json   ← Step 2-3 で生成
+            ├── data.json   ← Step 2-3 で生成
+            ├── _gen_tts.py ← Step 6a の音声生成スクリプト
+            └── audio/      ← EdgeTTS 生成音声（vocab/ + practice_pp*.mp3）
 ```

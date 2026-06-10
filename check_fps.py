@@ -1,6 +1,6 @@
 import json, os
 
-base = r"G:\マイドライブ\ReadPass Pro\data\grade2"
+base = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "grade2")
 for exam in sorted(os.listdir(base)):
     path = os.path.join(base, exam, "data.json")
     if os.path.exists(path):

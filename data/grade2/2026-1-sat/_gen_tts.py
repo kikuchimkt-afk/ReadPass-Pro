@@ -12,7 +12,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 VOICE = "en-US-JennyNeural"
 RATE = "-15%"
 
-base = r"G:\マイドライブ\ReadPass Pro\data\grade2\2026-1-sat"
+base = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(base, "data.json")
 audio_dir = os.path.join(base, "audio")
 vocab_dir = os.path.join(audio_dir, "vocab")

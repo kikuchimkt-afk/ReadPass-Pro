@@ -574,7 +574,7 @@ for i, v in enumerate(vocab):
 data["vocabulary"] = vocab
 
 # 保存先
-output_dir = r"G:\マイドライブ\ReadPass Pro\data\grade2\2026-1-sat"
+output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "grade2", "2026-1-sat")
 os.makedirs(output_dir, exist_ok=True)
 output_path = os.path.join(output_dir, "data.json")
 
