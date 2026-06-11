@@ -1,0 +1,92 @@
+# -*- coding: utf-8 -*-
+"""Verify 2026-1-sat grade5 section3 (sentence-order) structure and answers."""
+import json
+import os
+import re
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
+
+DATA_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "data", "grade5", "2026-1-sat", "data.json",
+)
+
+EXPECTED = {21: 4, 22: 4, 23: 3, 24: 3, 25: 4}
+
+REQUIRED_KEYS = (
+    "text", "choices", "words", "correctOrder", "framePrefix", "frameSuffix",
+    "answerSlots", "choiceAnalysis", "choiceAnalysisSimple", "grammar", "grammarSimple",
+    "questionAudio",
+)
+
+
+def norm_choice(s):
+    return re.sub(r"\s+", "", s.replace("─", "−").replace("–", "−").replace("-", "−"))
+
+
+with open(DATA_PATH, encoding="utf-8") as f:
+    d = json.load(f)
+
+errors = []
+sec = next((s for s in d["sections"] if s.get("name") == "大問3"), None)
+if not sec:
+    errors.append("missing 大問3")
+    print(f"errors={len(errors)}")
+    for e in errors:
+        print(" ", e)
+    sys.exit(1)
+
+if sec.get("type") != "sentence-order":
+    errors.append(f"type is {sec.get('type')}, expected sentence-order")
+
+qs = sec["questions"]
+if len(qs) != 5:
+    errors.append(f"question count {len(qs)} != 5")
+
+for q in qs:
+    n = q["number"]
+    if q["answer"] != EXPECTED[n]:
+        errors.append(f"Q{n}: answer {q['answer']} != expected {EXPECTED[n]}")
+    for key in REQUIRED_KEYS:
+        if key not in q:
+            errors.append(f"Q{n}: missing {key}")
+        elif key not in ("framePrefix", "frameSuffix") and not q[key]:
+            errors.append(f"Q{n}: empty {key}")
+    if len(q.get("words", [])) != 4:
+        errors.append(f"Q{n}: words count != 4")
+    if len(q.get("correctOrder", [])) != 4:
+        errors.append(f"Q{n}: correctOrder count != 4")
+    if q.get("answerSlots") != [1, 3]:
+        errors.append(f"Q{n}: answerSlots != [1, 3]")
+    if len(q.get("choices", [])) != 4:
+        errors.append(f"Q{n}: choices count != 4")
+    if len(q.get("choiceAnalysis", [])) != 4:
+        errors.append(f"Q{n}: choiceAnalysis count != 4")
+    slots = q.get("answerSlots", [])
+    order = q.get("correctOrder", [])
+    words = q.get("words", [])
+    if len(slots) == 2 and len(order) == 4:
+        circled = lambda i: chr(0x2460 + i - 1)
+        expected_label = f"{circled(order[slots[0] - 1])}−{circled(order[slots[1] - 1])}"
+        actual = norm_choice(q["choices"][q["answer"] - 1])
+        if actual != expected_label:
+            w1 = words[order[slots[0] - 1] - 1]
+            w2 = words[order[slots[1] - 1] - 1]
+            errors.append(
+                f"Q{n}: answer choice {q['choices'][q['answer'] - 1]} "
+                f"!= slot pair {expected_label} ({w1}, {w2})"
+            )
+    for i, ca in enumerate(q.get("choiceAnalysis", [])):
+        if i + 1 == q["answer"]:
+            if not ca.startswith("○"):
+                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
+        elif ca.startswith("○"):
+            errors.append(f"Q{n}: wrong choice {i + 1} has ○")
+
+print(f"questions={len(qs)} errors={len(errors)}")
+for e in errors:
+    print(" ", e)
+if errors:
+    sys.exit(1)
+print("OK: section3 rich data verified")
