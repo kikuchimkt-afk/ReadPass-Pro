@@ -23,9 +23,11 @@ for q, a in zip(all_q, expected):
     n = q["number"]
     if q["answer"] != a:
         errs.append(f"Q{n} answer {q['answer']} != {a}")
-    for k in ["question", "questionTranslation", "choices", "choiceTranslations", "choiceAnalysis", "grammar"]:
+    for k in ["question", "questionTranslation", "choices", "choiceTranslations", "choiceAnalysis", "grammar", "sourceEvidence"]:
         if k not in q:
             errs.append(f"Q{n} missing {k}")
+    if not q.get("sourceEvidence"):
+        errs.append(f"Q{n} missing sourceEvidence items")
     if len(q.get("choiceAnalysis", [])) != 4:
         errs.append(f"Q{n} analysis count")
 

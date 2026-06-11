@@ -94,10 +94,14 @@ section3 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "一人でやることにした→近所の人に配り、保護施設に電話しており、一人だけではない",
-                        "もう会えないとあきらめた→あきらめはその後のIn the end, he had to acceptで起きる。空所の直後はまだ努力の描写",
-                        "数日後に見つけた→空所の直後はポスター作成などの捜索活動。Still, Leo was missingとも矛盾",
-                        "できる限りのことをした→正解。💡 直後のポスター・近所・保護施設への電話を総括する文",
+                        "❌ decided to do that all by himself＝一人でやることにした。gave them to neighbors, and called dog shelters（近所に配り、保護施設に電話）とあり、一人だけではない",
+                        "❌ gave up on seeing the dog again＝もう会えないとあきらめた。In the end, he had to accept that Leo had gone（結局受け入れた）はその後の話で、空所の直後はまだ努力の描写",
+                        "❌ found the dog a few days later＝数日後に見つけた。直後はポスター作成などの捜索活動。Still, Leo was missing（まだ行方不明）とも合わない",
+                        "✅ did everything that he could＝できる限りのことをした。He made posters, gave them to neighbors, and called dog shelters（ポスター・近所・保護施設）を総括→正解",
+                    ],
+                    "sourceEvidence": [
+                        "He made posters, gave them to neighbors, and called dog shelters.",
+                        "Max looked for him for hours, but the dog was nowhere to be found.",
                     ],
                     "grammar": "💡 do everything (that) one can＝できる限りのことをする。nowhere to be found＝どこにも見つからない。",
                 },
@@ -117,10 +121,14 @@ section3 = {
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "それを聞いて驚いた→正解。💡 数年ぶりにレオらしい犬が家の前に現れたという予想外の知らせ。直後のhurried backと感情の高ぶりと一致",
-                        "別の犬だと確信→直後に故郷へ急ぎ、抱きしめて泣く描写と矛盾。Leoだと信じていた",
-                        "母親の知らせに怒った→再会の喜びの場面と矛盾",
-                        "街を離れるのが悲しい→別の都市から故郷へ戻る話で、街を離れる悲しみとは無関係",
+                        "✅ surprised to hear that＝それを聞いて驚いた。a dog very similar to Leo had appeared（レオに似た犬が現れた）という予想外の知らせ。He hurried back（急いで戻った）と一致→正解",
+                        "❌ sure it was a different dog＝別の犬だと確信。He hurried back to his home（故郷へ急ぎ）・hugged him, and started crying（抱きしめて泣いた）と矛盾",
+                        "❌ angry at his mother's news＝母親の知らせに怒った。ran to him, hugged him（走り寄り抱きしめた）再会の喜びの場面と矛盾",
+                        "❌ sad to leave the city＝街を離れるのが悲しい。living in another city から hometown へ戻る話で、街を離れる悲しみとは無関係",
+                    ],
+                    "sourceEvidence": [
+                        "a dog very similar to Leo had appeared and was sitting in front of their house.",
+                        "He hurried back to his home in his hometown.",
                     ],
                     "grammar": "💡 be surprised to hear that ～＝～と聞いて驚く。similar to ～＝～に似た。find one's way home＝帰り道を見つける。",
                 },
@@ -128,6 +136,16 @@ section3 = {
         }
     ],
 }
+
+for pa in section3["passages"]:
+    for q in pa["questions"]:
+        marked = []
+        for i, t in enumerate(q["choiceAnalysis"]):
+            if t.startswith(("✅", "❌")):
+                marked.append(t)
+            else:
+                marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
+        q["choiceAnalysis"] = marked
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

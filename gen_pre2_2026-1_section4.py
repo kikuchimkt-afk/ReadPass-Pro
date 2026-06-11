@@ -97,10 +97,14 @@ section4 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "電話する→send a message（メッセージを送る）と異なる",
-                        "ブレイクに11月10日まで→11月10日は面接の日。連絡期限は11月5日",
-                        "11月5日までに連絡→正解。💡 You need to send a message to the ski resort by November 5と一致",
-                        "勤務経験→本文に経験の要件の記載なし",
+                        "❌ make a phone call to the ski resort＝電話する。You need to send a message to the ski resort（メッセージを送る）と異なる",
+                        "❌ tell Blake Jones by November 10＝ブレイクに11月10日まで。online interview on November 10（面接の日）であり、連絡期限は11月5日",
+                        "✅ contact the ski resort by November 5＝11月5日までに連絡。You need to send a message to the ski resort by November 5 と一致→正解",
+                        "❌ have experience working at a ski resort＝勤務経験。本文に experience の要件の記載は出てこない",
+                    ],
+                    "sourceEvidence": [
+                        "You need to send a message to the ski resort by November 5.",
+                        "Then, you will have an online interview on November 10.",
                     ],
                     "grammar": "💡 send a message to ～＝～にメッセージを送る。by November 5＝11月5日までに。",
                 },
@@ -122,10 +126,14 @@ section4 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "ホテルの部屋掃除→Working in the hotel is not part of the jobと矛盾",
-                        "週5日夜勤→Some work in the evenings（一部が夕方）であり、週5日すべての夜勤ではない",
-                        "カフェテリアの接客→Working in the cafeteria is not part of the jobと明記",
-                        "レンタル品の手伝い→正解。💡 handling requests to rent equipmentと一致",
+                        "❌ cleaning rooms at the hotel＝ホテルの部屋掃除。Working in the cafeteria or hotel is not part of the job（ホテルでの仕事は含まれない）と矛盾",
+                        "❌ working at night five days a week＝週5日夜勤。Some work will be done in the evenings（一部が夕方）であり、週5日すべての夜勤ではない",
+                        "❌ serving customers in the cafeteria＝カフェテリアの接客。Working in the cafeteria or hotel is not part of the job と明記",
+                        "✅ helping people who rent items＝レンタル品の手伝い。handling requests to rent equipment（レンタル依頼に対応）と一致→正解",
+                    ],
+                    "sourceEvidence": [
+                        "handling requests to rent equipment",
+                        "Working in the cafeteria or hotel is not part of the job.",
                     ],
                     "grammar": "💡 handle requests to rent equipment＝レンタル依頼に対応する。not part of the job＝仕事に含まれない。",
                 },
@@ -147,10 +155,14 @@ section4 = {
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "いつでも3食無料→正解。💡 three free meals every day, even on the days you don't workと一致",
-                        "スノーボード不可→ski or snowboard there for freeで両方無料",
-                        "友人と相部屋→a free room just for yourself（自分だけの部屋）",
-                        "お客と同じホテル→not in the same hotel where the customers stayと矛盾",
+                        "✅ have three meals for free on any day＝いつでも3食無料。three free meals are served every day, even on the days you don't work と一致→正解",
+                        "❌ ski there without paying but cannot snowboard＝スノーボード不可。you are allowed to ski or snowboard there for free（両方無料）",
+                        "❌ sleep in a room shared with his friend＝友人と相部屋。a free room just for yourself（自分だけの部屋）",
+                        "❌ stay in the same hotel as the customers＝お客と同じホテル。it is not in the same hotel where the customers stay と矛盾",
+                    ],
+                    "sourceEvidence": [
+                        "three free meals are served every day, even on the days you don't work.",
+                        "you are allowed to ski or snowboard there for free.",
                     ],
                     "grammar": "💡 be allowed to ～＝～することが許可されている。even on the days you don't work＝働かない日でも。",
                 },
@@ -220,10 +232,14 @@ section4 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "唯一の場所→While some go to a doctorとあり、医者も選択肢の一つ",
-                        "医者を選ぶ方法→本文は医者の選択ではなくSNS上の情報",
-                        "親のアドバイス→本文に親の言及なし",
-                        "無料で有用な助言→正解。💡 find useful information for freeと一致",
+                        "❌ the only place to get helpful information＝唯一の場所。While some of them go to a doctor for help（医者の助けもある）とあり、唯一ではない",
+                        "❌ the easiest way to choose the doctors＝医者を選ぶ方法。rely on social media and try to improve their mental health with information（SNS上の情報）が論点",
+                        "❌ they follow their parents' advice＝親のアドバイス。本文に parents の言及は出てこない",
+                        "✅ they find free, useful advice to improve their mental health＝無料で有用な助言。find useful information for free（無料で有用な情報）と一致→正解",
+                    ],
+                    "sourceEvidence": [
+                        "they may be able to find useful information for free.",
+                        "others rely on social media and try to improve their mental health with information they find on it.",
                     ],
                     "grammar": "💡 rely on ～＝～に頼る。improve one's mental health＝精神的健康を改善する。",
                 },
@@ -245,10 +261,14 @@ section4 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "安心感を与えない→more than half said they could feel safeと正反対",
-                        "使わない→positive experiencesを共有しており、利用の否定と矛盾",
-                        "すべての若者が常に→every, all the timeと極端すぎる",
-                        "辛い時期の助けになる→正解。💡 feel safe when having a hard time, feel accepted, feel connectedと総合",
+                        "❌ do not think social media gives a sense of safety＝安心感を与えない。more than half said they could feel safe when they were having a hard time（半数以上が安心感）と正反対",
+                        "❌ do not use social media to find mental support＝使わない。their positive experiences on social media（ポジティブな経験）と矛盾",
+                        "❌ makes every young person feel connected all the time＝すべての若者が常に。many of them said that they felt accepted（多くの人が）と、every/all the time は極端",
+                        "✅ helps many young people feel better during tough times＝辛い時期の助け。feel safe when having a hard time, feel accepted, feel connected と総合→正解",
+                    ],
+                    "sourceEvidence": [
+                        "more than half of them said that they could feel safe when they were having a hard time, thanks to social media.",
+                        "they believe they can feel connected to others and get support from them on social media.",
                     ],
                     "grammar": "💡 more than half of ～＝～の半数以上。feel connected to ～＝～とつながっていると感じる。",
                 },
@@ -270,10 +290,14 @@ section4 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "誤情報は少ない→some of the information was actually wrongと矛盾",
-                        "医者によるので信頼できる→some information should not be trusted or is not professionalと矛盾",
-                        "すべて信じるのは良くない→正解。💡 not necessarily good, should not be trustedと一致",
-                        "医者のアドバイスに完全置換→本文にそのような予測なし",
+                        "❌ not much wrong information has been found＝誤情報は少ない。some of the information was actually wrong（実際に誤り）と矛盾",
+                        "❌ most information can be trusted because it comes from doctors＝医者によるので信頼できる。some information should not be trusted or is not professional（信頼すべきでない）と矛盾",
+                        "✅ it is not always a good idea to trust any information on social media＝すべて信じるのは良くない。not necessarily good, should not be trusted と一致→正解",
+                        "❌ information will be fully replaced with doctors' advice＝医者のアドバイスに完全置換。本文にそのような予測の記述はない",
+                    ],
+                    "sourceEvidence": [
+                        "trying to solve mental health problems through social media is not necessarily good.",
+                        "some information should not be trusted or is not professional.",
                     ],
                     "grammar": "💡 not necessarily＝必ずしも～ではない。should not be trusted＝信頼すべきではない。",
                 },
@@ -295,10 +319,13 @@ section4 = {
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "ソーシャルメディアをやめる→SNSを活用しつつ情報源を確認する提案であり、使用停止ではない",
-                        "専門家による情報を使う→正解。💡 check that the information comes from experts in the fieldと一致",
-                        "専門家にどれを信じるか尋ねる→情報源を自分で確認すべきという提案",
-                        "同等に頼る→本文にそのようなバランスの指示なし",
+                        "❌ stop using social media＝SNSをやめる。check that the information comes from experts（情報源を確認）する提案であり、使用停止ではない",
+                        "✅ use information from experts in the field of mental health＝専門家による情報を使う。check that the information comes from experts in the field と一致→正解",
+                        "❌ ask experts which information to rely on＝専門家にどれを信じるか尋ねる。情報源を自分で確認すべきという提案",
+                        "❌ rely on information and doctors' opinions equally＝同等に頼る。本文にそのようなバランスの指示は出てこない",
+                    ],
+                    "sourceEvidence": [
+                        "they should check that the information comes from experts in the field.",
                     ],
                     "grammar": "💡 experts in the field＝その分野の専門家。check that ～＝～であることを確認する。",
                 },
@@ -306,6 +333,16 @@ section4 = {
         },
     ],
 }
+
+for pa in section4["passages"]:
+    for q in pa["questions"]:
+        marked = []
+        for i, t in enumerate(q["choiceAnalysis"]):
+            if t.startswith(("✅", "❌")):
+                marked.append(t)
+            else:
+                marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
+        q["choiceAnalysis"] = marked
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

@@ -61,10 +61,10 @@ section2 = {
             ],
             "answer": 1,
             "choiceAnalysis": [
-                "まっすぐそこへ行く→正解。💡 余計な停留がなく乗り違えの心配がない（Bの最後の文）。急いでいるAの希望にも合う",
-                "もっとたくさん停まる→停留が多いと降りるバス停を間違えやすい。Bのyou won't have to worry about getting off at the wrong stopと矛盾",
-                "より多くの乗客を載せる→乗客数は急ぎや乗り違えの心配とは無関係",
-                "夜遅く運行する→博物館が5時に閉まる文脈では時間帯の問題ではない",
+                "✅ goes straight there＝まっすぐそこへ行く。you won't have to worry about getting off at the wrong stop（降りるバス停を間違える心配がない）＋get there as soon as possible（できるだけ早く）→正解",
+                "❌ makes more stops＝もっとたくさん停まる。you won't have to worry about getting off at the wrong stop と矛盾",
+                "❌ holds more passengers＝より多くの乗客を載せる。as soon as possible（急いでいる）や乗り違えの心配とは無関係",
+                "❌ runs late at night＝夜遅く運行する。the museum will close at 5:00 p.m.（5時に閉まる）の文脈で、夜遅い運行は論点にならない",
             ],
             "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りるバス停を間違える。as soon as possible＝できるだけ早く。",
         },
@@ -98,10 +98,10 @@ section2 = {
             ],
             "answer": 1,
             "choiceAnalysis": [
-                "ステッカーに書かれている名前→正解。💡 Emily Stoneがステッカーの名前と一致→忘れ物が娘のものと確認できた",
-                "誰か別の人の名前→一致しないなら渡せない。pick it up anytimeと矛盾",
-                "ステッカーの販売→忘れ物の確認の会話と無関係",
-                "数日間行方不明→今日忘れた可能性の電話なので時制・状況が合わない",
+                "✅ is the name written on the sticker＝ステッカーに書かれている名前。Emily Stone が pink name sticker（名前ステッカー）と一致→忘れ物が娘のものと確認→正解",
+                "❌ sounds like someone else's name＝別の人の名前。feel free to come and pick it up anytime（いつでも取りに来て）と、一致しないなら渡せない",
+                "❌ sticker is not sold at our store＝ステッカーの販売。swim bag（忘れ物）の確認の会話と無関係",
+                "❌ bag has been lost for a few days＝数日間行方不明。left her swim bag at your store today（今日忘れた）の電話で時制が合わない",
             ],
             "grammar": "💡 pick it up＝（忘れ物を）取りに来る。feel free to ～＝ご自由に～してください。May I ask ～?＝～を伺ってもよろしいですか。",
         },
@@ -134,10 +134,10 @@ section2 = {
             ],
             "answer": 4,
             "choiceAnalysis": [
-                "新しいバックパック→サイズが小さくなった・夜暖かいという2つの手がかりに合わない",
-                "かわいい水着→キャンプの夜に暖かくする用途と合わない",
-                "大きな懐中電灯→getting too small（着るもののサイズ）の描写と無関係",
-                "マウンテンジャケット→正解。💡 今のが小さくなった＝サイズアップの衣類。keep her warm at night＝キャンプの夜の防寒",
+                "❌ a new backpack＝新しいバックパック。The one she has is getting too small（小さくなった）＋keep her warm at night（夜暖かい）の2つの手がかりに合わない",
+                "❌ a cute swimsuit＝かわいい水着。we're going camping next weekend（キャンプ）の夜に暖かくする用途と合わない",
+                "❌ a large flashlight＝大きな懐中電灯。getting too small（着るもののサイズ）の描写と無関係",
+                "✅ a mountain jacket＝マウンテンジャケット。getting too small（サイズアップの衣類）＋keep her warm at night（夜の防寒）→正解",
             ],
             "grammar": "💡 keep ～ warm＝～を暖かくする。get too small＝小さくなりすぎる。How about ～?＝～はどう？",
         },
@@ -169,10 +169,10 @@ section2 = {
             ],
             "answer": 1,
             "choiceAnalysis": [
-                "周りに何があるか→正解。💡 Bが到着エリア・像・3階と周囲の状況を答えている。Kenが場所を特定するための質問",
-                "いつ着くか→KenはすでにI'm on my wayと言っており、到着時刻の質問ではない",
-                "誰と一緒にいるか→Bの返答は周囲の物の描写であり、同行者の話ではない",
-                "なぜここにいるか→Bはすでにツアー参加で空港にいる理由を説明済み",
+                "✅ what's around you＝周りに何があるか。Bが arrival area on the third floor・statue of a woman（到着エリア・像）と周囲を答えている→正解",
+                "❌ when you will arrive＝いつ着くか。I'm on my way（向かっている）とあり、Ken自身の到着時刻の質問ではない",
+                "❌ who you are with＝誰と一緒にいるか。Bの返答は周囲の物の描写で、同行者の話ではない",
+                "❌ why you are here＝なぜここにいるか。I'm joining one of your tours today（ツアー参加）で理由はすでに説明済み",
             ],
             "grammar": "💡 Can you tell me ～?＝～を教えてくれますか。arrival area＝到着ロビー・到着エリア。right in front of ～＝～のすぐ前に。",
         },
@@ -204,15 +204,24 @@ section2 = {
             ],
             "answer": 2,
             "choiceAnalysis": [
-                "明日また電話する→Kenは今迎えに向かっており、明日電話は文脈に合わない",
-                "5分でそこに着く→正解。💡 場所を特定したあとPlease stay right there→すぐ迎えに行く宣言。BのI'll wait for youと呼応",
-                "あなたの便がもうすぐ→Rachelはすでに空港に到着しており不適切",
-                "飛行機がもうすぐ到着→同様に、彼女はすでにarrival areaにいる",
+                "❌ I'll call you back tomorrow＝明日また電話する。Please stay right there（その場所で待って）と、今迎えに向かう場面で明日電話は合わない",
+                "✅ I'll be there in five minutes＝5分でそこに着く。場所を特定したあと Please stay right there → すぐ迎えに行く宣言。I'll wait for you と呼応→正解",
+                "❌ Your flight is coming up＝あなたの便がもうすぐ。Rachel はすでに arrival area on the third floor（到着エリア）にいる",
+                "❌ Your plane is arriving soon＝飛行機がもうすぐ到着。同様に、彼女はすでに空港の到着エリアにいる",
             ],
             "grammar": "💡 I'll be there in five minutes＝5分でそこに着きます。stay right there＝その場所で待っていて。pick ～ up＝～を迎えに行く。",
         },
     ],
 }
+
+for q in section2["questions"]:
+    marked = []
+    for i, t in enumerate(q["choiceAnalysis"]):
+        if t.startswith(("✅", "❌")):
+            marked.append(t)
+        else:
+            marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
+    q["choiceAnalysis"] = marked
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
