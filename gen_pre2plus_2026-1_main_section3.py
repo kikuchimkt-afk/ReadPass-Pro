@@ -188,7 +188,7 @@ section3 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ 8月10日に内見→August 10は内見日ではなく手続き完了の期限",
+                        "❌ Attend a viewing on August 10＝8月10日に内見。We recommend finishing this process at our office before August 10（8月10日までに手続き完了）であり、内見日ではない",
                         "❌ 内見前にオフィス訪問→visit before a viewing の記述はない",
                         "✅ 内見後に8月10日までに署名→正解。💡 after your visit ... signing the agreement ... before August 10",
                         "❌ 8月10日以降に予約→as soon as possible（できるだけ早く）と矛盾",

@@ -29,9 +29,9 @@ section1 = {
             "choiceTranslations": ["弁護士", "戦士", "外科医", "花嫁"],
             "answer": 4,
             "choiceAnalysis": [
-                "❌ lawyer＝弁護士。結婚式で白いドレスを着る人物としては不自然。職業は wedding の場面と結びつかない",
-                "❌ warrior＝戦士。戦士が結婚式で白いドレスを着るという文脈は成立しない",
-                "❌ surgeon＝外科医。医療の専門職であり、結婚式の衣装の話とは無関係",
+                "❌ lawyer＝弁護士。wears a white dress at a wedding（結婚式で白いドレスを着る）の主語として、代名詞 she が指す花嫁の役割と合わない",
+                "❌ warrior＝戦士。at a wedding（結婚式で）white dress を着る she の描写として、戦士の職業は文脈に合わない",
+                "❌ surgeon＝外科医。However, in some countries, she may wear a red dress（国によっては赤いドレス）という花嫁の衣装の話で、外科医は当てはまらない",
                 "✅ bride＝花嫁。wears a white dress at a wedding（結婚式で白いドレスを着る）が花嫁の典型的な描写。代名詞 she とも一致→正解",
             ],
             "grammar": "💡 bride＝花嫁。at a wedding（結婚式で）＋white dress（白いドレス）が「花嫁」を特定する決定的な手がかり。",
@@ -46,8 +46,8 @@ section1 = {
             "choiceAnalysis": [
                 "❌ branch＝枝・支店。find Argentina on a branch（枝の上で国を探す）では地理の学習道具にならない",
                 "✅ globe＝地球儀。find ～ on a globe（地球儀の上で～を見つける）は教室でよく使われる表現。遠い国の位置を学ぶ文脈と一致→正解",
-                "❌ scale＝はかり・規模。on a scale では「国の位置を探す」という意味にならない",
-                "❌ trail＝小道・跡。find Argentina on a trail では地理学習の道具として不適切",
+                "❌ scale＝はかり・規模。find Argentina on a scale では countries that are far away from Japan（遠い国の位置を学ぶ）という目的に合わない",
+                "❌ trail＝小道・跡。find Argentina on a trail では learn about countries（国について学ぶ）教室の地理学習と結びつかない",
             ],
             "grammar": "💡 globe＝地球儀。find ～ on a map / globe は「地図・地球儀で～の位置を探す」定番表現。countries far away from Japan が学習目的のヒント。",
         },
@@ -89,7 +89,7 @@ section1 = {
             "choiceTranslations": ["憎む", "育む・促進する", "分ける", "発音する"],
             "answer": 2,
             "choiceAnalysis": [
-                "❌ hate＝憎む。foster の反対語。リーダーシップを「憎む」では教育方針と真逆",
+                "❌ hate＝憎む。try to hate leadership qualities（リーダーシップを憎む）では communicate, make decisions, and take responsibility（指導内容）と正反対",
                 "✅ foster＝育む・促進する。foster leadership qualities（リーダーシップの資質を育む）＋communicate / make decisions / take responsibility の指導内容と一致→正解",
                 "❌ divide＝分ける。divide qualities（資質を分ける）では教育の目的と合わない",
                 "❌ pronounce＝発音する。pronounce qualities では「資質を発音する」となり意味不成立",
@@ -119,7 +119,7 @@ section1 = {
             "choiceTranslations": ["起こる", "膨らむ・腫れる", "軽くたたく", "泣く"],
             "answer": 4,
             "choiceAnalysis": [
-                "❌ occur＝起こる。人が occur する（起こる）では主語が「出来事」向けの自動詞。人が「起こり始めた」では不自然",
+                "❌ occur＝起こる。many people in the theater began to occur では人が「起こる」となり、The story was very sad（悲しい物語）への反応として不適切",
                 "❌ swell＝膨らむ・腫れる。began to swell（腫れ始めた）では悲しい映画の反応として不適切",
                 "❌ tap＝軽くたたく。began to tap では悲しい物語への感情的反応にならない",
                 "✅ weep＝泣く。began to weep（泣き始めた）＋The story was very sad（とても悲しい物語）が直接的に結びつく→正解",
@@ -165,9 +165,9 @@ section1 = {
             "answer": 1,
             "choiceAnalysis": [
                 "✅ frowned＝眉をひそめた。テスト発表への不満・失望の表情。had hoped more time（もっと時間があると望んでいた）と感情が一致→正解",
-                "❌ slipped＝滑った。テストの知らせを聞いて「滑った」では文脈に合わない",
+                "❌ slipped＝滑った。there would be a test next week（来週テスト）の知らせを聞いて slipped では、had hoped more time to study（勉強時間を望んでいた）感情と合わない",
                 "❌ guessed＝推測した。テストの発表を聞いて「推測した」では had hoped との因果が弱い",
-                "❌ crawled＝這った。テストの知らせで「這う」は比喩としても不自然",
+                "❌ crawled＝這った。the students crawled when the teacher said there would be a test では、失望の反応として had hoped（望んでいた）と結びつかない",
             ],
             "grammar": "💡 frown＝眉をひそめる（不満・困惑の表情）。had hoped ...（～だと望んでいたのに）が frown の理由を説明する典型構造。",
         },

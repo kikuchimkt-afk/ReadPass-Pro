@@ -42,9 +42,11 @@ for q in all_qs:
     n = q["number"]
     if q["answer"] != EXPECTED[n]:
         errors.append(f"Q{n}: answer {q['answer']} != expected {EXPECTED[n]}")
-    for key in ("choices", "choiceTranslations", "choiceAnalysis"):
-        if key not in q or len(q[key]) != 4:
+    for key in ("choices", "choiceTranslations", "choiceAnalysis", "sourceEvidence"):
+        if key not in q or (key != "sourceEvidence" and len(q[key]) != 4):
             errors.append(f"Q{n}: bad {key}")
+    if not q.get("sourceEvidence"):
+        errors.append(f"Q{n}: missing sourceEvidence")
     if "grammar" not in q or not q["grammar"]:
         errors.append(f"Q{n}: missing grammar")
     for i, ca in enumerate(q["choiceAnalysis"]):

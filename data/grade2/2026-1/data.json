@@ -29,9 +29,9 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ lawyer＝弁護士。結婚式で白いドレスを着る人物としては不自然。職業は wedding の場面と結びつかない",
-                        "❌ warrior＝戦士。戦士が結婚式で白いドレスを着るという文脈は成立しない",
-                        "❌ surgeon＝外科医。医療の専門職であり、結婚式の衣装の話とは無関係",
+                        "❌ lawyer＝弁護士。wears a white dress at a wedding（結婚式で白いドレスを着る）の主語として、代名詞 she が指す花嫁の役割と合わない",
+                        "❌ warrior＝戦士。at a wedding（結婚式で）white dress を着る she の描写として、戦士の職業は文脈に合わない",
+                        "❌ surgeon＝外科医。However, in some countries, she may wear a red dress（国によっては赤いドレス）という花嫁の衣装の話で、外科医は当てはまらない",
                         "✅ bride＝花嫁。wears a white dress at a wedding（結婚式で白いドレスを着る）が花嫁の典型的な描写。代名詞 she とも一致→正解"
                     ],
                     "grammar": "💡 bride＝花嫁。at a wedding（結婚式で）＋white dress（白いドレス）が「花嫁」を特定する決定的な手がかり。"
@@ -56,8 +56,8 @@
                     "choiceAnalysis": [
                         "❌ branch＝枝・支店。find Argentina on a branch（枝の上で国を探す）では地理の学習道具にならない",
                         "✅ globe＝地球儀。find ～ on a globe（地球儀の上で～を見つける）は教室でよく使われる表現。遠い国の位置を学ぶ文脈と一致→正解",
-                        "❌ scale＝はかり・規模。on a scale では「国の位置を探す」という意味にならない",
-                        "❌ trail＝小道・跡。find Argentina on a trail では地理学習の道具として不適切"
+                        "❌ scale＝はかり・規模。find Argentina on a scale では countries that are far away from Japan（遠い国の位置を学ぶ）という目的に合わない",
+                        "❌ trail＝小道・跡。find Argentina on a trail では learn about countries（国について学ぶ）教室の地理学習と結びつかない"
                     ],
                     "grammar": "💡 globe＝地球儀。find ～ on a map / globe は「地図・地球儀で～の位置を探す」定番表現。countries far away from Japan が学習目的のヒント。"
                 },
@@ -129,7 +129,7 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ hate＝憎む。foster の反対語。リーダーシップを「憎む」では教育方針と真逆",
+                        "❌ hate＝憎む。try to hate leadership qualities（リーダーシップを憎む）では communicate, make decisions, and take responsibility（指導内容）と正反対",
                         "✅ foster＝育む・促進する。foster leadership qualities（リーダーシップの資質を育む）＋communicate / make decisions / take responsibility の指導内容と一致→正解",
                         "❌ divide＝分ける。divide qualities（資質を分ける）では教育の目的と合わない",
                         "❌ pronounce＝発音する。pronounce qualities では「資質を発音する」となり意味不成立"
@@ -179,7 +179,7 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ occur＝起こる。人が occur する（起こる）では主語が「出来事」向けの自動詞。人が「起こり始めた」では不自然",
+                        "❌ occur＝起こる。many people in the theater began to occur では人が「起こる」となり、The story was very sad（悲しい物語）への反応として不適切",
                         "❌ swell＝膨らむ・腫れる。began to swell（腫れ始めた）では悲しい映画の反応として不適切",
                         "❌ tap＝軽くたたく。began to tap では悲しい物語への感情的反応にならない",
                         "✅ weep＝泣く。began to weep（泣き始めた）＋The story was very sad（とても悲しい物語）が直接的に結びつく→正解"
@@ -255,9 +255,9 @@
                     "answer": 1,
                     "choiceAnalysis": [
                         "✅ frowned＝眉をひそめた。テスト発表への不満・失望の表情。had hoped more time（もっと時間があると望んでいた）と感情が一致→正解",
-                        "❌ slipped＝滑った。テストの知らせを聞いて「滑った」では文脈に合わない",
+                        "❌ slipped＝滑った。there would be a test next week（来週テスト）の知らせを聞いて slipped では、had hoped more time to study（勉強時間を望んでいた）感情と合わない",
                         "❌ guessed＝推測した。テストの発表を聞いて「推測した」では had hoped との因果が弱い",
-                        "❌ crawled＝這った。テストの知らせで「這う」は比喩としても不自然"
+                        "❌ crawled＝這った。the students crawled when the teacher said there would be a test では、失望の反応として had hoped（望んでいた）と結びつかない"
                     ],
                     "grammar": "💡 frown＝眉をひそめる（不満・困惑の表情）。had hoped ...（～だと望んでいたのに）が frown の理由を説明する典型構造。"
                 },
@@ -508,10 +508,13 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ 教育資源の不足→正解。💡 Literacy rates were low（識字率が低い）＋few students had access to books（本にアクセスできない）が直接の根拠",
-                                "❌ 子ども数の減少→本文に子どもの数が減ったという記述はない",
-                                "❌ 安全な通学路の喪失→通学路・安全ルートの話は一切出てこない",
-                                "❌ 村人同士の協力不足→an artist and young people worked together（協力して取り組んだ）と矛盾"
+                                "✅ a lack of educational resources＝教育資源の不足。Literacy rates were low（識字率が低い）＋few students had access to books（本にアクセスできない）が直接の根拠→正解",
+                                "❌ a decline in the number of children＝子ども数の減少。children began writing stories（子どもが物語を書き始めた）とあり、子ども数減少とは読めない",
+                                "❌ the loss of safe school routes＝安全な通学路の喪失。El Pital is a rural village（農村の村）の識字・読書の問題が論点で、通学路の話は出てこない",
+                                "❌ poor cooperation among villagers＝村人の協力不足。an artist and young people worked together（芸術家と若者が協力）と記述が食い違う"
+                            ],
+                            "sourceEvidence": [
+                                "Literacy rates were low in the community, and few students had access to books."
                             ],
                             "grammar": "💡 face ～＝～に直面する。空所の直後2文が「何に直面したか」の具体説明。low literacy / few books → educational resources の不足。"
                         },
@@ -531,10 +534,14 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ 多くの人が舞台裏で働いた→正解。💡 Costumes were created, rumors were spread, and dramatic scenes were performed（衣装・うわさ・演出）という裏方の準備がイベント成功の理由",
-                                "❌ 家で静かに見ていた→community event（地域イベント）・brought people together（人を集めた）と逆",
-                                "❌ 会うのを待たなかった→Motivated by this, children began writing（子どもが物語を書き始めた）と矛盾",
-                                "❌ 衣装について話した→衣装の「話」ではなく、衣装を「作る」などの裏方作業がポイント"
+                                "✅ many people worked behind the scenes＝多くの人が舞台裏で働いた。Costumes were created, rumors were spread, and dramatic scenes were performed（衣装・うわさ・演出）がイベント成功の理由→正解",
+                                "❌ some children watched quietly from home＝家で静かに見ていた。This activity turned a writing task into an exciting community event（地域イベント）と、家で見るだけの描写は合わない",
+                                "❌ almost no children waited to meet him＝会うのを待たなかった。Motivated by this, children began writing stories（子どもが物語を書き始めた）と記述が逆",
+                                "❌ several students talked about the costumes＝衣装について話した。Costumes were created（衣装を作った）などの裏方作業がポイントで、「話した」だけではない"
+                            ],
+                            "sourceEvidence": [
+                                "Costumes were created, rumors were spread, and dramatic scenes were performed to bring him to life.",
+                                "This activity turned a writing task into an exciting community event."
                             ],
                             "grammar": "💡 behind the scenes＝舞台裏で・陰で。This was possible because ～（～があったから可能だった）の空所は、直前の演出描写を受ける。"
                         },
@@ -554,10 +561,13 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ To begin with＝まず第一に。話の導入・列挙の始まり。ここはニューヨーク版の具体例の結果を述べる位置",
-                                "❌ Unfortunately＝残念ながら。否定的な転換だが、直後は creative twist（創造的な工夫）という前向きな内容",
-                                "✅ In this way＝このようにして→正解。💡 地下鉄のスーパーヒーローという工夫によって、公共の読書にひねりを加えたという結果・方法のまとめ",
-                                "❌ On the other hand＝一方で。ホンジュラス版との対比ではなく、ニューヨーク版の効果を述べている"
+                                "❌ To begin with＝まず第一に。For example, in New York（例えばニューヨークでは）の具体例の結果を述べる位置で、話の導入語としては不適切",
+                                "❌ Unfortunately＝残念ながら。直後は added a creative twist to public reading（創造的な工夫）という前向きな内容",
+                                "✅ In this way＝このようにして。La Dama Violeta was created as a subway superhero（地下鉄のスーパーヒーロー）という工夫の結果をまとめる接続→正解",
+                                "❌ On the other hand＝一方で。the idea was changed to fit different places（各地でアイデアが変化）の具体例の効果を述べており、単純な対比ではない"
+                            ],
+                            "sourceEvidence": [
+                                "this character added a creative twist to public reading while traveling and reminded people of the joy of reading."
                             ],
                             "grammar": "💡 in this way＝このようにして（方法・結果のまとめ）。For example の具体例のあと、それがもたらした効果を接続するパターン。"
                         }
@@ -623,10 +633,13 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "❌ 眠く穏やかに→心拍数上昇・筋肉緊張（覚醒反応）と正反対",
-                                "✅ 逃げるか防御の準備→正解。💡 fight-or-flight response（闘争・逃走反応）＋gets the body ready to act immediately（すぐ行動できるようにする）と一致",
-                                "❌ 体の動きを止める→act immediately（すぐ行動）と矛盾",
-                                "❌ 怖がらないふり→恐怖反応の本質（危険への備え）と逆"
+                                "❌ make people feel sleepy and calm＝眠く穏やかにさせる。a faster heart rate, quicker breathing, and tense muscles（心拍上昇・筋肉緊張）という覚醒反応と正反対",
+                                "✅ prepare people for escape or defense＝逃げるか防御の準備。fight-or-flight response（闘争・逃走反応）＋gets the body ready to act immediately（すぐ行動できるようにする）と一致→正解",
+                                "❌ stop people from moving their bodies＝体の動きを止める。gets the body ready to act immediately（すぐ行動できるようにする）と記述が食い違う",
+                                "❌ help people pretend they are not scared＝怖がらないふりをさせる。Fear is a natural emotion that helps protect people from danger（危険から守る感情）という本質と逆"
+                            ],
+                            "sourceEvidence": [
+                                "This is called the \"fight-or-flight\" response to fear or stress, which gets the body ready to act immediately."
                             ],
                             "grammar": "💡 fight-or-flight＝闘争か逃走。空所の直後がこの反応の定義文。prepare for escape or defense がその言い換え。"
                         },
@@ -646,10 +659,14 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ この感情に夢中→正解。💡 直後の They like scary things and seek excitement（怖いものが好きで興奮を求める）が言い換え",
-                                "❌ 目を開けるのを怖がる→本文にない。映画を見る場面では「目を開けない」話ではない",
-                                "❌ すぐに恐怖を忘れる→恐怖を楽しむ・求める流れと逆",
-                                "❌ 友人を驚かせる→roller coasters（ジェットコースター）など自己の興奮の話で、他人を驚かせる話ではない"
+                                "✅ are even fascinated by this feeling＝この感情に夢中。直後の They like scary things and seek excitement（怖いものが好きで興奮を求める）が言い換え→正解",
+                                "❌ are often afraid of opening their eyes＝目を開けるのを怖がる。watch a scary scene in a movie（映画の怖い場面を見る）とあり、「目を開けない」話ではない",
+                                "❌ forget fear soon after it happens＝すぐに恐怖を忘れる。seek excitement（興奮を求める）・enjoy activities such as riding roller coasters（ジェットコースターを楽しむ）と逆",
+                                "❌ love surprising their friends and family＝友人を驚かせる。riding roller coasters（ジェットコースター）など自己の興奮の話で、他人を驚かせる内容は出てこない"
+                            ],
+                            "sourceEvidence": [
+                                "They like scary things and seek excitement.",
+                                "This also explains why many people enjoy activities such as riding roller coasters."
                             ],
                             "grammar": "💡 be fascinated by ～＝～に夢中になる。Some people ( ) の空所は直後の They like scary things で説明される。"
                         },
@@ -669,10 +686,14 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ On the other hand＝一方で。前段の「恐怖を楽しむ人」との対比ではなく、同じ「問題のある恐怖」の具体化",
-                                "❌ Fortunately＝幸いにも。直後は overwhelming and difficult（圧倒的で困難）という否定的内容",
-                                "❌ Without this＝これがなければ。文脈に合う先行詞がなく、文法的に不自然",
-                                "✅ In particular＝特に→正解。💡 too often or too intensely（頻繁・過度に恐怖）のケースを特に強調し、日常生活への影響を述べる"
+                                "❌ On the other hand＝一方で。Some people feel fear too often or too intensely（恐怖を感じすぎる人）の具体化であり、前段との単純な対比ではない",
+                                "❌ Fortunately＝幸いにも。直後の this intense fear can make everyday activities feel overwhelming and difficult（日常生活が困難に）という否定的内容",
+                                "❌ Without this＝これがなければ。the brain treats normal events as dangerous（普通の出来事を危険と扱う）のあとに先行詞のない Without this は不自然",
+                                "✅ In particular＝特に。too often or too intensely（頻繁・過度に恐怖）のケースを強調し、日常生活への影響を述べる→正解"
+                            ],
+                            "sourceEvidence": [
+                                "Some people feel fear too often or too intensely.",
+                                "this intense fear can make everyday activities feel overwhelming and difficult."
                             ],
                             "grammar": "💡 in particular＝特に（特定の場合を際立たせる）。too often or too intensely のあと、具体的な影響を強調する接続。"
                         }
@@ -753,10 +774,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ キャンプに最適→athletic event（運動会）の話。キャンプの記述はない",
-                                "❌ スタッフが親切→スタッフの対応についての記述はない",
+                                "❌ The ground is perfect for camping＝キャンプに最適。hold an athletic event this fall（秋の運動会）の話で、camping については触れられていない",
+                                "❌ The staff working there is helpful＝スタッフが親切。One of my coworkers recommended your facility（同僚の勧め）とアクセスの良さが理由で、スタッフの親切さは論点にならない",
                                 "✅ 公共交通の近く→正解。💡 easy to access from several train stations（いくつかの駅からアクセスしやすい）の言い換え",
-                                "❌ 学童に人気→人気の記述はなく、同僚の勧めとアクセスの良さが理由"
+                                "❌ It is popular among schoolchildren＝学童に人気。easy to access from several train stations（駅からアクセスしやすい）が理由で、人気については書かれていない"
                             ],
                             "sourceEvidence": [
                                 "your facility is appealing because it is easy to access from several train stations"
@@ -784,7 +805,7 @@
                                 "✅ 人数が施設に適している→正解。💡 about 150 people to attend ＋ about the number of people your facility can hold",
                                 "❌ 週末のみ→on a weekday in September or October（平日）と矛盾",
                                 "❌ 生徒だけ→including some parents and teachers（保護者・教師も含む）と矛盾",
-                                "❌ 年末まで一日中→8 a.m. to 3 p.m.（午前8時〜午後3時）の1日イベント"
+                                "❌ it will last all day until the end of the year＝年末まで一日中。use the large ground from 8 a.m. to 3 p.m.（午前8時〜午後3時）の1日イベント"
                             ],
                             "sourceEvidence": [
                                 "we expect about 150 people to attend the event, including some parents and teachers",
@@ -810,8 +831,8 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ 午前に変更→8 a.m. to 3 p.m. はすでに提示済み。変更の提案ではない",
-                                "❌ スタッフに準備を依頼→施設側の準備支援の話はない",
+                                "❌ To suggest changing the time to the morning＝午前に変更。use the large ground from 8 a.m. to 3 p.m. はすでに提示済みで、変更の提案ではない",
+                                "❌ To ask if the facility staff can help prepare＝スタッフに準備を依頼。Could you please let me know which date might be suitable（日程の相談）が主題で、準備支援の話はない",
                                 "❌ 教師が足りない→we have enough teachers and staff（十分にいる）と矛盾",
                                 "✅ 訪問が難しくないことを示す→正解。💡 school is close to your main office ＋ adjust schedules to visit for the meeting"
                             ],
@@ -883,7 +904,7 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ ベルリンへの旅行→Berlin の記述はない",
+                                "❌ took them to Berlin to learn languages through their travels＝ベルリンへの旅行。hiring famous educators and experts ... to tutor them（家庭教師を雇った）とあり、Berlin への旅行とは読めない",
                                 "❌ 有名な学校に通わせた→学校ではなく hiring ... to tutor them（家庭教師を雇った）",
                                 "✅ 専門家による個人教授→正解。💡 hiring famous educators and experts in various fields to tutor them",
                                 "❌ 祖父母に決めさせた→母が took charge of their education（教育を担当）"
@@ -913,8 +934,8 @@
                             "choiceAnalysis": [
                                 "✅ 母の死後の遺産→正解。💡 The money he received after his mother's death made his dream ... come true",
                                 "❌ 本の売上→本は旅の後に書いた（after the trip）ので因果が逆",
-                                "❌ 弟からの誘い→兄アレクサンダーの旅。Wilhelm からの誘いの記述なし",
-                                "❌ 南米の科学者の支援→本文にない"
+                                "❌ An invitation from his brother to travel＝弟からの誘い。The money he received after his mother's death（母の死後の遺産）が旅の資金で、Wilhelm からの誘いとは合わない",
+                                "❌ Support given by a group of scientists in South America＝南米の科学者の支援。He spent several years there studying plants, animals（研究の記述）はあるが、現地科学者の支援の話はない"
                             ],
                             "sourceEvidence": [
                                 "The money he received after his mother's death made his dream of traveling to South America come true"
@@ -940,9 +961,9 @@
                             "answer": 3,
                             "choiceAnalysis": [
                                 "❌ 似たように発展→individuality of its speakers（話者の個性）を強調しており、均質な発展の話ではない",
-                                "❌ ドイツ文化と教育制度→German の記述はない。speakers の文化一般の話",
+                                "❌ It reflected both the German cultural background and educational systems＝ドイツ文化と教育制度。reflected the culture and individuality of its speakers（話者の文化と個性）の話で、German に限定されていない",
                                 "✅ 世界を認識する道具→正解。💡 a means that allowed people to perceive the world（世界を認識する手段）",
-                                "❌ 大学制度の創設→Wilhelm は大学設立に関わったが、これは言語についての信念ではない"
+                                "❌ It was closely related to education and played a role in creating university systems＝大学制度の創設。helped found a university（大学設立）の話はあるが、言語についての信念の設問ではない"
                             ],
                             "sourceEvidence": [
                                 "language was not just a collection of words but a means that allowed people to perceive the world"
@@ -968,9 +989,9 @@
                             "answer": 1,
                             "choiceAnalysis": [
                                 "✅ 幼少期の知識・学習へのアクセス→正解。💡 wealthy background gave them early access to quality education and rich intellectual opportunities",
-                                "❌ 仕事が柔軟→flexible jobs の記述はない",
-                                "❌ ボランティア→volunteer の記述はない",
-                                "❌ 助手のチーム→teams of assistants の記述はない"
+                                "❌ Their jobs were flexible enough to allow them a lot of free time for research＝仕事が柔軟。flexible jobs について本文は触れていない",
+                                "❌ They had a lot of volunteer workers who were willing to work for them＝ボランティア。wealthy background gave them early access to quality education（幼少期の教育環境）が論点で、volunteer の話は出てこない",
+                                "❌ They worked with teams of several great assistants on each project＝助手のチーム。teams of assistants について本文に言及はない"
                             ],
                             "sourceEvidence": [
                                 "Their wealthy background gave them early access to quality education and rich intellectual opportunities",
@@ -998,7 +1019,7 @@
                             "choiceAnalysis": [
                                 "❌ 旅の前に本を書いた→Alexander wrote books ... after the trip（旅の後）と矛盾",
                                 "❌ 裕福になりたかった→すでに wealthy family（裕福な家庭）に生まれている",
-                                "❌ 父がピアノを教えた→piano の記述はなく、父は Alexander が幼い頃に亡くなっている",
+                                "❌ The Humboldts' father wanted to teach them piano himself＝父がピアノを教えた。piano の記述はなく、their father passed away when Alexander was just a child（父は幼い頃に亡くなっている）",
                                 "✅ ヴィルヘルムの提案書が大学制度に影響→正解。💡 The proposal he wrote for the university has influenced the German university system ever since"
                             ],
                             "sourceEvidence": [

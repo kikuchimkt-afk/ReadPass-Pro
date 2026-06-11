@@ -188,7 +188,49 @@ for fp_ in d.get("lessonPlan", {}).get("focusPoints", []):
         if pat not in all_text:
             issues.append(f"[FP] {fp_['id']}: パターン本文不一致: {pat[:50]}")
 
-# ---- 8. トップレベル構造 ----
+# ---- 8. 解説品質（英文エビデンス・sourceEvidence・単調さ）----
+import re
+from collections import Counter
+
+MONOTONY = {"と矛盾": 10, "意味が通らない": 6, "不自然": 12, "正反対": 6, "記述はない": 6}
+phrase_counts = Counter()
+
+
+def has_english_evidence(text):
+    if re.search(r"[（(][^）)]*[A-Za-z]{3,}[^）)]*[）)]", text):
+        return True
+    if re.search(r"[A-Za-z]{3,}(?:\s+[A-Za-z]{2,})+", text):
+        return True
+    if re.search(r"^[✅❌]\s*[A-Za-z]", text):
+        return True
+    return False
+
+
+for name, q in all_qs:
+    n = q["number"]
+    if n >= 18 and not q.get("sourceEvidence"):
+        issues.append(f"[根拠] Q{n}: sourceEvidence未設定")
+    corpus = ""
+    for sec in d["sections"]:
+        for p in sec.get("passages", []):
+            if q in p.get("questions", []):
+                corpus = " ".join(p["paragraphs"])
+    if n >= 18:
+        for phrase in q.get("sourceEvidence", []):
+            if corpus and phrase not in corpus:
+                issues.append(f"[根拠] Q{n}: sourceEvidenceが本文にない: {phrase[:50]}")
+    for i, ca in enumerate(q.get("choiceAnalysis", [])):
+        if not has_english_evidence(ca):
+            issues.append(f"[根拠] Q{n} 選択肢{i+1}: choiceAnalysisに英文根拠なし")
+        for ph in MONOTONY:
+            if ph in ca:
+                phrase_counts[ph] += 1
+
+for ph, limit in MONOTONY.items():
+    if phrase_counts[ph] > limit:
+        warns.append(f"[単調] 「{ph}」が{phrase_counts[ph]}回（推奨上限{limit}）")
+
+# ---- 9. トップレベル構造 ----
 print("=== トップレベルキー ===")
 print(" ", list(d.keys()))
 print()

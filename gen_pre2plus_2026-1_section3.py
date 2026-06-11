@@ -147,8 +147,8 @@ section3 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ 動物の医者からのアドバイス→エマは元獣医だが、クーパーは治療相談ではなく世話の依頼をしている",
-                        "❌ ドッグシッターになる方法→本文はクーパーがサービスを探している話。資格取得の相談ではない",
+                        "❌ To receive advice from an animal doctor＝動物の医者からのアドバイス。looking for someone to look after your dog（犬の世話を依頼）が主題で、治療相談ではない",
+                        "❌ To know how to become a good dog sitter＝ドッグシッターになる方法。you are looking for someone to look after your dog（サービスを探している）話で、資格取得の相談ではない",
                         "❌ 旅行に犬を連れて行けるか→while on a family trip の間に世話を頼む話。犬を連れて行く話ではない",
                         "✅ 犬の世話を依頼するため→正解。💡 looking for someone to look after your dog while on a family trip が直接の根拠",
                     ],
@@ -176,7 +176,7 @@ section3 = {
                     "answer": 3,
                     "choiceAnalysis": [
                         "❌ 睡眠の習慣→comfortable place to sleep（寝場所）は提供するが、習慣を「理解したい」とは書いていない",
-                        "❌ 散歩の頻度を尋ねる→エマは1日2回散歩すると自分のサービス内容として述べている。頻度を聞いているのではない",
+                        "❌ she needs to know how often she should walk his dog＝散歩の頻度を尋ねる。I will take your dog for a walk twice a day（1日2回散歩する）とサービス内容として述べており、頻度を聞いているのではない",
                         "✅ 自分ではフードを用意できない→正解。💡 I cannot prepare dog food, so I ask dog owners to bring their food",
                         "❌ 健康問題があると受け入れない→Please let me know ... such as any health problems は「知らせてほしい」であり拒否ではない",
                     ],
@@ -205,8 +205,8 @@ section3 = {
                     "choiceAnalysis": [
                         "✅ 保護者と話し合う→正解。💡 Since you are under eighteen, please speak with your parents about my services, including the fee",
                         "❌ 6月22日までに支払い→June 22は返信の期限。Payment is required before the service（サービス前の支払い）と別",
-                        "❌ 50ドルを送る→1日50ドル、3日で合計150ドル。50ドルだけの話ではない",
-                        "❌ 1週間以内に返信→June 22という具体的な日付。1週間とは書いていない",
+                        "❌ Send her $50 in advance of the service＝50ドルを送る。The fee is $50 per day, and the total for three days is $150（1日50ドル、3日で合計150ドル）であり、50ドルだけの話ではない",
+                        "❌ Reply to her in a week for an appointment＝1週間以内に返信。I would appreciate it if you could reply by June 22（6月22日までに返信）と具体的な日付で、1週間とは書いていない",
                     ],
                     "sourceEvidence": [
                         "please speak with your parents about my services, including the fee",
@@ -269,7 +269,7 @@ section3 = {
                     "answer": 4,
                     "choiceAnalysis": [
                         "❌ 輸入をやめた→イギリスはすでに高い需要（high demand）があると述べられている",
-                        "❌ アメリカに輸入依存→ヨーロッパ諸国とアメリカはともに消費が増えた国として並列。依存の記述なし",
+                        "❌ Many European countries rely on the United States to import avocados＝アメリカに輸入依存。European countries and the United States ... the number of people eating avocados has increased（ともに消費が増えた）と並列で、依存の記述はない",
                         "❌ 将来フランスに広がる→フランスはすでに高い需要を経験（already experienced high demand）",
                         "✅ イタリアと東欧が鍵→正解。💡 still room for the avocado market to grow in Italy and Eastern European countries",
                     ],
@@ -297,7 +297,7 @@ section3 = {
                     "answer": 4,
                     "choiceAnalysis": [
                         "❌ 供給を制限→too much supply（供給過多）の問題が述べられており正反対",
-                        "❌ 労働力不足→本文に labor（労働）の記述はない",
+                        "❌ Increased demand for avocados has caused labor shortages＝労働力不足。too much supply, which can lead to reduced prices（供給過多で価格下落）が論点で、labor の記述は出てこない",
                         "❌ 違法な生産→against the law の記述はない",
                         "✅ 供給過多で価格下落・収入減→正解。💡 too much supply → reduced prices → farmers may earn less money",
                     ],

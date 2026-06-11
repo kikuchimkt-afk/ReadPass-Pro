@@ -496,10 +496,14 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "❌ ソーシャルメディアの影響→本文に social media の記述はなく、ピクトグラムが言語に依存しない話と無関係",
-                                "✅ 言語の違いによる問題→正解。💡 do not depend on language（言語に依存しない）＋use images instead of words が決め手",
-                                "❌ 大きな絵で示された→shown in large pictures では「問題を避ける」という因果関係が説明できない",
-                                "❌ 書かれた構成に関連→written construction は本文にない。images instead of words とは別の話"
+                                "❌ influenced through social media＝SNSの影響。They do not depend on language（言語に依存しない）という論点で、social media の記述は出てこない",
+                                "✅ caused by language differences＝言語の違いによる問題。do not depend on language（言語に依存しない）＋use images instead of words（言葉の代わりに画像）が決め手→正解",
+                                "❌ shown in large pictures＝大きな絵で示された。problems ( ) can be avoided の空所として、shown in large pictures では因果関係が説明できない",
+                                "❌ related to written construction＝書かれた構成に関連。images instead of words（言葉の代わりに画像）とは別の話"
+                            ],
+                            "sourceEvidence": [
+                                "They do not depend on language.",
+                                "they use images instead of words to share information."
                             ],
                             "grammar": "💡 problems caused by ～＝～によって引き起こされる問題。Therefore の前後で「言葉ではなく画像→言語差の問題を回避」と読む。"
                         },
@@ -519,10 +523,13 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ オリンピック精神の祝賀→However 以降は問題点の指摘。celebration（祝賀）では too complex / too detailed と結びつかない",
-                                "❌ 現代美術の例→example of modern art では「理解しにくい」という問題の説明にならない",
-                                "❌ 色を使う理由→本文に colors の記述はない",
-                                "✅ 初期デザインの問題点→正解。💡 too complex in style and too detailed, which made them difficult to understand quickly"
+                                "❌ celebration of the Olympic spirit＝オリンピック精神の祝賀。However 以降は too complex / too detailed（複雑すぎる）という問題点の指摘",
+                                "❌ example of modern art＝現代美術の例。made them difficult to understand quickly（素早く理解しにくい）という問題の説明にならない",
+                                "❌ reason for using colors＝色を使う理由。too complex in style and too detailed（スタイルの複雑さ）が論点で、colors については触れられていない",
+                                "✅ issue with the early designs＝初期デザインの問題点。too complex in style and too detailed, which made them difficult to understand quickly と一致→正解"
+                            ],
+                            "sourceEvidence": [
+                                "They were often too complex in style and too detailed, which made them difficult to understand quickly."
                             ],
                             "grammar": "💡 there was one issue with ～＝～に一つ問題があった。However が「転換」の合図。直後の too complex / too detailed が空所の内容を特定する。"
                         },
@@ -542,10 +549,14 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ まず第一に→To begin with は列挙の最初。ここは成功の結果として基準が設定された段階",
-                                "❌ 何よりも→Most of all は強調だが、前後の因果（成功→基準設定）を結ばない",
-                                "✅ このようにして→正解。💡 success demonstrated how effective ... could be → ( ) a new standard was set の「方法・結果」の結び",
-                                "❌ 特に→Especially は例示・強調。新基準の設定という結果の説明には合わない"
+                                "❌ To begin with＝まず第一に。Their success demonstrated how effective simple visual communication could be（成功の結果）のあとで、列挙の導入語としては不適切",
+                                "❌ Most of all＝何よりも。a new standard for pictograms was set（新基準の設定）という結果を結ぶ接続詞ではない",
+                                "✅ In this way＝このようにして。success demonstrated how effective ... could be → a new standard was set の方法・結果の結び→正解",
+                                "❌ Especially＝特に。a new standard for pictograms was set（新基準の設定）という結果の説明に、Especially は合わない"
+                            ],
+                            "sourceEvidence": [
+                                "Their success demonstrated how effective simple visual communication could be.",
+                                "a new standard for pictograms was set."
                             ],
                             "grammar": "💡 In this way＝「このようにして」。直前の simpler pictograms の成功が、新しい基準設定につながったことを示す。"
                         }
@@ -603,10 +614,14 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ その結果→正解。💡 hardly require a long attention span → brain becomes used to receiving only small amounts of information という因果",
-                                "❌ それでも→Even so は譲歩。短い動画が注意力を要しないことと脳の変化は矛盾関係ではない",
-                                "❌ 一方で→On the other hand は対比。前後は原因と結果の流れ",
-                                "❌ 幸いにも→Fortunately は好意的な転換。脳が少量の情報に慣れるのは問題の側面であり「幸い」ではない"
+                                "✅ As a result＝その結果。hardly require a long attention span（長い注意力を要しない）→ brain becomes used to receiving only small amounts of information（少量の情報に慣れる）という因果→正解",
+                                "❌ Even so＝それでも。These platforms hardly require a long attention span と脳の変化は、譲歩関係ではなく因果の流れ",
+                                "❌ On the other hand＝一方で。前後は原因と結果の連鎖であり、対比の接続詞ではない",
+                                "❌ Fortunately＝幸いにも。the brain becomes used to receiving only small amounts of information（少量の情報に慣れる）は問題の側面であり、好意的な転換ではない"
+                            ],
+                            "sourceEvidence": [
+                                "These platforms hardly require a long attention span.",
+                                "the human brain becomes used to receiving only small amounts of information."
                             ],
                             "grammar": "💡 As a result＝その結果。SNSが短い注意力しか要しない → 脳が少量の情報に慣れる、という因果連鎖を読む。"
                         },
@@ -626,10 +641,13 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "❌ 家で勉強していない→not studying at home では直後の reading books / remembering information との関係が弱い",
-                                "✅ 携帯電話を使っていないとき→正解。💡 スマホを使わない別の活動（読書・記憶）のときでも集中できない、という悪影響の広がり",
-                                "❌ 夜よく眠っている→sleeping well at night では reading books の例と結びつかない",
-                                "❌ 携帯電話を探している→trying to find their phones は本文の論点（注意力の低下）と無関係"
+                                "❌ not studying at home＝家で勉強していない。For example, people who often use their mobile phones are less likely to stay focused on reading books（読書に集中しにくい）との関係が弱い",
+                                "✅ not using their phones＝携帯電話を使っていないとき。Problems can even occur when people are ( ) のあと、reading books or remembering information（読書・記憶）の例が続く→正解",
+                                "❌ sleeping well at night＝夜よく眠っている。stay focused on reading books or remembering information（読書・記憶）の例と結びつかない",
+                                "❌ trying to find their phones＝携帯電話を探している。shorter attention spans（注意力の低下）の悪影響の話で、探す行為とは無関係"
+                            ],
+                            "sourceEvidence": [
+                                "people who often use their mobile phones are less likely to stay focused on reading books or remembering information"
                             ],
                             "grammar": "💡 For example 以降が空所の具体例。often use mobile phones なのに not using phones のとき問題が起きる＝スマホ依存が他の活動の集中力も奪う、と読む。"
                         },
@@ -649,10 +667,14 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ 睡眠パターン→sleeping patterns は本文に出てこない。when they can and cannot focus とは別の話",
-                                "❌ 好みの勉強場所→preferred study location は集中の「時間帯」ではなく「場所」の話",
-                                "❌ 食習慣→personal eating habits は注意力の維持と無関係",
-                                "✅ 個人の注意力のリズム→正解。💡 know when they can and cannot focus during the day（いつ集中できるか）と完全一致"
+                                "❌ their sleeping patterns＝睡眠パターン。when they can and cannot focus during the day（いつ集中できるか）とは別の話",
+                                "❌ their preferred study location＝好みの勉強場所。集中の「時間帯」ではなく「場所」の話",
+                                "❌ personal eating habits＝食習慣。maintain a longer attention span（注意力を維持する）と無関係",
+                                "✅ personal attention rhythms＝個人の注意力のリズム。know when they can and cannot focus during the day（いつ集中できるか）と完全一致→正解"
+                            ],
+                            "sourceEvidence": [
+                                "people should know when they can and cannot focus during the day.",
+                                "That will help people plan their day and perform their tasks successfully."
                             ],
                             "grammar": "💡 This means ～ で空所の内容を言い換え。plan their day and perform their tasks successfully が「リズムを知る」利点を示す。"
                         }
@@ -786,7 +808,7 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ 8月10日に内見→August 10は内見日ではなく手続き完了の期限",
+                                "❌ Attend a viewing on August 10＝8月10日に内見。We recommend finishing this process at our office before August 10（8月10日までに手続き完了）であり、内見日ではない",
                                 "❌ 内見前にオフィス訪問→visit before a viewing の記述はない",
                                 "✅ 内見後に8月10日までに署名→正解。💡 after your visit ... signing the agreement ... before August 10",
                                 "❌ 8月10日以降に予約→as soon as possible（できるだけ早く）と矛盾"

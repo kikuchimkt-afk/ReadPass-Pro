@@ -135,10 +135,10 @@ section3 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ キャンプに最適→athletic event（運動会）の話。キャンプの記述はない",
-                        "❌ スタッフが親切→スタッフの対応についての記述はない",
+                        "❌ The ground is perfect for camping＝キャンプに最適。hold an athletic event this fall（秋の運動会）の話で、camping については触れられていない",
+                        "❌ The staff working there is helpful＝スタッフが親切。One of my coworkers recommended your facility（同僚の勧め）とアクセスの良さが理由で、スタッフの親切さは論点にならない",
                         "✅ 公共交通の近く→正解。💡 easy to access from several train stations（いくつかの駅からアクセスしやすい）の言い換え",
-                        "❌ 学童に人気→人気の記述はなく、同僚の勧めとアクセスの良さが理由",
+                        "❌ It is popular among schoolchildren＝学童に人気。easy to access from several train stations（駅からアクセスしやすい）が理由で、人気については書かれていない",
                     ],
                     "sourceEvidence": [
                         "your facility is appealing because it is easy to access from several train stations",
@@ -166,7 +166,7 @@ section3 = {
                         "✅ 人数が施設に適している→正解。💡 about 150 people to attend ＋ about the number of people your facility can hold",
                         "❌ 週末のみ→on a weekday in September or October（平日）と矛盾",
                         "❌ 生徒だけ→including some parents and teachers（保護者・教師も含む）と矛盾",
-                        "❌ 年末まで一日中→8 a.m. to 3 p.m.（午前8時〜午後3時）の1日イベント",
+                        "❌ it will last all day until the end of the year＝年末まで一日中。use the large ground from 8 a.m. to 3 p.m.（午前8時〜午後3時）の1日イベント",
                     ],
                     "sourceEvidence": [
                         "we expect about 150 people to attend the event, including some parents and teachers",
@@ -192,8 +192,8 @@ section3 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ 午前に変更→8 a.m. to 3 p.m. はすでに提示済み。変更の提案ではない",
-                        "❌ スタッフに準備を依頼→施設側の準備支援の話はない",
+                        "❌ To suggest changing the time to the morning＝午前に変更。use the large ground from 8 a.m. to 3 p.m. はすでに提示済みで、変更の提案ではない",
+                        "❌ To ask if the facility staff can help prepare＝スタッフに準備を依頼。Could you please let me know which date might be suitable（日程の相談）が主題で、準備支援の話はない",
                         "❌ 教師が足りない→we have enough teachers and staff（十分にいる）と矛盾",
                         "✅ 訪問が難しくないことを示す→正解。💡 school is close to your main office ＋ adjust schedules to visit for the meeting",
                     ],
@@ -230,7 +230,7 @@ section3 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ ベルリンへの旅行→Berlin の記述はない",
+                        "❌ took them to Berlin to learn languages through their travels＝ベルリンへの旅行。hiring famous educators and experts ... to tutor them（家庭教師を雇った）とあり、Berlin への旅行とは読めない",
                         "❌ 有名な学校に通わせた→学校ではなく hiring ... to tutor them（家庭教師を雇った）",
                         "✅ 専門家による個人教授→正解。💡 hiring famous educators and experts in various fields to tutor them",
                         "❌ 祖父母に決めさせた→母が took charge of their education（教育を担当）",
@@ -260,8 +260,8 @@ section3 = {
                     "choiceAnalysis": [
                         "✅ 母の死後の遺産→正解。💡 The money he received after his mother's death made his dream ... come true",
                         "❌ 本の売上→本は旅の後に書いた（after the trip）ので因果が逆",
-                        "❌ 弟からの誘い→兄アレクサンダーの旅。Wilhelm からの誘いの記述なし",
-                        "❌ 南米の科学者の支援→本文にない",
+                        "❌ An invitation from his brother to travel＝弟からの誘い。The money he received after his mother's death（母の死後の遺産）が旅の資金で、Wilhelm からの誘いとは合わない",
+                        "❌ Support given by a group of scientists in South America＝南米の科学者の支援。He spent several years there studying plants, animals（研究の記述）はあるが、現地科学者の支援の話はない",
                     ],
                     "sourceEvidence": [
                         "The money he received after his mother's death made his dream of traveling to South America come true",
@@ -287,9 +287,9 @@ section3 = {
                     "answer": 3,
                     "choiceAnalysis": [
                         "❌ 似たように発展→individuality of its speakers（話者の個性）を強調しており、均質な発展の話ではない",
-                        "❌ ドイツ文化と教育制度→German の記述はない。speakers の文化一般の話",
+                        "❌ It reflected both the German cultural background and educational systems＝ドイツ文化と教育制度。reflected the culture and individuality of its speakers（話者の文化と個性）の話で、German に限定されていない",
                         "✅ 世界を認識する道具→正解。💡 a means that allowed people to perceive the world（世界を認識する手段）",
-                        "❌ 大学制度の創設→Wilhelm は大学設立に関わったが、これは言語についての信念ではない",
+                        "❌ It was closely related to education and played a role in creating university systems＝大学制度の創設。helped found a university（大学設立）の話はあるが、言語についての信念の設問ではない",
                     ],
                     "sourceEvidence": [
                         "language was not just a collection of words but a means that allowed people to perceive the world",
@@ -315,9 +315,9 @@ section3 = {
                     "answer": 1,
                     "choiceAnalysis": [
                         "✅ 幼少期の知識・学習へのアクセス→正解。💡 wealthy background gave them early access to quality education and rich intellectual opportunities",
-                        "❌ 仕事が柔軟→flexible jobs の記述はない",
-                        "❌ ボランティア→volunteer の記述はない",
-                        "❌ 助手のチーム→teams of assistants の記述はない",
+                        "❌ Their jobs were flexible enough to allow them a lot of free time for research＝仕事が柔軟。flexible jobs について本文は触れていない",
+                        "❌ They had a lot of volunteer workers who were willing to work for them＝ボランティア。wealthy background gave them early access to quality education（幼少期の教育環境）が論点で、volunteer の話は出てこない",
+                        "❌ They worked with teams of several great assistants on each project＝助手のチーム。teams of assistants について本文に言及はない",
                     ],
                     "sourceEvidence": [
                         "Their wealthy background gave them early access to quality education and rich intellectual opportunities",
@@ -345,7 +345,7 @@ section3 = {
                     "choiceAnalysis": [
                         "❌ 旅の前に本を書いた→Alexander wrote books ... after the trip（旅の後）と矛盾",
                         "❌ 裕福になりたかった→すでに wealthy family（裕福な家庭）に生まれている",
-                        "❌ 父がピアノを教えた→piano の記述はなく、父は Alexander が幼い頃に亡くなっている",
+                        "❌ The Humboldts' father wanted to teach them piano himself＝父がピアノを教えた。piano の記述はなく、their father passed away when Alexander was just a child（父は幼い頃に亡くなっている）",
                         "✅ ヴィルヘルムの提案書が大学制度に影響→正解。💡 The proposal he wrote for the university has influenced the German university system ever since",
                     ],
                     "sourceEvidence": [

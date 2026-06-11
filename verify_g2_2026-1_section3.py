@@ -52,7 +52,7 @@ for q in all_qs:
             errors.append(f"Q{n}: missing {key}")
     if "grammar" not in q or not q["grammar"]:
         errors.append(f"Q{n}: missing grammar")
-    if "sourceEvidence" not in q or not q["sourceEvidence"]:
+    if "sourceEvidence" not in q or not q.get("sourceEvidence"):
         errors.append(f"Q{n}: missing sourceEvidence")
     for i, ca in enumerate(q["choiceAnalysis"]):
         if i + 1 == q["answer"]:
