@@ -20,7 +20,29 @@
                         "books",
                         "sports"
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "don't have any eggs＝「卵がない」。パンケーキを作る材料として eggs が自然。",
+                    "grammarSimple": "eggs は「たまご」。パンケーキをつくるのにたまごがないよ！",
+                    "choiceAnalysis": [
+                        "❌ flowers＝花。パンケーキの材料として不自然。",
+                        "✅ eggs＝卵。make pancakes と don't have any eggs がつながる。",
+                        "❌ books＝本。食べ物の材料ではない。",
+                        "❌ sports＝スポーツ。文脈に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "flowers は「はな」。たべものじゃないよ。",
+                        "○ eggs がぴったり！「たまご」がない！",
+                        "books は「ほん」。合わないよ。",
+                        "sports は「スポーツ」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q1.mp3",
+                    "translation": "A: 朝食にパンケーキを作りたいんだけど、（　）が全然ないんだ。\nB: 店に行って買ってくるよ。",
+                    "choiceTranslations": [
+                        "花",
+                        "卵",
+                        "本",
+                        "スポーツ"
+                    ]
                 },
                 {
                     "number": 2,
@@ -31,7 +53,29 @@
                         "use",
                         "send"
                     ],
-                    "answer": 3
+                    "answer": 3,
+                    "grammar": "You can use my phone.＝「私の電話を使っていいよ」。電話がない人への助け。",
+                    "grammarSimple": "use は「つかう」。でんわがないから、わたしのでんわをつかっていいよ！",
+                    "choiceAnalysis": [
+                        "❌ climb my phone→「電話を登る」では意味が通らない。",
+                        "❌ leave my phone→「電話を去る」では不自然。",
+                        "✅ use＝使う。use my phone が自然。",
+                        "❌ send my phone→「電話を送る」では文脈に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "climb は「のぼる」。でんわには合わないよ。",
+                        "leave は「去る」。合わないよ。",
+                        "○ use がぴったり！「つかう」！",
+                        "send は「おくる」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q2.mp3",
+                    "translation": "A: お母さんに電話したいんだけど、電話を持ってないんだ。\nB: 私の電話を（　）っていいよ。",
+                    "choiceTranslations": [
+                        "登る",
+                        "去る",
+                        "使う",
+                        "送る"
+                    ]
                 },
                 {
                     "number": 3,
@@ -42,7 +86,29 @@
                         "hit",
                         "run"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "cut this carrot＝「このニンジンを切る」。クッキー作りの前準備。",
+                    "grammarSimple": "cut は「きる」。クッキーをつくるまえに、にんじんをきってね！",
+                    "choiceAnalysis": [
+                        "✅ cut＝切る。クッキー作りの前に野菜を切る場面。",
+                        "❌ arrive this carrot→「ニンジンが着く」では意味が通らない。",
+                        "❌ hit this carrot→「ニンジンを打つ」では不自然。",
+                        "❌ run this carrot→「ニンジンを走る」では不自然。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ cut がぴったり！「きる」！",
+                        "arrive は「つく」。にんじんには合わないよ。",
+                        "hit は「うつ」。合わないよ。",
+                        "run は「はしる」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q3.mp3",
+                    "translation": "A: ママ、クッキーを作りたい！\nB: いいわよ。でも、先にこのニンジンを（　）てね。",
+                    "choiceTranslations": [
+                        "切る",
+                        "着く",
+                        "打つ",
+                        "走る"
+                    ]
                 },
                 {
                     "number": 4,
@@ -53,7 +119,29 @@
                         "animal",
                         "road"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "in your country＝「あなたの国では」。春が暖かい＝国の気候の話。",
+                    "grammarSimple": "country は「くに」。あなたのくにはいまあたたかい？はるだよ！",
+                    "choiceAnalysis": [
+                        "✅ country＝国。warm in your country と it's spring がつながる。",
+                        "❌ ticket＝切符。暖かさの場所として不自然。",
+                        "❌ animal＝動物。in your animal では意味が通らない。",
+                        "❌ road＝道路。気候の話には合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ country がぴったり！「くに」！",
+                        "ticket は「きっぷ」。合わないよ。",
+                        "animal は「どうぶつ」。合わないよ。",
+                        "road は「みち」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q4.mp3",
+                    "translation": "A: 今、あなたの（　）は暖かい？\nB: うん、春だよ。",
+                    "choiceTranslations": [
+                        "国",
+                        "切符",
+                        "動物",
+                        "道路"
+                    ]
                 },
                 {
                     "number": 5,
@@ -64,7 +152,29 @@
                         "contest",
                         "trip"
                     ],
-                    "answer": 3
+                    "answer": 3,
+                    "grammar": "chorus contest＝「合唱コンテスト」。テレビで見て、学校の合唱に入りたい流れ。",
+                    "grammarSimple": "contest は「コンテスト」。テレビで合唱コンテストをみて、がっこうの合唱に入りたいんだ！",
+                    "choiceAnalysis": [
+                        "❌ chorus wall→「合唱の壁」では意味が通らない。",
+                        "❌ chorus hobby→「合唱の趣味」ではテレビ番組名として不自然。",
+                        "✅ contest＝コンテスト。chorus contest on TV が自然。",
+                        "❌ chorus trip→「合唱の旅行」では文脈に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "wall は「かべ」。合わないよ。",
+                        "hobby は「しゅみ」。テレビの番組には合わないよ。",
+                        "○ contest がぴったり！「コンテスト」！",
+                        "trip は「りょこう」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q5.mp3",
+                    "translation": "タロウは昨日テレビで合唱（　）を楽しんだ。学校の合唱に入りたいと思っている。",
+                    "choiceTranslations": [
+                        "壁",
+                        "趣味",
+                        "コンテスト",
+                        "旅行"
+                    ]
                 },
                 {
                     "number": 6,
@@ -75,7 +185,29 @@
                         "late",
                         "favorite"
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "it's open now＝「今開いている」。図書館で勉強できるかの答え。",
+                    "grammarSimple": "open は「あいている」。いまとしょかんはあいてるよ！",
+                    "choiceAnalysis": [
+                        "❌ it's cold now→「寒い」は開館の可否の答えにならない。",
+                        "✅ open＝開いている。Can I study in the library? への自然な返答。",
+                        "❌ it's late now→「遅い」だけでは勉強できるかの答えとして弱い。",
+                        "❌ it's favorite now→favorite は名詞・形容詞だがこの文脈では不自然。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "cold は「さむい」。あいてるかの答えじゃないよ。",
+                        "○ open がぴったり！「あいている」！",
+                        "late は「おそい」。合わないよ。",
+                        "favorite は「すきな」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q6.mp3",
+                    "translation": "A: 今日、図書館で勉強してもいい？\nB: うん、今（　）よ。",
+                    "choiceTranslations": [
+                        "寒い",
+                        "開いている",
+                        "遅い",
+                        "お気に入りの"
+                    ]
                 },
                 {
                     "number": 7,
@@ -86,7 +218,29 @@
                         "body",
                         "point"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "in a big city＝「大きな街で」。中華料理を食べに行った場所。",
+                    "grammarSimple": "city は「まち」。おおきなまちでちゅうかりょうりをたべに行ったよ！",
+                    "choiceAnalysis": [
+                        "✅ city＝都市・街。eat Chinese food in a big city が自然。",
+                        "❌ word＝単語。in a big word では意味が通らない。",
+                        "❌ body＝体。食べに行く場所として不自然。",
+                        "❌ point＝点。in a big point では不自然。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ city がぴったり！「おおきなまち」！",
+                        "word は「ことば」。合わないよ。",
+                        "body は「からだ」。合わないよ。",
+                        "point は「てん」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q7.mp3",
+                    "translation": "サリーは先週末、大きな（　）で中華料理を食べに行った。",
+                    "choiceTranslations": [
+                        "都市・街",
+                        "単語",
+                        "体",
+                        "点"
+                    ]
                 },
                 {
                     "number": 8,
@@ -97,7 +251,29 @@
                         "arm",
                         "eraser"
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "I have an idea.＝「いい考えがある」。水族館に行こうという提案。",
+                    "grammarSimple": "idea は「アイデア」。すいぞくかんに行こう、というアイデアだよ！",
+                    "choiceAnalysis": [
+                        "❌ have an end→「終わりを持っている」では提案にならない。",
+                        "✅ idea＝アイデア。Let's go to the aquarium. とつながる。",
+                        "❌ have an arm→「腕を持っている」では文脈に合わない。",
+                        "❌ have an eraser→「消しゴムを持っている」では提案にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "end は「おわり」。提案にならないよ。",
+                        "○ idea がぴったり！「アイデア」！",
+                        "arm は「うで」。合わないよ。",
+                        "eraser は「けしゴム」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q8.mp3",
+                    "translation": "A: 明日の午後、何をしたい？\nB: （　）があるんだ。水族館に行こう。",
+                    "choiceTranslations": [
+                        "終わり",
+                        "アイデア",
+                        "腕",
+                        "消しゴム"
+                    ]
                 },
                 {
                     "number": 9,
@@ -108,7 +284,29 @@
                         "tell",
                         "finish"
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "What do you think of ～?＝「〜についてどう思う？」。新しいメガネへの感想を聞く。",
+                    "grammarSimple": "think of は「〜についてどう思う」。あたらしいめがね、どう思う？",
+                    "choiceAnalysis": [
+                        "❌ watch of them→What do you watch of them? では使わない。",
+                        "✅ think＝think of ～ で「〜についてどう思う」。They're really nice. と呼応。",
+                        "❌ tell of them→What do you tell of them? では不自然。",
+                        "❌ finish of them→使わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "watch は「みる」。think of じゃないよ。",
+                        "○ think がぴったり！think of で「どう思う」！",
+                        "tell は「いう」。合わないよ。",
+                        "finish は「おえる」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q9.mp3",
+                    "translation": "A: これ、私の新しいメガネよ。どう思う？\nB: とてもいいわね、おばあちゃん。",
+                    "choiceTranslations": [
+                        "見る",
+                        "思う",
+                        "言う",
+                        "終える"
+                    ]
                 },
                 {
                     "number": 10,
@@ -119,7 +317,29 @@
                         "in",
                         "after"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "Good for you.＝「よかったね・がんばってね」。練習をたくさんした子への励まし。",
+                    "grammarSimple": "Good for you. は「がんばってね」。たくさんれんしゅうしたんだね！",
+                    "choiceAnalysis": [
+                        "✅ for＝Good for you. の定型表現。",
+                        "❌ Good with you→使わない。",
+                        "❌ Good in you→使わない。",
+                        "❌ Good after you→使わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ for がぴったり！Good for you. で「がんばって」！",
+                        "with は合わないよ。",
+                        "in は合わないよ。",
+                        "after は合わないよ。"
+                    ],
+                    "questionAudio": "audio/q10.mp3",
+                    "translation": "A: ママ、明日サッカーの試合に出るんだ。\nB: （　）。たくさん練習したのね。",
+                    "choiceTranslations": [
+                        "〜にとって（Good for you）",
+                        "〜と一緒に",
+                        "〜の中で",
+                        "〜の後に"
+                    ]
                 },
                 {
                     "number": 11,
@@ -130,7 +350,29 @@
                         "run",
                         "want"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "Did you hear about Dan?＝「ダンのこと聞いた？」。イギリスに戻る話題。",
+                    "grammarSimple": "hear about は「〜のことをきいた？」。ダンがイギリスにもどるってきいた？",
+                    "choiceAnalysis": [
+                        "✅ hear＝聞く。hear about Dan が自然。move back to England が続く。",
+                        "❌ wait about Dan→「ダンについて待った？」では不自然。",
+                        "❌ run about Dan→使わない。",
+                        "❌ want about Dan→使わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ hear がぴったり！「きいた？」！",
+                        "wait は「まつ」。合わないよ。",
+                        "run は「はしる」。合わないよ。",
+                        "want は「ほしい」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q11.mp3",
+                    "translation": "A: ダンのこと（　）？\nB: うん。イギリスに戻ることになるんだ。",
+                    "choiceTranslations": [
+                        "聞く",
+                        "待つ",
+                        "走る",
+                        "望む"
+                    ]
                 },
                 {
                     "number": 12,
@@ -141,7 +383,29 @@
                         "cry",
                         "run"
                     ],
-                    "answer": 1
+                    "answer": 1,
+                    "grammar": "share them with your sister＝「妹と分け合って」。4つあるクッキーを分ける場面。",
+                    "grammarSimple": "share は「わけあう」。いもうととクッキーをわけあってね！",
+                    "choiceAnalysis": [
+                        "✅ share＝分け合う。give her two of them とつながる。",
+                        "❌ answer them→「クッキーに答える」では意味が通らない。",
+                        "❌ cry them→使わない。",
+                        "❌ run them→使わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ share がぴったり！「わけあう」！",
+                        "answer は「こたえる」。合わないよ。",
+                        "cry は「なく」。合わないよ。",
+                        "run は「はしる」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q12.mp3",
+                    "translation": "A: ボブ、クッキーが4つあるよ。妹と（　）てね。\nB: わかった。2つあげるよ。",
+                    "choiceTranslations": [
+                        "分け合う",
+                        "答える",
+                        "泣く",
+                        "走る"
+                    ]
                 },
                 {
                     "number": 13,
@@ -152,7 +416,29 @@
                         "the cheapest",
                         "cheaper"
                     ],
-                    "answer": 4
+                    "answer": 4,
+                    "grammar": "cheaper than ～＝「〜より安い」。比較級＋than の形。",
+                    "grammarSimple": "cheaper than は「〜よりやすい」。りんごのほうがバナナよりやすいよ！",
+                    "choiceAnalysis": [
+                        "❌ cheap than→比較の than には比較級 cheaper が必要。",
+                        "❌ cheapest than→最上級と than は一緒に使わない。",
+                        "❌ the cheapest than→文法的に誤り。",
+                        "✅ cheaper＝比較級。apples are cheaper than bananas. が正しい。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "cheap は「やすい」だけ。than には cheaper だよ。",
+                        "cheapest は「いちばんやすい」。than と一緒に使わないよ。",
+                        "the cheapest も than とは合わないよ。",
+                        "○ cheaper がぴったり！「よりやすい」！"
+                    ],
+                    "questionAudio": "audio/q13.mp3",
+                    "translation": "A: 今日、リンゴはバナナより（　）よ。\nB: わかった。リンゴを買おう。",
+                    "choiceTranslations": [
+                        "安い",
+                        "最も安い",
+                        "一番安い",
+                        "より安い"
+                    ]
                 },
                 {
                     "number": 14,
@@ -163,7 +449,29 @@
                         "swimming",
                         "to swim"
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "yesterday があるので過去形 swam。「50メートル泳いだ」。",
+                    "grammarSimple": "swam は swim の過去形。きのう、がっこうのプールで50メートルおよいだよ！",
+                    "choiceAnalysis": [
+                        "❌ swim＝現在形。yesterday と時制が合わない。",
+                        "✅ swam＝過去形。yesterday と一致。",
+                        "❌ swimming＝進行形・動名詞。述語として主に使えない。",
+                        "❌ to swim＝不定詞。文の述語として不自然。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "swim は「いま」。きのうには合わないよ。",
+                        "○ swam がぴったり！「およいだ」！",
+                        "swimming はそのままでは合わないよ。",
+                        "to swim はそのままでは合わないよ。"
+                    ],
+                    "questionAudio": "audio/q14.mp3",
+                    "translation": "生徒たちは昨日、学校のプールで50メートル（　）。",
+                    "choiceTranslations": [
+                        "泳ぐ（現在）",
+                        "泳いだ（過去）",
+                        "泳いでいる",
+                        "泳ぐために"
+                    ]
                 },
                 {
                     "number": 15,
@@ -174,7 +482,29 @@
                         "must",
                         "were"
                     ],
-                    "answer": 3
+                    "answer": 3,
+                    "grammar": "must read＝「読まなければならない」。テスト前の宿題としての指示。",
+                    "grammarSimple": "must read は「よまなきゃ」。らいしゅうのテストまえにこの本をよんでね！",
+                    "choiceAnalysis": [
+                        "❌ have read→「読んだことがある」では先生の指示にならない。",
+                        "❌ be read→文法的に不自然。",
+                        "✅ must＝〜しなければならない。must read this book が自然。",
+                        "❌ were read→過去形・受動態になり文脈に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "have は「よんだことがある」。しじには合わないよ。",
+                        "be はそのままでは合わないよ。",
+                        "○ must がぴったり！「よまなきゃ」！",
+                        "were は「だった」。合わないよ。"
+                    ],
+                    "questionAudio": "audio/q15.mp3",
+                    "translation": "A: 来週月曜のテストの前に、この本を（　）読みなさい。\nB: はい、ピーターソン先生。",
+                    "choiceTranslations": [
+                        "〜したことがある",
+                        "〜である",
+                        "〜しなければならない",
+                        "〜だった"
+                    ]
                 }
             ]
         },
@@ -193,7 +523,29 @@
                         "Do you like writing?",
                         "Can I borrow yours?"
                     ],
-                    "answer": 4
+                    "answer": 4,
+                    "grammar": "Can I borrow yours?＝「あなたのを借りていい？」。Of course you can. Here you are.（もちろん、はいどうぞ）が肯定の返答。",
+                    "grammarSimple": "Can I borrow yours? は「あなたのをかりていい？」。「もちろん！」ってあかペンをかしてくれるよ。",
+                    "choiceAnalysis": [
+                        "❌ Will you go home soon?＝「すぐ家に帰る？」。ペンを借りる依頼への返答にならない。",
+                        "❌ Is the color OK?＝「色は大丈夫？」。借りる許可を求める質問ではない。",
+                        "❌ Do you like writing?＝「書くのは好き？」。Of course you can. への自然な前置きにならない。",
+                        "✅ Can I borrow yours?＝「あなたのを借りていい？」。Here you are. とぴったりつながる。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「すぐかえう？」はかりる話じゃないよ。",
+                        "「いろはだいじょうぶ？」はかりるおねがいじゃないよ。",
+                        "「かくのすき？」は合わないよ。",
+                        "○「あなたのをかりていい？」がぴったり！「はいどうぞ」ってこたえてる！"
+                    ],
+                    "questionAudio": "audio/q16.mp3",
+                    "translation": "女の子：赤いペンを忘れちゃった。（　）\n男の子：もちろんいいよ。はいどうぞ。",
+                    "choiceTranslations": [
+                        "すぐ家に帰る？",
+                        "色は大丈夫？",
+                        "書くのは好き？",
+                        "あなたのを借りていい？"
+                    ]
                 },
                 {
                     "number": 17,
@@ -204,7 +556,29 @@
                         "My garden is big.",
                         "Your house is very nice."
                     ],
-                    "answer": 2
+                    "answer": 2,
+                    "grammar": "It's too tall.＝「高すぎる」。Let's climb the one over there.（あっちの木に登ろう）という別の木への提案とつながる。",
+                    "grammarSimple": "It's too tall. は「たかすぎる」。このきはたかすぎるから、あっちのきにのぼろうって言ってるよ。",
+                    "choiceAnalysis": [
+                        "❌ These flowers are pretty.＝「花がきれい」。木に登る話題からずれる。",
+                        "✅ It's too tall.＝「高すぎる」。別の木を提案する理由として自然。",
+                        "❌ My garden is big.＝「庭が大きい」。登れない理由の説明にならない。",
+                        "❌ Your house is very nice.＝「家がとてもきれい」。木に登る話題と無関係。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「はながきれい」はきのはなしとずれるよ。",
+                        "○「たかすぎる」がぴったり！あっちのきにのぼろう！",
+                        "「にわがおおきい」はわけにならないよ。",
+                        "「いえがきれい」は合わないよ。"
+                    ],
+                    "questionAudio": "audio/q17.mp3",
+                    "translation": "女の子1：この木に登りたい。\n女の子2：（　）あっちの木に登ろう。\n女の子1：うん。",
+                    "choiceTranslations": [
+                        "この花はきれいだね。",
+                        "高すぎるよ。",
+                        "私の庭は大きいよ。",
+                        "あなたの家はとてもきれいだね。"
+                    ]
                 },
                 {
                     "number": 18,
@@ -215,7 +589,29 @@
                         "How tall are you?",
                         "How much are they?"
                     ],
-                    "answer": 4
+                    "answer": 4,
+                    "grammar": "How much are they?＝「いくらですか？」。Two dollars.（2ドルです）が値段の答え。",
+                    "grammarSimple": "How much are they? は「いくら？」。Two dollars. で「2ドル」ってこたえてるよ！",
+                    "choiceAnalysis": [
+                        "❌ How are you doing?＝「調子はどう？」。値段の質問ではない。",
+                        "❌ How many do you have?＝「いくつ持っている？」。靴下の値段を聞く場面とずれる。",
+                        "❌ How tall are you?＝「身長は？」。買い物の会話に合わない。",
+                        "✅ How much are they?＝「いくらですか？」。Two dollars. とぴったり。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「げんき？」はねだんの話じゃないよ。",
+                        "「いくつもってる？」はくつしたのねだんじゃないよ。",
+                        "「しんちょうは？」は合わないよ。",
+                        "○「いくら？」がぴったり！「2ドル」ってこたえてる！"
+                    ],
+                    "questionAudio": "audio/q18.mp3",
+                    "translation": "男：すみません。この靴下を買いたいんですが。（　）\n店員：2ドルです。",
+                    "choiceTranslations": [
+                        "調子はどうですか？",
+                        "いくつお持ちですか？",
+                        "身長はどのくらいですか？",
+                        "いくらですか？"
+                    ]
                 },
                 {
                     "number": 19,
@@ -226,7 +622,29 @@
                         "It's on the kitchen table.",
                         "It's for your brother."
                     ],
-                    "answer": 3
+                    "answer": 3,
+                    "grammar": "It's on the kitchen table.＝「キッチンのテーブルの上にある」。探している教科書の場所を教える。",
+                    "grammarSimple": "It's on the kitchen table. は「キッチンのテーブルのうえにあるよ」。きょうかしょのばしょをおしえてる！",
+                    "choiceAnalysis": [
+                        "❌ It's a difficult subject.＝「難しい科目だ」。教科書の場所の答えにならない。",
+                        "❌ It was very interesting.＝「とても面白かった」。探している本の場所を教えない。",
+                        "✅ It's on the kitchen table.＝「キッチンのテーブルの上」。Thanks. への自然な答え。",
+                        "❌ It's for your brother.＝「弟のためのもの」。場所の説明にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「むずかしいかもくだ」はばしょのこたえじゃないよ。",
+                        "「おもしろかった」はばしょを教えてないよ。",
+                        "○「キッチンのテーブルのうえ」がぴったり！ありがとうって言ってる！",
+                        "「おとうとのため」は合わないよ。"
+                    ],
+                    "questionAudio": "audio/q19.mp3",
+                    "translation": "娘：お父さん、社会の教科書が見つからないの。\n父：（　）\n娘：ありがとう。",
+                    "choiceTranslations": [
+                        "難しい科目だよ。",
+                        "とても面白かったよ。",
+                        "キッチンのテーブルの上にあるよ。",
+                        "弟のためのものだよ。"
+                    ]
                 },
                 {
                     "number": 20,
@@ -237,7 +655,29 @@
                         "Are you OK?",
                         "Is your mother a doctor?"
                     ],
-                    "answer": 3
+                    "answer": 3,
+                    "grammar": "Are you OK?＝「大丈夫？」。you don't look well（元気そうに見えない）への心配の質問。",
+                    "grammarSimple": "Are you OK? は「だいじょうぶ？」。げんきそうにみえないから、しんぱいしてきいてるよ。",
+                    "choiceAnalysis": [
+                        "❌ Can I go home?＝「家に帰っていい？」。相手の体調を心配する質問ではない。",
+                        "❌ Did you call me?＝「私を呼んだ？」。元気そうに見えない場面への自然な質問にならない。",
+                        "✅ Are you OK?＝「大丈夫？」。I'm fine. I'm just a little tired. と呼応。",
+                        "❌ Is your mother a doctor?＝「お母さんは医者？」。体調の心配として不自然。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「かえっていい？」はあいてのげんきをきく話じゃないよ。",
+                        "「よんだ？」は合わないよ。",
+                        "○「だいじょうぶ？」がぴったり！「ちょっとつかれただけ」ってこたえてる！",
+                        "「おかあさんはいしゃ？」は合わないよ。"
+                    ],
+                    "questionAudio": "audio/q20.mp3",
+                    "translation": "女の子1：ジェニー、今日は元気そうに見えないね。（　）\n女の子2：大丈夫だよ。ちょっと疲れただけ。",
+                    "choiceTranslations": [
+                        "家に帰っていい？",
+                        "私を呼んだ？",
+                        "大丈夫？",
+                        "お母さんは医者？"
+                    ]
                 }
             ]
         },
@@ -256,6 +696,7 @@
                         "③−⑤",
                         "④−①"
                     ],
+                    "answer": 2,
                     "words": [
                         "you",
                         "up",
@@ -276,7 +717,21 @@
                         2,
                         4
                     ],
-                    "answer": 2
+                    "grammar": "並べかえると「Why did you get up so early this morning?」になります。why did you ...?＝「なぜあなたは〜したの？」。空所は2語目 did（⑤）と4語目 get（③）。",
+                    "grammarSimple": "正しい文は「Why did you get up so early this morning?」。なぜけさそんなにはやくおきたの？2ばんめ did、4ばんめ get！",
+                    "choiceAnalysis": [
+                        "❌ 「①−②」だと you up ... となり、Why did you get up の形にならない。",
+                        "✅ 「⑤−③」＝did と get。Why did you get up so early this morning? が自然な疑問文。",
+                        "❌ 「③−⑤」だと get did ... となり、語順が合わない。",
+                        "❌ 「④−①」だと why you ... となり、did が抜けて文が成立しない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「①−②」は Why did you get up にならないよ。",
+                        "○「⑤−③」が正解！Why did you get up? だよ！",
+                        "「③−⑤」はじゅんばんがちがうよ。",
+                        "「④−①」は did がたりないよ。"
+                    ],
+                    "questionAudio": "audio/q21.mp3"
                 },
                 {
                     "number": 22,
@@ -287,6 +742,7 @@
                         "⑤−①",
                         "③−①"
                     ],
+                    "answer": 1,
                     "words": [
                         "this",
                         "may",
@@ -307,7 +763,21 @@
                         2,
                         4
                     ],
-                    "answer": 1
+                    "grammar": "並べかえると「May I call you this afternoon?」になります。May I ...?＝「〜してもいいですか？」。空所は2語目 I（④）と4語目 you（③）。",
+                    "grammarSimple": "正しい文は「May I call you this afternoon?」。きょうのごご、でんわしてもいい？2ばんめ I、4ばんめ you！",
+                    "choiceAnalysis": [
+                        "✅ 「④−③」＝I と you。May I call you this afternoon? が丁寧な許可を求める形。",
+                        "❌ 「①−③」だと this you ... となり、May I call の形にならない。",
+                        "❌ 「⑤−①」だと call this ... から始まり、語順が合わない。",
+                        "❌ 「③−①」だと you this ... となり、May I call you の形にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○「④−③」が正解！May I call you? だよ！",
+                        "「①−③」は May I call の形にならないよ。",
+                        "「⑤−①」はじゅんばんがちがうよ。",
+                        "「③−①」は May I call you にならないよ。"
+                    ],
+                    "questionAudio": "audio/q22.mp3"
                 },
                 {
                     "number": 23,
@@ -318,6 +788,7 @@
                         "④−③",
                         "⑤−③"
                     ],
+                    "answer": 2,
                     "words": [
                         "see",
                         "you",
@@ -338,7 +809,21 @@
                         2,
                         4
                     ],
-                    "answer": 2
+                    "grammar": "並べかえると「You can see lots of high mountains in Nepal.」になります。can see＝「見ることができる」。空所は2語目 can（③）と4語目 lots of（⑤）。",
+                    "grammarSimple": "正しい文は「You can see lots of high mountains in Nepal.」。ネパールではたくさんのたかいやまがみえる。2ばんめ can、4ばんめ lots of！",
+                    "choiceAnalysis": [
+                        "❌ 「④−②」だと high mountains you ... となり、You can see の形にならない。",
+                        "✅ 「③−⑤」＝can と lots of。You can see lots of high mountains で文が完成。",
+                        "❌ 「④−③」だと high mountains can ... となり、語順が合わない。",
+                        "❌ 「⑤−③」だと lots of can ... となり、can see の形にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「④−②」は You can see にならないよ。",
+                        "○「③−⑤」が正解！You can see lots of ... だよ！",
+                        "「④−③」はじゅんばんがちがうよ。",
+                        "「⑤−③」は can see にならないよ。"
+                    ],
+                    "questionAudio": "audio/q23.mp3"
                 },
                 {
                     "number": 24,
@@ -349,6 +834,7 @@
                         "⑤−②",
                         "③−⑤"
                     ],
+                    "answer": 3,
                     "words": [
                         "at",
                         "school",
@@ -369,7 +855,21 @@
                         2,
                         4
                     ],
-                    "answer": 3
+                    "grammar": "並べかえると「I leave home for school at seven o'clock every morning.」になります。leave home for school＝「家を出て学校へ向かう」。空所は2語目 home（⑤）と4語目 school（②）。",
+                    "grammarSimple": "正しい文は「I leave home for school at seven o'clock every morning.」。まいあさ7じにいえをでてがっこうへ。2ばんめ home、4ばんめ school！",
+                    "choiceAnalysis": [
+                        "❌ 「⑤−③」だと home leave ... となり、leave home for school の形にならない。",
+                        "❌ 「③−④」だと leave for ... のあと school が来ず、語順がずれる。",
+                        "✅ 「⑤−②」＝home と school。I leave home for school at ... で文が完成。",
+                        "❌ 「③−⑤」だと leave home の順が逆になり、文として成立しない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「⑤−③」は leave home にならないよ。",
+                        "「③−④」はじゅんばんがちがうよ。",
+                        "○「⑤−②」が正解！leave home for school だよ！",
+                        "「③−⑤」はじゅんばんがちがうよ。"
+                    ],
+                    "questionAudio": "audio/q24.mp3"
                 },
                 {
                     "number": 25,
@@ -380,6 +880,7 @@
                         "②−⑤",
                         "①−②"
                     ],
+                    "answer": 3,
                     "words": [
                         "wash",
                         "you",
@@ -400,7 +901,21 @@
                         2,
                         4
                     ],
-                    "answer": 3
+                    "grammar": "並べかえると「Could you wash these coffee cups, please?」になります。Could you ...?＝「〜してくれますか？」。空所は2語目 you（②）と4語目 these（⑤）。",
+                    "grammarSimple": "正しい文は「Could you wash these coffee cups, please?」。このコーヒーカップをあらってくれる？2ばんめ you、4ばんめ these！",
+                    "choiceAnalysis": [
+                        "❌ 「④−⑤」だと could these ... となり、Could you wash の形にならない。",
+                        "❌ 「③−①」だと coffee cups wash ... から始まり、語順が合わない。",
+                        "✅ 「②−⑤」＝you と these。Could you wash these coffee cups, please? が自然な依頼。",
+                        "❌ 「①−②」だと wash you ... となり、Could you wash の形にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "「④−⑤」は Could you wash にならないよ。",
+                        "「③−①」はじゅんばんがちがうよ。",
+                        "○「②−⑤」が正解！Could you wash these ...? だよ！",
+                        "「①−②」は Could you wash にならないよ。"
+                    ],
+                    "questionAudio": "audio/q25.mp3"
                 }
             ]
         },
@@ -419,6 +934,12 @@
                         "He will first give a speech in the gym and then play three songs in the music room. After this performance, students can eat snacks in the cafeteria.",
                         "Date: February 12\nTime: 4:00 p.m. to 5:00 p.m."
                     ],
+                    "translations": [
+                        "ミュージシャンが学校を訪問します",
+                        "有名なピアニストのスティーブンス先生が、金曜の午後1時間、学校を訪問します。",
+                        "まず体育館でスピーチを行い、その後音楽室で3曲演奏します。この公演のあと、生徒はカフェテリアでおやつを食べられます。",
+                        "日付：2月12日\n時間：午後4時〜5時"
+                    ],
                     "questions": [
                         {
                             "number": 26,
@@ -429,7 +950,32 @@
                                 "A piano player will play songs.",
                                 "Students will dance."
                             ],
-                            "answer": 1
+                            "answer": 1,
+                            "grammar": "give a speech in the gym＝「体育館でスピーチをする」。音楽室で演奏するのはその後。",
+                            "grammarSimple": "「たいいくかんでスピーチをする」って書いてあるよ！おんがくしつでえんそうするのはそのあとだよ。",
+                            "choiceAnalysis": [
+                                "✅ give a speech in the gym＝体育館でスピーチ。He will first give a speech in the gym と一致。",
+                                "❌ eat snacks in the cafeteria＝おやつはカフェテリアでの出来事。",
+                                "❌ play songs＝演奏は the music room（音楽室）。",
+                                "❌ dance＝書かれていない。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "○「スピーチ」がぴったり！たいいくかんでするよ！",
+                                "「おやつ」はカフェテリアだよ。",
+                                "「えんそう」はおんがくしつだよ。",
+                                "「ダンス」はちがうよ。"
+                            ],
+                            "questionTranslation": "体育館では何が行われる？",
+                            "choiceTranslations": [
+                                "ピアニストがスピーチをする。",
+                                "生徒が無料のおやつをもらう。",
+                                "ピアニストが曲を演奏する。",
+                                "生徒がダンスをする。"
+                            ],
+                            "sourceEvidence": [
+                                "He will first give a speech in the gym"
+                            ],
+                            "questionAudio": "audio/q26.mp3"
                         },
                         {
                             "number": 27,
@@ -440,7 +986,32 @@
                                 "Four songs.",
                                 "Five songs."
                             ],
-                            "answer": 2
+                            "answer": 2,
+                            "grammar": "play three songs＝「3曲演奏する」。",
+                            "grammarSimple": "「3きょくえんそうする」って書いてあるよ！",
+                            "choiceAnalysis": [
+                                "❌ Two songs＝本文は three songs。",
+                                "✅ Three songs.＝play three songs in the music room と一致。",
+                                "❌ Four songs＝書かれていない。",
+                                "❌ Five songs＝書かれていない。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「2きょく」はちがうよ。",
+                                "○「3きょく」がぴったり！",
+                                "「4きょく」はちがうよ。",
+                                "「5きょく」はちがうよ。"
+                            ],
+                            "questionTranslation": "スティーブンス先生は何曲演奏する？",
+                            "choiceTranslations": [
+                                "2曲。",
+                                "3曲。",
+                                "4曲。",
+                                "5曲。"
+                            ],
+                            "sourceEvidence": [
+                                "play three songs in the music room"
+                            ],
+                            "questionAudio": "audio/q27.mp3"
                         }
                     ]
                 },
@@ -453,6 +1024,12 @@
                         "From: Cathy Cook\nTo: Jimmy Cook\nDate: July 7\nSubject: They are fine!",
                         "Dear Jimmy,\nOf course, come and see my cat Lily and her babies next month! She has three babies, and they are very cute. Yesterday, one of my friends visited me and saw them, too! I'll send you a picture of the babies by email tomorrow!\nLove,\nGrandma"
                     ],
+                    "translations": [
+                        "差出人：ジミー・クック\n宛先：キャシー・クック\n日付：7月7日\n件名：猫は元気？",
+                        "おばあちゃんへ\n去年の夏はとても楽しかった！2週間おばあちゃんの家にいたのが好きだった。猫のリリーは元気？子猫が生まれたんでしょ？お父さんが教えてくれた。子猫は何匹？ぜひ会いたい！来月おばあちゃんの家に行っていい？4日間滞在できるよ！\n早く返事してね、\nジミーより",
+                        "差出人：キャシー・クック\n宛先：ジミー・クック\n日付：7月7日\n件名：元気だよ！",
+                        "ジミーへ\nもちろん、来月リリーと子猫に会いに来て！子猫は3匹でとてもかわいいの。昨日、友達がうちに来て子猫にも会ったの！明日メールで子猫の写真を送るね！\n愛を込めて、\nおばあちゃんより"
+                    ],
                     "questions": [
                         {
                             "number": 28,
@@ -463,7 +1040,32 @@
                                 "Next month.",
                                 "Next summer."
                             ],
-                            "answer": 3
+                            "answer": 3,
+                            "grammar": "Can I visit your home next month?＝「来月訪問していい？」。おばあちゃんも come next month と返信。",
+                            "grammarSimple": "「らいげついっていい？」ってジミーが聞いて、おばあちゃんも「らいげつ来て」って言ってるよ！",
+                            "choiceAnalysis": [
+                                "❌ Tomorrow＝写真を明日送る話。訪問の時期ではない。",
+                                "❌ Next week＝書かれていない。",
+                                "✅ Next month.＝Can I visit your home next month? と一致。",
+                                "❌ Next summer＝last summer（去年の夏）の話。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「あした」はしゃしんの話だよ。",
+                                "「らいしゅう」はちがうよ。",
+                                "○「らいげつ」がぴったり！",
+                                "「らいねんのなつ」はちがうよ。"
+                            ],
+                            "questionTranslation": "ジミーはいつおばあちゃんの家を訪ねられる？",
+                            "choiceTranslations": [
+                                "明日。",
+                                "来週。",
+                                "来月。",
+                                "来年の夏。"
+                            ],
+                            "sourceEvidence": [
+                                "Can I visit your home next month?"
+                            ],
+                            "questionAudio": "audio/q28.mp3"
                         },
                         {
                             "number": 29,
@@ -474,7 +1076,32 @@
                                 "Three.",
                                 "Four."
                             ],
-                            "answer": 3
+                            "answer": 3,
+                            "grammar": "She has three babies＝「子猫が3匹いる」。",
+                            "grammarSimple": "「3ひきいる」っておばあちゃんが書いてるよ！",
+                            "choiceAnalysis": [
+                                "❌ One＝本文は three babies。",
+                                "❌ Two＝書かれていない。",
+                                "✅ Three.＝She has three babies, and they are very cute. と一致。",
+                                "❌ Four＝書かれていない。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「1ひき」はちがうよ。",
+                                "「2ひき」はちがうよ。",
+                                "○「3ひき」がぴったり！",
+                                "「4ひき」はちがうよ。"
+                            ],
+                            "questionTranslation": "リリーには子猫が何匹いる？",
+                            "choiceTranslations": [
+                                "1匹。",
+                                "2匹。",
+                                "3匹。",
+                                "4匹。"
+                            ],
+                            "sourceEvidence": [
+                                "She has three babies, and they are very cute."
+                            ],
+                            "questionAudio": "audio/q29.mp3"
                         },
                         {
                             "number": 30,
@@ -485,7 +1112,32 @@
                                 "Jimmy.",
                                 "Jimmy's father."
                             ],
-                            "answer": 1
+                            "answer": 1,
+                            "grammar": "one of my friends visited me＝「友達の一人が訪ねてきた」。",
+                            "grammarSimple": "「ともだちのひとりがきのうきた」って書いてあるよ！",
+                            "choiceAnalysis": [
+                                "✅ Her friend.＝one of my friends visited me yesterday と一致。",
+                                "❌ Her daughter＝書かれていない。",
+                                "❌ Jimmy＝ジミーはまだ訪問していない（来月の予定）。",
+                                "❌ Jimmy's father＝Dad told me about it の話で、昨日訪問した人ではない。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "○「ともだち」がぴったり！きのうきたよ！",
+                                "「むすめ」はちがうよ。",
+                                "「ジミー」はまだ行ってないよ。",
+                                "「おとうさん」はちがうよ。"
+                            ],
+                            "questionTranslation": "昨日、ジミーのおばあちゃんのところを誰が訪ねた？",
+                            "choiceTranslations": [
+                                "彼女の友達。",
+                                "彼女の娘。",
+                                "ジミー。",
+                                "ジミーの父親。"
+                            ],
+                            "sourceEvidence": [
+                                "Yesterday, one of my friends visited me and saw them, too!"
+                            ],
+                            "questionAudio": "audio/q30.mp3"
                         }
                     ]
                 },
@@ -497,6 +1149,11 @@
                         "George walked into the classroom and saw an old blackboard. The blackboard was forty years old. He was surprised because the blackboard was green. He also saw desks and chairs. They were dark brown. Then, George saw some old history textbooks. He saw a lot of interesting things in the classroom. He liked looking at the textbooks most because they were so old.",
                         "The history museum was very fun. George's favorite subjects in school were English and math before, but now his favorite is history. George wants to go to more museums with his sister."
                     ],
+                    "translations": [
+                        "ジョージは13歳。最近、妹が歴史博物館に行きたがった。そこで家族は先週の土曜日、博物館に行った。博物館は古い建物にあった。建物は80年の歴史がある。博物館ではたくさんの面白いものを見た。いちばんよかったのは古い教室だった。",
+                        "ジョージは教室に入り、古い黒板を見た。黒板は40年ものだった。黒板が緑色だったので驚いた。机と椅子も見た。それらは濃い茶色だった。それから、古い歴史の教科書も見た。教室には面白いものがたくさんあった。教科書がとても古かったので、いちばん見るのが好きだった。",
+                        "歴史博物館はとても楽しかった。以前は英語と数学が好きな科目だったが、今は歴史がいちばん好きだ。ジョージは妹と、もっと博物館に行きたいと思っている。"
+                    ],
                     "questions": [
                         {
                             "number": 31,
@@ -507,7 +1164,32 @@
                                 "George's sister wanted to go.",
                                 "George likes history."
                             ],
-                            "answer": 3
+                            "answer": 3,
+                            "grammar": "his sister wanted to go to a history museum＝「妹が博物館に行きたがった」が理由。",
+                            "grammarSimple": "「いもうとがびょうぶつかんに行きたがった」から行ったんだよ！",
+                            "choiceAnalysis": [
+                                "❌ four tickets＝書かれていない。",
+                                "❌ mother works there＝書かれていない。",
+                                "✅ George's sister wanted to go.＝his sister wanted to go to a history museum と一致。",
+                                "❌ George likes history＝今は好きだが、行った理由は妹の希望。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「チケット」はちがうよ。",
+                                "「おかあさんがはたらく」はちがうよ。",
+                                "○「いもうとが行きたかった」がぴったり！",
+                                "「ジョージがすき」はいまの話だよ。"
+                            ],
+                            "questionTranslation": "ジョージの家族は、なぜ先週の土曜日に博物館に行った？",
+                            "choiceTranslations": [
+                                "父がチケットを4枚持っていたから。",
+                                "母がそこで働いているから。",
+                                "妹が行きたがったから。",
+                                "ジョージが歴史が好きだから。"
+                            ],
+                            "sourceEvidence": [
+                                "his sister wanted to go to a history museum"
+                            ],
+                            "questionAudio": "audio/q31.mp3"
                         },
                         {
                             "number": 32,
@@ -518,7 +1200,32 @@
                                 "Forty years old.",
                                 "Eighty years old."
                             ],
-                            "answer": 3
+                            "answer": 3,
+                            "grammar": "The blackboard was forty years old.＝黒板は40年もの。",
+                            "grammarSimple": "「こくばんは40ねんもの」って書いてあるよ！80ねんはたてものの話だよ。",
+                            "choiceAnalysis": [
+                                "❌ Thirteen＝George is thirteen（ジョージの年齢）。",
+                                "❌ Twenty＝書かれていない。",
+                                "✅ Forty years old.＝The blackboard was forty years old. と一致。",
+                                "❌ Eighty years old＝建物の年数（It was eighty years old）。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「13さい」はジョージのねんれいだよ。",
+                                "「20ねん」はちがうよ。",
+                                "○「40ねん」がぴったり！こくばんだよ！",
+                                "「80ねん」はたてものの話だよ。"
+                            ],
+                            "questionTranslation": "黒板は何年ものだった？",
+                            "choiceTranslations": [
+                                "13年。",
+                                "20年。",
+                                "40年。",
+                                "80年。"
+                            ],
+                            "sourceEvidence": [
+                                "The blackboard was forty years old."
+                            ],
+                            "questionAudio": "audio/q32.mp3"
                         },
                         {
                             "number": 33,
@@ -529,7 +1236,32 @@
                                 "Light brown.",
                                 "Dark brown."
                             ],
-                            "answer": 4
+                            "answer": 4,
+                            "grammar": "They were dark brown.＝机と椅子は濃い茶色。green は黒板の色。",
+                            "grammarSimple": "「くろいちゃいろ」って書いてあるよ！みどりはこくばんのいろだよ。",
+                            "choiceAnalysis": [
+                                "❌ Black＝本文は dark brown。",
+                                "❌ Green＝黒板（blackboard）の色。",
+                                "❌ Light brown＝dark brown と異なる。",
+                                "✅ Dark brown.＝They were dark brown.（desks and chairs）と一致。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「くろ」はちがうよ。",
+                                "「みどり」はこくばんだよ。",
+                                "「うすいちゃ」はちがうよ。",
+                                "○「こいちゃいろ」がぴったり！"
+                            ],
+                            "questionTranslation": "机は何色だった？",
+                            "choiceTranslations": [
+                                "黒。",
+                                "緑。",
+                                "薄茶色。",
+                                "濃い茶色。"
+                            ],
+                            "sourceEvidence": [
+                                "They were dark brown."
+                            ],
+                            "questionAudio": "audio/q33.mp3"
                         },
                         {
                             "number": 34,
@@ -540,7 +1272,32 @@
                                 "The map.",
                                 "The blackboard."
                             ],
-                            "answer": 1
+                            "answer": 1,
+                            "grammar": "He liked looking at the textbooks most＝「いちばん教科書を見るのが好きだった」。",
+                            "grammarSimple": "「きょうかしょをみるのがいちばんすき」って書いてあるよ！",
+                            "choiceAnalysis": [
+                                "✅ The textbooks.＝liked looking at the textbooks most と一致。",
+                                "❌ The desks＝机は見たが、いちばん好きだったのは教科書。",
+                                "❌ The map＝書かれていない。",
+                                "❌ The blackboard＝黒板は驚いたが、most は textbooks。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "○「きょうかしょ」がぴったり！いちばんすき！",
+                                "「つくえ」はいちばんじゃないよ。",
+                                "「ちず」はちがうよ。",
+                                "「こくばん」はいちばんじゃないよ。"
+                            ],
+                            "questionTranslation": "教室でジョージがいちばん好きだったものは？",
+                            "choiceTranslations": [
+                                "教科書。",
+                                "机。",
+                                "地図。",
+                                "黒板。"
+                            ],
+                            "sourceEvidence": [
+                                "He liked looking at the textbooks most because they were so old."
+                            ],
+                            "questionAudio": "audio/q34.mp3"
                         },
                         {
                             "number": 35,
@@ -551,7 +1308,32 @@
                                 "history.",
                                 "music."
                             ],
-                            "answer": 3
+                            "answer": 3,
+                            "grammar": "now his favorite is history＝「今は歴史がいちばん好き」。",
+                            "grammarSimple": "「いまはれきしがいちばんすき」って書いてあるよ！",
+                            "choiceAnalysis": [
+                                "❌ math＝before の favorite（以前は好きだった）。",
+                                "❌ English＝before の favorite。",
+                                "✅ history.＝now his favorite is history と一致。",
+                                "❌ music＝書かれていない。"
+                            ],
+                            "choiceAnalysisSimple": [
+                                "「すうがく」はむかしのすきなかもくだよ。",
+                                "「えいご」もむかしのすきなかもくだよ。",
+                                "○「れきし」がぴったり！いまのいちばんすき！",
+                                "「おんがく」はちがうよ。"
+                            ],
+                            "questionTranslation": "今、ジョージのいちばん好きな科目は？",
+                            "choiceTranslations": [
+                                "数学。",
+                                "英語。",
+                                "歴史。",
+                                "音楽。"
+                            ],
+                            "sourceEvidence": [
+                                "now his favorite is history"
+                            ],
+                            "questionAudio": "audio/q35.mp3"
                         }
                     ]
                 }
@@ -595,5 +1377,735 @@
             "29": 1,
             "30": 4
         }
+    },
+    "vocabulary": [
+        {
+            "word": "eggs",
+            "meaning": "卵",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "I want to make some pancakes for breakfast, but we don't have any eggs.",
+            "distractors": [
+                "花",
+                "本",
+                "スポーツ"
+            ],
+            "wordAudio": "audio/vocab/w_001_eggs.mp3"
+        },
+        {
+            "word": "use",
+            "meaning": "使う",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "I want to call my mother, but I don't have a phone. You can use my phone.",
+            "distractors": [
+                "登る",
+                "去る",
+                "送る"
+            ],
+            "wordAudio": "audio/vocab/w_002_use.mp3"
+        },
+        {
+            "word": "cut",
+            "meaning": "切る",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Mom, I want to make some cookies. All right, but please cut this carrot first.",
+            "distractors": [
+                "着く",
+                "打つ",
+                "走る"
+            ],
+            "wordAudio": "audio/vocab/w_003_cut.mp3"
+        },
+        {
+            "word": "country",
+            "meaning": "国",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Is it warm in your country now? Yes, it's spring.",
+            "distractors": [
+                "切符",
+                "動物",
+                "道路"
+            ],
+            "wordAudio": "audio/vocab/w_004_country.mp3"
+        },
+        {
+            "word": "contest",
+            "meaning": "コンテスト・大会",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Taro enjoyed the chorus contest on TV yesterday.",
+            "distractors": [
+                "壁",
+                "趣味",
+                "旅行"
+            ],
+            "wordAudio": "audio/vocab/w_005_contest.mp3"
+        },
+        {
+            "word": "open",
+            "meaning": "開いている",
+            "pos": "形容詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Can I study in the library today? Yes, it's open now.",
+            "distractors": [
+                "寒い",
+                "遅い",
+                "お気に入りの"
+            ],
+            "wordAudio": "audio/vocab/w_006_open.mp3"
+        },
+        {
+            "word": "city",
+            "meaning": "都市・街",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Sally went to eat Chinese food in a big city last weekend.",
+            "distractors": [
+                "単語",
+                "体",
+                "点"
+            ],
+            "wordAudio": "audio/vocab/w_007_city.mp3"
+        },
+        {
+            "word": "idea",
+            "meaning": "アイデア",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "I have an idea. Let's go to the aquarium.",
+            "distractors": [
+                "終わり",
+                "腕",
+                "消しゴム"
+            ],
+            "wordAudio": "audio/vocab/w_008_idea.mp3"
+        },
+        {
+            "word": "think",
+            "meaning": "思う（think of 〜）",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "These are my new glasses. What do you think of them?",
+            "distractors": [
+                "見る",
+                "言う",
+                "終える"
+            ],
+            "wordAudio": "audio/vocab/w_009_think.mp3"
+        },
+        {
+            "word": "for",
+            "meaning": "〜にとって（Good for you）",
+            "pos": "前置詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Good for you. You practiced a lot.",
+            "distractors": [
+                "〜と一緒に",
+                "〜の中で",
+                "〜の後に"
+            ],
+            "wordAudio": "audio/vocab/w_010_for.mp3"
+        },
+        {
+            "word": "hear",
+            "meaning": "聞く（hear about）",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Did you hear about Dan? He's going to move back to England.",
+            "distractors": [
+                "待つ",
+                "走る",
+                "望む"
+            ],
+            "wordAudio": "audio/vocab/w_011_hear.mp3"
+        },
+        {
+            "word": "share",
+            "meaning": "分け合う",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Here are four cookies, Bob. Please share them with your sister.",
+            "distractors": [
+                "答える",
+                "泣く",
+                "走る"
+            ],
+            "wordAudio": "audio/vocab/w_012_share.mp3"
+        },
+        {
+            "word": "cheaper",
+            "meaning": "より安い",
+            "pos": "形容詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "Today, apples are cheaper than bananas.",
+            "distractors": [
+                "安い",
+                "最も安い",
+                "一番安い"
+            ],
+            "wordAudio": "audio/vocab/w_013_cheaper.mp3"
+        },
+        {
+            "word": "swam",
+            "meaning": "泳いだ",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "The students swam 50 meters in the school pool yesterday.",
+            "distractors": [
+                "泳ぐ",
+                "泳いでいる",
+                "泳ぐために"
+            ],
+            "wordAudio": "audio/vocab/w_014_swam.mp3"
+        },
+        {
+            "word": "must",
+            "meaning": "〜しなければならない",
+            "pos": "助動詞",
+            "level": "4級",
+            "source": "大問1",
+            "example": "You must read this book before the test next Monday.",
+            "distractors": [
+                "〜している",
+                "〜である",
+                "〜だった"
+            ],
+            "wordAudio": "audio/vocab/w_015_must.mp3"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問2",
+            "example": "I forgot my red pen. Can I borrow yours?",
+            "distractors": [
+                "すぐ家に帰る？",
+                "色は大丈夫？",
+                "書くのは好き？"
+            ],
+            "wordAudio": "audio/vocab/w_016_borrow.mp3"
+        },
+        {
+            "word": "too tall",
+            "meaning": "高すぎる",
+            "pos": "句",
+            "level": "4級",
+            "source": "大問2",
+            "example": "I want to climb this tree. It's too tall. Let's climb the one over there.",
+            "distractors": [
+                "花がきれい",
+                "庭が大きい",
+                "家がとてもきれい"
+            ],
+            "wordAudio": "audio/vocab/w_017_too_tall.mp3"
+        },
+        {
+            "word": "how much",
+            "meaning": "いくら",
+            "pos": "句",
+            "level": "4級",
+            "source": "大問2",
+            "example": "I want to buy these socks. How much are they?",
+            "distractors": [
+                "元気ですか",
+                "いくつ持っていますか",
+                "身長はどのくらい"
+            ],
+            "wordAudio": "audio/vocab/w_018_how_much.mp3"
+        },
+        {
+            "word": "kitchen table",
+            "meaning": "キッチンのテーブル",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問2",
+            "example": "I can't find my social studies textbook. It's on the kitchen table.",
+            "distractors": [
+                "難しい科目だ",
+                "とても面白かった",
+                "弟のものだ"
+            ],
+            "wordAudio": "audio/vocab/w_019_kitchen_table.mp3"
+        },
+        {
+            "word": "Are you OK",
+            "meaning": "大丈夫？",
+            "pos": "句",
+            "level": "4級",
+            "source": "大問2",
+            "example": "Jenny, you don't look well today. Are you OK?",
+            "distractors": [
+                "家に帰っていい？",
+                "私を呼んだ？",
+                "お母さんは医者？"
+            ],
+            "wordAudio": "audio/vocab/w_020_are_you_ok.mp3"
+        },
+        {
+            "word": "get up",
+            "meaning": "起きる",
+            "pos": "句動詞",
+            "level": "4級",
+            "source": "大問3",
+            "example": "Why did you get up so early this morning?",
+            "distractors": [
+                "座る",
+                "寝る",
+                "走る"
+            ],
+            "wordAudio": "audio/vocab/w_021_get_up.mp3"
+        },
+        {
+            "word": "call",
+            "meaning": "電話する",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問3",
+            "example": "May I call you this afternoon?",
+            "distractors": [
+                "訪ねる",
+                "書く",
+                "待つ"
+            ],
+            "wordAudio": "audio/vocab/w_022_call.mp3"
+        },
+        {
+            "word": "mountains",
+            "meaning": "山（複数）",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問3",
+            "example": "You can see lots of high mountains in Nepal.",
+            "distractors": [
+                "川",
+                "海",
+                "森"
+            ],
+            "wordAudio": "audio/vocab/w_023_mountains.mp3"
+        },
+        {
+            "word": "leave",
+            "meaning": "出発する・（家を）出る",
+            "pos": "動詞",
+            "level": "4級",
+            "source": "大問3",
+            "example": "I leave home for school at seven o'clock every morning.",
+            "distractors": [
+                "着く",
+                "帰る",
+                "待つ"
+            ],
+            "wordAudio": "audio/vocab/w_024_leave.mp3"
+        },
+        {
+            "word": "coffee cups",
+            "meaning": "コーヒーカップ",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問3",
+            "example": "Could you wash these coffee cups, please?",
+            "distractors": [
+                "お茶",
+                "皿",
+                "フォーク"
+            ],
+            "wordAudio": "audio/vocab/w_025_coffee_cups.mp3"
+        },
+        {
+            "word": "speech",
+            "meaning": "スピーチ・演説",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問4A",
+            "example": "He will first give a speech in the gym.",
+            "distractors": [
+                "歌を歌う",
+                "おやつをもらう",
+                "ダンスをする"
+            ],
+            "wordAudio": "audio/vocab/w_026_speech.mp3"
+        },
+        {
+            "word": "babies",
+            "meaning": "赤ちゃん（子猫）",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問4B",
+            "example": "She has three babies, and they are very cute.",
+            "distractors": [
+                "友達",
+                "写真",
+                "メール"
+            ],
+            "wordAudio": "audio/vocab/w_027_babies.mp3"
+        },
+        {
+            "word": "next month",
+            "meaning": "来月",
+            "pos": "句",
+            "level": "4級",
+            "source": "大問4B",
+            "example": "Can I visit your home next month?",
+            "distractors": [
+                "明日",
+                "来週",
+                "来年の夏"
+            ],
+            "wordAudio": "audio/vocab/w_028_next_month.mp3"
+        },
+        {
+            "word": "textbooks",
+            "meaning": "教科書",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問4C",
+            "example": "He liked looking at the textbooks most because they were so old.",
+            "distractors": [
+                "机",
+                "地図",
+                "黒板"
+            ],
+            "wordAudio": "audio/vocab/w_029_textbooks.mp3"
+        },
+        {
+            "word": "history",
+            "meaning": "歴史",
+            "pos": "名詞",
+            "level": "4級",
+            "source": "大問4C",
+            "example": "Now his favorite is history. George wants to go to more museums with his sister.",
+            "distractors": [
+                "数学",
+                "英語",
+                "音楽"
+            ],
+            "wordAudio": "audio/vocab/w_030_history.mp3"
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "単語は「セット」で覚える",
+                "subtitle": "Collocations, Comparatives & Grammar Forms",
+                "explanation": "大問1では、単語ひとつより「決まった組み合わせ」が鍵です。don't have any eggs（卵がない）、What do you think of ～?（〜についてどう思う？）、Good for you.（よかったね）、cheaper than（〜より安い）、must read（読まなければならない）は、空所の前後とセットで意味が決まります。chorus contest（合唱コンテスト）、it's open now（今開いている）、swam yesterday（昨日泳いだ）のように、名詞のセット・時制も押さえましょう。",
+                "explanationSimple": "たんごはセットでおぼえよう！think of は「〜についてどう思う」、Good for you は「がんばってね」、cheaper than は「〜よりやすい」、must read は「よまなきゃ」だよ。",
+                "sourceQuote": "don't have any eggs / What do you think of / Good for you / cheaper than bananas / must read this book",
+                "sourceLocation": "大問1 (1)(9)(10)(13)(15)",
+                "examples": [
+                    {
+                        "en": "I want to make some pancakes, but we don't have any eggs.",
+                        "ja": "パンケーキを作りたいんだけど、卵がないんだ。",
+                        "note": "don't have any eggs＝「卵がない」。make pancakes とセット。",
+                        "noteSimple": "don't have any eggs は「たまごがない」だよ。",
+                        "audio": "audio/fp1_ex1.mp3"
+                    },
+                    {
+                        "en": "What do you think of them? They're really nice, Grandma.",
+                        "ja": "どう思う？とてもいいわね、おばあちゃん。",
+                        "note": "think of ～?＝「〜についてどう思う？」。新しいメガネへの感想。",
+                        "noteSimple": "think of は「〜についてどう思う」だよ。",
+                        "audio": "audio/fp1_ex2.mp3"
+                    },
+                    {
+                        "en": "Good for you. You practiced a lot. Today, apples are cheaper than bananas.",
+                        "ja": "よかったね。たくさん練習したのね。今日、リンゴはバナナより安いよ。",
+                        "note": "Good for you.＝励まし。cheaper than＝比較級＋than。",
+                        "noteSimple": "Good for you は「がんばって」、cheaper than は「〜よりやすい」！",
+                        "audio": "audio/fp1_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "I want to make some pancakes, but we don't have any eggs.\n\nYou can use my phone.\n\nTaro enjoyed the chorus contest on TV yesterday.\n\nYes, it's open now.\n\nWhat do you think of them? They're really nice.\n\nGood for you. You practiced a lot.\n\nToday, apples are cheaper than bananas.\n\nThe students swam 50 meters in the school pool yesterday.\n\nYou must read this book before the test next Monday.",
+                    "ja": "パンケーキを作りたいが卵がない。\n\n私の電話を使っていいよ。\n\n合唱コンテストを楽しんだ。\n\n今開いているよ。\n\nどう思う？とてもいいね。\n\nよかったね。たくさん練習したのね。\n\nリンゴはバナナより安い。\n\n昨日50メートル泳いだ。\n\nテスト前にこの本を読みなさい。",
+                    "source": "大問1 (1)(2)(5)(6)(9)(10)(13)(14)(15)",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "don't have any eggs",
+                    "use my phone",
+                    "chorus contest",
+                    "it's open now",
+                    "think of them",
+                    "Good for you",
+                    "cheaper than",
+                    "must read"
+                ],
+                "practiceQuestions": [
+                    {
+                        "q": "Q13で cheapest が不正解な理由は？",
+                        "a": "than の前は比較級 cheaper。cheapest / the cheapest は最上級で than と一緒に使わない。"
+                    },
+                    {
+                        "q": "Q10で Good with you が合わない理由は？",
+                        "a": "Good for you. が定型の励ましの表現。with / in / after では使わない。"
+                    },
+                    {
+                        "q": "Q14で swam が正解なのは、文中のどの語がヒント？",
+                        "a": "yesterday があるので過去形 swam。「昨日泳いだ」＝過去の事実。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "think of ってどういう意味？",
+                        "a": "「〜についてどう思う」だよ。"
+                    },
+                    {
+                        "q": "cheaper than って？",
+                        "a": "「〜よりやすい」だよ。"
+                    },
+                    {
+                        "q": "must read って？",
+                        "a": "「よまなきゃ」だよ。"
+                    }
+                ],
+                "sourceQuoteAudio": "audio/fp1_source.mp3"
+            },
+            {
+                "id": "fp2",
+                "title": "会話は「次のセリフ」で選ぶ",
+                "subtitle": "Dialogue Flow & Set Phrases",
+                "explanation": "大問2は、空所の直後（ときどき直前）のセリフが最大のヒントです。Of course you can. Here you are. → Can I borrow yours?（借りていい？）Let's climb the one over there. → It's too tall.（高すぎる）Two dollars. → How much are they?（いくら？）Thanks. → It's on the kitchen table.（キッチンのテーブルの上）I'm just a little tired. → Are you OK?（大丈夫？）",
+                "explanationSimple": "かいわはつぎのセリフをよんでね！「はいどうぞ」→「かりていい？」。「あっちの木にのぼろう」→「たかすぎる」。「2ドル」→「いくら？」。",
+                "sourceQuote": "Can I borrow yours / It's too tall / How much are they / on the kitchen table / Are you OK",
+                "sourceLocation": "大問2 (16)〜(20)",
+                "examples": [
+                    {
+                        "en": "Girl: I forgot my red pen. Can I borrow yours?\nBoy: Of course you can. Here you are.",
+                        "ja": "女の子：赤いペンを忘れた。借りていい？\n男の子：もちろん。はいどうぞ。",
+                        "note": "borrow yours と Here you are がセット。",
+                        "noteSimple": "「かりていい？」→「はいどうぞ」だよ。",
+                        "audio": "audio/fp2_ex1.mp3"
+                    },
+                    {
+                        "en": "Girl 1: I want to climb this tree.\nGirl 2: It's too tall. Let's climb the one over there.",
+                        "ja": "女の子1：この木に登りたい。\n女の子2：高すぎるよ。あっちの木に登ろう。",
+                        "note": "too tall が別の木を提案する理由。",
+                        "noteSimple": "「たかすぎる」からあっちの木だよ。",
+                        "audio": "audio/fp2_ex2.mp3"
+                    },
+                    {
+                        "en": "Man: How much are they?\nClerk: Two dollars.",
+                        "ja": "男：いくらですか？\n店員：2ドルです。",
+                        "note": "How much are they? と値段の答えがセット。",
+                        "noteSimple": "「いくら？」→「2ドル」！",
+                        "audio": "audio/fp2_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "Girl: I forgot my red pen. Can I borrow yours?\nBoy: Of course you can. Here you are.\n\nGirl 1: I want to climb this tree.\nGirl 2: It's too tall. Let's climb the one over there.\n\nMan: Excuse me. I want to buy these socks. How much are they?\nClerk: Two dollars.\n\nDaughter: Dad, I can't find my social studies textbook.\nFather: It's on the kitchen table.\nDaughter: Thanks.\n\nGirl 1: Jenny, you don't look well today. Are you OK?\nGirl 2: I'm fine. I'm just a little tired.",
+                    "ja": "赤いペンを忘れた。借りていい？→もちろん、はいどうぞ。\n\nこの木に登りたい。→高すぎる。あっちの木にしよう。\n\n靴下を買いたい。いくら？→2ドル。\n\n教科書が見つからない。→キッチンのテーブルの上。ありがとう。\n\n元気そうに見えない。大丈夫？→ちょっと疲れただけ。",
+                    "source": "大問2 (16)〜(20)",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "Can I borrow yours",
+                    "It's too tall",
+                    "How much are they",
+                    "on the kitchen table",
+                    "Are you OK"
+                ],
+                "practiceQuestions": [
+                    {
+                        "q": "Q16で Will you go home soon? が合わない理由は？",
+                        "a": "次のセリフは Of course you can. Here you are.（貸してあげる）。家に帰る話ではない。"
+                    },
+                    {
+                        "q": "Q18で How many do you have? が合わない理由は？",
+                        "a": "店員の答えは Two dollars.（値段）。個数を聞く質問ではない。"
+                    },
+                    {
+                        "q": "Q20で Can I go home? が合わない理由は？",
+                        "a": "Jenny は I'm fine. I'm just a little tired. と答える。相手の体調を心配する Are you OK? が自然。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "Can I borrow yours って？",
+                        "a": "「あなたのをかりていい？」だよ。"
+                    },
+                    {
+                        "q": "How much are they? って？",
+                        "a": "「いくら？」だよ。"
+                    },
+                    {
+                        "q": "会話問題のコツは？",
+                        "a": "つぎのセリフをよんで、なぜそう言うか考えること！"
+                    }
+                ],
+                "sourceQuoteAudio": "audio/fp2_source.mp3"
+            },
+            {
+                "id": "fp3",
+                "title": "並べ替え——5つの「型」を知る",
+                "subtitle": "Sentence Order Patterns",
+                "explanation": "大問3は、日本文の意味から英文の「型」を思い出す問題です。① Why did you ...?（なぜ〜した？）② May I call you ...?（〜してもいい？）③ You can see lots of ...（〜を見ることができる）④ leave home for school（家を出て学校へ）⑤ Could you wash these ...?（〜してくれますか？）並べ終えたら、2番目と4番目の語が選択肢と一致するか確認するのが最終チェックです。",
+                "explanationSimple": "ならべかえは「かた」をおぼえよう！Why did you＝なぜ〜した？、May I call you＝でんわしていい？、You can see＝みえる、leave home for school＝いえをでてがっこうへ、Could you wash＝あらってくれる？だよ。",
+                "sourceQuote": "Why did you get up / May I call you / You can see lots of high mountains / leave home for school / Could you wash these coffee cups",
+                "sourceLocation": "大問3 (21)〜(25)",
+                "examples": [
+                    {
+                        "en": "Why did you get up so early this morning?",
+                        "ja": "なぜ今朝、そんなに早く起きたの？",
+                        "note": "Why did you ...? が疑問文の型。",
+                        "noteSimple": "Why did you は「なぜ〜した？」だよ。",
+                        "audio": "audio/fp3_ex1.mp3"
+                    },
+                    {
+                        "en": "May I call you this afternoon?",
+                        "ja": "今日の午後、電話してもいい？",
+                        "note": "May I ...? で許可を求める丁寧な表現。",
+                        "noteSimple": "May I call you は「でんわしていい？」だよ。",
+                        "audio": "audio/fp3_ex2.mp3"
+                    },
+                    {
+                        "en": "Could you wash these coffee cups, please?",
+                        "ja": "これらのコーヒーカップを洗ってくれますか？",
+                        "note": "Could you ...? で依頼。these coffee cups が目的語。",
+                        "noteSimple": "Could you wash は「あらってくれる？」だよ。",
+                        "audio": "audio/fp3_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "Why did you get up so early this morning?\n\nMay I call you this afternoon?\n\nYou can see lots of high mountains in Nepal.\n\nI leave home for school at seven o'clock every morning.\n\nCould you wash these coffee cups, please?",
+                    "ja": "なぜ今朝そんなに早く起きたの？\n\n今日の午後、電話していい？\n\nネパールではたくさんの高い山が見える。\n\n毎朝7時に家を出て学校へ向かう。\n\nこれらのコーヒーカップを洗ってくれますか？",
+                    "source": "大問3 (21)〜(25)",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "Why did you get up",
+                    "May I call you",
+                    "You can see lots of",
+                    "leave home for school",
+                    "Could you wash these"
+                ],
+                "practiceQuestions": [
+                    {
+                        "q": "Q21で ⑤−③ が正解になる完成文は？2・4番目の語は？",
+                        "a": "Why did you get up so early this morning? 2番目 did（⑤）、4番目 get（③）。"
+                    },
+                    {
+                        "q": "Q24で leave home for school の home と school は何番目？",
+                        "a": "2番目 home（⑤）、4番目 school（②）。I leave home for school at ... の語順。"
+                    },
+                    {
+                        "q": "Q25の Could you と you の違いは？",
+                        "a": "Could you wash ...? の you は「あなたに」依頼する相手。2番目の you（②）と4番目の these（⑤）を区別する。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "Why did you get up って？",
+                        "a": "「なぜおきたの？」だよ。"
+                    },
+                    {
+                        "q": "leave home for school って？",
+                        "a": "「いえをでてがっこうへ」だよ。"
+                    },
+                    {
+                        "q": "並べ替えのさいごのチェックは？",
+                        "a": "2ばんめと4ばんめが選択肢とあうかな？"
+                    }
+                ],
+                "sourceQuoteAudio": "audio/fp3_source.mp3"
+            },
+            {
+                "id": "fp4",
+                "title": "読解——お知らせ・メール・物語の読み分け",
+                "subtitle": "Notice, E-mail & Story Reading",
+                "explanation": "大問4は3タイプの読み方があります。【お知らせ】gym＝speech、music room＝three songs。場所と出来事を混同しない（Q26-27）。【メール】next month＝訪問の時期、three babies＝子猫の数、yesterday＝友達が訪問（Q28-30）。【物語】sister wanted to go＝行った理由、forty years old＝黒板の年数（建物80年と区別）、dark brown＝机の色、textbooks most＝いちばん好きだったもの、now favorite is history（Q31-35）。",
+                "explanationSimple": "よみものは3タイプ！お知らせ＝たいいくかんはスピーチ、おんがくしつは3きょく！メール＝らいげつ・3ひき・ともだちがきのうきた！ものがたり＝いもうとが行きたがった、こくばん40ねん、きょうかしょがいちばんすき！",
+                "sourceQuote": "give a speech in the gym / play three songs / visit your home next month / She has three babies / his sister wanted to go / textbooks most / now his favorite is history",
+                "sourceLocation": "大問4A・4B・4C",
+                "examples": [
+                    {
+                        "en": "He will first give a speech in the gym and then play three songs in the music room.",
+                        "ja": "まず体育館でスピーチをし、その後音楽室で3曲演奏する。",
+                        "note": "gym＝speech、music room＝songs。場所ごとに内容が違う。",
+                        "noteSimple": "たいいくかんはスピーチ、おんがくしつはえんそうだよ。",
+                        "audio": "audio/fp4_ex1.mp3"
+                    },
+                    {
+                        "en": "Can I visit your home next month? She has three babies, and they are very cute.",
+                        "ja": "来月訪問していい？子猫が3匹いてとてもかわいい。",
+                        "note": "next month＝訪問時期。three babies＝子猫の数。",
+                        "noteSimple": "「らいげつ」に行く、「3ひき」いるよ。",
+                        "audio": "audio/fp4_ex2.mp3"
+                    },
+                    {
+                        "en": "His sister wanted to go to a history museum. He liked looking at the textbooks most. Now his favorite is history.",
+                        "ja": "妹が博物館に行きたがった。教科書を見るのがいちばん好きだった。今は歴史が好き。",
+                        "note": "行った理由・教室で好きだったもの・今の好きな科目を区別。",
+                        "noteSimple": "いもうとが行きたがった、きょうかしょがすき、いまはれきし！",
+                        "audio": "audio/fp4_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "He will first give a speech in the gym and then play three songs in the music room.\n\nCan I visit your home next month? She has three babies, and they are very cute.\nYesterday, one of my friends visited me and saw them, too!\n\nRecently, his sister wanted to go to a history museum. So, his family went to the museum last Saturday.\nThe blackboard was forty years old. They were dark brown.\nHe liked looking at the textbooks most because they were so old.\nNow his favorite is history.",
+                    "ja": "【お知らせ】体育館でスピーチ、音楽室で3曲演奏。\n\n【メール】来月訪問していい？子猫3匹。昨日友達が訪問。\n\n【物語】妹が博物館に行きたがった。黒板40年。机は濃い茶色。教科書がいちばん好き。今は歴史が好き。",
+                    "source": "大問4A「Musician Will Visit Our School」/ 4B「How are your cats?」/ 4C「A Visit to a History Museum」",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "give a speech in the gym",
+                    "play three songs",
+                    "next month",
+                    "three babies",
+                    "friends visited me",
+                    "sister wanted to go",
+                    "forty years old",
+                    "dark brown",
+                    "textbooks most",
+                    "favorite is history"
+                ],
+                "practiceQuestions": [
+                    {
+                        "q": "Q26で play songs in the gym が不正解な理由は？",
+                        "a": "演奏は the music room。体育館では give a speech（スピーチ）が行われる。"
+                    },
+                    {
+                        "q": "Q30で Jimmy が不正解な理由は？",
+                        "a": "Jimmy は来月訪問する予定。昨日訪問したのは one of my friends（おばあちゃんの友達）。"
+                    },
+                    {
+                        "q": "Q32とQ33で eighty years old と forty years old を区別するコツは？",
+                        "a": "eighty years old＝建物（museum building）。forty years old＝黒板（blackboard）。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "体育館では何が行われる？",
+                        "a": "スピーチだよ。えんそうはおんがくしつ！"
+                    },
+                    {
+                        "q": "リリーには子猫が何匹？",
+                        "a": "3ひきだよ。"
+                    },
+                    {
+                        "q": "ジョージがいちばん好きだったのは？",
+                        "a": "きょうかしょだよ。いまのすきなかもくはれきし！"
+                    }
+                ],
+                "sourceQuoteAudio": "audio/fp4_source.mp3"
+            }
+        ]
     }
 }
