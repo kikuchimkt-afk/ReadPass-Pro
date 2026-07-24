@@ -19,26 +19,26 @@
                         "athletes"
                     ],
                     "answer": 4,
-                    "grammar": "athletes＝「選手」。オリンピックに参加する有名な選手。",
-                    "grammarSimple": "athletes は「せんしゅ」。オリンピックに出るゆうめいな選手たち。",
+                    "grammar": "「オリンピックに参加するのは誰？」への答え。オリンピックに出るのは athletes（運動選手）。passengers（乗客）・travelers（旅行者）・animals（動物）はオリンピック参加者に合いません。",
+                    "grammarSimple": "「オリンピックに出る→運動選手」＝ athletes！",
                     "choiceAnalysis": [
-                        "passengers＝乗客。",
-                        "travelers＝旅行者。",
-                        "animals＝動物。",
-                        "○ athletes＝選手。"
+                        "passengers＝乗客。合いません。",
+                        "travelers＝旅行者。合いません。",
+                        "animals＝動物。合いません。",
+                        "○ athletes＝運動選手。オリンピックに参加。"
                     ],
                     "choiceAnalysisSimple": [
-                        "passengers は「じょうきゃく」。合わないよ。",
-                        "travelers は「旅行者」。合わないよ。",
-                        "animals は「どうぶつ」。合わないよ。",
-                        "○ athletes は「せんしゅ」。オリンピック選手！"
+                        "「じょうきゃく」はちがうよ。",
+                        "「りょこうしゃ」はちがうよ。",
+                        "「どうぶつ」はちがうよ。",
+                        "○「うんどうせんしゅ」がぴったり！"
                     ],
-                    "translation": "A: オリンピックには誰が参加しますか?\nB: 世界中の有名な（ ）がたくさんいます。",
+                    "translation": "A: 誰がオリンピックに参加するの？\nB: 世界中の多くの有名な選手だよ。",
                     "choiceTranslations": [
                         "乗客",
                         "旅行者",
                         "動物",
-                        "スポーツ選手"
+                        "運動選手"
                     ]
                 },
                 {
@@ -51,25 +51,25 @@
                         "slow"
                     ],
                     "answer": 3,
-                    "grammar": "perfect＝「完璧な」。旅行計画が完璧→楽しみ。",
-                    "grammarSimple": "perfect は「かんぺき」。旅行の計画がかんぺき！楽しみ！",
+                    "grammar": "「旅行の計画が○○に見える→楽しみ」。楽しみにする流れに合うのは perfect（完璧な）。poor（貧弱な）・cold（冷たい）・slow（遅い）は「楽しみ」と噛み合いません。",
+                    "grammarSimple": "「計画が完璧→楽しみ」＝ perfect！",
                     "choiceAnalysis": [
-                        "poor＝お粗末。→楽しみにならない。",
-                        "cold＝冷たい。→計画に合わない。",
-                        "○ perfect＝完璧。",
-                        "slow＝遅い。→計画に合わない。"
+                        "poor＝貧弱な。楽しみと合いません。",
+                        "cold＝冷たい。合いません。",
+                        "○ perfect＝完璧な。楽しみにつながる。",
+                        "slow＝遅い。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "poor は「まずしい」。合わないよ。",
-                        "cold は「つめたい」。合わないよ。",
-                        "○ perfect は「かんぺき」。楽しみだね！",
-                        "slow は「おそい」。合わないよ。"
+                        "「ひんじゃくな」はちがうよ。",
+                        "「つめたい」はちがうよ。",
+                        "○「かんぺき」がぴったり！",
+                        "「おそい」はちがうよ。"
                     ],
-                    "translation": "A: 私たちの旅行計画は（ ）のようです。\nB: はい。本当に楽しみです。",
+                    "translation": "A: 私たちの旅行の計画は完璧に見えるね。\nB: うん。本当に楽しみだよ。",
                     "choiceTranslations": [
-                        "貧しい",
-                        "寒い",
-                        "完璧",
+                        "貧弱な",
+                        "冷たい",
+                        "完璧な",
                         "遅い"
                     ]
                 },
@@ -83,26 +83,26 @@
                         "follow"
                     ],
                     "answer": 4,
-                    "grammar": "follow＝「〜に従う」。標識に従って出口へ。",
-                    "grammarSimple": "follow は「したがう」。標識にしたがって出口に行ってね。",
+                    "grammar": "「電車を降りたら出口への標識を○○」。標識に従うのは follow（従う・たどる）。spend（過ごす）・reach（着く）・meet（会う）は signs に合いません。",
+                    "grammarSimple": "「標識にしたがって」＝ follow！",
                     "choiceAnalysis": [
-                        "spend＝使う。標識を使う？",
-                        "reach＝到達する。標識に到達？",
-                        "meet＝会う。標識に会う？",
-                        "○ follow＝従う。標識に従う。"
+                        "spend＝過ごす・費やす。合いません。",
+                        "reach＝到着する。合いません。",
+                        "meet＝会う。合いません。",
+                        "○ follow＝従う・たどる。標識をたどる。"
                     ],
                     "choiceAnalysisSimple": [
-                        "spend は「使う」。合わないよ。",
-                        "reach は「とどく」。合わないよ。",
-                        "meet は「会う」。合わないよ。",
-                        "○ follow は「したがう」。標識にしたがおう！"
+                        "「すごす」はちがうよ。",
+                        "「つく」はちがうよ。",
+                        "「あう」はちがうよ。",
+                        "○「したがう」がぴったり！"
                     ],
-                    "translation": "A: 電車を降りたら、出口の標識を（ ）に従ってください。\nB: わかりました。",
+                    "translation": "A: 電車を降りたら、出口への標識に従ってね。\nB: わかった。",
                     "choiceTranslations": [
                         "過ごす",
-                        "到着",
+                        "到着する",
                         "会う",
-                        "フォローする"
+                        "従う・たどる"
                     ]
                 },
                 {
@@ -115,26 +115,26 @@
                         "soon"
                     ],
                     "answer": 3,
-                    "grammar": "forever＝「永遠に」。ハワイの旅行をずっと覚えている。",
-                    "grammarSimple": "forever は「ずっと」。すてきな旅行をずっとおぼえているよ。",
+                    "grammar": "「素晴らしい旅行を○○覚えている」。ずっと覚えている＝forever（永遠に）。slowly（ゆっくり）・ever（かつて）・soon（すぐに）は remember に合いません。",
+                    "grammarSimple": "「ずっと覚えている」＝ forever！",
                     "choiceAnalysis": [
-                        "slowly＝ゆっくり。→remember slowly？",
-                        "ever＝これまでに。→remember it ever？",
+                        "slowly＝ゆっくり。合いません。",
+                        "ever＝かつて。肯定文で単独では合いません。",
                         "○ forever＝永遠に。ずっと覚えている。",
-                        "soon＝すぐに。→remember it soon？"
+                        "soon＝すぐに。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "slowly は「ゆっくり」。合わないよ。",
-                        "ever は「いままでに」。合わないよ。",
-                        "○ forever は「ずっと」。ずっとおぼえている！",
-                        "soon は「すぐに」。合わないよ。"
+                        "「ゆっくり」はちがうよ。",
+                        "「かつて」はちがうよ。",
+                        "○「ずっと」がぴったり！",
+                        "「すぐに」はちがうよ。"
                     ],
-                    "translation": "修平のハワイ旅行は最高でした。彼はそれを覚えているでしょう（ ）。",
+                    "translation": "シュウヘイのハワイ旅行は素晴らしかった。彼はそれをずっと覚えているだろう。",
                     "choiceTranslations": [
                         "ゆっくり",
-                        "これまで",
+                        "かつて",
                         "永遠に",
-                        "すぐ"
+                        "すぐに"
                     ]
                 },
                 {
@@ -147,26 +147,26 @@
                         "fights"
                     ],
                     "answer": 1,
-                    "grammar": "grows＝「育てる」。庭で花を育てている。",
-                    "grammarSimple": "grows は「そだてる」。庭できれいな花をそだてている。",
+                    "grammar": "「庭で花を○○、とてもきれい」。花を育てるのは grows（育てる）。impresses（感動させる）・performs（演じる）・fights（戦う）は flowers に合いません。",
+                    "grammarSimple": "「花を育てる」＝ grows！",
                     "choiceAnalysis": [
-                        "○ grows＝育てる。花を育てる。",
-                        "impresses＝感動させる。",
-                        "performs＝演じる。",
-                        "fights＝戦う。"
+                        "○ grows＝育てる。庭で花を育てる。",
+                        "impresses＝感動させる。合いません。",
+                        "performs＝演じる。合いません。",
+                        "fights＝戦う。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ grows は「そだてる」。花をそだてている！",
-                        "impresses は「かんどうさせる」。合わないよ。",
-                        "performs は「えんじる」。合わないよ。",
-                        "fights は「たたかう」。合わないよ。"
+                        "○「そだてる」がぴったり！",
+                        "「かんどうさせる」はちがうよ。",
+                        "「えんじる」はちがうよ。",
+                        "「たたかう」はちがうよ。"
                     ],
-                    "translation": "鈴木さん（ ）庭にいくつかの花。とても美しいです。",
+                    "translation": "スズキさんは庭で花を育てている。とてもきれいだ。",
                     "choiceTranslations": [
-                        "成長する",
-                        "印象に残る",
-                        "実行します",
-                        "喧嘩する"
+                        "育てる",
+                        "感動させる",
+                        "演じる",
+                        "戦う"
                     ]
                 },
                 {
@@ -179,26 +179,26 @@
                         "abroad"
                     ],
                     "answer": 1,
-                    "grammar": "never forget＝「決して忘れない」。親切だったので忘れない。",
-                    "grammarSimple": "never forget は「ぜったいわすれない」。やさしかったからずっとおぼえているよ。",
+                    "grammar": "「とても親切→滞在を○○忘れない」。決して忘れない＝never（決して〜ない）。along（〜に沿って）・else（他に）・abroad（海外に）は forget に合いません。",
+                    "grammarSimple": "「決して忘れない」＝ never forget！",
                     "choiceAnalysis": [
-                        "○ never＝決して〜ない。忘れない。",
-                        "along＝〜に沿って。",
-                        "else＝他に。",
-                        "abroad＝海外で。"
+                        "○ never＝決して〜ない。never forget で「決して忘れない」。",
+                        "along＝〜に沿って。合いません。",
+                        "else＝他に。合いません。",
+                        "abroad＝海外に。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ never は「ぜったいに〜ない」。わすれないよ！",
-                        "along は「〜にそって」。合わないよ。",
-                        "else は「ほかに」。合わないよ。",
-                        "abroad は「かいがいで」。合わないよ。"
+                        "○「けっして〜ない」がぴったり！",
+                        "「〜にそって」はちがうよ。",
+                        "「ほかに」はちがうよ。",
+                        "「かいがいに」はちがうよ。"
                     ],
-                    "translation": "ブラウンさんはとても親切だったので、エミリーは彼の家に泊まったことを忘れるでしょう。",
+                    "translation": "ブラウンさんはとても親切だったので、エミリーは彼の家での滞在を決して忘れないだろう。",
                     "choiceTranslations": [
-                        "一度もない",
-                        "平行",
-                        "それ以外",
-                        "海外"
+                        "決して〜ない",
+                        "〜に沿って",
+                        "他に",
+                        "海外に"
                     ]
                 },
                 {
@@ -211,26 +211,26 @@
                         "held"
                     ],
                     "answer": 1,
-                    "grammar": "baked＝「焼いた」。クッキーを焼いたいい匂い。",
-                    "grammarSimple": "baked は「やいた」。クッキーをやいたんだよ。食べてみて！",
+                    "grammar": "「いいにおい→クッキーを○○」。クッキーを焼くのは baked（焼いた）。met（会った）・believed（信じた）・held（持った）は cookies に合いません。",
+                    "grammarSimple": "「クッキーを焼いた」＝ baked！",
                     "choiceAnalysis": [
-                        "○ baked＝焼いた。クッキーを焼く。",
-                        "met＝会った。",
-                        "believed＝信じた。",
-                        "held＝持った。"
+                        "○ baked＝焼いた。クッキーを焼いた。",
+                        "met＝会った。合いません。",
+                        "believed＝信じた。合いません。",
+                        "held＝持った・開いた。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ baked は「やいた」。クッキーをやいた！",
-                        "met は「会った」。合わないよ。",
-                        "believed は「しんじた」。合わないよ。",
-                        "held は「もった」。合わないよ。"
+                        "○「やいた」がぴったり！",
+                        "「あった」はちがうよ。",
+                        "「しんじた」はちがうよ。",
+                        "「もった」はちがうよ。"
                     ],
-                    "translation": "A: お母さん、あの美味しそうな匂いは何ですか?\nB: クッキーを（ ）少し食べたところです。一つ試してみてください。",
+                    "translation": "A: お母さん、あのおいしそうなにおいは何？\nB: ちょうどクッキーを焼いたのよ。1つどうぞ。",
                     "choiceTranslations": [
-                        "焼きました",
+                        "焼いた",
                         "会った",
                         "信じた",
-                        "開催"
+                        "持った"
                     ]
                 },
                 {
@@ -243,26 +243,26 @@
                         "at"
                     ],
                     "answer": 2,
-                    "grammar": "famous for＝「〜で有名」。美しい川で有名な町。",
-                    "grammarSimple": "famous for は「〜でゆうめい」。きれいな川でゆうめいな町。",
+                    "grammar": "be famous for 〜 で「〜で有名」という決まった言い方。to/in/at は famous ___ の形で「〜で有名」の意味になりません。",
+                    "grammarSimple": "「〜で有名」＝ famous for！",
                     "choiceAnalysis": [
-                        "famous to は不自然。",
-                        "○ for＝famous for＝〜で有名。",
-                        "famous in は不自然。",
-                        "famous at は不自然。"
+                        "to＝合いません。",
+                        "○ for＝be famous for で「〜で有名」。",
+                        "in＝合いません。",
+                        "at＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "to は合わないよ。",
-                        "○ for がぴったり！famous for で「〜でゆうめい」。",
-                        "in は合わないよ。",
-                        "at は合わないよ。"
+                        "「to」はちがうよ。",
+                        "○ famous for＝「〜でゆうめい」！",
+                        "「in」はちがうよ。",
+                        "「at」はちがうよ。"
                     ],
-                    "translation": "この町はその美しい川で有名です（ ）。",
+                    "translation": "この町は美しい川で有名だ。",
                     "choiceTranslations": [
-                        "に",
-                        "のために",
-                        "で",
-                        "で"
+                        "〜へ",
+                        "(famous for で)〜のために",
+                        "〜の中で",
+                        "〜で"
                     ]
                 },
                 {
@@ -275,26 +275,26 @@
                         "each"
                     ],
                     "answer": 2,
-                    "grammar": "the other day＝「先日」。先日カレンに会った。",
-                    "grammarSimple": "the other day は「先日」。先日会ったよ。新しい仕事を始めたんだって。",
+                    "grammar": "the other day で「先日」という決まった言い方。high（高い）・large（大きい）・each（それぞれ）は the ___ day の形で「先日」の意味になりません。",
+                    "grammarSimple": "「せんじつ」＝ the other day！",
                     "choiceAnalysis": [
-                        "the high day は不自然。",
-                        "○ other＝the other day＝先日。",
-                        "the large day は不自然。",
-                        "the each day は不自然。"
+                        "high＝高い。合いません。",
+                        "○ other＝the other day で「先日」。",
+                        "large＝大きい。合いません。",
+                        "each＝それぞれ。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "high は合わないよ。",
-                        "○ other がぴったり！the other day で「先日」。",
-                        "large は合わないよ。",
-                        "each は合わないよ。"
+                        "「たかい」はちがうよ。",
+                        "○ the other day＝「せんじつ」！",
+                        "「大きい」はちがうよ。",
+                        "「それぞれ」はちがうよ。"
                     ],
-                    "translation": "A: しばらくカレンに会っていません。\nB: そうですね、（ ）の日に彼女に会ったんです。彼女は新しい仕事を始めたばかりです。",
+                    "translation": "A: しばらくカレンに会ってないな。\nB: そういえば先日会ったよ。新しい仕事を始めたばかりなんだって。",
                     "choiceTranslations": [
                         "高い",
-                        "他の",
+                        "(the other day で)他の",
                         "大きい",
-                        "それぞれ"
+                        "それぞれの"
                     ]
                 },
                 {
@@ -307,23 +307,23 @@
                         "difference"
                     ],
                     "answer": 1,
-                    "grammar": "What's the matter?＝「どうしたの？」。困っている人に聞く定型表現。",
-                    "grammarSimple": "What's the matter? は「どうしたの？」。テストがうまくいかなかったみたい。",
+                    "grammar": "What's the matter? で「どうしたの？」という決まった言い方。choice（選択）・purpose（目的）・difference（違い）では「どうしたの？」の意味になりません。",
+                    "grammarSimple": "「どうしたの？」＝ What's the matter？",
                     "choiceAnalysis": [
-                        "○ matter＝What's the matter?＝どうしたの？",
-                        "choice＝選択。合わない。",
-                        "purpose＝目的。合わない。",
-                        "difference＝違い。合わない。"
+                        "○ matter＝What's the matter? で「どうしたの？」。",
+                        "choice＝選択。合いません。",
+                        "purpose＝目的。合いません。",
+                        "difference＝違い。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ matter がぴったり！「どうしたの？」",
-                        "choice は「えらぶこと」。合わないよ。",
-                        "purpose は「もくてき」。合わないよ。",
-                        "difference は「ちがい」。合わないよ。"
+                        "○ What's the matter＝「どうしたの？」！",
+                        "「せんたく」はちがうよ。",
+                        "「もくてき」はちがうよ。",
+                        "「ちがい」はちがうよ。"
                     ],
-                    "translation": "A: （ ）は何ですか、シンディ？\nB: とても熱心に勉強しましたが、歴史のテストの点が良くありませんでした。",
+                    "translation": "A: どうしたの、シンディ？\nB: 一生懸命勉強したのに、歴史のテストがうまくいかなかったの。",
                     "choiceTranslations": [
-                        "案件",
+                        "問題・困りごと",
                         "選択",
                         "目的",
                         "違い"
@@ -339,26 +339,26 @@
                         "On"
                     ],
                     "answer": 1,
-                    "grammar": "In fact＝「実は」。実は会議に行かなければならない。",
-                    "grammarSimple": "In fact は「じつは」。じつは会議に出かけなきゃいけないんだ。",
+                    "grammar": "in fact で「実は」という決まった言い方。at/by/on は fact と組み合わせて「実は」の意味になりません。",
+                    "grammarSimple": "「じつは」＝ in fact！",
                     "choiceAnalysis": [
-                        "○ In＝In fact＝実は。",
-                        "At fact は不自然。",
-                        "By fact は不自然。",
-                        "On fact は不自然。"
+                        "○ In＝in fact で「実は」。",
+                        "At＝合いません。",
+                        "By＝合いません。",
+                        "On＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ In がぴったり！In fact で「じつは」。",
-                        "At は合わないよ。",
-                        "By は合わないよ。",
-                        "On は合わないよ。"
+                        "○ in fact＝「じつは」！",
+                        "「At」はちがうよ。",
+                        "「By」はちがうよ。",
+                        "「On」はちがうよ。"
                     ],
-                    "translation": "A: 時間はありますか、ダグ？\nB: いいえ、申し訳ありません。 （ ）実は、私は今から会議に出かけなければなりません。後で電話します。",
+                    "translation": "A: ダグ、今時間ある？\nB: いや、ごめん。実は今から会議に行かなきゃいけないんだ。あとで電話するよ。",
                     "choiceTranslations": [
-                        "で",
-                        "で",
-                        "による",
-                        "の上"
+                        "(in fact で)〜の中で",
+                        "〜で",
+                        "〜によって",
+                        "〜の上で"
                     ]
                 },
                 {
@@ -371,26 +371,26 @@
                         "schedule"
                     ],
                     "answer": 3,
-                    "grammar": "just in time＝「ちょうどいい時間に」「ぎりぎり間に合う」。",
-                    "grammarSimple": "just in time は「ぎりぎり間に合った」。あと2分で映画が始まる！",
+                    "grammar": "in time for 〜 で「〜に間に合って」という決まった言い方。「2分後に始まる」に間に合う流れです。month（月）・hour（時間）・schedule（予定）は in ___ for の形で「間に合って」の意味になりません。",
+                    "grammarSimple": "「間に合ったね」＝ just in time！",
                     "choiceAnalysis": [
-                        "in month は不自然。",
-                        "in hour は不自然。",
-                        "○ time＝just in time＝ぎりぎり。",
-                        "in schedule は不自然。"
+                        "month＝月。合いません。",
+                        "hour＝時間。in hour for とは言いません。",
+                        "○ time＝in time for で「間に合って」。",
+                        "schedule＝予定。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "month は合わないよ。",
-                        "hour は合わないよ。",
-                        "○ time がぴったり！just in time で「ぎりぎりセーフ」！",
-                        "schedule は合わないよ。"
+                        "「つき」はちがうよ。",
+                        "「じかん」はちがうよ。",
+                        "○ in time＝「まにあって」！",
+                        "「よてい」はちがうよ。"
                     ],
-                    "translation": "A: どこにいたの？あなたはちょうど映画のために（ ）にいるところです。あと2分で始まります。\nB: ごめんなさい。道路は混んでいました。",
+                    "translation": "A: どこにいたの？映画にちょうど間に合ったよ。2分後に始まるから。\nB: ごめん。道が混んでたんだ。",
                     "choiceTranslations": [
                         "月",
                         "時間",
-                        "時間",
-                        "スケジュール"
+                        "(in time で)間に合って",
+                        "予定"
                     ]
                 },
                 {
@@ -403,26 +403,26 @@
                         "be"
                     ],
                     "answer": 3,
-                    "grammar": "Would you like〜?＝「〜はいかがですか？」。丁寧な提案。",
-                    "grammarSimple": "Would you like は「〜はいかがですか？」。コーヒーか紅茶はいかが？",
+                    "grammar": "Would you like 〜? で「〜はいかがですか」という丁寧な決まった言い方。have/should/be は you like の前に置いて「いかがですか」の意味になりません。",
+                    "grammarSimple": "「〜はいかが？」＝ Would you like？",
                     "choiceAnalysis": [
-                        "have you like は不自然。",
-                        "should you like は不自然。",
-                        "○ would＝Would you like〜?＝いかがですか。",
-                        "be you like は不自然。"
+                        "have＝合いません。",
+                        "should＝〜すべき。合いません。",
+                        "○ would＝Would you like で「〜はいかがですか」。",
+                        "be＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "have は合わないよ。",
-                        "should は合わないよ。",
-                        "○ would がぴったり！Would you like で「いかがですか」。",
-                        "be は合わないよ。"
+                        "「have」はちがうよ。",
+                        "「should」はちがうよ。",
+                        "○ Would you like＝「いかが？」！",
+                        "「be」はちがうよ。"
                     ],
-                    "translation": "A: ハンナ、( )コーヒーか紅茶が好きですか?\nB: お水だけいただきます、ありがとう。",
+                    "translation": "A: ハンナ、コーヒーか紅茶はいかが？\nB: 水だけもらうわ、ありがとう。",
                     "choiceTranslations": [
-                        "持っている",
-                        "すべき",
-                        "するだろう",
-                        "なれ"
+                        "持つ",
+                        "〜すべき",
+                        "(Would you like で)〜だろう",
+                        "〜である"
                     ]
                 },
                 {
@@ -435,26 +435,26 @@
                         "climbs"
                     ],
                     "answer": 1,
-                    "grammar": "should＋動詞原形。You should climb＝「登るべき」。",
-                    "grammarSimple": "should climb は「のぼるべき」。富士山にのぼってみて！",
+                    "grammar": "should のあとは動詞の原形。should climb で「登るべき」。climbing（ing）・climbed（過去）・climbs（三単現）は should のあとに続きません。",
+                    "grammarSimple": "should のあとは原形。should climb！",
                     "choiceAnalysis": [
-                        "○ climb＝原形。should＋原形。",
-                        "climbing→should climbing は不正確。",
-                        "climbed→should climbed は不正確。",
-                        "climbs→should climbs は不正確。"
+                        "○ climb＝原形。should climb で「登るべき」。",
+                        "climbing＝ing形。should のあとに続きません。",
+                        "climbed＝過去形。合いません。",
+                        "climbs＝三単現。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ climb がぴったり！should のあとは原形だよ。",
-                        "climbing は should のあとには使えないよ。",
-                        "climbed は should のあとには使えないよ。",
-                        "climbs は should のあとには使えないよ。"
+                        "○ should climb＝「のぼるべき」！",
+                        "「climbing」はちがうよ。",
+                        "「climbed」はちがうよ。",
+                        "「climbs」はちがうよ。"
                     ],
-                    "translation": "A: ケイタ、8月に日本で何ができる？\nB: 時間があれば、富士山に( )行ったほうがいいよ。",
+                    "translation": "A: ケイタ、8月に日本で何ができる？\nB: 時間があれば富士山に登るといいよ。",
                     "choiceTranslations": [
-                        "登る",
-                        "クライミング",
+                        "登る(原形)",
+                        "登っている",
                         "登った",
-                        "登ります"
+                        "登る(三単現)"
                     ]
                 },
                 {
@@ -467,26 +467,26 @@
                         "sleep"
                     ],
                     "answer": 2,
-                    "grammar": "It is difficult for her to sleep＝「彼女にとって眠るのが難しい」。It is＋形容詞＋for＋人＋to不定詞。",
-                    "grammarSimple": "difficult for her to sleep は「彼女がねむるのがむずかしい」。犬がうるさくてねむれない。",
+                    "grammar": "It is difficult for 人 to 〜 で「(人)にとって〜するのは難しい」。for her のあとは to＋原形 to sleep。sleeps（三単現）・slept（過去）・sleep（原形単独）はこの形になりません。",
+                    "grammarSimple": "「彼女が眠るのは難しい」＝ for her to sleep！",
                     "choiceAnalysis": [
-                        "sleeps→for her sleeps は不正確。",
-                        "○ to sleep＝It is difficult for... to sleep。",
-                        "slept→for her slept は不正確。",
-                        "sleep→for her sleep は不正確。"
+                        "sleeps＝三単現。この形に合いません。",
+                        "○ to sleep＝It is difficult for her to sleep で「眠るのは難しい」。",
+                        "slept＝過去形。合いません。",
+                        "sleep＝原形。for her のあとは to sleep。"
                     ],
                     "choiceAnalysisSimple": [
-                        "sleeps は合わないよ。",
-                        "○ to sleep がぴったり！for her to sleep で「彼女がねむるのが」。",
-                        "slept は合わないよ。",
-                        "sleep は合わないよ。"
+                        "「sleeps」はちがうよ。",
+                        "○ to sleep＝「ねむるのは」！",
+                        "「slept」はちがうよ。",
+                        "「sleep」だけではちがうよ。"
                     ],
-                    "translation": "ケイティの隣人はうるさい犬を飼っているので、夜は彼女（ ）にとって大変です。",
+                    "translation": "ケイティの近所の人がうるさい犬を飼っているので、彼女は夜に眠るのが難しい。",
                     "choiceTranslations": [
-                        "眠る",
-                        "寝る",
-                        "寝た",
-                        "寝る"
+                        "眠る(三単現)",
+                        "眠ること(不定詞)",
+                        "眠った",
+                        "眠る(原形)"
                     ]
                 }
             ]
@@ -507,26 +507,26 @@
                         "it'll be my first time."
                     ],
                     "answer": 2,
-                    "grammar": "「行ったことがある」＋「かわいい動物がいる」→また行きたい。",
-                    "grammarSimple": "「また行きたい！」かわいい動物がいるからまた行きたいんだね。",
+                    "grammar": "「新しい動物園に行った？→うん、でも○○。かわいい動物がたくさんいる」。もう一度行きたいという I'd like to go again.（また行きたい）が正解。it'll be my first time は Yes（行った）と矛盾し、他も文脈に合いません。",
+                    "grammarSimple": "「行った、でもまた行きたい」＝ I'd like to go again！",
                     "choiceAnalysis": [
-                        "折り返し電話→文脈に合わない。",
-                        "○ また行きたい。かわいい動物がいる。",
-                        "あなたのチケットじゃない→文脈に合わない。",
-                        "初めて→Yes（行ったことがある）と矛盾。"
+                        "I'll call you back.（かけ直す）＝合いません。",
+                        "○ I'd like to go again.（また行きたい）かわいい動物がいるから。",
+                        "it's not your ticket.（君のチケットじゃない）＝合いません。",
+                        "it'll be my first time.（初めて）＝Yes と矛盾します。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「電話かけなおす」は関係ないよ。",
-                        "○「また行きたい」。かわいい動物がいるもんね！",
-                        "「あなたのチケットじゃない」は関係ないよ。",
-                        "行ったことあるのに「初めて」は変だよ。"
+                        "「かけ直す」はちがうよ。",
+                        "○「また行きたい」がぴったり！",
+                        "「君のチケットじゃない」はちがうよ。",
+                        "「はじめて」はYesと合わないよ。"
                     ],
-                    "translation": "少年：新しい動物園に行ったことがありますか？\n女の子：はい、でも（ ）そこにはかわいい動物がたくさんいます。",
+                    "translation": "男の子: 新しい動物園に行った？\n女の子: うん、でもまた行きたいな。かわいい動物がたくさんいるの。",
                     "choiceTranslations": [
-                        "折り返し電話させていただきます。",
-                        "また行きたいです。",
-                        "それはあなたのチケットではありません。",
-                        "初めてになります。"
+                        "かけ直すね。",
+                        "また行きたいな。",
+                        "それは君のチケットじゃない。",
+                        "初めてになるよ。"
                     ]
                 },
                 {
@@ -539,26 +539,26 @@
                         "I can't find my ticket."
                     ],
                     "answer": 3,
-                    "grammar": "バスで行くべき→歩くには遠すぎるから。",
-                    "grammarSimple": "「歩くには遠すぎるよ」。だからバスで行こう。",
+                    "grammar": "「美術館までバスに乗るべき？→うん。○○」。バスに乗る理由として It's too far to walk.（歩くには遠すぎる）が正解。他はバスに乗る理由になりません。",
+                    "grammarSimple": "「歩くには遠い→バス」＝ too far to walk！",
                     "choiceAnalysis": [
-                        "有名な絵→バスの理由にならない。",
-                        "電車に乗っている→バスの提案と合わない。",
-                        "○ 歩くには遠すぎる→バスで行く理由。",
-                        "チケットが見つからない→バスの話と合わない。"
+                        "It's a famous painting.（有名な絵）＝理由になりません。",
+                        "We're on the train.（電車に乗っている）＝バスの話と矛盾します。",
+                        "○ It's too far to walk.（歩くには遠すぎる）バスに乗る理由。",
+                        "I can't find my ticket.（チケットが見つからない）＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「有名な絵」はバスの理由にならないよ。",
-                        "「電車に乗っている」はバスの話と合わないよ。",
-                        "○「遠すぎる」。だからバスで行こう！",
-                        "「チケットが見つからない」は関係ないよ。"
+                        "「有名な絵」はちがうよ。",
+                        "「電車に乗ってる」はちがうよ。",
+                        "○「歩くには遠い」がぴったり！",
+                        "「チケットない」はちがうよ。"
                     ],
-                    "translation": "男１：美術館までバスに乗ったほうがいいですか？\n男２：はい。 （ ）\n男１：私もそう思います。",
+                    "translation": "男性1: 美術館までバスに乗ったほうがいいかな？\n男性2: うん。歩くには遠すぎるよ。\n男性1: ぼくもそう思う。",
                     "choiceTranslations": [
-                        "有名な絵ですね。",
-                        "私たちは電車に乗っています。",
-                        "歩くには遠すぎます。",
-                        "チケットが見つかりません。"
+                        "有名な絵だよ。",
+                        "電車に乗っているよ。",
+                        "歩くには遠すぎる。",
+                        "チケットが見つからない。"
                     ]
                 },
                 {
@@ -571,26 +571,26 @@
                         "Could you help me with it?"
                     ],
                     "answer": 1,
-                    "grammar": "「2回目（去年も）」→「前に行ったことある？」と聞いた。",
-                    "grammarSimple": "「前に行ったことある？」→「2回目だよ。去年も行った」。",
+                    "grammar": "あとに「2回目。去年も行った」と続くので、前に行ったか尋ねる Have you been there before?（前に行ったことある？）が正解。他は「2回目」という答えと噛み合いません。",
+                    "grammarSimple": "「前に行った？」→「2回目だよ」！",
                     "choiceAnalysis": [
-                        "○ 前に行ったことある？→2回目。",
-                        "折り返して→文脈に合わない。",
-                        "近くに住んでいる？→ハワイの話。",
-                        "手伝って？→文脈に合わない。"
+                        "○ Have you been there before?（前に行ったことある？）2回目という答えにつながる。",
+                        "Can you call back later?（かけ直せる？）＝合いません。",
+                        "Do you live near here?（近くに住んでる？）＝合いません。",
+                        "Could you help me with it?（手伝って）＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○「前に行ったことある？」→「2回目だよ」ぴったり！",
-                        "「あとで電話して」は関係ないよ。",
-                        "「近くに住んでいる？」は関係ないよ。",
-                        "「手伝って？」は関係ないよ。"
+                        "○「前に行った？」がぴったり！",
+                        "「かけ直せる？」はちがうよ。",
+                        "「近くに住んでる？」はちがうよ。",
+                        "「手伝って？」はちがうよ。"
                     ],
-                    "translation": "女の子: 家族と一緒にハワイに行くんです。\n少年：それはいいですね。 （ ）\n女の子: はい。今回で2回目です。去年も行きました。",
+                    "translation": "女の子: 家族とハワイに行くの。\n男の子: いいね。前に行ったことある？\n女の子: うん。2回目だよ。去年も行ったの。",
                     "choiceTranslations": [
-                        "以前にそこに行ったことがありますか？",
-                        "後でまた電話してもらえますか？",
-                        "ここの近くに住んでいますか？",
-                        "手伝ってもらえませんか？"
+                        "前にそこへ行ったことある？",
+                        "あとでかけ直せる？",
+                        "この近くに住んでる？",
+                        "それを手伝ってくれる？"
                     ]
                 },
                 {
@@ -603,26 +603,26 @@
                         "I want all of them."
                     ],
                     "answer": 3,
-                    "grammar": "「準備できた」→Let's go（行こう）。",
-                    "grammarSimple": "「準備できたよ」。さあ行こう！",
+                    "grammar": "「必要なものは全部ある？」への返事で、あとに Let's go.（行こう）と続きます。準備できたと言う I'm ready.（準備できた）が正解。他は質問と噛み合いません。",
+                    "grammarSimple": "「準備できた、行こう」＝ I'm ready！",
                     "choiceAnalysis": [
-                        "いいえ結構→行きましょうと矛盾。",
-                        "もちろん私の→文脈に合わない。",
-                        "○ 準備できた。行きましょう。",
-                        "全部欲しい→文脈に合わない。"
+                        "No, thank you.（いいえ結構）＝Let's go と噛み合いません。",
+                        "Sure, it's mine.（うん、私の）＝合いません。",
+                        "○ I'm ready.（準備できた）Let's go につながる。",
+                        "I want all of them.（全部欲しい）＝合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「いいえ結構です」は「行こう」と合わないよ。",
-                        "「私のものよ」は関係ないよ。",
-                        "○「準備できた！」さあ行こう！",
-                        "「全部ほしい」は関係ないよ。"
+                        "「いいえ結構」はちがうよ。",
+                        "「私のだよ」はちがうよ。",
+                        "○「準備できた」がぴったり！",
+                        "「全部ほしい」はちがうよ。"
                     ],
-                    "translation": "夫: 私たちの電車はもうすぐ出発します。行かないと遅れてしまいます。必要なものはすべて揃っていますか?\n妻：（ ）行きましょう。\n夫：ドアの鍵をかけるのを忘れないでね。",
+                    "translation": "夫: もうすぐ電車が出るよ。遅れちゃう。必要なものは全部ある？\n妻: 準備できたわ。行きましょう。\n夫: ドアの鍵を忘れないで。",
                     "choiceTranslations": [
-                        "いいえ、ありがとう。",
-                        "もちろん、それは私のです。",
-                        "準備できました。",
-                        "全部欲しいです。"
+                        "いいえ、結構です。",
+                        "うん、それは私の。",
+                        "準備できたわ。",
+                        "全部欲しい。"
                     ]
                 },
                 {
@@ -635,26 +635,26 @@
                         "You got a good score."
                     ],
                     "answer": 3,
-                    "grammar": "バンド練習がなくて早く帰った→「早いね」と言った。",
-                    "grammarSimple": "「早いね」→「今日はバンドの練習がなかったから」。",
+                    "grammar": "あとに「今日は部活がなくて2時半に学校を出た（＝早く帰った）」と続くので、早い帰宅に気づく You're home early.（早く帰ってきたね）が正解。他は文脈に合いません。",
+                    "grammarSimple": "「早く帰ってきたね」→「部活なくて2時半に出た」！",
                     "choiceAnalysis": [
-                        "あなたのではない→文脈に合わない。",
-                        "良い一日を→帰宅後に不自然。",
-                        "○ 早いね。→2:30に帰った。",
-                        "いい点取ったね→文脈に合わない。"
+                        "It's not for you.（君のじゃない）＝合いません。",
+                        "Have a wonderful day.（よい一日を）＝帰宅時に合いません。",
+                        "○ You're home early.（早く帰ってきたね）2時半下校の説明につながる。",
+                        "You got a good score.（いい点だったね）＝本文にありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「あなたのじゃない」は関係ないよ。",
-                        "「良い一日を」は帰ってきた人には言わないよ。",
-                        "○「早いね」。2時半に学校を出たんだね。",
-                        "「いい点取ったね」は関係ないよ。"
+                        "「君のじゃない」はちがうよ。",
+                        "「よい一日を」はちがうよ。",
+                        "○「早く帰ってきたね」がぴったり！",
+                        "「いい点だね」はちがうよ。"
                     ],
-                    "translation": "息子：こんにちは、お母さん。\n母: こんにちは、マーティン。 （ ）\n息子：今日はバンドの練習がなかったので、2時半に学校を出ました。",
+                    "translation": "息子: ただいま、お母さん。\n母: おかえり、マーティン。早く帰ってきたね。\n息子: 今日は部活がなかったから、2時半に学校を出たんだ。",
                     "choiceTranslations": [
-                        "それはあなたのためではありません。",
-                        "素晴らしい一日をお過ごしください。",
-                        "あなたは早く家に帰りました。",
-                        "良いスコアが出ましたね。"
+                        "それは君のためじゃない。",
+                        "よい一日を。",
+                        "早く帰ってきたね。",
+                        "いい点を取ったね。"
                     ]
                 }
             ]
@@ -687,7 +687,7 @@
                         {
                             "number": 21,
                             "question": "How long did Ms. Wilson work at the local university's library?",
-                            "questionTranslation": "ウィルソン先生は大学の図書館でどのくらい働いた？",
+                            "questionTranslation": "ウィルソンさんは地元の大学の図書館でどのくらい働きましたか。",
                             "choices": [
                                 "For five years.",
                                 "For six years.",
@@ -695,31 +695,31 @@
                                 "For ten years."
                             ],
                             "answer": 1,
-                            "grammar": "「at the library at the local university for five years」とある。",
-                            "grammarSimple": "大学の図書館で5年間働いたよ。",
+                            "grammar": "本文に She worked at a bookstore for eight years and at the library at the local university for five years. とあり、大学の図書館では5年。8年は書店で働いた期間です。",
+                            "grammarSimple": "本文「大学の図書館で5年」＝ For five years！",
                             "choiceAnalysis": [
-                                "○ 5年間。",
-                                "6年→4月10日の締切時間。",
-                                "8年→書店での年数。",
-                                "10年→そうは書いていない。"
+                                "○ For five years.＝at the ... university for five years。",
+                                "For six years.＝本文にありません。",
+                                "For eight years.＝書店で働いた期間。",
+                                "For ten years.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ 5年間働いたよ。",
-                                "6年ではないよ。",
-                                "8年は書店で働いた期間だよ。",
-                                "10年とは書いていないよ。"
+                                "○ 大学の図書館で5ねん！",
+                                "6ねんは出てこないよ。",
+                                "8ねんは書店だよ。",
+                                "10ねんは出てこないよ。"
                             ],
                             "choiceTranslations": [
-                                "5 年間。",
-                                "6 年間。",
-                                "8 年間。",
-                                "10 年間。"
+                                "5年間。",
+                                "6年間。",
+                                "8年間。",
+                                "10年間。"
                             ]
                         },
                         {
                             "number": 22,
                             "question": "At the welcome party, students can",
-                            "questionTranslation": "歓迎会で生徒は",
+                            "questionTranslation": "歓迎会で、生徒は何ができますか。",
                             "choices": [
                                 "meet many people from a foreign university.",
                                 "enjoy drinks and food for free.",
@@ -727,24 +727,24 @@
                                 "watch a new movie."
                             ],
                             "answer": 2,
-                            "grammar": "「You can enjoy free drinks and snacks.」とある。",
-                            "grammarSimple": "無料の飲み物とおやつを楽しめるよ。",
+                            "grammar": "本文に You can enjoy free drinks and snacks. とあり、無料の飲み物と軽食を楽しめます。外国の大学の人・スポーツ・映画は本文にありません（会場は体育館ですが運動はしません）。",
+                            "grammarSimple": "本文「無料の飲み物と軽食」＝ enjoy drinks and food for free！",
                             "choiceAnalysis": [
-                                "外国の大学の人に会う→そうは書いていない。",
-                                "○ 無料の飲み物と軽食を楽しむ。",
-                                "体育館でスポーツ→歓迎会の場所が体育館。",
-                                "映画を見る→そうは書いていない。"
+                                "meet many people from a foreign university.＝本文にありません。",
+                                "○ enjoy drinks and food for free.＝free drinks and snacks。",
+                                "play sports in the gym.＝会場は体育館ですが運動はしません。",
+                                "watch a new movie.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "外国の人に会うとは書いていないよ。",
-                                "○ 無料の飲み物とおやつが楽しめるよ！",
-                                "スポーツではなく歓迎会の場所が体育館だよ。",
-                                "映画を見るとは書いていないよ。"
+                                "外国の大学の話はないよ。",
+                                "○ むりょうの飲み物と軽食！",
+                                "体育館だけどスポーツはしないよ。",
+                                "映画の話はないよ。"
                             ],
                             "choiceTranslations": [
-                                "外国の大学の多くの人々と会う。",
-                                "無料で飲み物や食事を楽しむ。",
-                                "ジムでスポーツをする。",
+                                "外国の大学の多くの人に会う。",
+                                "無料で飲み物と食べ物を楽しむ。",
+                                "体育館でスポーツをする。",
                                 "新しい映画を見る。"
                             ]
                         }
@@ -796,7 +796,7 @@
                         {
                             "number": 23,
                             "question": "Why did Lucas write to his grandfather?",
-                            "questionTranslation": "ルーカスはなぜおじいちゃんに手紙を書いた？",
+                            "questionTranslation": "ルーカスはなぜ祖父に手紙を書きましたか。",
                             "choices": [
                                 "To share the news about Lucas's city.",
                                 "To ask about interviewing his grandfather.",
@@ -805,31 +805,31 @@
                             ],
                             "answer": 2,
                             "sourceEvidence": "Can I interview you about your city this Saturday?",
-                            "grammar": "「Can I interview you about your city?」とある。",
-                            "grammarSimple": "おじいちゃんの町についてインタビューしたかったんだよ。",
+                            "grammar": "1通目に I must write a report ... Can I interview you about your city this Saturday? とあり、Lucasは祖父にインタビューを頼むために書きました。自分の町の知らせ・サッカーへの招待・パイ作りは目的ではありません。",
+                            "grammarSimple": "本文「インタビューしていい？」＝ ask about interviewing！",
                             "choiceAnalysis": [
-                                "ルーカスの街のニュース→おじいちゃんの街。",
-                                "○ インタビューしたい。",
-                                "サッカーに招待→レポートの話。",
-                                "パンプキンパイ作り→去年のこと。"
+                                "To share the news about Lucas's city.＝別の町について書く必要があります。",
+                                "○ To ask about interviewing his grandfather.＝Can I interview you ...?。",
+                                "To invite his grandfather to a soccer game.＝本文にありません。",
+                                "To ask about making pumpkin pies.＝本文の中心ではありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "ルーカスの街ではなくおじいちゃんの街だよ。",
-                                "○ おじいちゃんにインタビューしたかった！",
-                                "サッカーの話ではないよ。",
-                                "パンプキンパイは去年のことだよ。"
+                                "自分の町の知らせではないよ。",
+                                "○ インタビューを頼むため！",
+                                "サッカーに招く話ではないよ。",
+                                "パイ作りの話が目的ではないよ。"
                             ],
                             "choiceTranslations": [
-                                "ルーカスの街のニュースを共有する。",
-                                "祖父へのインタビューについて尋ねる。",
-                                "祖父を招待する。",
-                                "パンプキンパイの作り方について尋ねるため。"
+                                "自分の町のニュースを伝えるため。",
+                                "祖父にインタビューすることについて尋ねるため。",
+                                "祖父をサッカーの試合に招くため。",
+                                "カボチャパイの作り方を尋ねるため。"
                             ]
                         },
                         {
                             "number": 24,
                             "question": "When will Lucas's grandfather be able to meet Lucas?",
-                            "questionTranslation": "おじいちゃんがルーカスに会えるのはいつ？",
+                            "questionTranslation": "ルーカスの祖父はいつルーカスに会えますか。",
                             "choices": [
                                 "On Friday afternoon.",
                                 "On Saturday morning.",
@@ -838,31 +838,31 @@
                             ],
                             "answer": 4,
                             "sourceEvidence": "How about on Sunday afternoon? If it's not in the morning, I can meet you!",
-                            "grammar": "「Sunday afternoon... I can meet you」とある。",
-                            "grammarSimple": "日曜日の午後に会えるよ。",
+                            "grammar": "2通目に I have a lot of work to do this Saturday and Sunday morning. How about on Sunday afternoon? ... I can meet you! とあり、会えるのは日曜の午後。土日の午前は仕事、金曜は本文にありません。",
+                            "grammarSimple": "本文「日曜の午後どう？会えるよ」＝ Sunday afternoon！",
                             "choiceAnalysis": [
-                                "金曜午後→レポートの締め切り。",
-                                "土曜午前→仕事がある。",
-                                "日曜午前→仕事がある。",
-                                "○ 日曜午後。"
+                                "On Friday afternoon.＝本文にありません。",
+                                "On Saturday morning.＝土曜は仕事があります。",
+                                "On Sunday morning.＝日曜午前も仕事があります。",
+                                "○ On Sunday afternoon.＝How about on Sunday afternoon? ... I can meet you。"
                             ],
                             "choiceAnalysisSimple": [
-                                "金曜日はレポートのしめきりだよ。",
-                                "土曜日は仕事があるよ。",
-                                "日曜の午前も仕事があるよ。",
-                                "○ 日曜日の午後に会えるよ！"
+                                "金曜の話はないよ。",
+                                "土曜は仕事だよ。",
+                                "日曜午前も仕事だよ。",
+                                "○ 日曜の午後に会える！"
                             ],
                             "choiceTranslations": [
                                 "金曜日の午後。",
-                                "土曜日の午前中。",
-                                "日曜日の朝。",
+                                "土曜日の午前。",
+                                "日曜日の午前。",
                                 "日曜日の午後。"
                             ]
                         },
                         {
                             "number": 25,
                             "question": "What did Lucas choose to write about for his report?",
-                            "questionTranslation": "ルーカスはレポートで何について書くことにした？",
+                            "questionTranslation": "ルーカスはレポートで何について書くことにしましたか。",
                             "choices": [
                                 "The spring festival in his grandfather's city.",
                                 "The summer festival in his city.",
@@ -871,25 +871,25 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "I decided to write my report about your city's spring festival.",
-                            "grammar": "「decided to write... about your city's spring festival」とある。",
-                            "grammarSimple": "おじいちゃんの街の春祭りについて書くことにしたよ。",
+                            "grammar": "3通目に He has already written about the summer festival, so I decided to write my report about your city's spring festival. とあり、祖父の町の春祭りについて書くことにしました。夏祭りは友人が書き、カボチャ祭り・冬のパレードは選んでいません。",
+                            "grammarSimple": "本文「祖父の町の春祭りにする」＝ The spring festival！",
                             "choiceAnalysis": [
-                                "○ おじいちゃんの街の春祭り。",
-                                "夏祭り→友達が書いた。",
-                                "カボチャ祭り→去年参加した。",
-                                "ウィンターパレード→選ばなかった。"
+                                "○ The spring festival in his grandfather's city.＝write ... about your city's spring festival。",
+                                "The summer festival in his city.＝友人がすでに書きました。",
+                                "The pumpkin festival in his grandfather's city.＝去年参加した祭りで、レポート対象ではありません。",
+                                "The winter parade in his city.＝選んでいません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ おじいちゃんの街の春祭り！",
-                                "夏祭りは友達がもう書いたよ。",
-                                "カボチャ祭りは去年のことだよ。",
-                                "ウィンターパレードは選ばなかったよ。"
+                                "○ 祖父の町の春祭り！",
+                                "夏祭りは友だちが書いたよ。",
+                                "カボチャ祭りは去年の話だよ。",
+                                "冬のパレードは選んでないよ。"
                             ],
                             "choiceTranslations": [
-                                "祖父の街の春祭り。",
-                                "彼の街の夏祭り。",
-                                "祖父の街のカボチャ祭り。",
-                                "彼の街の冬のパレード。都市。"
+                                "祖父の町の春祭り。",
+                                "自分の町の夏祭り。",
+                                "祖父の町のカボチャ祭り。",
+                                "自分の町の冬のパレード。"
                             ]
                         }
                     ]
@@ -914,7 +914,7 @@
                         {
                             "number": 26,
                             "question": "As a child, Ansel Adams",
-                            "questionTranslation": "子ども時代のアンセル・アダムスは",
+                            "questionTranslation": "子どもの頃、アンセル・アダムスは何をしましたか。",
                             "choices": [
                                 "learned how to draw.",
                                 "liked to go to school.",
@@ -923,31 +923,31 @@
                             ],
                             "answer": 4,
                             "sourceEvidence": "Adams enjoyed taking walks in nature and playing the piano.",
-                            "grammar": "「enjoyed... playing the piano」とある。",
-                            "grammarSimple": "ピアノを弾くのが好きだったよ。",
+                            "grammar": "本文に As a child ... did not like school. Adams enjoyed taking walks in nature and playing the piano. とあり、子どもの頃はピアノを弾きました。絵を習った・学校が好き・都会を散歩は本文と異なります（散歩は自然の中）。",
+                            "grammarSimple": "本文「子どもの頃ピアノを弾いた」＝ played the piano！",
                             "choiceAnalysis": [
-                                "絵を学んだ→そうは書いていない。",
-                                "学校が好き→学校は好きじゃなかった。",
-                                "街を散歩→自然の中を散歩。",
-                                "○ ピアノを弾いた。"
+                                "learned how to draw.＝本文にありません。",
+                                "liked to go to school.＝学校は好きではありませんでした（did not like school）。",
+                                "went for walks in cities.＝散歩は自然の中でした（in nature）。",
+                                "○ played the piano.＝playing the piano。"
                             ],
                             "choiceAnalysisSimple": [
-                                "絵を習ったとは書いていないよ。",
+                                "絵を習った話はないよ。",
                                 "学校は好きじゃなかったよ。",
-                                "街ではなく自然の中を散歩したよ。",
-                                "○ ピアノを弾いていたよ！"
+                                "散歩は自然の中だよ。",
+                                "○ ピアノを弾いた！"
                             ],
                             "choiceTranslations": [
-                                "絵の描き方を学んだ。",
-                                "学校に行くのが好きだった。",
-                                "街を散歩した。",
+                                "絵の描き方を習った。",
+                                "学校へ行くのが好きだった。",
+                                "都会を散歩した。",
                                 "ピアノを弾いた。"
                             ]
                         },
                         {
                             "number": 27,
                             "question": "What did Adams do when he got his first camera?",
-                            "questionTranslation": "最初のカメラを手に入れてアダムスは何をした？",
+                            "questionTranslation": "アダムスは初めてのカメラを手に入れたとき、何をしましたか。",
                             "choices": [
                                 "He took pictures of buildings.",
                                 "He went on hikes in the mountains.",
@@ -956,31 +956,31 @@
                             ],
                             "answer": 2,
                             "sourceEvidence": "Adams often went hiking in the mountains there with his camera.",
-                            "grammar": "「went hiking in the mountains... with his camera」とある。",
-                            "grammarSimple": "カメラを持って山でハイキングに行ったよ。",
+                            "grammar": "2段落に received his first camera. ... Adams often went hiking in the mountains there with his camera. とあり、山へハイキングに行きました。建物の写真・カメラ店勤務は本文になく、入ったのは公園で働く人のクラブです。",
+                            "grammarSimple": "本文「カメラを持って山へハイキング」＝ went on hikes in the mountains！",
                             "choiceAnalysis": [
-                                "建物の写真→自然の写真。",
-                                "○ 山でハイキング。",
-                                "カメラ店で働く→そうは書いていない。",
-                                "写真クラブに入る→公園で働く人のクラブ。"
+                                "He took pictures of buildings.＝撮ったのは山などの自然です。",
+                                "○ He went on hikes in the mountains.＝went hiking in the mountains。",
+                                "He worked at a camera store.＝本文にありません。",
+                                "He joined a photography club.＝入ったのは公園で働く人のクラブです。"
                             ],
                             "choiceAnalysisSimple": [
-                                "建物ではなく自然の写真だよ。",
-                                "○ 山にハイキングに行ったよ！",
-                                "カメラ店で働いたとは書いていないよ。",
-                                "写真クラブではなく公園の人たちのクラブだよ。"
+                                "建物ではなく自然を撮ったよ。",
+                                "○ 山へハイキングに行った！",
+                                "カメラ店の話はないよ。",
+                                "写真クラブではないよ。"
                             ],
                             "choiceTranslations": [
-                                "彼は建物の写真を撮った。",
-                                "彼は山にハイキングに行った。",
-                                "彼はカメラ店で働いた。",
-                                "彼は写真クラブに参加した。"
+                                "建物の写真を撮った。",
+                                "山へハイキングに行った。",
+                                "カメラ店で働いた。",
+                                "写真クラブに入った。"
                             ]
                         },
                         {
                             "number": 28,
                             "question": "Why were Adams's photographs popular?",
-                            "questionTranslation": "アダムスの写真はなぜ人気だった？",
+                            "questionTranslation": "アダムスの写真はなぜ人気だったのですか。",
                             "choices": [
                                 "They were photos of old products.",
                                 "They looked like paintings.",
@@ -989,31 +989,31 @@
                             ],
                             "answer": 2,
                             "sourceEvidence": "the photos were very artistic and were like paintings",
-                            "grammar": "「artistic and were like paintings」とある。",
-                            "grammarSimple": "絵画みたいに芸術的だったから人気になったよ。",
+                            "grammar": "3段落に Many people thought the photos were very artistic and were like paintings, so they became popular. とあり、絵のようだったから人気になりました。古い製品・新聞・安価は本文にありません。",
+                            "grammarSimple": "本文「絵のようだった→人気」＝ looked like paintings！",
                             "choiceAnalysis": [
-                                "古い製品の写真→新製品の写真。",
-                                "○ 絵画のようだった。",
-                                "新聞に載った→そうは書いていない。",
-                                "高くなかった→そうは書いていない。"
+                                "They were photos of old products.＝本文にありません。",
+                                "○ They looked like paintings.＝were like paintings, so they became popular。",
+                                "They were in many newspapers.＝本文にありません。",
+                                "They were not expensive.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "古い製品ではなく新製品だよ。",
-                                "○ 絵画みたいにきれいだったから人気！",
-                                "新聞に載ったとは書いていないよ。",
-                                "安かったとは書いていないよ。"
+                                "古い製品の話はないよ。",
+                                "○ 絵のようだった！",
+                                "新聞の話はないよ。",
+                                "安いという話はないよ。"
                             ],
                             "choiceTranslations": [
-                                "それらは古い製品の写真だった。",
-                                "彼らは次のように見えた絵画。",
-                                "彼らは多くの新聞に載っていました。",
-                                "それらは高価ではありませんでした。"
+                                "古い製品の写真だったから。",
+                                "絵のように見えたから。",
+                                "多くの新聞に載ったから。",
+                                "高くなかったから。"
                             ]
                         },
                         {
                             "number": 29,
                             "question": "What happened in 1980?",
-                            "questionTranslation": "1980年に何が起きた？",
+                            "questionTranslation": "1980年に何が起きましたか。",
                             "choices": [
                                 "Adams showed his photos in museums.",
                                 "Adams wrote a book.",
@@ -1022,31 +1022,31 @@
                             ],
                             "answer": 3,
                             "sourceEvidence": "Adams received an award from the president of the United States",
-                            "grammar": "「received an award from the president」とある。",
-                            "grammarSimple": "大統領から賞をもらったんだよ。",
+                            "grammar": "4段落に In 1980, Adams received an award from the president of the United States とあり、1980年に大統領から賞を受け取りました＝賞を獲得。博物館での展示・本の執筆・政府勤務は1980年の出来事ではありません。",
+                            "grammarSimple": "本文「1980年に大統領から賞」＝ won an award！",
                             "choiceAnalysis": [
-                                "美術館展示→1980年とは限らない。",
-                                "本を書いた→写真集を作った。",
-                                "○ 賞を受け取った。",
-                                "政府のために働いた→そうは書いていない。"
+                                "Adams showed his photos in museums.＝別の時期のことです。",
+                                "Adams wrote a book.＝別の時期のことです。",
+                                "○ Adams won an award.＝received an award from the president。",
+                                "Adams worked for the government.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "美術館展示は1980年とは決まっていないよ。",
-                                "本を書いたとは書いていないよ。",
-                                "○ 大統領から賞をもらった！",
-                                "政府のために働いたとは書いていないよ。"
+                                "博物館の展示は別の時だよ。",
+                                "本を書いたのは別の時だよ。",
+                                "○ 1980年に賞をもらった！",
+                                "政府で働く話はないよ。"
                             ],
                             "choiceTranslations": [
-                                "アダムスは美術館で写真を見せました。",
-                                "アダムスは本を書きました。",
-                                "アダムスは賞を受賞しました。",
-                                "アダムスは政府のために働いていました。"
+                                "アダムスは博物館で写真を展示した。",
+                                "アダムスは本を書いた。",
+                                "アダムスは賞を獲得した。",
+                                "アダムスは政府のために働いた。"
                             ]
                         },
                         {
                             "number": 30,
                             "question": "What is this story about?",
-                            "questionTranslation": "この話は何について？",
+                            "questionTranslation": "この話は何についてですか。",
                             "choices": [
                                 "A professional piano player.",
                                 "A new camera from the 1900s.",
@@ -1054,24 +1054,24 @@
                                 "A photographer in the 1900s."
                             ],
                             "answer": 4,
-                            "grammar": "1900年代のアメリカの写真家アンセル・アダムスの生涯の話。",
-                            "grammarSimple": "1900年代の有名な写真家アンセル・アダムスのお話だよ。",
+                            "grammar": "全体は1900年代に活躍したアメリカの写真家アンセル・アダムスの生涯の話です。ピアノ奏者・新しいカメラ・自然写真の撮り方が中心ではありません。",
+                            "grammarSimple": "全体は「1900年代の写真家（アダムス）」の話！",
                             "choiceAnalysis": [
-                                "ピアニスト→写真家になった。",
-                                "新しいカメラ→写真家の話。",
-                                "自然の撮り方→写真家の生涯。",
-                                "○ 1900年代の写真家。"
+                                "A professional piano player.＝ピアニストを目指しましたが、写真家になりました。",
+                                "A new camera from the 1900s.＝カメラそのものの話ではありません。",
+                                "How to take photographs of nature.＝撮り方の解説ではありません。",
+                                "○ A photographer in the 1900s.＝1900年代の写真家アダムスの話。"
                             ],
                             "choiceAnalysisSimple": [
-                                "ピアニストではなく写真家になったよ。",
-                                "カメラの話ではなく写真家の人生だよ。",
-                                "撮り方の説明ではないよ。",
-                                "○ 1900年代の有名な写真家のお話！"
+                                "ピアニストの話が中心ではないよ。",
+                                "カメラそのものの話ではないよ。",
+                                "撮り方の解説ではないよ。",
+                                "○ 1900年代の写真家の話！"
                             ],
                             "choiceTranslations": [
                                 "プロのピアノ奏者。",
                                 "1900年代の新しいカメラ。",
-                                "写真の撮り方Nature.",
+                                "自然の写真の撮り方。",
                                 "1900年代の写真家。"
                             ]
                         }
