@@ -19,19 +19,19 @@
                         "everything"
                     ],
                     "answer": 3,
-                    "grammar": "anything special＝「何か特別なこと」。疑問文なので anything。",
-                    "grammarSimple": "anything special は「なにかとくべつなこと」。週末のよていを聞いている。",
+                    "grammar": "週末に「何か特別なこと」をするか聞いている流れ。疑問文では anything special＝「何か特別なこと」。everywhere（どこでも）・anytime（いつでも）・everything（すべて）は「何か特別なこと」の意味を作れません。",
+                    "grammarSimple": "「なにかとくべつなことある？」＝ anything special！",
                     "choiceAnalysis": [
-                        "everywhere＝どこでも。doing everywhere は不自然。",
-                        "anytime＝いつでも。doing anytime は不自然。",
+                        "everywhere＝どこでも。doing everywhere special とは言いません。",
+                        "anytime＝いつでも。doing anytime special とは言いません。",
                         "○ anything＝何か。anything special＝何か特別なこと。",
-                        "everything＝全部。疑問文では anything。"
+                        "everything＝すべて。疑問文で「何か」を聞くときは anything。"
                     ],
                     "choiceAnalysisSimple": [
-                        "everywhere は「どこでも」。合わないよ。",
-                        "anytime は「いつでも」。合わないよ。",
-                        "○ anything は「なにか」。なにかとくべつなことある？",
-                        "everything は「ぜんぶ」。聞くときは anything だよ。"
+                        "「どこでも」はちがうよ。",
+                        "「いつでも」はちがうよ。",
+                        "○「なにか」がぴったり！",
+                        "「ぜんぶ」は聞くとき向きじゃないよ。"
                     ],
                     "translation": "A: 今週末は（ ）特別なことをするの？\nB: はい。山に行くんです。",
                     "choiceTranslations": [
@@ -51,19 +51,19 @@
                         "began"
                     ],
                     "answer": 1,
-                    "grammar": "left＝「置いてきた」。辞書を学校に忘れてきた。leave-left-left。",
-                    "grammarSimple": "left は「おいてきた」。辞書を学校にわすれてきちゃった！",
+                    "grammar": "宿題ができない理由。辞書を学校に「置いてきた」流れ。left＝leave の過去形で「置いてきた・忘れてきた」。bought（買った）・taught（教えた）・began（始めた）は文脈に合いません。",
+                    "grammarSimple": "「学校においてきた」＝ left！",
                     "choiceAnalysis": [
-                        "○ left＝置いてきた。辞書を忘れた。",
-                        "bought＝買った。文脈に合わない。",
-                        "taught＝教えた。文脈に合わない。",
-                        "began＝始めた。文脈に合わない。"
+                        "○ left＝置いてきた。辞書を学校に忘れてきた。",
+                        "bought＝買った。宿題ができない理由に合いません。",
+                        "taught＝教えた。辞書を教える、とは言いません。",
+                        "began＝始めた。文脈に合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ left は「おいてきた」。学校にわすれちゃった！",
-                        "bought は「かった」。合わないよ。",
-                        "taught は「おしえた」。合わないよ。",
-                        "began は「はじめた」。合わないよ。"
+                        "○「おいてきた」がぴったり！",
+                        "「かった」はちがうよ。",
+                        "「おしえた」はちがうよ。",
+                        "「はじめた」はちがうよ。"
                     ],
                     "translation": "A: どうしたの、スー？\nB: 英語の宿題ができません。私 ( ) 学校で辞書を!",
                     "choiceTranslations": [
@@ -83,19 +83,19 @@
                         "reach"
                     ],
                     "answer": 3,
-                    "grammar": "wrap＝「包む」。プレゼントを紙とテープで包む。",
-                    "grammarSimple": "wrap は「つつむ」。プレゼントをつつむんだね。",
+                    "grammar": "お母さんへのプレゼントを、帰る前に紙とテープで「包む」流れ。wrap＝包む。sound（〜に聞こえる）・spend（過ごす・費やす）・reach（届く）は present を包む意味になりません。",
+                    "grammarSimple": "「プレゼントをつつむ」＝ wrap！",
                     "choiceAnalysis": [
-                        "sound＝〜に聞こえる。文脈に合わない。",
-                        "spend＝過ごす。文脈に合わない。",
-                        "○ wrap＝包む。紙とテープで。",
-                        "reach＝届く。文脈に合わない。"
+                        "sound＝〜に聞こえる。プレゼントには合いません。",
+                        "spend＝過ごす・費やす。紙とテープの文脈に合いません。",
+                        "○ wrap＝包む。紙とテープでプレゼントを包む。",
+                        "reach＝届く・到着する。包む意味ではありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "sound は「〜にきこえる」。合わないよ。",
-                        "spend は「すごす」。合わないよ。",
-                        "○ wrap は「つつむ」。プレゼントのラッピング！",
-                        "reach は「とどく」。合わないよ。"
+                        "「きこえる」はちがうよ。",
+                        "「すごす」はちがうよ。",
+                        "○「つつむ」がぴったり！",
+                        "「とどく」はちがうよ。"
                     ],
                     "translation": "A: お母さんにプレゼントがあります。彼女が帰ってくる前に（ ）しなければなりません。\nB: この紙とテープを使ってください。",
                     "choiceTranslations": [
@@ -115,19 +115,19 @@
                         "hold"
                     ],
                     "answer": 2,
-                    "grammar": "pass the test＝「テストに合格する」。一生懸命勉強したから。",
-                    "grammarSimple": "pass the test は「テストに合格する」。がんばって勉強したから受かった！",
+                    "grammar": "一生懸命勉強したのでテストに「合格できた」流れ。pass the test＝テストに合格する。sing（歌う）・grow（育つ）・hold（持つ）は the test と自然なコロケーションになりません。",
+                    "grammarSimple": "「テストに合格する」＝ pass the test！",
                     "choiceAnalysis": [
-                        "sing＝歌う。sing the test は不自然。",
-                        "○ pass＝合格する。pass the test。",
-                        "grow＝育つ。grow the test は不自然。",
-                        "hold＝持つ。hold the test は不自然。"
+                        "sing＝歌う。sing the test とは言いません。",
+                        "○ pass＝合格する。pass the test＝テストに合格する。",
+                        "grow＝育つ。grow the test とは言いません。",
+                        "hold＝持つ。hold the test は「合格する」意味ではありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "sing は「うたう」。合わないよ。",
-                        "○ pass で「テストに合格する」！",
-                        "grow は「そだつ」。合わないよ。",
-                        "hold は「もつ」。合わないよ。"
+                        "「うたう」はちがうよ。",
+                        "○「ごうかくする」がぴったり！",
+                        "「そだつ」はちがうよ。",
+                        "「もつ」はちがうよ。"
                     ],
                     "translation": "ジョンソンさんのクラスのほとんどの生徒は、一生懸命勉強したので、テストに( )できました。",
                     "choiceTranslations": [
@@ -147,19 +147,19 @@
                         "relax"
                     ],
                     "answer": 1,
-                    "grammar": "introduce＝「紹介する」。友達に紹介してよい？",
-                    "grammarSimple": "introduce は「しょうかいする」。ともだちに紹介してもいい？",
+                    "grammar": "友達に「紹介してよい？」の流れ。introduce A to B＝AをBに紹介する。believe（信じる）・bake（焼く）・relax（くつろぐ）は you to my friend の型に合いません。",
+                    "grammarSimple": "「ともだちにしょうかいする」＝ introduce！",
                     "choiceAnalysis": [
                         "○ introduce＝紹介する。introduce you to my friend。",
-                        "believe＝信じる。文脈に合わない。",
-                        "bake＝焼く。文脈に合わない。",
-                        "relax＝リラックスする。文脈に合わない。"
+                        "believe＝信じる。to my friend と合いません。",
+                        "bake＝焼く。人を焼く、とは言いません。",
+                        "relax＝リラックスする。紹介の意味ではありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ introduce は「しょうかいする」。ぴったり！",
-                        "believe は「しんじる」。合わないよ。",
-                        "bake は「焼く」。合わないよ。",
-                        "relax は「リラックスする」。合わないよ。"
+                        "○「しょうかいする」がぴったり！",
+                        "「しんじる」はちがうよ。",
+                        "「やく」はちがうよ。",
+                        "「リラックスする」はちがうよ。"
                     ],
                     "translation": "A: 友達に( )言ってもいいですか?\nB: もちろんです。__分割__メアリーの町の城はとても古いです。 17 年に建てられました ( )。",
                     "choiceTranslations": [
@@ -179,19 +179,19 @@
                         "history"
                     ],
                     "answer": 3,
-                    "grammar": "century＝「世紀」。17th century＝17世紀。",
-                    "grammarSimple": "century は「せいき」。17世紀にたてられた、すごく古いお城。",
+                    "grammar": "とても古い城が「17世紀に建てられた」流れ。17th century＝17世紀。date（日付）・idea（考え）・history（歴史）は 17th のあとに置いて「世紀」の意味を作れません。",
+                    "grammarSimple": "「17せいき」＝ 17th century！",
                     "choiceAnalysis": [
-                        "date＝日付。17th date は不自然。",
-                        "idea＝考え。17th idea は不自然。",
+                        "date＝日付。17th date とは言いません。",
+                        "idea＝考え。17th idea とは言いません。",
                         "○ century＝世紀。17th century＝17世紀。",
-                        "history＝歴史。17th history は不自然。"
+                        "history＝歴史。17th history とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "date は「にちづけ」。合わないよ。",
-                        "idea は「かんがえ」。合わないよ。",
-                        "○ century は「せいき」。17世紀！",
-                        "history は「れきし」。合わないよ。"
+                        "「にちづけ」はちがうよ。",
+                        "「かんがえ」はちがうよ。",
+                        "○「せいき」がぴったり！",
+                        "「れきし」はそのままでは合わないよ。"
                     ],
                     "translation": "ベンの祖母は料理が大好きです。毎年クリスマスの日にベンの家族のために大きなディナーを作るのは、彼女にとって ( ) です。",
                     "choiceTranslations": [
@@ -211,19 +211,19 @@
                         "temple"
                     ],
                     "answer": 2,
-                    "grammar": "tradition＝「伝統」。毎年クリスマスに大きな夕食を作るのが伝統。",
-                    "grammarSimple": "tradition は「でんとう」。毎年クリスマスに大きなごはんを作るのがならわし。",
+                    "grammar": "毎年クリスマスに大きな夕食を作るのは彼女にとって「伝統」の流れ。tradition＝伝統・習慣。trick（いたずら）・trouble（面倒）・temple（寺）は毎年の行事の意味に合いません。",
+                    "grammarSimple": "「まいねんのしきたり・でんとう」＝ tradition！",
                     "choiceAnalysis": [
-                        "trick＝トリック。文脈に合わない。",
-                        "○ tradition＝伝統。毎年のならわし。",
-                        "trouble＝トラブル。文脈に合わない。",
-                        "temple＝寺。文脈に合わない。"
+                        "trick＝いたずら・手品。毎年の夕食には合いません。",
+                        "○ tradition＝伝統。毎年クリスマスにする習慣。",
+                        "trouble＝面倒・問題。作りたい気持ちと合いません。",
+                        "temple＝寺。料理の習慣ではありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "trick は「トリック」。合わないよ。",
-                        "○ tradition は「でんとう」。毎年つづけていること！",
-                        "trouble は「トラブル」。合わないよ。",
-                        "temple は「おてら」。合わないよ。"
+                        "「いたずら」はちがうよ。",
+                        "○「でんとう」がぴったり！",
+                        "「めんどう」はちがうよ。",
+                        "「おてら」はちがうよ。"
                     ],
                     "translation": "A: 図書館に行くよ、ママ。\nB: わかりました。でも、家に帰ったら部屋を掃除してください ()彼女は本当に誇りに思っています ( ) 自身です。",
                     "choiceTranslations": [
@@ -243,19 +243,19 @@
                         "over"
                     ],
                     "answer": 2,
-                    "grammar": "clean up＝「片付ける」。帰ったら部屋を片付けて。",
-                    "grammarSimple": "clean up は「かたづける」。帰ったら部屋をきれいにしてね。",
+                    "grammar": "帰宅したら部屋を「片付けて」の流れ。clean up＝片付ける・掃除をする。between（〜の間）・into（〜の中へ）・over（〜の上に）は clean と組み合わさって「片付ける」になりません。",
+                    "grammarSimple": "「へやをかたづける」＝ clean up！",
                     "choiceAnalysis": [
-                        "clean between は不自然。",
-                        "○ up＝clean up＝片付ける。",
-                        "clean into は不自然。",
-                        "clean over は不自然。"
+                        "between＝〜の間。clean between your room とは言いません。",
+                        "○ up。clean up＝片付ける。",
+                        "into＝〜の中へ。clean into は「片付ける」ではありません。",
+                        "over＝〜の上に。clean over your room とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "between は合わないよ。",
-                        "○ up がぴったり！clean up で「かたづける」。",
-                        "into は合わないよ。",
-                        "over は合わないよ。"
+                        "between はちがうよ。",
+                        "○ clean up で「かたづける」！",
+                        "into はちがうよ。",
+                        "over はちがうよ。"
                     ],
                     "translation": "Yuka の弟は、Yuka ( ) 彼女の約束が彼を映画に連れて行ってくれたので、とても怒っていました。",
                     "choiceTranslations": [
@@ -275,19 +275,19 @@
                         "across"
                     ],
                     "answer": 1,
-                    "grammar": "worried about＝「〜を心配する」。新しい仕事が心配だった。",
-                    "grammarSimple": "worried about は「〜をしんぱいする」。最初はしんぱいだったけど今は楽しい！",
+                    "grammar": "最初は新しい仕事を「心配していた」が、今は楽しんでいる流れ。worried about＝〜を心配する。under（〜の下）・against（〜に反対して）・across（〜を横切って）は worried と自然な組み合わせになりません。",
+                    "grammarSimple": "「〜をしんぱいする」＝ worried about！",
                     "choiceAnalysis": [
-                        "○ about＝worried about＝〜を心配する。",
-                        "under＝下。worried under は不自然。",
-                        "against＝反対。worried against は不自然。",
-                        "across＝横切って。worried across は不自然。"
+                        "○ about。worried about＝〜を心配する。",
+                        "under＝〜の下。worried under とは言いません。",
+                        "against＝〜に反対して。worried against とは言いません。",
+                        "across＝〜を横切って。worried across とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ about がぴったり！worried about で「しんぱいする」。",
-                        "under は合わないよ。",
-                        "against は合わないよ。",
-                        "across は合わないよ。"
+                        "○ about で「しんぱいする」！",
+                        "under はちがうよ。",
+                        "against はちがうよ。",
+                        "across はちがうよ。"
                     ],
                     "translation": "最近、( ) など、宇宙に興味を持つ人が増えています。彼らは惑星や星について知りたいと思っています。",
                     "choiceTranslations": [
@@ -307,19 +307,19 @@
                         "in"
                     ],
                     "answer": 3,
-                    "grammar": "proud of＝「〜を誇りに思う」。科学コンテストで1位。",
-                    "grammarSimple": "proud of は「〜をほこりに思う」。1位になれてとってもうれしい！",
+                    "grammar": "科学コンテストで1位になり「自分を誇りに思う」流れ。proud of＝〜を誇りに思う。on・at・in は proud と組み合わせて同じ意味を作れません。",
+                    "grammarSimple": "「じぶんをほこりに思う」＝ proud of！",
                     "choiceAnalysis": [
-                        "proud on は不自然。",
-                        "proud at は不自然。",
-                        "○ of＝proud of＝〜を誇りに思う。",
-                        "proud in は不自然。"
+                        "on。proud on とは言いません。",
+                        "at。proud at とは言いません。",
+                        "○ of。proud of＝〜を誇りに思う。",
+                        "in。proud in とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "on は合わないよ。",
-                        "at は合わないよ。",
-                        "○ of がぴったり！proud of で「ほこりに思う」。",
-                        "in は合わないよ。"
+                        "on はちがうよ。",
+                        "at はちがうよ。",
+                        "○ of で「ほこりに思う」！",
+                        "in はちがうよ。"
                     ],
                     "translation": "ポールは先週、犬についての有名な話を読みました。著者（ ）は子どもの頃のことです。",
                     "choiceTranslations": [
@@ -339,19 +339,19 @@
                         "found"
                     ],
                     "answer": 2,
-                    "grammar": "broke her promise＝「約束を破った」。映画に連れていく約束を破った。",
-                    "grammarSimple": "broke her promise は「やくそくをやぶった」。映画に連れて行くって言ったのに！",
+                    "grammar": "映画に連れて行く約束を「破った」ので弟が怒った流れ。broke her promise＝約束を破った（break の過去形）。gave（与えた）・caught（捕まえた）・found（見つけた）は promise と「約束を破る」意味になりません。",
+                    "grammarSimple": "「やくそくをやぶる」＝ break a promise！",
                     "choiceAnalysis": [
-                        "gave her promise＝約束した。angryの理由にならない。",
-                        "○ broke＝破った。break a promise＝約束を破る。",
-                        "caught＝捕まえた。caught her promise は不自然。",
-                        "found＝見つけた。found her promise は不自然。"
+                        "gave＝与えた。give a promise は「破る」ではありません。",
+                        "○ broke＝破った。broke her promise＝約束を破った。",
+                        "caught＝捕まえた。promise には合いません。",
+                        "found＝見つけた。promise には合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "gave は「あげた」。約束をあげた？変だよ。",
-                        "○ broke で「やぶった」。やくそくをやぶったから怒ってるんだ。",
-                        "caught は「つかまえた」。合わないよ。",
-                        "found は「見つけた」。合わないよ。"
+                        "「あたえた」はちがうよ。",
+                        "○「やぶった」がぴったり！",
+                        "「つかまえた」はちがうよ。",
+                        "「みつけた」はちがうよ。"
                     ],
                     "translation": "Aki は走るのが速いです。彼女はクラスの誰よりも ( ) 走ることができます。",
                     "choiceTranslations": [
@@ -371,19 +371,19 @@
                         "least"
                     ],
                     "answer": 3,
-                    "grammar": "more and more＝「ますます多くの」。宇宙に興味を持つ人が増えている。",
-                    "grammarSimple": "more and more は「ますますたくさんの」。宇宙に興味がある人がふえている！",
+                    "grammar": "宇宙に興味を持つ人が「ますます増えている」流れ。more and more＝ますます多くの。much・most・least は and more と組んで同じ意味を作れません。",
+                    "grammarSimple": "「ますます多くの」＝ more and more！",
                     "choiceAnalysis": [
-                        "much and more は不自然。",
-                        "most and more は不自然。",
-                        "○ more＝more and more＝ますます多くの。",
-                        "least and more は不自然。"
+                        "much＝たくさんの。much and more とは言いません。",
+                        "most＝最も多くの。most and more とは言いません。",
+                        "○ more。more and more＝ますます多くの。",
+                        "least＝最も少ない。least and more とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "much は合わないよ。",
-                        "most は合わないよ。",
-                        "○ more がぴったり！more and more で「どんどん」。",
-                        "least は合わないよ。"
+                        "much はちがうよ。",
+                        "most はちがうよ。",
+                        "○ more and more で「ますます」！",
+                        "least はちがうよ。"
                     ],
                     "translation": "A: スミスさん、ニューヨークに ( ) 行ったことがありますか?\nB: はい、何度もです。",
                     "choiceTranslations": [
@@ -403,19 +403,19 @@
                         "writing"
                     ],
                     "answer": 1,
-                    "grammar": "過去形。when she was a child＝子どもの頃に書いた。write-wrote-written。",
-                    "grammarSimple": "wrote は write の過去形。子どもの頃に書いたお話なんだよ。",
+                    "grammar": "著者が子どものころにその物語を「書いた」過去の事実。when she was a child があるので過去形 wrote。write（原形）・writes（現在）・writing（〜ing）は時制・形が合いません。",
+                    "grammarSimple": "「こどもだったときに書いた」＝ wrote！",
                     "choiceAnalysis": [
-                        "○ wrote＝過去形。子どもの頃に書いた。",
-                        "write＝原形。The author write は不正確。",
-                        "writes＝三人称現在形。when she was と合わない。",
-                        "writing＝現在分詞。The author writing は不正確。"
+                        "○ wrote＝書いた（過去形）。子どものころの話なので過去。",
+                        "write＝原形。助動詞などがないので単独では合いません。",
+                        "writes＝現在形。子どものころの話には合いません。",
+                        "writing＝〜している形。文の動詞として合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ wrote がぴったり！「書いた」。過去のことだよ。",
-                        "write はそのまま。合わないよ。",
-                        "writes は今のこと。過去の話だよ。",
-                        "writing は合わないよ。"
+                        "○「かいた」（過去）がぴったり！",
+                        "write はそのままでは合わないよ。",
+                        "writes はいまの話の形だよ。",
+                        "writing は文の動詞にならないよ。"
                     ],
                     "translation": "ポールは先週、犬についての有名な話を読みました。著者（ ）は子供の頃のことです。",
                     "choiceTranslations": [
@@ -435,19 +435,19 @@
                         "too fast"
                     ],
                     "answer": 1,
-                    "grammar": "比較級。than anyone＝誰よりも。faster than＝〜より速く。",
-                    "grammarSimple": "faster than は「〜よりはやく」。クラスでだれよりもはやい！",
+                    "grammar": "クラスのだれよりも速く走れる比較の流れ。than anyone があるので比較級 faster。fastest（最上級）・fast（原級）・too fast（速すぎる）は than との組み合わせに合いません。",
+                    "grammarSimple": "「だれよりもはやい」＝ faster than！",
                     "choiceAnalysis": [
-                        "○ faster＝比較級。than anyone。",
-                        "fastest＝最上級。than とは使えない。",
-                        "fast＝原級。than の前は比較級。",
-                        "too fast＝速すぎる。than と合わない。"
+                        "○ faster＝より速い（比較級）。faster than anyone。",
+                        "fastest＝最も速い（最上級）。than とは組みません。",
+                        "fast＝速い（原級）。than があるので比較級が必要。",
+                        "too fast＝速すぎる。than anyone と合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ faster がぴったり！「もっとはやく」。than とセット。",
-                        "fastest は「いちばんはやい」。than とは使えないよ。",
-                        "fast はそのまま。比較に使えないよ。",
-                        "too fast は「はやすぎる」。合わないよ。"
+                        "○ faster で「よりはやい」！",
+                        "fastest はいちばんのときだよ。",
+                        "fast だけではくらべられないよ。",
+                        "too fast は「はやすぎ」で合わないよ。"
                     ],
                     "translation": "アキは走るのが速いです。彼女はクラスの誰よりも（ ）を走ることができます。",
                     "choiceTranslations": [
@@ -467,19 +467,19 @@
                         "were"
                     ],
                     "answer": 3,
-                    "grammar": "現在完了の経験用法。Have you ever been to＝「〜に行ったことがある？」",
-                    "grammarSimple": "Have you ever been to は「〜に行ったことある？」何回もニューヨークに行ったんだね。",
+                    "grammar": "ニューヨークに行った経験があるかを聞く現在完了。Have you ever been to ...?＝〜に行ったことがありますか。be・are・were は Have you ever のあとに置く形として合いません。",
+                    "grammarSimple": "「行ったことがある？」＝ Have you ever been to！",
                     "choiceAnalysis": [
-                        "be＝原形。Have you ever be は不正確。",
-                        "are＝現在形。Have you ever are は不正確。",
-                        "○ been＝過去分詞。Have you ever been to。",
-                        "were＝過去形。Have you ever were は不正確。"
+                        "be＝原形。Have you ever be とは言いません。",
+                        "are＝現在形。Have you ever are とは言いません。",
+                        "○ been＝過去分詞。Have you ever been to＝行ったことがある？",
+                        "were＝過去形。Have you ever were とは言いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "be は Have のあとには使えないよ。",
-                        "are は Have のあとには使えないよ。",
-                        "○ been がぴったり！「行ったことある？」",
-                        "were は Have のあとには使えないよ。"
+                        "be はそのままでは合わないよ。",
+                        "are はちがうよ。",
+                        "○ been で「行ったことがある？」！",
+                        "were はちがうよ。"
                     ],
                     "translation": "A: スミスさん、ニューヨークに( )行ったことがありますか?\nB: はい、何度もです。",
                     "choiceTranslations": [
@@ -507,19 +507,19 @@
                         "Put it down."
                     ],
                     "answer": 3,
-                    "grammar": "「Thank you」→食べてみて。Please try some＝「どうぞ食べてみて」。",
-                    "grammarSimple": "「どうぞ食べてみて」と言ったから「ありがとう」と答えたんだね。",
+                    "grammar": "チェリーパイを自分で作ったあと、相手が「Thank you」と礼を言う流れ。Please try some.＝どうぞ食べてみて。他人が作った・店で見つけた話や Put it down（置け）は礼の流れに合いません。",
+                    "grammarSimple": "「どうぞ食べてみて」＝ Please try some！",
                     "choiceAnalysis": [
-                        "友人が作った→Didで自分が作ったか聞かれYesと答えた。",
-                        "パン屋で見つけた→自分で作ったと答えた。",
-                        "○ 食べてみて→ありがとう。",
-                        "置いて→文脈に合わない。"
+                        "My friend made it.＝友人が作った、だと自分で作った話と矛盾。",
+                        "I found it at the new bakery.＝店で見つけた話になり、自分作りと矛盾。",
+                        "○ Please try some.＝どうぞ食べてみて。Thank you につながる。",
+                        "Put it down.＝それを置け。勧めの流れに合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「友達が作った」は自分で作ったと言ったのに変だよ。",
-                        "「パン屋で見つけた」も自分で作ったのに変だよ。",
-                        "○「どうぞ食べてみて」→「ありがとう」。ぴったり！",
-                        "「おいて」は関係ないね。"
+                        "友だちが作った、だと話が合わないよ。",
+                        "お店で見つけた、だと話が合わないよ。",
+                        "○「どうぞたべてみて」がぴったり！",
+                        "「おけ」はちがうよ。"
                     ],
                     "translation": "女性: このチェリーパイ、美味しそうですね。成功しましたか、サム？\n男性: はい、サリー。 （ ）\n女性: ありがとうございます。",
                     "choiceTranslations": [
@@ -539,19 +539,19 @@
                         "I'm not sure about it."
                     ],
                     "answer": 2,
-                    "grammar": "「My pleasure」→感謝に対する返事。That's very kind of you＝「ご親切に」。",
-                    "grammarSimple": "「ご親切にありがとう」と言ったから「どういたしまして」と答えた。",
+                    "grammar": "箱を手伝ってもらい、相手が「My pleasure」と返す流れ。That's very kind of you.＝とても親切ですね（お礼）。自分でできる・昨日送った・よくわからない、は助けへの感謝の流れに合いません。",
+                    "grammarSimple": "「とてもしんせつね」＝ That's very kind of you！",
                     "choiceAnalysis": [
-                        "自分でできる→Yes, pleaseと言った後なので矛盾。",
-                        "○ ご親切に→どういたしまして。",
-                        "昨日送った→文脈に合わない。",
-                        "よくわからない→Yes, pleaseと矛盾。"
+                        "I can do it myself.＝自分でできる、だと助けを断る流れ。",
+                        "○ That's very kind of you.＝とても親切ですね。My pleasure につながる。",
+                        "I sent them yesterday.＝昨日送った。今の箱の手伝いと合いません。",
+                        "I'm not sure about it.＝よくわからない。感謝の返事ではありません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「自分でできる」は「お願い」と言ったのに変だよ。",
-                        "○「ご親切にありがとう」→「どういたしまして」ぴったり！",
-                        "「昨日送った」は関係ないね。",
-                        "「よくわからない」は変だよ。"
+                        "じぶんでできる、だとたすけをことわるよ。",
+                        "○「とてもしんせつね」がぴったり！",
+                        "きのうおくった話ではないよ。",
+                        "わからない、はちがうよ。"
                     ],
                     "translation": "男性: その箱についてお手伝いが必要ですか?\n女性: はい、お願いします。 （ ）\n男性: よろしくお願いします。",
                     "choiceTranslations": [
@@ -571,19 +571,19 @@
                         "It looks like fun."
                     ],
                     "answer": 2,
-                    "grammar": "「I'm sorry」→謝罪。It was an accident＝「事故だった」（わざとではない）。",
-                    "grammarSimple": "「ごめんなさい。わざとじゃないの」と言っているよ。",
+                    "grammar": "コップを壊したか聞かれ、「I'm sorry」と謝る流れ。It was an accident.＝事故だった・わざとではない。今使っている・試そうとしていた・楽しそう、は謝罪の理由として合いません。",
+                    "grammarSimple": "「わざとじゃないよ」＝ It was an accident！",
                     "choiceAnalysis": [
-                        "今使っている→壊したと認めた後。",
-                        "○ 事故だった。わざとではない。",
-                        "試そうとしていた→カップについて不自然。",
-                        "楽しそう→壊した話なので不適切。"
+                        "I'm using it right now.＝今使っている。壊した謝罪と合いません。",
+                        "○ It was an accident.＝事故だった。I'm sorry の理由になる。",
+                        "I was going to try it.＝試そうとしていた。謝罪の核心ではありません。",
+                        "It looks like fun.＝楽しそう。謝りの流れに合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「今使っている」はこわれているのに変だよ。",
-                        "○「わざとじゃないの」。ごめんなさい、と言っている。",
-                        "「ためそうとしていた」は変だよ。",
-                        "「楽しそう」はこわした話だから変だよ。"
+                        "いまつかっている、はちがうよ。",
+                        "○「じこだよ・わざとじゃない」がぴったり！",
+                        "ためそうとしていた、はちがうよ。",
+                        "たのしそう、はちがうよ。"
                     ],
                     "translation": "母親: このカップを割ったんですか、ジェフ？\n息子：ごめんなさい、お母さん。 ( )",
                     "choiceTranslations": [
@@ -603,19 +603,19 @@
                         "How often do you go?"
                     ],
                     "answer": 3,
-                    "grammar": "「Only for a few days」→期間で答えている。How long＝どのくらい。",
-                    "grammarSimple": "「数日だけ」と答えているから、「どのくらいいるの？」と聞かれたんだね。",
+                    "grammar": "メキシコ旅行の話に対し、「Only for a few days」＝数日だけ、と期間で答えている流れ。How long will you be there?＝どれくらい滞在する？費用・行き方・頻度の質問だとこの答えに合いません。",
+                    "grammarSimple": "「どれくらいいるの？」＝ How long ...?！",
                     "choiceAnalysis": [
-                        "いくらかかる？→日数は値段ではない。",
-                        "どうやって行く？→日数は交通手段ではない。",
-                        "○ どのくらいいる？→数日だけ。",
-                        "どのくらいの頻度？→日数は頻度ではない。"
+                        "How much will it cost?＝いくらかかる？金額の答えが続くはず。",
+                        "How are you getting there?＝どうやって行く？交通手段の答えが続くはず。",
+                        "○ How long will you be there?＝どれくらいいる？Only for a few days が答え。",
+                        "How often do you go?＝どのくらいの頻度で行く？回数の答えが続くはず。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「いくら？」には「数日」とは答えないよ。",
-                        "「どうやって？」も「数日」とは答えないよ。",
-                        "○「どのくらいいるの？」→「数日だけ」。合うね！",
-                        "「どのくらいの頻度？」も合わないよ。"
+                        "「いくら？」だと金額の答えになるよ。",
+                        "「どうやって行く？」だと行き方の答えになるよ。",
+                        "○「どれくらいいる？」がぴったり！",
+                        "「どのくらいのひんど？」だと回数の答えになるよ。"
                     ],
                     "translation": "男:来月メキシコに旅行に行きます。\n女性: かっこいいですね。 （ ）\n男性: 数日間だけです。",
                     "choiceTranslations": [
@@ -635,19 +635,19 @@
                         "Do you often go to the beach?"
                     ],
                     "answer": 2,
-                    "grammar": "「Yes, it's very famous」→ホテルを知っているか聞いた。Have you heard of＝「聞いたことある？」",
-                    "grammarSimple": "「うん、とても有名だよ」と答えているから、「聞いたことある？」と聞いたんだね。",
+                    "grammar": "Sunny Hotel に泊まる話のあと、「Yes, it's very famous」＝有名だね、と続く流れ。Have you heard of it?＝それ（ホテル）を聞いたことある？到着・泳ぎたい・よく海へ行く、はこの答えに合いません。",
+                    "grammarSimple": "「そのホテル、知ってる？」＝ Have you heard of it？！",
                     "choiceAnalysis": [
-                        "もう着いた？→来月の旅行。",
-                        "○ 聞いたことある？→はい、とても有名。",
-                        "泳ぎたい気分？→有名とは答えない。",
-                        "よくビーチに行く？→有名とは答えない。"
+                        "Have you arrived yet?＝もう着いた？旅の前の会話と合いません。",
+                        "○ Have you heard of it?＝聞いたことある？有名だという返事につながる。",
+                        "Do you feel like swimming?＝泳ぎたい？ホテルの知名度と合いません。",
+                        "Do you often go to the beach?＝よく海へ行く？有名だという答えと合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「もう着いた？」はまだ行っていないよ。",
-                        "○「聞いたことある？」→「うん、有名だよ」。合うね！",
-                        "「泳ぎたい？」には「有名」とは答えないよ。",
-                        "「よくビーチに行く？」にも「有名」とは答えないよ。"
+                        "「もうついた？」はちがうよ。",
+                        "○「しってる？／きいたことある？」がぴったり！",
+                        "「およぎたい？」はちがうよ。",
+                        "「よくうみへ行く？」はちがうよ。"
                     ],
                     "translation": "女性 1: フロリダへの旅行ではどこに滞在しますか、ポーラ?\n女性 2: サニーホテルにて。 （ ）\n女性１：はい、とても有名ですよ。",
                     "choiceTranslations": [
@@ -695,18 +695,18 @@
                                 "People who want to learn more about computers."
                             ],
                             "answer": 4,
-                            "grammar": "「classes for beginners」「show you how to use your computer better」→コンピュータの使い方を学びたい人。",
-                            "grammarSimple": "コンピュータの使い方をもっとべんきょうしたい人むけだよ。",
+                            "grammar": "本文に We have classes for beginners! ... show you how to use your computer better. とあり、初心者向けにコンピュータの使い方を教えるお知らせ。売る・詳しい人向け・買う必要のある人向けではありません。",
+                            "grammarSimple": "本文「初心者むけに使い方を教える」＝学びたい人むけ！",
                             "choiceAnalysis": [
-                                "パソコンを売りたい人→買い方ではなく使い方。",
-                                "コンピュータに詳しい学生→初心者向け。",
-                                "コンピュータを買いたい学生→使い方の教室。",
-                                "○ コンピュータをもっと学びたい人。"
+                                "People who want to sell their computers.＝売る話は本文にありません。",
+                                "Students who know a lot about computers.＝初心者向けで、詳しい人向けではありません。",
+                                "Students who need to buy a computer.＝買う教室ではなく、使い方の教室です。",
+                                "○ People who want to learn more about computers.＝use your computer better と合う。"
                             ],
                             "choiceAnalysisSimple": [
-                                "売りたい人ではないよ。",
-                                "くわしい人ではなく初心者むけだよ。",
-                                "買いたい人ではなく使い方を学ぶ教室だよ。",
+                                "うる話はないよ。",
+                                "くわしい人むけではないよ。",
+                                "かう教室ではないよ。",
                                 "○ もっと学びたい人むけ！"
                             ],
                             "choiceTranslations": [
@@ -727,19 +727,19 @@
                                 "go to the community center website."
                             ],
                             "answer": 1,
-                            "grammar": "「Please contact Sara Roberts on weekdays from 9:00 a.m. to 5:00 p.m. at 555-5555」。",
-                            "grammarSimple": "サラ・ロバーツに電話すればいいんだよ。",
+                            "grammar": "本文に Do you need one? The community center has some. Please contact Sara Roberts ... at 555-5555. とあり、借りたい人はサラ・ロバーツに連絡します。Room 102は教室、先生への相談やウェブサイトは借りる手順ではありません。",
+                            "grammarSimple": "本文「サラ・ロバーツに連絡」＝ call Sara Roberts！",
                             "choiceAnalysis": [
-                                "○ サラ・ロバーツに連絡する。",
-                                "102号室に行く→教室の場所。",
-                                "先生に話す→サラに連絡。",
-                                "ウェブサイトを見る→詳細情報のみ。"
+                                "○ call Sara Roberts.＝Please contact Sara Roberts ... at 555-5555。",
+                                "go to Room 102.＝授業の場所で、借りる連絡先ではありません。",
+                                "talk to one of the teachers.＝借りるときはサラに連絡と書いてあります。",
+                                "go to the community center website.＝詳細情報用で、借りる手順ではありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ サラ・ロバーツに電話しよう！",
-                                "102号室は授業のへやだよ。",
+                                "○ サラ・ロバーツに電話！",
+                                "102号室はじゅぎょうのへやだよ。",
                                 "先生ではなくサラに連絡だよ。",
-                                "ウェブサイトはもっと情報を知りたいとき。"
+                                "ウェブサイトはくわしい情報用だよ。"
                             ],
                             "choiceTranslations": [
                                 "サラ ロバーツに電話します。",
@@ -805,18 +805,18 @@
                             ],
                             "answer": 3,
                             "sourceEvidence": "My mom told me about it.",
-                            "grammar": "アランの1通目に「My mom told me about it」とある。",
-                            "grammarSimple": "「お母さんが教えてくれた」と書いてあるよ。",
+                            "grammar": "アランの1通目に My mom told me about it. とあり、フードマーケットを教えたのはアランのお母さん。ミーナの先生・お父さんや、アランのおじいちゃんではありません。",
+                            "grammarSimple": "本文「お母さんが教えてくれた」＝ Alain's mother！",
                             "choiceAnalysis": [
-                                "ミーナの先生→アランのお母さん。",
-                                "ミーナのお父さん→アランのお母さん。",
-                                "○ アランのお母さん。",
-                                "アランのおじいちゃん→お母さん。"
+                                "Meena's teacher.＝本文にありません。",
+                                "Meena's father.＝サッカー観戦の相手で、マーケットの話ではありません。",
+                                "○ Alain's mother.＝My mom told me about it。",
+                                "Alain's grandfather.＝ゴルフシューズの買い物相手で、教えた人ではありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "ミーナの先生ではないよ。",
+                                "ミーナの先生の話はないよ。",
                                 "ミーナのお父さんではないよ。",
-                                "○ アランのお母さんが教えてくれた！",
+                                "○ アランのお母さん！",
                                 "おじいちゃんではないよ。"
                             ],
                             "choiceTranslations": [
@@ -838,19 +838,19 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "I made a mistake about the soccer game. It's on Saturday at 11:00 a.m.",
-                            "grammar": "ミーナのメールに「It's on Saturday at 11:00 a.m.」とある。",
-                            "grammarSimple": "土曜日にお父さんとサッカーの試合を見に行くんだよ。",
+                            "grammar": "ミーナのメールに I made a mistake about the soccer game. It's on Saturday at 11:00 a.m. とあり、土曜はお父さんとサッカー観戦。ゴルフはアランのおじいちゃん側、自転車でアランの家やバスでコミュニティセンターはミーナの土曜予定ではありません。",
+                            "grammarSimple": "本文「土曜11時にサッカー」＝お父さんと試合を見る！",
                             "choiceAnalysis": [
-                                "○ お父さんとサッカーの試合を見る。",
-                                "ゴルフ→アランのおじいちゃんの予定。",
-                                "自転車でアランの家→そうは書いていない。",
-                                "バスでコミュニティセンター→アランの予定。"
+                                "○ Watch a soccer game with her father.＝soccer game ... on Saturday。",
+                                "Play golf with her grandfather.＝ゴルフシューズはアラン側の話です。",
+                                "Ride her bicycle to Alain's house.＝日曜に自転車で行く話で、土曜ではありません。",
+                                "Take a bus to the community center.＝バスで行くのはアランです。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ お父さんとサッカーの試合を見るよ！",
-                                "ゴルフはアランのおじいちゃんの予定だよ。",
-                                "自転車でアランの家には行かないよ。",
-                                "バスはアランが使うんだよ。"
+                                "○ お父さんとサッカーを見る！",
+                                "ゴルフはアラン側の話だよ。",
+                                "自転車で家に行く土曜予定ではないよ。",
+                                "バスはアランが使うよ。"
                             ],
                             "choiceTranslations": [
                                 "父親と一緒にサッカーの試合を観戦します。",
@@ -871,19 +871,19 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "finishes at noon",
-                            "grammar": "アランの3通目に「finishes at noon」とある。",
-                            "grammarSimple": "正午にフードマーケットが終わるよ。",
+                            "grammar": "アランの3通目に The market starts at 9:00 a.m. and finishes at noon. とあり、日曜の正午にフードマーケットが終わります。おじいちゃんへの電話・木を切る話はなく、到着は10時の約束です。",
+                            "grammarSimple": "本文「正午に終わる」＝ The food market will end！",
                             "choiceAnalysis": [
-                                "○ フードマーケットが終わる。",
-                                "おじいちゃんに電話→そうは書いていない。",
-                                "木が切られる→そうは書いていない。",
-                                "アランが到着→10時に会う約束。"
+                                "○ The food market will end.＝finishes at noon。",
+                                "Alain will call his grandfather.＝本文にありません。",
+                                "A tree will be cut down.＝大きな木は待ち合わせ場所で、切る話はありません。",
+                                "Alain will arrive at the community center.＝10:00 a.m. に会う約束です。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○ マーケットが終わるよ！",
-                                "おじいちゃんに電話するとは書いていないよ。",
-                                "木を切るとは書いていないよ。",
-                                "アランは10時に着く約束だよ。"
+                                "おじいちゃんに電話する話はないよ。",
+                                "木を切る話はないよ。",
+                                "アランは10時に会う約束だよ。"
                             ],
                             "choiceTranslations": [
                                 "食品市場は終了します。",
@@ -923,19 +923,19 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "the SS Savannah became a sailing ship that had a steam engine, too",
-                            "grammar": "帆船に蒸気機関が追加された。",
-                            "grammarSimple": "蒸気エンジンが追加されたんだよ。",
+                            "grammar": "本文に a change was made to the ship's design. ... the SS Savannah became a sailing ship that had a steam engine, too. とあり、計画の変更は蒸気機関の追加。船を大きくする・カーテンを外す・部屋を小さくする、とは書いてありません。",
+                            "grammarSimple": "本文「蒸気機関もついた帆船に」＝ A steam engine was added！",
                             "choiceAnalysis": [
-                                "○ 蒸気機関が追加された。",
-                                "船を大きくした→そうは書いていない。",
-                                "カーテンを外した→そうは書いていない。",
-                                "部屋を小さくした→そうは書いていない。"
+                                "○ A steam engine was added.＝had a steam engine, too。",
+                                "The captain made the ship much bigger.＝本文にありません。",
+                                "The curtains were taken off the ship.＝設計にあったカーテンで、外した話ではありません。",
+                                "Some rooms were made smaller.＝大きな部屋の設計で、小さくした話ではありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ 蒸気エンジンがつけ加えられた！",
-                                "大きくしたとは書いていないよ。",
-                                "カーテンを外したとは書いていないよ。",
-                                "部屋を小さくしたとは書いていないよ。"
+                                "○ 蒸気機関が追加された！",
+                                "大きくした話はないよ。",
+                                "カーテンを外した話ではないよ。",
+                                "部屋を小さくした話はないよ。"
                             ],
                             "choiceTranslations": [
                                 "蒸気機関が追加されました。",
@@ -956,19 +956,19 @@
                             ],
                             "answer": 4,
                             "sourceEvidence": "They thought such a ship could not travel so far.",
-                            "grammar": "「They thought such a ship could not travel so far」とある。",
-                            "grammarSimple": "「そんな船はそんなに遠くまで行けない」と思ったから心配したんだよ。",
+                            "grammar": "本文に This plan worried some people because England was far away. They thought such a ship could not travel so far. とあり、遠くまで行けないと思ったから心配。イギリスが船を欲しがる・船長が悪い・お金の話ではありません。",
+                            "grammarSimple": "本文「そんなに遠くまで行けないと思った」＝ worried！",
                             "choiceAnalysis": [
-                                "イギリスが船を欲しがる→そうは書いていない。",
-                                "船長がよくない→そうは書いていない。",
-                                "お金が多すぎる→そうは書いていない。",
-                                "○ 船が遠くまで行けないと思った。"
+                                "They thought England wanted to keep the ship.＝本文にありません。",
+                                "The ship's captain was not a good captain.＝本文にありません。",
+                                "The ship's captain wanted too much money.＝本文にありません。",
+                                "○ They thought the ship could not travel a long way.＝could not travel so far。"
                             ],
                             "choiceAnalysisSimple": [
-                                "イギリスが船をほしがるとは書いていないよ。",
-                                "船長が悪いとは書いていないよ。",
-                                "お金の話ではないよ。",
-                                "○ 船がそんなに遠くまで行けないと思ったんだ。"
+                                "イギリスがほしがる話はないよ。",
+                                "船長が悪い話はないよ。",
+                                "お金の話はないよ。",
+                                "○ 遠くまで行けないと思ったから！"
                             ],
                             "choiceTranslations": [
                                 "彼らは、イングランドが船を維持したいと考えていたと考えました。",
@@ -989,19 +989,19 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "Many people in England went to see this ship.",
-                            "grammar": "「Many people in England went to see this ship」とある。",
-                            "grammarSimple": "イギリスのたくさんの人がこの船を見に来たよ。",
+                            "grammar": "本文に Many people in England went to see this ship. とあり、イギリス到着後に多くの人が見に来ました。スウェーデン人が買おうとした・帰れと言った・スウェーデンの船だと思った、とは書いてありません（スウェーデンは帰国前に訪れた国）。",
+                            "grammarSimple": "本文「多くの人が見に来た」＝ many people went to see it！",
                             "choiceAnalysis": [
-                                "○ 多くの人が見に来た。",
-                                "スウェーデン人が買おうとした→そうは書いていない。",
-                                "船長に帰れと言った→そうは書いていない。",
-                                "スウェーデンの船と思った→そうは書いていない。"
+                                "○ many people went to see it.＝Many people in England went to see this ship。",
+                                "a person from Sweden tried to buy it.＝本文にありません。",
+                                "some people told the captain to leave.＝本文にありません。",
+                                "people thought it was from Sweden.＝スウェーデンは訪れた国で、出身だと思われた話ではありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ たくさんの人が見に来たよ！",
-                                "買おうとした人はいないよ。",
-                                "帰れと言った人はいないよ。",
-                                "スウェーデンから来たとは思われていないよ。"
+                                "○ たくさんの人が見に来た！",
+                                "買おうとした話はないよ。",
+                                "帰れと言った話はないよ。",
+                                "スウェーデンの船だと思われた話ではないよ。"
                             ],
                             "choiceTranslations": [
                                 "多くの人がそれを見に行った。",
@@ -1022,19 +1022,19 @@
                             ],
                             "answer": 1,
                             "sourceEvidence": "the SS Savannah had an accident near New York City and broke into many pieces",
-                            "grammar": "「had an accident near New York City and broke into many pieces」とある。",
-                            "grammarSimple": "事故を起こしてバラバラになっちゃったんだ。",
+                            "grammar": "本文に in the early 1820s, the SS Savannah had an accident near New York City and broke into many pieces. とあり、最終的に事故でバラバラになりました。会社への売却・新造船への部品利用・博物館収蔵は本文にありません。",
+                            "grammarSimple": "本文「事故でバラバラに」＝ accident and broke into pieces！",
                             "choiceAnalysis": [
-                                "○ 事故でバラバラになった。",
-                                "会社に売られた→そうは書いていない。",
-                                "新しい船に使われた→そうは書いていない。",
-                                "博物館に入った→そうは書いていない。"
+                                "○ It had an accident and broke into pieces.＝had an accident ... broke into many pieces。",
+                                "It was sold to a company in New York.＝本文にありません。",
+                                "Its parts were used to build new ships.＝本文にありません。",
+                                "It was put in a museum in England.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "○ 事故を起こしてこわれちゃった。かなしいね。",
-                                "会社に売られたとは書いていないよ。",
-                                "新しい船をつくったとは書いていないよ。",
-                                "博物館に入ったとは書いていないよ。"
+                                "○ 事故でこわれてしまったよ。",
+                                "会社に売られた話はないよ。",
+                                "新しい船に使われた話はないよ。",
+                                "博物館に入った話はないよ。"
                             ],
                             "choiceTranslations": [
                                 "事故に遭って粉々に砕けました。",
@@ -1054,19 +1054,19 @@
                                 "A company that cleans boats."
                             ],
                             "answer": 3,
-                            "grammar": "蒸気機関を使って初めて大西洋を横断した船SSサバンナの話。",
-                            "grammarSimple": "とくべつな旅をした船「SSサバンナ」のお話だよ。",
+                            "grammar": "本文全体は、蒸気の力も使い大西洋を渡った特別な旅をした船 SS Savannah の話です。ヨーロッパの蒸気機関人気・イギリス人船長の生涯・船を掃除する会社の話ではありません。",
+                            "grammarSimple": "本文全体＝とくべつな旅をした船の話！",
                             "choiceAnalysis": [
-                                "ヨーロッパの蒸気機関→船の話。",
-                                "イギリス人船長→アメリカの船長。",
-                                "○ 特別な旅をした船。",
-                                "船を掃除する会社→そんな話ではない。"
+                                "Popular steam engines in Europe.＝蒸気機関は出てきますが、主題は船の旅です。",
+                                "The life of an English captain.＝アメリカの船の船長で、生涯全体の話ではありません。",
+                                "○ A ship that made a special trip.＝大西洋横断など特別な旅をした船の話。",
+                                "A company that cleans boats.＝本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
-                                "蒸気機関の話だけではないよ。",
-                                "イギリス人ではなくアメリカの船長だよ。",
+                                "蒸気機関だけの話ではないよ。",
+                                "イギリス人船長の人生の話ではないよ。",
                                 "○ とくべつな旅をした船のお話！",
-                                "お掃除の会社ではないよ。"
+                                "おそうじの会社の話ではないよ。"
                             ],
                             "choiceTranslations": [
                                 "ヨーロッパで人気の蒸気機関。",

@@ -1,1725 +1,1725 @@
 {
-    "title": "英検3級 2024年度 第3回",
-    "grade": "grade3",
-    "exam": "2024-3",
-    "sections": [
+  "title": "英検3級 2024年度 第3回",
+  "grade": "grade3",
+  "exam": "2024-3",
+  "sections": [
+    {
+      "name": "大問1",
+      "nameEn": "Part 1",
+      "type": "vocabulary",
+      "instruction": "次の(1)から(15)までの（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "questions": [
         {
-            "name": "大問1",
-            "nameEn": "Part 1",
-            "type": "vocabulary",
-            "instruction": "次の(1)から(15)までの（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "questions": [
-                {
-                    "number": 1,
-                    "text": "A: Your sister is a nurse, isn't she?\nB: No, that's not (　). She is a doctor.",
-                    "choices": [
-                        "clean",
-                        "true",
-                        "easy",
-                        "fine"
-                    ],
-                    "answer": 2,
-                    "grammar": "that's not true＝「それは本当ではない」。看護師ではなく医者。",
-                    "grammarSimple": "true は「ほんとう」。看護師じゃなくてお医者さんだよ。",
-                    "choiceAnalysis": [
-                        "clean＝きれい。文脈に合わない。",
-                        "○ true＝本当。それは本当じゃない。",
-                        "easy＝簡単。文脈に合わない。",
-                        "fine＝元気。文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "clean は「きれい」。合わないよ。",
-                        "○ true は「ほんとう」。ちがうよ、お医者さんだよ。",
-                        "easy は「かんたん」。合わないよ。",
-                        "fine は「だいじょうぶ」。合わないよ。"
-                    ],
-                    "translation": "A: あなたの妹は看護師ですよね。\nB: いえ、そうではありません（ ）。彼女は医者です。",
-                    "choiceTranslations": [
-                        "クリーン",
-                        "真実",
-                        "簡単",
-                        "大丈夫"
-                    ]
-                },
-                {
-                    "number": 2,
-                    "text": "A: What is the (　) of your report?\nB: Life in Brazil.",
-                    "choices": [
-                        "topic",
-                        "reason",
-                        "chance",
-                        "way"
-                    ],
-                    "answer": 1,
-                    "grammar": "topic＝「テーマ・話題」。レポートのテーマは？",
-                    "grammarSimple": "topic は「テーマ」。レポートのテーマはブラジルの生活だよ。",
-                    "choiceAnalysis": [
-                        "○ topic＝テーマ。レポートの話題。",
-                        "reason＝理由。文脈に合わない。",
-                        "chance＝機会。文脈に合わない。",
-                        "way＝方法。文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ topic は「テーマ」。何についてのレポート？",
-                        "reason は「りゆう」。合わないよ。",
-                        "chance は「きかい」。合わないよ。",
-                        "way は「ほうほう」。合わないよ。"
-                    ],
-                    "translation": "A: あなたの報告書の ( ) は何ですか?\nB: ブラジルでの生活。",
-                    "choiceTranslations": [
-                        "トピック",
-                        "理由",
-                        "チャンス",
-                        "方法"
-                    ]
-                },
-                {
-                    "number": 3,
-                    "text": "A: Excuse me. Where is the main (　) of this library?\nB: Well, it's over there.",
-                    "choices": [
-                        "tournament",
-                        "planet",
-                        "entrance",
-                        "horizon"
-                    ],
-                    "answer": 3,
-                    "grammar": "entrance＝「入口」。図書館の正面入口はどこ？",
-                    "grammarSimple": "entrance は「いりぐち」。としょかんの入り口はどこ？",
-                    "choiceAnalysis": [
-                        "tournament＝トーナメント。文脈に合わない。",
-                        "planet＝惑星。文脈に合わない。",
-                        "○ entrance＝入口。main entrance＝正面入口。",
-                        "horizon＝地平線。文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "tournament は「トーナメント」。合わないよ。",
-                        "planet は「わくせい」。合わないよ。",
-                        "○ entrance は「いりぐち」。正面入り口はあっちだよ。",
-                        "horizon は「ちへいせん」。合わないよ。"
-                    ],
-                    "translation": "A: すみません。この図書館のメイン（ ）はどこですか？\nB: そうですね、あそこです。",
-                    "choiceTranslations": [
-                        "トーナメント",
-                        "惑星",
-                        "入り口",
-                        "地平線"
-                    ]
-                },
-                {
-                    "number": 4,
-                    "text": "A: I love this hotel.\nB: Me, too. The (　) from our room is beautiful.",
-                    "choices": [
-                        "view",
-                        "chance",
-                        "century",
-                        "health"
-                    ],
-                    "answer": 1,
-                    "grammar": "view＝「景色」。部屋からの景色がきれい。",
-                    "grammarSimple": "view は「けしき」。部屋から見えるけしきがきれいだね。",
-                    "choiceAnalysis": [
-                        "○ view＝景色。部屋からの眺め。",
-                        "chance＝機会。文脈に合わない。",
-                        "century＝世紀。文脈に合わない。",
-                        "health＝健康。文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ view は「けしき」。きれいな眺めだね！",
-                        "chance は「きかい」。合わないよ。",
-                        "century は「せいき」。合わないよ。",
-                        "health は「けんこう」。合わないよ。"
-                    ],
-                    "translation": "A: このホテルが大好きです。\nB: 私もですよ。私たちの部屋からの ( ) は美しいです。",
-                    "choiceTranslations": [
-                        "ビュー",
-                        "チャンス",
-                        "世紀",
-                        "健康"
-                    ]
-                },
-                {
-                    "number": 5,
-                    "text": "A: Look at the sky. It's getting (　).\nB: Yes. Let's go home soon.",
-                    "choices": [
-                        "dark",
-                        "young",
-                        "low",
-                        "wide"
-                    ],
-                    "answer": 1,
-                    "grammar": "getting dark＝「暗くなってきた」。帰ろう。",
-                    "grammarSimple": "getting dark は「くらくなってきた」。はやく帰ろう。",
-                    "choiceAnalysis": [
-                        "○ dark＝暗い。空が暗くなっている。",
-                        "young＝若い。空にはおかしい。",
-                        "low＝低い。空にはおかしい。",
-                        "wide＝広い。空にはおかしい。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ dark は「くらい」。空がくらくなってきたよ。",
-                        "young は「わかい」。合わないよ。",
-                        "low は「ひくい」。合わないよ。",
-                        "wide は「ひろい」。合わないよ。"
-                    ],
-                    "translation": "A: 空を見てください。 （ ）になっています。\nB: はい。そろそろ家に帰りましょう。",
-                    "choiceTranslations": [
-                        "暗い",
-                        "若い",
-                        "低い",
-                        "広い"
-                    ]
-                },
-                {
-                    "number": 6,
-                    "text": "Yuka made chairs and tables yesterday. She used a lot of (　).",
-                    "choices": [
-                        "sound",
-                        "bread",
-                        "wood",
-                        "danger"
-                    ],
-                    "answer": 3,
-                    "grammar": "wood＝「木材」。椅子とテーブルを作るのに木材を使った。",
-                    "grammarSimple": "wood は「木」。椅子やテーブルを作るのに木をたくさん使った。",
-                    "choiceAnalysis": [
-                        "sound＝音。椅子作りに不適切。",
-                        "bread＝パン。椅子作りに不適切。",
-                        "○ wood＝木材。家具作り。",
-                        "danger＝危険。文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "sound は「おと」。合わないよ。",
-                        "bread は「パン」。合わないよ。",
-                        "○ wood は「木」。椅子やテーブルは木で作るね！",
-                        "danger は「きけん」。合わないよ。"
-                    ],
-                    "translation": "ユカは昨日椅子とテーブルを作りました。彼女はたくさんの ( ) を使いました。",
-                    "choiceTranslations": [
-                        "音",
-                        "パン",
-                        "木材",
-                        "危険"
-                    ]
-                },
-                {
-                    "number": 7,
-                    "text": "Jim's family went to the movies yesterday, but Jim was tired, so he (　) to stay home.",
-                    "choices": [
-                        "decided",
-                        "practiced",
-                        "joined",
-                        "invited"
-                    ],
-                    "answer": 1,
-                    "grammar": "decided to＝「〜することに決めた」。疲れていたので家にいることにした。",
-                    "grammarSimple": "decided to は「〜することにきめた」。つかれていたから家にいることにした。",
-                    "choiceAnalysis": [
-                        "○ decided＝決めた。decided to stay home。",
-                        "practiced＝練習した。practiced to は不自然。",
-                        "joined＝参加した。joined to は不自然。",
-                        "invited＝招待した。invited to stay は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ decided は「きめた」。家にいることにした！",
-                        "practiced は「れんしゅうした」。合わないよ。",
-                        "joined は「さんかした」。合わないよ。",
-                        "invited は「しょうたいした」。合わないよ。"
-                    ],
-                    "translation": "Jim の家族は昨日映画に行きましたが、ジムは疲れていたので、彼は ( ) 家にいるようにしました。",
-                    "choiceTranslations": [
-                        "決定",
-                        "練習",
-                        "参加",
-                        "招待"
-                    ]
-                },
-                {
-                    "number": 8,
-                    "text": "A: How (　) do you go to the library, Nancy?\nB: About twice a month.",
-                    "choices": [
-                        "quickly",
-                        "often",
-                        "really",
-                        "far"
-                    ],
-                    "answer": 2,
-                    "grammar": "How often＝「どのくらいの頻度で」。月2回の回答→頻度を聞いた。",
-                    "grammarSimple": "How often は「どのくらいよく」。月に2回くらい行くんだね。",
-                    "choiceAnalysis": [
-                        "quickly＝速く。twice a month は速さではない。",
-                        "○ often＝頻度。twice a month＝月2回。",
-                        "really＝本当に。twice a month は合わない。",
-                        "far＝遠く。twice a month は距離ではない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "quickly は「はやく」。回数を答えているから合わないよ。",
-                        "○ often がぴったり！「どのくらいよく？」→「月に2回」",
-                        "really は「ほんとうに」。合わないよ。",
-                        "far は「とおく」。合わないよ。"
-                    ],
-                    "translation": "A: ナンシー、どうやって ( ) 図書館に行きますか?\nB: 月に 2 回くらいです。",
-                    "choiceTranslations": [
-                        "クイックリー__SPLIT_ _often",
-                        "really",
-                        "far",
-                        "became"
-                    ]
-                },
-                {
-                    "number": 9,
-                    "text": "After Miki got off the bus, she (　) her way and walked for an hour.",
-                    "choices": [
-                        "became",
-                        "spent",
-                        "lost",
-                        "brought"
-                    ],
-                    "answer": 3,
-                    "grammar": "lost her way＝「道に迷った」。バスを降りてから道に迷って1時間歩いた。",
-                    "grammarSimple": "lost her way は「道にまよった」。1時間もあるいちゃった。",
-                    "choiceAnalysis": [
-                        "became＝なった。became her way は不自然。",
-                        "spent＝過ごした。spent her way は不自然。",
-                        "○ lost＝失った。lost her way＝道に迷った。",
-                        "brought＝持ってきた。brought her way は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "became は「なった」。合わないよ。",
-                        "spent は「すごした」。合わないよ。",
-                        "○ lost がぴったり！「道にまよった」。",
-                        "brought は「持ってきた」。合わないよ。"
-                    ],
-                    "translation": "その後、ミキはバスから降りて、彼女は ( ) 彼女の道を歩いて 1 時間歩きました。",
-                    "choiceTranslations": [
-                        "spent",
-                        "lost",
-                        "brought",
-                        "invent"
-                    ]
-                },
-                {
-                    "number": 10,
-                    "text": "A: It is important to protect the environment.\nB: I (　) with you. We should be more eco-friendly.",
-                    "choices": [
-                        "invent",
-                        "agree",
-                        "fill",
-                        "grow"
-                    ],
-                    "answer": 2,
-                    "grammar": "agree with＝「〜に同意する」。環境保護に賛成。",
-                    "grammarSimple": "agree with は「〜にさんせい」。かんきょうを守ることにさんせいだよ。",
-                    "choiceAnalysis": [
-                        "invent＝発明する。invent with は不自然。",
-                        "○ agree＝同意する。I agree with you。",
-                        "fill＝満たす。fill with は別の意味。",
-                        "grow＝育つ。grow with は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "invent は「はつめいする」。合わないよ。",
-                        "○ agree は「さんせい」。あなたの意見にさんせい！",
-                        "fill は「みたす」。合わないよ。",
-                        "grow は「そだつ」。合わないよ。"
-                    ],
-                    "translation": "A: 環境を保護することは重要です。\nB: 私はあなたと一緒に（ ）。私たちはもっと環境に優しくあるべきです。",
-                    "choiceTranslations": [
-                        "agree",
-                        "fill",
-                        "grow",
-                        "at"
-                    ]
-                },
-                {
-                    "number": 11,
-                    "text": "This restaurant is famous (　) its great pizza and cheap prices.",
-                    "choices": [
-                        "at",
-                        "into",
-                        "as",
-                        "for"
-                    ],
-                    "answer": 4,
-                    "grammar": "famous for＝「〜で有名」。ピザとお手頃価格で有名。",
-                    "grammarSimple": "famous for は「〜でゆうめい」。おいしいピザで有名なお店。",
-                    "choiceAnalysis": [
-                        "famous at は不自然。",
-                        "famous into は不自然。",
-                        "famous as＝〜として有名。for が正しい。",
-                        "○ for＝famous for＝〜で有名。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "at は合わないよ。",
-                        "into は合わないよ。",
-                        "as は「〜として」。ここでは for。",
-                        "○ for がぴったり！ピザでゆうめい！"
-                    ],
-                    "translation": "このレストランは有名です () 素晴らしいピザと安い価格です。",
-                    "choiceTranslations": [
-                        "into",
-                        "as",
-                        "for",
-                        "opinion__ SPLIT__身長"
-                    ]
-                },
-                {
-                    "number": 12,
-                    "text": "A: What do you think of this book, Dad?\nB: In my (　), it is really good.",
-                    "choices": [
-                        "opinion",
-                        "height",
-                        "problem",
-                        "contact"
-                    ],
-                    "answer": 1,
-                    "grammar": "in my opinion＝「私の意見では」。定型表現。",
-                    "grammarSimple": "in my opinion は「わたしの意見では」。すごくいい本だと思うよ。",
-                    "choiceAnalysis": [
-                        "○ opinion＝意見。in my opinion。",
-                        "height＝高さ。in my height は不自然。",
-                        "problem＝問題。in my problem は不自然。",
-                        "contact＝連絡。in my contact は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ opinion は「いけん」。in my opinion で「ぼくの意見では」。",
-                        "height は「たかさ」。合わないよ。",
-                        "problem は「もんだい」。合わないよ。",
-                        "contact は「れんらく」。合わないよ。"
-                    ],
-                    "translation": "A: この本についてどう思いますか、お父さん?\nB: In my ( ), it is very good.",
-                    "choiceTranslations": [
-                        "問題",
-                        "連絡先",
-                        "彼女",
-                        "彼女自身"
-                    ]
-                },
-                {
-                    "number": 13,
-                    "text": "Tom got a pet cat last summer. He named (　) Moka.",
-                    "choices": [
-                        "she",
-                        "herself",
-                        "her",
-                        "hers"
-                    ],
-                    "answer": 3,
-                    "grammar": "named her＝「彼女をモカと名付けた」。SVOC構文。name＋目的語＋名前。",
-                    "grammarSimple": "named her は「彼女をモカと名づけた」。ねこにモカって名前をつけた。",
-                    "choiceAnalysis": [
-                        "she＝主格。目的語には使えない。",
-                        "herself＝再帰代名詞。He named herself は不自然。",
-                        "○ her＝目的格。He named her Moka。",
-                        "hers＝所有代名詞。named hers は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "she は「彼女は」。ここには使えないよ。",
-                        "herself は「自分自身を」。ここには使えないよ。",
-                        "○ her がぴったり！「彼女をモカと名づけた」。",
-                        "hers は「彼女のもの」。合わないよ。"
-                    ],
-                    "translation": "トムは去年の夏にペットの猫を飼いました。彼は( )モカと名付けました。",
-                    "choiceTranslations": [
-                        "her",
-                        "hers",
-                        "stolen",
-                        "stealing"
-                    ]
-                },
-                {
-                    "number": 14,
-                    "text": "The police looked for the bicycle (　) from a bicycle shop. Finally, they found it on the street.",
-                    "choices": [
-                        "stolen",
-                        "stealing",
-                        "steals",
-                        "stole"
-                    ],
-                    "answer": 1,
-                    "grammar": "過去分詞の形容詞的用法。stolen from＝「〜から盗まれた」。bicycle stolen from＝自転車屋から盗まれた自転車。",
-                    "grammarSimple": "stolen は「ぬすまれた」。自転車屋さんからぬすまれた自転車をさがしていた。",
-                    "choiceAnalysis": [
-                        "○ stolen＝過去分詞。盗まれた自転車。",
-                        "stealing＝現在分詞。bicycle stealing from は不自然。",
-                        "steals＝三人称。bicycle steals は不自然。",
-                        "stole＝過去形。bicycle stole は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ stolen がぴったり！「ぬすまれた」自転車。",
-                        "stealing は「ぬすんでいる」。合わないよ。",
-                        "steals は合わないよ。",
-                        "stole は「ぬすんだ」。合わないよ。"
-                    ],
-                    "translation": "警察は自転車屋からその自転車( )を探しました。最後に、彼らはそれを路上で見つけました。__分割__ジャックの妻は新しいコンピュータを必要としています。彼女はカバンに入れて持ち歩きやすいもの（ ）を望んでいます。",
-                    "choiceTranslations": [
-                        "steals",
-                        "stole",
-                        "どれ",
-                        "何を"
-                    ]
-                },
-                {
-                    "number": 15,
-                    "text": "Jack's wife needs a new computer. She wants one (　) is easy to carry in her bag.",
-                    "choices": [
-                        "which",
-                        "what",
-                        "who",
-                        "where"
-                    ],
-                    "answer": 1,
-                    "grammar": "関係代名詞 which。one which is easy to carry＝「持ち運びやすいもの」。",
-                    "grammarSimple": "which は「〜の」。バッグに入れて持ち運びやすいのがほしいんだ。",
-                    "choiceAnalysis": [
-                        "○ which＝関係代名詞。物を先行詞とする。",
-                        "what＝何。one what は不自然。",
-                        "who＝誰。物には使えない。",
-                        "where＝場所。one where は不自然。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○ which がぴったり！持ち運びやすいコンピュータ。",
-                        "what は合わないよ。",
-                        "who は人に使うよ。コンピュータには使えない。",
-                        "where は「どこ」。合わないよ。"
-                    ],
-                    "translation": "ジャックの妻は新しいコンピュータを必要としています。彼女はカバンに入れて持ち歩きやすいもの（ ）を望んでいます。",
-                    "choiceTranslations": [
-                        "誰",
-                        "どこ",
-                        "誰が",
-                        "どこ"
-                    ]
-                }
-            ]
+          "number": 1,
+          "text": "A: Your sister is a nurse, isn't she?\nB: No, that's not (　). She is a doctor.",
+          "choices": [
+            "clean",
+            "true",
+            "easy",
+            "fine"
+          ],
+          "answer": 2,
+          "grammar": "妹は看護師？→No, that's not (　). She is a doctor. と続くので「それは本当ではない」。true＝「本当の」。that's not true で「それは本当ではない」。clean（きれい）・easy（簡単）・fine（元気／大丈夫）は「事実の否定」には合いません。",
+          "grammarSimple": "「看護師じゃないよ、お医者さんだよ」＝ that's not true（ほんとうじゃない）！clean（きれい）・easy（かんたん）・fine（だいじょうぶ）は合わないよ。",
+          "choiceAnalysis": [
+            "clean＝きれい。事実の否定には使いません。",
+            "○ true＝本当の。that's not true＝それは本当ではない。",
+            "easy＝簡単。文の流れに合いません。",
+            "fine＝元気／大丈夫。that's not fine では「事実の訂正」になりません。"
+          ],
+          "choiceAnalysisSimple": [
+            "clean は「きれい」。合わないよ。",
+            "○ true は「ほんとう」。that's not true＝「ほんとうじゃない」！",
+            "easy は「かんたん」。合わないよ。",
+            "fine は「だいじょうぶ」。ここには合わないよ。"
+          ],
+          "translation": "A: あなたの妹は看護師ですよね。\nB: いえ、そうではありません（ ）。彼女は医者です。",
+          "choiceTranslations": [
+            "クリーン",
+            "真実",
+            "簡単",
+            "大丈夫"
+          ]
         },
         {
-            "name": "大問2",
-            "nameEn": "Part 2",
-            "type": "vocabulary",
-            "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "questions": [
-                {
-                    "number": 16,
-                    "text": "Wife: Mike, you can't wear that suit to Sally's wedding.\nHusband: (　)\nWife: It's too old. Go and put on your nice gray one.",
-                    "choices": [
-                        "What's wrong with it?",
-                        "Can you remember?",
-                        "What are you going to wear?",
-                        "Are they married?"
-                    ],
-                    "answer": 1,
-                    "grammar": "「古すぎる」→スーツの何がいけないのか聞いた。What's wrong with it?＝「何がいけないの？」",
-                    "grammarSimple": "「何がいけないの？」と聞いたら「古すぎる」と言われたんだね。",
-                    "choiceAnalysis": [
-                        "○ 何がいけないの？→古すぎる。",
-                        "覚えてる？→文脈に合わない。",
-                        "何を着る予定？→妻に対してではなく自分のこと。",
-                        "結婚してる？→結婚式の話。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "○「何がいけないの？」→「古すぎるの」。ぴったり！",
-                        "「おぼえてる？」は関係ないね。",
-                        "「何を着るの？」は自分のことだから変だよ。",
-                        "「結婚してる？」は結婚式に行く話だから変だよ。"
-                    ],
-                    "translation": "妻: マイク、そのスーツはサリーの結婚式には着られないよ。\n夫：（ ）\n妻：もう古いですね。行って、素敵なグレーの服を着てください。",
-                    "choiceTranslations": [
-                        "どうしたのですか?",
-                        "覚えていますか?",
-                        "何を着るつもりですか?",
-                        "彼らは結婚していますか?"
-                    ]
-                },
-                {
-                    "number": 17,
-                    "text": "Man: I'm looking forward to this weekend.\nWoman: (　)\nMan: I'm just going to relax in my garden.",
-                    "choices": [
-                        "Why didn't you tell me?",
-                        "When will you come back?",
-                        "Where did you get those flowers?",
-                        "What are you planning to do?"
-                    ],
-                    "answer": 4,
-                    "grammar": "「庭でリラックスする」→何をする予定？と聞かれた。",
-                    "grammarSimple": "「何をするの？」と聞かれて「庭でゆっくりする」と答えたんだね。",
-                    "choiceAnalysis": [
-                        "なぜ言わなかった？→文脈に合わない。",
-                        "いつ戻る？→庭でリラックスは答えにならない。",
-                        "花はどこで買った？→文脈に合わない。",
-                        "○ 何をする予定？→庭でリラックス。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "「なぜ言わなかったの？」は関係ないね。",
-                        "「いつもどるの？」には「庭でゆっくり」とは答えないよ。",
-                        "「花はどこで？」は関係ないね。",
-                        "○「何をするの？」→「庭でゆっくりする」。合うね！"
-                    ],
-                    "translation": "男性: 今週末を楽しみにしています。\n女：（ ）\n男性: 庭でリラックスするだけです。",
-                    "choiceTranslations": [
-                        "なぜ教えてくれなかったのですか?",
-                        "いつ戻ってきますか?",
-                        "その花はどこで手に入れましたか?",
-                        "何をする予定ですか?"
-                    ]
-                },
-                {
-                    "number": 18,
-                    "text": "Woman: Excuse me. Do you have this red hat in a smaller size?\nStore clerk: I'm sorry. (　)",
-                    "choices": [
-                        "We'll wait for you.",
-                        "We sold the last one yesterday.",
-                        "I don't know you.",
-                        "That's a red hat."
-                    ],
-                    "answer": 2,
-                    "grammar": "「I'm sorry」→在庫がない。昨日最後の一つを売った。",
-                    "grammarSimple": "「ごめんなさい、昨日さいごの1つを売っちゃいました」。もうないんだね。",
-                    "choiceAnalysis": [
-                        "お待ちします→小さいサイズの質問に合わない。",
-                        "○ 昨日最後の一つを売りました。",
-                        "あなたを知らない→失礼すぎる。",
-                        "それは赤い帽子です→質問と合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "「まちます」は変だよ。",
-                        "○「昨日さいごの1つを売っちゃいました」。もうないんだ。",
-                        "「あなたを知りません」は失礼だよ。",
-                        "「それは赤い帽子です」は答えになっていないよ。"
-                    ],
-                    "translation": "女性: すみません。この赤い帽子の小さいサイズはありますか？\n店員：申し訳ございません。 ( )",
-                    "choiceTranslations": [
-                        "お待ちしています。",
-                        "昨日最後の1つを売りました。",
-                        "Iあなたを知りません。",
-                        "あれは赤い帽子です。"
-                    ]
-                },
-                {
-                    "number": 19,
-                    "text": "Man: I saw a Mexican restaurant near the station this morning. (　)\nWoman: I often eat there. The food is delicious.",
-                    "choices": [
-                        "How can I get there?",
-                        "What did you have?",
-                        "Have you ever been there?",
-                        "Do you like to travel?"
-                    ],
-                    "answer": 3,
-                    "grammar": "「よく食べに行く。おいしい」→行ったことがあるか聞かれた。Have you ever been there?",
-                    "grammarSimple": "「行ったことある？」と聞かれて「よく行くよ。おいしいよ」と答えたんだね。",
-                    "choiceAnalysis": [
-                        "どうやって行く？→よく行くとは答えない。",
-                        "何を食べた？→まだ行っていない。",
-                        "○ 行ったことある？→よく食べに行く。",
-                        "旅行が好き？→レストランの話。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "「どうやって行くの？」には「よく食べる」とは答えないよ。",
-                        "「何を食べた？」はまだ行っていないから変だよ。",
-                        "○「行ったことある？」→「よく食べに行くよ。おいしい！」",
-                        "「旅行が好き？」はレストランの話だから変だよ。"
-                    ],
-                    "translation": "男:今朝、駅の近くでメキシコ料理レストランを見ました。 （ ）\n女性: よくそこで食べます。食べ物はおいしいです。",
-                    "choiceTranslations": [
-                        "どうやってそこに行けますか?",
-                        "何を持っていましたか?",
-                        "そこに行ったことがありますか?",
-                        "旅行は好きですか?"
-                    ]
-                },
-                {
-                    "number": 20,
-                    "text": "Woman: Excuse me. Is this the way to the Japanese Gardens?\nMan: Yes, it is. Just go straight down this road, and (　)",
-                    "choices": [
-                        "you can ask me.",
-                        "I can't speak Japanese.",
-                        "it'll take about 10 minutes.",
-                        "that's too small."
-                    ],
-                    "answer": 3,
-                    "grammar": "道順を説明。まっすぐ行けば10分くらいで着く。",
-                    "grammarSimple": "「まっすぐ行けば10分くらいだよ」。道を教えてくれたんだね。",
-                    "choiceAnalysis": [
-                        "聞いてくれ→まっすぐ行けと言った後に不自然。",
-                        "日本語が話せない→日本庭園の名前であって言語ではない。",
-                        "○ 10分くらいかかる。道案内。",
-                        "小さすぎる→文脈に合わない。"
-                    ],
-                    "choiceAnalysisSimple": [
-                        "「聞いていいよ」はもう教えているから変だよ。",
-                        "「日本語が話せない」は庭園の名前だから関係ないよ。",
-                        "○「10分くらいだよ」。道を教えてくれた！",
-                        "「小さすぎる」は関係ないね。"
-                    ],
-                    "translation": "女性: すみません。ここは日本庭園への道ですか？\n男性: はい、そうです。この道をまっすぐ行ってください（ ）",
-                    "choiceTranslations": [
-                        "聞いてもいいです。",
-                        "日本語は話せません。",
-                        "10 分くらいかかります。",
-                        "それは小さすぎます。"
-                    ]
-                }
-            ]
+          "number": 2,
+          "text": "A: What is the (　) of your report?\nB: Life in Brazil.",
+          "choices": [
+            "topic",
+            "reason",
+            "chance",
+            "way"
+          ],
+          "answer": 1,
+          "grammar": "What is the (　) of your report? → Life in Brazil. と答えているので「レポートのテーマ」。topic＝「話題・テーマ」。reason（理由）・chance（機会）・way（方法）は「ブラジルでの生活」という答えと合いません。",
+          "grammarSimple": "レポートの「テーマ」を聞いているよ。答えは topic！reason（りゆう）・chance（きかい）・way（ほうほう）は合わないよ。",
+          "choiceAnalysis": [
+            "○ topic＝話題・テーマ。レポートのテーマは「ブラジルでの生活」。",
+            "reason＝理由。テーマを聞いている流れに合いません。",
+            "chance＝機会。レポートの内容には合いません。",
+            "way＝方法。テーマの意味にはなりません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ topic は「テーマ」。ブラジルでの生活がテーマ！",
+            "reason は「りゆう」。合わないよ。",
+            "chance は「きかい」。合わないよ。",
+            "way は「ほうほう」。合わないよ。"
+          ],
+          "translation": "A: あなたの報告書の ( ) は何ですか?\nB: ブラジルでの生活。",
+          "choiceTranslations": [
+            "トピック",
+            "理由",
+            "チャンス",
+            "方法"
+          ]
         },
         {
-            "name": "大問3",
-            "nameEn": "Part 3",
-            "type": "reading-comprehension",
-            "instruction": "次のA，B，Cの内容に関して，質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
-            "passages": [
-                {
-                    "label": "A",
-                    "title": "Notice from the School Band",
-                    "format": "notice",
-                    "paragraphs": [
-                        "Notice from the School Band",
-                        "Do you want to play in a band? The school band is looking for new members to join! Both beginners and people with experience are welcome! Beginners can take lessons on how to play instruments.",
-                        "If you already know how to play, you can start practicing with the band members for the performance on May 1.",
-                        "The band members will hold an event to explain more about their activities.\nWhen: Thursday, March 2, at 4:00 p.m.\nWhere: School cafeteria",
-                        "You can join the band on March 3! If you have any questions, please talk to the band manager, Ms. Clancy, before March 1."
-                    ],
-                    "translations": [
-                        "スクールバンドからのお知らせ",
-                        "バンドで演奏したいですか？スクールバンドは新しいメンバーを募集しています！初心者も経験者も歓迎！初心者は楽器の弾き方のレッスンを受けられます。",
-                        "すでに演奏できる人は、5月1日のパフォーマンスに向けてバンドメンバーと一緒に練習を始められます。",
-                        "バンドメンバーが活動について説明するイベントを開催します。\n日時：3月2日（木）午後4時\n場所：学校のカフェテリア",
-                        "3月3日にバンドに入れます！質問がある方は3月1日までにバンドマネージャーのクランシー先生に話しかけてください。"
-                    ],
-                    "questions": [
-                        {
-                            "number": 21,
-                            "question": "What is this notice for?",
-                            "questionTranslation": "この掲示は何のため？",
-                            "choices": [
-                                "To ask people to sell their old instruments.",
-                                "To introduce the new band manager.",
-                                "To find new members for a band.",
-                                "To tell students about a new cafeteria."
-                            ],
-                            "answer": 3,
-                            "grammar": "「The school band is looking for new members to join!」とある。",
-                            "grammarSimple": "バンドの新しいメンバーを見つけるためのお知らせだよ。",
-                            "choiceAnalysis": [
-                                "楽器を売る→メンバー募集。",
-                                "新しいマネージャー紹介→メンバー募集。",
-                                "○ バンドの新メンバーを見つける。",
-                                "新しいカフェテリア→説明会の場所。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "楽器を売るお知らせではないよ。",
-                                "マネージャーの紹介ではないよ。",
-                                "○ 新しいメンバーをさがしているよ！",
-                                "カフェテリアのお知らせではないよ。"
-                            ],
-                            "choiceTranslations": [
-                                "古い楽器を売ってほしいとお願いする。",
-                                "新しいバンド マネージャーを紹介する。",
-                                "バンドの新しいメンバーを見つける。",
-                                "新しいカフェテリアについて生徒に伝える。"
-                            ]
-                        },
-                        {
-                            "number": 22,
-                            "question": "When will the band members share information about their activities?",
-                            "questionTranslation": "バンドメンバーが活動情報を共有するのはいつ？",
-                            "choices": [
-                                "On March 1.",
-                                "On March 2.",
-                                "On March 3.",
-                                "On May 1."
-                            ],
-                            "answer": 2,
-                            "grammar": "「Thursday, March 2, at 4:00 p.m.」のイベントで活動説明。",
-                            "grammarSimple": "3月2日の木曜日に説明会があるよ。",
-                            "choiceAnalysis": [
-                                "3/1→質問の締め切り。",
-                                "○ 3/2→説明イベント。",
-                                "3/3→入部できる日。",
-                                "5/1→パフォーマンスの日。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "3月1日は質問のしめきりだよ。",
-                                "○ 3月2日に説明会があるよ！",
-                                "3月3日はバンドに入れる日だよ。",
-                                "5月1日はパフォーマンスの日だよ。"
-                            ],
-                            "choiceTranslations": [
-                                "3 月 1 日。",
-                                "3 月 2 日。",
-                                "3 月 3 日。",
-                                "5 月 1 日。"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "B",
-                    "title": "David Goes to College",
-                    "format": "multi-email",
-                    "emails": [
-                        {
-                            "meta": {
-                                "from": "David Chapman",
-                                "to": "Louise Chapman",
-                                "date": "July 28",
-                                "subject": "Great news!"
-                            },
-                            "body": "Hi Louise!\nIt was good to see you at your new house in Greenview last month. Thanks for taking me to lots of interesting places. I enjoyed the boat trip on the river the most. It was a great way to see the city. Did Mom and Dad tell you my good news? I'm going to study at Greenview College! I'll go there this fall to study science. I'm looking forward to starting classes and meeting lots of new people, but I'm a little worried about the lessons. I hope they aren't too difficult. I'll live in an apartment at the college for my first year. The college isn't far from your house, so I can see you more often.\nYour brother,\nDavid",
-                            "translation": "ルイーズ！\n先月グリーンビューの新しい家で会えてよかった。いろいろな面白い場所に連れて行ってくれてありがとう。川のボートツアーが一番楽しかった。街を見るのにすごくいい方法だった。お母さんとお父さんはいい知らせを話してくれた？グリーンビュー大学で勉強することになったんだ！この秋に理科を勉強しに行くよ。授業を始めて新しい人にたくさん会うのが楽しみだけど、少し授業が心配。難しくないといいな。1年目は大学のアパートに住む。大学はお姉ちゃんの家から遠くないから、もっとよく会えるね。"
-                        },
-                        {
-                            "meta": {
-                                "from": "Louise Chapman",
-                                "to": "David Chapman",
-                                "date": "July 29",
-                                "subject": "Congratulations!"
-                            },
-                            "body": "Hi David,\nThat's great news! My friend went to Greenview College, and she said the teachers there were very kind. She also studied science. She has some old textbooks that she used at college. She doesn't need them anymore, so she wants to give them to you. She'll bring them to my house, so you can get them when you visit me next time. I think you'll need to take many things to college with you, so I'll drive you there in my car. Please tell me when you'll move there. I'll drive to Mom and Dad's house and pick you up. We can go out for lunch with Mom and Dad before you leave. I think they will be sad when you go to college.\nSee you soon,\nLouise",
-                            "translation": "デイビッド、\nすごいニュースだね！友達がグリーンビュー大学に行っていて、先生方がとても親切だったって。彼女も理科を勉強したの。大学で使った古い教科書があるんだけど、もう必要ないからあなたにあげたいって。私の家に持ってきてくれるから、次に遊びに来たときにもらえるよ。大学にはたくさん荷物を持って行くことになると思うから、車で送ってあげる。いつ引っ越すか教えてね。お母さんとお父さんの家まで迎えに行くよ。出発前にお母さんとお父さんと一緒にランチに行こう。大学に行ったらお母さんたちは寂しくなると思うな。"
-                        }
-                    ],
-                    "paragraphs": [
-                        "David tells his sister Louise he got into Greenview College. Louise offers to drive him there and mentions a friend with old textbooks."
-                    ],
-                    "translations": [
-                        "デイビッドが姉のルイーズにグリーンビュー大学に入学することを伝える。ルイーズは車で送ると申し出、友人が古い教科書をくれることを伝える。"
-                    ],
-                    "questions": [
-                        {
-                            "number": 23,
-                            "question": "What will David do this fall?",
-                            "questionTranslation": "デイビッドはこの秋何をする？",
-                            "choices": [
-                                "Go on a boat trip.",
-                                "Start studying at college.",
-                                "Begin teaching science.",
-                                "Start living in Louise's house."
-                            ],
-                            "answer": 2,
-                            "sourceEvidence": "I'll go there this fall to study science.",
-                            "grammar": "「I'll go there this fall to study science」とある。",
-                            "grammarSimple": "この秋に大学で科学を勉強し始めるんだよ。",
-                            "choiceAnalysis": [
-                                "ボート旅行→先月楽しんだこと。",
-                                "○ 大学で勉強を始める。",
-                                "科学を教える→勉強する。",
-                                "ルイーズの家に住む→大学のアパート。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "ボートは先月のこと。秋ではないよ。",
-                                "○ 大学で勉強を始めるよ！",
-                                "教えるのではなく勉強するよ。",
-                                "ルイーズの家ではなく大学のアパートだよ。"
-                            ],
-                            "choiceTranslations": [
-                                "ボート旅行に出かけます。",
-                                "大学で勉強を始めます。",
-                                "科学を教え始めます。",
-                                "ルイーズの家に住み始めます。"
-                            ]
-                        },
-                        {
-                            "number": 24,
-                            "question": "Louise's friend will",
-                            "questionTranslation": "ルイーズの友人は",
-                            "choices": [
-                                "show David around Greenview College.",
-                                "sell a car to Louise.",
-                                "give David her old textbooks.",
-                                "clean Louise's house with Louise."
-                            ],
-                            "answer": 3,
-                            "sourceEvidence": "she wants to give them to you",
-                            "grammar": "「She has some old textbooks... she wants to give them to you」とある。",
-                            "grammarSimple": "もう使わない古い教科書をデイビッドにあげたいんだって。",
-                            "choiceAnalysis": [
-                                "大学を案内→そうは書いていない。",
-                                "車を売る→そうは書いていない。",
-                                "○ 古い教科書をあげる。",
-                                "家を掃除する→そうは書いていない。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "大学を案内するとは書いていないよ。",
-                                "車を売るとは書いていないよ。",
-                                "○ 古い教科書をくれるんだって！",
-                                "家をそうじするとは書いていないよ。"
-                            ],
-                            "choiceTranslations": [
-                                "デビッドにグリーンビュー大学を案内してください。",
-                                "ルイーズに車を売ります。",
-                                "デビッドに古い教科書を渡します。",
-                                "ルイーズの家をルイーズと一緒に掃除してください。"
-                            ]
-                        },
-                        {
-                            "number": 25,
-                            "question": "What will Louise do for David?",
-                            "questionTranslation": "ルイーズはデイビッドのために何をする？",
-                            "choices": [
-                                "Take him to college in her car.",
-                                "Help him to find a new house.",
-                                "Make him some lunch.",
-                                "Return a book to their parents."
-                            ],
-                            "answer": 1,
-                            "sourceEvidence": "so I'll drive you there in my car",
-                            "grammar": "「I'll drive you there in my car」とある。",
-                            "grammarSimple": "車で大学まで送ってあげるんだよ。",
-                            "choiceAnalysis": [
-                                "○ 車で大学に送る。",
-                                "家を探す→そうは書いていない。",
-                                "ランチを作る→外食する予定。",
-                                "親に本を返す→そうは書いていない。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "○ 車で大学まで送ってくれるよ！",
-                                "家を探すとは書いていないよ。",
-                                "ランチは外食する予定だよ。",
-                                "本を返すとは書いていないよ。"
-                            ],
-                            "choiceTranslations": [
-                                "彼女の車で彼を大学まで連れて行きます。",
-                                "新しい家を見つけるのを手伝ってください。",
-                                "昼食を作ってください。",
-                                "両親に本を返してください。"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "label": "C",
-                    "title": "Gustave Trouvé",
-                    "format": "passage",
-                    "paragraphs": [
-                        "Gustave Trouvé was born in France in 1839. His father made money by selling cows. Trouvé enjoyed making things when he was a child, and his mother encouraged him to do that. When Trouvé was seven years old, he used an umbrella and other things to build an engine.",
-                        "Trouvé went to an art college in the 1850s, but he didn't study there for long. He often got sick and couldn't study for class, so he stopped going to the college. After that, Trouvé got a job in Paris. His job was making clocks. He also had a special place in Paris. He invented many things there.",
-                        "In the 1830s, an American man invented a machine called the telegraph. People used telegraphs to send messages. But telegraphs were big and difficult to carry. Later, Trouvé invented a smaller telegraph. People could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs. People started using Trouvé's telegraph to send messages during wars.",
-                        "Trouvé invented many things, but he was especially interested in electric machines. He invented an electric engine that people could put on the back of small boats. People still use those engines today. Trouvé also invented a new kind of light. According to some people, he invented the first electric car, too. These things were not popular in the 1800s, but they are very useful now.",
-                        "Trouvé died in 1902. He invented a lot of things during his life, but many people still don't know about him."
-                    ],
-                    "translations": [
-                        "ギュスターヴ・トルヴェは1839年にフランスで生まれた。父親は牛の販売でお金を稼いでいた。トルヴェは子どもの頃にものを作るのが好きで、母親がそれを応援してくれた。7歳のとき、傘やその他のものを使ってエンジンを作った。",
-                        "トルヴェは1850年代に美術大学に行ったが、長くは勉強しなかった。よく体を壊して授業についていけなかったので、大学をやめた。その後パリで仕事を見つけた。仕事は時計作りだった。パリに特別な場所も持っていて、そこで多くのものを発明した。",
-                        "1830年代にアメリカ人が電信機という機械を発明した。人々は電信機を使ってメッセージを送った。しかし電信機は大きくて運びにくかった。後にトルヴェはより小さな電信機を発明した。トルヴェの電信機は持ち歩けたので、以前の電信機より便利だった。戦争中のメッセージ送信に使われ始めた。",
-                        "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。小さなボートの後ろに付ける電気エンジンを発明した。そのエンジンは今でも使われている。新しい種類のライトも発明した。最初の電気自動車を発明したという人もいる。これらは1800年代には人気がなかったが、今はとても役に立っている。",
-                        "トルヴェは1902年に亡くなった。生涯に多くのものを発明したが、まだ多くの人が彼のことを知らない。"
-                    ],
-                    "questions": [
-                        {
-                            "number": 26,
-                            "question": "What did Gustave Trouvé like to do when he was young?",
-                            "questionTranslation": "若い頃トルヴェは何が好きだった？",
-                            "choices": [
-                                "Fix umbrellas.",
-                                "Help his parents.",
-                                "Make things.",
-                                "Take care of cows."
-                            ],
-                            "answer": 3,
-                            "sourceEvidence": "Trouvé enjoyed making things when he was a child",
-                            "grammar": "「enjoyed making things when he was a child」とある。",
-                            "grammarSimple": "子どもの頃にものを作るのが好きだったんだよ。",
-                            "choiceAnalysis": [
-                                "傘を修理→傘でエンジンを作った。",
-                                "親の手伝い→そうは書いていない。",
-                                "○ ものを作る。",
-                                "牛の世話→父が牛を売っていた。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "傘を直したのではなく、傘でエンジンを作ったよ。",
-                                "親の手伝いとは書いていないよ。",
-                                "○ ものを作るのが好きだった！",
-                                "牛の世話ではなく、お父さんが牛を売っていたんだよ。"
-                            ],
-                            "choiceTranslations": [
-                                "傘を直す。",
-                                "両親を手伝う。",
-                                "物を作る。",
-                                "牛の世話をする。"
-                            ]
-                        },
-                        {
-                            "number": 27,
-                            "question": "Why did Trouvé stop studying at the art college?",
-                            "questionTranslation": "トルヴェはなぜ美術大学をやめた？",
-                            "choices": [
-                                "He thought the lessons were too easy.",
-                                "He was often sick and couldn't study.",
-                                "He broke a clock at the college.",
-                                "He didn't want to live in Paris."
-                            ],
-                            "answer": 2,
-                            "sourceEvidence": "He often got sick and couldn't study for class",
-                            "grammar": "「He often got sick and couldn't study for class」とある。",
-                            "grammarSimple": "よく体をこわして勉強できなかったんだよ。",
-                            "choiceAnalysis": [
-                                "簡単すぎた→そうは書いていない。",
-                                "○ よく病気になって勉強できなかった。",
-                                "時計を壊した→パリでの仕事。",
-                                "パリに住みたくない→パリで仕事を見つけた。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "かんたんすぎたとは書いていないよ。",
-                                "○ よく病気になって勉強できなかったんだ。",
-                                "時計を壊したとは書いていないよ。",
-                                "パリに住みたくないとは書いていないよ。"
-                            ],
-                            "choiceTranslations": [
-                                "彼は授業が簡単すぎると思った。",
-                                "彼はよく病気で勉強できなかった。",
-                                "彼は大学の時計を壊した。",
-                                "彼はパリに住みたくなかった。"
-                            ]
-                        },
-                        {
-                            "number": 28,
-                            "question": "Why was the telegraph that Trouvé invented convenient?",
-                            "questionTranslation": "トルヴェが発明した電信機はなぜ便利だった？",
-                            "choices": [
-                                "It was big and difficult to break.",
-                                "It had many bright lights on it.",
-                                "It was small and easy to carry.",
-                                "It could be used to send pictures."
-                            ],
-                            "answer": 3,
-                            "sourceEvidence": "People could carry Trouvé's telegraph around with them, so it was more convenient",
-                            "grammar": "「smaller telegraph... could carry around... more convenient」とある。",
-                            "grammarSimple": "小さくて持ち運べたから便利だったんだよ。",
-                            "choiceAnalysis": [
-                                "大きくて壊れにくい→小さくて便利。",
-                                "ライトが付いている→そうは書いていない。",
-                                "○ 小さくて運びやすい。",
-                                "写真を送れる→メッセージを送る。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "大きくて壊れにくいのではなく、小さいから便利なんだよ。",
-                                "ライトがついているとは書いていないよ。",
-                                "○ 小さくて持ち運びやすかったから便利！",
-                                "写真ではなくメッセージを送るんだよ。"
-                            ],
-                            "choiceTranslations": [
-                                "大きくて壊れにくかった。",
-                                "明るいライトがたくさんついていた。",
-                                "小さくて持ち運びやすかった。",
-                                "写真を送るのに使えた。"
-                            ]
-                        },
-                        {
-                            "number": 29,
-                            "question": "Trouvé invented an engine",
-                            "questionTranslation": "トルヴェはエンジンを発明して",
-                            "choices": [
-                                "for a machine that sent telegraphs.",
-                                "for a machine that made lights.",
-                                "to sell to an American man's company.",
-                                "to put on the back of boats."
-                            ],
-                            "answer": 4,
-                            "sourceEvidence": "He invented an electric engine that people could put on the back of small boats.",
-                            "grammar": "「electric engine that people could put on the back of small boats」とある。",
-                            "grammarSimple": "小さなボートの後ろにつける電気エンジンを発明したんだよ。",
-                            "choiceAnalysis": [
-                                "電信用→電気エンジンはボート用。",
-                                "ライト用→エンジンはボート用。",
-                                "アメリカ人に売る→そうは書いていない。",
-                                "○ ボートの後ろにつける。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "電信用ではなくボート用だよ。",
-                                "ライト用ではなくボート用だよ。",
-                                "アメリカ人に売るとは書いていないよ。",
-                                "○ ボートの後ろにつけるエンジンだよ！"
-                            ],
-                            "choiceTranslations": [
-                                "電信を送信する機械の場合。",
-                                "照明を作る機械の場合。",
-                                "アメリカ人の会社に販売する場合。",
-                                "ボートの後ろに取り付ける場合。"
-                            ]
-                        },
-                        {
-                            "number": 30,
-                            "question": "What is this story about?",
-                            "questionTranslation": "この話は何について？",
-                            "choices": [
-                                "The best way to make engines.",
-                                "The first person to use a telegraph.",
-                                "A man who made many useful things.",
-                                "A famous art college in France."
-                            ],
-                            "answer": 3,
-                            "grammar": "トルヴェが多くの有用なものを発明した話。",
-                            "grammarSimple": "たくさんの便利なものを発明した人のお話だよ。",
-                            "choiceAnalysis": [
-                                "エンジンの作り方→発明家の話。",
-                                "電信を最初に使った人→発明したのはアメリカ人。",
-                                "○ 多くの有用なものを作った人。",
-                                "フランスの美術大学→トルヴェの人生。"
-                            ],
-                            "choiceAnalysisSimple": [
-                                "エンジンの作り方のお話ではないよ。",
-                                "電信を最初に使った人の話ではないよ。",
-                                "○ たくさんの便利なものを作った人のお話！",
-                                "美術大学のお話ではないよ。"
-                            ],
-                            "choiceTranslations": [
-                                "エンジンを作るための最良の方法。",
-                                "電信を初めて使用した人。",
-                                "多くの便利なものを作った人。",
-                                "フランスの有名な美術大学。"
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "number": 3,
+          "text": "A: Excuse me. Where is the main (　) of this library?\nB: Well, it's over there.",
+          "choices": [
+            "tournament",
+            "planet",
+            "entrance",
+            "horizon"
+          ],
+          "answer": 3,
+          "grammar": "Where is the main (　) of this library? → it's over there. と場所を聞いているので「正面入口」。entrance＝「入口」。main entrance＝正面入口。tournament（大会）・planet（惑星）・horizon（地平線）は図書館の場所案内に合いません。",
+          "grammarSimple": "としょかんの「正面いりぐち」はどこ？＝ entrance！tournament・planet・horizon は場所の案内に合わないよ。",
+          "choiceAnalysis": [
+            "tournament＝大会・トーナメント。図書館の場所には合いません。",
+            "planet＝惑星。文の流れに合いません。",
+            "○ entrance＝入口。main entrance＝正面入口。",
+            "horizon＝地平線。図書館の案内には使いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "tournament は「たいかい」。合わないよ。",
+            "planet は「わくせい」。合わないよ。",
+            "○ entrance は「いりぐち」。正面いりぐちはあっち！",
+            "horizon は「ちへいせん」。合わないよ。"
+          ],
+          "translation": "A: すみません。この図書館のメイン（ ）はどこですか？\nB: そうですね、あそこです。",
+          "choiceTranslations": [
+            "トーナメント",
+            "惑星",
+            "入り口",
+            "地平線"
+          ]
+        },
+        {
+          "number": 4,
+          "text": "A: I love this hotel.\nB: Me, too. The (　) from our room is beautiful.",
+          "choices": [
+            "view",
+            "chance",
+            "century",
+            "health"
+          ],
+          "answer": 1,
+          "grammar": "The (　) from our room is beautiful.＝「部屋からの（　）が美しい」。view＝「景色・眺め」。部屋からの眺めが美しい流れに合います。chance（機会）・century（世紀）・health（健康）は「美しい」と結びつきません。",
+          "grammarSimple": "へやから見える「けしき」がきれい＝ view！chance・century・health は「うつくしい」と合わないよ。",
+          "choiceAnalysis": [
+            "○ view＝景色・眺め。The view from our room＝部屋からの眺め。",
+            "chance＝機会。美しいとは結びつきません。",
+            "century＝世紀。部屋からのものではありません。",
+            "health＝健康。景色の意味にはなりません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ view は「けしき」。へやからの眺めがきれい！",
+            "chance は「きかい」。合わないよ。",
+            "century は「せいき」。合わないよ。",
+            "health は「けんこう」。合わないよ。"
+          ],
+          "translation": "A: このホテルが大好きです。\nB: 私もですよ。私たちの部屋からの ( ) は美しいです。",
+          "choiceTranslations": [
+            "ビュー",
+            "チャンス",
+            "世紀",
+            "健康"
+          ]
+        },
+        {
+          "number": 5,
+          "text": "A: Look at the sky. It's getting (　).\nB: Yes. Let's go home soon.",
+          "choices": [
+            "dark",
+            "young",
+            "low",
+            "wide"
+          ],
+          "answer": 1,
+          "grammar": "Look at the sky. It's getting (　). → Let's go home soon.＝空を見て帰宅を急ぐ流れ。dark＝「暗い」。getting dark＝暗くなってきた。young（若い）・low（低い）・wide（広い）は空の変化と帰宅の理由に合いません。",
+          "grammarSimple": "空が「くらく」なってきたから帰ろう＝ getting dark！young・low・wide は空の変化に合わないよ。",
+          "choiceAnalysis": [
+            "○ dark＝暗い。It's getting dark＝暗くなってきた。帰宅の理由になる。",
+            "young＝若い。空には使いません。",
+            "low＝低い。空が低くなってきた、では帰宅理由になりにくい。",
+            "wide＝広い。空が広くなってきた、では文の流れに合いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ dark は「くらい」。空がくらくなってきた！",
+            "young は「わかい」。空には合わないよ。",
+            "low は「ひくい」。ここには合わないよ。",
+            "wide は「ひろい」。ここには合わないよ。"
+          ],
+          "translation": "A: 空を見てください。 （ ）になっています。\nB: はい。そろそろ家に帰りましょう。",
+          "choiceTranslations": [
+            "暗い",
+            "若い",
+            "低い",
+            "広い"
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Yuka made chairs and tables yesterday. She used a lot of (　).",
+          "choices": [
+            "sound",
+            "bread",
+            "wood",
+            "danger"
+          ],
+          "answer": 3,
+          "grammar": "Yuka made chairs and tables ... She used a lot of (　).＝家具を作る材料。wood＝「木材」。椅子やテーブルは木で作ります。sound（音）・bread（パン）・danger（危険）は家具の材料になりません。",
+          "grammarSimple": "いすやテーブルを作るのに使うのは「木」＝ wood！sound・bread・danger はざいりょうにならないよ。",
+          "choiceAnalysis": [
+            "sound＝音。家具の材料ではありません。",
+            "bread＝パン。家具の材料ではありません。",
+            "○ wood＝木材。椅子やテーブルを作る材料。",
+            "danger＝危険。材料の意味にはなりません。"
+          ],
+          "choiceAnalysisSimple": [
+            "sound は「おと」。ざいりょうじゃないよ。",
+            "bread は「パン」。ざいりょうじゃないよ。",
+            "○ wood は「木」。いすやテーブルは木で作る！",
+            "danger は「きけん」。合わないよ。"
+          ],
+          "translation": "ユカは昨日椅子とテーブルを作りました。彼女はたくさんの ( ) を使いました。",
+          "choiceTranslations": [
+            "音",
+            "パン",
+            "木材",
+            "危険"
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Jim's family went to the movies yesterday, but Jim was tired, so he (　) to stay home.",
+          "choices": [
+            "decided",
+            "practiced",
+            "joined",
+            "invited"
+          ],
+          "answer": 1,
+          "grammar": "Jim was tired, so he (　) to stay home.＝疲れていたので家にいることにした。decided to＝「〜することに決めた」。practiced（練習した）・joined（参加した）・invited（招待した）は to stay home と自然に結びつきません。",
+          "grammarSimple": "つかれていたから「家にいることにした」＝ decided to stay home！practiced・joined・invited は合わないよ。",
+          "choiceAnalysis": [
+            "○ decided＝決めた。decided to stay home＝家にいることに決めた。",
+            "practiced＝練習した。practiced to stay は不自然です。",
+            "joined＝参加した。joined to stay は不自然です。",
+            "invited＝招待した。自分が家にいることに招待する、では意味が合いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ decided は「きめた」。家にいることにした！",
+            "practiced は「れんしゅうした」。合わないよ。",
+            "joined は「さんかした」。合わないよ。",
+            "invited は「しょうたいした」。合わないよ。"
+          ],
+          "translation": "Jim の家族は昨日映画に行きましたが、ジムは疲れていたので、彼は ( ) 家にいるようにしました。",
+          "choiceTranslations": [
+            "決定",
+            "練習",
+            "参加",
+            "招待"
+          ]
+        },
+        {
+          "number": 8,
+          "text": "A: How (　) do you go to the library, Nancy?\nB: About twice a month.",
+          "choices": [
+            "quickly",
+            "often",
+            "really",
+            "far"
+          ],
+          "answer": 2,
+          "grammar": "How (　) do you go to the library? → About twice a month.＝月2回と頻度で答えている。often＝「しばしば」。How often＝どのくらいの頻度で。quickly（速く）・really（本当に）・far（遠く）は「月2回」という答えと合いません。",
+          "grammarSimple": "「どのくらいよく行くの？」→「月に2回」＝ How often！quickly・really・far は回数の答えに合わないよ。",
+          "choiceAnalysis": [
+            "quickly＝速く。twice a month は速さではなく頻度です。",
+            "○ often＝しばしば。How often＝どのくらいの頻度で。月2回と合う。",
+            "really＝本当に。回数の答えには合いません。",
+            "far＝遠く。距離ではなく頻度を聞いている流れです。"
+          ],
+          "choiceAnalysisSimple": [
+            "quickly は「はやく」。回数の答えじゃないよ。",
+            "○ often がぴったり！ How often＝「どのくらいよく？」",
+            "really は「ほんとうに」。合わないよ。",
+            "far は「とおく」。合わないよ。"
+          ],
+          "translation": "A: ナンシー、どうやって ( ) 図書館に行きますか?\nB: 月に 2 回くらいです。",
+          "choiceTranslations": [
+            "クイックリー__SPLIT_ _often",
+            "really",
+            "far",
+            "became"
+          ]
+        },
+        {
+          "number": 9,
+          "text": "After Miki got off the bus, she (　) her way and walked for an hour.",
+          "choices": [
+            "became",
+            "spent",
+            "lost",
+            "brought"
+          ],
+          "answer": 3,
+          "grammar": "she (　) her way and walked for an hour.＝道に迷って1時間歩いた流れ。lost her way＝「道に迷った」（定型表現）。became（〜になった）・spent（過ごした）・brought（持ってきた）は her way と結びつきません。",
+          "grammarSimple": "「道にまよった」＝ lost her way！became・spent・brought は her way と合わないよ。",
+          "choiceAnalysis": [
+            "became＝〜になった。became her way とは言いません。",
+            "spent＝過ごした。spent her way とは言いません。",
+            "○ lost＝失った。lost her way＝道に迷った。",
+            "brought＝持ってきた。brought her way とは言いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "became は「なった」。合わないよ。",
+            "spent は「すごした」。合わないよ。",
+            "○ lost がぴったり！ lost her way＝「道にまよった」。",
+            "brought は「持ってきた」。合わないよ。"
+          ],
+          "translation": "その後、ミキはバスから降りて、彼女は ( ) 彼女の道を歩いて 1 時間歩きました。",
+          "choiceTranslations": [
+            "spent",
+            "lost",
+            "brought",
+            "invent"
+          ]
+        },
+        {
+          "number": 10,
+          "text": "A: It is important to protect the environment.\nB: I (　) with you. We should be more eco-friendly.",
+          "choices": [
+            "invent",
+            "agree",
+            "fill",
+            "grow"
+          ],
+          "answer": 2,
+          "grammar": "環境保護は大切だ → I (　) with you. We should be more eco-friendly.＝賛成の流れ。agree with＝「〜に同意する」。invent（発明する）・fill（満たす）・grow（育つ）は with you と「賛成」の意味を作れません。",
+          "grammarSimple": "「あなたの意見にさんせい」＝ I agree with you！invent・fill・grow は「さんせい」にならないよ。",
+          "choiceAnalysis": [
+            "invent＝発明する。invent with you は不自然です。",
+            "○ agree＝同意する。I agree with you＝あなたに賛成です。",
+            "fill＝満たす。fill with は「〜で満たす」で、賛成の意味ではありません。",
+            "grow＝育つ／育てる。grow with you では賛成になりません。"
+          ],
+          "choiceAnalysisSimple": [
+            "invent は「はつめいする」。合わないよ。",
+            "○ agree は「さんせい」。I agree with you＝さんせい！",
+            "fill は「みたす」。合わないよ。",
+            "grow は「そだつ」。合わないよ。"
+          ],
+          "translation": "A: 環境を保護することは重要です。\nB: 私はあなたと一緒に（ ）。私たちはもっと環境に優しくあるべきです。",
+          "choiceTranslations": [
+            "agree",
+            "fill",
+            "grow",
+            "at"
+          ]
+        },
+        {
+          "number": 11,
+          "text": "This restaurant is famous (　) its great pizza and cheap prices.",
+          "choices": [
+            "at",
+            "into",
+            "as",
+            "for"
+          ],
+          "answer": 4,
+          "grammar": "This restaurant is famous (　) its great pizza ...＝〜で有名。famous for＝「〜で有名」（定型表現）。famous at / into は不自然。famous as は「〜として有名」で、ここでは for が適切です。",
+          "grammarSimple": "「〜でゆうめい」＝ famous for！at・into・as より for がぴったりだよ。",
+          "choiceAnalysis": [
+            "at＝〜で（場所など）。famous at は不自然です。",
+            "into＝〜の中へ。famous into とは言いません。",
+            "as＝〜として。famous as a singer などは可だが、ここでは「ピザで有名」なので for。",
+            "○ for＝〜のために／〜で。famous for＝〜で有名。"
+          ],
+          "choiceAnalysisSimple": [
+            "at は合わないよ。",
+            "into は合わないよ。",
+            "as は「〜として」。ここでは for だよ。",
+            "○ for がぴったり！ famous for＝「〜でゆうめい」。"
+          ],
+          "translation": "このレストランは有名です () 素晴らしいピザと安い価格です。",
+          "choiceTranslations": [
+            "into",
+            "as",
+            "for",
+            "opinion__ SPLIT__身長"
+          ]
+        },
+        {
+          "number": 12,
+          "text": "A: What do you think of this book, Dad?\nB: In my (　), it is really good.",
+          "choices": [
+            "opinion",
+            "height",
+            "problem",
+            "contact"
+          ],
+          "answer": 1,
+          "grammar": "What do you think of this book? → In my (　), it is really good.＝意見を述べる定型。opinion＝「意見」。in my opinion＝私の意見では。height（身長）・problem（問題）・contact（連絡）は in my 〜 で意見表現になりません。",
+          "grammarSimple": "「わたしのいけんでは」＝ in my opinion！height・problem・contact は合わないよ。",
+          "choiceAnalysis": [
+            "○ opinion＝意見。in my opinion＝私の意見では。",
+            "height＝身長・高さ。in my height とは言いません。",
+            "problem＝問題。in my problem とは言いません。",
+            "contact＝連絡。in my contact とは言いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ opinion は「いけん」。in my opinion＝「ぼくのいけんでは」！",
+            "height は「たかさ」。合わないよ。",
+            "problem は「もんだい」。合わないよ。",
+            "contact は「れんらく」。合わないよ。"
+          ],
+          "translation": "A: この本についてどう思いますか、お父さん?\nB: In my ( ), it is very good.",
+          "choiceTranslations": [
+            "問題",
+            "連絡先",
+            "彼女",
+            "彼女自身"
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Tom got a pet cat last summer. He named (　) Moka.",
+          "choices": [
+            "she",
+            "herself",
+            "her",
+            "hers"
+          ],
+          "answer": 3,
+          "grammar": "He named (　) Moka.＝名づける＋目的語＋名前（SVOC）。her＝目的格の「彼女を」。猫（メス）を Moka と名づけた。she（主格）・herself（再帰）・hers（所有代名詞）は目的語の位置に合いません。",
+          "grammarSimple": "「彼女をモカと名づけた」＝ named her Moka！she・herself・hers はここには使えないよ。",
+          "choiceAnalysis": [
+            "she＝主格（彼女は）。目的語には使えません。",
+            "herself＝自分自身を。He named herself は不自然です。",
+            "○ her＝目的格（彼女を）。He named her Moka。",
+            "hers＝彼女のもの。named hers とは言いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "she は「彼女は」。ここには使えないよ。",
+            "herself は「じぶんじしんを」。合わないよ。",
+            "○ her がぴったり！「彼女をモカと名づけた」。",
+            "hers は「彼女のもの」。合わないよ。"
+          ],
+          "translation": "トムは去年の夏にペットの猫を飼いました。彼は( )モカと名付けました。",
+          "choiceTranslations": [
+            "her",
+            "hers",
+            "stolen",
+            "stealing"
+          ]
+        },
+        {
+          "number": 14,
+          "text": "The police looked for the bicycle (　) from a bicycle shop. Finally, they found it on the street.",
+          "choices": [
+            "stolen",
+            "stealing",
+            "steals",
+            "stole"
+          ],
+          "answer": 1,
+          "grammar": "the bicycle (　) from a bicycle shop＝自転車屋から（　）自転車。stolen＝過去分詞。「盗まれた」を後ろから修飾（後置修飾）。stealing / steals / stole は「盗まれた自転車」の修飾には合いません。",
+          "grammarSimple": "「ぬすまれた」じてんしゃ＝ stolen！stealing・steals・stole はここには合わないよ。",
+          "choiceAnalysis": [
+            "○ stolen＝過去分詞。盗まれた。bicycle stolen from＝〜から盗まれた自転車。",
+            "stealing＝〜している。bicycle stealing from は不自然です。",
+            "steals＝三人称単数現在。修飾語として合いません。",
+            "stole＝過去形。後ろから修飾する形には合いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ stolen がぴったり！「ぬすまれた」じてんしゃ。",
+            "stealing は「ぬすんでいる」。合わないよ。",
+            "steals は合わないよ。",
+            "stole は「ぬすんだ」。ここには合わないよ。"
+          ],
+          "translation": "警察は自転車屋からその自転車( )を探しました。最後に、彼らはそれを路上で見つけました。__分割__ジャックの妻は新しいコンピュータを必要としています。彼女はカバンに入れて持ち歩きやすいもの（ ）を望んでいます。",
+          "choiceTranslations": [
+            "steals",
+            "stole",
+            "どれ",
+            "何を"
+          ]
+        },
+        {
+          "number": 15,
+          "text": "Jack's wife needs a new computer. She wants one (　) is easy to carry in her bag.",
+          "choices": [
+            "which",
+            "what",
+            "who",
+            "where"
+          ],
+          "answer": 1,
+          "grammar": "She wants one (　) is easy to carry ...＝持ち運びやすいもの（コンピュータ）。which＝関係代名詞（物を先行詞とする）。one which is ...＝〜であるもの。what（何）・who（人）・where（場所）は one を修飾するこの形に合いません。",
+          "grammarSimple": "「持ちはこびやすいもの」＝ one which is easy to carry！what・who・where はここには合わないよ。",
+          "choiceAnalysis": [
+            "○ which＝関係代名詞（物）。one which is easy to carry＝持ち運びやすいもの。",
+            "what＝何。one what is ... とは言いません。",
+            "who＝誰。コンピュータ（物）には使いません。",
+            "where＝場所。one where is ... とは言いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "○ which がぴったり！持ちはこびやすいコンピュータ。",
+            "what は合わないよ。",
+            "who は人に使うよ。コンピュータには使えない。",
+            "where は「どこ」。合わないよ。"
+          ],
+          "translation": "ジャックの妻は新しいコンピュータを必要としています。彼女はカバンに入れて持ち歩きやすいもの（ ）を望んでいます。",
+          "choiceTranslations": [
+            "誰",
+            "どこ",
+            "誰が",
+            "どこ"
+          ]
         }
-    ],
-    "vocabulary": [
+      ]
+    },
+    {
+      "name": "大問2",
+      "nameEn": "Part 2",
+      "type": "vocabulary",
+      "instruction": "次の(16)から(20)までの会話について，（　）に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "questions": [
         {
-            "word": "true",
-            "meaning": "本当の",
-            "pos": "形容詞",
-            "level": "3級",
-            "example": "That's not true.",
-            "distractors": [
-                "パフォーマンス",
-                "暗い",
-                "テーマ・話題"
-            ],
-            "wordAudio": "audio/vocab/w_001_true.mp3"
+          "number": 16,
+          "text": "Wife: Mike, you can't wear that suit to Sally's wedding.\nHusband: (　)\nWife: It's too old. Go and put on your nice gray one.",
+          "choices": [
+            "What's wrong with it?",
+            "Can you remember?",
+            "What are you going to wear?",
+            "Are they married?"
+          ],
+          "answer": 1,
+          "grammar": "妻がスーツを否定 → 夫が (　) → It's too old.＝何がいけないのか聞いた流れ。What's wrong with it?＝「それの何がいけないの？」覚えてる？／何を着る？／結婚してる？は「古すぎる」という答えと合いません。",
+          "grammarSimple": "「何がいけないの？」→「古すぎる」＝ What's wrong with it?！ほかの文は「古すぎる」の答えに合わないよ。",
+          "choiceAnalysis": [
+            "○ What's wrong with it?＝何がいけないの？→ It's too old. と続く。",
+            "Can you remember?＝覚えていますか？スーツの問題点と合いません。",
+            "What are you going to wear?＝何を着る予定？夫が妻に聞く文としては不自然。",
+            "Are they married?＝彼らは結婚していますか？結婚式に行く話とずれます。"
+          ],
+          "choiceAnalysisSimple": [
+            "○「何がいけないの？」→「古すぎる」。ぴったり！",
+            "「おぼえてる？」は関係ないね。",
+            "「何を着るの？」は自分のことだから変だよ。",
+            "「結婚してる？」はここには合わないよ。"
+          ],
+          "translation": "妻: マイク、そのスーツはサリーの結婚式には着られないよ。\n夫：（ ）\n妻：もう古いですね。行って、素敵なグレーの服を着てください。",
+          "choiceTranslations": [
+            "どうしたのですか?",
+            "覚えていますか?",
+            "何を着るつもりですか?",
+            "彼らは結婚していますか?"
+          ]
         },
         {
-            "word": "topic",
-            "meaning": "テーマ・話題",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "What is the topic of your report?",
-            "distractors": [
-                "入口",
-                "〜で有名",
-                "アパート"
-            ],
-            "wordAudio": "audio/vocab/w_002_topic.mp3"
+          "number": 17,
+          "text": "Man: I'm looking forward to this weekend.\nWoman: (　)\nMan: I'm just going to relax in my garden.",
+          "choices": [
+            "Why didn't you tell me?",
+            "When will you come back?",
+            "Where did you get those flowers?",
+            "What are you planning to do?"
+          ],
+          "answer": 4,
+          "grammar": "週末が楽しみ → (　) → I'm just going to relax in my garden.＝予定を聞かれた流れ。What are you planning to do?＝「何をする予定？」なぜ言わなかった／いつ戻る／花はどこで、は庭でリラックスする答えと合いません。",
+          "grammarSimple": "「何をするの？」→「にわでゆっくりする」＝ What are you planning to do?！ほかの文は答えに合わないよ。",
+          "choiceAnalysis": [
+            "Why didn't you tell me?＝なぜ教えてくれなかった？週末の予定説明と合いません。",
+            "When will you come back?＝いつ戻る？庭でリラックスする、では答えになりません。",
+            "Where did you get those flowers?＝その花はどこで？会話に花は出ていません。",
+            "○ What are you planning to do?＝何をする予定？→庭でリラックスすると続く。"
+          ],
+          "choiceAnalysisSimple": [
+            "「なぜ言わなかったの？」は関係ないね。",
+            "「いつもどるの？」には「にわでゆっくり」とは答えないよ。",
+            "「花はどこで？」は会話に出てこないよ。",
+            "○「何をするの？」→「にわでゆっくりする」。合うね！"
+          ],
+          "translation": "男性: 今週末を楽しみにしています。\n女：（ ）\n男性: 庭でリラックスするだけです。",
+          "choiceTranslations": [
+            "なぜ教えてくれなかったのですか?",
+            "いつ戻ってきますか?",
+            "その花はどこで手に入れましたか?",
+            "何をする予定ですか?"
+          ]
         },
         {
-            "word": "entrance",
-            "meaning": "入口",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "Where is the main entrance?",
-            "distractors": [
-                "関係代名詞",
-                "電信機",
-                "便利な"
-            ],
-            "wordAudio": "audio/vocab/w_003_entrance.mp3"
+          "number": 18,
+          "text": "Woman: Excuse me. Do you have this red hat in a smaller size?\nStore clerk: I'm sorry. (　)",
+          "choices": [
+            "We'll wait for you.",
+            "We sold the last one yesterday.",
+            "I don't know you.",
+            "That's a red hat."
+          ],
+          "answer": 2,
+          "grammar": "小さいサイズはある？→ I'm sorry. (　).＝在庫がなくて謝る流れ。We sold the last one yesterday.＝「昨日最後の1つを売りました」。待ちます／知りません／赤い帽子です、は品切れの説明として合いません。",
+          "grammarSimple": "「ごめんなさい、昨日さいごの1つを売った」＝ We sold the last one yesterday！もう小さいサイズはないんだね。",
+          "choiceAnalysis": [
+            "We'll wait for you.＝お待ちしています。サイズの有無への答えになりません。",
+            "○ We sold the last one yesterday.＝昨日最後の1つを売った。品切れの説明。",
+            "I don't know you.＝あなたを知りません。店員の返答として不適切です。",
+            "That's a red hat.＝それは赤い帽子です。質問（サイズ）に答えていません。"
+          ],
+          "choiceAnalysisSimple": [
+            "「まちます」は答えになっていないよ。",
+            "○「昨日さいごの1つを売っちゃいました」。もうないんだ。",
+            "「あなたを知りません」は失礼だよ。",
+            "「それは赤い帽子です」は答えになっていないよ。"
+          ],
+          "translation": "女性: すみません。この赤い帽子の小さいサイズはありますか？\n店員：申し訳ございません。 ( )",
+          "choiceTranslations": [
+            "お待ちしています。",
+            "昨日最後の1つを売りました。",
+            "Iあなたを知りません。",
+            "あれは赤い帽子です。"
+          ]
         },
         {
-            "word": "view",
-            "meaning": "景色",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "The view from our room is beautiful.",
-            "distractors": [
-                "同意する",
-                "関係代名詞",
-                "発明する"
-            ],
-            "wordAudio": "audio/vocab/w_004_view.mp3"
+          "number": 19,
+          "text": "Man: I saw a Mexican restaurant near the station this morning. (　)\nWoman: I often eat there. The food is delicious.",
+          "choices": [
+            "How can I get there?",
+            "What did you have?",
+            "Have you ever been there?",
+            "Do you like to travel?"
+          ],
+          "answer": 3,
+          "grammar": "駅近くにメキシコ料理店を見た → (　) → I often eat there.＝行ったことがあるか聞いた流れ。Have you ever been there?＝「そこに行ったことがありますか？」どう行く／何を食べた／旅行が好き、は「よく行く・おいしい」と合いません。",
+          "grammarSimple": "「行ったことある？」→「よく行くよ。おいしいよ」＝ Have you ever been there?！ほかの文は答えに合わないよ。",
+          "choiceAnalysis": [
+            "How can I get there?＝どうやって行く？→よく食べる、とは答えません。",
+            "What did you have?＝何を食べた？まだ店の話を始めたばかりで不自然。",
+            "○ Have you ever been there?＝行ったことある？→よく食べに行く、と続く。",
+            "Do you like to travel?＝旅行は好き？レストランの話題とずれます。"
+          ],
+          "choiceAnalysisSimple": [
+            "「どうやって行くの？」には「よく食べる」とは答えないよ。",
+            "「何を食べた？」はまだ早いよ。",
+            "○「行ったことある？」→「よく食べに行くよ。おいしい！」",
+            "「旅行が好き？」はレストランの話だから変だよ。"
+          ],
+          "translation": "男:今朝、駅の近くでメキシコ料理レストランを見ました。 （ ）\n女性: よくそこで食べます。食べ物はおいしいです。",
+          "choiceTranslations": [
+            "どうやってそこに行けますか?",
+            "何を持っていましたか?",
+            "そこに行ったことがありますか?",
+            "旅行は好きですか?"
+          ]
         },
         {
-            "word": "dark",
-            "meaning": "暗い",
-            "pos": "形容詞",
-            "level": "4級",
-            "example": "It's getting dark.",
-            "distractors": [
-                "特に",
-                "入口",
-                "盗まれた"
-            ],
-            "wordAudio": "audio/vocab/w_005_dark.mp3"
-        },
-        {
-            "word": "wood",
-            "meaning": "木材",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "She used a lot of wood.",
-            "distractors": [
-                "彼女を",
-                "入口",
-                "関係代名詞"
-            ],
-            "wordAudio": "audio/vocab/w_006_wood.mp3"
-        },
-        {
-            "word": "decided",
-            "meaning": "決めた",
-            "pos": "動詞過去形",
-            "level": "3級",
-            "example": "He decided to stay home.",
-            "distractors": [
-                "便利な",
-                "意見",
-                "暗い"
-            ],
-            "wordAudio": "audio/vocab/w_007_decided.mp3"
-        },
-        {
-            "word": "often",
-            "meaning": "よく・しばしば",
-            "pos": "副詞",
-            "level": "4級",
-            "example": "How often do you go?",
-            "distractors": [
-                "入口",
-                "彼女を",
-                "関係代名詞"
-            ],
-            "wordAudio": "audio/vocab/w_008_often.mp3"
-        },
-        {
-            "word": "lost her way",
-            "meaning": "道に迷った",
-            "pos": "動詞句",
-            "level": "3級",
-            "example": "She lost her way and walked for an hour.",
-            "distractors": [
-                "発明する",
-                "〜によると",
-                "同意する"
-            ],
-            "wordAudio": "audio/vocab/w_009_lost_her_way.mp3"
-        },
-        {
-            "word": "agree",
-            "meaning": "同意する",
-            "pos": "動詞",
-            "level": "3級",
-            "example": "I agree with you.",
-            "distractors": [
-                "よく・しばしば",
-                "環境にやさしい",
-                "電信機"
-            ],
-            "wordAudio": "audio/vocab/w_010_agree.mp3"
-        },
-        {
-            "word": "famous for",
-            "meaning": "〜で有名",
-            "pos": "形容詞句",
-            "level": "3級",
-            "example": "Famous for its great pizza.",
-            "distractors": [
-                "道に迷った",
-                "テーマ・話題",
-                "特に"
-            ],
-            "wordAudio": "audio/vocab/w_011_famous_for.mp3"
-        },
-        {
-            "word": "opinion",
-            "meaning": "意見",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "In my opinion, it is good.",
-            "distractors": [
-                "教科書",
-                "〜によると",
-                "特に"
-            ],
-            "wordAudio": "audio/vocab/w_012_opinion.mp3"
-        },
-        {
-            "word": "her",
-            "meaning": "彼女を",
-            "pos": "代名詞目的格",
-            "level": "4級",
-            "example": "He named her Moka.",
-            "distractors": [
-                "暗い",
-                "励ます",
-                "便利な"
-            ],
-            "wordAudio": "audio/vocab/w_013_her.mp3"
-        },
-        {
-            "word": "stolen",
-            "meaning": "盗まれた",
-            "pos": "動詞過去分詞",
-            "level": "3級",
-            "example": "The bicycle stolen from the shop.",
-            "distractors": [
-                "入口",
-                "決めた",
-                "暗い"
-            ],
-            "wordAudio": "audio/vocab/w_014_stolen.mp3"
-        },
-        {
-            "word": "which",
-            "meaning": "関係代名詞",
-            "pos": "代名詞",
-            "level": "3級",
-            "example": "One which is easy to carry.",
-            "distractors": [
-                "〜によると",
-                "便利な",
-                "本当の"
-            ],
-            "wordAudio": "audio/vocab/w_015_which.mp3"
-        },
-        {
-            "word": "encourage",
-            "meaning": "励ます",
-            "pos": "動詞",
-            "level": "3級",
-            "example": "His mother encouraged him.",
-            "distractors": [
-                "テーマ・話題",
-                "意見",
-                "電気の"
-            ],
-            "wordAudio": "audio/vocab/w_016_encourage.mp3"
-        },
-        {
-            "word": "invent",
-            "meaning": "発明する",
-            "pos": "動詞",
-            "level": "3級",
-            "example": "He invented many things.",
-            "distractors": [
-                "電気の",
-                "決めた",
-                "結婚式"
-            ],
-            "wordAudio": "audio/vocab/w_017_invent.mp3"
-        },
-        {
-            "word": "telegraph",
-            "meaning": "電信機",
-            "pos": "名詞",
-            "level": "準2級",
-            "example": "People used telegraphs to send messages.",
-            "distractors": [
-                "よく・しばしば",
-                "入口",
-                "パフォーマンス"
-            ],
-            "wordAudio": "audio/vocab/w_018_telegraph.mp3"
-        },
-        {
-            "word": "convenient",
-            "meaning": "便利な",
-            "pos": "形容詞",
-            "level": "3級",
-            "example": "It was more convenient.",
-            "distractors": [
-                "同意する",
-                "電気の",
-                "暗い"
-            ],
-            "wordAudio": "audio/vocab/w_019_convenient.mp3"
-        },
-        {
-            "word": "electric",
-            "meaning": "電気の",
-            "pos": "形容詞",
-            "level": "3級",
-            "example": "An electric engine for boats.",
-            "distractors": [
-                "励ます",
-                "木材",
-                "電信機"
-            ],
-            "wordAudio": "audio/vocab/w_020_electric.mp3"
-        },
-        {
-            "word": "textbook",
-            "meaning": "教科書",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "She has some old textbooks.",
-            "distractors": [
-                "便利な",
-                "木材",
-                "入口"
-            ],
-            "wordAudio": "audio/vocab/w_021_textbook.mp3"
-        },
-        {
-            "word": "performance",
-            "meaning": "パフォーマンス",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "The performance on May 1.",
-            "distractors": [
-                "関係代名詞",
-                "同意する",
-                "道に迷った"
-            ],
-            "wordAudio": "audio/vocab/w_022_performance.mp3"
-        },
-        {
-            "word": "instrument",
-            "meaning": "楽器",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "Lessons on how to play instruments.",
-            "distractors": [
-                "励ます",
-                "景色",
-                "教科書"
-            ],
-            "wordAudio": "audio/vocab/w_023_instrument.mp3"
-        },
-        {
-            "word": "apartment",
-            "meaning": "アパート",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "I'll live in an apartment.",
-            "distractors": [
-                "盗まれた",
-                "同意する",
-                "発明する"
-            ],
-            "wordAudio": "audio/vocab/w_024_apartment.mp3"
-        },
-        {
-            "word": "wedding",
-            "meaning": "結婚式",
-            "pos": "名詞",
-            "level": "3級",
-            "example": "Sally's wedding.",
-            "distractors": [
-                "入口",
-                "同意する",
-                "盗まれた"
-            ],
-            "wordAudio": "audio/vocab/w_025_wedding.mp3"
-        },
-        {
-            "word": "pick up",
-            "meaning": "迎えに行く",
-            "pos": "動詞句",
-            "level": "3級",
-            "example": "I'll pick you up.",
-            "distractors": [
-                "入口",
-                "景色",
-                "結婚式"
-            ],
-            "wordAudio": "audio/vocab/w_026_pick_up.mp3"
-        },
-        {
-            "word": "environment",
-            "meaning": "環境",
-            "pos": "名詞",
-            "level": "準2級",
-            "example": "Protect the environment.",
-            "distractors": [
-                "アパート",
-                "関係代名詞",
-                "楽器"
-            ],
-            "wordAudio": "audio/vocab/w_027_environment.mp3"
-        },
-        {
-            "word": "eco-friendly",
-            "meaning": "環境にやさしい",
-            "pos": "形容詞",
-            "level": "準2級",
-            "example": "We should be more eco-friendly.",
-            "distractors": [
-                "パフォーマンス",
-                "テーマ・話題",
-                "景色"
-            ],
-            "wordAudio": "audio/vocab/w_028_eco_friendly.mp3"
-        },
-        {
-            "word": "according to",
-            "meaning": "〜によると",
-            "pos": "前置詞句",
-            "level": "3級",
-            "example": "According to some people.",
-            "distractors": [
-                "景色",
-                "同意する",
-                "楽器"
-            ],
-            "wordAudio": "audio/vocab/w_029_according_to.mp3"
-        },
-        {
-            "word": "especially",
-            "meaning": "特に",
-            "pos": "副詞",
-            "level": "3級",
-            "example": "He was especially interested.",
-            "distractors": [
-                "〜で有名",
-                "発明する",
-                "電気の"
-            ],
-            "wordAudio": "audio/vocab/w_030_especially.mp3"
+          "number": 20,
+          "text": "Woman: Excuse me. Is this the way to the Japanese Gardens?\nMan: Yes, it is. Just go straight down this road, and (　)",
+          "choices": [
+            "you can ask me.",
+            "I can't speak Japanese.",
+            "it'll take about 10 minutes.",
+            "that's too small."
+          ],
+          "answer": 3,
+          "grammar": "日本庭園への道？→ Yes ... Just go straight ..., and (　).＝道案内の続き。it'll take about 10 minutes.＝「約10分かかります」。聞いてくれ／日本語が話せない／小さすぎる、はまっすぐ行け、の後に合いません。",
+          "grammarSimple": "「まっすぐ行けば10分くらい」＝ it'll take about 10 minutes！道案内の続きにちょうど合うよ。",
+          "choiceAnalysis": [
+            "you can ask me.＝聞いてくれ。すでに道案内しているので不自然。",
+            "I can't speak Japanese.＝日本語が話せない。Japanese Gardens は庭園の名前。",
+            "○ it'll take about 10 minutes.＝約10分かかる。道案内の続きとして自然。",
+            "that's too small.＝それは小さすぎる。道案内と合いません。"
+          ],
+          "choiceAnalysisSimple": [
+            "「聞いていいよ」はもう教えているから変だよ。",
+            "「日本語が話せない」は庭園の名前だから関係ないよ。",
+            "○「10分くらいだよ」。道案内にちょうど合う！",
+            "「小さすぎる」は関係ないね。"
+          ],
+          "translation": "女性: すみません。ここは日本庭園への道ですか？\n男性: はい、そうです。この道をまっすぐ行ってください（ ）",
+          "choiceTranslations": [
+            "聞いてもいいです。",
+            "日本語は話せません。",
+            "10 分くらいかかります。",
+            "それは小さすぎます。"
+          ]
         }
-    ],
-    "lessonPlan": {
-        "focusPoints": [
+      ]
+    },
+    {
+      "name": "大問3",
+      "nameEn": "Part 3",
+      "type": "reading-comprehension",
+      "instruction": "次のA，B，Cの内容に関して，質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+      "passages": [
+        {
+          "label": "A",
+          "title": "Notice from the School Band",
+          "format": "notice",
+          "paragraphs": [
+            "Notice from the School Band",
+            "Do you want to play in a band? The school band is looking for new members to join! Both beginners and people with experience are welcome! Beginners can take lessons on how to play instruments.",
+            "If you already know how to play, you can start practicing with the band members for the performance on May 1.",
+            "The band members will hold an event to explain more about their activities.\nWhen: Thursday, March 2, at 4:00 p.m.\nWhere: School cafeteria",
+            "You can join the band on March 3! If you have any questions, please talk to the band manager, Ms. Clancy, before March 1."
+          ],
+          "translations": [
+            "スクールバンドからのお知らせ",
+            "バンドで演奏したいですか？スクールバンドは新しいメンバーを募集しています！初心者も経験者も歓迎！初心者は楽器の弾き方のレッスンを受けられます。",
+            "すでに演奏できる人は、5月1日のパフォーマンスに向けてバンドメンバーと一緒に練習を始められます。",
+            "バンドメンバーが活動について説明するイベントを開催します。\n日時：3月2日（木）午後4時\n場所：学校のカフェテリア",
+            "3月3日にバンドに入れます！質問がある方は3月1日までにバンドマネージャーのクランシー先生に話しかけてください。"
+          ],
+          "questions": [
             {
-                "id": "fp1",
-                "title": "関係代名詞 which と過去分詞の形容詞的用法",
-                "subtitle": "Relative Pronoun 'which' & Past Participle as Adjective",
-                "explanation": "関係代名詞 which は物を先行詞として使う。one which is easy to carry＝持ち運びやすい物。過去分詞の形容詞的用法：the bicycle stolen from a shop＝店から盗まれた自転車。",
-                "explanationSimple": "which は「〜な物」。stolen は「ぬすまれた」をつけたすことば。",
-                "sourceQuote": "She wants one which is easy to carry in her bag.",
-                "sourceLocation": "大問1 (15)",
-                "examples": [
-                    {
-                        "en": "Jack's wife needs a new computer. She wants one which is easy to carry in her bag.",
-                        "ja": "ジャックの奥さんは新しいコンピュータが必要だ。バッグに入れて持ち運びやすいのがほしい。",
-                        "note": "関係代名詞 which。one which is easy to carry。",
-                        "noteSimple": "which は「〜の」。持ち運びやすいコンピュータがほしいんだね。",
-                        "audio": "audio/fp1_ex1.mp3"
-                    },
-                    {
-                        "en": "The police looked for the bicycle stolen from a bicycle shop.",
-                        "ja": "警察は自転車屋から盗まれた自転車を探した。",
-                        "note": "過去分詞の形容詞的用法。stolen from＝〜から盗まれた。",
-                        "noteSimple": "stolen は「ぬすまれた」。お店からぬすまれた自転車をさがしている。",
-                        "audio": "audio/fp1_ex2.mp3"
-                    },
-                    {
-                        "en": "People could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs.",
-                        "ja": "トルヴェの電信機は持ち歩けたので、以前の電信機より便利だった。",
-                        "note": "比較級。more convenient than＝〜より便利。",
-                        "noteSimple": "more convenient は「もっと便利」。小さくて持ち運べるから便利！",
-                        "audio": "audio/fp1_ex3.mp3"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "Jack's wife needs a new computer. She wants one which is easy to carry in her bag.\n\nThe police looked for the bicycle stolen from a bicycle shop. Finally, they found it on the street.\n\nPeople could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs.",
-                    "ja": "ジャックの奥さんは新しいコンピュータが必要だ。バッグで持ち運びやすいのがほしい。\n\n警察は自転車屋から盗まれた自転車を探した。ついに道で見つけた。\n\nトルヴェの電信機は持ち歩けたので、以前のものより便利だった。",
-                    "source": "大問1 (15)(14)、大問3C",
-                    "audioFile": "audio/practice_pp1.mp3"
-                },
-                "highlightPatterns": [
-                    "which is",
-                    "stolen from",
-                    "more convenient than"
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "which の先行詞は？",
-                        "a": "one（＝computer）。物なので which を使う。"
-                    },
-                    {
-                        "q": "stolen は何形？",
-                        "a": "過去分詞。steal-stole-stolen。名詞を修飾。"
-                    }
-                ],
-                "practiceQuestionsSimple": [
-                    {
-                        "q": "which ってどういうとき使う？",
-                        "a": "「〜な物」と説明をつけたすとき。人なら who を使うよ。"
-                    },
-                    {
-                        "q": "stolen ってどういう意味？",
-                        "a": "「ぬすまれた」。steal の過去分詞形だよ。"
-                    }
-                ]
+              "number": 21,
+              "question": "What is this notice for?",
+              "questionTranslation": "この掲示は何のため？",
+              "choices": [
+                "To ask people to sell their old instruments.",
+                "To introduce the new band manager.",
+                "To find new members for a band.",
+                "To tell students about a new cafeteria."
+              ],
+              "answer": 3,
+              "grammar": "本文に The school band is looking for new members to join! とあり、この掲示の目的はバンドの新しいメンバーを探すこと。古い楽器の売却・新マネージャー紹介・新食堂のお知らせではありません。",
+              "grammarSimple": "本文「新しいメンバーをさがしている」＝ To find new members for a band！",
+              "choiceAnalysis": [
+                "To ask people to sell their old instruments.＝本文はメンバー募集。売却依頼ではない。",
+                "To introduce the new band manager.＝Ms. Clancy は質問先。紹介が目的ではない。",
+                "○ To find new members for a band.＝looking for new members to join! と一致。",
+                "To tell students about a new cafeteria.＝cafeteria は説明会の場所。新食堂ではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "楽器を売るお知らせではないよ。",
+                "マネージャーの紹介ではないよ。",
+                "○ 新しいメンバーをさがしているよ！",
+                "カフェテリアのお知らせではないよ。場所だよ。"
+              ],
+              "choiceTranslations": [
+                "古い楽器を売ってほしいとお願いする。",
+                "新しいバンド マネージャーを紹介する。",
+                "バンドの新しいメンバーを見つける。",
+                "新しいカフェテリアについて生徒に伝える。"
+              ]
             },
             {
-                "id": "fp2",
-                "title": "定型表現と前置詞",
-                "subtitle": "Set Phrases & Prepositions",
-                "explanation": "famous for＝「〜で有名」、agree with＝「〜に同意する」、in my opinion＝「私の意見では」、How often＝「どのくらいの頻度で」。前置詞のセットが重要。",
-                "explanationSimple": "famous for は「〜でゆうめい」、agree with は「さんせい」、in my opinion は「わたしの意見では」。",
-                "sourceQuote": "This restaurant is famous for its great pizza.",
-                "sourceLocation": "大問1 (11)",
-                "examples": [
-                    {
-                        "en": "This restaurant is famous for its great pizza and cheap prices.",
-                        "ja": "このレストランはおいしいピザとお手頃価格で有名だ。",
-                        "note": "famous for＝〜で有名。",
-                        "noteSimple": "famous for は「〜でゆうめい」。おいしいピザで有名なお店。",
-                        "audio": "audio/fp2_ex1.mp3"
-                    },
-                    {
-                        "en": "I agree with you. We should be more eco-friendly.",
-                        "ja": "あなたに同意します。もっと環境にやさしくすべきだ。",
-                        "note": "agree with＝〜に同意する。",
-                        "noteSimple": "agree with は「さんせいする」。かんきょうを守ろうね。",
-                        "audio": "audio/fp2_ex2.mp3"
-                    },
-                    {
-                        "en": "In my opinion, it is really good.",
-                        "ja": "私の意見では、それは本当にいい。",
-                        "note": "in my opinion＝私の意見では。定型表現。",
-                        "noteSimple": "in my opinion は「わたしの意見では」。すごくいいと思う！",
-                        "audio": "audio/fp2_ex3.mp3"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "This restaurant is famous for its great pizza and cheap prices.\n\nIt is important to protect the environment.\n— I agree with you. We should be more eco-friendly.\n\nWhat do you think of this book?\n— In my opinion, it is really good.\n\nHow often do you go to the library?\n— About twice a month.",
-                    "ja": "このレストランはおいしいピザとお手頃価格で有名だ。\n\n環境を守ることは大切だ。\n—あなたに同意します。もっとエコにすべきだ。\n\nこの本をどう思う？\n—私の意見では、本当にいい本だ。\n\nどのくらい図書館に行く？\n—月に2回くらい。",
-                    "source": "大問1 (11)(10)(12)(8)",
-                    "audioFile": "audio/practice_pp2.mp3"
-                },
-                "highlightPatterns": [
-                    "famous for",
-                    "agree with",
-                    "In my opinion",
-                    "How often"
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "famous for と famous as の違いは？",
-                        "a": "famous for＝〜で有名。famous as＝〜として有名。"
-                    },
-                    {
-                        "q": "How often の答え方は？",
-                        "a": "頻度で答える。twice a month, every day, once a week など。"
-                    }
-                ],
-                "practiceQuestionsSimple": [
-                    {
-                        "q": "famous for ってどういう意味？",
-                        "a": "「〜でゆうめい」。おいしいピザで有名なお店のこと。"
-                    },
-                    {
-                        "q": "How often ってどう答える？",
-                        "a": "「月に2回」とか「毎日」とか、どのくらいよくするかを答えるよ。"
-                    }
-                ]
-            },
-            {
-                "id": "fp3",
-                "title": "SVOC構文と decide to",
-                "subtitle": "SVOC Pattern & Decide to",
-                "explanation": "SVOC構文：He named her Moka＝「彼は彼女をモカと名付けた」。S＋V＋O(her)＋C(Moka)。decide to＝「〜することに決める」。",
-                "explanationSimple": "named her Moka は「彼女をモカと名づけた」。decided to は「〜することにきめた」。",
-                "sourceQuote": "He named her Moka.",
-                "sourceLocation": "大問1 (13)",
-                "examples": [
-                    {
-                        "en": "Tom got a pet cat last summer. He named her Moka.",
-                        "ja": "トムは去年の夏ペットの猫を飼った。彼女をモカと名付けた。",
-                        "note": "SVOC構文。named＋目的語＋補語。",
-                        "noteSimple": "named her Moka は「彼女をモカと名づけた」。かわいい名前。",
-                        "audio": "audio/fp3_ex1.mp3"
-                    },
-                    {
-                        "en": "Jim was tired, so he decided to stay home.",
-                        "ja": "ジムは疲れていたので家にいることに決めた。",
-                        "note": "decide to＝〜することに決める。",
-                        "noteSimple": "decided to は「〜することにきめた」。つかれていたから家にいることにした。",
-                        "audio": "audio/fp3_ex2.mp3"
-                    },
-                    {
-                        "en": "His mother encouraged him to do that.",
-                        "ja": "母親は彼にそれをするように励ました。",
-                        "note": "encourage＋人＋to不定詞＝人に〜するよう励ます。",
-                        "noteSimple": "encouraged him to は「彼に〜するように励ました」。おかあさんがおうえんしてくれた。",
-                        "audio": "audio/fp3_ex3.mp3"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "Tom got a pet cat last summer. He named her Moka.\n\nJim's family went to the movies yesterday, but Jim was tired, so he decided to stay home.\n\nTrouvé enjoyed making things when he was a child, and his mother encouraged him to do that.",
-                    "ja": "トムは去年の夏ペットの猫を飼った。彼女をモカと名付けた。\n\nジムの家族は昨日映画に行ったが、ジムは疲れていたので家にいることにした。\n\nトルヴェは子どもの頃ものを作るのが好きで、母親がそれを応援した。",
-                    "source": "大問1 (13)(7)、大問3C",
-                    "audioFile": "audio/practice_pp3.mp3"
-                },
-                "highlightPatterns": [
-                    "named her",
-                    "decided to",
-                    "encouraged him to"
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "named her Moka のherは何格？",
-                        "a": "目的格。name＋目的語＋名前のSVOC構文。"
-                    },
-                    {
-                        "q": "decide to の後は何形？",
-                        "a": "動詞の原形。decide to stay, decide to go など。"
-                    }
-                ],
-                "practiceQuestionsSimple": [
-                    {
-                        "q": "named her Moka の her ってなに？",
-                        "a": "「彼女を」。ねこのことだよ。モカという名前をつけたんだね。"
-                    },
-                    {
-                        "q": "decided to ってどういう意味？",
-                        "a": "「〜することにきめた」。自分で決断したということ。"
-                    }
-                ]
-            },
-            {
-                "id": "fp4",
-                "title": "発明家の人生と業績",
-                "subtitle": "An Inventor's Life & Achievements",
-                "explanation": "Trouvéの生涯：多くの発明（小型電信機、電気エンジン、電気自動車）。especially interested in＝特に〜に興味がある。according to＝〜によると。People still use those engines today＝今でも使われている。",
-                "explanationSimple": "トルヴェは電信機や電気エンジン、電気自動車を発明した人。especially は「とくに」。",
-                "sourceQuote": "He invented a lot of things during his life, but many people still don't know about him.",
-                "sourceLocation": "大問3C 第5段落",
-                "examples": [
-                    {
-                        "en": "Trouvé invented many things, but he was especially interested in electric machines.",
-                        "ja": "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。",
-                        "note": "especially interested in＝特に〜に興味がある。",
-                        "noteSimple": "especially は「とくに」。でんきの機械にとくに興味があったんだね。",
-                        "audio": "audio/fp4_ex1.mp3"
-                    },
-                    {
-                        "en": "According to some people, he invented the first electric car, too.",
-                        "ja": "一部の人によると、最初の電気自動車も発明した。",
-                        "note": "according to＝〜によると。",
-                        "noteSimple": "according to は「〜によると」。でんきの車も発明したかもしれないんだ。",
-                        "audio": "audio/fp4_ex2.mp3"
-                    },
-                    {
-                        "en": "He invented a lot of things during his life, but many people still don't know about him.",
-                        "ja": "生涯に多くのものを発明したが、多くの人はまだ彼を知らない。",
-                        "note": "during his life＝生涯に。still don't know＝まだ知らない。",
-                        "noteSimple": "一生の間にたくさん発明したのに、知られていないんだね。",
-                        "audio": "audio/fp4_ex3.mp3"
-                    }
-                ],
-                "practicePassage": {
-                    "en": "Trouvé invented many things, but he was especially interested in electric machines. He invented an electric engine that people could put on the back of small boats. People still use those engines today. Trouvé also invented a new kind of light. According to some people, he invented the first electric car, too. These things were not popular in the 1800s, but they are very useful now.\n\nTrouvé died in 1902. He invented a lot of things during his life, but many people still don't know about him.",
-                    "ja": "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。小さなボートの後ろにつける電気エンジンを発明した。そのエンジンは今でも使われている。新しい種類のライトも発明した。最初の電気自動車を発明したという人もいる。これらは1800年代には人気がなかったが、今はとても役に立っている。\n\nトルヴェは1902年に亡くなった。生涯に多くのものを発明したが、多くの人はまだ知らない。",
-                    "source": "大問3C「Gustave Trouvé」第4-5段落",
-                    "audioFile": "audio/practice_pp4.mp3"
-                },
-                "highlightPatterns": [
-                    "especially interested in",
-                    "According to",
-                    "still use",
-                    "still don't know"
-                ],
-                "practiceQuestions": [
-                    {
-                        "q": "especially の意味は？",
-                        "a": "「特に」。他のことにも興味があったが電気が一番。"
-                    },
-                    {
-                        "q": "still の意味は？",
-                        "a": "「まだ」。People still use (今でも使う)、still don't know (まだ知らない)。"
-                    }
-                ],
-                "practiceQuestionsSimple": [
-                    {
-                        "q": "especially ってどういう意味？",
-                        "a": "「とくに」。いろいろ興味があるけど、電気がいちばん好き！"
-                    },
-                    {
-                        "q": "still ってどういう意味？",
-                        "a": "「まだ」。今でも使われている、まだ知られていない。"
-                    }
-                ]
+              "number": 22,
+              "question": "When will the band members share information about their activities?",
+              "questionTranslation": "バンドメンバーが活動情報を共有するのはいつ？",
+              "choices": [
+                "On March 1.",
+                "On March 2.",
+                "On March 3.",
+                "On May 1."
+              ],
+              "answer": 2,
+              "grammar": "本文に The band members will hold an event to explain more about their activities. When: Thursday, March 2, at 4:00 p.m. とあり、活動の説明は3月2日。March 1 は質問の期限、March 3 は入部日、May 1 はパフォーマンスの日です。",
+              "grammarSimple": "本文「説明のイベントは March 2」＝ On March 2.！",
+              "choiceAnalysis": [
+                "On March 1.＝質問は before March 1。説明イベントの日ではない。",
+                "○ On March 2.＝When: Thursday, March 2 ... explain ... activities。",
+                "On March 3.＝You can join the band on March 3! 入部できる日。",
+                "On May 1.＝performance on May 1。発表の日で説明会ではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "3月1日は質問のしめきりだよ。",
+                "○ 3月2日に説明会があるよ！",
+                "3月3日はバンドに入れる日だよ。",
+                "5月1日はパフォーマンスの日だよ。"
+              ],
+              "choiceTranslations": [
+                "3 月 1 日。",
+                "3 月 2 日。",
+                "3 月 3 日。",
+                "5 月 1 日。"
+              ]
             }
-        ]
+          ]
+        },
+        {
+          "label": "B",
+          "title": "David Goes to College",
+          "format": "multi-email",
+          "emails": [
+            {
+              "meta": {
+                "from": "David Chapman",
+                "to": "Louise Chapman",
+                "date": "July 28",
+                "subject": "Great news!"
+              },
+              "body": "Hi Louise!\nIt was good to see you at your new house in Greenview last month. Thanks for taking me to lots of interesting places. I enjoyed the boat trip on the river the most. It was a great way to see the city. Did Mom and Dad tell you my good news? I'm going to study at Greenview College! I'll go there this fall to study science. I'm looking forward to starting classes and meeting lots of new people, but I'm a little worried about the lessons. I hope they aren't too difficult. I'll live in an apartment at the college for my first year. The college isn't far from your house, so I can see you more often.\nYour brother,\nDavid",
+              "translation": "ルイーズ！\n先月グリーンビューの新しい家で会えてよかった。いろいろな面白い場所に連れて行ってくれてありがとう。川のボートツアーが一番楽しかった。街を見るのにすごくいい方法だった。お母さんとお父さんはいい知らせを話してくれた？グリーンビュー大学で勉強することになったんだ！この秋に理科を勉強しに行くよ。授業を始めて新しい人にたくさん会うのが楽しみだけど、少し授業が心配。難しくないといいな。1年目は大学のアパートに住む。大学はお姉ちゃんの家から遠くないから、もっとよく会えるね。"
+            },
+            {
+              "meta": {
+                "from": "Louise Chapman",
+                "to": "David Chapman",
+                "date": "July 29",
+                "subject": "Congratulations!"
+              },
+              "body": "Hi David,\nThat's great news! My friend went to Greenview College, and she said the teachers there were very kind. She also studied science. She has some old textbooks that she used at college. She doesn't need them anymore, so she wants to give them to you. She'll bring them to my house, so you can get them when you visit me next time. I think you'll need to take many things to college with you, so I'll drive you there in my car. Please tell me when you'll move there. I'll drive to Mom and Dad's house and pick you up. We can go out for lunch with Mom and Dad before you leave. I think they will be sad when you go to college.\nSee you soon,\nLouise",
+              "translation": "デイビッド、\nすごいニュースだね！友達がグリーンビュー大学に行っていて、先生方がとても親切だったって。彼女も理科を勉強したの。大学で使った古い教科書があるんだけど、もう必要ないからあなたにあげたいって。私の家に持ってきてくれるから、次に遊びに来たときにもらえるよ。大学にはたくさん荷物を持って行くことになると思うから、車で送ってあげる。いつ引っ越すか教えてね。お母さんとお父さんの家まで迎えに行くよ。出発前にお母さんとお父さんと一緒にランチに行こう。大学に行ったらお母さんたちは寂しくなると思うな。"
+            }
+          ],
+          "paragraphs": [
+            "David tells his sister Louise he got into Greenview College. Louise offers to drive him there and mentions a friend with old textbooks."
+          ],
+          "translations": [
+            "デイビッドが姉のルイーズにグリーンビュー大学に入学することを伝える。ルイーズは車で送ると申し出、友人が古い教科書をくれることを伝える。"
+          ],
+          "questions": [
+            {
+              "number": 23,
+              "question": "What will David do this fall?",
+              "questionTranslation": "デイビッドはこの秋何をする？",
+              "choices": [
+                "Go on a boat trip.",
+                "Start studying at college.",
+                "Begin teaching science.",
+                "Start living in Louise's house."
+              ],
+              "answer": 2,
+              "sourceEvidence": "I'll go there this fall to study science.",
+              "grammar": "1通目に I'll go there this fall to study science. とあり、David はこの秋に Greenview College で勉強を始める。ボート旅行は先月楽しんだこと。教える・Louise の家に住む、ではない。",
+              "grammarSimple": "本文「この秋に大学で科学を勉強する」＝ Start studying at college！",
+              "choiceAnalysis": [
+                "Go on a boat trip.＝先月の船の旅。この秋の予定ではない。",
+                "○ Start studying at college.＝I'll go there this fall to study science。",
+                "Begin teaching science.＝勉強する側。教えるとは書いていない。",
+                "Start living in Louise's house.＝大学のアパートに住む。Louise の家ではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "ボートは先月のこと。秋ではないよ。",
+                "○ 大学で勉強を始めるよ！",
+                "教えるのではなく勉強するよ。",
+                "Louise の家ではなく大学のアパートだよ。"
+              ],
+              "choiceTranslations": [
+                "ボート旅行に出かけます。",
+                "大学で勉強を始めます。",
+                "科学を教え始めます。",
+                "ルイーズの家に住み始めます。"
+              ]
+            },
+            {
+              "number": 24,
+              "question": "Louise's friend will",
+              "questionTranslation": "ルイーズの友人は",
+              "choices": [
+                "show David around Greenview College.",
+                "sell a car to Louise.",
+                "give David her old textbooks.",
+                "clean Louise's house with Louise."
+              ],
+              "answer": 3,
+              "sourceEvidence": "she wants to give them to you",
+              "grammar": "2通目に She has some old textbooks ... she wants to give them to you. とあり、Louise の友人は古い教科書を David にあげる。大学案内・車の売却・家の掃除とは書いていません。",
+              "grammarSimple": "本文「古い教科書をあなたにあげたい」＝ give David her old textbooks！",
+              "choiceAnalysis": [
+                "show David around Greenview College.＝本文に案内するとは書いていない。",
+                "sell a car to Louise.＝車を売る話はない。",
+                "○ give David her old textbooks.＝she wants to give them to you と一致。",
+                "clean Louise's house with Louise.＝掃除の話はない。"
+              ],
+              "choiceAnalysisSimple": [
+                "大学を案内するとは書いていないよ。",
+                "車を売るとは書いていないよ。",
+                "○ 古い教科書をくれるんだって！",
+                "家をそうじするとは書いていないよ。"
+              ],
+              "choiceTranslations": [
+                "デビッドにグリーンビュー大学を案内してください。",
+                "ルイーズに車を売ります。",
+                "デビッドに古い教科書を渡します。",
+                "ルイーズの家をルイーズと一緒に掃除してください。"
+              ]
+            },
+            {
+              "number": 25,
+              "question": "What will Louise do for David?",
+              "questionTranslation": "ルイーズはデイビッドのために何をする？",
+              "choices": [
+                "Take him to college in her car.",
+                "Help him to find a new house.",
+                "Make him some lunch.",
+                "Return a book to their parents."
+              ],
+              "answer": 1,
+              "sourceEvidence": "so I'll drive you there in my car",
+              "grammar": "2通目に I'll drive you there in my car. とあり、Louise は車で David を大学まで送る。家探し・昼食作り・親への本の返却ではない（ランチは外食の提案）。",
+              "grammarSimple": "本文「車で送ってあげる」＝ Take him to college in her car！",
+              "choiceAnalysis": [
+                "○ Take him to college in her car.＝I'll drive you there in my car。",
+                "Help him to find a new house.＝アパートは大学にある。家探しではない。",
+                "Make him some lunch.＝We can go out for lunch ... 外食の提案。作るとは書いていない。",
+                "Return a book to their parents.＝本を親に返す話はない。"
+              ],
+              "choiceAnalysisSimple": [
+                "○ 車で大学まで送ってくれるよ！",
+                "家を探すとは書いていないよ。",
+                "ランチは外食する予定だよ。",
+                "本を返すとは書いていないよ。"
+              ],
+              "choiceTranslations": [
+                "彼女の車で彼を大学まで連れて行きます。",
+                "新しい家を見つけるのを手伝ってください。",
+                "昼食を作ってください。",
+                "両親に本を返してください。"
+              ]
+            }
+          ]
+        },
+        {
+          "label": "C",
+          "title": "Gustave Trouvé",
+          "format": "passage",
+          "paragraphs": [
+            "Gustave Trouvé was born in France in 1839. His father made money by selling cows. Trouvé enjoyed making things when he was a child, and his mother encouraged him to do that. When Trouvé was seven years old, he used an umbrella and other things to build an engine.",
+            "Trouvé went to an art college in the 1850s, but he didn't study there for long. He often got sick and couldn't study for class, so he stopped going to the college. After that, Trouvé got a job in Paris. His job was making clocks. He also had a special place in Paris. He invented many things there.",
+            "In the 1830s, an American man invented a machine called the telegraph. People used telegraphs to send messages. But telegraphs were big and difficult to carry. Later, Trouvé invented a smaller telegraph. People could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs. People started using Trouvé's telegraph to send messages during wars.",
+            "Trouvé invented many things, but he was especially interested in electric machines. He invented an electric engine that people could put on the back of small boats. People still use those engines today. Trouvé also invented a new kind of light. According to some people, he invented the first electric car, too. These things were not popular in the 1800s, but they are very useful now.",
+            "Trouvé died in 1902. He invented a lot of things during his life, but many people still don't know about him."
+          ],
+          "translations": [
+            "ギュスターヴ・トルヴェは1839年にフランスで生まれた。父親は牛の販売でお金を稼いでいた。トルヴェは子どもの頃にものを作るのが好きで、母親がそれを応援してくれた。7歳のとき、傘やその他のものを使ってエンジンを作った。",
+            "トルヴェは1850年代に美術大学に行ったが、長くは勉強しなかった。よく体を壊して授業についていけなかったので、大学をやめた。その後パリで仕事を見つけた。仕事は時計作りだった。パリに特別な場所も持っていて、そこで多くのものを発明した。",
+            "1830年代にアメリカ人が電信機という機械を発明した。人々は電信機を使ってメッセージを送った。しかし電信機は大きくて運びにくかった。後にトルヴェはより小さな電信機を発明した。トルヴェの電信機は持ち歩けたので、以前の電信機より便利だった。戦争中のメッセージ送信に使われ始めた。",
+            "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。小さなボートの後ろに付ける電気エンジンを発明した。そのエンジンは今でも使われている。新しい種類のライトも発明した。最初の電気自動車を発明したという人もいる。これらは1800年代には人気がなかったが、今はとても役に立っている。",
+            "トルヴェは1902年に亡くなった。生涯に多くのものを発明したが、まだ多くの人が彼のことを知らない。"
+          ],
+          "questions": [
+            {
+              "number": 26,
+              "question": "What did Gustave Trouvé like to do when he was young?",
+              "questionTranslation": "若い頃トルヴェは何が好きだった？",
+              "choices": [
+                "Fix umbrellas.",
+                "Help his parents.",
+                "Make things.",
+                "Take care of cows."
+              ],
+              "answer": 3,
+              "sourceEvidence": "Trouvé enjoyed making things when he was a child",
+              "grammar": "本文に Trouvé enjoyed making things when he was a child とあり、若い頃はものを作るのが好きだった。傘でエンジンを作ったのは例。親の手伝い・牛の世話（父の仕事）ではない。",
+              "grammarSimple": "本文「子どもの頃、ものを作るのが好き」＝ Make things！",
+              "choiceAnalysis": [
+                "Fix umbrellas.＝傘を直したのではなく、傘などを使ってエンジンを作った。",
+                "Help his parents.＝親を手伝ったとは書いていない。",
+                "○ Make things.＝enjoyed making things when he was a child と一致。",
+                "Take care of cows.＝父が牛を売っていた。Trouvé 自身の好きなことではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "傘を直したのではなく、傘でエンジンを作ったよ。",
+                "親の手伝いとは書いていないよ。",
+                "○ ものを作るのが好きだった！",
+                "牛の世話ではなく、お父さんが牛を売っていたんだよ。"
+              ],
+              "choiceTranslations": [
+                "傘を直す。",
+                "両親を手伝う。",
+                "物を作る。",
+                "牛の世話をする。"
+              ]
+            },
+            {
+              "number": 27,
+              "question": "Why did Trouvé stop studying at the art college?",
+              "questionTranslation": "トルヴェはなぜ美術大学をやめた？",
+              "choices": [
+                "He thought the lessons were too easy.",
+                "He was often sick and couldn't study.",
+                "He broke a clock at the college.",
+                "He didn't want to live in Paris."
+              ],
+              "answer": 2,
+              "sourceEvidence": "He often got sick and couldn't study for class",
+              "grammar": "本文に He often got sick and couldn't study for class, so he stopped going to the college. とあり、よく病気で勉強できず美術大学をやめた。授業が簡単・時計を壊した・パリに住みたくない、とは書いていません。",
+              "grammarSimple": "本文「よく病気で勉強できなかった」＝ He was often sick and couldn't study！",
+              "choiceAnalysis": [
+                "He thought the lessons were too easy.＝簡単すぎたとは書いていない。",
+                "○ He was often sick and couldn't study.＝often got sick and couldn't study ... と一致。",
+                "He broke a clock at the college.＝時計作りはパリでの仕事。壊した話はない。",
+                "He didn't want to live in Paris.＝その後パリで仕事を得た。住みたくないとは書いていない。"
+              ],
+              "choiceAnalysisSimple": [
+                "かんたんすぎたとは書いていないよ。",
+                "○ よく病気になって勉強できなかったんだ。",
+                "時計を壊したとは書いていないよ。",
+                "パリに住みたくないとは書いていないよ。"
+              ],
+              "choiceTranslations": [
+                "彼は授業が簡単すぎると思った。",
+                "彼はよく病気で勉強できなかった。",
+                "彼は大学の時計を壊した。",
+                "彼はパリに住みたくなかった。"
+              ]
+            },
+            {
+              "number": 28,
+              "question": "Why was the telegraph that Trouvé invented convenient?",
+              "questionTranslation": "トルヴェが発明した電信機はなぜ便利だった？",
+              "choices": [
+                "It was big and difficult to break.",
+                "It had many bright lights on it.",
+                "It was small and easy to carry.",
+                "It could be used to send pictures."
+              ],
+              "answer": 3,
+              "sourceEvidence": "People could carry Trouvé's telegraph around with them, so it was more convenient",
+              "grammar": "本文に Trouvé invented a smaller telegraph. People could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs. とあり、小さく持ち運べるから便利。大きくて壊れにくい・ライト付き・写真送信、ではない。",
+              "grammarSimple": "本文「小さくて持ち運べたから便利」＝ It was small and easy to carry！",
+              "choiceAnalysis": [
+                "It was big and difficult to break.＝以前の電信機が大きく運びにくかった。逆。",
+                "It had many bright lights on it.＝ライトが付いていたとは書いていない。",
+                "○ It was small and easy to carry.＝smaller ... carry ... more convenient と一致。",
+                "It could be used to send pictures.＝メッセージを送る。写真ではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "大きくて壊れにくいのではなく、小さいから便利なんだよ。",
+                "ライトがついているとは書いていないよ。",
+                "○ 小さくて持ち運びやすかったから便利！",
+                "写真ではなくメッセージを送るんだよ。"
+              ],
+              "choiceTranslations": [
+                "大きくて壊れにくかった。",
+                "明るいライトがたくさんついていた。",
+                "小さくて持ち運びやすかった。",
+                "写真を送るのに使えた。"
+              ]
+            },
+            {
+              "number": 29,
+              "question": "Trouvé invented an engine",
+              "questionTranslation": "トルヴェはエンジンを発明して",
+              "choices": [
+                "for a machine that sent telegraphs.",
+                "for a machine that made lights.",
+                "to sell to an American man's company.",
+                "to put on the back of boats."
+              ],
+              "answer": 4,
+              "sourceEvidence": "He invented an electric engine that people could put on the back of small boats.",
+              "grammar": "本文に He invented an electric engine that people could put on the back of small boats. とあり、小さなボートの後ろにつける電気エンジン。電信用・ライト用・アメリカ人の会社への販売、ではない。",
+              "grammarSimple": "本文「小さなボートの後ろにつけるエンジン」＝ to put on the back of boats！",
+              "choiceAnalysis": [
+                "for a machine that sent telegraphs.＝電信機は別の発明。このエンジンはボート用。",
+                "for a machine that made lights.＝ライトも別。エンジンはボート用。",
+                "to sell to an American man's company.＝売る話は書いていない。",
+                "○ to put on the back of boats.＝put on the back of small boats と一致。"
+              ],
+              "choiceAnalysisSimple": [
+                "電信用ではなくボート用だよ。",
+                "ライト用ではなくボート用だよ。",
+                "アメリカ人に売るとは書いていないよ。",
+                "○ ボートの後ろにつけるエンジンだよ！"
+              ],
+              "choiceTranslations": [
+                "電信を送信する機械の場合。",
+                "照明を作る機械の場合。",
+                "アメリカ人の会社に販売する場合。",
+                "ボートの後ろに取り付ける場合。"
+              ]
+            },
+            {
+              "number": 30,
+              "question": "What is this story about?",
+              "questionTranslation": "この話は何について？",
+              "choices": [
+                "The best way to make engines.",
+                "The first person to use a telegraph.",
+                "A man who made many useful things.",
+                "A famous art college in France."
+              ],
+              "answer": 3,
+              "grammar": "本文全体は Trouvé が多くの発明をした人生を紹介し、He invented a lot of things during his life と結ぶ。エンジンの作り方・電信を最初に使った人・有名な美術大学の話ではない。",
+              "grammarSimple": "この話は「たくさんの便利なものを作った人」＝ A man who made many useful things！",
+              "choiceAnalysis": [
+                "The best way to make engines.＝作り方の説明ではなく発明家の人生。",
+                "The first person to use a telegraph.＝電信を発明したのはアメリカ人。Trouvé は小型化。",
+                "○ A man who made many useful things.＝invented a lot of things ... と一致。",
+                "A famous art college in France.＝短期間通っただけ。主題ではない。"
+              ],
+              "choiceAnalysisSimple": [
+                "エンジンの作り方のお話ではないよ。",
+                "電信を最初に使った人の話ではないよ。",
+                "○ たくさんの便利なものを作った人のお話！",
+                "美術大学のお話ではないよ。"
+              ],
+              "choiceTranslations": [
+                "エンジンを作るための最良の方法。",
+                "電信を初めて使用した人。",
+                "多くの便利なものを作った人。",
+                "フランスの有名な美術大学。"
+              ]
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "vocabulary": [
+    {
+      "word": "true",
+      "meaning": "本当の",
+      "pos": "形容詞",
+      "level": "3級",
+      "example": "That's not true.",
+      "distractors": [
+        "パフォーマンス",
+        "暗い",
+        "テーマ・話題"
+      ],
+      "wordAudio": "audio/vocab/w_001_true.mp3"
+    },
+    {
+      "word": "topic",
+      "meaning": "テーマ・話題",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "What is the topic of your report?",
+      "distractors": [
+        "入口",
+        "〜で有名",
+        "アパート"
+      ],
+      "wordAudio": "audio/vocab/w_002_topic.mp3"
+    },
+    {
+      "word": "entrance",
+      "meaning": "入口",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "Where is the main entrance?",
+      "distractors": [
+        "関係代名詞",
+        "電信機",
+        "便利な"
+      ],
+      "wordAudio": "audio/vocab/w_003_entrance.mp3"
+    },
+    {
+      "word": "view",
+      "meaning": "景色",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "The view from our room is beautiful.",
+      "distractors": [
+        "同意する",
+        "関係代名詞",
+        "発明する"
+      ],
+      "wordAudio": "audio/vocab/w_004_view.mp3"
+    },
+    {
+      "word": "dark",
+      "meaning": "暗い",
+      "pos": "形容詞",
+      "level": "4級",
+      "example": "It's getting dark.",
+      "distractors": [
+        "特に",
+        "入口",
+        "盗まれた"
+      ],
+      "wordAudio": "audio/vocab/w_005_dark.mp3"
+    },
+    {
+      "word": "wood",
+      "meaning": "木材",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "She used a lot of wood.",
+      "distractors": [
+        "彼女を",
+        "入口",
+        "関係代名詞"
+      ],
+      "wordAudio": "audio/vocab/w_006_wood.mp3"
+    },
+    {
+      "word": "decided",
+      "meaning": "決めた",
+      "pos": "動詞過去形",
+      "level": "3級",
+      "example": "He decided to stay home.",
+      "distractors": [
+        "便利な",
+        "意見",
+        "暗い"
+      ],
+      "wordAudio": "audio/vocab/w_007_decided.mp3"
+    },
+    {
+      "word": "often",
+      "meaning": "よく・しばしば",
+      "pos": "副詞",
+      "level": "4級",
+      "example": "How often do you go?",
+      "distractors": [
+        "入口",
+        "彼女を",
+        "関係代名詞"
+      ],
+      "wordAudio": "audio/vocab/w_008_often.mp3"
+    },
+    {
+      "word": "lost her way",
+      "meaning": "道に迷った",
+      "pos": "動詞句",
+      "level": "3級",
+      "example": "She lost her way and walked for an hour.",
+      "distractors": [
+        "発明する",
+        "〜によると",
+        "同意する"
+      ],
+      "wordAudio": "audio/vocab/w_009_lost_her_way.mp3"
+    },
+    {
+      "word": "agree",
+      "meaning": "同意する",
+      "pos": "動詞",
+      "level": "3級",
+      "example": "I agree with you.",
+      "distractors": [
+        "よく・しばしば",
+        "環境にやさしい",
+        "電信機"
+      ],
+      "wordAudio": "audio/vocab/w_010_agree.mp3"
+    },
+    {
+      "word": "famous for",
+      "meaning": "〜で有名",
+      "pos": "形容詞句",
+      "level": "3級",
+      "example": "Famous for its great pizza.",
+      "distractors": [
+        "道に迷った",
+        "テーマ・話題",
+        "特に"
+      ],
+      "wordAudio": "audio/vocab/w_011_famous_for.mp3"
+    },
+    {
+      "word": "opinion",
+      "meaning": "意見",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "In my opinion, it is good.",
+      "distractors": [
+        "教科書",
+        "〜によると",
+        "特に"
+      ],
+      "wordAudio": "audio/vocab/w_012_opinion.mp3"
+    },
+    {
+      "word": "her",
+      "meaning": "彼女を",
+      "pos": "代名詞目的格",
+      "level": "4級",
+      "example": "He named her Moka.",
+      "distractors": [
+        "暗い",
+        "励ます",
+        "便利な"
+      ],
+      "wordAudio": "audio/vocab/w_013_her.mp3"
+    },
+    {
+      "word": "stolen",
+      "meaning": "盗まれた",
+      "pos": "動詞過去分詞",
+      "level": "3級",
+      "example": "The bicycle stolen from the shop.",
+      "distractors": [
+        "入口",
+        "決めた",
+        "暗い"
+      ],
+      "wordAudio": "audio/vocab/w_014_stolen.mp3"
+    },
+    {
+      "word": "which",
+      "meaning": "関係代名詞",
+      "pos": "代名詞",
+      "level": "3級",
+      "example": "One which is easy to carry.",
+      "distractors": [
+        "〜によると",
+        "便利な",
+        "本当の"
+      ],
+      "wordAudio": "audio/vocab/w_015_which.mp3"
+    },
+    {
+      "word": "encourage",
+      "meaning": "励ます",
+      "pos": "動詞",
+      "level": "3級",
+      "example": "His mother encouraged him.",
+      "distractors": [
+        "テーマ・話題",
+        "意見",
+        "電気の"
+      ],
+      "wordAudio": "audio/vocab/w_016_encourage.mp3"
+    },
+    {
+      "word": "invent",
+      "meaning": "発明する",
+      "pos": "動詞",
+      "level": "3級",
+      "example": "He invented many things.",
+      "distractors": [
+        "電気の",
+        "決めた",
+        "結婚式"
+      ],
+      "wordAudio": "audio/vocab/w_017_invent.mp3"
+    },
+    {
+      "word": "telegraph",
+      "meaning": "電信機",
+      "pos": "名詞",
+      "level": "準2級",
+      "example": "People used telegraphs to send messages.",
+      "distractors": [
+        "よく・しばしば",
+        "入口",
+        "パフォーマンス"
+      ],
+      "wordAudio": "audio/vocab/w_018_telegraph.mp3"
+    },
+    {
+      "word": "convenient",
+      "meaning": "便利な",
+      "pos": "形容詞",
+      "level": "3級",
+      "example": "It was more convenient.",
+      "distractors": [
+        "同意する",
+        "電気の",
+        "暗い"
+      ],
+      "wordAudio": "audio/vocab/w_019_convenient.mp3"
+    },
+    {
+      "word": "electric",
+      "meaning": "電気の",
+      "pos": "形容詞",
+      "level": "3級",
+      "example": "An electric engine for boats.",
+      "distractors": [
+        "励ます",
+        "木材",
+        "電信機"
+      ],
+      "wordAudio": "audio/vocab/w_020_electric.mp3"
+    },
+    {
+      "word": "textbook",
+      "meaning": "教科書",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "She has some old textbooks.",
+      "distractors": [
+        "便利な",
+        "木材",
+        "入口"
+      ],
+      "wordAudio": "audio/vocab/w_021_textbook.mp3"
+    },
+    {
+      "word": "performance",
+      "meaning": "パフォーマンス",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "The performance on May 1.",
+      "distractors": [
+        "関係代名詞",
+        "同意する",
+        "道に迷った"
+      ],
+      "wordAudio": "audio/vocab/w_022_performance.mp3"
+    },
+    {
+      "word": "instrument",
+      "meaning": "楽器",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "Lessons on how to play instruments.",
+      "distractors": [
+        "励ます",
+        "景色",
+        "教科書"
+      ],
+      "wordAudio": "audio/vocab/w_023_instrument.mp3"
+    },
+    {
+      "word": "apartment",
+      "meaning": "アパート",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "I'll live in an apartment.",
+      "distractors": [
+        "盗まれた",
+        "同意する",
+        "発明する"
+      ],
+      "wordAudio": "audio/vocab/w_024_apartment.mp3"
+    },
+    {
+      "word": "wedding",
+      "meaning": "結婚式",
+      "pos": "名詞",
+      "level": "3級",
+      "example": "Sally's wedding.",
+      "distractors": [
+        "入口",
+        "同意する",
+        "盗まれた"
+      ],
+      "wordAudio": "audio/vocab/w_025_wedding.mp3"
+    },
+    {
+      "word": "pick up",
+      "meaning": "迎えに行く",
+      "pos": "動詞句",
+      "level": "3級",
+      "example": "I'll pick you up.",
+      "distractors": [
+        "入口",
+        "景色",
+        "結婚式"
+      ],
+      "wordAudio": "audio/vocab/w_026_pick_up.mp3"
+    },
+    {
+      "word": "environment",
+      "meaning": "環境",
+      "pos": "名詞",
+      "level": "準2級",
+      "example": "Protect the environment.",
+      "distractors": [
+        "アパート",
+        "関係代名詞",
+        "楽器"
+      ],
+      "wordAudio": "audio/vocab/w_027_environment.mp3"
+    },
+    {
+      "word": "eco-friendly",
+      "meaning": "環境にやさしい",
+      "pos": "形容詞",
+      "level": "準2級",
+      "example": "We should be more eco-friendly.",
+      "distractors": [
+        "パフォーマンス",
+        "テーマ・話題",
+        "景色"
+      ],
+      "wordAudio": "audio/vocab/w_028_eco_friendly.mp3"
+    },
+    {
+      "word": "according to",
+      "meaning": "〜によると",
+      "pos": "前置詞句",
+      "level": "3級",
+      "example": "According to some people.",
+      "distractors": [
+        "景色",
+        "同意する",
+        "楽器"
+      ],
+      "wordAudio": "audio/vocab/w_029_according_to.mp3"
+    },
+    {
+      "word": "especially",
+      "meaning": "特に",
+      "pos": "副詞",
+      "level": "3級",
+      "example": "He was especially interested.",
+      "distractors": [
+        "〜で有名",
+        "発明する",
+        "電気の"
+      ],
+      "wordAudio": "audio/vocab/w_030_especially.mp3"
+    }
+  ],
+  "lessonPlan": {
+    "focusPoints": [
+      {
+        "id": "fp1",
+        "title": "関係代名詞 which と過去分詞の形容詞的用法",
+        "subtitle": "Relative Pronoun 'which' & Past Participle as Adjective",
+        "explanation": "関係代名詞 which は物を先行詞として使う。one which is easy to carry＝持ち運びやすい物。過去分詞の形容詞的用法：the bicycle stolen from a shop＝店から盗まれた自転車。",
+        "explanationSimple": "which は「〜な物」。stolen は「ぬすまれた」をつけたすことば。",
+        "sourceQuote": "She wants one which is easy to carry in her bag.",
+        "sourceLocation": "大問1 (15)",
+        "examples": [
+          {
+            "en": "Jack's wife needs a new computer. She wants one which is easy to carry in her bag.",
+            "ja": "ジャックの奥さんは新しいコンピュータが必要だ。バッグに入れて持ち運びやすいのがほしい。",
+            "note": "関係代名詞 which。one which is easy to carry。",
+            "noteSimple": "which は「〜の」。持ち運びやすいコンピュータがほしいんだね。",
+            "audio": "audio/fp1_ex1.mp3"
+          },
+          {
+            "en": "The police looked for the bicycle stolen from a bicycle shop.",
+            "ja": "警察は自転車屋から盗まれた自転車を探した。",
+            "note": "過去分詞の形容詞的用法。stolen from＝〜から盗まれた。",
+            "noteSimple": "stolen は「ぬすまれた」。お店からぬすまれた自転車をさがしている。",
+            "audio": "audio/fp1_ex2.mp3"
+          },
+          {
+            "en": "People could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs.",
+            "ja": "トルヴェの電信機は持ち歩けたので、以前の電信機より便利だった。",
+            "note": "比較級。more convenient than＝〜より便利。",
+            "noteSimple": "more convenient は「もっと便利」。小さくて持ち運べるから便利！",
+            "audio": "audio/fp1_ex3.mp3"
+          }
+        ],
+        "practicePassage": {
+          "en": "Jack's wife needs a new computer. She wants one which is easy to carry in her bag.\n\nThe police looked for the bicycle stolen from a bicycle shop. Finally, they found it on the street.\n\nPeople could carry Trouvé's telegraph around with them, so it was more convenient than earlier telegraphs.",
+          "ja": "ジャックの奥さんは新しいコンピュータが必要だ。バッグで持ち運びやすいのがほしい。\n\n警察は自転車屋から盗まれた自転車を探した。ついに道で見つけた。\n\nトルヴェの電信機は持ち歩けたので、以前のものより便利だった。",
+          "source": "大問1 (15)(14)、大問3C",
+          "audioFile": "audio/practice_pp1.mp3"
+        },
+        "highlightPatterns": [
+          "which is",
+          "stolen from",
+          "more convenient than"
+        ],
+        "practiceQuestions": [
+          {
+            "q": "which の先行詞は？",
+            "a": "one（＝computer）。物なので which を使う。"
+          },
+          {
+            "q": "stolen は何形？",
+            "a": "過去分詞。steal-stole-stolen。名詞を修飾。"
+          }
+        ],
+        "practiceQuestionsSimple": [
+          {
+            "q": "which ってどういうとき使う？",
+            "a": "「〜な物」と説明をつけたすとき。人なら who を使うよ。"
+          },
+          {
+            "q": "stolen ってどういう意味？",
+            "a": "「ぬすまれた」。steal の過去分詞形だよ。"
+          }
+        ]
+      },
+      {
+        "id": "fp2",
+        "title": "定型表現と前置詞",
+        "subtitle": "Set Phrases & Prepositions",
+        "explanation": "famous for＝「〜で有名」、agree with＝「〜に同意する」、in my opinion＝「私の意見では」、How often＝「どのくらいの頻度で」。前置詞のセットが重要。",
+        "explanationSimple": "famous for は「〜でゆうめい」、agree with は「さんせい」、in my opinion は「わたしの意見では」。",
+        "sourceQuote": "This restaurant is famous for its great pizza.",
+        "sourceLocation": "大問1 (11)",
+        "examples": [
+          {
+            "en": "This restaurant is famous for its great pizza and cheap prices.",
+            "ja": "このレストランはおいしいピザとお手頃価格で有名だ。",
+            "note": "famous for＝〜で有名。",
+            "noteSimple": "famous for は「〜でゆうめい」。おいしいピザで有名なお店。",
+            "audio": "audio/fp2_ex1.mp3"
+          },
+          {
+            "en": "I agree with you. We should be more eco-friendly.",
+            "ja": "あなたに同意します。もっと環境にやさしくすべきだ。",
+            "note": "agree with＝〜に同意する。",
+            "noteSimple": "agree with は「さんせいする」。かんきょうを守ろうね。",
+            "audio": "audio/fp2_ex2.mp3"
+          },
+          {
+            "en": "In my opinion, it is really good.",
+            "ja": "私の意見では、それは本当にいい。",
+            "note": "in my opinion＝私の意見では。定型表現。",
+            "noteSimple": "in my opinion は「わたしの意見では」。すごくいいと思う！",
+            "audio": "audio/fp2_ex3.mp3"
+          }
+        ],
+        "practicePassage": {
+          "en": "This restaurant is famous for its great pizza and cheap prices.\n\nIt is important to protect the environment.\n— I agree with you. We should be more eco-friendly.\n\nWhat do you think of this book?\n— In my opinion, it is really good.\n\nHow often do you go to the library?\n— About twice a month.",
+          "ja": "このレストランはおいしいピザとお手頃価格で有名だ。\n\n環境を守ることは大切だ。\n—あなたに同意します。もっとエコにすべきだ。\n\nこの本をどう思う？\n—私の意見では、本当にいい本だ。\n\nどのくらい図書館に行く？\n—月に2回くらい。",
+          "source": "大問1 (11)(10)(12)(8)",
+          "audioFile": "audio/practice_pp2.mp3"
+        },
+        "highlightPatterns": [
+          "famous for",
+          "agree with",
+          "In my opinion",
+          "How often"
+        ],
+        "practiceQuestions": [
+          {
+            "q": "famous for と famous as の違いは？",
+            "a": "famous for＝〜で有名。famous as＝〜として有名。"
+          },
+          {
+            "q": "How often の答え方は？",
+            "a": "頻度で答える。twice a month, every day, once a week など。"
+          }
+        ],
+        "practiceQuestionsSimple": [
+          {
+            "q": "famous for ってどういう意味？",
+            "a": "「〜でゆうめい」。おいしいピザで有名なお店のこと。"
+          },
+          {
+            "q": "How often ってどう答える？",
+            "a": "「月に2回」とか「毎日」とか、どのくらいよくするかを答えるよ。"
+          }
+        ]
+      },
+      {
+        "id": "fp3",
+        "title": "SVOC構文と decide to",
+        "subtitle": "SVOC Pattern & Decide to",
+        "explanation": "SVOC構文：He named her Moka＝「彼は彼女をモカと名付けた」。S＋V＋O(her)＋C(Moka)。decide to＝「〜することに決める」。",
+        "explanationSimple": "named her Moka は「彼女をモカと名づけた」。decided to は「〜することにきめた」。",
+        "sourceQuote": "He named her Moka.",
+        "sourceLocation": "大問1 (13)",
+        "examples": [
+          {
+            "en": "Tom got a pet cat last summer. He named her Moka.",
+            "ja": "トムは去年の夏ペットの猫を飼った。彼女をモカと名付けた。",
+            "note": "SVOC構文。named＋目的語＋補語。",
+            "noteSimple": "named her Moka は「彼女をモカと名づけた」。かわいい名前。",
+            "audio": "audio/fp3_ex1.mp3"
+          },
+          {
+            "en": "Jim was tired, so he decided to stay home.",
+            "ja": "ジムは疲れていたので家にいることに決めた。",
+            "note": "decide to＝〜することに決める。",
+            "noteSimple": "decided to は「〜することにきめた」。つかれていたから家にいることにした。",
+            "audio": "audio/fp3_ex2.mp3"
+          },
+          {
+            "en": "His mother encouraged him to do that.",
+            "ja": "母親は彼にそれをするように励ました。",
+            "note": "encourage＋人＋to不定詞＝人に〜するよう励ます。",
+            "noteSimple": "encouraged him to は「彼に〜するように励ました」。おかあさんがおうえんしてくれた。",
+            "audio": "audio/fp3_ex3.mp3"
+          }
+        ],
+        "practicePassage": {
+          "en": "Tom got a pet cat last summer. He named her Moka.\n\nJim's family went to the movies yesterday, but Jim was tired, so he decided to stay home.\n\nTrouvé enjoyed making things when he was a child, and his mother encouraged him to do that.",
+          "ja": "トムは去年の夏ペットの猫を飼った。彼女をモカと名付けた。\n\nジムの家族は昨日映画に行ったが、ジムは疲れていたので家にいることにした。\n\nトルヴェは子どもの頃ものを作るのが好きで、母親がそれを応援した。",
+          "source": "大問1 (13)(7)、大問3C",
+          "audioFile": "audio/practice_pp3.mp3"
+        },
+        "highlightPatterns": [
+          "named her",
+          "decided to",
+          "encouraged him to"
+        ],
+        "practiceQuestions": [
+          {
+            "q": "named her Moka のherは何格？",
+            "a": "目的格。name＋目的語＋名前のSVOC構文。"
+          },
+          {
+            "q": "decide to の後は何形？",
+            "a": "動詞の原形。decide to stay, decide to go など。"
+          }
+        ],
+        "practiceQuestionsSimple": [
+          {
+            "q": "named her Moka の her ってなに？",
+            "a": "「彼女を」。ねこのことだよ。モカという名前をつけたんだね。"
+          },
+          {
+            "q": "decided to ってどういう意味？",
+            "a": "「〜することにきめた」。自分で決断したということ。"
+          }
+        ]
+      },
+      {
+        "id": "fp4",
+        "title": "発明家の人生と業績",
+        "subtitle": "An Inventor's Life & Achievements",
+        "explanation": "Trouvéの生涯：多くの発明（小型電信機、電気エンジン、電気自動車）。especially interested in＝特に〜に興味がある。according to＝〜によると。People still use those engines today＝今でも使われている。",
+        "explanationSimple": "トルヴェは電信機や電気エンジン、電気自動車を発明した人。especially は「とくに」。",
+        "sourceQuote": "He invented a lot of things during his life, but many people still don't know about him.",
+        "sourceLocation": "大問3C 第5段落",
+        "examples": [
+          {
+            "en": "Trouvé invented many things, but he was especially interested in electric machines.",
+            "ja": "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。",
+            "note": "especially interested in＝特に〜に興味がある。",
+            "noteSimple": "especially は「とくに」。でんきの機械にとくに興味があったんだね。",
+            "audio": "audio/fp4_ex1.mp3"
+          },
+          {
+            "en": "According to some people, he invented the first electric car, too.",
+            "ja": "一部の人によると、最初の電気自動車も発明した。",
+            "note": "according to＝〜によると。",
+            "noteSimple": "according to は「〜によると」。でんきの車も発明したかもしれないんだ。",
+            "audio": "audio/fp4_ex2.mp3"
+          },
+          {
+            "en": "He invented a lot of things during his life, but many people still don't know about him.",
+            "ja": "生涯に多くのものを発明したが、多くの人はまだ彼を知らない。",
+            "note": "during his life＝生涯に。still don't know＝まだ知らない。",
+            "noteSimple": "一生の間にたくさん発明したのに、知られていないんだね。",
+            "audio": "audio/fp4_ex3.mp3"
+          }
+        ],
+        "practicePassage": {
+          "en": "Trouvé invented many things, but he was especially interested in electric machines. He invented an electric engine that people could put on the back of small boats. People still use those engines today. Trouvé also invented a new kind of light. According to some people, he invented the first electric car, too. These things were not popular in the 1800s, but they are very useful now.\n\nTrouvé died in 1902. He invented a lot of things during his life, but many people still don't know about him.",
+          "ja": "トルヴェは多くのものを発明したが、特に電気の機械に興味があった。小さなボートの後ろにつける電気エンジンを発明した。そのエンジンは今でも使われている。新しい種類のライトも発明した。最初の電気自動車を発明したという人もいる。これらは1800年代には人気がなかったが、今はとても役に立っている。\n\nトルヴェは1902年に亡くなった。生涯に多くのものを発明したが、多くの人はまだ知らない。",
+          "source": "大問3C「Gustave Trouvé」第4-5段落",
+          "audioFile": "audio/practice_pp4.mp3"
+        },
+        "highlightPatterns": [
+          "especially interested in",
+          "According to",
+          "still use",
+          "still don't know"
+        ],
+        "practiceQuestions": [
+          {
+            "q": "especially の意味は？",
+            "a": "「特に」。他のことにも興味があったが電気が一番。"
+          },
+          {
+            "q": "still の意味は？",
+            "a": "「まだ」。People still use (今でも使う)、still don't know (まだ知らない)。"
+          }
+        ],
+        "practiceQuestionsSimple": [
+          {
+            "q": "especially ってどういう意味？",
+            "a": "「とくに」。いろいろ興味があるけど、電気がいちばん好き！"
+          },
+          {
+            "q": "still ってどういう意味？",
+            "a": "「まだ」。今でも使われている、まだ知られていない。"
+          }
+        ]
+      }
+    ]
+  }
 }
