@@ -19,13 +19,13 @@
                         "popular"
                     ],
                     "answer": 4,
-                    "grammar": "「いい先生→英語の授業はとても○○」→ popular（人気がある）。",
-                    "grammarSimple": "「いい先生だから」→ popular（にんき）！",
+                    "grammar": "「いい先生→英語の授業はとても○○」がヒント。生徒に好かれる授業を表すのは popular（人気がある）。thirsty（のどが渇いた）・dark（暗い）・left（左の）は授業の様子を表しません。",
+                    "grammarSimple": "「いい先生の じゅぎょう」→ popular（にんき）だよ！",
                     "choiceAnalysis": [
-                        "thirsty＝のどが渇いた。",
-                        "dark＝暗い。",
-                        "left＝左の。",
-                        "○ popular＝人気がある。"
+                        "thirsty＝のどが渇いた。授業の様子を表しません。",
+                        "dark＝暗い。授業の様子に合いません。",
+                        "left＝左の・残りの。授業に合いません。",
+                        "○ popular＝人気がある。「人気の授業」で自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「のどかわいた」はちがうよ。",
@@ -52,13 +52,13 @@
                         "airport"
                     ],
                     "answer": 4,
-                    "grammar": "「飛行機で来る→○○に着く」→ airport（空港）。",
-                    "grammarSimple": "「ひこうきで来る」→ airport（くうこう）！",
+                    "grammar": "「飛行機で来る→まもなく○○に着く」がヒント。飛行機が着くのは airport（空港）。radio（ラジオ）・sky（空）・computer（パソコン）は到着する場所ではありません。",
+                    "grammarSimple": "「ひこうきで 来る→○○に つく」→ airport（くうこう）だよ！",
                     "choiceAnalysis": [
-                        "radio＝ラジオ。",
-                        "sky＝空。",
-                        "computer＝パソコン。",
-                        "○ airport＝空港。"
+                        "radio＝ラジオ。到着する場所ではありません。",
+                        "sky＝空。人が「着く」場所ではありません。",
+                        "computer＝パソコン。場所ではありません。",
+                        "○ airport＝空港。飛行機が着く場所で自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「ラジオ」はちがうよ。",
@@ -85,13 +85,13 @@
                         "mirror"
                     ],
                     "answer": 1,
-                    "grammar": "「鶏や豚の世話をする場所」→ farm（農場）。",
-                    "grammarSimple": "「にわとりやぶたがいる」→ farm（のうじょう）！",
+                    "grammar": "「大きな○○を持ち、鶏や豚の世話をする」がヒント。動物を育てる場所は farm（農場）。eraser（消しゴム）・boat（船）・mirror（鏡）は動物を飼う場所ではありません。",
+                    "grammarSimple": "「にわとりやぶたが いる」→ farm（のうじょう）だよ！",
                     "choiceAnalysis": [
-                        "○ farm＝農場。",
-                        "eraser＝消しゴム。",
-                        "boat＝船。",
-                        "mirror＝鏡。"
+                        "○ farm＝農場。鶏や豚を育てる場所で自然です。",
+                        "eraser＝消しゴム。動物を飼う場所ではありません。",
+                        "boat＝船。合いません。",
+                        "mirror＝鏡。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「のうじょう」がぴったり！",
@@ -118,17 +118,17 @@
                         "lose"
                     ],
                     "answer": 3,
-                    "grammar": "「野菜を○○して切って」→ wash（洗う）。",
-                    "grammarSimple": "「やさいを○○して切って」→ wash（あらう）！",
+                    "grammar": "「野菜を○○して切って」がヒント。料理の前にするのは wash（洗う）。wash and cut＝洗って切る。meet（会う）・eat（食べる）・lose（失う）は野菜の下ごしらえに合いません。",
+                    "grammarSimple": "「やさいを○○して 切って」→ wash（あらう）だよ！",
                     "choiceAnalysis": [
-                        "meet＝会う。",
-                        "eat＝食べる。",
-                        "○ wash＝洗う。wash and cutで「洗って切る」。",
-                        "lose＝失う。"
+                        "meet＝会う。野菜には使いません。",
+                        "eat＝食べる。切る前に食べては料理になりません。",
+                        "○ wash＝洗う。wash and cut＝洗って切る、で自然です。",
+                        "lose＝失う。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「あう」はちがうよ。",
-                        "「食べる」はちがうよ。",
+                        "「たべる」はちがうよ。",
                         "○「あらう」がぴったり！",
                         "「なくす」はちがうよ。"
                     ],
@@ -151,13 +151,13 @@
                         "shows"
                     ],
                     "answer": 2,
-                    "grammar": "「暇な時に音楽○○を読む」→ magazines（雑誌）。",
-                    "grammarSimple": "「ひまな時によむ」→ magazines（ざっし）！",
+                    "grammar": "「暇な時に音楽○○を読む」がヒント。読む物は magazines（雑誌）。music magazine＝音楽雑誌。tickets（切符）・rooms（部屋）・shows（ショー）は「読む」物ではありません。",
+                    "grammarSimple": "「ひまな時に よむ おんがくの○○」→ magazines（ざっし）だよ！",
                     "choiceAnalysis": [
-                        "tickets＝切符。読まない。",
-                        "○ magazines＝雑誌。music magazinesで「音楽雑誌」。",
-                        "rooms＝部屋。",
-                        "shows＝ショー。"
+                        "tickets＝切符。読む物ではありません。",
+                        "○ magazines＝雑誌。music magazines＝音楽雑誌で、読む物として自然です。",
+                        "rooms＝部屋。読む物ではありません。",
+                        "shows＝ショー。読む物ではありません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「チケット」はちがうよ。",
@@ -184,13 +184,13 @@
                         "beautiful"
                     ],
                     "answer": 4,
-                    "grammar": "「庭の○○な花が大好き、友達も見に来る」→ beautiful（美しい）。",
-                    "grammarSimple": "「にわの○○な花」→ beautiful（きれいな）！",
+                    "grammar": "「庭の○○な花が大好きで、友達も見に来る」がヒント。花をほめる語は beautiful（美しい）。angry（怒った）・fast（速い）・excited（興奮した）は花の様子に合いません。",
+                    "grammarSimple": "「にわの○○な 花」→ beautiful（きれいな）だよ！",
                     "choiceAnalysis": [
-                        "angry＝怒った。",
-                        "fast＝速い。",
-                        "excited＝興奮した。",
-                        "○ beautiful＝美しい。"
+                        "angry＝怒った。花の様子を表しません。",
+                        "fast＝速い。花に合いません。",
+                        "excited＝興奮した。花に合いません。",
+                        "○ beautiful＝美しい。「美しい花」で、見に来るのも自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「おこった」はちがうよ。",
@@ -217,13 +217,13 @@
                         "quiet"
                     ],
                     "answer": 4,
-                    "grammar": "「図書館は○○→放課後の勉強が好き」→ quiet（静か）。",
-                    "grammarSimple": "「図書館は○○」→ quiet（しずか）！",
+                    "grammar": "「図書館はいつも○○→そこで勉強したい」がヒント。勉強に向く様子は quiet（静か）。cloudy（曇った）・angry（怒った）・late（遅い）は図書館の様子に合いません。",
+                    "grammarSimple": "「としょかんは○○→べんきょうできる」→ quiet（しずか）だよ！",
                     "choiceAnalysis": [
-                        "cloudy＝曇った。",
-                        "angry＝怒った。",
-                        "late＝遅い。",
-                        "○ quiet＝静かな。"
+                        "cloudy＝曇った。天気の語で図書館に合いません。",
+                        "angry＝怒った。場所の様子を表しません。",
+                        "late＝遅い。図書館の様子に合いません。",
+                        "○ quiet＝静かな。静かだから勉強できる、で自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「くもった」はちがうよ。",
@@ -250,13 +250,13 @@
                         "answer"
                     ],
                     "answer": 1,
-                    "grammar": "「例えば、果物と野菜をたくさん食べるべき」→ For example。",
-                    "grammarSimple": "「たとえば」→ For example！",
+                    "grammar": "「果物と野菜をたくさん食べるべき」と具体例を挙げているので For example（例えば）。action（行動）・kitchen（台所）・answer（答え）は for と結びついて「例えば」になりません。",
+                    "grammarSimple": "「たとえば、くだものを たべよう」→ For example だよ！",
                     "choiceAnalysis": [
-                        "○ example＝例。For exampleで「例えば」。",
-                        "action＝行動。",
-                        "kitchen＝台所。",
-                        "answer＝答え。"
+                        "○ example＝例。For example＝例えば、で具体例を導きます。",
+                        "action＝行動。for と結びつきません。",
+                        "kitchen＝台所。合いません。",
+                        "answer＝答え。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「たとえば」がぴったり！",
@@ -283,13 +283,13 @@
                         "early"
                     ],
                     "answer": 2,
-                    "grammar": "「映画は○○？→約1時間半」→ How long（どのくらい長い）。",
-                    "grammarSimple": "「どのくらい○○？」→ long（ながい）！",
+                    "grammar": "「映画はどのくらい○○？→約1時間半」がヒント。長さ・時間をたずねるのは How long（どのくらい長い）。cheap（安い）・big（大きい）・early（早い）は時間の長さをたずねません。",
+                    "grammarSimple": "「どのくらい○○？→1じかんはん」→ How long だよ！",
                     "choiceAnalysis": [
-                        "cheap＝安い。",
-                        "○ long＝長い。How longで「どのくらい長い」。",
-                        "big＝大きい。",
-                        "early＝早い。"
+                        "cheap＝安い。時間の長さをたずねません。",
+                        "○ long＝長い。How long＝どのくらい（長い）で、時間を答えています。",
+                        "big＝大きい。時間の長さに合いません。",
+                        "early＝早い。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「やすい」はちがうよ。",
@@ -316,17 +316,17 @@
                         "in"
                     ],
                     "answer": 2,
-                    "grammar": "「ケイトと○○話せますか」→ speak to（〜と話す）。",
-                    "grammarSimple": "「ケイトと話せますか」→ speak to！",
+                    "grammar": "「ケイトと○○話せますか」がヒント。電話で「〜と話す」は speak to ～。under（下に）・of（の）・in（中に）は speak と結びつきません。",
+                    "grammarSimple": "「ケイトと はなせますか」→ speak to だよ！",
                     "choiceAnalysis": [
-                        "under＝〜の下。",
-                        "○ to＝speak toで「〜と話す」。",
-                        "of＝〜の。",
-                        "in＝〜の中。"
+                        "under＝～の下に。speak と結びつきません。",
+                        "○ to＝speak to ～＝～と話す、で自然です。",
+                        "of＝～の。合いません。",
+                        "in＝～の中に。合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「under」はちがうよ。",
-                        "○「to」がぴったり！speak toで「〜と話す」。",
+                        "「した」はちがうよ。",
+                        "○「to」がぴったり！",
                         "「of」はちがうよ。",
                         "「in」はちがうよ。"
                     ],
@@ -349,13 +349,13 @@
                         "group"
                     ],
                     "answer": 1,
-                    "grammar": "「のどが渇いたので水を○○飲んだ」→ a cup of water（コップ一杯の水）。",
-                    "grammarSimple": "「水を○○のんだ」→ cup（コップ）！",
+                    "grammar": "「のどが渇いて水を一○○飲んだ」がヒント。水を数えるのは a cup of ～（コップ1杯の）。piece（一切れ）・menu（メニュー）・group（グループ）は水の数え方ではありません。",
+                    "grammarSimple": "「みずを 一○○ のんだ」→ a cup of（コップ1ぱい）だよ！",
                     "choiceAnalysis": [
-                        "○ cup＝コップ。a cup of waterで「コップ1杯の水」。",
-                        "piece＝一切れ。",
-                        "menu＝メニュー。",
-                        "group＝グループ。"
+                        "○ cup＝コップ。a cup of water＝コップ1杯の水、で自然です。",
+                        "piece＝一切れ。ケーキや紙を数える語で、水には使いません。",
+                        "menu＝メニュー。数え方ではありません。",
+                        "group＝グループ。水を数えません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「コップ」がぴったり！",
@@ -382,17 +382,17 @@
                         "away"
                     ],
                     "answer": 2,
-                    "grammar": "「座り○○」→ sit down（座る）。",
-                    "grammarSimple": "「すわり○○」→ sit down！",
+                    "grammar": "「このベンチに○○座ろう」がヒント。sit down＝座る（腰を下ろす）。early（早く）・as（として）・away（離れて）は sit と結びついて「座る」になりません。",
+                    "grammarSimple": "「ベンチに○○ すわろう」→ sit down だよ！",
                     "choiceAnalysis": [
-                        "early＝早く。",
-                        "○ down＝sit downで「座る」。",
-                        "as＝〜として。",
-                        "away＝離れて。"
+                        "early＝早く。sit と結びついて「座る」になりません。",
+                        "○ down＝sit down＝座る（腰を下ろす）、で自然です。",
+                        "as＝～として。合いません。",
+                        "away＝離れて。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「はやく」はちがうよ。",
-                        "○「down」がぴったり！sit downで「すわる」。",
+                        "○「down」がぴったり！",
                         "「as」はちがうよ。",
                         "「away」はちがうよ。"
                     ],
@@ -415,19 +415,19 @@
                         "will make"
                     ],
                     "answer": 3,
-                    "grammar": "「2日前→過去」→ made（作った）。",
-                    "grammarSimple": "「2日まえのこと」→ made（つくった）！",
+                    "grammar": "「2日前」は過去のことなので、過去形 made（作った）。makes（現在）・is making（現在進行形）・will make（未来）は「2日前」と合いません。",
+                    "grammarSimple": "「2日まえ」だから→ made（つくった）だよ！",
                     "choiceAnalysis": [
-                        "makes＝現在形。",
-                        "is making＝現在進行形。",
-                        "○ made＝過去形。two days agoなので過去形。",
-                        "will make＝未来形。"
+                        "makes＝作る（現在形）。過去のことに合いません。",
+                        "is making＝作っている（現在進行形）。合いません。",
+                        "○ made＝作った（過去形）。two days ago（2日前）に合います。",
+                        "will make＝作るだろう（未来）。過去のことに合いません。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「makes」はちがうよ。",
+                        "「makes（いま）」はちがうよ。",
                         "「is making」はちがうよ。",
-                        "○「made」がぴったり！「つくった」。",
-                        "「will make」はちがうよ。"
+                        "○「made（つくった）」がぴったり！",
+                        "「will make（みらい）」はちがうよ。"
                     ],
                     "questionAudio": "audio/q13.mp3",
                     "translation": "2日前はモニカの父の誕生日だった。だから、彼女は父のために晩ごはんを（　）。一緒に楽しい時間を過ごした。",
@@ -448,13 +448,13 @@
                         "most"
                     ],
                     "answer": 3,
-                    "grammar": "「古い方より○○面白い」→ more interesting than（比較級）。",
-                    "grammarSimple": "「ふるいほうより○○おもしろい」→ more！",
+                    "grammar": "「古い方より○○面白い」がヒント。than があるので比較級。interesting の比較級は more interesting。many（多くの）・much（たくさん）・most（最上級）は than と組んで「〜より面白い」になりません。",
+                    "grammarSimple": "「ふるいほうより○○ おもしろい」→ more（〜より）だよ！",
                     "choiceAnalysis": [
-                        "many＝多くの。",
-                        "much＝たくさんの。",
-                        "○ more＝比較級。more interesting thanで「〜より面白い」。",
-                        "most＝最上級。"
+                        "many＝多くの。数を表す語で比較級になりません。",
+                        "much＝たくさん。ここでは比較級を作れません。",
+                        "○ more＝more interesting than ～＝～より面白い、で自然です。",
+                        "most＝最も（最上級）。than とは組みません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「many」はちがうよ。",
@@ -481,17 +481,17 @@
                         "Are"
                     ],
                     "answer": 2,
-                    "grammar": "「窓を開けましょうか？」→ Shall I（〜しましょうか）。",
-                    "grammarSimple": "「まどを開けましょうか？」→ Shall I！",
+                    "grammar": "「窓を開け○○？→いい考え」がヒント。相手に申し出るのは Shall I ～?（〜しましょうか）。Have・Were・Are は I と組んで「〜しましょうか」になりません。",
+                    "grammarSimple": "「まどを あけましょうか？」→ Shall I だよ！",
                     "choiceAnalysis": [
-                        "Have I＝不正。",
-                        "○ Shall＝Shall I〜?で「〜しましょうか」。",
-                        "Were＝不正。",
-                        "Are＝不正。"
+                        "Have＝Have I では申し出になりません。",
+                        "○ Shall＝Shall I ～?＝～しましょうか、で自然です。",
+                        "Were＝過去のbe動詞。ここでは合いません。",
+                        "Are＝Are I とは言えません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「Have」はちがうよ。",
-                        "○「Shall」がぴったり！「〜しましょうか？」。",
+                        "○「Shall」がぴったり！",
                         "「Were」はちがうよ。",
                         "「Are」はちがうよ。"
                     ],
@@ -522,17 +522,17 @@
                         "How many people are there?"
                     ],
                     "answer": 2,
-                    "grammar": "「At about 5:00 p.m.」→ いつ来れるの？",
-                    "grammarSimple": "「5時ごろ」→「いつ来れるの？」って聞いたんだね！",
+                    "grammar": "答えが「At about 5:00 p.m.（5時ごろ）」と時刻なので、いつ来られるかをたずねる When can you come?（いつ来られる？）が自然。",
+                    "grammarSimple": "「5じごろ」→「いつ来られる？」だね！",
                     "choiceAnalysis": [
-                        "「どこ？」時間の返答に合わない。",
-                        "○「いつ来れる？」→At about 5:00。",
-                        "「いつも遅刻？」失礼。",
-                        "「何人？」時間の返答に合わない。"
+                        "Where is the party?＝どこ？。時刻の答えに合いません。",
+                        "○ When can you come?＝いつ来られる？。「5時ごろ」と自然につながります。",
+                        "Are you always late?＝いつも遅刻？。失礼で答えに合いません。",
+                        "How many people are there?＝何人？。時刻の答えに合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「どこ？」はちがうよ。",
-                        "○「いつこれる？」がぴったり！",
+                        "○「いつ来られる？」がぴったり！",
                         "「いつもちこく？」はちがうよ。",
                         "「なんにん？」はちがうよ。"
                     ],
@@ -555,13 +555,13 @@
                         "How far is the supermarket?"
                     ],
                     "answer": 1,
-                    "grammar": "「50セント」→ 値段を聞かれた。「いくらですか？」",
-                    "grammarSimple": "「50セント」→「いくら？」って聞いたんだね！",
+                    "grammar": "答えが「fifty cents each（1個50セント）」と値段なので、値段をたずねる How much are these tomatoes?（このトマトはいくら？）が自然。",
+                    "grammarSimple": "「50セント」→「いくら？」だね！",
                     "choiceAnalysis": [
-                        "○「このトマトはいくら？」→50セント。",
-                        "「何個ある？」金額に合わない。",
-                        "「どのくらい働く？」文脈に合わない。",
-                        "「どのくらい遠い？」文脈に合わない。"
+                        "○ How much are these tomatoes?＝いくら？。「50セント」と自然につながります。",
+                        "How many vegetables do you have?＝何個ある？。値段の答えに合いません。",
+                        "How often do you work?＝どのくらいの頻度で働く？。合いません。",
+                        "How far is the supermarket?＝どのくらい遠い？。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「いくら？」がぴったり！",
@@ -588,13 +588,13 @@
                         "It's ready."
                     ],
                     "answer": 1,
-                    "grammar": "「ブラウン先生に聞こう→わからない」→ I have no idea。",
-                    "grammarSimple": "「わからない→先生に聞こう」！",
+                    "grammar": "「ブラウン先生に聞こう」と続くので、自分では分からないという I have no idea.（見当がつかない）が自然。",
+                    "grammarSimple": "「わからない→先生に きこう」だね！",
                     "choiceAnalysis": [
-                        "○「わからない」先生に聞こう。",
-                        "「壁にある」質問への答えでない。",
-                        "「時間がない」文脈に合わない。",
-                        "「準備できた」文脈に合わない。"
+                        "○ I have no idea.＝わからない。だから先生に聞こう、と自然です。",
+                        "It's on the wall.＝壁にある。何語かの答えになりません。",
+                        "I don't have time.＝時間がない。文脈に合いません。",
+                        "It's ready.＝準備できた。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「わからない」がぴったり！",
@@ -621,13 +621,13 @@
                         "I'm looking for Jack."
                     ],
                     "answer": 4,
-                    "grammar": "「彼は図書館にいる？→カフェテリア」→ 誰かを探している。",
-                    "grammarSimple": "「ジャックをさがしてる」→「図書館にいる？」！",
+                    "grammar": "「彼は図書館にいる？」と人の居場所をたずねているので、I'm looking for Jack.（ジャックを探している）が自然。",
+                    "grammarSimple": "「ジャックを さがしてる→図書館にいる？」だね！",
                     "choiceAnalysis": [
-                        "「一緒に行く」文脈に合わない。",
-                        "「気に入る」文脈に合わない。",
-                        "「あそこだよ」文脈に合わない。",
-                        "○「ジャックを探してる」→図書館にいる？"
+                        "I'll go with you.＝一緒に行く。次の「図書館にいる？」に合いません。",
+                        "You'll love it.＝気に入るよ。合いません。",
+                        "It's over there.＝あそこだよ。人を探す話に合いません。",
+                        "○ I'm looking for Jack.＝ジャックを探している。「図書館にいる？」と自然につながります。"
                     ],
                     "choiceAnalysisSimple": [
                         "「いっしょに行く」はちがうよ。",
@@ -654,13 +654,13 @@
                         "Is this your computer?"
                     ],
                     "answer": 3,
-                    "grammar": "「もうすぐ終わる→貸して」→ Can I borrow yours?",
-                    "grammarSimple": "「もうすぐおわる→ちょっと待って」→「借りていい？」！",
+                    "grammar": "パソコンが壊れた状況で、相手が「もうすぐ終わる」と答えているので、Can I borrow yours?（あなたのを借りていい？）が自然。",
+                    "grammarSimple": "「こわれた→かして」→「もうすぐ おわる」だね！",
                     "choiceAnalysis": [
-                        "「売り物？」文脈に合わない。",
-                        "「難しい？」文脈に合わない。",
-                        "○「あなたのを借りていい？」壊れたから。",
-                        "「これあなたの？」文脈に合わない。"
+                        "Are these for sale?＝売り物？。壊れた話に合いません。",
+                        "Is it difficult to do?＝難しい？。合いません。",
+                        "○ Can I borrow yours?＝あなたのを借りていい？。「もうすぐ終わる（待って）」と自然につながります。",
+                        "Is this your computer?＝これあなたの？。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「うりもの？」はちがうよ。",
@@ -715,19 +715,19 @@
                         2,
                         4
                     ],
-                    "grammar": "並べかえると「how can I get to the station?」になります。空所にはこの文の2語目と4語目が入ります。",
-                    "grammarSimple": "正しい文は「how can I get to the station?」。2番目と4番目の語を入れればOK。",
+                    "grammar": "日本語は「駅までどうやって行ったらいいですか。」。正しい英語の語順は「how can I get to the station?」です。get to ～＝～に着く。how（どうやって）→ can → I → get → to の順で、行き方をたずねます。 ①〜⑤を文の形に並べると ③①⑤④②（③how→①can→⑤I→④get→②to）の順になります。空所は左から2番目と4番目なので、2番目＝①「can」、4番目＝④「get」。よって答えは ①−④。",
+                    "grammarSimple": "いみは「駅までどうやって行ったらいいですか。」。ただしいえいごは「how can I get to the station?」だよ。「どうやって行く？」は how can I get to ～? だよ。 2ばんめは ①「can」、4ばんめは ④「get」。だからこたえは ①−④！",
                     "choiceAnalysis": [
-                        "「②−③」だと語順が合いません。",
-                        "「④−⑤」だと語順が合いません。",
-                        "○「①−④」で文が正しくなります。",
-                        "「⑤−②」だと語順が合いません。"
+                        "②−③：この選び方だと2番目に②「to」、4番目に③「how」が入り、語順が崩れます。正しくは2番目が①「can」、4番目が④「get」です。",
+                        "④−⑤：この選び方だと2番目に④「get」、4番目に⑤「I」が入り、語順が崩れます。正しくは2番目が①「can」、4番目が④「get」です。",
+                        "○ 2番目＝①「can」、4番目＝④「get」。「how can I get to the station?」と正しく並びます。",
+                        "⑤−②：この選び方だと2番目に⑤「I」、4番目に②「to」が入り、語順が崩れます。正しくは2番目が①「can」、4番目が④「get」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「②−③」は順番がちがうよ。",
-                        "「④−⑤」は順番がちがうよ。",
-                        "○「①−④」が正解だよ。",
-                        "「⑤−②」は順番がちがうよ。"
+                        "②「to」と③「how」だと ばしょが ちがうよ。ただしくは ①「can」と④「get」だね。",
+                        "④「get」と⑤「I」だと ばしょが ちがうよ。ただしくは ①「can」と④「get」だね。",
+                        "○ 2ばんめ①「can」、4ばんめ④「get」でぴったり！",
+                        "⑤「I」と②「to」だと ばしょが ちがうよ。ただしくは ①「can」と④「get」だね。"
                     ],
                     "questionAudio": "audio/q21.mp3"
                 },
@@ -761,19 +761,19 @@
                         2,
                         4
                     ],
-                    "grammar": "並べかえると「Please send me a letter when you arrive in London.」になります。空所にはこの文の2語目と4語目が入ります。",
-                    "grammarSimple": "正しい文は「Please send me a letter when you arrive in London.」。2番目と4番目の語を入れればOK。",
+                    "grammar": "日本語は「ロンドンに着いたら，手紙を送ってください。」。正しい英語の語順は「Please send me a letter when you arrive in London.」です。send＋人＋物＝人に物を送る。when you arrive＝あなたが着いたら。send → me → a letter → when → you の順。 ①〜⑤を文の形に並べると ④⑤①③②（④send→⑤me→①a letter→③when→②you）の順になります。空所は左から2番目と4番目なので、2番目＝⑤「me」、4番目＝③「when」。よって答えは ⑤−③。",
+                    "grammarSimple": "いみは「ロンドンに着いたら，手紙を送ってください。」。ただしいえいごは「Please send me a letter when you arrive in London.」だよ。「手紙を送って」は send me a letter。when you arrive＝ついたら、だよ。 2ばんめは ⑤「me」、4ばんめは ③「when」。だからこたえは ⑤−③！",
                     "choiceAnalysis": [
-                        "「③−①」だと語順が合いません。",
-                        "「③−④」だと語順が合いません。",
-                        "「④−②」だと語順が合いません。",
-                        "○「⑤−③」で文が正しくなります。"
+                        "③−①：この選び方だと2番目に③「when」、4番目に①「a letter」が入り、語順が崩れます。正しくは2番目が⑤「me」、4番目が③「when」です。",
+                        "③−④：この選び方だと2番目に③「when」、4番目に④「send」が入り、語順が崩れます。正しくは2番目が⑤「me」、4番目が③「when」です。",
+                        "④−②：この選び方だと2番目に④「send」、4番目に②「you」が入り、語順が崩れます。正しくは2番目が⑤「me」、4番目が③「when」です。",
+                        "○ 2番目＝⑤「me」、4番目＝③「when」。「Please send me a letter when you arrive in London.」と正しく並びます。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「③−①」は順番がちがうよ。",
-                        "「③−④」は順番がちがうよ。",
-                        "「④−②」は順番がちがうよ。",
-                        "○「⑤−③」が正解だよ。"
+                        "③「when」と①「a letter」だと ばしょが ちがうよ。ただしくは ⑤「me」と③「when」だね。",
+                        "③「when」と④「send」だと ばしょが ちがうよ。ただしくは ⑤「me」と③「when」だね。",
+                        "④「send」と②「you」だと ばしょが ちがうよ。ただしくは ⑤「me」と③「when」だね。",
+                        "○ 2ばんめ⑤「me」、4ばんめ③「when」でぴったり！"
                     ],
                     "questionAudio": "audio/q22.mp3"
                 },
@@ -807,19 +807,19 @@
                         2,
                         4
                     ],
-                    "grammar": "並べかえると「Tomoko is looking forward to playing the guitar with Fred.」になります。空所にはこの文の2語目と4語目が入ります。",
-                    "grammarSimple": "正しい文は「Tomoko is looking forward to playing the guitar with Fred.」。2番目と4番目の語を入れればOK。",
+                    "grammar": "日本語は「智子は，フレッドとギターを弾くのを楽しみにしています。」。正しい英語の語順は「Tomoko is looking forward to playing the guitar with Fred.」です。look forward to ～ing＝～を楽しみにする。is → looking → forward → to → playing の順。 ①〜⑤を文の形に並べると ④①⑤③②（④is→①looking→⑤forward→③to→②playing）の順になります。空所は左から2番目と4番目なので、2番目＝①「looking」、4番目＝③「to」。よって答えは ①−③。",
+                    "grammarSimple": "いみは「智子は，フレッドとギターを弾くのを楽しみにしています。」。ただしいえいごは「Tomoko is looking forward to playing the guitar with Fred.」だよ。「たのしみにしている」は look forward to ～ing だよ。 2ばんめは ①「looking」、4ばんめは ③「to」。だからこたえは ①−③！",
                     "choiceAnalysis": [
-                        "「②−①」だと語順が合いません。",
-                        "○「①−③」で文が正しくなります。",
-                        "「⑤−④」だと語順が合いません。",
-                        "「③−①」だと語順が合いません。"
+                        "②−①：この選び方だと2番目に②「playing」、4番目に①「looking」が入り、語順が崩れます。正しくは2番目が①「looking」、4番目が③「to」です。",
+                        "○ 2番目＝①「looking」、4番目＝③「to」。「Tomoko is looking forward to playing the guitar with Fred.」と正しく並びます。",
+                        "⑤−④：この選び方だと2番目に⑤「forward」、4番目に④「is」が入り、語順が崩れます。正しくは2番目が①「looking」、4番目が③「to」です。",
+                        "③−①：この選び方だと2番目に③「to」、4番目に①「looking」が入り、語順が崩れます。正しくは2番目が①「looking」、4番目が③「to」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「②−①」は順番がちがうよ。",
-                        "○「①−③」が正解だよ。",
-                        "「⑤−④」は順番がちがうよ。",
-                        "「③−①」は順番がちがうよ。"
+                        "②「playing」と①「looking」だと ばしょが ちがうよ。ただしくは ①「looking」と③「to」だね。",
+                        "○ 2ばんめ①「looking」、4ばんめ③「to」でぴったり！",
+                        "⑤「forward」と④「is」だと ばしょが ちがうよ。ただしくは ①「looking」と③「to」だね。",
+                        "③「to」と①「looking」だと ばしょが ちがうよ。ただしくは ①「looking」と③「to」だね。"
                     ],
                     "questionAudio": "audio/q23.mp3"
                 },
@@ -853,19 +853,19 @@
                         2,
                         4
                     ],
-                    "grammar": "並べかえると「I enjoyed swimming in the pool near my house yesterday.」になります。空所にはこの文の2語目と4語目が入ります。",
-                    "grammarSimple": "正しい文は「I enjoyed swimming in the pool near my house yesterday.」。2番目と4番目の語を入れればOK。",
+                    "grammar": "日本語は「私は昨日，家の近くのプールで泳いで楽しみました。」。正しい英語の語順は「I enjoyed swimming in the pool near my house yesterday.」です。enjoy ～ing＝～して楽しむ。enjoyed → swimming → in → the pool → near の順。 ①〜⑤を文の形に並べると ⑤④①③②（⑤enjoyed→④swimming→①in→③the pool→②near）の順になります。空所は左から2番目と4番目なので、2番目＝④「swimming」、4番目＝③「the pool」。よって答えは ④−③。",
+                    "grammarSimple": "いみは「私は昨日，家の近くのプールで泳いで楽しみました。」。ただしいえいごは「I enjoyed swimming in the pool near my house yesterday.」だよ。「およいで たのしんだ」は enjoyed swimming だよ。 2ばんめは ④「swimming」、4ばんめは ③「the pool」。だからこたえは ④−③！",
                     "choiceAnalysis": [
-                        "「③−②」だと語順が合いません。",
-                        "「②−①」だと語順が合いません。",
-                        "○「④−③」で文が正しくなります。",
-                        "「⑤−④」だと語順が合いません。"
+                        "③−②：この選び方だと2番目に③「the pool」、4番目に②「near」が入り、語順が崩れます。正しくは2番目が④「swimming」、4番目が③「the pool」です。",
+                        "②−①：この選び方だと2番目に②「near」、4番目に①「in」が入り、語順が崩れます。正しくは2番目が④「swimming」、4番目が③「the pool」です。",
+                        "○ 2番目＝④「swimming」、4番目＝③「the pool」。「I enjoyed swimming in the pool near my house yesterday.」と正しく並びます。",
+                        "⑤−④：この選び方だと2番目に⑤「enjoyed」、4番目に④「swimming」が入り、語順が崩れます。正しくは2番目が④「swimming」、4番目が③「the pool」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「③−②」は順番がちがうよ。",
-                        "「②−①」は順番がちがうよ。",
-                        "○「④−③」が正解だよ。",
-                        "「⑤−④」は順番がちがうよ。"
+                        "③「the pool」と②「near」だと ばしょが ちがうよ。ただしくは ④「swimming」と③「the pool」だね。",
+                        "②「near」と①「in」だと ばしょが ちがうよ。ただしくは ④「swimming」と③「the pool」だね。",
+                        "○ 2ばんめ④「swimming」、4ばんめ③「the pool」でぴったり！",
+                        "⑤「enjoyed」と④「swimming」だと ばしょが ちがうよ。ただしくは ④「swimming」と③「the pool」だね。"
                     ],
                     "questionAudio": "audio/q24.mp3"
                 },
@@ -899,19 +899,19 @@
                         2,
                         4
                     ],
-                    "grammar": "並べかえると「may I use this computer, please?」になります。空所にはこの文の2語目と4語目が入ります。",
-                    "grammarSimple": "正しい文は「may I use this computer, please?」。2番目と4番目の語を入れればOK。",
+                    "grammar": "日本語は「このコンピューターを使ってもよろしいですか。」。正しい英語の語順は「may I use this computer, please?」です。May I ～?＝～してもいいですか（ていねいな許可）。may → I → use → this → computer の順。 ①〜⑤を文の形に並べると ⑤②④①③（⑤may→②I→④use→①this→③computer）の順になります。空所は左から2番目と4番目なので、2番目＝②「I」、4番目＝①「this」。よって答えは ②−①。",
+                    "grammarSimple": "いみは「このコンピューターを使ってもよろしいですか。」。ただしいえいごは「may I use this computer, please?」だよ。「〜してもいいですか」は May I ～? だよ。 2ばんめは ②「I」、4ばんめは ①「this」。だからこたえは ②−①！",
                     "choiceAnalysis": [
-                        "「④−①」だと語順が合いません。",
-                        "「⑤−③」だと語順が合いません。",
-                        "「③−⑤」だと語順が合いません。",
-                        "○「②−①」で文が正しくなります。"
+                        "④−①：この選び方だと2番目に④「use」、4番目に①「this」が入り、語順が崩れます。正しくは2番目が②「I」、4番目が①「this」です。",
+                        "⑤−③：この選び方だと2番目に⑤「may」、4番目に③「computer」が入り、語順が崩れます。正しくは2番目が②「I」、4番目が①「this」です。",
+                        "③−⑤：この選び方だと2番目に③「computer」、4番目に⑤「may」が入り、語順が崩れます。正しくは2番目が②「I」、4番目が①「this」です。",
+                        "○ 2番目＝②「I」、4番目＝①「this」。「may I use this computer, please?」と正しく並びます。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「④−①」は順番がちがうよ。",
-                        "「⑤−③」は順番がちがうよ。",
-                        "「③−⑤」は順番がちがうよ。",
-                        "○「②−①」が正解だよ。"
+                        "④「use」と①「this」だと ばしょが ちがうよ。ただしくは ②「I」と①「this」だね。",
+                        "⑤「may」と③「computer」だと ばしょが ちがうよ。ただしくは ②「I」と①「this」だね。",
+                        "③「computer」と⑤「may」だと ばしょが ちがうよ。ただしくは ②「I」と①「this」だね。",
+                        "○ 2ばんめ②「I」、4ばんめ①「this」でぴったり！"
                     ],
                     "questionAudio": "audio/q25.mp3"
                 }
@@ -947,18 +947,18 @@
                                 "At City Sports Center."
                             ],
                             "answer": 4,
-                            "grammar": "「シティスポーツセンターで」",
-                            "grammarSimple": "「シティスポーツセンター」って書いてあるよ！",
+                            "grammar": "本文に「There will be a dance lesson at City Sports Center」とあります。場所はシティスポーツセンター。ダンスセンター・学校の体育館・市役所は本文にありません。",
+                            "grammarSimple": "本文に「シティスポーツセンターで」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "ダンスセンター＝書いてない。",
-                                "学校の体育館＝書いてない。",
-                                "市役所＝書いてない。",
-                                "○ シティスポーツセンター。"
+                                "ダンスセンター。本文にありません。",
+                                "学校の体育館。本文にありません。",
+                                "市役所。本文にありません。",
+                                "○ シティスポーツセンター。「at City Sports Center」とあります。"
                             ],
                             "choiceAnalysisSimple": [
                                 "「ダンスセンター」はちがうよ。",
-                                "「体育館」はちがうよ。",
-                                "「市やくしょ」はちがうよ。",
+                                "「たいいくかん」はちがうよ。",
+                                "「しやくしょ」はちがうよ。",
                                 "○「シティスポーツセンター」がぴったり！"
                             ],
                             "questionTranslation": "ダンスレッスンはどこで行われますか？",
@@ -979,13 +979,13 @@
                                 "Clean the school."
                             ],
                             "answer": 1,
-                            "grammar": "「昼食と体育館シューズを持参」",
-                            "grammarSimple": "「おべんとうとくつをもってくる」って書いてあるよ！",
+                            "grammar": "本文に「Students must bring lunch and gym shoes」とあります。すべきことは昼食と体育館シューズの持参。友達に伝える・教科書を買う・掃除は本文にありません。",
+                            "grammarSimple": "本文に「おべんとうと くつを もってくる」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "○ 昼食と体育館シューズ。",
-                                "友達に伝える＝書いてない。",
-                                "教科書を買う＝書いてない。",
-                                "学校を掃除＝書いてない。"
+                                "○ 昼食と体育館シューズを持参する。「must bring lunch and gym shoes」とあります。",
+                                "友達にパーティーを伝える。本文にありません。",
+                                "教科書を買う。本文にありません。",
+                                "学校を掃除する。本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○「おべんとうとくつ」がぴったり！",
@@ -1029,13 +1029,13 @@
                                 "Have a barbecue."
                             ],
                             "answer": 4,
-                            "grammar": "「土曜の夜にバーベキュー」",
-                            "grammarSimple": "「土曜のよるにバーベキュー」って書いてあるよ！",
+                            "grammar": "ベスのメールに「having a barbecue on Saturday evening」とあります。土曜の夜はバーベキュー。ハイキングは土曜の午後、映画は日曜の夜です。",
+                            "grammarSimple": "本文に「土曜の よるは バーベキュー」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "ハイキング＝土曜の午後。",
-                                "映画＝日曜の夜。",
-                                "買い物＝書いてない。",
-                                "○ バーベキュー＝土曜の夜。"
+                                "ハイキングをする。土曜の午後の予定です。",
+                                "映画を見る。日曜の夜の予定です。",
+                                "買い物をする。本文にありません。",
+                                "○ バーベキューをする。「a barbecue on Saturday evening」とあります。"
                             ],
                             "choiceAnalysisSimple": [
                                 "「ハイキング」は土曜のごごだよ。",
@@ -1061,17 +1061,17 @@
                                 "A clothes store will have a sale."
                             ],
                             "answer": 1,
-                            "grammar": "「日曜は町のフェスティバルに行ける」",
-                            "grammarSimple": "「日曜はフェスティバルがある」って書いてあるよ！",
+                            "grammar": "キャシーのメールに「We can go to the festival in my town on Sunday」とあります。日曜はフェスティバル。天気は晴れ、映画館オープンやセールは本文にありません。",
+                            "grammarSimple": "本文に「日曜は フェスティバル」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "○ フェスティバルがある。",
-                                "雨が降る＝晴れ。",
-                                "映画館オープン＝書いてない。",
-                                "セール＝書いてない。"
+                                "○ フェスティバルがある。「go to the festival ... on Sunday」とあります。",
+                                "雨がたくさん降る。天気は「hot and sunny」で晴れです。",
+                                "新しい映画館がオープンする。本文にありません。",
+                                "衣料品店のセールがある。本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○「フェスティバル」がぴったり！",
-                                "「雨」はちがうよ。はれだよ。",
+                                "「あめ」はちがうよ、はれだよ。",
                                 "「えいがかん」はちがうよ。",
                                 "「セール」はちがうよ。"
                             ],
@@ -1093,19 +1093,19 @@
                                 "An umbrella."
                             ],
                             "answer": 3,
-                            "grammar": "「帽子を持ってきて」→ bring your cap。",
-                            "grammarSimple": "「ぼうしをもってきて」って言ってるよ！",
+                            "grammar": "キャシーのメールに「you should bring your cap ... You'll need it when we go hiking」とあります。持ってくるのは帽子。晴れなので傘は不要です。",
+                            "grammarSimple": "本文に「ぼうしを もってきて」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "食べ物と飲み物＝書いてない。",
-                                "映画のチケット＝書いてない。",
-                                "○ 帽子。",
-                                "傘＝晴れなので不要。"
+                                "食べ物と飲み物。本文にありません。",
+                                "映画のチケット。本文にありません。",
+                                "○ 帽子。「bring your cap」とあります。",
+                                "傘。天気は晴れなので不要です。"
                             ],
                             "choiceAnalysisSimple": [
-                                "「食べものと飲みもの」はちがうよ。",
+                                "「たべもの」はちがうよ。",
                                 "「えいがチケット」はちがうよ。",
                                 "○「ぼうし」がぴったり！",
-                                "「かさ」ははれだからいらないよ。"
+                                "「かさ」はいらないよ、はれだよ。"
                             ],
                             "questionTranslation": "ベスは今週末何を持っていくべきですか?",
                             "choiceTranslations": [
@@ -1143,13 +1143,13 @@
                                 "The piano."
                             ],
                             "answer": 1,
-                            "grammar": "「お父さんはバンドでギターを弾く」",
-                            "grammarSimple": "「おとうさんはギターをひく」って書いてあるよ！",
+                            "grammar": "本文に「His father plays the guitar in a band」とあります。お父さんはギター。トランペットはジェラルド、バイオリンとピアノはバンドの別メンバーです。",
+                            "grammarSimple": "本文に「おとうさんは ギター」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "○ ギター。",
-                                "トランペット＝ジェラルド。",
-                                "バイオリン＝バンドの別メンバー。",
-                                "ピアノ＝バンドの別メンバー。"
+                                "○ ギター。「His father plays the guitar」とあります。",
+                                "トランペット。ジェラルドが演奏する楽器です。",
+                                "バイオリン。バンドの別のメンバーです。",
+                                "ピアノ。バンドの別のメンバーです。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○「ギター」がぴったり！",
@@ -1175,13 +1175,13 @@
                                 "Work at a restaurant."
                             ],
                             "answer": 3,
-                            "grammar": "「音楽家になりたい」",
-                            "grammarSimple": "「おんがくかになりたい」って書いてあるよ！",
+                            "grammar": "本文に「Gerald wants to become a musician like his father」とあります。ジェラルドは音楽家になりたい。バンドを見る・スポーツ・レストランで働くは本文にありません。",
+                            "grammarSimple": "本文に「おんがくかに なりたい」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "バンドを見る＝書いてない。",
-                                "スポーツ＝書いてない。",
-                                "○ 音楽家になる。",
-                                "レストランで働く＝書いてない。"
+                                "好きなバンドを見る。本文にありません。",
+                                "放課後にスポーツをする。本文にありません（練習しているのはトランペット）。",
+                                "○ 音楽家になる。「become a musician」とあります。",
+                                "レストランで働く。本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
                                 "「バンド見る」はちがうよ。",
@@ -1207,18 +1207,18 @@
                                 "In August."
                             ],
                             "answer": 1,
-                            "grammar": "「5月にポスターを見た」",
-                            "grammarSimple": "「5月にポスターを見た」って書いてあるよ！",
+                            "grammar": "本文に「In May, Gerald saw a poster」とあります。ポスターを見たのは5月。6月は猛練習、7月は学園祭、8月は本文にありません。",
+                            "grammarSimple": "本文に「5月に ポスターを 見た」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "○ 5月＝ポスターを見た。",
-                                "6月＝猛練習。",
-                                "7月＝学園祭。",
-                                "8月＝書いてない。"
+                                "○ 5月。「In May ... saw a poster」とあります。",
+                                "6月。猛練習した月です。",
+                                "7月。学園祭があった月です。",
+                                "8月。本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○「5月」がぴったり！",
-                                "「6月」はれんしゅうした月だよ。",
-                                "「7月」はまつりの月だよ。",
+                                "「6月」はれんしゅうの月だよ。",
+                                "「7月」はおまつりの月だよ。",
                                 "「8月」はちがうよ。"
                             ],
                             "questionTranslation": "ジェラルドはいつそのポスターを見ましたか?",
@@ -1239,13 +1239,13 @@
                                 "sleepy."
                             ],
                             "answer": 1,
-                            "grammar": "「緊張した」→ nervous。",
-                            "grammarSimple": "「きんちょうした」って書いてあるよ！",
+                            "grammar": "本文に「He was nervous, and he played the song too quickly」とあります。演奏中は緊張していた。驚いた・嬉しいは演奏後の気持ちで、眠いは本文にありません。",
+                            "grammarSimple": "本文に「きんちょうした」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "○ 緊張した。",
-                                "驚いた＝演奏後。",
-                                "嬉しかった＝演奏後。",
-                                "眠かった＝書いてない。"
+                                "○ 緊張していた。「He was nervous」とあります。",
+                                "驚いた。演奏後に「surprised」になりました。",
+                                "嬉しかった。演奏後の気持ちです。",
+                                "眠かった。本文にありません。"
                             ],
                             "choiceAnalysisSimple": [
                                 "○「きんちょうした」がぴったり！",
@@ -1271,13 +1271,13 @@
                                 "He went to a restaurant."
                             ],
                             "answer": 4,
-                            "grammar": "「ピザレストランに行ってお祝い」",
-                            "grammarSimple": "「ピザレストランに行った」って書いてあるよ！",
+                            "grammar": "本文に「he went to a pizza restaurant with Jessica and his parents to celebrate」とあります。演奏後はレストランへ。先生に感謝・ジェシカの家・両親に電話は本文にありません。",
+                            "grammarSimple": "本文に「ピザレストランに 行った」と かいてあるよ！",
                             "choiceAnalysis": [
-                                "先生に感謝＝書いてない。",
-                                "ジェシカの家＝書いてない。",
-                                "両親に電話＝書いてない。",
-                                "○ レストランに行った。"
+                                "先生に感謝した。本文にありません。",
+                                "ジェシカの家に行った。本文にありません（行ったのはレストラン）。",
+                                "両親に電話した。本文にありません。",
+                                "○ レストランに行った。「went to a pizza restaurant」とあります。"
                             ],
                             "choiceAnalysisSimple": [
                                 "「先生にかんしゃ」はちがうよ。",
