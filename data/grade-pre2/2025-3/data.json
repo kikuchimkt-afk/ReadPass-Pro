@@ -557,12 +557,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ skill＝技術・技能。目に浮かぶ感情としては不自然",
+                        "❌ skill＝技術・技能。目に浮かぶ感情ではない",
                         "❌ audio＝音声・オーディオ。感情を表す語ではない",
-                        "✅ joy＝喜び。おもちゃの汽車を見た子供の感情として最適",
+                        "✅ joy＝喜び。おもちゃの汽車を見た子供の目＝喜びでいっぱい→正解",
                         "❌ rent＝家賃。感情の文脈に合わない"
                     ],
-                    "grammar": "💡 be filled with ～＝～でいっぱいになる。感情を表す名詞（joy, surprise, anger等）と共によく使われる",
+                    "grammar": "💡 joy＝喜び（名詞）。be filled with ～＝～でいっぱいになる。感情の名詞（joy, surprise, anger）と相性がよい。joyful（形容詞）＝喜びに満ちた。",
                     "choiceTranslations": [
                         "技術",
                         "音声",
@@ -582,12 +582,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ shadow＝影。金の価格の文脈に合わない",
-                        "❌ talent＝才能。物の値段の話に合わない",
-                        "❌ pattern＝模様・パターン。金と銀の比較の文脈に不適切",
-                        "✅ value＝価値。金は銀より見つけにくいので「より高い価値を持つ」"
+                        "❌ shadow＝影。金の価格の話に合わない",
+                        "❌ talent＝才能。物の値段には使えない",
+                        "❌ pattern＝模様・型。希少性と価値の話に不適",
+                        "✅ value＝価値。『銀より見つけにくい』→希少→高い価値→正解"
                     ],
-                    "grammar": "💡 value＝価値 / 名詞・動詞の両方で使う。have a higher value＝より高い価値を持つ",
+                    "grammar": "💡 value＝価値（名詞）/ 評価する（動詞）。have a higher value＝より高い価値を持つ。valuable（形容詞）＝貴重な。希少性→高価値の因果。",
                     "choiceTranslations": [
                         "影",
                         "才能",
@@ -607,12 +607,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ impression＝印象。have a good impression of ～＝～に良い印象を持つ",
-                        "❌ survey＝調査。「良い調査を持つ」は不自然",
-                        "❌ requirement＝要件。文脈に合わない",
+                        "✅ impression＝印象。『数分話して良い印象・フレンドリーそう』→正解",
+                        "❌ survey＝調査。『良い調査を持つ』は不自然",
+                        "❌ requirement＝要件・必要条件。人の印象を表さない",
                         "❌ purse＝財布。全く関係ない"
                     ],
-                    "grammar": "💡 have a good impression of ～＝～に良い印象を持つ。make a good impression＝良い印象を与える",
+                    "grammar": "💡 impression＝印象。have a good impression of ～＝～に良い印象を持つ。make a good impression＝良い印象を与える。impress（動詞）。",
                     "choiceTranslations": [
                         "印象",
                         "調査",
@@ -632,12 +632,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ statement＝声明・発言。旅行の文脈に合わない",
-                        "❌ product＝製品。旅の話に合わない",
+                        "❌ statement＝声明・発言。旅の話に合わない",
+                        "❌ product＝製品。旅行を表せない",
                         "❌ failure＝失敗。文脈に合わない",
-                        "✅ journey＝旅。ヨーロッパ旅行中に多くの場所を見た、という文脈に最適"
+                        "✅ journey＝旅。2か月のヨーロッパ旅行中に多くの場所を見た→正解"
                     ],
-                    "grammar": "💡 journey＝旅（比較的長い旅）。trip＝旅行（短い旅行を含む）。travel＝旅行（不可算名詞）",
+                    "grammar": "💡 journey＝（比較的長い）旅。trip＝旅行、travel＝旅行（不可算）。on her journey＝旅の途中で。",
                     "choiceTranslations": [
                         "声明",
                         "製品",
@@ -658,11 +658,11 @@
                     "answer": 2,
                     "choiceAnalysis": [
                         "❌ wondered＝不思議に思った。頭痛の消失を表せない",
-                        "✅ disappeared＝消えた。頭痛が完全に消えた、という文脈に最適",
+                        "✅ disappeared＝消えた。『起きたら痛みがなくなっていた』が根拠→正解",
                         "❌ supposed＝想定した。頭痛の話に合わない",
-                        "❌ entered＝入った。頭痛が入ったは不自然"
+                        "❌ entered＝入った。『頭痛が入った』は不自然"
                     ],
-                    "grammar": "💡 disappear＝消える（自動詞）。過去形は disappeared。反意語は appear（現れる）",
+                    "grammar": "💡 disappear＝消える（自動詞）。過去分詞 disappeared。反意語 appear（現れる）。has totally disappeared＝完全に消えた（現在完了）。",
                     "choiceTranslations": [
                         "不思議に思った",
                         "消えた",
@@ -682,12 +682,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ forward＝前方に。合計時間を表す副詞として不適切",
+                        "❌ forward＝前方に。合計を表す副詞ではない",
                         "❌ loudly＝大声で。時間の話に合わない",
-                        "❌ worldwide＝世界中で。レポート作成の文脈に合わない",
-                        "✅ altogether＝全部で・合計で。「合計約20時間」の文脈に最適"
+                        "❌ worldwide＝世界中で。作業時間の合計に不適",
+                        "✅ altogether＝全部で。『毎日数時間×1週間』を合算→合計約20時間→正解"
                     ],
-                    "grammar": "💡 altogether＝全部で、合計で。数量を合算する時に使う副詞",
+                    "grammar": "💡 altogether＝全部で・合計で（副詞）。数量を合算する語。in total が類義。毎日数時間×1週間→合計約20時間の流れ。",
                     "choiceTranslations": [
                         "前方に",
                         "大声で",
@@ -707,12 +707,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ cold＝冷たい。コンピュータの価格の話に合わない",
-                        "❌ shy＝恥ずかしがりの。物の性質を表す語として不適切",
-                        "✅ cheap＝安い。セール中だから「安いもの」を買える、という文脈に最適",
-                        "❌ guilty＝有罪の。コンピュータの話に合わない"
+                        "❌ cold＝冷たい。価格の話に合わない",
+                        "❌ shy＝恥ずかしがりの。物の価格を表さない",
+                        "✅ cheap＝安い。『セール中』→安く買える→正解",
+                        "❌ guilty＝有罪の。コンピュータの価格に不適"
                     ],
-                    "grammar": "💡 cheap＝安い（価格が低い）。inexpensive はより丁寧な表現。反意語は expensive（高い）",
+                    "grammar": "💡 cheap＝安い（価格が低い）。inexpensive がより丁寧。反意語 expensive。having a sale（セール中）が空所のヒント。",
                     "choiceTranslations": [
                         "冷たい",
                         "恥ずかしがりの",
@@ -732,12 +732,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ rest＝休む。黒板の文字の文脈に合わない",
+                        "❌ rest＝休む。黒板の文字に対して使えない",
                         "❌ attend＝出席する。文字を消す動作ではない",
-                        "✅ erase＝消す。黒板の文字を消さないで、という依頼に最適",
+                        "✅ erase＝消す。『次の授業で使いたいから消さないで』が根拠→正解",
                         "❌ hire＝雇う。全く関係ない"
                     ],
-                    "grammar": "💡 erase＝消す。黒板やホワイトボードの文字を消す時に使う。delete（データを消す）との違いに注意",
+                    "grammar": "💡 erase＝消す（黒板・ホワイトボードの字）。データを消すのは delete。板書を残したい→消さないで、の依頼。",
                     "choiceTranslations": [
                         "休む",
                         "出席する",
@@ -757,12 +757,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ order＝注文する。複数のモデルを比較する動作ではない",
+                        "❌ order＝注文する。複数モデルの比較の動作ではない",
                         "❌ catch＝捕まえる。スマホの話に合わない",
-                        "❌ hide＝隠す。モデルの比較に合わない",
-                        "✅ rate＝評価する。異なるモデルを評価するためにいくつかの店を回った"
+                        "❌ hide＝隠す。モデル比較に合わない",
+                        "✅ rate＝評価する。『価格と機能を比較した』が根拠→評価する→正解"
                     ],
-                    "grammar": "💡 rate＝評価する・格付けする。compare（比較する）と共に使われることが多い",
+                    "grammar": "💡 rate＝評価する・格付けする。compare（比較する）とセットで使われる。異なるモデルを見比べて評価する文脈。",
                     "choiceTranslations": [
                         "注文する",
                         "捕まえる",
@@ -782,12 +782,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ heal＝癒す。タオルを外に干す文脈に合わない",
+                        "❌ heal＝癒す。タオルを干す文脈に合わない",
                         "❌ chase＝追いかける。全く関係ない",
-                        "✅ dry＝乾かす。晴れた日にタオルを外に干して乾かす、という文脈に最適",
+                        "✅ dry＝乾かす。『晴れた日に外に干す』→乾かす→正解",
                         "❌ accept＝受け入れる。タオルの話に合わない"
                     ],
-                    "grammar": "💡 dry＝乾かす（動詞）/ 乾いた（形容詞）。hang out to dry＝干して乾かす",
+                    "grammar": "💡 dry＝乾かす（動詞）/ 乾いた（形容詞）。hang ～ out to dry＝干して乾かす。晴天＋外干し→乾かす。",
                     "choiceTranslations": [
                         "癒す",
                         "追いかける",
@@ -807,12 +807,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ take over＝引き継ぐ。ジョークの文脈に合わない",
-                        "❌ come to＝～に来る・意識を取り戻す。ジョークの文脈に合わない",
-                        "❌ point out＝指摘する。ジョークに対する反応として不適切",
-                        "✅ laugh at＝～を笑う。面白いジョークに笑う、という文脈に最適"
+                        "❌ take over＝引き継ぐ。ジョークの反応に合わない",
+                        "❌ come to＝～に来る・意識を取り戻す。文脈に合わない",
+                        "❌ point out＝指摘する。面白いジョークへの反応として不適",
+                        "✅ laugh at＝～を笑う。『本当に面白い』→ジョークに笑う→正解"
                     ],
-                    "grammar": "💡 laugh at ～＝～を笑う。良い意味（ジョークに笑う）と悪い意味（人を馬鹿にして笑う）の両方がある",
+                    "grammar": "💡 laugh at ～＝～を（見て）笑う。良い意味（ジョークに笑う）にも悪い意味（人を嘲笑う）にも使う。funny（面白い）が空所のヒント。",
                     "choiceTranslations": [
                         "引き継ぐ",
                         "〜に来る",
@@ -832,12 +832,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ all over＝一面に。地面一面に雪がある、という文脈に最適",
-                        "❌ just like＝ちょうど～のように。前置詞句としての使い方が不自然",
-                        "❌ up to＝～まで。地面の上の雪の様子を表せない",
-                        "❌ ahead of＝～の前に。雪の位置の表現として不適切"
+                        "✅ all over＝一面に。『地面一面に雪』→大雪で休校→正解",
+                        "❌ just like＝ちょうど～のように。the ground と結びつかない",
+                        "❌ up to＝～まで。地面上の雪の広がりを表せない",
+                        "❌ ahead of＝～の前に。雪の位置表現に不適"
                     ],
-                    "grammar": "💡 all over＝一面に、至る所に。all over the ground＝地面一面に",
+                    "grammar": "💡 all over ～＝～一面に・至る所に。all over the ground＝地面一面に。空所後 the ground と結びつく前置詞句。",
                     "choiceTranslations": [
                         "一面に",
                         "ちょうど〜のように",
@@ -857,12 +857,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ have a dream＝夢を見る。遅刻の言い訳の文脈に合わない",
-                        "❌ have a word＝話をする。遅刻の理由を述べる文脈に合わない",
-                        "✅ make an excuse＝言い訳をする。寝坊したという真実を言い、言い訳をしたくない",
-                        "❌ make a start＝出発する。文脈に合わない"
+                        "❌ have a dream＝夢を見る。遅刻の話に合わない",
+                        "❌ have a word＝ちょっと話す。理由を述べる文脈に合わない",
+                        "✅ make an excuse＝言い訳をする。『言い訳したくない→実は寝坊』が根拠→正解",
+                        "❌ make a start＝始める・出発する。文脈に合わない"
                     ],
-                    "grammar": "💡 make an excuse＝言い訳をする。The truth is (that) ～＝実は～である（本当のことを言う表現）",
+                    "grammar": "💡 make an excuse＝言い訳をする。The truth is (that) ～＝実は～。『言い訳せず正直に言う』の流れ。",
                     "choiceTranslations": [
                         "夢を見る",
                         "話をする",
@@ -882,12 +882,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ as soon as＝～するとすぐに。条件を表す意味が異なる",
-                        "✅ as long as＝～する限り。皿を洗わなくてよい「限り」料理をする、という条件に最適",
-                        "❌ even if＝たとえ～でも。逆接の意味で文脈に合わない",
-                        "❌ by the time＝～するまでに。条件ではなく時間的限度を表す"
+                        "❌ as soon as＝～するとすぐに（時）。条件の意味にならない",
+                        "✅ as long as＝～する限り。『皿を洗わなくてよい限り料理する』条件→正解",
+                        "❌ even if＝たとえ～でも（逆接）。文意に合わない",
+                        "❌ by the time＝～するまでに（時の限度）。条件ではない"
                     ],
-                    "grammar": "💡 as long as＝～する限り（条件）。if と似ているが、より強い条件を示す",
+                    "grammar": "💡 as long as ～＝～する限り（条件）。if より強い条件を示す。『皿洗いをしなくてよい限り料理する』の条件。",
                     "choiceTranslations": [
                         "〜するとすぐに",
                         "〜する限り",
@@ -907,12 +907,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ succeeded in＝～に成功した。succeed in ～ing＝～することに成功する",
-                        "❌ lived on＝～で生活した。ピアノ演奏の文脈に合わない",
-                        "❌ suffered from＝～に苦しんだ。完璧に弾けた結果に合わない",
-                        "❌ felt like＝～したい気がした。finally（ついに）との組み合わせに合わない"
+                        "✅ succeeded in＝～に成功した。『数週間練習→ついに完璧に弾けた』→正解",
+                        "❌ lived on＝～で生活した・～を糧に生きた。演奏の文脈に合わない",
+                        "❌ suffered from＝～に苦しんだ。完璧に弾けた結果と矛盾",
+                        "❌ felt like＝～したい気がした。finally と噛み合わない"
                     ],
-                    "grammar": "💡 succeed in ～ing＝～することに成功する。前置詞 in の後は動名詞（-ing形）",
+                    "grammar": "💡 succeed in ～ing＝～することに成功する。前置詞 in の後は動名詞。finally（ついに）と好相性。名詞 success、形容詞 successful。",
                     "choiceTranslations": [
                         "〜に成功した",
                         "〜で生活した",
@@ -940,12 +940,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "長くいられない→正解。💡 5:30に帰ると言っているので「長くいられない」が文脈に最適",
-                        "昼食の時間がない→放課後の文脈に合わない",
-                        "特にすることがない→帰る必要がある会話に矛盾",
-                        "この町を出る→大げさすぎる"
+                        "長くいられない→正解。💡 『5:30に帰る（サッカー観戦）』→今日は長居できない、が自然",
+                        "昼食の時間がない→放課後の勉強の話でランチは無関係",
+                        "特にすることがない→『帰る用事がある』会話と矛盾",
+                        "この町を出る→話が大げさで文脈に合わない"
                     ],
-                    "grammar": "💡 won't be able to ～＝～できないだろう。will not + be able to で未来の能力・可能性を否定",
+                    "grammar": "💡 won't be able to ～＝～できないだろう（will＋be able to の否定）。空所後『5:30に帰る』が根拠。",
                     "choiceTranslations": [
                         "長くいられない",
                         "昼食の時間がない",
@@ -965,12 +965,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "週末に一生懸命勉強する→明日の朝が締め切りなので不適",
-                        "宿題を手伝う→自分のレポートの話",
-                        "今夜遅くまで起きて終わらせる→正解。💡 明日の朝が締め切り→今夜やるしかない",
-                        "月曜までにもっとレポートを書く→文脈に合わない"
+                        "週末に一生懸命勉強する→締め切りは明日の朝で週末では間に合わない",
+                        "宿題を手伝う→自分のレポートを仕上げる話",
+                        "今夜遅くまで起きて終わらせる→正解。💡 『明日の朝までにメール提出』が根拠→今夜やるしかない",
+                        "月曜までにもっとレポートを書く→締め切り・枚数の話と合わない"
                     ],
-                    "grammar": "💡 stay up late＝夜更かしする。I guess＝～だと思う（推測を表すカジュアルな表現）",
+                    "grammar": "💡 stay up late＝夜更かしする。I guess＝たぶん～。締め切りが明朝→今夜終わらせる、の因果。",
                     "choiceTranslations": [
                         "週末に一生懸命勉強する",
                         "宿題を手伝う",
@@ -990,12 +990,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "電源を切った→正解。💡 再起動のアドバイスに対して「やってみた」という対応",
-                        "色を変えた→インターネット速度の問題に関係ない",
-                        "新しいコンピュータを買った→その場ですぐにできる行動ではない",
-                        "映画を見た→問題の解決に関係ない"
+                        "電源を切った（再起動した）→正解。💡 『再起動してみたら』の助言に対し『今やってみた』が自然",
+                        "色を変えた→ネット速度の問題に無関係",
+                        "新しいコンピュータを買った→その場で即できる行動ではない",
+                        "映画を見た→問題解決の行動ではない"
                     ],
-                    "grammar": "💡 turn off＝電源を切る。turn on＝電源を入れる。start up＝起動する。restart＝再起動する",
+                    "grammar": "💡 turn off＝電源を切る、turn on＝入れる、restart＝再起動。『再起動して』の助言に対し『今やった』の返答。",
                     "choiceTranslations": [
                         "電源を切った（再起動した）",
                         "色を変えた",
@@ -1015,12 +1015,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "泊まる良い場所→すでに滞在していると言っている",
-                        "使える地図→観光スポットを聞いている文脈に合わない",
-                        "何か楽しく見られるもの→正解。💡 子供連れの観光で「楽しく見られるもの」を尋ねている",
-                        "何か食べられるもの→観光の質問としては限定的すぎる"
+                        "泊まる良い場所→すでに滞在中と言っている",
+                        "使える地図→観光スポットを尋ねる文脈に合わない",
+                        "何か楽しく見られるもの→正解。💡 子連れで『見て楽しめるもの』を尋ね、Bが展覧会を提案→自然",
+                        "何か食べられるもの→観光の質問としては限定的で、展覧会の提案と合わない"
                     ],
-                    "grammar": "💡 something fun to ～＝何か楽しい～。形容詞＋不定詞の組み合わせで「～するための楽しいもの」",
+                    "grammar": "💡 something fun to see＝何か見て楽しいもの。形容詞＋to不定詞。子連れ観光で『楽しめるもの』を尋ねる流れ。",
                     "choiceTranslations": [
                         "泊まる良い場所",
                         "使える地図",
@@ -1040,12 +1040,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "無料の音楽レッスンに参加する→チケットが必要な話に矛盾",
-                        "地元の音楽フェスティバルに行く→正解。💡 ライブ演奏＋楽器体験＋チケット制の情報と一致",
-                        "代わりに短い歴史映画を見る→音楽の話に合わない",
-                        "平日に博物館を訪れる→週末の話に合わない"
+                        "無料の音楽レッスンに参加→『チケットが必要』と矛盾",
+                        "地元の音楽フェスに行く→正解。💡 ライブ演奏＋楽器体験＋チケット制＝音楽フェスの説明と一致",
+                        "代わりに短い歴史映画を見る→音楽イベントの説明に合わない",
+                        "平日に博物館を訪れる→『週末ずっと開催』の話と矛盾"
                     ],
-                    "grammar": "💡 check out＝見に行く・確認する（カジュアルな表現）。How about ～ing?＝～してはどうですか？",
+                    "grammar": "💡 check out＝見に行く・確認する（口語）。How about ～ing?＝～はどう？ 空所後『ライブ演奏＋楽器体験＋チケット』が根拠。",
                     "choiceTranslations": [
                         "無料の音楽レッスンに参加する",
                         "地元の音楽フェスティバルに行く",
@@ -1145,12 +1145,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "彼が英語をどう学んだか→次の文で「俳優になりたい」と答えているため不適",
-                                "彼がどこに住みたいか→アンドレの答えと一致しない",
-                                "彼が何になりたいか→正解。💡 He said that he wanted to be an actorが直接の根拠",
-                                "なぜ彼は友達が多いか→アンドレの答えと一致しない"
+                                "彼が英語をどう学んだか→答え『俳優になりたい』と噛み合わない",
+                                "彼がどこに住みたいか→答えと一致しない",
+                                "彼が何になりたいか→正解。💡 直後の He wanted to be an actor が答え→『何になりたいか』を尋ねた",
+                                "なぜ友達が多いか→答えと一致しない"
                             ],
-                            "grammar": "💡 間接疑問文の問題。空所の後に続く答え（He said that he wanted to be an actor）から逆算して設問内容を推測する",
+                            "grammar": "💡 空所直後 He said that he wanted to be an actor（俳優になりたい）が根拠。間接疑問文『何になりたいか』。",
                             "choiceTranslations": [
                                 "彼が英語をどう学んだか",
                                 "彼がどこに住みたいか",
@@ -1168,12 +1168,12 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "自分の夢を諦めるべきだ→直後のhappyと矛盾する",
-                                "彼女も俳優になるべきだ→ソフィー自身の夢は別の話",
+                                "自分の夢を諦めるべきだ→直後の happy と矛盾",
+                                "彼女も俳優になるべきだ→ソフィー自身の夢の話は別",
                                 "彼は大学に戻るべきだった→本文にそのような記述はない",
-                                "彼は夢を実現したに違いない→正解。💡 This made her so happyの直前にある文脈から、俳優になったアンドレを見て嬉しかった"
+                                "彼は夢を実現したに違いない→正解。💡 俳優になったアンドレを見て→『夢を叶えたに違いない』→so happy に直結"
                             ],
-                            "grammar": "💡 must have + 過去分詞＝～したに違いない（過去の確信的推量）。空所補充では前後の感情表現に注目する",
+                            "grammar": "💡 must have＋過去分詞＝～したに違いない（過去への確信）。空所直後 This made her so happy が根拠。",
                             "choiceTranslations": [
                                 "自分の夢を諦めるべきだ",
                                 "彼女も俳優になるべきだ",
@@ -1301,13 +1301,13 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "2人の発表者で約10分の長さ→正解。💡 about ten minutes longが直接の根拠。around ten minutesはパラフレーズ",
-                                "エイダンが原因を説明→本文ではIsabelが原因を担当",
-                                "世界中での行動例→本文では'in America'に限定されている",
-                                "来月の大きなイベント→本文では'next week'と書かれている"
+                                "2人の発表者で約10分→正解。💡 about ten minutes long が根拠。about→around はパラフレーズ",
+                                "エイダンが原因を説明→原因は Isabel（you）が担当、エイダンは effects 担当",
+                                "世界中の行動例→本文は in America に限定",
+                                "来月の大きなイベント→本文は next week"
                             ],
                             "questionTranslation": "そのプレゼンテーションについて正しいのはどれか？",
-                            "grammar": "💡 What is true問題では各選択肢の数字・場所・人名を本文と照合する。パラフレーズ（about→around）に注意",
+                            "grammar": "💡 What is true問題は数字・人名・場所を照合。about ten minutes＝around ten minutes（パラフレーズ）。",
                             "choiceTranslations": [
                                 "2人の発表者で約10分の長さ。",
                                 "エイダン・ノーウィックが気候変動の原因を説明する。",
@@ -1326,13 +1326,13 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "やることがたくさん残っている→本文は'only a little more work'と逆の意味",
-                                "イザベルは2枚だけ必要→本文ではスライド枚数は指定されていない",
-                                "今日メモを書き終えることが重要→メモはすでに完成済み",
-                                "二人とも準備が順調に進んでいる→正解。💡 making good progress = preparing wellのパラフレーズ"
+                                "やることがたくさん残っている→only a little more work to do（あと少し）と逆",
+                                "イザベルは2枚だけ必要→スライドの必要枚数は述べていない",
+                                "今日メモを書き終えるのが重要→メモは既に finished（完成済み）",
+                                "二人とも準備が順調→正解。💡 We are making good progress が根拠"
                             ],
                             "questionTranslation": "エイダン・ノーウィックは何と思っているか？",
-                            "grammar": "💡 メールの送り主の視点を正確に理解する。good progressとpreparing wellはパラフレーズの関係",
+                            "grammar": "💡 making good progress＝順調に進む＝preparing well（パラフレーズ）。送り主エイダンの見解を読み取る。",
                             "choiceTranslations": [
                                 "やることがたくさん残っている。",
                                 "イザベルは2枚だけスライドが必要。",
@@ -1351,13 +1351,13 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "金曜日に最終練習のために会う→正解。💡 Let's meet this Friday afternoonが直接の根拠",
-                                "金曜に先生にスライドを送る→先生への送付は書かれていない",
-                                "木曜の午後に一緒に練習→木曜はスライドを送る日",
-                                "週末に一緒に時間を過ごす→'I won't be available this weekend'と矛盾"
+                                "金曜に最終練習で会う→正解。💡 Let's meet this Friday afternoon＋practice one more time が根拠",
+                                "金曜に先生へスライド送付→先生への送付は書かれていない",
+                                "木曜午後に一緒に練習→木曜はスライドを送り合う日",
+                                "週末に一緒に過ごす→I won't be available this weekend と矛盾"
                             ],
                             "questionTranslation": "エイダンはイザベルに何を提案しているか？",
-                            "grammar": "💡 suggest（提案する）問題ではLet's～やShould we～?の表現に注目。曜日の照合も重要",
+                            "grammar": "💡 suggest（提案）問題は Let's ～ に注目。Let's meet this Friday afternoon が根拠。曜日の役割も照合。",
                             "choiceTranslations": [
                                 "金曜日に最終練習のために会う。",
                                 "金曜に先生にスライドを送る。",
@@ -1480,13 +1480,13 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "北米からヨーロッパに導入された→そのような記述は本文にない",
-                                "人間の活動により多くの場所で減少した→正解。💡 the number became smaller because of human activitiesが直接の根拠",
-                                "人間の生活に影響を与えた→本文は逆で人間がビーバーに影響を与えた",
-                                "急速に数が増えて環境を害した→本文の内容と逆"
+                                "北米からヨーロッパに導入→そのような記述はない",
+                                "人間の活動で多くの場所で減少→正解。💡 the number became smaller because of human activities が根拠",
+                                "人間の生活に影響を与えた→逆で、人間がビーバーに影響を与えた",
+                                "急増して環境を害した→本文と逆（ビーバーは環境に有益）"
                             ],
                             "questionTranslation": "過去にビーバーに何が起きたか？",
-                            "grammar": "💡 decreased = the number became smaller（パラフレーズ）。due to = because of（パラフレーズ）",
+                            "grammar": "💡 decreased＝the number became smaller、due to＝because of（パラフレーズ）。過去の出来事を問う。",
                             "choiceTranslations": [
                                 "北米からヨーロッパに導入された。",
                                 "人間の活動により多くの場所で減少した。",
@@ -1505,13 +1505,13 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "有害物質を水から除去する→正解。💡 removing harmful materialsが直接の根拠。get rid of = removeのパラフレーズ",
-                                "敵がいない→'protect themselves from other animals'と矛盾",
-                                "集まる場所としてダムを作る→ダムの目的は自己防衛",
-                                "自然災害に影響しない→'prevent natural disasters like floods'と矛盾"
+                                "有害物質を水から除去する→正解。💡 The dams clean the water by removing harmful materials が根拠",
+                                "敵がいない→protect themselves from other animals（敵がいる）と矛盾",
+                                "集まる場所としてダムを作る→ダムの目的は自己防衛（川の壁）",
+                                "自然災害に影響しない→prevent natural disasters like floods と矛盾"
                             ],
                             "questionTranslation": "カナダのライディング・マウンテン国立公園では何が分かったか？",
-                            "grammar": "💡 remove harmful materials = get rid of bad substances（パラフレーズ）。国立公園の実験結果に注目",
+                            "grammar": "💡 remove harmful materials＝get rid of bad substances（パラフレーズ）。国立公園での効果を照合。",
                             "choiceTranslations": [
                                 "ビーバーは有害物質を水から除去する。",
                                 "ビーバーには一緒に暮らす敵がいない。",
@@ -1530,13 +1530,13 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "他の動物の狩りを助ける→そのような記述は本文にない",
-                                "他の動物が食べられる食べ物を残す→本文にそのような記述はない",
-                                "他の動物に適した住処を作る→正解。💡 make great homes for other wild animalsが直接の根拠。create = makeのパラフレーズ",
-                                "水で他の動物の体を洗う→本文にそのような記述はない"
+                                "他の動物の狩りを助ける→本文にそのような記述はない",
+                                "食べ物を残す→本文にそのような記述はない",
+                                "他の動物に適した住処を作る→正解。💡 make great homes for other wild animals が根拠",
+                                "水で動物の体を洗う→本文にそのような記述はない"
                             ],
                             "questionTranslation": "ビーバーはどのように他の野生動物に良い影響を与えているか？",
-                            "grammar": "💡 make great homes for = create homes suitable for（パラフレーズ）。How問題は具体的な方法を問う",
+                            "grammar": "💡 make great homes for＝create homes suitable for（パラフレーズ）。How問題は方法を問う。",
                             "choiceTranslations": [
                                 "他の動物の狩りを助ける。",
                                 "他の動物が食べられる食べ物を残す。",
@@ -1555,18 +1555,18 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "ダムで水流を制御できない→農家の懸念とは異なる内容",
-                                "農場の農作物を食べる可能性→正解。💡 beavers may eat crops like corn on farmsが直接の根拠",
+                                "ダムで水流を制御できない→本文にない内容で農家の懸念とは異なる",
+                                "神経質だと農場の動物を襲う→本文にそのような記述はない",
                                 "引き寄せられた動物が人間を害する→本文にそのような記述はない",
-                                "神経質になると農場の動物を攻撃→本文にそのような記述はない"
+                                "農作物を食べる可能性→正解。💡 beavers may eat crops like corn on farms が根拠"
                             ],
                             "questionTranslation": "一部の人々がビーバーは悪影響を及ぼすかもしれないと考えるのはなぜか？",
-                            "grammar": "💡 Why問題は理由を問う。本文のsome people think～の後に続く内容に注目",
+                            "grammar": "💡 Why問題は理由を特定。本文 beavers may eat crops like corn on farms（農作物を食べる恐れ）が根拠。",
                             "choiceTranslations": [
                                 "ダムで水流を制御できないビーバーがいるため。",
-                                "ビーバーが農場の農作物を食べる可能性があるため。",
+                                "ビーバーが神経質なとき農場の動物を襲うため。",
                                 "ビーバーに引き寄せられた動物が人間を害する可能性があるため。",
-                                "ビーバーが神経質になると農場の動物を攻撃するため。"
+                                "ビーバーが農場の農作物を食べる可能性があるため。"
                             ]
                         }
                     ]

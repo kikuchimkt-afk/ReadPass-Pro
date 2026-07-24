@@ -25,12 +25,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ architect＝建築家。新聞の「記事掲載を決める」とは無関係",
-                        "❌ engineer＝技術者。記事の仕事ではない",
-                        "✅ editor＝編集者。記事の掲載を決めるのが仕事→正解",
+                        "❌ architect＝建築家。新聞の『記事掲載を決める』仕事と無関係",
+                        "❌ engineer＝技術者。記事を決める職務ではない",
+                        "✅ editor＝編集者。decide which news stories will appear（掲載を決める）が根拠→正解",
                         "❌ astronaut＝宇宙飛行士。全く関係ない"
                     ],
-                    "grammar": "💡 editor＝編集者。edit（編集する）の名詞形。reporter→editorはキャリアアップの流れ"
+                    "grammar": "💡 editor＝編集者。edit（編集する）の名詞形。edition＝版。reporter（記者）→editor（編集者）へのキャリアアップの流れ。"
                 },
                 {
                     "number": 2,
@@ -50,12 +50,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ figures＝数字・人物。提案の意味にならない",
-                        "❌ characters＝登場人物。文脈に合わない",
-                        "❌ puzzles＝パズル。アイデア募集には不適",
-                        "✅ suggestions＝提案。アイデアを求める文脈に最適→正解"
+                        "❌ figures＝数字・図。アイデア募集の答えにならない",
+                        "❌ characters＝登場人物・文字。文脈に合わない",
+                        "❌ puzzles＝パズル。旅行のアイデア募集に不適",
+                        "✅ suggestions＝提案。looking for ideas（アイデアを探す）→Bが行き先を提案→正解"
                     ],
-                    "grammar": "💡 suggestion＝提案。suggest（提案する）の名詞形。Do you have any suggestions?＝何か提案はありますか？"
+                    "grammar": "💡 suggestion＝提案。suggest（提案する）の名詞形。Do you have any suggestions?＝何か提案は？ idea の言い換え。"
                 },
                 {
                     "number": 3,
@@ -75,12 +75,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ explosions＝爆発。クッキー作りに関係ない",
-                        "✅ ingredients＝材料。卵や砂糖は料理の材料→正解",
-                        "❌ participants＝参加者。料理の文脈に合わない",
+                        "❌ explosions＝爆発。クッキー作りと無関係",
+                        "✅ ingredients＝材料。『卵も砂糖もない』が根拠→材料が揃っていない→正解",
+                        "❌ participants＝参加者。料理の材料ではない",
                         "❌ forecasts＝予報。文脈に合わない"
                     ],
-                    "grammar": "💡 ingredient＝（料理の）材料。recipe（レシピ）とセットで覚える。chemical ingredients＝化学成分"
+                    "grammar": "💡 ingredient＝（料理の）材料。recipe（レシピ）とセットで頻出。卵・砂糖は代表的な材料。"
                 },
                 {
                     "number": 4,
@@ -100,12 +100,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ unfortunately＝残念ながら。救助行動には不適切",
-                        "❌ awfully＝ひどく。文脈に合わない",
-                        "✅ bravely＝勇敢に。少女を救うために飛び込む行動を修飾→正解",
-                        "❌ hardly＝ほとんど〜ない。否定的な意味で不適"
+                        "❌ unfortunately＝残念ながら。救助という前向きな行動に合わない",
+                        "❌ awfully＝ひどく・非常に。飛び込む様子の修飾に不自然",
+                        "✅ bravely＝勇敢に。落ちた少女を救うため海に飛び込む→勇敢な行動→正解",
+                        "❌ hardly＝ほとんど～ない。dived（実際に飛び込んだ）と矛盾"
                     ],
-                    "grammar": "💡 bravely＝勇敢に。brave（形容詞）の副詞形。courage（名詞：勇気）も関連語"
+                    "grammar": "💡 bravely＝勇敢に（副詞）。brave（形容詞）の副詞形。courage＝勇気。危険をおかして人を救う行動を修飾。"
                 },
                 {
                     "number": 5,
@@ -125,12 +125,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ bowls＝ボウル。スープを入れる器→正解",
-                        "❌ ropes＝ロープ。スープに関係ない",
+                        "✅ bowls＝ボウル。soup is ready→スープを入れる器を用意→正解",
+                        "❌ ropes＝ロープ。台所・スープに無関係",
                         "❌ logs＝丸太。キッチンに不適",
                         "❌ rays＝光線。文脈に合わない"
                     ],
-                    "grammar": "💡 bowl＝椀・ボウル。a bowl of soup＝スープ1杯。a bowl of rice＝ご飯1杯"
+                    "grammar": "💡 bowl＝椀・ボウル。a bowl of soup＝スープ1杯。スープを入れる器。put A on the counter＝Aをカウンターに置く。"
                 },
                 {
                     "number": 6,
@@ -150,12 +150,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ curly＝巻いた。問題の形容には不適",
+                        "❌ curly＝巻き毛の・カールした。problem の形容に合わない",
                         "✅ serious＝深刻な。結婚式直前にドレスが壊れた→深刻な問題→正解",
-                        "❌ steady＝着実な。問題の形容に合わない",
-                        "❌ careful＝注意深い。問題に対する形容ではない"
+                        "❌ steady＝着実な・安定した。problem を修飾しても意味が通らない",
+                        "❌ careful＝注意深い。人を表す形容詞で problem には不適"
                     ],
-                    "grammar": "💡 serious＝深刻な・重大な。serious problem＝深刻な問題。seriously（副詞）＝真剣に"
+                    "grammar": "💡 serious＝深刻な・重大な。a serious problem＝深刻な問題。seriously（副詞）＝真剣に・深刻に。"
                 },
                 {
                     "number": 7,
@@ -175,12 +175,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ blush＝赤面する。ビジネスに関係ない",
-                        "✅ base＝拠点を置く。会社を設立する文脈に最適→正解",
-                        "❌ bend＝曲げる。文脈に合わない",
-                        "❌ broadcast＝放送する。会社設立には不適"
+                        "❌ blush＝赤面する。会社設立と無関係",
+                        "✅ base＝拠点を置く。start a business（起業）の文脈→会社の拠点を置く→正解",
+                        "❌ bend＝曲げる。会社に対して使えない",
+                        "❌ broadcast＝放送する。マーケ会社の設立に不適"
                     ],
-                    "grammar": "💡 base＝拠点を置く（動詞）/ 基地・拠点（名詞）。be based in ～＝～に拠点を置く"
+                    "grammar": "💡 base＝拠点を置く（動詞）/ 基地・拠点（名詞）。be based in ～＝～に拠点を置く。start a business の言い換え。"
                 },
                 {
                     "number": 8,
@@ -200,12 +200,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ collected＝集めた。「頭が集まった」は不自然",
-                        "❌ hurt＝痛んだ。記憶の問題とは違う",
-                        "✅ blanked＝真っ白になった。名前を思い出せない→頭が真っ白に→正解",
-                        "❌ waved＝振った。文脈に合わない"
+                        "❌ collected＝集めた。『頭が集まった』では意味が通らない",
+                        "❌ hurt＝痛んだ。名前を思い出せない状況とは違う",
+                        "✅ blanked＝真っ白になった。名前を思い出せず→頭が真っ白→会話に苦労、が根拠→正解",
+                        "❌ waved＝（手を）振った。mind（頭）の動きではない"
                     ],
-                    "grammar": "💡 blank＝真っ白になる（動詞）。go blank / mind blanked＝頭が真っ白になる。blank（形容詞）＝空白の"
+                    "grammar": "💡 blank＝（頭が）真っ白になる（動詞）。mind went blank / mind blanked＝頭が真っ白になる。形容詞 blank＝空白の。"
                 },
                 {
                     "number": 9,
@@ -225,12 +225,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ stand＝立つ。はがきの文脈に合わない",
-                        "❌ steam＝蒸す。はがきに関係ない",
-                        "✅ mail＝郵送する。はがきを出す→正解",
+                        "❌ stand＝立つ。はがきに対して使えない",
+                        "❌ steam＝蒸す。はがきと無関係",
+                        "✅ mail＝郵送する。書き終えたはがき→登校途中に出す→正解",
                         "❌ float＝浮く。文脈に合わない"
                     ],
-                    "grammar": "💡 mail＝郵送する（動詞）/ 郵便（名詞）。send＝mail（同義語）。e-mail＝electronic mail"
+                    "grammar": "💡 mail＝郵送する（動詞）/ 郵便（名詞）。send が類義。postcard＝はがき。on one's way to ～＝～へ行く途中で。"
                 },
                 {
                     "number": 10,
@@ -250,12 +250,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ feed＝餌をやる。ボールに関係ない",
+                        "❌ feed＝餌をやる。ボールに使えない",
                         "❌ share＝共有する。壁にぶつける動作ではない",
                         "❌ chew＝噛む。ボール遊びに不適",
-                        "✅ bounce＝弾ませる。壁にぶつけて捕る動作→正解"
+                        "✅ bounce＝弾ませる。壁にぶつけて捕る（catch it）→ボールを弾ませる→正解"
                     ],
-                    "grammar": "💡 bounce＝弾む・弾ませる。bounce a ball off the wall＝壁にボールをぶつけて跳ね返す"
+                    "grammar": "💡 bounce＝弾む・弾ませる。bounce a ball against the wall＝壁にボールをぶつけて跳ね返す。"
                 },
                 {
                     "number": 11,
@@ -275,12 +275,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ On account of＝〜のために。忙しい理由は仕事とギターの両立",
-                        "❌ For fear of＝〜を恐れて。文脈に合わない",
-                        "✅ In addition to＝〜に加えて。フルタイム＋ギター教室で忙しい→正解",
-                        "❌ By means of＝〜によって。手段を表すが文脈に不適"
+                        "❌ On account of＝～のために（理由）。仕事とギターの『両立』の意味にならない",
+                        "❌ For fear of＝～を恐れて。文脈に合わない",
+                        "✅ In addition to＝～に加えて。フルタイムの仕事＋週末のギター→両立で多忙→正解",
+                        "❌ By means of＝～という手段で。手段を表し文脈に不適"
                     ],
-                    "grammar": "💡 in addition to＝〜に加えて。besides, apart fromも同義。in addition（副詞）＝さらに"
+                    "grammar": "💡 in addition to ～＝～に加えて（後ろは名詞）。besides, apart from が類義。in addition（副詞）＝さらに。"
                 },
                 {
                     "number": 12,
@@ -301,11 +301,11 @@
                     "answer": 4,
                     "choiceAnalysis": [
                         "❌ see it off＝見送る。テストへの助言にならない",
-                        "❌ learn by heart＝暗記する。すでに勉強済みの文脈",
-                        "❌ come of age＝成人する。全く関係ない",
-                        "✅ take it easy＝気楽にする。心配する相手への励まし→正解"
+                        "❌ learn by heart＝暗記する。すでに勉強済みで今さら暗記の助言ではない",
+                        "❌ come of age＝成人する。全く無関係",
+                        "✅ take it easy＝気楽にする。心配する相手に『準備できてる』と励ます→正解"
                     ],
-                    "grammar": "💡 take it easy＝気楽にする・落ち着く。relax, calm downと同義。Don't worry!と同じ場面で使う"
+                    "grammar": "💡 take it easy＝気楽にする・落ち着く。relax, calm down が類義。心配する相手を励ます定番表現。"
                 },
                 {
                     "number": 13,
@@ -325,12 +325,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ by all means＝ぜひとも。列挙の締めには不適",
-                        "❌ in no time＝すぐに。文脈に合わない",
-                        "❌ out of date＝時代遅れの。パーティー準備に不適",
-                        "✅ and so on＝…など。食べ物やゲームの列挙を締める表現→正解"
+                        "❌ by all means＝ぜひとも。列挙の締めにならない",
+                        "❌ in no time＝すぐに。時間表現で列挙に不適",
+                        "❌ out of date＝時代遅れの。準備の話に合わない",
+                        "✅ and so on＝～など。食べ物・ゲーム…の列挙を締める→正解"
                     ],
-                    "grammar": "💡 and so on＝…など。etc., and so forth, and the likeも同義。列挙の最後に使う"
+                    "grammar": "💡 and so on＝～など。etc., and so forth が類義。名詞の列挙の最後に添える。"
                 },
                 {
                     "number": 14,
@@ -350,12 +350,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ on my own＝自分一人で。誰も手伝わず一人で作った→正解",
-                        "❌ for good＝永久に。ケーキ作りに不適",
+                        "✅ on my own＝自分一人で。No one helped me（誰も手伝わなかった）が根拠→正解",
+                        "❌ for good＝永久に。ケーキ作りの状況に不適",
                         "❌ from day to day＝日ごとに。文脈に合わない",
                         "❌ in a word＝一言で言えば。文脈に合わない"
                     ],
-                    "grammar": "💡 on my own＝自分一人で。by myself, aloneと同義。所有格+ownで「自分自身の」"
+                    "grammar": "💡 on my own＝自分一人で。by myself, alone が類義。所有格＋own で『自分自身の』。"
                 },
                 {
                     "number": 15,
@@ -375,12 +375,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ on your side＝あなたの味方で。運動の目的としては不適",
-                        "✅ in good shape＝健康な状態で。ランニングで体調維持→正解",
-                        "❌ at the front＝先頭で。文脈に合わない",
+                        "❌ on your side＝あなたの味方で。運動の目的にならない",
+                        "✅ in good shape＝健康な状態で。ランニング→体調維持→正解",
+                        "❌ at the front＝前方で・先頭で。健康維持と無関係",
                         "❌ with any luck＝運が良ければ。文脈に合わない"
                     ],
-                    "grammar": "💡 in good shape＝健康な状態で・調子が良い。keep in shape＝体調を維持する。stay fitと同義"
+                    "grammar": "💡 in good shape＝健康な状態・好調。keep in shape＝体調を維持する。stay fit が類義。"
                 }
             ]
         },
@@ -408,12 +408,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "机を修理する→机ではなく画面の問題",
-                        "画面が十分暗いか確認→暗いのは故障で問題",
-                        "画面を新しいものに交換する→正解。💡 画面上半分が真っ暗→画面交換が最適な対応",
+                        "机を修理する→問題は机ではなく落下で壊れた画面",
+                        "画面が十分暗いか確認→暗いのは故障の症状で、確認する話ではない",
+                        "画面を新しいものに交換する→正解。💡 『画面の上半分が真っ暗』＝画面の故障→交換が妥当な対応",
                         "修理なしで返却→画面が壊れているので修理が必要"
                     ],
-                    "grammar": "💡 change A to B＝AをBに交換する。replace A with B（同義）。PC修理では画面交換が一般的"
+                    "grammar": "💡 change A to B＝AをBに交換する。replace A with B が同義。故障箇所（画面）の交換対応。"
                 },
                 {
                     "number": 17,
@@ -433,12 +433,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "バスに乗るべき→正解。💡 ホテルの目の前で降ろしてくれる＝バスの特徴。歩きたくない→バスが最適",
-                        "ホテルまで歩ける→歩きたくないと言っている",
-                        "ガイドツアーを予約→移動手段の話に合わない",
-                        "荷物を預ける→移動方法の質問に対する答えではない"
+                        "バスに乗るべき→正解。💡 『ホテルの目の前で降ろしてくれる』＋『歩きたくない』→バスが最適",
+                        "ホテルまで歩ける→歩きたくないと言っており矛盾",
+                        "ガイドツアーを予約→移動手段を尋ねる会話に合わない",
+                        "まず荷物を預けよう→how to get to the hotel（行き方）の答えになっていない"
                     ],
-                    "grammar": "💡 drop off＝（乗り物から）降ろす。pick up（乗せる）の反対。I'd prefer not to ～＝～したくない（丁寧な表現）"
+                    "grammar": "💡 drop off＝（乗り物が客を）降ろす⇔pick up。空所直後 It drops us off right in front of the hotel（ホテル前で降ろす）が根拠。"
                 },
                 {
                     "number": 18,
@@ -458,12 +458,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "お茶のおかわり→サラダのドレッシング選択に無関係",
-                        "クリーミーの方→正解。💡 辛くしたくない→スパイシーではなくクリーミーを選択",
-                        "タコスをもう2つ→ドレッシング選択の質問に対する答えではない",
-                        "スパイシーなもの→辛くしたくないと矛盾"
+                        "お茶のおかわり→ドレッシングの選択の答えではない",
+                        "クリーミーの方→正解。💡 『辛くしたくない』→spicy ではなく creamy を選ぶ",
+                        "タコスをもう2つ→ドレッシング選択の答えにならない",
+                        "スパイシーなもの→『辛くしたくない』と矛盾"
                     ],
-                    "grammar": "💡 the ～ one＝～の方。2つの選択肢から1つを選ぶ表現。to go＝テイクアウトで（米語）"
+                    "grammar": "💡 the ～ one＝～の方（既出名詞の反復を避ける）。too hot＝辛すぎる。2択から1つを選ぶ表現。"
                 },
                 {
                     "number": 19,
@@ -483,12 +483,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "パーティーが好きでない→パーティーを開く理由にならない",
-                        "肉や魚を食べない→正解。💡 肉魚を食べない→野菜寿司を作る理由として最適",
+                        "パーティーが好きでない→パーティーを開き招く流れと矛盾",
+                        "肉や魚を食べない→正解。💡 だから vegetable sushi（野菜寿司）を作る、が自然な因果",
                         "釣りが好き→野菜寿司を作る理由にならない",
-                        "外食が好き→自宅パーティーとは矛盾"
+                        "外食が好き→自宅でのディナーパーティーと矛盾"
                     ],
-                    "grammar": "💡 vegetarian＝菜食主義者。don't eat meat or fish＝肉や魚を食べない。→vegetable sushiを作る動機"
+                    "grammar": "💡 vegetable sushi（野菜寿司）を作る理由を選ぶ。don't eat meat or fish＝肉も魚も食べない＝vegetarian の説明。"
                 },
                 {
                     "number": 20,
@@ -508,12 +508,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "不作が予想される→新鮮で美味しいと矛盾",
-                        "農場で働いている→買い物の理由にならない",
-                        "生産者から直接買える→正解。💡 生産者直売→新鮮で美味しい理由として最適",
-                        "巻き寿司の作り方→野菜を買う話に合わない"
+                        "今年は不作→『新鮮で美味しい・安い』と矛盾",
+                        "近くの農場で働いている→客が買い物に行く話で、働く話ではない",
+                        "生産者から直接買える→正解。💡 so everything is fresh and delicious（だから新鮮）の理由として最適",
+                        "巻き寿司の作り方を学べる→野菜を安く買う話に合わない"
                     ],
-                    "grammar": "💡 directly from the producers＝生産者から直接。farmers' market＝農家の直売市場。fresh＝新鮮な"
+                    "grammar": "💡 directly from the producers＝生産者から直接。farmers' market＝農産物直売市。直売→新鮮・安い、の因果。"
                 }
             ]
         },
@@ -597,12 +597,12 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "大学から電話があったとき→大学からの電話の記述はない",
-                                "そこにいる間→正解。💡 returned to her hometownの後なので「故郷にいる間」が文脈に最適",
-                                "家族が訪ねてきたとき→故郷に帰ったのはルビー自身",
-                                "ニューヨークにいたとき→故郷に帰った場面の話"
+                                "大学から電話があったとき→大学からの電話は本文にない",
+                                "そこにいる間→正解。💡 直前 returned to her hometown が根拠。故郷にいる間に家の消失に気づいた",
+                                "家族が訪ねてきたとき→帰省したのはルビー自身で、家族の訪問ではない",
+                                "ニューヨークにいたとき→故郷に帰っている場面と矛盾"
                             ],
-                            "grammar": "💡 while＝～している間。接続詞として時間の同時性を表す。while she was there＝彼女がそこにいる間"
+                            "grammar": "💡 while＝～している間（接続詞）。空所前 returned to her hometown（故郷に帰った）→『そこ（故郷）にいる間』に気づいた、が自然。"
                         },
                         {
                             "number": 22,
@@ -620,12 +620,12 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "一緒に楽しい時間を過ごした→正解。💡 did not feel uncomfortable at allが直接の根拠。気まずくなかった＝楽しく過ごせた",
-                                "新しい友達を作ることが素晴らしい→テーマは「幼なじみ」の大切さ",
-                                "お互いのペットについて気の毒に思った→ペットの話はない",
-                                "会話するのが難しい→did not feel uncomfortable at allと矛盾"
+                                "一緒に楽しい時間を過ごした→正解。💡 did not feel uncomfortable at all（気まずくなかった）が根拠",
+                                "新しい友達を作るのが素晴らしいと学んだ→テーマは『幼なじみ（old friends）』の大切さ",
+                                "お互いのペットを気の毒に思った→ペットの記述はない",
+                                "会話するのが難しいと感じた→did not feel uncomfortable at all と矛盾"
                             ],
-                            "grammar": "💡 have a great time＝楽しい時間を過ごす。have a good/wonderful time（同義）。not～at all＝全く～ない"
+                            "grammar": "💡 空所直後 did not feel uncomfortable at all（全く気まずくなかった）が根拠。have a great time＝楽しい時を過ごす。"
                         }
                     ]
                 }
@@ -714,12 +714,12 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "もっと多くの応募を期待→surprised＝驚いたので予想以上だった",
-                                "混合チームのみ→男子・女子・混合の3種類",
-                                "初参加→join us againで再参加",
-                                "これまでで最多のチーム参加→正解。💡 we have never had so many teams beforeが直接の根拠"
+                                "もっと多くの応募を期待→surprised（驚いた）＝予想以上で、期待していたわけではない",
+                                "混合チームのみ→男子・女子・混合の3種類の試合がある",
+                                "ジェイクの初参加→join us again（再び参加）とあり初参加ではない",
+                                "これまでで最多のチーム参加→正解。💡 we have never had so many teams in a tournament before が根拠"
                             ],
-                            "grammar": "💡 What is true問題は各選択肢の事実を本文と照合する。never...before＝今までに一度もない"
+                            "grammar": "💡 What is true問題は選択肢を1つずつ本文と照合。never...before＝今まで一度もない→今回が最多。"
                         },
                         {
                             "number": 24,
@@ -739,12 +739,12 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "枠が埋まった→正解。💡 there are no more spots leftが直接の根拠。applied a little late＝少し遅く応募した",
-                                "十分なチームが応募しなかった→many teams have askedと矛盾",
-                                "スキルが高すぎる→skills are perfect for that levelと言っている",
-                                "プレーが許可されていない→A/Cレベルへの変更を提案されている"
+                                "枠が埋まった→正解。💡 there are no more spots left（もう空きがない）が根拠",
+                                "十分なチームが応募しなかった→many teams have asked to play（多くが希望）と矛盾",
+                                "スキルが高すぎる→your skills are perfect for that level（ぴったり）と言っている",
+                                "プレーが許可されていない→A/Cレベルへの変更を提案されており参加自体は可能"
                             ],
-                            "grammar": "💡 because節の問題は理由を特定する。have been filled＝埋まっている（現在完了受動態）"
+                            "grammar": "💡 because節（理由）を特定。there are no more spots left（空きがない）＋applied a little late（申込が遅れた）が根拠。"
                         },
                         {
                             "number": 25,
@@ -764,12 +764,12 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "Cレベルを諦める→Cレベルは選択肢として提示されている",
-                                "Aレベルに参加する→正解。💡 we encourage you to take part in the A-level groupが直接の根拠",
-                                "もっと支払う→返金の話はあるが追加支払いはない",
-                                "Bレベルの他チームに入る→そのような提案はない"
+                                "Cレベルを諦める→Cレベルは選べる選択肢として提示されている",
+                                "Aレベルに参加する→正解。💡 we encourage you to take part in the A-level group が根拠",
+                                "もっと支払う→返金の話はあるが追加支払いの助言はない",
+                                "Bレベルの他チームに入る→そのような提案はない（空き待ちは可）"
                             ],
-                            "grammar": "💡 advise＝助言する。encourage＝勧める（同義の文脈）。take part in＝参加する"
+                            "grammar": "💡 advise/encourage＝勧める。本文 we encourage you to take part in the A-level group が根拠。take part in＝参加する。"
                         }
                     ]
                 },
@@ -861,12 +861,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "どこでも簡単に手に入る→それは現代の話",
-                                "料理の世界の最高の発見→そのような記述はない",
-                                "風味以外の用途があった→正解。💡 it is not only used to add flavorが直接の根拠",
-                                "調理法で味が変わる→本文にそのような記述はない"
+                                "どこでも簡単に手に入る→それは今日（today）の話",
+                                "料理界の最高の発見→本文にそのような記述はない",
+                                "風味以外の用途があった→正解。💡 it is not only used to add flavor が根拠",
+                                "調理法で味が変わる→本文に記述がない"
                             ],
-                            "grammar": "💡 not only＝～だけでなく。purpose＝目的・用途。What did people think問題は過去の認識を問う"
+                            "grammar": "💡 not only used to add flavor（風味を加えるためだけではない）が根拠。purpose＝用途。過去の認識を問う。"
                         },
                         {
                             "number": 27,
@@ -887,11 +887,11 @@
                             "answer": 3,
                             "choiceAnalysis": [
                                 "風邪予防→風邪の記述はない",
-                                "動物を殺す毒→治療であり殺すためではない",
-                                "怪我をした動物の治療薬→正解。💡 to treat animals' injuriesが直接の根拠",
+                                "動物を殺す毒→治療（treat）であり殺すためではない",
+                                "怪我をした動物の治療薬→正解。💡 as a medicine ... to treat animals' injuries が根拠",
                                 "髪を洗う製品→本文にない"
                             ],
-                            "grammar": "💡 treat＝治療する。injury＝怪我。used salt as A＝塩をAとして使った"
+                            "grammar": "💡 used salt as A＝塩をAとして使った。本文 to treat animals' injuries（動物の怪我を治療）が根拠。treat＝治療する。"
                         },
                         {
                             "number": 28,
@@ -911,12 +911,12 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "戦争を終わらせるため→wars happened over salt＝塩をめぐる戦争が起きた",
-                                "お金が役立たなくなった→通貨として使われたが置き換わったわけではない",
-                                "裕福な生産者が道路を作った→「誰が」とは書かれていない",
-                                "新しい都市や道路が建設された→正解。💡 new cities and roads were built to produce and deliver saltが直接の根拠"
+                                "戦争を終わらせるため塩が提供→wars happened over salt（塩をめぐり戦争が起きた）で逆の内容",
+                                "お金が役立たなくなった→通貨として使われたが、お金が無用になったとは書いていない",
+                                "裕福な生産者が道路を作った→『誰が』作ったかは書かれていない",
+                                "新しい都市や道路が建設された→正解。💡 new cities and roads were built to produce and deliver salt が根拠"
                             ],
-                            "grammar": "💡 What is true問題は本文の記述と一致する選択肢を探す。built to produce and deliver＝生産し運ぶために建設された"
+                            "grammar": "💡 What is true問題。本文 new cities and roads were built to produce and deliver salt が根拠。produce＝生産、deliver＝運ぶ。"
                         },
                         {
                             "number": 29,
@@ -937,11 +937,11 @@
                             "answer": 2,
                             "choiceAnalysis": [
                                 "美容製品→本文にそのような記述はない",
-                                "物をきれいにするもの→正解。💡 a great cleaner for polishing metal itemsが直接の根拠",
-                                "雪の日に暖かく過ごす→雪を溶かすのは道路の話。暖かさとは関係ない",
+                                "物をきれいにするもの→正解。💡 a great cleaner for polishing metal items が根拠",
+                                "雪の日に暖かく過ごす→塩は雪を溶かす／凍結を防ぐ用途で、暖かさとは別",
                                 "病気のとき体を冷やす→そのような記述はない"
                             ],
-                            "grammar": "💡 How問題は方法・手段を問う。cleaner＝洗浄剤。polish＝磨く。melt＝溶かす"
+                            "grammar": "💡 How問題は用途を問う。本文 a great cleaner for polishing metal items（金属を磨く洗浄剤）が根拠。"
                         }
                     ]
                 }

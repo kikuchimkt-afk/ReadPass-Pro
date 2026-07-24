@@ -28,12 +28,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ leisure＝余暇。逃れる対象としては不自然",
-                        "❌ network＝ネットワーク。文脈に合わない",
-                        "✅ heat＝暑さ。涼しい山へ行く→暑さから逃れた→正解",
-                        "❌ order＝注文・秩序。文脈に合わない"
+                        "❌ leisure＝余暇・レジャー。避暑の理由にならず、暑さと対比できない",
+                        "❌ network＝ネットワーク・人脈。気候や避暑の話と無関係",
+                        "✅ heat＝暑さ。後半の much cooler（ずっと涼しかった）と対比→夏の『暑さ』から逃れた→正解",
+                        "❌ order＝注文・秩序。避暑の文脈に合わない"
                     ],
-                    "grammar": "💡 heat＝暑さ・熱。summer heat＝夏の暑さ。get away from＝～から逃れる"
+                    "grammar": "💡 heat＝暑さ・熱（名詞）。summer heat＝夏の暑さ。get away from ～＝～から逃れる。後半の much cooler（ずっと涼しい）が空所のヒント。動詞では heat＝熱する。"
                 },
                 {
                     "number": 2,
@@ -53,12 +53,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ ground＝地面。砂糖の文脈に合わない",
-                        "❌ honor＝名誉。料理に関係ない",
-                        "✅ amount＝量。砂糖の量を増やす→正解",
-                        "❌ direction＝方向。文脈に合わない"
+                        "❌ ground＝地面・（コーヒーの）粉。砂糖の『量』は表せない",
+                        "❌ honor＝名誉。料理・分量の話と無関係",
+                        "✅ amount＝量。『甘くなかった→次はもっと入れる』の流れで砂糖の量を増やす→正解",
+                        "❌ direction＝方向・指示。分量を表せない"
                     ],
-                    "grammar": "💡 amount＝量。a large amount of＝大量の。quantity（同義）も重要"
+                    "grammar": "💡 amount＝量（数えられないものの量）。a large amount of sugar＝大量の砂糖。quantity が類義。sugar は不可算名詞なので number ではなく amount を使う。"
                 },
                 {
                     "number": 3,
@@ -78,12 +78,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ enemy＝敵。乗客への注意の文脈に不適",
-                        "❌ duty＝義務。標識の目的としては不自然",
-                        "❌ property＝財産。文脈に合わない",
-                        "✅ safety＝安全。乗客の安全のため→正解"
+                        "❌ enemy＝敵。乗客への注意書きの目的にならない",
+                        "❌ duty＝義務。標識を出す目的として不自然",
+                        "❌ property＝財産。駆け込み防止の理由は財産ではない",
+                        "✅ safety＝安全。『閉まりかけの電車に駆け込むな』という注意は乗客の安全のため→正解"
                     ],
-                    "grammar": "💡 safety＝安全。for the safety of＝～の安全のために。safe（形容詞）の名詞形"
+                    "grammar": "💡 safety＝安全（名詞）。形容詞 safe の名詞形。for the safety of ～＝～の安全のために。危険を防ぐ注意書きの目的を表す。"
                 },
                 {
                     "number": 4,
@@ -103,12 +103,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ responses＝反応。スケボーの習得に合わない",
-                        "❌ continents＝大陸。全く関係ない",
-                        "✅ techniques＝技術。基本技術を教わった→正解",
-                        "❌ statues＝彫像。文脈に合わない"
+                        "❌ responses＝反応・返答。技術を『教わる』文脈に合わない",
+                        "❌ continents＝大陸。スケボー習得と無関係",
+                        "✅ techniques＝技術。『まず基本を教わり、あとは動画で学んだ』→基本技術→正解",
+                        "❌ statues＝彫像。文脈に無関係"
                     ],
-                    "grammar": "💡 technique＝技術・テクニック。basic techniques＝基本技術。skill（同義語）"
+                    "grammar": "💡 technique＝技術・こつ（名詞）。basic techniques＝基本技術。skill が類義。何かを習得する話でよく問われる語。"
                 },
                 {
                     "number": 5,
@@ -128,12 +128,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ eased＝和らげた。調理法ではない",
-                        "✅ fried＝揚げた/炒めた。フライパン+バターで調理→正解",
-                        "❌ blessed＝祝福した。料理に関係ない",
-                        "❌ spared＝免れさせた。文脈に合わない"
+                        "❌ eased＝和らげた。調理を表す動詞ではない",
+                        "✅ fried＝炒めた・焼いた。butter＋pan＋stove（コンロ）が根拠→正解",
+                        "❌ blessed＝祝福した。料理の動作に無関係",
+                        "❌ spared＝（手間を）省いた・免れさせた。調理を表せない"
                     ],
-                    "grammar": "💡 fry＝揚げる・炒める。fry in a pan＝フライパンで炒める。stir-fry＝炒める、deep-fry＝揚げる"
+                    "grammar": "💡 fry＝油やバターで焼く・炒める。fry in a pan＝フライパンで炒める。deep-fry＝揚げる、stir-fry＝炒める。調理法を問う定番語。"
                 },
                 {
                     "number": 6,
@@ -153,12 +153,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ pull＝引く。重いドアを引いて入る→正解",
-                        "❌ chew＝噛む。ドアに関係ない",
-                        "❌ receive＝受け取る。ドアの動作ではない",
-                        "❌ paste＝貼り付ける。文脈に合わない"
+                        "✅ pull＝引く。『重いドアを引いて入る』→get into の方法→正解",
+                        "❌ chew＝噛む。ドアの動作ではない",
+                        "❌ receive＝受け取る。入店の動作に合わない",
+                        "❌ paste＝貼り付ける。ドアの開け方ではない"
                     ],
-                    "grammar": "💡 pull＝引く。push（押す）の反対語。Pull/Pushはドアの表示でよく見る"
+                    "grammar": "💡 pull＝引く⇔push＝押す。ドアの表示 Pull/Push は頻出。It's a little heavy（少し重い）が空所のヒント。"
                 },
                 {
                     "number": 7,
@@ -178,12 +178,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ arguing＝口論する。楽しい場面に合わない",
-                        "❌ promoting＝宣伝する。砂浜の遊びに関係ない",
+                        "❌ arguing＝口論する。『笑いが止まらない』楽しい場面に合わない",
+                        "❌ promoting＝宣伝する。砂浜の遊びと無関係",
                         "❌ insisting＝主張する。文脈に合わない",
-                        "✅ burying＝埋める。砂に埋めて顔だけ出す遊び→正解"
+                        "✅ burying＝埋める。『顔だけ砂から出ている』が根拠→砂に埋めた→正解"
                     ],
-                    "grammar": "💡 bury＝埋める。bury in the sand＝砂に埋める。buried treasure＝埋蔵金。発音注意：/ˈberi/"
+                    "grammar": "💡 bury＝埋める（発音 /ˈberi/）。bury ～ in the sand＝～を砂に埋める。had fun ～ing＝～して楽しんだ。過去分詞は buried。"
                 },
                 {
                     "number": 8,
@@ -203,12 +203,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ frequent＝頻繁な。水の性質として不自然",
-                        "✅ refreshing＝爽快な。冷たい水で気分が良くなる→正解",
-                        "❌ independent＝独立した。水の形容に不適",
-                        "❌ electrical＝電気の。プールの水に不適"
+                        "❌ frequent＝頻繁な。水の性質を表す語ではない",
+                        "✅ refreshing＝爽快な。『冷たくて泳ぐと気分が良くなる』→爽快→正解",
+                        "❌ independent＝独立した。水の形容に合わない",
+                        "❌ electrical＝電気の。プールの水の説明に不適"
                     ],
-                    "grammar": "💡 refreshing＝爽快な・リフレッシュする。refresh（動詞）の形容詞形。a refreshing drink＝爽快な飲み物"
+                    "grammar": "💡 refreshing＝爽快な・すっきりする（形容詞）。動詞 refresh の形容詞形。a refreshing drink＝すっきりする飲み物。cool と並ぶ心地よさの形容。"
                 },
                 {
                     "number": 9,
@@ -228,12 +228,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ produce＝生産する。医者への姿勢としては不適",
+                        "❌ produce＝生産する。医者への気持ちを表さない",
                         "❌ occupy＝占める。文脈に合わない",
-                        "✅ respect＝尊敬する。人助けする医者を尊敬→正解",
-                        "❌ mention＝言及する。尊敬の文脈ではない"
+                        "✅ respect＝尊敬する。『人助けに人生を捧げる医者』への感情→尊敬→正解",
+                        "❌ mention＝言及する。尊敬の意味にならない"
                     ],
-                    "grammar": "💡 respect＝尊敬する（動詞）/ 尊敬（名詞）。respectful＝敬意を持った。admire（同義語）"
+                    "grammar": "💡 respect＝尊敬する（動詞）/尊敬（名詞）。admire が類義。respectful＝礼儀正しい。理由 because ～ helping others が尊敬の根拠。"
                 },
                 {
                     "number": 10,
@@ -253,12 +253,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ heavily＝重く。会議の進行に不適",
-                        "❌ brightly＝明るく。会議の進行に不適",
-                        "✅ smoothly＝スムーズに。全員同意→スムーズに進行→正解",
-                        "❌ rarely＝めったに～ない。副詞として文脈に合わない"
+                        "❌ heavily＝重く・激しく。会議の進み方に合わない",
+                        "❌ brightly＝明るく。進行の様子を表さない",
+                        "✅ smoothly＝順調に。『全員が同意しもめなかった』→順調に進んだ→正解",
+                        "❌ rarely＝めったに～ない。順調に進んだ内容と矛盾"
                     ],
-                    "grammar": "💡 smoothly＝スムーズに・順調に。go smoothly＝順調に進む。smooth（形容詞）の副詞形"
+                    "grammar": "💡 smoothly＝順調に・スムーズに（副詞）。go smoothly＝順調に進む。形容詞 smooth の副詞形。会議・計画の進行を表す定番。"
                 },
                 {
                     "number": 11,
@@ -278,12 +278,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ took action＝行動を起こした。煙を見て消防に電話→即座に行動→正解",
-                        "❌ took place＝行われた。ハンナの行動としては不適",
-                        "❌ turned down＝断った。文脈に合わない",
-                        "❌ turned on＝つけた。文脈に合わない"
+                        "✅ took action＝行動を起こした。『煙を見て即消防に電話』→すぐ行動→正解",
+                        "❌ took place＝行われた・起こった。人を主語に『行動する』の意味にならない",
+                        "❌ turned down＝断る・（音量を）下げる。緊急対応に合わない",
+                        "❌ turned on＝（スイッチを）つける。文脈に合わない"
                     ],
-                    "grammar": "💡 take action＝行動を起こす。immediately＝すぐに。take place＝行われると混同しないこと"
+                    "grammar": "💡 take action＝行動を起こす。immediately＝すぐに。take place＝催される・起こる（別物）と混同しないこと。"
                 },
                 {
                     "number": 12,
@@ -303,12 +303,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ by the time＝～するまでに。接続詞として不適",
-                        "❌ at present＝現在。「戻る」に不適",
-                        "✅ in a minute＝すぐに。コーヒーを取るだけ→すぐ戻る→正解",
-                        "❌ for long＝長い間。すぐ戻る文脈に矛盾"
+                        "❌ by the time＝～する頃までに（接続詞）。空所に単独で入らない",
+                        "❌ at present＝現在・目下。『すぐ戻る』の意味にならない",
+                        "✅ in a minute＝すぐに。『コーヒーを取るだけ』→すぐ戻る→正解",
+                        "❌ for long＝長い間（主に否定・疑問）。肯定文で『すぐ戻る』と矛盾"
                     ],
-                    "grammar": "💡 in a minute＝すぐに。in a moment, right away（同義語）。コーヒーを取るだけなのですぐ戻る"
+                    "grammar": "💡 in a minute＝すぐに・まもなく。right away, in a moment が類義。I'll be back in a minute＝すぐ戻る。for long は否定・疑問で『長くは～ない』。"
                 },
                 {
                     "number": 13,
@@ -328,12 +328,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ at fault＝責任がある。カップルの共通点の話に不適",
-                        "❌ on hand＝手元に。文脈に合わない",
-                        "✅ in common＝共通の。趣味も仕事も同じ→共通点が多い→正解",
+                        "❌ at fault＝落ち度がある。共通点の話に合わない",
+                        "❌ on hand＝手元に・手持ちの。人の関係を表さない",
+                        "✅ in common＝共通の。『趣味も仕事も同じ』→共通点が多い→正解",
                         "❌ by heart＝暗記して。文脈に合わない"
                     ],
-                    "grammar": "💡 have a lot in common＝共通点が多い。in common with＝～と共通して。common＝共通の"
+                    "grammar": "💡 have a lot in common＝共通点が多い。in common with ～＝～と共通して。趣味も仕事も同じ、が根拠。"
                 },
                 {
                     "number": 14,
@@ -353,12 +353,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ turn into＝～に変わる。嵐が台風に変わる→正解",
-                        "❌ break down＝故障する。天気の文脈に不適",
-                        "❌ come across＝偶然出会う。嵐の変化に不適",
-                        "❌ make with＝～で作る。天気に関係ない"
+                        "✅ turn into＝～に変わる。『嵐が台風になる』という予報→正解",
+                        "❌ break down＝故障する・決裂する。天気の変化を表さない",
+                        "❌ come across＝偶然出会う・出くわす。嵐の発達に不適",
+                        "❌ make with＝自然な熟語でなく文意を成さない"
                     ],
-                    "grammar": "💡 turn into＝～に変わる・変化する。become, change into（同義語）。台風に発達する文脈"
+                    "grammar": "💡 turn into ～＝～に変わる・発達する。become, change into が類義。天気予報で嵐が台風に発達する予測。"
                 },
                 {
                     "number": 15,
@@ -378,12 +378,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ catch up with＝追いつく。遅れた後に他のメンバーに追いつく→正解",
-                        "❌ get away with＝逃げおおせる。文脈に合わない",
-                        "❌ come down with＝病気に罹る。昼食後の行動に不適",
-                        "❌ throw away with＝（不自然な表現）"
+                        "✅ catch up with＝追いつく。『遅れた→昼食後に他のみんなに追いつける』→正解",
+                        "❌ get away with＝（罰を受けず）うまく逃れる。文脈に合わない",
+                        "❌ come down with＝（病気に）かかる。昼食後の行動に不適",
+                        "❌ throw away with＝英語として成立しない表現"
                     ],
-                    "grammar": "💡 catch up with＝追いつく。遅刻→昼食後に追いつく。keep up with＝遅れずについていく"
+                    "grammar": "💡 catch up with ～＝（遅れて）～に追いつく。keep up with＝遅れずについていく。遅刻→昼食後に追いつく、が流れ。"
                 }
             ]
         },
@@ -411,12 +411,12 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "ヒーターを消す→暑いのにヒーターの話は不自然",
-                        "ジュースを飲む→機械の故障とは関係ない",
-                        "エアコンをつける→正解。💡 暑い＋動かない＝エアコン故障。turn onで「つける」",
-                        "洗濯機を買う→暑さや料理と関係ない"
+                        "キッチンのヒーターを消す→暑いのにヒーターを消す話は不自然で、故障の流れに合わない",
+                        "オレンジジュースを飲む→『朝から動かない（機械）』という返答とつながらない",
+                        "エアコンをつける→正解。💡 『暑い』＋『朝から動かない＝エアコンの故障』が根拠。turn on で『つける』",
+                        "新しい洗濯機を買う→暑さや故障中のエアコンの話と無関係"
                     ],
-                    "grammar": "💡 turn on＝つける。turn off＝消す。air conditioner＝エアコン。I wish I could＝そうできたらいいのに"
+                    "grammar": "💡 turn on＝（スイッチを）つける⇔turn off＝消す。air conditioner＝エアコン。I wish I could＝そうできたらいいのに（できない含み）。"
                 },
                 {
                     "number": 17,
@@ -436,12 +436,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "よく眠れなかった→正解。💡 フライトは良かったが疲れている→車で休める提案が自然",
-                        "荷物を全て失くした→空港での対応が必要で車で休む流れにならない",
-                        "間に合った→butの後に来る否定的な内容ではない",
-                        "キャンセルされた→到着しているので矛盾"
+                        "よく眠れなかった→正解。💡 『フライトは良かったが～』の but に合い、『車で休めるといい』提案とも一致",
+                        "荷物を全て失くした→空港での手続きが必要になり、『車で休む』流れにつながらない",
+                        "ちょうど間に合った→but に続く否定的な内容ではない",
+                        "フライトがキャンセルされた→本人が到着している事実と矛盾"
                     ],
-                    "grammar": "💡 couldn't sleep well＝よく眠れなかった。get some rest＝少し休む。along the way＝道中"
+                    "grammar": "💡 but の後ろは前半（フライトは良かった）と対照的な内容が入る。get some rest＝少し休む、が空所の答えのヒント。"
                 },
                 {
                     "number": 18,
@@ -461,12 +461,12 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "指が痛い→辛い食事と指は関係ない",
-                        "風邪をひいた→昼食後すぐの体調不良に合わない",
-                        "昨日病院に行った→今の症状を訴える場面に合わない",
-                        "お腹の調子が悪い→正解。💡 辛いカレー後に体調不良→お腹の問題。夕食抜きの提案と一致"
+                        "指の一本が痛い→辛い食事や『夕食を抜く』提案と無関係",
+                        "風邪をひいたと思う→昼食直後・辛い物が原因という流れに合わない",
+                        "昨日病院に行った→今まさに不調を訴える会話に合わない",
+                        "お腹の調子が悪い→正解。💡 『辛いカレーの直後から』＋『夕食を抜こう』が根拠"
                     ],
-                    "grammar": "💡 stomach＝胃・お腹。isn't feeling well＝調子が悪い。skip dinner＝夕食を抜く"
+                    "grammar": "💡 stomach＝胃・お腹。isn't feeling well＝調子が悪い。skip dinner＝夕食を抜く。原因（辛いカレー）→結果（お腹の不調）の因果。"
                 },
                 {
                     "number": 19,
@@ -486,12 +486,12 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "コピーを作る→プリンター故障中なのでコピーは不可能",
-                        "来て見てもらう→正解。💡 テクニカルサポートに修理の訪問を依頼",
-                        "書類を書いて送る→プリンター修理の依頼ではない",
-                        "指示に従う→サポートへの依頼内容として不自然"
+                        "コピーを作る→プリンター故障中なのでコピーは頼めない",
+                        "来て見てもらう→正解。💡 技術サポートへの電話で『来て点検して』と依頼するのが自然",
+                        "書類を書いて送る→プリンター修理の依頼内容ではない",
+                        "指示に従う→依頼する側の発言として不自然"
                     ],
-                    "grammar": "💡 take a look at＝見る・確認する。Could you ～?＝～していただけますか？（丁寧な依頼）"
+                    "grammar": "💡 take a look at ～＝～を見る・点検する。Could you ～?＝丁寧な依頼。故障→技術者に来て見てもらう流れ。"
                 },
                 {
                     "number": 20,
@@ -511,12 +511,12 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "オフィスの住所→正解。💡 住所で回答している（220 Maple Street）ので住所を聞いている",
+                        "オフィスの住所→正解。💡 答えが『220 Maple Street, Rivertown』＝住所そのもの",
                         "電話番号→住所で答えているので不適",
-                        "会社名→すでにABC Toursと名乗っている",
-                        "プリンターの型番→住所で答えているので不適"
+                        "会社名→すでに ABC Tours と名乗っている",
+                        "プリンターの型番→住所で答えているので合わない"
                     ],
-                    "grammar": "💡 address＝住所。回答が番地と町名なので、質問は住所を聞いている"
+                    "grammar": "💡 質問への答えが番地・町名（220 Maple Street）なので、尋ねているのは『住所』。send someone over＝人を派遣する。"
                 }
             ]
         },
@@ -592,12 +592,12 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "チェリーパイをあげた→最初の歓迎時にすでにした行動",
-                                "良いパン屋を教えた→本文にその記述はない",
-                                "隣人を紹介した→本文にその記述はない",
-                                "自宅に招待した→正解。💡 作り方を教えてほしいと頼んだ→招待して一緒に料理・会話を楽しんだ"
+                                "チェリーパイをあげた→引っ越し時の歓迎ですでに済んだ行動で、後半とつながらない",
+                                "良いパン屋を教えた→本文に記述がなく『一緒に料理した』流れに合わない",
+                                "他の隣人を紹介した→本文に記述がない",
+                                "自宅に招待した→正解。💡 『作り方を教えて』と頼んだ→家に招き、During that time 一緒に料理・会話（本文）が根拠"
                             ],
-                            "grammar": "💡 invite A to B＝AをBに招待する。happily invited＝喜んで招待した"
+                            "grammar": "💡 空所直後の During that time, they enjoyed cooking and talking together（一緒に料理・会話）が最大の根拠。invite A to B＝AをBに招く。"
                         },
                         {
                             "number": 22,
@@ -615,12 +615,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "海で泳ぐのを楽しんだ→フィリップ夫人の不在とは関係ない",
-                                "彼とテレビを見た→「彼」は兄弟で遠方にいる",
-                                "とても悲しくて恋しかった→正解。💡 毎日会っていた人が1ヶ月不在→メールを始めた動機として最適",
-                                "彼女の家に行った→留守なので行けない"
+                                "海で泳ぐのを楽しんだ→夫人の不在やメール開始の理由にならない",
+                                "彼とテレビを見た→『彼（兄弟）』は遠方におり一緒にいない",
+                                "とても悲しくて恋しかった→正解。💡 毎日会っていた人が1か月不在→寂しい→だからメールを始めた（So）に直結",
+                                "彼女の家に行った→夫人は留守なので行っても会えない"
                             ],
-                            "grammar": "💡 miss＝～がいなくて寂しい。I miss you＝あなたがいなくて寂しい。feel sad＝悲しく感じる"
+                            "grammar": "💡 空所直後の So, she started exchanging e-mails（だからメールを始めた）が根拠。miss＝いなくて寂しい。空所はメールを始めた動機となる感情。"
                         }
                     ]
                 }
@@ -697,12 +697,12 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "先生から連絡先を教えてもらった→正解。💡 Mr. Garcia gave me your e-mail addressが直接の根拠",
-                                "ウェブサイトで見つけた→ウェブサイトには博物館情報があるがメールアドレスは先生から",
-                                "職員に紹介された→そのような記述はない",
-                                "直接会った→メールで初めて連絡している"
+                                "先生から連絡先を教えてもらった→正解。💡 Mr. Garcia gave me your e-mail address が根拠",
+                                "ウェブサイトで見つけた→サイトには博物館情報はあるが、メールアドレスは先生から入手",
+                                "職員に紹介された→本文に記述がない",
+                                "訪問時に直接会った→今回メールで初めて連絡している"
                             ],
-                            "grammar": "💡 How問題は方法を問う。contact＝連絡する。get A from B＝BからAをもらう"
+                            "grammar": "💡 How問題は『手段』を探す。本文 My social studies teacher, Mr. Garcia, gave me your e-mail address が直接の根拠。"
                         },
                         {
                             "number": 24,
@@ -722,12 +722,12 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "来館者ができること→聞きたい内容はスタッフの努力",
-                                "博物館の取り組み→正解。💡 what your museum staff does to attract visitorsが直接の根拠。attract visitors＝来館者を引きつける取り組み",
-                                "イベントの要点→イベント情報はウェブサイトにある",
-                                "スタッフになる方法→そのような記述はない"
+                                "来館者ができること→聞きたいのは『スタッフの取り組み』で来館者の活動ではない",
+                                "博物館の取り組み→正解。💡 what staff does to attract visitors（集客の工夫）が根拠",
+                                "イベントの要点→イベント情報はウェブサイトで入手可能と本文にある",
+                                "スタッフになる方法→本文に記述がない"
                             ],
-                            "grammar": "💡 efforts＝取り組み・努力。what...does to attract＝引きつけるために何をしているか"
+                            "grammar": "💡 本文 what your museum staff does to attract visitors, what makes your museum more attractive が根拠。efforts＝取り組み・努力。"
                         },
                         {
                             "number": 25,
@@ -747,12 +747,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "スタッフと一緒に作る→スライドはトッドが作る",
-                                "写真をメールで送る→プレゼンのスライドに使う",
-                                "博物館の写真をプレゼンで使う→正解。💡 take photos→make slides to show in the presentationが根拠",
-                                "高校生活のスライド→博物館のプレゼンの話"
+                                "スタッフと一緒に作る→スライドはトッド自身が作る",
+                                "写真をメールで送る→写真は発表スライド用で、送る話ではない",
+                                "博物館の写真を発表で使う→正解。💡 take photos→make slides to show in the presentation が根拠",
+                                "高校生活のスライド→テーマは博物館で高校生活ではない"
                             ],
-                            "grammar": "💡 take photos＝写真を撮る。make slides＝スライドを作る。写真を撮る→スライドに使う→プレゼンで見せる"
+                            "grammar": "💡 本文 may I take some photos ... I would like to make slides to show in the presentation が根拠。写真→スライド→発表で使う。"
                         }
                     ]
                 },
@@ -824,12 +824,12 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "車が最速→車では行けない村",
-                                "自然が減少→豊かな自然と記述されている",
-                                "かつて大都市→常に少数の人しか住んでいなかった",
-                                "一年を通じて多くの訪問者→正解。💡 many tourists visit this village all year roundが直接の根拠"
+                                "車が最速→本文は『車では行けない唯一の村』なので誤り",
+                                "自然が減少→rich nature（豊かな自然）とあり減少の記述はない",
+                                "かつて大都市→only a small number of people have lived（常に少人数）と矛盾",
+                                "一年を通じて多くの訪問者→正解。💡 visit this village all year round が根拠"
                             ],
-                            "grammar": "💡 throughout the year＝一年を通じて。all year round（同義）。welcome visitors＝訪問者を迎える"
+                            "grammar": "💡 本文 many tourists who love nature visit this village all year round が根拠。all year round＝一年中＝throughout the year。"
                         },
                         {
                             "number": 27,
@@ -849,12 +849,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "多くの移動方法→移動方法は限られていた",
-                                "車で行ける道路→車用でなく自転車か徒歩のみ",
-                                "歩行か自転車が必要→正解。💡 roads that people went through only by bicycle or on footが直接の根拠",
-                                "道路建設に同意→most were against the ideaと矛盾"
+                                "多くの移動方法→『行き方は長い間限られていた』と矛盾",
+                                "車で行ける道路→道は自転車か徒歩専用で車道ではない",
+                                "歩行か自転車が必要→正解。💡 only by bicycle or on foot が根拠",
+                                "道路建設に同意→most of the local people were against the idea（反対）と矛盾"
                             ],
-                            "grammar": "💡 on foot＝徒歩で。by bicycle＝自転車で。need to＝～する必要がある"
+                            "grammar": "💡 本文 roads that people went through only by bicycle or on foot が根拠。on foot＝徒歩で、by bicycle＝自転車で。"
                         },
                         {
                             "number": 28,
@@ -874,12 +874,12 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "村の自然を守る→正解。💡 could avoid damaging the nature of the areaが直接の根拠",
-                                "景色を楽しむ→景色は理由ではない",
-                                "観光客を増やす→そのような記述はない",
-                                "高齢者を運ぶ→そのような記述はない"
+                                "村の自然を守るため→正解。💡 cable cars could avoid damaging the nature of the area が根拠",
+                                "景色を楽しむため→理由は『速く便利＋自然保護』で、景観は述べられていない",
+                                "観光客を増やすため→本文に記述がない",
+                                "高齢者を運ぶため→本文に記述がない"
                             ],
-                            "grammar": "💡 Why問題は理由を特定する。avoid damaging＝損傷を避ける。keep the nature＝自然を守る"
+                            "grammar": "💡 Why問題。本文 could avoid damaging the nature of the area（自然を傷つけずに済む）が理由の根拠。"
                         },
                         {
                             "number": 29,
@@ -899,12 +899,12 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "消えゆく村→観光客を迎えている活発な村",
-                                "除外された→19の場所の一つとして含まれている",
-                                "エコフレンドリーな交通→正解。💡 environmentally friendly＋climate-friendly options＋車で行けない＝エコな交通システム",
-                                "自然環境の問題→豊かな自然と記述されている"
+                                "消えゆく村→観光客が一年中訪れる村で、消滅の記述はない",
+                                "グループから除外された→one of the nineteen places ... Alpine Pearls（含まれている）と矛盾",
+                                "車なしでエコな交通→正解。💡 『車で行けない＝環境に優しい』＋climate-friendly options の交通に取り組む が根拠",
+                                "貧しい自然環境→rich nature（豊かな自然）と矛盾"
                             ],
-                            "grammar": "💡 eco-friendly＝環境に優しい。transportation system＝交通システム。without cars＝車なしで"
+                            "grammar": "💡 environmentally friendly＋『車で行けない』＋Alpine Pearls（climate-friendly options の道路システム）が根拠。"
                         }
                     ]
                 }
