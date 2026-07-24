@@ -833,12 +833,12 @@
             "elastic"
           ],
           "answer": 2,
-          "grammar": "形容詞の語彙問題。bodyを修飾する適切な形容詞を選ぶ。",
+          "grammar": "位置を表す形容詞。upper=上部の（↔lower）。upper body=上半身。chest muscles（胸筋）がヒント。",
           "choiceAnalysis": [
-            "major=主要な→「上部の」胸筋の文脈に合わない",
-            "upper=上部の→正解。💡 upper chest muscles=上部の胸の筋肉。upperは位置を表す形容詞",
-            "direct=直接の→bodyの修飾に不自然",
-            "elastic=弾力のある→筋肉の位置の話に不適切"
+            "major=主要な→『上部の』という位置の意味にならない",
+            "upper=上部の→正解。💡 upper body=上半身。big chest muscles（胸筋）が根拠",
+            "direct=直接の→body（体）の位置を表さない",
+            "elastic=弾力のある→筋肉の『位置』の話に合わない"
           ]
         },
         {
@@ -852,12 +852,12 @@
             "duty"
           ],
           "answer": 3,
-          "grammar": "名詞の語彙問題。tall+名詞で「高い場所」。",
+          "grammar": "地形を表す名詞。cliff=崖。at the edge of a tall cliff（高い崖の端）＋下で波が砕ける描写。",
           "choiceAnalysis": [
-            "troop=軍隊→景色を眺める場所の話ではない",
-            "proverb=ことわざ→場所ではない",
-            "cliff=崖→正解。💡 tall cliff + waves crashing below=高い崖+下で波が砕ける。地形の描写がヒント",
-            "duty=義務→場所ではない"
+            "troop=軍隊→景色を眺める『場所』ではない",
+            "proverb=ことわざ→場所を表さない",
+            "cliff=崖→正解。💡 tall cliff＋waves crashing on the rocks far below が根拠",
+            "duty=義務→場所を表さない"
           ]
         },
         {
@@ -871,12 +871,12 @@
             "disappear"
           ],
           "answer": 2,
-          "grammar": "動詞の語彙問題。How did ... + 動詞 で「どのように〜したか」",
+          "grammar": "react=反応する（react to ～）。How did ... react?=どう反応したか。感情的反応を問う。",
           "choiceAnalysis": [
-            "exist=存在する→How+主語+existは不自然",
-            "react=反応する→正解。💡 How did they react?=どう反応しましたか？💡 react to ～ の形で覚えよう",
-            "seize=つかむ→文脈に合わない",
-            "disappear=消える→文脈に合わない"
+            "exist=存在する→How＋主語＋exist は意味を成さない",
+            "react=反応する→正解。💡 How did he react?=どう反応した？really happy（喜んだ）が答え",
+            "seize=つかむ→感情の反応を表さない",
+            "disappear=消える→反応を表さない"
           ]
         },
         {
@@ -890,11 +890,11 @@
             "conductor"
           ],
           "answer": 3,
-          "grammar": "名詞の語彙問題。the meaning of lifeがヒント。",
+          "grammar": "philosopher=哲学者。the meaning of life（人生の意味）を学ぶ人＝哲学者。",
           "choiceAnalysis": [
-            "president=大統領→人生の意味の探求者ではない",
-            "spectator=観客→哲学的な職業ではない",
-            "philosopher=哲学者→正解。💡 philosopher=哲学者。「人生の意味を探究する」のは哲学者の仕事",
+            "president=大統領→人生の意味を探究する職業ではない",
+            "spectator=観客→哲学的探究者ではない",
+            "philosopher=哲学者→正解。💡 learn about the meaning of life（人生の意味を学ぶ）が根拠",
             "conductor=指揮者→人生の意味の探求者ではない"
           ]
         },
@@ -909,10 +909,10 @@
             "swim"
           ],
           "answer": 2,
-          "grammar": "動詞の語彙問題。lost passportへの感情的反応。",
+          "grammar": "panic=うろたえる・パニックになる。Don't panic! で頻出。紛失→焦り、の自然な反応。",
           "choiceAnalysis": [
-            "interact=交流する→パスポート紛失への焦りではない",
-            "panic=パニックになる→正解。💡 Don't panic!=慌てるな。パスポート紛失→焦りの自然な反応",
+            "interact=交流する→パスポート紛失への焦りを表さない",
+            "panic=パニックになる→正解。💡 紛失→焦る。but then I remembered（でも思い出した）と自然につながる",
             "fly=飛ぶ→文脈に合わない",
             "swim=泳ぐ→文脈に合わない"
           ]
@@ -928,12 +928,12 @@
             "suspect"
           ],
           "answer": 2,
-          "grammar": "動詞の語彙問題。progressとの組み合わせ。",
+          "grammar": "review=見直す・評価する（≒check, evaluate）。review one's progress=進捗を確認する。",
           "choiceAnalysis": [
-            "recover=回復する→progressとは合わない",
-            "review=見直す→正解。💡 review progress=進捗を確認する。💡 review ≒ check/evaluate と同義",
-            "expand=拡大する→progressとは不自然",
-            "suspect=疑う→文脈に合わない"
+            "recover=回復する→progress（進捗）を目的語に取れない",
+            "review=見直す→正解。💡 review my progress=進捗を確認する。上司が来月チェックする文脈",
+            "expand=拡大する→progress の確認の意味にならない",
+            "suspect=疑う→進捗確認の文脈に合わない"
           ]
         },
         {
@@ -947,12 +947,12 @@
             "pour"
           ],
           "answer": 1,
-          "grammar": "動詞の語彙問題。shoelacesとの組み合わせ。",
+          "grammar": "tie=結ぶ。tie one's shoelaces=靴ひもを結ぶ。ほどけた→結ぶ、の流れ。",
           "choiceAnalysis": [
-            "tie=結ぶ→正解。💡 tie shoelaces=靴ひもを結ぶ。💡 日常動作を表す2級必須コロケーション",
-            "earn=稼ぐ→靴ひもとは無関係",
-            "hire=雇う→靴ひもとは無関係",
-            "pour=注ぐ→靴ひもとは無関係"
+            "tie=結ぶ→正解。💡 tie shoelaces=靴ひもを結ぶ。come undone（ほどけた）が根拠",
+            "earn=稼ぐ→靴ひもと結びつかない",
+            "hire=雇う→靴ひもと結びつかない",
+            "pour=注ぐ→靴ひもと結びつかない"
           ]
         },
         {
@@ -966,11 +966,11 @@
             "suspicion"
           ],
           "answer": 3,
-          "grammar": "名詞の語彙問題。loyalty + to で「〜への忠誠」。",
+          "grammar": "loyalty (to)=（～への）忠誠心・愛着。20年勝てなくても応援し続ける理由。",
           "choiceAnalysis": [
-            "fortune=幸運→忠誠の文脈に不適切",
-            "distinction=区別→文脈に合わない",
-            "loyalty=忠誠心→正解。💡 loyalty=忠誠心・愛着。長年チームを応援し続ける=loyaltyの表れ",
+            "fortune=幸運・財産→応援し続ける理由にならない",
+            "distinction=区別・卓越→応援の理由を表さない",
+            "loyalty=忠誠心→正解。💡 loyalty to the team=チームへの愛着。長年の応援＝loyalty",
             "suspicion=疑い→応援の理由にならない"
           ]
         },
@@ -985,12 +985,12 @@
             "poverty"
           ],
           "answer": 3,
-          "grammar": "名詞の語彙問題。ignorance of 〜「〜に対する無知」。",
+          "grammar": "ignorance (of)=（～への）無知・無理解。無理解→誤解→口論、の因果。",
           "choiceAnalysis": [
-            "wealth=富→口論の原因として不自然",
-            "rage=激怒→結果であって原因ではない",
-            "ignorance=無知→正解。💡 ignorance=無知・無理解。💡 ignorance → misunderstanding → argument の因果関係",
-            "poverty=貧困→文脈に合わない"
+            "wealth=富→口論の原因にならない",
+            "rage=激怒→口論の結果であって原因ではない",
+            "ignorance=無知→正解。💡 ignorance of each other's ways（互いのやり方への無理解）→口論。だから理解が大切",
+            "poverty=貧困→口論の原因の文脈に合わない"
           ]
         },
         {
@@ -1004,12 +1004,12 @@
             "resentfully"
           ],
           "answer": 2,
-          "grammar": "副詞の語彙問題。文頭の挿入副詞。",
+          "grammar": "thankfully=ありがたいことに（≒luckily, fortunately）。困難→解決、を導く文頭副詞。",
           "choiceAnalysis": [
-            "innocently=無邪気に→文脈に合わない",
-            "thankfully=ありがたいことに→正解。💡 Thankfully=幸いにも。困難→解決の流れの定番副詞。luckily/fortunately と同義",
+            "innocently=無邪気に→問題解決の文脈に合わない",
+            "thankfully=ありがたいことに→正解。💡 山で迷った（困難）→小川を見つけ下山（解決）を導く副詞",
             "traditionally=伝統的に→文脈に合わない",
-            "resentfully=恨めしく→問題解決の文脈に不自然"
+            "resentfully=恨めしく→解決できた話と矛盾"
           ]
         },
         {
@@ -1023,12 +1023,12 @@
             "make sense"
           ],
           "answer": 3,
-          "grammar": "熟語問題。take pains to do「〜するのに努力する」。",
+          "grammar": "take pains (to do)=骨を折る・努力する。良い点を取るため毎晩単語を勉強した努力。",
           "choiceAnalysis": [
-            "shake hands=握手する→勉強とは無関係",
-            "give way=道を譲る→文脈に合わない",
-            "take pains=努力する→正解。💡 take pains=苦労を惜しまない・骨を折る。💡 take pains to ～=～するために努力する",
-            "make sense=意味をなす→主語がIで不自然"
+            "shake hands=握手する→勉強と無関係",
+            "give way=道を譲る・崩れる→勉強の努力を表さない",
+            "take pains=努力する→正解。💡 take pains to study=苦労して勉強する。good score の理由",
+            "make sense=意味をなす→主語 I と結びつかず不自然"
           ]
         },
         {
@@ -1042,12 +1042,12 @@
             "before and after"
           ],
           "answer": 1,
-          "grammar": "熟語問題。more or less「だいたい、おおよそ」。",
+          "grammar": "more or less=だいたい・ほぼ（≒approximately, roughly）。子供の頃はほぼ同じ大きさ。",
           "choiceAnalysis": [
-            "more or less=だいたい→正解。💡 more or less the same size=ほぼ同じ大きさ。💡 more or less ≒ approximately/roughly",
-            "sooner or later=遅かれ早かれ→過去形の文脈に合わない",
-            "day and night=昼夜を問わず→sizeとは合わない",
-            "before and after=前後に→sizeとは合わない"
+            "more or less=だいたい→正解。💡 more or less the same size=ほぼ同じ大きさ。but now で差が出た対比",
+            "sooner or later=遅かれ早かれ→過去の状態を表さない",
+            "day and night=昼夜問わず→size（大きさ）と結びつかない",
+            "before and after=前後に→size と結びつかない"
           ]
         },
         {
@@ -1061,12 +1061,12 @@
             "consist of"
           ],
           "answer": 3,
-          "grammar": "熟語問題。live on 〜「〜で生活する」。",
+          "grammar": "live on ～=～で生活する・～を頼りに暮らす。少ない残金でやりくりする文脈。",
           "choiceAnalysis": [
-            "show off=見せびらかす→お金が少ない文脈に反する",
-            "put away=片付ける→moneyの使い方として不自然",
-            "live on=～で生活する→正解。💡 live on ～=～だけで暮らす。少ない残金で生活する文脈に完璧に合う",
-            "consist of=～から成る→moneyとは合わない"
+            "show off=見せびらかす→お金が乏しい文脈と矛盾",
+            "put away=片付ける・貯金する→残金で『やりくり』の意味にならない",
+            "live on=～で生活する→正解。💡 barely live on the money left=残金でかろうじて暮らす。外食できない、が根拠",
+            "consist of=～から成る→money を目的語に取れない"
           ]
         },
         {
@@ -1080,12 +1080,12 @@
             "safe and sound"
           ],
           "answer": 4,
-          "grammar": "熟語問題。safe and sound「無事に」。",
+          "grammar": "safe and sound=無事に（決まり文句）。少し汚れたが怪我なく帰宅した状態。",
           "choiceAnalysis": [
-            "bit by bit=少しずつ→状態を表さない",
-            "far and away=断然→文脈に合わない",
+            "bit by bit=少しずつ→猫の『状態』を表さない",
+            "far and away=断然→状態を表さない",
             "all or nothing=全か無か→状態を表さない",
-            "safe and sound=無事で→正解。💡 safe and sound=無事に。💡 汚れたが怪我なく帰宅=safe and sound"
+            "safe and sound=無事で→正解。💡 a little dirty, but otherwise safe and sound（汚れたが無事）が自然"
           ]
         },
         {
@@ -1099,12 +1099,12 @@
             "with regard to"
           ],
           "answer": 1,
-          "grammar": "熟語問題。in search of 〜「〜を探して」。",
+          "grammar": "in search of ～=～を求めて（≒looking for）。本屋に行く目的を表す。",
           "choiceAnalysis": [
-            "in search of=～を求めて→正解。💡 in search of ～=～を探して。本屋に行く目的を表す。💡 go in search of ≒ go looking for",
-            "for fear of=～を恐れて→本を買う動機ではない",
+            "in search of=～を求めて→正解。💡 go to the bookstore in search of a novel=小説を求めて本屋へ。買いたい、が根拠",
+            "for fear of=～を恐れて→本を買いに行く動機ではない",
             "on behalf of=～を代表して→文脈に合わない",
-            "with regard to=～に関して→文法的に不自然"
+            "with regard to=～に関して→目的を表せず不自然"
           ]
         },
         {
@@ -1118,11 +1118,11 @@
             "take a chance"
           ],
           "answer": 2,
-          "grammar": "熟語問題。take a nap「昼寝する」。",
+          "grammar": "take a nap=仮眠・昼寝をする（nap=短い睡眠）。眠れず疲れた→昼寝、の流れ。",
           "choiceAnalysis": [
-            "make a move=行動を起こす→疲れている文脈に合わない",
-            "take a nap=昼寝する→正解。💡 take a nap=昼寝をする。眠い→仮眠は当然の流れ。napは短い睡眠",
-            "make a wish=願い事をする→疲れとは無関係",
+            "make a move=動き出す→疲れている文脈と合わない",
+            "take a nap=昼寝する→正解。💡 didn't sleep well＋tired（疲れた）→昼寝が自然",
+            "make a wish=願い事をする→疲れと無関係",
             "take a chance=一か八かやる→文脈に合わない"
           ]
         },
@@ -1137,11 +1137,11 @@
             "As well as"
           ],
           "answer": 2,
-          "grammar": "熟語問題。As far as I know「私の知る限り」。",
+          "grammar": "As far as I know=私の知る限り。自分の知識の範囲を限定する定型表現。",
           "choiceAnalysis": [
-            "As fast as=～と同じくらい速く→I knowと不自然",
-            "As far as=～する限り→正解。💡 As far as I know=私の知る限り。💡 超頻出の定型表現。自分の知識の範囲を示す",
-            "As long as=～する限り(条件)→I knowとは不自然",
+            "As fast as=～と同じくらい速く→I know と結びつかない",
+            "As far as=～する限り→正解。💡 As far as I know=私の知る限り。most people ... attend が続く",
+            "As long as=～する限り（条件）→I know と結びつかず不自然",
             "As well as=～と同様に→文法構造が合わない"
           ]
         }
@@ -1177,10 +1177,10 @@
               ],
               "answer": 3,
               "choiceAnalysis": [
-                "古い電気ケトルで素早く湯を沸かす→本文と無関係",
-                "カラフルなケトルをデザイン→デザインの話ではない",
-                "ほとんどの電気ケトルを分解する→正解。💡 take apart=分解する。modifier(修理)が難しい→廃棄になるという論理構造に注目",
-                "店で新しいケトルを試す→文脈に合わない"
+                "古い電気ケトルで素早く湯を沸かす→修理・分解の話と無関係",
+                "カラフルなケトルをデザインする→ここは『修理の難しさ』の話",
+                "ほとんどの電気ケトルを分解する→正解。💡 直後 Unlike these kettles, Osiris can be separated が対比の根拠。take apart=分解する",
+                "店で新しいケトルを試す→分解の難しさの文脈に合わない"
               ]
             },
             {
@@ -1193,10 +1193,10 @@
               ],
               "answer": 1,
               "choiceAnalysis": [
-                "製品を長く使う→正解。💡 use for a long time=長期間使用。修理可能→長寿命→廃棄物削減の因果関係",
-                "次々と製品を買う→持続可能性と真逆の行動",
-                "デバイスコレクションを増やす→修理の目的と異なる",
-                "より多機能な製品を見つける→文脈に合わない"
+                "製品を長く使う→正解。💡 修理可能→長く使う→廃棄物削減、の因果。直後 reduce electronic waste が根拠",
+                "次々と製品を買う→廃棄物削減と真逆の行動",
+                "デバイスのコレクションを増やす→修理・長寿命化の目的と異なる",
+                "より多機能な製品を探す→本文の趣旨に合わない"
               ]
             },
             {
@@ -1209,10 +1209,10 @@
               ],
               "answer": 2,
               "choiceAnalysis": [
-                "Even so=それでも→前文と同方向なので逆接は不適切",
-                "In this way=このように→正解。💡 In this way=このようにして。前段の具体例→まとめ。💡 空欄接続詞は前後の論理関係で判断",
-                "Otherwise=さもないと→条件文ではない",
-                "What is worse=さらに悪いことに→良い文脈に合わない"
+                "それでも→前文と同方向で逆接は不適",
+                "このように→正解。💡 前段（修理を重視する）→まとめ。In this way=こうして",
+                "さもないと→条件・仮定の文脈ではない",
+                "さらに悪いことに→前向きな内容に否定表現は不適"
               ]
             }
           ],
@@ -1345,10 +1345,10 @@
               ],
               "answer": 3,
               "choiceAnalysis": [
-                "いつ聞いたか言える→好意→購入の流れに不自然",
-                "その曲と距離を置く→逆の効果",
-                "ためらいなく買うかもしれない→正解。💡 without hesitation=ためらいなく。好意→購入行動。💡 mere exposure effect=単純接触効果の応用",
-                "楽器を弾くことを学ぶ→曲を聴く文脈に合わない"
+                "いつ聞いたか言える→好意・購入の流れに合わない",
+                "その曲と距離を置く→好きになる効果と逆",
+                "ためらいなく買うかもしれない→正解。💡 何度も聞く→好きになる→without hesitation で購入。単純接触効果",
+                "楽器の弾き方を学ぶ→曲を聴く文脈に合わない"
               ]
             },
             {
@@ -1361,10 +1361,10 @@
               ],
               "answer": 1,
               "choiceAnalysis": [
-                "人の表情の影響の可能性→正解。💡 「顔写真→文字に変えた」理由を問う問題。表情の影響を排除する実験設計に注目",
-                "特定の文字へのネガティブ感情→文字に替えた理由ではない",
+                "人の表情の影響の可能性→正解。💡 顔写真→文字に替えた理由。表情の影響を排除する実験設計",
+                "特定の文字へのネガティブ感情→写真から文字に替えた理由にならない",
                 "部屋の影響の可能性→実験環境の話ではない",
-                "外部騒音のネガティブな影響→文脈に合わない"
+                "外部騒音のネガティブな影響→視覚実験で音は無関係"
               ]
             },
             {
@@ -1377,10 +1377,10 @@
               ],
               "answer": 4,
               "choiceAnalysis": [
-                "On the contrary=それどころか→前文と逆接ではない",
-                "Meanwhile=その間に→時間の並行ではない",
-                "Fortunately=幸いにも→ネガティブな展開が続く",
-                "Moreover=さらに→正解。💡 Moreover=さらに加えて。もう一つの否定的な側面を追加する流れ"
+                "それどころか→前文と逆接ではない",
+                "その間に→時間の並行ではない",
+                "幸いにも→否定的な内容が続くので不適",
+                "さらに→正解。💡 もう一つの否定的側面（視野が狭まる）を追加。Moreover=さらに加えて"
               ]
             }
           ],
@@ -1535,10 +1535,10 @@
               ],
               "answer": 3,
               "choiceAnalysis": [
-                "マネージャーが退職方針を発表→パーティー計画の話",
-                "IT部門が新しいPCについて話した→電話の内容ではない",
-                "ジュリアのチームが今後のお祝いの詳細を決めた→正解。💡 after the phone call=時系列に注意。電話後にチームで決定した内容を探す",
-                "社員がジェンキンスの業務引継ぎについて話した→パーティー計画の話"
+                "マネージャーが退職方針を発表→本文はパーティー計画の決定",
+                "IT部門が新PCについて話した→電話後の内容ではない",
+                "ジュリアのチームが今後のお祝いの詳細を決めた→正解。💡 After the call, our team finally decided on all the details of the retirement party が根拠",
+                "社員が業務引継ぎを話した→本文にない"
               ],
               "questionTranslation": "今日の電話の後に何が起こりましたか？",
               "choiceTranslations": [
@@ -1559,10 +1559,10 @@
               ],
               "answer": 1,
               "choiceAnalysis": [
-                "社外の人からのメッセージを表示→正解。💡 customers' companies=顧客企業。「社外」の人々からのメッセージという点がポイント",
-                "過去の同僚の家族に送られる→上映するものであり送るものではない",
-                "会社の歴史と成長のタイムライン→ジェンキンスの個人の功績がテーマ",
-                "パーティー中に各テーブルのスクリーンで上映→一つの大スクリーンで上映"
+                "社外の人からのメッセージを映す→正解。💡 messages from his customers' companies（取引先＝社外）が根拠",
+                "過去の同僚の家族に送られる→映すもので送るものではない",
+                "社史と成長のタイムラインを含む→彼個人の功績がテーマ",
+                "各テーブルのスクリーンで上映→大スクリーン1つ（a large screen）で上映"
               ],
               "questionTranslation": "ジェンキンスさんの退職パーティーのサプライズ動画は",
               "choiceTranslations": [
@@ -1583,10 +1583,10 @@
               ],
               "answer": 4,
               "choiceAnalysis": [
-                "営業数字の収集→データは既にあると言っている",
-                "曲のリストを作成→音楽の話はメールにない",
-                "営業部のPC確認→IT部門への異なる依頼",
-                "ジェンキンスの会社での歴史を魅力的に見せるもの→正解。💡 something exciting to show history=魅力的なプレゼン資料。helpの具体的な内容を読む"
+                "営業数字の収集→データは既にある（We have the data）",
+                "曲のリストを作成→音楽の話は本文にない",
+                "営業部のPC確認→依頼内容が異なる",
+                "彼の会社での歴史を魅力的に見せるものを作る→正解。💡 trouble creating a clear and exciting graphic／turning it into a powerful picture が根拠"
               ],
               "questionTranslation": "ジュリア・ヤングが助けを求めているのは何ですか？",
               "choiceTranslations": [
@@ -1706,10 +1706,10 @@
               ],
               "answer": 1,
               "choiceAnalysis": [
-                "誤情報の広告に遭遇しやすくなった→正解。💡 increase + more likely=増加→ますます～しやすい。第1段落最終文の言い換え",
-                "店や企業がより良い広告作りに力を入れた→本文にない",
+                "誤情報の広告に遭遇しやすくなった→正解。💡 more advertisements with wrong information が根拠",
+                "店や企業がより良い広告作りに注力→本文にない",
                 "古代エジプトの広告の重要性が研究対象に→本文にない",
-                "一般人も様々な目的で広告を作り始めた→本文にない"
+                "一般人も広告を作り始めた→本文にない"
               ],
               "questionTranslation": "人々の日常生活における広告の増加に伴い",
               "choiceTranslations": [
@@ -1731,9 +1731,9 @@
               "answer": 3,
               "choiceAnalysis": [
                 "若者に家庭料理を促すため→本文にない",
-                "環境に良い製品を促進するため→健康の話",
-                "人々の健康を守るため→正解。💡 protect health from being harmed。第2段落冒頭。💡 Why=目的を問う→目的語のto不定詞を探す",
-                "健康食品企業の利益を増やすため→本文にない"
+                "環境に良い製品を促進するため→健康保護の話であって環境の話ではない",
+                "人々の健康を守るため→正解。💡 to protect public health and well-being／protect people's health が根拠",
+                "健康食品企業の利益増→本文にない"
               ],
               "questionTranslation": "一部の国が特定の種類の広告を規制することに決めた理由は？",
               "choiceTranslations": [
@@ -1754,10 +1754,10 @@
               ],
               "answer": 4,
               "choiceAnalysis": [
-                "完全禁止まで数年の猶予→電子看板は禁止されなかった",
-                "広告の他のどの話題より議論された→本文にない",
+                "完全禁止まで数年の猶予→サンパウロでは電子看板は禁止されなかった",
+                "他のどの話題より議論された→本文にない",
                 "政府関係者からより批判された→本文にない",
-                "法の対象にならなかった→正解。💡 electronic signs were left without becoming the target=法の対象外。💡 例外(exception)を読み取る力が重要"
+                "法の対象にならなかった→正解。💡 electronic signs ... could be used even under the law が根拠（法の例外）"
               ],
               "questionTranslation": "サンパウロのクリーンシティ法の下で、電子看板は",
               "choiceTranslations": [
@@ -1778,10 +1778,10 @@
               ],
               "answer": 1,
               "choiceAnalysis": [
-                "広告禁止は広告権と言論の自由に反する→正解。💡 right to advertise + freedom of speech=広告権と言論の自由。第4段落の反対意見を正確に読む",
-                "広告撤去は経済を改善し観光客を呼ぶ→本文にない",
-                "広告減少は暴力犯罪の減少につながる→本文にない",
-                "広告禁止で新規企業の誘致が容易に→本文にない"
+                "広告禁止は広告権と言論の自由に反する→正解。💡 the right to advertise ... banning advertisements would go against this right が根拠",
+                "広告撤去は経済改善・観光客増→本文にない",
+                "広告減少は暴力犯罪減少→本文にない",
+                "広告禁止で新規企業誘致が容易→本文にない"
               ],
               "questionTranslation": "スイスでは一部の人々が考えていることは",
               "choiceTranslations": [
@@ -1802,10 +1802,10 @@
               ],
               "answer": 2,
               "choiceAnalysis": [
-                "テレビは広告放送のために登場→因果関係が逆",
-                "広告は企業の情報共有と利益に貢献する→正解。💡 Which is true?=消去法で。第1段落2文目「広告はビジネスの情報共有に役立つ」に一致",
-                "サンパウロはグルノーブルに倣った→時系列が逆(サンパウロが2007年、グルノーブルが2014年)",
-                "言論の自由は最も重要な権利→「an important part」であり「most important」ではない。💡 最上級のすり替えに注意"
+                "テレビは広告放送のため登場→本文にそのような記述はない",
+                "広告は企業の情報共有と利益に貢献→正解。💡 a way for businesses to share information ... helped businesses make money が根拠",
+                "サンパウロはグルノーブルに倣った→時系列が逆（サンパウロが先、グルノーブルが後）",
+                "言論の自由が最重要の権利→本文は an important part であり most important ではない（最上級のすり替え）"
               ],
               "questionTranslation": "次のうち正しい記述はどれですか？",
               "choiceTranslations": [
