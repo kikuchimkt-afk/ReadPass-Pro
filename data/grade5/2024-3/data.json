@@ -19,13 +19,13 @@
                         "sea"
                     ],
                     "answer": 3,
-                    "grammar": "「ポケットにキャンディーがある」→ pocket。",
+                    "grammar": "「いつもキャンディーを○○に持っている」がヒント。物を入れておく場所は pocket（ポケット）。pencil（鉛筆）・knife（ナイフ）・sea（海）は入れておく場所ではありません。",
                     "grammarSimple": "「ポケットにある」→ pocket！",
                     "choiceAnalysis": [
-                        "pencil＝鉛筆。",
-                        "knife＝ナイフ。",
-                        "○ pocket＝ポケット。キャンディーを入れる場所。",
-                        "sea＝海。"
+                        "pencil＝鉛筆。キャンディーを入れておく場所ではありません。",
+                        "knife＝ナイフ。入れておく場所ではありません。",
+                        "○ pocket＝ポケット。キャンディーを入れておく場所で自然です。",
+                        "sea＝海。入れておく場所ではありません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「えんぴつ」はちがうよ。",
@@ -52,13 +52,13 @@
                         "know"
                     ],
                     "answer": 1,
-                    "grammar": "「ミルクを○○して、お母さん」→ bring（持ってきて）。",
+                    "grammar": "「ミルクを○○して。のどがかわいた」がヒント。持ってくるのは bring。Please bring＝持ってきて。want（ほしい）・sing（歌う）・know（知る）は milk と合いません。",
                     "grammarSimple": "「もってきて」→ bring！",
                     "choiceAnalysis": [
-                        "○ bring＝持ってくる。Please bring＝持ってきて。",
-                        "want＝ほしい。",
-                        "sing＝歌う。",
-                        "know＝知る。"
+                        "○ bring＝持ってくる。Please bring me milk＝ミルクを持ってきて、で自然です。",
+                        "want＝ほしい。Please want とは言いません。",
+                        "sing＝歌う。ミルクと合いません。",
+                        "know＝知る。ミルクと合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「もってきて」がぴったり！",
@@ -85,13 +85,13 @@
                         "weather"
                     ],
                     "answer": 4,
-                    "grammar": "「悪い○○の時はやらない」→ weather（天気）。bad weather＝悪天候。",
+                    "grammar": "「悪い○○の時はやらない」がヒント。bad weather＝悪天候。soda（ソーダ）・animal（動物）・train（電車）は「悪い〜」で天候になりません。",
                     "grammarSimple": "「わるいてんき」→ bad weather！",
                     "choiceAnalysis": [
-                        "soda＝ソーダ。",
-                        "animal＝動物。",
-                        "train＝電車。",
-                        "○ weather＝天気。bad weather＝悪天候。"
+                        "soda＝ソーダ。野球ができない理由になりません。",
+                        "animal＝動物。合いません。",
+                        "train＝電車。合いません。",
+                        "○ weather＝天気。bad weather＝悪天候で、野球をしない理由になります。"
                     ],
                     "choiceAnalysisSimple": [
                         "「ソーダ」はちがうよ。",
@@ -118,13 +118,13 @@
                         "monkey"
                     ],
                     "answer": 1,
-                    "grammar": "「音楽が好き→音楽部で○○を演奏する」→ trumpet（トランペット）。",
+                    "grammar": "「音楽が好き→音楽部で○○を演奏する」がヒント。演奏するのは楽器 trumpet（トランペット）。curry（カレー）・desk（机）・monkey（さる）は楽器ではありません。",
                     "grammarSimple": "「おんがくぶで→トランペット」→ trumpet！",
                     "choiceAnalysis": [
-                        "○ trumpet＝トランペット。楽器。",
-                        "curry＝カレー。",
-                        "desk＝机。",
-                        "monkey＝さる。"
+                        "○ trumpet＝トランペット。play the ～ で演奏する楽器です。",
+                        "curry＝カレー。楽器ではありません。",
+                        "desk＝机。楽器ではありません。",
+                        "monkey＝さる。楽器ではありません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「トランペット」がぴったり！",
@@ -151,13 +151,13 @@
                         "math"
                     ],
                     "answer": 2,
-                    "grammar": "「何色？→○○だよ」→ gray（灰色）。色を聞かれたら色で答える。",
+                    "grammar": "What color（何色）？と聞かれているので、答えは色。gray（灰色）が正解。badminton（バドミントン）・family（家族）・math（算数）は色ではありません。",
                     "grammarSimple": "「なにいろ？→はいいろ」→ gray！",
                     "choiceAnalysis": [
-                        "badminton＝バドミントン。",
-                        "○ gray＝灰色。色の質問に色で答える。",
-                        "family＝家族。",
-                        "math＝算数。"
+                        "badminton＝バドミントン。色ではありません。",
+                        "○ gray＝灰色。色を聞かれて色で答えるので自然です。",
+                        "family＝家族。色ではありません。",
+                        "math＝算数。色ではありません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「バドミントン」はちがうよ。",
@@ -184,13 +184,13 @@
                         "mountains"
                     ],
                     "answer": 2,
-                    "grammar": "「動物が好き？→ライオンと○○が好き」→ elephants（ゾウ）。",
+                    "grammar": "「動物が好き？→ライオンと○○が好き」がヒント。lions と並ぶ動物は elephants（ゾウ）。textbooks（教科書）・salads（サラダ）・mountains（山）は動物ではありません。",
                     "grammarSimple": "「ライオンとゾウ」→ elephants！",
                     "choiceAnalysis": [
-                        "textbooks＝教科書。",
-                        "○ elephants＝ゾウ。動物。",
-                        "salads＝サラダ。",
-                        "mountains＝山。"
+                        "textbooks＝教科書。動物ではありません。",
+                        "○ elephants＝ゾウ。ライオンと並ぶ動物で自然です。",
+                        "salads＝サラダ。動物ではありません。",
+                        "mountains＝山。動物ではありません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「きょうかしょ」はちがうよ。",
@@ -217,13 +217,13 @@
                         "tree"
                     ],
                     "answer": 1,
-                    "grammar": "「放課後、テニスの○○がある」→ lesson（レッスン）。",
+                    "grammar": "「放課後、公園でテニスの○○がある」がヒント。習い事は tennis lesson（テニスのレッスン）。eraser（消しゴム）・door（ドア）・tree（木）は「テニスの〜」で習い事になりません。",
                     "grammarSimple": "「テニスのレッスン」→ tennis lesson！",
                     "choiceAnalysis": [
-                        "○ lesson＝レッスン・授業。tennis lesson。",
-                        "eraser＝消しゴム。",
-                        "door＝ドア。",
-                        "tree＝木。"
+                        "○ lesson＝レッスン・授業。tennis lesson＝テニスの練習で自然です。",
+                        "eraser＝消しゴム。テニスの活動になりません。",
+                        "door＝ドア。合いません。",
+                        "tree＝木。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「レッスン」がぴったり！",
@@ -250,13 +250,13 @@
                         "right"
                     ],
                     "answer": 4,
-                    "grammar": "「いいよ！」→ All right＝わかった、いいよ。",
+                    "grammar": "「いいよ」は All right という決まった言い方。right が正解。bad（悪い）・cute（かわいい）・nice（すてき）は All とつなげて「いいよ」になりません。",
                     "grammarSimple": "「いいよ！」→ All right！",
                     "choiceAnalysis": [
-                        "bad＝悪い。",
-                        "cute＝かわいい。",
-                        "nice＝すてき。",
-                        "○ right＝All right＝いいよ。"
+                        "bad＝悪い。All bad では返事になりません。",
+                        "cute＝かわいい。All とつながりません。",
+                        "nice＝すてき。All nice とは言いません。",
+                        "○ right＝All right＝いいよ、で自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「わるい」はちがうよ。",
@@ -283,13 +283,13 @@
                         "over"
                     ],
                     "answer": 1,
-                    "grammar": "「彼女はオーストラリア○○です」→ from（出身）。",
+                    "grammar": "「彼女はオーストラリア○○」がヒント。be from ～＝～出身。from が正解。under（下に）・next（次の）・over（上に）は出身を表しません。",
                     "grammarSimple": "「オーストラリアしゅっしん」→ from！",
                     "choiceAnalysis": [
-                        "○ from＝～出身。She is from Australia。",
-                        "under＝～の下に。",
-                        "next＝次の。",
-                        "over＝～の上に。"
+                        "○ from＝～出身。She is from Australia＝オーストラリア出身、で自然です。",
+                        "under＝～の下に。出身を表しません。",
+                        "next＝次の。出身を表しません。",
+                        "over＝～の上に。出身を表しません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「しゅっしん」がぴったり！",
@@ -316,13 +316,13 @@
                         "under"
                     ],
                     "answer": 3,
-                    "grammar": "「午後○○ショッピングモールに行こう」→ in。in the afternoon＝午後に。",
+                    "grammar": "「午後○○」がヒント。in the afternoon＝午後に。in が正解。at（時刻に使う）・up（上に）・under（下に）は afternoon と合いません。",
                     "grammarSimple": "「ごごに」→ in the afternoon！",
                     "choiceAnalysis": [
-                        "at＝時刻に使う。",
-                        "up＝上に。",
-                        "○ in＝in the afternoon＝午後に。",
-                        "under＝下に。"
+                        "at＝（時刻）に使う。afternoon には in を使います。",
+                        "up＝上に。時を表しません。",
+                        "○ in＝in the afternoon＝午後に、で自然です。",
+                        "under＝下に。時を表しません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「at」はちがうよ。",
@@ -349,13 +349,13 @@
                         "have"
                     ],
                     "answer": 3,
-                    "grammar": "「6時に○○起きる」→ wake up＝起きる。",
+                    "grammar": "「6時に○○起きる」がヒント。wake up＝起きる（目を覚ます）。do（する）・cut（切る）・have（持つ）は up とつなげて「起きる」になりません。",
                     "grammarSimple": "「おきる」→ wake up！",
                     "choiceAnalysis": [
-                        "do＝する。",
-                        "cut＝切る。",
-                        "○ wake＝wake up＝起きる。",
-                        "have＝持つ。"
+                        "do＝する。up とつなげて「起きる」になりません。",
+                        "cut＝切る。合いません。",
+                        "○ wake＝wake up＝起きる、で自然です。",
+                        "have＝持つ。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「する」はちがうよ。",
@@ -382,13 +382,13 @@
                         "drinking"
                     ],
                     "answer": 1,
-                    "grammar": "「今、宿題を○○している」→ doing（している）。is doing＝現在進行形。",
+                    "grammar": "「今、宿題を○○している」がヒント。do homework＝宿題をする。is doing で現在進行形。dancing（踊る）・eating（食べる）・drinking（飲む）は homework と合いません。",
                     "grammarSimple": "「しゅくだいをしている」→ is doing！",
                     "choiceAnalysis": [
-                        "○ doing＝する→している。宿題をしている。",
-                        "dancing＝踊っている。",
-                        "eating＝食べている。",
-                        "drinking＝飲んでいる。"
+                        "○ doing＝している。do homework＝宿題をする、で自然です。",
+                        "dancing＝踊っている。宿題と合いません。",
+                        "eating＝食べている。宿題と合いません。",
+                        "drinking＝飲んでいる。宿題と合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「やっている」がぴったり！",
@@ -415,13 +415,13 @@
                         "Doesn't"
                     ],
                     "answer": 1,
-                    "grammar": "「教室でマンガを読むな！」→ Don't＝命令文の否定。",
+                    "grammar": "「教室でマンガを読むな！」という否定の命令文。Don't＋動詞の原形。Don't が正解。Aren't・Isn't（be動詞）・Doesn't（三単現）は命令文の否定に使いません。",
                     "grammarSimple": "「よむな！」→ Don't！",
                     "choiceAnalysis": [
                         "○ Don't＝命令文の否定「～するな」。",
-                        "Aren't＝be動詞複数の否定。",
-                        "Isn't＝be動詞の否定。",
-                        "Doesn't＝三人称単数の否定。"
+                        "Aren't＝be動詞（複数）の否定。命令文には使いません。",
+                        "Isn't＝be動詞の否定。命令文には使いません。",
+                        "Doesn't＝三人称単数の否定。命令文には使いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「Don't＝しないで」がぴったり！",
@@ -448,13 +448,13 @@
                         "his"
                     ],
                     "answer": 2,
-                    "grammar": "「ホワイト先生のではない→彼女のものではない」→ hers（彼女のもの）。",
+                    "grammar": "「ホワイト先生の（もの）ではない」がヒント。彼女のものは hers。Ms. White は女性。its（それの）・ours（私たちのもの）・his（彼のもの）は合いません。",
                     "grammarSimple": "「かのじょのものじゃない」→ hers！",
                     "choiceAnalysis": [
-                        "its＝それの。",
-                        "○ hers＝彼女のもの。Ms. Whiteは女性。",
-                        "ours＝私たちのもの。",
-                        "his＝彼のもの。"
+                        "its＝それの。人（先生）のものではありません。",
+                        "○ hers＝彼女のもの。Ms. White（女性）のもの、で自然です。",
+                        "ours＝私たちのもの。合いません。",
+                        "his＝彼のもの。Ms. White は女性なので合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「それの」はちがうよ。",
@@ -481,13 +481,13 @@
                         "It"
                     ],
                     "answer": 2,
-                    "grammar": "「○○ポストカードはかわいい」→ These（これらの）。複数形postcardsに合う。",
+                    "grammar": "postcards（複数）に合う指示語は These（これらの）。This（この・単数）・That（あの・単数）・It（それは・単数）は複数名詞に合いません。",
                     "grammarSimple": "「これらのポストカード」→ These！",
                     "choiceAnalysis": [
-                        "This＝この（単数）。",
-                        "○ These＝これらの（複数）。postcardsは複数。",
-                        "That＝あの（単数）。",
-                        "It＝それは（単数）。"
+                        "This＝この（単数）。postcards（複数）に合いません。",
+                        "○ These＝これらの（複数）。postcards が複数なので自然です。",
+                        "That＝あの（単数）。複数に合いません。",
+                        "It＝それは（単数）。複数に合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「この」は１つだけだよ。",
@@ -522,13 +522,13 @@
                         "I often eat it."
                     ],
                     "answer": 4,
-                    "grammar": "「中華料理好き？→よく食べます」。",
+                    "grammar": "「中華料理は好き？→はい、とても」の後なので、好きな様子を表す I often eat it.（よく食べる）が自然。it＝Chinese food。",
                     "grammarSimple": "「すき？→よくたべるよ！」",
                     "choiceAnalysis": [
-                        "はいどうぞ＝文脈に合わない。",
-                        "それが答えです＝文脈に合わない。",
-                        "レストランです＝文脈に合わない。",
-                        "○ よく食べます。好きの理由。"
+                        "Here you are.＝はいどうぞ。物を渡すときの表現で合いません。",
+                        "That's the answer.＝それが答え。合いません。",
+                        "It's a restaurant.＝レストランです。好きの答えに続きません。",
+                        "○ I often eat it.＝よく食べます。好きな様子で自然です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「はいどうぞ」はちがうよ。",
@@ -555,13 +555,13 @@
                         "It's a notebook."
                     ],
                     "answer": 3,
-                    "grammar": "「英語のテストはいつ？→明日です」。",
+                    "grammar": "When（いつ）？と聞かれているので、時を答える It's tomorrow.（明日です）が自然。場所や物の答えは合いません。",
                     "grammarSimple": "「いつ？→あした！」",
                     "choiceAnalysis": [
-                        "辞書です＝文脈に合わない。",
-                        "部屋にあります＝Where？の答え。",
-                        "○ 明日です。When？の答え。",
-                        "ノートです＝文脈に合わない。"
+                        "It's a dictionary.＝辞書です。物の答えで、いつ？に合いません。",
+                        "It's in my room.＝部屋にあります。Where（どこ）の答えです。",
+                        "○ It's tomorrow.＝明日です。When（いつ）の答えで自然です。",
+                        "It's a notebook.＝ノートです。物の答えで合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「じしょ」はちがうよ。",
@@ -588,13 +588,13 @@
                         "She's 41."
                     ],
                     "answer": 1,
-                    "grammar": "「あの女性は誰？→グリーンさんです」。",
+                    "grammar": "Who（誰）？と人を尋ねているので、人名で答える She's Ms. Green.（グリーンさんです）が自然。",
                     "grammarSimple": "「だれ？→グリーンさん！」",
                     "choiceAnalysis": [
-                        "○ グリーンさんです。Who？に人名で答える。",
-                        "親切です＝性格の答え。",
-                        "家にいます＝場所の答え。",
-                        "41歳です＝年齢の答え。"
+                        "○ She's Ms. Green.＝グリーンさんです。Who（誰）に人名で答え自然です。",
+                        "She's very kind.＝とても親切です。性格の答えです。",
+                        "She's at home.＝家にいます。場所の答えです。",
+                        "She's 41.＝41歳です。年齢の答えです。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「グリーンさん」がぴったり！",
@@ -621,13 +621,13 @@
                         "I have a dog."
                     ],
                     "answer": 4,
-                    "grammar": "「ペット飼ってる？→犬を飼ってる」。",
+                    "grammar": "「ペット飼ってる？」＋『名前はハリー』と続くので、I have a dog.（犬を飼っている）が自然。",
                     "grammarSimple": "「ペットいる？→いぬがいるよ！」",
                     "choiceAnalysis": [
-                        "名前を知ってる＝文脈に合わない。",
-                        "おじです＝文脈に合わない。",
-                        "釣りが好き＝文脈に合わない。",
-                        "○ 犬を飼ってる。ペットの質問に答える。"
+                        "I know your name.＝名前を知ってる。ペットの質問に合いません。",
+                        "he's my uncle.＝彼はおじ。ペットではありません。",
+                        "I like fishing.＝釣りが好き。ペットの答えではありません。",
+                        "○ I have a dog.＝犬を飼ってる。『名前はハリー』と自然につながります。"
                     ],
                     "choiceAnalysisSimple": [
                         "「なまえしってる」はちがうよ。",
@@ -654,13 +654,13 @@
                         "This isn't mine."
                     ],
                     "answer": 2,
-                    "grammar": "「何をしている？→メールを書いている」。",
+                    "grammar": "「何をしている？」への答え。今していることを表す I'm writing an e-mail.（メールを書いている）が自然。",
                     "grammarSimple": "「なにしてるの？→メールかいてる！」",
                     "choiceAnalysis": [
-                        "雨が降っている＝文脈に合わない。",
-                        "○ メールを書いている。何をしている？の答え。",
-                        "お腹が空いていない＝文脈に合わない。",
-                        "私のではない＝文脈に合わない。"
+                        "It's raining.＝雨が降っている。していることの答えになりません。",
+                        "○ I'm writing an e-mail.＝メールを書いている。していることの答えで自然です。",
+                        "I'm not hungry.＝お腹がすいていない。合いません。",
+                        "This isn't mine.＝これは私のではない。合いません。"
                     ],
                     "choiceAnalysisSimple": [
                         "「あめふってる」はちがうよ。",
@@ -713,19 +713,19 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「how do you go to the station?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「how do you go to the station?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "日本語は「あなたはどうやって駅へ行きますか。」。正しい英語は「how do you go to the station?」です。how＝どうやって（方法）。how → do → you → go。〈do＋主語＋動詞〉の疑問文。 ①〜④を正しい順にすると ③②④①（③how→②do→④you→①go）。空所は1番目と3番目なので、1番目＝③「how」、3番目＝④「you」。よって答えは ③ ─ ④。",
+                    "grammarSimple": "いみは「あなたはどうやって駅へ行きますか。」。ただしいえいごは「how do you go to the station?」だよ。「どうやって？」は how。how do you go ～? だよ。 1ばんめは ③「how」、3ばんめは ④「you」。だからこたえは ③ ─ ④！",
                     "choiceAnalysis": [
-                        "○ ③ ─ ④：1番目は「how」、3番目は「you」で、完成文「how do you go to the station?」の語順と一致します。",
-                        "① ─ ③：1番目を「go」、3番目を「how」にすると、完成文「how do you go to the station?」の語順になりません。",
-                        "② ─ ①：1番目を「do」、3番目を「go」にすると、完成文「how do you go to the station?」の語順になりません。",
-                        "④ ─ ②：1番目を「you」、3番目を「do」にすると、完成文「how do you go to the station?」の語順になりません。"
+                        "○ ③ ─ ④：1番目＝③「how」、3番目＝④「you」。完成文「how do you go to the station?」の語順と一致します。",
+                        "① ─ ③：1番目を①「go」、3番目を③「how」にすると、完成文「how do you go to the station?」の語順になりません。正しくは1番目＝③「how」、3番目＝④「you」です。",
+                        "② ─ ①：1番目を②「do」、3番目を①「go」にすると、完成文「how do you go to the station?」の語順になりません。正しくは1番目＝③「how」、3番目＝④「you」です。",
+                        "④ ─ ②：1番目を④「you」、3番目を②「do」にすると、完成文「how do you go to the station?」の語順になりません。正しくは1番目＝③「how」、3番目＝④「you」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ ③ ─ ④：1ばんめ「how」、3ばんめ「you」でピッタリ！",
-                        "① ─ ③：1ばんめ「go」と3ばんめ「how」だと、文のならびがちがうよ。",
-                        "② ─ ①：1ばんめ「do」と3ばんめ「go」だと、文のならびがちがうよ。",
-                        "④ ─ ②：1ばんめ「you」と3ばんめ「do」だと、文のならびがちがうよ。"
+                        "○ ③ ─ ④：1ばんめ③「how」、3ばんめ④「you」でピッタリ！",
+                        "① ─ ③：1ばんめ①「go」と3ばんめ③「how」だと ならびがちがうよ。ただしくは ③「how」と④「you」だね。",
+                        "② ─ ①：1ばんめ②「do」と3ばんめ①「go」だと ならびがちがうよ。ただしくは ③「how」と④「you」だね。",
+                        "④ ─ ②：1ばんめ④「you」と3ばんめ②「do」だと ならびがちがうよ。ただしくは ③「how」と④「you」だね。"
                     ],
                     "questionAudio": "audio/q21.mp3",
                     "translation": "あなたはどうやって駅へ行きますか。"
@@ -758,19 +758,19 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「My uncle reads the newspaper before breakfast.」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「My uncle reads the newspaper before breakfast.」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "日本語は「私のおじは朝食前に新聞を読みます。」。正しい英語は「My uncle reads the newspaper before breakfast.」です。主語 my uncle → 動詞 reads → the newspaper → before。before breakfast＝朝食前に。 ①〜④を正しい順にすると ②①③④（②uncle→①reads→③the newspaper→④before）。空所は1番目と3番目なので、1番目＝②「uncle」、3番目＝③「the newspaper」。よって答えは ② ─ ③。",
+                    "grammarSimple": "いみは「私のおじは朝食前に新聞を読みます。」。ただしいえいごは「My uncle reads the newspaper before breakfast.」だよ。「おじは新聞を読む」。My uncle reads ～ のじゅんだよ。 1ばんめは ②「uncle」、3ばんめは ③「the newspaper」。だからこたえは ② ─ ③！",
                     "choiceAnalysis": [
-                        "② ─ ①：1番目を「uncle」、3番目を「reads」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。",
-                        "① ─ ②：1番目を「reads」、3番目を「uncle」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。",
-                        "○ ② ─ ③：1番目は「uncle」、3番目は「the newspaper」で、完成文「My uncle reads the newspaper before breakfast.」の語順と一致します。",
-                        "① ─ ④：1番目を「reads」、3番目を「before」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。"
+                        "② ─ ①：1番目を②「uncle」、3番目を①「reads」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。正しくは1番目＝②「uncle」、3番目＝③「the newspaper」です。",
+                        "① ─ ②：1番目を①「reads」、3番目を②「uncle」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。正しくは1番目＝②「uncle」、3番目＝③「the newspaper」です。",
+                        "○ ② ─ ③：1番目＝②「uncle」、3番目＝③「the newspaper」。完成文「My uncle reads the newspaper before breakfast.」の語順と一致します。",
+                        "① ─ ④：1番目を①「reads」、3番目を④「before」にすると、完成文「My uncle reads the newspaper before breakfast.」の語順になりません。正しくは1番目＝②「uncle」、3番目＝③「the newspaper」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "② ─ ①：1ばんめ「uncle」と3ばんめ「reads」だと、文のならびがちがうよ。",
-                        "① ─ ②：1ばんめ「reads」と3ばんめ「uncle」だと、文のならびがちがうよ。",
-                        "○ ② ─ ③：1ばんめ「uncle」、3ばんめ「the newspaper」でピッタリ！",
-                        "① ─ ④：1ばんめ「reads」と3ばんめ「before」だと、文のならびがちがうよ。"
+                        "② ─ ①：1ばんめ②「uncle」と3ばんめ①「reads」だと ならびがちがうよ。ただしくは ②「uncle」と③「the newspaper」だね。",
+                        "① ─ ②：1ばんめ①「reads」と3ばんめ②「uncle」だと ならびがちがうよ。ただしくは ②「uncle」と③「the newspaper」だね。",
+                        "○ ② ─ ③：1ばんめ②「uncle」、3ばんめ③「the newspaper」でピッタリ！",
+                        "① ─ ④：1ばんめ①「reads」と3ばんめ④「before」だと ならびがちがうよ。ただしくは ②「uncle」と③「the newspaper」だね。"
                     ],
                     "questionAudio": "audio/q22.mp3",
                     "translation": "私のおじは朝食前に新聞を読みます。"
@@ -803,19 +803,19 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「where does Kenji go camping?」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「where does Kenji go camping?」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "日本語は「健二はどこにキャンプに行きますか。」。正しい英語は「where does Kenji go camping?」です。where＝どこ。where → does → Kenji → go。〈does＋主語＋動詞の原形〉の疑問文。 ①〜④を正しい順にすると ③①②④（③where→①does→②Kenji→④go）。空所は1番目と3番目なので、1番目＝③「where」、3番目＝②「Kenji」。よって答えは ③ ─ ②。",
+                    "grammarSimple": "いみは「健二はどこにキャンプに行きますか。」。ただしいえいごは「where does Kenji go camping?」だよ。「どこで？」は where。where does ～ go? だよ。 1ばんめは ③「where」、3ばんめは ②「Kenji」。だからこたえは ③ ─ ②！",
                     "choiceAnalysis": [
-                        "① ─ ④：1番目を「does」、3番目を「go」にすると、完成文「where does Kenji go camping?」の語順になりません。",
-                        "○ ③ ─ ②：1番目は「where」、3番目は「Kenji」で、完成文「where does Kenji go camping?」の語順と一致します。",
-                        "① ─ ③：1番目を「does」、3番目を「where」にすると、完成文「where does Kenji go camping?」の語順になりません。",
-                        "③ ─ ①：1番目を「where」、3番目を「does」にすると、完成文「where does Kenji go camping?」の語順になりません。"
+                        "① ─ ④：1番目を①「does」、3番目を④「go」にすると、完成文「where does Kenji go camping?」の語順になりません。正しくは1番目＝③「where」、3番目＝②「Kenji」です。",
+                        "○ ③ ─ ②：1番目＝③「where」、3番目＝②「Kenji」。完成文「where does Kenji go camping?」の語順と一致します。",
+                        "① ─ ③：1番目を①「does」、3番目を③「where」にすると、完成文「where does Kenji go camping?」の語順になりません。正しくは1番目＝③「where」、3番目＝②「Kenji」です。",
+                        "③ ─ ①：1番目を③「where」、3番目を①「does」にすると、完成文「where does Kenji go camping?」の語順になりません。正しくは1番目＝③「where」、3番目＝②「Kenji」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "① ─ ④：1ばんめ「does」と3ばんめ「go」だと、文のならびがちがうよ。",
-                        "○ ③ ─ ②：1ばんめ「where」、3ばんめ「Kenji」でピッタリ！",
-                        "① ─ ③：1ばんめ「does」と3ばんめ「where」だと、文のならびがちがうよ。",
-                        "③ ─ ①：1ばんめ「where」と3ばんめ「does」だと、文のならびがちがうよ。"
+                        "① ─ ④：1ばんめ①「does」と3ばんめ④「go」だと ならびがちがうよ。ただしくは ③「where」と②「Kenji」だね。",
+                        "○ ③ ─ ②：1ばんめ③「where」、3ばんめ②「Kenji」でピッタリ！",
+                        "① ─ ③：1ばんめ①「does」と3ばんめ③「where」だと ならびがちがうよ。ただしくは ③「where」と②「Kenji」だね。",
+                        "③ ─ ①：1ばんめ③「where」と3ばんめ①「does」だと ならびがちがうよ。ただしくは ③「where」と②「Kenji」だね。"
                     ],
                     "questionAudio": "audio/q23.mp3",
                     "translation": "健二はどこにキャンプに行きますか。"
@@ -848,19 +848,19 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「Please look at the calendar on the wall.」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「Please look at the calendar on the wall.」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "日本語は「壁にかかっているカレンダーを見てください。」。正しい英語は「Please look at the calendar on the wall.」です。命令文＋please。look at ～＝～を見る。look → at → the calendar → on。 ①〜④を正しい順にすると ③②④①（③look→②at→④the calendar→①on）。空所は1番目と3番目なので、1番目＝③「look」、3番目＝④「the calendar」。よって答えは ③ ─ ④。",
+                    "grammarSimple": "いみは「壁にかかっているカレンダーを見てください。」。ただしいえいごは「Please look at the calendar on the wall.」だよ。「見てください」は Please look at ～。look at ～ だよ。 1ばんめは ③「look」、3ばんめは ④「the calendar」。だからこたえは ③ ─ ④！",
                     "choiceAnalysis": [
-                        "④ ─ ②：1番目を「the calendar」、3番目を「at」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。",
-                        "② ─ ③：1番目を「at」、3番目を「look」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。",
-                        "○ ③ ─ ④：1番目は「look」、3番目は「the calendar」で、完成文「Please look at the calendar on the wall.」の語順と一致します。",
-                        "① ─ ④：1番目を「on」、3番目を「the calendar」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。"
+                        "④ ─ ②：1番目を④「the calendar」、3番目を②「at」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。正しくは1番目＝③「look」、3番目＝④「the calendar」です。",
+                        "② ─ ③：1番目を②「at」、3番目を③「look」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。正しくは1番目＝③「look」、3番目＝④「the calendar」です。",
+                        "○ ③ ─ ④：1番目＝③「look」、3番目＝④「the calendar」。完成文「Please look at the calendar on the wall.」の語順と一致します。",
+                        "① ─ ④：1番目を①「on」、3番目を④「the calendar」にすると、完成文「Please look at the calendar on the wall.」の語順になりません。正しくは1番目＝③「look」、3番目＝④「the calendar」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "④ ─ ②：1ばんめ「the calendar」と3ばんめ「at」だと、文のならびがちがうよ。",
-                        "② ─ ③：1ばんめ「at」と3ばんめ「look」だと、文のならびがちがうよ。",
-                        "○ ③ ─ ④：1ばんめ「look」、3ばんめ「the calendar」でピッタリ！",
-                        "① ─ ④：1ばんめ「on」と3ばんめ「the calendar」だと、文のならびがちがうよ。"
+                        "④ ─ ②：1ばんめ④「the calendar」と3ばんめ②「at」だと ならびがちがうよ。ただしくは ③「look」と④「the calendar」だね。",
+                        "② ─ ③：1ばんめ②「at」と3ばんめ③「look」だと ならびがちがうよ。ただしくは ③「look」と④「the calendar」だね。",
+                        "○ ③ ─ ④：1ばんめ③「look」、3ばんめ④「the calendar」でピッタリ！",
+                        "① ─ ④：1ばんめ①「on」と3ばんめ④「the calendar」だと ならびがちがうよ。ただしくは ③「look」と④「the calendar」だね。"
                     ],
                     "questionAudio": "audio/q24.mp3",
                     "translation": "壁にかかっているカレンダーを見てください。"
@@ -893,19 +893,19 @@
                         1,
                         3
                     ],
-                    "grammar": "まず文の形を決めます。完成文は「My father has a cup of coffee every morning.」です。この問題は1番目と3番目を選ぶので、語順を最後まで作ってから、1番目と3番目の番号の組み合わせを確認しましょう。",
-                    "grammarSimple": "できあがりの文は「My father has a cup of coffee every morning.」だよ。1ばんめと3ばんめに入る番号を見つければOK！",
+                    "grammar": "日本語は「父は毎朝，一杯のコーヒーを飲みます。」。正しい英語は「My father has a cup of coffee every morning.」です。a cup of ～＝1杯の～。my father → has → a cup of coffee。has は have の三単現。 ①〜④を正しい順にすると ②④③①（②has→④a→③cup→①of）。空所は1番目と3番目なので、1番目＝②「has」、3番目＝③「cup」。よって答えは ② ─ ③。",
+                    "grammarSimple": "いみは「父は毎朝，一杯のコーヒーを飲みます。」。ただしいえいごは「My father has a cup of coffee every morning.」だよ。「コーヒーを1ぱい」は a cup of coffee。My father has ～ だよ。 1ばんめは ②「has」、3ばんめは ③「cup」。だからこたえは ② ─ ③！",
                     "choiceAnalysis": [
-                        "① ─ ②：1番目を「of」、3番目を「has」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。",
-                        "② ─ ④：1番目を「has」、3番目を「a」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。",
-                        "○ ② ─ ③：1番目は「has」、3番目は「cup」で、完成文「My father has a cup of coffee every morning.」の語順と一致します。",
-                        "③ ─ ①：1番目を「cup」、3番目を「of」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。"
+                        "① ─ ②：1番目を①「of」、3番目を②「has」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。正しくは1番目＝②「has」、3番目＝③「cup」です。",
+                        "② ─ ④：1番目を②「has」、3番目を④「a」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。正しくは1番目＝②「has」、3番目＝③「cup」です。",
+                        "○ ② ─ ③：1番目＝②「has」、3番目＝③「cup」。完成文「My father has a cup of coffee every morning.」の語順と一致します。",
+                        "③ ─ ①：1番目を③「cup」、3番目を①「of」にすると、完成文「My father has a cup of coffee every morning.」の語順になりません。正しくは1番目＝②「has」、3番目＝③「cup」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "① ─ ②：1ばんめ「of」と3ばんめ「has」だと、文のならびがちがうよ。",
-                        "② ─ ④：1ばんめ「has」と3ばんめ「a」だと、文のならびがちがうよ。",
-                        "○ ② ─ ③：1ばんめ「has」、3ばんめ「cup」でピッタリ！",
-                        "③ ─ ①：1ばんめ「cup」と3ばんめ「of」だと、文のならびがちがうよ。"
+                        "① ─ ②：1ばんめ①「of」と3ばんめ②「has」だと ならびがちがうよ。ただしくは ②「has」と③「cup」だね。",
+                        "② ─ ④：1ばんめ②「has」と3ばんめ④「a」だと ならびがちがうよ。ただしくは ②「has」と③「cup」だね。",
+                        "○ ② ─ ③：1ばんめ②「has」、3ばんめ③「cup」でピッタリ！",
+                        "③ ─ ①：1ばんめ③「cup」と3ばんめ①「of」だと ならびがちがうよ。ただしくは ②「has」と③「cup」だね。"
                     ],
                     "questionAudio": "audio/q25.mp3",
                     "translation": "父は毎朝，一杯のコーヒーを飲みます。"
