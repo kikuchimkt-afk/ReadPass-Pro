@@ -516,13 +516,13 @@
                     "number": 16,
                     "text": "Daughter: Can I go outside to play now?\nFather: No, (　)",
                     "choices": [
-                        "Wash the dishes first.",
-                        "Have fun.",
+                        "wash the dishes first.",
+                        "have fun.",
                         "I don't like it very much.",
-                        "It's not yours."
+                        "it's not yours."
                     ],
                     "answer": 1,
-                    "grammar": "父の「No（だめ）」に続く内容を選びます。遊ぶ前にすべきことを言う「Wash the dishes first.（先に皿を洗って）」が自然。Have fun は許可の言葉なので「No」と矛盾します。",
+                    "grammar": "父の「No（だめ）」に続く内容を選びます。遊ぶ前にすべきことを言う「wash the dishes first.（先に皿を洗って）」が自然。have fun は許可の言葉なので「No」と矛盾します。",
                     "grammarSimple": "パパは「だめ」と言ってるね。だから「さきに おさらを あらって」がぴったり！",
                     "choiceAnalysis": [
                         "○ 先に皿を洗って。「だめ」の理由として自然です。",
