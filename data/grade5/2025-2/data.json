@@ -67,7 +67,7 @@
                         "○「き」がぴったり！"
                     ],
                     "questionAudio": "audio/q2.mp3",
-                    "translation": "原さんは庭に大きな（　）があります。オレンジがたくさんなっています。",
+                    "translation": "原さんの庭には大きな（　）があります。それにはオレンジがたくさんなっています。",
                     "choiceTranslations": [
                         "皿",
                         "フォーク",
@@ -100,7 +100,7 @@
                         "「ものがたり」はちがうよ。"
                     ],
                     "questionAudio": "audio/q3.mp3",
-                    "translation": "A: お母さん、この単語がわからない。助けて。\nB: だめよ。（　）を使いなさい、トム。",
+                    "translation": "A: お母さん、この単語がわからない。助けてくれる？\nB: いいえ、できないわ。自分の（　）を使いなさい、トム。",
                     "choiceTranslations": [
                         "ページ",
                         "カップ",
@@ -267,7 +267,7 @@
                     "questionAudio": "audio/q8.mp3",
                     "translation": "A: 風邪だから今日はサッカーできないよ。\nB: （　）。大丈夫だよ。",
                     "choiceTranslations": [
-                        "私は",
+                        "〜です・います",
                         "する",
                         "わかった",
                         "大好き"
@@ -555,7 +555,7 @@
                         "Every weekend."
                     ],
                     "answer": 3,
-                    "grammar": "「何の飲み物がほしい？」は飲み物をたずねる質問。飲み物で答える Orange juice, please. が正解。卵2つ（食べ物）・はい夜に・毎週末（時）は飲み物の答えになりません。",
+                    "grammar": "「何を飲みたい？」は飲み物をたずねる質問。飲み物で答える Orange juice, please. が正解。卵2つ（食べ物）・はい夜に・毎週末（時）は飲み物の答えになりません。",
                     "grammarSimple": "「なにのむ？→オレンジジュース」！",
                     "choiceAnalysis": [
                         "Two eggs.（卵2つ）＝食べ物の答え。",
@@ -570,7 +570,7 @@
                         "「まいしゅうまつ」はちがうよ。"
                     ],
                     "questionAudio": "audio/q17.mp3",
-                    "translation": "Mother: 何の飲み物がほしい？\nGirl: （　）",
+                    "translation": "Mother: 何を飲みたい？\nGirl: （　）",
                     "choiceTranslations": [
                         "卵2つ。",
                         "はい、夜に。",
@@ -669,7 +669,7 @@
                         "「わたしのじゃない」はちがうよ。"
                     ],
                     "questionAudio": "audio/q20.mp3",
-                    "translation": "Boy: リサ、今日うちに来れる？\nGirl: だめなの。（　）",
+                    "translation": "Boy: リサ、今日うちに来れる？\nGirl: ううん、行けないの。（　）",
                     "choiceTranslations": [
                         "いいね。",
                         "バイオリンのレッスンがあるの。",
@@ -1383,8 +1383,7 @@
                     },
                     {
                         "q": "let'sの後の動詞はどんな形？",
-                        "a": "原形（そのままの形）",
-                        "audio": "audio/challenge_fp3_q3.mp3"
+                        "a": "原形（そのままの形）"
                     }
                 ],
                 "practiceQuestionsSimple": [
@@ -1400,8 +1399,7 @@
                     },
                     {
                         "q": "let'sのあとの動詞は？",
-                        "a": "げんけい（そのままのかたち）",
-                        "audio": "audio/challenge_fp3_q3.mp3"
+                        "a": "げんけい（そのままのかたち）"
                     }
                 ]
             },

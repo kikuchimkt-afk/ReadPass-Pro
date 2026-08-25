@@ -331,9 +331,9 @@
                         "「たくさん」はちがうよ。"
                     ],
                     "questionAudio": "audio/q10.mp3",
-                    "translation": "A: ボブ、バスケするの？\nB: うん、（　）少し。",
+                    "translation": "A: ボブ、バスケするの？\nB: うん、（　）。",
                     "choiceTranslations": [
-                        "少し",
+                        "少しだけ",
                         "美しい",
                         "速い",
                         "たくさん"
@@ -349,7 +349,7 @@
                         "right"
                     ],
                     "answer": 2,
-                    "grammar": "「毎朝早く○○」がヒント。get up で「起きる」という決まった言い方。on/over/right では「起きる」の意味になりません。",
+                    "grammar": "「毎朝早く起きて、公園に行く」がヒント。get up で「起きる」という決まった言い方。on/over/right では「起きる」の意味になりません。",
                     "grammarSimple": "「おきる」＝ get up！",
                     "choiceAnalysis": [
                         "on＝get on で「乗る」。合いません。",
@@ -364,12 +364,12 @@
                         "「right」はちがうよ。"
                     ],
                     "questionAudio": "audio/q11.mp3",
-                    "translation": "私は毎朝早く（　）起きて公園に行きます。",
+                    "translation": "私は毎朝早く（　）、公園に行きます。",
                     "choiceTranslations": [
-                        "上に",
-                        "起きる",
-                        "越えて",
-                        "正しい"
+                        "乗って",
+                        "起きて",
+                        "乗りこえて",
+                        "正しくして"
                     ]
                 },
                 {
@@ -415,7 +415,7 @@
                         "writing"
                     ],
                     "answer": 3,
-                    "grammar": "「手紙を○○していい？」がヒント。can のあとの動詞はいつも原形なので write。writes（三単現）・wrote（過去形）・writing（ing形）は can のあとには使いません。",
+                    "grammar": "「手紙を書いてもいい？」がヒント。can のあとの動詞はいつも原形なので write。writes（三単現）・wrote（過去形）・writing（ing形）は can のあとには使いません。",
                     "grammarSimple": "can のあとは げんけい！ write！",
                     "choiceAnalysis": [
                         "writes＝三単現。can のあとに使えません。",
@@ -430,12 +430,12 @@
                         "「writing」はちがうよ。"
                     ],
                     "questionAudio": "audio/q13.mp3",
-                    "translation": "A: お母さん、今日の午後ロブおじさんに手紙を（　）いい？\nB: もちろん、ケンジ。",
+                    "translation": "A: お母さん、今日の午後ロブおじさんに手紙を（　）？\nB: もちろん、ケンジ。",
                     "choiceTranslations": [
-                        "書く（三単現）",
-                        "書いた",
-                        "書く",
-                        "書いている"
+                        "書きますか",
+                        "書いたの",
+                        "書いてもいい",
+                        "書いているの"
                     ]
                 },
                 {
@@ -481,7 +481,7 @@
                         "opened"
                     ],
                     "answer": 2,
-                    "grammar": "「窓を○○して」がヒント。Please で始まる命令文の動詞は原形なので open。opens（三単現）・opening（ing形）・opened（過去形）は命令文では使いません。",
+                    "grammar": "「暑いので、窓を開けてください」がヒント。Please で始まる命令文の動詞は原形なので open。opens（三単現）・opening（ing形）・opened（過去形）は命令文では使いません。",
                     "grammarSimple": "Please のあとは げんけい！ open！",
                     "choiceAnalysis": [
                         "opens＝三単現。命令文では使いません。",
@@ -496,12 +496,12 @@
                         "「opened」はちがうよ。"
                     ],
                     "questionAudio": "audio/q15.mp3",
-                    "translation": "A: 暑いです。窓を（　）して。\nB: はい、お母さん。",
+                    "translation": "A: 暑いです。窓を（　）。\nB: はい、お母さん。",
                     "choiceTranslations": [
-                        "開ける（三単現）",
-                        "開ける",
-                        "開けている",
-                        "開けた"
+                        "開けます",
+                        "開けてください",
+                        "開けています",
+                        "開けました"
                     ]
                 }
             ]
@@ -1383,8 +1383,7 @@
                     },
                     {
                         "q": "canの後の動詞はどんな形？",
-                        "a": "原形（そのままの形）",
-                        "audio": "audio/challenge_fp3_q3.mp3"
+                        "a": "原形（そのままの形）"
                     }
                 ],
                 "practiceQuestionsSimple": [
@@ -1400,8 +1399,7 @@
                     },
                     {
                         "q": "canのあとの動詞は？",
-                        "a": "げんけい（そのままのかたち）",
-                        "audio": "audio/challenge_fp3_q3.mp3"
+                        "a": "げんけい（そのままのかたち）"
                     }
                 ]
             },

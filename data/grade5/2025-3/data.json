@@ -829,18 +829,18 @@
                         "② ─ ④",
                         "② ─ ③"
                     ],
-                    "answer": 4,
+                    "answer": 3,
                     "words": [
                         "does",
                         "what",
-                        "Tom's father",
-                        "teach"
+                        "teach",
+                        "Tom's father"
                     ],
                     "correctOrder": [
                         2,
                         1,
-                        3,
-                        4
+                        4,
+                        3
                     ],
                     "framePrefix": "",
                     "frameSuffix": "at college?",
@@ -848,19 +848,19 @@
                         1,
                         3
                     ],
-                    "grammar": "日本語は「トムのお父さんは大学で何を教えていますか。」。正しい英語は「What does Tom's father teach at college?」です。三人称単数の疑問文で what → does → Tom's father → teach。does のあとは原形。 ①〜④を正しい順にすると ②①③④（what → does → Tom's father → teach）です。空所は1番目と3番目なので、1番目＝②「what」、3番目＝③「Tom's father」。よって答えは ② ─ ③。",
-                    "grammarSimple": "いみは「トムのお父さんは大学で何を教えていますか。」。ただしい えいごは「What does Tom's father teach at college?」だよ。「なにを おしえる？」は what → does → Tom's father → teach。does のあとはげんけい！ 1ばんめは ②「what」、3ばんめは ③「Tom's father」。だから こたえは ② ─ ③！",
+                    "grammar": "日本語は「トムのお父さんは大学で何を教えていますか。」。正しい英語は「What does Tom's father teach at college?」です。三人称単数の疑問文で what → does → Tom's father → teach。does のあとは原形。①〜④を正しい順にすると ②①④③（what → does → Tom's father → teach）です。空所は1番目と3番目なので、1番目＝②「what」、3番目＝④「Tom's father」。よって答えは ② ─ ④。",
+                    "grammarSimple": "いみは「トムのお父さんは大学で何を教えていますか。」。ただしい えいごは「What does Tom's father teach at college?」だよ。「なにを おしえる？」は what → does → Tom's father → teach。does のあとはげんけい！ 1ばんめは ②「what」、3ばんめは ④「Tom's father」。だから こたえは ② ─ ④！",
                     "choiceAnalysis": [
-                        "④ ─ ①：1番目が④「teach」、3番目が①「does」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝③「Tom's father」です。",
-                        "③ ─ ②：1番目が③「Tom's father」、3番目が②「what」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝③「Tom's father」です。",
-                        "② ─ ④：1番目が②「what」、3番目が④「teach」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝③「Tom's father」です。",
-                        "○ ② ─ ③：1番目＝②「what」、3番目＝③「Tom's father」。完成文「What does Tom's father teach at college?」の語順と一致します。"
+                        "④ ─ ①：1番目が④「Tom's father」、3番目が①「does」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝④「Tom's father」です。",
+                        "③ ─ ②：1番目が③「teach」、3番目が②「what」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝④「Tom's father」です。",
+                        "○ ② ─ ④：1番目＝②「what」、3番目＝④「Tom's father」。完成文「What does Tom's father teach at college?」の語順と一致します。",
+                        "② ─ ③：1番目が②「what」、3番目が③「teach」になり、正しい語順「What does Tom's father teach at college?」になりません。正しくは1番目＝②「what」、3番目＝④「Tom's father」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "④ ─ ①：1ばんめ④「teach」と3ばんめ①「does」だと ならびがちがうよ。ただしくは ②「what」と③「Tom's father」だね。",
-                        "③ ─ ②：1ばんめ③「Tom's father」と3ばんめ②「what」だと ならびがちがうよ。ただしくは ②「what」と③「Tom's father」だね。",
-                        "② ─ ④：1ばんめ②「what」と3ばんめ④「teach」だと ならびがちがうよ。ただしくは ②「what」と③「Tom's father」だね。",
-                        "○ ② ─ ③：1ばんめ②「what」、3ばんめ③「Tom's father」でピッタリ！"
+                        "④ ─ ①：1ばんめ④「Tom's father」と3ばんめ①「does」だと ならびがちがうよ。ただしくは ②「what」と④「Tom's father」だね。",
+                        "③ ─ ②：1ばんめ③「teach」と3ばんめ②「what」だと ならびがちがうよ。ただしくは ②「what」と④「Tom's father」だね。",
+                        "○ ② ─ ④：1ばんめ②「what」、3ばんめ④「Tom's father」でピッタリ！",
+                        "② ─ ③：1ばんめ②「what」と3ばんめ③「teach」だと ならびがちがうよ。ただしくは ②「what」と④「Tom's father」だね。"
                     ],
                     "questionAudio": "audio/q24.mp3",
                     "translation": "トムのお父さんは大学で何を教えていますか。"

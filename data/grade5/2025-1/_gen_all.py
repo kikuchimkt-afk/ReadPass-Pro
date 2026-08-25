@@ -66,32 +66,32 @@ data = {
                  "grammar":"「バスケする？→少し」→ a little＝少し。","grammarSimple":"「すこし」→ a little！",
                  "choiceAnalysis":["○ little＝a little＝少し。","beautiful＝美しい。","fast＝速い。","much＝たくさん。"],
                  "choiceAnalysisSimple":["○ a little＝「すこし」がぴったり！","「うつくしい」はちがうよ。","「はやい」はちがうよ。","「たくさん」はちがうよ。"],
-                 "questionAudio":"audio/q10.mp3","translation":"A: ボブ、バスケするの？\nB: うん、（　）少し。","choiceTranslations":["少し","美しい","速い","たくさん"]},
+                 "questionAudio":"audio/q10.mp3","translation":"A: ボブ、バスケするの？\nB: うん、（　）。","choiceTranslations":["少しだけ","美しい","速い","たくさん"]},
                 {"number":11,"text":"I get (　) early every morning and go to the park.","choices":["on","up","over","right"],"answer":2,
-                 "grammar":"「毎朝早く○○起きて公園に行く」→ up。get up＝起きる。","grammarSimple":"「おきる」→ get up！",
+                 "grammar":"「毎朝早く起きて、公園に行く」→ up。get up＝起きる。","grammarSimple":"「おきる」→ get up！",
                  "choiceAnalysis":["on＝get on＝乗る。","○ up＝get up＝起きる。","over＝get over＝乗り越える。","right＝get right＝正しくする。"],
                  "choiceAnalysisSimple":["「のる」はちがうよ。","○ get up＝「おきる」がぴったり！","「のりこえる」はちがうよ。","「right」はちがうよ。"],
-                 "questionAudio":"audio/q11.mp3","translation":"私は毎朝早く（　）起きて公園に行きます。","choiceTranslations":["上に","起きる","越えて","正しい"]},
+                 "questionAudio":"audio/q11.mp3","translation":"私は毎朝早く（　）、公園に行きます。","choiceTranslations":["乗って","起きて","乗りこえて","正しくして"]},
                 {"number":12,"text":"Janet (　) swimming every Sunday with her sister.","choices":["goes","asks","buys","drinks"],"answer":1,
                  "grammar":"「毎週日曜に姉と泳ぎに○○」→ goes。goes swimming＝泳ぎに行く。","grammarSimple":"「およぎにいく」→ goes swimming！",
                  "choiceAnalysis":["○ goes＝goes swimming＝泳ぎに行く。","asks＝聞く。","buys＝買う。","drinks＝飲む。"],
                  "choiceAnalysisSimple":["○「およぎにいく」がぴったり！","「きく」はちがうよ。","「かう」はちがうよ。","「のむ」はちがうよ。"],
                  "questionAudio":"audio/q12.mp3","translation":"ジャネットは毎週日曜に姉と泳ぎに（　）ます。","choiceTranslations":["行く","聞く","買う","飲む"]},
                 {"number":13,"text":"A: Mom, can I (　) a letter to Uncle Rob this afternoon?\nB: Of course, Kenji.","choices":["writes","wrote","write","writing"],"answer":3,
-                 "grammar":"「手紙を○○していい？」→ write。can I＋動詞の原形。","grammarSimple":"「てがみをかいていい？」→ can I write！",
+                 "grammar":"「手紙を書いてもいい？」→ write。can I＋動詞の原形。","grammarSimple":"「てがみをかいてもいい？」→ can I write！",
                  "choiceAnalysis":["writes＝三人称単数形。","wrote＝過去形。","○ write＝原形。can＋原形。","writing＝現在分詞。"],
                  "choiceAnalysisSimple":["「writes」はちがうよ。","「wrote」はちがうよ。","○「write」がぴったり！canのあとは原形！","「writing」はちがうよ。"],
-                 "questionAudio":"audio/q13.mp3","translation":"A: お母さん、今日の午後ロブおじさんに手紙を（　）いい？\nB: もちろん、ケンジ。","choiceTranslations":["書く（三単現）","書いた","書く","書いている"]},
+                 "questionAudio":"audio/q13.mp3","translation":"A: お母さん、今日の午後ロブおじさんに手紙を（　）？\nB: もちろん、ケンジ。","choiceTranslations":["書きますか","書いたの","書いてもいい","書いているの"]},
                 {"number":14,"text":"I know Tim and Lucy. (　) are Canadian.","choices":["He","They","It","You"],"answer":2,
                  "grammar":"「ティムとルーシーを知っている。○○はカナダ人だ」→ They（彼らは）。","grammarSimple":"「かれらは」→ They！",
                  "choiceAnalysis":["He＝彼は（単数）。","○ They＝彼らは。Tim and Lucy＝複数。","It＝それは。","You＝あなたは。"],
                  "choiceAnalysisSimple":["「かれは」はひとりだよ。","○「かれらは」がぴったり！","「それは」はちがうよ。","「あなたは」はちがうよ。"],
                  "questionAudio":"audio/q14.mp3","translation":"ティムとルーシーを知っています。（　）はカナダ人です。","choiceTranslations":["彼は","彼らは","それは","あなたは"]},
                 {"number":15,"text":"A: It's hot. Please (　) the window.\nB: OK, Mom.","choices":["opens","open","opening","opened"],"answer":2,
-                 "grammar":"「暑い。窓を○○して」→ open。Please＋動詞の原形。","grammarSimple":"「まどをあけて」→ Please open！",
+                 "grammar":"「暑いので、窓を開けてください」→ open。Please＋動詞の原形。","grammarSimple":"「まどをあけてください」→ Please open！",
                  "choiceAnalysis":["opens＝三人称単数形。","○ open＝原形。Please＋原形。","opening＝現在分詞。","opened＝過去形。"],
                  "choiceAnalysisSimple":["「opens」はちがうよ。","○「open」がぴったり！Pleaseのあとは原形！","「opening」はちがうよ。","「opened」はちがうよ。"],
-                 "questionAudio":"audio/q15.mp3","translation":"A: 暑いです。窓を（　）して。\nB: はい、お母さん。","choiceTranslations":["開ける（三単現）","開ける","開けている","開けた"]}
+                 "questionAudio":"audio/q15.mp3","translation":"A: 暑いです。窓を（　）。\nB: はい、お母さん。","choiceTranslations":["開けます","開けてください","開けています","開けました"]}
             ]
         },
         {
@@ -239,12 +239,12 @@ data = {
              "practiceQuestions":[
                  {"q":"「手紙を書いていい？」を英語で言うと？","a":"Can I write a letter?","audio":"audio/challenge_fp3_q1.mp3"},
                  {"q":"「ピアノが弾ける」を英語で言うと？","a":"She can play the piano.","audio":"audio/challenge_fp3_q2.mp3"},
-                 {"q":"canの後の動詞はどんな形？","a":"原形（そのままの形）","audio":"audio/challenge_fp3_q3.mp3"}
+                 {"q":"canの後の動詞はどんな形？","a":"原形（そのままの形）"}
              ],
              "practiceQuestionsSimple":[
                  {"q":"「てがみをかいていい？」をえいごでいうと？","a":"Can I write a letter?","audio":"audio/challenge_fp3_q1.mp3"},
                  {"q":"「ピアノがひける」をえいごでいうと？","a":"She can play the piano.","audio":"audio/challenge_fp3_q2.mp3"},
-                 {"q":"canのあとの動詞は？","a":"げんけい（そのままのかたち）","audio":"audio/challenge_fp3_q3.mp3"}
+                 {"q":"canのあとの動詞は？","a":"げんけい（そのままのかたち）"}
              ]},
             {"id":"fp4","title":"代名詞 They / on TV / a cup of","titleSimple":"They are / on TV / a cup of coffee","subtitle":"Pronouns & Phrases",
              "highlightLabel":"代名詞・句","highlightColor":"#A78BFA","highlightPatterns":[],"challenge":[],"source":"","sourceLocation":"大問1 Q8, Q9, Q14",
