@@ -164,6 +164,42 @@
 
     const BASE_URL = 'https://read-pass-pro.vercel.app/';
     const FIXED_EXAM_PDFS = {
+        'grade5/2025-1': {
+            label: '英検5級 2025年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade5_2025-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade5-v1',
+            downloadName: 'ReadPass_EIKEN_Grade5_2025-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 6
+        },
+        'grade5/2025-2': {
+            label: '英検5級 2025年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade5_2025-2_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade5-v1',
+            downloadName: 'ReadPass_EIKEN_Grade5_2025-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 6
+        },
+        'grade5/2025-3': {
+            label: '英検5級 2025年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade5_2025-3_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade5-v1',
+            downloadName: 'ReadPass_EIKEN_Grade5_2025-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 6
+        },
+        'grade4/2025-1': {
+            label: '英検4級 2025年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade4_2025-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade4-v1',
+            downloadName: 'ReadPass_EIKEN_Grade4_2025-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
+        'grade4/2025-2': {
+            label: '英検4級 2025年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade4_2025-2_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade4-v1',
+            downloadName: 'ReadPass_EIKEN_Grade4_2025-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
+        'grade4/2025-3': {
+            label: '英検4級 2025年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade4_2025-3_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade4-v1',
+            downloadName: 'ReadPass_EIKEN_Grade4_2025-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
         'grade2/2025-1': {
             label: '英検2級 2025年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_Grade2_2025-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade2-v1',

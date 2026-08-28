@@ -44,12 +44,16 @@ GUTTER = Color(0.76, 0.76, 0.76)
 PALE = Color(0.94, 0.94, 0.94)
 
 GRADE_LABELS = {
+    "grade5": "英検5級",
+    "grade4": "英検4級",
     "grade3": "英検3級",
     "grade-pre2": "英検準2級",
     "grade-pre2plus": "英検準2級プラス",
     "grade2": "英検2級",
 }
 GRADE_FILE_TOKENS = {
+    "grade5": "Grade5",
+    "grade4": "Grade4",
     "grade3": "Grade3",
     "grade-pre2": "GradePre2",
     "grade-pre2plus": "GradePre2Plus",
@@ -106,6 +110,14 @@ def clean_text(value: object, wide_blanks: bool = True) -> str:
     for before, after in replacements.items():
         text = text.replace(before, after)
     return re.sub(r"[ \t]+", " ", text).strip()
+
+
+def printable_instruction(value: object) -> str:
+    text = clean_text(value, wide_blanks=False)
+    return text.replace(
+        "一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+        "一つ選びなさい。",
+    )
 
 
 def question_range_label(questions: list[dict]) -> str:
@@ -442,6 +454,177 @@ def draw_questions_page(
     c.showPage()
 
 
+def draw_word_order_block(
+    c: canvas.Canvas,
+    question: dict,
+    top: float,
+    height: float,
+) -> None:
+    number = int(question["number"])
+    bottom = top - height
+    draw_gutter(c, top, bottom)
+
+    c.setFillColor(INK)
+    c.setFont(SERIF_ITALIC, 11.5)
+    c.drawCentredString(GUTTER_X + (GUTTER_W / 2), top - 18, f"({number})")
+    cursor = draw_wrapped(
+        c,
+        question.get("text", ""),
+        BODY_X,
+        top - 17,
+        BODY_W,
+        font=JP_REGULAR,
+        size=10.4,
+        leading=13.2,
+        wide_blanks=False,
+    ) - 4
+
+    words = [clean_text(word) for word in question.get("words", [])]
+    columns = 4 if len(words) <= 4 else 3
+    rows = (len(words) + columns - 1) // columns
+    cell_gap = 5
+    cell_height = 28
+    cell_width = (BODY_W - (cell_gap * (columns - 1))) / columns
+    circled_numbers = "①②③④⑤⑥"
+    for index, word in enumerate(words):
+        row = index // columns
+        col = index % columns
+        x = BODY_X + (col * (cell_width + cell_gap))
+        cell_top = cursor - (row * cell_height)
+        c.setFillColor(PALE)
+        c.rect(x, cell_top - 23, cell_width, 23, stroke=0, fill=1)
+        c.setFillColor(INK)
+        c.setFont(JP_BOLD, 8.8)
+        c.drawString(x + 5, cell_top - 15, circled_numbers[index])
+        draw_wrapped(c, word, x + 23, cell_top - 10, cell_width - 28, font=SERIF, size=9.2, leading=10.2)
+    cursor -= rows * cell_height + 2
+
+    prefix = clean_text(question.get("framePrefix", ""))
+    suffix = clean_text(question.get("frameSuffix", ""))
+    c.setFillColor(INK)
+    c.setFont(SERIF, 10.2)
+    x = BODY_X
+    if prefix:
+        c.drawString(x, cursor, prefix)
+        x += pdfmetrics.stringWidth(prefix, SERIF, 10.2) + 8
+    suffix_width = pdfmetrics.stringWidth(suffix, SERIF, 10.2) if suffix else 0
+    slot_gap = 5
+    slot_width = (RIGHT_X - x - suffix_width - 10 - (slot_gap * (len(words) - 1))) / len(words)
+    for _ in words:
+        c.setStrokeColor(DARK)
+        c.setLineWidth(0.65)
+        c.line(x, cursor - 3, x + slot_width, cursor - 3)
+        x += slot_width + slot_gap
+    if suffix:
+        c.drawString(x + 2, cursor, suffix)
+    cursor -= 21
+
+    choices = question.get("choices", [])
+    col_width = BODY_W / 4
+    for index, choice in enumerate(choices):
+        x = BODY_X + (index * col_width)
+        c.setFillColor(INK)
+        c.setFont(SERIF_BOLD, 9.8)
+        c.drawString(x, cursor, str(index + 1))
+        draw_wrapped(
+            c,
+            choice,
+            x + 18,
+            cursor,
+            col_width - 23,
+            font=JP_REGULAR,
+            size=9.6,
+            leading=10.8,
+            wide_blanks=False,
+        )
+
+    if cursor < bottom + 12:
+        raise RuntimeError(f"Word-order question {number} overflowed its fixed block")
+    draw_dotted_rule(c, BODY_X, bottom + 2, BODY_W)
+
+
+def draw_word_order_page(
+    c: canvas.Canvas,
+    page_number: int,
+    total_pages: int,
+    grade_label: str,
+    exam_label: str,
+    section: dict,
+) -> None:
+    draw_page_header(c, grade_label, exam_label)
+    questions = section.get("questions", [])
+    top = draw_section_title(
+        c,
+        f"大問3  語句整序  {question_range_label(questions)}",
+        printable_instruction(section.get("instruction", "")),
+        PAGE_H - 58,
+    )
+    block_height = (top - BOTTOM_Y) / len(questions)
+    cursor = top
+    for question in questions:
+        draw_word_order_block(c, question, cursor, block_height)
+        cursor -= block_height
+    draw_page_footer(c, page_number, total_pages)
+    c.showPage()
+
+
+def draw_notice_page(
+    c: canvas.Canvas,
+    page_number: int,
+    total_pages: int,
+    grade_label: str,
+    exam_label: str,
+    passage: dict,
+) -> None:
+    questions = passage.get("questions", [])
+    draw_page_header(c, grade_label, exam_label)
+    top = draw_section_title(
+        c,
+        f"大問4A  案内文  {question_range_label(questions)}",
+        "案内文を読み、最も適切なものを1つ選びなさい。",
+        PAGE_H - 58,
+    )
+    draw_gutter(c, top)
+
+    panel_height = 255
+    c.setStrokeColor(DARK)
+    c.setLineWidth(0.7)
+    c.rect(BODY_X, top - panel_height, BODY_W, panel_height, stroke=1, fill=0)
+    c.setFillColor(INK)
+    c.setFont(SERIF_BOLD, 16)
+    c.drawCentredString(BODY_X + (BODY_W / 2), top - 28, clean_text(passage.get("title", "")))
+
+    paragraphs = passage.get("paragraphs", [])
+    first_lines = [clean_text(line) for line in (paragraphs[0].splitlines() if paragraphs else []) if clean_text(line)]
+    title = clean_text(passage.get("title", ""))
+    if first_lines and first_lines[0].lower() == title.lower():
+        first_lines = first_lines[1:]
+    info_height = max(48, 16 + (len(first_lines) * 14))
+    info_top = top - 47
+    c.setFillColor(PALE)
+    c.rect(BODY_X + 14, info_top - info_height, BODY_W - 28, info_height, stroke=0, fill=1)
+    cursor = info_top - 18
+    for line in first_lines:
+        c.setFillColor(INK)
+        c.setFont(SERIF_BOLD, 10.7)
+        c.drawString(BODY_X + 28, cursor, line)
+        cursor -= 14
+    cursor = info_top - info_height - 15
+    for paragraph in paragraphs[1:]:
+        cursor = draw_wrapped(c, paragraph, BODY_X + 18, cursor, BODY_W - 36, font=SERIF, size=10.7, leading=13.8) - 8
+    if cursor < top - panel_height + 12:
+        raise RuntimeError("Notice overflowed its fixed panel")
+
+    questions_top = top - panel_height - 8
+    block_height = (questions_top - BOTTOM_Y) / len(questions)
+    cursor = questions_top
+    for question in questions:
+        draw_question_block(c, question, cursor, block_height, "stack", separator=True)
+        cursor -= block_height
+    draw_page_footer(c, page_number, total_pages)
+    c.showPage()
+
+
 def draw_flyer(c: canvas.Canvas, passage: dict, x: float, top: float, width: float, height: float) -> None:
     c.setStrokeColor(DARK)
     c.setLineWidth(0.7)
@@ -553,6 +736,23 @@ def draw_passage_fill_page(
     c.showPage()
 
 
+def passage_emails(passage: dict) -> list[dict]:
+    paragraphs = passage.get("paragraphs", [])
+    if len(paragraphs) % 2 != 0:
+        raise ValueError("Email passage must contain header/body paragraph pairs")
+    emails: list[dict] = []
+    for index in range(0, len(paragraphs), 2):
+        meta: dict[str, str] = {}
+        for line in paragraphs[index].splitlines():
+            key, separator, value = line.partition(":")
+            if separator and key.strip().lower() in {"from", "to", "date", "subject"}:
+                meta[key.strip().lower()] = value.strip()
+        if set(meta) != {"from", "to", "date", "subject"}:
+            raise ValueError("Email header is missing From, To, Date, or Subject")
+        emails.append({"meta": meta, "body": paragraphs[index + 1]})
+    return emails
+
+
 def measure_email_height(email: dict, width: float) -> float:
     body_lines = len(wrap_text(email.get("body", ""), SANS, 10.5, width - 28))
     return 62 + 18 + (body_lines * 12.8) + 14
@@ -589,9 +789,10 @@ def draw_emails_page(
     exam_label: str,
     emails: list[dict],
     title: str,
+    instruction: str = "3通のメールを読み、後の設問に答えなさい。",
 ) -> None:
     draw_page_header(c, grade_label, exam_label)
-    top = draw_section_title(c, title, "3通のメールを読み、後の設問に答えなさい。", PAGE_H - 58)
+    top = draw_section_title(c, title, instruction, PAGE_H - 58)
     draw_gutter(c, top)
     cursor = top
     for email in emails:
@@ -717,11 +918,28 @@ def draw_answer_page(
     col_gap = 12
     col_w = (CONTENT_W - (col_gap * 2)) / 3
     header_h = 24
-    row_h = 47
     if len(questions) <= 30:
         question_groups = [questions[index:index + 10] for index in range(0, len(questions), 10)]
-    else:
+        row_h = 47
+        question_size = 9.4
+        answer_y_offset = 32
+        answer_size = 8.2
+        answer_leading = 9.8
+    elif len(questions) == 31:
         question_groups = [questions[:11], questions[11:21], questions[21:]]
+        row_h = 47
+        question_size = 9.4
+        answer_y_offset = 32
+        answer_size = 8.2
+        answer_leading = 9.8
+    else:
+        group_size = (len(questions) + 2) // 3
+        question_groups = [questions[index:index + group_size] for index in range(0, len(questions), group_size)]
+        row_h = 40
+        question_size = 8.8
+        answer_y_offset = 28
+        answer_size = 7.3
+        answer_leading = 8.4
     for col, group in enumerate(question_groups):
         x = MARGIN_X + (col * (col_w + col_gap))
         c.setFillColor(DARK)
@@ -742,10 +960,35 @@ def draw_answer_page(
             c.setLineWidth(0.45)
             c.rect(x, cell_top - row_h, col_w, row_h, stroke=1, fill=1)
             c.setFillColor(INK)
-            c.setFont(SERIF_BOLD, 9.4)
+            c.setFont(SERIF_BOLD, question_size)
             c.drawString(x + 7, cell_top - 15, f"Q{int(question['number']):02d}")
             c.drawRightString(x + col_w - 7, cell_top - 15, str(answer))
-            draw_wrapped(c, answer_text, x + 7, cell_top - 32, col_w - 14, font=SERIF, size=8.2, leading=9.8, color=DARK)
+            if grade in {"grade5", "grade4"}:
+                answer_font = JP_REGULAR if any(ord(character) > 127 for character in answer_text) else SERIF
+                draw_wrapped(
+                    c,
+                    answer_text,
+                    x + 7,
+                    cell_top - answer_y_offset,
+                    col_w - 14,
+                    font=answer_font,
+                    size=answer_size,
+                    leading=answer_leading,
+                    color=DARK,
+                    wide_blanks=False,
+                )
+            else:
+                draw_wrapped(
+                    c,
+                    answer_text,
+                    x + 7,
+                    cell_top - 32,
+                    col_w - 14,
+                    font=SERIF,
+                    size=8.2,
+                    leading=9.8,
+                    color=DARK,
+                )
 
     record_y = 68
     c.setStrokeColor(DARK)
@@ -782,16 +1025,21 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
 
     grade_label = GRADE_LABELS[grade]
     exam_label = f"{exam[:4]}年度 第{exam.split('-')[1]}回"
-    # Every supported paper has seven fixed pages after Part 1. Keeping Part 1
-    # at four pages or fewer makes later page numbers shift deterministically.
-    total_pages = len(part1_pages) + 7
+    # Keeping Part 1 at four pages or fewer makes every later page number shift
+    # deterministically while each grade keeps its own fixed section sequence.
+    trailing_pages = {"grade5": 3, "grade4": 8}.get(grade, 7)
+    total_pages = len(part1_pages) + trailing_pages
     output_path.parent.mkdir(parents=True, exist_ok=True)
     pdf = canvas.Canvas(str(output_path), pagesize=A4, pageCompression=1, invariant=1)
     pdf.setTitle(f"ReadPass - {grade_label} {exam_label} 過去問演習")
     pdf.setAuthor("ECC Best One Aizumi / Kitajima-Chuo")
     pdf.setSubject("ReadPass fixed-layout practice exam")
 
-    part1_instruction = sections[0].get("instruction", "")
+    part1_instruction = (
+        printable_instruction(sections[0].get("instruction", ""))
+        if grade in {"grade5", "grade4"}
+        else sections[0].get("instruction", "")
+    )
     for page_number, questions in enumerate(part1_pages, start=1):
         draw_questions_page(
             pdf,
@@ -809,6 +1057,139 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             compact=(len(questions) >= 6),
         )
     page_number = len(part1_pages) + 1
+
+    if grade == "grade5":
+        if len(sections) != 3:
+            raise ValueError("Grade 5 layout requires three sections")
+        word_order_section = sections[2]
+        if [len(part2), len(word_order_section.get("questions", []))] != [5, 5]:
+            raise ValueError("Grade 5 layout requires question counts 5 / 5 after Part 1")
+        draw_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            f"大問2  会話文  {question_range_label(part2)}",
+            printable_instruction(sections[1].get("instruction", "")),
+            part2,
+            "grid2",
+        )
+        page_number += 1
+        draw_word_order_page(pdf, page_number, total_pages, grade_label, exam_label, word_order_section)
+        page_number += 1
+        all_questions = part1 + part2 + word_order_section.get("questions", [])
+        if page_number != total_pages:
+            raise RuntimeError("Grade 5 page numbering drifted")
+        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        pdf.save()
+        return
+
+    if grade == "grade4":
+        if len(sections) != 4:
+            raise ValueError("Grade 4 layout requires four sections")
+        word_order_section = sections[2]
+        passages = sections[3].get("passages", [])
+        if len(passages) != 3:
+            raise ValueError("Grade 4 layout requires three reading passages")
+        notice_passage, email_passage, article_passage = passages
+        count_signature = [
+            len(part2),
+            len(word_order_section.get("questions", [])),
+            len(notice_passage.get("questions", [])),
+            len(email_passage.get("questions", [])),
+            len(article_passage.get("questions", [])),
+        ]
+        if count_signature != [5, 5, 2, 3, 5]:
+            raise ValueError("Grade 4 layout requires question counts 5 / 5 / 2 / 3 / 5 after Part 1")
+
+        draw_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            f"大問2  会話文  {question_range_label(part2)}",
+            printable_instruction(sections[1].get("instruction", "")),
+            part2,
+            "grid2",
+        )
+        page_number += 1
+        draw_word_order_page(pdf, page_number, total_pages, grade_label, exam_label, word_order_section)
+        page_number += 1
+        draw_notice_page(pdf, page_number, total_pages, grade_label, exam_label, notice_passage)
+        page_number += 1
+
+        email_questions = email_passage.get("questions", [])
+        email_range = question_range_label(email_questions)
+        emails = passage_emails(email_passage)
+        if len(emails) != 2:
+            raise ValueError("Grade 4 email passage requires two messages")
+        email_title = clean_text(email_passage.get("title", "メール問題"))
+        draw_emails_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            emails,
+            f"大問4B  {email_title}",
+            instruction=f"2通のメールを読み、次ページの{email_range}に答えなさい。",
+        )
+        page_number += 1
+        draw_email_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            email_title,
+            None,
+            email_questions,
+            section_prefix="大問4B",
+            question_range=email_range,
+        )
+        page_number += 1
+
+        article_questions = article_passage.get("questions", [])
+        article_range = question_range_label(article_questions)
+        draw_article_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            article_passage,
+            section_title="大問4C  長文",
+            instruction=f"本文を読み、次ページの{article_range}に答えなさい。",
+        )
+        page_number += 1
+        draw_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            f"大問4C  長文設問  {article_range}",
+            "前ページの本文を読み、最も適切なものを1つ選びなさい。",
+            article_questions,
+            "stack",
+            separator=True,
+        )
+        page_number += 1
+        all_questions = (
+            part1
+            + part2
+            + word_order_section.get("questions", [])
+            + notice_passage.get("questions", [])
+            + email_questions
+            + article_questions
+        )
+        if page_number != total_pages:
+            raise RuntimeError("Grade 4 page numbering drifted")
+        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        pdf.save()
+        return
 
     if grade in {"grade-pre2plus", "grade2"}:
         layout_name = "Grade Pre-2 Plus" if grade == "grade-pre2plus" else "Grade 2"
