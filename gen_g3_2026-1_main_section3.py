@@ -37,11 +37,11 @@ section3 = {
             "translations": [
                 "チェン先生の料理教室",
                 "伝統的な中国料理に興味はありますか？",
-                "来月3月、エヴァンスフィールド文化センターでは、中国のレシピを学びたい人のための料理教室を開催します。チェン先生を特別講師として招きます。",
+                "来年3月、エヴァンスフィールド文化センターでは、中国料理のレシピを学びたい人のための料理教室を開催します。チェン先生を特別講師として招きます。",
                 "●エプロンとノートを持参してください。",
                 "場所\nエヴァンスフィールド文化センター",
                 "クラス\n（大人向け）金曜日 午後7時〜9時\n（10代向け）土曜日 午後2時〜3時30分",
-                "講師について\nチェン先生は市内でも最高のシェフの一人です。国際的な料理コンテストでいくつか優勝したことがあります。昨年は「今年の優秀な若手シェフ」にも選ばれました。",
+                "講師について\nチェン先生は市内でも最高のシェフの一人です。国際的な料理コンテストで優勝したことがあります。昨年は「年間最優秀若手シェフ」にも選ばれました。",
             ],
             "questions": [
                 {
@@ -89,12 +89,12 @@ section3 = {
                     ],
                     "answer": 4,
                     "sourceEvidence": ["He has won some international cooking contests."],
-                    "grammar": "He has won some international cooking contests＝料理コンテストで優勝した経験がある。",
+                    "grammar": "He has won some international cooking contests＝国際的な料理コンテストで優勝したことがある。",
                     "grammarSimple": "国際的な料理コンテストでかちとったことがあるよ。",
                     "choiceAnalysis": [
                         "❌ gave lessons to students online.＝オンライン授業。online lessons の記述なし",
                         "❌ taught teenagers on Saturday mornings.＝土曜の朝。Classes は Saturdays, 2:00 p.m.（午後）",
-                        "❌ invited his friends to the cooking classes.＝友達招待。invite friends の記述なし",
+                        "❌ invited his friends to the cooking classes.＝友達を招待。チェン先生を特別講師として招くのは主催者で、友達を招いたとは書かれていない",
                         "✅ won some cooking contests.＝He has won some international cooking contests. と一致→正解",
                     ],
                     "choiceAnalysisSimple": [
@@ -219,12 +219,12 @@ section3 = {
                     ],
                     "answer": 1,
                     "sourceEvidence": ["I saw a nice scarf and bought it for you! I also bought a coat for myself."],
-                    "grammar": "マフラーをおばあちゃんに、コートを自分に買った。",
+                    "grammar": "ジュディはマフラーをおばあちゃんに、コートを自分に買った。",
                     "grammarSimple": "マフラーをおばあちゃんに、コートをじぶんにかったよ。",
                     "choiceAnalysis": [
                         "✅ She bought a coat and a scarf.＝bought it for you（scarf）＋bought a coat for myself と一致→正解",
-                        "❌ She found a nice wallet.＝財布発見。wallet はおばあちゃんのプレゼントでデパートでの行動ではない",
-                        "❌ She bought a brown sweater.＝茶色セーター。couln't find any brown ones と矛盾",
+                        "❌ She found a nice wallet.＝すてきな財布を見つけた。財布はおばあちゃんから先月もらった物で、昨日デパートでした行動ではない",
+                        "❌ She bought a brown sweater.＝茶色のセーターを買った。couldn't find any brown ones と矛盾",
                         "❌ She worked as a staff member.＝店員として勤務。staff member の記述なし",
                     ],
                     "choiceAnalysisSimple": [
@@ -252,12 +252,12 @@ section3 = {
                     ],
                     "answer": 2,
                     "sourceEvidence": ["I found it at a shopping mall next to the museum."],
-                    "grammar": "おばあちゃんのメールで財布の購入場所を説明。",
-                    "grammarSimple": "博物館のとなりのショッピングモールでかったって書いてあるよ。",
+                    "grammar": "おばあちゃんのメールでは、財布は博物館の隣のショッピングモールで見つけたとある。場所が選択肢2と一致する。",
+                    "grammarSimple": "さいふを見つけたのは、博物館のとなりのショッピングモールだよ。",
                     "choiceAnalysis": [
-                        "❌ at a shop in the park.＝公園の店。park は後の cake shop の場所",
+                        "❌ at a shop in the park.＝公園内の店。本文は a cake shop near the park（公園の近くのケーキ店）で、公園内ではない",
                         "✅ at a shopping mall beside the museum.＝I found it at a shopping mall next to the museum. と一致→正解",
-                        "❌ at a shop next to her house.＝家の隣の店。next to her house の記述なし",
+                        "❌ at a shop next to her house.＝家の隣の店。next to the museum とあり、家の隣ではない",
                         "❌ at a department store in Linda's city.＝リンダの街のデパート。department store は Judy の買い物場所",
                     ],
                     "choiceAnalysisSimple": [
@@ -285,24 +285,24 @@ section3 = {
                     ],
                     "answer": 3,
                     "sourceEvidence": ["Linda often told me stories when you were cooking in the kitchen."],
-                    "grammar": "料理中＝Linda often told me stories（リンダの物語を聞いた）。",
-                    "grammarSimple": "おばあちゃんが料理しているとき、リンダの物語をきいていたよ。",
+                    "grammar": "おばあちゃんが料理しているとき、Linda often told me stories とあるので、ジュディはリンダが話す物語を聞いていた。",
+                    "grammarSimple": "おばあちゃんが料理しているとき、リンダが話すお話をきいていたよ。",
                     "choiceAnalysis": [
                         "❌ She shared a cake with Linda.＝ケーキ共有。cakes は訪問前に買う予定で料理中の行動ではない",
                         "❌ She visited a park with her mother.＝公園訪問。mother は仕事で同行しない（第三通メール）",
-                        "✅ She listened to Linda's stories.＝Linda often told me stories when you were cooking と一致→正解",
-                        "❌ She helped her grandmother in the kitchen.＝台所手伝い。told me stories（物語を聞く）と異なる",
+                        "✅ She listened to Linda's stories.＝Linda often told me stories when you were cooking（リンダが話す物語を聞く）と一致→正解",
+                        "❌ She helped her grandmother in the kitchen.＝台所手伝い。told me stories（リンダが話し、ジュディが聞く）と異なる",
                     ],
                     "choiceAnalysisSimple": [
                         "ケーキをわけた話は土曜日のよていだよ。",
                         "公園に行った話はないよ。",
-                        "○ リンダの物語をきいていた！",
+                        "○ リンダが話すお話をきいていた！",
                         "台所でてつだった話じゃないよ。",
                     ],
                     "choiceTranslations": [
                         "リンダとケーキを分け合った。",
                         "母と公園を訪れた。",
-                        "リンダの物語を聞いた。",
+                        "リンダが話す物語を聞いた。",
                         "おばあちゃんを台所で手伝った。",
                     ],
                 },
@@ -320,9 +320,9 @@ section3 = {
             ],
             "translations": [
                 "アンナ・メアリー・ロバートソン・モーゼスは、グランマ・モーゼスとして知られるアメリカの画家だった。1860年、ニューヨークの農場に生まれた。少女のころ、アンナは農場で一生懸命働き、家族の世話をした。自由な時間には兄弟と外で遊ぶのが好きだった。手で物を作るのも好きで、父が買ってくれた紙に絵を描くのをよく楽しんだ。",
-                "アンナは1887年にトーマス・モーゼスと結婚し、愛する地元の農場で暮らした。1927年にトーマスが亡くなった後も、末の息子の助けを借りて農場で働き続けた。しかし年を取ると、手が痛くて農場での作業が難しくなった。そこで絵を描くことに挑戦することにした。当時、すでに75歳を超えていた。",
+                "アンナは1887年にトーマス・モーゼスと結婚し、愛する地元の農場で暮らした。1927年にトーマスが亡くなった後も、末の息子の助けを借りて農場で働き続けた。しかし年を取ると、手が痛くて農場での作業が難しくなった。そこで代わりに絵を描いてみることにした。当時、すでに75歳を超えていた。",
                 "アンナは農場生活で愛したものをすべて絵に描いた。緑の野原、雪の冬、自然の中で暮らす幸せな人々をよく描いた。彼女の絵はとても独特で幸せに満ちていたため、多くの人が見に来た。多くの色でシンプルに描かれた作品を見ると、人々は温かく幸せな気持ちになった。",
-                "アンナは1960年頃まで絵を描き続けた。生涯で1,500点以上の作品を残し、絵は全国で人気になった。今でも多くの人が博物館で彼女の絵を見に来る。アンナと彼女の絵は、人生のいつでも誰でも新しいことに挑戦できることを示している。",
+                "アンナは1960年頃まで絵を描き続けた。生涯で1,500点以上の作品を残し、絵は全国で人気になった。今でも多くの人が美術館で彼女の絵を見に来る。アンナと彼女の絵は、人生のいつでも誰でも新しいことに挑戦できることを示している。",
             ],
             "questions": [
                 {
@@ -369,18 +369,21 @@ section3 = {
                         "She did not enjoy living on her farm.",
                     ],
                     "answer": 2,
-                    "sourceEvidence": ["it was hard for her to do some things on the farm because her hands hurt"],
-                    "grammar": "手が痛くて農作業が難しくなった→絵を描くことにした。",
-                    "grammarSimple": "てがいたくてのうさぎがむずかしくなったから、えをかくことにしたよ。",
+                    "sourceEvidence": [
+                        "it was hard for her to do some things on the farm because her hands hurt.",
+                        "So, she decided to try painting instead.",
+                    ],
+                    "grammar": "手が痛くて農作業が難しくなったため、代わりに絵を描いてみることにした。",
+                    "grammarSimple": "てがいたくてのうさぎょうがむずかしくなったから、えをかくことにしたよ。",
                     "choiceAnalysis": [
                         "❌ She had to teach art to her son.＝美術指導。teach art の記述なし",
                         "✅ She had a problem with her hands.＝because her hands hurt. So, she decided to try painting と一致→正解",
                         "❌ She did not want to look old.＝老けたくない。look old の記述なし",
-                        "❌ She did not enjoy living on her farm.＝農場が嫌。loved the local farm she loved と矛盾",
+                        "❌ She did not enjoy living on her farm.＝農場で暮らすのが嫌だった。lived on the local farm she loved とあり、農場を愛していた",
                     ],
                     "choiceAnalysisSimple": [
                         "むすこにおしえる話はないよ。",
-                        "○ てがいたくてのうさぎがむずかしかった！",
+                        "○ てがいたくてのうさぎょうがむずかしかった！",
                         "としをとりたくない話はないよ。",
                         "のうじょうがきらいだったわけじゃないよ。",
                     ],
@@ -404,9 +407,9 @@ section3 = {
                     "answer": 4,
                     "sourceEvidence": ["painted in a simple way with many colors"],
                     "grammar": "with many colors＝多くの色を使った絵。",
-                    "grammarSimple": "たくさんの色をつかって、かんたんなしかたでかかれたよ。",
+                    "grammarSimple": "たくさんのいろをつかい、シンプルなかきかたでかかれていたよ。",
                     "choiceAnalysis": [
-                        "❌ made her much poorer.＝貧しくした。became popular across the country と成功の話",
+                        "❌ made her much poorer.＝彼女をさらに貧しくした。本文にアンナの収入や貧しさについての記述はない",
                         "❌ made people free.＝人を自由に。made people free の記述なし",
                         "❌ were sold to farmers.＝農民に売却。sold to farmers の記述なし",
                         "✅ had a lot of colors.＝painted in a simple way with many colors と一致→正解",
@@ -418,7 +421,7 @@ section3 = {
                         "○ たくさんの色があった！",
                     ],
                     "choiceTranslations": [
-                        "彼女をずっと貧しくした。",
+                        "彼女をさらに貧しくした。",
                         "人々を自由にした。",
                         "農民に売られた。",
                         "多くの色があった。",
@@ -442,19 +445,19 @@ section3 = {
                         "❌ She tried to travel across America.＝アメリカ横断。travel across America の記述なし",
                         "❌ She invented new colors.＝新色発明。invented colors の記述なし",
                         "✅ She created many works of art.＝created more than 1,500 works of art in her life と一致→正解",
-                        "❌ She built a famous museum.＝博物館建設。come to see her paintings in museums（既存の博物館）",
+                        "❌ She built a famous museum.＝有名な美術館を建てた。people come to see her paintings in museums とあるだけで、アンナが美術館を建てたとは書かれていない",
                     ],
                     "choiceAnalysisSimple": [
                         "アメリカをたびした話はないよ。",
                         "新しい色をはつめいした話はないよ。",
                         "○ たくさんのさくひんをつくった！",
-                        "博物館をたてた話じゃないよ。",
+                        "美術館をたてた話じゃないよ。",
                     ],
                     "choiceTranslations": [
                         "アメリカ横断の旅をしようとした。",
                         "新しい色を発明した。",
                         "多くの芸術作品を作った。",
-                        "有名な博物館を建てた。",
+                        "有名な美術館を建てた。",
                     ],
                 },
                 {
@@ -469,10 +472,10 @@ section3 = {
                     ],
                     "answer": 2,
                     "sourceEvidence": ["was an American artist", "her paintings became popular across the country"],
-                    "grammar": "グランマ・モーゼスというアメリカの人気画家の生涯。",
+                    "grammar": "グランマ・モーゼスという、アメリカで人気になった画家の生涯。",
                     "grammarSimple": "アメリカでにんきのがか、グランマ・モーゼスのお話だよ。",
                     "choiceAnalysis": [
-                        "❌ A woman who loved her grandmother.＝おばあちゃん愛。Grandma Moses はAnnaのあだ名",
+                        "❌ A woman who loved her grandmother.＝祖母を愛した女性。Grandma Moses はアンナの通称で、この内容ではない",
                         "✅ A popular artist in America.＝American artist、paintings became popular across the country と一致→正解",
                         "❌ How to live on a farm.＝農場生活の仕方。farm life は背景の一部",
                         "❌ How to help older people.＝高齢者支援。anyone can try something new が主テーマ",
@@ -497,6 +500,24 @@ section3 = {
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
+
+def normalize_choice_analysis(q):
+    """Use the grade-3 convention: ○ only on the correct choice."""
+    normalized = []
+    for i, text in enumerate(q.get("choiceAnalysis", [])):
+        text = text.strip()
+        if text.startswith(("✅", "❌", "○")):
+            text = text[1:].lstrip()
+        if i + 1 == q["answer"]:
+            text = "○ " + text
+        normalized.append(text)
+    q["choiceAnalysis"] = normalized
+
+
+for passage in section3["passages"]:
+    for question in passage.get("questions", []):
+        normalize_choice_analysis(question)
+
 
 new_sections = []
 replaced = False

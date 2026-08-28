@@ -78,10 +78,10 @@ for q in all_qs:
         errors.append(f"Q{n}: choices != 4")
     for i, ca in enumerate(q.get("choiceAnalysis", [])):
         if i + 1 == q["answer"]:
-            if not ca.startswith("✅"):
-                errors.append(f"Q{n}: correct choice {i + 1} missing ✅")
-        elif ca.startswith("✅"):
-            errors.append(f"Q{n}: wrong choice {i + 1} has ✅")
+            if not ca.startswith("○"):
+                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
+        elif ca.startswith(("○", "✅", "❌")):
+            errors.append(f"Q{n}: wrong choice {i + 1} has a marker")
     for i, ca in enumerate(q.get("choiceAnalysisSimple", [])):
         if i + 1 == q["answer"]:
             if not ca.startswith("○"):

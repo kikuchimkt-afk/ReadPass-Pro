@@ -65,9 +65,13 @@ def has_english_evidence(text):
         return True
     if re.search(r"[A-Za-z]{3,}(?:\s+[A-Za-z]{2,})+", text):
         return True
-    if re.search(r"^[✅❌]\s*[A-Za-z]", text):
+    if re.search(r"[A-Za-z]{2,}", text):
         return True
     return False
+
+
+def has_blank(text):
+    return bool(re.search(r"[_＿]{2,}|\(\s*\)|（\s*[　 ]*\s*）", text or ""))
 
 
 all_qs = collect_questions(d)
@@ -95,19 +99,21 @@ for part, expected in LISTENING.items():
         if gv != v:
             issues.append(f"[リスニング] {part} Q{k}: {gv} != {v}")
 
-# ---- 4. choiceAnalysis マーク ----
+# ---- 4. choiceAnalysis マーク・和訳の答え漏洩 ----
 for _, _, q, _ in all_qs:
     n = q["number"]
     ca = q.get("choiceAnalysis", [])
     if len(ca) != 4:
         issues.append(f"[解説] Q{n}: choiceAnalysis数={len(ca)}")
         continue
-    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("✅")]
+    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("○")]
     if checks != [q["answer"]]:
-        issues.append(f"[解説] Q{n}: ✅位置={checks} answer={q['answer']}")
-    wrong_marks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("❌")]
-    if len(wrong_marks) != 3:
-        issues.append(f"[解説] Q{n}: ❌数={len(wrong_marks)} (expected 3)")
+        issues.append(f"[解説] Q{n}: ○位置={checks} answer={q['answer']}")
+    legacy_marks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith(("✅", "❌"))]
+    if legacy_marks:
+        issues.append(f"[解説] Q{n}: 旧マーカー(✅/❌)={legacy_marks}")
+    if n <= 20 and q.get("translation") and not has_blank(q["translation"]):
+        issues.append(f"[和訳] Q{n}: 空所がなく正答が見える")
 
 # ---- 5. 構造 ----
 for sec in d["sections"]:

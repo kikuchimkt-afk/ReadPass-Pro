@@ -21,7 +21,7 @@ fp1 = {
     "subtitle": "Phrasal Verbs, Collocations & Grammar Forms",
     "explanation": (
         "大問1では単語単体ではなく、前後の語とのセットで意味が決まります。"
-        "give me a hand（手伝って）、get off the bus（バスを降りる）、throw away（捨てる）は定型句です。"
+        "give me a hand（手を貸して・手伝って）、get off the bus（バスを降りる）、throw away（捨てる）は定型句です。"
         "small enough to（〜するのに十分）、finished cleaning（掃除を終えた）、told him to go（行くよう言った）、"
         "good at cooking（料理が得意）のように、enough・finish＋動名詞・tell＋to不定詞・good at＋動名詞も頻出パターンです。"
     ),
@@ -36,7 +36,7 @@ fp1 = {
         {
             "en": "Dad, can you give me a hand with my new TV? I need to bring it upstairs.",
             "ja": "お父さん、新しいテレビを手伝ってくれる？上の階に運ぶ必要があるんだ。",
-            "note": "give me a hand＝「手伝って」。hand単体では「手のひら」だが、ここはイディオム。",
+            "note": "hand は「手」。give me a hand で「手を貸して・手伝って」という慣用表現になる。",
             "noteSimple": "give me a hand は「てつだって」。ぜったいセットでおぼえよう。",
         },
         {
@@ -48,7 +48,7 @@ fp1 = {
         {
             "en": "Jack finished cleaning his room. Ken's mother told him to go to bed earlier.",
             "ja": "ジャックは部屋の掃除を終えた。ケンの母親はもっと早く寝るように言った。",
-            "note": "finish＋動名詞、tell＋人＋to不定詞。原形・過去形は続けられない。",
+            "note": "finish＋動名詞、tell＋人＋to不定詞。cleaning は「掃除すること」、to go は「行くこと・行くように」を表す。原形・過去形は続けられない。",
             "noteSimple": "finish のあとは ing、tell のあとは to + どうし だよ。",
         },
     ],
@@ -179,7 +179,7 @@ fp2 = {
             "妻：朝食を食べていないわね。どうしたの？\n"
             "夫：ただお腹が空いていないだけ。\n\n"
             "男1：すみません、僕のジャケットを着ていると思います。\n"
-            "男2：ああ、本当にすみません。僕のと似ていますね。"
+            "男2：ああ、本当にすみません。自分のもののように見えたんです。"
         ),
         "source": "大問2 (16)〜(20)",
         "audioFile": "audio/practice_pp2.mp3",
@@ -202,7 +202,7 @@ fp2 = {
         },
         {
             "q": "Q20で it's my pleasure が誤りになる理由は？",
-            "a": "相手のジャケットを間違えて着ている場面。謝罪の I'm very sorry が適切。どういたしましては謝罪ではない。",
+            "a": "相手のジャケットを間違えて着ていると気づいた場面。謝罪の I'm very sorry が適切。It's my pleasure は感謝に応じる表現で、謝罪には使わない。",
         },
     ],
     "practiceQuestionsSimple": [
@@ -227,9 +227,11 @@ fp3 = {
     "subtitle": "Notice & Email: Track Who, Where, What",
     "explanation": (
         "大問3Aの掲示では、持参物（apron and a notebook）と講師の実績（won cooking contests）を区別して読みます。"
+        "Next March は「来年3月」と訳し、「来月3月」とはしません。"
+        "講師は昨年 Great Young Chef of the Year（年間最優秀若手シェフ）にも選ばれています。"
         "大問3Bの3通のメールでは、誰が・いつ・どこで・何をしたかをメモしながら読むと Q23〜25 が解けます。"
         "Judy がデパートで買ったのは scarf and coat、おばあちゃんが財布を買ったのは shopping mall next to the museum、"
-        "料理中に Judy がしていたのは listen to Linda's stories、と主語と動作を混同しないことが重要です。"
+        "料理中に Judy がしていたのは listen to Linda's stories（Linda が話す物語を聞くこと）であり、主語と動作を混同しないことが重要です。"
     ),
     "explanationSimple": (
         "お知らせはもっていくものと、せんせいのじっせきをわけるよ。"
@@ -252,9 +254,9 @@ fp3 = {
         },
         {
             "en": "I found it at a shopping mall next to the museum. Linda often told me stories when you were cooking in the kitchen.",
-            "ja": "博物館の隣のショッピングモールで見つけた。おばあちゃんが料理しているとき、リンダがよく物語を話してくれた。",
-            "note": "財布の購入場所（Q24）と、料理中の行動（Q25）を別々に覚える。",
-            "noteSimple": "さいふは博物館のとなりのモール。リンダの物語をきいていたよ。",
+            "ja": "私はそれ（財布）を博物館の隣のショッピングモールで見つけた。あなた（祖母）が台所で料理しているとき、リンダが私（Judy）によく物語を話してくれた。",
+            "note": "財布の購入場所（Q24）と、料理中の行動（Q25）を別々に覚える。I＝祖母、it＝財布、you＝祖母、me＝Judy。",
+            "noteSimple": "さいふは博物館のとなりのモール。リンダが話すお話をきいていたよ。",
         },
     ],
     "practicePassage": {
@@ -264,18 +266,18 @@ fp3 = {
             "Mr. Chen has won some international cooking contests.\n\n"
             "Yesterday, I visited a department store near the station. They were having a winter sale!\n"
             "I saw a nice scarf and bought it for you! I also bought a coat for myself.\n"
-            "I found the wallet at a shopping mall next to the museum.\n"
+            "I found it at a shopping mall next to the museum.\n"
             "Linda often told me stories when you were cooking in the kitchen.\n"
             "I will visit you alone by bus."
         ),
         "ja": (
-            "来月3月、文化センターで料理教室を開催します。\n"
+            "来年3月、文化センターで料理教室を開催します。\n"
             "エプロンとノートを持参してください。\n"
             "チェン先生は国際的な料理コンテストで優勝したことがあります。\n\n"
             "昨日、駅近くのデパートに行った。冬のセールだった！\n"
             "マフラーを買った！自分にもコートを買った。\n"
-            "財布は博物館の隣のショッピングモールで見つけた。\n"
-            "おばあちゃんが料理しているとき、リンダが物語を話してくれた。\n"
+            "私はそれ（財布）を博物館の隣のショッピングモールで見つけた。\n"
+            "あなた（祖母）が料理しているとき、リンダが私（Judy）に物語を話してくれた。\n"
             "バスで一人で訪ねる予定だ。"
         ),
         "source": "大問3A「Mr. Chen's Cooking Classes」/ 大問3B「Winter sale」",
@@ -300,7 +302,7 @@ fp3 = {
         },
         {
             "q": "Q25で helped her grandmother が誤りになる理由は？",
-            "a": "本文は Linda often told me stories（物語を聞いた）。台所で手伝ったとは書かれていない。",
+            "a": "本文は Linda often told me stories（リンダが話す物語を聞いた）。台所で手伝ったとは書かれていない。",
         },
     ],
     "practiceQuestionsSimple": [
@@ -314,7 +316,7 @@ fp3 = {
         },
         {
             "q": "おばあちゃんが料理しているとき、ジュディは何をしてた？",
-            "a": "リンダの物語をきいていたよ。",
+            "a": "リンダが話すお話をきいていたよ。",
         },
     ],
 }
@@ -325,7 +327,7 @@ fp4 = {
     "subtitle": "Biography Reading: Cause, Effect & Main Idea",
     "explanation": (
         "大問3C「Never Too Late」は、グランマ・モーゼス（Anna）の生涯が時系列で述べられます。"
-        "子どものころ＝drawing pictures on paper、高齢になって手が痛い＝try painting instead、"
+        "子どものころ＝drawing pictures on paper、高齢になって手が痛く農作業が難しい＝So, she decided to try painting instead、"
         "絵の特徴＝with many colors、生涯の成果＝more than 1,500 works of art、"
         "全体のテーマ＝anyone can try something new at any time と整理すると Q26〜30 が速く解けます。"
         "問題文の主語に注意：hands hurt は Anna、popular artist は彼女全体の評価です。"
@@ -347,7 +349,7 @@ fp4 = {
         },
         {
             "en": "It was hard for her to do some things on the farm because her hands hurt. So, she decided to try painting instead.",
-            "ja": "手が痛くて農場の作業が難しくなった。そこで絵を描くことに挑戦することにした。",
+            "ja": "手が痛くて農場の作業が難しくなった。そこで代わりに絵を描いてみることにした。",
             "note": "絵を描き始めた理由＝手の問題。Q27の根拠。",
             "noteSimple": "てがいたくて、えをかくことにしたんだよ。",
         },
@@ -397,6 +399,10 @@ fp4 = {
             "a": "本文は with many colors（多くの色）と warm and happy（温かく幸せ）について述べている。自由にしたとは書かれていない。",
         },
         {
+            "q": "Q28で made her much poorer が誤りになる理由は？",
+            "a": "本文は絵の色や見た人の気持ちを述べているだけで、アンナの収入や貧しさには触れていない。経済状況を本文から読み取ることはできない。",
+        },
+        {
             "q": "Q30で How to live on a farm が誤りになる理由は？",
             "a": "農場生活は背景の一部。全体はアメリカの人気画家の生涯と「いつでも新しいことに挑戦できる」というメッセージ。",
         },
@@ -404,11 +410,11 @@ fp4 = {
     "practiceQuestionsSimple": [
         {
             "q": "アンナはなぜえをかきはじめた？",
-            "a": "てがいたくて、のうさぎがむずかしかったからだよ。",
+            "a": "てがいたくて、のうさぎょうがむずかしくなったからだよ。",
         },
         {
             "q": "アンナのえの特徴は？",
-            "a": "たくさんの色をつかって、かんたんなしかたでかかれていたよ。",
+            "a": "たくさんのいろをつかい、シンプルなかきかたでかかれていたよ。",
         },
         {
             "q": "この話のメッセージは？",
@@ -419,6 +425,7 @@ fp4 = {
 
 for fp in (fp1, fp2, fp3, fp4):
     fp_id = fp["id"]
+    assert len(fp["examples"]) == 3, f"{fp_id}: expected 3 audio-backed examples"
     for ei, ex in enumerate(fp["examples"]):
         ex["audio"] = f"audio/{fp_id}_ex{ei + 1}.mp3"
     fp["sourceQuoteAudio"] = f"audio/{fp_id}_source.mp3"

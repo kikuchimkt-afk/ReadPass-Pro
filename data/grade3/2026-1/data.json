@@ -24,10 +24,10 @@
                     "grammar": "relax＝「のんびりする・くつろぐ」。at home で映画を見る週末の過ごし方。",
                     "grammarSimple": "relax は「のんびりする」。おうちでえいがをみてのんびりするよ。",
                     "choiceAnalysis": [
-                        "❌ move＝動く。I like to move at home では「家で動く」となり、映画を見る文脈とずれる。",
-                        "❌ plan＝計画する。週末のくつろぎ方として不自然。",
-                        "✅ relax＝のんびりする。I like to relax at home が自然。",
-                        "❌ grow＝育てる・成長する。家でくつろぐ場面に合わない。"
+                        "move＝動く。I like to move at home では「家で動く」となり、映画を見る文脈とずれる。",
+                        "plan＝計画する。週末のくつろぎ方として不自然。",
+                        "○ relax＝のんびりする。I like to relax at home が自然。",
+                        "grow＝育てる・成長する。家でくつろぐ場面に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "move は「うごく」。のんびりとはちがうよ。",
@@ -35,7 +35,7 @@
                         "○ relax がぴったり！おうちでのんびり！",
                         "grow は「そだつ」。合わないよ。"
                     ],
-                    "translation": "A: ボブ、週末は何をするのが好き？\nB: 家でのんびりするのが好きだよ。よく映画を見るんだ。",
+                    "translation": "A: ボブ、週末は何をするのが好き？\nB: 家で（　）するのが好きだよ。よく映画を見るんだ。",
                     "choiceTranslations": [
                         "動く",
                         "計画する",
@@ -54,20 +54,20 @@
                     ],
                     "answer": 3,
                     "grammar": "dirty＝「汚い」。I have to clean them（靴を洗わなければ）が決め手。",
-                    "grammarSimple": "dirty は「よごい」。くつがよごいからあらわなきゃだよ。",
+                    "grammarSimple": "dirty は「きたない」。くつがきたないからあらわなきゃだよ。",
                     "choiceAnalysis": [
-                        "❌ clever＝賢い。靴の状態を表す形容詞として不自然。",
-                        "❌ common＝一般的な。洗う理由にならない。",
-                        "✅ dirty＝汚い。clean them と対になる。",
-                        "❌ foolish＝ばかな。靴の見た目とは関係しない。"
+                        "clever＝賢い。靴の状態を表す形容詞として不自然。",
+                        "common＝一般的な。洗う理由にならない。",
+                        "○ dirty＝汚い。clean them と対になる。",
+                        "foolish＝ばかな。靴の見た目とは関係しない。"
                     ],
                     "choiceAnalysisSimple": [
                         "clever は「かしこい」。くつには合わないよ。",
                         "common は「ふつうの」。あらう理由にならないよ。",
-                        "○ dirty がぴったり！よごいからあらう！",
+                        "○ dirty がぴったり！きたないからあらう！",
                         "foolish は「ばかな」。合わないよ。"
                     ],
-                    "translation": "A: ジョン、君の靴はとても汚いね。\nB: わかってるよ。洗わなきゃ。",
+                    "translation": "A: ジョン、君の靴はとても（　）ね。\nB: わかってるよ。洗わなきゃ。",
                     "choiceTranslations": [
                         "賢い",
                         "一般的な",
@@ -88,10 +88,10 @@
                     "grammar": "have an accident＝「事故に遭う」。階段から落ちた場面。",
                     "grammarSimple": "have an accident は「じこにあう」。けさかいだんからおちちゃったよ。",
                     "choiceAnalysis": [
-                        "✅ accident＝事故。fell down the stairs とつながる。",
-                        "❌ advice＝助言。have an advice では意味が通らない。",
-                        "❌ adult＝大人。足の怪我の説明にならない。",
-                        "❌ addition＝追加。文脈に合わない。"
+                        "○ accident＝事故。fell down the stairs とつながる。",
+                        "advice＝助言。have an advice では意味が通らない。",
+                        "adult＝大人。足の怪我の説明にならない。",
+                        "addition＝追加。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "○ accident がぴったり！じこにあった！",
@@ -99,7 +99,7 @@
                         "adult は「おとな」。合わないよ。",
                         "addition は「ついか」。合わないよ。"
                     ],
-                    "translation": "A: ボブ、足に何があったの？\nB: 事故に遭ったんだ。今朝、階段から落ちたよ。",
+                    "translation": "A: ボブ、足に何があったの？\nB: （　）に遭ったんだ。今朝、階段から落ちたよ。",
                     "choiceTranslations": [
                         "事故",
                         "助言",
@@ -117,13 +117,13 @@
                         "bottle"
                     ],
                     "answer": 2,
-                    "grammar": "a symbol of our city＝「私たちの街の象徴」。図書館の役割。",
+                    "grammar": "a symbol of our city＝「私たちの街を表す象徴」。図書館が街を代表する建物だという説明。",
                     "grammarSimple": "symbol は「しょうちょう」。としょかんはまちのしょうちょうだよ。",
                     "choiceAnalysis": [
-                        "❌ sand＝砂。a sand of our city では意味が通らない。",
-                        "✅ symbol＝象徴。図書館が街を表す定番表現。",
-                        "❌ condition＝状態・条件。建物の説明として不自然。",
-                        "❌ bottle＝瓶。文脈に合わない。"
+                        "sand＝砂。a sand of our city では意味が通らない。",
+                        "○ symbol＝象徴。図書館が街を表す定番表現。",
+                        "condition＝状態・条件。建物の説明として不自然。",
+                        "bottle＝瓶。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "sand は「すな」。合わないよ。",
@@ -131,7 +131,7 @@
                         "condition は「じょうたい」。合わないよ。",
                         "bottle は「びん」。合わないよ。"
                     ],
-                    "translation": "A: あの建物は何？\nB: 図書館だよ。私たちの街の象徴なんだ。",
+                    "translation": "A: あの建物は何？\nB: 図書館だよ。私たちの街の（　）なんだ。",
                     "choiceTranslations": [
                         "砂",
                         "象徴",
@@ -152,10 +152,10 @@
                     "grammar": "ordered some cake＝「ケーキを注文した」。レストランでのデザート。",
                     "grammarSimple": "ordered は「ちゅうもんした」。レストランでケーキをちゅうもんしたよ。",
                     "choiceAnalysis": [
-                        "❌ arrived＝到着した。ケーキを「到着した」では意味が通らない。",
-                        "✅ ordered＝注文した。for dessert と自然につながる。",
-                        "❌ taught＝教えた。レストランの文脈に合わない。",
-                        "❌ believed＝信じた。文脈に合わない。"
+                        "arrived＝到着した。ケーキを「到着した」では意味が通らない。",
+                        "○ ordered＝注文した。for dessert と自然につながる。",
+                        "taught＝教えた。レストランの文脈に合わない。",
+                        "believed＝信じた。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "arrived は「とうちゃくした」。合わないよ。",
@@ -163,7 +163,7 @@
                         "taught は「おしえた」。合わないよ。",
                         "believed は「しんじた」。合わないよ。"
                     ],
-                    "translation": "ジョーンズさんは家族と素敵なレストランに行った。デザートにケーキを注文した。",
+                    "translation": "ジョーンズさんは家族と素敵なレストランに行った。デザートにケーキを（　）。",
                     "choiceTranslations": [
                         "到着した",
                         "注文した",
@@ -184,10 +184,10 @@
                     "grammar": "didn't taste good＝「味が良くなかった」。too salty（塩辛すぎる）が理由。",
                     "grammarSimple": "taste good は「あじがいい」。しおからすぎておいしくなかったよ。",
                     "choiceAnalysis": [
-                        "✅ taste＝味がする。taste good が定番表現。",
-                        "❌ carry＝運ぶ。スープが「運ぶ」では文脈に合わない。",
-                        "❌ find＝見つける。味の良し悪しとは言えない。",
-                        "❌ serve＝出す・提供する。味についての述語として不自然。"
+                        "○ taste＝味がする。taste good が定番表現。",
+                        "carry＝運ぶ。スープが「運ぶ」では文脈に合わない。",
+                        "find＝見つける。味の良し悪しとは言えない。",
+                        "serve＝出す・提供する。味についての述語として不自然。"
                     ],
                     "choiceAnalysisSimple": [
                         "○ taste がぴったり！あじがよくなかった！",
@@ -195,7 +195,7 @@
                         "find は「みつける」。合わないよ。",
                         "serve は「だす」。あじの話じゃないよ。"
                     ],
-                    "translation": "マイクが作ったトマトスープは味が良くなかった。塩辛すぎたんだ。",
+                    "translation": "マイクが作ったトマトスープは（　）が良くなかった。塩辛すぎたんだ。",
                     "choiceTranslations": [
                         "味がする",
                         "運ぶ",
@@ -216,10 +216,10 @@
                     "grammar": "Open the curtain＝「カーテンを開けて」。晴れた日に光を入れる場面。",
                     "grammarSimple": "curtain は「カーテン」。いいおてんきだからカーテンをあけて！",
                     "choiceAnalysis": [
-                        "❌ sentence＝文。Open the sentence では意味が通らない。",
-                        "❌ stadium＝スタジアム。家の中の指示として不自然。",
-                        "❌ florist＝花屋。開ける対象として不自然。",
-                        "✅ curtain＝カーテン。nice day なのでカーテンを開ける。"
+                        "sentence＝文。Open the sentence では意味が通らない。",
+                        "stadium＝スタジアム。家の中の指示として不自然。",
+                        "florist＝花屋。開ける対象として不自然。",
+                        "○ curtain＝カーテン。nice day なのでカーテンを開ける。"
                     ],
                     "choiceAnalysisSimple": [
                         "sentence は「ぶん」。合わないよ。",
@@ -227,7 +227,7 @@
                         "florist は「はなや」。合わないよ。",
                         "○ curtain がぴったり！カーテンをあけて！"
                     ],
-                    "translation": "A: 今日はいい天気ね。カーテンを開けて、ジョン。\nB: わかった、ママ。",
+                    "translation": "A: 今日はいい天気ね。（　）を開けて、ジョン。\nB: わかった、ママ。",
                     "choiceTranslations": [
                         "文",
                         "スタジアム",
@@ -248,10 +248,10 @@
                     "grammar": "small enough to＝「〜するのに十分小さい」。リュックに入るサイズ。",
                     "grammarSimple": "enough は「じゅうぶんに」。リュックに入るくらいちいさくてほしいよ。",
                     "choiceAnalysis": [
-                        "❌ again＝再び。small again to では意味が通らない。",
-                        "❌ more＝もっと。small more to は不自然。",
-                        "❌ never＝決して〜ない。文脈に合わない。",
-                        "✅ enough＝十分に。small enough to put in が定番。"
+                        "again＝再び。small again to では意味が通らない。",
+                        "more＝もっと。small more to は不自然。",
+                        "never＝決して〜ない。文脈に合わない。",
+                        "○ enough＝十分に。small enough to put in が定番。"
                     ],
                     "choiceAnalysisSimple": [
                         "again は「もういちど」。合わないよ。",
@@ -259,7 +259,7 @@
                         "never は「ぜったいに〜ない」。合わないよ。",
                         "○ enough がぴったり！じゅうぶんちいさい！"
                     ],
-                    "translation": "リュックに入るのに十分小さいパソコンが欲しい。",
+                    "translation": "リュックに入るのに（　）小さいパソコンが欲しい。",
                     "choiceTranslations": [
                         "再び",
                         "もっと",
@@ -280,10 +280,10 @@
                     "grammar": "throw away＝「捨てる」。really old（とても古い）が理由。",
                     "grammarSimple": "throw away は「すてる」。ふるくなったからセーターをすてたよ。",
                     "choiceAnalysis": [
-                        "❌ fall away＝崩れ落ちる。セーターを意図的に処分する場面とずれる。",
-                        "✅ throw＝throw away の形。古い服を捨てる。",
-                        "❌ hope away→hope away は使わない。",
-                        "❌ shop away→shop away は使わない。"
+                        "fall away はこの形ではセーターを目的語に取れず、処分する意味にならない。",
+                        "○ throw＝throw away の形。古い服を捨てる。",
+                        "hope away はここでは使わず、セーターを処分する意味にならない。",
+                        "shop away はここでは使わず、セーターを処分する意味にならない。"
                     ],
                     "choiceAnalysisSimple": [
                         "fall は「おちる」。すてるとはちがうよ。",
@@ -291,10 +291,10 @@
                         "hope は合わないよ。",
                         "shop は合わないよ。"
                     ],
-                    "translation": "A: なぜ緑のセーターを捨てたの？\nB: とても古かったから。",
+                    "translation": "A: なぜ緑のセーターを（　）たの？\nB: とても古かったから。",
                     "choiceTranslations": [
                         "落ちる",
-                        "捨てる（throw）",
+                        "投げる（throw awayで「捨てる」）",
                         "望む",
                         "買い物をする"
                     ]
@@ -310,12 +310,12 @@
                     ],
                     "answer": 2,
                     "grammar": "get off the bus＝「バスを降りる」。stop の前で降りて歩く。",
-                    "grammarSimple": "get off は「おりる」。ていしばすよりまえでおりてあるくよ。",
+                    "grammarSimple": "get off は「おりる」。ていりゅうじょよりまえでおりてあるくよ。",
                     "choiceAnalysis": [
-                        "❌ get again→get again the bus は不自然。",
-                        "✅ off＝get off＝降りる。walk for 30 minutes とつながる。",
-                        "❌ get up the bus→乗る意味には get on を使う。",
-                        "❌ get in the bus→乗車の表現で、降りる文脈と逆。"
+                        "get again the bus は不自然で、バスを降りる意味にならない。",
+                        "○ off＝get off＝降りる。walk for 30 minutes とつながる。",
+                        "get up the bus は不自然。バスに乗るなら get on the bus を使う。",
+                        "get in the bus は「バスに乗る」方向の表現で、降りる文脈と逆。"
                     ],
                     "choiceAnalysisSimple": [
                         "again は合わないよ。",
@@ -323,12 +323,12 @@
                         "up は「のる」方向だよ。",
                         "in も「のる」方向だよ。"
                     ],
-                    "translation": "仕事の帰り道、ジャックは自分の停留所の前でバスを降りる。一日中座っていた後、30分歩くのが好きなんだ。",
+                    "translation": "仕事の帰り道、ジャックは自分の停留所の前でバスを（　）。一日中座っていた後、30分歩くのが好きなんだ。",
                     "choiceTranslations": [
                         "再び",
-                        "降りる（off）",
-                        "起きる・乗る",
-                        "中に入る・乗る"
+                        "離れて・降りて",
+                        "上へ",
+                        "中に"
                     ]
                 },
                 {
@@ -344,10 +344,10 @@
                     "grammar": "give me a hand＝「手伝って」。重いテレビを上の階に運ぶ場面。",
                     "grammarSimple": "give me a hand は「てつだって」。あたらしいTVをうえのかいにもっていきたいよ。",
                     "choiceAnalysis": [
-                        "✅ hand＝give me a hand＝手伝って。定番のイディオム。",
-                        "❌ face＝顔。give me a face では意味が通らない。",
-                        "❌ leg＝脚。手伝いの慣用句ではない。",
-                        "❌ foot＝足。文脈に合わない。"
+                        "○ hand＝give me a hand＝手伝って。定番のイディオム。",
+                        "face＝顔。give me a face では意味が通らない。",
+                        "leg＝脚。手伝いの慣用句ではない。",
+                        "foot＝足。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "○ hand がぴったり！give me a hand で「てつだって」！",
@@ -355,7 +355,7 @@
                         "leg は「あし」。合わないよ。",
                         "foot は「あし」。合わないよ。"
                     ],
-                    "translation": "A: お父さん、新しいテレビを手伝ってくれる？上の階に運ぶ必要があるんだ。\nB: ちょっと待って。",
+                    "translation": "A: お父さん、新しいテレビを運ぶのを（　）くれる？上の階に運ぶ必要があるんだ。\nB: ちょっと待って。",
                     "choiceTranslations": [
                         "手（手伝い）",
                         "顔",
@@ -376,10 +376,10 @@
                     "grammar": "far from school＝「学校から遠くに」。バスに乗る理由。",
                     "grammarSimple": "far from は「〜からとおく」。がっこうがとおいからバスにのるよ。",
                     "choiceAnalysis": [
-                        "❌ far along school→along は「沿って」。距離の表現にならない。",
-                        "❌ far below school→below は「下に」。距離とは言えない。",
-                        "❌ far under school→under は「下に」。文脈に合わない。",
-                        "✅ from＝far from ～＝〜から遠くに。"
+                        "far along school→along は「沿って」。距離の表現にならない。",
+                        "far below school→below は「下に」。距離とは言えない。",
+                        "far under school→under は「下に」。文脈に合わない。",
+                        "○ from＝far from ～＝〜から遠くに。"
                     ],
                     "choiceAnalysisSimple": [
                         "along は「にそって」。合わないよ。",
@@ -387,7 +387,7 @@
                         "under は「したに」。合わないよ。",
                         "○ from がぴったり！far from で「とおく」！"
                     ],
-                    "translation": "イーサンは学校から遠くに住んでいるので、バスに乗らなければならない。",
+                    "translation": "イーサンは学校から（　）住んでいるので、バスに乗らなければならない。",
                     "choiceTranslations": [
                         "沿って",
                         "より下に",
@@ -408,10 +408,10 @@
                     "grammar": "finished cleaning＝「掃除を終えた」。finish＋動名詞の形。",
                     "grammarSimple": "finished cleaning は「そうじをおえた」。finish のあとは ing だよ。",
                     "choiceAnalysis": [
-                        "❌ finished clean→finish の後に原形は取れない。",
-                        "❌ finished cleaned→過去形は続けられない。",
-                        "✅ cleaning＝動名詞。finished cleaning his room が正しい。",
-                        "❌ finished cleans→三単現は文法的に誤り。"
+                        "finished clean→finish の後に原形は取れない。",
+                        "finished cleaned→過去形は続けられない。",
+                        "○ cleaning＝動名詞。finished cleaning his room が正しい。",
+                        "finished cleans→三単現は文法的に誤り。"
                     ],
                     "choiceAnalysisSimple": [
                         "clean はそのままではダメだよ。",
@@ -419,7 +419,7 @@
                         "○ cleaning がぴったり！finish のあとは ing！",
                         "cleans もダメだよ。"
                     ],
-                    "translation": "ジャックは部屋の掃除を終えてから、友達の家に行った。",
+                    "translation": "ジャックは部屋の（　）を終えてから、友達の家に行った。",
                     "choiceTranslations": [
                         "掃除する（原形）",
                         "掃除した（過去形）",
@@ -438,12 +438,12 @@
                     ],
                     "answer": 3,
                     "grammar": "told him to go to bed＝「もっと早く寝なさいと言った」。tell＋人＋to不定詞。",
-                    "grammarSimple": "told him to go は「ねなさいといった」。tell のあとは to + 動詞だよ。",
+                    "grammarSimple": "told him to go は「ねなさいといった」。tell + 人 + to + 動詞で「人に〜するよう言う」だよ。",
                     "choiceAnalysis": [
-                        "❌ told him going→tell の後に動名詞だけでは「寝なさい」にならない。",
-                        "❌ told him went→過去形は続けられない。",
-                        "✅ to go＝tell 人 to do の形。早く寝るよう指示。",
-                        "❌ told him goes→三単現は文法的に誤り。"
+                        "told him going→tell の後に動名詞だけでは「寝なさい」にならない。",
+                        "told him went→過去形は続けられない。",
+                        "○ to go＝tell 人 to do の形。早く寝るよう指示。",
+                        "told him goes→三単現は文法的に誤り。"
                     ],
                     "choiceAnalysisSimple": [
                         "going はそのままではダメだよ。",
@@ -451,12 +451,12 @@
                         "○ to go がぴったり！もっとはやくねなさい！",
                         "goes もダメだよ。"
                     ],
-                    "translation": "ケンは昨夜12時までテレビを見ていた。母親はもっと早く寝るように言った。",
+                    "translation": "ケンは昨夜12時までテレビを見ていた。母親はもっと早く（　）ように言った。",
                     "choiceTranslations": [
-                        "行っている（動名詞）",
+                        "行くこと（動名詞）",
                         "行った（過去形）",
-                        "行くために（不定詞）",
-                        "行く（三単現）"
+                        "行くこと・行くように（to不定詞）",
+                        "行く（三人称単数現在形）"
                     ]
                 },
                 {
@@ -472,10 +472,10 @@
                     "grammar": "good at cooking＝「料理が得意」。at の後は名詞・動名詞。",
                     "grammarSimple": "good at cooking は「りょうりがとくい」。おいしいごはんをつくるよ。",
                     "choiceAnalysis": [
-                        "✅ cooking＝動名詞。be good at ～ing が定番。",
-                        "❌ to cook＝不定詞。good at to cook は文法的に誤り。",
-                        "❌ cooked＝過去形・過去分詞。good at cooked は不自然。",
-                        "❌ cooks＝三単現。good at cooks は文法的に誤り。"
+                        "○ cooking＝動名詞。be good at ～ing が定番。",
+                        "to cook＝不定詞。good at to cook は文法的に誤り。",
+                        "cooked＝過去形・過去分詞。good at cooked は不自然。",
+                        "cooks＝三単現。good at cooks は文法的に誤り。"
                     ],
                     "choiceAnalysisSimple": [
                         "○ cooking がぴったり！good at のあとは ing！",
@@ -483,12 +483,12 @@
                         "cooked も合わないよ。",
                         "cooks も合わないよ。"
                     ],
-                    "translation": "エレンは料理が得意だ。友達は彼女の家に行って、おいしい料理を食べるのを楽しんでいる。",
+                    "translation": "エレンは（　）が得意だ。友達は彼女の家に行って、おいしい料理を食べるのを楽しんでいる。",
                     "choiceTranslations": [
-                        "料理（動名詞）",
-                        "料理するために（不定詞）",
+                        "料理すること（動名詞）",
+                        "料理すること（to不定詞）",
                         "料理した（過去形）",
-                        "料理する（三単現）"
+                        "料理する（三人称単数現在形）"
                     ]
                 }
             ]
@@ -512,14 +512,14 @@
                     "grammar": "Have you ever been there?＝「そこへ行ったことがある？」。パリ旅行の話→相手の経験を聞く質問。",
                     "grammarSimple": "Have you ever been there? は「そこに行ったことある？」。パリのはなしだから、行ったことがあるかきいてるよ。",
                     "choiceAnalysis": [
-                        "❌ Would you like some?＝「いくつか欲しい？」。パリ旅行の話題に合わない。",
-                        "✅ Have you ever been there?＝「そこへ行ったことがある？」。Yes, it's beautiful. という答えと自然につながる。",
-                        "❌ Did you find your bag?＝「かばんは見つかった？」。旅行の話題と無関係。",
-                        "❌ How much are the tickets?＝「チケットはいくら？」。相手の経験を聞く流れとずれる。"
+                        "Would you like some?＝「いくつか欲しい？」。パリ旅行の話題に合わない。",
+                        "○ Have you ever been there?＝「そこへ行ったことがある？」。Yes, it's beautiful. という答えと自然につながる。",
+                        "Did you find your bag?＝「かばんは見つかった？」。旅行の話題と無関係。",
+                        "How much are the tickets?＝「チケットはいくら？」。相手の経験を聞く流れとずれる。"
                     ],
                     "choiceAnalysisSimple": [
                         "「いくつかほしい？」はパリのはなしと合わないよ。",
-                        "○「そこに行ったことある？」きれいなところだよ、というこたえとつながる！",
+                        "○ 「そこに行ったことある？」きれいなところだよ、というこたえとつながる！",
                         "「かばんみつかった？」ははなしがずれるよ。",
                         "「チケットいくら？」はちがうよ。"
                     ],
@@ -544,15 +544,15 @@
                     "grammar": "That sounds great＝「いいですね」。I was thinking the same thing（私も同じことを考えていた）と呼応。",
                     "grammarSimple": "That sounds great は「いいね」。わたしもおなじことかんがえてた、というつづきだよ。",
                     "choiceAnalysis": [
-                        "❌ Have a nice time.＝「楽しんで」。提案への賛成の返答として弱い。",
-                        "❌ It'll be here soon.＝「すぐここに来るよ」。テニスの提案と無関係。",
-                        "✅ That sounds great.＝「いいですね」。同じことを考えていた、という肯定的な返答。",
-                        "❌ I can't understand.＝「わかりません」。提案を受け入れる文脈と矛盾。"
+                        "Have a nice time.＝「楽しんでね」。出かける人へのあいさつで、一緒にテニスをしようという提案への返答にならない。",
+                        "It'll be here soon.＝「すぐここに来るよ」。テニスの提案と無関係。",
+                        "○ That sounds great.＝「いいですね」。同じことを考えていた、という肯定的な返答。",
+                        "I can't understand.＝「わかりません」。提案を受け入れる文脈と矛盾。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「たのしんで」は提案へのこたえとして弱いよ。",
+                        "「たのしんでね」は出かける人へのあいさつで、提案へのこたえにならないよ。",
                         "「すぐくるよ」はテニスとは関係ないよ。",
-                        "○「いいね！」わたしもおなじことかんがえてた！",
+                        "○ 「いいね！」わたしもおなじことかんがえてた！",
                         "「わからない」はちがうよ。"
                     ],
                     "translation": "男：土曜日に一緒にテニスをしない？\n女：（　）私も同じことを考えていたわ。",
@@ -576,16 +576,16 @@
                     "grammar": "I'll be there in a minute＝「すぐ行くよ」。夕食の用意ができた→階下に降りてくる返答。",
                     "grammarSimple": "I'll be there in a minute は「すぐいくよ」。ごはんのじゅんびができたから、すぐおりてくるよ。",
                     "choiceAnalysis": [
-                        "❌ I'm too busy.＝「忙しすぎる」。夕食に来るよう言われた場面と矛盾。",
-                        "❌ I'll call you soon.＝「すぐ電話する」。同じ家にいる母への返答として不自然。",
-                        "❌ I'm going tomorrow.＝「明日行く」。今すぐ降りてこいという指示と合わない。",
-                        "✅ I'll be there in a minute.＝「すぐ行くよ」。Come downstairs への自然な返答。"
+                        "I'm too busy.＝「忙しすぎる」。夕食に来るよう言われた場面と矛盾。",
+                        "I'll call you soon.＝「すぐ電話する」。下に来るよう言われたことへの返答にならない。",
+                        "I'm going tomorrow.＝「明日行く」。今すぐ降りてこいという指示と合わない。",
+                        "○ I'll be there in a minute.＝「すぐ行くよ」。Come downstairs への自然な返答。"
                     ],
                     "choiceAnalysisSimple": [
                         "「いそがしすぎる」はごはんにこないことになるよ。",
-                        "「すぐでんわする」はおなじいえにいるからへんだよ。",
+                        "「すぐでんわする」は、下におりてくるこたえにならないよ。",
                         "「あしたいく」は「いますぐ」とちがうよ。",
-                        "○「すぐいくよ！」おりてくるね！"
+                        "○ 「すぐいくよ！」おりてくるね！"
                     ],
                     "translation": "母：サマンサ、夕食の用意ができたわ。下に降りてきて。\n娘：わかった、ママ。（　）",
                     "choiceTranslations": [
@@ -608,14 +608,14 @@
                     "grammar": "What's the matter?＝「どうしたの？」。I'm just not hungry（ただお腹が空いていないだけ）という理由の説明とつながる。",
                     "grammarSimple": "What's the matter? は「どうしたの？」。おなかがすいてないだけ、というこたえにつながるよ。",
                     "choiceAnalysis": [
-                        "❌ Are they your friends?＝「彼らは友達？」。朝食を食べない理由を聞く質問にならない。",
-                        "✅ What's the matter?＝「どうしたの？」。not hungry という状態の説明とぴったり。",
-                        "❌ Can you do it alone?＝「一人でできる？」。食事の場面と無関係。",
-                        "❌ Do you have any?＝「何か持っている？」。文脈に合わない。"
+                        "Are they your friends?＝「彼らは友達？」。朝食を食べない理由を聞く質問にならない。",
+                        "○ What's the matter?＝「どうしたの？」。not hungry という状態の説明とぴったり。",
+                        "Can you do it alone?＝「一人でできる？」。食事の場面と無関係。",
+                        "Do you have any?＝「何か持っている？」。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
                         "「ともだち？」はあさごはんのはなしと関係ないよ。",
-                        "○「どうしたの？」おなかがすいてないだけ、というこたえだね！",
+                        "○ 「どうしたの？」おなかがすいてないだけ、というこたえだね！",
                         "「ひとりでできる？」は合わないよ。",
                         "「なにかもってる？」は合わないよ。"
                     ],
@@ -637,21 +637,21 @@
                         "I'm very sorry."
                     ],
                     "answer": 4,
-                    "grammar": "I'm very sorry＝「本当にすみません」。相手のジャケットを間違えて着ている→謝る場面。",
+                    "grammar": "I'm very sorry＝「本当にすみません」。相手のジャケットを自分の物と思って着てしまい、謝る場面。",
                     "grammarSimple": "I'm very sorry は「ほんとうにごめんなさい」。じゃけっとをまちがえてきちゃったからあやまるよ。",
                     "choiceAnalysis": [
-                        "❌ it's my pleasure.＝「どういたしまして」。謝罪の場面では使わない。",
-                        "❌ I decided to go.＝「行くことにした」。ジャケットの取り違えへの返答にならない。",
-                        "❌ I'll speak to him now.＝「今彼に話す」。二人の会話の流れとずれる。",
-                        "✅ I'm very sorry.＝「本当にすみません」。It looks like mine.（私のと似ている）とともに謝罪。"
+                        "it's my pleasure.＝「どういたしまして」。謝罪の場面では使わない。",
+                        "I decided to go.＝「行くことにした」。ジャケットの取り違えへの返答にならない。",
+                        "I'll speak to him now.＝「今彼に話す」。二人の会話の流れとずれる。",
+                        "○ I'm very sorry.＝「本当にすみません」。It looks like mine.（私の物に見える）ため、取り違えたことを謝っている。"
                     ],
                     "choiceAnalysisSimple": [
                         "「どういたしまして」はあやまるときには使わないよ。",
                         "「いくことにした」は合わないよ。",
                         "「いまはなす」ははなしがずれるよ。",
-                        "○「ほんとうにごめんなさい」。じゃけっとをまちがえたね！"
+                        "○ 「ほんとうにごめんなさい」。じゃけっとをまちがえたね！"
                     ],
-                    "translation": "男1：すみません。君が着ているのは僕のジャケットだと思うんです。\n男2：ああ、（　）僕のと似ていますね。",
+                    "translation": "男1：すみません。君が着ているのは僕のジャケットだと思うんです。\n男2：ああ、（　）私の物に見えたんです。",
                     "choiceTranslations": [
                         "どういたしまして。",
                         "行くことにしたよ。",
@@ -683,11 +683,11 @@
                     "translations": [
                         "チェン先生の料理教室",
                         "伝統的な中国料理に興味はありますか？",
-                        "来月3月、エヴァンスフィールド文化センターでは、中国のレシピを学びたい人のための料理教室を開催します。チェン先生を特別講師として招きます。",
+                        "来年3月、エヴァンスフィールド文化センターでは、中国料理のレシピを学びたい人のための料理教室を開催します。チェン先生を特別講師として招きます。",
                         "●エプロンとノートを持参してください。",
                         "場所\nエヴァンスフィールド文化センター",
                         "クラス\n（大人向け）金曜日 午後7時〜9時\n（10代向け）土曜日 午後2時〜3時30分",
-                        "講師について\nチェン先生は市内でも最高のシェフの一人です。国際的な料理コンテストでいくつか優勝したことがあります。昨年は「今年の優秀な若手シェフ」にも選ばれました。"
+                        "講師について\nチェン先生は市内でも最高のシェフの一人です。国際的な料理コンテストで優勝したことがあります。昨年は「年間最優秀若手シェフ」にも選ばれました。"
                     ],
                     "questions": [
                         {
@@ -707,10 +707,10 @@
                             "grammar": "持参するもの＝apron and a notebook。選択肢1はノートを持参。",
                             "grammarSimple": "エプロンとノートをもっていくように書いてあるよ。",
                             "choiceAnalysis": [
-                                "✅ Bring a notebook.＝ノートを持参。Remember to bring an apron and a notebook. の notebook と一致→正解",
-                                "❌ Wash the dishes after cooking.＝料理後の皿洗い。wash dishes の記述なし",
-                                "❌ Buy Mr. Chen's recipe book.＝レシピ本購入。recipe book の記述なし",
-                                "❌ Learn to speak Chinese.＝中国語学習。Chinese recipes を学ぶが speak Chinese とは異なる"
+                                "○ Bring a notebook.＝ノートを持参。Remember to bring an apron and a notebook. の notebook と一致→正解",
+                                "Wash the dishes after cooking.＝料理後の皿洗い。wash dishes の記述なし",
+                                "Buy Mr. Chen's recipe book.＝レシピ本購入。recipe book の記述なし",
+                                "Learn to speak Chinese.＝中国語学習。Chinese recipes を学ぶが speak Chinese とは異なる"
                             ],
                             "choiceAnalysisSimple": [
                                 "○ ノートをもっていく！",
@@ -739,13 +739,13 @@
                             "sourceEvidence": [
                                 "He has won some international cooking contests."
                             ],
-                            "grammar": "He has won some international cooking contests＝料理コンテストで優勝した経験がある。",
+                            "grammar": "He has won some international cooking contests＝国際的な料理コンテストで優勝したことがある。",
                             "grammarSimple": "国際的な料理コンテストでかちとったことがあるよ。",
                             "choiceAnalysis": [
-                                "❌ gave lessons to students online.＝オンライン授業。online lessons の記述なし",
-                                "❌ taught teenagers on Saturday mornings.＝土曜の朝。Classes は Saturdays, 2:00 p.m.（午後）",
-                                "❌ invited his friends to the cooking classes.＝友達招待。invite friends の記述なし",
-                                "✅ won some cooking contests.＝He has won some international cooking contests. と一致→正解"
+                                "gave lessons to students online.＝オンライン授業。online lessons の記述なし",
+                                "taught teenagers on Saturday mornings.＝土曜の朝。Classes は Saturdays, 2:00 p.m.（午後）",
+                                "invited his friends to the cooking classes.＝友達を招待。チェン先生を特別講師として招くのは主催者で、友達を招いたとは書かれていない",
+                                "○ won some cooking contests.＝He has won some international cooking contests. と一致→正解"
                             ],
                             "choiceAnalysisSimple": [
                                 "オンラインの授業とは書いてないよ。",
@@ -819,13 +819,13 @@
                             "sourceEvidence": [
                                 "I saw a nice scarf and bought it for you! I also bought a coat for myself."
                             ],
-                            "grammar": "マフラーをおばあちゃんに、コートを自分に買った。",
+                            "grammar": "ジュディはマフラーをおばあちゃんに、コートを自分に買った。",
                             "grammarSimple": "マフラーをおばあちゃんに、コートをじぶんにかったよ。",
                             "choiceAnalysis": [
-                                "✅ She bought a coat and a scarf.＝bought it for you（scarf）＋bought a coat for myself と一致→正解",
-                                "❌ She found a nice wallet.＝財布発見。wallet はおばあちゃんのプレゼントでデパートでの行動ではない",
-                                "❌ She bought a brown sweater.＝茶色セーター。couln't find any brown ones と矛盾",
-                                "❌ She worked as a staff member.＝店員として勤務。staff member の記述なし"
+                                "○ She bought a coat and a scarf.＝bought it for you（scarf）＋bought a coat for myself と一致→正解",
+                                "She found a nice wallet.＝すてきな財布を見つけた。財布はおばあちゃんから先月もらった物で、昨日デパートでした行動ではない",
+                                "She bought a brown sweater.＝茶色のセーターを買った。couldn't find any brown ones と矛盾",
+                                "She worked as a staff member.＝店員として勤務。staff member の記述なし"
                             ],
                             "choiceAnalysisSimple": [
                                 "○ コートとマフラーをかった！",
@@ -854,13 +854,13 @@
                             "sourceEvidence": [
                                 "I found it at a shopping mall next to the museum."
                             ],
-                            "grammar": "おばあちゃんのメールで財布の購入場所を説明。",
-                            "grammarSimple": "博物館のとなりのショッピングモールでかったって書いてあるよ。",
+                            "grammar": "おばあちゃんのメールでは、財布は博物館の隣のショッピングモールで見つけたとある。場所が選択肢2と一致する。",
+                            "grammarSimple": "さいふを見つけたのは、博物館のとなりのショッピングモールだよ。",
                             "choiceAnalysis": [
-                                "❌ at a shop in the park.＝公園の店。park は後の cake shop の場所",
-                                "✅ at a shopping mall beside the museum.＝I found it at a shopping mall next to the museum. と一致→正解",
-                                "❌ at a shop next to her house.＝家の隣の店。next to her house の記述なし",
-                                "❌ at a department store in Linda's city.＝リンダの街のデパート。department store は Judy の買い物場所"
+                                "at a shop in the park.＝公園内の店。本文は a cake shop near the park（公園の近くのケーキ店）で、公園内ではない",
+                                "○ at a shopping mall beside the museum.＝I found it at a shopping mall next to the museum. と一致→正解",
+                                "at a shop next to her house.＝家の隣の店。next to the museum とあり、家の隣ではない",
+                                "at a department store in Linda's city.＝リンダの街のデパート。department store は Judy の買い物場所"
                             ],
                             "choiceAnalysisSimple": [
                                 "公園の店とは書いてないよ。",
@@ -889,24 +889,24 @@
                             "sourceEvidence": [
                                 "Linda often told me stories when you were cooking in the kitchen."
                             ],
-                            "grammar": "料理中＝Linda often told me stories（リンダの物語を聞いた）。",
-                            "grammarSimple": "おばあちゃんが料理しているとき、リンダの物語をきいていたよ。",
+                            "grammar": "おばあちゃんが料理しているとき、Linda often told me stories とあるので、ジュディはリンダが話す物語を聞いていた。",
+                            "grammarSimple": "おばあちゃんが料理しているとき、リンダが話すお話をきいていたよ。",
                             "choiceAnalysis": [
-                                "❌ She shared a cake with Linda.＝ケーキ共有。cakes は訪問前に買う予定で料理中の行動ではない",
-                                "❌ She visited a park with her mother.＝公園訪問。mother は仕事で同行しない（第三通メール）",
-                                "✅ She listened to Linda's stories.＝Linda often told me stories when you were cooking と一致→正解",
-                                "❌ She helped her grandmother in the kitchen.＝台所手伝い。told me stories（物語を聞く）と異なる"
+                                "She shared a cake with Linda.＝ケーキ共有。cakes は訪問前に買う予定で料理中の行動ではない",
+                                "She visited a park with her mother.＝公園訪問。mother は仕事で同行しない（第三通メール）",
+                                "○ She listened to Linda's stories.＝Linda often told me stories when you were cooking（リンダが話す物語を聞く）と一致→正解",
+                                "She helped her grandmother in the kitchen.＝台所手伝い。told me stories（リンダが話し、ジュディが聞く）と異なる"
                             ],
                             "choiceAnalysisSimple": [
                                 "ケーキをわけた話は土曜日のよていだよ。",
                                 "公園に行った話はないよ。",
-                                "○ リンダの物語をきいていた！",
+                                "○ リンダが話すお話をきいていた！",
                                 "台所でてつだった話じゃないよ。"
                             ],
                             "choiceTranslations": [
                                 "リンダとケーキを分け合った。",
                                 "母と公園を訪れた。",
-                                "リンダの物語を聞いた。",
+                                "リンダが話す物語を聞いた。",
                                 "おばあちゃんを台所で手伝った。"
                             ]
                         }
@@ -924,9 +924,9 @@
                     ],
                     "translations": [
                         "アンナ・メアリー・ロバートソン・モーゼスは、グランマ・モーゼスとして知られるアメリカの画家だった。1860年、ニューヨークの農場に生まれた。少女のころ、アンナは農場で一生懸命働き、家族の世話をした。自由な時間には兄弟と外で遊ぶのが好きだった。手で物を作るのも好きで、父が買ってくれた紙に絵を描くのをよく楽しんだ。",
-                        "アンナは1887年にトーマス・モーゼスと結婚し、愛する地元の農場で暮らした。1927年にトーマスが亡くなった後も、末の息子の助けを借りて農場で働き続けた。しかし年を取ると、手が痛くて農場での作業が難しくなった。そこで絵を描くことに挑戦することにした。当時、すでに75歳を超えていた。",
+                        "アンナは1887年にトーマス・モーゼスと結婚し、愛する地元の農場で暮らした。1927年にトーマスが亡くなった後も、末の息子の助けを借りて農場で働き続けた。しかし年を取ると、手が痛くて農場での作業が難しくなった。そこで代わりに絵を描いてみることにした。当時、すでに75歳を超えていた。",
                         "アンナは農場生活で愛したものをすべて絵に描いた。緑の野原、雪の冬、自然の中で暮らす幸せな人々をよく描いた。彼女の絵はとても独特で幸せに満ちていたため、多くの人が見に来た。多くの色でシンプルに描かれた作品を見ると、人々は温かく幸せな気持ちになった。",
-                        "アンナは1960年頃まで絵を描き続けた。生涯で1,500点以上の作品を残し、絵は全国で人気になった。今でも多くの人が博物館で彼女の絵を見に来る。アンナと彼女の絵は、人生のいつでも誰でも新しいことに挑戦できることを示している。"
+                        "アンナは1960年頃まで絵を描き続けた。生涯で1,500点以上の作品を残し、絵は全国で人気になった。今でも多くの人が美術館で彼女の絵を見に来る。アンナと彼女の絵は、人生のいつでも誰でも新しいことに挑戦できることを示している。"
                     ],
                     "questions": [
                         {
@@ -946,10 +946,10 @@
                             "grammar": "drawing pictures on paper＝紙に絵を描くこと。",
                             "grammarSimple": "父がかってくれた紙にえをかくのがすきだったよ。",
                             "choiceAnalysis": [
-                                "✅ Drawing on paper.＝drawing pictures on paper her father bought for her と一致→正解",
-                                "❌ Taking pictures.＝写真撮影。taking pictures の記述なし",
-                                "❌ Buying gifts for her father.＝父への贈り物。father bought paper for her（父が紙を買った）",
-                                "❌ Playing games at home.＝家でゲーム。played outside with her brothers と外で遊ぶ"
+                                "○ Drawing on paper.＝drawing pictures on paper her father bought for her と一致→正解",
+                                "Taking pictures.＝写真撮影。taking pictures の記述なし",
+                                "Buying gifts for her father.＝父への贈り物。father bought paper for her（父が紙を買った）",
+                                "Playing games at home.＝家でゲーム。played outside with her brothers と外で遊ぶ"
                             ],
                             "choiceAnalysisSimple": [
                                 "○ 紙にえをかくのがすき！",
@@ -976,19 +976,20 @@
                             ],
                             "answer": 2,
                             "sourceEvidence": [
-                                "it was hard for her to do some things on the farm because her hands hurt"
+                                "it was hard for her to do some things on the farm because her hands hurt.",
+                                "So, she decided to try painting instead."
                             ],
-                            "grammar": "手が痛くて農作業が難しくなった→絵を描くことにした。",
-                            "grammarSimple": "てがいたくてのうさぎがむずかしくなったから、えをかくことにしたよ。",
+                            "grammar": "手が痛くて農作業が難しくなったため、代わりに絵を描いてみることにした。",
+                            "grammarSimple": "てがいたくてのうさぎょうがむずかしくなったから、えをかくことにしたよ。",
                             "choiceAnalysis": [
-                                "❌ She had to teach art to her son.＝美術指導。teach art の記述なし",
-                                "✅ She had a problem with her hands.＝because her hands hurt. So, she decided to try painting と一致→正解",
-                                "❌ She did not want to look old.＝老けたくない。look old の記述なし",
-                                "❌ She did not enjoy living on her farm.＝農場が嫌。loved the local farm she loved と矛盾"
+                                "She had to teach art to her son.＝美術指導。teach art の記述なし",
+                                "○ She had a problem with her hands.＝because her hands hurt. So, she decided to try painting と一致→正解",
+                                "She did not want to look old.＝老けたくない。look old の記述なし",
+                                "She did not enjoy living on her farm.＝農場で暮らすのが嫌だった。lived on the local farm she loved とあり、農場を愛していた"
                             ],
                             "choiceAnalysisSimple": [
                                 "むすこにおしえる話はないよ。",
-                                "○ てがいたくてのうさぎがむずかしかった！",
+                                "○ てがいたくてのうさぎょうがむずかしかった！",
                                 "としをとりたくない話はないよ。",
                                 "のうじょうがきらいだったわけじゃないよ。"
                             ],
@@ -1014,12 +1015,12 @@
                                 "painted in a simple way with many colors"
                             ],
                             "grammar": "with many colors＝多くの色を使った絵。",
-                            "grammarSimple": "たくさんの色をつかって、かんたんなしかたでかかれたよ。",
+                            "grammarSimple": "たくさんのいろをつかい、シンプルなかきかたでかかれていたよ。",
                             "choiceAnalysis": [
-                                "❌ made her much poorer.＝貧しくした。became popular across the country と成功の話",
-                                "❌ made people free.＝人を自由に。made people free の記述なし",
-                                "❌ were sold to farmers.＝農民に売却。sold to farmers の記述なし",
-                                "✅ had a lot of colors.＝painted in a simple way with many colors と一致→正解"
+                                "made her much poorer.＝彼女をさらに貧しくした。本文にアンナの収入や貧しさについての記述はない",
+                                "made people free.＝人を自由に。made people free の記述なし",
+                                "were sold to farmers.＝農民に売却。sold to farmers の記述なし",
+                                "○ had a lot of colors.＝painted in a simple way with many colors と一致→正解"
                             ],
                             "choiceAnalysisSimple": [
                                 "貧しくなった話じゃないよ。",
@@ -1028,7 +1029,7 @@
                                 "○ たくさんの色があった！"
                             ],
                             "choiceTranslations": [
-                                "彼女をずっと貧しくした。",
+                                "彼女をさらに貧しくした。",
                                 "人々を自由にした。",
                                 "農民に売られた。",
                                 "多くの色があった。"
@@ -1051,22 +1052,22 @@
                             "grammar": "1,500点以上の作品を残した＝多くの芸術作品を作った。",
                             "grammarSimple": "しょうがいで1500いじょうのさくひんをつくったよ。",
                             "choiceAnalysis": [
-                                "❌ She tried to travel across America.＝アメリカ横断。travel across America の記述なし",
-                                "❌ She invented new colors.＝新色発明。invented colors の記述なし",
-                                "✅ She created many works of art.＝created more than 1,500 works of art in her life と一致→正解",
-                                "❌ She built a famous museum.＝博物館建設。come to see her paintings in museums（既存の博物館）"
+                                "She tried to travel across America.＝アメリカ横断。travel across America の記述なし",
+                                "She invented new colors.＝新色発明。invented colors の記述なし",
+                                "○ She created many works of art.＝created more than 1,500 works of art in her life と一致→正解",
+                                "She built a famous museum.＝有名な美術館を建てた。people come to see her paintings in museums とあるだけで、アンナが美術館を建てたとは書かれていない"
                             ],
                             "choiceAnalysisSimple": [
                                 "アメリカをたびした話はないよ。",
                                 "新しい色をはつめいした話はないよ。",
                                 "○ たくさんのさくひんをつくった！",
-                                "博物館をたてた話じゃないよ。"
+                                "美術館をたてた話じゃないよ。"
                             ],
                             "choiceTranslations": [
                                 "アメリカ横断の旅をしようとした。",
                                 "新しい色を発明した。",
                                 "多くの芸術作品を作った。",
-                                "有名な博物館を建てた。"
+                                "有名な美術館を建てた。"
                             ]
                         },
                         {
@@ -1084,13 +1085,13 @@
                                 "was an American artist",
                                 "her paintings became popular across the country"
                             ],
-                            "grammar": "グランマ・モーゼスというアメリカの人気画家の生涯。",
+                            "grammar": "グランマ・モーゼスという、アメリカで人気になった画家の生涯。",
                             "grammarSimple": "アメリカでにんきのがか、グランマ・モーゼスのお話だよ。",
                             "choiceAnalysis": [
-                                "❌ A woman who loved her grandmother.＝おばあちゃん愛。Grandma Moses はAnnaのあだ名",
-                                "✅ A popular artist in America.＝American artist、paintings became popular across the country と一致→正解",
-                                "❌ How to live on a farm.＝農場生活の仕方。farm life は背景の一部",
-                                "❌ How to help older people.＝高齢者支援。anyone can try something new が主テーマ"
+                                "A woman who loved her grandmother.＝祖母を愛した女性。Grandma Moses はアンナの通称で、この内容ではない",
+                                "○ A popular artist in America.＝American artist、paintings became popular across the country と一致→正解",
+                                "How to live on a farm.＝農場生活の仕方。farm life は背景の一部",
+                                "How to help older people.＝高齢者支援。anyone can try something new が主テーマ"
                             ],
                             "choiceAnalysisSimple": [
                                 "おばあちゃんの話じゃないよ。",
@@ -1280,7 +1281,7 @@
         },
         {
             "word": "throw",
-            "meaning": "捨てる",
+            "meaning": "投げる（throw awayで「捨てる」）",
             "pos": "動詞",
             "level": "3級",
             "source": "大問1",
@@ -1308,8 +1309,8 @@
         },
         {
             "word": "hand",
-            "meaning": "手伝い",
-            "pos": "名詞",
+            "meaning": "手（give ... a handで「手伝い」）",
+            "pos": "名詞（慣用句）",
             "level": "3級",
             "source": "大問1",
             "example": "Dad, can you give me a hand with my new TV? I need to bring it upstairs.",
@@ -1322,57 +1323,57 @@
         },
         {
             "word": "from",
-            "meaning": "〜から（離れて）",
+            "meaning": "〜から（far fromで「〜から遠く」）",
             "pos": "前置詞",
             "level": "3級",
             "source": "大問1",
             "example": "Ethan lives far from school, so he has to take the bus.",
             "distractors": [
                 "沿って",
-                "下に",
-                "上に"
+                "より下に",
+                "〜の下に"
             ],
             "wordAudio": "audio/vocab/w_012_from.mp3"
         },
         {
             "word": "cleaning",
             "meaning": "掃除すること",
-            "pos": "名詞",
+            "pos": "動名詞",
             "level": "3級",
             "source": "大問1",
             "example": "Jack finished cleaning his room and then went to his friend's house.",
             "distractors": [
-                "掃除する",
-                "掃除した",
-                "掃除する（三人称）"
+                "掃除する（原形）",
+                "掃除した（過去形）",
+                "掃除する（三人称単数）"
             ],
             "wordAudio": "audio/vocab/w_013_cleaning.mp3"
         },
         {
             "word": "to go",
-            "meaning": "行くために",
-            "pos": "不定詞",
+            "meaning": "行くこと・行くように",
+            "pos": "to不定詞",
             "level": "3級",
             "source": "大問1",
             "example": "His mother told him to go to bed earlier.",
             "distractors": [
-                "行っている",
-                "行った",
-                "行く（三人称）"
+                "行っている（動名詞）",
+                "行った（過去形）",
+                "行く（三人称単数）"
             ],
             "wordAudio": "audio/vocab/w_014_to_go.mp3"
         },
         {
             "word": "cooking",
-            "meaning": "料理",
-            "pos": "名詞",
+            "meaning": "料理すること",
+            "pos": "動名詞",
             "level": "3級",
             "source": "大問1",
             "example": "Ellen is good at cooking. Her friends enjoy eating her delicious food.",
             "distractors": [
-                "料理するために",
-                "料理した",
-                "料理する（三人称）"
+                "料理するために（to不定詞）",
+                "料理した（過去形）",
+                "料理する（三人称単数）"
             ],
             "wordAudio": "audio/vocab/w_015_cooking.mp3"
         },
@@ -1546,43 +1547,43 @@
         },
         {
             "word": "artist",
-            "meaning": "画家・アーティスト",
+            "meaning": "画家（芸術家）",
             "pos": "名詞",
             "level": "3級",
             "source": "大問3C",
             "example": "Anna Mary Robertson Moses was an American artist.",
             "distractors": [
-                "農場",
-                "博物館",
-                "色"
+                "農家",
+                "料理人",
+                "博物館の職員"
             ],
             "wordAudio": "audio/vocab/w_028_artist.mp3"
         },
         {
             "word": "painting",
-            "meaning": "絵を描くこと・絵画",
-            "pos": "名詞",
+            "meaning": "絵を描くこと",
+            "pos": "動名詞",
             "level": "3級",
             "source": "大問3C",
             "example": "She decided to try painting instead. She was already over seventy-five years old then.",
             "distractors": [
-                "写真",
-                "贈り物",
-                "家で遊ぶこと"
+                "写真を撮ること",
+                "父への贈り物を買うこと",
+                "家の中で遊ぶこと"
             ],
             "wordAudio": "audio/vocab/w_029_painting.mp3"
         },
         {
             "word": "museum",
-            "meaning": "博物館",
+            "meaning": "美術館（博物館）",
             "pos": "名詞",
             "level": "3級",
             "source": "大問3C",
             "example": "Even today, many people come to see her paintings in museums.",
             "distractors": [
                 "農場",
-                "色の発明",
-                "アメリカ横断"
+                "料理教室",
+                "絵を描くこと"
             ],
             "wordAudio": "audio/vocab/w_030_museum.mp3"
         }
@@ -1593,7 +1594,7 @@
                 "id": "fp1",
                 "title": "句動詞・コロケーションで空所を決める",
                 "subtitle": "Phrasal Verbs, Collocations & Grammar Forms",
-                "explanation": "大問1では単語単体ではなく、前後の語とのセットで意味が決まります。give me a hand（手伝って）、get off the bus（バスを降りる）、throw away（捨てる）は定型句です。small enough to（〜するのに十分）、finished cleaning（掃除を終えた）、told him to go（行くよう言った）、good at cooking（料理が得意）のように、enough・finish＋動名詞・tell＋to不定詞・good at＋動名詞も頻出パターンです。",
+                "explanation": "大問1では単語単体ではなく、前後の語とのセットで意味が決まります。give me a hand（手を貸して・手伝って）、get off the bus（バスを降りる）、throw away（捨てる）は定型句です。small enough to（〜するのに十分）、finished cleaning（掃除を終えた）、told him to go（行くよう言った）、good at cooking（料理が得意）のように、enough・finish＋動名詞・tell＋to不定詞・good at＋動名詞も頻出パターンです。",
                 "explanationSimple": "たんごはセットでおぼえるよ。give me a hand は「てつだって」、get off は「おりる」、throw away は「すてる」。enough、finish＋ing、tell＋to go、good at cooking もセットだよ。",
                 "sourceQuote": "give me a hand / gets off the bus / throw away / small enough to / finished cleaning / told him to go / good at cooking",
                 "sourceLocation": "大問1 (11)(10)(9)(8)(13)(14)(15)",
@@ -1601,7 +1602,7 @@
                     {
                         "en": "Dad, can you give me a hand with my new TV? I need to bring it upstairs.",
                         "ja": "お父さん、新しいテレビを手伝ってくれる？上の階に運ぶ必要があるんだ。",
-                        "note": "give me a hand＝「手伝って」。hand単体では「手のひら」だが、ここはイディオム。",
+                        "note": "hand は「手」。give me a hand で「手を貸して・手伝って」という慣用表現になる。",
                         "noteSimple": "give me a hand は「てつだって」。ぜったいセットでおぼえよう。",
                         "audio": "audio/fp1_ex1.mp3"
                     },
@@ -1615,7 +1616,7 @@
                     {
                         "en": "Jack finished cleaning his room. Ken's mother told him to go to bed earlier.",
                         "ja": "ジャックは部屋の掃除を終えた。ケンの母親はもっと早く寝るように言った。",
-                        "note": "finish＋動名詞、tell＋人＋to不定詞。原形・過去形は続けられない。",
+                        "note": "finish＋動名詞、tell＋人＋to不定詞。cleaning は「掃除すること」、to go は「行くこと・行くように」を表す。原形・過去形は続けられない。",
                         "noteSimple": "finish のあとは ing、tell のあとは to + どうし だよ。",
                         "audio": "audio/fp1_ex3.mp3"
                     }
@@ -1699,7 +1700,7 @@
                 ],
                 "practicePassage": {
                     "en": "Boy: I'm planning to go to Paris this summer. Have you ever been there?\nGirl: Yes, it's a very beautiful place.\n\nMan: Why don't we play tennis together on Saturday?\nWoman: That sounds great. I was thinking the same thing.\n\nMother: Samantha, dinner is ready. Come downstairs.\nDaughter: OK, Mom. I'll be there in a minute.\n\nWife: You're not eating your breakfast. What's the matter?\nHusband: I'm just not hungry.\n\nMan 1: Excuse me. I think you're wearing my jacket.\nMan 2: Oh, I'm very sorry. It looks like mine.",
-                    "ja": "男の子：この夏パリに行く予定。行ったことある？\n女の子：うん、とても美しい場所だよ。\n\n男：土曜にテニスをしない？\n女：いいですね。私も同じことを考えていた。\n\n母：夕食の用意ができたわ。下に来て。\n娘：わかった。すぐ行くよ。\n\n妻：朝食を食べていないわね。どうしたの？\n夫：ただお腹が空いていないだけ。\n\n男1：すみません、僕のジャケットを着ていると思います。\n男2：ああ、本当にすみません。僕のと似ていますね。",
+                    "ja": "男の子：この夏パリに行く予定。行ったことある？\n女の子：うん、とても美しい場所だよ。\n\n男：土曜にテニスをしない？\n女：いいですね。私も同じことを考えていた。\n\n母：夕食の用意ができたわ。下に来て。\n娘：わかった。すぐ行くよ。\n\n妻：朝食を食べていないわね。どうしたの？\n夫：ただお腹が空いていないだけ。\n\n男1：すみません、僕のジャケットを着ていると思います。\n男2：ああ、本当にすみません。自分のもののように見えたんです。",
                     "source": "大問2 (16)〜(20)",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
@@ -1721,7 +1722,7 @@
                     },
                     {
                         "q": "Q20で it's my pleasure が誤りになる理由は？",
-                        "a": "相手のジャケットを間違えて着ている場面。謝罪の I'm very sorry が適切。どういたしましては謝罪ではない。"
+                        "a": "相手のジャケットを間違えて着ていると気づいた場面。謝罪の I'm very sorry が適切。It's my pleasure は感謝に応じる表現で、謝罪には使わない。"
                     }
                 ],
                 "practiceQuestionsSimple": [
@@ -1744,7 +1745,7 @@
                 "id": "fp3",
                 "title": "お知らせとメール——「誰が・どこで・何をしたか」を整理する",
                 "subtitle": "Notice & Email: Track Who, Where, What",
-                "explanation": "大問3Aの掲示では、持参物（apron and a notebook）と講師の実績（won cooking contests）を区別して読みます。大問3Bの3通のメールでは、誰が・いつ・どこで・何をしたかをメモしながら読むと Q23〜25 が解けます。Judy がデパートで買ったのは scarf and coat、おばあちゃんが財布を買ったのは shopping mall next to the museum、料理中に Judy がしていたのは listen to Linda's stories、と主語と動作を混同しないことが重要です。",
+                "explanation": "大問3Aの掲示では、持参物（apron and a notebook）と講師の実績（won cooking contests）を区別して読みます。Next March は「来年3月」と訳し、「来月3月」とはしません。講師は昨年 Great Young Chef of the Year（年間最優秀若手シェフ）にも選ばれています。大問3Bの3通のメールでは、誰が・いつ・どこで・何をしたかをメモしながら読むと Q23〜25 が解けます。Judy がデパートで買ったのは scarf and coat、おばあちゃんが財布を買ったのは shopping mall next to the museum、料理中に Judy がしていたのは listen to Linda's stories（Linda が話す物語を聞くこと）であり、主語と動作を混同しないことが重要です。",
                 "explanationSimple": "お知らせはもっていくものと、せんせいのじっせきをわけるよ。メールはだれが・どこで・なにをしたか、をメモしながらよむといいよ。",
                 "sourceQuote": "Remember to bring an apron and a notebook / won some international cooking contests / bought a coat for myself / shopping mall next to the museum",
                 "sourceLocation": "大問3A / 大問3B",
@@ -1765,15 +1766,15 @@
                     },
                     {
                         "en": "I found it at a shopping mall next to the museum. Linda often told me stories when you were cooking in the kitchen.",
-                        "ja": "博物館の隣のショッピングモールで見つけた。おばあちゃんが料理しているとき、リンダがよく物語を話してくれた。",
-                        "note": "財布の購入場所（Q24）と、料理中の行動（Q25）を別々に覚える。",
-                        "noteSimple": "さいふは博物館のとなりのモール。リンダの物語をきいていたよ。",
+                        "ja": "私はそれ（財布）を博物館の隣のショッピングモールで見つけた。あなた（祖母）が台所で料理しているとき、リンダが私（Judy）によく物語を話してくれた。",
+                        "note": "財布の購入場所（Q24）と、料理中の行動（Q25）を別々に覚える。I＝祖母、it＝財布、you＝祖母、me＝Judy。",
+                        "noteSimple": "さいふは博物館のとなりのモール。リンダが話すお話をきいていたよ。",
                         "audio": "audio/fp3_ex3.mp3"
                     }
                 ],
                 "practicePassage": {
-                    "en": "Next March, Evansfield Cultural Center will hold cooking classes.\nRemember to bring an apron and a notebook.\nMr. Chen has won some international cooking contests.\n\nYesterday, I visited a department store near the station. They were having a winter sale!\nI saw a nice scarf and bought it for you! I also bought a coat for myself.\nI found the wallet at a shopping mall next to the museum.\nLinda often told me stories when you were cooking in the kitchen.\nI will visit you alone by bus.",
-                    "ja": "来月3月、文化センターで料理教室を開催します。\nエプロンとノートを持参してください。\nチェン先生は国際的な料理コンテストで優勝したことがあります。\n\n昨日、駅近くのデパートに行った。冬のセールだった！\nマフラーを買った！自分にもコートを買った。\n財布は博物館の隣のショッピングモールで見つけた。\nおばあちゃんが料理しているとき、リンダが物語を話してくれた。\nバスで一人で訪ねる予定だ。",
+                    "en": "Next March, Evansfield Cultural Center will hold cooking classes.\nRemember to bring an apron and a notebook.\nMr. Chen has won some international cooking contests.\n\nYesterday, I visited a department store near the station. They were having a winter sale!\nI saw a nice scarf and bought it for you! I also bought a coat for myself.\nI found it at a shopping mall next to the museum.\nLinda often told me stories when you were cooking in the kitchen.\nI will visit you alone by bus.",
+                    "ja": "来年3月、文化センターで料理教室を開催します。\nエプロンとノートを持参してください。\nチェン先生は国際的な料理コンテストで優勝したことがあります。\n\n昨日、駅近くのデパートに行った。冬のセールだった！\nマフラーを買った！自分にもコートを買った。\n私はそれ（財布）を博物館の隣のショッピングモールで見つけた。\nあなた（祖母）が料理しているとき、リンダが私（Judy）に物語を話してくれた。\nバスで一人で訪ねる予定だ。",
                     "source": "大問3A「Mr. Chen's Cooking Classes」/ 大問3B「Winter sale」",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
@@ -1796,7 +1797,7 @@
                     },
                     {
                         "q": "Q25で helped her grandmother が誤りになる理由は？",
-                        "a": "本文は Linda often told me stories（物語を聞いた）。台所で手伝ったとは書かれていない。"
+                        "a": "本文は Linda often told me stories（リンダが話す物語を聞いた）。台所で手伝ったとは書かれていない。"
                     }
                 ],
                 "practiceQuestionsSimple": [
@@ -1810,7 +1811,7 @@
                     },
                     {
                         "q": "おばあちゃんが料理しているとき、ジュディは何をしてた？",
-                        "a": "リンダの物語をきいていたよ。"
+                        "a": "リンダが話すお話をきいていたよ。"
                     }
                 ],
                 "sourceQuoteAudio": "audio/fp3_source.mp3"
@@ -1819,7 +1820,7 @@
                 "id": "fp4",
                 "title": "長文読解——人物の生涯と因果で答えを選ぶ",
                 "subtitle": "Biography Reading: Cause, Effect & Main Idea",
-                "explanation": "大問3C「Never Too Late」は、グランマ・モーゼス（Anna）の生涯が時系列で述べられます。子どものころ＝drawing pictures on paper、高齢になって手が痛い＝try painting instead、絵の特徴＝with many colors、生涯の成果＝more than 1,500 works of art、全体のテーマ＝anyone can try something new at any time と整理すると Q26〜30 が速く解けます。問題文の主語に注意：hands hurt は Anna、popular artist は彼女全体の評価です。",
+                "explanation": "大問3C「Never Too Late」は、グランマ・モーゼス（Anna）の生涯が時系列で述べられます。子どものころ＝drawing pictures on paper、高齢になって手が痛く農作業が難しい＝So, she decided to try painting instead、絵の特徴＝with many colors、生涯の成果＝more than 1,500 works of art、全体のテーマ＝anyone can try something new at any time と整理すると Q26〜30 が速く解けます。問題文の主語に注意：hands hurt は Anna、popular artist は彼女全体の評価です。",
                 "explanationSimple": "長文はじかんじゅんにおぼえるよ。こどものころ＝紙にえをかく、てがいたい＝えをかきはじめる、え＝たくさんの色、しょうがい＝1500いじょうのさくひん、まとめ＝いつでも新しいことにちょうせんできる、だよ。",
                 "sourceQuote": "drawing pictures on paper / because her hands hurt / with many colors / more than 1,500 works of art / anyone can try something new",
                 "sourceLocation": "大問3C「Never Too Late」",
@@ -1833,7 +1834,7 @@
                     },
                     {
                         "en": "It was hard for her to do some things on the farm because her hands hurt. So, she decided to try painting instead.",
-                        "ja": "手が痛くて農場の作業が難しくなった。そこで絵を描くことに挑戦することにした。",
+                        "ja": "手が痛くて農場の作業が難しくなった。そこで代わりに絵を描いてみることにした。",
                         "note": "絵を描き始めた理由＝手の問題。Q27の根拠。",
                         "noteSimple": "てがいたくて、えをかくことにしたんだよ。",
                         "audio": "audio/fp4_ex2.mp3"
@@ -1870,6 +1871,10 @@
                         "a": "本文は with many colors（多くの色）と warm and happy（温かく幸せ）について述べている。自由にしたとは書かれていない。"
                     },
                     {
+                        "q": "Q28で made her much poorer が誤りになる理由は？",
+                        "a": "本文は絵の色や見た人の気持ちを述べているだけで、アンナの収入や貧しさには触れていない。経済状況を本文から読み取ることはできない。"
+                    },
+                    {
                         "q": "Q30で How to live on a farm が誤りになる理由は？",
                         "a": "農場生活は背景の一部。全体はアメリカの人気画家の生涯と「いつでも新しいことに挑戦できる」というメッセージ。"
                     }
@@ -1877,11 +1882,11 @@
                 "practiceQuestionsSimple": [
                     {
                         "q": "アンナはなぜえをかきはじめた？",
-                        "a": "てがいたくて、のうさぎがむずかしかったからだよ。"
+                        "a": "てがいたくて、のうさぎょうがむずかしくなったからだよ。"
                     },
                     {
                         "q": "アンナのえの特徴は？",
-                        "a": "たくさんの色をつかって、かんたんなしかたでかかれていたよ。"
+                        "a": "たくさんのいろをつかい、シンプルなかきかたでかかれていたよ。"
                     },
                     {
                         "q": "この話のメッセージは？",

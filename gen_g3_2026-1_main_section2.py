@@ -66,13 +66,13 @@ section2 = {
             "grammar": "That sounds great＝「いいですね」。I was thinking the same thing（私も同じことを考えていた）と呼応。",
             "grammarSimple": "That sounds great は「いいね」。わたしもおなじことかんがえてた、というつづきだよ。",
             "choiceAnalysis": [
-                "Have a nice time.＝「楽しんで」。提案への賛成の返答として弱い。",
+                "Have a nice time.＝「楽しんでね」。出かける人へのあいさつで、一緒にテニスをしようという提案への返答にならない。",
                 "It'll be here soon.＝「すぐここに来るよ」。テニスの提案と無関係。",
                 "○ That sounds great.＝「いいですね」。同じことを考えていた、という肯定的な返答。",
                 "I can't understand.＝「わかりません」。提案を受け入れる文脈と矛盾。",
             ],
             "choiceAnalysisSimple": [
-                "「たのしんで」は提案へのこたえとして弱いよ。",
+                "「たのしんでね」は出かける人へのあいさつで、提案へのこたえにならないよ。",
                 "「すぐくるよ」はテニスとは関係ないよ。",
                 "○「いいね！」わたしもおなじことかんがえてた！",
                 "「わからない」はちがうよ。",
@@ -99,13 +99,13 @@ section2 = {
             "grammarSimple": "I'll be there in a minute は「すぐいくよ」。ごはんのじゅんびができたから、すぐおりてくるよ。",
             "choiceAnalysis": [
                 "I'm too busy.＝「忙しすぎる」。夕食に来るよう言われた場面と矛盾。",
-                "I'll call you soon.＝「すぐ電話する」。同じ家にいる母への返答として不自然。",
+                "I'll call you soon.＝「すぐ電話する」。下に来るよう言われたことへの返答にならない。",
                 "I'm going tomorrow.＝「明日行く」。今すぐ降りてこいという指示と合わない。",
                 "○ I'll be there in a minute.＝「すぐ行くよ」。Come downstairs への自然な返答。",
             ],
             "choiceAnalysisSimple": [
                 "「いそがしすぎる」はごはんにこないことになるよ。",
-                "「すぐでんわする」はおなじいえにいるからへんだよ。",
+                "「すぐでんわする」は、下におりてくるこたえにならないよ。",
                 "「あしたいく」は「いますぐ」とちがうよ。",
                 "○「すぐいくよ！」おりてくるね！",
             ],
@@ -159,13 +159,13 @@ section2 = {
                 "I'm very sorry.",
             ],
             "answer": 4,
-            "grammar": "I'm very sorry＝「本当にすみません」。相手のジャケットを間違えて着ている→謝る場面。",
+            "grammar": "I'm very sorry＝「本当にすみません」。相手のジャケットを自分の物と思って着てしまい、謝る場面。",
             "grammarSimple": "I'm very sorry は「ほんとうにごめんなさい」。じゃけっとをまちがえてきちゃったからあやまるよ。",
             "choiceAnalysis": [
                 "it's my pleasure.＝「どういたしまして」。謝罪の場面では使わない。",
                 "I decided to go.＝「行くことにした」。ジャケットの取り違えへの返答にならない。",
                 "I'll speak to him now.＝「今彼に話す」。二人の会話の流れとずれる。",
-                "○ I'm very sorry.＝「本当にすみません」。It looks like mine.（私のと似ている）とともに謝罪。",
+                "○ I'm very sorry.＝「本当にすみません」。It looks like mine.（私の物に見える）ため、取り違えたことを謝っている。",
             ],
             "choiceAnalysisSimple": [
                 "「どういたしまして」はあやまるときには使わないよ。",
@@ -173,7 +173,7 @@ section2 = {
                 "「いまはなす」ははなしがずれるよ。",
                 "○「ほんとうにごめんなさい」。じゃけっとをまちがえたね！",
             ],
-            "translation": "男1：すみません。君が着ているのは僕のジャケットだと思うんです。\n男2：ああ、（　）僕のと似ていますね。",
+            "translation": "男1：すみません。君が着ているのは僕のジャケットだと思うんです。\n男2：ああ、（　）私の物に見えたんです。",
             "choiceTranslations": [
                 "どういたしまして。",
                 "行くことにしたよ。",
@@ -204,21 +204,17 @@ if not replaced:
             out.append(section2)
     new_sections = out
 
-def mark_choice_analysis(q):
-    marked = []
-    for i, t in enumerate(q.get("choiceAnalysis", [])):
-        t = t.strip()
-        if t.startswith("○"):
-            t = t[1:].strip()
-        if t.startswith(("✅", "❌")):
-            marked.append(t)
-        else:
-            marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
-    q["choiceAnalysis"] = marked
+def normalize_choice_analysis(q, key):
+    normalized = []
+    for i, t in enumerate(q.get(key, [])):
+        t = t.strip().removeprefix("○").removeprefix("✅").removeprefix("❌").strip()
+        normalized.append(("○ " if i + 1 == q["answer"] else "") + t)
+    q[key] = normalized
 
 
 for q in section2["questions"]:
-    mark_choice_analysis(q)
+    normalize_choice_analysis(q, "choiceAnalysis")
+    normalize_choice_analysis(q, "choiceAnalysisSimple")
 
 data["sections"] = new_sections
 

@@ -99,7 +99,7 @@ vocab.append({
 })
 vocab.append({
     "word": "throw",
-    "meaning": "捨てる",
+    "meaning": "投げる（throw awayで「捨てる」）",
     "pos": "動詞",
     "level": "3級",
     "source": "大問1",
@@ -117,8 +117,8 @@ vocab.append({
 })
 vocab.append({
     "word": "hand",
-    "meaning": "手伝い",
-    "pos": "名詞",
+    "meaning": "手（give ... a handで「手伝い」）",
+    "pos": "名詞（慣用句）",
     "level": "3級",
     "source": "大問1",
     "example": "Dad, can you give me a hand with my new TV? I need to bring it upstairs.",
@@ -126,39 +126,39 @@ vocab.append({
 })
 vocab.append({
     "word": "from",
-    "meaning": "〜から（離れて）",
+    "meaning": "〜から（far fromで「〜から遠く」）",
     "pos": "前置詞",
     "level": "3級",
     "source": "大問1",
     "example": "Ethan lives far from school, so he has to take the bus.",
-    "distractors": ["沿って", "下に", "上に"],
+    "distractors": ["沿って", "より下に", "〜の下に"],
 })
 vocab.append({
     "word": "cleaning",
     "meaning": "掃除すること",
-    "pos": "名詞",
+    "pos": "動名詞",
     "level": "3級",
     "source": "大問1",
     "example": "Jack finished cleaning his room and then went to his friend's house.",
-    "distractors": ["掃除する", "掃除した", "掃除する（三人称）"],
+    "distractors": ["掃除する（原形）", "掃除した（過去形）", "掃除する（三人称単数）"],
 })
 vocab.append({
     "word": "to go",
-    "meaning": "行くために",
-    "pos": "不定詞",
+    "meaning": "行くこと・行くように",
+    "pos": "to不定詞",
     "level": "3級",
     "source": "大問1",
     "example": "His mother told him to go to bed earlier.",
-    "distractors": ["行っている", "行った", "行く（三人称）"],
+    "distractors": ["行っている（動名詞）", "行った（過去形）", "行く（三人称単数）"],
 })
 vocab.append({
     "word": "cooking",
-    "meaning": "料理",
-    "pos": "名詞",
+    "meaning": "料理すること",
+    "pos": "動名詞",
     "level": "3級",
     "source": "大問1",
     "example": "Ellen is good at cooking. Her friends enjoy eating her delicious food.",
-    "distractors": ["料理するために", "料理した", "料理する（三人称）"],
+    "distractors": ["料理するために（to不定詞）", "料理した（過去形）", "料理する（三人称単数）"],
 })
 
 # ============================================================
@@ -290,33 +290,37 @@ vocab.append({
 
 vocab.append({
     "word": "artist",
-    "meaning": "画家・アーティスト",
+    "meaning": "画家（芸術家）",
     "pos": "名詞",
     "level": "3級",
     "source": "大問3C",
     "example": "Anna Mary Robertson Moses was an American artist.",
-    "distractors": ["農場", "博物館", "色"],
+    "distractors": ["農家", "料理人", "博物館の職員"],
 })
 vocab.append({
     "word": "painting",
-    "meaning": "絵を描くこと・絵画",
-    "pos": "名詞",
+    "meaning": "絵を描くこと",
+    "pos": "動名詞",
     "level": "3級",
     "source": "大問3C",
     "example": "She decided to try painting instead. She was already over seventy-five years old then.",
-    "distractors": ["写真", "贈り物", "家で遊ぶこと"],
+    "distractors": ["写真を撮ること", "父への贈り物を買うこと", "家の中で遊ぶこと"],
 })
 vocab.append({
     "word": "museum",
-    "meaning": "博物館",
+    "meaning": "美術館（博物館）",
     "pos": "名詞",
     "level": "3級",
     "source": "大問3C",
     "example": "Even today, many people come to see her paintings in museums.",
-    "distractors": ["農場", "色の発明", "アメリカ横断"],
+    "distractors": ["農場", "料理教室", "絵を描くこと"],
 })
 
 assert len(vocab) == 30, f"Expected 30 words, got {len(vocab)}"
+
+for i, item in enumerate(vocab, start=1):
+    slug = item["word"].lower().replace(" ", "_")
+    item["wordAudio"] = f"audio/vocab/w_{i:03d}_{slug}.mp3"
 
 data["vocabulary"] = vocab
 

@@ -40,7 +40,7 @@ section1 = {
                 "○ relax がぴったり！おうちでのんびり！",
                 "grow は「そだつ」。合わないよ。",
             ],
-            "translation": "A: ボブ、週末は何をするのが好き？\nB: 家でのんびりするのが好きだよ。よく映画を見るんだ。",
+            "translation": "A: ボブ、週末は何をするのが好き？\nB: 家で（　）するのが好きだよ。よく映画を見るんだ。",
             "choiceTranslations": ["動く", "計画する", "のんびりする", "育てる・成長する"],
         },
         {
@@ -49,7 +49,7 @@ section1 = {
             "choices": ["clever", "common", "dirty", "foolish"],
             "answer": 3,
             "grammar": "dirty＝「汚い」。I have to clean them（靴を洗わなければ）が決め手。",
-            "grammarSimple": "dirty は「よごい」。くつがよごいからあらわなきゃだよ。",
+            "grammarSimple": "dirty は「きたない」。くつがきたないからあらわなきゃだよ。",
             "choiceAnalysis": [
                 "clever＝賢い。靴の状態を表す形容詞として不自然。",
                 "common＝一般的な。洗う理由にならない。",
@@ -59,10 +59,10 @@ section1 = {
             "choiceAnalysisSimple": [
                 "clever は「かしこい」。くつには合わないよ。",
                 "common は「ふつうの」。あらう理由にならないよ。",
-                "○ dirty がぴったり！よごいからあらう！",
+                "○ dirty がぴったり！きたないからあらう！",
                 "foolish は「ばかな」。合わないよ。",
             ],
-            "translation": "A: ジョン、君の靴はとても汚いね。\nB: わかってるよ。洗わなきゃ。",
+            "translation": "A: ジョン、君の靴はとても（　）ね。\nB: わかってるよ。洗わなきゃ。",
             "choiceTranslations": ["賢い", "一般的な", "汚い", "ばかな"],
         },
         {
@@ -84,7 +84,7 @@ section1 = {
                 "adult は「おとな」。合わないよ。",
                 "addition は「ついか」。合わないよ。",
             ],
-            "translation": "A: ボブ、足に何があったの？\nB: 事故に遭ったんだ。今朝、階段から落ちたよ。",
+            "translation": "A: ボブ、足に何があったの？\nB: （　）に遭ったんだ。今朝、階段から落ちたよ。",
             "choiceTranslations": ["事故", "助言", "大人", "追加"],
         },
         {
@@ -92,7 +92,7 @@ section1 = {
             "text": "A: What is that building?\nB: It's the library. It's a (　) of our city.",
             "choices": ["sand", "symbol", "condition", "bottle"],
             "answer": 2,
-            "grammar": "a symbol of our city＝「私たちの街の象徴」。図書館の役割。",
+            "grammar": "a symbol of our city＝「私たちの街を表す象徴」。図書館が街を代表する建物だという説明。",
             "grammarSimple": "symbol は「しょうちょう」。としょかんはまちのしょうちょうだよ。",
             "choiceAnalysis": [
                 "sand＝砂。a sand of our city では意味が通らない。",
@@ -106,7 +106,7 @@ section1 = {
                 "condition は「じょうたい」。合わないよ。",
                 "bottle は「びん」。合わないよ。",
             ],
-            "translation": "A: あの建物は何？\nB: 図書館だよ。私たちの街の象徴なんだ。",
+            "translation": "A: あの建物は何？\nB: 図書館だよ。私たちの街の（　）なんだ。",
             "choiceTranslations": ["砂", "象徴", "状態・条件", "瓶"],
         },
         {
@@ -128,7 +128,7 @@ section1 = {
                 "taught は「おしえた」。合わないよ。",
                 "believed は「しんじた」。合わないよ。",
             ],
-            "translation": "ジョーンズさんは家族と素敵なレストランに行った。デザートにケーキを注文した。",
+            "translation": "ジョーンズさんは家族と素敵なレストランに行った。デザートにケーキを（　）。",
             "choiceTranslations": ["到着した", "注文した", "教えた", "信じた"],
         },
         {
@@ -150,7 +150,7 @@ section1 = {
                 "find は「みつける」。合わないよ。",
                 "serve は「だす」。あじの話じゃないよ。",
             ],
-            "translation": "マイクが作ったトマトスープは味が良くなかった。塩辛すぎたんだ。",
+            "translation": "マイクが作ったトマトスープは（　）が良くなかった。塩辛すぎたんだ。",
             "choiceTranslations": ["味がする", "運ぶ", "見つける", "出す・提供する"],
         },
         {
@@ -172,7 +172,7 @@ section1 = {
                 "florist は「はなや」。合わないよ。",
                 "○ curtain がぴったり！カーテンをあけて！",
             ],
-            "translation": "A: 今日はいい天気ね。カーテンを開けて、ジョン。\nB: わかった、ママ。",
+            "translation": "A: 今日はいい天気ね。（　）を開けて、ジョン。\nB: わかった、ママ。",
             "choiceTranslations": ["文", "スタジアム", "花屋", "カーテン"],
         },
         {
@@ -194,7 +194,7 @@ section1 = {
                 "never は「ぜったいに〜ない」。合わないよ。",
                 "○ enough がぴったり！じゅうぶんちいさい！",
             ],
-            "translation": "リュックに入るのに十分小さいパソコンが欲しい。",
+            "translation": "リュックに入るのに（　）小さいパソコンが欲しい。",
             "choiceTranslations": ["再び", "もっと", "決して〜ない", "十分に"],
         },
         {
@@ -205,10 +205,10 @@ section1 = {
             "grammar": "throw away＝「捨てる」。really old（とても古い）が理由。",
             "grammarSimple": "throw away は「すてる」。ふるくなったからセーターをすてたよ。",
             "choiceAnalysis": [
-                "fall away＝崩れ落ちる。セーターを意図的に処分する場面とずれる。",
+                "fall away はこの形ではセーターを目的語に取れず、処分する意味にならない。",
                 "○ throw＝throw away の形。古い服を捨てる。",
-                "hope away→hope away は使わない。",
-                "shop away→shop away は使わない。",
+                "hope away はここでは使わず、セーターを処分する意味にならない。",
+                "shop away はここでは使わず、セーターを処分する意味にならない。",
             ],
             "choiceAnalysisSimple": [
                 "fall は「おちる」。すてるとはちがうよ。",
@@ -216,8 +216,8 @@ section1 = {
                 "hope は合わないよ。",
                 "shop は合わないよ。",
             ],
-            "translation": "A: なぜ緑のセーターを捨てたの？\nB: とても古かったから。",
-            "choiceTranslations": ["落ちる", "捨てる（throw）", "望む", "買い物をする"],
+            "translation": "A: なぜ緑のセーターを（　）たの？\nB: とても古かったから。",
+            "choiceTranslations": ["落ちる", "投げる（throw awayで「捨てる」）", "望む", "買い物をする"],
         },
         {
             "number": 10,
@@ -225,12 +225,12 @@ section1 = {
             "choices": ["again", "off", "up", "in"],
             "answer": 2,
             "grammar": "get off the bus＝「バスを降りる」。stop の前で降りて歩く。",
-            "grammarSimple": "get off は「おりる」。ていしばすよりまえでおりてあるくよ。",
+            "grammarSimple": "get off は「おりる」。ていりゅうじょよりまえでおりてあるくよ。",
             "choiceAnalysis": [
-                "get again→get again the bus は不自然。",
+                "get again the bus は不自然で、バスを降りる意味にならない。",
                 "○ off＝get off＝降りる。walk for 30 minutes とつながる。",
-                "get up the bus→乗る意味には get on を使う。",
-                "get in the bus→乗車の表現で、降りる文脈と逆。",
+                "get up the bus は不自然。バスに乗るなら get on the bus を使う。",
+                "get in the bus は「バスに乗る」方向の表現で、降りる文脈と逆。",
             ],
             "choiceAnalysisSimple": [
                 "again は合わないよ。",
@@ -238,8 +238,8 @@ section1 = {
                 "up は「のる」方向だよ。",
                 "in も「のる」方向だよ。",
             ],
-            "translation": "仕事の帰り道、ジャックは自分の停留所の前でバスを降りる。一日中座っていた後、30分歩くのが好きなんだ。",
-            "choiceTranslations": ["再び", "降りる（off）", "起きる・乗る", "中に入る・乗る"],
+            "translation": "仕事の帰り道、ジャックは自分の停留所の前でバスを（　）。一日中座っていた後、30分歩くのが好きなんだ。",
+            "choiceTranslations": ["再び", "離れて・降りて", "上へ", "中に"],
         },
         {
             "number": 11,
@@ -260,7 +260,7 @@ section1 = {
                 "leg は「あし」。合わないよ。",
                 "foot は「あし」。合わないよ。",
             ],
-            "translation": "A: お父さん、新しいテレビを手伝ってくれる？上の階に運ぶ必要があるんだ。\nB: ちょっと待って。",
+            "translation": "A: お父さん、新しいテレビを運ぶのを（　）くれる？上の階に運ぶ必要があるんだ。\nB: ちょっと待って。",
             "choiceTranslations": ["手（手伝い）", "顔", "脚", "足"],
         },
         {
@@ -282,7 +282,7 @@ section1 = {
                 "under は「したに」。合わないよ。",
                 "○ from がぴったり！far from で「とおく」！",
             ],
-            "translation": "イーサンは学校から遠くに住んでいるので、バスに乗らなければならない。",
+            "translation": "イーサンは学校から（　）住んでいるので、バスに乗らなければならない。",
             "choiceTranslations": ["沿って", "より下に", "〜の下に", "〜から"],
         },
         {
@@ -304,7 +304,7 @@ section1 = {
                 "○ cleaning がぴったり！finish のあとは ing！",
                 "cleans もダメだよ。",
             ],
-            "translation": "ジャックは部屋の掃除を終えてから、友達の家に行った。",
+            "translation": "ジャックは部屋の（　）を終えてから、友達の家に行った。",
             "choiceTranslations": ["掃除する（原形）", "掃除した（過去形）", "掃除すること（動名詞）", "掃除する（三単現）"],
         },
         {
@@ -313,7 +313,7 @@ section1 = {
             "choices": ["going", "went", "to go", "goes"],
             "answer": 3,
             "grammar": "told him to go to bed＝「もっと早く寝なさいと言った」。tell＋人＋to不定詞。",
-            "grammarSimple": "told him to go は「ねなさいといった」。tell のあとは to + 動詞だよ。",
+            "grammarSimple": "told him to go は「ねなさいといった」。tell + 人 + to + 動詞で「人に〜するよう言う」だよ。",
             "choiceAnalysis": [
                 "told him going→tell の後に動名詞だけでは「寝なさい」にならない。",
                 "told him went→過去形は続けられない。",
@@ -326,8 +326,8 @@ section1 = {
                 "○ to go がぴったり！もっとはやくねなさい！",
                 "goes もダメだよ。",
             ],
-            "translation": "ケンは昨夜12時までテレビを見ていた。母親はもっと早く寝るように言った。",
-            "choiceTranslations": ["行っている（動名詞）", "行った（過去形）", "行くために（不定詞）", "行く（三単現）"],
+            "translation": "ケンは昨夜12時までテレビを見ていた。母親はもっと早く（　）ように言った。",
+            "choiceTranslations": ["行くこと（動名詞）", "行った（過去形）", "行くこと・行くように（to不定詞）", "行く（三人称単数現在形）"],
         },
         {
             "number": 15,
@@ -348,8 +348,8 @@ section1 = {
                 "cooked も合わないよ。",
                 "cooks も合わないよ。",
             ],
-            "translation": "エレンは料理が得意だ。友達は彼女の家に行って、おいしい料理を食べるのを楽しんでいる。",
-            "choiceTranslations": ["料理（動名詞）", "料理するために（不定詞）", "料理した（過去形）", "料理する（三単現）"],
+            "translation": "エレンは（　）が得意だ。友達は彼女の家に行って、おいしい料理を食べるのを楽しんでいる。",
+            "choiceTranslations": ["料理すること（動名詞）", "料理すること（to不定詞）", "料理した（過去形）", "料理する（三人称単数現在形）"],
         },
     ],
 }
@@ -357,21 +357,17 @@ section1 = {
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
 
-def mark_choice_analysis(q):
-    marked = []
-    for i, t in enumerate(q.get("choiceAnalysis", [])):
-        t = t.strip()
-        if t.startswith("○"):
-            t = t[1:].strip()
-        if t.startswith(("✅", "❌")):
-            marked.append(t)
-        else:
-            marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
-    q["choiceAnalysis"] = marked
+def normalize_choice_analysis(q, key):
+    normalized = []
+    for i, t in enumerate(q.get(key, [])):
+        t = t.strip().removeprefix("○").removeprefix("✅").removeprefix("❌").strip()
+        normalized.append(("○ " if i + 1 == q["answer"] else "") + t)
+    q[key] = normalized
 
 
 for q in section1["questions"]:
-    mark_choice_analysis(q)
+    normalize_choice_analysis(q, "choiceAnalysis")
+    normalize_choice_analysis(q, "choiceAnalysisSimple")
 
 others = [s for s in data.get("sections", []) if s.get("name") != "大問1"]
 data["sections"] = [section1] + others

@@ -48,10 +48,10 @@ for q in qs:
         errors.append(f"Q{n}: choiceAnalysisSimple count {len(q['choiceAnalysisSimple'])}")
     for i, ca in enumerate(q["choiceAnalysis"]):
         if i + 1 == q["answer"]:
-            if not ca.startswith("✅"):
-                errors.append(f"Q{n}: correct choice {i + 1} missing ✅")
-        elif ca.startswith("✅"):
-            errors.append(f"Q{n}: wrong choice {i + 1} has ✅")
+            if not ca.startswith("○"):
+                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
+        elif ca.startswith(("○", "✅", "❌")):
+            errors.append(f"Q{n}: wrong choice {i + 1} has a marker")
 
 print(f"questions={len(qs)} errors={len(errors)}")
 for e in errors:

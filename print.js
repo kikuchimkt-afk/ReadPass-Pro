@@ -1048,6 +1048,37 @@
         });
     }
 
+    function appendPassageContent(passageEl, passage, showPassage) {
+        if (!showPassage) return;
+
+        if (passage.format === 'multi-email' && Array.isArray(passage.emails)) {
+            const emailsEl = document.createElement('div');
+            emailsEl.className = 'print-email-list';
+            emailsEl.innerHTML = passage.emails.map(email => {
+                const meta = email.meta || email;
+                const metaRows = [
+                    ['From', meta.from],
+                    ['To', meta.to],
+                    ['Date', meta.date],
+                    ['Subject', meta.subject],
+                ].filter(([, value]) => value);
+                return `<div class="print-email">
+                    <div class="print-email-meta">${metaRows.map(([label, value]) => `<div><strong>${label}:</strong> ${esc(value)}</div>`).join('')}</div>
+                    <div class="print-email-body">${esc(email.body || '').replace(/\n/g, '<br>')}</div>
+                </div>`;
+            }).join('');
+            passageEl.appendChild(emailsEl);
+            return;
+        }
+
+        if (passage.paragraphs) {
+            const textEl = document.createElement('div');
+            textEl.className = 'passage-text';
+            textEl.innerHTML = passage.paragraphs.map(p => `<p>${esc(p)}</p>`).join('');
+            passageEl.appendChild(textEl);
+        }
+    }
+
     // ===== Render Passage-Fill Section =====
     function renderPassageFillSection(container, section, showChoices, showPassage, allQuestions) {
         if (!section.passages) return;
@@ -1061,12 +1092,7 @@
             passageEl.innerHTML = headerHtml;
 
             // Passage text
-            if (showPassage && passage.paragraphs) {
-                const textEl = document.createElement('div');
-                textEl.className = 'passage-text';
-                textEl.innerHTML = passage.paragraphs.map(p => `<p>${esc(p)}</p>`).join('');
-                passageEl.appendChild(textEl);
-            }
+            appendPassageContent(passageEl, passage, showPassage);
 
             // Questions
             if (passage.questions) {
@@ -1108,12 +1134,7 @@
             passageEl.innerHTML = headerHtml;
 
             // Passage text
-            if (showPassage && passage.paragraphs) {
-                const textEl = document.createElement('div');
-                textEl.className = 'passage-text';
-                textEl.innerHTML = passage.paragraphs.map(p => `<p>${esc(p)}</p>`).join('');
-                passageEl.appendChild(textEl);
-            }
+            appendPassageContent(passageEl, passage, showPassage);
 
             // Questions
             if (passage.questions) {

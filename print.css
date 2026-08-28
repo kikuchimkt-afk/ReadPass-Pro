@@ -622,6 +622,36 @@ body {
     text-indent: 1em;
 }
 
+.print-email-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.print-email {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.print-email-meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2px 12px;
+    padding: 5px 8px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #bbb;
+    font-size: 8.5pt;
+    line-height: 1.35;
+}
+
+.print-email-body {
+    padding: 7px 9px;
+    font-size: 9.5pt;
+    line-height: 1.55;
+}
+
 /* Question block */
 .q-block {
     margin-bottom: 10px;
@@ -774,6 +804,11 @@ body {
     }
 
     .passage-block {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .print-email {
         break-inside: avoid;
         page-break-inside: avoid;
     }
