@@ -47,11 +47,13 @@ GRADE_LABELS = {
     "grade3": "英検3級",
     "grade-pre2": "英検準2級",
     "grade-pre2plus": "英検準2級プラス",
+    "grade2": "英検2級",
 }
 GRADE_FILE_TOKENS = {
     "grade3": "Grade3",
     "grade-pre2": "GradePre2",
     "grade-pre2plus": "GradePre2Plus",
+    "grade2": "Grade2",
 }
 DIRECT_URL = "https://read-pass-pro.vercel.app/index.html?grade={grade}&exam={exam}"
 
@@ -133,7 +135,9 @@ def paginate_part1(questions: list[dict]) -> list[list[dict]]:
 
 
 def tokenize(text: str) -> list[str]:
-    return re.findall(r"[A-Za-z0-9][A-Za-z0-9'.,:;!?()\-/\"]*|\s+|.", text)
+    # Keep an opening quotation mark attached to the following word so it is
+    # never stranded at the end of a wrapped line.
+    return re.findall(r'"?[A-Za-z0-9][A-Za-z0-9\'.,:;!?()\-/"]*|\s+|.', text)
 
 
 def wrap_text(
@@ -806,11 +810,12 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         )
     page_number = len(part1_pages) + 1
 
-    if grade == "grade-pre2plus":
+    if grade in {"grade-pre2plus", "grade2"}:
+        layout_name = "Grade Pre-2 Plus" if grade == "grade-pre2plus" else "Grade 2"
         passage_fills = sections[1].get("passages", [])
         reading_passages = sections[2].get("passages", [])
         if len(passage_fills) != 2 or len(reading_passages) != 2:
-            raise ValueError("Grade Pre-2 Plus layout requires two fill passages and two reading passages")
+            raise ValueError(f"{layout_name} layout requires two fill passages and two reading passages")
         email_passage, article_passage = reading_passages
         count_signature = [
             *[len(passage.get("questions", [])) for passage in passage_fills],
@@ -818,7 +823,8 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             len(article_passage.get("questions", [])),
         ]
         if count_signature != [3, 3, 3, 5]:
-            raise ValueError("Grade Pre-2 Plus layout requires question counts 3 / 3 / 3 / 5 after Part 1")
+            raise ValueError(f"{layout_name} layout requires question counts 3 / 3 / 3 / 5 after Part 1")
+        fill_panel_height = 350 if grade == "grade2" else 340
 
         draw_passage_fill_page(
             pdf,
@@ -829,7 +835,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             sections[1],
             passage_fills[0],
             section_title=f"大問2A  長文の語句空所補充  {question_range_label(passage_fills[0].get('questions', []))}",
-            panel_height=340,
+            panel_height=fill_panel_height,
         )
         page_number += 1
         draw_passage_fill_page(
@@ -841,7 +847,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             sections[1],
             passage_fills[1],
             section_title=f"大問2B  長文の語句空所補充  {question_range_label(passage_fills[1].get('questions', []))}",
-            panel_height=340,
+            panel_height=fill_panel_height,
         )
         page_number += 1
         email_questions = email_passage.get("questions", [])
@@ -905,7 +911,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             + article_questions
         )
         if page_number != total_pages:
-            raise RuntimeError("Grade Pre-2 Plus page numbering drifted")
+            raise RuntimeError(f"{layout_name} page numbering drifted")
         draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
         pdf.save()
         return
