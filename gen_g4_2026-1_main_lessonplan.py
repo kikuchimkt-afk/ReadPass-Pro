@@ -18,6 +18,7 @@ DATA_PATH = os.path.join(
 fp1 = {
     "id": "fp1",
     "title": "単語は「セット」で覚える",
+    "titleSimple": "たんごをセットでおぼえよう",
     "subtitle": "Collocations, Comparatives & Grammar Forms",
     "explanation": (
         "大問1では、単語ひとつより「決まった組み合わせ」が鍵です。"
@@ -29,7 +30,7 @@ fp1 = {
     ),
     "explanationSimple": (
         "たんごはセットでおぼえよう！think of は「〜についてどう思う」、"
-        "Good for you は「がんばってね」、cheaper than は「〜よりやすい」、"
+        "Good for you は「よかったね」、cheaper than は「〜よりやすい」、"
         "must read は「よまなきゃ」だよ。"
     ),
     "sourceQuote": "don't have any eggs / What do you think of / Good for you / cheaper than bananas / must read this book",
@@ -51,7 +52,7 @@ fp1 = {
             "en": "Good for you. You practiced a lot. Today, apples are cheaper than bananas.",
             "ja": "よかったね。たくさん練習したのね。今日、リンゴはバナナより安いよ。",
             "note": "Good for you.＝励まし。cheaper than＝比較級＋than。",
-            "noteSimple": "Good for you は「がんばって」、cheaper than は「〜よりやすい」！",
+            "noteSimple": "Good for you は「よかったね」、cheaper than は「〜よりやすい」！",
         },
     ],
     "practicePassage": {
@@ -90,6 +91,8 @@ fp1 = {
         "cheaper than",
         "must read",
     ],
+    "highlightColor": "#4f8cff",
+    "highlightLabel": "語句・文法",
     "practiceQuestions": [
         {
             "q": "Q13で cheapest が不正解な理由は？",
@@ -109,11 +112,14 @@ fp1 = {
         {"q": "cheaper than って？", "a": "「〜よりやすい」だよ。"},
         {"q": "must read って？", "a": "「よまなきゃ」だよ。"},
     ],
+    "challenge": [],
+    "source": "",
 }
 
 fp2 = {
     "id": "fp2",
     "title": "会話は「次のセリフ」で選ぶ",
+    "titleSimple": "かいわはつぎのセリフでえらぼう",
     "subtitle": "Dialogue Flow & Set Phrases",
     "explanation": (
         "大問2は、空所の直後（ときどき直前）のセリフが最大のヒントです。"
@@ -182,6 +188,8 @@ fp2 = {
         "on the kitchen table",
         "Are you OK",
     ],
+    "highlightColor": "#34d399",
+    "highlightLabel": "会話の流れ",
     "practiceQuestions": [
         {
             "q": "Q16で Will you go home soon? が合わない理由は？",
@@ -201,11 +209,14 @@ fp2 = {
         {"q": "How much are they? って？", "a": "「いくら？」だよ。"},
         {"q": "会話問題のコツは？", "a": "つぎのセリフをよんで、なぜそう言うか考えること！"},
     ],
+    "challenge": [],
+    "source": "",
 }
 
 fp3 = {
     "id": "fp3",
     "title": "並べ替え——5つの「型」を知る",
+    "titleSimple": "ならべかえの5つのかた",
     "subtitle": "Sentence Order Patterns",
     "explanation": (
         "大問3は、日本文の意味から英文の「型」を思い出す問題です。"
@@ -269,6 +280,8 @@ fp3 = {
         "leave home for school",
         "Could you wash these",
     ],
+    "highlightColor": "#f472b6",
+    "highlightLabel": "並べ替え",
     "practiceQuestions": [
         {
             "q": "Q21で ⑤−③ が正解になる完成文は？2・4番目の語は？",
@@ -279,8 +292,8 @@ fp3 = {
             "a": "2番目 home（⑤）、4番目 school（②）。I leave home for school at ... の語順。",
         },
         {
-            "q": "Q25の Could you と you の違いは？",
-            "a": "Could you wash ...? の you は「あなたに」依頼する相手。2番目の you（②）と4番目の these（⑤）を区別する。",
+            "q": "Q25で2番目と4番目に入る語は？",
+            "a": "完成文は Could you wash these coffee cups, please?。2番目は you（②）、4番目は these（⑤）です。",
         },
     ],
     "practiceQuestionsSimple": [
@@ -288,11 +301,14 @@ fp3 = {
         {"q": "leave home for school って？", "a": "「いえをでてがっこうへ」だよ。"},
         {"q": "並べ替えのさいごのチェックは？", "a": "2ばんめと4ばんめが選択肢とあうかな？"},
     ],
+    "challenge": [],
+    "source": "",
 }
 
 fp4 = {
     "id": "fp4",
     "title": "読解——お知らせ・メール・物語の読み分け",
+    "titleSimple": "おしらせ・メール・ものがたりをよもう",
     "subtitle": "Notice, E-mail & Story Reading",
     "explanation": (
         "大問4は3タイプの読み方があります。"
@@ -305,7 +321,7 @@ fp4 = {
         "よみものは3タイプ！"
         "お知らせ＝たいいくかんはスピーチ、おんがくしつは3きょく！"
         "メール＝らいげつ・3ひき・ともだちがきのうきた！"
-        "ものがたり＝いもうとが行きたがった、こくばん40ねん、きょうかしょがいちばんすき！"
+        "ものがたり＝おねえさんか いもうとが行きたがった、こくばん40ねん、きょうかしょがいちばんすき！"
     ),
     "sourceQuote": "give a speech in the gym / play three songs / visit your home next month / She has three babies / his sister wanted to go / textbooks most / now his favorite is history",
     "sourceLocation": "大問4A・4B・4C",
@@ -324,9 +340,9 @@ fp4 = {
         },
         {
             "en": "His sister wanted to go to a history museum. He liked looking at the textbooks most. Now his favorite is history.",
-            "ja": "妹が博物館に行きたがった。教科書を見るのがいちばん好きだった。今は歴史が好き。",
+            "ja": "姉か妹が博物館に行きたがった。教科書を見るのがいちばん好きだった。今は歴史が好き。",
             "note": "行った理由・教室で好きだったもの・今の好きな科目を区別。",
-            "noteSimple": "いもうとが行きたがった、きょうかしょがすき、いまはれきし！",
+            "noteSimple": "おねえさんか いもうとが行きたがった、きょうかしょがすき、いまはれきし！",
         },
     ],
     "practicePassage": {
@@ -342,9 +358,9 @@ fp4 = {
         "ja": (
             "【お知らせ】体育館でスピーチ、音楽室で3曲演奏。\n\n"
             "【メール】来月訪問していい？子猫3匹。昨日友達が訪問。\n\n"
-            "【物語】妹が博物館に行きたがった。黒板40年。机は濃い茶色。教科書がいちばん好き。今は歴史が好き。"
+            "【物語】姉か妹が博物館に行きたがった。黒板40年。机は濃い茶色。教科書がいちばん好き。今は歴史が好き。"
         ),
-        "source": "大問4A「Musician Will Visit Our School」/ 4B「How are your cats?」/ 4C「A Visit to a History Museum」",
+        "source": "大問4A「A Musician Will Visit Our School」/ 4B「How are your cats?」/ 4C「A Visit to a History Museum」",
         "audioFile": "audio/practice_pp4.mp3",
     },
     "highlightPatterns": [
@@ -359,6 +375,8 @@ fp4 = {
         "textbooks most",
         "favorite is history",
     ],
+    "highlightColor": "#fbbf24",
+    "highlightLabel": "読解の根拠",
     "practiceQuestions": [
         {
             "q": "Q26で play songs in the gym が不正解な理由は？",
@@ -378,6 +396,8 @@ fp4 = {
         {"q": "リリーには子猫が何匹？", "a": "3ひきだよ。"},
         {"q": "ジョージがいちばん好きだったのは？", "a": "きょうかしょだよ。いまのすきなかもくはれきし！"},
     ],
+    "challenge": [],
+    "source": "",
 }
 
 for fp in (fp1, fp2, fp3, fp4):

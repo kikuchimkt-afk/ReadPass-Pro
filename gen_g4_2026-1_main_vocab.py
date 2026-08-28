@@ -140,7 +140,7 @@ vocab.append({
     "level": "4級",
     "source": "大問1",
     "example": "Today, apples are cheaper than bananas.",
-    "distractors": ["安い", "最も安い", "一番安い"],
+    "distractors": ["安い", "最も安い", "高い"],
 })
 vocab.append({
     "word": "swam",
@@ -158,7 +158,7 @@ vocab.append({
     "level": "4級",
     "source": "大問1",
     "example": "You must read this book before the test next Monday.",
-    "distractors": ["〜している", "〜である", "〜だった"],
+    "distractors": ["〜してもよい", "〜することができる", "〜するつもりだ"],
 })
 
 # ============================================================
@@ -172,7 +172,7 @@ vocab.append({
     "level": "4級",
     "source": "大問2",
     "example": "I forgot my red pen. Can I borrow yours?",
-    "distractors": ["すぐ家に帰る？", "色は大丈夫？", "書くのは好き？"],
+    "distractors": ["貸す", "返す", "買う"],
 })
 vocab.append({
     "word": "too tall",
@@ -181,7 +181,7 @@ vocab.append({
     "level": "4級",
     "source": "大問2",
     "example": "I want to climb this tree. It's too tall. Let's climb the one over there.",
-    "distractors": ["花がきれい", "庭が大きい", "家がとてもきれい"],
+    "distractors": ["とても低い", "ちょうどよい高さ", "少し高い"],
 })
 vocab.append({
     "word": "how much",
@@ -190,7 +190,7 @@ vocab.append({
     "level": "4級",
     "source": "大問2",
     "example": "I want to buy these socks. How much are they?",
-    "distractors": ["元気ですか", "いくつ持っていますか", "身長はどのくらい"],
+    "distractors": ["何歳", "どこで", "いつ"],
 })
 vocab.append({
     "word": "kitchen table",
@@ -199,7 +199,7 @@ vocab.append({
     "level": "4級",
     "source": "大問2",
     "example": "I can't find my social studies textbook. It's on the kitchen table.",
-    "distractors": ["難しい科目だ", "とても面白かった", "弟のものだ"],
+    "distractors": ["教室の机", "居間のテーブル", "寝室の机"],
 })
 vocab.append({
     "word": "Are you OK",
@@ -208,7 +208,7 @@ vocab.append({
     "level": "4級",
     "source": "大問2",
     "example": "Jenny, you don't look well today. Are you OK?",
-    "distractors": ["家に帰っていい？", "私を呼んだ？", "お母さんは医者？"],
+    "distractors": ["どこにいるの？", "何をしているの？", "家に帰っていい？"],
 })
 
 # ============================================================
@@ -258,7 +258,7 @@ vocab.append({
     "level": "4級",
     "source": "大問3",
     "example": "Could you wash these coffee cups, please?",
-    "distractors": ["お茶", "皿", "フォーク"],
+    "distractors": ["ティーカップ", "皿", "コーヒーポット"],
 })
 
 # ============================================================
@@ -272,7 +272,7 @@ vocab.append({
     "level": "4級",
     "source": "大問4A",
     "example": "He will first give a speech in the gym.",
-    "distractors": ["歌を歌う", "おやつをもらう", "ダンスをする"],
+    "distractors": ["歌", "会話", "手紙"],
 })
 
 # ============================================================
@@ -286,7 +286,7 @@ vocab.append({
     "level": "4級",
     "source": "大問4B",
     "example": "She has three babies, and they are very cute.",
-    "distractors": ["友達", "写真", "メール"],
+    "distractors": ["成猫", "子犬", "小鳥"],
 })
 vocab.append({
     "word": "next month",

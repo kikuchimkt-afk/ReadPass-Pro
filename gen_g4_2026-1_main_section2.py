@@ -16,8 +16,7 @@ def mark_ca(items, answer):
     out = []
     for i, text in enumerate(items):
         cleaned = re.sub(r"^[○✅❌]\s*", "", text)
-        prefix = "✅" if i + 1 == answer else "❌"
-        out.append(f"{prefix} {cleaned}")
+        out.append(f"○ {cleaned}" if i + 1 == answer else cleaned)
     return out
 
 DATA_PATH = os.path.join(
@@ -50,7 +49,7 @@ section2 = {
                 "○ Can I borrow yours?＝「あなたのを借りていい？」。Here you are. とぴったりつながる。",
             ],
             "choiceAnalysisSimple": [
-                "「すぐかえう？」はかりる話じゃないよ。",
+                "「すぐかえる？」はかりる話じゃないよ。",
                 "「いろはだいじょうぶ？」はかりるおねがいじゃないよ。",
                 "「かくのすき？」は合わないよ。",
                 "○「あなたのをかりていい？」がぴったり！「はいどうぞ」ってこたえてる！",
@@ -80,13 +79,13 @@ section2 = {
                 "These flowers are pretty.＝「花がきれい」。木に登る話題からずれる。",
                 "○ It's too tall.＝「高すぎる」。別の木を提案する理由として自然。",
                 "My garden is big.＝「庭が大きい」。登れない理由の説明にならない。",
-                "Your house is very nice.＝「家がとてもきれい」。木に登る話題と無関係。",
+                "Your house is very nice.＝「あなたの家はとてもすてき」。木に登る話題と無関係。",
             ],
             "choiceAnalysisSimple": [
                 "「はながきれい」はきのはなしとずれるよ。",
                 "○「たかすぎる」がぴったり！あっちのきにのぼろう！",
                 "「にわがおおきい」はわけにならないよ。",
-                "「いえがきれい」は合わないよ。",
+                "「いえがすてき」は合わないよ。",
             ],
             "questionAudio": "audio/q17.mp3",
             "translation": "女の子1：この木に登りたい。\n女の子2：（　）あっちの木に登ろう。\n女の子1：うん。",
@@ -94,7 +93,7 @@ section2 = {
                 "この花はきれいだね。",
                 "高すぎるよ。",
                 "私の庭は大きいよ。",
-                "あなたの家はとてもきれいだね。",
+                "あなたの家はとてもすてきだね。",
             ],
         },
         {
@@ -146,13 +145,13 @@ section2 = {
                 "It's a difficult subject.＝「難しい科目だ」。教科書の場所の答えにならない。",
                 "It was very interesting.＝「とても面白かった」。探している本の場所を教えない。",
                 "○ It's on the kitchen table.＝「キッチンのテーブルの上」。Thanks. への自然な答え。",
-                "It's for your brother.＝「弟のためのもの」。場所の説明にならない。",
+                "It's for your brother.＝「あなたの兄か弟のためのもの」。場所の説明にならない。",
             ],
             "choiceAnalysisSimple": [
                 "「むずかしいかもくだ」はばしょのこたえじゃないよ。",
                 "「おもしろかった」はばしょを教えてないよ。",
                 "○「キッチンのテーブルのうえ」がぴったり！ありがとうって言ってる！",
-                "「おとうとのため」は合わないよ。",
+                "「おにいさんか おとうとのため」は合わないよ。",
             ],
             "questionAudio": "audio/q19.mp3",
             "translation": "娘：お父さん、社会の教科書が見つからないの。\n父：（　）\n娘：ありがとう。",
@@ -160,7 +159,7 @@ section2 = {
                 "難しい科目だよ。",
                 "とても面白かったよ。",
                 "キッチンのテーブルの上にあるよ。",
-                "弟のためのものだよ。",
+                "兄か弟のためのものだよ。",
             ],
         },
         {

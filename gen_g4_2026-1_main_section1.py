@@ -16,8 +16,7 @@ def mark_ca(items, answer):
     out = []
     for i, text in enumerate(items):
         cleaned = re.sub(r"^[○✅❌]\s*", "", text)
-        prefix = "✅" if i + 1 == answer else "❌"
-        out.append(f"{prefix} {cleaned}")
+        out.append(f"○ {cleaned}" if i + 1 == answer else cleaned)
     return out
 
 DATA_PATH = os.path.join(
@@ -63,30 +62,30 @@ section1 = {
             "grammarSimple": "use は「つかう」。でんわがないから、わたしのでんわをつかっていいよ！",
             "choiceAnalysis": [
                 "climb my phone→「電話を登る」では意味が通らない。",
-                "leave my phone→「電話を去る」では不自然。",
+                "leave my phone＝「私の電話を置いていく」。電話を使わせる返答にはならない。",
                 "○ use＝使う。use my phone が自然。",
                 "send my phone→「電話を送る」では文脈に合わない。",
             ],
             "choiceAnalysisSimple": [
                 "climb は「のぼる」。でんわには合わないよ。",
-                "leave は「去る」。合わないよ。",
+                "leave は「おいていく」。でんわをつかわせる答えにはならないよ。",
                 "○ use がぴったり！「つかう」！",
                 "send は「おくる」。合わないよ。",
             ],
             "questionAudio": "audio/q2.mp3",
             "translation": "A: お母さんに電話したいんだけど、電話を持ってないんだ。\nB: 私の電話を（　）っていいよ。",
-            "choiceTranslations": ["登る", "去る", "使う", "送る"],
+            "choiceTranslations": ["登る", "置いていく", "使う", "送る"],
         },
         {
             "number": 3,
             "text": "A: Mom, I want to make some cookies.\nB: All right, but please (　) this carrot first.",
             "choices": ["cut", "arrive", "hit", "run"],
             "answer": 1,
-            "grammar": "cut this carrot＝「このニンジンを切る」。クッキー作りの前準備。",
+            "grammar": "please cut this carrot first＝「まずこのニンジンを切って」。クッキーを作る前に、先にニンジンを切ってほしいという依頼です。",
             "grammarSimple": "cut は「きる」。クッキーをつくるまえに、にんじんをきってね！",
             "choiceAnalysis": [
                 "○ cut＝切る。クッキー作りの前に野菜を切る場面。",
-                "arrive this carrot→「ニンジンが着く」では意味が通らない。",
+                "arrive は「到着する」という自動詞なので、this carrot を目的語に取れない。",
                 "hit this carrot→「ニンジンを打つ」では不自然。",
                 "run this carrot→「ニンジンを走る」では不自然。",
             ],
@@ -128,11 +127,11 @@ section1 = {
             "text": "Taro enjoyed the chorus (　) on TV yesterday. He wants to join a chorus at school.",
             "choices": ["wall", "hobby", "contest", "trip"],
             "answer": 3,
-            "grammar": "chorus contest＝「合唱コンテスト」。テレビで見て、学校の合唱に入りたい流れ。",
+            "grammar": "chorus contest＝「合唱コンテスト」。テレビで合唱コンテストを楽しみ、その後、学校の合唱団に入りたいという流れです。",
             "grammarSimple": "contest は「コンテスト」。テレビで合唱コンテストをみて、がっこうの合唱に入りたいんだ！",
             "choiceAnalysis": [
                 "chorus wall→「合唱の壁」では意味が通らない。",
-                "chorus hobby→「合唱の趣味」ではテレビ番組名として不自然。",
+                "chorus hobby＝「合唱という趣味」では、テレビで楽しんだ催しを表せない。",
                 "○ contest＝コンテスト。chorus contest on TV が自然。",
                 "chorus trip→「合唱の旅行」では文脈に合わない。",
             ],
@@ -143,7 +142,7 @@ section1 = {
                 "trip は「りょこう」。合わないよ。",
             ],
             "questionAudio": "audio/q5.mp3",
-            "translation": "タロウは昨日テレビで合唱（　）を楽しんだ。学校の合唱に入りたいと思っている。",
+            "translation": "タロウは昨日テレビで合唱（　）を楽しんだ。学校の合唱団に入りたいと思っている。",
             "choiceTranslations": ["壁", "趣味", "コンテスト", "旅行"],
         },
         {
@@ -235,7 +234,7 @@ section1 = {
                 "finish は「おえる」。合わないよ。",
             ],
             "questionAudio": "audio/q9.mp3",
-            "translation": "A: これ、私の新しいメガネよ。どう思う？\nB: とてもいいわね、おばあちゃん。",
+            "translation": "A: これ、私の新しいメガネよ。どう（　）？\nB: とてもいいわね、おばあちゃん。",
             "choiceTranslations": ["見る", "思う", "言う", "終える"],
         },
         {
@@ -243,8 +242,8 @@ section1 = {
             "text": "A: Mom, I'm going to play in the soccer game tomorrow.\nB: Good (　) you. You practiced a lot.",
             "choices": ["for", "with", "in", "after"],
             "answer": 1,
-            "grammar": "Good for you.＝「よかったね・がんばってね」。練習をたくさんした子への励まし。",
-            "grammarSimple": "Good for you. は「がんばってね」。たくさんれんしゅうしたんだね！",
+            "grammar": "Good for you.＝「よかったね・よくやったね」。試合に出ることや、たくさん練習したことを認めて励ます定型表現です。",
+            "grammarSimple": "Good for you. は「よかったね・よくやったね」。たくさんれんしゅうしたんだね！",
             "choiceAnalysis": [
                 "○ for＝Good for you. の定型表現。",
                 "Good with you→使わない。",
@@ -252,7 +251,7 @@ section1 = {
                 "Good after you→使わない。",
             ],
             "choiceAnalysisSimple": [
-                "○ for がぴったり！Good for you. で「がんばって」！",
+                "○ for がぴったり！Good for you. で「よかったね」！",
                 "with は合わないよ。",
                 "in は合わないよ。",
                 "after は合わないよ。",
@@ -281,7 +280,7 @@ section1 = {
                 "want は「ほしい」。合わないよ。",
             ],
             "questionAudio": "audio/q11.mp3",
-            "translation": "A: ダンのこと（　）？\nB: うん。イギリスに戻ることになるんだ。",
+            "translation": "A: ダンのこと（　）？\nB: うん。イギリスに戻る予定なんだ。",
             "choiceTranslations": ["聞く", "待つ", "走る", "望む"],
         },
         {
@@ -289,8 +288,8 @@ section1 = {
             "text": "A: Here are four cookies, Bob. Please (　) them with your sister.\nB: OK. I'll give her two of them.",
             "choices": ["share", "answer", "cry", "run"],
             "answer": 1,
-            "grammar": "share them with your sister＝「妹と分け合って」。4つあるクッキーを分ける場面。",
-            "grammarSimple": "share は「わけあう」。いもうととクッキーをわけあってね！",
+            "grammar": "share them with your sister＝「姉か妹とそれらを分け合って」。4つあるクッキーを2人で分ける場面です。sister だけでは姉か妹かは特定できません。",
+            "grammarSimple": "share は「わけあう」。おねえさんか いもうとと、クッキーをわけあってね！",
             "choiceAnalysis": [
                 "○ share＝分け合う。give her two of them とつながる。",
                 "answer them→「クッキーに答える」では意味が通らない。",
@@ -304,7 +303,7 @@ section1 = {
                 "run は「はしる」。合わないよ。",
             ],
             "questionAudio": "audio/q12.mp3",
-            "translation": "A: ボブ、クッキーが4つあるよ。妹と（　）てね。\nB: わかった。2つあげるよ。",
+            "translation": "A: ボブ、クッキーが4つあるよ。姉か妹と（　）てね。\nB: わかった。2つあげるよ。",
             "choiceTranslations": ["分け合う", "答える", "泣く", "走る"],
         },
         {
@@ -340,11 +339,11 @@ section1 = {
             "choiceAnalysis": [
                 "swim＝現在形。yesterday と時制が合わない。",
                 "○ swam＝過去形。yesterday と一致。",
-                "swimming＝進行形・動名詞。述語として主に使えない。",
+                "swimming は現在分詞・動名詞で、be動詞なしではこの文の述語にならない。",
                 "to swim＝不定詞。文の述語として不自然。",
             ],
             "choiceAnalysisSimple": [
-                "swim は「いま」。きのうには合わないよ。",
+                "swim は現在形。yesterday（きのう）には合わないよ。",
                 "○ swam がぴったり！「およいだ」！",
                 "swimming はそのままでは合わないよ。",
                 "to swim はそのままでは合わないよ。",

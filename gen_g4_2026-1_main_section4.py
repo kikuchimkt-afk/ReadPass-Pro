@@ -16,8 +16,7 @@ def mark_ca(items, answer):
     out = []
     for i, text in enumerate(items):
         cleaned = re.sub(r"^[○✅❌]\s*", "", text)
-        prefix = "✅" if i + 1 == answer else "❌"
-        out.append(f"{prefix} {cleaned}")
+        out.append(f"○ {cleaned}" if i + 1 == answer else cleaned)
     return out
 
 DATA_PATH = os.path.join(
@@ -32,17 +31,17 @@ section4 = {
     "passages": [
         {
             "label": "A",
-            "title": "Musician Will Visit Our School",
+            "title": "A Musician Will Visit Our School",
             "format": "notice",
             "paragraphs": [
-                "Musician Will Visit Our School",
+                "A Musician Will Visit Our School",
                 "The famous piano player Mr. Stevens will visit the school on Friday afternoon for one hour.",
                 "He will first give a speech in the gym and then play three songs in the music room. After this performance, students can eat snacks in the cafeteria.",
                 "Date: February 12\nTime: 4:00 p.m. to 5:00 p.m.",
             ],
             "translations": [
                 "ミュージシャンが学校を訪問します",
-                "有名なピアニストのスティーブンス先生が、金曜の午後1時間、学校を訪問します。",
+                "有名なピアニストのスティーブンスさんが、金曜の午後に1時間、学校を訪問します。",
                 "まず体育館でスピーチを行い、その後音楽室で3曲演奏します。この公演のあと、生徒はカフェテリアでおやつを食べられます。",
                 "日付：2月12日\n時間：午後4時〜5時",
             ],
@@ -61,7 +60,7 @@ section4 = {
                     "grammarSimple": "「たいいくかんでスピーチをする」って書いてあるよ！おんがくしつでえんそうするのはそのあとだよ。",
                     "choiceAnalysis": [
                         "○ give a speech in the gym＝体育館でスピーチ。He will first give a speech in the gym と一致。",
-                        "eat snacks in the cafeteria＝おやつはカフェテリアでの出来事。",
+                        "Students will receive free snacks. と本文にはない。本文は、公演後にカフェテリアでおやつを食べられると述べている。",
                         "play songs＝演奏は the music room（音楽室）。",
                         "dance＝書かれていない。",
                     ],
@@ -105,7 +104,7 @@ section4 = {
                         "「4きょく」はちがうよ。",
                         "「5きょく」はちがうよ。",
                     ],
-                    "questionTranslation": "スティーブンス先生は何曲演奏する？",
+                    "questionTranslation": "スティーブンスさんは何曲演奏する？",
                     "choiceTranslations": [
                         "2曲。",
                         "3曲。",
@@ -128,7 +127,7 @@ section4 = {
             ],
             "translations": [
                 "差出人：ジミー・クック\n宛先：キャシー・クック\n日付：7月7日\n件名：猫は元気？",
-                "おばあちゃんへ\n去年の夏はとても楽しかった！2週間おばあちゃんの家にいたのが好きだった。猫のリリーは元気？子猫が生まれたんでしょ？お父さんが教えてくれた。子猫は何匹？ぜひ会いたい！来月おばあちゃんの家に行っていい？4日間滞在できるよ！\n早く返事してね、\nジミーより",
+                "おばあちゃんへ\n去年の夏はとても楽しかった！おばあちゃんの家で2週間過ごして楽しかったよ。猫のリリーは元気？子猫が生まれたんでしょ？お父さんが教えてくれた。子猫は何匹？ぜひ会いたい！来月おばあちゃんの家に行っていい？そのときは4日間滞在できるよ！\n早く返事してね、\nジミーより",
                 "差出人：キャシー・クック\n宛先：ジミー・クック\n日付：7月7日\n件名：元気だよ！",
                 "ジミーへ\nもちろん、来月リリーと子猫に会いに来て！子猫は3匹でとてもかわいいの。昨日、友達がうちに来て子猫にも会ったの！明日メールで子猫の写真を送るね！\n愛を込めて、\nおばあちゃんより",
             ],
@@ -217,8 +216,8 @@ section4 = {
                     ],
                     "questionTranslation": "昨日、ジミーのおばあちゃんのところを誰が訪ねた？",
                     "choiceTranslations": [
-                        "彼女の友達。",
-                        "彼女の娘。",
+                        "おばあちゃんの友達。",
+                        "おばあちゃんの娘。",
                         "ジミー。",
                         "ジミーの父親。",
                     ],
@@ -236,9 +235,9 @@ section4 = {
                 "The history museum was very fun. George's favorite subjects in school were English and math before, but now his favorite is history. George wants to go to more museums with his sister.",
             ],
             "translations": [
-                "ジョージは13歳。最近、妹が歴史博物館に行きたがった。そこで家族は先週の土曜日、博物館に行った。博物館は古い建物にあった。建物は80年の歴史がある。博物館ではたくさんの面白いものを見た。いちばんよかったのは古い教室だった。",
-                "ジョージは教室に入り、古い黒板を見た。黒板は40年ものだった。黒板が緑色だったので驚いた。机と椅子も見た。それらは濃い茶色だった。それから、古い歴史の教科書も見た。教室には面白いものがたくさんあった。教科書がとても古かったので、いちばん見るのが好きだった。",
-                "歴史博物館はとても楽しかった。以前は英語と数学が好きな科目だったが、今は歴史がいちばん好きだ。ジョージは妹と、もっと博物館に行きたいと思っている。",
+                "ジョージは13歳。最近、姉か妹が歴史博物館に行きたがった。そこで家族は先週の土曜日、博物館に行った。博物館は古い建物にあり、その建物は80年ものだった。博物館ではたくさんの面白いものを見た。いちばんよかったのは古い教室だった。",
+                "ジョージは教室に入り、古い黒板を見た。黒板は40年ものだった。黒板が緑色だったので驚いた。机と椅子も見た。それらは濃い茶色だった。それから、古い歴史の教科書も見た。教室には面白いものがたくさんあった。教科書がとても古かったので、教科書を見るのがいちばん好きだった。",
+                "歴史博物館はとても楽しかった。以前は英語と数学が好きな科目だったが、今はいちばん好きな科目が歴史になった。ジョージは姉か妹と、もっと博物館に行きたいと思っている。",
             ],
             "questions": [
                 {
@@ -251,25 +250,25 @@ section4 = {
                         "George likes history.",
                     ],
                     "answer": 3,
-                    "grammar": "his sister wanted to go to a history museum＝「妹が博物館に行きたがった」が理由。",
-                    "grammarSimple": "「いもうとがびょうぶつかんに行きたがった」から行ったんだよ！",
+                    "grammar": "本文の「his sister wanted to go to a history museum」が理由です。sister だけでは姉か妹かは特定できないので、「姉か妹が歴史博物館に行きたがった」と読み取ります。",
+                    "grammarSimple": "「おねえさんか いもうとが、はくぶつかんに行きたがった」から、かぞくで行ったんだよ！",
                     "choiceAnalysis": [
                         "four tickets＝書かれていない。",
                         "mother works there＝書かれていない。",
                         "○ George's sister wanted to go.＝his sister wanted to go to a history museum と一致。",
-                        "George likes history＝今は好きだが、行った理由は妹の希望。",
+                        "George likes history＝今は歴史が好きだが、博物館へ行った理由は姉か妹の希望。",
                     ],
                     "choiceAnalysisSimple": [
                         "「チケット」はちがうよ。",
                         "「おかあさんがはたらく」はちがうよ。",
-                        "○「いもうとが行きたかった」がぴったり！",
+                        "○「おねえさんか いもうとが行きたかった」がぴったり！",
                         "「ジョージがすき」はいまの話だよ。",
                     ],
                     "questionTranslation": "ジョージの家族は、なぜ先週の土曜日に博物館に行った？",
                     "choiceTranslations": [
                         "父がチケットを4枚持っていたから。",
                         "母がそこで働いているから。",
-                        "妹が行きたがったから。",
+                        "姉か妹が行きたがったから。",
                         "ジョージが歴史が好きだから。",
                     ],
                     "sourceEvidence": ["his sister wanted to go to a history museum"],
@@ -315,7 +314,7 @@ section4 = {
                     "choices": ["Black.", "Green.", "Light brown.", "Dark brown."],
                     "answer": 4,
                     "grammar": "They were dark brown.＝机と椅子は濃い茶色。green は黒板の色。",
-                    "grammarSimple": "「くろいちゃいろ」って書いてあるよ！みどりはこくばんのいろだよ。",
+                    "grammarSimple": "「こいちゃいろ」って書いてあるよ！みどりはこくばんのいろだよ。",
                     "choiceAnalysis": [
                         "Black＝本文は dark brown。",
                         "Green＝黒板（blackboard）の色。",

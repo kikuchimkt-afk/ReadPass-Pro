@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""choiceAnalysis の ○ を ✅/❌ に変換（本会場4級 2026-1）"""
+"""choiceAnalysis を2025年形式（正答のみ○）に統一（本会場4級 2026-1）"""
 import json
 import os
 import re
@@ -17,8 +17,7 @@ def mark_ca(items, answer):
     out = []
     for i, text in enumerate(items):
         cleaned = re.sub(r"^[○✅❌]\s*", "", text)
-        prefix = "✅" if i + 1 == answer else "❌"
-        out.append(f"{prefix} {cleaned}")
+        out.append(f"○ {cleaned}" if i + 1 == answer else cleaned)
     return out
 
 

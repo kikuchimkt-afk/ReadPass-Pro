@@ -63,9 +63,13 @@ def has_english_evidence(text):
         return True
     if re.search(r"[A-Za-z]{3,}(?:\s+[A-Za-z]{2,})+", text):
         return True
-    if re.search(r"^[✅❌]\s*[A-Za-z「]", text):
+    if re.search(r"[A-Za-z]{2,}", text):
         return True
     return False
+
+
+def has_blank(text):
+    return bool(re.search(r"[（(][\s　]*[）)]", text or ""))
 
 
 all_qs = collect_questions(d)
@@ -100,18 +104,31 @@ for _, _, q, _ in all_qs:
     if len(ca) != 4:
         issues.append(f"[解説] Q{n}: choiceAnalysis数={len(ca)}")
         continue
-    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("✅")]
+    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("○")]
     if checks != [q["answer"]]:
-        issues.append(f"[解説] Q{n}: ✅位置={checks} answer={q['answer']}")
-    wrong_marks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("❌")]
-    if len(wrong_marks) != 3:
-        issues.append(f"[解説] Q{n}: ❌数={len(wrong_marks)} (expected 3)")
+        issues.append(f"[解説] Q{n}: ○位置={checks} answer={q['answer']}")
+    if any(t.lstrip().startswith(("✅", "❌")) for t in ca):
+        issues.append(f"[解説] Q{n}: 旧✅/❌記号が残っています")
 
 # ---- 5. 構造 ----
 for sec in d["sections"]:
     for p in sec.get("passages", []):
         if len(p.get("paragraphs", [])) != len(p.get("translations", [])):
             issues.append(f"[構造] {p.get('title')}: paragraphs/translations不一致")
+
+for _, _, q, _ in all_qs:
+    n = q["number"]
+    if n <= 20 and has_blank(q.get("text")) and not has_blank(q.get("translation")):
+        issues.append(f"[和訳] Q{n}: 英文の空所が和訳に残っていません")
+
+sec3 = next(s for s in d["sections"] if s.get("type") == "sentence-order")
+for q in sec3.get("questions", []):
+    n = q["number"]
+    slots = q.get("answerSlots", [])
+    required_labels = [f"{slot}番目" for slot in slots]
+    for i, ca in enumerate(q.get("choiceAnalysis", [])):
+        if not all(label in ca for label in required_labels):
+            issues.append(f"[並べ替え] Q{n} 選択肢{i+1}: 空所位置の説明不足")
 
 # ---- 6. sourceEvidence（大問4 = Q26〜35）----
 for sec_name, sec_type, q, corpus in all_qs:
