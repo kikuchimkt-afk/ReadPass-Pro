@@ -305,6 +305,45 @@ body {
     white-space: nowrap;
 }
 
+.penpass-link {
+    min-height: 32px;
+    padding: 5px 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    border-radius: 999px;
+    background: #36afe7;
+    color: #073b5c;
+    font-size: 0.72rem;
+    font-weight: 800;
+    line-height: 1;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(7, 59, 92, 0.18);
+    transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+.penpass-link[hidden] {
+    display: none;
+}
+
+.penpass-link .material-symbols-rounded {
+    font-size: 18px;
+}
+
+.penpass-link:hover {
+    background: #74cef2;
+    box-shadow: 0 4px 14px rgba(7, 59, 92, 0.24);
+    transform: translateY(-1px);
+}
+
+.penpass-link:focus-visible {
+    outline: 3px solid #fbbf24;
+    outline-offset: 2px;
+}
+
 .home-link {
     display: flex;
     align-items: center;
@@ -2508,6 +2547,11 @@ body.projector-mode .exam-question.proj-hidden {
     .header-inner {
         flex-direction: column;
         gap: 8px;
+    }
+
+    .exam-selector {
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .app-title {

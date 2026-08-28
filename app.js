@@ -11,6 +11,11 @@
     grade4: { name: 'CEFR A1（4級相当）', path: 'grade4' },
     grade5: { name: 'CEFR Pre-A1（5級相当）', path: 'grade5' }
   };
+  const PENPASS_BASE_URL = 'https://readpass-workbook-lp.vercel.app/';
+  const PENPASS_SESSIONS = new Set(
+    ['grade-pre2plus', 'grade-pre2', 'grade3', 'grade4', 'grade5']
+      .flatMap(gradeId => ['2025-1', '2025-2', '2025-3'].map(examId => `${gradeId}|${examId}`))
+  );
   let currentGradeId = null;
   let currentExamId = null;
   let DATA = null;
@@ -47,6 +52,7 @@
         label.textContent = `${grade.name} · ${examId}`;
       }
     }
+    setupPenPassLink(gradeId, examId, label?.textContent);
 
     setupTabs();
     await loadExam(gradeId, examId);
@@ -56,6 +62,27 @@
     if (!params.get('nav')) {
       applyLockedMode();
     }
+  }
+
+  function setupPenPassLink(gradeId, examId, examLabel) {
+    const link = document.getElementById('penpassLink');
+    if (!link) return;
+
+    const sessionKey = `${gradeId}|${examId}`;
+    const year = examId.match(/^(\d{4})-/)?.[1];
+    if (!PENPASS_SESSIONS.has(sessionKey) || !year) {
+      link.hidden = true;
+      link.removeAttribute('href');
+      return;
+    }
+
+    const url = new URL(PENPASS_BASE_URL);
+    url.searchParams.set('grade', gradeId);
+    url.searchParams.set('year', year);
+    url.hash = `${gradeId}-${examId}`;
+    link.href = url.toString();
+    link.setAttribute('aria-label', `PenPassワークで${examLabel || examId}を新しいタブで開く`);
+    link.hidden = false;
   }
 
   function applyLockedMode() {
