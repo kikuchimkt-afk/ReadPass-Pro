@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ReadPass Pro — 宿題プリント作成</title>
-  <meta name="description" content="ReadPass Pro - 英語資格試験リーディング宿題プリント生成ツール。QRコード付きのA4プリントを作成">
-  <link rel="stylesheet" href="print.css">
+  <title>ReadPass Pro — 過去問プリント作成</title>
+  <meta name="description" content="ReadPass Pro - 英語資格試験リーディングの過去問プリント作成ツール">
+  <link rel="stylesheet" href="print.css?v=20260828-large-type-v2">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 
@@ -15,8 +15,8 @@
   <div class="settings-panel" id="settingsPanel">
     <header class="settings-header">
       <a href="top.html" class="back-link">← ReadPass Pro トップへ</a>
-      <h1 class="settings-title">🖨️ 宿題プリント作成</h1>
-      <p class="settings-subtitle">級・試験・大問を選んで生徒用プリントを生成</p>
+      <h1 class="settings-title">🖨️ 過去問プリント作成</h1>
+      <p class="settings-subtitle">級・年度・回を選んでReadPassの問題PDFを作成</p>
     </header>
 
     <div class="settings-body">
@@ -28,11 +28,13 @@
 
       <!-- Exam Selection -->
       <div class="setting-group">
-        <label class="setting-label">試験を選択 <span class="hint">（複数選択で「まとめプリント」）</span></label>
+        <label class="setting-label">年度・回を選択 <span class="hint">（複数選択で「まとめプリント」）</span></label>
         <div class="exam-checkboxes" id="examCheckboxes">
           <p class="placeholder-text">先に級を選択してください</p>
         </div>
       </div>
+
+      <div class="fixed-exam-notice" id="fixedExamNotice" hidden></div>
 
       <!-- Section Selection -->
       <div class="setting-group">
@@ -78,7 +80,7 @@
     <div id="printContent"></div>
   </div>
 
-  <script src="print.js"></script>
+  <script src="print.js?v=20260828-large-type-v2"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 /**
- * ReadPass Pro — 宿題プリント生成
- * 級・試験・大問を選んでA4プリントを生成
+ * ReadPass Pro — 過去問プリント生成
+ * 級・年度・回を選んでA4の問題PDFを表示
  */
 (function () {
     'use strict';
@@ -163,6 +163,26 @@
     ];
 
     const BASE_URL = 'https://read-pass-pro.vercel.app/';
+    const FIXED_EXAM_PDFS = {
+        'grade3/2025-1': {
+            label: '英検3級 2025年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2025-1_Practice_Exam_Large_Type_v3.pdf?v=20260828-eiken-blank-v3',
+            downloadName: 'ReadPass_EIKEN_Grade3_2025-1_Practice_Exam_Large_Type_v3.pdf',
+            pages: 10
+        },
+        'grade3/2025-2': {
+            label: '英検3級 2025年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2025-2_Practice_Exam_Large_Type_v3.pdf?v=20260828-eiken-blank-v3',
+            downloadName: 'ReadPass_EIKEN_Grade3_2025-2_Practice_Exam_Large_Type_v3.pdf',
+            pages: 10
+        },
+        'grade3/2025-3': {
+            label: '英検3級 2025年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2025-3_Practice_Exam_Large_Type_v3.pdf?v=20260828-eiken-blank-v3',
+            downloadName: 'ReadPass_EIKEN_Grade3_2025-3_Practice_Exam_Large_Type_v3.pdf',
+            pages: 10
+        }
+    };
 
     // DOM
     const gradeChips = document.getElementById('gradeChips');
@@ -172,8 +192,11 @@
     const printBtn = document.getElementById('printBtn');
     const printPreview = document.getElementById('printPreview');
     const printContent = document.getElementById('printContent');
+    const previewLabel = document.getElementById('previewLabel');
+    const fixedExamNotice = document.getElementById('fixedExamNotice');
 
     let selectedGrade = null;
+    let activeFixedExam = null;
 
     // ===== Render Grade Chips =====
     function renderGradeChips() {
@@ -190,6 +213,7 @@
     }
 
     function selectGrade(grade, chip) {
+        clearGeneratedPreview();
         selectedGrade = grade;
         document.querySelectorAll('.grade-chip').forEach(c => c.classList.remove('active'));
         chip.classList.add('active');
@@ -231,7 +255,10 @@
             const label = document.createElement('label');
             label.className = 'checkbox-label';
             label.innerHTML = `<input type="checkbox" value="${item.value}" checked> ${item.label}`;
-            label.querySelector('input').addEventListener('change', updateGenerateBtn);
+            label.querySelector('input').addEventListener('change', () => {
+                clearGeneratedPreview();
+                updateGenerateBtn();
+            });
             sectionCheckboxes.appendChild(label);
         });
     }
@@ -239,32 +266,163 @@
     // ===== Render Exam Checkboxes =====
     function renderExamCheckboxes(grade) {
         examCheckboxes.innerHTML = '';
+
+        const toolbar = document.createElement('div');
+        toolbar.className = 'exam-toolbar';
+
+        const guide = document.createElement('p');
+        guide.className = 'exam-guide';
+        guide.textContent = '年度ごとに、印刷したい回を選択してください';
+        toolbar.appendChild(guide);
+
         const allBtn = document.createElement('button');
         allBtn.className = 'select-all-btn';
-        allBtn.textContent = '全選択';
+        allBtn.type = 'button';
+        allBtn.textContent = 'すべて選択';
         allBtn.addEventListener('click', () => {
             const boxes = examCheckboxes.querySelectorAll('input[type="checkbox"]');
             const allChecked = [...boxes].every(b => b.checked);
             boxes.forEach(b => { b.checked = !allChecked; });
-            allBtn.textContent = allChecked ? '全選択' : '全解除';
+            allBtn.textContent = allChecked ? 'すべて選択' : 'すべて解除';
+            clearGeneratedPreview();
             updateGenerateBtn();
         });
-        examCheckboxes.appendChild(allBtn);
+        toolbar.appendChild(allBtn);
+        examCheckboxes.appendChild(toolbar);
 
+        const examsByYear = new Map();
         grade.exams.forEach(exam => {
-            const label = document.createElement('label');
-            label.className = 'exam-checkbox-label';
-            label.innerHTML = `<input type="checkbox" value="${exam.id}"><span>${exam.label}</span>`;
-            label.querySelector('input').addEventListener('change', updateGenerateBtn);
-            examCheckboxes.appendChild(label);
+            const match = exam.id.match(/^(\d{4})-([123])(?:-(.+))?$/);
+            if (!match) return;
+
+            const [, year, session, variant] = match;
+            if (!examsByYear.has(year)) {
+                examsByYear.set(year, { 1: [], 2: [], 3: [] });
+            }
+            examsByYear.get(year)[session].push({ exam, variant });
         });
+
+        const tableWrap = document.createElement('div');
+        tableWrap.className = 'exam-table-wrap';
+
+        const table = document.createElement('table');
+        table.className = 'exam-table';
+        table.innerHTML = `
+            <thead>
+                <tr>
+                    <th scope="col">年度</th>
+                    <th scope="col">第1回</th>
+                    <th scope="col">第2回</th>
+                    <th scope="col">第3回</th>
+                </tr>
+            </thead>
+        `;
+
+        const tbody = document.createElement('tbody');
+        [...examsByYear.entries()]
+            .sort(([yearA], [yearB]) => Number(yearB) - Number(yearA))
+            .forEach(([year, sessions]) => {
+                const row = document.createElement('tr');
+
+                const yearCell = document.createElement('th');
+                yearCell.scope = 'row';
+                yearCell.className = 'exam-year';
+                yearCell.innerHTML = `<strong>${year}</strong><span>年度</span>`;
+                row.appendChild(yearCell);
+
+                ['1', '2', '3'].forEach(session => {
+                    const cell = document.createElement('td');
+                    const sessionExams = sessions[session]
+                        .sort((a, b) => Number(Boolean(a.variant)) - Number(Boolean(b.variant)));
+
+                    if (sessionExams.length === 0) {
+                        cell.className = 'exam-unavailable';
+                        cell.textContent = '—';
+                    } else {
+                        sessionExams.forEach(({ exam, variant }) => {
+                            const label = document.createElement('label');
+                            label.className = 'exam-option';
+                            label.title = exam.label;
+
+                            const venueLabel = variant
+                                ? (exam.label.includes('土曜準会場') ? '土曜準会場' : '準会場')
+                                : '本会場';
+
+                            label.innerHTML = `
+                                <input type="checkbox" value="${exam.id}" aria-label="${exam.label}">
+                                <span>${venueLabel}</span>
+                            `;
+                            label.querySelector('input').addEventListener('change', () => {
+                                clearGeneratedPreview();
+                                updateGenerateBtn();
+                            });
+                            cell.appendChild(label);
+                        });
+                    }
+
+                    row.appendChild(cell);
+                });
+
+                tbody.appendChild(row);
+            });
+
+        table.appendChild(tbody);
+        tableWrap.appendChild(table);
+        examCheckboxes.appendChild(tableWrap);
+    }
+
+    function getFixedExam(examIds = getSelectedExams()) {
+        if (!selectedGrade || examIds.length !== 1) return null;
+        return FIXED_EXAM_PDFS[`${selectedGrade.id}/${examIds[0]}`] || null;
+    }
+
+    function clearGeneratedPreview() {
+        activeFixedExam = null;
+        printPreview.style.display = 'none';
+        printBtn.style.display = 'none';
+        printBtn.textContent = '🖨️ 印刷する';
+        previewLabel.textContent = 'プレビュー';
+    }
+
+    function setFixedExamMode(examPdf) {
+        const controlledGroups = [
+            sectionCheckboxes.closest('.setting-group'),
+            document.querySelector('.option-toggles')?.closest('.setting-group')
+        ].filter(Boolean);
+
+        controlledGroups.forEach(group => {
+            group.classList.toggle('fixed-mode-disabled', Boolean(examPdf));
+            group.setAttribute('aria-disabled', examPdf ? 'true' : 'false');
+            group.querySelectorAll('input').forEach(input => {
+                input.disabled = Boolean(examPdf);
+            });
+        });
+
+        if (!examPdf) {
+            fixedExamNotice.hidden = true;
+            fixedExamNotice.innerHTML = '';
+            return;
+        }
+
+        fixedExamNotice.hidden = false;
+        fixedExamNotice.innerHTML = `
+            <strong>固定レイアウトの過去問PDFを使用します</strong>
+            <span>${examPdf.label}の問題本文・設問・選択肢と、最終ページの正解一覧を収録したA4・${examPdf.pages}ページのPDFです。</span>
+        `;
     }
 
     // ===== Update Generate Button =====
     function updateGenerateBtn() {
         const checkedExams = getSelectedExams();
         const checkedSections = getSelectedSections();
-        generateBtn.disabled = !selectedGrade || checkedExams.length === 0 || checkedSections.length === 0;
+        const fixedExam = getFixedExam(checkedExams);
+        setFixedExamMode(fixedExam);
+        generateBtn.disabled = !selectedGrade
+            || checkedExams.length === 0
+            || (!fixedExam && checkedSections.length === 0);
+        if (generateBtn.dataset.loading !== 'true') {
+            generateBtn.textContent = fixedExam ? '過去問PDFを表示' : 'プリントを生成';
+        }
     }
 
     function getSelectedExams() {
@@ -277,7 +435,14 @@
 
     // Section checkbox change
     sectionCheckboxes.querySelectorAll('input').forEach(cb => {
-        cb.addEventListener('change', updateGenerateBtn);
+        cb.addEventListener('change', () => {
+            clearGeneratedPreview();
+            updateGenerateBtn();
+        });
+    });
+
+    document.querySelectorAll('.option-toggles input').forEach(cb => {
+        cb.addEventListener('change', clearGeneratedPreview);
     });
 
     // ===== Generate Print =====
@@ -289,11 +454,23 @@
         const showChoices = document.getElementById('optChoices').checked;
         const showPassage = document.getElementById('optPassage').checked;
         const showQR = document.getElementById('optQR').checked;
+        const fixedExam = getFixedExam(examIds);
 
-        generateBtn.textContent = '読み込み中...';
+        generateBtn.dataset.loading = 'true';
+        generateBtn.textContent = fixedExam ? '過去問PDFを準備中...' : '読み込み中...';
         generateBtn.disabled = true;
 
         try {
+            if (fixedExam) {
+                renderFixedExam(fixedExam);
+                delete generateBtn.dataset.loading;
+                updateGenerateBtn();
+                return;
+            }
+
+            activeFixedExam = null;
+            previewLabel.textContent = 'プレビュー';
+            printBtn.textContent = '🖨️ 印刷する';
             const examDataList = [];
             for (const examId of examIds) {
                 const url = `data/${selectedGrade.dataPath}/${examId}/data.json`;
@@ -315,17 +492,41 @@
 
             printPreview.style.display = '';
             printBtn.style.display = '';
-            generateBtn.textContent = 'プリントを生成';
-            generateBtn.disabled = false;
+            delete generateBtn.dataset.loading;
+            updateGenerateBtn();
             printPreview.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
         } catch (err) {
             console.error(err);
             alert('データの読み込みに失敗しました: ' + err.message);
-            generateBtn.textContent = 'プリントを生成';
-            generateBtn.disabled = false;
+            delete generateBtn.dataset.loading;
+            updateGenerateBtn();
         }
     });
+
+    function renderFixedExam(examPdf) {
+        activeFixedExam = examPdf;
+        printContent.innerHTML = `
+            <section class="fixed-exam-card">
+                <div class="fixed-exam-summary">
+                    <span class="fixed-exam-badge">ReadPass 過去問演習</span>
+                    <h2>${examPdf.label}</h2>
+                    <p>A4・${examPdf.pages}ページ／モノクロ印刷用／正解は最終ページ</p>
+                    <p class="fixed-exam-note">事前生成したPDFを使用するため、印刷する端末や回数によって問題の位置・改ページは変わりません。</p>
+                    <div class="fixed-exam-actions">
+                        <a href="${examPdf.path}" target="_blank" rel="noopener">PDFを開く</a>
+                        <a href="${examPdf.path}" download="${examPdf.downloadName}">PDFを保存</a>
+                    </div>
+                </div>
+                <iframe class="fixed-exam-frame" src="${examPdf.path}#view=FitH" title="${examPdf.label} 過去問PDF"></iframe>
+            </section>
+        `;
+        previewLabel.textContent = 'ReadPass 過去問PDF';
+        printPreview.style.display = '';
+        printBtn.textContent = '過去問PDFを開く（印刷）';
+        printBtn.style.display = '';
+        printPreview.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
 
     // ===== Create Print Sheet =====
     function createPrintSheet(data, examLabel, examId, sectionTypes, showChoices, showPassage, showQR) {
@@ -336,7 +537,7 @@
         const header = document.createElement('div');
         header.className = 'sheet-header';
         header.innerHTML = `
-            <div class="sheet-title">${selectedGrade.name} リーディング 宿題プリント</div>
+            <div class="sheet-title">${selectedGrade.name} リーディング 問題プリント</div>
             <div class="sheet-subtitle">${examLabel} 一次試験リーディング</div>
         `;
         sheet.appendChild(header);
@@ -624,6 +825,10 @@
 
     // ===== Print =====
     printBtn.addEventListener('click', () => {
+        if (activeFixedExam) {
+            window.open(activeFixedExam.path, '_blank', 'noopener');
+            return;
+        }
         window.print();
     });
 

@@ -1,5 +1,5 @@
 /* ============================================
-   ReadPass Pro — 宿題プリント CSS
+   ReadPass Pro — 過去問プリント CSS
    Settings UI (Dark Theme) + A4 Print Layout
    ============================================ */
 
@@ -119,24 +119,7 @@ body {
 
 /* ===== Exam Checkboxes ===== */
 .exam-checkboxes {
-    max-height: 200px;
-    overflow-y: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-}
-
-.exam-checkboxes::-webkit-scrollbar {
-    width: 6px;
-}
-
-.exam-checkboxes::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-.exam-checkboxes::-webkit-scrollbar-thumb {
-    background: #334155;
-    border-radius: 3px;
+    display: block;
 }
 
 .placeholder-text {
@@ -145,29 +128,132 @@ body {
     font-style: italic;
 }
 
-.exam-checkbox-label {
+.exam-toolbar {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    border-radius: 8px;
-    border: 1px solid rgba(100, 116, 139, 0.2);
-    background: rgba(15, 23, 42, 0.4);
-    cursor: pointer;
-    font-size: 13px;
-    color: #94a3b8;
-    transition: all 0.2s;
-    min-width: 140px;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 10px;
 }
 
-.exam-checkbox-label:hover {
-    border-color: rgba(100, 116, 139, 0.5);
+.exam-guide {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.exam-table-wrap {
+    overflow-x: auto;
+    border: 1px solid rgba(100, 116, 139, 0.28);
+    border-radius: 10px;
+}
+
+.exam-table {
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.exam-table th,
+.exam-table td {
+    border-right: 1px solid rgba(100, 116, 139, 0.2);
+    border-bottom: 1px solid rgba(100, 116, 139, 0.2);
+}
+
+.exam-table th:last-child,
+.exam-table td:last-child {
+    border-right: none;
+}
+
+.exam-table tbody tr:last-child th,
+.exam-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.exam-table thead th {
+    padding: 9px 8px;
+    background: rgba(15, 23, 42, 0.85);
+    color: #cbd5e1;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.exam-table thead th:first-child {
+    width: 92px;
+}
+
+.exam-year {
+    padding: 10px 8px;
+    background: rgba(15, 23, 42, 0.55);
+    color: #e2e8f0;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.exam-year strong {
+    display: block;
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.exam-year span {
+    display: block;
+    margin-top: 2px;
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.exam-table td {
+    padding: 6px;
+    background: rgba(15, 23, 42, 0.28);
+    vertical-align: middle;
+}
+
+.exam-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    min-height: 34px;
+    padding: 7px 8px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 12px;
+    transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+
+.exam-option + .exam-option {
+    margin-top: 4px;
+}
+
+.exam-option:hover {
+    border-color: rgba(96, 165, 250, 0.45);
+    background: rgba(96, 165, 250, 0.08);
     color: #e2e8f0;
 }
 
-.exam-checkbox-label input:checked+span {
-    color: #60a5fa;
+.exam-option:has(input:checked) {
+    border-color: rgba(96, 165, 250, 0.7);
+    background: rgba(59, 130, 246, 0.16);
+    color: #93c5fd;
     font-weight: 600;
+}
+
+.exam-option input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #3b82f6;
+    flex: 0 0 auto;
+}
+
+.exam-unavailable {
+    color: #475569;
+    font-size: 14px;
+    text-align: center;
 }
 
 .select-all-btn {
@@ -179,12 +265,47 @@ body {
     font-size: 12px;
     cursor: pointer;
     transition: all 0.2s;
-    min-width: 80px;
+    min-width: 92px;
+    white-space: nowrap;
 }
 
 .select-all-btn:hover {
     border-color: #60a5fa;
     background: rgba(96, 165, 250, 0.1);
+}
+
+.fixed-exam-notice {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 14px 16px;
+    border-left: 3px solid #94a3b8;
+    border-radius: 8px;
+    background: rgba(148, 163, 184, 0.1);
+    color: #cbd5e1;
+}
+
+.fixed-exam-notice[hidden] {
+    display: none;
+}
+
+.fixed-exam-notice strong {
+    font-size: 14px;
+}
+
+.fixed-exam-notice span {
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.setting-group.fixed-mode-disabled {
+    opacity: 0.46;
+}
+
+.setting-group.fixed-mode-disabled input,
+.setting-group.fixed-mode-disabled label {
+    cursor: not-allowed;
 }
 
 /* ===== Section Checkboxes ===== */
@@ -284,6 +405,82 @@ body {
     max-width: 780px;
     margin: 20px auto 60px;
     padding: 0 20px;
+}
+
+.fixed-exam-card {
+    overflow: hidden;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 12px;
+    background: #111827;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.fixed-exam-summary {
+    padding: 20px;
+}
+
+.fixed-exam-badge {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 9px;
+    border: 1px solid rgba(203, 213, 225, 0.35);
+    border-radius: 999px;
+    color: #cbd5e1;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+}
+
+.fixed-exam-summary h2 {
+    margin-bottom: 6px;
+    color: #f8fafc;
+    font-size: 19px;
+}
+
+.fixed-exam-summary p {
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+.fixed-exam-summary .fixed-exam-note {
+    margin-top: 8px;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+
+.fixed-exam-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.fixed-exam-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 112px;
+    padding: 9px 14px;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    border-radius: 8px;
+    background: rgba(148, 163, 184, 0.1);
+    color: #e2e8f0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.fixed-exam-actions a:hover {
+    border-color: #cbd5e1;
+    background: rgba(148, 163, 184, 0.18);
+}
+
+.fixed-exam-frame {
+    display: block;
+    width: 100%;
+    height: 760px;
+    border: 0;
+    border-top: 1px solid rgba(148, 163, 184, 0.28);
+    background: #fff;
 }
 
 .preview-label {
@@ -636,6 +833,10 @@ body {
     .print-sheet {
         padding: 20px 16px;
         font-size: 11px;
+    }
+
+    .fixed-exam-frame {
+        height: 520px;
     }
 
     .answer-grid {

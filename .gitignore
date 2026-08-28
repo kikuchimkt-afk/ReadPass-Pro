@@ -15,5 +15,10 @@ Thumbs.db
 desktop.ini
 
 # Temp
+tmp/
+__pycache__/
+output/pdf/*_Practice_Exam.pdf
+output/pdf/*_Practice_Exam_Large_Type.pdf
+output/pdf/*_Practice_Exam_Large_Type_v2.pdf
 *.tmp
 *.bak
