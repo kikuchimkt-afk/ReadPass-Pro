@@ -164,6 +164,24 @@
 
     const BASE_URL = 'https://read-pass-pro.vercel.app/';
     const FIXED_EXAM_PDFS = {
+        'grade-pre2/2025-1': {
+            label: '英検準2級 2025年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2025-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-pre2-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2025-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade-pre2/2025-2': {
+            label: '英検準2級 2025年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2025-2_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-pre2-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2025-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade-pre2/2025-3': {
+            label: '英検準2級 2025年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2025-3_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-pre2-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2025-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
         'grade3/2025-1': {
             label: '英検3級 2025年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_Grade3_2025-1_Practice_Exam_Large_Type_v3.pdf?v=20260828-eiken-blank-v3',
