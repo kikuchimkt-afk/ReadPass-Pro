@@ -290,6 +290,42 @@
             downloadName: 'ReadPass_EIKEN_GradePre2_2025-3_Practice_Exam_Large_Type_v1.pdf',
             pages: 10
         },
+        'grade3/2024-1': {
+            label: '英検3級 2024年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2024-2': {
+            label: '英検3級 2024年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-2_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2024-3': {
+            label: '英検3級 2024年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-3_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2024-1-sat': {
+            label: '英検3級 2024年度 第1回（準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-1-sat_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-1-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2024-2-sat': {
+            label: '英検3級 2024年度 第2回（準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-2-sat_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-2-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2024-3-sat': {
+            label: '英検3級 2024年度 第3回（準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2024-3-sat_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2024-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2024-3-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
         'grade3/2025-1': {
             label: '英検3級 2025年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_Grade3_2025-1_Practice_Exam_Large_Type_v3.pdf?v=20260828-eiken-blank-v3',

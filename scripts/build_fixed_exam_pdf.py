@@ -644,8 +644,63 @@ def draw_flyer(c: canvas.Canvas, passage: dict, x: float, top: float, width: flo
     c.drawCentredString(x + (width / 2), top - 36, clean_text(passage.get("title", "Volunteer Work")))
 
     paragraphs = passage.get("paragraphs", [])
+    title = clean_text(passage.get("title", ""))
+    schedule_content = list(paragraphs)
+    if schedule_content and clean_text(schedule_content[0]).lower() == title.lower():
+        schedule_content = schedule_content[1:]
+    if (
+        len(schedule_content) == 3
+        and all(len(str(item).splitlines()) >= 3 for item in schedule_content[:2])
+    ):
+        note_lines = len(wrap_text(schedule_content[2], SERIF, 8.8, width - 48))
+        note_height = max(42, 14 + (note_lines * 10.3))
+        panel_bottom = top - height
+        note_bottom = panel_bottom + 10
+        note_top = note_bottom + note_height
+        c.setFillColor(PALE)
+        c.rect(x + 14, note_bottom, width - 28, note_height, stroke=0, fill=1)
+        note_cursor = draw_wrapped(
+            c,
+            schedule_content[2],
+            x + 24,
+            note_top - 14,
+            width - 48,
+            font=SERIF,
+            size=8.8,
+            leading=10.3,
+        )
+        if note_cursor < note_bottom + 4:
+            raise RuntimeError("Schedule flyer note overflowed its fixed panel")
+
+        card_gap = 8
+        card_top = top - 65
+        card_bottom = note_top + 8
+        card_height = card_top - card_bottom
+        card_width = (width - 28 - card_gap) / 2
+        for index, paragraph in enumerate(schedule_content[:2]):
+            card_x = x + 14 + (index * (card_width + card_gap))
+            c.setStrokeColor(MID)
+            c.setLineWidth(0.45)
+            c.rect(card_x, card_bottom, card_width, card_height, stroke=1, fill=0)
+            lines = [clean_text(line) for line in str(paragraph).splitlines() if clean_text(line)]
+            c.setFillColor(INK)
+            c.setFont(SERIF_BOLD, 10)
+            c.drawString(card_x + 8, card_top - 15, lines[0])
+            card_cursor = draw_wrapped(
+                c,
+                "\n".join(lines[1:]),
+                card_x + 8,
+                card_top - 31,
+                card_width - 16,
+                font=SERIF,
+                size=8.5,
+                leading=10.1,
+            )
+            if card_cursor < card_bottom + 5:
+                raise RuntimeError("Schedule flyer card overflowed its fixed panel")
+        return
+
     if len(paragraphs) > 5:
-        title = clean_text(passage.get("title", ""))
         content = list(paragraphs)
         if content and clean_text(content[0]).lower() == title.lower():
             content = content[1:]
@@ -695,10 +750,12 @@ def draw_flyer(c: canvas.Canvas, passage: dict, x: float, top: float, width: flo
             lines = [clean_text(line) for line in str(paragraph).splitlines() if clean_text(line)]
             if not lines:
                 continue
-            c.setFillColor(INK)
-            c.setFont(SERIF_BOLD, 9.1)
-            c.drawString(card_x + 8, item_top - 14, lines[0])
-            if len(lines) > 1:
+            heading_width = pdfmetrics.stringWidth(lines[0], SERIF_BOLD, 9.1)
+            has_short_heading = len(lines) > 1 and heading_width <= card_width - 16
+            if has_short_heading:
+                c.setFillColor(INK)
+                c.setFont(SERIF_BOLD, 9.1)
+                c.drawString(card_x + 8, item_top - 14, lines[0])
                 body_cursor = draw_wrapped(
                     c,
                     " ".join(lines[1:]),
@@ -709,8 +766,19 @@ def draw_flyer(c: canvas.Canvas, passage: dict, x: float, top: float, width: flo
                     size=8.7,
                     leading=10.2,
                 )
-                if body_cursor < item_top - card_height + 5:
-                    raise RuntimeError("Expanded flyer card overflowed its fixed panel")
+            else:
+                body_cursor = draw_wrapped(
+                    c,
+                    "\n".join(lines),
+                    card_x + 8,
+                    item_top - 14,
+                    card_width - 16,
+                    font=SERIF,
+                    size=8.25,
+                    leading=9.6,
+                )
+            if body_cursor < item_top - card_height + 5:
+                raise RuntimeError("Expanded flyer card overflowed its fixed panel")
         return
 
     cursor = top - 70
