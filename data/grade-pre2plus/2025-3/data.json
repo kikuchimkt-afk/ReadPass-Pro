@@ -1036,7 +1036,7 @@
                     "answer": 3,
                     "choiceAnalysis": [
                         "❌ at the sight of＝～を見て",
-                        "❌ for a change of＝気分転換に",
+                        "❌ for a change of＝この形では不成立。for a changeなら『気分転換に』",
                         "✅ for the benefit of＝～のために。ボランティアの文脈に合致",
                         "❌ at the thought of＝～を考えると"
                     ],
@@ -1169,7 +1169,7 @@
                             "choiceAnalysis": [
                                 "❌ many local people are not interested in＝地元の人は興味がない。住民の関心の問題ではなく物理的条件の話",
                                 "❌ many animals will lose their homes by＝多くの動物が家を失う。動物への影響は述べていない",
-                                "✅ the conditions are not suitable for＝条件が〜に適していない。💡 直後に「土が柔らかすぎる」「水の流れが速すぎる」と具体例が続き、橋を建設する条件が適さないことを示す",
+                                "✅ the conditions are not suitable for＝条件が〜に適していない。💡 直後に『土が柔らかすぎる』『水位と川幅が一年を通じて大きく変わる』と具体例が続き、橋を建設する条件が適さないことを示す",
                                 "❌ the beautiful scenery will be destroyed by＝美しい景色が壊される。景観破壊は述べていない"
                             ],
                             "sourceEvidence": [
@@ -1287,7 +1287,7 @@
                                 "❌ On the other hand＝一方で。対比ではなく時間的順序の流れ",
                                 "❌ In particular＝特に。具体例を示す場面ではない",
                                 "❌ If not＝そうでなければ。条件分岐の文脈ではない",
-                                "✅ Eventually＝最終的に。💡 気球が上昇→気圧低下→破裂、という一連の流れの結末として「最終的に」パラシュートで降下する文脈に最適"
+                                "✅ Eventually＝最終的に。💡 気球が上昇して大きくなり、破裂するまでの流れの終点を示す。パラシュート降下は次のThenで始まる別の段階"
                             ],
                             "sourceEvidence": [
                                 "it expands little by little",
@@ -1420,10 +1420,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "先生からの推薦を受けた→推薦は述べていない",
-                                "昨年も参加した経験がある→昨年の参加は述べていない",
-                                "英語の成績が優秀だった→正解。💡 excellent English grades=英語の成績優秀。選考理由に関する設問は本文中の具体的評価基準に着目",
-                                "友人が推薦した→友人の推薦は述べていない"
+                                "テニスを教える夢をかなえた方法→教える夢ではなく、プロ選手としての経験を話す",
+                                "プロ写真家になった方法→写真はイベント当日に撮る予定で、講演の主題ではない",
+                                "プロ選手としてどのように暮らしたか→正解。💡 your life as a professional athleteと同じ内容",
+                                "高校時代の過ごし方→主催者が追加で話してほしい内容で、Heidiが最初に伝えた主題ではない"
                             ],
                             "sourceEvidence": [
                                 "you were thinking of talking about your life as a professional athlete"
@@ -1447,10 +1447,10 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "来週月曜日→日付の特定は本文と照合が必要",
-                                "来週水曜日→正解。💡 日程に関する問いは、メール本文中の具体的な日付・曜日表現を丁寧に追跡する",
-                                "来週金曜日→金曜日は述べていない",
-                                "再来週月曜日→再来週は述べていない"
+                                "イベント前に校内を見る→校内見学は講演の後に予定されている",
+                                "イベントで生徒と写真を撮る→正解。💡 take pictures of you with studentsと同じ内容",
+                                "地元新聞社の面接を受ける→学校新聞チームが記事に関心を示しているだけで、地元新聞社の面接ではない",
+                                "高校生とテニスで対戦する→visit and meet the tennis teamであり、対戦するとは述べていない"
                             ],
                             "sourceEvidence": [
                                 "we would also like to take pictures of you with students"
@@ -1520,7 +1520,7 @@
                             "choiceAnalysis": [
                                 "❌ It is a project that will build a wall＝壁を建設するプロジェクト。「It is not about building an actual wall」と明記",
                                 "❌ It is a project that has a negative impact on the environment＝環境に悪影響。環境問題の解決が目的",
-                                "✅ It is a project that can change the condition of the soil＝土壌の状態を変えるプロジェクト。💡 「help improve the condition of the soil」と本文に明記。植樹による土壌改善が主な目的",
+                                "✅ It is a project that can change the condition of the soil＝土壌の状態を変えるプロジェクト。💡 本文のThis will help make the soil betterを言い換えている",
                                 "❌ It is a project that brings all African countries together＝全アフリカの国が参加。「several African countries」であり全ての国ではない"
                             ],
                             "sourceEvidence": [
@@ -1545,10 +1545,10 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "教師の数が不足している→正解。💡 shortage of teachers=教師不足。段落の因果関係を追う：教師不足→教育の質低下→プロジェクト開始",
-                                "学校の建物が古い→建物は述べていない",
-                                "教科書が足りない→教科書は述べていない",
-                                "生徒の出席率が低い→出席率は述べていない"
+                                "自然現象と人間の活動の両方が環境を壊した→正解。💡 climate and weatherの変化と、人間による繰り返しの農業・放牧の両方が原因",
+                                "科学者が研究のため植物を取り除いた→科学者は植物を戻そうとしている側で、取り除いたとは述べていない",
+                                "人々が農業をやめたので土地が乾いた→農業をやめたのではなく、同じ土地で農業を繰り返したことが損傷原因",
+                                "長年だれも住まなかったので土地が壊れた→現在も何億人もの人がこの地域で暮らしており、無人だったとは述べていない"
                             ],
                             "sourceEvidence": [
                                 "because of climate change and terrible weather events",
@@ -1603,7 +1603,7 @@
                                 "❌ Hiring only experts to take care of the trees＝専門家のみを雇用。地元住民が木を世話すると述べている",
                                 "❌ Getting support for money from non-African countries＝アフリカ外からの資金援助。外部資金は述べていない",
                                 "❌ Bringing resources from outside the African continent＝外部からの資源。外部資源は述べていない",
-                                "✅ Increasing the number of jobs for the local people＝地元住民の雇用を増やす。💡 「creating jobs during the process」「people will continue to live in the area」と明記。雇用創出がプロジェクト成功の鍵"
+                                "✅ Increasing the number of jobs for the local people＝地元住民の雇用を増やす。💡 creating jobs during the processとlocal people can earn more moneyが根拠"
                             ],
                             "sourceEvidence": [
                                 "Another point is creating jobs during the process"
@@ -1627,10 +1627,10 @@
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "プロジェクトは失敗した→失敗とは述べていない",
-                                "他の国にも展開予定→正解。💡 expand to other countries=他国展開。最終段落の結論部分から将来の展望を読み取る",
-                                "政府が中止を決定した→中止は述べていない",
-                                "新たな問題が発生した→新問題は述べていない"
+                                "Ethiopiaなど一部の国は計画に反対している→Ethiopiaは成功例として挙げられており、反対とは述べていない",
+                                "植えた後も木をよく世話することを含む→正解。💡 providing good careとAfter trees are planted, local people have to take care of themが根拠",
+                                "計画は最終的に成功しないかもしれないと考えられている→課題はあるがpositive effectsも述べられており、失敗するとの見方は示されていない",
+                                "現在、計画を支持する人はほとんどいない→支持者がほぼいないという記述はない"
                             ],
                             "sourceEvidence": [
                                 "One of them is providing good care for trees",
