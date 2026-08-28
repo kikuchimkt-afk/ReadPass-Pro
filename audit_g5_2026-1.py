@@ -110,6 +110,10 @@ for sec_name in ("大問1", "大問2"):
                     "choiceAnalysis", "choiceAnalysisSimple", "questionAudio"):
             if not q.get(key):
                 issues.append(f"[解説] Q{n}: missing {key}")
+        if re.search(r"[（(][\s　]*[）)]", q.get("text", "")) and not re.search(
+            r"[（(][\s　]*[）)]", q.get("translation", "")
+        ):
+            issues.append(f"[和訳] Q{n}: 英文の空所が和訳に残っていません")
         ca = q.get("choiceAnalysis", [])
         if len(ca) != 4:
             issues.append(f"[解説] Q{n}: choiceAnalysis数={len(ca)}")
@@ -136,7 +140,7 @@ EXPECTED_SENTENCES = {
 }
 for q in sec3["questions"]:
     n = q["number"]
-    for key in ("grammar", "grammarSimple", "choiceAnalysis", "choiceAnalysisSimple",
+    for key in ("grammar", "grammarSimple", "translation", "choiceAnalysis", "choiceAnalysisSimple",
                 "words", "correctOrder", "answerSlots", "questionAudio"):
         if key not in q:
             issues.append(f"[解説] Q{n}: missing {key}")
@@ -155,6 +159,10 @@ for q in sec3["questions"]:
         actual = norm_choice(q["choices"][q["answer"] - 1])
         if actual != expected_label:
             issues.append(f"[並べ替え] Q{n}: {q['choices'][q['answer'] - 1]} != {expected_label}")
+    required_labels = [f"{slot}番目" for slot in slots]
+    for i, ca in enumerate(q.get("choiceAnalysis", [])):
+        if not all(label in ca for label in required_labels):
+            issues.append(f"[並べ替え] Q{n} 選択肢{i+1}: 空所位置の説明不足")
     built = build_sentence(q)
     exp_sent = EXPECTED_SENTENCES.get(n, "")
     if built != exp_sent:
@@ -231,8 +239,10 @@ for fp in fps:
         issues.append(f"[FP] {fid}: explanationSimple欠落")
     pp = fp.get("practicePassage", {})
     pp_text = pp.get("en", "")
-    if "[出典:" not in pp_text:
-        issues.append(f"[FP] {fid}: practicePassageに[出典:]なし")
+    if not pp.get("source", "").strip():
+        issues.append(f"[FP] {fid}: practicePassage.sourceなし")
+    if "[出典:" in pp_text:
+        issues.append(f"[FP] {fid}: 本文とsourceで出典が重複")
     search = corpus_all + " " + pp_text
     for pat in fp.get("highlightPatterns", []):
         if pat not in search:

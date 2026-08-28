@@ -54,19 +54,19 @@
                         "farmer"
                     ],
                     "answer": 1,
-                    "grammar": "a doctor＝「医者」。病院で月曜から金曜まで働く＝医者の仕事。",
-                    "grammarSimple": "doctor は「いしゃ」。びょういんではたらくから、doctor だよ！",
+                    "grammar": "後続の She works at the hospital from Monday to Friday. は、職業を考える手がかりです。病院で働く人にはさまざまな職業がありますが、この選択肢の中では doctor（医者）が最も自然です。",
+                    "grammarSimple": "びょういんではいろいろなひとがはたらくけれど、4つのなかでは doctor（いしゃ）がいちばんしぜんだよ！",
                     "choiceAnalysis": [
-                        "○ doctor＝医者。works at the hospital とつながる。",
-                        "player＝選手。病院で働く話には合わない。",
-                        "king＝王。病院の職業として不自然。",
-                        "farmer＝農夫。病院では働かない。"
+                        "○ doctor＝医者。この選択肢の中では works at the hospital と最も自然につながる。",
+                        "player＝選手。通常、病院での仕事を表す職業名ではない。",
+                        "king＝王。病院での仕事を表す選択肢としては不自然。",
+                        "farmer＝農家。通常は農場で働く職業なので、この文脈には合わない。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○ doctor がぴったり！「いしゃ」！",
-                        "player は「せんしゅ」。びょういんじゃないよ。",
-                        "king は「おうさま」。合わないよ。",
-                        "farmer は「のうふ」。合わないよ。"
+                        "○ 4つのなかでは doctor（いしゃ）がいちばんしぜん！",
+                        "player は「せんしゅ」。びょういんのしごとをあらわすことばではないよ。",
+                        "king は「おう」。びょういんのしごとの話には合わないよ。",
+                        "farmer は「のうか」。ふつうはのうじょうではたらくよ。"
                     ],
                     "questionAudio": "audio/q2.mp3",
                     "translation": "ダンのお母さんは（　）です。月曜から金曜まで病院で働いています。",
@@ -135,7 +135,7 @@
                         "fast は「はやい」。合わないよ。"
                     ],
                     "questionAudio": "audio/q4.mp3",
-                    "translation": "A: お姉さんのドレス、とても（　）ね。\nB: うん。とても気に入ってるよ。",
+                    "translation": "A: あなたのお姉さんか妹さんのドレス、とても（　）ね。\nB: うん。本人もとても気に入っているよ。",
                     "choiceTranslations": [
                         "雨の",
                         "かわいい",
@@ -168,7 +168,7 @@
                         "candy は「キャンディ」。合わないよ。"
                     ],
                     "questionAudio": "audio/q5.mp3",
-                    "translation": "A: 夏休みはいつ始まるの？\nB: 7月20日だよ。",
+                    "translation": "A: 夏の（　）はいつ始まるの？\nB: 7月20日だよ。",
                     "choiceTranslations": [
                         "新聞",
                         "歌",
@@ -220,15 +220,15 @@
                     ],
                     "answer": 2,
                     "grammar": "usually ... but tonight a different TV show＝「いつもはニュースだが、今夜は違う番組」。対比の different。",
-                    "grammarSimple": "different は「ちがう」。いつもはニュースだけど、きょうはちがう番組だよ。",
+                    "grammarSimple": "different は「ちがう」。いつもはニュースだけど、こんやはちがう番組だよ。",
                     "choiceAnalysis": [
-                        "same＝同じ。but で対比するなら different の方が自然。",
+                        "same＝同じ。same の前はふつう the を使うため、a same TV show とは言わない。また、but がいつもと今夜の対比を示している。",
                         "○ different＝違う。いつもと違う番組を見ている。",
                         "high＝高い。TV show の種類を表さない。",
                         "young＝若い。番組の内容を表さない。"
                     ],
                     "choiceAnalysisSimple": [
-                        "same は「おなじ」。でも but だからちがうほうがいいよ。",
+                        "same は「おなじ」だけど、a same とは言わず、ふつう the same と言うよ。but のあとの今夜は different がぴったり！",
                         "○ different がぴったり！「ちがう番組」！",
                         "high は「たかい」。合わないよ。",
                         "young は「わかい」。合わないよ。"
@@ -267,7 +267,7 @@
                         "out は「そとへ」。合わないよ。"
                     ],
                     "questionAudio": "audio/q8.mp3",
-                    "translation": "A: 今日の午後3時に、うちに来られる？\nB: ごめん、行けないんだ。",
+                    "translation": "A: 今日の午後3時に、私の家（　）来られる？\nB: ごめん、行けないんだ。",
                     "choiceTranslations": [
                         "〜の",
                         "〜のために",
@@ -366,12 +366,12 @@
                         "sad は「かなしい」。合わないよ。"
                     ],
                     "questionAudio": "audio/q11.mp3",
-                    "translation": "A: あの人形、とてもきれいね。いくら（　）？\nB: たった5ドルだよ。",
+                    "translation": "A: あの人形、とてもすてきね。（　）ですか？\nB: たった5ドルだよ。",
                     "choiceTranslations": [
-                        "短い；背が低い",
-                        "若い",
+                        "どれくらい短い；どれくらい背が低い",
+                        "どれくらい若い",
                         "いくら（How much）",
-                        "悲しい"
+                        "どれくらい悲しい"
                     ]
                 },
                 {
@@ -401,7 +401,7 @@
                     "questionAudio": "audio/q12.mp3",
                     "translation": "A: ジェニーは新しい生徒です。フランス（　）です。\nB: すごいね。フランスが大好きなんだ。",
                     "choiceTranslations": [
-                        "〜出身",
+                        "〜から（be from で「〜出身」）",
                         "〜の中に",
                         "〜の",
                         "〜で（場所）"
@@ -420,24 +420,24 @@
                     "grammar": "Me, too.＝「私も（そうです）」。好き、という意見に同意する口語表現。",
                     "grammarSimple": "Me, too. は「わたしも！」。えいががすき、に「わたしも！」だよ。",
                     "choiceAnalysis": [
-                        "He, too.→「彼も」になり、自分の意見にならない。",
-                        "Them, too.→「彼らも」では文脈に合わない。",
-                        "○ Me, too.＝私も（そう思う・好き）。",
-                        "We, too.→「私たちも」では会話の流れに合わない。"
+                        "He, too. は「彼も」の意味になり、話し手自身の同意を表さない。",
+                        "them は「彼らを・彼らに」という目的格で、「私も」という返答にはならない。",
+                        "○ Me, too.＝「私も」。話し手自身が同じ意見だと伝える決まり文句。",
+                        "We, too. は「私たちも」の意味になり、一人の話し手が同意するこの会話には合わない。"
                     ],
                     "choiceAnalysisSimple": [
-                        "He は「かれ」。わたしじゃないよ。",
-                        "Them は「かれら」。合わないよ。",
-                        "○ Me がぴったり！「わたしも」！",
-                        "We は「わたしたち」。ここでは Me だよ。"
+                        "He は「かれは」。はなしている人の「わたし」じゃないよ。",
+                        "Them は「かれらを・かれらに」。ここでは使わないよ。",
+                        "○ Me, too. で「わたしも」！",
+                        "We は「わたしたちは」。一人でこたえるここでは Me だよ。"
                     ],
                     "questionAudio": "audio/q13.mp3",
-                    "translation": "A: この映画、好きだな。\nB: 私（　）。",
+                    "translation": "A: この映画、好きだな。\nB: （　）も。",
                     "choiceTranslations": [
-                        "彼",
-                        "彼ら",
-                        "私（Me, too.）",
-                        "私たち"
+                        "彼は",
+                        "彼らを・彼らに",
+                        "私を・私に（Me, too. で「私も」）",
+                        "私たちは"
                     ]
                 },
                 {
@@ -467,10 +467,10 @@
                     "questionAudio": "audio/q14.mp3",
                     "translation": "A: アリス、静かに（　）！\nB: ごめんね、お父さん。",
                     "choiceTranslations": [
-                        "〜である（am）",
-                        "〜である（are）",
-                        "〜でありなさい（be）",
-                        "〜である（is）"
+                        "am（I に続く be 動詞）",
+                        "are（you などに続く be 動詞）",
+                        "be（be 動詞の原形）",
+                        "is（he・she などに続く be 動詞）"
                     ]
                 },
                 {
@@ -498,7 +498,7 @@
                         "How は「どう」。合わないよ。"
                     ],
                     "questionAudio": "audio/q15.mp3",
-                    "translation": "A: これは誰の電話（　）？\nB: ビルのだよ。",
+                    "translation": "A: これは（　）電話？\nB: ビルのだよ。",
                     "choiceTranslations": [
                         "いつ",
                         "どこ",
@@ -715,19 +715,19 @@
                         1,
                         3
                     ],
-                    "grammar": "【主語＋三人称単数】完成文は「My sister washes the dishes every day.」。主語 my sister のあとに動詞 washes（三人称単数）。1番目 my、3番目 washes。",
-                    "grammarSimple": "できあがりは「My sister washes the dishes every day.」。おねえちゃんがおさらをあらう、だよ。1ばんめ my、3ばんめ washes！",
+                    "grammar": "日本語は「私の姉は毎日お皿を洗います。」。正しい英語は「My sister washes the dishes every day.」です。my sister（私の姉）を主語にし、三人称単数の動詞 washes、目的語 the dishes の順に並べます。①〜④を正しい順にすると②④③①（my → sister → washes → the dishes）です。空所は1番目と3番目なので、1番目＝②「my」、3番目＝③「washes」。よって答えは② ─ ③です。",
+                    "grammarSimple": "いみは「私の姉は毎日お皿を洗います。」。ただしい えいごは「My sister washes the dishes every day.」だよ。1ばんめは②「my」、3ばんめは③「washes」。だから こたえは② ─ ③！",
                     "choiceAnalysis": [
-                        "「③─②」＝washes と my。文頭が washes になり「洗う 私の…」となり、主語が後ろに回って不自然。",
-                        "「④─③」＝sister と washes。my が抜けて「姉は洗う…」だけでは「私の姉」の意味にならない。",
-                        "「①─④」＝the dishes と sister。文頭が「お皿」になり、主語・動詞の語順が成立しない。",
-                        "○「②─③」＝my と washes。my sister washes the dishes every day. で「私の姉は毎日お皿を洗う」。"
+                        "③ ─ ②：1番目が③「washes」、3番目が②「my」になり、正しい語順「My sister washes the dishes every day.」になりません。正しくは1番目＝②「my」、3番目＝③「washes」です。",
+                        "④ ─ ③：1番目が④「sister」、3番目が③「washes」になり、正しい語順「My sister washes the dishes every day.」になりません。正しくは1番目＝②「my」、3番目＝③「washes」です。",
+                        "① ─ ④：1番目が①「the dishes」、3番目が④「sister」になり、正しい語順「My sister washes the dishes every day.」になりません。正しくは1番目＝②「my」、3番目＝③「washes」です。",
+                        "○ ② ─ ③：1番目＝②「my」、3番目＝③「washes」。完成文「My sister washes the dishes every day.」の語順と一致します。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「washes」からはじまるとへんな文になるよ。",
-                        "「my」がないと「わたしの」にならないよ。",
-                        "「おさら」からはじまると文にならないよ。",
-                        "○「my」と「washes」でぴったり！My sister washes...！"
+                        "③ ─ ②：1ばんめ③「washes」と3ばんめ②「my」だと ならびがちがうよ。ただしくは②「my」と③「washes」だね。",
+                        "④ ─ ③：1ばんめ④「sister」と3ばんめ③「washes」だと ならびがちがうよ。ただしくは②「my」と③「washes」だね。",
+                        "① ─ ④：1ばんめ①「the dishes」と3ばんめ④「sister」だと ならびがちがうよ。ただしくは②「my」と③「washes」だね。",
+                        "○ ② ─ ③：1ばんめ②「my」、3ばんめ③「washes」でピッタリ！"
                     ],
                     "questionAudio": "audio/q21.mp3",
                     "translation": "私の姉は毎日お皿を洗います。"
@@ -760,19 +760,19 @@
                         1,
                         3
                     ],
-                    "grammar": "【and でつなぐ主語】Bill のあとに and I で「ビルと私」。動詞は go、go skiing＝「スキーに行く」がセット。1番目 and、3番目 go。",
-                    "grammarSimple": "できあがりは「Bill and I go skiing in winter.」。ビルとわたしがふゆにスキーにいく、だよ。1ばんめ and、3ばんめ go！",
+                    "grammar": "日本語は「ビルと私は冬にスキーに行きます。」。正しい英語は「Bill and I go skiing in winter.」です。Bill のあとを and I と続けて主語を作り、go skiing（スキーに行く）を続けます。①〜④を正しい順にすると③④②①（and → I → go → skiing）です。空所は1番目と3番目なので、1番目＝③「and」、3番目＝②「go」。よって答えは③ ─ ②です。",
+                    "grammarSimple": "いみは「ビルと私は冬にスキーに行きます。」。ただしい えいごは「Bill and I go skiing in winter.」だよ。1ばんめは③「and」、3ばんめは②「go」。だから こたえは③ ─ ②！",
                     "choiceAnalysis": [
-                        "「②─③」＝go と and。Bill go and ... となり、主語 and I が続かない。",
-                        "「④─③」＝I と and。Bill I and ... となり、and でつなぐ形にならない。",
-                        "「①─④」＝skiing と I。Bill skiing ... から始まり、go skiing の動詞 go が抜ける。",
-                        "○「③─②」＝and と go。Bill and I go skiing in winter. で自然な文。"
+                        "② ─ ③：1番目が②「go」、3番目が③「and」になり、正しい語順「Bill and I go skiing in winter.」になりません。正しくは1番目＝③「and」、3番目＝②「go」です。",
+                        "④ ─ ③：1番目が④「I」、3番目が③「and」になり、正しい語順「Bill and I go skiing in winter.」になりません。正しくは1番目＝③「and」、3番目＝②「go」です。",
+                        "① ─ ④：1番目が①「skiing」、3番目が④「I」になり、正しい語順「Bill and I go skiing in winter.」になりません。正しくは1番目＝③「and」、3番目＝②「go」です。",
+                        "○ ③ ─ ②：1番目＝③「and」、3番目＝②「go」。完成文「Bill and I go skiing in winter.」の語順と一致します。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「go」が1ばんめだと「Bill go...」になってへんよ。",
-                        "「I」がつぎに来ると「Bill I...」になってへんよ。",
-                        "「skiing」からはじまると go がたりないよ。",
-                        "○「and」と「go」でぴったり！Bill and I go skiing！"
+                        "② ─ ③：1ばんめ②「go」と3ばんめ③「and」だと ならびがちがうよ。ただしくは③「and」と②「go」だね。",
+                        "④ ─ ③：1ばんめ④「I」と3ばんめ③「and」だと ならびがちがうよ。ただしくは③「and」と②「go」だね。",
+                        "① ─ ④：1ばんめ①「skiing」と3ばんめ④「I」だと ならびがちがうよ。ただしくは③「and」と②「go」だね。",
+                        "○ ③ ─ ②：1ばんめ③「and」、3ばんめ②「go」でピッタリ！"
                     ],
                     "questionAudio": "audio/q22.mp3",
                     "translation": "ビルと私は冬にスキーに行きます。"
@@ -805,19 +805,19 @@
                         1,
                         3
                     ],
-                    "grammar": "【命令文】文頭は動詞 take。「take ～ to ～」＝「～を～に持っていきなさい」。1番目 take、3番目 to。",
-                    "grammarSimple": "できあがりは「Take your umbrella to school.」。がっこうにかさをもっていきなさい、だよ。1ばんめ take、3ばんめ to！",
+                    "grammar": "日本語は「学校にかさを持って行きなさい。」。正しい英語は「Take your umbrella to school.」です。命令文なので動詞 take で始め、take ～ to ～（～を～へ持って行く）の順に並べます。①〜④を正しい順にすると①④③②（take → your umbrella → to → school）です。空所は1番目と3番目なので、1番目＝①「take」、3番目＝③「to」。よって答えは① ─ ③です。",
+                    "grammarSimple": "いみは「学校にかさを持って行きなさい。」。ただしい えいごは「Take your umbrella to school.」だよ。1ばんめは①「take」、3ばんめは③「to」。だから こたえは① ─ ③！",
                     "choiceAnalysis": [
-                        "「④─③」＝your umbrella と to。文頭が名詞になり、命令文の動詞 take が先頭に来ない。",
-                        "「②─④」＝school と your umbrella。school your umbrella ... となり、命令の形にならない。",
-                        "○「①─③」＝take と to。Take your umbrella to school. で「学校にかさを持っていきなさい」。",
-                        "「②─①」＝school と take。school take ... となり、to school の形にならない。"
+                        "④ ─ ③：1番目が④「your umbrella」、3番目が③「to」になり、正しい語順「Take your umbrella to school.」になりません。正しくは1番目＝①「take」、3番目＝③「to」です。",
+                        "② ─ ④：1番目が②「school」、3番目が④「your umbrella」になり、正しい語順「Take your umbrella to school.」になりません。正しくは1番目＝①「take」、3番目＝③「to」です。",
+                        "○ ① ─ ③：1番目＝①「take」、3番目＝③「to」。完成文「Take your umbrella to school.」の語順と一致します。",
+                        "② ─ ①：1番目が②「school」、3番目が①「take」になり、正しい語順「Take your umbrella to school.」になりません。正しくは1番目＝①「take」、3番目＝③「to」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「かさ」からはじまるとめいれいぶんじゃないよ。",
-                        "「school」からはじまると文にならないよ。",
-                        "○「take」と「to」でぴったり！Take ... to school.！",
-                        "「school take」はへんなじゅんばんだよ。"
+                        "④ ─ ③：1ばんめ④「your umbrella」と3ばんめ③「to」だと ならびがちがうよ。ただしくは①「take」と③「to」だね。",
+                        "② ─ ④：1ばんめ②「school」と3ばんめ④「your umbrella」だと ならびがちがうよ。ただしくは①「take」と③「to」だね。",
+                        "○ ① ─ ③：1ばんめ①「take」、3ばんめ③「to」でピッタリ！",
+                        "② ─ ①：1ばんめ②「school」と3ばんめ①「take」だと ならびがちがうよ。ただしくは①「take」と③「to」だね。"
                     ],
                     "questionAudio": "audio/q23.mp3",
                     "translation": "学校にかさを持って行きなさい。"
@@ -850,19 +850,19 @@
                         1,
                         3
                     ],
-                    "grammar": "【三単現 has】Mike's soccer team が主語。has three coaches＝「3人のコーチがいる」。1番目 soccer team、3番目 three。",
-                    "grammarSimple": "できあがりは「Mike's soccer team has three coaches.」。マイクのチームにコーチが3にんいる、だよ。1ばんめ soccer team、3ばんめ three！",
+                    "grammar": "日本語は「マイクのサッカーチームには3人のコーチがいます。」。正しい英語は「Mike's soccer team has three coaches.」です。Mike's のあとに soccer team を置いて主語を作り、三人称単数の動詞 has、three coaches の順に並べます。①〜④を正しい順にすると②④③①（soccer team → has → three → coaches）です。空所は1番目と3番目なので、1番目＝②「soccer team」、3番目＝③「three」。よって答えは② ─ ③です。",
+                    "grammarSimple": "いみは「マイクのサッカーチームには3人のコーチがいます。」。ただしい えいごは「Mike's soccer team has three coaches.」だよ。1ばんめは②「soccer team」、3ばんめは③「three」。だから こたえは② ─ ③！",
                     "choiceAnalysis": [
-                        "「①─②」＝coaches と soccer team。Mike's coaches soccer team ... となり、主語と動詞の形が合わない。",
-                        "「④─②」＝has と soccer team。Mike's has soccer team ... となり、主語が抜ける。",
-                        "○「②─③」＝soccer team と three。Mike's soccer team has three coaches. で文が完成。",
-                        "「③─④」＝three と has。Mike's three has coaches ... となり、語順が逆になる。"
+                        "① ─ ②：1番目が①「coaches」、3番目が②「soccer team」になり、正しい語順「Mike's soccer team has three coaches.」になりません。正しくは1番目＝②「soccer team」、3番目＝③「three」です。",
+                        "④ ─ ②：1番目が④「has」、3番目が②「soccer team」になり、正しい語順「Mike's soccer team has three coaches.」になりません。正しくは1番目＝②「soccer team」、3番目＝③「three」です。",
+                        "○ ② ─ ③：1番目＝②「soccer team」、3番目＝③「three」。完成文「Mike's soccer team has three coaches.」の語順と一致します。",
+                        "③ ─ ④：1番目が③「three」、3番目が④「has」になり、正しい語順「Mike's soccer team has three coaches.」になりません。正しくは1番目＝②「soccer team」、3番目＝③「three」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「coaches」からはじまると文にならないよ。",
-                        "「has」がすぐ来ると「Mike's has...」でへんよ。",
-                        "○「soccer team」と「three」でぴったり！has three coaches！",
-                        "「three has」はじゅんばんがちがうよ。"
+                        "① ─ ②：1ばんめ①「coaches」と3ばんめ②「soccer team」だと ならびがちがうよ。ただしくは②「soccer team」と③「three」だね。",
+                        "④ ─ ②：1ばんめ④「has」と3ばんめ②「soccer team」だと ならびがちがうよ。ただしくは②「soccer team」と③「three」だね。",
+                        "○ ② ─ ③：1ばんめ②「soccer team」、3ばんめ③「three」でピッタリ！",
+                        "③ ─ ④：1ばんめ③「three」と3ばんめ④「has」だと ならびがちがうよ。ただしくは②「soccer team」と③「three」だね。"
                     ],
                     "questionAudio": "audio/q24.mp3",
                     "translation": "マイクのサッカーチームには3人のコーチがいます。"
@@ -895,19 +895,19 @@
                         1,
                         3
                     ],
-                    "grammar": "【否定文 don't have】主語 we のあとに don't have school＝「学校がない」。have school＝「授業がある」の否定。1番目 we、3番目 have。",
-                    "grammarSimple": "できあがりは「We don't have school today.」。きょうはがっこうがない、だよ。1ばんめ we、3ばんめ have！",
+                    "grammar": "日本語は「今日は学校がありません。」。正しい英語は「We don't have school today.」です。主語 we のあとに don't have を置き、have school（授業がある）を否定する形にします。①〜④を正しい順にすると③①④②（we → don't → have → school）です。空所は1番目と3番目なので、1番目＝③「we」、3番目＝④「have」。よって答えは③ ─ ④です。",
+                    "grammarSimple": "いみは「今日は学校がありません。」。ただしい えいごは「We don't have school today.」だよ。1ばんめは③「we」、3ばんめは④「have」。だから こたえは③ ─ ④！",
                     "choiceAnalysis": [
-                        "「④─②」＝have と school。have ?? school ?? となり、主語 we と否定 don't が抜ける。",
-                        "「①─②」＝don't と school。don't ?? school ?? となり、主語 we が先頭に来ない。",
-                        "「②─①」＝school と don't。school don't ... となり、We don't have の形にならない。",
-                        "○「③─④」＝we と have。We don't have school today. で「今日は学校がない」。"
+                        "④ ─ ②：1番目が④「have」、3番目が②「school」になり、正しい語順「We don't have school today.」になりません。正しくは1番目＝③「we」、3番目＝④「have」です。",
+                        "① ─ ②：1番目が①「don't」、3番目が②「school」になり、正しい語順「We don't have school today.」になりません。正しくは1番目＝③「we」、3番目＝④「have」です。",
+                        "② ─ ①：1番目が②「school」、3番目が①「don't」になり、正しい語順「We don't have school today.」になりません。正しくは1番目＝③「we」、3番目＝④「have」です。",
+                        "○ ③ ─ ④：1番目＝③「we」、3番目＝④「have」。完成文「We don't have school today.」の語順と一致します。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「have」からはじまるとだれが？がわからないよ。",
-                        "「don't」からはじまると「だれが？」がたりないよ。",
-                        "「school don't」はへんな文だよ。",
-                        "○「we」と「have」でぴったり！We don't have school today.！"
+                        "④ ─ ②：1ばんめ④「have」と3ばんめ②「school」だと ならびがちがうよ。ただしくは③「we」と④「have」だね。",
+                        "① ─ ②：1ばんめ①「don't」と3ばんめ②「school」だと ならびがちがうよ。ただしくは③「we」と④「have」だね。",
+                        "② ─ ①：1ばんめ②「school」と3ばんめ①「don't」だと ならびがちがうよ。ただしくは③「we」と④「have」だね。",
+                        "○ ③ ─ ④：1ばんめ③「we」、3ばんめ④「have」でピッタリ！"
                     ],
                     "questionAudio": "audio/q25.mp3",
                     "translation": "今日は学校がありません。"
@@ -1091,12 +1091,12 @@
         },
         {
             "word": "much",
-            "meaning": "いくら（How much）",
-            "pos": "副詞",
+            "meaning": "多くの・たくさんの（How much で「いくら」）",
+            "pos": "形容詞・代名詞",
             "level": "5級",
             "example": "How much is it? It's only $5.",
             "distractors": [
-                "背が低い",
+                "短い・背が低い",
                 "若い",
                 "悲しい"
             ],
@@ -1105,7 +1105,7 @@
         },
         {
             "word": "from",
-            "meaning": "〜出身",
+            "meaning": "〜から（be from で「〜出身」）",
             "pos": "前置詞",
             "level": "5級",
             "example": "Jenny is from France.",
@@ -1119,28 +1119,28 @@
         },
         {
             "word": "Me",
-            "meaning": "私（Me, too.）",
+            "meaning": "私を・私に（Me, too. で「私も」）",
             "pos": "代名詞",
             "level": "5級",
             "example": "I like this movie. Me, too.",
             "distractors": [
-                "彼",
-                "彼ら",
-                "私たち"
+                "彼は",
+                "彼らを・彼らに",
+                "私たちは"
             ],
             "wordAudio": "audio/vocab/w_013_me.mp3",
             "exampleAudio": "audio/vocab/ex_013_me.mp3"
         },
         {
             "word": "be",
-            "meaning": "〜でありなさい（命令）",
+            "meaning": "〜である・いる（原形）",
             "pos": "動詞",
             "level": "5級",
             "example": "Alice, be quiet!",
             "distractors": [
-                "〜である（am）",
-                "〜である（are）",
-                "〜である（is）"
+                "持っている",
+                "行く",
+                "見る"
             ],
             "wordAudio": "audio/vocab/w_014_be.mp3",
             "exampleAudio": "audio/vocab/ex_014_be.mp3"
@@ -1270,7 +1270,7 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: 大問1]\nA: This baseball game is great.\nB: I think so, too.\n\nDan's mother is a doctor. She works at the hospital from Monday to Friday.\n\nA: What do you do after school, Cindy?\nB: I play basketball.\n\nKengo usually watches the news on TV after dinner, but tonight he is watching a different TV show.\n\nA: Can you come to my house at three this afternoon?\n\nA: Can I have a glass of apple juice, Mom?\n\nA: How much is it?\nB: It's only $5.\n\nJenny is a new student. She is from France.\n\nA: I like this movie.\nB: Me, too.\n\nA: Alice, be quiet!\n\nA: Whose phone is this?\nB: It's Bill's.",
+                    "en": "A: This baseball game is great.\nB: I think so, too.\n\nDan's mother is a doctor. She works at the hospital from Monday to Friday.\n\nA: What do you do after school, Cindy?\nB: I play basketball.\n\nKengo usually watches the news on TV after dinner, but tonight he is watching a different TV show.\n\nA: Can you come to my house at three this afternoon?\n\nA: Can I have a glass of apple juice, Mom?\n\nA: How much is it?\nB: It's only $5.\n\nJenny is a new student. She is from France.\n\nA: I like this movie.\nB: Me, too.\n\nA: Alice, be quiet!\n\nA: Whose phone is this?\nB: It's Bill's.",
                     "ja": "野球の試合がすばらしい→私もそう思う。\n\nダンの母は医者。病院で働く。\n\n放課後はバスケをする。\n\n今夜は違うテレビ番組を見ている。\n\n午後3時にうちに来られる？\n\nリンゴジュースを1杯ちょうだい。\n\nいくら？→5ドル。\n\nジェニーはフランス出身の新入生。\n\n映画好き→私も。\n\n静かにしなさい！\n\n誰の電話？→ビルの。",
                     "source": "大問1 (1)(2)(6)(7)(8)(10)(11)(12)(13)(14)(15)",
                     "audioFile": "audio/practice_pp1.mp3"
@@ -1352,7 +1352,7 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: 大問2]\nWoman: I'm a nurse. What do you do?\nMan: I'm a cook.\n\nBoy: Happy birthday, Linda. These flowers are for you.\nGirl: Oh, thank you, Mike. They're beautiful.\n\nMother: What do you want for lunch, Tom?\nBoy: A sandwich, please.\n\nMother: Is your history test today, John?\nBoy: No, it's tomorrow.\n\nMan 1: Hi, Bill. How are you doing?\nMan 2: Good, thanks.",
+                    "en": "Woman: I'm a nurse. What do you do?\nMan: I'm a cook.\n\nBoy: Happy birthday, Linda. These flowers are for you.\nGirl: Oh, thank you, Mike. They're beautiful.\n\nMother: What do you want for lunch, Tom?\nBoy: A sandwich, please.\n\nMother: Is your history test today, John?\nBoy: No, it's tomorrow.\n\nMan 1: Hi, Bill. How are you doing?\nMan 2: Good, thanks.",
                     "ja": "看護師です。あなたの仕事は？→料理人です。\n\n誕生日おめでとう。花をあげる→きれいね、ありがとう。\n\n昼ごはんは何がいい？→サンドイッチください。\n\nテストは今日？→いいえ、明日です。\n\n調子はどう？→元気だよ、ありがとう。",
                     "source": "大問2 (16)〜(20)",
                     "audioFile": "audio/practice_pp2.mp3"
@@ -1431,7 +1431,7 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: 大問3]\nMy sister washes the dishes every day.\n\nBill and I go skiing in winter.\n\nTake your umbrella to school.\n\nMike's soccer team has three coaches.\n\nWe don't have school today.",
+                    "en": "My sister washes the dishes every day.\n\nBill and I go skiing in winter.\n\nTake your umbrella to school.\n\nMike's soccer team has three coaches.\n\nWe don't have school today.",
                     "ja": "私の姉は毎日お皿を洗います。\n\nビルと私は冬にスキーに行きます。\n\n学校にかさを持って行きなさい。\n\nマイクのサッカーチームには3人のコーチがいます。\n\n今日は学校がありません。",
                     "source": "大問3 (21)〜(25)",
                     "audioFile": "audio/practice_pp3.mp3"

@@ -1374,13 +1374,21 @@
         const boxesRow = Array.from({length: numWords}, () =>
           `<td style="padding:0 1px;border:none"><div style="border:1px solid #333;height:18px;min-width:50px"></div></td>`
         ).join('');
+        const prefixSpacer = q.framePrefix ? '<td style="border:none"></td>' : '';
+        const suffixSpacer = q.frameSuffix ? '<td style="border:none"></td>' : '';
+        const prefixCell = q.framePrefix
+          ? `<td style="padding-right:4px;font-size:10pt;border:none;white-space:nowrap">${q.framePrefix}</td>`
+          : '';
+        const suffixCell = q.frameSuffix
+          ? `<td style="padding-left:4px;font-size:10pt;border:none;white-space:nowrap">${q.frameSuffix}</td>`
+          : '';
         const choicesLine = q.choices.map((c, i) =>
           `<span style="margin-right:24px">${i + 1}　${c}</span>`
         ).join('');
         return `<div style="margin-bottom:14px;padding-bottom:6px">
 <div style="margin-bottom:3px"><b>(${q.number})</b>　${q.text}</div>
 <div style="font-size:10pt;margin:2px 0">${wordsLine}</div>
-<table style="margin:2px 0 4px 10px;border-collapse:collapse;border:none"><tr>${slotLabelsRow}</tr><tr>${boxesRow}${q.frameSuffix ? `<td style="padding-left:4px;font-size:10pt;border:none">${q.frameSuffix}</td>` : ''}</tr></table>
+<table style="margin:2px 0 4px 10px;border-collapse:collapse;border:none"><tr>${prefixSpacer}${slotLabelsRow}${suffixSpacer}</tr><tr>${prefixCell}${boxesRow}${suffixCell}</tr></table>
 <div style="font-size:10pt;margin-top:2px">${choicesLine}</div>
 </div>`;
       }).join('');

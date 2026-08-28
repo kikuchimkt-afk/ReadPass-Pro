@@ -54,8 +54,10 @@ for fp in fps:
     pp = fp.get("practicePassage", {})
     if not pp.get("en") or not pp.get("ja"):
         errors.append(f"{fid}: practicePassage en/ja missing")
-    if "[出典:" not in pp.get("en", ""):
-        errors.append(f"{fid}: practicePassage missing [出典: ...]")
+    if not pp.get("source", "").strip():
+        errors.append(f"{fid}: practicePassage source missing")
+    if "[出典:" in pp.get("en", ""):
+        errors.append(f"{fid}: practicePassage source duplicated in en")
     if len(fp.get("practiceQuestions", [])) < 2:
         errors.append(f"{fid}: practiceQuestions < 2")
     af = pp.get("audioFile")

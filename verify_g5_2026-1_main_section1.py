@@ -31,8 +31,10 @@ for q in sec["questions"]:
         if not q.get(key):
             errors.append(f"Q{n}: missing {key}")
     ca = q.get("choiceAnalysis", [])
-    if [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("✅")] != [q["answer"]]:
-        errors.append(f"Q{n}: ✅ mark mismatch")
+    if [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("○")] != [q["answer"]]:
+        errors.append(f"Q{n}: ○ mark mismatch")
+    if any(t.lstrip().startswith(("✅", "❌")) for t in ca):
+        errors.append(f"Q{n}: legacy emoji mark remains")
     qa = q.get("questionAudio")
     if qa:
         fp = os.path.join(BASE, qa.replace("/", os.sep))

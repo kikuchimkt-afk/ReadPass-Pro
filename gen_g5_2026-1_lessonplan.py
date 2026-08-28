@@ -62,7 +62,6 @@ fp1 = {
     ],
     "practicePassage": {
         "en": (
-            "[出典: 大問1]\n"
             "A: This baseball game is great.\n"
             "B: I think so, too.\n\n"
             "Dan's mother is a doctor. She works at the hospital from Monday to Friday.\n\n"
@@ -180,7 +179,6 @@ fp2 = {
     ],
     "practicePassage": {
         "en": (
-            "[出典: 大問2]\n"
             "Woman: I'm a nurse. What do you do?\n"
             "Man: I'm a cook.\n\n"
             "Boy: Happy birthday, Linda. These flowers are for you.\n"
@@ -284,7 +282,6 @@ fp3 = {
     ],
     "practicePassage": {
         "en": (
-            "[出典: 大問3]\n"
             "My sister washes the dishes every day.\n\n"
             "Bill and I go skiing in winter.\n\n"
             "Take your umbrella to school.\n\n"

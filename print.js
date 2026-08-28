@@ -1161,12 +1161,20 @@
             const boxesRow = Array.from({length: numWords}, () =>
               `<td style="padding:0 1px"><div style="border:1px solid #666;height:18px;min-width:50px"></div></td>`
             ).join('');
+            const prefixSpacer = q.framePrefix ? '<td></td>' : '';
+            const suffixSpacer = q.frameSuffix ? '<td></td>' : '';
+            const prefixCell = q.framePrefix
+              ? `<td style="padding-right:4px;font-size:9pt;white-space:nowrap">${esc(q.framePrefix)}</td>`
+              : '';
+            const suffixCell = q.frameSuffix
+              ? `<td style="padding-left:4px;font-size:9pt;white-space:nowrap">${esc(q.frameSuffix)}</td>`
+              : '';
 
             let html = `<div class="q-number">(${q.number})</div>`;
             html += `<div class="q-text">${esc(q.text)}</div>`;
             if (q.words) {
-                html += `<div style="font-size:9pt;margin:2px 0">${wordsLine}${q.frameSuffix ? '\u3000' + esc(q.frameSuffix) : ''}</div>`;
-                html += `<table style="margin:2px 0 4px 0;border-collapse:collapse"><tr>${slotLabelsRow}</tr><tr>${boxesRow}${q.frameSuffix ? `<td style="padding-left:4px;font-size:9pt">${esc(q.frameSuffix)}</td>` : ''}</tr></table>`;
+                html += `<div style="font-size:9pt;margin:2px 0">${wordsLine}</div>`;
+                html += `<table style="margin:2px 0 4px 0;border-collapse:collapse"><tr>${prefixSpacer}${slotLabelsRow}${suffixSpacer}</tr><tr>${prefixCell}${boxesRow}${suffixCell}</tr></table>`;
             }
 
             if (showChoices && q.choices) {

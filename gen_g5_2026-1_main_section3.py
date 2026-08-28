@@ -17,8 +17,7 @@ def mark_ca(items, answer):
     out = []
     for i, text in enumerate(items):
         cleaned = re.sub(r"^[○✅❌]\s*", "", text)
-        prefix = "✅" if i + 1 == answer else "❌"
-        out.append(f"{prefix} {cleaned}")
+        out.append(f"○ {cleaned}" if i + 1 == answer else cleaned)
     return out
 
 

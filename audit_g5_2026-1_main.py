@@ -57,9 +57,13 @@ def has_english_evidence(text):
         return True
     if re.search(r"[A-Za-z]{3,}(?:\s+[A-Za-z]{2,})+", text):
         return True
-    if re.search(r"^[✅❌]\s*[A-Za-z「]", text):
+    if re.search(r"[A-Za-z]{2,}", text):
         return True
     return False
+
+
+def has_blank(text):
+    return bool(re.search(r"[（(][\s　]*[）)]", text or ""))
 
 
 all_qs = collect_questions(d)
@@ -94,12 +98,11 @@ for _, _, q in all_qs:
     if len(ca) != 4:
         issues.append(f"[解説] Q{n}: choiceAnalysis数={len(ca)}")
         continue
-    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("✅")]
+    checks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("○")]
     if checks != [q["answer"]]:
-        issues.append(f"[解説] Q{n}: ✅位置={checks} answer={q['answer']}")
-    wrong_marks = [i + 1 for i, t in enumerate(ca) if t.lstrip().startswith("❌")]
-    if len(wrong_marks) != 3:
-        issues.append(f"[解説] Q{n}: ❌数={len(wrong_marks)} (expected 3)")
+        issues.append(f"[解説] Q{n}: ○位置={checks} answer={q['answer']}")
+    if any(t.lstrip().startswith(("✅", "❌")) for t in ca):
+        issues.append(f"[解説] Q{n}: 旧✅/❌記号が残っています")
 
 # ---- 5. 大問1・2 リッチフィールド ----
 for sec_name in ("大問1", "大問2"):
@@ -110,12 +113,14 @@ for sec_name in ("大問1", "大問2"):
                     "choiceAnalysis", "choiceAnalysisSimple", "questionAudio"):
             if not q.get(key):
                 issues.append(f"[構造] Q{n}: missing {key}")
+        if has_blank(q.get("text")) and not has_blank(q.get("translation")):
+            issues.append(f"[和訳] Q{n}: 英文の空所が和訳に残っていません")
 
 # ---- 6. 大問3 並べ替え構造 ----
 sec3 = next(s for s in d["sections"] if s["name"] == "大問3")
 for q in sec3["questions"]:
     n = q["number"]
-    for key in ("grammar", "grammarSimple", "choiceAnalysis", "choiceAnalysisSimple",
+    for key in ("grammar", "grammarSimple", "translation", "choiceAnalysis", "choiceAnalysisSimple",
                 "words", "correctOrder", "answerSlots", "questionAudio"):
         if not q.get(key):
             issues.append(f"[構造] Q{n}: missing {key}")
@@ -128,6 +133,10 @@ for q in sec3["questions"]:
         actual = q["choices"][q["answer"] - 1]
         if actual != expected_label:
             issues.append(f"[並べ替え] Q{n}: {actual} != {expected_label}")
+    required_labels = [f"{slot}番目" for slot in slots]
+    for i, ca in enumerate(q.get("choiceAnalysis", [])):
+        if not all(label in ca for label in required_labels):
+            issues.append(f"[並べ替え] Q{n} 選択肢{i+1}: 空所位置の説明不足")
 
 # ---- 7. 解説の英文エビデンス ----
 for _, _, q in all_qs:
