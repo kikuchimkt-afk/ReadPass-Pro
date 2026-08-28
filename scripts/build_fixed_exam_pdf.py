@@ -120,6 +120,14 @@ def printable_instruction(value: object) -> str:
     )
 
 
+def exam_display_label(exam: str) -> str:
+    parts = exam.split("-")
+    if len(parts) < 2:
+        raise ValueError(f"Unsupported exam id: {exam}")
+    venue = "（準会場）" if len(parts) >= 3 and parts[2] == "sat" else ""
+    return f"{parts[0]}年度 第{parts[1]}回{venue}"
+
+
 def question_range_label(questions: list[dict]) -> str:
     if not questions:
         return ""
@@ -636,6 +644,75 @@ def draw_flyer(c: canvas.Canvas, passage: dict, x: float, top: float, width: flo
     c.drawCentredString(x + (width / 2), top - 36, clean_text(passage.get("title", "Volunteer Work")))
 
     paragraphs = passage.get("paragraphs", [])
+    if len(paragraphs) > 5:
+        title = clean_text(passage.get("title", ""))
+        content = list(paragraphs)
+        if content and clean_text(content[0]).lower() == title.lower():
+            content = content[1:]
+        if len(content) < 3:
+            raise ValueError("Expanded flyer layout requires event details and feature blocks")
+
+        cursor = draw_wrapped(
+            c,
+            content[0],
+            x + 14,
+            top - 69,
+            width - 28,
+            font=SERIF_BOLD,
+            size=9.8,
+            leading=11.8,
+        ) - 6
+        info_lines = len(wrap_text(content[1], SERIF_BOLD, 9.2, width - 50))
+        info_height = max(34, 12 + (info_lines * 11.2))
+        c.setFillColor(PALE)
+        c.rect(x + 14, cursor - info_height, width - 28, info_height, stroke=0, fill=1)
+        draw_wrapped(
+            c,
+            content[1],
+            x + 25,
+            cursor - 13,
+            width - 50,
+            font=SERIF_BOLD,
+            size=9.2,
+            leading=11.2,
+        )
+
+        cards = content[2:]
+        columns = 2
+        rows = (len(cards) + columns - 1) // columns
+        card_gap = 8
+        card_top = cursor - info_height - 9
+        card_height = (card_top - (top - height + 10) - ((rows - 1) * card_gap)) / rows
+        card_width = (width - 28 - card_gap) / columns
+        for index, paragraph in enumerate(cards):
+            row = index // columns
+            col = index % columns
+            card_x = x + 14 + (col * (card_width + card_gap))
+            item_top = card_top - (row * (card_height + card_gap))
+            c.setStrokeColor(MID)
+            c.setLineWidth(0.45)
+            c.rect(card_x, item_top - card_height, card_width, card_height, stroke=1, fill=0)
+            lines = [clean_text(line) for line in str(paragraph).splitlines() if clean_text(line)]
+            if not lines:
+                continue
+            c.setFillColor(INK)
+            c.setFont(SERIF_BOLD, 9.1)
+            c.drawString(card_x + 8, item_top - 14, lines[0])
+            if len(lines) > 1:
+                body_cursor = draw_wrapped(
+                    c,
+                    " ".join(lines[1:]),
+                    card_x + 8,
+                    item_top - 29,
+                    card_width - 16,
+                    font=SERIF,
+                    size=8.7,
+                    leading=10.2,
+                )
+                if body_cursor < item_top - card_height + 5:
+                    raise RuntimeError("Expanded flyer card overflowed its fixed panel")
+        return
+
     cursor = top - 70
     if paragraphs and clean_text(paragraphs[0]).lower() != "notice":
         cursor = draw_wrapped(c, paragraphs[0], x + 14, cursor, width - 28, font=SERIF_BOLD, size=10.15, leading=12.7) - 7
@@ -1024,7 +1101,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         raise RuntimeError("Part 1 must fit within four pages")
 
     grade_label = GRADE_LABELS[grade]
-    exam_label = f"{exam[:4]}年度 第{exam.split('-')[1]}回"
+    exam_label = exam_display_label(exam)
     # Keeping Part 1 at four pages or fewer makes every later page number shift
     # deterministically while each grade keeps its own fixed section sequence.
     trailing_pages = {"grade5": 3, "grade4": 8}.get(grade, 7)
@@ -1206,6 +1283,8 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         if count_signature != [3, 3, 3, 5]:
             raise ValueError(f"{layout_name} layout requires question counts 3 / 3 / 3 / 5 after Part 1")
         fill_panel_height = 350 if grade == "grade2" else 340
+        if grade == "grade-pre2plus" and exam == "2025-3-sat":
+            fill_panel_height = 360
 
         draw_passage_fill_page(
             pdf,
