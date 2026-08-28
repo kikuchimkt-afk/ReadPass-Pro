@@ -1196,9 +1196,19 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         if grade == "grade-pre2" and len(sections) >= 3
         else 0
     )
+    grade2_reading_count = (
+        len(sections[2].get("passages", []))
+        if grade == "grade2" and len(sections) >= 3
+        else 0
+    )
+    default_trailing_pages = 7
+    if grade == "grade-pre2" and pre2_fill_count == 2:
+        default_trailing_pages = 8
+    elif grade == "grade2" and grade2_reading_count == 3:
+        default_trailing_pages = 9
     trailing_pages = {"grade5": 3, "grade4": 8}.get(
         grade,
-        8 if grade == "grade-pre2" and pre2_fill_count == 2 else 7,
+        default_trailing_pages,
     )
     total_pages = len(part1_pages) + trailing_pages
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -1367,17 +1377,28 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         layout_name = "Grade Pre-2 Plus" if grade == "grade-pre2plus" else "Grade 2"
         passage_fills = sections[1].get("passages", [])
         reading_passages = sections[2].get("passages", [])
-        if len(passage_fills) != 2 or len(reading_passages) != 2:
-            raise ValueError(f"{layout_name} layout requires two fill passages and two reading passages")
-        email_passage, article_passage = reading_passages
+        allowed_reading_counts = {2, 3} if grade == "grade2" else {2}
+        if len(passage_fills) != 2 or len(reading_passages) not in allowed_reading_counts:
+            allowed = "two or three" if grade == "grade2" else "two"
+            raise ValueError(f"{layout_name} layout requires two fill passages and {allowed} reading passages")
+        email_passage = reading_passages[0]
+        article_passages = reading_passages[1:]
         count_signature = [
             *[len(passage.get("questions", [])) for passage in passage_fills],
             len(email_passage.get("questions", [])),
-            len(article_passage.get("questions", [])),
+            *[len(passage.get("questions", [])) for passage in article_passages],
         ]
-        if count_signature != [3, 3, 3, 5]:
-            raise ValueError(f"{layout_name} layout requires question counts 3 / 3 / 3 / 5 after Part 1")
-        fill_panel_height = 350 if grade == "grade2" else 340
+        expected_signature = [3, 3, 3, 5] if len(reading_passages) == 2 else [3, 3, 3, 4, 5]
+        if count_signature != expected_signature:
+            expected = " / ".join(str(value) for value in expected_signature)
+            raise ValueError(f"{layout_name} layout requires question counts {expected} after Part 1")
+        fill_panel_height = (
+            370
+            if grade == "grade2" and grade2_reading_count == 3
+            else 350
+            if grade == "grade2"
+            else 340
+        )
         if grade == "grade-pre2plus" and exam == "2025-3-sat":
             fill_panel_height = 360
 
@@ -1432,32 +1453,36 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             question_range=email_range,
         )
         page_number += 1
-        article_questions = article_passage.get("questions", [])
-        article_range = question_range_label(article_questions)
-        draw_article_page(
-            pdf,
-            page_number,
-            total_pages,
-            grade_label,
-            exam_label,
-            article_passage,
-            section_title="大問3B  長文",
-            instruction=f"本文を読み、次ページの{article_range}に答えなさい。",
-        )
-        page_number += 1
-        draw_questions_page(
-            pdf,
-            page_number,
-            total_pages,
-            grade_label,
-            exam_label,
-            f"大問3B  長文設問  {article_range}",
-            "前ページの本文を読み、最も適切なものを1つ選びなさい。",
-            article_questions,
-            "stack",
-            separator=True,
-        )
-        page_number += 1
+        article_questions: list[dict] = []
+        for index, article_passage in enumerate(article_passages):
+            questions = article_passage.get("questions", [])
+            article_questions.extend(questions)
+            article_range = question_range_label(questions)
+            section_prefix = f"大問3{chr(ord('B') + index)}"
+            draw_article_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                article_passage,
+                section_title=f"{section_prefix}  長文",
+                instruction=f"本文を読み、次ページの{article_range}に答えなさい。",
+            )
+            page_number += 1
+            draw_questions_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                f"{section_prefix}  長文設問  {article_range}",
+                "前ページの本文を読み、最も適切なものを1つ選びなさい。",
+                questions,
+                "stack",
+                separator=True,
+            )
+            page_number += 1
         all_questions = (
             part1
             + passage_fills[0].get("questions", [])
