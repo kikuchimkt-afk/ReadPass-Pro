@@ -46,10 +46,12 @@ PALE = Color(0.94, 0.94, 0.94)
 GRADE_LABELS = {
     "grade3": "英検3級",
     "grade-pre2": "英検準2級",
+    "grade-pre2plus": "英検準2級プラス",
 }
 GRADE_FILE_TOKENS = {
     "grade3": "Grade3",
     "grade-pre2": "GradePre2",
+    "grade-pre2plus": "GradePre2Plus",
 }
 DIRECT_URL = "https://read-pass-pro.vercel.app/index.html?grade={grade}&exam={exam}"
 
@@ -102,6 +104,32 @@ def clean_text(value: object, wide_blanks: bool = True) -> str:
     for before, after in replacements.items():
         text = text.replace(before, after)
     return re.sub(r"[ \t]+", " ", text).strip()
+
+
+def question_range_label(questions: list[dict]) -> str:
+    if not questions:
+        return ""
+    return f"Q{int(questions[0]['number'])}-Q{int(questions[-1]['number'])}"
+
+
+def paginate_part1(questions: list[dict]) -> list[list[dict]]:
+    if not questions:
+        raise ValueError("Part 1 must contain at least one question")
+    if len(questions) <= 15:
+        return [questions[index:index + 5] for index in range(0, len(questions), 5)]
+
+    first_page = questions[:4]
+    remaining = questions[4:]
+    base_size, extra = divmod(len(remaining), 3)
+    pages = [first_page]
+    cursor = 0
+    for page_index in range(3):
+        size = base_size + (1 if page_index < extra else 0)
+        pages.append(remaining[cursor:cursor + size])
+        cursor += size
+    if any(not page for page in pages) or cursor != len(remaining):
+        raise RuntimeError("Part 1 pagination failed")
+    return pages
 
 
 def tokenize(text: str) -> list[str]:
@@ -471,17 +499,18 @@ def draw_passage_fill_page(
     exam_label: str,
     section: dict,
     passage: dict,
+    section_title: str = "大問3  長文の語句空所補充  Q21-Q22",
+    panel_height: float = 270,
 ) -> None:
     draw_page_header(c, grade_label, exam_label)
     top = draw_section_title(
         c,
-        "大問3  長文の語句空所補充  Q21-Q22",
+        section_title,
         section.get("instruction", ""),
         PAGE_H - 58,
     )
     draw_gutter(c, top)
 
-    panel_height = 270
     c.setStrokeColor(DARK)
     c.setLineWidth(0.7)
     c.rect(BODY_X, top - panel_height, BODY_W, panel_height, stroke=1, fill=0)
@@ -578,13 +607,15 @@ def draw_email_passage_page(
     grade_label: str,
     exam_label: str,
     passage: dict,
+    section_prefix: str = "大問4A",
+    question_range: str = "Q23-Q25",
 ) -> None:
     draw_page_header(c, grade_label, exam_label)
     title = clean_text(passage.get("title", "メール問題"))
     top = draw_section_title(
         c,
-        f"大問4A  {title}",
-        "メールを読み、次ページのQ23-Q25に答えなさい。",
+        f"{section_prefix}  {title}",
+        f"メールを読み、次ページの{question_range}に答えなさい。",
         PAGE_H - 58,
     )
     draw_gutter(c, top)
@@ -683,7 +714,10 @@ def draw_answer_page(
     col_w = (CONTENT_W - (col_gap * 2)) / 3
     header_h = 24
     row_h = 47
-    question_groups = [questions[index:index + 10] for index in range(0, len(questions), 10)]
+    if len(questions) <= 30:
+        question_groups = [questions[index:index + 10] for index in range(0, len(questions), 10)]
+    else:
+        question_groups = [questions[:11], questions[11:21], questions[21:]]
     for col, group in enumerate(question_groups):
         x = MARGIN_X + (col * (col_w + col_gap))
         c.setFillColor(DARK)
@@ -738,10 +772,15 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
     sections = data.get("sections", [])
     part1 = sections[0].get("questions", [])
     part2 = sections[1].get("questions", [])
+    part1_pages = paginate_part1(part1)
+    if len(part1_pages) > 4:
+        raise RuntimeError("Part 1 must fit within four pages")
 
     grade_label = GRADE_LABELS[grade]
     exam_label = f"{exam[:4]}年度 第{exam.split('-')[1]}回"
-    total_pages = 10
+    # Every supported paper has seven fixed pages after Part 1. Keeping Part 1
+    # at four pages or fewer makes later page numbers shift deterministically.
+    total_pages = len(part1_pages) + 7
     output_path.parent.mkdir(parents=True, exist_ok=True)
     pdf = canvas.Canvas(str(output_path), pagesize=A4, pageCompression=1, invariant=1)
     pdf.setTitle(f"ReadPass - {grade_label} {exam_label} 過去問演習")
@@ -749,95 +788,236 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
     pdf.setSubject("ReadPass fixed-layout practice exam")
 
     part1_instruction = sections[0].get("instruction", "")
-    draw_questions_page(pdf, 1, total_pages, grade_label, exam_label, "大問1  語彙・文法  Q1-Q5", part1_instruction, part1[:5], "row4", first_page=True, grade=grade, exam=exam)
-    draw_questions_page(pdf, 2, total_pages, grade_label, exam_label, "大問1  語彙・文法  Q6-Q10", part1_instruction, part1[5:10], "row4")
-    draw_questions_page(pdf, 3, total_pages, grade_label, exam_label, "大問1  語彙・文法  Q11-Q15", part1_instruction, part1[10:15], "row4")
+    for page_number, questions in enumerate(part1_pages, start=1):
+        draw_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            f"大問1  語彙・文法  {question_range_label(questions)}",
+            part1_instruction,
+            questions,
+            "row4",
+            first_page=(page_number == 1),
+            grade=grade,
+            exam=exam,
+            compact=(len(questions) >= 6),
+        )
+    page_number = len(part1_pages) + 1
+
+    if grade == "grade-pre2plus":
+        passage_fills = sections[1].get("passages", [])
+        reading_passages = sections[2].get("passages", [])
+        if len(passage_fills) != 2 or len(reading_passages) != 2:
+            raise ValueError("Grade Pre-2 Plus layout requires two fill passages and two reading passages")
+        email_passage, article_passage = reading_passages
+        count_signature = [
+            *[len(passage.get("questions", [])) for passage in passage_fills],
+            len(email_passage.get("questions", [])),
+            len(article_passage.get("questions", [])),
+        ]
+        if count_signature != [3, 3, 3, 5]:
+            raise ValueError("Grade Pre-2 Plus layout requires question counts 3 / 3 / 3 / 5 after Part 1")
+
+        draw_passage_fill_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            sections[1],
+            passage_fills[0],
+            section_title=f"大問2A  長文の語句空所補充  {question_range_label(passage_fills[0].get('questions', []))}",
+            panel_height=340,
+        )
+        page_number += 1
+        draw_passage_fill_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            sections[1],
+            passage_fills[1],
+            section_title=f"大問2B  長文の語句空所補充  {question_range_label(passage_fills[1].get('questions', []))}",
+            panel_height=340,
+        )
+        page_number += 1
+        email_questions = email_passage.get("questions", [])
+        email_range = question_range_label(email_questions)
+        draw_email_passage_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            email_passage,
+            section_prefix="大問3A",
+            question_range=email_range,
+        )
+        page_number += 1
+        email_title = clean_text(email_passage.get("title", "メール問題"))
+        draw_email_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            email_title,
+            None,
+            email_questions,
+            section_prefix="大問3A",
+            question_range=email_range,
+        )
+        page_number += 1
+        article_questions = article_passage.get("questions", [])
+        article_range = question_range_label(article_questions)
+        draw_article_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            article_passage,
+            section_title="大問3B  長文",
+            instruction=f"本文を読み、次ページの{article_range}に答えなさい。",
+        )
+        page_number += 1
+        draw_questions_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            f"大問3B  長文設問  {article_range}",
+            "前ページの本文を読み、最も適切なものを1つ選びなさい。",
+            article_questions,
+            "stack",
+            separator=True,
+        )
+        page_number += 1
+        all_questions = (
+            part1
+            + passage_fills[0].get("questions", [])
+            + passage_fills[1].get("questions", [])
+            + email_questions
+            + article_questions
+        )
+        if page_number != total_pages:
+            raise RuntimeError("Grade Pre-2 Plus page numbering drifted")
+        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        pdf.save()
+        return
+
     draw_questions_page(
         pdf,
-        4,
+        page_number,
         total_pages,
         grade_label,
         exam_label,
-        "大問2  会話文  Q16-Q20",
+        f"大問2  会話文  {question_range_label(part2)}",
         sections[1].get("instruction", ""),
         part2,
         "row4" if grade == "grade-pre2" else "grid2",
         compact=(grade == "grade-pre2"),
     )
+    page_number += 1
 
     if grade == "grade3":
         passages = sections[2].get("passages", [])
         part3_questions = [question for passage in passages for question in passage.get("questions", [])]
-        if [len(part1), len(part2), len(part3_questions)] != [15, 5, 10]:
-            raise ValueError("Grade 3 layout requires question counts 15 / 5 / 10")
-        draw_passage_a_page(pdf, 5, total_pages, grade_label, exam_label, sections[2], passages[0])
+        if [len(part2), len(part3_questions)] != [5, 10]:
+            raise ValueError("Grade 3 layout requires question counts 5 / 10 after Part 1")
+        draw_passage_a_page(pdf, page_number, total_pages, grade_label, exam_label, sections[2], passages[0])
+        page_number += 1
         email_passage = passages[1]
         emails = email_passage.get("emails", [])
         email_title = clean_text(email_passage.get("title", "メール問題"))
-        draw_emails_page(pdf, 6, total_pages, grade_label, exam_label, emails[:2], f"大問3B  {email_title}")
+        draw_emails_page(pdf, page_number, total_pages, grade_label, exam_label, emails[:2], f"大問3B  {email_title}")
+        page_number += 1
         final_email = emails[2] if len(emails) >= 3 else None
-        draw_email_questions_page(pdf, 7, total_pages, grade_label, exam_label, email_title, final_email, email_passage.get("questions", []))
-        draw_article_page(pdf, 8, total_pages, grade_label, exam_label, passages[2])
-        draw_questions_page(pdf, 9, total_pages, grade_label, exam_label, "大問3C  長文設問  Q26-Q30", "前ページの本文を読み、最も適切なものを1つ選びなさい。", passages[2].get("questions", []), "stack", separator=True)
+        email_questions = email_passage.get("questions", [])
+        email_range = question_range_label(email_questions)
+        draw_email_questions_page(pdf, page_number, total_pages, grade_label, exam_label, email_title, final_email, email_questions, question_range=email_range)
+        page_number += 1
+        article_questions = passages[2].get("questions", [])
+        article_range = question_range_label(article_questions)
+        draw_article_page(pdf, page_number, total_pages, grade_label, exam_label, passages[2], instruction=f"本文を読み、次ページの{article_range}に答えなさい。")
+        page_number += 1
+        draw_questions_page(pdf, page_number, total_pages, grade_label, exam_label, f"大問3C  長文設問  {article_range}", "前ページの本文を読み、最も適切なものを1つ選びなさい。", article_questions, "stack", separator=True)
+        page_number += 1
         all_questions = part1 + part2 + part3_questions
     else:
         passage_fill = sections[2].get("passages", [])[0]
         reading_passages = sections[3].get("passages", [])
         email_passage, article_passage = reading_passages
         count_signature = [
-            len(part1),
             len(part2),
             len(passage_fill.get("questions", [])),
             len(email_passage.get("questions", [])),
             len(article_passage.get("questions", [])),
         ]
-        if count_signature != [15, 5, 2, 3, 4]:
-            raise ValueError("Grade Pre-2 layout requires question counts 15 / 5 / 2 / 3 / 4")
-        draw_passage_fill_page(pdf, 5, total_pages, grade_label, exam_label, sections[2], passage_fill)
-        draw_email_passage_page(pdf, 6, total_pages, grade_label, exam_label, email_passage)
+        if count_signature != [5, 2, 3, 4]:
+            raise ValueError("Grade Pre-2 layout requires question counts 5 / 2 / 3 / 4 after Part 1")
+        passage_questions = passage_fill.get("questions", [])
+        draw_passage_fill_page(pdf, page_number, total_pages, grade_label, exam_label, sections[2], passage_fill, section_title=f"大問3  長文の語句空所補充  {question_range_label(passage_questions)}")
+        page_number += 1
+        email_questions = email_passage.get("questions", [])
+        email_range = question_range_label(email_questions)
+        draw_email_passage_page(pdf, page_number, total_pages, grade_label, exam_label, email_passage, question_range=email_range)
+        page_number += 1
         email_title = clean_text(email_passage.get("title", "メール問題"))
         draw_email_questions_page(
             pdf,
-            7,
+            page_number,
             total_pages,
             grade_label,
             exam_label,
             email_title,
             None,
-            email_passage.get("questions", []),
+            email_questions,
             section_prefix="大問4A",
+            question_range=email_range,
         )
+        page_number += 1
+        article_questions = article_passage.get("questions", [])
+        article_range = question_range_label(article_questions)
         draw_article_page(
             pdf,
-            8,
+            page_number,
             total_pages,
             grade_label,
             exam_label,
             article_passage,
             section_title="大問4B  長文",
-            instruction="本文を読み、次ページのQ26-Q29に答えなさい。",
+            instruction=f"本文を読み、次ページの{article_range}に答えなさい。",
         )
+        page_number += 1
         draw_questions_page(
             pdf,
-            9,
+            page_number,
             total_pages,
             grade_label,
             exam_label,
-            "大問4B  長文設問  Q26-Q29",
+            f"大問4B  長文設問  {article_range}",
             "前ページの本文を読み、最も適切なものを1つ選びなさい。",
-            article_passage.get("questions", []),
+            article_questions,
             "stack",
             separator=True,
         )
+        page_number += 1
         all_questions = (
             part1
             + part2
-            + passage_fill.get("questions", [])
-            + email_passage.get("questions", [])
-            + article_passage.get("questions", [])
+            + passage_questions
+            + email_questions
+            + article_questions
         )
 
-    draw_answer_page(pdf, 10, total_pages, grade_label, exam_label, all_questions, grade, exam)
+    if page_number != total_pages:
+        raise RuntimeError("Page numbering drifted")
+    draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
     pdf.save()
 
 
