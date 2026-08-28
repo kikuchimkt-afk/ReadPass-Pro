@@ -436,6 +436,7 @@ def draw_questions_page(
     exam: str = "",
     separator: bool = False,
     compact: bool = False,
+    question_height_weights: list[float] | None = None,
 ) -> None:
     if first_page:
         top = draw_cover(c, grade_label, exam_label, grade, exam)
@@ -443,9 +444,16 @@ def draw_questions_page(
         draw_page_header(c, grade_label, exam_label)
         top = PAGE_H - 58
     top = draw_section_title(c, section_title, instruction, top)
-    block_height = (top - BOTTOM_Y) / len(questions)
+    available_height = top - BOTTOM_Y
+    if question_height_weights is not None:
+        if len(question_height_weights) != len(questions) or any(weight <= 0 for weight in question_height_weights):
+            raise ValueError("Question height weights must match the questions and be positive")
+        total_weight = sum(question_height_weights)
+        block_heights = [available_height * weight / total_weight for weight in question_height_weights]
+    else:
+        block_heights = [available_height / len(questions)] * len(questions)
     cursor = top
-    for question in questions:
+    for question, block_height in zip(questions, block_heights):
         draw_question_block(
             c,
             question,
@@ -833,6 +841,7 @@ def draw_passage_fill_page(
     passage: dict,
     section_title: str = "大問3  長文の語句空所補充  Q21-Q22",
     panel_height: float = 270,
+    compact_questions: bool = False,
 ) -> None:
     draw_page_header(c, grade_label, exam_label)
     top = draw_section_title(
@@ -875,7 +884,17 @@ def draw_passage_fill_page(
     block_height = (questions_top - BOTTOM_Y) / len(questions)
     cursor = questions_top
     for question in questions:
-        draw_question_block(c, question, cursor, block_height, "row4", separator=True)
+        draw_question_block(
+            c,
+            question,
+            cursor,
+            block_height,
+            "row4",
+            separator=True,
+            body_size=10.3 if compact_questions else 11.25,
+            body_leading=12.4 if compact_questions else 14.2,
+            choice_size=9.7 if compact_questions else 10.7,
+        )
         cursor -= block_height
     draw_page_footer(c, page_number, total_pages)
     c.showPage()
@@ -1172,7 +1191,15 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
     exam_label = exam_display_label(exam)
     # Keeping Part 1 at four pages or fewer makes every later page number shift
     # deterministically while each grade keeps its own fixed section sequence.
-    trailing_pages = {"grade5": 3, "grade4": 8}.get(grade, 7)
+    pre2_fill_count = (
+        len(sections[2].get("passages", []))
+        if grade == "grade-pre2" and len(sections) >= 3
+        else 0
+    )
+    trailing_pages = {"grade5": 3, "grade4": 8}.get(
+        grade,
+        8 if grade == "grade-pre2" and pre2_fill_count == 2 else 7,
+    )
     total_pages = len(part1_pages) + trailing_pages
     output_path.parent.mkdir(parents=True, exist_ok=True)
     pdf = canvas.Canvas(str(output_path), pagesize=A4, pageCompression=1, invariant=1)
@@ -1455,6 +1482,18 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         part2,
         "row4" if grade == "grade-pre2" else "grid2",
         compact=(grade == "grade-pre2"),
+        question_height_weights=(
+            [
+                1.45
+                if index + 1 < len(part2) and clean_text(part2[index + 1].get("text", "")).startswith("(See Q")
+                else 0.55
+                if clean_text(question.get("text", "")).startswith("(See Q")
+                else 1.0
+                for index, question in enumerate(part2)
+            ]
+            if grade == "grade-pre2" and pre2_fill_count == 2
+            else None
+        ),
     )
     page_number += 1
 
@@ -1483,20 +1522,42 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         page_number += 1
         all_questions = part1 + part2 + part3_questions
     else:
-        passage_fill = sections[2].get("passages", [])[0]
+        passage_fills = sections[2].get("passages", [])
         reading_passages = sections[3].get("passages", [])
+        if len(passage_fills) not in {1, 2} or len(reading_passages) != 2:
+            raise ValueError("Grade Pre-2 layout requires one or two fill passages and two reading passages")
         email_passage, article_passage = reading_passages
         count_signature = [
             len(part2),
-            len(passage_fill.get("questions", [])),
+            *[len(passage.get("questions", [])) for passage in passage_fills],
             len(email_passage.get("questions", [])),
             len(article_passage.get("questions", [])),
         ]
-        if count_signature != [5, 2, 3, 4]:
-            raise ValueError("Grade Pre-2 layout requires question counts 5 / 2 / 3 / 4 after Part 1")
-        passage_questions = passage_fill.get("questions", [])
-        draw_passage_fill_page(pdf, page_number, total_pages, grade_label, exam_label, sections[2], passage_fill, section_title=f"大問3  長文の語句空所補充  {question_range_label(passage_questions)}")
-        page_number += 1
+        expected_signature = [5, 2, 3, 4] if len(passage_fills) == 1 else [5, 2, 3, 3, 4]
+        if count_signature != expected_signature:
+            expected = " / ".join(str(value) for value in expected_signature)
+            raise ValueError(f"Grade Pre-2 layout requires question counts {expected} after Part 1")
+        passage_questions: list[dict] = []
+        for index, passage_fill in enumerate(passage_fills):
+            questions = passage_fill.get("questions", [])
+            passage_questions.extend(questions)
+            section_suffix = chr(ord("A") + index) if len(passage_fills) == 2 else ""
+            draw_passage_fill_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                sections[2],
+                passage_fill,
+                section_title=(
+                    f"大問3{section_suffix}  長文の語句空所補充  "
+                    f"{question_range_label(questions)}"
+                ),
+                panel_height=345 if len(passage_fills) == 2 else 270,
+                compact_questions=(len(passage_fills) == 2),
+            )
+            page_number += 1
         email_questions = email_passage.get("questions", [])
         email_range = question_range_label(email_questions)
         draw_email_passage_page(pdf, page_number, total_pages, grade_label, exam_label, email_passage, question_range=email_range)
