@@ -31,9 +31,18 @@ section4 = {
             ],
             "translations": [
                 "遠足",
-                "3年生はバスで学校遠足にレインボー動物園へ行きます。",
+                "3年生は、学校の遠足でバスに乗り、レインボー動物園へ行きます。",
                 "日付：6月20日（金）\n集合時間：午前8時",
-                "動物園までのバスは約2時間かかります。\n雨の場合はレインボー博物館に行きます。\n午後3時30分に学校に戻ります。",
+                "レインボー動物園までのバス移動には約2時間かかります。\n雨が降った場合は、代わりにレインボー博物館へ行きます。\n午後3時30分に学校へ戻ります。",
+            ],
+            "sentencePairs": [
+                ["Field Trip", "遠足"],
+                ["Third-grade students will go to the Rainbow Zoo on a school trip by bus.", "3年生は、学校の遠足でバスに乗り、レインボー動物園へ行きます。"],
+                ["Date: Friday, June 20", "日付：6月20日（金）"],
+                ["Meeting Time: 8:00 a.m.", "集合時間：午前8時"],
+                ["The bus ride to the Rainbow Zoo will take about two hours.", "レインボー動物園までのバス移動には約2時間かかります。"],
+                ["We will go to the Rainbow Museum instead if it rains.", "雨が降った場合は、代わりにレインボー博物館へ行きます。"],
+                ["We will come back to the school at 3:30 p.m.", "午後3時30分に学校へ戻ります。"],
             ],
             "questions": [
                 {
@@ -67,6 +76,7 @@ section4 = {
                         "レインボー博物館。",
                         "劇場。",
                     ],
+                    "sourceEvidence": "We will go to the Rainbow Museum instead if it rains.",
                     "questionAudio": "audio/q26.mp3",
                 },
                 {
@@ -100,6 +110,7 @@ section4 = {
                         "午後3時。",
                         "午後3時30分。",
                     ],
+                    "sourceEvidence": "We will come back to the school at 3:30 p.m.",
                     "questionAudio": "audio/q27.mp3",
                 },
             ],
@@ -115,9 +126,28 @@ section4 = {
             ],
             "translations": [
                 "差出人：テッド・ミラー\n宛先：レオ・スミス\n日付：10月10日\n件名：来週について",
-                "やあレオ\nきのうバスケの練習に来なかったね。大丈夫？来週の月曜、203教室でミーティングがあるよ。ミーティングで新しいコーチに会える！来れる？あと、来週の金曜の練習のあとに新しいユニフォームがもらえるよ！\nチームメイトのテッドより",
+                "やあ、レオ\n昨日、バスケットボールの練習に来なかったよね。大丈夫？来週の月曜日、203教室でミーティングがあるよ。ミーティングでは新しいコーチに会えるんだ！ミーティングに来られる？それから、来週の金曜日は、練習のあとに新しいユニフォームを受け取れるよ！\nチームメイトのテッドより",
                 "差出人：レオ・スミス\n宛先：テッド・ミラー\n日付：10月10日\n件名：ありがとう！",
-                "やあテッド\n熱はなかったけど、きのうの午後は頭痛だった。だから練習に行けなかった。でも今はよくなった。ミーティングには行くし、新しいコーチに会えるのが楽しみ！ところで、友達のデイビッドがチームに入りたがってる。来週の水曜に彼と一緒に練習に行っていい？\nレオより",
+                "やあ、テッド\n熱はなかったけれど、昨日の午後は頭が痛かった。だから、練習に行けなかった。でも、今はよくなっているよ。ミーティングには行くし、新しいコーチに会えるのが楽しみだ！ところで、友達のデイビッドがチームに入ることに興味を持っている。来週の水曜日に、彼と一緒に練習へ行ってもいい？\nレオより",
+            ],
+            "sentencePairs": [
+                ["From: Ted Miller\nTo: Leo Smith\nDate: October 10\nSubject: About next week", "差出人：テッド・ミラー\n宛先：レオ・スミス\n日付：10月10日\n件名：来週について"],
+                ["Hi Leo,", "やあ、レオ"],
+                ["You were not at basketball practice yesterday, right?", "昨日、バスケットボールの練習に来なかったよね。"],
+                ["Are you OK?", "大丈夫？"],
+                ["We will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!", "来週の月曜日、203教室でミーティングがあるよ。ミーティングでは新しいコーチに会えるんだ！"],
+                ["Can you come to the meeting?", "ミーティングに来られる？"],
+                ["Also, you can get your new uniform after practice next Friday!", "それから、来週の金曜日は、練習のあとに新しいユニフォームを受け取れるよ！"],
+                ["Your teammate,\nTed", "チームメイトのテッドより"],
+                ["From: Leo Smith\nTo: Ted Miller\nDate: October 10\nSubject: Thank you!", "差出人：レオ・スミス\n宛先：テッド・ミラー\n日付：10月10日\n件名：ありがとう！"],
+                ["Hi Ted,", "やあ、テッド"],
+                ["I did not have a fever, but I had a headache yesterday afternoon.", "熱はなかったけれど、昨日の午後は頭が痛かった。"],
+                ["So, I could not go to practice.", "だから、練習に行けなかった。"],
+                ["However, I am feeling better now.", "でも、今はよくなっているよ。"],
+                ["I will go to the meeting, and I am excited to meet our new coach!", "ミーティングには行くし、新しいコーチに会えるのが楽しみだ！"],
+                ["By the way, my friend David is interested in joining our team.", "ところで、友達のデイビッドがチームに入ることに興味を持っている。"],
+                ["Can I go to practice with him next Wednesday?", "来週の水曜日に、彼と一緒に練習へ行ってもいい？"],
+                ["Bye,\nLeo", "レオより"],
             ],
             "questions": [
                 {
@@ -151,6 +181,7 @@ section4 = {
                         "新しいユニフォームをもらえる。",
                         "新しいコーチに会える。",
                     ],
+                    "sourceEvidence": "We will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!",
                     "questionAudio": "audio/q28.mp3",
                 },
                 {
@@ -184,6 +215,7 @@ section4 = {
                         "チームのキャプテンに会った。",
                         "テッドとバスケットボールをした。",
                     ],
+                    "sourceEvidence": "I did not have a fever, but I had a headache yesterday afternoon.",
                     "questionAudio": "audio/q29.mp3",
                 },
                 {
@@ -217,6 +249,7 @@ section4 = {
                         "来週の金曜日。",
                         "来週の土曜日。",
                     ],
+                    "sourceEvidence": "Can I go to practice with him next Wednesday?",
                     "questionAudio": "audio/q30.mp3",
                 },
             ],
@@ -231,8 +264,23 @@ section4 = {
             ],
             "translations": [
                 "ケイトは16歳で、おばあちゃんが大好き。おばあちゃんはいつもケイトのために楽しい物語を作ってくれた。ケイトは両親と一緒におばあちゃんの家を訪れ、おばあちゃんの話を聞くのが好きだった。それから、自分でも物語を書き始めた。",
-                "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。ある日、お父さんが「来週の日曜におばあちゃんに会いに行こう！」と言った。ケイトは「いいね！花やクッキーをプレゼントに買おうか？」お父さんは「いや、物語を書くのが上手だろう。おばあちゃんのために物語を書きなさい」と言った。ケイトは「いい考え！やってみる」と言った。",
-                "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。ケイトはおばあちゃんにノートを渡した。おばあちゃんはノートを見て「物語を書いたのね！素敵なプレゼントだわ！」と言った。ケイトはとてもうれしかった。",
+                "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。ある日、お父さんが「来週の日曜日におばあちゃんに会いに行こう！」と言った。ケイトは「いいね！花かクッキーをプレゼントに買おうか？」と言った。お父さんは「いや。物語を書くのが得意だろう。おばあちゃんのために物語を書くといい」と言った。ケイトは「いい考えだね！やってみる」と言った。",
+                "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。ケイトはおばあちゃんにノートを渡した。おばあちゃんはノートの中を見て「物語を書いたのね！これはすばらしいプレゼントだわ！」と言った。ケイトはとてもうれしかった。",
+            ],
+            "sentencePairs": [
+                ["Kate is sixteen years old and loves her grandmother.", "ケイトは16歳で、おばあちゃんが大好き。"],
+                ["Her grandmother always made fun stories for Kate.", "おばあちゃんはいつもケイトのために楽しい物語を作ってくれた。"],
+                ["Kate enjoyed visiting her grandmother's house with her parents and listening to her grandmother's stories.", "ケイトは両親と一緒におばあちゃんの家を訪れ、おばあちゃんの話を聞くのが好きだった。"],
+                ["Then, she also began to write her own stories.", "それから、自分でも物語を書き始めた。"],
+                ["Kate's grandmother got sick a year ago, so she is in the hospital now.", "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。"],
+                ["One day, Kate's father said, \"Let's go to see your grandma next Sunday!\"", "ある日、お父さんが「来週の日曜日におばあちゃんに会いに行こう！」と言った。"],
+                ["Kate said, \"Sure! Should I buy some flowers or cookies as a present?\"", "ケイトは「いいね！花かクッキーをプレゼントに買おうか？」と言った。"],
+                ["Kate's father said, \"No. You're good at writing stories! You should write a story for her.\"", "お父さんは「いや。物語を書くのが得意だろう。おばあちゃんのために物語を書くといい」と言った。"],
+                ["Kate said, \"Good idea! I'll try it.\"", "ケイトは「いい考えだね！やってみる」と言った。"],
+                ["When Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.", "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。"],
+                ["Kate gave her grandmother a notebook.", "ケイトはおばあちゃんにノートを渡した。"],
+                ["Kate's grandmother looked in the notebook and said, \"You wrote a story! This is a wonderful present!\"", "おばあちゃんはノートの中を見て「物語を書いたのね！これはすばらしいプレゼントだわ！」と言った。"],
+                ["Kate was so happy.", "ケイトはとてもうれしかった。"],
             ],
             "questions": [
                 {
@@ -266,6 +314,7 @@ section4 = {
                         "ケイトの物語を聞いた。",
                         "たくさんの本を買った。",
                     ],
+                    "sourceEvidence": "Her grandmother always made fun stories for Kate.",
                     "questionAudio": "audio/q31.mp3",
                 },
                 {
@@ -284,7 +333,7 @@ section4 = {
                         "ケイトの家＝今は病院。",
                         "○ 病院にいる。she is in the hospital now.",
                         "友達の家＝書いてない。",
-                        "自分の家＝1年前までは家にいたが、今は病院。",
+                        "自分の家＝本文は現在の居場所を病院としている。",
                     ],
                     "choiceAnalysisSimple": [
                         "「ケイトのいえ」はちがうよ。",
@@ -299,6 +348,7 @@ section4 = {
                         "友達の家。",
                         "自分の家。",
                     ],
+                    "sourceEvidence": "Kate's grandmother got sick a year ago, so she is in the hospital now.",
                     "questionAudio": "audio/q32.mp3",
                 },
                 {
@@ -332,6 +382,7 @@ section4 = {
                         "ケイトは花を持っていくべきだ。",
                         "ケイトは楽しい本を買うべきだ。",
                     ],
+                    "sourceEvidence": "You should write a story for her.",
                     "questionAudio": "audio/q33.mp3",
                 },
                 {
@@ -342,19 +393,20 @@ section4 = {
                     "grammar": "「歴史の本が4冊」→ four history books → Four.",
                     "grammarSimple": "「れきしのほんが4さつ」って書いてあるよ！",
                     "choiceAnalysis": [
-                        "1冊＝小説が3冊。歴史の本は4冊。",
+                        "1冊ではない。本文は four history books と述べている。",
                         "2冊＝雑誌の数。",
                         "3冊＝小説の数。",
                         "○ 4冊＝four history books。",
                     ],
                     "choiceAnalysisSimple": [
-                        "「1さつ」はしょうせつだよ。",
+                        "れきしのほんは「1さつ」じゃないよ。",
                         "「2さつ」はざっしだよ。",
                         "「3さつ」はしょうせつだよ。",
                         "○「4さつ」がぴったり！れきしのほん！",
                     ],
                     "questionTranslation": "ケイトは、おばあちゃんのベッドのまわりに歴史の本を何冊見た？",
                     "choiceTranslations": ["1冊。", "2冊。", "3冊。", "4冊。"],
+                    "sourceEvidence": "When Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.",
                     "questionAudio": "audio/q34.mp3",
                 },
                 {
@@ -388,6 +440,7 @@ section4 = {
                         "雑誌。",
                         "ノート。",
                     ],
+                    "sourceEvidence": "Kate gave her grandmother a notebook.",
                     "questionAudio": "audio/q35.mp3",
                 },
             ],

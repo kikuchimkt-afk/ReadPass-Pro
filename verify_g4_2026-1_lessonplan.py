@@ -49,29 +49,47 @@ for fp in fps:
     for key in required_fp:
         if key not in fp or not fp[key]:
             errors.append(f"{fid}: missing {key}")
-    if len(fp.get("examples", [])) < 3:
-        errors.append(f"{fid}: examples < 3")
+    if len(fp.get("examples", [])) != 3:
+        errors.append(f"{fid}: examples != 3")
+    if len(fp.get("explanation", "")) < 100:
+        errors.append(f"{fid}: explanation too short")
     pp = fp.get("practicePassage", {})
     if not pp.get("en") or not pp.get("ja"):
         errors.append(f"{fid}: practicePassage en/ja missing")
     if "[出典:" not in pp.get("en", ""):
         errors.append(f"{fid}: practicePassage missing [出典: ...]")
-    if len(fp.get("practiceQuestions", [])) < 2:
-        errors.append(f"{fid}: practiceQuestions < 2")
+    if len(fp.get("practiceQuestions", [])) != 3:
+        errors.append(f"{fid}: practiceQuestions != 3")
+    if len(fp.get("practiceQuestionsSimple", [])) != 3:
+        errors.append(f"{fid}: practiceQuestionsSimple != 3")
     af = pp.get("audioFile")
-    if af and not audio_ok(af):
+    if not audio_ok(af):
         errors.append(f"{fid}: missing audio {af}")
     sq = fp.get("sourceQuoteAudio")
-    if sq and not audio_ok(sq):
+    if not audio_ok(sq):
         errors.append(f"{fid}: missing sourceQuoteAudio {sq}")
     for j, ex in enumerate(fp.get("examples", [])):
         au = ex.get("audio")
-        if au and not audio_ok(au):
+        if not audio_ok(au):
             errors.append(f"{fid} ex{j+1}: missing audio {au}")
     search = corpus + " " + pp.get("en", "")
     for pat in fp.get("highlightPatterns", []):
         if pat not in search:
             errors.append(f"{fid}: highlight不在: {pat[:50]}")
+
+serialized = json.dumps(d, ensure_ascii=False)
+for stale in ("全部屋", "お兄ちゃんに親切", "おとうとにやさしく", "床で休んでいる"):
+    if stale in serialized:
+        errors.append(f"stale expression remains: {stale}")
+
+full_history_sentence = (
+    "When Kate and her father visited the hospital, they saw three novels, "
+    "four history books, and two magazines around her grandmother's bed."
+)
+if len(fps) >= 4:
+    fp4_en = fps[3].get("practicePassage", {}).get("en", "")
+    if full_history_sentence not in fp4_en or "\nThey saw three novels" in fp4_en:
+        errors.append("fp4: incomplete Kate's Story source quote")
 
 print(f"focusPoints={len(fps)} errors={len(errors)}")
 for e in errors:

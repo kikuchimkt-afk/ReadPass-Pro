@@ -36,7 +36,7 @@ section2 = {
                 "I'll go to the store.＝「店に行くよ」。夕食の時間に母に伝える依頼への返答にならない。",
                 "○ She's on the phone.＝「電話中だ」。Aunt Jill と話している理由の説明と一致。",
                 "I have an idea.＝「いい考えがある」。母に伝えられない理由の説明にならない。",
-                "She doesn't like cooking.＝「料理が嫌い」。dinnertime の話題とはずれる。",
+                "She doesn't like cooking.＝「料理が嫌い」。She's talking with Aunt Jill. につながる説明にならない。",
             ],
             "choiceAnalysisSimple": [
                 "「みせに行く」は合わないよ。",
@@ -163,7 +163,7 @@ section2 = {
             ],
             "answer": 3,
             "grammar": "I can't find it.＝「見つけられない」。every room を探したのに財布が見つからない。",
-            "grammarSimple": "I can't find it. は「みつけられない」。へやをぜんぶさがしたけど、さいふがみつからないよ。",
+            "grammarSimple": "I can't find it. は「みつけられない」。すべてのへやをさがしたけど、さいふがみつからないよ。",
             "choiceAnalysis": [
                 "there wasn't any.＝「何もなかった」。wallet は it で指すので I can't find it の方が自然。",
                 "it wasn't mine.＝「私のものじゃなかった」。探している財布が自分のものでない、という話にはならない。",
@@ -177,7 +177,7 @@ section2 = {
                 "「すきじゃなかった」は合わないよ。",
             ],
             "questionAudio": "audio/q20.mp3",
-            "translation": "娘：どうしたの、お父さん？\n父：財布を探しているんだ。全部屋を探したけど、（　）\n娘：手伝うね。",
+            "translation": "娘：どうしたの、お父さん？\n父：財布を探しているんだ。すべての部屋を探したけど、（　）\n娘：手伝うね。",
             "choiceTranslations": [
                 "何もなかった。",
                 "私のものじゃなかった。",

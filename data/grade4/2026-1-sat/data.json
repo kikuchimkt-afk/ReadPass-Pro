@@ -267,7 +267,7 @@
                         "○ at がぴったり！ともだちのいえにとまる！"
                     ],
                     "questionAudio": "audio/q8.mp3",
-                    "translation": "A: 週末はバンクーバーにいるの？\nB: うん、友達の家に泊まるよ。",
+                    "translation": "A: 週末はバンクーバーにいるの？\nB: うん、友達の家（　）泊まるよ。",
                     "choiceTranslations": [
                         "〜として",
                         "〜へ",
@@ -286,7 +286,7 @@
                     ],
                     "answer": 3,
                     "grammar": "wake up early＝「早く起きる」。朝の習慣として、出勤前にお弁当を作る流れ。",
-                    "grammarSimple": "wakes up early は「はやくおきる」。しごまえにおべんとうをつくるんだよ！",
+                    "grammarSimple": "wakes up early は「はやくおきる」。しごとのまえにおべんとうをつくるんだよ！",
                     "choiceAnalysis": [
                         "catches up→catch up は「追いつく」。early と結びつかない。",
                         "forgets up→forget up は使わない。",
@@ -351,7 +351,7 @@
                         "with"
                     ],
                     "answer": 3,
-                    "grammar": "sick in bed＝「寝込んでいる・床に就いて具合が悪い」。病気の状態の定番表現。",
+                    "grammar": "sick in bed＝「病気で寝込んでいる」。in bed が状態を表す定番表現。",
                     "grammarSimple": "sick in bed は「ねこんでびょうき」。まだねているけど、よくなってきたよ。",
                     "choiceAnalysis": [
                         "sick at bed→at bed は通常使わない。in bed が正しい。",
@@ -366,7 +366,7 @@
                         "with は「〜と」。合わないよ。"
                     ],
                     "questionAudio": "audio/q11.mp3",
-                    "translation": "A: エレンはどうですか、シンプソン先生。\nB: まだ（　）で具合が悪いですが、よくなってきました。",
+                    "translation": "A: エレンはどうですか、シンプソン先生。\nB: まだ（　）ベッドで寝込んでいますが、よくなってきました。",
                     "choiceTranslations": [
                         "〜で（at）",
                         "〜の下で",
@@ -384,8 +384,8 @@
                         "in"
                     ],
                     "answer": 1,
-                    "grammar": "be kind to ～＝「〜に親切にする」。人に対する態度を表す to。",
-                    "grammarSimple": "be kind to は「〜にやさしくする」。おとうとにやさしくしなさい、だよ！",
+                    "grammar": "be kind to ～＝「〜に親切にする」。人に対する態度を表す to。brother は年上・年下のどちらかは本文から決められない。",
+                    "grammarSimple": "be kind to は「〜にやさしくする」。きょうだいにやさしくしなさい、だよ！",
                     "choiceAnalysis": [
                         "○ to＝be kind to ～ が正しい形。",
                         "be kind on→通常使わない。",
@@ -399,7 +399,7 @@
                         "in は合わないよ。"
                     ],
                     "questionAudio": "audio/q12.mp3",
-                    "translation": "A: お兄ちゃんに親切にしなさい。\nB: はい、ママ。",
+                    "translation": "A: きょうだい（　）親切にしなさい。\nB: はい、ママ。",
                     "choiceTranslations": [
                         "〜に（to）",
                         "〜の上に",
@@ -422,7 +422,7 @@
                     "choiceAnalysis": [
                         "know＝現在形。yesterday とは時制が合わない。",
                         "○ knew＝過去形。昨日の出来事なので knew。",
-                        "knowing＝進行形・動名詞。述語として主に使えない。",
+                        "knowing＝現在分詞・動名詞。単独ではこの文の述語にならない。",
                         "to know＝不定詞。文の述語として不自然。"
                     ],
                     "choiceAnalysisSimple": [
@@ -498,7 +498,7 @@
                         "cleaned は文法がちがうよ。"
                     ],
                     "questionAudio": "audio/q15.mp3",
-                    "translation": "A: 今日、ビデオゲームしていい、お父さん？\nB: うん。でも、先に自分の部屋を（　）しなさい。",
+                    "translation": "A: 今日、ビデオゲームをしていい、お父さん？\nB: うん。でも、先に自分の部屋を（　）。",
                     "choiceTranslations": [
                         "掃除する（原形）",
                         "掃除する（三単現）",
@@ -530,7 +530,7 @@
                         "I'll go to the store.＝「店に行くよ」。夕食の時間に母に伝える依頼への返答にならない。",
                         "○ She's on the phone.＝「電話中だ」。Aunt Jill と話している理由の説明と一致。",
                         "I have an idea.＝「いい考えがある」。母に伝えられない理由の説明にならない。",
-                        "She doesn't like cooking.＝「料理が嫌い」。dinnertime の話題とはずれる。"
+                        "She doesn't like cooking.＝「料理が嫌い」。She's talking with Aunt Jill. につながる説明にならない。"
                     ],
                     "choiceAnalysisSimple": [
                         "「みせに行く」は合わないよ。",
@@ -657,7 +657,7 @@
                     ],
                     "answer": 3,
                     "grammar": "I can't find it.＝「見つけられない」。every room を探したのに財布が見つからない。",
-                    "grammarSimple": "I can't find it. は「みつけられない」。へやをぜんぶさがしたけど、さいふがみつからないよ。",
+                    "grammarSimple": "I can't find it. は「みつけられない」。すべてのへやをさがしたけど、さいふがみつからないよ。",
                     "choiceAnalysis": [
                         "there wasn't any.＝「何もなかった」。wallet は it で指すので I can't find it の方が自然。",
                         "it wasn't mine.＝「私のものじゃなかった」。探している財布が自分のものでない、という話にはならない。",
@@ -671,7 +671,7 @@
                         "「すきじゃなかった」は合わないよ。"
                     ],
                     "questionAudio": "audio/q20.mp3",
-                    "translation": "娘：どうしたの、お父さん？\n父：財布を探しているんだ。全部屋を探したけど、（　）\n娘：手伝うね。",
+                    "translation": "娘：どうしたの、お父さん？\n父：財布を探しているんだ。すべての部屋を探したけど、（　）\n娘：手伝うね。",
                     "choiceTranslations": [
                         "何もなかった。",
                         "私のものじゃなかった。",
@@ -720,10 +720,10 @@
                     "grammar": "並べかえると「I don't have to wear my uniform today.」になります。don't have to＝「〜する必要はない」。空所は2語目 have（①）と4語目 wear（③）。",
                     "grammarSimple": "正しい文は「I don't have to wear my uniform today.」。きょうはせいふくをきるひつようはない、だよ。2ばんめ have、4ばんめ wear！",
                     "choiceAnalysis": [
-                        "○「①−③」＝have と wear。don't have to wear my uniform で文が完成。",
-                        "「④−②」だと don't my ... の順になり、文が正しく組めない。",
-                        "「⑤−①」だと to have ... となり、have to wear の形にならない。",
-                        "「③−⑤」だと wear to ... となり、語順が合わない。"
+                        "○ 2番目＝①「have」、4番目＝③「wear」。I don't have to wear my uniform today. と正しく並びます。",
+                        "④−②：2番目が④「don't」、4番目が②「my」で、正しい位置と異なります。正しくは①「have」と③「wear」です。",
+                        "⑤−①：2番目が⑤「to」、4番目が①「have」で、正しい位置と異なります。正しくは①「have」と③「wear」です。",
+                        "③−⑤：2番目が③「wear」、4番目が⑤「to」で、正しい位置と異なります。正しくは①「have」と③「wear」です。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「①−③」が正解！have と wear でぴったり！",
@@ -766,10 +766,10 @@
                     "grammar": "並べかえると「How about spaghetti for dinner?」になります。How about ～?＝「〜はどう？」。空所は2語目 about（⑤）と4語目 for（③）。",
                     "grammarSimple": "正しい文は「How about spaghetti for dinner?」。ゆうしょくにスパゲッティはどう？2ばんめ about、4ばんめ for！",
                     "choiceAnalysis": [
-                        "○「⑤−③」＝about と for。How about spaghetti for dinner? が自然な提案の形。",
-                        "「⑤−①」だと about dinner が続き、spaghetti for が後ろに回って不自然。",
-                        "「②−④」だと how spaghetti ... となり、How about の形にならない。",
-                        "「③−④」だと for spaghetti ... から始まり、文として成立しない。"
+                        "○ 2番目＝⑤「about」、4番目＝③「for」。How about spaghetti for dinner? と正しく並びます。",
+                        "⑤−①：2番目は⑤「about」で合いますが、4番目が①「dinner」で異なります。正しくは③「for」です。",
+                        "②−④：2番目が②「how」、4番目が④「spaghetti」で、正しい位置と異なります。正しくは⑤「about」と③「for」です。",
+                        "③−④：2番目が③「for」、4番目が④「spaghetti」で、正しい位置と異なります。正しくは⑤「about」と③「for」です。"
                     ],
                     "choiceAnalysisSimple": [
                         "○「⑤−③」が正解！How about ... for dinner? だよ！",
@@ -812,13 +812,13 @@
                     "grammar": "並べかえると「That TV program was not interesting at all.」になります。not interesting at all＝「まったく面白くない」。空所は2語目 was（⑤）と4語目 interesting（④）。",
                     "grammarSimple": "正しい文は「That TV program was not interesting at all.」。ぜんぜんおもしろくなかった、だよ。2ばんめ was、4ばんめ interesting！",
                     "choiceAnalysis": [
-                        "「③−④」だと that TV program interesting ... となり、was が抜けて文が成立しない。",
-                        "「①−⑤」だと at was ... から始まり、語順が合わない。",
-                        "○「⑤−④」＝was と interesting。was not interesting at all で完成。",
-                        "「②−①」だと not at ... となり、not interesting の形にならない。"
+                        "③−④：2番目が③「that TV program」、4番目が④「interesting」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。",
+                        "①−⑤：2番目が①「at」、4番目が⑤「was」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。",
+                        "○ 2番目＝⑤「was」、4番目＝④「interesting」。That TV program was not interesting at all. と正しく並びます。",
+                        "②−①：2番目が②「not」、4番目が①「at」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「③−④」は was がたりないよ。",
+                        "③「that TV program」と④「interesting」では、2ばんめのばしょがちがうよ。",
                         "「①−⑤」はじゅんばんがちがうよ。",
                         "○「⑤−④」が正解！was not interesting だよ！",
                         "「②−①」は not interesting にならないよ。"
@@ -858,10 +858,10 @@
                     "grammar": "並べかえると「The math test was not so easy for me.」になります。not so easy＝「それほど簡単ではない」。空所は2語目 not（①）と4語目 easy（②）。",
                     "grammarSimple": "正しい文は「The math test was not so easy for me.」。すうがくのテストはわたしにはそれほどかんたんじゃなかった。2ばんめ not、4ばんめ easy！",
                     "choiceAnalysis": [
-                        "「⑤−④」だと so was ... となり、was not so easy の形にならない。",
-                        "「①−③」だと not for ... となり、not so easy が続かない。",
-                        "「③−④」だと for was ... となり、語順が合わない。",
-                        "○「①−②」＝not と easy。was not so easy for me で文が完成。"
+                        "⑤−④：2番目が⑤「so」、4番目が④「was」で、正しい位置と異なります。正しくは①「not」と②「easy」です。",
+                        "①−③：2番目は①「not」で合いますが、4番目が③「for」で異なります。正しくは②「easy」です。",
+                        "③−④：2番目が③「for」、4番目が④「was」で、正しい位置と異なります。正しくは①「not」と②「easy」です。",
+                        "○ 2番目＝①「not」、4番目＝②「easy」。The math test was not so easy for me. と正しく並びます。"
                     ],
                     "choiceAnalysisSimple": [
                         "「⑤−④」は was not so easy にならないよ。",
@@ -904,10 +904,10 @@
                     "grammar": "並べかえると「Paul, why did you choose this school?」になります。why did you ...?＝「なぜあなたは〜したの？」。空所は2語目 did（②）と4語目 choose（④）。",
                     "grammarSimple": "正しい文は「Paul, why did you choose this school?」。なぜこのがっこうをえらんだの？2ばんめ did、4ばんめ choose！",
                     "choiceAnalysis": [
-                        "「④−③」だと choose this ... が先に来て、why did の疑問文の形にならない。",
-                        "○「②−④」＝did と choose。why did you choose this school? が自然な疑問文。",
-                        "「①−③」だと you this ... となり、did you choose の形にならない。",
-                        "「④−①」だと choose you ... となり、語順が合わない。"
+                        "④−③：2番目が④「choose」、4番目が③「this」で、正しい位置と異なります。正しくは②「did」と④「choose」です。",
+                        "○ 2番目＝②「did」、4番目＝④「choose」。Paul, why did you choose this school? と正しく並びます。",
+                        "①−③：2番目が①「you」、4番目が③「this」で、正しい位置と異なります。正しくは②「did」と④「choose」です。",
+                        "④−①：2番目が④「choose」、4番目が①「you」で、正しい位置と異なります。正しくは②「did」と④「choose」です。"
                     ],
                     "choiceAnalysisSimple": [
                         "「④−③」はぎもんぶんにならないよ。",
@@ -936,9 +936,39 @@
                     ],
                     "translations": [
                         "遠足",
-                        "3年生はバスで学校遠足にレインボー動物園へ行きます。",
+                        "3年生は、学校の遠足でバスに乗り、レインボー動物園へ行きます。",
                         "日付：6月20日（金）\n集合時間：午前8時",
-                        "動物園までのバスは約2時間かかります。\n雨の場合はレインボー博物館に行きます。\n午後3時30分に学校に戻ります。"
+                        "レインボー動物園までのバス移動には約2時間かかります。\n雨が降った場合は、代わりにレインボー博物館へ行きます。\n午後3時30分に学校へ戻ります。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Field Trip",
+                            "遠足"
+                        ],
+                        [
+                            "Third-grade students will go to the Rainbow Zoo on a school trip by bus.",
+                            "3年生は、学校の遠足でバスに乗り、レインボー動物園へ行きます。"
+                        ],
+                        [
+                            "Date: Friday, June 20",
+                            "日付：6月20日（金）"
+                        ],
+                        [
+                            "Meeting Time: 8:00 a.m.",
+                            "集合時間：午前8時"
+                        ],
+                        [
+                            "The bus ride to the Rainbow Zoo will take about two hours.",
+                            "レインボー動物園までのバス移動には約2時間かかります。"
+                        ],
+                        [
+                            "We will go to the Rainbow Museum instead if it rains.",
+                            "雨が降った場合は、代わりにレインボー博物館へ行きます。"
+                        ],
+                        [
+                            "We will come back to the school at 3:30 p.m.",
+                            "午後3時30分に学校へ戻ります。"
+                        ]
                     ],
                     "questions": [
                         {
@@ -972,6 +1002,7 @@
                                 "レインボー博物館。",
                                 "劇場。"
                             ],
+                            "sourceEvidence": "We will go to the Rainbow Museum instead if it rains.",
                             "questionAudio": "audio/q26.mp3"
                         },
                         {
@@ -1005,6 +1036,7 @@
                                 "午後3時。",
                                 "午後3時30分。"
                             ],
+                            "sourceEvidence": "We will come back to the school at 3:30 p.m.",
                             "questionAudio": "audio/q27.mp3"
                         }
                     ]
@@ -1020,9 +1052,79 @@
                     ],
                     "translations": [
                         "差出人：テッド・ミラー\n宛先：レオ・スミス\n日付：10月10日\n件名：来週について",
-                        "やあレオ\nきのうバスケの練習に来なかったね。大丈夫？来週の月曜、203教室でミーティングがあるよ。ミーティングで新しいコーチに会える！来れる？あと、来週の金曜の練習のあとに新しいユニフォームがもらえるよ！\nチームメイトのテッドより",
+                        "やあ、レオ\n昨日、バスケットボールの練習に来なかったよね。大丈夫？来週の月曜日、203教室でミーティングがあるよ。ミーティングでは新しいコーチに会えるんだ！ミーティングに来られる？それから、来週の金曜日は、練習のあとに新しいユニフォームを受け取れるよ！\nチームメイトのテッドより",
                         "差出人：レオ・スミス\n宛先：テッド・ミラー\n日付：10月10日\n件名：ありがとう！",
-                        "やあテッド\n熱はなかったけど、きのうの午後は頭痛だった。だから練習に行けなかった。でも今はよくなった。ミーティングには行くし、新しいコーチに会えるのが楽しみ！ところで、友達のデイビッドがチームに入りたがってる。来週の水曜に彼と一緒に練習に行っていい？\nレオより"
+                        "やあ、テッド\n熱はなかったけれど、昨日の午後は頭が痛かった。だから、練習に行けなかった。でも、今はよくなっているよ。ミーティングには行くし、新しいコーチに会えるのが楽しみだ！ところで、友達のデイビッドがチームに入ることに興味を持っている。来週の水曜日に、彼と一緒に練習へ行ってもいい？\nレオより"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "From: Ted Miller\nTo: Leo Smith\nDate: October 10\nSubject: About next week",
+                            "差出人：テッド・ミラー\n宛先：レオ・スミス\n日付：10月10日\n件名：来週について"
+                        ],
+                        [
+                            "Hi Leo,",
+                            "やあ、レオ"
+                        ],
+                        [
+                            "You were not at basketball practice yesterday, right?",
+                            "昨日、バスケットボールの練習に来なかったよね。"
+                        ],
+                        [
+                            "Are you OK?",
+                            "大丈夫？"
+                        ],
+                        [
+                            "We will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!",
+                            "来週の月曜日、203教室でミーティングがあるよ。ミーティングでは新しいコーチに会えるんだ！"
+                        ],
+                        [
+                            "Can you come to the meeting?",
+                            "ミーティングに来られる？"
+                        ],
+                        [
+                            "Also, you can get your new uniform after practice next Friday!",
+                            "それから、来週の金曜日は、練習のあとに新しいユニフォームを受け取れるよ！"
+                        ],
+                        [
+                            "Your teammate,\nTed",
+                            "チームメイトのテッドより"
+                        ],
+                        [
+                            "From: Leo Smith\nTo: Ted Miller\nDate: October 10\nSubject: Thank you!",
+                            "差出人：レオ・スミス\n宛先：テッド・ミラー\n日付：10月10日\n件名：ありがとう！"
+                        ],
+                        [
+                            "Hi Ted,",
+                            "やあ、テッド"
+                        ],
+                        [
+                            "I did not have a fever, but I had a headache yesterday afternoon.",
+                            "熱はなかったけれど、昨日の午後は頭が痛かった。"
+                        ],
+                        [
+                            "So, I could not go to practice.",
+                            "だから、練習に行けなかった。"
+                        ],
+                        [
+                            "However, I am feeling better now.",
+                            "でも、今はよくなっているよ。"
+                        ],
+                        [
+                            "I will go to the meeting, and I am excited to meet our new coach!",
+                            "ミーティングには行くし、新しいコーチに会えるのが楽しみだ！"
+                        ],
+                        [
+                            "By the way, my friend David is interested in joining our team.",
+                            "ところで、友達のデイビッドがチームに入ることに興味を持っている。"
+                        ],
+                        [
+                            "Can I go to practice with him next Wednesday?",
+                            "来週の水曜日に、彼と一緒に練習へ行ってもいい？"
+                        ],
+                        [
+                            "Bye,\nLeo",
+                            "レオより"
+                        ]
                     ],
                     "questions": [
                         {
@@ -1056,6 +1158,7 @@
                                 "新しいユニフォームをもらえる。",
                                 "新しいコーチに会える。"
                             ],
+                            "sourceEvidence": "We will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!",
                             "questionAudio": "audio/q28.mp3"
                         },
                         {
@@ -1089,6 +1192,7 @@
                                 "チームのキャプテンに会った。",
                                 "テッドとバスケットボールをした。"
                             ],
+                            "sourceEvidence": "I did not have a fever, but I had a headache yesterday afternoon.",
                             "questionAudio": "audio/q29.mp3"
                         },
                         {
@@ -1122,6 +1226,7 @@
                                 "来週の金曜日。",
                                 "来週の土曜日。"
                             ],
+                            "sourceEvidence": "Can I go to practice with him next Wednesday?",
                             "questionAudio": "audio/q30.mp3"
                         }
                     ]
@@ -1136,8 +1241,62 @@
                     ],
                     "translations": [
                         "ケイトは16歳で、おばあちゃんが大好き。おばあちゃんはいつもケイトのために楽しい物語を作ってくれた。ケイトは両親と一緒におばあちゃんの家を訪れ、おばあちゃんの話を聞くのが好きだった。それから、自分でも物語を書き始めた。",
-                        "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。ある日、お父さんが「来週の日曜におばあちゃんに会いに行こう！」と言った。ケイトは「いいね！花やクッキーをプレゼントに買おうか？」お父さんは「いや、物語を書くのが上手だろう。おばあちゃんのために物語を書きなさい」と言った。ケイトは「いい考え！やってみる」と言った。",
-                        "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。ケイトはおばあちゃんにノートを渡した。おばあちゃんはノートを見て「物語を書いたのね！素敵なプレゼントだわ！」と言った。ケイトはとてもうれしかった。"
+                        "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。ある日、お父さんが「来週の日曜日におばあちゃんに会いに行こう！」と言った。ケイトは「いいね！花かクッキーをプレゼントに買おうか？」と言った。お父さんは「いや。物語を書くのが得意だろう。おばあちゃんのために物語を書くといい」と言った。ケイトは「いい考えだね！やってみる」と言った。",
+                        "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。ケイトはおばあちゃんにノートを渡した。おばあちゃんはノートの中を見て「物語を書いたのね！これはすばらしいプレゼントだわ！」と言った。ケイトはとてもうれしかった。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Kate is sixteen years old and loves her grandmother.",
+                            "ケイトは16歳で、おばあちゃんが大好き。"
+                        ],
+                        [
+                            "Her grandmother always made fun stories for Kate.",
+                            "おばあちゃんはいつもケイトのために楽しい物語を作ってくれた。"
+                        ],
+                        [
+                            "Kate enjoyed visiting her grandmother's house with her parents and listening to her grandmother's stories.",
+                            "ケイトは両親と一緒におばあちゃんの家を訪れ、おばあちゃんの話を聞くのが好きだった。"
+                        ],
+                        [
+                            "Then, she also began to write her own stories.",
+                            "それから、自分でも物語を書き始めた。"
+                        ],
+                        [
+                            "Kate's grandmother got sick a year ago, so she is in the hospital now.",
+                            "ケイトのおばあちゃんは1年前に病気になり、今は病院にいる。"
+                        ],
+                        [
+                            "One day, Kate's father said, \"Let's go to see your grandma next Sunday!\"",
+                            "ある日、お父さんが「来週の日曜日におばあちゃんに会いに行こう！」と言った。"
+                        ],
+                        [
+                            "Kate said, \"Sure! Should I buy some flowers or cookies as a present?\"",
+                            "ケイトは「いいね！花かクッキーをプレゼントに買おうか？」と言った。"
+                        ],
+                        [
+                            "Kate's father said, \"No. You're good at writing stories! You should write a story for her.\"",
+                            "お父さんは「いや。物語を書くのが得意だろう。おばあちゃんのために物語を書くといい」と言った。"
+                        ],
+                        [
+                            "Kate said, \"Good idea! I'll try it.\"",
+                            "ケイトは「いい考えだね！やってみる」と言った。"
+                        ],
+                        [
+                            "When Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.",
+                            "ケイトとお父さんが病院を訪れると、おばあちゃんのベッドのまわりに小説が3冊、歴史の本が4冊、雑誌が2冊あった。"
+                        ],
+                        [
+                            "Kate gave her grandmother a notebook.",
+                            "ケイトはおばあちゃんにノートを渡した。"
+                        ],
+                        [
+                            "Kate's grandmother looked in the notebook and said, \"You wrote a story! This is a wonderful present!\"",
+                            "おばあちゃんはノートの中を見て「物語を書いたのね！これはすばらしいプレゼントだわ！」と言った。"
+                        ],
+                        [
+                            "Kate was so happy.",
+                            "ケイトはとてもうれしかった。"
+                        ]
                     ],
                     "questions": [
                         {
@@ -1171,6 +1330,7 @@
                                 "ケイトの物語を聞いた。",
                                 "たくさんの本を買った。"
                             ],
+                            "sourceEvidence": "Her grandmother always made fun stories for Kate.",
                             "questionAudio": "audio/q31.mp3"
                         },
                         {
@@ -1189,7 +1349,7 @@
                                 "ケイトの家＝今は病院。",
                                 "○ 病院にいる。she is in the hospital now.",
                                 "友達の家＝書いてない。",
-                                "自分の家＝1年前までは家にいたが、今は病院。"
+                                "自分の家＝本文は現在の居場所を病院としている。"
                             ],
                             "choiceAnalysisSimple": [
                                 "「ケイトのいえ」はちがうよ。",
@@ -1204,6 +1364,7 @@
                                 "友達の家。",
                                 "自分の家。"
                             ],
+                            "sourceEvidence": "Kate's grandmother got sick a year ago, so she is in the hospital now.",
                             "questionAudio": "audio/q32.mp3"
                         },
                         {
@@ -1237,6 +1398,7 @@
                                 "ケイトは花を持っていくべきだ。",
                                 "ケイトは楽しい本を買うべきだ。"
                             ],
+                            "sourceEvidence": "You should write a story for her.",
                             "questionAudio": "audio/q33.mp3"
                         },
                         {
@@ -1252,13 +1414,13 @@
                             "grammar": "「歴史の本が4冊」→ four history books → Four.",
                             "grammarSimple": "「れきしのほんが4さつ」って書いてあるよ！",
                             "choiceAnalysis": [
-                                "1冊＝小説が3冊。歴史の本は4冊。",
+                                "1冊ではない。本文は four history books と述べている。",
                                 "2冊＝雑誌の数。",
                                 "3冊＝小説の数。",
                                 "○ 4冊＝four history books。"
                             ],
                             "choiceAnalysisSimple": [
-                                "「1さつ」はしょうせつだよ。",
+                                "れきしのほんは「1さつ」じゃないよ。",
                                 "「2さつ」はざっしだよ。",
                                 "「3さつ」はしょうせつだよ。",
                                 "○「4さつ」がぴったり！れきしのほん！"
@@ -1270,6 +1432,7 @@
                                 "3冊。",
                                 "4冊。"
                             ],
+                            "sourceEvidence": "When Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.",
                             "questionAudio": "audio/q34.mp3"
                         },
                         {
@@ -1303,6 +1466,7 @@
                                 "雑誌。",
                                 "ノート。"
                             ],
+                            "sourceEvidence": "Kate gave her grandmother a notebook.",
                             "questionAudio": "audio/q35.mp3"
                         }
                     ]
@@ -1360,6 +1524,7 @@
                 "単語",
                 "メートル"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_001_building.mp3",
             "exampleAudio": "audio/vocab/ex_001_building.mp3"
         },
@@ -1374,6 +1539,7 @@
                 "飲む",
                 "持ってくる"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_002_wash.mp3",
             "exampleAudio": "audio/vocab/ex_002_wash.mp3"
         },
@@ -1388,6 +1554,7 @@
                 "うるさい",
                 "乾いた"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_003_long.mp3",
             "exampleAudio": "audio/vocab/ex_003_long.mp3"
         },
@@ -1402,6 +1569,7 @@
                 "帽子",
                 "サンドイッチ"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_004_lake.mp3",
             "exampleAudio": "audio/vocab/ex_004_lake.mp3"
         },
@@ -1416,6 +1584,7 @@
                 "決めた",
                 "望んだ"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_005_invited.mp3",
             "exampleAudio": "audio/vocab/ex_005_invited.mp3"
         },
@@ -1430,6 +1599,7 @@
                 "壁",
                 "名前"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_006_news.mp3",
             "exampleAudio": "audio/vocab/ex_006_news.mp3"
         },
@@ -1444,6 +1614,7 @@
                 "シャツ",
                 "葉"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_007_cousins.mp3",
             "exampleAudio": "audio/vocab/ex_007_cousins.mp3"
         },
@@ -1458,6 +1629,7 @@
                 "〜へ",
                 "〜の上に"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_008_at.mp3",
             "exampleAudio": "audio/vocab/ex_008_at.mp3"
         },
@@ -1472,12 +1644,13 @@
                 "忘れる",
                 "保つ"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_009_wakes.mp3",
             "exampleAudio": "audio/vocab/ex_009_wakes.mp3"
         },
         {
             "word": "minute",
-            "meaning": "分（時間）",
+            "meaning": "分；少しの間",
             "pos": "名詞",
             "level": "4級",
             "example": "Wait a minute. I forgot our baseball caps.",
@@ -1486,6 +1659,7 @@
                 "理由",
                 "人"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_010_minute.mp3",
             "exampleAudio": "audio/vocab/ex_010_minute.mp3"
         },
@@ -1500,6 +1674,7 @@
                 "〜と一緒に",
                 "〜に（時刻）"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_011_in.mp3",
             "exampleAudio": "audio/vocab/ex_011_in.mp3"
         },
@@ -1514,6 +1689,7 @@
                 "〜に（時刻）",
                 "〜の中に"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_012_to.mp3",
             "exampleAudio": "audio/vocab/ex_012_to.mp3"
         },
@@ -1528,13 +1704,14 @@
                 "知っている",
                 "知るために"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_013_knew.mp3",
             "exampleAudio": "audio/vocab/ex_013_knew.mp3"
         },
         {
             "word": "playing",
-            "meaning": "（ゲームなどを）している",
-            "pos": "動詞（〜ing）",
+            "meaning": "（ゲームなどを）すること",
+            "pos": "動名詞",
             "level": "4級",
             "example": "Stop playing the video game and go to bed.",
             "distractors": [
@@ -1542,6 +1719,7 @@
                 "遊んだ",
                 "やめる"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_014_playing.mp3",
             "exampleAudio": "audio/vocab/ex_014_playing.mp3"
         },
@@ -1556,6 +1734,7 @@
                 "掃除している",
                 "掃除した"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_015_clean.mp3",
             "exampleAudio": "audio/vocab/ex_015_clean.mp3"
         },
@@ -1570,6 +1749,7 @@
                 "アイデアがある",
                 "料理が嫌い"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_016_on_the_phone.mp3",
             "exampleAudio": "audio/vocab/ex_016_on_the_phone.mp3"
         },
@@ -1584,6 +1764,7 @@
                 "いくらですか",
                 "新しいですか"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_017_come.mp3",
             "exampleAudio": "audio/vocab/ex_017_come.mp3"
         },
@@ -1598,6 +1779,7 @@
                 "家にいる",
                 "あなたのものではない"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_018_going_to_work.mp3",
             "exampleAudio": "audio/vocab/ex_018_going_to_work.mp3"
         },
@@ -1612,6 +1794,7 @@
                 "残念だね",
                 "それだけ"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_019_red_and_white.mp3",
             "exampleAudio": "audio/vocab/ex_019_red_and_white.mp3"
         },
@@ -1626,6 +1809,7 @@
                 "私のものではなかった",
                 "好きではなかった"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_020_can_t_find.mp3",
             "exampleAudio": "audio/vocab/ex_020_can_t_find.mp3"
         },
@@ -1640,6 +1824,7 @@
                 "着る",
                 "するために"
             ],
+            "source": "大問3",
             "wordAudio": "audio/vocab/w_021_uniform.mp3",
             "exampleAudio": "audio/vocab/ex_021_uniform.mp3"
         },
@@ -1654,6 +1839,7 @@
                 "〜について",
                 "〜のために"
             ],
+            "source": "大問3",
             "wordAudio": "audio/vocab/w_022_spaghetti.mp3",
             "exampleAudio": "audio/vocab/ex_022_spaghetti.mp3"
         },
@@ -1668,6 +1854,7 @@
                 "〜ではない",
                 "〜だった"
             ],
+            "source": "大問3",
             "wordAudio": "audio/vocab/w_023_interesting.mp3",
             "exampleAudio": "audio/vocab/ex_023_interesting.mp3"
         },
@@ -1682,6 +1869,7 @@
                 "とても",
                 "〜のために"
             ],
+            "source": "大問3",
             "wordAudio": "audio/vocab/w_024_easy.mp3",
             "exampleAudio": "audio/vocab/ex_024_easy.mp3"
         },
@@ -1696,6 +1884,7 @@
                 "した",
                 "この"
             ],
+            "source": "大問3",
             "wordAudio": "audio/vocab/w_025_choose.mp3",
             "exampleAudio": "audio/vocab/ex_025_choose.mp3"
         },
@@ -1710,6 +1899,7 @@
                 "劇場",
                 "別の学校"
             ],
+            "source": "大問4A",
             "wordAudio": "audio/vocab/w_026_museum.mp3",
             "exampleAudio": "audio/vocab/ex_026_museum.mp3"
         },
@@ -1724,6 +1914,7 @@
                 "キャプテン",
                 "選手"
             ],
+            "source": "大問4B",
             "wordAudio": "audio/vocab/w_027_coach.mp3",
             "exampleAudio": "audio/vocab/ex_027_coach.mp3"
         },
@@ -1738,6 +1929,7 @@
                 "風邪",
                 "腹痛"
             ],
+            "source": "大問4B",
             "wordAudio": "audio/vocab/w_028_headache.mp3",
             "exampleAudio": "audio/vocab/ex_028_headache.mp3"
         },
@@ -1752,6 +1944,7 @@
                 "学校",
                 "図書館"
             ],
+            "source": "大問4C",
             "wordAudio": "audio/vocab/w_029_hospital.mp3",
             "exampleAudio": "audio/vocab/ex_029_hospital.mp3"
         },
@@ -1766,6 +1959,7 @@
                 "雑誌",
                 "絵"
             ],
+            "source": "大問4C",
             "wordAudio": "audio/vocab/w_030_notebook.mp3",
             "exampleAudio": "audio/vocab/ex_030_notebook.mp3"
         }
@@ -1777,7 +1971,7 @@
                 "id": "fp1",
                 "title": "単語は「セット」で覚える",
                 "subtitle": "Collocations: Verb + Preposition",
-                "explanation": "大問1では、単語ひとつより「決まった組み合わせ」が鍵です。wash your hands（手を洗う）、stay at my friend's place（友達の家に泊まる）、sick in bed（寝込んでいる）、be kind to your brother（弟に親切に）、fifteen meters long（15メートルの長さ）は、空所の前後とセットで意味が決まります。また don't have to（〜する必要はない）、stop playing（〜するのをやめる）、must clean（掃除しなきゃ）、knew（過去形の知っていた）も、時制・文型と一緒に押さえると得点源になります。",
+                "explanation": "大問1では、単語ひとつより「決まった組み合わせ」が鍵です。wash your hands（手を洗う）、stay at my friend's place（友達の家に泊まる）、sick in bed（寝込んでいる）、be kind to your brother（きょうだいに親切に）、fifteen meters long（15メートルの長さ）は、空所の前後とセットで意味が決まります。また don't have to（〜する必要はない）、stop playing（〜するのをやめる）、must clean（掃除しなければならない）、knew（know の過去形）も、時制・文型と一緒に押さえると得点源になります。",
                 "explanationSimple": "たんごはセットでおぼえよう！wash your hands は「てをあらう」、stay at は「〜にとまる」、sick in bed は「ねこんでびょうき」。don't have to は「〜しなくていい」、stop playing は「やめる」、must clean は「そうじしなきゃ」だよ。",
                 "sourceQuote": "Do you wash your hands / we'll stay at my friend's place / She's still sick in bed / Be kind to your brother",
                 "sourceLocation": "大問1 (2)(8)(11)(12)",
@@ -1799,14 +1993,14 @@
                     {
                         "en": "She's still sick in bed, but she's better.",
                         "ja": "まだ寝込んでいるけど、よくなってきた。",
-                        "note": "sick in bed＝「寝込んでいる・床で休んでいる」。in bed がセット。",
+                        "note": "sick in bed＝「病気で寝込んでいる」。in bed がセット。",
                         "noteSimple": "sick in bed は「ねこんでびょうき」だよ。",
                         "audio": "audio/fp1_ex3.mp3"
                     }
                 ],
                 "practicePassage": {
                     "en": "[出典: 大問1]\nThe pool is fifteen meters long. It is also very deep.\n\nDo you wash your hands before you eat?\n\nKyoko always wakes up early in the morning.\n\nYes, we'll stay at my friend's place.\n\nShe's still sick in bed, but she's better.\n\nBe kind to your brother.\n\nStop playing the video game and go to bed.\n\nYes, but you must clean your bedroom first.",
-                    "ja": "プールは15メートルの長さ。とても深い。\n\n食べる前に手を洗う？\n\nキョーコはいつも朝早く起きる。\n\n友達の家に泊まるよ。\n\nまだ寝込んでいるけど、よくなってきた。\n\nお兄ちゃんに親切にしなさい。\n\nゲームをやめて寝なさい。\n\nでも、先に部屋を掃除しなさい。",
+                    "ja": "プールは15メートルの長さ。とても深い。\n\n食べる前に手を洗う？\n\nキョーコはいつも朝早く起きる。\n\n友達の家に泊まるよ。\n\nまだ寝込んでいるけど、よくなってきた。\n\nきょうだいに親切にしなさい。\n\nゲームをやめて寝なさい。\n\nでも、先に部屋を掃除しなさい。",
                     "source": "大問1 (3)(2)(9)(8)(11)(12)(14)(15)",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
@@ -1856,7 +2050,7 @@
                 "id": "fp2",
                 "title": "会話は「次のセリフ」で選ぶ",
                 "subtitle": "Dialogue Flow & Set Phrases",
-                "explanation": "大問2は、空所の直後（ときどき直前）のセリフが最大のヒントです。She's talking with Aunt Jill. → She's on the phone.（電話中だから伝えられない）Yes. I'll get my bag. → Do you want to come?（一緒に行く誘いへの返事）What does it look like? → It's red and white.（見た目の説明）I looked in every room, but ... → I can't find it.（財布が見つからない）Wait a minute. や She's on the phone. のような「決まり文句」もセットで覚えましょう。",
+                "explanation": "大問2は、空所の直後（ときどき直前）のセリフが最大のヒントです。She's talking with Aunt Jill. → She's on the phone.（電話中だから伝えられない）。Yes. I'll get my bag. → Do you want to come?（一緒に行く誘いへの返事）。What does it look like? → It's red and white.（見た目の説明）。I looked in every room, but ... → I can't find it.（財布が見つからない）。Wait a minute. や She's on the phone. のような「決まり文句」もセットで覚えましょう。",
                 "explanationSimple": "かいわはつぎのセリフをよんでね！「ジルおばさんと話してる」→「でんわちゅう」。「かばんをもってくる」→「いっしょに行く？」。「どんなかんじ？」→「あかとしろ」。",
                 "sourceQuote": "She's on the phone / Do you want to come / What does it look like / I can't find it",
                 "sourceLocation": "大問2 (16)〜(20)",
@@ -1885,7 +2079,7 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: 大問2]\nFather: Eric, it's dinnertime. Please tell Mom.\nSon: She's on the phone. She's talking with Aunt Jill.\n\nFather: I'm going to the video shop. Do you want to come?\nDaughter: Yes. I'll get my bag.\n\nDaughter: Can you take me to the supermarket today, Dad?\nFather: Sorry, Lisa. I'm going to work now.\n\nGirl 1: I'm looking for my umbrella.\nGirl 2: What does it look like?\nGirl 1: It's red and white.\n\nFather: I'm looking for my wallet. I looked in every room, but I can't find it.\nDaughter: I'll help you.",
-                    "ja": "父：夕食の時間だよ。お母さんに伝えて。\n息子：電話中だよ。ジルおばさんと話している。\n\n父：ビデオ屋に行くんだ。一緒に来る？\n娘：うん。カバンを取ってくる。\n\n娘：スーパーに連れて行って。\n父：ごめん。今から仕事に行くところなんだ。\n\n女の子1：傘を探しているの。\n女の子2：どんな見た目？\n女の子1：赤と白だよ。\n\n父：財布を探している。全部屋探したけど見つからない。\n娘：手伝うね。",
+                    "ja": "父：夕食の時間だよ。お母さんに伝えて。\n息子：電話中だよ。ジルおばさんと話している。\n\n父：ビデオ屋に行くんだ。一緒に来る？\n娘：うん。カバンを取ってくる。\n\n娘：今日、スーパーに連れて行ってくれる？\n父：ごめん。今から仕事に行くところなんだ。\n\n女の子1：傘を探しているの。\n女の子2：どんな見た目？\n女の子1：赤と白だよ。\n\n父：財布を探している。すべての部屋を探したけど見つからない。\n娘：手伝うね。",
                     "source": "大問2 (16)〜(20)",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
@@ -2037,8 +2231,8 @@
                     }
                 ],
                 "practicePassage": {
-                    "en": "[出典: Field Trip]\nThird-grade students will go to the Rainbow Zoo on a school trip by bus.\nWe will go to the Rainbow Museum instead if it rains.\nWe will come back to the school at 3:30 p.m.\n\n[出典: About next week — Ted & Leo]\nWe will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!\nI had a headache yesterday afternoon. So, I could not go to practice.\nCan I go to practice with him next Wednesday?\n\n[出典: Kate's Story]\nHer grandmother always made fun stories for Kate.\nYou should write a story for her.\nThey saw three novels, four history books, and two magazines around her grandmother's bed.\nKate gave her grandmother a notebook.",
-                    "ja": "【遠足】3年生はレインボー動物園へ。雨なら博物館。午後3時30分に帰校。\n\n【メール】月曜ミーティングでコーチに会える。昨日午後は頭痛で練習休み。水曜にデイビッドと練習したい。\n\n【物語】おばあちゃんは物語を作ってくれた。父は物語を書けと言った。ベッドの周りに本があった。ノートをプレゼントした。",
+                    "en": "[出典: Field Trip]\nThird-grade students will go to the Rainbow Zoo on a school trip by bus.\nWe will go to the Rainbow Museum instead if it rains.\nWe will come back to the school at 3:30 p.m.\n\n[出典: About next week — Ted & Leo]\nWe will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!\nI did not have a fever, but I had a headache yesterday afternoon. So, I could not go to practice.\nCan I go to practice with him next Wednesday?\n\n[出典: Kate's Story]\nHer grandmother always made fun stories for Kate.\nYou should write a story for her.\nWhen Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.\nKate gave her grandmother a notebook.",
+                    "ja": "【遠足】3年生はレインボー動物園へ。雨なら博物館。午後3時30分に帰校。\n\n【メール】月曜ミーティングでコーチに会える。熱はなかったが、昨日の午後は頭が痛くて練習を休んだ。水曜にデイビッドと練習したい。\n\n【物語】おばあちゃんは物語を作ってくれた。父は物語を書けと言った。ベッドの周りに本があった。ノートをプレゼントした。",
                     "source": "大問4A「Field Trip」/ 4B「About next week」/ 4C「Kate's Story」",
                     "audioFile": "audio/practice_pp4.mp3"
                 },

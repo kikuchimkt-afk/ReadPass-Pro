@@ -10,6 +10,12 @@ DATA_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "data", "grade4", "2026-1-sat", "data.json",
 )
+DATA_DIR = os.path.dirname(DATA_PATH)
+
+
+def audio_ok(rel):
+    path = os.path.join(DATA_DIR, (rel or "").replace("/", os.sep))
+    return bool(rel) and os.path.isfile(path) and os.path.getsize(path) >= 500
 
 EXPECTED = {21: 1, 22: 1, 23: 3, 24: 4, 25: 2}
 
@@ -53,6 +59,10 @@ for q in qs:
         errors.append(f"Q{n}: choices count != 4")
     if len(q.get("choiceAnalysis", [])) != 4:
         errors.append(f"Q{n}: choiceAnalysis count != 4")
+    if len(q.get("choiceAnalysisSimple", [])) != 4:
+        errors.append(f"Q{n}: choiceAnalysisSimple count != 4")
+    if not audio_ok(q.get("questionAudio")):
+        errors.append(f"Q{n}: missing audio {q.get('questionAudio')}")
     # 正解スロットと選択肢の整合
     slots = q.get("answerSlots", [])
     order = q.get("correctOrder", [])
@@ -67,12 +77,16 @@ for q in qs:
             errors.append(
                 f"Q{n}: answer choice {actual} != slot pair {expected_label} ({w2}, {w4})"
             )
-    for i, ca in enumerate(q.get("choiceAnalysis", [])):
-        if i + 1 == q["answer"]:
-            if not ca.startswith("○"):
-                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
-        elif ca.startswith("○"):
-            errors.append(f"Q{n}: wrong choice {i + 1} has ○")
+    for i, ca in enumerate(q.get("choiceAnalysis", []), 1):
+        if "2番目" not in ca or "4番目" not in ca:
+            errors.append(f"Q{n}: choice {i} lacks slot-position explanation")
+    for field in ("choiceAnalysis", "choiceAnalysisSimple"):
+        values = q.get(field, [])
+        marked = [i + 1 for i, ca in enumerate(values) if ca.lstrip().startswith("○")]
+        if marked != [q["answer"]]:
+            errors.append(f"Q{n}: {field} marker positions {marked}")
+        if any(ca.lstrip().startswith(("✅", "❌")) for ca in values):
+            errors.append(f"Q{n}: {field} has old emoji marker")
 
 print(f"questions={len(qs)} errors={len(errors)}")
 for e in errors:

@@ -33,10 +33,10 @@ section3 = {
             "grammar": "並べかえると「I don't have to wear my uniform today.」になります。don't have to＝「〜する必要はない」。空所は2語目 have（①）と4語目 wear（③）。",
             "grammarSimple": "正しい文は「I don't have to wear my uniform today.」。きょうはせいふくをきるひつようはない、だよ。2ばんめ have、4ばんめ wear！",
             "choiceAnalysis": [
-                "○「①−③」＝have と wear。don't have to wear my uniform で文が完成。",
-                "「④−②」だと don't my ... の順になり、文が正しく組めない。",
-                "「⑤−①」だと to have ... となり、have to wear の形にならない。",
-                "「③−⑤」だと wear to ... となり、語順が合わない。",
+                "○ 2番目＝①「have」、4番目＝③「wear」。I don't have to wear my uniform today. と正しく並びます。",
+                "④−②：2番目が④「don't」、4番目が②「my」で、正しい位置と異なります。正しくは①「have」と③「wear」です。",
+                "⑤−①：2番目が⑤「to」、4番目が①「have」で、正しい位置と異なります。正しくは①「have」と③「wear」です。",
+                "③−⑤：2番目が③「wear」、4番目が⑤「to」で、正しい位置と異なります。正しくは①「have」と③「wear」です。",
             ],
             "choiceAnalysisSimple": [
                 "○「①−③」が正解！have と wear でぴったり！",
@@ -59,10 +59,10 @@ section3 = {
             "grammar": "並べかえると「How about spaghetti for dinner?」になります。How about ～?＝「〜はどう？」。空所は2語目 about（⑤）と4語目 for（③）。",
             "grammarSimple": "正しい文は「How about spaghetti for dinner?」。ゆうしょくにスパゲッティはどう？2ばんめ about、4ばんめ for！",
             "choiceAnalysis": [
-                "○「⑤−③」＝about と for。How about spaghetti for dinner? が自然な提案の形。",
-                "「⑤−①」だと about dinner が続き、spaghetti for が後ろに回って不自然。",
-                "「②−④」だと how spaghetti ... となり、How about の形にならない。",
-                "「③−④」だと for spaghetti ... から始まり、文として成立しない。",
+                "○ 2番目＝⑤「about」、4番目＝③「for」。How about spaghetti for dinner? と正しく並びます。",
+                "⑤−①：2番目は⑤「about」で合いますが、4番目が①「dinner」で異なります。正しくは③「for」です。",
+                "②−④：2番目が②「how」、4番目が④「spaghetti」で、正しい位置と異なります。正しくは⑤「about」と③「for」です。",
+                "③−④：2番目が③「for」、4番目が④「spaghetti」で、正しい位置と異なります。正しくは⑤「about」と③「for」です。",
             ],
             "choiceAnalysisSimple": [
                 "○「⑤−③」が正解！How about ... for dinner? だよ！",
@@ -85,13 +85,13 @@ section3 = {
             "grammar": "並べかえると「That TV program was not interesting at all.」になります。not interesting at all＝「まったく面白くない」。空所は2語目 was（⑤）と4語目 interesting（④）。",
             "grammarSimple": "正しい文は「That TV program was not interesting at all.」。ぜんぜんおもしろくなかった、だよ。2ばんめ was、4ばんめ interesting！",
             "choiceAnalysis": [
-                "「③−④」だと that TV program interesting ... となり、was が抜けて文が成立しない。",
-                "「①−⑤」だと at was ... から始まり、語順が合わない。",
-                "○「⑤−④」＝was と interesting。was not interesting at all で完成。",
-                "「②−①」だと not at ... となり、not interesting の形にならない。",
+                "③−④：2番目が③「that TV program」、4番目が④「interesting」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。",
+                "①−⑤：2番目が①「at」、4番目が⑤「was」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。",
+                "○ 2番目＝⑤「was」、4番目＝④「interesting」。That TV program was not interesting at all. と正しく並びます。",
+                "②−①：2番目が②「not」、4番目が①「at」で、正しい位置と異なります。正しくは⑤「was」と④「interesting」です。",
             ],
             "choiceAnalysisSimple": [
-                "「③−④」は was がたりないよ。",
+                "③「that TV program」と④「interesting」では、2ばんめのばしょがちがうよ。",
                 "「①−⑤」はじゅんばんがちがうよ。",
                 "○「⑤−④」が正解！was not interesting だよ！",
                 "「②−①」は not interesting にならないよ。",
@@ -111,10 +111,10 @@ section3 = {
             "grammar": "並べかえると「The math test was not so easy for me.」になります。not so easy＝「それほど簡単ではない」。空所は2語目 not（①）と4語目 easy（②）。",
             "grammarSimple": "正しい文は「The math test was not so easy for me.」。すうがくのテストはわたしにはそれほどかんたんじゃなかった。2ばんめ not、4ばんめ easy！",
             "choiceAnalysis": [
-                "「⑤−④」だと so was ... となり、was not so easy の形にならない。",
-                "「①−③」だと not for ... となり、not so easy が続かない。",
-                "「③−④」だと for was ... となり、語順が合わない。",
-                "○「①−②」＝not と easy。was not so easy for me で文が完成。",
+                "⑤−④：2番目が⑤「so」、4番目が④「was」で、正しい位置と異なります。正しくは①「not」と②「easy」です。",
+                "①−③：2番目は①「not」で合いますが、4番目が③「for」で異なります。正しくは②「easy」です。",
+                "③−④：2番目が③「for」、4番目が④「was」で、正しい位置と異なります。正しくは①「not」と②「easy」です。",
+                "○ 2番目＝①「not」、4番目＝②「easy」。The math test was not so easy for me. と正しく並びます。",
             ],
             "choiceAnalysisSimple": [
                 "「⑤−④」は was not so easy にならないよ。",
@@ -137,10 +137,10 @@ section3 = {
             "grammar": "並べかえると「Paul, why did you choose this school?」になります。why did you ...?＝「なぜあなたは〜したの？」。空所は2語目 did（②）と4語目 choose（④）。",
             "grammarSimple": "正しい文は「Paul, why did you choose this school?」。なぜこのがっこうをえらんだの？2ばんめ did、4ばんめ choose！",
             "choiceAnalysis": [
-                "「④−③」だと choose this ... が先に来て、why did の疑問文の形にならない。",
-                "○「②−④」＝did と choose。why did you choose this school? が自然な疑問文。",
-                "「①−③」だと you this ... となり、did you choose の形にならない。",
-                "「④−①」だと choose you ... となり、語順が合わない。",
+                "④−③：2番目が④「choose」、4番目が③「this」で、正しい位置と異なります。正しくは②「did」と④「choose」です。",
+                "○ 2番目＝②「did」、4番目＝④「choose」。Paul, why did you choose this school? と正しく並びます。",
+                "①−③：2番目が①「you」、4番目が③「this」で、正しい位置と異なります。正しくは②「did」と④「choose」です。",
+                "④−①：2番目が④「choose」、4番目が①「you」で、正しい位置と異なります。正しくは②「did」と④「choose」です。",
             ],
             "choiceAnalysisSimple": [
                 "「④−③」はぎもんぶんにならないよ。",

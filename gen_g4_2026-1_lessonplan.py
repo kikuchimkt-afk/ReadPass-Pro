@@ -21,10 +21,10 @@ fp1 = {
     "explanation": (
         "大問1では、単語ひとつより「決まった組み合わせ」が鍵です。"
         "wash your hands（手を洗う）、stay at my friend's place（友達の家に泊まる）、"
-        "sick in bed（寝込んでいる）、be kind to your brother（弟に親切に）、"
+        "sick in bed（寝込んでいる）、be kind to your brother（きょうだいに親切に）、"
         "fifteen meters long（15メートルの長さ）は、空所の前後とセットで意味が決まります。"
-        "また don't have to（〜する必要はない）、stop playing（〜するのをやめる）、must clean（掃除しなきゃ）、"
-        "knew（過去形の知っていた）も、時制・文型と一緒に押さえると得点源になります。"
+        "また don't have to（〜する必要はない）、stop playing（〜するのをやめる）、must clean（掃除しなければならない）、"
+        "knew（know の過去形）も、時制・文型と一緒に押さえると得点源になります。"
     ),
     "explanationSimple": (
         "たんごはセットでおぼえよう！wash your hands は「てをあらう」、"
@@ -49,7 +49,7 @@ fp1 = {
         {
             "en": "She's still sick in bed, but she's better.",
             "ja": "まだ寝込んでいるけど、よくなってきた。",
-            "note": "sick in bed＝「寝込んでいる・床で休んでいる」。in bed がセット。",
+            "note": "sick in bed＝「病気で寝込んでいる」。in bed がセット。",
             "noteSimple": "sick in bed は「ねこんでびょうき」だよ。",
         },
     ],
@@ -71,7 +71,7 @@ fp1 = {
             "キョーコはいつも朝早く起きる。\n\n"
             "友達の家に泊まるよ。\n\n"
             "まだ寝込んでいるけど、よくなってきた。\n\n"
-            "お兄ちゃんに親切にしなさい。\n\n"
+            "きょうだいに親切にしなさい。\n\n"
             "ゲームをやめて寝なさい。\n\n"
             "でも、先に部屋を掃除しなさい。"
         ),
@@ -117,10 +117,10 @@ fp2 = {
     "subtitle": "Dialogue Flow & Set Phrases",
     "explanation": (
         "大問2は、空所の直後（ときどき直前）のセリフが最大のヒントです。"
-        "She's talking with Aunt Jill. → She's on the phone.（電話中だから伝えられない）"
-        "Yes. I'll get my bag. → Do you want to come?（一緒に行く誘いへの返事）"
-        "What does it look like? → It's red and white.（見た目の説明）"
-        "I looked in every room, but ... → I can't find it.（財布が見つからない）"
+        "She's talking with Aunt Jill. → She's on the phone.（電話中だから伝えられない）。"
+        "Yes. I'll get my bag. → Do you want to come?（一緒に行く誘いへの返事）。"
+        "What does it look like? → It's red and white.（見た目の説明）。"
+        "I looked in every room, but ... → I can't find it.（財布が見つからない）。"
         "Wait a minute. や She's on the phone. のような「決まり文句」もセットで覚えましょう。"
     ),
     "explanationSimple": (
@@ -171,12 +171,12 @@ fp2 = {
             "息子：電話中だよ。ジルおばさんと話している。\n\n"
             "父：ビデオ屋に行くんだ。一緒に来る？\n"
             "娘：うん。カバンを取ってくる。\n\n"
-            "娘：スーパーに連れて行って。\n"
+            "娘：今日、スーパーに連れて行ってくれる？\n"
             "父：ごめん。今から仕事に行くところなんだ。\n\n"
             "女の子1：傘を探しているの。\n"
             "女の子2：どんな見た目？\n"
             "女の子1：赤と白だよ。\n\n"
-            "父：財布を探している。全部屋探したけど見つからない。\n"
+            "父：財布を探している。すべての部屋を探したけど見つからない。\n"
             "娘：手伝うね。"
         ),
         "source": "大問2 (16)〜(20)",
@@ -350,17 +350,17 @@ fp4 = {
             "We will come back to the school at 3:30 p.m.\n\n"
             "[出典: About next week — Ted & Leo]\n"
             "We will have a meeting in room 203 next Monday, and we can meet our new coach at the meeting!\n"
-            "I had a headache yesterday afternoon. So, I could not go to practice.\n"
+            "I did not have a fever, but I had a headache yesterday afternoon. So, I could not go to practice.\n"
             "Can I go to practice with him next Wednesday?\n\n"
             "[出典: Kate's Story]\n"
             "Her grandmother always made fun stories for Kate.\n"
             "You should write a story for her.\n"
-            "They saw three novels, four history books, and two magazines around her grandmother's bed.\n"
+            "When Kate and her father visited the hospital, they saw three novels, four history books, and two magazines around her grandmother's bed.\n"
             "Kate gave her grandmother a notebook."
         ),
         "ja": (
             "【遠足】3年生はレインボー動物園へ。雨なら博物館。午後3時30分に帰校。\n\n"
-            "【メール】月曜ミーティングでコーチに会える。昨日午後は頭痛で練習休み。水曜にデイビッドと練習したい。\n\n"
+            "【メール】月曜ミーティングでコーチに会える。熱はなかったが、昨日の午後は頭が痛くて練習を休んだ。水曜にデイビッドと練習したい。\n\n"
             "【物語】おばあちゃんは物語を作ってくれた。父は物語を書けと言った。ベッドの周りに本があった。ノートをプレゼントした。"
         ),
         "source": "大問4A「Field Trip」/ 4B「About next week」/ 4C「Kate's Story」",

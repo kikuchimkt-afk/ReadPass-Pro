@@ -201,7 +201,7 @@ section1 = {
                 "○ at がぴったり！ともだちのいえにとまる！",
             ],
             "questionAudio": "audio/q8.mp3",
-            "translation": "A: 週末はバンクーバーにいるの？\nB: うん、友達の家に泊まるよ。",
+            "translation": "A: 週末はバンクーバーにいるの？\nB: うん、友達の家（　）泊まるよ。",
             "choiceTranslations": ["〜として", "〜へ", "〜の上に", "〜に（場所）"],
         },
         {
@@ -210,7 +210,7 @@ section1 = {
             "choices": ["catches", "forgets", "wakes", "keeps"],
             "answer": 3,
             "grammar": "wake up early＝「早く起きる」。朝の習慣として、出勤前にお弁当を作る流れ。",
-            "grammarSimple": "wakes up early は「はやくおきる」。しごまえにおべんとうをつくるんだよ！",
+            "grammarSimple": "wakes up early は「はやくおきる」。しごとのまえにおべんとうをつくるんだよ！",
             "choiceAnalysis": [
                 "catches up→catch up は「追いつく」。early と結びつかない。",
                 "forgets up→forget up は使わない。",
@@ -255,7 +255,7 @@ section1 = {
             "text": "A: How's Ellen, Ms. Simpson?\nB: She's still sick (　) bed, but she's better.",
             "choices": ["at", "under", "in", "with"],
             "answer": 3,
-            "grammar": "sick in bed＝「寝込んでいる・床に就いて具合が悪い」。病気の状態の定番表現。",
+            "grammar": "sick in bed＝「病気で寝込んでいる」。in bed が状態を表す定番表現。",
             "grammarSimple": "sick in bed は「ねこんでびょうき」。まだねているけど、よくなってきたよ。",
             "choiceAnalysis": [
                 "sick at bed→at bed は通常使わない。in bed が正しい。",
@@ -270,7 +270,7 @@ section1 = {
                 "with は「〜と」。合わないよ。",
             ],
             "questionAudio": "audio/q11.mp3",
-            "translation": "A: エレンはどうですか、シンプソン先生。\nB: まだ（　）で具合が悪いですが、よくなってきました。",
+            "translation": "A: エレンはどうですか、シンプソン先生。\nB: まだ（　）ベッドで寝込んでいますが、よくなってきました。",
             "choiceTranslations": ["〜で（at）", "〜の下で", "〜で（寝ている）", "〜と一緒に"],
         },
         {
@@ -278,8 +278,8 @@ section1 = {
             "text": "A: Be kind (　) your brother.\nB: Yes, Mom.",
             "choices": ["to", "on", "at", "in"],
             "answer": 1,
-            "grammar": "be kind to ～＝「〜に親切にする」。人に対する態度を表す to。",
-            "grammarSimple": "be kind to は「〜にやさしくする」。おとうとにやさしくしなさい、だよ！",
+            "grammar": "be kind to ～＝「〜に親切にする」。人に対する態度を表す to。brother は年上・年下のどちらかは本文から決められない。",
+            "grammarSimple": "be kind to は「〜にやさしくする」。きょうだいにやさしくしなさい、だよ！",
             "choiceAnalysis": [
                 "○ to＝be kind to ～ が正しい形。",
                 "be kind on→通常使わない。",
@@ -293,7 +293,7 @@ section1 = {
                 "in は合わないよ。",
             ],
             "questionAudio": "audio/q12.mp3",
-            "translation": "A: お兄ちゃんに親切にしなさい。\nB: はい、ママ。",
+            "translation": "A: きょうだい（　）親切にしなさい。\nB: はい、ママ。",
             "choiceTranslations": ["〜に（to）", "〜の上に", "〜で（時・場所）", "〜の中に"],
         },
         {
@@ -306,7 +306,7 @@ section1 = {
             "choiceAnalysis": [
                 "know＝現在形。yesterday とは時制が合わない。",
                 "○ knew＝過去形。昨日の出来事なので knew。",
-                "knowing＝進行形・動名詞。述語として主に使えない。",
+                "knowing＝現在分詞・動名詞。単独ではこの文の述語にならない。",
                 "to know＝不定詞。文の述語として不自然。",
             ],
             "choiceAnalysisSimple": [
@@ -362,7 +362,7 @@ section1 = {
                 "cleaned は文法がちがうよ。",
             ],
             "questionAudio": "audio/q15.mp3",
-            "translation": "A: 今日、ビデオゲームしていい、お父さん？\nB: うん。でも、先に自分の部屋を（　）しなさい。",
+            "translation": "A: 今日、ビデオゲームをしていい、お父さん？\nB: うん。でも、先に自分の部屋を（　）。",
             "choiceTranslations": ["掃除する（原形）", "掃除する（三単現）", "掃除している", "掃除した"],
         },
     ],

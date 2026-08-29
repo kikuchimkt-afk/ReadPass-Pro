@@ -98,7 +98,7 @@ vocab.append({
 })
 vocab.append({
     "word": "minute",
-    "meaning": "分（時間）",
+    "meaning": "分；少しの間",
     "pos": "名詞",
     "level": "4級",
     "example": "Wait a minute. I forgot our baseball caps.",
@@ -130,8 +130,8 @@ vocab.append({
 })
 vocab.append({
     "word": "playing",
-    "meaning": "（ゲームなどを）している",
-    "pos": "動詞（〜ing）",
+    "meaning": "（ゲームなどを）すること",
+    "pos": "動名詞",
     "level": "4級",
     "example": "Stop playing the video game and go to bed.",
     "distractors": ["遊ぶ", "遊んだ", "やめる"],
@@ -289,6 +289,19 @@ vocab.append({
 })
 
 assert len(vocab) == 30, f"Expected 30 words, got {len(vocab)}"
+
+# 同級の本会場版と同じく、出典大問を明示する。
+source_ranges = (
+    (0, 15, "大問1"),
+    (15, 20, "大問2"),
+    (20, 25, "大問3"),
+    (25, 26, "大問4A"),
+    (26, 28, "大問4B"),
+    (28, 30, "大問4C"),
+)
+for start, end, source in source_ranges:
+    for item in vocab[start:end]:
+        item["source"] = source
 
 old_vocab = {v["word"]: v for v in data.get("vocabulary", [])}
 for v in vocab:
