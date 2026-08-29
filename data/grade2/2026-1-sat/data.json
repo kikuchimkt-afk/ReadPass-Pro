@@ -821,7 +821,14 @@
                         "impressions=印象→文脈に合わない",
                         "incidents=出来事・事件→正解。💡 no incidents（何事もなく）= a very smooth journey と一致",
                         "outcomes=結果→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "口論",
+                        "印象",
+                        "出来事・事件",
+                        "結果"
+                    ],
+                    "grammar": "💡 no + 複数名詞で「一つも～ない」。problems と a very smooth journey が incidents（出来事・問題）がなかったことを示す。"
                 },
                 {
                     "number": 2,
@@ -839,7 +846,14 @@
                         "quantity=量→正解。💡 a small quantity（少量）= enough for an apple pie と一致",
                         "sacrifice=犠牲→文脈に合わない",
                         "achievement=業績→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "目的地",
+                        "量",
+                        "犠牲",
+                        "業績"
+                    ],
+                    "grammar": "💡 a small quantity＝少量。How many と enough for an apple pie が、必要なリンゴの量を尋ねる文脈を作る。"
                 },
                 {
                     "number": 3,
@@ -857,7 +871,14 @@
                         "resemble=似ている→文脈に合わない",
                         "stir=かき混ぜる→正解。💡 焦げ付き（stick to the bottom）防止にはかき混ぜる",
                         "amuse=楽しませる→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "こぼす",
+                        "～に似ている",
+                        "かき混ぜる",
+                        "楽しませる"
+                    ],
+                    "grammar": "💡 tell A to V＝AにVするよう言う。so that ... would not stick は「鍋底につかないように」で、stir が目的に合う。"
                 },
                 {
                     "number": 4,
@@ -875,7 +896,14 @@
                         "increased=増やされる→文脈に合わない",
                         "favored=好まれる→正解。💡 プロに好まれ、アマチュアも使う＝人気のラケット",
                         "rescued=救助される→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "脅かされた",
+                        "増やされた",
+                        "好まれた",
+                        "救助された"
+                    ],
+                    "grammar": "💡 be favored by A＝Aに好まれる。professional players と serious amateurs の両方が使うことが high-quality の根拠。"
                 },
                 {
                     "number": 5,
@@ -893,7 +921,14 @@
                         "leaps=跳躍→文脈に合わない",
                         "journals=雑誌・日誌→文脈に合わない",
                         "surveys=調査→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "ケーブル・電線",
+                        "跳躍",
+                        "雑誌・日誌",
+                        "調査"
+                    ],
+                    "grammar": "💡 関係代名詞 that provided electricity が先行詞を説明する。repair them の them も複数の cables を指す。"
                 },
                 {
                     "number": 6,
@@ -911,7 +946,14 @@
                         "victory=勝利→文脈に合わない",
                         "appreciation=感謝→正解。💡 show their appreciation for ～＝～への感謝を示す",
                         "disappointment=失望→プレゼントを贈る文脈と逆"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "好み",
+                        "勝利",
+                        "感謝",
+                        "失望"
+                    ],
+                    "grammar": "💡 show one's appreciation for ～＝～への感謝を示す。present を贈った目的を表す定型表現。"
                 },
                 {
                     "number": 7,
@@ -929,7 +971,14 @@
                         "infected=感染させた→文脈に合わない",
                         "scolded=叱った→正解。💡 scold A for B＝AをBのことで叱る。割れた窓＋大声の文脈と一致",
                         "grabbed=つかんだ→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "発見した",
+                        "感染させた",
+                        "叱った",
+                        "つかんだ"
+                    ],
+                    "grammar": "💡 scold A for doing＝Aを～したことで叱る。broken window と in a loud voice が叱責の場面を示す。"
                 },
                 {
                     "number": 8,
@@ -947,7 +996,14 @@
                         "decline=断る・減少する→文脈に合わない",
                         "stimulate=刺激する→文脈に合わない",
                         "neglect=怠る→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "見積もる",
+                        "断る・減少する",
+                        "刺激する",
+                        "怠る"
+                    ],
+                    "grammar": "💡 estimate that S + V＝～だと見積もる。about three hours という所要時間の推定に使われる。"
                 },
                 {
                     "number": 9,
@@ -965,7 +1021,14 @@
                         "roughly=おおよそ・乱暴に→文脈に合わない",
                         "barely=かろうじて→文脈に合わない",
                         "patiently=辛抱強く→正解。💡 not in a hurry（急いでいない）→落ち着いて辛抱強く待つ"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "合法的に",
+                        "乱暴に・おおよそ",
+                        "かろうじて",
+                        "辛抱強く"
+                    ],
+                    "grammar": "💡 However が動揺した乗客と Michael を対比する。not in a hurry なので patiently（辛抱強く）が合う。"
                 },
                 {
                     "number": 10,
@@ -983,7 +1046,14 @@
                         "absent=不在の→文脈に合わない",
                         "current=現在の→正解。💡 current price（現在の価格）＝this year の価格の話と一致",
                         "sudden=突然の→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "否定的な",
+                        "不在の",
+                        "現在の",
+                        "突然の"
+                    ],
+                    "grammar": "💡 current price＝現在の価格。this year と last year の比較が「現在の」を選ぶ手がかり。"
                 },
                 {
                     "number": 11,
@@ -1001,7 +1071,14 @@
                         "In the end=結局→文脈に合わない",
                         "Up until now=今まで→正解。💡 現在完了（has been）＋ but next week（来週からは変わる）と対応",
                         "For the sake=～のために→単独では使えない形"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "途中で",
+                        "結局",
+                        "今まで",
+                        "～のために"
+                    ],
+                    "grammar": "💡 Up until now は現在完了 has been と結びつき「今までずっと」。but next week が今後の変化を示す。"
                 },
                 {
                     "number": 12,
@@ -1019,7 +1096,14 @@
                         "Just in case=念のため→文脈に合わない",
                         "Needless to say=言うまでもなく→正解。💡 全員が主役にはなれないのは当然の帰結",
                         "In other words=言い換えれば→言い換えではない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "それどころか",
+                        "念のため",
+                        "言うまでもなく",
+                        "言い換えれば"
+                    ],
+                    "grammar": "💡 Needless to say＝言うまでもなく。全員が主役を望んでも全員はなれない、という当然の結果を導く。"
                 },
                 {
                     "number": 13,
@@ -1037,7 +1121,14 @@
                         "hold his breath=息を止める→文脈に合わない",
                         "take his place=彼の代わりをする→文脈に合わない",
                         "lose his temper=かんしゃくを起こす→正解。💡 be more patient / stay calm（我慢強く・冷静に）と対比"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "進む",
+                        "息を止める",
+                        "彼の代わりをする",
+                        "かんしゃくを起こす"
+                    ],
+                    "grammar": "💡 lose one's temper＝かっとなる。be more patient / stay calm と反対の状態なので正答を特定できる。"
                 },
                 {
                     "number": 14,
@@ -1055,7 +1146,14 @@
                         "keeping her fingers crossed=幸運を祈っている→正解。💡 合格（gets accepted）を願う気持ちと一致",
                         "taking her breath away=息をのむほど驚かせる→文脈に合わない",
                         "making up her mind=決心する→出願はもう済んでいる"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "彼女の手に入る",
+                        "幸運を祈っている",
+                        "彼女の息をのませる",
+                        "決心している"
+                    ],
+                    "grammar": "💡 keep one's fingers crossed that ...＝～となるよう幸運を祈る。出願後に合格を願う場面。"
                 },
                 {
                     "number": 15,
@@ -1073,7 +1171,14 @@
                         "similar to=～に似ている→文脈に合わない",
                         "confident of=～に自信がある→正解。💡 never doubts himself（決して自分を疑わない）の言い換え",
                         "tired of=～にうんざりしている→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "～をすまなく思う",
+                        "～に似ている",
+                        "～に自信がある",
+                        "～にうんざりしている"
+                    ],
+                    "grammar": "💡 be confident of ～＝～に自信がある。never doubts himself が confident の直接的な言い換え。"
                 },
                 {
                     "number": 16,
@@ -1091,7 +1196,14 @@
                         "hand over=手渡す→文脈に合わない",
                         "pull off=成し遂げる・脱ぐ→文脈に合わない",
                         "lie down=横になる→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "～から離れない・～を守る",
+                        "手渡す",
+                        "成し遂げる・脱ぐ",
+                        "横になる"
+                    ],
+                    "grammar": "💡 keep to the path＝道から外れない・道を守る。Going off the paths can be dangerous と対比される。"
                 },
                 {
                     "number": 17,
@@ -1109,7 +1221,14 @@
                         "comparison to=～との比較→文脈に合わない",
                         "responsibility for=～への責任→文脈に合わない",
                         "reaction to=～への反応→文脈に合わない"
-                    ]
+                    ],
+                    "choiceTranslations": [
+                        "～への影響",
+                        "～との比較",
+                        "～への責任",
+                        "～への反応"
+                    ],
+                    "grammar": "💡 have an effect on ～＝～に影響を与える。スキルと自信を得た返答が大学進学の影響を具体化する。"
                 }
             ]
         },
@@ -1128,70 +1247,100 @@
                         "These urban improvements not only make the streets safe for children but also ( 20 ). Art on the streets makes the space beautiful and clearly shows where people can and should not walk. In some schools, professional artists produced artwork that reflected children's ideas about the community. Some works are playful in that they use flower art to guide children toward places around the neighborhood. These art elements are changing spaces that used to be mainly for cars into community areas where children can actively play together."
                     ],
                     "translations": [
-                        "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。多くの学校が危険に囲まれており、試験的に安全対策が取られた。成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分の足で歩いて学校に行くことができる。",
+                        "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。多くの学校が危険に囲まれており、試験的に安全対策が取られた。成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分たちだけで歩いて学校へ行くことができる。",
                         "ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証される。住民、保護者、学校関係者は( 19 )機会を持つことができる。市の職員はカラフルなペンキとプラスチック製のポールを使って、新しい歩行エリアを示したり、変更された交通パターンを示したりする。すべての意見と観察に基づいて、設計者はより良い材料を使った、より恒久的な解決策を開発することができる。この慎重なアプローチは、地域社会のニーズを満たす最終的な設計につながり、費用のかかる失敗を避けるのに役立つ。",
                         "これらの都市の改善は、通りを子どもにとって安全にするだけでなく、( 20 )。通りのアートは空間を美しくし、人々がどこを歩いてよく、どこを歩くべきでないかをはっきりと示す。いくつかの学校では、プロの芸術家が地域社会についての子どもたちの考えを反映した作品を制作した。作品の中には、花のアートを使って子どもたちを近所の場所へ導くという遊び心のあるものもある。これらのアートの要素は、かつて主に車のためのものだった空間を、子どもたちが一緒に活発に遊べる地域の場へと変えつつある。"
                     ],
                     "sentencePairs": [
                         [
                             "In Bratislava, a central city in Slovakia, efforts have been made to create a child-friendly city through the “City for Children” program.",
-                            "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。"
+                            "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。",
+                            "In Bratislava, a central city in Slovakia,|スロバキアの中心都市ブラチスラバでは、||efforts have been made|取り組みが行われてきた||to create a child-friendly city|子どもに優しい都市をつくるための||through the “City for Children” program.|「City for Children」プログラムを通じて。",
+                            "have been made"
                         ],
                         [
                             "Many schools were surrounded by dangers, and safety measures were taken as a trial.",
-                            "多くの学校が危険に囲まれており、試験的に安全対策が取られた。"
+                            "多くの学校が危険に囲まれており、試験的に安全対策が取られた。",
+                            "Many schools were surrounded by dangers,|多くの学校が危険に囲まれ、||and safety measures were taken|安全対策が取られた||as a trial.|試験的に。",
+                            "were surrounded"
                         ],
                         [
                             "One successful example is Nevädzová Street, which used to be crowded with dozens of cars driven by parents trying to drop off children at school.",
-                            "成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。"
+                            "成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。",
+                            "One successful example is Nevädzová Street,|成功例の一つがネヴァヅォヴァー通りで、||which used to be crowded|かつて混雑していた||with dozens of cars|何十台もの車で||driven by parents|親が運転する||trying to drop off children at school.|学校に子どもを送り届けようとする。",
+                            "is"
                         ],
                         [
                             "Now, cars are banned from this street when children go to school.",
-                            "現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。"
+                            "現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。",
+                            "Now,|現在では、||cars are banned from this street|この通りへの車の乗り入れが禁止されている||when children go to school.|子どもが登校するときには。",
+                            "are banned"
                         ],
                         [
                             "( 18 ), during the school arrival time from 7:30 to 8:00 a.m., children can walk to school on their own.",
-                            "( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分の足で歩いて学校に行くことができる。"
+                            "( 18 )、午前7時30分から8時までの登校時間帯には、子どもたちは自分たちだけで歩いて学校へ行くことができる。",
+                            "( 18 ),|( 18 )、||during the school arrival time from 7:30 to 8:00 a.m.,|午前7時30分から8時までの登校時間帯には、||children can walk to school on their own.|子どもたちは自分たちだけで歩いて学校へ行くことができる。",
+                            "can walk"
                         ],
                         [
                             "In Bratislava, any idea is tested on a trial basis before being introduced permanently.",
-                            "ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証される。"
+                            "ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証される。",
+                            "In Bratislava,|ブラチスラバでは、||any idea is tested|どんなアイデアも検証される||on a trial basis|試験的に||before being introduced permanently.|恒久的に導入される前に。",
+                            "is tested"
                         ],
                         [
                             "Residents, parents, and school officials can have the opportunity to ( 19 ).",
-                            "住民、保護者、学校関係者は( 19 )機会を持つことができる。"
+                            "住民、保護者、学校関係者は( 19 )機会を持つことができる。",
+                            "Residents, parents, and school officials|住民、保護者、学校関係者は||can have the opportunity|機会を持つことができる||to ( 19 ).|( 19 )ための。",
+                            "can have"
                         ],
                         [
                             "City officials use colorful paint and plastic poles to show new walking areas and indicate changed traffic patterns.",
-                            "市の職員はカラフルなペンキとプラスチック製のポールを使って、新しい歩行エリアを示したり、変更された交通パターンを示したりする。"
+                            "市の職員はカラフルなペンキとプラスチック製のポールを使って、新しい歩行エリアを示したり、変更された交通パターンを示したりする。",
+                            "City officials use colorful paint and plastic poles|市の職員はカラフルなペンキとプラスチック製ポールを使う||to show new walking areas|新しい歩行エリアを示し||and indicate changed traffic patterns.|変更された交通パターンを示すために。",
+                            "use"
                         ],
                         [
                             "Based on all the opinions and observations, designers can develop more permanent solutions using better materials.",
-                            "すべての意見と観察に基づいて、設計者はより良い材料を使った、より恒久的な解決策を開発することができる。"
+                            "すべての意見と観察に基づいて、設計者はより良い材料を使った、より恒久的な解決策を開発することができる。",
+                            "Based on all the opinions and observations,|すべての意見と観察に基づいて、||designers can develop more permanent solutions|設計者はより恒久的な解決策を開発できる||using better materials.|より良い材料を使って。",
+                            "can develop"
                         ],
                         [
                             "This careful approach leads to a final design that meets the needs of the community and helps avoid expensive mistakes.",
-                            "この慎重なアプローチは、地域社会のニーズを満たす最終的な設計につながり、費用のかかる失敗を避けるのに役立つ。"
+                            "この慎重なアプローチは、地域社会のニーズを満たす最終的な設計につながり、費用のかかる失敗を避けるのに役立つ。",
+                            "This careful approach leads to a final design|この慎重なアプローチは最終的な設計につながる||that meets the needs of the community|地域社会のニーズを満たし||and helps avoid expensive mistakes.|費用のかかる失敗を避けるのに役立つ。",
+                            "leads"
                         ],
                         [
                             "These urban improvements not only make the streets safe for children but also ( 20 ).",
-                            "これらの都市の改善は、通りを子どもにとって安全にするだけでなく、( 20 )。"
+                            "これらの都市の改善は、通りを子どもにとって安全にするだけでなく、( 20 )。",
+                            "These urban improvements|これらの都市の改善は||not only make the streets safe for children|通りを子どもにとって安全にするだけでなく||but also ( 20 ).|さらに( 20 )。",
+                            "make"
                         ],
                         [
                             "Art on the streets makes the space beautiful and clearly shows where people can and should not walk.",
-                            "通りのアートは空間を美しくし、人々がどこを歩いてよく、どこを歩くべきでないかをはっきりと示す。"
+                            "通りのアートは空間を美しくし、人々がどこを歩いてよく、どこを歩くべきでないかをはっきりと示す。",
+                            "Art on the streets makes the space beautiful|通りのアートは空間を美しくし||and clearly shows|そしてはっきりと示す||where people can and should not walk.|人々がどこを歩いてよく、どこを歩くべきでないかを。",
+                            "makes"
                         ],
                         [
                             "In some schools, professional artists produced artwork that reflected children's ideas about the community.",
-                            "いくつかの学校では、プロの芸術家が地域社会についての子どもたちの考えを反映した作品を制作した。"
+                            "いくつかの学校では、プロの芸術家が地域社会についての子どもたちの考えを反映した作品を制作した。",
+                            "In some schools,|いくつかの学校では、||professional artists produced artwork|プロの芸術家が作品を制作した||that reflected children's ideas|子どもたちの考えを反映した||about the community.|地域社会についての。",
+                            "produced"
                         ],
                         [
                             "Some works are playful in that they use flower art to guide children toward places around the neighborhood.",
-                            "作品の中には、花のアートを使って子どもたちを近所の場所へ導くという遊び心のあるものもある。"
+                            "作品の中には、花のアートを使って子どもたちを近所の場所へ導くという遊び心のあるものもある。",
+                            "Some works are playful|作品の中には遊び心のあるものもある||in that they use flower art|花のアートを使って||to guide children|子どもたちを導くという点で||toward places around the neighborhood.|近所の場所へ。",
+                            "are playful"
                         ],
                         [
                             "These art elements are changing spaces that used to be mainly for cars into community areas where children can actively play together.",
-                            "これらのアートの要素は、かつて主に車のためのものだった空間を、子どもたちが一緒に活発に遊べる地域の場へと変えつつある。"
+                            "これらのアートの要素は、かつて主に車のためのものだった空間を、子どもたちが一緒に活発に遊べる地域の場へと変えつつある。",
+                            "These art elements are changing spaces|これらのアートの要素は空間を変えつつある||that used to be mainly for cars|かつて主に車のためのものだった||into community areas|地域の場へと||where children can actively play together.|子どもたちが一緒に活発に遊べる。",
+                            "are changing"
                         ]
                     ],
                     "questions": [
@@ -1209,6 +1358,17 @@
                                 "Otherwise=さもなければ→条件・帰結の関係ではない",
                                 "For instance=例えば→具体例の導入ではない",
                                 "Instead=その代わりに→正解。💡 車が禁止された代わりに、子どもたちが自分の足で歩いて登校するという対比"
+                            ],
+                            "choiceTranslations": [
+                                "同様に",
+                                "さもなければ",
+                                "例えば",
+                                "その代わりに"
+                            ],
+                            "grammar": "💡 Instead は前文の cars are banned と、代わりに children can walk を対比する接続副詞。",
+                            "sourceEvidence": [
+                                "Now, cars are banned from this street when children go to school.",
+                                "( 18 ), during the school arrival time from 7:30 to 8:00 a.m., children can walk to school on their own."
                             ]
                         },
                         {
@@ -1225,6 +1385,17 @@
                                 "変化を体験し意見を伝える→正解。💡 直後の Based on all the opinions and observations（意見と観察に基づいて設計者が解決策を開発）につながる",
                                 "変化に気づかずにそのエリアを歩く→意見を出す流れと矛盾",
                                 "試行の前に変化について話し合う→試行（trial）が先で意見が後という順序と逆"
+                            ],
+                            "choiceTranslations": [
+                                "新しい歩道を使って報酬を得る",
+                                "変化を体験して意見を伝える",
+                                "変化に気づかずに地域を歩く",
+                                "試行前に変化について話す"
+                            ],
+                            "grammar": "💡 have the opportunity to V＝Vする機会を持つ。opinions and observations が experience the changes and give feedback の根拠。",
+                            "sourceEvidence": [
+                                "Residents, parents, and school officials can have the opportunity to ( 19 ).",
+                                "Based on all the opinions and observations, designers can develop more permanent solutions using better materials."
                             ]
                         },
                         {
@@ -1241,6 +1412,17 @@
                                 "都市を環境に優しいものに変える→アートと遊び場の話で、環境保護の話ではない",
                                 "彼らのための楽しい場所をつくる→正解。💡 直後の「花のアートで子どもを導く」「子どもが活発に遊べる地域の場」と一致。them＝children",
                                 "他の都市から来る運転者のために働く→本文にない"
+                            ],
+                            "choiceTranslations": [
+                                "教育上の問題を引き起こす",
+                                "都市を環境に優しくする",
+                                "子どもたちのために楽しい場所をつくる",
+                                "他都市の運転者のために機能する"
+                            ],
+                            "grammar": "💡 not only A but also B で make the streets safe と create a fun place を並列する。them は children を指す。",
+                            "sourceEvidence": [
+                                "These urban improvements not only make the streets safe for children but also ( 20 ).",
+                                "These art elements are changing spaces that used to be mainly for cars into community areas where children can actively play together."
                             ]
                         }
                     ]
@@ -1254,86 +1436,124 @@
                         "While it is true that dead trees are helpful to the environment, they can also create problems in some situations. For instance, it might be necessary to remove them from places such as parks, campgrounds, and roadsides for safety reasons. This is especially important ( 23 ). In these conditions, dead trees lack moisture and can catch fire easily, causing serious damage. Removing dead trees where necessary can help prevent more serious issues in the future."
                     ],
                     "translations": [
-                        "枯れ木はしばしば生命に満ちあふれている。例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。まず、キノコが木の分解を助ける。これにより昆虫は( 21 )ことができる。やがて、新しい昆虫やその他の生き物が育ち始める。木から剥がれ落ちた樹皮の下に隠れる小動物もいる。木の穴に巣を作る鳥もいる。",
+                        "枯れ木はしばしば生命に満ちあふれている。例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。まず、キノコが木の分解を助ける。これにより昆虫は( 21 )ことができる。すると今度は、新しい昆虫やその他の生き物が育ち始める。木から剥がれ落ちた樹皮の下に隠れる小動物もいる。木の穴に巣を作る鳥もいる。",
                         "枯れ木は動物に住みかを提供するだけでなく、森林を健康に保つのにも役立つ。生きている間、木は炭素を吸収し、空気中のCO₂の量を減らすのに役立つ。( 22 )、枯れた後は天然の炭素貯蔵庫としての役割を果たす。木材が分解されると、炭素やその他の元素は最終的に地面に戻り、若い植物の成長を助ける。これらの物質は豊かな森林土壌を維持するために重要である。このように、枯れ木は自然の森林サイクルの重要な一部なのである。",
                         "枯れ木が環境に役立つことは事実だが、状況によっては問題を引き起こすこともある。例えば、安全上の理由から、公園、キャンプ場、道路沿いなどの場所から枯れ木を取り除く必要があるかもしれない。これは( 23 )特に重要である。こうした状況では、枯れ木は水分を欠き、簡単に火がついて深刻な被害をもたらすことがある。必要な場所で枯れ木を取り除くことは、将来のより深刻な問題を防ぐのに役立つ。"
                     ],
                     "sentencePairs": [
                         [
                             "Dead trees are often full of life.",
-                            "枯れ木はしばしば生命に満ちあふれている。"
+                            "枯れ木はしばしば生命に満ちあふれている。",
+                            "Dead trees|枯れ木は||are often full of life.|しばしば生命に満ちあふれている。",
+                            "are"
                         ],
                         [
                             "In the woods, for example, they support many different animals and insects in various ways.",
-                            "例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。"
+                            "例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。",
+                            "In the woods, for example,|例えば森の中では、||they support many different animals and insects|枯れ木は多くの異なる動物や昆虫を支えている||in various ways.|さまざまな方法で。",
+                            "support"
                         ],
                         [
                             "When a tree is no longer alive or standing, it becomes a habitat, or a place to live, for many living things.",
-                            "木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。"
+                            "木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。",
+                            "When a tree is no longer alive or standing,|木が生きていなかったり立っていなかったりすると、||it becomes a habitat,|それは生息地になる||or a place to live,|つまり住む場所に||for many living things.|多くの生き物にとっての。",
+                            "becomes"
                         ],
                         [
                             "First, mushrooms help break down the tree.",
-                            "まず、キノコが木の分解を助ける。"
+                            "まず、キノコが木の分解を助ける。",
+                            "First,|まず、||mushrooms help break down the tree.|キノコが木の分解を助ける。",
+                            "help break down"
                         ],
                         [
                             "This allows insects to ( 21 ).",
-                            "これにより昆虫は( 21 )ことができる。"
+                            "これにより昆虫は( 21 )ことができる。",
+                            "This allows insects|これにより昆虫は||to ( 21 ).|( 21 )ことができる。",
+                            "allows"
                         ],
                         [
                             "In turn, new insects and other creatures begin to grow.",
-                            "やがて、新しい昆虫やその他の生き物が育ち始める。"
+                            "すると今度は、新しい昆虫やその他の生き物が育ち始める。",
+                            "In turn,|すると今度は、||new insects and other creatures|新しい昆虫やその他の生き物が||begin to grow.|育ち始める。",
+                            "begin to grow"
                         ],
                         [
                             "Some small animals hide under bark that has fallen off the tree.",
-                            "木から剥がれ落ちた樹皮の下に隠れる小動物もいる。"
+                            "木から剥がれ落ちた樹皮の下に隠れる小動物もいる。",
+                            "Some small animals hide|小動物の中には隠れるものもいる||under bark|樹皮の下に||that has fallen off the tree.|木から剥がれ落ちた。",
+                            "hide"
                         ],
                         [
                             "Some birds build their houses in holes in the wood.",
-                            "木の穴に巣を作る鳥もいる。"
+                            "木の穴に巣を作る鳥もいる。",
+                            "Some birds build their houses|鳥の中には巣を作るものもいる||in holes in the wood.|木の穴に。",
+                            "build"
                         ],
                         [
                             "Dead trees not only provide homes for animals but also help keep forests healthy.",
-                            "枯れ木は動物に住みかを提供するだけでなく、森林を健康に保つのにも役立つ。"
+                            "枯れ木は動物に住みかを提供するだけでなく、森林を健康に保つのにも役立つ。",
+                            "Dead trees not only provide homes for animals|枯れ木は動物に住みかを提供するだけでなく||but also help keep forests healthy.|森林を健康に保つのにも役立つ。",
+                            "provide"
                         ],
                         [
                             "While still alive, trees absorb carbon and help lower the amount of CO₂ in the air.",
-                            "生きている間、木は炭素を吸収し、空気中のCO₂の量を減らすのに役立つ。"
+                            "生きている間、木は炭素を吸収し、空気中のCO₂の量を減らすのに役立つ。",
+                            "While still alive,|生きている間、||trees absorb carbon|木は炭素を吸収し||and help lower the amount of CO₂|CO₂の量を減らすのに役立つ||in the air.|空気中の。",
+                            "absorb"
                         ],
                         [
                             "( 22 ), they serve as natural carbon storage after they die.",
-                            "( 22 )、枯れた後は天然の炭素貯蔵庫としての役割を果たす。"
+                            "( 22 )、枯れた後は天然の炭素貯蔵庫としての役割を果たす。",
+                            "( 22 ),|( 22 )、||they serve as natural carbon storage|枯れ木は天然の炭素貯蔵庫として役割を果たす||after they die.|枯れた後も。",
+                            "serve"
                         ],
                         [
                             "When the wood breaks down, carbon and other elements eventually return to the ground, helping young plants grow.",
-                            "木材が分解されると、炭素やその他の元素は最終的に地面に戻り、若い植物の成長を助ける。"
+                            "木材が分解されると、炭素やその他の元素は最終的に地面に戻り、若い植物の成長を助ける。",
+                            "When the wood breaks down,|木材が分解されると、||carbon and other elements eventually return to the ground,|炭素やその他の元素は最終的に地面に戻り||helping young plants grow.|若い植物の成長を助ける。",
+                            "return"
                         ],
                         [
                             "These substances are important for maintaining rich forest soil.",
-                            "これらの物質は豊かな森林土壌を維持するために重要である。"
+                            "これらの物質は豊かな森林土壌を維持するために重要である。",
+                            "These substances are important|これらの物質は重要である||for maintaining rich forest soil.|豊かな森林土壌を維持するために。",
+                            "are"
                         ],
                         [
                             "In this way, dead trees are an important part of the natural forest cycle.",
-                            "このように、枯れ木は自然の森林サイクルの重要な一部なのである。"
+                            "このように、枯れ木は自然の森林サイクルの重要な一部なのである。",
+                            "In this way,|このように、||dead trees are an important part|枯れ木は重要な一部である||of the natural forest cycle.|自然の森林サイクルの。",
+                            "are"
                         ],
                         [
                             "While it is true that dead trees are helpful to the environment, they can also create problems in some situations.",
-                            "枯れ木が環境に役立つことは事実だが、状況によっては問題を引き起こすこともある。"
+                            "枯れ木が環境に役立つことは事実だが、状況によっては問題を引き起こすこともある。",
+                            "While it is true|事実ではあるが||that dead trees are helpful to the environment,|枯れ木が環境に役立つことは、||they can also create problems|問題を引き起こすこともある||in some situations.|状況によっては。",
+                            "can also create"
                         ],
                         [
                             "For instance, it might be necessary to remove them from places such as parks, campgrounds, and roadsides for safety reasons.",
-                            "例えば、安全上の理由から、公園、キャンプ場、道路沿いなどの場所から枯れ木を取り除く必要があるかもしれない。"
+                            "例えば、安全上の理由から、公園、キャンプ場、道路沿いなどの場所から枯れ木を取り除く必要があるかもしれない。",
+                            "For instance,|例えば、||it might be necessary to remove them|枯れ木を取り除く必要があるかもしれない||from places such as parks, campgrounds, and roadsides|公園、キャンプ場、道路沿いなどの場所から||for safety reasons.|安全上の理由で。",
+                            "might be necessary"
                         ],
                         [
                             "This is especially important ( 23 ).",
-                            "これは( 23 )特に重要である。"
+                            "これは( 23 )特に重要である。",
+                            "This is especially important|これは特に重要である||( 23 ).|( 23 )。",
+                            "is"
                         ],
                         [
                             "In these conditions, dead trees lack moisture and can catch fire easily, causing serious damage.",
-                            "こうした状況では、枯れ木は水分を欠き、簡単に火がついて深刻な被害をもたらすことがある。"
+                            "こうした状況では、枯れ木は水分を欠き、簡単に火がついて深刻な被害をもたらすことがある。",
+                            "In these conditions,|こうした状況では、||dead trees lack moisture|枯れ木は水分を欠き||and can catch fire easily,|簡単に火がつくことがあり||causing serious damage.|深刻な被害をもたらす。",
+                            "lack"
                         ],
                         [
                             "Removing dead trees where necessary can help prevent more serious issues in the future.",
-                            "必要な場所で枯れ木を取り除くことは、将来のより深刻な問題を防ぐのに役立つ。"
+                            "必要な場所で枯れ木を取り除くことは、将来のより深刻な問題を防ぐのに役立つ。",
+                            "Removing dead trees where necessary|必要な場所で枯れ木を取り除くことは||can help prevent more serious issues|より深刻な問題を防ぐのに役立つ||in the future.|将来の。",
+                            "can help prevent"
                         ]
                     ],
                     "questions": [
@@ -1351,6 +1571,17 @@
                                 "枯れ木に近づかない→枯れ木が生息地（habitat）になるという流れと逆",
                                 "キノコを食べて遠くへ飛び去る→木の中にとどまって繁殖する流れと矛盾",
                                 "木が再び成長し始めるのを助ける→枯れた木は成長しない"
+                            ],
+                            "choiceTranslations": [
+                                "木の中に入って卵を産む",
+                                "枯れ木に近づかない",
+                                "キノコを食べて遠くへ飛ぶ",
+                                "木が再び成長するのを助ける"
+                            ],
+                            "grammar": "💡 allow A to V＝AがVするのを可能にする。lay eggs の結果、new insects begin to grow する流れ。",
+                            "sourceEvidence": [
+                                "This allows insects to ( 21 ).",
+                                "In turn, new insects and other creatures begin to grow."
                             ]
                         },
                         {
@@ -1367,6 +1598,17 @@
                                 "In contrast=対照的に→対比ではなく追加の内容",
                                 "On average=平均して→数値の話ではない",
                                 "Additionally=さらに→正解。💡 生きている間の働き（CO₂削減）に加えて、死後も炭素貯蔵庫として役立つという追加情報"
+                            ],
+                            "choiceTranslations": [
+                                "これにもかかわらず",
+                                "対照的に",
+                                "平均して",
+                                "さらに"
+                            ],
+                            "grammar": "💡 Additionally は追加を表す。生きている間の炭素吸収に加え、枯れた後も炭素を蓄える働きを述べる。",
+                            "sourceEvidence": [
+                                "While still alive, trees absorb carbon and help lower the amount of CO₂ in the air.",
+                                "( 22 ), they serve as natural carbon storage after they die."
                             ]
                         },
                         {
@@ -1383,6 +1625,17 @@
                                 "高い山の近くの薄い空気の中で→本文にない",
                                 "乾燥した気候や乾季に→正解。💡 直後の dead trees lack moisture and can catch fire easily（水分を欠き燃えやすい）と一致",
                                 "森林地帯の涼しい朝に→火災が起きやすい条件ではない"
+                            ],
+                            "choiceTranslations": [
+                                "柔らかい地面の広い場所で",
+                                "高山近くの空気が薄い場所で",
+                                "乾燥した気候や乾季に",
+                                "森林地帯の涼しい朝に"
+                            ],
+                            "grammar": "💡 in these conditions の conditions は dry climates / dry seasons を指す。lack moisture と catch fire easily が決め手。",
+                            "sourceEvidence": [
+                                "This is especially important ( 23 ).",
+                                "In these conditions, dead trees lack moisture and can catch fire easily, causing serious damage."
                             ]
                         }
                     ]
@@ -1406,63 +1659,101 @@
                         "subject": "Inquiry about the factory"
                     },
                     "paragraphs": [
-                        "My name is Jessica Jenkins, and I teach at Riverstone High School. Our students have been learning about manufacturing in social studies class, and one of my students has shown a strong interest in how everyday products, such as plastic bottles, are made. He found your factory's information online and was impressed by the work you did. After doing some research on his own, he would like to visit your factory to learn more.",
+                        "Dear James White,\nMy name is Jessica Jenkins, and I teach at Riverstone High School. Our students have been learning about manufacturing in social studies class, and one of my students has shown a strong interest in how everyday products, such as plastic bottles, are made. He found your factory's information online and was impressed by the work you did. After doing some research on his own, he would like to visit your factory to learn more.",
                         "I am writing to ask whether it would be possible for the student to join one of the factory tours held on Fridays by himself. His last class of the day ends at 2:00 p.m. on Fridays, which is earlier than on other days. As the school is within walking distance of your factory, if he leaves right after the class, he should be able to arrive by 2:30 p.m.",
-                        "Please let me know if there is an available date and time for a tour on a Friday in the next two months. Could you also tell us what he should bring or prepare in advance? He would like to take a few photos for his class report, so please let us know whether photography is permitted during the tour. Thank you very much for your time and consideration. I look forward to hearing from you."
+                        "Please let me know if there is an available date and time for a tour on a Friday in the next two months. Could you also tell us what he should bring or prepare in advance? He would like to take a few photos for his class report, so please let us know whether photography is permitted during the tour. Thank you very much for your time and consideration. I look forward to hearing from you.",
+                        "Sincerely,\nJessica Jenkins\nRiverstone High School"
                     ],
                     "translations": [
-                        "私はジェシカ・ジェンキンスと申しまして、リバーストーン高校で教えています。本校の生徒たちは社会科の授業で製造業について学んでおり、生徒の一人がペットボトルなどの日用品がどのように作られるかに強い興味を示しています。彼はオンラインで貴工場の情報を見つけ、皆さまの仕事に感銘を受けました。自分なりに調べた後、さらに学ぶために貴工場を見学したいと考えています。",
+                        "ジェームズ・ホワイト様\n私はジェシカ・ジェンキンスと申しまして、リバーストーン高校で教えています。本校の生徒たちは社会科の授業で製造業について学んでおり、生徒の一人がペットボトルなどの日用品がどのように作られるかに強い興味を示しています。彼はオンラインで貴工場の情報を見つけ、皆さまの仕事に感銘を受けました。自分なりに調べた後、さらに学ぶために貴工場を見学したいと考えています。",
                         "その生徒が一人で、金曜日に開催されている工場見学ツアーに参加することが可能かどうかをお尋ねしたく、ご連絡しております。金曜日は彼のその日の最後の授業が午後2時に終わり、他の曜日より早く終わります。学校は貴工場から徒歩圏内にありますので、授業後すぐに出発すれば、午後2時30分までには到着できるはずです。",
-                        "今後2か月以内の金曜日で、ツアーに参加できる日時があれば教えてください。また、事前に持参または準備すべきものがあれば教えていただけますでしょうか。彼は授業のレポート用に写真を数枚撮りたいと考えていますので、ツアー中の写真撮影が許可されているかどうかもお知らせください。お時間とご配慮をいただき誠にありがとうございます。お返事をお待ちしております。"
+                        "今後2か月以内の金曜日で、ツアーに参加できる日時があれば教えてください。また、事前に持参または準備すべきものがあれば教えていただけますでしょうか。彼は授業のレポート用に写真を数枚撮りたいと考えていますので、ツアー中の写真撮影が許可されているかどうかもお知らせください。お時間とご配慮をいただき誠にありがとうございます。お返事をお待ちしております。",
+                        "敬具\nジェシカ・ジェンキンス\nリバーストーン高校"
                     ],
                     "sentencePairs": [
                         [
+                            "Dear James White,",
+                            "ジェームズ・ホワイト様",
+                            "Dear|親愛なる||James White,|ジェームズ・ホワイト様",
+                            ""
+                        ],
+                        [
                             "My name is Jessica Jenkins, and I teach at Riverstone High School.",
-                            "私はジェシカ・ジェンキンスと申しまして、リバーストーン高校で教えています。"
+                            "私はジェシカ・ジェンキンスと申しまして、リバーストーン高校で教えています。",
+                            "My name is Jessica Jenkins,|私はジェシカ・ジェンキンスと申します、||and I teach|そして教えています||at Riverstone High School.|リバーストーン高校で。",
+                            "teach"
                         ],
                         [
                             "Our students have been learning about manufacturing in social studies class, and one of my students has shown a strong interest in how everyday products, such as plastic bottles, are made.",
-                            "本校の生徒たちは社会科の授業で製造業について学んでおり、生徒の一人がペットボトルなどの日用品がどのように作られるかに強い興味を示しています。"
+                            "本校の生徒たちは社会科の授業で製造業について学んでおり、生徒の一人がペットボトルなどの日用品がどのように作られるかに強い興味を示しています。",
+                            "Our students have been learning about manufacturing|本校の生徒たちは製造業について学んでおり||in social studies class,|社会科の授業で、||and one of my students has shown a strong interest|生徒の一人が強い興味を示しています||in how everyday products, such as plastic bottles, are made.|ペットボトルなどの日用品がどのように作られるかに。",
+                            "have been learning"
                         ],
                         [
                             "He found your factory's information online and was impressed by the work you did.",
-                            "彼はオンラインで貴工場の情報を見つけ、皆さまの仕事に感銘を受けました。"
+                            "彼はオンラインで貴工場の情報を見つけ、皆さまの仕事に感銘を受けました。",
+                            "He found your factory's information online|彼はオンラインで貴工場の情報を見つけ||and was impressed|そして感銘を受けました||by the work you did.|皆さまの仕事に。",
+                            "found"
                         ],
                         [
                             "After doing some research on his own, he would like to visit your factory to learn more.",
-                            "自分なりに調べた後、さらに学ぶために貴工場を見学したいと考えています。"
+                            "自分なりに調べた後、さらに学ぶために貴工場を見学したいと考えています。",
+                            "After doing some research on his own,|自分なりに調べた後、||he would like to visit your factory|彼は貴工場を見学したいと考えています||to learn more.|さらに学ぶために。",
+                            "would like to visit"
                         ],
                         [
                             "I am writing to ask whether it would be possible for the student to join one of the factory tours held on Fridays by himself.",
-                            "その生徒が一人で、金曜日に開催されている工場見学ツアーに参加することが可能かどうかをお尋ねしたく、ご連絡しております。"
+                            "その生徒が一人で、金曜日に開催されている工場見学ツアーに参加することが可能かどうかをお尋ねしたく、ご連絡しております。",
+                            "I am writing to ask|お尋ねしたく、ご連絡しております||whether it would be possible|可能かどうかを||for the student to join one of the factory tours|その生徒が工場見学ツアーの一つに参加することが||held on Fridays|金曜日に開催される||by himself.|一人で。",
+                            "am writing"
                         ],
                         [
                             "His last class of the day ends at 2:00 p.m. on Fridays, which is earlier than on other days.",
-                            "金曜日は彼のその日の最後の授業が午後2時に終わり、他の曜日より早く終わります。"
+                            "金曜日は彼のその日の最後の授業が午後2時に終わり、他の曜日より早く終わります。",
+                            "His last class of the day ends at 2:00 p.m. on Fridays,|金曜日は彼のその日の最後の授業が午後2時に終わり||which is earlier|それは早い時間です||than on other days.|他の曜日よりも。",
+                            "ends"
                         ],
                         [
                             "As the school is within walking distance of your factory, if he leaves right after the class, he should be able to arrive by 2:30 p.m.",
-                            "学校は貴工場から徒歩圏内にありますので、授業後すぐに出発すれば、午後2時30分までには到着できるはずです。"
+                            "学校は貴工場から徒歩圏内にありますので、授業後すぐに出発すれば、午後2時30分までには到着できるはずです。",
+                            "As the school is within walking distance of your factory,|学校は貴工場から徒歩圏内にありますので、||if he leaves right after the class,|授業後すぐに出発すれば、||he should be able to arrive|到着できるはずです||by 2:30 p.m.|午後2時30分までに。",
+                            "should be able to arrive"
                         ],
                         [
                             "Please let me know if there is an available date and time for a tour on a Friday in the next two months.",
-                            "今後2か月以内の金曜日で、ツアーに参加できる日時があれば教えてください。"
+                            "今後2か月以内の金曜日で、ツアーに参加できる日時があれば教えてください。",
+                            "Please let me know|教えてください||if there is an available date and time|参加できる日時があるかどうか||for a tour on a Friday|金曜日のツアーで||in the next two months.|今後2か月以内に。",
+                            "let me know"
                         ],
                         [
                             "Could you also tell us what he should bring or prepare in advance?",
-                            "また、事前に持参または準備すべきものがあれば教えていただけますでしょうか。"
+                            "また、事前に持参または準備すべきものがあれば教えていただけますでしょうか。",
+                            "Could you also tell us|また教えていただけますでしょうか||what he should bring or prepare|彼が何を持参または準備すべきかを||in advance?|事前に。",
+                            "tell us"
                         ],
                         [
                             "He would like to take a few photos for his class report, so please let us know whether photography is permitted during the tour.",
-                            "彼は授業のレポート用に写真を数枚撮りたいと考えていますので、ツアー中の写真撮影が許可されているかどうかもお知らせください。"
+                            "彼は授業のレポート用に写真を数枚撮りたいと考えていますので、ツアー中の写真撮影が許可されているかどうかもお知らせください。",
+                            "He would like to take a few photos|彼は写真を数枚撮りたいと考えています||for his class report,|授業のレポート用に、||so please let us know|ですのでお知らせください||whether photography is permitted|写真撮影が許可されているかどうかを||during the tour.|ツアー中に。",
+                            "would like to take"
                         ],
                         [
                             "Thank you very much for your time and consideration.",
-                            "お時間とご配慮をいただき誠にありがとうございます。"
+                            "お時間とご配慮をいただき誠にありがとうございます。",
+                            "Thank you very much|誠にありがとうございます||for your time and consideration.|お時間とご配慮をいただき。",
+                            "Thank you"
                         ],
                         [
                             "I look forward to hearing from you.",
-                            "お返事をお待ちしております。"
+                            "お返事をお待ちしております。",
+                            "I look forward|私は楽しみにしております||to hearing from you.|あなたからのお返事を。",
+                            "look forward to hearing"
+                        ],
+                        [
+                            "Sincerely,\nJessica Jenkins\nRiverstone High School",
+                            "敬具\nジェシカ・ジェンキンス\nリバーストーン高校",
+                            "Sincerely,|敬具||Jessica Jenkins|ジェシカ・ジェンキンス||Riverstone High School|リバーストーン高校",
+                            ""
                         ]
                     ],
                     "questions": [
@@ -1481,6 +1772,18 @@
                                 "学校のプロジェクト用に無料のペットボトルを依頼するため→本文にない",
                                 "工場での生徒向け職業体験について尋ねるため→職業体験ではなく見学ツアーの話",
                                 "生徒が工場に行きたい理由を説明するため→正解。💡 第1段落で生徒の強い興味と見学希望の経緯を説明している"
+                            ],
+                            "choiceTranslations": [
+                                "工場の歴史をさらに学ぶため。",
+                                "学校の課題用に無料のペットボトルを依頼するため。",
+                                "工場での生徒向け職業体験について尋ねるため。",
+                                "生徒がその工場へ行きたがる理由を説明するため。"
+                            ],
+                            "grammar": "💡 連絡の目的は第1段落で示される。生徒の関心と工場を訪れて学びたい理由を説明している。",
+                            "questionTranslation": "ジェシカ・ジェンキンスがジェームズ・ホワイトに連絡しているのはなぜですか。",
+                            "sourceEvidence": [
+                                "Our students have been learning about manufacturing in social studies class, and one of my students has shown a strong interest in how everyday products, such as plastic bottles, are made.",
+                                "After doing some research on his own, he would like to visit your factory to learn more."
                             ]
                         },
                         {
@@ -1498,6 +1801,17 @@
                                 "彼女が授業後に工場へ連れて行けるから→生徒は一人で（by himself）行く",
                                 "その日は交通手段の選択肢が良いから→学校から徒歩で行ける話で、曜日による交通の違いはない",
                                 "工場が毎週金曜に限定ツアーを実施しているから→exclusive（限定）とは書かれていない"
+                            ],
+                            "choiceTranslations": [
+                                "ほかの曜日は授業がもっと遅く終わるから。",
+                                "彼女が授業後に生徒を工場へ連れて行けるから。",
+                                "その日は生徒にとって交通の便がよりよいから。",
+                                "工場が毎週金曜日に限定ツアーを行うから。"
+                            ],
+                            "grammar": "💡 earlier than on other days の比較を、classes finish later on other days と反対側から言い換えている。",
+                            "questionTranslation": "ジェシカが、生徒が金曜日に工場見学できるか尋ねるのはなぜですか。",
+                            "sourceEvidence": [
+                                "His last class of the day ends at 2:00 p.m. on Fridays, which is earlier than on other days."
                             ]
                         },
                         {
@@ -1515,6 +1829,18 @@
                                 "訪問前に書面の提出が必要かどうか知らせる→本文にない",
                                 "金曜のツアーが可能な日時と持ち物を知らせる→正解。💡 an available date and time for a tour on a Friday ＋ what he should bring or prepare の言い換え",
                                 "ツアーに学校のカメラを持参するよう提案する→撮影の可否を尋ねているだけ"
+                            ],
+                            "choiceTranslations": [
+                                "訪問時に必要な特別な服装を事前に詳しく知らせる。",
+                                "訪問前に書面を提出すべきか知らせる。",
+                                "金曜のツアーが可能な日時と持参物を知らせる。",
+                                "ツアーに学校のカメラを持参するよう勧める。"
+                            ],
+                            "grammar": "💡 let me know if ... と tell us what ... は丁寧な間接疑問。希望日時と持参・準備物への回答を求める。",
+                            "questionTranslation": "ジェシカはジェームズに何をしてほしいのですか。",
+                            "sourceEvidence": [
+                                "Please let me know if there is an available date and time for a tour on a Friday in the next two months.",
+                                "Could you also tell us what he should bring or prepare in advance?"
                             ]
                         }
                     ]
@@ -1537,83 +1863,123 @@
                     "sentencePairs": [
                         [
                             "About two thousand years ago, the city of Baia was like the Las Vegas of the Roman Empire.",
-                            "約2000年前、バイアの町はローマ帝国のラスベガスのような存在だった。"
+                            "約2000年前、バイアの町はローマ帝国のラスベガスのような存在だった。",
+                            "About two thousand years ago,|約2000年前、||the city of Baia was|バイアの町は～だった||like the Las Vegas of the Roman Empire.|ローマ帝国のラスベガスのような存在。",
+                            "was"
                         ],
                         [
                             "As it was conveniently located just about thirty kilometers from Naples on the west coast of Italy, wealthy people in Rome visited the city and enjoyed parties, hot springs, and the warm climate.",
-                            "イタリア西海岸のナポリからわずか約30キロという便利な場所にあったため、ローマの裕福な人々がこの町を訪れ、パーティーや温泉、温暖な気候を楽しんだ。"
+                            "イタリア西海岸のナポリからわずか約30キロという便利な場所にあったため、ローマの裕福な人々がこの町を訪れ、パーティーや温泉、温暖な気候を楽しんだ。",
+                            "As it was conveniently located|便利な場所にあったため||just about thirty kilometers from Naples|ナポリからわずか約30キロの||on the west coast of Italy,|イタリア西海岸で、||wealthy people in Rome visited the city|ローマの裕福な人々がこの町を訪れ||and enjoyed parties, hot springs, and the warm climate.|パーティーや温泉、温暖な気候を楽しんだ。",
+                            "visited"
                         ],
                         [
                             "Famous poets, speakers, and experts on nature also had their houses near the bay or public baths to restore their energy.",
-                            "有名な詩人、弁論家、自然の専門家たちも、英気を養うために湾や公衆浴場の近くに家を持っていた。"
+                            "有名な詩人、弁論家、自然の専門家たちも、英気を養うために湾や公衆浴場の近くに家を持っていた。",
+                            "Famous poets, speakers, and experts on nature|有名な詩人、弁論家、自然の専門家たちも||also had their houses|家を持っていた||near the bay or public baths|湾や公衆浴場の近くに||to restore their energy.|英気を養うために。",
+                            "had"
                         ],
                         [
                             "Baia has been known as a hot spring resort since ancient times, and its name remains in history.",
-                            "バイアは古代から温泉リゾートとして知られ、その名は歴史に残っている。"
+                            "バイアは古代から温泉リゾートとして知られ、その名は歴史に残っている。",
+                            "Baia has been known as a hot spring resort|バイアは温泉リゾートとして知られてきており||since ancient times,|古代から、||and its name remains in history.|その名は歴史に残っている。",
+                            "has been known"
                         ],
                         [
                             "Even Emperor Hadrian spent his last years in Baia.",
-                            "皇帝ハドリアヌスでさえ、晩年をバイアで過ごしたほどである。"
+                            "皇帝ハドリアヌスでさえ、晩年をバイアで過ごしたほどである。",
+                            "Even Emperor Hadrian|皇帝ハドリアヌスでさえ||spent his last years in Baia.|晩年をバイアで過ごした。",
+                            "spent"
                         ],
                         [
                             "Baia had a volcano and hot springs, which attracted visitors and made the city popular and successful.",
-                            "バイアには火山と温泉があり、それが訪問者を引きつけ、町を人気のある繁栄した場所にした。"
+                            "バイアには火山と温泉があり、それが訪問者を引きつけ、町を人気のある繁栄した場所にした。",
+                            "Baia had a volcano and hot springs,|バイアには火山と温泉があり||which attracted visitors|それらが訪問者を引きつけ||and made the city popular and successful.|町を人気のある繁栄した場所にした。",
+                            "had"
                         ],
                         [
                             "However, this volcano caused the city's collapse eventually.",
-                            "しかし、この火山が最終的には町の崩壊を引き起こした。"
+                            "しかし、この火山が最終的には町の崩壊を引き起こした。",
+                            "However,|しかし、||this volcano caused the city's collapse|この火山が町の崩壊を引き起こした||eventually.|最終的には。",
+                            "caused"
                         ],
                         [
                             "As is common in areas with volcanoes, the surface of the land rose and sank over many centuries.",
-                            "火山のある地域ではよくあることだが、土地の表面は何世紀にもわたって隆起と沈降を繰り返した。"
+                            "火山のある地域ではよくあることだが、土地の表面は何世紀にもわたって隆起と沈降を繰り返した。",
+                            "As is common in areas with volcanoes,|火山のある地域ではよくあることだが、||the surface of the land rose and sank|土地の表面は隆起と沈降を繰り返した||over many centuries.|何世紀にもわたって。",
+                            "rose and sank"
                         ],
                         [
                             "This caused more and more parts of the land to sink underground gradually.",
-                            "これにより、土地のますます多くの部分が徐々に地中に沈んでいった。"
+                            "これにより、土地のますます多くの部分が徐々に地中に沈んでいった。",
+                            "This caused more and more parts of the land|これにより土地のますます多くの部分が||to sink underground gradually.|徐々に地中へ沈んでいった。",
+                            "caused"
                         ],
                         [
                             "Over the past two thousand years, many parts of Baia have sunk, and about half of the city's structures are now underwater.",
-                            "過去2000年の間にバイアの多くの部分が沈み、現在では町の建造物の約半分が水中にある。"
+                            "過去2000年の間にバイアの多くの部分が沈み、現在では町の建造物の約半分が水中にある。",
+                            "Over the past two thousand years,|過去2000年の間に、||many parts of Baia have sunk,|バイアの多くの部分が沈み||and about half of the city's structures|そして町の建造物の約半分が||are now underwater.|現在では水中にある。",
+                            "have sunk"
                         ],
                         [
                             "It was not until the 1940s that this underwater part of the city began attracting attention.",
-                            "この町の水中部分が注目を集め始めたのは、1940年代になってからのことだった。"
+                            "この町の水中部分が注目を集め始めたのは、1940年代になってからのことだった。",
+                            "It was not until the 1940s|1940年代になって初めて||that this underwater part of the city|この町の水中部分が||began attracting attention.|注目を集め始めた。",
+                            "began attracting"
                         ],
                         [
                             "An Italian military pilot discovered mysterious structures under the water in the bay while flying low.",
-                            "イタリア軍のパイロットが低空飛行中に、湾の水中に謎の構造物を発見したのだ。"
+                            "イタリア軍のパイロットが低空飛行中に、湾の水中に謎の構造物を発見したのだ。",
+                            "An Italian military pilot discovered mysterious structures|イタリア軍のパイロットが謎の構造物を発見した||under the water in the bay|湾の水中にある||while flying low.|低空飛行中に。",
+                            "discovered"
                         ],
                         [
                             "Walls and roads in the water were seen clearly in the picture he took.",
-                            "彼が撮影した写真には、水中の壁や道路がはっきりと写っていた。"
+                            "彼が撮影した写真には、水中の壁や道路がはっきりと写っていた。",
+                            "Walls and roads in the water|水中の壁や道路が||were seen clearly|はっきりと写っていた||in the picture he took.|彼が撮影した写真に。",
+                            "were seen"
                         ],
                         [
                             "However, investigation in the water only began after scuba devices were advanced enough.",
-                            "しかし、水中での調査は、スキューバ装備が十分に進歩してから初めて始まった。"
+                            "しかし、水中での調査は、スキューバ装備が十分に進歩してから初めて始まった。",
+                            "However,|しかし、||investigation in the water only began|水中での調査は初めて始まった||after scuba devices were advanced enough.|スキューバ装備が十分に進歩した後に。",
+                            "only began"
                         ],
                         [
                             "Later investigations revealed a room filled with large sculptures, and since the early 2000s, the part of the city that sank into the sea has been managed as a protected marine area.",
-                            "その後の調査で大きな彫刻で満たされた部屋が発見され、2000年代初頭以降、海に沈んだ町の部分は保護海域として管理されている。"
+                            "その後の調査で大きな彫刻で満たされた部屋が発見され、2000年代初頭以降、海に沈んだ町の部分は保護海域として管理されている。",
+                            "Later investigations revealed a room|その後の調査で部屋が発見され||filled with large sculptures,|大きな彫刻で満たされた、||and since the early 2000s,|そして2000年代初頭以降、||the part of the city that sank into the sea|海に沈んだ町の部分は||has been managed as a protected marine area.|保護海域として管理されている。",
+                            "revealed"
                         ],
                         [
                             "Currently, tourists can experience this underwater part of the city in various ways.",
-                            "現在、観光客はこの町の水中部分をさまざまな方法で体験できる。"
+                            "現在、観光客はこの町の水中部分をさまざまな方法で体験できる。",
+                            "Currently,|現在、||tourists can experience|観光客は体験できる||this underwater part of the city|この町の水中部分を||in various ways.|さまざまな方法で。",
+                            "can experience"
                         ],
                         [
                             "Divers can explore the ancient Roman city in the water with guides.",
-                            "ダイバーはガイドと一緒に水中の古代ローマ都市を探検できる。"
+                            "ダイバーはガイドと一緒に水中の古代ローマ都市を探検できる。",
+                            "Divers can explore the ancient Roman city|ダイバーは古代ローマ都市を探検できる||in the water|水中の||with guides.|ガイドと一緒に。",
+                            "can explore"
                         ],
                         [
                             "When the ocean is calm, visitors can see the structures in the water through the glass bottom of boats.",
-                            "海が穏やかなときは、訪問者は船のガラス底を通して水中の構造物を見ることができる。"
+                            "海が穏やかなときは、訪問者は船のガラス底を通して水中の構造物を見ることができる。",
+                            "When the ocean is calm,|海が穏やかなときは、||visitors can see the structures|訪問者は構造物を見ることができる||in the water|水中の||through the glass bottom of boats.|船のガラス底を通して。",
+                            "can see"
                         ],
                         [
                             "In addition to the underwater sites, some ruins on land, such as dome-shaped public baths, can be visited on foot.",
-                            "水中の遺跡に加えて、ドーム型の公衆浴場など、陸上に残るいくつかの遺跡も徒歩で訪れることができる。"
+                            "水中の遺跡に加えて、ドーム型の公衆浴場など、陸上に残るいくつかの遺跡も徒歩で訪れることができる。",
+                            "In addition to the underwater sites,|水中の遺跡に加えて、||some ruins on land,|陸上に残るいくつかの遺跡も||such as dome-shaped public baths,|ドーム型の公衆浴場など、||can be visited on foot.|徒歩で訪れることができる。",
+                            "can be visited"
                         ],
                         [
                             "Visiting Baia offers a rare chance to experience both ancient Roman history and the beauty of the sea in one place.",
-                            "バイアを訪れることは、古代ローマの歴史と海の美しさの両方を一つの場所で体験できる貴重な機会を提供してくれる。"
+                            "バイアを訪れることは、古代ローマの歴史と海の美しさの両方を一つの場所で体験できる貴重な機会を提供してくれる。",
+                            "Visiting Baia offers a rare chance|バイアを訪れることは貴重な機会を提供してくれる||to experience both ancient Roman history|古代ローマの歴史と||and the beauty of the sea|海の美しさの両方を体験できる||in one place.|一つの場所で。",
+                            "offers"
                         ]
                     ],
                     "questions": [
@@ -1632,6 +1998,18 @@
                                 "湾の近くで定期的に開かれる自然に関する会合に出席するため→本文にない",
                                 "アイデアを共有しにバイアを訪れた専門家や学者と話すため→本文にない",
                                 "世界的に有名な詩人から詩を学び、詩のコンテストに参加するため→本文にない"
+                            ],
+                            "choiceTranslations": [
+                                "温暖な気候でくつろぎ、パーティーに参加し、英気を養うため。",
+                                "湾の近くで定期開催された自然に関する会合へ出席するため。",
+                                "バイアを訪れた専門家や学者と意見を交わすため。",
+                                "著名な詩人から詩を学び、詩の大会に参加するため。"
+                            ],
+                            "grammar": "💡 enjoyed parties, hot springs, and the warm climate と restore their energy を relax / recharge に言い換える。",
+                            "questionTranslation": "なぜ多くの裕福なローマ人はバイアを訪れたのですか。",
+                            "sourceEvidence": [
+                                "As it was conveniently located just about thirty kilometers from Naples on the west coast of Italy, wealthy people in Rome visited the city and enjoyed parties, hot springs, and the warm climate.",
+                                "Famous poets, speakers, and experts on nature also had their houses near the bay or public baths to restore their energy."
                             ]
                         },
                         {
@@ -1649,6 +2027,18 @@
                                 "その地域での農業を不可能にした→本文にない",
                                 "町の一部が徐々に水面下に沈む結果となった→正解。💡 caused more and more parts of the land to sink underground gradually の言い換え",
                                 "新たな観光客を引きつける温泉をさらに作り出した→本文にない"
+                            ],
+                            "choiceTranslations": [
+                                "周辺に新しい火山ができるのを可能にした。",
+                                "その地域で農業を成功させることを不可能にした。",
+                                "町の一部を徐々に水中へ沈ませた。",
+                                "新しい観光客を呼ぶ温泉をさらに生み出した。"
+                            ],
+                            "grammar": "💡 cause A to V＝AにVさせる。sink underground gradually が slowly sink beneath the water に言い換えられる。",
+                            "questionTranslation": "バイアにおける地面のゆるやかな動きは、",
+                            "sourceEvidence": [
+                                "As is common in areas with volcanoes, the surface of the land rose and sank over many centuries.",
+                                "This caused more and more parts of the land to sink underground gradually."
                             ]
                         },
                         {
@@ -1666,6 +2056,18 @@
                                 "保護海域の絵を描いていた子どもたちによって→本文にない",
                                 "古代の船を探していたスキューバダイバーの探索によって→水中調査はスキューバ装備の進歩後に始まった",
                                 "湾の上空を飛んでいたパイロットが撮った写真によって→正解。💡 An Italian military pilot discovered ... while flying low ＋ the picture he took"
+                            ],
+                            "choiceTranslations": [
+                                "湾の近くで大きな彫刻に気づいた歴史研究者たちによって。",
+                                "保護海域の絵を描いていた子どもたちによって。",
+                                "古代船を探していたスキューバダイバーの探索によって。",
+                                "湾の上空を飛行していたパイロットが撮った写真によって。"
+                            ],
+                            "grammar": "💡 while flying low と the picture he took が、低空飛行中のパイロットによる写真で発見されたことを示す。",
+                            "questionTranslation": "水中に消えていたバイアの町の一部は、どのように発見されましたか。",
+                            "sourceEvidence": [
+                                "An Italian military pilot discovered mysterious structures under the water in the bay while flying low.",
+                                "Walls and roads in the water were seen clearly in the picture he took."
                             ]
                         },
                         {
@@ -1683,6 +2085,18 @@
                                 "ツアーボートの特殊なガラス越しに海から眺める→正解。💡 see the structures in the water through the glass bottom of boats の言い換え",
                                 "ローマに新設された歴史博物館をガイド付きで訪問する→本文にない",
                                 "町の遺跡と構造物博物館の両方を見せるツアーに参加する→本文にない"
+                            ],
+                            "choiceTranslations": [
+                                "ガイドなしで自由に潜り、遺跡を探すこと。",
+                                "ツアーボートの特殊なガラス越しに海上から見ること。",
+                                "ローマに新設された歴史博物館をガイド付きで訪れること。",
+                                "町の遺跡と構造物博物館の両方を見せるツアーに参加すること。"
+                            ],
+                            "grammar": "💡 through the glass bottom of boats を through special glass on a tour boat と言い換えている。with guides と without a guide の対比にも注意。",
+                            "questionTranslation": "観光客が古代都市バイアを見る方法の一つは、",
+                            "sourceEvidence": [
+                                "Divers can explore the ancient Roman city in the water with guides.",
+                                "When the ocean is calm, visitors can see the structures in the water through the glass bottom of boats."
                             ]
                         },
                         {
@@ -1700,6 +2114,18 @@
                                 "バイアは混雑しすぎてハドリアヌス帝は滞在できなかった→晩年を過ごした（spent his last years）ので逆",
                                 "湖や川の冷たい水が夏のローマ人をバイアに引きつけた→魅力は温泉と温暖な気候",
                                 "バイアの多くの部分は1940年代以降に沈み始めた→過去2000年にわたって沈んできた"
+                            ],
+                            "choiceTranslations": [
+                                "バイアが沈んだ区域は、発見後に保護されるようになった。",
+                                "バイアは混雑しすぎて、ハドリアヌス帝は滞在できなかった。",
+                                "湖や川の冷たい水が、夏にローマ人をバイアへ引きつけた。",
+                                "バイアの多くの部分は、1940年代以降ゆっくり沈み続けている。"
+                            ],
+                            "grammar": "💡 1940年代に注目・発見され、2000年代初頭以降は protected marine area として管理された時系列を確認する。",
+                            "questionTranslation": "次のうち正しいものはどれですか。",
+                            "sourceEvidence": [
+                                "It was not until the 1940s that this underwater part of the city began attracting attention.",
+                                "Later investigations revealed a room filled with large sculptures, and since the early 2000s, the part of the city that sank into the sea has been managed as a protected marine area."
                             ]
                         }
                     ]
@@ -1750,6 +2176,10 @@
                     {
                         "q": "「investigation in the water only began after scuba devices were advanced enough」を It was not until を使って書き換えてください。",
                         "a": "It was not until scuba devices were advanced enough that investigation in the water began.（only after ≒ not until の言い換え）"
+                    },
+                    {
+                        "q": "「It was not until the 1940s ...」と「since the early 2000s」から、発見と保護の順序を説明してください。",
+                        "a": "水中部分が注目され始めたのは1940年代で、その後2000年代初頭から保護海域として管理されている。not until は開始が遅かったこと、since はその時点から現在までの継続を表す。"
                     }
                 ],
                 "highlightPatterns": [
@@ -1792,7 +2222,7 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: Dead Trees]\nDead trees are often full of life. In the woods, for example, they support many different animals and insects in various ways. When a tree is no longer alive or standing, it becomes a habitat, or a place to live, for many living things. First, mushrooms help break down the tree. This allows insects to go inside the tree and lay eggs. In turn, new insects and other creatures begin to grow. Some small animals hide under bark that has fallen off the tree. Some birds build their houses in holes in the wood.",
-                    "ja": "枯れ木はしばしば生命に満ちあふれている。例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。まず、キノコが木の分解を助ける。これにより昆虫は木の中に入って卵を産むことができる。やがて、新しい昆虫やその他の生き物が育ち始める。木から剥がれ落ちた樹皮の下に隠れる小動物もいる。木の穴に巣を作る鳥もいる。",
+                    "ja": "枯れ木はしばしば生命に満ちあふれている。例えば森の中では、枯れ木はさまざまな方法で多くの異なる動物や昆虫を支えている。木が生きていなかったり立っていなかったりすると、それは多くの生き物にとっての生息地、つまり住む場所になる。まず、キノコが木の分解を助ける。これにより昆虫は木の中に入って卵を産むことができる。すると今度は、新しい昆虫やその他の生き物が育ち始める。木から剥がれ落ちた樹皮の下に隠れる小動物もいる。木の穴に巣を作る鳥もいる。",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
                 "practiceQuestions": [
@@ -1915,7 +2345,7 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: Child-Friendly City]\nIn Bratislava, a central city in Slovakia, efforts have been made to create a child-friendly city through the “City for Children” program. Many schools were surrounded by dangers, and safety measures were taken as a trial. One successful example is Nevädzová Street, which used to be crowded with dozens of cars driven by parents trying to drop off children at school. Now, cars are banned from this street when children go to school. Instead, during the school arrival time from 7:30 to 8:00 a.m., children can walk to school on their own. In Bratislava, any idea is tested on a trial basis before being introduced permanently.",
-                    "ja": "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。多くの学校が危険に囲まれており、試験的に安全対策が取られた。成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。その代わり、午前7時30分から8時までの登校時間帯には、子どもたちは自分の足で歩いて学校に行くことができる。ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証されるのだ。",
+                    "ja": "スロバキアの中心都市ブラチスラバでは、「City for Children（子どものための都市）」プログラムを通じて、子どもに優しい都市をつくる取り組みが行われてきた。多くの学校が危険に囲まれており、試験的に安全対策が取られた。成功例の一つがネヴァヅォヴァー通りで、かつては学校に子どもを送り届けようとする親が運転する何十台もの車で混雑していた。現在では、子どもが登校する時間帯にはこの通りへの車の乗り入れが禁止されている。その代わり、午前7時30分から8時までの登校時間帯には、子どもたちは自分たちだけで歩いて学校へ行くことができる。ブラチスラバでは、どんなアイデアも恒久的に導入される前に試験的に検証されるのだ。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
@@ -2009,5 +2439,41 @@
                 "highlightLabel": "パラフレーズ"
             }
         ]
+    },
+    "listening": {
+        "part1": {
+            "1": 4,
+            "2": 4,
+            "3": 1,
+            "4": 1,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 3,
+            "9": 3,
+            "10": 2,
+            "11": 4,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 4
+        },
+        "part2": {
+            "16": 1,
+            "17": 2,
+            "18": 2,
+            "19": 3,
+            "20": 4,
+            "21": 2,
+            "22": 2,
+            "23": 3,
+            "24": 4,
+            "25": 4,
+            "26": 3,
+            "27": 2,
+            "28": 4,
+            "29": 2,
+            "30": 1
+        }
     }
 }

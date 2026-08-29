@@ -3,7 +3,12 @@
 2026年度 第1回（準会場）英検2級 data.json 生成スクリプト
 Step 1: vocabulary（単語カード・単語クイズ）
 """
-import json, os
+import json
+import os
+import re
+import sys
+
+sys.stdout.reconfigure(encoding="utf-8")
 
 data = {
     "grade": "2級",
@@ -568,7 +573,7 @@ vocab.append({
 # ============================================================
 
 for i, v in enumerate(vocab):
-    safe_word = v['word'].replace(' ', '_').replace("'", '').lower()
+    safe_word = re.sub(r"[^a-zA-Z0-9_]", "_", v["word"].lower()).strip("_")
     v["wordAudio"] = f"audio/vocab/w_{i+1:03d}_{safe_word}.mp3"
 
 data["vocabulary"] = vocab
