@@ -59,6 +59,24 @@ for i, fp in enumerate(fps):
         if pat not in all_text:
             errors.append(f"{exp_id}: pattern not in exam text: {pat[:50]}...")
 
+    if len(fp.get("explanation", "")) > 220:
+        errors.append(f"{exp_id}: explanation too long ({len(fp.get('explanation', ''))})")
+
+blob = json.dumps(lp, ensure_ascii=False)
+for stale in ("子どもが父に Can you", "形容詞の追加", "古い船員", "船が着陸", "行き道で"):
+    if stale in blob:
+        errors.append(f"lessonPlan stale wording remains: {stale}")
+
+fp3 = fps[2] if len(fps) >= 3 else {}
+fp3_en = fp3.get("practicePassage", {}).get("en", "")
+for required in (
+    "[正答補充済み]",
+    "there was nothing wrong with making mistakes",
+    "his speech was not perfect",
+):
+    if required not in fp3_en:
+        errors.append(f"fp3 practicePassage missing: {required}")
+
 print(f"lessonPlan focusPoints={len(fps)} errors={len(errors)}")
 for e in errors:
     print(" ", e)

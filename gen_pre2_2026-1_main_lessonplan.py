@@ -20,11 +20,8 @@ fp1 = {
     "title": "語彙・熟語の空所判断（absolutely / except for / make up my mind）",
     "subtitle": "Vocabulary & Idiom Fill-in: Context Clues",
     "explanation": (
-        "大問1では、空所の直後・前後の文が最大の手がかりです。"
-        "absolutely は形容詞 delicious を強調し、the best pasta that I've ever eaten と呼応します。"
-        "except for は Almost all（ほとんどすべて）のあとに例外を示し、still waiting for a family とセットで頻出します。"
-        "out of the question は断りの定型で、just got a new one last month など「理由」と対になります。"
-        "make up my mind は decide ～? への No. I can't ～ の問答ペアとして覚えると会話空所にも応用できます。"
+        "大問1は空所前後の語句で判断します。Q1は absolutely が delicious を強め、the best pasta と呼応します。"
+        "Q11は Almost all と except for が「全体と例外」を作ります。Q13・14は、断る理由や decided への返答から定型表現を選び、Q8は trust 人 to do の形を確認します。"
     ),
     "sourceQuote": "absolutely delicious / except for one dog / out of the question / make up my mind / trust their friends",
     "sourceLocation": "大問1 Q1, Q11, Q13, Q14, Q8",
@@ -36,7 +33,7 @@ fp1 = {
         },
         {
             "en": "Almost all the pets in the shelter found homes, except for one dog that was still waiting for a family.",
-            "ja": "保護施設のペットはほとんどすべて家を見つけたが、まだ家族を待つ1匹を除いて。",
+            "ja": "保護施設のペットは、まだ家族を待っていた1匹を除き、ほとんどすべてに新しい家が見つかった。",
             "note": "Almost all ＋ except for ＝「大部分＋例外」の定型。Q11。",
         },
         {
@@ -58,12 +55,12 @@ fp1 = {
         ),
         "ja": (
             "この料理は本当においしい！今までで最高のパスタだ。\n"
-            "保護施設のペットはほとんどすべて家を見つけたが、まだ家族を待つ1匹を除いて。\n"
+            "保護施設のペットは、まだ家族を待っていた1匹を除き、ほとんどすべてに新しい家が見つかった。\n"
             "今年の誕生日に新しいスマホをもらえない？\n"
             "ダメよ、それはありえない。誕生日は来月だし、先月新しいのをもらったばかりでしょ。\n"
             "どのクラブに入るか決めた？\n"
             "ううん、決められない。どれもとてもおもしろそうなんだ。\n"
-            "人は困難な時期に友人を信頼して支えてもらい、解決策を見つける手助けをしてもらえる。"
+            "人は、困難なときに友人が支え、解決策を見つけるのを助けてくれると信頼できる。"
         ),
         "audioFile": "audio/practice_pp1.mp3",
     },
@@ -101,11 +98,8 @@ fp2 = {
     "title": "会話完成の流れ（same direction / volunteer / cafeteria）",
     "subtitle": "Dialogue Completion: Offer, Sign-up & Daily Routine",
     "explanation": (
-        "大問2は会話全体の「申し出・驚き・代替案」の流れを読む問題です。"
-        "Q16では I'm going in the same direction（同じ方向）＋ Please follow me が I can take you there を選ばせます。"
-        "Q18では We have plenty to choose from のあと、which program you're interested in と具体名の返答がペアになります。"
-        "Q19〜20は But you usually eat at the cafeteria（いつもの習慣）と、closed for repairs（今日からの変化）のギャップが鍵です。"
-        "作る時間がないとき Can you buy something on your way → stop by my favorite bakery と続きます。"
+        "大問2は会話の前後関係を追います。Q16は same direction と follow me から案内の申し出、Q18は which program と具体名の返答が対応します。"
+        "Q19・20は普段の学食利用と closed for repairs の変化を捉え、作れないため途中で買う代案につなげます。"
     ),
     "sourceQuote": "going in the same direction / volunteer programs / cafeteria will be closed for repairs / buy something on your way",
     "sourceLocation": "大問2 Q16〜20",
@@ -143,7 +137,7 @@ fp2 = {
             "どのプログラムに興味がありますか？選べるものはたくさんあります。\n"
             "お弁当？でも君はたいてい学食で食べるでしょ。なぜ持っていく必要があるの？\n"
             "今日から学食は修理のため閉まっていて、全員持参しなければならない。\n"
-            "今作る時間はないと思う。今日は行き道で何か買ってくれる？\n"
+            "今作る時間はないと思う。今日は途中で何か買ってくれる？\n"
             "わかった。お気に入りのパン屋に寄るね。"
         ),
         "audioFile": "audio/practice_pp2.mp3",
@@ -159,11 +153,11 @@ fp2 = {
         },
         {
             "q": "Q20の正解が「自分で作る」ではない理由は？",
-            "a": "子どもが父に Can you ～? と頼み、父は時間がない（I don't think so）。買う代替案が bakery と続く。",
+            "a": "父親が子どもに Can you buy something ～? と頼み、子どもが bakery に寄ると答えているから。",
         },
         {
             "q": "on your way と stop by はどう結びつきますか？",
-            "a": "行き道で（on your way）パン屋に寄る（stop by）＝通りがかりに買う流れ。",
+            "a": "行く途中で（on your way）パン屋に寄る（stop by）＝通りがかりに買う流れ。",
         },
     ],
     "highlightPatterns": [
@@ -182,10 +176,8 @@ fp3 = {
     "title": "長文空所「The Advice」（embarrassed / necessary step / even better）",
     "subtitle": "Passage Fill: Overcoming Fear of Speaking",
     "explanation": (
-        "大問3は2段落の物語で、姉のアドバイス（第1段落）と学校のスピーチ（第2段落）が対になっています。"
-        "Q21は afraid to speak と embarrassed if his English was wrong から、間違いへの恐れを乗り越える助言を読み取ります。"
-        "a necessary step to improve his skills が空所の内容を補強します。"
-        "Q22は He knew that ～ のあと、very good だが how he could make it even better という「良いが完璧ではない」流れが決め手です。"
+        "大問3は空所前後の因果を確認します。Q21は embarrassed if his English was wrong という不安に対し、making mistakes が上達への necessary step だと姉が助言します。"
+        "Q22は very good でも even better にできるため、not perfect と判断します。"
     ),
     "sourceQuote": "afraid to speak / embarrassed if his English was wrong / a necessary step to improve his skills / how he could make it even better",
     "sourceLocation": "大問3「The Advice」Q21〜22",
@@ -209,12 +201,14 @@ fp3 = {
     "practicePassage": {
         "en": (
             "[出典: The Advice]\n"
-            "Although he enjoyed studying English, he was always afraid to speak the language. He worried that he might be embarrassed if his English was wrong. One day, he talked with his older sister, who spoke English very well. She even explained that it was a necessary step to improve his skills. Thanks to her, Haruto's attitude toward speaking English changed.\n"
-            "When his turn came, he stood up and spoke clearly, despite feeling nervous. When he finished the whole speech, however, Ms. Sato smiled and said his speech was very good. She also explained how he could make it even better. From that day, he began to enjoy speaking English."
+            "[正答補充済み]\n"
+            "Although he enjoyed studying English, he was always afraid to speak the language. He worried that he might be embarrassed if his English was wrong. One day, he talked with his older sister, who spoke English very well. She told him that there was nothing wrong with making mistakes. She even explained that it was a necessary step to improve his skills. Thanks to her, Haruto's attitude toward speaking English changed.\n"
+            "When his turn came, he stood up and spoke clearly, despite feeling nervous. He knew that his speech was not perfect. When he finished the whole speech, however, Ms. Sato smiled and said his speech was very good. She also explained how he could make it even better. From that day, he began to enjoy speaking English."
         ),
         "ja": (
-            "英語を勉強するのは楽しんでいたが、話すことはいつも怖かった。間違っていたら恥ずかしいかもしれないと心配していた。英語が上手な姉と話し、姉はスキルを上げるための必要な段階だと説明した。姉のおかげで、話すことへの態度が変わった。\n"
-            "自分の番になると緊張しながらも立ち上がり、はっきり話した。スピーチを終えると佐藤先生は微笑み、とてもよいと言った。さらにもっとよくする方法も説明した。その日から、英語を話すことを楽しみ始めた。"
+            "[正答補充済み]\n"
+            "英語を勉強するのは楽しんでいたが、話すことはいつも怖かった。間違っていたら恥ずかしいかもしれないと心配していた。英語が上手な姉と話すと、姉は間違えても何も悪くなく、それは力を伸ばすために必要な段階だと説明した。姉のおかげで、話すことへの態度が変わった。\n"
+            "自分の番になると緊張しながらも立ち上がり、はっきり話した。自分のスピーチは完璧ではないと分かっていた。しかしスピーチを終えると佐藤先生は微笑み、とてもよかったと言った。さらに、もっとよくする方法も説明した。その日から、英語を話すことを楽しみ始めた。"
         ),
         "audioFile": "audio/practice_pp3.mp3",
     },
@@ -252,11 +246,8 @@ fp4 = {
     "title": "メール読解「About joining my band」（found someone / still looking / phone number）",
     "subtitle": "Email Reading: Refusal, Referral & Next Step",
     "explanation": (
-        "大問4Aは拒否→別バンドの紹介→次の行動、というメールの典型構成です。"
-        "Q23は we just found someone last week が she has already found a new member の根拠です。"
-        "I know how well you can play the guitar があるため、実力不足が理由ではないことに注意します。"
-        "Q24は still looking for a good guitarist と the guitarist had to quit last week が一致します。"
-        "Q25はメールで最初に示される具体的行動が give me your phone number であり、練習見学は Then, you can go watch の後です。"
+        "大問4Aは「断り→別バンドの紹介→次の行動」の順を追います。Q23は found someone last week、Q24は still looking for a good guitarist、"
+        "Q25は give me your phone number が直接の根拠です。Then 以降はその後の行動です。"
     ),
     "sourceQuote": "we just found someone last week / still looking for a good guitarist / perform original music / give me your phone number",
     "sourceLocation": "大問4A「About joining my band」Q23〜25",
@@ -305,7 +296,7 @@ fp4 = {
             "a": "Then, you can go watch（その後）とあり、先に give me your phone number が必要。",
         },
         {
-            "q": "perform original music の original は設問でどう言い換えられますか？",
+            "q": "perform original music と対比されている本文表現は何ですか？",
             "a": "They do not cover famous songs（有名曲のカバーはしない）と対比で理解する。",
         },
     ],
@@ -325,29 +316,25 @@ fp5 = {
     "title": "論説読解とパラフレーズ（Pig Beach / unique sight / educate tourists）",
     "subtitle": "Expository Reading & Key Paraphrases",
     "explanation": (
-        "大問4B「Pig Beach」は、人気の理由→豚の由来→観光客の悪影響→保護策、という論説構成です。"
-        "Q26では unique sight が very unusual view に言い換えられます（豚が泳ぐ珍しい光景）。"
-        "Q27では old sailors left their pigs on the island が sailors brought them but left them behind に対応します。"
-        "Q28では not good for their health が fed food that is not good for them to eat です。"
-        "Q29では educate tourists on how to behave properly が teach tourists how to treat them correctly です。"
-        "本文の名詞・動詞を追い、形容詞の追加（unusual）や語順の変化に注意してください。"
+        "大問4Bは「人気→由来→観光客の影響→保護策」の段落構成を押さえます。Q26は unique→unusual、Q27は left→left behind、"
+        "Q28は not good for their health、Q29は educate→teach の言い換えを本文と選択肢で照合します。"
     ),
     "sourceQuote": "unique sight / old sailors left their pigs / not good for their health / educate tourists on how to behave properly",
     "sourceLocation": "大問4B「Pig Beach」Q26〜29",
     "examples": [
         {
             "en": "This has led many tourists to visit the island to see this unique sight.",
-            "ja": "多くの観光客が、この独特な光景を見るために島を訪れるようになった。",
-            "note": "unique sight＝独特な光景。Q26のパラフレーズ very unusual view の根拠。",
+            "ja": "このことから、その珍しい光景を見るために多くの観光客が島を訪れるようになった。",
+            "note": "unique sight＝珍しい光景。Q26の very unusual view への言い換えの根拠。",
         },
         {
             "en": "One story says that old sailors left their pigs on the island.",
-            "ja": "一つの説では、古い船員が豚を島に残していったという。",
+            "ja": "一つの説では、昔の船乗りたちが豚を島に残していったという。",
             "note": "leave ～ on the island＝島に残す。Q27の正解根拠。",
         },
         {
             "en": "they have started campaigns to educate tourists on how to behave properly around the swimming pigs.",
-            "ja": "泳ぐ豚の周りで適切に行動するよう観光客に教育するキャンペーンを始めた。",
+            "ja": "泳ぐ豚の近くでどう適切に行動すべきかを観光客に教える啓発活動を始めた。",
             "note": "educate 人 on how to ～＝～の仕方を教育する。Q29。",
         },
     ],
@@ -359,9 +346,9 @@ fp5 = {
             "To protect the pigs, several organizations and the local government are taking action. For example, they have started campaigns to educate tourists on how to behave properly around the swimming pigs. They are also cleaning up the beach and making stricter rules on feeding the pigs."
         ),
         "ja": (
-            "近年、豚はソーシャルメディアで世界的に人気を得た。多くの観光客が独特な光景を見るために島を訪れる。結果、動物に悪影響を与えている。\n"
-            "一つの説では古い船員が豚を島に残した。今日、観光客は問題を引き起こすことがある。さまざまな餌を与えるが、その多くは健康に良くない。\n"
-            "保護のため団体と地方政府が行動している。泳ぐ豚の周りで適切に行動するよう観光客に教育するキャンペーンを始めた。ビーチの清掃や餌やりの厳しいルールも作っている。"
+            "近年、豚はソーシャルメディアによって世界中で人気を集めた。このことから、多くの観光客が珍しい光景を見るために島を訪れ、その増加が豚たちに悪影響を及ぼしている。\n"
+            "一つの説では昔の船乗りたちが豚を島に残したとされる。現在、観光客が問題を起こすことがあり、豚の健康に良くない食べ物を与えている。\n"
+            "豚を守るため、団体と地方政府が対策を進めている。豚の近くで適切に行動する方法を観光客に教える啓発活動を始め、ビーチの清掃や餌やりの厳しいルール作りも進めている。"
         ),
         "audioFile": "audio/practice_pp5.mp3",
     },
@@ -372,7 +359,7 @@ fp5 = {
         },
         {
             "q": "Q27で broken ship landed there が誤答になる理由は？",
-            "a": "本文は pigs swam to the island after escaping（逃げて泳いだ）であり、船が着陸した話ではない。",
+            "a": "本文は pigs swam to the island after escaping（逃げて泳いだ）であり、船が豚を乗せたまま島に着いた話ではない。",
         },
         {
             "q": "Q28の正解パラフレーズを本文から説明してください。",

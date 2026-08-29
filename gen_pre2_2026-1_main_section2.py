@@ -63,10 +63,10 @@ section2 = {
             ],
             "answer": 1,
             "choiceAnalysis": [
-                "✅ I can take you there＝そこへ連れて行ってあげられる。I'm going in the same direction（同じ方向に行く）＋Please follow me（ついてきて）が、案内して連れて行く申し出と一致→正解",
-                "❌ I can take the wrong way＝間違った道を行ける。Please follow me（ついてきて）と案内する直前に、わざと道を間違えると言うのは会話の流れと合わない",
-                "❌ you won't make it＝たどり着けないだろう。AはI'll try（やってみる）と前向き。Bが同じ方向に行くと言ったうえで見込みを否定するのは矛盾",
-                "❌ you won't see me again＝もう会えないだろう。Please follow me（ついてきて）とセットで使えない。別れの場面の表現",
+                "I can take you there＝そこへ連れて行ける。same direction と Please follow me が案内の申し出につながる→正解。💡",
+                "I can take the wrong way＝間違った道を通れる。道を案内してPlease follow meと促す流れに合わない。",
+                "you won't make it＝たどり着けないだろう。same direction に行くBが案内を申し出る流れと逆。",
+                "you won't see me again＝もう会えないだろう。直後のPlease follow meとつながらない。",
             ],
             "grammar": "💡 take 人 there＝人をそこへ連れて行く。in the same direction（同じ方向に）＋follow me（ついてきて）が「一緒に行って案内する」流れの決め手。",
         },
@@ -82,7 +82,7 @@ section2 = {
             ),
             "translation": (
                 "A：ルーカス、どのジムに通ってるの？私も入会しようかなって思ってて。\n"
-                "B：いいね！僕はスーパーの隣のところに通ってるけど、あなたの家の近くにもっと近い新しいところがあるよ。"
+                "B：いいね！僕はスーパーの隣のところに通ってるけど、あなたの家にもっと近い新しいジムがあるよ。"
                 "先月オープンしたんだ。\n"
                 "A：へえ、どこにあるの？\n"
                 "B：映画館の向かいだよ。( 17 )。まだ行ったことないけど、評判はいいって。"
@@ -101,12 +101,12 @@ section2 = {
             ],
             "answer": 3,
             "choiceAnalysis": [
-                "❌ the closest to the supermarket＝スーパーに一番近い。Bは自分が通うのはスーパー隣のジムと言っており、紹介しているのはcloser to your place（あなたの家の近く）の新しいジム。聞き手の家からの距離が論点",
-                "❌ only about one year old＝開いてから約1年。直前のIt just opened last month（先月オープン）と矛盾する",
-                "✅ about five minutes from your house＝家から約5分のところ。closer to your place（あなたの家の近く）という紹介の続きとして、家からの距離を示す表現が自然→正解",
-                "❌ too noisy and small for real training＝うるさくて狭すぎる。直後のpeople say it's good（評判はいい）と正反対のネガティブな内容",
+                "the closest to the supermarket＝スーパーに最も近い。紹介先はcloser to your placeで、スーパー隣はBが通う別のジム。",
+                "only about one year old＝できて約1年。It just opened last month と矛盾する。",
+                "about five minutes from your house＝家から約5分。closer to your placeを具体化する距離として自然→正解。💡",
+                "too noisy and small for real training＝うるさくて狭すぎる。people say it's good と反対。",
             ],
-            "grammar": "💡 closer to your place＝あなたの家の近く。会話の主題が「聞き手に便利なジムの場所」なので、from your house（家から）の距離が決め手。",
+            "grammar": "💡 closer to your place＝（スーパー隣のジムより）あなたの家に近い。from your house（家から）の距離が決め手。",
         },
         {
             "number": 18,
@@ -118,7 +118,7 @@ section2 = {
             ),
             "translation": (
                 "A：こんにちは。この夏のボランティアプログラムのどれかに申し込みたいのですが。\n"
-                "B：もちろんです！( 18 )お聞きしてもよろしいですか？選べるプログラムはたくさんありますよ。\n"
+                "B：もちろんです！( 18 )をお聞きしてもよろしいですか？選べるプログラムはたくさんありますよ。\n"
                 "A：はい。「司書として働こう」はまだ空いていますか？8月10日からだと思うのですが。\n"
                 "B：確認しますね。はい、まだ空いています。この用紙に記入してください。"
             ),
@@ -136,10 +136,10 @@ section2 = {
             ],
             "answer": 2,
             "choiceAnalysis": [
-                "❌ how you learned about our programs＝どうやって知ったか。申し込みの場面で聞くことは可能だが、Aの返答が具体的なプログラム名（Let's Work as a Librarian）であることから、先に「どれに興味があるか」を聞いた流れが自然",
-                "✅ which program you're interested in＝どのプログラムに興味があるか。We have plenty to choose from（たくさん選べる）→Aが特定のプログラム名を答える、という申し込みの定番の流れ→正解",
-                "❌ what kinds of books you enjoy reading＝どんな本が好きか。Aの返答がIs \"Let's Work as a Librarian\" still open?（司書プログラムは空いているか）なので、先にどのプログラムかを聞く流れが自然",
-                "❌ when your summer vacation finishes＝夏休みがいつ終わるか。申し込み時に必ずしも聞かない情報。Aの返答（プログラム名）とも結びつかない",
+                "how you learned about our programs＝プログラムを知った方法。次の返答がLet's Work as a Librarianというプログラム名なので合わない。",
+                "which program you're interested in＝興味のあるプログラム。plenty to choose fromの後に具体名を答える流れ→正解。💡",
+                "what kinds of books you enjoy reading＝好きな本の種類。Is \"Let's Work as a Librarian\" still open?という返答につながらない。",
+                "when your summer vacation finishes＝夏休みが終わる時期。Aは日付ではなくprogram名を答えている。",
             ],
             "grammar": "💡 May I ask ～?＝～をお聞きしてもよろしいですか。plenty to choose from（選べるものがたくさん）→which program（どのプログラムか）の順序に注目。",
         },
@@ -148,12 +148,12 @@ section2 = {
             "text": DIALOGUE_19_20,
             "translation": (
                 "A：お父さん、お弁当はどこ？今日学校に持っていかなきゃいけないの。\n"
-                "B：お弁当？でも君は( 19 )でしょ。なんで自分で持っていかなきゃいけないの？\n"
+                "B：お弁当？でも君は( 19 )よね。どうして自分のお弁当を持っていく必要があるの？\n"
                 "A：今日から学食は修理のため閉まっていて、みんな自分のお弁当を持ってこなきゃいけないの。"
                 "学校からの手紙見なかった？先週渡したのに。\n"
                 "B：うーん、見逃したかも。学食はいつまた開くの？\n"
                 "A：来週の月曜日まで開かないよ。じゃあ、今作る時間ある？\n"
-                "B：ないと思う。今日は( 20 )してくれる？\n"
+                "B：たぶん無理だよ。今日は( 20 )ことはできる？\n"
                 "A：わかった。お気に入りのパン屋に寄るね。でも今週の残りの日はお弁当作るの忘れないでね。\n"
                 "B：わかった、忘れないよ。"
             ),
@@ -171,24 +171,24 @@ section2 = {
             ],
             "answer": 1,
             "choiceAnalysis": [
-                "✅ usually eat at the cafeteria＝たいてい学食で食べている。Why do you need to bring your own?（なぜ持っていく必要があるの？）という父の驚きと一致。今日から学食が閉まるという突然の変化が理由→正解",
-                "❌ always make your own lunch＝いつも自分で作っている。Why do you need to bring your own?（なぜ持っていく必要があるの？）と驚くなら、いつも持参している習慣とは合わない",
-                "❌ didn't wake up early enough＝十分に早く起きなかった。お弁当を持っていく理由（学食が閉まっている）とは無関係",
-                "❌ don't have school today＝今日は学校がない。AのI need to take it to school today（今日学校に持っていく）と矛盾",
+                "usually eat at the cafeteria＝たいてい学食で食べる。今日からcafeteriaが閉まるので弁当が必要になる→正解。💡",
+                "always make your own lunch＝いつも自分で弁当を作る。父に今週のlunch作りを頼む後段と合わない。",
+                "didn't wake up early enough＝十分早く起きなかった。弁当が必要な理由はcafeteriaの休業。",
+                "don't have school today＝今日は学校がない。I need to take it to school today と矛盾する。",
             ],
-            "grammar": "💡 usually eat at the cafeteria＝たいてい学食で食べる。But you ～（でも君は～でしょ）が「いつもの習慣」と「今日は持参」のギャップを示す。",
+            "grammar": "💡 usually eat at the cafeteria＝たいてい学食で食べる。But you ～（でも君は～だよね）が「いつもの習慣」と「今日は持参」のギャップを示す。",
         },
         {
             "number": 20,
             "text": DIALOGUE_19_20,
             "translation": (
                 "A：お父さん、お弁当はどこ？今日学校に持っていかなきゃいけないの。\n"
-                "B：お弁当？でも君は( 19 )でしょ。なんで自分で持っていかなきゃいけないの？\n"
+                "B：お弁当？でも君は( 19 )よね。どうして自分のお弁当を持っていく必要があるの？\n"
                 "A：今日から学食は修理のため閉まっていて、みんな自分のお弁当を持ってこなきゃいけないの。"
                 "学校からの手紙見なかった？先週渡したのに。\n"
                 "B：うーん、見逃したかも。学食はいつまた開くの？\n"
                 "A：来週の月曜日まで開かないよ。じゃあ、今作る時間ある？\n"
-                "B：ないと思う。今日は( 20 )してくれる？\n"
+                "B：たぶん無理だよ。今日は( 20 )ことはできる？\n"
                 "A：わかった。お気に入りのパン屋に寄るね。でも今週の残りの日はお弁当作るの忘れないでね。\n"
                 "B：わかった、忘れないよ。"
             ),
@@ -201,17 +201,17 @@ section2 = {
             "choiceTranslations": [
                 "先生にお弁当を作ってもらう",
                 "学校の学食で食べる",
-                "行き道で何か買う",
+                "行く途中で何か買う",
                 "自分で何か作る",
             ],
             "answer": 3,
             "choiceAnalysis": [
-                "❌ ask your teacher to make it＝先生に作ってもらう。do you have time to make it now?（今作る時間はある？）という父娘の会話で、先生の登場はない",
-                "❌ eat at the school cafeteria＝学食で食べる。the cafeteria will be closed for repairs（学食は修理で閉まっている）と矛盾",
-                "✅ buy something on your way＝行き道で何か買う。I don't think so（今作る時間はない）→Can you ～ today?（今日は～してくれる？）→I'll stop by my favorite bakery（パン屋に寄る）が呼応→正解",
-                "❌ make something by yourself＝自分で作る。Can you buy something on your way today?（今日は行き道で買ってくれる？）と頼む場面で、自分で作れという内容ではない",
+                "ask your teacher to make it＝先生に作ってもらう。teacherは会話に登場せず、弁当をどうするかという父娘の相談と合わない。",
+                "eat at the school cafeteria＝学食で食べる。cafeteria will be closed for repairs と矛盾する。",
+                "buy something on your way＝行く途中で何か買う。I'll stop by my favorite bakery という返答につながる→正解。💡",
+                "make something by yourself＝自分で何か作る。次の返答はI'll stop by my favorite bakeryで、作るのではない。",
             ],
-            "grammar": "💡 on your way＝行き道で。stop by ～（～に寄る）とセットで「通りがかりに買う」流れ。今作る時間がない→買ってくる、という代替案。",
+            "grammar": "💡 on your way＝行く途中で。stop by ～（～に寄る）とセットで「途中で買う」流れ。今作る時間がないための代替案。",
         },
     ],
 }

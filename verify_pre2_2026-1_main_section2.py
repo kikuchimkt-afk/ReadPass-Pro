@@ -2,6 +2,8 @@
 """2026-1 準2級（本会場）大問2 リッチ解説検証"""
 import json
 import os
+import re
+import statistics
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -29,11 +31,26 @@ for q, a in zip(s["questions"], expected):
         errs.append(f"Q{n} choices")
     if len(q.get("choiceAnalysis", [])) != 4:
         errs.append(f"Q{n} analysis count")
+    if not re.search(rf"[（(][\s　]*{n}[\s　]*[）)]", q.get("translation", "")):
+        errs.append(f"Q{n} translation lost numbered blank")
     for i, ca in enumerate(q.get("choiceAnalysis", [])):
-        if q["answer"] == i + 1 and not ca.startswith("✅"):
-            errs.append(f"Q{n} opt{i+1} should be ✅")
-        elif q["answer"] != i + 1 and not ca.startswith("❌"):
-            errs.append(f"Q{n} opt{i+1} should be ❌")
+        if ca.lstrip().startswith(("✅", "❌", "○")):
+            errs.append(f"Q{n} opt{i+1} has a legacy leading marker")
+        is_correct_text = "正解" in ca and "誤答" not in ca
+        if q["answer"] == i + 1:
+            if not is_correct_text or "💡" not in ca:
+                errs.append(f"Q{n} opt{i+1} should contain 正解 and 💡")
+        elif is_correct_text:
+            errs.append(f"Q{n} opt{i+1} incorrectly says 正解")
+
+analysis_lengths = [len(ca) for q in s["questions"] for ca in q.get("choiceAnalysis", [])]
+if analysis_lengths and statistics.mean(analysis_lengths) > 85:
+    errs.append(f"choiceAnalysis average too long: {statistics.mean(analysis_lengths):.1f}")
+
+blob = json.dumps(s, ensure_ascii=False)
+for stale in ("あなたの家の近くにもっと近い", "行き道で", "申し込み時に必ずしも聞かない"):
+    if stale in blob:
+        errs.append(f"stale wording remains: {stale}")
 
 print(f"sections={len(d['sections'])} questions={len(s['questions'])} errors={len(errs)}")
 for e in errs:

@@ -32,7 +32,7 @@ vocab.append({
     "level": "準2級",
     "source": "大問1",
     "example": "Michael, this meal is absolutely delicious! It's the best pasta that I've ever eaten.",
-    "distractors": ["神経質に", "めったに", "別々に"],
+    "distractors": ["緊張して", "めったに〜ない", "別々に"],
 })
 vocab.append({
     "word": "transferred",
@@ -125,13 +125,13 @@ vocab.append({
     "distractors": ["〜の隣に", "〜の向かいに", "〜まで"],
 })
 vocab.append({
-    "word": "Look out",
+    "word": "look out",
     "meaning": "気をつけて",
     "pos": "熟語",
     "level": "準2級",
     "source": "大問1",
     "example": "Look out! There's a bee near your face!",
-    "distractors": ["乗る", "脱ぐ", "あきらめる"],
+    "distractors": ["乗る", "脱ぐ・離陸する", "あきらめる"],
 })
 vocab.append({
     "word": "out of the question",
@@ -149,7 +149,7 @@ vocab.append({
     "level": "準2級",
     "source": "大問1",
     "example": "No. I can't make up my mind. They all seem so interesting.",
-    "distractors": ["うるさくする", "航海に出る", "明かりを消す"],
+    "distractors": ["口出しをやめる・ほっといて", "航海に出る", "明かりを消す"],
 })
 vocab.append({
     "word": "take a look at",
@@ -158,7 +158,7 @@ vocab.append({
     "level": "準2級",
     "source": "大問1",
     "example": "Before buying a new smartphone, you should take a look at several different ones.",
-    "distractors": ["〜に取りかかる", "〜のためにする", "〜と話をする"],
+    "distractors": ["〜に取りかかる", "〜の頼みを聞く・〜を手伝う", "〜と話をする"],
 })
 
 # ============================================================
@@ -177,7 +177,7 @@ vocab.append({
 vocab.append({
     "word": "volunteer",
     "meaning": "ボランティアの",
-    "pos": "形容詞",
+    "pos": "名詞（形容詞的用法）",
     "level": "準2級",
     "source": "大問2",
     "example": "I'd like to sign up for one of the volunteer programs this summer.",
@@ -212,12 +212,12 @@ vocab.append({
 })
 vocab.append({
     "word": "on your way",
-    "meaning": "行き道で",
+    "meaning": "途中で・行く途中で",
     "pos": "熟語",
     "level": "準2級",
     "source": "大問2",
     "example": "Can you buy something on your way today?",
-    "distractors": ["帰り道で", "すぐに", "後で"],
+    "distractors": ["出発する前に", "すぐに", "後で"],
 })
 vocab.append({
     "word": "repairs",
@@ -262,7 +262,7 @@ vocab.append({
 
 vocab.append({
     "word": "embarrassed",
-    "meaning": "恥ずかしい思いをする",
+    "meaning": "恥ずかしい・きまりが悪い",
     "pos": "形容詞",
     "level": "準2級",
     "source": "大問3",
@@ -362,7 +362,7 @@ vocab.append({
 
 vocab.append({
     "word": "native",
-    "meaning": "原産の・自生の",
+    "meaning": "原産の・その土地固有の",
     "pos": "形容詞",
     "level": "準2級",
     "source": "大問4B",
@@ -385,11 +385,11 @@ vocab.append({
     "level": "準2級",
     "source": "大問4B",
     "example": "Some reports said that pigs ate harmful items, such as plastic.",
-    "distractors": ["有益な", "安全な", "美味しい"],
+    "distractors": ["有益な", "安全な", "おいしい"],
 })
 vocab.append({
     "word": "campaign",
-    "meaning": "キャンペーン",
+    "meaning": "啓発活動・キャンペーン",
     "pos": "名詞",
     "level": "準2級",
     "source": "大問4B",

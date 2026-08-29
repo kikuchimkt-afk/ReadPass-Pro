@@ -2,6 +2,7 @@
 """2026-1 準2級（本会場）大問4 リッチ解説検証"""
 import json
 import os
+import statistics
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -37,10 +38,14 @@ for q, a in zip(all_q, expected):
     if len(q.get("choiceAnalysis", [])) != 4:
         errs.append(f"Q{n} analysis count")
     for i, ca in enumerate(q.get("choiceAnalysis", [])):
-        if q["answer"] == i + 1 and not ca.startswith("✅"):
-            errs.append(f"Q{n} opt{i+1} should be ✅")
-        elif q["answer"] != i + 1 and not ca.startswith("❌"):
-            errs.append(f"Q{n} opt{i+1} should be ❌")
+        if ca.lstrip().startswith(("✅", "❌", "○")):
+            errs.append(f"Q{n} opt{i+1} has a legacy leading marker")
+        is_correct_text = "正解" in ca and "誤答" not in ca
+        if q["answer"] == i + 1:
+            if not is_correct_text or "💡" not in ca:
+                errs.append(f"Q{n} opt{i+1} should contain 正解 and 💡")
+        elif is_correct_text:
+            errs.append(f"Q{n} opt{i+1} incorrectly says 正解")
 
 pa = s["passages"][0]
 pb = s["passages"][1]
@@ -55,6 +60,32 @@ for k in ["translations", "sentencePairs"]:
         errs.append(f"passage A missing {k}")
     if k not in pb:
         errs.append(f"passage B missing {k}")
+
+for passage, expected_pairs in ((pa, 18), (pb, 20)):
+    corpus = " ".join(passage.get("paragraphs", []))
+    if len(passage.get("sentencePairs", [])) != expected_pairs:
+        errs.append(
+            f"{passage.get('title')} sentencePairs={len(passage.get('sentencePairs', []))}, expected {expected_pairs}"
+        )
+    for i, pair in enumerate(passage.get("sentencePairs", [])):
+        if len(pair) < 2 or pair[0] not in corpus or not pair[1]:
+            errs.append(f"{passage.get('title')} sentencePairs[{i}] invalid")
+
+q24 = next(q for q in all_q if q["number"] == 24)
+if not any(ev.startswith("The band started last year") for ev in q24.get("sourceEvidence", [])):
+    errs.append("Q24 sourceEvidence should contain the full The band started sentence")
+q25 = next(q for q in all_q if q["number"] == 25)
+if not any(ev.startswith("Then, you can go watch") for ev in q25.get("sourceEvidence", [])):
+    errs.append("Q25 sourceEvidence should contain the Then sentence")
+
+analysis_lengths = [len(ca) for q in all_q for ca in q.get("choiceAnalysis", [])]
+if analysis_lengths and statistics.mean(analysis_lengths) > 90:
+    errs.append(f"choiceAnalysis average too long: {statistics.mean(analysis_lengths):.1f}")
+
+blob = json.dumps(s, ensure_ascii=False)
+for stale in ("もともとギタリストを探していた", "古い船員", "船が着陸", "食べるのに良くない餌", "観客増"):
+    if stale in blob:
+        errs.append(f"stale wording remains: {stale}")
 
 print(f"section4 questions={len(all_q)} errors={len(errs)}")
 for e in errs:

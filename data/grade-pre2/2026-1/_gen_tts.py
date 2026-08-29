@@ -36,7 +36,14 @@ fps = d.get("lessonPlan", {}).get("focusPoints", [])
 for i, fp in enumerate(fps):
     pp = fp.get("practicePassage", {})
     en = pp.get("en", "")
-    en_clean = re.sub(r"\[出典:.*?\]\n?", "", en).strip()
+    # Editorial source/provenance markers are UI-only metadata and must never
+    # be spoken by the practice audio.
+    en_clean = re.sub(
+        r"^\[(?:出典:.*?|正答補充済み)\]\s*",
+        "",
+        en,
+        flags=re.MULTILINE,
+    ).strip()
     fname = f"practice_pp{i + 1}.mp3"
     outpath = os.path.join(audio_dir, fname)
     if en_clean and (not os.path.exists(outpath) or os.path.getsize(outpath) < 500):

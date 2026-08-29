@@ -29,25 +29,41 @@ section3 = {
                 "One day, his teacher, Ms. Sato, gave a speech activity in her English class. Haruto still felt worried, but he decided to do his best. When his turn came, he stood up and spoke clearly, despite feeling nervous. He knew that ( 22 ). When he finished the whole speech, however, Ms. Sato smiled and said his speech was very good. She also explained how he could make it even better. From that day, he began to enjoy speaking English.",
             ],
             "translations": [
-                "ハルトは東京の高校生です。英語を勉強するのは楽しんでいましたが、話すことはいつも怖かったのです。英語が間違っていたら恥ずかしい思いをするかもしれないと心配していました。ある日、英語がとても上手な姉と話しました。姉は彼に、( 21 )と言いました。さらに、それはスキルを上げるために必要な段階だと説明しました。姉のおかげで、ハルトの英語を話すことへの態度は変わりました。",
-                "ある日、佐藤先生は英語の授業でスピーチの活動を行いました。ハルトはまだ不安でしたが、ベストを尽くすことにしました。自分の番が来ると、緊張しながらも立ち上がり、はっきりと話しました。彼は( 22 )ことを知っていました。しかしスピーチ全体を終えると、佐藤先生は微笑んで、とてもよいスピーチだったと言いました。さらに、どうすればもっとよくできるかも説明してくれました。その日から、彼は英語を話すことを楽しみ始めました。",
+                "ハルトは東京の高校生です。英語を勉強することは好きでしたが、英語を話すことをいつも怖がっていました。自分の英語が間違っていたら恥ずかしい思いをするかもしれない、と心配していました。ある日、英語がとても上手な姉と話しました。姉は彼に、( 21 )と言いました。さらに、それは自分の力を伸ばすために必要な一歩だと説明しました。姉のおかげで、ハルトの英語を話すことに対する姿勢は変わりました。",
+                "ある日、佐藤先生は英語の授業でスピーチ活動を行いました。ハルトはまだ不安でしたが、ベストを尽くすことにしました。自分の番が来ると、緊張しながらも立ち上がり、はっきりと話しました。彼は( 22 )ことを知っていました。しかし、スピーチを最後まで終えると、佐藤先生は微笑み、とてもよいスピーチだったと言いました。また、どうすればさらによくできるかも説明してくれました。その日から、彼は英語を話すことが楽しくなりました。",
             ],
             "sentencePairs": [
                 [
+                    "Haruto is a high school student in Tokyo.",
+                    "ハルトは東京の高校生です。",
+                ],
+                [
                     "Although he enjoyed studying English, he was always afraid to speak the language.",
-                    "英語を勉強するのは楽しんでいましたが、話すことはいつも怖かったのです。",
+                    "英語を勉強することは好きでしたが、英語を話すことをいつも怖がっていました。",
                 ],
                 [
                     "He worried that he might be embarrassed if his English was wrong.",
-                    "英語が間違っていたら恥ずかしい思いをするかもしれないと心配していました。",
+                    "自分の英語が間違っていたら恥ずかしい思いをするかもしれない、と心配していました。",
+                ],
+                [
+                    "One day, he talked with his older sister, who spoke English very well.",
+                    "ある日、英語がとても上手な姉と話しました。",
+                ],
+                [
+                    "She told him that there was ( 21 ).",
+                    "姉は彼に、( 21 )と言いました。",
                 ],
                 [
                     "She even explained that it was a necessary step to improve his skills.",
-                    "さらに、それはスキルを上げるために必要な段階だと説明しました。",
+                    "さらに、それは自分の力を伸ばすために必要な一歩だと説明しました。",
                 ],
                 [
                     "Thanks to her, Haruto's attitude toward speaking English changed.",
-                    "姉のおかげで、ハルトの英語を話すことへの態度は変わりました。",
+                    "姉のおかげで、ハルトの英語を話すことに対する姿勢は変わりました。",
+                ],
+                [
+                    "One day, his teacher, Ms. Sato, gave a speech activity in her English class.",
+                    "ある日、佐藤先生は英語の授業でスピーチ活動を行いました。",
                 ],
                 [
                     "Haruto still felt worried, but he decided to do his best.",
@@ -58,16 +74,20 @@ section3 = {
                     "自分の番が来ると、緊張しながらも立ち上がり、はっきりと話しました。",
                 ],
                 [
+                    "He knew that ( 22 ).",
+                    "彼は( 22 )ことを知っていました。",
+                ],
+                [
                     "When he finished the whole speech, however, Ms. Sato smiled and said his speech was very good.",
-                    "しかしスピーチ全体を終えると、佐藤先生は微笑んで、とてもよいスピーチだったと言いました。",
+                    "しかし、スピーチを最後まで終えると、佐藤先生は微笑み、とてもよいスピーチだったと言いました。",
                 ],
                 [
                     "She also explained how he could make it even better.",
-                    "さらに、どうすればもっとよくできるかも説明してくれました。",
+                    "また、どうすればさらによくできるかも説明してくれました。",
                 ],
                 [
                     "From that day, he began to enjoy speaking English.",
-                    "その日から、彼は英語を話すことを楽しみ始めました。",
+                    "その日から、彼は英語を話すことが楽しくなりました。",
                 ],
             ],
             "questions": [
@@ -87,10 +107,10 @@ section3 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ no need to speak English＝英語を話す必要はない。He was always afraid to speak the language（話すのが怖い）という悩みに対し、話さなくてよいと言っても前に進まない",
-                        "❌ only one way for language learning＝語学学習には一つの方法しかない。He worried that he might be embarrassed if his English was wrong（間違えて恥ずかしい）という個人の不安が論点で、学習法の数の話ではない",
-                        "❌ something more important than trying hard＝一生懸命やることより大切なことがある。it was a necessary step to improve his skills（上達のための必要な段階）とあり、努力そのものを否定する内容ではない",
-                        "✅ nothing wrong with making mistakes＝間違えても何も悪いことはない。embarrassed if his English was wrong（間違えて恥ずかしい）への助言として自然。a necessary step to improve his skills（上達のための必要な段階）とも一致→正解",
+                        "no need to speak English＝英語を話す必要はない。直後のnecessary step to improve his skillsにつながらない。",
+                        "only one way for language learning＝学習法は一つだけ。本文は英語の間違いへの不安を扱い、学習法の数は述べていない。",
+                        "something more important than trying hard＝努力より大切な何か。it was a necessary stepは「間違うこと」を受けるため、この内容にはつながらない。",
+                        "nothing wrong with making mistakes＝間違えても悪くない。wrongへの不安とnecessary stepの説明につながる→正解。💡",
                     ],
                     "sourceEvidence": [
                         "He worried that he might be embarrassed if his English was wrong.",
@@ -114,10 +134,10 @@ section3 = {
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ his speech was not perfect＝自分のスピーチは完璧ではなかった。He knew that ～の後、his speech was very good（とてもよかった）＋how he could make it even better（もっとよくする方法）が「良いが完璧ではない」と読める→正解",
-                        "❌ his classmate made the same mistake＝クラスメートが同じ間違いをした。When his turn came, he stood up and spoke clearly（自分の番で立ってはっきり話した）とあり、論点はハルト自身のスピーチ",
-                        "❌ he could not continue his speech＝スピーチを続けられなかった。When he finished the whole speech（スピーチ全体を終えた）と記述が食い違う",
-                        "❌ he had forgotten his speech＝スピーチの内容を忘れていた。spoke clearly, despite feeling nervous（緊張しながらもはっきり話した）なら、内容を忘れていたとは読めない",
+                        "his speech was not perfect＝スピーチは完璧ではなかった。very goodだがeven betterにできるという説明につながる→正解。💡",
+                        "his classmate made the same mistake＝クラスメートが同じ間違いをした。本文にclassmateや同じmistakeの記述はない。",
+                        "he could not continue his speech＝スピーチを続けられなかった。finished the whole speechと矛盾する。",
+                        "he had forgotten his speech＝スピーチを忘れていた。spoke clearlyかつfinished the whole speechと合わない。",
                     ],
                     "sourceEvidence": [
                         "When he finished the whole speech, however, Ms. Sato smiled and said his speech was very good.",
