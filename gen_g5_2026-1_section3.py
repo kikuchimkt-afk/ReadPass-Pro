@@ -159,6 +159,85 @@ section3 = {
     ],
 }
 
+# 2026-08 content audit: generate the fully checked slot explanations from the
+# immutable question fields.  The former hand-written draft did not reproduce
+# the reviewed data.json and could silently restore less precise explanations.
+_CIRCLED_TO_NUMBER = {"①": 1, "②": 2, "③": 3, "④": 4}
+_NUMBER_TO_CIRCLED = {value: key for key, value in _CIRCLED_TO_NUMBER.items()}
+_ORDER_REASON = {
+    21: "my sister（私の姉）を主語にし、三人称単数の動詞 washes、目的語 the dishes の順に並べます。",
+    22: "Bill のあとを and I と続けて主語を作り、go skiing（スキーに行く）を続けます。",
+    23: "命令文なので動詞 take で始め、take ～ to ～（～を～へ持って行く）の順に並べます。",
+    24: "Mike's のあとに soccer team を置いて主語を作り、三人称単数の動詞 has、three coaches の順に並べます。",
+    25: "主語 we のあとに don't have を置き、have school（授業がある）を否定する形にします。",
+}
+_COMPLETED = {
+    21: "My sister washes the dishes every day.",
+    22: "Bill and I go skiing in winter.",
+    23: "Take your umbrella to school.",
+    24: "Mike's soccer team has three coaches.",
+    25: "We don't have school today.",
+}
+
+
+def _apply_audited_slot_explanations(question):
+    number = question["number"]
+    completed = _COMPLETED[number]
+    order = question["correctOrder"]
+    words = question["words"]
+    first_number, third_number = order[0], order[2]
+    first_circle = _NUMBER_TO_CIRCLED[first_number]
+    third_circle = _NUMBER_TO_CIRCLED[third_number]
+    first_word = words[first_number - 1]
+    third_word = words[third_number - 1]
+    order_labels = "".join(_NUMBER_TO_CIRCLED[item] for item in order)
+    ordered_words = " → ".join(words[item - 1] for item in order)
+
+    question["grammar"] = (
+        f"日本語は「{question['text']}」。正しい英語は「{completed}」です。"
+        f"{_ORDER_REASON[number]}①〜④を正しい順にすると{order_labels}（{ordered_words}）です。"
+        f"空所は1番目と3番目なので、1番目＝{first_circle}「{first_word}」、"
+        f"3番目＝{third_circle}「{third_word}」。よって答えは{first_circle} ─ {third_circle}です。"
+    )
+    question["grammarSimple"] = (
+        f"いみは「{question['text']}」。ただしい えいごは「{completed}」だよ。"
+        f"1ばんめは{first_circle}「{first_word}」、3ばんめは{third_circle}「{third_word}」。"
+        f"だから こたえは{first_circle} ─ {third_circle}！"
+    )
+
+    detailed = []
+    simple = []
+    for choice_index, label in enumerate(question["choices"], start=1):
+        left_circle, right_circle = label.split(" ─ ")
+        left_number = _CIRCLED_TO_NUMBER[left_circle]
+        right_number = _CIRCLED_TO_NUMBER[right_circle]
+        left_word = words[left_number - 1]
+        right_word = words[right_number - 1]
+        if choice_index == question["answer"]:
+            detailed.append(
+                f"○ {label}：1番目＝{left_circle}「{left_word}」、3番目＝{right_circle}「{right_word}」。"
+                f"完成文「{completed}」の語順と一致します。"
+            )
+            simple.append(
+                f"○ {label}：1ばんめ{left_circle}「{left_word}」、3ばんめ{right_circle}「{right_word}」でピッタリ！"
+            )
+        else:
+            detailed.append(
+                f"{label}：1番目が{left_circle}「{left_word}」、3番目が{right_circle}「{right_word}」になり、"
+                f"正しい語順「{completed}」になりません。正しくは1番目＝{first_circle}「{first_word}」、"
+                f"3番目＝{third_circle}「{third_word}」です。"
+            )
+            simple.append(
+                f"{label}：1ばんめ{left_circle}「{left_word}」と3ばんめ{right_circle}「{right_word}」だと "
+                f"ならびがちがうよ。ただしくは{first_circle}「{first_word}」と{third_circle}「{third_word}」だね。"
+            )
+    question["choiceAnalysis"] = detailed
+    question["choiceAnalysisSimple"] = simple
+
+
+for question in section3["questions"]:
+    _apply_audited_slot_explanations(question)
+
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
 

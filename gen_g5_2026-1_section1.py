@@ -368,6 +368,104 @@ section1 = {
     ],
 }
 
+# 2026-08 content audit: keep the reviewed wording in the generator itself.
+# This makes a clean regeneration reproduce the audited data.json instead of
+# restoring the earlier draft explanations and answer-revealing translations.
+AUDITED_OVERRIDES = {
+    2: {
+        "grammar": "後続の She works at the hospital from Monday to Friday. は、職業を考える手がかりです。病院で働く人にはさまざまな職業がありますが、この選択肢の中では doctor（医者）が最も自然です。",
+        "grammarSimple": "びょういんではいろいろなひとがはたらくけれど、4つのなかでは doctor（いしゃ）がいちばんしぜんだよ！",
+        "choiceAnalysis": [
+            "○ doctor＝医者。この選択肢の中では works at the hospital と最も自然につながる。",
+            "player＝選手。通常、病院での仕事を表す職業名ではない。",
+            "king＝王。病院での仕事を表す選択肢としては不自然。",
+            "farmer＝農家。通常は農場で働く職業なので、この文脈には合わない。",
+        ],
+        "choiceAnalysisSimple": [
+            "○ 4つのなかでは doctor（いしゃ）がいちばんしぜん！",
+            "player は「せんしゅ」。びょういんのしごとをあらわすことばではないよ。",
+            "king は「おう」。びょういんのしごとの話には合わないよ。",
+            "farmer は「のうか」。ふつうはのうじょうではたらくよ。",
+        ],
+    },
+    4: {
+        "translation": "A: あなたのお姉さんか妹さんのドレス、とても（　）ね。\nB: うん。本人もとても気に入っているよ。",
+    },
+    5: {
+        "translation": "A: 夏の（　）はいつ始まるの？\nB: 7月20日だよ。",
+    },
+    7: {
+        "grammarSimple": "different は「ちがう」。いつもはニュースだけど、こんやはちがう番組だよ。",
+        "choiceAnalysis": [
+            "same＝同じ。same の前はふつう the を使うため、a same TV show とは言わない。また、but がいつもと今夜の対比を示している。",
+            "○ different＝違う。いつもと違う番組を見ている。",
+            "high＝高い。TV show の種類を表さない。",
+            "young＝若い。番組の内容を表さない。",
+        ],
+        "choiceAnalysisSimple": [
+            "same は「おなじ」だけど、a same とは言わず、ふつう the same と言うよ。but のあとの今夜は different がぴったり！",
+            "○ different がぴったり！「ちがう番組」！",
+            "high は「たかい」。合わないよ。",
+            "young は「わかい」。合わないよ。",
+        ],
+    },
+    8: {
+        "translation": "A: 今日の午後3時に、私の家（　）来られる？\nB: ごめん、行けないんだ。",
+    },
+    11: {
+        "translation": "A: あの人形、とてもすてきね。（　）ですか？\nB: たった5ドルだよ。",
+        "choiceTranslations": [
+            "どれくらい短い；どれくらい背が低い",
+            "どれくらい若い",
+            "いくら（How much）",
+            "どれくらい悲しい",
+        ],
+    },
+    12: {
+        "choiceTranslations": [
+            "〜から（be from で「〜出身」）",
+            "〜の中に",
+            "〜の",
+            "〜で（場所）",
+        ],
+    },
+    13: {
+        "choiceAnalysis": [
+            "He, too. は「彼も」の意味になり、話し手自身の同意を表さない。",
+            "them は「彼らを・彼らに」という目的格で、「私も」という返答にはならない。",
+            "○ Me, too.＝「私も」。話し手自身が同じ意見だと伝える決まり文句。",
+            "We, too. は「私たちも」の意味になり、一人の話し手が同意するこの会話には合わない。",
+        ],
+        "choiceAnalysisSimple": [
+            "He は「かれは」。はなしている人の「わたし」じゃないよ。",
+            "Them は「かれらを・かれらに」。ここでは使わないよ。",
+            "○ Me, too. で「わたしも」！",
+            "We は「わたしたちは」。一人でこたえるここでは Me だよ。",
+        ],
+        "translation": "A: この映画、好きだな。\nB: （　）も。",
+        "choiceTranslations": [
+            "彼は",
+            "彼らを・彼らに",
+            "私を・私に（Me, too. で「私も」）",
+            "私たちは",
+        ],
+    },
+    14: {
+        "choiceTranslations": [
+            "am（I に続く be 動詞）",
+            "are（you などに続く be 動詞）",
+            "be（be 動詞の原形）",
+            "is（he・she などに続く be 動詞）",
+        ],
+    },
+    15: {
+        "translation": "A: これは（　）電話？\nB: ビルのだよ。",
+    },
+}
+
+for question in section1["questions"]:
+    question.update(AUDITED_OVERRIDES.get(question["number"], {}))
+
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
 

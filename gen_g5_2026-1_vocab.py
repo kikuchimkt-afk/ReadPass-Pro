@@ -195,6 +195,29 @@ vocab.append({
     "distractors": ["持つ", "しない", "今日"],
 })
 
+# Keep the reviewed meanings and distractors reproducible from a clean build.
+AUDITED_VOCAB_OVERRIDES = {
+    "much": {
+        "meaning": "多くの・たくさんの（How much で「いくら」）",
+        "pos": "形容詞・代名詞",
+        "distractors": ["短い・背が低い", "若い", "悲しい"],
+    },
+    "from": {
+        "meaning": "〜から（be from で「〜出身」）",
+    },
+    "Me": {
+        "meaning": "私を・私に（Me, too. で「私も」）",
+        "distractors": ["彼は", "彼らを・彼らに", "私たちは"],
+    },
+    "be": {
+        "meaning": "〜である・いる（原形）",
+        "distractors": ["持っている", "行く", "見る"],
+    },
+}
+
+for item in vocab:
+    item.update(AUDITED_VOCAB_OVERRIDES.get(item["word"], {}))
+
 assert len(vocab) == 20, f"Expected 20 words, got {len(vocab)}"
 
 old_vocab = {v["word"]: v for v in data.get("vocabulary", [])}
