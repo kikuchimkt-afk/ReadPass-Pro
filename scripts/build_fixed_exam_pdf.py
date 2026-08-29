@@ -1189,6 +1189,8 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
 
     grade_label = GRADE_LABELS[grade]
     exam_label = exam_display_label(exam)
+    if exam == "2026-1-sat" and grade in {"grade5", "grade4", "grade3"}:
+        exam_label = "2026年度 第1回（土曜準会場）"
     # Keeping Part 1 at four pages or fewer makes every later page number shift
     # deterministically while each grade keeps its own fixed section sequence.
     pre2_fill_count = (
