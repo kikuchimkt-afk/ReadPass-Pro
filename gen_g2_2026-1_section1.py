@@ -45,7 +45,7 @@ section1 = {
             "answer": 2,
             "choiceAnalysis": [
                 "❌ branch＝枝・支店。find Argentina on a branch（枝の上で国を探す）では地理の学習道具にならない",
-                "✅ globe＝地球儀。find ～ on a globe（地球儀の上で～を見つける）は教室でよく使われる表現。遠い国の位置を学ぶ文脈と一致→正解",
+                "✅ globe＝地球儀。find Argentina on a globe（地球儀の上でアルゼンチンを見つける）は教室でよく使われる表現。countries that are far away from Japan を学ぶ文脈と一致→正解",
                 "❌ scale＝はかり・規模。find Argentina on a scale では countries that are far away from Japan（遠い国の位置を学ぶ）という目的に合わない",
                 "❌ trail＝小道・跡。find Argentina on a trail では learn about countries（国について学ぶ）教室の地理学習と結びつかない",
             ],
@@ -69,7 +69,7 @@ section1 = {
         {
             "number": 4,
             "text": "A: Are you all right? You have a ( ) to be quiet when you're worried.\nB: Do I? I never realized I was like that. I'm fine. I just don't have much to say today.",
-            "translation": "A：大丈夫？ 心配なとき、静かになる( )があるのよ。\nB：そうなの？ 自分がそうだとは気づかなかったわ。大丈夫よ。今日はあまり話すことがないだけ。",
+            "translation": "A：大丈夫？ 心配なとき、静かになる( )があるよ。\nB：そうなの？ 自分がそうだとは気づかなかった。大丈夫。今日はあまり話すことがないだけ。",
             "choices": ["tendency", "discrimination", "shelter", "content"],
             "choiceTranslations": ["傾向", "差別", "避難所", "内容・満足"],
             "answer": 1,
@@ -84,7 +84,7 @@ section1 = {
         {
             "number": 5,
             "text": "Teachers at Billings Academy try to ( ) leadership qualities in their students. They teach the students how to communicate, make decisions, and take responsibility.",
-            "translation": "ビリングス・アカデミーの教師たちは、生徒の中にリーダーシップの資質を( )しようとしています。コミュニケーションの取り方、意思決定、責任の取り方を教えています。",
+            "translation": "ビリングス・アカデミーの教師たちは、生徒のリーダーシップの資質を( )ことに努めています。コミュニケーションの取り方、意思決定の仕方、責任の持ち方を教えています。",
             "choices": ["hate", "foster", "divide", "pronounce"],
             "choiceTranslations": ["憎む", "育む・促進する", "分ける", "発音する"],
             "answer": 2,
@@ -94,12 +94,12 @@ section1 = {
                 "❌ divide＝分ける。divide qualities（資質を分ける）では教育の目的と合わない",
                 "❌ pronounce＝発音する。pronounce qualities では「資質を発音する」となり意味不成立",
             ],
-            "grammar": "💡 foster＝育む・促進する（名詞 foster care＝里子育てとも同語源）。leadership qualities in their students＝生徒の中に資質を育てる。",
+            "grammar": "💡 foster＝育む・促進する。foster leadership qualities in their students は「生徒の中にリーダーシップの資質を育む」。foster care では「里親による養育」の意味でも使われる。",
         },
         {
             "number": 6,
             "text": "On a ( ) Saturday night, Mr. and Mrs. Nelson order pizza and watch TV together. But sometimes, they go out to a restaurant.",
-            "translation": "ネルソン夫妻は、( )の土曜の夜にはピザを注文して一緒にテレビを見ます。でも時々、レストランに出かけます。",
+            "translation": "ネルソン夫妻は、( )土曜の夜にはピザを注文して一緒にテレビを見ます。でも時々、レストランに出かけます。",
             "choices": ["gradual", "chemical", "typical", "false"],
             "choiceTranslations": ["徐々の", "化学の", "典型的な・いつもの", "偽の"],
             "answer": 3,
@@ -114,7 +114,7 @@ section1 = {
         {
             "number": 7,
             "text": "When the movie ended, many people in the theater began to ( ). The story was very sad.",
-            "translation": "映画が終わると、劇場の多くの人が( )し始めました。物語はとても悲しかったのです。",
+            "translation": "映画が終わると、劇場にいた多くの人が( )様子を見せ始めました。物語はとても悲しかったのです。",
             "choices": ["occur", "swell", "tap", "weep"],
             "choiceTranslations": ["起こる", "膨らむ・腫れる", "軽くたたく", "泣く"],
             "answer": 4,
@@ -129,15 +129,15 @@ section1 = {
         {
             "number": 8,
             "text": "The biology professor showed his students some videos of living cells. He wanted to ( ) how cells work.",
-            "translation": "生物学の教授は生徒たちに生きた細胞の映像を見せました。細胞がどのように働くかを( )したかったのです。",
+            "translation": "生物学の教授は生徒たちに生きた細胞の映像を見せました。細胞がどのように働くかを( )ためです。",
             "choices": ["occupy", "polish", "illustrate", "congratulate"],
             "choiceTranslations": ["占める", "磨く", "説明する・図解する", "祝う"],
             "answer": 3,
             "choiceAnalysis": [
-                "❌ occupy＝占める。illustrate how cells work（細胞の働きを占める）では意味不成立",
+                "❌ occupy＝占める。occupy how cells work では how 節を目的語にして『細胞の働きを占める』ことになり、意味が成立しない",
                 "❌ polish＝磨く。polish how cells work では「働き方を磨く」となり、映像を見せる目的と合わない",
                 "✅ illustrate＝説明する・図解する。show videos（映像を見せる）→ illustrate how ～ work（～の働きを説明する）が自然な流れ→正解",
-                "❌ congratulate＝祝う。congratulate how cells work では文法的に目的語を取れない",
+                "❌ congratulate＝祝う。congratulate は通常、人を目的語にして congratulate a person on ～ の形で使い、how cells work とは結びつかない",
             ],
             "grammar": "💡 illustrate＝（例や図で）説明する。show videos / illustrate how ～ work は「視覚資料で仕組みを示す」定番の組み合わせ。",
         },
@@ -154,12 +154,12 @@ section1 = {
                 "✅ barely＝かろうじて。evenly matched（互角）＋in the last seconds（終了間際）→ ギリギリの勝利＝barely won→正解",
                 "❌ repeatedly＝繰り返し。repeatedly won では「繰り返し勝った」となり、1試合の結果の話と矛盾",
             ],
-            "grammar": "💡 barely＝かろうじて・あわや。evenly matched（互角）や in the last seconds（終了間際）と並ぶと「僅差の勝利」を表す。",
+            "grammar": "💡 barely＝かろうじて／ほとんど～ない。ここでは evenly matched（互角）や in the last seconds（終了間際）と並び、「かろうじて勝った」という僅差の勝利を表す。",
         },
         {
             "number": 10,
             "text": "When the teacher said there would be a test next week, the students ( ). They had hoped that they would have more time to study.",
-            "translation": "先生が来週テストがあると言うと、生徒たちは( )しました。もっと勉強する時間があることを望んでいたのに。",
+            "translation": "先生が来週テストがあると言うと、生徒たちは( )。もっと勉強する時間があると思っていたからです。",
             "choices": ["frowned", "slipped", "guessed", "crawled"],
             "choiceTranslations": ["眉をひそめた", "滑った", "推測した", "這った"],
             "answer": 1,
@@ -190,11 +190,11 @@ section1 = {
             "answer": 4,
             "choiceAnalysis": [
                 "❌ For a fresh start＝新たな始まりに。健康アドバイス全体の導入として不自然。「新たな始まりに水を8杯」では意味が通らない",
-                "❌ On a specific occasion＝特定の場面で。後文の However, some people may need more or less（個人差がある）と矛盾。特定の場面限定の助言ではない",
+                "❌ On a specific occasion＝特定の場面で。1日に飲む水の量についての一般的な目安を述べており、特定の機会だけに限った助言ではない",
                 "❌ In case of emergency＝緊急の場合に。日常的な水分摂取の一般論には当てはまらない",
                 "✅ As a general rule＝一般に・概して。一般的な目安を示し、However で個人差を補足する構造→正解",
             ],
-            "grammar": "💡 as a general rule＝一般の規則として・概して。However, some people may need more or less（ただし個人差がある）と対で覚える。",
+            "grammar": "💡 as a general rule＝一般に・概して。However, some people may need more or less（ただし個人差がある）と対で覚える。",
         },
         {
             "number": 12,
@@ -206,7 +206,7 @@ section1 = {
             "choiceAnalysis": [
                 "❌ on the air＝放送中で。do everything on the air（放送中にすべてをする）では生活の自立と無関係",
                 "❌ at a distance＝離れて。do everything at a distance では「離れた場所でする」となり、自立の意味にならない",
-                "❌ to his surprise＝驚いたことに。文法的に do everything to his surprise では「驚きながらすべてをする」となり不自然",
+                "❌ to his surprise＝彼が驚いたことに。文全体を修飾する副詞句としては成立するが、この位置・文脈では料理や掃除を自立して行う方法を表さない",
                 "✅ on his own＝一人で・自力で。実家を出てアパート暮らし→ cooking and cleaning を自分でする＝on his own→正解",
             ],
             "grammar": "💡 on one's own＝一人で・自力で。moved out of parents' house（実家を出た）が「自立」の文脈を作り、on his own の意味を限定する。",
@@ -214,19 +214,19 @@ section1 = {
         {
             "number": 13,
             "text": "In the meeting, the president said that he could not ( ) the plan to expand the office because it would be too expensive.",
-            "translation": "会議で社長は、オフィス拡張の計画は費用がかかりすぎるため、( )できないと述べました。",
+            "translation": "会議で社長は、費用がかかりすぎるため、オフィス拡張の計画に( )ことはできないと述べました。",
             "choices": ["take away from", "go along with", "bring out in", "watch out for"],
             "choiceTranslations": [
                 "〜から奪う・損なう",
                 "〜に賛成する・従う",
-                "〜を引き出す",
+                "（人）に～を生じさせる",
                 "〜に注意する",
             ],
             "answer": 2,
             "choiceAnalysis": [
                 "❌ take away from＝〜から奪う・価値を損なう。could not take away from the plan では「計画から奪えない」となり、社長の判断として不自然",
                 "✅ go along with＝〜に賛成する・従う。could not go along with the plan（計画に賛成できない）＋too expensive（高すぎる）が理由として自然→正解",
-                "❌ bring out in＝慣用句として成立しない。bring out（引き出す）と in の組み合わせはこの文脈で使えない",
+                "❌ bring out in は bring someone out in a rash（人に発疹を生じさせる）などで使われるが、could not bring out in the plan という目的語配置では使えず、計画への賛否も表さない",
                 "❌ watch out for＝〜に注意する。could not watch out for the plan では「計画に注意できない」となり、賛否の判断と合わない",
             ],
             "grammar": "💡 go along with ～＝～に賛成する・～に従う。could not go along with ... because ...（～なので賛成できない）は会議・交渉の場面で頻出。",
@@ -234,7 +234,7 @@ section1 = {
         {
             "number": 14,
             "text": "After ( ) tests, the doctors discovered that Masahiro had a rare illness. They immediately started treating him.",
-            "translation": "( )の検査の後、医師たちはマサヒロが珍しい病気であることを発見しました。すぐに治療を始めました。",
+            "translation": "( )検査を受けた後、医師たちはマサヒロが珍しい病気にかかっていることを突き止めました。すぐに治療を始めました。",
             "choices": ["a series of", "the edge of", "a member of", "the back of"],
             "choiceTranslations": [
                 "一連の",
@@ -265,14 +265,14 @@ section1 = {
                 "言い換えれば",
                 "最初に",
                 "行ったり来たり",
-                "それどころか",
+                "それとは反対に",
             ],
             "answer": 1,
             "choiceAnalysis": [
                 "✅ In other words＝言い換えれば。Aの a lot of work to prepare を B が we are going to be very busy と言い換えている→正解",
                 "❌ In the beginning＝最初に。会話の「最初に忙しくなる」ではなく、Aの内容を受けた言い換えが必要",
                 "❌ Back and forth＝行ったり来たり。文頭の接続詞・副詞句としてこの会話に合わない",
-                "❌ On the contrary＝それどころか。AとBは同じ方向の内容（忙しい）なので逆接にはならない",
+                "❌ On the contrary＝それとは反対に。AとBは同じ方向の内容（忙しい）なので反対内容への訂正にはならない",
             ],
             "grammar": "💡 in other words＝言い換えれば。直前の内容を別の表現で言い直すときの接続。Let's get started right away が忙しさを受けた行動。",
         },
@@ -284,8 +284,8 @@ section1 = {
             "choiceTranslations": [
                 "〜と明確に異なる",
                 "〜で構成された",
-                "〜から欠席している",
-                "〜を脅かす",
+                "〜に存在しない・欠けている",
+                "〜にとって脅威となる",
             ],
             "answer": 1,
             "choiceAnalysis": [
@@ -299,7 +299,7 @@ section1 = {
         {
             "number": 17,
             "text": "The company had to ( ) some of its workers because it was losing money. It was a very difficult decision to make.",
-            "translation": "会社は赤字が続いていたため、従業員の一部を( )せざるを得ませんでした。とても難しい決断でした。",
+            "translation": "会社は赤字が続いていたため、従業員の一部を( )必要がありました。とても難しい決断でした。",
             "choices": ["flip over", "lay off", "bring about", "catch up"],
             "choiceTranslations": [
                 "ひっくり返す",
@@ -312,12 +312,25 @@ section1 = {
                 "❌ flip over＝ひっくり返す。flip over workers（従業員をひっくり返す）では経営判断の文脈に合わない",
                 "✅ lay off＝解雇する。lay off workers（従業員を解雇する）＋losing money（赤字）＋difficult decision（難しい決断）が一貫→正解",
                 "❌ bring about＝引き起こす。bring about workers では「従業員を引き起こす」となり意味不成立",
-                "❌ catch up＝追いつく。catch up workers では「従業員に追いつく」となり、人員削減の文脈と無関係",
+                "❌ catch up＝追いつく。人に追いつくなら catch up with workers とする必要があり、人員削減の文脈にも合わない",
             ],
             "grammar": "💡 lay off＝解雇する（一時解雇・恒久解雇の両方あり得る）。because it was losing money が lay off の直接的な理由。",
         },
     ],
 }
+
+# 2025年度の2級データと同じ表示規約にそろえる。
+# 正答だけに「→正解。💡」を付け、先頭の絵文字マーカーは使わない。
+for question in section1["questions"]:
+    normalized = []
+    for index, analysis in enumerate(question["choiceAnalysis"], 1):
+        analysis = analysis.removeprefix("✅ ").removeprefix("❌ ")
+        if index == question["answer"]:
+            analysis = analysis.replace("→正解。💡", "→正解").replace(
+                "→正解", "→正解。💡"
+            )
+        normalized.append(analysis)
+    question["choiceAnalysis"] = normalized
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

@@ -6,6 +6,7 @@ Step C: 大問3（reading-comprehension型）Q24〜31
 """
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -23,36 +24,68 @@ p3a_paras = [
 ]
 
 p3a_trans = [
-    "メアリー・カーター様\nマシュー・ワッツと申します。ポーラー・ビレッジ小学校の教師です。今年の秋に運動会を開催できる屋外施設を探しています。同僚の一人が貴施設を勧め、ご連絡するよう勧めてくれました。彼女は以前勤めていた学校のイベントで、貴施設のグラウンドの一つを使用したことがあります。また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。",
-    "正確な日程はまだ決まっていませんが、運動会は9月か10月の平日に行われます。午前8時から午後3時まで大きなグラウンドを使いたいと考えています。現在、保護者や教師を含め約150人が参加する見込みです。ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。",
+    "メアリー・カーター様\nマシュー・ワッツと申します。ポーラー・ビレッジ小学校の教師です。今年の秋に運動行事を開催できる屋外施設を探しています。同僚の一人が貴施設を勧め、あなたに連絡するよう提案してくれました。彼女は以前勤めていた学校の行事で、貴施設のグラウンドの一つを使用したことがあります。また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。",
+    "正確な日程はまだ決まっていませんが、運動行事は9月か10月の平日に行われます。午前8時から午後3時まで大きなグラウンドを使いたいと考えています。現在、保護者や教師を含め約150人が参加する見込みです。ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。",
     "どの日程が私たちのイベントに適しているか教えていただけますか。可能な日程をいくつかご提示いただけるとありがたいです。必要に応じて、イベントの詳細について打ち合わせができます。本校は貴社の本社に近く、教師や職員も十分にいます。したがって、スケジュールを調整して、ご指定の日の午後5時前に少なくとも1人が打ち合わせのために訪問できるようにできます。",
     "敬具\nマシュー・ワッツ\nポーラー・ビレッジ小学校",
 ]
 
 p3a_pairs = [
     [
+        "My name is Matthew Watts, and I am a teacher at Polar Village Elementary School.",
+        "マシュー・ワッツと申します。ポーラー・ビレッジ小学校の教師です。",
+    ],
+    [
+        "We are looking for an outdoor facility where we can hold an athletic event this fall.",
+        "今年の秋に運動行事を開催できる屋外施設を探しています。",
+    ],
+    [
         "One of my coworkers recommended your facility and suggested I contact you.",
-        "同僚の一人が貴施設を勧め、ご連絡するよう勧めてくれました。",
+        "同僚の一人が貴施設を勧め、あなたに連絡するよう提案してくれました。",
     ],
     [
-        "your facility is appealing because it is easy to access from several train stations.",
-        "いくつかの駅からアクセスしやすいため、貴施設は魅力的です。",
+        "She used one of the grounds for an event at the school where she had previously worked.",
+        "彼女は以前勤めていた学校の行事で、貴施設のグラウンドの一つを使用したことがあります。",
     ],
     [
-        "we expect about 150 people to attend the event, including some parents and teachers.",
-        "保護者や教師を含め約150人が参加する見込みです。",
+        "Also, your facility is appealing because it is easy to access from several train stations.",
+        "また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。",
     ],
     [
-        "this is about the number of people your facility can hold.",
-        "これは貴施設が収容できる人数とほぼ同じです。",
+        "Although the exact date has not been set, our athletic event will take place on a weekday in September or October.",
+        "正確な日程はまだ決まっていませんが、運動行事は9月か10月の平日に行われます。",
+    ],
+    [
+        "We hope to use the large ground from 8 a.m. to 3 p.m.",
+        "午前8時から午後3時まで大きなグラウンドを使いたいと考えています。",
+    ],
+    [
+        "Currently, we expect about 150 people to attend the event, including some parents and teachers.",
+        "現在、保護者や教師を含め約150人が参加する見込みです。",
+    ],
+    [
+        "According to the website, this is about the number of people your facility can hold.",
+        "ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。",
+    ],
+    [
+        "Could you please let me know which date might be suitable for our event?",
+        "どの日程が私たちのイベントに適しているか教えていただけますか。",
+    ],
+    [
+        "It would be great if you could provide a few possible dates.",
+        "可能な日程をいくつかご提示いただけるとありがたいです。",
+    ],
+    [
+        "We can meet to discuss the details of the event as needed.",
+        "必要に応じて、イベントの詳細について打ち合わせができます。",
     ],
     [
         "Our school is close to your main office, and we have enough teachers and staff.",
         "本校は貴社の本社に近く、教師や職員も十分にいます。",
     ],
     [
-        "we can easily adjust our schedules to make sure at least one person can visit for the meeting before 5 p.m.",
-        "スケジュールを調整して、午後5時前に少なくとも1人が打ち合わせのために訪問できるようにできます。",
+        "Therefore, we can easily adjust our schedules to make sure at least one person can visit for the meeting before 5 p.m. on the day you choose.",
+        "したがって、スケジュールを調整して、ご指定の日の午後5時前に少なくとも1人が打ち合わせのために訪問できるようにできます。",
     ],
 ]
 
@@ -64,38 +97,277 @@ p3b_paras = [
 ]
 
 p3b_trans = [
-    "アレクサンダーとヴィルヘルム・フォン・フンボルトは、18世紀後半に現在のドイツにある地域で裕福な家庭に生まれました。アレクサンダーがまだ子どものころ、父は亡くなりました。父の死以前から、両親は息子たちに良い教育を受けさせたいと考えていました。父の死後、兄弟は主に母によって育てられました。母は厳格で真剣な宗教的信念を持っていました。母は教育を担当し、さまざまな分野の有名な教育者や専門家を雇って家庭教師として教えさせました。兄弟の教育は、数学、語学、歴史、経済学など多くの学問分野をカバーしました。",
+    "アレクサンダーとヴィルヘルム・フォン・フンボルトは、18世紀後半、現在のドイツに当たる地域の裕福な家庭に生まれました。アレクサンダーがまだ子どものころ、父は亡くなりました。父が亡くなる前から、両親は息子たちに良い教育を受けさせたいと考えていました。父の死後、兄弟は主に母によって育てられました。母は厳格で篤い宗教的信念を持っていました。母は二人の教育を取り仕切り、さまざまな分野の著名な教育者や専門家を雇って二人を個別に教えさせました。兄弟は、数学、語学、歴史、経済学など多くの学問分野を学びました。",
     "二人のうち弟のアレクサンダーは、幼い頃から冒険に深い関心を持っていました。母の死後に受け取ったお金が、南アメリカへの旅という夢を実現させました。彼はそこで数年を過ごし、植物、動物、土地の自然の特徴を研究しました。アレクサンダーは旅の後、そこで学んだことを本にまとめました。最も有名な本の一つが『コスモス』で、自然界のすべてがどのように機能し、物事が互いにどう結びついているかを説明しようとしました。",
-    "一方、ヴィルヘルムの情熱は教育と言語でした。彼はプロイセン内務省の教育局長を務め、大学の設立にも協力しました。大学のために書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。彼は言語研究でも知られています。言語の構造と性格は、その話者の文化と個性を反映すると考えました。彼にとって言語は単なる語の集まりではなく、人々が世界を認識する手段でした。",
-    "フンボルト兄弟が育った環境が、永続的な影響を与える何かを成し遂げる機会を彼らに与えたことは明らかです。彼らは偉大な指導者、科学者、作家たちに囲まれて育ち、誰もが持てるわけではない人生を享受しました。裕福な背景は質の高い教育と豊かな知的機会への早期のアクセスを与えました。これらの経験は、今日も社会に影響を与え続ける思想の形成を助けました。世界中で彼らの名前を知る人は多くないかもしれませんが、多くの人が彼らの仕事から間接的に恩恵を受けています。",
+    "一方、ヴィルヘルムが情熱を注いだのは教育と言語でした。彼はプロイセン内務省の教育局長を務め、大学の設立にも協力しました。大学のために彼が書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。彼は言語研究でも知られています。彼は、言語の構造や特質は話者の文化と個性を反映するものだと考えました。彼によれば、言語は単なる単語の集まりではなく、人々が世界を認識するための手段でした。",
+    "フンボルト兄弟が育った環境が、後世に残る影響を与える業績を成し遂げる機会を二人に与えたことは明らかです。二人は偉大な指導者、科学者、作家たちに囲まれて育ち、誰もが送れるわけではない恵まれた生活をしていました。裕福な家庭環境により、幼いころから質の高い教育と豊かな知的機会を得られました。こうした経験は、今日も社会に影響を与え続ける考え方を形作る助けとなりました。世界では二人の名前を知る人は多くないかもしれませんが、多くの人が二人の仕事から間接的に恩恵を受けています。",
 ]
 
 p3b_pairs = [
     [
+        "Alexander and Wilhelm von Humboldt were born in the late eighteenth century in what is now Germany into a wealthy family.",
+        "アレクサンダーとヴィルヘルム・フォン・フンボルトは、18世紀後半、現在のドイツに当たる地域の裕福な家庭に生まれました。",
+    ],
+    [
+        "When Alexander was just a child, their father passed away.",
+        "アレクサンダーがまだ子どものころ、父は亡くなりました。",
+    ],
+    [
+        "Even before his death, their parents wanted to ensure that their sons received a good education.",
+        "父が亡くなる前から、両親は息子たちに良い教育を受けさせたいと考えていました。",
+    ],
+    [
+        "Following his death, the brothers were raised mainly by their mother, who held strict and serious religious beliefs.",
+        "父の死後、兄弟は主に母によって育てられました。母は厳格で篤い宗教的信念を持っていました。",
+    ],
+    [
         "She took charge of their education, hiring famous educators and experts in various fields to tutor them.",
-        "母は教育を担当し、さまざまな分野の有名な教育者や専門家を雇って家庭教師として教えさせました。",
+        "母は二人の教育を取り仕切り、さまざまな分野の著名な教育者や専門家を雇って二人を個別に教えさせました。",
+    ],
+    [
+        "The brothers' education covered many academic subjects, such as mathematics, languages, history, and economics.",
+        "兄弟は、数学、語学、歴史、経済学など多くの学問分野を学びました。",
+    ],
+    [
+        "The younger of the two, Alexander, had been deeply interested in adventure since early childhood.",
+        "二人のうち弟のアレクサンダーは、幼い頃から冒険に深い関心を持っていました。",
     ],
     [
         "The money he received after his mother's death made his dream of traveling to South America come true.",
         "母の死後に受け取ったお金が、南アメリカへの旅という夢を実現させました。",
     ],
     [
-        "The proposal he wrote for the university has influenced the German university system ever since.",
-        "大学のために書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。",
+        "He spent several years there studying plants, animals, and the natural features of the land.",
+        "彼はそこで数年を過ごし、植物、動物、土地の自然の特徴を研究しました。",
     ],
     [
-        "language was not just a collection of words but a means that allowed people to perceive the world.",
-        "言語は単なる語の集まりではなく、人々が世界を認識する手段でした。",
+        "Alexander wrote books about what he had learned there after the trip.",
+        "アレクサンダーは旅の後、そこで学んだことを本にまとめました。",
+    ],
+    [
+        "One of his most famous books is Kosmos, in which he tried to explain how everything in the natural world worked and how things were connected to each other.",
+        "最も有名な本の一つが『コスモス』で、自然界のすべてがどのように機能し、物事が互いにどう結びついているかを説明しようとしました。",
+    ],
+    [
+        "On the other hand, Wilhelm's passion was education and language.",
+        "一方、ヴィルヘルムが情熱を注いだのは教育と言語でした。",
+    ],
+    [
+        "He served as the education director of the Ministry of the Interior in Prussia and helped found a university.",
+        "彼はプロイセン内務省の教育局長を務め、大学の設立にも協力しました。",
+    ],
+    [
+        "The proposal he wrote for the university has influenced the German university system ever since.",
+        "大学のために彼が書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。",
+    ],
+    [
+        "He is also known for his studies of language.",
+        "彼は言語研究でも知られています。",
+    ],
+    [
+        "He considered language to be something whose structure and character reflected the culture and individuality of its speakers.",
+        "彼は、言語の構造や特質は話者の文化と個性を反映するものだと考えました。",
+    ],
+    [
+        "According to him, language was not just a collection of words but a means that allowed people to perceive the world.",
+        "彼によれば、言語は単なる単語の集まりではなく、人々が世界を認識するための手段でした。",
+    ],
+    [
+        "It is clear that the environment in which the Humboldt brothers grew up gave them opportunities to achieve something with a lasting impact.",
+        "フンボルト兄弟が育った環境が、後世に残る影響を与える業績を成し遂げる機会を二人に与えたことは明らかです。",
+    ],
+    [
+        "They enjoyed a life that not everyone could have, growing up around great leaders, scientists, and writers.",
+        "二人は偉大な指導者、科学者、作家たちに囲まれて育ち、誰もが送れるわけではない恵まれた生活をしていました。",
     ],
     [
         "Their wealthy background gave them early access to quality education and rich intellectual opportunities.",
-        "裕福な背景は質の高い教育と豊かな知的機会への早期のアクセスを与えました。",
+        "裕福な家庭環境により、幼いころから質の高い教育と豊かな知的機会を得られました。",
     ],
     [
-        "many people have indirectly received benefits from their work.",
-        "多くの人が彼らの仕事から間接的に恩恵を受けています。",
+        "These experiences helped shape ideas that continue to influence society today.",
+        "こうした経験は、今日も社会に影響を与え続ける考え方を形作る助けとなりました。",
+    ],
+    [
+        "While not many people in the world may know their names, many people have indirectly received benefits from their work.",
+        "世界では二人の名前を知る人は多くないかもしれませんが、多くの人が二人の仕事から間接的に恩恵を受けています。",
     ],
 ]
+
+
+P3A_ANNOTATIONS = {
+    "My name is Matthew Watts, and I am a teacher at Polar Village Elementary School.": (
+        "My name is Matthew Watts,|私の名前はマシュー・ワッツで||and I am a teacher at Polar Village Elementary School.|ポーラー・ビレッジ小学校の教師です。",
+        "is",
+    ),
+    "We are looking for an outdoor facility where we can hold an athletic event this fall.": (
+        "We are looking for an outdoor facility|私たちは屋外施設を探しています||where we can hold an athletic event|そこで運動行事を開催できる||this fall.|今年の秋に。",
+        "are looking",
+    ),
+    "One of my coworkers recommended your facility and suggested I contact you.": (
+        "One of my coworkers|私の同僚の一人が||recommended your facility|貴施設を勧め||and suggested I contact you.|私に、あなたへ連絡するよう勧めました。",
+        "recommended",
+    ),
+    "She used one of the grounds for an event at the school where she had previously worked.": (
+        "She used one of the grounds|彼女はグラウンドの一つを使用しました||for an event at the school|学校の行事のために||where she had previously worked.|彼女が以前勤めていた。",
+        "used",
+    ),
+    "Also, your facility is appealing because it is easy to access from several train stations.": (
+        "Also, your facility is appealing|また、貴施設は魅力的です||because it is easy to access|行きやすいため||from several train stations.|いくつかの駅から。",
+        "is",
+    ),
+    "Although the exact date has not been set, our athletic event will take place on a weekday in September or October.": (
+        "Although the exact date has not been set,|正確な日程はまだ決まっていませんが||our athletic event will take place|私たちの運動行事は行われます||on a weekday|平日に||in September or October.|9月か10月の。",
+        "will take place",
+    ),
+    "We hope to use the large ground from 8 a.m. to 3 p.m.": (
+        "We hope to use the large ground|私たちは大きなグラウンドを使いたいと考えています||from 8 a.m. to 3 p.m.|午前8時から午後3時まで。",
+        "hope",
+    ),
+    "Currently, we expect about 150 people to attend the event, including some parents and teachers.": (
+        "Currently, we expect about 150 people|現在、約150人を見込んでいます||to attend the event,|その行事に参加する||including some parents and teachers.|保護者や教師も含めて。",
+        "expect",
+    ),
+    "According to the website, this is about the number of people your facility can hold.": (
+        "According to the website,|ウェブサイトによると||this is about the number of people your facility can hold.|これは貴施設が収容できる人数とほぼ同じです。",
+        "is",
+    ),
+    "Could you please let me know which date might be suitable for our event?": (
+        "Could you please let me know|教えていただけますか||which date might be suitable|どの日程が適しているか||for our event?|私たちの行事に。",
+        "let",
+    ),
+    "It would be great if you could provide a few possible dates.": (
+        "It would be great|ありがたいです||if you could provide|ご提示いただけると||a few possible dates.|可能な日程をいくつか。",
+        "would be",
+    ),
+    "We can meet to discuss the details of the event as needed.": (
+        "We can meet|私たちは打ち合わせできます||to discuss the details of the event|行事の詳細を話し合うために||as needed.|必要に応じて。",
+        "can meet",
+    ),
+    "Our school is close to your main office, and we have enough teachers and staff.": (
+        "Our school is close to your main office,|本校は貴社の本社に近く||and we have enough teachers and staff.|教師や職員も十分にいます。",
+        "is",
+    ),
+    "Therefore, we can easily adjust our schedules to make sure at least one person can visit for the meeting before 5 p.m. on the day you choose.": (
+        "Therefore,|したがって||we can easily adjust our schedules|私たちは容易に予定を調整できます||to make sure at least one person can visit|少なくとも一人が訪問できるようにするために||for the meeting|打ち合わせのために||before 5 p.m.|午後5時前に||on the day you choose.|ご指定の日に。",
+        "can easily adjust",
+    ),
+}
+
+P3B_ANNOTATIONS = {
+    "Alexander and Wilhelm von Humboldt were born in the late eighteenth century in what is now Germany into a wealthy family.": (
+        "Alexander and Wilhelm von Humboldt were born|アレクサンダーとヴィルヘルム・フォン・フンボルトは生まれました||in the late eighteenth century|18世紀後半に||in what is now Germany|現在のドイツに当たる地域で||into a wealthy family.|裕福な家庭に。",
+        "were born",
+    ),
+    "When Alexander was just a child, their father passed away.": (
+        "When Alexander was just a child,|アレクサンダーがまだ子どものころ||their father passed away.|父は亡くなりました。",
+        "passed away",
+    ),
+    "Even before his death, their parents wanted to ensure that their sons received a good education.": (
+        "Even before his death,|父が亡くなる前から||their parents wanted to ensure|両親は望んでいました||that their sons received a good education.|息子たちが良い教育を受けられるようにすることを。",
+        "wanted",
+    ),
+    "Following his death, the brothers were raised mainly by their mother, who held strict and serious religious beliefs.": (
+        "Following his death,|父の死後||the brothers were raised mainly by their mother,|兄弟は主に母に育てられました||who held strict and serious religious beliefs.|その母は厳格で篤い宗教的信念を持っていました。",
+        "were raised",
+    ),
+    "She took charge of their education, hiring famous educators and experts in various fields to tutor them.": (
+        "She took charge of their education,|母は二人の教育を取り仕切り||hiring famous educators and experts|著名な教育者や専門家を雇って||in various fields|さまざまな分野の||to tutor them.|二人を個別に教えさせました。",
+        "took charge",
+    ),
+    "The brothers' education covered many academic subjects, such as mathematics, languages, history, and economics.": (
+        "The brothers' education covered|兄弟の教育には含まれていました||many academic subjects,|多くの学問分野が||such as mathematics, languages, history, and economics.|例えば数学、語学、歴史、経済学です。",
+        "covered",
+    ),
+    "The younger of the two, Alexander, had been deeply interested in adventure since early childhood.": (
+        "The younger of the two, Alexander,|二人のうち弟のアレクサンダーは||had been deeply interested in adventure|冒険に深い関心を持っていました||since early childhood.|幼い頃から。",
+        "had been",
+    ),
+    "The money he received after his mother's death made his dream of traveling to South America come true.": (
+        "The money he received after his mother's death|母の死後に彼が受け取ったお金が||made his dream of traveling to South America come true.|南アメリカへ旅する夢を実現させました。",
+        "made",
+    ),
+    "He spent several years there studying plants, animals, and the natural features of the land.": (
+        "He spent several years there|彼はそこで数年を過ごしました||studying plants, animals, and the natural features of the land.|植物、動物、土地の自然の特徴を研究しながら。",
+        "spent",
+    ),
+    "Alexander wrote books about what he had learned there after the trip.": (
+        "Alexander wrote books|アレクサンダーは本を書きました||about what he had learned there|そこで学んだことについて||after the trip.|旅の後に。",
+        "wrote",
+    ),
+    "One of his most famous books is Kosmos, in which he tried to explain how everything in the natural world worked and how things were connected to each other.": (
+        "One of his most famous books is Kosmos,|彼の最も有名な本の一つは『コスモス』です||in which he tried to explain|その中で彼は説明しようとしました||how everything in the natural world worked|自然界のすべてがどのように機能し||and how things were connected to each other.|物事が互いにどう結びついているかを。",
+        "is",
+    ),
+    "On the other hand, Wilhelm's passion was education and language.": (
+        "On the other hand,|一方||Wilhelm's passion was education and language.|ヴィルヘルムが情熱を注いだのは教育と言語でした。",
+        "was",
+    ),
+    "He served as the education director of the Ministry of the Interior in Prussia and helped found a university.": (
+        "He served as the education director|彼は教育局長を務め||of the Ministry of the Interior in Prussia|プロイセン内務省の||and helped found a university.|大学の設立にも協力しました。",
+        "served",
+    ),
+    "The proposal he wrote for the university has influenced the German university system ever since.": (
+        "The proposal|その提案書は||he wrote for the university|彼が大学のために書いた||has influenced the German university system|ドイツの大学制度に影響を与え続けています||ever since.|それ以来ずっと。",
+        "has influenced",
+    ),
+    "He is also known for his studies of language.": (
+        "He is also known|彼はまた知られています||for his studies of language.|言語研究で。",
+        "is also known",
+    ),
+    "He considered language to be something whose structure and character reflected the culture and individuality of its speakers.": (
+        "He considered language to be something|彼は言語をあるものだと考えました||whose structure and character reflected the culture and individuality of its speakers.|その構造や特質が話者の文化と個性を反映する。",
+        "considered",
+    ),
+    "According to him, language was not just a collection of words but a means that allowed people to perceive the world.": (
+        "According to him,|彼によれば||language was not just a collection of words|言語は単なる単語の集まりではなく||but a means|手段でした||that allowed people to perceive the world.|人々が世界を認識できるようにする。",
+        "was",
+    ),
+    "It is clear that the environment in which the Humboldt brothers grew up gave them opportunities to achieve something with a lasting impact.": (
+        "It is clear|明らかです||that the environment in which the Humboldt brothers grew up gave them opportunities|フンボルト兄弟が育った環境が二人に機会を与えたことは||to achieve something with a lasting impact.|後世に残る影響を与える業績を成し遂げる。",
+        "is",
+    ),
+    "They enjoyed a life that not everyone could have, growing up around great leaders, scientists, and writers.": (
+        "They enjoyed a life|二人は生活を享受しました||that not everyone could have,|誰もが送れるわけではない||growing up around great leaders, scientists, and writers.|偉大な指導者、科学者、作家たちに囲まれて育ちながら。",
+        "enjoyed",
+    ),
+    "Their wealthy background gave them early access to quality education and rich intellectual opportunities.": (
+        "Their wealthy background gave them early access|裕福な家庭環境によって二人は早くから触れる機会を得ました||to quality education|質の高い教育と||and rich intellectual opportunities.|豊かな知的機会に。",
+        "gave",
+    ),
+    "These experiences helped shape ideas that continue to influence society today.": (
+        "These experiences helped shape ideas|こうした経験は考え方を形作る助けとなりました||that continue to influence society today.|今日も社会に影響を与え続ける。",
+        "helped shape",
+    ),
+    "While not many people in the world may know their names, many people have indirectly received benefits from their work.": (
+        "While not many people in the world may know their names,|世界では二人の名前を知る人は多くないかもしれませんが||many people have indirectly received benefits|多くの人が間接的に恩恵を受けています||from their work.|二人の仕事から。",
+        "have indirectly received",
+    ),
+}
+
+
+def enrich_sentence_pairs(pairs, annotations, label):
+    english_sentences = [pair[0] for pair in pairs]
+    if set(english_sentences) != set(annotations):
+        missing = set(english_sentences) - set(annotations)
+        extra = set(annotations) - set(english_sentences)
+        raise ValueError(f"{label}: annotation mismatch missing={missing} extra={extra}")
+    for pair in pairs:
+        slash, verb = annotations[pair[0]]
+        segments = slash.split("||")
+        if len(segments) < 2 or any(segment.count("|") != 1 for segment in segments):
+            raise ValueError(f"{label}: invalid slash segments for {pair[0]}")
+        slash_english = " ".join(segment.split("|", 1)[0] for segment in segments)
+        normalize = lambda text: re.sub(r"\s+", " ", text).strip()
+        if normalize(slash_english) != normalize(pair[0]):
+            raise ValueError(f"{label}: slash English mismatch for {pair[0]}")
+        if not re.search(rf"(?<!\w){re.escape(verb)}(?!\w)", pair[0], re.IGNORECASE):
+            raise ValueError(f"{label}: main verb not found for {pair[0]}")
+        pair.extend([slash, verb])
+
+
+enrich_sentence_pairs(p3a_pairs, P3A_ANNOTATIONS, "Your service")
+enrich_sentence_pairs(p3b_pairs, P3B_ANNOTATIONS, "The Humboldt Brothers")
 
 section3 = {
     "name": "大問3",
@@ -135,7 +407,7 @@ section3 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ The ground is perfect for camping＝キャンプに最適。hold an athletic event this fall（秋の運動会）の話で、camping については触れられていない",
+                        "❌ The ground is perfect for camping＝キャンプに最適。hold an athletic event this fall（秋の運動行事）の話で、camping については触れられていない",
                         "❌ The staff working there is helpful＝スタッフが親切。One of my coworkers recommended your facility（同僚の勧め）とアクセスの良さが理由で、スタッフの親切さは論点にならない",
                         "✅ 公共交通の近く→正解。💡 easy to access from several train stations（いくつかの駅からアクセスしやすい）の言い換え",
                         "❌ It is popular among schoolchildren＝学童に人気。easy to access from several train stations（駅からアクセスしやすい）が理由で、人気については書かれていない",
@@ -226,14 +498,14 @@ section3 = {
                         "ベルリンに連れて行き、旅を通じて語学を学ばせた。",
                         "裕福な家庭向けの有名な学校に通わせることを選んだ。",
                         "学問の専門家による個人教授を手配した。",
-                        "自分の両親に兄弟が学ぶべきことを決めさせた。",
+                        "兄弟の祖父母に、二人が学ぶべきことを決めさせた。",
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
                         "❌ took them to Berlin to learn languages through their travels＝ベルリンへの旅行。hiring famous educators and experts ... to tutor them（家庭教師を雇った）とあり、Berlin への旅行とは読めない",
                         "❌ 有名な学校に通わせた→学校ではなく hiring ... to tutor them（家庭教師を雇った）",
                         "✅ 専門家による個人教授→正解。💡 hiring famous educators and experts in various fields to tutor them",
-                        "❌ 祖父母に決めさせた→母が took charge of their education（教育を担当）",
+                        "❌ 兄弟の祖父母に決めさせた→本文では母自身が took charge of their education（教育を取り仕切った）",
                     ],
                     "sourceEvidence": [
                         "She took charge of their education, hiring famous educators and experts in various fields to tutor them",
@@ -253,14 +525,14 @@ section3 = {
                     "choiceTranslations": [
                         "母の死後に彼に残されたお金。",
                         "自然界について書いた本の売上。",
-                        "弟からの新しい場所への旅の誘い。",
+                        "新しい場所へ旅するようにという兄からの誘い。",
                         "南アメリカの科学者グループからの支援。",
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
                         "✅ 母の死後の遺産→正解。💡 The money he received after his mother's death made his dream ... come true",
                         "❌ 本の売上→本は旅の後に書いた（after the trip）ので因果が逆",
-                        "❌ An invitation from his brother to travel＝弟からの誘い。The money he received after his mother's death（母の死後の遺産）が旅の資金で、Wilhelm からの誘いとは合わない",
+                        "❌ An invitation from his brother to travel＝兄からの誘い。本文では The money he received after his mother's death（母の死後に受け取ったお金）が旅を可能にしたとあり、Wilhelm からの誘いはない",
                         "❌ Support given by a group of scientists in South America＝南米の科学者の支援。He spent several years there studying plants, animals（研究の記述）はあるが、現地科学者の支援の話はない",
                     ],
                     "sourceEvidence": [
@@ -344,7 +616,7 @@ section3 = {
                     "answer": 4,
                     "choiceAnalysis": [
                         "❌ 旅の前に本を書いた→Alexander wrote books ... after the trip（旅の後）と矛盾",
-                        "❌ 裕福になりたかった→すでに wealthy family（裕福な家庭）に生まれている",
+                        "❌ 裕福になりたくて科目を選んだ→本文にその願望はなく、their parents wanted to ensure that their sons received a good education とあり、教育は両親・母によって整えられた",
                         "❌ The Humboldts' father wanted to teach them piano himself＝父がピアノを教えた。piano の記述はなく、their father passed away when Alexander was just a child（父は幼い頃に亡くなっている）",
                         "✅ ヴィルヘルムの提案書が大学制度に影響→正解。💡 The proposal he wrote for the university has influenced the German university system ever since",
                     ],
@@ -357,6 +629,19 @@ section3 = {
         },
     ],
 }
+
+# 2025年度の2級データと同じ表示規約にそろえる。
+for passage in section3["passages"]:
+    for question in passage["questions"]:
+        normalized = []
+        for index, analysis in enumerate(question["choiceAnalysis"], 1):
+            analysis = analysis.removeprefix("✅ ").removeprefix("❌ ")
+            if index == question["answer"]:
+                analysis = analysis.replace("→正解。💡", "→正解").replace(
+                    "→正解", "→正解。💡"
+                )
+            normalized.append(analysis)
+        question["choiceAnalysis"] = normalized
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

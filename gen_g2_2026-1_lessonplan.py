@@ -28,11 +28,11 @@ fp1 = {
         "空所問題では「直後の定義文」「They like scary things などの言い換え」が最大の手がかりになります。"
     ),
     "sourceQuote": "a faster heart rate, quicker breathing, and tense muscles / fight-or-flight response / gets the body ready to act immediately / They like scary things and seek excitement",
-    "sourceLocation": "大問2B「The Science of Fear」第1〜2段落",
+    "sourceLocation": "大問2B「The Science of Fear」第1〜3段落",
     "examples": [
         {
             "en": "This reaction causes changes such as a faster heart rate, quicker breathing, and tense muscles.",
-            "ja": "この反応は、心拍数の上昇、呼吸の速さ、筋肉の緊張などの変化を引き起こします。",
+            "ja": "この反応は、心拍数の上昇、呼吸の加速、筋肉の緊張などの変化を引き起こします。",
             "note": "such as A, B, and C＝「A・B・Cなど」。恐怖反応の具体的変化を列挙。Q21空所の直前。",
         },
         {
@@ -53,19 +53,19 @@ fp1 = {
             "Sometimes, people feel fear even when they are not facing real danger. For example, some people feel afraid when they watch a scary scene in a movie, although they are in a safe place. The brain uses memories and past experiences to predict possible danger and generate fear, causing the body to react strongly and become more alert. Some people are even fascinated by this feeling. They like scary things and seek excitement. This also explains why many people enjoy activities such as riding roller coasters."
         ),
         "ja": (
-            "恐怖は、人々を危険から守るのに役立つ自然な感情です。危険な動物を見たり、突然大きな音を聞いたりすると、恐怖はすぐに脳に反応させ、体にメッセージを送ります。この反応は、心拍数の上昇、呼吸の速さ、筋肉の緊張などの変化を引き起こします。これらの変化は人を逃げるか防御する準備をさせます。これは恐怖やストレスに対する「闘争・逃走反応」と呼ばれ、体をすぐに行動できる状態にします。恐怖は何百万年もの間、人類の生存を助けてきました。\n"
-            "時には、人々は本当の危険に直面していなくても恐怖を感じます。例えば、安全な場所にいるにもかかわらず、映画の怖い場面を見て怖がる人もいます。脳は記憶や過去の経験を使って危険を予測し恐怖を生み、体を強く反応させ、より警戒状態にします。ある人々はこの感情にさえ夢中になっています。彼らは怖いものが好きで、興奮を求めます。これは多くの人がジェットコースターに乗るなどの活動を楽しむ理由も説明します。"
+            "恐怖は、人々を危険から守るのに役立つ自然な感情です。危険な動物を見たり、突然大きな音を聞いたりすると、恐怖によって脳はすぐに反応し、体へメッセージを送ります。この反応は、心拍数の上昇、呼吸の加速、筋肉の緊張などの変化を引き起こします。これらの変化は、人が逃走または防御できる態勢を整えます。これは恐怖やストレスに対する「闘争・逃走反応」と呼ばれ、体をすぐに行動できる状態にします。恐怖は何百万年もの間、人類の生存を助けてきました。\n"
+            "時には、人々は実際の危険に直面していなくても恐怖を感じます。例えば、安全な場所にいるにもかかわらず、映画の怖い場面を見て恐怖を感じる人もいます。脳は記憶や過去の経験を使って起こり得る危険を予測し、恐怖を生み出すことで、体を強く反応させて警戒を高めます。ある人々はこの感情にさえ夢中になっています。彼らは怖いものが好きで、興奮を求めます。これは、多くの人がジェットコースターに乗るといった活動を楽しむ理由も説明しています。"
         ),
         "audioFile": "audio/practice_pp1.mp3",
     },
     "practiceQuestions": [
         {
             "q": "Q21の空所に prepare people for escape or defense が入る理由を、直後の fight-or-flight の説明から述べてください。",
-            "a": "gets the body ready to act immediately（すぐ行動できるようにする）＝逃げるか防御する準備。make people feel sleepy / stop people from moving などは定義文と正反対。",
+            "a": "gets the body ready to act immediately（すぐ行動できるようにする）＝逃走または防御の態勢を整えること。make people feel sleepy / stop people from moving などは定義文と正反対。",
         },
         {
-            "q": "Q22で They like scary things and seek excitement が正解になる根拠文を本文から抜き出し、are fascinated by this feeling との関係を説明してください。",
-            "a": "Some people ( ) の直後が They like scary things and seek excitement。空所 are even fascinated by this feeling はその言い換え・具体化。",
+            "q": "Q22で are even fascinated by this feeling が正解になる根拠文を本文から抜き出し、両者の関係を説明してください。",
+            "a": "空所直後の They like scary things and seek excitement. が根拠文。怖い感覚を好んで刺激を求めることは、are even fascinated by this feeling（この感覚に魅了さえされる）の言い換え・具体化になっている。",
         },
         {
             "q": "「although they are in a safe place」の although は何と何を対比していますか？",
@@ -95,27 +95,27 @@ fp2 = {
     "subtitle": "Motivation & Behind-the-Scenes Efforts in Community Events",
     "explanation": (
         "大問2A「Efforts at a Village」は、識字率の低さという問題→Bibliobandido という仕掛け→子どもの作文を促す→地域イベント化、という流れです。"
-        "Motivated by this（これに動機づけられて）は直前の fed him their stories（物語を食べさせる）という仕掛けを受けます。"
+        "Motivated by this（これに促されて）は直前の fed him their stories（物語を食べさせる）という仕掛けを受けます。"
         "Efforts were made to make children believe ... のあと、Costumes were created, rumors were spread, and dramatic scenes were performed と舞台裏の準備が列挙され、"
         "Q19の many people worked behind the scenes（多くの人が舞台裏で働いた）の根拠になります。"
         "Q18は Literacy rates were low と few students had access to books から a lack of educational resources を導く典型パターンです。"
     ),
     "sourceQuote": "Motivated by this, children began writing stories / Efforts were made to make children believe / Costumes were created, rumors were spread / Their efforts brought people of different ages together",
-    "sourceLocation": "大問2A「Efforts at a Village」第1〜2段落",
+    "sourceLocation": "大問2A「Efforts at a Village」第1〜3段落",
     "examples": [
         {
             "en": "Literacy rates were low in the community, and few students had access to books.",
-            "ja": "地域社会では識字率が低く、本にアクセスできる生徒はほとんどいませんでした。",
-            "note": "Q18の根拠。low literacy ＋ few access to books → lack of educational resources の言い換え。",
+            "ja": "地域社会では識字率が低く、本を利用できる生徒はほとんどいませんでした。",
+            "note": "Q18の根拠。low literacy ＋ few students had access to books → lack of educational resources の言い換え。",
         },
         {
             "en": "Children were told that he would get hungry unless they fed him their stories. Motivated by this, children began writing stories.",
-            "ja": "子どもたちには物語を「食べさせて」やらないと彼はお腹が空くと言われました。これに動機づけられ、子どもたちは物語を書き始めました。",
+            "ja": "子どもたちは、自分たちの物語を彼に「食べさせ」なければ、彼がお腹を空かせると言われました。これに促され、子どもたちは物語を書き始めました。",
             "note": "unless ～＝「～しないと」。Motivated by this の this は直前の仕掛け全体を指す。",
         },
         {
             "en": "Efforts were made to make children believe that Bibliobandido was real. Costumes were created, rumors were spread, and dramatic scenes were performed to bring him to life.",
-            "ja": "子どもたちにビブリオバンディードが本当にいると信じさせる努力がなされました。衣装が作られ、うわさが広められ、劇的な場面が演じられました。",
+            "ja": "子どもたちにビブリオバンディードが本当にいると信じさせるための取り組みが行われました。衣装が作られ、うわさが広められ、劇的な場面が演じられて、彼を本当に生きているかのように見せました。",
             "note": "Efforts were made to V＝「Vする努力がなされた」。受動態で主体をぼかす表現。Q19の裏付け。",
         },
     ],
@@ -126,8 +126,8 @@ fp2 = {
             "Efforts were made to make children believe that Bibliobandido was real. Costumes were created, rumors were spread, and dramatic scenes were performed to bring him to life. During one visit, Bibliobandido appeared in the village on a horse, and children were asked to create new stories within an hour so that he would not starve. This activity turned a writing task into an exciting community event. This was possible because many people worked behind the scenes to make the event successful. Their efforts brought people of different ages together."
         ),
         "ja": (
-            "エル・ピタルはホンジュラスの農村の村です。この国の多くの地域と同様、そこは教育資源の不足に直面していました。地域社会では識字率が低く、本にアクセスできる生徒はほとんどいませんでした。この問題を解決するため、ある芸術家と若者たちが協力して、ビブリオバンディードという特別なキャラクターを考案しました。子どもたちが読み書きを楽しめるようにするためです。子どもたちには物語を「食べさせて」やらないと彼はお腹が空くと言われました。これに動機づけられ、子どもたちは物語を書き始めました。\n"
-            "子どもたちにビブリオバンディードが本当にいると信じさせる努力がなされました。衣装が作られ、うわさが広められ、劇的な場面が演じられて、彼を生きた存在のようにしました。ある訪問の際、ビブリオバンディードは馬に乗って村に現れ、子どもたちは1時間以内に新しい物語を作るよう求められました。この活動は作文という課題を刺激的な地域イベントに変えました。多くの人が舞台裏で働いたからこそ、イベントは成功しました。彼らの努力はさまざまな年齢の人々を一堂に集めました。"
+            "エル・ピタルはホンジュラスの農村です。この国の多くの地域と同様、そこは教育資源の不足に直面していました。地域社会では識字率が低く、本を利用できる生徒はほとんどいませんでした。この問題を解決するため、ある芸術家と若者たちが協力して、ビブリオバンディードという特別なキャラクターを考案しました。子どもたちが読み書きを楽しめるようにするためです。子どもたちは、自分たちの物語を彼に「食べさせ」なければ、彼がお腹を空かせると言われました。これに促され、子どもたちは物語を書き始めました。\n"
+            "子どもたちにビブリオバンディードが本当にいると信じさせるための取り組みが行われました。衣装が作られ、うわさが広められ、劇的な場面が演じられて、彼を本当に生きているかのように見せました。ある訪問の際、ビブリオバンディードは馬に乗って村に現れ、子どもたちは、彼を飢えさせないよう、1時間以内に新しい物語を作るよう求められました。この活動は作文という課題を刺激的な地域イベントに変えました。多くの人が舞台裏で働いたからこそ、この活動が可能になりました。彼らの努力はさまざまな年齢の人々を結びつけました。"
         ),
         "audioFile": "audio/practice_pp2.mp3",
     },
@@ -201,8 +201,8 @@ fp3 = {
             "Could you please let me know which date might be suitable for our event? It would be great if you could provide a few possible dates. Our school is close to your main office, and we have enough teachers and staff. Therefore, we can easily adjust our schedules to make sure at least one person can visit for the meeting before 5 p.m. on the day you choose."
         ),
         "ja": (
-            "メアリー・カーター様\nマシュー・ワッツと申します。ポーラー・ビレッジ小学校の教師です。今年の秋に運動会を開催できる屋外施設を探しています。同僚が貴施設を勧め、ご連絡するよう勧めてくれました。また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。\n"
-            "正確な日程はまだ決まっていませんが、運動会は9月か10月の平日に行われます。午前8時から午後3時まで大きなグラウンドを使いたいと考えています。現在、保護者や教師を含め約150人が参加する見込みです。ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。\n"
+            "メアリー・カーター様\nマシュー・ワッツと申します。ポーラー・ビレッジ小学校の教師です。今年の秋に運動行事を開催できる屋外施設を探しています。同僚が貴施設を勧め、あなたに連絡するよう提案してくれました。また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。\n"
+            "正確な日程はまだ決まっていませんが、運動行事は9月か10月の平日に行われます。午前8時から午後3時まで大きなグラウンドを使いたいと考えています。現在、保護者や教師を含め約150人が参加する見込みです。ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。\n"
             "どの日程が私たちのイベントに適しているか教えていただけますか。可能な日程をいくつかご提示いただけるとありがたいです。本校は貴社の本社に近く、教師や職員も十分にいます。したがって、スケジュールを調整して、ご指定の日の午後5時前に少なくとも1人が打ち合わせのために訪問できるようにできます。"
         ),
         "audioFile": "audio/practice_pp3.mp3",
@@ -210,7 +210,7 @@ fp3 = {
     "practiceQuestions": [
         {
             "q": "Q24で「スタッフが親切」が誤答になる理由を説明してください。",
-            "a": "本文に staff is helpful の記述はない。appealing because it is easy to access from several train stations が唯一の「魅力の理由」として明示されている。",
+            "a": "本文に staff is helpful の記述はない。施設が魅力的な理由として明示されているのは appealing because it is easy to access from several train stations で、スタッフの親切さは根拠にできない。",
         },
         {
             "q": "Q25で「週末のみ」が誤答になる根拠となる英文を抜き出してください。",
@@ -247,24 +247,24 @@ fp4 = {
         "Alexander（冒険・自然研究）と Wilhelm（教育・言語）という2人の異なる道を描きます。"
         "On the other hand は段落の転換で Wilhelm の話題へ移る合図。"
         "According to him は Wilhelm の言語観を導入し、Q29の perceive the world → see and understand the world へのパラフレーズの根拠になります。"
-        "Their wealthy background gave them early access to ... は Q30・Q31 を読むうえでの背景理解に直結します。"
+        "Their wealthy background gave them early access to ... は Q30 を読むうえでの背景理解に直結します。"
     ),
     "sourceQuote": "On the other hand, Wilhelm's passion was education and language / According to him, language was ... a means that allowed people to perceive the world / Their wealthy background gave them early access to quality education",
     "sourceLocation": "大問3B「The Humboldt Brothers」第2〜4段落",
     "examples": [
         {
             "en": "She took charge of their education, hiring famous educators and experts in various fields to tutor them.",
-            "ja": "母は教育を担当し、さまざまな分野の有名な教育者や専門家を雇って家庭教師として教えさせました。",
+            "ja": "母は二人の教育を取り仕切り、さまざまな分野の著名な教育者や専門家を雇って二人を個別に教えさせました。",
             "note": "take charge of ～＝「～を担当する」。Q27 arranged private lessons の直接根拠。",
         },
         {
             "en": "The money he received after his mother's death made his dream of traveling to South America come true.",
             "ja": "母の死後に受け取ったお金が、南アメリカへの旅という夢を実現させました。",
-            "note": "make one's dream come true＝「夢を実現させる」。Q28の決め手。本の売上・弟の誘いは本文にない。",
+            "note": "make one's dream come true＝「夢を実現させる」。Q28の決め手。本の売上・兄の誘いは本文にない。",
         },
         {
             "en": "According to him, language was not just a collection of words but a means that allowed people to perceive the world.",
-            "ja": "彼にとって言語は単なる語の集まりではなく、人々が世界を認識する手段でした。",
+            "ja": "彼によれば、言語は単なる単語の集まりではなく、人々が世界を認識するための手段でした。",
             "note": "not just A but B＝「AだけでなくB」。perceive the world＝Q29の see and understand the world の言い換え元。",
         },
     ],
@@ -277,8 +277,8 @@ fp4 = {
         ),
         "ja": (
             "二人のうち弟のアレクサンダーは、幼い頃から冒険に深い関心を持っていました。母の死後に受け取ったお金が、南アメリカへの旅という夢を実現させました。彼はそこで数年を過ごし、植物、動物、土地の自然の特徴を研究しました。最も有名な本の一つが『コスモス』で、自然界のすべてがどのように機能し、物事が互いにどう結びついているかを説明しようとしました。\n"
-            "一方、ヴィルヘルムの情熱は教育と言語でした。彼はプロイセン内務省の教育局長を務め、大学の設立にも協力しました。大学のために書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。言語の構造と性格は話者の文化と個性を反映すると考えました。彼にとって言語は単なる語の集まりではなく、人々が世界を認識する手段でした。\n"
-            "裕福な背景は質の高い教育と豊かな知的機会への早期のアクセスを与えました。これらの経験は、今日も社会に影響を与え続ける思想の形成を助けました。世界中で彼らの名前を知る人は多くないかもしれませんが、多くの人が彼らの仕事から間接的に恩恵を受けています。"
+            "一方、ヴィルヘルムが情熱を注いだのは教育と言語でした。彼はプロイセン内務省の教育局長を務め、大学の設立にも協力しました。大学のために彼が書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。彼は、言語の構造や特質は話者の文化と個性を反映するものだと考えました。彼によれば、言語は単なる単語の集まりではなく、人々が世界を認識するための手段でした。\n"
+            "裕福な家庭環境により、幼いころから質の高い教育と豊かな知的機会を得られました。こうした経験は、今日も社会に影響を与え続ける考え方を形作る助けとなりました。世界では二人の名前を知る人は多くないかもしれませんが、多くの人が二人の仕事から間接的に恩恵を受けています。"
         ),
         "audioFile": "audio/practice_pp4.mp3",
     },
@@ -293,7 +293,7 @@ fp4 = {
         },
         {
             "q": "Q31で Wilhelm の提案書に関する記述だけが正しい理由を、他の選択肢との矛盾から説明してください。",
-            "a": "①本は旅の後（after the trip）②すでに wealthy family③父は幼少期に死去・piano の記述なし④proposal has influenced the German university system ever since は本文と一致。",
+            "a": "①本は旅の後（after the trip）②裕福になる願望や自分で科目を選んだ記述はない③父は幼少期に死去・piano の記述なし④proposal has influenced the German university system ever since は本文と一致。",
         },
         {
             "q": "whose structure and character reflected the culture and individuality の whose は何を指しますか？",
@@ -355,7 +355,7 @@ fp5 = {
         ),
         "ja": (
             "また、いくつかの駅からアクセスしやすいため、貴施設は魅力的です。現在、保護者や教師を含め約150人が参加する見込みです。ウェブサイトによると、これは貴施設が収容できる人数とほぼ同じです。本校は貴社の本社に近く、教師や職員も十分にいます。したがって、スケジュールを調整して、ご指定の日の午後5時前に少なくとも1人が打ち合わせのために訪問できるようにできます。\n"
-            "母は教育を担当し、さまざまな分野の有名な教育者や専門家を雇って家庭教師として教えさせました。大学のために書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。彼にとって言語は単なる語の集まりではなく、人々が世界を認識する手段でした。"
+            "母は二人の教育を取り仕切り、さまざまな分野の著名な教育者や専門家を雇って二人を個別に教えさせました。大学のために彼が書いた提案書は、それ以来ドイツの大学制度に影響を与え続けています。彼によれば、言語は単なる単語の集まりではなく、人々が世界を認識するための手段でした。"
         ),
         "audioFile": "audio/practice_pp5.mp3",
     },

@@ -237,7 +237,7 @@ vocab.append({
     "level": "2級",
     "source": "大問1",
     "example": "The president said that he could not go along with the plan to expand the office.",
-    "distractors": ["奪い去る", "引き出す", "注意する"],
+    "distractors": ["奪い去る", "（人）に～を生じさせる", "注意する"],
 })
 
 # --- Q14: a series of(正答1) ---
@@ -259,7 +259,7 @@ vocab.append({
     "level": "2級",
     "source": "大問1",
     "example": "In other words, we are going to be very busy!",
-    "distractors": ["最初に", "行ったり来たり", "それどころか"],
+    "distractors": ["最初に", "行ったり来たり", "それとは反対に"],
 })
 
 # --- Q16: distinct from(正答1) ---
@@ -516,12 +516,12 @@ vocab.append({
 })
 vocab.append({
     "word": "access",
-    "meaning": "アクセス、接近",
-    "pos": "名詞",
+    "meaning": "（場所などに）行く、利用する",
+    "pos": "動詞",
     "level": "2級",
     "source": "大問3A",
     "example": "Your facility is appealing because it is easy to access from several train stations.",
-    "distractors": ["料金", "規模", "装飾"],
+    "distractors": ["避ける", "閉鎖する", "見落とす"],
 })
 vocab.append({
     "word": "suitable",
@@ -557,12 +557,12 @@ vocab.append({
 })
 vocab.append({
     "word": "tutor",
-    "meaning": "家庭教師、個別指導する",
-    "pos": "名詞",
+    "meaning": "個別に教える、家庭教師として教える",
+    "pos": "動詞",
     "level": "2級",
     "source": "大問3B",
     "example": "She hired famous educators and experts in various fields to tutor them.",
-    "distractors": ["秘書", "管理人", "観光客"],
+    "distractors": ["管理する", "同行する", "雇用する"],
 })
 vocab.append({
     "word": "proposal",

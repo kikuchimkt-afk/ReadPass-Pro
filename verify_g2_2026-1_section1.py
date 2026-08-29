@@ -2,6 +2,7 @@
 """Verify 2026-1 grade2 (本会場) section1 structure and answers."""
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -48,13 +49,46 @@ for q in qs:
         errors.append(f"Q{n}: choiceTranslations count != 4")
     if len(q.get("choiceAnalysis", [])) != 4:
         errors.append(f"Q{n}: choiceAnalysis count != 4")
+    if len(re.findall(r"\(\s*\)", q.get("translation", ""))) != 1:
+        errors.append(f"Q{n}: translation must preserve one blank")
     for i, ca in enumerate(q["choiceAnalysis"]):
+        if ca.lstrip().startswith(("✅", "❌", "○", "×")):
+            errors.append(f"Q{n}: choice {i+1} has forbidden leading marker")
         if i + 1 == q["answer"]:
-            if not ca.startswith("✅"):
-                errors.append(f"Q{n}: correct choice {i+1} missing ✅")
+            if ca.count("→正解。💡") != 1:
+                errors.append(f"Q{n}: correct choice {i+1} missing →正解。💡")
         else:
-            if not ca.startswith("❌"):
-                errors.append(f"Q{n}: wrong choice {i+1} missing ❌")
+            if "→正解" in ca:
+                errors.append(f"Q{n}: wrong choice {i+1} contains correct marker")
+
+critical_translations = {
+    8: "細胞がどのように働くかを( )ためです。",
+    14: "( )検査を受けた後",
+    17: "従業員の一部を( )必要がありました。",
+}
+by_number = {q["number"]: q for q in qs}
+for number, phrase in critical_translations.items():
+    if phrase not in by_number[number]["translation"]:
+        errors.append(f"Q{number}: audited translation phrase missing")
+if "occupy how cells work" not in by_number[8]["choiceAnalysis"][0]:
+    errors.append("Q8: occupy analysis regression")
+if "かろうじて／ほとんど～ない" not in by_number[9]["grammar"]:
+    errors.append("Q9: barely meaning regression")
+if "文全体を修飾する副詞句" not in by_number[12]["choiceAnalysis"][2]:
+    errors.append("Q12: to his surprise explanation regression")
+if "目的語配置" not in by_number[13]["choiceAnalysis"][2]:
+    errors.append("Q13: bring out in explanation regression")
+
+serialized = json.dumps(sec, ensure_ascii=False)
+for stale in (
+    "barely＝かろうじて・あわや",
+    "do everything to his surprise では「驚きながらすべてをする」",
+    "bring out in＝慣用句として成立しない",
+    "名詞 foster care",
+    "On the contrary＝それどころか",
+):
+    if stale in serialized:
+        errors.append(f"stale explanation remains: {stale}")
 
 print(f"sections={len(d['sections'])} questions={len(qs)} errors={len(errors)}")
 for e in errors:

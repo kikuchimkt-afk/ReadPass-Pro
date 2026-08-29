@@ -32,6 +32,19 @@ LISTENING = {
 d = json.load(open(DATA, encoding="utf-8"))
 errors = []
 
+EXPECTED_METADATA = {
+    "grade": "2級",
+    "year": "2026",
+    "session": "1",
+    "title": "2026年度 第1回 英語資格検定2級 リーディング",
+    "exam": "2026-1",
+}
+EXPECTED_SECTIONS = [
+    ("大問1", "Part 1", "vocabulary"),
+    ("大問2", "Part 2", "passage-fill"),
+    ("大問3", "Part 3", "reading-comprehension"),
+]
+
 all_qs = []
 for sec in d["sections"]:
     if sec.get("questions"):
@@ -41,6 +54,8 @@ for sec in d["sections"]:
 
 if len(all_qs) != 31:
     errors.append(f"question count {len(all_qs)} != 31")
+if [q.get("number") for q in all_qs] != list(range(1, 32)):
+    errors.append(f"question numbers/order invalid: {[q.get('number') for q in all_qs]}")
 
 for q in all_qs:
     n = q["number"]
@@ -49,19 +64,36 @@ for q in all_qs:
     choices = q.get("choices", [])
     if len(choices) != 4:
         errors.append(f"Q{n}: choices != 4")
+    analyses = q.get("choiceAnalysis", [])
+    if len(analyses) != 4:
+        errors.append(f"Q{n}: choiceAnalysis != 4")
+    else:
+        if any(text.lstrip().startswith(("✅", "❌", "○", "×")) for text in analyses):
+            errors.append(f"Q{n}: leading analysis marker remains")
+        if analyses[q["answer"] - 1].count("→正解。💡") != 1:
+            errors.append(f"Q{n}: correct analysis marker invalid")
+        for index, text in enumerate(analyses, 1):
+            if index != q["answer"] and "→正解" in text:
+                errors.append(f"Q{n}: wrong analysis {index} marked correct")
 
-for key in ("title", "grade", "exam", "year", "session", "sections"):
-    if key not in d:
-        errors.append(f"missing {key}")
-
-if d.get("exam") != "2026-1":
-    errors.append(f"exam={d.get('exam')}")
+for key, expected in EXPECTED_METADATA.items():
+    if d.get(key) != expected:
+        errors.append(f"{key}={d.get(key)!r} != {expected!r}")
+section_meta = [
+    (section.get("name"), section.get("nameEn"), section.get("type"))
+    for section in d.get("sections", [])
+]
+if section_meta != EXPECTED_SECTIONS:
+    errors.append(f"section metadata/order invalid: {section_meta}")
 
 if "listening" not in d:
     errors.append("missing listening")
 else:
     for part, expected in LISTENING.items():
         actual = d["listening"].get(part, {})
+        normalized = {int(num): value for num, value in actual.items()}
+        if normalized != expected:
+            errors.append(f"listening {part}: exact key/answer map mismatch")
         for num, ans in expected.items():
             if actual.get(num) != ans and actual.get(str(num)) != ans:
                 errors.append(f"listening {part} Q{num}: {actual.get(num)} != {ans}")
