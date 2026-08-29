@@ -5,6 +5,7 @@ Step 1: vocabulary（単語カード・単語クイズ）40語
 """
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -39,7 +40,7 @@ vocab.append({
 })
 vocab.append({
     "word": "appearance",
-    "meaning": "外見",
+    "meaning": "外見・身だしなみ",
     "pos": "名詞",
     "level": "準2級",
     "example": "She takes great care of her appearance before meetings.",
@@ -55,7 +56,7 @@ vocab.append({
 })
 vocab.append({
     "word": "director",
-    "meaning": "監督",
+    "meaning": "映画監督",
     "pos": "名詞",
     "level": "準2級",
     "example": "The director gave instructions to all the actors.",
@@ -71,7 +72,7 @@ vocab.append({
 })
 vocab.append({
     "word": "promote",
-    "meaning": "促進する",
+    "meaning": "促進する・推進する",
     "pos": "動詞",
     "level": "準2級",
     "example": "The school promotes healthy eating habits among students.",
@@ -87,11 +88,11 @@ vocab.append({
 })
 vocab.append({
     "word": "wondered",
-    "meaning": "～かどうか思った",
+    "meaning": "～かどうかと思った",
     "pos": "動詞",
     "level": "準2級",
     "example": "I wondered whether the store would still be open.",
-    "distractors": ["思い出した", "返事した", "準備した"],
+    "distractors": ["思い出させた", "返事した", "準備した"],
 })
 vocab.append({
     "word": "judge",
@@ -103,7 +104,7 @@ vocab.append({
 })
 vocab.append({
     "word": "occupied",
-    "meaning": "使われている・占有された",
+    "meaning": "使用中の・占有された",
     "pos": "形容詞",
     "level": "準2級",
     "example": "All the seats on the train were occupied.",
@@ -128,14 +129,14 @@ vocab.append({
 vocab.append({
     "word": "known as",
     "meaning": "～として知られている",
-    "pos": "句動詞",
+    "pos": "熟語",
     "level": "準2級",
     "example": "Kyoto is known as a city with many temples.",
-    "distractors": ["かつて～だった", "～の代金を払った", "～に分けられた"],
+    "distractors": ["かつて～した", "～の代金を支払った", "～に分けられた"],
 })
 vocab.append({
     "word": "find fault with",
-    "meaning": "～の文句を言う",
+    "meaning": "～のあら探しをする・けちをつける",
     "pos": "句動詞",
     "level": "準2級",
     "example": "My boss always finds fault with my reports.",
@@ -143,7 +144,7 @@ vocab.append({
 })
 vocab.append({
     "word": "help yourself",
-    "meaning": "ご自由にどうぞ",
+    "meaning": "（食べ物などを）自由に取る",
     "pos": "句",
     "level": "準2級",
     "example": "There is cake on the table, so please help yourself.",
@@ -172,15 +173,15 @@ vocab.append({
 
 vocab.append({
     "word": "go straight there",
-    "meaning": "まっすぐそこへ行く",
-    "pos": "句動詞",
+    "meaning": "そこへ直行する",
+    "pos": "表現",
     "level": "準2級",
     "example": "This bus goes straight there without any stops.",
     "distractors": ["たくさん停まる", "より多くの乗客を載せる", "夜遅く運行する"],
 })
 vocab.append({
     "word": "sticker",
-    "meaning": "ステッカー",
+    "meaning": "ステッカー・シール",
     "pos": "名詞",
     "level": "準2級",
     "example": "She put a name sticker on her swim bag.",
@@ -188,7 +189,7 @@ vocab.append({
 })
 vocab.append({
     "word": "mountain jacket",
-    "meaning": "マウンテンジャケット",
+    "meaning": "登山用ジャケット",
     "pos": "名詞句",
     "level": "準2級",
     "example": "A warm mountain jacket is useful when camping.",
@@ -196,7 +197,7 @@ vocab.append({
 })
 vocab.append({
     "word": "arrival area",
-    "meaning": "到着エリア",
+    "meaning": "到着エリア・到着ロビー",
     "pos": "名詞句",
     "level": "準2級",
     "example": "Please wait for me in the arrival area at the airport.",
@@ -204,7 +205,7 @@ vocab.append({
 })
 vocab.append({
     "word": "pick up",
-    "meaning": "取りに来る・受け取る",
+    "meaning": "（物を）受け取る・（人を）迎えに行く",
     "pos": "句動詞",
     "level": "準2級",
     "example": "I will pick up my package at the store tomorrow.",
@@ -305,7 +306,7 @@ vocab.append({
     "meaning": "自由に",
     "pos": "副詞",
     "level": "準2級",
-    "example": "On days off, you can use the rest of the week freely.",
+    "example": "On days off, you can spend your time freely.",
     "distractors": ["速く", "静かに", "慎重に"],
 })
 vocab.append({
@@ -366,6 +367,11 @@ vocab.append({
 })
 
 assert len(vocab) == 40, f"Expected 40 words, got {len(vocab)}"
+
+for i, item in enumerate(vocab, 1):
+    slug = re.sub(r"[^a-zA-Z0-9_]", "_", item["word"].lower()).strip("_")
+    item["wordAudio"] = f"audio/vocab/w_{i:03d}_{slug}.mp3"
+    item["exampleAudio"] = f"audio/vocab/ex_{i:03d}_{slug}.mp3"
 
 data["vocabulary"] = vocab
 

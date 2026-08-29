@@ -17,9 +17,9 @@ DATA_PATH = os.path.join(
 
 fp1 = {
     "id": "fp1",
-    "title": "物語の時間経過と結末の表現",
-    "subtitle": "Time Sequence & Story Conclusion",
-    "explanation": "In the end（結局）で物語の結末を示し、A few years later（数年後）で時間の経過を表し、surprised to hear that（～と聞いて驚いた）で感情を述べる物語文パターン。nowhere to be found（どこにも見つからない）で行方不明を表します。",
+    "title": "物語の時間経過と一区切りの表現",
+    "subtitle": "Time Sequence & Interim Conclusion",
+    "explanation": "In the end（結局）で長い捜索の一区切りを示し、A few years later（数年後）でその後の時間の経過を表し、surprised to hear that（～と聞いて驚いた）で感情を述べる物語文パターン。nowhere to be found（どこにも見つからない）で行方不明を表します。",
     "sourceQuote": "In the end, he had to accept that Leo had gone / A few years later / surprised to hear that",
     "sourceLocation": "大問3「A Lost Dog」",
     "examples": [
@@ -53,11 +53,11 @@ fp1 = {
     "practiceQuestions": [
         {
             "q": "物語の時間的順序を整理してください。",
-            "a": "犬が走り去る→何時間も探す→ポスター等の努力→結局あきらめる→数年後→母からの電話→故郷へ急ぐ。",
+            "a": "犬が走り去る→何時間も探す→ポスター等の努力→いなくなったと受け入れる→数年後→母からの電話→故郷へ急ぐ。",
         },
         {
             "q": "'In the end' はどのような場面で使われていますか？",
-            "a": "長い捜索の末、レオを見つけられず「いなくなった」と受け入れる結末の場面。",
+            "a": "長い捜索の末、レオを見つけられず「いなくなった」と受け入れる、その時点での結論を示す場面。物語全体はその後も続く。",
         },
         {
             "q": "'nowhere to be found' の意味は？",
@@ -82,14 +82,14 @@ fp2 = {
     "id": "fp2",
     "title": "仕事内容・待遇の説明表現",
     "subtitle": "Job Description & Benefits",
-    "explanation": "like ～ing（～のような）で仕事例を示し、is not part of the job（仕事に含まれない）で範囲を限定し、be allowed to（～することが許可されている）で待遇を説明する案内文パターン。受動態 will be done で仕事の実施方法を述べます。",
+    "explanation": "like ～ing（～など）で仕事例を示し、is not part of the job（仕事に含まれない）で範囲を限定します。be allowed to（～することが許可されている）や受動態 will be done も、仕事内容・待遇の説明に使われています。",
     "sourceQuote": "like serving customers / is not part of the job / you are allowed to ski or snowboard / even on the days you don't work",
     "sourceLocation": "大問4A メール第2〜3段落",
     "examples": [
         {
             "en": "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
             "ja": "仕事にはギフトショップでの接客やレンタル依頼への対応など、さまざまな役割が含まれる。",
-            "note": "like + ～ing＝「～のような」例示。includes＝「含む」。",
+            "note": "like + ～ing＝「～など」の例示。includes＝「含む」。",
         },
         {
             "en": "Working in the cafeteria or hotel is not part of the job.",
@@ -173,7 +173,7 @@ fp3 = {
             "A study of over 1,000 young people showed their positive experiences on social media. For example, more than half of them said that they could feel safe when they were having a hard time, thanks to social media. Also, many of them said that they felt accepted. In other words, they believe they can feel connected to others and get support from them on social media."
         ),
         "ja": (
-            "医者に頼る人もいれば、ソーシャルメディアの情報で精神的健康を改善しようとする人もいる。その理由の一つは、有用な情報を無料で見つけられることだ。\n"
+            "医者に助けを求める人もいれば、ソーシャルメディアの情報で心の健康を改善しようとする人もいる。その理由の一つは、有用な情報を無料で見つけられることだ。\n"
             "1,000人以上の研究がポジティブな経験を示した。半数以上が辛いときに安心感を得られると答え、多くの人が受け入れられたと感じた。つまり、ソーシャルメディアでつながりと支援を得られると信じている。"
         ),
     },
@@ -236,14 +236,14 @@ fp4 = {
             "To avoid these situations, the expert suggests there is something people can do. For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field. That way, social media can truly help mental health, and people can find help from social media."
         ),
         "ja": (
-            "しかし専門家は、ソーシャルメディアで問題を解決しようとすることは必ずしも良くないと言う。情報が信頼できない、または専門的でないからだ。研究の結果、一部の情報は誤りだった。その情報で治療すると悪影響がある。\n"
-            "これを避けるため、専門家はできることがあると示唆する。精神的健康の情報を得る際は、分野の専門家によるものか確認すべきだ。そうすればソーシャルメディアは本当に助けになる。"
+            "しかし、ある専門家は、ソーシャルメディアで心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言う。情報の中には信頼すべきでないものや、専門的でないものがあるからだ。例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われた。その結果、一部の情報は実際には誤っていた。そのような情報を精神疾患の治療に使うと、本人に悪影響を及ぼす可能性がある。\n"
+            "このような状況を避けるために、人々にできることがあると専門家は述べている。例えば、心の健康についてインターネットで情報を得たいなら、その情報がその分野の専門家から出たものか確認すべきだ。そうすれば、ソーシャルメディアは心の健康に本当に役立ち、人々はそこから助けを得られる。"
         ),
     },
     "practiceQuestions": [
         {
             "q": "'not necessarily good' はどのような意味ですか？",
-            "a": "「必ずしも良いとは限らない」。断定を避えた専門家の慎重な表現。",
+            "a": "「必ずしも良いとは限らない」。断定を避けた専門家の慎重な表現。",
         },
         {
             "q": "誤った情報を使うとどうなりますか？",
@@ -310,7 +310,7 @@ fp5 = {
         ),
         "ja": (
             "11月5日までにスキーリゾートにメッセージを送る必要がある。その後、11月10日にオンライン面接がある。\n"
-            "有用な情報を無料で見つけられることが理由の一つ。しかし専門家は、ソーシャルメディアで解決しようとすることは必ずしも良くないと言う。情報が信頼できないからだ。分野の専門家によるものか確認すべきだ。"
+            "理由の一つは、有用な情報を無料で見つけられる可能性があることだ。しかし、ある専門家は、ソーシャルメディアで心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言う。情報の中には信頼すべきでないものや、専門的でないものがあるからだ。例えば、インターネットで心の健康について情報を得たいなら、その情報がその分野の専門家から出たものか確認すべきだ。"
         ),
     },
     "practiceQuestions": [
@@ -344,6 +344,9 @@ fp5 = {
 lesson_plan = {
     "focusPoints": [fp1, fp2, fp3, fp4, fp5],
 }
+
+for i, fp in enumerate(lesson_plan["focusPoints"], 1):
+    fp["practicePassage"]["audioFile"] = f"audio/practice_pp{i}.mp3"
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

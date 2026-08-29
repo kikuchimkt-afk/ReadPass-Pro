@@ -20,7 +20,7 @@
         },
         {
             "word": "appearance",
-            "meaning": "外見",
+            "meaning": "外見・身だしなみ",
             "pos": "名詞",
             "level": "準2級",
             "example": "She takes great care of her appearance before meetings.",
@@ -48,7 +48,7 @@
         },
         {
             "word": "director",
-            "meaning": "監督",
+            "meaning": "映画監督",
             "pos": "名詞",
             "level": "準2級",
             "example": "The director gave instructions to all the actors.",
@@ -76,7 +76,7 @@
         },
         {
             "word": "promote",
-            "meaning": "促進する",
+            "meaning": "促進する・推進する",
             "pos": "動詞",
             "level": "準2級",
             "example": "The school promotes healthy eating habits among students.",
@@ -104,12 +104,12 @@
         },
         {
             "word": "wondered",
-            "meaning": "～かどうか思った",
+            "meaning": "～かどうかと思った",
             "pos": "動詞",
             "level": "準2級",
             "example": "I wondered whether the store would still be open.",
             "distractors": [
-                "思い出した",
+                "思い出させた",
                 "返事した",
                 "準備した"
             ],
@@ -132,7 +132,7 @@
         },
         {
             "word": "occupied",
-            "meaning": "使われている・占有された",
+            "meaning": "使用中の・占有された",
             "pos": "形容詞",
             "level": "準2級",
             "example": "All the seats on the train were occupied.",
@@ -175,12 +175,12 @@
         {
             "word": "known as",
             "meaning": "～として知られている",
-            "pos": "句動詞",
+            "pos": "熟語",
             "level": "準2級",
             "example": "Kyoto is known as a city with many temples.",
             "distractors": [
-                "かつて～だった",
-                "～の代金を払った",
+                "かつて～した",
+                "～の代金を支払った",
                 "～に分けられた"
             ],
             "wordAudio": "audio/vocab/w_013_known_as.mp3",
@@ -188,7 +188,7 @@
         },
         {
             "word": "find fault with",
-            "meaning": "～の文句を言う",
+            "meaning": "～のあら探しをする・けちをつける",
             "pos": "句動詞",
             "level": "準2級",
             "example": "My boss always finds fault with my reports.",
@@ -202,7 +202,7 @@
         },
         {
             "word": "help yourself",
-            "meaning": "ご自由にどうぞ",
+            "meaning": "（食べ物などを）自由に取る",
             "pos": "句",
             "level": "準2級",
             "example": "There is cake on the table, so please help yourself.",
@@ -244,8 +244,8 @@
         },
         {
             "word": "go straight there",
-            "meaning": "まっすぐそこへ行く",
-            "pos": "句動詞",
+            "meaning": "そこへ直行する",
+            "pos": "表現",
             "level": "準2級",
             "example": "This bus goes straight there without any stops.",
             "distractors": [
@@ -258,7 +258,7 @@
         },
         {
             "word": "sticker",
-            "meaning": "ステッカー",
+            "meaning": "ステッカー・シール",
             "pos": "名詞",
             "level": "準2級",
             "example": "She put a name sticker on her swim bag.",
@@ -272,7 +272,7 @@
         },
         {
             "word": "mountain jacket",
-            "meaning": "マウンテンジャケット",
+            "meaning": "登山用ジャケット",
             "pos": "名詞句",
             "level": "準2級",
             "example": "A warm mountain jacket is useful when camping.",
@@ -286,7 +286,7 @@
         },
         {
             "word": "arrival area",
-            "meaning": "到着エリア",
+            "meaning": "到着エリア・到着ロビー",
             "pos": "名詞句",
             "level": "準2級",
             "example": "Please wait for me in the arrival area at the airport.",
@@ -300,7 +300,7 @@
         },
         {
             "word": "pick up",
-            "meaning": "取りに来る・受け取る",
+            "meaning": "（物を）受け取る・（人を）迎えに行く",
             "pos": "句動詞",
             "level": "準2級",
             "example": "I will pick up my package at the store tomorrow.",
@@ -457,7 +457,7 @@
             "meaning": "自由に",
             "pos": "副詞",
             "level": "準2級",
-            "example": "On days off, you can use the rest of the week freely.",
+            "example": "On days off, you can spend your time freely.",
             "distractors": [
                 "速く",
                 "静かに",
@@ -575,7 +575,7 @@
                 {
                     "number": 1,
                     "text": "The new restaurant near the train station has a very ( 1 ) menu. It has many dishes from around the world, and they are not very expensive.",
-                    "translation": "駅の近くの新しいレストランにはとても( 1 )メニューがあります。世界中の料理がたくさんあり、それほど高くもありません。",
+                    "translation": "駅の近くの新しいレストランのメニューはとても( 1 )ものです。世界各地の料理が多く、値段もあまり高くありません。",
                     "choices": [
                         "tight",
                         "appealing",
@@ -590,10 +590,10 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ tight＝きつい。tight shoes（きつい靴）やtight schedule（厳しい日程）に使う語で、メニューの良さは表せない",
-                        "✅ appealing＝魅力的な。第2文のmany dishes from around the world＋not very expensiveがプラス評価の手がかり→正解",
-                        "❌ boring＝退屈な。マイナス評価の語。世界各国の料理が豊富という第2文のプラスの内容と正反対",
-                        "❌ faint＝かすかな。faint sound（かすかな音）やfaint light（弱い光）に使う語で、メニューには使えない"
+                        "❌ tight＝きつい。menuの魅力を表す形容詞ではない",
+                        "✅ appealing＝魅力的な。料理が豊富で高くないという説明に合う→正解",
+                        "❌ boring＝退屈な。料理が豊富というプラスの説明と合わない",
+                        "❌ faint＝かすかな。音や光の弱さを表す語で、menuには不適切"
                     ],
                     "grammar": "💡 appealing＝魅力的な。appeal to ～＝～の心を引く。空所の直後の文が空所のヒントになる典型パターン。"
                 },
@@ -615,10 +615,10 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ entrance＝入口。建物の入口を指す名詞で、人が「気をつける」対象にならない",
-                        "✅ appearance＝外見・身だしなみ。第2文のclean clothes（きれいな服）＋brushes his hair（髪を梳く）がすべて見た目の手入れ→正解",
-                        "❌ difference＝違い。his difference（彼の違い）では何と何の違いか不明で意味が通らない",
-                        "❌ intelligence＝知性。知性に気をつけるなら勉強などの描写になるはず。服や髪の手がかりと結びつかない"
+                        "❌ entrance＝入口。服装や髪の手入れとは結びつかない",
+                        "✅ appearance＝外見・身だしなみ。clean clothesとbrushes his hairが根拠→正解",
+                        "❌ difference＝違い。careful about his differenceでは意味が定まらない",
+                        "❌ intelligence＝知性。服や髪についての説明と合わない"
                     ],
                     "grammar": "💡 appearance＝外見・身だしなみ（動詞appear＝現れる の名詞形）。be careful about ～＝～に気をつける。"
                 },
@@ -640,10 +640,10 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ complaint＝苦情。make a complaint（苦情を言う）の形で使う語。新事業計画を「話し合う」目的と合わない",
-                        "❌ record＝記録。keep a record（記録をつける）やbreak a record（記録を破る）で使う語。with the managers（人と一緒に開く）ものではない",
-                        "✅ conference＝会議。have a ( ) with 人＋to talk about ～（～を話し合うために）の形が決め手→正解",
-                        "❌ treatment＝治療。receive treatment（治療を受ける）で使う医療の語。社長と管理職の場面に無関係"
+                        "❌ complaint＝苦情。事業計画を話し合う集まりを表さない",
+                        "❌ record＝記録。have a record with the managersは不自然",
+                        "✅ conference＝会議。managersと事業計画を話し合う目的に合う→正解",
+                        "❌ treatment＝治療。会社の事業計画の場面とは無関係"
                     ],
                     "grammar": "💡 have a conference with ～＝～と会議を開く。to talk about ～（目的のto不定詞）が空所のヒント。"
                 },
@@ -661,14 +661,14 @@
                         "患者",
                         "甥",
                         "消防士",
-                        "監督"
+                        "映画監督"
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ patient＝患者。病院の場面で使う語。The movie's patient（映画の患者）では意味が通らない",
-                        "❌ nephew＝甥。家族関係の語。俳優全員を集めて役柄を説明する立場ではない",
-                        "❌ firefighter＝消防士。職業名だが、映画制作で俳優に演技指導する役割ではない",
-                        "✅ director＝監督。俳優全員と会議し役柄（their characters）を説明できるのは監督→正解。💡 The movie's ( )＝映画の関係者を選ぶ"
+                        "❌ patient＝患者。映画で俳優に役柄を説明する立場ではない",
+                        "❌ nephew＝甥。家族関係を表し、映画制作の役職ではない",
+                        "❌ firefighter＝消防士。俳優に役柄を説明する仕事ではない",
+                        "✅ director＝映画監督。俳優にtheir charactersを説明する立場→正解"
                     ],
                     "grammar": "💡 director＝監督（direct＝指揮する＋-or「人」）。character＝（劇中の）役柄・登場人物。"
                 },
@@ -690,17 +690,17 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ deserts＝砂漠。場所の名詞。部屋の箱で飼える（has some beetles in a plastic box）ものではない",
-                        "❌ planets＝惑星。天体の語。crawling around（這い回る）やeating the food（餌を食べる）の描写と結びつかない",
-                        "✅ insects＝昆虫。beetles（カブトムシ・甲虫）はinsectsの具体例。evenは「（好きが高じて）飼ってさえいる」の流れ→正解",
-                        "❌ ghosts＝幽霊。実体がないので餌を与える（the food he gives them）ことができず矛盾"
+                        "❌ deserts＝砂漠。箱の中で飼う対象ではない",
+                        "❌ planets＝惑星。beetlesやcrawling aroundと結びつかない",
+                        "✅ insects＝昆虫。beetlesが昆虫の具体例になっている→正解",
+                        "❌ ghosts＝幽霊。餌を食べるbeetlesの説明と合わない"
                     ],
                     "grammar": "💡 insect＝昆虫。抽象（insects）→具体例（beetles）の流れは語彙問題の頻出パターン。crawl around＝這い回る。"
                 },
                 {
                     "number": 6,
                     "text": "In the United States, more people are getting heart disease, so the government has started to ( 6 ) healthier lifestyles. They recommend that people exercise every day.",
-                    "translation": "アメリカでは心臓病になる人が増えているため、政府はより健康的な生活習慣を( 6 )し始めました。毎日運動するよう勧めています。",
+                    "translation": "アメリカでは心臓病になる人が増えているため、政府はより健康的な生活習慣を( 6 )ようになりました。毎日運動するよう勧めています。",
                     "choices": [
                         "mark",
                         "involve",
@@ -709,18 +709,18 @@
                     ],
                     "choiceTranslations": [
                         "印をつける",
-                        "関与させる",
+                        "含む・関与させる",
                         "持ち上げる",
-                        "促進する"
+                        "促進する・推進する"
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ mark＝印をつける。mark the date（日付に印をつける）など物理的な印に使う語。政策の動詞にならない",
-                        "❌ involve＝含む・関与させる。The job involves ～（仕事には～が含まれる）のように使い、「広める」意味はない",
-                        "❌ lift＝持ち上げる。lift a box（箱を持ち上げる）など物理的動作の語。lifestylesを目的語にできない",
-                        "✅ promote＝促進する・推進する。心臓病増加（原因）→so＋政府が健康的生活を推進（結果）の因果関係が決め手→正解"
+                        "❌ mark＝印をつける。健康的な生活習慣を広める意味はない",
+                        "❌ involve＝含む・関与させる。lifestylesを推進する文脈に合わない",
+                        "❌ lift＝持ち上げる。lifestylesを目的語にする用法ではない",
+                        "✅ promote＝促進する・推進する。政府が運動を勧める対策に合う→正解"
                     ],
-                    "grammar": "💡 promote＝促進する（pro-「前へ」＋mote「動かす」）。so＝だから（前半が理由、後半が政府の対策）。"
+                    "grammar": "💡 promote＝促進する・推進する。so＝だから（前半が理由、後半が政府の対策）。"
                 },
                 {
                     "number": 7,
@@ -740,17 +740,17 @@
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ regularly＝定期的に。exercise regularly（定期的に運動する）のように習慣を表す語。今この瞬間の疲れの程度は表せない",
-                        "❌ hardly＝ほとんど～ない。hardly tiredなら「ほぼ疲れていない」となり、直後のI should go to bed now（もう寝るべき）と矛盾",
-                        "✅ awfully＝ものすごく（awful「ひどい」の副詞形だが、ここでは程度の強調）。寝るべきと言うほどの疲れ→正解",
-                        "❌ gently＝優しく・そっと。speak gently（優しく話す）のように動作の様子を表す語で、tiredの程度は表せない"
+                        "❌ regularly＝定期的に。今の疲れの程度を表さない",
+                        "❌ hardly＝ほとんど～ない。go to bed nowという判断と反対になる",
+                        "✅ awfully＝とても。tiredを強め、今すぐ寝たい状況に合う→正解",
+                        "❌ gently＝優しく。動作の様子を表し、tiredを強めない"
                     ],
                     "grammar": "💡 awfully＝とても・ものすごく（形容詞を強調する副詞）。Are you okay?への返答＝体調不良の流れを読む。"
                 },
                 {
                     "number": 8,
                     "text": "Martha had to read a book for her class. She ( 8 ) if it would be interesting, but she really enjoyed it.",
-                    "translation": "マーサは授業のために本を読まなければなりませんでした。面白いかどうか( 8 )のですが、とても楽しめました。",
+                    "translation": "マーサは授業のために本を読まなければなりませんでした。その本は面白いだろうかと( 8 )が、実際にはとても楽しめました。",
                     "choices": [
                         "reminded",
                         "replied",
@@ -758,19 +758,19 @@
                         "wondered"
                     ],
                     "choiceTranslations": [
-                        "思い出した",
-                        "返事した",
-                        "準備した",
-                        "～かどうか思った"
+                        "思い出させた",
+                        "返事をした",
+                        "準備をした",
+                        "思った"
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ reminded＝思い出させた。remind 人 of ～（人に～を思い出させる）の形で使い、目的語（人）が必要。if節は続かない",
-                        "❌ replied＝返事した。reply to ～（～に返事する）の形で使う。読書前の気持ちを表す場面に合わない",
-                        "❌ prepared＝準備した。prepare for ～（～に備える）の形が基本。「面白いかどうか準備した」では意味が通らない",
-                        "✅ wondered＝～だろうかと思った。wonder if ～が定型。butで「（不安だったが）実際は楽しめた」と逆接につながる→正解"
+                        "❌ reminded＝思い出させた。remindの後には人などの目的語が必要",
+                        "❌ replied＝返事した。reply if it would be interestingとは言わない",
+                        "❌ prepared＝準備した。if節を続けて疑問を表す動詞ではない",
+                        "✅ wondered＝～かどうかと思った。wonder ifの定型でbutの対比にも合う→正解"
                     ],
-                    "grammar": "💡 wonder if ～＝～かどうかなと思う（疑問・不安）。butの前後で気持ちが変わる対比構造に注目。"
+                    "grammar": "💡 wonder if ～＝～だろうかと思う（疑問・不安）。butの前後で気持ちが変わる対比構造に注目。"
                 },
                 {
                     "number": 9,
@@ -790,17 +790,17 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ announce＝発表する・公表する。announce the results（結果を発表する）のように情報を公にする語。人を目的語に取れない",
-                        "✅ judge＝判断する。judge A by B（BでAを判断する）が定型。第2文のinside（内面）がby the way they look（外見）と対比→正解",
-                        "❌ practice＝練習する。practice the piano（ピアノを練習する）のように技能に使う語。other peopleを練習するは意味不成立",
-                        "❌ complete＝完成させる。complete the homework（宿題を終わらせる）のように使う語。人を完成させるは意味不成立"
+                        "❌ announce＝発表する。人を見た目で発表するとは言わない",
+                        "✅ judge＝判断する。judge A by Bと外見・内面の対比が決め手→正解",
+                        "❌ practice＝練習する。other peopleを目的語にする意味ではない",
+                        "❌ complete＝完成させる。人の外見を評価する意味はない"
                     ],
                     "grammar": "💡 judge A by B＝BによってAを判断する。However以降の「外見より内面」という対比が最大のヒント。"
                 },
                 {
                     "number": 10,
                     "text": "A : Excuse me. Is this chair ( 10 )?\nB : Yes, it is. My friend is sitting there. He just went to the restroom, but he will be back soon.",
-                    "translation": "A：すみません。この椅子は( 10 )ですか？\nB：はい。友達が座っています。トイレに行っただけで、すぐ戻ってきます。",
+                    "translation": "A：すみません。この椅子は( 10 )状態ですか？\nB：はい。友達が座っています。トイレに行っただけで、すぐ戻ってきます。",
                     "choices": [
                         "spread",
                         "expected",
@@ -808,17 +808,17 @@
                         "occupied"
                     ],
                     "choiceTranslations": [
-                        "広がった",
+                        "広げられた",
                         "期待された",
                         "考慮された",
-                        "使われている"
+                        "使用中の"
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ spread＝広げられた。spread the map（地図を広げる）やspread butter（バターを塗る）に使う語。椅子の使用状況は表せない",
-                        "❌ expected＝予期された。be expected to ～（～すると期待される）の形が基本。席が空いているかの質問にならない",
-                        "❌ considered＝考慮された。be considered (to be) ～（～とみなされる）のように補語が必要。単独では意味が通らない",
-                        "✅ occupied＝使用中の。BのMy friend is sitting there（友達が座っている）が決め手。トイレや座席の「使用中」の定番表現→正解"
+                        "❌ spread＝広げられた。椅子の使用状況を表さない",
+                        "❌ expected＝期待された。空席かどうかを尋ねる表現にならない",
+                        "❌ considered＝考慮された。単独で椅子の状態を表せない",
+                        "✅ occupied＝使用中の。My friend is sitting thereが直接の根拠→正解"
                     ],
                     "grammar": "💡 be occupied＝（席・トイレなどが）使用中である（⇔vacant＝空いている）。restroom＝トイレ（米）。"
                 },
@@ -840,10 +840,10 @@
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ for the time being＝当分の間・差し当たり。「当分の間買いたい」では一時的な状態の語と一回の購入が合わない",
-                        "❌ at the same time＝同時に。2つの出来事が同時に起こるときの表現。比較対象がここにはない",
-                        "❌ once upon a time＝昔々あるところに。おとぎ話の書き出し専用の表現。未来の希望には使えない",
-                        "✅ in the near future＝近い将来に。butの後のI need to save more money first（まず貯金が必要）→「今すぐではないが近いうち」の流れ→正解"
+                        "❌ for the time being＝当分の間。一回の購入時期を表す語ではない",
+                        "❌ at the same time＝同時に。同時に起こる別の出来事がない",
+                        "❌ once upon a time＝昔々。未来の希望とは時制が合わない",
+                        "✅ in the near future＝近い将来に。まず貯金が必要という後半に合う→正解"
                     ],
                     "grammar": "💡 in the near future＝近い将来に。timeを含む熟語の使い分けが問われる定番問題。first＝まず（順序）。"
                 },
@@ -865,10 +865,10 @@
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ a piece of＝一切れの。a piece of cake（ケーキ一切れ）など不可算名詞に使う。dateには使えない",
-                        "✅ a sort of＝一種の・ある意味。博物館＋夕食を「ある意味デートね」と言う照れた表現。単数形dateと正しくつながる→正解",
-                        "❌ a lot of＝たくさんの。後ろには複数形（a lot of dates）か不可算名詞が必要。単数形dateには使えない",
-                        "❌ a couple of＝2〜3の。a couple of days（2、3日）のように複数形が必要。単数形dateには使えない"
+                        "❌ a piece of＝一片の。単数形dateをこの意味では修飾しない",
+                        "✅ a sort of＝一種の。博物館と夕食を「ある意味デート」と表せる→正解",
+                        "❌ a lot of＝たくさんの。後ろの単数形dateと数が合わない",
+                        "❌ a couple of＝2、3の。後ろには複数形が必要"
                     ],
                     "grammar": "💡 a sort of ～＝一種の～（＝a kind of）。後ろの名詞が単数形か複数形かが解答の決め手になる文法問題でもある。"
                 },
@@ -883,24 +883,24 @@
                         "divided into"
                     ],
                     "choiceTranslations": [
-                        "かつて～だった",
-                        "～の代金を払った",
+                        "かつて～した",
+                        "～の代金を支払った",
                         "～として知られている",
                         "～に分けられた"
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ used to＝（be used to ～で）～に慣れている。「最大の供給業者に慣れている」では会社紹介にならない。used to do（かつて～した）と混同しやすいが、その場合be動詞は不要",
-                        "❌ paid for＝～の代金を支払われた。we are paid for（代金を受け取る）では「最大の供給業者」が目的語として意味をなさない",
-                        "✅ known as＝～として知られている。be known as＋肩書き・名称が定型。会社の紹介として自然→正解",
-                        "❌ divided into＝～に分割された。be divided into groups（グループに分けられる）のように使う。会社の評判の説明にならない"
+                        "❌ used to＝かつて～した。直前にareがあるためused to doの形にならない",
+                        "❌ paid for＝～の代金を支払った。会社の呼び名を説明する表現ではない",
+                        "✅ known as＝～として知られている。be known as＋名称の定型→正解",
+                        "❌ divided into＝～に分けられた。供給業者としての評判を表さない"
                     ],
                     "grammar": "💡 be known as ～＝～として知られている（asの後は肩書き・名称）。be known for ～（～で有名）との区別も頻出。"
                 },
                 {
                     "number": 14,
                     "text": "A : I hope my boss doesn't ( 14 ) my report.\nB : I'm sure he won't. It's very well written.",
-                    "translation": "A：上司が私のレポートの( 14 )をしないといいんだけど。\nB：きっとしないわ。とてもよく書けているもの。",
+                    "translation": "A：上司が私のレポートについて( 14 )ことがなければいいんだけど。\nB：きっとしないよ。とてもよく書けているもの。",
                     "choices": [
                         "find fault with",
                         "put up with",
@@ -908,24 +908,24 @@
                         "take part in"
                     ],
                     "choiceTranslations": [
-                        "～のあら探しをする",
-                        "～を我慢する",
-                        "～を楽しみにする",
-                        "～に参加する"
+                        "あら探しをする・けちをつける",
+                        "我慢する",
+                        "楽しみにする",
+                        "参加する"
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ find fault with＝～のあら探しをする。BのIt's very well written（よく書けている）＝あら探しされる心配はない、と自然に呼応→正解",
-                        "❌ put up with＝～を我慢する。put up with the noise（騒音を我慢する）のように不快なものに使う。doesn'tと合わせると「我慢しないでほしい」となり意味が逆",
-                        "❌ look forward to＝～を楽しみにする。プラスの意味なので、I hope my boss doesn't ～（してほしくない）と組み合わせると不自然",
-                        "❌ take part in＝～に参加する。take part in the event（行事に参加する）のように活動に使う。レポートは参加対象ではない"
+                        "✅ find fault with＝～のあら探しをする。well writtenという返答に合う→正解",
+                        "❌ put up with＝～を我慢する。reportを我慢するという文脈ではない",
+                        "❌ look forward to＝～を楽しみにする。してほしくないという希望と合わない",
+                        "❌ take part in＝～に参加する。reportは参加する活動ではない"
                     ],
                     "grammar": "💡 find fault with ～＝～のあら探しをする（fault＝欠点）。Bの返答が空所の意味を特定する根拠になる。"
                 },
                 {
                     "number": 15,
                     "text": "A : Please ( 15 ) to drinks over there. There are sodas, tea, and water. Just take whatever you want.\nB : Thanks. I'll have a soda.",
-                    "translation": "A：あちらの飲み物を( 15 )。ソーダ、お茶、水があります。好きなものを取ってください。\nB：ありがとう。ソーダにするわ。",
+                    "translation": "A：あちらの飲み物を( 15 )。ソーダ、お茶、水があります。好きなものを取ってください。\nB：ありがとう。ソーダにするよ。",
                     "choices": [
                         "make sure",
                         "help yourself",
@@ -934,16 +934,16 @@
                     ],
                     "choiceTranslations": [
                         "確かめる",
-                        "ご自由にどうぞ",
+                        "自由に取ってください",
                         "気をつける",
                         "知り合う"
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ make sure＝確かめる。make sure (that) ～やmake sure to do（必ず～する）の形で使い、to＋名詞（to drinks）は続かない",
-                        "✅ help yourself＝ご自由にどうぞ。help yourself to＋食べ物・飲み物が定型。直後のJust take whatever you want（好きなものを取って）と完全に一致→正解",
-                        "❌ take care＝気をつける・お大事に。Take care!（じゃあね・お大事に）のように別れ際に使う表現。toの前に置けない",
-                        "❌ get acquainted＝知り合いになる。get acquainted with＋人の形で使う。飲み物（drinks）と知り合うことはできない"
+                        "❌ make sure＝確かめる。make sure to drinksとは言わない",
+                        "✅ help yourself＝自由に取る。help yourself to＋飲食物の定型→正解",
+                        "❌ take care＝気をつける。to drinksを続ける形ではない",
+                        "❌ get acquainted＝知り合う。飲み物を自由に取る場面に合わない"
                     ],
                     "grammar": "💡 help yourself to ～＝～をご自由にどうぞ（おもてなしの定番表現）。直後のtoと正しくつながるかが決め手。"
                 }
@@ -966,19 +966,19 @@
                         "runs late at night"
                     ],
                     "choiceTranslations": [
-                        "まっすぐそこへ行く",
+                        "そこへ直行する",
                         "もっとたくさん停まる",
                         "より多くの乗客を載せる",
                         "夜遅く運行する"
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ goes straight there＝まっすぐそこへ行く。you won't have to worry about getting off at the wrong stop（降りるバス停を間違える心配がない）＋get there as soon as possible（できるだけ早く）→正解",
-                        "❌ makes more stops＝もっとたくさん停まる。you won't have to worry about getting off at the wrong stop と矛盾",
-                        "❌ holds more passengers＝より多くの乗客を載せる。as soon as possible（急いでいる）や乗り違えの心配とは無関係",
-                        "❌ runs late at night＝夜遅く運行する。the museum will close at 5:00 p.m.（5時に閉まる）の文脈で、夜遅い運行は論点にならない"
+                        "そこへ直行する。早く着け、降りる停留所を間違えない→正解。💡",
+                        "停車が増える。as soon as possibleという希望に反する",
+                        "乗客を多く乗せる。速さや降車場所とは関係がない",
+                        "夜遅く運行する。午後5時閉館の場面に合わない"
                     ],
-                    "grammar": "💡 go straight there＝まっすぐそこへ行く。get off at the wrong stop＝降りるバス停を間違える。as soon as possible＝できるだけ早く。"
+                    "grammar": "💡 go straight there＝そこへ直行する。get off at the wrong stop＝降りる停留所を間違える。"
                 },
                 {
                     "number": 17,
@@ -998,10 +998,10 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ is the name written on the sticker＝ステッカーに書かれている名前。Emily Stone が pink name sticker（名前ステッカー）と一致→忘れ物が娘のものと確認→正解",
-                        "❌ sounds like someone else's name＝別の人の名前。feel free to come and pick it up anytime（いつでも取りに来て）と、一致しないなら渡せない",
-                        "❌ sticker is not sold at our store＝ステッカーの販売。swim bag（忘れ物）の確認の会話と無関係",
-                        "❌ bag has been lost for a few days＝数日間行方不明。left her swim bag at your store today（今日忘れた）の電話で時制が合わない"
+                        "ステッカーの名前とEmily Stoneが一致する→正解。💡",
+                        "別人の名前。バッグを渡してよいという続きと合わない",
+                        "ステッカーの販売。忘れ物の持ち主確認とは無関係",
+                        "数日前から紛失。todayと時期が合わない"
                     ],
                     "grammar": "💡 pick it up＝（忘れ物を）取りに来る。feel free to ～＝ご自由に～してください。May I ask ～?＝～を伺ってもよろしいですか。"
                 },
@@ -1019,14 +1019,14 @@
                         "新しいバックパック",
                         "かわいい水着",
                         "大きな懐中電灯",
-                        "マウンテンジャケット"
+                        "登山用ジャケット"
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ a new backpack＝新しいバックパック。The one she has is getting too small（小さくなった）＋keep her warm at night（夜暖かい）の2つの手がかりに合わない",
-                        "❌ a cute swimsuit＝かわいい水着。we're going camping next weekend（キャンプ）の夜に暖かくする用途と合わない",
-                        "❌ a large flashlight＝大きな懐中電灯。getting too small（着るもののサイズ）の描写と無関係",
-                        "✅ a mountain jacket＝マウンテンジャケット。getting too small（サイズアップの衣類）＋keep her warm at night（夜の防寒）→正解"
+                        "バックパック。keep her warm at nightの手がかりに合わない",
+                        "水着。キャンプの夜に体を暖かくする物ではない",
+                        "懐中電灯。getting too smallという衣服の説明に合わない",
+                        "登山用ジャケット。サイズと夜の防寒の両方に合う→正解。💡"
                     ],
                     "grammar": "💡 keep ～ warm＝～を暖かくする。get too small＝小さくなりすぎる。How about ～?＝～はどう？"
                 },
@@ -1048,10 +1048,10 @@
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ what's around you＝周りに何があるか。Bが arrival area on the third floor・statue of a woman（到着エリア・像）と周囲を答えている→正解",
-                        "❌ when you will arrive＝いつ着くか。I'm on my way（向かっている）とあり、Ken自身の到着時刻の質問ではない",
-                        "❌ who you are with＝誰と一緒にいるか。Bの返答は周囲の物の描写で、同行者の話ではない",
-                        "❌ why you are here＝なぜここにいるか。I'm joining one of your tours today（ツアー参加）で理由はすでに説明済み"
+                        "周囲に何があるか。Bが到着エリアと女性像を答える→正解。💡",
+                        "いつ着くか。Bは自分の現在地を説明している",
+                        "誰といるか。返答に同行者は出てこない",
+                        "なぜいるか。ツアー参加だとすでに説明している"
                     ],
                     "grammar": "💡 Can you tell me ～?＝～を教えてくれますか。arrival area＝到着ロビー・到着エリア。right in front of ～＝～のすぐ前に。"
                 },
@@ -1068,15 +1068,15 @@
                     "choiceTranslations": [
                         "明日また電話する",
                         "5分でそこに着く",
-                        "あなたの便がもうすぐだ",
+                        "搭乗便の時間が近い",
                         "あなたの飛行機がもうすぐ到着する"
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ I'll call you back tomorrow＝明日また電話する。Please stay right there（その場所で待って）と、今迎えに向かう場面で明日電話は合わない",
-                        "✅ I'll be there in five minutes＝5分でそこに着く。場所を特定したあと Please stay right there → すぐ迎えに行く宣言。I'll wait for you と呼応→正解",
-                        "❌ Your flight is coming up＝あなたの便がもうすぐ。Rachel はすでに arrival area on the third floor（到着エリア）にいる",
-                        "❌ Your plane is arriving soon＝飛行機がもうすぐ到着。同様に、彼女はすでに空港の到着エリアにいる"
+                        "明日また電話する。今、空港へ迎えに向かう流れと合わない",
+                        "5分で着く。stay right thereとI'll wait for youに呼応する→正解。💡",
+                        "搭乗便の時間が近い。Rachelはすでに到着エリアにいる",
+                        "飛行機が到着する。Rachel自身はすでに空港にいる"
                     ],
                     "grammar": "💡 I'll be there in five minutes＝5分でそこに着きます。stay right there＝その場所で待っていて。pick ～ up＝～を迎えに行く。"
                 }
@@ -1096,21 +1096,25 @@
                         "A few years later, Max was in college and living in another city. One afternoon, he got a call from his mother. She told him that a dog very similar to Leo had appeared and was sitting in front of their house. Max was ( 22 ). He hurried back to his home in his hometown. Max believed Leo had found his way home through smell and memory. When he saw Leo sitting there, Max ran to him, hugged him, and started crying."
                     ],
                     "translations": [
-                        "マックスはレオという犬を飼っている高校生でした。ある日、いつものように山を散歩していると、レオが突然走り去ってしまいました。マックスは何時間も探しましたが、犬の姿はどこにもありませんでした。マックスは( 21 )。ポスターを作り、近所の人に配り、犬の保護施設にも電話しました。それでもレオは行方不明のままでした。結局、レオがいなくなったことを受け入れなければなりませんでした。",
-                        "数年後、マックスは大学に通い、別の都市に住んでいました。ある午後、母親から電話がありました。レオにとても似た犬が現れて家の前に座っていると言われました。マックスは( 22 )。故郷の実家に急いで戻りました。マックスは、レオが匂いと記憶で帰ってきたのだと信じました。そこに座っているレオを見て、マックスは走り寄り、抱きしめ、泣き始めました。"
+                        "マックスはレオという犬を飼っていた高校生でした。ある日、いつものように山を散歩していると、レオが突然走り去りました。マックスは何時間も探しましたが、犬はどこにも見つかりませんでした。マックスは( 21 )。ポスターを作り、近所の人に配り、犬の保護施設にも電話しました。それでもレオは行方不明のままでした。結局、レオがいなくなったことを受け入れなければなりませんでした。",
+                        "数年後、マックスは大学に通い、別の都市に住んでいました。ある午後、母親から電話がありました。レオによく似た犬が現れ、家の前に座っていると言われました。マックスは( 22 )。故郷の家へ急いで戻りました。マックスは、レオがにおいと記憶を頼りに帰り道を見つけたのだと考えました。そこに座っているレオを見ると、マックスは走り寄って抱きしめ、泣き始めました。"
                     ],
                     "sentencePairs": [
                         [
                             "Max was a high school student who had a dog named Leo.",
-                            "マックスはレオという犬を飼っている高校生でした。"
+                            "マックスはレオという犬を飼っていた高校生でした。"
                         ],
                         [
                             "One day, while they were taking their usual walk in the mountains, Leo suddenly ran off.",
-                            "ある日、いつものように山を散歩していると、レオが突然走り去ってしまいました。"
+                            "ある日、いつものように山を散歩していると、レオが突然走り去りました。"
                         ],
                         [
                             "Max looked for him for hours, but the dog was nowhere to be found.",
-                            "マックスは何時間も探しましたが、犬の姿はどこにもありませんでした。"
+                            "マックスは何時間も探しましたが、犬はどこにも見つかりませんでした。"
+                        ],
+                        [
+                            "Max ( 21 ).",
+                            "マックスは( 21 )。"
                         ],
                         [
                             "He made posters, gave them to neighbors, and called dog shelters.",
@@ -1129,20 +1133,28 @@
                             "数年後、マックスは大学に通い、別の都市に住んでいました。"
                         ],
                         [
+                            "One afternoon, he got a call from his mother.",
+                            "ある午後、母親から電話がありました。"
+                        ],
+                        [
                             "She told him that a dog very similar to Leo had appeared and was sitting in front of their house.",
-                            "レオにとても似た犬が現れて家の前に座っていると言われました。"
+                            "レオによく似た犬が現れ、家の前に座っていると言われました。"
+                        ],
+                        [
+                            "Max was ( 22 ).",
+                            "マックスは( 22 )。"
                         ],
                         [
                             "He hurried back to his home in his hometown.",
-                            "故郷の実家に急いで戻りました。"
+                            "故郷の家へ急いで戻りました。"
                         ],
                         [
                             "Max believed Leo had found his way home through smell and memory.",
-                            "マックスは、レオが匂いと記憶で帰ってきたのだと信じました。"
+                            "マックスは、レオがにおいと記憶を頼りに帰り道を見つけたのだと考えました。"
                         ],
                         [
                             "When he saw Leo sitting there, Max ran to him, hugged him, and started crying.",
-                            "そこに座っているレオを見て、マックスは走り寄り、抱きしめ、泣き始めました。"
+                            "そこに座っているレオを見ると、マックスは走り寄って抱きしめ、泣き始めました。"
                         ]
                     ],
                     "questions": [
@@ -1162,10 +1174,10 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ decided to do that all by himself＝一人でやることにした。gave them to neighbors, and called dog shelters（近所に配り、保護施設に電話）とあり、一人だけではない",
-                                "❌ gave up on seeing the dog again＝もう会えないとあきらめた。In the end, he had to accept that Leo had gone（結局受け入れた）はその後の話で、空所の直後はまだ努力の描写",
-                                "❌ found the dog a few days later＝数日後に見つけた。直後はポスター作成などの捜索活動。Still, Leo was missing（まだ行方不明）とも合わない",
-                                "✅ did everything that he could＝できる限りのことをした。He made posters, gave them to neighbors, and called dog shelters（ポスター・近所・保護施設）を総括→正解"
+                                "一人で行った。neighborsやdog sheltersにも協力を求めている",
+                                "再会をあきらめた。空所直後では捜索を続けている",
+                                "数日後に見つけた。Still, Leo was missingと反対",
+                                "できる限りのことをした。ポスター作成などをまとめる文→正解。💡"
                             ],
                             "sourceEvidence": [
                                 "He made posters, gave them to neighbors, and called dog shelters.",
@@ -1189,10 +1201,10 @@
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ surprised to hear that＝それを聞いて驚いた。a dog very similar to Leo had appeared（レオに似た犬が現れた）という予想外の知らせ。He hurried back（急いで戻った）と一致→正解",
-                                "❌ sure it was a different dog＝別の犬だと確信。He hurried back to his home（故郷へ急ぎ）・hugged him, and started crying（抱きしめて泣いた）と矛盾",
-                                "❌ angry at his mother's news＝母親の知らせに怒った。ran to him, hugged him（走り寄り抱きしめた）再会の喜びの場面と矛盾",
-                                "❌ sad to leave the city＝街を離れるのが悲しい。living in another city から hometown へ戻る話で、街を離れる悲しみとは無関係"
+                                "知らせを聞いて驚いた。似た犬の出現を聞き、すぐ故郷へ戻る→正解。💡",
+                                "別の犬だと確信した。再会して抱きしめる結末と合わない",
+                                "母の知らせに怒った。再会を喜んで泣く場面と合わない",
+                                "街を離れるのが悲しかった。急いで戻る理由にならない"
                             ],
                             "sourceEvidence": [
                                 "a dog very similar to Leo had appeared and was sitting in front of their house.",
@@ -1227,10 +1239,34 @@
                     ],
                     "translations": [
                         "ジェイコブへ、お元気ですか？この冬、私はスキーリゾートでアルバイトをします。短期間スタッフとして働く間、そこに滞在します。この機会に興味があるかもしれないと思いました。そうなら、下の情報を確認してください。11月5日までにスキーリゾートにメッセージを送る必要があります。その後、11月10日にオンライン面接があります。",
-                        "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客やレンタル器材の依頼への対応などです。道路の除雪も含まれます。カフェテリアやホテルでの仕事は含まれません。週5日、約1ヶ月働きます。日中ではなく夕方に行う仕事もあります。残りの時間は自由に過ごせます。",
-                        "リゾートでもらえるものについてお伝えします。まず、毎日3食無料です。働かない日でも同様です。また、スキーやスノーボードを無料で楽しめます。自分だけの無料の部屋もあります。ただし、お客が泊まるのと同じホテルではありません。質問があれば面接で聞けます。ありがとう、ブレイク・ジョーンズ"
+                        "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客や、器材を借りたいという依頼への対応などです。道路の除雪も含まれます。カフェテリアやホテルでの仕事は含まれません。約1か月、週5日働きます。日中ではなく夕方に行う仕事もあります。週の残りは自由に過ごせます。",
+                        "スキーリゾートで受けられるものについてもお伝えします。まず、働かない日も含め、毎日3食の無料の食事が出ます。また、そこでスキーやスノーボードを無料で楽しめます。さらに、自分だけの無料の部屋があります。ただし、お客が泊まるホテルと同じホテルではありません。質問があれば面接で尋ねられます。ありがとう、ブレイク・ジョーンズ"
                     ],
                     "sentencePairs": [
+                        [
+                            "Dear Jacob,",
+                            "ジェイコブへ、"
+                        ],
+                        [
+                            "How are you doing?",
+                            "お元気ですか？"
+                        ],
+                        [
+                            "This winter, I'm going to work a part-time job at a ski resort.",
+                            "この冬、私はスキーリゾートでアルバイトをします。"
+                        ],
+                        [
+                            "I'll stay there while I work as a staff member for a short time.",
+                            "短期間スタッフとして働く間、そこに滞在します。"
+                        ],
+                        [
+                            "I thought you might be interested in this opportunity.",
+                            "この機会に興味があるかもしれないと思いました。"
+                        ],
+                        [
+                            "If so, please check the information below.",
+                            "そうなら、下の情報を確認してください。"
+                        ],
                         [
                             "You need to send a message to the ski resort by November 5.",
                             "11月5日までにスキーリゾートにメッセージを送る必要があります。"
@@ -1241,31 +1277,55 @@
                         ],
                         [
                             "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
-                            "仕事にはギフトショップでの接客やレンタル器材の依頼への対応など、リゾートでのさまざまな役割が含まれます。"
+                            "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客や、器材を借りたいという依頼への対応などです。"
+                        ],
+                        [
+                            "It also includes clearing snow from the streets.",
+                            "道路の除雪も含まれます。"
                         ],
                         [
                             "Working in the cafeteria or hotel is not part of the job.",
                             "カフェテリアやホテルでの仕事は含まれません。"
                         ],
                         [
+                            "You will be working five days a week for about one month.",
+                            "約1か月、週5日働きます。"
+                        ],
+                        [
                             "Some work will be done in the evenings instead of during the day.",
                             "日中ではなく夕方に行う仕事もあります。"
                         ],
                         [
+                            "The rest of the week will be spent freely.",
+                            "週の残りは自由に過ごせます。"
+                        ],
+                        [
+                            "I should tell you about what you will receive at the ski resort.",
+                            "スキーリゾートで受けられるものについてもお伝えします。"
+                        ],
+                        [
                             "First, three free meals are served every day, even on the days you don't work.",
-                            "毎日3食無料です。働かない日でも同様です。"
+                            "まず、働かない日も含め、毎日3食の無料の食事が出ます。"
                         ],
                         [
                             "Also, you are allowed to ski or snowboard there for free.",
-                            "スキーやスノーボードを無料で楽しめます。"
+                            "また、そこでスキーやスノーボードを無料で楽しめます。"
                         ],
                         [
                             "And you will have a free room just for yourself.",
-                            "自分だけの無料の部屋もあります。"
+                            "さらに、自分だけの無料の部屋があります。"
                         ],
                         [
                             "However, it is not in the same hotel where the customers stay.",
-                            "お客が泊まるのと同じホテルではありません。"
+                            "ただし、お客が泊まるホテルと同じホテルではありません。"
+                        ],
+                        [
+                            "If you have any questions, you can ask during the interview.",
+                            "質問があれば面接で尋ねられます。"
+                        ],
+                        [
+                            "Thank you, Blake Jones",
+                            "ありがとう、ブレイク・ジョーンズ"
                         ]
                     ],
                     "questions": [
@@ -1287,10 +1347,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ make a phone call to the ski resort＝電話する。You need to send a message to the ski resort（メッセージを送る）と異なる",
-                                "❌ tell Blake Jones by November 10＝ブレイクに11月10日まで。online interview on November 10（面接の日）であり、連絡期限は11月5日",
-                                "✅ contact the ski resort by November 5＝11月5日までに連絡。You need to send a message to the ski resort by November 5 と一致→正解",
-                                "❌ have experience working at a ski resort＝勤務経験。本文に experience の要件の記載は出てこない"
+                                "電話する。本文はsend a messageとしている",
+                                "11月10日までにBlakeへ伝える。11月10日は面接日である",
+                                "11月5日までにリゾートへ連絡する。send a messageの言い換え→正解。💡",
+                                "勤務経験が必要。本文にその条件はない"
                             ],
                             "sourceEvidence": [
                                 "You need to send a message to the ski resort by November 5.",
@@ -1316,13 +1376,13 @@
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ cleaning rooms at the hotel＝ホテルの部屋掃除。Working in the cafeteria or hotel is not part of the job（ホテルでの仕事は含まれない）と矛盾",
-                                "❌ working at night five days a week＝週5日夜勤。Some work will be done in the evenings（一部が夕方）であり、週5日すべての夜勤ではない",
-                                "❌ serving customers in the cafeteria＝カフェテリアの接客。Working in the cafeteria or hotel is not part of the job と明記",
-                                "✅ helping people who rent items＝レンタル品の手伝い。handling requests to rent equipment（レンタル依頼に対応）と一致→正解"
+                                "ホテルの部屋を掃除する。hotelの仕事は含まれない",
+                                "週5日すべて夜勤。一部がeveningsという記述を広げすぎ",
+                                "カフェテリアで接客する。cafeteriaの仕事は含まれない",
+                                "レンタルする人を手伝う。handling requests to rent equipmentの言い換え→正解。💡"
                             ],
                             "sourceEvidence": [
-                                "handling requests to rent equipment",
+                                "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
                                 "Working in the cafeteria or hotel is not part of the job."
                             ],
                             "grammar": "💡 handle requests to rent equipment＝レンタル依頼に対応する。not part of the job＝仕事に含まれない。"
@@ -1338,17 +1398,17 @@
                                 "stay in the same hotel as the customers."
                             ],
                             "choiceTranslations": [
-                                "いつでも3食無料で食べられる。",
+                                "どの日でも3食無料で食べられる。",
                                 "スキーは無料だがスノーボードはできない。",
                                 "友人と相部屋で寝られる。",
                                 "お客と同じホテルに泊まれる。"
                             ],
                             "answer": 1,
                             "choiceAnalysis": [
-                                "✅ have three meals for free on any day＝いつでも3食無料。three free meals are served every day, even on the days you don't work と一致→正解",
-                                "❌ ski there without paying but cannot snowboard＝スノーボード不可。you are allowed to ski or snowboard there for free（両方無料）",
-                                "❌ sleep in a room shared with his friend＝友人と相部屋。a free room just for yourself（自分だけの部屋）",
-                                "❌ stay in the same hotel as the customers＝お客と同じホテル。it is not in the same hotel where the customers stay と矛盾"
+                                "どの日でも3食無料。働かない日も毎日提供される→正解。💡",
+                                "スノーボードは不可。本文ではski or snowboardの両方が無料",
+                                "友人と相部屋。just for yourselfと反対",
+                                "お客と同じホテル。not in the same hotelと反対"
                             ],
                             "sourceEvidence": [
                                 "three free meals are served every day, even on the days you don't work.",
@@ -1368,39 +1428,87 @@
                         "In this way, there are times when social media can work in a negative way. To avoid these situations, the expert suggests there is something people can do. For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field. That way, social media can truly help mental health, and people can find help from social media."
                     ],
                     "translations": [
-                        "今日、人々はソーシャルメディアの悪影響についてよく話します。しかし、ソーシャルメディアは精神的健康に良い影響を与えることができます。実際、精神的健康の問題を抱える多くの人にとって役立つようです。医者の助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で精神的健康を改善しようとする人もいます。その理由の一つは、有用な情報を無料で見つけられる可能性があることです。",
-                        "1,000人以上の若者を対象とした研究が、ソーシャルメディアでのポジティブな経験を示しました。研究の間、彼らはソーシャルメディアについての良い点をいくつか共有しました。例えば、半数以上が、辛いときにソーシャルメディアのおかげで安心感を得られると答えました。また多くの人が受け入れられたと感じたと言いました。つまり、ソーシャルメディアで他者とつながり、支援を得られると信じているのです。",
-                        "しかし、ある専門家は、ソーシャルメディアで精神的健康の問題を解決しようとすることは必ずしも良いことではないと言います。一部の情報は信頼すべきではない、または専門的ではないからです。例えば、特定の精神疾患についてソーシャルメディア上の情報がどれだけ信頼できるかを調べる研究が行われました。結果、一部の情報は実際に誤りであることがわかりました。そのような情報で治療すると、悪影響を及ぼす可能性があります。",
-                        "このように、ソーシャルメディアがネガティブに働く場合もあります。これを避けるため、専門家は人々にできることがあると示唆しています。例えば、精神的健康についてインターネットで情報を得たい場合、その情報がその分野の専門家によるものか確認すべきだと。そうすれば、ソーシャルメディアは本当に精神的健康の助けになり、人々はソーシャルメディアから助けを見つけられるのです。"
+                        "今日、人々はソーシャルメディアの悪影響についてよく話します。しかし、ソーシャルメディアは心の健康に良い影響を与えることもできます。実際、心の健康に問題を抱える多くの人に役立つようです。医者に助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で心の健康を改善しようとする人もいます。その理由の一つは、役立つ情報を無料で見つけられる可能性があることです。",
+                        "1,000人を超える若者を対象とした研究は、彼らがソーシャルメディアで得た良い経験を示しました。研究中、若者たちはソーシャルメディアの良い点をいくつか挙げました。例えば、半数を超える人が、つらい時にソーシャルメディアのおかげで安心できたと答えました。また、多くの人が受け入れられていると感じたと答えました。言い換えると、ソーシャルメディア上で他者とのつながりを感じ、支援を得られると考えているのです。",
+                        "しかし、ある専門家は、ソーシャルメディアを通じて心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言います。情報の中には、信頼すべきでないものや、専門的でないものがあるからです。例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われました。その結果、一部の情報は実際には間違っていました。そのような情報を使って精神疾患を治療すると、本人に悪影響を及ぼす可能性があります。",
+                        "このように、ソーシャルメディアが悪い方向に働く場合もあります。こうした状況を避けるために、人々にできることがあると専門家は述べています。例えば、心の健康についてインターネットで情報を得るなら、その情報がその分野の専門家から出たものか確認すべきです。そうすれば、ソーシャルメディアは本当に心の健康に役立ち、人々はそこから助けを得られます。"
                     ],
                     "sentencePairs": [
                         [
+                            "Today, people often talk about the negative effects of social media.",
+                            "今日、人々はソーシャルメディアの悪影響についてよく話します。"
+                        ],
+                        [
                             "However, social media can positively influence mental health.",
-                            "ソーシャルメディアは精神的健康に良い影響を与えることができます。"
+                            "しかし、ソーシャルメディアは心の健康に良い影響を与えることもできます。"
+                        ],
+                        [
+                            "In fact, it seems to be helpful for many people with mental health problems.",
+                            "実際、心の健康に問題を抱える多くの人に役立つようです。"
+                        ],
+                        [
+                            "While some of them go to a doctor for help, others rely on social media and try to improve their mental health with information they find on it.",
+                            "医者に助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で心の健康を改善しようとする人もいます。"
                         ],
                         [
                             "One reason for this is that they may be able to find useful information for free.",
-                            "有用な情報を無料で見つけられる可能性があることです。"
+                            "その理由の一つは、役立つ情報を無料で見つけられる可能性があることです。"
+                        ],
+                        [
+                            "A study of over 1,000 young people showed their positive experiences on social media.",
+                            "1,000人を超える若者を対象とした研究は、彼らがソーシャルメディアで得た良い経験を示しました。"
+                        ],
+                        [
+                            "During the study, they shared several good things about social media.",
+                            "研究中、若者たちはソーシャルメディアの良い点をいくつか挙げました。"
                         ],
                         [
                             "For example, more than half of them said that they could feel safe when they were having a hard time, thanks to social media.",
-                            "半数以上が、辛いときにソーシャルメディアのおかげで安心感を得られると答えました。"
+                            "例えば、半数を超える人が、つらい時にソーシャルメディアのおかげで安心できたと答えました。"
+                        ],
+                        [
+                            "Also, many of them said that they felt accepted.",
+                            "また、多くの人が受け入れられていると感じたと答えました。"
                         ],
                         [
                             "In other words, they believe they can feel connected to others and get support from them on social media.",
-                            "ソーシャルメディアで他者とつながり、支援を得られると信じているのです。"
+                            "言い換えると、ソーシャルメディア上で他者とのつながりを感じ、支援を得られると考えているのです。"
                         ],
                         [
                             "However, one expert says that trying to solve mental health problems through social media is not necessarily good.",
-                            "ソーシャルメディアで精神的健康の問題を解決しようとすることは必ずしも良いことではないと言います。"
+                            "しかし、ある専門家は、ソーシャルメディアを通じて心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言います。"
+                        ],
+                        [
+                            "This is because some information should not be trusted or is not professional.",
+                            "情報の中には、信頼すべきでないものや、専門的でないものがあるからです。"
+                        ],
+                        [
+                            "For example, a study was performed to check how much information on social media about a particular mental illness could be trusted.",
+                            "例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われました。"
                         ],
                         [
                             "The results showed some of the information was actually wrong.",
-                            "一部の情報は実際に誤りであることがわかりました。"
+                            "その結果、一部の情報は実際には間違っていました。"
+                        ],
+                        [
+                            "If people use such information to treat their mental illness, it could have a negative impact on them.",
+                            "そのような情報を使って精神疾患を治療すると、本人に悪影響を及ぼす可能性があります。"
+                        ],
+                        [
+                            "In this way, there are times when social media can work in a negative way.",
+                            "このように、ソーシャルメディアが悪い方向に働く場合もあります。"
+                        ],
+                        [
+                            "To avoid these situations, the expert suggests there is something people can do.",
+                            "こうした状況を避けるために、人々にできることがあると専門家は述べています。"
                         ],
                         [
                             "For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field.",
-                            "精神的健康についてインターネットで情報を得たい場合、その情報がその分野の専門家によるものか確認すべきです。"
+                            "例えば、心の健康についてインターネットで情報を得るなら、その情報がその分野の専門家から出たものか確認すべきです。"
+                        ],
+                        [
+                            "That way, social media can truly help mental health, and people can find help from social media.",
+                            "そうすれば、ソーシャルメディアは本当に心の健康に役立ち、人々はそこから助けを得られます。"
                         ]
                     ],
                     "questions": [
@@ -1415,17 +1523,17 @@
                                 "they find free, useful advice to improve their mental health."
                             ],
                             "choiceTranslations": [
-                                "ヘルスケアの有用な情報を得られる唯一の場所だから。",
-                                "見たい医者を選ぶ最も簡単な方法だから。",
+                                "医療について役立つ情報を得られる唯一の場所だから。",
+                                "診てもらいたい医者を選ぶ最も簡単な方法だから。",
                                 "親のアドバイスに従い、それを活用するから。",
                                 "精神的健康を改善する無料で有用な助言を見つけられるから。"
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ the only place to get helpful information＝唯一の場所。While some of them go to a doctor for help（医者の助けもある）とあり、唯一ではない",
-                                "❌ the easiest way to choose the doctors＝医者を選ぶ方法。rely on social media and try to improve their mental health with information（SNS上の情報）が論点",
-                                "❌ they follow their parents' advice＝親のアドバイス。本文に parents の言及は出てこない",
-                                "✅ they find free, useful advice to improve their mental health＝無料で有用な助言。find useful information for free（無料で有用な情報）と一致→正解"
+                                "唯一の情報源。医者に助けを求める人もいるためonlyは誤り",
+                                "医者を選ぶ方法。本文はSNS上の情報利用について述べる",
+                                "親の助言に従う。parentsは本文に出てこない",
+                                "無料で役立つ助言を得る。find useful information for freeの言い換え→正解。💡"
                             ],
                             "sourceEvidence": [
                                 "they may be able to find useful information for free.",
@@ -1444,17 +1552,17 @@
                                 "Social media helps many young people feel better during tough times."
                             ],
                             "choiceTranslations": [
-                                "半数以上がソーシャルメディアに安心感を与えないと考えている。",
+                                "半数以上が、ソーシャルメディアは安心感を与えないと考えている。",
                                 "半数以上がメンタルサポートのためにソーシャルメディアを使わない。",
-                                "ソーシャルメディアはすべての若者を常につながった気にさせる。",
-                                "ソーシャルメディアは多くの若者が辛い時期を乗り越える助けになる。"
+                                "ソーシャルメディアはすべての若者に、常に人とつながっていると感じさせる。",
+                                "ソーシャルメディアは多くの若者がつらい時に気持ちが楽になる助けとなる。"
                             ],
                             "answer": 4,
                             "choiceAnalysis": [
-                                "❌ do not think social media gives a sense of safety＝安心感を与えない。more than half said they could feel safe when they were having a hard time（半数以上が安心感）と正反対",
-                                "❌ do not use social media to find mental support＝使わない。their positive experiences on social media（ポジティブな経験）と矛盾",
-                                "❌ makes every young person feel connected all the time＝すべての若者が常に。many of them said that they felt accepted（多くの人が）と、every/all the time は極端",
-                                "✅ helps many young people feel better during tough times＝辛い時期の助け。feel safe when having a hard time, feel accepted, feel connected と総合→正解"
+                                "安心感を与えない。半数超がfeel safeと答えた記述と反対",
+                                "支援を求めるために使わない。肯定的な経験の報告と合わない",
+                                "全員が常につながる。manyをevery/all the timeへ広げすぎ",
+                                "つらい時に多くの若者を助ける。feel safeやget supportを要約→正解。💡"
                             ],
                             "sourceEvidence": [
                                 "more than half of them said that they could feel safe when they were having a hard time, thanks to social media.",
@@ -1480,10 +1588,10 @@
                             ],
                             "answer": 3,
                             "choiceAnalysis": [
-                                "❌ not much wrong information has been found＝誤情報は少ない。some of the information was actually wrong（実際に誤り）と矛盾",
-                                "❌ most information can be trusted because it comes from doctors＝医者によるので信頼できる。some information should not be trusted or is not professional（信頼すべきでない）と矛盾",
-                                "✅ it is not always a good idea to trust any information on social media＝すべて信じるのは良くない。not necessarily good, should not be trusted と一致→正解",
-                                "❌ information will be fully replaced with doctors' advice＝医者のアドバイスに完全置換。本文にそのような予測の記述はない"
+                                "誤情報は少ない。量の少なさは示されていない",
+                                "大半は医者の情報。専門的でない情報もあると述べる",
+                                "どんな情報でも信じるのはよくない。not necessarily goodと一致→正解。💡",
+                                "医者の助言に完全に置換される。その予測は本文にない"
                             ],
                             "sourceEvidence": [
                                 "trying to solve mental health problems through social media is not necessarily good.",
@@ -1505,14 +1613,14 @@
                                 "医者に頼る習慣を身につけ、ソーシャルメディアの使用をやめるべきだ。",
                                 "精神的健康の分野の専門家による情報を使うべきだ。",
                                 "ソーシャルメディアのどの情報を信じるか専門家に尋ねるべきだ。",
-                                "ソーシャルメディアの情報と医者の意見を同等に頼るべきだ。"
+                                "ソーシャルメディアの情報と医者の意見に同じように頼るべきだ。"
                             ],
                             "answer": 2,
                             "choiceAnalysis": [
-                                "❌ stop using social media＝SNSをやめる。check that the information comes from experts（情報源を確認）する提案であり、使用停止ではない",
-                                "✅ use information from experts in the field of mental health＝専門家による情報を使う。check that the information comes from experts in the field と一致→正解",
-                                "❌ ask experts which information to rely on＝専門家にどれを信じるか尋ねる。情報源を自分で確認すべきという提案",
-                                "❌ rely on information and doctors' opinions equally＝同等に頼る。本文にそのようなバランスの指示は出てこない"
+                                "SNSをやめる。提案は使用停止ではなく情報源の確認",
+                                "専門家による情報を使う。comes from expertsの言い換え→正解。💡",
+                                "どの情報を信じるか専門家に尋ねる。自分で情報源を確認する話",
+                                "SNS情報と医師の意見を同等に扱う。その割合は示されていない"
                             ],
                             "sourceEvidence": [
                                 "they should check that the information comes from experts in the field."
@@ -1528,9 +1636,9 @@
         "focusPoints": [
             {
                 "id": "fp1",
-                "title": "物語の時間経過と結末の表現",
-                "subtitle": "Time Sequence & Story Conclusion",
-                "explanation": "In the end（結局）で物語の結末を示し、A few years later（数年後）で時間の経過を表し、surprised to hear that（～と聞いて驚いた）で感情を述べる物語文パターン。nowhere to be found（どこにも見つからない）で行方不明を表します。",
+                "title": "物語の時間経過と一区切りの表現",
+                "subtitle": "Time Sequence & Interim Conclusion",
+                "explanation": "In the end（結局）で長い捜索の一区切りを示し、A few years later（数年後）でその後の時間の経過を表し、surprised to hear that（～と聞いて驚いた）で感情を述べる物語文パターン。nowhere to be found（どこにも見つからない）で行方不明を表します。",
                 "sourceQuote": "In the end, he had to accept that Leo had gone / A few years later / surprised to hear that",
                 "sourceLocation": "大問3「A Lost Dog」",
                 "examples": [
@@ -1558,11 +1666,11 @@
                 "practiceQuestions": [
                     {
                         "q": "物語の時間的順序を整理してください。",
-                        "a": "犬が走り去る→何時間も探す→ポスター等の努力→結局あきらめる→数年後→母からの電話→故郷へ急ぐ。"
+                        "a": "犬が走り去る→何時間も探す→ポスター等の努力→いなくなったと受け入れる→数年後→母からの電話→故郷へ急ぐ。"
                     },
                     {
                         "q": "'In the end' はどのような場面で使われていますか？",
-                        "a": "長い捜索の末、レオを見つけられず「いなくなった」と受け入れる結末の場面。"
+                        "a": "長い捜索の末、レオを見つけられず「いなくなった」と受け入れる、その時点での結論を示す場面。物語全体はその後も続く。"
                     },
                     {
                         "q": "'nowhere to be found' の意味は？",
@@ -1586,14 +1694,14 @@
                 "id": "fp2",
                 "title": "仕事内容・待遇の説明表現",
                 "subtitle": "Job Description & Benefits",
-                "explanation": "like ～ing（～のような）で仕事例を示し、is not part of the job（仕事に含まれない）で範囲を限定し、be allowed to（～することが許可されている）で待遇を説明する案内文パターン。受動態 will be done で仕事の実施方法を述べます。",
+                "explanation": "like ～ing（～など）で仕事例を示し、is not part of the job（仕事に含まれない）で範囲を限定します。be allowed to（～することが許可されている）や受動態 will be done も、仕事内容・待遇の説明に使われています。",
                 "sourceQuote": "like serving customers / is not part of the job / you are allowed to ski or snowboard / even on the days you don't work",
                 "sourceLocation": "大問4A メール第2〜3段落",
                 "examples": [
                     {
                         "en": "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
                         "ja": "仕事にはギフトショップでの接客やレンタル依頼への対応など、さまざまな役割が含まれる。",
-                        "note": "like + ～ing＝「～のような」例示。includes＝「含む」。"
+                        "note": "like + ～ing＝「～など」の例示。includes＝「含む」。"
                     },
                     {
                         "en": "Working in the cafeteria or hotel is not part of the job.",
@@ -1665,7 +1773,7 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: Social Media for Mental Health]\nWhile some of them go to a doctor for help, others rely on social media and try to improve their mental health with information they find on it. One reason for this is that they may be able to find useful information for free.\nA study of over 1,000 young people showed their positive experiences on social media. For example, more than half of them said that they could feel safe when they were having a hard time, thanks to social media. Also, many of them said that they felt accepted. In other words, they believe they can feel connected to others and get support from them on social media.",
-                    "ja": "医者に頼る人もいれば、ソーシャルメディアの情報で精神的健康を改善しようとする人もいる。その理由の一つは、有用な情報を無料で見つけられることだ。\n1,000人以上の研究がポジティブな経験を示した。半数以上が辛いときに安心感を得られると答え、多くの人が受け入れられたと感じた。つまり、ソーシャルメディアでつながりと支援を得られると信じている。",
+                    "ja": "医者に助けを求める人もいれば、ソーシャルメディアの情報で心の健康を改善しようとする人もいる。その理由の一つは、有用な情報を無料で見つけられることだ。\n1,000人以上の研究がポジティブな経験を示した。半数以上が辛いときに安心感を得られると答え、多くの人が受け入れられたと感じた。つまり、ソーシャルメディアでつながりと支援を得られると信じている。",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
                 "practiceQuestions": [
@@ -1721,13 +1829,13 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: Social Media for Mental Health]\nHowever, one expert says that trying to solve mental health problems through social media is not necessarily good. This is because some information should not be trusted or is not professional. For example, a study was performed to check how much information on social media about a particular mental illness could be trusted. The results showed some of the information was actually wrong. If people use such information to treat their mental illness, it could have a negative impact on them.\nTo avoid these situations, the expert suggests there is something people can do. For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field. That way, social media can truly help mental health, and people can find help from social media.",
-                    "ja": "しかし専門家は、ソーシャルメディアで問題を解決しようとすることは必ずしも良くないと言う。情報が信頼できない、または専門的でないからだ。研究の結果、一部の情報は誤りだった。その情報で治療すると悪影響がある。\nこれを避けるため、専門家はできることがあると示唆する。精神的健康の情報を得る際は、分野の専門家によるものか確認すべきだ。そうすればソーシャルメディアは本当に助けになる。",
+                    "ja": "しかし、ある専門家は、ソーシャルメディアで心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言う。情報の中には信頼すべきでないものや、専門的でないものがあるからだ。例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われた。その結果、一部の情報は実際には誤っていた。そのような情報を精神疾患の治療に使うと、本人に悪影響を及ぼす可能性がある。\nこのような状況を避けるために、人々にできることがあると専門家は述べている。例えば、心の健康についてインターネットで情報を得たいなら、その情報がその分野の専門家から出たものか確認すべきだ。そうすれば、ソーシャルメディアは心の健康に本当に役立ち、人々はそこから助けを得られる。",
                     "audioFile": "audio/practice_pp4.mp3"
                 },
                 "practiceQuestions": [
                     {
                         "q": "'not necessarily good' はどのような意味ですか？",
-                        "a": "「必ずしも良いとは限らない」。断定を避えた専門家の慎重な表現。"
+                        "a": "「必ずしも良いとは限らない」。断定を避けた専門家の慎重な表現。"
                     },
                     {
                         "q": "誤った情報を使うとどうなりますか？",
@@ -1778,7 +1886,7 @@
                 ],
                 "practicePassage": {
                     "en": "[出典: A job at a ski resort]\nYou need to send a message to the ski resort by November 5. Then, you will have an online interview on November 10.\n[出典: Social Media for Mental Health]\nOne reason for this is that they may be able to find useful information for free. However, one expert says that trying to solve mental health problems through social media is not necessarily good. This is because some information should not be trusted or is not professional. For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field.",
-                    "ja": "11月5日までにスキーリゾートにメッセージを送る必要がある。その後、11月10日にオンライン面接がある。\n有用な情報を無料で見つけられることが理由の一つ。しかし専門家は、ソーシャルメディアで解決しようとすることは必ずしも良くないと言う。情報が信頼できないからだ。分野の専門家によるものか確認すべきだ。",
+                    "ja": "11月5日までにスキーリゾートにメッセージを送る必要がある。その後、11月10日にオンライン面接がある。\n理由の一つは、有用な情報を無料で見つけられる可能性があることだ。しかし、ある専門家は、ソーシャルメディアで心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言う。情報の中には信頼すべきでないものや、専門的でないものがあるからだ。例えば、インターネットで心の健康について情報を得たいなら、その情報がその分野の専門家から出たものか確認すべきだ。",
                     "audioFile": "audio/practice_pp5.mp3"
                 },
                 "practiceQuestions": [

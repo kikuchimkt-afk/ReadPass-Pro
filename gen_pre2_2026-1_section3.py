@@ -28,21 +28,25 @@ section3 = {
                 "A few years later, Max was in college and living in another city. One afternoon, he got a call from his mother. She told him that a dog very similar to Leo had appeared and was sitting in front of their house. Max was ( 22 ). He hurried back to his home in his hometown. Max believed Leo had found his way home through smell and memory. When he saw Leo sitting there, Max ran to him, hugged him, and started crying.",
             ],
             "translations": [
-                "マックスはレオという犬を飼っている高校生でした。ある日、いつものように山を散歩していると、レオが突然走り去ってしまいました。マックスは何時間も探しましたが、犬の姿はどこにもありませんでした。マックスは( 21 )。ポスターを作り、近所の人に配り、犬の保護施設にも電話しました。それでもレオは行方不明のままでした。結局、レオがいなくなったことを受け入れなければなりませんでした。",
-                "数年後、マックスは大学に通い、別の都市に住んでいました。ある午後、母親から電話がありました。レオにとても似た犬が現れて家の前に座っていると言われました。マックスは( 22 )。故郷の実家に急いで戻りました。マックスは、レオが匂いと記憶で帰ってきたのだと信じました。そこに座っているレオを見て、マックスは走り寄り、抱きしめ、泣き始めました。",
+                "マックスはレオという犬を飼っていた高校生でした。ある日、いつものように山を散歩していると、レオが突然走り去りました。マックスは何時間も探しましたが、犬はどこにも見つかりませんでした。マックスは( 21 )。ポスターを作り、近所の人に配り、犬の保護施設にも電話しました。それでもレオは行方不明のままでした。結局、レオがいなくなったことを受け入れなければなりませんでした。",
+                "数年後、マックスは大学に通い、別の都市に住んでいました。ある午後、母親から電話がありました。レオによく似た犬が現れ、家の前に座っていると言われました。マックスは( 22 )。故郷の家へ急いで戻りました。マックスは、レオがにおいと記憶を頼りに帰り道を見つけたのだと考えました。そこに座っているレオを見ると、マックスは走り寄って抱きしめ、泣き始めました。",
             ],
             "sentencePairs": [
                 [
                     "Max was a high school student who had a dog named Leo.",
-                    "マックスはレオという犬を飼っている高校生でした。",
+                    "マックスはレオという犬を飼っていた高校生でした。",
                 ],
                 [
                     "One day, while they were taking their usual walk in the mountains, Leo suddenly ran off.",
-                    "ある日、いつものように山を散歩していると、レオが突然走り去ってしまいました。",
+                    "ある日、いつものように山を散歩していると、レオが突然走り去りました。",
                 ],
                 [
                     "Max looked for him for hours, but the dog was nowhere to be found.",
-                    "マックスは何時間も探しましたが、犬の姿はどこにもありませんでした。",
+                    "マックスは何時間も探しましたが、犬はどこにも見つかりませんでした。",
+                ],
+                [
+                    "Max ( 21 ).",
+                    "マックスは( 21 )。",
                 ],
                 [
                     "He made posters, gave them to neighbors, and called dog shelters.",
@@ -61,20 +65,28 @@ section3 = {
                     "数年後、マックスは大学に通い、別の都市に住んでいました。",
                 ],
                 [
+                    "One afternoon, he got a call from his mother.",
+                    "ある午後、母親から電話がありました。",
+                ],
+                [
                     "She told him that a dog very similar to Leo had appeared and was sitting in front of their house.",
-                    "レオにとても似た犬が現れて家の前に座っていると言われました。",
+                    "レオによく似た犬が現れ、家の前に座っていると言われました。",
+                ],
+                [
+                    "Max was ( 22 ).",
+                    "マックスは( 22 )。",
                 ],
                 [
                     "He hurried back to his home in his hometown.",
-                    "故郷の実家に急いで戻りました。",
+                    "故郷の家へ急いで戻りました。",
                 ],
                 [
                     "Max believed Leo had found his way home through smell and memory.",
-                    "マックスは、レオが匂いと記憶で帰ってきたのだと信じました。",
+                    "マックスは、レオがにおいと記憶を頼りに帰り道を見つけたのだと考えました。",
                 ],
                 [
                     "When he saw Leo sitting there, Max ran to him, hugged him, and started crying.",
-                    "そこに座っているレオを見て、マックスは走り寄り、抱きしめ、泣き始めました。",
+                    "そこに座っているレオを見ると、マックスは走り寄って抱きしめ、泣き始めました。",
                 ],
             ],
             "questions": [
@@ -94,10 +106,10 @@ section3 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ decided to do that all by himself＝一人でやることにした。gave them to neighbors, and called dog shelters（近所に配り、保護施設に電話）とあり、一人だけではない",
-                        "❌ gave up on seeing the dog again＝もう会えないとあきらめた。In the end, he had to accept that Leo had gone（結局受け入れた）はその後の話で、空所の直後はまだ努力の描写",
-                        "❌ found the dog a few days later＝数日後に見つけた。直後はポスター作成などの捜索活動。Still, Leo was missing（まだ行方不明）とも合わない",
-                        "✅ did everything that he could＝できる限りのことをした。He made posters, gave them to neighbors, and called dog shelters（ポスター・近所・保護施設）を総括→正解",
+                        "一人で行った。neighborsやdog sheltersにも協力を求めている",
+                        "再会をあきらめた。空所直後では捜索を続けている",
+                        "数日後に見つけた。Still, Leo was missingと反対",
+                        "できる限りのことをした。ポスター作成などをまとめる文→正解。💡",
                     ],
                     "sourceEvidence": [
                         "He made posters, gave them to neighbors, and called dog shelters.",
@@ -121,10 +133,10 @@ section3 = {
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ surprised to hear that＝それを聞いて驚いた。a dog very similar to Leo had appeared（レオに似た犬が現れた）という予想外の知らせ。He hurried back（急いで戻った）と一致→正解",
-                        "❌ sure it was a different dog＝別の犬だと確信。He hurried back to his home（故郷へ急ぎ）・hugged him, and started crying（抱きしめて泣いた）と矛盾",
-                        "❌ angry at his mother's news＝母親の知らせに怒った。ran to him, hugged him（走り寄り抱きしめた）再会の喜びの場面と矛盾",
-                        "❌ sad to leave the city＝街を離れるのが悲しい。living in another city から hometown へ戻る話で、街を離れる悲しみとは無関係",
+                        "知らせを聞いて驚いた。似た犬の出現を聞き、すぐ故郷へ戻る→正解。💡",
+                        "別の犬だと確信した。再会して抱きしめる結末と合わない",
+                        "母の知らせに怒った。再会を喜んで泣く場面と合わない",
+                        "街を離れるのが悲しかった。急いで戻る理由にならない",
                     ],
                     "sourceEvidence": [
                         "a dog very similar to Leo had appeared and was sitting in front of their house.",
@@ -136,16 +148,6 @@ section3 = {
         }
     ],
 }
-
-for pa in section3["passages"]:
-    for q in pa["questions"]:
-        marked = []
-        for i, t in enumerate(q["choiceAnalysis"]):
-            if t.startswith(("✅", "❌")):
-                marked.append(t)
-            else:
-                marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
-        q["choiceAnalysis"] = marked
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

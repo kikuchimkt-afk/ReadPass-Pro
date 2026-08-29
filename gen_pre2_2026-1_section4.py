@@ -37,46 +37,31 @@ section4 = {
             ],
             "translations": [
                 "ジェイコブへ、お元気ですか？この冬、私はスキーリゾートでアルバイトをします。短期間スタッフとして働く間、そこに滞在します。この機会に興味があるかもしれないと思いました。そうなら、下の情報を確認してください。11月5日までにスキーリゾートにメッセージを送る必要があります。その後、11月10日にオンライン面接があります。",
-                "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客やレンタル器材の依頼への対応などです。道路の除雪も含まれます。カフェテリアやホテルでの仕事は含まれません。週5日、約1ヶ月働きます。日中ではなく夕方に行う仕事もあります。残りの時間は自由に過ごせます。",
-                "リゾートでもらえるものについてお伝えします。まず、毎日3食無料です。働かない日でも同様です。また、スキーやスノーボードを無料で楽しめます。自分だけの無料の部屋もあります。ただし、お客が泊まるのと同じホテルではありません。質問があれば面接で聞けます。ありがとう、ブレイク・ジョーンズ",
+                "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客や、器材を借りたいという依頼への対応などです。道路の除雪も含まれます。カフェテリアやホテルでの仕事は含まれません。約1か月、週5日働きます。日中ではなく夕方に行う仕事もあります。週の残りは自由に過ごせます。",
+                "スキーリゾートで受けられるものについてもお伝えします。まず、働かない日も含め、毎日3食の無料の食事が出ます。また、そこでスキーやスノーボードを無料で楽しめます。さらに、自分だけの無料の部屋があります。ただし、お客が泊まるホテルと同じホテルではありません。質問があれば面接で尋ねられます。ありがとう、ブレイク・ジョーンズ",
             ],
             "sentencePairs": [
-                [
-                    "You need to send a message to the ski resort by November 5.",
-                    "11月5日までにスキーリゾートにメッセージを送る必要があります。",
-                ],
-                [
-                    "Then, you will have an online interview on November 10.",
-                    "その後、11月10日にオンライン面接があります。",
-                ],
-                [
-                    "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
-                    "仕事にはギフトショップでの接客やレンタル器材の依頼への対応など、リゾートでのさまざまな役割が含まれます。",
-                ],
-                [
-                    "Working in the cafeteria or hotel is not part of the job.",
-                    "カフェテリアやホテルでの仕事は含まれません。",
-                ],
-                [
-                    "Some work will be done in the evenings instead of during the day.",
-                    "日中ではなく夕方に行う仕事もあります。",
-                ],
-                [
-                    "First, three free meals are served every day, even on the days you don't work.",
-                    "毎日3食無料です。働かない日でも同様です。",
-                ],
-                [
-                    "Also, you are allowed to ski or snowboard there for free.",
-                    "スキーやスノーボードを無料で楽しめます。",
-                ],
-                [
-                    "And you will have a free room just for yourself.",
-                    "自分だけの無料の部屋もあります。",
-                ],
-                [
-                    "However, it is not in the same hotel where the customers stay.",
-                    "お客が泊まるのと同じホテルではありません。",
-                ],
+                ["Dear Jacob,", "ジェイコブへ、"],
+                ["How are you doing?", "お元気ですか？"],
+                ["This winter, I'm going to work a part-time job at a ski resort.", "この冬、私はスキーリゾートでアルバイトをします。"],
+                ["I'll stay there while I work as a staff member for a short time.", "短期間スタッフとして働く間、そこに滞在します。"],
+                ["I thought you might be interested in this opportunity.", "この機会に興味があるかもしれないと思いました。"],
+                ["If so, please check the information below.", "そうなら、下の情報を確認してください。"],
+                ["You need to send a message to the ski resort by November 5.", "11月5日までにスキーリゾートにメッセージを送る必要があります。"],
+                ["Then, you will have an online interview on November 10.", "その後、11月10日にオンライン面接があります。"],
+                ["The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.", "仕事にはリゾートでのさまざまな役割が含まれます。ギフトショップでの接客や、器材を借りたいという依頼への対応などです。"],
+                ["It also includes clearing snow from the streets.", "道路の除雪も含まれます。"],
+                ["Working in the cafeteria or hotel is not part of the job.", "カフェテリアやホテルでの仕事は含まれません。"],
+                ["You will be working five days a week for about one month.", "約1か月、週5日働きます。"],
+                ["Some work will be done in the evenings instead of during the day.", "日中ではなく夕方に行う仕事もあります。"],
+                ["The rest of the week will be spent freely.", "週の残りは自由に過ごせます。"],
+                ["I should tell you about what you will receive at the ski resort.", "スキーリゾートで受けられるものについてもお伝えします。"],
+                ["First, three free meals are served every day, even on the days you don't work.", "まず、働かない日も含め、毎日3食の無料の食事が出ます。"],
+                ["Also, you are allowed to ski or snowboard there for free.", "また、そこでスキーやスノーボードを無料で楽しめます。"],
+                ["And you will have a free room just for yourself.", "さらに、自分だけの無料の部屋があります。"],
+                ["However, it is not in the same hotel where the customers stay.", "ただし、お客が泊まるホテルと同じホテルではありません。"],
+                ["If you have any questions, you can ask during the interview.", "質問があれば面接で尋ねられます。"],
+                ["Thank you, Blake Jones", "ありがとう、ブレイク・ジョーンズ"],
             ],
             "questions": [
                 {
@@ -97,10 +82,10 @@ section4 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ make a phone call to the ski resort＝電話する。You need to send a message to the ski resort（メッセージを送る）と異なる",
-                        "❌ tell Blake Jones by November 10＝ブレイクに11月10日まで。online interview on November 10（面接の日）であり、連絡期限は11月5日",
-                        "✅ contact the ski resort by November 5＝11月5日までに連絡。You need to send a message to the ski resort by November 5 と一致→正解",
-                        "❌ have experience working at a ski resort＝勤務経験。本文に experience の要件の記載は出てこない",
+                        "電話する。本文はsend a messageとしている",
+                        "11月10日までにBlakeへ伝える。11月10日は面接日である",
+                        "11月5日までにリゾートへ連絡する。send a messageの言い換え→正解。💡",
+                        "勤務経験が必要。本文にその条件はない",
                     ],
                     "sourceEvidence": [
                         "You need to send a message to the ski resort by November 5.",
@@ -126,13 +111,13 @@ section4 = {
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ cleaning rooms at the hotel＝ホテルの部屋掃除。Working in the cafeteria or hotel is not part of the job（ホテルでの仕事は含まれない）と矛盾",
-                        "❌ working at night five days a week＝週5日夜勤。Some work will be done in the evenings（一部が夕方）であり、週5日すべての夜勤ではない",
-                        "❌ serving customers in the cafeteria＝カフェテリアの接客。Working in the cafeteria or hotel is not part of the job と明記",
-                        "✅ helping people who rent items＝レンタル品の手伝い。handling requests to rent equipment（レンタル依頼に対応）と一致→正解",
+                        "ホテルの部屋を掃除する。hotelの仕事は含まれない",
+                        "週5日すべて夜勤。一部がeveningsという記述を広げすぎ",
+                        "カフェテリアで接客する。cafeteriaの仕事は含まれない",
+                        "レンタルする人を手伝う。handling requests to rent equipmentの言い換え→正解。💡",
                     ],
                     "sourceEvidence": [
-                        "handling requests to rent equipment",
+                        "The job includes many different roles at the resort, like serving customers in the gift shop and handling requests to rent equipment.",
                         "Working in the cafeteria or hotel is not part of the job.",
                     ],
                     "grammar": "💡 handle requests to rent equipment＝レンタル依頼に対応する。not part of the job＝仕事に含まれない。",
@@ -148,17 +133,17 @@ section4 = {
                         "stay in the same hotel as the customers.",
                     ],
                     "choiceTranslations": [
-                        "いつでも3食無料で食べられる。",
+                        "どの日でも3食無料で食べられる。",
                         "スキーは無料だがスノーボードはできない。",
                         "友人と相部屋で寝られる。",
                         "お客と同じホテルに泊まれる。",
                     ],
                     "answer": 1,
                     "choiceAnalysis": [
-                        "✅ have three meals for free on any day＝いつでも3食無料。three free meals are served every day, even on the days you don't work と一致→正解",
-                        "❌ ski there without paying but cannot snowboard＝スノーボード不可。you are allowed to ski or snowboard there for free（両方無料）",
-                        "❌ sleep in a room shared with his friend＝友人と相部屋。a free room just for yourself（自分だけの部屋）",
-                        "❌ stay in the same hotel as the customers＝お客と同じホテル。it is not in the same hotel where the customers stay と矛盾",
+                        "どの日でも3食無料。働かない日も毎日提供される→正解。💡",
+                        "スノーボードは不可。本文ではski or snowboardの両方が無料",
+                        "友人と相部屋。just for yourselfと反対",
+                        "お客と同じホテル。not in the same hotelと反対",
                     ],
                     "sourceEvidence": [
                         "three free meals are served every day, even on the days you don't work.",
@@ -178,40 +163,31 @@ section4 = {
                 "In this way, there are times when social media can work in a negative way. To avoid these situations, the expert suggests there is something people can do. For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field. That way, social media can truly help mental health, and people can find help from social media.",
             ],
             "translations": [
-                "今日、人々はソーシャルメディアの悪影響についてよく話します。しかし、ソーシャルメディアは精神的健康に良い影響を与えることができます。実際、精神的健康の問題を抱える多くの人にとって役立つようです。医者の助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で精神的健康を改善しようとする人もいます。その理由の一つは、有用な情報を無料で見つけられる可能性があることです。",
-                "1,000人以上の若者を対象とした研究が、ソーシャルメディアでのポジティブな経験を示しました。研究の間、彼らはソーシャルメディアについての良い点をいくつか共有しました。例えば、半数以上が、辛いときにソーシャルメディアのおかげで安心感を得られると答えました。また多くの人が受け入れられたと感じたと言いました。つまり、ソーシャルメディアで他者とつながり、支援を得られると信じているのです。",
-                "しかし、ある専門家は、ソーシャルメディアで精神的健康の問題を解決しようとすることは必ずしも良いことではないと言います。一部の情報は信頼すべきではない、または専門的ではないからです。例えば、特定の精神疾患についてソーシャルメディア上の情報がどれだけ信頼できるかを調べる研究が行われました。結果、一部の情報は実際に誤りであることがわかりました。そのような情報で治療すると、悪影響を及ぼす可能性があります。",
-                "このように、ソーシャルメディアがネガティブに働く場合もあります。これを避けるため、専門家は人々にできることがあると示唆しています。例えば、精神的健康についてインターネットで情報を得たい場合、その情報がその分野の専門家によるものか確認すべきだと。そうすれば、ソーシャルメディアは本当に精神的健康の助けになり、人々はソーシャルメディアから助けを見つけられるのです。",
+                "今日、人々はソーシャルメディアの悪影響についてよく話します。しかし、ソーシャルメディアは心の健康に良い影響を与えることもできます。実際、心の健康に問題を抱える多くの人に役立つようです。医者に助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で心の健康を改善しようとする人もいます。その理由の一つは、役立つ情報を無料で見つけられる可能性があることです。",
+                "1,000人を超える若者を対象とした研究は、彼らがソーシャルメディアで得た良い経験を示しました。研究中、若者たちはソーシャルメディアの良い点をいくつか挙げました。例えば、半数を超える人が、つらい時にソーシャルメディアのおかげで安心できたと答えました。また、多くの人が受け入れられていると感じたと答えました。言い換えると、ソーシャルメディア上で他者とのつながりを感じ、支援を得られると考えているのです。",
+                "しかし、ある専門家は、ソーシャルメディアを通じて心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言います。情報の中には、信頼すべきでないものや、専門的でないものがあるからです。例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われました。その結果、一部の情報は実際には間違っていました。そのような情報を使って精神疾患を治療すると、本人に悪影響を及ぼす可能性があります。",
+                "このように、ソーシャルメディアが悪い方向に働く場合もあります。こうした状況を避けるために、人々にできることがあると専門家は述べています。例えば、心の健康についてインターネットで情報を得るなら、その情報がその分野の専門家から出たものか確認すべきです。そうすれば、ソーシャルメディアは本当に心の健康に役立ち、人々はそこから助けを得られます。",
             ],
             "sentencePairs": [
-                [
-                    "However, social media can positively influence mental health.",
-                    "ソーシャルメディアは精神的健康に良い影響を与えることができます。",
-                ],
-                [
-                    "One reason for this is that they may be able to find useful information for free.",
-                    "有用な情報を無料で見つけられる可能性があることです。",
-                ],
-                [
-                    "For example, more than half of them said that they could feel safe when they were having a hard time, thanks to social media.",
-                    "半数以上が、辛いときにソーシャルメディアのおかげで安心感を得られると答えました。",
-                ],
-                [
-                    "In other words, they believe they can feel connected to others and get support from them on social media.",
-                    "ソーシャルメディアで他者とつながり、支援を得られると信じているのです。",
-                ],
-                [
-                    "However, one expert says that trying to solve mental health problems through social media is not necessarily good.",
-                    "ソーシャルメディアで精神的健康の問題を解決しようとすることは必ずしも良いことではないと言います。",
-                ],
-                [
-                    "The results showed some of the information was actually wrong.",
-                    "一部の情報は実際に誤りであることがわかりました。",
-                ],
-                [
-                    "For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field.",
-                    "精神的健康についてインターネットで情報を得たい場合、その情報がその分野の専門家によるものか確認すべきです。",
-                ],
+                ["Today, people often talk about the negative effects of social media.", "今日、人々はソーシャルメディアの悪影響についてよく話します。"],
+                ["However, social media can positively influence mental health.", "しかし、ソーシャルメディアは心の健康に良い影響を与えることもできます。"],
+                ["In fact, it seems to be helpful for many people with mental health problems.", "実際、心の健康に問題を抱える多くの人に役立つようです。"],
+                ["While some of them go to a doctor for help, others rely on social media and try to improve their mental health with information they find on it.", "医者に助けを求める人もいれば、ソーシャルメディアに頼り、そこで見つけた情報で心の健康を改善しようとする人もいます。"],
+                ["One reason for this is that they may be able to find useful information for free.", "その理由の一つは、役立つ情報を無料で見つけられる可能性があることです。"],
+                ["A study of over 1,000 young people showed their positive experiences on social media.", "1,000人を超える若者を対象とした研究は、彼らがソーシャルメディアで得た良い経験を示しました。"],
+                ["During the study, they shared several good things about social media.", "研究中、若者たちはソーシャルメディアの良い点をいくつか挙げました。"],
+                ["For example, more than half of them said that they could feel safe when they were having a hard time, thanks to social media.", "例えば、半数を超える人が、つらい時にソーシャルメディアのおかげで安心できたと答えました。"],
+                ["Also, many of them said that they felt accepted.", "また、多くの人が受け入れられていると感じたと答えました。"],
+                ["In other words, they believe they can feel connected to others and get support from them on social media.", "言い換えると、ソーシャルメディア上で他者とのつながりを感じ、支援を得られると考えているのです。"],
+                ["However, one expert says that trying to solve mental health problems through social media is not necessarily good.", "しかし、ある専門家は、ソーシャルメディアを通じて心の健康の問題を解決しようとすることが必ずしも良いとは限らないと言います。"],
+                ["This is because some information should not be trusted or is not professional.", "情報の中には、信頼すべきでないものや、専門的でないものがあるからです。"],
+                ["For example, a study was performed to check how much information on social media about a particular mental illness could be trusted.", "例えば、特定の精神疾患に関するソーシャルメディア上の情報がどの程度信頼できるかを調べる研究が行われました。"],
+                ["The results showed some of the information was actually wrong.", "その結果、一部の情報は実際には間違っていました。"],
+                ["If people use such information to treat their mental illness, it could have a negative impact on them.", "そのような情報を使って精神疾患を治療すると、本人に悪影響を及ぼす可能性があります。"],
+                ["In this way, there are times when social media can work in a negative way.", "このように、ソーシャルメディアが悪い方向に働く場合もあります。"],
+                ["To avoid these situations, the expert suggests there is something people can do.", "こうした状況を避けるために、人々にできることがあると専門家は述べています。"],
+                ["For example, if people want to use the Internet to get information about mental health, they should check that the information comes from experts in the field.", "例えば、心の健康についてインターネットで情報を得るなら、その情報がその分野の専門家から出たものか確認すべきです。"],
+                ["That way, social media can truly help mental health, and people can find help from social media.", "そうすれば、ソーシャルメディアは本当に心の健康に役立ち、人々はそこから助けを得られます。"],
             ],
             "questions": [
                 {
@@ -225,17 +201,17 @@ section4 = {
                         "they find free, useful advice to improve their mental health.",
                     ],
                     "choiceTranslations": [
-                        "ヘルスケアの有用な情報を得られる唯一の場所だから。",
-                        "見たい医者を選ぶ最も簡単な方法だから。",
+                        "医療について役立つ情報を得られる唯一の場所だから。",
+                        "診てもらいたい医者を選ぶ最も簡単な方法だから。",
                         "親のアドバイスに従い、それを活用するから。",
                         "精神的健康を改善する無料で有用な助言を見つけられるから。",
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ the only place to get helpful information＝唯一の場所。While some of them go to a doctor for help（医者の助けもある）とあり、唯一ではない",
-                        "❌ the easiest way to choose the doctors＝医者を選ぶ方法。rely on social media and try to improve their mental health with information（SNS上の情報）が論点",
-                        "❌ they follow their parents' advice＝親のアドバイス。本文に parents の言及は出てこない",
-                        "✅ they find free, useful advice to improve their mental health＝無料で有用な助言。find useful information for free（無料で有用な情報）と一致→正解",
+                        "唯一の情報源。医者に助けを求める人もいるためonlyは誤り",
+                        "医者を選ぶ方法。本文はSNS上の情報利用について述べる",
+                        "親の助言に従う。parentsは本文に出てこない",
+                        "無料で役立つ助言を得る。find useful information for freeの言い換え→正解。💡",
                     ],
                     "sourceEvidence": [
                         "they may be able to find useful information for free.",
@@ -254,17 +230,17 @@ section4 = {
                         "Social media helps many young people feel better during tough times.",
                     ],
                     "choiceTranslations": [
-                        "半数以上がソーシャルメディアに安心感を与えないと考えている。",
+                        "半数以上が、ソーシャルメディアは安心感を与えないと考えている。",
                         "半数以上がメンタルサポートのためにソーシャルメディアを使わない。",
-                        "ソーシャルメディアはすべての若者を常につながった気にさせる。",
-                        "ソーシャルメディアは多くの若者が辛い時期を乗り越える助けになる。",
+                        "ソーシャルメディアはすべての若者に、常に人とつながっていると感じさせる。",
+                        "ソーシャルメディアは多くの若者がつらい時に気持ちが楽になる助けとなる。",
                     ],
                     "answer": 4,
                     "choiceAnalysis": [
-                        "❌ do not think social media gives a sense of safety＝安心感を与えない。more than half said they could feel safe when they were having a hard time（半数以上が安心感）と正反対",
-                        "❌ do not use social media to find mental support＝使わない。their positive experiences on social media（ポジティブな経験）と矛盾",
-                        "❌ makes every young person feel connected all the time＝すべての若者が常に。many of them said that they felt accepted（多くの人が）と、every/all the time は極端",
-                        "✅ helps many young people feel better during tough times＝辛い時期の助け。feel safe when having a hard time, feel accepted, feel connected と総合→正解",
+                        "安心感を与えない。半数超がfeel safeと答えた記述と反対",
+                        "支援を求めるために使わない。肯定的な経験の報告と合わない",
+                        "全員が常につながる。manyをevery/all the timeへ広げすぎ",
+                        "つらい時に多くの若者を助ける。feel safeやget supportを要約→正解。💡",
                     ],
                     "sourceEvidence": [
                         "more than half of them said that they could feel safe when they were having a hard time, thanks to social media.",
@@ -290,10 +266,10 @@ section4 = {
                     ],
                     "answer": 3,
                     "choiceAnalysis": [
-                        "❌ not much wrong information has been found＝誤情報は少ない。some of the information was actually wrong（実際に誤り）と矛盾",
-                        "❌ most information can be trusted because it comes from doctors＝医者によるので信頼できる。some information should not be trusted or is not professional（信頼すべきでない）と矛盾",
-                        "✅ it is not always a good idea to trust any information on social media＝すべて信じるのは良くない。not necessarily good, should not be trusted と一致→正解",
-                        "❌ information will be fully replaced with doctors' advice＝医者のアドバイスに完全置換。本文にそのような予測の記述はない",
+                        "誤情報は少ない。量の少なさは示されていない",
+                        "大半は医者の情報。専門的でない情報もあると述べる",
+                        "どんな情報でも信じるのはよくない。not necessarily goodと一致→正解。💡",
+                        "医者の助言に完全に置換される。その予測は本文にない",
                     ],
                     "sourceEvidence": [
                         "trying to solve mental health problems through social media is not necessarily good.",
@@ -315,14 +291,14 @@ section4 = {
                         "医者に頼る習慣を身につけ、ソーシャルメディアの使用をやめるべきだ。",
                         "精神的健康の分野の専門家による情報を使うべきだ。",
                         "ソーシャルメディアのどの情報を信じるか専門家に尋ねるべきだ。",
-                        "ソーシャルメディアの情報と医者の意見を同等に頼るべきだ。",
+                        "ソーシャルメディアの情報と医者の意見に同じように頼るべきだ。",
                     ],
                     "answer": 2,
                     "choiceAnalysis": [
-                        "❌ stop using social media＝SNSをやめる。check that the information comes from experts（情報源を確認）する提案であり、使用停止ではない",
-                        "✅ use information from experts in the field of mental health＝専門家による情報を使う。check that the information comes from experts in the field と一致→正解",
-                        "❌ ask experts which information to rely on＝専門家にどれを信じるか尋ねる。情報源を自分で確認すべきという提案",
-                        "❌ rely on information and doctors' opinions equally＝同等に頼る。本文にそのようなバランスの指示は出てこない",
+                        "SNSをやめる。提案は使用停止ではなく情報源の確認",
+                        "専門家による情報を使う。comes from expertsの言い換え→正解。💡",
+                        "どの情報を信じるか専門家に尋ねる。自分で情報源を確認する話",
+                        "SNS情報と医師の意見を同等に扱う。その割合は示されていない",
                     ],
                     "sourceEvidence": [
                         "they should check that the information comes from experts in the field.",
@@ -333,16 +309,6 @@ section4 = {
         },
     ],
 }
-
-for pa in section4["passages"]:
-    for q in pa["questions"]:
-        marked = []
-        for i, t in enumerate(q["choiceAnalysis"]):
-            if t.startswith(("✅", "❌")):
-                marked.append(t)
-            else:
-                marked.append(("✅ " if i + 1 == q["answer"] else "❌ ") + t)
-        q["choiceAnalysis"] = marked
 
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)

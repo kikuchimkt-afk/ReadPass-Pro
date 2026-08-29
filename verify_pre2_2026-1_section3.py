@@ -1,42 +1,61 @@
 # -*- coding: utf-8 -*-
+"""2026-1-sat 準2級 大問3の原文・全文対訳・根拠を検証。"""
 import json
-import os
+import re
 import sys
+from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-path = os.path.join("data", "grade-pre2", "2026-1-sat", "data.json")
-d = json.load(open(path, encoding="utf-8"))
-assert len(d["sections"]) >= 3, f"expected >=3 sections, got {len(d['sections'])}"
+data_path = Path(__file__).resolve().parent / "data" / "grade-pre2" / "2026-1-sat" / "data.json"
+data = json.loads(data_path.read_text(encoding="utf-8"))
+section = data["sections"][2]
+errors = []
 
-s = d["sections"][2]
-errs = []
-if s["type"] != "passage-fill":
-    errs.append("wrong type")
-if s["name"] != "大問3":
-    errs.append("wrong name")
+if (section.get("name"), section.get("type")) != ("大問3", "passage-fill"):
+    errors.append("section name/type mismatch")
+if len(section.get("passages", [])) != 1:
+    errors.append("passage count != 1")
 
-p = s["passages"][0]
-expected = [4, 1]
-for q, a in zip(p["questions"], expected):
+passage = section["passages"][0]
+if passage.get("title") != "A Lost Dog":
+    errors.append("title mismatch")
+if len(passage.get("paragraphs", [])) != 2 or len(passage.get("translations", [])) != 2:
+    errors.append("paragraph/translation count != 2")
+pairs = passage.get("sentencePairs", [])
+if len(pairs) != 14:
+    errors.append(f"sentencePairs={len(pairs)} != 14")
+compact = lambda text: re.sub(r"\s+", "", text)
+if compact(" ".join(x[0] for x in pairs)) != compact(" ".join(passage["paragraphs"])):
+    errors.append("English sentencePairs are not full ordered coverage")
+if compact(" ".join(x[1] for x in pairs)) != compact(" ".join(passage["translations"])):
+    errors.append("Japanese sentencePairs are not full ordered coverage")
+
+corpus = " ".join(passage["paragraphs"])
+official = {21: 4, 22: 1}
+if [q.get("number") for q in passage.get("questions", [])] != [21, 22]:
+    errors.append("question numbers must be 21,22")
+for q in passage.get("questions", []):
     n = q["number"]
-    if q["answer"] != a:
-        errs.append(f"Q{n} answer {q['answer']} != {a}")
-    for k in ["choices", "choiceTranslations", "choiceAnalysis", "grammar", "sourceEvidence"]:
-        if k not in q:
-            errs.append(f"Q{n} missing {k}")
-    if not q.get("sourceEvidence"):
-        errs.append(f"Q{n} missing sourceEvidence items")
-    if len(q.get("choiceAnalysis", [])) != 4:
-        errs.append(f"Q{n} analysis count")
+    if q.get("answer") != official[n]:
+        errors.append(f"Q{n}: answer mismatch")
+    if len(q.get("choices", [])) != 4 or len(q.get("choiceTranslations", [])) != 4:
+        errors.append(f"Q{n}: choice fields != 4")
+    analyses = q.get("choiceAnalysis", [])
+    if len(analyses) != 4:
+        errors.append(f"Q{n}: choiceAnalysis != 4")
+    for i, analysis in enumerate(analyses, 1):
+        if analysis.startswith(("✅", "❌", "○")):
+            errors.append(f"Q{n} choice{i}: leading marker forbidden")
+        if ("→正解。💡" in analysis) != (i == official[n]):
+            errors.append(f"Q{n} choice{i}: correct marker mismatch")
+    for evidence in q.get("sourceEvidence", []):
+        if evidence not in corpus:
+            errors.append(f"Q{n}: evidence not in source: {evidence!r}")
+    if not q.get("sourceEvidence") or not q.get("grammar"):
+        errors.append(f"Q{n}: evidence/grammar missing")
 
-for k in ["title", "paragraphs", "translations", "sentencePairs", "questions"]:
-    if k not in p:
-        errs.append(f"passage missing {k}")
-if len(p.get("paragraphs", [])) != 2:
-    errs.append("paragraph count")
-
-print(f"section3 errors={len(errs)}")
-for e in errs:
-    print(e)
-sys.exit(1 if errs else 0)
+print(f"section3 pairs={len(pairs)} errors={len(errors)}")
+for error in errors:
+    print(" ", error)
+sys.exit(1 if errors else 0)
