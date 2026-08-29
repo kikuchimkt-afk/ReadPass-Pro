@@ -1189,7 +1189,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
 
     grade_label = GRADE_LABELS[grade]
     exam_label = exam_display_label(exam)
-    if exam == "2026-1-sat" and grade in {"grade5", "grade4", "grade3"}:
+    if exam == "2026-1-sat" and grade in {"grade5", "grade4", "grade3", "grade-pre2"}:
         exam_label = "2026年度 第1回（土曜準会場）"
     # Keeping Part 1 at four pages or fewer makes every later page number shift
     # deterministically while each grade keeps its own fixed section sequence.
@@ -1498,6 +1498,17 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         pdf.save()
         return
 
+    part2_for_print = part2
+    part2_has_shared_dialogue = False
+    if grade == "grade-pre2":
+        part2_for_print = []
+        for index, question in enumerate(part2):
+            printable_question = dict(question)
+            if index > 0 and clean_text(question.get("text", "")) == clean_text(part2[index - 1].get("text", "")):
+                part2_has_shared_dialogue = True
+                printable_question["text"] = f"(See Q{part2[index - 1].get('number')})"
+            part2_for_print.append(printable_question)
+
     draw_questions_page(
         pdf,
         page_number,
@@ -1506,19 +1517,20 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         exam_label,
         f"大問2  会話文  {question_range_label(part2)}",
         sections[1].get("instruction", ""),
-        part2,
+        part2_for_print,
         "row4" if grade == "grade-pre2" else "grid2",
         compact=(grade == "grade-pre2"),
         question_height_weights=(
             [
                 1.45
-                if index + 1 < len(part2) and clean_text(part2[index + 1].get("text", "")).startswith("(See Q")
+                if index + 1 < len(part2_for_print)
+                and clean_text(part2_for_print[index + 1].get("text", "")).startswith("(See Q")
                 else 0.55
                 if clean_text(question.get("text", "")).startswith("(See Q")
                 else 1.0
-                for index, question in enumerate(part2)
+                for index, question in enumerate(part2_for_print)
             ]
-            if grade == "grade-pre2" and pre2_fill_count == 2
+            if grade == "grade-pre2" and (pre2_fill_count == 2 or part2_has_shared_dialogue)
             else None
         ),
     )
