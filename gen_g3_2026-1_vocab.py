@@ -5,6 +5,7 @@ vocabulary（単語カード・単語クイズ）30語
 """
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -70,11 +71,11 @@ vocab.append({
     "pos": "名詞",
     "level": "3級",
     "example": "Jim saw some people buying fresh fish and meat at the market.",
-    "distractors": ["たこ", "彼自身で", "公演"],
+    "distractors": ["たこ", "彼自身", "公演"],
 })
 vocab.append({
     "word": "college",
-    "meaning": "大学・専門学校",
+    "meaning": "大学",
     "pos": "名詞",
     "level": "3級",
     "example": "Meg is a student at a large college. She is studying to be a nurse.",
@@ -86,19 +87,19 @@ vocab.append({
     "pos": "句動詞",
     "level": "3級",
     "example": "I always take care of my little sister when my mother is out.",
-    "distractors": ["〜を待つ", "着る", "屋内で"],
+    "distractors": ["待つ（for＋時間で期間）", "着る", "屋内で"],
 })
 vocab.append({
     "word": "himself",
-    "meaning": "彼自身で",
-    "pos": "代名詞",
+    "meaning": "彼自身（by himself で「彼一人で」）",
+    "pos": "再帰代名詞",
     "level": "3級",
     "example": "No, he did it all by himself.",
     "distractors": ["感じる", "材料", "コメディ"],
 })
 vocab.append({
     "word": "wait for",
-    "meaning": "〜を待つ",
+    "meaning": "待つ（for＋時間で期間）",
     "pos": "句動詞",
     "level": "3級",
     "example": "We'll have to wait for 30 minutes until the next train comes.",
@@ -118,12 +119,12 @@ vocab.append({
     "pos": "句動詞",
     "level": "3級",
     "example": "They looked around downtown, but everything was too small.",
-    "distractors": ["〜を待つ", "ウェブサイト", "アイススケート"],
+    "distractors": ["待つ（for＋時間で期間）", "ウェブサイト", "アイススケート"],
 })
 vocab.append({
     "word": "painted",
     "meaning": "描かれた",
-    "pos": "動詞",
+    "pos": "過去分詞",
     "level": "3級",
     "example": "Some of the art in this airport was painted by a famous artist.",
     "distractors": ["教えた", "公演", "渡す"],
@@ -131,7 +132,7 @@ vocab.append({
 vocab.append({
     "word": "taught",
     "meaning": "教えた",
-    "pos": "動詞",
+    "pos": "動詞（過去形）",
     "level": "3級",
     "example": "Dr. Kobayashi taught at a university for many years.",
     "distractors": ["練習した", "疲れた", "〜にあいさつを伝える"],
@@ -139,7 +140,7 @@ vocab.append({
 vocab.append({
     "word": "to practice",
     "meaning": "練習するために",
-    "pos": "不定詞",
+    "pos": "to不定詞",
     "level": "3級",
     "example": "I'm going to the park to practice basketball.",
     "distractors": ["運動する", "着る", "選手"],
@@ -167,7 +168,7 @@ vocab.append({
 })
 vocab.append({
     "word": "wear",
-    "meaning": "着る",
+    "meaning": "身につける（帽子をかぶる）",
     "pos": "動詞",
     "level": "3級",
     "example": "I'm going to wear it today. I have practice at three.",
@@ -187,7 +188,7 @@ vocab.append({
     "pos": "句動詞",
     "level": "3級",
     "example": "Say hello to him for me.",
-    "distractors": ["〜を待つ", "練習するために", "ウェブサイト"],
+    "distractors": ["待つ（for＋時間で期間）", "練習するために", "ウェブサイト"],
 })
 
 # ============================================================
@@ -200,7 +201,7 @@ vocab.append({
     "pos": "名詞",
     "level": "3級",
     "example": "We will prepare all of the ingredients.",
-    "distractors": ["野菜", "公演", "彼自身で"],
+    "distractors": ["野菜", "公演", "彼自身"],
 })
 vocab.append({
     "word": "vegetables",
@@ -234,7 +235,7 @@ vocab.append({
 vocab.append({
     "word": "practiced",
     "meaning": "練習した",
-    "pos": "動詞",
+    "pos": "動詞（過去形）",
     "level": "3級",
     "example": "The drama club practiced a lot, and now the play is finally ready.",
     "distractors": ["教えた", "公演", "着る"],
@@ -286,6 +287,27 @@ vocab.append({
 })
 
 assert len(vocab) == 30, f"Expected 30 words, got {len(vocab)}"
+
+sources = (
+    ["大問1"] * 15
+    + ["大問2"] * 5
+    + ["大問3A"] * 3
+    + ["大問3B"] * 4
+    + ["大問3C"] * 3
+)
+for item, source in zip(vocab, sources):
+    item["source"] = source
+
+
+def safe_slug(word):
+    return re.sub(r"[^a-zA-Z0-9_]", "_", word.lower()).strip("_")
+
+
+# Audio filenames are deterministic.  Keep the references in the content
+# generator so regenerating data.json does not require a separate TTS pass just
+# to restore already-existing paths.
+for index, item in enumerate(vocab, start=1):
+    item["wordAudio"] = f"audio/vocab/w_{index:03d}_{safe_slug(item['word'])}.mp3"
 
 data["vocabulary"] = vocab
 

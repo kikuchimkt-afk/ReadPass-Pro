@@ -35,7 +35,7 @@
                         "lock は「かぎ」。合わないよ。",
                         "university は「だいがく」。合わないよ。"
                     ],
-                    "translation": "A: 来週の日曜日は何をする予定？\nB: 公園に行って、たこを揚げるつもりだよ。",
+                    "translation": "A: 来週の日曜日は何をする予定？\nB: 公園に行って、（　）を揚げるつもりだよ。",
                     "choiceTranslations": [
                         "野原・畑",
                         "たこ",
@@ -67,7 +67,7 @@
                         "waste は「むだにする」。合わないよ。",
                         "○ pass がぴったり！ボールをわたして！"
                     ],
-                    "translation": "A: ボールを渡してもらえますか？\nB: はい、どうぞ。",
+                    "translation": "A: ボールを（　）もらえますか？\nB: はい、どうぞ。",
                     "choiceTranslations": [
                         "想像する",
                         "覚えている",
@@ -99,7 +99,7 @@
                         "colorful は「カラフル」。ねむる理由にならないよ。",
                         "absent は「いない」。合わないよ。"
                     ],
-                    "translation": "その映画はとても退屈だった。ルーシーは映画館で眠ってしまった。",
+                    "translation": "その映画はとても（　）だった。ルーシーは映画館で眠ってしまった。",
                     "choiceTranslations": [
                         "退屈な",
                         "賢い",
@@ -131,7 +131,7 @@
                         "alive は「いきている」。合わないよ。",
                         "○ tired がぴったり！5時間べんきょうしてつかれた！"
                     ],
-                    "translation": "ヨーコは今日疲れている。彼女は昨日5時間英語を勉強した。",
+                    "translation": "ヨーコは今日（　）。彼女は昨日5時間英語を勉強した。",
                     "choiceTranslations": [
                         "悲しい",
                         "明るい",
@@ -163,7 +163,7 @@
                         "wrap は「つつむ」。合わないよ。",
                         "follow は「ついていく」。合わないよ。"
                     ],
-                    "translation": "A: 上手な泳ぎ手になりたい？\nB: もちろん。コーチは毎日3時間運動する必要があると言っている。",
+                    "translation": "A: 泳ぎが上手になりたい？\nB: もちろん。コーチは、毎日3時間（　）必要があると言っているんだ。",
                     "choiceTranslations": [
                         "運動する",
                         "招待する",
@@ -195,7 +195,7 @@
                         "novel は「しょうせつ」。合わないよ。",
                         "○ market がぴったり！いちばでかいもの！"
                     ],
-                    "translation": "ジムは、市場で新鮮な魚や肉を買っている人々を見かけた。",
+                    "translation": "ジムは（　）で、新鮮な魚や肉を買っている人々を見かけた。",
                     "choiceTranslations": [
                         "約束",
                         "いとこ",
@@ -213,12 +213,12 @@
                         "example"
                     ],
                     "answer": 3,
-                    "grammar": "college＝「大学・専門学校」。看護師になるために勉強している学生。",
-                    "grammarSimple": "college は「だいがく・せんもんがっこう」。かんごしになるためにべんきょうしてるよ。",
+                    "grammar": "college＝「大学」。student at a college で「大学の学生」。",
+                    "grammarSimple": "college は「だいがく」。かんごしになるためにべんきょうしてるよ。",
                     "choiceAnalysis": [
                         "mall＝ショッピングモール。看護師の勉強の場としては不自然。",
                         "moon＝月。文脈に合わない。",
-                        "○ college＝大学・専門学校。student at a college が自然。",
+                        "○ college＝大学。student at a college が自然。",
                         "example＝例。student at an example では意味が通らない。"
                     ],
                     "choiceAnalysisSimple": [
@@ -227,11 +227,11 @@
                         "○ college がぴったり！がっこうのせいとだよ！",
                         "example は「れい」。合わないよ。"
                     ],
-                    "translation": "メグは大きな専門学校の学生だ。彼女は看護師になるために勉強している。",
+                    "translation": "メグは大きな（　）の学生だ。彼女は看護師になるために勉強している。",
                     "choiceTranslations": [
                         "ショッピングモール",
                         "月",
-                        "大学・専門学校",
+                        "大学",
                         "例"
                     ]
                 },
@@ -245,7 +245,7 @@
                         "take"
                     ],
                     "answer": 4,
-                    "grammar": "take care of＝「〜の世話をする」。弟妹のお世話をする定番表現。",
+                    "grammar": "take care of＝「〜の世話をする」。妹を世話する場面。",
                     "grammarSimple": "take care of は「せわをする」。おかあさんがいないとき、いもうとのせわをするよ。",
                     "choiceAnalysis": [
                         "make care of→make care of は使わない。",
@@ -259,7 +259,7 @@
                         "pick は合わないよ。",
                         "○ take がぴったり！take care of で「せわをする」！"
                     ],
-                    "translation": "母が外出しているとき、私はいつも妹の世話をしている。彼女は私の話を聞くのが好きだ。",
+                    "translation": "母が外出しているとき、私はいつも妹の（　）。彼女は私の話を聞くのが好きだ。",
                     "choiceTranslations": [
                         "作る",
                         "与える",
@@ -291,7 +291,7 @@
                         "his は合わないよ。",
                         "○ himself がぴったり！ひとりでやった！"
                     ],
-                    "translation": "A: ロジャーは数学の宿題で助けが必要だった？\nB: いいえ、彼は全部一人でやったよ。",
+                    "translation": "A: ロジャーは数学の宿題で助けが必要だった？\nB: いいえ、彼は全部（　）やったよ。",
                     "choiceTranslations": [
                         "彼を",
                         "彼は",
@@ -309,26 +309,26 @@
                         "for"
                     ],
                     "answer": 4,
-                    "grammar": "wait for＝「〜を待つ」。wait for 30 minutes＝30分待つ。",
-                    "grammarSimple": "wait for は「〜をまつ」。つぎの電車まで30ぷんまつつもりだよ。",
+                    "grammar": "for＋時間＝「〜の間」。wait for 30 minutes で「30分間待つ」。",
+                    "grammarSimple": "for 30 minutes は「30ぷんかん」。つぎの電車まで30ぷんまつよ。",
                     "choiceAnalysis": [
                         "into＝〜の中へ。wait into 30 minutes は不自然。",
                         "from＝〜から。wait from では「待つ」の意味にならない。",
                         "at＝〜で。wait at 30 minutes は不自然。",
-                        "○ for＝wait for ～＝〜を待つ。"
+                        "○ for＝時間の長さを表す。for 30 minutes で「30分間」。"
                     ],
                     "choiceAnalysisSimple": [
                         "into は合わないよ。",
                         "from は合わないよ。",
                         "at は合わないよ。",
-                        "○ for がぴったり！wait for で「まつ」！"
+                        "○ for がぴったり！for 30 minutes で「30ぷんかん」！"
                     ],
-                    "translation": "A: ああ、電車が出て行っちゃった！次の電車が来るまで30分待たなきゃ。\nB: 大丈夫。お店で飲み物を買おう。",
+                    "translation": "A: ああ、電車が出てしまった！次の電車が来るまで、30分（　）待たなきゃ。\nB: 大丈夫。お店で飲み物を買おう。",
                     "choiceTranslations": [
                         "〜の中へ",
                         "〜から",
                         "〜で",
-                        "〜を待つ（for）"
+                        "〜の間"
                     ]
                 },
                 {
@@ -355,7 +355,7 @@
                         "○ feel がぴったり！きぶんがいい！",
                         "share は「わけあう」。合わないよ。"
                     ],
-                    "translation": "ニューヨークからの便では眠れなかったが、今朝はずっと気分が良い。昨夜はとてもよく眠れた。",
+                    "translation": "ニューヨークからの便では眠れなかったが、今朝はずっと（　）。昨夜はとてもよく眠れた。",
                     "choiceTranslations": [
                         "覆う",
                         "磨く",
@@ -387,7 +387,7 @@
                         "beside は「となり」。合わないよ。",
                         "○ around がぴったり！あちこちさがした！"
                     ],
-                    "translation": "ジェリーとベティは新しい家を買いたかった。彼らはダウンタウンをあちこち見て回ったが、どれも小さすぎた。町の外にいい家を見つけた。",
+                    "translation": "ジェリーとベティは新しい家を買いたかった。彼らはダウンタウンを（　）見て回ったが、どれも小さすぎた。町の外にいい家を見つけた。",
                     "choiceTranslations": [
                         "離れる（look off）",
                         "外を見る・気をつける",
@@ -419,7 +419,7 @@
                         "○ painted がぴったり！えがかれた！",
                         "paint は文法がちがうよ。"
                     ],
-                    "translation": "この空港にある芸術作品のいくつかは、有名な芸術家によって描かれたものだ。",
+                    "translation": "この空港にある美術作品の一部は、有名な芸術家によって（　）。",
                     "choiceTranslations": [
                         "描いている（分詞）",
                         "描く（三単現）",
@@ -437,21 +437,21 @@
                         "teach"
                     ],
                     "answer": 3,
-                    "grammar": "taught＝「教えた」（teachの過去形）。for many years なので過去形。",
+                    "grammar": "taught＝teach の過去形。後ろの enjoyed と時制をそろえる。",
                     "grammarSimple": "taught は「おしえた」。ながいあいだだいがくでおしえていたよ。",
                     "choiceAnalysis": [
                         "teaching＝was teaching なら「教えていた」だが、空所だけでは不自然。",
                         "to teach＝不定詞。文の述語として主に使えない。",
                         "○ taught＝過去形。長年教えていた。",
-                        "teach＝現在形。for many years とは時制が合わない。"
+                        "teach＝原形。主語 Dr. Kobayashi の過去の述語にはならない。"
                     ],
                     "choiceAnalysisSimple": [
                         "teaching はそのままでは合わないよ。",
                         "to teach は文の動詞にならないよ。",
                         "○ taught がぴったり！ながいあいだおしえた！",
-                        "teach は「いま」になっちゃうよ。"
+                        "teach はこの文のかたちに合わないよ。"
                     ],
-                    "translation": "小林先生は長年大学で教えていた。生徒たちはみんな彼女の授業を楽しんでいた。",
+                    "translation": "小林先生は長年、大学で（　）。学生たちはみんな彼女の授業を楽しんでいた。",
                     "choiceTranslations": [
                         "教えている（分詞）",
                         "教えるために（不定詞）",
@@ -483,7 +483,7 @@
                         "practice はそのままでは合わないよ。",
                         "practices は文法がちがうよ。"
                     ],
-                    "translation": "A: ポール、外出するの？\nB: うん。公園にバスケットボールの練習をしに行くところ。",
+                    "translation": "A: ポール、外出するの？\nB: うん。公園へバスケットボールを（　）行くよ。",
                     "choiceTranslations": [
                         "練習した（過去形）",
                         "練習するために（不定詞）",
@@ -513,7 +513,7 @@
                     "grammarSimple": "I'll help you soon は「すぐてつだうよ」。テレビが10ぷんでおわったらてつだうね。",
                     "choiceAnalysis": [
                         "I've played that before＝「前にやったことがある」。パソコンの使い方を教える依頼への返答にならない。",
-                        "It's my favorite game＝「それが一番好きなゲーム」。妹の質問に答えていない。",
+                        "It's my favorite game＝「それが一番好きなゲーム」。パソコンの使い方を教えてほしいという依頼に答えていない。",
                         "○ I'll help you soon＝「すぐ手伝うよ」。10分後に手伝うという流れと一致。",
                         "It's too easy for you＝「君には簡単すぎる」。文脈に合わず、不自然な返答。"
                     ],
@@ -523,7 +523,7 @@
                         "○「すぐてつだうよ」。10ぷんしたらてつだうね！",
                         "「かんたんすぎる」はへんなこたえだよ。"
                     ],
-                    "translation": "姉：ジム、パソコンの使い方を教えてくれない？\n兄：（　）このテレビ番組はあと10分で終わるよ。",
+                    "translation": "姉／妹：ジム、パソコンの使い方を教えてくれない？\n兄／弟：（　）このテレビ番組はあと10分で終わるよ。",
                     "choiceTranslations": [
                         "前にやったことがあるよ。",
                         "それが一番好きなゲームだよ。",
@@ -606,7 +606,7 @@
                     ],
                     "answer": 1,
                     "grammar": "I have a stomachache＝「お腹が痛い」。go home and rest（家に帰って休みなさい）とつながる。",
-                    "grammarSimple": "I have a stomachache は「おなかがいたい」。おうちにかえってねむるように言われるよ。",
+                    "grammarSimple": "I have a stomachache は「おなかがいたい」。おうちにかえってやすむように言われるよ。",
                     "choiceAnalysis": [
                         "○ I have a stomachache＝「腹痛がある」。練習に行けない理由＋休むよう言われる流れと一致。",
                         "I bought a new bat＝「新しいバットを買った」。練習を休む理由にならない。",
@@ -614,7 +614,7 @@
                         "I arrived on time＝「時間通りに着いた」。練習に行けないという発言と矛盾。"
                     ],
                     "choiceAnalysisSimple": [
-                        "○「おなかがいたい」。れんしゅうにいけないし、ねむれって言われるよ。",
+                        "○「おなかがいたい」。れんしゅうにいけないし、やすむように言われるよ。",
                         "「あたらしいバットをかった」はやすむわけにならないよ。",
                         "「かてるとおもう」はりゆうにならないよ。",
                         "「じかんどおりについた」は「いけない」とちがうよ。"
@@ -640,13 +640,13 @@
                     "grammar": "Say hello to him for me＝「私の代わりにあいさつして」。母の OK, I will.（わかった、するね）と呼応。",
                     "grammarSimple": "Say hello to him for me は「ぼくのかわりにあいさつして」。ママが「わかった、するね」とこたえるよ。",
                     "choiceAnalysis": [
-                        "Have a nice trip＝「良い旅を」。ジョーおじさんは「訪ねてくる」ので旅のあいさつではない。",
+                        "Have a nice trip＝「良い旅を」。この発言は旅行する本人ではなく母に向けられており、母の OK, I will. ともつながらない。",
                         "○ Say hello to him for me＝「私の代わりにあいさつして」。練習で会えない→母が代わりにあいさつ。",
                         "He has just left＝「彼はちょうど出て行った」。訪問予定の話と矛盾。",
                         "I know he doesn't＝「来ないことは知っている」。文脈に合わない。"
                     ],
                     "choiceAnalysisSimple": [
-                        "「良い旅を」はおじさんが「きてくれる」から合わないよ。",
+                        "「良い旅を」はママへのお願いではないので、「わかった、するね」とつながらないよ。",
                         "○「ぼくのかわりにあいさつして」。ママが「わかった、するね」！",
                         "「ちょうどでかけた」ははなしとちがうよ。",
                         "「こないってしってる」は合わないよ。"
@@ -678,6 +678,64 @@
                         "You do not have to bring anything with you. We will prepare all of the ingredients. To join the cooking class, please send an email to cookingclassinfo@sunnybrookfarm12345.com or call us at 555-5555-5555.",
                         "For more information about our vegetables, please check our website.",
                         "Let's cook with fresh vegetables and eat healthy food!"
+                    ],
+                    "translations": [
+                        "無料料理教室",
+                        "サニーブルック農場で楽しい無料の料理教室を開催します。農場の野菜を使っておいしい料理の作り方を学べます。料理が好きな方にぴったりのクラスです。",
+                        "日付：6月15日（土）\n時間：午前10時〜午後0時30分\n場所：サニーブルック農場",
+                        "持ち物は不要です。材料はすべてこちらで用意します。参加申し込みは cookingclassinfo@sunnybrookfarm12345.com へメールを送るか、555-5555-5555 へお電話ください。",
+                        "野菜についての詳しい情報は、ウェブサイトをご覧ください。",
+                        "新鮮な野菜で料理して、健康的な食べ物を食べましょう！"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Free Cooking Class",
+                            "無料料理教室"
+                        ],
+                        [
+                            "There will be a fun and free cooking class at Sunny Brook Farm.",
+                            "サニーブルック農場で、楽しい無料の料理教室を開催します。"
+                        ],
+                        [
+                            "You can learn how to make delicious meals using vegetables from our farm.",
+                            "私たちの農場の野菜を使った、おいしい料理の作り方を学べます。"
+                        ],
+                        [
+                            "This class is perfect for anyone who likes cooking.",
+                            "料理が好きな人にぴったりの教室です。"
+                        ],
+                        [
+                            "Date: Saturday, June 15",
+                            "日付：6月15日（土）"
+                        ],
+                        [
+                            "Time: 10:00 a.m. to 12:30 p.m.",
+                            "時間：午前10時から午後0時30分まで"
+                        ],
+                        [
+                            "Place: Sunny Brook Farm",
+                            "場所：サニーブルック農場"
+                        ],
+                        [
+                            "You do not have to bring anything with you.",
+                            "持ち物は必要ありません。"
+                        ],
+                        [
+                            "We will prepare all of the ingredients.",
+                            "材料はすべてこちらで用意します。"
+                        ],
+                        [
+                            "To join the cooking class, please send an email to cookingclassinfo@sunnybrookfarm12345.com or call us at 555-5555-5555.",
+                            "教室に参加するには、cookingclassinfo@sunnybrookfarm12345.com へメールを送るか、555-5555-5555 へ電話してください。"
+                        ],
+                        [
+                            "For more information about our vegetables, please check our website.",
+                            "私たちの野菜についての詳しい情報は、ウェブサイトを確認してください。"
+                        ],
+                        [
+                            "Let's cook with fresh vegetables and eat healthy food!",
+                            "新鮮な野菜で料理し、健康的な食べ物を食べましょう！"
+                        ]
                     ],
                     "questions": [
                         {
@@ -746,14 +804,6 @@
                                 "ワークショップに行く。"
                             ]
                         }
-                    ],
-                    "translations": [
-                        "無料料理教室",
-                        "サニーブルック農場で楽しい無料の料理教室を開催します。農場の野菜を使っておいしい料理の作り方を学べます。料理が好きな方にぴったりのクラスです。",
-                        "日時：6月15日（土）\n時間：午前10時〜午後12時30分\n場所：サニーブルック農場",
-                        "持ち物は不要です。材料はすべてこちらで用意します。参加申し込みは cookingclassinfo@sunnybrookfarm12345.com へメールを送るか、555-5555-5555 へお電話ください。",
-                        "野菜についての詳しい情報は、ウェブサイトをご覧ください。",
-                        "新鮮な野菜で料理して、健康的な食事を楽しみましょう！"
                     ]
                 },
                 {
@@ -769,7 +819,7 @@
                                 "subject": "Drama club performance"
                             },
                             "body": "Hi Mia,\nI hope you're doing well! I wanted to remind you about my drama club performance next week. I'm so excited! The drama club practiced a lot, and now the play is finally ready. We practiced for two hours every day at school, and I practiced at home every day for an hour, too. I practiced with my dad. I'm still a little nervous, but it will be fine. The performance will be on Friday at 5 p.m. at the local theater. Can you still come? I want you to see the performance! My mom and brother are coming, too, so you can sit together. The drama club will sell snacks and drinks before the play, so my family will arrive at 4:30 p.m. and buy some snacks. I think it will be a lot of fun!\nYour friend,\nEmma",
-                            "translation": "ミアへ\n元気？来週の演劇部の公演のことを思い出させたくて。すごく楽しみ！演劇部はたくさん練習して、やっと劇が完成したよ。学校では毎日2時間練習して、家でも毎日1時間練習した。お父さんと一緒に練習したんだ。まだちょっと緊張するけど大丈夫。公演は金曜の午後5時、地元の劇場だよ。まだ来られる？見に来てほしいな！お母さんと弟も来るから、一緒に座れるよ。演劇部が劇の前にスナックと飲み物を売るから、うちの家族は4:30に着いてスナックを買う予定。すごく楽しみ！\n友だちのエマより"
+                            "translation": "ミアへ\n元気？来週の演劇部の公演のことを、もう一度知らせておこうと思って。すごく楽しみ！演劇部はたくさん練習して、やっと上演の準備が整ったよ。学校では毎日2時間練習して、家でも毎日1時間練習した。お父さんと一緒に練習したんだ。まだ少し緊張しているけど、大丈夫。公演は金曜日の午後5時から、地元の劇場であるよ。まだ来られる？公演を見てほしいな！お母さんと兄か弟も来るから、一緒に座れるよ。演劇部が劇の前にスナックと飲み物を売るから、うちの家族は午後4時30分に着いてスナックを買う予定。すごく楽しいと思う！\n友だちのエマより"
                         },
                         {
                             "meta": {
@@ -779,8 +829,152 @@
                                 "subject": "Sounds fun!"
                             },
                             "body": "Hi Emma,\nI'm doing great! Thanks for reminding me about the performance. Of course, I will go! I'm so excited! You practiced so much, so I am sure it will be very nice. What is the play about? Is it a comedy? I like comedy plays the best! My sister wants to come, too. Can we sit with your family? Also, when do we buy the tickets? Do we buy them in the theater on Friday, or before Friday? I want to buy some snacks, too, so my sister and I will arrive at 4:15 p.m. We will take the bus to the theater, and our mom will drive us home. When will the performance end?\nYour friend,\nMia",
-                            "translation": "エマへ\n元気だよ！公演のことを思い出させてくれてありがとう。もちろん行くよ！すごく楽しみ！たくさん練習したんだから、きっとすばらしい公演だよね。劇は何について？コメディ？コメディが一番好き！妹も来たいって。あなたの家族と一緒に座れる？チケットはいつ買うの？金曜に劇場で買うの？それとも前？私もスナックを買いたいから、妹と一緒に4:15に着く予定。劇場にはバスで行って、帰りはお母さんが車で送ってくれる。公演はいつ終わる？\n友だちのミアより"
+                            "translation": "エマへ\n元気だよ！公演のことを思い出させてくれてありがとう。もちろん行くよ！すごく楽しみ！たくさん練習したから、きっととてもすてきな公演になるね。劇は何についてのお話？コメディー？私はコメディーが一番好き！私の姉か妹も来たがっているよ。エマの家族と一緒に座っていい？それから、チケットはいつ買うの？金曜日に劇場で買うの、それとも金曜日より前？私もスナックを買いたいから、姉か妹と一緒に午後4時15分に着く予定。劇場へはバスで行って、帰りはお母さんが車で送ってくれる。公演はいつ終わるの？\n友だちのミアより"
                         }
+                    ],
+                    "paragraphs": [
+                        "Emma reminds Mia about her drama club performance next Friday at the local theater."
+                    ],
+                    "translations": [
+                        "エマはミアに、来週金曜の地元劇場での演劇部の公演を思い出させる。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Hi Mia,",
+                            "ミアへ"
+                        ],
+                        [
+                            "I hope you're doing well!",
+                            "元気にしているといいな！"
+                        ],
+                        [
+                            "I wanted to remind you about my drama club performance next week.",
+                            "来週の私の演劇部の公演のことを、もう一度知らせておこうと思って。"
+                        ],
+                        [
+                            "I'm so excited!",
+                            "すごく楽しみ！"
+                        ],
+                        [
+                            "The drama club practiced a lot, and now the play is finally ready.",
+                            "演劇部はたくさん練習して、やっと上演の準備が整ったよ。"
+                        ],
+                        [
+                            "We practiced for two hours every day at school, and I practiced at home every day for an hour, too.",
+                            "学校では毎日2時間練習し、家でも毎日1時間練習したよ。"
+                        ],
+                        [
+                            "I practiced with my dad.",
+                            "お父さんと一緒に練習したんだ。"
+                        ],
+                        [
+                            "I'm still a little nervous, but it will be fine.",
+                            "まだ少し緊張しているけど、きっと大丈夫。"
+                        ],
+                        [
+                            "The performance will be on Friday at 5 p.m. at the local theater.",
+                            "公演は金曜日の午後5時から、地元の劇場であるよ。"
+                        ],
+                        [
+                            "Can you still come?",
+                            "まだ来られる？"
+                        ],
+                        [
+                            "I want you to see the performance!",
+                            "公演を見てほしいな！"
+                        ],
+                        [
+                            "My mom and brother are coming, too, so you can sit together.",
+                            "お母さんと兄か弟も来るから、一緒に座れるよ。"
+                        ],
+                        [
+                            "The drama club will sell snacks and drinks before the play, so my family will arrive at 4:30 p.m. and buy some snacks.",
+                            "演劇部が劇の前にスナックと飲み物を売るから、うちの家族は午後4時30分に着いてスナックを買う予定。"
+                        ],
+                        [
+                            "I think it will be a lot of fun!",
+                            "すごく楽しいと思う！"
+                        ],
+                        [
+                            "Your friend,",
+                            "友だちの"
+                        ],
+                        [
+                            "Emma",
+                            "エマより"
+                        ],
+                        [
+                            "Hi Emma,",
+                            "エマへ"
+                        ],
+                        [
+                            "I'm doing great!",
+                            "元気だよ！"
+                        ],
+                        [
+                            "Thanks for reminding me about the performance.",
+                            "公演のことを思い出させてくれてありがとう。"
+                        ],
+                        [
+                            "Of course, I will go!",
+                            "もちろん行くよ！"
+                        ],
+                        [
+                            "I'm so excited!",
+                            "すごく楽しみ！"
+                        ],
+                        [
+                            "You practiced so much, so I am sure it will be very nice.",
+                            "たくさん練習したから、きっととてもすてきな公演になるね。"
+                        ],
+                        [
+                            "What is the play about?",
+                            "劇は何についてのお話？"
+                        ],
+                        [
+                            "Is it a comedy?",
+                            "コメディー？"
+                        ],
+                        [
+                            "I like comedy plays the best!",
+                            "私はコメディーが一番好き！"
+                        ],
+                        [
+                            "My sister wants to come, too.",
+                            "私の姉か妹も来たがっているよ。"
+                        ],
+                        [
+                            "Can we sit with your family?",
+                            "エマの家族と一緒に座っていい？"
+                        ],
+                        [
+                            "Also, when do we buy the tickets?",
+                            "それから、チケットはいつ買うの？"
+                        ],
+                        [
+                            "Do we buy them in the theater on Friday, or before Friday?",
+                            "金曜日に劇場で買うの、それとも金曜日より前？"
+                        ],
+                        [
+                            "I want to buy some snacks, too, so my sister and I will arrive at 4:15 p.m.",
+                            "私もスナックを買いたいから、姉か妹と一緒に午後4時15分に着く予定。"
+                        ],
+                        [
+                            "We will take the bus to the theater, and our mom will drive us home.",
+                            "劇場へはバスで行って、帰りはお母さんが車で送ってくれる。"
+                        ],
+                        [
+                            "When will the performance end?",
+                            "公演はいつ終わるの？"
+                        ],
+                        [
+                            "Your friend,",
+                            "友だちの"
+                        ],
+                        [
+                            "Mia",
+                            "ミアより"
+                        ]
                     ],
                     "questions": [
                         {
@@ -829,24 +1023,24 @@
                             "answer": 4,
                             "sourceEvidence": "My mom and brother are coming, too",
                             "grammar": "Emmaのメールで My mom and brother are coming とある。",
-                            "grammarSimple": "エマのお母さんと弟が来るって書いてあるよ。",
+                            "grammarSimple": "エマのお母さんと兄か弟が来るって書いてあるよ。",
                             "choiceAnalysis": [
                                 "ミアの母→帰りに車で送るだけ。",
-                                "ミアの弟→妹が来る話。",
+                                "ミアの兄弟→メールに出てくるのは姉か妹。",
                                 "エマの父→練習に一緒だったが公演には言及なし。",
-                                "○ エマの弟。"
+                                "○ エマの兄か弟。"
                             ],
                             "choiceAnalysisSimple": [
                                 "ミアのお母さんはかえりの車だよ。",
-                                "ミアの弟じゃなく妹だよ。",
+                                "ミアの兄弟ではなく、姉か妹の話だよ。",
                                 "エマのお父さんは公演に行くとは書いてないよ。",
-                                "○ エマの弟が来る！"
+                                "○ エマの兄か弟が来る！"
                             ],
                             "choiceTranslations": [
                                 "ミアの母。",
-                                "ミアの弟。",
+                                "ミアの兄か弟。",
                                 "エマの父。",
-                                "エマの弟。"
+                                "エマの兄か弟。"
                             ]
                         },
                         {
@@ -882,22 +1076,97 @@
                                 "電車に乗る。"
                             ]
                         }
-                    ],
-                    "translations": [
-                        "エマはミアに、来週金曜の地元劇場での演劇部の公演を思い出させる。"
-                    ],
-                    "paragraphs": [
-                        "Emma reminds Mia about her drama club performance next Friday at the local theater."
                     ]
                 },
                 {
                     "label": "C",
                     "title": "Table Tennis",
+                    "format": "passage",
                     "paragraphs": [
                         "Table tennis is a sport that started in England. In the 1880s, people in England played table tennis instead of tennis when the weather was bad because it was a fun way to stay active indoors. Many people enjoyed the game, and it became very popular. Soon, more people started playing table tennis in England, and then people from other countries started to play it as well.",
                         "In 1926, the first world championships for table tennis were held. Players from different countries, such as Hungary, Germany, and India, went to England and played in the table tennis championships. This tournament spread the sport around the world. From around 1950, countries in Asia started playing table tennis, too. It became popular there.",
                         "Table tennis became popular in many countries because it was easy to start playing. It did not cost a lot of money because it could be played with cheap items. The sport was fun for everyone, and people of all ages could play. There have been many professional table tennis players from Asia, and they have won many medals in the Olympics.",
                         "In 1971, an important moment in table tennis history happened. At one of the table tennis championships in Japan, an American athlete missed his bus and got on the Chinese team's bus instead. A Chinese athlete on the bus gave him a drawing of the mountains in his country. This was a special moment for the players from both countries. Table tennis helped people from many countries to become friends."
+                    ],
+                    "translations": [
+                        "卓球はイングランドで始まったスポーツです。1880年代、イングランドの人々は天気が悪いとき、テニスの代わりに卓球をしました。屋内で体を動かす楽しい方法だったからです。多くの人がこのゲームを楽しみ、卓球はとても人気になりました。やがてイングランドでさらに多くの人が卓球を始め、他の国の人々もプレーするようになりました。",
+                        "1926年、初の卓球世界選手権が開催されました。ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。この大会をきっかけに、卓球は世界中に広まりました。1950年頃から、アジアの国々でも卓球をプレーするようになり、そこでも人気になりました。",
+                        "卓球は始めるのが簡単だったため、多くの国で人気になりました。安い道具でできたので、あまりお金がかかりませんでした。このスポーツは誰にとっても楽しく、あらゆる年齢の人がプレーできました。アジア出身のプロ卓球選手が多く、彼らはオリンピックで多くのメダルを獲得しています。",
+                        "1971年、卓球の歴史における重要な出来事がありました。日本で開催された卓球選手権で、アメリカの選手が自分のバスに乗り遅れ、中国チームのバスに乗りました。バスに乗っていた中国の選手が、彼に自国の山々を描いた絵を贈りました。それは両国の選手にとって特別な瞬間でした。卓球は、多くの国の人々が友好を深めるきっかけになりました。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Table tennis is a sport that started in England.",
+                            "卓球はイングランドで始まったスポーツです。"
+                        ],
+                        [
+                            "In the 1880s, people in England played table tennis instead of tennis when the weather was bad because it was a fun way to stay active indoors.",
+                            "1880年代、イングランドの人々は天気が悪いとき、屋内で体を動かす楽しい方法としてテニスの代わりに卓球をしました。"
+                        ],
+                        [
+                            "Many people enjoyed the game, and it became very popular.",
+                            "多くの人がこのゲームを楽しみ、卓球はとても人気になりました。"
+                        ],
+                        [
+                            "Soon, more people started playing table tennis in England, and then people from other countries started to play it as well.",
+                            "やがてイングランドでさらに多くの人が卓球を始め、他の国の人々もプレーするようになりました。"
+                        ],
+                        [
+                            "In 1926, the first world championships for table tennis were held.",
+                            "1926年、初の卓球世界選手権が開催されました。"
+                        ],
+                        [
+                            "Players from different countries, such as Hungary, Germany, and India, went to England and played in the table tennis championships.",
+                            "ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。"
+                        ],
+                        [
+                            "This tournament spread the sport around the world.",
+                            "この大会をきっかけに、卓球は世界中に広まりました。"
+                        ],
+                        [
+                            "From around 1950, countries in Asia started playing table tennis, too.",
+                            "1950年頃から、アジアの国々でも卓球をプレーするようになりました。"
+                        ],
+                        [
+                            "It became popular there.",
+                            "アジアでも卓球は人気になりました。"
+                        ],
+                        [
+                            "Table tennis became popular in many countries because it was easy to start playing.",
+                            "卓球は始めるのが簡単だったため、多くの国で人気になりました。"
+                        ],
+                        [
+                            "It did not cost a lot of money because it could be played with cheap items.",
+                            "安い道具でプレーできたため、あまりお金がかかりませんでした。"
+                        ],
+                        [
+                            "The sport was fun for everyone, and people of all ages could play.",
+                            "誰にとっても楽しく、あらゆる年齢の人がプレーできました。"
+                        ],
+                        [
+                            "There have been many professional table tennis players from Asia, and they have won many medals in the Olympics.",
+                            "アジア出身のプロ卓球選手が多く、彼らはオリンピックで多くのメダルを獲得しています。"
+                        ],
+                        [
+                            "In 1971, an important moment in table tennis history happened.",
+                            "1971年、卓球の歴史における重要な出来事がありました。"
+                        ],
+                        [
+                            "At one of the table tennis championships in Japan, an American athlete missed his bus and got on the Chinese team's bus instead.",
+                            "日本で開催された卓球選手権で、アメリカの選手が自分のバスに乗り遅れ、中国チームのバスに乗りました。"
+                        ],
+                        [
+                            "A Chinese athlete on the bus gave him a drawing of the mountains in his country.",
+                            "バスに乗っていた中国の選手が、彼に自国の山々を描いた絵を贈りました。"
+                        ],
+                        [
+                            "This was a special moment for the players from both countries.",
+                            "それは両国の選手にとって特別な瞬間でした。"
+                        ],
+                        [
+                            "Table tennis helped people from many countries to become friends.",
+                            "卓球は、多くの国の人々が友好を深めるきっかけになりました。"
+                        ]
                     ],
                     "questions": [
                         {
@@ -913,7 +1182,7 @@
                             "answer": 3,
                             "sourceEvidence": "when the weather was bad because it was a fun way to stay active indoors",
                             "grammar": "天気が悪いとき→屋内で活動的に過ごす（stay active indoors）。",
-                            "grammarSimple": "天気がわるいとき、おくのなかでうんどうしたかったからだよ。",
+                            "grammarSimple": "天気がわるいとき、たてもののなかでからだをうごかしたかったからだよ。",
                             "choiceAnalysis": [
                                 "他国で人気→その後広まった話。",
                                 "唯一のスポーツ→書かれていない。",
@@ -922,8 +1191,8 @@
                             ],
                             "choiceAnalysisSimple": [
                                 "他の国でにんきだったからじゃないよ。",
-                                "いちばんだけのスポーツとは書いてないよ。",
-                                "○ おくのなかでからだをうごかしたかった！",
+                                "イングランドにあるスポーツはそれだけ、とは書いてないよ。",
+                                "○ たてもののなかでからだをうごかしたかった！",
                                 "外の天気はわるかったよ。"
                             ],
                             "choiceTranslations": [
@@ -1023,7 +1292,7 @@
                                 "バスにのりおくれたのはアメリカの選手だよ。",
                                 "山にのぼった話じゃないよ。",
                                 "○ えをあげた！",
-                                "しつだんした話は書いてないよ。"
+                                "指導した話は書いてないよ。"
                             ],
                             "choiceTranslations": [
                                 "バスに乗り遅れた。",
@@ -1065,12 +1334,6 @@
                                 "スポーツの歴史。"
                             ]
                         }
-                    ],
-                    "translations": [
-                        "卓球はイングランドで始まったスポーツです。1880年代、天気が悪いときにテニスの代わりに卓球をして、屋内で活動的に過ごす楽しい方法だったため、イングランドの人々は卓球をしました。多くの人がこのゲームを楽しみ、とても人気になりました。やがてイングランドでより多くの人が卓球を始め、他国の人々もプレイするようになりました。",
-                        "1926年、初の卓球世界選手権が開催されました。ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。この大会がスポーツを世界中に広めました。1950年頃からアジアの国々でも卓球が始まり、そこでも人気になりました。",
-                        "卓球は始めるのが簡単だったため、多くの国で人気になりました。安い道具でできたので、あまりお金がかかりませんでした。このスポーツは誰にとっても楽しく、あらゆる年齢の人がプレイできました。アジアから多くのプロ卓球選手が出て、オリンピックで多くのメダルを獲得しています。",
-                        "1971年、卓球の歴史における重要な出来事がありました。日本で開催された卓球選手権のとき、アメリカの選手がバスに乗り遅れ、代わりに中国チームのバスに乗りました。バスの中の中国の選手が、彼に自分の国の山の絵を贈りました。両国の選手にとって特別な瞬間でした。卓球は多くの国の人々が友だちになるのを助けました。"
                     ]
                 }
             ]
@@ -1143,6 +1406,7 @@
                 "渡す",
                 "疲れた"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_001_kite.mp3"
         },
         {
@@ -1156,6 +1420,7 @@
                 "退屈な",
                 "運動する"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_002_pass.mp3"
         },
         {
@@ -1169,6 +1434,7 @@
                 "市場",
                 "感じる"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_003_boring.mp3"
         },
         {
@@ -1182,6 +1448,7 @@
                 "大学",
                 "描かれた"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_004_tired.mp3"
         },
         {
@@ -1195,6 +1462,7 @@
                 "教えた",
                 "腹痛"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_005_exercise.mp3"
         },
         {
@@ -1205,14 +1473,15 @@
             "example": "Jim saw some people buying fresh fish and meat at the market.",
             "distractors": [
                 "たこ",
-                "彼自身で",
+                "彼自身",
                 "公演"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_006_market.mp3"
         },
         {
             "word": "college",
-            "meaning": "大学・専門学校",
+            "meaning": "大学",
             "pos": "名詞",
             "level": "3級",
             "example": "Meg is a student at a large college. She is studying to be a nurse.",
@@ -1221,6 +1490,7 @@
                 "野菜",
                 "選手"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_007_college.mp3"
         },
         {
@@ -1230,16 +1500,17 @@
             "level": "3級",
             "example": "I always take care of my little sister when my mother is out.",
             "distractors": [
-                "〜を待つ",
+                "待つ（for＋時間で期間）",
                 "着る",
                 "屋内で"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_008_take_care_of.mp3"
         },
         {
             "word": "himself",
-            "meaning": "彼自身で",
-            "pos": "代名詞",
+            "meaning": "彼自身（by himself で「彼一人で」）",
+            "pos": "再帰代名詞",
             "level": "3級",
             "example": "No, he did it all by himself.",
             "distractors": [
@@ -1247,11 +1518,12 @@
                 "材料",
                 "コメディ"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_009_himself.mp3"
         },
         {
             "word": "wait for",
-            "meaning": "〜を待つ",
+            "meaning": "待つ（for＋時間で期間）",
             "pos": "句動詞",
             "level": "3級",
             "example": "We'll have to wait for 30 minutes until the next train comes.",
@@ -1260,6 +1532,7 @@
                 "練習するために",
                 "選手権大会"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_010_wait_for.mp3"
         },
         {
@@ -1273,6 +1546,7 @@
                 "手伝う",
                 "緊張した"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_011_feel.mp3"
         },
         {
@@ -1282,16 +1556,17 @@
             "level": "3級",
             "example": "They looked around downtown, but everything was too small.",
             "distractors": [
-                "〜を待つ",
+                "待つ（for＋時間で期間）",
                 "ウェブサイト",
                 "アイススケート"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_012_look_around.mp3"
         },
         {
             "word": "painted",
             "meaning": "描かれた",
-            "pos": "動詞",
+            "pos": "過去分詞",
             "level": "3級",
             "example": "Some of the art in this airport was painted by a famous artist.",
             "distractors": [
@@ -1299,12 +1574,13 @@
                 "公演",
                 "渡す"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_013_painted.mp3"
         },
         {
             "word": "taught",
             "meaning": "教えた",
-            "pos": "動詞",
+            "pos": "動詞（過去形）",
             "level": "3級",
             "example": "Dr. Kobayashi taught at a university for many years.",
             "distractors": [
@@ -1312,12 +1588,13 @@
                 "疲れた",
                 "〜にあいさつを伝える"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_014_taught.mp3"
         },
         {
             "word": "to practice",
             "meaning": "練習するために",
-            "pos": "不定詞",
+            "pos": "to不定詞",
             "level": "3級",
             "example": "I'm going to the park to practice basketball.",
             "distractors": [
@@ -1325,6 +1602,7 @@
                 "着る",
                 "選手"
             ],
+            "source": "大問1",
             "wordAudio": "audio/vocab/w_015_to_practice.mp3"
         },
         {
@@ -1338,6 +1616,7 @@
                 "市場",
                 "コメディ"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_016_help.mp3"
         },
         {
@@ -1351,11 +1630,12 @@
                 "たこ",
                 "腹痛"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_017_ice_skating.mp3"
         },
         {
             "word": "wear",
-            "meaning": "着る",
+            "meaning": "身につける（帽子をかぶる）",
             "pos": "動詞",
             "level": "3級",
             "example": "I'm going to wear it today. I have practice at three.",
@@ -1364,6 +1644,7 @@
                 "教えた",
                 "屋内で"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_018_wear.mp3"
         },
         {
@@ -1377,6 +1658,7 @@
                 "選手権大会",
                 "野菜"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_019_stomachache.mp3"
         },
         {
@@ -1386,10 +1668,11 @@
             "level": "3級",
             "example": "Say hello to him for me.",
             "distractors": [
-                "〜を待つ",
+                "待つ（for＋時間で期間）",
                 "練習するために",
                 "ウェブサイト"
             ],
+            "source": "大問2",
             "wordAudio": "audio/vocab/w_020_say_hello_to.mp3"
         },
         {
@@ -1401,8 +1684,9 @@
             "distractors": [
                 "野菜",
                 "公演",
-                "彼自身で"
+                "彼自身"
             ],
+            "source": "大問3A",
             "wordAudio": "audio/vocab/w_021_ingredients.mp3"
         },
         {
@@ -1416,6 +1700,7 @@
                 "選手",
                 "退屈な"
             ],
+            "source": "大問3A",
             "wordAudio": "audio/vocab/w_022_vegetables.mp3"
         },
         {
@@ -1429,6 +1714,7 @@
                 "コメディ",
                 "手伝う"
             ],
+            "source": "大問3A",
             "wordAudio": "audio/vocab/w_023_website.mp3"
         },
         {
@@ -1442,12 +1728,13 @@
                 "アイススケート",
                 "大学"
             ],
+            "source": "大問3B",
             "wordAudio": "audio/vocab/w_024_performance.mp3"
         },
         {
             "word": "practiced",
             "meaning": "練習した",
-            "pos": "動詞",
+            "pos": "動詞（過去形）",
             "level": "3級",
             "example": "The drama club practiced a lot, and now the play is finally ready.",
             "distractors": [
@@ -1455,6 +1742,7 @@
                 "公演",
                 "着る"
             ],
+            "source": "大問3B",
             "wordAudio": "audio/vocab/w_025_practiced.mp3"
         },
         {
@@ -1468,6 +1756,7 @@
                 "疲れた",
                 "描かれた"
             ],
+            "source": "大問3B",
             "wordAudio": "audio/vocab/w_026_nervous.mp3"
         },
         {
@@ -1481,6 +1770,7 @@
                 "選手権大会",
                 "たこ"
             ],
+            "source": "大問3B",
             "wordAudio": "audio/vocab/w_027_comedy.mp3"
         },
         {
@@ -1494,6 +1784,7 @@
                 "世話をする",
                 "渡す"
             ],
+            "source": "大問3C",
             "wordAudio": "audio/vocab/w_028_indoors.mp3"
         },
         {
@@ -1507,6 +1798,7 @@
                 "市場",
                 "腹痛"
             ],
+            "source": "大問3C",
             "wordAudio": "audio/vocab/w_029_championships.mp3"
         },
         {
@@ -1520,6 +1812,7 @@
                 "材料",
                 "感じる"
             ],
+            "source": "大問3C",
             "wordAudio": "audio/vocab/w_030_athlete.mp3"
         }
     ],
@@ -1529,8 +1822,8 @@
                 "id": "fp1",
                 "title": "句動詞・前置詞の「セット」で覚える",
                 "subtitle": "Phrasal Verbs & Preposition Collocations",
-                "explanation": "大問1では単語単体ではなく、決まった組み合わせ（コロケーション）で覚えると正解率が上がります。take care of（〜の世話をする）、wait for 30 minutes（〜を30分待つ）、look around downtown（あちこち見て回る）は、空所の前後の語とセットで意味が決まります。by himself（一人で）のように、代名詞＋前置詞の形も頻出です。to practice basketball のように、目的を表す to 不定詞も大問1 Q15 の決め手になります。",
-                "explanationSimple": "たんごひとつじゃなく、セットでおぼえるといいよ。take care of は「せわをする」、wait for は「まつ」、look around は「あちこちみる」。by himself は「ひとりで」。to practice は「れんしゅうするために」だよ。",
+                "explanation": "大問1は、空所の前後をまとまりで読みます。take care of（〜の世話をする）、by himself（一人で）、look around（見て回る）は定型表現です。Q10 の for は時間の長さ、Q15 の to practice は公園へ行く目的を表します。後ろの語まで確認すると、語法と文型を区別できます。",
+                "explanationSimple": "空所の前後をセットで見よう。take care of は「せわをする」、by himself は「ひとりで」。for 30 minutes は「30ぷんかん」、to practice は「れんしゅうするために」だよ。",
                 "sourceQuote": "I always take care of my little sister / We'll have to wait for 30 minutes / They looked around downtown",
                 "sourceLocation": "大問1 (8)(10)(12)",
                 "examples": [
@@ -1544,8 +1837,8 @@
                     {
                         "en": "We'll have to wait for 30 minutes until the next train comes.",
                         "ja": "次の電車が来るまで30分待たなければならない。",
-                        "note": "wait for ～＝「～を待つ」。for の後ろに時間や人が来る。",
-                        "noteSimple": "wait for は「〜をまつ」。for をわすれないで！",
+                        "note": "for＋時間＝「〜の間」。for 30 minutes で待つ時間の長さを表す。",
+                        "noteSimple": "for 30 minutes は「30ぷんかん」。時間の長さを言うよ。",
                         "audio": "audio/fp1_ex2.mp3"
                     },
                     {
@@ -1558,7 +1851,7 @@
                 ],
                 "practicePassage": {
                     "en": "A: Can you pass me the ball, please? — Here you are.\n\nNo, he did it all by himself.\n\nI always take care of my little sister when my mother is out.\n\nWe'll have to wait for 30 minutes until the next one comes.\n\nThey looked around downtown, but everything was too small.\n\nI'm going to the park to practice basketball.",
-                    "ja": "A: ボールを渡してもらえますか？ — はい、どうぞ。\n\nいいえ、彼は全部一人でやったよ。\n\n母が外出しているとき、私はいつも妹の世話をしている。\n\n次の電車が来るまで30分待たなければならない。\n\n彼らはダウンタウンをあちこち見て回ったが、どれも小さすぎた。\n\n公園にバスケットボールの練習をしに行くところだよ。",
+                    "ja": "A: ボールを渡してもらえますか？ — はい、どうぞ。\n\nいいえ、彼は全部一人でやったよ。\n\n母が外出しているとき、私はいつも妹の世話をしている。\n\n次の電車が来るまで30分待たなければならない。\n\n彼らはダウンタウンをあちこち見て回ったが、どれも小さすぎた。\n\n公園へバスケットボールの練習をしに行くよ。",
                     "source": "大問1 (2)(9)(8)(10)(12)(15)",
                     "audioFile": "audio/practice_pp1.mp3"
                 },
@@ -1577,7 +1870,7 @@
                     },
                     {
                         "q": "Q10の wait ( ) 30 minutes で for が必要な理由は？",
-                        "a": "wait for ～＝「～を待つ」。30 minutes は待つ対象・期間を示すので for が入る。wait at/into/from では「待つ」の意味にならない。"
+                        "a": "for は時間の長さを表す前置詞。for 30 minutes で「30分間」となる。into / from / at はこの時間表現を作れない。"
                     },
                     {
                         "q": "Q15の to practice と practiced の違いは？",
@@ -1590,8 +1883,8 @@
                         "a": "「せわをする」。いもうとのせわをする、というセットだよ。"
                     },
                     {
-                        "q": "wait for ってどういう意味？",
-                        "a": "「〜をまつ」。30ぷんまつ、は wait for 30 minutes だよ。"
+                        "q": "for 30 minutes ってどういう意味？",
+                        "a": "「30ぷんかん」。どのくらい長くまつかを言っているよ。"
                     },
                     {
                         "q": "to practice ってどういう意味？",
@@ -1604,14 +1897,14 @@
                 "id": "fp2",
                 "title": "会話の「前後のつながり」で選ぶ",
                 "subtitle": "Dialogue Flow: Request → Response",
-                "explanation": "大問2は会話の流れを読む問題です。空所の直前・直後の発言が最大のヒントになります。「すぐ手伝うよ」＋「テレビが10分で終わる」→ I'll help you soon。誕生日の話のあと「アイススケートに行きたい」と答える → What would you like to do?。「練習があるから会えない」→ Say hello to him for me と母の OK, I will. がセットになります。選択肢を日本語に訳してから、会話の自然さで消去法するのが効果的です。",
+                "explanation": "大問2は、空所の前後が自然につながる選択肢を選びます。テレビが10分で終わるなら I'll help you soon、誕生日にしたいことを答えるなら What would you like to do? が対応します。Say hello to him for me には、依頼を引き受ける OK, I will. が続きます。",
                 "explanationSimple": "かいわはまえとうしろをよんでね。「10ぷんでテレビがおわる」→「すぐてつだうよ」。「たんじょうび」→「なにをしたい？」。「れんしゅうがある」→「ぼくのかわりにあいさつして」。",
                 "sourceQuote": "I'll help you soon. This TV show will finish in 10 minutes.",
                 "sourceLocation": "大問2 (16)",
                 "examples": [
                     {
                         "en": "Sister: Could you show me how to use your computer?\nBrother: I'll help you soon. This TV show will finish in 10 minutes.",
-                        "ja": "姉：パソコンの使い方を教えて。\n兄：すぐ手伝うよ。このテレビはあと10分で終わる。",
+                        "ja": "姉／妹：パソコンの使い方を教えて。\n兄／弟：すぐ手伝うよ。このテレビ番組はあと10分で終わる。",
                         "note": "依頼への返答＋理由。soon と 10 minutes が呼応。",
                         "noteSimple": "「すぐてつだう」＋「10ぷんでおわる」がセットだよ。",
                         "audio": "audio/fp2_ex1.mp3"
@@ -1633,7 +1926,7 @@
                 ],
                 "practicePassage": {
                     "en": "Sister: Jim, could you show me how to use your computer?\nBrother: I'll help you soon. This TV show will finish in 10 minutes.\n\nFather: Your birthday is next Saturday. What would you like to do?\nSon: I want to go ice-skating with my friends.\n\nMother: Why is your baseball cap on the sofa?\nSon: I'm going to wear it today. I have practice at three.\n\nStudent: I can't go to baseball practice today. I have a stomachache.\nTeacher: That's too bad. Please go home and rest.\n\nSon: Sorry, Mom. I have baseball practice then. Say hello to him for me.\nMother: OK, I will.",
-                    "ja": "姉：パソコンの使い方を教えて。\n兄：すぐ手伝うよ。テレビはあと10分で終わる。\n\n父：来週土曜は誕生日だね。何をしたい？\n息子：友達とアイススケートに行きたい。\n\n母：どうして帽子がソファにあるの？\n息子：今日はかぶるつもり。3時に練習があるんだ。\n\n生徒：今日は練習に行けません。お腹が痛いんです。\n先生：残念だね。家に帰って休みなさい。\n\n息子：ごめん、練習があるんだ。僕の代わりにあいさつして。\n母：わかった、するわね。",
+                    "ja": "姉／妹：パソコンの使い方を教えて。\n兄／弟：すぐ手伝うよ。テレビ番組はあと10分で終わる。\n\n父：来週土曜は誕生日だね。何をしたい？\n息子：友達とアイススケートに行きたい。\n\n母：どうして帽子がソファにあるの？\n息子：今日はかぶるつもり。3時に練習があるんだ。\n\n生徒：今日は練習に行けません。お腹が痛いんです。\n先生：残念だね。家に帰って休みなさい。\n\n息子：ごめん、練習があるんだ。僕の代わりにあいさつして。\n母：わかった、するわね。",
                     "source": "大問2 (16)〜(20)",
                     "audioFile": "audio/practice_pp2.mp3"
                 },
@@ -1648,7 +1941,7 @@
                 "practiceQuestions": [
                     {
                         "q": "Q16で「It's too easy for you」が不適切な理由は？",
-                        "a": "妹はパソコンの使い方を教えてほしいと依頼している。兄はテレビが終わったら手伝うと言う流れが自然で、相手を見下す表現は文脈に合わない。"
+                        "a": "パソコンの使い方を教えてほしいという依頼なので、番組が終わったら手伝うという返答が自然。easy かどうかを述べる場面ではない。"
                     },
                     {
                         "q": "Q19で先生の Please go home and rest が示すヒントは？",
@@ -1656,7 +1949,7 @@
                     },
                     {
                         "q": "Q20で Have a nice trip が合わない理由は？",
-                        "a": "おじさんは「訪ねてくる」予定。旅に出かける人へのあいさつではない。代わりにあいさつを頼む Say hello to him for me が正解。"
+                        "a": "息子が話している相手は母親で、母親の OK, I will. は「良い旅を」への返事にはならない。代わりにあいさつを頼む Say hello to him for me が正解。"
                     }
                 ],
                 "practiceQuestionsSimple": [
@@ -1679,7 +1972,7 @@
                 "id": "fp3",
                 "title": "お知らせとメール——「何のための情報か」を見分ける",
                 "subtitle": "Notice vs Email: Purpose of Information",
-                "explanation": "大問3Aのお知らせでは、同じ連絡先でも「目的」によって使い分けが書かれています。参加申し込み＝メールまたは電話、野菜の詳しい情報＝ウェブサイト、と読み分けることが Q22 の鍵です。大問3Bのメールでは、誰が・いつ・どこで・どうやって、を整理すると Q23〜25 が解けます。practiced at home（家で練習）、take the bus（バスで行く）、My mom and brother are coming（弟も来る）など、主語と動作をメモしながら読むと、似た選択肢を避けられます。",
+                "explanation": "大問3Aは、連絡方法の目的を分けて読みます。参加申し込みはメールか電話、野菜の情報はウェブサイトです。大問3Bは、practiced at home、take the bus、My mom and brother are coming のように、主語と行動を対応させます。行きのバスと帰りの母の車も区別します。",
                 "explanationSimple": "お知らせは「なんのためのじょうほうか」をわけるよ。さんか＝メール・電話、やさいのじょうほう＝ウェブサイト。メールはだれが・いつ・どうやって、をメモしながらよむといいよ。",
                 "sourceQuote": "To join the cooking class, please send an email / For more information about our vegetables, please check our website.",
                 "sourceLocation": "大問3A / 大問3B",
@@ -1708,7 +2001,7 @@
                 ],
                 "practicePassage": {
                     "en": "There will be a fun and free cooking class at Sunny Brook Farm.\nYou do not have to bring anything with you. We will prepare all of the ingredients.\nTo join the cooking class, please send an email or call us.\nFor more information about our vegetables, please check our website.\n\nI practiced at home every day for an hour, too. I practiced with my dad.\nThe performance will be on Friday at 5 p.m. at the local theater.\nMy mom and brother are coming, too.\nWe will take the bus to the theater, and our mom will drive us home.",
-                    "ja": "サニーブルック農場で楽しい無料の料理教室があります。\n持ち物は不要。材料はすべて用意します。\n参加申し込みはメールまたは電話で。\n野菜の詳しい情報はウェブサイトをご覧ください。\n\n家でも毎日1時間練習した。お父さんと一緒に。\n公演は金曜午後5時、地元の劇場です。\nお母さんと弟も来ます。\n劇場にはバスで行き、帰りはお母さんが車で送ってくれます。",
+                    "ja": "サニーブルック農場で楽しい無料の料理教室があります。\n持ち物は不要。材料はすべて用意します。\n参加申し込みはメールまたは電話で。\n野菜の詳しい情報はウェブサイトをご覧ください。\n\n家でも毎日1時間練習した。お父さんと一緒に。\n公演は金曜午後5時、地元の劇場です。\nお母さんと兄か弟も来ます。\n劇場にはバスで行き、帰りはお母さんが車で送ってくれます。",
                     "source": "大問3A「Free Cooking Class」/ 大問3B「Drama club performance」",
                     "audioFile": "audio/practice_pp3.mp3"
                 },
@@ -1754,8 +2047,8 @@
                 "id": "fp4",
                 "title": "長文読解——キーワードと時系列で答えを選ぶ",
                 "subtitle": "Reading Strategy: Keywords & Timeline",
-                "explanation": "大問3C「Table Tennis」は、時代順に卓球の歴史が述べられます。1880年代＝天気が悪いときに indoors で活動、1926年＝選手が England に行って選手権、人気の理由＝easy to start playing、1971年＝中国選手が drawing を贈った、と年代・因果を整理すると速いです。問題文の主語に注意：missed his bus はアメリカ選手、 gave a drawing は中国選手（Q29）。What is this story about? は冒頭から最後まで通じるテーマ（スポーツの歴史）を選びます。",
-                "explanationSimple": "長文はじかんじゅんにおぼえるといいよ。1880年代＝おくのなかでうんどう、1926年＝イングランドでしあい、にんきのわけ＝はじめやすい、1971年＝えをあげた。だれがなにをしたか、だれのはなしかよくみてね。",
+                "explanation": "大問3Cは年代と因果を整理します。1880年代は屋内で活動するため、1926年はイングランドで世界選手権、普及の理由は easy to start playing、1971年は絵を贈った出来事です。missed his bus はアメリカ選手、gave a drawing は中国選手なので、主語を取り違えないようにします。",
+                "explanationSimple": "長文はねんだいじゅんにおぼえるといいよ。1880年代＝たてもののなかでうんどう、1926年＝イングランドでしあい、にんきのわけ＝はじめやすい、1971年＝えをあげた。だれがなにをしたか、だれのはなしかよくみてね。",
                 "sourceQuote": "when the weather was bad because it was a fun way to stay active indoors / went to England and played in the table tennis championships",
                 "sourceLocation": "大問3C「Table Tennis」",
                 "examples": [
@@ -1763,7 +2056,7 @@
                         "en": "In the 1880s, people played table tennis when the weather was bad because it was a fun way to stay active indoors.",
                         "ja": "1880年代、天気が悪いときに屋内で活動的に過ごす楽しい方法として卓球をした。",
                         "note": "stay active indoors＝屋内で体を動かす。Q26の根拠。",
-                        "noteSimple": "天気がわるいとき、おくのなかでうんどうしたんだよ。",
+                        "noteSimple": "天気がわるいとき、たてもののなかでうんどうしたんだよ。",
                         "audio": "audio/fp4_ex1.mp3"
                     },
                     {
@@ -1812,7 +2105,7 @@
                 "practiceQuestionsSimple": [
                     {
                         "q": "1880年代になぜ卓球をした？",
-                        "a": "天気がわるくて、おくのなかでうんどうするためだよ。"
+                        "a": "天気がわるくて、たてもののなかでうんどうするためだよ。"
                     },
                     {
                         "q": "はじめの世界選手権はどこで？",

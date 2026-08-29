@@ -2,6 +2,7 @@
 """Verify 2026-1-sat grade3 section1 structure and answers."""
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -46,12 +47,20 @@ for q in qs:
         errors.append(f"Q{n}: choiceAnalysis count {len(q['choiceAnalysis'])}")
     if len(q["choiceAnalysisSimple"]) != 4:
         errors.append(f"Q{n}: choiceAnalysisSimple count {len(q['choiceAnalysisSimple'])}")
-    for i, ca in enumerate(q["choiceAnalysis"]):
-        if i + 1 == q["answer"]:
-            if not ca.startswith("○"):
-                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
-        elif ca.startswith("○"):
-            errors.append(f"Q{n}: wrong choice {i + 1} has ○")
+    if len(q.get("choiceTranslations", [])) != 4:
+        errors.append(f"Q{n}: choiceTranslations count {len(q.get('choiceTranslations', []))}")
+    for field in ("choiceAnalysis", "choiceAnalysisSimple"):
+        values = q.get(field, [])
+        marks = [i + 1 for i, text in enumerate(values) if text.startswith("○")]
+        if marks != [q["answer"]]:
+            errors.append(f"Q{n}: {field} marks={marks}, answer={q['answer']}")
+        if any(text.startswith(("×", "✅", "❌")) for text in values):
+            errors.append(f"Q{n}: {field} uses unsupported marker")
+    normalized_translation = re.sub(
+        r"[（(]\s*[　\s]*\s*[)）]", "( )", q.get("translation", "")
+    )
+    if normalized_translation.count("( )") != 1:
+        errors.append(f"Q{n}: translation must preserve exactly one blank")
 
 print(f"questions={len(qs)} errors={len(errors)}")
 for e in errors:

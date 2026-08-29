@@ -22,6 +22,18 @@ OFFICIAL = {
 d = json.load(open(DATA, encoding="utf-8"))
 errors = []
 
+EXPECTED_META = {
+    "title": "英検3級 2026年度 第1回（土曜準会場）",
+    "grade": "grade3",
+    "exam": "2026-1-sat",
+    "year": 2026,
+    "session": "2026-1-sat",
+}
+
+for key, expected in EXPECTED_META.items():
+    if d.get(key) != expected:
+        errors.append(f"{key}={d.get(key)!r} expected={expected!r}")
+
 all_qs = []
 for sec in d["sections"]:
     all_qs.extend(sec.get("questions", []))
@@ -30,6 +42,9 @@ for sec in d["sections"]:
 
 if len(all_qs) != 30:
     errors.append(f"question count {len(all_qs)} != 30")
+numbers = [q.get("number") for q in all_qs]
+if numbers != list(range(1, 31)):
+    errors.append(f"question numbers/order={numbers!r}")
 
 for q in all_qs:
     n = q["number"]
@@ -38,7 +53,7 @@ for q in all_qs:
     if len(q.get("choices", [])) != 4:
         errors.append(f"Q{n}: choices != 4")
 
-for key in ("title", "grade", "exam", "sections"):
+for key in ("title", "grade", "exam", "year", "session", "sections"):
     if key not in d:
         errors.append(f"missing {key}")
 

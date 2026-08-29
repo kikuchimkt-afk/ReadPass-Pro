@@ -35,10 +35,42 @@ section3 = {
             "translations": [
                 "無料料理教室",
                 "サニーブルック農場で楽しい無料の料理教室を開催します。農場の野菜を使っておいしい料理の作り方を学べます。料理が好きな方にぴったりのクラスです。",
-                "日時：6月15日（土）\n時間：午前10時〜午後12時30分\n場所：サニーブルック農場",
+                "日付：6月15日（土）\n時間：午前10時〜午後0時30分\n場所：サニーブルック農場",
                 "持ち物は不要です。材料はすべてこちらで用意します。参加申し込みは cookingclassinfo@sunnybrookfarm12345.com へメールを送るか、555-5555-5555 へお電話ください。",
                 "野菜についての詳しい情報は、ウェブサイトをご覧ください。",
-                "新鮮な野菜で料理して、健康的な食事を楽しみましょう！",
+                "新鮮な野菜で料理して、健康的な食べ物を食べましょう！",
+            ],
+            "sentencePairs": [
+                ["Free Cooking Class", "無料料理教室"],
+                [
+                    "There will be a fun and free cooking class at Sunny Brook Farm.",
+                    "サニーブルック農場で、楽しい無料の料理教室を開催します。",
+                ],
+                [
+                    "You can learn how to make delicious meals using vegetables from our farm.",
+                    "私たちの農場の野菜を使った、おいしい料理の作り方を学べます。",
+                ],
+                [
+                    "This class is perfect for anyone who likes cooking.",
+                    "料理が好きな人にぴったりの教室です。",
+                ],
+                ["Date: Saturday, June 15", "日付：6月15日（土）"],
+                ["Time: 10:00 a.m. to 12:30 p.m.", "時間：午前10時から午後0時30分まで"],
+                ["Place: Sunny Brook Farm", "場所：サニーブルック農場"],
+                ["You do not have to bring anything with you.", "持ち物は必要ありません。"],
+                ["We will prepare all of the ingredients.", "材料はすべてこちらで用意します。"],
+                [
+                    "To join the cooking class, please send an email to cookingclassinfo@sunnybrookfarm12345.com or call us at 555-5555-5555.",
+                    "教室に参加するには、cookingclassinfo@sunnybrookfarm12345.com へメールを送るか、555-5555-5555 へ電話してください。",
+                ],
+                [
+                    "For more information about our vegetables, please check our website.",
+                    "私たちの野菜についての詳しい情報は、ウェブサイトを確認してください。",
+                ],
+                [
+                    "Let's cook with fresh vegetables and eat healthy food!",
+                    "新鮮な野菜で料理し、健康的な食べ物を食べましょう！",
+                ],
             ],
             "questions": [
                 {
@@ -122,7 +154,7 @@ section3 = {
                         "subject": "Drama club performance",
                     },
                     "body": "Hi Mia,\nI hope you're doing well! I wanted to remind you about my drama club performance next week. I'm so excited! The drama club practiced a lot, and now the play is finally ready. We practiced for two hours every day at school, and I practiced at home every day for an hour, too. I practiced with my dad. I'm still a little nervous, but it will be fine. The performance will be on Friday at 5 p.m. at the local theater. Can you still come? I want you to see the performance! My mom and brother are coming, too, so you can sit together. The drama club will sell snacks and drinks before the play, so my family will arrive at 4:30 p.m. and buy some snacks. I think it will be a lot of fun!\nYour friend,\nEmma",
-                    "translation": "ミアへ\n元気？来週の演劇部の公演のことを思い出させたくて。すごく楽しみ！演劇部はたくさん練習して、やっと劇が完成したよ。学校では毎日2時間練習して、家でも毎日1時間練習した。お父さんと一緒に練習したんだ。まだちょっと緊張するけど大丈夫。公演は金曜の午後5時、地元の劇場だよ。まだ来られる？見に来てほしいな！お母さんと弟も来るから、一緒に座れるよ。演劇部が劇の前にスナックと飲み物を売るから、うちの家族は4:30に着いてスナックを買う予定。すごく楽しみ！\n友だちのエマより",
+                    "translation": "ミアへ\n元気？来週の演劇部の公演のことを、もう一度知らせておこうと思って。すごく楽しみ！演劇部はたくさん練習して、やっと上演の準備が整ったよ。学校では毎日2時間練習して、家でも毎日1時間練習した。お父さんと一緒に練習したんだ。まだ少し緊張しているけど、大丈夫。公演は金曜日の午後5時から、地元の劇場であるよ。まだ来られる？公演を見てほしいな！お母さんと兄か弟も来るから、一緒に座れるよ。演劇部が劇の前にスナックと飲み物を売るから、うちの家族は午後4時30分に着いてスナックを買う予定。すごく楽しいと思う！\n友だちのエマより",
                 },
                 {
                     "meta": {
@@ -132,7 +164,7 @@ section3 = {
                         "subject": "Sounds fun!",
                     },
                     "body": "Hi Emma,\nI'm doing great! Thanks for reminding me about the performance. Of course, I will go! I'm so excited! You practiced so much, so I am sure it will be very nice. What is the play about? Is it a comedy? I like comedy plays the best! My sister wants to come, too. Can we sit with your family? Also, when do we buy the tickets? Do we buy them in the theater on Friday, or before Friday? I want to buy some snacks, too, so my sister and I will arrive at 4:15 p.m. We will take the bus to the theater, and our mom will drive us home. When will the performance end?\nYour friend,\nMia",
-                    "translation": "エマへ\n元気だよ！公演のことを思い出させてくれてありがとう。もちろん行くよ！すごく楽しみ！たくさん練習したんだから、きっとすばらしい公演だよね。劇は何について？コメディ？コメディが一番好き！妹も来たいって。あなたの家族と一緒に座れる？チケットはいつ買うの？金曜に劇場で買うの？それとも前？私もスナックを買いたいから、妹と一緒に4:15に着く予定。劇場にはバスで行って、帰りはお母さんが車で送ってくれる。公演はいつ終わる？\n友だちのミアより",
+                    "translation": "エマへ\n元気だよ！公演のことを思い出させてくれてありがとう。もちろん行くよ！すごく楽しみ！たくさん練習したから、きっととてもすてきな公演になるね。劇は何についてのお話？コメディー？私はコメディーが一番好き！私の姉か妹も来たがっているよ。エマの家族と一緒に座っていい？それから、チケットはいつ買うの？金曜日に劇場で買うの、それとも金曜日より前？私もスナックを買いたいから、姉か妹と一緒に午後4時15分に着く予定。劇場へはバスで行って、帰りはお母さんが車で送ってくれる。公演はいつ終わるの？\n友だちのミアより",
                 },
             ],
             "paragraphs": [
@@ -140,6 +172,78 @@ section3 = {
             ],
             "translations": [
                 "エマはミアに、来週金曜の地元劇場での演劇部の公演を思い出させる。",
+            ],
+            "sentencePairs": [
+                ["Hi Mia,", "ミアへ"],
+                ["I hope you're doing well!", "元気にしているといいな！"],
+                [
+                    "I wanted to remind you about my drama club performance next week.",
+                    "来週の私の演劇部の公演のことを、もう一度知らせておこうと思って。",
+                ],
+                ["I'm so excited!", "すごく楽しみ！"],
+                [
+                    "The drama club practiced a lot, and now the play is finally ready.",
+                    "演劇部はたくさん練習して、やっと上演の準備が整ったよ。",
+                ],
+                [
+                    "We practiced for two hours every day at school, and I practiced at home every day for an hour, too.",
+                    "学校では毎日2時間練習し、家でも毎日1時間練習したよ。",
+                ],
+                ["I practiced with my dad.", "お父さんと一緒に練習したんだ。"],
+                [
+                    "I'm still a little nervous, but it will be fine.",
+                    "まだ少し緊張しているけど、きっと大丈夫。",
+                ],
+                [
+                    "The performance will be on Friday at 5 p.m. at the local theater.",
+                    "公演は金曜日の午後5時から、地元の劇場であるよ。",
+                ],
+                ["Can you still come?", "まだ来られる？"],
+                ["I want you to see the performance!", "公演を見てほしいな！"],
+                [
+                    "My mom and brother are coming, too, so you can sit together.",
+                    "お母さんと兄か弟も来るから、一緒に座れるよ。",
+                ],
+                [
+                    "The drama club will sell snacks and drinks before the play, so my family will arrive at 4:30 p.m. and buy some snacks.",
+                    "演劇部が劇の前にスナックと飲み物を売るから、うちの家族は午後4時30分に着いてスナックを買う予定。",
+                ],
+                ["I think it will be a lot of fun!", "すごく楽しいと思う！"],
+                ["Your friend,", "友だちの"],
+                ["Emma", "エマより"],
+                ["Hi Emma,", "エマへ"],
+                ["I'm doing great!", "元気だよ！"],
+                [
+                    "Thanks for reminding me about the performance.",
+                    "公演のことを思い出させてくれてありがとう。",
+                ],
+                ["Of course, I will go!", "もちろん行くよ！"],
+                ["I'm so excited!", "すごく楽しみ！"],
+                [
+                    "You practiced so much, so I am sure it will be very nice.",
+                    "たくさん練習したから、きっととてもすてきな公演になるね。",
+                ],
+                ["What is the play about?", "劇は何についてのお話？"],
+                ["Is it a comedy?", "コメディー？"],
+                ["I like comedy plays the best!", "私はコメディーが一番好き！"],
+                ["My sister wants to come, too.", "私の姉か妹も来たがっているよ。"],
+                ["Can we sit with your family?", "エマの家族と一緒に座っていい？"],
+                ["Also, when do we buy the tickets?", "それから、チケットはいつ買うの？"],
+                [
+                    "Do we buy them in the theater on Friday, or before Friday?",
+                    "金曜日に劇場で買うの、それとも金曜日より前？",
+                ],
+                [
+                    "I want to buy some snacks, too, so my sister and I will arrive at 4:15 p.m.",
+                    "私もスナックを買いたいから、姉か妹と一緒に午後4時15分に着く予定。",
+                ],
+                [
+                    "We will take the bus to the theater, and our mom will drive us home.",
+                    "劇場へはバスで行って、帰りはお母さんが車で送ってくれる。",
+                ],
+                ["When will the performance end?", "公演はいつ終わるの？"],
+                ["Your friend,", "友だちの"],
+                ["Mia", "ミアより"],
             ],
             "questions": [
                 {
@@ -188,24 +292,24 @@ section3 = {
                     "answer": 4,
                     "sourceEvidence": "My mom and brother are coming, too",
                     "grammar": "Emmaのメールで My mom and brother are coming とある。",
-                    "grammarSimple": "エマのお母さんと弟が来るって書いてあるよ。",
+                    "grammarSimple": "エマのお母さんと兄か弟が来るって書いてあるよ。",
                     "choiceAnalysis": [
                         "ミアの母→帰りに車で送るだけ。",
-                        "ミアの弟→妹が来る話。",
+                        "ミアの兄弟→メールに出てくるのは姉か妹。",
                         "エマの父→練習に一緒だったが公演には言及なし。",
-                        "○ エマの弟。",
+                        "○ エマの兄か弟。",
                     ],
                     "choiceAnalysisSimple": [
                         "ミアのお母さんはかえりの車だよ。",
-                        "ミアの弟じゃなく妹だよ。",
+                        "ミアの兄弟ではなく、姉か妹の話だよ。",
                         "エマのお父さんは公演に行くとは書いてないよ。",
-                        "○ エマの弟が来る！",
+                        "○ エマの兄か弟が来る！",
                     ],
                     "choiceTranslations": [
                         "ミアの母。",
-                        "ミアの弟。",
+                        "ミアの兄か弟。",
                         "エマの父。",
-                        "エマの弟。",
+                        "エマの兄か弟。",
                     ],
                 },
                 {
@@ -254,10 +358,81 @@ section3 = {
                 "In 1971, an important moment in table tennis history happened. At one of the table tennis championships in Japan, an American athlete missed his bus and got on the Chinese team's bus instead. A Chinese athlete on the bus gave him a drawing of the mountains in his country. This was a special moment for the players from both countries. Table tennis helped people from many countries to become friends.",
             ],
             "translations": [
-                "卓球はイングランドで始まったスポーツです。1880年代、天気が悪いときにテニスの代わりに卓球をして、屋内で活動的に過ごす楽しい方法だったため、イングランドの人々は卓球をしました。多くの人がこのゲームを楽しみ、とても人気になりました。やがてイングランドでより多くの人が卓球を始め、他国の人々もプレイするようになりました。",
-                "1926年、初の卓球世界選手権が開催されました。ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。この大会がスポーツを世界中に広めました。1950年頃からアジアの国々でも卓球が始まり、そこでも人気になりました。",
-                "卓球は始めるのが簡単だったため、多くの国で人気になりました。安い道具でできたので、あまりお金がかかりませんでした。このスポーツは誰にとっても楽しく、あらゆる年齢の人がプレイできました。アジアから多くのプロ卓球選手が出て、オリンピックで多くのメダルを獲得しています。",
-                "1971年、卓球の歴史における重要な出来事がありました。日本で開催された卓球選手権のとき、アメリカの選手がバスに乗り遅れ、代わりに中国チームのバスに乗りました。バスの中の中国の選手が、彼に自分の国の山の絵を贈りました。両国の選手にとって特別な瞬間でした。卓球は多くの国の人々が友だちになるのを助けました。",
+                "卓球はイングランドで始まったスポーツです。1880年代、イングランドの人々は天気が悪いとき、テニスの代わりに卓球をしました。屋内で体を動かす楽しい方法だったからです。多くの人がこのゲームを楽しみ、卓球はとても人気になりました。やがてイングランドでさらに多くの人が卓球を始め、他の国の人々もプレーするようになりました。",
+                "1926年、初の卓球世界選手権が開催されました。ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。この大会をきっかけに、卓球は世界中に広まりました。1950年頃から、アジアの国々でも卓球をプレーするようになり、そこでも人気になりました。",
+                "卓球は始めるのが簡単だったため、多くの国で人気になりました。安い道具でできたので、あまりお金がかかりませんでした。このスポーツは誰にとっても楽しく、あらゆる年齢の人がプレーできました。アジア出身のプロ卓球選手が多く、彼らはオリンピックで多くのメダルを獲得しています。",
+                "1971年、卓球の歴史における重要な出来事がありました。日本で開催された卓球選手権で、アメリカの選手が自分のバスに乗り遅れ、中国チームのバスに乗りました。バスに乗っていた中国の選手が、彼に自国の山々を描いた絵を贈りました。それは両国の選手にとって特別な瞬間でした。卓球は、多くの国の人々が友好を深めるきっかけになりました。",
+            ],
+            "sentencePairs": [
+                [
+                    "Table tennis is a sport that started in England.",
+                    "卓球はイングランドで始まったスポーツです。",
+                ],
+                [
+                    "In the 1880s, people in England played table tennis instead of tennis when the weather was bad because it was a fun way to stay active indoors.",
+                    "1880年代、イングランドの人々は天気が悪いとき、屋内で体を動かす楽しい方法としてテニスの代わりに卓球をしました。",
+                ],
+                [
+                    "Many people enjoyed the game, and it became very popular.",
+                    "多くの人がこのゲームを楽しみ、卓球はとても人気になりました。",
+                ],
+                [
+                    "Soon, more people started playing table tennis in England, and then people from other countries started to play it as well.",
+                    "やがてイングランドでさらに多くの人が卓球を始め、他の国の人々もプレーするようになりました。",
+                ],
+                [
+                    "In 1926, the first world championships for table tennis were held.",
+                    "1926年、初の卓球世界選手権が開催されました。",
+                ],
+                [
+                    "Players from different countries, such as Hungary, Germany, and India, went to England and played in the table tennis championships.",
+                    "ハンガリー、ドイツ、インドなどさまざまな国の選手がイングランドに行き、卓球選手権で競いました。",
+                ],
+                [
+                    "This tournament spread the sport around the world.",
+                    "この大会をきっかけに、卓球は世界中に広まりました。",
+                ],
+                [
+                    "From around 1950, countries in Asia started playing table tennis, too.",
+                    "1950年頃から、アジアの国々でも卓球をプレーするようになりました。",
+                ],
+                ["It became popular there.", "アジアでも卓球は人気になりました。"],
+                [
+                    "Table tennis became popular in many countries because it was easy to start playing.",
+                    "卓球は始めるのが簡単だったため、多くの国で人気になりました。",
+                ],
+                [
+                    "It did not cost a lot of money because it could be played with cheap items.",
+                    "安い道具でプレーできたため、あまりお金がかかりませんでした。",
+                ],
+                [
+                    "The sport was fun for everyone, and people of all ages could play.",
+                    "誰にとっても楽しく、あらゆる年齢の人がプレーできました。",
+                ],
+                [
+                    "There have been many professional table tennis players from Asia, and they have won many medals in the Olympics.",
+                    "アジア出身のプロ卓球選手が多く、彼らはオリンピックで多くのメダルを獲得しています。",
+                ],
+                [
+                    "In 1971, an important moment in table tennis history happened.",
+                    "1971年、卓球の歴史における重要な出来事がありました。",
+                ],
+                [
+                    "At one of the table tennis championships in Japan, an American athlete missed his bus and got on the Chinese team's bus instead.",
+                    "日本で開催された卓球選手権で、アメリカの選手が自分のバスに乗り遅れ、中国チームのバスに乗りました。",
+                ],
+                [
+                    "A Chinese athlete on the bus gave him a drawing of the mountains in his country.",
+                    "バスに乗っていた中国の選手が、彼に自国の山々を描いた絵を贈りました。",
+                ],
+                [
+                    "This was a special moment for the players from both countries.",
+                    "それは両国の選手にとって特別な瞬間でした。",
+                ],
+                [
+                    "Table tennis helped people from many countries to become friends.",
+                    "卓球は、多くの国の人々が友好を深めるきっかけになりました。",
+                ],
             ],
             "questions": [
                 {
@@ -273,7 +448,7 @@ section3 = {
                     "answer": 3,
                     "sourceEvidence": "when the weather was bad because it was a fun way to stay active indoors",
                     "grammar": "天気が悪いとき→屋内で活動的に過ごす（stay active indoors）。",
-                    "grammarSimple": "天気がわるいとき、おくのなかでうんどうしたかったからだよ。",
+                    "grammarSimple": "天気がわるいとき、たてもののなかでからだをうごかしたかったからだよ。",
                     "choiceAnalysis": [
                         "他国で人気→その後広まった話。",
                         "唯一のスポーツ→書かれていない。",
@@ -282,8 +457,8 @@ section3 = {
                     ],
                     "choiceAnalysisSimple": [
                         "他の国でにんきだったからじゃないよ。",
-                        "いちばんだけのスポーツとは書いてないよ。",
-                        "○ おくのなかでからだをうごかしたかった！",
+                        "イングランドにあるスポーツはそれだけ、とは書いてないよ。",
+                        "○ たてもののなかでからだをうごかしたかった！",
                         "外の天気はわるかったよ。",
                     ],
                     "choiceTranslations": [
@@ -383,7 +558,7 @@ section3 = {
                         "バスにのりおくれたのはアメリカの選手だよ。",
                         "山にのぼった話じゃないよ。",
                         "○ えをあげた！",
-                        "しつだんした話は書いてないよ。",
+                        "指導した話は書いてないよ。",
                     ],
                     "choiceTranslations": [
                         "バスに乗り遅れた。",

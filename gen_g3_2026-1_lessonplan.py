@@ -19,15 +19,13 @@ fp1 = {
     "title": "句動詞・前置詞の「セット」で覚える",
     "subtitle": "Phrasal Verbs & Preposition Collocations",
     "explanation": (
-        "大問1では単語単体ではなく、決まった組み合わせ（コロケーション）で覚えると正解率が上がります。"
-        "take care of（〜の世話をする）、wait for 30 minutes（〜を30分待つ）、look around downtown（あちこち見て回る）は、"
-        "空所の前後の語とセットで意味が決まります。by himself（一人で）のように、代名詞＋前置詞の形も頻出です。"
-        "to practice basketball のように、目的を表す to 不定詞も大問1 Q15 の決め手になります。"
+        "大問1は、空所の前後をまとまりで読みます。take care of（〜の世話をする）、"
+        "by himself（一人で）、look around（見て回る）は定型表現です。Q10 の for は時間の長さ、"
+        "Q15 の to practice は公園へ行く目的を表します。後ろの語まで確認すると、語法と文型を区別できます。"
     ),
     "explanationSimple": (
-        "たんごひとつじゃなく、セットでおぼえるといいよ。"
-        "take care of は「せわをする」、wait for は「まつ」、look around は「あちこちみる」。"
-        "by himself は「ひとりで」。to practice は「れんしゅうするために」だよ。"
+        "空所の前後をセットで見よう。take care of は「せわをする」、by himself は「ひとりで」。"
+        "for 30 minutes は「30ぷんかん」、to practice は「れんしゅうするために」だよ。"
     ),
     "sourceQuote": "I always take care of my little sister / We'll have to wait for 30 minutes / They looked around downtown",
     "sourceLocation": "大問1 (8)(10)(12)",
@@ -41,8 +39,8 @@ fp1 = {
         {
             "en": "We'll have to wait for 30 minutes until the next train comes.",
             "ja": "次の電車が来るまで30分待たなければならない。",
-            "note": "wait for ～＝「～を待つ」。for の後ろに時間や人が来る。",
-            "noteSimple": "wait for は「〜をまつ」。for をわすれないで！",
+            "note": "for＋時間＝「〜の間」。for 30 minutes で待つ時間の長さを表す。",
+            "noteSimple": "for 30 minutes は「30ぷんかん」。時間の長さを言うよ。",
         },
         {
             "en": "They looked around downtown, but everything was too small.",
@@ -66,7 +64,7 @@ fp1 = {
             "母が外出しているとき、私はいつも妹の世話をしている。\n\n"
             "次の電車が来るまで30分待たなければならない。\n\n"
             "彼らはダウンタウンをあちこち見て回ったが、どれも小さすぎた。\n\n"
-            "公園にバスケットボールの練習をしに行くところだよ。"
+            "公園へバスケットボールの練習をしに行くよ。"
         ),
         "source": "大問1 (2)(9)(8)(10)(12)(15)",
         "audioFile": "audio/practice_pp1.mp3",
@@ -86,7 +84,7 @@ fp1 = {
         },
         {
             "q": "Q10の wait ( ) 30 minutes で for が必要な理由は？",
-            "a": "wait for ～＝「～を待つ」。30 minutes は待つ対象・期間を示すので for が入る。wait at/into/from では「待つ」の意味にならない。",
+            "a": "for は時間の長さを表す前置詞。for 30 minutes で「30分間」となる。into / from / at はこの時間表現を作れない。",
         },
         {
             "q": "Q15の to practice と practiced の違いは？",
@@ -99,8 +97,8 @@ fp1 = {
             "a": "「せわをする」。いもうとのせわをする、というセットだよ。",
         },
         {
-            "q": "wait for ってどういう意味？",
-            "a": "「〜をまつ」。30ぷんまつ、は wait for 30 minutes だよ。",
+            "q": "for 30 minutes ってどういう意味？",
+            "a": "「30ぷんかん」。どのくらい長くまつかを言っているよ。",
         },
         {
             "q": "to practice ってどういう意味？",
@@ -114,11 +112,9 @@ fp2 = {
     "title": "会話の「前後のつながり」で選ぶ",
     "subtitle": "Dialogue Flow: Request → Response",
     "explanation": (
-        "大問2は会話の流れを読む問題です。空所の直前・直後の発言が最大のヒントになります。"
-        "「すぐ手伝うよ」＋「テレビが10分で終わる」→ I'll help you soon。"
-        "誕生日の話のあと「アイススケートに行きたい」と答える → What would you like to do?。"
-        "「練習があるから会えない」→ Say hello to him for me と母の OK, I will. がセットになります。"
-        "選択肢を日本語に訳してから、会話の自然さで消去法するのが効果的です。"
+        "大問2は、空所の前後が自然につながる選択肢を選びます。テレビが10分で終わるなら "
+        "I'll help you soon、誕生日にしたいことを答えるなら What would you like to do? が対応します。"
+        "Say hello to him for me には、依頼を引き受ける OK, I will. が続きます。"
     ),
     "explanationSimple": (
         "かいわはまえとうしろをよんでね。"
@@ -131,7 +127,7 @@ fp2 = {
     "examples": [
         {
             "en": "Sister: Could you show me how to use your computer?\nBrother: I'll help you soon. This TV show will finish in 10 minutes.",
-            "ja": "姉：パソコンの使い方を教えて。\n兄：すぐ手伝うよ。このテレビはあと10分で終わる。",
+            "ja": "姉／妹：パソコンの使い方を教えて。\n兄／弟：すぐ手伝うよ。このテレビ番組はあと10分で終わる。",
             "note": "依頼への返答＋理由。soon と 10 minutes が呼応。",
             "noteSimple": "「すぐてつだう」＋「10ぷんでおわる」がセットだよ。",
         },
@@ -162,8 +158,8 @@ fp2 = {
             "Mother: OK, I will."
         ),
         "ja": (
-            "姉：パソコンの使い方を教えて。\n"
-            "兄：すぐ手伝うよ。テレビはあと10分で終わる。\n\n"
+            "姉／妹：パソコンの使い方を教えて。\n"
+            "兄／弟：すぐ手伝うよ。テレビ番組はあと10分で終わる。\n\n"
             "父：来週土曜は誕生日だね。何をしたい？\n"
             "息子：友達とアイススケートに行きたい。\n\n"
             "母：どうして帽子がソファにあるの？\n"
@@ -187,7 +183,7 @@ fp2 = {
     "practiceQuestions": [
         {
             "q": "Q16で「It's too easy for you」が不適切な理由は？",
-            "a": "妹はパソコンの使い方を教えてほしいと依頼している。兄はテレビが終わったら手伝うと言う流れが自然で、相手を見下す表現は文脈に合わない。",
+            "a": "パソコンの使い方を教えてほしいという依頼なので、番組が終わったら手伝うという返答が自然。easy かどうかを述べる場面ではない。",
         },
         {
             "q": "Q19で先生の Please go home and rest が示すヒントは？",
@@ -195,7 +191,7 @@ fp2 = {
         },
         {
             "q": "Q20で Have a nice trip が合わない理由は？",
-            "a": "おじさんは「訪ねてくる」予定。旅に出かける人へのあいさつではない。代わりにあいさつを頼む Say hello to him for me が正解。",
+            "a": "息子が話している相手は母親で、母親の OK, I will. は「良い旅を」への返事にはならない。代わりにあいさつを頼む Say hello to him for me が正解。",
         },
     ],
     "practiceQuestionsSimple": [
@@ -219,11 +215,9 @@ fp3 = {
     "title": "お知らせとメール——「何のための情報か」を見分ける",
     "subtitle": "Notice vs Email: Purpose of Information",
     "explanation": (
-        "大問3Aのお知らせでは、同じ連絡先でも「目的」によって使い分けが書かれています。"
-        "参加申し込み＝メールまたは電話、野菜の詳しい情報＝ウェブサイト、と読み分けることが Q22 の鍵です。"
-        "大問3Bのメールでは、誰が・いつ・どこで・どうやって、を整理すると Q23〜25 が解けます。"
-        "practiced at home（家で練習）、take the bus（バスで行く）、My mom and brother are coming（弟も来る）など、"
-        "主語と動作をメモしながら読むと、似た選択肢を避けられます。"
+        "大問3Aは、連絡方法の目的を分けて読みます。参加申し込みはメールか電話、野菜の情報はウェブサイトです。"
+        "大問3Bは、practiced at home、take the bus、My mom and brother are coming のように、"
+        "主語と行動を対応させます。行きのバスと帰りの母の車も区別します。"
     ),
     "explanationSimple": (
         "お知らせは「なんのためのじょうほうか」をわけるよ。"
@@ -270,7 +264,7 @@ fp3 = {
             "野菜の詳しい情報はウェブサイトをご覧ください。\n\n"
             "家でも毎日1時間練習した。お父さんと一緒に。\n"
             "公演は金曜午後5時、地元の劇場です。\n"
-            "お母さんと弟も来ます。\n"
+            "お母さんと兄か弟も来ます。\n"
             "劇場にはバスで行き、帰りはお母さんが車で送ってくれます。"
         ),
         "source": "大問3A「Free Cooking Class」/ 大問3B「Drama club performance」",
@@ -319,15 +313,13 @@ fp4 = {
     "title": "長文読解——キーワードと時系列で答えを選ぶ",
     "subtitle": "Reading Strategy: Keywords & Timeline",
     "explanation": (
-        "大問3C「Table Tennis」は、時代順に卓球の歴史が述べられます。"
-        "1880年代＝天気が悪いときに indoors で活動、1926年＝選手が England に行って選手権、"
-        "人気の理由＝easy to start playing、1971年＝中国選手が drawing を贈った、と年代・因果を整理すると速いです。"
-        "問題文の主語に注意：missed his bus はアメリカ選手、 gave a drawing は中国選手（Q29）。"
-        "What is this story about? は冒頭から最後まで通じるテーマ（スポーツの歴史）を選びます。"
+        "大問3Cは年代と因果を整理します。1880年代は屋内で活動するため、1926年はイングランドで世界選手権、"
+        "普及の理由は easy to start playing、1971年は絵を贈った出来事です。"
+        "missed his bus はアメリカ選手、gave a drawing は中国選手なので、主語を取り違えないようにします。"
     ),
     "explanationSimple": (
-        "長文はじかんじゅんにおぼえるといいよ。"
-        "1880年代＝おくのなかでうんどう、1926年＝イングランドでしあい、"
+        "長文はねんだいじゅんにおぼえるといいよ。"
+        "1880年代＝たてもののなかでうんどう、1926年＝イングランドでしあい、"
         "にんきのわけ＝はじめやすい、1971年＝えをあげた。"
         "だれがなにをしたか、だれのはなしかよくみてね。"
     ),
@@ -338,7 +330,7 @@ fp4 = {
             "en": "In the 1880s, people played table tennis when the weather was bad because it was a fun way to stay active indoors.",
             "ja": "1880年代、天気が悪いときに屋内で活動的に過ごす楽しい方法として卓球をした。",
             "note": "stay active indoors＝屋内で体を動かす。Q26の根拠。",
-            "noteSimple": "天気がわるいとき、おくのなかでうんどうしたんだよ。",
+            "noteSimple": "天気がわるいとき、たてもののなかでうんどうしたんだよ。",
         },
         {
             "en": "Players from different countries went to England and played in the table tennis championships.",
@@ -394,7 +386,7 @@ fp4 = {
     "practiceQuestionsSimple": [
         {
             "q": "1880年代になぜ卓球をした？",
-            "a": "天気がわるくて、おくのなかでうんどうするためだよ。",
+            "a": "天気がわるくて、たてもののなかでうんどうするためだよ。",
         },
         {
             "q": "はじめの世界選手権はどこで？",
@@ -410,7 +402,13 @@ fp4 = {
 with open(DATA_PATH, encoding="utf-8") as f:
     data = json.load(f)
 
-data["lessonPlan"] = {"focusPoints": [fp1, fp2, fp3, fp4]}
+focus_points = [fp1, fp2, fp3, fp4]
+for fp_index, fp in enumerate(focus_points, start=1):
+    fp["sourceQuoteAudio"] = f"audio/fp{fp_index}_source.mp3"
+    for example_index, example in enumerate(fp.get("examples", []), start=1):
+        example["audio"] = f"audio/fp{fp_index}_ex{example_index}.mp3"
+
+data["lessonPlan"] = {"focusPoints": focus_points}
 
 with open(DATA_PATH, "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=4)

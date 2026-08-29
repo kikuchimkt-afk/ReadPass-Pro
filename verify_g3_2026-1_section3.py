@@ -2,6 +2,7 @@
 """Verify 2026-1-sat grade3 section3 structure and answers."""
 import json
 import os
+import re
 import sys
 
 sys.stdout.reconfigure(encoding="utf-8")
@@ -20,6 +21,11 @@ Q_KEYS = (
     "question", "questionTranslation", "choices", "choiceTranslations",
     "choiceAnalysis", "choiceAnalysisSimple", "grammar", "grammarSimple",
 )
+PAIR_COUNTS = {"A": 12, "B": 34, "C": 18}
+
+
+def norm(text):
+    return re.sub(r"\s+", " ", text or "").strip()
 
 with open(DATA_PATH, encoding="utf-8") as f:
     d = json.load(f)
@@ -49,6 +55,27 @@ for pa in passages:
         for em in pa.get("emails", []):
             if "translation" not in em or not em["translation"]:
                 errors.append(f"passage B email missing translation")
+        source_corpus = " ".join(em.get("body", "") for em in pa.get("emails", []))
+    else:
+        source_corpus = " ".join(pa.get("paragraphs", []))
+    pairs = pa.get("sentencePairs", [])
+    if len(pairs) != PAIR_COUNTS.get(pa.get("label")):
+        errors.append(
+            f"passage {pa.get('label')}: sentencePairs {len(pairs)} "
+            f"!= {PAIR_COUNTS.get(pa.get('label'))}"
+        )
+    pair_english = []
+    for i, pair in enumerate(pairs, 1):
+        if (
+            not isinstance(pair, list)
+            or len(pair) != 2
+            or not all(isinstance(text, str) and text.strip() for text in pair)
+        ):
+            errors.append(f"passage {pa.get('label')} pair{i}: invalid")
+            continue
+        pair_english.append(pair[0])
+    if norm(" ".join(pair_english)) != norm(source_corpus):
+        errors.append(f"passage {pa.get('label')}: sentencePairs incomplete")
     all_qs.extend(pa.get("questions", []))
 
 if len(all_qs) != 10:
@@ -63,12 +90,19 @@ for q in all_qs:
             errors.append(f"Q{n}: missing {key}")
     if len(q.get("choices", [])) != 4:
         errors.append(f"Q{n}: choices != 4")
-    for i, ca in enumerate(q.get("choiceAnalysis", [])):
-        if i + 1 == q["answer"]:
-            if not ca.startswith("○"):
-                errors.append(f"Q{n}: correct choice {i + 1} missing ○")
-        elif ca.startswith("○"):
-            errors.append(f"Q{n}: wrong choice {i + 1} has ○")
+    if not q.get("sourceEvidence"):
+        errors.append(f"Q{n}: missing sourceEvidence")
+    for field in ("choices", "choiceTranslations", "choiceAnalysis", "choiceAnalysisSimple"):
+        values = q.get(field, [])
+        if len(values) != 4:
+            errors.append(f"Q{n}: {field} count {len(values)}")
+            continue
+        if field.startswith("choiceAnalysis"):
+            marks = [i + 1 for i, text in enumerate(values) if text.startswith("○")]
+            if marks != [q["answer"]]:
+                errors.append(f"Q{n}: {field} marks={marks}, answer={q['answer']}")
+            if any(text.startswith(("×", "✅", "❌")) for text in values):
+                errors.append(f"Q{n}: {field} uses unsupported marker")
 
 print(f"passages={len(passages)} questions={len(all_qs)} errors={len(errors)}")
 for e in errors:
