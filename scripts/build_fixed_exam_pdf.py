@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import re
 from pathlib import Path
 
@@ -365,6 +366,7 @@ def draw_question_block(
     body_size: float = 11.25,
     body_leading: float = 14.2,
     choice_size: float = 10.7,
+    trim_final_stack_gap: bool = False,
 ) -> None:
     number = int(question["number"])
     text = question.get("text") or question.get("question") or ""
@@ -413,7 +415,9 @@ def draw_question_block(
         cursor = min(bottoms)
     elif choice_layout == "stack":
         for index, choice in enumerate(choices):
-            cursor = draw_choice(c, index + 1, choice, BODY_X, cursor, BODY_W, size=choice_size + 0.3) - 3.5
+            cursor = draw_choice(c, index + 1, choice, BODY_X, cursor, BODY_W, size=choice_size + 0.3)
+            if index + 1 < len(choices) or not trim_final_stack_gap:
+                cursor -= 3.5
     else:
         raise ValueError(f"Unknown choice layout: {choice_layout}")
 
@@ -439,6 +443,7 @@ def draw_questions_page(
     separator: bool = False,
     compact: bool = False,
     question_height_weights: list[float] | None = None,
+    trim_final_stack_gap: bool = False,
 ) -> None:
     if first_page:
         top = draw_cover(c, grade_label, exam_label, grade, exam)
@@ -466,13 +471,17 @@ def draw_questions_page(
             body_size=10.3 if compact else 11.25,
             body_leading=12.4 if compact else 14.2,
             choice_size=9.85 if compact else 10.7,
+            trim_final_stack_gap=trim_final_stack_gap,
         )
         cursor -= block_height
     draw_page_footer(c, page_number, total_pages)
     c.showPage()
 
 
-def stack_question_height_weights(questions: list[dict]) -> list[float]:
+def stack_question_height_weights(
+    questions: list[dict],
+    trim_final_stack_gap: bool = False,
+) -> list[float]:
     """Estimate readable block heights without shrinking long answer choices."""
     body_size = 11.25
     body_leading = 14.2
@@ -490,9 +499,28 @@ def stack_question_height_weights(questions: list[dict]) -> list[float]:
             30
             + (body_lines * body_leading)
             + (choice_lines * choice_leading)
-            + (len(question.get("choices", [])) * 3.5)
+            + (
+                max(
+                    len(question.get("choices", [])) - (1 if trim_final_stack_gap else 0),
+                    0,
+                )
+                * 3.5
+            )
         )
     return weights
+
+
+def pre1_passage_fill_panel_height(passages: list[dict], minimum: float = 360) -> float:
+    """Use one readable fixed height for both Pre-1 fill passages in an exam."""
+    required_height = minimum
+    article_width = BODY_W - 40
+    for passage in passages:
+        content_height = 57.0
+        for paragraph in passage.get("paragraphs", []):
+            line_count = len(wrap_text(paragraph, SERIF, 10.45, article_width))
+            content_height += (line_count * 13.7) + 10
+        required_height = max(required_height, content_height + 12)
+    return math.ceil(required_height / 10.0) * 10.0
 
 
 def draw_word_order_block(
@@ -1417,6 +1445,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         if len(passage_fills) != 2 or len(reading_passages) != 2 or count_signature != [3, 3, 3, 4]:
             raise ValueError("Grade Pre-1 layout requires question counts 3 / 3 / 3 / 4 after Part 1")
 
+        fill_panel_height = pre1_passage_fill_panel_height(passage_fills)
         for index, passage in enumerate(passage_fills):
             questions = passage.get("questions", [])
             section_prefix = f"大問2{chr(ord('A') + index)}"
@@ -1429,7 +1458,7 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
                 sections[1],
                 passage,
                 section_title=f"{section_prefix}  長文の語句空所補充  {question_range_label(questions)}",
-                panel_height=360,
+                panel_height=fill_panel_height,
             )
             page_number += 1
 
@@ -1439,6 +1468,10 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             reading_questions.extend(questions)
             question_range = question_range_label(questions)
             section_prefix = f"大問3{chr(ord('A') + index)}"
+            normal_question_weights = stack_question_height_weights(questions)
+            # The fixed question area is about 694 pt. Reserve a small buffer
+            # for line-width rounding only on exceptionally dense pages.
+            trim_final_stack_gap = sum(normal_question_weights) > 680
             draw_article_page(
                 pdf,
                 page_number,
@@ -1461,7 +1494,11 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
                 questions,
                 "stack",
                 separator=True,
-                question_height_weights=stack_question_height_weights(questions),
+                question_height_weights=stack_question_height_weights(
+                    questions,
+                    trim_final_stack_gap=trim_final_stack_gap,
+                ),
+                trim_final_stack_gap=trim_final_stack_gap,
             )
             page_number += 1
 
