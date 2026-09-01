@@ -44,6 +44,7 @@ GUTTER = Color(0.76, 0.76, 0.76)
 PALE = Color(0.94, 0.94, 0.94)
 
 GRADE_LABELS = {
+    "pre-grade1": "英検準1級",
     "grade5": "英検5級",
     "grade4": "英検4級",
     "grade3": "英検3級",
@@ -52,6 +53,7 @@ GRADE_LABELS = {
     "grade2": "英検2級",
 }
 GRADE_FILE_TOKENS = {
+    "pre-grade1": "GradePre1",
     "grade5": "Grade5",
     "grade4": "Grade4",
     "grade3": "Grade3",
@@ -468,6 +470,29 @@ def draw_questions_page(
         cursor -= block_height
     draw_page_footer(c, page_number, total_pages)
     c.showPage()
+
+
+def stack_question_height_weights(questions: list[dict]) -> list[float]:
+    """Estimate readable block heights without shrinking long answer choices."""
+    body_size = 11.25
+    body_leading = 14.2
+    choice_size = 11.0
+    choice_leading = choice_size * 1.22
+    weights: list[float] = []
+    for question in questions:
+        text = question.get("text") or question.get("question") or ""
+        body_lines = len(wrap_text(text, SERIF, body_size, BODY_W))
+        choice_lines = sum(
+            len(wrap_text(choice, SERIF, choice_size, BODY_W - 19))
+            for choice in question.get("choices", [])
+        )
+        weights.append(
+            30
+            + (body_lines * body_leading)
+            + (choice_lines * choice_leading)
+            + (len(question.get("choices", [])) * 3.5)
+        )
+    return weights
 
 
 def draw_word_order_block(
@@ -1074,7 +1099,10 @@ def draw_answer_page(
     c.drawString(MARGIN_X, y, "正解一覧")
     c.setFillColor(MID)
     c.setFont(JP_REGULAR, 8.4)
-    c.drawString(MARGIN_X, y - 20, "すべて解き終えてから確認してください。")
+    answer_note = "すべて解き終えてから確認してください。"
+    if grade == "pre-grade1":
+        answer_note += " 大問3は正解番号のみを表示しています。"
+    c.drawString(MARGIN_X, y - 20, answer_note)
     qr_size = 54
     draw_qr(c, DIRECT_URL.format(grade=grade, exam=exam), RIGHT_X - qr_size, y - qr_size + 9, qr_size)
 
@@ -1127,6 +1155,8 @@ def draw_answer_page(
             c.setFont(SERIF_BOLD, question_size)
             c.drawString(x + 7, cell_top - 15, f"Q{int(question['number']):02d}")
             c.drawRightString(x + col_w - 7, cell_top - 15, str(answer))
+            if grade == "pre-grade1" and int(question["number"]) >= 25:
+                continue
             if grade in {"grade5", "grade4"}:
                 answer_font = JP_REGULAR if any(ord(character) > 127 for character in answer_text) else SERIF
                 draw_wrapped(
@@ -1371,6 +1401,78 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         )
         if page_number != total_pages:
             raise RuntimeError("Grade 4 page numbering drifted")
+        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        pdf.save()
+        return
+
+    if grade == "pre-grade1":
+        if len(sections) != 3:
+            raise ValueError("Grade Pre-1 layout requires three sections")
+        passage_fills = sections[1].get("passages", [])
+        reading_passages = sections[2].get("passages", [])
+        count_signature = [
+            *[len(passage.get("questions", [])) for passage in passage_fills],
+            *[len(passage.get("questions", [])) for passage in reading_passages],
+        ]
+        if len(passage_fills) != 2 or len(reading_passages) != 2 or count_signature != [3, 3, 3, 4]:
+            raise ValueError("Grade Pre-1 layout requires question counts 3 / 3 / 3 / 4 after Part 1")
+
+        for index, passage in enumerate(passage_fills):
+            questions = passage.get("questions", [])
+            section_prefix = f"大問2{chr(ord('A') + index)}"
+            draw_passage_fill_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                sections[1],
+                passage,
+                section_title=f"{section_prefix}  長文の語句空所補充  {question_range_label(questions)}",
+                panel_height=360,
+            )
+            page_number += 1
+
+        reading_questions: list[dict] = []
+        for index, passage in enumerate(reading_passages):
+            questions = passage.get("questions", [])
+            reading_questions.extend(questions)
+            question_range = question_range_label(questions)
+            section_prefix = f"大問3{chr(ord('A') + index)}"
+            draw_article_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                passage,
+                section_title=f"{section_prefix}  長文",
+                instruction=f"本文を読み、次ページの{question_range}に答えなさい。",
+            )
+            page_number += 1
+            draw_questions_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                f"{section_prefix}  長文設問  {question_range}",
+                "前ページの本文を読み、最も適切なものを1つ選びなさい。",
+                questions,
+                "stack",
+                separator=True,
+                question_height_weights=stack_question_height_weights(questions),
+            )
+            page_number += 1
+
+        all_questions = (
+            part1
+            + passage_fills[0].get("questions", [])
+            + passage_fills[1].get("questions", [])
+            + reading_questions
+        )
+        if page_number != total_pages:
+            raise RuntimeError("Grade Pre-1 page numbering drifted")
         draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
         pdf.save()
         return
