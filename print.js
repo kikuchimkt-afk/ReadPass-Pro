@@ -25,7 +25,8 @@
                 { id: '2024-3', label: '2024年度 第3回' },
                 { id: '2025-1', label: '2025年度 第1回' },
                 { id: '2025-2', label: '2025年度 第2回' },
-                { id: '2025-3', label: '2025年度 第3回' }
+                { id: '2025-3', label: '2025年度 第3回' },
+                { id: '2026-1', label: '2026年度 第1回' }
             ]
         },
         {
@@ -216,6 +217,12 @@
             label: '英検準1級 2025年度 第3回',
             path: 'output/pdf/ReadPass_EIKEN_GradePre1_2025-3_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2025-v1',
             downloadName: 'ReadPass_EIKEN_GradePre1_2025-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
+        'pre-grade1/2026-1': {
+            label: '英検準1級 2026年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre1_2026-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2026-1-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre1_2026-1_Practice_Exam_Large_Type_v1.pdf',
             pages: 11
         },
         'grade5/2023-1': {

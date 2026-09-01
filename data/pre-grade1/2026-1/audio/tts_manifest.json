@@ -1,0 +1,342 @@
+{
+    "audio/practice_pp1.mp3": {
+        "audioSha256": "0c25aa950e749fe98f4c057ab0c2cc0be0006959db5e6e2b3db5791b6500a560",
+        "inputSha256": "43e6a6e1d3c2bba5cae4f3a9c608f30745875d96437e4065514800b9d235f68b"
+    },
+    "audio/practice_pp2.mp3": {
+        "audioSha256": "612287ea0c8e716dd0a30ce1479791b916fc5472a331830e7b5a9c16dd577d7d",
+        "inputSha256": "1291c1ad008d60f553244607ca4dc18f1f9ce72f94a0bfd6eca6ea5e060190e2"
+    },
+    "audio/practice_pp3.mp3": {
+        "audioSha256": "6fb27f52bb9021cd9a4f93dc4681462b0ff48421ac82926a1496c7fb6513c0ce",
+        "inputSha256": "81f2d5539dcab237cf94926f68b7fb38b21867df57234c6a11b6abeb7074bd05"
+    },
+    "audio/practice_pp4.mp3": {
+        "audioSha256": "c5c5687963de0eea29191e256f2545d7645ab923ac45ddf8f44ec2445f587c63",
+        "inputSha256": "30319c0bfb3043840ebd4e36b0d337854fe6ec167209067b011c093c41a2e3c9"
+    },
+    "audio/practice_pp5.mp3": {
+        "audioSha256": "6143aee4e2af970d313a28e20d95cced86e6922cd0d4236effc2e1a4ab409af9",
+        "inputSha256": "86ad8d3c8e3048f86a4a89fd7433cc8205b3e222cc967a8bac34b0d5442ffa61"
+    },
+    "audio/vocab/w_001_cemetery.mp3": {
+        "audioSha256": "caf2b6b0c5bd8ff00b6dd0bf563e3fce85641ca862f0e028d78e25529ea4789e",
+        "inputSha256": "dff0b3ca80ca0dbc2833364c529cbf6074199da32f4285c197c0ee51edb08d57"
+    },
+    "audio/vocab/w_002_diagram.mp3": {
+        "audioSha256": "e8def147014aa66abf7fe04577435871f3746b1f54235e33b00126a66827bcbb",
+        "inputSha256": "a8ef3cb3714bafcbb97cc18dcceded1de88e67a34ed504164d49b0f8ee9de021"
+    },
+    "audio/vocab/w_003_equation.mp3": {
+        "audioSha256": "adf3b4d718bce64eecdeec50ed8e1bb5fb38ce9f74914ff8c09652ac60c96f50",
+        "inputSha256": "3892122844ed4437730b18e402c9ecf4abd1b6a7a7c603405ea2ab8ce1e8500b"
+    },
+    "audio/vocab/w_004_forecast.mp3": {
+        "audioSha256": "49a0ea1ad287157cd96ac11e75ef21066a2975042345f281ba9bfe839cc14337",
+        "inputSha256": "9224f3bf5b0bc6905615d143db91a0ff495b6baeb6aee3f5437e94ed25221a99"
+    },
+    "audio/vocab/w_005_possessive.mp3": {
+        "audioSha256": "bb943bd92642a5a88d380a9952d871a6a77b2ea7c28285872a197b4aeb73b99c",
+        "inputSha256": "9f8e6e431786f3664a8f9cf4e683ed9d3a8b63f499d7099f31b0f1ecf800f011"
+    },
+    "audio/vocab/w_006_horizontal.mp3": {
+        "audioSha256": "736fba21255a3f1f02b40d0e6f4b9a8a0eefc67a6470995544cfecf132965af9",
+        "inputSha256": "d870e53a1ad15dafcf75d0e25d99c45ed38a2cf5b6a2cc6f3ba233dc35e24338"
+    },
+    "audio/vocab/w_007_redundant.mp3": {
+        "audioSha256": "0d9666e964b64f182e9613f76082ff4a8c0b082585ac8e63a9813fcb0518217d",
+        "inputSha256": "cd7b13fc37d9cfac04cad6a76f1d89d6fd865daf064df890215f54c8b312cacc"
+    },
+    "audio/vocab/w_008_drastic.mp3": {
+        "audioSha256": "30a8730f1e4573618793ba3e10ff06a2751d5c45a076b681865388a30a24ca45",
+        "inputSha256": "3cfaadbca9ba6f149f22149492a252a1a7e262d3aedac715c43338145dc497bd"
+    },
+    "audio/vocab/w_009_haul.mp3": {
+        "audioSha256": "fd76c257386ba99f28553dbd7edc638e9b1c6dabfd0ea095c0c9747da9b977cf",
+        "inputSha256": "04497ad719a828d2197020fef8f045d514d0f62bd43c1aac9ee33c6a503ca4e3"
+    },
+    "audio/vocab/w_010_envy.mp3": {
+        "audioSha256": "23353ca1d311d6deabd5e3e3bf6805d29bf06d039e2702855cc79f272c483b86",
+        "inputSha256": "86b5700e80a9967af06eba889ae09b7d02e33e338b82513fa64016a6c86d5c17"
+    },
+    "audio/vocab/w_011_subtract.mp3": {
+        "audioSha256": "3c2f0fd6197a9c55b0b239a0f07e2ef24f060452d3d9db9ea07815e5d01017ca",
+        "inputSha256": "d3d97c52e54efbe6a4007f0238f42d8c9d991bd6b3ea74881360dd596a1b29fb"
+    },
+    "audio/vocab/w_012_censor.mp3": {
+        "audioSha256": "5adaa028c6b68a3c36df0641dfb57990541ff08ec8eefc874cc83055ca8a23d6",
+        "inputSha256": "107b7f3a010ece1c7808feb13a999f11743ab6a51c0cc6f0fb41ee917a732f60"
+    },
+    "audio/vocab/w_013_referral.mp3": {
+        "audioSha256": "e19859be2c127abb3b229c284bd1c95268582d409dc07a20ff2470ff4384f46d",
+        "inputSha256": "1a81e704586442d48a55941f8ebab758ccaf39157ab36cedddfa4f79e047d3a3"
+    },
+    "audio/vocab/w_014_recipient.mp3": {
+        "audioSha256": "1d7e9fa18b8af764c9a663fb25ade336e69f0918195f0da38126ca3ba966b3c3",
+        "inputSha256": "9723ca2e12818e28a457491c22be636cdf1dd2809194dd2d6d20eac7428d7ce4"
+    },
+    "audio/vocab/w_015_bouncer.mp3": {
+        "audioSha256": "0fd3e84f36d9fb5c16b6d9d88a5f3935d08f92c3920f0b9777954704a4ef7cbf",
+        "inputSha256": "0926e28f3dc1a5d8a2237b08ba4bb4f89aaf7cb0a7ebffb90550309c0f873be0"
+    },
+    "audio/vocab/w_016_successor.mp3": {
+        "audioSha256": "86f4c69a0849993e5692b7895fc848420e82fbfa2d141b1f4cc42e1f8b41df77",
+        "inputSha256": "634fb0330ef1f1fd9b0285d5e0e8db232bd45ece34a880815a492852e94350cb"
+    },
+    "audio/vocab/w_017_triggering.mp3": {
+        "audioSha256": "025e498993b64c8f4644903687cb8d11306192e196a6511918368a0aa438b7ce",
+        "inputSha256": "f3ffc0a1160f3917a088f19903209f6d8a305004f216762b3ef7b4959435fdd3"
+    },
+    "audio/vocab/w_018_fabricating.mp3": {
+        "audioSha256": "1a0ab7a049633c6cfe6eb7365c3b388bd64cd55c465239c792fc32fcc98b0212",
+        "inputSha256": "8bd34e35bc363894b91e553b662c3574e767307bcc025211287627e694a1b614"
+    },
+    "audio/vocab/w_019_conserving.mp3": {
+        "audioSha256": "b18e0d53e76602c741bb7580ce65bf99cdf860e9f686a88e5a103c0c84c2ce38",
+        "inputSha256": "9d01d1c31def1f7058d3dec39a8121c3d7f0bc9a6ea6be4c4dcea5a36d9ce504"
+    },
+    "audio/vocab/w_020_renouncing.mp3": {
+        "audioSha256": "83925e5446f90644573da71429a239a6d98d928964516bb7fde2ff6cbef7ac72",
+        "inputSha256": "540291214e43adfe10ad01e2893c3c2a175e475950fb873eefc93b520f2f6d67"
+    },
+    "audio/vocab/w_021_ransom.mp3": {
+        "audioSha256": "e5f4325d6a7766f74afbd30e75fbebfb7f1d625f7bd93b2612164e75b4b7ff10",
+        "inputSha256": "16fa5971d153f0dfb6329d07b14a544b45950d01fbb9c30d77cce9ecbf9484ba"
+    },
+    "audio/vocab/w_022_specimen.mp3": {
+        "audioSha256": "23e797d23eca97abf003465ac9bacd2c0751e496f796bf13aab52aff2ec5fd7b",
+        "inputSha256": "523810b23931da735408276ad7d6bc3981d4057fd81e2dda0a5ecedc8bb89e90"
+    },
+    "audio/vocab/w_023_cavity.mp3": {
+        "audioSha256": "6502f13f1f16f5c5f87f5589d75ce9b09641245a839a4ef3190b1ab4b5bf3c49",
+        "inputSha256": "7daa25a8b478df278b35429c2b297c8da086fde587decdf2f494ea9c67824198"
+    },
+    "audio/vocab/w_024_citation.mp3": {
+        "audioSha256": "ba32f2f898d20af0ec0d872214cbf7cf55d8a8a8a493c976bb967a2a76fb65e5",
+        "inputSha256": "6694ca7641db1103f2878558497beeea729dfc3e8cd60b2b5ccde00b4c8760fb"
+    },
+    "audio/vocab/w_025_distortion.mp3": {
+        "audioSha256": "63d4e063f73c54b1724a8fbc8fa801dedad9d3f4e723d66e0d5bf26556dbae25",
+        "inputSha256": "5af29add4e6b582c1a5d30f471378aba6dc66f6f101e9f11f45bbe2e261e116a"
+    },
+    "audio/vocab/w_026_generosity.mp3": {
+        "audioSha256": "74b81766e8902a0a1fca7fde479e2d1d3b59253b74bbb8afe9ae3c2b47e97b66",
+        "inputSha256": "cce7a7a400ed007ec7f72e57650014437227e763695272c31125c4402a2d850f"
+    },
+    "audio/vocab/w_027_turbulence.mp3": {
+        "audioSha256": "0570c0ad362b59cf153b97e1a827ffa462d7daccc6f9d79a89f17aa4736b2965",
+        "inputSha256": "c2babe741e2c440188a2d910f116ae01f9d038da9632735b2fee14953dee0837"
+    },
+    "audio/vocab/w_028_conjecture.mp3": {
+        "audioSha256": "b85e2c3f405c4617aeca2f288fd005fe566abd476530f57a32e9b16dde677c61",
+        "inputSha256": "b9e2862fef5fd8d7b125ee2200971c2b2f63e779ab0fce0a8361bb1238b5fdff"
+    },
+    "audio/vocab/w_029_nutritious.mp3": {
+        "audioSha256": "a0f7cdf7b629bcaa03b72781ceac3a77977a958646f6f20f07216577be5473d4",
+        "inputSha256": "701bf1869de9d6533d4c6b33b5f7e9a9a05c68d85c9422ae430b5a00e5dc97e9"
+    },
+    "audio/vocab/w_030_diverse.mp3": {
+        "audioSha256": "bcfb58b74dc6fddba32da7d7c8725de13d63ed45b71b77a0a30ccc35a3dde667",
+        "inputSha256": "cc5421c68a9c58fd6af2e9ae815aaea88515179a47478061aa7f091336a052bd"
+    },
+    "audio/vocab/w_031_barren.mp3": {
+        "audioSha256": "c9ba14d4f0c4115969e70290faee5df6ce53029af8116b4c0bf1f0c8c721f159",
+        "inputSha256": "2d09495cf349fca0a70fdbcb18c54900787b55eefb7545c26a633a931d21b7c5"
+    },
+    "audio/vocab/w_032_coincidental.mp3": {
+        "audioSha256": "8d674c5beba3ed4d32b23d6ed0a2371bda9e44a2862f0ab7f62c5506ae049eb6",
+        "inputSha256": "1021ad9dad4f9c69d70017ca6ed3075125e21c8cfa682745ec50a1ddf0d7e7fc"
+    },
+    "audio/vocab/w_033_slack.mp3": {
+        "audioSha256": "950b30144e15c02de7deee053b9a72fa646ed17877f53535cacfdec18d3689a9",
+        "inputSha256": "5e1b8f72fed1c68b65e4e8fe46ab5ef5cd7473c5c890be8229e45c05c3c6617a"
+    },
+    "audio/vocab/w_034_sparse.mp3": {
+        "audioSha256": "8461e9af80d7b66df59e023965d93cbfbe745e557e876866b7f17cd86e1aa5d9",
+        "inputSha256": "5ab4f80d46423c0206530dba0531edbf61e67a6f9bfd8149e4de239b18e99d10"
+    },
+    "audio/vocab/w_035_vast.mp3": {
+        "audioSha256": "d6354b1d3314b0703e1a31b8f44ef299528750e5a9eab36904697ddb701853c2",
+        "inputSha256": "2ebf9eba085a33c050f5ca9fccd038702569ba8fb7839076bb12ddc6f053cab3"
+    },
+    "audio/vocab/w_036_vital.mp3": {
+        "audioSha256": "8ae2e241d5831d221d6a124647597562bd339be11b08e6565787288aff7c5f4f",
+        "inputSha256": "d1788f2fc2688862c02d4504a8d39df57af30896cc8054c20a2b31f51efd2935"
+    },
+    "audio/vocab/w_037_descendant.mp3": {
+        "audioSha256": "5fb5a38ee02eb7c4fe03ffb650f29a10f4b7c61771c8ce5986b9cc367f28443f",
+        "inputSha256": "0141f0657424f3678599a6ba70075c5a8227783e0dae6d46f0ed015b9fba07be"
+    },
+    "audio/vocab/w_038_triumph.mp3": {
+        "audioSha256": "0719eac388376533bb8b328335ba2211c87985610a16d7b3cf5c930a03999db0",
+        "inputSha256": "a8c75fb8b6991c6652e6202821dcae28a28fb4a9cc2149fb69672585b57df167"
+    },
+    "audio/vocab/w_039_emission.mp3": {
+        "audioSha256": "d3622059fecbcd2546d58face6eba8c256916604bdfd65d719d30c788f5ba13a",
+        "inputSha256": "5971470e0c0b0384e3fe08b51fa21cf38c204142551343a3e8894cb1f0b7ecb7"
+    },
+    "audio/vocab/w_040_deficiency.mp3": {
+        "audioSha256": "a6f63ca2834aa1755a80da1ff655cbfa4f4e2ff2d9efbc266e340debd0988809",
+        "inputSha256": "0a8752233517bad82dfc348be67de4d5807c3443d22f3444507dcbeb56f6073a"
+    },
+    "audio/vocab/w_041_flourishing.mp3": {
+        "audioSha256": "52b085594081ba7000f981c4c163b60b87dcd54d09ffa643ad656c34897e4b68",
+        "inputSha256": "bcebcebb1955611f3c5d8ea32bd2f711a9d16c8e5e2c699af50151aee370e9c7"
+    },
+    "audio/vocab/w_042_pledging.mp3": {
+        "audioSha256": "589c5d22500561923f946c4921e6fe19802059fe6697cbbc330880544e8ee18c",
+        "inputSha256": "89a649580b7adc67acdfbae41a0c06b790f98e4a1c7883aa855ec19f00634460"
+    },
+    "audio/vocab/w_043_scattering.mp3": {
+        "audioSha256": "dcd13d2f6b9c11b78cc34aa3b3eb3e5397d435fad320a603739a4ed3c0089a6e",
+        "inputSha256": "7a010e00defbfe00217abdfd2791d9005dbf7bb15ab4ebd89c61594714a67ea9"
+    },
+    "audio/vocab/w_044_drooping.mp3": {
+        "audioSha256": "de22b13071d0b815258f39e46e504535a4f862f5d6489461ede9ec9db29ef229",
+        "inputSha256": "e84b7e70193ec5df962aafa66c351beb0bacaa166cafa217bcd94ad8d5607e01"
+    },
+    "audio/vocab/w_045_reptile.mp3": {
+        "audioSha256": "dc57ed0ff0cd4585f18100121438e2da06420675a151504e3e3f0d62eeb1551d",
+        "inputSha256": "b881ea5a2122efba912aafdbd9dd3f65d2377f02e016020307f83f991b5b0d9c"
+    },
+    "audio/vocab/w_046_glacier.mp3": {
+        "audioSha256": "fa777ef71a93114defeb81172edd676977b143a8fc158e69d11d3738e1c4494a",
+        "inputSha256": "6d90bd3a6d2036b0ebcad653a39ab5c93600132b99e2df63f9238782496bc9ff"
+    },
+    "audio/vocab/w_047_blockade.mp3": {
+        "audioSha256": "fb9ac5b9c80fc6f25d6d68f499ca216f47a4f94cd80c99b6d2fb9e6f91bf6a86",
+        "inputSha256": "e9b0bd2fc8e49d58a4ec00d4fdb75694512f6c47359a448ccca22c29604892f3"
+    },
+    "audio/vocab/w_048_portfolio.mp3": {
+        "audioSha256": "9ff7861651c3fee9196dd2767a4a2913ba812050d51eff1d84e3a7816679af14",
+        "inputSha256": "20ab0c16dd6f7f3884856c46791c01e6a1de847ed0438b633b694f9c6d3f950b"
+    },
+    "audio/vocab/w_049_abbreviate.mp3": {
+        "audioSha256": "bf598a7b282f19038e27812c914c0f75b5a349dd2dc01251721ccfaf3736c44b",
+        "inputSha256": "480678144bed97eebbf90baa1aaffed295558f1df2daf8dc197139f40c863628"
+    },
+    "audio/vocab/w_050_attest.mp3": {
+        "audioSha256": "e5a808d073008c57ae5f09fc9a0337ad258e929ccff2b7940ce3d5e2bcbc44e3",
+        "inputSha256": "b23ce9a21b269ab449a398abea3f26c3ad125779cee1255d2f51d57519158875"
+    },
+    "audio/vocab/w_051_carve.mp3": {
+        "audioSha256": "af801b8296f6c48e63a0b70506d738f0566e1ac35e5981fbaf55fa9fe16297e4",
+        "inputSha256": "3f697d1866e1487cedd7fc441ee5ba90b2c3917caeb6b2e4b5baa00448b35d2b"
+    },
+    "audio/vocab/w_052_yield.mp3": {
+        "audioSha256": "2a508e18e714bc57dea01698a825bb409c4d7fac3dda7f33966e85ae48a893a0",
+        "inputSha256": "b12c7926599f2c7fb96dc0645ec178812997abd2f839181830692f441f140aab"
+    },
+    "audio/vocab/w_053_radiate.mp3": {
+        "audioSha256": "563cd51cad9bcb113da4b8c23aa6889f0a373a637f7d98b2e0632befb83af4dc",
+        "inputSha256": "cd5b845c527c7b3b0a678bd295dcf6f2be0956d1e826714f47c8460aeefd9908"
+    },
+    "audio/vocab/w_054_magnify.mp3": {
+        "audioSha256": "1f508b8447ea0840004be43dd927e24f3e24cf34e97efbba1e78fd3fd16569dd",
+        "inputSha256": "b51d976c8bb15f46154c596648efeee15c5fc5510b851b0b1e23e0b08f81b494"
+    },
+    "audio/vocab/w_055_extract.mp3": {
+        "audioSha256": "20e62e913eb07de382fad958bdf57c2020d193790de02e9f63937d3282088916",
+        "inputSha256": "14dcc255eb633f32d05579b569ae176e0584909e636cd7db2b6fc3a317c2c584"
+    },
+    "audio/vocab/w_056_impart.mp3": {
+        "audioSha256": "67b9c408584d1e4e52c15543468f7e27b99620b194e7fc9c138b8ac5ca5ac73f",
+        "inputSha256": "528c82154262f400f45ff727b0adb30522d471ee1071a215cb52b9f47af84209"
+    },
+    "audio/vocab/w_057_sank_in.mp3": {
+        "audioSha256": "05006b1c48a3b38a35dad16fcf184376e1a2621b2607bcd3afe430263bd074a3",
+        "inputSha256": "19f5d94623429ff0bb85f08ef2f53f1ac53d470f3eb2ee3499eb2ce743fb2cec"
+    },
+    "audio/vocab/w_058_let_out.mp3": {
+        "audioSha256": "43d95526fb16ea2620175df279210fa836a580054f35192df1597c3e55d1b2e9",
+        "inputSha256": "028f4420e86fc0923ca57fe3aa897e7b6e3d9029d2c05073e4ecaf810dd25350"
+    },
+    "audio/vocab/w_059_went_under.mp3": {
+        "audioSha256": "fd0921ed453f9a55cb5dd8caeda2cd31497d7fdb9cdfd68609399823c6c8d781",
+        "inputSha256": "745b84065c15a4e015b0744ca83a0ba14a5dc6c284dfc0d3d914a02fbb19002b"
+    },
+    "audio/vocab/w_060_lived_off.mp3": {
+        "audioSha256": "86181fa17e418a07bd5496c86482b5f04fc1be6be1bbf0a5a1329979843bbac1",
+        "inputSha256": "5268fcd5d6cbc0d5d18b083de2641103227f6876b94150595ca411f6912702e1"
+    },
+    "audio/vocab/w_061_add_up.mp3": {
+        "audioSha256": "fc673728ca9ae58a9d6281bfa014a886ea972a747e3b677f2a6dfb05730f7bd2",
+        "inputSha256": "d8a7dbdec8c38c1ac51b532bb1c8c90f188c8e5f22852c6b1f7205f03584aec5"
+    },
+    "audio/vocab/w_062_read_into.mp3": {
+        "audioSha256": "8666c2447a37a5d71a712e3a1ad89eee6dc540a1c58fd5dc42ae473559e889bc",
+        "inputSha256": "13043ec87c76eec0b8085e0ff2ad44f66a39ab6ade691fcc02e00552bfd47bab"
+    },
+    "audio/vocab/w_063_take_off.mp3": {
+        "audioSha256": "c8b097f1e3e68548d30669e10a4ad7a491a91928e8c2d42aafe8faa0293934a9",
+        "inputSha256": "81d5d035e3a1de9f46b0e7de9fc784df167cf5a8d39395b98f6bef549d168e30"
+    },
+    "audio/vocab/w_064_fall_out.mp3": {
+        "audioSha256": "16b37f5ae949da9cfe846feff99b9c3fedb8f3c829ee66213249534d09a580a1",
+        "inputSha256": "4037f21d1312216e3acfa7714d9a544ebdc55b0df5c8f3058d4ee6d4d6a0d1f7"
+    },
+    "audio/vocab/w_065_slip_away.mp3": {
+        "audioSha256": "a9cfcf0cb153c4c0c73f5cdff422385f6dee00d766df5930ed76fde92a1aae46",
+        "inputSha256": "8f998ec2eb55124f1fffcf599376fec411c1b3b29addce598f0863d43c7c0f70"
+    },
+    "audio/vocab/w_066_tear_up.mp3": {
+        "audioSha256": "799f4f6f27295fcdd2ee8830382acfc05d022c3c8f56d663a11385e72ec2966f",
+        "inputSha256": "021097c917f12838086607e3fe057497140f39436817305bb101a5c271f252f6"
+    },
+    "audio/vocab/w_067_drop_out.mp3": {
+        "audioSha256": "1ccda77ec38b5d4cfe503049ac72d880bd6d8c5b3920cb33ecccbd942614277d",
+        "inputSha256": "d5e111a6bd83550a0db04ba26a64e70aad621bbb6486ae9dd7b40fb96384f719"
+    },
+    "audio/vocab/w_068_follow_up.mp3": {
+        "audioSha256": "8c5f6841ae723e306f94f2f010e9148e5d215364050d00413d70571e690400fb",
+        "inputSha256": "bea34d38915efc20339a28e9c55a836c4372b85da6d54381690f7f6771317964"
+    },
+    "audio/vocab/w_069_fed_off.mp3": {
+        "audioSha256": "c14fbf76843e267dd991ae74567485a93835bf7b5db331a7c7d4dc643c9759f7",
+        "inputSha256": "f45dc452559bfd2882c46bed0c83687577713259f31373748b1256b0494f9b6c"
+    },
+    "audio/vocab/w_070_burnt_out.mp3": {
+        "audioSha256": "f0c88989315180678ded99bf9873e19d3036e745b80fb6a3fed2867414185a82",
+        "inputSha256": "6b1f0934b04512db117b5b5b774c72cac71fba2324f6823f12a717115375fd9d"
+    },
+    "audio/vocab/w_071_fell_through.mp3": {
+        "audioSha256": "192c5a38c72bb915913e0318390bbb579ad976e0a3988daffde941a8f003772f",
+        "inputSha256": "91195399eb54ec99851ada4796d431c24c9c7f700f73cd90d403c204474af3b4"
+    },
+    "audio/vocab/w_072_ate_up.mp3": {
+        "audioSha256": "a62d5813c61925f843691a6a216ff11957d53a6e47a7e23f828ee016ac7cbb24",
+        "inputSha256": "0803cd2b7b4aae00e16f1a8f03b9204edce150e2a1b85000caa109ca7e41ed52"
+    },
+    "audio/vocab/w_073_birth_order.mp3": {
+        "audioSha256": "9a9999e5772e55a0a1855ca32b08b211776990fe47eba25de860613a6cf09cea",
+        "inputSha256": "baac893ea2710aadb6c440af7d4b7e3632af88e048d9f2e734042883c77e5fdc"
+    },
+    "audio/vocab/w_074_stereotype.mp3": {
+        "audioSha256": "b2ce93e65682bd162acbe50ecb7c2b043460044af120b72f45e32da3a864bf7c",
+        "inputSha256": "2c6a52f38fc819c4b3def688c84751e679bee4d81cc1684a2ceab8ffc2737cdd"
+    },
+    "audio/vocab/w_075_virtual_reconstruction.mp3": {
+        "audioSha256": "04437ae72566fabf935bf800e5d0cec624eb33087ab99344c8907184d4b976fa",
+        "inputSha256": "0a57e1fe113c539e1925658b3dde0006d594a65aea20077b8311d11e4430aa52"
+    },
+    "audio/vocab/w_076_sovereign.mp3": {
+        "audioSha256": "4f0786fa271ba33c4b6a27696b1449a0de777585d6a6380eede239a641216244",
+        "inputSha256": "68901fbc8c15da3b06c7086bdadc464b39399aa2e928ae3b8bd4beccb09d7837"
+    },
+    "audio/vocab/w_077_irrigation_canal.mp3": {
+        "audioSha256": "c5ccb079c4c1c9c03608cd08d720e3d09b78e348720343ffee727b4120a37aff",
+        "inputSha256": "4076a5aab22a1cb2c5302aa90e328883727db13c2ca77f284075279ecf1828cd"
+    },
+    "audio/vocab/w_078_cuneiform.mp3": {
+        "audioSha256": "6c78993e1a974ce02232ddeb945d8815e9477766edfe7e2ee3dbf80edf56834f",
+        "inputSha256": "450347b4cdf173243cd4f8fef55582ebfb9b905c78d9e9a14278c71594665aef"
+    },
+    "audio/vocab/w_079_genetic_manipulation.mp3": {
+        "audioSha256": "335b1afc2c4970297cf282dc28f0430f410a2bf69b49651bca1007ce1e3b823a",
+        "inputSha256": "9bfc0547522e0e17a636e8c693f7ef09797c31d78ddd48e4c35668c7838ab82c"
+    },
+    "audio/vocab/w_080_animal_uplift.mp3": {
+        "audioSha256": "2aa4701a461f7b5165baec3a17819e8874a9de33b886aa82976ead78ed00a983",
+        "inputSha256": "9d76b9c8b9f4df575bcf6f2f5ebdc4719e6a97728abe84b0689884fc220afcbd"
+    }
+}
