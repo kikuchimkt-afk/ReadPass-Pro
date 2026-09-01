@@ -378,14 +378,28 @@ def draw_question_block(
     c.setFont(SERIF_ITALIC, 11.5)
     c.drawCentredString(GUTTER_X + (GUTTER_W / 2), top - 18, f"({number})")
 
+    fitted_body_size = body_size
+    fitted_body_leading = body_leading
+    # Avoid leaving a final period or other closing mark alone on the next
+    # line. A very small per-question reduction preserves the fixed layout and
+    # keeps the punctuation attached to the sentence, as in official booklets.
+    if "\n" not in clean_text(text, wide_blanks=False):
+        for step in range(13):
+            candidate_size = body_size - (step * 0.05)
+            lines = wrap_text(text, SERIF, candidate_size, BODY_W)
+            if not any(re.fullmatch(r"[.,:;!?]+", line.strip()) for line in lines):
+                fitted_body_size = candidate_size
+                fitted_body_leading = body_leading * (candidate_size / body_size)
+                break
+
     cursor = draw_dialogue_text(
         c,
         text,
         BODY_X,
         top - 17,
         BODY_W,
-        size=body_size,
-        leading=body_leading,
+        size=fitted_body_size,
+        leading=fitted_body_leading,
     ) - 7
     if choice_layout == "row4":
         col_w = BODY_W / 4
@@ -1119,6 +1133,7 @@ def draw_answer_page(
     questions: list[dict],
     grade: str,
     exam: str,
+    answer_number_only_from: int | None = None,
 ) -> None:
     draw_page_header(c, grade_label, exam_label)
     y = PAGE_H - 70
@@ -1128,7 +1143,7 @@ def draw_answer_page(
     c.setFillColor(MID)
     c.setFont(JP_REGULAR, 8.4)
     answer_note = "すべて解き終えてから確認してください。"
-    if grade == "pre-grade1":
+    if answer_number_only_from is not None:
         answer_note += " 大問3は正解番号のみを表示しています。"
     c.drawString(MARGIN_X, y - 20, answer_note)
     qr_size = 54
@@ -1155,7 +1170,7 @@ def draw_answer_page(
     else:
         group_size = (len(questions) + 2) // 3
         question_groups = [questions[index:index + group_size] for index in range(0, len(questions), group_size)]
-        row_h = 40
+        row_h = 39 if grade == "pre-grade1" else 40
         question_size = 8.8
         answer_y_offset = 28
         answer_size = 7.3
@@ -1183,7 +1198,7 @@ def draw_answer_page(
             c.setFont(SERIF_BOLD, question_size)
             c.drawString(x + 7, cell_top - 15, f"Q{int(question['number']):02d}")
             c.drawRightString(x + col_w - 7, cell_top - 15, str(answer))
-            if grade == "pre-grade1" and int(question["number"]) >= 25:
+            if answer_number_only_from is not None and int(question["number"]) >= answer_number_only_from:
                 continue
             if grade in {"grade5", "grade4"}:
                 answer_font = JP_REGULAR if any(ord(character) > 127 for character in answer_text) else SERIF
@@ -1200,15 +1215,18 @@ def draw_answer_page(
                     wide_blanks=False,
                 )
             else:
+                generic_answer_y_offset = answer_y_offset if grade == "pre-grade1" else 32
+                generic_answer_size = answer_size if grade == "pre-grade1" else 8.2
+                generic_answer_leading = answer_leading if grade == "pre-grade1" else 9.8
                 draw_wrapped(
                     c,
                     answer_text,
                     x + 7,
-                    cell_top - 32,
+                    cell_top - generic_answer_y_offset,
                     col_w - 14,
                     font=SERIF,
-                    size=8.2,
-                    leading=9.8,
+                    size=generic_answer_size,
+                    leading=generic_answer_leading,
                     color=DARK,
                 )
 
@@ -1256,13 +1274,20 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         if grade == "grade-pre2" and len(sections) >= 3
         else 0
     )
+    pre1_reading_count = (
+        len(sections[2].get("passages", []))
+        if grade == "pre-grade1" and len(sections) >= 3
+        else 0
+    )
     grade2_reading_count = (
         len(sections[2].get("passages", []))
         if grade == "grade2" and len(sections) >= 3
         else 0
     )
     default_trailing_pages = 7
-    if grade == "grade-pre2" and pre2_fill_count == 2:
+    if grade == "pre-grade1" and pre1_reading_count in {2, 3}:
+        default_trailing_pages = 3 + (2 * pre1_reading_count)
+    elif grade == "grade-pre2" and pre2_fill_count == 2:
         default_trailing_pages = 8
     elif grade == "grade2" and grade2_reading_count == 3:
         default_trailing_pages = 9
@@ -1442,8 +1467,16 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
             *[len(passage.get("questions", [])) for passage in passage_fills],
             *[len(passage.get("questions", [])) for passage in reading_passages],
         ]
-        if len(passage_fills) != 2 or len(reading_passages) != 2 or count_signature != [3, 3, 3, 4]:
-            raise ValueError("Grade Pre-1 layout requires question counts 3 / 3 / 3 / 4 after Part 1")
+        allowed_reading_counts = {2, 3}
+        expected_signature = [3, 3, 3, 4] if len(reading_passages) == 2 else [3, 3, 3, 3, 4]
+        if (
+            len(passage_fills) != 2
+            or len(reading_passages) not in allowed_reading_counts
+            or count_signature != expected_signature
+        ):
+            raise ValueError(
+                "Grade Pre-1 layout requires two fill passages and two or three reading passages"
+            )
 
         fill_panel_height = pre1_passage_fill_panel_height(passage_fills)
         for index, passage in enumerate(passage_fills):
@@ -1510,7 +1543,17 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         )
         if page_number != total_pages:
             raise RuntimeError("Grade Pre-1 page numbering drifted")
-        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        draw_answer_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            all_questions,
+            grade,
+            exam,
+            answer_number_only_from=int(reading_questions[0]["number"]),
+        )
         pdf.save()
         return
 
