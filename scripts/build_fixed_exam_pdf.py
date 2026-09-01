@@ -669,14 +669,6 @@ def draw_notice_page(
     )
     draw_gutter(c, top)
 
-    panel_height = 255
-    c.setStrokeColor(DARK)
-    c.setLineWidth(0.7)
-    c.rect(BODY_X, top - panel_height, BODY_W, panel_height, stroke=1, fill=0)
-    c.setFillColor(INK)
-    c.setFont(SERIF_BOLD, 16)
-    c.drawCentredString(BODY_X + (BODY_W / 2), top - 28, clean_text(passage.get("title", "")))
-
     paragraphs = passage.get("paragraphs", [])
     first_lines = [clean_text(line) for line in (paragraphs[0].splitlines() if paragraphs else []) if clean_text(line)]
     title = clean_text(passage.get("title", ""))
@@ -684,6 +676,21 @@ def draw_notice_page(
         first_lines = first_lines[1:]
     info_height = max(48, 16 + (len(first_lines) * 14))
     info_top = top - 47
+    body_height = sum(
+        (len(wrap_text(paragraph, SERIF, 10.7, BODY_W - 36)) * 13.8) + 8
+        for paragraph in paragraphs[1:]
+    )
+    required_panel_height = math.ceil(47 + info_height + 15 + body_height + 12)
+    panel_height = max(255, required_panel_height)
+    if top - panel_height - 8 <= BOTTOM_Y + 170:
+        raise RuntimeError("Notice and questions cannot fit on one page")
+    c.setStrokeColor(DARK)
+    c.setLineWidth(0.7)
+    c.rect(BODY_X, top - panel_height, BODY_W, panel_height, stroke=1, fill=0)
+    c.setFillColor(INK)
+    c.setFont(SERIF_BOLD, 16)
+    c.drawCentredString(BODY_X + (BODY_W / 2), top - 28, clean_text(passage.get("title", "")))
+
     c.setFillColor(PALE)
     c.rect(BODY_X + 14, info_top - info_height, BODY_W - 28, info_height, stroke=0, fill=1)
     cursor = info_top - 18
@@ -968,6 +975,10 @@ def draw_passage_fill_page(
 
 
 def passage_emails(passage: dict) -> list[dict]:
+    explicit_emails = passage.get("emails", [])
+    if explicit_emails:
+        return explicit_emails
+
     paragraphs = passage.get("paragraphs", [])
     if len(paragraphs) % 2 != 0:
         raise ValueError("Email passage must contain header/body paragraph pairs")

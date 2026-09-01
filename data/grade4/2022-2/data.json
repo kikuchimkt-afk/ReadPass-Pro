@@ -1010,6 +1010,26 @@
                     "label": "B",
                     "title": "Snow Festival",
                     "format": "email",
+                    "emails": [
+                        {
+                            "meta": {
+                                "from": "Carol Miller",
+                                "to": "Dennis Little",
+                                "date": "January 16",
+                                "subject": "Snow festival"
+                            },
+                            "body": "Hi Dennis,\nSmallville will have a special event! There will be a snow festival for six days, from February 2 to 7. On February 6, there will be an ice sculpture contest. The winner will get $200. I want to go that day and see the sculptures. Tickets are $10 each. Do you want to go?\nYour friend,\nCarol"
+                        },
+                        {
+                            "meta": {
+                                "from": "Dennis Little",
+                                "to": "Carol Miller",
+                                "date": "January 17",
+                                "subject": "Let's go!"
+                            },
+                            "body": "Hi Carol,\nI want to see the sculptures, but I'll go skiing with my family on February 5 and 6. I looked at the festival's website. We can still see the sculptures on February 7. They'll also have a snowman contest that day. Tickets are $5 each, and the winner gets $100. Let's join!\nTalk to you soon,\nDennis"
+                        }
+                    ],
                     "meta": {
                         "from": "Carol Miller",
                         "to": "Dennis Little",
