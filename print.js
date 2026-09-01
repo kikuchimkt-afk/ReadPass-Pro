@@ -165,6 +165,24 @@
 
     const BASE_URL = 'https://read-pass-pro.vercel.app/';
     const FIXED_EXAM_PDFS = {
+        'pre-grade1/2022-1': {
+            label: '英検準1級 2022年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre1_2022-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2022-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre1_2022-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
+        },
+        'pre-grade1/2022-2': {
+            label: '英検準1級 2022年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre1_2022-2_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2022-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre1_2022-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
+        },
+        'pre-grade1/2022-3': {
+            label: '英検準1級 2022年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre1_2022-3_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2022-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre1_2022-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
+        },
         'pre-grade1/2023-1': {
             label: '英検準1級 2023年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_GradePre1_2023-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre1-2023-v1',
