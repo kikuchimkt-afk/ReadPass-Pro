@@ -1723,7 +1723,21 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         )
         if page_number != total_pages:
             raise RuntimeError(f"{layout_name} page numbering drifted")
-        draw_answer_page(pdf, page_number, total_pages, grade_label, exam_label, all_questions, grade, exam)
+        draw_answer_page(
+            pdf,
+            page_number,
+            total_pages,
+            grade_label,
+            exam_label,
+            all_questions,
+            grade,
+            exam,
+            answer_number_only_from=(
+                int(email_questions[0]["number"])
+                if grade == "grade2" and exam in {"2022-1", "2022-2", "2022-3"}
+                else None
+            ),
+        )
         pdf.save()
         return
 

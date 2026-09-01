@@ -33,6 +33,9 @@
             id: 'grade2', name: 'CEFR B1（2級相当）', nameEn: 'CSE 1980', icon: 'B1',
             color: '#4f8cff', colorRgb: '79, 140, 255', dataPath: 'grade2',
             exams: [
+                { id: '2022-1', label: '2022年度 第1回' },
+                { id: '2022-2', label: '2022年度 第2回' },
+                { id: '2022-3', label: '2022年度 第3回' },
                 { id: '2023-1', label: '2023年度 第1回' },
                 { id: '2023-2', label: '2023年度 第2回' },
                 { id: '2023-3', label: '2023年度 第3回' },
@@ -446,6 +449,24 @@
             path: 'output/pdf/ReadPass_EIKEN_Grade4_2026-1-sat_Practice_Exam_Large_Type_v1.pdf?v=20260829-eiken-grade345-2026-1-v1',
             downloadName: 'ReadPass_EIKEN_Grade4_2026-1-sat_Practice_Exam_Large_Type_v1.pdf',
             pages: 11
+        },
+        'grade2/2022-1': {
+            label: '英検2級 2022年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade2_2022-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-grade2-2022-1-v1',
+            downloadName: 'ReadPass_EIKEN_Grade2_2022-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
+        },
+        'grade2/2022-2': {
+            label: '英検2級 2022年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade2_2022-2_Practice_Exam_Large_Type_v1.pdf?v=20260902-eiken-grade2-2022-2-v1',
+            downloadName: 'ReadPass_EIKEN_Grade2_2022-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
+        },
+        'grade2/2022-3': {
+            label: '英検2級 2022年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade2_2022-3_Practice_Exam_Large_Type_v1.pdf?v=20260902-eiken-grade2-2022-3-v1',
+            downloadName: 'ReadPass_EIKEN_Grade2_2022-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 13
         },
         'grade2/2023-1': {
             label: '英検2級 2023年度 第1回',
