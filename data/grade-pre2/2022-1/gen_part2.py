@@ -35,8 +35,8 @@ section3 = {
         {"label":"B","title":"Getting to Know New Orleans",
          "paragraphs":[
              "New Orleans is a city in the southern United States. In the past, people from France, Spain, Africa, and the Caribbean came to live there. As a result, it has a unique culture. This can be seen in the design of the city's buildings and heard in the city's music. Visitors can also experience this culture by ( 28 ) that come from New Orleans and the area around it. For example, visitors can get to know the city by eating foods like jambalaya. This is made from meat, seafood, vegetables, rice, and spices.",
-             "New Orleans is also famous for cakes called beignets. A beignet is like a doughnut without a hole. Beignets are normally eaten for breakfast. However, they are served all day in cafes in an area of the city called the French Quarter. Cafe du Monde is the most famous of these. It has ( 29 ). In fact, it only sells beignets and drinks.",
-             "People in New Orleans usually drink a kind of coffee called cafe au lait with their beignets. They use warm milk and a special type of coffee to make this. Long ago, coffee beans were very expensive. People looked for cheaper things that tasted like coffee, and they discovered a plant called chicory. The roots of this plant ( 30 ) coffee. Over time, the people of New Orleans came to love the taste of coffee made from a mixture of coffee beans and dried chicory roots."
+             "New Orleans is also famous for cakes called beignets. A beignet is like a doughnut without a hole. Beignets are normally eaten for breakfast. However, they are served all day in cafés in an area of the city called the French Quarter. Café du Monde is the most famous of these. It has ( 29 ). In fact, it only sells beignets and drinks.",
+             "People in New Orleans usually drink a kind of coffee called café au lait with their beignets. They use warm milk and a special type of coffee to make this. Long ago, coffee beans were very expensive. People looked for cheaper things that tasted like coffee, and they discovered a plant called chicory. The roots of this plant ( 30 ) coffee. Over time, the people of New Orleans came to love the taste of coffee made from a mixture of coffee beans and dried chicory roots."
          ],
          "translations":[
              "ニューオーリンズはアメリカ南部の都市だ。かつて、フランス、スペイン、アフリカ、カリブ海から人々がやって来た。その結果、独自の文化がある。それは建物のデザインに見られ、音楽に聞かれる。訪問者はニューオーリンズとその周辺地域の料理を( 28 )ことでもこの文化を体験できる。例えば、ジャンバラヤのような料理を食べることで街を知ることができる。",
@@ -51,7 +51,7 @@ section3 = {
              ["This is made from meat, seafood, vegetables, rice, and spices.","これは肉、魚介類、野菜、米、スパイスから作られる。"],
              ["A beignet is like a doughnut without a hole.","ベニエは穴のないドーナツのようなものだ。"],
              ["Beignets are normally eaten for breakfast.","通常朝食に食べられる。"],
-             ["Cafe du Monde is the most famous of these.","カフェ・デュ・モンドがその中で最も有名だ。"],
+             ["Café du Monde is the most famous of these.","カフェ・デュ・モンドがその中で最も有名だ。"],
              ["In fact, it only sells beignets and drinks.","実際、ベニエと飲み物しか売っていない。"],
              ["Long ago, coffee beans were very expensive.","昔、コーヒー豆はとても高価だった。"],
              ["People looked for cheaper things that tasted like coffee, and they discovered a plant called chicory.","人々はコーヒーに似た味のもっと安いものを探し、チコリという植物を発見した。"],
