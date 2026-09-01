@@ -573,6 +573,24 @@
             downloadName: 'ReadPass_EIKEN_GradePre2_2026-1_Practice_Exam_Large_Type_v1.pdf',
             pages: 10
         },
+        'grade3/2022-1': {
+            label: '英検3級 2022年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2022-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-grade3-2022-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2022-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2022-2': {
+            label: '英検3級 2022年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2022-2_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-grade3-2022-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2022-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade3/2022-3': {
+            label: '英検3級 2022年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_Grade3_2022-3_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-grade3-2022-v1',
+            downloadName: 'ReadPass_EIKEN_Grade3_2022-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
         'grade3/2023-1': {
             label: '英検3級 2023年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_Grade3_2023-1_Practice_Exam_Large_Type_v1.pdf?v=20260828-eiken-grade3-2023-v1',

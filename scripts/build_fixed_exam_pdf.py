@@ -1097,6 +1097,42 @@ def draw_email_questions_page(
     c.showPage()
 
 
+def draw_letter_passage_page(
+    c: canvas.Canvas,
+    page_number: int,
+    total_pages: int,
+    grade_label: str,
+    exam_label: str,
+    passage: dict,
+    section_prefix: str = "大問3B",
+    question_range: str = "Q23-Q25",
+) -> None:
+    draw_page_header(c, grade_label, exam_label)
+    title = clean_text(passage.get("title", "手紙問題"))
+    top = draw_section_title(
+        c,
+        f"{section_prefix}  {title}",
+        f"手紙を読み、次ページの{question_range}に答えなさい。",
+        PAGE_H - 58,
+    )
+    draw_gutter(c, top)
+    letter_x = BODY_X + 22
+    letter_w = BODY_W - 44
+    cursor = top - 18
+    date = clean_text(passage.get("meta", {}).get("date", ""))
+    if date:
+        c.setFillColor(INK)
+        c.setFont(SERIF, 10.45)
+        c.drawString(letter_x, cursor, date)
+        cursor -= 24
+    for paragraph in passage.get("paragraphs", []):
+        cursor = draw_wrapped(c, paragraph, letter_x, cursor, letter_w, font=SERIF, size=10.45, leading=13.7) - 10
+    if cursor < BOTTOM_Y + 8:
+        raise RuntimeError("Letter overflowed its fixed page")
+    draw_page_footer(c, page_number, total_pages)
+    c.showPage()
+
+
 def draw_article_page(
     c: canvas.Canvas,
     page_number: int,
@@ -1728,11 +1764,23 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
         email_passage = passages[1]
         emails = email_passage.get("emails", [])
         email_title = clean_text(email_passage.get("title", "メール問題"))
-        draw_emails_page(pdf, page_number, total_pages, grade_label, exam_label, emails[:2], f"大問3B  {email_title}")
-        page_number += 1
-        final_email = emails[2] if len(emails) >= 3 else None
         email_questions = email_passage.get("questions", [])
         email_range = question_range_label(email_questions)
+        if emails:
+            draw_emails_page(pdf, page_number, total_pages, grade_label, exam_label, emails[:2], f"大問3B  {email_title}")
+        else:
+            draw_letter_passage_page(
+                pdf,
+                page_number,
+                total_pages,
+                grade_label,
+                exam_label,
+                email_passage,
+                section_prefix="大問3B",
+                question_range=email_range,
+            )
+        page_number += 1
+        final_email = emails[2] if len(emails) >= 3 else None
         draw_email_questions_page(pdf, page_number, total_pages, grade_label, exam_label, email_title, final_email, email_questions, question_range=email_range)
         page_number += 1
         article_questions = passages[2].get("questions", [])
