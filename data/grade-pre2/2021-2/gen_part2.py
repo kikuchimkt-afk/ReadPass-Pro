@@ -63,16 +63,20 @@ s4 = {"name":"大問4","nameEn":"Part 4","type":"reading-comprehension",
     "instruction":"次の英文A，Bの内容に関して，(31)から(37)までの質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
     "passages":[
         {"label":"A","title":"Asian Tours","format":"email",
-         "meta":{"from":"Charles Baker","to":"Allison Carter","date":"October 10","subject":"Asian tours"},
+         "meta":{"from":"Charles Baker <charlesbaker136@wanderworld.com>","to":"Allison Carter <alli-carter@mymail.com>","date":"October 10","subject":"Asian tours"},
          "paragraphs":[
+             "Dear Ms. Carter,",
              "This is Charles, the travel agent at Wander World Tours. Thank you for contacting me yesterday about trips in Asia. You told me on the phone that you had a great time on our five-day Rhine River Tour in Germany last year. I thought about the things that you said you liked and didn't like about it.",
              "I remember you said your favorite part about the Rhine River trip was visiting a new place every day. You also liked that you didn't have to spend time on buses, and it was nice because you didn't have to move your things to new hotels. However, you also said the price of $3,500 for the trip was too much, and the food was great but expensive.",
-             "Because of those things, I would like to recommend our Mekong River Tour in Vietnam. It lasts eight days and costs only $2,800. Also, we have one-city tours for some cities in Asia. With these, you can stay at the same hotel for the whole trip. The price is different for each city, so I'm sending you some information about these tours. They are attached to this e-mail. Please take a look at them and call me."
+             "Because of those things, I would like to recommend our Mekong River Tour in Vietnam. It lasts eight days and costs only $2,800. Also, we have one-city tours for some cities in Asia. With these, you can stay at the same hotel for the whole trip. The price is different for each city, so I'm sending you some information about these tours. They are attached to this e-mail. Please take a look at them and call me.",
+             "Thank you!\n\nSincerely,\nCharles Baker\nWander World Tours"
          ],
          "translations":[
+             "カーター様へ、",
              "こちらはワンダーワールドツアーの旅行代理店のチャールズです。昨日アジア旅行についてご連絡いただきありがとうございます。電話で、昨年のドイツのライン川5日間ツアーがとても楽しかったとおっしゃっていましたね。気に入った点と気に入らなかった点について考えました。",
              "ライン川ツアーで一番気に入ったのは毎日新しい場所を訪れることだとおっしゃっていましたね。バスに乗る時間がないのも良かったし、荷物を新しいホテルに移さなくてよいのも良かったと。ただ、3,500ドルは高すぎるとも、食事は素晴らしかったが高かったともおっしゃっていました。",
-             "そのため、ベトナムのメコン川ツアーをお勧めしたいと思います。8日間で2,800ドルです。また、アジアのいくつかの都市の1都市ツアーもあります。これなら旅行中ずっと同じホテルに滞在できます。料金は都市ごとに異なりますので、ツアー情報をお送りします。このメールに添付しています。ご覧の上お電話ください。"
+             "そのため、ベトナムのメコン川ツアーをお勧めしたいと思います。8日間で2,800ドルです。また、アジアのいくつかの都市の1都市ツアーもあります。これなら旅行中ずっと同じホテルに滞在できます。料金は都市ごとに異なりますので、ツアー情報をお送りします。このメールに添付しています。ご覧の上お電話ください。",
+             "ありがとうございます！\n\n敬具\nチャールズ・ベイカー\nワンダー・ワールド・ツアーズ"
          ],
          "sentencePairs":[
              ["Thank you for contacting me yesterday about trips in Asia.","昨日アジア旅行についてご連絡いただきありがとうございます。"],

@@ -1409,20 +1409,24 @@
                     "title": "Thanks!",
                     "format": "email",
                     "meta": {
-                        "from": "John Evans",
-                        "to": "Benjamin Crane",
+                        "from": "John Evans <j-evans9@coolmail.com>",
+                        "to": "Benjamin Crane <ben-crane@webmail.com>",
                         "date": "May 30",
                         "subject": "Thanks!"
                     },
                     "paragraphs": [
+                        "Hi Ben,",
                         "Thank you for coming to my 16th birthday party last week. It was great to see you and all the rest of my friends there. Also, thank you for the jazz CD you gave me. I've been listening to it every day while I study. It's really relaxing! My sister really likes it, too, and she wants to borrow it.",
                         "Anyway, I wanted to tell you about another gift that I got. It was from my aunt who lives in Oregon. It's a book about all the different hiking and backpacking trails in Oregon. It has trail maps, descriptions, and advice on the best camping sites along each trail. Now, I really want to go backpacking in Oregon!",
-                        "My aunt said she will take me backpacking this summer. She said I can choose any trail that I like. She also said I can bring a friend. Would you like to come with me? I've never been backpacking before. My aunt said it's better to only do a one-night trip the first time. That way, if it's too hard, we can go home the next day. Please speak to your parents and let me know if you can come. See you in school!"
+                        "My aunt said she will take me backpacking this summer. She said I can choose any trail that I like. She also said I can bring a friend. Would you like to come with me? I've never been backpacking before. My aunt said it's better to only do a one-night trip the first time. That way, if it's too hard, we can go home the next day. Please speak to your parents and let me know if you can come. See you in school!",
+                        "Your friend,\nJohn"
                     ],
                     "translations": [
+                        "ベンへ、",
                         "先週の僕の16歳の誕生日パーティーに来てくれてありがとう。君や他の友達全員に会えて嬉しかった。ジャズCDもありがとう。毎日勉強中に聴いてるよ。すごくリラックスできる！姉もすごく気に入って借りたがっているよ。",
                         "ところで、もう一つもらったプレゼントのことを伝えたかったんだ。オレゴンに住んでいる叔母からのもので、オレゴンのハイキングやバックパッキングのトレイルについての本なんだ。トレイルの地図、説明、各トレイル沿いの最高のキャンプ場のアドバイスが載っている。オレゴンにバックパッキングに行きたくなった！",
-                        "叔母が今年の夏バックパッキングに連れて行ってくれるって。好きなトレイルを選んでいいって。友達を連れてきてもいいって。一緒に来ない？バックパッキングは初めてだから、叔母は初回は1泊だけにした方がいいって。大変すぎたら翌日帰れるからね。両親に聞いて来られるか教えて。学校で会おう！"
+                        "叔母が今年の夏バックパッキングに連れて行ってくれるって。好きなトレイルを選んでいいって。友達を連れてきてもいいって。一緒に来ない？バックパッキングは初めてだから、叔母は初回は1泊だけにした方がいいって。大変すぎたら翌日帰れるからね。両親に聞いて来られるか教えて。学校で会おう！",
+                        "友だちのジョンより"
                     ],
                     "sentencePairs": [
                         [

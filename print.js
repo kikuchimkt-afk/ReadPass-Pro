@@ -477,6 +477,24 @@
             downloadName: 'ReadPass_EIKEN_GradePre2Plus_2026-1_Practice_Exam_Large_Type_v1.pdf',
             pages: 11
         },
+        'grade-pre2/2021-1': {
+            label: '英検準2級 2021年度 第1回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2021-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre2-2021-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2021-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 12
+        },
+        'grade-pre2/2021-2': {
+            label: '英検準2級 2021年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2021-2_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre2-2021-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2021-2_Practice_Exam_Large_Type_v1.pdf',
+            pages: 12
+        },
+        'grade-pre2/2021-3': {
+            label: '英検準2級 2021年度 第3回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2021-3_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre2-2021-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2021-3_Practice_Exam_Large_Type_v1.pdf',
+            pages: 12
+        },
         'grade-pre2/2022-1': {
             label: '英検準2級 2022年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_GradePre2_2022-1_Practice_Exam_Large_Type_v1.pdf?v=20260901-eiken-pre2-2022-v1',

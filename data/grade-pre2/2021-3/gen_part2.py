@@ -66,16 +66,20 @@ s4 = {"name":"大問4","nameEn":"Part 4","type":"reading-comprehension",
     "instruction":"次の英文A，Bの内容に関して，(31)から(37)までの質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
     "passages":[
         {"label":"A","title":"Ontario Trip","format":"email",
-         "meta":{"from":"Joe Hess","to":"Pete Hess","date":"January 23","subject":"Ontario trip"},
+         "meta":{"from":"Joe Hess <joe-hess@kmail.com>","to":"Pete Hess <p-hess22@yeehaw.com>","date":"January 23","subject":"Ontario trip"},
          "paragraphs":[
+             "Hi Pete,",
              "Are you excited about our trip to Ontario next month? I bought my ticket to Ontario and my return ticket yesterday. My plane leaves Chicago at 11 a.m. on February 8. The flight takes only one and a half hours. Have you bought your tickets yet? What time will you leave New York City?",
              "Anyway, do you remember what we talked about on the phone last week? You said that you want to go fishing during our trip. My neighbor goes on fishing trips in Ontario every fall. She told me about a company that offers one-day fishing tours of Lake Huron. The company's name is Great Fish, and it costs $300 for two people. The tour will start at 8 a.m. and finish at 4 p.m., and the price includes lunch.",
-             "I'll call the company tonight and make a reservation for February 10. My neighbor also said that we need special licenses to fish in Ontario. We can get them online, or we can buy them at a sports shop in Ontario. I think we should buy them on the Internet before we go. A one-day license costs about $20. I can't wait to go!"
+             "I'll call the company tonight and make a reservation for February 10. My neighbor also said that we need special licenses to fish in Ontario. We can get them online, or we can buy them at a sports shop in Ontario. I think we should buy them on the Internet before we go. A one-day license costs about $20. I can't wait to go!",
+             "Your brother,\nJoe"
          ],
          "translations":[
+             "ピートへ、",
              "来月のオンタリオ旅行楽しみ？昨日オンタリオ行きと帰りのチケットを買ったよ。飛行機はシカゴから2月8日午前11時に出発。フライトはたった1時間半。もうチケット買った？何時にニューヨークを出発する？",
              "ところで、先週電話で話したこと覚えてる？旅行中に釣りに行きたいって言ってたよね。近所の人が毎年秋にオンタリオで釣りに行くんだ。ヒューロン湖の1日釣りツアーを提供している会社を教えてくれた。会社名はグレートフィッシュで、2人で300ドル。ツアーは朝8時から午後4時までで、昼食込み。",
-             "今夜会社に電話して2月10日の予約をするよ。近所の人はオンタリオで釣りをするには特別な許可証が必要だとも言っていた。ネットで取れるし、オンタリオのスポーツショップでも買える。出発前にネットで買うべきだと思う。1日許可証は約20ドル。行くのが待ちきれない！"
+             "今夜会社に電話して2月10日の予約をするよ。近所の人はオンタリオで釣りをするには特別な許可証が必要だとも言っていた。ネットで取れるし、オンタリオのスポーツショップでも買える。出発前にネットで買うべきだと思う。1日許可証は約20ドル。行くのが待ちきれない！",
+             "兄弟のジョーより"
          ],
          "sentencePairs":[
              ["I bought my ticket to Ontario and my return ticket yesterday.","昨日オンタリオ行きと帰りのチケットを買った。"],
