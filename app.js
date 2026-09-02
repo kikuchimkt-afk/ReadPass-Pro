@@ -15,6 +15,7 @@
   const PENPASS_SESSIONS = new Set(
     ['grade-pre2plus', 'grade-pre2', 'grade3', 'grade4', 'grade5']
       .flatMap(gradeId => ['2025-1', '2025-2', '2025-3'].map(examId => `${gradeId}|${examId}`))
+      .concat('grade-pre2plus|2026-1')
   );
   let currentGradeId = null;
   let currentExamId = null;
