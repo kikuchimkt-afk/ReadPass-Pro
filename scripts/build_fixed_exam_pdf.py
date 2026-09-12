@@ -563,44 +563,71 @@ def draw_word_order_block(
     ) - 4
 
     words = [clean_text(word) for word in question.get("words", [])]
-    columns = 4 if len(words) <= 4 else 3
-    rows = (len(words) + columns - 1) // columns
-    cell_gap = 5
-    cell_height = 28
-    cell_width = (BODY_W - (cell_gap * (columns - 1))) / columns
+    if not words:
+        raise ValueError(f"Word-order question {number} has no words")
+    answer_slots = [int(slot) for slot in question.get("answerSlots", [])]
+    if not answer_slots or any(slot < 1 or slot > len(words) for slot in answer_slots):
+        raise ValueError(f"Word-order question {number} has invalid answer slots")
+
+    # Follow the official booklet pattern: keep every numbered chunk inside a
+    # single pair of parentheses instead of presenting the chunks as cards.
     circled_numbers = "①②③④⑤⑥"
+    words_y = cursor - 9
+    paren_width = 10
+    word_area_x = BODY_X + paren_width
+    word_area_w = BODY_W - (paren_width * 2)
+    item_width = word_area_w / len(words)
+    c.setFillColor(INK)
+    c.setFont(SERIF, 10.2)
+    c.drawString(BODY_X, words_y, "(")
+    c.drawRightString(RIGHT_X, words_y, ")")
     for index, word in enumerate(words):
-        row = index // columns
-        col = index % columns
-        x = BODY_X + (col * (cell_width + cell_gap))
-        cell_top = cursor - (row * cell_height)
-        c.setFillColor(PALE)
-        c.rect(x, cell_top - 23, cell_width, 23, stroke=0, fill=1)
-        c.setFillColor(INK)
-        c.setFont(JP_BOLD, 8.8)
-        c.drawString(x + 5, cell_top - 15, circled_numbers[index])
-        draw_wrapped(c, word, x + 23, cell_top - 10, cell_width - 28, font=SERIF, size=9.2, leading=10.2)
-    cursor -= rows * cell_height + 2
+        x = word_area_x + (index * item_width)
+        c.setFont(JP_REGULAR, 9.7)
+        c.drawString(x, words_y, circled_numbers[index])
+        number_width = pdfmetrics.stringWidth(circled_numbers[index], JP_REGULAR, 9.7)
+        max_word_width = item_width - number_width - 7
+        word_size = 9.8 if len(words) <= 4 else 9.2
+        while word_size > 7.2 and pdfmetrics.stringWidth(word, SERIF, word_size) > max_word_width:
+            word_size -= 0.2
+        c.setFont(SERIF, word_size)
+        c.drawString(x + number_width + 3, words_y, word)
 
     prefix = clean_text(question.get("framePrefix", ""))
     suffix = clean_text(question.get("frameSuffix", ""))
     c.setFillColor(INK)
     c.setFont(SERIF, 10.2)
     x = BODY_X
+    box_top = words_y - 22
+    box_height = 19
+    frame_text_y = box_top - 14
     if prefix:
-        c.drawString(x, cursor, prefix)
+        c.drawString(x, frame_text_y, prefix)
         x += pdfmetrics.stringWidth(prefix, SERIF, 10.2) + 8
     suffix_width = pdfmetrics.stringWidth(suffix, SERIF, 10.2) if suffix else 0
-    slot_gap = 5
-    slot_width = (RIGHT_X - x - suffix_width - 10 - (slot_gap * (len(words) - 1))) / len(words)
-    for _ in words:
+    suffix_gap = 8 if suffix else 0
+    slot_gap = 4
+    slot_width = (
+        RIGHT_X
+        - x
+        - suffix_width
+        - suffix_gap
+        - (slot_gap * (len(words) - 1))
+    ) / len(words)
+    for slot in range(1, len(words) + 1):
+        if slot in answer_slots:
+            c.setFillColor(DARK)
+            c.setFont(JP_BOLD, 7.2)
+            c.drawCentredString(x + (slot_width / 2), box_top + 4, f"{slot}番目")
         c.setStrokeColor(DARK)
-        c.setLineWidth(0.65)
-        c.line(x, cursor - 3, x + slot_width, cursor - 3)
+        c.setLineWidth(1.0 if slot in answer_slots else 0.65)
+        c.rect(x, box_top - box_height, slot_width, box_height, stroke=1, fill=0)
         x += slot_width + slot_gap
     if suffix:
-        c.drawString(x + 2, cursor, suffix)
-    cursor -= 21
+        c.setFillColor(INK)
+        c.setFont(SERIF, 10.2)
+        c.drawString(x - slot_gap + suffix_gap, frame_text_y, suffix)
+    cursor = box_top - 32
 
     choices = question.get("choices", [])
     col_width = BODY_W / 4
@@ -639,7 +666,7 @@ def draw_word_order_page(
     top = draw_section_title(
         c,
         f"大問3  語句整序  {question_range_label(questions)}",
-        printable_instruction(section.get("instruction", "")),
+        clean_text(section.get("instruction", ""), wide_blanks=False),
         PAGE_H - 58,
     )
     block_height = (top - BOTTOM_Y) / len(questions)
