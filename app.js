@@ -695,8 +695,8 @@
     });
     allPatterns.sort((a, b) => b.pattern.length - a.pattern.length);
 
-    // Apply to passage text in Part 2 and Part 3
-    document.querySelectorAll('#part2Area .passage-text, #part2Area .email-body, #part3Area .passage-text, #part3Area .email-body').forEach(el => {
+    // Include Part 4: Grade 4 (and Pre-2) reading is not in Part 2/3.
+    document.querySelectorAll('#part2Area .passage-text, #part2Area .email-body, #part3Area .passage-text, #part3Area .email-body, #part4Area .passage-text, #part4Area .email-body').forEach(el => {
       // Store original if not yet stored
       if (!el.dataset.originalHtml) el.dataset.originalHtml = el.innerHTML;
       let html = el.dataset.originalHtml;
@@ -712,7 +712,7 @@
   }
 
   function removeHighlights() {
-    document.querySelectorAll('#part2Area .passage-text, #part2Area .email-body, #part3Area .passage-text, #part3Area .email-body').forEach(el => {
+    document.querySelectorAll('#part2Area .passage-text, #part2Area .email-body, #part3Area .passage-text, #part3Area .email-body, #part4Area .passage-text, #part4Area .email-body').forEach(el => {
       if (el.dataset.originalHtml) el.innerHTML = el.dataset.originalHtml;
     });
   }
