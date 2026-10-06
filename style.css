@@ -2552,6 +2552,15 @@ body.projector-mode .exam-question.proj-hidden {
     .exam-selector {
         justify-content: center;
         flex-wrap: wrap;
+        max-width: 100%;
+        min-width: 0;
+    }
+
+    .exam-label-badge {
+        max-width: 100%;
+        white-space: normal;
+        overflow-wrap: anywhere;
+        text-align: center;
     }
 
     .app-title {
