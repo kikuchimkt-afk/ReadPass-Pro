@@ -128,6 +128,8 @@ def exam_display_label(exam: str) -> str:
     if len(parts) < 2:
         raise ValueError(f"Unsupported exam id: {exam}")
     venue = "（準会場）" if len(parts) >= 3 and parts[2] == "sat" else ""
+    if exam == "2026-2-sat":
+        venue = "（土曜準会場）"
     return f"{parts[0]}年度 第{parts[1]}回{venue}"
 
 

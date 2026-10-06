@@ -47,7 +47,7 @@
     if (label) {
       const m = examId.match(/^(\d{4})-(\d+)(?:-(.+))?$/);
       if (m) {
-        const suffix = m[3] === 'sat' ? '（準会場）' : (m[3] ? `(${m[3]})` : '');
+        const suffix = m[3] === 'sat' ? (examId === '2026-2-sat' ? '（土曜準会場）' : '（準会場）') : (m[3] ? `(${m[3]})` : '');
         label.textContent = `${grade.name} · ${m[1]}年度 第${m[2]}回${suffix}`;
       } else {
         label.textContent = `${grade.name} · ${examId}`;
@@ -339,8 +339,8 @@
         p.emails.forEach((email, ei) => {
           html += `<div class="email-block">`;
           html += `<div class="email-meta">`;
-          html += `<div><strong>From:</strong> ${email.meta.from}</div>`;
-          html += `<div><strong>To:</strong> ${email.meta.to}</div>`;
+          html += `<div><strong>From:</strong> ${htmlText(email.meta.from)}</div>`;
+          html += `<div><strong>To:</strong> ${htmlText(email.meta.to)}</div>`;
           html += `<div><strong>Date:</strong> ${email.meta.date}</div>`;
           html += `<div><strong>Subject:</strong> ${email.meta.subject}</div>`;
           html += `</div>`;
@@ -354,7 +354,7 @@
       } else {
         let metaHtml = '';
         if (p.format === 'email' && p.meta) {
-          metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${p.meta.from}</div><div><strong>To:</strong> ${p.meta.to}</div><div><strong>Date:</strong> ${p.meta.date}</div><div><strong>Subject:</strong> ${p.meta.subject}</div></div>`;
+          metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${htmlText(p.meta.from)}</div><div><strong>To:</strong> ${htmlText(p.meta.to)}</div><div><strong>Date:</strong> ${htmlText(p.meta.date)}</div><div><strong>Subject:</strong> ${htmlText(p.meta.subject)}</div></div>`;
         }
         html += metaHtml;
         p.paragraphs.forEach((para, pi) => {
@@ -884,7 +884,7 @@
     area.innerHTML = sec.passages.map(p => {
       let metaHtml = '';
       if (p.format === 'email' && p.meta) {
-        metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${p.meta.from}</div><div><strong>To:</strong> ${p.meta.to}</div><div><strong>Date:</strong> ${p.meta.date}</div><div><strong>Subject:</strong> ${p.meta.subject}</div></div>`;
+        metaHtml = `<div class="email-meta"><div><strong>From:</strong> ${htmlText(p.meta.from)}</div><div><strong>To:</strong> ${htmlText(p.meta.to)}</div><div><strong>Date:</strong> ${htmlText(p.meta.date)}</div><div><strong>Subject:</strong> ${htmlText(p.meta.subject)}</div></div>`;
       }
       let html = `<div class="passage-block"><span class="passage-label">${p.label}</span><div class="passage-title">${p.title}</div>${metaHtml}`;
       p.paragraphs.forEach((para, pi) => {
@@ -1413,7 +1413,7 @@
       sec.passages.forEach(p => {
         html += `<h3>${p.label}　${p.title}</h3>`;
         if (p.format === 'email' && p.meta) {
-          html += `<div style="border:1px solid #999;padding:8px;margin-bottom:8px;font-size:10pt"><div>From: ${p.meta.from}</div><div>To: ${p.meta.to}</div><div>Date: ${p.meta.date}</div><div>Subject: ${p.meta.subject}</div></div>`;
+          html += `<div style="border:1px solid #999;padding:8px;margin-bottom:8px;font-size:10pt"><div>From: ${htmlText(p.meta.from)}</div><div>To: ${htmlText(p.meta.to)}</div><div>Date: ${htmlText(p.meta.date)}</div><div>Subject: ${htmlText(p.meta.subject)}</div></div>`;
         }
         p.paragraphs.forEach(para => { html += `<div class="print-passage">${para}</div>`; });
         p.questions.forEach(q => {
@@ -2004,6 +2004,9 @@
 
   // ===== HELPERS =====
   function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[a[i], a[j]] = [a[j], a[i]]; } return a; }
+  // Email addresses include literal angle brackets in the original booklet.
+  // Escape them as text rather than allowing the browser to parse HTML tags.
+  function htmlText(s) { return String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;'); }
   function esc(s) { return s.replace(/'/g, "\\'").replace(/"/g, "&quot;"); }
 
   document.addEventListener('DOMContentLoaded', init);
