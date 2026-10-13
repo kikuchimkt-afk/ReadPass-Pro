@@ -3,6 +3,7 @@
 
 Audio references are added later by data/grade-pre2plus/2026-2/_gen_tts.py.
 """
+import re
 
 # word, meaning, part of speech, NEW example, three distractors, source form.
 # 25 from Part 1, 15 from Part 2, 15 from Part 3.
@@ -100,7 +101,7 @@ def lessonplan(passages):
         ja = p["translations"][index]
         for q in p["questions"]:
             en = en.replace(f"( {q['number']} )", q["choices"][q["answer"] - 1])
-            ja = ja.replace(f"( {q['number']} )", q["choiceTranslations"][q["answer"] - 1])
+            ja = re.sub(rf"\s*\( {q['number']} \)\s*", q["choiceTranslations"][q["answer"] - 1], ja)
         return dict(en=f"[出典: {p['title']}]\n{en}", ja=ja)
 
     fps = [
@@ -136,7 +137,7 @@ def lessonplan(passages):
              highlightPatterns=["helps prevent dirt from sticking to them", "water that lands on the leaf", "This helps the lotus stay clean"]),
         dict(id="fp3", title="前の内容を受ける , which と結果を添える proving（which enables / which benefits / proving that）",
              subtitle="Sentence-Level which and a Result Participle",
-             explanation="大問2Bの第3段落では、ハスの葉の特徴が新しい技術に生かされている例が並びます。can even repair minor surface damage, which enables them to last longer の which は、直前の名詞ではなく『表面の小さな傷を修復できること』という前の内容全体を受け、『そのことによって長持ちする』と説明を付け加えています。, which benefits the environment も同じ働きです。最後の proving that ... は分詞構文で、前の内容から導かれる結論『～ということを示している』を添えます。コンマの後の which が何を受けるかを確かめると、因果関係を正しく読み取れます。",
+             explanation="大問2Bの第3段落では、ハスの葉の特徴が新しい技術に生かされている例が並びます。can even repair minor surface damage, which enables them to last longer の which は、直前の名詞ではなく『表面の小さな傷を修復できること』という前の内容全体を受け、『そのことによって長持ちする』と説明を付け加えています。後の文のコンマの後の which（which benefits the environment）も同じ働きです。最後の proving that ... は分詞構文で、前の内容から導かれる結論『～ということを示している』を添えます。コンマの後の which が何を受けるかを確かめると、因果関係を正しく読み取れます。",
              sourceQuote="Some of these inventions can even repair minor surface damage, which enables them to last longer. Others help reduce the use of water and cleaning chemicals, which benefits the environment.",
              sourceLocation="大問2B「Lotus Leaves」第3段落", highlightLabel="前文を受ける which", highlightColor="#34d399",
              examples=[quote(lotus, "Some of these inventions", ", which は前の内容全体（傷を修復できること）を受け、その結果長持ちすることを説明する。"),
