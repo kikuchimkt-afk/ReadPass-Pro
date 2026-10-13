@@ -70,6 +70,7 @@
                 { id: '2025-3-sat', label: '2025年度 第3回（準会場）' },
                 { id: '2026-1', label: '2026年度 第1回' },
                 { id: '2026-1-sat', label: '2026年度 第1回（準会場）' },
+                { id: '2026-2', label: '2026年度 第2回' },
                 { id: '2026-2-sat', label: '2026年度 第2回（土曜準会場）' }
             ]
         },
@@ -859,6 +860,12 @@
             label: '英検準2級プラス 2026年度 第1回（土曜準会場）',
             path: 'output/pdf/ReadPass_EIKEN_GradePre2Plus_2026-1-sat_Practice_Exam_Large_Type_v1.pdf?v=20260829-eiken-pre2plus-2026-1-v1',
             downloadName: 'ReadPass_EIKEN_GradePre2Plus_2026-1-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
+        'grade-pre2plus/2026-2': {
+            label: '英検準2級プラス 2026年度 第2回',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2Plus_2026-2_Practice_Exam_Large_Type_v1.pdf?v=20261013-pre2plus-2026-2-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2Plus_2026-2_Practice_Exam_Large_Type_v1.pdf',
             pages: 11
         },
         'grade-pre2plus/2026-2-sat': {
