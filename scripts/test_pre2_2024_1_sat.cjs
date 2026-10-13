@@ -20,9 +20,9 @@ fs.mkdirSync(out, {recursive:true});
     const card = page.locator('.exam-card[href*="grade=grade-pre2&exam=2024-1-sat&"]');
     assert.equal(await card.count(),1);
     assert.match(await card.innerText(),/2024年度 第1回（土曜準会場）/);
-    // Saturday sits between the main 2024-1 and 2024-2 sessions.
+    // Newest first: the Saturday exam follows the main 2024-1 and precedes 2023-3.
     const order = await page.locator('.exam-card[href*="grade=grade-pre2&"]').evaluateAll(cards=>cards.map(c=>new URL(c.href).searchParams.get('exam')));
-    assert.deepEqual(order.slice(order.indexOf('2024-1'),order.indexOf('2024-1')+3),['2024-1','2024-1-sat','2024-2']);
+    assert.deepEqual(order.slice(order.indexOf('2024-1'),order.indexOf('2024-1')+3),['2024-1','2024-1-sat','2023-3']);
     await card.click();
     await page.waitForSelector('#q29',{state:'attached'});
     assert.match(await page.locator('#examLabel').innerText(),/2024年度 第1回/);
