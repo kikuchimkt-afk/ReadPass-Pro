@@ -127,9 +127,9 @@ def exam_display_label(exam: str) -> str:
     parts = exam.split("-")
     if len(parts) < 2:
         raise ValueError(f"Unsupported exam id: {exam}")
-    venue = "（準会場）" if len(parts) >= 3 and parts[2] == "sat" else ""
-    if exam == "2026-2-sat":
-        venue = "（土曜準会場）"
+    # Every "-sat" exam is the Saturday sub-venue paper (the booklets say 土曜日準会場);
+    # top.js, print.js and app.js use the same suffix.
+    venue = "（土曜準会場）" if len(parts) >= 3 and parts[2] == "sat" else ""
     return f"{parts[0]}年度 第{parts[1]}回{venue}"
 
 
@@ -1346,8 +1346,6 @@ def build_exam_pdf(grade: str, exam: str, output_path: Path) -> None:
 
     grade_label = GRADE_LABELS[grade]
     exam_label = exam_display_label(exam)
-    if exam == "2026-1-sat" and grade in {"grade5", "grade4", "grade3", "grade-pre2"}:
-        exam_label = "2026年度 第1回（土曜準会場）"
     # Keeping Part 1 at four pages or fewer makes every later page number shift
     # deterministically while each grade keeps its own fixed section sequence.
     pre2_fill_count = (
