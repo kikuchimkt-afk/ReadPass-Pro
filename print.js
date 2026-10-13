@@ -919,9 +919,21 @@
     const printContent = document.getElementById('printContent');
     const previewLabel = document.getElementById('previewLabel');
     const fixedExamNotice = document.getElementById('fixedExamNotice');
+    const teacherMaterials = document.getElementById('teacherMaterials');
+    const teacherMaterialList = document.getElementById('teacherMaterialList');
 
     let selectedGrade = null;
     let activeFixedExam = null;
+    // Grammar guide PDFs built by scripts/build_grammar_guide_pdf.py --all.
+    let grammarGuides = {};
+
+    fetch('output/pdf/grammar_guides.json', { cache: 'no-cache' })
+        .then(resp => (resp.ok ? resp.json() : {}))
+        .then(manifest => {
+            grammarGuides = manifest || {};
+            renderTeacherMaterials();
+        })
+        .catch(err => console.warn('文法解説プリントの一覧を読み込めませんでした', err));
 
     // ===== Render Grade Chips =====
     function renderGradeChips() {
@@ -1148,6 +1160,37 @@
         if (generateBtn.dataset.loading !== 'true') {
             generateBtn.textContent = fixedExam ? '過去問PDFを表示' : 'プリントを生成';
         }
+        renderTeacherMaterials();
+    }
+
+    // ===== Teacher materials: 閲覧 / DL for each selected exam's grammar guide =====
+    function renderTeacherMaterials() {
+        const rows = selectedGrade
+            ? getSelectedExams()
+                .map(examId => ({ examId, guide: grammarGuides[`${selectedGrade.id}/${examId}`] }))
+                .filter(row => row.guide)
+            : [];
+        teacherMaterials.hidden = rows.length === 0;
+        teacherMaterialList.innerHTML = rows.map(({ examId, guide }) => {
+            const examLabel = selectedGrade.exams.find(e => e.id === examId)?.label || examId;
+            const pagesText = guide.pages === guide.focusPoints
+                ? `A4縦${guide.pages}枚（1枚に1つの文法事項）`
+                : `A4縦${guide.pages}枚（文法事項${guide.focusPoints}つ）`;
+            return `
+                <div class="teacher-material-row" data-exam="${esc(examId)}">
+                    <div class="teacher-material-info">
+                        <strong>文法解説プリント（講師用）</strong>
+                        <span>${esc(examLabel)} ／ ${pagesText}</span>
+                    </div>
+                    <div class="teacher-material-actions">
+                        <a href="${esc(guide.path)}" target="_blank" rel="noopener"
+                           aria-label="${esc(examLabel)}の文法解説プリントを閲覧">閲覧</a>
+                        <a class="download" href="${esc(guide.path)}" download="${esc(guide.downloadName)}"
+                           aria-label="${esc(examLabel)}の文法解説プリントをダウンロード">DL</a>
+                    </div>
+                </div>
+            `;
+        }).join('');
     }
 
     function getSelectedExams() {

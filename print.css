@@ -303,6 +303,79 @@ body {
     opacity: 0.46;
 }
 
+/* ===== Teacher materials (grammar guide PDFs) ===== */
+.teacher-materials[hidden] {
+    display: none;
+}
+
+.teacher-material-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 14px 0;
+    border-top: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+.teacher-material-row:first-child {
+    padding-top: 2px;
+    border-top: 0;
+}
+
+.teacher-material-row:last-child {
+    padding-bottom: 0;
+}
+
+.teacher-material-info strong {
+    display: block;
+    color: #f1f5f9;
+    font-size: 14px;
+}
+
+.teacher-material-info span {
+    display: block;
+    margin-top: 4px;
+    color: #94a3b8;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.teacher-material-actions {
+    display: flex;
+    flex-shrink: 0;
+    gap: 8px;
+}
+
+.teacher-material-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 76px;
+    padding: 9px 14px;
+    border: 1px solid rgba(148, 163, 184, 0.35);
+    border-radius: 8px;
+    background: rgba(148, 163, 184, 0.1);
+    color: #e2e8f0;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.teacher-material-actions a:hover {
+    border-color: #cbd5e1;
+    background: rgba(148, 163, 184, 0.18);
+}
+
+.teacher-material-actions a.download {
+    border-color: transparent;
+    background: #10b981;
+    color: #052e1f;
+}
+
+.teacher-material-actions a.download:hover {
+    background: #34d399;
+}
+
 .setting-group.fixed-mode-disabled input,
 .setting-group.fixed-mode-disabled label {
     cursor: not-allowed;
@@ -859,6 +932,16 @@ body {
 
     .action-buttons {
         flex-direction: column;
+    }
+
+    .teacher-material-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .teacher-material-actions a {
+        flex: 1;
     }
 
     .btn {

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ReadPass Pro — 過去問プリント作成</title>
   <meta name="description" content="ReadPass Pro - 英語資格試験リーディングの過去問プリント作成ツール">
-  <link rel="stylesheet" href="print.css?v=20260829-grade3-email-v1">
+  <link rel="stylesheet" href="print.css?v=20261013-grammar-guide-v1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 
@@ -16,7 +16,7 @@
     <header class="settings-header">
       <a href="top.html" class="back-link">← ReadPass Pro トップへ</a>
       <h1 class="settings-title">🖨️ 過去問プリント作成</h1>
-      <p class="settings-subtitle">級・年度・回を選んでReadPassの問題PDFを作成</p>
+      <p class="settings-subtitle">級・年度・回を選んで、問題PDFと講師用の文法解説プリントを用意</p>
     </header>
 
     <div class="settings-body">
@@ -35,6 +35,12 @@
       </div>
 
       <div class="fixed-exam-notice" id="fixedExamNotice" hidden></div>
+
+      <!-- Teacher materials: pre-built grammar guide PDFs (output/pdf/grammar_guides.json) -->
+      <div class="setting-group teacher-materials" id="teacherMaterials" hidden>
+        <label class="setting-label">講師用資料</label>
+        <div class="teacher-material-list" id="teacherMaterialList"></div>
+      </div>
 
       <!-- Section Selection -->
       <div class="setting-group">
@@ -80,7 +86,7 @@
     <div id="printContent"></div>
   </div>
 
-  <script src="print.js?v=20261013-pre1-2026-2-v1"></script>
+  <script src="print.js?v=20261013-grammar-guide-v1"></script>
 </body>
 
 </html>
