@@ -69,6 +69,7 @@ def main():
         for f in ("choiceAnalysis","choiceAnalysisSimple"):
             check([i for i,a in enumerate(q[f],1) if a.startswith("○")]==[q["answer"]],tag+" correct marker "+f)
             check(all(len(a)>=12 for a in q[f]),tag+" substantive "+f)
+            check(not any("。。" in a for a in q[f]),tag+" doubled period "+f)
         check(len(q["grammar"])>=35 and len(q["grammarSimple"])>=35,tag+" normal/easy depth")
         check("questionAudio" not in q,tag+" established Grade 3 audio scope")
         if q["number"]<=20:check("(　)" in q["text"] and "(　)" in q["translation"],tag+" bilingual blank")

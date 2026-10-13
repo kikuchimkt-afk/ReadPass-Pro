@@ -176,8 +176,8 @@ def build():
     for n,(text,ja,choices,meanings,answer,grammar,simple,reasons,easy) in enumerate(ROWS,1):
         qs.append(dict(number=n,text=text,translation=ja,choices=choices,choiceTranslations=meanings,
                        answer=answer,grammar=grammar,grammarSimple=simple,
-                       choiceAnalysis=[("○ " if i==answer else "")+f"{c}＝{t}。{why}" for i,(c,t,why) in enumerate(zip(choices,meanings,reasons),1)],
-                       choiceAnalysisSimple=[("○ " if i==answer else "")+f"{t}。{why}" for i,(t,why) in enumerate(zip(meanings,easy),1)]))
+                       choiceAnalysis=[("○ " if i==answer else "")+f"{c}＝{t.rstrip('。')}。{why}" for i,(c,t,why) in enumerate(zip(choices,meanings,reasons),1)],
+                       choiceAnalysisSimple=[("○ " if i==answer else "")+f"{t.rstrip('。')}。{why}" for i,(t,why) in enumerate(zip(meanings,easy),1)]))
     sections=[
         dict(name="大問1",nameEn="Part 1",type="vocabulary",instruction="次の(1)から(15)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",questions=qs[:15]),
         dict(name="大問2",nameEn="Part 2",type="vocabulary",instruction="次の(16)から(20)までの会話について，(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",questions=qs[15:]),

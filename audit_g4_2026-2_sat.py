@@ -86,6 +86,7 @@ def main():
         for field in ("choiceAnalysis","choiceAnalysisSimple"):
             check([i for i,a in enumerate(q[field],1) if a.startswith("○")]==[q["answer"]],f"Q{n} {field} correct marker")
             check(all(len(a)>=12 for a in q[field]),f"Q{n} {field} substantive")
+            check(not any("。。" in a for a in q[field]),f"Q{n} {field} doubled period")
         check(len(q["grammar"])>=25 and len(q["grammarSimple"])>=25,f"Q{n} explanation depth")
         check(bool(q.get("questionAudio"))==(n<=25),f"Q{n} question audio scope")
         if n<=20:

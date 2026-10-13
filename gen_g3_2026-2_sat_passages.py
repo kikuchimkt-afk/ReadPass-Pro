@@ -6,8 +6,8 @@ def plain(en,ja):return row(ja,"",(en,ja))
 def question(n,stem,ja,choices,meanings,answer,evidence,note,simple,reasons,easy):
     return dict(number=n,question=stem,questionTranslation=ja,choices=choices,choiceTranslations=meanings,
                 answer=answer,sourceEvidence=evidence,grammar=f"本文の根拠は「{' / '.join(evidence)}」。{note}",grammarSimple=simple,
-                choiceAnalysis=[("○ " if i==answer else "")+f"{c}＝{t}。{r}" for i,(c,t,r) in enumerate(zip(choices,meanings,reasons),1)],
-                choiceAnalysisSimple=[("○ " if i==answer else "")+f"{t}。{r}" for i,(t,r) in enumerate(zip(meanings,easy),1)])
+                choiceAnalysis=[("○ " if i==answer else "")+f"{c}＝{t.rstrip('。')}。{r}" for i,(c,t,r) in enumerate(zip(choices,meanings,reasons),1)],
+                choiceAnalysisSimple=[("○ " if i==answer else "")+f"{t.rstrip('。')}。{r}" for i,(t,r) in enumerate(zip(meanings,easy),1)])
 
 NOTICE=[
     [plain("Anton Bell Cookie Shop's Opening Sale","アントン・ベル・クッキー店の開店セール"),
