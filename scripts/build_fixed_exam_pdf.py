@@ -161,8 +161,13 @@ def paginate_part1(questions: list[dict]) -> list[list[dict]]:
 
 def tokenize(text: str) -> list[str]:
     # Keep an opening quotation mark attached to the following word so it is
-    # never stranded at the end of a wrapped line.
-    return re.findall(r'"?[A-Za-z0-9][A-Za-z0-9\'.,:;!?()\-/"]*|\s+|.', text)
+    # never stranded at the end of a wrapped line. Answer blanks such as
+    # "( 23 )." stay whole, and curly apostrophes stay inside their word.
+    return re.findall(
+        r'\(\u2002+(?:\d{1,2}\u2002+)?\)[.,:;!?]*'
+        r'|["“‘]?[A-Za-z0-9][A-Za-z0-9\'’.,:;!?()\-/"”]*|\s+|.',
+        text,
+    )
 
 
 def wrap_text(
