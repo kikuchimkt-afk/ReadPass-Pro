@@ -1,0 +1,2433 @@
+{
+    "grade": "2級",
+    "year": "2026",
+    "session": "2",
+    "title": "2026年度 第2回 英検2級 リーディング",
+    "vocabulary": [
+        {
+            "word": "strictly",
+            "meaning": "厳しく・厳密に",
+            "pos": "副詞",
+            "level": "2級",
+            "example": "The rules about phones are strictly followed at this school.",
+            "distractors": [
+                "不公平に",
+                "便利に",
+                "陽気に"
+            ],
+            "wordAudio": "audio/vocab/w_001_strictly.mp3"
+        },
+        {
+            "word": "importance",
+            "meaning": "重要性",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Our coach often talks about the importance of sleep.",
+            "distractors": [
+                "速さ",
+                "勇気",
+                "違い"
+            ],
+            "wordAudio": "audio/vocab/w_002_importance.mp3"
+        },
+        {
+            "word": "tend",
+            "meaning": "～する傾向がある",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "I tend to get hungry in the afternoon.",
+            "distractors": [
+                "反映する",
+                "奮闘する",
+                "投資する"
+            ],
+            "wordAudio": "audio/vocab/w_003_tend.mp3"
+        },
+        {
+            "word": "postpone",
+            "meaning": "延期する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "We had to postpone the picnic until next week.",
+            "distractors": [
+                "隠す",
+                "報いる",
+                "強調する"
+            ],
+            "wordAudio": "audio/vocab/w_004_postpone.mp3"
+        },
+        {
+            "word": "minority",
+            "meaning": "少数派",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Only a minority of the students voted against the plan.",
+            "distractors": [
+                "機会",
+                "利益",
+                "実験"
+            ],
+            "wordAudio": "audio/vocab/w_005_minority.mp3"
+        },
+        {
+            "word": "proposal",
+            "meaning": "提案",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The mayor accepted our proposal for a new park.",
+            "distractors": [
+                "大評判・感覚",
+                "物語",
+                "収集"
+            ],
+            "wordAudio": "audio/vocab/w_006_proposal.mp3"
+        },
+        {
+            "word": "predict",
+            "meaning": "予測する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "Nobody can predict what will happen next year.",
+            "distractors": [
+                "絞る",
+                "拒否する",
+                "実行する"
+            ],
+            "wordAudio": "audio/vocab/w_007_predict.mp3"
+        },
+        {
+            "word": "unconcerned",
+            "meaning": "無関心な・気にかけない",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "He seemed unconcerned about the test tomorrow.",
+            "distractors": [
+                "嫉妬深い",
+                "有能な",
+                "障害のある"
+            ],
+            "wordAudio": "audio/vocab/w_008_unconcerned.mp3"
+        },
+        {
+            "word": "murder",
+            "meaning": "殺人（事件）",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The police are still investigating the murder.",
+            "distractors": [
+                "主題",
+                "宝物",
+                "喜び"
+            ],
+            "wordAudio": "audio/vocab/w_009_murder.mp3"
+        },
+        {
+            "word": "exist",
+            "meaning": "存在する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "Dinosaurs existed millions of years ago.",
+            "distractors": [
+                "許す",
+                "祈る",
+                "じっと見つめる"
+            ],
+            "wordAudio": "audio/vocab/w_010_exist.mp3"
+        },
+        {
+            "word": "kill time",
+            "meaning": "時間をつぶす",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "We killed time at a bookstore before the movie began.",
+            "distractors": [
+                "故障する",
+                "見失う",
+                "必要を満たす"
+            ],
+            "wordAudio": "audio/vocab/w_011_kill_time.mp3"
+        },
+        {
+            "word": "watch out for",
+            "meaning": "～に気をつける",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "Watch out for ice on the road this morning.",
+            "distractors": [
+                "～を思いつく",
+                "（約束）を破る",
+                "～を尊敬する"
+            ],
+            "wordAudio": "audio/vocab/w_012_watch_out_for.mp3"
+        },
+        {
+            "word": "on the whole",
+            "meaning": "全体として",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "There were a few mistakes, but on the whole the report was good.",
+            "distractors": [
+                "このため",
+                "言い換えれば",
+                "その場合は"
+            ],
+            "wordAudio": "audio/vocab/w_013_on_the_whole.mp3"
+        },
+        {
+            "word": "make one's way through",
+            "meaning": "～をかき分けて進む",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "She made her way through the busy station to the exit.",
+            "distractors": [
+                "～の順番を務める",
+                "～で自分の役目を果たす",
+                "～に手を置く"
+            ],
+            "wordAudio": "audio/vocab/w_014_make_one_s_way_through.mp3"
+        },
+        {
+            "word": "ever since",
+            "meaning": "～以来ずっと",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "I have liked baseball ever since I was a child.",
+            "distractors": [
+                "～の場合に備えて",
+                "まるで～のように",
+                "～がなければ"
+            ],
+            "wordAudio": "audio/vocab/w_015_ever_since.mp3"
+        },
+        {
+            "word": "make a mess",
+            "meaning": "散らかす",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "Please don't make a mess in the kitchen.",
+            "distractors": [
+                "思い切ってやってみる",
+                "休憩する",
+                "生計を立てる"
+            ],
+            "wordAudio": "audio/vocab/w_016_make_a_mess.mp3"
+        },
+        {
+            "word": "interfere with",
+            "meaning": "～を妨げる・～に干渉する",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "Loud noise can interfere with your sleep.",
+            "distractors": [
+                "急に～し出す",
+                "～を説明する",
+                "～を卒業する"
+            ],
+            "wordAudio": "audio/vocab/w_017_interfere_with.mp3"
+        },
+        {
+            "word": "in accordance with",
+            "meaning": "～に従って",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "The money was used in accordance with the club's rules.",
+            "distractors": [
+                "～と比べて",
+                "～に加えて",
+                "～の代わりに"
+            ],
+            "wordAudio": "audio/vocab/w_018_in_accordance_with.mp3"
+        },
+        {
+            "word": "urgent",
+            "meaning": "緊急の",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "The doctor received an urgent call at midnight.",
+            "distractors": [
+                "整理された",
+                "正確な",
+                "退屈な"
+            ],
+            "wordAudio": "audio/vocab/w_019_urgent.mp3"
+        },
+        {
+            "word": "tidy up",
+            "meaning": "片付ける",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "Let's tidy up the classroom before we go home.",
+            "distractors": [
+                "引き受ける",
+                "延期する",
+                "打ち切る"
+            ],
+            "wordAudio": "audio/vocab/w_020_tidy_up.mp3"
+        },
+        {
+            "word": "witness",
+            "meaning": "目撃者",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "A witness saw the car hit the fence.",
+            "distractors": [
+                "探偵",
+                "容疑者",
+                "被害者"
+            ],
+            "wordAudio": "audio/vocab/w_021_witness.mp3"
+        },
+        {
+            "word": "clue",
+            "meaning": "手がかり",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "This footprint may be an important clue.",
+            "distractors": [
+                "証拠書類",
+                "罰金",
+                "犯行の動機"
+            ],
+            "wordAudio": "audio/vocab/w_022_clue.mp3"
+        },
+        {
+            "word": "concentration",
+            "meaning": "集中（力）",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Listening to music sometimes helps my concentration.",
+            "distractors": [
+                "混乱",
+                "決意",
+                "記憶"
+            ],
+            "wordAudio": "audio/vocab/w_023_concentration.mp3"
+        },
+        {
+            "word": "struggle",
+            "meaning": "奮闘する・苦労する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "Many new students struggle to make friends at first.",
+            "distractors": [
+                "傾向がある",
+                "投資する",
+                "反映する"
+            ],
+            "wordAudio": "audio/vocab/w_024_struggle.mp3"
+        },
+        {
+            "word": "emphasize",
+            "meaning": "強調する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "The teacher emphasized the importance of reviewing.",
+            "distractors": [
+                "延期する",
+                "隠す",
+                "報いる"
+            ],
+            "wordAudio": "audio/vocab/w_025_emphasize.mp3"
+        },
+        {
+            "word": "install",
+            "meaning": "設置する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "The city installed new lights along the river.",
+            "distractors": [
+                "撤去する",
+                "修理する",
+                "輸入する"
+            ],
+            "wordAudio": "audio/vocab/w_026_install.mp3"
+        },
+        {
+            "word": "rescue",
+            "meaning": "救助",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The rescue team found the missing hikers.",
+            "distractors": [
+                "避難所",
+                "警報",
+                "治療"
+            ],
+            "wordAudio": "audio/vocab/w_027_rescue.mp3"
+        },
+        {
+            "word": "emergency",
+            "meaning": "緊急事態",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Call this number in an emergency.",
+            "distractors": [
+                "事故の原因",
+                "災害の予報",
+                "安全の規則"
+            ],
+            "wordAudio": "audio/vocab/w_028_emergency.mp3"
+        },
+        {
+            "word": "navigation",
+            "meaning": "進路の案内・航行",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The ship uses satellites for navigation.",
+            "distractors": [
+                "通信料金",
+                "天気予報",
+                "燃料補給"
+            ],
+            "wordAudio": "audio/vocab/w_029_navigation.mp3"
+        },
+        {
+            "word": "boost",
+            "meaning": "押し上げる・増やす",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "The festival boosted sales at local shops.",
+            "distractors": [
+                "減らす",
+                "比較する",
+                "維持する"
+            ],
+            "wordAudio": "audio/vocab/w_030_boost.mp3"
+        },
+        {
+            "word": "destination",
+            "meaning": "目的地・行き先",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Hawaii is a popular destination for families.",
+            "distractors": [
+                "出発地",
+                "乗り換え駅",
+                "宿泊先"
+            ],
+            "wordAudio": "audio/vocab/w_031_destination.mp3"
+        },
+        {
+            "word": "summit",
+            "meaning": "山頂",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "We reached the summit just before sunrise.",
+            "distractors": [
+                "ふもと",
+                "斜面",
+                "登山道"
+            ],
+            "wordAudio": "audio/vocab/w_032_summit.mp3"
+        },
+        {
+            "word": "critic",
+            "meaning": "批判する人・評論家",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Some critics said the movie was too long.",
+            "distractors": [
+                "支持者",
+                "観光客",
+                "住民"
+            ],
+            "wordAudio": "audio/vocab/w_033_critic.mp3"
+        },
+        {
+            "word": "rural",
+            "meaning": "田舎の・農村の",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "My grandparents live in a quiet rural area.",
+            "distractors": [
+                "都会の",
+                "海岸の",
+                "工業の"
+            ],
+            "wordAudio": "audio/vocab/w_034_rural.mp3"
+        },
+        {
+            "word": "resident",
+            "meaning": "住民",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The residents of this town clean the beach every spring.",
+            "distractors": [
+                "観光客",
+                "通勤者",
+                "移民"
+            ],
+            "wordAudio": "audio/vocab/w_035_resident.mp3"
+        },
+        {
+            "word": "decline",
+            "meaning": "減少する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "The number of children in the village has declined.",
+            "distractors": [
+                "増加する",
+                "回復する",
+                "安定する"
+            ],
+            "wordAudio": "audio/vocab/w_036_decline.mp3"
+        },
+        {
+            "word": "artificial",
+            "meaning": "人工の",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "This lake is artificial; it was made fifty years ago.",
+            "distractors": [
+                "自然の",
+                "地下の",
+                "古代の"
+            ],
+            "wordAudio": "audio/vocab/w_037_artificial.mp3"
+        },
+        {
+            "word": "habitat",
+            "meaning": "生息地",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "Forests are an important habitat for many birds.",
+            "distractors": [
+                "食べ物",
+                "天敵",
+                "繁殖期"
+            ],
+            "wordAudio": "audio/vocab/w_038_habitat.mp3"
+        },
+        {
+            "word": "measure",
+            "meaning": "対策・手段",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The school took measures to prevent accidents.",
+            "distractors": [
+                "目標",
+                "原因",
+                "被害"
+            ],
+            "wordAudio": "audio/vocab/w_039_measure.mp3"
+        },
+        {
+            "word": "maintain",
+            "meaning": "維持する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "It is hard to maintain a healthy diet when you are busy.",
+            "distractors": [
+                "失う",
+                "交換する",
+                "測定する"
+            ],
+            "wordAudio": "audio/vocab/w_040_maintain.mp3"
+        },
+        {
+            "word": "renovate",
+            "meaning": "改装する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "They renovated the old house and opened a café.",
+            "distractors": [
+                "取り壊す",
+                "引っ越す",
+                "借りる"
+            ],
+            "wordAudio": "audio/vocab/w_041_renovate.mp3"
+        },
+        {
+            "word": "give away",
+            "meaning": "（無料で）譲る・手放す",
+            "pos": "熟語",
+            "level": "2級",
+            "example": "I gave away my old bike to my cousin.",
+            "distractors": [
+                "片付ける",
+                "取りに来る",
+                "修理に出す"
+            ],
+            "wordAudio": "audio/vocab/w_042_give_away.mp3"
+        },
+        {
+            "word": "layout",
+            "meaning": "配置・レイアウト",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The new layout of the library makes books easy to find.",
+            "distractors": [
+                "家賃",
+                "営業時間",
+                "品ぞろえ"
+            ],
+            "wordAudio": "audio/vocab/w_043_layout.mp3"
+        },
+        {
+            "word": "secondhand",
+            "meaning": "中古の",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "He bought a secondhand guitar online.",
+            "distractors": [
+                "手作りの",
+                "新品の",
+                "特注の"
+            ],
+            "wordAudio": "audio/vocab/w_044_secondhand.mp3"
+        },
+        {
+            "word": "scratch",
+            "meaning": "ひっかき傷",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "There is a small scratch on my phone screen.",
+            "distractors": [
+                "汚れ",
+                "へこみ",
+                "ひび"
+            ],
+            "wordAudio": "audio/vocab/w_045_scratch.mp3"
+        },
+        {
+            "word": "appreciate",
+            "meaning": "ありがたく思う",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "I would appreciate your help with this project.",
+            "distractors": [
+                "期待する",
+                "催促する",
+                "確認する"
+            ],
+            "wordAudio": "audio/vocab/w_046_appreciate.mp3"
+        },
+        {
+            "word": "crew",
+            "meaning": "（作業）班・乗組員",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "A crew of five workers fixed the roof.",
+            "distractors": [
+                "客",
+                "店主",
+                "設計者"
+            ],
+            "wordAudio": "audio/vocab/w_047_crew.mp3"
+        },
+        {
+            "word": "invent",
+            "meaning": "発明する",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "Who invented the telephone?",
+            "distractors": [
+                "販売する",
+                "輸入する",
+                "改良する"
+            ],
+            "wordAudio": "audio/vocab/w_048_invent.mp3"
+        },
+        {
+            "word": "solution",
+            "meaning": "解決策",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "We need a better solution to this problem.",
+            "distractors": [
+                "原因",
+                "質問",
+                "不満"
+            ],
+            "wordAudio": "audio/vocab/w_049_solution.mp3"
+        },
+        {
+            "word": "fold",
+            "meaning": "折りたたむ",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "Please fold the towels and put them on the shelf.",
+            "distractors": [
+                "広げる",
+                "押す",
+                "運ぶ"
+            ],
+            "wordAudio": "audio/vocab/w_050_fold.mp3"
+        },
+        {
+            "word": "demonstrate",
+            "meaning": "実演する・示す",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "The staff demonstrated how to use the new machine.",
+            "distractors": [
+                "注文する",
+                "修理する",
+                "禁止する"
+            ],
+            "wordAudio": "audio/vocab/w_051_demonstrate.mp3"
+        },
+        {
+            "word": "baby stroller",
+            "meaning": "ベビーカー",
+            "pos": "名詞",
+            "level": "2級",
+            "example": "The mother pushed a baby stroller through the park.",
+            "distractors": [
+                "買い物かご",
+                "三輪車",
+                "車いす"
+            ],
+            "wordAudio": "audio/vocab/w_052_baby_stroller.mp3"
+        },
+        {
+            "word": "fundamentally",
+            "meaning": "根本的に",
+            "pos": "副詞",
+            "level": "2級",
+            "example": "The Internet has fundamentally changed how we study.",
+            "distractors": [
+                "一時的に",
+                "部分的に",
+                "偶然に"
+            ],
+            "wordAudio": "audio/vocab/w_053_fundamentally.mp3"
+        },
+        {
+            "word": "household",
+            "meaning": "家庭の",
+            "pos": "形容詞",
+            "level": "2級",
+            "example": "Soap and paper towels are common household goods.",
+            "distractors": [
+                "業務用の",
+                "輸入の",
+                "高級な"
+            ],
+            "wordAudio": "audio/vocab/w_054_household.mp3"
+        },
+        {
+            "word": "convince",
+            "meaning": "説得する・納得させる",
+            "pos": "動詞",
+            "level": "2級",
+            "example": "She convinced her parents to let her study abroad.",
+            "distractors": [
+                "疑う",
+                "断る",
+                "命令する"
+            ],
+            "wordAudio": "audio/vocab/w_055_convince.mp3"
+        }
+    ],
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(17)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号を解答用紙の所定欄にマークしなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "Visitors to the art gallery are told to behave ( 1 ) in accordance with the rules. Anyone who does not follow the rules will be asked to leave.",
+                    "translation": "美術館の来館者は、規則に ( 1 ) 従って行動するように言われている。規則に従わない人は、退館を求められる。",
+                    "choices": [
+                        "unfairly",
+                        "conveniently",
+                        "cheerfully",
+                        "strictly"
+                    ],
+                    "choiceTranslations": [
+                        "不公平に・不当に",
+                        "都合よく・便利に",
+                        "陽気に・快く",
+                        "厳格に・厳密に"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "unfairly＝不公平に。規則に従うよう求める文脈で、不公平にふるまうよう指示するのは不自然。",
+                        "conveniently＝都合よく。自分の都合に合わせることは、規則を守ることと方向が逆になる。",
+                        "cheerfully＝陽気に・快く。気分の問題ではなく、規則の守り方が話題になっている。",
+                        "strictly＝厳格に→正解。💡in accordance with the rules（規則に従って）と、守らない人は退館を求められるという次の文から、規則をきちんと守るよう求めていると判断できる。"
+                    ],
+                    "grammar": "💡strictly in accordance with ～ は「～に厳密に従って」で、strictly が in accordance with the rules を修飾している。be told to V は tell＋人＋to V（人に～するように言う）の受動態。Anyone who ... は「～する人は誰でも」、be asked to leave は「退出を求められる」。"
+                },
+                {
+                    "number": 2,
+                    "text": "Sarah learned the ( 2 ) of keeping her workspace organized after she missed an urgent document. Now, she always tidies up her desk at the end of each day.",
+                    "translation": "サラは急ぎの書類を見落としてしまったあと、作業スペースを整理しておくことの ( 2 ) を学んだ。今では、毎日一日の終わりにいつも机を片づけている。",
+                    "choices": [
+                        "speed",
+                        "importance",
+                        "courage",
+                        "difference"
+                    ],
+                    "choiceTranslations": [
+                        "速さ",
+                        "重要性・大切さ",
+                        "勇気",
+                        "違い"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "speed＝速さ。整理しておくことの「速さ」を学んだのでは、次の文の片づけの習慣とつながらない。",
+                        "importance＝重要性→正解。💡急ぎの書類を見落とした失敗のあと、毎日机を片づけるようになったことから、整理の大切さを学んだとわかる。",
+                        "courage＝勇気。整理整頓に勇気が必要だという話ではない。",
+                        "difference＝違い。何と何の違いなのかが示されておらず、文脈に合わない。"
+                    ],
+                    "grammar": "💡learn the importance of V-ing は「～することの大切さを学ぶ」。of の後ろは動名詞 keeping。keep＋O＋過去分詞（keep her workspace organized）は「Oを～された状態に保つ」。tidy up は「片づける」。"
+                },
+                {
+                    "number": 3,
+                    "text": "A : Do you think that cats are easier to keep as pets than dogs?\nB : No, I ( 3 ) to prefer dogs. They are friendlier, and they listen to what you say.",
+                    "translation": "A：猫は犬よりもペットとして飼いやすいと思う？\nB：いいえ、私は犬のほうを好む ( 3 )。犬のほうが人なつっこいし、言うことを聞いてくれるから。",
+                    "choices": [
+                        "reflect",
+                        "struggle",
+                        "tend",
+                        "invest"
+                    ],
+                    "choiceTranslations": [
+                        "反映する・よく考える",
+                        "奮闘する・苦労する",
+                        "（～する）傾向がある",
+                        "投資する"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "reflect＝反映する・よく考える。後ろに to prefer を続けて自分の好みを表す使い方はしない。",
+                        "struggle＝苦労する。struggle to V は「～しようと苦労する」で、犬を好むのに苦労するという意味になり不自然。",
+                        "tend＝傾向がある→正解。💡tend to V で「～する傾向がある・どちらかといえば～しがちだ」。犬のほうを好むという自分の傾向を述べ、続けて犬の良い点を理由に挙げている。",
+                        "invest＝投資する。ふつう invest in ～ の形で使い、ペットの好みを述べる文脈に合わない。"
+                    ],
+                    "grammar": "💡tend to V は「～する傾向がある」、prefer は「～のほうを好む」。easier to keep の to keep は形容詞 easy を修飾する不定詞で、cats are easy to keep（猫は飼いやすい）の比較級。what you say の what は「～すること」を表す関係代名詞で、you は特定の相手ではなく一般の人を指す。"
+                },
+                {
+                    "number": 4,
+                    "text": "The soccer game was ( 4 ) because of heavy rain. It was rescheduled for the following Saturday.",
+                    "translation": "サッカーの試合は大雨のため ( 4 ) された。試合はその次の土曜日に日程が組み直された。",
+                    "choices": [
+                        "postponed",
+                        "concealed",
+                        "rewarded",
+                        "emphasized"
+                    ],
+                    "choiceTranslations": [
+                        "延期された",
+                        "隠された",
+                        "報酬を与えられた",
+                        "強調された"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "postponed＝延期された→正解。💡大雨が理由であることと、次の文で次の土曜日に日程を組み直したとあることから判断できる。",
+                        "concealed＝隠された。試合が隠されるという意味は成り立たない。",
+                        "rewarded＝報酬を与えられた。大雨と日程変更の流れに合わない。",
+                        "emphasized＝強調された。雨による試合の扱いを表す語ではない。"
+                    ],
+                    "grammar": "💡postpone は「延期する」（put off とほぼ同じ意味）で、be postponed は「延期される」という受動態。because of＋名詞 は「～が原因で」。reschedule A for＋日時 は「Aの日程を～に変更する」で、ここも受動態 was rescheduled。the following Saturday は「その次の土曜日」。"
+                },
+                {
+                    "number": 5,
+                    "text": "Police said that the trouble at last night's soccer game was caused by a small ( 5 ) of people. Most fans behaved well and just watched the match.",
+                    "translation": "警察は、昨夜のサッカーの試合で起きた騒ぎは、人々のうちの小さな ( 5 ) によって引き起こされたと述べた。ほとんどのファンは行儀よくふるまい、ただ試合を観戦していた。",
+                    "choices": [
+                        "opportunity",
+                        "profit",
+                        "experiment",
+                        "minority"
+                    ],
+                    "choiceTranslations": [
+                        "機会",
+                        "利益",
+                        "実験",
+                        "少数派・少数の人々"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "opportunity＝機会。人々の「機会」が騒ぎを引き起こすという意味は成り立たない。",
+                        "profit＝利益。騒ぎを起こした人々を表す語ではない。",
+                        "experiment＝実験。人の集まりを指す語ではない。",
+                        "minority＝少数派→正解。💡次の文の Most fans behaved well（ほとんどのファンは行儀がよかった）との対比から、騒ぎを起こしたのは一部の少数の人だとわかる。"
+                    ],
+                    "grammar": "💡a (small) minority of ～ は「（ごく）少数の～」で、反対の意味は the majority of ～（～の大多数）。was caused by ～ は「～によって引き起こされた」という受動態。Police said that ... の that 節が過去形なのは、騒ぎが昨夜（過去）の出来事だから。police は複数扱いの名詞。"
+                },
+                {
+                    "number": 6,
+                    "text": "A : The student council said they would make a ( 6 ) about what to do with the money from the school festival.\nB : Really? I'd like to hear their ideas.",
+                    "translation": "A：生徒会が、文化祭で得たお金をどうするかについて ( 6 ) をすると言っていたよ。\nB：本当？どんな考えなのか聞いてみたいな。",
+                    "choices": [
+                        "proposal",
+                        "sensation",
+                        "narrative",
+                        "collection"
+                    ],
+                    "choiceTranslations": [
+                        "提案",
+                        "感覚・大評判",
+                        "物語・話",
+                        "収集・募金"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "proposal＝提案→正解。💡B の I'd like to hear their ideas（彼らの考えを聞きたい）から、お金の使い道について案を示すとわかる。make a proposal で「提案する」。",
+                        "sensation＝感覚・大評判。お金の使い道について示すものではない。",
+                        "narrative＝物語。お金の使い道を物語として語る場面ではない。",
+                        "collection＝収集・募金。make a collection（募金を集める）という言い方はあるが、使い道についての考えを聞きたいという B の返答に合わない。"
+                    ],
+                    "grammar": "💡make a proposal about ～ は「～について提案する」（proposal は propose の名詞形）。said they would make は時制の一致で will が would になっている。what to do with ～ は「～をどうするか」。I'd like to V は I would like to V の短縮形で、「～したい」の丁寧な言い方。"
+                },
+                {
+                    "number": 7,
+                    "text": "These days, scientists can ( 7 ) how the weather will be in the near future by using technology like satellites and radar.",
+                    "translation": "近ごろでは、科学者は人工衛星やレーダーのような技術を使うことで、近い将来に天気がどうなるかを ( 7 ) ことができる。",
+                    "choices": [
+                        "squeeze",
+                        "predict",
+                        "reject",
+                        "execute"
+                    ],
+                    "choiceTranslations": [
+                        "絞る・押し込む",
+                        "予測する",
+                        "拒絶する",
+                        "実行する"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "squeeze＝絞る・押し込む。天気がどうなるかを目的語にとる意味にならない。",
+                        "predict＝予測する→正解。💡how the weather will be in the near future（近い将来に天気がどうなるか）と、人工衛星やレーダーという手段から判断できる。",
+                        "reject＝拒絶する。将来の天気を拒絶するという意味は成り立たない。",
+                        "execute＝実行する。計画や命令を実行する語で、天気を目的語にとらない。"
+                    ],
+                    "grammar": "💡predict は「予測する」（pre-＝前もって＋dict＝言う）。how the weather will be ... は疑問詞＋主語＋動詞の語順の間接疑問で、predict の目的語になっている。by V-ing は「～することによって」と手段を表す。like は前置詞で「～のような」。"
+                },
+                {
+                    "number": 8,
+                    "text": "Bill used to be ( 8 ) by the problems faced by developing countries. After visiting a few, though, he became more interested in trying to help.",
+                    "translation": "ビルは以前、発展途上国が直面している問題に ( 8 ) だった。しかし、そうした国をいくつか訪れたあと、支援しようとすることにもっと関心を持つようになった。",
+                    "choices": [
+                        "unconcerned",
+                        "jealous",
+                        "capable",
+                        "disabled"
+                    ],
+                    "choiceTranslations": [
+                        "無関心な・気にかけない",
+                        "嫉妬した・うらやましい",
+                        "能力がある",
+                        "障がいのある"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "unconcerned＝無関心な→正解。💡used to（以前は～だった）と、though（しかし）のあとの became more interested（もっと関心を持つようになった）との対比から、以前は無関心だったとわかる。",
+                        "jealous＝嫉妬した。途上国の問題に嫉妬するという意味は成り立たない。",
+                        "capable＝能力がある。ふつう capable of の形で使い、関心の変化を述べる文脈に合わない。",
+                        "disabled＝障がいのある。問題に対するビルの気持ちを表す語ではない。"
+                    ],
+                    "grammar": "💡unconcerned は「気にかけない・無関心な」（concerned「気にかけている」の反対）。used to＋動詞の原形 は「以前は～だった（今は違う）」。the problems faced by ～ は過去分詞 faced が後ろから名詞を修飾する形で「～が直面する問題」。a few の後ろには countries が省略されている。文中の though は「しかし」を表す副詞。be interested in V-ing は「～することに関心がある」。"
+                },
+                {
+                    "number": 9,
+                    "text": "The detective was trying to solve a ( 9 ), but he could not find any clues. Then, a witness came forward and told him what she had seen.",
+                    "translation": "その刑事は ( 9 ) を解決しようとしていたが、手がかりを一つも見つけられなかった。そのとき、ある目撃者が名乗り出て、自分が見たことを刑事に話した。",
+                    "choices": [
+                        "theme",
+                        "treasure",
+                        "pleasure",
+                        "murder"
+                    ],
+                    "choiceTranslations": [
+                        "主題・テーマ",
+                        "宝物",
+                        "喜び・楽しみ",
+                        "殺人（事件）"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "theme＝主題・テーマ。刑事が手がかりや目撃者を頼りに解決するものではない。",
+                        "treasure＝宝物。宝物は「解決する」対象にならない。",
+                        "pleasure＝楽しみ。解決すべき事件を表さない。",
+                        "murder＝殺人事件→正解。💡detective（刑事）、clues（手がかり）、witness（目撃者）という語から、解決しようとしているのは事件だとわかる。"
+                    ],
+                    "grammar": "💡solve a murder は「殺人事件を解決する」。not ... any は「一つも～ない」。come forward は「（情報提供のために）名乗り出る」。tell＋人＋物 の第4文型で、what she had seen は「彼女が見たこと」。had seen は話した時点より前に見たことを示す過去完了。"
+                },
+                {
+                    "number": 10,
+                    "text": "Some people think that life ( 10 ) on other planets, but others believe that Earth is the only place with living things.",
+                    "translation": "ほかの惑星にも生命が ( 10 ) と考える人もいれば、生物がいる場所は地球だけだと信じている人もいる。",
+                    "choices": [
+                        "forgives",
+                        "exists",
+                        "prays",
+                        "stares"
+                    ],
+                    "choiceTranslations": [
+                        "許す",
+                        "存在する",
+                        "祈る",
+                        "じっと見つめる"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "forgives＝許す。許す対象が示されておらず、生命がほかの惑星で「許す」という意味は成り立たない。",
+                        "exists＝存在する→正解。💡後半の Earth is the only place with living things（生物がいるのは地球だけ）との対比から、ほかの惑星に生命がいるかどうかの話だとわかる。",
+                        "prays＝祈る。生命の有無を述べる文脈に合わない。",
+                        "stares＝じっと見つめる。ふつう stare at の形で使い、生命の存在を表さない。"
+                    ],
+                    "grammar": "💡exist は「存在する」という自動詞で、exist on ～ は「～（の上）に存在する」。主語 life は数えられない名詞で三人称単数扱いなので exists になる。Some people ..., but others ... は「～する人もいれば、…する人もいる」。living things は「生物」。"
+                },
+                {
+                    "number": 11,
+                    "text": "A : Look at all these people waiting for the concert to start! What can we do to ( 11 )?\nB : Let's find a coffee shop where we can sit and chat.",
+                    "translation": "A：コンサートが始まるのを待っている人がこんなにたくさんいるよ！( 11 ) ために何ができるかな？\nB：座っておしゃべりできる喫茶店を探そうよ。",
+                    "choices": [
+                        "break down",
+                        "lose sight",
+                        "kill time",
+                        "meet needs"
+                    ],
+                    "choiceTranslations": [
+                        "故障する・壊す",
+                        "見失う（ふつう lose sight of ～ の形）",
+                        "時間をつぶす",
+                        "要求を満たす"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "break down＝故障する・壊す。開演までの過ごし方を相談する文脈に合わない。",
+                        "lose sight＝見失う。ふつう lose sight of ～ の形で目的語をとり、ここでは形も意味も合わない。",
+                        "kill time＝時間をつぶす→正解。💡開演を待つ人が多く、B が座っておしゃべりできる喫茶店を提案していることから、待ち時間をつぶす方法を相談しているとわかる。",
+                        "meet needs＝要求を満たす。誰のどのような要求かが示されておらず、待ち時間の話に合わない。"
+                    ],
+                    "grammar": "💡kill time は「（待ち時間などの）時間をつぶす」。these people waiting for ... は現在分詞 waiting が後ろから people を修飾する形。wait for＋人・物＋to V は「…が～するのを待つ」。a coffee shop where we can sit and chat の where は場所を表す関係副詞。"
+                },
+                {
+                    "number": 12,
+                    "text": "The teacher told her students to ( 12 ) cars when they cross the street. She said that they should be very careful.",
+                    "translation": "先生は生徒たちに、道路を渡るときは車に ( 12 ) ように言った。とても注意深くするべきだと話した。",
+                    "choices": [
+                        "watch out for",
+                        "come up with",
+                        "go back on",
+                        "look up to"
+                    ],
+                    "choiceTranslations": [
+                        "～に気をつける・用心する",
+                        "～を思いつく",
+                        "（約束など）を破る",
+                        "～を尊敬する"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "watch out for＝～に気をつける→正解。💡道路を渡るときの話で、次の文の they should be very careful（とても注意深くするべきだ）が根拠。",
+                        "come up with＝～を思いつく。車を思いつくという意味は成り立たない。",
+                        "go back on＝（約束など）を破る。cars を目的語にとれない。",
+                        "look up to＝～を尊敬する。道路を渡るときの注意とは関係がない。"
+                    ],
+                    "grammar": "💡watch out for ～ は「～に気をつける・注意する」（look out for ～ もほぼ同じ意味）。tell＋人＋to V は「人に～するように言う」。when they cross the street は時を表す副詞節。should は「～すべきだ」。"
+                },
+                {
+                    "number": 13,
+                    "text": "The new computer program has some problems, but ( 13 ) it is very good. Most people who use it are happy with it.",
+                    "translation": "その新しいコンピュータープログラムにはいくつか問題があるが、( 13 ) とても良いものだ。それを使っている人のほとんどが満足している。",
+                    "choices": [
+                        "for this reason",
+                        "in other words",
+                        "on the whole",
+                        "in that case"
+                    ],
+                    "choiceTranslations": [
+                        "このような理由で",
+                        "言いかえれば",
+                        "全体として・概して",
+                        "その場合は"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "for this reason＝このような理由で。問題があることは「とても良い」の理由にならない。",
+                        "in other words＝言いかえれば。問題があることを「とても良い」と言いかえることはできない。",
+                        "on the whole＝全体として→正解。💡いくつか問題はあるが（but）、ほとんどの人が満足しているという流れから、全体としては良いと評価しているとわかる。",
+                        "in that case＝その場合は。前に条件となる状況が示されておらず、流れに合わない。"
+                    ],
+                    "grammar": "💡on the whole は「全体として・概して」（overall とほぼ同じ意味）で、細かな欠点はあっても全体を見て評価するときに使う。most people who use it の who は主格の関係代名詞。be happy with ～ は「～に満足している」。"
+                },
+                {
+                    "number": 14,
+                    "text": "Tom was at a concert, but he was standing far away from the stage. He had to ( 14 ) the crowd to get closer to the music.",
+                    "translation": "トムはコンサートに来ていたが、ステージから遠く離れたところに立っていた。音楽にもっと近づくには、人混みを ( 14 ) 必要があった。",
+                    "choices": [
+                        "take his turn at",
+                        "pull his weight in",
+                        "make his way through",
+                        "put his hand on"
+                    ],
+                    "choiceTranslations": [
+                        "～で自分の番を務める",
+                        "～で自分の役割を十分に果たす",
+                        "～をかき分けて進む",
+                        "～に手を置く"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "take his turn at＝～で自分の番を務める。人混みで順番を務めるという意味にならない。",
+                        "pull his weight in＝～で自分の役割を十分に果たす。仕事やチームで分担を果たすときの表現で、人混みには合わない。",
+                        "make his way through＝～をかき分けて進む→正解。💡ステージから遠くに立っていたことと、音楽に近づくためという目的から、人混みの中を進んだとわかる。",
+                        "put his hand on＝～に手を置く。人混みに手を置いてもステージには近づけない。"
+                    ],
+                    "grammar": "💡make one's way through ～ は「～の中を（かき分けて）進む」で、one's は主語に合わせて his になる。had to V は「～しなければならなかった」。to get closer は目的を表す不定詞「近づくために」で、closer は close（近い）の比較級。far away from ～ は「～から遠く離れて」。"
+                },
+                {
+                    "number": 15,
+                    "text": "A : Have you and Kevin been friends for a long time?\nB : Yes. We've been friends ( 15 ) we were in third grade.",
+                    "translation": "A：あなたとケビンは長い間友達なの？\nB：うん。3年生のとき ( 15 ) 友達なんだ。",
+                    "choices": [
+                        "in case",
+                        "ever since",
+                        "as though",
+                        "but for"
+                    ],
+                    "choiceTranslations": [
+                        "～の場合に備えて",
+                        "～して以来ずっと",
+                        "まるで～のように",
+                        "～がなければ"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "in case＝～の場合に備えて。友達でいる期間の起点を表さない。",
+                        "ever since＝～して以来ずっと→正解。💡We've been friends という現在完了（継続）と、3年生のときという過去の起点から判断できる。",
+                        "as though＝まるで～のように。友達になった時期の起点を表さず、意味が通らない。",
+                        "but for＝～がなければ。後ろには名詞が続き、we were ... のような主語＋動詞は続かない。"
+                    ],
+                    "grammar": "💡ever since＋S＋V（過去形）は「～して以来ずっと」で、since を ever で強めた形。主節にはふつう現在完了を使い、ここでは We've been friends（ずっと友達だ）という継続を表す。Have you and Kevin been ...? も現在完了の疑問文で、「（今まで）ずっと～なの？」と継続を尋ねている。"
+                },
+                {
+                    "number": 16,
+                    "text": "When children play with toys, it is natural for them to ( 16 ). Parents should teach them to clean up afterward.",
+                    "translation": "子どもがおもちゃで遊ぶとき、( 16 ) のは自然なことだ。親は、遊んだあとに片づけるよう子どもに教えるべきだ。",
+                    "choices": [
+                        "take a chance",
+                        "make a mess",
+                        "take a break",
+                        "make a living"
+                    ],
+                    "choiceTranslations": [
+                        "思い切ってやってみる",
+                        "散らかす",
+                        "休憩する",
+                        "生計を立てる"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "take a chance＝思い切ってやってみる。次の文の「片づける」とつながらない。",
+                        "make a mess＝散らかす→正解。💡次の文で、親は clean up afterward（あとで片づける）ことを教えるべきだとあるので、遊ぶと散らかるのは自然だという流れになる。",
+                        "take a break＝休憩する。休憩しても片づけの必要は生じない。",
+                        "make a living＝生計を立てる。おもちゃで遊ぶ子どもには当てはまらない。"
+                    ],
+                    "grammar": "💡make a mess は「散らかす・めちゃくちゃにする」（mess＝散らかった状態）。it is ～ for 人 to V は「人が…するのは～だ」という形式主語の構文で、it は to make a mess を指す。teach＋人＋to V は「人に～するよう教える」。afterward は「そのあとで」。"
+                },
+                {
+                    "number": 17,
+                    "text": "Laura likes to listen to music while studying, but Bob does not. He feels it ( 17 ) his concentration.",
+                    "translation": "ローラは勉強しながら音楽を聞くのが好きだが、ボブはそうではない。彼は、音楽が自分の集中力を ( 17 ) と感じている。",
+                    "choices": [
+                        "interferes with",
+                        "bursts into",
+                        "accounts for",
+                        "graduates from"
+                    ],
+                    "choiceTranslations": [
+                        "～を妨げる・～の邪魔をする",
+                        "突然～しだす・～に飛び込む",
+                        "～を説明する・（割合）を占める",
+                        "～を卒業する"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "interferes with＝～を妨げる→正解。💡but のあとで、ボブは勉強中に音楽を聞くのが好きではないとあることから、音楽が集中の邪魔になると感じているとわかる。",
+                        "bursts into＝突然～しだす。burst into tears（急に泣き出す）のように使い、集中力を目的語にとる意味にならない。",
+                        "accounts for＝～を説明する・（割合）を占める。音楽が集中力を説明するという意味は不自然。",
+                        "graduates from＝～を卒業する。音楽が集中力を卒業することはない。"
+                    ],
+                    "grammar": "💡interfere with ～ は「～を妨げる・～の邪魔をする」。主語 it（勉強中に聞く音楽）は三人称単数なので interferes。while studying は while (she is) studying の主語と be 動詞が省略された形。Bob does not の後ろには like to listen to music while studying が省略されている。He feels (that) it ... は接続詞 that の省略。"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "passage-fill",
+            "instruction": "次の英文A，Bを読み，その文意にそって(18)から(23)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号を解答用紙の所定欄にマークしなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "A New Service on the Mountain",
+                    "paragraphs": [
+                        "In the early 2020s, the Tanzanian government installed high-speed Internet access points on Mount Kilimanjaro for people to use. The first one was set up at Horombo Huts, high on the mountain's slopes. Later, more access points were placed along the climbing route. This made it easier for climbers to contact their guides and request rescue in case of emergencies. It also enabled mountain workers to communicate about navigation and to ( 18 ). This can prepare them for sudden changes on the mountain, ensuring their safety.",
+                        "Another purpose of making the Internet available on Mount Kilimanjaro was to boost the tourism industry. Mount Kilimanjaro has long been a popular tourist destination, attracting many visitors from around the world. Tourists can now post pictures and videos during their climb. ( 19 ), they can share their experiences in real time and show the challenges they had on the mountain. Fortunately for tourists, Internet access on Mount Kilimanjaro has now been expanded all the way to its summit.",
+                        "However, not everyone was happy. Some critics said the government was giving more attention to tourists. Many rural communities in Tanzania ( 20 ). Therefore, there were criticisms that the resources should be used more to improve communication services for local residents. On the other hand, some people welcomed the new service for its safety benefits and emergency communication on the mountain. In short, the project has caused debate, but it has also changed how people stay safe while climbing Mount Kilimanjaro and how they share their journeys in real time."
+                    ],
+                    "translations": [
+                        "2020年代初め、タンザニア政府は、人々が利用できるように、キリマンジャロ山に高速インターネットの接続ポイントを設置した。最初の接続ポイントは、山の斜面の高い所にあるホロンボ・ハットに設置された。その後、登山ルートに沿って、さらに多くの接続ポイントが設置された。これにより、登山者はガイドに連絡したり、緊急時に救助を要請したりしやすくなった。また、山で働く人々がルート案内について連絡を取り合い、( 18 ) ことも可能になった。これにより、彼らは山での急な変化に備えることができ、安全の確保にもつながる。",
+                        "キリマンジャロ山でインターネットを使えるようにしたもう一つの目的は、観光業を活性化することだった。キリマンジャロ山は長年、人気の観光地であり、世界中から多くの訪問者を引きつけてきた。観光客は今では、登山中に写真や動画を投稿できる。( 19 )、彼らは自分の体験をリアルタイムで共有し、山で経験した困難を見せることができる。観光客にとって幸いなことに、キリマンジャロ山のインターネット接続は、現在では山頂まで拡大されている。",
+                        "しかし、誰もが喜んだわけではなかった。政府は観光客のほうに多くの関心を向けている、と言う批判的な人々もいた。タンザニアの多くの農村地域は ( 20 )。そのため、そうした資源は地元住民のための通信サービスを改善することにもっと使われるべきだ、という批判があった。一方で、山での安全面の利点や緊急時の連絡手段を理由に、この新しいサービスを歓迎する人々もいた。要するに、この事業は議論を引き起こしたが、キリマンジャロ山の登山中に人々が安全を保つ方法や、旅の様子をリアルタイムで共有する方法を変えもした。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "In the early 2020s, the Tanzanian government installed high-speed Internet access points on Mount Kilimanjaro for people to use.",
+                            "2020年代初め、タンザニア政府は、人々が利用できるように、キリマンジャロ山に高速インターネットの接続ポイントを設置した。",
+                            "In the early 2020s,|2020年代初めに||the Tanzanian government installed high-speed Internet access points|タンザニア政府は高速インターネットの接続ポイントを設置した||on Mount Kilimanjaro|キリマンジャロ山に||for people to use.|人々が利用できるように",
+                            "installed"
+                        ],
+                        [
+                            "The first one was set up at Horombo Huts, high on the mountain's slopes.",
+                            "最初の接続ポイントは、山の斜面の高い所にあるホロンボ・ハットに設置された。",
+                            "The first one was set up|最初のものが設置された||at Horombo Huts,|ホロンボ・ハットに||high on the mountain's slopes.|山の斜面の高い所にある",
+                            "was set up"
+                        ],
+                        [
+                            "Later, more access points were placed along the climbing route.",
+                            "その後、登山ルートに沿って、さらに多くの接続ポイントが設置された。",
+                            "Later,|その後||more access points were placed|さらに多くの接続ポイントが設置された||along the climbing route.|登山ルートに沿って",
+                            "were placed"
+                        ],
+                        [
+                            "This made it easier for climbers to contact their guides and request rescue in case of emergencies.",
+                            "これにより、登山者はガイドに連絡したり、緊急時に救助を要請したりしやすくなった。",
+                            "This made it easier for climbers|これにより登山者にとって容易になった||to contact their guides|ガイドに連絡することが||and request rescue|そして救助を要請することが||in case of emergencies.|緊急時に",
+                            "made"
+                        ],
+                        [
+                            "It also enabled mountain workers to communicate about navigation and to ( 18 ).",
+                            "また、山で働く人々がルート案内について連絡を取り合い、( 18 ) ことも可能になった。",
+                            "It also enabled mountain workers|それはまた山で働く人々に可能にした||to communicate about navigation|ルート案内について連絡を取り合うことを||and to ( 18 ).|そして（18）ことを",
+                            "enabled"
+                        ],
+                        [
+                            "This can prepare them for sudden changes on the mountain, ensuring their safety.",
+                            "これにより、彼らは山での急な変化に備えることができ、安全の確保にもつながる。",
+                            "This can prepare them|これは彼らに備えさせることができる||for sudden changes on the mountain,|山での急な変化に||ensuring their safety.|そして彼らの安全を確保する",
+                            "can prepare"
+                        ],
+                        [
+                            "Another purpose of making the Internet available on Mount Kilimanjaro was to boost the tourism industry.",
+                            "キリマンジャロ山でインターネットを使えるようにしたもう一つの目的は、観光業を活性化することだった。",
+                            "Another purpose|もう一つの目的は||of making the Internet available on Mount Kilimanjaro|キリマンジャロ山でインターネットを使えるようにすることの||was to boost the tourism industry.|観光業を活性化することだった",
+                            "was"
+                        ],
+                        [
+                            "Mount Kilimanjaro has long been a popular tourist destination, attracting many visitors from around the world.",
+                            "キリマンジャロ山は長年、人気の観光地であり、世界中から多くの訪問者を引きつけてきた。",
+                            "Mount Kilimanjaro has long been a popular tourist destination,|キリマンジャロ山は長年人気の観光地である||attracting many visitors|多くの訪問者を引きつけながら||from around the world.|世界中から",
+                            "has long been"
+                        ],
+                        [
+                            "Tourists can now post pictures and videos during their climb.",
+                            "観光客は今では、登山中に写真や動画を投稿できる。",
+                            "Tourists can now post pictures and videos|観光客は今では写真や動画を投稿できる||during their climb.|登山中に",
+                            "can now post"
+                        ],
+                        [
+                            "( 19 ), they can share their experiences in real time and show the challenges they had on the mountain.",
+                            "( 19 )、彼らは自分の体験をリアルタイムで共有し、山で経験した困難を見せることができる。",
+                            "( 19 ), they can share their experiences|（19）、彼らは自分の体験を共有できる||in real time|リアルタイムで||and show the challenges|そして困難を見せることができる||they had on the mountain.|山で経験した",
+                            "can share"
+                        ],
+                        [
+                            "Fortunately for tourists, Internet access on Mount Kilimanjaro has now been expanded all the way to its summit.",
+                            "観光客にとって幸いなことに、キリマンジャロ山のインターネット接続は、現在では山頂まで拡大されている。",
+                            "Fortunately for tourists,|観光客にとって幸いなことに||Internet access on Mount Kilimanjaro|キリマンジャロ山のインターネット接続は||has now been expanded|現在では拡大されている||all the way to its summit.|山頂まで",
+                            "has now been expanded"
+                        ],
+                        [
+                            "However, not everyone was happy.",
+                            "しかし、誰もが喜んだわけではなかった。",
+                            "However,|しかし||not everyone was happy.|誰もが喜んだわけではなかった",
+                            "was"
+                        ],
+                        [
+                            "Some critics said the government was giving more attention to tourists.",
+                            "政府は観光客のほうに多くの関心を向けている、と言う批判的な人々もいた。",
+                            "Some critics said|一部の批判的な人々は言った||the government was giving more attention|政府がより多くの関心を向けていると||to tourists.|観光客に",
+                            "said"
+                        ],
+                        [
+                            "Many rural communities in Tanzania ( 20 ).",
+                            "タンザニアの多くの農村地域は ( 20 )。",
+                            "Many rural communities in Tanzania|タンザニアの多くの農村地域は||( 20 ).|（20）",
+                            ""
+                        ],
+                        [
+                            "Therefore, there were criticisms that the resources should be used more to improve communication services for local residents.",
+                            "そのため、そうした資源は地元住民のための通信サービスを改善することにもっと使われるべきだ、という批判があった。",
+                            "Therefore,|そのため||there were criticisms|批判があった||that the resources should be used more|そうした資源がもっと使われるべきだという||to improve communication services|通信サービスを改善するために||for local residents.|地元住民のための",
+                            "were"
+                        ],
+                        [
+                            "On the other hand, some people welcomed the new service for its safety benefits and emergency communication on the mountain.",
+                            "一方で、山での安全面の利点や緊急時の連絡手段を理由に、この新しいサービスを歓迎する人々もいた。",
+                            "On the other hand,|一方で||some people welcomed the new service|この新しいサービスを歓迎する人々もいた||for its safety benefits and emergency communication|安全面の利点や緊急時の連絡を理由に||on the mountain.|山での",
+                            "welcomed"
+                        ],
+                        [
+                            "In short, the project has caused debate, but it has also changed how people stay safe while climbing Mount Kilimanjaro and how they share their journeys in real time.",
+                            "要するに、この事業は議論を引き起こしたが、キリマンジャロ山の登山中に人々が安全を保つ方法や、旅の様子をリアルタイムで共有する方法を変えもした。",
+                            "In short,|要するに||the project has caused debate,|この事業は議論を引き起こした||but it has also changed|しかしそれはまた変えた||how people stay safe|人々が安全を保つ方法を||while climbing Mount Kilimanjaro|キリマンジャロ山に登っている間に||and how they share their journeys|そして旅の様子を共有する方法を||in real time.|リアルタイムで",
+                            "has caused"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 18,
+                            "choices": [
+                                "check the current weather",
+                                "carry extra equipment",
+                                "take photos of the mountain",
+                                "arrange accommodation in town"
+                            ],
+                            "choiceTranslations": [
+                                "現在の天気を確認する",
+                                "予備の装備を運ぶ",
+                                "山の写真を撮る",
+                                "町で宿泊先を手配する"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "現在の天気を確認する→正解。💡次の文の「山での急な変化に備えられる」と自然につながる。",
+                                "予備の装備を運ぶ。インターネットで連絡を取り合う話で、装備の運搬とは関係がない。",
+                                "山の写真を撮る。写真の投稿は第2段落の観光客の話で、山で働く人々の安全とは結びつかない。",
+                                "町で宿泊先を手配する。山での急な変化への備えにつながらない。"
+                            ],
+                            "grammar": "💡enable＋人＋to V は「人が～できるようにする」で、to communicate と to ( 18 ) が and で並ぶ。次の文の prepare＋人＋for ～「人に～への備えをさせる」と sudden changes（急な変化）が、天気の確認と結びつく手がかり。",
+                            "sourceEvidence": [
+                                "It also enabled mountain workers to communicate about navigation and to ( 18 ).",
+                                "This can prepare them for sudden changes on the mountain, ensuring their safety."
+                            ]
+                        },
+                        {
+                            "number": 19,
+                            "choices": [
+                                "Instead",
+                                "By doing so",
+                                "In contrast",
+                                "Otherwise"
+                            ],
+                            "choiceTranslations": [
+                                "その代わりに",
+                                "そうすることで",
+                                "対照的に",
+                                "そうでなければ"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "その代わりに。投稿をやめて別のことをするという流れではない。",
+                                "そうすることで→正解。💡写真や動画を投稿することで、体験をリアルタイムで共有できるという手段と結果の関係。",
+                                "対照的に。前の文と対立する内容ではなく、投稿の効果を述べている。",
+                                "そうでなければ。投稿しない場合の結果を述べる文ではない。"
+                            ],
+                            "grammar": "💡by doing so の so は前の文の post pictures and videos を受け、「そうする（写真や動画を投稿する）ことによって」という手段を表す。can share ... and show ～ と動詞が and で並ぶ。",
+                            "sourceEvidence": [
+                                "Tourists can now post pictures and videos during their climb.",
+                                "( 19 ), they can share their experiences in real time and show the challenges they had on the mountain."
+                            ]
+                        },
+                        {
+                            "number": 20,
+                            "choices": [
+                                "always share pictures with tourists",
+                                "recently built new public schools",
+                                "already use the Internet freely",
+                                "still lack reliable Internet access"
+                            ],
+                            "choiceTranslations": [
+                                "いつも観光客と写真を共有している",
+                                "最近新しい公立学校を建てた",
+                                "すでに自由にインターネットを使っている",
+                                "いまだに安定したインターネット接続がない"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "観光客と写真を共有している。地元住民の通信サービスを改善すべきだという次の文の批判につながらない。",
+                                "新しい公立学校を建てた。学校の話は本文になく、通信サービスへの批判と関係がない。",
+                                "すでに自由にインターネットを使っている。それなら地元向けの通信改善を求める批判とつながらない。",
+                                "いまだに安定した接続がない→正解。💡次の文で、資源を地元住民の通信サービス改善に使うべきだという批判が続く。"
+                            ],
+                            "grammar": "💡次の文の Therefore は「そのため」で、( 20 ) の内容が批判の理由になる。there were criticisms that ～ の that 節は criticisms の内容を説明する同格節。lack は他動詞なので、前置詞なしで目的語をとる。",
+                            "sourceEvidence": [
+                                "Many rural communities in Tanzania ( 20 ).",
+                                "Therefore, there were criticisms that the resources should be used more to improve communication services for local residents."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "Bats",
+                    "paragraphs": [
+                        "Bats play an important role both for the natural environment and people's lives. They eat many insects, such as flies and moths, that harm plants. Since one bat can eat thousands of insects a night, farmers can reduce the amount of chemicals they use on their crops. In addition, bats help many plants grow by ( 21 ). This allows new plants to start growing far from the parent plant. Unfortunately, bat populations are falling across the globe. If the number continues to decline, a serious problem might occur for the environment and food production.",
+                        "In some parts of North America, many bats are dying from a disease called white-nose syndrome. The name comes from white marks on the faces or wings of sleeping bats. It spreads in the caves and tunnels where bats sleep for the winter. The disease wakes up the bats from their winter sleep. ( 22 ), once awake, they begin to move around, causing them to lose the body fat that they have stored. Since there are not enough food sources during the winter, many bats end up dying.",
+                        "Scientists and activists are taking various measures to protect the bat population. For example, they enter caves in winter to count and monitor the bats. Special habitats, such as artificial caves, have also been created to give bats safe places to rest. Also, experts are studying what various bats need to ( 23 ). They attach small tracking devices to monitor their activities and understand how these bats maintain energy during the winter months."
+                    ],
+                    "translations": [
+                        "コウモリは、自然環境と人々の生活の両方にとって重要な役割を果たしている。コウモリは、ハエやガなど、植物に害を与える多くの昆虫を食べる。1匹のコウモリが一晩に何千匹もの昆虫を食べられるため、農家は作物に使う化学薬品の量を減らすことができる。さらに、コウモリは ( 21 ) ことによって、多くの植物が育つのを助けている。これにより、新しい植物が親の植物から遠く離れた場所で育ち始めることができる。残念なことに、コウモリの個体数は世界中で減少している。その数が減り続ければ、環境や食料生産に深刻な問題が起こるかもしれない。",
+                        "北米の一部の地域では、多くのコウモリが白鼻症候群と呼ばれる病気で死んでいる。この名前は、眠っているコウモリの顔や翼に見られる白い斑点に由来する。この病気は、コウモリが冬の間眠る洞窟やトンネルの中で広がる。この病気は、コウモリを冬眠から目覚めさせてしまう。( 22 )、いったん目覚めると、コウモリは動き回り始め、そのせいで蓄えておいた体脂肪を失ってしまう。冬の間は十分な食料がないため、多くのコウモリが最終的に死んでしまう。",
+                        "科学者や活動家たちは、コウモリの個体数を守るためにさまざまな対策を講じている。例えば、冬に洞窟に入り、コウモリの数を数えたり様子を観察したりしている。また、コウモリに安全な休息場所を与えるため、人工の洞窟などの特別な生息環境も作られている。さらに、専門家たちは、さまざまなコウモリが ( 23 ) ために何を必要としているのかを研究している。小型の追跡装置を取り付けて活動を観察し、これらのコウモリが冬の数か月間にどのようにエネルギーを保っているのかを理解しようとしている。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Bats play an important role both for the natural environment and people's lives.",
+                            "コウモリは、自然環境と人々の生活の両方にとって重要な役割を果たしている。",
+                            "Bats play an important role|コウモリは重要な役割を果たしている||both for the natural environment and people's lives.|自然環境と人々の生活の両方にとって",
+                            "play"
+                        ],
+                        [
+                            "They eat many insects, such as flies and moths, that harm plants.",
+                            "コウモリは、ハエやガなど、植物に害を与える多くの昆虫を食べる。",
+                            "They eat many insects,|コウモリは多くの昆虫を食べる||such as flies and moths,|ハエやガなど||that harm plants.|植物に害を与える",
+                            "eat"
+                        ],
+                        [
+                            "Since one bat can eat thousands of insects a night, farmers can reduce the amount of chemicals they use on their crops.",
+                            "1匹のコウモリが一晩に何千匹もの昆虫を食べられるため、農家は作物に使う化学薬品の量を減らすことができる。",
+                            "Since one bat can eat thousands of insects a night,|1匹のコウモリが一晩に何千匹もの昆虫を食べられるため||farmers can reduce the amount of chemicals|農家は化学薬品の量を減らすことができる||they use on their crops.|作物に使う",
+                            "can reduce"
+                        ],
+                        [
+                            "In addition, bats help many plants grow by ( 21 ).",
+                            "さらに、コウモリは ( 21 ) ことによって、多くの植物が育つのを助けている。",
+                            "In addition,|さらに||bats help many plants grow|コウモリは多くの植物が育つのを助けている||by ( 21 ).|（21）ことによって",
+                            "help"
+                        ],
+                        [
+                            "This allows new plants to start growing far from the parent plant.",
+                            "これにより、新しい植物が親の植物から遠く離れた場所で育ち始めることができる。",
+                            "This allows new plants to start growing|これにより新しい植物が育ち始めることができる||far from the parent plant.|親の植物から遠く離れた場所で",
+                            "allows"
+                        ],
+                        [
+                            "Unfortunately, bat populations are falling across the globe.",
+                            "残念なことに、コウモリの個体数は世界中で減少している。",
+                            "Unfortunately,|残念なことに||bat populations are falling|コウモリの個体数は減少している||across the globe.|世界中で",
+                            "are falling"
+                        ],
+                        [
+                            "If the number continues to decline, a serious problem might occur for the environment and food production.",
+                            "その数が減り続ければ、環境や食料生産に深刻な問題が起こるかもしれない。",
+                            "If the number continues to decline,|その数が減り続ければ||a serious problem might occur|深刻な問題が起こるかもしれない||for the environment and food production.|環境や食料生産にとって",
+                            "might occur"
+                        ],
+                        [
+                            "In some parts of North America, many bats are dying from a disease called white-nose syndrome.",
+                            "北米の一部の地域では、多くのコウモリが白鼻症候群と呼ばれる病気で死んでいる。",
+                            "In some parts of North America,|北米の一部の地域では||many bats are dying|多くのコウモリが死んでいる||from a disease called white-nose syndrome.|白鼻症候群と呼ばれる病気で",
+                            "are dying"
+                        ],
+                        [
+                            "The name comes from white marks on the faces or wings of sleeping bats.",
+                            "この名前は、眠っているコウモリの顔や翼に見られる白い斑点に由来する。",
+                            "The name comes|この名前は由来する||from white marks|白い斑点に||on the faces or wings of sleeping bats.|眠っているコウモリの顔や翼にある",
+                            "comes"
+                        ],
+                        [
+                            "It spreads in the caves and tunnels where bats sleep for the winter.",
+                            "この病気は、コウモリが冬の間眠る洞窟やトンネルの中で広がる。",
+                            "It spreads|それは広がる||in the caves and tunnels|洞窟やトンネルの中で||where bats sleep for the winter.|コウモリが冬の間眠る",
+                            "spreads"
+                        ],
+                        [
+                            "The disease wakes up the bats from their winter sleep.",
+                            "この病気は、コウモリを冬眠から目覚めさせてしまう。",
+                            "The disease wakes up the bats|この病気はコウモリを目覚めさせる||from their winter sleep.|冬眠から",
+                            "wakes up"
+                        ],
+                        [
+                            "( 22 ), once awake, they begin to move around, causing them to lose the body fat that they have stored.",
+                            "( 22 )、いったん目覚めると、コウモリは動き回り始め、そのせいで蓄えておいた体脂肪を失ってしまう。",
+                            "( 22 ), once awake,|（22）、いったん目覚めると||they begin to move around,|コウモリは動き回り始める||causing them to lose the body fat|そしてそのせいで体脂肪を失う||that they have stored.|蓄えておいた",
+                            "begin"
+                        ],
+                        [
+                            "Since there are not enough food sources during the winter, many bats end up dying.",
+                            "冬の間は十分な食料がないため、多くのコウモリが最終的に死んでしまう。",
+                            "Since there are not enough food sources|十分な食料源がないため||during the winter,|冬の間は||many bats end up dying.|多くのコウモリが最終的に死んでしまう",
+                            "end up"
+                        ],
+                        [
+                            "Scientists and activists are taking various measures to protect the bat population.",
+                            "科学者や活動家たちは、コウモリの個体数を守るためにさまざまな対策を講じている。",
+                            "Scientists and activists are taking various measures|科学者や活動家たちはさまざまな対策を講じている||to protect the bat population.|コウモリの個体数を守るために",
+                            "are taking"
+                        ],
+                        [
+                            "For example, they enter caves in winter to count and monitor the bats.",
+                            "例えば、冬に洞窟に入り、コウモリの数を数えたり様子を観察したりしている。",
+                            "For example,|例えば||they enter caves in winter|彼らは冬に洞窟に入る||to count and monitor the bats.|コウモリの数を数えたり観察したりするために",
+                            "enter"
+                        ],
+                        [
+                            "Special habitats, such as artificial caves, have also been created to give bats safe places to rest.",
+                            "また、コウモリに安全な休息場所を与えるため、人工の洞窟などの特別な生息環境も作られている。",
+                            "Special habitats, such as artificial caves,|人工の洞窟などの特別な生息環境も||have also been created|作られている||to give bats safe places to rest.|コウモリに安全な休息場所を与えるために",
+                            "have also been created"
+                        ],
+                        [
+                            "Also, experts are studying what various bats need to ( 23 ).",
+                            "さらに、専門家たちは、さまざまなコウモリが ( 23 ) ために何を必要としているのかを研究している。",
+                            "Also,|さらに||experts are studying|専門家たちは研究している||what various bats need to ( 23 ).|さまざまなコウモリが（23）ために何を必要とするかを",
+                            "are studying"
+                        ],
+                        [
+                            "They attach small tracking devices to monitor their activities and understand how these bats maintain energy during the winter months.",
+                            "小型の追跡装置を取り付けて活動を観察し、これらのコウモリが冬の数か月間にどのようにエネルギーを保っているのかを理解しようとしている。",
+                            "They attach small tracking devices|彼らは小型の追跡装置を取り付ける||to monitor their activities|コウモリの活動を観察するために||and understand|そして理解するために||how these bats maintain energy|これらのコウモリがどのようにエネルギーを保つかを||during the winter months.|冬の数か月間に",
+                            "attach"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 21,
+                            "choices": [
+                                "keeping their flowers and leaves clean",
+                                "living under the leaves of large plants",
+                                "eating the unnecessary leaves of plants",
+                                "carrying their seeds to different places"
+                            ],
+                            "choiceTranslations": [
+                                "花や葉をきれいに保つ",
+                                "大きな植物の葉の下で暮らす",
+                                "植物の不要な葉を食べる",
+                                "種をさまざまな場所へ運ぶ"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "花や葉をきれいに保つ。新しい植物が親から離れて育つという次の文につながらない。",
+                                "大きな植物の葉の下で暮らす。すみかの話で、植物の成長を助ける方法ではない。",
+                                "植物の不要な葉を食べる。コウモリが食べるのは昆虫で、葉を食べるとは書かれていない。",
+                                "種をさまざまな場所へ運ぶ→正解。💡次の文の「親の植物から遠く離れて育ち始める」と一致。"
+                            ],
+                            "grammar": "💡help＋目的語＋動詞の原形 は「～が…するのを助ける」。by の後は動名詞（～ing）で手段を表す。次の文の This は ( 21 ) の内容を指し、allow＋目的語＋to V「～が…できるようにする」と続く。",
+                            "sourceEvidence": [
+                                "In addition, bats help many plants grow by ( 21 ).",
+                                "This allows new plants to start growing far from the parent plant."
+                            ]
+                        },
+                        {
+                            "number": 22,
+                            "choices": [
+                                "For this purpose",
+                                "As a result",
+                                "Likewise",
+                                "On the other hand"
+                            ],
+                            "choiceTranslations": [
+                                "この目的のために",
+                                "その結果",
+                                "同様に",
+                                "一方で"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "この目的のために。コウモリが目覚めるのは目的ではなく、病気によって起こること。",
+                                "その結果→正解。💡病気で冬眠から目覚めた結果、動き回って体脂肪を失うという因果関係。",
+                                "同様に。前の文と似た別の事柄を並べているわけではない。",
+                                "一方で。前の文と対照的な内容ではない。"
+                            ],
+                            "grammar": "💡once awake は once they are awake の省略で「いったん目覚めると」。causing them to lose ～ は分詞構文で、動き回ることが結果として体脂肪を失わせることを表す。that they have stored は the body fat を説明する関係代名詞節。",
+                            "sourceEvidence": [
+                                "The disease wakes up the bats from their winter sleep.",
+                                "( 22 ), once awake, they begin to move around, causing them to lose the body fat that they have stored."
+                            ]
+                        },
+                        {
+                            "number": 23,
+                            "choices": [
+                                "travel to warmer countries",
+                                "survive the cold winter",
+                                "give birth in the caves",
+                                "sleep in large groups"
+                            ],
+                            "choiceTranslations": [
+                                "より暖かい国へ移動する",
+                                "寒い冬を生き延びる",
+                                "洞窟で子どもを産む",
+                                "大きな集団で眠る"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "より暖かい国へ移動する。追跡装置で調べるのは冬の間のエネルギーの保ち方で、移動先ではない。",
+                                "寒い冬を生き延びる→正解。💡次の文の「冬の数か月間にどのようにエネルギーを保つか」と一致。",
+                                "洞窟で子どもを産む。出産については本文に書かれていない。",
+                                "大きな集団で眠る。集団の大きさについては述べられていない。"
+                            ],
+                            "grammar": "💡what various bats need to ～ は間接疑問で「さまざまなコウモリが～するために何を必要としているか」。to ( 23 ) は目的を表す不定詞。次の文の maintain energy during the winter months が手がかり。",
+                            "sourceEvidence": [
+                                "Also, experts are studying what various bats need to ( 23 ).",
+                                "They attach small tracking devices to monitor their activities and understand how these bats maintain energy during the winter months."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "reading-comprehension",
+            "instruction": "次の英文A，Bの内容に関して，(24)から(31)までの質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選び，その番号を解答用紙の所定欄にマークしなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Question about some furniture",
+                    "paragraphs": [
+                        "Dear George Henderson,\nMy name is Katy Lewis, and I run a craft shop in the neighboring city. We are going to renovate our shop and want to give away some of the furniture. Currently, we have some tables and shelves. We'll no longer need them as the shop's layout is being changed. The furniture is all in good condition, and I thought a secondhand shop like yours might be able to accept it.",
+                        "We have five pieces in total. They are made of wood and are not too big, just the right size for a regular-sized shop. They have some scratches, but not large scratches that require repair. Even though each one isn't very large, all five together are still too heavy to carry without a truck. Could you come to pick them up? Would there be a cost for doing that?",
+                        "In case you are unable to accept the items, I will need to check whether other shops might want them. I don't want to throw the items away if someone can still use them. Contacting other shops and waiting for their replies may take some time, so I would appreciate it if you could let me know soon. Since the renovation crew will start working in two weeks, please let me know what you think about this by this Friday.",
+                        "Sincerely,\nKaty Lewis\nMoonwave Craft Shop"
+                    ],
+                    "translations": [
+                        "ジョージ・ヘンダーソン様\nケイティ・ルイスと申します。隣の市でクラフトショップを経営しております。当店は改装を予定しており、家具の一部をお譲りしたいと考えております。現在、テーブルと棚がいくつかございます。店の配置が変わるため、それらはもう必要なくなります。家具はどれも状態が良く、貴店のような中古品店なら引き取っていただけるのではないかと考えました。",
+                        "全部で5点ございます。どれも木製で大きすぎず、一般的な広さのお店にちょうどよい大きさです。いくつか傷はありますが、修理が必要なほど大きな傷ではありません。一つ一つはそれほど大きくありませんが、5点すべてを合わせると、やはりトラックなしで運ぶには重すぎます。引き取りに来ていただけますか。その場合、費用はかかりますか。",
+                        "もし引き取っていただけない場合は、ほかの店が必要としているかどうかを確認しなければなりません。まだ使っていただける方がいるのであれば、捨てたくはありません。ほかの店に連絡して返事を待つには時間がかかるかもしれないので、早めにお知らせいただけるとありがたいです。改装業者が2週間後に作業を始めるため、今週の金曜日までに、この件についてのお考えをお知らせください。",
+                        "敬具\nケイティ・ルイス\nムーンウェーブ・クラフトショップ"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Dear George Henderson,",
+                            "ジョージ・ヘンダーソン様",
+                            "Dear George Henderson,|ジョージ・ヘンダーソン様",
+                            ""
+                        ],
+                        [
+                            "My name is Katy Lewis, and I run a craft shop in the neighboring city.",
+                            "ケイティ・ルイスと申します。隣の市でクラフトショップを経営しております。",
+                            "My name is Katy Lewis,|私の名前はケイティ・ルイスです||and I run a craft shop|そしてクラフトショップを経営しています||in the neighboring city.|隣の市で",
+                            "is"
+                        ],
+                        [
+                            "We are going to renovate our shop and want to give away some of the furniture.",
+                            "当店は改装を予定しており、家具の一部をお譲りしたいと考えております。",
+                            "We are going to renovate our shop|当店は改装する予定です||and want to give away|そして譲りたいと考えています||some of the furniture.|家具の一部を",
+                            "are going to renovate"
+                        ],
+                        [
+                            "Currently, we have some tables and shelves.",
+                            "現在、テーブルと棚がいくつかございます。",
+                            "Currently,|現在||we have some tables and shelves.|テーブルと棚がいくつかあります",
+                            "have"
+                        ],
+                        [
+                            "We'll no longer need them as the shop's layout is being changed.",
+                            "店の配置が変わるため、それらはもう必要なくなります。",
+                            "We'll no longer need them|それらはもう必要なくなります||as the shop's layout is being changed.|店の配置が変更されるため",
+                            "no longer need"
+                        ],
+                        [
+                            "The furniture is all in good condition, and I thought a secondhand shop like yours might be able to accept it.",
+                            "家具はどれも状態が良く、貴店のような中古品店なら引き取っていただけるのではないかと考えました。",
+                            "The furniture is all in good condition,|家具はすべて状態が良いです||and I thought|そして私は考えました||a secondhand shop like yours|貴店のような中古品店なら||might be able to accept it.|それを引き取れるかもしれないと",
+                            "is"
+                        ],
+                        [
+                            "We have five pieces in total.",
+                            "全部で5点ございます。",
+                            "We have five pieces|5点あります||in total.|全部で",
+                            "have"
+                        ],
+                        [
+                            "They are made of wood and are not too big, just the right size for a regular-sized shop.",
+                            "どれも木製で大きすぎず、一般的な広さのお店にちょうどよい大きさです。",
+                            "They are made of wood|それらは木製です||and are not too big,|そして大きすぎません||just the right size|ちょうどよい大きさです||for a regular-sized shop.|一般的な広さの店に",
+                            "are made"
+                        ],
+                        [
+                            "They have some scratches, but not large scratches that require repair.",
+                            "いくつか傷はありますが、修理が必要なほど大きな傷ではありません。",
+                            "They have some scratches,|いくつか傷があります||but not large scratches|しかし大きな傷ではありません||that require repair.|修理を必要とするような",
+                            "have"
+                        ],
+                        [
+                            "Even though each one isn't very large, all five together are still too heavy to carry without a truck.",
+                            "一つ一つはそれほど大きくありませんが、5点すべてを合わせると、やはりトラックなしで運ぶには重すぎます。",
+                            "Even though each one isn't very large,|一つ一つはそれほど大きくありませんが||all five together are still too heavy|5点すべてを合わせるとやはり重すぎます||to carry without a truck.|トラックなしで運ぶには",
+                            "are"
+                        ],
+                        [
+                            "Could you come to pick them up?",
+                            "引き取りに来ていただけますか。",
+                            "Could you come|来ていただけますか||to pick them up?|それらを引き取りに",
+                            "come"
+                        ],
+                        [
+                            "Would there be a cost for doing that?",
+                            "その場合、費用はかかりますか。",
+                            "Would there be a cost|費用はかかりますか||for doing that?|そうすることに対して",
+                            "be"
+                        ],
+                        [
+                            "In case you are unable to accept the items, I will need to check whether other shops might want them.",
+                            "もし引き取っていただけない場合は、ほかの店が必要としているかどうかを確認しなければなりません。",
+                            "In case you are unable to accept the items,|もし品物を引き取れない場合は||I will need to check|確認する必要があります||whether other shops might want them.|ほかの店がそれらを欲しがるかどうかを",
+                            "will need"
+                        ],
+                        [
+                            "I don't want to throw the items away if someone can still use them.",
+                            "まだ使っていただける方がいるのであれば、捨てたくはありません。",
+                            "I don't want to throw the items away|品物を捨てたくはありません||if someone can still use them.|まだ誰かが使えるのであれば",
+                            "don't want"
+                        ],
+                        [
+                            "Contacting other shops and waiting for their replies may take some time, so I would appreciate it if you could let me know soon.",
+                            "ほかの店に連絡して返事を待つには時間がかかるかもしれないので、早めにお知らせいただけるとありがたいです。",
+                            "Contacting other shops|ほかの店に連絡すること||and waiting for their replies|そして返事を待つことは||may take some time,|時間がかかるかもしれません||so I would appreciate it|ですのでありがたく思います||if you could let me know soon.|早めにお知らせいただけると",
+                            "may take"
+                        ],
+                        [
+                            "Since the renovation crew will start working in two weeks, please let me know what you think about this by this Friday.",
+                            "改装業者が2週間後に作業を始めるため、今週の金曜日までに、この件についてのお考えをお知らせください。",
+                            "Since the renovation crew will start working|改装業者が作業を始めるので||in two weeks,|2週間後に||please let me know|お知らせください||what you think about this|この件についてどうお考えかを||by this Friday.|今週の金曜日までに",
+                            "let"
+                        ],
+                        [
+                            "Sincerely,",
+                            "敬具",
+                            "Sincerely,|敬具",
+                            ""
+                        ],
+                        [
+                            "Katy Lewis",
+                            "ケイティ・ルイス",
+                            "Katy Lewis|ケイティ・ルイス",
+                            ""
+                        ],
+                        [
+                            "Moonwave Craft Shop",
+                            "ムーンウェーブ・クラフトショップ",
+                            "Moonwave Craft Shop|ムーンウェーブ・クラフトショップ",
+                            ""
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 24,
+                            "choices": [
+                                "Because she is searching for furniture that suits her new layout.",
+                                "Because she is planning to sell her shop to someone in the city.",
+                                "Because she wants to offer some used items for his shop.",
+                                "Because she hopes to sell handmade items at his secondhand shop."
+                            ],
+                            "choiceTranslations": [
+                                "新しい配置に合う家具を探しているから。",
+                                "市内の誰かに自分の店を売ることを計画しているから。",
+                                "彼の店に中古の品物を提供したいから。",
+                                "彼の中古品店で手作りの品を売りたいから。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "新しい配置に合う家具を探している。家具を探すのではなく、不要になる家具を譲ろうとしている。",
+                                "店を売る計画。店は売るのではなく改装する予定。",
+                                "中古の品物を提供したい→正解。💡家具の一部を譲りたいと書き、貴店なら引き取れるかもしれないと考えている。",
+                                "手作りの品を売りたい。クラフトショップを経営しているが、譲りたいのは店の家具。"
+                            ],
+                            "grammar": "💡give away は「（無償で）譲る、手放す」。I thought ～ might be able to accept it の might は控えめな推量で、相手に配慮した言い方。選択肢の used items は本文の furniture（tables and shelves）の言い換え。",
+                            "sourceEvidence": [
+                                "We are going to renovate our shop and want to give away some of the furniture.",
+                                "The furniture is all in good condition, and I thought a secondhand shop like yours might be able to accept it."
+                            ],
+                            "question": "Why does Katy Lewis write this email to George Henderson?",
+                            "questionTranslation": "ケイティ・ルイスがジョージ・ヘンダーソンにこのメールを書いているのはなぜですか。"
+                        },
+                        {
+                            "number": 25,
+                            "choices": [
+                                "she cannot transport all five items without the shop's help.",
+                                "she cannot sell the items without having them checked beforehand.",
+                                "the shop cannot receive her payment through an online system.",
+                                "the shop cannot accept items delivered by mail or in person."
+                            ],
+                            "choiceTranslations": [
+                                "店の手助けがなければ、5点すべてを運ぶことができないから。",
+                                "事前に点検してもらわなければ、品物を売ることができないから。",
+                                "店がオンラインのシステムで彼女からの支払いを受け取れないから。",
+                                "店が郵送や持ち込みで届けられた品物を受け付けられないから。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "店の手助けなしでは5点を運べない→正解。💡5点合わせるとトラックなしでは重すぎると書き、引き取りに来てほしいと頼んでいる。",
+                                "事前の点検が必要。点検の話はなく、修理が必要な大きな傷もないと述べている。",
+                                "オンラインで支払いを受け取れない。オンラインでの支払いについての記述はなく、尋ねているのは引き取りに費用がかかるかどうか。",
+                                "郵送や持ち込みを受け付けない。ジョージの店の受け入れ方法については書かれていない。"
+                            ],
+                            "grammar": "💡Even though は「～だけれども」と譲歩を表す。too heavy to carry は「重すぎて運べない」。Could you ～? は丁寧な依頼で、pick ～ up は「～を引き取る」。設問の wish (that)＋主語＋would＋動詞の原形 は「（主語が）～してくれたらと願う」で、ここでは somebody from George's shop が主語。",
+                            "sourceEvidence": [
+                                "Even though each one isn't very large, all five together are still too heavy to carry without a truck.",
+                                "Could you come to pick them up?"
+                            ],
+                            "question": "Katy wishes somebody from George's shop would visit her because",
+                            "questionTranslation": "ケイティがジョージの店のだれかに来てほしいと願っているのは、～。"
+                        },
+                        {
+                            "number": 26,
+                            "choices": [
+                                "she should close the shop permanently on that day as planned.",
+                                "she may need time to ask other shops if they are interested.",
+                                "the renovation team may want to use the furniture.",
+                                "the renovation work will begin sometime this week."
+                            ],
+                            "choiceTranslations": [
+                                "予定どおり、その日で店をたたむ（永久に閉める）ことになっているから。",
+                                "ほかの店に興味があるかどうかを尋ねる時間が必要になるかもしれないから。",
+                                "改装チームがその家具を使いたがるかもしれないから。",
+                                "改装工事が今週中に始まるから。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "その日で店をたたむ。店はたたむのではなく改装する予定。",
+                                "ほかの店に尋ねる時間が必要→正解。💡ほかの店への連絡と返事待ちに時間がかかるかもしれないと書いている。",
+                                "改装チームが家具を使う。改装業者について述べているのは作業開始の時期だけ。",
+                                "今週中に工事が始まる。作業開始は2週間後で、今週ではない。"
+                            ],
+                            "grammar": "💡In case ～ は「～の場合には」。Contacting ... and waiting ... は動名詞の主語で、may take some time は「時間がかかるかもしれない」。I would appreciate it if you could ～ は「～していただけるとありがたい」という丁寧な依頼。",
+                            "sourceEvidence": [
+                                "In case you are unable to accept the items, I will need to check whether other shops might want them.",
+                                "Contacting other shops and waiting for their replies may take some time, so I would appreciate it if you could let me know soon.",
+                                "Since the renovation crew will start working in two weeks, please let me know what you think about this by this Friday."
+                            ],
+                            "question": "Katy wants a reply by Friday because",
+                            "questionTranslation": "ケイティが金曜日までに返事をほしいと考えているのは、～。"
+                        }
+                    ],
+                    "format": "email",
+                    "meta": {
+                        "from": "Katy Lewis <klewis@moonwave.com>",
+                        "to": "George Henderson <ghenderson@earthlinker.com>",
+                        "date": "February 8",
+                        "subject": "Question about some furniture"
+                    }
+                },
+                {
+                    "label": "B",
+                    "title": "Shopping Carts",
+                    "paragraphs": [
+                        "The shopping cart was invented by Sylvan Goldman in the 1930s. He noticed that shoppers had difficulty continuing shopping because their baskets became too heavy to carry, and he looked for a solution. His first shopping cart was made of a simple chair that could be folded. It had two baskets and wheels. With this shopping cart, people did not have to carry heavy baskets anymore. They could push the cart instead. Soon after, he introduced the carts at his store and hoped to change the way people shopped.",
+                        "Before the invention, people carried baskets around with their arms while shopping. Therefore, it was difficult to shop for many items at once, and they often stopped shopping once the basket was too heavy to carry. As supermarkets grew larger and more people began driving cars, people started buying more items in a single shopping trip. Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales.",
+                        "However, at first, shoppers did not like using shopping carts. Some women thought shopping carts looked like baby strollers, which were used for carrying babies, and some men thought using the carts without holding baskets themselves would make them look less manly. Goldman had to find a clever way to change their minds. He hired people who walked around his store pushing the shopping carts and demonstrating how useful the carts were. When customers saw others using the carts comfortably, they started using them too. Soon, shopping carts became popular and widely accepted, and other stores wanted to buy them for their own customers.",
+                        "Shopping carts have been improved over time. In the middle of the twentieth century, a new cart was designed so that many carts could be stored in a smaller area. Later, a safety belt for children's seats was also added as people looked for safer ways to shop with young children. Nowadays, millions of shopping carts are widely used in stores around the world. The invention of shopping carts made shopping much easier, allowed stores to grow larger, and fundamentally changed the way people buy groceries and other household goods."
+                    ],
+                    "translations": [
+                        "ショッピングカートは、1930年代にシルバン・ゴールドマンによって発明された。彼は、かごが重くなりすぎて持てなくなるために、買い物客が買い物を続けにくくなっていることに気づき、解決策を探した。彼の最初のショッピングカートは、折りたためる簡素ないすで作られていた。それには、2つのかごと車輪が付いていた。このショッピングカートのおかげで、人々はもう重いかごを持ち運ぶ必要がなくなった。その代わりに、カートを押せばよかった。その後まもなく、彼は自分の店にそのカートを導入し、人々の買い物の仕方を変えたいと願った。",
+                        "この発明以前、人々は買い物の間、かごを腕に抱えて持ち歩いていた。そのため、一度にたくさんの品物を買うのは難しく、かごが重くなりすぎて持てなくなると、買い物をやめてしまうことが多かった。スーパーマーケットが大型化し、車を運転する人が増えるにつれて、人々は1回の買い物でより多くの品物を買うようになった。ショッピングカートは、楽に便利に買い物ができる買い物客と、売り上げを伸ばせるスーパーマーケットの経営者の両方にとって、役立つものになり得た。",
+                        "しかし、当初、買い物客はショッピングカートを使いたがらなかった。ショッピングカートが、赤ちゃんを乗せて運ぶためのベビーカーのように見えると考える女性もいれば、自分でかごを持たずにカートを使うと男らしくなく見えると考える男性もいた。ゴールドマンは、人々の考えを変える巧みな方法を見つけなければならなかった。彼は人を雇い、ショッピングカートを押しながら店内を歩き回って、カートがいかに便利かを実演してもらった。ほかの人が快適にカートを使っているのを見ると、客たちも使い始めた。まもなくショッピングカートは人気を集めて広く受け入れられ、ほかの店も自分の店の客のためにカートを買いたがった。",
+                        "ショッピングカートは、時代とともに改良されてきた。20世紀半ばには、より狭い場所に多くのカートを収納できるよう、新しいカートが設計された。その後、人々が幼い子どもを連れてより安全に買い物をする方法を求めるようになったことから、子ども用の座席に安全ベルトも付けられた。今日では、何百万台ものショッピングカートが世界中の店で広く使われている。ショッピングカートの発明は、買い物をずっと楽にし、店の大型化を可能にし、人々が食料品やほかの日用品を買う方法を根本的に変えた。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "The shopping cart was invented by Sylvan Goldman in the 1930s.",
+                            "ショッピングカートは、1930年代にシルバン・ゴールドマンによって発明された。",
+                            "The shopping cart was invented|ショッピングカートは発明された||by Sylvan Goldman|シルバン・ゴールドマンによって||in the 1930s.|1930年代に",
+                            "was invented"
+                        ],
+                        [
+                            "He noticed that shoppers had difficulty continuing shopping because their baskets became too heavy to carry, and he looked for a solution.",
+                            "彼は、かごが重くなりすぎて持てなくなるために、買い物客が買い物を続けにくくなっていることに気づき、解決策を探した。",
+                            "He noticed|彼は気づいた||that shoppers had difficulty continuing shopping|買い物客が買い物を続けるのに苦労していることに||because their baskets became too heavy to carry,|かごが重くなりすぎて持てなくなるため||and he looked for a solution.|そして解決策を探した",
+                            "noticed"
+                        ],
+                        [
+                            "His first shopping cart was made of a simple chair that could be folded.",
+                            "彼の最初のショッピングカートは、折りたためる簡素ないすで作られていた。",
+                            "His first shopping cart was made|彼の最初のショッピングカートは作られていた||of a simple chair|簡素ないすで||that could be folded.|折りたたむことができる",
+                            "was made"
+                        ],
+                        [
+                            "It had two baskets and wheels.",
+                            "それには、2つのかごと車輪が付いていた。",
+                            "It had|それには付いていた||two baskets and wheels.|2つのかごと車輪が",
+                            "had"
+                        ],
+                        [
+                            "With this shopping cart, people did not have to carry heavy baskets anymore.",
+                            "このショッピングカートのおかげで、人々はもう重いかごを持ち運ぶ必要がなくなった。",
+                            "With this shopping cart,|このショッピングカートがあれば||people did not have to carry heavy baskets anymore.|人々はもう重いかごを持ち運ぶ必要がなかった",
+                            "did not have to carry"
+                        ],
+                        [
+                            "They could push the cart instead.",
+                            "その代わりに、カートを押せばよかった。",
+                            "They could push the cart|彼らはカートを押すことができた||instead.|その代わりに",
+                            "could push"
+                        ],
+                        [
+                            "Soon after, he introduced the carts at his store and hoped to change the way people shopped.",
+                            "その後まもなく、彼は自分の店にそのカートを導入し、人々の買い物の仕方を変えたいと願った。",
+                            "Soon after,|その後まもなく||he introduced the carts at his store|彼は自分の店にそのカートを導入した||and hoped to change the way|そして方法を変えたいと願った||people shopped.|人々が買い物をする",
+                            "introduced"
+                        ],
+                        [
+                            "Before the invention, people carried baskets around with their arms while shopping.",
+                            "この発明以前、人々は買い物の間、かごを腕に抱えて持ち歩いていた。",
+                            "Before the invention,|この発明以前は||people carried baskets around with their arms|人々はかごを腕で持ち歩いていた||while shopping.|買い物の間",
+                            "carried"
+                        ],
+                        [
+                            "Therefore, it was difficult to shop for many items at once, and they often stopped shopping once the basket was too heavy to carry.",
+                            "そのため、一度にたくさんの品物を買うのは難しく、かごが重くなりすぎて持てなくなると、買い物をやめてしまうことが多かった。",
+                            "Therefore,|そのため||it was difficult to shop for many items at once,|一度にたくさんの品物を買うのは難しかった||and they often stopped shopping|そして人々はしばしば買い物をやめた||once the basket was too heavy to carry.|かごが重くなりすぎて持てなくなると",
+                            "was difficult"
+                        ],
+                        [
+                            "As supermarkets grew larger and more people began driving cars, people started buying more items in a single shopping trip.",
+                            "スーパーマーケットが大型化し、車を運転する人が増えるにつれて、人々は1回の買い物でより多くの品物を買うようになった。",
+                            "As supermarkets grew larger|スーパーマーケットが大きくなるにつれて||and more people began driving cars,|そしてより多くの人々が車を運転し始めるにつれて||people started buying more items|人々はより多くの品物を買い始めた||in a single shopping trip.|1回の買い物で",
+                            "started"
+                        ],
+                        [
+                            "Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales.",
+                            "ショッピングカートは、楽に便利に買い物ができる買い物客と、売り上げを伸ばせるスーパーマーケットの経営者の両方にとって、役立つものになり得た。",
+                            "Shopping carts could be helpful|ショッピングカートは役に立ち得た||to both shoppers,|買い物客にとっても||who could shop easily and conveniently,|買い物客は楽に便利に買い物ができ||and supermarket owners,|そしてスーパーマーケットの経営者にとっても||who could increase their sales.|経営者は売り上げを伸ばすことができた",
+                            "could be"
+                        ],
+                        [
+                            "However, at first, shoppers did not like using shopping carts.",
+                            "しかし、当初、買い物客はショッピングカートを使いたがらなかった。",
+                            "However, at first,|しかし当初は||shoppers did not like using shopping carts.|買い物客はショッピングカートを使うのを好まなかった",
+                            "did not like"
+                        ],
+                        [
+                            "Some women thought shopping carts looked like baby strollers, which were used for carrying babies, and some men thought using the carts without holding baskets themselves would make them look less manly.",
+                            "ショッピングカートが、赤ちゃんを乗せて運ぶためのベビーカーのように見えると考える女性もいれば、自分でかごを持たずにカートを使うと男らしくなく見えると考える男性もいた。",
+                            "Some women thought|一部の女性は考えた||shopping carts looked like baby strollers,|ショッピングカートがベビーカーのように見えると||which were used for carrying babies,|ベビーカーは赤ちゃんを運ぶために使われていた||and some men thought|そして一部の男性は考えた||using the carts without holding baskets themselves|自分でかごを持たずにカートを使うことは||would make them look less manly.|自分を男らしくなく見せるだろうと",
+                            "thought"
+                        ],
+                        [
+                            "Goldman had to find a clever way to change their minds.",
+                            "ゴールドマンは、人々の考えを変える巧みな方法を見つけなければならなかった。",
+                            "Goldman had to find a clever way|ゴールドマンは巧みな方法を見つけなければならなかった||to change their minds.|人々の考えを変える",
+                            "had to find"
+                        ],
+                        [
+                            "He hired people who walked around his store pushing the shopping carts and demonstrating how useful the carts were.",
+                            "彼は人を雇い、ショッピングカートを押しながら店内を歩き回って、カートがいかに便利かを実演してもらった。",
+                            "He hired people|彼は人々を雇った||who walked around his store|店内を歩き回る||pushing the shopping carts|ショッピングカートを押しながら||and demonstrating|そして実演しながら||how useful the carts were.|カートがいかに便利かを",
+                            "hired"
+                        ],
+                        [
+                            "When customers saw others using the carts comfortably, they started using them too.",
+                            "ほかの人が快適にカートを使っているのを見ると、客たちも使い始めた。",
+                            "When customers saw others|客たちがほかの人を見ると||using the carts comfortably,|カートを快適に使っているのを||they started using them too.|彼らもそれを使い始めた",
+                            "started"
+                        ],
+                        [
+                            "Soon, shopping carts became popular and widely accepted, and other stores wanted to buy them for their own customers.",
+                            "まもなくショッピングカートは人気を集めて広く受け入れられ、ほかの店も自分の店の客のためにカートを買いたがった。",
+                            "Soon,|まもなく||shopping carts became popular and widely accepted,|ショッピングカートは人気を集め広く受け入れられた||and other stores wanted to buy them|そしてほかの店もそれを買いたがった||for their own customers.|自分の店の客のために",
+                            "became"
+                        ],
+                        [
+                            "Shopping carts have been improved over time.",
+                            "ショッピングカートは、時代とともに改良されてきた。",
+                            "Shopping carts have been improved|ショッピングカートは改良されてきた||over time.|時とともに",
+                            "have been improved"
+                        ],
+                        [
+                            "In the middle of the twentieth century, a new cart was designed so that many carts could be stored in a smaller area.",
+                            "20世紀半ばには、より狭い場所に多くのカートを収納できるよう、新しいカートが設計された。",
+                            "In the middle of the twentieth century,|20世紀半ばに||a new cart was designed|新しいカートが設計された||so that many carts could be stored|多くのカートを収納できるように||in a smaller area.|より狭い場所に",
+                            "was designed"
+                        ],
+                        [
+                            "Later, a safety belt for children's seats was also added as people looked for safer ways to shop with young children.",
+                            "その後、人々が幼い子どもを連れてより安全に買い物をする方法を求めるようになったことから、子ども用の座席に安全ベルトも付けられた。",
+                            "Later,|その後||a safety belt for children's seats was also added|子ども用の座席の安全ベルトも付けられた||as people looked for safer ways|人々がより安全な方法を求めたので||to shop with young children.|幼い子どもを連れて買い物をする",
+                            "was also added"
+                        ],
+                        [
+                            "Nowadays, millions of shopping carts are widely used in stores around the world.",
+                            "今日では、何百万台ものショッピングカートが世界中の店で広く使われている。",
+                            "Nowadays,|今日では||millions of shopping carts are widely used|何百万台ものショッピングカートが広く使われている||in stores around the world.|世界中の店で",
+                            "are widely used"
+                        ],
+                        [
+                            "The invention of shopping carts made shopping much easier, allowed stores to grow larger, and fundamentally changed the way people buy groceries and other household goods.",
+                            "ショッピングカートの発明は、買い物をずっと楽にし、店の大型化を可能にし、人々が食料品やほかの日用品を買う方法を根本的に変えた。",
+                            "The invention of shopping carts|ショッピングカートの発明は||made shopping much easier,|買い物をずっと楽にした||allowed stores to grow larger,|店がより大きくなることを可能にした||and fundamentally changed the way|そして方法を根本的に変えた||people buy groceries and other household goods.|人々が食料品やほかの日用品を買う",
+                            "made"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 27,
+                            "choices": [
+                                "a rolling chair with one fixed basket that people could not fold.",
+                                "a folding chair with wheels and two baskets used for easy shopping.",
+                                "a chair with two handles that came off easily and four wheels.",
+                                "a chair with one large basket under the seat and no wheels."
+                            ],
+                            "choiceTranslations": [
+                                "固定されたかごが1つ付いた、折りたためない車輪付きのいすだった。",
+                                "楽に買い物をするために使われる、車輪と2つのかごが付いた折りたたみいすだった。",
+                                "簡単に外れる2つの取っ手と、4つの車輪が付いたいすだった。",
+                                "座面の下に大きなかごが1つあり、車輪のないいすだった。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "折りたためない、かご1つのいす。本文では折りたためるいすで、かごは2つ。",
+                                "車輪と2つのかごが付いた折りたたみいす→正解。💡折りたためる簡素ないすに、2つのかごと車輪が付いていた。",
+                                "外れやすい取っ手と4つの車輪。取っ手や車輪の数については書かれていない。",
+                                "大きなかご1つで車輪なし。本文ではかごは2つで、車輪も付いていた。"
+                            ],
+                            "grammar": "💡be made of ～ は「～で作られている」。that could be folded は chair を説明する関係代名詞節で「折りたたむことができる」。選択肢の folding chair（折りたたみいす）がこれを言い換えている。",
+                            "sourceEvidence": [
+                                "His first shopping cart was made of a simple chair that could be folded.",
+                                "It had two baskets and wheels."
+                            ],
+                            "question": "The first shopping cart designed by Sylvan Goldman was",
+                            "questionTranslation": "シルバン・ゴールドマンが設計した最初のショッピングカートは、～。"
+                        },
+                        {
+                            "number": 28,
+                            "choices": [
+                                "The size of the supermarkets and the number of shoppers with cars increased.",
+                                "Supermarkets began to provide shopping baskets that shoppers could take home.",
+                                "Store owners offered various discounts for those people who bought large amounts.",
+                                "People's lifestyles became busier, and they could not find time for shopping."
+                            ],
+                            "choiceTranslations": [
+                                "スーパーマーケットの規模と、車を持つ買い物客の数が増えたから。",
+                                "スーパーマーケットが、買い物客が持ち帰れる買い物かごを提供し始めたから。",
+                                "店の経営者が、大量に買う人々にさまざまな割引を提供したから。",
+                                "人々の生活が忙しくなり、買い物の時間が取れなくなったから。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "スーパーの大型化と車を使う買い物客の増加→正解。💡スーパーが大きくなり、車を運転する人が増えたとある。",
+                                "持ち帰れるかごの提供。かごを持ち帰れるという記述はない。",
+                                "大量購入への割引。割引についての記述はない。",
+                                "生活が忙しくなった。生活の忙しさについては書かれていない。"
+                            ],
+                            "grammar": "💡As は「～するにつれて」と変化に伴う関係を表す接続詞。grew larger（大きくなった）と more people began driving cars が、選択肢の The size ... increased と the number of shoppers with cars increased に言い換えられている。",
+                            "sourceEvidence": [
+                                "As supermarkets grew larger and more people began driving cars, people started buying more items in a single shopping trip."
+                            ],
+                            "question": "Why did people start buying more items in a single shopping trip?",
+                            "questionTranslation": "人々が1回の買い物でより多くの品物を買い始めたのはなぜですか。"
+                        },
+                        {
+                            "number": 29,
+                            "choices": [
+                                "offering them special discounts for using the carts.",
+                                "changing their design to make the carts more appealing.",
+                                "showing men using the carts in the store in advertisements.",
+                                "hiring people to demonstrate using the carts in the store."
+                            ],
+                            "choiceTranslations": [
+                                "カートを使う客に特別な割引を提供すること。",
+                                "カートをより魅力的にするために、デザインを変えること。",
+                                "店内でカートを使う男性の姿を、広告で見せること。",
+                                "人を雇って、店内でカートを使う様子を実演させること。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "特別な割引の提供。割引についての記述はない。",
+                                "デザインの変更。考えを変えるために行ったのは実演で、デザインの変更ではない。",
+                                "男性がカートを使う広告。男性の抵抗感は述べられているが、広告は出てこない。",
+                                "人を雇って実演させる→正解。💡カートを押して店内を歩き、便利さを実演する人を雇った。"
+                            ],
+                            "grammar": "💡who walked around ... は people を説明する関係代名詞節。pushing と demonstrating は「～しながら」を表す分詞。demonstrating how useful the carts were は「カートがいかに便利かを実際にやって見せる」。",
+                            "sourceEvidence": [
+                                "Goldman had to find a clever way to change their minds.",
+                                "He hired people who walked around his store pushing the shopping carts and demonstrating how useful the carts were."
+                            ],
+                            "question": "Goldman convinced shoppers to use shopping carts by",
+                            "questionTranslation": "ゴールドマンが買い物客にショッピングカートを使うよう説得した方法は、～。"
+                        },
+                        {
+                            "number": 30,
+                            "choices": [
+                                "shoppers had to pay an extra cost for using shopping carts inside supermarkets.",
+                                "supermarkets prohibited young children from sitting in shopping carts.",
+                                "shoppers could put more items in shopping carts because a new cart was designed.",
+                                "supermarkets could save space for shopping carts thanks to the new cart design."
+                            ],
+                            "choiceTranslations": [
+                                "買い物客は、スーパーマーケット内でショッピングカートを使うのに追加料金を払わなければならなかった。",
+                                "スーパーマーケットは、幼い子どもがショッピングカートに座ることを禁止した。",
+                                "新しいカートが設計されたので、買い物客はより多くの品物をカートに入れられるようになった。",
+                                "新しいカートの設計のおかげで、スーパーマーケットはショッピングカートを置く場所を節約できるようになった。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "追加料金が必要。カートの利用料金についての記述はない。",
+                                "子どもが座るのを禁止。後に子ども用座席に安全ベルトが付いたとあり、禁止とは逆。",
+                                "より多くの品物を入れられる。新しい設計の目的は、多くのカートを狭い場所に収納すること。",
+                                "カートの置き場所を節約→正解。💡多くのカートをより狭い場所に収納できるよう設計された。"
+                            ],
+                            "grammar": "💡so that ～ can [could] … は「～が…できるように」と目的を表す。stored in a smaller area（より狭い場所に収納される）が、選択肢の save space（場所を節約する）に言い換えられている。",
+                            "sourceEvidence": [
+                                "In the middle of the twentieth century, a new cart was designed so that many carts could be stored in a smaller area."
+                            ],
+                            "question": "In the middle of the twentieth century,",
+                            "questionTranslation": "20世紀半ばには、～。"
+                        },
+                        {
+                            "number": 31,
+                            "choices": [
+                                "Shopping carts were thought to be beneficial for both shoppers and supermarket owners.",
+                                "Shopping carts were invented so that people could buy large items like furniture.",
+                                "Goldman's initial shopping cart design had a child seat with a safety belt.",
+                                "Many women preferred to use their baby strollers as shopping carts."
+                            ],
+                            "choiceTranslations": [
+                                "ショッピングカートは、買い物客とスーパーマーケットの経営者の両方にとって有益だと考えられた。",
+                                "ショッピングカートは、人々が家具のような大きな品物を買えるように発明された。",
+                                "ゴールドマンの最初のショッピングカートの設計には、安全ベルト付きの子ども用座席があった。",
+                                "多くの女性が、ベビーカーをショッピングカートとして使うことを好んだ。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "買い物客と経営者の両方に有益→正解。💡カートは楽に買い物ができる客と、売り上げを伸ばせる経営者の両方に役立ち得たとある。",
+                                "家具のような大きな品物のため。重くなるかごの問題を解決するためで、家具の記述はない。",
+                                "最初の設計に安全ベルト付きの座席。安全ベルトは後になって追加されたもの。",
+                                "ベビーカーをカート代わりに使った。カートがベビーカーに見えるとして嫌がった女性がいたという話。"
+                            ],
+                            "grammar": "💡both A and B は「AとBの両方」。shoppers, who ～ と supermarket owners, who ～ はコンマ付きの関係代名詞（非制限用法）で、それぞれにとっての利点を補足している。could be helpful が選択肢では were thought to be beneficial に言い換えられている。",
+                            "sourceEvidence": [
+                                "Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales."
+                            ],
+                            "question": "Which of the following statements is true?",
+                            "questionTranslation": "次の記述のうち、正しいものはどれですか。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "関係代名詞の非制限用法と制限用法の読み分け",
+                "subtitle": "Relative Clauses — Adding Information or Narrowing Down",
+                "explanation": "関係代名詞の前にコンマがあるかどうかで、読み方が変わります。コンマのない制限用法（people who walked around his store）は『どの人か』を絞り込みます。コンマのある非制限用法（both shoppers, who could shop easily ...）は、先行詞について情報を付け加えます。非制限用法は『～で、その人たちは…』のように、いったん区切って前から読むと文の流れをつかみやすくなります。今回の大問3Bでは、買い物客と店のオーナーのそれぞれにどんな利点があったかを、非制限用法の who が説明しています。これがQ31の根拠です。なお、非制限用法では that は使いません。",
+                "sourceQuote": "Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales.\nSome women thought shopping carts looked like baby strollers, which were used for carrying babies, ...",
+                "sourceLocation": "大問3B 第2・3段落",
+                "examples": [
+                    {
+                        "en": "My uncle, who lives in Osaka, works at a hospital.",
+                        "ja": "私のおじは大阪に住んでいて、病院で働いている。",
+                        "note": "コンマのある who は情報の追加。『大阪に住んでいるおじ』と、ほかのおじと区別しているわけではない。"
+                    },
+                    {
+                        "en": "The students who finished early helped the others.",
+                        "ja": "早く終わった生徒たちが、ほかの生徒を手伝った。",
+                        "note": "コンマのない who は制限用法。早く終わった生徒に絞り込んでいる。"
+                    },
+                    {
+                        "en": "We visited Kyoto, which has many old temples.",
+                        "ja": "私たちは京都を訪れた。京都には古い寺がたくさんある。",
+                        "note": "固有名詞は一つに決まるので、説明を付け加える非制限用法の which を使う。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Shopping Carts]\nBefore the invention, people carried baskets around with their arms while shopping. Therefore, it was difficult to shop for many items at once, and they often stopped shopping once the basket was too heavy to carry. As supermarkets grew larger and more people began driving cars, people started buying more items in a single shopping trip. Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales. However, at first, shoppers did not like using shopping carts. Some women thought shopping carts looked like baby strollers, which were used for carrying babies, and some men thought using the carts without holding baskets themselves would make them look less manly.",
+                    "ja": "この発明以前、人々は買い物の間、かごを腕に抱えて持ち歩いていた。そのため、一度にたくさんの品物を買うのは難しく、かごが重くなりすぎて持てなくなると、買い物をやめてしまうことが多かった。スーパーマーケットが大型化し、車を運転する人が増えるにつれて、人々は1回の買い物でより多くの品物を買うようになった。ショッピングカートは、楽に便利に買い物ができる買い物客と、売り上げを伸ばせるスーパーマーケットの経営者の両方にとって、役立つものになり得た。しかし、当初、買い物客はショッピングカートを使いたがらなかった。ショッピングカートが、赤ちゃんを乗せて運ぶためのベビーカーのように見えると考える女性もいれば、自分でかごを持たずにカートを使うと男らしくなく見えると考える男性もいた。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales で、2つの who はそれぞれ何を説明していますか。",
+                        "a": "1つ目は shoppers（買い物客）、2つ目は supermarket owners（スーパーマーケットのオーナー）です。客は楽に便利に買い物ができ、オーナーは売り上げを伸ばせる、という利点を付け加えています。"
+                    },
+                    {
+                        "q": "baby strollers, which were used for carrying babies を、前から区切って読んでください。",
+                        "a": "『ベビーカーに似ていると思った。ベビーカーは赤ちゃんを運ぶために使われるものだった』のように、いったん区切って情報を付け加える形で読みます。"
+                    },
+                    {
+                        "q": "He hired people who walked around his store ... の who の前にコンマがないのはなぜですか。",
+                        "a": "どんな人を雇ったのかを『店内を歩き回る人』に絞り込む制限用法だからです。コンマがあると、雇った人について情報を付け加える読み方になります。"
+                    },
+                    {
+                        "q": "Q31の正解 Shopping carts were thought to be beneficial for both shoppers and supermarket owners. の根拠となる文を引用してください。",
+                        "a": "Shopping carts could be helpful to both shoppers, who could shop easily and conveniently, and supermarket owners, who could increase their sales. です。helpful が beneficial に言い換えられています。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "both shoppers, who could shop easily and conveniently",
+                    "supermarket owners, who could increase their sales",
+                    "baby strollers, which were used for carrying babies",
+                    "He hired people who walked around his store",
+                    "many insects, such as flies and moths, that harm plants"
+                ],
+                "highlightLabel": "関係詞の説明",
+                "highlightColor": "#4f8cff"
+            },
+            {
+                "id": "fp2",
+                "title": "動詞＋目的語＋to不定詞・原形・-ing の使い分け",
+                "subtitle": "Verb + Object + to V / Bare Infinitive / -ing",
+                "explanation": "『動詞＋目的語＋動詞の形』では、前の動詞によって後ろの形が決まります。enable / allow / cause は to不定詞（enabled mountain workers to communicate、allows new plants to start、causing them to lose）。help は原形または to不定詞（help many plants grow）、make は原形（make them look less manly）です。see は原形または -ing をとり、-ing なら『～しているところを見る』という意味になります（saw others using the carts）。どの形でも、目的語と後ろの動詞は『目的語が～する』という主語と動詞の関係です。この関係に気づくと、だれが何をするのかを正確に読み取れます。",
+                "sourceQuote": "It also enabled mountain workers to communicate about navigation and to ( 18 ).\nIn addition, bats help many plants grow by ( 21 ).\nWhen customers saw others using the carts comfortably, they started using them too.",
+                "sourceLocation": "大問2A 第1段落／大問2B 第1段落／大問3B 第3段落",
+                "examples": [
+                    {
+                        "en": "The new app enables students to check their grades online.",
+                        "ja": "その新しいアプリで、生徒は成績をオンラインで確認できる。",
+                        "note": "enable＋O＋to V は『Oが～できるようにする』。物が主語のときは『～によって』と訳すと自然になる。"
+                    },
+                    {
+                        "en": "My father helped me carry the heavy boxes.",
+                        "ja": "父は、私が重い箱を運ぶのを手伝ってくれた。",
+                        "note": "help＋O＋原形。help me to carry の形も使える。"
+                    },
+                    {
+                        "en": "I saw a cat crossing the road.",
+                        "ja": "私は猫が道路を渡っているところを見た。",
+                        "note": "see＋O＋-ing は動作の途中を見たことを表す。see＋O＋原形なら、動作の始めから終わりまでを見たことになる。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Bats]\nBats play an important role both for the natural environment and people's lives. They eat many insects, such as flies and moths, that harm plants. Since one bat can eat thousands of insects a night, farmers can reduce the amount of chemicals they use on their crops. In addition, bats help many plants grow by carrying their seeds to different places. This allows new plants to start growing far from the parent plant. Unfortunately, bat populations are falling across the globe. If the number continues to decline, a serious problem might occur for the environment and food production.",
+                    "ja": "コウモリは、自然環境と人々の生活の両方にとって重要な役割を果たしている。コウモリは、ハエやガなど、植物に害を与える多くの昆虫を食べる。1匹のコウモリが一晩に何千匹もの昆虫を食べられるため、農家は作物に使う化学薬品の量を減らすことができる。さらに、コウモリは種をさまざまな場所へ運ぶことによって、多くの植物が育つのを助けている。これにより、新しい植物が親の植物から遠く離れた場所で育ち始めることができる。残念なことに、コウモリの個体数は世界中で減少している。その数が減り続ければ、環境や食料生産に深刻な問題が起こるかもしれない。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "bats help many plants grow で、grow の主語にあたるのは何ですか。",
+                        "a": "many plants です。『コウモリは多くの植物が育つのを助ける』という関係で、育つのは植物です。"
+                    },
+                    {
+                        "q": "This allows new plants to start growing far from the parent plant. の This は何を指しますか。",
+                        "a": "コウモリが植物の種をいろいろな場所へ運ぶこと（Q21の正解の内容）です。そのおかげで、親の植物から離れた所で新しい植物が育ち始めます。"
+                    },
+                    {
+                        "q": "allows new plants to start の allow を make に替えると、to start の部分はどうなりますか。",
+                        "a": "make＋O＋原形になるので、make new plants start となります。ただし make は『～させる』、allow は『～できるようにする』で、意味も変わります。"
+                    },
+                    {
+                        "q": "農家が作物に使う化学薬品を減らせるのはなぜですか。",
+                        "a": "1匹のコウモリが一晩に何千匹もの虫を食べ、植物を傷める虫が減るからです。Since ... が理由を表しています。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "enabled mountain workers to communicate",
+                    "help many plants grow",
+                    "allows new plants to start growing",
+                    "causing them to lose the body fat",
+                    "make them look less manly",
+                    "saw others using the carts comfortably"
+                ],
+                "highlightLabel": "動詞＋O＋動詞",
+                "highlightColor": "#34d399"
+            },
+            {
+                "id": "fp3",
+                "title": "進行形・完了形・助動詞つきの受動態",
+                "subtitle": "Passive Voice with being / have been / could be",
+                "explanation": "受動態（be＋過去分詞）は、ほかの形と組み合わさるとまとまりが長くなります。is being changed は進行形の受動態で、『今～されているところだ』のほか、すでに決まっている近い予定も表します（メールでは改装はこれから始まるので『変えられることになっている』と読みます）。has now been expanded や have been improved は完了形の受動態で『（これまでに）～されてきた・～された状態だ』を表します。could be stored は助動詞つきの受動態で『保管されることができる』です。be / been / being の後ろの過去分詞を見つけて『～される』の意味をつかみ、そこに時の情報を加えて読みましょう。大問3Bの第4段落では、ショッピングカートが時代とともに改良されてきた流れを、受動態が支えています。",
+                "sourceQuote": "We'll no longer need them as the shop's layout is being changed.\nShopping carts have been improved over time. In the middle of the twentieth century, a new cart was designed so that many carts could be stored in a smaller area.",
+                "sourceLocation": "大問3A 第1段落／大問3B 第4段落",
+                "examples": [
+                    {
+                        "en": "The bridge is being repaired, so we have to take another road.",
+                        "ja": "その橋は修理されているところなので、別の道を通らなければならない。",
+                        "note": "is being＋過去分詞は進行形の受動態で『今～されているところだ』。"
+                    },
+                    {
+                        "en": "The museum has been closed for two years.",
+                        "ja": "その博物館は2年間閉館している。",
+                        "note": "has been＋過去分詞は完了形の受動態。ここでは2年前から今まで続く状態を表す。"
+                    },
+                    {
+                        "en": "These books can be borrowed for two weeks.",
+                        "ja": "これらの本は2週間借りることができる。",
+                        "note": "助動詞＋be＋過去分詞。『～されることができる』は、自然な日本語では『～できる』となることが多い。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Shopping Carts]\nShopping carts have been improved over time. In the middle of the twentieth century, a new cart was designed so that many carts could be stored in a smaller area. Later, a safety belt for children's seats was also added as people looked for safer ways to shop with young children. Nowadays, millions of shopping carts are widely used in stores around the world. The invention of shopping carts made shopping much easier, allowed stores to grow larger, and fundamentally changed the way people buy groceries and other household goods.",
+                    "ja": "ショッピングカートは、時代とともに改良されてきた。20世紀半ばには、より狭い場所に多くのカートを収納できるよう、新しいカートが設計された。その後、人々が幼い子どもを連れてより安全に買い物をする方法を求めるようになったことから、子ども用の座席に安全ベルトも付けられた。今日では、何百万台ものショッピングカートが世界中の店で広く使われている。ショッピングカートの発明は、買い物をずっと楽にし、店の大型化を可能にし、人々が食料品やほかの日用品を買う方法を根本的に変えた。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "Shopping carts have been improved over time. を、時の流れがわかるように訳してください。",
+                        "a": "『ショッピングカートは時とともに改良されてきた。』have been improved は、過去から現在までの間に改良が重ねられてきたことを表します。"
+                    },
+                    {
+                        "q": "a new cart was designed so that many carts could be stored in a smaller area で、新しいカートは何のために設計されましたか。",
+                        "a": "多くのカートをより狭い場所に保管できるようにするためです。so that ... could ～ が目的を表し、Q30の正解（カートの置き場所を節約できた）の根拠になります。"
+                    },
+                    {
+                        "q": "the shop's layout is being changed は、店について何を伝えていますか。",
+                        "a": "店のレイアウトがこれから変更されることになっている、ということです。メールの初めに We are going to renovate our shop とあり、改装作業は2週間後に始まる（Since the renovation crew will start working in two weeks）ので、工事の最中ではなく、決まっている予定を進行形で表していると読みます。そのため、テーブルや棚がもう必要なくなります。"
+                    },
+                    {
+                        "q": "a safety belt for children's seats was also added の主語と動詞を答えてください。",
+                        "a": "主語は a safety belt（for children's seats は belt を説明する語句）、動詞は was added（受動態）です。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "is being changed",
+                    "has now been expanded",
+                    "have also been created",
+                    "have been improved over time",
+                    "many carts could be stored"
+                ],
+                "highlightLabel": "受動態の形",
+                "highlightColor": "#f472b6"
+            },
+            {
+                "id": "fp4",
+                "title": "条件・譲歩・理由をつなぐ in case / even though / since",
+                "subtitle": "Connecting Conditions, Concessions and Reasons",
+                "explanation": "接続詞は、二つの内容の関係を示す道しるべです。In case S＋V には『～するといけないから・～する場合に備えて』と『（もし）～の場合には』の2つの使い方があります。メールの In case you are unable to accept the items は後者で、if とほぼ同じ意味です（名詞が続くときは in case of＋名詞の形になり、大問2Aの in case of emergencies は『緊急の場合に』という意味です）。Even though S＋V は『～ではあるけれども』と、事実を認めたうえで反対の内容を続けます。Since S＋V は、文脈によって理由『～なので』を表します。メールでは、トラックが必要な理由と、金曜日までに返事がほしい理由が、これらの接続詞を使って示されています。Q25・Q26は、この理由の部分が根拠になります。",
+                "sourceQuote": "Even though each one isn't very large, all five together are still too heavy to carry without a truck.\nIn case you are unable to accept the items, I will need to check whether other shops might want them.\nSince the renovation crew will start working in two weeks, please let me know what you think about this by this Friday.",
+                "sourceLocation": "大問3A 第2・3段落",
+                "examples": [
+                    {
+                        "en": "In case it rains, the event will be held in the gym.",
+                        "ja": "雨が降った場合は、行事は体育館で行われる。",
+                        "note": "ここでの In case S＋V は『～の場合は』（if とほぼ同じ）。Take an umbrella in case it rains.（雨が降るといけないから傘を持って行きなさい）のように『～に備えて』の意味でもよく使う。名詞が続くときは in case of rain（雨の場合は）。"
+                    },
+                    {
+                        "en": "Even though he was tired, he finished his homework.",
+                        "ja": "彼は疲れていたけれども、宿題を終えた。",
+                        "note": "Even though は事実を認めて逆の内容を続ける。Even if（たとえ～でも）は仮定の条件。"
+                    },
+                    {
+                        "en": "Since the store is closed today, let's go tomorrow.",
+                        "ja": "今日は店が閉まっているので、明日行こう。",
+                        "note": "Since S＋V は理由『～なので』。相手もわかっている理由を示すときによく使われる。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Question about some furniture]\nEven though each one isn't very large, all five together are still too heavy to carry without a truck. Could you come to pick them up? Would there be a cost for doing that? In case you are unable to accept the items, I will need to check whether other shops might want them. I don't want to throw the items away if someone can still use them. Contacting other shops and waiting for their replies may take some time, so I would appreciate it if you could let me know soon. Since the renovation crew will start working in two weeks, please let me know what you think about this by this Friday.",
+                    "ja": "一つ一つはそれほど大きくありませんが、5点すべてを合わせると、やはりトラックなしで運ぶには重すぎます。引き取りに来ていただけますか。その場合、費用はかかりますか。もし引き取っていただけない場合は、ほかの店が必要としているかどうかを確認しなければなりません。まだ使っていただける方がいるのであれば、捨てたくはありません。ほかの店に連絡して返事を待つには時間がかかるかもしれないので、早めにお知らせいただけるとありがたいです。改装業者が2週間後に作業を始めるため、今週の金曜日までに、この件についてのお考えをお知らせください。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "Even though each one isn't very large, all five together are still too heavy to carry without a truck. で、ケイティが認めている事実と、伝えたい内容はそれぞれ何ですか。",
+                        "a": "認めている事実は一つ一つがそれほど大きくないこと、伝えたい内容は5つ合わせるとトラックなしでは運べないほど重いことです。Q25の根拠です。"
+                    },
+                    {
+                        "q": "too heavy to carry without a truck を、so ... that ～ can't を使って言い換えてください。",
+                        "a": "so heavy that we can't carry them without a truck です。too ... to ～は『～するには…すぎる』という意味で、否定の意味を含みます。"
+                    },
+                    {
+                        "q": "In case you are unable to accept the items の In case は、ここではどんな意味ですか。",
+                        "a": "『もし～の場合には』という条件です。ジョージの店が受け取れない場合は、ほかの店に問い合わせる必要がある、という流れです。"
+                    },
+                    {
+                        "q": "ケイティが金曜日までに返事がほしい理由を2つ挙げてください。",
+                        "a": "ほかの店に問い合わせて返事を待つのに時間がかかるかもしれないこと（Contacting other shops and waiting for their replies may take some time）と、2週間後に改装作業が始まること（Since ...）です。Q26の正解は前者の内容です。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "Even though each one isn't very large",
+                    "In case you are unable to accept the items",
+                    "Since the renovation crew will start working in two weeks",
+                    "Since one bat can eat thousands of insects a night",
+                    "Since there are not enough food sources during the winter"
+                ],
+                "highlightLabel": "接続詞の働き",
+                "highlightColor": "#fbbf24"
+            },
+            {
+                "id": "fp5",
+                "title": "今回の重要なパラフレーズ",
+                "subtitle": "Paraphrases Linking the Passage and the Answer",
+                "explanation": "大問3では、正解の選択肢が本文と同じ内容を別の語句で表していることがよくあります。本文の具体的な説明が選択肢では短くまとめられたり（made of a simple chair that could be folded → a folding chair）、変化の表し方が変わったり（supermarkets grew larger / more people began driving cars → the size ... and the number ... increased）します。反対に、本文の語句を使っていても内容がずれている選択肢は不正解です。主語・数量・時期・目的が本文と一致しているかを確かめて選びましょう。",
+                "sourceQuote": "① want to give away some of the furniture / a secondhand shop like yours might be able to accept it → wants to offer some used items for his shop（Q24）\n② too heavy to carry without a truck. Could you come to pick them up? → cannot transport all five items without the shop's help（Q25）\n③ check whether other shops might want them / may take some time → may need time to ask other shops if they are interested（Q26）\n④ made of a simple chair that could be folded. It had two baskets and wheels. → a folding chair with wheels and two baskets（Q27）\n⑤ supermarkets grew larger and more people began driving cars → the size of the supermarkets and the number of shoppers with cars increased（Q28）\n⑥ hired people who walked around his store ... demonstrating how useful the carts were → hiring people to demonstrate using the carts in the store（Q29）\n⑦ many carts could be stored in a smaller area → save space for shopping carts（Q30）\n⑧ helpful to both shoppers ... and supermarket owners → beneficial for both shoppers and supermarket owners（Q31）",
+                "sourceLocation": "大問3A Q24〜26／大問3B Q27〜31",
+                "examples": [
+                    {
+                        "en": "The chair can be folded. / It is a folding chair.",
+                        "ja": "その椅子は折りたためる。／それは折りたたみ椅子だ。",
+                        "note": "can be folded（受動態の説明）が folding（名詞を修飾する形）に言い換えられている。"
+                    },
+                    {
+                        "en": "More people began driving cars. / The number of people with cars increased.",
+                        "ja": "車を運転し始める人が増えた。／車を持つ人の数が増えた。",
+                        "note": "more people を『～の数が増えた』と言い換える。どちらも人数の増加を表す。"
+                    },
+                    {
+                        "en": "Many carts could be kept in a smaller area. / The new design saved space.",
+                        "ja": "多くのカートを狭い場所に置けるようになった。／新しいデザインで場所を節約できた。",
+                        "note": "具体的な説明と、それをまとめた言い方の対応。save space は『場所を節約する』。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Shopping Carts]\nThe shopping cart was invented by Sylvan Goldman in the 1930s. He noticed that shoppers had difficulty continuing shopping because their baskets became too heavy to carry, and he looked for a solution. His first shopping cart was made of a simple chair that could be folded. It had two baskets and wheels. With this shopping cart, people did not have to carry heavy baskets anymore. They could push the cart instead. Soon after, he introduced the carts at his store and hoped to change the way people shopped.",
+                    "ja": "ショッピングカートは、1930年代にシルバン・ゴールドマンによって発明された。彼は、かごが重くなりすぎて持てなくなるために、買い物客が買い物を続けにくくなっていることに気づき、解決策を探した。彼の最初のショッピングカートは、折りたためる簡素ないすで作られていた。それには、2つのかごと車輪が付いていた。このショッピングカートのおかげで、人々はもう重いかごを持ち運ぶ必要がなくなった。その代わりに、カートを押せばよかった。その後まもなく、彼は自分の店にそのカートを導入し、人々の買い物の仕方を変えたいと願った。",
+                    "audioFile": "audio/practice_pp5.mp3"
+                },
+                "practiceQuestions": [
+                    {
+                        "q": "Q27の正解 a folding chair with wheels and two baskets に対応する本文の表現を、2つの文から引用してください。",
+                        "a": "His first shopping cart was made of a simple chair that could be folded. と It had two baskets and wheels. です。could be folded が folding に、two baskets and wheels が with wheels and two baskets にまとめられています。"
+                    },
+                    {
+                        "q": "Q27の選択肢1 a rolling chair with one fixed basket that people could not fold. が不正解なのはなぜですか。",
+                        "a": "本文の椅子は折りたためて（could be folded）、かごは2つです。『折りたためない』『かごが1つ』の2点が本文と合いません。"
+                    },
+                    {
+                        "q": "He noticed that shoppers had difficulty continuing shopping を、別の英語で言い換えてください。",
+                        "a": "例：He noticed that shoppers found it hard to keep shopping. have difficulty -ing（～するのに苦労する）は、find it hard to V で言い換えられます。"
+                    },
+                    {
+                        "q": "ゴールドマンがショッピングカートを作ったのはなぜですか。",
+                        "a": "かごが重くなりすぎて買い物を続けにくいという問題に気づき、その解決策（a solution）を探したからです。最後の文には、人々の買い物の仕方を変えたいと願っていた（hoped to change the way people shopped）とあります。"
+                    }
+                ],
+                "highlightPatterns": [
+                    "give away some of the furniture",
+                    "too heavy to carry without a truck",
+                    "made of a simple chair that could be folded",
+                    "As supermarkets grew larger and more people began driving cars",
+                    "demonstrating how useful the carts were",
+                    "in a smaller area",
+                    "Shopping carts could be helpful"
+                ],
+                "highlightLabel": "パラフレーズ",
+                "highlightColor": "#f59e0b"
+            }
+        ]
+    },
+    "listening": {
+        "part1": {
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 2,
+            "5": 4,
+            "6": 4,
+            "7": 3,
+            "8": 2,
+            "9": 1,
+            "10": 1,
+            "11": 3,
+            "12": 1,
+            "13": 4,
+            "14": 4,
+            "15": 1
+        },
+        "part2": {
+            "16": 4,
+            "17": 4,
+            "18": 4,
+            "19": 3,
+            "20": 1,
+            "21": 1,
+            "22": 2,
+            "23": 2,
+            "24": 2,
+            "25": 1,
+            "26": 1,
+            "27": 3,
+            "28": 2,
+            "29": 2,
+            "30": 1
+        }
+    }
+}

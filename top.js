@@ -64,6 +64,7 @@
                 { id: '2025-3-sat', label: '2025年度 第3回（土曜準会場）', sub: '一次試験リーディング' },
                 { id: '2026-1', label: '2026年度 第1回', sub: '一次試験リーディング' },
                 { id: '2026-1-sat', label: '2026年度 第1回（土曜準会場）', sub: '一次試験リーディング' },
+                { id: '2026-2', label: '2026年度 第2回', sub: '一次試験リーディング' },
                 { id: '2026-2-sat', label: '2026年度 第2回（土曜準会場）', sub: '一次試験リーディング' }
             ]
         },
@@ -248,6 +249,18 @@
         });
     }
 
+    // ===== Newest exams first (main venue before sub-venue within a session) =====
+    function newestFirst(exams) {
+        const key = exam => {
+            const m = exam.id.match(/^(\d{4})-(\d+)(-.+)?$/);
+            return m ? [Number(m[1]), Number(m[2]), m[3] ? 1 : 0] : [0, 0, 0];
+        };
+        return exams
+            .map((exam, index) => ({ exam, index, key: key(exam) }))
+            .sort((a, b) => b.key[0] - a.key[0] || b.key[1] - a.key[1] || a.key[2] - b.key[2] || a.index - b.index)
+            .map(item => item.exam);
+    }
+
     // ===== Show Exam List =====
     function showExams(grade) {
         gradeSection.classList.add('hidden');
@@ -266,7 +279,7 @@
         noExams.classList.add('hidden');
         examList.style.display = '';
 
-        grade.exams.forEach(exam => {
+        newestFirst(grade.exams).forEach(exam => {
             const card = document.createElement('a');
             card.className = 'exam-card';
             card.href = `index.html?grade=${grade.id}&exam=${exam.id}&nav=1`;
