@@ -123,10 +123,17 @@
       _qAudioEl.pause();
       if (_qAudioBtn) _qAudioBtn.classList.remove('playing');
     }
-    _qAudioEl = new Audio(src);
+    const audio = new Audio(src);
+    _qAudioEl = audio;
     _qAudioBtn = btn;
     btn.classList.add('playing');
-    _qAudioEl.play();
+    audio.play().catch(error => {
+      // Stopping right after starting aborts play(); only a real failure resets the button.
+      if (error.name === 'AbortError' || _qAudioEl !== audio) return;
+      btn.classList.remove('playing');
+      _qAudioEl = null;
+      _qAudioBtn = null;
+    });
     _qAudioEl.onended = () => {
       btn.classList.remove('playing');
       _qAudioEl = null;
