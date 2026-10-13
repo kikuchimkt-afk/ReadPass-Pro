@@ -162,7 +162,9 @@ def verify_registration(errors: list[str]) -> None:
         errors.append("top.js: pre-grade1 2026-2 entry must occur exactly once")
     elif block.find("id: '2026-1'") > block.find("id: '2026-2'"):
         errors.append("top.js: pre-grade1 2026-2 must follow 2026-1")
-    if "top.js?v=20261013-pre1-2026-2-v1" not in TOP_HTML_PATH.read_text(encoding="utf-8"):
+    # Later releases bump the version again; it only must not predate this exam.
+    cache = re.search(r"top\.js\?v=(\d{8})-", TOP_HTML_PATH.read_text(encoding="utf-8"))
+    if not cache or cache.group(1) < "20261013":
         errors.append("top.html: top.js cache-busting version was not bumped")
 
 

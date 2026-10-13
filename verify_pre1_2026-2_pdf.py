@@ -67,7 +67,9 @@ if "{ id: '2026-2', label: '2026年度 第2回' }" not in print_js:
 
 with open(os.path.join(BASE, "print.html"), encoding="utf-8") as handle:
     print_html = handle.read()
-if "print.js?v=20261013-pre1-2026-2-v1" not in print_html:
+# Later releases bump the version again; it only must not predate this exam.
+cache = re.search(r"print\.js\?v=(\d{8})-", print_html)
+if not cache or cache.group(1) < "20261013":
     errors.append("print.html cache-busting version mismatch")
 
 if errors:
