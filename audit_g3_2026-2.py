@@ -240,7 +240,8 @@ def main():
         check(actual == set(refs), "audio files: no missing/orphans")
         for ref in refs:
             path = BASE / ref
-            check(path.is_file() and path.stat().st_size >= 500, "missing/incomplete audio: " + ref)
+            # A single word is about 11 KB at this voice/rate; a truncated stream once saved 2 KB.
+            check(path.is_file() and path.stat().st_size >= 6000, "missing/truncated audio: " + ref)
     check([int(d["listening"][f"part{i // 10 + 1}"][str(i + 1)]) for i in range(30)] == LISTENING, "stored listening key")
 
     from pypdf import PdfReader
