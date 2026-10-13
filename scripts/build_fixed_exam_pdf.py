@@ -708,7 +708,8 @@ def draw_notice_page(
     title = clean_text(passage.get("title", ""))
     if first_lines and first_lines[0].lower() == title.lower():
         first_lines = first_lines[1:]
-    info_height = max(48, 16 + (len(first_lines) * 14))
+    # A notice whose first paragraph is only its title gets no empty info box.
+    info_height = max(48, 16 + (len(first_lines) * 14)) if first_lines else 0
     info_top = top - 47
     body_height = sum(
         (len(wrap_text(paragraph, SERIF, 10.7, BODY_W - 36)) * 13.8) + 8
@@ -725,8 +726,9 @@ def draw_notice_page(
     c.setFont(SERIF_BOLD, 16)
     c.drawCentredString(BODY_X + (BODY_W / 2), top - 28, clean_text(passage.get("title", "")))
 
-    c.setFillColor(PALE)
-    c.rect(BODY_X + 14, info_top - info_height, BODY_W - 28, info_height, stroke=0, fill=1)
+    if first_lines:
+        c.setFillColor(PALE)
+        c.rect(BODY_X + 14, info_top - info_height, BODY_W - 28, info_height, stroke=0, fill=1)
     cursor = info_top - 18
     for line in first_lines:
         c.setFillColor(INK)
