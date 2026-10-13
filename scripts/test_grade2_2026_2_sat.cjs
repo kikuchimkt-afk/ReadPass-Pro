@@ -120,7 +120,7 @@ fs.mkdirSync(out, {recursive:true});
     // Shared email escaping must retain the existing exam's text and label.
     await page.goto(`${base}/index.html?grade=grade2&exam=2026-1-sat&nav=1`);
     await page.waitForSelector('#q31',{state:'attached'});
-    assert.match(await page.locator('#examLabel').innerText(),/第1回（準会場）/);
+    assert.match(await page.locator('#examLabel').innerText(),/第1回（土曜準会場）/);
     await page.locator('[data-tab="part3"]').click();
     assert.match(await page.locator('.email-meta').first().innerText(),/<jjenkins@riverstonehigh.edu>/);
     assert.deepEqual(errors,[]);

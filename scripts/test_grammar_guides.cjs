@@ -40,7 +40,7 @@ fs.mkdirSync(out, {recursive:true});
     assert.equal(await rows.count(), 2);
     const satRow = page.locator('.teacher-material-row[data-exam="2025-1-sat"]');
     assert.match(await satRow.innerText(), /文法解説プリント（講師用）/);
-    assert.match(await satRow.innerText(), /2025年度 第1回（準会場） ／ A4縦5枚（1枚に1つの文法事項）/);
+    assert.match(await satRow.innerText(), /2025年度 第1回（土曜準会場） ／ A4縦5枚（1枚に1つの文法事項）/);
 
     // 閲覧 opens the PDF in a new tab; DL saves it under the readable file name.
     const view = satRow.getByRole('link', {name:/閲覧/});

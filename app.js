@@ -42,12 +42,12 @@
     currentGradeId = gradeId;
     currentExamId = examId;
 
-    // Update header label — handles sub-venue IDs like '2025-3-sat'
+    // Update header label — '-sat' IDs are the Saturday sub-venue papers: （土曜準会場）, as in top.js / print.js / PDFs
     const label = document.getElementById('examLabel');
     if (label) {
       const m = examId.match(/^(\d{4})-(\d+)(?:-(.+))?$/);
       if (m) {
-        const suffix = m[3] === 'sat' ? (examId === '2026-2-sat' ? '（土曜準会場）' : '（準会場）') : (m[3] ? `(${m[3]})` : '');
+        const suffix = m[3] === 'sat' ? '（土曜準会場）' : (m[3] ? `(${m[3]})` : '');
         label.textContent = `${grade.name} · ${m[1]}年度 第${m[2]}回${suffix}`;
       } else {
         label.textContent = `${grade.name} · ${examId}`;

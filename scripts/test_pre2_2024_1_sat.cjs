@@ -25,7 +25,7 @@ fs.mkdirSync(out, {recursive:true});
     assert.deepEqual(order.slice(order.indexOf('2024-1'),order.indexOf('2024-1')+3),['2024-1','2024-1-sat','2023-3']);
     await card.click();
     await page.waitForSelector('#q29',{state:'attached'});
-    assert.match(await page.locator('#examLabel').innerText(),/2024年度 第1回/);
+    assert.match(await page.locator('#examLabel').innerText(),/2024年度 第1回（土曜準会場）/);
     assert.equal(await page.locator('.exam-question').count(),29);
     assert.equal(await page.locator('.exam-choice-btn').count(),116);
     assert.equal(await page.locator('.choice-analysis-item').count(),116);
