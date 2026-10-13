@@ -1049,6 +1049,42 @@
     return html;
   }
 
+  // Wrap the first whole-word match of the main verb in <span class="main-verb">.
+  // Matching runs on text nodes only, so tag attributes (e.g. grammar-hl marker
+  // styles) are never touched, and a short verb such as "is" is not found inside
+  // "This" or "visitors". A verb may span marker tags ("has long been").
+  function highlightMainVerb(html, verb) {
+    if (!verb) return html;
+    const escaped = verb.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Require a boundary only where the verb starts/ends with a letter or digit,
+    // so "'m sharing" still matches in "I'm sharing".
+    const pre = /^[\p{L}\p{N}]/u.test(verb) ? '(?<![\\p{L}\\p{N}])' : '';
+    const post = /[\p{L}\p{N}]$/u.test(verb) ? '(?![\\p{L}\\p{N}])' : '';
+    const re = new RegExp(pre + escaped + post, 'iu');
+    const tpl = document.createElement('template');
+    tpl.innerHTML = html;
+    const nodes = [];
+    const walker = document.createTreeWalker(tpl.content, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    const found = re.exec(nodes.map(n => n.data).join(''));
+    if (!found) return html;
+    const start = found.index, end = start + found[0].length;
+    let offset = 0;
+    nodes.forEach(node => {
+      const len = node.data.length;
+      const s = Math.max(start - offset, 0), e = Math.min(end - offset, len);
+      offset += len;
+      if (s >= e) return;
+      const part = node.splitText(s);
+      part.splitText(e - s);
+      const wrap = document.createElement('span');
+      wrap.className = 'main-verb';
+      part.parentNode.replaceChild(wrap, part);
+      wrap.appendChild(part);
+    });
+    return tpl.innerHTML;
+  }
+
   function setupSentencePopups(container) {
     let tooltip = null;
     let _activeSlashSpan = null;
@@ -1091,14 +1127,7 @@
         if (!span.dataset.originalHtml) span.dataset.originalHtml = span.innerHTML;
 
         // Build slash reading HTML: highlight main verb in red
-        let enText = span.dataset.originalHtml;
-        // Highlight the main verb in red within the English text
-        if (verb) {
-          // Escape for regex
-          const escaped = verb.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-          const re = new RegExp(`(${escaped})`, 'i');
-          enText = enText.replace(re, '<span class="main-verb">$1</span>');
-        }
+        const enText = highlightMainVerb(span.dataset.originalHtml, verb);
 
         // Parse slash reading: segments separated by ||
         // Each segment: "english | japanese"
@@ -1113,13 +1142,8 @@
         // Build the slash display below the sentence
         let slashHtml = '<div class="slash-reading-display">';
         segments.forEach(seg => {
-          let enSegHtml = seg.en;
           // Highlight the main verb within each segment
-          if (verb) {
-            const escaped = verb.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            const re = new RegExp(`(${escaped})`, 'i');
-            enSegHtml = enSegHtml.replace(re, '<span class="main-verb">$1</span>');
-          }
+          const enSegHtml = highlightMainVerb(seg.en, verb);
           slashHtml += `<span class="slash-segment"><span class="slash-en">${enSegHtml}</span><span class="slash-ja">${seg.ja}</span></span>`;
         });
         slashHtml += '</div>';
