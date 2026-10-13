@@ -57,17 +57,29 @@ NO_LINE_START = set("、。，．・：；？！」』）】〕〉》ー…‥�
 NO_LINE_END = set("（「『【〔〈《([{")
 
 
+# English-led fields (quotes, examples, passages) may still contain ①, （Q24） or
+# Japanese words, which Times cannot draw. These aliases of the gothic set the
+# English runs in Times at the original size and only the other runs in gothic.
+EN = "ReadPassMix-Serif"
+EN_BOLD = "ReadPassMix-SerifBold"
+EN_ITALIC = "ReadPassMix-Italic"
+
+
 def register_fonts() -> None:
     base.register_fonts()
-    pdfmetrics.registerFont(TTFont(JP, r"C:\Windows\Fonts\BIZ-UDGothicR.ttc", subfontIndex=1))
-    pdfmetrics.registerFont(TTFont(JP_BOLD, r"C:\Windows\Fonts\BIZ-UDGothicB.ttc", subfontIndex=1))
+    regular, bold = r"C:\Windows\Fonts\BIZ-UDGothicR.ttc", r"C:\Windows\Fonts\BIZ-UDGothicB.ttc"
+    for name, path in ((JP, regular), (JP_BOLD, bold), (EN, regular), (EN_BOLD, bold), (EN_ITALIC, regular)):
+        pdfmetrics.registerFont(TTFont(name, path, subfontIndex=1))
 
 
 # Mixed Japanese / English lines: English runs are set in Times New Roman like the exam
 # PDF, Japanese runs in BIZ UDPGothic. Times looks smaller than the gothic at the same
-# size, so English runs are scaled up slightly.
-LATIN = {JP: base.SERIF, JP_BOLD: base.SERIF_BOLD}
+# size, so in Japanese-led text the English runs are scaled up slightly, and in
+# English-led text the Japanese runs are scaled down instead.
+LATIN = {JP: base.SERIF, JP_BOLD: base.SERIF_BOLD,
+         EN: base.SERIF, EN_BOLD: base.SERIF_BOLD, EN_ITALIC: base.SERIF_ITALIC}
 LATIN_SCALE = 1.08
+ENGLISH_LED = {EN, EN_BOLD, EN_ITALIC}
 
 
 def is_latin(ch: str) -> bool:
@@ -77,9 +89,11 @@ def is_latin(ch: str) -> bool:
 
 def token_font(token: str, font: str, size: float):
     """(font, size) used to draw one token of a line set in `font`."""
-    if font in LATIN and token and is_latin(token[0]):
-        return LATIN[font], size * LATIN_SCALE
-    return font, size
+    if font not in LATIN or not token:
+        return font, size
+    if is_latin(token[0]):
+        return LATIN[font], size * (1.0 if font in ENGLISH_LED else LATIN_SCALE)
+    return font, size / LATIN_SCALE if font in ENGLISH_LED else size
 
 
 def string_width(text: str, font: str, size: float) -> float:
@@ -220,7 +234,7 @@ def two_columns(q: Page, blocks: list[str]) -> None:
 
     def block_height(block: str) -> float:
         probe = Page(None, q.s)
-        probe.text(block, base.SERIF, 9.7, width=col_w, leading=1.4, gap=4)
+        probe.text(block, EN, 9.7, width=col_w, leading=1.4, gap=4)
         return TOP - probe.y
 
     heights = [block_height(block) for block in blocks]
@@ -235,7 +249,7 @@ def two_columns(q: Page, blocks: list[str]) -> None:
     for column, column_blocks in enumerate((blocks[:split], blocks[split:])):
         q.y = start
         for block in column_blocks:
-            q.text(block, base.SERIF, 9.7, x=X0 + 8 + column * (col_w + COLUMN_GAP), width=col_w,
+            q.text(block, EN, 9.7, x=X0 + 8 + column * (col_w + COLUMN_GAP), width=col_w,
                    leading=1.4, gap=4)
         ends.append(q.y)
     q.y = min(ends)
@@ -266,7 +280,7 @@ def layout(c, fp: dict, number: int, scale: float, grade_label: str, exam_label:
     p.text(fp.get("title", "") + ("（続き）" if part == SECOND_HALF else ""), JP_BOLD, 14.2,
            width=title_w, leading=1.32)
     if fp.get("subtitle"):
-        p.text(fp["subtitle"], base.SERIF_ITALIC, 9.2, width=title_w, color=MID, leading=1.35)
+        p.text(fp["subtitle"], EN_ITALIC, 9.2, width=title_w, color=MID, leading=1.35)
     p.y = min(p.y, TOP - 58)
     if c:
         base.draw_rule(c, X0, p.y - 3, WIDTH, base.DARK, 1.0)
@@ -292,7 +306,7 @@ def explanation_half(p: Page, fp: dict, scale: float) -> None:
 
     if fp.get("sourceQuote"):
         def quote(q):
-            q.text(fp["sourceQuote"], base.SERIF_ITALIC, 9.6, x=X0 + 11, width=WIDTH - 20, leading=1.42)
+            q.text(fp["sourceQuote"], EN_ITALIC, 9.6, x=X0 + 11, width=WIDTH - 20, leading=1.42)
             if fp.get("sourceLocation"):
                 q.text("— " + fp["sourceLocation"], JP, 7.4, x=X0 + 11, width=WIDTH - 20, color=MID, leading=1.4)
         p.y -= 6 * scale
@@ -303,7 +317,7 @@ def explanation_half(p: Page, fp: dict, scale: float) -> None:
         p.heading("▶ 例文と解説")
         for i, ex in enumerate(examples, 1):
             def example(q, ex=ex, i=i):
-                q.text(f"({i}) {ex['en']}", base.SERIF_BOLD, 9.9, x=X0 + 8, width=WIDTH - 16, leading=1.36)
+                q.text(f"({i}) {ex['en']}", EN_BOLD, 9.9, x=X0 + 8, width=WIDTH - 16, leading=1.36)
                 if ex.get("ja"):
                     q.text("→ " + ex["ja"], JP, 8.6, x=X0 + 8, width=WIDTH - 16, leading=1.5)
                 if ex.get("note"):
@@ -323,7 +337,7 @@ def practice_half(p: Page, fp: dict, scale: float) -> None:
                     if line.startswith("[出典:"):
                         q.text(line, JP, 7.6, x=X0 + 8, width=WIDTH - 16, color=MID, leading=1.4)
                     elif line.strip():
-                        q.text(line, base.SERIF, 9.7, x=X0 + 8, width=WIDTH - 16, leading=1.45)
+                        q.text(line, EN, 9.7, x=X0 + 8, width=WIDTH - 16, leading=1.45)
                 return
             label, body = split_passage(pp["en"])
             if label:
@@ -332,7 +346,7 @@ def practice_half(p: Page, fp: dict, scale: float) -> None:
             if body.count("\n") >= 14 and len(blocks) >= 4:
                 two_columns(q, blocks)
             else:
-                q.text(body, base.SERIF, 9.7, x=X0 + 8, width=WIDTH - 16, leading=1.5)
+                q.text(body, EN, 9.7, x=X0 + 8, width=WIDTH - 16, leading=1.5)
         p.box(passage, stroke=LINE, pad=6)
         p.y -= 4 * scale
 
