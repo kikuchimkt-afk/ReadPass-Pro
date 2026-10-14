@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-1-sat",
+    "title": "文法事項の確認",
+    "theme": "譲歩と付帯状況・因果関係・受動態と目的・理由と追加",
+    "aim": "授業の長文に出てきた、譲歩・同時進行の接続詞と付帯状況の形、原因と結果をつなぐ動詞、受動態の否定と完了の受動態、目的を表す不定詞、理由・追加・裏づけのつなぎの言葉、名詞のくり返しを避ける代名詞を、新しい英文の中で使えるようにする。★の問題では、意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "譲歩・同時進行の接続詞と、付帯状況の形を見分けられる",
+        "因果をつなぐ動詞・現在完了と、裏づけのつなぎの言葉が分かる",
+        "受動態の否定・完了の受動態と、目的を表す不定詞が分かる",
+        "理由・追加のつなぎの言葉と、名詞の代わりをする代名詞が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) the two sisters look very different, they both love music and drawing.",
+            "choices": [
+                "Because",
+                "Despite",
+                "Although",
+                "Unless"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その2人の姉妹は見た目がまったく違うが、どちらも音楽と絵を描くことが大好きだ。",
+            "explanation": "Although は接続詞で、後ろに S V を続けて「～だけれども」を表す。見た目の違いを認めたうえで、共通点を述べている。",
+            "choiceNotes": [
+                "Because「～なので（理由）」",
+                "Despite「前置詞・後ろは名詞」",
+                "Although「～だけれども」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の Although forest schools look different と同じ形。違いの後に共通点が続く。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Children can play freely in the park (　) their parents watch them from a bench.",
+            "choices": [
+                "during",
+                "while",
+                "with",
+                "instead of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "親がベンチから見守る中で、子どもたちは公園で自由に遊ぶことができる。",
+            "explanation": "while は接続詞で、後ろに S V を続けて「～している間」と、同時に起きていることを表す。during と instead of は前置詞で、S V は続かない。",
+            "choiceNotes": [
+                "during「～の間（前置詞）」",
+                "while「～している間」",
+                "with「後ろに S V は不可」",
+                "instead of「～の代わりに」"
+            ],
+            "tip": "授業の while their teachers make sure と同じ形。2つのことが同時に進む。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My brother often falls asleep (　) the lights on.",
+            "choices": [
+                "with",
+                "and",
+                "while",
+                "during"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "弟はよく、明かりをつけたまま眠ってしまう。",
+            "explanation": "with＋名詞＋副詞で「～が…の状態で」という付帯状況を表す。and や while なら the lights are on と動詞が必要。",
+            "choiceNotes": [
+                "with「～が…の状態で」",
+                "and「そして（接続詞）」",
+                "while「～している間」",
+                "during「～の間（前置詞）」"
+            ],
+            "tip": "授業の with their teachers always close by と同じ形。「名詞＋状態」をセットで読む。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "The new shopping mall (　) heavy traffic around the station since it opened last year.",
+            "choices": [
+                "causes",
+                "caused",
+                "is caused",
+                "has caused"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "新しいショッピングモールは、昨年開店して以来、駅周辺の交通渋滞を引き起こしている。",
+            "explanation": "since it opened last year（昨年開店して以来）があるので、過去から今まで続いている影響を表す現在完了の has caused が入る。",
+            "choiceNotes": [
+                "causes「現在形」",
+                "caused「過去形」",
+                "is caused「受動態」",
+                "has caused「現在完了」"
+            ],
+            "tip": "授業の has caused serious damage と同じ形。「～して以来」の since は現在完了の合図。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A rise in the price of rice (　) an increase in the cost of school lunches.",
+            "choices": [
+                "results",
+                "means",
+                "leads",
+                "comes"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "米の値段が上がることは、学校給食の費用が上がることを意味する。",
+            "explanation": "A means B で「AはBを意味する」。an increase を直接目的語にとれるのは means だけで、results や leads には前置詞（in・to）が必要。",
+            "choiceNotes": [
+                "results「in が必要」",
+                "means「～を意味する」",
+                "leads「to が必要」",
+                "comes「from などが必要」"
+            ],
+            "tip": "授業の a decrease ... means an increase と同じ形。「～が上がること」と訳すと自然。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Not getting enough sleep often (　) to poor results at school.",
+            "choices": [
+                "causes",
+                "makes",
+                "brings",
+                "leads"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "十分な睡眠をとらないことは、学校での成績不振につながることが多い。",
+            "explanation": "lead to ～ で「～につながる」。後ろに to があるので leads が入る。causes・makes・brings は目的語が必要で、to は直接続かない。",
+            "choiceNotes": [
+                "causes「～を引き起こす」",
+                "makes「～を作る」",
+                "brings「～を持ってくる」",
+                "leads「～につながる」"
+            ],
+            "tip": "授業の This finally leads to the spreading ... と同じ形。to の後ろが結果。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Breakfast is important for students. (　), according to one survey, those who eat it get better grades.",
+            "choices": [
+                "In fact",
+                "However",
+                "Instead",
+                "Otherwise"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "朝食は生徒にとって大切だ。実際、ある調査によると、朝食をとる生徒のほうが成績がよい。",
+            "explanation": "In fact は「実際に」で、前の文の内容を調査などの事実で裏づけるときに使う。前後が同じ向きの内容なので、逆接の However は合わない。",
+            "choiceNotes": [
+                "In fact「実際に」",
+                "However「しかし（逆接）」",
+                "Instead「その代わりに」",
+                "Otherwise「そうでなければ」"
+            ],
+            "tip": "授業の In fact, studies have shown ... と同じ働き。前の文の「証拠」が続く合図。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "The damage to the car (　) caused by the driver. A tree fell on it during the storm.",
+            "choices": [
+                "did not",
+                "has not",
+                "was not",
+                "were not"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その車の損傷は、運転手によるものではなかった。嵐の最中に木が倒れてきたのだ。",
+            "explanation": "主語の the damage は「引き起こされる」側なので受動態。過去の受動態の否定は was / were＋not＋過去分詞。damage は単数扱いなので was not。",
+            "choiceNotes": [
+                "did not「後ろは動詞の原形」",
+                "has not「能動の現在完了」",
+                "was not「受動態の否定」",
+                "were not「主語が複数のとき」"
+            ],
+            "tip": "授業の the damage was not caused by you と同じ形。by の後ろが「原因となったもの」。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Once the payment (　), we will send you the tickets by e-mail.",
+            "choices": [
+                "has made",
+                "has been made",
+                "is making",
+                "has been making"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "お支払いが済みましたら、チケットをメールでお送りします。",
+            "explanation": "make a payment（支払いをする）を受動態にした形。Once ～ は「～したら」で、支払いが済んだ状態を現在完了の受動態 has been made で表す。",
+            "choiceNotes": [
+                "has made「能動態」",
+                "has been made「完了の受動態」",
+                "is making「進行形」",
+                "has been making「完了進行形」"
+            ],
+            "tip": "授業の Once this has been done, please ... と同じ形。手続きの案内でよく使われる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "We ask all visitors to show their tickets at the gate. This is (　) everyone has paid.",
+            "choices": [
+                "in order",
+                "make sure",
+                "because of",
+                "to make sure"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "入口では来場者全員にチケットを見せてもらっています。これは全員が料金を払ったことを確かめるためです。",
+            "explanation": "This is to ～ で「これは～するためです」と前の文の目的を表す。make sure ～ は「～を確かめる」で、to がないと This is に続かない。",
+            "choiceNotes": [
+                "in order「to などが続く」",
+                "make sure「原形」",
+                "because of「後ろは名詞」",
+                "to make sure「確かめるために」"
+            ],
+            "tip": "授業の This is to make sure that ... と同じ形。This は前の文の内容を指している。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "In winter, the weather in Hokkaido is very different from (　) in Okinawa.",
+            "choices": [
+                "it",
+                "those",
+                "that",
+                "this"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "冬の北海道の天気は、沖縄の天気とは大きく違う。",
+            "explanation": "that は前の the weather のくり返しを避ける代名詞で、that in Okinawa は「沖縄の天気」。weather は不可算名詞なので those は不可。",
+            "choiceNotes": [
+                "it「後ろから修飾できない」",
+                "those「複数名詞の代わり」",
+                "that「the＋単数名詞の代わり」",
+                "this「この形では使わない」"
+            ],
+            "tip": "授業の that of regular schools と同じ形。that が指す名詞を前から探す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "(　) she can choose her own topics, Yumi enjoys writing reports more than before.",
+            "choices": [
+                "Because",
+                "Because of",
+                "Despite",
+                "Unless"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "自分でテーマを選べるので、ユミは以前よりもレポートを書くのを楽しんでいる。",
+            "explanation": "Because は接続詞で、後ろに S V を続けて理由を表す。because of と despite は前置詞なので、後ろに S V は続かない。",
+            "choiceNotes": [
+                "Because「～なので（接続詞）」",
+                "Because of「後ろは名詞」",
+                "Despite「後ろは名詞」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の Because they can start activities ... と同じ形。前半が理由、後半が結果。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Walking every day is good for your heart. (　), it can help you sleep better at night.",
+            "choices": [
+                "However",
+                "Otherwise",
+                "Instead",
+                "Furthermore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "毎日歩くことは心臓によい。さらに、夜ぐっすり眠る助けにもなる。",
+            "explanation": "Furthermore は「さらに」で、前の内容に別の情報を加える。「心臓によい」に「よく眠れる」という2つ目の利点を重ねている。",
+            "choiceNotes": [
+                "However「しかし（逆接）」",
+                "Otherwise「そうでなければ」",
+                "Instead「その代わりに」",
+                "Furthermore「さらに（追加）」"
+            ],
+            "tip": "授業の Furthermore, children learn ... と同じ働き。良い点を重ねる合図。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Ken has become good at cooking, (　) his parents often let him make dinner.",
+            "choices": [
+                "though",
+                "as",
+                "unless",
+                "until"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "両親がよく夕食を作らせてくれるので、ケンは料理が上手になった。",
+            "explanation": "ここでの as は「～なので」と理由を表す接続詞。料理が上手になった理由（両親がよく夕食を作らせてくれる）を、後ろから補っている。",
+            "choiceNotes": [
+                "though「～だけれども」",
+                "as「～なので（理由）」",
+                "unless「～しない限り」",
+                "until「～するまで」"
+            ],
+            "tip": "授業の as teachers only help them ... と同じ形。この as の後ろが理由。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問2・3の長文に出てきたものです。授業で解いた過去問でも、大問1に As a result を完成させる問題があり、大問2では Furthermore と On the other hand が正解でした。文と文が「譲歩」「原因と結果」「追加」のどれでつながっているかを考えると、長文の流れがつかみやすくなります。間違えた問題は授業の英文と並べて音読しましょう。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-1",
+    "title": "文法事項の確認",
+    "theme": "因果の接続表現・程度の構文・条件と推量・逆接と結論",
+    "aim": "授業の長文に出てきた、理由と結果をつなぐ表現、程度や防止を表す構文、条件と推量の表現、逆接や結論を表す表現を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "理由と結果をつなぐ表現を、文の流れから選べる",
+        "程度・防止・強調を表す構文の形と意味が分かる",
+        "条件を表す節の動詞の形と、推量の助動詞が分かる",
+        "逆接や結論を表す語と、主語になる動名詞を見抜ける"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Many students in my class look sleepy in the morning. This is (　) they stay up late watching videos.",
+            "choices": [
+                "why",
+                "what",
+                "because",
+                "because of"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "私のクラスの多くの生徒は、朝眠そうにしている。これは、夜遅くまで動画を見ているからだ。",
+            "explanation": "This is because S V で「これは～だからだ」。前の文（朝眠そう）の理由を後ろで述べている。This is why なら後ろに結果が来る。",
+            "choiceNotes": [
+                "why「This is why の後ろは結果」",
+                "what「～こと（後ろは不完全）」",
+                "because「～だから」",
+                "because of「後ろは名詞」"
+            ],
+            "tip": "授業の This is because a decrease ... と同じ形。前の文の理由を後ろで説明する。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A rise in bus fares would (　) higher costs for families who take the bus every day.",
+            "choices": [
+                "lead",
+                "mean",
+                "result",
+                "happen"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "バスの運賃が上がれば、毎日バスを使う家庭にとっては出費が増えることになるだろう。",
+            "explanation": "would mean＋名詞で「（そうなれば）～ということになる」と、起こりうる結果を表す。空所の直後に名詞が続くので、前置詞なしで目的語をとる mean が入る。",
+            "choiceNotes": [
+                "lead「lead to で～につながる」",
+                "mean「～を意味する」",
+                "result「result in で～になる」",
+                "happen「起こる」"
+            ],
+            "tip": "授業の would mean less production と同じ形。「～ということになる」と訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "If the price of vegetables (　) up again, many restaurants will have to change their menus.",
+            "choices": [
+                "will go",
+                "went",
+                "going",
+                "goes"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "野菜の値段がまた上がれば、多くのレストランはメニューを変えなければならなくなるだろう。",
+            "explanation": "条件を表す if 節の中では、未来のことでも現在形を使う。主語 the price は3人称単数なので goes。主節は will have to のまま。",
+            "choiceNotes": [
+                "will go「未来の形」",
+                "went「過去形」",
+                "going「-ing形」",
+                "goes「現在形（3単現）」"
+            ],
+            "tip": "授業の If people still want to ... と同じ形。条件の if 節は未来でも現在形。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Heavy snow fell all through the night. (　), all the trains in the area stopped running the next morning.",
+            "choices": [
+                "Because of that",
+                "Even so",
+                "Because",
+                "In other words"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "一晩中大雪が降った。そのため、翌朝その地域の電車はすべて止まった。",
+            "explanation": "前の文（大雪）が原因で、後ろの文がその結果なので、Because of that「そのため」が入る。接続詞の Because だけでは主節がなく、文にならない。",
+            "choiceNotes": [
+                "Because of that「そのため」",
+                "Even so「それでも」",
+                "Because「接続詞」",
+                "In other words「言い換えれば」"
+            ],
+            "tip": "授業の Because of that, the price ... rose と同じ形。前が原因、後ろが結果。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The new dictionary app is easy (　) for small children to use.",
+            "choices": [
+                "too",
+                "enough",
+                "so",
+                "very"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その新しい辞書アプリは、小さな子どもでも使えるほど簡単だ。",
+            "explanation": "形容詞＋enough for A to do で「Aが～できるほど…」。enough は形容詞の後ろに置き、for small children が to use の意味上の主語。",
+            "choiceNotes": [
+                "too「～すぎる（形容詞の前）」",
+                "enough「十分に（形容詞の後ろ）」",
+                "so「とても（形容詞の前）」",
+                "very「とても（形容詞の前）」"
+            ],
+            "tip": "授業の clean enough for people to drink と同じ形。「～できるほど…」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The tall fence around the field prevents wild deer (　) eating the vegetables.",
+            "choices": [
+                "to",
+                "with",
+                "from",
+                "for"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "畑の周りの高い柵が、野生のシカが野菜を食べるのを防いでいる。",
+            "explanation": "prevent A from -ing で「Aが～するのを防ぐ」。A が wild deer、from の後ろが動名詞の eating になっている。",
+            "choiceNotes": [
+                "to「～へ」",
+                "with「～と一緒に」",
+                "from「prevent A from -ing」",
+                "for「～のために」"
+            ],
+            "tip": "授業の to prevent them from entering と同じ形。from の後ろは -ing 形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "This new vacuum cleaner is very powerful. It can pick up (　) tiny pieces of dust.",
+            "choices": [
+                "even",
+                "ever",
+                "yet",
+                "never"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "この新しい掃除機はとても強力だ。小さなほこりさえ吸い取ることができる。",
+            "explanation": "even は「～さえ」の意味で、ここでは tiny pieces of dust を強めている。小さなほこりまで吸い取れるという性能の高さを表す。",
+            "choiceNotes": [
+                "even「～さえ」",
+                "ever「これまでに」",
+                "yet「まだ・もう」",
+                "never「一度も～ない」"
+            ],
+            "tip": "授業の blocks even very small materials と同じ使い方。「～さえ」と訳してみる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "If the old bridge is not (　) soon, it could become dangerous for cars.",
+            "choices": [
+                "repair",
+                "repairing",
+                "repairs",
+                "repaired"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その古い橋がすぐに修理されなければ、車にとって危険になるおそれがある。",
+            "explanation": "橋は「修理される」側なので、be動詞＋過去分詞の受動態にする。if＋受動態の否定で「もし～されなければ」という条件を表す。",
+            "choiceNotes": [
+                "repair「原形」",
+                "repairing「-ing形（進行形）」",
+                "repairs「3単現」",
+                "repaired「過去分詞（受動態）」"
+            ],
+            "tip": "授業の if greenhouse gases are not reduced と同じ形。「～されなければ」と訳す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Two of our best players are sick, so our team (　) win the game tomorrow.",
+            "choices": [
+                "is sure to",
+                "will be",
+                "may not",
+                "used to"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "主力選手のうち2人が病気なので、私たちのチームは明日の試合に勝てないかもしれない。",
+            "explanation": "may not＋動詞の原形で「～しないかもしれない」。主力選手が2人病気という理由から、勝てない可能性を控えめに述べている。",
+            "choiceNotes": [
+                "is sure to「きっと～する」",
+                "will be「～になるだろう」",
+                "may not「～しないかもしれない」",
+                "used to「以前は～した」"
+            ],
+            "tip": "授業の they may not survive until 2030 と同じ使い方。断定を避けた予想を表す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Reading many books helps you learn new words. This, in (　), makes it easier to write good essays.",
+            "choices": [
+                "order",
+                "turn",
+                "spite",
+                "place"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "本をたくさん読むと、新しい単語を覚えやすくなる。そのことが、ひいては良い作文を書きやすくする。",
+            "explanation": "in turn は「ひいては・今度はそれが」。前の文の結果（単語が身につく）が、さらに次の結果（作文が書きやすくなる）につながることを表す。",
+            "choiceNotes": [
+                "order「順序・注文」",
+                "turn「in turn＝ひいては」",
+                "spite「in spite of で使う」",
+                "place「場所」"
+            ],
+            "tip": "授業の This, in turn, suggests that ... と同じ形。原因→結果→次の結果と順に追う。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "If scientists succeed in (　) a new medicine, many lives could be saved.",
+            "choices": [
+                "develop",
+                "to develop",
+                "developed",
+                "developing"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "科学者たちが新しい薬の開発に成功すれば、多くの命が救われるかもしれない。",
+            "explanation": "succeed in -ing で「～することに成功する」。in は前置詞なので、後ろの動詞は動名詞の developing にする。",
+            "choiceNotes": [
+                "develop「原形」",
+                "to develop「to不定詞」",
+                "developed「過去形・過去分詞」",
+                "developing「動名詞」"
+            ],
+            "tip": "授業の succeed in reducing と同じ形。前置詞の後ろの動詞は -ing 形にする。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The math test was very difficult. Most of my classmates, (　), got good scores.",
+            "choices": [
+                "however",
+                "but",
+                "although",
+                "so"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "数学のテストはとても難しかった。しかし、クラスメートのほとんどは良い点を取った。",
+            "explanation": "however は「しかし」を表す副詞で、文の途中にコンマではさんで置ける。but と although は接続詞なので、この位置には入らない。",
+            "choiceNotes": [
+                "however「しかし（副詞）」",
+                "but「しかし（接続詞）」",
+                "although「～だけれども（接続詞）」",
+                "so「だから」"
+            ],
+            "tip": "授業の However, experts are concerned ... と同じ逆接。文頭にも文の途中にも置ける。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Our city has had little rain this summer. (　), people are asked to take shorter showers.",
+            "choices": [
+                "However",
+                "For example",
+                "Therefore",
+                "Even so"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この夏、私たちの市ではほとんど雨が降っていない。そのため、市民はシャワーの時間を短くするよう求められている。",
+            "explanation": "前の文（雨が少ない）を受けて、結論として節水の対策を述べているので、Therefore「そのため」が入る。However と Even so は逆接。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For example「例えば」",
+                "Therefore「そのため」",
+                "Even so「それでも」"
+            ],
+            "tip": "授業の Therefore, ... to reduce water use と同じ流れ。前が理由、後ろが結論や対策。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) too much time on video games could lower your grades.",
+            "choices": [
+                "Spend",
+                "Spending",
+                "Spent",
+                "Spends"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "テレビゲームに時間を使いすぎると、成績が下がるおそれがある。",
+            "explanation": "Spending ... games までが主語の動名詞句で、動詞は could lower。could は「～かもしれない」と、起こりうる結果を表す。",
+            "choiceNotes": [
+                "Spend「原形」",
+                "Spending「動名詞（～すること）」",
+                "Spent「過去形・過去分詞」",
+                "Spends「3単現」"
+            ],
+            "tip": "授業の Losing olive oil could mean と同じ形。動詞 could lower を先に探す。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問2・3の長文に出てきたものです。大問2では、Therefore や Because of that を選ぶ問題や、clean enough for people to drink が正解になる問題がありました。つなぎの言葉や構文に気づくと、文と文の関係がつかみやすくなります。間違えた問題は授業の英文と並べて音読しましょう。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2025-1",
+    "title": "文法事項の確認",
+    "theme": "仮説の検証・過去の推量・傾向と条件・代価と具体例",
+    "aim": "授業の長文で学んだ、仮説を否定する受動態と理由・追加の表現、過去の状況を推量する助動詞の完了形、「～する傾向がある」の構文と条件を限定する関係副詞、犠牲や具体例を述べる表現を、新しい英文の中で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "仮説を否定する受動態と、理由・追加の根拠を示す表現を読み取れる",
+        "過去の推量、「～と相まって」、使役動詞の後ろの形を判断できる",
+        "傾向を表す構文、条件を表す関係副詞、類似の例を示す語が分かる",
+        "犠牲を伴うことや、具体例・追加を述べる表現を見抜ける"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The long-held view of the ancient wall as a defense against invaders (　) once it proved too low to stop an army.",
+            "choices": [
+                "rejected",
+                "was rejected",
+                "was rejecting",
+                "had rejected"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その古代の壁を侵入者への防御とみる長年の見方は、軍隊を止めるには低すぎると分かった時点で否定された。",
+            "explanation": "主語は The long-held view から invaders までの長い名詞句。見方は「否定される」側なので、受動態の was rejected が入る。",
+            "choiceNotes": [
+                "rejected「能動の過去形」",
+                "was rejected「受動態」",
+                "was rejecting「進行形」",
+                "had rejected「過去完了」"
+            ],
+            "tip": "授業の This was rejected と同じ受動態。説や見方は「否定される」側と考える。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Investigators soon dismissed the idea of bad weather causing the crash, (　) the sky had been clear all day.",
+            "choices": [
+                "since",
+                "unless",
+                "although",
+                "whereas"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "一日中晴れていたので、調査官たちは悪天候が墜落の原因だという考えをすぐに退けた。",
+            "explanation": "ここの since は「～なので」と理由を表す接続詞。一日中晴れていたことが、悪天候説を退けた理由になっている。",
+            "choiceNotes": [
+                "since「～なので（理由）」",
+                "unless「～でない限り」",
+                "although「～だけれども」",
+                "whereas「～である一方」"
+            ],
+            "tip": "授業の This was rejected, however, since と同じ流れ。since 以下が否定の理由。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Few scholars think the poem is Shakespeare's, as its style is unlike his. (　), no copy dates from his lifetime.",
+            "choices": [
+                "However",
+                "Instead",
+                "Furthermore",
+                "Nevertheless"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "文体が違うため、その詩をシェイクスピアの作品と考える学者は少ない。さらに、彼の存命中の写本は一つもない。",
+            "explanation": "前の文の「文体が違う」に、「存命中の写本がない」という別の根拠を加えているので、追加を表す Furthermore「さらに」。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "Furthermore「さらに（追加）」",
+                "Nevertheless「それでもなお」"
+            ],
+            "tip": "授業の Furthermore, the ship's cargo ... と同じ使い方。根拠を重ねている。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Another theory was (　) the strange lights seen over the lake came from military aircraft being tested nearby.",
+            "choices": [
+                "what",
+                "which",
+                "whether",
+                "that"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "別の説は、湖の上空で目撃された奇妙な光は近くで試験中の軍用機によるものだというものだった。",
+            "explanation": "Another theory was that S V で「別の説は～というものだった」。説の中身を述べる that 節が補語になり、後ろは完全な文。",
+            "choiceNotes": [
+                "what「～こと・後ろは不完全」",
+                "which「関係代名詞・後ろは不完全」",
+                "whether「～かどうか」",
+                "that「～ということ（補語）」"
+            ],
+            "tip": "授業の Another theory was that ... と同じ形。前の説に続いて、別の説を紹介する合図。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Because the trail markers had been washed away, the hikers would (　) unsure of which path led back to their camp.",
+            "choices": [
+                "has been",
+                "have been",
+                "had been",
+                "being"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "道しるべが流されていたので、ハイカーたちはどの道がキャンプに戻る道か分からなかっただろう。",
+            "explanation": "助動詞 would の後ろは原形なので have。would have＋過去分詞で「～だっただろう」と過去の状況を推量する。",
+            "choiceNotes": [
+                "has been「原形でない」",
+                "have been「過去の推量」",
+                "had been「原形でない」",
+                "being「原形でない」"
+            ],
+            "tip": "授業の would have been unsure と同じ形。「～だっただろう」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The heavy rain, combined (　) years of poor drain maintenance, caused severe flooding in the town center.",
+            "choices": [
+                "to",
+                "by",
+                "with",
+                "for"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "大雨は、長年にわたる排水溝の手入れ不足と相まって、町の中心部に深刻な洪水を引き起こした。",
+            "explanation": "combined with ～ で「～と相まって」。コンマではさまれた過去分詞の句が主語 The heavy rain を説明し、動詞は caused。",
+            "choiceNotes": [
+                "to「～へ」",
+                "by「～によって」",
+                "with「～と（combined with）」",
+                "for「～のために」"
+            ],
+            "tip": "授業の combined with the fact that ... と同じ形。挿入をはずして、主語と動詞をつなぐ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Months of falling sales were enough to make the owners (　) to closing two of their four stores.",
+            "choices": [
+                "resort",
+                "to resort",
+                "resorting",
+                "resorted"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "何か月も続いた売り上げの減少は、経営者たちが4店舗のうち2店舗の閉鎖に踏み切るのに十分だった。",
+            "explanation": "make O＋動詞の原形で「Oに～させる」。resort to ～ing は「（最後の手段として）～に頼る」で、この to は前置詞。",
+            "choiceNotes": [
+                "resort「動詞の原形」",
+                "to resort「to不定詞」",
+                "resorting「動名詞・現在分詞」",
+                "resorted「過去形・過去分詞」"
+            ],
+            "tip": "授業の enough to make the captain resort to と同じ形。「Oに～させる」は make O＋原形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "Newly discovered letters from the painter's wife may shed some light (　) why he suddenly stopped painting in 1890.",
+            "choices": [
+                "at",
+                "on",
+                "to",
+                "from"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "新たに見つかった画家の妻の手紙が、彼が1890年に突然絵を描くのをやめた理由に光を当てるかもしれない。",
+            "explanation": "shed (some) light on ～ で「～に光を当てる、～の解明に役立つ」。on の後ろに why で始まる名詞節が続いている。",
+            "choiceNotes": [
+                "at「～の一点に」",
+                "on「～に（光を当てる）」",
+                "to「～へ」",
+                "from「～から」"
+            ],
+            "tip": "授業の shed some light on ... mystery と同じ表現。後ろに、解明したい事柄が続く。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Recent research suggests heatstroke tends to occur more (　) among elderly people who live alone.",
+            "choices": [
+                "frequent",
+                "frequency",
+                "frequented",
+                "frequently"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "最近の研究によると、熱中症は一人暮らしの高齢者の間でより頻繁に起こる傾向がある。",
+            "explanation": "動詞 occur を修飾するのは副詞なので frequently。more frequently はその比較級。tend to＋原形は「～する傾向がある」。",
+            "choiceNotes": [
+                "frequent「形容詞・頻繁な」",
+                "frequency「名詞・頻度」",
+                "frequented「よく人が訪れる」",
+                "frequently「副詞・頻繁に」"
+            ],
+            "tip": "授業の tends to occur more frequently と同じ形。「～する傾向がある」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Corruption tends to be more widespread in countries (　) the media are not free to criticize those in power.",
+            "choices": [
+                "which",
+                "what",
+                "where",
+                "whose"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "汚職は、報道機関が権力者を自由に批判できない国でより広がる傾向がある。",
+            "explanation": "後ろは the media are not free ... という完全な文なので、関係副詞の where が入り、countries を後ろから説明する。",
+            "choiceNotes": [
+                "which「関係代名詞・後ろは不完全」",
+                "what「先行詞を含む」",
+                "where「関係副詞・後ろは完全な文」",
+                "whose「所有格の関係代名詞」"
+            ],
+            "tip": "授業の in societies where ... と同じ形。後ろが完全な文かを確かめる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Students who sleep well usually perform better in exams. (　), athletes who rest properly are less likely to get injured.",
+            "choices": [
+                "Similarly",
+                "Instead",
+                "Nevertheless",
+                "Otherwise"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "よく眠る学生は試験の成績が良いことが多い。同様に、きちんと休む選手はけがをしにくい。",
+            "explanation": "「よく眠る学生」と「きちんと休む選手」は、休息が良い結果につながるという同じ種類の例なので、Similarly「同様に」。",
+            "choiceNotes": [
+                "Similarly「同様に」",
+                "Instead「その代わりに」",
+                "Nevertheless「それでもなお」",
+                "Otherwise「さもなければ」"
+            ],
+            "tip": "授業の Similarly と同じ使い方。前の例と後ろの例の共通点を探す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Becoming a top athlete often comes (　) great personal cost, as years of training leave little time for family.",
+            "choices": [
+                "on",
+                "under",
+                "into",
+                "at"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "一流の選手になることは、長年の練習で家族との時間がほとんど持てないため、大きな個人的犠牲を伴うことが多い。",
+            "explanation": "come at great cost で「大きな犠牲を伴う」。at は代価を表す前置詞。as 以下が、その犠牲の中身を説明している。",
+            "choiceNotes": [
+                "on「～の上に」",
+                "under「～の下に」",
+                "into「～の中へ」",
+                "at「～で（代価）」"
+            ],
+            "tip": "授業の can come at great personal cost と同じ表現。「大きな犠牲を伴う」と訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The storm caused serious damage across the region, (　) the destruction of two bridges and more than 300 homes.",
+            "choices": [
+                "included",
+                "includes",
+                "including",
+                "include"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その嵐は、橋2本と300軒を超える家屋の倒壊を含め、地域全体に深刻な被害をもたらした。",
+            "explanation": "including は「～を含めて」という前置詞で、後ろの名詞句が被害の具体例になる。動詞の includes などは主語がなく置けない。",
+            "choiceNotes": [
+                "included「過去形・過去分詞」",
+                "includes「3単現」",
+                "including「～を含めて（前置詞）」",
+                "include「原形」"
+            ],
+            "tip": "授業の including damage to ... と同じ使い方。具体例が並ぶ合図になる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "As well as (　) the risk of floods, the new dam will supply electricity to thousands of homes.",
+            "choices": [
+                "reducing",
+                "reduce",
+                "reduced",
+                "to reduce"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "新しいダムは、洪水の危険を減らすだけでなく、何千もの家庭に電気を供給する。",
+            "explanation": "文頭の As well as ～ は「～するだけでなく」。ここでは前置詞のように働くので、後ろは動名詞の reducing になる。",
+            "choiceNotes": [
+                "reducing「動名詞」",
+                "reduce「原形」",
+                "reduced「過去形・過去分詞」",
+                "to reduce「to不定詞」"
+            ],
+            "tip": "授業の as well as leading to と同じく -ing形。「～だけでなく」と訳す。"
+        }
+    ],
+    "closing": "今回の長文には、仮説を示しては根拠を挙げて否定し、次の仮説へ進む流れや、犠牲と効果を比べて論じる流れが出てきました。準1級の長文では、こうした論の運び方をつかむことが、内容を正しく読み取る手がかりになります。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

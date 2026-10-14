@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-1",
+    "title": "文法事項の確認",
+    "theme": "逆接と因果・代替案と理由・依頼と許可・原因と例示",
+    "aim": "授業の物語文・Eメール・説明文に出てきた、逆接と因果のつなぎの言葉、過去の義務の表し方、代わりの案と理由の示し方、ていねいな依頼と許可の表現、結果・原因・具体例の表し方を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "逆接・結果のつなぎの言葉と、過去の義務の表し方が分かる",
+        "代わりの案と理由を示す表現で、文と文の関係をつかめる",
+        "ていねいに依頼したり許可を求めたりする表現を使える",
+        "結果・原因・具体例を表す形を見分けられる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Mika practiced the piano every day before the contest. (　), she made a few mistakes on stage.",
+            "choices": [
+                "Therefore",
+                "For example",
+                "However",
+                "In addition"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ミカはコンテストの前、毎日ピアノを練習した。しかし、舞台では少しミスをした。",
+            "explanation": "「毎日練習した」のに「ミスをした」と、予想とは反対の内容が続くので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "For example「例えば」",
+                "However「しかし」",
+                "In addition「さらに」"
+            ],
+            "tip": "授業の However, last month, Mrs. Philip ... と同じ。話の向きが変わる合図になる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The trains stopped running last night, and many people (　) walk home in the snow.",
+            "choices": [
+                "must",
+                "had to",
+                "has to",
+                "having to"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "昨夜は電車が止まり、多くの人が雪の中を歩いて帰らなければならなかった。",
+            "explanation": "昨夜の出来事なので過去の文。「～しなければならなかった」は have to の過去形 had to で表す。must には過去形がない。",
+            "choiceNotes": [
+                "must「現在の義務」",
+                "had to「過去の義務」",
+                "has to「3単現・現在」",
+                "having to「-ing 形」"
+            ],
+            "tip": "授業の Mrs. Philip had to leave home と同じ形。「～しなければならなかった」と訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Emma felt sick this morning. (　), she stayed home and rested all day.",
+            "choices": [
+                "So",
+                "However",
+                "Although",
+                "For example"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "エマは今朝、気分が悪かった。そこで、一日中家で休んだ。",
+            "explanation": "「気分が悪かった」が原因、「家で休んだ」が結果なので、So「だから・そこで」が入る。Although は後ろに〈主語＋動詞〉を続ける語で、Although, の形では使わない。",
+            "choiceNotes": [
+                "So「だから・そこで」",
+                "However「しかし」",
+                "Although「～だけれども」",
+                "For example「例えば」"
+            ],
+            "tip": "授業の So, she started exchanging e-mails と同じ So。前が原因、後ろが結果。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "(　) taking the elevator, I walk up the stairs every day for my health.",
+            "choices": [
+                "Because",
+                "In order to",
+                "So that",
+                "Instead of"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "健康のために、私はエレベーターを使う代わりに毎日階段を上っている。",
+            "explanation": "Instead of＋-ing で「～する代わりに」。of は前置詞なので、動詞は動名詞にする。In order to は原形、Because・So that は〈主語＋動詞〉が続く。",
+            "choiceNotes": [
+                "Because「～なので（＋文）」",
+                "In order to「～するために」",
+                "So that「～するように」",
+                "Instead of「～の代わりに」"
+            ],
+            "tip": "授業の Instead of building roads と同じ形。選ばなかった案が of の後ろに来る。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "I always take my own bag when I go shopping. This is (　) I want to reduce plastic waste.",
+            "choices": [
+                "why",
+                "because",
+                "what",
+                "though"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "私は買い物に行くとき、いつも自分の袋を持っていく。これはプラスチックごみを減らしたいからだ。",
+            "explanation": "This is because ～ で「これは～だからだ」と、前の文の理由を後から述べる。This is why ～ は「だから～」と結果を表すので、因果が逆になる。",
+            "choiceNotes": [
+                "why「だから～（結果）」",
+                "because「～だから（理由）」",
+                "what「～こと」",
+                "though「～だけれども」"
+            ],
+            "tip": "授業の This is because they thought ... と同じ形。This が指す文を確かめる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "My sister tries to avoid (　) sweets late at night.",
+            "choices": [
+                "eat",
+                "to eat",
+                "ate",
+                "eating"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "姉は、夜遅くに甘いものを食べるのを避けるようにしている。",
+            "explanation": "avoid の後ろに動詞を続けるときは -ing 形（動名詞）にする。avoid to eat とは言わない。tries to avoid で「避けるようにしている」。",
+            "choiceNotes": [
+                "eat「原形」",
+                "to eat「to不定詞」",
+                "ate「過去形」",
+                "eating「-ing 形（動名詞）」"
+            ],
+            "tip": "授業の could avoid damaging the nature と同じ形。avoid＋-ing で覚える。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Ken said he was busy, but this did not (　) he was angry with us.",
+            "choices": [
+                "means",
+                "meant",
+                "mean",
+                "meaning"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ケンは忙しいと言ったが、それは私たちに怒っているという意味ではなかった。",
+            "explanation": "did not の後ろは動詞の原形なので mean が入る。this は「忙しいと言ったこと」を指し、did not mean ～ で「～という意味ではなかった」。",
+            "choiceNotes": [
+                "means「3単現」",
+                "meant「過去形」",
+                "mean「原形」",
+                "meaning「-ing 形」"
+            ],
+            "tip": "授業の However, this did not mean ... と同じ形。前の内容が誤解されないように補う表現。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) you don't mind, could you show me how to use this machine?",
+            "choices": [
+                "If",
+                "Despite",
+                "Without",
+                "During"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "もしよろしければ、この機械の使い方を教えていただけますか。",
+            "explanation": "If you don't mind で「もしよろしければ」。後ろに you don't mind という〈主語＋動詞〉が続くので、接続詞の If が入る。ほかの3つは前置詞。",
+            "choiceNotes": [
+                "If「もし～なら」",
+                "Despite「～にもかかわらず」",
+                "Without「～なしで」",
+                "During「～の間」"
+            ],
+            "tip": "授業の If you don't mind, would you ... と同じ。頼みごとの前に置く決まった言い方。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Would you let me (　) your notes? I was absent from class yesterday.",
+            "choices": [
+                "seeing",
+                "to see",
+                "seen",
+                "see"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "あなたのノートを見せていただけますか。昨日、授業を休んだのです。",
+            "explanation": "〈let＋O＋動詞の原形〉で「Oに～させる（～するのを許す）」。Would you let me ～? で「～させていただけますか」というていねいな依頼になる。",
+            "choiceNotes": [
+                "seeing「-ing 形」",
+                "to see「to不定詞」",
+                "seen「過去分詞」",
+                "see「原形」"
+            ],
+            "tip": "授業の would you let me have an interview と同じ形。let me の後ろは原形。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "May I leave a little early today, (　) I have a dentist appointment at five?",
+            "choices": [
+                "though",
+                "as",
+                "until",
+                "unless"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "5時に歯医者の予約があるので、今日は少し早く帰ってもよろしいですか。",
+            "explanation": "May I ～? は許可を求める表現。後半の「歯医者の予約がある」は早く帰りたい理由なので、理由を表す接続詞 as「～なので」が入る。",
+            "choiceNotes": [
+                "though「～だけれども」",
+                "as「～なので（理由）」",
+                "until「～までずっと」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の may I take some photos ..., as I ... と同じ形。許可と理由をセットで伝える。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "My parents allowed me (　) a dog when I turned twelve.",
+            "choices": [
+                "keep",
+                "kept",
+                "to keep",
+                "keeping"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "12歳になったとき、両親は私が犬を飼うことを許してくれた。",
+            "explanation": "〈allow＋O＋to＋動詞の原形〉で「Oが～するのを許す」。let と意味は近いが、allow の場合は O の後ろに to が必要。",
+            "choiceNotes": [
+                "keep「原形」",
+                "kept「過去形・過去分詞」",
+                "to keep「to不定詞」",
+                "keeping「-ing 形」"
+            ],
+            "tip": "授業の allow me to ask と同じ形。(9)の let me see と見比べておく。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Large windows and a lot of plants make this room very (　).",
+            "choices": [
+                "comfortable",
+                "comfortably",
+                "comfort",
+                "to comfort"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "大きな窓とたくさんの植物のおかげで、この部屋はとても居心地がよい。",
+            "explanation": "〈make＋O＋C〉で「OをCの状態にする」。C には形容詞の comfortable が入る。主語が原因なので「～のおかげで」と訳すと自然。",
+            "choiceNotes": [
+                "comfortable「快適な（形容詞）」",
+                "comfortably「副詞」",
+                "comfort「名詞・動詞」",
+                "to comfort「to不定詞」"
+            ],
+            "tip": "授業の makes this village ... friendly と同じ形。「部屋＝快適」の関係になる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) the strong wind, the fireworks festival was put off until next Saturday.",
+            "choices": [
+                "Because",
+                "Although",
+                "So",
+                "Because of"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "強風のため、花火大会は次の土曜日に延期された。",
+            "explanation": "後ろが the strong wind という名詞なので、Because of「～のために」が入る。Because・Although・So の後ろには〈主語＋動詞〉が必要。",
+            "choiceNotes": [
+                "Because「～なので（＋文）」",
+                "Although「～だけれども」",
+                "So「だから」",
+                "Because of「～のために（＋名詞）」"
+            ],
+            "tip": "授業の Because of the small size と同じ形。後ろが名詞か文かで選ぶ。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "This shop sells many kinds of fruit, (　) apples, bananas, and peaches.",
+            "choices": [
+                "because",
+                "even if",
+                "such as",
+                "unless"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この店では、リンゴやバナナ、モモなど、たくさんの種類の果物を売っている。",
+            "explanation": "such as＋名詞で「～のような」と、前の many kinds of fruit の具体例を挙げる。ほかの3つは接続詞で、後ろに〈主語＋動詞〉が必要。",
+            "choiceNotes": [
+                "because「～なので」",
+                "even if「たとえ～でも」",
+                "such as「～のような」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の such as road systems with ... と同じ形。前の名詞の具体例が後ろに続く。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語文、Eメール、説明文に出てきたものです。However や So、This is because などのつなぎの言葉は、文と文の関係を示す目印になり、長文の流れをつかむ手がかりになります。ていねいな依頼や許可の表現は、Eメールを読むときにも自分で書くときにも役立ちます。間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}

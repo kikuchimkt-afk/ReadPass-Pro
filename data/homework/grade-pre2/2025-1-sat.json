@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-1-sat",
+    "title": "文法事項の確認",
+    "theme": "理由と結果・譲歩と逆接・対比と結論の表現",
+    "aim": "授業の物語文と説明文に出てきた、結果・理由・目的の表し方、譲歩と条件の表現、「～と言われている」の形、比較級の強め方、原因と結論を示す表現、対比・逆接のつなぎの言葉を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "結果・理由を表す接続詞と、目的の表し方が分かる",
+        "譲歩の表現、「～と言われている」の形、比較級の強め方が分かる",
+        "原因・結論を表す表現と、目的語のあとに動詞が続く形が分かる",
+        "対比・逆接・結論を表す語句と、「～を活用する」の熟語が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Mr. Smith's train was late this morning, (　) he went to his office by taxi.",
+            "choices": [
+                "because",
+                "unless",
+                "so",
+                "if"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "今朝はスミスさんの電車が遅れたので、彼はタクシーで会社に行った。",
+            "explanation": "「電車が遅れた」が原因で、「タクシーで行った」がその結果。〈原因, so 結果〉の順なので so が入る。because だと原因と結果が逆になる。",
+            "choiceNotes": [
+                "because「～なので（理由）」",
+                "unless「～しない限り」",
+                "so「だから（結果）」",
+                "if「もし～ならば」"
+            ],
+            "tip": "授業の looking sad, so he asked her ... と同じ形。so の前が原因、後ろが結果。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "(　) she had a bad cold, Emma could not go to her friend's birthday party.",
+            "choices": [
+                "Because",
+                "Although",
+                "So",
+                "Because of"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ひどい風邪をひいていたので、エマは友だちの誕生日パーティーに行けなかった。",
+            "explanation": "「ひどい風邪」が「パーティーに行けなかった」理由。後ろが〈主語＋動詞〉の文なので、接続詞の Because が入る。Because of の後ろには名詞を置く。",
+            "choiceNotes": [
+                "Because「～なので（＋文）」",
+                "Although「～だけれども」",
+                "So「だから」",
+                "Because of「～のため（＋名詞）」"
+            ],
+            "tip": "授業の Because he thought it must be ... と同じ形。文の前半で先に理由を述べている。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Mika baked some cookies (　) up her friend after he lost a tennis match.",
+            "choices": [
+                "cheer",
+                "cheered",
+                "cheers",
+                "to cheer"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "友だちがテニスの試合に負けた後、ミカは彼を元気づけるためにクッキーを焼いた。",
+            "explanation": "ここの〈to＋動詞の原形〉は「～するために」と目的を表す（副詞的用法）。クッキーを焼いた目的が「友だちを元気づけること」。",
+            "choiceNotes": [
+                "cheer「原形」",
+                "cheered「過去形・過去分詞」",
+                "cheers「3単現」",
+                "to cheer「～するために」"
+            ],
+            "tip": "単語 cheer up の例文 I brought flowers to cheer her up. と同じ形。「何のために？」と考える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "(　) my grandfather is over 80, he still walks five kilometers every morning.",
+            "choices": [
+                "Because",
+                "Although",
+                "Unless",
+                "Despite"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "祖父は80歳を過ぎているけれども、今でも毎朝5キロ歩いている。",
+            "explanation": "「80歳を過ぎている」と「今でも毎朝5キロ歩く」は予想に反する組み合わせなので、譲歩の Although「～だけれども」が入る。Despite の後ろは名詞。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Although「～だけれども」",
+                "Unless「～しない限り」",
+                "Despite「～にもかかわらず（＋名詞）」"
+            ],
+            "tip": "授業の Although bamboo is very light と同じ形。still「今でも」も手がかりになる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "This old bridge is said (　) more than 300 years old.",
+            "choices": [
+                "be",
+                "being",
+                "to be",
+                "been"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "この古い橋は、造られてから300年以上たっていると言われている。",
+            "explanation": "be said to＋動詞の原形で「～と言われている」。say を受け身にした形で、だれが言っているかを示さずに、一般的な見方を伝える。",
+            "choiceNotes": [
+                "be「原形」",
+                "being「-ing 形」",
+                "to be「to 不定詞」",
+                "been「過去分詞」"
+            ],
+            "tip": "授業の is said to be much stronger と同じ形。〈主語＋is said to＋原形〉で覚える。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "My new bike is (　) lighter than the one I used before.",
+            "choices": [
+                "very",
+                "much",
+                "more",
+                "most"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "私の新しい自転車は、前に使っていたものよりずっと軽い。",
+            "explanation": "比較級 lighter を強めて「ずっと軽い」と言うときは much などを使う。very は比較級を強められず、more・most は lighter には付けない。",
+            "choiceNotes": [
+                "very「とても（比較級には不可）」",
+                "much「ずっと（比較級を強める）」",
+                "more「もっと」",
+                "most「最も」"
+            ],
+            "tip": "授業の much stronger than ～ と同じ形。比較級の前の much は「ずっと」と訳す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The new stadium in our town has a roof. Games can be held there (　) it rains.",
+            "choices": [
+                "unless",
+                "as if",
+                "because of",
+                "even if"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "町の新しい競技場には屋根がある。たとえ雨が降っても、そこで試合ができる。",
+            "explanation": "屋根があるので、雨が降っても試合ができる。「たとえ～でも」を表す even if が入る。unless だと「雨が降らない限り」となり、屋根の話と合わない。",
+            "choiceNotes": [
+                "unless「～しない限り」",
+                "as if「まるで～のように」",
+                "because of「～のため（＋名詞）」",
+                "even if「たとえ～でも」"
+            ],
+            "tip": "授業の even if it is cut down と同じ形。「たとえ～でも」と訳すと前の文とつながる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Many young people shop at this store (　) its low prices.",
+            "choices": [
+                "because of",
+                "because",
+                "although",
+                "so"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "値段が安いので、多くの若者がこの店で買い物をしている。",
+            "explanation": "its low prices は〈主語＋動詞〉のない名詞のまとまり。名詞の前に置いて理由を表すのは because of「～のため」。because・although の後ろは文。",
+            "choiceNotes": [
+                "because of「～のため（＋名詞）」",
+                "because「～なので（＋文）」",
+                "although「～だけれども」",
+                "so「だから」"
+            ],
+            "tip": "授業の because of its low cost と同じ形。後ろが名詞か文かで because と使い分ける。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "This new app (　) students to learn English words more easily.",
+            "choices": [
+                "makes",
+                "lets",
+                "helps",
+                "stops"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この新しいアプリのおかげで、生徒は英単語をより簡単に覚えられる。",
+            "explanation": "help＋O＋to＋動詞の原形で「Oが～するのを助ける」（to は省略も可）。make・let は to を付けず、stop は stop O from -ing で使う。",
+            "choiceNotes": [
+                "makes「（O）に～させる」",
+                "lets「（O）に～させてやる」",
+                "helps「～するのを助ける」",
+                "stops「止める」"
+            ],
+            "tip": "授業の helps bamboo to grow well と同じ形。「～のおかげで…できる」と訳すと自然。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "It snowed heavily last night. This is (　) our school is closed today.",
+            "choices": [
+                "because",
+                "what",
+                "when",
+                "why"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "昨夜は大雪が降った。そういうわけで、今日は学校が休みだ。",
+            "explanation": "This is why ～ で「こういうわけで～」。This は前の文の「大雪」を指し、why の後ろがその結果。because だと、学校が休みだから雪が降ったことになる。",
+            "choiceNotes": [
+                "because「～だからだ（理由）」",
+                "what「～こと」",
+                "when「～するとき」",
+                "why「だから～（結果）」"
+            ],
+            "tip": "授業の This is why a lot of bamboo is used と同じ形。why の後ろに結論が来る。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "My brother loves playing sports outside. (　), my sister prefers reading books at home.",
+            "choices": [
+                "So",
+                "On the other hand",
+                "For example",
+                "In other words"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "兄は外でスポーツをするのが大好きだ。一方、妹は家で本を読むほうが好きだ。",
+            "explanation": "外でスポーツをする兄と、家で本を読む妹を比べている。別の面を示して対比する On the other hand「一方で」が入る。",
+            "choiceNotes": [
+                "So「だから」",
+                "On the other hand「一方で」",
+                "For example「例えば」",
+                "In other words「つまり」"
+            ],
+            "tip": "授業の On the other hand, bamboo is ... と同じ。2つのものを比べる合図。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "This restaurant is a little expensive. (　), many people wait in line to eat there.",
+            "choices": [
+                "However",
+                "Therefore",
+                "Otherwise",
+                "For example"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "このレストランは少し値段が高い。しかし、そこで食べようと多くの人が並んでいる。",
+            "explanation": "「少し値段が高い」のに「多くの人が並んでいる」と、予想に反する内容が続くので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Therefore「そのため」",
+                "Otherwise「さもないと」",
+                "For example「例えば」"
+            ],
+            "tip": "授業の However, some companies are trying と同じ。前の文と逆の流れになる合図。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The road to the beach was badly damaged by the storm. (　), it will be closed for a month.",
+            "choices": [
+                "However",
+                "For example",
+                "On the other hand",
+                "Therefore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "海岸へ続く道路は嵐でひどく傷んだ。そのため、1か月間通行止めになる。",
+            "explanation": "「嵐でひどく傷んだ」が原因で、「1か月間通行止めになる」がその結果。前の文から導かれる結論を示す Therefore「そのため」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For example「例えば」",
+                "On the other hand「一方で」",
+                "Therefore「そのため」"
+            ],
+            "tip": "授業の Therefore, perhaps ... と同じ。(1)の so と同じく、前が原因で後ろが結果。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "You should (　) advantage of your summer vacation to read many books.",
+            "choices": [
+                "make",
+                "take",
+                "give",
+                "keep"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "夏休みを活用して、本をたくさん読んだほうがいい。",
+            "explanation": "take advantage of ～ で「～を活用する、うまく利用する」。夏休みという機会を生かして本を読むという意味。make・give・keep はこの形で使わない。",
+            "choiceNotes": [
+                "make「作る」",
+                "take「take advantage of＝活用する」",
+                "give「与える」",
+                "keep「保つ」"
+            ],
+            "tip": "授業の take advantage of bamboo's ... と同じ表現。3語のまとまりで覚える。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問3の物語文と大問4Bの説明文に出てきたものです。so や However、Therefore などのつなぎの言葉は、文と文の関係を示す目印になり、長文の流れをつかむ手がかりになります。英作文で理由を書くときにも役立つので、間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}
