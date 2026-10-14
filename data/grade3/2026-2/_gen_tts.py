@@ -6,7 +6,9 @@ files are skipped, so the script can be rerun after a failure. Only after every 
 exists are wordAudio / examples[].audio / sourceQuoteAudio / practicePassage.audioFile
 written into data.json.
 
-edge-tts 7.2.8 announces Edge 143, which the service refuses with 403 (Oct 2026).
+edge-tts 7.2.8 announces Edge 143, which the service refuses with 403 (Oct 2026);
+edge-tts 7.3.0+ sends the new "2-" token (rany2/edge-tts#490) and needs no patch.
+With an older release ("1-" token):
 The script therefore presents the locally installed Edge version (or the
 EDGE_TTS_EDGE_VERSION environment variable) and retries short 403 bursts with a
 fresh connection.
@@ -90,7 +92,7 @@ async def save(text, temp):
 
 async def main():
     version = edge_version()
-    if version:
+    if version and communicate.SEC_MS_GEC_VERSION.startswith("1-"):
         present_edge_version(version)
     data = json.loads((BASE / "data.json").read_text(encoding="utf-8"))
     work = jobs(data)
@@ -112,7 +114,7 @@ async def main():
 
     link(data)
     (BASE / "data.json").write_text(json.dumps(data, ensure_ascii=False, indent=4) + "\n", encoding="utf-8")
-    print(f"AUDIO OK: {len(work)} files ({VOICE}, {RATE}, Edge {version or constants.CHROMIUM_FULL_VERSION})")
+    print(f"AUDIO OK: {len(work)} files ({VOICE}, {RATE}, token {communicate.SEC_MS_GEC_VERSION})")
 
 
 if __name__ == "__main__":
