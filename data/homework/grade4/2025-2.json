@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "日常の表現・過去形と最上級・時とつなぎのことば",
+    "aim": "授業で学んだ日常の表現・過去形と最上級・時やつなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～でこまる」「AからBまで」の言い方を書ける",
+        "過去の文と「いちばん～」の文を正しく書ける",
+        "「～はどう？」の言い方や、時・結果を表すことばを使える"
+    ],
+    "words": [
+        {
+            "word": "holiday",
+            "meaning": "休日"
+        },
+        {
+            "word": "housework",
+            "meaning": "家事"
+        },
+        {
+            "word": "understand",
+            "meaning": "理解する"
+        },
+        {
+            "word": "classmate",
+            "meaning": "クラスメート"
+        },
+        {
+            "word": "grandmother",
+            "meaning": "祖母"
+        },
+        {
+            "word": "abroad",
+            "meaning": "海外へ"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I'm having trouble with my homework.",
+            "ja": "宿題のことでこまっています。",
+            "focus": "fp1",
+            "point": "have trouble with「～でこまる」",
+            "note": "have trouble with ～で「～のことでこまる」。I'm having で「今こまっている」という意味になる。"
+        },
+        {
+            "en": "This building is the largest in the city.",
+            "ja": "この建物は、町でいちばん大きいです。",
+            "focus": "fp2",
+            "point": "the＋最上級「いちばん～」",
+            "note": "large に st をつけた largest は「いちばん大きい」。前に the をつけ、in the city で「町の中で」とはんいを表す。"
+        },
+        {
+            "en": "He also likes meeting people, so he enjoys traveling abroad.",
+            "ja": "彼は人と出会うのも好きなので、海外旅行を楽しんでいます。",
+            "focus": "fp4",
+            "point": "enjoy ～ing「～するのを楽しむ」",
+            "note": "enjoy のあとの動詞は ing の形。so の前が理由、後ろが結果で、「～なので…」と前から意味をとる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: What's wrong, Mike?\nB: I'm having trouble (　) my bike.",
+            "choices": [
+                "at",
+                "for",
+                "with",
+                "of"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：どうしたの、マイク。\nB：自転車の調子が悪くて、こまっているんだ。",
+            "explanation": "have trouble with ～で「～のことでこまる」。「～のことで」の部分は with で表す。I'm having で「今こまっている」。",
+            "choiceNotes": [
+                "at「～で（場所・時刻）」",
+                "for「～のために」",
+                "with「have trouble with のセット」",
+                "of「～の」"
+            ],
+            "tip": "授業の I'm having trouble with my homework. と同じ形。with までまとめて言おう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "We will stay in Okinawa (　) Friday to Sunday.",
+            "choices": [
+                "from",
+                "at",
+                "in",
+                "by"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "わたしたちは金曜日から日曜日まで、沖縄にとまります。",
+            "explanation": "from A to B で「AからBまで」。はじまりを from、おわりを to で表す。曜日・時刻・場所などに使える。",
+            "choiceNotes": [
+                "from「from A to B でAからBまで」",
+                "at「～で（場所・時刻）」",
+                "in「～の中に」",
+                "by「～までに」"
+            ],
+            "tip": "授業の The library is open from nine to seven. と同じ形。from と to をセットで書こう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "My mother (　) a big cake for my birthday last week.",
+            "choices": [
+                "make",
+                "made",
+                "makes",
+                "making"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "母は先週、わたしの誕生日に大きなケーキを作ってくれました。",
+            "explanation": "last week（先週）があるので過去の文。make の過去形は made で、ed がつかない形に変わる。",
+            "choiceNotes": [
+                "make「原形」",
+                "made「過去形」",
+                "makes「3単現」",
+                "making「ing形」"
+            ],
+            "tip": "授業の Henry came home early yesterday. の came も ed がつかない過去形。1つずつ覚えよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "The Shinano River is the (　) river in Japan.",
+            "choices": [
+                "long",
+                "longer",
+                "too long",
+                "longest"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "信濃川（しなのがわ）は、日本でいちばん長い川です。",
+            "explanation": "in Japan（日本の中で）のように、ある集まりや場所の中で「いちばん～」と言うときは、the＋最上級（longest）を使う。",
+            "choiceNotes": [
+                "long「長い」",
+                "longer「より長い（比較級）」",
+                "too long「長すぎる」",
+                "longest「いちばん長い（最上級）」"
+            ],
+            "tip": "授業の This building is the largest in the city. と同じ形。the をわすれずに書こう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: Can you come to my house on Saturday?\nB: Sorry, I'm busy. (　) about Sunday?",
+            "choices": [
+                "How",
+                "Who",
+                "Where",
+                "When"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：土曜日にわたしの家に来られますか。\nB：ごめんなさい、いそがしいんです。日曜日はどうですか。",
+            "explanation": "How about ～? は「～はどうですか」と、相手に案を出したり、たずねたりする言い方。ここでは土曜日のかわりに日曜日はどうかとたずねている。",
+            "choiceNotes": [
+                "How「How about ～? で～はどう？」",
+                "Who「だれ」",
+                "Where「どこ」",
+                "When「いつ」"
+            ],
+            "tip": "授業のメールでも、リリーは土曜日のかわりに How about Sunday? と書いていたね。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Can I use the computer now?\nB: Sorry, I need it (　) four o'clock.",
+            "choices": [
+                "ago",
+                "among",
+                "until",
+                "between"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：今、コンピューターを使ってもいいですか。\nB：ごめんなさい、4時まではわたしが使うんです。",
+            "explanation": "until ～で「～まで（ずっと）」。4時になるまで、続けてコンピューターを使うという意味になる。",
+            "choiceNotes": [
+                "ago「（今から）～前に」",
+                "among「（3つ以上）の間に」",
+                "until「～まで（ずっと）」",
+                "between「（2つ）の間に」"
+            ],
+            "tip": "授業のメールの I have a piano lesson until 10:30 a.m. と同じ。until は「～までずっと」だよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Mika was very tired, (　) she went to bed early.",
+            "choices": [
+                "but",
+                "or",
+                "because",
+                "so"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "ミカはとてもつかれていたので、早くねました。",
+            "explanation": "so の前が理由、後ろが結果。「とてもつかれていた → だから早くねた」という流れになる。",
+            "choiceNotes": [
+                "but「しかし」",
+                "or「または」",
+                "because「～なので（後ろが理由）」",
+                "so「だから（後ろが結果）」"
+            ],
+            "tip": "授業の物語の He also likes meeting people, so he enjoys … と同じ。so の後ろは結果だよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My brother enjoys (　) comic books.",
+            "choices": [
+                "read",
+                "reading",
+                "reads",
+                "to read"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "兄は、まんがを読むのを楽しんでいます。",
+            "explanation": "enjoy ～ing で「～するのを楽しむ」。enjoy のあとの動詞は ing の形にする。to read の形は使わない。",
+            "choiceNotes": [
+                "read「原形」",
+                "reading「ing形」",
+                "reads「3単現」",
+                "to read「to＋原形」"
+            ],
+            "tip": "授業の物語の … so he enjoys traveling abroad. と同じ形。enjoy のあとは ing 形にしよう。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。from A to B や enjoy ～ing のように、セットで使う形はひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

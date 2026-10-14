@@ -165,7 +165,9 @@ async function renderSet(page,grade,exam){
 
     // Every set in the index: four fitted pages, items in order, both question and explanation pages used.
     await page.setViewportSize({width:1365,height:1000});
-    for(const key of Object.keys(index)){
+    // HW_ONLY=grade3/2025-2 limits the per-set checks to keys with that prefix (a grade deploy).
+    const only=process.env.HW_ONLY||'';
+    for(const key of Object.keys(index).filter(k=>k.startsWith(only))){
       const [grade,exam]=key.split('/');
       const set=await (await page.request.get(`${base}/${index[key].path}`)).json();
       const r=await renderSet(page,grade,exam);
@@ -187,7 +189,7 @@ async function renderSet(page,grade,exam){
       console.log(`SET OK ${key}: ${set.questions.length} questions, spare ${r.pages.map(pg=>pg.spare).join('/')}px${r.tight?` (tight pages ${r.tight})`:''}`);
     }
     assert.deepEqual(errors,[]);
-    console.log(`HOMEWORK UI OK: ${hw.questions.length} questions (${hw.questions.filter(q=>q.translate).length} translations), 4 fitted A4 pages (questions 2 + explanations 2), answers, tips, next lesson QR, no-QR mode, PDF ${pageCount} pages; ${Object.keys(index).length} sets fitted`);
+    console.log(`HOMEWORK UI OK: ${hw.questions.length} questions (${hw.questions.filter(q=>q.translate).length} translations), 4 fitted A4 pages (questions 2 + explanations 2), answers, tips, next lesson QR, no-QR mode, PDF ${pageCount} pages; ${Object.keys(index).filter(k=>k.startsWith(only)).length} sets fitted`);
     console.log('QA output:',out);
   }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
