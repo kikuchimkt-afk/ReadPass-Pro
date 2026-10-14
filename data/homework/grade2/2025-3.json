@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-3",
+    "title": "文法事項の確認",
+    "theme": "「～するほど」・並列・形式主語・cause の構文",
+    "aim": "授業で学んだ「～すればするほど」の比較級の構文、not only A but also B の並列、形式主語・形式目的語の it、時制、cause を使った因果の表現と部分否定を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "「～すればするほど…」の比較級の構文を組み立てられる",
+        "not only A but also B で、A と B の形をそろえられる",
+        "形式主語・形式目的語の it が指す内容がわかる",
+        "cause を使った因果の文と、部分否定を正しく訳せる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The (　) you leave home in the morning, the less crowded the trains will be.",
+            "choices": [
+                "early",
+                "earliest",
+                "earlier",
+                "too early"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "朝、家を出るのが早ければ早いほど、電車はすいているだろう。",
+            "explanation": "〈The＋比較級＋S V, the＋比較級＋S V〉で「～すればするほど…」。前半も比較級にするので、early の比較級 earlier が入る。",
+            "choiceNotes": [
+                "early「原級」",
+                "earliest「最上級」",
+                "earlier「比較級」",
+                "too early「早すぎる」"
+            ],
+            "tip": "授業の The harder you work, the more ... と同じ形。前後の the をセットで探す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The longer the meeting went on, (　) the members became.",
+            "choices": [
+                "the more tired",
+                "more tired",
+                "the most tired",
+                "so tired"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "会議が長引けば長引くほど、メンバーは疲れていった。",
+            "explanation": "後半も〈the＋比較級＋S V〉の形にする。tired の比較級 more tired の前に the を置き、その後ろに the members became が続く。",
+            "choiceNotes": [
+                "the more tired「比較級」",
+                "more tired「the なし」",
+                "the most tired「最上級」",
+                "so tired「とても」"
+            ],
+            "tip": "後半の the を落としやすい。前半が The＋比較級なら、後半も the から始める。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "(　) you read, the larger your vocabulary will become.",
+            "choices": [
+                "More books",
+                "The most books",
+                "Many books",
+                "The more books"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "本を多く読めば読むほど、語彙は豊かになるだろう。",
+            "explanation": "多くなるのは読む本の数。〈the more＋名詞〉をひとまとまりで文の前に出し、The more books you read の語順にする。",
+            "choiceNotes": [
+                "More books「the なし」",
+                "The most books「最上級」",
+                "Many books「原級」",
+                "The more books「比較級」"
+            ],
+            "tip": "「何が多いほど」かを考える。増えるのが本の数なら、more books をまとめて The の後ろに置く。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The (　) you practice the piano, the more smoothly your fingers will move.",
+            "choices": [
+                "most often",
+                "more often",
+                "often",
+                "so often"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "ピアノを練習する回数が多ければ多いほど、指はなめらかに動くようになるだろう。",
+            "explanation": "練習の回数と指の動きが比例する関係。often の比較級 more often を the の後ろに置き、「～する回数が多いほど」を表す。",
+            "choiceNotes": [
+                "most often「最上級」",
+                "more often「比較級」",
+                "often「原級」",
+                "so often「とてもよく」"
+            ],
+            "tip": "授業の The more often students saw ... と同じ形。「回数が多いほど」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "This dictionary app not only shows the meaning of a word but also (　) you how to pronounce it.",
+            "choices": [
+                "teaching",
+                "to teach",
+                "teach",
+                "teaches"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この辞書アプリは、単語の意味を示すだけでなく、発音のしかたも教えてくれる。",
+            "explanation": "not only A but also B では A と B の形をそろえる。A が shows なので、B も主語に合う3単現の teaches にする。",
+            "choiceNotes": [
+                "teaching「-ing形」",
+                "to teach「to不定詞」",
+                "teach「原形」",
+                "teaches「3単現」"
+            ],
+            "tip": "授業の not only allows ... but also makes と同じ形。動詞の形をそろえる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The staff at the hotel were not only friendly but also (　) when we asked about places to visit.",
+            "choices": [
+                "help",
+                "helpfully",
+                "helpful",
+                "helps"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ホテルの従業員は感じがよいだけでなく、観光する場所について尋ねたときにも助けになってくれた。",
+            "explanation": "were の後ろで形容詞 friendly と並べるので、形容詞の helpful が入る。not only A but also B の A と B は同じ品詞にそろえる。",
+            "choiceNotes": [
+                "help「動詞・名詞」",
+                "helpfully「副詞」",
+                "helpful「形容詞」",
+                "helps「3単現」"
+            ],
+            "tip": "(5)は動詞、(6)は形容詞の並列。but also の後ろは、not only の後ろの語と形を合わせる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Online meetings have (　) it possible to work with people in other countries without traveling.",
+            "choices": [
+                "made",
+                "let",
+                "allowed",
+                "caused"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "オンライン会議のおかげで、移動しなくても外国の人と一緒に仕事ができるようになった。",
+            "explanation": "make＋it＋possible＋to V で「～することを可能にする」。it は to work 以下を指す形式目的語。選択肢で〈O＋形容詞〉をとるのは made だけ。",
+            "choiceNotes": [
+                "made「O＋形容詞・原形」",
+                "let「O＋原形」",
+                "allowed「O＋to V」",
+                "caused「O＋to V」"
+            ],
+            "tip": "授業の makes it possible for users ... と同じ形。主語を「～のおかげで」と訳すと自然。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "(　) makes this café special is that all of its vegetables come from the owner's own farm.",
+            "choices": [
+                "That",
+                "What",
+                "It",
+                "Which"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "このカフェを特別なものにしているのは、野菜がすべてオーナー自身の畑でとれたものだということだ。",
+            "explanation": "What は先行詞を含む関係代名詞で「～もの・こと」。What makes this café special までが主語で、is の後ろの that 節が補語になる。",
+            "choiceNotes": [
+                "That「後ろは完全な文」",
+                "What「～もの・こと」",
+                "It「動詞が2つになる」",
+                "Which「先行詞が必要」"
+            ],
+            "tip": "授業の What makes it unique is that ... と同じ形。is の前で区切って主語をつかむ。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "After the bridge was built, it became possible (　) people on the island to reach the city in twenty minutes.",
+            "choices": [
+                "of",
+                "by",
+                "for",
+                "with"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "橋が建設されてから、島の人々は20分で市内へ行けるようになった。",
+            "explanation": "it は形式主語で、本当の主語は to reach 以下。to不定詞の意味上の主語「島の人々が」は〈for＋人〉で表す。",
+            "choiceNotes": [
+                "of「kind など人の性質の後」",
+                "by「～によって」",
+                "for「意味上の主語」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の it became possible for citizens ... と同じ。for の後ろを「～が」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "It soon became clear (　) the old computer system could not handle so many orders.",
+            "choices": [
+                "what",
+                "which",
+                "who",
+                "that"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "古いコンピューターシステムではそれほど多くの注文を処理できないことが、すぐに明らかになった。",
+            "explanation": "It は形式主語で、本当の主語は後ろの節。その節は欠けている要素のない完全な文なので、接続詞 that が入る。",
+            "choiceNotes": [
+                "what「～もの・こと」",
+                "which「関係代名詞・物」",
+                "who「関係代名詞・人」",
+                "that「～ということ」"
+            ],
+            "tip": "授業の It became clear that ... と同じ形。that 以下を先に訳すと自然になる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "The singer, who (　) famous in Japan before she moved to Paris, is now popular in Europe as well.",
+            "choices": [
+                "has become",
+                "had become",
+                "becomes",
+                "will become"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その歌手は、パリに移る前に日本で有名になっていたが、今ではヨーロッパでも人気がある。",
+            "explanation": "パリに移ったのは過去のこと。それより前に有名になっていたことを表すので、過去完了の had become を使う。",
+            "choiceNotes": [
+                "has become「現在完了」",
+                "had become「過去完了」",
+                "becomes「現在形」",
+                "will become「未来」"
+            ],
+            "tip": "授業の which had started ... と同じ過去完了。コンマの間をくくって主語と動詞を探す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Using a smartphone late at night can cause you (　) trouble sleeping.",
+            "choices": [
+                "to have",
+                "having",
+                "have",
+                "had"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "夜遅くにスマートフォンを使うと、眠れなくなることがある。",
+            "explanation": "cause＋O＋to V で「Oが～する原因となる」。make なら O の後ろは原形だが、cause は to不定詞をとる。主語は動名詞句。",
+            "choiceNotes": [
+                "to have「to不定詞」",
+                "having「-ing形」",
+                "have「原形（make の後ろ）」",
+                "had「過去形・過去分詞」"
+            ],
+            "tip": "授業の will cause them to miss out on と同じ形。主語を「～すると」と訳すと自然。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The heavy rain caused the baseball game (　) until the following Sunday.",
+            "choices": [
+                "postponing",
+                "to postpone",
+                "postponed",
+                "to be postponed"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "大雨のせいで、野球の試合は次の日曜日に延期された。",
+            "explanation": "試合は「延期される」側なので、cause＋O＋to be＋過去分詞の受動態にする。to postpone では試合が何かを延期することになる。",
+            "choiceNotes": [
+                "postponing「-ing形」",
+                "to postpone「能動」",
+                "postponed「過去形・過去分詞」",
+                "to be postponed「受動」"
+            ],
+            "tip": "授業の caused the event to be canceled と同じ形。O が「される」側かを確かめる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) online shopping is not always cheaper than going to a store, many people use it to save time.",
+            "choices": [
+                "Unless",
+                "Until",
+                "While",
+                "As soon as"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ネットでの買い物は店に行くより安いとは限らないが、多くの人が時間を節約するために利用している。",
+            "explanation": "not always は「いつも～とは限らない」という部分否定。While は「～だが」と譲歩を表し、後半の「多くの人が利用している」と対比している。",
+            "choiceNotes": [
+                "Unless「～しない限り」",
+                "Until「～まで」",
+                "While「～だが（譲歩）」",
+                "As soon as「～するとすぐに」"
+            ],
+            "tip": "授業の While ... not always negative と同じ形。「決して～ない」と訳さない。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の構文はどれも、大問2・3の長文の中で使われていました。the＋比較級や not only A but also B は、前半を読んだところで後半の形を予想できると、長い文でも迷わずに読めます。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに同じ形だと気づけるようにしましょう。"
+}

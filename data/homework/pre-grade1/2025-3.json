@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2025-3",
+    "title": "文法事項の確認",
+    "theme": "評価と警告・譲歩の表現・並列・追加と未解明",
+    "aim": "授業の長文で学んだ、評価や判決を表す受動態、not as ～ as の比較、譲歩を表す接続詞と前置詞、動詞の並列、対比・追加の表現、前置詞＋関係代名詞、「まだ～していない」の表現を、新しい英文の中で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "評価や判決を表す受動態と、not as ～ as の比較を読み取れる",
+        "後ろが節か名詞句かで、接続詞と前置詞を選び分けられる",
+        "and で並ぶ動詞の形と、関係詞の先行詞になる代名詞が分かる",
+        "追加を表す副詞や「まだ～していない」の表現を正しく訳せる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The proposed trade deal (　) to be a major step forward, but many economists caution that small farmers could suffer.",
+            "choices": [
+                "considers",
+                "is considered",
+                "is considering",
+                "has considered"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "提案中の貿易協定は大きな前進だと考えられているが、多くの経済学者は小規模農家が打撃を受けかねないと警告している。",
+            "explanation": "協定は「考える」側ではなく「考えられる」側なので受動態。be considered to be C で「Cだと考えられている」。but 以下で警告が続く。",
+            "choiceNotes": [
+                "considers「能動」",
+                "is considered「受動」",
+                "is considering「進行形」",
+                "has considered「現在完了」"
+            ],
+            "tip": "授業の is considered ... but researchers caution that と同じ流れ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Reviving a declining town center is not as simple as (　) a few new shops and restaurants to the area.",
+            "choices": [
+                "attracts",
+                "attraction",
+                "attracting",
+                "attracted"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "衰退した町の中心部を再生させるのは、いくつかの新しい店やレストランをその地域に呼び込むほど単純ではない。",
+            "explanation": "not as simple as ～ で「～ほど単純ではない」。主語の動名詞 Reviving と比べているので、as の後ろも動名詞の attracting にそろえる。",
+            "choiceNotes": [
+                "attracts「3単現」",
+                "attraction「名詞」",
+                "attracting「呼び込むこと（動名詞）」",
+                "attracted「過去形・過去分詞」"
+            ],
+            "tip": "授業の not as simple as introducing と同じ形。比べる二つを同じ形にそろえる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The consultant pointed out that (　) the new software effectively would require several months of staff training.",
+            "choices": [
+                "using",
+                "used",
+                "use",
+                "uses"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "そのコンサルタントは、新しいソフトウェアを効果的に使うには、数か月の職員研修が必要になると指摘した。",
+            "explanation": "that 節の主語は using ... effectively までの動名詞句で、動詞は would require。use・used・uses のままでは主語になれない。",
+            "choiceNotes": [
+                "using「使うこと（動名詞）」",
+                "used「過去形・過去分詞」",
+                "use「原形」",
+                "uses「3単現」"
+            ],
+            "tip": "授業の pointed out that using ... was と同じ形。that 節の動詞を探す。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "(　) the factory had repeatedly failed safety inspections, it was allowed to remain in operation for another year.",
+            "choices": [
+                "Despite",
+                "In spite",
+                "Even though",
+                "Regardless"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その工場は安全検査に何度も不合格になっていたにもかかわらず、さらに1年間操業を続けることを認められた。",
+            "explanation": "後ろに主語と動詞のある節（the factory had failed ...）が続くので、接続詞の Even though「～にもかかわらず」が入る。",
+            "choiceNotes": [
+                "Despite「前置詞」",
+                "In spite「of が必要」",
+                "Even though「接続詞」",
+                "Regardless「of が必要」"
+            ],
+            "tip": "授業の Even though there were concerns と同じ形。後ろが節か名詞かで決める。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "(　) growing concerns about the cost, the city council voted to build a new stadium near the river.",
+            "choices": [
+                "Although",
+                "Even if",
+                "Whereas",
+                "Despite"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "費用についての懸念が高まっていたにもかかわらず、市議会は川の近くに新しい競技場を建設することを可決した。",
+            "explanation": "後ろは growing concerns about the cost という名詞句で、動詞がない。名詞句を続けられるのは前置詞の Despite「～にもかかわらず」。",
+            "choiceNotes": [
+                "Although「接続詞・後ろは節」",
+                "Even if「たとえ～でも」",
+                "Whereas「～する一方で」",
+                "Despite「前置詞・後ろは名詞」"
+            ],
+            "tip": "(4)と並べて見比べる。後ろが節なら Even though、名詞句なら Despite。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "After a trial that lasted only two days, all five protesters (　) long prison sentences by the judge.",
+            "choices": [
+                "were given",
+                "gave",
+                "had given",
+                "were giving"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "わずか2日間の裁判の後、5人の抗議者全員が裁判官から長期の懲役刑を言い渡された。",
+            "explanation": "give 人 物 の受動態「人 be given 物」で「（人が）物を与えられる」。by the judge があるので受動態。sentence は「刑」の意味。",
+            "choiceNotes": [
+                "were given「与えられた（受動）」",
+                "gave「与えた」",
+                "had given「与えていた」",
+                "were giving「与えている最中だった」"
+            ],
+            "tip": "授業の were given the death penalty と同じ形。「刑を言い渡された」と訳す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "To this day, the 1906 San Francisco earthquake ranks as one of the most destructive (　) in American history.",
+            "choices": [
+                "disaster",
+                "disastrous",
+                "disastrously",
+                "disasters"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "1906年のサンフランシスコ地震は、今でもアメリカ史上最も破壊的な災害の一つに数えられている。",
+            "explanation": "one of the＋最上級＋名詞の複数形で「最も～な…の一つ」。多くの災害の中の一つを表すので、名詞は複数形の disasters にする。",
+            "choiceNotes": [
+                "disaster「単数形」",
+                "disastrous「形容詞」",
+                "disastrously「副詞」",
+                "disasters「複数形」"
+            ],
+            "tip": "授業の one of the most notorious と同じ形。「…の一つ」なので複数形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) the reforms came too late to help the miners of that era, they improved working conditions for later generations.",
+            "choices": [
+                "However",
+                "Although",
+                "Therefore",
+                "Nevertheless"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その改革は当時の炭鉱労働者を救うには遅すぎたが、後の世代の労働条件を改善した。",
+            "explanation": "コンマの前後に二つの節があるので、節と節をつなぐ接続詞 Although「～だが」が入る。However などの副詞は、コンマだけで節どうしをつなげない。",
+            "choiceNotes": [
+                "However「しかし（副詞）」",
+                "Although「～だが（接続詞）」",
+                "Therefore「副詞」",
+                "Nevertheless「副詞」"
+            ],
+            "tip": "授業の Although ... came too late と同じ形。限界と成果を読み分ける。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The new safety rules came too late for (　) who were hurt in the explosion, but they have protected many workers since.",
+            "choices": [
+                "them",
+                "those",
+                "these",
+                "they"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "新しい安全規則は、その爆発でけがをした人々には間に合わなかったが、それ以来多くの労働者を守ってきた。",
+            "explanation": "those who ～ で「～する人々」。前置詞 for の目的語で、関係代名詞 who の先行詞になる。them・these・they はこの形では使わない。",
+            "choiceNotes": [
+                "them「彼らを」",
+                "those「（～する）人々」",
+                "these「これらの」",
+                "they「彼らは」"
+            ],
+            "tip": "授業の too late for those men who ... と同じ形。「～には間に合わなかった」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The oil spill exposed serious weaknesses in safety regulations and (　) a turning point for the environmental movement.",
+            "choices": [
+                "becoming",
+                "to become",
+                "became",
+                "become"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その石油流出事故は安全規制の重大な欠陥を明らかにし、環境保護運動の転換点となった。",
+            "explanation": "主語 The oil spill に対して、過去形の動詞 exposed と became が and で並んでいる。and の前後は同じ過去形にそろえる。",
+            "choiceNotes": [
+                "becoming「-ing形」",
+                "to become「to不定詞」",
+                "became「過去形」",
+                "become「原形・過去分詞」"
+            ],
+            "tip": "授業の exposed ... and became a symbol と同じ形。and の前の動詞の形を確かめる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "(　) its larger competitors, the small airline managed to stay profitable throughout the economic crisis.",
+            "choices": [
+                "Unlike",
+                "Although",
+                "Whereas",
+                "Instead"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "規模の大きい競合他社とは異なり、その小さな航空会社は経済危機の間ずっと利益を出し続けることができた。",
+            "explanation": "後ろは its larger competitors という名詞句だけなので、前置詞の Unlike「～とは異なり」。Although・Whereas は後ろに節が必要。",
+            "choiceNotes": [
+                "Unlike「～とは異なり（前置詞）」",
+                "Although「接続詞」",
+                "Whereas「接続詞」",
+                "Instead「代わりに（副詞）」"
+            ],
+            "tip": "授業の Unlike most human vaccines と同じ形。何と何を比べているかを確かめる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The new pesticide does not harm bees. (　), it breaks down quickly in soil, so it does not pollute nearby rivers.",
+            "choices": [
+                "However",
+                "For example",
+                "Therefore",
+                "Furthermore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その新しい農薬はハチに害を与えない。さらに、土の中ですばやく分解されるので、近くの川を汚さない。",
+            "explanation": "前の文の「ハチに害がない」に、「土の中ですばやく分解される」という別の利点を加えているので、追加を表す Furthermore「さらに」。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For example「例えば」",
+                "Therefore「したがって」",
+                "Furthermore「さらに（追加）」"
+            ],
+            "tip": "授業の Furthermore と同じ使い方。前の文と同じ方向の情報を加える。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Researchers are still trying to identify the process (　) which the virus passes from bats to other animals.",
+            "choices": [
+                "of",
+                "to",
+                "by",
+                "for"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "研究者たちは、そのウイルスがコウモリからほかの動物にうつる過程を、今も突き止めようとしている。",
+            "explanation": "the virus passes ... by the process の by が which の前に出た形。「ウイルスがそれによってうつる過程」を表す。",
+            "choiceNotes": [
+                "of「～の」",
+                "to「～へ」",
+                "by「～によって」",
+                "for「～のために」"
+            ],
+            "tip": "授業の the mechanism by which this occurs と同じ形。元の文に戻して前置詞を決める。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The exact cause of the mysterious illness that struck the village last winter has yet (　) determined.",
+            "choices": [
+                "being",
+                "to be",
+                "be",
+                "to being"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "昨年の冬にその村を襲った謎の病気の正確な原因は、まだ特定されていない。",
+            "explanation": "have yet to＋原形で「まだ～していない」。否定語がなくても否定の意味になる。原因は「特定される」側なので受動の to be determined。",
+            "choiceNotes": [
+                "being「-ing形」",
+                "to be「to不定詞」",
+                "be「原形」",
+                "to being「to＋-ing形」"
+            ],
+            "tip": "授業の has yet to be determined と同じ形。「まだ～されていない」と否定で訳す。"
+        }
+    ],
+    "closing": "今回は、期待のあとに限界を述べる文や、譲歩のあとに結果を述べる文が中心でした。準1級の長文では、こうした文の流れをつかむことが、内容を正しく読み取る手がかりになります。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

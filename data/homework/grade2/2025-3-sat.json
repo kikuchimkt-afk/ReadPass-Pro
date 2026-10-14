@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-3-sat",
+    "title": "文法事項の確認",
+    "theme": "非人称受動態・What節・could と形式目的語・完了形",
+    "aim": "授業で学んだ非人称受動態と推論の表現、主語になる What 節、「AだけでなくBも」の表現、could と形式目的語、過去完了の受動態と現在完了を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "非人称受動態と、証拠から推論を述べる表現を読み取れる",
+        "主語になる What 節を見抜き、文の動詞を見つけられる",
+        "could の後ろの形と、形式目的語の構文を判断できる",
+        "過去完了の受動態と現在完了を、時の目印から選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "It is (　) that people in China were drinking tea more than 2,000 years ago.",
+            "choices": [
+                "thinks",
+                "to think",
+                "thought",
+                "think"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "中国の人々は2,000年以上前にお茶を飲んでいたと考えられている。",
+            "explanation": "It は形式主語で、本当の主語は that 以下。「～と考えられている」という受動態なので、過去分詞の thought が入る。",
+            "choiceNotes": [
+                "thinks「3単現」",
+                "to think「不定詞」",
+                "thought「過去分詞（受動態）」",
+                "think「原形」"
+            ],
+            "tip": "授業の It is believed ～ と同じ形。believed の代わりに thought や said も使う。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "It is believed the stone bridge in this village (　) by Roman soldiers in the second century.",
+            "choices": [
+                "built",
+                "has built",
+                "was building",
+                "was built"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この村の石橋は、2世紀にローマの兵士たちによって造られたと信じられている。",
+            "explanation": "believed の後ろの that が省略された形。橋は「造られた」側なので、that 節の動詞は受動態の過去形 was built。",
+            "choiceNotes": [
+                "built「過去形・過去分詞」",
+                "has built「現在完了」",
+                "was building「過去進行形」",
+                "was built「受動態の過去形」"
+            ],
+            "tip": "授業の It is believed the shelter was used ... も that が省略されている。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The broken tools found in the cave (　) that people lived there thousands of years ago.",
+            "choices": [
+                "suggest",
+                "suggests",
+                "are suggested",
+                "suggesting"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "洞窟で見つかった壊れた道具は、何千年も前にそこに人々が住んでいたことを示唆している。",
+            "explanation": "主語は The broken tools（found 以下は後ろからの説明）で複数なので suggest。suggest that ～ は「～を示唆する」。",
+            "choiceNotes": [
+                "suggest「主語が複数」",
+                "suggests「3単現」",
+                "are suggested「受動態」",
+                "suggesting「-ing 形」"
+            ],
+            "tip": "授業の This discovery suggests that ～ と同じ形。証拠から考えられることを述べる言い方。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "What (　) this small town famous is the old castle on the hill.",
+            "choices": [
+                "make",
+                "making",
+                "to make",
+                "makes"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この小さな町を有名にしているのは、丘の上の古い城だ。",
+            "explanation": "What から famous までが主語で、文の動詞は is。What は節の中で makes の主語になり、単数として扱うので3単現の makes。",
+            "choiceNotes": [
+                "make「原形」",
+                "making「-ing 形」",
+                "to make「不定詞」",
+                "makes「3単現」"
+            ],
+            "tip": "授業の What surprised me most was ～ と同じく、What が節の中で主語になる形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The festival attracts not only local families (　) also many visitors from overseas.",
+            "choices": [
+                "and",
+                "but",
+                "or",
+                "so"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その祭りは、地元の家族だけでなく、海外からの多くの観光客も引きつけている。",
+            "explanation": "not only A but also B で「AだけでなくBも」。A（地元の家族）と B（海外からの観光客）は、どちらも attracts の目的語。",
+            "choiceNotes": [
+                "and「～と…」",
+                "but「not only と組む」",
+                "or「または」",
+                "so「だから」"
+            ],
+            "tip": "授業の not simply A but also B も同じ形。simply は only と同じ意味で使われている。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "What the scientists discovered inside the old ship (　) a box full of gold coins.",
+            "choices": [
+                "were",
+                "being",
+                "was",
+                "to be"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "科学者たちがその古い船の中で見つけたのは、金貨でいっぱいの箱だった。",
+            "explanation": "What から ship までが主語で「科学者たちが見つけたもの」。文の動詞が必要で、What 節が主語のときはふつう単数扱いなので was。",
+            "choiceNotes": [
+                "were「主語が複数」",
+                "being「-ing 形」",
+                "was「主語が単数」",
+                "to be「不定詞」"
+            ],
+            "tip": "授業の What ... accomplished was と同じ形。scientists につられない。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "Using your smartphone late at night could make (　) harder to fall asleep.",
+            "choices": [
+                "it",
+                "them",
+                "that",
+                "what"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "夜遅くにスマートフォンを使うと、寝つきにくくなるおそれがある。",
+            "explanation": "make it＋形容詞＋to V で「Vすることを～にする」。it は形式目的語で、本当の目的語は to fall asleep。could は「～しうる」と可能性を表す。",
+            "choiceNotes": [
+                "it「形式目的語」",
+                "them「それらを」",
+                "that「あれを」",
+                "what「～こと」"
+            ],
+            "tip": "授業の make it harder to keep growing crops と同じ形。it の中身は to ～。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Heavy rain could flood the roads and (　) many trains to stop running.",
+            "choices": [
+                "causing",
+                "cause",
+                "to cause",
+                "being caused"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "大雨で道路が冠水し、多くの列車が止まってしまうおそれがある。",
+            "explanation": "could は and の後ろの動詞にもかかるので、助動詞の後ろの原形 cause が入る。cause A to V で「AにVさせる」。",
+            "choiceNotes": [
+                "causing「-ing 形」",
+                "cause「原形」",
+                "to cause「不定詞」",
+                "being caused「受動の -ing 形」"
+            ],
+            "tip": "授業の could take away ... and make と同じ形。and の後ろも could につながる。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "If the typhoon gets stronger, the school festival could (　) until next week.",
+            "choices": [
+                "postpone",
+                "postponing",
+                "have postponed",
+                "be postponed"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "台風がさらに強くなれば、文化祭は来週まで延期されるかもしれない。",
+            "explanation": "文化祭は「延期される」側なので、could の後ろに受動態の原形 be postponed を置く。could は「～するかもしれない」と可能性を表す。",
+            "choiceNotes": [
+                "postpone「能動」",
+                "postponing「-ing 形」",
+                "have postponed「完了形」",
+                "be postponed「受動態」"
+            ],
+            "tip": "could の後ろは原形。受け身にするときは be＋過去分詞を続ける。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "After (　) by his teacher, the boy decided to enter the national science contest.",
+            "choices": [
+                "being praised",
+                "praising",
+                "to praise",
+                "to be praised"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "先生にほめられた後、その少年は全国理科コンテストに出ることを決めた。",
+            "explanation": "前置詞 After の後ろは動名詞。少年は「ほめられる」側なので、受動態の動名詞 being praised が入る。",
+            "choiceNotes": [
+                "being praised「受動の動名詞」",
+                "praising「能動」",
+                "to praise「不定詞」",
+                "to be praised「受動の不定詞」"
+            ],
+            "tip": "授業の After being freed と同じ形。前置詞の後ろの受け身は being＋過去分詞。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The letter (　) in a drawer for fifty years before my mother found it last spring.",
+            "choices": [
+                "has been kept",
+                "is kept",
+                "had been kept",
+                "was keeping"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その手紙は、昨年の春に母が見つけるまで、50年間引き出しにしまわれていた。",
+            "explanation": "母が見つけた（過去）時点までずっと「しまわれていた」ので、過去完了の受動態 had been kept。この before は「～するまで」と訳すと自然。",
+            "choiceNotes": [
+                "has been kept「現在完了」",
+                "is kept「現在形」",
+                "had been kept「過去完了」",
+                "was keeping「能動」"
+            ],
+            "tip": "授業の Items that had been kept hidden と同じ形。過去のある時点まで続いた状態を表す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "In recent years, more and more companies (　) to let their workers work from home.",
+            "choices": [
+                "had started",
+                "to start",
+                "starting",
+                "have started"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "近年、ますます多くの会社が、社員に在宅勤務を認め始めている。",
+            "explanation": "In recent years（近年）は現在完了とよく使われる。過去から今に至る変化なので have started。to start・starting では文の動詞がない。",
+            "choiceNotes": [
+                "had started「過去完了」",
+                "to start「不定詞」",
+                "starting「-ing 形」",
+                "have started「現在完了」"
+            ],
+            "tip": "授業の have started to appear と同じ形。「～し始めている」と今の変化として訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "By the time the firefighters arrived, the old wooden house (　) badly damaged.",
+            "choices": [
+                "had been",
+                "has been",
+                "is being",
+                "will be"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "消防士たちが到着したときには、その古い木造の家はすでにひどく損傷していた。",
+            "explanation": "By the time ～ arrived（到着したときには）という過去の時点までに損傷が起きていたので、過去完了の受動態 had been damaged になる。",
+            "choiceNotes": [
+                "had been「過去完了」",
+                "has been「現在完了」",
+                "is being「現在進行形」",
+                "will be「未来」"
+            ],
+            "tip": "過去のある時点までに起きていたことは had＋過去分詞で表せる。(11)と同じく受け身の形。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The number of visitors to the island (　) rapidly since the new airport opened.",
+            "choices": [
+                "growing",
+                "has grown",
+                "had grown",
+                "to grow"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "新しい空港ができてから、その島を訪れる人の数は急速に増えている。",
+            "explanation": "since＋過去の出来事（空港の開業）から今まで続く変化なので、現在完了の has grown。主語は The number で単数。",
+            "choiceNotes": [
+                "growing「-ing 形」",
+                "has grown「現在完了」",
+                "had grown「過去完了」",
+                "to grow「不定詞」"
+            ],
+            "tip": "「～以来」の since があれば現在完了を考える。(12)の have started と同じく今に続く変化。"
+        }
+    ],
+    "closing": "2級の長文では、研究や歴史の話題で「～と考えられている」「～を示唆している」といった表現が使われることがあります。こうした表現は、事実と推測を区別しながら読む手がかりになります。What 節や「AだけでなくBも」の形は、英作文で意見を書くときにも役立ちます。間違えた問題は授業の英文と並べて音読しましょう。"
+}

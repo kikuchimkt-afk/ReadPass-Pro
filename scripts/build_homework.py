@@ -12,7 +12,8 @@ the items onto the pages by measured height. Two layouts exist (docs/homework-pr
 
 Both end with a closing message and the next lesson's flash-card QR. This script
 checks the content (lengths that keep the print within four sheets, answer spread,
-similarity to past exams, existence of focus points / words / lesson sentences)
+similarity to past exams, no answers in the theme / aim / goals / practice words
+printed with the questions, existence of focus points / words / lesson sentences)
 and lists the available sets.
 
 Usage:
@@ -154,6 +155,20 @@ def validate(path):
         low, high = limits["tip"]
         check(low <= len(q.get("tip", "")) <= high, f"{tag} tutor tip {low}-{high}")
     check(len(used_focus) >= 3, "questions cover at least three focus points")
+    # The theme, aim, goals and practice words are printed with the questions, so they must not show an answer.
+    shown = [("theme", hw.get("theme", "")), ("aim", hw.get("aim", ""))] + [(f"goal {i}", g) for i, g in enumerate(goals, 1)]
+    shown += [(f"practice word {w.get('word')!r}", w.get("word", "")) for w in hw.get("words", [])]
+    for q in questions:
+        choices, answer = q.get("choices", []), q.get("answer")
+        if len(choices) != 4 or answer not in (1, 2, 3, 4):
+            continue
+        correct = choices[answer - 1].strip().rstrip(".?!")
+        if not re.search(r"[A-Za-z]", correct):
+            continue
+        pattern = re.compile(r"(?<![A-Za-z])" + re.escape(correct) + r"(?![A-Za-z])", re.I)
+        for key, text in shown:
+            check(not pattern.search(text),
+                  f"{key} shows the answer of Q{q.get('number')} ({correct}); use a learning-point name or another word")
     answers = [q.get("answer") for q in questions]
     least = 2 if len(questions) >= 10 else 1
     most = -(-len(questions) // 4) + 1

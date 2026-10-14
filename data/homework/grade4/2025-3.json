@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "会話の表現・最上級・移動と理由のことば",
+    "aim": "授業で学んだ会話の表現・最上級などの文法・乗り物や理由を表すことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "look forward to などの会話の表現を書ける",
+        "理由をたずねる文と、いちばん～の形がわかる",
+        "乗り物・期間・理由を表すことばを使える"
+    ],
+    "words": [
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "gloves",
+            "meaning": "手ぶくろ"
+        },
+        {
+            "word": "supermarket",
+            "meaning": "スーパー"
+        },
+        {
+            "word": "season",
+            "meaning": "季節"
+        },
+        {
+            "word": "mountain",
+            "meaning": "山"
+        },
+        {
+            "word": "temple",
+            "meaning": "お寺"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Yuki is looking forward to seeing Paul again.",
+            "ja": "ユキは、またポールに会うのを楽しみにしています。",
+            "focus": "fp1",
+            "point": "look forward to ～ing「～するのを楽しみにする」",
+            "note": "look forward to の to のあとの動詞は ing の形にするので seeing。is looking で「～している」の形。"
+        },
+        {
+            "en": "I don't like to watch TV, so I usually read a book.",
+            "ja": "テレビを見るのが好きではないので、たいてい本を読みます。",
+            "focus": "fp2",
+            "point": "like to＋原形「～するのが好き」",
+            "note": "like to＋動詞の原形で「～するのが好き」。don't like to は「～するのは好きではない」。so のあとは結果。"
+        },
+        {
+            "en": "I left my gloves at home.",
+            "ja": "手ぶくろを家にわすれてきました。",
+            "focus": "fp3",
+            "point": "leave ～ at home「～を家にわすれる」",
+            "note": "left は leave の過去形。left ～ at home で「～を家に置いてきた（わすれてきた）」という意味。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Is the library open today?\nB: I think (　). Let's go and see.",
+            "choices": [
+                "it",
+                "so",
+                "too",
+                "them"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：図書館は今日あいていますか。\nB：あいていると思います。行ってたしかめてみましょう。",
+            "explanation": "I think so. は「そう思います」という決まった言い方。質問に「たぶんそうだと思う」と答えるときに使う。",
+            "choiceNotes": [
+                "it「それ」",
+                "so「I think so でそう思う」",
+                "too「～も」",
+                "them「彼らを・それらを」"
+            ],
+            "tip": "授業の Will you go to the concert? への返事も I think so. だったね。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "We're looking forward to (　) the new zoo.",
+            "choices": [
+                "visit",
+                "visited",
+                "visits",
+                "visiting"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしたちは、新しい動物園に行くのを楽しみにしています。",
+            "explanation": "look forward to ～ing で「～するのを楽しみにする」。この to のあとの動詞は ing の形にするので visiting。",
+            "choiceNotes": [
+                "visit「原形」",
+                "visited「過去形」",
+                "visits「3単現」",
+                "visiting「ing形」"
+            ],
+            "tip": "授業の … looking forward to seeing Paul again. と同じ形。この to のあとは ing 形だよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: (　) are you studying so hard?\nB: I have a math test tomorrow.",
+            "choices": [
+                "Why",
+                "Where",
+                "When",
+                "Who"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：どうしてそんなに一生けんめい勉強しているのですか。\nB：明日、数学のテストがあるからです。",
+            "explanation": "B が理由を答えているので、理由をたずねる Why（なぜ）を選ぶ。",
+            "choiceNotes": [
+                "Why「なぜ」",
+                "Where「どこで」",
+                "When「いつ」",
+                "Who「だれ」"
+            ],
+            "tip": "授業の Why are you going to the park? と同じ形。Why には理由で答えるのが基本だよ。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Ken is the (　) of the three boys.",
+            "choices": [
+                "tall",
+                "taller",
+                "tallest",
+                "too tall"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "ケンは3人の男の子の中で、いちばん背が高いです。",
+            "explanation": "of the three boys（3人の中で）のように、3人以上の中で「いちばん～」と言うときは、the＋最上級（tallest）を使う。",
+            "choiceNotes": [
+                "tall「背が高い」",
+                "taller「より高い（比較級）」",
+                "tallest「いちばん高い（最上級）」",
+                "too tall「高すぎる」"
+            ],
+            "tip": "授業の … is the oldest in this zoo? と同じ形。the をわすれずに書こう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "My father goes to his office (　) train.",
+            "choices": [
+                "in",
+                "at",
+                "for",
+                "by"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "父は電車で会社に行きます。",
+            "explanation": "by＋乗り物で「（乗り物）で」。by train は「電車で」。by のあとの乗り物には a や the をつけないのが基本。",
+            "choiceNotes": [
+                "in「～の中に」",
+                "at「～で（場所・時刻）」",
+                "for「～のために」",
+                "by「～で（乗り物）」"
+            ],
+            "tip": "授業のメールの I just got home by train … と同じ形。by taxi も同じ使い方だよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Did you take a bus to the park?\nB: No. I went there (　) foot.",
+            "choices": [
+                "on",
+                "in",
+                "at",
+                "with"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：公園へはバスで行ったのですか。\nB：いいえ。歩いて行きました。",
+            "explanation": "on foot で「歩いて」。「電車で」は by train のように by を使うが、「歩いて」は on foot と言う。",
+            "choiceNotes": [
+                "on「on foot で歩いて」",
+                "in「～の中に」",
+                "at「～で（場所・時刻）」",
+                "with「～といっしょに」"
+            ],
+            "tip": "授業のメールの I came here on foot. と同じ形。バスに乗れなかったエミリーは歩いて来たね。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "My mother likes fall (　) the leaves are red and yellow.",
+            "choices": [
+                "so",
+                "because",
+                "but",
+                "or"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "木の葉が赤や黄色になるので、母は秋が好きです。",
+            "explanation": "because のあとには理由が来る。「葉が赤や黄色になる」が、母が秋を好きな理由になっている。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "because「～なので（後ろが理由）」",
+                "but「しかし」",
+                "or「または」"
+            ],
+            "tip": "授業の物語の I like spring because the cherry blossoms are beautiful. と同じ形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "We stayed at a hotel in Kyoto (　) three days.",
+            "choices": [
+                "at",
+                "in",
+                "for",
+                "to"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしたちは3日間、京都のホテルにとまりました。",
+            "explanation": "for＋期間で「～のあいだ」。for three days で「3日間」。期間の長さを言うときは for を使うのが基本。",
+            "choiceNotes": [
+                "at「～で（場所・時刻）」",
+                "in「～の中に」",
+                "for「for＋期間で～のあいだ」",
+                "to「～へ」"
+            ],
+            "tip": "授業の物語の … visited Paul in Canada for twelve days. と同じ形。for＋期間で覚えよう。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。by train や on foot のように、セットで使うことばはひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

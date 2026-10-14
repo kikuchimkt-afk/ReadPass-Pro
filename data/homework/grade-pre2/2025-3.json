@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-3",
+    "title": "文法事項の確認",
+    "theme": "推量・使役・期限と順序・目的と理由・逆接",
+    "aim": "授業の物語・Eメール・説明文に出てきた、過去の推量、使役の make、期限や順序・譲歩の表し方、目的・理由・手段の表し方、逆接と対比のつなぎの言葉を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "過去の推量と、使役の make の形が分かる",
+        "期限・順序・譲歩を表す言葉を使い分けられる",
+        "目的・理由・手段を表す形を見分けられる",
+        "逆接や対比の言葉で、話の流れをつかめる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The ground is all wet this morning. It must have (　) a lot during the night.",
+            "choices": [
+                "rain",
+                "raining",
+                "rained",
+                "rains"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "今朝は地面がすっかりぬれている。夜の間にたくさん雨が降ったに違いない。",
+            "explanation": "〈must have＋過去分詞〉で「～したに違いない」と、過去のことを推量する。have の後ろなので過去分詞の rained が入る。",
+            "choiceNotes": [
+                "rain「原形」",
+                "raining「-ing 形」",
+                "rained「過去分詞」",
+                "rains「3単現」"
+            ],
+            "tip": "授業の he must have realized his dream と同じ形。今の様子から過去を推し量る。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A kind message from her teacher made Aya (　).",
+            "choices": [
+                "happily",
+                "happy",
+                "happiness",
+                "to be happy"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "先生からの優しいメッセージで、アヤはうれしくなった。",
+            "explanation": "〈make＋O＋C〉で「OをCにする」。C には形容詞の happy が入る。物事が主語のときは「～で、Oは…になった」と訳すと自然。",
+            "choiceNotes": [
+                "happily「楽しく（副詞）」",
+                "happy「うれしい（形容詞）」",
+                "happiness「幸せ（名詞）」",
+                "to be happy「to不定詞」"
+            ],
+            "tip": "授業の This made her so happy. と同じ形。「OがCの状態になる」と考える。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Ten years of hard work finally made Yuta's dream (　) true.",
+            "choices": [
+                "came",
+                "to come",
+                "coming",
+                "come"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "10年間の努力で、ユウタの夢はついにかなった。",
+            "explanation": "〈make＋O＋動詞の原形〉で「Oに～させる」。made Yuta's dream come true で「夢をかなえた」。過去の文でも原形のままで、to も付けない。",
+            "choiceNotes": [
+                "came「過去形」",
+                "to come「to不定詞」",
+                "coming「-ing 形」",
+                "come「原形」"
+            ],
+            "tip": "授業の make her own dream come true と同じ形。come true は「実現する」。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Please return these books to the library (　) next Tuesday.",
+            "choices": [
+                "by",
+                "until",
+                "since",
+                "at"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "これらの本を、来週の火曜日までに図書館へ返してください。",
+            "explanation": "「返す」は一度で終わる動作なので、期限を表す by「～までに」が入る。until は「～までずっと」と、続いている動作や状態に使う。",
+            "choiceNotes": [
+                "by「～までに（期限）」",
+                "until「～までずっと（継続）」",
+                "since「～以来」",
+                "at「～に（時刻）」"
+            ],
+            "tip": "授業の our slides by Thursday と同じ by。「まで」か「までに」かで選ぶ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "First, read all the questions carefully. (　), start writing your answers.",
+            "choices": [
+                "Although",
+                "Because",
+                "For example",
+                "Then"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "まず、すべての問題を注意深く読みなさい。それから、答えを書き始めなさい。",
+            "explanation": "First「まず」に続く次の手順なので、Then「それから」が入る。Although・Because は接続詞だが、ここでは後ろに〈主語＋動詞〉がない。",
+            "choiceNotes": [
+                "Although「～だけれども」",
+                "Because「～なので」",
+                "For example「例えば」",
+                "Then「それから」"
+            ],
+            "tip": "授業のメールの Then, we can practice ... と同じ。予定や手順の順番を示す合図になる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "(　) the weather was bad, we enjoyed our trip to the mountains.",
+            "choices": [
+                "Because",
+                "Although",
+                "So",
+                "Unless"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "天気は悪かったが、私たちは山への旅行を楽しんだ。",
+            "explanation": "「天気が悪かった」のに「旅行を楽しんだ」と、予想とは逆の内容が続くので、譲歩を表す Although「～だけれども」が入る。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Although「～だけれども」",
+                "So「だから」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の Although I won't be available と同じ形。前後が食い違うかを見る。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "A good night's sleep helps you (　) ready for a busy day.",
+            "choices": [
+                "being",
+                "been",
+                "be",
+                "are"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ひと晩ぐっすり眠ることは、忙しい一日に備えるのに役立つ。",
+            "explanation": "〈help＋O＋動詞の原形〉で「Oが～するのを助ける・～するのに役立つ」。O の後ろは原形（to＋原形も可）なので、ここでは be を選ぶ。",
+            "choiceNotes": [
+                "being「-ing 形」",
+                "been「過去分詞」",
+                "be「原形」",
+                "are「現在形」"
+            ],
+            "tip": "授業の That will help us be ready と同じ形。be 動詞も原形の be のまま。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) healthy, my grandmother walks for thirty minutes every morning.",
+            "choices": [
+                "To stay",
+                "Stayed",
+                "Stays",
+                "Stay"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "健康でいるために、祖母は毎朝30分歩いている。",
+            "explanation": "〈To＋動詞の原形〉で「～するために」と目的を表す（副詞的用法）。To stay healthy が、コンマの後ろの「毎朝歩く」の目的を示している。",
+            "choiceNotes": [
+                "To stay「～するために」",
+                "Stayed「過去形・過去分詞」",
+                "Stays「3単現」",
+                "Stay「原形・命令文」"
+            ],
+            "tip": "授業の To protect themselves と同じ形。コンマまでが目的を表す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) the bridge was closed for repairs, we had to take a different road.",
+            "choices": [
+                "Because of",
+                "Without",
+                "So",
+                "Because"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "橋が修理のため通行止めだったので、私たちは別の道を通らなければならなかった。",
+            "explanation": "後ろに the bridge was closed という〈主語＋動詞〉が続くので、接続詞の Because「～なので」が入る。Because of の後ろには名詞が来る。",
+            "choiceNotes": [
+                "Because of「～が原因で（＋名詞）」",
+                "Without「～なしで」",
+                "So「だから」",
+                "Because「～なので（＋節）」"
+            ],
+            "tip": "授業の Because their dams slow the flow と同じ形。後ろに動詞があるか確かめる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Mr. Sato improved his English by (　) American TV dramas every night.",
+            "choices": [
+                "watch",
+                "watching",
+                "watched",
+                "to watch"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "佐藤さんは、毎晩アメリカのテレビドラマを見ることで英語力を伸ばした。",
+            "explanation": "〈by＋-ing〉で「～することによって」と手段を表す。by は前置詞なので、後ろの動詞は動名詞の watching にする。",
+            "choiceNotes": [
+                "watch「原形」",
+                "watching「動名詞」",
+                "watched「過去形・過去分詞」",
+                "to watch「to不定詞」"
+            ],
+            "tip": "授業の by removing harmful materials と同じ形。前置詞の後ろは -ing 形。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "I always carry an umbrella in June. This is (　) it often rains during that month.",
+            "choices": [
+                "because",
+                "why",
+                "what",
+                "though"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "私は6月にはいつも傘を持ち歩いている。これは、その月によく雨が降るからだ。",
+            "explanation": "This is because ～ で「これは～だからだ」と、前の文の理由を後から述べる。This is why ～ は「そういうわけで～」と結果を表すので合わない。",
+            "choiceNotes": [
+                "because「～だから（理由）」",
+                "why「だから～（結果）」",
+                "what「～こと」",
+                "though「～だけれども」"
+            ],
+            "tip": "授業の This is because beavers may eat crops と同じ形。This は前の文を指す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Many people think sharks are dangerous. (　), most sharks do not attack people.",
+            "choices": [
+                "So",
+                "For example",
+                "However",
+                "In addition"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "多くの人はサメが危険だと思っている。しかし、ほとんどのサメは人を襲わない。",
+            "explanation": "「危険だと思われている」に対して、「ほとんどは人を襲わない」と反対の内容が続くので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "So「だから」",
+                "For example「例えば」",
+                "However「しかし」",
+                "In addition「さらに」"
+            ],
+            "tip": "授業の However, there is still the fact と同じ。話の向きが変わる合図。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Everyone was surprised by the fact (　) Ken won the speech contest.",
+            "choices": [
+                "which",
+                "what",
+                "who",
+                "that"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "ケンがスピーチコンテストで優勝したという事実に、だれもが驚いた。",
+            "explanation": "that 以下が fact の内容を説明する同格の that。後ろは欠けている要素のない完全な文なので、関係代名詞の which・who・what は入らない。",
+            "choiceNotes": [
+                "which「関係代名詞（物）」",
+                "what「～こと」",
+                "who「関係代名詞（人）」",
+                "that「～という（同格）」"
+            ],
+            "tip": "授業の the fact that they are a great help と同じ形。「～という事実」と訳す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "My sister loves sports, (　) I am more interested in music.",
+            "choices": [
+                "while",
+                "because",
+                "until",
+                "unless"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "姉はスポーツが大好きだが、一方で私は音楽のほうに興味がある。",
+            "explanation": "姉と「私」の好みを並べて比べているので、対比を表す while「～する一方で」が入る。while には「～する間に」の意味もある。",
+            "choiceNotes": [
+                "while「～する一方で」",
+                "because「～なので」",
+                "until「～までずっと」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の while farmers hope ... と同じ while。2つの立場や様子を並べて示す。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語、Eメール、ビーバーについての説明文に出てきたものです。Although や However、This is because などのつなぎの言葉は、長文の流れをつかむ手がかりになり、英作文で理由を書くときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

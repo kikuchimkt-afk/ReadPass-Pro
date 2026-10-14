@@ -170,7 +170,7 @@ async function renderSet(page,grade,exam){
       const r=await renderSet(page,grade,exam);
       const nums=set.questions.map(q=>`(${q.number})`);
       assert.equal(r.pages.length,4,`${key} page count`);
-      assert.equal(r.overflow,0,`${key} does not fit four pages`);
+      assert.equal(r.overflow,0,`${key} does not fit four pages ${JSON.stringify(r.pages)}`);
       r.pages.forEach((pg,i)=>{
         assert.ok(pg.fits&&pg.spare>=0&&!pg.wide,`${key} page ${i+1} overflow ${JSON.stringify(pg)}`);
       });

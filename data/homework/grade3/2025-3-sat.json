@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・付加疑問と受け身・提案と期限",
+    "aim": "授業で学んだ語句のセット・付加疑問や受け身の形・メールや説明文の表現を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～でいっぱい」「一日中」などの語句のセットを書ける",
+        "付加疑問「～ですよね」と受け身「～された」がわかる",
+        "「～するのはどう？」「～することに決める」を使える"
+    ],
+    "words": [
+        {
+            "word": "healthy",
+            "meaning": "健康な"
+        },
+        {
+            "word": "safe",
+            "meaning": "安全な"
+        },
+        {
+            "word": "turn off",
+            "meaning": "（電気などを）消す"
+        },
+        {
+            "word": "cousin",
+            "meaning": "いとこ"
+        },
+        {
+            "word": "celebrate",
+            "meaning": "祝う"
+        },
+        {
+            "word": "prepare",
+            "meaning": "準備する"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "The station was full of people because the trains were late.",
+            "ja": "電車が遅れたので、駅は人でいっぱいでした。",
+            "focus": "fp1",
+            "point": "be full of「～でいっぱいだ」",
+            "note": "full of＋名詞で「～でいっぱい」。because のあとに、駅が人でいっぱいだった理由が書かれている。"
+        },
+        {
+            "en": "My tennis racket was stolen from the gym.",
+            "ja": "私のテニスラケットが体育館から盗まれました。",
+            "focus": "fp2",
+            "point": "was＋過去分詞「～された」（受け身）",
+            "note": "stolen は steal（盗む）の過去分詞。ラケットは盗まれる側なので、was stolen という受け身の形になる。"
+        },
+        {
+            "en": "People decided to start holding the Olympics again.",
+            "ja": "人々は、オリンピックを再び開くことに決めました。",
+            "focus": "fp4",
+            "point": "decide to ～「～することに決める」",
+            "note": "decided to のあとは動詞の原形 start。start holding で「開き始める」という意味になる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My grandmother's garden is full (　) flowers.",
+            "choices": [
+                "at",
+                "of",
+                "for",
+                "in"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "祖母の庭は花でいっぱいです。",
+            "explanation": "be full of ～で「～でいっぱいだ」。「～でいっぱい」と言うときは full of の形にする。",
+            "choiceNotes": [
+                "at「～に（場所・時刻）」",
+                "of「full of のセット」",
+                "for「～のために」",
+                "in「～の中に」"
+            ],
+            "tip": "授業の The station was full of people ... と同じ形。full of をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "It rained (　) day yesterday, so we stayed home.",
+            "choices": [
+                "all",
+                "every",
+                "many",
+                "much"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "昨日は一日中雨が降ったので、私たちは家にいました。",
+            "explanation": "all day で「一日中」。every day は「毎日」なので、yesterday（昨日）とは合わない。many day や much day とは言わない。",
+            "choiceNotes": [
+                "all「all day で一日中」",
+                "every「every day で毎日」",
+                "many「たくさんの（数）」",
+                "much「たくさんの（量）」"
+            ],
+            "tip": "授業の It's going to snow all day on Saturday. と同じ形。every day と区別しよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Ken plays the piano, (　) he?\nB: Yes, he does. He practices after school.",
+            "choices": [
+                "isn't",
+                "don't",
+                "didn't",
+                "doesn't"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ケンはピアノをひきますよね。\nB：はい、ひきます。放課後に練習しています。",
+            "explanation": "文の終わりに付けて「～ですよね」と確かめる言い方（付加疑問）。plays（一般動詞の3単現）の文なので doesn't he? にする。",
+            "choiceNotes": [
+                "isn't「be動詞の文に使う」",
+                "don't「主語が I や you など」",
+                "didn't「過去の文に使う」",
+                "doesn't「3単現の文に使う」"
+            ],
+            "tip": "授業の Rin has a new job, doesn't he? と同じ形。カンマの前の動詞を見て決めよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "This bridge was (　) more than 100 years ago.",
+            "choices": [
+                "build",
+                "builds",
+                "built",
+                "building"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "この橋は100年以上前に建てられました。",
+            "explanation": "was＋過去分詞で「～された」という受け身になる。橋は建てられる側なので、build の過去分詞 built を使う。",
+            "choiceNotes": [
+                "build「原形」",
+                "builds「3単現」",
+                "built「過去分詞」",
+                "building「ing形」"
+            ],
+            "tip": "授業の My tennis racket was stolen from the gym. と同じ受け身の形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: What time does the bus leave?\nB: At 8:30, so please arrive (　) 8:15.",
+            "choices": [
+                "by",
+                "until",
+                "since",
+                "during"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：バスは何時に出発しますか。\nB：8時30分です。だから、8時15分までに着いてください。",
+            "explanation": "by は「～までに」で、期限を表す。until は「～までずっと」で、続くことに使うのが基本なので、arrive とは合わない。",
+            "choiceNotes": [
+                "by「～までに（期限）」",
+                "until「～までずっと」",
+                "since「～から（ずっと）」",
+                "during「～の間に」"
+            ],
+            "tip": "授業のメールの You should arrive by 8:00 a.m. と同じ形。「～までに」は by。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: I'm hungry.\nB: Me, too. How about (　) lunch at that cafe?",
+            "choices": [
+                "have",
+                "had",
+                "having",
+                "to have"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：おなかがすきました。\nB：私もです。あのカフェで昼ごはんを食べるのはどうですか。",
+            "explanation": "How about ～ing? は「～するのはどうですか」と提案する言い方。about は前置詞なので、あとの動詞は ing 形にする。",
+            "choiceNotes": [
+                "have「原形」",
+                "had「過去形」",
+                "having「ing形」",
+                "to have「to＋原形」"
+            ],
+            "tip": "授業のメールの How about inviting your brother Sam ...? と同じ形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Yuki decided (　) the tennis club this spring.",
+            "choices": [
+                "join",
+                "joined",
+                "joining",
+                "to join"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "ユキはこの春、テニス部に入ることに決めました。",
+            "explanation": "decide to ～で「～することに決める」。decided のあとは to＋動詞の原形にする。",
+            "choiceNotes": [
+                "join「原形」",
+                "joined「過去形」",
+                "joining「ing形」",
+                "to join「to＋原形」"
+            ],
+            "tip": "授業の People decided to start holding the Olympics again. と同じ形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "The music festival took (　) in our town last summer.",
+            "choices": [
+                "part",
+                "place",
+                "care",
+                "away"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "その音楽祭は、去年の夏に私たちの町で行われました。",
+            "explanation": "take place で「行われる」。主語が音楽祭なので place が合う。take part in は「（人が）～に参加する」という意味。",
+            "choiceNotes": [
+                "part「（人が）参加する」",
+                "place「take place で行われる」",
+                "care「take care of で世話」",
+                "away「離れて」"
+            ],
+            "tip": "授業の The first Olympic Games took place ... と同じ形。"
+        }
+    ],
+    "closing": "今日は、語句のセットや、付加疑問・受け身の形を、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。メールや説明文では「いつまでに」「何をすることに決めたか」に気をつけて読むと、内容がよくわかるようになります。"
+}

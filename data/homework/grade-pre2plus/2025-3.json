@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-3",
+    "title": "文法事項の確認",
+    "theme": "受動態・つなぎの言葉・理由と程度・used to・時の表現",
+    "aim": "授業の長文に出てきた、受動態＋to不定詞、対比・結論・追加を表すつなぎの言葉、理由を表す接続詞と前置詞、程度を表す不定詞の構文、過去と現在の対比、時の流れを表す表現を、新しい英文で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "受動態＋to不定詞で、知られていること・考えられていることを表せる",
+        "前後の文の関係から、対比・結論・追加のつなぎの言葉を選べる",
+        "理由を表す接続詞と前置詞、程度を表す構文を使い分けられる",
+        "過去と今の対比や、時の流れを表す表現を正しく読める"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "This small island (　) to be home to more than 200 kinds of birds.",
+            "choices": [
+                "knows",
+                "is known",
+                "has known",
+                "knowing"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "この小さな島は、200種類以上の鳥のすみかとして知られている。",
+            "explanation": "be known to be ～ で「～として知られている」。島は「知る」側ではなく「知られている」側なので、受動態の is known が入る。",
+            "choiceNotes": [
+                "knows「知っている」",
+                "is known「知られている」",
+                "has known「ずっと知っている」",
+                "knowing「-ing形」"
+            ],
+            "tip": "授業の is known to be the second-longest と同じ形。「～として知られている」と訳す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "About 300 wild monkeys are believed (　) in the forest near the lake.",
+            "choices": [
+                "live",
+                "living",
+                "lived",
+                "to live"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "湖の近くの森には、約300匹の野生のサルがすんでいると考えられている。",
+            "explanation": "be believed to＋動詞の原形 で「～すると考えられている」。受動態 are believed の後ろは to不定詞なので、to live が入る。",
+            "choiceNotes": [
+                "live「原形」",
+                "living「-ing形」",
+                "lived「過去形・過去分詞」",
+                "to live「to不定詞」"
+            ],
+            "tip": "授業の are believed to live along the river と同じ形。to を落とさない。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My older brother loves playing sports outside. (　), my younger brother likes reading at home.",
+            "choices": [
+                "On the other hand",
+                "Therefore",
+                "For example",
+                "Moreover"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "兄は外でスポーツをするのが大好きだ。一方で、弟は家で本を読むのが好きだ。",
+            "explanation": "前の文（兄は外でスポーツ）と後ろの文（弟は家で読書）を比べている。2人の違いを対比する On the other hand「一方で」が入る。",
+            "choiceNotes": [
+                "On the other hand「一方で」",
+                "Therefore「そのため」",
+                "For example「例えば」",
+                "Moreover「さらに」"
+            ],
+            "tip": "授業の On the other hand と同じ使い方。何と何を比べているかを前後の文で確かめる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Our flight arrives at 10 p.m., and the last bus to the hotel leaves at 9:30. (　), we will have to take a taxi.",
+            "choices": [
+                "However",
+                "For example",
+                "Therefore",
+                "On the other hand"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "私たちの便は午後10時に着き、ホテル行きの最終バスは9時30分に出る。そのため、タクシーに乗らなければならない。",
+            "explanation": "前の文（最終バスに間に合わない）が理由で、後ろの文（タクシーに乗る）がその結論。理由から結論を導く Therefore「そのため」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For example「例えば」",
+                "Therefore「そのため」",
+                "On the other hand「一方で」"
+            ],
+            "tip": "授業の Therefore, people have to ... と同じ流れ。前が理由、後ろが結論。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "I went to bed early last night (　) I was very tired after the long trip.",
+            "choices": [
+                "because of",
+                "despite",
+                "because",
+                "during"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "長旅の後でとても疲れていたので、昨夜は早く寝た。",
+            "explanation": "because は接続詞で、後ろに S V を続けて理由を表す。because of・despite・during は前置詞なので、後ろに S V は置けない。",
+            "choiceNotes": [
+                "because of「後ろは名詞」",
+                "despite「～にもかかわらず」",
+                "because「～なので」",
+                "during「～の間」"
+            ],
+            "tip": "授業の because boats ... are used と同じく、後ろは S V。(10)と見比べる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "This curry is too spicy for my little brother (　).",
+            "choices": [
+                "to eat",
+                "eat",
+                "eating",
+                "eaten"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "このカレーは辛すぎて、弟には食べられない。",
+            "explanation": "too＋形容詞＋for A to V で「…すぎてAには～できない」。for my little brother は to eat の意味上の主語になっている。",
+            "choiceNotes": [
+                "to eat「to不定詞」",
+                "eat「原形」",
+                "eating「-ing形」",
+                "eaten「過去分詞」"
+            ],
+            "tip": "授業の too soft to build bridges と同じ形。「～すぎて…できない」と否定の意味で訳す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "This cafe serves delicious coffee at low prices. (　), the staff are always kind to customers.",
+            "choices": [
+                "However",
+                "Instead",
+                "Therefore",
+                "Moreover"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "このカフェはおいしいコーヒーを安く出している。さらに、店員はいつも客に親切だ。",
+            "explanation": "前の文（おいしくて安い）に、同じ方向の良い点（店員が親切）を付け加えている。情報を追加する Moreover「さらに」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "Therefore「そのため」",
+                "Moreover「さらに」"
+            ],
+            "tip": "授業の Moreover, the water level ... と同じく、同じ向きの内容をもう一つ加える。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The road was already narrow, and the heavy snow made it (　) more difficult to drive safely.",
+            "choices": [
+                "very",
+                "even",
+                "so",
+                "too"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "道はもともと狭かったうえに、大雪のせいで安全に運転するのがさらに難しくなった。",
+            "explanation": "even＋比較級で「さらに～」。もともと狭くて運転しにくい道が、雪でいっそう難しくなった。it は形式目的語で、中身は to drive safely。",
+            "choiceNotes": [
+                "very「原級を強める」",
+                "even「比較級を強める」",
+                "so「とても・それほど」",
+                "too「～すぎる」"
+            ],
+            "tip": "授業の makes it even more difficult と同じ形。very は比較級を強められない。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "There used to (　) a small bookstore near the station, but now there is a cafe.",
+            "choices": [
+                "being",
+                "been",
+                "be",
+                "is"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "以前は駅の近くに小さな本屋があったが、今ではカフェがある。",
+            "explanation": "used to＋動詞の原形 で「以前は～だった」。There used to be ～ で「以前は～があった」。but now が今との違いを示している。",
+            "choiceNotes": [
+                "being「-ing形」",
+                "been「過去分詞」",
+                "be「原形」",
+                "is「現在形」"
+            ],
+            "tip": "授業の used to be full of nature と But now の組み合わせ。昔と今の違いを読み取る。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Our school sports day was put off until next week (　) the heavy rain.",
+            "choices": [
+                "because",
+                "so",
+                "although",
+                "because of"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "大雨のため、学校の運動会は来週に延期された。",
+            "explanation": "because of は2語で前置詞のはたらきをし、後ろに名詞（the heavy rain）を置いて原因を表す。because は接続詞なので、後ろに S V が必要。",
+            "choiceNotes": [
+                "because「後ろは S V」",
+                "so「だから」",
+                "although「～だけれども」",
+                "because of「～のために」"
+            ],
+            "tip": "授業の because of climate change と同じ。(5)の because とは後ろの形で区別する。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Mika saved money for her trip by (　) her lunch to school every day.",
+            "choices": [
+                "bring",
+                "bringing",
+                "brought",
+                "to bring"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "美香は毎日学校に弁当を持っていくことで、旅行のためのお金をためた。",
+            "explanation": "by＋-ing で「～することで」と手段を表す。by は前置詞なので、後ろの動詞は動名詞の bringing にする。",
+            "choiceNotes": [
+                "bring「原形」",
+                "bringing「動名詞」",
+                "brought「過去形・過去分詞」",
+                "to bring「to不定詞」"
+            ],
+            "tip": "授業の damaged by using the land と同じ by＋-ing。「～することで」と訳す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "My uncle lived in Canada for five years. (　) that time, he learned to speak French.",
+            "choices": [
+                "During",
+                "While",
+                "Because",
+                "When"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "おじは5年間カナダに住んでいた。その間に、彼はフランス語を話せるようになった。",
+            "explanation": "During は前置詞で、後ろに名詞（that time）を置いて「～の間に」を表す。While・Because・When は接続詞なので、名詞だけを続けることはできない。",
+            "choiceNotes": [
+                "During「～の間に（前置詞）」",
+                "While「～する間に」",
+                "Because「～なので」",
+                "When「～するとき」"
+            ],
+            "tip": "授業の During that time と同じ形。that time が前の文のどの期間を指すかを確かめる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The puppy grew bigger every month. Eventually, it was big (　) to jump over the fence.",
+            "choices": [
+                "too",
+                "so",
+                "very",
+                "enough"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "子犬は月ごとに大きくなり、最終的には柵を飛び越えられるほど大きくなった。",
+            "explanation": "形容詞＋enough to V で「～できるほど…」。形容詞を修飾する enough は形容詞の後ろに置く。Eventually は、変化が続いた後の結果を示す。",
+            "choiceNotes": [
+                "too「～すぎる（形容詞の前）」",
+                "so「とても（形容詞の前）」",
+                "very「とても（形容詞の前）」",
+                "enough「十分に（形容詞の後ろ）」"
+            ],
+            "tip": "授業の it grows big enough to be broken と同じ形。enough の位置に注意する。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) the plane took off, the baby next to me started to cry.",
+            "choices": [
+                "During",
+                "When",
+                "Then",
+                "Eventually"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "飛行機が離陸したとき、隣の席の赤ちゃんが泣き出した。",
+            "explanation": "When は接続詞で、When S V, S V. の形で2つの文をつなぐ。During は前置詞、Then と Eventually は副詞なので、2つの文をつなげない。",
+            "choiceNotes": [
+                "During「前置詞」",
+                "When「～するとき」",
+                "Then「その後（副詞）」",
+                "Eventually「最終的に」"
+            ],
+            "tip": "授業の When the balloon rises と同じ形。(12)の During と後ろの形を見比べる。"
+        }
+    ],
+    "closing": "準2級プラスの筆記では、文法だけを問う問題は多くありませんが、今回扱った回の大問2では On the other hand と Eventually が正解になっていました。つなぎの言葉や時の流れを表す表現は、文と文の関係をつかむ手がかりになり、大問3の長文を読むときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

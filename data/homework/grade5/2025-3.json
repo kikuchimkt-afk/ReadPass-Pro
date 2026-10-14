@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "～ing のかたち・人をさすことば・Please のぶん",
+    "aim": "じゅぎょうでならった「いま～している」のかたち、人をさすことば、「あさに」「あなたは？」のいいかた、Please ～. のたのみかたを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "「いま～している」のかたちを、ただしくかける",
+        "人やものをさすことばを、つかいわけられる",
+        "「あさに」や Please ～. のいいかたがわかる"
+    ],
+    "words": [
+        {
+            "word": "breakfast",
+            "meaning": "あさごはん"
+        },
+        {
+            "word": "classroom",
+            "meaning": "きょうしつ"
+        },
+        {
+            "word": "wall",
+            "meaning": "かべ"
+        },
+        {
+            "word": "paint",
+            "meaning": "ぬる"
+        },
+        {
+            "word": "camera",
+            "meaning": "カメラ"
+        },
+        {
+            "word": "Sunday",
+            "meaning": "日よう日"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I am cooking breakfast for Hiroshi.",
+            "ja": "わたしは、ヒロシのために、あさごはんをつくっています。",
+            "focus": "fp1",
+            "point": "am＋～ing「いま～している」",
+            "note": "I のときは am、He や She のときは is をつかう。そのあとに cooking のような ～ing のかたちをつづける。"
+        },
+        {
+            "en": "Let's clean our classroom.",
+            "ja": "わたしたちのきょうしつを、そうじしましょう。",
+            "focus": "fp2",
+            "point": "our「わたしたちの」",
+            "note": "our は「わたしたちの」。our classroom のように、うしろに classroom などのことばをつづけてつかう。"
+        },
+        {
+            "en": "Dad, please paint this wall.",
+            "ja": "おとうさん、このかべをぬってください。",
+            "focus": "fp4",
+            "point": "please＋もとのかたち「～してください」",
+            "note": "please のあとに paint（もとのかたち）をつづけると、「～してください」とていねいにたのむいいかたになる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Emma and her mother (　) watching TV now.",
+            "choices": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "エマとおかあさんは、いまテレビをみています。",
+            "explanation": "「いま～している」は、is・am・are のあとに ～ing をつづける。Emma and her mother はふたりなので are をつかう。",
+            "choiceNotes": [
+                "is「He・She などのとき」",
+                "are「You やふたりいじょう」",
+                "am「I のとき」",
+                "be「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの I am cooking breakfast. とおなじかたち。だれがしているかで、am・is・are をえらぼう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Taro is (　) his bike in the park.",
+            "choices": [
+                "ride",
+                "rides",
+                "rode",
+                "riding"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "タロウは、こうえんでじてんしゃにのっています。",
+            "explanation": "is のあとに ～ing のかたちをつづけると、「いま～している」といういみになる。ride は e をとって riding とかく。",
+            "choiceNotes": [
+                "ride「もとのかたち」",
+                "rides「s がついたかたち」",
+                "rode「かこのかたち」",
+                "riding「ing のかたち」"
+            ],
+            "tip": "じゅぎょうの He is making a doghouse. とおなじかたち。make も ride も、e をとって ing をつける。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Who are those boys?\nB: (　) are my friends.",
+            "choices": [
+                "He",
+                "She",
+                "They",
+                "It"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：あのおとこのこたちはだれですか。\nB：かれらは、わたしのともだちです。",
+            "explanation": "those boys（あのおとこのこたち）は、ふたりいじょう。ふたりいじょうの人やものをさして「かれらは」「それらは」というときは They。",
+            "choiceNotes": [
+                "He「かれは（ひとり）」",
+                "She「かのじょは（ひとり）」",
+                "They「かれらは・それらは」",
+                "It「それは」"
+            ],
+            "tip": "じゅぎょうの They like tennis. とおなじ They。ふたりいじょうの「かれら」は They でいいかえよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "We like (　) English teacher very much.",
+            "choices": [
+                "our",
+                "us",
+                "we",
+                "ours"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "わたしたちは、わたしたちのえいごのせんせいがだいすきです。",
+            "explanation": "our は「わたしたちの」。our English teacher のように、うしろに人やものをあらわすことばをつづける。",
+            "choiceNotes": [
+                "our「わたしたちの」",
+                "us「わたしたちを・に」",
+                "we「わたしたちは」",
+                "ours「わたしたちのもの」"
+            ],
+            "tip": "じゅぎょうの Let's clean our classroom. とおなじ our。our のあとには teacher などがつづく。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "I do my homework (　) the evening.",
+            "choices": [
+                "at",
+                "to",
+                "of",
+                "in"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "わたしは、ゆうがたにしゅくだいをします。",
+            "explanation": "in the evening で「ゆうがたに」。the morning（あさ）や the evening（ゆうがた）のまえには、in をつかうのがきほん。",
+            "choiceNotes": [
+                "at「～に（じこく）」",
+                "to「～へ」",
+                "of「～の」",
+                "in「in the evening のセット」"
+            ],
+            "tip": "じゅぎょうの He goes jogging in the morning. とおなじ in。「よるに」は at night になる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: I'm ten years old. What (　) you, Ben?\nB: I'm eleven.",
+            "choices": [
+                "from",
+                "about",
+                "under",
+                "in"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：わたしは10さいです。ベン、あなたは？\nB：ぼくは11さいだよ。",
+            "explanation": "What about you? は「あなたは（どう）？」と、おなじことをあいてにききかえすいいかた。",
+            "choiceNotes": [
+                "from「～から」",
+                "about「What about you? のセット」",
+                "under「～のしたに」",
+                "in「～のなかに」"
+            ],
+            "tip": "じゅぎょうの What about you, Rachel? とおなじかたち。じぶんのことをいってから、あいてにきこう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Please (　) your hands before lunch.",
+            "choices": [
+                "wash",
+                "washes",
+                "washing",
+                "washed"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "ひるごはんのまえに、てをあらってください。",
+            "explanation": "Please のあとは、もとのかたちの wash をつかう。Please ～. で「～してください」とていねいにたのむいいかたになる。",
+            "choiceNotes": [
+                "wash「もとのかたち」",
+                "washes「es がついたかたち」",
+                "washing「ing のかたち」",
+                "washed「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Please paint this wall. とおなじかたち。Please のあとは、もとのかたち。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Do you like your new camera?\nB: Yes. I (　) pictures every day.",
+            "choices": [
+                "go",
+                "play",
+                "take",
+                "sing"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：あたらしいカメラはすき？\nB：うん。まい日しゃしんをとるよ。",
+            "explanation": "pictures（しゃしん）といっしょにつかって「しゃしんをとる」となるのは take。take pictures はセットでおぼえる。",
+            "choiceNotes": [
+                "go「いく」",
+                "play「あそぶ・（スポーツを）する」",
+                "take「（しゃしんを）とる」",
+                "sing「うたう」"
+            ],
+            "tip": "じゅぎょうの She often takes pictures. とおなじセット。She のときは takes になるよ。"
+        }
+    ],
+    "closing": "えいごは、こえにだしてよみながら、てでかくと、おぼえやすくなります。きょうかいた ～ing のかたちや Please ～. のぶんを、もういちどゆっくりよんでみましょう。おうちでも、いましていることを I am ～ing. と、えいごでいってみてください。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-3-sat",
+    "title": "文法事項の確認",
+    "theme": "逆接と判断・感情と過去完了・条件と手順・対比",
+    "aim": "授業の物語文・Eメール・説明文に出てきた、推測や判断の表現、逆接のつなぎの言葉、感情の原因と過去完了、条件と手順の表現、所要時間と意味上の主語、対比と理由の表現を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "推測の seem と、助動詞 should の後ろの形が分かる",
+        "感情の原因を表す表現と、過去完了の使い方が分かる",
+        "条件の if 節や、所要時間・意味上の主語の表し方が分かる",
+        "逆接・手順・対比・理由を表す語句で文の流れをつかめる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The man at the bus stop seemed (　) lost, so I asked him if he needed help.",
+            "choices": [
+                "to be",
+                "be",
+                "being",
+                "been"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "バス停にいた男性は道に迷っているようだったので、私は手伝いが必要かどうか尋ねた。",
+            "explanation": "seem to be ～ で「～のようだ、～のように見える」。様子から推測する表現で、seem の後ろに動詞を続けるときは to＋動詞の原形にする。",
+            "choiceNotes": [
+                "to be「to 不定詞」",
+                "be「原形」",
+                "being「-ing 形」",
+                "been「過去分詞」"
+            ],
+            "tip": "授業の It also seemed to be injured と同じ形。様子から「～のようだ」と推測している。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My parents believe that I should (　) less time playing video games.",
+            "choices": [
+                "spending",
+                "to spend",
+                "spend",
+                "spent"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "両親は、私がゲームをして過ごす時間を減らすべきだと考えている。",
+            "explanation": "should などの助動詞の後ろには動詞の原形を置く。should spend less time で「過ごす時間を減らすべきだ」という判断を表す。",
+            "choiceNotes": [
+                "spending「-ing 形」",
+                "to spend「to 不定詞」",
+                "spend「原形」",
+                "spent「過去形・過去分詞」"
+            ],
+            "tip": "授業の he should do something と同じ形。助動詞の後ろは原形にする。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Jack thought the movie was boring. (　), his sister enjoyed it very much.",
+            "choices": [
+                "Therefore",
+                "However",
+                "For example",
+                "Because"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ジャックはその映画を退屈だと思った。しかし、姉はとても楽しんだ。",
+            "explanation": "「退屈だと思った」と「とても楽しんだ」は反対の感想なので、逆接の However「しかし」が入る。前の文とのつながりで選ぶ。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "However「しかし」",
+                "For example「例えば」",
+                "Because「～なので（＋文）」"
+            ],
+            "tip": "授業の However, Eddie believed ... と同じ。2人の考えが分かれる合図になる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Lisa was glad (　) that her best friend would come to her party.",
+            "choices": [
+                "hear",
+                "heard",
+                "hears",
+                "to hear"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "リサは、親友が自分のパーティーに来てくれると聞いて喜んだ。",
+            "explanation": "be glad to＋動詞の原形で「～してうれしい」。この to 不定詞は「～して」と、うれしくなった原因を表す。",
+            "choiceNotes": [
+                "hear「原形」",
+                "heard「過去形・過去分詞」",
+                "hears「3単現」",
+                "to hear「to 不定詞」"
+            ],
+            "tip": "授業の He was glad to hear that ... と同じ形。「聞いてうれしかった」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Ms. Kato was proud (　) her students worked hard together for the chorus contest.",
+            "choices": [
+                "what",
+                "that",
+                "which",
+                "of"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "加藤先生は、生徒たちが合唱コンクールに向けて一緒に努力したことを誇りに思った。",
+            "explanation": "be proud that S V で「SがVすることを誇りに思う」。後ろに〈主語＋動詞〉の文が続くので that。of の後ろには名詞を置く。",
+            "choiceNotes": [
+                "what「～こと・後ろは不完全」",
+                "that「～ということ（＋文）」",
+                "which「関係代名詞」",
+                "of「proud of＋名詞」"
+            ],
+            "tip": "授業の She was proud that he cared about animals. と同じ形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "When I got home, my brother (　) already eaten all the cookies.",
+            "choices": [
+                "had",
+                "has",
+                "was",
+                "did"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私が家に帰ったとき、弟はもうクッキーを全部食べてしまっていた。",
+            "explanation": "家に帰った時点（過去）より前に食べ終わっていたので、過去完了 had＋過去分詞にする。has（現在完了）は今が基準。",
+            "choiceNotes": [
+                "had「過去完了をつくる」",
+                "has「現在完了をつくる」",
+                "was「be 動詞の過去形」",
+                "did「過去の否定・疑問をつくる」"
+            ],
+            "tip": "授業の the dog had arrived と同じ過去完了。どちらが先に起きたかを確かめる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "If it (　) tomorrow, we will have the sports day in the gym.",
+            "choices": [
+                "raining",
+                "will rain",
+                "rains",
+                "rained"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "明日雨が降れば、運動会は体育館で行う。",
+            "explanation": "条件を表す if 節の中では、未来のことでも現在形で表す。主語が it なので3単現の rains。will rain にはしない。",
+            "choiceNotes": [
+                "raining「-ing 形」",
+                "will rain「未来を表す形」",
+                "rains「現在形（3単現）」",
+                "rained「過去形」"
+            ],
+            "tip": "授業の if he likes it, he will need to pay と同じ。条件の if の中は現在形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "It (　) about twenty minutes to walk from my house to the library.",
+            "choices": [
+                "spends",
+                "costs",
+                "has",
+                "takes"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "私の家から図書館まで歩いて行くのに、約20分かかる。",
+            "explanation": "It takes＋時間＋to＋動詞の原形で「～するのに（時間が）…かかる」。cost は「（お金が）かかる」ときに使う。",
+            "choiceNotes": [
+                "spends「（人が）過ごす」",
+                "costs「（お金が）かかる」",
+                "has「持っている」",
+                "takes「（時間が）かかる」"
+            ],
+            "tip": "授業の It takes about ten minutes to get to ... と同じ形。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Our teacher made a list of easy books (　) us to read during the summer vacation.",
+            "choices": [
+                "of",
+                "by",
+                "for",
+                "with"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "先生は、私たちが夏休みに読むための、やさしい本のリストを作ってくれた。",
+            "explanation": "for＋人＋to＋動詞の原形で「（人）が～するための」。for us が、to read の動作をする人（意味上の主語）を表す。",
+            "choiceNotes": [
+                "of「～の」",
+                "by「～によって」",
+                "for「for＋人＋to V」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の a date for him to tour the apartment と同じ形。「彼が見学するための日」。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "First, wash the vegetables and cut them into small pieces. (　), put them in a pot with some water.",
+            "choices": [
+                "However",
+                "Then",
+                "Because",
+                "Although"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "まず野菜を洗い、小さく切ってください。次に、それを少しの水と一緒になべに入れてください。",
+            "explanation": "First「まず」の後に次の手順を続けているので、Then「それから、次に」が入る。手順を順番に説明するときの目印になる。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Then「それから」",
+                "Because「～なので（＋文）」",
+                "Although「～だけれども」"
+            ],
+            "tip": "授業のメールの ... first. ... Then, if he likes it と同じ。手順の順番を追って読む。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Summer in Hokkaido is very different (　) summer in Okinawa.",
+            "choices": [
+                "from",
+                "for",
+                "of",
+                "on"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "北海道の夏は、沖縄の夏とはずいぶん違う。",
+            "explanation": "be different from ～ で「～とは異なる」。2つのものを比べて違いを述べる表現で、from の後ろに比べる相手を置く。",
+            "choiceNotes": [
+                "from「～とは（different from）」",
+                "for「～のために」",
+                "of「～の」",
+                "on「～の上に」"
+            ],
+            "tip": "授業の This is different from the way ... と同じ形。何と何を比べているかを確かめる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Listening to English songs helps me (　) new words.",
+            "choices": [
+                "learning",
+                "learns",
+                "learned",
+                "learn"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "英語の歌を聞くことは、私が新しい単語を覚えるのに役立っている。",
+            "explanation": "help＋人＋動詞の原形で「（人）が～するのに役立つ」。help＋人＋to＋原形の形もあるが、-ing 形は使わない。",
+            "choiceNotes": [
+                "learning「-ing 形」",
+                "learns「3単現」",
+                "learned「過去形・過去分詞」",
+                "learn「原形」"
+            ],
+            "tip": "授業の helps babies recognize the words と同じ形。help＋人の後ろは原形（to も可）。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Ms. Green taught us a song (　) is popular in Australia.",
+            "choices": [
+                "who",
+                "that",
+                "what",
+                "where"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "グリーン先生は、オーストラリアで人気のある歌を私たちに教えてくれた。",
+            "explanation": "a song を後ろから説明する関係代名詞。is popular の主語が欠けていて、先行詞が物なので主格の that が入る。",
+            "choiceNotes": [
+                "who「主格（人）」",
+                "that「主格（人・物）」",
+                "what「先行詞を含む」",
+                "where「関係副詞・後ろは完全」"
+            ],
+            "tip": "授業の a ... regular rhythm that helps babies ... の that も主格。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Many people visit this beach (　) the water is very clear.",
+            "choices": [
+                "because of",
+                "despite",
+                "because",
+                "during"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "水がとても澄んでいるので、この浜辺には多くの人が訪れる。",
+            "explanation": "後ろに〈主語＋動詞〉の文が続くので、接続詞の because。because of・despite・during は前置詞で、後ろに名詞を置く。",
+            "choiceNotes": [
+                "because of「～のために（＋名詞）」",
+                "despite「～にもかかわらず」",
+                "because「～なので（＋文）」",
+                "during「～の間」"
+            ],
+            "tip": "授業の because they do not always speak ... と同じ。後ろが文なら because。"
+        }
+    ],
+    "closing": "今回の問題は、授業で読んだ物語文、Eメール、説明文の表現をもとに作りました。However や Then、because などは、話の流れや手順、理由を示す目印になり、長文の問題を解くときの手がかりになります。英作文で意見と理由を書くときにも使えるので、間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}

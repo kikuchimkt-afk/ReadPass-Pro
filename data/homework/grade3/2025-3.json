@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・助動詞・不定詞",
+    "aim": "授業で学んだ熟語のセット、助動詞 should・must、不定詞を使う文を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～で有名だ」「どうしたの？」などの言い方を使える",
+        "should・must を使って、すすめや決まりを言える",
+        "「人にとって～するのは…だ」「～の代わりに」がわかる"
+    ],
+    "words": [
+        {
+            "word": "athlete",
+            "meaning": "選手"
+        },
+        {
+            "word": "perfect",
+            "meaning": "完ぺきな"
+        },
+        {
+            "word": "introduce",
+            "meaning": "紹介する"
+        },
+        {
+            "word": "photographer",
+            "meaning": "写真家"
+        },
+        {
+            "word": "museum",
+            "meaning": "博物館・美術館"
+        },
+        {
+            "word": "noisy",
+            "meaning": "うるさい"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "This town is famous for its beautiful river.",
+            "ja": "この町は美しい川で有名です。",
+            "focus": "fp1",
+            "point": "be famous for「～で有名だ」",
+            "note": "be famous for＋名詞で「～で有名だ」。for のあとに有名なものを置く。its は「この町の」という意味。"
+        },
+        {
+            "en": "It is difficult for her to sleep at night.",
+            "ja": "彼女にとって、夜眠るのはむずかしいです。",
+            "focus": "fp2",
+            "point": "It is ～ for 人 to …「人にとって…するのは～だ」",
+            "note": "It は to sleep at night（夜眠ること）を指す。for her は「彼女にとって」で、to のあとは動詞の原形。"
+        },
+        {
+            "en": "He wanted to be a professional musician.",
+            "ja": "彼はプロの音楽家になりたいと思っていました。",
+            "focus": "fp4",
+            "point": "want to be ～「～になりたい」",
+            "note": "want to be＋職業で「～になりたい」。to のあとは動詞の原形 be。アダムスはのちに、音楽家の代わりに写真家の道を選んだ。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Kyoto is famous (　) its old temples.",
+            "choices": [
+                "at",
+                "by",
+                "for",
+                "to"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "京都は古いお寺で有名です。",
+            "explanation": "be famous for ～で「～で有名だ」。for のあとに、その場所で有名なもの（古いお寺）を置く。",
+            "choiceNotes": [
+                "at「～で（場所・時刻）」",
+                "by「～のそばに・～によって」",
+                "for「famous for のセット」",
+                "to「～へ」"
+            ],
+            "tip": "授業の This town is famous for its beautiful river. と同じ形。for を忘れずに。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: What's the (　), Yumi? You look tired.\nB: I didn't sleep well last night.",
+            "choices": [
+                "matter",
+                "plan",
+                "answer",
+                "color"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：どうしたの、ユミ？疲れているみたいだね。\nB：昨夜よく眠れなかったの。",
+            "explanation": "What's the matter? は「どうしたの？」と、相手を心配してたずねる言い方。B は眠れなかったと、そのわけを答えている。",
+            "choiceNotes": [
+                "matter「What's the matter? のセット」",
+                "plan「計画」",
+                "answer「答え」",
+                "color「色」"
+            ],
+            "tip": "授業の What's the matter, Cindy? と同じ。You look tired.（疲れているみたい）が手がかり。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: I have a bad cold.\nB: You should (　) home and rest today.",
+            "choices": [
+                "stays",
+                "stay",
+                "staying",
+                "stayed"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：ひどいかぜをひいています。\nB：今日は家にいて休んだほうがいいですよ。",
+            "explanation": "should は「～したほうがいい」とすすめる言い方。should のあとの動詞は、主語に関係なく原形にする。",
+            "choiceNotes": [
+                "stays「3単現」",
+                "stay「原形」",
+                "staying「ing形」",
+                "stayed「過去形」"
+            ],
+            "tip": "授業の You should climb Mt. Fuji if you have time. と同じ形。should のあとは原形。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "It is important for us (　) breakfast every day.",
+            "choices": [
+                "eat",
+                "eating",
+                "ate",
+                "to eat"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "毎日朝ごはんを食べることは、私たちにとって大切です。",
+            "explanation": "It is ～ for 人 to …で「人にとって…することは～だ」。It は to eat breakfast every day を指す。to のあとは動詞の原形。",
+            "choiceNotes": [
+                "eat「原形」",
+                "eating「ing形」",
+                "ate「過去形」",
+                "to eat「to＋原形」"
+            ],
+            "tip": "授業の It is difficult for her to sleep at night. と同じ形。for 人のあとは to＋原形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "We must (　) quiet in the library.",
+            "choices": [
+                "are",
+                "be",
+                "being",
+                "to be"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "図書館では静かにしなければなりません。",
+            "explanation": "must は「～しなければならない」。must のあとは動詞の原形なので、are ではなく原形の be を使う。",
+            "choiceNotes": [
+                "are「be動詞の現在形」",
+                "be「be動詞の原形」",
+                "being「ing形」",
+                "to be「to＋原形」"
+            ],
+            "tip": "授業の I must write a report ... と同じ形。must のあとも、should と同じく動詞の原形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My sister decided (　) a cake for Mom's birthday.",
+            "choices": [
+                "to make",
+                "make",
+                "making",
+                "made"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "姉は、お母さんの誕生日にケーキを作ることにしました。",
+            "explanation": "decide to＋動詞の原形で「～することに決める」。decided は過去形なので「～することにした」となる。",
+            "choiceNotes": [
+                "to make「to＋原形」",
+                "make「原形」",
+                "making「ing形」",
+                "made「過去形」"
+            ],
+            "tip": "授業の I decided to write my report ... と同じ形。decided to のあとは動詞の原形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Mika chose the blue bag instead (　) the red one.",
+            "choices": [
+                "for",
+                "to",
+                "at",
+                "of"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "ミカは赤いかばんの代わりに青いかばんを選びました。",
+            "explanation": "instead of ～で「～の代わりに」。赤いかばんではなく青いかばんを選んだということ。one は bag のくり返しをさけることば。",
+            "choiceNotes": [
+                "for「～のために」",
+                "to「～へ」",
+                "at「～で（場所・時刻）」",
+                "of「instead of のセット」"
+            ],
+            "tip": "授業のアダムスの話の instead of a professional musician と同じ形。of までセットで覚えよう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: You really love your dog.\nB: Yes. He is (　) a member of our family.",
+            "choices": [
+                "likes",
+                "so",
+                "like",
+                "very"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：本当に犬が大好きなんですね。\nB：はい。この子は家族の一員のような存在です。",
+            "explanation": "この like は「好き」ではなく「～のような」の意味で、後ろに名詞が来る。is のあとに動詞の likes は続かない。so・very は形容詞などにつけるのが基本。",
+            "choiceNotes": [
+                "likes「好きだ（3単現）」",
+                "so「とても」",
+                "like「～のような」",
+                "very「とても」"
+            ],
+            "tip": "授業の the photos were ... like paintings（絵画のよう）と同じ like。"
+        }
+    ],
+    "closing": "今日は、熟語のセットや should・must、to＋動詞の原形を、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。授業で読んだアダムスは、好きな自然の写真をとり続けました。みなさんも、英語の練習を少しずつ続けていきましょう。"
+}

@@ -1,4 +1,18 @@
 {
+  "grade-pre2/2025-3-sat": {
+    "path": "data/homework/grade-pre2/2025-3-sat.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
+  "grade-pre2/2025-3": {
+    "path": "data/homework/grade-pre2/2025-3.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
   "grade-pre2/2026-1-sat": {
     "path": "data/homework/grade-pre2/2026-1-sat.json",
     "layout": "grammar",
@@ -22,6 +36,20 @@
   },
   "grade-pre2/2026-2": {
     "path": "data/homework/grade-pre2/2026-2.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
+  "grade-pre2plus/2025-3-sat": {
+    "path": "data/homework/grade-pre2plus/2025-3-sat.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
+  "grade-pre2plus/2025-3": {
+    "path": "data/homework/grade-pre2plus/2025-3.json",
     "layout": "grammar",
     "title": "文法事項の確認",
     "questions": 14,
@@ -55,6 +83,20 @@
     "questions": 14,
     "translations": 5
   },
+  "grade2/2025-3-sat": {
+    "path": "data/homework/grade2/2025-3-sat.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
+  "grade2/2025-3": {
+    "path": "data/homework/grade2/2025-3.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
+  },
   "grade2/2026-1-sat": {
     "path": "data/homework/grade2/2026-1-sat.json",
     "layout": "grammar",
@@ -83,6 +125,20 @@
     "questions": 14,
     "translations": 5
   },
+  "grade3/2025-3-sat": {
+    "path": "data/homework/grade3/2025-3-sat.json",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "questions": 8,
+    "translations": 3
+  },
+  "grade3/2025-3": {
+    "path": "data/homework/grade3/2025-3.json",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "questions": 8,
+    "translations": 3
+  },
   "grade3/2026-1-sat": {
     "path": "data/homework/grade3/2026-1-sat.json",
     "layout": "writing",
@@ -106,6 +162,13 @@
   },
   "grade3/2026-2": {
     "path": "data/homework/grade3/2026-2.json",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "questions": 8,
+    "translations": 3
+  },
+  "grade4/2025-3": {
+    "path": "data/homework/grade4/2025-3.json",
     "layout": "writing",
     "title": "書いて覚える英語",
     "questions": 8,
@@ -139,6 +202,13 @@
     "questions": 8,
     "translations": 3
   },
+  "grade5/2025-3": {
+    "path": "data/homework/grade5/2025-3.json",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "questions": 8,
+    "translations": 3
+  },
   "grade5/2026-1-sat": {
     "path": "data/homework/grade5/2026-1-sat.json",
     "layout": "writing",
@@ -166,6 +236,13 @@
     "title": "書いて覚える英語",
     "questions": 8,
     "translations": 3
+  },
+  "pre-grade1/2025-3": {
+    "path": "data/homework/pre-grade1/2025-3.json",
+    "layout": "grammar",
+    "title": "文法事項の確認",
+    "questions": 14,
+    "translations": 5
   },
   "pre-grade1/2026-1": {
     "path": "data/homework/pre-grade1/2026-1.json",

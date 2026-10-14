@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-3-sat",
+    "title": "文法事項の確認",
+    "theme": "理由と譲歩・手段と追加・逆接と結論・丁寧な依頼",
+    "aim": "授業の長文に出てきた、理由・原因・譲歩を表す表現、「それは～だからだ」「～することで」の言い方、逆接や結論を示すつなぎの言葉、丁寧な依頼の言い方を、新しい英文の中で使えるようにする。★の問題では、意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "理由を表す関係副詞と、原因・譲歩の前置詞を使い分けられる",
+        "「それは～だからだ」と「～することで」の表し方が分かる",
+        "逆接・結論のつなぎの言葉と「～しつつ」の形を読み取れる",
+        "丁寧に依頼やお願いをするときの決まった形が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "No one knows the reason (　) the old bookstore near the station closed last year.",
+            "choices": [
+                "which",
+                "why",
+                "what",
+                "how"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "駅の近くの古い本屋が昨年閉店した理由は、だれも知らない。",
+            "explanation": "the reason why S V で「SがVする理由」。why は関係副詞で reason を後ろから説明し、後ろには欠けている要素のない完全な文が続く。",
+            "choiceNotes": [
+                "which「関係代名詞・後ろは不完全」",
+                "why「理由（関係副詞）」",
+                "what「先行詞を含む」",
+                "how「方法（reason には不可）」"
+            ],
+            "tip": "授業の reasons why gulls have developed ... と同じ形。「～する理由」と訳す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Our town is becoming more popular with tourists. (　), the number of visitors doubled last year.",
+            "choices": [
+                "However",
+                "Although",
+                "Instead",
+                "In fact"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "私たちの町は観光客の間で人気が高まっている。実際、昨年は訪れる人の数が2倍になった。",
+            "explanation": "In fact は「実際に・実は」で、前の文の内容を具体的な事実で裏づける。人気が高まっている→訪れる人が2倍、という流れになる。",
+            "choiceNotes": [
+                "However「しかし（逆接）」",
+                "Although「～だけれども（接続詞）」",
+                "Instead「その代わりに」",
+                "In fact「実際に・実は」"
+            ],
+            "tip": "授業の In fact, the number of gulls ... と同じ働き。具体的な事実で裏づける。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "(　) the heavy rain, more than 3,000 people came to the outdoor concert.",
+            "choices": [
+                "Despite",
+                "Although",
+                "Because of",
+                "Even"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "大雨にもかかわらず、3,000人を超える人々がその野外コンサートに来た。",
+            "explanation": "despite は前置詞で、後ろに名詞 the heavy rain を置いて「～にもかかわらず」を表す。Although は接続詞なので、名詞だけを続けることはできない。",
+            "choiceNotes": [
+                "Despite「～にもかかわらず」",
+                "Although「～だけれども（接続詞）」",
+                "Because of「～のために」",
+                "Even「～でさえ」"
+            ],
+            "tip": "授業の despite their familiarity と同じ形。後ろが名詞か S V かを確かめる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Many shops in the area closed early (　) the strong typhoon.",
+            "choices": [
+                "because",
+                "despite",
+                "because of",
+                "although"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "強い台風のため、その地域の多くの店が早めに閉まった。",
+            "explanation": "because of＋名詞で「～のために」と原因を表す。because・although は接続詞で、名詞だけは続けられない。despite では意味が逆になる。",
+            "choiceNotes": [
+                "because「～なので（接続詞）」",
+                "despite「～にもかかわらず」",
+                "because of「～のために」",
+                "although「～だけれども」"
+            ],
+            "tip": "授業の Because of less food and space と同じ形。because の後ろに名詞だけは置けない。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Kenta looks very sleepy in class today. This is (　) he stayed up late last night.",
+            "choices": [
+                "why",
+                "because of",
+                "because",
+                "although"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ケンタは今日、授業中とても眠そうだ。それは、昨夜遅くまで起きていたからだ。",
+            "explanation": "This is because S V で「それは～だからだ」。This は前の文を指し、because 以下がその理由。This is why だと後ろに結果がくるので合わない。",
+            "choiceNotes": [
+                "why「後ろは結果」",
+                "because of「後ろは名詞」",
+                "because「後ろは理由」",
+                "although「～だけれども」"
+            ],
+            "tip": "授業の This is because they can have ... と同じ形。前が結果、後ろが理由。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Mika made many new friends by (　) the school volunteer club.",
+            "choices": [
+                "joining",
+                "join",
+                "joined",
+                "to join"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ミカは学校のボランティア部に入ることで、新しい友だちがたくさんできた。",
+            "explanation": "前置詞 by の後ろは動名詞なので joining。by -ing で「～することで」と手段を表し、友だちができた方法を説明している。",
+            "choiceNotes": [
+                "joining「動名詞」",
+                "join「原形」",
+                "joined「過去形・過去分詞」",
+                "to join「to不定詞」"
+            ],
+            "tip": "授業の by talking with elderly people と同じ形。「どうやって」の答えになる部分。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Walking to school is good for your health. (　), it could even help you save money on bus fares.",
+            "choices": [
+                "However",
+                "Also",
+                "For example",
+                "Instead"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "歩いて通学すると健康によい。また、バス代の節約にさえなるかもしれない。",
+            "explanation": "Also は「また」で、前の文の利点にもう一つの利点を加える。could even は「～さえするかもしれない」で、意外な利点を表している。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Also「また（追加）」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の They could even reduce stress と同じく、Also で利点を重ねる流れ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Tom practiced hard for the speech contest. (　), he forgot some of his words on stage.",
+            "choices": [
+                "So",
+                "Because",
+                "For example",
+                "However"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "トムはスピーチコンテストに向けて一生懸命練習した。しかし、本番でいくつか言葉を忘れてしまった。",
+            "explanation": "However は「しかし」で、前の文から予想されることと反対の内容をつなぐ。一生懸命練習した→本番で忘れた、という逆接の流れ。",
+            "choiceNotes": [
+                "So「だから」",
+                "Because「～なので（接続詞）」",
+                "For example「例えば」",
+                "However「しかし（逆接）」"
+            ],
+            "tip": "授業の However, when they were not allowed ... と同じ。話の向きが変わる合図。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Visitors are not (　) to take photos inside the old temple.",
+            "choices": [
+                "allow",
+                "allowed",
+                "allowing",
+                "to allow"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "訪問者は、その古い寺の中で写真を撮ることを許されていない。",
+            "explanation": "be allowed to ～ で「～することを許されている」。allow＋人＋to ～ を受動態にした形で、否定の not は be動詞の後ろに置く。",
+            "choiceNotes": [
+                "allow「原形」",
+                "allowed「過去分詞」",
+                "allowing「-ing形」",
+                "to allow「to不定詞」"
+            ],
+            "tip": "授業の they were not allowed to do so と同じ形。「～してはいけない」に近い意味になる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The next bus was not coming for another hour. (　), we decided to walk to the station.",
+            "choices": [
+                "So",
+                "However",
+                "Although",
+                "Unless"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "次のバスが来るのは1時間後だった。そこで、私たちは駅まで歩くことにした。",
+            "explanation": "So は「だから・そこで」で、前の文の状況を受けて、どう対応したかを続ける。バスが来ない→歩くことにした、という流れになる。",
+            "choiceNotes": [
+                "So「そこで・だから」",
+                "However「しかし」",
+                "Although「～だけれども」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の So, the native people needed to ... と同じ。問題→対策の流れをつかむ。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "The town is trying to attract more tourists (　) protecting its quiet streets.",
+            "choices": [
+                "during",
+                "because",
+                "so",
+                "while"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "その町は、静かな通りを守りつつ、より多くの観光客を呼び込もうとしている。",
+            "explanation": "while -ing で「～しつつ・～しながら」。主節と主語が同じなので、while の後ろの主語と be動詞が省かれ、-ing が続いている。",
+            "choiceNotes": [
+                "during「～の間（後ろは名詞）」",
+                "because「～なので」",
+                "so「だから」",
+                "while「～しつつ」"
+            ],
+            "tip": "授業の while reminding them to respect ... と同じ形。2つのことを両立させる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "We would like (　) to send us your answer by next Friday.",
+            "choices": [
+                "your",
+                "yours",
+                "you",
+                "to you"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "来週の金曜日までに、私たちにお返事を送っていただきたいと思います。",
+            "explanation": "would like＋人＋to＋動詞の原形 で「（人）に～してもらいたい」。want＋人＋to ～ の丁寧な言い方で、人の部分には目的格の you を置く。",
+            "choiceNotes": [
+                "your「あなたの（所有格）」",
+                "yours「あなたのもの」",
+                "you「あなたに（目的格）」",
+                "to you「あなたへ」"
+            ],
+            "tip": "授業の we would like you to share と同じ形。人が入ると「～してほしい」になる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "It would be (　) if you could call me back this afternoon.",
+            "choices": [
+                "glad",
+                "nice",
+                "pleased",
+                "sorry"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "今日の午後に折り返しお電話をいただけるとありがたいです。",
+            "explanation": "主語の it に合うのは nice で、「～していただけるとありがたい」という丁寧な依頼になる。glad・pleased は「（人が）うれしい」で、人を主語にする。",
+            "choiceNotes": [
+                "glad「（人が）うれしい」",
+                "nice「ありがたい・よい」",
+                "pleased「（人が）喜んで」",
+                "sorry「（人が）すまなく思う」"
+            ],
+            "tip": "授業の it would be nice if you could ... と同じ形。丁寧な依頼の決まった言い方。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Please send the application form (　) with a photo of yourself.",
+            "choices": [
+                "across",
+                "among",
+                "along",
+                "against"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "申込用紙を、ご自身の写真と一緒にお送りください。",
+            "explanation": "along with ～ で「～と一緒に」。2語で前置詞のように働き、後ろに名詞を置く。申込用紙に写真を添えて送ることを表している。",
+            "choiceNotes": [
+                "across「～を横切って」",
+                "among「（3つ以上）の間で」",
+                "along「along with で～と一緒に」",
+                "against「～に反対して」"
+            ],
+            "tip": "授業の along with a short message と同じ形。添える物を with の後ろに置く。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問2・3の長文に出てきたものです。授業で解いた大問2でも、In fact や In this way のようなつなぎの言葉を選ぶ問題がありました。前後の文が「理由」「逆接」「結論」のどれでつながっているかを考えると、長文の流れがつかみやすくなります。間違えた問題は授業の英文と並べて音読しましょう。"
+}
