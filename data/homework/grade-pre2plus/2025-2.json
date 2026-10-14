@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-2",
+    "title": "文法事項の確認",
+    "theme": "譲歩と因果・目的と理由・条件と推量・比較と対比",
+    "aim": "授業の長文に出てきた、譲歩と因果を表す表現、言い換えのつなぎの言葉、目的・理由・結果を表す表現、条件と推量の表現、数や量の比較と対比の表現を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "譲歩・因果・言い換えの表現を、文の流れから選べる",
+        "目的・理由・結果を表す表現を正しく使い分けられる",
+        "条件を表す節の動詞の形と、推量の表現が分かる",
+        "数えられる名詞と数えられない名詞に合う比較の形と、対比の表現を選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) my grandfather is over 80, he still goes swimming twice a week.",
+            "choices": [
+                "Because",
+                "Despite",
+                "Although",
+                "Unless"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "祖父は80歳を超えているが、今でも週に2回泳ぎに行っている。",
+            "explanation": "Although S V で「SはVするが」。80歳を超えているという事実を認めたうえで、still（今でも）泳ぎに行くという意外な内容を続けている。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Despite「～にもかかわらず（前置詞）」",
+                "Although「～だけれども」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の Although water is necessary ... と同じ形。前半で認めて、後半で逆の内容を述べる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Riding a bicycle at night without a light can (　) to serious accidents.",
+            "choices": [
+                "lead",
+                "cause",
+                "result",
+                "happen"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "夜にライトをつけずに自転車に乗ると、重大な事故につながることがある。",
+            "explanation": "lead to ～ で「～につながる」。主語の行動が原因で、to の後ろにその結果を置く。cause なら to を付けずに cause accidents とする。",
+            "choiceNotes": [
+                "lead「～につながる」",
+                "cause「～を引き起こす（to は不要）」",
+                "result「result in で～になる」",
+                "happen「起こる」"
+            ],
+            "tip": "授業の one problem can lead to more problems と同じ形。「～につながる」と訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My aunt does not eat meat or fish. (　), she is a vegetarian.",
+            "choices": [
+                "For example",
+                "However",
+                "Instead",
+                "In other words"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "おばは肉も魚も食べない。言い換えれば、菜食主義者だ。",
+            "explanation": "後ろの文は、前の文（肉も魚も食べない）を vegetarian（菜食主義者）という一語で言い換えている。同じ内容を別の言葉で表す In other words が入る。",
+            "choiceNotes": [
+                "For example「例えば」",
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "In other words「言い換えれば」"
+            ],
+            "tip": "授業の In other words と同じ使い方。前の内容を別の言葉でまとめ直すときに使う。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "(　) protect the rare birds, the town closed part of the beach to visitors.",
+            "choices": [
+                "In order to",
+                "So that",
+                "Because of",
+                "As a result"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "珍しい鳥を守るために、町は浜辺の一部を立ち入り禁止にした。",
+            "explanation": "In order to＋動詞の原形 で「～するために」と目的を表す。to protect だけでも目的を表せるが、In order to にすると目的であることがはっきりする。",
+            "choiceNotes": [
+                "In order to「～するために」",
+                "So that「後ろは S V」",
+                "Because of「後ろは名詞」",
+                "As a result「その結果」"
+            ],
+            "tip": "授業の In order to handle the situation と同じ形。後ろは動詞の原形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The soccer game was stopped for 30 minutes yesterday. It was (　) there was lightning near the stadium.",
+            "choices": [
+                "so",
+                "because",
+                "because of",
+                "why"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "昨日、サッカーの試合が30分間中断された。それは、スタジアムの近くで雷が発生したからだ。",
+            "explanation": "It was because S V で「それは～だからだ」。前の文（試合の中断）の理由を後ろで述べている。That was why ～ なら後ろに結果が来る。",
+            "choiceNotes": [
+                "so「だから」",
+                "because「～だから（接続詞）」",
+                "because of「後ろは名詞」",
+                "why「なぜ」"
+            ],
+            "tip": "授業の It was because they were losing ... と同じ形。後ろが理由になる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The town planted many trees along the river. (　), more birds began to visit the area.",
+            "choices": [
+                "On the other hand",
+                "For example",
+                "As a result",
+                "Even so"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "町は川沿いにたくさんの木を植えた。その結果、より多くの鳥がその地域に来るようになった。",
+            "explanation": "前の文（木を植えた）が原因で、後ろの文（鳥が増えた）がその結果になっている。結果を示す As a result「その結果」が入る。",
+            "choiceNotes": [
+                "On the other hand「一方で」",
+                "For example「例えば」",
+                "As a result「その結果」",
+                "Even so「それでも」"
+            ],
+            "tip": "授業の As a result, the species' population ... と同じ。前が原因、後ろが結果。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The students spent three months (　) a small boat for the science festival.",
+            "choices": [
+                "build",
+                "built",
+                "builds",
+                "building"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "生徒たちは3か月かけて、科学祭に出す小さなボートを作った。",
+            "explanation": "spend＋時間＋-ing形 で「～するのに（時間）をかける」。spent three months の後ろには動詞の -ing形 を置くので building が入る。",
+            "choiceNotes": [
+                "build「原形」",
+                "built「過去形・過去分詞」",
+                "builds「3単現」",
+                "building「-ing形」"
+            ],
+            "tip": "授業の spent many years building new ponds と同じ形。後ろは -ing形にする。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "The big question is (　) the new library will be ready before the summer vacation.",
+            "choices": [
+                "what",
+                "whether",
+                "which",
+                "because"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "大きな問題は、新しい図書館が夏休み前に完成するかどうかだ。",
+            "explanation": "whether S V で「SがVするかどうか」。whether 節が is の補語になっている。後ろは欠けている要素のない文なので what や which は入らない。",
+            "choiceNotes": [
+                "what「何が（後ろは不完全）」",
+                "whether「～かどうか」",
+                "which「どちらが（後ろは不完全）」",
+                "because「～なので」"
+            ],
+            "tip": "授業の One of them is whether people will ... と同じ形。「～かどうかだ」と訳す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "If the first train (　) on time tomorrow, we will get to the airport before seven.",
+            "choices": [
+                "leaves",
+                "will leave",
+                "left",
+                "leaving"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "明日、始発電車が時間どおりに出発すれば、7時前に空港に着くだろう。",
+            "explanation": "条件を表す if 節の中では、未来のことでも現在形を使う。主節は will get だが、if 節は現在形の leaves にする。",
+            "choiceNotes": [
+                "leaves「出発する（現在形）」",
+                "will leave「未来の形」",
+                "left「過去形」",
+                "leaving「-ing形」"
+            ],
+            "tip": "授業の if beanless coffee replaces ... と同じ形。条件の if 節は未来でも現在形。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The weather report says it may snow a lot tonight. (　), the school might be closed tomorrow.",
+            "choices": [
+                "However",
+                "Instead",
+                "In that case",
+                "In other words"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "天気予報では、今夜は大雪になるかもしれないという。その場合、明日は休校になるかもしれない。",
+            "explanation": "In that case は「その場合」。前の文の「大雪になる」という状況を受けて、そのときに起こりうること（休校）を might「～かもしれない」で述べている。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "In that case「その場合」",
+                "In other words「言い換えれば」"
+            ],
+            "tip": "授業の In that case, coffee farmers might ... と同じ形。might は弱い推量。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "LED lights use much (　) electricity than old light bulbs.",
+            "choices": [
+                "fewer",
+                "little",
+                "few",
+                "less"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "LED電球は、古い電球よりも使う電気がずっと少ない。",
+            "explanation": "electricity は数えられない名詞なので、量が少ないことを表す less を使う。than があるので比較級が必要。much は比較級を強めて「ずっと」。",
+            "choiceNotes": [
+                "fewer「数が少ない（比較級）」",
+                "little「量が少ない（原級）」",
+                "few「数が少ない（原級）」",
+                "less「量が少ない（比較級）」"
+            ],
+            "tip": "授業の less water is used と同じ使い方。water や electricity は量で考える。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Thanks to the new bus line, (　) people drive to the station than before.",
+            "choices": [
+                "few",
+                "fewer",
+                "much",
+                "little"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "新しいバス路線のおかげで、以前より駅まで車で行く人が減った。",
+            "explanation": "people は数えられる名詞なので、数が少ないことを表す fewer を使う。後ろに than before があるので、原級の few ではなく比較級にする。",
+            "choiceNotes": [
+                "few「数が少ない（原級）」",
+                "fewer「数が少ない（比較級）」",
+                "much「量が多い」",
+                "little「量が少ない」"
+            ],
+            "tip": "授業の fewer forests are cut down と同じ使い方。(11)の less と見比べる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "You can often buy the same book online at a (　) price than at a bookstore.",
+            "choices": [
+                "lower",
+                "low",
+                "lowest",
+                "less"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "同じ本でも、インターネットでは書店より安い値段で買えることが多い。",
+            "explanation": "than があるので比較級の lower が入る。「安い値段」は a low price と表し、比べるときは a lower price than ～ となる。",
+            "choiceNotes": [
+                "lower「より低い（比較級）」",
+                "low「低い（原級）」",
+                "lowest「最も低い（最上級）」",
+                "less「量がより少ない」"
+            ],
+            "tip": "授業の at a lower price than ... と同じ形。値段は high / low で表すのが基本。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) some students walk to school, others come by bus or by bike.",
+            "choices": [
+                "During",
+                "While",
+                "Despite",
+                "On the other hand"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "歩いて通学する生徒がいる一方で、バスや自転車で来る生徒もいる。",
+            "explanation": "While は接続詞で、ここでは While S V, S V. の形で「～する一方で…」と対比を表す。On the other hand は接続詞ではないので、2つの文をつなげない。",
+            "choiceNotes": [
+                "During「前置詞」",
+                "While「～する一方で（接続詞）」",
+                "Despite「前置詞」",
+                "On the other hand「一方で（副詞句）」"
+            ],
+            "tip": "授業の while the price ... is going up と同じ使い方。何と何を比べているかを確かめる。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問2・3の長文に出てきたものです。大問2では In other words を選ぶ問題があり、大問3でも at a lower price than を含む選択肢が正解になっていました。つなぎの言葉や比較の表現に気づくと、文と文の関係がつかみやすくなります。間違えた問題は授業の英文と並べて音読しましょう。"
+}

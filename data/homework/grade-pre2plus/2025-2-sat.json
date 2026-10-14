@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2025-2-sat",
+    "title": "文法事項の確認",
+    "theme": "逆接と追加・使役・理由と手段・目的と対比・依頼",
+    "aim": "授業の長文に出てきた、逆接・追加・結論を示すつなぎの言葉、「（人）に～させる」の形、理由と手段の表し方、目的や対比の表現、丁寧な依頼や案内の言い方を、新しい英文の中で使えるようにする。★の問題では、意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "逆接・追加・結論のつなぎの言葉を、前後の流れから選べる",
+        "「（人）に～させる」の形と、理由・手段の表し方が分かる",
+        "目的を表す不定詞、人を説明する関係代名詞、対比の接続詞が分かる",
+        "案内や依頼で使う丁寧な条件の言い方を読み取れる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Most of my classmates said the math test was easy. (　), I found it very difficult.",
+            "choices": [
+                "Therefore",
+                "However",
+                "Also",
+                "For example"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "クラスメートのほとんどは数学のテストが簡単だったと言った。しかし、私にはとても難しかった。",
+            "explanation": "However は「しかし」で、前の文と反対の内容を続ける。「みんなは簡単だと言った」→「私には難しかった」という逆接の流れ。",
+            "choiceNotes": [
+                "Therefore「そのため（結論）」",
+                "However「しかし（逆接）」",
+                "Also「また（追加）」",
+                "For example「例えば」"
+            ],
+            "tip": "授業の However, a similar study ... と同じ働き。話の向きが変わる合図。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "(　) Mr. Mori is over seventy, he still runs five kilometers every morning.",
+            "choices": [
+                "Despite",
+                "However",
+                "Although",
+                "Because"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "森さんは70歳を超えているが、今でも毎朝5キロ走っている。",
+            "explanation": "Although は接続詞で、後ろに S V を続けて「～だけれども」を表す。「しかし」の However は副詞で、接続詞の代わりにはならない。still（今でも）とも合う。",
+            "choiceNotes": [
+                "Despite「前置詞・後ろは名詞」",
+                "However「しかし（副詞）」",
+                "Although「～だけれども（接続詞）」",
+                "Because「～なので」"
+            ],
+            "tip": "授業の However, ... は前の文を受けて新しい文を始める形。1文の中でつなぐなら Although。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Our new library has twice as many books as the old one. (　), it has a quiet room for studying.",
+            "choices": [
+                "Also",
+                "However",
+                "For example",
+                "Instead"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "新しい図書館には古い図書館の2倍の本がある。また、勉強のための静かな部屋もある。",
+            "explanation": "Also は「また」で、前の文に情報を加える。ここでは良い点を重ねている。本が多い→静かな部屋もある、と情報を重ねる流れ。",
+            "choiceNotes": [
+                "Also「また（追加）」",
+                "However「しかし（逆接）」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の Also, looking at the real paintings ... と同じ働き。情報を重ねる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The results of the survey made the teachers (　) that students needed more time to rest.",
+            "choices": [
+                "to think",
+                "thinking",
+                "thought",
+                "think"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "調査の結果から、先生たちは生徒にはもっと休む時間が必要だと考えた。",
+            "explanation": "make＋人＋動詞の原形で「（人）に～させる」。主語が「調査の結果」なので、「結果から先生たちは～と考えた」と訳すと自然。",
+            "choiceNotes": [
+                "to think「to不定詞」",
+                "thinking「-ing形」",
+                "thought「過去形・過去分詞」",
+                "think「動詞の原形」"
+            ],
+            "tip": "授業の This made the scientists think と同じ形。「～させる」なら人の後ろは原形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Lisa could not sleep well last night (　) her neighbor's dog kept barking.",
+            "choices": [
+                "because",
+                "because of",
+                "so",
+                "although"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "隣の家の犬がずっとほえていたので、リサは昨夜よく眠れなかった。",
+            "explanation": "because は接続詞で、後ろに S V を続けて理由を表す。because of の後ろは名詞。so では原因と結果が逆になる。",
+            "choiceNotes": [
+                "because「～なので（接続詞）」",
+                "because of「後ろは名詞」",
+                "so「だから」",
+                "although「～だけれども」"
+            ],
+            "tip": "授業の because young people are leaving と同じ形。後ろに主語と動詞が続く。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Our school started a new recycling program last year. (　) this, the amount of trash has decreased a lot.",
+            "choices": [
+                "Because",
+                "In spite of",
+                "Instead of",
+                "Because of"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "私たちの学校は昨年、新しいリサイクルの取り組みを始めた。このため、ごみの量が大きく減った。",
+            "explanation": "Because of this で「このため」。this が指す前の文の内容が原因で、後ろの結果が起きたことを表す。接続詞 Because の後ろには S V が必要。",
+            "choiceNotes": [
+                "Because「接続詞」",
+                "In spite of「～にもかかわらず」",
+                "Instead of「～の代わりに」",
+                "Because of「～のために」"
+            ],
+            "tip": "授業の Because of this, many elderly ... と同じ形。前が原因、後ろが結果。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Mr. Sato improved his English (　) watching American TV shows every night.",
+            "choices": [
+                "with",
+                "by",
+                "for",
+                "at"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "佐藤さんは、毎晩アメリカのテレビ番組を見ることで英語力を伸ばした。",
+            "explanation": "by -ing で「～することで」と手段を表す。英語力を伸ばした方法が「毎晩テレビ番組を見ること」だと説明している。",
+            "choiceNotes": [
+                "with「～を使って（道具）」",
+                "by「～によって（手段）」",
+                "for「～のために」",
+                "at「～で（場所・時）」"
+            ],
+            "tip": "授業の by selling these houses と同じ形。どうやったのかを説明する部分。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Emi saved her money for a whole year (　) buy a new guitar.",
+            "choices": [
+                "in order",
+                "so that",
+                "in order to",
+                "because of"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "エミは新しいギターを買うために、まる1年間お金をためた。",
+            "explanation": "in order to＋動詞の原形で「～するために」と目的を表す。so that の後ろには主語と動詞が必要で、in order だけでは原形を続けられない。",
+            "choiceNotes": [
+                "in order「to が必要」",
+                "so that「後ろは S V」",
+                "in order to「～するために」",
+                "because of「後ろは名詞」"
+            ],
+            "tip": "授業の to lead the spirits ... も目的の不定詞。in order to で目的がはっきりする。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The city gave an award to the volunteers (　) clean the beach every month.",
+            "choices": [
+                "who",
+                "which",
+                "whose",
+                "where"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "市は、毎月その海岸を清掃しているボランティアの人たちに賞を贈った。",
+            "explanation": "先行詞 the volunteers は人で、後ろの clean の主語が欠けているので、主格の関係代名詞 who が入る。which は人以外に使う。",
+            "choiceNotes": [
+                "who「主格・人」",
+                "which「主格・人以外」",
+                "whose「所有格」",
+                "where「場所の関係副詞」"
+            ],
+            "tip": "授業の people who have passed away と同じ形。who 以下が前の「人」を説明する。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Some students go home right after school, (　) others stay at school for club activities.",
+            "choices": [
+                "because",
+                "unless",
+                "while",
+                "so"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "放課後すぐに家に帰る生徒もいれば、部活動のために学校に残る生徒もいる。",
+            "explanation": "Some ～, while others … で「～する人もいれば、…する人もいる」。この while は「一方で」と2つのことを対比する接続詞。",
+            "choiceNotes": [
+                "because「～なので」",
+                "unless「～しない限り」",
+                "while「一方で（対比）」",
+                "so「だから」"
+            ],
+            "tip": "授業の Some ..., while others pray. と同じ形。Some と others に注目。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Heavy snow stopped all the trains for two hours. (　), many people were late for work.",
+            "choices": [
+                "However",
+                "Therefore",
+                "For example",
+                "Instead"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "大雪で2時間すべての電車が止まった。そのため、多くの人が仕事に遅刻した。",
+            "explanation": "Therefore は「そのため」で、前の文の内容から導かれる結果や結論を続ける。電車が止まった→仕事に遅れた、という流れ。",
+            "choiceNotes": [
+                "However「しかし（逆接）」",
+                "Therefore「そのため（結論）」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の Therefore, the scene often seems ... と同じ働き。前が理由、後ろが結論。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "If you would like (　) our tennis club, please talk to Ms. Brown after school.",
+            "choices": [
+                "joining",
+                "join",
+                "joined",
+                "to join"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "私たちのテニス部に入りたい場合は、放課後にブラウン先生に話してください。",
+            "explanation": "would like to＋動詞の原形で「～したい」。want to の丁寧な言い方で、If you would like to ～ は「～したい場合は」と案内で使われる。",
+            "choiceNotes": [
+                "joining「-ing形」",
+                "join「動詞の原形」",
+                "joined「過去形・過去分詞」",
+                "to join「to不定詞」"
+            ],
+            "tip": "授業の If you would like to be part of ... と同じ形。to を落とさない。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "We would (　) it if you could bring your own cup to the event.",
+            "choices": [
+                "appreciate",
+                "thank",
+                "ask",
+                "hope"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "イベントにはご自分のカップを持ってきていただけるとありがたいです。",
+            "explanation": "would appreciate it if you could ～ は「～していただけるとありがたい」。it は if 以下の内容を指す。thank は人を目的語にとる。",
+            "choiceNotes": [
+                "appreciate「ありがたく思う」",
+                "thank「（人）に感謝する」",
+                "ask「たずねる・頼む」",
+                "hope「望む」"
+            ],
+            "tip": "授業の we would appreciate it if you could ... と同じ形。it を落とさない。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Do you have any old books you no longer need? If (　), please bring them to the school library.",
+            "choices": [
+                "it",
+                "so",
+                "that",
+                "such"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "もう必要のない古い本はありますか。もしあれば、学校の図書館に持ってきてください。",
+            "explanation": "If so で「もしそうなら」。so は前の文の内容（必要のない古い本がある）を指す。反対の「もしそうでなければ」は If not。",
+            "choiceNotes": [
+                "it「それ」",
+                "so「そう（前の内容を指す）」",
+                "that「あれ・それ」",
+                "such「そのような」"
+            ],
+            "tip": "授業の If so, please come visit us と同じ形。so の中身を前の文で確かめる。"
+        }
+    ],
+    "closing": "今回の問題は、授業で読んだ大問2・3の長文の表現をもとにしています。授業で解いた過去問でも、大問1で Consequently、大問2で Rather のように、前後の文のつながりから語句を選ぶ問題がありました。つなぎの言葉に印をつけながら読むと、文章の流れがつかみやすくなります。間違えた問題は授業の英文と並べて音読しましょう。"
+}
