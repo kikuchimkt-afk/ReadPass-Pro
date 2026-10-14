@@ -28,26 +28,30 @@ fs.mkdirSync(out,{recursive:true});
     assert.notEqual(await card.evaluate(e=>getComputedStyle(e).backgroundImage),'none');
     assert.equal(await page.getByText('授業の復習',{exact:true}).count(),0);
 
-    // Update history: an accordion, newest open, the rest closed; summaries work with the keyboard.
-    const entries=page.locator('.update-history-entry details');
+    // Update history as in the Studio version: one quiet folded block at the bottom; opening it lists every entry.
+    const history=page.locator('details.update-history');
+    const summary=page.locator('.update-history-summary');
+    assert.equal(await history.count(),1);
+    assert.equal(await history.evaluate(d=>d.open),false);
+    assert.equal(await summary.innerText(),'更新履歴');
+    assert.equal(await page.locator('.update-history-list').isVisible(),false);
+    await history.screenshot({path:path.join(out,'history-closed.png')});
+    const entries=page.locator('.update-history-entry');
     const total=await entries.count();
     assert.ok(total>=10,`history entries ${total}`);
-    assert.deepEqual(await entries.evaluateAll(ds=>ds.map(d=>d.open)),[true,...Array(total-1).fill(false)]);
+    await summary.click();
+    assert.ok(await history.evaluate(d=>d.open));
+    assert.ok(await entries.last().locator('h3').isVisible());
     const dates=await page.locator('.update-history-entry time').evaluateAll(ts=>ts.map(t=>t.getAttribute('datetime')));
     assert.deepEqual(dates,[...dates].sort().reverse(),'newest first');
-    const second=entries.nth(1);
-    assert.equal(await second.locator('.update-history-body').isVisible(),false);
-    await second.locator('summary').click();
-    assert.ok(await second.evaluate(d=>d.open));
-    assert.ok(await second.locator('.update-history-body p').isVisible());
-    await second.locator('summary').focus();
-    await page.keyboard.press('Enter');
-    assert.equal(await second.evaluate(d=>d.open),false);
     const first=entries.first();
     assert.match(await first.locator('h3').innerText(),/宿題プリント/);
-    assert.deepEqual(await first.locator('.update-history-meta dt').allTextContents(),['担当モデル（指定）','推論レベル（指定）']);
-    assert.deepEqual(await first.locator('.update-history-meta dd').allTextContents(),['Claude Opus 5.5','xhigh']);
-    await page.locator('.update-history').screenshot({path:path.join(out,'history-desktop.png')});
+    assert.deepEqual(await first.locator('.update-history-model span').allTextContents(),['担当モデル（指定）','推論レベル（指定）']);
+    assert.match(await first.locator('.update-history-model').innerText(),/Claude Opus 5\.5[\s\S]*xhigh/);
+    await history.screenshot({path:path.join(out,'history-desktop.png')});
+    await summary.focus();
+    await page.keyboard.press('Enter');
+    assert.equal(await history.evaluate(d=>d.open),false,'keyboard closes the history');
     await page.locator('.top-actions').screenshot({path:path.join(out,'menu-desktop.png')});
 
     // Homework mode lists only exams that have a homework print, and links to print.html.
@@ -93,9 +97,10 @@ fs.mkdirSync(out,{recursive:true});
     await page.goto(`${base}/top.html`);
     await page.locator('.grade-card').first().waitFor();
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'mobile horizontal scroll');
+    await page.locator('.update-history-summary').click();
     await page.locator('.update-history').screenshot({path:path.join(out,'history-mobile.png')});
     assert.deepEqual(errors,[]);
-    console.log(`TOP HOMEWORK OK: menu card, ${total} history entries (accordion, keyboard), ${expected.length} Grade 3 homework exams linked, dialog deep link, mobile`);
+    console.log(`TOP HOMEWORK OK: menu card, ${total} history entries (folded, opens on click and Enter), ${expected.length} Grade 3 homework exams linked, dialog deep link, mobile`);
     console.log('QA output:',out);
   }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});
