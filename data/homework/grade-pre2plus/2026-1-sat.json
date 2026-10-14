@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2026-1-sat",
+    "title": "文法事項の確認",
+    "theme": "並列と手順・理由と結論・依頼と期限・因果と言い換え",
+    "aim": "授業の長文に出てきた not only ～ but also、By doing so、Another reason is、Therefore、lead to、In other words などの表現を、新しい英文で使えるようにする。★の問題では、意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "not only ～ but also と By doing so が分かる",
+        "Another reason・Therefore で理由と結論をつなぐ",
+        "look after・ask＋人＋to・since・by を使い分けられる",
+        "lead to・In other words・非制限用法の which が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Mika practices the piano every day not only to enjoy music (　) to prepare for a contest.",
+            "choices": [
+                "as well",
+                "or else",
+                "but also",
+                "so that"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ミカは、音楽を楽しむためだけでなく、コンクールに備えるためにも毎日ピアノを練習している。",
+            "explanation": "not only A but also B で「AだけでなくBも」。ここでは A と B に同じ形の to不定詞（～するために）を置き、練習する2つの目的を並べている。",
+            "choiceNotes": [
+                "as well「～もまた」",
+                "or else「さもないと」",
+                "but also「～も（not only と組む）」",
+                "so that「～するように」"
+            ],
+            "tip": "授業の not only to watch ... but also to throw と同じ並べ方。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Ken failed his driving test twice, but (　) he passed it on his third try.",
+            "choices": [
+                "at first",
+                "eventually",
+                "for example",
+                "instead of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ケンは運転免許の試験に2回落ちたが、最終的に3回目で合格した。",
+            "explanation": "eventually は「最終的に・結局は」で、いくつかの段階や失敗を経た後の結果を表す。2回落ちた後、3回目で合格したという流れに合う。",
+            "choiceNotes": [
+                "at first「最初は」",
+                "eventually「最終的に」",
+                "for example「例えば」",
+                "instead of「～の代わりに（前置詞）」"
+            ],
+            "tip": "授業の大問2で正解だった Eventually と同じ語。手順や出来事の最後の段階を示す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "We pick up trash on the beach every month. By (　) so, we help keep the sea clean.",
+            "choices": [
+                "do",
+                "done",
+                "to do",
+                "doing"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "私たちは毎月、浜辺のごみを拾っている。そうすることで、海をきれいに保つのに役立っている。",
+            "explanation": "前置詞 by の後ろは動名詞なので doing。By doing so で「そうすることで」となり、so は前の文の「ごみを拾う」ことを指す。",
+            "choiceNotes": [
+                "do「原形」",
+                "done「過去分詞」",
+                "to do「to不定詞」",
+                "doing「動名詞」"
+            ],
+            "tip": "授業の By doing so, many children ... と同じ形。so が指す内容を前の文で確かめる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "I like this town for several reasons. One reason is the sea. (　) reason is its friendly people.",
+            "choices": [
+                "Another",
+                "Other",
+                "Others",
+                "The others"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私がこの町を好きな理由はいくつかある。一つは海で、もう一つは町の人々が親切なことだ。",
+            "explanation": "One reason is ～ に続けて理由を加えるときは Another reason is ～。another は「もう一つの」で、後ろに単数名詞の reason を置ける。",
+            "choiceNotes": [
+                "Another「もう一つの」",
+                "Other「単数名詞には the などが要る」",
+                "Others「代名詞・ほかのもの」",
+                "The others「残り全部」"
+            ],
+            "tip": "授業の One reason is ... / Another reason is ... と同じ並べ方。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The road was closed because of heavy snow. (　), we could not go skiing that day.",
+            "choices": [
+                "However",
+                "For example",
+                "Although",
+                "Therefore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "道路が大雪で通行止めになった。そのため、その日はスキーに行けなかった。",
+            "explanation": "Therefore は「したがって・そのため」で、前の文が理由、後ろの文が結論・結果になる。通行止め→スキーに行けなかった、という因果をつなぐ。",
+            "choiceNotes": [
+                "However「しかし（逆接）」",
+                "For example「例えば」",
+                "Although「～だけれども（接続詞）」",
+                "Therefore「したがって」"
+            ],
+            "tip": "授業の Therefore, it is important to ... と同じ。前が理由、後ろが結論。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "On hot days, it is important (　) enough water even before you feel thirsty.",
+            "choices": [
+                "drinks",
+                "to drink",
+                "drank",
+                "drink"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "暑い日には、のどが渇く前から十分な水を飲むことが大切だ。",
+            "explanation": "it は形式主語で、本当の主語は後ろの to drink enough water。it is important to＋動詞の原形 で「～することが大切だ」となる。",
+            "choiceNotes": [
+                "drinks「3単現」",
+                "to drink「飲むこと（to不定詞）」",
+                "drank「過去形」",
+                "drink「原形」"
+            ],
+            "tip": "授業の it is important to collect ... と同じ形。it は「それ」と訳さない。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "When I was sick last week, my grandmother (　) after me all day.",
+            "choices": [
+                "took",
+                "made",
+                "looked",
+                "gave"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "先週私が病気だったとき、祖母が一日中世話をしてくれた。",
+            "explanation": "look after ～ で「～の世話をする」。病気の私の世話をしてくれた、という意味になる。take after は「（親など）に似ている」で、文に合わない。",
+            "choiceNotes": [
+                "took「took after で～に似ていた」",
+                "made「作った」",
+                "looked「looked after で世話をした」",
+                "gave「与えた」"
+            ],
+            "tip": "授業の look after your dog と同じ表現。take care of とほぼ同じ意味。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "My mother was busy, so she asked me (　) my little sister up from school.",
+            "choices": [
+                "to pick",
+                "picking",
+                "picked",
+                "pick"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "母は忙しかったので、学校まで妹を迎えに行くよう私に頼んだ。",
+            "explanation": "ask＋人＋to＋動詞の原形 で「人に～するよう頼む」。pick ～ up は「～を迎えに行く」。was busy, so ... で理由と結果をつないでいる。",
+            "choiceNotes": [
+                "to pick「to不定詞」",
+                "picking「-ing形」",
+                "picked「過去形・過去分詞」",
+                "pick「原形」"
+            ],
+            "tip": "授業の so I ask dog owners to bring their food と同じ形。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) the museum is closed on Mondays, let's visit it on Tuesday instead.",
+            "choices": [
+                "Because of",
+                "Since",
+                "Unless",
+                "Even"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その美術館は月曜日が休館なので、代わりに火曜日に行こう。",
+            "explanation": "理由を表す接続詞 since で「～なので」。後ろに S V が続く。Because of は前置詞なので、後ろには名詞を置き、S V は続けられない。",
+            "choiceNotes": [
+                "Because of「～のために（後ろは名詞）」",
+                "Since「～なので」",
+                "Unless「～しない限り」",
+                "Even「～でさえ（副詞）」"
+            ],
+            "tip": "授業の Since you are under eighteen と同じ「理由」の since。「～以来」と区別する。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "I have to finish my science report (　) next Monday.",
+            "choices": [
+                "until",
+                "since",
+                "while",
+                "by"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "私は次の月曜日までに理科のレポートを仕上げなければならない。",
+            "explanation": "by は「～までに」で、期限を表す。until は「～までずっと」で、その時まで続く動作や状態に使うので、「仕上げる」には合わない。",
+            "choiceNotes": [
+                "until「～までずっと（継続）」",
+                "since「～以来」",
+                "while「～する間に（接続詞）」",
+                "by「～までに（期限）」"
+            ],
+            "tip": "授業の Please respond by June 22 と同じ「期限」の by。「までずっと」なら until。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Going to bed late every night can (　) to health problems.",
+            "choices": [
+                "cause",
+                "bring",
+                "lead",
+                "make"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "毎晩寝るのが遅いと、健康上の問題につながることがある。",
+            "explanation": "lead to ～ で「～につながる」。この to は前置詞なので後ろは名詞や動名詞。cause なら to を付けずに cause health problems とする。",
+            "choiceNotes": [
+                "cause「引き起こす（to は不要）」",
+                "bring「持ってくる」",
+                "lead「lead to で～につながる」",
+                "make「作る・～にする」"
+            ],
+            "tip": "授業の which can lead to reduced prices と同じ表現。原因→結果の順に読む。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Twenty of the thirty students in my class walk to school. (　), two-thirds of them come on foot.",
+            "choices": [
+                "In other words",
+                "However",
+                "For example",
+                "Instead"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私のクラスでは、30人のうち20人が歩いて通学している。言い換えれば、3分の2が徒歩で通っている。",
+            "explanation": "In other words は「言い換えれば・つまり」で、前の文の内容を別の言葉で言い直す。ここでは「30人中20人」を「3分の2」と言い換えている。",
+            "choiceNotes": [
+                "In other words「言い換えれば」",
+                "However「しかし」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の In other words と同じ働き。前の文を別の言葉で言い直している。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "My grandfather gave me his old camera, (　) still takes very good pictures.",
+            "choices": [
+                "what",
+                "which",
+                "that",
+                "where"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "祖父が古いカメラを私にくれたが、そのカメラは今でもとてもきれいな写真が撮れる。",
+            "explanation": "コンマの後の which は非制限用法で、前の名詞 camera に説明を加える。which は still takes の主語。that はこの形では使えない。",
+            "choiceNotes": [
+                "what「先行詞を含む」",
+                "which「主格・物」",
+                "that「非制限用法では使えない」",
+                "where「関係副詞・後ろは完全な文」"
+            ],
+            "tip": "授業の healthy fats, which are better than ... と同じ。コンマの後で説明を足す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "In our class, each student is responsible (　) taking care of one plant.",
+            "choices": [
+                "of",
+                "to",
+                "for",
+                "with"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "私たちのクラスでは、生徒がそれぞれ一つの植物の世話を担当している。",
+            "explanation": "be responsible for ～ で「～に責任がある・～を担当している」。for は前置詞なので、後ろの動詞は動名詞の taking になる。",
+            "choiceNotes": [
+                "of「～の」",
+                "to「～へ」",
+                "for「be responsible for で使う」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の are responsible for a large part of ～（大部分を占める）も同じ for。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ大問2・3の長文に出てきたものです。Eventually や Therefore のようなつなぎの言葉は話の流れを示し、授業で解いた大問2でも Eventually を選ぶ問題がありました。One reason is ... / Another reason is ... は、英作文で理由を2つ書くときにも使えます。間違えた問題は授業の英文と並べて音読しましょう。"
+}

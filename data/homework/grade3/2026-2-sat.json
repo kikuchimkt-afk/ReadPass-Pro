@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2026-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の受け答え・時と場所の表現",
+    "aim": "授業で学んだ語句のセット・会話の受け答え・時や場所を表す表現を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "so ～ that や be covered with を書ける",
+        "smell や one を使った受け答えがわかる",
+        "when I was ～ や ～ ago、was born を使える"
+    ],
+    "words": [
+        {
+            "word": "explain",
+            "meaning": "説明する"
+        },
+        {
+            "word": "collect",
+            "meaning": "集める"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "discount",
+            "meaning": "割引"
+        },
+        {
+            "word": "take part in",
+            "meaning": "～に参加する"
+        },
+        {
+            "word": "come true",
+            "meaning": "実現する・かなう"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "It was covered with chocolate and strawberries.",
+            "ja": "それ（ケーキ）はチョコレートとイチゴで覆われていました。",
+            "focus": "fp1",
+            "point": "be covered with「～で覆われている」",
+            "note": "was covered は受け身の形。ケーキは覆われる側。何で覆われているかは with のあとに書く。"
+        },
+        {
+            "en": "I first heard that song when I was ten years old.",
+            "ja": "その曲を初めて聞いたのは、10歳のときでした。",
+            "focus": "fp3",
+            "point": "when I was ～「～だったときに」",
+            "note": "when のあとに主語と動詞を続けて「いつのことか」を表す。ten years old は年れいで「10歳」。"
+        },
+        {
+            "en": "Matthew Henson was born in 1866 in a town near a river.",
+            "ja": "マシュー・ヘンソンは1866年に、川の近くの町で生まれました。",
+            "focus": "fp4",
+            "point": "was born「生まれた」",
+            "note": "was born のあとに in＋年や in＋場所を続けて、いつ・どこで生まれたかを表す。near a river は「川の近くの」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "In winter, the top of the mountain is covered (　) snow.",
+            "choices": [
+                "of",
+                "with",
+                "at",
+                "to"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "冬には、その山の頂上は雪で覆われています。",
+            "explanation": "be covered with ～で「～で覆われている」。何で覆われているか（ここでは snow）を with のあとに置く。",
+            "choiceNotes": [
+                "of「～の」",
+                "with「be covered with のセット」",
+                "at「～に（場所・時刻）」",
+                "to「～へ」"
+            ],
+            "tip": "授業の It was covered with chocolate and strawberries. と同じ形。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This box was (　) heavy that I could not carry it.",
+            "choices": [
+                "very",
+                "too",
+                "much",
+                "so"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "この箱はとても重かったので、私は運ぶことができませんでした。",
+            "explanation": "so＋形容詞＋that＋文で「とても…なので～」。heavy のあとに that があるので so を選ぶ。",
+            "choiceNotes": [
+                "very「とても」",
+                "too「～すぎる」",
+                "much「たくさん」",
+                "so「so … that のセット」"
+            ],
+            "tip": "授業の so small that ... と同じ形。空所＋形容詞＋that の形なら so を思い出そう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Welcome home. I'm baking bread now.\nB: It (　) great! When can we eat it?",
+            "choices": [
+                "smells",
+                "tastes",
+                "hears",
+                "eats"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：おかえりなさい。今、パンを焼いているところです。\nB：いい匂いがしますね。いつ食べられますか。",
+            "explanation": "smell＋形容詞で「～な匂いがする」。B はまだ食べていないので、味の taste ではなく匂いの smell を選ぶ。",
+            "choiceNotes": [
+                "smells「～な匂いがする」",
+                "tastes「～な味がする」",
+                "hears「～を聞く」",
+                "eats「～を食べる」"
+            ],
+            "tip": "授業の It smells great. と同じ形。When can we eat it? から、まだ食べていないとわかる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: This fork is dirty.\nB: Oh, sorry. Here's a clean (　).",
+            "choices": [
+                "it",
+                "ones",
+                "one",
+                "that"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このフォークは汚れています。\nB：あ、ごめんなさい。はい、きれいなフォークをどうぞ。",
+            "explanation": "a clean one の one は、前に出た fork の代わりで「同じ種類の別のもの」を指す。a のあとなので単数の one。",
+            "choiceNotes": [
+                "it「それ（そのもの）」",
+                "ones「one の複数形」",
+                "one「同じ種類のもの1つ」",
+                "that「あれ・それ」"
+            ],
+            "tip": "授業の Put on a clean one. と同じ形。授業では one が T-shirt の代わりだった。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: When did you start playing the piano?\nB: Five years (　). I was seven then.",
+            "choices": [
+                "ago",
+                "old",
+                "long",
+                "last"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：いつピアノを始めたのですか。\nB：5年前です。そのとき私は7歳でした。",
+            "explanation": "～ years ago で「～年前」。B は「そのとき7歳」と言っているので、5は年れいではなく何年前かを表す。",
+            "choiceNotes": [
+                "ago「～前に」",
+                "old「～歳の」",
+                "long「長い」",
+                "last「この前の」"
+            ],
+            "tip": "授業の That was twenty years ago! と同じ。数字が年れいか何年前かを分けて読もう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My cousin started swimming (　) she was six years old.",
+            "choices": [
+                "if",
+                "when",
+                "so",
+                "but"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "いとこは6歳のときに水泳を始めました。",
+            "explanation": "when＋主語＋動詞で「～するとき・～したとき」。when she was six years old で「6歳のときに」となる。",
+            "choiceNotes": [
+                "if「もし～なら」",
+                "when「～のとき」",
+                "so「だから」",
+                "but「しかし」"
+            ],
+            "tip": "授業の I first heard that song when I was ten years old. と同じ形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: (　) was your father born?\nB: In a small town near the sea.",
+            "choices": [
+                "Who",
+                "What",
+                "When",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：あなたのお父さんはどこで生まれたのですか。\nB：海の近くの小さな町です。",
+            "explanation": "答えが「海の近くの小さな町」という場所なので、場所をたずねる Where を選ぶ。生まれた年を答えるなら When になる。",
+            "choiceNotes": [
+                "Who「だれ」",
+                "What「何」",
+                "When「いつ」",
+                "Where「どこで」"
+            ],
+            "tip": "Where was ～ born? は「どこで生まれたか」。授業の in a town near a river のように場所で答える。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My aunt opened a cake shop, and her dream came (　).",
+            "choices": [
+                "truly",
+                "truth",
+                "true",
+                "really"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "おばはケーキ店を開き、夢が実現しました。",
+            "explanation": "come true で「（夢などが）実現する・かなう」。came は come の過去形で、true とセットで使う。",
+            "choiceNotes": [
+                "truly「本当に」",
+                "truth「真実」",
+                "true「come true のセット」",
+                "really「本当に」"
+            ],
+            "tip": "授業の the dream that Henson and Peary had came true と同じ表現。"
+        }
+    ],
+    "closing": "今日は、語句のセットや「いつ」「どこで」を表す英語を、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。数字が出てきたら、年れいなのか何年前なのかを考えて読むと、内容がよくわかるようになります。"
+}

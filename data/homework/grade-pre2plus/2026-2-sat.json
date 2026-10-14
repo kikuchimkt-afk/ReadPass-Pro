@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2026-2-sat",
+    "title": "文法事項の確認",
+    "theme": "分詞・形式目的語 it・予想と上限・倍数比較・let",
+    "aim": "授業で学んだ後置修飾と結果を表す分詞、形式目的語 it と不定詞の意味上の主語、be expected to と no more than、倍数の比較、let＋目的語＋原形を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "名詞を後ろから説明する分詞と、結果を添える -ing を見分けられる",
+        "make it＋形容詞＋for A to V の形を作り、正しく訳せる",
+        "be expected to と no more than を正しく訳せる",
+        "倍数の比較と、let＋目的語＋原形の形を見抜ける"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The cookies (　) by the students for the school festival sold out in an hour.",
+            "choices": [
+                "making",
+                "made",
+                "makes",
+                "make"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "生徒たちが文化祭のために作ったクッキーは、1時間で売り切れた。",
+            "explanation": "made by the students ... が cookies を後ろから説明する過去分詞句。クッキーは「作られる」側なので過去分詞。文の動詞は sold out。",
+            "choiceNotes": [
+                "making「作っている」",
+                "made「作られた（過去分詞）」",
+                "makes「作る（3単現）」",
+                "make「作る（原形）」"
+            ],
+            "tip": "授業の the entrance fees collected と同じ形。名詞が「される」側なら過去分詞。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The town built a new bridge over the river, (　) the trip to the hospital much shorter.",
+            "choices": [
+                "made",
+                "makes",
+                "make",
+                "making"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "町が川に新しい橋をかけたので、病院までの道のりがずっと短くなった。",
+            "explanation": "コンマの後の making ... が、前の出来事（橋をかけたこと）の結果を添える分詞構文。make＋O＋C で「OをCにする」。",
+            "choiceNotes": [
+                "made「過去形・過去分詞」",
+                "makes「3単現」",
+                "make「原形」",
+                "making「その結果～にする」"
+            ],
+            "tip": "授業の lowering ... と同じ形。橋をかけた結果、道のりが短くなったと読む。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "This park, once (　) the dirtiest place in town, is now popular with families.",
+            "choices": [
+                "called",
+                "calling",
+                "calls",
+                "to call"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "かつて町でいちばん汚い場所と呼ばれたこの公園は、今では家族連れに人気がある。",
+            "explanation": "once called ～ が park を後ろから説明する過去分詞句。公園は「呼ばれる」側なので過去分詞。文の動詞は is。",
+            "choiceNotes": [
+                "called「呼ばれた」",
+                "calling「呼んでいる」",
+                "calls「呼ぶ（3単現）」",
+                "to call「呼ぶための（不定詞）」"
+            ],
+            "tip": "授業の the city once called \"the dying city\" と同じ形。コンマの間を外すと骨組みが見える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The city opened a new library near the station, (　) students a quiet place to study.",
+            "choices": [
+                "given",
+                "gives",
+                "giving",
+                "give"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "市は駅の近くに新しい図書館を開き、生徒たちに静かな勉強場所を与えた。",
+            "explanation": "giving ... は、図書館を開いたことの結果を添える分詞構文。give＋人＋物 の形で「生徒たちに静かな場所を与えた」となる。",
+            "choiceNotes": [
+                "given「与えられた」",
+                "gives「3単現」",
+                "giving「その結果～を与える」",
+                "give「原形」"
+            ],
+            "tip": "授業の giving new life to the city と同じ形。(2)の making と同じく、結果を添える -ing。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The thick fog made (　) dangerous for drivers to go fast on the highway.",
+            "choices": [
+                "that",
+                "them",
+                "it",
+                "what"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "濃い霧のため、運転手が高速道路でスピードを出すのは危険だった。",
+            "explanation": "make＋it＋形容詞＋for A to V の形。it は形式目的語で、実際に危険だった内容は後ろの to go fast（スピードを出すこと）。",
+            "choiceNotes": [
+                "that「それ・あれ」",
+                "them「それらを・彼らを」",
+                "it「形式目的語」",
+                "what「～もの・何」"
+            ],
+            "tip": "授業の makes it hard for bacteria to grow と同じ形。it は「それ」と訳さない。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The new app makes it (　) for tourists to buy train tickets.",
+            "choices": [
+                "easy",
+                "easily",
+                "ease",
+                "eased"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その新しいアプリのおかげで、観光客は電車の切符を簡単に買える。",
+            "explanation": "it の後ろには補語が入るので、形容詞の easy を選ぶ。副詞の easily は補語になれない。it の中身は to buy train tickets。",
+            "choiceNotes": [
+                "easy「簡単な（形容詞）」",
+                "easily「簡単に（副詞）」",
+                "ease「容易さ（名詞）」",
+                "eased「和らげた」"
+            ],
+            "tip": "訳の「簡単に」につられて easily を選ばない。it の後ろは形容詞の easy。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Loud music from the next room made it hard (　) the baby to fall asleep.",
+            "choices": [
+                "of",
+                "for",
+                "with",
+                "by"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "隣の部屋の大きな音楽のせいで、赤ちゃんはなかなか寝つけなかった。",
+            "explanation": "for the baby は to fall asleep の意味上の主語。「赤ちゃんが寝つくこと」を難しくした、という関係なので for が入る。",
+            "choiceNotes": [
+                "of「kind など人の性質を表す語と」",
+                "for「不定詞の意味上の主語」",
+                "with「～と一緒に」",
+                "by「～によって」"
+            ],
+            "tip": "授業の for bacteria to grow と同じ。for の後ろが「だれが～するか」を表す。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "According to the news, the bad weather is (　) to continue until the weekend.",
+            "choices": [
+                "expecting",
+                "expects",
+                "expect",
+                "expected"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "ニュースによると、悪天候は週末まで続くと予想されている。",
+            "explanation": "be expected to V で「～すると予想される」。天気は予想する側ではなく予想される側なので、受動態の expected が入る。",
+            "choiceNotes": [
+                "expecting「予想している」",
+                "expects「3単現」",
+                "expect「原形」",
+                "expected「予想される（受動態）」"
+            ],
+            "tip": "授業の The checkup is expected to take ... と同じ形。主語が「される」側かを確かめる。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The new train line is expected (　) the travel time between the two cities by half.",
+            "choices": [
+                "reduced",
+                "to reduce",
+                "reducing",
+                "reduces"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "新しい鉄道路線は、2つの都市の間の移動時間を半分に減らすと見込まれている。",
+            "explanation": "be expected to＋動詞の原形 で「～すると見込まれる」。expected の後ろに to reduce を置く。by half は「半分に」。",
+            "choiceNotes": [
+                "reduced「減らされた」",
+                "to reduce「減らす（to不定詞）」",
+                "reducing「減らしている」",
+                "reduces「3単現」"
+            ],
+            "tip": "is expected to の to を落とさない。授業の is expected to take と同じ並び。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The elevator is small, so no (　) than six people can use it at one time.",
+            "choices": [
+                "much",
+                "most",
+                "more",
+                "very"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "そのエレベーターは小さいので、一度に乗れるのは6人までだ。",
+            "explanation": "no more than＋数 で「多くても～・～以内」と上限を表す。6人を超えては乗れないという意味になる。",
+            "choiceNotes": [
+                "much「たくさんの」",
+                "most「最も多くの」",
+                "more「より多くの」",
+                "very「とても」"
+            ],
+            "tip": "授業の no more than thirty minutes と同じ。「～を超えない」と上限で考える。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The new gym is about four times as (　) as the old one, so the whole school can meet there.",
+            "choices": [
+                "large",
+                "larger",
+                "largest",
+                "largely"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "新しい体育館は古い体育館の約4倍の広さなので、全校生徒が集まれる。",
+            "explanation": "〈倍数＋as＋原級＋as〉で「～の…倍」。as と as の間には原級の large が入る。比較級の larger は than と組み合わせる。",
+            "choiceNotes": [
+                "large「広い（原級）」",
+                "larger「より広い（比較級）」",
+                "largest「最も広い」",
+                "largely「主に」"
+            ],
+            "tip": "as と as の間は原級。(12)の three times longer than と見比べておく。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The battery in my new phone lasts three times (　) than the one in my old phone.",
+            "choices": [
+                "long",
+                "longest",
+                "as long",
+                "longer"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "新しいスマートフォンの電池は、古いものの3倍長もちする。",
+            "explanation": "倍数＋比較級＋than で「～の…倍」。後ろに than があるので比較級の longer が入る。as long なら as ～ as の形になる。",
+            "choiceNotes": [
+                "long「長く（原級）」",
+                "longest「最も長く」",
+                "as long「as ～ as の形で使う」",
+                "longer「より長く（比較級）」"
+            ],
+            "tip": "授業の four times more likely ... than と同じ形。後ろの than が比較級の目印。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Our teacher let the students (　) their own partners for the project.",
+            "choices": [
+                "chose",
+                "to choose",
+                "choose",
+                "choosing"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "先生は、生徒たちにプロジェクトの相手を自分で選ばせてくれた。",
+            "explanation": "let＋O＋動詞の原形 で「Oに～させる（～するのを許す）」。O の後ろは to のつかない原形の choose。",
+            "choiceNotes": [
+                "chose「選んだ（過去形）」",
+                "to choose「to不定詞」",
+                "choose「原形」",
+                "choosing「-ing形」"
+            ],
+            "tip": "授業の let heat escape と同じ形。let の後ろは「O が～する」の関係。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Thick curtains do not (　) much sunlight come into the room.",
+            "choices": [
+                "let",
+                "allow",
+                "keep",
+                "get"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "厚いカーテンは、部屋に日光をあまり入れない。",
+            "explanation": "much sunlight の後ろが原形の come なので、O＋原形をとる let が入る。allow や get を使うなら to come になる。",
+            "choiceNotes": [
+                "let「O に～させる」",
+                "allow「O to V で許す」",
+                "keep「O を～に保つ」",
+                "get「O to V でさせる」"
+            ],
+            "tip": "授業の The open door lets fresh air enter と同じ形。O の後ろの動詞の形を確かめる。"
+        }
+    ],
+    "closing": "今回の4つの文法事項は、どれも大問2・3の長文に出てきたものです。分詞や形式目的語 it の働きが分かると、長い文でも主語と動詞を見失いにくくなります。また、no more than のような数量の表現は、大問3で選択肢を見分ける手がかりにもなりました。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

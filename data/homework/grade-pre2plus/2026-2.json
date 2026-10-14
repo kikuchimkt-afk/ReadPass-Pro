@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2026-2",
+    "title": "文法事項の確認",
+    "theme": "程度と結果・知覚動詞・防止と手助け・which・検討と目的",
+    "aim": "授業で学んだ程度と結果の so ... that、知覚動詞＋O＋-ing、prevent と help、前文を受ける , which、consider -ing と目的の so that を、新しい英文で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "so＋形容詞・副詞＋that を「とても～なので…」と訳せる",
+        "知覚動詞＋O＋-ing を「Oが～している」と読める",
+        "prevent A from -ing と help＋O＋原形を正しく使える",
+        "前文を受ける which、consider -ing、so that が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The soup was (　) hot that I had to wait a few minutes before eating it.",
+            "choices": [
+                "such",
+                "so",
+                "too",
+                "very"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "そのスープはとても熱かったので、私は食べる前に数分待たなければならなかった。",
+            "explanation": "so＋形容詞＋that ～で「とても…なので～」。hot の程度を so で強め、that 以下がその結果（数分待ったこと）を表す。",
+            "choiceNotes": [
+                "such「＋名詞のまとまり」",
+                "so「so ... that（程度と結果）」",
+                "too「～すぎる（too ... to）」",
+                "very「とても」"
+            ],
+            "tip": "授業の so heavy that I couldn't lift it と同じ形。「とても～なので」と前から訳す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The cookie jar was placed so high (　) the little boy could not reach it.",
+            "choices": [
+                "as",
+                "what",
+                "which",
+                "that"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "クッキーのびんはとても高い所に置かれていたので、その男の子は手が届かなかった。",
+            "explanation": "so＋副詞＋that ～の形。high は placed を修飾する副詞。that の後ろは欠けている要素のない完全な文で、高すぎた結果を表す。",
+            "choiceNotes": [
+                "as「～ように・～として」",
+                "what「先行詞を含む」",
+                "which「関係代名詞」",
+                "that「so ... that（結果）」"
+            ],
+            "tip": "授業の positioned so high that ... と同じ形。高すぎた結果、何ができないのかを読み取る。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The children were in the yard, and I could hear them (　) loudly.",
+            "choices": [
+                "laughing",
+                "laughed",
+                "to laugh",
+                "laughs"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "子どもたちが庭にいて、大きな声で笑っているのが聞こえた。",
+            "explanation": "hear も see と同じ知覚動詞。hear＋O＋-ing で「Oが～しているのが聞こえる」。them（子どもたち）が laughing の動作をしている。",
+            "choiceNotes": [
+                "laughing「笑っている」",
+                "laughed「過去形・過去分詞」",
+                "to laugh「to不定詞」",
+                "laughs「3単現」"
+            ],
+            "tip": "授業の see an animal's eyes reflecting と同じ形。「Oが～している」の関係で読む。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Kenta's father rarely cooks, so Kenta was surprised to see him (　) dinner.",
+            "choices": [
+                "cooked",
+                "to cook",
+                "cooking",
+                "cooks"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "健太の父はめったに料理をしないので、健太は父が夕食を作っているのを見て驚いた。",
+            "explanation": "see＋O＋-ing で「Oが～しているのを見る」。目的語の him（父）が cooking の動作をしていて、作っている最中を見ている。",
+            "choiceNotes": [
+                "cooked「過去形・過去分詞」",
+                "to cook「to不定詞」",
+                "cooking「作っている」",
+                "cooks「3単現」"
+            ],
+            "tip": "授業の I saw a boy running across the park. と同じ形。「～しているのを」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The heavy snow prevented the bus (　) arriving on time.",
+            "choices": [
+                "to",
+                "for",
+                "from",
+                "of"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "大雪のせいで、バスは時間どおりに着けなかった。",
+            "explanation": "prevent A from -ing で「Aが～するのを妨げる」。物が主語なので「大雪のせいで、バスは…できなかった」と訳すと自然。",
+            "choiceNotes": [
+                "to「～へ」",
+                "for「～のために」",
+                "from「prevent A from -ing」",
+                "of「～の」"
+            ],
+            "tip": "授業の The rain prevented us from playing outside. と同じ形。主語を「～のせいで」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A bad cold prevented my brother from (　) the school trip.",
+            "choices": [
+                "joining",
+                "join",
+                "joined",
+                "to join"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "ひどい風邪のせいで、兄は修学旅行に参加できなかった。",
+            "explanation": "from は前置詞なので、後ろの動詞は動名詞 joining にする。prevent A from -ing で「Aが～するのを妨げる」。",
+            "choiceNotes": [
+                "joining「動名詞」",
+                "join「原形」",
+                "joined「過去形・過去分詞」",
+                "to join「to不定詞」"
+            ],
+            "tip": "授業の prevent dirt from sticking と同じく、from の後ろは -ing 形にする。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The special cover on this bag helps your books (　) dry even on rainy days.",
+            "choices": [
+                "staying",
+                "stay",
+                "stayed",
+                "stays"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "このかばんの特別なカバーは、雨の日でも本がぬれないようにするのに役立つ。",
+            "explanation": "help＋O＋動詞の原形で「Oが～するのを助ける・～するのに役立つ」。stay dry は「ぬれていない状態のままでいる」。",
+            "choiceNotes": [
+                "staying「-ing 形」",
+                "stay「原形」",
+                "stayed「過去形・過去分詞」",
+                "stays「3単現」"
+            ],
+            "tip": "授業の helps the lotus stay clean と同じ形。to stay とも言えるが、staying は使わない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "Washing your hands often can help (　) you from catching a cold.",
+            "choices": [
+                "preventing",
+                "prevents",
+                "prevented",
+                "prevent"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "こまめに手を洗うことは、風邪をひくのを防ぐのに役立つ。",
+            "explanation": "help＋動詞の原形で「～するのに役立つ」。原形 prevent の後ろに、prevent A from -ing「Aが～するのを防ぐ」が続いている。",
+            "choiceNotes": [
+                "preventing「-ing 形」",
+                "prevents「3単現」",
+                "prevented「過去形・過去分詞」",
+                "prevent「原形」"
+            ],
+            "tip": "授業の helps prevent dirt from sticking と同じ組み合わせ。help＋原形＋A from -ing。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "My brother got up at five this morning, (　) surprised our whole family.",
+            "choices": [
+                "what",
+                "which",
+                "that",
+                "where"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "兄は今朝5時に起き、そのことに家族みんなが驚いた。",
+            "explanation": "コンマの後の which は、直前の名詞ではなく「兄が今朝5時に起きたこと」という前の内容全体を受け、surprised の主語になっている。",
+            "choiceNotes": [
+                "what「先行詞を含む」",
+                "which「前の内容を受ける」",
+                "that「関係詞ならコンマの後は不可」",
+                "where「場所の関係副詞」"
+            ],
+            "tip": "授業の ..., which made his mother happy と同じ形。which が何を受けるか前に戻って確かめる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The train suddenly stopped between two stations, which (　) me late for my piano lesson.",
+            "choices": [
+                "made",
+                "making",
+                "to make",
+                "was made"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "電車が駅と駅の間で急に止まり、そのせいで私はピアノのレッスンに遅れた。",
+            "explanation": "which は「電車が急に止まったこと」という前の内容全体を受け、動詞 made の主語になる。make＋O＋形容詞で「Oを～にする」。",
+            "choiceNotes": [
+                "made「～にした（過去形）」",
+                "making「-ing 形」",
+                "to make「to不定詞」",
+                "was made「受け身」"
+            ],
+            "tip": "この which は「そのせいで」と訳すと、原因と結果の流れがはっきりする。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "The new bread at the small bakery sold out in just one hour, (　) that it was very popular.",
+            "choices": [
+                "proved",
+                "proves",
+                "proving",
+                "proven"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その小さなパン店の新しいパンはわずか1時間で売り切れ、とても人気があることを示した。",
+            "explanation": "proving that ～ は結果を添える分詞構文で「～ということを示している」。文の動詞 sold がすでにあり接続詞もないので、proved や proves は置けない。",
+            "choiceNotes": [
+                "proved「過去形・過去分詞」",
+                "proves「3単現」",
+                "proving「分詞構文（結果）」",
+                "proven「過去分詞（受け身）」"
+            ],
+            "tip": "授業の She won the race, proving that ... と同じ形。前の出来事から言えることを添えている。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "We are considering (　) our club meetings online so that more members can join.",
+            "choices": [
+                "to hold",
+                "hold",
+                "held",
+                "holding"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "より多くの部員が参加できるように、私たちは部のミーティングをオンラインで開くことを検討している。",
+            "explanation": "consider は目的語に動名詞をとるので holding。so that ～ can … は「～が…できるように」という目的を表す。",
+            "choiceNotes": [
+                "to hold「to不定詞」",
+                "hold「原形」",
+                "held「過去形・過去分詞」",
+                "holding「動名詞」"
+            ],
+            "tip": "授業の considering displaying it と、後の文の so that we can を1文にまとめた形。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "My sister is (　) studying in Canada for a year after high school.",
+            "choices": [
+                "hoping",
+                "planning",
+                "considering",
+                "deciding"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "姉は、高校卒業後に1年間カナダに留学することを検討している。",
+            "explanation": "空所の後ろが動名詞 studying なので、動名詞を目的語にとる consider が入る。hope・plan・decide は to不定詞を目的語にとる。",
+            "choiceNotes": [
+                "hoping「＋to不定詞」",
+                "planning「＋to不定詞」",
+                "considering「＋-ing」",
+                "deciding「＋to不定詞」"
+            ],
+            "tip": "consider は enjoy・finish と同じく -ing を目的語にとる動詞。まとめて覚えておく。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Let's leave home a little earlier (　) we don't miss the start of the movie.",
+            "choices": [
+                "so that",
+                "so as",
+                "such as",
+                "in case of"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "映画の始まりを見逃さないように、少し早めに家を出よう。",
+            "explanation": "so that S V で「SがVするように」という目的を表す。ここでは否定の don't miss が続き「見逃さないように」となる。",
+            "choiceNotes": [
+                "so that「～するように」",
+                "so as「so as to＋原形で使う」",
+                "such as「～のような」",
+                "in case of「後ろは名詞」"
+            ],
+            "tip": "(1)(2)の so＋形容詞・副詞＋that は「程度と結果」、この so that は「目的」を表す。"
+        }
+    ],
+    "closing": "準2級プラスの筆記では、文法だけを問う問題は多くありませんが、長文の空所補充や内容一致の問題を正しく解くには、文の形をつかむ力が支えになります。今回の形は、授業で読んだ長文の中に出てきたものです。間違えた問題は授業の英文と並べて音読し、次に長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

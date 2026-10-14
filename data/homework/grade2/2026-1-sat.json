@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2026-1-sat",
+    "title": "文法事項の確認",
+    "theme": "not until の強調構文・同格・丁寧な依頼・受動態",
+    "aim": "授業で学んだ It was not until ... that の強調構文、「, or」・such as などの挿入表現、丁寧な依頼表現、現在完了の受動態や be known as などを、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "It was not until X that ～ を「Xして初めて」と訳せる",
+        "コンマの間の言い換えや例をくくり、文の主語と動詞を見つけられる",
+        "whether・Could you などの丁寧な依頼の形がわかる",
+        "現在完了の受動態や be known as・for の意味がわかる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "It was not until I started living alone (　) I realized how much housework my parents had done for me.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "since"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "一人暮らしを始めて初めて、両親がどれほど多くの家事をしてくれていたかに気づいた。",
+            "explanation": "It was not until X that S V で「Xして初めてSはVした」。not until X を It was と that ではさんで強調した形。",
+            "choiceNotes": [
+                "which「関係代名詞・後ろは不完全」",
+                "what「～こと・後ろは不完全」",
+                "that「強調構文の that」",
+                "since「～以来・～なので」"
+            ],
+            "tip": "授業の It was not until the 1940s that ... と同じ形。「～して初めて」と訳す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The fans only believed their team had really won (　) the final whistle blew.",
+            "choices": [
+                "after",
+                "during",
+                "unless",
+                "by"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "試合終了の笛が鳴って初めて、ファンはチームが本当に勝ったのだと信じた。",
+            "explanation": "only after S V で「～して初めて」。not until とほぼ同じ意味。during と by は前置詞で S V を置けず、unless は意味が合わない。",
+            "choiceNotes": [
+                "after「～したあとで（接続詞にもなる）」",
+                "during「～の間（前置詞）」",
+                "unless「～しない限り」",
+                "by「～までに（前置詞）」"
+            ],
+            "tip": "授業の only began after ... と同じ only after。「～して初めて」と訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The doctor says you should not play sports until your leg (　) completely.",
+            "choices": [
+                "will heal",
+                "healed",
+                "healing",
+                "heals"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "医者は、脚が完全に治るまではスポーツをしないほうがよいと言っている。",
+            "explanation": "not ... until ～ で「～するまで…しない」。時を表す until の節では、未来のことでも現在形で表すので heals が入る。",
+            "choiceNotes": [
+                "will heal「未来を表す形」",
+                "healed「過去形」",
+                "healing「-ing形」",
+                "heals「現在形（3単現）」"
+            ],
+            "tip": "授業の was not discovered until ... と同じ形。「治って初めて運動できる」と考える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Some animals hibernate, or (　) through the winter, to save energy when food is hard to find.",
+            "choices": [
+                "sleeping",
+                "sleep",
+                "to sleep",
+                "slept"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "食べ物を見つけにくい時期にエネルギーを節約するため、冬眠する、つまり冬の間ずっと眠って過ごす動物もいる。",
+            "explanation": "「, or ～,」は直前の語をやさしく言い換える表現で「つまり」の意味。hibernate を言い換えるので、同じ現在形の sleep が入る。",
+            "choiceNotes": [
+                "sleeping「-ing形」",
+                "sleep「現在形（hibernate と同じ形）」",
+                "to sleep「to不定詞」",
+                "slept「過去形」"
+            ],
+            "tip": "授業の a habitat, or a place to live と同じ or。「または」ではなく「つまり」。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Outdoor activities, such as hiking in the mountains, (　) a good way to reduce stress.",
+            "choices": [
+                "is",
+                "being",
+                "to be",
+                "are"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "山でのハイキングなどの野外活動は、ストレスを減らすよい方法だ。",
+            "explanation": "such as ～ は直前の名詞の具体例を挙げる挿入。主語は複数の Outdoor activities なので、文の動詞は are になる。",
+            "choiceNotes": [
+                "is「主語が単数のとき」",
+                "being「-ing形（文の動詞にならない）」",
+                "to be「to不定詞」",
+                "are「主語が複数のとき」"
+            ],
+            "tip": "授業の Citrus fruits, such as ..., are と同じ形。直前の hiking に合わせない。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "My uncle, (　) owner of a small bakery in Nagano, gets up at four every morning to bake bread.",
+            "choices": [
+                "who",
+                "he",
+                "the",
+                "is"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "長野で小さなパン屋を営むおじは、パンを焼くために毎朝4時に起きる。",
+            "explanation": "the owner of ～ が My uncle を説明する同格の名詞句。コンマの間に動詞はなく、文の動詞は gets。who や is を入れると文が成り立たない。",
+            "choiceNotes": [
+                "who「関係代名詞・後ろに動詞が必要」",
+                "he「主語が重なる」",
+                "the「同格の名詞句をつくる」",
+                "is「文の動詞は gets」"
+            ],
+            "tip": "授業の The blue whale, the largest animal ... と同じ形。コンマの間をくくる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "I am writing to ask (　) it would be possible to visit your school during the summer vacation.",
+            "choices": [
+                "that",
+                "whether",
+                "what",
+                "which"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "夏休みの間に貴校を訪問することが可能かどうかお尋ねしたく、ご連絡しております。",
+            "explanation": "ask whether S V で「～かどうかを尋ねる」。後ろは完全な文なので what・which は不可。that では「尋ねる」の意味にならない。would は丁寧さを出す働き。",
+            "choiceNotes": [
+                "that「～ということ」",
+                "whether「～かどうか」",
+                "what「何を（後ろは不完全）」",
+                "which「どちらを（後ろは不完全）」"
+            ],
+            "tip": "授業の I am writing to ask whether ... と同じ形。メールの用件を切り出す定型。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Could you tell me (　) I should wear to the welcome party on Friday?",
+            "choices": [
+                "what",
+                "how",
+                "whether",
+                "that"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "金曜日の歓迎会に何を着ていけばよいか、教えていただけますか。",
+            "explanation": "Could you tell me＋疑問詞＋S V で「～か教えていただけますか」。wear の目的語が欠けているので、名詞の働きをする what が入る。",
+            "choiceNotes": [
+                "what「何を（名詞の働き）」",
+                "how「どのように（副詞）」",
+                "whether「～かどうか」",
+                "that「～ということ」"
+            ],
+            "tip": "授業の Could you tell me what documents ...? と同じ形。後ろは S V の語順。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Please let me (　) if you have any questions about the new schedule.",
+            "choices": [
+                "to know",
+                "knowing",
+                "know",
+                "known"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい予定について何か質問があれば、お知らせください。",
+            "explanation": "let＋O＋原形で「Oに～させる」。Please let me know if ～ で「～ならお知らせください」と、相手に連絡を求める定型表現。",
+            "choiceNotes": [
+                "to know「to不定詞」",
+                "knowing「-ing形」",
+                "know「原形」",
+                "known「過去分詞」"
+            ],
+            "tip": "授業の Please let me know if there is ... と同じ形。メールの最後でよく使われる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Would it be possible (　) us to use the music room after school on Friday?",
+            "choices": [
+                "for",
+                "of",
+                "to",
+                "with"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "金曜日の放課後に、私たちが音楽室を使うことは可能でしょうか。",
+            "explanation": "it は形式主語で、to use 以下が本当の主語。不定詞の意味上の主語は for＋人で表すので、for us で「私たちが」となる。",
+            "choiceNotes": [
+                "for「不定詞の意味上の主語」",
+                "of「人の性質を表す形容詞と使う」",
+                "to「～へ」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の possible for the student to join と同じ for＋人＋to V の形。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Since the 1990s, efforts (　) to bring wild storks back to this area.",
+            "choices": [
+                "have made",
+                "have been made",
+                "were made",
+                "has been made"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "1990年代から、この地域に野生のコウノトリを呼び戻す取り組みが行われてきた。",
+            "explanation": "Since the 1990s（1990年代から今まで）があるので現在完了。efforts は「なされる」側なので受動態にし、主語が複数なので have been made。",
+            "choiceNotes": [
+                "have made「能動」",
+                "have been made「完了・受動」",
+                "were made「過去・受動」",
+                "has been made「主語が単数」"
+            ],
+            "tip": "授業の efforts have been made to create と同じ形。「行われてきた」と訳すと自然。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "This city is known (　) the \"City of Water\" because it has many rivers and bridges.",
+            "choices": [
+                "for",
+                "to",
+                "with",
+                "as"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この都市は、川や橋が多いことから「水の都」として知られている。",
+            "explanation": "be known as ～ で「～として知られている」。as の後ろは主語の呼び名や立場で、「この都市＝水の都」の関係になっている。",
+            "choiceNotes": [
+                "for「～で（理由・特徴）」",
+                "to「～に（知られている相手）」",
+                "with「～と一緒に」",
+                "as「～として」"
+            ],
+            "tip": "授業の This area is known as ... と同じ as。(14)の known for と比べる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Large trucks are banned (　) using this narrow road during the morning rush hour.",
+            "choices": [
+                "from",
+                "to",
+                "of",
+                "in"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "朝の混雑する時間帯には、大型トラックはこの狭い道路の通行を禁止されている。",
+            "explanation": "ban A from -ing「Aが～するのを禁止する」の受動態で、A is banned from -ing。from は前置詞なので、後ろの動詞は動名詞にする。",
+            "choiceNotes": [
+                "from「ban A from -ing」",
+                "to「～へ」",
+                "of「～の」",
+                "in「～の中で」"
+            ],
+            "tip": "授業の cars are banned from this street と同じ from。後ろは名詞か動名詞。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "This small town is known (　) its beautiful cherry blossoms in spring.",
+            "choices": [
+                "as",
+                "to",
+                "for",
+                "with"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この小さな町は、春の美しい桜で知られている。",
+            "explanation": "be known for ～ で「～で知られている」。for の後ろは有名である理由や特徴。「町＝桜」ではないので as は使えない。",
+            "choiceNotes": [
+                "as「～として」",
+                "to「～に（知られている相手）」",
+                "for「～で（理由・特徴）」",
+                "with「～と一緒に」"
+            ],
+            "tip": "「町＝桜」ではないので as は不可。(12)の known as と並べて見比べる。"
+        }
+    ],
+    "closing": "今回の4つの形は、どれも授業で読んだ長文の中で使われていました。It was not until や「, or」の言い換えに気づくと、出来事の順序や難しい語の意味がつかみやすくなります。丁寧な依頼の表現は、長文のEメールを読むときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

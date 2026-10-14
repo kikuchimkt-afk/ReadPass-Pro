@@ -990,30 +990,30 @@ body {
     outline: 3px solid #dc2626;
 }
 
-.hw-pages.hw-tight .hw-q-stem,
-.hw-pages.hw-tight .hw-choices {
+.hw-page.hw-tight .hw-q-stem,
+.hw-page.hw-tight .hw-choices {
     font-size: 10.2pt;
 }
 
-.hw-pages.hw-tight .hw-write span {
+.hw-page.hw-tight .hw-write span {
     height: 7.8mm;
 }
 
-.hw-pages.hw-tight .hw-ex {
+.hw-page.hw-tight .hw-ex {
     padding: 1.1mm 0 0.9mm;
 }
 
-.hw-pages.hw-tight .hw-ex-stem {
+.hw-page.hw-tight .hw-ex-stem {
     font-size: 9.6pt;
 }
 
-.hw-pages.hw-tight .hw-ex-line,
-.hw-pages.hw-tight .hw-correct {
+.hw-page.hw-tight .hw-ex-line,
+.hw-page.hw-tight .hw-correct {
     font-size: 9pt;
 }
 
-.hw-pages.hw-tight .hw-tip,
-.hw-pages.hw-tight .hw-closing {
+.hw-page.hw-tight .hw-tip,
+.hw-page.hw-tight .hw-closing {
     font-size: 8.5pt;
 }
 
@@ -1049,6 +1049,13 @@ body {
     white-space: pre;
 }
 
+/* Dialogue items keep their speaker lines. */
+.hw-q-stem .hw-en,
+.hw-ex-stem .hw-en,
+.hw-ex-line {
+    white-space: pre-line;
+}
+
 .hw-choices {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1073,10 +1080,10 @@ body {
 }
 
 .hw-answer-row {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(21mm, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 2mm 3mm;
+    gap: 2mm 2.6mm;
     margin-top: 4mm;
     padding: 2.4mm 3.5mm;
     border: 0.3mm solid var(--hw-line);
@@ -1085,9 +1092,10 @@ body {
 }
 
 .hw-answer-label {
-    grid-column: 1 / -1;
+    margin-right: 1mm;
     color: var(--hw-navy);
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .hw-answer-row span:not(.hw-answer-label) {
@@ -1249,6 +1257,220 @@ body {
 .hw-qr canvas {
     width: 22mm !important;
     height: 22mm !important;
+}
+
+.hw-page.hw-tighter .hw-q-stem,
+.hw-page.hw-tighter .hw-choices {
+    font-size: 9.8pt;
+}
+
+.hw-page.hw-tighter .hw-write span {
+    height: 7.2mm;
+}
+
+.hw-page.hw-tighter .hw-ex {
+    padding: 0.8mm 0 0.6mm;
+}
+
+.hw-page.hw-tighter .hw-ex-stem {
+    font-size: 9.2pt;
+}
+
+.hw-page.hw-tighter .hw-ex-line,
+.hw-page.hw-tighter .hw-correct {
+    font-size: 8.6pt;
+}
+
+.hw-page.hw-tighter .hw-ex-notes {
+    font-size: 7.6pt;
+}
+
+.hw-page.hw-tighter .hw-tip,
+.hw-page.hw-tighter .hw-closing {
+    font-size: 8.2pt;
+}
+
+/* ----- Writing-heavy layout (Grade 3 and below): 英語4線 ----- */
+.hw-layout-writing .hw-ex {
+    padding: 2.2mm 0 1.8mm;
+}
+
+.hw-layout-writing .hw-ex-stem {
+    font-size: 11pt;
+}
+
+.hw-layout-writing .hw-ex-line,
+.hw-layout-writing .hw-correct {
+    font-size: 10pt;
+}
+
+.hw-layout-writing .hw-ex-notes {
+    font-size: 8.6pt;
+}
+
+.hw-layout-writing .hw-tip {
+    font-size: 9.6pt;
+}
+
+.hw-layout-writing .hw-spell-key div,
+.hw-layout-writing .hw-copy-key p {
+    font-size: 10pt;
+}
+
+.hw-4line {
+    position: relative;
+    display: block;
+    min-width: 0;
+}
+
+.hw-4line i {
+    display: block;
+    border-top: 0.25mm solid #8a94a6;
+}
+
+.hw-4line i:nth-of-type(1) {
+    height: 2.2mm;
+}
+
+.hw-4line i:nth-of-type(2) {
+    height: 3.6mm;
+    border-top: 0.2mm dashed #aab3c2;
+}
+
+.hw-4line i:nth-of-type(3) {
+    height: 2.2mm;
+    border-top: 0.3mm solid #d36b6b;
+    border-bottom: 0.25mm solid #8a94a6;
+}
+
+.hw-4line-model {
+    position: absolute;
+    left: 1.6mm;
+    bottom: calc(2.2mm - 0.22em);
+    color: #aeb6c4;
+    font-family: 'UD Digi Kyokasho NK-R', 'UD Digi Kyokasho N-R', 'UD デジタル 教科書体 NK-R', 'Century Gothic', Arial, sans-serif;
+    font-size: 7.2mm;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.hw-part {
+    margin-top: 2.6mm;
+}
+
+.hw-part .hw-h {
+    margin: 0 0 0.6mm;
+}
+
+.hw-word {
+    display: grid;
+    grid-template-columns: 25mm 1.3fr 1fr 1fr;
+    align-items: end;
+    gap: 3mm;
+    padding: 1.3mm 0;
+    border-bottom: 0.2mm dashed var(--hw-line);
+}
+
+.hw-word-ja {
+    padding-bottom: 1mm;
+    font-size: 9pt;
+    line-height: 1.3;
+}
+
+.hw-copy {
+    padding: 1.8mm 0 2mm;
+    border-bottom: 0.2mm dashed var(--hw-line);
+}
+
+.hw-copy-head {
+    display: flex;
+    gap: 1.6mm;
+    font-size: 10.6pt;
+}
+
+.hw-copy-ja {
+    margin: 0.4mm 0 1.2mm 6mm;
+    color: #374151;
+    font-size: 8.8pt;
+}
+
+.hw-copy-point {
+    color: var(--hw-navy);
+    font-weight: 600;
+}
+
+.hw-4lines {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4mm;
+    margin-left: 6mm;
+}
+
+.hw-q .hw-4lines {
+    margin: 1.6mm 0 0 7mm;
+}
+
+.hw-layout-writing .hw-goals {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 5mm;
+}
+
+.hw-spell {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.4mm 6mm;
+    padding-top: 1mm;
+}
+
+.hw-spell-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8mm;
+}
+
+.hw-spell-q {
+    font-size: 9pt;
+    line-height: 1.3;
+}
+
+.hw-spell-q .hw-q-num {
+    margin-right: 1mm;
+}
+
+.hw-spell-hint {
+    margin-left: 2mm;
+    color: #6b7280;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.08em;
+}
+
+.hw-spell-key div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6mm 6mm;
+    font-size: 9pt;
+}
+
+.hw-spell-key .hw-q-num,
+.hw-copy-key .hw-q-num {
+    margin-right: 1mm;
+}
+
+.hw-spell-key,
+.hw-copy-key {
+    padding-top: 2mm;
+}
+
+.hw-copy-key p {
+    margin-bottom: 1.2mm;
+    font-size: 9.2pt;
+    line-height: 1.5;
+}
+
+.hw-copy-note {
+    color: #374151;
+    font-size: 8.8pt;
 }
 
 /* ===== Homework dialog ===== */

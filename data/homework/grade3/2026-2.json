@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2026-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・会話の表現・つなぎのことば",
+    "aim": "授業で学んだ熟語・会話の表現・つなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "be proud of や tired of ～ing などのセットを書ける",
+        "How long ～? や Will you ～? の文を作れる",
+        "If・so・because of の使い方がわかる"
+    ],
+    "words": [
+        {
+            "word": "improve",
+            "meaning": "上達させる"
+        },
+        {
+            "word": "protect",
+            "meaning": "守る"
+        },
+        {
+            "word": "local",
+            "meaning": "地元の"
+        },
+        {
+            "word": "give up",
+            "meaning": "あきらめる"
+        },
+        {
+            "word": "interview",
+            "meaning": "インタビューする"
+        },
+        {
+            "word": "environment",
+            "meaning": "環境"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Her parents were very proud of her.",
+            "ja": "両親は彼女をとても誇りに思いました。",
+            "focus": "fp1",
+            "point": "be proud of「～を誇りに思う」",
+            "note": "be proud of＋人で「人を誇りに思う」。proud と of はセットで使う。"
+        },
+        {
+            "en": "How long have you lived here?",
+            "ja": "ここにどのくらい住んでいるのですか。",
+            "focus": "fp2",
+            "point": "How long have you ～?「どのくらい～か」",
+            "note": "現在完了の疑問文で、今まで続いている期間をたずねる。have のあとは過去分詞の lived。"
+        },
+        {
+            "en": "Humans did not like this, so they hunted the gray wolves.",
+            "ja": "人間はこれを好まなかったので、ハイイロオオカミを狩りました。",
+            "focus": "fp4",
+            "point": "so「だから」（後ろが結果）",
+            "note": "so の前が理由、後ろが結果。「～なので…」と前から順に意味をとる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My grandfather is very proud (　) his old car.",
+            "choices": [
+                "at",
+                "of",
+                "for",
+                "with"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "祖父は自分の古い車をとても誇りに思っています。",
+            "explanation": "be proud of ～で「～を誇りに思う」。proud のあとは of をセットで使う。",
+            "choiceNotes": [
+                "at「～に（場所・時刻）」",
+                "of「be proud of のセット」",
+                "for「～のために」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の Her parents were very proud of her. と同じ形。proud of をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "I'm tired of (　) the same video every day.",
+            "choices": [
+                "watch",
+                "watched",
+                "to watch",
+                "watching"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "毎日同じ動画を見るのに飽きています。",
+            "explanation": "be tired of ～ing で「～するのに飽きている」。of のような前置詞のあとの動詞は ing の形にする。",
+            "choiceNotes": [
+                "watch「原形」",
+                "watched「過去形」",
+                "to watch「to＋原形」",
+                "watching「ing形」"
+            ],
+            "tip": "前置詞 of のあとの動詞は ing 形。tired of watching をひとまとまりで言えるようにしよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: How long have you (　) Spanish?\nB: Since I was ten years old.",
+            "choices": [
+                "studied",
+                "study",
+                "studying",
+                "studies"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：スペイン語をどのくらい勉強しているのですか。\nB：10歳のときからです。",
+            "explanation": "How long have you＋過去分詞 ～? は、今まで続いている期間をたずねる現在完了の疑問文。have のあとは過去分詞の studied。",
+            "choiceNotes": [
+                "studied「過去分詞」",
+                "study「原形」",
+                "studying「ing形」",
+                "studies「3単現」"
+            ],
+            "tip": "授業の How long have you lived here? と同じ形。答えは Since ～（～から）や For ～ で言える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: I left my eraser at home. (　) you lend me yours?\nB: Sure. Here you are.",
+            "choices": [
+                "Are",
+                "Do",
+                "Will",
+                "Have"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：消しゴムを家に忘れてきました。あなたのを貸してくれますか。\nB：いいですよ。はい、どうぞ。",
+            "explanation": "Will you ～? は「～してくれますか」とたのむ言い方。lend 人 物で「人に物を貸す」。yours は「あなたの消しゴム」。",
+            "choiceNotes": [
+                "Are「be動詞の疑問文」",
+                "Do「ふだんのことをたずねる」",
+                "Will「～してくれますか」",
+                "Have「現在完了の疑問文」"
+            ],
+            "tip": "Sure.（いいですよ）という返事から、たのみごとの文だとわかる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "The library is closed (　) Mondays.",
+            "choices": [
+                "in",
+                "at",
+                "on",
+                "to"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "その図書館は毎週月曜日が休館日です。",
+            "explanation": "「月曜日に」のように曜日だけで言うときは on を使う。Mondays と複数形にすると「毎週月曜日に」の意味になる。",
+            "choiceNotes": [
+                "in「月・季節・年など」",
+                "at「時刻など」",
+                "on「曜日・日付」",
+                "to「～へ」"
+            ],
+            "tip": "掲示やメールでは、曜日が「いつ」の大事な手がかりになる。on＋曜日をセットで覚えよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "If it (　) tomorrow, we will play basketball in the gym.",
+            "choices": [
+                "rains",
+                "rained",
+                "will rain",
+                "raining"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "もし明日雨が降ったら、私たちは体育館でバスケットボールをします。",
+            "explanation": "「もし～なら」の If のあとは、明日のことでも現在形で表すのが基本。主語が it なので rains。",
+            "choiceNotes": [
+                "rains「現在形（3単現）」",
+                "rained「過去形」",
+                "will rain「未来の形」",
+                "raining「ing形」"
+            ],
+            "tip": "授業の If you have any questions, ... も If のあとは現在形。明日のことでも rains になる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "It was very cold, (　) I put on my warm coat.",
+            "choices": [
+                "because",
+                "but",
+                "if",
+                "so"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "とても寒かったので、私は暖かいコートを着ました。",
+            "explanation": "so の前が理由、後ろが結果。「寒かった → だからコートを着た」という流れになる。",
+            "choiceNotes": [
+                "because「～なので（後ろが理由）」",
+                "but「しかし」",
+                "if「もし～なら」",
+                "so「だから（後ろが結果）」"
+            ],
+            "tip": "授業の Humans did not like this, so they hunted ... と同じ。so の後ろには結果が来る。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "We could not play soccer (　) the heavy rain.",
+            "choices": [
+                "because",
+                "because of",
+                "so",
+                "and"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "激しい雨のせいで、私たちはサッカーができませんでした。",
+            "explanation": "because of＋名詞で「～のせいで・～が原因で」。the heavy rain は名詞のまとまりなので because of を使う。",
+            "choiceNotes": [
+                "because「後ろは主語と動詞のある文」",
+                "because of「後ろは名詞」",
+                "so「だから」",
+                "and「そして」"
+            ],
+            "tip": "授業の Because of this, ... と同じ形。of のあとには名詞が来ることを確かめよう。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながらもう一度書いてみましょう。まちがえたつづりは、Part 1 のお手本で確かめてから書き直しましょう。"
+}

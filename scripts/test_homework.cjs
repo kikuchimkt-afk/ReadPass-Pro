@@ -7,6 +7,32 @@ const base=process.argv[2]||'http://127.0.0.1:8085';
 const out=path.resolve(__dirname,'../tmp/qa-homework');
 fs.mkdirSync(out,{recursive:true});
 const TARGET={chip:'準1級',grade:'pre-grade1',exam:'2026-2',title:'英検準1級 2026年度 第2回'};
+const CHIPS={'pre-grade1':'（準1級相当）',grade2:'（2級相当）','grade-pre2plus':'（準2級プラス相当）','grade-pre2':'（準2級相当）',grade3:'（3級相当）',grade4:'（4級相当）',grade5:'英検5級'};
+
+// Open one set with the dialog defaults; return per-page fit and the rendered numbering.
+async function renderSet(page,grade,exam){
+  await page.goto(`${base}/print.html`);
+  await page.locator('.grade-chip').filter({hasText:CHIPS[grade]}).first().click();
+  await page.locator(`#examCheckboxes input[value="${exam}"]`).check();
+  await page.locator(`.teacher-material-row[data-homework="${exam}"] .homework-open`).click();
+  await page.locator('#hwCreate').click();
+  await page.waitForFunction(()=>document.querySelectorAll('.hw-ex').length>0&&document.querySelector('.hw-qr img, .hw-qr canvas'));
+  return page.evaluate(()=>({
+    overflow:document.querySelectorAll('.hw-pages.hw-overflow').length,
+    tight:[...document.querySelectorAll('.hw-page.hw-tight')].map(p=>p.querySelector('.hw-page-no').textContent).join(','),
+    pages:[...document.querySelectorAll('.hw-page')].map(p=>{
+      const right=p.getBoundingClientRect().right;
+      const footer=p.querySelector('.hw-page-no').getBoundingClientRect().top;
+      const last=[...p.children].filter(c=>!c.classList.contains('hw-page-no')).pop().getBoundingClientRect().bottom;
+      return {fits:p.scrollHeight<=p.clientHeight+1,spare:Math.round(footer-last),
+              wide:[...p.querySelectorAll('*')].some(e=>e.getBoundingClientRect().right>right+1),
+              items:p.querySelectorAll('.hw-item').length};
+    }),
+    qNums:[...document.querySelectorAll('.hw-page-questions .hw-q .hw-q-num')].map(e=>e.textContent),
+    exNums:[...document.querySelectorAll('.hw-page-answers .hw-ex .hw-q-num')].map(e=>e.textContent),
+    key:[...document.querySelectorAll('.hw-key b')].map(e=>e.textContent)
+  }));
+}
 
 (async()=>{
   const browser=await chromium.launch({channel:'chrome',headless:true});
@@ -135,8 +161,32 @@ const TARGET={chip:'準1級',grade:'pre-grade1',exam:'2026-2',title:'英検準1�
 
     await page.setViewportSize({width:390,height:844});
     assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),'mobile horizontal scroll');
+
+    // Every set in the index: four fitted pages, items in order, both question and explanation pages used.
+    await page.setViewportSize({width:1365,height:1000});
+    for(const key of Object.keys(index)){
+      const [grade,exam]=key.split('/');
+      const set=await (await page.request.get(`${base}/${index[key].path}`)).json();
+      const r=await renderSet(page,grade,exam);
+      const nums=set.questions.map(q=>`(${q.number})`);
+      assert.equal(r.pages.length,4,`${key} page count`);
+      assert.equal(r.overflow,0,`${key} does not fit four pages`);
+      r.pages.forEach((pg,i)=>{
+        assert.ok(pg.fits&&pg.spare>=0&&!pg.wide,`${key} page ${i+1} overflow ${JSON.stringify(pg)}`);
+      });
+      assert.ok(r.pages.every(pg=>pg.items>0),`${key} uses all four pages ${JSON.stringify(r.pages.map(pg=>pg.items))}`);
+      assert.deepEqual(r.qNums,nums,`${key} question order`);
+      assert.deepEqual(r.exNums,nums,`${key} explanation order`);
+      assert.deepEqual(r.key,set.questions.map(q=>String(q.answer)),`${key} answer key`);
+      await page.emulateMedia({media:'print'});
+      const setPdf=await page.pdf({preferCSSPageSize:true,printBackground:true});
+      await page.emulateMedia({media:'screen'});
+      assert.equal((setPdf.toString('latin1').match(/\/Type\s*\/Page[^s]/g)||[]).length,4,`${key} printed pages`);
+      await page.locator('.hw-pages').screenshot({path:path.join(out,`${key.replace('/','_')}.png`)});
+      console.log(`SET OK ${key}: ${set.questions.length} questions, spare ${r.pages.map(pg=>pg.spare).join('/')}px${r.tight?` (tight pages ${r.tight})`:''}`);
+    }
     assert.deepEqual(errors,[]);
-    console.log(`HOMEWORK UI OK: ${hw.questions.length} questions (${hw.questions.filter(q=>q.translate).length} translations), 4 fitted A4 pages (questions 2 + explanations 2), answers, tips, next lesson QR, no-QR mode, PDF ${pageCount} pages`);
+    console.log(`HOMEWORK UI OK: ${hw.questions.length} questions (${hw.questions.filter(q=>q.translate).length} translations), 4 fitted A4 pages (questions 2 + explanations 2), answers, tips, next lesson QR, no-QR mode, PDF ${pageCount} pages; ${Object.keys(index).length} sets fitted`);
     console.log('QA output:',out);
   }finally{await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

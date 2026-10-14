@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2026-1-sat",
+    "title": "文法事項の確認",
+    "theme": "物語の時の表現・動名詞・対比と言い換え・部分否定",
+    "aim": "授業の物語文・Eメール・説明文に出てきた 物語の結末・許可・対比・部分否定などの表現を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "行方不明や物語の結末・時の流れを表す表現が分かる",
+        "許可を表す受動態と、主語や前置詞の後ろの動名詞を使える",
+        "2つのことの対比と、理由・言い換えの表現を読み取れる",
+        "部分否定と、助動詞のある受動態の意味が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "We searched the whole park for our cat, but she was (　) to be found.",
+            "choices": [
+                "anywhere",
+                "somewhere",
+                "nowhere",
+                "everywhere"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "私たちは公園じゅうを探したが、猫はどこにも見つからなかった。",
+            "explanation": "be nowhere to be found で「どこにも見つからない」。nowhere は「どこにも～ない」という否定の意味を含むので、not がなくても否定の文になる。",
+            "choiceNotes": [
+                "anywhere「（否定文で）どこにも」",
+                "somewhere「どこかに」",
+                "nowhere「どこにも～ない」",
+                "everywhere「どこにでも」"
+            ],
+            "tip": "授業の the dog was nowhere to be found と同じ。anywhere なら not が必要。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Ken could not decide which bike to buy, but (　) the end he chose the blue one.",
+            "choices": [
+                "on",
+                "in",
+                "with",
+                "for"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ケンはどの自転車を買うか決められなかったが、結局、青いほうを選んだ。",
+            "explanation": "in the end で「結局、最後には」。迷ったり苦労したりした末の結果を述べるときによく使う。",
+            "choiceNotes": [
+                "on「～の上に」",
+                "in「in the end＝結局」",
+                "with「～と一緒に」",
+                "for「～のために」"
+            ],
+            "tip": "授業の In the end と同じ。at the end of ～「～の終わりに」と区別する。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "I will graduate from high school next March. A few years (　), I hope to work as a nurse.",
+            "choices": [
+                "ago",
+                "since",
+                "before",
+                "later"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "私は来年の3月に高校を卒業する。その数年後には、看護師として働きたい。",
+            "explanation": "～ later は「（ある時から）～後に」。ここでは卒業する来年3月から数年後のこと。ago は「（今から）～前に」で、過去のことにしか使わない。",
+            "choiceNotes": [
+                "ago「（今から）～前に」",
+                "since「～以来」",
+                "before「（それより）前に」",
+                "later「（ある時から）～後に」"
+            ],
+            "tip": "授業の A few years later も、レオがいなくなってから数年後のこと。基準の時を確かめる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "My grandmother was very surprised (　) that I had won the speech contest.",
+            "choices": [
+                "to hear",
+                "hear",
+                "hears",
+                "heard"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "祖母は、私がスピーチコンテストで優勝したと聞いて、とても驚いた。",
+            "explanation": "be surprised to V で「Vして驚く」。この to 不定詞は「～して」と、驚いた原因を表す。",
+            "choiceNotes": [
+                "to hear「to 不定詞」",
+                "hear「原形」",
+                "hears「3単現」",
+                "heard「過去形・過去分詞」"
+            ],
+            "tip": "授業の Max was surprised to hear that. と同じ形。glad to hear も同じ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Students are not (　) to use their smartphones during the test.",
+            "choices": [
+                "allow",
+                "allowed",
+                "allowing",
+                "allows"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "生徒は、テスト中にスマートフォンを使うことが許されていない。",
+            "explanation": "allow A to V「AがVするのを許す」の受動態で、be allowed to V「Vすることが許されている」。not があるので「Vしてはいけない」に近い意味になる。",
+            "choiceNotes": [
+                "allow「原形」",
+                "allowed「過去分詞」",
+                "allowing「-ing 形」",
+                "allows「3単現」"
+            ],
+            "tip": "授業の you are allowed to ski と同じ形。be allowed の後ろは to＋原形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "My part-time job includes many tasks, like (　) the phone and cleaning the floor.",
+            "choices": [
+                "answering",
+                "answer",
+                "to answer",
+                "answered"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私のアルバイトには、電話に出ることや床の掃除など、たくさんの仕事がある。",
+            "explanation": "この like は「～のような、～など」と例を挙げる前置詞。前置詞の後ろの動詞は -ing 形（動名詞）にする。and の後ろの cleaning とも形がそろう。",
+            "choiceNotes": [
+                "answering「動名詞」",
+                "answer「原形」",
+                "to answer「to 不定詞」",
+                "answered「過去形・過去分詞」"
+            ],
+            "tip": "授業の like serving customers と同じ形。例を -ing の形でそろえて並べる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Washing the dishes (　) not part of my job at the restaurant.",
+            "choices": [
+                "are",
+                "be",
+                "is",
+                "being"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "皿を洗うことは、レストランでの私の仕事には含まれていない。",
+            "explanation": "主語は動名詞句の Washing the dishes「皿を洗うこと」。1つの動名詞句が主語のときは単数として扱うので、動詞は is になる。",
+            "choiceNotes": [
+                "are「主語が複数のとき」",
+                "be「原形」",
+                "is「主語が単数のとき」",
+                "being「-ing 形」"
+            ],
+            "tip": "授業の Working ... is not part of the job と同じ形。dishes につられない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) some students walk to school, most come by bike.",
+            "choices": [
+                "Because",
+                "So",
+                "Until",
+                "While"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "歩いて通学する生徒もいるが、大半の生徒は自転車で来る。",
+            "explanation": "While A, B で「Aである一方、B」と2つのことを対比する。ここでは、歩いて来る一部の生徒と自転車で来る大半の生徒を比べている。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "So「だから」",
+                "Until「～まで（ずっと）」",
+                "While「～する一方で」"
+            ],
+            "tip": "授業の While some of them ..., others rely on ... と同じ対比の While。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Some people enjoy cooking at home, but (　) prefer eating out.",
+            "choices": [
+                "other",
+                "another",
+                "others",
+                "the other"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "家で料理をするのが好きな人もいれば、外食するほうが好きな人もいる。",
+            "explanation": "some people ～, others … で「～する人もいれば、…する人もいる」。others は「ほかの人たち」を表す複数の代名詞で、動詞 prefer とも合う。",
+            "choiceNotes": [
+                "other「後ろに名詞が必要」",
+                "another「もう1つ（単数）」",
+                "others「ほかの人たち」",
+                "the other「残りの1つ」"
+            ],
+            "tip": "(8)と同じく対比の文。some を見たら、後ろの others を探しながら読む。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Our local bookstore closed. One reason for this is (　) many people now buy books online.",
+            "choices": [
+                "that",
+                "what",
+                "which",
+                "who"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "地元の本屋が閉店した。その理由の一つは、今では多くの人が本をインターネットで買うことだ。",
+            "explanation": "One reason for this is that S V で「その理由の一つはSがVすることだ」。that 以下は欠けている要素のない完全な文で、is の補語になる。",
+            "choiceNotes": [
+                "that「～ということ」",
+                "what「～こと・後ろは不完全」",
+                "which「関係代名詞」",
+                "who「関係代名詞・人」"
+            ],
+            "tip": "授業の One reason for this is that ... と同じ形。this が何を指すかも確かめる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Yuta is the son of my father's brother. (　), he is my cousin.",
+            "choices": [
+                "However",
+                "In other words",
+                "Instead",
+                "On the other hand"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ユウタは父の兄弟の息子だ。つまり、私のいとこである。",
+            "explanation": "In other words は「つまり、言い換えると」。前の文の内容を別の言葉で言い直すときに使う。ここでは「父の兄弟の息子」を「いとこ」と言い換えている。",
+            "choiceNotes": [
+                "However「しかし」",
+                "In other words「つまり」",
+                "Instead「その代わりに」",
+                "On the other hand「一方で」"
+            ],
+            "tip": "授業の In other words, they believe ... と同じ。後ろには前の文の言い換えが来る。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Expensive shoes are not (　) better than cheap ones.",
+            "choices": [
+                "necessary",
+                "necessity",
+                "need",
+                "necessarily"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "値段の高い靴が、安い靴より必ずしも良いとは限らない。",
+            "explanation": "not necessarily で「必ずしも～とは限らない」という部分否定。比較級の better を修飾するので、副詞の necessarily が入る。",
+            "choiceNotes": [
+                "necessary「必要な（形容詞）」",
+                "necessity「必要（名詞）」",
+                "need「必要とする」",
+                "necessarily「必ずしも（副詞）」"
+            ],
+            "tip": "授業の is not necessarily good と同じ形。「まったく良くない」ではなく「良いとは限らない」。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Emails from people you do not know should not (　) trusted easily.",
+            "choices": [
+                "be",
+                "been",
+                "being",
+                "to be"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "知らない人からのメールを、簡単に信用するべきではない。",
+            "explanation": "should などの助動詞の後ろは動詞の原形なので be を置く。助動詞＋be＋過去分詞で、助動詞のある受動態になる。",
+            "choiceNotes": [
+                "be「原形」",
+                "been「過去分詞」",
+                "being「-ing 形」",
+                "to be「to 不定詞」"
+            ],
+            "tip": "should の後ろは原形の be。授業の should not be trusted と同じ形。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The doctor suggests (　) more vegetables to stay healthy.",
+            "choices": [
+                "eat",
+                "to eat",
+                "eating",
+                "ate"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "医者は、健康でいるために野菜をもっと食べることを勧めている。",
+            "explanation": "suggest が「～することを勧める」の意味のとき、後ろには動名詞（-ing 形）か that 節を置く。to 不定詞は続かない。",
+            "choiceNotes": [
+                "eat「原形」",
+                "to eat「to 不定詞」",
+                "eating「動名詞」",
+                "ate「過去形」"
+            ],
+            "tip": "suggest to eat とは言わない。授業の suggests there is ... は that の省略。"
+        }
+    ],
+    "closing": "今回の表現は、授業で読んだ物語文やEメール、説明文に出てきたものです。In the end や In other words のような表現は、話の流れや文と文の関係を示す目印になり、長文を読むときの手がかりになります。英作文でも使える表現なので、間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}

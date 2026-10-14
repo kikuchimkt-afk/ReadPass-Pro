@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2plus",
+    "exam": "2026-1",
+    "title": "文法事項の確認",
+    "theme": "つなぎの言葉・不定詞と動名詞・同格の that・受動態",
+    "aim": "授業の長文に出てきた Therefore・However などのつなぎの言葉と、less likely to、become used to -ing、主語になる動名詞、同格の that の形を、新しい英文で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "つなぎの言葉を、前後の文の関係から選べる",
+        "too ... to と less likely to を自然に訳せる",
+        "become used to -ing と主語になる動名詞が分かる",
+        "同格の that と encourage＋O＋to V が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The road to the beach was closed after the heavy rain. (　), we had to change our plans for the weekend.",
+            "choices": [
+                "However",
+                "For example",
+                "Therefore",
+                "Otherwise"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "大雨のあと、海岸へ行く道が通行止めになった。そのため、私たちは週末の予定を変えなければならなかった。",
+            "explanation": "前の文（大雨で道が通行止めになった）が原因で、後ろの文（予定を変えた）がその結果。原因と結果をつなぐ Therefore「そのため」が入る。",
+            "choiceNotes": [
+                "However「しかし（対比）」",
+                "For example「例えば」",
+                "Therefore「そのため（結果）」",
+                "Otherwise「そうでなければ」"
+            ],
+            "tip": "授業の Therefore, problems ... can be avoided と同じ流れ。前が原因、後ろが結果。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Many people liked the first design for the new park. (　), it cost too much, so the city chose a cheaper one.",
+            "choices": [
+                "However",
+                "Therefore",
+                "Instead",
+                "In this way"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "新しい公園の最初の設計案は多くの人に好まれた。しかし、費用がかかりすぎたため、市はもっと安い案を選んだ。",
+            "explanation": "前の文は良い点（多くの人に好まれた）、後ろの文は問題点（費用がかかりすぎた）。反対の内容をつなぐ However「しかし」が入る。",
+            "choiceNotes": [
+                "However「しかし（対比）」",
+                "Therefore「そのため」",
+                "Instead「その代わりに」",
+                "In this way「このようにして」"
+            ],
+            "tip": "授業の However, there was one issue ... と同じく、However の後ろで問題点に話が変わる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The first map of the zoo was too detailed for small children (　) quickly.",
+            "choices": [
+                "understand",
+                "understanding",
+                "understood",
+                "to understand"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "その動物園の最初の地図は細かすぎて、小さな子どもにはすぐには理解できなかった。",
+            "explanation": "too＋形容詞＋for A to V で「…すぎてAには～できない」。for small children は to understand の意味上の主語になっている。",
+            "choiceNotes": [
+                "understand「原形」",
+                "understanding「-ing形」",
+                "understood「過去分詞」",
+                "to understand「不定詞」"
+            ],
+            "tip": "授業の too detailed に to不定詞がついた形。「～すぎて…できない」と訳す。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "On sunny days, my sister rides her bike to school (　) taking the bus.",
+            "choices": [
+                "because of",
+                "instead of",
+                "in spite of",
+                "in front of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "晴れた日には、姉はバスに乗る代わりに自転車で学校に通っている。",
+            "explanation": "instead of＋-ing で「～する代わりに」。バスに乗る代わりに自転車で通っている。of は前置詞なので、後ろは動名詞の taking。",
+            "choiceNotes": [
+                "because of「理由」",
+                "instead of「～の代わりに」",
+                "in spite of「～にもかかわらず」",
+                "in front of「～の前」"
+            ],
+            "tip": "授業の use images instead of words と同じ表現。何の代わりに何をするのかを確かめる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Mika read an English news article every morning for a year. (　), her reading speed became much faster.",
+            "choices": [
+                "As a result",
+                "On the other hand",
+                "Even so",
+                "For example"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ミカは1年間、毎朝英語のニュース記事を読んだ。その結果、読む速さがずっと速くなった。",
+            "explanation": "前の文（毎朝英語の記事を読んだ）が原因で、後ろの文（読む速さが上がった）がその結果。As a result「その結果」でつなぐ。",
+            "choiceNotes": [
+                "As a result「その結果」",
+                "On the other hand「一方で」",
+                "Even so「それでも」",
+                "For example「例えば」"
+            ],
+            "tip": "授業の As a result, the human brain ... と同じ。何の結果なのかを前の文で確かめる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "After a few weeks in Tokyo, Lisa became used to (　) crowded trains.",
+            "choices": [
+                "ride",
+                "riding",
+                "rode",
+                "ridden"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "東京で数週間過ごすうちに、リサは混雑した電車に乗ることに慣れた。",
+            "explanation": "become used to＋-ing で「～することに慣れる」。この to は前置詞なので、後ろは動名詞の riding。used to＋原形「以前は～したものだ」とは別の形。",
+            "choiceNotes": [
+                "ride「原形」",
+                "riding「動名詞」",
+                "rode「過去形」",
+                "ridden「過去分詞」"
+            ],
+            "tip": "授業の becomes used to receiving ... と同じ形。この to の後ろは -ing 形になる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Studies show that people who sleep well are less likely (　) colds.",
+            "choices": [
+                "catch",
+                "catching",
+                "caught",
+                "to catch"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "研究によると、よく眠る人は風邪をひきにくい。",
+            "explanation": "be likely to V は「～しそうだ」、less likely to V は「～しにくい」。likely の後ろは to不定詞なので to catch が入る。",
+            "choiceNotes": [
+                "catch「原形」",
+                "catching「-ing形」",
+                "caught「過去形・過去分詞」",
+                "to catch「to不定詞」"
+            ],
+            "tip": "授業の are less likely to stay focused と同じ形。「～しにくい」と訳すと自然。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The library will be closed for a week starting tomorrow. This (　) that we cannot study there until next week.",
+            "choices": [
+                "makes",
+                "takes",
+                "means",
+                "gives"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "図書館は明日から1週間休館する。つまり、来週まではそこで勉強できないということだ。",
+            "explanation": "This means that ～ で「これは～ということだ・つまり～」。前の文（明日から休館）から言えることを、that 節で述べている。",
+            "choiceNotes": [
+                "makes「～を作る・～にする」",
+                "takes「～を取る」",
+                "means「～という意味だ」",
+                "gives「～を与える」"
+            ],
+            "tip": "授業の This means ... は that が省略された形。This は前の文の内容を指す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) the hotel was a little old, our room was clean and comfortable.",
+            "choices": [
+                "Although",
+                "Because",
+                "Despite",
+                "Unless"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "そのホテルは少し古かったが、私たちの部屋は清潔で快適だった。",
+            "explanation": "Although S V で「SはVだけれども」。前半（少し古い）と後半（清潔で快適）は反対の内容。Despite は前置詞なので、後ろに S V を置けない。",
+            "choiceNotes": [
+                "Although「～だけれども」",
+                "Because「～なので」",
+                "Despite「前置詞・後ろは名詞」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業の Although the kitchen ... と同じ形。前半と後半の対比を読む。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "When we were looking for a new house, my parents said (　) a small garden was important.",
+            "choices": [
+                "have",
+                "had",
+                "has",
+                "having"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "新しい家を探していたとき、両親は小さな庭があることが大切だと言った。",
+            "explanation": "said の後ろで that が省略されている。having a small garden が that 節の主語で、動詞は was。動名詞は「～すること」として主語になれる。",
+            "choiceNotes": [
+                "have「原形」",
+                "had「過去形・過去分詞」",
+                "has「3単現」",
+                "having「動名詞（～すること）」"
+            ],
+            "tip": "授業の you said having ... space was necessary と同じ形。was の主語を探す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "We recommend (　) your tickets online because the line at the gate is often long.",
+            "choices": [
+                "buy",
+                "buying",
+                "bought",
+                "buys"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "入口の列は長いことが多いので、チケットはオンラインで購入することをお勧めします。",
+            "explanation": "recommend＋-ing で「～することを勧める」。recommend は動詞を目的語にとるとき動名詞にするので、buying が入る。",
+            "choiceNotes": [
+                "buy「原形」",
+                "buying「動名詞」",
+                "bought「過去形・過去分詞」",
+                "buys「3単現」"
+            ],
+            "tip": "授業の We recommend finishing ... と同じ形。お知らせやメールでよく見る表現。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The school's new rule is based on the idea (　) students learn better when they feel safe.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "who"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その学校の新しい規則は、生徒は安心できるときによく学べるという考えに基づいている。",
+            "explanation": "the idea that S V で「SがVするという考え」。that 以下は欠けている要素のない完全な文で、idea の内容を説明する同格の that。",
+            "choiceNotes": [
+                "which「関係代名詞・後ろは不完全」",
+                "what「～こと（先行詞を含む）」",
+                "that「～という（同格）」",
+                "who「主格・人」"
+            ],
+            "tip": "授業の based on the idea that ... と同じ形。「～という考え」と訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Our teacher encourages us (　) English as often as possible, even outside the classroom.",
+            "choices": [
+                "to use",
+                "use",
+                "using",
+                "used"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "先生は私たちに、教室の外でもできるだけ英語を使うように勧めている。",
+            "explanation": "encourage＋O＋to V で「Oに～するよう促す」。us と to use は「私たちが英語を使う」という関係になっている。",
+            "choiceNotes": [
+                "to use「to不定詞」",
+                "use「原形」",
+                "using「-ing形」",
+                "used「過去形・過去分詞」"
+            ],
+            "tip": "授業の encouraging people to use cars less と同じ形。to を落とさない。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Last year, an empty shop near our school was turned (　) a small library for children.",
+            "choices": [
+                "at",
+                "for",
+                "onto",
+                "into"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "昨年、学校の近くの空き店舗が、子ども向けの小さな図書館に改装された。",
+            "explanation": "turn A into B「AをBに変える」の受動態で、A is turned into B「AがBに変えられる」。空き店舗が図書館に変わったことを表す。",
+            "choiceNotes": [
+                "at「～で（地点）」",
+                "for「～のために」",
+                "onto「～の上へ」",
+                "into「～に（変化）」"
+            ],
+            "tip": "授業の was turned into a school と同じ形。何が何に変わったかを押さえる。"
+        }
+    ],
+    "closing": "準2級プラスの大問2では、文の流れに合うつなぎの言葉を選ぶ問題が出ることがあり、今回扱った回でも In this way と As a result が正解になっていました。前後の文が「原因と結果」なのか「対比」なのかを考えることは、大問3の長文を読むときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

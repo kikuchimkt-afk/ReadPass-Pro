@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2026-2-sat",
+    "title": "文法事項の確認",
+    "theme": "量の比較・立場のas・動名詞・同格・cause A to V",
+    "aim": "授業で学んだ as much/many ～ as、whenever possible、立場の as、help A with B、前置詞＋動名詞、同格の that、cause A to V などを、新しい英文で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "名詞に合わせて as many と as much を使い分けられる",
+        "立場の as、help A with B、期限の by の意味が分かる",
+        "something＋形容詞と、前置詞＋動名詞の形を使える",
+        "同格の that 節と cause A to V を正しく読み取れる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Our team could not raise as (　) money as we needed for new uniforms.",
+            "choices": [
+                "many",
+                "more",
+                "much",
+                "few"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "私たちのチームは、新しいユニフォームに必要なほどのお金を集めることができなかった。",
+            "explanation": "money は数えられない名詞なので、as much＋名詞＋as で量を比べる。could not があるので「必要なほどのお金は集められなかった」となる。",
+            "choiceNotes": [
+                "many「数が多い（可算名詞）」",
+                "more「比較級・than と使う」",
+                "much「量が多い（不可算名詞）」",
+                "few「数が少ない（可算名詞）」"
+            ],
+            "tip": "授業の as much time at home as he wanted と同じ形。money も、この time も不可算名詞。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Because of the noise outside, I could not sleep as (　) hours as I wanted.",
+            "choices": [
+                "many",
+                "much",
+                "more",
+                "most"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "外の物音のせいで、私は眠りたかった時間ほどは眠れなかった。",
+            "explanation": "hours は数えられる名詞の複数形なので、as many＋複数名詞＋as を使う。much は数えられない名詞に使う。",
+            "choiceNotes": [
+                "many「数が多い（可算名詞）」",
+                "much「量が多い（不可算名詞）」",
+                "more「比較級」",
+                "most「最上級」"
+            ],
+            "tip": "(1)の money とちがい、hours は数えられる。授業の as many books as I wanted と同じ形。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Please use the stairs instead of the elevator (　) possible.",
+            "choices": [
+                "whatever",
+                "however",
+                "whoever",
+                "whenever"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "できるときはいつでも、エレベーターではなく階段を使ってください。",
+            "explanation": "whenever possible は whenever it is possible から it is が省略された形で、「できるときはいつでも」を表す。",
+            "choiceNotes": [
+                "whatever「何でも」",
+                "however「どんなに～でも」",
+                "whoever「だれでも」",
+                "whenever「～するときはいつでも」"
+            ],
+            "tip": "授業の whenever possible と同じ形。省略された it is を補うと意味がつかみやすい。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Ken walks his dog every morning (　) it is cold and windy.",
+            "choices": [
+                "because of",
+                "even if",
+                "despite",
+                "instead of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "寒くて風が強くても、ケンは毎朝犬の散歩をする。",
+            "explanation": "後ろに it is cold and windy という文が続くので、接続詞の even if「たとえ～でも」が入る。ほかの3つは前置詞のはたらきで、後ろに文を続けられない。",
+            "choiceNotes": [
+                "because of「～のために」",
+                "even if「たとえ～でも」",
+                "despite「～にもかかわらず」",
+                "instead of「～の代わりに」"
+            ],
+            "tip": "授業の even if he is busy with work と同じ形。後ろが文か名詞かを見て選ぶ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "(　) a member of the volunteer club, I help clean the park every Sunday.",
+            "choices": [
+                "Because",
+                "As",
+                "So",
+                "During"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "ボランティア部の一員として、私は毎週日曜日に公園の清掃を手伝っている。",
+            "explanation": "As＋名詞で「～として」と立場を表す。この as は前置詞で、後ろに名詞 a member が続く。Because や So の後ろには文が必要。",
+            "choiceNotes": [
+                "Because「～なので（＋文）」",
+                "As「～として（立場）」",
+                "So「だから（＋文）」",
+                "During「～の間（期間）」"
+            ],
+            "tip": "授業の As an exchange student と同じ形。「～として」と訳すと立場がはっきりする。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "My older sister often helps me (　) my math homework.",
+            "choices": [
+                "about",
+                "of",
+                "from",
+                "with"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "姉はよく私の数学の宿題を手伝ってくれる。",
+            "explanation": "help A with B で「AのBを手伝う」。手伝う相手 me を help の直後に、手伝う内容 my math homework を with の後ろに置く。",
+            "choiceNotes": [
+                "about「～について」",
+                "of「～の」",
+                "from「～から」",
+                "with「help A with B」"
+            ],
+            "tip": "授業の help us with language support と同じ形。だれの・何を手伝うのかを分けて読む。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "If you want to join the summer camp, please tell Mr. Brown (　) this Friday.",
+            "choices": [
+                "by",
+                "until",
+                "since",
+                "while"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "夏のキャンプに参加したいなら、今週の金曜日までにブラウンさんに伝えてください。",
+            "explanation": "by は「～までに」と期限を表す。until は「～までずっと」と続くことを表すので、1回で終わる tell には合わない。",
+            "choiceNotes": [
+                "by「～までに（期限）」",
+                "until「～までずっと（継続）」",
+                "since「～以来」",
+                "while「～する間（＋文）」"
+            ],
+            "tip": "授業の let me know by June 30 と同じ。by の後ろは締め切りで、始める日ではない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "I have something (　) to tell you about tomorrow's meeting.",
+            "choices": [
+                "importance",
+                "import",
+                "important",
+                "importantly"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "明日の会議について、あなたに伝えたい大切なことがあります。",
+            "explanation": "something を説明する形容詞は後ろに置く。空所には形容詞の important が入り、something important で「大切なこと」。",
+            "choiceNotes": [
+                "importance「重要性（名詞）」",
+                "import「輸入する」",
+                "important「重要な」",
+                "importantly「重要なことに」"
+            ],
+            "tip": "授業の something important と同じ形。important something の語順にはしない。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Ms. Sato's job has changed from teaching students to (　) new teachers.",
+            "choices": [
+                "train",
+                "training",
+                "trained",
+                "trains"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "佐藤先生の仕事は、生徒を教えることから、新任の先生を指導することに変わった。",
+            "explanation": "from A to B の to は前置詞なので、後ろの動詞は -ing 形（動名詞）にする。from teaching と to training が対になっている。",
+            "choiceNotes": [
+                "train「原形」",
+                "training「指導すること（動名詞）」",
+                "trained「過去形・過去分詞」",
+                "trains「3単現」"
+            ],
+            "tip": "授業の from examining ... to helping と同じ形。この to は前置詞なので -ing 形が続く。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "She left the classroom without (　) goodbye to anyone.",
+            "choices": [
+                "say",
+                "said",
+                "to say",
+                "saying"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "彼女はだれにもさよならを言わずに教室を出て行った。",
+            "explanation": "without は前置詞なので、後ろの動詞は -ing 形（動名詞）にする。without -ing で「～せずに」。",
+            "choiceNotes": [
+                "say「原形」",
+                "said「過去形・過去分詞」",
+                "to say「to 不定詞」",
+                "saying「言うこと（動名詞）」"
+            ],
+            "tip": "授業の without realizing it と同じ形。(9)と同じく、前置詞の後ろなので -ing 形。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Many students liked the idea (　) the school festival should have a dance contest.",
+            "choices": [
+                "that",
+                "what",
+                "which",
+                "who"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "多くの生徒が、文化祭でダンスコンテストを行うべきだという考えに賛成した。",
+            "explanation": "the idea that S V で「SがVするという考え」。that 以下は欠けている要素のない完全な文で、idea の内容を説明する同格の that。",
+            "choiceNotes": [
+                "that「～という（同格）」",
+                "what「～こと・後ろは不完全」",
+                "which「関係代名詞・後ろは不完全」",
+                "who「関係代名詞・人」"
+            ],
+            "tip": "授業の the idea that their actions were ... と同じ形。「～という考え」と訳して確かめる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The idea that students should clean their own classrooms (　) common in Japan.",
+            "choices": [
+                "are",
+                "being",
+                "is",
+                "to be"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "生徒が自分たちの教室を掃除するべきだという考えは、日本では一般的だ。",
+            "explanation": "主語は The idea で、that ... classrooms はその内容を説明する同格の that 節。主語が単数なので、動詞は is。",
+            "choiceNotes": [
+                "are「主語が複数のとき」",
+                "being「動名詞・現在分詞」",
+                "is「主語が単数のとき」",
+                "to be「to 不定詞」"
+            ],
+            "tip": "classrooms につられて are を選ばない。that 節を（　）でくくると、主語と動詞が見える。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The strong wind last night caused the old tree (　) down.",
+            "choices": [
+                "fall",
+                "fell",
+                "fallen",
+                "to fall"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "昨夜の強い風のせいで、その古い木が倒れた。",
+            "explanation": "cause A to V で「AがVする原因となる」。倒れるのは the old tree なので、その後ろに to fall を置く。",
+            "choiceNotes": [
+                "fall「原形」",
+                "fell「過去形」",
+                "fallen「過去分詞」",
+                "to fall「to 不定詞」"
+            ],
+            "tip": "make A fall とちがい、cause は to が必要。授業の caused the river to rise と同じ形。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Staying up late (　) him to feel sleepy during the test.",
+            "choices": [
+                "made",
+                "caused",
+                "let",
+                "had"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "夜ふかしをしたせいで、彼はテスト中に眠くなってしまった。",
+            "explanation": "後ろが him to feel と〈人＋to＋動詞の原形〉なので、cause が入る。使役の make・let・have なら to のない〈人＋動詞の原形〉になる。",
+            "choiceNotes": [
+                "made「（無理に）させた」",
+                "caused「原因となった」",
+                "let「（自由に）させた」",
+                "had「（頼んで）させた」"
+            ],
+            "tip": "〈原因＋cause＋A to V〉は、「～のせいで（～によって）Aが…した」と訳すと自然になることが多い。"
+        }
+    ],
+    "closing": "今回の文法事項は、どれも授業で読んだ長文やEメールに出てきた形です。文法の知識は、短文の空所補充だけでなく、長文を正確に読むときや英作文を書くときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

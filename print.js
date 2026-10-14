@@ -1825,17 +1825,19 @@
             printPreview.style.display = '';
             printBtn.style.display = '';
             await document.fonts.ready;
-            const flowAll = () => {
-                const questionsFit = flowHomeworkItems(pages.questionAreas, pages.questionItems);
-                const explanationsFit = flowHomeworkItems(pages.explanationAreas, pages.explanationItems);
-                return questionsFit && explanationsFit;
+            // A page group (questions / explanations) that does not fit gets up to two steps of
+            // slightly smaller type and spacing; this also absorbs font differences between PCs.
+            const flowGroup = (areas, items) => {
+                if (flowHomeworkItems(areas, items)) return true;
+                for (const step of ['hw-tight', 'hw-tighter']) {
+                    areas.forEach(area => area.closest('.hw-page').classList.add(step));
+                    if (flowHomeworkItems(areas, items)) return true;
+                }
+                return false;
             };
-            let fits = flowAll();
-            if (!fits) {
-                // One step of slightly smaller type and spacing absorbs font differences between PCs.
-                pages.wrap.classList.add('hw-tight');
-                fits = flowAll();
-            }
+            const questionsFit = flowGroup(pages.questionAreas, pages.questionItems);
+            const explanationsFit = flowGroup(pages.explanationAreas, pages.explanationItems);
+            const fits = questionsFit && explanationsFit;
             pages.wrap.classList.toggle('hw-overflow', !fits);
             if (!fits) console.warn('宿題プリントが4ページに収まりません。問題数か解説の長さを見直してください。');
             await generateAllQRCodes();
@@ -1852,12 +1854,15 @@
     }
 
     // Fill the first page, then move the item that does not fit (and the rest) to the next.
+    // A part heading left at the bottom of a page moves on with the item that follows it.
     function flowHomeworkItems(areas, items) {
         let index = 0;
         items.forEach(item => {
             areas[index].appendChild(item);
             while (homeworkPageOverflows(areas[index]) && index < areas.length - 1) {
+                const heading = item.previousElementSibling;
                 index += 1;
+                if (heading && heading.classList.contains('hw-part')) areas[index].appendChild(heading);
                 areas[index].appendChild(item);
             }
         });
@@ -1874,30 +1879,8 @@
         return template.content.firstElementChild;
     }
 
-    function createHomeworkPages(hw, title, next) {
-        const wrap = document.createElement('div');
-        wrap.className = 'hw-pages';
-        const running = side => `
-                <div class="hw-running"><span>${esc(title)}　${side}</span><span>テーマ：${esc(hw.theme)}</span></div>`;
-        const star = q => (q.translate ? '<span class="hw-star" title="全訳問題">★</span>' : '');
-        const questionItems = hw.questions.map(q => htmlElement(`
-                    <div class="hw-q">
-                        <p class="hw-q-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
-                        <p class="hw-choices">${q.choices.map((c, i) => `<span><b>${i + 1}</b> <span class="hw-en">${esc(c)}</span></span>`).join('')}</p>
-                        ${q.translate ? '<div class="hw-write" aria-label="全訳を書く欄"><span></span><span></span><span></span></div>' : ''}
-                    </div>`));
-        questionItems.push(htmlElement(`
-                    <div class="hw-answer-row"><span class="hw-answer-label">解答欄</span>${hw.questions.map(q => `<span><i>(${q.number})</i><b></b></span>`).join('')}</div>`));
-        const explanationItems = hw.questions.map(q => htmlElement(`
-                <section class="hw-ex">
-                    <p class="hw-ex-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
-                    <p class="hw-correct">正解 ${q.answer}　<span class="hw-en">${esc(q.choices[q.answer - 1])}</span></p>
-                    <p class="hw-ex-line"><span class="hw-label">訳：</span>${esc(q.translation)}</p>
-                    <p class="hw-ex-line"><span class="hw-label">解説：</span>${esc(q.explanation)}</p>
-                    <p class="hw-ex-notes">選択肢：${q.choiceNotes.map(esc).join('　/　')}</p>
-                    <p class="hw-tip"><strong>講師のひとこと：</strong>${esc(q.tip)}</p>
-                </section>`));
-        const nextHtml = next ? `
+    function nextBlock(next) {
+        return next ? `
                     <div class="hw-next">
                         <div class="hw-next-text">
                             <strong>次回の授業：${esc(jaDate(next.date))}</strong>
@@ -1906,9 +1889,145 @@
                         </div>
                         <div class="qr-container hw-qr" data-url="${esc(next.url)}" data-size="84"></div>
                     </div>` : '';
+    }
+
+    // Four-line handwriting guide (英語4線). `model` is printed in light grey for tracing.
+    function fourLine(model = '') {
+        return `<span class="hw-4line">${model ? `<span class="hw-4line-model">${esc(model)}</span>` : ''}<i></i><i></i><i></i></span>`;
+    }
+
+    function spellingHint(word) {
+        return word.split(' ').map(part => part[0] + '_'.repeat(Math.max(part.length - 1, 1))).join(' ');
+    }
+
+    // Writing-heavy layout for Grade 3 and below: words, model sentences and ★ sentences are
+    // written on four-line guides; pages 3-4 keep the same answer and explanation format.
+    function createWritingPages(hw, title, next) {
+        const wrap = document.createElement('div');
+        wrap.className = 'hw-pages hw-layout-writing';
+        const circled = n => '①②③④⑤⑥⑦⑧⑨⑩⑪⑫'[n - 1] || `(${n})`;
+        const running = side => `
+                <div class="hw-running"><span>${esc(title)}　${side}</span><span>テーマ：${esc(hw.theme)}</span></div>`;
+        const star = q => (q.copy ? '<span class="hw-star" title="書き写し問題">★</span>' : '');
+        const heading = (label, instruction) => htmlElement(`
+                    <div class="hw-item hw-part"><h3 class="hw-h">${label}</h3><p class="hw-instruction">${esc(instruction)}</p></div>`);
+        // One four-line row holds about 48 characters of a junior-high student's handwriting.
+        const copyRows = text => (text.length > 48 ? 2 : 1);
+        const questionItems = [
+            heading('Part 1　単語を書こう', 'うすい字をなぞってから、右の4線に2回書きましょう。'),
+            ...hw.words.map(w => htmlElement(`
+                    <div class="hw-item hw-word">
+                        <span class="hw-word-ja">${esc(w.meaning)}</span>
+                        ${fourLine(w.word)}${fourLine()}${fourLine()}
+                    </div>`)),
+            heading('Part 2　例文を書き写そう', '授業で学んだ文です。意味を確かめてから、4線に書き写しましょう。'),
+            ...hw.sentences.map((s, i) => htmlElement(`
+                    <div class="hw-item hw-copy">
+                        <p class="hw-copy-head"><span class="hw-q-num">${circled(i + 1)}</span><span class="hw-en hw-copy-en">${esc(s.en)}</span></p>
+                        <p class="hw-copy-ja">${esc(s.ja)}　<span class="hw-copy-point">${esc(s.point)}</span></p>
+                        <div class="hw-4lines">${Array.from({ length: copyRows(s.en) }, () => fourLine()).join('')}</div>
+                    </div>`)),
+            heading('Part 3　問題', hw.instruction),
+            ...hw.questions.map(q => htmlElement(`
+                    <div class="hw-item hw-q">
+                        <p class="hw-q-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                        <p class="hw-choices">${q.choices.map((c, i) => `<span><b>${i + 1}</b> <span class="hw-en">${esc(c)}</span></span>`).join('')}</p>
+                        ${q.copy ? `<div class="hw-4lines">${Array.from({ length: copyRows(q.text) }, () => fourLine()).join('')}</div>` : ''}
+                    </div>`)),
+            htmlElement(`
+                    <div class="hw-item hw-answer-row"><span class="hw-answer-label">Part 3 解答欄</span>${hw.questions.map(q => `<span><i>(${q.number})</i><b></b></span>`).join('')}</div>`),
+            heading('Part 4　日本語を見て英語を書こう', '日本語の意味に合う英語を4線に書きましょう。最初の文字がヒントです。'),
+            htmlElement(`
+                    <div class="hw-item hw-spell">${hw.words.map((w, i) => `
+                        <div class="hw-spell-cell"><span class="hw-spell-q"><span class="hw-q-num">${circled(i + 1)}</span>${esc(w.meaning)}<span class="hw-spell-hint">${esc(spellingHint(w.word))}</span></span>${fourLine()}</div>`).join('')}
+                    </div>`)
+        ];
+        const explanationItems = [
+            ...hw.questions.map(q => htmlElement(`
+                <section class="hw-item hw-ex">
+                    <p class="hw-ex-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                    <p class="hw-correct">正解 ${q.answer}　<span class="hw-en">${esc(q.choices[q.answer - 1])}</span></p>
+                    <p class="hw-ex-line"><span class="hw-label">訳：</span>${esc(q.translation)}</p>
+                    <p class="hw-ex-line"><span class="hw-label">解説：</span>${esc(q.explanation)}</p>
+                    <p class="hw-ex-notes">選択肢：${q.choiceNotes.map(esc).join('　/　')}</p>
+                    <p class="hw-tip"><strong>講師のひとこと：</strong>${esc(q.tip)}</p>
+                </section>`)),
+            htmlElement(`
+                <div class="hw-item hw-spell-key"><h3 class="hw-h">Part 4 の答え</h3><div>${hw.words.map((w, i) => `<span><span class="hw-q-num">${circled(i + 1)}</span>${esc(w.meaning)} → <b class="hw-en">${esc(w.word)}</b></span>`).join('')}</div></div>`),
+            htmlElement(`
+                <div class="hw-item hw-copy-key"><h3 class="hw-h">Part 2 例文のポイント</h3>${hw.sentences.map((s, i) => `
+                    <p><span class="hw-q-num">${circled(i + 1)}</span><span class="hw-en">${esc(s.en)}</span><br><span class="hw-copy-note">${esc(s.note)}</span></p>`).join('')}</div>`),
+            htmlElement(`
+                <div class="hw-item hw-bottom">
+                    <div class="hw-closing"><strong>講師から生徒へのひとこと</strong><p>${esc(hw.closing)}</p></div>${nextBlock(next)}
+                </div>`)
+        ];
+        wrap.innerHTML = `
+            <article class="hw-page hw-page-questions">
+                ${running('宿題プリント')}
+                <header class="hw-title">
+                    <h2>${esc(title)}</h2>
+                    <p>宿題プリント　${esc(hw.title)}</p>
+                </header>
+                <div class="hw-name-row"><span>名前</span><b class="hw-name"></b><span>提出日</span><b class="hw-date">${next ? esc(jaDate(next.date)) : '　　月　　日'}</b></div>
+                <h3 class="hw-h">この宿題のねらい</h3>
+                <p class="hw-aim">${esc(hw.aim)}</p>
+                <ul class="hw-goals">${hw.goals.map(g => `<li>□ ${esc(g)}</li>`).join('')}</ul>
+                <div class="hw-flow hw-questions"></div>
+                <div class="hw-page-no">1</div>
+            </article>
+            <article class="hw-page hw-page-questions">
+                ${running('宿題プリント')}
+                <div class="hw-flow hw-questions"></div>
+                <div class="hw-page-no">2</div>
+            </article>
+            <article class="hw-page hw-page-answers">
+                ${running('解答・解説')}
+                <div class="hw-key-row"><h3 class="hw-h">解答・解説（Part 3）</h3><div class="hw-key">${hw.questions.map(q => `<span><i>(${q.number})</i><b>${q.answer}</b></span>`).join('')}</div></div>
+                <div class="hw-flow hw-ex-list"></div>
+                <div class="hw-page-no">3</div>
+            </article>
+            <article class="hw-page hw-page-answers">
+                ${running('解答・解説')}
+                <div class="hw-flow hw-ex-list"></div>
+                <div class="hw-page-no">4</div>
+            </article>`;
+        return {
+            wrap,
+            questionAreas: [...wrap.querySelectorAll('.hw-page-questions .hw-flow')],
+            explanationAreas: [...wrap.querySelectorAll('.hw-page-answers .hw-flow')],
+            questionItems,
+            explanationItems
+        };
+    }
+
+    function createHomeworkPages(hw, title, next) {
+        if (hw.layout === 'writing') return createWritingPages(hw, title, next);
+        const wrap = document.createElement('div');
+        wrap.className = 'hw-pages';
+        const running = side => `
+                <div class="hw-running"><span>${esc(title)}　${side}</span><span>テーマ：${esc(hw.theme)}</span></div>`;
+        const star = q => (q.translate ? '<span class="hw-star" title="全訳問題">★</span>' : '');
+        const questionItems = hw.questions.map(q => htmlElement(`
+                    <div class="hw-item hw-q">
+                        <p class="hw-q-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                        <p class="hw-choices">${q.choices.map((c, i) => `<span><b>${i + 1}</b> <span class="hw-en">${esc(c)}</span></span>`).join('')}</p>
+                        ${q.translate ? '<div class="hw-write" aria-label="全訳を書く欄"><span></span><span></span><span></span></div>' : ''}
+                    </div>`));
+        questionItems.push(htmlElement(`
+                    <div class="hw-item hw-answer-row"><span class="hw-answer-label">解答欄</span>${hw.questions.map(q => `<span><i>(${q.number})</i><b></b></span>`).join('')}</div>`));
+        const explanationItems = hw.questions.map(q => htmlElement(`
+                <section class="hw-item hw-ex">
+                    <p class="hw-ex-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                    <p class="hw-correct">正解 ${q.answer}　<span class="hw-en">${esc(q.choices[q.answer - 1])}</span></p>
+                    <p class="hw-ex-line"><span class="hw-label">訳：</span>${esc(q.translation)}</p>
+                    <p class="hw-ex-line"><span class="hw-label">解説：</span>${esc(q.explanation)}</p>
+                    <p class="hw-ex-notes">選択肢：${q.choiceNotes.map(esc).join('　/　')}</p>
+                    <p class="hw-tip"><strong>講師のひとこと：</strong>${esc(q.tip)}</p>
+                </section>`));
         explanationItems.push(htmlElement(`
-                <div class="hw-bottom">
-                    <div class="hw-closing"><strong>講師から生徒へのひとこと</strong><p>${esc(hw.closing)}</p></div>${nextHtml}
+                <div class="hw-item hw-bottom">
+                    <div class="hw-closing"><strong>講師から生徒へのひとこと</strong><p>${esc(hw.closing)}</p></div>${nextBlock(next)}
                 </div>`));
         wrap.innerHTML = `
             <article class="hw-page hw-page-questions">

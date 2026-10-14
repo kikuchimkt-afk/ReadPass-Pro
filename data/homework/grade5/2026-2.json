@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2026-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・しつもんとこたえ・can'tのかたち",
+    "aim": "じゅぎょうでならったセットのことば、When・Where のしつもんとこたえ、is ～ing や can't のかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "of course や is ～ing のかたちをかける",
+        "When と Where をつかいわけられる",
+        "can't のあとに、もとのかたちをつかえる"
+    ],
+    "words": [
+        {
+            "word": "garden",
+            "meaning": "にわ"
+        },
+        {
+            "word": "daughter",
+            "meaning": "むすめ"
+        },
+        {
+            "word": "window",
+            "meaning": "まど"
+        },
+        {
+            "word": "practice",
+            "meaning": "れんしゅうする"
+        },
+        {
+            "word": "dance",
+            "meaning": "おどる"
+        },
+        {
+            "word": "of course",
+            "meaning": "もちろん"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "What is your brother doing now, Jack?",
+            "ja": "ジャック、おにいさん（おとうとさん）は、いまなにをしているの？",
+            "focus": "fp1",
+            "point": "What is ～ doing?「なにをしているか」",
+            "note": "いましていることは is（are）＋～ing のかたちでたずねる。こたえも He is eating lunch. のように is＋～ing。"
+        },
+        {
+            "en": "When does the soccer game start, Nick?",
+            "ja": "ニック、サッカーのしあいはいつはじまるの？",
+            "focus": "fp2",
+            "point": "When does ～ start?「いつはじまるか」",
+            "note": "When は「いつ」。ここでは、はじまるじかんを At six o'clock.（6じに）と、じこくでこたえている。"
+        },
+        {
+            "en": "My mother can't dance well.",
+            "ja": "わたしのおかあさんは、じょうずにおどれません。",
+            "focus": "fp3",
+            "point": "can't＋もとのかたち「～できない」",
+            "note": "can't のあとは、dances ではなく dance（もとのかたち）。well（じょうずに）は dance のうしろにおく。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Mom, can you help me?\nB: (　) course. What is it?",
+            "choices": [
+                "In",
+                "At",
+                "Of",
+                "For"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：おかあさん、てつだってくれる？\nB：もちろんよ。なあに？",
+            "explanation": "of course で「もちろん」。たのまれたときやきかれたときに、Of course. だけでも「もちろん」とこたえられる。",
+            "choiceNotes": [
+                "In「～のなかに」",
+                "At「～で・～に」",
+                "Of「Of course のセット」",
+                "For「～のために」"
+            ],
+            "tip": "じゅぎょうの Yes, of course. とおなじセット。of と course をいっしょにおぼえよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Does your father cook dinner?\nB: No, he (　). My mother cooks.",
+            "choices": [
+                "doesn't",
+                "don't",
+                "isn't",
+                "aren't"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたのおとうさんは、ばんごはんをつくりますか。\nB：いいえ、つくりません。おかあさんがつくります。",
+            "explanation": "Does のしつもんには、does をつかってこたえる。「いいえ」は No, he doesn't. になる。he のときは don't にはしない。",
+            "choiceNotes": [
+                "doesn't「Does にこたえる」",
+                "don't「Do にこたえる」",
+                "isn't「Is にこたえる」",
+                "aren't「Are にこたえる」"
+            ],
+            "tip": "じゅぎょうの Does Emily like skiing? — No, she doesn't. とおなじかたち。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Yuki is (　) a letter to her grandmother now.",
+            "choices": [
+                "write",
+                "writes",
+                "wrote",
+                "writing"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "ユキはいま、おばあちゃんにてがみをかいています。",
+            "explanation": "is のあとに ～ing のかたちをつづけると、「いま～している」といういみになる。write は e をとって writing とかく。",
+            "choiceNotes": [
+                "write「もとのかたち」",
+                "writes「s がついたかたち」",
+                "wrote「かこのかたち」",
+                "writing「ing のかたち」"
+            ],
+            "tip": "じゅぎょうの He is eating lunch. とおなじかたち。つづりは writing（t は1つ）。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) is your birthday?\nB: It's May 10.",
+            "choices": [
+                "Where",
+                "When",
+                "Who",
+                "How"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あなたのたんじょう日はいつですか。\nB：5月10日です。",
+            "explanation": "When は「いつ」。B が May 10（5月10日）と日にちをこたえているので、When でたずねる。",
+            "choiceNotes": [
+                "Where「どこ」",
+                "When「いつ」",
+                "Who「だれ」",
+                "How「どう・どのように」"
+            ],
+            "tip": "じゅぎょうの When is the test? — Next Friday. とおなじ。B のこたえをさきによもう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: (　) is my cap, Mom?\nB: It's on your bed.",
+            "choices": [
+                "When",
+                "Who",
+                "What",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：おかあさん、ぼくのぼうしはどこ？\nB：あなたのベッドのうえよ。",
+            "explanation": "Where は「どこ」。B が on your bed（ベッドのうえに）とばしょをこたえているので、Where でたずねる。",
+            "choiceNotes": [
+                "When「いつ」",
+                "Who「だれ」",
+                "What「なに」",
+                "Where「どこ」"
+            ],
+            "tip": "じゅぎょうの Where do you play baseball? とおなじ。ばしょをきくときは Where。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: What time do you get up?\nB: I get up (　) six thirty.",
+            "choices": [
+                "at",
+                "in",
+                "on",
+                "of"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたはなんじにおきますか。\nB：6じ30ぷんにおきます。",
+            "explanation": "What time（なんじ）には、じこくでこたえる。「6じ30ぷんに」のように、じこくをいうときは at をつかうのがきほん。",
+            "choiceNotes": [
+                "at「～に（じこく）」",
+                "in「～に（月・きせつ）」",
+                "on「～に（日・ようび）」",
+                "of「～の」"
+            ],
+            "tip": "じゅぎょうの At six o'clock. とおなじ at。at six thirty をセットでいえるようにしよう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "My little brother can't (　) yet.",
+            "choices": [
+                "swims",
+                "swim",
+                "swimming",
+                "swam"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしのおとうとは、まだおよげません。",
+            "explanation": "can't のあとは、もとのかたちの swim。can't swim yet で「まだおよげない」。",
+            "choiceNotes": [
+                "swims「s がついたかたち」",
+                "swim「もとのかたち」",
+                "swimming「ing のかたち」",
+                "swam「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの My mother can't dance well. とおなじかたち。can't のあとはもとのかたち。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "My friend Lucy is (　) Australia.",
+            "choices": [
+                "at",
+                "with",
+                "from",
+                "to"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしのともだちのルーシーは、オーストラリアのしゅっしんです。",
+            "explanation": "is from ～で「～のしゅっしんだ」。from のあとに、くにやまちのなまえをおく。",
+            "choiceNotes": [
+                "at「～で・～に」",
+                "with「～といっしょに」",
+                "from「～から・～しゅっしん」",
+                "to「～へ」"
+            ],
+            "tip": "じゅぎょうの That volleyball player is from Italy. とおなじかたち。"
+        }
+    ],
+    "closing": "えいごは、よむだけでなく、てでかくとおぼえやすくなります。きょうかいたたんごとれいぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。"
+}

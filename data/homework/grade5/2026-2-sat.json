@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2026-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・かいわ・ぶんのかたち",
+    "aim": "じゅぎょうでまなんだセットのことば、How long・When・Whose のしつもんとこたえ、Does ～ have …? のかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "get up や a lot of などのセットをかける",
+        "How long・When・Whose をつかいわけられる",
+        "Does のしつもんで、もとのかたちをつかえる"
+    ],
+    "words": [
+        {
+            "word": "people",
+            "meaning": "人びと"
+        },
+        {
+            "word": "draw",
+            "meaning": "（えを）かく"
+        },
+        {
+            "word": "textbook",
+            "meaning": "きょうかしょ"
+        },
+        {
+            "word": "newspaper",
+            "meaning": "しんぶん"
+        },
+        {
+            "word": "get up",
+            "meaning": "おきる"
+        },
+        {
+            "word": "listen to",
+            "meaning": "～をきく"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "How long is your guitar lesson today, Kana?",
+            "ja": "カナ、きょうのギターのレッスンは、どのくらいのながさなの？",
+            "focus": "fp1",
+            "point": "How long ～?「どのくらいのながさ」",
+            "note": "じかんのながさをたずねるときは How long。こたえは It is thirty minutes.（30ぷん）のようにいう。"
+        },
+        {
+            "en": "When do you study English?",
+            "ja": "あなたは、いつえいごをべんきょうするの？",
+            "focus": "fp2",
+            "point": "When ～?「いつ」",
+            "note": "When は「いつ」をたずねることば。こたえは Before school.（学校のまえ）のように、ときをいう。"
+        },
+        {
+            "en": "My brother has a lot of comic books.",
+            "ja": "わたしのおにいさんは、マンガをたくさんもっています。",
+            "focus": "fp3",
+            "point": "a lot of「たくさんの」",
+            "note": "a lot of でひとまとまり。My brother のように I・you いがいのひとりが「～は」のときは、have ではなく has。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: How (　) do you practice the piano every day?\nB: About forty minutes.",
+            "choices": [
+                "old",
+                "many",
+                "long",
+                "tall"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：まい日、どのくらいピアノのれんしゅうをするの？\nB：40ぷんくらいだよ。",
+            "explanation": "B が About forty minutes.（40ぷんくらい）と、じかんのながさをこたえている。ながさをたずねるときは How long をつかう。",
+            "choiceNotes": [
+                "old「としをとった・ふるい」",
+                "many「（かずが）たくさんの」",
+                "long「ながい」",
+                "tall「せがたかい」"
+            ],
+            "tip": "じゅぎょうの How long is your guitar lesson ...? とおなじ。こたえの「じかん」がヒント。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: (　) notebook is this? There is no name on it.\nB: Oh, it's mine.",
+            "choices": [
+                "Whose",
+                "When",
+                "Who",
+                "How"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：これは、だれのノート？名前がかいてないよ。\nB：あっ、わたしのだよ。",
+            "explanation": "B が mine（わたしのもの）と、もちぬしをこたえている。「だれの～」とたずねるときは Whose をつかう。",
+            "choiceNotes": [
+                "Whose「だれの」",
+                "When「いつ」",
+                "Who「だれ」",
+                "How「どのように」"
+            ],
+            "tip": "じゅぎょうの Whose is it? とおなじなかま。こたえの mine は「わたしのもの」。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My mother (　) up at five thirty every morning.",
+            "choices": [
+                "sees",
+                "likes",
+                "has",
+                "gets"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしのおかあさんは、まいあさ5じ30ぷんにおきます。",
+            "explanation": "get up で「おきる」。My mother のように I・you いがいのひとりが「～は」のときは、gets と s をつけるのがきほん。",
+            "choiceNotes": [
+                "sees「みる・みえる」",
+                "likes「すき」",
+                "has「もっている」",
+                "gets「get up でおきる」"
+            ],
+            "tip": "じゅぎょうの I get up at seven o'clock ... とおなじ。get up をセットでかこう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) do you go to the library?\nB: After school.",
+            "choices": [
+                "Who",
+                "When",
+                "Whose",
+                "What"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あなたは、いつとしょかんにいくの？\nB：学校がおわったあとだよ。",
+            "explanation": "B が After school.（学校のあと）と、「とき」をこたえている。「いつ」とたずねるのは When。",
+            "choiceNotes": [
+                "Who「だれ」",
+                "When「いつ」",
+                "Whose「だれの」",
+                "What「なに」"
+            ],
+            "tip": "じゅぎょうの When do you study English? — Before school. とおなじ。つぎのセリフがヒント。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: Is this your pencil case, Yuki?\nB: Yes, (　) is. It's new.",
+            "choices": [
+                "he",
+                "she",
+                "you",
+                "it"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ユキ、これはあなたのふでばこ？\nB：はい、そうです。あたらしいんだ。",
+            "explanation": "this がさしているのは pencil case（ふでばこ）。1つのもののことをこたえるときは it をつかう。",
+            "choiceNotes": [
+                "he「かれは」",
+                "she「かのじょは」",
+                "you「あなたは」",
+                "it「それは（もの）」"
+            ],
+            "tip": "じゅぎょうの Is this your textbook, Jacob? — Yes, it is. とおなじ。1つのものは it だよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My grandmother has a (　) of flowers in her garden.",
+            "choices": [
+                "many",
+                "much",
+                "lot",
+                "big"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしのおばあさんのにわには、はながたくさんあります。",
+            "explanation": "a lot of で「たくさんの」。a と of のあいだにはいるのは lot。many なら a も of もつけずに many flowers という。",
+            "choiceNotes": [
+                "many「（かずが）たくさんの」",
+                "much「（りょうが）たくさんの」",
+                "lot「a lot of でたくさんの」",
+                "big「おおきい」"
+            ],
+            "tip": "じゅぎょうの My brother has a lot of comic books. とおなじ。a lot of をまとめてかこう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "I listen (　) English songs before bed.",
+            "choices": [
+                "to",
+                "at",
+                "of",
+                "from"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "わたしは、ねるまえに、えいごのうたをききます。",
+            "explanation": "listen to ～ で「～をきく」。listen のあと、きくもののまえには to をおくのがきほん。",
+            "choiceNotes": [
+                "to「listen to で～をきく」",
+                "at「～で・～に」",
+                "of「～の」",
+                "from「～から」"
+            ],
+            "tip": "じゅぎょうの Let's listen to this CD in my room. とおなじ。listen to をセットでかこう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Does your sister (　) a new bike?",
+            "choices": [
+                "has",
+                "have",
+                "having",
+                "had"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "あなたのおねえさんは、あたらしいじてんしゃをもっていますか。",
+            "explanation": "Does ではじまるしつもんでは、うしろのどうしは、もとのかたちにする。だから has ではなく have。",
+            "choiceNotes": [
+                "has「s がついたかたち」",
+                "have「もとのかたち」",
+                "having「ing のかたち」",
+                "had「まえのこと（かこ）」"
+            ],
+            "tip": "じゅぎょうの Does your brother have …? とおなじ。Does の文では、どうしは have。"
+        }
+    ],
+    "closing": "きょうは、たんごとぶんを、ていねいにかいてみました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。すこしずつで、だいじょうぶです。"
+}

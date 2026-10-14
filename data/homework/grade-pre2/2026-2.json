@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2026-2",
+    "title": "文法事項の確認",
+    "theme": "過去完了・譲歩・関係詞の省略・条件・許可と目的",
+    "aim": "授業で学んだ過去完了、even if の譲歩、関係代名詞の省略と間接疑問、条件の if と In that case、be allowed to・be free to・in order to を、新しい英文で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "過去の時点より前のことを過去完了で表せる",
+        "even if・関係代名詞の省略・間接疑問の形を見抜ける",
+        "条件の if 節、In that case、even without を使える",
+        "許可・自由・目的を表す〈to＋原形〉の形が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "When I got to the station, the last train (　), so I took a taxi home.",
+            "choices": [
+                "has left",
+                "will leave",
+                "had left",
+                "leaves"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "駅に着いたとき、最終電車はもう出てしまっていたので、私はタクシーで家に帰った。",
+            "explanation": "駅に着いた過去の時点より前に電車は出ていたので、過去完了 had left。When I got … で過去の時点が示されているので、現在完了 has left は使えない。",
+            "choiceNotes": [
+                "has left「現在完了」",
+                "will leave「未来」",
+                "had left「過去完了」",
+                "leaves「現在形」"
+            ],
+            "tip": "授業の When I arrived, the movie had already started. と同じ形。基準の時点を先に見つける。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The children (　) playing in the park for two hours when it started to rain.",
+            "choices": [
+                "have been",
+                "are",
+                "will be",
+                "had been"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "雨が降り始めたとき、子どもたちは公園で2時間ずっと遊んでいた。",
+            "explanation": "雨が降り始めた過去の時点まで、2時間ずっと遊び続けていたので、過去完了進行形 had been playing を使う。",
+            "choiceNotes": [
+                "have been「現在完了進行形」",
+                "are「現在進行形」",
+                "will be「未来進行形」",
+                "had been「過去完了進行形」"
+            ],
+            "tip": "授業の She had been training hard for years と同じ形。「その時点まで～し続けていた」と訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "When I called Tom, he (　) his homework yet.",
+            "choices": [
+                "hadn't done",
+                "hasn't done",
+                "won't do",
+                "doesn't do"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私がトムに電話したとき、彼はまだ宿題をしていなかった。",
+            "explanation": "電話した過去の時点で、まだ宿題をしていなかったことを表すので、過去完了の否定 hadn't done。had not＋過去分詞＋yet で「その時点ではまだ～していなかった」。",
+            "choiceNotes": [
+                "hadn't done「過去完了」",
+                "hasn't done「現在完了」",
+                "won't do「未来」",
+                "doesn't do「現在形」"
+            ],
+            "tip": "授業の her dream had not come true yet と同じ形。「その時点ではまだ」と訳すと意味がつかみやすい。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Last week, I got a letter from a friend I (　) at summer camp three years earlier.",
+            "choices": [
+                "have met",
+                "had met",
+                "meet",
+                "will meet"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "先週、3年前にサマーキャンプで知り合った友人から手紙が届いた。",
+            "explanation": "friend の後ろに目的格の関係代名詞が省略された形。手紙を受け取った時点より前に知り合っていたので過去完了 had met。have met は three years earlier と一緒に使えない。",
+            "choiceNotes": [
+                "have met「現在完了」",
+                "had met「過去完了」",
+                "meet「現在形」",
+                "will meet「未来」"
+            ],
+            "tip": "授業の a friend she had met through dancing と同じ形。どちらの出来事が先かを確かめる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "I will keep running every morning, (　) if it is cold outside.",
+            "choices": [
+                "so",
+                "even",
+                "but",
+                "and"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "たとえ外が寒くても、私は毎朝走り続けるつもりだ。",
+            "explanation": "even if で「たとえ～でも」（譲歩）。寒いという条件でも、走り続けることは変わらない。so・but・and を入れると、if 節だけが残って文が完成しない。",
+            "choiceNotes": [
+                "so「だから」",
+                "even「even if＝たとえ～でも」",
+                "but「しかし」",
+                "and「そして」"
+            ],
+            "tip": "授業の even if things didn't turn out as she hoped と同じ形。「たとえ～でも」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The bag (　) last week is already broken.",
+            "choices": [
+                "I bought it",
+                "was bought",
+                "I bought",
+                "I buy"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "私が先週買ったかばんは、もう壊れている。",
+            "explanation": "bag の後ろに目的格の関係代名詞 that（which）が省略された形。bought の目的語は bag なので it は置かない。文全体の動詞は is。",
+            "choiceNotes": [
+                "I bought it「it が余分」",
+                "was bought「動詞が2つになる」",
+                "I bought「目的格の省略」",
+                "I buy「現在形」"
+            ],
+            "tip": "授業の The book I borrowed と同じ形。名詞の後ろに〈主語＋動詞〉が続いたら、関係代名詞の省略を考える。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Living abroad made me realize how much (　) my family.",
+            "choices": [
+                "I loved",
+                "did I love",
+                "loved I",
+                "do I love"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "外国で暮らしたことで、私は自分がどれほど家族を愛しているかに気づいた。",
+            "explanation": "how much 以下は realize の目的語になる間接疑問。疑問詞の後ろは疑問文の語順にせず、〈主語＋動詞〉の順にするので I loved。",
+            "choiceNotes": [
+                "I loved「主語＋動詞」",
+                "did I love「疑問文の語順」",
+                "loved I「語順の誤り」",
+                "do I love「疑問文・現在」"
+            ],
+            "tip": "授業の She remembered how much she loved dancing. と同じ形。文の中の疑問は〈主語＋動詞〉の順。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "If you (　) any questions about the event, please send me an e-mail.",
+            "choices": [
+                "will have",
+                "has",
+                "having",
+                "have"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "そのイベントについて何か質問があれば、私にメールを送ってください。",
+            "explanation": "if は「もし～なら」という条件。条件を表す if 節では、これから先のことも現在形で表すのが基本。主語が you なので have。",
+            "choiceNotes": [
+                "will have「未来」",
+                "has「3人称単数」",
+                "having「-ing 形」",
+                "have「現在形」"
+            ],
+            "tip": "授業の if you have friends ... と同じ形。条件の if 節では will を使わないのが基本。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Our train may be late tomorrow. (　) that case, please start the meeting without us.",
+            "choices": [
+                "On",
+                "At",
+                "In",
+                "By"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "明日は私たちの乗る電車が遅れるかもしれません。その場合は、私たち抜きで会議を始めてください。",
+            "explanation": "in that case で「その場合は」。ひとまとまりの表現で、前置詞は in。that case は直前の文の「電車が遅れる場合」を指す。",
+            "choiceNotes": [
+                "On「～の上に」",
+                "At「～で（地点）」",
+                "In「in that case＝その場合は」",
+                "By「～によって」"
+            ],
+            "tip": "授業の In that case, please send me ... と同じ形。that case の中身を前の文で確かめる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "You can join the club even (　) any experience.",
+            "choices": [
+                "if",
+                "without",
+                "though",
+                "unless"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "経験がまったくなくても、そのクラブに入ることができる。",
+            "explanation": "even without ～ で「～がなくても」。without は前置詞で、後ろは名詞 any experience。if・though・unless は接続詞で、後ろに〈主語＋動詞〉を置くのが基本。",
+            "choiceNotes": [
+                "if「もし～なら」",
+                "without「～なしで（前置詞）」",
+                "though「～だけれども」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の even without a reservation と同じ形。(5)の even if（後ろは文）と見比べる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "In this park, visitors are not (　) to feed the birds.",
+            "choices": [
+                "allow",
+                "allows",
+                "allowing",
+                "allowed"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この公園では、訪れた人は鳥にえさをやることを許されていない。",
+            "explanation": "be allowed to V で「～することを許されている」。主語は「許される」側なので受け身の allowed。not が入ると「～してはいけない」になる。",
+            "choiceNotes": [
+                "allow「許す（原形）」",
+                "allows「許す（3単現）」",
+                "allowing「許している」",
+                "allowed「許される（過去分詞）」"
+            ],
+            "tip": "授業の children are not allowed to eat meat と同じ形。規則を伝える文でよく使われる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "At our school, students are free (　) which club to join.",
+            "choices": [
+                "to choose",
+                "choosing",
+                "chose",
+                "choose"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私たちの学校では、生徒はどの部に入るかを自由に選べる。",
+            "explanation": "be free to V で「自由に～できる」。この意味の free の後ろは to＋動詞の原形。which club to join は「どの部に入るか」で、choose の目的語になる。",
+            "choiceNotes": [
+                "to choose「to不定詞」",
+                "choosing「-ing 形」",
+                "chose「過去形」",
+                "choose「原形」"
+            ],
+            "tip": "授業の You are free to choose any seat you like. と同じ形。be free to＋原形で覚える。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "You are free to take (　) you need from this box.",
+            "choices": [
+                "which",
+                "what",
+                "whose",
+                "where"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この箱から、必要なものを自由に持っていってかまいません。",
+            "explanation": "what は先行詞を含む関係代名詞で「～もの」。what you need で「必要なもの」となり、take の目的語になる。which を使うには前に先行詞が必要。",
+            "choiceNotes": [
+                "which「先行詞が必要」",
+                "what「～もの（先行詞を含む）」",
+                "whose「所有格」",
+                "where「場所」"
+            ],
+            "tip": "授業の free to choose what they eat と同じ形。what の後ろでは need の目的語が欠けている。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The city planted more trees in order (　) the streets cooler in summer.",
+            "choices": [
+                "to make",
+                "making",
+                "make",
+                "made"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その市は、夏に通りをより涼しくするために、さらに多くの木を植えた。",
+            "explanation": "in order to V で「～するために」（目的）。to の後ろは動詞の原形。make the streets cooler は make＋O＋C の形で「通りをより涼しくする」。",
+            "choiceNotes": [
+                "to make「to不定詞」",
+                "making「-ing 形」",
+                "make「原形」",
+                "made「過去形・過去分詞」"
+            ],
+            "tip": "授業の in order to make Meatless Monday ... と同じ形。make＋O＋C の部分も確かめる。"
+        }
+    ],
+    "closing": "今回の形は、どれも授業で読んだ物語やメール、説明文に出てきたものです。過去完了は出来事の順番を、even if や In that case は話の流れをつかむ手がかりになります。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2026-2",
+    "title": "文法事項の確認",
+    "theme": "関係代名詞の用法・動詞＋O＋動詞・受動態・接続詞",
+    "aim": "授業で学んだ関係代名詞の非制限用法と制限用法、動詞＋目的語＋to不定詞・原形・-ing、進行形・完了形・助動詞つきの受動態、in case・even though・since を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "コンマのある who・which を、区切って前から読める",
+        "前の動詞に合わせて、to不定詞・原形・-ing を選べる",
+        "is being・has been・can be＋過去分詞の意味がわかる",
+        "in case・even though・since を文脈で使い分けられる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "We stayed at an old hotel by the lake, (　) was built more than a hundred years ago.",
+            "choices": [
+                "that",
+                "where",
+                "which",
+                "what"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "私たちは湖のそばの古いホテルに泊まった。そのホテルは100年以上前に建てられた。",
+            "explanation": "コンマの後で an old hotel に情報を付け加える非制限用法。was built の主語になるので主格の which。非制限用法では that は使わない。",
+            "choiceNotes": [
+                "that「非制限用法では使わない」",
+                "where「関係副詞・後ろは完全な文」",
+                "which「主格・物」",
+                "what「先行詞を含む」"
+            ],
+            "tip": "授業の baby strollers, which were used ... と同じ形。コンマで区切り、「そのホテルは」と続けて読む。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Ms. Brown, (　) has taught English at our school for ten years, will return to Canada next spring.",
+            "choices": [
+                "who",
+                "which",
+                "that",
+                "whose"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ブラウン先生は、私たちの学校で10年間英語を教えてきたが、来年の春にカナダへ帰国する。",
+            "explanation": "先行詞 Ms. Brown は人で、has taught の主語なので主格の who。固有名詞に情報を付け加える非制限用法なので、that は使えない。",
+            "choiceNotes": [
+                "who「主格・人」",
+                "which「主格・物」",
+                "that「非制限用法では使わない」",
+                "whose「所有格・後ろに名詞」"
+            ],
+            "tip": "授業の My uncle, who lives in Osaka, ... と同じ形。コンマの間をくくって、主語と動詞を探す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The train was delayed for an hour, (　) caused many passengers to be late for work.",
+            "choices": [
+                "what",
+                "where",
+                "who",
+                "which"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "電車が1時間遅れ、そのせいで多くの乗客が仕事に遅刻した。",
+            "explanation": "非制限用法の which は、前の文の内容を先行詞にすることがある。ここでは「電車が1時間遅れたこと」を受け、caused の主語になっている。",
+            "choiceNotes": [
+                "what「先行詞を含む」",
+                "where「関係副詞・後ろは完全な文」",
+                "who「先行詞は人」",
+                "which「前の文の内容を受けられる」"
+            ],
+            "tip": "which が指すものは前に戻って確かめる。ここでは an hour ではなく、「電車が1時間遅れたこと」全体。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Only the students (　) passed the test can join the advanced class.",
+            "choices": [
+                "which",
+                "who",
+                "whose",
+                "what"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "そのテストに合格した生徒だけが、上級クラスに参加できる。",
+            "explanation": "コンマのない制限用法で、生徒を「テストに合格した生徒」に絞り込んでいる。先行詞は人で、passed の主語なので主格の who。",
+            "choiceNotes": [
+                "which「主格・物」",
+                "who「主格・人」",
+                "whose「所有格・後ろに名詞」",
+                "what「先行詞を含む」"
+            ],
+            "tip": "授業の The students who finished early と同じ制限用法。コンマがないので、区切らずに訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The scholarship (　) her to study in Australia for a year.",
+            "choices": [
+                "made",
+                "let",
+                "saw",
+                "enabled"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "その奨学金のおかげで、彼女は1年間オーストラリアで勉強することができた。",
+            "explanation": "enable＋O＋to V で「Oが～できるようにする」。made・let・saw は O の後ろに to不定詞をとらないので、to study と結びつかない。",
+            "choiceNotes": [
+                "made「O＋原形」",
+                "let「O＋原形」",
+                "saw「O＋原形・-ing」",
+                "enabled「O＋to V」"
+            ],
+            "tip": "授業の enabled ... to communicate と同じ形。物が主語の enable は「～のおかげで」と訳すと自然。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The coach made the players (　) around the field ten times after they lost the game.",
+            "choices": [
+                "run",
+                "to run",
+                "running",
+                "ran"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "試合に負けた後、コーチは選手たちにグラウンドを10周走らせた。",
+            "explanation": "使役の make は make＋O＋原形で「Oに～させる」。the players と run は「選手たちが走る」という主語と動詞の関係になっている。",
+            "choiceNotes": [
+                "run「原形」",
+                "to run「to不定詞」",
+                "running「-ing形」",
+                "ran「過去形」"
+            ],
+            "tip": "授業の make them look less manly と同じ形。(8)の cause は to不定詞をとるので、並べて覚える。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "When I looked out of the window, I saw a man (　) a large dog along the river.",
+            "choices": [
+                "walked",
+                "to walk",
+                "walking",
+                "walks"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "窓の外を見ると、男性が川沿いで大きな犬を散歩させているのが見えた。",
+            "explanation": "see＋O＋-ing で「Oが～しているところを見る」。a man と walking は「男性が犬を散歩させている」という関係。walk a dog は「犬を散歩させる」。",
+            "choiceNotes": [
+                "walked「過去形・過去分詞」",
+                "to walk「to不定詞」",
+                "walking「-ing形」",
+                "walks「3単現」"
+            ],
+            "tip": "授業の saw others using the carts と同じ形。原形の walk なら、動作の始めから終わりまで見たことになる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The heavy rain last night caused the river (　) quickly, so some roads near it were closed.",
+            "choices": [
+                "rising",
+                "to rise",
+                "rise",
+                "rose"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "昨夜の大雨で川の水位が急に上がり、近くの道路がいくつか通行止めになった。",
+            "explanation": "cause＋O＋to V で「Oが～する原因となる」。the river と to rise は「川の水位が上がる」という関係。make と違い、原形はとらない。",
+            "choiceNotes": [
+                "rising「-ing形」",
+                "to rise「to不定詞」",
+                "rise「原形」",
+                "rose「過去形」"
+            ],
+            "tip": "物が主語の cause は「～のせいで…」「～で…」と訳すと自然。(6)の make＋O＋原形と形を比べておく。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The school's swimming pool is (　) repaired, so this month's swimming classes will be held at the city pool.",
+            "choices": [
+                "be",
+                "been",
+                "having",
+                "being"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "学校のプールは今修理されているところなので、今月の水泳の授業は市民プールで行われる。",
+            "explanation": "is being＋過去分詞は進行形の受動態で「今～されているところだ」。プールは「修理される」側なので受動態、今の状況なので進行形にする。",
+            "choiceNotes": [
+                "be「原形」",
+                "been「過去分詞（完了形で使う）」",
+                "having「have の -ing形」",
+                "being「進行形の受動態をつくる」"
+            ],
+            "tip": "授業の The bridge is being repaired と同じ形。being の後ろの過去分詞から「～されているところ」をつかむ。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The museum (　) visited by more than two million people since it opened in 1995.",
+            "choices": [
+                "has been",
+                "was",
+                "is being",
+                "will be"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その博物館には、1995年に開館して以来、200万人以上が訪れている。",
+            "explanation": "since it opened in 1995（1995年の開館以来）とあるので、今までのことを表す完了形にする。博物館は「訪れられる」側なので has been visited。",
+            "choiceNotes": [
+                "has been「完了形の受動態」",
+                "was「過去形の受動態」",
+                "is being「進行形の受動態」",
+                "will be「未来の受動態」"
+            ],
+            "tip": "授業の has been closed for two years と同じ完了形の受動態。since ～ は「その時から今まで」を表す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Tickets for the concert can (　) online until the day before the show.",
+            "choices": [
+                "buy",
+                "be bought",
+                "been bought",
+                "buying"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "そのコンサートのチケットは、公演の前日までインターネットで購入できる。",
+            "explanation": "can＋be＋過去分詞で「～されることができる」。チケットは「買われる」側なので受動態にする。助動詞の後ろなので be は原形。",
+            "choiceNotes": [
+                "buy「能動態（買う）」",
+                "be bought「受動態（買われる）」",
+                "been bought「have の後ろで使う」",
+                "buying「-ing形」"
+            ],
+            "tip": "授業の These books can be borrowed と同じ形。「～されることができる」は「～できる」と訳すと自然。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "I always keep some cash in my wallet (　) a shop does not accept credit cards.",
+            "choices": [
+                "unless",
+                "even though",
+                "in case",
+                "so that"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "クレジットカードが使えない店があるといけないので、私はいつも財布に現金を入れている。",
+            "explanation": "in case S＋V で「～するといけないから・～に備えて」。カードが使えない店があった場合に備えて、現金を入れておくという意味。",
+            "choiceNotes": [
+                "unless「～しない限り」",
+                "even though「～だけれども」",
+                "in case「～に備えて」",
+                "so that「～するように」"
+            ],
+            "tip": "授業の Take an umbrella in case it rains. と同じ使い方。名詞が続くなら in case of＋名詞。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) she had a bad cold, she went to school to take the final exam.",
+            "choices": [
+                "Despite",
+                "Since",
+                "In case",
+                "Even though"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "彼女はひどい風邪をひいていたけれども、期末試験を受けるために学校へ行った。",
+            "explanation": "Even though S＋V で「～ではあるけれども」。風邪をひいていた事実を認めたうえで、反対の内容を続ける。Despite は前置詞なので後ろに S＋V を置けない。",
+            "choiceNotes": [
+                "Despite「前置詞・後ろは名詞」",
+                "Since「～なので」",
+                "In case「～に備えて」",
+                "Even though「～だけれども」"
+            ],
+            "tip": "授業の Even though each one ... と同じ形。Despite なら Despite her bad cold となる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) the last bus had already left, we had to take a taxi back to the hotel.",
+            "choices": [
+                "Even though",
+                "Since",
+                "Unless",
+                "So that"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "最終バスがもう出てしまっていたので、私たちはタクシーでホテルまで帰らなければならなかった。",
+            "explanation": "ここでの Since S＋V は理由「～なので」。最終バスがもう出てしまっていたことが、タクシーで帰った理由になっている。",
+            "choiceNotes": [
+                "Even though「～だけれども」",
+                "Since「～なので」",
+                "Unless「～しない限り」",
+                "So that「～するように（目的）」"
+            ],
+            "tip": "授業の Since the renovation crew ... と同じ「～なので」。(10)の「～以来」の since と区別する。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の4つの形は、大問2・3の長文の中で何度も使われていました。文の骨組みがつかめると、だれが何をしたのかを正確に読み取れます。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

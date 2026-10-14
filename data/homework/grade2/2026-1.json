@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2026-1",
+    "title": "文法事項の確認",
+    "theme": "例示・分詞構文・受動態・丁寧な依頼・対比",
+    "aim": "授業の長文やメールで学んだ例示の such as、非制限用法の which、分詞構文 Motivated by ～、丁寧な依頼、Therefore・On the other hand などを、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "such as・be called・非制限用法の which を読み取れる",
+        "Motivated by ～ と Efforts were made を訳せる",
+        "Could you please ～? などの丁寧な依頼を理解できる",
+        "Therefore・On the other hand から文の関係をつかめる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The park offers many outdoor activities, (　) hiking, fishing, and camping.",
+            "choices": [
+                "as if",
+                "such as",
+                "so that",
+                "even if"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その公園では、ハイキングや釣り、キャンプなど、多くの野外活動ができる。",
+            "explanation": "such as A, B, and C で「A・B・Cなど」。many outdoor activities の具体例を挙げている。ほかの3つは、ふつう後ろに S＋V が続く。",
+            "choiceNotes": [
+                "as if「まるで～かのように」",
+                "such as「～など」",
+                "so that「～するように」",
+                "even if「たとえ～でも」"
+            ],
+            "tip": "授業の such as a faster heart rate, ... と同じ形。後ろには具体例が続く。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This way of learning is called \"active learning,\" (　) encourages students to think for themselves.",
+            "choices": [
+                "who",
+                "what",
+                "where",
+                "which"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "このような学び方は「アクティブ・ラーニング」と呼ばれ、生徒が自分で考えることを促す。",
+            "explanation": "be called ～ で「～と呼ばれる」。コンマの後の which は非制限用法で、\"active learning\" に説明を加える。encourages の主語なので主格。",
+            "choiceNotes": [
+                "who「主格・人」",
+                "what「先行詞を含む」",
+                "where「関係副詞・後ろは完全な文」",
+                "which「主格・物」"
+            ],
+            "tip": "授業の fight-or-flight の文と同じ形。「～と呼ばれ、それは…」と前から訳す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Many visitors were (　) by the beautiful gardens of the old temple.",
+            "choices": [
+                "fascinated",
+                "fascinating",
+                "fascinate",
+                "fascination"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "多くの観光客が、その古い寺の美しい庭園に魅了された。",
+            "explanation": "be fascinated by ～ で「～に魅了される」。visitors は魅了される側なので、動詞 fascinate の過去分詞 fascinated にする。",
+            "choiceNotes": [
+                "fascinated「魅了された」",
+                "fascinating「魅力的な」",
+                "fascinate「魅了する」",
+                "fascination「魅力（名詞）」"
+            ],
+            "tip": "授業の fascinated by this feeling と同じ形。魅了する側なら -ing、される側なら -ed。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Light stretching before a race gets your body ready (　) quickly.",
+            "choices": [
+                "move",
+                "moving",
+                "to move",
+                "moved"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "レース前の軽いストレッチで、体はすばやく動ける状態になる。",
+            "explanation": "get＋O＋ready to V で「Oを～できる状態にする」。ready の後ろに動詞を続けるときは、to不定詞にする。",
+            "choiceNotes": [
+                "move「原形」",
+                "moving「-ing形」",
+                "to move「to不定詞」",
+                "moved「過去形・過去分詞」"
+            ],
+            "tip": "授業の gets the body ready to act と同じ形。名詞が続くなら ready for ～ になる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Our team lost the final by only one point. (　) by this, the players practiced even harder the next year.",
+            "choices": [
+                "Motivating",
+                "Motivated",
+                "To motivate",
+                "Motivation"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "私たちのチームは決勝で1点差で負けた。これに奮起して、選手たちは翌年さらに熱心に練習した。",
+            "explanation": "過去分詞で始まる分詞構文。選手たちは「やる気にさせられる」側なので Motivated。this は前の文の「1点差で負けたこと」を指す。",
+            "choiceNotes": [
+                "Motivating「-ing形」",
+                "Motivated「過去分詞」",
+                "To motivate「to不定詞」",
+                "Motivation「動機（名詞）」"
+            ],
+            "tip": "授業の Motivated by this と同じ形。this が指す内容を前の文から探す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Great efforts (　) to protect the old forest, but some trees were still cut down.",
+            "choices": [
+                "made",
+                "have made",
+                "were made",
+                "were making"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その古い森を守るために大きな努力がなされたが、それでも一部の木は切り倒された。",
+            "explanation": "make an effort（努力する）の受動態。efforts は「なされる」側なので were made で、「～する努力がなされた」となる。",
+            "choiceNotes": [
+                "made「過去形・過去分詞」",
+                "have made「現在完了」",
+                "were made「過去の受動態」",
+                "were making「過去進行形」"
+            ],
+            "tip": "授業の Efforts were made to ... と同じ形。だれが努力したかを示さない言い方。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Students cannot borrow books from the school library (　) they show their student ID cards.",
+            "choices": [
+                "if",
+                "because",
+                "while",
+                "unless"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "学生証を見せない限り、生徒は学校の図書館で本を借りることができない。",
+            "explanation": "unless S＋V で「SがVしない限り」。学生証を見せることが、本を借りる条件になっている。if を使うなら if they don't show ～ となる。",
+            "choiceNotes": [
+                "if「もし～なら」",
+                "because「～なので」",
+                "while「～する間に」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の unless they fed him ... と同じ使い方。if ～ not に近い意味になる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Could you please (　) me know which room we can use for the meeting?",
+            "choices": [
+                "let",
+                "tell",
+                "allow",
+                "inform"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "打ち合わせにどの部屋を使えるか、教えていただけますか。",
+            "explanation": "Could you please ～? は丁寧な依頼。let＋O＋原形で「Oに～させる」なので、let me know で「私に知らせる」、つまり「教える」となる。",
+            "choiceNotes": [
+                "let「O＋原形」",
+                "tell「O＋to V など」",
+                "allow「O＋to V」",
+                "inform「O＋of ～」"
+            ],
+            "tip": "授業の Could you please let me know ...? と同じ形。依頼の決まった言い方。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Before we make a decision, it would be great (　) you could send us some photos of the hall.",
+            "choices": [
+                "what",
+                "if",
+                "which",
+                "unless"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "決める前に、会場の写真を何枚か送っていただけるとありがたいです。",
+            "explanation": "It would be great if you could ～ で「～していただけるとありがたい」。would・could を使った仮定の形にすると、控えめで丁寧な依頼になる。",
+            "choiceNotes": [
+                "what「～こと（先行詞を含む）」",
+                "if「もし～なら」",
+                "which「関係代名詞」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の It would be great if ... と同じ形。「～していただけると」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The new sports center is easy (　) because it is right next to the station.",
+            "choices": [
+                "reaching",
+                "reached",
+                "reach",
+                "to reach"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "新しいスポーツセンターは駅のすぐ隣にあるので、行きやすい。",
+            "explanation": "S is easy to V で「Sは～しやすい」。主語の sports center が reach の目的語にあたるので、to reach の後ろに it は置かない。",
+            "choiceNotes": [
+                "reaching「-ing形」",
+                "reached「過去形・過去分詞」",
+                "reach「原形」",
+                "to reach「to不定詞」"
+            ],
+            "tip": "授業の it is easy to access from ... と同じ形。「行きやすい」と訳すと自然。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Our office is only a five-minute walk from your hotel. (　), you will not need to take a taxi to the meeting.",
+            "choices": [
+                "However",
+                "Instead",
+                "Therefore",
+                "Otherwise"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "私たちの事務所は、ホテルから歩いてわずか5分です。そのため、打ち合わせにタクシーを使う必要はありません。",
+            "explanation": "Therefore は「したがって・そのため」。前の文の「事務所がホテルから近い」が理由、後ろの「タクシーは必要ない」が結論になっている。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "Therefore「したがって」",
+                "Otherwise「そうでなければ」"
+            ],
+            "tip": "授業の Therefore, we can easily adjust ... と同じ使い方。前の文が理由を表す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Ken loves sports and spends most weekends outside. (　), his best friend Jun prefers to stay home and read.",
+            "choices": [
+                "On the other hand",
+                "For example",
+                "In addition",
+                "As a result"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ケンはスポーツが大好きで、週末はたいてい外で過ごす。一方、親友のジュンは家で本を読むほうが好きだ。",
+            "explanation": "On the other hand は「一方で」。外で過ごすことが多いケンと、家で読書をしたいジュンの、対照的な好みを比べている。",
+            "choiceNotes": [
+                "On the other hand「一方」",
+                "For example「例えば」",
+                "In addition「加えて」",
+                "As a result「その結果」"
+            ],
+            "tip": "授業の On the other hand, Wilhelm's ... と同じ使い方。2人を比べる合図。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "For many people today, a smartphone is not just a phone (　) also a camera and a map.",
+            "choices": [
+                "or",
+                "nor",
+                "but",
+                "so"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "今日の多くの人にとって、スマートフォンは電話であるだけでなく、カメラや地図でもある。",
+            "explanation": "not just A but (also) B で「AだけでなくBも」。not only A but also B と同じ意味で、ここでは A も B も名詞。",
+            "choiceNotes": [
+                "or「または」",
+                "nor「～もまた…ない」",
+                "but「not just と組になる」",
+                "so「だから」"
+            ],
+            "tip": "授業の not just A but B の文と同じ形。not just を見たら but を探す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Yuka's hard work and her family's support made her dream of becoming a nurse (　) true.",
+            "choices": [
+                "to come",
+                "come",
+                "coming",
+                "came"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ユカは努力と家族の支えによって、看護師になるという夢をかなえた。",
+            "explanation": "make＋O＋原形で「Oに～させる」。make one's dream come true は「夢をかなえる」。ここでは O が her dream ... nurse と長い。",
+            "choiceNotes": [
+                "to come「to不定詞」",
+                "come「原形」",
+                "coming「-ing形」",
+                "came「過去形」"
+            ],
+            "tip": "授業の made his dream ... come true と同じ形。(8)の let と同様、O の後は原形。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の表現はどれも、大問2・3の長文やメールに出てきたものです。such as の後ろには具体例、Therefore の後ろには結論、On the other hand の後ろには対照的な内容が来ると分かっていれば、先を予想しながら読めます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

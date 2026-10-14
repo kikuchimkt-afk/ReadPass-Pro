@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2026-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "動詞の形・会話の表現・時と場所のことば",
+    "aim": "授業で学んだ動詞の形・会話の表現・時と場所のことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "didn't や practice ～ing の動詞の形を書ける",
+        "How much ～? や You're welcome. を使える",
+        "next to や Next ～ など、時と場所のことばがわかる"
+    ],
+    "words": [
+        {
+            "word": "housework",
+            "meaning": "家事"
+        },
+        {
+            "word": "take a walk",
+            "meaning": "散歩する"
+        },
+        {
+            "word": "trip",
+            "meaning": "旅行"
+        },
+        {
+            "word": "expensive",
+            "meaning": "（値段が）高い"
+        },
+        {
+            "word": "quiet",
+            "meaning": "静かな"
+        },
+        {
+            "word": "introduce",
+            "meaning": "しょうかいする"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Well, it rained all weekend, so we didn't go camping.",
+            "ja": "ええと、週末ずっと雨が降ったので、キャンプに行きませんでした。",
+            "focus": "fp1",
+            "point": "didn't＋原形「～しなかった」",
+            "note": "rained と同じ過去の話なので didn't を使う。didn't のあとは動詞の原形の go。"
+        },
+        {
+            "en": "Thank you for coming to my baseball game, Uncle Jim.",
+            "ja": "ぼくの野球の試合に来てくれてありがとう、ジムおじさん。",
+            "focus": "fp2",
+            "point": "Thank you for ～ing「～してくれてありがとう」",
+            "note": "for のあとの動詞は ing の形。お礼への返事は You're welcome.（どういたしまして）が基本。"
+        },
+        {
+            "en": "Peter practiced kicking the ball before the soccer game.",
+            "ja": "ピーターはサッカーの試合の前に、ボールをける練習をしました。",
+            "focus": "fp3",
+            "point": "practice＋～ing「～する練習をする」",
+            "note": "practice のあとの動詞は ing の形にする。practiced kicking で「ける練習をした」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I was very busy last night, so I (　) watch TV.",
+            "choices": [
+                "wasn't",
+                "didn't",
+                "doesn't",
+                "isn't"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "昨日の夜はとてもいそがしかったので、テレビを見ませんでした。",
+            "explanation": "last night から過去の話だとわかる。後ろの watch は動詞の原形なので、一般動詞の過去の否定 didn't を使う。",
+            "choiceNotes": [
+                "wasn't「be動詞の過去の否定」",
+                "didn't「一般動詞の過去の否定」",
+                "doesn't「3単現の否定」",
+                "isn't「be動詞の現在の否定」"
+            ],
+            "tip": "授業の … so we didn't go camping. と同じ形。didn't のあとは動詞の原形にしよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Which season do you like (　), summer or winter?\nB: Summer. I love swimming.",
+            "choices": [
+                "good",
+                "very",
+                "many",
+                "better"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：夏と冬では、どちらの季節のほうが好きですか。\nB：夏です。泳ぐのが大好きなんです。",
+            "explanation": "Which ～ do you like better, A or B? で「AとBのどちらのほうが好きか」をたずねる。better は well の比較級（くらべる形）。",
+            "choiceNotes": [
+                "good「よい」",
+                "very「とても」",
+                "many「たくさんの」",
+                "better「（2つをくらべて）～のほうが」"
+            ],
+            "tip": "授業の Which cake did you like better, … と同じ形。2つのうち好きなほうは better でたずねよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Thank you for the birthday card.\nB: You're (　). I'm glad you liked it.",
+            "choices": [
+                "welcome",
+                "sorry",
+                "busy",
+                "late"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：誕生日カードをありがとう。\nB：どういたしまして。気に入ってもらえてうれしいです。",
+            "explanation": "Thank you for ～. というお礼には、You're welcome.（どういたしまして）と返すのが基本。後ろの I'm glad … ともつながる。",
+            "choiceNotes": [
+                "welcome「You're welcome. でどういたしまして」",
+                "sorry「すまなく思って」",
+                "busy「いそがしい」",
+                "late「おくれた」"
+            ],
+            "tip": "授業の Thank you for coming … への返事も You're welcome.。お礼には「どういたしまして」で返そう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) is this cap?\nB: It's 15 dollars.",
+            "choices": [
+                "How many",
+                "What time",
+                "How much",
+                "Where"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このぼうしはいくらですか。\nB：15ドルです。",
+            "explanation": "B が It's 15 dollars. と値段を答えているので、値段をたずねる How much を使う。",
+            "choiceNotes": [
+                "How many「いくつ（数）」",
+                "What time「何時」",
+                "How much「いくら（値段）」",
+                "Where「どこ」"
+            ],
+            "tip": "授業の Is it expensive? も、答えの No, it's only $60. から考えたね。答えのセリフがヒントになる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "My sister practices (　) the piano every evening.",
+            "choices": [
+                "play",
+                "played",
+                "plays",
+                "playing"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "姉は毎晩ピアノをひく練習をしています。",
+            "explanation": "practice ～ing で「～する練習をする」。practice のあとの動詞は ing の形にする。",
+            "choiceNotes": [
+                "play「原形」",
+                "played「過去形」",
+                "plays「3単現」",
+                "playing「ing形」"
+            ],
+            "tip": "授業の practiced kicking … と同じ形。practice のあとの動詞は ing 形にしよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "You must (　) careful when you cross the street.",
+            "choices": [
+                "are",
+                "be",
+                "is",
+                "being"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "道をわたるときは、気をつけなければいけません。",
+            "explanation": "must のあとは動詞の原形。are や is の原形は be なので、must be careful となる。",
+            "choiceNotes": [
+                "are「be動詞（you・複数）」",
+                "be「be動詞の原形」",
+                "is「be動詞（he・she など）」",
+                "being「ing形」"
+            ],
+            "tip": "授業の You must be quiet in the library. と同じ形。must be をセットで書けるようにしよう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "The bookstore is next (　) the bank.",
+            "choices": [
+                "of",
+                "on",
+                "to",
+                "at"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "その本屋は銀行のとなりにあります。",
+            "explanation": "next to ～で「～のとなりに」。next と to はセットで、場所を説明するときによく使う。",
+            "choiceNotes": [
+                "of「～の」",
+                "on「～の上に」",
+                "to「next to で～のとなりに」",
+                "at「～で（場所・時刻）」"
+            ],
+            "tip": "授業の掲示の next to the art room と同じ形。場所を表すことばに注意して読もう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: When will you visit your grandmother?\nB: (　) Sunday. I'll take some flowers to her.",
+            "choices": [
+                "Next",
+                "Last",
+                "Ago",
+                "Yesterday"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：いつおばあさんをたずねるのですか。\nB：次の日曜日です。花を持っていきます。",
+            "explanation": "When will you ～? はこれからのことをたずねているので、「次の日曜日」の Next Sunday が合う。Last Sunday は過去のこと。",
+            "choiceNotes": [
+                "Next「次の」",
+                "Last「この前の」",
+                "Ago「～前に」",
+                "Yesterday「昨日」"
+            ],
+            "tip": "授業の掲示でも、yesterday と Next Monday で時がちがったね。時を表すことばに注意しよう。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。会話の文は、前と後ろのセリフをつなげて読むのがコツです。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

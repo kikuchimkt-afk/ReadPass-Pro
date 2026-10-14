@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2026-1",
+    "title": "文法事項の確認",
+    "theme": "熟語・to不定詞・間接疑問・逆接・比較級・whose",
+    "aim": "授業の英文に出てきた熟語、trust A to do、間接疑問、名詞＋to不定詞、Although と However、比較級を強める even、whose、see if を、新しい英文で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "except for などの熟語と、最上級＋have ever を使える",
+        "間接疑問の語順と、trust A to do などの形が分かる",
+        "Although・However で、話の流れの変化をつかめる",
+        "比較級を強める even、whose、see if を使える"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "This is the most beautiful sunset that I have ever (　).",
+            "choices": [
+                "saw",
+                "see",
+                "seen",
+                "seeing"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "これは、私が今までに見た中でいちばん美しい夕日だ。",
+            "explanation": "〈最上級＋名詞＋that I have ever＋過去分詞〉で「今までに～した中でいちばん…」。have の後ろなので過去分詞の seen が入る。",
+            "choiceNotes": [
+                "saw「過去形」",
+                "see「原形」",
+                "seen「過去分詞」",
+                "seeing「-ing 形」"
+            ],
+            "tip": "授業の the best pasta that I've ever eaten と同じ形。eaten も過去分詞。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Almost everyone in my family likes cats, (　) my father, who is afraid of them.",
+            "choices": [
+                "such as",
+                "except for",
+                "because of",
+                "instead of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "猫が怖い父を除いて、私の家族はほぼ全員が猫好きだ。",
+            "explanation": "Almost everyone（ほぼ全員）が猫好きで、猫が怖い父だけは当てはまらない。全体の中の例外を示す except for「～を除いて」が入る。",
+            "choiceNotes": [
+                "such as「例えば～など」",
+                "except for「～を除いて」",
+                "because of「～が原因で」",
+                "instead of「～の代わりに」"
+            ],
+            "tip": "授業の Almost all ... except for one dog と同じ形。全体と例外をセットで読む。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "After talking with her parents, Yuki finally (　) up her mind to study abroad.",
+            "choices": [
+                "made",
+                "took",
+                "gave",
+                "kept"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "両親と話し合ったあと、ユキはついに留学することを決心した。",
+            "explanation": "make up one's mind で「決心する」。決心の中身は、ここでは to study abroad と to不定詞で表す。主語が Yuki なので her mind。",
+            "choiceNotes": [
+                "made「make up one's mind＝決心する」",
+                "took「取った」",
+                "gave「与えた」",
+                "kept「保った」"
+            ],
+            "tip": "授業の I can't make up my mind. と同じ表現。mind の前は主語に合わせた所有格にする。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Our coach trusts us (　) hard even when he is not watching.",
+            "choices": [
+                "practice",
+                "practiced",
+                "practicing",
+                "to practice"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "コーチは、自分が見ていないときでも、私たちがしっかり練習すると信じてくれている。",
+            "explanation": "trust＋人＋to＋動詞の原形で「（人）が～すると信頼する」。練習するのは us で、信頼の中身を to practice で表す。",
+            "choiceNotes": [
+                "practice「原形」",
+                "practiced「過去形・過去分詞」",
+                "practicing「-ing 形」",
+                "to practice「to不定詞」"
+            ],
+            "tip": "授業の trust their friends to support them と同じ。「（人）が～すると信じる」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "May I ask where (　) this beautiful bag?",
+            "choices": [
+                "you bought",
+                "did you buy",
+                "bought you",
+                "do you buy"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "このすてきなかばんをどこで買ったのか、お聞きしてもいいですか。",
+            "explanation": "May I ask の後ろの where 以下は間接疑問。疑問詞の後ろは疑問文の語順にせず、〈主語＋動詞〉の順にするので you bought。",
+            "choiceNotes": [
+                "you bought「主語＋動詞」",
+                "did you buy「疑問文の形」",
+                "bought you「語順の誤り」",
+                "do you buy「疑問文・現在」"
+            ],
+            "tip": "授業の May I ask which program you're interested in? と同じ語順。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "This shop has so many kinds of cakes to choose (　).",
+            "choices": [
+                "to",
+                "with",
+                "from",
+                "on"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この店には、選べるケーキの種類がとてもたくさんある。",
+            "explanation": "choose from ～「～の中から選ぶ」の from が文末に残った形。cakes to choose from で「（その中から）選べるケーキ」となる。",
+            "choiceNotes": [
+                "to「～へ」",
+                "with「～と一緒に」",
+                "from「～の中から」",
+                "on「～の上に」"
+            ],
+            "tip": "授業の We have plenty to choose from. と同じ形。to＋動詞の後ろの前置詞を落とさない。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Could you buy some eggs (　) your way home from school?",
+            "choices": [
+                "in",
+                "on",
+                "at",
+                "by"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "学校からの帰りに、卵を買ってきてもらえますか。",
+            "explanation": "on one's way home で「家に帰る途中で」。way の前には移動する人を表す所有格を置くので、ここでは your way になる。",
+            "choiceNotes": [
+                "in「～の中で」",
+                "on「on one's way＝途中で」",
+                "at「～で（地点）」",
+                "by「～のそばに」"
+            ],
+            "tip": "授業の buy something on your way と同じ。stop by「立ち寄る」も覚えよう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) the test was very difficult, many students got high scores.",
+            "choices": [
+                "Because",
+                "Despite",
+                "But",
+                "Although"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "そのテストはとても難しかったが、多くの生徒が高い点数を取った。",
+            "explanation": "「難しかった」のに「高い点数」と予想に反する流れなので、Although「～だけれども」。Despite は前置詞で、後ろに〈主語＋動詞〉を直接続けられない。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Despite「～にもかかわらず（前置詞）」",
+                "But「しかし」",
+                "Although「～だけれども」"
+            ],
+            "tip": "授業の Although he enjoyed studying English と同じ形。前後が食い違うかを見る。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "I felt (　) when I called my teacher by the wrong name.",
+            "choices": [
+                "embarrass",
+                "embarrassing",
+                "embarrassed",
+                "embarrasses"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "先生をまちがった名前で呼んだとき、私は恥ずかしい思いをした。",
+            "explanation": "恥ずかしいと感じているのは「私」なので、embarrassed「（人が）恥ずかしい」が入る。embarrassing は「（物事が）恥ずかしい思いをさせる」。",
+            "choiceNotes": [
+                "embarrass「原形」",
+                "embarrassing「恥ずかしくさせる」",
+                "embarrassed「恥ずかしい」",
+                "embarrasses「3単現」"
+            ],
+            "tip": "授業の he might be embarrassed と同じ。感情を表す動詞は、感じる人が主語なら -ed 形。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Getting enough sleep is an important step (　) your health.",
+            "choices": [
+                "improve",
+                "improved",
+                "improves",
+                "to improve"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "十分な睡眠をとることは、健康状態をよくするための大切な一歩だ。",
+            "explanation": "〈名詞＋to＋動詞の原形〉で「～するための（名詞）」。to improve your health が後ろから step を説明している。",
+            "choiceNotes": [
+                "improve「原形」",
+                "improved「過去形・過去分詞」",
+                "improves「3単現」",
+                "to improve「to不定詞」"
+            ],
+            "tip": "授業の a necessary step to improve his skills と同じ形。「～するための」と訳す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "Your plan is good, but a few changes will make it (　) better.",
+            "choices": [
+                "very",
+                "even",
+                "more",
+                "most"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "あなたの計画はよいが、少し変えればさらによくなるだろう。",
+            "explanation": "比較級 better を強める語として even「さらに」が入る。very は原級を強める語で、比較級を直接強めることはできない。make it better は make＋O＋C の形。",
+            "choiceNotes": [
+                "very「とても（原級を強める）」",
+                "even「さらに（比較級を強める）」",
+                "more「比較級をつくる」",
+                "most「最上級をつくる」"
+            ],
+            "tip": "授業の make it even better と同じ。a few changes は「少し変えれば」と訳す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "We planned to go hiking on Sunday. (　), it rained all day, so we stayed home.",
+            "choices": [
+                "However",
+                "As a result",
+                "For example",
+                "In addition"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "日曜日にハイキングに行く予定だった。しかし一日中雨が降ったので、家にいた。",
+            "explanation": "「ハイキングの予定」から予想される流れとは逆に、「雨で家にいた」と続くので、However「しかし」が入る。前の文とのつながりで選ぶ。",
+            "choiceNotes": [
+                "However「しかし」",
+                "As a result「その結果」",
+                "For example「例えば」",
+                "In addition「さらに」"
+            ],
+            "tip": "授業のメールの However, we just found someone ... と同じ。話の向きが変わる合図。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Emma has a cousin (　) parents run a small hotel in Kyoto.",
+            "choices": [
+                "who",
+                "which",
+                "whose",
+                "whom"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "エマには、両親が京都で小さなホテルを経営しているいとこがいる。",
+            "explanation": "a cousin と parents は「いとこの両親」という関係なので、所有格の関係代名詞 whose が入る。whose の後ろには名詞 parents が続く。",
+            "choiceNotes": [
+                "who「主格（人）」",
+                "which「主格・目的格（物）」",
+                "whose「所有格」",
+                "whom「目的格（人）」"
+            ],
+            "tip": "授業の another band whose members ... と同じ形。「その両親が」と考える。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Why don't you take a free lesson first to see (　) you like it?",
+            "choices": [
+                "what",
+                "if",
+                "unless",
+                "because"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "気に入るかどうか確かめるために、まず無料のレッスンを受けてみたらどうですか。",
+            "explanation": "see if S V で「SがVするかどうか確かめる」。この if は「もし～なら」ではなく「～かどうか」の意味で、if 以下が see の目的語。",
+            "choiceNotes": [
+                "what「何を・何が」",
+                "if「～かどうか」",
+                "unless「～しない限り」",
+                "because「～なので」"
+            ],
+            "tip": "授業の to see if you like their music と同じ形。この if は「～かどうか」。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で扱った問題文や会話、物語、Eメールに出てきたものです。except for や make up one's mind のような熟語は大問1で問われることがあり、Although や However などのつなぎの言葉は、長文や会話の流れをつかむ手がかりになります。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

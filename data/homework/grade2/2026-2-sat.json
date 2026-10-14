@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2026-2-sat",
+    "title": "文法事項の確認",
+    "theme": "譲歩・名詞の後置修飾・並列・前置詞＋動名詞",
+    "aim": "授業で学んだ譲歩の表現（No matter how・Even if・Although）、関係代名詞の省略と過去分詞の後置修飾、either A or B の並列、前置詞の後ろの動名詞を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "No matter how・Even if・Although を使い分けられる",
+        "名詞の後ろの説明を見抜き、文全体の動詞を見つけられる",
+        "either A or B の A と B を、同じ働きのまとまりとして読める",
+        "前置詞 to・from・by の後ろの動詞を動名詞にできる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "No matter (　) carefully I check my essays, my teacher always finds a few small mistakes.",
+            "choices": [
+                "what",
+                "when",
+                "how",
+                "which"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "どんなに注意深く作文を見直しても、先生はいつも小さな間違いをいくつか見つける。",
+            "explanation": "No matter how＋形容詞・副詞＋S V で「どんなに～しても」。直後に副詞 carefully が続くので、程度を表す how が入る。",
+            "choiceNotes": [
+                "what「何を～しても」",
+                "when「いつ～しても」",
+                "how「どんなに～しても」",
+                "which「どちらを～しても」"
+            ],
+            "tip": "授業の No matter how many times ～ と同じ形。今回は how の直後に carefully が来る。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "(　) you fail the test this time, don't give up on your goal of studying abroad.",
+            "choices": [
+                "Although",
+                "Even if",
+                "Because",
+                "No matter"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "たとえ今回の試験に落ちても、留学するという目標をあきらめてはいけない。",
+            "explanation": "Even if S V で「たとえ～でも」。試験に落ちるかどうかはまだ分からないので、仮定の条件を表す Even if が入る。Although は事実を認めるときに使う。",
+            "choiceNotes": [
+                "Although「～だが（事実）」",
+                "Even if「たとえ～でも（仮定）」",
+                "Because「～なので」",
+                "No matter「how などと組む」"
+            ],
+            "tip": "事実を認めるなら Although、まだ分からない仮定なら Even if。授業で比べた違いを思い出す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "(　) the hotel was a little old, the rooms were clean and the staff were very friendly.",
+            "choices": [
+                "Despite",
+                "Even",
+                "However",
+                "Although"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "そのホテルは少し古かったが、部屋は清潔で、従業員もとても親切だった。",
+            "explanation": "Although S V で「～だが」。ホテルが古いという事実を認め、予想に反する内容を続ける。後ろに S V が続くので、前置詞の Despite は入らない。",
+            "choiceNotes": [
+                "Despite「～にもかかわらず（前置詞）」",
+                "Even「～でさえ（副詞）」",
+                "However「しかしながら」",
+                "Although「～だが（接続詞）」"
+            ],
+            "tip": "授業の Although the bag is small, ... と同じ形。「古いのに部屋は清潔」という意外さを読み取る。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Even if it (　) heavily tomorrow, the city marathon will be held as planned.",
+            "choices": [
+                "snows",
+                "will snow",
+                "snowed",
+                "snowing"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "たとえ明日大雪が降っても、市のマラソン大会は予定どおり行われる。",
+            "explanation": "条件を表す副詞節では、未来のことでも現在形で表す。Even if の節も同じなので snows。主節が will be held なので、過去形の snowed も合わない。",
+            "choiceNotes": [
+                "snows「現在形」",
+                "will snow「未来を表す形」",
+                "snowed「過去形」",
+                "snowing「-ing 形」"
+            ],
+            "tip": "授業の Even if it rains, ... と同じく、明日のことでも rains・snows と現在形で表す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The photos (　) by the students on the trip to Kyoto will be shown at the school festival.",
+            "choices": [
+                "taking",
+                "taken",
+                "took",
+                "to take"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "生徒たちが京都への旅行で撮った写真は、文化祭で展示される。",
+            "explanation": "photos を後ろから説明する過去分詞。写真は「撮られる」ものなので taken。photos から Kyoto までが主語で、文の動詞は will be shown。",
+            "choiceNotes": [
+                "taking「撮っている（能動）」",
+                "taken「撮られた（受動）」",
+                "took「撮った（過去形）」",
+                "to take「これから撮る」"
+            ],
+            "tip": "授業の The bridge built last year と同じ形。名詞が「する」側か「される」側かを考える。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The advice my teacher gave me before the exam (　) me feel much calmer.",
+            "choices": [
+                "making",
+                "was made",
+                "made",
+                "to make"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "試験の前に先生がくれた助言のおかげで、私はずっと落ち着いた気持ちになれた。",
+            "explanation": "advice (that) my teacher gave me は目的格の関係代名詞の省略。主語は The advice から exam までで、文の動詞が必要なので made が入る。",
+            "choiceNotes": [
+                "making「-ing 形」",
+                "was made「受動態」",
+                "made「過去形（文の動詞）」",
+                "to make「不定詞」"
+            ],
+            "tip": "授業の The book I borrowed was ... と同じ形。名詞の後ろの S V をくくって、文の動詞を探す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Among the letters she found in the old box (　) one from her grandfather.",
+            "choices": [
+                "was",
+                "were",
+                "being",
+                "to be"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "彼女が古い箱の中で見つけた手紙の中に、祖父からの一通があった。",
+            "explanation": "Among ～ が文頭に出た倒置で、主語は後ろの one（＝a letter）。letters (that) she found は目的格の関係代名詞の省略。主語が単数なので was。",
+            "choiceNotes": [
+                "was「主語が単数」",
+                "were「主語が複数」",
+                "being「現在分詞・動名詞」",
+                "to be「不定詞」"
+            ],
+            "tip": "授業の Among the items they found was ... と同じ倒置。letters につられて were にしない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "This is the dictionary my grandfather (　) when he was a high school student.",
+            "choices": [
+                "used it",
+                "using",
+                "was used",
+                "used"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "これは、祖父が高校生のころに使っていた辞書だ。",
+            "explanation": "dictionary (that) my grandfather used は目的格の関係代名詞の省略。used の目的語は先行詞の dictionary なので、it を重ねて置かない。",
+            "choiceNotes": [
+                "used it「目的語が重なる」",
+                "using「-ing 形」",
+                "was used「受動態」",
+                "used「過去形」"
+            ],
+            "tip": "授業の the items they found と同じ形。found の後ろにも目的語の it は置かれていない。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "You can pay for the concert tickets (　) in cash or by credit card.",
+            "choices": [
+                "both",
+                "neither",
+                "either",
+                "not only"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "そのコンサートのチケットは、現金かクレジットカードで支払うことができる。",
+            "explanation": "either A or B で「AかBのどちらか」。A の in cash と B の by credit card は、どちらも支払い方法を表す前置詞句でそろっている。",
+            "choiceNotes": [
+                "both「and と組む」",
+                "neither「nor と組む」",
+                "either「or と組む」",
+                "not only「but also と組む」"
+            ],
+            "tip": "both ... and、neither ... nor のように、組になる語とセットで覚える。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "On weekends, my brother either plays soccer with his friends or (　) video games at home.",
+            "choices": [
+                "playing",
+                "to play",
+                "played",
+                "plays"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "週末、弟は友達とサッカーをするか、家でゲームをするかのどちらかだ。",
+            "explanation": "ここでは A と B がどちらも主語 my brother の動詞。A が plays soccer（3単現）なので、B も plays video games になる。",
+            "choiceNotes": [
+                "playing「-ing 形」",
+                "to play「不定詞」",
+                "played「過去形」",
+                "plays「3単現」"
+            ],
+            "tip": "授業の You can either call ... or send ... と同じく、or の後ろも前と同じ形の動詞にする。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "The old factory will be used either as a museum or (　) young artists a place to work.",
+            "choices": [
+                "giving",
+                "to give",
+                "given",
+                "gives"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その古い工場は、博物館として、あるいは若い芸術家に仕事場を提供するために使われる予定だ。",
+            "explanation": "be used as ～「～として使われる」と、目的を表す to不定詞 to give ～「～を与えるために」を either A or B で並べた形。形は違っても、どちらも使い道を表す。",
+            "choiceNotes": [
+                "giving「-ing 形」",
+                "to give「～を与えるために」",
+                "given「過去分詞」",
+                "gives「3単現」"
+            ],
+            "tip": "授業の served either as ～ or to demonstrate ～ と同じ形。or の後ろはまとまりの終わりまで読む。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "When it comes to (　) speeches in English, Emma is the most confident student in her class.",
+            "choices": [
+                "making",
+                "make",
+                "made",
+                "makes"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "英語でスピーチをすることに関しては、エマはクラスでいちばん自信をもっている。",
+            "explanation": "when it comes to ～ で「～のことになると、～に関しては」。この to は前置詞なので、後ろに動詞を置くときは動名詞にする。",
+            "choiceNotes": [
+                "making「動名詞」",
+                "make「原形」",
+                "made「過去形・過去分詞」",
+                "makes「3単現」"
+            ],
+            "tip": "授業の pay attention to making sure と同じく、この to は前置詞。to の後ろがいつも原形とは限らない。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The thick curtains keep the room (　) getting too hot in the afternoon.",
+            "choices": [
+                "to",
+                "by",
+                "from",
+                "for"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その厚いカーテンは、午後に部屋が暑くなりすぎないようにしている。",
+            "explanation": "keep A from -ing で「Aが～しないようにする」。from は前置詞なので、後ろの動詞は動名詞 getting になっている。",
+            "choiceNotes": [
+                "to「～へ」",
+                "by「～によって」",
+                "from「～から（遠ざける）」",
+                "for「～のために」"
+            ],
+            "tip": "授業の keeps the dog from running と同じ形。prevent A from -ing も同じように使う。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "You can learn a lot about other cultures by (　) with people from different countries.",
+            "choices": [
+                "talk",
+                "talking",
+                "talked",
+                "to talk"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "さまざまな国の人と話すことで、ほかの文化について多くを学ぶことができる。",
+            "explanation": "by -ing で「～することによって」と手段を表す。by は前置詞なので、後ろの動詞は動名詞 talking にする。",
+            "choiceNotes": [
+                "talk「原形」",
+                "talking「動名詞」",
+                "talked「過去形・過去分詞」",
+                "to talk「不定詞」"
+            ],
+            "tip": "授業の by listening carefully と同じ形。by の後ろに動詞を置くときは -ing 形にする。"
+        }
+    ],
+    "closing": "2級の筆記では、文法そのものを問う問題は多くありませんが、長文を正確に読むには文の骨組みをつかむ力が欠かせません。今回の譲歩の表現や名詞の後ろの説明は、長文の中でもよく出てきます。Although や Even if は、英作文で意見を書くときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2026-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の形",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の形を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "for a long time や have to のセットを書ける",
+        "答えの文を手がかりに Where や too ～ を選べる",
+        "began to ～ や was ～ing、on・but を使える"
+    ],
+    "words": [
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "delicious",
+            "meaning": "おいしい"
+        },
+        {
+            "word": "museum",
+            "meaning": "美術館・博物館"
+        },
+        {
+            "word": "repeat",
+            "meaning": "くり返す"
+        },
+        {
+            "word": "temperature",
+            "meaning": "温度"
+        },
+        {
+            "word": "look like",
+            "meaning": "～に似ている"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I watched her for a long time.",
+            "ja": "私は長い間、おばあさんを見ていました。",
+            "focus": "fp1",
+            "point": "for a long time「長い間」",
+            "note": "for＋期間で「～のあいだ」。for a long time で「長い間」。ひとまとまりで覚えよう。"
+        },
+        {
+            "en": "Did you bring your umbrella?",
+            "ja": "かさを持ってきましたか。",
+            "focus": "fp2",
+            "point": "Did you ～?「～しましたか」",
+            "note": "Did のあとの動詞はもとの形（bring）。答えの Yes, it's in my bag. の it は umbrella のこと。"
+        },
+        {
+            "en": "The students began to sing their school song.",
+            "ja": "生徒たちは校歌を歌い始めました。",
+            "focus": "fp3",
+            "point": "begin to ～「～し始める」",
+            "note": "began は begin の過去形。to のあとの動詞は、もとの形（sing）にする。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I talked with my friend (　) a long time.",
+            "choices": [
+                "at",
+                "for",
+                "on",
+                "to"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "私は友だちと長い間話しました。",
+            "explanation": "for＋期間で「～のあいだ」。for a long time で「長い間」というセットになる。",
+            "choiceNotes": [
+                "at「～に（時刻など）」",
+                "for「～のあいだ（期間）」",
+                "on「～に（曜日・日付）」",
+                "to「～へ」"
+            ],
+            "tip": "授業の I watched her for a long time. と同じ形。for a long time をひとまとまりで書こう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Let's play tennis after school.\nB: Sorry, I have to (　) my mother.",
+            "choices": [
+                "help",
+                "helps",
+                "helping",
+                "helped"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：放課後にテニスをしましょう。\nB：ごめんなさい。母を手伝わなければなりません。",
+            "explanation": "have to ～で「～しなければならない」。to のあとの動詞は、もとの形（原形）にする。",
+            "choiceNotes": [
+                "help「原形」",
+                "helps「3単現」",
+                "helping「ing形」",
+                "helped「過去形」"
+            ],
+            "tip": "授業の but I have to go to the doctor. と同じ形。have to のあとは原形。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: (　) is my notebook, Mom?\nB: It's on your desk.",
+            "choices": [
+                "When",
+                "Who",
+                "What",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：お母さん、私のノートはどこにありますか。\nB：あなたのつくえの上にありますよ。",
+            "explanation": "B が It's on your desk.（つくえの上にあります）と場所を答えているので、場所をたずねる Where を選ぶ。",
+            "choiceNotes": [
+                "When「いつ」",
+                "Who「だれ」",
+                "What「何」",
+                "Where「どこ」"
+            ],
+            "tip": "授業の Yes, it's in my bag. も、物のある場所の答え。場所をたずねるのは Where。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Can you carry this box?\nB: No, I can't. It's too (　).",
+            "choices": [
+                "sleepy",
+                "kind",
+                "heavy",
+                "hungry"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：この箱を運べますか。\nB：いいえ、運べません。重すぎます。",
+            "explanation": "No, I can't.（運べません）の理由を It's too ～.（～すぎる）で言っている。箱が運べない理由になるのは heavy「重い」。",
+            "choiceNotes": [
+                "sleepy「ねむい」",
+                "kind「親切な」",
+                "heavy「重い」",
+                "hungry「おなかがすいた」"
+            ],
+            "tip": "授業の I can't read this book. It's too difficult. と同じ流れ。できない理由を too で言う。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "It began (　) in the afternoon.",
+            "choices": [
+                "to rain",
+                "rain",
+                "rains",
+                "rained"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "午後に雨がふり始めました。",
+            "explanation": "begin to ～で「～し始める」。began は begin の過去形。to のあとの動詞は、もとの形（原形）にする。",
+            "choiceNotes": [
+                "to rain「to＋原形」",
+                "rain「原形」",
+                "rains「3単現」",
+                "rained「過去形」"
+            ],
+            "tip": "授業の The students began to sing ... と同じ形。began to をセットで書こう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: What were you doing at eight last night?\nB: I was (　) a letter to my grandmother.",
+            "choices": [
+                "write",
+                "wrote",
+                "writing",
+                "writes"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：昨日の夜8時に何をしていましたか。\nB：おばあさんに手紙を書いていました。",
+            "explanation": "was＋ing形で「～していた」。質問も答えも過去の「～していた」の形。write の ing形は、e をとって writing と書く。",
+            "choiceNotes": [
+                "write「原形」",
+                "wrote「過去形」",
+                "writing「ing形」",
+                "writes「3単現」"
+            ],
+            "tip": "授業の Ryan was drinking a glass of water ... と同じ形。「～していた」は was＋ing形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "My family is going to visit Kyoto (　) Saturday.",
+            "choices": [
+                "in",
+                "at",
+                "to",
+                "on"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "私の家族は土曜日に京都をおとずれる予定です。",
+            "explanation": "曜日の前には on を使うのが基本。be going to ～は「～する予定だ」という意味。",
+            "choiceNotes": [
+                "in「月・季節・年など」",
+                "at「時刻など」",
+                "to「～へ」",
+                "on「曜日・日付」"
+            ],
+            "tip": "授業のメールの I am going to buy a new cap on Saturday. と同じ on＋曜日の形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "I wanted to go to the beach, (　) it rained all day.",
+            "choices": [
+                "so",
+                "but",
+                "because",
+                "if"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "海に行きたかったのですが、一日中雨がふりました。",
+            "explanation": "but は「しかし・～けれど」。「海に行きたかった」のに「一日中雨だった」という、思いどおりにならない流れをつなぐ。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "but「しかし・～けれど」",
+                "because「～なので（後ろが理由）」",
+                "if「もし～なら」"
+            ],
+            "tip": "授業の物語の Aya was not good at painting, but she got better. と同じつなぎ方。"
+        }
+    ],
+    "closing": "英語は、声に出して読みながら手で書くと、しっかり覚えられます。for a long time や began to のようなセットは、ひとまとまりで書く練習をしましょう。まちがえたところは、お手本を見ながら、もう一度ていねいに書き直してみてください。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2026-1",
+    "title": "文法事項の確認",
+    "theme": "対比・因果の表現、分詞、関係詞、比較級の強調",
+    "aim": "授業の長文で学んだ対比と因果の表現（while、However、Therefore、not only A but also B など）と、what A take to be B、分詞の働きを、新しい英文で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "While・However・Therefore が示す文と文の関係をつかめる",
+        "found to be と what A take to be B を訳せる",
+        "allow A to V・help＋原形・, which の形を見抜ける",
+        "名詞を修飾する分詞と結果の分詞構文を見分けられる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) the new trains are considerably faster than the old ones, many commuters find them far less comfortable.",
+            "choices": [
+                "Despite",
+                "During",
+                "While",
+                "Unlike"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい列車は古い列車よりかなり速い一方で、多くの通勤客ははるかに乗り心地が悪いと感じている。",
+            "explanation": "後ろに主語と動詞のある節が続くので、接続詞の While「～である一方で」が入る。前半の長所と後半の短所を対比している。",
+            "choiceNotes": [
+                "Despite「前置詞・～にもかかわらず」",
+                "During「前置詞・～の間」",
+                "While「接続詞・～の一方で」",
+                "Unlike「前置詞・～と違って」"
+            ],
+            "tip": "授業の However, while ... と同じ while。前半だけで判断せず、後半まで読む。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "In the survey, older employees were, as expected, found (　) more loyal to the company than their younger colleagues.",
+            "choices": [
+                "to be",
+                "be",
+                "been",
+                "to being"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その調査では、予想どおり、年長の社員は若い同僚よりも会社への忠誠心が強いと分かった。",
+            "explanation": "find O to be C の受動態 be found to be C で「Cだと分かる」。as expected「予想どおり」は were と found の間の挿入。",
+            "choiceNotes": [
+                "to be「to不定詞」",
+                "be「原形」",
+                "been「過去分詞」",
+                "to being「to＋-ing」"
+            ],
+            "tip": "授業の were, as expected, found to be ... と同じ形。挿入をはずして読む。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Many people assume that working from home reduces productivity. (　), several recent studies suggest the opposite.",
+            "choices": [
+                "Therefore",
+                "Moreover",
+                "For example",
+                "However"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "多くの人は在宅勤務で生産性が下がると思い込んでいる。しかし、最近のいくつかの研究はその逆を示唆している。",
+            "explanation": "前の文の思い込みと、後ろの the opposite「その逆」が反対の内容なので、逆接の However が入る。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "Moreover「さらに」",
+                "For example「たとえば」",
+                "However「しかし」"
+            ],
+            "tip": "授業の Birth Order でも、However のあとに固定観念と合わない研究結果が続いた。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "(　) many people take to be a natural talent for music is often the result of years of careful practice.",
+            "choices": [
+                "That",
+                "What",
+                "Which",
+                "Whom"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "多くの人が生まれつきの音楽の才能だと考えるものは、長年の地道な練習の結果であることが多い。",
+            "explanation": "what A take to be B で「AがBだと考えるもの」。what は take の目的語の働きをし、What から music までが主語、動詞は is。",
+            "choiceNotes": [
+                "That「接続詞・後ろは完全な文」",
+                "What「～もの（先行詞を含む）」",
+                "Which「先行詞が必要」",
+                "Whom「先行詞が必要」"
+            ],
+            "tip": "授業の what many people take to be ... と同じ形。「～だと考えるもの」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Experts predict the glacier will melt within fifty years. When that (　), the valley will lose its main water supply.",
+            "choices": [
+                "happens",
+                "will happen",
+                "happened",
+                "happening"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その氷河は50年以内に溶けてしまうと専門家は予測している。そうなれば、その谷は主な水源を失うことになる。",
+            "explanation": "時を表す副詞節の中では、未来のことも現在形で表すので happens が入る。that は前の文の「氷河が溶けること」を指す。",
+            "choiceNotes": [
+                "happens「現在形」",
+                "will happen「時の副詞節では不可」",
+                "happened「過去形」",
+                "happening「-ing形」"
+            ],
+            "tip": "授業の When that happens, ... と同じ形。that の指す内容を前の文で確かめる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Repairing the aging bridge would only be a short-term solution. (　), the city has decided to build a tunnel instead.",
+            "choices": [
+                "In addition",
+                "For example",
+                "Similarly",
+                "Therefore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "老朽化した橋の修理は一時しのぎにしかならない。そのため、市は代わりにトンネルを造ることにした。",
+            "explanation": "前の文が理由、後ろの文がそれを受けた決定なので、Therefore「そのため」が入る。instead は「橋を修理する代わりに」の意味。",
+            "choiceNotes": [
+                "In addition「さらに」",
+                "For example「たとえば」",
+                "Similarly「同様に」",
+                "Therefore「そのため」"
+            ],
+            "tip": "授業の So ... instead と同じ流れ。対策の限界から代わりの手段へ進む。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The new early-warning system could also protect other coastal communities (　) similar threats from rising seas.",
+            "choices": [
+                "faced",
+                "facing",
+                "face",
+                "faces"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その新しい早期警報システムは、海面上昇による同様の脅威に直面するほかの沿岸地域も守れるかもしれない。",
+            "explanation": "現在分詞 facing 以下が communities を後ろから修飾する。地域が脅威に「直面している」という能動の関係なので -ing形。",
+            "choiceNotes": [
+                "faced「過去分詞（受け身）」",
+                "facing「現在分詞（能動）」",
+                "face「原形」",
+                "faces「3単現」"
+            ],
+            "tip": "授業の nations facing similar threats と同じ形。名詞の直後の -ing に注意。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "The new canals not only increased crop yields (　) also enabled farmers to grow vegetables in the dry season.",
+            "choices": [
+                "or",
+                "nor",
+                "but",
+                "as"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい用水路は作物の収穫量を増やしただけでなく、乾季にも農民が野菜を育てられるようにした。",
+            "explanation": "not only A but also B で「AだけでなくBも」。A と B に動詞 increased と enabled が並び、用水路の二つの効果を表す。",
+            "choiceNotes": [
+                "or「または」",
+                "nor「～もまた…ない」",
+                "but「not only と組む」",
+                "as「～として・～ように」"
+            ],
+            "tip": "授業の not only ... but also と同じ形。not only を見たら but also を探す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Improved methods of storing grain allowed the village (　) several years of poor harvests without famine.",
+            "choices": [
+                "surviving",
+                "survive",
+                "to survive",
+                "survived"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "穀物の貯蔵方法が改良されたおかげで、その村は数年続いた不作を飢饉に陥らずに乗り切れた。",
+            "explanation": "allow A to V で「AがVすることを可能にする」。物が主語なので「～のおかげでAはVできた」と訳すと自然。",
+            "choiceNotes": [
+                "surviving「-ing形」",
+                "survive「原形」",
+                "to survive「to不定詞」",
+                "survived「過去形・過去分詞」"
+            ],
+            "tip": "授業の allowed Uruk to support と同じ形。(8)の enable も同じ形をとる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Farmers in the region began to produce a surplus of wheat, (　) could then be exchanged for tools and cloth.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "where"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その地域の農民は小麦を余るほど作るようになり、その余剰分は道具や布と交換できた。",
+            "explanation": "コンマの後ろで a surplus of wheat を説明する非制限用法の which。could be exchanged の主語になる主格。that はこの用法では使わない。",
+            "choiceNotes": [
+                "which「非制限用法・主格」",
+                "what「先行詞を含む」",
+                "that「非制限用法では不可」",
+                "where「後ろは完全な文」"
+            ],
+            "tip": "授業の a surplus, which could ... と同じ形。which が指す名詞を前で確かめる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "The use of written contracts helped (　) trade between merchants who lived far apart and rarely met.",
+            "choices": [
+                "facilitating",
+                "facilitate",
+                "facilitated",
+                "facilitation"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "書面による契約の利用は、遠く離れて暮らし、めったに会わない商人どうしの取引を円滑にするのに役立った。",
+            "explanation": "help の後ろには動詞の原形を続けられる。help facilitate ～ で「～を円滑にするのに役立つ」。to facilitate としてもよい。",
+            "choiceNotes": [
+                "facilitating「-ing形」",
+                "facilitate「原形」",
+                "facilitated「過去形・過去分詞」",
+                "facilitation「名詞」"
+            ],
+            "tip": "授業の helped facilitate the governance と同じ形。help＋原形で覚える。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The early results of the trial look promising. The study was small, (　), so its findings cannot yet be generalized.",
+            "choices": [
+                "but",
+                "although",
+                "despite",
+                "however"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その試験の初期の結果は有望に見える。しかし研究の規模が小さいため、得られた知見はまだ一般化できない。",
+            "explanation": "however は副詞なので、コンマではさんで文の途中に入れられる。but・although は接続詞、despite は前置詞で、この位置には置けない。",
+            "choiceNotes": [
+                "but「接続詞」",
+                "although「接続詞」",
+                "despite「前置詞」",
+                "however「副詞・文中に挿入できる」"
+            ],
+            "tip": "授業の This research is preliminary, however と同じ形。期待のあとの限界に注意。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The plants grown under the new lights were already large, and their seeds produced (　) larger plants the next year.",
+            "choices": [
+                "very",
+                "too",
+                "even",
+                "most"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい照明の下で育てた植物はすでに大きく、その種からは翌年さらに大きな植物が育った。",
+            "explanation": "比較級 larger を強める even「さらに」。すでに大きかった親の植物より、さらに大きいことを表す。very は比較級を強められない。",
+            "choiceNotes": [
+                "very「原級を強める」",
+                "too「～すぎる（原級に付く）」",
+                "even「比較級を強める」",
+                "most「最上級をつくる」"
+            ],
+            "tip": "授業の even bigger brains と同じ even。much や far も比較級を強める。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The new pesticide sharply reduced the number of insects on the farms, (　) to a decline in the local bird population.",
+            "choices": [
+                "led",
+                "leading",
+                "leads",
+                "lead"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "新しい農薬で農場の昆虫が激減し、その結果、地域の鳥の数が減少した。",
+            "explanation": "結果を表す分詞構文。leading to ～ で「その結果～につながった」。接続詞も主語もないので、led や leads は置けない。",
+            "choiceNotes": [
+                "led「過去形・過去分詞」",
+                "leading「分詞構文（結果）」",
+                "leads「3単現」",
+                "lead「原形」"
+            ],
+            "tip": "授業の ..., leading to consequences と同じ形。「その結果」と前から訳す。"
+        }
+    ],
+    "closing": "準1級の大問2では、前後の文の関係を手がかりに空所の語句を選ぶ問題が出ます。今回の While・However・Therefore や not only A but also B は、その関係を示す大切な目印です。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}
