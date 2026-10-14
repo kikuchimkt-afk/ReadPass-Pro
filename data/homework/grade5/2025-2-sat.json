@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "ことばのセット・かいわのつながり・ぶんのかたち",
+    "aim": "じゅぎょうでならった、いっしょにつかうことばのセット、しつもんとこたえのつながり、しつもんや「～して」「～しないで」のぶんのどうしのかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "いっしょにつかうことばのセットを、ただしくかける",
+        "しつもんにあうこたえや、たずねることばがわかる",
+        "しつもんや「～して」「～しないで」のぶんの、どうしのかたちがわかる"
+    ],
+    "words": [
+        {
+            "word": "Monday",
+            "meaning": "げつようび"
+        },
+        {
+            "word": "yellow",
+            "meaning": "きいろ（の）"
+        },
+        {
+            "word": "people",
+            "meaning": "人びと"
+        },
+        {
+            "word": "quiet",
+            "meaning": "しずかな"
+        },
+        {
+            "word": "shoes",
+            "meaning": "くつ"
+        },
+        {
+            "word": "practice",
+            "meaning": "れんしゅうする"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "The questions are always a little difficult.",
+            "ja": "もんだいは、いつもすこしむずかしいです。",
+            "focus": "fp1",
+            "point": "a little「すこし」",
+            "note": "a little は「すこし」。difficult（むずかしい）のまえにおいて、どのくらいむずかしいかをあらわしている。"
+        },
+        {
+            "en": "Do you often play tennis, Steve?",
+            "ja": "スティーブ、あなたはよくテニスをするの？",
+            "focus": "fp2",
+            "point": "often「よく」のしつもん",
+            "note": "often は「よく」。こたえるときは Yes, I play every Sunday. のように、いつするかもつたえるとよい。"
+        },
+        {
+            "en": "Judy, how does your sister practice the piano?",
+            "ja": "ジュディ、あなたのおねえさんは、どうやってピアノをれんしゅうするの？",
+            "focus": "fp3",
+            "point": "How does ～?「どうやって～するの」",
+            "note": "does をつかうしつもんでは、practice は s のつかない もとのかたち。your sister は1つのかたまりとしてあつかう。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My new shoes are a (　) big for me.",
+            "choices": [
+                "many",
+                "much",
+                "little",
+                "lot"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしのあたらしいくつは、わたしにはすこしおおきいです。",
+            "explanation": "a little は「すこし」。big（おおきい）のまえにおくと、「すこしおおきい」と、どのくらいかをあらわせる。",
+            "choiceNotes": [
+                "many「たくさん（かず）」",
+                "much「たくさん（りょう）」",
+                "little「a little ですこし」",
+                "lot「a lot of でたくさん」"
+            ],
+            "tip": "じゅぎょうの The questions are always a little difficult. とおなじかたち。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: It's very hot today.\nB: Yes. How (　) some ice cream?",
+            "choices": [
+                "about",
+                "for",
+                "of",
+                "with"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：きょうはとてもあついね。\nB：うん。アイスクリームはどう？",
+            "explanation": "How about ～? は「～はどう？」と、なにかをすすめたり、ていあんしたりするいいかた。How about の2つで、ひとつのセットになる。",
+            "choiceNotes": [
+                "about「How about でどう？」",
+                "for「～のために」",
+                "of「～の」",
+                "with「～といっしょに」"
+            ],
+            "tip": "じゅぎょうの How about pizza? とおなじかたち。こたえるときは Good idea.（いいね）などという。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "A: (　) quiet in the library, Sam.\nB: Oh, sorry.",
+            "choices": [
+                "Is",
+                "Are",
+                "Am",
+                "Be"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：サム、としょかんでは、しずかにしてね。\nB：あっ、ごめんなさい。",
+            "explanation": "「～してね」「～しなさい」とつたえるぶんは、どうしのもとのかたちではじめるのがきほん。is・am・are のもとのかたちは be なので、Be quiet になる。",
+            "choiceNotes": [
+                "Is「he・it などとつかう」",
+                "Are「you などとつかう」",
+                "Am「I とつかう」",
+                "Be「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの Be quiet, everyone. とおなじかたち。「しずかにして」は Be quiet. とおぼえよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "A: Mom, can I use this pen?\nB: Sorry, it's (　). Please use that one.",
+            "choices": [
+                "I",
+                "my",
+                "me",
+                "mine"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：おかあさん、このペンをつかってもいい？\nB：ごめんね、それはわたしのなの。あっちのをつかってね。",
+            "explanation": "mine は「わたしのもの」。ここでは my pen（わたしのペン）を、1つのことばであらわしている。my は my pen のように、うしろに もののなまえがひつよう。",
+            "choiceNotes": [
+                "I「わたしは」",
+                "my「わたしの」",
+                "me「わたしを・わたしに」",
+                "mine「わたしのもの」"
+            ],
+            "tip": "じゅぎょうの It's not mine. It's John's. とおなじ mine。「わたしのもの」は mine。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: (　) is that tall man?\nB: He's my uncle. He's a doctor.",
+            "choices": [
+                "Where",
+                "Who",
+                "When",
+                "How"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あのせのたかいおとこの人はだれ？\nB：ぼくのおじさんだよ。いしゃなんだ。",
+            "explanation": "B が my uncle（ぼくのおじさん）と、その人がだれかをこたえている。「だれ」とたずねるときは Who をつかう。",
+            "choiceNotes": [
+                "Where「どこ」",
+                "Who「だれ」",
+                "When「いつ」",
+                "How「どう・どうやって」"
+            ],
+            "tip": "じゅぎょうの Who is that girl? とおなじしつもん。B の my uncle（おじさん）がヒント。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: Does your sister often read books?\nB: Yes. She reads (　) night.",
+            "choices": [
+                "every",
+                "many",
+                "very",
+                "much"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたのおねえさんは、よくほんをよむの？\nB：うん。まいばんよんでいるよ。",
+            "explanation": "every night で「まいばん」。often（よく）ときかれて、Yes のあとに、いつよむかをくわしくつたえている。",
+            "choiceNotes": [
+                "every「まい～」",
+                "many「たくさん（かず）」",
+                "very「とても」",
+                "much「たくさん（りょう）」"
+            ],
+            "tip": "じゅぎょうの Yes, I play every Sunday. とおなじ every。「よく」へのこたえでつかえる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "How does your brother (　) to school?",
+            "choices": [
+                "goes",
+                "went",
+                "go",
+                "going"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "あなたのおにいさんは、どうやって学校へいきますか。",
+            "explanation": "How does ではじまるしつもんでは、your brother のあとのどうしを、もとのかたちにする。だから goes ではなく go。",
+            "choiceNotes": [
+                "goes「s がついたかたち」",
+                "went「まえのこと（かこ）」",
+                "go「もとのかたち」",
+                "going「ing のかたち」"
+            ],
+            "tip": "じゅぎょうの Judy, how does your sister practice ...? とおなじ。どうしはもとのかたち。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Don't (　) in the classroom, Ken.",
+            "choices": [
+                "runs",
+                "run",
+                "running",
+                "ran"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ケン、きょうしつのなかではしらないで。",
+            "explanation": "Don't ～. で「～しないで」。Don't のあとは、どうしのもとのかたちをつかう。だから run になる。",
+            "choiceNotes": [
+                "runs「s がついたかたち」",
+                "run「もとのかたち」",
+                "running「ing のかたち」",
+                "ran「まえのこと（かこ）」"
+            ],
+            "tip": "じゅぎょうの Don't eat cookies before dinner. とおなじかたち。Don't のあとはもとのかたち。"
+        }
+    ],
+    "closing": "きょうは、ことばのセットや、かいわのこたえかたを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。おうちの人とのかいわでも、How about ～? を、つかってみてください。"
+}

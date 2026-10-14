@@ -1,0 +1,1529 @@
+{
+    "grade": "grade5",
+    "year": "2025",
+    "session": "2025-2-sat",
+    "exam": "2025-2-sat",
+    "title": "英検5級 2025年度 第2回（土曜準会場）",
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "A: Do you have a dog (　) a cat?\nB: I have a dog.",
+                    "translation": "A：あなたは犬 (　) 猫を飼っていますか。\nB：私は犬を飼っています。",
+                    "choices": [
+                        "to",
+                        "or",
+                        "so",
+                        "but"
+                    ],
+                    "choiceTranslations": [
+                        "～へ・～まで",
+                        "～か…・または",
+                        "だから・それで",
+                        "しかし・でも"
+                    ],
+                    "answer": 2,
+                    "grammar": "A or B は『AかB』。a dog or a cat で犬と猫の2つを並べて、飼っているかを尋ねている。B は I have a dog. と犬を飼っていると答える。to は行き先などを表し、so（だから）や but（しかし）では犬と猫を並べて尋ねる文にならない。",
+                    "grammarSimple": "『いぬ か ねこ を かっているの？』ときいているよ。or は『～か…』。こたえは『いぬをかっているよ』だね。",
+                    "choiceAnalysis": [
+                        "to＝～へ・～まで。to は『～へ』と行き先などを表し、犬と猫を並べられない。",
+                        "○ or＝～か…・または。a dog or a cat で『犬か猫』と2つを並べて尋ねる。",
+                        "so＝だから・それで。so は『だから』で、犬と猫をつなぐ意味にならない。",
+                        "but＝しかし・でも。but は『しかし』で、ここでは意味が通らない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "～へ・～まで。to は『～へ』。いぬとねこをつなげないよ。",
+                        "○ ～か…・または。いぬ か ねこ、とつなげるね。",
+                        "だから・それで。『だから』では、いみがつながらないよ。",
+                        "しかし・でも。『でも』では、いみがつながらないよ。"
+                    ],
+                    "questionAudio": "audio/q1.mp3"
+                },
+                {
+                    "number": 2,
+                    "text": "A: What do you eat for breakfast on (　)?\nB: Cereal and milk.",
+                    "translation": "A：(　) には朝食に何を食べますか。\nB：シリアルと牛乳です。",
+                    "choices": [
+                        "sun",
+                        "June",
+                        "egg",
+                        "Monday"
+                    ],
+                    "choiceTranslations": [
+                        "太陽",
+                        "6月",
+                        "卵",
+                        "月曜日"
+                    ],
+                    "answer": 4,
+                    "grammar": "on＋曜日で『～曜日に』。on Monday は『月曜日に』で、その日の朝食に何を食べるかを尋ねている。月の名前だけなら in June のように in を使う。sun（太陽）や egg（卵）は日を表さない。Cereal and milk. は『シリアルと牛乳』。",
+                    "grammarSimple": "on のあとに『ようび』をいれると『～ようびに』になるよ。Monday は『げつようび』。げつようびのあさごはんをきいているね。",
+                    "choiceAnalysis": [
+                        "sun＝太陽。太陽は曜日や日付ではないので、朝食の日を表せない。",
+                        "June＝6月。月の名前だけなら in June と言い、on は使わない。",
+                        "egg＝卵。卵は食べ物で、朝食を食べる日を表さない。",
+                        "○ Monday＝月曜日。on Monday で『月曜日に』と朝食の日を表す。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "太陽。たいようは、ようびではないよ。",
+                        "6月。6がつは in June というよ。on はつかわないね。",
+                        "卵。たまごは、ようびではないよ。",
+                        "○ 月曜日。on Monday で『げつようびに』だね。"
+                    ],
+                    "questionAudio": "audio/q2.mp3"
+                },
+                {
+                    "number": 3,
+                    "text": "A: What color is your pencil, Tom?\nB: It's (　).",
+                    "translation": "A：トム、あなたの鉛筆は何色ですか。\nB：(　) です。",
+                    "choices": [
+                        "hungry",
+                        "good",
+                        "yellow",
+                        "big"
+                    ],
+                    "choiceTranslations": [
+                        "おなかがすいた",
+                        "よい",
+                        "黄色（の）",
+                        "大きい"
+                    ],
+                    "answer": 3,
+                    "grammar": "What color is ～? は『～は何色ですか』と色を尋ねる表現。色で答えるので yellow（黄色）。It は your pencil を指す。hungry（おなかがすいた）・good（よい）・big（大きい）は色を表さない。",
+                    "grammarSimple": "What color は『なにいろ？』ときくことばだよ。いろでこたえるので yellow（きいろ）。It は えんぴつのことだね。",
+                    "choiceAnalysis": [
+                        "hungry＝おなかがすいた。空腹を表し、鉛筆の色ではない。",
+                        "good＝よい。よいという評価で、色の答えにならない。",
+                        "○ yellow＝黄色（の）。What color に色の yellow で答えている。",
+                        "big＝大きい。大きさを表し、色の答えにならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "おなかがすいた。おなかがすいた、はいろではないよ。",
+                        "よい。いい、はいろではないよ。",
+                        "○ 黄色（の）。きいろ、といろでこたえているね。",
+                        "大きい。おおきい、はいろではないよ。"
+                    ],
+                    "questionAudio": "audio/q3.mp3"
+                },
+                {
+                    "number": 4,
+                    "text": "I want a new (　). My old one is too small, so I can't sleep well.",
+                    "translation": "私は新しい (　) がほしいです。古いものは小さすぎるので、よく眠れません。",
+                    "choices": [
+                        "bag",
+                        "tree",
+                        "cup",
+                        "bed"
+                    ],
+                    "choiceTranslations": [
+                        "かばん",
+                        "木",
+                        "カップ",
+                        "ベッド"
+                    ],
+                    "answer": 4,
+                    "grammar": "can't sleep well（よく眠れない）が手がかり。眠るときに使うのは bed（ベッド）。My old one の one は、前に出た名詞をくり返さずに言う語で、ここでは古いベッドのこと。too small は『小さすぎる』、so は『だから』。",
+                    "grammarSimple": "『ちいさすぎて よくねむれない』といっているよ。ねるときにつかうのは bed（ベッド）。one は、まえにでた bed のことだね。",
+                    "choiceAnalysis": [
+                        "bag＝かばん。かばんが小さくても、眠れない理由にならない。",
+                        "tree＝木。木は新しく買って眠るための物ではない。",
+                        "cup＝カップ。カップの大きさは、眠ることと関係しない。",
+                        "○ bed＝ベッド。ベッドが小さすぎると、よく眠れない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "かばん。かばんは、ねるときにつかわないよ。",
+                        "木。きは、ねるところではないよ。",
+                        "カップ。カップは、のみものをいれるものだよ。",
+                        "○ ベッド。ベッドがちいさいと、よくねむれないね。"
+                    ],
+                    "questionAudio": "audio/q4.mp3"
+                },
+                {
+                    "number": 5,
+                    "text": "Peter's favorite month is (　). It is the third month of the year.",
+                    "translation": "ピーターのいちばん好きな月は (　) です。それは1年で3番目の月です。",
+                    "choices": [
+                        "December",
+                        "March",
+                        "August",
+                        "February"
+                    ],
+                    "choiceTranslations": [
+                        "12月",
+                        "3月",
+                        "8月",
+                        "2月"
+                    ],
+                    "answer": 2,
+                    "grammar": "the third month of the year は『1年で3番目の月』なので March（3月）。third は『3番目の』。December は12番目、August は8番目、February は2番目の月。favorite は『いちばん好きな』。",
+                    "grammarSimple": "『1ねんで3ばんめのつき』だから、3がつの March だよ。third は『3ばんめ』だね。",
+                    "choiceAnalysis": [
+                        "December＝12月。12月は1年で12番目の月。",
+                        "○ March＝3月。1年で3番目の月は March。",
+                        "August＝8月。8月は1年で8番目の月。",
+                        "February＝2月。2月は1年で2番目の月。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "12月。12がつは、12ばんめだよ。",
+                        "○ 3月。3ばんめのつきは、3がつだね。",
+                        "8月。8がつは、8ばんめだよ。",
+                        "2月。2がつは、2ばんめだよ。"
+                    ],
+                    "questionAudio": "audio/q5.mp3"
+                },
+                {
+                    "number": 6,
+                    "text": "Many (　) in Japan like sushi. It is a popular food.",
+                    "translation": "日本の多くの (　) がすしを好きです。それは人気のある食べ物です。",
+                    "choices": [
+                        "books",
+                        "towers",
+                        "bags",
+                        "people"
+                    ],
+                    "choiceTranslations": [
+                        "本",
+                        "塔",
+                        "かばん",
+                        "人々"
+                    ],
+                    "answer": 4,
+                    "grammar": "like sushi（すしが好き）の主語になるのは人なので people（人々）。people は person の複数を表す語で、s を付けずに複数の人を表す。popular は『人気のある』。It は sushi を指す。",
+                    "grammarSimple": "すしがすきなのは、ひとだね。people は『ひとびと』。popular は『にんきがある』だよ。",
+                    "choiceAnalysis": [
+                        "books＝本。本は物で、すしを好きにはならない。",
+                        "towers＝塔。塔は建物で、すしを好きにはならない。",
+                        "bags＝かばん。かばんは物で、すしを好きにはならない。",
+                        "○ people＝人々。日本の多くの人がすしを好きだという内容になる。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "本。ほんは、すしをたべないよ。",
+                        "塔。とうは、たてものだよ。",
+                        "かばん。かばんは、すしをたべないよ。",
+                        "○ 人々。にほんのひとが、すしがすきなんだね。"
+                    ],
+                    "questionAudio": "audio/q6.mp3"
+                },
+                {
+                    "number": 7,
+                    "text": "Mr. Brown's son is 15 years old. He has (　) hair.",
+                    "translation": "ブラウンさんの息子は15歳です。彼は (　) 髪をしています。",
+                    "choices": [
+                        "long",
+                        "delicious",
+                        "sunny",
+                        "early"
+                    ],
+                    "choiceTranslations": [
+                        "長い",
+                        "とてもおいしい",
+                        "晴れた",
+                        "早い・早く"
+                    ],
+                    "answer": 1,
+                    "grammar": "have＋形容詞＋hair で髪の様子を表す。He has long hair. は『彼は髪が長い』。delicious は食べ物の味、sunny は天気、early は時間が早いことを表し、髪の様子には合わない。Mr. Brown's son の 's は『～の』。",
+                    "grammarSimple": "かみのけのようすをいうことばをえらぶよ。long hair は『ながいかみ』。おいしい、はれ、はやい、はかみにはつかわないね。",
+                    "choiceAnalysis": [
+                        "○ long＝長い。long hair で『長い髪』と髪の様子を表す。",
+                        "delicious＝とてもおいしい。食べ物の味に使い、髪には使わない。",
+                        "sunny＝晴れた。天気を表し、髪には使わない。",
+                        "early＝早い・早く。時間が早いことを表し、髪の様子ではない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 長い。ながいかみ、だね。",
+                        "とてもおいしい。おいしいは、たべもののことだよ。",
+                        "晴れた。はれは、てんきのことだよ。",
+                        "早い・早く。はやいは、じかんのことだよ。"
+                    ],
+                    "questionAudio": "audio/q7.mp3"
+                },
+                {
+                    "number": 8,
+                    "text": "I have a math test every Friday. The questions are always a (　) difficult.",
+                    "translation": "私は毎週金曜日に数学のテストがあります。問題はいつも (　) 難しいです。",
+                    "choices": [
+                        "low",
+                        "most",
+                        "many",
+                        "little"
+                    ],
+                    "choiceTranslations": [
+                        "低い",
+                        "最も・いちばん",
+                        "多くの",
+                        "（a little で）少し"
+                    ],
+                    "answer": 4,
+                    "grammar": "a little＋形容詞で『少し～』。a little difficult は『少し難しい』と難しさの程度を表す。every Friday は『毎週金曜日』、always は『いつも』。low（低い）や many（多くの）、most（最も）では、a ( ) difficult の形で『少し難しい』の意味にならない。",
+                    "grammarSimple": "a little は『すこし』。a little difficult で『すこしむずかしい』だね。every Friday は『まいしゅうきんようび』だよ。",
+                    "choiceAnalysis": [
+                        "low＝低い。高さが低いことを表し、難しさの程度を表さない。",
+                        "most＝最も・いちばん。most は『最も』で、少し難しいという意味にならない。",
+                        "many＝多くの。many は『多くの』で名詞の数を表し、a many difficult とは言わない。",
+                        "○ little＝（a little で）少し。a little difficult で『少し難しい』となる。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "低い。ひくい、ではいみがあわないよ。",
+                        "最も・いちばん。いちばん、ではいみがあわないよ。",
+                        "多くの。おおくの、ではいみがあわないよ。",
+                        "○ （a little で）少し。a little で『すこし』だね。"
+                    ],
+                    "questionAudio": "audio/q8.mp3"
+                },
+                {
+                    "number": 9,
+                    "text": "A: What do you do (　) school, Charlie?\nB: I usually play tennis.",
+                    "translation": "A：チャーリー、学校 (　) 何をしますか。\nB：たいていテニスをします。",
+                    "choices": [
+                        "after",
+                        "into",
+                        "down",
+                        "on"
+                    ],
+                    "choiceTranslations": [
+                        "～の後に",
+                        "～の中へ",
+                        "下へ・下に",
+                        "～の上に・～に"
+                    ],
+                    "answer": 1,
+                    "grammar": "after school は『放課後・学校の後に』。What do you do after school? で放課後にすることを尋ね、B は usually（たいてい）テニスをすると答えている。into は中へ入る動き、down は下への方向を表し、on school でも『学校の後』という時を表さない。",
+                    "grammarSimple": "after school は『がっこうのあと（ほうかご）』。ほうかごに なにをするか きいているよ。usually は『たいてい』だね。",
+                    "choiceAnalysis": [
+                        "○ after＝～の後に。after school で『放課後に』となる。",
+                        "into＝～の中へ。中へ入る動きを表し、放課後の意味にならない。",
+                        "down＝下へ・下に。下への方向を表し、学校の後という意味にならない。",
+                        "on＝～の上に・～に。on school では『学校の後』という時を表さない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ ～の後に。がっこうのあと、だね。",
+                        "～の中へ。なかへ、ではいみがあわないよ。",
+                        "下へ・下に。したへ、ではいみがあわないよ。",
+                        "～の上に・～に。うえに、ではいみがあわないよ。"
+                    ],
+                    "questionAudio": "audio/q9.mp3"
+                },
+                {
+                    "number": 10,
+                    "text": "Kenta likes jazz music. He often (　) to it in his room.",
+                    "translation": "ケンタはジャズが好きです。彼はよく自分の部屋でそれを (　)。",
+                    "choices": [
+                        "looks",
+                        "opens",
+                        "listens",
+                        "watches"
+                    ],
+                    "choiceTranslations": [
+                        "見る",
+                        "開ける",
+                        "聞く",
+                        "じっと見る・観る"
+                    ],
+                    "answer": 3,
+                    "grammar": "listen to＋聞くもので『～を聞く』。it は jazz music を指すので listens to it（それを聞く）。主語 He に合わせて listens と s が付く。look は look at の形で『～を見る』、watch は『じっと見る』で、音楽を聞くことには listen to を使う。often は『よく』。",
+                    "grammarSimple": "おんがくを『きく』ときは listen to だよ。He なので listens。it はジャズのことだね。",
+                    "choiceAnalysis": [
+                        "looks＝見る。look は見ることで、音楽を聞く意味にならない。",
+                        "opens＝開ける。open は開けることで、to it とつながらない。",
+                        "○ listens＝聞く。listens to it で『それを聞く』。",
+                        "watches＝じっと見る・観る。watch は目で見ることで、音楽を聞くことにはならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "見る。みる、ではないよ。",
+                        "開ける。あける、ではないよ。",
+                        "○ 聞く。おんがくを きくんだね。",
+                        "じっと見る・観る。テレビなどを みる、ではないよ。"
+                    ],
+                    "questionAudio": "audio/q10.mp3"
+                },
+                {
+                    "number": 11,
+                    "text": "A: It's time for lunch. How (　) pizza?\nB: Good idea. I want one with cheese.",
+                    "translation": "A：昼食の時間です。ピザは (　)。\nB：いい考えですね。チーズがのったものがほしいです。",
+                    "choices": [
+                        "about",
+                        "for",
+                        "with",
+                        "from"
+                    ],
+                    "choiceTranslations": [
+                        "（How about ～? で）～はどうですか",
+                        "～のために",
+                        "～と一緒に・～の付いた",
+                        "～から"
+                    ],
+                    "answer": 1,
+                    "grammar": "How about＋名詞? は『～はどうですか』と提案する表現。昼食にピザを提案し、B が Good idea.（いい考えですね）と賛成している。one は pizza をくり返さずに言う語で、with cheese は『チーズの付いた』。It's time for lunch. は『昼食の時間です』。",
+                    "grammarSimple": "How about ～? は『～はどう？』とさそうことばだよ。Good idea. は『いいかんがえ』。one はピザのことだね。",
+                    "choiceAnalysis": [
+                        "○ about＝（How about ～? で）～はどうですか。How about pizza? で『ピザはどうですか』と提案する。",
+                        "for＝～のために。How for では提案の表現にならない。",
+                        "with＝～と一緒に・～の付いた。with は B の with cheese のように『～の付いた』を表すが、How with では提案にならない。",
+                        "from＝～から。How from では提案の表現にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ （How about ～? で）～はどうですか。How about で『～はどう？』だね。",
+                        "～のために。さそうときは How for とはいわないよ。",
+                        "～と一緒に・～の付いた。さそうときは How with とはいわないよ。",
+                        "～から。さそうときは How from とはいわないよ。"
+                    ],
+                    "questionAudio": "audio/q11.mp3"
+                },
+                {
+                    "number": 12,
+                    "text": "This flower is very beautiful. Let's take a (　) of it.",
+                    "translation": "この花はとても美しいです。その (　) を撮りましょう。",
+                    "choices": [
+                        "hand",
+                        "store",
+                        "town",
+                        "picture"
+                    ],
+                    "choiceTranslations": [
+                        "手",
+                        "店",
+                        "町",
+                        "写真・絵"
+                    ],
+                    "answer": 4,
+                    "grammar": "take a picture of ～ は『～の写真を撮る』。美しい花の写真を撮ろうと誘っている。Let's＋動詞の原形で『～しよう』。it は this flower を指す。hand（手）・store（店）・town（町）では、花の写真を撮る内容にならない。",
+                    "grammarSimple": "take a picture で『しゃしんをとる』だよ。きれいなはなのしゃしんをとろう、といっているね。",
+                    "choiceAnalysis": [
+                        "hand＝手。手を表し、花の写真を撮る内容にならない。",
+                        "store＝店。店を表し、花の写真を撮る内容にならない。",
+                        "town＝町。町を表し、花の写真を撮る内容にならない。",
+                        "○ picture＝写真・絵。take a picture of it で『それの写真を撮る』。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "手。てのことではなく、はなのしゃしんだよ。",
+                        "店。おみせのことではなく、はなのしゃしんだよ。",
+                        "町。まちのことではなく、はなのしゃしんだよ。",
+                        "○ 写真・絵。はなのしゃしんをとるんだね。"
+                    ],
+                    "questionAudio": "audio/q12.mp3"
+                },
+                {
+                    "number": 13,
+                    "text": "A: (　) quiet, everyone. Let's start the meeting.\nB: OK.",
+                    "translation": "A：皆さん、静かに (　)。会議を始めましょう。\nB：分かりました。",
+                    "choices": [
+                        "Is",
+                        "Am",
+                        "Are",
+                        "Be"
+                    ],
+                    "choiceTranslations": [
+                        "be動詞（he・she・it などに使う形）",
+                        "be動詞（I に使う形）",
+                        "be動詞（you や複数に使う形）",
+                        "be動詞の原形"
+                    ],
+                    "answer": 4,
+                    "grammar": "Be quiet. は『静かにしなさい』という命令文。命令文では動詞の原形を使うので、be動詞も原形の Be を使う。everyone は『皆さん』という呼びかけ。Let's start the meeting. は『会議を始めましょう』。",
+                    "grammarSimple": "『みんな、しずかにして』といっているよ。『～して』というときは、もとのかたちのことばをつかうよ。Be quiet. をおぼえよう。",
+                    "choiceAnalysis": [
+                        "Is＝be動詞（he・she・it などに使う形）。Is は he・she・it などの主語と使う形で、命令文の始めには置かない。",
+                        "Am＝be動詞（I に使う形）。Am は I と使う形で、命令文には使わない。",
+                        "Are＝be動詞（you や複数に使う形）。命令文では原形 Be を使うので、Are にはしない。",
+                        "○ Be＝be動詞の原形。命令文なので原形の Be で始める。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "be動詞（he・she・it などに使う形）。Is ではじめると、ちゅういのいいかたにならないよ。",
+                        "be動詞（I に使う形）。Am は I といっしょにつかうよ。",
+                        "be動詞（you や複数に使う形）。Are ではなく、Be をつかうよ。",
+                        "○ be動詞の原形。Be quiet. で『しずかにして』だね。"
+                    ],
+                    "questionAudio": "audio/q13.mp3"
+                },
+                {
+                    "number": 14,
+                    "text": "A: Whose textbook is this? Is it yours?\nB: It's not (　). It's John's.",
+                    "translation": "A：これはだれの教科書ですか。あなたのものですか。\nB：(　) ではありません。ジョンのものです。",
+                    "choices": [
+                        "mine",
+                        "my",
+                        "I",
+                        "me"
+                    ],
+                    "choiceTranslations": [
+                        "私のもの",
+                        "私の",
+                        "私は",
+                        "私を・私に"
+                    ],
+                    "answer": 1,
+                    "grammar": "Is it yours?（あなたのものですか）と持ち主を尋ねているので、It's not mine.（私のものではありません）と答える。mine は『私のもの』で、my textbook の代わりになる。my は後ろに名詞が必要。続く It's John's.（ジョンのものです）も持ち主を答えている。",
+                    "grammarSimple": "『あなたのもの？』ときかれて『わたしのものじゃないよ。ジョンのものだよ』とこたえているね。mine は『わたしのもの』だよ。",
+                    "choiceAnalysis": [
+                        "○ mine＝私のもの。mine で『私のもの』となり、yours の質問に答えられる。",
+                        "my＝私の。my は後ろに名詞が必要で、It's not my. とは言わない。",
+                        "I＝私は。I は主語として使う形で、ここでは持ち主を表せない。",
+                        "me＝私を・私に。me は『私を・私に』で、持ち主を表す形ではない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 私のもの。mine で『わたしのもの』だね。",
+                        "私の。my のあとには、もののなまえがいるよ。",
+                        "私は。I は『わたしは』だよ。",
+                        "私を・私に。me は『わたしを』だよ。"
+                    ],
+                    "questionAudio": "audio/q14.mp3"
+                },
+                {
+                    "number": 15,
+                    "text": "A: (　) does Kate live?\nB: In Los Angeles.",
+                    "translation": "A：ケイトは (　) に住んでいますか。\nB：ロサンゼルスです。",
+                    "choices": [
+                        "When",
+                        "How",
+                        "Who",
+                        "Where"
+                    ],
+                    "choiceTranslations": [
+                        "いつ",
+                        "どのように・どう",
+                        "だれ",
+                        "どこ"
+                    ],
+                    "answer": 4,
+                    "grammar": "In Los Angeles.（ロサンゼルスに）と場所を答えているので、場所を尋ねる Where を使う。Where does＋主語＋live? で『～はどこに住んでいますか』。主語が Kate なので does を使い、live は原形。",
+                    "grammarSimple": "『ロサンゼルスに』とばしょをこたえているね。だから『どこ？』の Where だよ。",
+                    "choiceAnalysis": [
+                        "When＝いつ。時を尋ねる語で、場所の答えに合わない。",
+                        "How＝どのように・どう。方法や様子を尋ね、場所の答えに合わない。",
+                        "Who＝だれ。人を尋ねる語で、ロサンゼルスという場所の答えに合わない。",
+                        "○ Where＝どこ。Where で住んでいる場所を尋ねる。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "いつ。いつ、ではないよ。",
+                        "どのように・どう。どうやって、ではないよ。",
+                        "だれ。だれ、ではないよ。",
+                        "○ どこ。どこ？ときいているね。"
+                    ],
+                    "questionAudio": "audio/q15.mp3"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の(16)から(20)までの会話について，(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 16,
+                    "text": "Father: Who is that girl?\nGirl: (　) She's my friend.",
+                    "translation": "父：あの女の子はだれですか。\n女の子：(　) 彼女は私の友達です。",
+                    "choices": [
+                        "I don't enjoy it.",
+                        "Her name is Tomoko.",
+                        "Nice to meet you.",
+                        "She's not at home."
+                    ],
+                    "choiceTranslations": [
+                        "私はそれを楽しみません。",
+                        "彼女の名前はトモコです。",
+                        "初めまして。",
+                        "彼女は家にいません。"
+                    ],
+                    "answer": 2,
+                    "grammar": "Who is that girl? は『あの女の子はだれですか』。名前を伝える Her name is Tomoko. と、続く She's my friend.（私の友達です）で、だれなのかを説明している。Nice to meet you. は初めて会った相手へのあいさつで、父の質問への答えにならない。",
+                    "grammarSimple": "『あのこはだれ？』ときかれて『なまえはトモコ。わたしのともだちだよ』とこたえているね。Her name は『かのじょのなまえ』だよ。",
+                    "choiceAnalysis": [
+                        "I don't enjoy it.＝私はそれを楽しみません。楽しむかどうかの話で、だれかという質問に答えていない。",
+                        "○ Her name is Tomoko.＝彼女の名前はトモコです。名前を伝えて、だれなのかに答えている。",
+                        "Nice to meet you.＝初めまして。初めて会った相手へのあいさつで、父への答えではない。",
+                        "She's not at home.＝彼女は家にいません。家にいるかどうかで、だれかという質問に答えていない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "私はそれを楽しみません。たのしむかどうかは、きいていないよ。",
+                        "○ 彼女の名前はトモコです。なまえをおしえているね。",
+                        "初めまして。はじめてあったひとへのあいさつだよ。",
+                        "彼女は家にいません。いえにいるかは、きいていないよ。"
+                    ],
+                    "questionAudio": "audio/q16.mp3"
+                },
+                {
+                    "number": 17,
+                    "text": "Girl: Dad, I need a red pen.\nFather: Mom has many kinds of pens. (　)",
+                    "translation": "女の子：お父さん、赤いペンが必要です。\n父：お母さんがいろいろな種類のペンを持っています。(　)",
+                    "choices": [
+                        "She's very tall.",
+                        "Please go home.",
+                        "She's 30.",
+                        "Please ask her."
+                    ],
+                    "choiceTranslations": [
+                        "彼女はとても背が高いです。",
+                        "家に帰ってください。",
+                        "彼女は30歳です。",
+                        "彼女に聞いてください。"
+                    ],
+                    "answer": 4,
+                    "grammar": "母がいろいろなペンを持っているので、Please ask her.（彼女に聞いてください）と母に聞くよう勧めている。her は Mom を指す。many kinds of ～ は『いろいろな種類の～』。母の背の高さや年齢では、ペンが必要だという話につながらない。",
+                    "grammarSimple": "『おかあさんがペンをたくさんもっているよ。おかあさんにきいてね』といっているよ。her は おかあさんのことだね。",
+                    "choiceAnalysis": [
+                        "She's very tall.＝彼女はとても背が高いです。背の高さは、ペンの話とつながらない。",
+                        "Please go home.＝家に帰ってください。家に帰るよう言っても、ペンが必要だという話への答えにならない。",
+                        "She's 30.＝彼女は30歳です。年齢は、ペンの話とつながらない。",
+                        "○ Please ask her.＝彼女に聞いてください。ペンを持っている母に聞くよう勧めている。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "彼女はとても背が高いです。せのたかさのはなしではないよ。",
+                        "家に帰ってください。いえにかえって、ではおかしいね。",
+                        "彼女は30歳です。なんさいかのはなしではないよ。",
+                        "○ 彼女に聞いてください。おかあさんにきいてね、だね。"
+                    ],
+                    "questionAudio": "audio/q17.mp3"
+                },
+                {
+                    "number": 18,
+                    "text": "Boy: I like your shoes, Risa.\nGirl: (　) They're new.",
+                    "translation": "男の子：リサ、あなたのくつはすてきですね。\n女の子：(　) 新しいんです。",
+                    "choices": [
+                        "I have some.",
+                        "Thank you.",
+                        "Let's buy them.",
+                        "It's my school."
+                    ],
+                    "choiceTranslations": [
+                        "私はいくつか持っています。",
+                        "ありがとう。",
+                        "それらを買いましょう。",
+                        "それは私の学校です。"
+                    ],
+                    "answer": 2,
+                    "grammar": "I like your shoes. は相手の持ち物をほめる言い方。ほめられたので Thank you.（ありがとう）とお礼を言う。They're new. の They は shoes を指す。くつは左右2つで1組なので shoes と複数形になり、They で受ける。",
+                    "grammarSimple": "『くつ、いいね』とほめられて『ありがとう。あたらしいの』とこたえているよ。They は くつのことだね。",
+                    "choiceAnalysis": [
+                        "I have some.＝私はいくつか持っています。いくつか持っていると言っても、ほめられた返事にならない。",
+                        "○ Thank you.＝ありがとう。ほめられてお礼を言い、新しいくつだと続けている。",
+                        "Let's buy them.＝それらを買いましょう。ほめられたのはリサのくつで、買おうと誘う流れではない。",
+                        "It's my school.＝それは私の学校です。学校の話ではなく、くつの話をしている。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "私はいくつか持っています。もっている、ではへんじにならないよ。",
+                        "○ ありがとう。ほめられたら、ありがとうだね。",
+                        "それらを買いましょう。もうリサのくつだよ。かうはなしではないね。",
+                        "それは私の学校です。がっこうのはなしではないよ。"
+                    ],
+                    "questionAudio": "audio/q18.mp3"
+                },
+                {
+                    "number": 19,
+                    "text": "Woman: Do you often play tennis, Steve?\nBoy: Yes, (　)",
+                    "translation": "女性：スティーブ、あなたはよくテニスをしますか。\n男の子：はい、(　)",
+                    "choices": [
+                        "I'm sorry.",
+                        "I'm here.",
+                        "I play basketball.",
+                        "I play every Sunday."
+                    ],
+                    "choiceTranslations": [
+                        "ごめんなさい。",
+                        "ここにいます。",
+                        "私はバスケットボールをします。",
+                        "毎週日曜日にします。"
+                    ],
+                    "answer": 4,
+                    "grammar": "often は『よく・しばしば』。よくテニスをするかと聞かれ、Yes と答えた後に I play every Sunday.（毎週日曜日にします）と、するときを具体的に伝えている。every Sunday は『毎週日曜日』。テニスについて聞かれているので、basketball では話がずれる。",
+                    "grammarSimple": "『よくテニスをするの？』に『うん、まいしゅうにちようびにするよ』とこたえているね。every Sunday は『まいしゅうにちようび』だよ。",
+                    "choiceAnalysis": [
+                        "I'm sorry.＝ごめんなさい。謝る理由がなく、Yes の後に続かない。",
+                        "I'm here.＝ここにいます。居場所を伝えても、テニスの質問に答えていない。",
+                        "I play basketball.＝私はバスケットボールをします。テニスについて聞かれていて、バスケットボールでは話がずれる。",
+                        "○ I play every Sunday.＝毎週日曜日にします。Yes の後に、テニスをする日を具体的に伝えている。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "ごめんなさい。あやまるばめんではないよ。",
+                        "ここにいます。ここにいる、ではこたえにならないよ。",
+                        "私はバスケットボールをします。テニスのことをきいているよ。",
+                        "○ 毎週日曜日にします。にちようびにテニスをするんだね。"
+                    ],
+                    "questionAudio": "audio/q19.mp3"
+                },
+                {
+                    "number": 20,
+                    "text": "Boy: Oh, no! I don't have a pen.\nGirl: You can use this one. (　)",
+                    "translation": "男の子：困った。ペンを持っていません。\n女の子：これを使っていいですよ。(　)",
+                    "choices": [
+                        "I have two.",
+                        "To the classroom.",
+                        "I'm not sure.",
+                        "That's right."
+                    ],
+                    "choiceTranslations": [
+                        "2本持っています。",
+                        "教室へ。",
+                        "よく分かりません。",
+                        "そのとおりです。"
+                    ],
+                    "answer": 1,
+                    "grammar": "ペンがない男の子に、女の子が You can use this one.（これを使っていいですよ）と貸している。I have two.（2本持っています）は、自分の分もあるので貸せるという理由になる。this one の one はペンを指す。Oh, no! は『困った』という気持ちを表す。",
+                    "grammarSimple": "『ペンがない！』という男の子に『これをつかっていいよ。2ほんもっているよ』といっているね。one はペンのことだよ。",
+                    "choiceAnalysis": [
+                        "○ I have two.＝2本持っています。2本あるので1本貸せる、という理由になる。",
+                        "To the classroom.＝教室へ。行き先を答える言い方で、ペンを貸す話に合わない。",
+                        "I'm not sure.＝よく分かりません。自分で貸すと言った後に、分からないと続けるのは不自然。",
+                        "That's right.＝そのとおりです。『そのとおり』と認める相手の発言がなく、話がつながらない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 2本持っています。2ほんあるから、かせるんだね。",
+                        "教室へ。どこへいくか、のこたえだよ。",
+                        "よく分かりません。わからない、ではへんだね。",
+                        "そのとおりです。そのとおり、ではつながらないよ。"
+                    ],
+                    "questionAudio": "audio/q20.mp3"
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "sentence-order",
+            "instruction": "次の(21)から(25)までの日本文の意味を表すように①から④までを並べかえて□の中に入れなさい。そして，1番目と3番目にくるものの最も適切な組合せを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。※ただし，(　)の中では，文のはじめにくる語も小文字になっています。",
+            "questions": [
+                {
+                    "number": 21,
+                    "text": "ジョージ，あなたはとても親切です。",
+                    "translation": "ジョージ，あなたはとても親切です。",
+                    "words": [
+                        "very",
+                        "you",
+                        "kind",
+                        "are"
+                    ],
+                    "correctOrder": [
+                        2,
+                        4,
+                        1,
+                        3
+                    ],
+                    "framePrefix": "George,",
+                    "frameSuffix": ".",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "②−①",
+                        "④−③",
+                        "③−④",
+                        "①−③"
+                    ],
+                    "answer": 1,
+                    "questionAudio": "audio/q21.mp3",
+                    "grammar": "完成文は「George, you are very kind.」。主語 you に合う be動詞は are。be動詞の後ろに very kind（とても親切な）を続け、you→are→very→kind の順に並べる。very は kind の前に置いて意味を強める。George, はジョージへの呼びかけで、4つの空所の位置には数えない。 語句の順序は ②you→④are→①very→③kind。空所1番目は②「you」、3番目は①「very」。",
+                    "grammarSimple": "「George, you are very kind.」が正しい文。『あなたは とても しんせつ』は you are very kind。very は kind のまえにおくよ。George, はさいしょからかいてあるので、かぞえないよ。 1ばんめは「you」、3ばんめは「very」だよ。",
+                    "choiceAnalysis": [
+                        "○ 1番目=②「you」、3番目=①「very」。George, you are very kind. の語順に一致する。",
+                        "1番目=④「are」、3番目=③「kind」。1番目は「you」が必要で「are」ではない。3番目は「very」が必要で「kind」ではない。主語 you に合う be動詞は are。be動詞の後ろに very kind（とても親切な）を続け、you→are→very→kind の順に並べる。very は kind の前に置いて意味を強める。George, はジョージへの呼びかけで、4つの空所の位置には数えない。",
+                        "1番目=③「kind」、3番目=④「are」。1番目は「you」が必要で「kind」ではない。3番目は「very」が必要で「are」ではない。主語 you に合う be動詞は are。be動詞の後ろに very kind（とても親切な）を続け、you→are→very→kind の順に並べる。very は kind の前に置いて意味を強める。George, はジョージへの呼びかけで、4つの空所の位置には数えない。",
+                        "1番目=①「very」、3番目=③「kind」。1番目は「you」が必要で「very」ではない。3番目は「very」が必要で「kind」ではない。主語 you に合う be動詞は are。be動詞の後ろに very kind（とても親切な）を続け、you→are→very→kind の順に並べる。very は kind の前に置いて意味を強める。George, はジョージへの呼びかけで、4つの空所の位置には数えない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 1ばんめ「you」、3ばんめ「very」。正しい文になるね。",
+                        "1ばんめ「are」、3ばんめ「kind」ではセットがくずれるよ。正しくは「you」と「very」。",
+                        "1ばんめ「kind」、3ばんめ「are」ではセットがくずれるよ。正しくは「you」と「very」。",
+                        "1ばんめ「very」、3ばんめ「kind」ではセットがくずれるよ。正しくは「you」と「very」。"
+                    ]
+                },
+                {
+                    "number": 22,
+                    "text": "あなたのピアノのコンサートはいつですか。",
+                    "translation": "あなたのピアノのコンサートはいつですか。",
+                    "words": [
+                        "is",
+                        "when",
+                        "your",
+                        "piano"
+                    ],
+                    "correctOrder": [
+                        2,
+                        1,
+                        3,
+                        4
+                    ],
+                    "framePrefix": "",
+                    "frameSuffix": "concert?",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "①−②",
+                        "②−③",
+                        "③−①",
+                        "④−②"
+                    ],
+                    "answer": 2,
+                    "questionAudio": "audio/q22.mp3",
+                    "grammar": "完成文は「When is your piano concert?」。『いつ』を尋ねる When で始まる疑問文。be動詞 is を主語の前に出し、when→is→your→piano の順に並べる。主語は your piano concert（あなたのピアノのコンサート）で、固定の concert? につなぐ。 語句の順序は ②when→①is→③your→④piano。空所1番目は②「when」、3番目は③「your」。",
+                    "grammarSimple": "「When is your piano concert?」が正しい文。『いつ？』は When。そのあとに is、つぎに your piano とつづけて、さいごの concert? につなぐよ。 1ばんめは「when」、3ばんめは「your」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=①「is」、3番目=②「when」。1番目は「when」が必要で「is」ではない。3番目は「your」が必要で「when」ではない。『いつ』を尋ねる When で始まる疑問文。be動詞 is を主語の前に出し、when→is→your→piano の順に並べる。主語は your piano concert（あなたのピアノのコンサート）で、固定の concert? につなぐ。",
+                        "○ 1番目=②「when」、3番目=③「your」。When is your piano concert? の語順に一致する。",
+                        "1番目=③「your」、3番目=①「is」。1番目は「when」が必要で「your」ではない。3番目は「your」が必要で「is」ではない。『いつ』を尋ねる When で始まる疑問文。be動詞 is を主語の前に出し、when→is→your→piano の順に並べる。主語は your piano concert（あなたのピアノのコンサート）で、固定の concert? につなぐ。",
+                        "1番目=④「piano」、3番目=②「when」。1番目は「when」が必要で「piano」ではない。3番目は「your」が必要で「when」ではない。『いつ』を尋ねる When で始まる疑問文。be動詞 is を主語の前に出し、when→is→your→piano の順に並べる。主語は your piano concert（あなたのピアノのコンサート）で、固定の concert? につなぐ。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「is」、3ばんめ「when」ではセットがくずれるよ。正しくは「when」と「your」。",
+                        "○ 1ばんめ「when」、3ばんめ「your」。正しい文になるね。",
+                        "1ばんめ「your」、3ばんめ「is」ではセットがくずれるよ。正しくは「when」と「your」。",
+                        "1ばんめ「piano」、3ばんめ「when」ではセットがくずれるよ。正しくは「when」と「your」。"
+                    ]
+                },
+                {
+                    "number": 23,
+                    "text": "ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。",
+                    "translation": "ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。",
+                    "words": [
+                        "practice",
+                        "how",
+                        "your sister",
+                        "does"
+                    ],
+                    "correctOrder": [
+                        2,
+                        4,
+                        3,
+                        1
+                    ],
+                    "framePrefix": "Judy,",
+                    "frameSuffix": "the piano?",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "③−④",
+                        "①−③",
+                        "②−①",
+                        "②−③"
+                    ],
+                    "answer": 4,
+                    "questionAudio": "audio/q23.mp3",
+                    "grammar": "完成文は「Judy, how does your sister practice the piano?」。How は『どうやって』。一般動詞の疑問文なので、how の後ろに does＋主語 your sister＋動詞の原形 practice を置き、how→does→your sister→practice の順に並べる。your sister は1つのかたまり。Judy, は呼びかけで、空所の位置には数えない。 語句の順序は ②how→④does→③your sister→①practice。空所1番目は②「how」、3番目は③「your sister」。",
+                    "grammarSimple": "「Judy, how does your sister practice the piano?」が正しい文。『どうやって？』は How。How does your sister practice ～? のじゅんだよ。your sister はひとつのかたまり。Judy, はかぞえないよ。 1ばんめは「how」、3ばんめは「your sister」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=③「your sister」、3番目=④「does」。1番目は「how」が必要で「your sister」ではない。3番目は「your sister」が必要で「does」ではない。How は『どうやって』。一般動詞の疑問文なので、how の後ろに does＋主語 your sister＋動詞の原形 practice を置き、how→does→your sister→practice の順に並べる。your sister は1つのかたまり。Judy, は呼びかけで、空所の位置には数えない。",
+                        "1番目=①「practice」、3番目=③「your sister」。1番目は「how」が必要で「practice」ではない。How は『どうやって』。一般動詞の疑問文なので、how の後ろに does＋主語 your sister＋動詞の原形 practice を置き、how→does→your sister→practice の順に並べる。your sister は1つのかたまり。Judy, は呼びかけで、空所の位置には数えない。",
+                        "1番目=②「how」、3番目=①「practice」。3番目は「your sister」が必要で「practice」ではない。How は『どうやって』。一般動詞の疑問文なので、how の後ろに does＋主語 your sister＋動詞の原形 practice を置き、how→does→your sister→practice の順に並べる。your sister は1つのかたまり。Judy, は呼びかけで、空所の位置には数えない。",
+                        "○ 1番目=②「how」、3番目=③「your sister」。Judy, how does your sister practice the piano? の語順に一致する。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「your sister」、3ばんめ「does」ではセットがくずれるよ。正しくは「how」と「your sister」。",
+                        "1ばんめ「practice」、3ばんめ「your sister」ではセットがくずれるよ。正しくは「how」と「your sister」。",
+                        "1ばんめ「how」、3ばんめ「practice」ではセットがくずれるよ。正しくは「how」と「your sister」。",
+                        "○ 1ばんめ「how」、3ばんめ「your sister」。正しい文になるね。"
+                    ]
+                },
+                {
+                    "number": 24,
+                    "text": "あなたはいつ野球をしますか。",
+                    "translation": "あなたはいつ野球をしますか。",
+                    "words": [
+                        "play",
+                        "you",
+                        "do",
+                        "when"
+                    ],
+                    "correctOrder": [
+                        4,
+                        3,
+                        2,
+                        1
+                    ],
+                    "framePrefix": "",
+                    "frameSuffix": "baseball?",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "③−①",
+                        "④−②",
+                        "②−③",
+                        "①−④"
+                    ],
+                    "answer": 2,
+                    "questionAudio": "audio/q24.mp3",
+                    "grammar": "完成文は「When do you play baseball?」。When do you＋動詞の原形 ～? で『あなたはいつ～しますか』。when→do→you→play の順に並べ、固定の baseball? につなぐ。play baseball は『野球をする』。 語句の順序は ④when→③do→②you→①play。空所1番目は④「when」、3番目は②「you」。",
+                    "grammarSimple": "「When do you play baseball?」が正しい文。『いつ？』の When からはじめて、do you play とつづけるよ。play baseball は『やきゅうをする』だね。 1ばんめは「when」、3ばんめは「you」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=③「do」、3番目=①「play」。1番目は「when」が必要で「do」ではない。3番目は「you」が必要で「play」ではない。When do you＋動詞の原形 ～? で『あなたはいつ～しますか』。when→do→you→play の順に並べ、固定の baseball? につなぐ。play baseball は『野球をする』。",
+                        "○ 1番目=④「when」、3番目=②「you」。When do you play baseball? の語順に一致する。",
+                        "1番目=②「you」、3番目=③「do」。1番目は「when」が必要で「you」ではない。3番目は「you」が必要で「do」ではない。When do you＋動詞の原形 ～? で『あなたはいつ～しますか』。when→do→you→play の順に並べ、固定の baseball? につなぐ。play baseball は『野球をする』。",
+                        "1番目=①「play」、3番目=④「when」。1番目は「when」が必要で「play」ではない。3番目は「you」が必要で「when」ではない。When do you＋動詞の原形 ～? で『あなたはいつ～しますか』。when→do→you→play の順に並べ、固定の baseball? につなぐ。play baseball は『野球をする』。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「do」、3ばんめ「play」ではセットがくずれるよ。正しくは「when」と「you」。",
+                        "○ 1ばんめ「when」、3ばんめ「you」。正しい文になるね。",
+                        "1ばんめ「you」、3ばんめ「do」ではセットがくずれるよ。正しくは「when」と「you」。",
+                        "1ばんめ「play」、3ばんめ「when」ではセットがくずれるよ。正しくは「when」と「you」。"
+                    ]
+                },
+                {
+                    "number": 25,
+                    "text": "夕飯前にはクッキーを食べないで。",
+                    "translation": "夕飯前にはクッキーを食べないで。",
+                    "words": [
+                        "eat",
+                        "before",
+                        "dinner",
+                        "cookies"
+                    ],
+                    "correctOrder": [
+                        1,
+                        4,
+                        2,
+                        3
+                    ],
+                    "framePrefix": "Don't",
+                    "frameSuffix": ".",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "①−②",
+                        "①−③",
+                        "②−①",
+                        "②−③"
+                    ],
+                    "answer": 1,
+                    "questionAudio": "audio/q25.mp3",
+                    "grammar": "完成文は「Don't eat cookies before dinner.」。Don't＋動詞の原形で『～しないで』という否定の命令文。Don't の後ろに eat、食べない物 cookies、時を表す before dinner（夕飯前に）を続け、eat→cookies→before→dinner の順に並べる。Don't と文末の . は固定部分。 語句の順序は ①eat→④cookies→②before→③dinner。空所1番目は①「eat」、3番目は②「before」。",
+                    "grammarSimple": "「Don't eat cookies before dinner.」が正しい文。『～しないで』は Don't のあとに うごきのことば。eat cookies（クッキーをたべる）のあとに before dinner（ゆうはんのまえ）をつけるよ。 1ばんめは「eat」、3ばんめは「before」だよ。",
+                    "choiceAnalysis": [
+                        "○ 1番目=①「eat」、3番目=②「before」。Don't eat cookies before dinner. の語順に一致する。",
+                        "1番目=①「eat」、3番目=③「dinner」。3番目は「before」が必要で「dinner」ではない。Don't＋動詞の原形で『～しないで』という否定の命令文。Don't の後ろに eat、食べない物 cookies、時を表す before dinner（夕飯前に）を続け、eat→cookies→before→dinner の順に並べる。Don't と文末の . は固定部分。",
+                        "1番目=②「before」、3番目=①「eat」。1番目は「eat」が必要で「before」ではない。3番目は「before」が必要で「eat」ではない。Don't＋動詞の原形で『～しないで』という否定の命令文。Don't の後ろに eat、食べない物 cookies、時を表す before dinner（夕飯前に）を続け、eat→cookies→before→dinner の順に並べる。Don't と文末の . は固定部分。",
+                        "1番目=②「before」、3番目=③「dinner」。1番目は「eat」が必要で「before」ではない。3番目は「before」が必要で「dinner」ではない。Don't＋動詞の原形で『～しないで』という否定の命令文。Don't の後ろに eat、食べない物 cookies、時を表す before dinner（夕飯前に）を続け、eat→cookies→before→dinner の順に並べる。Don't と文末の . は固定部分。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 1ばんめ「eat」、3ばんめ「before」。正しい文になるね。",
+                        "1ばんめ「eat」、3ばんめ「dinner」ではセットがくずれるよ。正しくは「eat」と「before」。",
+                        "1ばんめ「before」、3ばんめ「eat」ではセットがくずれるよ。正しくは「eat」と「before」。",
+                        "1ばんめ「before」、3ばんめ「dinner」ではセットがくずれるよ。正しくは「eat」と「before」。"
+                    ]
+                }
+            ]
+        }
+    ],
+    "listening": {
+        "part1": {
+            "1": 2,
+            "2": 2,
+            "3": 3,
+            "4": 1,
+            "5": 3,
+            "6": 3,
+            "7": 3,
+            "8": 1,
+            "9": 2,
+            "10": 1
+        },
+        "part2": {
+            "11": 1,
+            "12": 1,
+            "13": 2,
+            "14": 2,
+            "15": 1
+        },
+        "part3": {
+            "16": 3,
+            "17": 2,
+            "18": 1,
+            "19": 3,
+            "20": 1,
+            "21": 1,
+            "22": 3,
+            "23": 3,
+            "24": 1,
+            "25": 3
+        }
+    },
+    "vocabulary": [
+        {
+            "word": "or",
+            "meaning": "～か…・または",
+            "pos": "接続詞",
+            "level": "5級",
+            "example": "Do you want tea or coffee?",
+            "exampleJa": "紅茶とコーヒーのどちらがほしいですか。",
+            "distractors": [
+                "しかし",
+                "だから",
+                "～へ"
+            ],
+            "source": "大問1 Q1",
+            "sourceForm": "or",
+            "wordAudio": "audio/vocab/w_001_or.mp3",
+            "exampleAudio": "audio/vocab/ex_001_or.mp3"
+        },
+        {
+            "word": "Monday",
+            "meaning": "月曜日",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I have a piano lesson on Monday.",
+            "exampleJa": "私は月曜日にピアノのレッスンがあります。",
+            "distractors": [
+                "日曜日",
+                "金曜日",
+                "6月"
+            ],
+            "source": "大問1 Q2",
+            "sourceForm": "Monday",
+            "wordAudio": "audio/vocab/w_002_monday.mp3",
+            "exampleAudio": "audio/vocab/ex_002_monday.mp3"
+        },
+        {
+            "word": "yellow",
+            "meaning": "黄色（の）",
+            "pos": "形容詞",
+            "level": "5級",
+            "example": "My new bag is yellow.",
+            "exampleJa": "私の新しいかばんは黄色です。",
+            "distractors": [
+                "赤（い）",
+                "青（い）",
+                "白（い）"
+            ],
+            "source": "大問1 Q3",
+            "sourceForm": "yellow",
+            "wordAudio": "audio/vocab/w_003_yellow.mp3",
+            "exampleAudio": "audio/vocab/ex_003_yellow.mp3"
+        },
+        {
+            "word": "bed",
+            "meaning": "ベッド",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My cat is sleeping on the bed.",
+            "exampleJa": "私の猫はベッドの上で眠っています。",
+            "distractors": [
+                "机",
+                "いす",
+                "本棚"
+            ],
+            "source": "大問1 Q4",
+            "sourceForm": "bed",
+            "wordAudio": "audio/vocab/w_004_bed.mp3",
+            "exampleAudio": "audio/vocab/ex_004_bed.mp3"
+        },
+        {
+            "word": "March",
+            "meaning": "3月",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My birthday is in March.",
+            "exampleJa": "私の誕生日は3月です。",
+            "distractors": [
+                "2月",
+                "8月",
+                "12月"
+            ],
+            "source": "大問1 Q5",
+            "sourceForm": "March",
+            "wordAudio": "audio/vocab/w_005_march.mp3",
+            "exampleAudio": "audio/vocab/ex_005_march.mp3"
+        },
+        {
+            "word": "people",
+            "meaning": "人々",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "There are many people at the station.",
+            "exampleJa": "駅にはたくさんの人がいます。",
+            "distractors": [
+                "本",
+                "塔",
+                "かばん"
+            ],
+            "source": "大問1 Q6",
+            "sourceForm": "people",
+            "wordAudio": "audio/vocab/w_006_people.mp3",
+            "exampleAudio": "audio/vocab/ex_006_people.mp3"
+        },
+        {
+            "word": "hair",
+            "meaning": "髪",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My sister has short hair.",
+            "exampleJa": "私の姉（妹）は髪が短いです。",
+            "distractors": [
+                "目",
+                "手",
+                "顔"
+            ],
+            "source": "大問1 Q7",
+            "sourceForm": "hair",
+            "wordAudio": "audio/vocab/w_007_hair.mp3",
+            "exampleAudio": "audio/vocab/ex_007_hair.mp3"
+        },
+        {
+            "word": "a little",
+            "meaning": "少し",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "This bag is a little big.",
+            "exampleJa": "このかばんは少し大きいです。",
+            "distractors": [
+                "とても",
+                "たくさんの",
+                "いちばん"
+            ],
+            "source": "大問1 Q8",
+            "sourceForm": "a little",
+            "wordAudio": "audio/vocab/w_008_a_little.mp3",
+            "exampleAudio": "audio/vocab/ex_008_a_little.mp3"
+        },
+        {
+            "word": "after school",
+            "meaning": "放課後",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "I play soccer after school.",
+            "exampleJa": "私は放課後にサッカーをします。",
+            "distractors": [
+                "授業の前に",
+                "昼食の時間に",
+                "毎朝"
+            ],
+            "source": "大問1 Q9",
+            "sourceForm": "after school",
+            "wordAudio": "audio/vocab/w_009_after_school.mp3",
+            "exampleAudio": "audio/vocab/ex_009_after_school.mp3"
+        },
+        {
+            "word": "listen to",
+            "meaning": "～を聞く",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "I listen to music every night.",
+            "exampleJa": "私は毎晩音楽を聞きます。",
+            "distractors": [
+                "～を見る",
+                "～を開ける",
+                "～を書く"
+            ],
+            "source": "大問1 Q10",
+            "sourceForm": "listens to",
+            "wordAudio": "audio/vocab/w_010_listen_to.mp3",
+            "exampleAudio": "audio/vocab/ex_010_listen_to.mp3"
+        },
+        {
+            "word": "how about",
+            "meaning": "～はどうですか",
+            "pos": "表現",
+            "level": "5級",
+            "example": "How about this red cap?",
+            "exampleJa": "この赤い帽子はどうですか。",
+            "distractors": [
+                "いくらですか",
+                "何時ですか",
+                "だれのものですか"
+            ],
+            "source": "大問1 Q11",
+            "sourceForm": "How about",
+            "wordAudio": "audio/vocab/w_011_how_about.mp3",
+            "exampleAudio": "audio/vocab/ex_011_how_about.mp3"
+        },
+        {
+            "word": "take a picture",
+            "meaning": "写真を撮る",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "Let's take a picture here.",
+            "exampleJa": "ここで写真を撮りましょう。",
+            "distractors": [
+                "手紙を書く",
+                "絵を見る",
+                "店に行く"
+            ],
+            "source": "大問1 Q12",
+            "sourceForm": "take a picture",
+            "wordAudio": "audio/vocab/w_012_take_a_picture.mp3",
+            "exampleAudio": "audio/vocab/ex_012_take_a_picture.mp3"
+        },
+        {
+            "word": "quiet",
+            "meaning": "静かな",
+            "pos": "形容詞",
+            "level": "5級",
+            "example": "The library is very quiet.",
+            "exampleJa": "図書館はとても静かです。",
+            "distractors": [
+                "うるさい",
+                "明るい",
+                "大きい"
+            ],
+            "source": "大問1 Q13",
+            "sourceForm": "quiet",
+            "wordAudio": "audio/vocab/w_013_quiet.mp3",
+            "exampleAudio": "audio/vocab/ex_013_quiet.mp3"
+        },
+        {
+            "word": "mine",
+            "meaning": "私のもの",
+            "pos": "代名詞",
+            "level": "5級",
+            "example": "That blue bike is mine.",
+            "exampleJa": "あの青い自転車は私のものです。",
+            "distractors": [
+                "彼のもの",
+                "あなたのもの",
+                "彼女のもの"
+            ],
+            "source": "大問1 Q14",
+            "sourceForm": "mine",
+            "wordAudio": "audio/vocab/w_014_mine.mp3",
+            "exampleAudio": "audio/vocab/ex_014_mine.mp3"
+        },
+        {
+            "word": "where",
+            "meaning": "どこ",
+            "pos": "疑問詞",
+            "level": "5級",
+            "example": "Where is my cap?",
+            "exampleJa": "私の帽子はどこですか。",
+            "distractors": [
+                "いつ",
+                "だれ",
+                "どのように"
+            ],
+            "source": "大問1 Q15",
+            "sourceForm": "Where",
+            "wordAudio": "audio/vocab/w_015_where.mp3",
+            "exampleAudio": "audio/vocab/ex_015_where.mp3"
+        },
+        {
+            "word": "name",
+            "meaning": "名前",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My dog's name is Pochi.",
+            "exampleJa": "私の犬の名前はポチです。",
+            "distractors": [
+                "友達",
+                "家",
+                "学校"
+            ],
+            "source": "大問2 Q16",
+            "sourceForm": "name",
+            "wordAudio": "audio/vocab/w_016_name.mp3",
+            "exampleAudio": "audio/vocab/ex_016_name.mp3"
+        },
+        {
+            "word": "ask",
+            "meaning": "尋ねる・聞く",
+            "pos": "動詞",
+            "level": "5級",
+            "example": "Please ask your teacher.",
+            "exampleJa": "先生に聞いてください。",
+            "distractors": [
+                "答える",
+                "買う",
+                "書く"
+            ],
+            "source": "大問2 Q17",
+            "sourceForm": "ask",
+            "wordAudio": "audio/vocab/w_017_ask.mp3",
+            "exampleAudio": "audio/vocab/ex_017_ask.mp3"
+        },
+        {
+            "word": "shoes",
+            "meaning": "くつ",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I want new shoes.",
+            "exampleJa": "私は新しいくつがほしいです。",
+            "distractors": [
+                "ぼうし",
+                "かさ",
+                "かばん"
+            ],
+            "source": "大問2 Q18",
+            "sourceForm": "shoes",
+            "wordAudio": "audio/vocab/w_018_shoes.mp3",
+            "exampleAudio": "audio/vocab/ex_018_shoes.mp3"
+        },
+        {
+            "word": "kind",
+            "meaning": "親切な",
+            "pos": "形容詞",
+            "level": "5級",
+            "example": "My teacher is very kind.",
+            "exampleJa": "私の先生はとても親切です。",
+            "distractors": [
+                "背が高い",
+                "忙しい",
+                "新しい"
+            ],
+            "source": "大問3 Q21",
+            "sourceForm": "kind",
+            "wordAudio": "audio/vocab/w_019_kind.mp3",
+            "exampleAudio": "audio/vocab/ex_019_kind.mp3"
+        },
+        {
+            "word": "practice",
+            "meaning": "練習する",
+            "pos": "動詞",
+            "level": "5級",
+            "example": "I practice the guitar every day.",
+            "exampleJa": "私は毎日ギターを練習します。",
+            "distractors": [
+                "教える",
+                "聞く",
+                "作る"
+            ],
+            "source": "大問3 Q23",
+            "sourceForm": "practice",
+            "wordAudio": "audio/vocab/w_020_practice.mp3",
+            "exampleAudio": "audio/vocab/ex_020_practice.mp3"
+        }
+    ],
+    "lessonPlan": {
+        "title": "英検5級 2025年度 第2回（土曜準会場）",
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "前後の文の手がかりと「組み合わせ」で選ぶ",
+                "subtitle": "Clues, Set Phrases & Word Forms",
+                "explanation": "大問1は空所の前後に手がかりがある。Q4 は can't sleep well から bed、Q5 は the third month of the year から March を選ぶ。Q8 の a little difficult、Q9 の after school、Q10 の listen to、Q11 の How about ～?、Q12 の take a picture of ～ は語の組み合わせで覚える。Q13 は命令文なので原形の Be、Q14 は yours と聞かれて mine、Q15 は In Los Angeles と場所を答えているので Where。意味の手がかりを見つけてから、語の形も確かめる。",
+                "explanationSimple": "あきのまえとあとをよもう。『よくねむれない』なら bed、『3ばんめのつき』なら March。a little、after school、How about、take a picture はセットでおぼえよう。『しずかにして』は Be quiet.、『わたしのもの』は mine だよ。",
+                "sourceQuote": "The questions are always a little difficult. / How about pizza? / Be quiet, everyone. / It's not mine. / Where does Kate live?",
+                "sourceLocation": "大問1 Q8・Q11・Q13・Q14・Q15",
+                "sourceQuoteAudio": "audio/fp1_source.mp3",
+                "examples": [
+                    {
+                        "en": "I have a math test every Friday. The questions are always a little difficult.",
+                        "ja": "私は毎週金曜日に数学のテストがあります。問題はいつも少し難しいです。",
+                        "note": "a little＋形容詞で『少し～』。difficult の程度を表している。",
+                        "noteSimple": "a little で『すこし』だね。",
+                        "audio": "audio/fp1_ex1.mp3"
+                    },
+                    {
+                        "en": "A: It's time for lunch. How about pizza?\nB: Good idea. I want one with cheese.",
+                        "ja": "A：昼食の時間です。ピザはどうですか。\nB：いい考えですね。チーズがのったものがほしいです。",
+                        "note": "How about＋名詞? で提案し、Good idea. で賛成している。",
+                        "noteSimple": "How about ～? は『～はどう？』だね。",
+                        "audio": "audio/fp1_ex2.mp3"
+                    },
+                    {
+                        "en": "A: Whose textbook is this? Is it yours?\nB: It's not mine. It's John's.",
+                        "ja": "A：これはだれの教科書ですか。あなたのものですか。\nB：私のものではありません。ジョンのものです。",
+                        "note": "yours（あなたのもの）と聞かれ、mine（私のもの）で答える。John's も『ジョンのもの』。",
+                        "noteSimple": "mine は『わたしのもの』だね。",
+                        "audio": "audio/fp1_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問1 Q8]\nI have a math test every Friday. The questions are always a little difficult.\n\n[出典: 大問1 Q9]\nA: What do you do after school, Charlie?\nB: I usually play tennis.\n\n[出典: 大問1 Q10]\nKenta likes jazz music. He often listens to it in his room.\n\n[出典: 大問1 Q11]\nA: It's time for lunch. How about pizza?\nB: Good idea. I want one with cheese.\n\n[出典: 大問1 Q12]\nThis flower is very beautiful. Let's take a picture of it.\n\n[出典: 大問1 Q13]\nA: Be quiet, everyone. Let's start the meeting.\nB: OK.\n\n[出典: 大問1 Q14]\nA: Whose textbook is this? Is it yours?\nB: It's not mine. It's John's.\n\n[出典: 大問1 Q15]\nA: Where does Kate live?\nB: In Los Angeles.",
+                    "ja": "【Q8】毎週金曜日の数学のテストは、いつも少し難しい。\n【Q9】チャーリーは放課後、たいていテニスをする。\n【Q10】ケンタはジャズが好きで、よく部屋で聞く。\n【Q11】昼食にピザを提案し、チーズがのったピザがほしいと答える。\n【Q12】とても美しい花の写真を撮ろうと誘う。\n【Q13】皆に静かにするよう言い、会議を始める。\n【Q14】教科書は自分のものではなく、ジョンのもの。\n【Q15】ケイトはロサンゼルスに住んでいる。",
+                    "source": "大問1 Q8・Q11・Q13・Q14・Q15",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "a little",
+                    "after school",
+                    "listens to",
+                    "How about",
+                    "take a picture",
+                    "Be quiet",
+                    "mine",
+                    "Where does"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "手がかりと組み合わせ",
+                "practiceQuestions": [
+                    {
+                        "q": "Q8の a little difficult はどんな意味？",
+                        "a": "『少し難しい』。a little が difficult の程度を表している。"
+                    },
+                    {
+                        "q": "Q13で Are ではなく Be を選ぶのはなぜ？",
+                        "a": "命令文では動詞の原形を使うから。be動詞の原形は be なので Be quiet。"
+                    },
+                    {
+                        "q": "Q15で Where を選ぶ手がかりは？",
+                        "a": "B の In Los Angeles.。住んでいる場所を答えているので、場所を尋ねる Where。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "after school はどんないみ？",
+                        "a": "がっこうのあと（ほうかご）、だよ。"
+                    },
+                    {
+                        "q": "しゃしんをとる、はえいごで？",
+                        "a": "take a picture だよ。"
+                    },
+                    {
+                        "q": "mine はどんないみ？",
+                        "a": "わたしのもの、だよ。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "会話は「質問の種類」と「続くセリフ」で選ぶ",
+                "subtitle": "Dialogue Responses & Follow-up Lines",
+                "explanation": "大問2では、相手の質問の種類と、空所の前後のセリフをつなげて考える。Q16 の Who is that girl? には名前を伝える Her name is Tomoko.。Q17 は Mom has many kinds of pens. を受けて Please ask her.（her＝Mom）。Q18 は I like your shoes とほめられて Thank you.。Q19 は often（よく）の質問に Yes と答えた後、I play every Sunday. と具体的に続ける。Q20 は You can use this one. の後に、ペンを貸せる理由として I have two. が続く。",
+                "explanationSimple": "まえのセリフとあとのセリフをつなげよう。『だれ？』にはなまえ、ほめられたら Thank you.、『よくする？』には『まいしゅうにちようびにするよ』。ペンを2ほんもっているから、かしてあげられるね。",
+                "sourceQuote": "Her name is Tomoko. / Please ask her. / Thank you. / I play every Sunday. / I have two.",
+                "sourceLocation": "大問2 Q16～Q20",
+                "sourceQuoteAudio": "audio/fp2_source.mp3",
+                "examples": [
+                    {
+                        "en": "Father: Who is that girl?\nGirl: Her name is Tomoko. She's my friend.",
+                        "ja": "父：あの女の子はだれですか。\n女の子：彼女の名前はトモコです。私の友達です。",
+                        "note": "Who（だれ）の質問に、名前と自分との関係を答えている。",
+                        "noteSimple": "『だれ？』に、なまえでこたえるね。",
+                        "audio": "audio/fp2_ex1.mp3"
+                    },
+                    {
+                        "en": "Girl: Dad, I need a red pen.\nFather: Mom has many kinds of pens. Please ask her.",
+                        "ja": "女の子：お父さん、赤いペンが必要です。\n父：お母さんがいろいろな種類のペンを持っています。お母さんに聞いてください。",
+                        "note": "her は直前の Mom を指す。ペンを持っている人に聞くよう勧めている。",
+                        "noteSimple": "her は おかあさんのことだよ。",
+                        "audio": "audio/fp2_ex2.mp3"
+                    },
+                    {
+                        "en": "Boy: Oh, no! I don't have a pen.\nGirl: You can use this one. I have two.",
+                        "ja": "男の子：困った。ペンを持っていません。\n女の子：これを使っていいですよ。2本持っています。",
+                        "note": "I have two. が、ペンを貸せる理由になっている。this one の one はペンを指す。",
+                        "noteSimple": "2ほんあるから、かしてあげられるね。",
+                        "audio": "audio/fp2_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問2 Q16]\nFather: Who is that girl?\nGirl: Her name is Tomoko. She's my friend.\n\n[出典: 大問2 Q17]\nGirl: Dad, I need a red pen.\nFather: Mom has many kinds of pens. Please ask her.\n\n[出典: 大問2 Q18]\nBoy: I like your shoes, Risa.\nGirl: Thank you. They're new.\n\n[出典: 大問2 Q19]\nWoman: Do you often play tennis, Steve?\nBoy: Yes, I play every Sunday.\n\n[出典: 大問2 Q20]\nBoy: Oh, no! I don't have a pen.\nGirl: You can use this one. I have two.",
+                    "ja": "【Q16】あの女の子の名前はトモコで、自分の友達だと説明する。\n【Q17】赤いペンが必要な娘に、父はペンをたくさん持っている母に聞くよう言う。\n【Q18】くつをほめられてお礼を言い、新しいくつだと話す。\n【Q19】スティーブはテニスをよくして、毎週日曜日にしている。\n【Q20】ペンがない男の子に、2本持っている女の子がペンを貸す。",
+                    "source": "大問2 Q16～Q20",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "Her name is Tomoko",
+                    "Please ask her",
+                    "Thank you",
+                    "I play every Sunday",
+                    "I have two"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "会話のつながり",
+                "practiceQuestions": [
+                    {
+                        "q": "Q16で Nice to meet you. が合わないのはなぜ？",
+                        "a": "初めて会った相手へのあいさつで、父の『あの女の子はだれ？』という質問に答えていないから。"
+                    },
+                    {
+                        "q": "Q17の her はだれのこと？",
+                        "a": "直前の Mom（お母さん）。ペンをたくさん持っている母に聞くよう勧めている。"
+                    },
+                    {
+                        "q": "Q19で I play basketball. が合わないのはなぜ？",
+                        "a": "テニスをよくするかと聞かれて Yes と答えているので、続くのはテニスをする日を伝える I play every Sunday.。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "ほめられたら、なんといえばいい？",
+                        "a": "Thank you.（ありがとう）だよ。"
+                    },
+                    {
+                        "q": "every Sunday はどんないみ？",
+                        "a": "まいしゅうにちようび、だよ。"
+                    },
+                    {
+                        "q": "I have two. はどんないみ？",
+                        "a": "2ほんもっている、だよ。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "並べかえ——疑問詞・命令文・be動詞の「型」から組み立てる",
+                "subtitle": "Word Order: Questions, Commands & be-Verbs",
+                "explanation": "Q21 は you are very kind（主語＋be動詞＋very＋形容詞）。Q22 は When is＋主語?、Q24 は When do you＋動詞の原形?、Q23 は How does＋主語＋動詞の原形?。この3問では、疑問詞のすぐ後ろに be動詞や do・does を置く。Q25 は Don't＋動詞の原形で『～しないで』。your sister は1つのかたまり。固定の George,・Judy,・Don't や文末の語句は数えず、4つの空所の1番目と3番目を答える。完成文を確かめてから、2つの位置を選択肢と照合する。",
+                "explanationSimple": "4つのことばをならべよう。『いつ？』は When、『どうやって？』は How ではじめるよ。『～しないで』は Don't のあとに eat。George, や Judy, はかぞえないよ。",
+                "sourceQuote": "George, you are very kind. / Judy, how does your sister practice the piano? / Don't eat cookies before dinner.",
+                "sourceLocation": "大問3 Q21～Q25（並べ替え後の完成文）",
+                "sourceQuoteAudio": "audio/fp3_source.mp3",
+                "examples": [
+                    {
+                        "en": "George, you are very kind.",
+                        "ja": "ジョージ，あなたはとても親切です。",
+                        "note": "空所は you→are→very→kind。1番目②you、3番目①very。",
+                        "noteSimple": "George, はかぞえず、you が1ばんめだよ。",
+                        "audio": "audio/fp3_ex1.mp3"
+                    },
+                    {
+                        "en": "Judy, how does your sister practice the piano?",
+                        "ja": "ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。",
+                        "note": "how→does→your sister→practice。1番目②how、3番目③your sister。does の後ろは原形 practice。",
+                        "noteSimple": "your sister はひとつのかたまりだよ。",
+                        "audio": "audio/fp3_ex2.mp3"
+                    },
+                    {
+                        "en": "Don't eat cookies before dinner.",
+                        "ja": "夕飯前にはクッキーを食べないで。",
+                        "note": "eat→cookies→before→dinner。1番目①eat、3番目②before。Don't の後ろは動詞の原形。",
+                        "noteSimple": "Don't のあとは eat だね。",
+                        "audio": "audio/fp3_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問3 Q21 完成文]\nGeorge, you are very kind.\n\n[出典: 大問3 Q22 完成文]\nWhen is your piano concert?\n\n[出典: 大問3 Q23 完成文]\nJudy, how does your sister practice the piano?\n\n[出典: 大問3 Q24 完成文]\nWhen do you play baseball?\n\n[出典: 大問3 Q25 完成文]\nDon't eat cookies before dinner.",
+                    "ja": "【Q21】ジョージ，あなたはとても親切です。\n【Q22】あなたのピアノのコンサートはいつですか。\n【Q23】ジュディ，あなたのお姉さんはどうやってピアノを練習しますか。\n【Q24】あなたはいつ野球をしますか。\n【Q25】夕飯前にはクッキーを食べないで。",
+                    "source": "大問3 Q21～Q25（並べ替え後の完成文）",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "you are very kind",
+                    "When is",
+                    "how does",
+                    "When do",
+                    "Don't eat"
+                ],
+                "highlightColor": "#a78bfa",
+                "highlightLabel": "整序の型",
+                "practiceQuestions": [
+                    {
+                        "q": "Q21の1番目は George, ではないの？",
+                        "a": "George, は固定の呼びかけ。空所だけを数え、you が1番目、very が3番目。選択肢1。"
+                    },
+                    {
+                        "q": "Q23で practice に s を付けないのはなぜ？",
+                        "a": "主語 your sister に合わせて does を使っているので、その後ろの動詞は原形 practice。1番目②how、3番目③your sister で選択肢4。"
+                    },
+                    {
+                        "q": "Q24の1番目と3番目は？",
+                        "a": "when→do→you→play なので、④when と②you。選択肢2。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "your sister は2つにわける？",
+                        "a": "わけないよ。ひとつのかたまりだね。"
+                    },
+                    {
+                        "q": "『～しないで』はなにではじめる？",
+                        "a": "Don't ではじめるよ。"
+                    },
+                    {
+                        "q": "Judy, もかぞえる？",
+                        "a": "かぞえないよ。あいている4つのところだけだね。"
+                    }
+                ]
+            }
+        ]
+    }
+}

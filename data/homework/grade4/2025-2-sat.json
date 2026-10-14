@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の型・時と理由のことば",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の型・時と理由のことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～が得意だ」「あきらめる」などの語句のセットを書ける",
+        "返事の文をヒントに、会話に合う質問の形を選べる",
+        "「～する時間」「AからBまで」や理由を表す言い方を使える"
+    ],
+    "words": [
+        {
+            "word": "gift",
+            "meaning": "おくり物"
+        },
+        {
+            "word": "vegetable",
+            "meaning": "野菜"
+        },
+        {
+            "word": "airport",
+            "meaning": "空港"
+        },
+        {
+            "word": "remember",
+            "meaning": "覚えている"
+        },
+        {
+            "word": "healthy",
+            "meaning": "健康によい"
+        },
+        {
+            "word": "surprised",
+            "meaning": "おどろいた"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Jenny got very tired in the race, but she did not give up.",
+            "ja": "ジェニーはレースでとてもつかれましたが、あきらめませんでした。",
+            "focus": "fp1",
+            "point": "give up「あきらめる」",
+            "note": "give up で「あきらめる」。did not のあとは動詞の原形 give を使う。"
+        },
+        {
+            "en": "Eri did not have time to see her aunt yesterday.",
+            "ja": "えりは昨日、おばに会う時間がありませんでした。",
+            "focus": "fp3",
+            "point": "have time to ～「～する時間がある」",
+            "note": "time to＋動詞の原形で「～する時間」。did not have time to see で「会う時間がなかった」となる。"
+        },
+        {
+            "en": "The curry was easy to make, so Kate was surprised.",
+            "ja": "カレーは作るのがかんたんだったので、ケイトはおどろきました。",
+            "focus": "fp4",
+            "point": "so「だから」（後ろが結果）",
+            "note": "「だから」の so は、前が理由、後ろが結果。「作るのがかんたんだった → だからおどろいた」と前から順に意味をとる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: This cake is delicious!\nB: My father made it. He is good (　) cooking.",
+            "choices": [
+                "to",
+                "of",
+                "at",
+                "by"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このケーキ、とてもおいしいね！\nB：父が作ったんだ。父は料理が得意なんだよ。",
+            "explanation": "be good at ～で「～が得意だ・上手だ」。at のあとには名詞や、cooking のような動詞の ing 形が来る。",
+            "choiceNotes": [
+                "to「～へ」",
+                "of「～の」",
+                "at「be good at のセット」",
+                "by「～のそばに」"
+            ],
+            "tip": "授業の Ken is very good at soccer. と同じセット。good at をひとまとまりで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This math problem is hard, but I won't give (　).",
+            "choices": [
+                "up",
+                "off",
+                "on",
+                "by"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "この数学の問題はむずかしいけれど、わたしはあきらめません。",
+            "explanation": "give up で「あきらめる」。won't は will not を短くした形で、「～しないつもりだ」という意味になる。",
+            "choiceNotes": [
+                "up「give up であきらめる」",
+                "off「はなれて」",
+                "on「～の上に」",
+                "by「～のそばに」"
+            ],
+            "tip": "授業の Jenny … did not give up. と同じ。give と up をセットで書こう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: (　) did you have for breakfast?\nB: Rice and miso soup.",
+            "choices": [
+                "Where",
+                "When",
+                "How",
+                "What"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：朝ごはんに何を食べましたか。\nB：ごはんとみそしるです。",
+            "explanation": "返事の Rice and miso soup. は食べた物なので、「何を」とたずねる What を選ぶ。have はここでは「食べる」という意味。",
+            "choiceNotes": [
+                "Where「どこで」",
+                "When「いつ」",
+                "How「どのように」",
+                "What「何を」"
+            ],
+            "tip": "授業の What did you have? と同じ形。返事が食べた物なので、「何を食べたか」をたずねる文だよ。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Sorry, I can't play with you today.\nB: Why (　)?\nA: I have to help my mother.",
+            "choices": [
+                "not",
+                "no",
+                "don't",
+                "isn't"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：ごめんね、今日はいっしょに遊べないんだ。\nB：どうして（だめなの）？\nA：母の手伝いをしなければならないんだ。",
+            "explanation": "Why not? は、相手が「～ない」と言ったときに「どうしてだめなの？」と理由をたずねる言い方。次の文で理由を答えている。",
+            "choiceNotes": [
+                "not「Why not? でどうして？」",
+                "no「いいえ」",
+                "don't「～しない」",
+                "isn't「～ではない」"
+            ],
+            "tip": "授業の会話の Why not? と同じ。次の I have to … が、遊べない理由の答えになっているね。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "I didn't have time (　) TV last night.",
+            "choices": [
+                "watch",
+                "to watch",
+                "watched",
+                "watching"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "昨日の夜は、テレビを見る時間がありませんでした。",
+            "explanation": "time to＋動詞の原形で「～する時間」。didn't have time to watch で「見る時間がなかった」となる。",
+            "choiceNotes": [
+                "watch「原形」",
+                "to watch「to＋原形」",
+                "watched「過去形」",
+                "watching「ing形」"
+            ],
+            "tip": "授業の Eri did not have time to see her aunt … と同じ形。time to のあとは原形だよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My uncle grows many kinds (　) vegetables on his farm.",
+            "choices": [
+                "in",
+                "for",
+                "with",
+                "of"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "おじは、自分の農場でたくさんの種類の野菜を育てています。",
+            "explanation": "many kinds of ～で「たくさんの種類の～」。of のあとに、何の種類かを表す名詞（vegetables）が来る。",
+            "choiceNotes": [
+                "in「～の中に」",
+                "for「～のために」",
+                "with「～といっしょに」",
+                "of「many kinds of のセット」"
+            ],
+            "tip": "授業の I have many kinds of flowers … と同じ形。kinds of をセットで言おう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "The zoo is open (　) 9:00 a.m. to 5:00 p.m.",
+            "choices": [
+                "on",
+                "for",
+                "from",
+                "by"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "その動物園は、午前9時から午後5時まで開いています。",
+            "explanation": "from A to B で「AからBまで」。from のあとがはじまりの時刻、to のあとが終わりの時刻。",
+            "choiceNotes": [
+                "on「～に（曜日・日付）」",
+                "for「～の間」",
+                "from「from A to B でAからBまで」",
+                "by「～までに」"
+            ],
+            "tip": "授業の掲示の 1:00 p.m. to 4:00 p.m. も「午後1時から4時まで」。はじまりは前の時刻だよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "Tom didn't come to school (　) he was sick.",
+            "choices": [
+                "so",
+                "because",
+                "but",
+                "than"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "トムは病気だったので、学校に来ませんでした。",
+            "explanation": "because の後ろには理由が来る。「病気だった」が「学校に来なかった」理由なので because を選ぶ。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "because「～なので（後ろが理由）」",
+                "but「しかし」",
+                "than「～よりも」"
+            ],
+            "tip": "授業のメールの My sister didn't come because … と同じ形。because の後ろは理由だよ。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。give up や many kinds of のように、セットで使う形はひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}
