@@ -984,6 +984,17 @@
         })
         .catch(err => console.warn('文法解説プリントの一覧を読み込めませんでした', err));
 
+    // Homework prints validated and listed by scripts/build_homework.py.
+    let homeworkIndex = {};
+
+    fetch('data/homework/index.json', { cache: 'no-cache' })
+        .then(resp => (resp.ok ? resp.json() : {}))
+        .then(index => {
+            homeworkIndex = index || {};
+            renderTeacherMaterials();
+        })
+        .catch(err => console.warn('宿題プリントの一覧を読み込めませんでした', err));
+
     // ===== Render Grade Chips =====
     function renderGradeChips() {
         gradeChips.innerHTML = '';
@@ -1164,6 +1175,7 @@
 
     function clearGeneratedPreview() {
         activeFixedExam = null;
+        printPreview.classList.remove('homework-mode');
         printPreview.style.display = 'none';
         printBtn.style.display = 'none';
         printBtn.textContent = '🖨️ 印刷する';
@@ -1212,20 +1224,26 @@
         renderTeacherMaterials();
     }
 
-    // ===== Teacher materials: 閲覧 / DL for each selected exam's grammar guide =====
+    // ===== Teacher materials: grammar guide (閲覧 / DL) and homework print (作成) per selected exam =====
     function renderTeacherMaterials() {
         const rows = selectedGrade
             ? getSelectedExams()
-                .map(examId => ({ examId, guide: grammarGuides[`${selectedGrade.id}/${examId}`] }))
-                .filter(row => row.guide)
+                .map(examId => ({
+                    examId,
+                    guide: grammarGuides[`${selectedGrade.id}/${examId}`],
+                    homework: homeworkIndex[`${selectedGrade.id}/${examId}`]
+                }))
+                .filter(row => row.guide || row.homework)
             : [];
         teacherMaterials.hidden = rows.length === 0;
-        teacherMaterialList.innerHTML = rows.map(({ examId, guide }) => {
+        teacherMaterialList.innerHTML = rows.map(({ examId, guide, homework }) => {
             const examLabel = selectedGrade.exams.find(e => e.id === examId)?.label || examId;
-            const pagesText = guide.pages === guide.focusPoints
-                ? `A4縦${guide.pages}枚（1枚に1つの文法事項）`
-                : `A4縦${guide.pages}枚（文法事項${guide.focusPoints}つ）`;
-            return `
+            let html = '';
+            if (guide) {
+                const pagesText = guide.pages === guide.focusPoints
+                    ? `A4縦${guide.pages}枚（1枚に1つの文法事項）`
+                    : `A4縦${guide.pages}枚（文法事項${guide.focusPoints}つ）`;
+                html += `
                 <div class="teacher-material-row" data-exam="${esc(examId)}">
                     <div class="teacher-material-info">
                         <strong>文法解説プリント（講師用）</strong>
@@ -1237,8 +1255,22 @@
                         <a class="download" href="${esc(guide.path)}" download="${esc(guide.downloadName)}"
                            aria-label="${esc(examLabel)}の文法解説プリントをダウンロード">DL</a>
                     </div>
-                </div>
-            `;
+                </div>`;
+            }
+            if (homework) {
+                html += `
+                <div class="teacher-material-row homework-row" data-homework="${esc(examId)}">
+                    <div class="teacher-material-info">
+                        <strong>宿題プリント（${esc(homework.title)}）</strong>
+                        <span>${esc(examLabel)} ／ A4縦4ページ（問題${homework.questions}問・うち全訳${homework.translations}問：問題2ページ・解答解説2ページ）</span>
+                    </div>
+                    <div class="teacher-material-actions">
+                        <button type="button" class="homework-open" data-exam="${esc(examId)}"
+                                aria-label="${esc(examLabel)}の宿題プリントを作成">作成</button>
+                    </div>
+                </div>`;
+            }
+            return html;
         }).join('');
     }
 
@@ -1286,6 +1318,7 @@
             }
 
             activeFixedExam = null;
+            printPreview.classList.remove('homework-mode');
             previewLabel.textContent = 'プレビュー';
             printBtn.textContent = '🖨️ 印刷する';
             const examDataList = [];
@@ -1323,6 +1356,7 @@
 
     function renderFixedExam(examPdf) {
         activeFixedExam = examPdf;
+        printPreview.classList.remove('homework-mode');
         printContent.innerHTML = `
             <section class="fixed-exam-card">
                 <div class="fixed-exam-summary">
@@ -1649,16 +1683,269 @@
         });
     }
 
+    // ===== Homework print: A4 portrait, exactly four pages =====
+    // Pages 1-2: aim, goals and Part-1-style questions on the lesson's grammar (★ = also translate).
+    // Pages 3-4: answer, translation, explanation, choice notes and a tutor's tip for every
+    // question, a closing message, and the next lesson's flash-card QR (chosen in the dialog).
+    // Items flow page by page by measured height, so longer grades simply use more of page 2/4.
+    const EIKEN_NAMES = {
+        'pre-grade1': '英検準1級', grade2: '英検2級', 'grade-pre2plus': '英検準2級プラス',
+        'grade-pre2': '英検準2級', grade3: '英検3級', grade4: '英検4級', grade5: '英検5級'
+    };
+    const homeworkDialog = document.getElementById('homeworkDialog');
+    const homeworkForm = document.getElementById('homeworkForm');
+    const hwTarget = document.getElementById('hwTarget');
+    const hwNextDate = document.getElementById('hwNextDate');
+    const hwGradeOptions = document.getElementById('hwGradeOptions');
+    const hwExamOptions = document.getElementById('hwExamOptions');
+    const hwNoNext = document.getElementById('hwNoNext');
+    let homeworkTarget = null;
+
+    function examSortKey(id) {
+        const m = String(id).match(/^(\d{4})-(\d+)(-.+)?$/);
+        return m ? Number(m[1]) * 100 + Number(m[2]) * 10 + (m[3] ? 0 : 1) : 0;
+    }
+
+    function newestFirst(exams) {
+        return [...exams].sort((a, b) => examSortKey(b.id) - examSortKey(a.id));
+    }
+
+    function isoDate(date) {
+        const pad = n => String(n).padStart(2, '0');
+        return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+    }
+
+    function jaDate(iso) {
+        const [y, m, d] = iso.split('-').map(Number);
+        return `${m}月${d}日（${'日月火水木金土'[new Date(y, m - 1, d).getDay()]}）`;
+    }
+
+    function examTitle(grade, examId) {
+        const label = grade.exams.find(e => e.id === examId)?.label || examId;
+        return `${EIKEN_NAMES[grade.id] || grade.name} ${label}`;
+    }
+
+    function renderHomeworkExamOptions(gradeId, checkedId) {
+        const grade = EXAM_CATALOG.find(g => g.id === gradeId);
+        hwExamOptions.innerHTML = newestFirst(grade.exams).map(exam => `
+            <label class="hw-radio">
+                <input type="radio" name="hwExam" value="${esc(exam.id)}"${exam.id === checkedId ? ' checked' : ''}>
+                <span>${esc(exam.label)}</span>
+            </label>`).join('');
+        syncHomeworkNext();
+    }
+
+    function syncHomeworkNext() {
+        const off = hwNoNext.checked;
+        [hwNextDate, ...hwGradeOptions.querySelectorAll('input'), ...hwExamOptions.querySelectorAll('input')]
+            .forEach(input => { input.disabled = off; });
+        homeworkDialog.classList.toggle('hw-next-off', off);
+    }
+
+    function openHomeworkDialog(examId) {
+        homeworkTarget = { grade: selectedGrade, examId };
+        hwTarget.textContent = examTitle(selectedGrade, examId);
+        const nextWeek = new Date();
+        nextWeek.setDate(nextWeek.getDate() + 7);
+        hwNextDate.value = isoDate(nextWeek);
+        hwNoNext.checked = false;
+        hwGradeOptions.innerHTML = EXAM_CATALOG.filter(g => g.exams.length).map(grade => `
+            <label class="hw-radio">
+                <input type="radio" name="hwGrade" value="${esc(grade.id)}"${grade.id === selectedGrade.id ? ' checked' : ''}>
+                <span>${esc(EIKEN_NAMES[grade.id] || grade.name)}</span>
+            </label>`).join('');
+        // Suggest the next older session of the same grade, the usual order of lessons.
+        const ordered = newestFirst(selectedGrade.exams);
+        const index = ordered.findIndex(e => e.id === examId);
+        renderHomeworkExamOptions(selectedGrade.id, (ordered[index + 1] || ordered[0]).id);
+        homeworkDialog.showModal();
+    }
+
+    hwGradeOptions.addEventListener('change', event => {
+        if (event.target.name !== 'hwGrade') return;
+        const grade = EXAM_CATALOG.find(g => g.id === event.target.value);
+        renderHomeworkExamOptions(grade.id, newestFirst(grade.exams)[0].id);
+    });
+    hwNoNext.addEventListener('change', syncHomeworkNext);
+    document.getElementById('hwCancel').addEventListener('click', () => homeworkDialog.close());
+
+    teacherMaterialList.addEventListener('click', event => {
+        const button = event.target.closest('.homework-open');
+        if (button && selectedGrade) openHomeworkDialog(button.dataset.exam);
+    });
+
+    homeworkForm.addEventListener('submit', async event => {
+        event.preventDefault();
+        let next = null;
+        if (!hwNoNext.checked) {
+            const gradeId = homeworkForm.querySelector('input[name="hwGrade"]:checked')?.value;
+            const examId = homeworkForm.querySelector('input[name="hwExam"]:checked')?.value;
+            if (!hwNextDate.reportValidity() || !gradeId || !examId) return;
+            const grade = EXAM_CATALOG.find(g => g.id === gradeId);
+            next = {
+                date: hwNextDate.value,
+                title: examTitle(grade, examId),
+                url: `${BASE_URL}vocab-cards.html?data=${encodeURIComponent(`data/${grade.dataPath}/${examId}/data.json`)}`
+            };
+        }
+        homeworkDialog.close();
+        await renderHomework(homeworkTarget, next);
+    });
+
+    async function renderHomework(target, next) {
+        const entry = homeworkIndex[`${target.grade.id}/${target.examId}`];
+        try {
+            const resp = await fetch(entry.path, { cache: 'no-cache' });
+            if (!resp.ok) throw new Error(`Failed to load ${entry.path}`);
+            const hw = await resp.json();
+            activeFixedExam = null;
+            printContent.innerHTML = '';
+            const pages = createHomeworkPages(hw, examTitle(target.grade, target.examId), next);
+            printContent.appendChild(pages.wrap);
+            printPreview.classList.add('homework-mode');
+            previewLabel.textContent = '宿題プリント（A4縦4ページ：問題2・解答解説2）';
+            printBtn.textContent = '🖨️ 宿題プリントを印刷';
+            // The flow measures real layout, so the preview must be visible and fonts loaded.
+            printPreview.style.display = '';
+            printBtn.style.display = '';
+            await document.fonts.ready;
+            const flowAll = () => {
+                const questionsFit = flowHomeworkItems(pages.questionAreas, pages.questionItems);
+                const explanationsFit = flowHomeworkItems(pages.explanationAreas, pages.explanationItems);
+                return questionsFit && explanationsFit;
+            };
+            let fits = flowAll();
+            if (!fits) {
+                // One step of slightly smaller type and spacing absorbs font differences between PCs.
+                pages.wrap.classList.add('hw-tight');
+                fits = flowAll();
+            }
+            pages.wrap.classList.toggle('hw-overflow', !fits);
+            if (!fits) console.warn('宿題プリントが4ページに収まりません。問題数か解説の長さを見直してください。');
+            await generateAllQRCodes();
+            printPreview.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } catch (err) {
+            console.error(err);
+            alert('宿題プリントの読み込みに失敗しました: ' + err.message);
+        }
+    }
+
+    function homeworkPageOverflows(area) {
+        const page = area.closest('.hw-page');
+        return page.scrollHeight > page.clientHeight + 1;
+    }
+
+    // Fill the first page, then move the item that does not fit (and the rest) to the next.
+    function flowHomeworkItems(areas, items) {
+        let index = 0;
+        items.forEach(item => {
+            areas[index].appendChild(item);
+            while (homeworkPageOverflows(areas[index]) && index < areas.length - 1) {
+                index += 1;
+                areas[index].appendChild(item);
+            }
+        });
+        return areas.every(area => !homeworkPageOverflows(area));
+    }
+
+    function blankHtml(text) {
+        return esc(text).replace('(　)', '<span class="hw-blank">(　　　　)</span>');
+    }
+
+    function htmlElement(html) {
+        const template = document.createElement('template');
+        template.innerHTML = html.trim();
+        return template.content.firstElementChild;
+    }
+
+    function createHomeworkPages(hw, title, next) {
+        const wrap = document.createElement('div');
+        wrap.className = 'hw-pages';
+        const running = side => `
+                <div class="hw-running"><span>${esc(title)}　${side}</span><span>テーマ：${esc(hw.theme)}</span></div>`;
+        const star = q => (q.translate ? '<span class="hw-star" title="全訳問題">★</span>' : '');
+        const questionItems = hw.questions.map(q => htmlElement(`
+                    <div class="hw-q">
+                        <p class="hw-q-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                        <p class="hw-choices">${q.choices.map((c, i) => `<span><b>${i + 1}</b> <span class="hw-en">${esc(c)}</span></span>`).join('')}</p>
+                        ${q.translate ? '<div class="hw-write" aria-label="全訳を書く欄"><span></span><span></span><span></span></div>' : ''}
+                    </div>`));
+        questionItems.push(htmlElement(`
+                    <div class="hw-answer-row"><span class="hw-answer-label">解答欄</span>${hw.questions.map(q => `<span><i>(${q.number})</i><b></b></span>`).join('')}</div>`));
+        const explanationItems = hw.questions.map(q => htmlElement(`
+                <section class="hw-ex">
+                    <p class="hw-ex-stem"><span class="hw-q-num">(${q.number})</span>${star(q)}<span class="hw-en">${blankHtml(q.text)}</span></p>
+                    <p class="hw-correct">正解 ${q.answer}　<span class="hw-en">${esc(q.choices[q.answer - 1])}</span></p>
+                    <p class="hw-ex-line"><span class="hw-label">訳：</span>${esc(q.translation)}</p>
+                    <p class="hw-ex-line"><span class="hw-label">解説：</span>${esc(q.explanation)}</p>
+                    <p class="hw-ex-notes">選択肢：${q.choiceNotes.map(esc).join('　/　')}</p>
+                    <p class="hw-tip"><strong>講師のひとこと：</strong>${esc(q.tip)}</p>
+                </section>`));
+        const nextHtml = next ? `
+                    <div class="hw-next">
+                        <div class="hw-next-text">
+                            <strong>次回の授業：${esc(jaDate(next.date))}</strong>
+                            <span>${esc(next.title)}</span>
+                            <span>QRコードを読み取って、次回の単語をフラッシュカードで予習しておきましょう。</span>
+                        </div>
+                        <div class="qr-container hw-qr" data-url="${esc(next.url)}" data-size="84"></div>
+                    </div>` : '';
+        explanationItems.push(htmlElement(`
+                <div class="hw-bottom">
+                    <div class="hw-closing"><strong>講師から生徒へのひとこと</strong><p>${esc(hw.closing)}</p></div>${nextHtml}
+                </div>`));
+        wrap.innerHTML = `
+            <article class="hw-page hw-page-questions">
+                ${running('宿題プリント')}
+                <header class="hw-title">
+                    <h2>${esc(title)}</h2>
+                    <p>宿題プリント　${esc(hw.title)}</p>
+                </header>
+                <div class="hw-name-row"><span>名前</span><b class="hw-name"></b><span>提出日</span><b class="hw-date">${next ? esc(jaDate(next.date)) : '　　月　　日'}</b></div>
+                <h3 class="hw-h">この宿題のねらい</h3>
+                <p class="hw-aim">${esc(hw.aim)}</p>
+                <ul class="hw-goals">${hw.goals.map(g => `<li>□ ${esc(g)}</li>`).join('')}</ul>
+                <h3 class="hw-h">Part 1　短文の語句空所補充</h3>
+                <p class="hw-instruction">${esc(hw.instruction)}</p>
+                <div class="hw-flow hw-questions"></div>
+                <div class="hw-page-no">1</div>
+            </article>
+            <article class="hw-page hw-page-questions">
+                ${running('宿題プリント')}
+                <div class="hw-flow hw-questions"></div>
+                <div class="hw-page-no">2</div>
+            </article>
+            <article class="hw-page hw-page-answers">
+                ${running('解答・解説')}
+                <div class="hw-key-row"><h3 class="hw-h">解答・解説</h3><div class="hw-key">${hw.questions.map(q => `<span><i>(${q.number})</i><b>${q.answer}</b></span>`).join('')}</div></div>
+                <div class="hw-flow hw-ex-list"></div>
+                <div class="hw-page-no">3</div>
+            </article>
+            <article class="hw-page hw-page-answers">
+                ${running('解答・解説')}
+                <div class="hw-flow hw-ex-list"></div>
+                <div class="hw-page-no">4</div>
+            </article>`;
+        return {
+            wrap,
+            questionAreas: [...wrap.querySelectorAll('.hw-page-questions .hw-flow')],
+            explanationAreas: [...wrap.querySelectorAll('.hw-page-answers .hw-flow')],
+            questionItems,
+            explanationItems
+        };
+    }
+
     // ===== Generate QR Codes =====
     async function generateAllQRCodes() {
         const containers = printContent.querySelectorAll('.qr-container');
         for (const container of containers) {
             const url = container.dataset.url;
+            const size = Number(container.dataset.size) || 80;
             try {
                 new QRCode(container, {
                     text: url,
-                    width: 80,
-                    height: 80,
+                    width: size,
+                    height: size,
                     colorDark: '#1a1a1a',
                     colorLight: '#ffffff',
                     correctLevel: QRCode.CorrectLevel.M

@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2026-2",
+    "title": "文法事項の確認",
+    "theme": "同格・時間の構文・連鎖関係詞・前置詞＋関係詞",
+    "aim": "授業で学んだ同格表現、It took ... before、主語になる動名詞句、連鎖関係詞、what are known as、前置詞＋関係代名詞＋不定詞、否定の分詞構文を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "名詞の内容を説明する同格の that・whether と関係代名詞を見分けられる",
+        "It took＋時間＋before ～ を「～するまでに」と訳せる",
+        "S believe などが挿入された関係代名詞の格を判断できる",
+        "前置詞＋関係代名詞＋不定詞と、Not＋分詞の形を見抜ける"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "As the deadline approached, fears grew (　) the new system would not be ready in time.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "whether"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "締め切りが近づくにつれて、新しいシステムが間に合わないのではないかという不安が高まった。",
+            "explanation": "fears（不安）の内容を説明する同格の that。名詞 fears と that 節が、動詞 grew をはさんで離れている。that 以下は完全な文。",
+            "choiceNotes": [
+                "which「関係代名詞・後ろは不完全」",
+                "what「～こと・後ろは不完全」",
+                "that「～という（同格）」",
+                "whether「～かどうか」"
+            ],
+            "tip": "授業の concerns reemerged that ... と同じ形。that がどの名詞の中身かを前に戻って探す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The committee spent hours on the question of (　) the museum should do with the damaged paintings.",
+            "choices": [
+                "that",
+                "what",
+                "which",
+                "how"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "委員会は、損傷した絵画を美術館がどうすべきかという問題に何時間も費やした。",
+            "explanation": "the question of＋疑問詞節で「～という問題」。do with ～ の目的語が欠けているので、名詞の働きをする what が入る。",
+            "choiceNotes": [
+                "that「同格・後ろは完全な文」",
+                "what「何を（名詞の働き）」",
+                "which「どちらを・関係代名詞」",
+                "how「どのように（副詞）」"
+            ],
+            "tip": "日本語は「どうすべきか」でも how ではない。do with の目的語があるかを確かめる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The report raised the question of (　) the project should continue without more funding.",
+            "choices": [
+                "what",
+                "that",
+                "which",
+                "whether"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その報告書は、追加の資金なしでその事業を続けるべきかどうかという問題を提起した。",
+            "explanation": "the question of＋whether 節（間接疑問）。後ろは欠けている要素のない完全な文で、「続けるべきかどうか」を表すので whether が入る。",
+            "choiceNotes": [
+                "what「何を（後ろは不完全）」",
+                "that「同格（of の後ろは不可）」",
+                "which「どちらを（後ろは不完全）」",
+                "whether「～かどうか」"
+            ],
+            "tip": "後ろが完全な文で「～かどうか」の意味なら whether、目的語が欠けていれば what。(2)と並べて見比べる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Despite the fact (　) he had little experience, he was chosen to lead the team.",
+            "choices": [
+                "that",
+                "which",
+                "what",
+                "when"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "経験がほとんどないという事実にもかかわらず、彼はチームを率いる役に選ばれた。",
+            "explanation": "the fact that S V で「SがVするという事実」。that 以下は欠けている要素のない完全な文で、fact の内容を説明する同格の that。",
+            "choiceNotes": [
+                "that「～という（同格）」",
+                "which「関係代名詞・後ろは不完全」",
+                "what「～こと（先行詞を含む）」",
+                "when「～するとき」"
+            ],
+            "tip": "fact・news・idea などの後ろの that は同格になりやすい。「～という○○」と訳して確かめる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "It took the engineers more than five years of testing (　) the new engine was approved for use.",
+            "choices": [
+                "before",
+                "since",
+                "after",
+                "unless"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "新しいエンジンが使用を認められるまでに、技術者たちは5年以上の試験を要した。",
+            "explanation": "It took＋人＋時間＋before S V で「SがVするまでに（人が）～かかった」。before は「～する前に」ではなく「～するまでに」と訳す。",
+            "choiceNotes": [
+                "before「～するまでに」",
+                "since「～以来」",
+                "after「～の後で」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の it took nearly a hundred years ... before と同じ形。「まで」を入れると自然な訳になる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Experts say it will not be long (　) electric cars outsell gasoline-powered ones.",
+            "choices": [
+                "when",
+                "since",
+                "that",
+                "before"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "専門家によると、まもなく電気自動車がガソリン車より多く売れるようになるという。",
+            "explanation": "It will not be long before S V で「まもなくSがVするだろう」。before の後ろは、未来のことでも現在形の outsell で表す。",
+            "choiceNotes": [
+                "when「～するとき」",
+                "since「～以来」",
+                "that「～ということ」",
+                "before「～するまでに」"
+            ],
+            "tip": "授業の It will be a long time before ～ の否定形。「長くはかからない＝まもなく」と考える。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "(　) whether the plan will work is difficult at this early stage.",
+            "choices": [
+                "Judged",
+                "Judging",
+                "Judge",
+                "Judges"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "この初期の段階で、その計画がうまくいくかどうかを判断するのは難しい。",
+            "explanation": "Judging whether ... work までが主語の動名詞句で、動詞は is。主語が長いので、is の直前で区切って読む。",
+            "choiceNotes": [
+                "Judged「判断された」",
+                "Judging「判断すること（動名詞）」",
+                "Judge「判断する（原形）」",
+                "Judges「判断する（3単現）」"
+            ],
+            "tip": "授業の Determining whether ... is a complex process と同じ形。動詞 is を先に見つける。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "The company finally hired a designer (　) the manager believed could attract younger customers.",
+            "choices": [
+                "who",
+                "whom",
+                "whose",
+                "what"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その会社はついに、若い客を引きつけられると責任者が考えたデザイナーを雇った。",
+            "explanation": "the manager believed をはさむ連鎖関係詞節。取り除くと who could attract ... となり、could attract の主語なので主格の who。",
+            "choiceNotes": [
+                "who「主格」",
+                "whom「目的格」",
+                "whose「所有格」",
+                "what「先行詞を含む」"
+            ],
+            "tip": "believed の目的語と考えて whom にするのが典型的なミス。挿入部分を（　）でくくる。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Visitors are advised to avoid the area (　) the local government says is unsafe after dark.",
+            "choices": [
+                "where",
+                "what",
+                "which",
+                "who"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "観光客は、暗くなると危険だと地元の自治体が言っている地域を避けるよう勧められている。",
+            "explanation": "the local government says を取り除くと the area which is unsafe after dark。関係代名詞は is unsafe の主語なので which。",
+            "choiceNotes": [
+                "where「関係副詞・後ろは完全な文」",
+                "what「先行詞を含む」",
+                "which「主格・物」",
+                "who「主格・人」"
+            ],
+            "tip": "where を選ぶと is unsafe の主語がなくなる。挿入部分を（　）でくくって確かめる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The new program targets (　) are known as \"food deserts,\" areas with few grocery stores.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "where"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その新しい計画は、食料品店がほとんどない地域、いわゆる「フードデザート」を対象としている。",
+            "explanation": "what are known as ～ で「いわゆる～」。what は先行詞を含む関係代名詞で are known as の主語。what 以下全体が targets の目的語になる。",
+            "choiceNotes": [
+                "which「先行詞が必要」",
+                "what「～もの（先行詞を含む）」",
+                "that「先行詞が必要」",
+                "where「場所の関係副詞」"
+            ],
+            "tip": "授業の what are known as able-bodied adults と同じ形。「いわゆる」とセットで覚える。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The volunteers were looking for a safe place (　) which to store the donated food.",
+            "choices": [
+                "by",
+                "of",
+                "in",
+                "for"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ボランティアたちは、寄付された食料を保管するための安全な場所を探していた。",
+            "explanation": "〈前置詞＋関係代名詞＋to不定詞〉で「その中に食料を保管するための場所」。store the food in a safe place の in が which の前に出た形。",
+            "choiceNotes": [
+                "by「～のそばに・～によって」",
+                "of「～の」",
+                "in「～の中に」",
+                "for「～のために」"
+            ],
+            "tip": "授業の a base from which to intercept と同じ構造。前置詞は元の文に戻して決める。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "After moving to a new city, she finally found a friend (　) whom to share her worries.",
+            "choices": [
+                "to",
+                "for",
+                "by",
+                "with"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "新しい町に引っ越した後、彼女はようやく悩みを打ち明けられる友人を見つけた。",
+            "explanation": "share her worries with a friend の with が whom の前に出た〈前置詞＋関係代名詞＋to不定詞〉。「悩みを打ち明ける相手となる友人」。",
+            "choiceNotes": [
+                "to「～へ」",
+                "for「～のために」",
+                "by「～によって」",
+                "with「～と（share A with B）」"
+            ],
+            "tip": "この問題の前置詞は動詞 share とのセットで決まる。share A with B を思い出せば with が選べる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) invited to the meeting, the new staff members waited in the hallway.",
+            "choices": [
+                "No",
+                "Not",
+                "Without",
+                "Don't"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "会議に招かれなかったので、新しい職員たちは廊下で待っていた。",
+            "explanation": "受動の分詞構文 Invited to the meeting を否定するときは、分詞の直前に Not を置く。",
+            "choiceNotes": [
+                "No「名詞の前に置く」",
+                "Not「分詞構文の否定」",
+                "Without「後ろは名詞・動名詞」",
+                "Don't「命令文などで使う」"
+            ],
+            "tip": "授業の Not held in a standard prison と同じ形。Not＋分詞をひとまとまりで覚える。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "(　) knowing what to say, the student simply smiled and nodded.",
+            "choices": [
+                "Not",
+                "No",
+                "Nor",
+                "None"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "何と言えばよいか分からなかったので、その生徒はただほほえんでうなずいた。",
+            "explanation": "能動の分詞構文 Knowing what to say を否定するときも、分詞の直前に Not を置く。(13)の Not invited と同じ規則。",
+            "choiceNotes": [
+                "Not「分詞構文の否定」",
+                "No「名詞の前に置く」",
+                "Nor「～もまた…ない」",
+                "None「だれも～ない」"
+            ],
+            "tip": "Not knowing ～「～が分からなくて」は物語文でもよく使われる。ひとまとまりで覚える。"
+        }
+    ],
+    "closing": "準1級の筆記では文法だけを問う問題はほとんどありませんが、長文を正確に読むには文全体の骨組みをつかむ力が欠かせません。今回の形は長文でもくり返し出てきます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

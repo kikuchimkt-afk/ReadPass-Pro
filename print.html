@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ReadPass Pro — 過去問プリント作成</title>
   <meta name="description" content="ReadPass Pro - 英語資格試験リーディングの過去問プリント作成ツール">
-  <link rel="stylesheet" href="print.css?v=20261013-grammar-guide-v1">
+  <link rel="stylesheet" href="print.css?v=20261014-homework-v1">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
 
@@ -36,9 +36,9 @@
 
       <div class="fixed-exam-notice" id="fixedExamNotice" hidden></div>
 
-      <!-- Teacher materials: pre-built grammar guide PDFs (output/pdf/grammar_guides.json) -->
+      <!-- Teacher materials: grammar guide PDFs (output/pdf/grammar_guides.json) and homework prints (data/homework/index.json) -->
       <div class="setting-group teacher-materials" id="teacherMaterials" hidden>
-        <label class="setting-label">講師用資料</label>
+        <label class="setting-label">講師用資料・宿題プリント</label>
         <div class="teacher-material-list" id="teacherMaterialList"></div>
       </div>
 
@@ -86,7 +86,33 @@
     <div id="printContent"></div>
   </div>
 
-  <script src="print.js?v=20261013-grade5-2026-2-v1"></script>
+  <!-- ===== Homework dialog: next lesson date and session for the flash-card QR ===== -->
+  <dialog class="hw-dialog" id="homeworkDialog" aria-labelledby="hwDialogTitle">
+    <form id="homeworkForm" method="dialog">
+      <h2 class="hw-dialog-title" id="hwDialogTitle">宿題プリントを作成</h2>
+      <p class="hw-dialog-target">対象：<strong id="hwTarget"></strong></p>
+      <p class="hw-dialog-help">解説の最後（4ページ目）に、次回の授業日と、次回扱う回の単語フラッシュカードのQRコードを入れます。</p>
+      <label class="hw-field">
+        <span>次回の授業日</span>
+        <input type="date" id="hwNextDate" required>
+      </label>
+      <fieldset class="hw-fieldset" id="hwGradeField">
+        <legend>次回の級</legend>
+        <div class="hw-radio-grid" id="hwGradeOptions"></div>
+      </fieldset>
+      <fieldset class="hw-fieldset" id="hwExamField">
+        <legend>次回の回（実装済みの回・新しい順）</legend>
+        <div class="hw-radio-grid hw-exam-grid" id="hwExamOptions"></div>
+      </fieldset>
+      <label class="hw-check"><input type="checkbox" id="hwNoNext"> 次回の案内とQRコードを入れない</label>
+      <div class="hw-dialog-actions">
+        <button type="button" class="btn hw-cancel" id="hwCancel">キャンセル</button>
+        <button type="submit" class="btn btn-primary" id="hwCreate">作成する</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="print.js?v=20261014-homework-v1"></script>
 </body>
 
 </html>
