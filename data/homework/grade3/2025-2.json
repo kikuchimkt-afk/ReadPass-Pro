@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "現在完了・不定詞・熟語のセット・つなぎのことば",
+    "aim": "授業で学んだ現在完了・付加疑問文・不定詞と、熟語のセットやつなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "現在完了の形と、「～したでしょ？」の言い方がわかる",
+        "「何か飲むもの」のような不定詞や、熟語のセットを書ける",
+        "「～だけれども」「捨てる」「投げ合う」の言い方がわかる"
+    ],
+    "words": [
+        {
+            "word": "lend",
+            "meaning": "貸す"
+        },
+        {
+            "word": "enough",
+            "meaning": "十分な"
+        },
+        {
+            "word": "absent",
+            "meaning": "欠席の"
+        },
+        {
+            "word": "aquarium",
+            "meaning": "水族館"
+        },
+        {
+            "word": "festival",
+            "meaning": "祭り"
+        },
+        {
+            "word": "celebrate",
+            "meaning": "祝う"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Do you have anything to drink?",
+            "ja": "何か飲むものはありますか。",
+            "focus": "fp1",
+            "point": "anything to drink「何か飲むもの」",
+            "note": "to drink が前の anything を説明して「何か飲むもの」の意味になる。この to のあとは動詞の原形。"
+        },
+        {
+            "en": "Yuki was looking forward to going to the concert.",
+            "ja": "ユキはコンサートに行くのを楽しみにしていました。",
+            "focus": "fp2",
+            "point": "look forward to ～ing「～を楽しみにする」",
+            "note": "look forward to のあとは名詞か ing 形。going to the concert で「コンサートに行くこと」。"
+        },
+        {
+            "en": "People throw away all of the tomatoes.",
+            "ja": "人々はトマトを全部捨ててしまいます。",
+            "focus": "fp4",
+            "point": "throw away「捨てる」",
+            "note": "throw は「投げる」、throw away は「捨てる」。トマトを捨ててしまうことが、祭りをよく思わない人の理由の一つ。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My little brother has (　) a lot since last year.",
+            "choices": [
+                "grow",
+                "grew",
+                "grown",
+                "growing"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "弟は去年からずいぶん大きくなりました。",
+            "explanation": "has＋過去分詞は現在完了。grow（育つ・育てる）は grow-grew-grown と変化するので、has のあとは過去分詞の grown にする。",
+            "choiceNotes": [
+                "grow「原形」",
+                "grew「過去形」",
+                "grown「過去分詞」",
+                "growing「ing形」"
+            ],
+            "tip": "授業の the tomato plant she has grown と同じ grown。grow-grew-grown と覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Mom, you made this cake, (　) you?",
+            "choices": [
+                "don't",
+                "didn't",
+                "weren't",
+                "aren't"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "お母さん、このケーキを作ったんでしょ？",
+            "explanation": "「～したでしょ？」と確かめる付加疑問文。前の文は一般動詞の過去形 made を使った肯定の文なので、didn't you? にする。",
+            "choiceNotes": [
+                "don't「一般動詞・現在」",
+                "didn't「一般動詞・過去」",
+                "weren't「be動詞・過去」",
+                "aren't「be動詞・現在」"
+            ],
+            "tip": "授業の Bob, you walked the dog, didn't you? と同じ形。made も過去形なので didn't。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "I have a lot of homework (　) tonight.",
+            "choices": [
+                "do",
+                "did",
+                "doing",
+                "to do"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "今夜やる宿題がたくさんあります。",
+            "explanation": "to do が前の homework を後ろから説明して「やるべき宿題」となる。to＋動詞の原形は、このように名詞を説明して「～するための・～すべき」の意味を表すことがある。",
+            "choiceNotes": [
+                "do「原形」",
+                "did「過去形」",
+                "doing「ing形」",
+                "to do「to＋原形」"
+            ],
+            "tip": "授業の anything to drink（何か飲むもの）と同じ形。homework to do で「やる宿題」。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "I'm looking forward to (　) you again.",
+            "choices": [
+                "seeing",
+                "see",
+                "saw",
+                "seen"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "またあなたに会えるのを楽しみにしています。",
+            "explanation": "look forward to ～で「～を楽しみにする」。この to は前置詞なので、あとの動詞は ing 形にする。",
+            "choiceNotes": [
+                "seeing「ing形」",
+                "see「原形」",
+                "saw「過去形」",
+                "seen「過去分詞」"
+            ],
+            "tip": "授業の looking forward to going と同じ形。この to のあとは ing 形になることに注意しよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: Why are you running?\nB: I'm in a (　). My bus leaves soon.",
+            "choices": [
+                "time",
+                "minute",
+                "hurry",
+                "trip"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：どうして走っているの？\nB：急いでいるんだ。バスがもうすぐ出るから。",
+            "explanation": "in a hurry で「急いでいる」。バスがもうすぐ出るので、走っている理由として合う。",
+            "choiceNotes": [
+                "time「時間」",
+                "minute「分」",
+                "hurry「in a hurry のセット」",
+                "trip「旅行」"
+            ],
+            "tip": "授業の She's always in a hurry, ... と同じ形。in a hurry をひとまとまりで覚えよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "The children threw snowballs (　) each other.",
+            "choices": [
+                "at",
+                "of",
+                "in",
+                "from"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "子どもたちは雪玉を投げ合いました。",
+            "explanation": "throw A at B で「AをBに向けて投げる」。at each other で「おたがいに向けて」となり、「投げ合う」の意味になる。",
+            "choiceNotes": [
+                "at「～に向けて」",
+                "of「～の」",
+                "in「～の中に」",
+                "from「～から」"
+            ],
+            "tip": "授業のラ・トマティーナの throwing tomatoes at each other と同じ形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "(　) Ken is only six, he can read English books.",
+            "choices": [
+                "Because",
+                "Although",
+                "So",
+                "But"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ケンはまだ6歳だけれども、英語の本を読むことができます。",
+            "explanation": "Although ～, … で「～だけれども…」。「まだ6歳」なのに「英語の本が読める」という意外な内容。Because は意味が合わず、But・So はこの位置で2つの文をつなげない。",
+            "choiceNotes": [
+                "Because「～なので（理由）」",
+                "Although「～だけれども」",
+                "So「だから」",
+                "But「しかし」"
+            ],
+            "tip": "授業の Although La Tomatina is famous, ... と同じ形。前から予想することと逆の内容が続くときに使う。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Can I throw these old shoes (　)?\nB: No. I still wear them.",
+            "choices": [
+                "of",
+                "for",
+                "from",
+                "away"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：この古いくつを捨ててもいい？\nB：だめ。まだはいているの。",
+            "explanation": "throw away で「捨てる」。these old shoes のような名詞は、throw と away の間に置くこともできる。",
+            "choiceNotes": [
+                "of「～の」",
+                "for「～のために」",
+                "from「～から」",
+                "away「throw away で捨てる」"
+            ],
+            "tip": "授業の People throw away all of the tomatoes. と同じ throw away。"
+        }
+    ],
+    "closing": "今日は、現在完了や不定詞、熟語のセットを、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。授業で読んだラ・トマティーナのように、世界にはいろいろなお祭りがあります。英語を通して、ほかの国のことも少しずつ知っていきましょう。"
+}

@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・付加疑問・名詞を後ろから説明する形",
+    "aim": "授業で学んだ熟語のセット、付加疑問、名詞を後ろから説明する形、前置詞のあとの動詞の形を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「コップ1杯の」「いつものように」を英語で書ける",
+        "付加疑問の文と、名詞を後ろから説明する形がわかる",
+        "「迎えに行く」「ところで」「～せずに」などの言い方がわかる"
+    ],
+    "words": [
+        {
+            "word": "entrance",
+            "meaning": "入口"
+        },
+        {
+            "word": "necessary",
+            "meaning": "必要な"
+        },
+        {
+            "word": "contact",
+            "meaning": "連絡する"
+        },
+        {
+            "word": "discover",
+            "meaning": "発見する"
+        },
+        {
+            "word": "popular",
+            "meaning": "人気のある"
+        },
+        {
+            "word": "storm",
+            "meaning": "嵐"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "May I have a glass of water?",
+            "ja": "コップ1杯の水をもらえますか。",
+            "focus": "fp1",
+            "point": "a glass of「コップ1杯の～」",
+            "note": "水や牛乳などの量は、入れ物を使って表すことが多い。a glass of water で「コップ1杯の水」。"
+        },
+        {
+            "en": "This is the window broken by the storm last night.",
+            "ja": "これは昨夜の嵐でこわれた窓です。",
+            "focus": "fp2",
+            "point": "名詞＋過去分詞「～された…」",
+            "note": "broken by the storm last night が後ろから the window を説明する。「嵐でこわされた窓」という意味。"
+        },
+        {
+            "en": "The lakes are often covered with ice in winter.",
+            "ja": "冬は、湖が氷でおおわれていることが多いです。",
+            "focus": "fp4",
+            "point": "be covered with「～でおおわれている」",
+            "note": "be covered with ～で「～でおおわれている」。何でおおわれているかを with のあとに置く。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I drink a (　) of milk every morning.",
+            "choices": [
+                "piece",
+                "glass",
+                "slice",
+                "pair"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "私は毎朝、コップ1杯の牛乳を飲みます。",
+            "explanation": "a glass of ～で「コップ1杯の～」。milk のような飲み物は、glass などの入れ物を使って量を表すことが多い。",
+            "choiceNotes": [
+                "piece「1切れ・1枚」",
+                "glass「コップ1杯」",
+                "slice「うすい1切れ」",
+                "pair「1組・1足」"
+            ],
+            "tip": "授業の May I have a glass of water? と同じ形。a glass of をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My father came home late (　) usual last night.",
+            "choices": [
+                "than",
+                "for",
+                "at",
+                "as"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "昨夜、父はいつものように帰りが遅かったです。",
+            "explanation": "as usual で「いつものように」。ふだんと同じことが今回も起きたときに使う。than は later のような比較級のあとに置く。",
+            "choiceNotes": [
+                "than「比較級のあとで使う」",
+                "for「～のために」",
+                "at「～に（時刻など）」",
+                "as「as usual のセット」"
+            ],
+            "tip": "授業の He's late as usual. と同じ形。as usual をひとまとまりで覚えよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Mr. Green can speak Japanese, (　) he?",
+            "choices": [
+                "can't",
+                "isn't",
+                "doesn't",
+                "won't"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "グリーンさんは日本語を話せますよね。",
+            "explanation": "文の最後に付けて「～ですよね」と確かめる付加疑問。前の文に can があるので否定の can't を使い、Mr. Green は he で受ける。",
+            "choiceNotes": [
+                "can't「can の否定」",
+                "isn't「is の否定」",
+                "doesn't「does の否定」",
+                "won't「will の否定」"
+            ],
+            "tip": "授業の Lucy is busy, isn't she? と同じ考え方。is なら isn't、can なら can't になる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "This is a book (　) in easy English.",
+            "choices": [
+                "writes",
+                "wrote",
+                "written",
+                "writing"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "これはやさしい英語で書かれた本です。",
+            "explanation": "written in easy English が後ろから a book を説明する。本は「書かれる」ものなので、過去分詞の written を使う。",
+            "choiceNotes": [
+                "writes「3単現」",
+                "wrote「過去形」",
+                "written「過去分詞」",
+                "writing「ing形」"
+            ],
+            "tip": "授業の the window broken by the storm と同じ形。名詞のあとに過去分詞が続く。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: How will you get home after the concert?\nB: My dad will pick me (　) at the station.",
+            "choices": [
+                "up",
+                "on",
+                "to",
+                "for"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：コンサートのあと、どうやって家に帰るの？\nB：父が駅まで迎えに来てくれるよ。",
+            "explanation": "pick ～ up で「～を（車などで）迎えに行く」。me のような代名詞は、pick と up の間に入れる。",
+            "choiceNotes": [
+                "up「pick up のセット」",
+                "on「～の上に」",
+                "to「～へ」",
+                "for「～のために」"
+            ],
+            "tip": "授業の Should my dad and I pick you up ...? と同じ形。代名詞は pick と up の間に入れよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: That was a fun movie.\nB: Yes. Oh, (　) the way, are you free tomorrow?",
+            "choices": [
+                "in",
+                "for",
+                "at",
+                "by"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：楽しい映画だったね。\nB：うん。ところで、明日はひま？",
+            "explanation": "by the way で「ところで」。話題を変えるときに使う。映画の話から、明日の予定の話に変わっている。",
+            "choiceNotes": [
+                "in「～の中に」",
+                "for「～のために」",
+                "at「～に（場所・時刻）」",
+                "by「by the way のセット」"
+            ],
+            "tip": "授業の By the way, I lost my memo about the contest. と同じ。話が変わる合図になる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "The ground was covered (　) snow this morning.",
+            "choices": [
+                "at",
+                "with",
+                "to",
+                "of"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "今朝、地面は雪でおおわれていました。",
+            "explanation": "be covered with ～で「～でおおわれている」。何でおおわれているかを with のあとに置く。",
+            "choiceNotes": [
+                "at「～に（場所・時刻）」",
+                "with「covered with のセット」",
+                "to「～へ」",
+                "of「～の」"
+            ],
+            "tip": "授業の The lakes are often covered with ice in winter. と同じ形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "Ben went home without (　) goodbye to us.",
+            "choices": [
+                "say",
+                "said",
+                "saying",
+                "to say"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "ベンは私たちにさよならを言わずに家に帰りました。",
+            "explanation": "without ～ing で「～しないで・～せずに」。without のような前置詞のあとの動詞は ing の形にする。",
+            "choiceNotes": [
+                "say「原形」",
+                "said「過去形」",
+                "saying「ing形」",
+                "to say「to＋原形」"
+            ],
+            "tip": "授業の without noticing the people と同じ形。without のあとの動詞は ing 形。"
+        }
+    ],
+    "closing": "英語には、いくつかの語をひとまとまりで使う言い方がたくさんあります。今日書いた熟語や例文は、声に出して読みながら、もう一度ノートに書いてみましょう。まちがえた問題は、解説と授業の英文を見比べて、同じ形をさがしてみてください。"
+}
