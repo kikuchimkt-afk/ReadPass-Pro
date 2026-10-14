@@ -26,6 +26,22 @@ const TARGET={chip:'準1級',grade:'pre-grade1',exam:'2026-2',title:'英検準1�
     assert.match(await row.innerText(),new RegExp(`A4縦4ページ（問題${hw.questions.length}問・うち全訳${hw.questions.filter(q=>q.translate).length}問：問題2ページ・解答解説2ページ）`));
     // The grammar-guide row keeps its own selector for the existing tests.
     assert.equal(await page.locator(`.teacher-material-row[data-exam="${TARGET.exam}"]`).count(),1);
+    // The past-exam PDF row comes first, and the panel sits above the fixed-PDF notice.
+    const fixedRow=page.locator(`.teacher-material-row[data-fixed-exam="${TARGET.exam}"]`);
+    assert.match(await fixedRow.innerText(),/過去問PDF（問題・正解一覧）/);
+    assert.equal(await page.locator('#teacherMaterialList .teacher-material-row').first().getAttribute('data-fixed-exam'),TARGET.exam);
+    const fixedLinks=fixedRow.locator('a');
+    assert.deepEqual(await fixedLinks.allTextContents(),['閲覧','DL']);
+    const fixedHref=await fixedLinks.first().getAttribute('href');
+    assert.match(fixedHref,/^output\/pdf\/ReadPass_EIKEN_GradePre1_2026-2_Practice_Exam/);
+    assert.ok(await fixedLinks.nth(1).getAttribute('download'));
+    const fixedPdf=await page.request.get(`${base}/${fixedHref}`);
+    assert.equal(fixedPdf.status(),200);
+    assert.equal((await fixedPdf.body()).subarray(0,5).toString(),'%PDF-');
+    assert.ok(await page.evaluate(()=>{
+      const panel=document.getElementById('teacherMaterials'),notice=document.getElementById('fixedExamNotice');
+      return Boolean(panel.compareDocumentPosition(notice)&Node.DOCUMENT_POSITION_FOLLOWING)&&!notice.hidden;
+    }),'materials panel above the fixed-PDF notice');
 
     // Dialog defaults: next week, same grade, the next older session.
     await row.locator('.homework-open').click();

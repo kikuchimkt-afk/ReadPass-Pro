@@ -1224,21 +1224,37 @@
         renderTeacherMaterials();
     }
 
-    // ===== Teacher materials: grammar guide (閲覧 / DL) and homework print (作成) per selected exam =====
+    // ===== Materials per selected exam: past-exam PDF and grammar guide (閲覧 / DL), homework print (作成) =====
     function renderTeacherMaterials() {
         const rows = selectedGrade
             ? getSelectedExams()
                 .map(examId => ({
                     examId,
+                    fixed: FIXED_EXAM_PDFS[`${selectedGrade.id}/${examId}`],
                     guide: grammarGuides[`${selectedGrade.id}/${examId}`],
                     homework: homeworkIndex[`${selectedGrade.id}/${examId}`]
                 }))
-                .filter(row => row.guide || row.homework)
+                .filter(row => row.fixed || row.guide || row.homework)
             : [];
         teacherMaterials.hidden = rows.length === 0;
-        teacherMaterialList.innerHTML = rows.map(({ examId, guide, homework }) => {
+        teacherMaterialList.innerHTML = rows.map(({ examId, fixed, guide, homework }) => {
             const examLabel = selectedGrade.exams.find(e => e.id === examId)?.label || examId;
             let html = '';
+            if (fixed) {
+                html += `
+                <div class="teacher-material-row" data-fixed-exam="${esc(examId)}">
+                    <div class="teacher-material-info">
+                        <strong>過去問PDF（問題・正解一覧）</strong>
+                        <span>${esc(examLabel)} ／ A4縦${fixed.pages}ページ（正解一覧は最終ページ）</span>
+                    </div>
+                    <div class="teacher-material-actions">
+                        <a href="${esc(fixed.path)}" target="_blank" rel="noopener"
+                           aria-label="${esc(examLabel)}の過去問PDFを閲覧">閲覧</a>
+                        <a class="download" href="${esc(fixed.path)}" download="${esc(fixed.downloadName)}"
+                           aria-label="${esc(examLabel)}の過去問PDFをダウンロード">DL</a>
+                    </div>
+                </div>`;
+            }
             if (guide) {
                 const pagesText = guide.pages === guide.focusPoints
                     ? `A4縦${guide.pages}枚（1枚に1つの文法事項）`

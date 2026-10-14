@@ -13,14 +13,36 @@ Usage:
     python scripts/build_homework.py --check   # validate and confirm the index is current
 """
 import argparse
+import difflib
 import json
 from pathlib import Path
+import re
 import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 HOMEWORK = ROOT / "data/homework"
 INDEX = HOMEWORK / "index.json"
 BLANK = "(　)"
+SIMILAR = 0.75  # a homework sentence this close to an exam sentence is treated as copied
+
+
+def normalized(text):
+    text = re.sub(r"\(\s*\d*\s*\)|\(　\)", " ___ ", text)
+    return re.sub(r"\s+", " ", text).strip().lower()
+
+
+def grade_sentences(grade):
+    """Every question text, stem and passage sentence of all exams of a grade (past papers)."""
+    sentences = []
+    for data_path in sorted((ROOT / "data" / grade).glob("*/data.json")):
+        data = json.loads(data_path.read_text(encoding="utf-8"))
+        for section in data["sections"]:
+            sentences += [q.get("text") or q.get("question", "") for q in section.get("questions", [])]
+            for passage in section.get("passages", []):
+                sentences += [row[0] for row in passage.get("sentencePairs", [])]
+                sentences += [q.get("question", "") for q in passage.get("questions", [])]
+        sentences = [s for s in sentences if s]
+    return [(normalized(s), s) for s in sentences]
 
 
 def validate(path):
@@ -39,7 +61,7 @@ def validate(path):
         return hw, errors
     data = json.loads(data_path.read_text(encoding="utf-8"))
     focus_ids = {fp["id"] for fp in data.get("lessonPlan", {}).get("focusPoints", [])}
-    exam_texts = {q.get("text", "") for s in data["sections"] for q in s.get("questions", [])}
+    past = grade_sentences(grade)
 
     for key, low, high in (("title", 2, 20), ("theme", 4, 30), ("aim", 40, 140), ("closing", 80, 200)):
         check(low <= len(hw.get(key, "")) <= high, f"{key} length {low}-{high}")
@@ -58,7 +80,9 @@ def validate(path):
         tag = f"Q{q.get('number')}"
         text = q.get("text", "")
         check(text.count(BLANK) == 1 and len(text) <= 120, tag + " one blank (　), at most 120 characters")
-        check(text not in exam_texts, tag + " is an original sentence, not the exam's")
+        mine = normalized(text)
+        ratio, closest = max(((difflib.SequenceMatcher(None, mine, n).ratio(), s) for n, s in past), default=(0, ""))
+        check(ratio < SIMILAR, f"{tag} is too close to a past-exam sentence ({ratio:.2f}): {closest[:60]}")
         choices = q.get("choices", [])
         check(len(choices) == 4 and len(set(choices)) == 4 and all(choices), tag + " four distinct choices")
         check(q.get("answer") in (1, 2, 3, 4), tag + " answer 1-4")

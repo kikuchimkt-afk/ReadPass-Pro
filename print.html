@@ -34,13 +34,14 @@
         </div>
       </div>
 
-      <div class="fixed-exam-notice" id="fixedExamNotice" hidden></div>
-
-      <!-- Teacher materials: grammar guide PDFs (output/pdf/grammar_guides.json) and homework prints (data/homework/index.json) -->
+      <!-- Per selected exam: fixed past-exam PDF, grammar guide PDF (output/pdf/grammar_guides.json)
+           and homework print (data/homework/index.json) -->
       <div class="setting-group teacher-materials" id="teacherMaterials" hidden>
-        <label class="setting-label">講師用資料・宿題プリント</label>
+        <label class="setting-label">過去問・講師用資料・宿題プリント</label>
         <div class="teacher-material-list" id="teacherMaterialList"></div>
       </div>
+
+      <div class="fixed-exam-notice" id="fixedExamNotice" hidden></div>
 
       <!-- Section Selection -->
       <div class="setting-group">
@@ -112,7 +113,7 @@
     </form>
   </dialog>
 
-  <script src="print.js?v=20261014-homework-v1"></script>
+  <script src="print.js?v=20261014-homework-v2"></script>
 </body>
 
 </html>
