@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "ばしょのことば・「～ではない」のぶん・かいわのいいかた",
+    "aim": "じゅぎょうでならった、ばしょをあらわすことば、「～ではない」のぶん、「だれの～？」のしつもんやさそうぶん、まい日つかうあいさつを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "ばしょをあらわすことばを、ただしくつかいわけられる",
+        "「～ではない」のぶんや、「わかった」のへんじがかける",
+        "「だれの～？」「～しよう」や、あいさつのことばがわかる"
+    ],
+    "words": [
+        {
+            "word": "floor",
+            "meaning": "ゆか"
+        },
+        {
+            "word": "welcome",
+            "meaning": "ようこそ"
+        },
+        {
+            "word": "bathroom",
+            "meaning": "トイレ"
+        },
+        {
+            "word": "together",
+            "meaning": "いっしょに"
+        },
+        {
+            "word": "dictionary",
+            "meaning": "じしょ"
+        },
+        {
+            "word": "sandwich",
+            "meaning": "サンドイッチ"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I play basketball at school.",
+            "ja": "わたしは、学校でバスケットボールをします。",
+            "focus": "fp1",
+            "point": "at school「学校で」",
+            "note": "ここでの at は「～で」と、ばしょをあらわす。at school で「学校で」といういみになる。"
+        },
+        {
+            "en": "Jack isn't a junior high school student.",
+            "ja": "ジャックは、ちゅうがくせいではありません。",
+            "focus": "fp2",
+            "point": "isn't「～ではない」",
+            "note": "isn't は is not のみじかいかたち。is のぶんを「～ではない」のいみにするときは、is のあとに not をつける。"
+        },
+        {
+            "en": "Let's check the homework together.",
+            "ja": "いっしょに、しゅくだいをチェックしよう。",
+            "focus": "fp3",
+            "point": "Let's＋もとのかたち「～しよう」",
+            "note": "Let's のあとに check（もとのかたち）をつづけると、「～しよう」とさそういいかたになる。together は「いっしょに」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Mom, where is my dictionary?\nB: It's (　) the floor.",
+            "choices": [
+                "at",
+                "to",
+                "on",
+                "of"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：おかあさん、ぼくのじしょはどこ？\nB：ゆかのうえにあるよ。",
+            "explanation": "ここでの on は「～のうえに」。じしょが ゆかのうえに おいてあるので、on the floor（ゆかのうえに）となる。",
+            "choiceNotes": [
+                "at「～で（ばしょ）」",
+                "to「～へ」",
+                "on「～のうえに」",
+                "of「～の」"
+            ],
+            "tip": "じゅぎょうの Sit down on the floor. とおなじ on。on the floor をセットでおぼえよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Welcome (　) our school, Emma.",
+            "choices": [
+                "to",
+                "on",
+                "of",
+                "for"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "エマ、わたしたちの学校へようこそ。",
+            "explanation": "Welcome to ～. で「～へようこそ」。きてくれた人をむかえるときのあいさつで、to のあとに ばしょなどをつづける。",
+            "choiceNotes": [
+                "to「～へ」",
+                "on「～のうえに」",
+                "of「～の」",
+                "for「～のために」"
+            ],
+            "tip": "じゅぎょうの Welcome to our sports club. とおなじかたち。Welcome to をセットでかこう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "My mother (　) at home now.",
+            "choices": [
+                "aren't",
+                "don't",
+                "doesn't",
+                "isn't"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしのおかあさんは、いま いえにいません。",
+            "explanation": "My mother は、わたし・あなた いがいのひとりなので is。「いない」は isn't（is not）になる。don't・doesn't のあとには、play などのうごきのことばがつづく。",
+            "choiceNotes": [
+                "aren't「are not」",
+                "don't「do not」",
+                "doesn't「does not」",
+                "isn't「is not」"
+            ],
+            "tip": "じゅぎょうの Jack isn't a junior high school student. とおなじ isn't。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Sorry, I'm busy now. I'm making dinner.\nB: Oh, I (　). That's OK.",
+            "choices": [
+                "look",
+                "see",
+                "watch",
+                "do"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：ごめんね、いまいそがしいの。ばんごはんをつくっているのよ。\nB：そうなんだ、わかった。だいじょうぶだよ。",
+            "explanation": "I see. は「わかった・なるほど」と、あいてのはなしがわかったときのへんじ。ここでの see は「みる」ではなく「わかる」のいみ。",
+            "choiceNotes": [
+                "look「みる（look at ～）」",
+                "see「I see.＝わかった」",
+                "watch「じっとみる」",
+                "do「する」"
+            ],
+            "tip": "じゅぎょうの I see. That's OK. とおなじへんじ。I see. をひとまとまりでおぼえよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: (　) shoes are these?\nB: They're Mika's.",
+            "choices": [
+                "Whose",
+                "Where",
+                "Who",
+                "When"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：これは、だれのくつ？\nB：ミカのだよ。",
+            "explanation": "Whose は「だれの」。Whose shoes で「だれのくつ」。B が Mika's（ミカのもの）と、もちぬしをこたえている。",
+            "choiceNotes": [
+                "Whose「だれの」",
+                "Where「どこ」",
+                "Who「だれ」",
+                "When「いつ」"
+            ],
+            "tip": "じゅぎょうの Whose dress is this? とおなじかたち。こたえの Mika's（ミカの）がヒント。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "Let's (　) lunch under that big tree.",
+            "choices": [
+                "eats",
+                "eating",
+                "eat",
+                "ate"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "あのおおきな木のしたで、ひるごはんをたべよう。",
+            "explanation": "Let's ～. で「～しよう」とさそういいかた。Let's のあとは、もとのかたちの eat をつかう。",
+            "choiceNotes": [
+                "eats「s がついたかたち」",
+                "eating「ing のかたち」",
+                "eat「もとのかたち」",
+                "ate「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Let's check the homework together. とおなじかたち。Let's のあとはもとのかたち。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: (　) me. What time is it now?\nB: It's ten thirty.",
+            "choices": [
+                "Sorry",
+                "Excuse",
+                "Thank",
+                "Look"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：すみません。いま、なんじですか。\nB：10じ30ぷんです。",
+            "explanation": "Excuse me. は「すみません」と、人にこえをかけるときのことば。あやまるときの「ごめんなさい」は I'm sorry. という。",
+            "choiceNotes": [
+                "Sorry「ごめんなさい」",
+                "Excuse「Excuse me＝すみません」",
+                "Thank「Thank you＝ありがとう」",
+                "Look「みて」"
+            ],
+            "tip": "じゅぎょうの Excuse me. Where's the bathroom? とおなじ。こえをかけてから、しつもんしよう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: I'm going out now. Bye, Mom.\nB: Bye, Ken. (　) a good day.",
+            "choices": [
+                "Take",
+                "Do",
+                "Go",
+                "Have"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：いまから、でかけるね。バイバイ、おかあさん。\nB：バイバイ、ケン。よい1日を。",
+            "explanation": "Have a good day. は「よい1日を」。人とわかれるときや、でかける人におくる、きまったあいさつ。",
+            "choiceNotes": [
+                "Take「とる・もっていく」",
+                "Do「する」",
+                "Go「いく」",
+                "Have「Have a good day のセット」"
+            ],
+            "tip": "じゅぎょうの Have a good day! とおなじあいさつ。いわれたら Thank you. や You too! とかえそう。"
+        }
+    ],
+    "closing": "えいごは、こえにだしてよみながら、てでかくと、おぼえやすくなります。きょうかいたたんごとれいぶんを、もういちどゆっくりよんでみましょう。おうちの人とのかいわでも、I see. や Have a good day! を、つかってみてください。"
+}
