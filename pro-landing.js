@@ -47,20 +47,36 @@
   },{threshold:0}).observe(gallery);
   buttonState();schedule();
   const mode=new URLSearchParams(location.search).get('study');
-  if(mode==='cards'||mode==='review'){
-    document.getElementById('gradeSectionTitle').textContent=mode==='cards'?'単語カードのレベルを選ぶ':'復習するレベルを選ぶ';
-    document.getElementById('gradeSectionDescription').textContent=mode==='cards'?'級と回を選んで、音声付きの単語フラッシュカードを開きます。':'級と回を選んで、文法・構文の学習ポイントを復習します。';
+  const copy={
+    cards:['単語カードのレベルを選ぶ','級と回を選んで、音声付きの単語フラッシュカードを開きます。'],
+    review:['復習するレベルを選ぶ','級と回を選んで、文法・構文の学習ポイントを復習します。'],
+    homework:['宿題プリントのレベルを選ぶ','級と回を選ぶと、次回の授業日を入れて宿題プリントを作成できます。宿題プリントがある回だけを表示します。']
+  }[mode];
+  if(copy){
+    document.getElementById('gradeSectionTitle').textContent=copy[0];
+    document.getElementById('gradeSectionDescription').textContent=copy[1];
     const list=document.getElementById('examList');
+    let homework=null; // data/homework/index.json, built by scripts/build_homework.py
     function updateLinks(){
       for(const a of list.querySelectorAll('.exam-card')){
         const url=new URL(a.href,location.href);
         if(mode==='cards')url.pathname=url.pathname.replace(/index\.html$/, 'vocab-cards.html');
+        else if(mode==='homework'){
+          // Homework prints are made in print.html, which opens the dialog for this grade and exam.
+          const grade=url.searchParams.get('grade'),exam=url.searchParams.get('exam');
+          if(homework&&!homework[grade+'/'+exam]){a.remove();continue;}
+          url.pathname=url.pathname.replace(/[^/]*$/,'print.html');url.search='';
+          url.searchParams.set('grade',grade);url.searchParams.set('exam',exam);url.searchParams.set('homework','1');
+        }
         else url.searchParams.set('study','review');
         if(a.href!==url.href)a.href=url.href;
       }
     }
     new MutationObserver(updateLinks).observe(list,{childList:true});
     updateLinks();
+    if(mode==='homework')fetch('data/homework/index.json',{cache:'no-cache'})
+      .then(r=>r.ok?r.json():{}).then(index=>{homework=index||{};updateLinks();})
+      .catch(()=>{});
   }
   for(const card of document.querySelectorAll('.grade-card:not(.disabled)')){
     card.setAttribute('role','button');card.tabIndex=0;

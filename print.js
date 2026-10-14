@@ -992,8 +992,28 @@
         .then(index => {
             homeworkIndex = index || {};
             renderTeacherMaterials();
+            openHomeworkFromUrl();
         })
         .catch(err => console.warn('宿題プリントの一覧を読み込めませんでした', err));
+
+    // Deep link from the top page's homework menu: print.html?grade=…&exam=…&homework=1
+    // selects the grade and exam, then opens the homework dialog.
+    function openHomeworkFromUrl() {
+        const params = new URLSearchParams(location.search);
+        const gradeId = params.get('grade');
+        const examId = params.get('exam');
+        if (params.get('homework') !== '1' || !homeworkIndex[`${gradeId}/${examId}`]) return;
+        const grades = EXAM_CATALOG.filter(g => g.exams.length);
+        const chip = gradeChips.querySelectorAll('.grade-chip')[grades.findIndex(g => g.id === gradeId)];
+        if (!chip) return;
+        chip.click();
+        const box = [...examCheckboxes.querySelectorAll('input[type="checkbox"]')].find(cb => cb.value === examId);
+        if (!box) return;
+        box.checked = true;
+        box.dispatchEvent(new Event('change'));
+        teacherMaterials.scrollIntoView({ block: 'center' });
+        openHomeworkDialog(examId);
+    }
 
     // ===== Render Grade Chips =====
     function renderGradeChips() {
