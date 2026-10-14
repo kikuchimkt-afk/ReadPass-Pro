@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-1",
+    "title": "文法事項の確認",
+    "theme": "倒置・形式主語・動名詞の主語・代替と理由の表現",
+    "aim": "授業で学んだ「～するだけでなく…も」の倒置と対比のつなぎの言葉、形式主語の構文と前の内容を受けて説明する表現、動名詞の主語と受動態、「～する代わりに」と理由を表す接続詞を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "否定語句で始まる倒置の文で、助動詞と主語の語順を判断できる",
+        "形式主語の文で、意味上の主語と本当の主語を見つけられる",
+        "動名詞の主語に合う動詞の形を選び、受動態の文を訳せる",
+        "前置詞の後ろの動名詞と、理由を表す接続詞を使い分けられる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Not only (　) the new library have a lot of books, but it also offers free study rooms.",
+            "choices": [
+                "is",
+                "do",
+                "does",
+                "has"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい図書館は本がたくさんあるだけでなく、無料の自習室も用意している。",
+            "explanation": "文頭の Not only の後ろに文が続くと、疑問文と同じ語順の倒置になる。主語 the new library は3人称単数で、後ろの have は原形なので does が入る。",
+            "choiceNotes": [
+                "is「be 動詞」",
+                "do「主語が複数・I・you」",
+                "does「主語が3人称単数」",
+                "has「後ろは過去分詞」"
+            ],
+            "tip": "授業の Not only do they express ... と同じ形。主語が単数なので does にする。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Not only (　) Ken finish his homework early last night, but he also helped his mother cook dinner.",
+            "choices": [
+                "did",
+                "does",
+                "had",
+                "was"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "ケンは昨夜、宿題を早く終わらせただけでなく、母親の夕食作りも手伝った。",
+            "explanation": "last night と helped から過去の話。倒置では過去形 finished を〈did＋主語＋原形〉の形にするので、did Ken finish となる。",
+            "choiceNotes": [
+                "did「過去・後ろは原形」",
+                "does「現在・後ろは原形」",
+                "had「後ろは過去分詞」",
+                "was「後ろは -ing 形・過去分詞」"
+            ],
+            "tip": "授業の Not only did she win the prize と同じ形。訳には「～だけでなく…も」を入れる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Tom loves Japanese culture. Not only (　) many books about Japan, but he has also visited Kyoto twice.",
+            "choices": [
+                "he has read",
+                "has he read",
+                "he read",
+                "read he"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "トムは日本の文化が大好きだ。日本に関する本をたくさん読んだだけでなく、京都を2回訪れたこともある。",
+            "explanation": "現在完了の文を倒置すると、助動詞の has が主語の前に出て has he read の語順になる。この倒置では、read のような一般動詞を主語の前に出せない。",
+            "choiceNotes": [
+                "he has read「倒置なし」",
+                "has he read「倒置の語順」",
+                "he read「倒置なし」",
+                "read he「語順の誤り」"
+            ],
+            "tip": "授業の文は do they express。完了形なら has を主語の前に出す。後半の has also もヒント。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "My older brother loves playing sports outdoors. (　), my younger sister prefers to stay home and read books.",
+            "choices": [
+                "For example",
+                "As a result",
+                "Similarly",
+                "By contrast"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "兄は屋外でスポーツをするのが大好きだ。対照的に、妹は家で本を読むほうを好む。",
+            "explanation": "外で体を動かすのが好きな兄と、家で読書をするのが好きな妹。前の文と反対の内容を続けているので、対比を表す By contrast が入る。",
+            "choiceNotes": [
+                "For example「たとえば」",
+                "As a result「その結果」",
+                "Similarly「同じように」",
+                "By contrast「対照的に」"
+            ],
+            "tip": "授業の By contrast, when they show ... と同じ使い方。前後の文で何が反対かを確かめる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "It can be difficult (　) small children to sit still during a long ceremony.",
+            "choices": [
+                "of",
+                "by",
+                "for",
+                "at"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "小さな子どもが長い式典の間じっと座っているのは、難しいことがある。",
+            "explanation": "It は形式主語で、本当の主語は to sit 以下。to不定詞の意味上の主語「子どもが」は〈for＋人〉で表す。",
+            "choiceNotes": [
+                "of「kind など人の性質の後」",
+                "by「～によって」",
+                "for「意味上の主語」",
+                "at「～で（場所・時）」"
+            ],
+            "tip": "授業の it is difficult for them to use と同じ形。for の後ろを「～が」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Without a map, it was almost impossible (　) the small hotel in the old town.",
+            "choices": [
+                "find",
+                "to find",
+                "found",
+                "finds"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "地図がなかったので、旧市街にあるその小さなホテルを見つけるのはほとんど不可能だった。",
+            "explanation": "it は形式主語で、本当の主語は後ろの to不定詞のまとまり。「ホテルを見つけること」を表す to find が入る。",
+            "choiceNotes": [
+                "find「原形」",
+                "to find「to不定詞」",
+                "found「過去形・過去分詞」",
+                "finds「3単現」"
+            ],
+            "tip": "この it を「それは」と訳さない。to 以下を先に訳して「～するのは」とする。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The last train has already left. This (　) that we will have to take a taxi home.",
+            "choices": [
+                "makes",
+                "gives",
+                "takes",
+                "means"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "最終電車はもう出てしまった。つまり、私たちはタクシーで帰らなければならないということだ。",
+            "explanation": "This は前の文の「最終電車が出たこと」を指す。This means that ～ で「これは～ということだ」「つまり～」と、前の内容から分かることを述べる。",
+            "choiceNotes": [
+                "makes「作る・～にする」",
+                "gives「与える」",
+                "takes「取る・（時間が）かかる」",
+                "means「～を意味する」"
+            ],
+            "tip": "授業の This means that ... と同じ形。This が指す前の文の内容を確かめる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The name of this island comes from a local word, (　) refers to the shape of a turtle.",
+            "choices": [
+                "which",
+                "that",
+                "what",
+                "it"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "この島の名前は地元の言葉に由来しており、その言葉はカメの形を表している。",
+            "explanation": "コンマの後ろで a local word を補足説明する、非制限用法の関係代名詞。refers の主語になる which が入る。that は非制限用法では使わない。",
+            "choiceNotes": [
+                "which「非制限用法も可」",
+                "that「非制限用法は不可」",
+                "what「先行詞を含む」",
+                "it「つなぐ働きがない」"
+            ],
+            "tip": "授業の ipugo, which means ... と同じ形。非制限用法の関係代名詞に that は使わない。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) a new language as an adult takes a lot of time and patience.",
+            "choices": [
+                "Learn",
+                "Learned",
+                "Learning",
+                "Learns"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "大人になってから新しい言語を学ぶには、多くの時間と根気が必要だ。",
+            "explanation": "文の動詞は takes なので、空所から adult までが主語。「～すること」を表す動名詞 Learning を使って、主語のまとまりを作る。",
+            "choiceNotes": [
+                "Learn「原形」",
+                "Learned「過去形・過去分詞」",
+                "Learning「動名詞」",
+                "Learns「3単現」"
+            ],
+            "tip": "授業の Using tea bags ... と同じく、-ing で始まる主語。先に動詞 takes を探す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Riding bicycles on the sidewalk (　) not allowed in this part of the city.",
+            "choices": [
+                "are",
+                "is",
+                "be",
+                "being"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "市内のこの地域では、歩道で自転車に乗ることは認められていない。",
+            "explanation": "主語は Riding bicycles on the sidewalk という1つの動名詞句で、単数として扱う。主語の中の bicycles につられず is を使う。",
+            "choiceNotes": [
+                "are「主語が複数」",
+                "is「主語が単数」",
+                "be「原形」",
+                "being「-ing 形」"
+            ],
+            "tip": "bicycles につられて are を選ぶのが典型的なミス。主語の中心は Riding。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "In the past, wearing a T-shirt to the office (　) impolite at many Japanese companies.",
+            "choices": [
+                "was considered",
+                "considered",
+                "was considering",
+                "consider"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "以前は、Tシャツを着て出社することは、多くの日本の会社で失礼だと考えられていた。",
+            "explanation": "主語は動名詞句 wearing ... office。「失礼だと考えられていた」と受け身なので、consider O C の受動態 was considered＋C にする。",
+            "choiceNotes": [
+                "was considered「受動態」",
+                "considered「過去形」",
+                "was considering「進行形」",
+                "consider「原形」"
+            ],
+            "tip": "授業の Using tea bags was considered rude と同じ形。主語は「考えられる」側。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Instead of (　) all her money on clothes, Mika saved some of it to buy a new bike.",
+            "choices": [
+                "spend",
+                "spent",
+                "to spend",
+                "spending"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "ミカはお金を全部服に使う代わりに、新しい自転車を買うためにその一部を貯金した。",
+            "explanation": "Instead of ～ で「～する代わりに」。of は前置詞なので、後ろに動詞を置くときは動名詞の spending にする。spend A on B は「BにAを使う」。",
+            "choiceNotes": [
+                "spend「原形」",
+                "spent「過去形・過去分詞」",
+                "to spend「to不定詞」",
+                "spending「動名詞」"
+            ],
+            "tip": "授業の Instead of bringing water ... と同じ形。前置詞の後ろの動詞は -ing 形にする。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) cars cannot be used on this small island, people get around by bicycle or on foot.",
+            "choices": [
+                "Unless",
+                "Since",
+                "Until",
+                "Before"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "この小さな島では車が使えないので、人々は自転車か徒歩で移動する。",
+            "explanation": "車が使えないことが、自転車や徒歩で移動する理由になっている。この Since は「～以来」ではなく、「～なので」と理由を表す接続詞。",
+            "choiceNotes": [
+                "Unless「～しない限り」",
+                "Since「～なので」",
+                "Until「～まで」",
+                "Before「～する前に」"
+            ],
+            "tip": "授業の Since machines cannot be used と同じ形。「～なので」と訳して確かめる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The bus arrived an hour late (　) the road was covered with ice.",
+            "choices": [
+                "because of",
+                "despite",
+                "instead of",
+                "since"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "道路が氷に覆われていたので、バスは1時間遅れて到着した。",
+            "explanation": "空所の後ろに主語と動詞が続くので、接続詞の since が入る。because of・despite・instead of は前置詞の働きで、後ろには名詞や動名詞を置く。",
+            "choiceNotes": [
+                "because of「～が原因で」",
+                "despite「～にもかかわらず」",
+                "instead of「～の代わりに」",
+                "since「～なので（接続詞）」"
+            ],
+            "tip": "(13)と同じ理由の since。because of と since は意味が近くても、後ろに置く形が違う。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の学習ポイントは、どれも大問2・3の長文の中で使われていました。By contrast の後ろには対照的な内容、Since の後ろには理由、This means that の後ろには前の文から分かることが来ると知っていれば、先を予想しながら読めます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

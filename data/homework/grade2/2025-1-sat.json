@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-1-sat",
+    "title": "文法事項の確認",
+    "theme": "相関接続詞・条件の Once・形式目的語・二重否定",
+    "aim": "授業で学んだ「AだけでなくBも」の相関接続詞と「Oが～するのを可能にする」の表現、条件を表す Once、形式目的語の構文、「～せずには…できない」の二重否定と「～かどうか」の表現を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "「AだけでなくBも」で並ぶ語句と、動詞の形を判断できる",
+        "条件の Once の節の時制と、省略された形を見抜ける",
+        "形式目的語の構文で、補語と不定詞の形を選べる",
+        "「～せずには…できない」を訳し、後ろに続く形を選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The new app not only translates menus but also (　) tourists find popular restaurants nearby.",
+            "choices": [
+                "help",
+                "helping",
+                "helps",
+                "to help"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その新しいアプリは、メニューを翻訳するだけでなく、旅行者が近くの人気レストランを見つけるのにも役立つ。",
+            "explanation": "not only A but also B で「AだけでなくBも」。A の translates と同じく、主語 The new app に合わせた3単現の helps。",
+            "choiceNotes": [
+                "help「原形」",
+                "helping「-ing 形」",
+                "helps「3単現」",
+                "to help「不定詞」"
+            ],
+            "tip": "授業の not only solves ... but also helps と同じ形。A と B は同じ形でそろえる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Not only the children but also their father (　) caught a bad cold this week.",
+            "choices": [
+                "have",
+                "has",
+                "having",
+                "to have"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "今週は、子どもたちだけでなく父親もひどい風邪をひいてしまった。",
+            "explanation": "not only A but also B が主語のとき、動詞は B に合わせる。B の their father は単数なので、現在完了は has caught になる。",
+            "choiceNotes": [
+                "have「A（複数）に合わせた形」",
+                "has「B（単数）に合わせた形」",
+                "having「-ing 形」",
+                "to have「不定詞」"
+            ],
+            "tip": "「AだけでなくBも」で中心になるのは B。動詞の形も B に合わせて決める。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "This rice cooker is not only cheap but also very (　) to use, so it is popular with students.",
+            "choices": [
+                "easily",
+                "ease",
+                "easiness",
+                "easy"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この炊飯器は安いだけでなくとても使いやすいので、学生に人気がある。",
+            "explanation": "is の補語として、形容詞 cheap と並ぶ形容詞 easy が入る。easy to use で「使いやすい」。並ぶ語句は同じ品詞でそろえる。",
+            "choiceNotes": [
+                "easily「簡単に（副詞）」",
+                "ease「容易さ（名詞）」",
+                "easiness「容易さ（名詞）」",
+                "easy「簡単な（形容詞）」"
+            ],
+            "tip": "(1)は動詞どうし、この問題は形容詞どうしが並ぶ。not only と but also の後ろは同じ品詞にする。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The online booking system (　) customers to choose their seats before they arrive at the theater.",
+            "choices": [
+                "allows",
+                "makes",
+                "lets",
+                "has"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "そのオンライン予約システムのおかげで、客は劇場に着く前に座席を選ぶことができる。",
+            "explanation": "allow＋O＋to不定詞で「Oが～するのを可能にする」。customers to choose が続くので allows。make・let・have は〈O＋原形〉をとる。",
+            "choiceNotes": [
+                "allows「可能にする・O＋to不定詞」",
+                "makes「させる・O＋原形」",
+                "lets「させてやる・O＋原形」",
+                "has「させる・O＋原形」"
+            ],
+            "tip": "授業の allows more people to take buses と同じ形。物が主語なので「～のおかげで」と訳すと自然。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Once you (　) how to ride a bicycle, you will never forget it.",
+            "choices": [
+                "learn",
+                "will learn",
+                "learning",
+                "to learn"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "一度自転車の乗り方を覚えると、決して忘れることはない。",
+            "explanation": "Once S V で「一度～すると」。時や条件を表す副詞節では、未来のことも現在形で表すので learn が入る。",
+            "choiceNotes": [
+                "learn「現在形」",
+                "will learn「未来を表す形」",
+                "learning「-ing 形」",
+                "to learn「不定詞」"
+            ],
+            "tip": "授業の Once insects fall into the leaves と同じ形。「一度～すると」と前から訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Once (　), this juice should be kept in the refrigerator and used within three days.",
+            "choices": [
+                "opens",
+                "opening",
+                "to open",
+                "opened"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "このジュースは一度開けたら、冷蔵庫で保存して3日以内に飲み切るべきだ。",
+            "explanation": "Once (it is) opened から主語と be動詞を省いた形で「一度開けられたら」。ジュースは「開けられる」側なので過去分詞の opened。",
+            "choiceNotes": [
+                "opens「3単現」",
+                "opening「-ing 形（～している）」",
+                "to open「不定詞」",
+                "opened「過去分詞（～される）」"
+            ],
+            "tip": "授業の its value will be lost once opened と同じ形。食品のラベルでもよく見かける。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Once the speech (　), the audience stood up and clapped for a long time.",
+            "choices": [
+                "ends",
+                "will end",
+                "ended",
+                "ending"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "スピーチが終わると、聴衆は立ち上がって長い間拍手をした。",
+            "explanation": "過去の出来事なので、Once 節も過去形の ended にする。主節の stood up と clapped が過去形であることから時を判断する。",
+            "choiceNotes": [
+                "ends「3単現」",
+                "will end「未来を表す形」",
+                "ended「過去形」",
+                "ending「-ing 形」"
+            ],
+            "tip": "(5)は未来のことなので現在形、この問題は過去のことなので過去形。主節の動詞を見て決める。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "The noise from the construction site made it (　) for the students to concentrate on the test.",
+            "choices": [
+                "impossibly",
+                "impossible",
+                "impossibility",
+                "impossibilities"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "工事現場の騒音のせいで、生徒たちはテストに集中できなかった。",
+            "explanation": "make it＋形容詞＋for A＋to V で「Aが～することを…にする」。it は形式目的語で to 以下を指し、補語には形容詞 impossible が入る。",
+            "choiceNotes": [
+                "impossibly「副詞」",
+                "impossible「形容詞」",
+                "impossibility「名詞」",
+                "impossibilities「複数形」"
+            ],
+            "tip": "授業の make it difficult for experts to get と同じ形。it は to 以下を指す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The new elevator makes it easy for elderly residents (　) the top floor without help.",
+            "choices": [
+                "reach",
+                "reaching",
+                "to reach",
+                "reached"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "新しいエレベーターのおかげで、高齢の住民も手助けなしで最上階まで楽に行ける。",
+            "explanation": "make it easy for A to V で「Aが～するのを簡単にする」。for A の後ろに、it の中身となる to 不定詞 to reach が続く。",
+            "choiceNotes": [
+                "reach「原形」",
+                "reaching「-ing 形」",
+                "to reach「不定詞」",
+                "reached「過去形・過去分詞」"
+            ],
+            "tip": "授業の made it easier for people to access と同じ形。「～のおかげで」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The new rule made it much (　) for young people to rent an apartment in the city.",
+            "choices": [
+                "harder",
+                "hard",
+                "hardly",
+                "hardest"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その新しい規則で、若者が都市でアパートを借りるのはずっと難しくなった。",
+            "explanation": "much は比較級を強めて「ずっと」の意味。much の後ろなので、補語は比較級の harder にする。「～することをずっと難しくした」。",
+            "choiceNotes": [
+                "harder「比較級」",
+                "hard「原級」",
+                "hardly「ほとんど～ない」",
+                "hardest「最上級」"
+            ],
+            "tip": "授業の makes it harder for experts と同じ形。much＋比較級は「ずっと～」と訳す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Visitors cannot enter the museum without (　) their tickets at the entrance.",
+            "choices": [
+                "show",
+                "showing",
+                "shown",
+                "to show"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "入口でチケットを見せなければ、来館者は美術館に入ることができない。",
+            "explanation": "前置詞 without の後ろは名詞か動名詞なので showing。cannot ～ without -ing で「…せずには～できない」＝「～するには必ず…する」。",
+            "choiceNotes": [
+                "show「原形」",
+                "showing「動名詞」",
+                "shown「過去分詞」",
+                "to show「不定詞」"
+            ],
+            "tip": "授業の without practicing it と同じ形。without の後ろの動詞は -ing 形にする。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "This safe cannot be unlocked without (　) the correct password.",
+            "choices": [
+                "type",
+                "typed",
+                "to type",
+                "typing"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "この金庫は、正しいパスワードを入力しなければ開けられない。",
+            "explanation": "without の後ろは動名詞の typing。cannot be unlocked without -ing は二重否定で、「開けるには必ず入力が必要だ」という意味になる。",
+            "choiceNotes": [
+                "type「原形」",
+                "typed「過去形・過去分詞」",
+                "to type「不定詞」",
+                "typing「動名詞」"
+            ],
+            "tip": "授業の cannot be opened without breaking と同じ形。受け身でも後ろは -ing 形。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "No one can go into the factory without (　) checked by a security guard.",
+            "choices": [
+                "being",
+                "been",
+                "be",
+                "having"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "警備員の確認を受けなければ、だれも工場の中に入ることはできない。",
+            "explanation": "入る人は「確認される」側なので、受け身の動名詞〈being＋過去分詞〉にする。No one can ～ without -ing も「…せずには～できない」。",
+            "choiceNotes": [
+                "being「受け身の動名詞を作る」",
+                "been「過去分詞」",
+                "be「原形」",
+                "having「完了の動名詞を作る」"
+            ],
+            "tip": "(11)の showing は「見せる」側、この問題は「確認される」側。する側かされる側かで形を決める。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "From the students' answers, the teacher could easily tell (　) they had really read the book or not.",
+            "choices": [
+                "that",
+                "what",
+                "if",
+                "unless"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "生徒の答えから、先生は生徒が本当にその本を読んだかどうかを簡単に見分けられた。",
+            "explanation": "tell if ～ or not で「～かどうかを見分ける」。if は「～かどうか」の名詞節を導く接続詞で、tell の目的語になる。",
+            "choiceNotes": [
+                "that「～ということ（or not と合わない）」",
+                "what「～こと（後ろは不完全）」",
+                "if「～かどうか」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の can know if ～ と同じ「かどうか」の if。後ろの or not も目印になる。"
+        }
+    ],
+    "closing": "今回の「AだけでなくBも」や形式目的語、「～せずには…できない」の形は、2級の長文で、筆者が効果や問題点を説明するときに使われることがあります。文の骨組みが分かると、長い文も落ち着いて読めます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
