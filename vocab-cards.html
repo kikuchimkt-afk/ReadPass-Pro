@@ -502,6 +502,9 @@
         }
     </style>
     <link rel="stylesheet" href="pro-theme.css?v=20261014-orange-v1">
+    <link rel="stylesheet" href="pro-card-tools.css?v=20261014-card-tools-v1">
+    <script src="top.js?v=20261014-card-tools-v1" defer></script>
+    <script src="pro-card-tools.js?v=20261014-card-tools-v1" defer></script>
     <link rel="icon" href="favicon.ico?v=20261014-orange-v1" sizes="16x16 32x32 48x48">
     <link rel="icon" type="image/svg+xml" href="assets/icons/readpass-pro.svg?v=20261014-orange-v1">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20261014-orange-v1">
@@ -608,6 +611,7 @@
         let isFlipped = false;
         let order = 'seq';
         let storageKey = '';
+        let vocabDataUrl = '';
         let autoplayEnabled = true;
 
         function init() {
@@ -627,6 +631,7 @@
                 }
             }
             if (!dataUrl) { document.getElementById('appSub').textContent = 'データが指定されていません'; return; }
+            vocabDataUrl = dataUrl;
             storageKey = 'vocabCards_' + dataUrl;
             
             // Load global autoplay setting
@@ -703,8 +708,7 @@
         let _wordAudio = null;
         let _wordAudioBtn = null;
         function playWord(btn, audioPath) {
-            const params = new URLSearchParams(window.location.search);
-            const dataUrl = params.get('data');
+            const dataUrl = vocabDataUrl;
             const baseDir = dataUrl.substring(0, dataUrl.lastIndexOf('/') + 1);
             const src = baseDir + audioPath;
             if (_wordAudio && _wordAudioBtn === btn && !_wordAudio.paused) {

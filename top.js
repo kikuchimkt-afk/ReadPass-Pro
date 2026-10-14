@@ -215,6 +215,12 @@
         }
     ];
 
+    // Share the existing catalog with card navigation / QR tools, without
+    // duplicating or changing any exam entries.
+    window.READPASS_EXAM_CATALOG = EXAM_CATALOG;
+    // vocab-cards.html loads the catalog but has no landing-page grid.
+    if (!document.getElementById('gradeGrid')) return;
+
     // DOM
     const gradeGrid = document.getElementById('gradeGrid');
     const gradeSection = document.getElementById('gradeSection');

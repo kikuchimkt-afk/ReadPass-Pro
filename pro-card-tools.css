@@ -1,0 +1,33 @@
+.card-top-nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 20px; }
+.card-top-nav :is(a,button),.card-qr-button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 9px 12px; border: 1px solid var(--border); border-radius: 5px; background: var(--pro-panel); color: var(--text-primary); text-decoration: none; font-family: inherit; font-size: 12px; font-weight: 500; line-height: 1.5; cursor: pointer; }
+.card-top-nav :is(a,button):hover,.card-qr-button:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+.card-top-nav button { margin-left: auto; color: var(--accent-primary); }
+.card-exam-option { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 10px; }
+.card-exam-option .exam-card { min-width: 0; }
+.card-qr-button { min-width: 95px; border-color: var(--accent-primary); color: var(--accent-primary); background: var(--pro-tint); }
+.card-qr-dialog { position: fixed; inset: 0; margin: auto; width: min(520px,calc(100vw - 32px)); max-height: calc(100dvh - 40px); padding: 24px; overflow: auto; border: 1px solid var(--border); border-radius: 8px; background: #262b2f; color: #f4f5f2; font: 14px/1.7 'Inter','Noto Sans JP',sans-serif; }
+.card-qr-dialog::backdrop { background: rgba(8,12,15,.76); }
+.card-qr-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.card-qr-heading h2 { margin: 0; font-size: 20px; color: #ff9e43; }
+.card-qr-close { min-width: 44px; height: 44px; padding: 8px; border: 1px solid rgba(223,230,230,.22); border-radius: 5px; background: transparent; color: #f4f5f2; font: inherit; cursor: pointer; }
+.card-qr-help { margin: 0 0 18px; color: #c3c9c8; font-size: 13px; }
+.card-qr-fields { display: grid; gap: 12px; }
+.card-qr-fields label { display: grid; gap: 5px; font-size: 12px; color: #c3c9c8; }
+.card-qr-fields select { width: 100%; min-height: 44px; padding: 10px; color: #f4f5f2; background: #202326; border: 1px solid rgba(223,230,230,.3); border-radius: 5px; font-family: inherit; font-size: 14px; line-height: 1.5; }
+.card-qr-frame { width: fit-content; max-width: 100%; margin: 22px auto 14px; padding: 28px; background: #fff; border-radius: 5px; }
+.card-qr-frame img,.card-qr-frame canvas { max-width: 100%; height: auto; }
+.card-qr-frame:empty { display: none; }
+.card-qr-url { display: block; overflow-wrap: anywhere; color: #c3c9c8; font-size: 11px; margin: 14px 0; }
+.card-qr-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.card-qr-actions a { min-height: 44px; padding: 10px 15px; border: 1px solid #ff9e43; border-radius: 5px; color: #ff9e43; background: rgba(255,158,67,.1); font-size: 13px; text-decoration: none; }
+.card-qr-actions .card-qr-open { color: #202326; background: #ff9e43; }
+.card-qr-status { min-height: 1.7em; margin: 10px 0 0; color: #c3c9c8; font-size: 12px; text-align: center; }
+@media(max-width:600px) {
+  .card-exam-option { gap: 6px; }
+  .card-exam-option .exam-card { padding: 15px 12px; }
+  .card-exam-option .exam-label { font-size: 14px; }
+  .card-qr-button { min-width: 74px; padding: 9px 8px; font-size: 11px; }
+  .card-qr-dialog { padding: 18px; }
+  .card-qr-heading h2 { font-size: 18px; }
+  .card-qr-frame { padding: 24px; }
+}
