@@ -57,7 +57,8 @@ async function renderSet(page,grade,exam){
     assert.match(await fixedRow.innerText(),/過去問PDF（問題・正解一覧）/);
     assert.equal(await page.locator('#teacherMaterialList .teacher-material-row').first().getAttribute('data-fixed-exam'),TARGET.exam);
     const fixedLinks=fixedRow.locator('a');
-    assert.deepEqual(await fixedLinks.allTextContents(),['閲覧','DL']);
+    // pro-pdf-actions.js labels the view and save links.
+    assert.deepEqual(await fixedLinks.allTextContents(),['PDFを閲覧','PDFを保存']);
     const fixedHref=await fixedLinks.first().getAttribute('href');
     assert.match(fixedHref,/^output\/pdf\/ReadPass_EIKEN_GradePre1_2026-2_Practice_Exam/);
     assert.ok(await fixedLinks.nth(1).getAttribute('download'));
