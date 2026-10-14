@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の型・時とつなぎのことば",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の型・時とつなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～に興味がある」などのセットや、「今～している」の形を書ける",
+        "返事の文をヒントに、会話でよく使う言い方を選べる",
+        "予定や「～しなければならない」の文、時間とつなぎのことばを使える"
+    ],
+    "words": [
+        {
+            "word": "favorite",
+            "meaning": "いちばん好きな"
+        },
+        {
+            "word": "cloudy",
+            "meaning": "くもりの"
+        },
+        {
+            "word": "wind",
+            "meaning": "風"
+        },
+        {
+            "word": "lesson",
+            "meaning": "レッスン"
+        },
+        {
+            "word": "match",
+            "meaning": "試合"
+        },
+        {
+            "word": "right now",
+            "meaning": "ちょうど今"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "What subject are you interested in at school?",
+            "ja": "学校では、どの教科に興味がありますか。",
+            "focus": "fp1",
+            "point": "be interested in「～に興味がある」",
+            "note": "interested と in はセットで使う。What subject（どの教科）をたずねる文なので、in が文の後ろのほうに残る。"
+        },
+        {
+            "en": "My father is going to wash his car this weekend.",
+            "ja": "父は今週末、車を洗うつもりです。",
+            "focus": "fp3",
+            "point": "be going to「～するつもりだ」",
+            "note": "is going to のあとは動詞の原形 wash。主語が My father なので is を使う。"
+        },
+        {
+            "en": "Then, they talked about snow for two hours.",
+            "ja": "それから2人は、雪について2時間話しました。",
+            "focus": "fp4",
+            "point": "for＋時間の長さ「～の間」",
+            "note": "for two hours で「2時間（の間）」。物語では、雪について話したのが2時間、おまつりを見て回ったのが3時間。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Our cat is (　) on the sofa right now.",
+            "choices": [
+                "sleep",
+                "sleeps",
+                "sleeping",
+                "slept"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "うちのねこは、今ソファの上でねています。",
+            "explanation": "right now（ちょうど今）があるので、今していることを表す文。is のあとに ing 形を置いて is sleeping（ねているところ）とする。",
+            "choiceNotes": [
+                "sleep「原形」",
+                "sleeps「3単現」",
+                "sleeping「ing形」",
+                "slept「過去形」"
+            ],
+            "tip": "授業の … she's eating dinner right now. と同じ形。be動詞＋ing 形で「今～している」を表せる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Is your brother interested (　) cooking?\nB: Yes. He makes dinner every Sunday.",
+            "choices": [
+                "at",
+                "in",
+                "on",
+                "for"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あなたのお兄さんは料理に興味がありますか。\nB：はい。毎週日曜日に夕ごはんを作ります。",
+            "explanation": "be interested in ～で「～に興味がある」。interested と in はセットで使う。in のあとには名詞や、cooking のような ing 形が来る。",
+            "choiceNotes": [
+                "at「～に（場所・時刻）」",
+                "in「be interested in のセット」",
+                "on「～の上に」",
+                "for「～のために」"
+            ],
+            "tip": "授業の What subject are you interested in at school? と同じセットだよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: I'll have spaghetti. How (　) you, Ken?\nB: I'll have pizza.",
+            "choices": [
+                "about",
+                "for",
+                "with",
+                "from"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：わたしはスパゲッティにします。ケン、あなたはどうしますか。\nB：ぼくはピザにします。",
+            "explanation": "How about you? は「あなたはどうですか」と、相手の考えや気持ちをたずねる言い方。B は自分が食べる物を答えている。",
+            "choiceNotes": [
+                "about「How about ～? の形」",
+                "for「～のために」",
+                "with「～といっしょに」",
+                "from「～から」"
+            ],
+            "tip": "授業の I like this TV show. How about you? と同じ。自分のことを言ってから、相手にたずねるよ。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Mom, can I have some cookies?\nB: Sure. Here you (　).",
+            "choices": [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：お母さん、クッキーを食べてもいい？\nB：いいわよ。はい、どうぞ。",
+            "explanation": "Here you are. は、物をわたすときの「はい、どうぞ」。主語が you なので、be動詞は are を使う。",
+            "choiceNotes": [
+                "is「主語が he・she・it など」",
+                "am「主語が I」",
+                "are「主語が you など」",
+                "be「原形」"
+            ],
+            "tip": "授業の Sure. Here you are. と同じ。物をわたすときの決まった言い方だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "My sister is going (　) Kyoto next month.",
+            "choices": [
+                "visit",
+                "visited",
+                "visits",
+                "to visit"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "姉は来月、京都をおとずれるつもりです。",
+            "explanation": "be going to＋動詞の原形で「～するつもりだ・～する予定だ」。is going のあとに to visit を続ける。",
+            "choiceNotes": [
+                "visit「原形」",
+                "visited「過去形」",
+                "visits「3単現」",
+                "to visit「to＋原形」"
+            ],
+            "tip": "授業の My father is going to wash his car … と同じ形。to を忘れずに書こう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Can you play with me after school?\nB: Sorry, I have to (　) to the dentist.",
+            "choices": [
+                "go",
+                "goes",
+                "went",
+                "going"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：放課後、いっしょに遊べる？\nB：ごめんね、歯医者に行かなければならないんだ。",
+            "explanation": "have to＋動詞の原形で「～しなければならない」。to のあとは原形の go にして、go to the dentist（歯医者へ行く）とする。",
+            "choiceNotes": [
+                "go「原形」",
+                "goes「3単現」",
+                "went「過去形」",
+                "going「ing形」"
+            ],
+            "tip": "授業の I have to go to the post office this afternoon. と同じ形だよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "I practiced the piano (　) three hours yesterday.",
+            "choices": [
+                "at",
+                "for",
+                "on",
+                "to"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしは昨日、3時間ピアノを練習しました。",
+            "explanation": "for＋時間の長さで「～の間」。for three hours で、ピアノを練習した時間が3時間だったことを表す。",
+            "choiceNotes": [
+                "at「～に（時刻）」",
+                "for「～の間（長さ）」",
+                "on「～に（曜日・日付）」",
+                "to「～へ・～まで」"
+            ],
+            "tip": "授業の … they talked about snow for two hours. と同じ形。時間の長さは for が基本だよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Did you buy a cake at the new shop?\nB: No. I went there, (　) it was closed.",
+            "choices": [
+                "so",
+                "because",
+                "or",
+                "but"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：新しいお店でケーキを買ったの？\nB：ううん。行ったけれど、閉まっていたんだ。",
+            "explanation": "but は「しかし・～けれど」。「お店に行った → でも閉まっていた」と、予想とちがう内容をつなぐ。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "because「～なので（後ろが理由）」",
+                "or「または」",
+                "but「しかし・～けれど」"
+            ],
+            "tip": "授業のメールの … I wanted to talk with you, but I had a meeting … と同じ形だよ。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。interested in や How about you? のように、セットで使う言い方は、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

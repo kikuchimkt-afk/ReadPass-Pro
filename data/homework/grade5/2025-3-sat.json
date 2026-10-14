@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "たずねることば・かいわのつながり・ぶんのかたち",
+    "aim": "じゅぎょうでならった、こたえにあうたずねることば、まえとあとのセリフのつながり、ならべかえでつかったぶんのかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "こたえにあう、たずねることばをえらべる",
+        "まえとあとのセリフをつなげて、かいわをよめる",
+        "「～できますか」のぶんを、ただしいかたちでかける"
+    ],
+    "words": [
+        {
+            "word": "birthday",
+            "meaning": "たんじょう日"
+        },
+        {
+            "word": "season",
+            "meaning": "きせつ"
+        },
+        {
+            "word": "zoo",
+            "meaning": "どうぶつえん"
+        },
+        {
+            "word": "dictionary",
+            "meaning": "じしょ"
+        },
+        {
+            "word": "pencil case",
+            "meaning": "ふでばこ"
+        },
+        {
+            "word": "cloudy",
+            "meaning": "くもった"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Yoko, how long do you study English every day?",
+            "ja": "ヨウコ、あなたはまい日どのくらいながく、えいごをべんきょうするの？",
+            "focus": "fp1",
+            "point": "How long ～?「どのくらいながく」",
+            "note": "じかんのながさをたずねるときは How long。こたえは For two hours.（2じかん）のようにいう。"
+        },
+        {
+            "en": "I don't play any sports. But I play the trumpet.",
+            "ja": "ぼくはスポーツはなにもしません。でも、トランペットはふきます。",
+            "focus": "fp2",
+            "point": "not ～ any「1つも～ない」・But「でも」",
+            "note": "don't ～ any で「1つも～ない」。But（でも）のあとに、かわりにすることをつけたしている。"
+        },
+        {
+            "en": "Keiko's class has twenty students.",
+            "ja": "ケイコのクラスには、せいとが20人います。",
+            "focus": "fp3",
+            "point": "class has ～「クラスには～がいる」",
+            "note": "クラスが20人のせいとを「もっている」とかんがえて has をつかう。Keiko's class は1つのかたまり。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: How (　) is a ticket for the zoo?\nB: It's 600 yen.",
+            "choices": [
+                "long",
+                "much",
+                "many",
+                "old"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：どうぶつえんのチケットは、いくらですか。\nB：600えんです。",
+            "explanation": "B が 600 yen と、ねだんをこたえている。ねだんをたずねるときは How much をつかう。",
+            "choiceNotes": [
+                "long「ながい」",
+                "much「How much でいくら」",
+                "many「たくさんの（かず）」",
+                "old「ふるい・～さいの」"
+            ],
+            "tip": "じゅぎょうの How much are these apples? とおなじ。B のねだんがヒント。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: (　) is the next soccer game?\nB: It's on Saturday.",
+            "choices": [
+                "Where",
+                "Who",
+                "What",
+                "When"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：つぎのサッカーのしあいは、いつですか。\nB：土よう日です。",
+            "explanation": "B が on Saturday（土よう日に）と、ときをこたえている。「いつ」とたずねるときは When をつかう。",
+            "choiceNotes": [
+                "Where「どこ」",
+                "Who「だれ」",
+                "What「なに」",
+                "When「いつ」"
+            ],
+            "tip": "じゅぎょうの When is your father's birthday, Tom? とおなじ。こたえのようびがヒント。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Please help (　) with the dishes, Ken.",
+            "choices": [
+                "I",
+                "my",
+                "me",
+                "mine"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "ケン、おさらあらいをてつだってね。",
+            "explanation": "help のうしろで「わたしを」というときは me をつかう。help me で「わたしをてつだう」。",
+            "choiceNotes": [
+                "I「わたしは」",
+                "my「わたしの」",
+                "me「わたしを・わたしに」",
+                "mine「わたしのもの」"
+            ],
+            "tip": "じゅぎょうの Dad, please help me. とおなじ me。「わたしを」は me。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Do you eat ice cream every day?\nB: No, (　) in summer.",
+            "choices": [
+                "only",
+                "very",
+                "too",
+                "many"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたはまい日アイスクリームをたべるの？\nB：ううん、なつだけだよ。",
+            "explanation": "only は「～だけ」。every day（まい日）ではなく、なつだけたべるとつたえている。",
+            "choiceNotes": [
+                "only「～だけ」",
+                "very「とても」",
+                "too「～も」",
+                "many「たくさんの」"
+            ],
+            "tip": "じゅぎょうの No, only on Sundays. とおなじいいかた。No のあとのせつめいをよもう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "I (　) play tennis with my sister after school.",
+            "choices": [
+                "very",
+                "much",
+                "often",
+                "many"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしはほうかごに、よくおねえさんとテニスをします。",
+            "explanation": "often は「よく」。play（する）のまえにおいて、どのくらいするかをあらわしている。",
+            "choiceNotes": [
+                "very「とても」",
+                "much「たくさん（りょう）」",
+                "often「よく」",
+                "many「たくさん（かず）」"
+            ],
+            "tip": "じゅぎょうの I often use it. とおなじ often。use や play のまえにおいている。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: Is lunch (　), Mom?\nB: Yes. Let's eat.",
+            "choices": [
+                "hungry",
+                "ready",
+                "sleepy",
+                "busy"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：おかあさん、おひるごはんはできた？\nB：ええ。たべましょう。",
+            "explanation": "ready は「じゅんびができた」。B の Let's eat.（たべましょう）から、ひるごはんができたかをきいているとわかる。",
+            "choiceNotes": [
+                "hungry「おなかがすいた」",
+                "ready「じゅんびができた」",
+                "sleepy「ねむい」",
+                "busy「いそがしい」"
+            ],
+            "tip": "じゅぎょうの Dinner is ready, Sally. とおなじ ready。うしろの Let's eat. がヒント。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "A: (　) is your umbrella, Mika?\nB: The green one.",
+            "choices": [
+                "Who",
+                "When",
+                "How",
+                "Which"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ミカ、どれがあなたのかさ？\nB：みどりのかさだよ。",
+            "explanation": "B が The green one.（みどりのもの）と、いくつかのなかから1つをえらんでこたえている。「どれ」とたずねるときは Which をつかう。",
+            "choiceNotes": [
+                "Who「だれ」",
+                "When「いつ」",
+                "How「どう・どうやって」",
+                "Which「どちら・どれ」"
+            ],
+            "tip": "じゅぎょうの Kate, which is your pencil case? とおなじかたち。ここも Which のすぐあとに is。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Can your little sister (　) a bike?",
+            "choices": [
+                "ride",
+                "rides",
+                "riding",
+                "rode"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "あなたのいもうとは、じてんしゃにのれますか。",
+            "explanation": "Can ではじまるしつもんでは、your little sister のあとのどうしを、もとのかたちにする。だから ride。",
+            "choiceNotes": [
+                "ride「もとのかたち」",
+                "rides「s がついたかたち」",
+                "riding「ing のかたち」",
+                "rode「まえのこと（かこ）」"
+            ],
+            "tip": "じゅぎょうの Can Emi come to your birthday party? とおなじ。Can＋だれ・なに＋もとのかたち。"
+        }
+    ],
+    "closing": "きょうは、たずねることばや、かいわのこたえかたを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。おうちの人とのかいわでも、Of course. や All right. を、つかってみてください。"
+}

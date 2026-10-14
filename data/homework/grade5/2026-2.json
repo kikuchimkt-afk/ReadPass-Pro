@@ -130,7 +130,7 @@
         {
             "number": 4,
             "focus": "fp2",
-            "text": "A: (　) is your birthday?\nB: It's May 10.",
+            "text": "A: (　) is the school festival?\nB: It's on Sunday.",
             "choices": [
                 "Where",
                 "When",
@@ -139,8 +139,8 @@
             ],
             "answer": 2,
             "copy": false,
-            "translation": "A：あなたのたんじょう日はいつですか。\nB：5月10日です。",
-            "explanation": "When は「いつ」。B が May 10（5月10日）と日にちをこたえているので、When でたずねる。",
+            "translation": "A：学校のおまつりはいつですか。\nB：日よう日です。",
+            "explanation": "When は「いつ」。B が on Sunday（日よう日に）と、いつかをこたえているので、When でたずねる。",
             "choiceNotes": [
                 "Where「どこ」",
                 "When「いつ」",
