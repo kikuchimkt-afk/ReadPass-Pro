@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-2",
+    "title": "文法事項の確認",
+    "theme": "因果と使役・逆接と理由・例示と目的・追加と結論",
+    "aim": "授業の物語・Eメール・塩についての説明文に出てきた、因果と気づきの表現、逆接・譲歩・理由のつなぎ方、理由と例示・目的の表し方、情報の追加と結論の示し方を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "因果のつなぎの言葉と、使役・助動詞の後ろの形が分かる",
+        "逆接・譲歩・理由を表す言葉を使い分けられる",
+        "理由・具体例・目的を表す形を見分けられる",
+        "追加や結論を示す言葉で、話の流れをつかめる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The museum was very crowded on Sunday, (　) we decided to come back on a weekday.",
+            "choices": [
+                "because",
+                "so",
+                "if",
+                "until"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "日曜日は美術館がとても混んでいたので、私たちは平日に出直すことにした。",
+            "explanation": "「とても混んでいた」が原因、「平日に出直すことにした」が結果なので、「だから」の so が入る。because を入れると因果が逆になる。",
+            "choiceNotes": [
+                "because「～なので（理由）」",
+                "so「だから（結果）」",
+                "if「もし～なら」",
+                "until「～までずっと」"
+            ],
+            "tip": "授業の so she decided to contact him と同じ so。前が原因、後ろが結果。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Talking with my grandfather made me (　) how hard life was when he was young.",
+            "choices": [
+                "realized",
+                "to realize",
+                "realizing",
+                "realize"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "祖父と話して、祖父が若いころの暮らしがどれほど大変だったかに気づいた。",
+            "explanation": "〈make＋O＋動詞の原形〉で「Oに～させる」。過去の文でも O の後ろは原形の realize。主語が「祖父と話すこと」なので「話して…に気づいた」と訳す。",
+            "choiceNotes": [
+                "realized「過去形・過去分詞」",
+                "to realize「to不定詞」",
+                "realizing「-ing 形」",
+                "realize「原形」"
+            ],
+            "tip": "授業の made her realize と同じ形。「～して…に気づいた」と訳すと自然。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "After he lost his wallet on the train, Taku learned that he should (　) more careful with his things.",
+            "choices": [
+                "be",
+                "being",
+                "is",
+                "was"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "電車で財布をなくしてから、タクは自分の持ち物にもっと気をつけるべきだと学んだ。",
+            "explanation": "should は助動詞なので、後ろは動詞の原形になる。be 動詞も原形の be にする。learned と過去の文でも、should の後ろの形は変わらない。",
+            "choiceNotes": [
+                "be「原形」",
+                "being「-ing 形」",
+                "is「現在形」",
+                "was「過去形」"
+            ],
+            "tip": "授業の she should care more と同じ形。物語の教訓を述べるときにも使う。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Our team practiced very hard for the final game. (　), we lost by one point.",
+            "choices": [
+                "Therefore",
+                "For example",
+                "However",
+                "In addition"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "私たちのチームは決勝戦に向けて一生懸命練習した。しかし、1点差で負けた。",
+            "explanation": "「一生懸命練習した」のに「1点差で負けた」と、予想とは反対の結果が続くので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "For example「例えば」",
+                "However「しかし」",
+                "In addition「さらに」"
+            ],
+            "tip": "授業のメールの However, you cannot play ... と同じ。話の向きが変わる合図になる。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "We had a great time at the beach, (　) it rained a little in the afternoon.",
+            "choices": [
+                "so",
+                "however",
+                "because",
+                "although"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "午後に少し雨が降ったけれども、私たちは海辺でとても楽しく過ごした。",
+            "explanation": "「楽しく過ごした」と「少し雨が降った」は食い違う内容なので、譲歩の接続詞 although が入る。however は副詞なので、2つの文をつなげない。",
+            "choiceNotes": [
+                "so「だから」",
+                "however「しかし（副詞）」",
+                "because「～なので」",
+                "although「～だけれども」"
+            ],
+            "tip": "授業の although we only have ten spots と同じ。文の後半にも置ける。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "(　) I got up late this morning, I had no time to eat breakfast.",
+            "choices": [
+                "Because",
+                "Because of",
+                "Although",
+                "So"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "今朝は起きるのが遅かったので、朝食を食べる時間がなかった。",
+            "explanation": "後ろに I got up late という〈主語＋動詞〉が続き、それが理由になっているので、接続詞の Because が入る。Because of の後ろには名詞が来る。",
+            "choiceNotes": [
+                "Because「～なので（＋節）」",
+                "Because of「～が原因で（＋名詞）」",
+                "Although「～だけれども」",
+                "So「だから」"
+            ],
+            "tip": "授業の Because you applied a little late, ... と同じ形。Because のまとまりが理由を表す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "The streets were very quiet last Sunday. This was (　) a big typhoon was coming.",
+            "choices": [
+                "why",
+                "because",
+                "what",
+                "though"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "先週の日曜日、通りはとても静かだった。これは大きな台風が近づいていたからだ。",
+            "explanation": "This was because ～ で「これは～だったからだ」と、前の文の理由を後から述べる。This was why ～ は「そういうわけで～」と結果を表すので合わない。",
+            "choiceNotes": [
+                "why「だから～（結果）」",
+                "because「～だから（理由）」",
+                "what「～こと」",
+                "though「～だけれども」"
+            ],
+            "tip": "授業の This was because it could help ... と同じ形。This が指す文を確かめる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "There are many ways to save water at home. (　), you can turn off the water while brushing your teeth.",
+            "choices": [
+                "However",
+                "As a result",
+                "For example",
+                "Because"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "家で水を節約する方法はたくさんある。例えば、歯をみがく間は水を止めることができる。",
+            "explanation": "前の文の「水を節約する方法」の具体例を後ろの文で挙げているので、For example「例えば」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "As a result「その結果」",
+                "For example「例えば」",
+                "Because「～なので（＋節）」"
+            ],
+            "tip": "授業の For example, people used salt ... と同じ。大まかな内容の後に具体例が続く。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Drinking warm milk before bed may help you (　) better.",
+            "choices": [
+                "sleeping",
+                "sleep",
+                "slept",
+                "sleeps"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "寝る前に温かい牛乳を飲むと、よく眠れるかもしれない。",
+            "explanation": "〈help＋O＋動詞の原形〉で「Oが～するのを助ける」。O の後ろは原形（to＋原形も可）なので、ここでは sleep を選ぶ。",
+            "choiceNotes": [
+                "sleeping「-ing 形」",
+                "sleep「原形」",
+                "slept「過去形・過去分詞」",
+                "sleeps「3単現」"
+            ],
+            "tip": "授業の it could help food last longer と同じ形。「～すると…できる」と訳すと自然。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Emi went to the city library (　) some books for her science report.",
+            "choices": [
+                "borrow",
+                "borrowed",
+                "borrows",
+                "to borrow"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "エミは理科のレポートのための本を借りるために、市立図書館へ行った。",
+            "explanation": "〈to＋動詞の原形〉で「～するために」と目的を表す（副詞的用法）。図書館へ行った目的が「本を借りること」なので to borrow が入る。",
+            "choiceNotes": [
+                "borrow「原形」",
+                "borrowed「過去形・過去分詞」",
+                "borrows「3単現」",
+                "to borrow「～するために」"
+            ],
+            "tip": "授業の to improve their health conditions と同じ形。「何のために？」の答えになる。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "This hotel has a beautiful view of the sea. (　), it also has a large hot spring bath.",
+            "choices": [
+                "However",
+                "Instead",
+                "In addition",
+                "As a result"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "このホテルからは海の美しい景色が見える。さらに、大きな温泉もある。",
+            "explanation": "「海の景色が美しい」に「大きな温泉もある」という別の良い点を付け加えているので、追加を表す In addition「さらに」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "In addition「さらに」",
+                "As a result「その結果」"
+            ],
+            "tip": "授業の In addition, salt is found ... と同じ。also と一緒に使うことも多い。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The heavy snow prevented the players (　) practicing outside.",
+            "choices": [
+                "from",
+                "to",
+                "of",
+                "for"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "大雪のせいで、選手たちは外で練習できなかった。",
+            "explanation": "〈prevent＋A＋from＋-ing〉で「Aが～するのを妨げる」。ここでは「大雪のせいで、選手たちは…できなかった」と訳すと自然。",
+            "choiceNotes": [
+                "from「～から（prevent A from）」",
+                "to「～へ」",
+                "of「～の」",
+                "for「～のために」"
+            ],
+            "tip": "授業の prevent the roads from freezing と同じ形。from の後ろは -ing 形。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "This park is large, safe, and close to the station. (　), many families come here on weekends.",
+            "choices": [
+                "However",
+                "For these reasons",
+                "For example",
+                "Instead"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この公園は広くて安全で、駅にも近い。これらの理由から、週末には多くの家族がここに来る。",
+            "explanation": "前の文の「広い・安全・駅に近い」という複数の理由をまとめ、その結論を述べているので、For these reasons「これらの理由から」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For these reasons「これらの理由から」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の For these reasons, salt will ... と同じ。段落のまとめの合図になる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The number of foreign tourists visiting Japan will probably continue (　) in the coming years.",
+            "choices": [
+                "grow",
+                "grew",
+                "to grow",
+                "grown"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "日本を訪れる外国人観光客の数は、今後数年もおそらく増え続けるだろう。",
+            "explanation": "〈continue to＋動詞の原形〉で「～し続ける」。-ing 形も続けられるが、選択肢では to grow だけが当てはまる。probably は「おそらく」。",
+            "choiceNotes": [
+                "grow「原形」",
+                "grew「過去形」",
+                "to grow「to不定詞」",
+                "grown「過去分詞」"
+            ],
+            "tip": "授業の will probably continue to ... と同じ形。「おそらく～し続ける」と訳す。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語、Eメール、塩についての説明文に出てきたものです。so や However、For example、In addition などのつなぎの言葉は、文と文の関係を示す目印になり、長文の流れをつかむ手がかりになります。英作文で理由や具体例を書くときにも使えるので、間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}

@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2025-2-sat",
+    "title": "文法事項の確認",
+    "theme": "理由と逆接・譲歩と推薦・条件と注意・一般的な見解",
+    "aim": "授業の物語文・Eメール・説明文に出てきた、理由と逆接の表現、関係詞、「～している間」の表し方、譲歩・推薦・理由の表現、条件・依頼・注意の表現、一般的な見解や追加の表現、主語の形を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "理由・逆接を表す語句と、関係詞の使い方が分かる",
+        "譲歩・推薦・理由を表す表現を使い分けられる",
+        "条件・ていねいな依頼・注意を表す表現が分かる",
+        "一般的な見解・追加の表現と、主語になる形が分かる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I feel very tired today. This is (　) I stayed up late last night.",
+            "choices": [
+                "why",
+                "what",
+                "because",
+                "unless"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "今日はとても疲れている。それは、昨夜遅くまで起きていたからだ。",
+            "explanation": "This is because ～ で「それは～だからだ」。前の文の「疲れている」の理由を後ろで説明している。This is why は「だから～」で、原因と結果が逆になる。",
+            "choiceNotes": [
+                "why「だから～（結果）」",
+                "what「～こと」",
+                "because「～だから（理由）」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の This is because he normally lives ... と同じ形。This は前の文を指す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My brother usually wakes up early. (　), he slept until noon last Sunday.",
+            "choices": [
+                "Therefore",
+                "However",
+                "For example",
+                "Because"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "兄はふだん早く起きる。しかし、この前の日曜日は昼まで寝ていた。",
+            "explanation": "「ふだんは早く起きる」に対して「昼まで寝ていた」と、予想に反する内容が続くので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "However「しかし」",
+                "For example「例えば」",
+                "Because「～なので（＋文）」"
+            ],
+            "tip": "授業の However, many things were ... と同じ。予想と違う事実が続く合図。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "We visited a small village (　) people still make paper by hand.",
+            "choices": [
+                "where",
+                "which",
+                "what",
+                "who"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "私たちは、今でも人々が手作業で紙を作っている小さな村を訪れた。",
+            "explanation": "a small village を説明する関係副詞 where。後ろの people still make paper は欠けている要素のない完全な文なので which は不可。",
+            "choiceNotes": [
+                "where「関係副詞（場所）」",
+                "which「関係代名詞（物）」",
+                "what「先行詞を含む」",
+                "who「関係代名詞（人）」"
+            ],
+            "tip": "授業の an area where everything ... と同じ形。後ろが完全な文かを確かめる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Please do not use your smartphone while (　) a bike.",
+            "choices": [
+                "ride",
+                "rode",
+                "ridden",
+                "riding"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "自転車に乗っている間は、スマートフォンを使わないでください。",
+            "explanation": "while＋-ing 形で「～している間に」。while you are riding の you are が省略された形と考えると分かりやすい。",
+            "choiceNotes": [
+                "ride「原形」",
+                "rode「過去形」",
+                "ridden「過去分詞」",
+                "riding「-ing 形」"
+            ],
+            "tip": "授業の even cooking dinner while camping と同じ形。主語と be 動詞を補って読む。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "(　) it was raining hard, the players kept practicing outside.",
+            "choices": [
+                "Because",
+                "So",
+                "Even though",
+                "Because of"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "激しく雨が降っていたにもかかわらず、選手たちは外で練習を続けた。",
+            "explanation": "「激しい雨」と「外で練習を続けた」は逆の流れなので、譲歩の Even though「～にもかかわらず」。後ろが〈主語＋動詞〉なので Because of は使えない。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "So「だから」",
+                "Even though「～にもかかわらず」",
+                "Because of「～のために（＋名詞）」"
+            ],
+            "tip": "授業の Even though the mountain offers ... と同じ形。前半と後半が逆の流れになる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "We especially recommend (　) the sunset from the top of the hill.",
+            "choices": [
+                "watch",
+                "watching",
+                "watched",
+                "watches"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "特に、丘の頂上から夕日を眺めることをお勧めします。",
+            "explanation": "recommend の目的語に動詞を置くときは -ing 形（動名詞）にする。recommend watching で「眺めることを勧める」。",
+            "choiceNotes": [
+                "watch「原形」",
+                "watching「-ing 形（動名詞）」",
+                "watched「過去形・過去分詞」",
+                "watches「3単現」"
+            ],
+            "tip": "授業の We especially recommend hiking と同じ形。especially は「特に」。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Please bring a warm jacket, (　) the nights in the mountains are very cold.",
+            "choices": [
+                "though",
+                "until",
+                "during",
+                "as"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "山の夜はとても寒いので、暖かい上着を持ってきてください。",
+            "explanation": "「山の夜はとても寒い」は、上着を持ってくる理由。理由を表す接続詞 as「～なので」が入る。though では意味が逆になる。",
+            "choiceNotes": [
+                "though「～だけれども」",
+                "until「～までずっと」",
+                "during「～の間（＋名詞）」",
+                "as「～なので（理由）」"
+            ],
+            "tip": "授業の as they are seen around that time の as も理由を表す。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) you are lucky, you might see dolphins during the boat tour.",
+            "choices": [
+                "If",
+                "Unless",
+                "Although",
+                "Before"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "運が良ければ、ボートツアーの間にイルカが見られるかもしれない。",
+            "explanation": "「運が良ければ」という条件を表す If。Unless は「～でない限り」、Although は「～だけれども」で、後半とつながらない。",
+            "choiceNotes": [
+                "If「もし～ならば」",
+                "Unless「～しない限り」",
+                "Although「～だけれども」",
+                "Before「～する前に」"
+            ],
+            "tip": "授業の If you are lucky と同じ表現。「運が良ければ」とまとめて覚える。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "We would like you (　) your name on this list before the tour starts.",
+            "choices": [
+                "write",
+                "wrote",
+                "written",
+                "to write"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "ツアーが始まる前に、このリストにお名前を書いていただきたいと思います。",
+            "explanation": "would like＋人＋to＋動詞の原形で「（人）に～してほしい」。want＋人＋to ～ のていねいな言い方で、依頼に使う。",
+            "choiceNotes": [
+                "write「原形」",
+                "wrote「過去形」",
+                "written「過去分詞」",
+                "to write「to 不定詞」"
+            ],
+            "tip": "授業の rules we would like you to follow と同じ形。ていねいな依頼になる。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Visitors should not (　) too close to the wild birds in this park.",
+            "choices": [
+                "getting",
+                "get",
+                "to get",
+                "got"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この公園を訪れる人は、野鳥に近づきすぎるべきではない。",
+            "explanation": "助動詞 should の後ろは動詞の原形。should not get too close to ～ で「～に近づきすぎるべきではない」と注意を促す。",
+            "choiceNotes": [
+                "getting「-ing 形」",
+                "get「原形」",
+                "to get「to 不定詞」",
+                "got「過去形・過去分詞」"
+            ],
+            "tip": "授業の You should not get too close to them と同じ形。too は「～すぎる」。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "It is (　) that this old temple was built more than 800 years ago.",
+            "choices": [
+                "say",
+                "says",
+                "said",
+                "talked"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "この古い寺は、800年以上前に建てられたと言われている。",
+            "explanation": "It is said that ～ で「～と言われている」。It は that 以下を指す形式主語で、say を受け身（be＋過去分詞）にした形。",
+            "choiceNotes": [
+                "say「原形」",
+                "says「3単現」",
+                "said「過去分詞」",
+                "talked「that 節は続かない」"
+            ],
+            "tip": "授業の Also, it is said that ... と同じ形。だれが言ったかを示さず、一般的な見方を表す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The new bridge (　) people to cross the river in just five minutes.",
+            "choices": [
+                "allows",
+                "makes",
+                "lets",
+                "has"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "新しい橋のおかげで、人々はわずか5分で川を渡ることができる。",
+            "explanation": "allow＋人＋to＋動詞の原形で「（人）が～できるようにする」。make・let・have は〈人＋動詞の原形〉の形で使い、to は付けない。",
+            "choiceNotes": [
+                "allows「～できるようにする」",
+                "makes「（人）に～させる」",
+                "lets「（人）に～させてやる」",
+                "has「（人）に～してもらう」"
+            ],
+            "tip": "授業の it allows people to feel calm と同じ形。「～のおかげで…できる」と訳すと自然。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) a diary in English is a good way to practice writing.",
+            "choices": [
+                "Keep",
+                "Kept",
+                "Keeps",
+                "Keeping"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "英語で日記をつけることは、書く練習をするのによい方法だ。",
+            "explanation": "Keeping a diary in English までが主語の動名詞句で、動詞は is。動詞のまとまりを主語にするとき、-ing 形で「～すること」を表せる。",
+            "choiceNotes": [
+                "Keep「原形（命令文の形）」",
+                "Kept「過去形・過去分詞」",
+                "Keeps「3単現」",
+                "Keeping「～すること（動名詞）」"
+            ],
+            "tip": "授業の experiencing this feeling is good と同じ形。動詞 is を先に見つける。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Bicycles are good for your health. (　), they do not pollute the air.",
+            "choices": [
+                "However",
+                "Also",
+                "Instead",
+                "Otherwise"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "自転車は健康によい。また、空気を汚すこともない。",
+            "explanation": "前の文の「健康によい」に、もう一つのよい点を付け加えているので、追加を表す Also「また」が入る。However は反対の内容を続けるときに使う。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Also「また（追加）」",
+                "Instead「その代わりに」",
+                "Otherwise「さもないと」"
+            ],
+            "tip": "授業の Also, it is said that ... と同じ。よい点や効果を付け加えるときの目印になる。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語文、Eメール、説明文に出てきたものです。This is because や However、Also などは、文と文の関係を示す目印になり、長文の内容をつかむ手がかりになります。英作文で理由を書くときにも使えるので、間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}
