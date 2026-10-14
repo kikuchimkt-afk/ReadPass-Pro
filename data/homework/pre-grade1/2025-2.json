@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2025-2",
+    "title": "文法事項の確認",
+    "theme": "仮定法・通説の紹介と反証・譲歩・倒置と不定詞",
+    "aim": "授業の長文で学んだ、過去の事実に反する仮定を表す仮定法、通説を紹介する受動態とそれを覆す表現、事実を認めたうえで反論する譲歩の表現、条件を限定する表現と倒置、動詞に続く不定詞の形を、新しい英文の中で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "「～がなければ…だっただろう」という仮定を読み取れる",
+        "通説を紹介する受動態と、それを覆す新しい証拠の流れが分かる",
+        "事実を認めてから反論する譲歩と、理由を挙げる表現を使い分けられる",
+        "文頭の語句による倒置と、動詞に続く不定詞の形を判断できる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) the maps drawn by early explorers, building the railway across the mountains would have taken decades longer.",
+            "choices": [
+                "Unless",
+                "Although",
+                "Without",
+                "Even if"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "初期の探検家が描いた地図がなければ、山脈を越える鉄道の建設には、さらに何十年もかかっていただろう。",
+            "explanation": "後ろは名詞句だけなので、前置詞の Without「～がなければ」が入る。主節の would have taken と合わせて、過去の事実に反する仮定を表す。",
+            "choiceNotes": [
+                "Unless「接続詞・後ろは節」",
+                "Although「接続詞・後ろは節」",
+                "Without「～がなければ」",
+                "Even if「接続詞・後ろは節」"
+            ],
+            "tip": "授業の Without them, it would have been impossible と同じ形。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "(　) it not been for the generous donations from local businesses, the town's only library would have closed years ago.",
+            "choices": [
+                "Had",
+                "Were",
+                "Has",
+                "Should"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "地元企業からの多額の寄付がなければ、その町で唯一の図書館は何年も前に閉館していただろう。",
+            "explanation": "Had it not been for ～ は If it had not been for ～ の if を省いた倒置で、「～がなければ」。過去の事実に反する仮定を表す。",
+            "choiceNotes": [
+                "Had「仮定法過去完了の倒置」",
+                "Were「Were it not for で使う」",
+                "Has「現在完了」",
+                "Should「万一～なら」"
+            ],
+            "tip": "授業の Without them は Had it not been for them と言い換えられる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The pilot's quick action prevented a crash; even a few seconds' delay (　) have proved fatal for everyone on board.",
+            "choices": [
+                "must",
+                "cannot",
+                "need not",
+                "could"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "機長の素早い対応が墜落を防いだ。数秒遅れただけでも、乗っていた全員にとって命取りになりかねなかった。",
+            "explanation": "ここの could have＋過去分詞は「（実際は起きなかったが）～した可能性があった」の意味。主語の「数秒の遅れ」に「もし遅れていたら」という仮定が含まれる。",
+            "choiceNotes": [
+                "must「～したに違いない」",
+                "cannot「～したはずがない」",
+                "need not「～する必要はなかった」",
+                "could「～しかねなかった」"
+            ],
+            "tip": "授業の could have had ... consequences と同じ形。「～しかねなかった」と訳す。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The young mathematicians, who later (　) to be called 'the codebreakers,' worked in complete secrecy throughout the war.",
+            "choices": [
+                "became",
+                "came",
+                "turned",
+                "made"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "後に「暗号解読者」と呼ばれるようになった若い数学者たちは、戦争中ずっと極秘に働いていた。",
+            "explanation": "come to＋動詞の原形で「～するようになる」。to be called と続けて「～と呼ばれるようになる」。become はこの意味で to不定詞を続けられない。",
+            "choiceNotes": [
+                "became「to不定詞は続かない」",
+                "came「～するようになった」",
+                "turned「向きを変えた」",
+                "made「作った・～させた」"
+            ],
+            "tip": "授業の who came to be called と同じ形。become to ～ とは言わない。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "For centuries, it (　) that the disease spread only through direct contact with infected people.",
+            "choices": [
+                "believed",
+                "was believing",
+                "has believed",
+                "was believed"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "何世紀もの間、その病気は感染した人と直接触れることでしか広がらないと信じられていた。",
+            "explanation": "it was believed that ～ で「～と信じられていた」。it は that 節を指す形式主語。昔の通説を紹介するときによく使う受動態の形。",
+            "choiceNotes": [
+                "believed「能動」",
+                "was believing「進行形」",
+                "has believed「現在完了」",
+                "was believed「受動態」"
+            ],
+            "tip": "授業の it was believed ... と同じ形。長文では、このあと通説を覆す内容が続くことが多い。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Before printing became common, owning books remained a privilege limited (　) wealthy families and monasteries.",
+            "choices": [
+                "at",
+                "of",
+                "to",
+                "from"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "印刷が普及する前は、本を持つことは、裕福な家庭や修道院に限られた特権だった。",
+            "explanation": "be limited to ～ で「～に限られている」。ここでは limited 以下が privilege を後ろから修飾し、「～に限られた特権」となっている。",
+            "choiceNotes": [
+                "at「～で（地点）」",
+                "of「～の」",
+                "to「～に（範囲）」",
+                "from「～から」"
+            ],
+            "tip": "授業の was limited to animals と同じ形。to の後ろが範囲を表す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "A new survey suggests that sleep problems among teenagers are far more widespread than (　) previously thought.",
+            "choices": [
+                "did",
+                "was",
+                "had",
+                "has"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "新しい調査によると、10代の若者の睡眠の問題は、以前考えられていたよりもはるかに広がっているらしい。",
+            "explanation": "more ～ than was previously thought で「以前考えられていたより～」。この形では than が主語の働きを兼ねるので、was の前に主語を置かない。",
+            "choiceNotes": [
+                "did「代動詞」",
+                "was「受動態をつくる」",
+                "had「過去完了」",
+                "has「現在完了」"
+            ],
+            "tip": "授業の more common than was previously thought と同じ形。決まった言い方。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "Bats are often seen only as carriers of disease. (　), research has shown that they help control insect pests.",
+            "choices": [
+                "However",
+                "Therefore",
+                "Similarly",
+                "For instance"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "コウモリは病気を運ぶ動物としか見られないことが多い。しかし研究では、害虫の駆除に役立つことが示されている。",
+            "explanation": "前の文の「病気を運ぶだけ」という見方と、後ろの「害虫の駆除に役立つ」という研究結果が反対の内容なので、逆接の However が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Therefore「したがって」",
+                "Similarly「同様に」",
+                "For instance「たとえば」"
+            ],
+            "tip": "授業の However, a recent review ... has shown と同じ流れ。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) the program reached only 300 students, that fact does not lessen its importance as the first of its kind.",
+            "choices": [
+                "Despite",
+                "While",
+                "Unless",
+                "Because"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その取り組みの対象は300人の生徒にとどまったが、そのことで、初めての試みとしての重要性が損なわれるわけではない。",
+            "explanation": "While は「～だが」と譲歩を表す接続詞。前半で規模の小ささを事実として認め、後半の does not lessen で重要性は変わらないと述べている。",
+            "choiceNotes": [
+                "Despite「前置詞・後ろは名詞」",
+                "While「～だが（譲歩）」",
+                "Unless「～しない限り」",
+                "Because「～なので」"
+            ],
+            "tip": "授業の While this was true, it did not lessen と同じ流れ。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The council rejected the bridge plan for two reasons. (　), it would have cost more than the city's annual budget.",
+            "choices": [
+                "Instead",
+                "Likewise",
+                "For one thing",
+                "Even so"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "市議会は二つの理由でその橋の計画を退けた。一つには、建設していれば市の年間予算を上回る費用がかかっていたからだ。",
+            "explanation": "For one thing は「一つには」と、いくつかある理由の一つ目を挙げる表現。前の文の two reasons の一つを述べている。",
+            "choiceNotes": [
+                "Instead「その代わりに」",
+                "Likewise「同様に」",
+                "For one thing「一つには」",
+                "Even so「それでも」"
+            ],
+            "tip": "授業の For one thing と同じ使い方。二つ目の理由も探して読む。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "After years of silence, the nurses finally felt sufficiently empowered to stand up (　) their right to fair pay.",
+            "choices": [
+                "to",
+                "with",
+                "on",
+                "for"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "長年声を上げられずにいた看護師たちは、ついに公正な賃金を受ける権利を守るために立ち上がる力を得た。",
+            "explanation": "stand up for ～ で「～を守るために立ち上がる」。stand up to ～ は「～に立ち向かう」で、自分たちの権利が目的語では意味が通らない。",
+            "choiceNotes": [
+                "to「～に立ち向かう」",
+                "with「～と一緒に」",
+                "on「～の上に」",
+                "for「～を守るために」"
+            ],
+            "tip": "授業の sufficiently empowered to stand up for と同じ表現。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Scientists believe that a sudden drop in water temperature (　) the salmon to begin their long journey upstream.",
+            "choices": [
+                "triggers",
+                "makes",
+                "lets",
+                "has"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "科学者たちは、水温の急な低下がきっかけとなって、サケが川を上る長い旅を始めると考えている。",
+            "explanation": "trigger O to V で「O が V するきっかけになる」。make・let・have は使役動詞で、O の後ろに to のない原形を続けるので、ここでは使えない。",
+            "choiceNotes": [
+                "triggers「O＋to不定詞をとる」",
+                "makes「O＋原形をとる」",
+                "lets「O＋原形をとる」",
+                "has「O＋原形をとる」"
+            ],
+            "tip": "授業の something triggers them to seek out と同じ形。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "This plant usually has no scent. Only when insects damage its leaves (　) a strong odor that drives them away.",
+            "choices": [
+                "it emits",
+                "does it emit",
+                "it does emit",
+                "emits it"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "この植物はふだんは香りがない。虫に葉を傷つけられたときにだけ、虫を追い払う強いにおいを出す。",
+            "explanation": "Only when ～ が文頭に出ると、主節は疑問文と同じ語順の倒置になる。emit は一般動詞なので、does it emit の形にする。",
+            "choiceNotes": [
+                "it emits「倒置なし」",
+                "does it emit「倒置」",
+                "it does emit「倒置なし」",
+                "emits it「do が必要」"
+            ],
+            "tip": "授業の only when they have wasp larvae と同じ表現。文頭に出たら倒置。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "After decades of research, scientists seem (　) the reason why some birds can sense the earth's magnetic field.",
+            "choices": [
+                "having found",
+                "to be found",
+                "to have found",
+                "found"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "数十年にわたる研究の末、科学者たちは、一部の鳥が地球の磁場を感じ取れる理由を突き止めたようだ。",
+            "explanation": "seem to have＋過去分詞で「～したようだ」。理由を突き止めたのは「ようだ」と判断している今より前のことなので、完了不定詞を使う。",
+            "choiceNotes": [
+                "having found「-ing形」",
+                "to be found「受動」",
+                "to have found「完了不定詞」",
+                "found「過去分詞」"
+            ],
+            "tip": "授業の seem to have determined と同じ形。「～したようだ」と訳す。"
+        }
+    ],
+    "closing": "今回の授業の長文には、「～がなければ不可能だっただろう」という仮定や、通説を紹介してから新しい証拠で覆す流れ、事実を認めたうえで反論する流れが出てきました。準1級の長文では、こうした文と文の関係をつかむことが、内容を正しく読み取る手がかりになります。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
