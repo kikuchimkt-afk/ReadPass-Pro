@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-2",
+    "title": "文法事項の確認",
+    "theme": "無生物主語・仮定法・「～かどうか」の名詞節・部分否定",
+    "aim": "授業で学んだ無生物主語の構文、「まるで～のように」を表す仮定法、「～かどうか」を表す名詞節、「必ずしも～とは限らない」という部分否定を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "無生物主語の文を「～のおかげで」「～すると」と訳せる",
+        "「まるで～のように」の文で、時に合った動詞の形を選べる",
+        "「～かどうか」を表す名詞節の位置と働きがわかる",
+        "部分否定と全否定を区別して訳せる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The new streetlights have made the park much (　) to walk through at night.",
+            "choices": [
+                "safely",
+                "safety",
+                "safer",
+                "more safely"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "新しい街灯のおかげで、夜にその公園を歩いて通り抜けるのがずっと安全になった。",
+            "explanation": "make＋O＋C で「OをCにする」。C は公園の状態を表す形容詞。ここの much は比較級を強める語なので、safe の比較級 safer を選ぶ。",
+            "choiceNotes": [
+                "safely「安全に（副詞）」",
+                "safety「安全（名詞）」",
+                "safer「より安全な」",
+                "more safely「副詞の比較級」"
+            ],
+            "tip": "授業の This makes the time ... different と同じ形。C の位置に副詞は置けない。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Drinking enough water helps your body (　) its temperature on hot days.",
+            "choices": [
+                "controls",
+                "control",
+                "controlled",
+                "controlling"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "水を十分に飲むと、暑い日に体が体温を調節しやすくなる。",
+            "explanation": "help＋O＋動詞の原形で「Oが～するのを助ける」。your body の後ろに原形の control を置く。to control としても正しい。",
+            "choiceNotes": [
+                "controls「3単現」",
+                "control「原形」",
+                "controlled「過去形・過去分詞」",
+                "controlling「-ing形」"
+            ],
+            "tip": "授業の This helps them spot animals と同じ形。主語を「～すると」と訳すと自然。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The scholarship from the city (　) her to study abroad for a year without worrying about money.",
+            "choices": [
+                "made",
+                "let",
+                "had",
+                "allowed"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "市の奨学金のおかげで、彼女はお金の心配をせずに1年間留学することができた。",
+            "explanation": "allow＋O＋to V で「Oが～するのを可能にする」。made・let・had は O の後に動詞を続けるなら原形なので、to study とはつながらない。",
+            "choiceNotes": [
+                "made「O＋原形」",
+                "let「O＋原形」",
+                "had「O＋原形」",
+                "allowed「O＋to V」"
+            ],
+            "tip": "授業で確認した allow＋O＋to V の形。主語を「～のおかげで」と訳すと自然になる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Her ability to speak three languages (　) to her advantage when she applied for the job.",
+            "choices": [
+                "worked",
+                "made",
+                "let",
+                "caused"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "3か国語を話せることが、その仕事に応募したときに彼女にとって有利に働いた。",
+            "explanation": "work to one's advantage で「（人）にとって有利に働く」。この work は目的語をとらない。made・let・caused はどれも後ろに目的語が必要。",
+            "choiceNotes": [
+                "worked「働いた・作用した」",
+                "made「O＋C などが続く」",
+                "let「O＋原形が続く」",
+                "caused「O や O＋to V が続く」"
+            ],
+            "tip": "授業の Darkness works to their advantage. と同じ表現。抽象名詞が主語。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "He spent money as if he (　) a millionaire, but in fact he had almost no savings.",
+            "choices": [
+                "is",
+                "be",
+                "has been",
+                "were"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "彼はまるで大金持ちであるかのようにお金を使ったが、実際には貯金がほとんどなかった。",
+            "explanation": "as if＋仮定法過去で「まるで～であるかのように」。使ったときの事実と違う内容なので、be 動詞は were（口語では was も使う）。",
+            "choiceNotes": [
+                "is「現在形」",
+                "be「原形」",
+                "has been「現在完了」",
+                "were「仮定法過去」"
+            ],
+            "tip": "授業の She spoke as if she knew everything と同じ形。過去形で事実と違うことを表す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Although they had just met, the two girls talked as if they (　) friends for years.",
+            "choices": [
+                "have been",
+                "had been",
+                "are",
+                "being"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "2人の少女は出会ったばかりなのに、まるで何年も前から友達だったかのように話した。",
+            "explanation": "話したときより前から続く、事実と違う内容なので、as if＋仮定法過去完了の had been。for years は「何年も前から」。",
+            "choiceNotes": [
+                "have been「現在完了」",
+                "had been「仮定法過去完了」",
+                "are「現在形」",
+                "being「-ing形」"
+            ],
+            "tip": "(5)は使ったのと同じ時、(6)は話したときより前から。時のずれを見て形を選ぶ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "When the music began, the puppy stood on its back legs and looked as if it (　).",
+            "choices": [
+                "was dancing",
+                "is dancing",
+                "dances",
+                "has danced"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "音楽が始まると、子犬は後ろ足で立ち、まるで踊っているかのように見えた。",
+            "explanation": "looked as if＋過去進行形で「まるで～しているかのように見えた」。looked に時をそろえるので、現在形や現在完了は使わない。",
+            "choiceNotes": [
+                "was dancing「過去進行形」",
+                "is dancing「現在進行形」",
+                "dances「現在形」",
+                "has danced「現在完了」"
+            ],
+            "tip": "授業の It looked as if it was walking down the stairs. と同じ形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) the new stadium will be finished by next spring depends on the weather this winter.",
+            "choices": [
+                "If",
+                "What",
+                "Whether",
+                "Which"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "新しい競技場が来年の春までに完成するかどうかは、この冬の天候しだいだ。",
+            "explanation": "Whether から spring までが主語で、動詞は depends。if の名詞節は文の主語にしない。後ろが完全な文なので What・Which は不可。",
+            "choiceNotes": [
+                "If「主語の位置では不可」",
+                "What「後ろは不完全な文」",
+                "Whether「～かどうか」",
+                "Which「後ろは不完全な文」"
+            ],
+            "tip": "授業の is whether only humans can ... と同じ whether 節。ここでは文の主語。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The students had a long discussion about (　) their school should start classes thirty minutes later.",
+            "choices": [
+                "whether",
+                "that",
+                "what",
+                "which"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "生徒たちは、学校が授業の開始を30分遅らせるべきかどうかについて、長い時間話し合った。",
+            "explanation": "前置詞 about の目的語になる名詞節。後ろは完全な文で「～かどうか」を表すので whether。that 節は原則として前置詞の後ろに置けない。",
+            "choiceNotes": [
+                "whether「～かどうか」",
+                "that「about の後ろは不可」",
+                "what「後ろは不完全な文」",
+                "which「後ろは不完全な文」"
+            ],
+            "tip": "授業の We need to discuss whether ... と同じ「～かどうか」。前置詞の後ろにも置ける。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "This machine is used (　) the amount of rain that falls in the area each day.",
+            "choices": [
+                "measure",
+                "to measure",
+                "measuring",
+                "measured"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この機械は、その地域で毎日降る雨の量を測るために使われている。",
+            "explanation": "be used to V で「～するために使われる」。受動態の後ろに、目的を表す to不定詞が続く。be used to -ing（～に慣れている）とは別の形。",
+            "choiceNotes": [
+                "measure「原形」",
+                "to measure「測るために」",
+                "measuring「-ing形」",
+                "measured「過去分詞」"
+            ],
+            "tip": "授業の The mirror test is used to judge this. と同じ形。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Many shoppers know that a higher price does not (　) guarantee better quality.",
+            "choices": [
+                "necessary",
+                "necessity",
+                "necessarily",
+                "unnecessary"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "値段が高いからといって必ずしも品質がよいとは限らないことを、多くの買い物客は知っている。",
+            "explanation": "not necessarily で「必ずしも～とは限らない」という部分否定。動詞 guarantee を修飾するので、副詞の necessarily が入る。",
+            "choiceNotes": [
+                "necessary「形容詞」",
+                "necessity「名詞」",
+                "necessarily「必ずしも」",
+                "unnecessary「不要な」"
+            ],
+            "tip": "授業の does not always guarantee と同じ部分否定。「全く～ない」と訳さない。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "(　) of the passengers on this bus are tourists; some are local people on their way to work.",
+            "choices": [
+                "Not all",
+                "All",
+                "Each",
+                "Every"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "このバスの乗客全員が観光客というわけではなく、通勤途中の地元の人もいる。",
+            "explanation": "not all で「全員が～というわけではない」という部分否定。後半の「地元の人もいる」と合うのは Not all だけ。",
+            "choiceNotes": [
+                "Not all「全員が～とは限らない」",
+                "All「全員（後半と矛盾）」",
+                "Each「単数扱い」",
+                "Every「of を続けられない」"
+            ],
+            "tip": "授業の vision is not the main sense for all animals も部分否定。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "I have two older brothers, but I don't get along with (　) of them. I'm only close to the younger one.",
+            "choices": [
+                "either",
+                "neither",
+                "none",
+                "both"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "私には兄が2人いるが、2人とも仲がよいわけではない。親しいのは下の兄だけだ。",
+            "explanation": "not ... both で「両方とも～というわけではない」という部分否定。not ... either は「どちらとも～ない」という全否定で、後ろの文と合わない。",
+            "choiceNotes": [
+                "either「not と全否定」",
+                "neither「not と重ねない」",
+                "none「not と重ねない」",
+                "both「not と部分否定」"
+            ],
+            "tip": "not＋both は部分否定、not＋either は全否定。(12)の Not all と同じ考え方。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Getting a high score on a test does not always (　) that you understand the subject well.",
+            "choices": [
+                "means",
+                "mean",
+                "meaning",
+                "meant"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "テストで高得点を取ったからといって、その科目をよく理解しているとは限らない。",
+            "explanation": "does not always mean で「いつも～を意味するとは限らない」という部分否定。does の後ろなので動詞は原形の mean。",
+            "choiceNotes": [
+                "means「3単現」",
+                "mean「原形」",
+                "meaning「-ing形」",
+                "meant「過去形・過去分詞」"
+            ],
+            "tip": "授業の Failing ... does not always mean と同じ形。「～からといって」と訳す。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の構文はどれも大問2・3の長文で使われていました。無生物主語の文は「～のおかげで」「～すると」と訳すと因果関係がつかみやすくなり、部分否定に気づくと、筆者の主張を言いすぎずに読み取れます。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに同じ形だと気づけるようにしましょう。"
+}

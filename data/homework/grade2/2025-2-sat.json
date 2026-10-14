@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2025-2-sat",
+    "title": "文法事項の確認",
+    "theme": "仮定法過去・結果の構文・回避と手段・間接疑問",
+    "aim": "授業で学んだ仮定法過去、「あまりに～なので…」の結果の構文と「さもなければ」の表現、「～を避けるために」「～することによって」の表現、間接疑問を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "現在の事実に反する仮定を、動詞と助動詞の形で表せる",
+        "「あまりに～なので…」「さもなければ」の意味を読み取れる",
+        "「～を避ける」の後ろの動詞の形と、手段の表し方を選べる",
+        "間接疑問の語順と、名詞節を導く語を判断できる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "If there (　) more trees along the streets, the city would be much cooler in summer.",
+            "choices": [
+                "are",
+                "were",
+                "will be",
+                "have been"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "もし通りにもっと木があれば、その街は夏にずっと涼しいだろうに。",
+            "explanation": "主節の would be から、現在の事実に反する仮定（仮定法過去）だと分かる。If 節の be動詞は過去形の were にする。",
+            "choiceNotes": [
+                "are「現在形」",
+                "were「過去形（仮定法）」",
+                "will be「未来を表す形」",
+                "have been「現在完了」"
+            ],
+            "tip": "授業の If there were more air と同じ形。「実際は木が少ない」という現実を裏に読み取る。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "If I (　) a driver's license, I would take my grandmother to the hospital myself.",
+            "choices": [
+                "have",
+                "will have",
+                "having",
+                "had"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "もし運転免許を持っていれば、自分で祖母を病院に連れて行くのだが。",
+            "explanation": "主節が would take なので仮定法過去。実際は持っていない免許を「もし持っていれば」と仮定するので、If 節は過去形の had にする。",
+            "choiceNotes": [
+                "have「現在形」",
+                "will have「未来を表す形」",
+                "having「-ing 形」",
+                "had「過去形（仮定法）」"
+            ],
+            "tip": "授業の If I had more time, I would study ～ と同じ形。過去形でも「今」のことを表す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "If the museum opened on Sundays too, more families (　) enjoy its special exhibitions.",
+            "choices": [
+                "can",
+                "will",
+                "could",
+                "must"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その博物館が日曜日も開いていれば、もっと多くの家族が特別展を楽しめるだろうに。",
+            "explanation": "If 節が過去形 opened の仮定法過去なので、主節は〈助動詞の過去形＋原形〉になる。「～できるだろうに」の意味の could が入る。",
+            "choiceNotes": [
+                "can「～できる（現在形）」",
+                "will「～だろう（現在形）」",
+                "could「～できるだろうに」",
+                "must「～しなければならない」"
+            ],
+            "tip": "仮定法過去の主節は would だけではない。「～できるだろうに」なら could を使う。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "The fog this morning was (　) thick that the airport canceled all of its flights.",
+            "choices": [
+                "so",
+                "such",
+                "too",
+                "very"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "今朝は霧があまりに濃かったので、空港はすべての便を欠航にした。",
+            "explanation": "so＋形容詞＋that ～ で「あまりに…なので～」。so thick で霧の濃さの程度を示し、that 以下でその結果を述べている。",
+            "choiceNotes": [
+                "so「that と組んで結果」",
+                "such「後ろに名詞が必要」",
+                "too「to不定詞と組む」",
+                "very「that と組まない」"
+            ],
+            "tip": "授業の The room was so dark that ... と同じ形。「あまりに～なので」と前から順に訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "It was (　) a beautiful day that we decided to have lunch in the park.",
+            "choices": [
+                "too",
+                "such",
+                "very",
+                "so"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "とても天気のよい日だったので、私たちは公園で昼食を食べることにした。",
+            "explanation": "後ろに〈a＋形容詞＋名詞〉の a beautiful day が続くので such。such … that ～ も「とても…なので～」と結果を表す。",
+            "choiceNotes": [
+                "too「to不定詞と組む」",
+                "such「a＋形容詞＋名詞の前」",
+                "very「that と組まない」",
+                "so「形容詞・副詞の前」"
+            ],
+            "tip": "(4)と見比べる。thick だけなら so、a beautiful day のように〈a＋形容詞＋名詞〉なら such。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Penguins have a thick layer of fat under their skin. (　), they would not survive in the icy water.",
+            "choices": [
+                "However",
+                "Therefore",
+                "Otherwise",
+                "Instead"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ペンギンは皮膚の下に厚い脂肪の層がある。そうでなければ、冷たい水の中で生きられないだろう。",
+            "explanation": "Otherwise は「さもなければ（＝脂肪の層がなければ）」。事実に反する仮定なので、後ろは would not survive と仮定法の形になる。",
+            "choiceNotes": [
+                "However「しかしながら」",
+                "Therefore「したがって」",
+                "Otherwise「さもなければ」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業の Otherwise, they could not ... と同じ形。「脂肪がなければ」と補って読む。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Please keep the gate closed. (　), the dog might run out into the busy street.",
+            "choices": [
+                "Otherwise",
+                "Moreover",
+                "As a result",
+                "For example"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "門を閉めておいてください。そうしないと、犬が交通量の多い通りに飛び出すかもしれません。",
+            "explanation": "Otherwise は「さもなければ」。ここでは「門を閉めておかなければ」という意味で、指示を守らない場合に起こりうることを述べている。",
+            "choiceNotes": [
+                "Otherwise「さもなければ」",
+                "Moreover「さらに」",
+                "As a result「その結果」",
+                "For example「例えば」"
+            ],
+            "tip": "命令文の後の Otherwise は「そうしないと」と訳すと自然。(6)の「そうでなければ」と同じ働き。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "We started our trip before sunrise to avoid (　) stuck in heavy traffic on the highway.",
+            "choices": [
+                "get",
+                "getting",
+                "to get",
+                "got"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "高速道路のひどい渋滞に巻き込まれるのを避けるため、私たちは日の出前に出発した。",
+            "explanation": "to avoid は「～を避けるために」という目的。avoid の後に動詞を置くなら動名詞なので、get stuck「動けなくなる」を getting にする。",
+            "choiceNotes": [
+                "get「原形」",
+                "getting「動名詞」",
+                "to get「to不定詞」",
+                "got「過去形」"
+            ],
+            "tip": "授業の to avoid being caught と同じく、avoid の後ろの動詞は -ing 形にする。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The famous singer wore sunglasses and a cap to avoid (　) by her fans at the airport.",
+            "choices": [
+                "seeing",
+                "to be seen",
+                "seen",
+                "being seen"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "その有名な歌手は、空港でファンに見られるのを避けるために、サングラスと帽子を身につけていた。",
+            "explanation": "歌手はファンに「見られる」側なので、動名詞の受け身〈being＋過去分詞〉にする。avoid の後ろに to不定詞は使わない。",
+            "choiceNotes": [
+                "seeing「見ること（能動）」",
+                "to be seen「to不定詞」",
+                "seen「過去分詞」",
+                "being seen「見られること」"
+            ],
+            "tip": "授業の to avoid being caught by fish と同じ形。「～に…されるのを避ける」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "My brother runs for 30 minutes every morning. By (　) this, he has become much healthier.",
+            "choices": [
+                "do",
+                "done",
+                "doing",
+                "to do"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "兄は毎朝30分走っている。こうすることで、兄はずっと健康になった。",
+            "explanation": "by は前置詞なので、後ろの動詞は動名詞にする。By doing this で「こうすることで」と、前の文の行動を受けて手段を表す。",
+            "choiceNotes": [
+                "do「原形」",
+                "done「過去分詞」",
+                "doing「動名詞」",
+                "to do「to不定詞」"
+            ],
+            "tip": "授業の By doing so と同じ形。ここでは this が前の文の「毎朝走ること」を指している。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "It is still not clear (　) the summer festival will be held this year or not.",
+            "choices": [
+                "whether",
+                "what",
+                "that",
+                "which"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "今年、夏祭りが開かれるかどうかは、まだはっきりしていない。",
+            "explanation": "It は形式主語で、本当の主語は whether 以下の「～かどうか」。文末の or not も whether と組んでいる。後ろは完全な文。",
+            "choiceNotes": [
+                "whether「～かどうか」",
+                "what「何を（後ろは不完全）」",
+                "that「or not と組まない」",
+                "which「どちらを」"
+            ],
+            "tip": "授業の whether life ever existed と同じ「～かどうか」。ここでは主語の働き。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Even Ken's closest friends do not know why (　) the soccer team last month.",
+            "choices": [
+                "did he leave",
+                "he left",
+                "he leaves",
+                "left he"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "ケンの親友たちでさえ、彼が先月なぜサッカー部をやめたのかを知らない。",
+            "explanation": "why 以下は know の目的語になる間接疑問なので、〈why＋主語＋動詞〉の語順にする。疑問文の語順や did は使わない。",
+            "choiceNotes": [
+                "did he leave「疑問文の語順」",
+                "he left「主語＋動詞」",
+                "he leaves「現在形」",
+                "left he「語順が逆」"
+            ],
+            "tip": "授業の why it disappeared と同じ語順。Why did he leave? の語順のまま入れない。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Scientists are still studying (　) some birds find their way across the ocean.",
+            "choices": [
+                "what",
+                "which",
+                "who",
+                "how"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "科学者たちは、ある種の鳥がどのようにして海を越える道を見つけるのかを、今も研究している。",
+            "explanation": "how S V で「SがどのようにVするか」。how 以下は studying の目的語になる間接疑問。後ろは完全な文なので what や which は入らない。",
+            "choiceNotes": [
+                "what「何を（後ろは不完全）」",
+                "which「どちらを」",
+                "who「だれが・だれを」",
+                "how「どのように」"
+            ],
+            "tip": "授業の study how it differed ... と同じ形。「どのように～か」と訳す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The guide explained (　) long it took to build the castle.",
+            "choices": [
+                "what",
+                "which",
+                "how",
+                "when"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ガイドは、その城を建てるのにどのくらいの時間がかかったかを説明した。",
+            "explanation": "how long で「どのくらい長く」。〈how＋形容詞・副詞〉をひとまとまりにして間接疑問を作り、後ろは it took の〈主語＋動詞〉の語順になる。",
+            "choiceNotes": [
+                "what「何を・何が」",
+                "which「どちらを」",
+                "how「どのくらい」",
+                "when「いつ」"
+            ],
+            "tip": "How long did it take? が文中に入ると how long it took。(12)と同じ変化。"
+        }
+    ],
+    "closing": "2級の筆記では、文法だけを問う問題は多くありませんが、今回の仮定法や「さもなければ」、間接疑問は、長文の中でもよく使われます。特に Otherwise は前の文の内容を受けて読む必要があり、文と文のつながりをつかむ練習になります。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
