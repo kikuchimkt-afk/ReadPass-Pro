@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2026-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "ことばのセット・会話の決まり文句・文の型",
+    "aim": "授業で学んだことばのセット・会話の決まり文句・文の型を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "kind to や stop ～ing などのセットを書ける",
+        "What does ～ look like? や Why ～? がわかる",
+        "don't have to・if・but を使った文を作れる"
+    ],
+    "words": [
+        {
+            "word": "building",
+            "meaning": "建物"
+        },
+        {
+            "word": "wash",
+            "meaning": "洗う"
+        },
+        {
+            "word": "museum",
+            "meaning": "博物館"
+        },
+        {
+            "word": "hospital",
+            "meaning": "病院"
+        },
+        {
+            "word": "headache",
+            "meaning": "頭痛（頭のいたみ）"
+        },
+        {
+            "word": "choose",
+            "meaning": "選ぶ"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Stop playing the video game and go to bed.",
+            "ja": "ゲームをするのをやめて、もう寝なさい。",
+            "focus": "fp1",
+            "point": "stop ～ing「～するのをやめる」",
+            "note": "「～するのをやめる」は stop＋～ing の形。文の最初の Stop で「やめなさい」という言い方になる。"
+        },
+        {
+            "en": "I don't have to wear my uniform today.",
+            "ja": "今日は制服を着なくてもいいです。",
+            "focus": "fp3",
+            "point": "don't have to「～する必要はない」",
+            "note": "have to（～しなければならない）の否定で「～しなくてもよい」。to のあとは動詞の原形の wear。"
+        },
+        {
+            "en": "We will go to the Rainbow Museum instead if it rains.",
+            "ja": "雨がふったら、代わりにレインボー博物館へ行きます。",
+            "focus": "fp4",
+            "point": "if「もし～なら」・instead「代わりに」",
+            "note": "if it rains で「もし雨がふったら」。if のあとは、先のことでも現在形の rains を使うのが基本。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Our teacher is always kind (　) everyone in the class.",
+            "choices": [
+                "at",
+                "in",
+                "to",
+                "on"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "わたしたちの先生は、クラスのみんなにいつも親切です。",
+            "explanation": "be kind to ～で「～に親切にする」。親切にする相手は、kind to のあとに続ける。",
+            "choiceNotes": [
+                "at「～に（場所・時刻）」",
+                "in「～の中に」",
+                "to「kind to のセット」",
+                "on「～の上に」"
+            ],
+            "tip": "授業の Be kind to your brother. と同じ形。kind to をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The baby stopped (　) and smiled at me.",
+            "choices": [
+                "cry",
+                "cries",
+                "cried",
+                "crying"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "赤ちゃんは泣くのをやめて、わたしを見てにっこりしました。",
+            "explanation": "「～するのをやめる」の意味では、stop のあとの動詞を ing の形にする。ここでは stop が過去形の stopped になっている。",
+            "choiceNotes": [
+                "cry「原形」",
+                "cries「3単現」",
+                "cried「過去形」",
+                "crying「ing形」"
+            ],
+            "tip": "授業の Stop playing the video game … と同じ形。「やめる」の stop のあとは ing 形。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: What does your new bike look (　)?\nB: It's big and blue.",
+            "choices": [
+                "like",
+                "at",
+                "for",
+                "after"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたの新しい自転車は、どんな見た目ですか。\nB：大きくて、青い色です。",
+            "explanation": "What does ～ look like? で「～はどんな見た目ですか」とたずねる。答えでは、色や形、大きさを言う。",
+            "choiceNotes": [
+                "like「～のように見える」",
+                "at「～を見る」",
+                "for「～をさがす」",
+                "after「～の世話をする」"
+            ],
+            "tip": "授業の What does it look like? と同じ形。答えの色や形がヒントになる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Hurry up, Ken. The bus is coming.\nB: Wait a (　). I can't find my cap.",
+            "choices": [
+                "clock",
+                "time",
+                "minute",
+                "watch"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：ケン、急いで。バスが来るよ。\nB：ちょっと待って。ぼうしが見つからないんだ。",
+            "explanation": "Wait a minute. は「ちょっと待って」という決まり文句。minute は「分」のほかに「少しの間」という意味もある。",
+            "choiceNotes": [
+                "clock「時計（かけ時計など）」",
+                "time「時間」",
+                "minute「Wait a minute. のセット」",
+                "watch「うで時計」"
+            ],
+            "tip": "授業の Wait a minute. と同じ決まり文句。I can't find ～（～が見つからない）も覚えよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "We don't (　) to get up early on Sunday.",
+            "choices": [
+                "must",
+                "have",
+                "has",
+                "are"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "日曜日は、早く起きる必要はありません。",
+            "explanation": "don't have to ～で「～する必要はない」。don't のあとは動詞の原形なので have を使う。must は don't のあとに置けない。",
+            "choiceNotes": [
+                "must「～しなければならない」",
+                "have「don't have to のセット」",
+                "has「3単現の形」",
+                "are「be動詞」"
+            ],
+            "tip": "授業の I don't have to wear my uniform today. と同じ形。セットで書こう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: (　) did you go to the hospital yesterday?\nB: Because I had a bad headache.",
+            "choices": [
+                "What",
+                "Which",
+                "Who",
+                "Why"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：昨日はなぜ病院へ行ったのですか。\nB：頭がとてもいたかったからです。",
+            "explanation": "Why did you ～? は「なぜ～したのですか」と理由をたずねる文。B が Because ～（～だから）と理由を答えている。",
+            "choiceNotes": [
+                "What「何」",
+                "Which「どちら」",
+                "Who「だれ」",
+                "Why「なぜ」"
+            ],
+            "tip": "授業の Paul, why did you choose this school? と同じ形。答えの Because がヒントになる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "We will eat lunch in the classroom (　) it rains.",
+            "choices": [
+                "if",
+                "but",
+                "so",
+                "and"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "雨がふったら、わたしたちは教室で昼ごはんを食べます。",
+            "explanation": "if ～で「もし～なら」。「雨がふったら → 教室で食べる」とつながる。if のあとは、先のことでも現在形の rains を使うのが基本。",
+            "choiceNotes": [
+                "if「もし～なら」",
+                "but「しかし」",
+                "so「だから」",
+                "and「そして」"
+            ],
+            "tip": "授業の … instead if it rains. と同じ形。if it rains をセットで覚えよう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My sister is only six, (　) she can swim very well.",
+            "choices": [
+                "so",
+                "but",
+                "because",
+                "or"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "妹はまだ6才ですが、とても上手に泳げます。",
+            "explanation": "but は「～だが・しかし」。「まだ6才」なのに「とても上手に泳げる」という、予想とちがう内容をつなぐ。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "but「しかし」",
+                "because「～なので（後ろが理由）」",
+                "or「または」"
+            ],
+            "tip": "授業の I did not have a fever, but … と同じ使い方。前と後ろの内容をくらべよう。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。kind to や don't have to のようなセットは、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

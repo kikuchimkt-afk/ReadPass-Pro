@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2026-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の受け答え・目的と理由",
+    "aim": "授業で学んだ語句のセット・会話の受け答え・目的や理由を表す言い方を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "take care of や by himself などのセットを書ける",
+        "What would you like to ～? の文を使える",
+        "目的の To ～ や理由の because がわかる"
+    ],
+    "words": [
+        {
+            "word": "take care of",
+            "meaning": "～の世話をする"
+        },
+        {
+            "word": "vegetables",
+            "meaning": "野菜"
+        },
+        {
+            "word": "stomachache",
+            "meaning": "腹痛"
+        },
+        {
+            "word": "performance",
+            "meaning": "公演"
+        },
+        {
+            "word": "nervous",
+            "meaning": "緊張した"
+        },
+        {
+            "word": "athlete",
+            "meaning": "選手"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I'm going to the park to practice basketball.",
+            "ja": "バスケットボールの練習をしに、公園へ行くところです。",
+            "focus": "fp1",
+            "point": "to＋動詞の原形「～するために」",
+            "note": "to practice は「練習するために」で、公園へ行く目的を表す。「～するために」の to のあとは動詞の原形を置く。"
+        },
+        {
+            "en": "What would you like to do?",
+            "ja": "何をしたいですか。",
+            "focus": "fp2",
+            "point": "would like to ～「～したい」",
+            "note": "would like to ～ は want to ～ をていねいにした言い方。答えるときは I want to ～ のように、したいことを言う。"
+        },
+        {
+            "en": "You do not have to bring anything with you.",
+            "ja": "何も持ってくる必要はありません。",
+            "focus": "fp3",
+            "point": "do not have to「～しなくてよい」",
+            "note": "have to は「～しなければならない」。not が付くと「～しなくてよい」の意味で、「～してはいけない」ではない。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Emi takes (　) of her little brother.",
+            "choices": [
+                "look",
+                "place",
+                "care",
+                "time"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "エミは弟の世話をしています。",
+            "explanation": "take care of ～で「～の世話をする」。take・care・of の3語をひとまとまりで使う。",
+            "choiceNotes": [
+                "look「見ること」",
+                "place「場所」",
+                "care「take care of のセット」",
+                "time「時間」"
+            ],
+            "tip": "授業の I always take care of my little sister ... と同じ形。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Who made this cake? It looks great!\nB: My sister did. She made it all by (　).",
+            "choices": [
+                "she",
+                "her",
+                "hers",
+                "herself"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：このケーキはだれが作ったのですか。すてきですね。\nB：姉です。全部ひとりで作りました。",
+            "explanation": "by＋～self で「ひとりで」。主語が She（女性1人）なので、herself を使う。",
+            "choiceNotes": [
+                "she「彼女は」",
+                "her「彼女の・彼女を」",
+                "hers「彼女のもの」",
+                "herself「彼女自身」"
+            ],
+            "tip": "授業の he did it all by himself と同じ形。主語に合わせて himself と herself を使い分けよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My brother swam in the pool (　) an hour this morning.",
+            "choices": [
+                "for",
+                "at",
+                "since",
+                "on"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "兄は今朝、プールで1時間泳ぎました。",
+            "explanation": "for＋時間の長さで「～の間」。for an hour で「1時間」と、泳いだ時間の長さを表す。",
+            "choiceNotes": [
+                "for「～の間（長さ）」",
+                "at「～に（時刻）」",
+                "since「～から（始まり）」",
+                "on「～に（曜日・日付）」"
+            ],
+            "tip": "授業の wait for 30 minutes と同じ for。「どのくらいの長さか」を表している。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Dad, can you help me with my homework?\nB: I'll help you (　). I'm washing the dishes now.",
+            "choices": [
+                "ago",
+                "soon",
+                "yesterday",
+                "already"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：お父さん、宿題を手伝ってくれる？\nB：すぐに手伝うよ。今、お皿を洗っているんだ。",
+            "explanation": "今はお皿を洗っているので「すぐに手伝うよ」と答える流れ。I'll help you はこれからのことなので、ago や yesterday は合わない。",
+            "choiceNotes": [
+                "ago「～前に」",
+                "soon「すぐに」",
+                "yesterday「昨日」",
+                "already「もう・すでに」"
+            ],
+            "tip": "授業の I'll help you soon. と同じ。あとの文が、今は手がはなせない理由になっている。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: (　) would you like to eat for lunch?\nB: Spaghetti, please.",
+            "choices": [
+                "Where",
+                "When",
+                "Who",
+                "What"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：昼ごはんに何を食べたいですか。\nB：スパゲッティをお願いします。",
+            "explanation": "B が食べ物（スパゲッティ）を答えているので、「何を」とたずねる What を選ぶ。would like to ～は「～したい」のていねいな言い方。",
+            "choiceNotes": [
+                "Where「どこで」",
+                "When「いつ」",
+                "Who「だれ」",
+                "What「何を」"
+            ],
+            "tip": "授業の What would you like to do? と同じ形。答えの内容から疑問詞を決めよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "(　) join the art club, please talk to Ms. Green.",
+            "choices": [
+                "For",
+                "To",
+                "By",
+                "With"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "美術部に入るには、グリーンさんに話してください。",
+            "explanation": "To＋動詞の原形で「～するために」。join は動詞の原形なので To を選ぶ。To join ～, で「～に入るには」となる。",
+            "choiceNotes": [
+                "For「～のために」",
+                "To「～するために」",
+                "By「～によって」",
+                "With「～と一緒に」"
+            ],
+            "tip": "授業の To join the cooking class, please send an email ... と同じ形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "After the concert, my father will drive us (　).",
+            "choices": [
+                "home",
+                "to home",
+                "at home",
+                "in home"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "コンサートのあと、父が私たちを車で家まで送ってくれます。",
+            "explanation": "drive 人 home で「人を車で家まで送る」。この home は「家へ」という意味なので、to は付けない。",
+            "choiceNotes": [
+                "home「家へ」",
+                "to home「to は付けない」",
+                "at home「家で」",
+                "in home「この形は使わない」"
+            ],
+            "tip": "授業の our mom will drive us home と同じ形。go home も to を付けない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "Many children like this park (　) it has a big slide.",
+            "choices": [
+                "so",
+                "but",
+                "because",
+                "until"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "大きなすべり台があるので、多くの子どもたちがこの公園を気に入っています。",
+            "explanation": "because のあとは理由。「大きなすべり台がある」が、子どもたちがこの公園を好きな理由になっている。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "but「しかし」",
+                "because「～なので（後ろが理由）」",
+                "until「～まで」"
+            ],
+            "tip": "授業の ... because it was easy to start playing. と同じ形。"
+        }
+    ],
+    "closing": "今日は、語句のセットや、目的・理由を表す英語を、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。会話の文では、相手の返事までよく読むと、どの言葉が合うかが見えてきます。"
+}

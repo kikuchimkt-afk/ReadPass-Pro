@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2026-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・かいわのいいかた・ならべかえのかた",
+    "aim": "じゅぎょうでならったセットのことば、かいわでよくつかういいかた、ならべかえでつかったかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "a glass of や How much のセットをかける",
+        "What do you do? や for you をつかえる",
+        "s・es がつくかたちと もとのかたちをつかいわけられる"
+    ],
+    "words": [
+        {
+            "word": "doctor",
+            "meaning": "いしゃ"
+        },
+        {
+            "word": "locker",
+            "meaning": "ロッカー"
+        },
+        {
+            "word": "vacation",
+            "meaning": "やすみ"
+        },
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "glass",
+            "meaning": "コップ"
+        },
+        {
+            "word": "different",
+            "meaning": "ちがう"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Can I have a glass of apple juice, Mom?",
+            "ja": "おかあさん、りんごジュースを1ぱいもらえる？",
+            "focus": "fp1",
+            "point": "a glass of ～「コップ1ぱいの～」",
+            "note": "a glass of ～ で「コップ1ぱいの～」。Can I have ～? は「～をもらえますか」とたのむいいかた。"
+        },
+        {
+            "en": "These flowers are for you.",
+            "ja": "このはなは、あなたへのプレゼントです。",
+            "focus": "fp2",
+            "point": "～ are for you.「あなたへの～です」",
+            "note": "ものをわたすときのいいかた。for you で「あなたへ・あなたのために」。flowers は1つではないので are をつかう。"
+        },
+        {
+            "en": "My sister washes the dishes every day.",
+            "ja": "わたしのおねえさんは、まい日おさらをあらいます。",
+            "focus": "fp3",
+            "point": "My sister washes「es がつくかたち」",
+            "note": "わたし・あなた いがいの1人（1つ）が ふだんすることをいうときは、wash に es をつけて washes にする。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: How (　) is this T-shirt?\nB: It's twenty dollars.",
+            "choices": [
+                "many",
+                "much",
+                "old",
+                "tall"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：このTシャツはいくらですか。\nB：20ドルです。",
+            "explanation": "How much ～? は「いくら」と、ねだんをたずねるいいかた。B が twenty dollars（20ドル）とこたえているので much。",
+            "choiceNotes": [
+                "many「How many＝いくつ」",
+                "much「How much＝いくら」",
+                "old「How old＝なんさい」",
+                "tall「せがたかい」"
+            ],
+            "tip": "じゅぎょうの How much is it? — It's only $5. とおなじ。B のこたえのねだんがヒント。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "I drink a (　) of milk every morning.",
+            "choices": [
+                "glass",
+                "plate",
+                "desk",
+                "pencil"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "わたしはまいあさ、ぎゅうにゅうをコップ1ぱいのみます。",
+            "explanation": "a glass of ～ で「コップ1ぱいの～」。milk（ぎゅうにゅう）や juice のような、のみものによくつかう。",
+            "choiceNotes": [
+                "glass「コップ」",
+                "plate「おさら」",
+                "desk「つくえ」",
+                "pencil「えんぴつ」"
+            ],
+            "tip": "じゅぎょうの a glass of apple juice とおなじかたち。a glass of をセットでかこう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "A: This soup is very good.\nB: I think (　), too.",
+            "choices": [
+                "it",
+                "good",
+                "very",
+                "so"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：このスープ、とてもおいしいね。\nB：わたしもそうおもう。",
+            "explanation": "I think so, too. で「わたしもそうおもう」。あいてのいったことに さんせいするときの、きまったいいかた。",
+            "choiceNotes": [
+                "it「それ」",
+                "good「よい」",
+                "very「とても」",
+                "so「そう（I think so）」"
+            ],
+            "tip": "じゅぎょうの I think so, too. とおなじ。think so をひとまとまりでおぼえよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: What do you (　), Mr. Jones?\nB: I'm a music teacher.",
+            "choices": [
+                "is",
+                "are",
+                "do",
+                "does"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：ジョーンズさん、おしごとはなんですか。\nB：おんがくのせんせいです。",
+            "explanation": "What do you do? とだけきくと「しごとはなんですか」といういみ。I'm a ～.（わたしは～です）と、しごとでこたえる。",
+            "choiceNotes": [
+                "is「～です（he・she など）」",
+                "are「～です（you など）」",
+                "do「する」",
+                "does「する（he・she など）」"
+            ],
+            "tip": "じゅぎょうの What do you do? — I'm a cook. とおなじ。do が2かいならぶのがポイント。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: These cookies are (　) you, Grandma.\nB: Oh, thank you, Emi. I love cookies.",
+            "choices": [
+                "for",
+                "of",
+                "at",
+                "in"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：おばあちゃん、このクッキーをあげるね。\nB：まあ、ありがとう、エミ。クッキーはだいすきよ。",
+            "explanation": "～ are for you. は「あなたへの～です」と、ものをわたすときのいいかた。for は「～のために・～へ」。",
+            "choiceNotes": [
+                "for「～のために・～へ」",
+                "of「～の」",
+                "at「～で（ばしょ）」",
+                "in「～のなかに」"
+            ],
+            "tip": "じゅぎょうの These flowers are for you. とおなじかたち。わたすものがかわっても for you。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My father (　) his car on Saturdays.",
+            "choices": [
+                "wash",
+                "washing",
+                "to wash",
+                "washes"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしのおとうさんは、まいしゅう土ようびに くるまをあらいます。",
+            "explanation": "my father のように、わたし・あなた いがいの1人が ふだんすることは、wash に es をつけて washes にする。",
+            "choiceNotes": [
+                "wash「もとのかたち」",
+                "washing「ing のかたち」",
+                "to wash「to＋もとのかたち」",
+                "washes「es がついたかたち」"
+            ],
+            "tip": "じゅぎょうの My sister washes the dishes every day. とおなじかたち。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "A: (　) this book to your teacher, please.\nB: OK, Mom.",
+            "choices": [
+                "Takes",
+                "Taking",
+                "Take",
+                "Took"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このほんを、せんせいのところへもっていってね。\nB：わかったよ、おかあさん。",
+            "explanation": "「～してね・～しなさい」というときは、うごきのことばの もとのかたちではじめる。take ～ to … で「～を…へもっていく」。",
+            "choiceNotes": [
+                "Takes「s がついたかたち」",
+                "Taking「ing のかたち」",
+                "Take「もとのかたち」",
+                "Took「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Take your umbrella to school. とおなじかたち。はじめは Take。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Mika and I (　) to the library after school.",
+            "choices": [
+                "goes",
+                "go",
+                "going",
+                "to go"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ミカとわたしは、ほうかごに としょかんへいきます。",
+            "explanation": "Mika and I のように2人が「だれが」にあたるときは、goes ではなく go（es のつかないかたち）をつかう。",
+            "choiceNotes": [
+                "goes「es がついたかたち」",
+                "go「もとのかたち」",
+                "going「ing のかたち」",
+                "to go「to＋もとのかたち」"
+            ],
+            "tip": "じゅぎょうの Bill and I go skiing in winter. とおなじ。and で2人なら go。"
+        }
+    ],
+    "closing": "えいごは、よむだけでなく、てでかくとおぼえやすくなります。きょうかいたセットのことばやれいぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたもんだいは、かいせつをよんでから、ゆっくりかきなおしましょう。"
+}

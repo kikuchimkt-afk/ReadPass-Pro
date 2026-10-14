@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2026-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "動詞の形・会話の受け答え・お知らせの表現",
+    "aim": "授業で学んだ動詞のあとの形（ing 形・to＋動詞の原形）、会話の受け答え、お知らせやメールの表現を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "finish ～ing と tell 人 to ～ の形を書ける",
+        "Have you ever ～? と That ～ great. で感想を言える",
+        "decide to ～ や because の使い方がわかる"
+    ],
+    "words": [
+        {
+            "word": "relax",
+            "meaning": "くつろぐ"
+        },
+        {
+            "word": "dirty",
+            "meaning": "汚い"
+        },
+        {
+            "word": "accident",
+            "meaning": "事故"
+        },
+        {
+            "word": "get off",
+            "meaning": "（乗り物を）降りる"
+        },
+        {
+            "word": "wallet",
+            "meaning": "財布"
+        },
+        {
+            "word": "museum",
+            "meaning": "博物館・美術館"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "His mother told him to go to bed earlier.",
+            "ja": "母親は彼に、もっと早く寝るように言いました。",
+            "focus": "fp1",
+            "point": "tell＋人＋to ～「人に～するように言う」",
+            "note": "told は tell の過去形。to go to bed で「寝るように」。told him to のあとは動詞の原形にする。"
+        },
+        {
+            "en": "Have you ever been there?",
+            "ja": "そこへ行ったことがありますか。",
+            "focus": "fp2",
+            "point": "Have you ever ～?「今までに～したことがあるか」",
+            "note": "現在完了の疑問文で、今までの経験をたずねる。been は be の過去分詞で、have been there で「そこへ行ったことがある」の意味になる。"
+        },
+        {
+            "en": "So, she decided to try painting instead.",
+            "ja": "そこで、彼女は代わりに絵を描いてみることにしました。",
+            "focus": "fp4",
+            "point": "decide to ～「～することに決める」",
+            "note": "手が痛くて農場の仕事がむずかしくなり、代わりに絵を始めた場面。decided to のあとは動詞の原形。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My brother finished (　) his homework before dinner.",
+            "choices": [
+                "do",
+                "did",
+                "doing",
+                "to do"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "兄は夕食の前に宿題をやり終えました。",
+            "explanation": "finish（～し終える）のあとに動詞を続けるときは ing の形にする。to do は使わない。",
+            "choiceNotes": [
+                "do「原形」",
+                "did「過去形」",
+                "doing「ing形」",
+                "to do「to＋原形」"
+            ],
+            "tip": "授業の Jack finished cleaning his room. と同じ形。finish のあとは ing 形にしよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Why are you going home so early?\nB: My mother told me (　) home before six.",
+            "choices": [
+                "to come",
+                "coming",
+                "came",
+                "come"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：どうしてそんなに早く帰るのですか。\nB：6時前に帰ってくるように母に言われたのです。",
+            "explanation": "tell＋人＋to＋動詞の原形で「人に～するように言う」。told は tell の過去形で、to のあとは原形の come。",
+            "choiceNotes": [
+                "to come「to＋原形」",
+                "coming「ing形」",
+                "came「過去形」",
+                "come「原形」"
+            ],
+            "tip": "授業の His mother told him to go to bed earlier. と同じ形。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Why don't we go to the zoo this weekend?\nB: That (　) great. I want to see the pandas.",
+            "choices": [
+                "hears",
+                "listens",
+                "speaks",
+                "sounds"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：今週末、動物園に行きませんか。\nB：いいですね。パンダが見たいです。",
+            "explanation": "sound＋形容詞で「～に聞こえる・～そうだ」。That sounds great. は、さそいに「いいですね」と賛成するときの言い方。",
+            "choiceNotes": [
+                "hears「～が聞こえる」",
+                "listens「耳をかたむける」",
+                "speaks「話す」",
+                "sounds「～に聞こえる」"
+            ],
+            "tip": "授業の That sounds great. と同じ。Why don't we ～?（～しませんか）への返事で使える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "Have you ever (　) to Kyoto with your family?",
+            "choices": [
+                "be",
+                "been",
+                "went",
+                "going"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "家族といっしょに京都へ行ったことがありますか。",
+            "explanation": "Have you ever＋過去分詞 ～? で「今までに～したことがありますか」。「～へ行ったことがある」は have been to ～で表す。",
+            "choiceNotes": [
+                "be「原形」",
+                "been「be の過去分詞」",
+                "went「go の過去形」",
+                "going「ing形」"
+            ],
+            "tip": "授業の Have you ever been there? と同じ形。there のかわりに to＋場所を入れよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: What should I take to the camp?\nB: Remember (　) a towel and a raincoat.",
+            "choices": [
+                "bring",
+                "brought",
+                "brings",
+                "to bring"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：キャンプには何を持っていけばいいですか。\nB：タオルとレインコートを忘れずに持ってきてください。",
+            "explanation": "Remember to＋動詞の原形で「忘れずに～してください」。持ち物などを伝えるときによく使う。",
+            "choiceNotes": [
+                "bring「原形」",
+                "brought「過去形」",
+                "brings「3単現」",
+                "to bring「to＋原形」"
+            ],
+            "tip": "授業のお知らせの Remember to bring an apron and a notebook. と同じ形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Excuse me. Where is the post office?\nB: It's next (　) the bank.",
+            "choices": [
+                "to",
+                "of",
+                "from",
+                "by"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：すみません。郵便局はどこですか。\nB：銀行の隣です。",
+            "explanation": "next to ～で「～の隣に」。next と to をセットで使い、to のあとに建物などの場所を置く。",
+            "choiceNotes": [
+                "to「next to のセット」",
+                "of「～の」",
+                "from「～から」",
+                "by「～によって」"
+            ],
+            "tip": "授業のメールの a shopping mall next to the museum と同じ形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Tom could not play soccer (　) his leg hurt.",
+            "choices": [
+                "but",
+                "because",
+                "so",
+                "or"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "トムは足が痛かったので、サッカーができませんでした。",
+            "explanation": "because のあとには理由が来る。「足が痛かった」が、サッカーができなかった理由なので because を選ぶ。",
+            "choiceNotes": [
+                "but「しかし」",
+                "because「～なので（後ろが理由）」",
+                "so「だから（後ろが結果）」",
+                "or「または」"
+            ],
+            "tip": "授業の because her hands hurt と同じ形。because の後ろを読むと理由がわかる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My aunt decided (　) piano lessons last year.",
+            "choices": [
+                "start",
+                "starting",
+                "to start",
+                "started"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "おばは去年、ピアノのレッスンを始めることにしました。",
+            "explanation": "decide to＋動詞の原形で「～することに決める」。decided は過去形で「～することにした」となる。",
+            "choiceNotes": [
+                "start「原形」",
+                "starting「ing形」",
+                "to start「to＋原形」",
+                "started「過去形」"
+            ],
+            "tip": "授業の she decided to try painting と同じ形。decided to のあとは動詞の原形。"
+        }
+    ],
+    "closing": "今日は、動詞のあとに ing 形が来るのか、to＋動詞の原形が来るのかを、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。授業で読んだアンナのように、新しいことはいつからでも始められます。少しずつ続けていきましょう。"
+}

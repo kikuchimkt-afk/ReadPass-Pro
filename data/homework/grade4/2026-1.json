@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2026-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "くらべる形・たずねる文・つなぎのことば",
+    "aim": "授業で学んだくらべる形・たずねる文・つなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "cheaper than や think of のセットを書ける",
+        "Can I ～? や May I ～? でたずねる文を作れる",
+        "so や then など、つなぎのことばがわかる"
+    ],
+    "words": [
+        {
+            "word": "cheaper",
+            "meaning": "より安い"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "get up",
+            "meaning": "起きる"
+        },
+        {
+            "word": "leave",
+            "meaning": "（家を）出る"
+        },
+        {
+            "word": "country",
+            "meaning": "国"
+        },
+        {
+            "word": "history",
+            "meaning": "歴史"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Today, apples are cheaper than bananas.",
+            "ja": "今日は、リンゴがバナナより安いです。",
+            "focus": "fp1",
+            "point": "cheaper than「～より安い」",
+            "note": "cheap（安い）に er をつけた比較級（くらべる形）。than のあとに、くらべる相手を置く。"
+        },
+        {
+            "en": "I leave home for school at seven o'clock every morning.",
+            "ja": "わたしは毎朝7時に、家を出て学校へ向かいます。",
+            "focus": "fp3",
+            "point": "leave home for school「家を出て学校へ向かう」",
+            "note": "leave home は「家を出る」。for school の for は「～に向かって」という意味。"
+        },
+        {
+            "en": "Recently, his sister wanted to go to a history museum.",
+            "ja": "最近、ジョージの姉か妹が、歴史博物館に行きたがりました。",
+            "focus": "fp4",
+            "point": "wanted to＋原形「～したかった」",
+            "note": "want to＋動詞の原形で「～したい」。過去の話なので wanted になる。これが博物館へ行った理由。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: What do you think (　) my new shoes?\nB: They look nice. I like the color.",
+            "choices": [
+                "to",
+                "of",
+                "at",
+                "with"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：わたしの新しいくつをどう思う？\nB：すてきだね。色が気に入ったよ。",
+            "explanation": "What do you think of ～? で「～をどう思いますか」と、相手の考えをたずねる。ここでは think のあとに of を使う。",
+            "choiceNotes": [
+                "to「～へ」",
+                "of「think of のセット」",
+                "at「～に（場所・時刻）」",
+                "with「～といっしょに」"
+            ],
+            "tip": "授業の What do you think of them? と同じ形。think of をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This red bag is (　) than that blue one.",
+            "choices": [
+                "cheap",
+                "cheapest",
+                "the cheapest",
+                "cheaper"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "この赤いバッグは、あの青いバッグより安いです。",
+            "explanation": "後ろに than（～より）があるので、比較級（くらべる形）の cheaper を使う。cheapest は「いちばん～」の形で、than とはふつういっしょに使わない。",
+            "choiceNotes": [
+                "cheap「安い」",
+                "cheapest「いちばん安い」",
+                "the cheapest「いちばん安い」",
+                "cheaper「より安い」"
+            ],
+            "tip": "授業の Today, apples are cheaper than bananas. と同じ形。than の前は比較級が基本だよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: I can't find my eraser. Can I (　) yours?\nB: Sure. Here you are.",
+            "choices": [
+                "borrow",
+                "lend",
+                "sell",
+                "send"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：消しゴムが見つからないんだ。きみのを借りてもいい？\nB：いいよ。はい、どうぞ。",
+            "explanation": "Can I borrow ～? で「～を借りてもいいですか」。borrow は「借りる」、lend は「貸す」。yours は「きみの消しゴム」のこと。",
+            "choiceNotes": [
+                "borrow「借りる」",
+                "lend「貸す」",
+                "sell「売る」",
+                "send「送る」"
+            ],
+            "tip": "授業の Can I borrow yours? と同じ形。Here you are.（はい、どうぞ）とセットで覚えよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: How (　) are these oranges?\nB: They're 300 yen.",
+            "choices": [
+                "many",
+                "old",
+                "much",
+                "long"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このオレンジはいくらですか。\nB：300円です。",
+            "explanation": "B が 300 yen と値段を答えているので、値段をたずねる How much を使う。How many は数をたずねるときに使う。",
+            "choiceNotes": [
+                "many「いくつ（数）」",
+                "old「何歳（年れい）」",
+                "much「いくら（値段）」",
+                "long「どのくらいの長さ」"
+            ],
+            "tip": "授業の How much are they? と同じ形。答えのセリフが値段なら How much だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "May I (　) the window, Mom?",
+            "choices": [
+                "open",
+                "opens",
+                "opened",
+                "opening"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "お母さん、窓を開けてもいい？",
+            "explanation": "May I ～? は「～してもいいですか」とていねいにたずねる言い方。May I のあとは動詞の原形（もとの形）の open を使う。",
+            "choiceNotes": [
+                "open「原形」",
+                "opens「3単現」",
+                "opened「過去形」",
+                "opening「ing形」"
+            ],
+            "tip": "授業の May I call you this afternoon? と同じ形。May I のあとは原形にしよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: What time do you leave home (　) school?\nB: At seven thirty.",
+            "choices": [
+                "to",
+                "at",
+                "on",
+                "for"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：何時に家を出て学校へ向かうの？\nB：7時半だよ。",
+            "explanation": "leave home for school で「学校へ向かって家を出る」。「～へ向かって出発する」は leave … for ～ の形が基本。",
+            "choiceNotes": [
+                "to「～へ（go to など）」",
+                "at「～に（時刻など）」",
+                "on「～の上に・曜日」",
+                "for「～に向かって」"
+            ],
+            "tip": "授業の I leave home for school … と同じ形。leave … for をセットで覚えよう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Ken wanted to see lions, (　) we went to the zoo.",
+            "choices": [
+                "because",
+                "so",
+                "but",
+                "or"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ケンがライオンを見たがったので、わたしたちは動物園に行きました。",
+            "explanation": "so の前が理由、後ろが結果。「ケンがライオンを見たかった → だから動物園に行った」という流れになる。",
+            "choiceNotes": [
+                "because「～なので（後ろが理由）」",
+                "so「だから（後ろが結果）」",
+                "but「しかし」",
+                "or「または」"
+            ],
+            "tip": "授業の物語も … sister wanted to go … So, his family went … の流れ。理由 → 結果で読もう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: What will we do on Saturday?\nB: We'll first go shopping and (　) see a movie.",
+            "choices": [
+                "than",
+                "when",
+                "then",
+                "that"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：土曜日は何をするの？\nB：まず買い物に行って、それから映画を見るよ。",
+            "explanation": "first ～ and then … で「まず～、それから…」と、することの順番を表す。than（～より）とはつづりがちがうので注意。",
+            "choiceNotes": [
+                "than「～より」",
+                "when「～するとき」",
+                "then「それから」",
+                "that「あれ・それ」"
+            ],
+            "tip": "授業のお知らせの He will first give a speech … and then play … と同じ形だよ。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。than と then のように形のにている語は、1文字ずつ見くらべて書くと安心です。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2026-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・かいわのへんじ・しつもんのかたち",
+    "aim": "じゅぎょうでならったセットのことば、かいわのへんじ、When や What are you ～ing? のしつもんのかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "after school や How tall などのセットをかける",
+        "Is ～? や I like ～. に、ただしくへんじができる",
+        "When や What are you ～ing? のしつもんをかける"
+    ],
+    "words": [
+        {
+            "word": "newspaper",
+            "meaning": "しんぶん"
+        },
+        {
+            "word": "people",
+            "meaning": "ひとびと"
+        },
+        {
+            "word": "mountain",
+            "meaning": "やま"
+        },
+        {
+            "word": "racket",
+            "meaning": "ラケット"
+        },
+        {
+            "word": "drink",
+            "meaning": "のむ"
+        },
+        {
+            "word": "lunch",
+            "meaning": "ひるごはん"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Taro goes to the swimming pool after school.",
+            "ja": "タロウは、ほうかごにプールへいきます。",
+            "focus": "fp1",
+            "point": "after school「ほうかご」",
+            "note": "after は「～のあとに」。after school で「学校がおわったあと」、つまり「ほうかご」といういみになる。"
+        },
+        {
+            "en": "Is Ken in your class this year?",
+            "ja": "ケンはことし、あなたのクラスにいるの？",
+            "focus": "fp2",
+            "point": "Is ～? → Yes, he is.「うん、いるよ」",
+            "note": "Is ～? ときかれたら、is をつかってこたえるのがきほん。Ken は he にかえて、Yes, he is. とこたえる。"
+        },
+        {
+            "en": "What are you making for lunch?",
+            "ja": "ひるごはんに、なにをつくっているの？",
+            "focus": "fp3",
+            "point": "What are you ～ing?「なにを～しているか」",
+            "note": "いましていることをたずねるかたち。What のあとに are you と、～ing のかたちをつづける。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: How (　) are you, Ken?\nB: I'm 150 centimeters.",
+            "choices": [
+                "old",
+                "many",
+                "tall",
+                "much"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：ケン、あなたはせがどのくらいたかいの？\nB：150センチメートルだよ。",
+            "explanation": "How tall ～? は「どのくらいたかいか」をたずねるかたち。B が 150 センチメートルと、せのたかさをこたえているので tall。",
+            "choiceNotes": [
+                "old「なんさいかをきく」",
+                "many「いくつかをきく」",
+                "tall「たかさをきく」",
+                "much「ねだんをきく」"
+            ],
+            "tip": "じゅぎょうの How tall is that building? とおなじかたち。B のこたえをさきによもう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "We often play soccer in the park (　) school.",
+            "choices": [
+                "after",
+                "about",
+                "under",
+                "with"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "わたしたちは、ほうかごによくこうえんでサッカーをします。",
+            "explanation": "after は「～のあとに」。after school で「学校のあと」、つまり「ほうかご」といういみになる。",
+            "choiceNotes": [
+                "after「～のあとに」",
+                "about「～について」",
+                "under「～のしたに」",
+                "with「～といっしょに」"
+            ],
+            "tip": "じゅぎょうの Taro goes to the swimming pool after school. とおなじセット。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "This red umbrella is (　).",
+            "choices": [
+                "my",
+                "me",
+                "I",
+                "mine"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "このあかいかさは、わたしのものです。",
+            "explanation": "mine は「わたしのもの」。my（わたしの）は、my umbrella のように、うしろに umbrella などのことばがいる。",
+            "choiceNotes": [
+                "my「わたしの」",
+                "me「わたしを・わたしに」",
+                "I「わたしは」",
+                "mine「わたしのもの」"
+            ],
+            "tip": "じゅぎょうの You can use mine. とおなじ mine。「わたしのもの」を mine ひとつでいえる。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Is your mother a teacher?\nB: Yes, she (　). She teaches music.",
+            "choices": [
+                "does",
+                "is",
+                "am",
+                "are"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あなたのおかあさんは、せんせいですか。\nB：はい、そうです。おんがくをおしえています。",
+            "explanation": "Is ～? ときかれたら、is をつかってこたえるのがきほん。your mother は she にかえて、Yes, she is. となる。",
+            "choiceNotes": [
+                "does「Does ～? へのこたえ」",
+                "is「Is ～? へのこたえ」",
+                "am「I のときにつかう」",
+                "are「you などにつかう」"
+            ],
+            "tip": "じゅぎょうの Is Ken in your class this year? — Yes, he is. とおなじかたち。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: I like cats very much.\nB: (　) I have two cats.",
+            "choices": [
+                "I am, too.",
+                "Here you are.",
+                "Good night.",
+                "I do, too."
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：わたしはねこがだいすきです。\nB：わたしもです。ねこを2ひきかっています。",
+            "explanation": "I like ～.（～がすき）に「わたしも」とこたえるときは、like のかわりに do をつかって I do, too. といえる。I am, too. は I am ～. へのこたえ。",
+            "choiceNotes": [
+                "I am, too.「I am ～へ」",
+                "Here you are.「どうぞ」",
+                "Good night.「おやすみ」",
+                "I do, too.「わたしも」"
+            ],
+            "tip": "じゅぎょうの I enjoy basketball. — I do, too. とおなじかたち。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: Let's play tennis in the park.\nB: (　) I have my racket.",
+            "choices": [
+                "Good idea.",
+                "See you.",
+                "I'm fine.",
+                "Good morning."
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：こうえんでテニスをしようよ。\nB：いいね。ラケットをもっているよ。",
+            "explanation": "Let's ～.（～しよう）とさそわれて、さんせいするときは Good idea.（いいね）。あとの I have my racket. ともつながる。",
+            "choiceNotes": [
+                "Good idea.「いいね」",
+                "See you.「またね」",
+                "I'm fine.「げんきです」",
+                "Good morning.「おはよう」"
+            ],
+            "tip": "じゅぎょうの Let's go to that hamburger shop. — Good idea. とおなじながれ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "A: (　) is your piano lesson?\nB: It's on Friday.",
+            "choices": [
+                "Where",
+                "Who",
+                "When",
+                "How"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：あなたのピアノのレッスンはいつですか。\nB：金よう日です。",
+            "explanation": "When は「いつ」。B が on Friday（金よう日に）と日をこたえているので、When でたずねる。",
+            "choiceNotes": [
+                "Where「どこ」",
+                "Who「だれ」",
+                "When「いつ」",
+                "How「どう・どのように」"
+            ],
+            "tip": "じゅぎょうの When is your English test? とおなじかたち。When is your ～? で「～はいつ？」。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "What are you (　) now, Emma?",
+            "choices": [
+                "draw",
+                "drawing",
+                "draws",
+                "drew"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "エマ、いまなにをかいているの？",
+            "explanation": "What are you ～ing? で「なにを～しているの？」。いましていることなので、are you のあとに ～ing のかたちの drawing をおく。",
+            "choiceNotes": [
+                "draw「もとのかたち」",
+                "drawing「ing のかたち」",
+                "draws「s がついたかたち」",
+                "drew「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの What are you making for lunch? とおなじかたち。are と ～ing をセットでつかう。"
+        }
+    ],
+    "closing": "えいごは、こえにだしてよみながら、てでかくと、おぼえやすくなります。きょうかいたたんごとれいぶんを、もういちどゆっくりよんでみましょう。I do, too. や Good idea. のようなへんじは、おうちの人とのかいわでも、つかってみてください。"
+}
