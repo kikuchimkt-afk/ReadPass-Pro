@@ -1,0 +1,11 @@
+{
+  "id": "/", "name": "ReadPass Pro", "short_name": "ReadPass Pro", "lang": "ja",
+  "description": "過去問・解説・和訳・音声を使って、授業と家庭学習をつなぐReadPass Pro。",
+  "start_url": "/top.html", "scope": "/", "display": "standalone",
+  "background_color": "#202326", "theme_color": "#202326",
+  "icons": [
+    { "src": "/assets/icons/readpass-pro-192.png?v=20261014-orange-v1", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/readpass-pro-512.png?v=20261014-orange-v1", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/assets/icons/readpass-pro-maskable-512.png?v=20261014-orange-v1", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

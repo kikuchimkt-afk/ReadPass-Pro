@@ -1,0 +1,85 @@
+/* Screen presentation only. Assessment data and printed sheets are unchanged. */
+@media screen {
+  :root,[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #202326; --bg2: rgba(28,32,35,.88); --surface: rgba(28,32,35,.88);
+    --card: rgba(38,43,47,.78); --text: #f4f5f2; --text2: #c3c9c8; --text-dim: #c3c9c8;
+    --accent: #ff9e43; --accent2: #ff9e43; --grad: linear-gradient(110deg,#ff9e43,#ffbc78);
+    --bg-primary: #202326; --bg-secondary: rgba(28,32,35,.88);
+    --bg-card: rgba(38,43,47,.78); --bg-card-hover: rgba(54,60,64,.88);
+    --text-primary: #f4f5f2; --text-secondary: #c3c9c8; --text-muted: #c3c9c8;
+    --accent-primary: #ff9e43; --accent-secondary: #ff9e43;
+    --accent-gradient: linear-gradient(110deg,#ff9e43,#ffbc78);
+    --border: rgba(223,230,230,.22); --border-color: rgba(223,230,230,.22); --border-hover: #ff9e43;
+    --radius-sm: 5px; --radius-md: 8px; --radius-lg: 10px; --radius: 10px;
+    --pro-panel: rgba(38,43,47,.76); --pro-subtle: rgba(12,17,20,.3); --pro-tint: rgba(255,158,67,.13);
+  }
+  [data-theme="light"] {
+    color-scheme: light;
+    --bg-primary: #efeee9; --bg-secondary: rgba(250,249,244,.95);
+    --bg-card: rgba(255,254,250,.95); --bg-card-hover: #fff8ee;
+    --text-primary: #272b2c; --text-secondary: #535b5d;
+    --accent-primary: #a54c0b; --accent-secondary: #a54c0b;
+    --accent-gradient: linear-gradient(110deg,#b65814,#9e4810);
+    --border: rgba(50,56,57,.23); --pro-panel: #fffdf7; --pro-tint: rgba(165,76,11,.1);
+  }
+  body[data-surface] {
+    background-color: var(--bg-primary); color: var(--text-primary);
+    background-image: linear-gradient(rgba(30,34,37,.96),rgba(30,34,37,.89)),url('assets/pro-design/menu-guide.webp');
+    background-position: center; background-size: cover; background-attachment: fixed;
+  }
+  [data-theme="light"] body[data-surface] { background-image: none; }
+  .pro-brand-mark { width: 30px; height: 30px; flex: 0 0 30px; border: 2px solid #ff9e43; display: inline-grid; place-items: center; font: 700 17px/1 'Inter',sans-serif; color: #ff9e43; -webkit-text-fill-color: #ff9e43; }
+  a:focus-visible,button:focus-visible,[role="button"]:focus-visible { outline: 2px solid var(--accent-primary); outline-offset: 4px; }
+  body[data-surface="study"] .app-header { background: var(--bg-secondary); border-bottom: 1px solid var(--border); }
+  body[data-surface="study"] .app-title { background: none; color: var(--text-primary); -webkit-text-fill-color: currentColor; }
+  body[data-surface="study"] .home-link { color: var(--accent-primary); }
+  body[data-surface="study"] :is(.sticky-panel,.instructor-toolbar) { background: var(--bg-secondary); }
+  body[data-surface="study"] .tool-btn.active { background: var(--pro-tint); border-color: var(--accent-primary); }
+  body[data-surface="study"] :is(.exam-question,.passage-block,.fp-card) { background: var(--bg-card); border-radius: 8px; }
+  body[data-surface="study"] :is(.exam-choice-btn,.email-meta,.notice-frame,.btn-secondary) { border-radius: 5px; }
+  body[data-surface="study"] .exam-label-badge { border-color: var(--border); background: var(--pro-subtle); }
+  [data-theme="light"] body[data-surface="study"] :is(.app-header,.instructor-toolbar) { background: var(--bg-secondary); }
+  [data-theme="light"] body[data-surface="study"] .app-header :is(h1,.app-title,.mode-label) { color: var(--text-primary); -webkit-text-fill-color: currentColor; }
+  [data-theme="light"] body[data-surface="study"] .tool-btn .material-symbols-rounded { color: var(--accent-primary); }
+  [data-theme="light"] body[data-surface="study"] .tool-btn.active { background: var(--pro-tint); }
+  [data-theme="light"] body[data-surface="study"] .exam-label-badge { background: var(--pro-tint); color: var(--text-primary); border-color: var(--border); }
+  body[data-surface="print"] .settings-panel { max-width: 960px; }
+  body[data-surface="print"] .settings-header { padding: 38px 28px; text-align: left; background: var(--pro-panel); border: 1px solid var(--border); border-radius: 8px; }
+  body[data-surface="print"] .settings-title { background: none; -webkit-text-fill-color: currentColor; color: var(--text-primary); font-size: clamp(23px,3vw,30px); }
+  body[data-surface="print"] :is(.back-link,.settings-subtitle,.exam-guide,.hint,.teacher-material-info span) { color: var(--text-secondary); }
+  body[data-surface="print"] :is(.setting-group,.fixed-exam-notice,.teacher-material-row,.hw-dialog,.fixed-exam-card,.fixed-exam-header) { background: var(--pro-panel); border-color: var(--border); border-radius: 8px; }
+  body[data-surface="print"] .setting-label { color: var(--text-primary); }
+  body[data-surface="print"] :is(.grade-chip,.exam-table thead th,.exam-year) { background: var(--pro-subtle); color: var(--text-secondary); border-color: var(--border); box-shadow: none; }
+  body[data-surface="print"] .grade-chip.active { background: var(--pro-tint); color: var(--accent-primary); border-color: var(--accent-primary); }
+  body[data-surface="print"] :is(.exam-option:has(input:checked),.select-all-btn) { color: var(--accent-primary); border-color: var(--accent-primary); background: var(--pro-tint); }
+  body[data-surface="print"] :is(.exam-table th,.exam-table td) { border-color: var(--border); }
+  body[data-surface="print"] input[type="checkbox"] { accent-color: var(--accent-primary); }
+  body[data-surface="print"] :is(.btn-primary,.btn-accent,.homework-open) { background: var(--accent-primary); color: #202326; box-shadow: none; border-color: var(--accent-primary); }
+  body[data-surface="print"] :is(.teacher-material-actions a,.teacher-material-actions button,.fixed-exam-actions a) { min-height: 44px; display: inline-flex; justify-content: center; align-items: center; border-radius: 5px; font-size: 13px; text-decoration: none; white-space: nowrap; }
+  body[data-surface="print"] :is(.teacher-material-actions .pdf-view-link,.fixed-exam-actions .pdf-view-link) { background: var(--pro-tint); color: var(--accent-primary); border: 1px solid var(--accent-primary); padding: 10px 15px; }
+  body[data-surface="print"] :is(.teacher-material-actions .download,.fixed-exam-actions a[download]) { background: var(--accent-primary); color: #202326; border: 1px solid var(--accent-primary); padding: 10px 15px; }
+  body[data-surface="print"] :is(.teacher-material-actions,.fixed-exam-actions) { display: flex; gap: 8px; flex-wrap: wrap; }
+  body[data-surface="print"] .hw-dialog::backdrop { background: rgba(10,14,17,.7); }
+  body[data-surface="print"] :is(.hw-radio,.hw-field input) { background: var(--pro-subtle); color: var(--text-primary); border-color: var(--border); }
+  body[data-surface="print"] .hw-radio:has(input:checked) { background: var(--pro-tint); border-color: var(--accent-primary); }
+  body[data-surface="cards"] :is(.start-screen,.flashcard,.card,.start-panel,.result-screen,.flip-front,.flip-back) { border-color: var(--border); border-radius: 8px; }
+  body[data-surface="cards"] :is(.btn-start,.order-btn.active,.btn-retry.primary,.btn-reveal) { background: var(--accent-primary); color: #202326; border-color: var(--accent-primary); box-shadow: none; }
+  body[data-surface="guide"] .hero { max-width: 1180px; margin: 24px auto 42px; text-align: left; padding: 90px 56px 56px; border: 1px solid var(--border); border-radius: 8px; background: linear-gradient(90deg,rgba(24,28,30,.89),rgba(24,28,30,.3)),url('assets/pro-design/menu-guide.webp') center / cover; }
+  body[data-surface="guide"] .hero::before { display: none; }
+  body[data-surface="guide"] .hero h1 { color: var(--text-primary); background: none; -webkit-text-fill-color: currentColor; }
+  body[data-surface="guide"] .hero-badge { background: var(--pro-tint); border-color: var(--accent-primary); color: var(--accent-primary); }
+  body[data-surface="guide"] .section { background: var(--pro-panel); border-radius: 8px; border-color: var(--border); }
+  body[data-surface="guide"] :is(.section-number,.grammar-tab.active,.back-btn) { background: var(--accent-primary); color: #202326; border-color: var(--accent-primary); }
+  @media(max-width:760px) {
+    body[data-surface] { background-attachment: scroll; }
+    body[data-surface="print"] .settings-header { padding: 28px 20px; }
+    body[data-surface="print"] .teacher-material-row { align-items: flex-start; }
+    body[data-surface="print"] .teacher-material-actions { justify-content: flex-start; }
+    body[data-surface="guide"] .hero { margin: 16px; padding: 54px 24px 34px; }
+  }
+  @media(prefers-reduced-motion:reduce) {
+    html { scroll-behavior: auto; }
+    body[data-surface] *,body[data-surface] *::before,body[data-surface] *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  }
+}

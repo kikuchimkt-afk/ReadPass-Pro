@@ -4,21 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReadPass Pro</title>
+    <title>英語資格試験対策 | ReadPass Pro</title>
     <meta name="description" content="ReadPass Pro — 英語資格検定リーディング指導者向け練習・分析ツール">
     <link rel="stylesheet" href="top.css?v=20260828-top-actions-v1">
+    <link rel="stylesheet" href="pro-theme.css?v=20261014-orange-v1">
+    <link rel="stylesheet" href="pro-landing.css?v=20261014-orange-v1">
+    <link rel="icon" href="favicon.ico?v=20261014-orange-v1" sizes="16x16 32x32 48x48">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/readpass-pro.svg?v=20261014-orange-v1">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v=20261014-orange-v1">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?v=20261014-orange-v1">
+    <link rel="manifest" href="manifest.webmanifest?v=20261014-orange-v1">
+    <meta name="theme-color" content="#202326">
+    <meta name="apple-mobile-web-app-title" content="ReadPass Pro">
+    <link rel="preload" as="image" href="assets/pro-design/hero-01.webp" fetchpriority="high">
 </head>
 
-<body>
+<body data-surface="landing">
     <div class="app-container">
 
+        <nav class="pro-masthead" aria-label="サイト案内">
+            <a class="pro-brand" href="top.html"><span class="pro-brand-mark" aria-hidden="true">R</span>ReadPass Pro</a>
+            <a href="guide.html">使い方ガイド ↗</a>
+        </nav>
         <!-- Hero Section -->
         <header class="hero">
-            <div class="hero-bg"></div>
+            <div class="hero-bg" id="heroSlideshow" aria-hidden="true">
+                <img class="hero-slide is-active" src="assets/pro-design/hero-01.webp" alt="" width="1536" height="1024" fetchpriority="high" decoding="async">
+                <img class="hero-slide" src="assets/pro-design/hero-02.webp" alt="" width="1536" height="1024" decoding="async">
+                <img class="hero-slide" src="assets/pro-design/hero-03.webp" alt="" width="1536" height="1024" decoding="async">
+                <img class="hero-slide" src="assets/pro-design/hero-04.webp" alt="" width="1536" height="1024" decoding="async">
+                <img class="hero-slide" src="assets/pro-design/hero-05.webp" alt="" width="1536" height="1024" decoding="async">
+            </div>
             <div class="hero-content">
                 <div class="hero-badge">READING PRACTICE</div>
-                <h1 class="hero-title">ReadPass Pro</h1>
-                <p class="hero-description">英語資格検定リーディング過去問を文法解析・単語学習付きで演習</p>
+                <h1 class="hero-title"><span class="hero-title-category">英語資格試験対策</span><span class="hero-title-name">ReadPass Pro</span></h1>
+                <p class="hero-subtitle">英文を読む。根拠を確かめる。</p>
+                <p class="hero-description">英検®の過去問で、読む力を一問ずつ。<br>解説・和訳・音声を使って、授業から家庭での復習まで。</p>
+                <span class="hero-footnote">授業の理解を、次の一問につなげる。</span>
+            </div>
+            <div class="hero-controls" aria-label="ヒーロー写真の切り替え">
+                <button type="button" id="heroPrev" aria-label="前の写真">‹</button>
+                <span id="heroSlideStatus" aria-hidden="true">1 / 5</span>
+                <button type="button" id="heroNext" aria-label="次の写真">›</button>
+                <button type="button" id="heroPause" aria-label="写真の自動切り替えを停止" aria-pressed="false">Ⅱ</button>
             </div>
         </header>
 
@@ -26,12 +54,15 @@
         <main class="main-content">
             <section class="section" id="gradeSection">
                 <nav class="top-actions" aria-label="ReadPassメニュー">
-                    <a class="top-action-link top-action-print" href="print.html">🖨️ 授業プリント作成</a>
-                    <a class="top-action-link top-action-guide" href="guide.html">📖 使い方ガイド</a>
+                    <a class="top-action-link top-action-print" href="print.html"><span class="action-index">01 / PRINT</span><strong>授業プリント</strong><small>問題・解説を紙でも使う</small></a>
+                    <a class="top-action-link top-action-review" href="top.html?study=review#gradeSection"><span class="action-index">02 / ESSENTIALS</span><strong>授業の復習</strong><small>文法と読解の根拠を確かめる</small></a>
+                    <a class="top-action-link top-action-cards" href="top.html?study=cards#gradeSection"><span class="action-index">03 / WORDS</span><strong>単語カード</strong><small>音声とカードで覚える</small></a>
+                    <a class="top-action-link top-action-guide" href="guide.html"><span class="action-index">04 / GUIDE</span><strong>使い方ガイド</strong><small>授業と家庭学習の進め方</small></a>
                 </nav>
                 <div class="section-header">
-                    <h2 class="section-title">レベルを選択</h2>
-                    <p class="section-subtitle">学習したいレベルを選んでください</p>
+                    <span class="section-kicker">CHOOSE YOUR LEVEL</span>
+                    <h2 class="section-title" id="gradeSectionTitle">レベルを選ぶ</h2>
+                    <p class="section-subtitle" id="gradeSectionDescription">級を選んで、演習する回へ進みます。</p>
                 </div>
                 <div class="grade-grid" id="gradeGrid"></div>
             </section>
@@ -55,15 +86,24 @@
                     <p class="no-exams-sub">今後追加予定です。しばらくお待ちください。</p>
                 </div>
             </section>
+            <section class="update-history" aria-labelledby="updateHistoryTitle">
+                <div class="section-header"><span class="section-kicker">UPDATE HISTORY</span><h2 class="section-title" id="updateHistoryTitle">更新履歴</h2></div>
+                <ol class="update-history-list">
+                    <li class="update-history-entry"><time datetime="2026-10-14">2026.10.14</time><div><h3>ホームデザインを更新</h3><p>Studio版と構造をそろえ、オレンジを差し色にしました。「落ち着きと喜び」をテーマにした5枚の写真が、3秒ごとにゆっくり切り替わります。</p></div></li>
+                    <li class="update-history-entry"><time datetime="2026-10-14">2026.10.14</time><div><h3>プリントの閲覧と保存を分けました</h3><p>PDFを開いて確認する操作と、保存する操作を選べます。ホーム画面のアイコンとファビコンも、新しいデザインで統一しました。</p></div></li>
+                </ol>
+            </section>
         </main>
 
         <!-- Footer -->
         <footer class="footer">
             <p>ReadPass Pro — Reading Practice</p>
+            <small>写真は本アプリ用に生成したイメージです。</small>
         </footer>
     </div>
 
     <script src="top.js?v=20261013-grade5-2026-2-v1"></script>
+    <script src="pro-landing.js?v=20261014-orange-v1"></script>
 </body>
 
 </html>
