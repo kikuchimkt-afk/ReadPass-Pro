@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2024-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "会話の表現・比較級・アドバイスとつなぎのことば",
+    "aim": "授業で学んだ会話の表現・比較級などの文法・メールや物語に出てきた言い方を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "会話でよく使う、決まった表現を書ける",
+        "There ～の文と、比較級の形がわかる",
+        "should や start のあとの動詞の形がわかる"
+    ],
+    "words": [
+        {
+            "word": "museum",
+            "meaning": "美術館・博物館"
+        },
+        {
+            "word": "daughter",
+            "meaning": "むすめ"
+        },
+        {
+            "word": "world",
+            "meaning": "世界"
+        },
+        {
+            "word": "bench",
+            "meaning": "ベンチ"
+        },
+        {
+            "word": "beach",
+            "meaning": "海べ・ビーチ"
+        },
+        {
+            "word": "college",
+            "meaning": "大学"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Luke is good at playing tennis.",
+            "ja": "ルークはテニスをするのが得意です。",
+            "focus": "fp1",
+            "point": "be good at「～が得意だ」",
+            "note": "good at のあとに動詞を続けるときは ing の形にする。ここでは playing tennis（テニスをすること）。"
+        },
+        {
+            "en": "There are many interesting animals at this zoo.",
+            "ja": "この動物園には、おもしろい動物がたくさんいます。",
+            "focus": "fp2",
+            "point": "There are ～.「～がいる・ある」",
+            "note": "There ～. で「～がいる・ある」。後ろの many interesting animals が複数なので are を使う。"
+        },
+        {
+            "en": "At college, she started taking surfing lessons.",
+            "ja": "大学で、彼女はサーフィンのレッスンを受けはじめました。",
+            "focus": "fp4",
+            "point": "start ～ing「～しはじめる」",
+            "note": "started のあとに ing の形の taking が続いて「受けはじめた」。started to take と言うこともできる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Mika is very good (　) drawing pictures.",
+            "choices": [
+                "to",
+                "at",
+                "of",
+                "up"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "ミカは絵をかくのがとても得意です。",
+            "explanation": "「～が得意だ」は be good at ～で表す。ここでは at のあとに drawing pictures（絵をかくこと）が続いている。",
+            "choiceNotes": [
+                "to「～へ」",
+                "at「good at で～が得意」",
+                "of「～の」",
+                "up「上へ」"
+            ],
+            "tip": "授業の Luke is good at playing tennis. と同じ形。good at をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Do you want to come to my party on Sunday?\nB: Sorry, I'm busy that day. Thanks (　) asking.",
+            "choices": [
+                "of",
+                "by",
+                "on",
+                "for"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：日曜日のわたしのパーティーに来ませんか。\nB：ごめんなさい、その日はいそがしいんです。さそってくれてありがとう。",
+            "explanation": "Thanks for ～ing で「～してくれてありがとう」。さそいをことわるときも、Thanks for asking. とお礼を伝えられる。",
+            "choiceNotes": [
+                "of「～の」",
+                "by「～によって」",
+                "on「～の上に」",
+                "for「Thanks for で～をありがとう」"
+            ],
+            "tip": "授業の But thanks for asking. と同じ形。ことわるときも、お礼をそえるとていねいだね。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "There (　) three parks in my town.",
+            "choices": [
+                "are",
+                "is",
+                "am",
+                "be"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "わたしの町には、公園が3つあります。",
+            "explanation": "There ～. で「～がある・いる」。後ろの three parks が複数なので are を使う。",
+            "choiceNotes": [
+                "are「後ろが複数のとき」",
+                "is「後ろが単数のとき」",
+                "am「主語が I のとき」",
+                "be「原形」"
+            ],
+            "tip": "授業の There are many interesting animals at this zoo. と同じ形。後ろの名詞の数を見よう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "This box is (　) than that one.",
+            "choices": [
+                "heavy",
+                "heaviest",
+                "heavier",
+                "too heavy"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "この箱は、あの箱よりも重いです。",
+            "explanation": "than（～よりも）があるので比較級を使う。heavy は y を i にかえて er をつけ、heavier にする。",
+            "choiceNotes": [
+                "heavy「重い」",
+                "heaviest「いちばん重い」",
+                "heavier「より重い」",
+                "too heavy「重すぎる」"
+            ],
+            "tip": "授業の Is skiing harder than snowboarding? と同じ形。heavier のつづりに気をつけよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "You should (　) to bed early tonight.",
+            "choices": [
+                "go",
+                "goes",
+                "went",
+                "going"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "今夜は早くねたほうがいいですよ。",
+            "explanation": "should は「～したほうがいい」とアドバイスする言い方。should のあとの動詞は原形にするので go。",
+            "choiceNotes": [
+                "go「原形」",
+                "goes「3単現」",
+                "went「過去形」",
+                "going「ing形」"
+            ],
+            "tip": "授業のメールの You should go there tomorrow morning. と同じ形。should＋原形で覚えよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "It was raining, (　) we played cards in our room.",
+            "choices": [
+                "because",
+                "or",
+                "if",
+                "so"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "雨がふっていたので、わたしたちは部屋でトランプをしました。",
+            "explanation": "この so は「だから」の意味で、前が理由、後ろが結果。「雨がふっていた → だから部屋でトランプをした」という流れ。",
+            "choiceNotes": [
+                "because「～なので（後ろが理由）」",
+                "or「または」",
+                "if「もし～なら」",
+                "so「だから（後ろが結果）」"
+            ],
+            "tip": "授業のメールの … busy at lunchtime, so you should go there … と同じ。so の後ろが結果だよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "We didn't see (　) birds in the park.",
+            "choices": [
+                "a",
+                "much",
+                "any",
+                "one"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "公園では、鳥を1羽も見ませんでした。",
+            "explanation": "not ～ any で「1つも～ない」が基本。didn't see any birds で「鳥を1羽も見なかった」。a・one は複数の名詞の直前には入らない。",
+            "choiceNotes": [
+                "a「1つの（単数の前）」",
+                "much「数えられない名詞に使う」",
+                "any「not ～ any で1つも～ない」",
+                "one「1つの（単数の前）」"
+            ],
+            "tip": "授業の物語の … they didn't catch any fish. と同じ形。「1ぴきもつれなかった」だったね。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My sister started (　) piano lessons last year.",
+            "choices": [
+                "take",
+                "taking",
+                "took",
+                "takes"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "姉は去年、ピアノのレッスンを受けはじめました。",
+            "explanation": "start ～ing で「～しはじめる」。ここでは ing の形の taking を選ぶ（started to take と言うこともできる）。",
+            "choiceNotes": [
+                "take「原形」",
+                "taking「ing形」",
+                "took「過去形」",
+                "takes「3単現」"
+            ],
+            "tip": "授業の物語の At college, she started taking surfing lessons. と同じ形。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。good at や Thanks for asking のようにセットで使うことばは、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}
