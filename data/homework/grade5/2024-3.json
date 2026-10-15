@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2024-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "「いま～している」・Don't のぶん・もちぬしのことば",
+    "aim": "じゅぎょうでならった「いま～している」のいいかた、Don't ～. のぶん、もちぬしやものをさすことば、くにやときをあらわすことばを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "「いま～している」のぶんを、ただしいかたちでかける",
+        "Don't ～. で「～しないで」とつたえるぶんがかける",
+        "もちぬしやものをさすことば、くにやときのいいかたがわかる"
+    ],
+    "words": [
+        {
+            "word": "homework",
+            "meaning": "しゅくだい"
+        },
+        {
+            "word": "e-mail",
+            "meaning": "メール"
+        },
+        {
+            "word": "postcard",
+            "meaning": "ポストカード"
+        },
+        {
+            "word": "afternoon",
+            "meaning": "ごご"
+        },
+        {
+            "word": "weather",
+            "meaning": "てんき"
+        },
+        {
+            "word": "elephant",
+            "meaning": "ゾウ"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Don't read comic books in the classroom.",
+            "ja": "きょうしつで、マンガをよんではいけません。",
+            "focus": "fp2",
+            "point": "Don't＋もとのかたち「～しないで」",
+            "note": "Don't のあとに read（もとのかたち）をつづけると、「～しないで」「～してはいけない」といういみになる。"
+        },
+        {
+            "en": "No, it isn't hers. It's mine.",
+            "ja": "ううん、かのじょのものではないよ。わたしのものだよ。",
+            "focus": "fp3",
+            "point": "hers「かのじょのもの」・mine「わたしのもの」",
+            "note": "hers は「かのじょのもの」、mine は「わたしのもの」。うしろに textbook などのことばをつけずに、そのままつかう。"
+        },
+        {
+            "en": "Katie is doing her homework now.",
+            "ja": "ケイティはいま、しゅくだいをしています。",
+            "focus": "fp1",
+            "point": "is＋～ing「いま～している」",
+            "note": "is のあとに doing（do に ing をつけたかたち）をつづけると、「いま～している」といういみになる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Let's play soccer, Taro.\nB: Sorry, I (　) cleaning my room now.",
+            "choices": [
+                "is",
+                "are",
+                "am",
+                "be"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：タロウ、サッカーをしようよ。\nB：ごめんね、いま、へやをそうじしているんだ。",
+            "explanation": "「いま～している」は、am・is・are のあとに ～ing をつづける。ここは I（わたしは）のあとなので、am をつかう。",
+            "choiceNotes": [
+                "is「He・She などのとき」",
+                "are「You やふたりいじょう」",
+                "am「I のとき」",
+                "be「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの I'm writing an e-mail. の I'm は、I am をみじかくしたかたちだよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Emi is (　) a song for her mother now.",
+            "choices": [
+                "singing",
+                "sing",
+                "sang",
+                "sings"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "エミはいま、おかあさんのためにうたをうたっています。",
+            "explanation": "ここは「いま～している」のぶん。is のあとに、sing に ing をつけた singing をつづける。",
+            "choiceNotes": [
+                "singing「ing のかたち」",
+                "sing「もとのかたち」",
+                "sang「かこのかたち」",
+                "sings「s がついたかたち」"
+            ],
+            "tip": "じゅぎょうの She is reading a book now. とおなじかたち。is と ～ing をセットでかこう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Don't (　) my cake, Ken.",
+            "choices": [
+                "eats",
+                "eating",
+                "ate",
+                "eat"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "ケン、わたしのケーキをたべないで。",
+            "explanation": "Don't ～. で「～しないで」。Don't のあとは、どうしのもとのかたちの eat をつかう。",
+            "choiceNotes": [
+                "eats「s がついたかたち」",
+                "eating「ing のかたち」",
+                "ate「かこのかたち」",
+                "eat「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの Don't eat in the library. とおなじかたち。Don't のあとは eat のまま。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Mom, can I go to the park?\nB: OK. Don't (　) late for dinner.",
+            "choices": [
+                "is",
+                "be",
+                "am",
+                "are"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：おかあさん、こうえんにいってもいい？\nB：いいよ。ばんごはんにおくれないでね。",
+            "explanation": "Don't のあとは、どうしのもとのかたち。is・am・are のもとのかたちは be なので、Don't be late. で「おくれないで」となる。",
+            "choiceNotes": [
+                "is「He・She などとつかう」",
+                "be「もとのかたち」",
+                "am「I とつかう」",
+                "are「You などとつかう」"
+            ],
+            "tip": "じゅぎょうの Don't run in the hallway. の run とおなじで、be ももとのかたちだよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: Yuta, is this your umbrella?\nB: No. (　) is green.",
+            "choices": [
+                "Mine",
+                "My",
+                "Me",
+                "I"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：ユウタ、これはあなたのかさ？\nB：ううん。ぼくのは、みどりいろだよ。",
+            "explanation": "mine は「わたしのもの」。ここでは my umbrella（わたしのかさ）を、Mine だけであらわしている。My はうしろに umbrella などがいる。",
+            "choiceNotes": [
+                "Mine「わたしのもの」",
+                "My「わたしの」",
+                "Me「わたしを・わたしに」",
+                "I「わたしは」"
+            ],
+            "tip": "じゅぎょうの It isn't hers. It's mine. とおなじ mine。ぶんのはじめなので Mine とかく。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "(　) cookies are very good, Grandma.",
+            "choices": [
+                "This",
+                "That",
+                "These",
+                "It"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "おばあちゃん、これらのクッキーは、とてもおいしいです。",
+            "explanation": "cookies は1つではなく、いくつもある。いくつもあるものをさして「これらの」というときは These をつかう。",
+            "choiceNotes": [
+                "This「この（1つ）」",
+                "That「あの（1つ）」",
+                "These「これらの」",
+                "It「それは」"
+            ],
+            "tip": "じゅぎょうの These postcards are cute. とおなじかたち。postcards も cookies も1つではないね。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: Who is that tall boy?\nB: That's Mike. He is (　) America.",
+            "choices": [
+                "to",
+                "from",
+                "on",
+                "under"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あのせのたかいおとこのこはだれ？\nB：マイクだよ。アメリカのしゅっしんなんだ。",
+            "explanation": "He is from America. で「かれはアメリカのしゅっしんです」。from は「～から」で、ここではしゅっしんのくにをあらわす。",
+            "choiceNotes": [
+                "to「～へ」",
+                "from「～から・～しゅっしん」",
+                "on「～のうえに」",
+                "under「～のしたに」"
+            ],
+            "tip": "じゅぎょうの She is from Australia. とおなじかたち。is from をセットでいおう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: When do you practice the piano?\nB: (　) the afternoon.",
+            "choices": [
+                "At",
+                "Of",
+                "To",
+                "In"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：いつピアノのれんしゅうをするの？\nB：ごごにするよ。",
+            "explanation": "in the afternoon で「ごごに」。the afternoon（ごご）や the morning（あさ）のまえは、in をつかうのがきほん。",
+            "choiceNotes": [
+                "At「～に（じこく）」",
+                "Of「～の」",
+                "To「～へ」",
+                "In「in the afternoon でごごに」"
+            ],
+            "tip": "じゅぎょうの Let's go in the afternoon. とおなじ in。こたえのはじめなので In とかく。"
+        }
+    ],
+    "closing": "きょうは、「いま～している」のぶんや Don't ～. のぶんを、てでかいてたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。おうちでも、じぶんのものをゆびさして、It's mine. と、えいごでいってみてください。"
+}
