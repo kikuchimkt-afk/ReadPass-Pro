@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2024-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "日常の表現・過去進行形と比較級・時を表すことば",
+    "aim": "授業で学んだ日常の表現・過去進行形や比較級などの文法・メールや物語に出てきた言い方を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "毎日の動作を表す、決まった表現を書ける",
+        "過去進行形・比較級・所有代名詞の形がわかる",
+        "予定を決めるときの言い方や、時を表すことばを使える"
+    ],
+    "words": [
+        {
+            "word": "ticket",
+            "meaning": "きっぷ"
+        },
+        {
+            "word": "travel",
+            "meaning": "旅行する"
+        },
+        {
+            "word": "difficult",
+            "meaning": "むずかしい"
+        },
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "mountain",
+            "meaning": "山"
+        },
+        {
+            "word": "vacation",
+            "meaning": "（長い）休み"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Mia likes to take a walk by the river.",
+            "ja": "ミアは、川ぞいを散歩するのが好きです。",
+            "focus": "fp1",
+            "point": "take a walk「散歩する」",
+            "note": "take a walk で「散歩する」。この walk は「散歩」という意味で、前に a がつく。by the river は「川ぞいを」。"
+        },
+        {
+            "en": "Liam was listening to music in his room.",
+            "ja": "リアムは自分の部屋で音楽を聞いていました。",
+            "focus": "fp2",
+            "point": "was＋ing「～していた」（過去進行形）",
+            "note": "was listening で「（そのとき）聞いていた」。listen to music は「音楽を聞く」。to をわすれずに書こう。"
+        },
+        {
+            "en": "Wendy and her mother gave food to the sheep.",
+            "ja": "ウェンディとお母さんは、ひつじにえさをあげました。",
+            "focus": "fp4",
+            "point": "give A to B「BにAをあげる」",
+            "note": "gave は give の過去形。give A to B で「BにAをあげる」。sheep は1ぴきでも何びきでも同じ形。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: What do you (　) of this picture?\nB: It's beautiful!",
+            "choices": [
+                "play",
+                "think",
+                "stay",
+                "come"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：この絵をどう思いますか。\nB：きれいですね！",
+            "explanation": "What do you think of ～? で「～をどう思いますか」。相手の感想をたずねる言い方で、think of をセットで使う。",
+            "choiceNotes": [
+                "play「遊ぶ・（スポーツを）する」",
+                "think「think of で～を思う」",
+                "stay「とまる・いる」",
+                "come「来る」"
+            ],
+            "tip": "授業の What did you think of the movie? と同じ形。感想をたずねるときに使えるよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Aya and I (　) with our teacher after class.",
+            "choices": [
+                "talked",
+                "said",
+                "told",
+                "asked"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "アヤとわたしは、授業のあとで先生と話しました。",
+            "explanation": "talk with ～で「～と話す」。said（言った）や told（伝えた）は、後ろに with＋人を続けても「～と話した」の意味にはならない。",
+            "choiceNotes": [
+                "talked「話した」",
+                "said「（ことばを）言った」",
+                "told「（人に）伝えた」",
+                "asked「たずねた」"
+            ],
+            "tip": "授業の I need to talk with you about something. と同じ形。talk with をセットで覚えよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Ken was (　) TV when his mother came home.",
+            "choices": [
+                "watch",
+                "watches",
+                "watched",
+                "watching"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "お母さんが帰ってきたとき、ケンはテレビを見ていました。",
+            "explanation": "was＋ing の形（過去進行形）で「～していた」。お母さんが帰ってきたそのときに、していたことを表している。",
+            "choiceNotes": [
+                "watch「原形」",
+                "watches「3単現」",
+                "watched「過去形」",
+                "watching「ing形」"
+            ],
+            "tip": "授業の Liam was listening to music in his room. と同じ、was＋ing の形だよ。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "My brother is (　) than my father now.",
+            "choices": [
+                "tall",
+                "taller",
+                "tallest",
+                "as tall"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "兄は今では、父よりも背が高いです。",
+            "explanation": "than（～よりも）があるので、比較級の taller を使う。tall に er をつけた形で「より背が高い」という意味。",
+            "choiceNotes": [
+                "tall「背が高い」",
+                "taller「より背が高い」",
+                "tallest「いちばん背が高い」",
+                "as tall「as ～ as で同じくらい」"
+            ],
+            "tip": "授業の Jenny gets up earlier than her parents. と同じ形。than の前は taller だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: Is this pen (　), Ken?\nB: Yes, it is. Thank you.",
+            "choices": [
+                "you",
+                "your",
+                "yours",
+                "yourself"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：このペンはあなたのものですか、ケン。\nB：はい、そうです。ありがとう。",
+            "explanation": "yours は「あなたのもの」で、ここでは「あなたのペン」の意味。your は「あなたの」で、後ろに名詞が必要。",
+            "choiceNotes": [
+                "you「あなたは・あなたを」",
+                "your「あなたの（後ろに名詞）」",
+                "yours「あなたのもの」",
+                "yourself「あなた自身」"
+            ],
+            "tip": "授業の No, it isn't mine. の mine と同じ仲間。yours もセットで覚えよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Let's go to the zoo this Saturday.\nB: Sorry, I'm busy. How (　) Sunday?",
+            "choices": [
+                "about",
+                "many",
+                "old",
+                "often"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：今週の土曜日に、動物園に行きましょう。\nB：ごめんなさい、いそがしいんです。日曜日はどうですか。",
+            "explanation": "How about ～? で「～はどうですか」。土曜日のかわりに日曜日はどうかとたずねている。How many は数、How old は年れい、How often は回数をたずねる。",
+            "choiceNotes": [
+                "about「How about で～はどう」",
+                "many「たくさんの」",
+                "old「古い・年をとった」",
+                "often「よく」"
+            ],
+            "tip": "授業のメールでも、おじいさんが How about next Sunday? と書いていたね。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "I have swimming lessons (　) Friday afternoons.",
+            "choices": [
+                "in",
+                "at",
+                "on",
+                "to"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしは毎週金曜日の午後に、水泳のレッスンがあります。",
+            "explanation": "「金曜日の午後に」のように曜日がつくときは on を使う（this や every がつくときは on をつけない）。afternoons と複数形にすると「毎週金曜日の午後に」の意味になる。",
+            "choiceNotes": [
+                "in「in the afternoon など」",
+                "at「時刻など」",
+                "on「曜日・日付」",
+                "to「～へ」"
+            ],
+            "tip": "授業のメールの I'm always free on Sunday afternoons. と同じ形。on＋曜日をセットで覚えよう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My family stayed in Kyoto (　) three days.",
+            "choices": [
+                "at",
+                "of",
+                "from",
+                "for"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしの家族は、京都に3日間とまりました。",
+            "explanation": "for＋時間の長さで「～の間」。for three days で「3日間」と、とまっていた長さを表している。",
+            "choiceNotes": [
+                "at「～で（場所・時刻）」",
+                "of「～の」",
+                "from「～から」",
+                "for「～の間（長さ）」"
+            ],
+            "tip": "授業の They stayed on a farm in the mountains for eight days. と同じ形だよ。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく、手で書くと覚えやすくなります。今日書いた単語と例文を、声に出して読みながらもう一度書いてみましょう。think of や talk with のようにセットで使うことばは、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}
