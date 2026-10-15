@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2024-2",
+    "title": "文法事項の確認",
+    "theme": "譲歩と条件・倍数表現・名詞の後置修飾・挿入",
+    "aim": "授業の長文で学んだ、譲歩や理由・条件を表す語句、話題を示す語句、文と文をつなぐ副詞、名詞を後ろから説明する語句、倍数を使った比較、前置詞の後ろの動詞の形、並列の構文とダッシュによる挿入を、新しい英文の中で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "譲歩を表す接続詞と前置詞を、後ろの形から選び分けられる",
+        "話題を示す語句と、文と文をつなぐ副詞の働きが分かる",
+        "名詞を後ろから説明する語句と、条件を加える構文を訳せる",
+        "倍数を使った比較、並列の構文、ダッシュによる挿入を見抜ける"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) facial recognition is now common at airports, its accuracy remains a subject of heated debate.",
+            "choices": [
+                "Despite",
+                "Instead of",
+                "Although",
+                "Owing to"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "顔認証は今では空港で一般的になっているが、その精度はいまだに激しい議論の的になっている。",
+            "explanation": "後ろに facial recognition is now common という節が続くので、接続詞の Although が入る。ほかの3つは前置詞の働きで、後ろに節は置けない。",
+            "choiceNotes": [
+                "Despite「前置詞」",
+                "Instead of「～の代わりに」",
+                "Although「～だが（接続詞）」",
+                "Owing to「～が原因で」"
+            ],
+            "tip": "授業の Although IQ tests are now widely used と同じ形。後ろに主語＋動詞が続くかを見る。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "After several public meetings, there is still no agreement (　) where the new recycling plant should be built.",
+            "choices": [
+                "regarded",
+                "regarding",
+                "regards",
+                "regard"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "何度か公開の会合が開かれたが、新しいリサイクル工場をどこに建てるべきかについては、まだ合意がない。",
+            "explanation": "regarding は「～に関して」という前置詞で、about とほぼ同じ意味。後ろの where 節が、何についての合意なのかを示している。",
+            "choiceNotes": [
+                "regarded「過去形・過去分詞」",
+                "regarding「～に関して」",
+                "regards「3単現・名詞の複数形」",
+                "regard「原形・名詞」"
+            ],
+            "tip": "授業の debate regarding their validity と同じ。about に置きかえて確かめる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The new rail line will halve travel time between the two cities. (　), it is expected to create thousands of jobs.",
+            "choices": [
+                "In contrast",
+                "Instead",
+                "Nevertheless",
+                "Furthermore"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "新しい鉄道路線によって、2都市間の移動時間は半分になる。さらに、何千もの雇用を生むと見込まれている。",
+            "explanation": "前の文の「移動時間が半分になる」という利点に、「多くの雇用を生む」という別の利点を加えているので、追加を表す Furthermore が入る。",
+            "choiceNotes": [
+                "In contrast「対照的に」",
+                "Instead「その代わりに」",
+                "Nevertheless「それでもなお」",
+                "Furthermore「さらに」"
+            ],
+            "tip": "授業の Furthermore, MRI scans ... と同じ使い方。同じ向きの内容を重ねる合図。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Satellite images (　) while the wildfire was spreading revealed that the smoke had drifted across three countries.",
+            "choices": [
+                "taken",
+                "taking",
+                "took",
+                "to take"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "山火事が広がっている間に撮影された衛星画像は、煙が3か国にまたがって流れていたことを明らかにした。",
+            "explanation": "taken while ... spreading が Satellite images を後ろから説明する。画像は「撮影される」側なので過去分詞。文の動詞は revealed。",
+            "choiceNotes": [
+                "taken「過去分詞」",
+                "taking「現在分詞・動名詞」",
+                "took「過去形」",
+                "to take「to不定詞」"
+            ],
+            "tip": "授業の MRI scans taken while ... と同じ形。長い主語の後ろで文の動詞を探す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "The family-run hotel has survived for a century, but only (　) each generation has adapted to changing tastes.",
+            "choices": [
+                "although",
+                "because",
+                "despite",
+                "whether"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その家族経営のホテルは100年続いてきたが、それは各世代が客の好みの変化に合わせてきたからこそだ。",
+            "explanation": "but only because S V で「ただしそれは～だからこそだ」。続いてきたという事実を認めたうえで、それを支えた条件を後から示している。",
+            "choiceNotes": [
+                "although「～だが（接続詞）」",
+                "because「～だから」",
+                "despite「前置詞・後ろは名詞」",
+                "whether「～かどうか」"
+            ],
+            "tip": "授業の Moore's law ... but only because と同じ形。前半の結果を支えた条件を読み取る。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The general rule that birth rates fall as incomes rise has largely (　) true, though there are notable exceptions.",
+            "choices": [
+                "given",
+                "set",
+                "held",
+                "made"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "所得が上がると出生率が下がるという一般的な法則は、目立った例外もあるが、おおむね当てはまってきた。",
+            "explanation": "hold true で「（説や法則が）当てはまる」。現在完了の has held true に largely が入り、「これまでおおむね当てはまってきた」となる。",
+            "choiceNotes": [
+                "given「与えられた」",
+                "set「置かれた」",
+                "held「hold true で当てはまる」",
+                "made「作られた」"
+            ],
+            "tip": "授業の Moore's law has largely held true と同じ表現。説や法則が当てはまることを表す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The amount of plastic waste the city collects each year is now about three times (　) than it was in 1990.",
+            "choices": [
+                "more",
+                "much",
+                "many",
+                "as"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その市が毎年回収するプラスチックごみの量は、今では1990年の約3倍になっている。",
+            "explanation": "倍数＋比較級＋than で「～の…倍」。than があるので比較級の more が入る。it was の it は the amount を指し、1990年の量と比べている。",
+            "choiceNotes": [
+                "more「比較級」",
+                "much「原級・量」",
+                "many「原級・数」",
+                "as「as ～ as の形で使う」"
+            ],
+            "tip": "授業の seventy-five times more than it was と同じ形。「～の○倍」と訳す。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) fierce opposition from local fishermen, the government approved the construction of an offshore wind farm.",
+            "choices": [
+                "Although",
+                "Even though",
+                "Whereas",
+                "Despite"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "地元の漁業者の強い反対にもかかわらず、政府は洋上風力発電所の建設を承認した。",
+            "explanation": "空所の後ろは fierce opposition from local fishermen という名詞のかたまりで、動詞がない。名詞だけを続けられるのは前置詞の Despite。",
+            "choiceNotes": [
+                "Although「接続詞・後ろは節」",
+                "Even though「接続詞」",
+                "Whereas「～する一方」",
+                "Despite「前置詞」"
+            ],
+            "tip": "授業の Despite this criticism と同じ形。(1)と見比べ、後ろに主語＋動詞があるかを確かめる。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Smartphones can be a valuable learning tool for young children if (　) under the guidance of parents or teachers.",
+            "choices": [
+                "using",
+                "used",
+                "use",
+                "to use"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "スマートフォンは、親や教師の指導のもとで使われれば、幼い子どもにとって価値ある学習道具になりうる。",
+            "explanation": "if used は if they are used の they are が省かれた形。主語の Smartphones は「使われる」側なので、過去分詞の used が入る。",
+            "choiceNotes": [
+                "using「現在分詞・動名詞」",
+                "used「過去分詞」",
+                "use「原形」",
+                "to use「to不定詞」"
+            ],
+            "tip": "授業の if used appropriately と同じ形。if の後ろに they are を補って読む。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "(　) most of the village's residents are over seventy, the local clinic offers free transportation to its patients.",
+            "choices": [
+                "So",
+                "Because of",
+                "Since",
+                "Whether"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "村の住民の大半が70歳を超えているので、地元の診療所は患者に無料の送迎を行っている。",
+            "explanation": "ここの Since は理由を表す接続詞で「～なので」。住民の大半が高齢であることが、無料の送迎を行っている理由になっている。",
+            "choiceNotes": [
+                "So「だから（結果を続ける）」",
+                "Because of「前置詞・後ろは名詞」",
+                "Since「～なので」",
+                "Whether「～かどうか」"
+            ],
+            "tip": "授業の Since the majority of teachers ... と同じ使い方。理由と結果をつなぐ。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "With so many strong candidates, applicants without work experience have little chance of (　) for the internship.",
+            "choices": [
+                "being selected",
+                "selecting",
+                "selected",
+                "be selected"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "有力な候補者が多いので、職務経験のない応募者がインターンに選ばれる見込みはほとんどない。",
+            "explanation": "前置詞 of の後ろなので動名詞にする。応募者は「選ばれる」側なので、受け身の動名詞 being selected が入る。",
+            "choiceNotes": [
+                "being selected「受け身の動名詞」",
+                "selecting「能動の動名詞」",
+                "selected「過去分詞」",
+                "be selected「原形」"
+            ],
+            "tip": "授業の less chance of being selected と同じ形。「選ばれる」と受け身で訳す。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Studies suggest that people who exercise regularly not only sleep better but also (　) less anxious during the day.",
+            "choices": [
+                "feeling",
+                "feels",
+                "to feel",
+                "feel"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "研究によると、定期的に運動する人は、よく眠れるだけでなく、日中に不安を感じることも少ないという。",
+            "explanation": "not only の後ろが動詞 sleep なので、but also の後ろにも同じ主語 people に合う動詞が来る。複数の主語なので feel。",
+            "choiceNotes": [
+                "feeling「-ing形」",
+                "feels「3単現」",
+                "to feel「to不定詞」",
+                "feel「現在形」"
+            ],
+            "tip": "授業の not only live longer but also stay と同じ形。並ぶ動詞の形をそろえる。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The new solar panels are cheaper to produce — and (　) easier for developing countries to adopt — than earlier models.",
+            "choices": [
+                "however",
+                "therefore",
+                "instead",
+                "unless"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その新しい太陽光パネルは従来の型より安く生産でき、したがって途上国にとって導入しやすい。",
+            "explanation": "ダッシュではさまれた部分は挿入で、and therefore は「したがって」。安く生産できる結果、導入しやすいと補っている。than 以下は両方にかかる。",
+            "choiceNotes": [
+                "however「しかし」",
+                "therefore「したがって」",
+                "instead「その代わりに」",
+                "unless「～しない限り」"
+            ],
+            "tip": "授業の — and therefore more productive — と同じ形。ダッシュの間を外して骨組みを見る。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "In many rural communities, grandparents play a central role in (　) on traditional crafts to younger generations.",
+            "choices": [
+                "pass",
+                "passed",
+                "to pass",
+                "passing"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "多くの農村の地域社会では、祖父母が伝統工芸を若い世代に伝えるうえで中心的な役割を果たしている。",
+            "explanation": "play a role in ～ で「～で役割を果たす」。この in は前置詞なので、後ろの動詞は動名詞にする。pass on A to B は「AをBに伝える」。",
+            "choiceNotes": [
+                "pass「原形」",
+                "passed「過去形・過去分詞」",
+                "to pass「to不定詞」",
+                "passing「動名詞」"
+            ],
+            "tip": "授業の in passing on knowledge と同じ形。(11)の of と同じく -ing 形にする。"
+        }
+    ],
+    "closing": "今回の長文には、広く使われているものへの疑問、成功の裏にある条件、批判を認めたうえでの反論など、ある見方を示してから別の見方を加える流れが多く出てきました。準1級の長文では、譲歩や追加、理由を示す語句に気づくことが、筆者の立場を読み取る手がかりになります。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}
