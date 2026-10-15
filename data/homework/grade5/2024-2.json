@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2024-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "can・Please のぶん・ばしょのことば・こたえかた",
+    "aim": "じゅぎょうでならった can・Please・Let's のぶん、ばしょをあらわすことば、しつもんのこたえかたを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "can・Please・Let's のあとのどうしを、ただしいかたちでかける",
+        "ばしょをあらわすことばを、ただしくえらべる",
+        "Yes・No でこたえるしつもんと、そのこたえかたがわかる"
+    ],
+    "words": [
+        {
+            "word": "birthday",
+            "meaning": "たんじょうび"
+        },
+        {
+            "word": "animal",
+            "meaning": "どうぶつ"
+        },
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "present",
+            "meaning": "プレゼント"
+        },
+        {
+            "word": "aunt",
+            "meaning": "おば"
+        },
+        {
+            "word": "computer",
+            "meaning": "コンピューター"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Keiko likes music. She can sing very well.",
+            "ja": "ケイコはおんがくがすきです。とてもじょうずにうたえます。",
+            "focus": "fp1",
+            "point": "can＋もとのかたち「～できる」",
+            "note": "can のあとに sing（もとのかたち）をつづけると、「～できる」といういみになる。She のときも sings にはしない。"
+        },
+        {
+            "en": "Lisa lives in a big house. It has a pool.",
+            "ja": "リサは、おおきないえにすんでいます。そのいえには、プールがあります。",
+            "focus": "fp2",
+            "point": "lives in ～「～にすんでいる」",
+            "note": "ここでの in は「～のなかに」。lives in a big house で「おおきないえにすんでいる」といういみになる。"
+        },
+        {
+            "en": "Tom, please open the window.",
+            "ja": "トム、まどをあけてください。",
+            "focus": "fp3",
+            "point": "please＋もとのかたち「～してください」",
+            "note": "please のあとに open（もとのかたち）をつづけると、「～してください」とたのむいいかたになる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My father can (　) the guitar very well.",
+            "choices": [
+                "plays",
+                "playing",
+                "play",
+                "played"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしのおとうさんは、ギターをとてもじょうずにひけます。",
+            "explanation": "can のあとは、どうしのもとのかたちをつかう。My father のときも plays にはしないで、play のままにする。",
+            "choiceNotes": [
+                "plays「s がついたかたち」",
+                "playing「ing のかたち」",
+                "play「もとのかたち」",
+                "played「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの She can sing very well. とおなじかたち。can のあとは、もとのかたちだよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Can your sister (　) English?\nB: Yes, a little.",
+            "choices": [
+                "speak",
+                "speaks",
+                "speaking",
+                "spoke"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたのおねえさんは、えいごをはなせますか。\nB：はい、すこしだけ。",
+            "explanation": "Can ～? のしつもんでも、can のあとは どうしのもとのかたち。Can your sister speak ～? で「～をはなせますか」となる。",
+            "choiceNotes": [
+                "speak「もとのかたち」",
+                "speaks「s がついたかたち」",
+                "speaking「ing のかたち」",
+                "spoke「かこのかたち」"
+            ],
+            "tip": "Can ではじまるしつもんでも、どうしはもとのかたち。Yes, she can. ともこたえられるよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Where is Grandpa?\nB: He's (　) home. He's sleeping.",
+            "choices": [
+                "to",
+                "on",
+                "of",
+                "at"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：おじいちゃんはどこ？\nB：いえにいるよ。ねているんだ。",
+            "explanation": "at home で「いえに・いえで」。He's at home. で「かれは いえにいる」といういみになる。",
+            "choiceNotes": [
+                "to「～へ」",
+                "on「～のうえに」",
+                "of「～の」",
+                "at「at home でいえに」"
+            ],
+            "tip": "じゅぎょうの It's at home. とおなじ at home。セットでおぼえよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "I go (　) the library every Sunday.",
+            "choices": [
+                "at",
+                "to",
+                "in",
+                "on"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしは、まいしゅう日ようびに、としょかんへいきます。",
+            "explanation": "ここでの to は「～へ」と、いくさきをあらわす。go to the library で「としょかんへいく」といういみになる。",
+            "choiceNotes": [
+                "at「～に・～で」",
+                "to「～へ」",
+                "in「～のなかに」",
+                "on「～のうえに」"
+            ],
+            "tip": "じゅぎょうの Welcome to our school. の to も「～へ」。go to ～ で「～へいく」だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "Please (　) your room, Ken.",
+            "choices": [
+                "clean",
+                "cleans",
+                "cleaning",
+                "cleaned"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "ケン、あなたのへやをそうじしてください。",
+            "explanation": "Please のあとは、どうしのもとのかたち。Please clean ～. で「～をそうじしてください」とたのむいいかたになる。",
+            "choiceNotes": [
+                "clean「もとのかたち」",
+                "cleans「s がついたかたち」",
+                "cleaning「ing のかたち」",
+                "cleaned「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Tom, please open the window. とおなじかたち。please のあとは、もとのかたち。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: It's very hot today.\nB: Yes. Let's (　) in the pool.",
+            "choices": [
+                "swims",
+                "swam",
+                "swim",
+                "swimming"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：きょうは、とてもあついね。\nB：うん。プールでおよごう。",
+            "explanation": "Let's ～. は「～しよう」とさそういいかた。Let's のあとは、どうしのもとのかたちの swim をつかう。",
+            "choiceNotes": [
+                "swims「s がついたかたち」",
+                "swam「かこのかたち」",
+                "swim「もとのかたち」",
+                "swimming「ing のかたち」"
+            ],
+            "tip": "じゅぎょうの Let's eat lunch. とおなじかたち。Let's のあとも、もとのかたちだよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: (　) your brother like dogs?\nB: Yes, he does. He has a big dog.",
+            "choices": [
+                "Do",
+                "Does",
+                "Is",
+                "Are"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：あなたのおにいさんは、いぬがすきですか。\nB：はい、すきです。おおきないぬをかっています。",
+            "explanation": "can のない、like のような どうしのしつもんで、your brother のように わたし・あなた いがいの1人のことをたずねるときは、Does をつかう。",
+            "choiceNotes": [
+                "Do「you などのしつもん」",
+                "Does「he・she などのしつもん」",
+                "Is「is のぶんのしつもん」",
+                "Are「are のぶんのしつもん」"
+            ],
+            "tip": "じゅぎょうの Does he play soccer? とおなじかたち。B の he does もヒントになるよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Do you need an umbrella, Ken?\nB: No, I (　). It's sunny now.",
+            "choices": [
+                "doesn't",
+                "isn't",
+                "aren't",
+                "don't"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ケン、かさはひつよう？\nB：ううん、ひつようないよ。いまは、はれているよ。",
+            "explanation": "Do you ～? のしつもんには、do をつかってこたえる。「いいえ」は No, I don't. になる。I のときは doesn't にしない。",
+            "choiceNotes": [
+                "doesn't「Does にこたえる」",
+                "isn't「Is にこたえる」",
+                "aren't「I とはつかわない」",
+                "don't「Do にこたえる」"
+            ],
+            "tip": "じゅぎょうでは Yes, I do. をならったね。「いいえ」のときは No, I don't. とこたえるよ。"
+        }
+    ],
+    "closing": "きょうは、can や Please のぶん、ばしょのことば、しつもんのこたえかたを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。おうちでも、I can ～. をつかって、じぶんのできることを、えいごでいってみてください。"
+}
