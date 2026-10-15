@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2024-3",
+    "title": "文法事項の確認",
+    "theme": "感情の表し方・過去完了・つなぎの言葉・完了の受け身",
+    "aim": "授業の物語・Eメール・木についての説明文で学んだ、感情の表し方、動詞の後ろに続く形、過去完了、ていねいな言い方、話の流れを示すつなぎの言葉、一般論の述べ方、現在完了の受け身を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "感情を表す形容詞と、動詞の後ろに続く形を選べる",
+        "出来事の順番に合わせて、過去完了を使える",
+        "つなぎの言葉から、文と文の関係をつかめる",
+        "現在完了の受け身を自然な日本語に訳し、一般論の表現を選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The comedy show was really funny, and we could not stop (　) until the end.",
+            "choices": [
+                "laugh",
+                "to laughing",
+                "laughed",
+                "laughing"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "そのお笑い番組は本当におもしろくて、私たちは最後まで笑いが止まらなかった。",
+            "explanation": "〈stop＋-ing〉で「～するのをやめる」。could not stop laughing で「笑いが止まらなかった」。stop to ～ は「～するために手を止める」の意味。",
+            "choiceNotes": [
+                "laugh「原形」",
+                "to laughing「stop の後ろに来ない」",
+                "laughed「過去形・過去分詞」",
+                "laughing「動名詞」"
+            ],
+            "tip": "授業の She could not stop smiling と同じ形。「～が止まらなかった」と訳すと自然。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Mika could not believe that she (　) first prize in the contest the day before.",
+            "choices": [
+                "wins",
+                "has won",
+                "had won",
+                "is winning"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ミカは、前の日のコンテストで自分が1位になったことが信じられなかった。",
+            "explanation": "「信じられなかった」（過去）よりも前に「1位になった」ので、過去完了〈had＋過去分詞〉の had won を使う。the day before「その前日に」も手がかり。",
+            "choiceNotes": [
+                "wins「現在形」",
+                "has won「現在完了」",
+                "had won「過去完了」",
+                "is winning「現在進行形」"
+            ],
+            "tip": "授業の could not believe she had found ～ と同じ形。どちらの過去が先かを確かめる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Yuki was very (　) when she saw her own picture in the newspaper.",
+            "choices": [
+                "surprised",
+                "surprising",
+                "surprise",
+                "to surprise"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ユキは、新聞に自分の写真が載っているのを見て、とても驚いた。",
+            "explanation": "ユキ自身が驚いた気持ちを表すので、「（人が）驚いた」の意味の形容詞 surprised を使う。surprising は「（人を）驚かせるような」。",
+            "choiceNotes": [
+                "surprised「（人が）驚いた」",
+                "surprising「驚くべき」",
+                "surprise「驚かせる・驚き」",
+                "to surprise「to不定詞」"
+            ],
+            "tip": "授業の she was very surprised と同じ形。驚く本人が主語なら surprised。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "This old song always (　) me of my summer vacation in Okinawa.",
+            "choices": [
+                "remembers",
+                "reminds",
+                "makes",
+                "forgets"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "この古い歌を聞くと、私はいつも沖縄での夏休みを思い出す。",
+            "explanation": "〈remind＋人＋of ～〉で「（人）に～を思い出させる」。物が主語の文は「～を聞くと…を思い出す」のように訳すと自然になる。",
+            "choiceNotes": [
+                "remembers「覚えている・思い出す」",
+                "reminds「思い出させる」",
+                "makes「作る・～させる」",
+                "forgets「忘れる」"
+            ],
+            "tip": "授業の it reminded her of ～ と同じ形。remind A of B の形で覚える。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Before the meeting starts, I would like (　) you about one small change.",
+            "choices": [
+                "to tell",
+                "tell",
+                "telling",
+                "told"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "会議が始まる前に、1つ小さな変更についてお伝えしたいと思います。",
+            "explanation": "〈would like＋to＋動詞の原形〉で「～したいと思います」と、want to よりていねいに伝える。would like の後ろに動詞を続けるときは to不定詞にする。",
+            "choiceNotes": [
+                "to tell「to不定詞」",
+                "tell「原形」",
+                "telling「動名詞」",
+                "told「過去形・過去分詞」"
+            ],
+            "tip": "授業の I would like to remind you of と同じ形。お知らせのメールでよく使われる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Until last year, students could use the school library on Saturdays. (　), it is now closed on weekends.",
+            "choices": [
+                "In addition",
+                "For example",
+                "Because",
+                "However"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "昨年までは、生徒は土曜日に学校の図書館を使えた。しかし今は、週末は閉まっている。",
+            "explanation": "「以前は使えた」と「今は閉まっている」という反対の内容をつなぐので、逆接の However「しかし」が入る。変更点を知らせるときによく使われる。",
+            "choiceNotes": [
+                "In addition「さらに」",
+                "For example「例えば」",
+                "Because「～なので（接続詞）」",
+                "However「しかし」"
+            ],
+            "tip": "授業のメールの However, you can ～ と同じ。前と今の違いに注意して読む。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The shop near the station (　) sells newspapers. You need to buy them at another store.",
+            "choices": [
+                "still",
+                "already",
+                "no longer",
+                "any longer"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "駅の近くの店は、もう新聞を売っていない。ほかの店で買う必要がある。",
+            "explanation": "no longer は「もう～ない」で、以前とは状況が変わったことを表す。still「まだ」や already「すでに」では、後ろの文と内容が合わない。",
+            "choiceNotes": [
+                "still「まだ」",
+                "already「すでに」",
+                "no longer「もう～ない」",
+                "any longer「not … any longer の形」"
+            ],
+            "tip": "授業の you can no longer use them と同じ。「もう～ない」と訳すと変化が伝わる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The meeting time for the school trip has changed to 7:30 a.m. (　), please don't be late.",
+            "choices": [
+                "Because",
+                "So",
+                "For example",
+                "Instead"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "修学旅行の集合時間が午前7時30分に変わりました。ですので、遅れないでください。",
+            "explanation": "「集合時間が変わった」ことを受けて、「遅れないで」と注意を促しているので、結論を導く So「だから」が入る。",
+            "choiceNotes": [
+                "Because「～なので（接続詞）」",
+                "So「だから・ですので」",
+                "For example「例えば」",
+                "Instead「その代わりに」"
+            ],
+            "tip": "授業のメールの So, please check ～ と同じ流れ。変更→お願いの順番になっている。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Dogs help people in many ways. (　), some dogs guide people who cannot see.",
+            "choices": [
+                "However",
+                "For example",
+                "Instead",
+                "Because of"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "犬はいろいろな形で人の役に立っている。例えば、目の不自由な人を案内する犬もいる。",
+            "explanation": "前の文の「いろいろな形で役に立つ」の具体例を、後ろの文で挙げているので、For example「例えば」が入る。",
+            "choiceNotes": [
+                "However「しかし」",
+                "For example「例えば」",
+                "Instead「その代わりに」",
+                "Because of「～が原因で（＋名詞）」"
+            ],
+            "tip": "授業の For example, some research shows ～ と同じ。「まとめ→具体例」の順に読む。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Crows can remember people's faces. (　), some of them can use sticks to get food.",
+            "choices": [
+                "However",
+                "Instead",
+                "For example",
+                "In addition"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "カラスは人の顔を覚えることができる。さらに、棒を使ってえさを取るカラスもいる。",
+            "explanation": "「顔を覚える」能力に、「棒を使う」という別の能力を付け加えているので、In addition「さらに」が入る。前の文の例ではないので For example は合わない。",
+            "choiceNotes": [
+                "However「しかし」",
+                "Instead「その代わりに」",
+                "For example「例えば」",
+                "In addition「さらに」"
+            ],
+            "tip": "授業の In addition, some studies ～ と同じ。能力を1つずつ数えながら読む。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "My teacher pointed (　) that my essay had a few spelling mistakes.",
+            "choices": [
+                "out",
+                "at",
+                "for",
+                "in"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "先生は、私の作文にいくつかつづりの間違いがあると指摘した。",
+            "explanation": "〈point out that ～〉で「～ということを指摘する」。that 以下が指摘した内容を表す。point at は「～を指さす」で、that 節は続かない。",
+            "choiceNotes": [
+                "out「point out で指摘する」",
+                "at「point at で指さす」",
+                "for「～のために」",
+                "in「～の中に」"
+            ],
+            "tip": "授業の some studies point out that ～ と同じ形。研究の内容を紹介するときにも使われる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Generally, people (　) sleep longer on weekends than on weekdays.",
+            "choices": [
+                "tends to",
+                "tending to",
+                "tend to",
+                "tend"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "一般的に、人は平日よりも週末に長く眠りがちだ。",
+            "explanation": "〈tend to＋動詞の原形〉で「～しがちだ・～する傾向がある」。主語の people は複数なので、s の付かない tend to を使う。",
+            "choiceNotes": [
+                "tends to「3単現」",
+                "tending to「-ing 形」",
+                "tend to「～しがちだ」",
+                "tend「後ろに to が必要」"
+            ],
+            "tip": "授業の Generally, we tend to think ～ と同じ形。一般的な傾向を述べる言い方。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "In recent years, many new kinds of deep-sea fish (　) by scientists.",
+            "choices": [
+                "have found",
+                "have been found",
+                "found",
+                "are finding"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "近年、多くの新しい種類の深海魚が科学者によって発見されている。",
+            "explanation": "魚は「発見される」側なので受け身。in recent years「近年」とともに、現在完了の受け身〈have been＋過去分詞〉を使う。",
+            "choiceNotes": [
+                "have found「能動態」",
+                "have been found「受け身」",
+                "found「過去形・過去分詞」",
+                "are finding「現在進行形」"
+            ],
+            "tip": "授業の abilities of trees have been found out と同じ形。「～されている」と訳す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Many people think that bats cannot see. (　), all bats can see, and some see very well.",
+            "choices": [
+                "In fact",
+                "For example",
+                "In addition",
+                "Because of"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "多くの人が、コウモリは目が見えないと思っている。実は、どのコウモリも目が見え、とてもよく見えるものもいる。",
+            "explanation": "「見えないと思われている」ことに対して、「実はどれも見える」という意外な事実を示しているので、In fact「実は」が入る。",
+            "choiceNotes": [
+                "In fact「実は」",
+                "For example「例えば」",
+                "In addition「さらに」",
+                "Because of「～が原因で（＋名詞）」"
+            ],
+            "tip": "授業の In fact, it goes back ～ と同じ。ここでは通念と違う事実を示している。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語、Eメール、木についての説明文の学習で扱ったものです。However や For example などのつなぎの言葉は、長文の流れをつかむ手がかりになり、英作文で自分の考えを書くときにも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

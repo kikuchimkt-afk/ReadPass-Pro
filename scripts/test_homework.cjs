@@ -50,7 +50,9 @@ async function renderSet(page,grade,exam){
     const row=page.locator(`.teacher-material-row[data-homework="${TARGET.exam}"]`);
     assert.match(await row.innerText(),/宿題プリント（文法事項の確認）/);
     assert.match(await row.innerText(),new RegExp(`A4縦4ページ（問題${hw.questions.length}問・うち全訳${hw.questions.filter(q=>q.translate).length}問：問題2ページ・解答解説2ページ）`));
-    // The grammar-guide row keeps its own selector for the existing tests.
+    // The grammar-guide row keeps its own selector for the existing tests. It comes from a separate
+    // fetch (output/pdf/grammar_guides.json), which can finish after the homework row, e.g. right after a deploy.
+    await page.locator(`.teacher-material-row[data-exam="${TARGET.exam}"]`).waitFor();
     assert.equal(await page.locator(`.teacher-material-row[data-exam="${TARGET.exam}"]`).count(),1);
     // The past-exam PDF row comes first, and the panel sits above the fixed-PDF notice.
     const fixedRow=page.locator(`.teacher-material-row[data-fixed-exam="${TARGET.exam}"]`);
