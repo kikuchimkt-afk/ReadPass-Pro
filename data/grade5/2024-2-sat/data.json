@@ -1,0 +1,1529 @@
+{
+    "grade": "grade5",
+    "year": "2024",
+    "session": "2024-2-sat",
+    "exam": "2024-2-sat",
+    "title": "英検5級 2024年度 第2回（土曜準会場）",
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "A: Ben, can I use your (　)?\nB: No. I'm drawing a picture in it now.",
+                    "translation": "A：ベン、あなたの (　) を使ってもいいですか。\nB：いいえ。今それに絵をかいているところです。",
+                    "choices": [
+                        "notebook",
+                        "flower",
+                        "bag",
+                        "camera"
+                    ],
+                    "choiceTranslations": [
+                        "ノート",
+                        "花",
+                        "かばん",
+                        "カメラ"
+                    ],
+                    "answer": 1,
+                    "grammar": "Can I ～? は『～してもいいですか』と許可を求める言い方。B の I'm drawing a picture in it now.（今それに絵をかいているところ）の it は、空所の物を指す。中に絵をかける物なので notebook（ノート）。I'm drawing は『今～している』を表す現在進行形。flower（花）・bag（かばん）・camera（カメラ）は、中に絵をかく物ではない。",
+                    "grammarSimple": "Can I use ～? は『～を つかっても いい？』。B は『いま それに えを かいているよ』と いっているので、えを かける notebook（ノート）だね。",
+                    "choiceAnalysis": [
+                        "○ notebook＝ノート。notebook（ノート）なら中に絵をかける。B の in it とつながる。",
+                        "flower＝花。花の中に絵はかけない。",
+                        "bag＝かばん。かばんは物を入れるもので、中に絵をかくものではない。",
+                        "camera＝カメラ。カメラは写真をとるもので、中に絵をかくものではない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ ノート。ノートに えを かいているんだね。",
+                        "花。はなの なかに えは かけないよ。",
+                        "かばん。かばんは ものを いれる ものだよ。",
+                        "カメラ。カメラは しゃしんを とる ものだよ。"
+                    ],
+                    "questionAudio": "audio/q1.mp3"
+                },
+                {
+                    "number": 2,
+                    "text": "A: Do you (　) that man?\nB: Yes. He's Mr. Green.",
+                    "translation": "A：あなたはあの男の人を (　) か。\nB：はい。彼はグリーンさんです。",
+                    "choices": [
+                        "sit",
+                        "live",
+                        "know",
+                        "begin"
+                    ],
+                    "choiceTranslations": [
+                        "すわる",
+                        "住む",
+                        "知っている",
+                        "始める・始まる"
+                    ],
+                    "answer": 3,
+                    "grammar": "know は『（人や物を）知っている』。Do you know ～? で『～を知っていますか』。B が Yes.（はい）と答えて、He's Mr. Green.（彼はグリーンさんです）とその人の名前を教えているので know が合う。Mr. は男性の名字の前に付ける敬称。sit（すわる）・live（住む）・begin（始める）は、後ろに that man（あの男の人）を続けても意味が通らない。",
+                    "grammarSimple": "Do you know ～? は『～を しっている？』。『はい、グリーンさんだよ』と なまえを おしえているね。",
+                    "choiceAnalysis": [
+                        "sit＝すわる。sit は『すわる』で、sit that man とは言わない。",
+                        "live＝住む。live は『住む』で、live in ～ のように場所を続ける。人を後ろに置いても意味が通らない。",
+                        "○ know＝知っている。Do you know that man? で『あの男の人を知っていますか』。名前を教える答えに合う。",
+                        "begin＝始める・始まる。begin は『始める・始まる』で、人を始めることはできない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "すわる。すわる、では いみが とおらないよ。",
+                        "住む。すむ、では いみが とおらないよ。",
+                        "○ 知っている。『あの ひとを しっている？』だね。",
+                        "始める・始まる。はじめる、では いみが とおらないよ。"
+                    ],
+                    "questionAudio": "audio/q2.mp3"
+                },
+                {
+                    "number": 3,
+                    "text": "A: Karen, do you have a (　) at school?\nB: Yes. I keep my coat and books in it.",
+                    "translation": "A：カレン、あなたは学校に (　) がありますか。\nB：はい。その中にコートと本を入れています。",
+                    "choices": [
+                        "locker",
+                        "bicycle",
+                        "friend",
+                        "pool"
+                    ],
+                    "choiceTranslations": [
+                        "ロッカー",
+                        "自転車",
+                        "友達",
+                        "プール"
+                    ],
+                    "answer": 1,
+                    "grammar": "B の I keep my coat and books in it.（その中にコートと本を入れている）が手がかり。keep は『（物を）しまっておく』、in it の it は空所の物を指す。学校でコートや本を入れておく物なので locker（ロッカー）。bicycle（自転車）・friend（友達）・pool（プール）は、コートや本をしまっておく物ではない。",
+                    "grammarSimple": "B は『その なかに コートと ほんを いれているよ』と いっているね。がっこうで ものを いれておく locker（ロッカー）だよ。",
+                    "choiceAnalysis": [
+                        "○ locker＝ロッカー。学校でコートや本をしまっておく物なので locker（ロッカー）。in it とつながる。",
+                        "bicycle＝自転車。自転車は乗る物で、中にコートや本をしまわない。",
+                        "friend＝友達。友達の中に物はしまえない。",
+                        "pool＝プール。プールは泳ぐ場所で、コートや本をしまう物ではない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ ロッカー。ロッカーに コートと ほんを いれるんだね。",
+                        "自転車。じてんしゃは のる ものだよ。",
+                        "友達。ともだちの なかには いれられないよ。",
+                        "プール。プールは およぐ ところだよ。"
+                    ],
+                    "questionAudio": "audio/q3.mp3"
+                },
+                {
+                    "number": 4,
+                    "text": "A: Mom, do you have any (　) now? I want some ice cream.\nB: Sorry, Kevin, I don't.",
+                    "translation": "A：お母さん、今 (　) を持っていますか。アイスクリームがほしいです。\nB：ごめんなさい、ケビン、持っていません。",
+                    "choices": [
+                        "money",
+                        "paper",
+                        "fish",
+                        "music"
+                    ],
+                    "choiceTranslations": [
+                        "お金",
+                        "紙",
+                        "魚",
+                        "音楽"
+                    ],
+                    "answer": 1,
+                    "grammar": "後ろの I want some ice cream.（アイスクリームがほしい）が手がかり。アイスクリームを買うのに必要な物なので money（お金）。do you have any ～? は『～を（いくらか）持っていますか』。B の I don't. は『持っていません』と答える短い言い方。paper（紙）・fish（魚）・music（音楽）では、アイスクリームがほしいという話につながらない。",
+                    "grammarSimple": "『アイスクリームが ほしい』と いっているね。かうには おかねが いるので money（おかね）だよ。",
+                    "choiceAnalysis": [
+                        "○ money＝お金。アイスクリームを買うにはお金が必要。I want some ice cream. とつながる。",
+                        "paper＝紙。紙ではアイスクリームを買えない。",
+                        "fish＝魚。魚はアイスクリームがほしいという話とつながらない。",
+                        "music＝音楽。音楽ではアイスクリームを買えず、話がつながらない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ お金。アイスを かうには おかねが いるね。",
+                        "紙。かみでは アイスを かえないよ。",
+                        "魚。さかなは アイスと かんけい ないよ。",
+                        "音楽。おんがくでは アイスを かえないよ。"
+                    ],
+                    "questionAudio": "audio/q4.mp3"
+                },
+                {
+                    "number": 5,
+                    "text": "A: Bob, are you doing your math (　)?\nB: Yes, I am.",
+                    "translation": "A：ボブ、あなたは数学の (　) をしているのですか。\nB：はい、そうです。",
+                    "choices": [
+                        "desk",
+                        "homework",
+                        "train",
+                        "fruits"
+                    ],
+                    "choiceTranslations": [
+                        "机",
+                        "宿題",
+                        "電車",
+                        "果物"
+                    ],
+                    "answer": 2,
+                    "grammar": "do one's homework で『宿題をする』。math homework は『数学（算数）の宿題』。are you doing ～? は『～をしているところですか』と今していることを尋ねる現在進行形の疑問文で、Yes, I am. と答えている。desk（机）・train（電車）・fruits（果物）は、do（する）と合わせて『～をする』という意味にならない。",
+                    "grammarSimple": "do my homework で『しゅくだいを する』。math homework は『すうがくの しゅくだい』だよ。",
+                    "choiceAnalysis": [
+                        "desk＝机。机は『する』ものではなく、doing your math desk では意味が通らない。",
+                        "○ homework＝宿題。do your math homework で『数学の宿題をする』。",
+                        "train＝電車。電車は乗る物で、『する』ものではない。",
+                        "fruits＝果物。果物は食べる物で、『する』ものではない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "机。つくえは『する』ものでは ないよ。",
+                        "○ 宿題。すうがくの しゅくだいを しているんだね。",
+                        "電車。でんしゃは のる ものだよ。",
+                        "果物。くだものは たべる ものだよ。"
+                    ],
+                    "questionAudio": "audio/q5.mp3"
+                },
+                {
+                    "number": 6,
+                    "text": "A: Steve, where's Dad?\nB: He's making lunch in the (　).",
+                    "translation": "A：スティーブ、お父さんはどこにいますか。\nB：(　) で昼食を作っています。",
+                    "choices": [
+                        "sofa",
+                        "floor",
+                        "picture",
+                        "kitchen"
+                    ],
+                    "choiceTranslations": [
+                        "ソファー",
+                        "床",
+                        "絵",
+                        "台所"
+                    ],
+                    "answer": 4,
+                    "grammar": "where's は where is の短い形で、Where is ～? は『～はどこにいますか』。B は He's making lunch（昼食を作っている）と答えているので、料理をする場所の kitchen（台所）が合う。He's making は『今～している』を表す現在進行形で、He は Dad を指す。sofa（ソファー）・floor（床）・picture（絵）は、昼食を作る場所として合わない。",
+                    "grammarSimple": "where's ～? は『～は どこ？』。おとうさんは ひるごはんを つくっているので、kitchen（だいどころ）だね。",
+                    "choiceAnalysis": [
+                        "sofa＝ソファー。ソファーはすわる家具で、昼食を作る場所ではない。",
+                        "floor＝床。床は昼食を作る場所の答えとして合わない。",
+                        "picture＝絵。絵は場所ではなく、in the picture では『絵の中で』になってしまう。",
+                        "○ kitchen＝台所。in the kitchen で『台所で』。昼食を作る場所に合う。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "ソファー。ソファーは すわる ところだよ。",
+                        "床。ゆかでは りょうりを しないよ。",
+                        "絵。えの なかでは りょうりは できないよ。",
+                        "○ 台所。だいどころで ひるごはんを つくっているね。"
+                    ],
+                    "questionAudio": "audio/q6.mp3"
+                },
+                {
+                    "number": 7,
+                    "text": "A: What are you doing, Emma?\nB: I'm (　) an e-mail to my friend.",
+                    "translation": "A：エマ、あなたは何をしているのですか。\nB：友達にメールを (　)。",
+                    "choices": [
+                        "seeing",
+                        "washing",
+                        "eating",
+                        "writing"
+                    ],
+                    "choiceTranslations": [
+                        "見ている",
+                        "洗っている",
+                        "食べている",
+                        "書いている"
+                    ],
+                    "answer": 4,
+                    "grammar": "write an e-mail to ～ で『～にメールを書く』。What are you doing? は『何をしているところですか』と今していることを尋ねる文で、I'm ～ing. の形で答えている。4つの選択肢はどれも -ing の形なので、意味で選ぶ。友達に送るメールにすることなので writing（書いている）。washing（洗っている）・eating（食べている）はメールに使えず、seeing（見ている）も to my friend（友達に）とつながらない。",
+                    "grammarSimple": "What are you doing? は『なにを しているの？』。ともだちに メールを かいている、だね。write は『かく』だよ。",
+                    "choiceAnalysis": [
+                        "seeing＝見ている。see は『見る』。to my friend（友達に）とつながるのは、メールを『書く』こと。",
+                        "washing＝洗っている。wash は『洗う』で、メールは洗えない。",
+                        "eating＝食べている。eat は『食べる』で、メールは食べられない。",
+                        "○ writing＝書いている。writing an e-mail to my friend で『友達にメールを書いている』。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "見ている。みる、では『ともだちに』と つながらないよ。",
+                        "洗っている。メールは あらえないよ。",
+                        "食べている。メールは たべられないよ。",
+                        "○ 書いている。ともだちに メールを かいているんだね。"
+                    ],
+                    "questionAudio": "audio/q7.mp3"
+                },
+                {
+                    "number": 8,
+                    "text": "A: That doll is very nice. How (　) is it?\nB: It's only $5.",
+                    "translation": "A：あの人形はとてもすてきですね。それは (　) ですか。\nB：たった5ドルです。",
+                    "choices": [
+                        "short",
+                        "young",
+                        "much",
+                        "sad"
+                    ],
+                    "choiceTranslations": [
+                        "短い・背が低い",
+                        "若い",
+                        "（How much で）いくら",
+                        "悲しい"
+                    ],
+                    "answer": 3,
+                    "grammar": "How much is ～? は『～はいくらですか』と値段を尋ねる言い方。B の It's only $5.（たった5ドルです）が値段の答えになっている。$5 は five dollars と読み、only は『たった・～だけ』。It は that doll（あの人形）を指す。How short では短さ、How young では若さを尋ねることになり、sad（悲しい）も値段の質問にならない。",
+                    "grammarSimple": "How much ～? は『～は いくら？』と ねだんを きくよ。こたえは『たった 5ドル』だね。",
+                    "choiceAnalysis": [
+                        "short＝短い・背が低い。How short では短さを尋ねることになり、値段の答えに合わない。",
+                        "young＝若い。How young では若さを尋ねることになり、値段の答えに合わない。",
+                        "○ much＝（How much で）いくら。How much is it? で『それはいくらですか』。$5 という値段の答えに合う。",
+                        "sad＝悲しい。sad は『悲しい』で、値段を尋ねる文にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "短い・背が低い。みじかさ では ないよ。",
+                        "若い。わかさ では ないよ。",
+                        "○ （How much で）いくら。How much で『いくら？』だね。",
+                        "悲しい。かなしい では ないよ。"
+                    ],
+                    "questionAudio": "audio/q8.mp3"
+                },
+                {
+                    "number": 9,
+                    "text": "A: Hi. Can I help you?\nB: I want a cookie and a (　) of coffee, please.",
+                    "translation": "A：こんにちは。いらっしゃいませ。\nB：クッキーを1つと、コーヒーを1 (　) ください。",
+                    "choices": [
+                        "cup",
+                        "team",
+                        "name",
+                        "fork"
+                    ],
+                    "choiceTranslations": [
+                        "カップ・（a cup of で）カップ1杯の",
+                        "チーム",
+                        "名前",
+                        "フォーク"
+                    ],
+                    "answer": 1,
+                    "grammar": "a cup of coffee で『コーヒー1杯』。cup（カップ）を使って飲み物の量を表している。Can I help you? は『お手伝いしましょうか』の意味で、店では店員が客に『いらっしゃいませ（何にしますか）』と声をかける言い方になる。I want ～, please. は『～をください』。team（チーム）・name（名前）・fork（フォーク）は、a ～ of coffee の形でコーヒーの量を表さない。",
+                    "grammarSimple": "a cup of coffee で『コーヒー いっぱい』。おみせで『クッキーと コーヒーを ください』と たのんでいるよ。",
+                    "choiceAnalysis": [
+                        "○ cup＝カップ・（a cup of で）カップ1杯の。a cup of coffee で『コーヒー1杯』。",
+                        "team＝チーム。チームはコーヒーの量を表さない。",
+                        "name＝名前。名前はコーヒーの量を表さない。",
+                        "fork＝フォーク。フォークは食べるときに使う道具で、コーヒーの量を表さない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ カップ・（a cup of で）カップ1杯の。コーヒー いっぱい、だね。",
+                        "チーム。チーム では へんだね。",
+                        "名前。なまえ では へんだね。",
+                        "フォーク。フォークは たべるときに つかうよ。"
+                    ],
+                    "questionAudio": "audio/q9.mp3"
+                },
+                {
+                    "number": 10,
+                    "text": "Yuko (　) a bath every night before bedtime.",
+                    "translation": "ユウコは毎晩、寝る前にお風呂に (　)。",
+                    "choices": [
+                        "takes",
+                        "reads",
+                        "cooks",
+                        "feels"
+                    ],
+                    "choiceTranslations": [
+                        "（take a bath で）（お風呂に）入る",
+                        "読む",
+                        "料理する",
+                        "感じる"
+                    ],
+                    "answer": 1,
+                    "grammar": "take a bath で『お風呂に入る』。every night（毎晩）、before bedtime（寝る時間の前に）と、毎日の習慣を表している。主語 Yuko（3人称単数）に合わせて4つの選択肢はどれも s が付いた形なので、意味で選ぶ。read（読む）・cook（料理する）・feel（感じる）は、a bath と合わせて『お風呂に入る』の意味にならない。",
+                    "grammarSimple": "take a bath で『おふろに はいる』だよ。every night は『まいばん』、before bedtime は『ねる まえに』だね。",
+                    "choiceAnalysis": [
+                        "○ takes＝（take a bath で）（お風呂に）入る。takes a bath で『お風呂に入る』。",
+                        "reads＝読む。read は本などを『読む』で、お風呂には使わない。",
+                        "cooks＝料理する。cook は料理を『作る』で、お風呂には使わない。",
+                        "feels＝感じる。feel は『感じる』で、a bath と合わせても『お風呂に入る』にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ （take a bath で）（お風呂に）入る。おふろに はいるんだね。",
+                        "読む。よむ は ほんなどだよ。",
+                        "料理する。りょうりする では へんだね。",
+                        "感じる。かんじる では へんだね。"
+                    ],
+                    "questionAudio": "audio/q10.mp3"
+                },
+                {
+                    "number": 11,
+                    "text": "Look (　) the robot on TV. It's dancing!",
+                    "translation": "テレビのロボット (　) 見て。踊っているよ！",
+                    "choices": [
+                        "at",
+                        "of",
+                        "with",
+                        "in"
+                    ],
+                    "choiceTranslations": [
+                        "（look at で）～を",
+                        "～の",
+                        "～といっしょに",
+                        "～の中に"
+                    ],
+                    "answer": 1,
+                    "grammar": "look at ～ で『～を見る』。Look at ～. は命令文で『～を見て』と相手に呼びかけている。on TV は『テレビで（映っている）』。It's dancing!（踊っているよ！）は今の様子を表し、It は the robot を指す。of・with は look と合わせて『～を見る』の意味にならず、look in ～ は『～の中をのぞく』で、テレビに映るロボットを見るように言う文に合わない。",
+                    "grammarSimple": "look at ～ で『～を みる』。『テレビの ロボットを みて！ おどっているよ！』だね。",
+                    "choiceAnalysis": [
+                        "○ at＝（look at で）～を。Look at ～ で『～を見て』。",
+                        "of＝～の。of は『～の』で、look of ～ とは言わない。",
+                        "with＝～といっしょに。with は『～といっしょに』で、ロボットを見るように言う文にならない。",
+                        "in＝～の中に。look in ～ は『～の中をのぞく』で、テレビに映るロボットを見るように言う文に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ （look at で）～を。look at で『～を みる』だね。",
+                        "～の。of は『～の』だよ。",
+                        "～といっしょに。with は『～と いっしょに』だよ。",
+                        "～の中に。in は『～の なかに』だよ。"
+                    ],
+                    "questionAudio": "audio/q11.mp3"
+                },
+                {
+                    "number": 12,
+                    "text": "A: Billy, are you on the baseball team?\nB: That's (　). I love baseball!",
+                    "translation": "A：ビリー、あなたは野球チームに入っていますか。\nB：(　) です。私は野球が大好きです！",
+                    "choices": [
+                        "old",
+                        "right",
+                        "ready",
+                        "free"
+                    ],
+                    "choiceTranslations": [
+                        "古い・年をとった",
+                        "正しい・（That's right. で）そのとおり",
+                        "準備ができた",
+                        "ひまな・無料の"
+                    ],
+                    "answer": 2,
+                    "grammar": "That's right. は『そのとおりです』と、相手の言ったことが正しいと認める言い方。be on the team は『チームに入っている』。後ろの I love baseball!（野球が大好き）も、野球チームに入っていることとつながる。old（古い）・ready（準備ができた）・free（ひまな）では、チームに入っているかという質問への答えにならない。",
+                    "grammarSimple": "That's right. は『そのとおり』。『やきゅうチームに はいっているの？』に『そうだよ。やきゅうが だいすき！』と こたえているね。",
+                    "choiceAnalysis": [
+                        "old＝古い・年をとった。old は『古い・年をとった』で、That's old. ではチームに入っているかの答えにならない。",
+                        "○ right＝正しい・（That's right. で）そのとおり。That's right. で『そのとおりです』。チームに入っていると認める答えになる。",
+                        "ready＝準備ができた。ready は『準備ができた』で、質問の答えにならない。",
+                        "free＝ひまな・無料の。free は『ひまな・無料の』で、質問の答えにならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "古い・年をとった。ふるい、では こたえに ならないよ。",
+                        "○ 正しい・（That's right. で）そのとおり。『そのとおり』だね。",
+                        "準備ができた。じゅんびが できた、では へんだね。",
+                        "ひまな・無料の。ひまな、では こたえに ならないよ。"
+                    ],
+                    "questionAudio": "audio/q12.mp3"
+                },
+                {
+                    "number": 13,
+                    "text": "Jane's brothers like swimming. Jane sometimes goes to the pool with (　) on weekends.",
+                    "translation": "ジェーンの兄弟たちは水泳が好きです。ジェーンは週末にときどき (　) といっしょにプールに行きます。",
+                    "choices": [
+                        "they",
+                        "we",
+                        "them",
+                        "their"
+                    ],
+                    "choiceTranslations": [
+                        "彼らは（主語の形）",
+                        "私たちは（主語の形）",
+                        "彼らを・彼らに（with などの後ろに置く形）",
+                        "彼らの"
+                    ],
+                    "answer": 3,
+                    "grammar": "with（～といっしょに）のような前置詞の後ろには、代名詞の目的格（『～を・～に』にあたる形）を置く。前の文の Jane's brothers（ジェーンの兄弟たち）を指すので them（彼ら）。they は主語の形、their は『彼らの』で後ろに名詞が必要、we は『私たち』でジェーンの兄弟たちを指さない。sometimes は『ときどき』、on weekends は『週末に』。",
+                    "grammarSimple": "with の あとは them（かれら）の かたちを つかうよ。them は ジェーンの きょうだいたちの ことだね。",
+                    "choiceAnalysis": [
+                        "they＝彼らは（主語の形）。they は主語の形で、with の後ろには置かない。",
+                        "we＝私たちは（主語の形）。we は『私たち』で、ジェーンの兄弟たちを指さない。",
+                        "○ them＝彼らを・彼らに（with などの後ろに置く形）。with them で『彼らといっしょに』。them は Jane's brothers を指す。",
+                        "their＝彼らの。their は『彼らの』で、後ろに名詞が必要。with their だけでは文にならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "彼らは（主語の形）。they は『かれらは』の かたちだよ。",
+                        "私たちは（主語の形）。we は『わたしたち』だよ。",
+                        "○ 彼らを・彼らに（with などの後ろに置く形）。with them で『かれらと いっしょに』だね。",
+                        "彼らの。their は『かれらの』だよ。"
+                    ],
+                    "questionAudio": "audio/q13.mp3"
+                },
+                {
+                    "number": 14,
+                    "text": "A: (　) does the bicycle race start, Dad?\nB: It starts at 3:00 p.m.",
+                    "translation": "A：お父さん、自転車レースは (　) 始まりますか。\nB：午後3時に始まります。",
+                    "choices": [
+                        "When",
+                        "Which",
+                        "Who",
+                        "Where"
+                    ],
+                    "choiceTranslations": [
+                        "いつ",
+                        "どれ・どちらの",
+                        "だれ",
+                        "どこ"
+                    ],
+                    "answer": 1,
+                    "grammar": "When は『いつ』と時を尋ねる語。B が It starts at 3:00 p.m.（午後3時に始まる）と時刻を答えているので When が合う。疑問詞の後ろに does を置き、動詞は原形 start のまま。It は the bicycle race を指し、p.m. は『午後』。Which は『どれ・どちらの』、Who は『だれ』、Where は『どこ』を尋ねる語で、時刻の答えに合わない。",
+                    "grammarSimple": "When は『いつ？』。こたえが『ごご 3じに はじまるよ』なので When だね。",
+                    "choiceAnalysis": [
+                        "○ When＝いつ。When で『いつ始まるか』を尋ね、午後3時という答えに合う。",
+                        "Which＝どれ・どちらの。Which は『どれ・どちらの』を尋ねる語で、時刻の答えに合わない。",
+                        "Who＝だれ。Who は人を尋ねる語で、時刻の答えに合わない。",
+                        "Where＝どこ。Where は場所を尋ねる語で、時刻の答えに合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ いつ。『いつ？』と きいているね。",
+                        "どれ・どちらの。どれ、では ないよ。",
+                        "だれ。だれ、では ないよ。",
+                        "どこ。どこ、では ないよ。"
+                    ],
+                    "questionAudio": "audio/q14.mp3"
+                },
+                {
+                    "number": 15,
+                    "text": "A: Mom, can I ride my bike to the park today?\nB: OK, Kelly. Please (　) careful.",
+                    "translation": "A：お母さん、今日、公園まで自転車に乗って行ってもいいですか。\nB：いいですよ、ケリー。気をつけて (　) ください。",
+                    "choices": [
+                        "be",
+                        "am",
+                        "are",
+                        "is"
+                    ],
+                    "choiceTranslations": [
+                        "be動詞の原形（be careful で『気をつける』）",
+                        "be動詞（I に使う形）",
+                        "be動詞（you や複数に使う形）",
+                        "be動詞（he・she・it などに使う形）"
+                    ],
+                    "answer": 1,
+                    "grammar": "Please＋動詞の原形で『～してください』。careful（注意深い）は形容詞なので、be動詞の原形 be を使って Please be careful.（気をつけてください）とする。am・are・is は be動詞が主語に合わせて形を変えたもので、please の後ろには原形の be を置く。can I ～? は『～してもいいですか』、ride my bike は『自転車に乗る』。",
+                    "grammarSimple": "Please の あとは もとの かたちを つかうよ。be careful で『きを つけて』。am・are・is は つかわないよ。",
+                    "choiceAnalysis": [
+                        "○ be＝be動詞の原形（be careful で『気をつける』）。Please be careful. で『気をつけてください』。please の後ろは原形の be。",
+                        "am＝be動詞（I に使う形）。am は主語が I のときの形で、please の後ろには置かない。",
+                        "are＝be動詞（you や複数に使う形）。are は主語が you や複数のときの形で、please の後ろには置かない。",
+                        "is＝be動詞（he・she・it などに使う形）。is は主語が he・she・it などのときの形で、please の後ろには置かない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ be動詞の原形（be careful で『気をつける』）。Please be careful. で『きを つけてね』だね。",
+                        "be動詞（I に使う形）。Please の あとに am は こないよ。",
+                        "be動詞（you や複数に使う形）。Please の あとに are は こないよ。",
+                        "be動詞（he・she・it などに使う形）。Please の あとに is は こないよ。"
+                    ],
+                    "questionAudio": "audio/q15.mp3"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の(16)から(20)までの会話について，(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。",
+            "questions": [
+                {
+                    "number": 16,
+                    "text": "Student: How long is this bridge, Mr. Watson?\nTeacher: (　)",
+                    "translation": "生徒：ワトソン先生、この橋はどれくらいの長さですか。\n先生：(　)",
+                    "choices": [
+                        "400 meters.",
+                        "It's a bridge.",
+                        "It's Saturday.",
+                        "In the morning."
+                    ],
+                    "choiceTranslations": [
+                        "400メートルです。",
+                        "それは橋です。",
+                        "土曜日です。",
+                        "午前中にです。"
+                    ],
+                    "answer": 1,
+                    "grammar": "How long is ～? は『～はどれくらいの長さですか』と長さを尋ねる言い方。400 meters.（400メートルです）と長さで答える。It's a bridge. は物の名前、It's Saturday. は曜日、In the morning. は時を答える言い方で、長さの質問に合わない。Mr. Watson は男性の先生への呼びかけ。",
+                    "grammarSimple": "How long ～? は『どのくらい ながい？』。はしの ながさを きいているので、『400メートル』と こたえるよ。",
+                    "choiceAnalysis": [
+                        "○ 400 meters.＝400メートルです。How long に、橋の長さ 400 meters. で答えている。",
+                        "It's a bridge.＝それは橋です。橋だということはもう分かっていて、長さの答えになっていない。",
+                        "It's Saturday.＝土曜日です。曜日を答えていて、長さの質問に合わない。",
+                        "In the morning.＝午前中にです。時を答える言い方で、長さの質問に合わない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 400メートルです。ながさを こたえているね。",
+                        "それは橋です。はしの ながさを きいているよ。",
+                        "土曜日です。なんようびかは きいていないよ。",
+                        "午前中にです。いつかは きいていないよ。"
+                    ],
+                    "questionAudio": "audio/q16.mp3"
+                },
+                {
+                    "number": 17,
+                    "text": "Boy: Do you play music, Carol?\nGirl: Yes, (　) They're fun.",
+                    "translation": "男の子：キャロル、あなたは音楽を演奏しますか。\n女の子：ええ、(　) それらは楽しいです。",
+                    "choices": [
+                        "it's too big.",
+                        "I'm in the library.",
+                        "I go to guitar lessons.",
+                        "she's in math class."
+                    ],
+                    "choiceTranslations": [
+                        "それは大きすぎます。",
+                        "私は図書館にいます。",
+                        "私はギターのレッスンに通っています。",
+                        "彼女は数学の授業中です。"
+                    ],
+                    "answer": 3,
+                    "grammar": "play music は『音楽を演奏する』。Yes, と答えたあと、I go to guitar lessons.（ギターのレッスンに通っている）とどんな音楽をしているかを伝えている。後ろの They're fun.（それらは楽しい）の They は複数の guitar lessons を指すので、この答えとつながる。it's too big.・I'm in the library.・she's in math class. は音楽を演奏するかの答えにならず、They が指すものもない。",
+                    "grammarSimple": "『おんがくを えんそうする？』に『うん、ギターの レッスンに かよっているよ。たのしいよ』と こたえているね。They は レッスンの ことだよ。",
+                    "choiceAnalysis": [
+                        "it's too big.＝それは大きすぎます。it は1つの物を指すが、何が大きすぎるのか分からない。They're fun. ともつながらない。",
+                        "I'm in the library.＝私は図書館にいます。今いる場所を答えていて、音楽を演奏するかの答えにならない。",
+                        "○ I go to guitar lessons.＝私はギターのレッスンに通っています。ギターのレッスンに通っていると答え、They're fun. の They が lessons を指してつながる。",
+                        "she's in math class.＝彼女は数学の授業中です。彼女（she）の話で、キャロル自身が音楽を演奏するかの答えにならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "それは大きすぎます。なにが おおきいのか わからないね。",
+                        "私は図書館にいます。いる ばしょは きいていないよ。",
+                        "○ 私はギターのレッスンに通っています。ギターの レッスンに かよっているんだね。",
+                        "彼女は数学の授業中です。She の はなしでは ないよ。"
+                    ],
+                    "questionAudio": "audio/q17.mp3"
+                },
+                {
+                    "number": 18,
+                    "text": "Father: Do you have an English test tomorrow, Luke?\nBoy: (　) It's in the morning.",
+                    "translation": "父親：ルーク、あなたは明日、英語のテストがありますか。\n男の子：(　) 午前中にあります。",
+                    "choices": [
+                        "It's not mine.",
+                        "Yes, you are.",
+                        "Yes, I do.",
+                        "It's not here."
+                    ],
+                    "choiceTranslations": [
+                        "それは私のものではありません。",
+                        "はい、あなたはそうです。",
+                        "はい、あります。",
+                        "それはここにありません。"
+                    ],
+                    "answer": 3,
+                    "grammar": "Do you have ～? と do を使って尋ねているので、Yes, I do. と答える。you（あなた）と聞かれたら I（私）で答える。続く It's in the morning.（午前中にあります）の It は English test を指す。Yes, you are. は Am I ～?（私は～ですか）のような be動詞の質問への答え方で、Do you ～? には合わない。It's not mine. は持ち主、It's not here. は物の場所の答え。",
+                    "grammarSimple": "Do you ～? と きかれたら Yes, I do.（いいえ なら No, I don't.）と こたえるよ。It は えいごの テストの ことだね。",
+                    "choiceAnalysis": [
+                        "It's not mine.＝それは私のものではありません。持ち主の話で、テストがあるかの答えにならない。",
+                        "Yes, you are.＝はい、あなたはそうです。be動詞の質問（Am I ～?）への答え方で、Do you ～? の質問に合わない。",
+                        "○ Yes, I do.＝はい、あります。Do you have ～? に Yes, I do. で答えている。",
+                        "It's not here.＝それはここにありません。物がある場所の話で、テストがあるかの答えにならない。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "それは私のものではありません。だれの ものかは きいていないよ。",
+                        "はい、あなたはそうです。Do で きかれたら are では こたえないよ。",
+                        "○ はい、あります。Do で きかれたら do で こたえるね。",
+                        "それはここにありません。ばしょは きいていないよ。"
+                    ],
+                    "questionAudio": "audio/q18.mp3"
+                },
+                {
+                    "number": 19,
+                    "text": "Man: I'm from Japan. (　)\nWoman: Mexico.",
+                    "translation": "男性：私は日本の出身です。(　)\n女性：メキシコです。",
+                    "choices": [
+                        "Whose office is it?",
+                        "How are you?",
+                        "What is it?",
+                        "Where are you from?"
+                    ],
+                    "choiceTranslations": [
+                        "それはだれの事務所ですか。",
+                        "お元気ですか。",
+                        "それは何ですか。",
+                        "あなたはどこの出身ですか。"
+                    ],
+                    "answer": 4,
+                    "grammar": "be from ～ は『～の出身だ』。男性は自分が日本の出身だと言ってから、Where are you from?（あなたはどこの出身ですか）と相手に尋ねている。女性は Mexico.（メキシコです）と国名で答えている。Whose ～? は持ち主、How are you? は調子、What is it? は物が何かを尋ねる文で、国名の答えに合わない。",
+                    "grammarSimple": "Where are you from? は『どこの しゅっしん？』。『メキシコだよ』と くにの なまえで こたえているね。",
+                    "choiceAnalysis": [
+                        "Whose office is it?＝それはだれの事務所ですか。持ち主を尋ねる文で、国名の答えに合わない。",
+                        "How are you?＝お元気ですか。調子を尋ねるあいさつで、国名の答えに合わない。",
+                        "What is it?＝それは何ですか。物が何かを尋ねる文で、国名の答えに合わない。",
+                        "○ Where are you from?＝あなたはどこの出身ですか。Where are you from? で出身地を尋ね、Mexico. という答えに合う。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "それはだれの事務所ですか。だれの ものかを きいても、メキシコでは こたえないよ。",
+                        "お元気ですか。げんき？には メキシコでは こたえないよ。",
+                        "それは何ですか。なに？には メキシコでは こたえないよ。",
+                        "○ あなたはどこの出身ですか。『どこの しゅっしん？』だね。"
+                    ],
+                    "questionAudio": "audio/q19.mp3"
+                },
+                {
+                    "number": 20,
+                    "text": "Girl: Where do you play baseball?\nBoy: (　)",
+                    "translation": "女の子：あなたはどこで野球をしますか。\n男の子：(　)",
+                    "choices": [
+                        "That's fine.",
+                        "In the afternoon.",
+                        "On Sunday morning.",
+                        "In the park."
+                    ],
+                    "choiceTranslations": [
+                        "それでいいです。",
+                        "午後にです。",
+                        "日曜日の朝にです。",
+                        "公園でです。"
+                    ],
+                    "answer": 4,
+                    "grammar": "Where は『どこ』と場所を尋ねる語。野球をする場所を答える In the park.（公園で）が合う。In the afternoon.（午後に）と On Sunday morning.（日曜日の朝に）は時を答える言い方で、When（いつ）の質問に合う答え。That's fine. は『それでいいです』と相手に同意する言い方。",
+                    "grammarSimple": "Where は『どこ？』。やきゅうを する ばしょを きいているので、『こうえんで』と こたえるよ。",
+                    "choiceAnalysis": [
+                        "That's fine.＝それでいいです。相手の言ったことに同意する言い方で、場所の答えにならない。",
+                        "In the afternoon.＝午後にです。時を答える言い方で、Where の質問に合わない。",
+                        "On Sunday morning.＝日曜日の朝にです。曜日と時間帯を答える言い方で、Where の質問に合わない。",
+                        "○ In the park.＝公園でです。Where に、場所 In the park. で答えている。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "それでいいです。いいよ、では こたえに ならないよ。",
+                        "午後にです。ごご は ときの ことだよ。",
+                        "日曜日の朝にです。にちようびの あさ は ときの ことだよ。",
+                        "○ 公園でです。こうえんで やきゅうを するんだね。"
+                    ],
+                    "questionAudio": "audio/q20.mp3"
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "sentence-order",
+            "instruction": "次の(21)から(25)までの日本文の意味を表すように①から④までを並べかえて□の中に入れなさい。そして，1番目と3番目にくるものの最も適切な組合せを1，2，3，4の中から一つ選び，その番号のマーク欄をぬりつぶしなさい。※ただし，(　)の中では，文のはじめにくる語も小文字になっています。",
+            "questions": [
+                {
+                    "number": 21,
+                    "text": "ナンシーさん，あなたは何色が好きですか。",
+                    "translation": "ナンシーさん，あなたは何色が好きですか。",
+                    "words": [
+                        "like",
+                        "do",
+                        "color",
+                        "you"
+                    ],
+                    "correctOrder": [
+                        3,
+                        2,
+                        4,
+                        1
+                    ],
+                    "framePrefix": "What",
+                    "frameSuffix": ", Nancy?",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "②−③",
+                        "③−④",
+                        "③−①",
+                        "①−②"
+                    ],
+                    "answer": 2,
+                    "questionAudio": "audio/q21.mp3",
+                    "grammar": "完成文は「What color do you like, Nancy?」。『何色』は What color で表し、固定の What の後ろに color を続けて1つのまとまりにする。そのあとに一般動詞の疑問文の形 do＋主語 you＋動詞 like（好きだ）を続け、color→do→you→like の順に並べる。固定の , Nancy? は名前の呼びかけ。 語句の順序は ③color→②do→④you→①like。空所1番目は③「color」、3番目は④「you」。",
+                    "grammarSimple": "「What color do you like, Nancy?」が正しい文。『なにいろ？』は What color。そのあとに do you like（すきですか）を つづけるよ。さいごの Nancy は よびかけだね。 1ばんめは「color」、3ばんめは「you」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=②「do」、3番目=③「color」。1番目は「color」が必要で「do」ではない。3番目は「you」が必要で「color」ではない。『何色』は What color で表し、固定の What の後ろに color を続けて1つのまとまりにする。そのあとに一般動詞の疑問文の形 do＋主語 you＋動詞 like（好きだ）を続け、color→do→you→like の順に並べる。固定の , Nancy? は名前の呼びかけ。",
+                        "○ 1番目=③「color」、3番目=④「you」。What color do you like, Nancy? の語順に一致する。",
+                        "1番目=③「color」、3番目=①「like」。3番目は「you」が必要で「like」ではない。『何色』は What color で表し、固定の What の後ろに color を続けて1つのまとまりにする。そのあとに一般動詞の疑問文の形 do＋主語 you＋動詞 like（好きだ）を続け、color→do→you→like の順に並べる。固定の , Nancy? は名前の呼びかけ。",
+                        "1番目=①「like」、3番目=②「do」。1番目は「color」が必要で「like」ではない。3番目は「you」が必要で「do」ではない。『何色』は What color で表し、固定の What の後ろに color を続けて1つのまとまりにする。そのあとに一般動詞の疑問文の形 do＋主語 you＋動詞 like（好きだ）を続け、color→do→you→like の順に並べる。固定の , Nancy? は名前の呼びかけ。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「do」、3ばんめ「color」ではセットがくずれるよ。正しくは「color」と「you」。",
+                        "○ 1ばんめ「color」、3ばんめ「you」。正しい文になるね。",
+                        "1ばんめ「color」、3ばんめ「like」ではセットがくずれるよ。正しくは「color」と「you」。",
+                        "1ばんめ「like」、3ばんめ「do」ではセットがくずれるよ。正しくは「color」と「you」。"
+                    ]
+                },
+                {
+                    "number": 22,
+                    "text": "ケイトは私の姉の友達です。",
+                    "translation": "ケイトは私の姉の友達です。",
+                    "words": [
+                        "Kate",
+                        "my",
+                        "is",
+                        "sister's"
+                    ],
+                    "correctOrder": [
+                        1,
+                        3,
+                        2,
+                        4
+                    ],
+                    "framePrefix": "",
+                    "frameSuffix": "friend.",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "①−②",
+                        "③−④",
+                        "④−②",
+                        "②−①"
+                    ],
+                    "answer": 1,
+                    "questionAudio": "audio/q22.mp3",
+                    "grammar": "完成文は「Kate is my sister's friend.」。主語 Kate の後ろに be動詞 is を置き、『私の姉の友達』を my sister's friend で表して Kate→is→my→sister's の順に並べる。sister's の 's は『～の』で、固定の friend. が最後に来る。sister は『姉』にも『妹』にも使う。 語句の順序は ①Kate→③is→②my→④sister's。空所1番目は①「Kate」、3番目は②「my」。",
+                    "grammarSimple": "「Kate is my sister's friend.」が正しい文。『ケイトは～です』は Kate is。『わたしの あねの ともだち』は my sister's friend だよ。's は『～の』だね。 1ばんめは「Kate」、3ばんめは「my」だよ。",
+                    "choiceAnalysis": [
+                        "○ 1番目=①「Kate」、3番目=②「my」。Kate is my sister's friend. の語順に一致する。",
+                        "1番目=③「is」、3番目=④「sister's」。1番目は「Kate」が必要で「is」ではない。3番目は「my」が必要で「sister's」ではない。主語 Kate の後ろに be動詞 is を置き、『私の姉の友達』を my sister's friend で表して Kate→is→my→sister's の順に並べる。sister's の 's は『～の』で、固定の friend. が最後に来る。sister は『姉』にも『妹』にも使う。",
+                        "1番目=④「sister's」、3番目=②「my」。1番目は「Kate」が必要で「sister's」ではない。主語 Kate の後ろに be動詞 is を置き、『私の姉の友達』を my sister's friend で表して Kate→is→my→sister's の順に並べる。sister's の 's は『～の』で、固定の friend. が最後に来る。sister は『姉』にも『妹』にも使う。",
+                        "1番目=②「my」、3番目=①「Kate」。1番目は「Kate」が必要で「my」ではない。3番目は「my」が必要で「Kate」ではない。主語 Kate の後ろに be動詞 is を置き、『私の姉の友達』を my sister's friend で表して Kate→is→my→sister's の順に並べる。sister's の 's は『～の』で、固定の friend. が最後に来る。sister は『姉』にも『妹』にも使う。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "○ 1ばんめ「Kate」、3ばんめ「my」。正しい文になるね。",
+                        "1ばんめ「is」、3ばんめ「sister's」ではセットがくずれるよ。正しくは「Kate」と「my」。",
+                        "1ばんめ「sister's」、3ばんめ「my」ではセットがくずれるよ。正しくは「Kate」と「my」。",
+                        "1ばんめ「my」、3ばんめ「Kate」ではセットがくずれるよ。正しくは「Kate」と「my」。"
+                    ]
+                },
+                {
+                    "number": 23,
+                    "text": "椅子の上に立ってはいけません。",
+                    "translation": "椅子の上に立ってはいけません。",
+                    "words": [
+                        "the chair",
+                        "stand",
+                        "don't",
+                        "on"
+                    ],
+                    "correctOrder": [
+                        3,
+                        2,
+                        4,
+                        1
+                    ],
+                    "framePrefix": "",
+                    "frameSuffix": ".",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "②−④",
+                        "③−①",
+                        "③−④",
+                        "②−①"
+                    ],
+                    "answer": 3,
+                    "questionAudio": "audio/q23.mp3",
+                    "grammar": "完成文は「Don't stand on the chair.」。『～してはいけません』は Don't＋動詞の原形の命令文。don't の後ろに stand（立つ）を置き、場所を表す on the chair（椅子の上に）を続けて don't→stand→on→the chair の順に並べる。the chair は1つのかたまり。文の始めの don't も（　）の中では小文字で書かれている。 語句の順序は ③don't→②stand→④on→①the chair。空所1番目は③「don't」、3番目は④「on」。",
+                    "grammarSimple": "「Don't stand on the chair.」が正しい文。『～しては いけません』は Don't で はじめるよ。そのあとに stand（たつ）、on the chair（いすの うえに）だね。 1ばんめは「don't」、3ばんめは「on」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=②「stand」、3番目=④「on」。1番目は「don't」が必要で「stand」ではない。『～してはいけません』は Don't＋動詞の原形の命令文。don't の後ろに stand（立つ）を置き、場所を表す on the chair（椅子の上に）を続けて don't→stand→on→the chair の順に並べる。the chair は1つのかたまり。文の始めの don't も（　）の中では小文字で書かれている。",
+                        "1番目=③「don't」、3番目=①「the chair」。3番目は「on」が必要で「the chair」ではない。『～してはいけません』は Don't＋動詞の原形の命令文。don't の後ろに stand（立つ）を置き、場所を表す on the chair（椅子の上に）を続けて don't→stand→on→the chair の順に並べる。the chair は1つのかたまり。文の始めの don't も（　）の中では小文字で書かれている。",
+                        "○ 1番目=③「don't」、3番目=④「on」。Don't stand on the chair. の語順に一致する。",
+                        "1番目=②「stand」、3番目=①「the chair」。1番目は「don't」が必要で「stand」ではない。3番目は「on」が必要で「the chair」ではない。『～してはいけません』は Don't＋動詞の原形の命令文。don't の後ろに stand（立つ）を置き、場所を表す on the chair（椅子の上に）を続けて don't→stand→on→the chair の順に並べる。the chair は1つのかたまり。文の始めの don't も（　）の中では小文字で書かれている。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「stand」、3ばんめ「on」ではセットがくずれるよ。正しくは「don't」と「on」。",
+                        "1ばんめ「don't」、3ばんめ「the chair」ではセットがくずれるよ。正しくは「don't」と「on」。",
+                        "○ 1ばんめ「don't」、3ばんめ「on」。正しい文になるね。",
+                        "1ばんめ「stand」、3ばんめ「the chair」ではセットがくずれるよ。正しくは「don't」と「on」。"
+                    ]
+                },
+                {
+                    "number": 24,
+                    "text": "土曜日にキャンプに行きましょう。",
+                    "translation": "土曜日にキャンプに行きましょう。",
+                    "words": [
+                        "go",
+                        "on",
+                        "Saturday",
+                        "camping"
+                    ],
+                    "correctOrder": [
+                        1,
+                        4,
+                        2,
+                        3
+                    ],
+                    "framePrefix": "Let's",
+                    "frameSuffix": ".",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "②−④",
+                        "③−④",
+                        "①−②",
+                        "④−①"
+                    ],
+                    "answer": 3,
+                    "questionAudio": "audio/q24.mp3",
+                    "grammar": "完成文は「Let's go camping on Saturday.」。Let's＋動詞の原形で『～しましょう』と誘う文。固定の Let's の後ろに go を置き、go camping（キャンプに行く）をまとまりにして、曜日を表す on Saturday（土曜日に）を最後に続け、go→camping→on→Saturday の順に並べる。『～曜日に』は on＋曜日 で表し、Saturday は曜日の名前なので大文字で始まる。 語句の順序は ①go→④camping→②on→③Saturday。空所1番目は①「go」、3番目は②「on」。",
+                    "grammarSimple": "「Let's go camping on Saturday.」が正しい文。Let's の あとは go。go camping で『キャンプに いく』、on Saturday で『どようびに』だよ。 1ばんめは「go」、3ばんめは「on」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=②「on」、3番目=④「camping」。1番目は「go」が必要で「on」ではない。3番目は「on」が必要で「camping」ではない。Let's＋動詞の原形で『～しましょう』と誘う文。固定の Let's の後ろに go を置き、go camping（キャンプに行く）をまとまりにして、曜日を表す on Saturday（土曜日に）を最後に続け、go→camping→on→Saturday の順に並べる。『～曜日に』は on＋曜日 で表し、Saturday は曜日の名前なので大文字で始まる。",
+                        "1番目=③「Saturday」、3番目=④「camping」。1番目は「go」が必要で「Saturday」ではない。3番目は「on」が必要で「camping」ではない。Let's＋動詞の原形で『～しましょう』と誘う文。固定の Let's の後ろに go を置き、go camping（キャンプに行く）をまとまりにして、曜日を表す on Saturday（土曜日に）を最後に続け、go→camping→on→Saturday の順に並べる。『～曜日に』は on＋曜日 で表し、Saturday は曜日の名前なので大文字で始まる。",
+                        "○ 1番目=①「go」、3番目=②「on」。Let's go camping on Saturday. の語順に一致する。",
+                        "1番目=④「camping」、3番目=①「go」。1番目は「go」が必要で「camping」ではない。3番目は「on」が必要で「go」ではない。Let's＋動詞の原形で『～しましょう』と誘う文。固定の Let's の後ろに go を置き、go camping（キャンプに行く）をまとまりにして、曜日を表す on Saturday（土曜日に）を最後に続け、go→camping→on→Saturday の順に並べる。『～曜日に』は on＋曜日 で表し、Saturday は曜日の名前なので大文字で始まる。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「on」、3ばんめ「camping」ではセットがくずれるよ。正しくは「go」と「on」。",
+                        "1ばんめ「Saturday」、3ばんめ「camping」ではセットがくずれるよ。正しくは「go」と「on」。",
+                        "○ 1ばんめ「go」、3ばんめ「on」。正しい文になるね。",
+                        "1ばんめ「camping」、3ばんめ「go」ではセットがくずれるよ。正しくは「go」と「on」。"
+                    ]
+                },
+                {
+                    "number": 25,
+                    "text": "私は学校へ歩いて行きません。",
+                    "translation": "私は学校へ歩いて行きません。",
+                    "words": [
+                        "don't",
+                        "to",
+                        "walk",
+                        "I"
+                    ],
+                    "correctOrder": [
+                        4,
+                        1,
+                        3,
+                        2
+                    ],
+                    "framePrefix": "",
+                    "frameSuffix": "school.",
+                    "answerSlots": [
+                        1,
+                        3
+                    ],
+                    "choices": [
+                        "③−①",
+                        "④−③",
+                        "①−②",
+                        "②−①"
+                    ],
+                    "answer": 2,
+                    "questionAudio": "audio/q25.mp3",
+                    "grammar": "完成文は「I don't walk to school.」。主語が I の一般動詞の否定文は 主語＋don't＋動詞の原形（主語が he・she などなら doesn't を使う）。主語 I の後ろに don't、動詞 walk（歩く）を続け、walk to school（歩いて学校へ行く）となるように to を置いて I→don't→walk→to の順に並べる。固定の school. が最後に来る。I（私は）は文のどこでも大文字で書く。 語句の順序は ④I→①don't→③walk→②to。空所1番目は④「I」、3番目は③「walk」。",
+                    "grammarSimple": "「I don't walk to school.」が正しい文。『わたしは～しません』は I don't。walk to school で『あるいて がっこうへ いく』だよ。 1ばんめは「I」、3ばんめは「walk」だよ。",
+                    "choiceAnalysis": [
+                        "1番目=③「walk」、3番目=①「don't」。1番目は「I」が必要で「walk」ではない。3番目は「walk」が必要で「don't」ではない。主語が I の一般動詞の否定文は 主語＋don't＋動詞の原形（主語が he・she などなら doesn't を使う）。主語 I の後ろに don't、動詞 walk（歩く）を続け、walk to school（歩いて学校へ行く）となるように to を置いて I→don't→walk→to の順に並べる。固定の school. が最後に来る。I（私は）は文のどこでも大文字で書く。",
+                        "○ 1番目=④「I」、3番目=③「walk」。I don't walk to school. の語順に一致する。",
+                        "1番目=①「don't」、3番目=②「to」。1番目は「I」が必要で「don't」ではない。3番目は「walk」が必要で「to」ではない。主語が I の一般動詞の否定文は 主語＋don't＋動詞の原形（主語が he・she などなら doesn't を使う）。主語 I の後ろに don't、動詞 walk（歩く）を続け、walk to school（歩いて学校へ行く）となるように to を置いて I→don't→walk→to の順に並べる。固定の school. が最後に来る。I（私は）は文のどこでも大文字で書く。",
+                        "1番目=②「to」、3番目=①「don't」。1番目は「I」が必要で「to」ではない。3番目は「walk」が必要で「don't」ではない。主語が I の一般動詞の否定文は 主語＋don't＋動詞の原形（主語が he・she などなら doesn't を使う）。主語 I の後ろに don't、動詞 walk（歩く）を続け、walk to school（歩いて学校へ行く）となるように to を置いて I→don't→walk→to の順に並べる。固定の school. が最後に来る。I（私は）は文のどこでも大文字で書く。"
+                    ],
+                    "choiceAnalysisSimple": [
+                        "1ばんめ「walk」、3ばんめ「don't」ではセットがくずれるよ。正しくは「I」と「walk」。",
+                        "○ 1ばんめ「I」、3ばんめ「walk」。正しい文になるね。",
+                        "1ばんめ「don't」、3ばんめ「to」ではセットがくずれるよ。正しくは「I」と「walk」。",
+                        "1ばんめ「to」、3ばんめ「don't」ではセットがくずれるよ。正しくは「I」と「walk」。"
+                    ]
+                }
+            ]
+        }
+    ],
+    "listening": {
+        "part1": {
+            "1": 1,
+            "2": 2,
+            "3": 1,
+            "4": 2,
+            "5": 2,
+            "6": 2,
+            "7": 3,
+            "8": 1,
+            "9": 3,
+            "10": 2
+        },
+        "part2": {
+            "11": 4,
+            "12": 3,
+            "13": 3,
+            "14": 2,
+            "15": 1
+        },
+        "part3": {
+            "16": 3,
+            "17": 1,
+            "18": 3,
+            "19": 2,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 3,
+            "24": 2,
+            "25": 2
+        }
+    },
+    "vocabulary": [
+        {
+            "word": "notebook",
+            "meaning": "ノート",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I write new words in my notebook.",
+            "exampleJa": "私は新しい単語をノートに書きます。",
+            "distractors": [
+                "花",
+                "かばん",
+                "カメラ"
+            ],
+            "source": "大問1 Q1",
+            "sourceForm": "notebook",
+            "wordAudio": "audio/vocab/w_001_notebook.mp3",
+            "exampleAudio": "audio/vocab/ex_001_notebook.mp3"
+        },
+        {
+            "word": "know",
+            "meaning": "知っている",
+            "pos": "動詞",
+            "level": "5級",
+            "example": "I know that girl. She is my classmate.",
+            "exampleJa": "私はあの女の子を知っています。彼女は私のクラスメートです。",
+            "distractors": [
+                "すわる",
+                "住む",
+                "始める"
+            ],
+            "source": "大問1 Q2",
+            "sourceForm": "know",
+            "wordAudio": "audio/vocab/w_002_know.mp3",
+            "exampleAudio": "audio/vocab/ex_002_know.mp3"
+        },
+        {
+            "word": "locker",
+            "meaning": "ロッカー",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My locker is in the classroom.",
+            "exampleJa": "私のロッカーは教室にあります。",
+            "distractors": [
+                "自転車",
+                "机",
+                "箱"
+            ],
+            "source": "大問1 Q3",
+            "sourceForm": "locker",
+            "wordAudio": "audio/vocab/w_003_locker.mp3",
+            "exampleAudio": "audio/vocab/ex_003_locker.mp3"
+        },
+        {
+            "word": "money",
+            "meaning": "お金",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I put my money in my bag.",
+            "exampleJa": "私はお金をかばんに入れます。",
+            "distractors": [
+                "紙",
+                "魚",
+                "音楽"
+            ],
+            "source": "大問1 Q4",
+            "sourceForm": "money",
+            "wordAudio": "audio/vocab/w_004_money.mp3",
+            "exampleAudio": "audio/vocab/ex_004_money.mp3"
+        },
+        {
+            "word": "homework",
+            "meaning": "宿題",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I do my homework after dinner.",
+            "exampleJa": "私は夕食のあとに宿題をします。",
+            "distractors": [
+                "机",
+                "電車",
+                "果物"
+            ],
+            "source": "大問1 Q5",
+            "sourceForm": "homework",
+            "wordAudio": "audio/vocab/w_005_homework.mp3",
+            "exampleAudio": "audio/vocab/ex_005_homework.mp3"
+        },
+        {
+            "word": "kitchen",
+            "meaning": "台所",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My mother is cooking in the kitchen.",
+            "exampleJa": "母は台所で料理をしています。",
+            "distractors": [
+                "ソファー",
+                "床",
+                "寝室"
+            ],
+            "source": "大問1 Q6",
+            "sourceForm": "kitchen",
+            "wordAudio": "audio/vocab/w_006_kitchen.mp3",
+            "exampleAudio": "audio/vocab/ex_006_kitchen.mp3"
+        },
+        {
+            "word": "write",
+            "meaning": "書く",
+            "pos": "動詞",
+            "level": "5級",
+            "example": "My sister writes a letter to Grandma every month.",
+            "exampleJa": "私の姉（妹）は毎月おばあちゃんに手紙を書きます。",
+            "distractors": [
+                "見る",
+                "洗う",
+                "食べる"
+            ],
+            "source": "大問1 Q7",
+            "sourceForm": "writing",
+            "wordAudio": "audio/vocab/w_007_write.mp3",
+            "exampleAudio": "audio/vocab/ex_007_write.mp3"
+        },
+        {
+            "word": "how much",
+            "meaning": "いくら",
+            "pos": "表現",
+            "level": "5級",
+            "example": "How much is this cake?",
+            "exampleJa": "このケーキはいくらですか。",
+            "distractors": [
+                "いくつ",
+                "何歳",
+                "どれくらい長い"
+            ],
+            "source": "大問1 Q8",
+            "sourceForm": "How much",
+            "wordAudio": "audio/vocab/w_008_how_much.mp3",
+            "exampleAudio": "audio/vocab/ex_008_how_much.mp3"
+        },
+        {
+            "word": "cup",
+            "meaning": "カップ",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "My father drinks a cup of tea every morning.",
+            "exampleJa": "父は毎朝お茶を1杯飲みます。",
+            "distractors": [
+                "チーム",
+                "名前",
+                "フォーク"
+            ],
+            "source": "大問1 Q9",
+            "sourceForm": "cup",
+            "wordAudio": "audio/vocab/w_009_cup.mp3",
+            "exampleAudio": "audio/vocab/ex_009_cup.mp3"
+        },
+        {
+            "word": "take a bath",
+            "meaning": "お風呂に入る",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "I take a bath at nine.",
+            "exampleJa": "私は9時にお風呂に入ります。",
+            "distractors": [
+                "歯をみがく",
+                "顔を洗う",
+                "寝る"
+            ],
+            "source": "大問1 Q10",
+            "sourceForm": "takes a bath",
+            "wordAudio": "audio/vocab/w_010_take_a_bath.mp3",
+            "exampleAudio": "audio/vocab/ex_010_take_a_bath.mp3"
+        },
+        {
+            "word": "look at",
+            "meaning": "～を見る",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "Look at that big dog!",
+            "exampleJa": "あの大きな犬を見て！",
+            "distractors": [
+                "～を聞く",
+                "～を待つ",
+                "～をさがす"
+            ],
+            "source": "大問1 Q11",
+            "sourceForm": "Look at",
+            "wordAudio": "audio/vocab/w_011_look_at.mp3",
+            "exampleAudio": "audio/vocab/ex_011_look_at.mp3"
+        },
+        {
+            "word": "that's right",
+            "meaning": "そのとおり",
+            "pos": "表現",
+            "level": "5級",
+            "example": "That's right. I'm from Canada.",
+            "exampleJa": "そのとおりです。私はカナダの出身です。",
+            "distractors": [
+                "ごめんなさい",
+                "どういたしまして",
+                "はじめまして"
+            ],
+            "source": "大問1 Q12",
+            "sourceForm": "That's right",
+            "wordAudio": "audio/vocab/w_012_that_s_right.mp3",
+            "exampleAudio": "audio/vocab/ex_012_that_s_right.mp3"
+        },
+        {
+            "word": "weekend",
+            "meaning": "週末",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "We go to the park on weekends.",
+            "exampleJa": "私たちは週末に公園に行きます。",
+            "distractors": [
+                "平日",
+                "夏休み",
+                "誕生日"
+            ],
+            "source": "大問1 Q13",
+            "sourceForm": "weekends",
+            "wordAudio": "audio/vocab/w_013_weekend.mp3",
+            "exampleAudio": "audio/vocab/ex_013_weekend.mp3"
+        },
+        {
+            "word": "when",
+            "meaning": "いつ",
+            "pos": "疑問詞",
+            "level": "5級",
+            "example": "When do you play soccer?",
+            "exampleJa": "あなたはいつサッカーをしますか。",
+            "distractors": [
+                "どこ",
+                "だれ",
+                "どれ"
+            ],
+            "source": "大問1 Q14",
+            "sourceForm": "When",
+            "wordAudio": "audio/vocab/w_014_when.mp3",
+            "exampleAudio": "audio/vocab/ex_014_when.mp3"
+        },
+        {
+            "word": "careful",
+            "meaning": "注意深い・気をつける",
+            "pos": "形容詞",
+            "level": "5級",
+            "example": "Be careful! That cup is hot.",
+            "exampleJa": "気をつけて！そのカップは熱いよ。",
+            "distractors": [
+                "うれしい",
+                "ねむい",
+                "静かな"
+            ],
+            "source": "大問1 Q15",
+            "sourceForm": "careful",
+            "wordAudio": "audio/vocab/w_015_careful.mp3",
+            "exampleAudio": "audio/vocab/ex_015_careful.mp3"
+        },
+        {
+            "word": "how long",
+            "meaning": "どれくらい（の長さ）",
+            "pos": "表現",
+            "level": "5級",
+            "example": "How long is the movie?",
+            "exampleJa": "その映画はどれくらいの長さですか。",
+            "distractors": [
+                "いくら",
+                "何歳",
+                "いくつ"
+            ],
+            "source": "大問2 Q16",
+            "sourceForm": "How long",
+            "wordAudio": "audio/vocab/w_016_how_long.mp3",
+            "exampleAudio": "audio/vocab/ex_016_how_long.mp3"
+        },
+        {
+            "word": "lesson",
+            "meaning": "レッスン・授業",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "I have a piano lesson on Fridays.",
+            "exampleJa": "私は金曜日にピアノのレッスンがあります。",
+            "distractors": [
+                "試合",
+                "宿題",
+                "休み"
+            ],
+            "source": "大問2 Q17",
+            "sourceForm": "lessons",
+            "wordAudio": "audio/vocab/w_017_lesson.mp3",
+            "exampleAudio": "audio/vocab/ex_017_lesson.mp3"
+        },
+        {
+            "word": "tomorrow",
+            "meaning": "明日",
+            "pos": "副詞",
+            "level": "5級",
+            "example": "I have a soccer game tomorrow.",
+            "exampleJa": "私は明日サッカーの試合があります。",
+            "distractors": [
+                "昨日",
+                "今日",
+                "毎日"
+            ],
+            "source": "大問2 Q18",
+            "sourceForm": "tomorrow",
+            "wordAudio": "audio/vocab/w_018_tomorrow.mp3",
+            "exampleAudio": "audio/vocab/ex_018_tomorrow.mp3"
+        },
+        {
+            "word": "color",
+            "meaning": "色",
+            "pos": "名詞",
+            "level": "5級",
+            "example": "What color is your bag?",
+            "exampleJa": "あなたのかばんは何色ですか。",
+            "distractors": [
+                "形",
+                "大きさ",
+                "名前"
+            ],
+            "source": "大問3 Q21",
+            "sourceForm": "color",
+            "wordAudio": "audio/vocab/w_019_color.mp3",
+            "exampleAudio": "audio/vocab/ex_019_color.mp3"
+        },
+        {
+            "word": "walk to school",
+            "meaning": "歩いて学校へ行く",
+            "pos": "熟語",
+            "level": "5級",
+            "example": "My sister walks to school with her friends.",
+            "exampleJa": "私の姉（妹）は友達と歩いて学校へ行きます。",
+            "distractors": [
+                "バスで学校へ行く",
+                "学校で走る",
+                "家に帰る"
+            ],
+            "source": "大問3 Q25",
+            "sourceForm": "walk to school",
+            "wordAudio": "audio/vocab/w_020_walk_to_school.mp3",
+            "exampleAudio": "audio/vocab/ex_020_walk_to_school.mp3"
+        }
+    ],
+    "lessonPlan": {
+        "title": "英検5級 2024年度 第2回（土曜準会場）",
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "相手の答えと前後の語を手がかりに選ぶ",
+                "subtitle": "Context Clues, Set Phrases & Word Forms",
+                "explanation": "大問1は、空所の前後や相手の答えに手がかりがある。Q1 は I'm drawing a picture in it now. から notebook、Q3 は I keep my coat and books in it. から locker、Q4 は I want some ice cream. から money を選ぶ（in it の it は空所の物を指す）。Q9 の a cup of、Q10 の take a bath、Q11 の look at、Q12 の That's right. は語の組み合わせで覚える。Q13 は with の後ろなので目的格の them、Q15 は Please の後ろなので原形の be。意味の手がかりを見つけてから、語の形も確かめる。",
+                "explanationSimple": "あきの まえと あとを よもう。『その なかに えを かいている』なら ノート、『コートと ほんを いれている』なら ロッカーだね。a cup of、take a bath、look at、That's right. は セットで おぼえよう。with の あとは them の ような かたち（ここでは them）、Please の あとは もとの かたち（ここでは be）だよ。",
+                "sourceQuote": "Ben, can I use your notebook? / I keep my coat and books in it. / Yuko takes a bath every night before bedtime. / Jane sometimes goes to the pool with them on weekends. / Please be careful.",
+                "sourceLocation": "大問1 Q1・Q3・Q4・Q9・Q10・Q11・Q13・Q15",
+                "sourceQuoteAudio": "audio/fp1_source.mp3",
+                "examples": [
+                    {
+                        "en": "A: Karen, do you have a locker at school?\nB: Yes. I keep my coat and books in it.",
+                        "ja": "A：カレン、あなたは学校にロッカーがありますか。\nB：はい。その中にコートと本を入れています。",
+                        "note": "B の I keep my coat and books in it. が手がかり。it は locker を指す。",
+                        "noteSimple": "コートと ほんを いれておく ものだから ロッカーだね。",
+                        "audio": "audio/fp1_ex1.mp3"
+                    },
+                    {
+                        "en": "Yuko takes a bath every night before bedtime.",
+                        "ja": "ユウコは毎晩、寝る前にお風呂に入ります。",
+                        "note": "take a bath で『お風呂に入る』。主語が Yuko なので takes。",
+                        "noteSimple": "take a bath で『おふろに はいる』だよ。",
+                        "audio": "audio/fp1_ex2.mp3"
+                    },
+                    {
+                        "en": "Jane's brothers like swimming. Jane sometimes goes to the pool with them on weekends.",
+                        "ja": "ジェーンの兄弟たちは水泳が好きです。ジェーンは週末にときどき彼らといっしょにプールに行きます。",
+                        "note": "with の後ろは目的格の them。them は Jane's brothers を指す。",
+                        "noteSimple": "with の あとは them。ジェーンの きょうだいたちの ことだね。",
+                        "audio": "audio/fp1_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問1 Q1]\nA: Ben, can I use your notebook?\nB: No. I'm drawing a picture in it now.\n\n[出典: 大問1 Q3]\nA: Karen, do you have a locker at school?\nB: Yes. I keep my coat and books in it.\n\n[出典: 大問1 Q4]\nA: Mom, do you have any money now? I want some ice cream.\nB: Sorry, Kevin, I don't.\n\n[出典: 大問1 Q9]\nA: Hi. Can I help you?\nB: I want a cookie and a cup of coffee, please.\n\n[出典: 大問1 Q10]\nYuko takes a bath every night before bedtime.\n\n[出典: 大問1 Q11]\nLook at the robot on TV. It's dancing!\n\n[出典: 大問1 Q13]\nJane's brothers like swimming. Jane sometimes goes to the pool with them on weekends.\n\n[出典: 大問1 Q15]\nA: Mom, can I ride my bike to the park today?\nB: OK, Kelly. Please be careful.",
+                    "ja": "【Q1】ベンは今ノートに絵をかいているので、貸せないと答える。\n【Q3】カレンは学校のロッカーにコートと本を入れている。\n【Q4】アイスクリームがほしいケビンが、お母さんにお金を持っているか尋ねる。\n【Q9】店でクッキーとコーヒー1杯を注文する。\n【Q10】ユウコは毎晩、寝る前にお風呂に入る。\n【Q11】テレビで踊っているロボットを見るように言う。\n【Q13】ジェーンは週末にときどき兄弟たちとプールに行く。\n【Q15】自転車で公園に行くケリーに、母が気をつけるように言う。",
+                    "source": "大問1 Q1・Q3・Q4・Q9・Q10・Q11・Q13・Q15",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "drawing a picture in it",
+                    "keep my coat and books in it",
+                    "want some ice cream",
+                    "a cup of coffee",
+                    "takes a bath",
+                    "Look at",
+                    "with them",
+                    "Please be careful"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "手がかりと組み合わせ",
+                "practiceQuestions": [
+                    {
+                        "q": "Q1で notebook を選ぶ手がかりは？",
+                        "a": "B の I'm drawing a picture in it now.（今それに絵をかいているところ）。中に絵をかける物なので notebook（ノート）。"
+                    },
+                    {
+                        "q": "Q13で they ではなく them を選ぶのはなぜ？",
+                        "a": "with（～といっしょに）の後ろには目的格を置くから。them は Jane's brothers（ジェーンの兄弟たち）を指す。"
+                    },
+                    {
+                        "q": "Q15で is ではなく be を選ぶのはなぜ？",
+                        "a": "Please＋動詞の原形で『～してください』となるから。careful（注意深い）は形容詞なので、be動詞の原形 be を使って Please be careful. とする。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "take a bath は どんな いみ？",
+                        "a": "おふろに はいる、だよ。"
+                    },
+                    {
+                        "q": "look at ～ は どんな いみ？",
+                        "a": "～を みる、だよ。"
+                    },
+                    {
+                        "q": "a cup of coffee は どんな いみ？",
+                        "a": "コーヒー いっぱい、だよ。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "会話は「疑問詞」と空所の前後のセリフで答えを決める",
+                "subtitle": "Dialogue Responses: How long / Where & Do-Questions",
+                "explanation": "大問2では、質問の始めの語と、空所の前後のセリフを手がかりにする。Q16 の How long is ～?（どれくらいの長さ）には長さの 400 meters.、Q20 の Where（どこ）には場所の In the park. が合う（In the afternoon. や On Sunday morning. は時の答え）。Q19 は女性の答え Mexico.（国名）から、空所に Where are you from? を入れる。Q18 の Do you have ～? には Yes, I do.。Q17 は、空所の後ろの They're fun. の They が guitar lessons を指すので、I go to guitar lessons. を選ぶ。",
+                "explanationSimple": "しつもんの はじめの ことばを みよう。How long には ながさ、Where には ばしょ、Do you ～? には Yes, I do. か No, I don't. で こたえるよ。くうしょの あとの セリフも ヒントだね。",
+                "sourceQuote": "400 meters. / I go to guitar lessons. / Yes, I do. / Where are you from? / In the park.",
+                "sourceLocation": "大問2 Q16～Q20",
+                "sourceQuoteAudio": "audio/fp2_source.mp3",
+                "examples": [
+                    {
+                        "en": "Student: How long is this bridge, Mr. Watson?\nTeacher: 400 meters.",
+                        "ja": "生徒：ワトソン先生、この橋はどれくらいの長さですか。\n先生：400メートルです。",
+                        "note": "How long is ～? は長さを尋ねる言い方。長さを数字と単位で答えている。",
+                        "noteSimple": "『どのくらい ながい？』に『400メートル』と こたえているね。",
+                        "audio": "audio/fp2_ex1.mp3"
+                    },
+                    {
+                        "en": "Man: I'm from Japan. Where are you from?\nWoman: Mexico.",
+                        "ja": "男性：私は日本の出身です。あなたはどこの出身ですか。\n女性：メキシコです。",
+                        "note": "答えの Mexico.（国名）から、出身地を尋ねる Where are you from? を選ぶ。",
+                        "noteSimple": "くにの なまえで こたえているから『どこの しゅっしん？』だね。",
+                        "audio": "audio/fp2_ex2.mp3"
+                    },
+                    {
+                        "en": "Girl: Where do you play baseball?\nBoy: In the park.",
+                        "ja": "女の子：あなたはどこで野球をしますか。\n男の子：公園でです。",
+                        "note": "Where（どこ）には場所で答える。In the afternoon. や On Sunday morning. は時の答え。",
+                        "noteSimple": "『どこ？』に ばしょで こたえるね。",
+                        "audio": "audio/fp2_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問2 Q16]\nStudent: How long is this bridge, Mr. Watson?\nTeacher: 400 meters.\n\n[出典: 大問2 Q17]\nBoy: Do you play music, Carol?\nGirl: Yes, I go to guitar lessons. They're fun.\n\n[出典: 大問2 Q18]\nFather: Do you have an English test tomorrow, Luke?\nBoy: Yes, I do. It's in the morning.\n\n[出典: 大問2 Q19]\nMan: I'm from Japan. Where are you from?\nWoman: Mexico.\n\n[出典: 大問2 Q20]\nGirl: Where do you play baseball?\nBoy: In the park.",
+                    "ja": "【Q16】ワトソン先生が、橋の長さは400メートルだと答える。\n【Q17】キャロルはギターのレッスンに通っていて、楽しいと話す。\n【Q18】ルークは明日の午前中に英語のテストがある。\n【Q19】日本出身の男性が出身地を尋ね、女性はメキシコと答える。\n【Q20】男の子は公園で野球をする。",
+                    "source": "大問2 Q16～Q20",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "400 meters",
+                    "I go to guitar lessons",
+                    "Yes, I do",
+                    "Where are you from",
+                    "In the park"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "会話の受け答え",
+                "practiceQuestions": [
+                    {
+                        "q": "Q16で In the morning. が合わないのはなぜ？",
+                        "a": "In the morning. は『午前中に』と時を答える言い方。How long is this bridge? は橋の長さを尋ねているので、400 meters. が合う。"
+                    },
+                    {
+                        "q": "Q17の They're fun. の They は何を指す？",
+                        "a": "guitar lessons（ギターのレッスン）。lessons が複数なので They で受けている。だから空所には I go to guitar lessons. が入る。"
+                    },
+                    {
+                        "q": "Q18で Yes, you are. が合わないのはなぜ？",
+                        "a": "質問が Do you have ～? と do で始まっているから。you と聞かれたら I で答え、Yes, I do. とする。Yes, you are. は Am I ～? のような be動詞の質問への答え方。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "How long は どんな いみ？",
+                        "a": "どのくらい ながい、だよ。"
+                    },
+                    {
+                        "q": "Where are you from? は どんな いみ？",
+                        "a": "どこの しゅっしんですか、だよ。"
+                    },
+                    {
+                        "q": "Do you ～? には なんと こたえる？",
+                        "a": "Yes, I do. か No, I don't. だよ。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "並べかえ——疑問詞・命令文・否定文の語順で組み立てる",
+                "subtitle": "Word Order: What color, Don't / Let's & Negatives",
+                "explanation": "Q21 は What color（何色）をひとまとまりにして、do you like と疑問文の語順を続ける。Q22 は Kate is の後ろに my sister's friend（私の姉の友達）を置き、's は『～の』。Q23 は Don't＋動詞の原形で『～してはいけません』、Q24 は Let's＋動詞の原形で『～しましょう』と go camping on Saturday を続ける。Q25 は 主語 I＋don't＋動詞の原形 walk の否定文。the chair は1つのかたまりで、固定の What や Let's、文末の , Nancy?・friend.・school. は数えず、4つの空所の1番目と3番目を答える。完成文を確かめてから、2つの位置を選択肢と照合する。",
+                "explanationSimple": "4つの ことばを ならべよう。『なにいろ？』は What color、『～しては いけません』は Don't、『～しましょう』は Let's で はじめるよ。『わたしは ～しません』は I don't の あとに うごきの ことばだね。",
+                "sourceQuote": "What color do you like, Nancy? / Don't stand on the chair. / I don't walk to school.",
+                "sourceLocation": "大問3 Q21～Q25（並べ替え後の完成文）",
+                "sourceQuoteAudio": "audio/fp3_source.mp3",
+                "examples": [
+                    {
+                        "en": "What color do you like, Nancy?",
+                        "ja": "ナンシーさん，あなたは何色が好きですか。",
+                        "note": "空所は color→do→you→like。1番目③color、3番目④you。What color で『何色』。",
+                        "noteSimple": "『なにいろ？』は What color で はじめるよ。",
+                        "audio": "audio/fp3_ex1.mp3"
+                    },
+                    {
+                        "en": "Don't stand on the chair.",
+                        "ja": "椅子の上に立ってはいけません。",
+                        "note": "don't→stand→on→the chair。1番目③don't、3番目④on。Don't＋動詞の原形で『～してはいけません』。",
+                        "noteSimple": "Don't の あとは stand だね。",
+                        "audio": "audio/fp3_ex2.mp3"
+                    },
+                    {
+                        "en": "I don't walk to school.",
+                        "ja": "私は学校へ歩いて行きません。",
+                        "note": "I→don't→walk→to。1番目④I、3番目③walk。don't の後ろは動詞の原形 walk。",
+                        "noteSimple": "I don't の あとに walk だよ。",
+                        "audio": "audio/fp3_ex3.mp3"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: 大問3 Q21 完成文]\nWhat color do you like, Nancy?\n\n[出典: 大問3 Q22 完成文]\nKate is my sister's friend.\n\n[出典: 大問3 Q23 完成文]\nDon't stand on the chair.\n\n[出典: 大問3 Q24 完成文]\nLet's go camping on Saturday.\n\n[出典: 大問3 Q25 完成文]\nI don't walk to school.",
+                    "ja": "【Q21】ナンシーさん，あなたは何色が好きですか。\n【Q22】ケイトは私の姉の友達です。\n【Q23】椅子の上に立ってはいけません。\n【Q24】土曜日にキャンプに行きましょう。\n【Q25】私は学校へ歩いて行きません。",
+                    "source": "大問3 Q21～Q25（並べ替え後の完成文）",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "What color",
+                    "my sister's friend",
+                    "Don't stand",
+                    "Let's go camping",
+                    "don't walk"
+                ],
+                "highlightColor": "#a78bfa",
+                "highlightLabel": "整序の型",
+                "practiceQuestions": [
+                    {
+                        "q": "Q21の1番目と3番目は？",
+                        "a": "color→do→you→like なので、③color と④you。選択肢2。What color で『何色』。"
+                    },
+                    {
+                        "q": "Q24で go の後ろに camping を置くのはなぜ？",
+                        "a": "go camping で『キャンプに行く』というまとまりだから。固定の Let's の後ろが go→camping→on→Saturday で、1番目①go、3番目②on。選択肢3。"
+                    },
+                    {
+                        "q": "Q25で don't の後ろに walk を置くのはなぜ？",
+                        "a": "主語が I の一般動詞の否定文は 主語＋don't＋動詞の原形 だから。I→don't→walk→to で、1番目④I、3番目③walk。選択肢2。"
+                    }
+                ],
+                "practiceQuestionsSimple": [
+                    {
+                        "q": "『なにいろ？』は なにで はじめる？",
+                        "a": "What color で はじめるよ。"
+                    },
+                    {
+                        "q": "『～しては いけません』は なにで はじめる？",
+                        "a": "Don't で はじめるよ。"
+                    },
+                    {
+                        "q": "school. も かぞえる？",
+                        "a": "かぞえないよ。あいている 4つの ところだけだね。"
+                    }
+                ]
+            }
+        ]
+    }
+}

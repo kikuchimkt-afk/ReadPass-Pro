@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2024-2-sat",
+    "title": "文法事項の確認",
+    "theme": "過去完了・関係詞・原形不定詞・現在完了・受け身",
+    "aim": "授業の物語文・Eメール・説明文で学んだ、経験を表す過去完了、程度の表し方、コンマのあとの関係詞、人＋動詞の原形の形、現在完了進行形、比較級の強調、感情の原因を表す不定詞、さまざまな受け身を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "過去のある時点までの経験や、程度の表し方が分かる",
+        "コンマのあとの関係詞を、後ろの文の形から選べる",
+        "〈人＋動詞の原形〉が続く動詞と、その形が分かる",
+        "継続・比較級の強調・感情の原因・受け身の形を選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Before her family's trip to Hokkaido last winter, Lisa (　) skiing.",
+            "choices": [
+                "has never been",
+                "won't go",
+                "had never been",
+                "never goes"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "去年の冬の家族での北海道旅行まで、リサは一度もスキーをしたことがなかった。",
+            "explanation": "去年の冬の旅行（過去）の時点までの経験なので、過去完了〈had＋過去分詞〉を使う。ここでは go skiing の経験を been skiing の形で表している。",
+            "choiceNotes": [
+                "has never been「現在完了」",
+                "won't go「未来」",
+                "had never been「過去完了」",
+                "never goes「現在形」"
+            ],
+            "tip": "授業の had never been camping before と同じ形。過去のある時点までの経験を表す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This dining table is big (　) for eight people to sit around.",
+            "choices": [
+                "very",
+                "enough",
+                "so",
+                "much"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "このダイニングテーブルは、8人で囲んで座れるほど大きい。",
+            "explanation": "〈形容詞＋enough for 人＋to do〉で「人が～できるほど…」。enough は形容詞 big のすぐ後ろに置く。very・so は形容詞の前に置く語。",
+            "choiceNotes": [
+                "very「とても（形容詞の前）」",
+                "enough「十分に（形容詞の後ろ）」",
+                "so「とても（形容詞の前）」",
+                "much「比較級などを強める」"
+            ],
+            "tip": "授業の big enough for both of them to sleep in と同じ語順になる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My aunt lives in Nagano, (　) is famous for its apples.",
+            "choices": [
+                "which",
+                "where",
+                "who",
+                "what"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "おばは長野に住んでいて、そこはりんごで有名だ。",
+            "explanation": "コンマの後ろで Nagano に説明を加える関係代名詞（非制限用法）。is famous の主語が欠けているので、人以外を表す主格の which が入る。",
+            "choiceNotes": [
+                "which「主格・人以外」",
+                "where「関係副詞・後ろは完全な文」",
+                "who「主格・人」",
+                "what「先行詞を含む」"
+            ],
+            "tip": "授業の the campsite, which was by a beautiful lake と同じ。前から読む。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "Last summer, we went to a beach in Okinawa, (　) we swam with sea turtles.",
+            "choices": [
+                "who",
+                "what",
+                "which",
+                "where"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "去年の夏、私たちは沖縄の海辺に行き、そこでウミガメと一緒に泳いだ。",
+            "explanation": "we swam with sea turtles は欠けている要素のない完全な文なので、場所の関係副詞 where が入る（非制限用法）。",
+            "choiceNotes": [
+                "who「主格・人」",
+                "what「先行詞を含む」",
+                "which「後ろは不完全な文」",
+                "where「関係副詞・後ろは完全な文」"
+            ],
+            "tip": "場所の名詞の後ろでも、後ろの文に欠けている語があれば which、なければ where。(3)と見比べよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "My older brother helped me (　) my room before our grandparents visited.",
+            "choices": [
+                "cleaning",
+                "clean",
+                "cleaned",
+                "cleans"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "祖父母が来る前に、兄は私が部屋を掃除するのを手伝ってくれた。",
+            "explanation": "〈help＋人＋動詞の原形〉で「人が～するのを手伝う」。部屋を掃除するのは me（私）で、兄はそれを手伝った。",
+            "choiceNotes": [
+                "cleaning「-ing形」",
+                "clean「原形」",
+                "cleaned「過去形・過去分詞」",
+                "cleans「3単現」"
+            ],
+            "tip": "授業の He helped her pick out her groceries と同じ形。動作をするのは「人」の部分。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "After practice, the coach (　) us run around the field five times.",
+            "choices": [
+                "told",
+                "wanted",
+                "asked",
+                "made"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "練習の後、コーチは私たちにグラウンドを5周走らせた。",
+            "explanation": "us の後ろが原形の run なので、〈make＋人＋動詞の原形〉「人に～させる」の made が入る。told・wanted・asked なら run の前に to が必要。",
+            "choiceNotes": [
+                "told「言った（to が必要）」",
+                "wanted「望んだ（to が必要）」",
+                "asked「頼んだ（to が必要）」",
+                "made「～させた」"
+            ],
+            "tip": "授業の made her promise to take her glasses と同じ〈make＋人＋原形〉の形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "If you have any questions about the homework, please let me (　).",
+            "choices": [
+                "know",
+                "to know",
+                "knowing",
+                "knew"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "宿題について質問があれば、私に知らせてください。",
+            "explanation": "〈let＋人＋動詞の原形〉で「人に～させてあげる」。let me know で「私に知らせて」という決まった言い方になり、to は入れない。",
+            "choiceNotes": [
+                "know「原形」",
+                "to know「to不定詞」",
+                "knowing「-ing形」",
+                "knew「過去形」"
+            ],
+            "tip": "授業のメールの Please let him know と同じ形。Eメールの終わりでよく使われる表現。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Ken (　) the piano since he was six, and now he can play many difficult songs.",
+            "choices": [
+                "plays",
+                "is playing",
+                "has been playing",
+                "played"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "ケンは6歳のときからピアノを弾き続けていて、今では難しい曲をたくさん弾ける。",
+            "explanation": "since he was six「6歳のときから」今まで続いている動作なので、現在完了進行形が入る。過去形の played では、今まで続いていることを表せない。",
+            "choiceNotes": [
+                "plays「現在形」",
+                "is playing「現在進行形」",
+                "has been playing「現在完了進行形」",
+                "played「過去形」"
+            ],
+            "tip": "授業の has been going to your store と同じ形。「ずっと～している」と訳す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The second movie in the series was (　) more exciting than the first one.",
+            "choices": [
+                "too",
+                "even",
+                "very",
+                "so"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "シリーズの2作目の映画は、1作目よりさらにわくわくするものだった。",
+            "explanation": "比較級 more exciting の前に置いて「さらに・いっそう」と差を強められるのは、選択肢の中では even だけ。very・so・too は比較級を直接強められない。",
+            "choiceNotes": [
+                "too「～すぎる」",
+                "even「さらに（比較級を強める）」",
+                "very「とても（原級を強める）」",
+                "so「とても・だから」"
+            ],
+            "tip": "授業の even bigger fans と同じ使い方。1作目もわくわくしたうえでの「さらに」。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "I was surprised (　) that our new English teacher was once a professional singer.",
+            "choices": [
+                "learn",
+                "learned",
+                "learns",
+                "to learn"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "新しい英語の先生が以前プロの歌手だったと知って、私は驚いた。",
+            "explanation": "〈感情を表す形容詞＋to不定詞〉で「～して…」。to learn that ... が、驚いた原因「～と知って」を表している。",
+            "choiceNotes": [
+                "learn「原形」",
+                "learned「過去形・過去分詞」",
+                "learns「3単現」",
+                "to learn「～して（原因）」"
+            ],
+            "tip": "授業の I'm happy to know that ... と同じ形。「～して」と原因を表すように訳す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Beautiful cherry blossoms can (　) along this river in early April.",
+            "choices": [
+                "see",
+                "seeing",
+                "be seen",
+                "been seen"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "4月の初めには、この川沿いで美しい桜の花が見られる。",
+            "explanation": "桜の花は「見られる」側なので受け身。助動詞 can の後ろは原形なので、〈can＋be＋過去分詞〉の be seen になる。",
+            "choiceNotes": [
+                "see「見る（能動）」",
+                "seeing「-ing形」",
+                "be seen「受け身の原形」",
+                "been seen「have が必要」"
+            ],
+            "tip": "授業の can be found easily と同じ形。主語が「される」側かを確かめる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The old station building stopped (　) about ten years ago, and now it is a cafe.",
+            "choices": [
+                "being used",
+                "using",
+                "to use",
+                "used"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "その古い駅舎は10年ほど前に使われなくなり、今はカフェになっている。",
+            "explanation": "stop -ing「～するのをやめる」の -ing を受け身にした being used で「使われなくなる」。駅舎は「使われる」側なので using は合わない。",
+            "choiceNotes": [
+                "being used「使われること」",
+                "using「使うこと（能動）」",
+                "to use「使うために」",
+                "used「過去形・過去分詞」"
+            ],
+            "tip": "授業の stopped being printed in 2018 と同じ形。「～されなくなった」と訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "This park (　) one of the best places in our town to watch the sunset.",
+            "choices": [
+                "considers",
+                "is considered",
+                "considering",
+                "consider"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この公園は、町で夕日を見るのに最もよい場所の一つだと考えられている。",
+            "explanation": "公園は「考えられる」側なので受け身。〈be considered＋名詞〉で「～だと考えられている」。能動の形では主語の公園が考えることになり、合わない。",
+            "choiceNotes": [
+                "considers「3単現」",
+                "is considered「考えられている」",
+                "considering「-ing形」",
+                "consider「原形」"
+            ],
+            "tip": "授業の is considered special and rare と同じ形。主語が「考えられる」側かを確かめる。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The old castle burned down in a fire, but it (　) again in 1960.",
+            "choices": [
+                "built",
+                "has built",
+                "is building",
+                "was built"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その古い城は火事で焼け落ちたが、1960年に再び建てられた。",
+            "explanation": "城は「建てられる」側で、1960年という過去のことなので、過去の受け身〈was＋過去分詞〉が入る。built だけでは城が建てたことになる。",
+            "choiceNotes": [
+                "built「建てた（能動）」",
+                "has built「現在完了（能動）」",
+                "is building「現在進行形」",
+                "was built「過去の受け身」"
+            ],
+            "tip": "授業の was published again と同じ過去の受け身。in 1960 も手がかり。"
+        }
+    ],
+    "closing": "今回の問題は、授業で読んだ物語文、Eメール、雑誌についての説明文に出てきた形をもとにしています。過去完了や受け身は、長文で出来事の順番や「だれが何をしたか、何がされたか」をつかむ手がかりになります。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}

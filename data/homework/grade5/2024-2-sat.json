@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2024-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・しつもんとこたえ・ぶんのかたち",
+    "aim": "じゅぎょうでならった、まえとあとのヒントやセットでつかうことば、しつもんにあうこたえかた、ぶんのはじめにおくことばを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "まえとあとのヒントやセットから、あうことばをえらべる",
+        "しつもんとこたえがあうように、ことばをえらべる",
+        "ぶんのはじめにおくことばと、どうしのかたちをただしくかける"
+    ],
+    "words": [
+        {
+            "word": "notebook",
+            "meaning": "ノート"
+        },
+        {
+            "word": "money",
+            "meaning": "おかね"
+        },
+        {
+            "word": "homework",
+            "meaning": "しゅくだい"
+        },
+        {
+            "word": "kitchen",
+            "meaning": "だいどころ"
+        },
+        {
+            "word": "take a bath",
+            "meaning": "おふろにはいる"
+        },
+        {
+            "word": "tomorrow",
+            "meaning": "あした"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Yuko takes a bath every night before bedtime.",
+            "ja": "ユウコは、まいばん、ねるまえにおふろにはいります。",
+            "focus": "fp1",
+            "point": "take a bath「おふろにはいる」",
+            "note": "take a bath で「おふろにはいる」。Yuko のように、わたし・あなた いがいの1人が ふだんすることなので takes になる。"
+        },
+        {
+            "en": "Do you have an English test tomorrow, Luke?",
+            "ja": "ルーク、あしたはえいごのテストがあるの？",
+            "focus": "fp2",
+            "point": "Do you have ～?「～がありますか」",
+            "note": "Do you ～? のしつもんには、Yes, I do. や No, I don't. のように、do をつかってこたえるのがきほん。"
+        },
+        {
+            "en": "Let's go camping on Saturday.",
+            "ja": "土よう日に、キャンプにいきましょう。",
+            "focus": "fp3",
+            "point": "Let's＋もとのかたち「～しましょう」",
+            "note": "Let's のあとに go（もとのかたち）をつづけて、「いっしょに～しよう」とさそういいかたになる。go camping で「キャンプにいく」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Emi makes a (　) of tea for her grandmother.",
+            "choices": [
+                "desk",
+                "ball",
+                "cup",
+                "pen"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "エミは、おばあちゃんのために、おちゃを1ぱいいれます。",
+            "explanation": "a cup of ～ で「カップ1ぱいの～」。a と of のあいだに cup をいれて、ひとまとまりでつかう。",
+            "choiceNotes": [
+                "desk「つくえ」",
+                "ball「ボール」",
+                "cup「a cup of でカップ1ぱいの」",
+                "pen「ペン」"
+            ],
+            "tip": "じゅぎょうの a cup of coffee（コーヒー1ぱい）とおなじ。a cup of をセットでかこう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Taro and Yuta are my friends. I often play soccer with (　).",
+            "choices": [
+                "them",
+                "they",
+                "their",
+                "we"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "タロウとユウタは、わたしのともだちです。わたしは、よくかれらとサッカーをします。",
+            "explanation": "with（～といっしょに）のあとに「かれら」をおくときは、them のかたちにする。them は Taro and Yuta のこと。",
+            "choiceNotes": [
+                "them「かれらを・かれらに」",
+                "they「かれらは」",
+                "their「かれらの」",
+                "we「わたしたちは」"
+            ],
+            "tip": "じゅぎょうの goes to the pool with them とおなじかたち。with them をセットでいってみよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Please (　) kind to animals.",
+            "choices": [
+                "is",
+                "am",
+                "are",
+                "be"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "どうぶつには、やさしくしてください。",
+            "explanation": "Please で「～してください」とたのむぶんでは、どうしはもとのかたちにする。is・am・are のもとのかたちは be。",
+            "choiceNotes": [
+                "is「he・she などとつかう」",
+                "am「I とつかう」",
+                "are「you などとつかう」",
+                "be「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの Please be careful. とおなじかたち。Please be をセットでかこう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: How (　) is the river near your house?\nB: About 20 kilometers.",
+            "choices": [
+                "long",
+                "old",
+                "much",
+                "many"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたのいえのちかくのかわは、どのくらいのながさですか。\nB：20キロメートルぐらいです。",
+            "explanation": "B が 20 kilometers（20キロメートル）と、ながさをこたえている。ながさをたずねるときは How long をつかう。",
+            "choiceNotes": [
+                "long「How long でながさ」",
+                "old「How old でなんさい」",
+                "much「How much でいくら」",
+                "many「たくさんの」"
+            ],
+            "tip": "じゅぎょうの How long is this bridge …? にも、400 meters. とながさでこたえていたね。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: Do you like math, Ryo?\nB: (　) It's my favorite subject.",
+            "choices": [
+                "Yes, I am.",
+                "Yes, I do.",
+                "I'm fine.",
+                "See you."
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：リョウ、さんすうはすき？\nB：うん、すきだよ。いちばんすきなかもくなんだ。",
+            "explanation": "Do you ～? のしつもんには、do をつかって Yes, I do. のようにこたえるのがきほん。Yes, I am. は Are you ～? へのこたえ。",
+            "choiceNotes": [
+                "Yes, I am.「はい、そうです」",
+                "Yes, I do.「はい、すきです」",
+                "I'm fine.「げんきです」",
+                "See you.「またね」"
+            ],
+            "tip": "じゅぎょうの Do you have an English test …? のこたえも、Yes, I do. だったね。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: (　) do you do your homework?\nB: In the kitchen.",
+            "choices": [
+                "When",
+                "Who",
+                "What",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：あなたは、どこでしゅくだいをしますか。\nB：だいどころでします。",
+            "explanation": "B が In the kitchen（だいどころで）と、ばしょをこたえている。ばしょをたずねることばは Where（どこ）。",
+            "choiceNotes": [
+                "When「いつ」",
+                "Who「だれ」",
+                "What「なに」",
+                "Where「どこ」"
+            ],
+            "tip": "じゅぎょうの Where do you play baseball? — In the park. とおなじ。ばしょのこたえがヒント。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "(　) run in the classroom, Ken.",
+            "choices": [
+                "Doesn't",
+                "Don't",
+                "Isn't",
+                "Aren't"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ケン、きょうしつのなかで、はしってはいけません。",
+            "explanation": "Don't＋どうしのもとのかたちで「～してはいけません」。ぶんのはじめに Don't をおいて、run をつづける。",
+            "choiceNotes": [
+                "Doesn't「he などが～しない」",
+                "Don't「～してはいけません」",
+                "Isn't「～ではない（is）」",
+                "Aren't「～ではない（are）」"
+            ],
+            "tip": "じゅぎょうの Don't stand on the chair. とおなじかたち。Don't run をセットでかこう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "A: What (　) is your cat, Mike?\nB: It's black and white.",
+            "choices": [
+                "time",
+                "sport",
+                "color",
+                "day"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：マイク、あなたのねこは、なにいろ？\nB：くろとしろだよ。",
+            "explanation": "B が black and white（くろとしろ）と、いろをこたえている。いろをたずねるときは、What color をひとまとまりにして、ぶんのはじめにおく。",
+            "choiceNotes": [
+                "time「What time でなんじ」",
+                "sport「スポーツ」",
+                "color「What color でなにいろ」",
+                "day「日・よう日」"
+            ],
+            "tip": "じゅぎょうの What color do you like, Nancy? とおなじ。What color でひとまとまり。"
+        }
+    ],
+    "closing": "きょうは、セットのことばや、しつもんとこたえのつながりを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。おうちの人にも、What color do you like? ときいてみてください。"
+}

@@ -1,0 +1,1833 @@
+{
+    "grade": "準2級",
+    "year": "2024",
+    "session": "2",
+    "title": "2024年度 第2回（土曜準会場） 英語資格検定準2級 リーディング",
+    "vocabulary": [
+        {
+            "word": "cotton",
+            "meaning": "綿・木綿",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "This T-shirt is made of soft cotton.",
+            "distractors": [
+                "うわさ",
+                "くぎ",
+                "政治"
+            ],
+            "wordAudio": "audio/vocab/w_001_cotton.mp3"
+        },
+        {
+            "word": "promise",
+            "meaning": "約束する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "I promised my mother that I would clean my room.",
+            "distractors": [
+                "認める",
+                "返す",
+                "探す"
+            ],
+            "wordAudio": "audio/vocab/w_002_promise.mp3"
+        },
+        {
+            "word": "annoying",
+            "meaning": "いらいらさせる・迷惑な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The loud music from next door was really annoying.",
+            "distractors": [
+                "社会の",
+                "きちんとした",
+                "空の"
+            ],
+            "wordAudio": "audio/vocab/w_003_annoying.mp3"
+        },
+        {
+            "word": "seal",
+            "meaning": "封をする",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Please seal the box with tape before you send it.",
+            "distractors": [
+                "失敗する",
+                "焼く",
+                "奪う"
+            ],
+            "wordAudio": "audio/vocab/w_004_seal.mp3"
+        },
+        {
+            "word": "daily",
+            "meaning": "毎日",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "My grandfather walks in the park daily.",
+            "distractors": [
+                "部分的に",
+                "静かに",
+                "そっと"
+            ],
+            "wordAudio": "audio/vocab/w_005_daily.mp3"
+        },
+        {
+            "word": "assist",
+            "meaning": "手伝う・援助する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "The nurse assisted the doctor during the operation.",
+            "distractors": [
+                "推測する",
+                "調べる",
+                "指揮する"
+            ],
+            "wordAudio": "audio/vocab/w_006_assist.mp3"
+        },
+        {
+            "word": "growth",
+            "meaning": "成長",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Sleep is important for the growth of young children.",
+            "distractors": [
+                "真実",
+                "勇気",
+                "不在"
+            ],
+            "wordAudio": "audio/vocab/w_007_growth.mp3"
+        },
+        {
+            "word": "seek",
+            "meaning": "探し求める",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Many students seek advice from their teachers.",
+            "distractors": [
+                "説明する",
+                "代表する",
+                "引退する"
+            ],
+            "wordAudio": "audio/vocab/w_008_seek.mp3"
+        },
+        {
+            "word": "prison",
+            "meaning": "刑務所",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The thief spent three years in prison.",
+            "distractors": [
+                "液体",
+                "宇宙",
+                "心"
+            ],
+            "wordAudio": "audio/vocab/w_009_prison.mp3"
+        },
+        {
+            "word": "location",
+            "meaning": "場所・位置",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "This hotel is in a great location near the station.",
+            "distractors": [
+                "予報",
+                "毛布",
+                "習慣"
+            ],
+            "wordAudio": "audio/vocab/w_010_location.mp3"
+        },
+        {
+            "word": "far from",
+            "meaning": "～から遠い",
+            "pos": "句",
+            "level": "準2級",
+            "example": "The beach is not far from my grandparents' house.",
+            "distractors": [
+                "～まで",
+                "乗車して",
+                "～に基づいて"
+            ],
+            "wordAudio": "audio/vocab/w_011_far_from.mp3"
+        },
+        {
+            "word": "from now on",
+            "meaning": "これからは・今後は",
+            "pos": "句",
+            "level": "準2級",
+            "example": "From now on, I will go to bed before eleven.",
+            "distractors": [
+                "放送中で",
+                "ところで",
+                "やりすぎの"
+            ],
+            "wordAudio": "audio/vocab/w_012_from_now_on.mp3"
+        },
+        {
+            "word": "make one's bed",
+            "meaning": "ベッドを整える",
+            "pos": "句",
+            "level": "準2級",
+            "example": "Please make your bed before you leave for school.",
+            "distractors": [
+                "連絡を取り合う",
+                "熱がある",
+                "家に向かう"
+            ],
+            "wordAudio": "audio/vocab/w_013_make_one_s_bed.mp3"
+        },
+        {
+            "word": "set up",
+            "meaning": "（機器などを）設定する",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "My father set up the new TV in the living room.",
+            "distractors": [
+                "～を願う",
+                "～に勤める",
+                "～をいっぱいにする"
+            ],
+            "wordAudio": "audio/vocab/w_014_set_up.mp3"
+        },
+        {
+            "word": "curious about",
+            "meaning": "～に興味がある",
+            "pos": "句",
+            "level": "準2級",
+            "example": "Small children are curious about everything around them.",
+            "distractors": [
+                "～から離れた",
+                "折れて取れた",
+                "～に飽きた"
+            ],
+            "wordAudio": "audio/vocab/w_015_curious_about.mp3"
+        },
+        {
+            "word": "performance",
+            "meaning": "演奏・公演",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The students gave a wonderful performance at the festival.",
+            "distractors": [
+                "招待",
+                "練習",
+                "観客"
+            ],
+            "wordAudio": "audio/vocab/w_016_performance.mp3"
+        },
+        {
+            "word": "book",
+            "meaning": "予約する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "We booked a table at the restaurant for Friday night.",
+            "distractors": [
+                "取り消す",
+                "支払う",
+                "変更する"
+            ],
+            "wordAudio": "audio/vocab/w_017_book.mp3"
+        },
+        {
+            "word": "run out",
+            "meaning": "なくなる・切れる",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "We ran out of milk, so I went to the store.",
+            "distractors": [
+                "印刷する",
+                "補充する",
+                "注文する"
+            ],
+            "wordAudio": "audio/vocab/w_018_run_out.mp3"
+        },
+        {
+            "word": "document",
+            "meaning": "書類・文書",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Please sign this document and give it back to me.",
+            "distractors": [
+                "写真",
+                "封筒",
+                "地図"
+            ],
+            "wordAudio": "audio/vocab/w_019_document.mp3"
+        },
+        {
+            "word": "expensive",
+            "meaning": "高価な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "This watch is too expensive for me to buy.",
+            "distractors": [
+                "安い",
+                "便利な",
+                "珍しい"
+            ],
+            "wordAudio": "audio/vocab/w_020_expensive.mp3"
+        },
+        {
+            "word": "invite",
+            "meaning": "招待する・誘う",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Emma invited me to her birthday party.",
+            "distractors": [
+                "断る",
+                "案内する",
+                "訪問する"
+            ],
+            "wordAudio": "audio/vocab/w_021_invite.mp3"
+        },
+        {
+            "word": "worried",
+            "meaning": "心配して",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "My mother was worried because I came home late.",
+            "distractors": [
+                "興奮して",
+                "驚いて",
+                "退屈して"
+            ],
+            "wordAudio": "audio/vocab/w_022_worried.mp3"
+        },
+        {
+            "word": "campsite",
+            "meaning": "キャンプ場",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "We set up our tent at the campsite before dark.",
+            "distractors": [
+                "駐車場",
+                "遊園地",
+                "運動場"
+            ],
+            "wordAudio": "audio/vocab/w_023_campsite.mp3"
+        },
+        {
+            "word": "completely",
+            "meaning": "完全に",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "The snow completely covered the road.",
+            "distractors": [
+                "部分的に",
+                "ほとんど",
+                "ゆっくりと"
+            ],
+            "wordAudio": "audio/vocab/w_024_completely.mp3"
+        },
+        {
+            "word": "employee",
+            "meaning": "従業員",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The company has about two hundred employees.",
+            "distractors": [
+                "雇い主",
+                "客",
+                "経営者"
+            ],
+            "wordAudio": "audio/vocab/w_025_employee.mp3"
+        },
+        {
+            "word": "staff",
+            "meaning": "職員・スタッフ",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The hotel staff were very kind to us.",
+            "distractors": [
+                "客",
+                "商品",
+                "設備"
+            ],
+            "wordAudio": "audio/vocab/w_026_staff.mp3"
+        },
+        {
+            "word": "glasses",
+            "meaning": "眼鏡",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "I can't read small letters without my glasses.",
+            "distractors": [
+                "手袋",
+                "財布",
+                "帽子"
+            ],
+            "wordAudio": "audio/vocab/w_027_glasses.mp3"
+        },
+        {
+            "word": "trouble",
+            "meaning": "苦労・困難",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "I had trouble finding the right bus stop.",
+            "distractors": [
+                "楽しみ",
+                "余裕",
+                "習慣"
+            ],
+            "wordAudio": "audio/vocab/w_028_trouble.mp3"
+        },
+        {
+            "word": "groceries",
+            "meaning": "食料品・日用品",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Dad carried the groceries from the car to the kitchen.",
+            "distractors": [
+                "文房具",
+                "家具",
+                "衣類"
+            ],
+            "wordAudio": "audio/vocab/w_029_groceries.mp3"
+        },
+        {
+            "word": "option",
+            "meaning": "選択肢",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "There are several options for lunch at the school cafeteria.",
+            "distractors": [
+                "値段",
+                "意見",
+                "予定"
+            ],
+            "wordAudio": "audio/vocab/w_030_option.mp3"
+        },
+        {
+            "word": "cash register",
+            "meaning": "レジ",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The line at the cash register was very long.",
+            "distractors": [
+                "入口",
+                "倉庫",
+                "案内所"
+            ],
+            "wordAudio": "audio/vocab/w_031_cash_register.mp3"
+        },
+        {
+            "word": "find out",
+            "meaning": "知る・わかる",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "I found out that my friend was moving to Osaka.",
+            "distractors": [
+                "見落とす",
+                "忘れる",
+                "隠す"
+            ],
+            "wordAudio": "audio/vocab/w_032_find_out.mp3"
+        },
+        {
+            "word": "access",
+            "meaning": "（情報などを）利用する・アクセスする",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "You can access the library's website from home.",
+            "distractors": [
+                "削除する",
+                "保存する",
+                "印刷する"
+            ],
+            "wordAudio": "audio/vocab/w_033_access.mp3"
+        },
+        {
+            "word": "suffer",
+            "meaning": "苦しむ・打撃を受ける",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Many farmers suffered because there was no rain all summer.",
+            "distractors": [
+                "回復する",
+                "利益を得る",
+                "満足する"
+            ],
+            "wordAudio": "audio/vocab/w_034_suffer.mp3"
+        },
+        {
+            "word": "survive",
+            "meaning": "生き残る",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Most plants cannot survive without water.",
+            "distractors": [
+                "成長する",
+                "輸出する",
+                "引退する"
+            ],
+            "wordAudio": "audio/vocab/w_035_survive.mp3"
+        },
+        {
+            "word": "convenient",
+            "meaning": "便利な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "This small bag is convenient for traveling.",
+            "distractors": [
+                "高価な",
+                "危険な",
+                "珍しい"
+            ],
+            "wordAudio": "audio/vocab/w_036_convenient.mp3"
+        },
+        {
+            "word": "quality",
+            "meaning": "質・品質",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "This shop sells shoes of high quality.",
+            "distractors": [
+                "量",
+                "値段",
+                "流行"
+            ],
+            "wordAudio": "audio/vocab/w_037_quality.mp3"
+        },
+        {
+            "word": "rare",
+            "meaning": "珍しい・まれな",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "It is rare to see snow in this city.",
+            "distractors": [
+                "ありふれた",
+                "高価な",
+                "新しい"
+            ],
+            "wordAudio": "audio/vocab/w_038_rare.mp3"
+        },
+        {
+            "word": "valuable",
+            "meaning": "価値のある・貴重な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "This old coin is very valuable.",
+            "distractors": [
+                "安価な",
+                "ありふれた",
+                "壊れやすい"
+            ],
+            "wordAudio": "audio/vocab/w_039_valuable.mp3"
+        },
+        {
+            "word": "expert",
+            "meaning": "専門家",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "We asked an expert about the health of our dog.",
+            "distractors": [
+                "初心者",
+                "読者",
+                "収集家"
+            ],
+            "wordAudio": "audio/vocab/w_040_expert.mp3"
+        }
+    ],
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "Henry likes to wear sweaters made of ( 1 ). They are not as warm as wool sweaters, but he thinks they are more comfortable.",
+                    "translation": "ヘンリーは（1）でできたセーターを着るのが好きです。ウールのセーターほど暖かくはありませんが、そのほうが着心地がよいと彼は思っています。",
+                    "choices": [
+                        "rumor",
+                        "nails",
+                        "politics",
+                        "cotton"
+                    ],
+                    "choiceTranslations": [
+                        "うわさ",
+                        "くぎ・つめ",
+                        "政治",
+                        "綿・木綿"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ rumorは『うわさ』。セーターの素材にならない",
+                        "❌ nailsは『くぎ・つめ』。セーターを作る素材ではない",
+                        "❌ politicsは『政治』。物の素材を表す語ではない",
+                        "✅ cottonは『綿・木綿』。2文目でウールのセーターと比べているので、セーターの素材が入るとわかる"
+                    ],
+                    "grammar": "💡 made of ～＝～でできた（材料を表す）。not as＋形容詞＋as ～＝～ほど…ではない。wool＝羊毛・ウール。"
+                },
+                {
+                    "number": 2,
+                    "text": "A : Aren't you coming to Lisa's softball game? You ( 2 ) her that you would.\nB : Please tell her I'm sorry. I want to, but I have to work today.",
+                    "translation": "A：リサのソフトボールの試合に来ないの？来るって彼女に（2）でしょう。\nB：ごめんねって伝えておいて。行きたいけど、今日は仕事をしなければならないんだ。",
+                    "choices": [
+                        "admitted",
+                        "returned",
+                        "promised",
+                        "searched"
+                    ],
+                    "choiceTranslations": [
+                        "認めた",
+                        "戻った・返した",
+                        "約束した",
+                        "探した"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ admittedは『（事実や過ちを）認めた』。試合に来ると相手に伝えた約束を表さない",
+                        "❌ returnedは『戻った・返した』。her that you wouldと続けても意味が通らない",
+                        "✅ promisedは『約束した』。来ると約束したのに来ないのかと尋ねる流れに合い、Bも謝っている",
+                        "❌ searchedは『探した』。人に何かを伝える意味がない"
+                    ],
+                    "grammar": "💡 promise 人 that ...＝人に～と約束する。that you wouldはthat you would comeの省略。Aren't you ～?＝～しないの？（否定疑問文）。"
+                },
+                {
+                    "number": 3,
+                    "text": "A : My co-worker asks me questions every five minutes. I can't get my work done.\nB : That must be ( 3 ). You should ask him to stop.",
+                    "translation": "A：同僚が5分ごとに私に質問してくるんだ。仕事が終わらないよ。\nB：それは（3）にちがいないね。やめてくれるよう頼んだほうがいいよ。",
+                    "choices": [
+                        "annoying",
+                        "social",
+                        "neat",
+                        "empty"
+                    ],
+                    "choiceTranslations": [
+                        "いらいらさせる・迷惑な",
+                        "社会の・社交的な",
+                        "きちんとした",
+                        "空の"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ annoyingは『いらいらさせる・迷惑な』。5分ごとに質問されて仕事が進まない状況への感想に合い、やめるよう頼むべきだという助言にもつながる",
+                        "❌ socialは『社会の・社交的な』。仕事のじゃまをされている状況の感想にならない",
+                        "❌ neatは『きちんとした』。困っている状況を表さない",
+                        "❌ emptyは『空の』。Thatが指す状況の説明にならない"
+                    ],
+                    "grammar": "💡 annoying＝（人を）いらいらさせる（annoyed＝いらいらした）。must be ～＝～にちがいない。get ～ done＝～を終わらせる。ask 人 to do＝人に～するよう頼む。"
+                },
+                {
+                    "number": 4,
+                    "text": "After Blair finished writing his letter, he put it in an envelope. Then, he carefully ( 4 ) the envelope and put a stamp on it.",
+                    "translation": "ブレアは手紙を書き終えると、それを封筒に入れました。それから、封筒を丁寧に（4）、切手をはりました。",
+                    "choices": [
+                        "sealed",
+                        "failed",
+                        "baked",
+                        "robbed"
+                    ],
+                    "choiceTranslations": [
+                        "封をした",
+                        "失敗した",
+                        "焼いた",
+                        "奪った"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ sealedは『封をした』。手紙を封筒に入れたあと、切手をはる前にする動作として合う",
+                        "❌ failedは『失敗した』。封筒を目的語にしても意味が通らない",
+                        "❌ bakedは『（オーブンで）焼いた』。手紙を出す手順に合わない",
+                        "❌ robbedは『（人や店などから）奪った・強盗をした』。封筒に対する動作として意味が通らない"
+                    ],
+                    "grammar": "💡 seal＝（封筒などに）封をする。finish doing＝～し終える（finish to doとは言わない）。put a stamp on ～＝～に切手をはる。"
+                },
+                {
+                    "number": 5,
+                    "text": "Naoki's dream is to become a professional athlete. He plays for his school's baseball team and practices ( 5 ) to improve his skills.",
+                    "translation": "ナオキの夢はプロのスポーツ選手になることです。学校の野球部でプレーしていて、技術を上達させるために（5）練習しています。",
+                    "choices": [
+                        "daily",
+                        "partly",
+                        "quietly",
+                        "softly"
+                    ],
+                    "choiceTranslations": [
+                        "毎日",
+                        "部分的に",
+                        "静かに",
+                        "そっと・やさしく"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ dailyは『毎日』。プロを目指して技術を上達させるために練習を続ける様子に合う",
+                        "❌ partlyは『部分的に・一部は』。練習の回数や様子を表さない",
+                        "❌ quietlyは『静かに』。プロを目指して上達しようとする努力を表す語として合わない",
+                        "❌ softlyは『そっと・やさしく』。音や動きの柔らかさを表し、練習への熱心さを表さない"
+                    ],
+                    "grammar": "💡 daily＝毎日（副詞）／毎日の（形容詞）。to improve ～＝～を上達させるために（目的を表す不定詞）。play for ～＝～（チーム）の一員としてプレーする。"
+                },
+                {
+                    "number": 6,
+                    "text": "Ms. Wood works at a hotel. She can speak a few languages, so she ( 6 ) people from other countries.",
+                    "translation": "ウッドさんはホテルで働いています。いくつかの言語を話せるので、外国から来た人々を（6）。",
+                    "choices": [
+                        "guesses",
+                        "assists",
+                        "examines",
+                        "conducts"
+                    ],
+                    "choiceTranslations": [
+                        "推測する",
+                        "手伝う・援助する",
+                        "調べる・診察する",
+                        "（調査などを）行う・指揮する"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ guessesは『推測する』。言語を話せることと、人を推測することが結びつかない",
+                        "✅ assistsは『手伝う・援助する』。いくつかの言語を話せるので、外国から来た人の手助けをするという因果関係に合う",
+                        "❌ examinesは『調べる・診察する』。ホテルの仕事で外国の人を調べる理由にならない",
+                        "❌ conductsは『（調査などを）行う・（演奏を）指揮する』。言語を話せることを理由とする仕事の内容として合わない"
+                    ],
+                    "grammar": "💡 assist＝手伝う・援助する（helpより改まった語）。a few＋複数名詞＝いくつかの～。so＝だから（結果を導く）。"
+                },
+                {
+                    "number": 7,
+                    "text": "Douglas bought some plant food to help the ( 7 ) of the vegetables in his garden. Soon after he gave it to them, they started to get bigger and bigger.",
+                    "translation": "ダグラスは庭の野菜の（7）を助けるために、植物用の肥料を買いました。それを与えるとすぐに、野菜はどんどん大きくなり始めました。",
+                    "choices": [
+                        "truth",
+                        "courage",
+                        "absence",
+                        "growth"
+                    ],
+                    "choiceTranslations": [
+                        "真実",
+                        "勇気",
+                        "不在・欠席",
+                        "成長"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ truthは『真実』。肥料で助けるものにならない",
+                        "❌ courageは『勇気』。人について使う語で、野菜には合わない",
+                        "❌ absenceは『不在・欠席』。肥料を与えて助けるものではない",
+                        "✅ growthは『成長』。2文目のget bigger and bigger（どんどん大きくなる）が根拠"
+                    ],
+                    "grammar": "💡 growth＝成長（動詞grow＋th）。help the growth of ～＝～の成長を助ける。比較級＋and＋比較級＝ますます～。plant food＝植物用の肥料。"
+                },
+                {
+                    "number": 8,
+                    "text": "Yuji likes his current job, but he isn't satisfied with his pay. He decided to ( 8 ) a new job.",
+                    "translation": "ユウジは今の仕事を気に入っていますが、給料には満足していません。彼は新しい仕事を（8）ことにしました。",
+                    "choices": [
+                        "explain",
+                        "seek",
+                        "represent",
+                        "retire"
+                    ],
+                    "choiceTranslations": [
+                        "説明する",
+                        "探し求める",
+                        "代表する・表す",
+                        "引退する・退職する"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ explainは『説明する』。新しい仕事を説明するのでは、給料への不満と結びつかない",
+                        "✅ seekは『探し求める』。給料に満足していないので、新しい仕事を探すことにしたという流れに合う",
+                        "❌ representは『代表する・表す』。a new jobを目的語にしても文意が通らない",
+                        "❌ retireは『引退する・退職する』。新しい仕事を求める流れと合わず、a new jobを続けても意味が通らない"
+                    ],
+                    "grammar": "💡 seek＝探し求める（look forとほぼ同じ意味。過去形はsought）。be satisfied with ～＝～に満足している。current＝現在の。pay＝給料。"
+                },
+                {
+                    "number": 9,
+                    "text": "Soccer player Leonard Regan was sent to ( 9 ) because he had not paid his taxes for several years.",
+                    "translation": "サッカー選手のレナード・リーガンは、数年間税金を払っていなかったために（9）に送られました。",
+                    "choices": [
+                        "liquid",
+                        "prison",
+                        "space",
+                        "mind"
+                    ],
+                    "choiceTranslations": [
+                        "液体",
+                        "刑務所",
+                        "宇宙・空間",
+                        "心・精神"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ liquidは『液体』。人が送られる場所にならない",
+                        "✅ prisonは『刑務所』。税金を払っていなかったという罪の結果として送られる場所に合う",
+                        "❌ spaceは『宇宙・空間』。税金を払わなかった結果として送られる場所ではない",
+                        "❌ mindは『心・精神』。人が送られる場所を表さない"
+                    ],
+                    "grammar": "💡 be sent to prison＝刑務所に送られる（この意味のprisonには冠詞をつけない）。had not paid＝払っていなかった（送られた時点までのことを表す過去完了）。tax＝税金。"
+                },
+                {
+                    "number": 10,
+                    "text": "Mr. and Mrs. Clark have been trying to find an ideal ( 10 ) to build their house. They want it in a small town, not a big city.",
+                    "translation": "クラーク夫妻は、家を建てるのに理想的な（10）をずっと探しています。大都市ではなく、小さな町に建てたいと思っています。",
+                    "choices": [
+                        "forecast",
+                        "location",
+                        "blanket",
+                        "habit"
+                    ],
+                    "choiceTranslations": [
+                        "予報",
+                        "場所・位置",
+                        "毛布",
+                        "習慣"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ forecastは『予報』。家を建てるために探すものではない",
+                        "✅ locationは『場所・位置』。2文目で大都市ではなく小さな町がいいと、場所の希望を述べているのが根拠",
+                        "❌ blanketは『毛布』。家を建てる話と結びつかない",
+                        "❌ habitは『習慣』。家を建てる場所の話に合わない"
+                    ],
+                    "grammar": "💡 location＝場所・位置。have been trying to do＝ずっと～しようとしている（現在完了進行形）。an ideal location to build＝建てるのに理想的な場所（to不定詞が名詞を説明）。A, not B＝BではなくA。"
+                },
+                {
+                    "number": 11,
+                    "text": "A : Vanessa, your house is so ( 11 ) the office. Why do you ride a bike instead of taking the train?\nB : Because it's good exercise.",
+                    "translation": "A：バネッサ、あなたの家は会社から（11）よね。どうして電車に乗らずに自転車に乗るの？\nB：いい運動になるからよ。",
+                    "choices": [
+                        "up to",
+                        "on board",
+                        "far from",
+                        "based on"
+                    ],
+                    "choiceTranslations": [
+                        "～まで・～次第",
+                        "（乗り物に）乗って",
+                        "～から遠い",
+                        "～に基づいて"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ up toは『～まで・～次第』。家と会社の位置関係を表さない",
+                        "❌ on boardは『（乗り物に）乗って』。家について使う表現ではない",
+                        "✅ far fromは『～から遠い』。家が会社から遠いのに、なぜ電車ではなく自転車なのかと尋ねる流れに合う",
+                        "❌ based onは『～に基づいて』。家と会社の距離を表さない"
+                    ],
+                    "grammar": "💡 far from ～＝～から遠い。instead of doing＝～する代わりに・～しないで。Why ～?の質問にBecause ...で理由を答えている。"
+                },
+                {
+                    "number": 12,
+                    "text": "Jake decided that, to improve his health, he would exercise regularly and eat a more balanced diet ( 12 ).",
+                    "translation": "ジェイクは、健康を改善するために、（12）定期的に運動し、よりバランスのとれた食事をとることに決めました。",
+                    "choices": [
+                        "from now on",
+                        "on the air",
+                        "by the way",
+                        "over the top"
+                    ],
+                    "choiceTranslations": [
+                        "これからは・今後は",
+                        "放送中で",
+                        "ところで",
+                        "やりすぎの・大げさな"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ from now onは『これからは・今後は』。健康のためにこれから習慣を変えると決心した内容に合う",
+                        "❌ on the airは『放送中で』。テレビやラジオについての表現で、文脈に合わない",
+                        "❌ by the wayは『ところで』。話題を変えるときの表現で、決心の内容に合わない",
+                        "❌ over the topは『やりすぎの・大げさな』。健康のための決心を表す文に合わない"
+                    ],
+                    "grammar": "💡 from now on＝これからは・今後は。decided that ... he would ～＝～しようと決めた（decidedに合わせてwillがwouldになっている）。balanced diet＝バランスのとれた食事。"
+                },
+                {
+                    "number": 13,
+                    "text": "John likes to keep his room clean. He ( 13 ) every morning as soon as he gets up.",
+                    "translation": "ジョンは部屋をきれいにしておくのが好きです。彼は毎朝、起きるとすぐに（13）。",
+                    "choices": [
+                        "keeps in touch",
+                        "has a fever",
+                        "makes his bed",
+                        "heads for home"
+                    ],
+                    "choiceTranslations": [
+                        "連絡を取り合う",
+                        "熱がある",
+                        "ベッドを整える",
+                        "家に向かう"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ keeps in touchは『連絡を取り合う』。部屋をきれいにしておく話と結びつかない",
+                        "❌ has a feverは『熱がある』。毎朝の習慣として述べる内容ではない",
+                        "✅ makes his bedは『ベッドを整える』。部屋をきれいにしておくのが好きなので、起きてすぐにする習慣として合う",
+                        "❌ heads for homeは『家に向かう』。起きたばかりで家にいるのに家へ向かうのは不自然"
+                    ],
+                    "grammar": "💡 make one's bed＝ベッドを整える。keep ～ clean＝～をきれいに保つ（keep＋O＋C）。as soon as ～＝～するとすぐに。"
+                },
+                {
+                    "number": 14,
+                    "text": "Last weekend, Oliver helped his grandmother ( 14 ) her new computer. Then, he taught her how to send emails.",
+                    "translation": "先週末、オリバーは祖母が新しいコンピューターを（14）のを手伝いました。それから、メールの送り方を教えました。",
+                    "choices": [
+                        "wish for",
+                        "work for",
+                        "set up",
+                        "fill up"
+                    ],
+                    "choiceTranslations": [
+                        "～を願う",
+                        "～のために働く・～に勤める",
+                        "～を設定する・使えるようにする",
+                        "～をいっぱいにする"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ wish forは『～を願う・欲しがる』。すでにある新しいコンピューターについて手伝う内容にならない",
+                        "❌ work forは『～のために働く・～に勤める』。コンピューターを目的語にすると意味が通らない",
+                        "✅ set upは『（機器を）設定する・使えるようにする』。新しいコンピューターの準備を手伝い、そのあとメールの送り方を教えた流れに合う",
+                        "❌ fill upは『～をいっぱいにする』。容器などに使い、コンピューターの準備を表さない"
+                    ],
+                    "grammar": "💡 set up ～＝（機器などを）設定する・使えるように準備する。help 人 do＝人が～するのを手伝う（toのない動詞の原形）。how to do＝～の仕方。"
+                },
+                {
+                    "number": 15,
+                    "text": "Manny is very ( 15 ) Japanese history. He often borrows books about Japan from the school library.",
+                    "translation": "マニーは日本の歴史にとても（15）。よく学校の図書館から日本についての本を借ります。",
+                    "choices": [
+                        "separate from",
+                        "broken off",
+                        "bored of",
+                        "curious about"
+                    ],
+                    "choiceTranslations": [
+                        "～から離れた・～とは別の",
+                        "折れて取れた",
+                        "～に飽きた",
+                        "～に興味がある"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ separate fromは『～から離れた・～とは別の』。人の興味や気持ちを表さない",
+                        "❌ broken offは『折れて取れた・（関係などが）断たれた』。人の気持ちを表す表現ではない",
+                        "❌ bored ofは『～に飽きた』。日本の本をよく借りるという2文目と内容が逆になる",
+                        "✅ curious aboutは『～に興味がある・～を知りたがる』。日本についての本をよく借りるという2文目が根拠"
+                    ],
+                    "grammar": "💡 be curious about ～＝～に興味がある・～を知りたがる。borrow A from B＝BからAを借りる。often＝よく・しばしば。"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の四つの会話文を完成させるために，(16)から(20)に入るものとして最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 16,
+                    "text": "A : I'm playing the violin in a concert on Saturday. Do you want to come?\nB : Wow, that's great! Where ( 16 )?\nA : I have some free ones to give to friends. Here you are.\nB : Thank you! I can't wait to watch your performance!",
+                    "translation": "A：土曜日のコンサートでバイオリンを弾くんだ。来たい？\nB：わあ、すごいね！どこで（16）？\nA：友達にあげる無料のものが何枚かあるんだ。はい、どうぞ。\nB：ありがとう！演奏を見るのが待ちきれないよ！",
+                    "choices": [
+                        "do you take lessons",
+                        "is the concert",
+                        "can I buy tickets",
+                        "shall we meet then"
+                    ],
+                    "choiceTranslations": [
+                        "レッスンを受けているの",
+                        "コンサートはあるの",
+                        "チケットを買えるの",
+                        "（そのとき）待ち合わせようか"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "どこでレッスンを受けているのかと尋ねても、Aが無料のもの（free ones）を渡す返事につながらない",
+                        "コンサートの場所を尋ねたのなら場所を答えるはずで、何かを渡す返事と合わない",
+                        "どこでチケットを買えるのか→正解。💡Aがfree ones（無料のもの）を友達にあげると言って渡しているので、onesがticketsを指し、チケットの入手先を尋ねたとわかる",
+                        "待ち合わせ場所を尋ねたのなら場所や時間を答えるはずで、何かを渡す返事にならない"
+                    ],
+                    "grammar": "💡 onesは前に出た名詞の繰り返しを避ける代名詞で、ここではticketsを指す。Here you are.＝はい、どうぞ（物を渡すとき）。can't wait to do＝～するのが待ちきれない。"
+                },
+                {
+                    "number": 17,
+                    "text": "A : Hello. I'd like to ( 17 ).\nB : I'm afraid the hotel is full this weekend, sir.\nA : That's too bad. I can't change the date of my trip.\nB : I'm very sorry. I hope you can stay with us another time.",
+                    "translation": "A：もしもし。（17）のですが。\nB：あいにく、今週末はホテルが満室でございます。\nA：それは残念です。旅行の日程は変えられないんです。\nB：大変申し訳ございません。またの機会にお泊まりいただければ幸いです。",
+                    "choices": [
+                        "go swimming in the pool",
+                        "cancel my reservation",
+                        "pay for my trip",
+                        "book a room for Saturday"
+                    ],
+                    "choiceTranslations": [
+                        "プールに泳ぎに行きたい",
+                        "予約を取り消したい",
+                        "旅行代金を支払いたい",
+                        "土曜日に部屋を予約したい"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "プールで泳ぎたいという用件なら、ホテルが満室だという返事につながらない",
+                        "予約を取り消したいのなら、満室であることは問題にならず、日程を変えられないという話にもならない",
+                        "旅行代金の支払いは、ホテルが満室だという返事と結びつかない",
+                        "土曜日に部屋を予約したい→正解。💡Bが今週末は満室だと答え、Aが旅行の日程を変えられないと残念がっているので、週末の部屋を予約しようとしたとわかる"
+                    ],
+                    "grammar": "💡 book＝予約する（動詞）。I'd like to do＝～したいのですが（丁寧な言い方）。I'm afraid ...＝あいにく～です。full＝満室の・いっぱいの。"
+                },
+                {
+                    "number": 18,
+                    "text": "A : It's Mom's birthday next Monday. Don't forget!\nB : Actually, I've been thinking about what to get for her, but I'm still not sure.\nA : Well, Dad and I are getting her some clothes, so you should probably get her something else. You know she likes to read.\nB : Thanks! I'll ( 18 ).",
+                    "translation": "A：来週の月曜日はお母さんの誕生日だよ。忘れないでね！\nB：実は、何をあげようかずっと考えているんだけど、まだ決まらないんだ。\nA：そうね、お父さんと私は服をあげるから、あなたは何かほかのものをあげたほうがいいと思う。お母さんが読書好きなのは知っているでしょう。\nB：ありがとう！（18）よ。",
+                    "choices": [
+                        "get her a new book",
+                        "give her a nice sweater",
+                        "find a hat that she likes",
+                        "buy Dad his favorite magazine"
+                    ],
+                    "choiceTranslations": [
+                        "お母さんに新しい本を買ってあげる",
+                        "お母さんにすてきなセーターをあげる",
+                        "お母さんが気に入る帽子を探す",
+                        "お父さんにお気に入りの雑誌を買う"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "お母さんに新しい本を買ってあげる→正解。💡Aが、お母さんは読書が好きだと教えてくれたので、本を選ぶのが自然",
+                        "セーターは服なので、Aと父親が服をあげるからほかのものを、という助言に合わない",
+                        "帽子は、Aが最後に伝えた『読書が好き』というヒントと結びつかない",
+                        "お母さんの誕生日プレゼントの話なので、お父さんに雑誌を買うのは目的に合わない"
+                    ],
+                    "grammar": "💡 get 人 物＝人に物を買ってあげる。I've been thinking＝ずっと考えている（現在完了進行形）。something else＝何かほかのもの。"
+                },
+                {
+                    "number": 19,
+                    "text": "A : Excuse me. I need to buy some ink for my printer.\nB : Certainly, sir. What ( 19 )?\nA : Black. I print out lots of documents, so it runs out quickly.\nB : I see. You can find that over here. I recommend this brand, but it's ( 20 ).\nA : Hmm. That's more than I want to pay. Do you have anything cheaper?\nB : Sure. This is the cheapest we have.\nA : OK. This looks fine. I'll take some.\nB : Great. Please follow me to the checkout.",
+                    "translation": "A：すみません。プリンターのインクを買いたいのですが。\nB：かしこまりました。（19）？\nA：黒です。書類をたくさん印刷するので、すぐになくなってしまうんです。\nB：なるほど。それならこちらにございます。このブランドがおすすめですが、（20）です。\nA：うーん。払いたい金額より高いですね。もっと安いものはありますか。\nB：はい。こちらが当店でいちばん安いものです。\nA：わかりました。これでよさそうです。いくつかいただきます。\nB：ありがとうございます。レジまでご案内します。",
+                    "choices": [
+                        "kind of computer do you have",
+                        "color of ink do you need",
+                        "brand of printer do you like",
+                        "do you play on your computer"
+                    ],
+                    "choiceTranslations": [
+                        "どんな種類のコンピューターをお持ちですか",
+                        "何色のインクが必要ですか",
+                        "どのブランドのプリンターがお好きですか",
+                        "コンピューターで何をして遊びますか"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "コンピューターの種類を尋ねても、Aの答えBlack（黒）と合わない",
+                        "何色のインクが必要か→正解。💡AがBlack.（黒です）と色で答えているのが根拠",
+                        "プリンターのブランドの好みを尋ねたのなら、Blackという答えにならない",
+                        "コンピューターで何をして遊ぶかは、インクを買いに来た客への質問として合わず、Blackとも答えない"
+                    ],
+                    "grammar": "💡 What color of ～ do you need?＝何色の～が必要ですか。print out＝印刷する。run out＝なくなる・切れる。"
+                },
+                {
+                    "number": 20,
+                    "text": "A : Excuse me. I need to buy some ink for my printer.\nB : Certainly, sir. What ( 19 )?\nA : Black. I print out lots of documents, so it runs out quickly.\nB : I see. You can find that over here. I recommend this brand, but it's ( 20 ).\nA : Hmm. That's more than I want to pay. Do you have anything cheaper?\nB : Sure. This is the cheapest we have.\nA : OK. This looks fine. I'll take some.\nB : Great. Please follow me to the checkout.",
+                    "translation": "A：すみません。プリンターのインクを買いたいのですが。\nB：かしこまりました。（19）？\nA：黒です。書類をたくさん印刷するので、すぐになくなってしまうんです。\nB：なるほど。それならこちらにございます。このブランドがおすすめですが、（20）です。\nA：うーん。払いたい金額より高いですね。もっと安いものはありますか。\nB：はい。こちらが当店でいちばん安いものです。\nA：わかりました。これでよさそうです。いくつかいただきます。\nB：ありがとうございます。レジまでご案内します。",
+                    "choices": [
+                        "not very easy to use",
+                        "not sold at most stores",
+                        "ink for printing photographs",
+                        "our most expensive ink"
+                    ],
+                    "choiceTranslations": [
+                        "あまり使いやすくない",
+                        "ほとんどの店では売られていない",
+                        "写真印刷用のインク",
+                        "当店でいちばん高価なインク"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "使いにくいという説明なら、Aが『払いたい金額より高い』と値段の話をする流れにならない",
+                        "ほとんどの店で売られていないという情報は、Aが値段を理由に安いものを求める返事につながらない",
+                        "写真印刷用だという説明は、書類を印刷するAに勧める理由にならず、値段の話にもつながらない",
+                        "当店でいちばん高価なインク→正解。💡AがThat's more than I want to pay.（払いたい金額より高い）と答え、もっと安いものを求めているのが根拠"
+                    ],
+                    "grammar": "💡 more than I want to pay＝払いたい額より多い→高すぎる。the most expensive（いちばん高価な）⇔ the cheapest（いちばん安い）。follow me＝ついてきてください。checkout＝レジ。"
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "passage-fill",
+            "instruction": "次の英文を読み，その文意にそって(21)と(22)の(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "passages": [
+                {
+                    "label": "",
+                    "title": "First Camping Trip",
+                    "paragraphs": [
+                        "Last summer, Tom was invited on a camping trip by his friend Sam. Tom lived in a big city and had never been camping before, so he was excited about going. Although he was excited, he was worried because he did not ( 21 ). However, Sam said that he had one that was big enough for both of them to sleep in. Sam's father was going to drive them to the campsite. Sam's father also had his own tent to sleep in.",
+                        "It took a long time to get to the campsite, which was by a beautiful lake. They made a fire outside their tents and cooked some food for their dinner. When they had finished eating, the sky was dark. Sam's father told Tom ( 22 ). Tom was surprised. There were so many, and they were so bright. He had never seen them so clearly before because the night sky in the city was not completely dark."
+                    ],
+                    "translations": [
+                        "昨年の夏、トムは友達のサムにキャンプ旅行に誘われました。トムは大都市に住んでいて、それまでキャンプをしたことがなかったので、行くのを楽しみにしていました。わくわくしていたものの、トムは（21）わけではなかったので、心配していました。しかしサムは、二人とも中で寝られるくらい大きなものを持っていると言いました。サムの父親が、二人をキャンプ場まで車で送ってくれることになっていました。サムの父親も、自分が寝るためのテントを持っていました。",
+                        "美しい湖のそばにあるキャンプ場に着くまでには、長い時間がかかりました。彼らはテントの外で火をおこし、夕食の料理を作りました。食べ終わったときには、空は暗くなっていました。サムの父親はトムに（22）ように言いました。トムは驚きました。数がとても多く、とても明るかったのです。都会の夜空は完全には暗くならないので、トムはそれまでこれほどはっきりと見たことがなかったのです。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Last summer, Tom was invited on a camping trip by his friend Sam.",
+                            "昨年の夏、トムは友達のサムにキャンプ旅行に誘われました。"
+                        ],
+                        [
+                            "Tom lived in a big city and had never been camping before, so he was excited about going.",
+                            "トムは大都市に住んでいて、それまでキャンプをしたことがなかったので、行くのを楽しみにしていました。"
+                        ],
+                        [
+                            "Although he was excited, he was worried because he did not ( 21 ).",
+                            "わくわくしていたものの、トムは（21）わけではなかったので、心配していました。"
+                        ],
+                        [
+                            "However, Sam said that he had one that was big enough for both of them to sleep in.",
+                            "しかしサムは、二人とも中で寝られるくらい大きなものを持っていると言いました。"
+                        ],
+                        [
+                            "Sam's father was going to drive them to the campsite.",
+                            "サムの父親が、二人をキャンプ場まで車で送ってくれることになっていました。"
+                        ],
+                        [
+                            "Sam's father also had his own tent to sleep in.",
+                            "サムの父親も、自分が寝るためのテントを持っていました。"
+                        ],
+                        [
+                            "It took a long time to get to the campsite, which was by a beautiful lake.",
+                            "美しい湖のそばにあるキャンプ場に着くまでには、長い時間がかかりました。"
+                        ],
+                        [
+                            "They made a fire outside their tents and cooked some food for their dinner.",
+                            "彼らはテントの外で火をおこし、夕食の料理を作りました。"
+                        ],
+                        [
+                            "When they had finished eating, the sky was dark.",
+                            "食べ終わったときには、空は暗くなっていました。"
+                        ],
+                        [
+                            "Sam's father told Tom ( 22 ).",
+                            "サムの父親はトムに（22）ように言いました。"
+                        ],
+                        [
+                            "Tom was surprised.",
+                            "トムは驚きました。"
+                        ],
+                        [
+                            "There were so many, and they were so bright.",
+                            "数がとても多く、とても明るかったのです。"
+                        ],
+                        [
+                            "He had never seen them so clearly before because the night sky in the city was not completely dark.",
+                            "都会の夜空は完全には暗くならないので、トムはそれまでこれほどはっきりと見たことがなかったのです。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 21,
+                            "choices": [
+                                "like camping trips",
+                                "plan the trip himself",
+                                "have his own tent",
+                                "know the way there"
+                            ],
+                            "choiceTranslations": [
+                                "キャンプ旅行が好きだ",
+                                "自分で旅行を計画する",
+                                "自分のテントを持っている",
+                                "そこへの行き方を知っている"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "トムは初めてのキャンプを楽しみにしていたので、キャンプ旅行が好きではないという内容は合わない。次の文のone（サムが持っているもの）にもつながらない",
+                                "自分で旅行を計画しないことは心配の理由にならず、次の文でサムが『大きなものを持っている』と答える流れにも合わない",
+                                "自分のテントを持っている→正解。💡次の文でサムが、二人とも中で寝られるくらい大きなもの（one）を持っていると言っているので、oneがtentを指し、トムはテントを持っていなかったとわかる",
+                                "行き方を知らないことが心配なら、Howeverのあとで『二人とも中で寝られるくらい大きなもの』を持っているという答えにならない"
+                            ],
+                            "grammar": "💡 oneは前に出た名詞と同じ種類のもの（ここではtent）を指す代名詞。big enough for A to do＝Aが～できるほど大きい。Although ～＝～だけれども。"
+                        },
+                        {
+                            "number": 22,
+                            "choices": [
+                                "to look up at the stars",
+                                "to eat more vegetables",
+                                "to get some warmer clothes",
+                                "to help him wash the dishes"
+                            ],
+                            "choiceTranslations": [
+                                "星を見上げる",
+                                "野菜をもっと食べる",
+                                "もっと暖かい服を取ってくる",
+                                "皿洗いを手伝う"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "星を見上げるように→正解。💡直後のThere were so many, and they were so bright.や、都会の夜空は完全には暗くならないという説明から、空のたくさんの星を見たとわかる",
+                                "野菜をもっと食べるように言われても、驚いて『数がとても多く、とても明るかった』と述べる流れにならない",
+                                "暖かい服を取ってくることは、『とても明るかった』『夜空』という後の説明と結びつかない",
+                                "皿洗いの手伝いは、後に続く夜空の話と関係がない"
+                            ],
+                            "grammar": "💡 tell 人 to do＝人に～するように言う。look up at ～＝～を見上げる。had never seen＝（その時まで）一度も見たことがなかった（過去完了）。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "大問4",
+            "nameEn": "Part 4",
+            "type": "reading-comprehension",
+            "instruction": "次の英文Ａ，Ｂの内容に関して，(23)から(29)までの質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Helpful employee",
+                    "format": "email",
+                    "meta": {
+                        "from": "Joyce Dixon <joyce_dixon@goodmail.com>",
+                        "to": "Customer Service <cusserv@tennmart.com>",
+                        "date": "October 5",
+                        "subject": "Helpful employee"
+                    },
+                    "paragraphs": [
+                        "Dear Customer Service, I'm writing to you about one of your employees at the downtown store. My grandmother has been going to your store for over twenty years. She always has nice things to say about your staff. The other day, she had left her glasses at home and was having trouble getting around the store and reading things. Your employee Mark Brown was a big help.",
+                        "Mark noticed she was having trouble and asked her if he could help. He helped her pick out her groceries. He even helped her find cheaper options. When she was finished, he took her cart to the cash register and helped her pay. When he found out that she was taking the bus by herself, he drove her home and carried the groceries into her apartment. He then made her promise to take her glasses with her next time.",
+                        "Our family has enjoyed shopping at your store for a long time. However, because of Mark's help, now we are even bigger fans of your store. I'm happy to know that there are people like Mark helping my grandmother. Please let him know that my family and I really want to say thank you for what he did for her. Best regards, Joyce Dixon"
+                    ],
+                    "translations": [
+                        "カスタマーサービスご担当者様。ダウンタウン店の従業員の方のことでご連絡いたします。私の祖母は20年以上、そちらのお店に通っています。祖母はいつも、店員の皆さんのことをほめています。先日、祖母は眼鏡を家に置き忘れてしまい、店内を移動したり、文字を読んだりするのに苦労していました。そちらの従業員のマーク・ブラウンさんが、大いに助けてくださいました。",
+                        "マークさんは祖母が困っていることに気づき、何か手伝えることはないかと声をかけてくれました。祖母が食料品を選ぶのを手伝い、さらに、もっと安い商品を見つけるのまで手伝ってくれました。祖母が買い物を終えると、カートをレジまで運び、支払いを手伝ってくれました。祖母が一人でバスに乗って帰るところだと知ると、車で家まで送り、食料品をアパートの部屋の中まで運んでくれました。そして、次からは眼鏡を持って出かけると祖母に約束させました。",
+                        "私たち家族は長い間、そちらのお店での買い物を楽しんできました。でも、マークさんが助けてくださったおかげで、今ではますますそちらのお店のファンになりました。マークさんのような方が祖母を助けてくださっていると知って、うれしく思います。祖母にしてくださったことに対して、家族と私が心から感謝していると、マークさんにお伝えください。よろしくお願いいたします。ジョイス・ディクソン"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "I'm writing to you about one of your employees at the downtown store.",
+                            "ダウンタウン店の従業員の方のことでご連絡いたします。"
+                        ],
+                        [
+                            "My grandmother has been going to your store for over twenty years.",
+                            "私の祖母は20年以上、そちらのお店に通っています。"
+                        ],
+                        [
+                            "She always has nice things to say about your staff.",
+                            "祖母はいつも、店員の皆さんのことをほめています。"
+                        ],
+                        [
+                            "The other day, she had left her glasses at home and was having trouble getting around the store and reading things.",
+                            "先日、祖母は眼鏡を家に置き忘れてしまい、店内を移動したり、文字を読んだりするのに苦労していました。"
+                        ],
+                        [
+                            "Your employee Mark Brown was a big help.",
+                            "そちらの従業員のマーク・ブラウンさんが、大いに助けてくださいました。"
+                        ],
+                        [
+                            "Mark noticed she was having trouble and asked her if he could help.",
+                            "マークさんは祖母が困っていることに気づき、何か手伝えることはないかと声をかけてくれました。"
+                        ],
+                        [
+                            "He helped her pick out her groceries.",
+                            "祖母が食料品を選ぶのを手伝ってくれました。"
+                        ],
+                        [
+                            "He even helped her find cheaper options.",
+                            "さらに、もっと安い商品を見つけるのまで手伝ってくれました。"
+                        ],
+                        [
+                            "When she was finished, he took her cart to the cash register and helped her pay.",
+                            "祖母が買い物を終えると、カートをレジまで運び、支払いを手伝ってくれました。"
+                        ],
+                        [
+                            "When he found out that she was taking the bus by herself, he drove her home and carried the groceries into her apartment.",
+                            "祖母が一人でバスに乗って帰るところだと知ると、車で家まで送り、食料品をアパートの部屋の中まで運んでくれました。"
+                        ],
+                        [
+                            "He then made her promise to take her glasses with her next time.",
+                            "そして、次からは眼鏡を持って出かけると祖母に約束させました。"
+                        ],
+                        [
+                            "Our family has enjoyed shopping at your store for a long time.",
+                            "私たち家族は長い間、そちらのお店での買い物を楽しんできました。"
+                        ],
+                        [
+                            "However, because of Mark's help, now we are even bigger fans of your store.",
+                            "でも、マークさんが助けてくださったおかげで、今ではますますそちらのお店のファンになりました。"
+                        ],
+                        [
+                            "I'm happy to know that there are people like Mark helping my grandmother.",
+                            "マークさんのような方が祖母を助けてくださっていると知って、うれしく思います。"
+                        ],
+                        [
+                            "Please let him know that my family and I really want to say thank you for what he did for her.",
+                            "祖母にしてくださったことに対して、家族と私が心から感謝していると、マークさんにお伝えください。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 23,
+                            "question": "Why is Joyce Dixon writing this e-mail?",
+                            "questionTranslation": "ジョイス・ディクソンはなぜこのメールを書いているのですか。",
+                            "choices": [
+                                "To ask if the store has her grandmother's glasses.",
+                                "To remind the store it has a long history.",
+                                "She wants to know the name of an employee.",
+                                "A staff member did something special."
+                            ],
+                            "choiceTranslations": [
+                                "店に祖母の眼鏡があるかどうか尋ねるため。",
+                                "店に長い歴史があることを思い出させるため。",
+                                "ある従業員の名前を知りたいから。",
+                                "ある店員が特別なことをしてくれたから。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "祖母は眼鏡を家に置き忘れた（had left her glasses at home）のであり、店に忘れたとは書かれていない",
+                                "祖母が20年以上通っていることや家族が長く買い物をしていることは書かれているが、店の歴史を伝えるためのメールではない",
+                                "従業員の名前はMark Brownとすでに書いており、名前を尋ねてはいない",
+                                "ある店員が特別なことをしてくれたから→正解。💡従業員のマークが祖母の買い物を手伝い、車で家まで送ってくれたことを伝え、本人に感謝を伝えてほしいと書いている"
+                            ],
+                            "grammar": "💡 Why ～?の答えは、To＋動詞（～するため）の形と、主語＋動詞（～だから）の形のどちらもある。メールの目的は、第1段落のI'm writing to you about ～とメール全体の内容から判断する。a staff member＝one of your employees。"
+                        },
+                        {
+                            "number": 24,
+                            "question": "Mark Brown helped Joyce's grandmother",
+                            "questionTranslation": "マーク・ブラウンがジョイスの祖母を手伝ったのは",
+                            "choices": [
+                                "shop for her friend's groceries.",
+                                "catch the bus to her home.",
+                                "find items with lower prices.",
+                                "buy some new glasses."
+                            ],
+                            "choiceTranslations": [
+                                "友人の食料品を買うこと。",
+                                "家に帰るバスに乗ること。",
+                                "より安い値段の品物を見つけること。",
+                                "新しい眼鏡を買うこと。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "マークが手伝ったのは祖母自身の食料品（her groceries）を選ぶことで、友人の食料品を買ったとは書かれていない",
+                                "祖母が一人でバスに乗ると知ったマークは、車で家まで送っている。バスに乗るのを手伝ったわけではない",
+                                "より安い値段の品物を見つけること→正解。💡He even helped her find cheaper options.の言い換え",
+                                "祖母は眼鏡を家に置き忘れていただけで、新しい眼鏡を買うのを手伝ったとは書かれていない"
+                            ],
+                            "grammar": "💡 cheaper options（より安い選択肢）→ items with lower prices（より低い値段の品物）の言い換え。help 人 do＝人が～するのを手伝う。"
+                        },
+                        {
+                            "number": 25,
+                            "question": "What does Joyce want the store to do for her and her family?",
+                            "questionTranslation": "ジョイスは店に、自分と家族のために何をしてほしいと思っていますか。",
+                            "choices": [
+                                "Give them some coupons.",
+                                "Thank Mark for them.",
+                                "Watch her grandmother for them.",
+                                "Introduce them to Mark."
+                            ],
+                            "choiceTranslations": [
+                                "家族にクーポンをくれる。",
+                                "家族に代わってマークにお礼を言う。",
+                                "家族に代わって祖母を見守る。",
+                                "家族をマークに紹介する。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "クーポンを求めるという記述はない",
+                                "家族に代わってマークにお礼を言う→正解。💡Please let him know that my family and I really want to say thank you ...の言い換え",
+                                "マークのような人が祖母を助けてくれてうれしいと述べているだけで、祖母を見守るよう店に頼んではいない",
+                                "マークを紹介してほしいとは書かれていない。頼んでいるのは、感謝の気持ちを本人に伝えること"
+                            ],
+                            "grammar": "💡 want 人 to do＝人に～してほしい。let 人 know＝人に知らせる。for them＝彼らに代わって。Please let him know that ... want to say thank you → Thank Mark for them.の言い換え。"
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "Magazines in the Digital Age",
+                    "paragraphs": [
+                        "The invention of the Internet caused many changes in society. Some changes were positive, such as being able to access news and information quickly. However, the Internet also brought some negative changes. The magazine publishing industry especially suffered from these changes. Many people stopped buying magazines when they realized they could read the same information online. Since 2012, the number of magazine companies in the United States has dropped by over 30 percent, and many magazines are no longer published at all.",
+                        "To survive, many magazine companies have stopped printing their magazines and publish online instead. Readers pay to access the magazine through their smartphones or computers. This is more convenient for readers because they no longer have to buy magazines from stores. It is also cheaper for the magazine company because there is no need for printing. Sales of online magazines are still high because people trust magazines more than blogs or social media.",
+                        "Another way for print magazines to survive is by improving quality. A good example is the UK music magazine NME. This magazine stopped being printed in 2018 because sales were too low. However, in 2023, a new version was published again with a higher price, better content, and more pages. The magazine was printed in small numbers and published only every two months. The new style of the magazine is popular with music fans because the magazine is considered special and rare. NME has become a valuable item for people who collect magazines.",
+                        "The content of a magazine also affects its popularity. Magazines about fashion or famous people did not survive because that information can be found easily on social media. Print magazines that are still successful are those that are written by experts and offer the readers something that cannot be found easily online. These are mainly magazines about business, news, and other global issues."
+                    ],
+                    "translations": [
+                        "インターネットの発明は、社会に多くの変化をもたらしました。ニュースや情報にすばやくアクセスできるようになったことなど、よい変化もありました。しかし、インターネットは悪い変化ももたらしました。特に雑誌出版業界は、こうした変化によって大きな打撃を受けました。多くの人が、同じ情報をインターネットで読めると気づいて、雑誌を買わなくなったのです。2012年以降、アメリカの雑誌会社の数は30パーセント以上減り、多くの雑誌がまったく発行されなくなりました。",
+                        "生き残るために、多くの雑誌会社は雑誌の印刷をやめ、代わりにオンラインで発行しています。読者は料金を払い、スマートフォンやコンピューターで雑誌を閲覧します。読者はもう店で雑誌を買う必要がないので、これは読者にとってより便利です。また、印刷の必要がないので、雑誌会社にとっても費用が安く済みます。人々はブログやソーシャルメディアよりも雑誌を信頼しているので、オンライン雑誌の売り上げは今でも高いのです。",
+                        "紙の雑誌が生き残るもう一つの方法は、質を高めることです。そのよい例が、イギリスの音楽雑誌『NME』です。この雑誌は売り上げが少なすぎたため、2018年に印刷されなくなりました。しかし2023年に、より高い価格で、よりよい内容と、より多くのページを備えた新しい版が再び発行されました。この雑誌は少部数だけ印刷され、2か月に1回しか発行されませんでした。特別で珍しいものと考えられているため、新しい形のこの雑誌は音楽ファンに人気があります。『NME』は、雑誌を収集する人々にとって価値のある品になっています。",
+                        "雑誌の内容も、その人気に影響します。ファッションや有名人についての雑誌は、そうした情報がソーシャルメディアで簡単に見つかるため、生き残れませんでした。今でも成功している紙の雑誌は、専門家によって書かれ、インターネットでは簡単に見つからないものを読者に提供している雑誌です。それらは主に、ビジネスやニュース、そのほかの世界的な問題を扱う雑誌です。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "The invention of the Internet caused many changes in society.",
+                            "インターネットの発明は、社会に多くの変化をもたらしました。"
+                        ],
+                        [
+                            "Some changes were positive, such as being able to access news and information quickly.",
+                            "ニュースや情報にすばやくアクセスできるようになったことなど、よい変化もありました。"
+                        ],
+                        [
+                            "However, the Internet also brought some negative changes.",
+                            "しかし、インターネットは悪い変化ももたらしました。"
+                        ],
+                        [
+                            "The magazine publishing industry especially suffered from these changes.",
+                            "特に雑誌出版業界は、こうした変化によって大きな打撃を受けました。"
+                        ],
+                        [
+                            "Many people stopped buying magazines when they realized they could read the same information online.",
+                            "多くの人が、同じ情報をインターネットで読めると気づいて、雑誌を買わなくなったのです。"
+                        ],
+                        [
+                            "Since 2012, the number of magazine companies in the United States has dropped by over 30 percent, and many magazines are no longer published at all.",
+                            "2012年以降、アメリカの雑誌会社の数は30パーセント以上減り、多くの雑誌がまったく発行されなくなりました。"
+                        ],
+                        [
+                            "To survive, many magazine companies have stopped printing their magazines and publish online instead.",
+                            "生き残るために、多くの雑誌会社は雑誌の印刷をやめ、代わりにオンラインで発行しています。"
+                        ],
+                        [
+                            "Readers pay to access the magazine through their smartphones or computers.",
+                            "読者は料金を払い、スマートフォンやコンピューターで雑誌を閲覧します。"
+                        ],
+                        [
+                            "This is more convenient for readers because they no longer have to buy magazines from stores.",
+                            "読者はもう店で雑誌を買う必要がないので、これは読者にとってより便利です。"
+                        ],
+                        [
+                            "It is also cheaper for the magazine company because there is no need for printing.",
+                            "また、印刷の必要がないので、雑誌会社にとっても費用が安く済みます。"
+                        ],
+                        [
+                            "Sales of online magazines are still high because people trust magazines more than blogs or social media.",
+                            "人々はブログやソーシャルメディアよりも雑誌を信頼しているので、オンライン雑誌の売り上げは今でも高いのです。"
+                        ],
+                        [
+                            "Another way for print magazines to survive is by improving quality.",
+                            "紙の雑誌が生き残るもう一つの方法は、質を高めることです。"
+                        ],
+                        [
+                            "A good example is the UK music magazine NME.",
+                            "そのよい例が、イギリスの音楽雑誌『NME』です。"
+                        ],
+                        [
+                            "This magazine stopped being printed in 2018 because sales were too low.",
+                            "この雑誌は売り上げが少なすぎたため、2018年に印刷されなくなりました。"
+                        ],
+                        [
+                            "However, in 2023, a new version was published again with a higher price, better content, and more pages.",
+                            "しかし2023年に、より高い価格で、よりよい内容と、より多くのページを備えた新しい版が再び発行されました。"
+                        ],
+                        [
+                            "The magazine was printed in small numbers and published only every two months.",
+                            "この雑誌は少部数だけ印刷され、2か月に1回しか発行されませんでした。"
+                        ],
+                        [
+                            "The new style of the magazine is popular with music fans because the magazine is considered special and rare.",
+                            "特別で珍しいものと考えられているため、新しい形のこの雑誌は音楽ファンに人気があります。"
+                        ],
+                        [
+                            "NME has become a valuable item for people who collect magazines.",
+                            "『NME』は、雑誌を収集する人々にとって価値のある品になっています。"
+                        ],
+                        [
+                            "The content of a magazine also affects its popularity.",
+                            "雑誌の内容も、その人気に影響します。"
+                        ],
+                        [
+                            "Magazines about fashion or famous people did not survive because that information can be found easily on social media.",
+                            "ファッションや有名人についての雑誌は、そうした情報がソーシャルメディアで簡単に見つかるため、生き残れませんでした。"
+                        ],
+                        [
+                            "Print magazines that are still successful are those that are written by experts and offer the readers something that cannot be found easily online.",
+                            "今でも成功している紙の雑誌は、専門家によって書かれ、インターネットでは簡単に見つからないものを読者に提供している雑誌です。"
+                        ],
+                        [
+                            "These are mainly magazines about business, news, and other global issues.",
+                            "それらは主に、ビジネスやニュース、そのほかの世界的な問題を扱う雑誌です。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 26,
+                            "question": "The arrival of the Internet caused",
+                            "questionTranslation": "インターネットの登場によって起きたのは",
+                            "choices": [
+                                "the number of magazine companies in the United States to decrease.",
+                                "a rise in the number of people interested in writing for magazines.",
+                                "people to read different kinds of magazines than before.",
+                                "positive changes to the magazine industry in the United States."
+                            ],
+                            "choiceTranslations": [
+                                "アメリカの雑誌会社の数が減ったこと。",
+                                "雑誌に記事を書くことに興味を持つ人の数が増えたこと。",
+                                "人々が以前とは違う種類の雑誌を読むようになったこと。",
+                                "アメリカの雑誌業界によい変化が起きたこと。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "アメリカの雑誌会社の数が減ったこと→正解。💡Since 2012, the number of magazine companies in the United States has dropped by over 30 percentの言い換え（has dropped→to decrease）",
+                                "雑誌に記事を書きたい人が増えたという記述はない",
+                                "第4段落は生き残った雑誌の種類を説明しているが、インターネットによって人々が以前と違う種類の雑誌を読むようになったとは書かれていない",
+                                "雑誌出版業界はこうした変化に苦しんだ（especially suffered from these changes）とあり、よい変化が起きたという内容は逆"
+                            ],
+                            "grammar": "💡 cause A to do＝Aに～させる・Aが～する原因となる。has dropped（減った）→ to decrease（減少する）の言い換え。arrival（登場）は本文のinvention（発明）に対応する。"
+                        },
+                        {
+                            "number": 27,
+                            "question": "What is one reason why people read magazines online?",
+                            "questionTranslation": "人々がオンラインで雑誌を読む理由の一つは何ですか。",
+                            "choices": [
+                                "They prefer to read magazines on a device for free.",
+                                "They want to help the magazine company's work.",
+                                "They think the online version provides more articles and information.",
+                                "They believe the information is more likely to be true than other sources."
+                            ],
+                            "choiceTranslations": [
+                                "端末で無料で雑誌を読むほうが好きだから。",
+                                "雑誌会社の仕事を助けたいから。",
+                                "オンライン版のほうが多くの記事や情報を提供していると思うから。",
+                                "ほかの情報源よりも、その情報のほうが正しい可能性が高いと信じているから。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "Readers pay to access the magazineとあり、オンライン雑誌も料金を払って読むので、無料ではない",
+                                "雑誌会社を助けたいという理由は書かれていない。印刷が不要で安く済むのは会社側の利点",
+                                "オンライン版のほうが記事や情報が多いとは書かれていない",
+                                "ほかの情報源よりも、その情報のほうが正しい可能性が高いと信じているから→正解。💡people trust magazines more than blogs or social mediaの言い換え"
+                            ],
+                            "grammar": "💡 trust A more than B（BよりAを信頼する）→ believe the information is more likely to be true than other sources（ほかの情報源より正しい可能性が高いと信じる）の言い換え。be likely to do＝～しそうだ。"
+                        },
+                        {
+                            "number": 28,
+                            "question": "One reason the new NME magazine has become popular is that",
+                            "questionTranslation": "新しい『NME』が人気になった理由の一つは",
+                            "choices": [
+                                "the company made it cheaper to buy.",
+                                "the new version is smaller and easier to read.",
+                                "there are only limited numbers available.",
+                                "it is published more often than before."
+                            ],
+                            "choiceTranslations": [
+                                "会社が安く買えるようにしたこと。",
+                                "新しい版がより小さく、読みやすいこと。",
+                                "限られた数しか手に入らないこと。",
+                                "以前より頻繁に発行されていること。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "新しい版はa higher price（より高い価格）で発行されたので、安くしたという内容は逆",
+                                "新しい版はmore pages（より多くのページ）になったとあり、小さく読みやすくなったとは書かれていない",
+                                "限られた数しか手に入らないこと→正解。💡printed in small numbers（少部数で印刷された）や、considered special and rare（特別で珍しいと考えられている）の言い換え",
+                                "published only every two months（2か月に1回だけ発行）とあり、以前より頻繁に発行されているとは書かれていない"
+                            ],
+                            "grammar": "💡 printed in small numbers（少部数で印刷された）＋rare（珍しい）→ only limited numbers available（限られた数しか手に入らない）の言い換え。One reason ～ is that ...＝～の理由の一つは…ということだ。"
+                        },
+                        {
+                            "number": 29,
+                            "question": "What kinds of magazines are still popular today?",
+                            "questionTranslation": "今でも人気があるのはどんな種類の雑誌ですか。",
+                            "choices": [
+                                "Magazines written by specialists about serious topics.",
+                                "Magazines discussing the entertainment world.",
+                                "Magazines containing similar information to websites.",
+                                "Magazines that make good use of social media."
+                            ],
+                            "choiceTranslations": [
+                                "専門家が書いた、まじめな話題についての雑誌。",
+                                "芸能界を取り上げる雑誌。",
+                                "ウェブサイトと似た情報を載せた雑誌。",
+                                "ソーシャルメディアをうまく活用している雑誌。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "専門家が書いた、まじめな話題についての雑誌→正解。💡written by experts → written by specialists、business, news, and other global issues → serious topicsの言い換え",
+                                "ファッションや有名人についての雑誌は生き残れなかったとあり、芸能界を取り上げる雑誌が今も人気だとは書かれていない",
+                                "今でも成功しているのはインターネットで簡単に見つからないものを提供する雑誌で、ウェブサイトと似た情報を載せた雑誌とは逆",
+                                "ソーシャルメディアを活用している雑誌という記述はない。ソーシャルメディアで情報が見つかる分野の雑誌は生き残れなかったと書かれている"
+                            ],
+                            "grammar": "💡 experts＝specialists（専門家）。business, news, and other global issues（ビジネス・ニュース・世界的な問題）をserious topics（まじめな話題）とまとめて言い換えている。still successful → still popularの言い換え。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "過去完了（経験）・enough to・関係代名詞which",
+                "subtitle": "Past Perfect, enough to & Non-restrictive which",
+                "explanation": "had never been ～ beforeは過去完了で、『（過去のその時まで）一度も～したことがなかった』という経験を表します。形容詞＋enough for 人＋to doは『人が～できるほど…』という意味で、for 人がto不定詞の意味上の主語です。the campsite, which ...のコンマの後のwhichは、直前のthe campsiteに説明を付け加える関係代名詞（非制限用法）で、『そしてそこは～』と前から順に読み進められます。",
+                "sourceQuote": "had never been camping before / big enough for both of them to sleep in / the campsite, which was by a beautiful lake / He had never seen them so clearly before",
+                "sourceLocation": "大問3「First Camping Trip」第1・2段落",
+                "examples": [
+                    {
+                        "en": "Tom lived in a big city and had never been camping before, so he was excited about going.",
+                        "ja": "トムは大都市に住んでいて、それまでキャンプをしたことがなかったので、行くのを楽しみにしていました。",
+                        "note": "had never been camping before＝（誘われた時点まで）一度もキャンプをしたことがなかった（過去完了の経験）。go camping→been campingの形になっている。"
+                    },
+                    {
+                        "en": "However, Sam said that he had one that was big enough for both of them to sleep in.",
+                        "ja": "しかしサムは、二人とも中で寝られるくらい大きなものを持っていると言いました。",
+                        "note": "形容詞＋enough for 人＋to do＝人が～できるほど…。oneはa tentの代わり。that was ...はoneを説明する関係代名詞節。"
+                    },
+                    {
+                        "en": "It took a long time to get to the campsite, which was by a beautiful lake.",
+                        "ja": "美しい湖のそばにあるキャンプ場に着くまでには、長い時間がかかりました。",
+                        "note": ", which ...は直前のthe campsiteに説明を付け加える（非制限用法）。It takes＋時間＋to do＝～するのに（時間）がかかる。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: First Camping Trip 第1・2段落]\nLast summer, Tom was invited on a camping trip by his friend Sam. Tom lived in a big city and had never been camping before, so he was excited about going. Although he was excited, he was worried because he did not have his own tent. However, Sam said that he had one that was big enough for both of them to sleep in. It took a long time to get to the campsite, which was by a beautiful lake. When they had finished eating, the sky was dark. Sam's father told Tom to look up at the stars. Tom was surprised. There were so many, and they were so bright. He had never seen them so clearly before because the night sky in the city was not completely dark.",
+                    "ja": "昨年の夏、トムは友達のサムにキャンプ旅行に誘われました。トムは大都市に住んでいて、それまでキャンプをしたことがなかったので、行くのを楽しみにしていました。わくわくしていたものの、トムは自分のテントを持っていなかったので、心配していました。しかしサムは、二人とも中で寝られるくらい大きなものを持っていると言いました。美しい湖のそばにあるキャンプ場に着くまでには、長い時間がかかりました。食べ終わったときには、空は暗くなっていました。サムの父親はトムに、星を見上げるように言いました。トムは驚きました。星の数がとても多く、とても明るかったのです。都会の夜空は完全には暗くならないので、トムはそれまでこれほどはっきりと星を見たことがなかったのです。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "had never been camping before",
+                    "big enough for both of them to sleep in",
+                    "which was by a beautiful lake",
+                    "had never seen them so clearly before"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "過去完了・enough",
+                "practiceQuestions": [
+                    {
+                        "q": "had never been camping beforeは、いつまでの経験を表していますか？",
+                        "a": "サムにキャンプに誘われた昨年の夏の時点までです。その時までに一度もキャンプをしたことがなかった、という過去完了です。"
+                    },
+                    {
+                        "q": "big enough for both of them to sleep inは、どのような意味ですか？",
+                        "a": "『二人とも中で寝られるほど大きい』という意味です。形容詞＋enough for 人＋to doで『人が～できるほど…』を表します。"
+                    },
+                    {
+                        "q": "the campsite, which was by a beautiful lakeのwhichは何を指しますか？",
+                        "a": "直前のthe campsiteです。コンマの後のwhichが、キャンプ場は美しい湖のそばにあったという説明を付け加えています。"
+                    },
+                    {
+                        "q": "He had never seen them so clearly beforeのthemは何を指しますか？",
+                        "a": "サムの父親に見上げるよう言われた星（the stars）です。都会の夜空は完全には暗くならないため、トムはそれまで星をこれほどはっきり見たことがなかったのです。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "help／make／let＋人＋動詞の原形",
+                "subtitle": "help, make & let + Person + Base Form",
+                "explanation": "help 人 do（人が～するのを手伝う）、make 人 do（人に～させる）、let 人 do（人に～させてあげる）は、『人』の後ろに動詞の原形が続きます（helpはhelp 人 to doの形も使えます）。このメールでは、マークがジョイスの祖母にしてくれたことが、helped her pick out ／ helped her find ／ helped her payのように並んでいます。原形の動詞の動作をするのは『人』の部分（her）だと押さえると、誰が何をしたのかを正確に読み取れます。",
+                "sourceQuote": "He helped her pick out her groceries / He even helped her find cheaper options / He then made her promise to take her glasses with her next time / Please let him know",
+                "sourceLocation": "大問4A メール第2・3段落",
+                "examples": [
+                    {
+                        "en": "He even helped her find cheaper options.",
+                        "ja": "さらに、もっと安い商品を見つけるのまで手伝ってくれました。",
+                        "note": "help 人 do＝人が～するのを手伝う。見つけるのは祖母（her）で、マークはそれを手伝った。evenは『～まで・～さえ』。"
+                    },
+                    {
+                        "en": "When she was finished, he took her cart to the cash register and helped her pay.",
+                        "ja": "祖母が買い物を終えると、カートをレジまで運び、支払いを手伝ってくれました。",
+                        "note": "helped her pay＝彼女が支払うのを手伝った（payは原形）。be finished＝（人が）～を終えている。"
+                    },
+                    {
+                        "en": "He then made her promise to take her glasses with her next time.",
+                        "ja": "そして、次からは眼鏡を持って出かけると祖母に約束させました。",
+                        "note": "make 人 do＝人に～させる。promise to do＝～すると約束する。take ～ with 人＝～を持って行く。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Helpful employee 第2・3段落]\nMark noticed she was having trouble and asked her if he could help. He helped her pick out her groceries. He even helped her find cheaper options. When she was finished, he took her cart to the cash register and helped her pay. When he found out that she was taking the bus by herself, he drove her home and carried the groceries into her apartment. He then made her promise to take her glasses with her next time. Please let him know that my family and I really want to say thank you for what he did for her.",
+                    "ja": "マークさんは祖母が困っていることに気づき、何か手伝えることはないかと声をかけてくれました。祖母が食料品を選ぶのを手伝ってくれました。さらに、もっと安い商品を見つけるのまで手伝ってくれました。祖母が買い物を終えると、カートをレジまで運び、支払いを手伝ってくれました。祖母が一人でバスに乗って帰るところだと知ると、車で家まで送り、食料品をアパートの部屋の中まで運んでくれました。そして、次からは眼鏡を持って出かけると祖母に約束させました。祖母にしてくださったことに対して、家族と私が心から感謝していると、マークさんにお伝えください。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "helped her pick out",
+                    "helped her find",
+                    "helped her pay",
+                    "made her promise to take her glasses",
+                    "let him know"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "使役・原形",
+                "practiceQuestions": [
+                    {
+                        "q": "He helped her pick out her groceries.で、食料品を選んだのは誰ですか？",
+                        "a": "祖母（her）です。help 人 doは『人が～するのを手伝う』なので、選んだのは祖母で、マークはそれを手伝いました。"
+                    },
+                    {
+                        "q": "helped her payのpayの前にtoがないのはなぜですか？",
+                        "a": "help 人 doの形では、人の後ろに動詞の原形を置けるからです。helped her to payとtoをつけて言うこともできます。"
+                    },
+                    {
+                        "q": "He then made her promise to take her glasses with her next time.は、どのような意味ですか？",
+                        "a": "『そしてマークは、次からは眼鏡を持って出かけると祖母に約束させた』という意味です。make 人 doは『人に～させる』です。"
+                    },
+                    {
+                        "q": "Please let him know that ...で、ジョイスは店に何を頼んでいますか？",
+                        "a": "家族とジョイスが心から感謝していることを、マークに伝えてほしいと頼んでいます。let 人 knowは『人に知らせる』です。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "現在完了（継続）・evenの強調・感情の原因を表す不定詞",
+                "subtitle": "Present Perfect, even + Comparative & Infinitive of Feeling",
+                "explanation": "has been going（現在完了進行形）やhas enjoyed（現在完了）は、この文章ではfor ～（～の間）と一緒に使われ、過去から今まで続いていることを表しています。even biggerのevenは比較級の前に置いて『さらに・いっそう』と差を強めます。I'm happy to know that ...のto不定詞は、うれしいと感じた原因（～を知って）を表します。お礼のメールでは、これらの表現で『長く利用してきたこと』と『今の気持ち』が伝えられています。",
+                "sourceQuote": "My grandmother has been going to your store for over twenty years / Our family has enjoyed shopping at your store for a long time / now we are even bigger fans of your store / I'm happy to know that there are people like Mark helping my grandmother",
+                "sourceLocation": "大問4A メール第1・3段落",
+                "examples": [
+                    {
+                        "en": "My grandmother has been going to your store for over twenty years.",
+                        "ja": "私の祖母は20年以上、そちらのお店に通っています。",
+                        "note": "has been going＝ずっと通い続けている（現在完了進行形）。for over twenty years＝20年以上の間。"
+                    },
+                    {
+                        "en": "However, because of Mark's help, now we are even bigger fans of your store.",
+                        "ja": "でも、マークさんが助けてくださったおかげで、今ではますますそちらのお店のファンになりました。",
+                        "note": "even＋比較級＝さらに～・いっそう～。because of＋名詞＝～のおかげで・～のために。"
+                    },
+                    {
+                        "en": "I'm happy to know that there are people like Mark helping my grandmother.",
+                        "ja": "マークさんのような方が祖母を助けてくださっていると知って、うれしく思います。",
+                        "note": "be happy to do＝～してうれしい（不定詞が感情の原因を表す）。helping my grandmotherはpeople like Markを後ろから説明する現在分詞。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Helpful employee 第1・3段落]\nI'm writing to you about one of your employees at the downtown store. My grandmother has been going to your store for over twenty years. She always has nice things to say about your staff. Our family has enjoyed shopping at your store for a long time. However, because of Mark's help, now we are even bigger fans of your store. I'm happy to know that there are people like Mark helping my grandmother.",
+                    "ja": "ダウンタウン店の従業員の方のことでご連絡いたします。私の祖母は20年以上、そちらのお店に通っています。祖母はいつも、店員の皆さんのことをほめています。私たち家族は長い間、そちらのお店での買い物を楽しんできました。でも、マークさんが助けてくださったおかげで、今ではますますそちらのお店のファンになりました。マークさんのような方が祖母を助けてくださっていると知って、うれしく思います。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "has been going to your store for over twenty years",
+                    "has enjoyed shopping at your store for a long time",
+                    "even bigger fans of your store",
+                    "I'm happy to know that"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "継続・強調",
+                "practiceQuestions": [
+                    {
+                        "q": "My grandmother has been going to your store for over twenty years.は、どのような意味ですか？",
+                        "a": "『祖母は20年以上、そちらのお店に通い続けています』という意味です。現在完了進行形で、過去から今まで続いていることを表しています。"
+                    },
+                    {
+                        "q": "Our family has enjoyed shopping at your store for a long time.から、ジョイスの家族についてどんなことがわかりますか？",
+                        "a": "長い間ずっと、その店での買い物を楽しんできたことがわかります。enjoy doingは『～するのを楽しむ』です。"
+                    },
+                    {
+                        "q": "even bigger fansのevenがあると、どのような意味になりますか？",
+                        "a": "『（もともとファンだったが）さらに大きなファンに』と、差が強調されます。前の文で長く買い物を楽しんできたと述べているので、もともとファンだったことがわかります。"
+                    },
+                    {
+                        "q": "I'm happy to know that ...のto knowは何を表していますか？",
+                        "a": "うれしいと感じた原因（～を知って）です。マークのような人が祖母を助けてくれていると知ってうれしい、という意味です。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "いろいろな形の受け身",
+                "subtitle": "Passive Voice in Different Forms",
+                "explanation": "受け身（be動詞＋過去分詞）は『～される』を表し、説明文でよく使われます。この文章では、are no longer published（もう発行されていない）、stopped being printed（印刷されなくなった：being＋過去分詞は動名詞の受け身）、was published again（再び発行された）、is considered ～（～だと考えられている）、can be found（見つけられる：助動詞＋be＋過去分詞）のように、さまざまな形で出てきます。be動詞や助動詞の部分で時制や意味を、過去分詞の部分で動作の内容をとらえましょう。",
+                "sourceQuote": "many magazines are no longer published at all / This magazine stopped being printed in 2018 / the magazine is considered special and rare / that information can be found easily on social media",
+                "sourceLocation": "大問4B「Magazines in the Digital Age」第1・3・4段落",
+                "examples": [
+                    {
+                        "en": "This magazine stopped being printed in 2018 because sales were too low.",
+                        "ja": "この雑誌は売り上げが少なすぎたため、2018年に印刷されなくなりました。",
+                        "note": "stop doing＝～するのをやめる。being printedは動名詞の受け身（印刷されること）。"
+                    },
+                    {
+                        "en": "The new style of the magazine is popular with music fans because the magazine is considered special and rare.",
+                        "ja": "特別で珍しいものと考えられているため、新しい形のこの雑誌は音楽ファンに人気があります。",
+                        "note": "be considered＋形容詞＝～だと考えられている。be popular with ～＝～に人気がある。"
+                    },
+                    {
+                        "en": "Magazines about fashion or famous people did not survive because that information can be found easily on social media.",
+                        "ja": "ファッションや有名人についての雑誌は、そうした情報がソーシャルメディアで簡単に見つかるため、生き残れませんでした。",
+                        "note": "can be found＝見つけられる（助動詞＋be＋過去分詞）。that informationはファッションや有名人についての情報を指す。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Magazines in the Digital Age 第1・3・4段落]\nSince 2012, the number of magazine companies in the United States has dropped by over 30 percent, and many magazines are no longer published at all. Another way for print magazines to survive is by improving quality. A good example is the UK music magazine NME. This magazine stopped being printed in 2018 because sales were too low. However, in 2023, a new version was published again with a higher price, better content, and more pages. The new style of the magazine is popular with music fans because the magazine is considered special and rare. Magazines about fashion or famous people did not survive because that information can be found easily on social media.",
+                    "ja": "2012年以降、アメリカの雑誌会社の数は30パーセント以上減り、多くの雑誌がまったく発行されなくなりました。紙の雑誌が生き残るもう一つの方法は、質を高めることです。そのよい例が、イギリスの音楽雑誌『NME』です。この雑誌は売り上げが少なすぎたため、2018年に印刷されなくなりました。しかし2023年に、より高い価格で、よりよい内容と、より多くのページを備えた新しい版が再び発行されました。特別で珍しいものと考えられているため、新しい形のこの雑誌は音楽ファンに人気があります。ファッションや有名人についての雑誌は、そうした情報がソーシャルメディアで簡単に見つかるため、生き残れませんでした。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "are no longer published at all",
+                    "stopped being printed in 2018",
+                    "was published again",
+                    "is considered special and rare",
+                    "can be found easily on social media"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "受け身",
+                "practiceQuestions": [
+                    {
+                        "q": "many magazines are no longer published at allは、どのような意味ですか？",
+                        "a": "『多くの雑誌がまったく発行されなくなった』という意味です。no longerは『もう～ない』、at allは否定を強めて『まったく』を表します。"
+                    },
+                    {
+                        "q": "stopped being printedと、第2段落のhave stopped printingは、どう違いますか？",
+                        "a": "have stopped printing their magazinesは『（会社が）雑誌を印刷するのをやめた』、stopped being printedは『（雑誌が）印刷されなくなった』という受け身の意味です。主語がThis magazineなので受け身になっています。"
+                    },
+                    {
+                        "q": "the magazine is considered special and rareのis consideredは、どのような意味ですか？",
+                        "a": "『～だと考えられている』という意味です。人々がこの雑誌を特別で珍しいものだと考えていることを、受け身で表しています。"
+                    },
+                    {
+                        "q": "that information can be found easily on social mediaのcan be foundは、どのような意味ですか？",
+                        "a": "『見つけることができる』という意味です。助動詞canの後にbe＋過去分詞が続いた受け身で、そうした情報がソーシャルメディアで簡単に見つかることを表しています。"
+                    }
+                ]
+            },
+            {
+                "id": "fp5",
+                "title": "今回の重要なパラフレーズ",
+                "subtitle": "Key Paraphrases in This Exam",
+                "explanation": "大問4の正解の選択肢は、本文と同じ内容を別の語句で言い換えていることがよくあります。たとえばQ24のfind items with lower prices.は、He even helped her find cheaper options.の言い換えで、cheaper options（より安い選択肢）がitems with lower prices（より低い値段の品物）に変わっています。反対に、本文に出てくる語句（glasses, bus, social mediaなど）を使っていても、内容が本文と違う選択肢は不正解です。根拠の文と意味が同じかどうかを確かめて選びましょう。",
+                "sourceQuote": "①Your employee Mark Brown was a big help → A staff member did something special.（従業員のマークが大いに助けてくれた→ある店員が特別なことをしてくれた）\n②He even helped her find cheaper options → find items with lower prices.（より安い選択肢を見つけるのを手伝った→より安い値段の品物を見つける）\n③my family and I really want to say thank you for what he did for her → Thank Mark for them.（家族と私が感謝を伝えたい→家族に代わってマークにお礼を言う）\n④the number of magazine companies in the United States has dropped by over 30 percent → the number of magazine companies in the United States to decrease.（30パーセント以上減った→減少する）\n⑤people trust magazines more than blogs or social media → They believe the information is more likely to be true than other sources.（ブログやソーシャルメディアより雑誌を信頼する→ほかの情報源より正しい可能性が高いと信じている）\n⑥The magazine was printed in small numbers → there are only limited numbers available.（少部数で印刷された→限られた数しか手に入らない）\n⑦written by experts → Magazines written by specialists about serious topics.（専門家によって書かれた→専門家が書いた、まじめな話題についての雑誌）",
+                "sourceLocation": "大問4A・4B（Q23〜Q29）",
+                "examples": [
+                    {
+                        "en": "Since 2012, the number of magazine companies in the United States has dropped by over 30 percent, and many magazines are no longer published at all.",
+                        "ja": "2012年以降、アメリカの雑誌会社の数は30パーセント以上減り、多くの雑誌がまったく発行されなくなりました。",
+                        "note": "Q26：has dropped（減った）→ to decrease（減少する）。The arrival of the Internet caused ～ to decrease.のcause A to doの形に合わせて言い換えられている。"
+                    },
+                    {
+                        "en": "Sales of online magazines are still high because people trust magazines more than blogs or social media.",
+                        "ja": "人々はブログやソーシャルメディアよりも雑誌を信頼しているので、オンライン雑誌の売り上げは今でも高いのです。",
+                        "note": "Q27：trust magazines more than blogs or social media → believe the information is more likely to be true than other sources。blogs or social media → other sources。"
+                    },
+                    {
+                        "en": "Print magazines that are still successful are those that are written by experts and offer the readers something that cannot be found easily online.",
+                        "ja": "今でも成功している紙の雑誌は、専門家によって書かれ、インターネットでは簡単に見つからないものを読者に提供している雑誌です。",
+                        "note": "Q29：written by experts → written by specialists。still successful → still popular。thoseはmagazinesの代わり。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Magazines in the Digital Age 第2〜4段落]\nTo survive, many magazine companies have stopped printing their magazines and publish online instead. Readers pay to access the magazine through their smartphones or computers. This is more convenient for readers because they no longer have to buy magazines from stores. It is also cheaper for the magazine company because there is no need for printing. Sales of online magazines are still high because people trust magazines more than blogs or social media. The magazine was printed in small numbers and published only every two months. The new style of the magazine is popular with music fans because the magazine is considered special and rare. NME has become a valuable item for people who collect magazines. Print magazines that are still successful are those that are written by experts and offer the readers something that cannot be found easily online. These are mainly magazines about business, news, and other global issues.",
+                    "ja": "生き残るために、多くの雑誌会社は雑誌の印刷をやめ、代わりにオンラインで発行しています。読者は料金を払い、スマートフォンやコンピューターで雑誌を閲覧します。読者はもう店で雑誌を買う必要がないので、これは読者にとってより便利です。また、印刷の必要がないので、雑誌会社にとっても費用が安く済みます。人々はブログやソーシャルメディアよりも雑誌を信頼しているので、オンライン雑誌の売り上げは今でも高いのです。（新しい『NME』は）少部数だけ印刷され、2か月に1回しか発行されませんでした。特別で珍しいものと考えられているため、新しい形のこの雑誌は音楽ファンに人気があります。『NME』は、雑誌を収集する人々にとって価値のある品になっています。今でも成功している紙の雑誌は、専門家によって書かれ、インターネットでは簡単に見つからないものを読者に提供している雑誌です。それらは主に、ビジネスやニュース、そのほかの世界的な問題を扱う雑誌です。",
+                    "audioFile": "audio/practice_pp5.mp3"
+                },
+                "highlightPatterns": [
+                    "Mark Brown was a big help",
+                    "cheaper options",
+                    "really want to say thank you",
+                    "has dropped by over 30 percent",
+                    "people trust magazines more than blogs or social media",
+                    "printed in small numbers",
+                    "written by experts"
+                ],
+                "highlightColor": "#f59e0b",
+                "highlightLabel": "パラフレーズ",
+                "practiceQuestions": [
+                    {
+                        "q": "Q27の正解They believe the information is more likely to be true than other sources.は、第2段落のどの表現の言い換えですか？",
+                        "a": "people trust magazines more than blogs or social mediaです。ブログやソーシャルメディアより雑誌を信頼している、という内容が、ほかの情報源より正しい可能性が高いと信じている、に言い換えられています。"
+                    },
+                    {
+                        "q": "Q27の『They prefer to read magazines on a device for free.』は正しいですか？",
+                        "a": "誤りです。Readers pay to access the magazineとあり、オンライン雑誌も料金を払って読みます。"
+                    },
+                    {
+                        "q": "Q28の正解there are only limited numbers available.は、第3段落のどの表現の言い換えですか？",
+                        "a": "The magazine was printed in small numbers（少部数だけ印刷された）です。the magazine is considered special and rare（特別で珍しいと考えられている）も根拠になります。"
+                    },
+                    {
+                        "q": "Q29の『Magazines discussing the entertainment world.』は正しいですか？",
+                        "a": "誤りです。ファッションや有名人についての雑誌は、その情報がソーシャルメディアで簡単に見つかるため生き残れなかったと書かれています。"
+                    }
+                ]
+            }
+        ]
+    }
+}

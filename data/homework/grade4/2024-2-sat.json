@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2024-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の形・時を表すことば",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の形・時を表すことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "語句のセットや、比べるときの形を書ける",
+        "返事の文をヒントに、会話に合う言い方を選べる",
+        "動詞の形・理由のつなぎ方・時の表し方がわかる"
+    ],
+    "words": [
+        {
+            "word": "dentist",
+            "meaning": "歯医者"
+        },
+        {
+            "word": "famous",
+            "meaning": "有名な"
+        },
+        {
+            "word": "heavy",
+            "meaning": "重い"
+        },
+        {
+            "word": "hungry",
+            "meaning": "おなかがすいた"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "favorite",
+            "meaning": "いちばん好きな"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Richard usually gets home at 5:00 p.m.",
+            "ja": "リチャードは、ふだん午後5時に家に着きます。",
+            "focus": "fp1",
+            "point": "get home「家に着く」",
+            "note": "get home で「家に着く」。この home は「家へ」という意味なので to をつけない。主語が Richard で、ふだんのことなので gets。"
+        },
+        {
+            "en": "What would you like for breakfast?",
+            "ja": "朝ごはんに何が食べたいですか。",
+            "focus": "fp2",
+            "point": "What would you like ～?「何がほしいか」",
+            "note": "would like は want のていねいな言い方。for breakfast で「朝ごはんに」。I'm not hungry. という返事につながる。"
+        },
+        {
+            "en": "Jay will start art classes next Thursday.",
+            "ja": "ジェイは次の木曜日から、美術教室に通い始めます。",
+            "focus": "fp4",
+            "point": "next＋曜日「次の～曜日」",
+            "note": "will と next Thursday から、これから先の予定だとわかる。物語では、いつ何をしたかを曜日とセットで読もう。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: How many (　) did you watch the movie?\nB: Three. I really like it.",
+            "choices": [
+                "much",
+                "times",
+                "often",
+                "long"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：その映画を何回見ましたか。\nB：3回です。とても気に入っています。",
+            "explanation": "How many times ～? で「何回～か」と回数をたずねる。times は「～回」という意味で、B は Three.（3回）と答えている。",
+            "choiceNotes": [
+                "much「たくさん（量）」",
+                "times「～回」",
+                "often「よく・たびたび」",
+                "long「長い」"
+            ],
+            "tip": "授業の How many times do you go to the library every month? と同じ形だよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My sister can swim (　) than I can.",
+            "choices": [
+                "good",
+                "well",
+                "best",
+                "better"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "姉は、わたしよりも上手に泳ぐことができます。",
+            "explanation": "than（～よりも）があるので、比べる形（比較級）を使う。「上手に」の well は、比較級が better になる。",
+            "choiceNotes": [
+                "good「よい」",
+                "well「上手に」",
+                "best「いちばんよく」",
+                "better「より上手に」"
+            ],
+            "tip": "授業の Jane is a better tennis player than Kevin. と同じ better だよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: (　) I use your eraser, Ken?\nB: Sure. Here you are.",
+            "choices": [
+                "May",
+                "Am",
+                "Is",
+                "Does"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたの消しゴムを使ってもいいですか、ケン。\nB：いいですよ。はい、どうぞ。",
+            "explanation": "May I ～? で「～してもいいですか」とていねいにたずねる。B の Sure.（いいですよ）という返事とも合う。",
+            "choiceNotes": [
+                "May「～してもよい」",
+                "Am「be動詞（I のとき）」",
+                "Is「be動詞（it など）」",
+                "Does「主語が he・she など」"
+            ],
+            "tip": "授業の May I talk to you? と同じ形。May I のあとは動詞の原形だよ。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: I'm going to the park with my friends.\nB: OK, (　) come home before six.",
+            "choices": [
+                "because",
+                "if",
+                "but",
+                "when"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：友だちと公園に行ってくるね。\nB：いいわよ。でも、6時前には帰ってきてね。",
+            "explanation": "OK（いいよ）と言ったあと、but（でも）で注意を加えている。because・if・when を入れると、come home の主語がなく、文にならない。",
+            "choiceNotes": [
+                "because「～なので」",
+                "if「もし～なら」",
+                "but「でも・しかし」",
+                "when「～するとき」"
+            ],
+            "tip": "授業の Sure, Tom, but be careful. と同じ形。いいよと言ったあと、but で注意を加えるよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: It's very hot today.\nB: Yes. You should (　) some water.",
+            "choices": [
+                "drink",
+                "drinks",
+                "drank",
+                "drinking"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：今日はとても暑いですね。\nB：ええ。水を飲んだほうがいいですよ。",
+            "explanation": "should＋動詞の原形で「～したほうがよい」。should のあとは原形の drink を使う。",
+            "choiceNotes": [
+                "drink「原形」",
+                "drinks「3単現」",
+                "drank「過去形」",
+                "drinking「ing形」"
+            ],
+            "tip": "授業の You should take a bath early tonight. と同じ形。should のあとは原形だよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "I can't go out (　) I have a lot of homework.",
+            "choices": [
+                "so",
+                "because",
+                "but",
+                "or"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "宿題がたくさんあるので、わたしは出かけられません。",
+            "explanation": "because のあとに理由が来る。「宿題がたくさんある」が、「出かけられない」の理由になっている。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "because「～なので（後ろが理由）」",
+                "but「しかし」",
+                "or「または」"
+            ],
+            "tip": "授業の Dale couldn't play tennis … because it was snowing. と同じ形だよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "It (　) about ten minutes to walk to the station.",
+            "choices": [
+                "has",
+                "makes",
+                "goes",
+                "takes"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "駅まで歩いて、10分ぐらいかかります。",
+            "explanation": "この take は「（時間が）かかる」。It takes＋時間＋to ～で「～するのに（時間が）かかる」。主語が It なので takes。",
+            "choiceNotes": [
+                "has「持っている」",
+                "makes「作る」",
+                "goes「行く」",
+                "takes「（時間が）かかる」"
+            ],
+            "tip": "授業のメールの The train ride to school takes 30 minutes. と同じ takes だよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "I went to the zoo with my family (　) Sunday.",
+            "choices": [
+                "next",
+                "tomorrow",
+                "last",
+                "ago"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "わたしはこの前の日曜日、家族と動物園に行きました。",
+            "explanation": "went は過去形なので、過去のことを表す last を使う。last Sunday で「この前の日曜日」。next Sunday なら「次の日曜日」で、これから先のこと。",
+            "choiceNotes": [
+                "next「次の」",
+                "tomorrow「明日」",
+                "last「この前の」",
+                "ago「～前に」"
+            ],
+            "tip": "授業の物語の Last Friday, Jay's class went to an art museum. と同じ形だよ。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。get home や How many times のように、セットで使う言い方は、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}
