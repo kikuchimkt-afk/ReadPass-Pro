@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2024-2-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・最上級・たのむ言い方・義務・受け身",
+    "aim": "授業で学んだ熟語のセット、最上級の文、人にたのむ言い方、義務や受け身を表す文などを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "授業で学んだ熟語のセットを正しく書ける",
+        "最上級の文と、目的語のあとに形容詞が続く文がわかる",
+        "人にたのむ言い方、義務や受け身の文、前置詞のあとの動詞の形がわかる"
+    ],
+    "words": [
+        {
+            "word": "oversleep",
+            "meaning": "寝坊する"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "abroad",
+            "meaning": "外国へ"
+        },
+        {
+            "word": "museum",
+            "meaning": "博物館"
+        },
+        {
+            "word": "island",
+            "meaning": "島"
+        },
+        {
+            "word": "clever",
+            "meaning": "かしこい"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I'm just talking on the phone with my brother.",
+            "ja": "兄と電話で話しているだけです。",
+            "focus": "fp1",
+            "point": "on the phone「電話で」",
+            "note": "talk on the phone で「電話で話す」。on the phone をひとまとまりで覚える。just は「ただ～しているだけ」。"
+        },
+        {
+            "en": "Do you know who is singing it?",
+            "ja": "だれがそれを歌っているか、知っていますか。",
+            "focus": "fp2",
+            "point": "Do you know who ～?「だれが～か知っていますか」",
+            "note": "who is singing it で「だれがそれを歌っているか」。who が主語なので、すぐあとに is singing が続く。"
+        },
+        {
+            "en": "I didn't know he liked trains.",
+            "ja": "彼が電車を好きだとは知りませんでした。",
+            "focus": "fp3",
+            "point": "didn't know ～「～とは知らなかった」",
+            "note": "didn't のあとは原形の know。過去の文なので、あとに続く文も liked と過去形にそろえるのが基本。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "It snowed all night (　), so the streets were white in the morning.",
+            "choices": [
+                "late",
+                "ago",
+                "long",
+                "far"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "一晩中雪が降ったので、朝には通りが真っ白でした。",
+            "explanation": "all night long で「一晩中」。夜のあいだずっと続いたことを表す、決まった言い方。",
+            "choiceNotes": [
+                "late「おそく」",
+                "ago「（今から）～前に」",
+                "long「all night long のセット」",
+                "far「遠くに」"
+            ],
+            "tip": "授業の We danced all night long. と同じ形。all night long をひとまとまりで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My sister went to Kyoto by (　) last summer.",
+            "choices": [
+                "herself",
+                "she",
+                "hers",
+                "myself"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "姉は去年の夏、一人で京都へ行きました。",
+            "explanation": "by ～self で「一人で」。主語が my sister（女性一人）なので、herself を使う。",
+            "choiceNotes": [
+                "herself「彼女自身」",
+                "she「彼女は」",
+                "hers「彼女のもの」",
+                "myself「私自身」"
+            ],
+            "tip": "授業の I'll live by myself ... と同じ形。主語が my sister なので herself にする。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Lake Biwa is the (　) lake in Japan.",
+            "choices": [
+                "larger",
+                "large",
+                "most large",
+                "largest"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "琵琶湖は日本でいちばん大きな湖です。",
+            "explanation": "「日本でいちばん～」のように、3つ以上の中で比べるときは the＋最上級を使うのが基本。large の最上級は largest。",
+            "choiceNotes": [
+                "larger「比較級」",
+                "large「もとの形」",
+                "most large「large には使わない」",
+                "largest「最上級」"
+            ],
+            "tip": "授業の Her father is the best singer ... と同じ最上級。in Japan など範囲を表す語に注目しよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "The good news (　) everyone in my class happy.",
+            "choices": [
+                "gave",
+                "made",
+                "took",
+                "told"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "そのよい知らせで、クラスのみんながうれしくなりました。",
+            "explanation": "make＋人＋様子を表す語で「人を～にする」。made のあとに everyone in my class（人）と happy（様子）が続いている。",
+            "choiceNotes": [
+                "gave「あたえた」",
+                "made「～を…にした」",
+                "took「取った」",
+                "told「話した・伝えた」"
+            ],
+            "tip": "授業の It made him happy. と同じ形。「～を…にする」の made は「人＋様子」の順番。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: My hands are full. (　) you open the door for me?\nB: Sure.",
+            "choices": [
+                "Are",
+                "Have",
+                "Does",
+                "Can"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：両手がふさがっています。ドアを開けてくれますか。\nB：いいですよ。",
+            "explanation": "ここでは Can you ～? で「～してくれますか」とたのんでいる。you のあとに動詞の原形 open が続く。",
+            "choiceNotes": [
+                "Are「be動詞の疑問文」",
+                "Have「現在完了の疑問文」",
+                "Does「主語が3人称単数の疑問文」",
+                "Can「～してくれますか」"
+            ],
+            "tip": "授業のメールの Can you buy two tickets for us? と同じ形。たのむときの決まった言い方。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "Ken (　) to finish his homework before dinner.",
+            "choices": [
+                "have",
+                "must",
+                "has",
+                "should"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "ケンは夕食の前に宿題を終わらせなければなりません。",
+            "explanation": "have to ～で「～しなければならない」。主語の Ken は3人称単数なので has to にする。must と should のあとに to は付けない。",
+            "choiceNotes": [
+                "have「主語が I・you・複数のとき」",
+                "must「すぐあとに原形」",
+                "has「has to のセット」",
+                "should「すぐあとに原形」"
+            ],
+            "tip": "授業の My mom says we have to be home by 5:30. と同じ形。主語が Ken なら has to。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "In the past, horses were (　) to carry heavy things.",
+            "choices": [
+                "used",
+                "using",
+                "use",
+                "uses"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "昔、馬は重い物を運ぶために使われていました。",
+            "explanation": "be used to＋動詞の原形で「～するために使われる」。were のあとに過去分詞の used を置いて、受け身の文にする。",
+            "choiceNotes": [
+                "used「過去分詞（受け身）」",
+                "using「ing形」",
+                "use「原形」",
+                "uses「3単現」"
+            ],
+            "tip": "授業の Manx cats were used to catch the rats and mice. と同じ「～するために使われた」。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "Tom is very good at (　) pictures.",
+            "choices": [
+                "draw",
+                "drawing",
+                "drew",
+                "to draw"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "トムは絵をかくのがとても得意です。",
+            "explanation": "be good at ～で「～が得意だ」。at のような前置詞のあとに動詞を続けるときは、ing の形にするのが基本。",
+            "choiceNotes": [
+                "draw「原形」",
+                "drawing「ing形」",
+                "drew「過去形」",
+                "to draw「to＋原形」"
+            ],
+            "tip": "授業で読んだ good at jumping と同じ形。at のあとの動詞は ing 形にしよう。"
+        }
+    ],
+    "closing": "授業で読んだマンクス猫は、かしこくて、しつけやすい猫でした。英語も、毎日練習を続ければ、少しずつ身についていきます。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。まちがえた問題は、授業の英文と見比べて確かめてください。"
+}

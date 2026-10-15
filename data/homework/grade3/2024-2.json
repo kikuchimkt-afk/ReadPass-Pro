@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2024-2",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "経験の文・比べる文・熟語・受け身・不定詞",
+    "aim": "授業で学んだ、経験をたずねる文・比べる文・熟語・受け身の文・不定詞などを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "経験をたずねる文と、二つを比べる文を書ける",
+        "決まった組み合わせで使う熟語がわかる",
+        "受け身の文と、不定詞を使った文を書ける"
+    ],
+    "words": [
+        {
+            "word": "introduce",
+            "meaning": "紹介する"
+        },
+        {
+            "word": "century",
+            "meaning": "世紀"
+        },
+        {
+            "word": "tradition",
+            "meaning": "伝統"
+        },
+        {
+            "word": "arrive",
+            "meaning": "到着する"
+        },
+        {
+            "word": "dangerous",
+            "meaning": "危険な"
+        },
+        {
+            "word": "accident",
+            "meaning": "事故"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "She can run faster than anyone in her class.",
+            "ja": "彼女はクラスのだれよりも速く走ることができます。",
+            "focus": "fp1",
+            "point": "比較級＋than anyone「だれよりも～」",
+            "note": "faster は fast の比較級。than anyone in her class で「クラスのだれよりも」。クラスでいちばん速いということ。"
+        },
+        {
+            "en": "Please clean up your room when you come home.",
+            "ja": "家に帰ったら、自分の部屋を片付けてね。",
+            "focus": "fp2",
+            "point": "clean up「片付ける」",
+            "note": "clean up は「片付ける・きれいにする」。clean up をひとまとまりで覚える。when you come home は「家に帰ったら」。"
+        },
+        {
+            "en": "It was built in the 1810s.",
+            "ja": "それ（その船）は1810年代に造られました。",
+            "focus": "fp3",
+            "point": "受け身 was built「造られた」",
+            "note": "was＋過去分詞で「～された」という受け身の文になる。built は build の過去分詞。1810s は「1810年代」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Have you ever (　) natto?\nB: No, I haven't. Is it good?",
+            "choices": [
+                "eat",
+                "ate",
+                "eaten",
+                "eating"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：納豆を食べたことがありますか。\nB：いいえ、ありません。おいしいですか。",
+            "explanation": "Have you ever＋過去分詞 ～? で「今までに～したことがありますか」と経験をたずねる。eat の過去分詞は eaten。",
+            "choiceNotes": [
+                "eat「原形」",
+                "ate「過去形」",
+                "eaten「過去分詞」",
+                "eating「ing形」"
+            ],
+            "tip": "授業の Have you ever been to New York? と同じ形。No, I haven't. と have で答える。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This summer is (　) than last summer.",
+            "choices": [
+                "hot",
+                "hotter",
+                "hottest",
+                "very hot"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "今年の夏は去年の夏よりも暑いです。",
+            "explanation": "後ろに than（～よりも）があるので、比較級の hotter を使う。hot は最後の t を重ねてから er をつける。",
+            "choiceNotes": [
+                "hot「もとの形」",
+                "hotter「比較級」",
+                "hottest「最上級」",
+                "very hot「とても暑い」"
+            ],
+            "tip": "授業の She can run faster than anyone ... と同じ比べる文。than があるときは比較級を使うのが基本。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: You look sad. What's wrong?\nB: I'm worried (　) my dog. He is sick.",
+            "choices": [
+                "about",
+                "at",
+                "in",
+                "from"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：悲しそうだね。どうしたの。\nB：うちの犬のことが心配なんだ。病気なんだよ。",
+            "explanation": "be worried about ～で「～のことを心配している」。この意味では、worried と about をセットで使う。",
+            "choiceNotes": [
+                "about「worried about のセット」",
+                "at「～で（場所など）」",
+                "in「～の中に」",
+                "from「～から」"
+            ],
+            "tip": "授業の Sue was worried about ... と同じ形。worried about をセットで覚えよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Did Ken come to your house yesterday?\nB: No. He (　) his promise again.",
+            "choices": [
+                "kept",
+                "found",
+                "sold",
+                "broke"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：昨日、ケンはあなたの家に来ましたか。\nB：いいえ。彼はまた約束を破りました。",
+            "explanation": "broke his promise で「約束を破った」。ケンは来なかったので、約束を破ったことになる。broke は break の過去形。",
+            "choiceNotes": [
+                "kept「守った」",
+                "found「見つけた」",
+                "sold「売った」",
+                "broke「破った」"
+            ],
+            "tip": "授業の Yuka broke her promise ... と同じ言い方。反対の「約束を守る」は keep a promise。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "This story (　) by a high school student.",
+            "choices": [
+                "wrote",
+                "was written",
+                "was writing",
+                "writes"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "この物語は高校生によって書かれました。",
+            "explanation": "物語は「書かれる」側なので、受け身（be動詞＋過去分詞）の was written を使う。by ～は「～によって」。",
+            "choiceNotes": [
+                "wrote「書いた」",
+                "was written「書かれた」",
+                "was writing「書いていた」",
+                "writes「書く（3単現）」"
+            ],
+            "tip": "授業の The author wrote it ... は人が主語。物語を主語にして「書かれた」と言うときは受け身にする。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Where is your umbrella?\nB: Oh, no! I (　) it on the bus this morning.",
+            "choices": [
+                "leave",
+                "leaves",
+                "leaving",
+                "left"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：あなたのかさはどこですか。\nB：あっ、しまった！今朝、バスに置いてきてしまいました。",
+            "explanation": "今朝すでに起きたことなので過去形にする。left は leave の過去形で、ここでは「置いてきた・置き忘れた」の意味。",
+            "choiceNotes": [
+                "leave「原形」",
+                "leaves「3単現」",
+                "leaving「ing形」",
+                "left「過去形」"
+            ],
+            "tip": "授業の I left my dictionary at school! と同じ left。「左」と同じつづりでも、ここでは動詞。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Who was the first person (　) on the moon?",
+            "choices": [
+                "to walk",
+                "walk",
+                "walked",
+                "walks"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "月の上を歩いた最初の人はだれですか。",
+            "explanation": "to walk on the moon が、後ろから the first person を説明する不定詞。「最初に月の上を歩いた人」という意味になる。",
+            "choiceNotes": [
+                "to walk「不定詞」",
+                "walk「原形」",
+                "walked「過去形」",
+                "walks「3単現」"
+            ],
+            "tip": "授業の the first ship to use steam power と同じ形。「最初に…した～」を表す。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "We went to the zoo (　) the baby pandas.",
+            "choices": [
+                "see",
+                "saw",
+                "to see",
+                "sees"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "私たちは赤ちゃんパンダを見るために動物園へ行きました。",
+            "explanation": "to see は「見るために」の意味で、動物園へ行った目的を表す不定詞。不定詞の to のあとは動詞の原形にする。",
+            "choiceNotes": [
+                "see「原形」",
+                "saw「過去形」",
+                "to see「見るために」",
+                "sees「3単現」"
+            ],
+            "tip": "授業の Many people in England went to see this ship. と同じ。行った目的を表す。"
+        }
+    ],
+    "closing": "今日は、経験をたずねる文、比べる文、受け身の文など、いろいろな形の英文を書きました。声に出して読みながら書くと、形と意味をいっしょに覚えやすくなります。まちがえた問題は、解説を読んでから、もう一度4線にていねいに書いてみましょう。"
+}
