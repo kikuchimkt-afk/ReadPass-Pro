@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2024-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・比較と形式主語・経験と義務",
+    "aim": "授業で学んだ熟語のセット、比較の文と形式主語の It、人を誘う言い方と経験を表す現在完了、義務や変化を表す動詞を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "授業で学んだ熟語のセットを正しく書ける",
+        "比較の文と、形式主語の It を使った文がわかる",
+        "人を誘う言い方、経験を表す現在完了、義務や変化を表す動詞がわかる"
+    ],
+    "words": [
+        {
+            "word": "exercise",
+            "meaning": "運動する"
+        },
+        {
+            "word": "foreign",
+            "meaning": "外国の"
+        },
+        {
+            "word": "convenient",
+            "meaning": "便利な"
+        },
+        {
+            "word": "address",
+            "meaning": "住所"
+        },
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "century",
+            "meaning": "世紀"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "It is really fun to make music.",
+            "ja": "音楽を作るのは、本当に楽しいです。",
+            "focus": "fp2",
+            "point": "It is ～ to …「…するのは～だ」",
+            "note": "この It は to make music（音楽を作ること）を指す。長い主語を後ろに回し、先に It を置いている。"
+        },
+        {
+            "en": "I've never played it in a park before.",
+            "ja": "バドミントンを公園でしたことは、これまで一度もありません。",
+            "focus": "fp3",
+            "point": "have never＋過去分詞「一度も～したことがない」",
+            "note": "I've は I have の短い形で、it はバドミントンのこと。never を入れると「一度も～したことがない」という経験の文になる。"
+        },
+        {
+            "en": "The runners have to jump over some barriers.",
+            "ja": "走者は、いくつかの障害物を飛び越えなければなりません。",
+            "focus": "fp4",
+            "point": "have to ～「～しなければならない」",
+            "note": "have to のあとは動詞の原形 jump。主語が3人称単数なら has to になる。jump over は「～を飛び越える」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "A: Is everyone ready (　) the game?\nB: Yes, Coach. Let's start!",
+            "choices": [
+                "of",
+                "from",
+                "for",
+                "about"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：みんな、試合の準備はできていますか。\nB：はい、コーチ。始めましょう！",
+            "explanation": "be ready for ～で「～の準備ができている」。名詞が続くときは ready for の形にする。",
+            "choiceNotes": [
+                "of「～の」",
+                "from「～から」",
+                "for「ready for のセット」",
+                "about「～について」"
+            ],
+            "tip": "授業の Are you ready for your trip? と同じ形。ready for をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Please call me (　) soon as possible.",
+            "choices": [
+                "than",
+                "as",
+                "too",
+                "very"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "できるだけ早く私に電話してください。",
+            "explanation": "as soon as possible で「できるだけ早く」。as ～ as possible の形なので、soon の前にも as が必要。",
+            "choiceNotes": [
+                "than「～よりも（比較級と使う）」",
+                "as「as ～ as possible の形」",
+                "too「～すぎる」",
+                "very「とても」"
+            ],
+            "tip": "授業の Tell me as soon as possible. と同じ言い方。as が2回出てくることに気をつけよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Which do you like (　), dogs or cats?\nB: Dogs. They are very friendly.",
+            "choices": [
+                "good",
+                "well",
+                "much",
+                "better"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：イヌとネコでは、どちらのほうが好きですか。\nB：イヌです。とても人なつっこいからです。",
+            "explanation": "2つを比べて「どちらのほうが好きか」をたずねるときは、Which do you like better, A or B? の形を使うのが基本。",
+            "choiceNotes": [
+                "good「よい」",
+                "well「よく・上手に」",
+                "much「たくさん」",
+                "better「比較級（より～）」"
+            ],
+            "tip": "授業の I like the blue one better than the red one. と同じ better。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "It is fun (　) soccer with my friends.",
+            "choices": [
+                "to play",
+                "play",
+                "played",
+                "plays"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "友だちとサッカーをするのは楽しいです。",
+            "explanation": "It is ～ to …で「…するのは～だ」。It は to 以下の内容を指すので、fun のあとは to＋動詞の原形の to play にする。",
+            "choiceNotes": [
+                "to play「to＋原形」",
+                "play「原形」",
+                "played「過去形」",
+                "plays「3単現」"
+            ],
+            "tip": "授業の It is really fun to make music. と同じ形。It が指すのは to 以下の内容。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: I'm going to the zoo on Sunday. (　) don't you come with me?\nB: Sure! I'd love to.",
+            "choices": [
+                "What",
+                "How",
+                "Who",
+                "Why"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：日曜日に動物園へ行きます。いっしょに来ませんか。\nB：もちろん！ぜひ行きたいです。",
+            "explanation": "Why don't you ～? は「～しませんか」と相手を誘ったり、すすめたりする言い方。B の Sure!（もちろん）という返事にも合う。",
+            "choiceNotes": [
+                "What「何」",
+                "How「どのように」",
+                "Who「だれ」",
+                "Why「Why don't you ～? で誘う」"
+            ],
+            "tip": "授業のメールの Why don't you join us? と同じ形。「～しませんか」と誘う決まった言い方。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "I have never (　) a koala before.",
+            "choices": [
+                "see",
+                "saw",
+                "seen",
+                "seeing"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "私はこれまでに一度もコアラを見たことがありません。",
+            "explanation": "have never＋過去分詞で「一度も～したことがない」という経験を表す。see の過去分詞は seen。",
+            "choiceNotes": [
+                "see「原形」",
+                "saw「過去形」",
+                "seen「過去分詞」",
+                "seeing「ing形」"
+            ],
+            "tip": "授業の I've never played it in a park before. と同じ形。現在完了の have のあとは過去分詞。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "My brother (　) to clean his room today.",
+            "choices": [
+                "has",
+                "must",
+                "can",
+                "should"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "兄は今日、自分の部屋をそうじしなければなりません。",
+            "explanation": "has to ～で「～しなければならない」。主語の my brother は3人称単数なので has を使う。must・can・should のあとに to は付けない。",
+            "choiceNotes": [
+                "has「has to のセット」",
+                "must「すぐあとに原形」",
+                "can「すぐあとに原形」",
+                "should「すぐあとに原形」"
+            ],
+            "tip": "授業の The runners have to jump over ... と同じ形。主語が3人称単数なら has to。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "This song (　) popular all over Japan last year.",
+            "choices": [
+                "took",
+                "became",
+                "gave",
+                "brought"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "この歌は、去年、日本中で人気になりました。",
+            "explanation": "become＋名詞や様子を表す語で「～になる」。last year があるので過去形の became にする。popular が続いて「人気になった」となる。",
+            "choiceNotes": [
+                "took「取った」",
+                "became「～になった」",
+                "gave「あたえた」",
+                "brought「持ってきた」"
+            ],
+            "tip": "授業の The men's steeplechase became an Olympic event ... と同じ became。"
+        }
+    ],
+    "closing": "障害物競走の選手は、目の前の障害物を一つずつ越えて、ゴールまで走ります。英語の練習も、一つずつ確かめながら進めれば大丈夫です。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。まちがえた問題は、授業の英文と見比べて確かめてください。"
+}

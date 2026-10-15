@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2024-3",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "名詞を後ろから説明する形・熟語・不定詞",
+    "aim": "授業で学んだ、名詞を後ろから説明する形・前置詞とセットで使う熟語・不定詞などを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "名詞を後ろから説明する2つの形を使える",
+        "前置詞とセットで使う熟語や、疑問詞を使う質問がわかる",
+        "「AをBと呼ぶ」の文や、不定詞を使った文を書ける"
+    ],
+    "words": [
+        {
+            "word": "invent",
+            "meaning": "発明する"
+        },
+        {
+            "word": "convenient",
+            "meaning": "便利な"
+        },
+        {
+            "word": "electric",
+            "meaning": "電気の"
+        },
+        {
+            "word": "instrument",
+            "meaning": "楽器"
+        },
+        {
+            "word": "textbook",
+            "meaning": "教科書"
+        },
+        {
+            "word": "opinion",
+            "meaning": "意見"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "She wants one which is easy to carry in her bag.",
+            "ja": "彼女はバッグに入れて持ち運びやすいものをほしがっています。",
+            "focus": "fp1",
+            "point": "関係代名詞 which「～な物」",
+            "note": "which is easy to carry in her bag が one（＝コンピューター）を後ろから説明する。物を説明するときは which が基本。"
+        },
+        {
+            "en": "In my opinion, it is really good.",
+            "ja": "私の意見では、それは本当によいです。",
+            "focus": "fp2",
+            "point": "In my opinion「私の意見では」",
+            "note": "自分の考えを言うときの決まった言い方。opinion は「意見」。前置詞の in とセットで使う。"
+        },
+        {
+            "en": "Jim was tired, so he decided to stay home.",
+            "ja": "ジムは疲れていたので、家にいることに決めました。",
+            "focus": "fp3",
+            "point": "decide to ～「～することに決める」",
+            "note": "decide のあとに動詞を続けるときは、to＋動詞の原形にする。decided は過去形で「決めた」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I want a bag (　) has many pockets.",
+            "choices": [
+                "who",
+                "what",
+                "which",
+                "where"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "私はポケットがたくさんあるかばんがほしいです。",
+            "explanation": "which has many pockets が a bag を後ろから説明する。説明される名詞が物なので、関係代名詞は which を使う。",
+            "choiceNotes": [
+                "who「人を説明する」",
+                "what「何」",
+                "which「物を説明する」",
+                "where「どこ」"
+            ],
+            "tip": "授業の one which is easy to carry と同じ形。物を説明するときは which が基本。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This is a cake (　) by my sister.",
+            "choices": [
+                "made",
+                "making",
+                "makes",
+                "make"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "これは姉が作ったケーキです。",
+            "explanation": "made by my sister が a cake を後ろから説明する。ケーキは「作られた」ものなので、過去分詞の made を使う。",
+            "choiceNotes": [
+                "made「作られた（過去分詞）」",
+                "making「作っている（ing形）」",
+                "makes「3単現」",
+                "make「原形」"
+            ],
+            "tip": "授業の the bicycle stolen from a bicycle shop と同じ形。名詞のあとに過去分詞で説明を足す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Kyoto is famous (　) its old temples.",
+            "choices": [
+                "in",
+                "by",
+                "to",
+                "for"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "京都は古いお寺で有名です。",
+            "explanation": "be famous for ～で「～で有名だ」。for のあとに、有名な理由になるもの（its old temples）が来る。",
+            "choiceNotes": [
+                "in「～の中で」",
+                "by「～によって」",
+                "to「～へ」",
+                "for「famous for のセット」"
+            ],
+            "tip": "授業の famous for its great pizza と同じ形。famous for をセットで覚えよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: How (　) do you clean your room?\nB: Once a week.",
+            "choices": [
+                "long",
+                "often",
+                "many",
+                "old"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：どのくらいよく部屋をそうじしますか。\nB：週に1回です。",
+            "explanation": "How often ～? は「どのくらいよく～するか」と回数をたずねる言い方。Once a week（週に1回）のように答える。",
+            "choiceNotes": [
+                "long「長さ・期間」",
+                "often「回数」",
+                "many「数（＋名詞）」",
+                "old「年齢・古さ」"
+            ],
+            "tip": "授業の How often do you go to the library? と同じ形。答えの Once a week. がヒント。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "My brother decided (　) English in Canada.",
+            "choices": [
+                "to study",
+                "study",
+                "studying",
+                "studied"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "兄はカナダで英語を勉強することに決めました。",
+            "explanation": "decide to＋動詞の原形で「～することに決める」。decided のあとに study や studying を直接続けることはできない。",
+            "choiceNotes": [
+                "to study「to＋原形」",
+                "study「原形」",
+                "studying「ing形」",
+                "studied「過去形」"
+            ],
+            "tip": "授業の he decided to stay home と同じ形。decided to をセットで言おう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My friends call (　) Taku.",
+            "choices": [
+                "he",
+                "his",
+                "him",
+                "himself"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "友だちは彼をタクと呼びます。",
+            "explanation": "call A B で「AをBと呼ぶ」。A には「～を」の形が入るので、he ではなく him を使う。",
+            "choiceNotes": [
+                "he「彼は」",
+                "his「彼の」",
+                "him「彼を」",
+                "himself「彼自身」"
+            ],
+            "tip": "授業の He named her Moka. と同じ形。代名詞が入るときは her・him のような「～を」の形。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "(　) to the weather report, it will rain tomorrow.",
+            "choices": [
+                "Because",
+                "Until",
+                "Without",
+                "According"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "天気予報によると、明日は雨が降るそうです。",
+            "explanation": "according to ～で「～によると」。情報がどこから来たのかを表す。according は to とセットで使う。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Until「～まで」",
+                "Without「～なしで」",
+                "According「according to のセット」"
+            ],
+            "tip": "授業の According to some people, ... と同じ形。聞いた話や読んだ情報を伝えるときに使う。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "I love animals, (　) dogs and cats.",
+            "choices": [
+                "already",
+                "especially",
+                "ago",
+                "ever"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "私は動物、特に犬とねこが大好きです。",
+            "explanation": "especially は「特に」。animals と全体を言ったあとで、その中の dogs and cats を取り上げている。",
+            "choiceNotes": [
+                "already「すでに」",
+                "especially「特に」",
+                "ago「～前に」",
+                "ever「今までに」"
+            ],
+            "tip": "授業の he was especially interested in ... と同じ especially（特に）。"
+        }
+    ],
+    "closing": "名詞を後ろから説明する形は、はじめは少し読みにくく感じるかもしれません。今日書き写した例文のように、声に出しながら何度か書くと、だんだん自然に読めるようになります。まちがえた問題は、解説を読んでからもう一度書いてみましょう。"
+}
