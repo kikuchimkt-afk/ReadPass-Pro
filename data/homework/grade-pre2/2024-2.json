@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2024-2",
+    "title": "文法事項の確認",
+    "theme": "過去完了・つなぎの言葉・理由と依頼・受け身・不定詞",
+    "aim": "授業の物語・Eメール・動物の行動についての説明文で学んだ、過去完了、話の流れを示すつなぎの言葉、理由や依頼・注意の表し方、過去進行形と受け身、不定詞の使い方、推測の表現を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "出来事の順番に合わせて、過去完了の形を選べる",
+        "文と文の関係から、つなぎの言葉を選べる",
+        "理由の表し方と、依頼・注意の文の形を使い分けられる",
+        "過去進行形・受け身・不定詞の形を、意味に合わせて選べる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "When Ken got to the station, the last train (　) ten minutes earlier.",
+            "choices": [
+                "has left",
+                "leaves",
+                "had left",
+                "is leaving"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ケンが駅に着いたとき、最終電車はその10分前に出てしまっていた。",
+            "explanation": "駅に着いた（過去）ときより前に電車は出ていたので、過去完了〈had＋過去分詞〉の had left を使う。ten minutes earlier「その10分前に」も手がかり。",
+            "choiceNotes": [
+                "has left「現在完了」",
+                "leaves「現在形」",
+                "had left「過去完了」",
+                "is leaving「現在進行形」"
+            ],
+            "tip": "授業の it had still not arrived と同じ過去完了。2つの出来事のどちらが先かを確かめる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Yuki thought that she (　) her key at school, but later she found it in her bag.",
+            "choices": [
+                "had lost",
+                "will lose",
+                "has lost",
+                "loses"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ユキは学校でかぎをなくしたと思ったが、あとでかばんの中にあるのを見つけた。",
+            "explanation": "なくしたのは、そう思った（過去）ときより前のことなので、過去完了の had lost を使う。has lost は現在とつながる形で、thought と合わない。",
+            "choiceNotes": [
+                "had lost「過去完了」",
+                "will lose「未来」",
+                "has lost「現在完了」",
+                "loses「現在形」"
+            ],
+            "tip": "授業の He thought that it had gotten lost と同じ。思ったときより前のことを表す。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Mr. Sato planned to play tennis on Sunday. (　), it rained all day, so he stayed home.",
+            "choices": [
+                "Because of",
+                "For example",
+                "Unless",
+                "However"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "佐藤さんは日曜日にテニスをする予定だった。しかし、一日中雨が降ったので、家にいた。",
+            "explanation": "「テニスをする予定だった」のに「一日中雨が降った」と、予定と反対の展開をつないでいるので、逆接の However「しかし」が入る。",
+            "choiceNotes": [
+                "Because of「～が原因で（＋名詞）」",
+                "For example「例えば」",
+                "Unless「～しない限り」",
+                "However「しかし」"
+            ],
+            "tip": "授業の However, Robbie was worried と同じ使い方。ここでは予定と違う展開を示している。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "When I got home, the dishes (　) washed by my sister.",
+            "choices": [
+                "has been",
+                "had been",
+                "had",
+                "is"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "私が家に帰ったときには、食器は姉によって洗われていた。",
+            "explanation": "食器は「洗われる」側なので受け身。帰宅した（過去）ときより前に済んでいたので、過去完了の受け身〈had been＋過去分詞〉にする。",
+            "choiceNotes": [
+                "has been「現在完了」",
+                "had been「過去完了」",
+                "had「had washed は能動」",
+                "is「現在形」"
+            ],
+            "tip": "授業の the package had already been delivered と同じ形。「～されていた」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Sam was late for school (　) the heavy snow.",
+            "choices": [
+                "although",
+                "so",
+                "because of",
+                "because"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "サムは大雪のために学校に遅刻した。",
+            "explanation": "後ろが the heavy snow という名詞なので、because of「～のために」を使う。接続詞の because なら、後ろに〈主語＋動詞〉が続く。",
+            "choiceNotes": [
+                "although「～だけれども」",
+                "so「だから」",
+                "because of「～のために（＋名詞）」",
+                "because「～なので（＋文）」"
+            ],
+            "tip": "授業の because の後ろは文。the heavy snow のような名詞なら because of。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Can you show me the pictures (　) in Hokkaido last summer?",
+            "choices": [
+                "you took",
+                "took you",
+                "you taking",
+                "taken you"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "去年の夏に北海道であなたが撮った写真を見せてくれますか。",
+            "explanation": "Can you ～? は依頼の形。the pictures の後ろに〈主語＋動詞〉の you took を続けて「あなたが撮った写真」とする（関係代名詞の省略）。",
+            "choiceNotes": [
+                "you took「主語＋動詞」",
+                "took you「語順が逆」",
+                "you taking「動詞の形が不可」",
+                "taken you「語順と形が不可」"
+            ],
+            "tip": "授業の Can you research the food the penguins eat? と同じ組み立て。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "It will be cold tonight, so don't forget (　) a jacket with you.",
+            "choices": [
+                "took",
+                "to take",
+                "take",
+                "takes"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "今夜は寒くなるので、上着を持っていくのを忘れないでね。",
+            "explanation": "〈forget to＋動詞の原形〉で「～するのを忘れる」。don't forget to ～ で「忘れずに～してね」という注意になる。",
+            "choiceNotes": [
+                "took「過去形」",
+                "to take「to不定詞」",
+                "take「原形」",
+                "takes「3単現」"
+            ],
+            "tip": "授業の Don't forget your computer. は後ろが名詞。これからする動作なら to ～。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "When the phone rang, I (　) a bath.",
+            "choices": [
+                "take",
+                "have taken",
+                "am taking",
+                "was taking"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "電話が鳴ったとき、私はお風呂に入っていた。",
+            "explanation": "電話が鳴った過去の時点で、ちょうどしている最中だった動作なので、過去進行形〈was＋-ing〉の was taking を使う。",
+            "choiceNotes": [
+                "take「現在形」",
+                "have taken「現在完了」",
+                "am taking「現在進行形」",
+                "was taking「過去進行形」"
+            ],
+            "tip": "授業の He was using different parts of his body と同じ。「～していた」と訳す。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "This old bridge (　) by a famous engineer more than 100 years ago.",
+            "choices": [
+                "was built",
+                "built",
+                "has built",
+                "is building"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "この古い橋は、100年以上前に有名な技師によって造られた。",
+            "explanation": "橋は「造られる」側なので受け身〈be動詞＋過去分詞〉。100年以上前のことなので was built にする。by の後ろが造った人。",
+            "choiceNotes": [
+                "was built「過去の受け身」",
+                "built「過去形・過去分詞」",
+                "has built「現在完了」",
+                "is building「現在進行形」"
+            ],
+            "tip": "授業の the mystery was eventually solved by ... と同じ〈受け身＋by〉の形。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "The purpose of this event is (　) money for a children's hospital.",
+            "choices": [
+                "raised",
+                "raises",
+                "raise",
+                "to raise"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "このイベントの目的は、子ども病院のためにお金を集めることだ。",
+            "explanation": "The purpose is to ～ で「目的は～することだ」。to raise money が is の後ろに来て、「お金を集めること」という意味になる。",
+            "choiceNotes": [
+                "raised「過去形・過去分詞」",
+                "raises「3単現」",
+                "raise「原形」",
+                "to raise「～すること」"
+            ],
+            "tip": "授業の The purpose is to attract a partner. と同じ。「目的は～することだ」と訳す。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "Ken looks very sleepy today. That is (　) he stayed up late last night.",
+            "choices": [
+                "why",
+                "which",
+                "because",
+                "what"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ケンは今日とても眠そうだ。それは、昨夜遅くまで起きていたからだ。",
+            "explanation": "That is because ～ は「それは～だからだ」と、前の文の理由を述べる。That is why ～ は「だから～」で結果が続くので、ここでは合わない。",
+            "choiceNotes": [
+                "why「だから～（結果）」",
+                "which「どちら・関係代名詞」",
+                "because「～だから（理由）」",
+                "what「～すること・もの」"
+            ],
+            "tip": "授業の That is because ... と同じ形。後ろが理由なら because、結果なら why。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "There were no buses after ten at night. (　), we went home by taxi.",
+            "choices": [
+                "So that",
+                "Instead",
+                "Because",
+                "For example"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "夜10時以降はバスがなかった。その代わりに、私たちはタクシーで家に帰った。",
+            "explanation": "バスがなかったので、バスの代わりにタクシーで帰ったという流れ。前の文の内容に代わるものを示す Instead「その代わりに」が入る。",
+            "choiceNotes": [
+                "So that「～するために」",
+                "Instead「その代わりに」",
+                "Because「～なので（接続詞）」",
+                "For example「例えば」"
+            ],
+            "tip": "授業の Instead, the female watches ... と同じ使い方。何の代わりかを前の文から探す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The lights in Mr. Brown's house are off. (　) he has already gone to bed.",
+            "choices": [
+                "Perhaps",
+                "However",
+                "Unless",
+                "Because of"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "ブラウンさんの家の明かりが消えている。おそらく、もう寝たのだろう。",
+            "explanation": "明かりが消えていることから「もう寝たのだろう」と推測しているので、Perhaps「おそらく」が入る。後ろは反対の内容ではないので However は合わない。",
+            "choiceNotes": [
+                "Perhaps「おそらく」",
+                "However「しかし」",
+                "Unless「～しない限り」",
+                "Because of「～が原因で（＋名詞）」"
+            ],
+            "tip": "授業の Perhaps they choose ... と同じ。確かでないことを推測するときに使う。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "I can't decide (　) to buy the red bag or the blue one.",
+            "choices": [
+                "if",
+                "that",
+                "whether",
+                "what"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "赤いかばんを買うか、青いかばんを買うか決められない。",
+            "explanation": "〈whether to＋動詞の原形 A or B〉で「Aを～するかBを～するか」。「～かどうか」の意味の if は、後ろに to不定詞を続けられない。",
+            "choiceNotes": [
+                "if「もし～なら・～かどうか」",
+                "that「～ということ」",
+                "whether「～するかどうか」",
+                "what「何を～するか」"
+            ],
+            "tip": "授業の whether to choose him と同じ形。or があれば「AかBか」と訳す。"
+        }
+    ],
+    "closing": "今回の問題は、授業で読んだ物語、Eメール、動物の行動についての説明文で学んだ形をもとにしています。過去完了やつなぎの言葉は、長文で出来事の順番や話の流れをつかむ手がかりになり、理由や依頼の言い方は英作文でも役立ちます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
