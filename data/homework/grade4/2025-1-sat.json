@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の型・理由を表すことば",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の型・理由を表すことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "「～のように見える」「～するのをやめる」などのセットを書ける",
+        "前後の文をヒントに、会話に合うことばを選べる",
+        "「AとBの両方」「～よりじょうずに」や理由の言い方を使える"
+    ],
+    "words": [
+        {
+            "word": "borrow",
+            "meaning": "借りる"
+        },
+        {
+            "word": "island",
+            "meaning": "島"
+        },
+        {
+            "word": "actor",
+            "meaning": "俳優（はいゆう）"
+        },
+        {
+            "word": "company",
+            "meaning": "会社"
+        },
+        {
+            "word": "someday",
+            "meaning": "いつか"
+        },
+        {
+            "word": "take a trip",
+            "meaning": "旅行する"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Last summer, Ted took a trip to America.",
+            "ja": "去年の夏、テッドはアメリカへ旅行しました。",
+            "focus": "fp1",
+            "point": "take a trip「旅行する」",
+            "note": "take a trip to ～で「～へ旅行する」。took は take の過去形。took a trip で「旅行した」となる。"
+        },
+        {
+            "en": "Akiko can speak both English and Russian.",
+            "ja": "あきこは、英語とロシア語の両方を話すことができます。",
+            "focus": "fp3",
+            "point": "both A and B「AとBの両方」",
+            "note": "both A and B で「AとBの両方」。この形では both と and をセットで使う。can のあとは動詞の原形 speak。"
+        },
+        {
+            "en": "She walks to Graystone Park because it is near her office.",
+            "ja": "公園が仕事場の近くにあるので、彼女はグレーストーン公園まで歩いて行きます。",
+            "focus": "fp4",
+            "point": "because「～なので」（後ろが理由）",
+            "note": "because の後ろが理由。it は Graystone Park のこと。「公園が仕事場の近くだから、歩いて行く」と意味をとる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "That cloud (　) like a big white rabbit.",
+            "choices": [
+                "sees",
+                "shows",
+                "looks",
+                "finds"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "あの雲は、大きな白いウサギのように見えます。",
+            "explanation": "look like ～で「～のように見える・～に似ている」。選択肢の中で like とセットになるのは look。主語が That cloud なので looks。",
+            "choiceNotes": [
+                "sees「見る・見える」",
+                "shows「見せる」",
+                "looks「look like で～のように見える」",
+                "finds「見つける」"
+            ],
+            "tip": "授業の She really looks like you. と同じ形。looks like をセットで書こう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The children stopped (　) when the teacher came in.",
+            "choices": [
+                "talking",
+                "talk",
+                "talked",
+                "talks"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "先生が入ってくると、子どもたちは話すのをやめました。",
+            "explanation": "stop ～ing で「～するのをやめる」。この意味では、stop のあとの動詞を ing の形にする。stopped は stop の過去形。",
+            "choiceNotes": [
+                "talking「ing形」",
+                "talk「原形」",
+                "talked「過去形」",
+                "talks「3単現」"
+            ],
+            "tip": "授業の Stop sending messages … と同じ形。「～するのをやめる」は ing 形だよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: Shall we eat lunch now?\nB: Not yet. I'm still (　). I had a big breakfast.",
+            "choices": [
+                "hungry",
+                "full",
+                "kind",
+                "tall"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：今からお昼ごはんを食べようか。\nB：まだいいよ。まだおなかがいっぱいなんだ。朝ごはんをたくさん食べたから。",
+            "explanation": "Not yet.（まだいい）と言い、朝ごはんをたくさん食べたと続けているので、full（おなかがいっぱいの）を選ぶ。",
+            "choiceNotes": [
+                "hungry「おなかがすいた」",
+                "full「おなかがいっぱいの」",
+                "kind「親切な」",
+                "tall「背が高い」"
+            ],
+            "tip": "授業の No, Dad, I'm full. と同じ。ことわる理由を、前後の文からつかもう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) were you born, Ms. Green?\nB: In Australia. My parents still live there.",
+            "choices": [
+                "When",
+                "Who",
+                "How",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：グリーンさん、どこで生まれたのですか。\nB：オーストラリアです。両親は今もそこに住んでいます。",
+            "explanation": "返事の In Australia. は場所なので、「どこで」とたずねる Where を選ぶ。there（そこに）もオーストラリアを指している。",
+            "choiceNotes": [
+                "When「いつ」",
+                "Who「だれ」",
+                "How「どのように」",
+                "Where「どこで」"
+            ],
+            "tip": "授業の Where were you born, Julie? と同じ形。答えが場所なら Where だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "My brother cooks (　) than I do.",
+            "choices": [
+                "good",
+                "well",
+                "best",
+                "better"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "兄は、わたしよりもじょうずに料理をします。",
+            "explanation": "than（～よりも）があるので、well（じょうずに）を比べる形にした better を使う。文の最後の do は cook のくり返しをさけた語。",
+            "choiceNotes": [
+                "good「よい」",
+                "well「じょうずに」",
+                "best「いちばんじょうずに」",
+                "better「よりじょうずに」"
+            ],
+            "tip": "授業の … plays the guitar better than I do. と同じ形。than の後ろが比べる相手だよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My father can play (　) the piano and the violin.",
+            "choices": [
+                "all",
+                "both",
+                "too",
+                "very"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "父は、ピアノとバイオリンの両方をひくことができます。",
+            "explanation": "both A and B で「AとBの両方」。後ろの and the violin とセットになる both を選ぶ。can のあとは動詞の原形 play。",
+            "choiceNotes": [
+                "all「全部の」",
+                "both「both A and B で両方」",
+                "too「～も」",
+                "very「とても」"
+            ],
+            "tip": "授業の Akiko can speak both English and Russian. と同じ。both A and B で覚えよう。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: What are you doing, Yuta?\nB: I'm looking (　) my cap. I can't find it.",
+            "choices": [
+                "at",
+                "to",
+                "for",
+                "on"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：ゆうた、何をしているの？\nB：ぼうしをさがしているんだ。見つからないんだよ。",
+            "explanation": "look for ～で「～をさがす」。I can't find it.（見つからない）から、ぼうしをさがしている場面だとわかる。",
+            "choiceNotes": [
+                "at「look at で～を見る」",
+                "to「～へ」",
+                "for「look for で～をさがす」",
+                "on「～の上に」"
+            ],
+            "tip": "授業の掲示の … is looking for our dog Kuro. と同じ。look for で「さがす」だよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "We didn't play tennis (　) it was raining.",
+            "choices": [
+                "because",
+                "so",
+                "but",
+                "or"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "雨がふっていたので、わたしたちはテニスをしませんでした。",
+            "explanation": "because の後ろには理由が来る。「雨がふっていた」が「テニスをしなかった」理由なので because を選ぶ。",
+            "choiceNotes": [
+                "because「～なので（後ろが理由）」",
+                "so「だから（後ろが結果）」",
+                "but「しかし」",
+                "or「または」"
+            ],
+            "tip": "授業の物語の … because it is near her office. と同じ。because の後ろは理由だよ。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。look like や both A and B のように、セットで使う形はひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2025-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "日常の表現・can と must・過去進行形・つなぎのことば",
+    "aim": "授業で学んだ日常の表現、can と must の文、過去進行形、つなぎのことばを、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "飲み物の量の言い方や「～と友だち」「～に参加する」を書ける",
+        "can・must のあとの動詞の形と、過去進行形の文がわかる",
+        "理由を答える言い方や、結果を表すことばを使える"
+    ],
+    "words": [
+        {
+            "word": "umbrella",
+            "meaning": "かさ"
+        },
+        {
+            "word": "airport",
+            "meaning": "空港"
+        },
+        {
+            "word": "useful",
+            "meaning": "役に立つ"
+        },
+        {
+            "word": "each other",
+            "meaning": "おたがい"
+        },
+        {
+            "word": "contest",
+            "meaning": "コンテスト"
+        },
+        {
+            "word": "nervous",
+            "meaning": "きんちょうした"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Lucy became good friends with him.",
+            "ja": "ルーシーは、彼と仲よくなりました。",
+            "focus": "fp1",
+            "point": "become friends with「～と友だちになる」",
+            "note": "became は become（～になる）の過去形。friends with ～で「～と友だち」。friend に s をつけた形で使う。"
+        },
+        {
+            "en": "Last night, Taro was watching a movie.",
+            "ja": "きのうの夜、太郎は映画を見ていました。",
+            "focus": "fp2",
+            "point": "過去進行形「～していた」",
+            "note": "was＋動詞の ing 形で「（そのとき）～していた」。主語が you や複数のときは were を使う。"
+        },
+        {
+            "en": "Many people took part in the contest, so Daniel was nervous.",
+            "ja": "たくさんの人がコンテストに参加したので、ダニエルはきんちょうしていました。",
+            "focus": "fp4",
+            "point": "take part in「～に参加する」",
+            "note": "took part in は take part in（～に参加する）の過去の形。so の後ろは結果で、「～なので…」と前から意味をとる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "I drink a (　) of milk every morning.",
+            "choices": [
+                "piece",
+                "glass",
+                "sheet",
+                "pair"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしは毎朝、グラス1ぱいの牛乳を飲みます。",
+            "explanation": "a glass of ～で「グラス1ぱいの～」。牛乳や水などの飲み物は、グラスやカップなどの入れ物を使って量を表すのが基本。",
+            "choiceNotes": [
+                "piece「（ケーキなど）1切れ」",
+                "glass「グラス1ぱい」",
+                "sheet「（紙）1まい」",
+                "pair「（くつなど）1組」"
+            ],
+            "tip": "授業の … Jeff drank a glass of water. と同じ形。a glass of をひとまとまりで書こう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Who is that girl, Yuki?\nB: That's Amy. I became good friends (　) her last month.",
+            "choices": [
+                "to",
+                "at",
+                "for",
+                "with"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：あの女の子はだれですか、ユキ。\nB：エイミーです。先月、彼女と仲よくなりました。",
+            "explanation": "become friends with ～で「～と友だちになる」。「～と」の部分を with で表す。good が入ると「～と仲よくなる」という意味になる。",
+            "choiceNotes": [
+                "to「～へ」",
+                "at「～で（場所・時刻）」",
+                "for「～のために」",
+                "with「～と（いっしょに）」"
+            ],
+            "tip": "授業の Lucy became good friends with him. と同じ形。friends と s がつくことにも注意しよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "My little brother can (　) his bike now.",
+            "choices": [
+                "rides",
+                "rode",
+                "ride",
+                "riding"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "弟は、今では自転車に乗ることができます。",
+            "explanation": "can のあとの動詞は原形（もとの形）にする。主語が My little brother でも、rides にはしない。",
+            "choiceNotes": [
+                "rides「3単現」",
+                "rode「過去形」",
+                "ride「原形」",
+                "riding「ing形」"
+            ],
+            "tip": "授業の Kate can swim very well. と同じ形。can のあとは原形の ride を書こう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Can I play the piano now?\nB: No. Grandma is sleeping. You must (　) quiet.",
+            "choices": [
+                "be",
+                "are",
+                "is",
+                "being"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：今、ピアノをひいてもいいですか。\nB：だめです。おばあちゃんがねています。しずかにしていなければいけません。",
+            "explanation": "must のあとの動詞は原形にする。are や is の原形は be なので、must be quiet で「しずかにしていなければならない」。",
+            "choiceNotes": [
+                "be「are・is の原形」",
+                "are「現在形（you・複数）」",
+                "is「現在形（he・she など）」",
+                "being「ing形」"
+            ],
+            "tip": "授業の You must wash your hands first. と同じ形。must のあとも原形が来るよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "My parents (　) watching TV at nine last night.",
+            "choices": [
+                "is",
+                "are",
+                "was",
+                "were"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "わたしの両親は、きのうの夜9時にテレビを見ていました。",
+            "explanation": "過去進行形は was / were＋ing形で「～していた」。last night で過去の文、主語の My parents は複数なので were を使う。",
+            "choiceNotes": [
+                "is「現在（he・she など）」",
+                "are「現在（you・複数）」",
+                "was「過去（I・he・she など）」",
+                "were「過去（you・複数）」"
+            ],
+            "tip": "授業の Last night, Taro was watching a movie. と同じ形。主語が複数なら were になる。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "A: Why do you get up early on Sundays?\nB: (　) I walk my dog before breakfast.",
+            "choices": [
+                "So",
+                "Because",
+                "But",
+                "And"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：どうして日曜日は早く起きるのですか。\nB：朝ごはんの前に、犬の散歩をするからです。",
+            "explanation": "Why ～?（なぜ～）とたずねられたら、Because ～（なぜなら～だから）で理由を答えるのが基本。",
+            "choiceNotes": [
+                "So「だから」",
+                "Because「～だから（理由）」",
+                "But「しかし」",
+                "And「そして」"
+            ],
+            "tip": "授業のメールでも、美咲は because のあとに、早く帰る理由を書いていたね。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "It was raining hard, (　) we stayed home.",
+            "choices": [
+                "so",
+                "but",
+                "or",
+                "because"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "雨が強く降っていたので、わたしたちは家にいました。",
+            "explanation": "so の前が理由、後ろが結果。「雨が強く降っていた → だから家にいた」という流れになる。",
+            "choiceNotes": [
+                "so「だから（後ろが結果）」",
+                "but「しかし」",
+                "or「または」",
+                "because「～なので（後ろが理由）」"
+            ],
+            "tip": "授業の物語の …, so Daniel was nervous. と同じ。so の後ろには結果が来るよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My sister took part (　) a speech contest last year.",
+            "choices": [
+                "on",
+                "from",
+                "in",
+                "to"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "姉は去年、スピーチコンテストに参加しました。",
+            "explanation": "take part in ～で「～に参加する」。「～に」の部分を in で表す。took は take の過去形。",
+            "choiceNotes": [
+                "on「～の上に」",
+                "from「～から」",
+                "in「take part in のセット」",
+                "to「～へ」"
+            ],
+            "tip": "授業の物語の took part in the contest と同じ形。take part in をセットで覚えよう。"
+        }
+    ],
+    "closing": "英語は、目で見るだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。can や must のあとの動詞は、もとの形のままです。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}
