@@ -1,0 +1,325 @@
+{
+    "grade": "pre-grade1",
+    "exam": "2024-3",
+    "title": "文法事項の確認",
+    "theme": "程度と結果・強調構文・逆接の表現・通説と推量",
+    "aim": "授業で学んだ、程度と結果を表す構文、強調構文、評価や逆接・譲歩を示す語句、句動詞などの定型表現、通説を紹介する文、コンマの後ろの関係詞、過去についての推量、前置詞の後ろに続く動詞を、新しい英文の中で見抜けるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "程度と結果を表す構文を、後ろの語句から選び分けられる",
+        "強調構文の骨組みと、譲歩を表す前置詞と接続詞の違いが分かる",
+        "逆接や評価を示す副詞と、句動詞などの定型表現を読み取れる",
+        "通説を述べる文、コンマの後ろの関係詞、過去の推量を訳せる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The hand-drawn maps that volunteers made of the forest proved (　) accurate that the park used them in its guidebook.",
+            "choices": [
+                "such",
+                "too",
+                "so",
+                "very"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ボランティアが作った森の手描き地図はとても正確だと分かったので、公園はそれをガイドブックに使った。",
+            "explanation": "so＋形容詞＋that S V で「とても～なので…」。proved accurate は「正確だと分かった」で、その程度の高さが that 以下の結果につながっている。",
+            "choiceNotes": [
+                "such「後ろに名詞が必要」",
+                "too「～すぎる」",
+                "so「とても～なので」",
+                "very「結果の that 節をとらない」"
+            ],
+            "tip": "授業の turned out to be so good that と同じ形。程度→結果の順に読む。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "The museum's new exhibition received (　) enthusiastic reviews that it was extended for another three months.",
+            "choices": [
+                "such",
+                "so",
+                "very",
+                "too"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その美術館の新しい展覧会はとても好意的な批評を受けたので、会期がさらに3か月延長された。",
+            "explanation": "空所の後ろが enthusiastic reviews（形容詞＋複数形の名詞）なので such。such＋形容詞＋名詞＋that S V で「とても～な…なので」。",
+            "choiceNotes": [
+                "such「名詞の前で程度を表す」",
+                "so「形容詞・副詞の前」",
+                "very「結果の that 節をとらない」",
+                "too「～すぎる」"
+            ],
+            "tip": "(1)と見比べる。空所の後ろが形容詞だけか、名詞まで続くかを確かめる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "The mysterious radio signal that puzzled astronomers for years (　) to be caused by a microwave oven in their building.",
+            "choices": [
+                "carried out",
+                "pointed out",
+                "figured out",
+                "turned out"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "何年も天文学者を悩ませた謎の電波は、彼らの建物にある電子レンジが原因だと判明した。",
+            "explanation": "turn out to be ～ は「～であることが判明する」。The mysterious から years までが主語で、文の動詞は turned out。",
+            "choiceNotes": [
+                "carried out「実行した」",
+                "pointed out「指摘した」",
+                "figured out「理解した」",
+                "turned out「判明した」"
+            ],
+            "tip": "授業の turned out to be so good と同じ表現。長い主語の後ろで動詞を見つける。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The researcher identified dozens of new insect species by carefully (　) the photographs she had taken in the rainforest.",
+            "choices": [
+                "examine",
+                "examining",
+                "examined",
+                "to examine"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その研究者は、熱帯雨林で撮影した写真を丹念に調べることで、何十もの新種の昆虫を特定した。",
+            "explanation": "前置詞 by の後ろに動詞を置くときは動名詞にする。by＋-ing で「～することによって」と手段を表し、carefully は examining を修飾している。",
+            "choiceNotes": [
+                "examine「原形」",
+                "examining「動名詞」",
+                "examined「過去形・過去分詞」",
+                "to examine「to不定詞」"
+            ],
+            "tip": "授業の by painstakingly recording と同じ形。副詞が間にあっても動詞は -ing 形にする。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "It was the rising cost of rent, rather than a lack of customers, that finally (　) the old bookstore to close.",
+            "choices": [
+                "force",
+                "forced",
+                "forcing",
+                "to force"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "その古い書店をついに閉店に追い込んだのは、客の少なさではなく家賃の上昇だった。",
+            "explanation": "It was ～ that … の強調構文。that の後ろには、強調された the rising cost が主語にあたる動詞が必要で、過去の話なので forced。",
+            "choiceNotes": [
+                "force「原形・現在形」",
+                "forced「過去形」",
+                "forcing「-ing形」",
+                "to force「to不定詞」"
+            ],
+            "tip": "授業の it was the same astrophotography that と同じ形。「～したのは…だ」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The new highway was meant to ease traffic in the city center. (　), it ended up attracting even more cars.",
+            "choices": [
+                "Fortunately",
+                "Likewise",
+                "Otherwise",
+                "Ironically"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "新しい幹線道路は都心の渋滞を和らげるはずだった。皮肉なことに、かえって車をさらに呼び込んだ。",
+            "explanation": "渋滞を和らげるための道路が、逆に車を増やしたという、目的と反対の結果を述べているので Ironically「皮肉なことに」が入る。",
+            "choiceNotes": [
+                "Fortunately「幸いにも」",
+                "Likewise「同様に」",
+                "Otherwise「さもなければ」",
+                "Ironically「皮肉なことに」"
+            ],
+            "tip": "授業の Ironically, it was ... that と同じ使い方。目的と実際の結果を見比べる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "(　) the fact that the new drug had passed every safety test, many doctors remained reluctant to prescribe it.",
+            "choices": [
+                "Despite",
+                "Although",
+                "In spite",
+                "Even though"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その新薬がすべての安全性試験に合格していたという事実にもかかわらず、多くの医師は依然として処方をためらっていた。",
+            "explanation": "the fact that … は「～という事実」という名詞のかたまりで、文の動詞は remained。名詞の前に置けるのは前置詞の Despite。",
+            "choiceNotes": [
+                "Despite「前置詞」",
+                "Although「接続詞・後ろは節」",
+                "In spite「of が必要」",
+                "Even though「接続詞」"
+            ],
+            "tip": "授業の despite the fact that と同じ形。the fact that 以下を一つの名詞と考える。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Studies have found no evidence that the herbal remedy works. (　), its sales continue to rise every year.",
+            "choices": [
+                "Therefore",
+                "For example",
+                "Nevertheless",
+                "Similarly"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その薬草療法が効くという証拠は研究で見つかっていない。それにもかかわらず、売り上げは毎年伸び続けている。",
+            "explanation": "前の文の「効果の証拠がない」から予想される内容とは逆に「売り上げが伸びている」と続くので、逆接の副詞 Nevertheless が入る。",
+            "choiceNotes": [
+                "Therefore「したがって」",
+                "For example「例えば」",
+                "Nevertheless「それでもなお」",
+                "Similarly「同様に」"
+            ],
+            "tip": "授業の Nevertheless, its legacy lives on と同じ使い方。前の文と逆の内容が続く合図。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "The poet died young and published only one book, but her legacy (　) on in the many writers she inspired.",
+            "choices": [
+                "gives",
+                "lives",
+                "takes",
+                "turns"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その詩人は若くして亡くなり、本も1冊しか出さなかったが、その遺産は彼女が影響を与えた多くの作家の中に生き続けている。",
+            "explanation": "live on で「生き続ける、（死後も）残る」。her legacy lives on in ～ で「彼女の遺産が～の中に生き続けている」という意味になる。",
+            "choiceNotes": [
+                "gives「与える」",
+                "lives「live on で生き続ける」",
+                "takes「取る」",
+                "turns「回る・変わる」"
+            ],
+            "tip": "授業の its legacy lives on と同じ表現。人や制度がなくなった後も影響が残ることを表す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "When the village school was about to close, help arrived in the (　) of a large donation from a former student.",
+            "choices": [
+                "shape",
+                "size",
+                "sense",
+                "sight"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "村の学校が閉校しかけていたとき、卒業生からの多額の寄付という形で援助が届いた。",
+            "explanation": "in the shape of ～ で「～という形で」。漠然とした help（援助）が、具体的には a large donation（多額の寄付）だったことを表す。",
+            "choiceNotes": [
+                "shape「形」",
+                "size「大きさ」",
+                "sense「意味・感覚」",
+                "sight「光景・視界」"
+            ],
+            "tip": "授業の in the shape of the IMF と同じ表現。in the form of とほぼ同じ意味。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The sharp rise in the number of wild deer in the region has generally (　) to the disappearance of wolves.",
+            "choices": [
+                "attributed",
+                "attributing",
+                "been attributed",
+                "attribute"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その地域で野生のシカが急増したのは、一般にオオカミがいなくなったためだとされてきた。",
+            "explanation": "attribute A to B「AをBのせいにする」の受動態を現在完了にした形。A has been attributed to B で「AはBが原因だとされてきた」。",
+            "choiceNotes": [
+                "attributed「能動の完了形」",
+                "attributing「-ing形」",
+                "been attributed「受動」",
+                "attribute「原形」"
+            ],
+            "tip": "授業の has generally been attributed to と同じ形。to の後ろが原因にあたる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "Tests found high levels of lead in the school's water, (　) suggested that the old pipes had to be replaced.",
+            "choices": [
+                "what",
+                "that",
+                "where",
+                "which"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "検査で学校の水から高濃度の鉛が見つかり、そのことは古い配管を交換すべきことを示していた。",
+            "explanation": "コンマの後ろの which は、前の内容（高濃度の鉛が見つかったこと）を受ける関係代名詞で、suggested の主語になっている。",
+            "choiceNotes": [
+                "what「先行詞を含む」",
+                "that「非制限用法では不可」",
+                "where「関係副詞・後ろは完全な文」",
+                "which「非制限用法で前の内容を受ける」"
+            ],
+            "tip": "授業の ..., which indicated the concrete ... と同じ形。「そのことは」と訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Newly found letters suggest that the composer may not (　) as poor in the 1820s as his biographers have long claimed.",
+            "choices": [
+                "be",
+                "have been",
+                "been",
+                "had been"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "新たに見つかった手紙によると、その作曲家は1820年代、伝記作家が長く言ってきたほど貧しくはなかったかもしれない。",
+            "explanation": "may not have＋過去分詞で「～ではなかったかもしれない」と過去のことを推量する。in the 1820s とあるので、現在を推量する be は使えない。",
+            "choiceNotes": [
+                "be「現在の推量」",
+                "have been「過去の推量」",
+                "been「助動詞の後ろに不可」",
+                "had been「助動詞の後ろに不可」"
+            ],
+            "tip": "授業の may not have been mixed と同じ形。not as ～ as … は「…ほど～ない」。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "My grandmother attributes her good health in old age to (　) in the sea every morning, even in winter.",
+            "choices": [
+                "swim",
+                "swam",
+                "swimming",
+                "swum"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "祖母は、年をとっても健康なのは、冬でも毎朝海で泳いでいるおかげだと考えている。",
+            "explanation": "attribute A to B「AをBのおかげ（せい）と考える」の to は前置詞なので、後ろの動詞は動名詞の swimming にする。",
+            "choiceNotes": [
+                "swim「原形」",
+                "swam「過去形」",
+                "swimming「動名詞」",
+                "swum「過去分詞」"
+            ],
+            "tip": "(11)と同じ attribute A to B。(4)の by と同じく、前置詞 to の後ろの動詞は -ing 形。"
+        }
+    ],
+    "closing": "今回の長文には、予想外の展開や皮肉な結果、通説に疑問を投げかける新しい証拠など、話の流れが変わる場面が多く出てきました。準1級の長文では、こうした流れを示す語句に気づくことが、内容を正しく読み取る手がかりになります。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}
