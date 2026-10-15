@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2024-2",
+    "title": "文法事項の確認",
+    "theme": "強調構文・分詞構文・譲歩の表現・比較構文",
+    "aim": "授業で学んだ強調構文とそれに似た It is … that の形、分詞構文、譲歩を表す接続詞と前置詞、同等比較と比較級の構文を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "強調構文を見抜き、形の似た It is … that の文と区別できる",
+        "分詞構文の形を、文の主語との関係から判断できる",
+        "譲歩を表す接続詞を、前置詞や副詞と区別して使える",
+        "比較の文で、比べているものと語の形を判断できる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "It was not (　) I got home that I noticed I had left my umbrella on the train.",
+            "choices": [
+                "since",
+                "unless",
+                "until",
+                "if"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "家に帰って初めて、電車に傘を置き忘れたことに気づいた。",
+            "explanation": "I did not notice … until I got home の not until 以下を It was … that で強調した形。「Aして初めてBした」と訳す。",
+            "choiceNotes": [
+                "since「～以来」",
+                "unless「～しない限り」",
+                "until「～まで」",
+                "if「もし～なら」"
+            ],
+            "tip": "not until ～ は「～までは…ない」。強調構文では「～して初めて」と訳すと自然になる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "It was (　) the heavy rain that the soccer game was canceled.",
+            "choices": [
+                "because of",
+                "because",
+                "although",
+                "when"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "サッカーの試合が中止になったのは、大雨のせいだった。",
+            "explanation": "試合中止の原因を It was … that ではさんで強調している。空所の後ろは名詞 the heavy rain だけなので、前置詞の働きをする because of が入る。",
+            "choiceNotes": [
+                "because of「～が原因で」",
+                "because「接続詞・理由」",
+                "although「接続詞・譲歩」",
+                "when「接続詞・時」"
+            ],
+            "tip": "It was と that を外し、because of the heavy rain を文の最後に戻すと元の文になる。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "In this town, it is (　) that the old stone bridge was built about 300 years ago.",
+            "choices": [
+                "say",
+                "said",
+                "says",
+                "to say"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この町では、その古い石橋は約300年前に造られたと言われている。",
+            "explanation": "It is said that ～ で「～と言われている」。is の後ろに say の過去分詞 said を置いた受動態の形で、強調構文ではない。",
+            "choiceNotes": [
+                "say「原形」",
+                "said「過去分詞」",
+                "says「3単現」",
+                "to say「to不定詞」"
+            ],
+            "tip": "授業の it is said that … と同じ形。It is と that を外すと文にならない。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "At the party, it was only my grandfather (　) remembered all the words of the old song.",
+            "choices": [
+                "which",
+                "whose",
+                "what",
+                "who"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "パーティーで、その古い歌の歌詞を全部覚えていたのは祖父だけだった。",
+            "explanation": "only my grandfather を強調する強調構文。強調する部分が人なので、that の代わりに who を使っている。who は remembered の主語の働き。",
+            "choiceNotes": [
+                "which「物や事柄を受ける」",
+                "whose「所有格」",
+                "what「先行詞を含む」",
+                "who「人を受ける」"
+            ],
+            "tip": "授業の it was only countries that … と同じ形。「～したのは…だけだった」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "(　) my bike home from school, I saw a rainbow over the river.",
+            "choices": [
+                "Riding",
+                "Rode",
+                "Ride",
+                "Rides"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "自転車で学校から帰る途中、川の上に虹が見えた。",
+            "explanation": "主語 I が「自転車に乗っている」ので、現在分詞 Riding で始まる分詞構文。While I was riding … と同じく「～しているとき」を表す。",
+            "choiceNotes": [
+                "Riding「現在分詞」",
+                "Rode「過去形」",
+                "Ride「原形」",
+                "Rides「3単現」"
+            ],
+            "tip": "授業の Walking along the street, I met … と同じ形。分詞の主語は、コンマの後ろの I。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "Hotel prices in this area vary (　) on the season and the day of the week.",
+            "choices": [
+                "depend",
+                "depends",
+                "depended",
+                "depending"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "この地域のホテルの料金は、季節や曜日によって変わる。",
+            "explanation": "depending on ～ は「～に応じて、～によって」という決まった言い方。文の動詞 vary はすでにあるので、動詞の depend・depends は入らない。",
+            "choiceNotes": [
+                "depend「原形」",
+                "depends「3単現」",
+                "depended「過去形・過去分詞」",
+                "depending「～に応じて」"
+            ],
+            "tip": "授業の depending on the house's location と同じ表現。「～次第で」とも訳せる。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "(　) in simple English, this book is easy for beginners to read.",
+            "choices": [
+                "Writing",
+                "Wrote",
+                "Written",
+                "Write"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "やさしい英語で書かれているので、この本は初心者にも読みやすい。",
+            "explanation": "主語 this book は「書かれる」側なので、過去分詞 Written で始まる分詞構文。Because it is written … と同じく理由を表す。",
+            "choiceNotes": [
+                "Writing「現在分詞・書いている」",
+                "Wrote「過去形」",
+                "Written「過去分詞・書かれた」",
+                "Write「原形」"
+            ],
+            "tip": "分詞の形は、文の主語との関係で決める。本は自分で書かないので過去分詞。"
+        },
+        {
+            "number": 8,
+            "focus": "fp2",
+            "text": "The students sat in a circle, (　) their ideas for the school festival.",
+            "choices": [
+                "shared",
+                "sharing",
+                "share",
+                "shares"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "生徒たちは輪になって座り、文化祭のアイデアを出し合った。",
+            "explanation": "コンマの後ろの sharing ～ は、主語 The students の動作を付け加える分詞構文。shared などでは、接続詞なしで動詞が2つ並んでしまう。",
+            "choiceNotes": [
+                "shared「過去形・過去分詞」",
+                "sharing「現在分詞」",
+                "share「原形」",
+                "shares「3単現」"
+            ],
+            "tip": "分詞構文は文の後ろにも置ける。「～しながら」「そして～した」と前から訳していく。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) she did not get paid for her work, Ms. Sato still helped at the animal shelter every weekend.",
+            "choices": [
+                "Even though",
+                "Because",
+                "As soon as",
+                "Despite"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "報酬をもらえないにもかかわらず、佐藤さんは毎週末、動物保護施設で手伝いをした。",
+            "explanation": "「報酬がない」のに「手伝った」という逆の内容をつなぐので、譲歩の Even though が入る。Despite は前置詞なので、後ろに主語と動詞を続けられない。",
+            "choiceNotes": [
+                "Even though「～にもかかわらず」",
+                "Because「～なので」",
+                "As soon as「～するとすぐに」",
+                "Despite「前置詞・譲歩」"
+            ],
+            "tip": "授業の Even though they did not get … と同じ形。still も逆接のヒント。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "(　) the long flight, the children were full of energy when they arrived at the hotel.",
+            "choices": [
+                "Although",
+                "Because",
+                "Despite",
+                "Even though"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "長時間のフライトにもかかわらず、子どもたちはホテルに着いたとき元気いっぱいだった。",
+            "explanation": "空所の後ろは名詞 the long flight だけで、主語と動詞がない。名詞の前に置ける前置詞の Despite が入る。Although・Even though は接続詞。",
+            "choiceNotes": [
+                "Although「接続詞・譲歩」",
+                "Because「接続詞・理由」",
+                "Despite「前置詞・譲歩」",
+                "Even though「接続詞・譲歩」"
+            ],
+            "tip": "意味だけでなく後ろの形を見る。文が続くなら(9)の Even though、名詞だけなら Despite。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "(　) the museum is small, it has many famous paintings.",
+            "choices": [
+                "However",
+                "But",
+                "So",
+                "Although"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その美術館は小さいが、有名な絵画をたくさん所蔵している。",
+            "explanation": "「小さい」と「有名な絵画が多い」という逆の内容をつなぐ、譲歩の接続詞 Although が入る。「しかし」の However は副詞なので、2つの文をつなげない。",
+            "choiceNotes": [
+                "However「しかし（副詞）」",
+                "But「A, but B の形」",
+                "So「A, so B の形」",
+                "Although「～だが（接続詞）」"
+            ],
+            "tip": "However を使うなら、The museum is small. However, … と2つの文に分ける。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "This year, our club collected as (　) money for charity as it did last year.",
+            "choices": [
+                "many",
+                "much",
+                "more",
+                "most"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "今年、私たちの部は去年と同じくらい多くの寄付金を集めた。",
+            "explanation": "as ～ as の同等比較で、間には原級が入る。money は数えられない名詞なので、many ではなく much を使う。",
+            "choiceNotes": [
+                "many「数えられる名詞に」",
+                "much「数えられない名詞に」",
+                "more「比較級」",
+                "most「最上級」"
+            ],
+            "tip": "授業の yawned as much as … と同じ as much as。「同じくらい多く」と訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Customers are more (　) to try a new restaurant after reading online reviews than after seeing TV ads.",
+            "choices": [
+                "likely",
+                "like",
+                "probably",
+                "possible"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "客は、テレビ広告を見た後よりも、ネットの口コミを読んだ後のほうが、新しい店に行ってみる傾向が強い。",
+            "explanation": "be likely to ～ で「～しそうだ、～する傾向がある」。比較級の more likely to ～ than … で「…よりも～しやすい」となる。",
+            "choiceNotes": [
+                "likely「～しそうな」",
+                "like「～のような」",
+                "probably「副詞・たぶん」",
+                "possible「人＋be possible to は不可」"
+            ],
+            "tip": "授業の more likely to yawn … than … と同じ形。「…よりも～しやすい」と訳す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "The prices at this supermarket are lower than (　) at the store near the station.",
+            "choices": [
+                "that",
+                "it",
+                "those",
+                "them"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "このスーパーの値段は、駅の近くの店の値段よりも安い。",
+            "explanation": "比べているのは、このスーパーの値段と駅の近くの店の値段。複数形の prices をくり返す代わりに those を使う。",
+            "choiceNotes": [
+                "that「単数名詞の代わり」",
+                "it「同じものを指す」",
+                "those「複数名詞の代わり」",
+                "them「目的格の代名詞」"
+            ],
+            "tip": "授業の than that of humans の that は ability の代わり。複数なら those。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の構文はどれも大問2・3の長文の中で使われていました。強調構文は文の中で特に伝えたい部分を示し、譲歩の表現は予想とは逆の内容が続く合図になります。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

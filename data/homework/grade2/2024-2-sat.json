@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2024-2-sat",
+    "title": "文法事項の確認",
+    "theme": "形式主語・文末の分詞構文・目的と手段・仮定法現在",
+    "aim": "授業で学んだ形式主語の構文と意味上の主語の表し方、前の内容を受けて文末に置く分詞構文、目的や手段を表す表現、仮定法現在の that 節を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "形式主語の文で、本当の主語と意味上の主語を見分けられる",
+        "文末の分詞構文を、前の内容とのつながりを考えて訳せる",
+        "目的・手段を表す表現を、後ろに続く形から選べる",
+        "仮定法現在の that 節などで、動詞に続く形を判断できる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "As the town grew, it became more and more difficult (　) the river clean.",
+            "choices": [
+                "keep",
+                "kept",
+                "to keep",
+                "keeps"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "町が大きくなるにつれて、川をきれいに保つことがますます難しくなった。",
+            "explanation": "it は形式主語で、本当の主語は to keep the river clean。「川をきれいに保つこと」がますます難しくなった、という意味。",
+            "choiceNotes": [
+                "keep「原形」",
+                "kept「過去形・過去分詞」",
+                "to keep「不定詞（本当の主語）」",
+                "keeps「3単現」"
+            ],
+            "tip": "授業の it became more and more difficult to feed ～ と同じ形。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "It is necessary (　) young children to get enough sleep every night.",
+            "choices": [
+                "for",
+                "of",
+                "by",
+                "at"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "幼い子どもが毎晩十分な睡眠をとることが必要だ。",
+            "explanation": "to get の意味上の主語は for＋人で表し、to 不定詞の直前に置く。「子どもが睡眠をとること」が必要だ、という意味になる。",
+            "choiceNotes": [
+                "for「意味上の主語（～が）」",
+                "of「人の性質を表す形容詞と使う」",
+                "by「～によって」",
+                "at「～で（場所・時点）」"
+            ],
+            "tip": "「子どもが寝る」という主語・述語の関係を、for young children が表している。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "It was very kind (　) you to carry my heavy bags up the stairs.",
+            "choices": [
+                "for",
+                "to",
+                "with",
+                "of"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "重いかばんを階段の上まで運んでくれて、あなたはとても親切だった。",
+            "explanation": "kind（親切な）のように人の性質を表す形容詞では、意味上の主語を of＋人で表す。You were very kind to carry ～ と言いかえられる。",
+            "choiceNotes": [
+                "for「意味上の主語（～が）」",
+                "to「～に対して」",
+                "with「～と一緒に」",
+                "of「人の性質を述べるとき」"
+            ],
+            "tip": "(2)の necessary は for、人の性質を表す kind は of。形容詞の種類で決める。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "It is (　) that vegetable prices will go up again this winter.",
+            "choices": [
+                "probably",
+                "likely",
+                "perhaps",
+                "maybe"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "この冬、野菜の値段がまた上がる可能性が高い。",
+            "explanation": "It is likely that S V で「SがVする可能性が高い」。空所には補語が必要で、ほかの3つは副詞なので補語になれない。",
+            "choiceNotes": [
+                "probably「おそらく（副詞）」",
+                "likely「ありそうな（形容詞）」",
+                "perhaps「たぶん（副詞）」",
+                "maybe「もしかすると（副詞）」"
+            ],
+            "tip": "授業の It is likely that the new interest ～ と同じ形。that 以下が本当の主語。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Heavy snow fell all through the night, (　) many canceled flights the next morning.",
+            "choices": [
+                "resulting from",
+                "resulting in",
+                "because of",
+                "due to"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "一晩中大雪が降り、その結果、翌朝は多くの便が欠航になった。",
+            "explanation": "コンマの前の内容の結果を、文末の分詞構文で加えている。result in ～ は「結果として～になる」。result from ～ は「～から生じる」で、原因と結果が逆になる。",
+            "choiceNotes": [
+                "resulting from「～が原因で」",
+                "resulting in「結果～になる」",
+                "because of「～のため」",
+                "due to「～による」"
+            ],
+            "tip": "授業の resulting in various types of blues music と同じ形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A strong typhoon hit the island, (　) serious damage to many houses and roads.",
+            "choices": [
+                "cause",
+                "caused",
+                "causes",
+                "causing"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "強い台風が島を襲い、多くの家や道路に大きな被害をもたらした。",
+            "explanation": "文の動詞は hit。接続詞なしで動詞をもう1つ並べることはできないので、分詞構文の causing を使う。「その結果～を引き起こした」という意味。",
+            "choiceNotes": [
+                "cause「原形」",
+                "caused「過去形・過去分詞」",
+                "causes「3単現」",
+                "causing「-ing 形（分詞構文）」"
+            ],
+            "tip": "授業の causing major traffic delays と同じ形。and it caused の意味。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The company began holding meetings online, (　) employees to work at home twice a week.",
+            "choices": [
+                "allowing",
+                "making",
+                "letting",
+                "preventing"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "その会社は会議をオンラインで開き始め、社員は週2回在宅で働けるようになった。",
+            "explanation": "文末の分詞構文。allow O to V で「Oが～できるようにする」。使役の make・let は O＋原形、prevent は O from -ing の形をとる。",
+            "choiceNotes": [
+                "allowing「可能にする」",
+                "making「させる（O＋原形）」",
+                "letting「させる（O＋原形）」",
+                "preventing「妨げる」"
+            ],
+            "tip": "後ろの employees to work の形から動詞を決める。allow O to V はまとめて覚える。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "We left home an hour early (　) we could get good seats at the concert.",
+            "choices": [
+                "in order to",
+                "so as to",
+                "so that",
+                "because of"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "コンサートで良い席を取れるように、私たちは1時間早く家を出た。",
+            "explanation": "後ろに we could get という S V が続くので、目的を表す接続詞 so that が入る。so that S could V で「Sが～できるように」。",
+            "choiceNotes": [
+                "in order to「後ろは原形」",
+                "so as to「後ろは原形」",
+                "so that「～できるように」",
+                "because of「後ろは名詞」"
+            ],
+            "tip": "授業の so that more people ～ could hear them と同じ形。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "You can save energy (　) turning off the lights when you leave a room.",
+            "choices": [
+                "by",
+                "of",
+                "to",
+                "at"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "部屋を出るときに電気を消すことで、エネルギーを節約できる。",
+            "explanation": "by＋動名詞で「～することによって」と手段を表す。どうやってエネルギーを節約するのかを、by turning off ～ が説明している。",
+            "choiceNotes": [
+                "by「～によって（手段）」",
+                "of「～の」",
+                "to「～へ」",
+                "at「～で（場所・時点）」"
+            ],
+            "tip": "本文の By sliding it along the guitar strings と同じ、手段を表す by。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "(　) driving to work, Mr. Tanaka now rides his bike there every day.",
+            "choices": [
+                "By",
+                "Because of",
+                "Despite",
+                "Instead of"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "車で通勤する代わりに、田中さんは今では毎日自転車で通っている。",
+            "explanation": "Instead of＋動名詞で「～する代わりに」。車で通勤するのをやめて自転車で通うようになったので、Instead of が入る。",
+            "choiceNotes": [
+                "By「～によって」",
+                "Because of「～のために」",
+                "Despite「～にもかかわらず」",
+                "Instead of「～の代わりに」"
+            ],
+            "tip": "授業の Instead of singing about ～ と同じ形。何をやめたかを読み取る。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The doctor recommended that my grandfather (　) a short walk every morning.",
+            "choices": [
+                "will take",
+                "taking",
+                "take",
+                "to take"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "医師は祖父に、毎朝少し散歩をするよう勧めた。",
+            "explanation": "recommend that S＋動詞の原形で「Sが～するよう勧める」。主語が3人称単数で過去の文でも、原形の take を使う（should take とも言う）。",
+            "choiceNotes": [
+                "will take「will＋原形」",
+                "taking「-ing 形」",
+                "take「原形」",
+                "to take「不定詞」"
+            ],
+            "tip": "本文の recommends that people follow と同じ形。will を付けず、原形の take にする。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "The committee proposed that the festival (　) held in the park this year.",
+            "choices": [
+                "being",
+                "be",
+                "been",
+                "to be"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "委員会は、今年の祭りを公園で開催することを提案した。",
+            "explanation": "propose that S＋動詞の原形で「Sが～するよう提案する」。祭りは「開かれる」側なので受け身にし、原形の be を使って be held とする。",
+            "choiceNotes": [
+                "being「-ing 形」",
+                "be「原形」",
+                "been「過去分詞」",
+                "to be「不定詞」"
+            ],
+            "tip": "(11)と同じ提案の that 節。受け身なら be＋過去分詞の形にする。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "Our English teacher (　) that we read at least one English book a month.",
+            "choices": [
+                "wanted",
+                "made",
+                "let",
+                "suggested"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "英語の先生は、私たちが少なくとも月に1冊は英語の本を読むよう提案した。",
+            "explanation": "suggest that S＋動詞の原形で「Sが～するよう提案する」。wanted・made・let は、この文のように後ろに that 節を続けられない。",
+            "choiceNotes": [
+                "wanted「want O to V の形」",
+                "made「make O＋原形の形」",
+                "let「let O＋原形の形」",
+                "suggested「提案した」"
+            ],
+            "tip": "授業の The doctor suggested that she take ～ と同じ動詞。read も原形。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Bad weather prevented the fishermen (　) going out to sea all week.",
+            "choices": [
+                "from",
+                "to",
+                "of",
+                "for"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "悪天候のせいで、漁師たちは1週間ずっと海に出られなかった。",
+            "explanation": "prevent O from -ing で「Oが～するのを妨げる」。物が主語の文なので、「悪天候のせいで…できなかった」と訳すと自然になる。",
+            "choiceNotes": [
+                "from「O from -ing で妨げる」",
+                "to「～へ」",
+                "of「～の」",
+                "for「～のために」"
+            ],
+            "tip": "本文の prevent farmers from adding と同じ形。keep O from -ing も同じ意味。"
+        }
+    ],
+    "closing": "今回学んだ形は、2級の長文で、出来事の結果や、人がそうした目的を説明するときに使われることがあります。今回の本文にも、形式主語の文や resulting in、so that、by -ing が出てきました。文の骨組みが分かると、長い文も落ち着いて読めます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
