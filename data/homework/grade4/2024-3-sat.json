@@ -1,0 +1,242 @@
+{
+    "grade": "grade4",
+    "exam": "2024-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "語句のセット・会話の手がかり・文の型・時の表し方",
+    "aim": "授業で学んだ語句のセット・会話の手がかり・文の型・時の表し方を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "語句をセットで覚え、そのあとに続く形を書ける",
+        "返事の文をヒントに、質問の文の始め方を選べる",
+        "時を表すことばに合わせて、動詞の形を選べる"
+    ],
+    "words": [
+        {
+            "word": "cloudy",
+            "meaning": "くもった"
+        },
+        {
+            "word": "company",
+            "meaning": "会社"
+        },
+        {
+            "word": "language",
+            "meaning": "言語・ことば"
+        },
+        {
+            "word": "remember",
+            "meaning": "おぼえている"
+        },
+        {
+            "word": "homework",
+            "meaning": "宿題"
+        },
+        {
+            "word": "volunteer",
+            "meaning": "ボランティア"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "I have to study for my math test tomorrow.",
+            "ja": "明日の数学のテストのために勉強しなければなりません。",
+            "focus": "fp1",
+            "point": "have to「～しなければならない」",
+            "note": "have to＋動詞の原形で「～しなければならない」。have to のあとは原形の study。"
+        },
+        {
+            "en": "My uncle took me to a museum today.",
+            "ja": "おじは今日、わたしを博物館に連れて行ってくれました。",
+            "focus": "fp3",
+            "point": "take＋人＋to＋場所「人を～へ連れて行く」",
+            "note": "took は take の過去形。took me to a museum で「わたしを博物館に連れて行った」。"
+        },
+        {
+            "en": "Sally started working as a volunteer there last week.",
+            "ja": "サリーは先週、そこでボランティアとして働き始めました。",
+            "focus": "fp4",
+            "point": "last week「先週」",
+            "note": "物語では、先生と話したのが数か月前、おじにたのんだのが先月、ボランティアを始めたのが先週。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Kenta has to (　) his dog every morning.",
+            "choices": [
+                "walks",
+                "walked",
+                "walk",
+                "walking"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "ケンタは毎朝、犬を散歩させなければなりません。",
+            "explanation": "has to＋動詞の原形で「～しなければならない」。主語が Kenta なので has to になるが、to のあとは原形の walk のまま。",
+            "choiceNotes": [
+                "walks「3単現」",
+                "walked「過去形」",
+                "walk「原形」",
+                "walking「ing形」"
+            ],
+            "tip": "授業の I have to study for my math test tomorrow. と同じ形。has to のあとも原形だよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "My sister has a piano lesson (　) the afternoon.",
+            "choices": [
+                "in",
+                "at",
+                "on",
+                "of"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "姉は午後にピアノのレッスンがあります。",
+            "explanation": "「午後に」は in the afternoon とセットで言うのが基本。at は時刻、on は曜日や日付の前に使うことが多い。",
+            "choiceNotes": [
+                "in「in the afternoon で午後に」",
+                "at「～に（時刻）」",
+                "on「～に（曜日・日付）」",
+                "of「～の」"
+            ],
+            "tip": "授業の … go to a zoo in the afternoon. と同じセット。in the morning も同じ形だよ。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "A: (　) are you going to the store?\nB: To buy some eggs for breakfast.",
+            "choices": [
+                "Who",
+                "What",
+                "Which",
+                "Why"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：どうしてお店に行くのですか。\nB：朝ごはん用の卵を買うためです。",
+            "explanation": "B が To buy some eggs ～（卵を買うため）と目的を答えているので、目的や理由をたずねる Why を選ぶ。",
+            "choiceNotes": [
+                "Who「だれ」",
+                "What「何」",
+                "Which「どちら・どの」",
+                "Why「なぜ」"
+            ],
+            "tip": "授業の Why did you come to the zoo today? と同じ。To buy ～ は「～を買うため」だね。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: I'm thirsty. (　) I have some juice?\nB: Sure. Here you are.",
+            "choices": [
+                "Am",
+                "Can",
+                "Is",
+                "Does"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：のどがかわきました。ジュースをもらってもいいですか。\nB：いいですよ。はい、どうぞ。",
+            "explanation": "Can I＋動詞の原形 ～? で「～してもいいですか」とたずねる言い方。B の Sure. Here you are.（いいですよ。はい、どうぞ）とも合う。",
+            "choiceNotes": [
+                "Am「be動詞（I のとき）」",
+                "Can「～してもいいですか」",
+                "Is「be動詞（he・it など）」",
+                "Does「主語が he・she など」"
+            ],
+            "tip": "授業の Can I use yours? と同じ形。Can I のあとは動詞の原形だよ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "Emma finished (　) a cake for her family.",
+            "choices": [
+                "making",
+                "make",
+                "to make",
+                "made"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "エマは家族のためにケーキを作り終えました。",
+            "explanation": "finish のあとに「～すること」を続けるときは ing形にする。make の ing形は、e をとって making と書く。",
+            "choiceNotes": [
+                "making「ing形」",
+                "make「原形」",
+                "to make「to＋原形」",
+                "made「過去形」"
+            ],
+            "tip": "授業の I finished drawing a picture … と同じ形。making のつづりに注意しよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "What time did you (　) to bed last night?",
+            "choices": [
+                "went",
+                "goes",
+                "go",
+                "going"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "あなたはきのうの夜、何時にねましたか。",
+            "explanation": "What time did you＋動詞の原形 ～? で「何時に～しましたか」。did you のあとは原形の go にする。go to bed は「ねる」。",
+            "choiceNotes": [
+                "went「過去形」",
+                "goes「3単現」",
+                "go「原形」",
+                "going「ing形」"
+            ],
+            "tip": "授業の What time did you get home yesterday? と同じ形。did you のあとは原形だよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "I (　) my grandparents last week.",
+            "choices": [
+                "visit",
+                "visited",
+                "visits",
+                "visiting"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしは先週、おじいちゃんとおばあちゃんに会いに行きました。",
+            "explanation": "last week（先週）とあるので、過去のことを言う文。visit に ed をつけた過去形の visited を選ぶ。",
+            "choiceNotes": [
+                "visit「原形」",
+                "visited「過去形」",
+                "visits「3単現」",
+                "visiting「ing形」"
+            ],
+            "tip": "授業の物語の Sally started working … last week. と同じ。いつのことかを先に見よう。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Which season do you like the (　)?\nB: Spring. I love the flowers.",
+            "choices": [
+                "good",
+                "well",
+                "much",
+                "best"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：どの季節がいちばん好きですか。\nB：春です。花が大好きなんです。",
+            "explanation": "like ～ the best で「～がいちばん好き」。Which season（どの季節）が好きかをたずね、春と答えている。",
+            "choiceNotes": [
+                "good「よい」",
+                "well「上手に」",
+                "much「たくさん」",
+                "best「the best でいちばん」"
+            ],
+            "tip": "授業のメールの … he likes action movies the best. と同じ形。the best をセットで書こう。"
+        }
+    ],
+    "closing": "英語は、目で読むだけでなく手で書くと覚えやすくなります。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。have to や took me to のように、セットで使う言い方は、ひとまとまりで覚えると使いやすくなります。まちがえたところは、解説を読んでから書き直せばだいじょうぶです。"
+}

@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2024-3-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "セットのことば・しつもんとこたえ・ならべるじゅんばん",
+    "aim": "じゅぎょうでならった、ヒントやセットでつかうことば、しつもんにあうこたえかた、ことばをならべるじゅんばんを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "まえとあとのヒントやセットから、あうことばをえらべる",
+        "しつもんとこたえがあうように、ことばをえらべる",
+        "can や Let's のあとの、どうしのかたちをただしくかける"
+    ],
+    "words": [
+        {
+            "word": "practice",
+            "meaning": "れんしゅうする"
+        },
+        {
+            "word": "letter",
+            "meaning": "てがみ"
+        },
+        {
+            "word": "violin",
+            "meaning": "バイオリン"
+        },
+        {
+            "word": "team",
+            "meaning": "チーム"
+        },
+        {
+            "word": "sometimes",
+            "meaning": "ときどき"
+        },
+        {
+            "word": "over there",
+            "meaning": "あそこに"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "He can speak English very well.",
+            "ja": "かれは、えいごをとてもじょうずにはなすことができます。",
+            "focus": "fp1",
+            "point": "can「～できる」",
+            "note": "can のあとのどうしは、もとのかたち。He のときでも、speaks にしないで speak のままかく。"
+        },
+        {
+            "en": "Is Ken in your class this year?",
+            "ja": "ことし、ケンはあなたのクラスにいますか。",
+            "focus": "fp2",
+            "point": "Is Ken ～? のこたえかた",
+            "note": "Is Ken ～? ときかれたら、Ken を he におきかえて、Yes, he is. や No, he isn't. のようにこたえる。"
+        },
+        {
+            "en": "Let's make spaghetti for lunch.",
+            "ja": "おひるごはんに、スパゲッティをつくりましょう。",
+            "focus": "fp3",
+            "point": "Let's ～.「～しましょう」",
+            "note": "Let's のあとに make（もとのかたち）をつづけて、「いっしょに～しよう」とさそういいかたになる。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "Our dog can (　) in the river.",
+            "choices": [
+                "swims",
+                "swimming",
+                "swim",
+                "swam"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "うちのいぬは、かわでおよぐことができます。",
+            "explanation": "can は「～できる」。can のあとのどうしは、もとのかたちにする。だから swim をえらぶ。",
+            "choiceNotes": [
+                "swims「s がついたかたち」",
+                "swimming「ing のかたち」",
+                "swim「もとのかたち」",
+                "swam「まえのこと（かこ）」"
+            ],
+            "tip": "じゅぎょうの He can speak English very well. とおなじかたち。can swim をセットでかこう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: (　) your mother play the piano?\nB: Yes. She plays it every day.",
+            "choices": [
+                "Does",
+                "Do",
+                "Is",
+                "Are"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：あなたのおかあさんは、ピアノをひきますか。\nB：はい。まい日ひいています。",
+            "explanation": "your mother のように、わたし・あなた いがいの1人のことを「～しますか」とたずねるときは、Does をつかう。play はもとのかたちのまま。",
+            "choiceNotes": [
+                "Does「he・she などのしつもん」",
+                "Do「I・you などのしつもん」",
+                "Is「play とはつかわない」",
+                "Are「play とはつかわない」"
+            ],
+            "tip": "じゅぎょうの Does your father play golf? とおなじかたち。Does のあとの play は、もとのかたち。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "We go to school (　) Monday to Friday.",
+            "choices": [
+                "at",
+                "in",
+                "of",
+                "from"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしたちは、月よう日から金よう日まで学校にいきます。",
+            "explanation": "from ～ to … で「～から…まで」。from Monday to Friday で「月よう日から金よう日まで」となる。",
+            "choiceNotes": [
+                "at「～に（じこく）」",
+                "in「～のなかに」",
+                "of「～の」",
+                "from「from ～ to … で～から…まで」"
+            ],
+            "tip": "じゅぎょうの from 7 p.m. to 9 p.m.（ごご7じから9じまで）とおなじ。from と to をセットでかこう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) is my cap, Mom?\nB: It's on your bed.",
+            "choices": [
+                "What",
+                "Where",
+                "Who",
+                "When"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：おかあさん、ぼくのぼうしはどこ？\nB：じぶんのベッドのうえにあるよ。",
+            "explanation": "B が on your bed（ベッドのうえに）と、ばしょをこたえている。ばしょをたずねることばは Where（どこ）。",
+            "choiceNotes": [
+                "What「なに」",
+                "Where「どこ」",
+                "Who「だれ」",
+                "When「いつ」"
+            ],
+            "tip": "じゅぎょうの Where do you usually swim? — In the city pool. とおなじ。ばしょがヒント。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: Are Ken and Yuta in the gym now?\nB: No, (　) aren't.",
+            "choices": [
+                "he",
+                "she",
+                "it",
+                "they"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ケンとユウタは、いま、たいいくかんにいますか。\nB：いいえ、いません。",
+            "explanation": "ここでは Ken and Yuta（ケンとユウタの2人）を they におきかえてこたえる。he・she・it は aren't とはつかわない。",
+            "choiceNotes": [
+                "he「かれは」",
+                "she「かのじょは」",
+                "it「それは」",
+                "they「かれらは」"
+            ],
+            "tip": "じゅぎょうの Yes, he is. は Ken 1人のこたえ。ここは Ken と Yuta の2人なので they。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "A: Lisa, do you want a sandwich?\nB: (　) I'm hungry.",
+            "choices": [
+                "Yes, please.",
+                "Yes, it is.",
+                "I'm ten.",
+                "See you."
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：リサ、サンドイッチはほしい？\nB：はい、おねがいします。おなかがすいているの。",
+            "explanation": "Do you want ～?（～がほしいですか）ときかれて、ほしいときは Yes, please.（はい、おねがいします）などとこたえる。",
+            "choiceNotes": [
+                "Yes, please.「おねがいします」",
+                "Yes, it is.「はい、そうです」",
+                "I'm ten.「10さいです」",
+                "See you.「またね」"
+            ],
+            "tip": "じゅぎょうの Just milk, please. とおなじ please。あとの I'm hungry. もヒントになるよ。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "A: (　) bike is that by the door?\nB: It's Mr. Hill's.",
+            "choices": [
+                "Who",
+                "Whose",
+                "When",
+                "How"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：ドアのそばにあるあのじてんしゃは、だれのものですか。\nB：ヒルさんのものです。",
+            "explanation": "ここでは Whose bike（だれのじてんしゃ）をひとまとまりにして、ぶんのはじめにおく。B の Mr. Hill's（ヒルさんのもの）もヒント。",
+            "choiceNotes": [
+                "Who「だれ」",
+                "Whose「だれの」",
+                "When「いつ」",
+                "How「どのように」"
+            ],
+            "tip": "じゅぎょうの Whose baseball cap is this? とおなじかたち。Whose bike でひとまとまり。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Let's (　) lunch under that big tree.",
+            "choices": [
+                "eating",
+                "ate",
+                "eat",
+                "eats"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "あのおおきな木のしたで、おひるごはんをたべましょう。",
+            "explanation": "Let's ～. で「～しましょう」とさそういいかた。Let's のあとのどうしは、もとのかたちの eat にする。",
+            "choiceNotes": [
+                "eating「ing のかたち」",
+                "ate「まえのこと（かこ）」",
+                "eat「もとのかたち」",
+                "eats「s がついたかたち」"
+            ],
+            "tip": "じゅぎょうの Let's make spaghetti for lunch. とおなじかたち。Let's eat をセットでかこう。"
+        }
+    ],
+    "closing": "きょうは、セットのことばや、しつもんとこたえのつながりを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。おうちでも、Let's ～. をつかって、おうちの人をさそってみてください。"
+}

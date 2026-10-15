@@ -1,0 +1,325 @@
+{
+    "grade": "grade-pre2",
+    "exam": "2024-3-sat",
+    "title": "文法事項の確認",
+    "theme": "結果の構文・部分否定・不定詞・断りと代案・因果関係",
+    "aim": "授業の物語文・Eメール・説明文で学んだ、程度と結果の構文、形式主語、部分否定、目的を表す不定詞、名詞節と関係代名詞、話題の示し方、断りと申し出の表現、原因と結果を表す表現を、新しい英文の中で使えるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "程度と結果の構文、形式主語、部分否定の意味が分かる",
+        "目的を表す不定詞と、名詞節・関係代名詞の働きが分かる",
+        "Eメールで話題を示し、断りや申し出を伝える表現が分かる",
+        "原因と結果を表す表現から、文と文の関係をつかめる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The box was (　) heavy that I could not carry it by myself.",
+            "choices": [
+                "such",
+                "too",
+                "so",
+                "very"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その箱はとても重かったので、私は一人では運べなかった。",
+            "explanation": "〈so＋形容詞＋that ～〉で「とても…なので～」。結果を表す that 節を続けるので so。such は such a heavy box のように名詞を伴う。",
+            "choiceNotes": [
+                "such「such a heavy box の形」",
+                "too「～すぎる（too … to）」",
+                "so「so … that の形」",
+                "very「とても」"
+            ],
+            "tip": "授業の she was so shy that ... と同じ形。that の後ろが結果になる。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "It was hard for us (　) the hotel because the streets were dark.",
+            "choices": [
+                "find",
+                "to find",
+                "found",
+                "finds"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "通りが暗かったので、私たちがそのホテルを見つけるのは難しかった。",
+            "explanation": "文頭の It は形式主語で、本当の主語は後ろの to find the hotel。for us は「見つける」動作をする人（意味上の主語）を表す。",
+            "choiceNotes": [
+                "find「原形」",
+                "to find「to 不定詞」",
+                "found「過去形・過去分詞」",
+                "finds「3単現」"
+            ],
+            "tip": "授業の it was hard for her to do ... と同じ形。It を「それは」と訳さない。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "A high price does not (　) mean good quality.",
+            "choices": [
+                "always",
+                "never",
+                "every",
+                "none"
+            ],
+            "answer": 1,
+            "translate": true,
+            "translation": "値段が高いからといって、必ずしも品質がよいとは限らない。",
+            "explanation": "not always は「いつも～とは限らない」という部分否定。品質がよい場合もあれば、そうでない場合もあるという意味になる。",
+            "choiceNotes": [
+                "always「いつも」",
+                "never「決して～ない（not と重ねない）」",
+                "every「すべての（＋名詞）」",
+                "none「何も～ない（代名詞）」"
+            ],
+            "tip": "授業の This does not always bring ... と同じ形。「まったく～ない」とは訳さない。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "(　) the museum for free, you must show your student ID.",
+            "choices": [
+                "Enter",
+                "Entered",
+                "Enters",
+                "To enter"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "その博物館に無料で入るには、学生証を見せなければならない。",
+            "explanation": "この文頭の〈To＋動詞の原形〉は「～するには」と目的を表す。コンマの後ろが、そのためにしなければならないこと。",
+            "choiceNotes": [
+                "Enter「原形・命令文」",
+                "Entered「過去形・過去分詞」",
+                "Enters「3単現」",
+                "To enter「～するには（目的）」"
+            ],
+            "tip": "授業のメールの To apply, please contact me と同じ形。「～するには」と訳す。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Emma asked the clerk (　) the store had this shirt in a smaller size.",
+            "choices": [
+                "that",
+                "what",
+                "if",
+                "which"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "エマは店員に、その店にこのシャツのもっと小さいサイズがあるかどうか尋ねた。",
+            "explanation": "ask＋人＋if ～で「人に～かどうか尋ねる」。if 以下は asked の目的語になる名詞節で、「もし～なら」の意味ではない。",
+            "choiceNotes": [
+                "that「～ということ」",
+                "what「何を（後ろは不完全）」",
+                "if「～かどうか」",
+                "which「どちら・関係代名詞」"
+            ],
+            "tip": "授業の you asked if there was ... と同じ形。asked に合わせて had と過去形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The hotel gave me a map (　) I could use during my stay.",
+            "choices": [
+                "that",
+                "what",
+                "who",
+                "where"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "そのホテルは、滞在中に使える地図を私にくれた。",
+            "explanation": "a map を後ろから説明する関係代名詞。use の目的語が欠けていて、先行詞が物なので that が入る。",
+            "choiceNotes": [
+                "that「関係代名詞（物・人）」",
+                "what「先行詞を含む」",
+                "who「関係代名詞（人）」",
+                "where「関係副詞・後ろは完全」"
+            ],
+            "tip": "授業の that you may find helpful と同じ。that 以下が前の名詞を説明する。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "(　) your question about parking, there are thirty spaces behind the building.",
+            "choices": [
+                "Because",
+                "Regarding",
+                "Although",
+                "Unless"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "駐車場についてのご質問ですが、建物の裏に30台分のスペースがあります。",
+            "explanation": "Regarding ～で「～については」と、これから答える話題を示す。後ろは名詞のまとまり。Because などの接続詞なら後ろに文が必要。",
+            "choiceNotes": [
+                "Because「～なので（＋文）」",
+                "Regarding「～については」",
+                "Although「～だけれども」",
+                "Unless「～しない限り」"
+            ],
+            "tip": "授業のメールの Regarding group discounts と同じ。話題を示すときの目印になる。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "I'm sorry, but I'm not (　) to come to the meeting tomorrow.",
+            "choices": [
+                "can",
+                "ability",
+                "must",
+                "able"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "申し訳ありませんが、明日の会議には出席できません。",
+            "explanation": "〈be able to＋動詞の原形〉で「～できる」。not が付いて「～できない」となる。can・must は助動詞なので、be 動詞の後ろには置かない。",
+            "choiceNotes": [
+                "can「助動詞」",
+                "ability「能力（名詞）」",
+                "must「助動詞」",
+                "able「be able to＝～できる」"
+            ],
+            "tip": "授業の I am not able to offer discounts と同じ形。できないことを先に伝えている。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "Please call me any time. I will be (　) to answer your questions.",
+            "choices": [
+                "happily",
+                "happy",
+                "happiness",
+                "happen"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "いつでもお電話ください。喜んでご質問にお答えします。",
+            "explanation": "〈be happy to＋動詞の原形〉で「喜んで～する」。この形をつくるのは形容詞の happy で、相手への申し出によく使われる。",
+            "choiceNotes": [
+                "happily「幸せそうに（副詞）」",
+                "happy「うれしい（形容詞）」",
+                "happiness「幸せ（名詞）」",
+                "happen「起こる（動詞）」"
+            ],
+            "tip": "授業の I will be happy to organize ... と同じ形。「喜んで～します」と訳す。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "This program provides young people (　) a chance to work abroad.",
+            "choices": [
+                "with",
+                "of",
+                "at",
+                "from"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "このプログラムは、若者に海外で働く機会を与えている。",
+            "explanation": "provide＋人＋with＋物で「人に物を提供する」。ここでは young people（人）の後ろに a chance（物）が続くので with が入る。",
+            "choiceNotes": [
+                "with「provide 人 with 物」",
+                "of「～の」",
+                "at「～で（地点）」",
+                "from「～から」"
+            ],
+            "tip": "授業の This will provide you with ... と同じ形。人→with→物の順に並ぶ。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "The heavy rain (　) to a big flood in the town.",
+            "choices": [
+                "caused",
+                "brought",
+                "led",
+                "made"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "その大雨は、町の大きな洪水につながった。",
+            "explanation": "A lead to B で「AがBにつながる」。過去の出来事なので過去形の led。cause なら to を付けずに caused a big flood とする。",
+            "choiceNotes": [
+                "caused「引き起こした」",
+                "brought「持ってきた」",
+                "led「lead to＝つながる」",
+                "made「作った・させた」"
+            ],
+            "tip": "授業の This led to the forty-hour workweek と同じ形。to の後ろが結果。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "(　) to her coach's advice, Mika won the tennis tournament.",
+            "choices": [
+                "Thank",
+                "Because",
+                "Instead",
+                "Thanks"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "コーチの助言のおかげで、ミカはテニスの大会で優勝した。",
+            "explanation": "thanks to ～で「～のおかげで」。ここでは優勝という結果の原因を示している。名詞の thanks を使い、Thank to とは言わない。",
+            "choiceNotes": [
+                "Thank「感謝する（動詞）」",
+                "Because「～なので（＋文）」",
+                "Instead「その代わりに」",
+                "Thanks「thanks to＝おかげで」"
+            ],
+            "tip": "授業の Thanks to this change と同じ形。コンマの後ろに結果が続く。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The new rule (　) students to use tablets during class.",
+            "choices": [
+                "let",
+                "allowed",
+                "made",
+                "had"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "新しい規則によって、生徒は授業中にタブレットを使えるようになった。",
+            "explanation": "〈allow＋人＋to＋動詞の原形〉で「人が～するのを可能にする」。使役の let・make・have なら人の後ろは原形で、to は付けない。",
+            "choiceNotes": [
+                "let「let 人 原形」",
+                "allowed「allow 人 to ～」",
+                "made「make 人 原形」",
+                "had「have 人 原形」"
+            ],
+            "tip": "授業の allowed workers ... to have と同じ形。「～によって…できる」と訳すと自然。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "I missed the last train. That is (　) I came home by taxi.",
+            "choices": [
+                "what",
+                "which",
+                "who",
+                "why"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "終電に乗り遅れた。そういうわけで、タクシーで帰宅した。",
+            "explanation": "That is why ～で「そういうわけで～」。That は前の文の「終電に乗り遅れた」を指し、why の後ろにその結果が続く。",
+            "choiceNotes": [
+                "what「～こと（後ろは不完全）」",
+                "which「どれ・関係代名詞」",
+                "who「だれ・関係代名詞」",
+                "why「That is why＝だから」"
+            ],
+            "tip": "授業の That is why companies allow ... と同じ形。前の文が理由、why の後ろが結果。"
+        }
+    ],
+    "closing": "今回の表現は、どれも授業で読んだ物語文、Eメール、説明文に出てきたものです。thanks to や That is why などの原因と結果を表す表現は、長文の流れをつかむ手がかりになり、英作文で理由を書くときにも使えます。間違えた問題は授業の英文と並べて音読し、自分でも使えるようにしましょう。"
+}

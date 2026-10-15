@@ -91,6 +91,7 @@
                 { id: '2024-1-sat', label: '2024年度 第1回（土曜準会場）' },
                 { id: '2024-2', label: '2024年度 第2回' },
                 { id: '2024-3', label: '2024年度 第3回' },
+                { id: '2024-3-sat', label: '2024年度 第3回（土曜準会場）' },
                 { id: '2025-1', label: '2025年度 第1回' },
                 { id: '2025-1-sat', label: '2025年度 第1回（土曜準会場）' },
                 { id: '2025-2', label: '2025年度 第2回' },
@@ -144,6 +145,7 @@
                 { id: '2024-1', label: '2024年度 第1回' },
                 { id: '2024-2', label: '2024年度 第2回' },
                 { id: '2024-3', label: '2024年度 第3回' },
+                { id: '2024-3-sat', label: '2024年度 第3回（土曜準会場）' },
                 { id: '2025-1', label: '2025年度 第1回' },
                 { id: '2025-1-sat', label: '2025年度 第1回（土曜準会場）' },
                 { id: '2025-2', label: '2025年度 第2回' },
@@ -172,6 +174,7 @@
                 { id: '2024-1', label: '2024年度 第1回' },
                 { id: '2024-2', label: '2024年度 第2回' },
                 { id: '2024-3', label: '2024年度 第3回' },
+                { id: '2024-3-sat', label: '2024年度 第3回（土曜準会場）' },
                 { id: '2025-1', label: '2025年度 第1回' },
                 { id: '2025-1-sat', label: '2025年度 第1回（土曜準会場）' },
                 { id: '2025-2', label: '2025年度 第2回' },
@@ -386,6 +389,12 @@
             downloadName: 'ReadPass_EIKEN_Grade5_2026-1_Practice_Exam_Large_Type_v1.pdf',
             pages: 6
         },
+        'grade5/2024-3-sat': {
+            label: '英検5級 2024年度 第3回（土曜準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_Grade5_2024-3-sat_Practice_Exam_Large_Type_v1.pdf?v=20261015-grade5-2024-3-sat-v1',
+            downloadName: 'ReadPass_EIKEN_Grade5_2024-3-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 6
+        },
         'grade5/2025-1-sat': {
             label: '英検5級 2025年度 第1回（土曜準会場）',
             path: 'output/pdf/ReadPass_EIKEN_Grade5_2025-1-sat_Practice_Exam_Large_Type_v1.pdf?v=20261015-grade5-2025-1-sat-v1',
@@ -498,6 +507,12 @@
             label: '英検4級 2026年度 第1回',
             path: 'output/pdf/ReadPass_EIKEN_Grade4_2026-1_Practice_Exam_Large_Type_v1.pdf?v=20260829-eiken-grade345-2026-1-v1',
             downloadName: 'ReadPass_EIKEN_Grade4_2026-1_Practice_Exam_Large_Type_v1.pdf',
+            pages: 11
+        },
+        'grade4/2024-3-sat': {
+            label: '英検4級 2024年度 第3回（土曜準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_Grade4_2024-3-sat_Practice_Exam_Large_Type_v1.pdf?v=20261015-grade4-2024-3-sat-v1',
+            downloadName: 'ReadPass_EIKEN_Grade4_2024-3-sat_Practice_Exam_Large_Type_v1.pdf',
             pages: 11
         },
         'grade4/2025-1-sat': {
@@ -870,6 +885,12 @@
             label: '英検準2級 2024年度 第1回（土曜準会場）',
             path: 'output/pdf/ReadPass_EIKEN_GradePre2_2024-1-sat_Practice_Exam_Large_Type_v1.pdf?v=20261013-sat-venue-label-v1',
             downloadName: 'ReadPass_EIKEN_GradePre2_2024-1-sat_Practice_Exam_Large_Type_v1.pdf',
+            pages: 10
+        },
+        'grade-pre2/2024-3-sat': {
+            label: '英検準2級 2024年度 第3回（土曜準会場）',
+            path: 'output/pdf/ReadPass_EIKEN_GradePre2_2024-3-sat_Practice_Exam_Large_Type_v1.pdf?v=20261015-grade-pre2-2024-3-sat-v1',
+            downloadName: 'ReadPass_EIKEN_GradePre2_2024-3-sat_Practice_Exam_Large_Type_v1.pdf',
             pages: 10
         },
         'grade-pre2/2025-1-sat': {

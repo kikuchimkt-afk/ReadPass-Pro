@@ -1,0 +1,1805 @@
+{
+    "grade": "準2級",
+    "year": "2024",
+    "session": "3",
+    "title": "2024年度 第3回（土曜準会場） 英語資格検定準2級 リーディング",
+    "vocabulary": [
+        {
+            "word": "bake",
+            "meaning": "焼く",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "We baked a cake for Dad's birthday.",
+            "distractors": [
+                "燃やす",
+                "曲げる",
+                "破裂する"
+            ],
+            "wordAudio": "audio/vocab/w_001_bake.mp3"
+        },
+        {
+            "word": "correct",
+            "meaning": "正しい",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Please check that all your answers are correct.",
+            "distractors": [
+                "ひどい",
+                "優しい",
+                "きつい"
+            ],
+            "wordAudio": "audio/vocab/w_002_correct.mp3"
+        },
+        {
+            "word": "easily",
+            "meaning": "簡単に・楽に",
+            "pos": "副詞",
+            "level": "準2級",
+            "example": "I could easily read the large letters on the sign.",
+            "distractors": [
+                "急速に",
+                "神経質に",
+                "落ち着いて"
+            ],
+            "wordAudio": "audio/vocab/w_003_easily.mp3"
+        },
+        {
+            "word": "deny",
+            "meaning": "否定する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "The boy denied breaking the window.",
+            "distractors": [
+                "尊敬する",
+                "比較する",
+                "励ます"
+            ],
+            "wordAudio": "audio/vocab/w_004_deny.mp3"
+        },
+        {
+            "word": "freeze",
+            "meaning": "凍る",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Water freezes at zero degrees Celsius.",
+            "distractors": [
+                "沈む",
+                "ほめる",
+                "治す"
+            ],
+            "wordAudio": "audio/vocab/w_005_freeze.mp3"
+        },
+        {
+            "word": "beat",
+            "meaning": "打ち負かす",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Our team beat the champions 3 to 1.",
+            "distractors": [
+                "航海する",
+                "切る",
+                "測る"
+            ],
+            "wordAudio": "audio/vocab/w_006_beat.mp3"
+        },
+        {
+            "word": "railroad",
+            "meaning": "鉄道",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The railroad connects the two towns.",
+            "distractors": [
+                "空港",
+                "重さ",
+                "給料"
+            ],
+            "wordAudio": "audio/vocab/w_007_railroad.mp3"
+        },
+        {
+            "word": "comfort",
+            "meaning": "慰める",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Lisa comforted her little brother when he started crying.",
+            "distractors": [
+                "発表する",
+                "開発する",
+                "探検する"
+            ],
+            "wordAudio": "audio/vocab/w_008_comfort.mp3"
+        },
+        {
+            "word": "complicate",
+            "meaning": "複雑にする",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "Too many rules can complicate a simple game.",
+            "distractors": [
+                "修理する",
+                "想像する",
+                "刺激を与える"
+            ],
+            "wordAudio": "audio/vocab/w_009_complicate.mp3"
+        },
+        {
+            "word": "government",
+            "meaning": "政府",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The government plans to build more schools.",
+            "distractors": [
+                "科学技術",
+                "健康",
+                "職業"
+            ],
+            "wordAudio": "audio/vocab/w_010_government.mp3"
+        },
+        {
+            "word": "in the long run",
+            "meaning": "長い目で見れば",
+            "pos": "句",
+            "level": "準2級",
+            "example": "Studying a little every day will help you in the long run.",
+            "distractors": [
+                "偏見を持たずに",
+                "土壇場で",
+                "大笑いするために"
+            ],
+            "wordAudio": "audio/vocab/w_011_in_the_long_run.mp3"
+        },
+        {
+            "word": "get rid of",
+            "meaning": "～を処分する・取り除く",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "I got rid of some old toys that I no longer used.",
+            "distractors": [
+                "～を使い果たす",
+                "～にいたずらをする",
+                "～を減らす"
+            ],
+            "wordAudio": "audio/vocab/w_012_get_rid_of.mp3"
+        },
+        {
+            "word": "do the laundry",
+            "meaning": "洗濯をする",
+            "pos": "句",
+            "level": "準2級",
+            "example": "I usually do the laundry on Sunday mornings.",
+            "distractors": [
+                "席に着く",
+                "息を止める",
+                "バランスを崩す"
+            ],
+            "wordAudio": "audio/vocab/w_013_do_the_laundry.mp3"
+        },
+        {
+            "word": "clear up",
+            "meaning": "（天気が）晴れる",
+            "pos": "句動詞",
+            "level": "準2級",
+            "example": "The sky cleared up after the storm.",
+            "distractors": [
+                "あきらめる",
+                "いっぱいになる",
+                "現れる"
+            ],
+            "wordAudio": "audio/vocab/w_014_clear_up.mp3"
+        },
+        {
+            "word": "day by day",
+            "meaning": "日ごとに",
+            "pos": "句",
+            "level": "準2級",
+            "example": "My English is getting better day by day.",
+            "distractors": [
+                "共通して",
+                "ひそかに",
+                "せいぜい"
+            ],
+            "wordAudio": "audio/vocab/w_015_day_by_day.mp3"
+        },
+        {
+            "word": "perform",
+            "meaning": "演じる・発表する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "The band will perform at the town festival.",
+            "distractors": [
+                "見学する",
+                "片付ける",
+                "予約する"
+            ],
+            "wordAudio": "audio/vocab/w_016_perform.mp3"
+        },
+        {
+            "word": "extra",
+            "meaning": "追加の・余分の",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Bring an extra pencil to the test.",
+            "distractors": [
+                "濡れた",
+                "古い",
+                "壊れた"
+            ],
+            "wordAudio": "audio/vocab/w_017_extra.mp3"
+        },
+        {
+            "word": "fridge",
+            "meaning": "冷蔵庫",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Put the milk back in the fridge.",
+            "distractors": [
+                "車庫",
+                "食器棚",
+                "電子レンジ"
+            ],
+            "wordAudio": "audio/vocab/w_018_fridge.mp3"
+        },
+        {
+            "word": "shrine",
+            "meaning": "神社",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "We visited a shrine in Kyoto on New Year's Day.",
+            "distractors": [
+                "寺",
+                "城",
+                "博物館"
+            ],
+            "wordAudio": "audio/vocab/w_019_shrine.mp3"
+        },
+        {
+            "word": "reservation",
+            "meaning": "予約",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "I made a reservation at the restaurant for six o'clock.",
+            "distractors": [
+                "注文",
+                "料金",
+                "案内"
+            ],
+            "wordAudio": "audio/vocab/w_020_reservation.mp3"
+        },
+        {
+            "word": "shy",
+            "meaning": "恥ずかしがりの",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "My little sister is shy with new people.",
+            "distractors": [
+                "勇敢な",
+                "退屈な",
+                "正直な"
+            ],
+            "wordAudio": "audio/vocab/w_021_shy.mp3"
+        },
+        {
+            "word": "regret",
+            "meaning": "後悔する",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "I regret not studying harder for the test.",
+            "distractors": [
+                "期待する",
+                "報告する",
+                "許す"
+            ],
+            "wordAudio": "audio/vocab/w_022_regret.mp3"
+        },
+        {
+            "word": "take action",
+            "meaning": "行動を起こす",
+            "pos": "句",
+            "level": "準2級",
+            "example": "We need to take action to keep the beach clean.",
+            "distractors": [
+                "休憩する",
+                "決心を変える",
+                "結果を待つ"
+            ],
+            "wordAudio": "audio/vocab/w_023_take_action.mp3"
+        },
+        {
+            "word": "successful",
+            "meaning": "成功した・うまくいった",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The school festival was very successful.",
+            "distractors": [
+                "恥ずかしい",
+                "危険な",
+                "不完全な"
+            ],
+            "wordAudio": "audio/vocab/w_024_successful.mp3"
+        },
+        {
+            "word": "photography",
+            "meaning": "写真撮影",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "My uncle's hobby is photography.",
+            "distractors": [
+                "絵画",
+                "料理",
+                "陶芸"
+            ],
+            "wordAudio": "audio/vocab/w_025_photography.mp3"
+        },
+        {
+            "word": "discount",
+            "meaning": "割引",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Students can get a discount at this museum.",
+            "distractors": [
+                "追加料金",
+                "払い戻し",
+                "税金"
+            ],
+            "wordAudio": "audio/vocab/w_026_discount.mp3"
+        },
+        {
+            "word": "fee",
+            "meaning": "料金",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The entrance fee for the zoo is 500 yen.",
+            "distractors": [
+                "給料",
+                "日程",
+                "割引券"
+            ],
+            "wordAudio": "audio/vocab/w_027_fee.mp3"
+        },
+        {
+            "word": "rent",
+            "meaning": "（お金を払って）借りる",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "We rented bikes and rode around the lake.",
+            "distractors": [
+                "修理する",
+                "返品する",
+                "注文する"
+            ],
+            "wordAudio": "audio/vocab/w_028_rent.mp3"
+        },
+        {
+            "word": "additional",
+            "meaning": "追加の",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The hotel charges an additional fee for breakfast.",
+            "distractors": [
+                "基本の",
+                "無料の",
+                "前回の"
+            ],
+            "wordAudio": "audio/vocab/w_029_additional.mp3"
+        },
+        {
+            "word": "apply",
+            "meaning": "申し込む",
+            "pos": "動詞",
+            "level": "準2級",
+            "example": "She applied for a summer job at the library.",
+            "distractors": [
+                "引退する",
+                "延期する",
+                "返信する"
+            ],
+            "wordAudio": "audio/vocab/w_030_apply.mp3"
+        },
+        {
+            "word": "regarding",
+            "meaning": "～に関して",
+            "pos": "前置詞",
+            "level": "準2級",
+            "example": "I have a question regarding the homework.",
+            "distractors": [
+                "～の代わりに",
+                "～にもかかわらず",
+                "～の前に"
+            ],
+            "wordAudio": "audio/vocab/w_031_regarding.mp3"
+        },
+        {
+            "word": "feel free to",
+            "meaning": "遠慮なく～する",
+            "pos": "句",
+            "level": "準2級",
+            "example": "Feel free to call me if you need help.",
+            "distractors": [
+                "～するのをためらう",
+                "～する義務がある",
+                "～するのに慣れている"
+            ],
+            "wordAudio": "audio/vocab/w_032_feel_free_to.mp3"
+        },
+        {
+            "word": "impact",
+            "meaning": "影響",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Smartphones have a big impact on our lives.",
+            "distractors": [
+                "利益",
+                "釣り合い",
+                "世紀"
+            ],
+            "wordAudio": "audio/vocab/w_033_impact.mp3"
+        },
+        {
+            "word": "attractive",
+            "meaning": "魅力的な",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The low price made the plan attractive to many families.",
+            "distractors": [
+                "否定的な",
+                "伝統的な",
+                "疲れた"
+            ],
+            "wordAudio": "audio/vocab/w_034_attractive.mp3"
+        },
+        {
+            "word": "physical",
+            "meaning": "身体の",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "Swimming is a good form of physical exercise.",
+            "distractors": [
+                "精神の",
+                "経済的な",
+                "社会の"
+            ],
+            "wordAudio": "audio/vocab/w_035_physical.mp3"
+        },
+        {
+            "word": "balance",
+            "meaning": "バランス・釣り合い",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "It is important to keep a good balance between study and rest.",
+            "distractors": [
+                "予定",
+                "影響",
+                "利益"
+            ],
+            "wordAudio": "audio/vocab/w_036_balance.mp3"
+        },
+        {
+            "word": "satisfied",
+            "meaning": "満足した",
+            "pos": "形容詞",
+            "level": "準2級",
+            "example": "The customers were satisfied with the service.",
+            "distractors": [
+                "失望した",
+                "退屈した",
+                "混乱した"
+            ],
+            "wordAudio": "audio/vocab/w_037_satisfied.mp3"
+        },
+        {
+            "word": "profit",
+            "meaning": "利益",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "The shop made a large profit last year.",
+            "distractors": [
+                "損失",
+                "給料",
+                "料金"
+            ],
+            "wordAudio": "audio/vocab/w_038_profit.mp3"
+        },
+        {
+            "word": "schedule",
+            "meaning": "予定・スケジュール",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "My schedule is full this week.",
+            "distractors": [
+                "割引",
+                "環境",
+                "技術"
+            ],
+            "wordAudio": "audio/vocab/w_039_schedule.mp3"
+        },
+        {
+            "word": "approach",
+            "meaning": "取り組み方・方法",
+            "pos": "名詞",
+            "level": "準2級",
+            "example": "Our teacher has a new approach to teaching English.",
+            "distractors": [
+                "到着",
+                "要求",
+                "結果"
+            ],
+            "wordAudio": "audio/vocab/w_040_approach.mp3"
+        }
+    ],
+    "sections": [
+        {
+            "name": "大問1",
+            "nameEn": "Part 1",
+            "type": "vocabulary",
+            "instruction": "次の(1)から(15)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 1,
+                    "text": "Tanya likes to ( 1 ) something for her family every weekend. This Saturday, she plans to make some delicious chocolate chip cookies.",
+                    "translation": "ターニャは毎週末、家族のために何かを（1）のが好きです。今週の土曜日は、おいしいチョコチップクッキーを作る予定です。",
+                    "choices": [
+                        "burn",
+                        "bend",
+                        "bake",
+                        "burst"
+                    ],
+                    "choiceTranslations": [
+                        "燃やす・焦がす",
+                        "曲げる",
+                        "焼く",
+                        "破裂する"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ burnは『燃やす・焦がす』。家族のために何かを燃やすのでは、クッキーを作る話につながらない",
+                        "❌ bendは『曲げる』。2文目のクッキー作りの予定と結びつかない",
+                        "✅ bakeは『（オーブンで）焼く』。2文目でchocolate chip cookiesを作る予定だと述べているのが根拠",
+                        "❌ burstは『破裂する・破裂させる』。お菓子作りの場面に合わない"
+                    ],
+                    "grammar": "💡 bake＝（パンや菓子をオーブンで）焼く。like to do＝～するのが好き。plan to do＝～する予定だ。"
+                },
+                {
+                    "number": 2,
+                    "text": "A : Mr. Smith, is my answer to this math problem ( 2 )?\nB : No, Johnny, it's wrong. Please try solving the problem again.",
+                    "translation": "A：スミス先生、この数学の問題の私の答えは（2）ですか。\nB：いいえ、ジョニー、間違っています。もう一度問題を解いてみてください。",
+                    "choices": [
+                        "awful",
+                        "correct",
+                        "gentle",
+                        "tight"
+                    ],
+                    "choiceTranslations": [
+                        "ひどい",
+                        "正しい",
+                        "優しい・穏やかな",
+                        "きつい"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ awfulは『ひどい』。答えの正誤を尋ねる言い方にならず、wrongとの対比が成り立たない",
+                        "✅ correctは『正しい』。Noと答えてit's wrong（間違っている）と続くので、正しいかどうかを尋ねている",
+                        "❌ gentleは『優しい・穏やかな』。人の性格や態度を表す語で、答えの正誤を表さない",
+                        "❌ tightは『きつい』。服や予定がきついことを表し、答えには使わない"
+                    ],
+                    "grammar": "💡 correct⇔wrong（正しい⇔間違った）。try doing＝試しに～してみる。"
+                },
+                {
+                    "number": 3,
+                    "text": "Carla asked Professor Anderson to speak more loudly because she could not hear his lecture ( 3 ).",
+                    "translation": "カーラはアンダーソン教授に、もっと大きな声で話してくれるよう頼みました。教授の講義が（3）聞こえなかったからです。",
+                    "choices": [
+                        "rapidly",
+                        "easily",
+                        "nervously",
+                        "calmly"
+                    ],
+                    "choiceTranslations": [
+                        "急速に",
+                        "簡単に・楽に",
+                        "神経質に・不安そうに",
+                        "落ち着いて"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ rapidlyは『急速に』。講義を急速に聞くとは言わず、大きな声を頼む理由にならない",
+                        "✅ easilyは『簡単に・楽に』。could not hear ... easily（楽に聞き取れなかった）が、大きな声で話すよう頼んだ理由になる",
+                        "❌ nervouslyは『神経質に・不安そうに』。聞き取りにくさの説明にならない",
+                        "❌ calmlyは『落ち着いて』。声を大きくしてほしい理由と結びつかない"
+                    ],
+                    "grammar": "💡 ask 人 to do＝人に～するよう頼む。more loudly＝もっと大きな声で（loudlyの比較級）。not ... easily＝楽には～できない。"
+                },
+                {
+                    "number": 4,
+                    "text": "When Tom's mother asked him if he had eaten the cake, he ( 4 ) it. He said that his brother Greg had eaten it.",
+                    "translation": "トムのお母さんがケーキを食べたのかと尋ねると、トムはそれを（4）。兄（弟）のグレッグが食べたと言いました。",
+                    "choices": [
+                        "respected",
+                        "denied",
+                        "compared",
+                        "encouraged"
+                    ],
+                    "choiceTranslations": [
+                        "尊敬した",
+                        "否定した",
+                        "比較した",
+                        "励ました"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ respectedは『尊敬した』。ケーキを食べたかという質問への反応にならない",
+                        "✅ deniedは『否定した』。自分ではなくグレッグが食べたと言っているので、食べたことを否定したとわかる",
+                        "❌ comparedは『比較した』。何と比べたのかがわからず、文意が通らない",
+                        "❌ encouragedは『励ました』。ケーキを励ますことはできない"
+                    ],
+                    "grammar": "💡 deny＝（事実であることを）否定する。ask 人 if ...＝人に～かどうか尋ねる。had eatenは尋ねた時点より前のことを表す過去完了。"
+                },
+                {
+                    "number": 5,
+                    "text": "The temperature was so low in the mountains that the water in the river started to ( 5 ).",
+                    "translation": "山の中は気温がとても低かったので、川の水が（5）始めました。",
+                    "choices": [
+                        "freeze",
+                        "sink",
+                        "praise",
+                        "cure"
+                    ],
+                    "choiceTranslations": [
+                        "凍る",
+                        "沈む",
+                        "ほめる",
+                        "（病気を）治す"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ freezeは『凍る』。気温がとても低いという原因に合う結果",
+                        "❌ sinkは『沈む』。川の水そのものが沈むとは言わず、気温の低さとも結びつかない",
+                        "❌ praiseは『ほめる』。人や行いをほめる語で、水の状態の変化を表さない",
+                        "❌ cureは『（病気を）治す』。水の変化を表す語ではない"
+                    ],
+                    "grammar": "💡 so＋形容詞＋that ...＝とても～なので…。freeze（凍る）の過去形・過去分詞はfroze／frozen。"
+                },
+                {
+                    "number": 6,
+                    "text": "A : Do you think the Jaguars will win today's baseball game against the Warriors, Dad?\nB : I'm not sure. The Warriors are a very strong team, so it will be a close game. It could go either way. But I hope the Jaguars ( 6 ) them.",
+                    "translation": "A：お父さん、ジャガーズは今日の野球の試合でウォリアーズに勝つと思う？\nB：わからないな。ウォリアーズはとても強いチームだから、接戦になるだろう。どちらが勝ってもおかしくない。でも、ジャガーズが彼らを（6）といいな。",
+                    "choices": [
+                        "sail",
+                        "beat",
+                        "cut",
+                        "measure"
+                    ],
+                    "choiceTranslations": [
+                        "航海する",
+                        "打ち負かす",
+                        "切る",
+                        "測る"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ sailは『航海する』。野球の試合の勝敗を表さない",
+                        "✅ beatは『（相手を）打ち負かす』。ジャガーズがウォリアーズ（them）に勝つことを願う文になり、Aの質問winにも対応する",
+                        "❌ cutは『切る』。相手チームを目的語にしても、試合の勝敗の意味にならない",
+                        "❌ measureは『測る』。試合の勝ち負けとは関係がない"
+                    ],
+                    "grammar": "💡 beat＋相手＝相手を負かす。win the game（試合に勝つ）と目的語の違いに注意。It could go either way.＝どちらに転ぶかわからない。close game＝接戦。"
+                },
+                {
+                    "number": 7,
+                    "text": "Many people moved to Greenwood after the ( 7 ) company built a station there. The train made it easy to travel to nearby cities.",
+                    "translation": "（7）会社がグリーンウッドに駅を作ってから、多くの人がそこへ引っ越してきました。電車のおかげで、近くの都市へ行きやすくなりました。",
+                    "choices": [
+                        "airport",
+                        "weight",
+                        "railroad",
+                        "salary"
+                    ],
+                    "choiceTranslations": [
+                        "空港",
+                        "重さ",
+                        "鉄道",
+                        "給料"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ airportは『空港』。駅を作り、The trainと続く文脈に合わない",
+                        "❌ weightは『重さ』。駅を建てる会社の種類にならない",
+                        "✅ railroadは『鉄道』。駅を作り、2文目でThe trainと続くので鉄道会社とわかる",
+                        "❌ salaryは『給料』。会社の種類を表さない"
+                    ],
+                    "grammar": "💡 railroad company＝鉄道会社。make it easy to do＝～するのを簡単にする（itはto以下を指す形式目的語）。"
+                },
+                {
+                    "number": 8,
+                    "text": "After the death of her cat, Nancy was very sad. Her parents tried to ( 8 ) her by giving her a new cat as a present.",
+                    "translation": "飼っていた猫が死んでしまい、ナンシーはとても悲しんでいました。両親は新しい猫をプレゼントして、彼女を（8）しようとしました。",
+                    "choices": [
+                        "comfort",
+                        "announce",
+                        "develop",
+                        "explore"
+                    ],
+                    "choiceTranslations": [
+                        "慰める",
+                        "発表する",
+                        "開発する・発達させる",
+                        "探検する"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ comfortは『慰める』。悲しんでいるナンシーに新しい猫を贈る目的に合う",
+                        "❌ announceは『発表する』。人を目的語にして、悲しみを和らげる意味にはならない",
+                        "❌ developは『開発する・発達させる』。悲しんでいる人への行動として合わない",
+                        "❌ exploreは『探検する』。herを目的語にすると文意が通らない"
+                    ],
+                    "grammar": "💡 comfort＝慰める。by doing＝～することによって（手段）。as a present＝プレゼントとして。"
+                },
+                {
+                    "number": 9,
+                    "text": "The new software for the company's computers is very easy to use. It does not ( 9 ) things like the old software did.",
+                    "translation": "会社のコンピューターの新しいソフトウェアは、とても使いやすいです。古いソフトウェアのように物事を（9）しません。",
+                    "choices": [
+                        "repair",
+                        "imagine",
+                        "complicate",
+                        "inspire"
+                    ],
+                    "choiceTranslations": [
+                        "修理する",
+                        "想像する",
+                        "複雑にする",
+                        "刺激を与える・やる気にさせる"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "❌ repairは『修理する』。使いやすさについての説明にならない",
+                        "❌ imagineは『想像する』。ソフトウェアが主語では文意が通らない",
+                        "✅ complicateは『複雑にする』。easy to useと対比して、古いソフトのように物事を複雑にしないと説明している",
+                        "❌ inspireは『刺激を与える・やる気にさせる』。使いやすさとの関係がない"
+                    ],
+                    "grammar": "💡 complicate＝複雑にする（形容詞はcomplicated）。like the old software did＝古いソフトウェアがそうしたように（didはcomplicated thingsの代わり）。"
+                },
+                {
+                    "number": 10,
+                    "text": "The ( 10 ) has decided to build a new hospital in the city. This will make it easier for people to get medical treatment.",
+                    "translation": "（10）は市内に新しい病院を建てることを決めました。これで人々は治療を受けやすくなるでしょう。",
+                    "choices": [
+                        "technology",
+                        "health",
+                        "career",
+                        "government"
+                    ],
+                    "choiceTranslations": [
+                        "科学技術",
+                        "健康",
+                        "職業・経歴",
+                        "政府・行政機関"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ technologyは『科学技術』。病院の建設を決める主体にならない",
+                        "❌ healthは『健康』。決定を下す主語として不自然",
+                        "❌ careerは『職業・経歴』。病院の建設を決める主体ではない",
+                        "✅ governmentは『政府・行政機関』。has decided to build a new hospitalの主語として、病院の建設を決める組織に合う"
+                    ],
+                    "grammar": "💡 decide to do＝～することに決める。make it easier for 人 to do＝人が～するのをより簡単にする。medical treatment＝治療。"
+                },
+                {
+                    "number": 11,
+                    "text": "Travis always buys good quality clothes because he can wear them for several years. Even though such clothes are expensive, Travis believes that he saves money ( 11 ).",
+                    "translation": "トラビスは何年も着られるので、いつも質のよい服を買います。そのような服は値段が高いですが、（11）お金の節約になるとトラビスは考えています。",
+                    "choices": [
+                        "with an open mind",
+                        "at the last minute",
+                        "for a good laugh",
+                        "in the long run"
+                    ],
+                    "choiceTranslations": [
+                        "偏見を持たずに",
+                        "土壇場で・直前に",
+                        "大笑いするために",
+                        "長い目で見れば"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ with an open mindは『偏見を持たずに』。お金を節約できる理由にならない",
+                        "❌ at the last minuteは『土壇場で・直前に』。何年も着られるという長い期間の話と合わない",
+                        "❌ for a good laughは『大笑いするために』。節約の話とは関係がない",
+                        "✅ in the long runは『長い目で見れば』。高くても何年も着られるので、結局はお金の節約になるという流れに合う"
+                    ],
+                    "grammar": "💡 in the long run＝長い目で見れば・結局は。even though＝～だけれども（譲歩）。such clothes＝そのような服（good quality clothesを指す）。"
+                },
+                {
+                    "number": 12,
+                    "text": "A : Honey, I think you should ( 12 ) this old T-shirt. It has a hole in it.\nB : OK. I'll throw it away.",
+                    "translation": "A：ねえ、この古いTシャツは（12）方がいいと思うよ。穴が開いているもの。\nB：わかった。捨てるよ。",
+                    "choices": [
+                        "run out of",
+                        "get rid of",
+                        "play tricks on",
+                        "cut down on"
+                    ],
+                    "choiceTranslations": [
+                        "～を使い果たす",
+                        "～を処分する",
+                        "～にいたずらをする",
+                        "～（の量）を減らす"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "❌ run out ofは『～を使い果たす・切らす』。Tシャツを使い果たすとは言わない",
+                        "✅ get rid ofは『～を処分する・取り除く』。BのI'll throw it away（捨てる）と内容が一致する",
+                        "❌ play tricks onは『～にいたずらをする』。人に対して使う表現で、Tシャツには合わない",
+                        "❌ cut down onは『～（の量）を減らす』。1枚のTシャツについて使う表現ではない"
+                    ],
+                    "grammar": "💡 get rid of ～＝～を処分する・取り除く。throw ～ away＝～を捨てる（Bの返答がget rid ofの言い換えになっている）。"
+                },
+                {
+                    "number": 13,
+                    "text": "Tammy is going to ( 13 ) today. It is a beautiful day, so she can put the clothes outside to dry.",
+                    "translation": "タミーは今日、（13）つもりです。よく晴れた日なので、服を外に干して乾かせます。",
+                    "choices": [
+                        "take a seat",
+                        "hold her breath",
+                        "lose her balance",
+                        "do the laundry"
+                    ],
+                    "choiceTranslations": [
+                        "席に着く",
+                        "息を止める",
+                        "バランスを崩す",
+                        "洗濯をする"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ take a seatは『席に着く』。服を外に干す話につながらない",
+                        "❌ hold her breathは『息を止める』。天気がよいことや服を乾かすことと関係がない",
+                        "❌ lose her balanceは『バランスを崩す』。前もって予定として述べる内容ではない",
+                        "✅ do the laundryは『洗濯をする』。晴れているので服を外に干して乾かせるという2文目に合う"
+                    ],
+                    "grammar": "💡 do the laundry＝洗濯をする。put ～ outside to dry＝～を外に出して乾かす（to dryは目的を表す不定詞）。"
+                },
+                {
+                    "number": 14,
+                    "text": "A : Is it going to rain tomorrow?\nB : The weather report said it would. However, it should ( 14 ) by the afternoon.",
+                    "translation": "A：明日は雨が降るのかな。\nB：天気予報では降ると言っていたよ。でも、午後までには（14）はずだよ。",
+                    "choices": [
+                        "clear up",
+                        "give up",
+                        "fill up",
+                        "show up"
+                    ],
+                    "choiceTranslations": [
+                        "（天気が）晴れる",
+                        "あきらめる",
+                        "いっぱいになる",
+                        "現れる"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "✅ clear upは『（天気が）晴れる』。雨の予報のあと、Howeverで午後には晴れると続く流れに合う",
+                        "❌ give upは『あきらめる』。天気を表すitの動きとして不自然",
+                        "❌ fill upは『いっぱいになる』。天気の変化を表さない",
+                        "❌ show upは『現れる』。人が来ることなどに使い、天気が回復する意味にはならない"
+                    ],
+                    "grammar": "💡 clear up＝（天気が）晴れる・回復する。said it would＝said it would rainの省略。should＝～するはずだ（見込み）。by＝～までに。"
+                },
+                {
+                    "number": 15,
+                    "text": "The weather in the city is getting warmer ( 15 ). People there are looking forward to the start of spring.",
+                    "translation": "その市の天気は（15）暖かくなってきています。そこに住む人々は、春の始まりを楽しみにしています。",
+                    "choices": [
+                        "in common",
+                        "in secret",
+                        "at most",
+                        "day by day"
+                    ],
+                    "choiceTranslations": [
+                        "共通して",
+                        "ひそかに",
+                        "せいぜい・多くても",
+                        "日ごとに"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "❌ in commonは『共通して』。have ～ in commonの形で使い、天気の変化を表さない",
+                        "❌ in secretは『ひそかに』。天気が暖かくなる様子には使わない",
+                        "❌ at mostは『せいぜい・多くても』。数量の上限を表し、getting warmerの変化を説明できない",
+                        "✅ day by dayは『日ごとに』。is getting warmer（だんだん暖かくなっている）という変化に合う"
+                    ],
+                    "grammar": "💡 day by day＝日ごとに・日に日に。be getting＋比較級＝だんだん～になってきている。look forward to＋名詞＝～を楽しみに待つ。"
+                }
+            ]
+        },
+        {
+            "name": "大問2",
+            "nameEn": "Part 2",
+            "type": "vocabulary",
+            "instruction": "次の四つの会話文を完成させるために，(16)から(20)に入るものとして最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "questions": [
+                {
+                    "number": 16,
+                    "text": "A : Did you come to our party last night?\nB : Yes, I did. But I had to leave early to go to a dance practice.\nA : I see. That's ( 16 ). Are you in a club activity?\nB : Yes. We are going to perform at the school festival next week.",
+                    "translation": "A：昨夜は私たちのパーティーに来た？\nB：うん、行ったよ。でも、ダンスの練習に行くために早く帰らなければならなかったんだ。\nA：なるほど。（16）。部活をしているの？\nB：うん。来週、学園祭で発表するんだ。",
+                    "choices": [
+                        "why I'm not good at dancing",
+                        "why I didn't see you there",
+                        "not what I want to know",
+                        "because you came early"
+                    ],
+                    "choiceTranslations": [
+                        "（それが）私がダンスが得意ではない理由",
+                        "（それで）会場であなたを見かけなかった",
+                        "私が知りたいことではない",
+                        "あなたが早く来たから"
+                    ],
+                    "answer": 2,
+                    "choiceAnalysis": [
+                        "Bが早く帰ったことは、Aがダンスを得意でない理由にはならない",
+                        "会場であなたを見かけなかった理由→正解。💡Bがパーティーを早く帰ったと聞き、会場で会わなかったわけがわかったという流れ",
+                        "AはI seeと事情を受け入れており、知りたいことではないと突き放す理由がない",
+                        "Bは早く来たのではなく、早く帰った（leave early）ので内容が逆"
+                    ],
+                    "grammar": "💡 That's why ～＝それが～の理由だ・だから～なのだ。leave early＝早く帰る。perform＝演じる・発表する。"
+                },
+                {
+                    "number": 17,
+                    "text": "A : This is the front desk. What can I do for you?\nB : Hi. This is Ashley Smith in Room 101. Can I ( 17 ), please? I want to dry my hair but only have wet ones in my room.\nA : Certainly, ma'am. We'll bring you a fresh one in about five minutes.\nB : Thank you very much.",
+                    "translation": "A：フロントでございます。ご用件をお伺いします。\nB：こんにちは。101号室のアシュリー・スミスです。（17）ことはできますか。髪を乾かしたいのですが、部屋には濡れたものしかないのです。\nA：かしこまりました。5分ほどで新しいものをお持ちします。\nB：どうもありがとうございます。",
+                    "choices": [
+                        "get an extra towel",
+                        "order room service",
+                        "clean the bathroom",
+                        "fix a hair dryer"
+                    ],
+                    "choiceTranslations": [
+                        "タオルをもう1枚もらう",
+                        "ルームサービスを注文する",
+                        "浴室を掃除する",
+                        "ヘアドライヤーを修理する"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "タオルをもう1枚もらう→正解。💡wet ones（濡れたもの）とa fresh one（新しいもの）のones／oneがtowelを指しているとわかる",
+                        "ルームサービスでは、髪を乾かしたいのに濡れたものしかないという説明につながらない",
+                        "浴室の掃除は、髪を乾かしたいという用件と結びつかない",
+                        "ドライヤーの修理なら、濡れたものしかない（only have wet ones）という説明と合わず、新しいものを届けるという返答にもつながらない"
+                    ],
+                    "grammar": "💡 ones／oneは前に出た名詞の繰り返しを避ける代名詞。wet ones＝濡れたタオル、a fresh one＝新しいタオル。extra＝追加の。"
+                },
+                {
+                    "number": 18,
+                    "text": "A : Good morning, honey. What's for breakfast today?\nB : I wanted to make some omelets, but ( 18 ).\nA : That's strange. We bought some at the supermarket yesterday.\nB : I know. Wait, I might have left them in the car. I'll go to the garage and see if I can find them.",
+                    "translation": "A：おはよう。今日の朝ごはんは何？\nB：オムレツを作りたかったんだけど、（18）。\nA：それは変だね。昨日スーパーで買ったよ。\nB：そうだよね。待って、車の中に置いたままかもしれない。ガレージに行って、見つかるか見てくるね。",
+                    "choices": [
+                        "I dropped the eggs and broke them all",
+                        "I ate all of the eggs last week",
+                        "I can't find any eggs in the fridge",
+                        "I'm not good at cooking eggs"
+                    ],
+                    "choiceTranslations": [
+                        "卵を落として全部割ってしまった",
+                        "先週、卵を全部食べてしまった",
+                        "冷蔵庫に卵が見つからない",
+                        "卵料理が得意ではない"
+                    ],
+                    "answer": 3,
+                    "choiceAnalysis": [
+                        "全部割ってしまったのなら、車の中を探しに行く流れにならない",
+                        "先週食べてしまっても、昨日買った卵は残っているはずで、車の中を探しに行く理由にならない",
+                        "冷蔵庫に卵が見つからない→正解。💡Aが昨日買ったと言い、Bが車に置いたままかもしれないと探しに行くので、卵が見当たらない状況とわかる",
+                        "料理が苦手だという話なら、卵を探しに行く必要はない"
+                    ],
+                    "grammar": "💡 might have＋過去分詞＝～したかもしれない（過去についての推量）。see if ...＝～かどうか確かめる。some／themはeggsを指す。"
+                },
+                {
+                    "number": 19,
+                    "text": "A : Hi. I'd like to take a guided tour of this city tomorrow. Do you have any suggestions?\nB : Sure. If you ( 19 ), I recommend the one in the morning. It will take you to the old temples and shrines in the city.\nA : Sounds interesting. What time does it start?\nB : It starts at 9:30 and ends at 12:30.\nA : That's too bad. I've ( 20 ).\nB : In that case, we have another tour that starts at 2:00 p.m. On this tour, you can visit a famous temple and try the tea ceremony.\nA : That would be wonderful. How much does it cost?\nB : It's fifty dollars per person, including a Japanese-style dinner.",
+                    "translation": "A：こんにちは。明日、この市のガイド付きツアーに参加したいのですが、何かおすすめはありますか。\nB：はい。（19）なら、午前中のツアーをおすすめします。市内の古いお寺や神社に連れて行ってくれます。\nA：おもしろそうですね。何時に始まりますか。\nB：9時30分に始まり、12時30分に終わります。\nA：それは残念です。（20）。\nB：それでしたら、午後2時に始まる別のツアーがあります。このツアーでは有名なお寺を訪れ、茶道を体験できます。\nA：それはすばらしいですね。料金はいくらですか。\nB：和食の夕食付きで、お一人様50ドルです。",
+                    "choices": [
+                        "want to learn about the history",
+                        "want to try some traditional food",
+                        "don't want to walk around outside",
+                        "don't want to get up early"
+                    ],
+                    "choiceTranslations": [
+                        "歴史について学びたい",
+                        "伝統的な料理を食べてみたい",
+                        "外を歩き回りたくない",
+                        "早起きしたくない"
+                    ],
+                    "answer": 1,
+                    "choiceAnalysis": [
+                        "歴史について学びたい→正解。💡午前のツアーは古いお寺や神社を回るので、歴史に関心がある人に勧める理由になる",
+                        "伝統料理を食べたいなら、和食の夕食が付く午後のツアーの方が合う",
+                        "お寺や神社を回るツアーなので、外を歩きたくない人に勧める理由にならない",
+                        "早起きしたくない人に、9時30分に始まる午前のツアーを勧めるのは不自然"
+                    ],
+                    "grammar": "💡 If you＋現在形, I recommend ～＝もし～なら、～をおすすめします。the one＝the tour。temples and shrines＝寺と神社。"
+                },
+                {
+                    "number": 20,
+                    "text": "A : Hi. I'd like to take a guided tour of this city tomorrow. Do you have any suggestions?\nB : Sure. If you ( 19 ), I recommend the one in the morning. It will take you to the old temples and shrines in the city.\nA : Sounds interesting. What time does it start?\nB : It starts at 9:30 and ends at 12:30.\nA : That's too bad. I've ( 20 ).\nB : In that case, we have another tour that starts at 2:00 p.m. On this tour, you can visit a famous temple and try the tea ceremony.\nA : That would be wonderful. How much does it cost?\nB : It's fifty dollars per person, including a Japanese-style dinner.",
+                    "translation": "A：こんにちは。明日、この市のガイド付きツアーに参加したいのですが、何かおすすめはありますか。\nB：はい。（19）なら、午前中のツアーをおすすめします。市内の古いお寺や神社に連れて行ってくれます。\nA：おもしろそうですね。何時に始まりますか。\nB：9時30分に始まり、12時30分に終わります。\nA：それは残念です。（20）。\nB：それでしたら、午後2時に始まる別のツアーがあります。このツアーでは有名なお寺を訪れ、茶道を体験できます。\nA：それはすばらしいですね。料金はいくらですか。\nB：和食の夕食付きで、お一人様50ドルです。",
+                    "choices": [
+                        "never seen such a beautiful building",
+                        "already decided which tour to take",
+                        "been looking for a good place to stay",
+                        "made a reservation for lunch at noon"
+                    ],
+                    "choiceTranslations": [
+                        "こんなに美しい建物を見たことがない",
+                        "どのツアーに参加するかもう決めた",
+                        "泊まるのによい場所を探している",
+                        "正午に昼食の予約をした"
+                    ],
+                    "answer": 4,
+                    "choiceAnalysis": [
+                        "That's too bad.（それは残念）の理由にならず、別の時間のツアーを勧められる流れにもならない",
+                        "参加するツアーをもう決めているなら、Bが別のツアーを紹介する流れにならない",
+                        "泊まる場所を探していることは、午前のツアーに参加できない理由にならない",
+                        "正午に昼食の予約をした→正解。💡ツアーが12時30分まで続くので参加できず、Bが午後のツアーを勧める流れに合う"
+                    ],
+                    "grammar": "💡 I've made a reservation＝予約をしてある（現在完了）。In that case＝それなら。including ～＝～を含めて。"
+                }
+            ]
+        },
+        {
+            "name": "大問3",
+            "nameEn": "Part 3",
+            "type": "passage-fill",
+            "instruction": "次の英文を読み，その文意にそって(21)と(22)の(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "passages": [
+                {
+                    "label": "",
+                    "title": "Taking Action",
+                    "paragraphs": [
+                        "Zoe is a high school student. When she was little, she was so shy that it was hard for her to do what she wanted. For example, she wanted to learn to dance, but she could not join a dance club because she was afraid to dance ( 21 ). One day, her father told her, \"Everything has a beginning. Taking the first step is the key.\" But in the end, she did not join the club.",
+                        "Later, Zoe regretted that she had not learned to dance whenever she thought about it. Now, when she finds something that she wants to try, she remembers her father's words and takes action. This does not always ( 22 ). But she feels that is OK. It is important for her to try it if she is interested in it. That way, she will never regret her actions."
+                    ],
+                    "translations": [
+                        "ゾーイは高校生です。小さいころはとても恥ずかしがり屋だったので、やりたいことをするのが難しいときがありました。たとえば、ダンスを習いたかったのですが、（21）踊るのが怖くて、ダンスクラブに入ることができませんでした。ある日、父親はゾーイに「何事にも始まりがある。最初の一歩を踏み出すことが大切なんだよ」と言いました。しかし結局、ゾーイはクラブに入りませんでした。",
+                        "その後、ゾーイはダンスのことを考えるたびに、ダンスを習わなかったことを後悔しました。今では、やってみたいことを見つけると、父親の言葉を思い出して行動を起こします。それがいつも（22）とは限りません。でも、ゾーイはそれでよいと思っています。興味があるなら、やってみることが彼女にとって大切なのです。そうすれば、自分の行動を後悔することは決してないでしょう。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Zoe is a high school student.",
+                            "ゾーイは高校生です。"
+                        ],
+                        [
+                            "When she was little, she was so shy that it was hard for her to do what she wanted.",
+                            "小さいころ、ゾーイはとても恥ずかしがり屋だったので、やりたいことをするのが難しいときがありました。"
+                        ],
+                        [
+                            "For example, she wanted to learn to dance, but she could not join a dance club because she was afraid to dance ( 21 ).",
+                            "たとえば、ダンスを習いたかったのですが、（21）踊るのが怖くて、ダンスクラブに入ることができませんでした。"
+                        ],
+                        [
+                            "One day, her father told her, \"Everything has a beginning. Taking the first step is the key.\"",
+                            "ある日、父親はゾーイに「何事にも始まりがある。最初の一歩を踏み出すことが大切なんだよ」と言いました。"
+                        ],
+                        [
+                            "But in the end, she did not join the club.",
+                            "しかし結局、ゾーイはクラブに入りませんでした。"
+                        ],
+                        [
+                            "Later, Zoe regretted that she had not learned to dance whenever she thought about it.",
+                            "その後、ゾーイはダンスのことを考えるたびに、ダンスを習わなかったことを後悔しました。"
+                        ],
+                        [
+                            "Now, when she finds something that she wants to try, she remembers her father's words and takes action.",
+                            "今では、やってみたいことを見つけると、父親の言葉を思い出して行動を起こします。"
+                        ],
+                        [
+                            "This does not always ( 22 ).",
+                            "それがいつも（22）とは限りません。"
+                        ],
+                        [
+                            "But she feels that is OK.",
+                            "でも、ゾーイはそれでよいと思っています。"
+                        ],
+                        [
+                            "It is important for her to try it if she is interested in it.",
+                            "興味があるなら、やってみることが彼女にとって大切なのです。"
+                        ],
+                        [
+                            "That way, she will never regret her actions.",
+                            "そうすれば、自分の行動を後悔することは決してないでしょう。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 21,
+                            "choices": [
+                                "in front of the other children",
+                                "alone in the dance studio",
+                                "every Tuesday after school",
+                                "by practicing very hard"
+                            ],
+                            "choiceTranslations": [
+                                "ほかの子どもたちの前で",
+                                "ダンススタジオで一人で",
+                                "毎週火曜日の放課後に",
+                                "一生懸命練習することで"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "ほかの子どもたちの前で→正解。💡前の文でとても恥ずかしがり屋だったと述べているので、人前で踊るのが怖かったとわかる",
+                                "一人で踊ることは、恥ずかしがり屋の人がクラブに入れない理由にならない",
+                                "曜日や時間帯は、恥ずかしがり屋だったことと結びつかない",
+                                "練習の仕方は、恥ずかしくて人前に出られないという話と関係がない"
+                            ],
+                            "grammar": "💡 be afraid to do＝怖くて～できない・～するのを怖がる。in front of ～＝～の前で。前の文のso shy thatが手がかり。"
+                        },
+                        {
+                            "number": 22,
+                            "choices": [
+                                "change her decision",
+                                "take some time to finish",
+                                "bring her successful results",
+                                "make her feel sorry"
+                            ],
+                            "choiceTranslations": [
+                                "彼女の決心を変える",
+                                "終えるのに時間がかかる",
+                                "彼女によい結果をもたらす",
+                                "彼女を後悔させる"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "決心を変えるという内容は、直後のBut she feels that is OK.（それでよいと思っている）とつながらない",
+                                "時間がかかるかどうかは、『興味があるならやってみることが大切』という考えと結びつかない",
+                                "よい結果をもたらす→正解。💡行動してもいつも成功するとは限らないが、それでよいと考えている、という流れに合う",
+                                "『いつも後悔させるとは限らない』では、Butで『それでよい』と続ける流れにならず、最後の文のnever regretとも合わない"
+                            ],
+                            "grammar": "💡 not always＝いつも～とは限らない（部分否定）。bring 人 ～＝人に～をもたらす。"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "大問4",
+            "nameEn": "Part 4",
+            "type": "reading-comprehension",
+            "instruction": "次の英文Ａ，Ｂの内容に関して，(23)から(29)までの質問に対して最も適切なもの，または文を完成させるのに最も適切なものを1，2，3，4の中から一つ選びなさい。",
+            "passages": [
+                {
+                    "label": "A",
+                    "title": "Photography workshop",
+                    "format": "email",
+                    "meta": {
+                        "from": "Sarah Johnson <info@sj-studio.com>",
+                        "to": "George Davis <g.davis@worldnetwork.xyz>",
+                        "date": "January 25",
+                        "subject": "Photography workshop"
+                    },
+                    "paragraphs": [
+                        "Hi George, This is Sarah from SJ Studio. Thank you for your e-mail. I am glad to know that you are interested in my two-hour photography workshop. In your e-mail, you asked if there was a discount for a large group. So, I am writing you to answer your question and also to provide some basic information about the workshop, such as fees and dates, that you may find helpful.",
+                        "I hold the workshop once a month, and the next one will be held on February 8 at 1:00 p.m. In this workshop, you will learn the basics of using a camera, including settings. The fee is forty dollars per person. You can bring your own camera or rent one for an additional ten dollars. To apply, please contact me at least two days before the workshop.",
+                        "Regarding group discounts, I am not able to offer discounts or coupons for large groups. However, if you are a group of five or more people, I will be happy to organize a private workshop. This will provide you with a great environment to practice and improve your photography skills just with your friends. Please feel free to ask if you have any questions! Thank you, Sarah Johnson"
+                    ],
+                    "translations": [
+                        "ジョージさんへ。SJスタジオのサラです。メールをありがとうございます。私の2時間の写真ワークショップに興味を持っていただけたとのこと、うれしく思います。メールでは、大人数のグループ向けの割引があるかどうかをお尋ねでした。そこで、ご質問にお答えするとともに、料金や日程など、お役に立ちそうなワークショップの基本的な情報をお伝えするためにメールを書いています。",
+                        "ワークショップは月に1回開いており、次回は2月8日の午後1時から行います。このワークショップでは、設定を含め、カメラの使い方の基本を学びます。料金はお一人40ドルです。ご自分のカメラを持ってくることも、追加の10ドルでカメラを借りることもできます。お申し込みの際は、ワークショップの少なくとも2日前までにご連絡ください。",
+                        "団体割引については、大人数のグループに割引やクーポンを提供することはできません。しかし、5人以上のグループでしたら、喜んで貸し切りのワークショップを企画します。お友達だけで写真の技術を練習し、上達させるのにとてもよい環境になるでしょう。ご質問があれば、遠慮なくお尋ねください。よろしくお願いします。サラ・ジョンソン"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "This is Sarah from SJ Studio.",
+                            "SJスタジオのサラです。"
+                        ],
+                        [
+                            "Thank you for your e-mail.",
+                            "メールをありがとうございます。"
+                        ],
+                        [
+                            "I am glad to know that you are interested in my two-hour photography workshop.",
+                            "私の2時間の写真ワークショップに興味を持っていただけたとのこと、うれしく思います。"
+                        ],
+                        [
+                            "In your e-mail, you asked if there was a discount for a large group.",
+                            "メールでは、大人数のグループ向けの割引があるかどうかをお尋ねでした。"
+                        ],
+                        [
+                            "So, I am writing you to answer your question and also to provide some basic information about the workshop, such as fees and dates, that you may find helpful.",
+                            "そこで、ご質問にお答えするとともに、料金や日程など、お役に立ちそうなワークショップの基本的な情報をお伝えするためにメールを書いています。"
+                        ],
+                        [
+                            "I hold the workshop once a month, and the next one will be held on February 8 at 1:00 p.m.",
+                            "ワークショップは月に1回開いており、次回は2月8日の午後1時から行います。"
+                        ],
+                        [
+                            "In this workshop, you will learn the basics of using a camera, including settings.",
+                            "このワークショップでは、設定を含め、カメラの使い方の基本を学びます。"
+                        ],
+                        [
+                            "The fee is forty dollars per person.",
+                            "料金はお一人40ドルです。"
+                        ],
+                        [
+                            "You can bring your own camera or rent one for an additional ten dollars.",
+                            "ご自分のカメラを持ってくることも、追加の10ドルでカメラを借りることもできます。"
+                        ],
+                        [
+                            "To apply, please contact me at least two days before the workshop.",
+                            "お申し込みの際は、ワークショップの少なくとも2日前までにご連絡ください。"
+                        ],
+                        [
+                            "Regarding group discounts, I am not able to offer discounts or coupons for large groups.",
+                            "団体割引については、大人数のグループに割引やクーポンを提供することはできません。"
+                        ],
+                        [
+                            "However, if you are a group of five or more people, I will be happy to organize a private workshop.",
+                            "しかし、5人以上のグループでしたら、喜んで貸し切りのワークショップを企画します。"
+                        ],
+                        [
+                            "This will provide you with a great environment to practice and improve your photography skills just with your friends.",
+                            "お友達だけで写真の技術を練習し、上達させるのにとてもよい環境になるでしょう。"
+                        ],
+                        [
+                            "Please feel free to ask if you have any questions!",
+                            "ご質問があれば、遠慮なくお尋ねください。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 23,
+                            "question": "What information did George Davis request in his previous e-mail?",
+                            "questionTranslation": "ジョージ・デイビスは前回のメールで、どんな情報を求めましたか。",
+                            "choices": [
+                                "Information about the workshop's teacher.",
+                                "Information about a group discount.",
+                                "How long the workshop takes.",
+                                "How many items people should bring to the workshop."
+                            ],
+                            "choiceTranslations": [
+                                "ワークショップの講師についての情報。",
+                                "団体割引についての情報。",
+                                "ワークショップにかかる時間。",
+                                "ワークショップに持っていくべき物の数。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "サラは自己紹介をしているが、講師についての情報をジョージが求めたとは書かれていない",
+                                "団体割引についての情報→正解。💡In your e-mail, you asked if there was a discount for a large groupとあり、ジョージは大人数のグループ向けの割引があるか尋ねていた",
+                                "two-hour photography workshopと長さは書かれているが、ジョージが尋ねた内容ではない",
+                                "持ち物の数を尋ねたとは書かれていない。カメラは持参するか、追加料金で借りられるという説明があるだけ"
+                            ],
+                            "grammar": "💡 previous e-mail＝（相手が送ってきた）前回のメール。you asked if ...＝～かどうか尋ねた。a discount for a large group→a group discountの言い換え。"
+                        },
+                        {
+                            "number": 24,
+                            "question": "What does Sarah Johnson say about the workshop?",
+                            "questionTranslation": "サラ・ジョンソンはワークショップについて何と言っていますか。",
+                            "choices": [
+                                "Students can rent a camera without extra cost.",
+                                "Students can sign up for a workshop on the same day.",
+                                "The workshop is organized every month.",
+                                "The workshop teaches a high level of technique."
+                            ],
+                            "choiceTranslations": [
+                                "受講者は追加料金なしでカメラを借りられる。",
+                                "受講者は当日にワークショップに申し込める。",
+                                "ワークショップは毎月開かれる。",
+                                "ワークショップでは高度な技術を教える。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "rent one for an additional ten dollarsとあり、カメラを借りるには追加で10ドルかかる",
+                                "please contact me at least two days before the workshopとあり、少なくとも2日前までに申し込む必要がある",
+                                "ワークショップは毎月開かれる→正解。💡I hold the workshop once a month（月に1回開いている）の言い換え",
+                                "you will learn the basics of using a cameraとあり、学ぶのはカメラの使い方の基本で、高度な技術ではない"
+                            ],
+                            "grammar": "💡 once a month＝月に1回。hold（会を開く）→ be organized（開催される）の言い換え。sign up for ～＝～に申し込む。"
+                        },
+                        {
+                            "number": 25,
+                            "question": "For a group of five people or more, Sarah can offer",
+                            "questionTranslation": "5人以上のグループに対して、サラが提供できるのは",
+                            "choices": [
+                                "a group discount.",
+                                "a private lesson.",
+                                "a coupon for the next workshop.",
+                                "a group photo taken by her."
+                            ],
+                            "choiceTranslations": [
+                                "団体割引。",
+                                "貸し切りのレッスン。",
+                                "次のワークショップのクーポン。",
+                                "彼女が撮影する集合写真。"
+                            ],
+                            "answer": 2,
+                            "choiceAnalysis": [
+                                "I am not able to offer discounts or coupons for large groupsとあり、団体割引はできない",
+                                "貸し切りのレッスン→正解。💡if you are a group of five or more people, I will be happy to organize a private workshopとあり、5人以上なら貸し切りのワークショップを企画すると書かれている",
+                                "大人数のグループにはクーポンも提供できないと書かれている",
+                                "サラが集合写真を撮るという記述はない"
+                            ],
+                            "grammar": "💡 a private workshop→a private lesson（貸し切りの講習）の言い換え。five or more＝5人以上（5人を含む）。"
+                        }
+                    ]
+                },
+                {
+                    "label": "B",
+                    "title": "Working Styles",
+                    "paragraphs": [
+                        "Many people around the world follow a working style based on forty hours a week. It was born in the United States about a century ago. In the early twentieth century, many people used to work ten to twelve hours a day. However, the long hours of work had a negative impact on both workers and how much work they could do. This led to the forty-hour workweek in the country, and it spread to other countries.",
+                        "When it started, it seemed attractive to many workers. Thanks to this change, people were able to improve their physical and mental health. In addition, it gave them more time to spend with their families. They could also use their private time to improve other skills. For these reasons, the new working style allowed workers at that time to have a better balance between work and personal life.",
+                        "In modern times, however, some people want even more personal time. This is how another working style, the four-day workweek, was born recently. In this working style, people focus on increasing how much they can do in short working hours while working four days a week. These workers believe that they can be more satisfied with their companies. In fact, some companies using this style have reported positive results or even increased profits.",
+                        "However, the four-day workweek is not perfect for all workers. That is why companies allow workers to work different schedules to fit their personal lives. For example, some people work half days twice a week, while others work shorter hours five days a week. So, we may see that a lot of companies will have their own approaches to meeting the needs of workers in the future."
+                    ],
+                    "translations": [
+                        "世界中の多くの人が、週40時間を基本とする働き方をしています。この働き方は、約100年前にアメリカで生まれました。20世紀の初めには、多くの人が1日に10時間から12時間働いていました。しかし、長時間の労働は、労働者自身と、彼らがこなせる仕事の量の両方に悪い影響を与えました。このことがアメリカでの週40時間労働制につながり、それはほかの国々にも広がりました。",
+                        "この働き方が始まったとき、多くの労働者にとって魅力的に思えました。この変化のおかげで、人々は心と体の健康を改善することができました。さらに、家族と過ごす時間も増えました。自分の自由な時間を使って、ほかの技能を高めることもできました。こうした理由から、新しい働き方によって、当時の労働者は仕事と私生活のバランスをよりよく取れるようになりました。",
+                        "しかし現代では、さらに多くの個人の時間を求める人もいます。こうして最近、週4日勤務というもう一つの働き方が生まれました。この働き方では、週に4日働きながら、短い労働時間でこなせる仕事の量を増やすことに力を注ぎます。こうした働き方をする人たちは、自分の会社にもっと満足できると考えています。実際、この働き方を取り入れた会社の中には、よい結果が出た、あるいは利益が増えたと報告しているところもあります。",
+                        "しかし、週4日勤務がすべての労働者にとって完璧なわけではありません。そのため、会社は労働者が個人の生活に合わせて、さまざまな勤務スケジュールで働くことを認めています。たとえば、週に2日半日だけ働く人もいれば、週に5日、短い時間働く人もいます。ですから将来は、多くの会社が、労働者のニーズに応えるための独自の方法を持つようになるかもしれません。"
+                    ],
+                    "sentencePairs": [
+                        [
+                            "Many people around the world follow a working style based on forty hours a week.",
+                            "世界中の多くの人が、週40時間を基本とする働き方をしています。"
+                        ],
+                        [
+                            "It was born in the United States about a century ago.",
+                            "この働き方は、約100年前にアメリカで生まれました。"
+                        ],
+                        [
+                            "In the early twentieth century, many people used to work ten to twelve hours a day.",
+                            "20世紀の初めには、多くの人が1日に10時間から12時間働いていました。"
+                        ],
+                        [
+                            "However, the long hours of work had a negative impact on both workers and how much work they could do.",
+                            "しかし、長時間の労働は、労働者自身と、彼らがこなせる仕事の量の両方に悪い影響を与えました。"
+                        ],
+                        [
+                            "This led to the forty-hour workweek in the country, and it spread to other countries.",
+                            "このことがアメリカでの週40時間労働制につながり、それはほかの国々にも広がりました。"
+                        ],
+                        [
+                            "When it started, it seemed attractive to many workers.",
+                            "この働き方が始まったとき、多くの労働者にとって魅力的に思えました。"
+                        ],
+                        [
+                            "Thanks to this change, people were able to improve their physical and mental health.",
+                            "この変化のおかげで、人々は心と体の健康を改善することができました。"
+                        ],
+                        [
+                            "In addition, it gave them more time to spend with their families.",
+                            "さらに、家族と過ごす時間も増えました。"
+                        ],
+                        [
+                            "They could also use their private time to improve other skills.",
+                            "自分の自由な時間を使って、ほかの技能を高めることもできました。"
+                        ],
+                        [
+                            "For these reasons, the new working style allowed workers at that time to have a better balance between work and personal life.",
+                            "こうした理由から、新しい働き方によって、当時の労働者は仕事と私生活のバランスをよりよく取れるようになりました。"
+                        ],
+                        [
+                            "In modern times, however, some people want even more personal time.",
+                            "しかし現代では、さらに多くの個人の時間を求める人もいます。"
+                        ],
+                        [
+                            "This is how another working style, the four-day workweek, was born recently.",
+                            "こうして最近、週4日勤務というもう一つの働き方が生まれました。"
+                        ],
+                        [
+                            "In this working style, people focus on increasing how much they can do in short working hours while working four days a week.",
+                            "この働き方では、週に4日働きながら、短い労働時間でこなせる仕事の量を増やすことに力を注ぎます。"
+                        ],
+                        [
+                            "These workers believe that they can be more satisfied with their companies.",
+                            "こうした働き方をする人たちは、自分の会社にもっと満足できると考えています。"
+                        ],
+                        [
+                            "In fact, some companies using this style have reported positive results or even increased profits.",
+                            "実際、この働き方を取り入れた会社の中には、よい結果が出た、あるいは利益が増えたと報告しているところもあります。"
+                        ],
+                        [
+                            "However, the four-day workweek is not perfect for all workers.",
+                            "しかし、週4日勤務がすべての労働者にとって完璧なわけではありません。"
+                        ],
+                        [
+                            "That is why companies allow workers to work different schedules to fit their personal lives.",
+                            "そのため、会社は労働者が個人の生活に合わせて、さまざまな勤務スケジュールで働くことを認めています。"
+                        ],
+                        [
+                            "For example, some people work half days twice a week, while others work shorter hours five days a week.",
+                            "たとえば、週に2日半日だけ働く人もいれば、週に5日、短い時間働く人もいます。"
+                        ],
+                        [
+                            "So, we may see that a lot of companies will have their own approaches to meeting the needs of workers in the future.",
+                            "ですから将来は、多くの会社が、労働者のニーズに応えるための独自の方法を持つようになるかもしれません。"
+                        ]
+                    ],
+                    "questions": [
+                        {
+                            "number": 26,
+                            "question": "Why did the forty-hour workweek start?",
+                            "questionTranslation": "週40時間労働制はなぜ始まったのですか。",
+                            "choices": [
+                                "To increase job opportunities.",
+                                "To keep workers busy at their jobs.",
+                                "To make people work longer hours for more money.",
+                                "To protect workers from working too many hours."
+                            ],
+                            "choiceTranslations": [
+                                "仕事の機会を増やすため。",
+                                "労働者を仕事で忙しくさせておくため。",
+                                "より多くのお金のために人々を長く働かせるため。",
+                                "労働者を働きすぎから守るため。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "仕事の機会（雇用）を増やすためとは書かれていない",
+                                "労働者を忙しくさせるためなら、労働時間を短くした理由と合わない",
+                                "週40時間制は1日10～12時間の労働より短い働き方で、長く働かせるという内容は逆",
+                                "労働者を働きすぎから守るため→正解。💡the long hours of work had a negative impact on both workers ...とあり、この悪い影響がThis led to the forty-hour workweekで週40時間制につながったと書かれている"
+                            ],
+                            "grammar": "💡 This led to ～＝このことが～につながった（Thisは前文の、長時間労働が悪い影響を与えたことを指す）。protect A from doing＝Aが～しないように守る。"
+                        },
+                        {
+                            "number": 27,
+                            "question": "When the forty-hour workweek was started in the United States, workers",
+                            "questionTranslation": "アメリカで週40時間労働制が始まったとき、労働者は",
+                            "choices": [
+                                "were forced to work more for their companies.",
+                                "had the opportunity to earn more money.",
+                                "were happy with the longer lunchtime.",
+                                "became mentally and physically healthier."
+                            ],
+                            "choiceTranslations": [
+                                "会社のためにもっと働かされた。",
+                                "より多くのお金を稼ぐ機会を得た。",
+                                "長くなった昼休みに満足した。",
+                                "心身ともにより健康になった。"
+                            ],
+                            "answer": 4,
+                            "choiceAnalysis": [
+                                "労働時間は短くなったので、もっと働かされたという内容は逆",
+                                "本文は健康や家族と過ごす時間が増えたことを述べており、収入が増えたという記述はない",
+                                "昼休みが長くなったとは書かれていない",
+                                "心身ともにより健康になった→正解。💡people were able to improve their physical and mental healthの言い換え"
+                            ],
+                            "grammar": "💡 physical and mental health（体と心の健康）→ mentally and physically healthier（精神的にも身体的にもより健康に）。名詞句が副詞＋形容詞の比較級に言い換えられている。"
+                        },
+                        {
+                            "number": 28,
+                            "question": "What effect has the four-day workweek had?",
+                            "questionTranslation": "週4日勤務はどのような効果をもたらしましたか。",
+                            "choices": [
+                                "It has reduced the popularity of many companies.",
+                                "More workers started working longer hours each day.",
+                                "Some companies have made more profits.",
+                                "Negative reactions have spread among workers."
+                            ],
+                            "choiceTranslations": [
+                                "多くの会社の人気を下げた。",
+                                "毎日長時間働く労働者が増えた。",
+                                "利益を増やした会社もある。",
+                                "労働者の間に否定的な反応が広がった。"
+                            ],
+                            "answer": 3,
+                            "choiceAnalysis": [
+                                "会社の人気が下がったとは書かれていない。労働者は会社にもっと満足できると考えている",
+                                "週4日勤務では短い労働時間でこなせる仕事の量を増やすことに力を注ぐとあり、毎日長く働くようになったとは書かれていない",
+                                "利益を増やした会社もある→正解。💡some companies using this style have reported positive results or even increased profitsの言い換え",
+                                "否定的な反応が広がったという記述はない。第4段落は、すべての労働者に完璧なわけではないと述べているだけ"
+                            ],
+                            "grammar": "💡 effect＝効果・影響。increased profits（増えた利益）→ have made more profits（より多くの利益を上げた）。using this styleはcompaniesを後ろから説明する現在分詞。"
+                        },
+                        {
+                            "number": 29,
+                            "question": "Instead of the four-day workweek, some companies",
+                            "questionTranslation": "週4日勤務の代わりに、一部の会社は",
+                            "choices": [
+                                "have their own working styles based on workers' needs.",
+                                "allow their workers to come to work in casual clothes.",
+                                "decided to go back to the traditional forty-hour workweek.",
+                                "let their workers choose whether to work at home or in the office."
+                            ],
+                            "choiceTranslations": [
+                                "労働者のニーズに基づいた独自の働き方を取り入れている。",
+                                "労働者がふだん着で出勤することを認めている。",
+                                "従来の週40時間労働制に戻すことにした。",
+                                "在宅勤務か出社かを労働者に選ばせている。"
+                            ],
+                            "answer": 1,
+                            "choiceAnalysis": [
+                                "労働者のニーズに基づいた独自の働き方を取り入れている→正解。💡companies allow workers to work different schedules to fit their personal livesや、have their own approaches to meeting the needs of workersの言い換え",
+                                "本文が述べているのは働く時間や日数の違いで、服装についての記述はない",
+                                "従来の週40時間制に戻したとは書かれておらず、さまざまな勤務スケジュールを認めていると述べている",
+                                "在宅か出社かを選ぶという記述はない。本文の例は、半日勤務や短時間勤務など、働く時間の違い"
+                            ],
+                            "grammar": "💡 Instead of ～＝～の代わりに。meet the needs of ～＝～のニーズを満たす→based on workers' needs（労働者のニーズに基づいた）の言い換え。"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lessonPlan": {
+        "focusPoints": [
+            {
+                "id": "fp1",
+                "title": "so ～ that構文・形式主語のit・部分否定",
+                "subtitle": "so ... that, Formal Subject it & Partial Negation",
+                "explanation": "so＋形容詞＋that ...は『とても～なので…』と、原因と結果を一つの文で表します。It is＋形容詞＋for 人＋to do ...のitは形式主語で、本当の主語は後ろのto不定詞です。not alwaysは『いつも～とは限らない』という部分否定で、『まったく～ない』という意味ではありません。",
+                "sourceQuote": "so shy that it was hard for her to do what she wanted / does not always / It is important for her to try it",
+                "sourceLocation": "大問3「Taking Action」第1・2段落",
+                "examples": [
+                    {
+                        "en": "When she was little, she was so shy that it was hard for her to do what she wanted.",
+                        "ja": "小さいころ、ゾーイはとても恥ずかしがり屋だったので、やりたいことをするのが難しいときがありました。",
+                        "note": "so＋形容詞＋that ...＝とても～なので…。it was hard for her to doのitは形式主語で、to do what she wantedを指す。"
+                    },
+                    {
+                        "en": "This does not always bring her successful results.",
+                        "ja": "それがいつもよい結果をもたらすとは限りません。",
+                        "note": "not always＝いつも～とは限らない（部分否定）。よい結果になることもある、という含みがある。"
+                    },
+                    {
+                        "en": "It is important for her to try it if she is interested in it.",
+                        "ja": "興味があるなら、やってみることが彼女にとって大切なのです。",
+                        "note": "It is＋形容詞＋for 人＋to do＝人が～することは…だ。for herは不定詞の意味上の主語。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Taking Action 第1・2段落]\nWhen she was little, she was so shy that it was hard for her to do what she wanted. For example, she wanted to learn to dance, but she could not join a dance club because she was afraid to dance in front of the other children. Now, when she finds something that she wants to try, she remembers her father's words and takes action. This does not always bring her successful results. But she feels that is OK. It is important for her to try it if she is interested in it. That way, she will never regret her actions.",
+                    "ja": "小さいころ、ゾーイはとても恥ずかしがり屋だったので、やりたいことをするのが難しいときがありました。たとえば、ダンスを習いたかったのですが、ほかの子どもたちの前で踊るのが怖くて、ダンスクラブに入ることができませんでした。今では、やってみたいことを見つけると、父親の言葉を思い出して行動を起こします。それがいつもよい結果をもたらすとは限りません。でも、ゾーイはそれでよいと思っています。興味があるなら、やってみることが彼女にとって大切なのです。そうすれば、自分の行動を後悔することは決してないでしょう。",
+                    "audioFile": "audio/practice_pp1.mp3"
+                },
+                "highlightPatterns": [
+                    "so shy that",
+                    "it was hard for her to do what she wanted",
+                    "does not always",
+                    "It is important for her to try it"
+                ],
+                "highlightColor": "#4f8cff",
+                "highlightLabel": "構文・部分否定",
+                "practiceQuestions": [
+                    {
+                        "q": "so shy that ...の文で、原因と結果はそれぞれ何ですか？",
+                        "a": "原因はゾーイがとても恥ずかしがり屋だったこと、結果はやりたいことをするのが難しかったことです。"
+                    },
+                    {
+                        "q": "it was hard for her to do what she wantedのitは何を指しますか？",
+                        "a": "後ろのto do what she wanted（やりたいことをすること）を指す形式主語です。"
+                    },
+                    {
+                        "q": "This does not always bring her successful results.を『いつもよい結果をもたらさない』と訳してよいですか？",
+                        "a": "いいえ。not alwaysは部分否定なので、『いつもよい結果をもたらすとは限らない』と訳します。"
+                    },
+                    {
+                        "q": "It is important for her to try itで、『やってみる』のは誰ですか？",
+                        "a": "for herのher、つまりゾーイです。for＋人は不定詞の意味上の主語を表します。"
+                    }
+                ]
+            },
+            {
+                "id": "fp2",
+                "title": "目的を表す不定詞・ask if・関係代名詞that",
+                "subtitle": "Infinitives of Purpose, ask if & Relative Clauses",
+                "explanation": "このメールでは、I am writing you to ～（～するためにメールを書いています）のto不定詞が、メールを書いた目的を示しています。ask if ...のifは『～かどうか』という意味で、askの目的語になる名詞節を作ります。that you may find helpfulは、直前のsome basic information about the workshopを説明する関係代名詞節です。",
+                "sourceQuote": "you asked if there was a discount for a large group / I am writing you to answer your question / that you may find helpful / To apply, please contact me",
+                "sourceLocation": "大問4A メール第1・2段落",
+                "examples": [
+                    {
+                        "en": "In your e-mail, you asked if there was a discount for a large group.",
+                        "ja": "メールでは、大人数のグループ向けの割引があるかどうかをお尋ねでした。",
+                        "note": "ask if ...＝～かどうか尋ねる。askedに合わせてwasと過去形になっている（時制の一致）。"
+                    },
+                    {
+                        "en": "So, I am writing you to answer your question and also to provide some basic information about the workshop, such as fees and dates, that you may find helpful.",
+                        "ja": "そこで、ご質問にお答えするとともに、料金や日程など、お役に立ちそうなワークショップの基本的な情報をお伝えするためにメールを書いています。",
+                        "note": "to answer／to provideは『～するために』（目的）。that you may find helpfulはinformationを説明する関係代名詞節（find O C＝OがCだと思う）。"
+                    },
+                    {
+                        "en": "To apply, please contact me at least two days before the workshop.",
+                        "ja": "お申し込みの際は、ワークショップの少なくとも2日前までにご連絡ください。",
+                        "note": "文頭のTo apply＝申し込むためには（目的）。at least＝少なくとも。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Photography workshop 第1段落]\nThis is Sarah from SJ Studio. Thank you for your e-mail. I am glad to know that you are interested in my two-hour photography workshop. In your e-mail, you asked if there was a discount for a large group. So, I am writing you to answer your question and also to provide some basic information about the workshop, such as fees and dates, that you may find helpful.",
+                    "ja": "SJスタジオのサラです。メールをありがとうございます。私の2時間の写真ワークショップに興味を持っていただけたとのこと、うれしく思います。メールでは、大人数のグループ向けの割引があるかどうかをお尋ねでした。そこで、ご質問にお答えするとともに、料金や日程など、お役に立ちそうなワークショップの基本的な情報をお伝えするためにメールを書いています。",
+                    "audioFile": "audio/practice_pp2.mp3"
+                },
+                "highlightPatterns": [
+                    "you asked if there was a discount for a large group",
+                    "I am writing you to answer your question",
+                    "that you may find helpful",
+                    "To apply, please contact me"
+                ],
+                "highlightColor": "#f472b6",
+                "highlightLabel": "目的・if節",
+                "practiceQuestions": [
+                    {
+                        "q": "you asked if there was a discountのifはどんな意味ですか？",
+                        "a": "『～かどうか』です。条件の『もし～なら』ではなく、askedの目的語になる名詞節を作っています。"
+                    },
+                    {
+                        "q": "askedの後でisではなくwasが使われているのはなぜですか？",
+                        "a": "主節の動詞askedが過去形なので、時制の一致でwasになっています。日本語では『割引があるかどうか』と訳せます。"
+                    },
+                    {
+                        "q": "to answer your questionとto provide ...は何を表していますか？",
+                        "a": "サラがこのメールを書いている目的（～するために）を表しています。"
+                    },
+                    {
+                        "q": "that you may find helpfulは何を説明していますか？",
+                        "a": "some basic information about the workshopを説明する関係代名詞節です。such as fees and datesは、その情報の具体例です。"
+                    }
+                ]
+            },
+            {
+                "id": "fp3",
+                "title": "断りと代案を伝える表現",
+                "subtitle": "Declining Politely & Offering an Alternative",
+                "explanation": "Regarding ～（～については）で話題を示し、I am not able to ～で相手の希望に応えられないことを先に伝えています。そのあと、However, if ...で条件付きの代案を示し、I will be happy to ～（喜んで～します）で申し出ています。provide 人 with 物は『人に物を提供する』という意味で、代案のよさを説明しています。",
+                "sourceQuote": "I am not able to offer discounts or coupons / However, if you are a group of five or more people / I will be happy to / This will provide you with a great environment",
+                "sourceLocation": "大問4A メール第3段落",
+                "examples": [
+                    {
+                        "en": "Regarding group discounts, I am not able to offer discounts or coupons for large groups.",
+                        "ja": "団体割引については、大人数のグループに割引やクーポンを提供することはできません。",
+                        "note": "Regarding ～＝～については。be not able to do＝～できない。相手の質問への答え（断り）を先に伝えている。"
+                    },
+                    {
+                        "en": "However, if you are a group of five or more people, I will be happy to organize a private workshop.",
+                        "ja": "しかし、5人以上のグループでしたら、喜んで貸し切りのワークショップを企画します。",
+                        "note": "Howeverで断りから代案へ転じる。if＋条件, I will ～＝もし～なら…します（条件付きの申し出）。be happy to do＝喜んで～する。"
+                    },
+                    {
+                        "en": "This will provide you with a great environment to practice and improve your photography skills just with your friends.",
+                        "ja": "お友達だけで写真の技術を練習し、上達させるのにとてもよい環境になるでしょう。",
+                        "note": "provide 人 with 物＝人に物を提供する。to practice and improveはenvironmentを説明する不定詞（～するための環境）。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Photography workshop 第3段落]\nRegarding group discounts, I am not able to offer discounts or coupons for large groups. However, if you are a group of five or more people, I will be happy to organize a private workshop. This will provide you with a great environment to practice and improve your photography skills just with your friends. Please feel free to ask if you have any questions!",
+                    "ja": "団体割引については、大人数のグループに割引やクーポンを提供することはできません。しかし、5人以上のグループでしたら、喜んで貸し切りのワークショップを企画します。お友達だけで写真の技術を練習し、上達させるのにとてもよい環境になるでしょう。ご質問があれば、遠慮なくお尋ねください。",
+                    "audioFile": "audio/practice_pp3.mp3"
+                },
+                "highlightPatterns": [
+                    "I am not able to offer discounts or coupons",
+                    "However, if you are a group of five or more people",
+                    "I will be happy to",
+                    "This will provide you with a great environment"
+                ],
+                "highlightColor": "#34d399",
+                "highlightLabel": "断り・代案",
+                "practiceQuestions": [
+                    {
+                        "q": "サラはジョージの質問（団体割引）にどう答えていますか？",
+                        "a": "I am not able to offer discounts or coupons for large groupsと、大人数のグループに割引やクーポンは提供できないと答えています。"
+                    },
+                    {
+                        "q": "However, if ...の文は、どのような代案を示していますか？",
+                        "a": "5人以上のグループなら、貸し切りのワークショップを企画するという代案です。"
+                    },
+                    {
+                        "q": "This will provide you with a great environmentのThisは何を指しますか？",
+                        "a": "前の文の、5人以上のグループのために貸し切りのワークショップを開くことを指します。"
+                    },
+                    {
+                        "q": "Please feel free to ask if you have any questions!のifは『～かどうか』の意味ですか？",
+                        "a": "いいえ。ここでは『もし～なら』という条件の意味です。第1段落のyou asked if ...（～かどうか尋ねた）と区別しましょう。"
+                    }
+                ]
+            },
+            {
+                "id": "fp4",
+                "title": "原因と結果をつなぐ表現",
+                "subtitle": "Cause & Effect Expressions",
+                "explanation": "説明文では、原因と結果の関係をつかむことが大切です。A lead to Bは『AがBにつながる』、thanks to ～は『～のおかげで』、allow 人 to doは『人が～することを可能にする・認める』、That is why ～は『そういうわけで～』という意味です。Thisやthis changeが前の文のどの内容を指しているかも確かめましょう。",
+                "sourceQuote": "This led to the forty-hour workweek / Thanks to this change / allowed workers at that time to have a better balance / That is why companies allow workers",
+                "sourceLocation": "大問4B「Working Styles」第1・2・4段落",
+                "examples": [
+                    {
+                        "en": "This led to the forty-hour workweek in the country, and it spread to other countries.",
+                        "ja": "このことがアメリカでの週40時間労働制につながり、それはほかの国々にも広がりました。",
+                        "note": "A lead to B＝AがBにつながる。Thisは前の文の、長時間労働が悪い影響を与えたことを指す。"
+                    },
+                    {
+                        "en": "Thanks to this change, people were able to improve their physical and mental health.",
+                        "ja": "この変化のおかげで、人々は心と体の健康を改善することができました。",
+                        "note": "thanks to ～＝～のおかげで。this changeは週40時間労働制への変化を指す。"
+                    },
+                    {
+                        "en": "That is why companies allow workers to work different schedules to fit their personal lives.",
+                        "ja": "そのため、会社は労働者が個人の生活に合わせて、さまざまな勤務スケジュールで働くことを認めています。",
+                        "note": "That is why ～＝そういうわけで～。前の文（週4日勤務はすべての人に完璧ではない）が理由、why以下が結果。allow 人 to do＝人が～することを認める。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Working Styles 第1・2段落]\nMany people around the world follow a working style based on forty hours a week. It was born in the United States about a century ago. In the early twentieth century, many people used to work ten to twelve hours a day. However, the long hours of work had a negative impact on both workers and how much work they could do. This led to the forty-hour workweek in the country, and it spread to other countries. When it started, it seemed attractive to many workers. Thanks to this change, people were able to improve their physical and mental health. In addition, it gave them more time to spend with their families. They could also use their private time to improve other skills. For these reasons, the new working style allowed workers at that time to have a better balance between work and personal life.",
+                    "ja": "世界中の多くの人が、週40時間を基本とする働き方をしています。この働き方は、約100年前にアメリカで生まれました。20世紀の初めには、多くの人が1日に10時間から12時間働いていました。しかし、長時間の労働は、労働者自身と、彼らがこなせる仕事の量の両方に悪い影響を与えました。このことがアメリカでの週40時間労働制につながり、それはほかの国々にも広がりました。この働き方が始まったとき、多くの労働者にとって魅力的に思えました。この変化のおかげで、人々は心と体の健康を改善することができました。さらに、家族と過ごす時間も増えました。自分の自由な時間を使って、ほかの技能を高めることもできました。こうした理由から、新しい働き方によって、当時の労働者は仕事と私生活のバランスをよりよく取れるようになりました。",
+                    "audioFile": "audio/practice_pp4.mp3"
+                },
+                "highlightPatterns": [
+                    "This led to the forty-hour workweek",
+                    "Thanks to this change",
+                    "allowed workers at that time to have a better balance",
+                    "That is why companies allow workers"
+                ],
+                "highlightColor": "#fbbf24",
+                "highlightLabel": "因果関係",
+                "practiceQuestions": [
+                    {
+                        "q": "This led to the forty-hour workweekのThisは何を指しますか？",
+                        "a": "前の文の、長時間の労働が労働者と仕事の量の両方に悪い影響を与えたことを指します。"
+                    },
+                    {
+                        "q": "led toの前と後では、どちらが原因ですか？",
+                        "a": "前（長時間労働の悪い影響）が原因で、後ろ（週40時間労働制）が結果です。"
+                    },
+                    {
+                        "q": "Thanks to this changeのthis changeは何を指しますか？",
+                        "a": "1日に10～12時間働く働き方から、週40時間労働制に変わったことを指します。"
+                    },
+                    {
+                        "q": "the new working style allowed workers at that time to have a better balance ...はどのような意味ですか？",
+                        "a": "『新しい働き方によって、当時の労働者は仕事と私生活のバランスをよりよく取れるようになった』という意味です。allow 人 to doは『人が～することを可能にする』です。"
+                    }
+                ]
+            },
+            {
+                "id": "fp5",
+                "title": "今回の重要なパラフレーズ",
+                "subtitle": "Key Paraphrases in This Exam",
+                "explanation": "大問4の正解の選択肢は、本文と同じ内容を別の語句で言い換えていることがよくあります。たとえばQ24のThe workshop is organized every month.は、I hold the workshop once a monthの言い換えで、once a monthがevery monthに、hold（開く）がbe organized（開催される）に変わっています。反対に、本文の語句を使っていても、料金・日数・時間などの条件が本文と違う選択肢は不正解です。根拠の文と意味が同じかどうかを確かめて選びましょう。",
+                "sourceQuote": "①you asked if there was a discount for a large group → Information about a group discount.（大人数の割引があるか尋ねた→団体割引についての情報）\n②I hold the workshop once a month → The workshop is organized every month.（月に1回開いている→毎月開かれる）\n③I will be happy to organize a private workshop → a private lesson.（貸し切りのワークショップを企画する→貸し切りのレッスン）\n④people were able to improve their physical and mental health → became mentally and physically healthier.（心と体の健康を改善できた→心身ともにより健康になった）\n⑤some companies using this style have reported positive results or even increased profits → Some companies have made more profits.（利益が増えたと報告した→より多くの利益を上げた）\n⑥a lot of companies will have their own approaches to meeting the needs of workers → have their own working styles based on workers' needs.（労働者のニーズに応える独自の方法→労働者のニーズに基づいた独自の働き方）",
+                "sourceLocation": "大問4A・4B（Q23〜Q25・Q27〜Q29）",
+                "examples": [
+                    {
+                        "en": "Thanks to this change, people were able to improve their physical and mental health.",
+                        "ja": "この変化のおかげで、人々は心と体の健康を改善することができました。",
+                        "note": "Q27：improve their physical and mental health → became mentally and physically healthier。名詞health → 形容詞の比較級healthier、physical and mental → mentally and physically。"
+                    },
+                    {
+                        "en": "In fact, some companies using this style have reported positive results or even increased profits.",
+                        "ja": "実際、この働き方を取り入れた会社の中には、よい結果が出た、あるいは利益が増えたと報告しているところもあります。",
+                        "note": "Q28：increased profits → have made more profits。increase（増やす）→ make more（より多く生み出す）。"
+                    },
+                    {
+                        "en": "So, we may see that a lot of companies will have their own approaches to meeting the needs of workers in the future.",
+                        "ja": "ですから将来は、多くの会社が、労働者のニーズに応えるための独自の方法を持つようになるかもしれません。",
+                        "note": "Q29：their own approaches to meeting the needs of workers → their own working styles based on workers' needs。approaches → working styles、meeting the needs of workers → based on workers' needs。"
+                    }
+                ],
+                "practicePassage": {
+                    "en": "[出典: Working Styles 第3・4段落]\nIn modern times, however, some people want even more personal time. This is how another working style, the four-day workweek, was born recently. In this working style, people focus on increasing how much they can do in short working hours while working four days a week. These workers believe that they can be more satisfied with their companies. In fact, some companies using this style have reported positive results or even increased profits. However, the four-day workweek is not perfect for all workers. That is why companies allow workers to work different schedules to fit their personal lives. For example, some people work half days twice a week, while others work shorter hours five days a week. So, we may see that a lot of companies will have their own approaches to meeting the needs of workers in the future.",
+                    "ja": "しかし現代では、さらに多くの個人の時間を求める人もいます。こうして最近、週4日勤務というもう一つの働き方が生まれました。この働き方では、週に4日働きながら、短い労働時間でこなせる仕事の量を増やすことに力を注ぎます。こうした働き方をする人たちは、自分の会社にもっと満足できると考えています。実際、この働き方を取り入れた会社の中には、よい結果が出た、あるいは利益が増えたと報告しているところもあります。しかし、週4日勤務がすべての労働者にとって完璧なわけではありません。そのため、会社は労働者が個人の生活に合わせて、さまざまな勤務スケジュールで働くことを認めています。たとえば、週に2日半日だけ働く人もいれば、週に5日、短い時間働く人もいます。ですから将来は、多くの会社が、労働者のニーズに応えるための独自の方法を持つようになるかもしれません。",
+                    "audioFile": "audio/practice_pp5.mp3"
+                },
+                "highlightPatterns": [
+                    "I hold the workshop once a month",
+                    "organize a private workshop",
+                    "improve their physical and mental health",
+                    "reported positive results or even increased profits",
+                    "their own approaches to meeting the needs of workers"
+                ],
+                "highlightColor": "#f59e0b",
+                "highlightLabel": "パラフレーズ",
+                "practiceQuestions": [
+                    {
+                        "q": "Q28の正解Some companies have made more profits.は、第3段落のどの表現の言い換えですか？",
+                        "a": "some companies using this style have reported positive results or even increased profitsです。increased profits（増えた利益）がhave made more profits（より多くの利益を上げた）に言い換えられています。"
+                    },
+                    {
+                        "q": "Q28の『More workers started working longer hours each day.』は正しいですか？",
+                        "a": "誤りです。週4日勤務では短い労働時間でこなせる仕事の量を増やすことに力を注ぐとあり、毎日長く働くようになったとは書かれていません。"
+                    },
+                    {
+                        "q": "Q29の正解have their own working styles based on workers' needs.は、第4段落のどの表現の言い換えですか？",
+                        "a": "will have their own approaches to meeting the needs of workersです。approaches（方法）がworking styles（働き方）に、meeting the needs of workersがbased on workers' needsに言い換えられています。"
+                    },
+                    {
+                        "q": "Q29の『decided to go back to the traditional forty-hour workweek.』は正しいですか？",
+                        "a": "誤りです。本文は、会社が個人の生活に合わせたさまざまな勤務スケジュールを認めていると述べており、従来の週40時間制に戻したとは書かれていません。"
+                    }
+                ]
+            }
+        ]
+    }
+}
