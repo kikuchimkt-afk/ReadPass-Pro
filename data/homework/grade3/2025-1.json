@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "受動態・現在完了・前置詞の熟語・比較級",
+    "aim": "授業で学んだ受動態・現在完了、前置詞を使う熟語、比較級と量の言い方を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "受動態と現在完了の文で、動詞の形を正しく選べる",
+        "「～へ行くとちゅうで」「音を小さくする」の言い方を使える",
+        "比べる文や「少しの」「～から守る」「お互いに」がわかる"
+    ],
+    "words": [
+        {
+            "word": "accident",
+            "meaning": "事故"
+        },
+        {
+            "word": "empty",
+            "meaning": "からっぽの"
+        },
+        {
+            "word": "volunteer",
+            "meaning": "ボランティア"
+        },
+        {
+            "word": "traditional",
+            "meaning": "伝統的な"
+        },
+        {
+            "word": "protect",
+            "meaning": "守る"
+        },
+        {
+            "word": "farmer",
+            "meaning": "農家の人"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Was this picture taken in Australia?",
+            "ja": "この写真はオーストラリアでとられたのですか。",
+            "focus": "fp1",
+            "point": "Was ～ taken?「～はとられたのですか」",
+            "note": "be動詞＋過去分詞で「～される」。疑問文は be動詞を主語の前に出す。take の過去分詞は taken。"
+        },
+        {
+            "en": "It was cooler than my hometown.",
+            "ja": "私の地元よりすずしかったです。",
+            "focus": "fp3",
+            "point": "比較級＋than「～より…」",
+            "note": "cool（すずしい）に er を付けた cooler が比較級。than のあとに比べる相手を置く。"
+        },
+        {
+            "en": "These three vegetables help each other to grow.",
+            "ja": "この3つの野菜は、お互いが育つのを助け合います。",
+            "focus": "fp4",
+            "point": "help each other「お互いに助け合う」",
+            "note": "each other は「お互い」。トウモロコシ・豆・カボチャの3つが、助け合って育つことを表している。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "This book was (　) by a famous singer.",
+            "choices": [
+                "write",
+                "wrote",
+                "written",
+                "writing"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "この本は有名な歌手によって書かれました。",
+            "explanation": "be動詞＋過去分詞で「～される」という受動態になる。write の過去分詞は written。by ～ は「～によって」。",
+            "choiceNotes": [
+                "write「原形」",
+                "wrote「過去形」",
+                "written「過去分詞」",
+                "writing「ing形」"
+            ],
+            "tip": "授業の Was this picture taken in Australia? と同じ受動態。written の形に注意しよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Have you (　) lunch yet?\nB: No, not yet. I'm hungry.",
+            "choices": [
+                "eaten",
+                "eat",
+                "ate",
+                "eating"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：もう昼ごはんを食べましたか。\nB：いいえ、まだです。おなかがすいています。",
+            "explanation": "Have you＋過去分詞 ～ yet? で「もう～しましたか」とたずねる現在完了の疑問文。eat の過去分詞は eaten。",
+            "choiceNotes": [
+                "eaten「過去分詞」",
+                "eat「原形」",
+                "ate「過去形」",
+                "eating「ing形」"
+            ],
+            "tip": "授業の Have you checked the mail yet today? と同じ形。現在完了は have＋過去分詞の形。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "I met my teacher (　) my way to school.",
+            "choices": [
+                "at",
+                "on",
+                "for",
+                "with"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "学校へ行くとちゅうで先生に会いました。",
+            "explanation": "on one's way to ～で「～へ行くとちゅうで」。one's の部分には、my や his などが入る。",
+            "choiceNotes": [
+                "at「～で（場所・時刻）」",
+                "on「on my way to のセット」",
+                "for「～のために」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の Mr. Ford buys a newspaper on his way to work. と同じ形。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: The TV is too loud.\nB: OK. I'll turn it (　).",
+            "choices": [
+                "up",
+                "on",
+                "in",
+                "down"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：テレビの音が大きすぎます。\nB：わかりました。音を小さくします。",
+            "explanation": "turn down で「（音を）小さくする」。it のような代名詞は、turn と down の間に置く決まり。",
+            "choiceNotes": [
+                "up「turn up＝音を大きく」",
+                "on「turn on＝電源を入れる」",
+                "in「中へ」",
+                "down「turn down＝音を小さく」"
+            ],
+            "tip": "too loud（大きすぎる）が手がかり。授業の Can you turn down the radio, please? と同じ。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "Today is (　) than yesterday.",
+            "choices": [
+                "warm",
+                "warmer",
+                "warmest",
+                "warmly"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "今日はきのうより暖かいです。",
+            "explanation": "than（～より）があるので、比較級の warmer を使う。短い語の比較級は、er を付けるのが基本。",
+            "choiceNotes": [
+                "warm「原級（暖かい）」",
+                "warmer「比較級」",
+                "warmest「最上級」",
+                "warmly「暖かく」"
+            ],
+            "tip": "授業の It was cooler than my hometown. と同じ形。than があれば比較級を考えよう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "I always put a (　) milk in my coffee.",
+            "choices": [
+                "few",
+                "many",
+                "much",
+                "little"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "私はいつもコーヒーに牛乳を少し入れます。",
+            "explanation": "milk のような数えられない名詞の「少しの」は a little。a few は数えられる名詞に使う。",
+            "choiceNotes": [
+                "few「a few＋数えられる名詞」",
+                "many「たくさんの（数）」",
+                "much「たくさんの（量）」",
+                "little「a little＝少しの」"
+            ],
+            "tip": "授業の Pat took a little medicine ... と同じ a little。量が「少し」のときに使う。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "This hat protects my face (　) the sun.",
+            "choices": [
+                "from",
+                "to",
+                "for",
+                "at"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "この帽子は日光から私の顔を守ってくれます。",
+            "explanation": "protect A from B で「B から A を守る」。from のあとには、さけたいもの（ここでは the sun）を置く。",
+            "choiceNotes": [
+                "from「～から」",
+                "to「～へ」",
+                "for「～のために」",
+                "at「～に（場所・時刻）」"
+            ],
+            "tip": "授業で読んだスリーシスターズの話の protect the area ... from the sun と同じ形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "A: Your team is very strong.\nB: Thanks. We always help each (　).",
+            "choices": [
+                "another",
+                "others",
+                "other",
+                "else"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：あなたのチームはとても強いですね。\nB：ありがとう。私たちはいつもお互いに助け合っています。",
+            "explanation": "each other で「お互い」。help each other で「お互いに助け合う」。この other には s を付けない。",
+            "choiceNotes": [
+                "another「もう一つの」",
+                "others「ほかの人たち」",
+                "other「each other＝お互い」",
+                "else「ほかに」"
+            ],
+            "tip": "授業の These three vegetables help each other to grow. と同じ形。"
+        }
+    ],
+    "closing": "今日は、受動態や現在完了、前置詞を使う熟語、比べる文を、手で書いて確かめました。書いた例文は、声に出して読みながらもう一度書いてみましょう。授業で読んだスリーシスターズの野菜のように、友だちと助け合いながら、英語の練習を少しずつ続けていきましょう。"
+}

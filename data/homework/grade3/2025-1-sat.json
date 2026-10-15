@@ -1,0 +1,242 @@
+{
+    "grade": "grade3",
+    "exam": "2025-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "熟語のセット・現在完了・付加疑問・動詞の形",
+    "aim": "授業で学んだ熟語のセット、現在完了と付加疑問、ていねいに希望を伝える言い方、期限の表し方、「～するのをやめる」などの動詞の形を、手で書きながら身につける。単語と例文をていねいに書き写し、★の問題では完成した英文を4線に正しく書く。",
+    "goals": [
+        "授業で学んだ熟語のセットを正しく書ける",
+        "現在完了の文と、付加疑問の文の形がわかる",
+        "希望・期限・「～するのをやめる」の言い方がわかる"
+    ],
+    "words": [
+        {
+            "word": "deliver",
+            "meaning": "配達する"
+        },
+        {
+            "word": "secret",
+            "meaning": "秘密"
+        },
+        {
+            "word": "in trouble",
+            "meaning": "困っている"
+        },
+        {
+            "word": "volunteer",
+            "meaning": "ボランティア"
+        },
+        {
+            "word": "newspaper",
+            "meaning": "新聞"
+        },
+        {
+            "word": "nervous",
+            "meaning": "緊張している"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Jenny was in trouble because she broke a dish at home.",
+            "ja": "ジェニーは家でお皿を割ってしまい、困っていました。",
+            "focus": "fp1",
+            "point": "be in trouble「困っている」",
+            "note": "be in trouble で「困っている」。because のあとに、困っている理由が続く。"
+        },
+        {
+            "en": "How long have you stayed in Canada?",
+            "ja": "カナダにはどのくらい滞在しているのですか。",
+            "focus": "fp2",
+            "point": "How long have you ～?「どのくらい～か」",
+            "note": "現在完了の疑問文で、今まで続いている期間をたずねる。you のあとに過去分詞の stayed を置く。"
+        },
+        {
+            "en": "I'd like to be a volunteer at Greenbank Public Library.",
+            "ja": "グリーンバンク公共図書館のボランティアになりたいです。",
+            "focus": "fp3",
+            "point": "I'd like to ～「～したい」",
+            "note": "この I'd は I would の短い形。I'd like to ～は、I want to ～よりていねいに希望を伝える言い方。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "We (　) a lot of fun at the school festival.",
+            "choices": [
+                "took",
+                "spent",
+                "had",
+                "gave"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "私たちは文化祭でとても楽しく過ごしました。",
+            "explanation": "have fun で「楽しむ」。過去のことなので have を過去形の had にする。a lot of fun で「とても楽しく」。",
+            "choiceNotes": [
+                "took「取った」",
+                "spent「（時間・お金を）使った」",
+                "had「have の過去形」",
+                "gave「あたえた」"
+            ],
+            "tip": "授業の Did you have fun in Hawaii? と同じ表現。have fun をセットで覚えよう。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "A: Will you really come to my game on Sunday?\nB: Yes. I won't (　) my promise.",
+            "choices": [
+                "break",
+                "lose",
+                "drop",
+                "miss"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：日曜日の試合に本当に来てくれるの？\nB：うん。約束は破らないよ。",
+            "explanation": "break my promise で「約束を破る」。won't は will not の短い形なので、「約束は破らない」という意味になる。",
+            "choiceNotes": [
+                "break「（約束を）破る」",
+                "lose「なくす」",
+                "drop「落とす」",
+                "miss「のがす」"
+            ],
+            "tip": "授業の I don't want to break my promise, ... と同じ表現。「約束を破る」は break を使う。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "My aunt has (　) in Osaka for ten years.",
+            "choices": [
+                "live",
+                "lives",
+                "living",
+                "lived"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "おばは10年間、大阪に住んでいます。",
+            "explanation": "has＋過去分詞の現在完了で、今まで続いていることを表す。for ten years で「10年間」。live の過去分詞は lived。",
+            "choiceNotes": [
+                "live「原形」",
+                "lives「3単現」",
+                "living「ing形」",
+                "lived「過去分詞」"
+            ],
+            "tip": "授業の How long have you stayed in Canada? と同じ現在完了。have / has＋過去分詞の形。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: Mr. Brown plays the guitar, (　) he?\nB: Yes. He's in a band.",
+            "choices": [
+                "isn't",
+                "doesn't",
+                "didn't",
+                "won't"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：ブラウンさんはギターをひきますよね。\nB：はい。バンドに入っています。",
+            "explanation": "文の最後に付けて「～ですよね」と確かめる付加疑問。plays のような一般動詞の現在の文で、主語が he なら doesn't を使う。",
+            "choiceNotes": [
+                "isn't「is の否定」",
+                "doesn't「does の否定」",
+                "didn't「did の否定」",
+                "won't「will の否定」"
+            ],
+            "tip": "授業の Your cat has blue eyes, doesn't it? と同じ形。前の文の動詞を見て選ぼう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: What's your dream?\nB: I'd like (　) a doctor someday.",
+            "choices": [
+                "become",
+                "becoming",
+                "became",
+                "to become"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：あなたの夢は何ですか。\nB：いつか医者になりたいです。",
+            "explanation": "I'd like to ～で「～したい」。I want to ～よりていねいな言い方。動詞を続けるときは to＋動詞の原形にする。",
+            "choiceNotes": [
+                "become「原形」",
+                "becoming「ing形」",
+                "became「過去形」",
+                "to become「to＋原形」"
+            ],
+            "tip": "授業の I'd like to be a volunteer ... と同じ形。この I'd は I would の短い形。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "Please return these books (　) next Monday.",
+            "choices": [
+                "by",
+                "until",
+                "since",
+                "at"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "来週の月曜日までに、これらの本を返してください。",
+            "explanation": "by は「～までに」で、そのときまでにすませる期限を表す。until は「～までずっと」で、同じことが続くときに使う。",
+            "choiceNotes": [
+                "by「～までに（期限）」",
+                "until「～までずっと」",
+                "since「～から（ずっと）」",
+                "at「～に（時刻など）」"
+            ],
+            "tip": "授業の I'll send it to you by the end of this week. と同じ by。期限を言うときに使う。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "Yuki stopped (　) TV and went to bed.",
+            "choices": [
+                "watch",
+                "watching",
+                "watched",
+                "watches"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "ユキはテレビを見るのをやめて、寝ました。",
+            "explanation": "「～するのをやめる」と言うときは、stop のあとの動詞を ing の形にする。stopped watching で「見るのをやめた」。",
+            "choiceNotes": [
+                "watch「原形」",
+                "watching「ing形」",
+                "watched「過去形」",
+                "watches「3単現」"
+            ],
+            "tip": "授業の He stopped going to university ... と同じ形。「～するのをやめる」は stop＋ing 形。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "The little town (　) famous because of the movie.",
+            "choices": [
+                "made",
+                "took",
+                "became",
+                "gave"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "その小さな町は、その映画のおかげで有名になりました。",
+            "explanation": "become＋様子を表す語で「～になる」。became は become の過去形で、famous が続いて「有名になった」となる。",
+            "choiceNotes": [
+                "made「作った」",
+                "took「取った」",
+                "became「～になった」",
+                "gave「あたえた」"
+            ],
+            "tip": "授業の Márquez soon became rich and famous. と同じ形。became＋様子を表す語で「～になった」。"
+        }
+    ],
+    "closing": "マルケスは、約18か月のあいだ毎日書き続けて、一冊の本を完成させました。英語の力も、毎日の小さな積み重ねで少しずつ育ちます。今日書いた単語と例文は、声に出して読みながら、もう一度書いてみましょう。まちがえた問題は、授業の英文と見比べて確かめてください。"
+}

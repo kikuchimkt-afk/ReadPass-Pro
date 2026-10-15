@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-1",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "「～している」「～しなさい」「～できる」のいいかた",
+    "aim": "じゅぎょうでならった、「いま～している」のぶん、「～しなさい」「～してください」のぶん、「～できる」のぶん、人やものをさすことば、「テレビで」のいいかたを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "「いま～している」のぶんを、ただしいかたちでかける",
+        "「～しなさい」「～できる」のぶんで、もとのかたちをつかえる",
+        "人やものをさすことばや、「テレビで」のいいかたがわかる"
+    ],
+    "words": [
+        {
+            "word": "garden",
+            "meaning": "にわ"
+        },
+        {
+            "word": "letter",
+            "meaning": "てがみ"
+        },
+        {
+            "word": "uncle",
+            "meaning": "おじさん"
+        },
+        {
+            "word": "aunt",
+            "meaning": "おばさん"
+        },
+        {
+            "word": "coffee",
+            "meaning": "コーヒー"
+        },
+        {
+            "word": "weekend",
+            "meaning": "しゅうまつ"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "He's washing his dog in the garden.",
+            "ja": "かれは、にわでいぬをあらっています。",
+            "focus": "fp1",
+            "point": "is＋ing のかたち「いま～している」",
+            "note": "He's は He is のみじかいかたち。is のあとに washing（ing のかたち）をつづけて、「いま～している」をあらわす。"
+        },
+        {
+            "en": "Mom, can I write a letter to Uncle Rob this afternoon?",
+            "ja": "おかあさん、きょうのごご、ロブおじさんにてがみをかいてもいい？",
+            "focus": "fp3",
+            "point": "Can I＋もとのかたち？「～してもいい？」",
+            "note": "Can I ～? は「～してもいい？」ときくいいかた。can のあとは、write のように もとのかたちをつかう。"
+        },
+        {
+            "en": "I often watch basketball games on TV with my brother.",
+            "ja": "わたしはよく、おにいさんとテレビでバスケットボールのしあいをみます。",
+            "focus": "fp4",
+            "point": "on TV「テレビで」",
+            "note": "「テレビで」は on TV という。on と TV をセットでおぼえよう。often は「よく」。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My sister and I (　) making a cake now.",
+            "choices": [
+                "am",
+                "is",
+                "are",
+                "be"
+            ],
+            "answer": 3,
+            "copy": true,
+            "translation": "わたしといもうとは、いまケーキをつくっています。",
+            "explanation": "My sister and I は「いもうととわたし」のふたり。ふたりいじょうのときは are をつかい、are making で「つくっている」となる。",
+            "choiceNotes": [
+                "am「I のとき」",
+                "is「he・she などのとき」",
+                "are「ふたりいじょう・you」",
+                "be「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの He's washing his dog. の He's は He is。ふたりなら are になるよ。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "Look! Sam is (　) in the sea.",
+            "choices": [
+                "swim",
+                "swimming",
+                "swims",
+                "swam"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "みて！サムがうみでおよいでいるよ。",
+            "explanation": "is のあとに ing のかたちをつづけて「いま～している」。swim は m をもうひとつかさねて swimming とかく。",
+            "choiceNotes": [
+                "swim「もとのかたち」",
+                "swimming「ing のかたち」",
+                "swims「s がついたかたち」",
+                "swam「かこのかたち」"
+            ],
+            "tip": "Look!（みて！）は、いまおきていることをしらせるときによくつかう。swimming のつづりにもきをつけよう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp2",
+            "text": "Please (　) your hands before lunch.",
+            "choices": [
+                "wash",
+                "washes",
+                "washing",
+                "washed"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "おひるごはんのまえに、てをあらってください。",
+            "explanation": "Please＋もとのかたちで「～してください」とたのむいいかた。Please のあとは、もとのかたちの wash をつかう。",
+            "choiceNotes": [
+                "wash「もとのかたち」",
+                "washes「s がついたかたち」",
+                "washing「ing のかたち」",
+                "washed「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Please open the window. とおなじかたち。He's washing とのちがいもくらべよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: I'm very hot, Mom.\nB: (　) some cold water, Yuta.",
+            "choices": [
+                "Sing",
+                "Wear",
+                "Listen",
+                "Drink"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：おかあさん、とてもあついよ。\nB：つめたい水をのみなさい、ユウタ。",
+            "explanation": "「～しなさい」は、うごきのことばの もとのかたちからはじめるのがきほん。「あつい」という人には「つめたい水をのみなさい」なので Drink。",
+            "choiceNotes": [
+                "Sing「うたう」",
+                "Wear「きる」",
+                "Listen「きく」",
+                "Drink「のむ」"
+            ],
+            "tip": "じゅぎょうの Wear a coat today. とおなじかたち。「～しなさい」は、うごきのことばからはじめよう。"
+        },
+        {
+            "number": 5,
+            "focus": "fp3",
+            "text": "A: Can you (　) me, Mom?\nB: Sure. What is it?",
+            "choices": [
+                "helps",
+                "help",
+                "helping",
+                "helped"
+            ],
+            "answer": 2,
+            "copy": false,
+            "translation": "A：おかあさん、てつだってくれる？\nB：いいよ。どうしたの？",
+            "explanation": "ここの Can you ～? は「～してくれる？」とたのむいいかた。can のあとは、もとのかたちの help をつかう。",
+            "choiceNotes": [
+                "helps「s がついたかたち」",
+                "help「もとのかたち」",
+                "helping「ing のかたち」",
+                "helped「かこのかたち」"
+            ],
+            "tip": "じゅぎょうの Can you help me? とおなじ。Can I ～? なら「～してもいい？」になるよ。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My uncle can (　) Chinese a little.",
+            "choices": [
+                "speaks",
+                "speaking",
+                "spoke",
+                "speak"
+            ],
+            "answer": 4,
+            "copy": true,
+            "translation": "わたしのおじさんは、ちゅうごくごがすこしはなせます。",
+            "explanation": "can＋もとのかたちで「～できる」。My uncle のように ひとりのときでも、can のあとは s のない speak をつかう。",
+            "choiceNotes": [
+                "speaks「s がついたかたち」",
+                "speaking「ing のかたち」",
+                "spoke「かこのかたち」",
+                "speak「もとのかたち」"
+            ],
+            "tip": "じゅぎょうの She can play the piano. とおなじ。She のあとでも can play だったね。"
+        },
+        {
+            "number": 7,
+            "focus": "fp4",
+            "text": "A: Do you know Aya and Mike?\nB: Yes. (　) live near my house.",
+            "choices": [
+                "He",
+                "She",
+                "They",
+                "It"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：アヤとマイクをしっている？\nB：うん。ふたりは、わたしのいえのちかくにすんでいるよ。",
+            "explanation": "Aya and Mike はふたりなので、「かれらは」の They をつかう。live に s がついていないのもヒントになる。",
+            "choiceNotes": [
+                "He「かれは」",
+                "She「かのじょは」",
+                "They「かれらは」",
+                "It「それは」"
+            ],
+            "tip": "じゅぎょうの They are Canadian. とおなじ They。ふたりいじょうの人やものをさすよ。"
+        },
+        {
+            "number": 8,
+            "focus": "fp4",
+            "text": "My grandfather watches sumo (　) TV every day.",
+            "choices": [
+                "on",
+                "at",
+                "in",
+                "of"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "わたしのおじいさんは、まい日テレビですもうをみます。",
+            "explanation": "「テレビで（みる）」は on TV という。on と TV は、セットでおぼえておこう。",
+            "choiceNotes": [
+                "on「on TV＝テレビで」",
+                "at「～で（ばしょ）」",
+                "in「～のなかに」",
+                "of「～の」"
+            ],
+            "tip": "じゅぎょうの watch basketball games on TV とおなじ on。on TV をセットでかこう。"
+        }
+    ],
+    "closing": "きょうは、「いま～している」「～しなさい」「～できる」のいいかたを、てをうごかしながられんしゅうしました。まちがえたところは、こたえをみて、もういちどかいてみましょう。おうちでも、いまじぶんがしていることを、I'm reading a book. のように、えいごでいってみてください。"
+}

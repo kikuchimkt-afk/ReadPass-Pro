@@ -1,0 +1,242 @@
+{
+    "grade": "grade5",
+    "exam": "2025-1-sat",
+    "layout": "writing",
+    "title": "書いて覚える英語",
+    "theme": "ヒントとセットのことば・しつもんとこたえ・ぶんのかたち",
+    "aim": "じゅぎょうでならった、まえとあとのヒントからことばをえらぶこと、セットでつかうことば、しつもんにあうこたえかた、「だれが」のあとのどうしのかたちを、かきながらおぼえる。たんごとれいぶんをていねいにかき、★のもんだいでは、できあがったえいぶんを4せんにただしくかく。",
+    "goals": [
+        "まえとあとのヒントやセットから、あうことばをえらべる",
+        "こたえにあう、たずねることばがわかる",
+        "「だれが」のあとのどうしのかたちを、ただしくかける"
+    ],
+    "words": [
+        {
+            "word": "Wednesday",
+            "meaning": "水よう日"
+        },
+        {
+            "word": "breakfast",
+            "meaning": "あさごはん"
+        },
+        {
+            "word": "grandmother",
+            "meaning": "おばあさん"
+        },
+        {
+            "word": "hungry",
+            "meaning": "おなかがすいた"
+        },
+        {
+            "word": "clock",
+            "meaning": "とけい"
+        },
+        {
+            "word": "stand up",
+            "meaning": "たちあがる"
+        }
+    ],
+    "sentences": [
+        {
+            "en": "Helen has a lot of comic books.",
+            "ja": "ヘレンは、まんがのほんをたくさんもっています。",
+            "focus": "fp1",
+            "point": "a lot of「たくさんの」",
+            "note": "a lot of で「たくさんの」。a と of のあいだに lot をいれて、ひとまとまりでつかう。"
+        },
+        {
+            "en": "What day is it today, Linda?",
+            "ja": "リンダ、きょうはなんよう日ですか。",
+            "focus": "fp2",
+            "point": "What day ～?「なんよう日」",
+            "note": "What day は「なんよう日」とたずねることば。このしつもんには、It's Wednesday. のように It's＋よう日でこたえる。"
+        },
+        {
+            "en": "Mr. Reed swims before breakfast every day.",
+            "ja": "リードさんは、まい日、あさごはんのまえにおよぎます。",
+            "focus": "fp3",
+            "point": "swims「s がつくかたち」",
+            "note": "Mr. Reed のように、わたし・あなた いがいの1人が ふだんすることは、swim に s をつけて swims にする。"
+        }
+    ],
+    "instruction": "次の(1)から(8)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を4線に書き写しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "My uncle's daughter is my (　).",
+            "choices": [
+                "sister",
+                "cousin",
+                "aunt",
+                "mother"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしのおじさんのむすめは、わたしのいとこです。",
+            "explanation": "uncle は「おじさん」、daughter は「むすめ」。おじさんのむすめは、じぶんの「いとこ」なので cousin をえらぶ。",
+            "choiceNotes": [
+                "sister「おねえさん・いもうと」",
+                "cousin「いとこ」",
+                "aunt「おばさん」",
+                "mother「おかあさん」"
+            ],
+            "tip": "じゅぎょうの He's my uncle Bob's son. とおなじ。おじさんのこどもは、むすこもむすめも cousin。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "There are a (　) of animals at this zoo.",
+            "choices": [
+                "many",
+                "much",
+                "lot",
+                "some"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "このどうぶつえんには、たくさんのどうぶつがいます。",
+            "explanation": "a lot of で「たくさんの」。まえに a、うしろに of があるので、lot をいれて a lot of のセットにする。",
+            "choiceNotes": [
+                "many「たくさん（かず）」",
+                "much「たくさん（りょう）」",
+                "lot「a lot of でたくさん」",
+                "some「いくつか」"
+            ],
+            "tip": "じゅぎょうの Helen has a lot of comic books. とおなじかたち。a lot of をまとめてかこう。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "A: Please (　) kind to your little sister, Ken.\nB: OK, Mom.",
+            "choices": [
+                "be",
+                "is",
+                "are",
+                "am"
+            ],
+            "answer": 1,
+            "copy": false,
+            "translation": "A：ケン、いもうとにやさしくしてね。\nB：わかったよ、おかあさん。",
+            "explanation": "please をつけて「～してね」とたのむぶんでは、どうしはもとのかたちをつかう。is・am・are のもとのかたちは be。",
+            "choiceNotes": [
+                "be「もとのかたち」",
+                "is「he・she などとつかう」",
+                "are「you などとつかう」",
+                "am「I とつかう」"
+            ],
+            "tip": "じゅぎょうの Tom, please be quiet here. とおなじかたち。please be をセットでいおう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp2",
+            "text": "A: (　) is Grandma now?\nB: She's in the kitchen.",
+            "choices": [
+                "When",
+                "Who",
+                "How",
+                "Where"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：おばあちゃんは、いまどこにいるの？\nB：だいどころにいるよ。",
+            "explanation": "B が in the kitchen（だいどころに）と、ばしょをこたえている。ばしょをたずねるときは Where（どこ）をつかう。",
+            "choiceNotes": [
+                "When「いつ」",
+                "Who「だれ」",
+                "How「どう・どのように」",
+                "Where「どこ」"
+            ],
+            "tip": "じゅぎょうの Where is Jimmy now? — In the school gym. とおなじ。こたえのばしょがヒント。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "A: What (　) is your art class?\nB: It's on Tuesday.",
+            "choices": [
+                "time",
+                "color",
+                "day",
+                "sport"
+            ],
+            "answer": 3,
+            "copy": false,
+            "translation": "A：あなたのずこうのじゅぎょうは、なんよう日？\nB：火よう日だよ。",
+            "explanation": "B が on Tuesday（火よう日に）と、よう日をこたえている。よう日をたずねるときは What day をつかう。",
+            "choiceNotes": [
+                "time「What time でなんじ」",
+                "color「いろ」",
+                "day「What day でなんよう日」",
+                "sport「スポーツ」"
+            ],
+            "tip": "じゅぎょうの What day is it today, Linda? とおなじ。B のよう日のこたえをさきによもう。"
+        },
+        {
+            "number": 6,
+            "focus": "fp3",
+            "text": "My father (　) in the park before breakfast.",
+            "choices": [
+                "run",
+                "runs",
+                "running",
+                "to run"
+            ],
+            "answer": 2,
+            "copy": true,
+            "translation": "わたしのおとうさんは、あさごはんのまえに、こうえんではしります。",
+            "explanation": "My father のように、わたし・あなた いがいの1人が ふだんすることをいうときは、run に s をつけて runs にする。",
+            "choiceNotes": [
+                "run「もとのかたち」",
+                "runs「s がついたかたち」",
+                "running「ing のかたち」",
+                "to run「to＋もとのかたち」"
+            ],
+            "tip": "じゅぎょうの Mr. Reed swims before breakfast every day. とおなじかたち。"
+        },
+        {
+            "number": 7,
+            "focus": "fp3",
+            "text": "A: Who is (　) the piano?\nB: It's my sister, Emi.",
+            "choices": [
+                "play",
+                "plays",
+                "played",
+                "playing"
+            ],
+            "answer": 4,
+            "copy": false,
+            "translation": "A：ピアノをひいているのはだれ？\nB：わたしのおねえさんのエミだよ。",
+            "explanation": "「いま～している」は is（am・are）＋～ing のかたち。Who（だれが）のすぐあとに is をおき、そのあとに playing をつづける。",
+            "choiceNotes": [
+                "play「もとのかたち」",
+                "plays「s がついたかたち」",
+                "played「まえのこと（かこ）」",
+                "playing「ing のかたち」"
+            ],
+            "tip": "じゅぎょうの Who is walking with Mr. Suzuki? とおなじ。「だれが～している？」は Who is ～ing。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "Our new English teacher is (　) Canada.",
+            "choices": [
+                "from",
+                "at",
+                "to",
+                "on"
+            ],
+            "answer": 1,
+            "copy": true,
+            "translation": "わたしたちのあたらしいえいごのせんせいは、カナダのしゅっしんです。",
+            "explanation": "be from ～ で「～のしゅっしん」。is from Canada で「カナダのしゅっしんです」といういみになる。",
+            "choiceNotes": [
+                "from「～から・～のしゅっしん」",
+                "at「～で（ばしょ）」",
+                "to「～へ」",
+                "on「～のうえに」"
+            ],
+            "tip": "じゅぎょうの Chris is from Australia. とおなじかたち。is from をセットでかこう。"
+        }
+    ],
+    "closing": "きょうは、まえとあとのヒントや、しつもんとこたえのつながりを、かきながらたしかめました。かいたぶんは、こえにだしてよみながら、もういちどかいてみましょう。まちがえたつづりは、Part 1 のおてほんでたしかめてから、ゆっくりかきなおしましょう。おうちの人とのかいわでも、What day is it today? を、つかってみてください。"
+}
