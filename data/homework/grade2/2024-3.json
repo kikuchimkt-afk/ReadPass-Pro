@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2024-3",
+    "title": "文法事項の確認",
+    "theme": "関係代名詞・形式目的語・仮定法過去完了・譲歩と目的の表現",
+    "aim": "授業で学んだ先行詞を含む関係代名詞、形式目的語を使う構文、過去の事実に反する仮定の表現、譲歩の接続詞と目的を表す不定詞を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "先行詞を含む関係代名詞と、先行詞のある関係代名詞を区別できる",
+        "形式目的語の構文で、本当の目的語と意味上の主語を見つけられる",
+        "過去の事実に反する仮定の文で、条件と結果の動詞の形を判断できる",
+        "譲歩の接続詞と前置詞、目的を表す不定詞を使い分けられる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "(　) worried the farmers most this summer was the lack of rain.",
+            "choices": [
+                "That",
+                "It",
+                "What",
+                "Where"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "この夏、農家の人たちが最も心配したのは、雨が少ないことだった。",
+            "explanation": "What から summer までが文の主語で、動詞は was。What は先行詞を含む関係代名詞で、節の中では worried の主語になっている。",
+            "choiceNotes": [
+                "That「先行詞がなく後ろも不完全」",
+                "It「文をつなぐ働きがない」",
+                "What「～こと・もの」",
+                "Where「後ろは完全な文」"
+            ],
+            "tip": "授業の What surprised me most was … と同じ形。先に動詞 was を見つける。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "We were all surprised by (　) we found inside the old box in my grandfather's room.",
+            "choices": [
+                "what",
+                "that",
+                "which",
+                "how"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "祖父の部屋にあった古い箱の中で見つけたものに、私たちはみな驚いた。",
+            "explanation": "前置詞 by の後ろには名詞のまとまりが入る。found の目的語が欠けているので、「～もの」を表す関係代名詞 what が入る。",
+            "choiceNotes": [
+                "what「～もの（先行詞を含む）」",
+                "that「先行詞がなく後ろも不完全」",
+                "which「先行詞が必要」",
+                "how「後ろは完全な文」"
+            ],
+            "tip": "授業の checking what he had written と同じく、what が後ろの動詞の目的語になっている。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "My uncle lives in (　) is called a \"smart house,\" so he can turn on the lights with his voice.",
+            "choices": [
+                "which",
+                "what",
+                "that",
+                "it"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "おじはいわゆる「スマートハウス」に住んでいるので、声で明かりをつけることができる。",
+            "explanation": "what is called ～ で「いわゆる～」。what は is called の主語で、what 以下全体が前置詞 in の目的語になる。",
+            "choiceNotes": [
+                "which「先行詞が必要」",
+                "what「～もの（先行詞を含む）」",
+                "that「先行詞が必要」",
+                "it「文をつなぐ働きがない」"
+            ],
+            "tip": "授業の what is called 'light pollution' と同じ形。「いわゆる」とセットで覚える。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "The city library has many books (　) are written in easy English.",
+            "choices": [
+                "what",
+                "whose",
+                "where",
+                "which"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "市の図書館には、やさしい英語で書かれた本がたくさんある。",
+            "explanation": "先行詞 books があり、are written の主語が欠けているので主格の which。what は先行詞を含むので、前の名詞を説明する関係詞としては使えない。",
+            "choiceNotes": [
+                "what「先行詞を含む」",
+                "whose「所有格」",
+                "where「関係副詞・後ろは完全な文」",
+                "which「主格・物」"
+            ],
+            "tip": "what は the thing(s) which の意味。books のような先行詞を説明するときは使えない。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "Online lessons have made it possible (　) students on small islands to learn from teachers in big cities.",
+            "choices": [
+                "of",
+                "for",
+                "by",
+                "with"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "オンライン授業のおかげで、小さな島の生徒も大都市の先生から学べるようになった。",
+            "explanation": "it は形式目的語で、本当の目的語は to learn 以下。to不定詞の意味上の主語「生徒が」は〈for＋A〉で表す。",
+            "choiceNotes": [
+                "of「kind など人の性質の後」",
+                "for「意味上の主語」",
+                "by「～によって」",
+                "with「～と一緒に」"
+            ],
+            "tip": "授業の has made it possible for us to … と同じ形。「～のおかげで」と訳すと自然。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "The noise from the road made it difficult (　) on my homework last night.",
+            "choices": [
+                "focus",
+                "focused",
+                "to focusing",
+                "to focus"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "昨夜は道路の騒音のせいで、宿題に集中するのが難しかった。",
+            "explanation": "it は形式目的語で、空所以下の「宿題に集中すること」が本当の目的語。to不定詞の to focus が入る。この to の後ろは動詞の原形。",
+            "choiceNotes": [
+                "focus「原形」",
+                "focused「過去形・過去分詞」",
+                "to focusing「不定詞は to＋原形」",
+                "to focus「to不定詞」"
+            ],
+            "tip": "授業の makes it difficult … to cool down と同じ形。it は to 以下を指す。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "The heavy snow made it (　) to drive on the mountain roads, so the bus tour was canceled.",
+            "choices": [
+                "impossible",
+                "impossibly",
+                "hardly",
+                "possibly"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "大雪で山道を車で走れなくなったので、バスツアーは中止になった。",
+            "explanation": "it の後ろは「～な状態に」を表す補語の位置なので、形容詞の impossible が入る。impossibly・hardly・possibly は副詞で、補語にならない。",
+            "choiceNotes": [
+                "impossible「形容詞・不可能な」",
+                "impossibly「副詞」",
+                "hardly「副詞・ほとんど～ない」",
+                "possibly「副詞・たぶん」"
+            ],
+            "tip": "授業の difficult・possible と同じく、この位置には形容詞が入る。副詞は入らない。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "If I had known about last week's sale, I (　) the jacket at half price.",
+            "choices": [
+                "could buy",
+                "can buy",
+                "could have bought",
+                "have bought"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "先週のセールのことを知っていたら、そのジャケットを半額で買えたのに。",
+            "explanation": "if 節が〈had＋過去分詞〉なので過去の事実と反対の仮定。セールも先週のことなので、結果も〈could have＋過去分詞〉で「～できたのに」となる。",
+            "choiceNotes": [
+                "could buy「現在の仮定」",
+                "can buy「現在」",
+                "could have bought「過去の仮定」",
+                "have bought「現在完了」"
+            ],
+            "tip": "授業の could have passed … if she had studied と同じ形。実際は買えなかった。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) your advice, I could have made a serious mistake in my speech yesterday.",
+            "choices": [
+                "Unless",
+                "Without",
+                "Although",
+                "Because"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "あなたの助言がなければ、私は昨日のスピーチで大きな間違いをしていたかもしれない。",
+            "explanation": "Without＋名詞で「～がなければ」と、if 節の代わりをする。空所の後ろは名詞だけなので、接続詞の Unless・Although・Because は入らない。",
+            "choiceNotes": [
+                "Unless「～しない限り（接続詞）」",
+                "Without「～がなければ」",
+                "Although「～だが（接続詞）」",
+                "Because「～なので（接続詞）」"
+            ],
+            "tip": "授業の without the diary と同じく、without が if 節の代わりをしている。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "Our team could have won the final if our best player (　) injured in the first half.",
+            "choices": [
+                "is not",
+                "has not been",
+                "would not be",
+                "had not been"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "いちばん上手な選手が前半でけがをしていなければ、私たちのチームは決勝で勝てたかもしれない。",
+            "explanation": "主節が could have won なので、過去の事実と反対の仮定。if 節は〈had＋過去分詞〉の過去完了にする。",
+            "choiceNotes": [
+                "is not「現在形」",
+                "has not been「現在完了」",
+                "would not be「主節で使う形」",
+                "had not been「過去完了」"
+            ],
+            "tip": "実際はけがをして勝てなかった、という事実の裏返し。授業の if she had studied harder と同じ形。"
+        },
+        {
+            "number": 11,
+            "focus": "fp4",
+            "text": "(　) Ken had practiced his speech many times, he still felt very nervous on the day of the contest.",
+            "choices": [
+                "Because",
+                "Unless",
+                "Even though",
+                "Despite"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "ケンはスピーチを何度も練習していたにもかかわらず、大会の当日はとても緊張した。",
+            "explanation": "何度も練習したのに緊張したという逆接の関係なので、譲歩の接続詞 Even though が入る。Despite は前置詞で、後ろに文を直接置けない。",
+            "choiceNotes": [
+                "Because「～なので」",
+                "Unless「～しない限り」",
+                "Even though「～にもかかわらず」",
+                "Despite「～にもかかわらず（前置詞）」"
+            ],
+            "tip": "授業の Even though he had some photos … と同じ形。still も逆接のヒント。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "(　) the heavy snow, the trains ran on schedule this morning.",
+            "choices": [
+                "Despite",
+                "Even though",
+                "Although",
+                "Because"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "大雪にもかかわらず、今朝、電車は予定どおりに運行した。",
+            "explanation": "空所の後ろは名詞 the heavy snow だけで、主語と動詞がない。名詞の前に置ける前置詞の Despite が入る。",
+            "choiceNotes": [
+                "Despite「前置詞・譲歩」",
+                "Even though「接続詞・譲歩」",
+                "Although「接続詞・譲歩」",
+                "Because「接続詞・理由」"
+            ],
+            "tip": "(11)の Even though と意味は近くても、後ろの形が違う。名詞だけなら Despite を選ぶ。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "(　) that she would not miss the first train, Yuki set two alarms before going to bed.",
+            "choices": [
+                "Make sure",
+                "Made sure",
+                "Makes sure",
+                "To make sure"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "始発電車に確実に乗り遅れないように、ユキは寝る前に目覚ましを2つセットした。",
+            "explanation": "文頭の To make sure ～ は目的を表す不定詞で「確実に～するために」。文の主語 Yuki と動詞 set は、コンマの後ろにある。",
+            "choiceNotes": [
+                "Make sure「原形」",
+                "Made sure「過去形」",
+                "Makes sure「3単現」",
+                "To make sure「目的を表す不定詞」"
+            ],
+            "tip": "授業の To make sure he knows … と同じ形。コンマの前までを「～するために」「～ように」と訳す。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "Many tourists visit this small town in winter (　) its famous hot springs.",
+            "choices": [
+                "enjoy",
+                "to enjoy",
+                "enjoyed",
+                "for enjoy"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "冬には、有名な温泉を楽しむために、多くの観光客がこの小さな町を訪れる。",
+            "explanation": "「温泉を楽しむために」と目的を表すので、to不定詞の to enjoy が入る。for の後ろに動詞の原形は置かない。",
+            "choiceNotes": [
+                "enjoy「原形」",
+                "to enjoy「目的を表す不定詞」",
+                "enjoyed「過去形・過去分詞」",
+                "for enjoy「for の後ろに原形は不可」"
+            ],
+            "tip": "(13)は文頭、この問題は文の後ろ。どちらの位置でも、to不定詞で目的を表せる。"
+        }
+    ],
+    "closing": "2級の大問1は語彙や熟語の問題が中心ですが、今回の構文はどれも、大問2・3の長文の中で使われていました。what のまとまりや形式目的語の it は、どこまでが主語や目的語なのかを見きわめると、長い文も落ち着いて読めます。間違えた問題は授業の英文と並べて音読し、長文で出会ったときに「同じ形だ」と気づけるようにしましょう。"
+}

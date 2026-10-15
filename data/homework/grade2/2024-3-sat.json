@@ -1,0 +1,325 @@
+{
+    "grade": "grade2",
+    "exam": "2024-3-sat",
+    "title": "文法事項の確認",
+    "theme": "受動態と完了不定詞・条件と手段・譲歩と比較・結果の分詞構文",
+    "aim": "授業で学んだ、受動態と完了不定詞の構文、条件や手段を表す表現と文をつなぐ表現、譲歩の接続詞と数や量の比較、結果を表す分詞構文と形式目的語を、新しい英文の中で使い分けられるようにする。★の問題では、構文の意味が表れた自然な日本語に訳す。",
+    "goals": [
+        "受動態＋不定詞の文と形式主語の文で、時と態に合う形を選べる",
+        "条件・手段を表す表現と、文をつなぐ表現を文脈から選べる",
+        "譲歩の接続詞、名詞に合う比較の形、文修飾の副詞を選べる",
+        "結果の分詞構文と形式目的語の文で、正しい形を判断できる"
+    ],
+    "instruction": "次の(1)から(14)までの(　)に入れるのに最も適切なものを1，2，3，4の中から一つ選びなさい。★の問題は，完成した英文を下の線に全訳しなさい。",
+    "questions": [
+        {
+            "number": 1,
+            "focus": "fp1",
+            "text": "The famous painter is believed (　) in this small fishing village in the 1920s.",
+            "choices": [
+                "to live",
+                "living",
+                "to have lived",
+                "lived"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "その有名な画家は、1920年代にこの小さな漁村に住んでいたと信じられている。",
+            "explanation": "「信じられている」のは今、「住んでいた」のは1920年代。is believed より前のことは、完了不定詞 to have＋過去分詞で表す。",
+            "choiceNotes": [
+                "to live「同じ時のこと」",
+                "living「-ing 形」",
+                "to have lived「それより前のこと」",
+                "lived「過去形・過去分詞」"
+            ],
+            "tip": "授業の are believed to have become と同じ形。「～したと信じられている」と訳す。"
+        },
+        {
+            "number": 2,
+            "focus": "fp1",
+            "text": "This clay pot is thought (　) by people in this area about 3,000 years ago.",
+            "choices": [
+                "to have been made",
+                "to make",
+                "to be made",
+                "to have made"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "この土器は、約3,000年前にこの地域の人々によって作られたと考えられている。",
+            "explanation": "土器は「作られる」側なので受け身、約3,000年前のことなので完了形。両方を合わせた to have been＋過去分詞になる。",
+            "choiceNotes": [
+                "to have been made「作られた」",
+                "to make「作る」",
+                "to be made「作られる」",
+                "to have made「作った」"
+            ],
+            "tip": "(1)は画家が「住んだ」、この問題は土器が「作られた」。する側かされる側かで形を決める。"
+        },
+        {
+            "number": 3,
+            "focus": "fp1",
+            "text": "Dolphins (　) to be among the most intelligent animals in the ocean.",
+            "choices": [
+                "say",
+                "saying",
+                "have said",
+                "are said"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "イルカは、海で最も賢い動物の一つだと言われている。",
+            "explanation": "主語のイルカは「言われる」側なので受動態の are said。be said to do で「～だと言われている」。to be は今のことを表す。",
+            "choiceNotes": [
+                "say「言う（能動）」",
+                "saying「-ing 形」",
+                "have said「言った（現在完了）」",
+                "are said「言われている」"
+            ],
+            "tip": "It is said that dolphins are ～ と書きかえられる。(4)の形と見比べよう。"
+        },
+        {
+            "number": 4,
+            "focus": "fp1",
+            "text": "It is believed that the island (　) connected to the mainland thousands of years ago.",
+            "choices": [
+                "is",
+                "was",
+                "to be",
+                "being"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "その島は数千年前、本土とつながっていたと信じられている。",
+            "explanation": "It is believed that S V の that 節には、主語に続く述語動詞が必要。数千年前のことなので過去形の was を選ぶ。",
+            "choiceNotes": [
+                "is「現在形」",
+                "was「過去形」",
+                "to be「不定詞」",
+                "being「-ing 形」"
+            ],
+            "tip": "The island is believed to have been ～ と書きかえると、(2)と同じ形。"
+        },
+        {
+            "number": 5,
+            "focus": "fp2",
+            "text": "You can borrow my tablet (　) you give it back to me by Friday.",
+            "choices": [
+                "as soon as",
+                "as long as",
+                "as far as",
+                "as well as"
+            ],
+            "answer": 2,
+            "translate": true,
+            "translation": "金曜日までに返してくれさえすれば、私のタブレットを借りてもいいよ。",
+            "explanation": "as long as S V は「SがVしさえすれば・～する限り」という条件を表す。「金曜日までに返す」ことが、借りるための条件になっている。",
+            "choiceNotes": [
+                "as soon as「～するとすぐに」",
+                "as long as「～しさえすれば」",
+                "as far as「～する範囲では」",
+                "as well as「～も」"
+            ],
+            "tip": "授業の As long as they learn how to ～ と同じ条件の表現。「～さえすれば」と訳す。"
+        },
+        {
+            "number": 6,
+            "focus": "fp2",
+            "text": "By (　) a little money every week, Ken finally bought a new guitar.",
+            "choices": [
+                "save",
+                "saved",
+                "saving",
+                "to save"
+            ],
+            "answer": 3,
+            "translate": false,
+            "translation": "毎週少しずつお金をためることで、ケンはついに新しいギターを買った。",
+            "explanation": "By＋動名詞で「～することによって」と手段を表す。前置詞 by の後ろなので、動詞は -ing 形の saving にする。",
+            "choiceNotes": [
+                "save「原形」",
+                "saved「過去形・過去分詞」",
+                "saving「動名詞」",
+                "to save「不定詞」"
+            ],
+            "tip": "授業の By putting together ～ と同じ形。前置詞の後ろの動詞は -ing 形にする。"
+        },
+        {
+            "number": 7,
+            "focus": "fp2",
+            "text": "Emma's father and my father are brothers. (　), Emma and I are cousins.",
+            "choices": [
+                "That is to say",
+                "On the other hand",
+                "For example",
+                "Even so"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "エマの父と私の父は兄弟だ。つまり、エマと私はいとこどうしだ。",
+            "explanation": "後ろの文は、前の文の内容を別の言い方で表している。前の文を言い換えるときは That is to say「つまり」などを使う。",
+            "choiceNotes": [
+                "That is to say「つまり」",
+                "On the other hand「一方で」",
+                "For example「例えば」",
+                "Even so「それでも」"
+            ],
+            "tip": "授業の That is to say と同じ働き。In other words もほぼ同じ意味で使える。"
+        },
+        {
+            "number": 8,
+            "focus": "fp3",
+            "text": "(　) the new café is smaller than the old one, it serves more customers a day.",
+            "choices": [
+                "Despite",
+                "Unless",
+                "Until",
+                "Although"
+            ],
+            "answer": 4,
+            "translate": true,
+            "translation": "新しいカフェは前の店よりも小さいけれども、1日により多くの客を迎えている。",
+            "explanation": "「小さい」のに「客は多い」という予想と逆の内容をつなぐ譲歩の接続詞 Although。Despite は前置詞なので後ろに S V は続かない。",
+            "choiceNotes": [
+                "Despite「～にもかかわらず（前置詞）」",
+                "Unless「～しない限り」",
+                "Until「～まで」",
+                "Although「～だけれども」"
+            ],
+            "tip": "授業の Although fewer customers ～, more customers ～ と同じ対比の形。"
+        },
+        {
+            "number": 9,
+            "focus": "fp3",
+            "text": "(　) people came to the summer festival this year than last year, but the shops sold more food.",
+            "choices": [
+                "Few",
+                "Fewer",
+                "Much",
+                "More"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "今年の夏祭りは去年より来場者が少なかったが、店ではより多くの食べ物が売れた。",
+            "explanation": "than があるので比較級が必要。people は数えられる名詞なので fewer。but でつながるので、後半の more と反対の内容になる。",
+            "choiceNotes": [
+                "Few「ほとんどない（原級）」",
+                "Fewer「より少ない（数）」",
+                "Much「多くの（量）」",
+                "More「より多い」"
+            ],
+            "tip": "授業の fewer customers と more customers のように、少ない側と多い側を対比させる文。"
+        },
+        {
+            "number": 10,
+            "focus": "fp3",
+            "text": "This washing machine uses (　) water than our old one, but it cleans clothes better.",
+            "choices": [
+                "less",
+                "fewer",
+                "little",
+                "few"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "この洗濯機は前のものより使う水が少ないが、服をよりきれいに洗える。",
+            "explanation": "water は数えられない名詞なので、量が「より少ない」ことは less で表す。後ろに than があるので比較級が必要。",
+            "choiceNotes": [
+                "less「より少ない（量）」",
+                "fewer「より少ない（数）」",
+                "little「ほとんどない（量）」",
+                "few「ほとんどない（数）」"
+            ],
+            "tip": "(9)の people は数えられる名詞なので fewer。後ろの名詞が数えられるかどうかで選ぶ。"
+        },
+        {
+            "number": 11,
+            "focus": "fp3",
+            "text": "(　), the cheaper model sold far better than the expensive one.",
+            "choices": [
+                "Surprise",
+                "Surprised",
+                "Surprising",
+                "Surprisingly"
+            ],
+            "answer": 4,
+            "translate": false,
+            "translation": "驚いたことに、安いほうの機種が高いほうよりもはるかによく売れた。",
+            "explanation": "文全体を修飾して「驚いたことに」と書き手の気持ちを表す副詞 Surprisingly。Surprised だと「機種が驚いた」ことになる。",
+            "choiceNotes": [
+                "Surprise「名詞・動詞」",
+                "Surprised「驚いた」",
+                "Surprising「驚くべき」",
+                "Surprisingly「驚いたことに」"
+            ],
+            "tip": "授業の Surprisingly, the result was ～ と同じ使い方。意外な結果を述べる目印になる。"
+        },
+        {
+            "number": 12,
+            "focus": "fp4",
+            "text": "A large tree fell across the road, (　) it difficult for cars to pass.",
+            "choices": [
+                "make",
+                "made",
+                "making",
+                "makes"
+            ],
+            "answer": 3,
+            "translate": true,
+            "translation": "大きな木が道路をふさぐように倒れ、その結果、車が通るのが難しくなった。",
+            "explanation": "前の出来事の結果を表す分詞構文 making it C to V で「その結果～するのを…にする」。made では接続詞なしに動詞が2つ並ぶ。",
+            "choiceNotes": [
+                "make「原形」",
+                "made「過去形・過去分詞」",
+                "making「-ing 形（分詞構文）」",
+                "makes「3単現」"
+            ],
+            "tip": "授業の ～, making it difficult to compare と同じ形。「その結果」と前から訳す。"
+        },
+        {
+            "number": 13,
+            "focus": "fp4",
+            "text": "The bridge built last year makes it (　) to travel between the two islands by car.",
+            "choices": [
+                "possible",
+                "possibly",
+                "possibility",
+                "possibilities"
+            ],
+            "answer": 1,
+            "translate": false,
+            "translation": "昨年できた橋のおかげで、2つの島の間を車で行き来できる。",
+            "explanation": "make it＋形容詞＋to V で「～することを…にする」。it は形式目的語で to travel 以下を指し、補語には形容詞 possible が入る。",
+            "choiceNotes": [
+                "possible「形容詞」",
+                "possibly「副詞」",
+                "possibility「名詞」",
+                "possibilities「名詞の複数形」"
+            ],
+            "tip": "物が主語で make it possible to V のときは「～のおかげで…できる」と訳すと自然。"
+        },
+        {
+            "number": 14,
+            "focus": "fp4",
+            "text": "A simple online system made it easier for students (　) books from the school library.",
+            "choices": [
+                "borrow",
+                "to borrow",
+                "borrowed",
+                "borrows"
+            ],
+            "answer": 2,
+            "translate": false,
+            "translation": "簡単なオンラインのシステムで、生徒が学校の図書館で本を借りるのが楽になった。",
+            "explanation": "make it＋C＋for A＋to V で「Aが～するのを…にする」。it の中身になる to 不定詞 to borrow が for students の後ろに続く。",
+            "choiceNotes": [
+                "borrow「原形」",
+                "to borrow「不定詞」",
+                "borrowed「過去形・過去分詞」",
+                "borrows「3単現」"
+            ],
+            "tip": "for students は to borrow の意味上の主語。「生徒が借りる」と主語・述語の関係で訳す。"
+        }
+    ],
+    "closing": "今回の「～したと考えられている」の構文や、結果を表す分詞構文は、2級の長文で、研究の結果や歴史上の出来事を説明するときに使われることがあります。文の骨組みが分かると、長い文も落ち着いて読めます。間違えた問題は授業の英文と並べて音読し、「同じ形だ」と気づけるようにしましょう。"
+}
