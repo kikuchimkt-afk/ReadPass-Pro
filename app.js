@@ -59,9 +59,12 @@
     await loadExam(gradeId, examId);
 
     // QRロックモード: ?nav=1 がない場合（QRコードからの直接アクセス）
-    // ホームリンクのみ非表示にする
+    // ホームリンクのみ非表示にする。プリント作成ボタンは教師用なので nav=1 のときだけ出す
     if (!params.get('nav')) {
       applyLockedMode();
+    } else {
+      const btnPrintBuilder = document.getElementById('btnPrintBuilder');
+      if (btnPrintBuilder) btnPrintBuilder.style.display = '';
     }
   }
 
@@ -1311,6 +1314,12 @@
   }
 
   // ===== PRINT =====
+  // 過去問プリント作成（print.html）を、この級・この回を選んだ状態で別のタブに開く
+  APP.openPrintBuilder = function () {
+    const q = new URLSearchParams({ grade: currentGradeId, exam: currentExamId });
+    window.open(`print.html?${q}`, '_blank', 'noopener');
+  };
+
   APP.showPrintMenu = function () {
     // Dynamically update section buttons based on DATA.sections
     const modal = document.getElementById('printModal');

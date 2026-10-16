@@ -1087,16 +1087,32 @@
         const gradeId = params.get('grade');
         const examId = params.get('exam');
         if (params.get('homework') !== '1' || !homeworkIndex[`${gradeId}/${examId}`]) return;
-        const grades = EXAM_CATALOG.filter(g => g.exams.length);
-        const chip = gradeChips.querySelectorAll('.grade-chip')[grades.findIndex(g => g.id === gradeId)];
-        if (!chip) return;
-        chip.click();
-        const box = [...examCheckboxes.querySelectorAll('input[type="checkbox"]')].find(cb => cb.value === examId);
-        if (!box) return;
-        box.checked = true;
-        box.dispatchEvent(new Event('change'));
+        if (!selectExam(gradeId, examId)) return;
         teacherMaterials.scrollIntoView({ block: 'center' });
         openHomeworkDialog(examId);
+    }
+
+    // Link from the study page's プリント作成 button: print.html?grade=…&exam=…
+    // selects the grade and exam. Homework links wait for openHomeworkFromUrl instead.
+    function selectExamFromUrl() {
+        const params = new URLSearchParams(location.search);
+        if (params.get('homework') === '1') return;
+        const box = selectExam(params.get('grade'), params.get('exam'));
+        if (box) box.closest('label').scrollIntoView({ block: 'center' });
+    }
+
+    // Clicks the grade chip and checks the exam box, as a teacher would.
+    // Returns the checkbox, or null when the grade or exam is not in the catalog.
+    function selectExam(gradeId, examId) {
+        const grades = EXAM_CATALOG.filter(g => g.exams.length);
+        const chip = gradeChips.querySelectorAll('.grade-chip')[grades.findIndex(g => g.id === gradeId)];
+        if (!chip) return null;
+        chip.click();
+        const box = [...examCheckboxes.querySelectorAll('input[type="checkbox"]')].find(cb => cb.value === examId);
+        if (!box) return null;
+        box.checked = true;
+        box.dispatchEvent(new Event('change'));
+        return box;
     }
 
     // ===== Render Grade Chips =====
@@ -2214,5 +2230,6 @@
 
     // ===== Init =====
     renderGradeChips();
+    selectExamFromUrl();
 
 })();
